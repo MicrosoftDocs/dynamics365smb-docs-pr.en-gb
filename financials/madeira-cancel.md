@@ -1,0 +1,44 @@
+---
+title: Cancelling Dynamics 365 for Financials | Microsoft Docs
+description: Describes how to cancel your Dynamics 365 for Financials experience.
+services: project-madeira
+documentationcenter: 
+author: edupont04
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: remove, delete
+ms.date: 03/28/2017
+ms.author: edupont
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
+ms.openlocfilehash: 7cac3c42b47358e35b35891f42300b209bf37ec3
+ms.contentlocale: en-gb
+ms.lasthandoff: 05/04/2017
+
+
+---
+# <a name="canceling-dynamics-365-for-financials"></a>Cancelling Dynamics 365 for Financials
+When you have signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)], you can choose to cancel your subscription at any time. Similarly, you can choose to reset the company that you can been using in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For a quick overview, see [the [!INCLUDE[d365fin](includes/d365fin_md.md)] blog](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
+
+## <a name="unsubscribing-by-removing-included365finincludesd365finmdmd-from-your-office-365-experience"></a>Unsubscribing by removing [!INCLUDE[d365fin](includes/d365fin_md.md)] from your Office 365 experience
+If you have subscribed for [!INCLUDE[d365fin](includes/d365fin_md.md)] using an existing Office 365 business account, you must ask your Office 365 administrator to remove the [!INCLUDE[d365fin](includes/d365fin_md.md)] license from your user account.  
+User accounts and licenses are managed in the [Office Portal](https://portal.office.com). Only administrators can remove [!INCLUDE[d365fin](includes/d365fin_md.md)] licenses from user accounts. The Office 365 administrator can remove [!INCLUDE[d365fin](includes/d365fin_md.md)] from your user account or remove the subscription from your company's account. If [!INCLUDE[d365fin](includes/d365fin_md.md)] is removed from your user account, and other people from your company continue the subscription, they will still have access to your shared data in the [!INCLUDE[d365fin](includes/d365fin_md.md)] company.  
+
+## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>Unsubscribing from [!INCLUDE[d365fin](includes/d365fin_md.md)] without Office 365
+If you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)] using a non-Office 365 business account, you do not have an Office 365 administrator. Instead, you must unsubscribe by contacting the [!INCLUDE[d365fin](includes/d365fin_md.md)] Cancelation team. Currently, you must contact the team by sending an email message at cancel-madeira@microsoft.com. You must include the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant in the message so that we can identify you. The easiest way to do that is to copy the URL from your [!INCLUDE[d365fin](includes/d365fin_md.md)] Home page.  
+
+## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Resetting your [!INCLUDE[d365fin](includes/d365fin_md.md)] experience
+If you have added data to your [!INCLUDE[d365fin](includes/d365fin_md.md)] preview and you want to start over with a fresh experience, you can create a new company and then reset the first company. If you open the **Companies** page, you can create a copy of your current company, sign out and then sign into your new company, and then reset the original company.  
+**Note**: When you reset a company that you are sharing with other people from your organisation, you must make sure other people are not logged in when you reset the company.  
+
+## <a name="removing-included365finincludesd365finmdmd-from-your-app-launcher"></a>Removing [!INCLUDE[d365fin](includes/d365fin_md.md)] from your app launcher
+If you want to hide [!INCLUDE[d365fin](includes/d365fin_md.md)] from your app launcher, you can quite simply unpin it. This does not remove any data, and it does not cancel your subscription.  
+
+## <a name="see-also"></a>See Also
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Office Portal](https://portal.office.com)  
+[How long is the trial period and how do I cancel?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+
