@@ -1,6 +1,6 @@
 ---
-title: Setting Up Purchasing| Microsoft Docs
-description: Setting Up Purchasing
+title: Overview of Tasks to Set Up Purchasing | Microsoft Docs
+description: Describes the tasks to define your company's procurement policies and set up your purchasing processes.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dbefd446d58395ce6aeb85bbb0e29be343acba0b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,11 +33,10 @@ Finance-related purchase setup, such as payment methods and currencies, are cove
 | --- | --- |
 | Create a vendor card for each vendor that you purchase from. |[How to: Register New Vendors](purchasing-how-register-new-vendors.md) |
 | Enter the different discounts and special prices that vendors grant you depending on item, quantities, and/or date. |[How to: Record Purchase Price, Discount, and Payment Agreements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-|Learn how [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically optimizes your profit on trade when you record special price/discount agreements.|[Advanced: Best Price Calculation](advanced-best-price-calculation.md) |
 | Prioritise vendors. |[How to: Prioritize Vendors](purchasing-how-prioritize-vendors.md) |
 | Set up purchasers. |[How to: Set Up Purchasers](purchasing-how-setup-purchasers.md) |
 
 ## <a name="see-also"></a>See Also
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

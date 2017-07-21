@@ -1,6 +1,6 @@
 ---
-title: Ceridian Payroll| Microsoft Docs
-description: Provides information about the Ceridian Payroll extension
+title: Importing Payroll or Salary Data Using the Ceridian Payroll Extension | Microsoft Docs
+description: Use this extension to import payroll transactions from the Ceridian HR/Payroll (US) and Ceridian PowerPay (Canada) services.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b3e5786788f9d5bc88ac6d6b170ebe8a6f03d89e
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 18b1dcd66b6816adc9fcb8b86d4f55834f51fd02
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,5 +30,5 @@ The Ceridian Payroll extension allows you to import payroll transactions from th
 ## <a name="see-also"></a>See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)    
 [Finance](finance.md)    
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

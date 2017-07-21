@@ -1,6 +1,6 @@
 ---
-title: Customising Your Dynamics 365 for Financials Experience| Microsoft Docs
-description: Learn what the user experience tiers mean for you in Dynamics 365 for Financials
+title: Choosing the User Experience to Show or Hide Advanced Features | Microsoft Docs
+description: Learn what the Basic and Suite user experience tiers mean for the user interface, application areas, and your company in Dynamics 365 for Financials.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: Suite, Basic, user interface, application area
+ms.search.keywords: Suite, Basic, user interface, application area
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6b9dcc81565818deec3100e182eb2fbd0e4c69a3
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6add50f8d24d75e58abd12d110c881628d1fa6d9
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,7 +25,8 @@ ms.lasthandoff: 05/04/2017
 ## <a name="choosing-a-user-experience"></a>Choosing a user experience
 The user experience determines how much of the core functionality is available when you and your colleagues use [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can choose the user experience for your company in the **Company Information** window, in the **Experience** field.
 
-**Note**: This setting applies to all users in your company.
+> [!NOTE]  
+>   This setting applies to all users in your company.
 
 ![Experience](media/ui-experience/experience.gif)
 
@@ -39,6 +40,6 @@ The following table lists the experiences that are currently available.
 ## <a name="see-also"></a>See also 
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -1,6 +1,6 @@
 ---
 title: Reporting 1099 Transactions in the US | Microsoft Docs
-description: On your purchase documents, you can specify that the document is 1099 liable, and you can specify the 1099 code for the vendor.
+description: The IRS requires the 1099 tax form for payments to vendors and you can specify a purchase document is 1099 liable and specify the 1099 code for the vendor.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,15 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a0a31c28b6c96dc80593ac3862b97b36c3ec81c7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c20c52927aa979e56aeef7975fbcee1564ca4dd7
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="reporting-1099-transactions-in-the-us"></a>Reporting 1099 Transactions in the US
+# <a name="reporting-transactions-as-1099-liable-in-the-us"></a>Reporting Transactions as 1099 Liable in the US
+
 The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax form for payments to vendors. Copies of these forms must be sent to vendors annually on or before the last day of January. On your purchase documents, you can specify that the document is 1099 liable, and you can specify the 1099 code for the vendor.  
 
 ## <a name="1099-codes"></a>1099 codes
@@ -55,5 +56,5 @@ It may be helpful to run the **Vendor 1099 Information** report to review the da
 ## <a name="see-also"></a>See Also
 [How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
 [How to: Record Purchase](purchasing-how-record-purchases.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

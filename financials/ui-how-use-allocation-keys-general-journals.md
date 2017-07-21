@@ -13,10 +13,10 @@ ms.search.keywords: cost accounting
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 47209e29f8baea497a3a9267d37f270a92950dcb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bbacf9b5634d51478dd4d54ac4b587ea9bfaaf99
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 You can allocate an entry in a general journal to several different accounts when you post the journal. The allocation can be made by quantity, percentage, or amount.
 
 ## <a name="to-set-up-allocation-keys"></a>To set up allocation keys
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Recurring General Journal**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.
 2. Choose the **Batch Name** field to open the **General Journal Batches** window.
 3. You can either modify allocations on an existing batch in the list or create a new batch with allocations.
    * To create a new batch, choose the **New** action, and go to the next step.
@@ -39,13 +39,13 @@ You can allocate an entry in a general journal to several different accounts whe
 11. Post the journal.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>To change an allocation key that has already been set up
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Recurring General Journal**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.
 2. In the **Recurring General Journal** window, select the journal with the allocation.
 3. Choose the line with the allocation, and then choose **Allocations** action.
-4. Change the relevant fields, and choose the **OK** button.
+4. Change the relevant fields, and then choose the **OK** button.
 
 ## <a name="see-also"></a>See Also
-[Working With General Journals](ui-work-general-journals.md)  
+[Working with General Journals](ui-work-general-journals.md)  
 [Posting Documents and Journals](ui-post-documents-journals.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: General Business Functionality | Microsoft Docs
-description: Learn more about functionality that is common across business areas in Dynamics 365 for Financials
+title: Using General Functionality Across Business Areas | Microsoft Docs
+description: Learn about the functionality and features that are used across business areas in Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ced9a91de3599b276c277ad96b513eb8e7f0553b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 50205c6831d3ed7e419711484de4ac5da886fe5b
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,7 +32,7 @@ The following table lists these general business areas with links to topics that
 | Change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md) |
 | Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Managing General Journals](ui-work-general-journals.md) |
 | Communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers. |[How to: Send Documents by Email](ui-how-send-documents-email.md) |
-| Allocate an entry in a general journal to several different accounts when you post the journal. |[How to: Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md) |
+| Allocate an entry in a general journal to several different accounts when you post the journal. |[How to: Allocate Costs and Income](year-allocate-costs-income.md) |
 | Schedule a report to run at a specific date and time. |[Schedule a report to run](ui-schedule-report.md) |
 | Manage different types of report layouts. |[Managing Report Layouts](ui-manage-report-layouts.md) |
 | Request and grant approval to create or change certain documents and cards. |[Use Approval Workflows](across-how-use-approval-workflows.md) |

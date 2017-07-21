@@ -1,6 +1,6 @@
 ---
-title: Supply Chain| Microsoft Docs
-description: Learn about key supply chain concepts and processes
+title: Supply Chain Features Supported by Financials| Microsoft Docs
+description: Get a product overview and learn about key supply chain concepts and processes that are part of the ERP solution.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product overview, ERP
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ed8437f5d1b7628f256bb435de8ba13bd64a8f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3bae84075dc505aa9318590b1fac06e4844ffafe
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="supply-chain"></a>Supply Chain
+# <a name="overview-of-supply-chain-functionality"></a>Overview of Supply Chain Functionality
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supports common supply chain processes, although limited to the needs of wholesale and distribution companies without managed warehouse handling.
 
 In addition to sales invoice documents, you can manage your order fulfillment with sales orders allowing you to ship parts of an order quantity, for example, because the full quantity is not available at once. You can have items drop shipped directly from a vendor to a customer by linking the sales order to the related purchase order.
@@ -36,7 +36,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | To | See |
 | --- | --- |
 | Register new customers, make sales offers, sell products on orders or invoices, for example as drop shipments, and manage sales returns. |[Sales](sales-manage-sales.md) |
-| Register new vendors, purchase products on orders or invoices, for example initiated from a sales invoice, and manage purchase returns. |[Purchasing](purchasing-manage-purchasing.md) |
+| Register new vendors, purchase items on orders or invoices, for example initiated from a sales invoice, and manage purchase returns. |[Purchasing](purchasing-manage-purchasing.md) |
 | Register new physical or service products, adjust inventory quantities, and manage the inventory value by posting adjusted costs to the general ledger. |[Inventory](inventory-manage-inventory.md) |
 
 ## <a name="see-also"></a>See Also
@@ -44,6 +44,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Receivables](receivables-manage-receivables.md)     
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Managing Payables](payables-manage-payables.md)    
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Register New Customers| Microsoft Docs'
-description: 'How to: Register New Customers'
+title: Create a Customer Card to Register New Customers | Microsoft Docs
+description: Describes how to create a customer card to register information about each new customer or client that you sell to.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6789e6a4129789e950c7f71ff86e62263ae9c087
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ca4f1880e7a95eaf945d48ca2cdd7b3d5f80a621
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,7 +25,8 @@ Customers are the source of your income. You must register each customer you sel
 
 Before you can register new customers, you must set up various sales codes that you can select from when you fill in customer cards. For more information, see [Set Up Sales](sales-setup-sales.md).
 
-**Note**: If customer templates exist for different customer types, then a window appears when you create a new customer card from where you can select an appropriate template. If only one customer template exists, then new customer cards always use that template.
+> [!NOTE]  
+>   If customer templates exist for different customer types, then a window appears when you create a new customer card from where you can select an appropriate template. If only one customer template exists, then new customer cards always use that template.
 
 ## <a name="to-create-a-new-customer-card"></a>To create a new customer card
 1. On the Home page, choose the **Customers** action to open the list of existing customers.  
@@ -56,5 +57,5 @@ The customer template is added to the list of customer templates, so that you ca
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)    
 [Setting Up Sales](sales-setup-sales.md)    
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

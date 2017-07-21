@@ -1,5 +1,5 @@
 ---
-title: Sales| Microsoft Docs
+title: Overview of Tasks to Manage Sales | Microsoft Docs
 description: Describes how to manage sales activities.
 services: project-madeira
 documentationcenter: 
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/27/2017
+ms.date: 06/30/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d8b73dcf1ee000bd13aec200c82275eb3c0f9d1d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ebdcfc8c2be94398c1ebd7d5268a94b568e3b23b
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -46,6 +46,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Create a sales quote where you offer products on negotiable terms before converting the quote to a sales invoice. |[How to: Make Offers](sales-how-make-offers.md) |
 | Create a sales invoice to record your agreement with a customer to sell products on certain delivery and payment terms. |[How to: Invoice Sales](sales-how-invoice-sales.md) |
 | Process a sales order that involves partial shipping or drop shipment. |[How to: Sell Products](sales-how-sell-products.md) |
+|Set up standard sales or purchase lines that you can quickly insert on documents, for example, for recurring replenishment orders.|[How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)|  
 | Link a sales order to a purchase order to sell a drop-shipment item that will be delivered directly from your vendor to your customer. |[How to: Make Drop Shipments](sales-how-drop-shipment.md) |
 | Perform an action on an unpaid posted sales invoice to automatically create a credit memo and either cancel the sales invoice or recreate it so you can make corrections. |[How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md) |
 | Create a sales credit memo to revert a specific posted sales invoice to reflect which products the customer returns and which payment amount you will refund. |[How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md) |
@@ -57,7 +58,8 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Payables](payables-manage-payables.MD)  
 [Project Management](projects-manage-projects.md)    
 [Supply Chain](madeira-supply-chain.md)      
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

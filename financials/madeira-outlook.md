@@ -1,6 +1,6 @@
 ---
-title: Using Dynamics 365 for Financials as your Business Inbox in Outlook | Microsoft Docs
-description: Using Dynamics 365 for Financials as your Business Inbox in Outlook
+title: Using Dynamics 365 for Financials with Outlook| Microsoft Docs
+description: Dynamics 365 for Financials has deep integration with Office 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a872c8817c412953a64cb1adb8f8234f2801e8fa
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

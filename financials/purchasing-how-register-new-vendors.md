@@ -1,6 +1,6 @@
 ---
-title: 'How to: Register New Vendors| Microsoft Docs'
-description: Learn how to add vendors to your Financials.
+title: Create a Vendor Card to Register a New Vendor | Microsoft Docs
+description: Learn how to create a vendor card to register a new vendor or supplier.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3420a91200b64ea0672d5757a0104c6806fc607f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 78710d796ed73d7b4c2505f6cbb8c7d5f41d7320
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Before you can register new vendors, you must set up various purchase codes that
 
 Vendor cards hold the information that is required to buy products from the vendor. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md) and [How to: Register New Items](inventory-how-register-new-items.md).
 
-**Note**: If vendor templates exist for different vendor types, then a window appears when you create a new vendor card from where you can select an appropriate template. If only one vendor template exists, then new vendor cards always use that template.
+> [!NOTE]  
+>   If vendor templates exist for different vendor types, then a window appears when you create a new vendor card from where you can select an appropriate template. If only one vendor template exists, then new vendor cards always use that template.
 
 ## <a name="to-create-a-new-vendor-card"></a>To create a new vendor card
 1. On the Home page, choose **Vendors** to open the list of existing vendors.  
@@ -53,5 +54,5 @@ If you want to use this vendor card as a template when you create new vendor car
 ## <a name="see-also"></a>See Also
 [Purchasing](purchasing-manage-purchasing.md)  
 [How to: Record Purchases](purchasing-how-record-purchases.md)   
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

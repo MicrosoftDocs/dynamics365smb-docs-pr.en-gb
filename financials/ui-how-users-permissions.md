@@ -1,6 +1,6 @@
 ---
-title: 'How to: Manage Users and Permissions | Microsoft Docs'
-description: Manage permission sets for users after you have created users in Office 365.
+title: Assign User Permissions and Create or Modify Permission Sets | Microsoft Docs
+description: Describes how add Office 365 users to Financials, and then assign permissions, access rights, and security settings.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/29/2017
+ms.date: 06/27/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d1a973b864a654e2047c5a89271519da04f55c08
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,16 +27,17 @@ Once users are created in Office 365, they can be imported into the **Users** wi
 
 You can then proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies.
 
-**Important**: If the database has multiple companies, then at least one user must be a member of the SUPER user group in all companies.
-
 A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)]. A number of predefined permission sets are provided by default. You can use these permission sets as already defined, modify the default permission sets, or create additional permission sets.
 
 You can add users to user groups. This makes it easier to assign the same permission sets to multiple users.
 
-**Note**: This functionality requires that your experience is set to Suite. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+Administrators can use the **User Setup** window to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
+
+> [!NOTE]  
+>   This functionality requires that your experience is set to Suite. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>To assign permissions to a user
-1. In the top right corner, choose the Search for Page or Report icon, enter **Users**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
 2. Select the user that you want to assign permission to.
 Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
 3. Choose the **Edit** action to open the **User Card** window.
@@ -45,7 +46,7 @@ Any permission sets that are already assigned to the user are displayed in the *
 ## <a name="to-group-users-in-user-groups"></a>To group users in user groups
 You can set up users groups to help you manage permission sets for groups of users in your company. You can use a function to copy all permission sets from an existing user group to your new user group. User group members are not copied.
 
-1. In the top right corner, choose the Search for Page or Report icon, enter **User Groups**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Groups**, and then choose the related link.
 2. Alternatively, in the **Users** window, choose the **User Groups** action.
 3. In the **User Groups** window, select an existing user group that you want to copy, and then choose the **Copy User Group** action.
 4. In the **New User Group Code** field, specify the name of the new user group, and then choose the **OK** button.
@@ -60,7 +61,7 @@ You can set up users groups to help you manage permission sets for groups of use
 If the default permission sets that are provided with [!INCLUDE[d365fin](includes/d365fin_md.md)] are not sufficient or not appropriate for your organization, you can create new permission sets. And if the individual object permissions that define a permission set are not adequate, you can modify a permission set. You can create a permission set manually, or you can use a recording function that records your actions as you navigate through a scenario and then generates the required permission set.
 
 ### <a name="to-create-or-modify-permission-sets-manually"></a>To create or modify permission sets manually
-1. In the top right corner, choose the Search for Page or Report icon, enter **Users**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
 2. In the **Users** window, choose the **Permission Sets** action.
 3. In the **Permission Sets** window, choose the **New** Action.
 4. On a new line, fill in the fields as necessary.
@@ -82,7 +83,7 @@ If the default permission sets that are provided with [!INCLUDE[d365fin](include
 9. Repeat steps 7 and 8 to add permissions for additional objects to the permission set.
 
 ### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>To create or modify permission sets by recording your actions
-1. In the top right corner, choose the Search for Page or Report icon, enter **Users**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
 2. In the **Users** window, choose the **Permission Sets** action.
 3. In the **Permission Sets** window, choose the **New** Action.
 4. On a new line, fill in the fields as necessary.
@@ -101,8 +102,16 @@ For example, a user can have permission to run codeunit 80, **Sales-Post**. The 
 
 However, the user does not need to have full access to the **Sales Line** table to run the codeunit. If the user has indirect permission to the **Sales Line** table, then the **Sales-Post** codeunit runs successfully. When a user has indirect permission, that user can only modify the **Sales Line** table by running the **Sales-Post** codeunit or another object that has permission to modify the **Sales Line** table. The user can only modify the **Sales Line** table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.
 
+## <a name="to-set-up-user-time-constraints"></a>To set up user time constraints
+Administrators can define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on. Administrators can also assign responsibility centres to users.
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Setup**, and then choose the related link.
+2. In the **User Setup** window opens, choose the **New** action.
+3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
+4. Fill in the fields as necessary.
+
 ## <a name="see-also"></a>See Also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: Purchasing| Microsoft Docs
-description: Describes how to manage purchasing activities.
+title: Overview of Tasks to Manage Purchasing | Microsoft Docs
+description: Outlines tasks to manage your purchasing or procurement processes, including how purchase invoices and purchase orders work.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ba8ea773fa4024cfcaccd00b80bdbbfe81be8b7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 653cd9b5e9651f2039ab18f3e7a26b299238d817
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,7 +36,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | To | See |
 | --- | --- |
 | Create a purchase invoice to record your agreement with a vendor to purchase products on certain delivery and payment terms. |[How to: Record Purchases](purchasing-how-record-purchases.md) |
-| Create a purchase invoice for all or selected lines on a sales invoice. |[How to: Purchase Products for a Sale](purchasing-how-purchase-products-sale.md) |
+| Create a purchase invoice for all or selected lines on a sales invoice. |[How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md) |
 | Perform an action on an unpaid posted purchase invoice to automatically create a credit memo and either cancel the purchase invoice or recreate it so you can make corrections. |[How to: Correct or Cancel Unpaid Sales Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Create a purchase credit memo to revert a specific posted purchase invoice to reflect which products you are returning to the vendor and which payment amount you will collect. |[How to: Process Purchase Returns or Cancellations](purchasing-how-register-new-vendors.md) |
 | Create a vendor card for each vendor that you purchase from. |[How to: Register New Vendors](purchasing-how-register-new-vendors.md) |
@@ -46,7 +46,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Payables](payables-manage-payables.md)  
 [Manage Projects](projects-manage-projects.md)    
 [Supply Chain](madeira-supply-chain.md)      
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

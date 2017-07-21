@@ -1,6 +1,6 @@
 ---
-title: Managing Segments | Microsoft Docs
-description: Describes segments for contacts in Financials
+title: Manage Segments and Select Contacts to Include| Microsoft Docs
+description: Outlines the tasks to create a segment to select a group of contacts according to specific criteria, for example, contacts in a particular industry that you want to target.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 430199404ebab6d72f2f7748bb90e5ed3cd223c4
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,10 +34,10 @@ The following table describes a sequence of tasks, with links to the topics that
 | --- | --- |
 | Create segments which allow you to select a group of contacts. For example, direct mail. |[How to: Create Segments](marketing-how-create-segment.md) |
 | Manage the contacts that are assigned to segments. |[How to: Add Contacts to Segments](marketing-add-contact-segment.md) |
-| Learn about using interactions and segments, including logging. |[Interaction and Segments](marketing-interaction-segments.md) |
+| Learn about using interactions and segments, including logging. |[Managing Interaction and Segments](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>See Also
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Managing Contacts](marketing-contacts.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

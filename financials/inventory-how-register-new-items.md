@@ -1,6 +1,6 @@
 ---
-title: 'How to: Register New Items| Microsoft Docs'
-description: Create cards for new physical products, that you sell from inventory in e.g. pieces, or for services, that you sell as hours.
+title: Create Item Cards for Goods or Services| Microsoft Docs
+description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, components, or raw material, that you sell from your inventory.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,18 +9,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 582e006291e51e19d80304d24ae055ce6ac8d698
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 719e11f2c8fee3d7e5dd3736754700b68f57379c
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-register-new-items"></a>How to: Register New Items
-items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
+Items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
 
 Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
 
@@ -28,7 +28,8 @@ The item card can be of type **Inventory** or **Service** to specify if the item
 
 An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of materials is referred to as an assembly BOM. You use assembly BOMs to structure parent items that you sell as kits consisting of the parent's components or that you assemble to order or to stock. For more information, see [How to: Work with Bills of Materials](inventory-how-work-BOMs.md).
 
-**Note**: If item templates exist for different item types, then a window appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
+> [!NOTE]  
+>   If item templates exist for different item types, then a window appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
 
 ## <a name="to-create-a-new-item-card"></a>To create a new item card
 1. On the Home page, choose the **Items** action to open the list of existing items.  
@@ -58,6 +59,6 @@ The item template is added to the list of item templates, so that you can use it
   [Inventory](inventory-manage-inventory.md)  
   [Purchasing](purchasing-manage-purchasing.md)  
   [Sales](sales-manage-sales.md)  
-  [Working With [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+  [Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

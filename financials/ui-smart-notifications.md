@@ -1,6 +1,6 @@
 ---
-title: Smart Notifications | Microsoft Docs
-description: Smart notifications give you advice and recommendations.
+title: Work With Smart Notifications and Specify When You See Them | Microsoft Docs
+description: You can receive notifications that inform you about status changes or events, for example, an overdue balance or low inventory.
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2016
+ms.date: 10/24/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 96fd7894545855dd2572e100d674415ca19104db
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,10 +31,10 @@ When you first start with [!INCLUDE[d365fin](includes/d365fin_md.md)] all notifi
 Additionally, some notifications let you specify the conditions under which they are sent. For example, if you want to be notified when inventory is running low, but only for items you buy from a certain vendor.  
 Turning notifications on or off, and specifying conditions, applies only to you.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **My Notifications**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **My Notifications**, and then choose the related link.
 2. To turn on or turn off a notification, select or clear the **Enabled** check box.
 3. To specify conditions that trigger a notification, choose the **View filter details** link, and then fill in the fields.  
 
 ## <a name="see-also"></a>See Also
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

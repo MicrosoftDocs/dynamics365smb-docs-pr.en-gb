@@ -1,6 +1,6 @@
 ---
-title: Learn how you can extend Dynamics 365 for Financials | Microsoft Docs
-description: Build, showcase, and promote your Dynamics 365 for Financials extensions
+title: Customise Dynamics 365 for Financials| Microsoft Docs
+description: Build, showcase, and promote your apps and extensions for Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 110216a4466733b5e5b9f31eb5b73e428c74da91
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: cc355c7b4cd51412ec0b5c95398c2d7b50a13f94
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="extend-included365finlongincludesd365finlongmdmd"></a>Extend [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="extending-included365finlongincludesd365finlongmdmd"></a>Extending [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 There are plenty of benefits of using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a platform for App builders:
 
 * Enrich [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], a proven Microsoft online solution, with your expertise  
@@ -68,7 +68,7 @@ This [FAQ](https://go.microsoft.com/fwlink/?linkid=841520) responds to the most 
 
 ## <a name="further-resources"></a>Further Resources
 Please find further resources for app development on our [DLP topic page](https://mbspartner.microsoft.com/BFI/Topic/76) DLP topic page. Some selected ones are available below:
--    [User Registration and Subsequent Billing ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+-   [User Registration and Subsequent Billing ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
 
 
 

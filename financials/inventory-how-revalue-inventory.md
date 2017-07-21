@@ -1,6 +1,6 @@
 ---
-title: 'How to: Revalue Inventory| Microsoft Docs'
-description: Describes how to appreciate or depreciate the value of one or more items in inventory by posting their current, calculated value.
+title: Create New Value Entries for Items in the Inventory| Microsoft Docs
+description: Describes how to appreciate or depreciate the value entries of one or more items in the inventory by posting their current, calculated value.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0f7137b3ac4e2c68c1c9a9b94b3ba73e0438a4a9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1935f53db068047921e44109cd4b23bbb51f0890
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.
 
 ## <a name="to-revalue-inventory"></a>To revalue inventory
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Revaluation Journal**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Revaluation Journal**, and then choose the related link.
 2. Choose the **Calculate Inventory Value** action.
 3. In the **Calculate Inventory Value** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **OK** button.
@@ -39,5 +39,5 @@ New value entries are now created to reflect the revaluations that you have post
 [Inventory](inventory-manage-inventory.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

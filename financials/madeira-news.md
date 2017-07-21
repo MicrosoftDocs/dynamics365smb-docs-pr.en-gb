@@ -1,6 +1,6 @@
 ---
-title: What&quot;s New in Dynamics 365 for Financials| Microsoft Docs
-description: What&quot;s New in Dynamics 365 for Financials
+title: What's New in Dynamics 365 for Financials| Microsoft Docs
+description: Describes the latest news and updates for Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 26fe803ea4d4b503b8123f4a06e3017c1d5f077f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
+
 
 ---
-
 # <a name="whats-new-in-dynamics-365-for-financials"></a>What's New in Dynamics 365 for Financials
 Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]! If you haven't already, then sign up for a trial, let us walk you through the basics of what you can do with [!INCLUDE[d365fin](includes/d365fin_md.md)], and then try things out on your own for a while. When you are ready, you can open a blank company and set things up for yourself.  
 
@@ -54,7 +54,7 @@ This update of [!INCLUDE[d365fin](includes/d365fin_md.md)] added new capabilitie
 ### <a name="more-flexibility-in-your-sales-processes"></a>More flexibility in your sales processes
 This update adds more flexibility in what you sell:
 - You can now set up nonstock items - items that you offer to customers but do not maintain inventory for. For more information, see [How to: Work with Nonstock Items](inventory-how-work-nonstock-items.md).
-- You can now mark an item for drop shipment on a sales order and immediately create a purchase order for the item. This way, you can sell an item to a customer, purchase it from the vendor, and have it shipped directly from your vendor to your customer. For more information, see [How to: Purchase Products for a Sale](purchasing-how-purchase-products-sale.md).
+- You can now mark an item for drop shipment on a sales order and immediately create a purchase order for the item. This way, you can sell an item to a customer, purchase it from the vendor, and have it shipped directly from your vendor to your customer. For more information, see [How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md).
 
 ### <a name="categorize-items-in-your-inventory"></a>Categorise items in your inventory
 With this update, you can create a hierarchy of item categories and assign item attributes to each item category. For more information, see [How to: Categorize Items](inventory-how-categorize-items.md).
@@ -129,6 +129,6 @@ Key scenarios to try out on your own:
 
 ## <a name="see-also"></a>See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
 

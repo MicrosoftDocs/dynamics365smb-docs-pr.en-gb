@@ -1,6 +1,6 @@
 ---
-title: Entering Criteria in Filters | Microsoft Docs
-description: Learn how filters work in Financials.
+title: Defining Search Criteria in Filters | Microsoft Docs
+description: Describes how to work with filters, such as the Quick Filter, to refine the results you get when you search for data.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: delimit, FlowFilter
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1a94e2ead59a40081920a0b11ed545a895d89910
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 86ca45493081d9dbd229548f7c560e1df4e1c7c3
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,8 @@ When you want to search for data, such as customer names, addresses, or product 
 ## <a name="searching-using-the-quick-filter"></a>Searching using the Quick Filter
 You can add filters to all pages by using the Quick Filter. The Quick Filter is enabled by choosing the magnifier icon in the top right corner of a page. This filtering type is used for a fast entry of criteria.
 
-**Important**: The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
+> [!IMPORTANT]  
+>   The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
 
 * If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
 * If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
@@ -71,8 +72,9 @@ You can add filters to all pages by using the Quick Filter. The Quick Filter is 
   </TR>
 </TABLE>
 
-**Note**: You cannot use a wildcard when filtering on enumeration fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values **0**, **1**, **2**, and **3** to filter for these options.  
+> [!NOTE]  
+>   You cannot use a wildcard when filtering on enumeration fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values **0**, **1**, **2**, and **3** to filter for these options.  
 
 ## <a name="see-also"></a>See Also
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

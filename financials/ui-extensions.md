@@ -1,7 +1,6 @@
 ---
-title: Customising Dynamics 365 for Financials Using Extensions | Microsoft Docs
-description: Customising Dynamics 365 for Financials Using Extensions
-services: project-madeira
+title: Installing Extensions to Customise Dynamics 365 for Financials | Microsoft Docs
+description: Learn about adding functionality and customising Dynamics 365 for Financials by installing extensions.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize
-ms.date: 04/24/2017
+ms.search.keywords: app, add-in, manifest, customize
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1de01d9944489f862dfc6db145c1542c3d0dd2e3
+ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
+ms.openlocfilehash: 6bf7d2024ff9f0254e1d885580126fb16c0c6fce
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,13 +28,15 @@ But if another extension is made available that offers integration with another 
 
 You manage the extensions in the **Extension Management** window. You can access this window from Home. Alternatively, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") in the top right corner, enter **Extension**, and then choose the related link.  
 
-**Note**: If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** window - if the extension is not listed there, you can install it as described in the following section.  
+> [!NOTE]  
+>   If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** window - if the extension is not listed there, you can install it as described in the following section.  
 
 ## <a name="installing-an-extension"></a>Installing an Extension
-You can get new extensions from the marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/). Here, you can see all available extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can get apps, extensions, and content packs for other Microsoft products. Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-**Note**: Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Use the same email account for other services and products for a smooth experience.  
+You can get new extensions from the marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Here, you can see all available extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can get apps, extensions, and content packs for other Microsoft products. Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!NOTE]  
+>   Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Use the same email account for other services and products for a smooth experience.  
 
-You can also get to the marketplace from inside [!INCLUDE[d365fin](includes/d365fin_md.md)]. In the **Extension Management** window, you can see the extensions that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[d365fin](includes/d365fin_md.md)] extensions that are currently available in AppSource. If you choose the *More apps* link, you are taken to [AppSource.microsoft.com](https://appsource.microsoft.com/).  
+You can also get to the marketplace from inside [!INCLUDE[d365fin](includes/d365fin_md.md)]. In the **Extension Management** window, you can see the extensions that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[d365fin](includes/d365fin_md.md)] extensions that are currently available in AppSource. If you choose the *More apps* link, you are taken to [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
 If you choose an extension, you can read about what the extension does, and you can access Help for the extension to learn more. When you choose to get an extension, you must agree to the terms of use. If you get the extension from the AppSource website, you will be signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)] to complete the installation.  
 
@@ -57,6 +58,12 @@ Microsoft provides the following extensions:
 * [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)  
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 * [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+* [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
+* [Accountant Portal](ui-extensions-accountant-portal.md)  
+* [Image Analyzer](ui-extensions-image-analyzer.md)
+
+> [!NOTE]  
+>  New extensions are not available in AppSource immediately after we announce an update. You can keep an eye out for the extensions at  [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
 ## <a name="see-also"></a>See Also
 [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
@@ -67,3 +74,4 @@ Microsoft provides the following extensions:
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

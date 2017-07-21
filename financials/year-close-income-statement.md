@@ -1,6 +1,6 @@
 ---
-title: 'How to: Close Income Statement | Microsoft Docs'
-description: Explains how to close an income statement.
+title: Close Income Statement Accounts | Microsoft Docs
+description: At year closing, you must run the Close Income Statement batch job to close the accounting periods that make up the fiscal year.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,22 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dde7b93c6a3dcf78173494f1c6fa09a38207e676
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6ddd7b504f6faa856e92c336f889ad08db0b3d8b
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="close-income-statement"></a>Close Income Statement
+# <a name="how-to-close-income-statement-accounts"></a>How to: Close Income Statement Accounts
 When a fiscal year is over, you must close the periods that comprise it. To do this, you run the **Close Income Statement** batch job. This job transfers the year's result to an account in the balance sheet and closes the income statement accounts. You do this by creating lines in a journal, which you then can post.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>To run the Close Income Statement batch job
 1. Close the fiscal year. The fiscal year must closed before the batch job can be run. For more information, see [How to: Close Accounting Periods](year-close-account-periods.md).
-2. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Close Income Statement**, and then choose the related link.
+2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Close Income Statement**, and then choose the related link.
 3. Choose the **OK** button to run the batch job.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>About the Close Income Statement Batch Job
@@ -41,5 +41,5 @@ The **Close Income Statement** batch job can be used several times. You can post
 [Closing Books](year-close-books.md)  
 [How to: Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
 [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

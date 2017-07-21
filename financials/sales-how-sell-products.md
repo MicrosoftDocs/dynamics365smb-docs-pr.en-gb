@@ -1,6 +1,6 @@
 ---
-title: 'How to: Sell Products| Microsoft Docs'
-description: Describes how to use sales orders.
+title: Create a Sales Order and Sell Products | Microsoft Docs
+description: Describes how to create a sales order to record your agreement with a customer to sell or trade products under specific terms.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 03/09/2017
+ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a587a9eab63223f7fab94bc4f513d2b6816f0d14
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7516e79a7cd5585629bb39ac7d97a4e6ba929712
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-sell-products"></a>How to: Sell Products
 You create a sales order or sales invoice to record your agreement with a customer to sell certain products on certain delivery and payment terms.
 
-**Note**: You use sales orders if your sales process requires that you can ship parts of an order quantity, for example, because the full quantity is not available at once. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. For more information, see [How to: Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, sales orders work the same way as sales invoices. For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md).
+> [!NOTE]  
+>   You use sales orders if your sales process requires that you can ship parts of an order quantity, for example, because the full quantity is not available at once. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. For more information, see [How to: Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, sales orders work the same way as sales invoices. For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md).
 
 You can negotiate with the customer by first creating a sales quote, which you can convert to a sales order when you agree on the sale. For more information, see [How to: Make Offers](sales-how-make-offers.md).
 
@@ -61,7 +62,8 @@ You can fill customer fields on the sales order in two ways depending on whether
 9. On the **Lines** FastTab, in the **Item** field, enter the number of an inventory item or service.  
 10. In the **Quantity** field, enter the number of items to be sold.
 
-    **Note**: For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.
+    > [!NOTE]  
+>   For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.
 
     The **Line Amount** field is updated to show the value in the **Unit Price** field multiplied by the value in the **Quantity** field.
 
@@ -90,7 +92,8 @@ You can fill customer fields on the sales order in two ways depending on whether
 
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
 
-    **Note:** If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
+    > [!NOTE]  
+>   If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
 
     The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
 
@@ -117,4 +120,4 @@ The related item and customer ledger entries are now created in your system, and
 [Setting Up Sales](sales-setup-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,6 +1,6 @@
 ---
-title: Using Dynamics 365 for Financials in Microsoft Flow | Microsoft Docs
-description: You can make your Financials data available as a data source in Power Apps.
+title: Connect Your Data with Flow| Microsoft Docs
+description: You can make your Financials data available as a data source and specify an OData URL of your web services to build an automated workflow.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,20 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 03/15/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 76d24ed80adb08083c6167040be8cc6a4bcc3167
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 277dda7c954380138af1ecabc02d77121f35aac7
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-dynamics-365-for-financials-in-microsoft-flow"></a>Using Dynamics 365 for Financials in Microsoft Flow
+# <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in an Automated Workflow
 You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a workflow in Microsoft Flow.  
 
-**Note**: You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Flow.  
+> [!NOTE]  
+>   You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Flow.  
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-flow"></a>To add [!INCLUDE[d365fin](includes/d365fin_md.md)] as a data source in Flow
 1. In your browser, navigate to [flow.microsoft.com](https://flow.microsoft.com/en-us/), and then sign in.

@@ -1,6 +1,6 @@
 ---
-title: 'How to: Invoice Jobs| Microsoft Docs'
-description: Describes how to invoice customers for job expenses as a job progresses.
+title: Create a Job Sales Invoice to Invoice a Job| Microsoft Docs
+description: Describes how to invoice customers for job expenses as a project progresses.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 28fae2b706873420761f7ce6330df25b280aea44
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2fdc8f99fa81a0eecd55438bba33b1a93335a416
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,14 +25,15 @@ During the project, job costs from resource usage, materials, and job-related pu
 
 You can invoice the whole job from the **Job Task Lines** window or only invoice selected billable lines from the **Planning Lines** window. Invoicing can be done after the job is finished or at certain intervals during the job's progress based on an invoicing schedule.
 
-**Note**: If you select **Billable** in the **Job Line Type** field on the purchase documents for job-related purchases, then job planning lines that are ready to be invoiced to the customer are created. For more information, see [How to: Manage Project Supplies](projects-how-manage-project-supplies.md).
+> [!NOTE]  
+>   If you select **Billable** in the **Job Line Type** field on the purchase documents for job-related purchases, then job planning lines that are ready to be invoiced to the customer are created. For more information, see [How to: Manage Project Supplies](projects-how-manage-project-supplies.md).
 
 ## <a name="to-create-and-post-a-job-sales-invoice"></a>To create and post a job sales invoice
 You can create an invoice for a job or for one or more job tasks for a customer when either the work to be invoiced is complete or the date for invoicing based on an invoicing schedule has been reached.
 
 From the **Jobs** window, you can invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action. The following procedure shows how to use a batch job to invoice multiple jobs.  
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Job Create Sales Invoice**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Create Sales Invoice**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Set filters if you want to limit the jobs that the batch job will process.
 4. Choose the **OK** button to create the invoices.  
@@ -40,7 +41,7 @@ From the **Jobs** window, you can invoice a customer by selecting the job, and t
 ## <a name="to-create-multiple-job-sales-invoices-from-job-planning-lines"></a>To create multiple job sales invoices from job planning lines
 You can create an invoice from a job planning lines, and indicate at that time the quantity of the item, resource, or general ledger account that you want to invoice.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.
 2. Open a relevant job.
 3. Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.  
 4. On a job planning line, in the **Qty. To Transfer to Invoice** field, enter the quantity of the item, resource, general ledger account type that you want to invoice.  
@@ -54,12 +55,13 @@ You can create an invoice from a job planning lines, and indicate at that time t
     The **Sales Invoice** window opens, showing the quantity that you have transferred to the invoice.  
 9. Make any additional changes, and then choose the **Post** action.
 
-**Note**: The above procedure is similar for creating, reviewing, and posting a job-related sales credit memo.
+> [!NOTE]  
+>   The above procedure is similar for creating, reviewing, and posting a job-related sales credit memo.
 
 ## <a name="to-calculate-and-post-job-completion-entries"></a>To calculate and post job completion entries
 When you have completed all activities for a job, including usage posting and invoicing, you must update the job to have a **Status** of **Completed**. Then, you must reverse any WIP that has been posted to the general ledger.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
 2. Select an open job, and then choose the **Edit** action.
 3. In the **Status** field, select **Completed**.
 4. Follow the assistance steps to calculate and post WIP. Alternatively, follows steps 5 and 6 to do so manually.  
@@ -77,5 +79,5 @@ When you have completed all activities for a job, including usage posting and in
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

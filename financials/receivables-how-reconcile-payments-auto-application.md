@@ -1,6 +1,6 @@
 ---
-title: 'How to: Reconcile Payments Using Automatic Application| Microsoft Docs'
-description: 'How to: Reconcile Payments Using Automatic Application'
+title: Use Automatic Application to Reconcile Payments | Microsoft Docs
+description: Describes how to use the automatic application function to apply payments or cash receipts to their related open entries, and reconcile payments.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 423b141969c131688542cc10bb5361085f247a68
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b4ff3d64f23a5dfb9800abeedb7374764b060f4d
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -37,10 +37,11 @@ On journal lines where a payment has been applied automatically to one or more o
 
 For each journal line in the **Payment Reconciliation Journal** window, you can open the **Payment Application** window to see all candidate open entries for the payment and view detailed information for each entry about the data matching that a payment application is based on. Here, you can manually apply payments or reapply payments that were applied automatically to a wrong entry. For more information, see [How to: Review or Apply Payments After Automatic Application](receivables-how-review-apply-payments-auto-application.md).
 
-**Note**: You can start the bank transactions import at the same time as you open the **Payment Reconciliation** Journal window for an existing payment reconciliation journal in the **Payment Reconciliation Journals** window. The following procedure describes how to import bank transactions into the **Payment Reconciliation Journal** window after you have created a new journal.
+> [!NOTE]  
+>   You can start the bank transactions import at the same time as you open the **Payment Reconciliation** Journal window for an existing payment reconciliation journal in the **Payment Reconciliation Journals** window. The following procedure describes how to import bank transactions into the **Payment Reconciliation Journal** window after you have created a new journal.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>To reconcile payments using automatic application
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Payment Reconciliation Journals**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
 2. To work in a new payment reconciliation journal, choose the **New Journal** action.
 3. In the **Payment Bank Account List** window, select the bank account that you want to reconcile payments for, and then choose the **OK** button.
    The **Payment Reconciliation Journal** window opens prepared for the selected bank account.
@@ -63,10 +64,11 @@ When you post the payment reconciliation journal, the applied open entries memos
 
 You can compare the value in the **Balance on Bank Account After Posting** field together with the value in the **Statement Ending Balance** field to track when the bank account is reconciled based on payments that you post.
 
-**Note**: If you do not want to reconcile the bank account from the **Payment Reconciliation Journal** window, then you must use the **Bank Acc. Reconciliation** window. For more information, see [Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md).
+> [!NOTE]  
+>   If you do not want to reconcile the bank account from the **Payment Reconciliation Journal** window, then you must use the **Bank Acc. Reconciliation** window. For more information, see [Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md).
 
 ## <a name="see-also"></a>See Also
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Sorting | Microsoft Docs
-description: Learn how sorting works.
+title: Arranging Data Using the Sorting Function | Microsoft Docs
+description: You can use the sorting function to get an overview of your data. For example, you can sort customers by Currency Code to get a select sample of customers.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 02/07/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 284d03333af17e8c9bcf94cc20e40f87ee063e24
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 4f63d34f4dffc0a6e8c6aa7f8e3fe72710d9bce5
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,10 +24,11 @@ The sorting function makes it easy for you to get a quick overview of your data.
 
 Choose a column heading and use the small arrow to sort ascending or descending.  
 
-**Note**: Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.
+> [!NOTE]  
+>   Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.
 
 ## <a name="see-also"></a>See Also
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Entering Criteria in Filters](ui-enter-criteria-filters.md)
 
 

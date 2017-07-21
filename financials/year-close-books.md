@@ -1,6 +1,6 @@
 ---
-title: Closing Books| Microsoft Docs
-description: Explains the processes involved in closing the books for a fiscal year or period.
+title: Overview of the Tasks for Closing the Books | Microsoft Docs
+description: Learn about the process of closing the books for a fiscal year or period, and what happens after you close at the end of a year.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,14 +13,14 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a8d379c971d9b21b0eac552f8c7f68926090f037
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="closing-books"></a>Closing Books
+# <a name="closing-the-books"></a>Closing the Books
 After you ensure that all your accounts are up-to-date, and you allocate costs and income, then you can close the books for a fiscal year or period.
 
 You are not required to close a year, but doing so will make working in the system easier for you because you will be able to take advantage of the convenient filtering options provided. You also do not have to worry about losing details of transactions when you close because all details are retained, even after you close the year.
@@ -56,5 +56,5 @@ You can post in a previous fiscal year, even after the income statement accounts
 
 ## <a name="see-also"></a>See Also
 [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

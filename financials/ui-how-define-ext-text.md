@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up Extended Item Text | Microsoft Docs'
-description: Describes extend text.
+title: Add Extra Lines to Define Extended Text for an Item Description | Microsoft Docs
+description: You can add extra lines to extend the standard text that describes an item.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 01/16/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6974e57f7969fa41731d59ffd12ad6c4a3af35eb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 147ce327e3a30f27166fb44226fa60c1e15721c4
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,6 +33,6 @@ You can extend a standard text for items by adding extra lines, and you can set 
 8. Close the window.
 
 ## <a name="see-also"></a>See Also
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

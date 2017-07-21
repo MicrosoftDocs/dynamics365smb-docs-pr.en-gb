@@ -1,6 +1,6 @@
 ---
-title: Envestnet Yodlee Bank Feeds| Microsoft Docs
-description: Provides information about the Envestnet Yodlee Bank Feeds extension
+title: Payment Reconciliation With the Envestnet Yodlee Bank Feeds Extension | Microsoft Docs
+description: Describes the Envestnet Yodlee Bank Feeds extension, which links to bank accounts so you can and quickly reconcile payments.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7c900b87a5b0fd703ff0bdbaa5e2ac41f2939c3d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 060eec95e12800d048c41c142478c2a18e27b3fb
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="the-envestnet-yodlee-bank-feeds-extension-to-dynamics-365-for-financials"></a>The Envestnet Yodlee Bank Feeds Extension to Dynamics 365 for Financials
+# <a name="the-envestnet-yodlee-bank-feeds-extension"></a>The Envestnet Yodlee Bank Feeds Extension
 To quickly reconcile payments made to your bank accounts, the Envestnet Yodlee Bank Feeds service allows you to link your system bank account to your online bank account. This means that the latest bank statement is automatically or manually fed into your reconciliation journal, ensuring that you are always processing the latest payments with minimal risk of errors.
 
 The Envestnet Yodlee Bank Feeds service provides the following benefits:
@@ -37,5 +37,5 @@ For more information, see [How to: Set Up the Envestnet Yodlee Bank Feeds Servic
 ## <a name="see-also"></a>See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)    
 [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

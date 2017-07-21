@@ -1,6 +1,6 @@
 ---
-title: Quickbooks Payroll| Microsoft Docs
-description: Provides information about the Quickbooks Payroll extension
+title: Using the Quickbooks Payroll File Import Extension | Microsoft Docs
+description: Describes how to use the extension to import salary and wage transactions from the Quickbooks Payroll service.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dd934265607e4073ab13b089c3dd98ceb4ead9c3
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b719a7d2b6b5590ae63920b63aaba8c2313a8661
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,5 +30,5 @@ The Quickbooks Payroll File Import extension allows you to import payroll transa
 ## <a name="see-also"></a>See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)    
 [Finance](finance.md)    
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

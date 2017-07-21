@@ -1,5 +1,5 @@
 ---
-title: 'How to: Make Drop Shipments| Microsoft Docs'
+title: Create a Sales Order Linked to a Purchase Order for a Direct Shipment | Microsoft Docs
 description: Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: direct shipment
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 75d5c4f8417b4b1aaa2dd84cf3ba4b528f0a9f9b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 977debf7386ad1113ef54147b20fd24c7c285a78
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,8 @@ To prepare a drop shipment, you create a sales order for an item as normal, exce
 1. Create a sales order for an item. For more information, see [How to: Sell Products](sales-how-sell-products.md).
 2. On the sales order line for the drop shipment, select the **Drop Shipment** check box. Use the **Choose Columns** function if the field is not visible. For more information, see [User Personalization](ui-user-personalization.md).
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+> [!NOTE]  
+>   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>To create the purchase order for drop shipment
 To prepare a drop shipment for the item to be sold, you create a purchase order as normal, except you must indicate on the purchase order that it must be shipped to your customer, not to yourself.
@@ -52,7 +53,7 @@ You can now instruct the vendor to ship the items to your customer, for example,
 ## <a name="to-post-a-drop-shipment"></a>To post a drop shipment
 After the vendor ships the items, you can post the sales order as shipped. You can also post the purchase order, but only with the **Receive** option until the sales order has been invoiced.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Sales orders**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales orders**, and then choose the related link.
 2. Open the sales order that you created in the "To create a sales order for a drop shipment" section.
 3. In the **Qty. to Ship** field, specify how many of the order quantity to ship, the full or a partial order quantity.
 4. Choose the **Post** or **Post and Send** action.
@@ -63,5 +64,5 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 [How to: Record Purchases](purchasing-how-record-purchases.md)  
 [Sales](sales-manage-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

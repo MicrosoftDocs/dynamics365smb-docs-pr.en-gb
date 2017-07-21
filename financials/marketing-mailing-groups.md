@@ -1,6 +1,6 @@
 ---
-title: Setting Up Mailing Groups for Contacts| Microsoft Docs
-description: Describes mailing groups for contacts in Financials
+title: Set Up Mailing Groups for Contacts| Microsoft Docs
+description: You can use mailing groups to identify groups of contacts that you want to receive the same information, for example, for a marketing campaign or promo.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,25 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fc29f5a6238373db3e862058eb327398e624882e
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bc1c89b87426b72ce4f9522cb7f0dc31c77acad1
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-mailing-groups-for-contacts"></a>Setting Up Mailing Groups for Contacts
+# <a name="how-to-set-up-mailing-groups-for-contacts"></a>How to: Set Up Mailing Groups for Contacts
 You can use mailing groups to identify groups of contacts that you want to receive the same information. For example, you can set up a mailing group for the contacts that you want to send a notification of an office move, or another group for sending holiday gifts.
 
 Using mailing groups on contacts is a two-step process. First, you define the mailing group code. You only have to perform this step one time for each mailing group. Once you have a mailing group code, you can start to assign the code to contact companies.
 
-## <a name="defining-mailing-group-codes"></a>Defining mailing group codes
+## <a name="to-define-mailing-group-codes"></a>To define mailing group codes
 The mailing group code defines the type or category of the group, such as MOVE for office move, or GIFT for holiday gift. You can have several industry group codes. To define the industry groups, you use the **Mailing Groups** window.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Mailing Groups**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Mailing Groups**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
 
 ## <a name="AssignMailGroupContact"></a> To assign mailing groups to a contact
@@ -45,5 +45,5 @@ After you have assigned mailing groups to your contacts, you can use this inform
 ## <a name="see-also"></a>See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
 [Creating Contact Persons](marketing-create-contact-persons.md)  
-[Working With Financials](ui-work-product.md)
+[Working with Financials](ui-work-product.md)
 

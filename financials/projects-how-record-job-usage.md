@@ -1,6 +1,6 @@
 ---
-title: 'How to: Record Usage for Jobs| Microsoft Docs'
-description: Describes how to record usage of items or resources on jobs.
+title: Record Billable and Budgeted Usage of Job Resources| Microsoft Docs
+description: Describes how to record the consumption or usage of items or resources on jobs to facilitate project management.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 896b26e11042155860d6c933d937066f9c9aec73
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2b42abaed502c49a595a35656570548e48321b46
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ For example, for planning lines of type **Budget**, you can enter the quantity o
 The following procedures describe how to record actual (billable) or budgeted job prices and costs. For information about estimating budgeted values during planning, see [How to: Manage Job Budgets](projects-how-manage-budgets.md).
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>To record usage for a job planning line of type Budget
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **Job Planning Lines** action.
 3. Select a job planning line of type **Budget** or **Both Budget and Billable** for which you want to record usage.
 4. In the **Qty. To Transfer to Journal** field, enter the number that you want to transfer. The default quantity is the value that you enter in the **Quantity** field.
@@ -44,7 +44,7 @@ The following procedures describe how to record actual (billable) or budgeted jo
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>To record usage for a job planning line of type Billable
 In the next task, you also record usage, but for a job planning line of type **Billable**. Typically, in this case, you invoice your usage, but you can also transfer it to a journal. However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [How to: Manage Job Budgets](projects-how-manage-budgets.md).
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.
 2. Select the relevant job, and then choose the **Job Planning Lines** action.  
 3. Select a job planning line of type **Billable** for which you want to record usage.
 4. In the **Qty. To Transfer to Invoice** field, enter the number that you want to transfer. The default quantity is the value that you enter in the **Quantity** field.
@@ -61,7 +61,7 @@ In the next task, you also record usage, but for a job planning line of type **B
 ## <a name="to-create-job-journal-lines-from-job-planning-lines"></a>To create job journal lines from job planning lines
 When you are ready to post financial information for jobs, you must create job journal lines that you can post.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Jobs**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
 2. Select a relevant open job, and then choose the **Job Planning Lines** action.  
 3. In the **Job Planning Lines** window, on a relevant job planning line, in the **Qty. to Transfer to Journal** field, enter the quantity that you want to transfer to a job journal.  
 4. Choose the **Create Job Journal Lines** action.
@@ -71,7 +71,7 @@ When you are ready to post financial information for jobs, you must create job j
 8. When the job journal lines are complete, choose the **Post** action.  
 
 ## <a name="to-create-job-journal-lines-manually"></a>To create job journal lines manually
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Job Journals**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journals**, and then choose the related link.  
 2. In the **Batch Name** field, choose a relevant job journal batch.  
 3. On a new line, enter document number, job number, job task number, type, and the quantity of the type being consumed.  
 4. When the job journal lines are complete, choose the **Post** action.  
@@ -79,9 +79,10 @@ When you are ready to post financial information for jobs, you must create job j
 ## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>To review planning lines for a job ledger entry
 After you have posted job journal lines, you can see the planning lines that are associated with the job journal entries that have been posted.
 
-**Note**: This requires that the **Apply Usage Link** check box has been selected for the job, or is the default setting for all jobs in your organization. For more information, see [How to: Set Up Jobs](projects-how-setup-jobs.md).  
+> [!NOTE]  
+>   This requires that the **Apply Usage Link** check box has been selected for the job, or is the default setting for all jobs in your organisation. For more information, see [How to: Set Up Jobs](projects-how-setup-jobs.md).  
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Job Journals**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journals**, and then choose the related link.  
 2. Select a relevant job journal, and then choose the **Ledger Entries** action.  
 3. In the **Job Ledger Entries** window, choose **Show Linked Job Planning Lines** action.
 
@@ -90,5 +91,5 @@ After you have posted job journal lines, you can see the planning lines that are
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

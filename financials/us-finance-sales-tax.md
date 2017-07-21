@@ -1,6 +1,6 @@
 ---
-title: Sales Tax and Tax Groups in the US and Canada | Microsoft Docs
-description: Learn about how VAT is set up, and how tax groups, tax areas, tax jurisdictions, and tax details work.
+title: Setting Up Tax Groups, Areas, and Jurisdictions in the US and Canada | Microsoft Docs
+description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ff1981a428a2cd3b3864b7f0cc795a1abeab7a10
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 763bb1b954b30734b0f81f121a6534c83442321a
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="sales-tax-and-tax-groups-in-the-us-and-canada"></a>Sales Tax and Tax Groups in the US and Canada
+# <a name="reporting-sales-tax-in-the-us-and-canada"></a>Reporting Sales Tax in the US and Canada
 When you first start using [!INCLUDE[d365fin](includes/d365fin_md.md)], you can run an assisted setup guide to quickly and easily set up sales tax information for your company, customers, and vendors. In a matter of minutes, you are ready to create sales documents and purchase documents with VAT calculated correctly. This is explained [in our blog post](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
 If you move to the empty My Company, we recommend that you start by using each of the assisted setup guides, including the one for VAT. If you prefer to set up VAT yourself, this article explains what you have to take into consideration.  
 
@@ -43,5 +43,5 @@ In the United States, when you sell to a customer at a location where you do not
 [Setting Up Finance](finance-setup-finance.md)  
 [Sales Tax and Goods and Services Tax in Canada](ca-finance-tax.md)  
 [Sales Tax setup made easy](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

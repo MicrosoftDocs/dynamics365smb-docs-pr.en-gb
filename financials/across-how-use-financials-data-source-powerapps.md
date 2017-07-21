@@ -1,6 +1,6 @@
 ---
-title: Using Dynamics 365 for Financials as a PowerApps Data Source | Microsoft Docs
-description: You can make your Financials data available as a data source in Power Apps.
+title: Use Your Data to Create an App| Microsoft Docs
+description: You can make your Financials data available as a data source and specify an OData URL of your web services to build a business app using PowerApps.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
-ms.date: 12/02/2016
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cedc95b23481b8cb76da85e8459a97b1880a4218
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e41a704d3a94abfb58d9547648f0eee46a8ed9b4
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-dynamics-365-for-financials-as-a-powerapps-data-source"></a>Using Dynamics 365 for Financials as a PowerApps Data Source
+# <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Connecting to Your Financials Data to Build a Business App Using PowerApps
 You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as a data source in PowerApps.  
 
-**Note**: You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with PowerApps.  
+> [!NOTE]  
+>   You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with PowerApps.  
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-powerapps"></a>To add [!INCLUDE[d365fin](includes/d365fin_md.md)] as a data source in PowerApps
 1. In your browser, navigate to [powerapps.microsoft.com](https://powerapps.microsoft.com/en-us/), and then sign in.
@@ -48,7 +49,8 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 8. Choose the table that you want to use for your PowerApp, and then choose the **Connect** button.
 9. Repeat the previous steps to add additional [!INCLUDE[d365fin](includes/d365fin_md.md)] data to your Power BI data model.
 
-   **Note**:  Once you have successfully connected to [!INCLUDE[d365fin](includes/d365fin_md.md)], you will not be prompted again for the OData URL, username, or password.
+   > [!NOTE]  
+>    Once you have successfully connected to [!INCLUDE[d365fin](includes/d365fin_md.md)], you will not be prompted again for the OData URL, username, or password.
 
 At this point, you have successfully connected to your Dynamics 365 data and are ready to begin building your PowerApp. For more information, see the [PowerApps documentation](https://powerapps.microsoft.com/tutorials/getting-started/).
 

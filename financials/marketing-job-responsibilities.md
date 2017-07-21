@@ -1,6 +1,6 @@
 ---
-title: Setting Up Job Responsibilities for Contacts | Microsoft Docs
-description: Describes job responsibilities for contacts in Financials
+title: Setting Up Job Responsibilities for Contacts| Microsoft Docs
+description: You can define a job responsibility code and assign it to a contact to indicate the tasks that your contact is responsible for in their company, for example, IT or production.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,25 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 610ae314502e60b959f0e2ff705a48b936d79d68
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-job-responsibilities-for-contact-persons"></a>Setting Up Job Responsibilities for Contact Persons
+# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>How to: Set Up Job Responsibilities for Contact Persons
 You can add information about the job responsibilities of contact persons to indicate what the contact person is responsible for within their company, for example, IT, management, or production. You can use this information when entering information about your contacts.
 
 Using job responsibilities on contacts is a two-step process. First, you define the job responsibility code. You only have to perform this step one time for each job responsibility. Once you have a job responsibility code, you can start to assign the code to contact persons.
 
-## <a name="tp-define-a-job-responsibility-code"></a>tp define a job responsibility code
+## <a name="to-define-a-job-responsibility-code"></a>to define a job responsibility code
 The job responsibility code defines the type or category of the job, such a MARKETING or PURCHASE. You can have several job responsibility codes. To define the job responsibility, you use the **Job Responsibilities** window.
 
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Job Responsibilities**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Responsibilities**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
 
 ## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>to assign job responsibilities to a contact person
@@ -47,5 +47,5 @@ After you have assigned job responsibilities to your contacts, you can use this 
 ## <a name="see-also"></a>See Also
 [Creating Contact Persons](marketing-create-contact-persons.md)  
 [Creating Contact Companies](marketing-create-contact-companies.md)  
-[Working With Financials](ui-work-product.md)
+[Working with Financials](ui-work-product.md)
 

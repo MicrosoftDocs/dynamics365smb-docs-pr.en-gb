@@ -1,6 +1,6 @@
 ---
-title: Setting Up Financials | Microsoft Docs
-description: Setting Up Financials
+title: Overview of Tasks to Set Up Dynamics 365 for Financials| Microsoft Docs
+description: Outlines tasks to set up, initialise, and configure Dynamics 365 for Financials to suit your needs.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 5be24b9017b105adc6c857655c8de63d67b6aa29
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,12 +40,13 @@ Some functionality, either general or for specific business processes, can be se
 | Configure how to insure, maintain, and depreciate fixed assets, and how you record the costs of fixed assets in your company books. |[Setting Up Fixed Assets](fa-setup.md) |
 | Set up unique identification codes for records, such as cards, documents, and journal lines, to track them in the system. |[Creating Number Series](ui-create-number-series.md) |
 | Set up the **SMTP Mail Setup** window to send and receive emails from documents within [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[How to: Set up Email](madeira-how-setup-email.md) |
+| Set up unique identification codes. |[How to: Create Number Series](ui-create-number-series.md) |
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

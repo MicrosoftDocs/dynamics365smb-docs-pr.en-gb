@@ -1,6 +1,6 @@
 ---
-title: Posting Group Setups| Microsoft Docs
-description: Provides an overview of posting groups
+title: Posting Group Setup| Microsoft Docs
+description: Overview of the posting groups you can use to save time and avoid mistakes when you post transactions.
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 79018546484ff3bb8965089a3554d69bec219304
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: add78070e838dcf8b0eb24dcc8b642d621a400b9
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="posting-group-setups"></a>Posting Group Setups
+# <a name="setting-up-posting-groups"></a>Setting Up Posting Groups
 Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. They save time and help avoid mistakes when you post transactions. The transaction values go to the accounts specified in the posting group for that particular entity. The only requirement is that you have a chart of accounts. For more information, see [Set Up the Chart of Accounts](finance-setup-chart-accounts.md).  
 
 Posting groups are covered under three umbrellas:  
@@ -35,7 +35,7 @@ The following tables describe the posting groups under each umbrella.
 | --- | --- |
 | General Business Posting Groups |Assign this group to customers and vendors to specify who you sell to, and who you buy from. Set these up in the **Gen. Business Posting Groups** window. When you do, think about how many groups you'll need to break down sales and purchases. For example, group customers and vendors by geographical area, or by the type of business. |
 | General Product Posting Groups |Assign this group to items and resources to specify what you sell, and what you buy. Set these up in the **Gen. Product Posting Groups** window. When you do, consider the number of groups you'll need to break down sales by product (items and resources) and purchases by items. For example, divide these groups by raw materials, retail, resources, capacity, and so on. |
-| General Posting Setups |Combine business and product posting groups, and choose the accounts to post to. For each combination of business and product posting groups, you can assign a set of general ledger accounts. For example, this means you can post the sale of the same item to different sales accounts in the general ledger because customers are assigned to different business posting groups. Set these up in the **General Posting Setup** window. |
+| General Posting Setups |Combine business and product posting groups and choose the accounts to post to. For each combination of business and product posting groups, you can assign a set of general ledger accounts. For example, this means you can post the sale of the same item to different sales accounts in the general ledger because customers are assigned to different business posting groups. Set these up in the **General Posting Setup** window. |
 
 | Specific Posting Groups | Description |
 | --- | --- |
@@ -79,5 +79,5 @@ The more product and business posting groups you have, the more lines you see in
 ## <a name="see-also"></a>See also 
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

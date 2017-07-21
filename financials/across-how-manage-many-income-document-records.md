@@ -1,6 +1,6 @@
 ---
-title: 'How to: Manage Many Incoming Document Records| Microsoft Docs'
-description: 'How to: Create Incoming Document Records'
+title: Define Which Incoming Docs to See| Microsoft Docs
+description: Adjust the default view of incoming documents, such as e-invoices, to improve your overview of processed and unprocessed records.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,24 +10,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2016
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 821efd8c95d05fc5d93c79dd75942f61daa91683
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: d840981dcceb54c74ac70ed0ddd05b3d3fa9bfc8
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-manage-many-incoming-document-records"></a>How to: Manage Many Incoming Document Records
 As you create or process incoming document records, the number of lines in the **Incoming Documents** window may grow to an extent where you lose overview. Therefore, you can set incoming document records to Processed to remove them from the default view. When you choose the **Show All** action, you can view both processed and unprocessed records.
 
-**Note**: You cannot edit information, attach files, or perform other processes on incoming document records that are set to Processed. You must first set it to Unprocessed.
+> [!NOTE]  
+>   You cannot edit information, attach files, or perform other processes on incoming document records that are set to Processed. You must first set it to Unprocessed.
 
 The **Processed** check box is automatically selected on incoming document records that have been processed, but you can also select or deselect the check box manually. Depending on your business process, an incoming document record may be processed when a related document has been created for it or a file has been attached.
 
-**Note**: When you open the **Incoming Documents** window with the **My Incoming Documents** action on the Role Centre, only unprocessed incoming document records are shown by default. This is referred to in this topic as "the default view".
+> [!NOTE]  
+>   When you open the **Incoming Documents** window with the **My Incoming Documents** action on the Role Center, only unprocessed incoming document records are shown by default. This is referred to in this topic as "the default view".
 
 ## <a name="to-remove-incoming-document-records-from-the-default-view"></a>To remove incoming document records from the default view
 1. In the **Incoming Documents** window, select one or more lines for incoming document records that you want to remove from the default view.
@@ -35,7 +37,8 @@ The **Processed** check box is automatically selected on incoming document recor
 
 The incoming document records are removed from the default view, and the **Processed** check box is selected on the lines.
 
-**Note**: You can also perform this action for the individual record in the **Incoming Document Card** window.
+> [!NOTE]  
+>   You can also perform this action for the individual record in the **Incoming Document Card** window.
 
 ## <a name="to-view-all-incoming-document-records"></a>To view all incoming document records
 1. In the **Incoming Documents** window, choose the **Show All** action.
@@ -47,11 +50,12 @@ All incoming document records are displayed, including those where the **Process
 2. Select one or more lines for incoming document records that you want to appear in the default view.
 3. Choose the **Set to Unprocessed** action.  
 
-**Note**: You can also perform this action for the individual record in the **Incoming Document Card** window.
+> [!NOTE]  
+>   You can also perform this action for the individual record in the **Incoming Document Card** window.
 
 ## <a name="see-also"></a>See Also
 [Process Incoming Documents](across-process-income-documents.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

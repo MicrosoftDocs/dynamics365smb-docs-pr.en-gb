@@ -1,6 +1,6 @@
 ---
-title: Closing Years and Periods| Microsoft Docs
-description: Explains how to close a fiscal year and periods.
+title: Overview of Tasks to Close a Fiscal Year and Accounting Periods | Microsoft Docs
+description: Outlines the tasks to close a fiscal year or accounting period, for example, making sure documents and journals are posted and verifying bank balances.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/07/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 211bebe03d270a0efabe87d131ae45f1617feaa7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0f753e84a9318cdd3a58ed192437206659b6a2ad
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,11 +31,12 @@ The following table provides an overview of tasks that you typically perform to 
 | Get an overview of activities that are commonly performed at the end of a period, such as posting all documents and journals, or running account schedules. |[Closing Periods](year-how-complete-period-end-processes.md) |
 | Update currency exchange rates and adjust the exchange rates of posted customer, vendor, and bank account entries. |[How to: Update Currency Exchange Rates](finance-how-update-currencies.md) |
 | Allocate costs and income among accounts and dimensions. |[Allocating Costs and Income](year-allocate-costs-income.md) |
+| Prepare to report value-added tax amounts that you have collected for sales to the tax authorities' web service. |[How To: Report VAT to Tax Authorities](finance-how-report-vat.md)|
 | Print reports to verify general ledger, customer, vendor and bank account balances before closing a period. |[Preparing Pre-Closing Reports](year-prepare-preclose-reports.md) |
 | Close accounting periods and fiscal year, transfer income statement balances to balance sheet accounts and post the year end closing entry. |[Closing Books](year-close-books.md) |
 | Print reports that can assist you in creating financial statements. |[Preparing Closing Statements](year-prepare-close-statement.md) |
 
 ## <a name="see-also"></a>See Also
 [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

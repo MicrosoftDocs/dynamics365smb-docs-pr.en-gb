@@ -1,6 +1,6 @@
 ---
-title: 'How to: Transfer Inventory Between Locations| Microsoft Docs'
-description: Describes how to transfer inventory from one place or warehouse to another either with the reclassification journal or with transfer orders.
+title: Transfer Items Between Warehouse Locations| Microsoft Docs
+description: Describes how to move inventory from one place or warehouse to another, either with the reclassification journal or with transfer orders.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 43a60a6eb646de13ca9bf1458061f0bbefbeab12
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: d54b75240cb0a2dddcfabc488a18e0bf9635f82c
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,17 +27,20 @@ With transfer orders, you ship the outbound transfer from one location and recei
 
 With the reclassification journal, you simply fill in the **Location Code** and the **New Location Code** fields. When you post the journal, the item ledger entries are adjusted at the locations in question. With this method, warehouse activities are not managed.
 
-**Note**: If you have items recorded in your inventory without a location code, for example from a time when you only had one warehouse, then you cannot transfer those items using transfer orders. Instead, you must use the reclassification journal to reclassify the items from a blank location code to an actual location code.  For more information, see step 3 in the "To transfer items with the item reclassification journal" section.
+> [!NOTE]  
+>   If you have items recorded in your inventory without a location code, for example from a time when you only had one warehouse, then you cannot transfer those items using transfer orders. Instead, you must use the reclassification journal to reclassify the items from a blank location code to an actual location code.  For more information, see step 3 in the "To transfer items with the item reclassification journal" section.
 
 To transfer items, locations and transfer routes must be set up. For more information, see [How to: Set Up Locations](inventory-how-setup-locations.md).
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+> [!NOTE]  
+>   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>To transfer items with a transfer order
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Transfer orders**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transfer orders**, and then choose the related link.
 2. In the **Transfer Order** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    **Note**: If you have filled in the **In-Transit Code**, **Shipping Agent Code**, and **Shipping Agent Service** fields in the **Trans. Route Spec.** window when you set up the transfer route, then the corresponding fields on the transfer order are filled in automatically.
+    > [!NOTE]  
+>   If you have filled in the **In-Transit Code**, **Shipping Agent Code**, and **Shipping Agent Service** fields in the **Trans. Route Spec.** window when you set up the transfer route, then the corresponding fields on the transfer order are filled in automatically.
 
     When you fill in the **Shipping Agent Service** field, the receipt date at the transfer-to location is calculated by adding the shipping time of the shipping agent service to the shipment date.
 
@@ -50,11 +53,12 @@ To transfer items, locations and transfer routes must be set up. For more inform
 4. Choose the **Post** action, choose the **Receive** option, and then choose the **OK** button.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>To transfer items with the item reclassification journal
-1. In the top right corner, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon"), enter **Item Reclass. Journals**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journals**, and then choose the related link.
 2. In the **Item Reclass. Journal** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In the **Location Code** field, enter the location where the items are currently stored.
 
-    **Note**: To transfer items that have no location code, leave the **Location Code** field blank.
+    > [!NOTE]  
+>   To transfer items that have no location code, leave the **Location Code** field blank.
 4. In the **New Location Code** field, enter the location that you want to transfer the items to.
 5. Choose the **Post** action.
 
@@ -62,7 +66,7 @@ To transfer items, locations and transfer routes must be set up. For more inform
 [Manage Inventory](inventory-manage-inventory.md)  
 [How to: Set Up Locations](inventory-how-setup-locations.md)  
 [Supply Chain](madeira-supply-chain.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)
 
