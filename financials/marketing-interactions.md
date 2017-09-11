@@ -16,45 +16,44 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 8dbefb4ef7daf4016c5c577d1e749d2049791c4b
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="managing-interactions-with-contacts"></a>Managing Interactions With Contacts
-In [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], interactions are all types of communications between your company and your contacts. For example, communications can be by letter, fax, email, telephone, meetings, and so on.
+# <a name="managing-interactions-with-contacts"></a><span data-ttu-id="f4f77-103">Managing Interactions With Contacts</span><span class="sxs-lookup"><span data-stu-id="f4f77-103">Managing Interactions With Contacts</span></span>
+<span data-ttu-id="f4f77-104">In [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], interactions are all types of communications between your company and your contacts.</span><span class="sxs-lookup"><span data-stu-id="f4f77-104">In [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], interactions are all types of communications between your company and your contacts.</span></span> <span data-ttu-id="f4f77-105">For example, communications can be by letter, fax, email, telephone, meetings, and so on.</span><span class="sxs-lookup"><span data-stu-id="f4f77-105">For example, communications can be by letter, fax, email, telephone, meetings, and so on.</span></span>
 
-The relationship management area enables you to record all the interactions you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them. Setting up your application to record interactions consists of these tasks:
+<span data-ttu-id="f4f77-106">The relationship management area enables you to record all the interactions you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them.</span><span class="sxs-lookup"><span data-stu-id="f4f77-106">The relationship management area enables you to record all the interactions you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them.</span></span> <span data-ttu-id="f4f77-107">Setting up your application to record interactions consists of these tasks:</span><span class="sxs-lookup"><span data-stu-id="f4f77-107">Setting up your application to record interactions consists of these tasks:</span></span>
 
-* Setting up interaction templates  
-* Creating interactions on contacts or segments  
-* View and manage recorded interactions  
+* <span data-ttu-id="f4f77-108">Setting up interaction templates</span><span class="sxs-lookup"><span data-stu-id="f4f77-108">Setting up interaction templates</span></span>  
+* <span data-ttu-id="f4f77-109">Creating interactions on contacts or segments</span><span class="sxs-lookup"><span data-stu-id="f4f77-109">Creating interactions on contacts or segments</span></span>  
+* <span data-ttu-id="f4f77-110">View and manage recorded interactions</span><span class="sxs-lookup"><span data-stu-id="f4f77-110">View and manage recorded interactions</span></span>  
 
-##  <a name="setting-up-interaction-templates"></a>Setting up Interaction Templates
-Before you can create and record interactions, you must set up interaction templates. When creating interactions, you must specify the interaction templates they are based on. An interaction template is a model that defines the basic characteristics of an interaction.
-You set up an interaction template in the **Interaction Templates** window.  
+##  <a name="setting-up-interaction-templates"></a><span data-ttu-id="f4f77-111">Setting up Interaction Templates</span><span class="sxs-lookup"><span data-stu-id="f4f77-111">Setting up Interaction Templates</span></span>
+<span data-ttu-id="f4f77-112">Before you can create and record interactions, you must set up interaction templates.</span><span class="sxs-lookup"><span data-stu-id="f4f77-112">Before you can create and record interactions, you must set up interaction templates.</span></span> <span data-ttu-id="f4f77-113">When creating interactions, you must specify the interaction templates they are based on.</span><span class="sxs-lookup"><span data-stu-id="f4f77-113">When creating interactions, you must specify the interaction templates they are based on.</span></span> <span data-ttu-id="f4f77-114">An interaction template is a model that defines the basic characteristics of an interaction.</span><span class="sxs-lookup"><span data-stu-id="f4f77-114">An interaction template is a model that defines the basic characteristics of an interaction.</span></span>
+<span data-ttu-id="f4f77-115">You set up an interaction template in the **Interaction Templates** window.</span><span class="sxs-lookup"><span data-stu-id="f4f77-115">You set up an interaction template in the **Interaction Templates** window.</span></span>  
 
-## <a name="creating-interactions"></a>Creating Interactions
-There are two ways of recording interactions:
+## <a name="creating-interactions"></a><span data-ttu-id="f4f77-116">Creating Interactions</span><span class="sxs-lookup"><span data-stu-id="f4f77-116">Creating Interactions</span></span>
+<span data-ttu-id="f4f77-117">There are two ways of recording interactions:</span><span class="sxs-lookup"><span data-stu-id="f4f77-117">There are two ways of recording interactions:</span></span>
 
-* You can manually create interactions that are linked to a single contact or to a segment. For more information, see [How to: Create Interactions on Contacts and Segments](marketing-how-create-interactions.md).  
-* You can automatically record interactions when you perform actions in the application, for example, when you print an invoice, or quote. For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).
+* <span data-ttu-id="f4f77-118">You can manually create interactions that are linked to a single contact or to a segment.</span><span class="sxs-lookup"><span data-stu-id="f4f77-118">You can manually create interactions that are linked to a single contact or to a segment.</span></span> <span data-ttu-id="f4f77-119">For more information, see [How to: Create Interactions on Contacts and Segments](marketing-how-create-interactions.md).</span><span class="sxs-lookup"><span data-stu-id="f4f77-119">For more information, see [How to: Create Interactions on Contacts and Segments](marketing-how-create-interactions.md).</span></span>  
+* <span data-ttu-id="f4f77-120">You can automatically record interactions when you perform actions in the application, for example, when you print an invoice, or quote.</span><span class="sxs-lookup"><span data-stu-id="f4f77-120">You can automatically record interactions when you perform actions in the application, for example, when you print an invoice, or quote.</span></span> <span data-ttu-id="f4f77-121">For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).</span><span class="sxs-lookup"><span data-stu-id="f4f77-121">For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).</span></span>
 
-## <a name="viewing-and-managing-recorded-interactions"></a>Viewing and managing Recorded Interactions
-You can view all the recorded interactions that have not been deleted in the **Interaction Log Entries** window. You can open this window by:
+## <a name="viewing-and-managing-recorded-interactions"></a><span data-ttu-id="f4f77-122">Viewing and managing Recorded Interactions</span><span class="sxs-lookup"><span data-stu-id="f4f77-122">Viewing and managing Recorded Interactions</span></span>
+<span data-ttu-id="f4f77-123">You can view all the recorded interactions that have not been deleted in the **Interaction Log Entries** window.</span><span class="sxs-lookup"><span data-stu-id="f4f77-123">You can view all the recorded interactions that have not been deleted in the **Interaction Log Entries** window.</span></span> <span data-ttu-id="f4f77-124">You can open this window by:</span><span class="sxs-lookup"><span data-stu-id="f4f77-124">You can open this window by:</span></span>
 
-* Using the **Search for Page or Report** icon to search on **Interaction Log Entries**.
-* Choosing the **Interaction Log Entries** action on a contact or segment.
-  The **Interaction Log Entry** window contains the interactions you create manually and the interactions that the application records automatically.
+* <span data-ttu-id="f4f77-125">Using the **Search for Page or Report** icon to search on **Interaction Log Entries**.</span><span class="sxs-lookup"><span data-stu-id="f4f77-125">Using the **Search for Page or Report** icon to search on **Interaction Log Entries**.</span></span>
+* <span data-ttu-id="f4f77-126">Choosing the **Interaction Log Entries** action on a contact or segment.</span><span class="sxs-lookup"><span data-stu-id="f4f77-126">Choosing the **Interaction Log Entries** action on a contact or segment.</span></span>
+  <span data-ttu-id="f4f77-127">The **Interaction Log Entry** window contains the interactions you create manually and the interactions that the application records automatically.</span><span class="sxs-lookup"><span data-stu-id="f4f77-127">The **Interaction Log Entry** window contains the interactions you create manually and the interactions that the application records automatically.</span></span>
 
-In this window, you can:
+<span data-ttu-id="f4f77-128">In this window, you can:</span><span class="sxs-lookup"><span data-stu-id="f4f77-128">In this window, you can:</span></span>
 
-* View the status of interactions.
-* Mark interactions as cancelled.
+* <span data-ttu-id="f4f77-129">View the status of interactions.</span><span class="sxs-lookup"><span data-stu-id="f4f77-129">View the status of interactions.</span></span>
+* <span data-ttu-id="f4f77-130">Mark interactions as cancelled.</span><span class="sxs-lookup"><span data-stu-id="f4f77-130">Mark interactions as canceled.</span></span>
 
-You can delete interaction log entries that have been cancelled. To delete interaction log entries, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Canceled Interaction Log Entries**, and then choose the related link, and then fill in the information.
+<span data-ttu-id="f4f77-131">You can delete interaction log entries that have been cancelled.</span><span class="sxs-lookup"><span data-stu-id="f4f77-131">You can delete interaction log entries that have been canceled.</span></span> <span data-ttu-id="f4f77-132">To delete interaction log entries, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Canceled Interaction Log Entries**, and then choose the related link, and then fill in the information.</span><span class="sxs-lookup"><span data-stu-id="f4f77-132">To delete interaction log entries, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Canceled Interaction Log Entries**, and then choose the related link, and then fill in the information.</span></span>
 
-## <a name="see-also"></a>See Also
-[Managing Contacts](marketing-contacts.md)  
-[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Working with Financials](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="f4f77-133">See Also</span><span class="sxs-lookup"><span data-stu-id="f4f77-133">See Also</span></span>
+[<span data-ttu-id="f4f77-134">Managing Contacts</span><span class="sxs-lookup"><span data-stu-id="f4f77-134">Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="f4f77-135">Managing Sales Opportunities</span><span class="sxs-lookup"><span data-stu-id="f4f77-135">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
+[<span data-ttu-id="f4f77-136">Working with Financials</span><span class="sxs-lookup"><span data-stu-id="f4f77-136">Working with Financials</span></span>](ui-work-product.md)  
 

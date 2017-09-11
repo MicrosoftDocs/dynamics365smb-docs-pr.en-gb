@@ -15,88 +15,87 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-use-approval-workflows"></a>How to: Use Approval Workflows
-When a record, such as a purchase document or a customer card, needs to be approved by someone in your organisation, you send an approval request as part of a workflow. Based on how the workflow is set up, the appropriate approver is then notified that the record requires their approval.
+# <a name="how-to-use-approval-workflows"></a><span data-ttu-id="1dc5b-103">How to: Use Approval Workflows</span><span class="sxs-lookup"><span data-stu-id="1dc5b-103">How to: Use Approval Workflows</span></span>
+<span data-ttu-id="1dc5b-104">When a record, such as a purchase document or a customer card, needs to be approved by someone in your organisation, you send an approval request as part of a workflow.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-104">When a record, such as a purchase document or a customer card, needs to be approved by someone in your organization, you send an approval request as part of a workflow.</span></span> <span data-ttu-id="1dc5b-105">Based on how the workflow is set up, the appropriate approver is then notified that the record requires their approval.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-105">Based on how the workflow is set up, the appropriate approver is then notified that the record requires their approval.</span></span>
 
-You set up approval workflows in the **Workflow** window.
+<span data-ttu-id="1dc5b-106">You set up approval workflows in the **Workflow** window.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-106">You set up approval workflows in the **Workflow** window.</span></span>
 
-Core approval workflows for purchases documents, sales documents, payment journals, customer cards, and item cards are ready to start as assisted setup. For more information, see [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
+<span data-ttu-id="1dc5b-107">Core approval workflows for purchases documents, sales documents, payment journals, customer cards, and item cards are ready to start as assisted setup.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-107">Core approval workflows for purchases documents, sales documents, payment journals, customer cards, and item cards are ready to start as assisted setup.</span></span> <span data-ttu-id="1dc5b-108">For more information, see [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).</span><span class="sxs-lookup"><span data-stu-id="1dc5b-108">For more information, see [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).</span></span>
 
 > [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+>   <span data-ttu-id="1dc5b-109">This functionality requires that your experience is set to **Suite**.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-109">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="1dc5b-110">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="1dc5b-110">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-## <a name="to-request-approval-of-a-record"></a>To request approval of a record
-The following task is performed by an approval user.
+## <a name="to-request-approval-of-a-record"></a><span data-ttu-id="1dc5b-111">To request approval of a record</span><span class="sxs-lookup"><span data-stu-id="1dc5b-111">To request approval of a record</span></span>
+<span data-ttu-id="1dc5b-112">The following task is performed by an approval user.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-112">The following task is performed by an approval user.</span></span>
 
-1. In the window that presents the record, choose the **Send Approval Request** action.
-2. To see all your approval requests, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Approval Request Entries**, and then choose the related link.  
+1. <span data-ttu-id="1dc5b-113">In the window that presents the record, choose the **Send Approval Request** action.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-113">In the window that presents the record, choose the **Send Approval Request** action.</span></span>
+2. <span data-ttu-id="1dc5b-114">To see all your approval requests, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Approval Request Entries**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-114">To see all your approval requests, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Approval Request Entries**, and then choose the related link.</span></span>  
 
-The status of the approval entry is updated from **Created** to **Open**. The status of the record, for example a purchase invoice, is updated from **Open** to **Pending Approval** and remains locked for processing until all approvers have approved the record.
+<span data-ttu-id="1dc5b-115">The status of the approval entry is updated from **Created** to **Open**.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-115">The status of the approval entry is updated from **Created** to **Open**.</span></span> <span data-ttu-id="1dc5b-116">The status of the record, for example a purchase invoice, is updated from **Open** to **Pending Approval** and remains locked for processing until all approvers have approved the record.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-116">The status of the record, for example a purchase invoice, is updated from **Open** to **Pending Approval** and remains locked for processing until all approvers have approved the record.</span></span>
 
-When the approver has approved the record, the status changes to **Released**. You can then continue your tasks with the record.
+<span data-ttu-id="1dc5b-117">When the approver has approved the record, the status changes to **Released**.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-117">When the approver has approved the record, the status changes to **Released**.</span></span> <span data-ttu-id="1dc5b-118">You can then continue your tasks with the record.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-118">You can then continue your tasks with the record.</span></span>
 
-## <a name="to-cancel-requests-for-approval"></a>To cancel requests for approval
-The following task is performed by an approval user with approver rights.
+## <a name="to-cancel-requests-for-approval"></a><span data-ttu-id="1dc5b-119">To cancel requests for approval</span><span class="sxs-lookup"><span data-stu-id="1dc5b-119">To cancel requests for approval</span></span>
+<span data-ttu-id="1dc5b-120">The following task is performed by an approval user with approver rights.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-120">The following task is performed by an approval user with approver rights.</span></span>
 
-A customer may want to change an order after it has been submitted for approval. In this case, you can cancel the approval process and make the necessary changes to the order before you request approval again.
+<span data-ttu-id="1dc5b-121">A customer may want to change an order after it has been submitted for approval.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-121">A customer may want to change an order after it has been submitted for approval.</span></span> <span data-ttu-id="1dc5b-122">In this case, you can cancel the approval process and make the necessary changes to the order before you request approval again.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-122">In this case, you can cancel the approval process and make the necessary changes to the order before you request approval again.</span></span>
 
-- In the window that displays the record, choose the **Cancel Approval Request** action.
+- <span data-ttu-id="1dc5b-123">In the window that displays the record, choose the **Cancel Approval Request** action.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-123">In the window that displays the record, choose the **Cancel Approval Request** action.</span></span>
 
-When the approval request has been cancelled, the status of the related approval entry is changed to **Cancelled**. The status of the record is updated from **Pending Approval** to **Open**. The approval process can then start again.
+<span data-ttu-id="1dc5b-124">When the approval request has been cancelled, the status of the related approval entry is changed to **Cancelled**.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-124">When the approval request has been canceled, the status of the related approval entry is changed to **Canceled**.</span></span> <span data-ttu-id="1dc5b-125">The status of the record is updated from **Pending Approval** to **Open**.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-125">The status of the record is updated from **Pending Approval** to **Open**.</span></span> <span data-ttu-id="1dc5b-126">The approval process can then start again.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-126">The approval process can then start again.</span></span>
 
-## <a name="to-make-minor-changes-to-approved-records"></a>To make minor changes to approved records
-If you want to make a minor change to a record after it has been approved, you can reopen the record, make the change, and then release it. For minor changes, you do this with the **Reopen** and **Release** buttons.
+## <a name="to-make-minor-changes-to-approved-records"></a><span data-ttu-id="1dc5b-127">To make minor changes to approved records</span><span class="sxs-lookup"><span data-stu-id="1dc5b-127">To make minor changes to approved records</span></span>
+<span data-ttu-id="1dc5b-128">If you want to make a minor change to a record after it has been approved, you can reopen the record, make the change, and then release it.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-128">If you want to make a minor change to a record after it has been approved, you can reopen the record, make the change, and then release it.</span></span> <span data-ttu-id="1dc5b-129">For minor changes, you do this with the **Reopen** and **Release** buttons.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-129">For minor changes, you do this with the **Reopen** and **Release** buttons.</span></span>
 
-1. Open the window that displays the record, such as a purchase invoice, and then choose the **Reopen** action.
+1. <span data-ttu-id="1dc5b-130">Open the window that displays the record, such as a purchase invoice, and then choose the **Reopen** action.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-130">Open the window that displays the record, such as a purchase invoice, and then choose the **Reopen** action.</span></span>
 
-    The **Document Status** field is changed to **Open**.
-2. Make the necessary changes on the record, such as the vendor’s address.
-3. Choose the **Release** action.
+    <span data-ttu-id="1dc5b-131">The **Document Status** field is changed to **Open**.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-131">The **Document Status** field is changed to **Open**.</span></span>
+2. <span data-ttu-id="1dc5b-132">Make the necessary changes on the record, such as the vendor’s address.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-132">Make the necessary changes on the record, such as the vendor’s address.</span></span>
+3. <span data-ttu-id="1dc5b-133">Choose the **Release** action.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-133">Choose the **Release** action.</span></span>
 
-When you reopen the source record, the status of the related approval entry remains Approved in the **Approval Entries** window.
+<span data-ttu-id="1dc5b-134">When you reopen the source record, the status of the related approval entry remains Approved in the **Approval Entries** window.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-134">When you reopen the source record, the status of the related approval entry remains Approved in the **Approval Entries** window.</span></span>
 
-## <a name="to-approve-or-reject-requests-for-approval"></a>To approve or reject requests for approval
-The following task is performed by an approval user with approver rights.
+## <a name="to-approve-or-reject-requests-for-approval"></a><span data-ttu-id="1dc5b-135">To approve or reject requests for approval</span><span class="sxs-lookup"><span data-stu-id="1dc5b-135">To approve or reject requests for approval</span></span>
+<span data-ttu-id="1dc5b-136">The following task is performed by an approval user with approver rights.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-136">The following task is performed by an approval user with approver rights.</span></span>
 
-You can process approval requests in the **Requests to Approve** window, for example to approve multiple requests at a time. Alternatively, you can process each request on the related record, such as the **Purchase Invoice** window, by choosing the link in the notification that you receive.
+<span data-ttu-id="1dc5b-137">You can process approval requests in the **Requests to Approve** window, for example to approve multiple requests at a time.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-137">You can process approval requests in the **Requests to Approve** window, for example to approve multiple requests at a time.</span></span> <span data-ttu-id="1dc5b-138">Alternatively, you can process each request on the related record, such as the **Purchase Invoice** window, by choosing the link in the notification that you receive.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-138">Alternatively, you can process each request on the related record, such as the **Purchase Invoice** window, by choosing the link in the notification that you receive.</span></span>
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Requests to Approve**, and then choose the related link.
-2. Select one or more lines for the record or records that you want to approve or reject.
-3. Choose the **Approve**, **Reject**, or **Delegate** actions.
+1. <span data-ttu-id="1dc5b-139">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Requests to Approve**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-139">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Requests to Approve**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1dc5b-140">Select one or more lines for the record or records that you want to approve or reject.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-140">Select one or more lines for the record or records that you want to approve or reject.</span></span>
+3. <span data-ttu-id="1dc5b-141">Choose the **Approve**, **Reject**, or **Delegate** actions.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-141">Choose the **Approve**, **Reject**, or **Delegate** actions.</span></span>
 
-When a record has been approved or rejected, the approval status in the **Status** field changes to **Approved** or **Rejected**.
+<span data-ttu-id="1dc5b-142">When a record has been approved or rejected, the approval status in the **Status** field changes to **Approved** or **Rejected**.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-142">When a record has been approved or rejected, the approval status in the **Status** field changes to **Approved** or **Rejected**.</span></span>
 
-If an approver hierarchy is set up, the record status will be **Pending Approval** until all approvers have approved the record. Then the record status will change to **Released**.
+<span data-ttu-id="1dc5b-143">If an approver hierarchy is set up, the record status will be **Pending Approval** until all approvers have approved the record.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-143">If an approver hierarchy is set up, the record status will be **Pending Approval** until all approvers have approved the record.</span></span> <span data-ttu-id="1dc5b-144">Then the record status will change to **Released**.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-144">Then the record status will change to **Released**.</span></span>
 
-At the same time, the approval status changes from **Created** to **Open** as soon as an approval request for the record is created. If the request is rejected, the approval status changes to **Rejected**. The status remains **Open** or **Rejected** until all approvers have approved the request.
+<span data-ttu-id="1dc5b-145">At the same time, the approval status changes from **Created** to **Open** as soon as an approval request for the record is created.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-145">At the same time, the approval status changes from **Created** to **Open** as soon as an approval request for the record is created.</span></span> <span data-ttu-id="1dc5b-146">If the request is rejected, the approval status changes to **Rejected**.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-146">If the request is rejected, the approval status changes to **Rejected**.</span></span> <span data-ttu-id="1dc5b-147">The status remains **Open** or **Rejected** until all approvers have approved the request.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-147">The status remains **Open** or **Rejected** until all approvers have approved the request.</span></span>
 
-## <a name="to-delegate-requests-for-approval"></a>To delegate requests for approval
-The following task is performed by an approval user with approver rights.
+## <a name="to-delegate-requests-for-approval"></a><span data-ttu-id="1dc5b-148">To delegate requests for approval</span><span class="sxs-lookup"><span data-stu-id="1dc5b-148">To delegate requests for approval</span></span>
+<span data-ttu-id="1dc5b-149">The following task is performed by an approval user with approver rights.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-149">The following task is performed by an approval user with approver rights.</span></span>
 
-To prevent documents from piling up or otherwise block the workflow, the approver and the approval administrator can delegate an approval request to a substitute approver. The substitute can either be a designated substitute, the direct approver, or the approval administrator, in that order of priority. You typically use this feature if an approver is out of office and is unable to approve requests before the due date.
+<span data-ttu-id="1dc5b-150">To prevent documents from piling up or otherwise block the workflow, the approver and the approval administrator can delegate an approval request to a substitute approver.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-150">To prevent documents from piling up or otherwise block the workflow, the approver and the approval administrator can delegate an approval request to a substitute approver.</span></span> <span data-ttu-id="1dc5b-151">The substitute can either be a designated substitute, the direct approver, or the approval administrator, in that order of priority.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-151">The substitute can either be a designated substitute, the direct approver, or the approval administrator, in that order of priority.</span></span> <span data-ttu-id="1dc5b-152">You typically use this feature if an approver is out of office and is unable to approve requests before the due date.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-152">You typically use this feature if an approver is out of office and is unable to approve requests before the due date.</span></span>
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Requests to Approve**, and then choose the related link.
-2. Select one or more lines for the approval requests that you want to delegate to a substitute approver, and then choose the **Delegate** action.
+1. <span data-ttu-id="1dc5b-153">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Requests to Approve**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-153">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Requests to Approve**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1dc5b-154">Select one or more lines for the approval requests that you want to delegate to a substitute approver, and then choose the **Delegate** action.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-154">Select one or more lines for the approval requests that you want to delegate to a substitute approver, and then choose the **Delegate** action.</span></span>
 
-A notification to approve the request is sent to the substitute approver.
+<span data-ttu-id="1dc5b-155">A notification to approve the request is sent to the substitute approver.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-155">A notification to approve the request is sent to the substitute approver.</span></span>
 
-## <a name="to-manage-overdue-approval-requests"></a>To manage overdue approval requests
-The following task is performed by an approval user with approver rights.
+## <a name="to-manage-overdue-approval-requests"></a><span data-ttu-id="1dc5b-156">To manage overdue approval requests</span><span class="sxs-lookup"><span data-stu-id="1dc5b-156">To manage overdue approval requests</span></span>
+<span data-ttu-id="1dc5b-157">The following task is performed by an approval user with approver rights.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-157">The following task is performed by an approval user with approver rights.</span></span>
 
-At regular intervals, you must remind approval workflow users of overdue approval requests that they must react on. You use the **Send Overdue Approval Notifications** function for this.
+<span data-ttu-id="1dc5b-158">At regular intervals, you must remind approval workflow users of overdue approval requests that they must react on.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-158">At regular intervals, you must remind approval workflow users of overdue approval requests that they must react on.</span></span> <span data-ttu-id="1dc5b-159">You use the **Send Overdue Approval Notifications** function for this.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-159">You use the **Send Overdue Approval Notifications** function for this.</span></span>
 
-The **Send Overdue Approval Notifications** function checks for all open approval requests that are currently overdue. Each approver that has at least one overdue approval entry receives a notification with the list of all their overdue approval requests. The notification is also sent to their approver and all the requesters of the overdue approvals. This helps if the overdue approval entry must be delegated to a substitute.
+<span data-ttu-id="1dc5b-160">The **Send Overdue Approval Notifications** function checks for all open approval requests that are currently overdue.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-160">The **Send Overdue Approval Notifications** function checks for all open approval requests that are currently overdue.</span></span> <span data-ttu-id="1dc5b-161">Each approver that has at least one overdue approval entry receives a notification with the list of all their overdue approval requests.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-161">Each approver that has at least one overdue approval entry receives a notification with the list of all their overdue approval requests.</span></span> <span data-ttu-id="1dc5b-162">The notification is also sent to their approver and all the requesters of the overdue approvals.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-162">The notification is also sent to their approver and all the requesters of the overdue approvals.</span></span> <span data-ttu-id="1dc5b-163">This helps if the overdue approval entry must be delegated to a substitute.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-163">This helps if the overdue approval entry must be delegated to a substitute.</span></span>
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Overdue Approval Requests**, and then choose the related link.
-2. In the **Overdue Approval Requests** window, choose the **Send Overdue Approval Notifications** action.
+1. <span data-ttu-id="1dc5b-164">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Overdue Approval Requests**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-164">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Overdue Approval Requests**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1dc5b-165">In the **Overdue Approval Requests** window, choose the **Send Overdue Approval Notifications** action.</span><span class="sxs-lookup"><span data-stu-id="1dc5b-165">In the **Overdue Approval Requests** window, choose the **Send Overdue Approval Notifications** action.</span></span>
 
-## <a name="see-also"></a>See Also
-[Sales](sales-manage-sales.md)    
-[Incoming Documents](across-income-documents.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="1dc5b-166">See Also</span><span class="sxs-lookup"><span data-stu-id="1dc5b-166">See Also</span></span>
+<span data-ttu-id="1dc5b-167">[Sales](sales-manage-sales.md)  </span><span class="sxs-lookup"><span data-stu-id="1dc5b-167">[Sales](sales-manage-sales.md)  </span></span>  
+[<span data-ttu-id="1dc5b-168">Incoming Documents</span><span class="sxs-lookup"><span data-stu-id="1dc5b-168">Incoming Documents</span></span>](across-income-documents.md)  
+[<span data-ttu-id="1dc5b-169">Purchasing</span><span class="sxs-lookup"><span data-stu-id="1dc5b-169">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="1dc5b-170">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1dc5b-170">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)</span></span>
 

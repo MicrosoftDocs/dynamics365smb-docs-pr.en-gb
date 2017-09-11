@@ -16,25 +16,24 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 68017b8b031ee4bd368936b6fb4de157328d7030
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-post-the-year-end-closing-entry"></a>How to: Post the Year-End Closing Entry
-After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.
+# <a name="how-to-post-the-year-end-closing-entry"></a><span data-ttu-id="c087b-103">How to: Post the Year-End Closing Entry</span><span class="sxs-lookup"><span data-stu-id="c087b-103">How to: Post the Year-End Closing Entry</span></span>
+<span data-ttu-id="c087b-104">After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.</span><span class="sxs-lookup"><span data-stu-id="c087b-104">After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.</span></span>
 
-## <a name="to-post-the-year-end-closing-entry"></a>To post the year end closing entry
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.
-2. In the **General Journal** window, in the **Batch Name** field, select the batch that contains the closing entries.
-3. Review the entries.
-4. To post the journal, choose the **Post** action.
+## <a name="to-post-the-year-end-closing-entry"></a><span data-ttu-id="c087b-105">To post the year end closing entry</span><span class="sxs-lookup"><span data-stu-id="c087b-105">To post the year end closing entry</span></span>
+1. <span data-ttu-id="c087b-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="c087b-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="c087b-107">In the **General Journal** window, in the **Batch Name** field, select the batch that contains the closing entries.</span><span class="sxs-lookup"><span data-stu-id="c087b-107">In the **General Journal** window, in the **Batch Name** field, select the batch that contains the closing entries.</span></span>
+3. <span data-ttu-id="c087b-108">Review the entries.</span><span class="sxs-lookup"><span data-stu-id="c087b-108">Review the entries.</span></span>
+4. <span data-ttu-id="c087b-109">To post the journal, choose the **Post** action.</span><span class="sxs-lookup"><span data-stu-id="c087b-109">To post the journal, choose the **Post** action.</span></span>
 
 > [!NOTE]  
->   If an error is detected, an error message is displayed. If the posting is successful, the posted entries are removed from the journal. After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.
+>   <span data-ttu-id="c087b-110">If an error is detected, an error message is displayed.</span><span class="sxs-lookup"><span data-stu-id="c087b-110">If an error is detected, an error message is displayed.</span></span> <span data-ttu-id="c087b-111">If the posting is successful, the posted entries are removed from the journal.</span><span class="sxs-lookup"><span data-stu-id="c087b-111">If the posting is successful, the posted entries are removed from the journal.</span></span> <span data-ttu-id="c087b-112">After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.</span><span class="sxs-lookup"><span data-stu-id="c087b-112">After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.</span></span>
 
-## <a name="see-also"></a>See Also
-[How to: Close Accounting Periods](year-close-account-periods.md)  
-[Closing Books](year-close-books.md)  
-[Close Income Statement](year-close-income-statement.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="c087b-113">See Also</span><span class="sxs-lookup"><span data-stu-id="c087b-113">See Also</span></span>
+[<span data-ttu-id="c087b-114">How to: Close Accounting Periods</span><span class="sxs-lookup"><span data-stu-id="c087b-114">How to: Close Accounting Periods</span></span>](year-close-account-periods.md)  
+[<span data-ttu-id="c087b-115">Closing Books</span><span class="sxs-lookup"><span data-stu-id="c087b-115">Closing Books</span></span>](year-close-books.md)  
+[<span data-ttu-id="c087b-116">Close Income Statement</span><span class="sxs-lookup"><span data-stu-id="c087b-116">Close Income Statement</span></span>](year-close-income-statement.md)  
+<span data-ttu-id="c087b-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c087b-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

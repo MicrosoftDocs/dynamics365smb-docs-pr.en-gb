@@ -16,35 +16,34 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: da87c427033d58d92a6a5222bc323c68c4bc3f4e
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-categorize-items"></a>How to: Categorise Items
-To maintain an overview of your items and to help you sort and find items, it is useful to organise your items in item categories.
+# <a name="how-to-categorize-items"></a><span data-ttu-id="0ede1-103">How to: Categorise Items</span><span class="sxs-lookup"><span data-stu-id="0ede1-103">How to: Categorize Items</span></span>
+<span data-ttu-id="0ede1-104">To maintain an overview of your items and to help you sort and find items, it is useful to organise your items in item categories.</span><span class="sxs-lookup"><span data-stu-id="0ede1-104">To maintain an overview of your items and to help you sort and find items, it is useful to organize your items in item categories.</span></span>
 
-To find items by characteristics, you can assign item attributes to items and also to item categories. For more information, see [How to: Work with Item Attributes](inventory-how-work-item-attributes.md).
+<span data-ttu-id="0ede1-105">To find items by characteristics, you can assign item attributes to items and also to item categories.</span><span class="sxs-lookup"><span data-stu-id="0ede1-105">To find items by characteristics, you can assign item attributes to items and also to item categories.</span></span> <span data-ttu-id="0ede1-106">For more information, see [How to: Work with Item Attributes](inventory-how-work-item-attributes.md).</span><span class="sxs-lookup"><span data-stu-id="0ede1-106">For more information, see [How to: Work with Item Attributes](inventory-how-work-item-attributes.md).</span></span>
 
-## <a name="to-create-an-item-category"></a>To create an item category
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Categories**, and then choose the related link.
-2. In the **Item Categories** window, choose the **New** action.
-3. In the **Item Category Card** window, on the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. On the **Attributes** FastTab, specify any item attributes for the item category. For more information, see the "To assign item attributes to an item category" section in [How to: Work with Item Attributes](inventory-how-work-item-attributes.md).
-
-> [!NOTE]  
->   If the item category has a parent item category, as indicated by the **Parent Category** field, then any item attributes that are assigned to that parent item category are prefilled on the **Attributes** FastTab.
+## <a name="to-create-an-item-category"></a><span data-ttu-id="0ede1-107">To create an item category</span><span class="sxs-lookup"><span data-stu-id="0ede1-107">To create an item category</span></span>
+1. <span data-ttu-id="0ede1-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Categories**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="0ede1-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Categories**, and then choose the related link.</span></span>
+2. <span data-ttu-id="0ede1-109">In the **Item Categories** window, choose the **New** action.</span><span class="sxs-lookup"><span data-stu-id="0ede1-109">In the **Item Categories** window, choose the **New** action.</span></span>
+3. <span data-ttu-id="0ede1-110">In the **Item Category Card** window, on the **General** FastTab, fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="0ede1-110">In the **Item Category Card** window, on the **General** FastTab, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="0ede1-111">On the **Attributes** FastTab, specify any item attributes for the item category.</span><span class="sxs-lookup"><span data-stu-id="0ede1-111">On the **Attributes** FastTab, specify any item attributes for the item category.</span></span> <span data-ttu-id="0ede1-112">For more information, see the "To assign item attributes to an item category" section in [How to: Work with Item Attributes](inventory-how-work-item-attributes.md).</span><span class="sxs-lookup"><span data-stu-id="0ede1-112">For more information, see the "To assign item attributes to an item category" section in [How to: Work with Item Attributes](inventory-how-work-item-attributes.md).</span></span>
 
 > [!NOTE]  
->   Item attributes that you assign to an item category will automatically apply to the item that the item category is assigned to.
+>   <span data-ttu-id="0ede1-113">If the item category has a parent item category, as indicated by the **Parent Category** field, then any item attributes that are assigned to that parent item category are prefilled on the **Attributes** FastTab.</span><span class="sxs-lookup"><span data-stu-id="0ede1-113">If the item category has a parent item category, as indicated by the **Parent Category** field, then any item attributes that are assigned to that parent item category are prefilled on the **Attributes** FastTab.</span></span>
 
-## <a name="to-assign-an-item-category-to-an-item"></a>To assign an item category to an item
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
-2. Open the card for the item that you want to assign to an item category.
-3. Choose the lookup button in the **Item Category Code** field and select an existing item category. Alternatively, choose the **New** action to first create a new item category as explained in the "To create an item category" section.
+> [!NOTE]  
+>   <span data-ttu-id="0ede1-114">Item attributes that you assign to an item category will automatically apply to the item that the item category is assigned to.</span><span class="sxs-lookup"><span data-stu-id="0ede1-114">Item attributes that you assign to an item category will automatically apply to the item that the item category is assigned to.</span></span>
 
-## <a name="see-also"></a>See Also
-[How to: Work with Item Attributes](inventory-how-work-item-attributes.md)  
-[How to: Register New Items](inventory-how-register-new-items.md)  
-[Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="to-assign-an-item-category-to-an-item"></a><span data-ttu-id="0ede1-115">To assign an item category to an item</span><span class="sxs-lookup"><span data-stu-id="0ede1-115">To assign an item category to an item</span></span>
+1. <span data-ttu-id="0ede1-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="0ede1-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>
+2. <span data-ttu-id="0ede1-117">Open the card for the item that you want to assign to an item category.</span><span class="sxs-lookup"><span data-stu-id="0ede1-117">Open the card for the item that you want to assign to an item category.</span></span>
+3. <span data-ttu-id="0ede1-118">Choose the lookup button in the **Item Category Code** field and select an existing item category.</span><span class="sxs-lookup"><span data-stu-id="0ede1-118">Choose the lookup button in the **Item Category Code** field and select an existing item category.</span></span> <span data-ttu-id="0ede1-119">Alternatively, choose the **New** action to first create a new item category as explained in the "To create an item category" section.</span><span class="sxs-lookup"><span data-stu-id="0ede1-119">Alternatively, choose the **New** action to first create a new item category as explained in the "To create an item category" section.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="0ede1-120">See Also</span><span class="sxs-lookup"><span data-stu-id="0ede1-120">See Also</span></span>
+[<span data-ttu-id="0ede1-121">How to: Work with Item Attributes</span><span class="sxs-lookup"><span data-stu-id="0ede1-121">How to: Work with Item Attributes</span></span>](inventory-how-work-item-attributes.md)  
+[<span data-ttu-id="0ede1-122">How to: Register New Items</span><span class="sxs-lookup"><span data-stu-id="0ede1-122">How to: Register New Items</span></span>](inventory-how-register-new-items.md)  
+[<span data-ttu-id="0ede1-123">Inventory</span><span class="sxs-lookup"><span data-stu-id="0ede1-123">Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="0ede1-124">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0ede1-124">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

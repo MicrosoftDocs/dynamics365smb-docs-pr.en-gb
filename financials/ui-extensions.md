@@ -15,63 +15,63 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
 ms.openlocfilehash: 6bf7d2024ff9f0254e1d885580126fb16c0c6fce
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Customising Dynamics 365 for Financials Using Extensions
-You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.
-When you first launch [!INCLUDE[d365fin](includes/d365fin_md.md)], some extensions are already installed for you. Over time, more extensions will be made available to you, and you can then choose if you want to use the extension or not.
+# <a name="customizing-dynamics-365-for-financials-using-extensions"></a><span data-ttu-id="79eab-103">Customising Dynamics 365 for Financials Using Extensions</span><span class="sxs-lookup"><span data-stu-id="79eab-103">Customizing Dynamics 365 for Financials Using Extensions</span></span>
+<span data-ttu-id="79eab-104">You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.</span><span class="sxs-lookup"><span data-stu-id="79eab-104">You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.</span></span>
+<span data-ttu-id="79eab-105">When you first launch [!INCLUDE[d365fin](includes/d365fin_md.md)], some extensions are already installed for you.</span><span class="sxs-lookup"><span data-stu-id="79eab-105">When you first launch [!INCLUDE[d365fin](includes/d365fin_md.md)], some extensions are already installed for you.</span></span> <span data-ttu-id="79eab-106">Over time, more extensions will be made available to you, and you can then choose if you want to use the extension or not.</span><span class="sxs-lookup"><span data-stu-id="79eab-106">Over time, more extensions will be made available to you, and you can then choose if you want to use the extension or not.</span></span>
 
-For example, Microsoft provides an extension that provides integration with PayPal Payments Standard. This extension is installed by default.
-But if another extension is made available that offers integration with another payment service, you can install the new extension and then choose which of the two services to use.  
+<span data-ttu-id="79eab-107">For example, Microsoft provides an extension that provides integration with PayPal Payments Standard.</span><span class="sxs-lookup"><span data-stu-id="79eab-107">For example, Microsoft provides an extension that provides integration with PayPal Payments Standard.</span></span> <span data-ttu-id="79eab-108">This extension is installed by default.</span><span class="sxs-lookup"><span data-stu-id="79eab-108">This extension is installed by default.</span></span>
+<span data-ttu-id="79eab-109">But if another extension is made available that offers integration with another payment service, you can install the new extension and then choose which of the two services to use.</span><span class="sxs-lookup"><span data-stu-id="79eab-109">But if another extension is made available that offers integration with another payment service, you can install the new extension and then choose which of the two services to use.</span></span>  
 
-You manage the extensions in the **Extension Management** window. You can access this window from Home. Alternatively, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") in the top right corner, enter **Extension**, and then choose the related link.  
-
-> [!NOTE]  
->   If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** window - if the extension is not listed there, you can install it as described in the following section.  
-
-## <a name="installing-an-extension"></a>Installing an Extension
-You can get new extensions from the marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Here, you can see all available extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can get apps, extensions, and content packs for other Microsoft products. Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-> [!NOTE]  
->   Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Use the same email account for other services and products for a smooth experience.  
-
-You can also get to the marketplace from inside [!INCLUDE[d365fin](includes/d365fin_md.md)]. In the **Extension Management** window, you can see the extensions that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[d365fin](includes/d365fin_md.md)] extensions that are currently available in AppSource. If you choose the *More apps* link, you are taken to [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
-
-If you choose an extension, you can read about what the extension does, and you can access Help for the extension to learn more. When you choose to get an extension, you must agree to the terms of use. If you get the extension from the AppSource website, you will be signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)] to complete the installation.  
-
-When you install an extension, you might have to set it up, such as specifying an account for use with the **PayPal Payments Standard for [!INCLUDE[d365fin](includes/d365fin_md.md)]** extension.
-Other extensions simply add fields to an existing page, or they add a new page, for example.   
-
-If you uninstall an extension, and you then change your mind, you can install it again. When you uninstall an extension that you have been using, the data is preserved so that if you install the extension again, your data is still available.  
-
-Some extensions are provided by Microsoft, and other extensions are provided by [other companies](ui-extensions-other.md). All extensions are tested before they are made available to you, but we recommend that you access the links that are provided with each extension to learn more about the extension before you choose to install it.  
-
-Microsoft provides the following extensions:  
-
-* [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
-* [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
-* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)  
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)  
-* [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
-* [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
-* [Accountant Portal](ui-extensions-accountant-portal.md)  
-* [Image Analyzer](ui-extensions-image-analyzer.md)
+<span data-ttu-id="79eab-110">You manage the extensions in the **Extension Management** window.</span><span class="sxs-lookup"><span data-stu-id="79eab-110">You manage the extensions in the **Extension Management** window.</span></span> <span data-ttu-id="79eab-111">You can access this window from Home.</span><span class="sxs-lookup"><span data-stu-id="79eab-111">You can access this window from Home.</span></span> <span data-ttu-id="79eab-112">Alternatively, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") in the top right corner, enter **Extension**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="79eab-112">Alternatively, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") in the top right corner, enter **Extension**, and then choose the related link.</span></span>  
 
 > [!NOTE]  
->  New extensions are not available in AppSource immediately after we announce an update. You can keep an eye out for the extensions at  [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
+>   <span data-ttu-id="79eab-113">If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** window - if the extension is not listed there, you can install it as described in the following section.</span><span class="sxs-lookup"><span data-stu-id="79eab-113">If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** window - if the extension is not listed there, you can install it as described in the following section.</span></span>  
 
-## <a name="see-also"></a>See Also
-[How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
-[How to: Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md)  
-[Migrate Business Data from Other Finance Systems](upload-data.md)  
-[Set up the GetAddress.io UK Postal Code extension](uk-setup-postal-code-service.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+## <a name="installing-an-extension"></a><span data-ttu-id="79eab-114">Installing an Extension</span><span class="sxs-lookup"><span data-stu-id="79eab-114">Installing an Extension</span></span>
+<span data-ttu-id="79eab-115">You can get new extensions from the marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span><span class="sxs-lookup"><span data-stu-id="79eab-115">You can get new extensions from the marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span></span> <span data-ttu-id="79eab-116">Here, you can see all available extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can get apps, extensions, and content packs for other Microsoft products.</span><span class="sxs-lookup"><span data-stu-id="79eab-116">Here, you can see all available extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can get apps, extensions, and content packs for other Microsoft products.</span></span> <span data-ttu-id="79eab-117">Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="79eab-117">Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+> [!NOTE]  
+>   <span data-ttu-id="79eab-118">Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="79eab-118">Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="79eab-119">Use the same email account for other services and products for a smooth experience.</span><span class="sxs-lookup"><span data-stu-id="79eab-119">Use the same email account for other services and products for a smooth experience.</span></span>  
+
+<span data-ttu-id="79eab-120">You can also get to the marketplace from inside [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="79eab-120">You can also get to the marketplace from inside [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="79eab-121">In the **Extension Management** window, you can see the extensions that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[d365fin](includes/d365fin_md.md)] extensions that are currently available in AppSource.</span><span class="sxs-lookup"><span data-stu-id="79eab-121">In the **Extension Management** window, you can see the extensions that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[d365fin](includes/d365fin_md.md)] extensions that are currently available in AppSource.</span></span> <span data-ttu-id="79eab-122">If you choose the *More apps* link, you are taken to [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span><span class="sxs-lookup"><span data-stu-id="79eab-122">If you choose the *More apps* link, you are taken to [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span></span>  
+
+<span data-ttu-id="79eab-123">If you choose an extension, you can read about what the extension does, and you can access Help for the extension to learn more.</span><span class="sxs-lookup"><span data-stu-id="79eab-123">If you choose an extension, you can read about what the extension does, and you can access Help for the extension to learn more.</span></span> <span data-ttu-id="79eab-124">When you choose to get an extension, you must agree to the terms of use.</span><span class="sxs-lookup"><span data-stu-id="79eab-124">When you choose to get an extension, you must agree to the terms of use.</span></span> <span data-ttu-id="79eab-125">If you get the extension from the AppSource website, you will be signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)] to complete the installation.</span><span class="sxs-lookup"><span data-stu-id="79eab-125">If you get the extension from the AppSource website, you will be signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)] to complete the installation.</span></span>  
+
+<span data-ttu-id="79eab-126">When you install an extension, you might have to set it up, such as specifying an account for use with the **PayPal Payments Standard for [!INCLUDE[d365fin](includes/d365fin_md.md)]** extension.</span><span class="sxs-lookup"><span data-stu-id="79eab-126">When you install an extension, you might have to set it up, such as specifying an account for use with the **PayPal Payments Standard for [!INCLUDE[d365fin](includes/d365fin_md.md)]** extension.</span></span>
+<span data-ttu-id="79eab-127">Other extensions simply add fields to an existing page, or they add a new page, for example.</span><span class="sxs-lookup"><span data-stu-id="79eab-127">Other extensions simply add fields to an existing page, or they add a new page, for example.</span></span>   
+
+<span data-ttu-id="79eab-128">If you uninstall an extension, and you then change your mind, you can install it again.</span><span class="sxs-lookup"><span data-stu-id="79eab-128">If you uninstall an extension, and you then change your mind, you can install it again.</span></span> <span data-ttu-id="79eab-129">When you uninstall an extension that you have been using, the data is preserved so that if you install the extension again, your data is still available.</span><span class="sxs-lookup"><span data-stu-id="79eab-129">When you uninstall an extension that you have been using, the data is preserved so that if you install the extension again, your data is still available.</span></span>  
+
+<span data-ttu-id="79eab-130">Some extensions are provided by Microsoft, and other extensions are provided by [other companies](ui-extensions-other.md).</span><span class="sxs-lookup"><span data-stu-id="79eab-130">Some extensions are provided by Microsoft, and other extensions are provided by [other companies](ui-extensions-other.md).</span></span> <span data-ttu-id="79eab-131">All extensions are tested before they are made available to you, but we recommend that you access the links that are provided with each extension to learn more about the extension before you choose to install it.</span><span class="sxs-lookup"><span data-stu-id="79eab-131">All extensions are tested before they are made available to you, but we recommend that you access the links that are provided with each extension to learn more about the extension before you choose to install it.</span></span>  
+
+<span data-ttu-id="79eab-132">Microsoft provides the following extensions:</span><span class="sxs-lookup"><span data-stu-id="79eab-132">Microsoft provides the following extensions:</span></span>  
+
+* [<span data-ttu-id="79eab-133">Dynamics GP Data Migration</span><span class="sxs-lookup"><span data-stu-id="79eab-133">Dynamics GP Data Migration</span></span>](ui-extensions-dynamicsgp-data-migration.md)  
+* [<span data-ttu-id="79eab-134">Envestnet Yodlee Bank Feeds</span><span class="sxs-lookup"><span data-stu-id="79eab-134">Envestnet Yodlee Bank Feeds</span></span>](ui-extensions-yodlee-bank-feeds.md)  
+* [<span data-ttu-id="79eab-135">PayPal Payments Standard</span><span class="sxs-lookup"><span data-stu-id="79eab-135">PayPal Payments Standard</span></span>](ui-extensions-paypal-payments-standard.md)  
+* [<span data-ttu-id="79eab-136">QuickBooks Data Migration</span><span class="sxs-lookup"><span data-stu-id="79eab-136">QuickBooks Data Migration</span></span>](ui-extensions-quickbooks-data-migration.md)  
+* [<span data-ttu-id="79eab-137">Sales and Inventory Forecast</span><span class="sxs-lookup"><span data-stu-id="79eab-137">Sales and Inventory Forecast</span></span>](ui-extensions-sales-forecast.md)  
+* [<span data-ttu-id="79eab-138">Ceridian Payroll</span><span class="sxs-lookup"><span data-stu-id="79eab-138">Ceridian Payroll</span></span>](ui-extensions-ceridian-payroll.md)  
+* [<span data-ttu-id="79eab-139">Quickbooks Payroll File Import</span><span class="sxs-lookup"><span data-stu-id="79eab-139">Quickbooks Payroll File Import</span></span>](ui-extensions-quickbooks-payroll.md)  
+* [<span data-ttu-id="79eab-140">WorldPay Payments Standard</span><span class="sxs-lookup"><span data-stu-id="79eab-140">WorldPay Payments Standard</span></span>](ui-extensions-worldpay-payments-standard.md)
+* [<span data-ttu-id="79eab-141">GetAddress.io UK Postcodes</span><span class="sxs-lookup"><span data-stu-id="79eab-141">GetAddress.io UK Postcodes</span></span>](ui-extensions-getaddressio.md)
+* [<span data-ttu-id="79eab-142">QuickBooks Online Data Migration</span><span class="sxs-lookup"><span data-stu-id="79eab-142">QuickBooks Online Data Migration</span></span>](ui-extensions-quickbooks-online-data-migration.md)
+* [<span data-ttu-id="79eab-143">Accountant Portal</span><span class="sxs-lookup"><span data-stu-id="79eab-143">Accountant Portal</span></span>](ui-extensions-accountant-portal.md)  
+* [<span data-ttu-id="79eab-144">Image Analyzer</span><span class="sxs-lookup"><span data-stu-id="79eab-144">Image Analyzer</span></span>](ui-extensions-image-analyzer.md)
+
+> [!NOTE]  
+>  <span data-ttu-id="79eab-145">New extensions are not available in AppSource immediately after we announce an update.</span><span class="sxs-lookup"><span data-stu-id="79eab-145">New extensions are not available in AppSource immediately after we announce an update.</span></span> <span data-ttu-id="79eab-146">You can keep an eye out for the extensions at  [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span><span class="sxs-lookup"><span data-stu-id="79eab-146">You can keep an eye out for the extensions at  [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="79eab-147">See Also</span><span class="sxs-lookup"><span data-stu-id="79eab-147">See Also</span></span>
+[<span data-ttu-id="79eab-148">How to: Set Up the Envestnet Yodlee Bank Feeds Service</span><span class="sxs-lookup"><span data-stu-id="79eab-148">How to: Set Up the Envestnet Yodlee Bank Feeds Service</span></span>](bank-how-setup-bank-statement-service.md)  
+[<span data-ttu-id="79eab-149">How to: Enable Customer Payment Through PayPal</span><span class="sxs-lookup"><span data-stu-id="79eab-149">How to: Enable Customer Payment Through PayPal</span></span>](sales-how-enable-payment-service-extensions.md)  
+[<span data-ttu-id="79eab-150">Migrate Business Data from Other Finance Systems</span><span class="sxs-lookup"><span data-stu-id="79eab-150">Migrate Business Data from Other Finance Systems</span></span>](upload-data.md)  
+[<span data-ttu-id="79eab-151">Set up the GetAddress.io UK Postal Code extension</span><span class="sxs-lookup"><span data-stu-id="79eab-151">Set up the GetAddress.io UK Postal Code extension</span></span>](uk-setup-postal-code-service.md)  
+<span data-ttu-id="79eab-152">[[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md)</span><span class="sxs-lookup"><span data-stu-id="79eab-152">[[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md)</span></span>  
+<span data-ttu-id="79eab-153">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="79eab-153">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

@@ -16,26 +16,25 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 16ebd2d0525bec312368fba99d829b650b5015b2
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="managing-relationships"></a>Managing Relationships
-The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts. With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.
+# <a name="managing-relationships"></a><span data-ttu-id="eedcc-103">Managing Relationships</span><span class="sxs-lookup"><span data-stu-id="eedcc-103">Managing Relationships</span></span>
+<span data-ttu-id="eedcc-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span><span class="sxs-lookup"><span data-stu-id="eedcc-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span></span> <span data-ttu-id="eedcc-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span><span class="sxs-lookup"><span data-stu-id="eedcc-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span></span>
 
-Good sales and marketing practices are all about how to make the best decisions at the right time. [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.
+<span data-ttu-id="eedcc-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span><span class="sxs-lookup"><span data-stu-id="eedcc-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="eedcc-107"> provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span><span class="sxs-lookup"><span data-stu-id="eedcc-107"> provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span></span>
 
-To get started, see the following topics:
+<span data-ttu-id="eedcc-108">To get started, see the following topics:</span><span class="sxs-lookup"><span data-stu-id="eedcc-108">To get started, see the following topics:</span></span>
 
-[Managing Contacts](marketing-contacts.md)  
-[Managing Segments](marketing-segments.md)  
-[Recording Interactions](marketing-interactions.md)  
-[Managing Marketing Campaigns](marketing-campaigns.md)  
-[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)
+[<span data-ttu-id="eedcc-109">Managing Contacts</span><span class="sxs-lookup"><span data-stu-id="eedcc-109">Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="eedcc-110">Managing Segments</span><span class="sxs-lookup"><span data-stu-id="eedcc-110">Managing Segments</span></span>](marketing-segments.md)  
+[<span data-ttu-id="eedcc-111">Recording Interactions</span><span class="sxs-lookup"><span data-stu-id="eedcc-111">Recording Interactions</span></span>](marketing-interactions.md)  
+[<span data-ttu-id="eedcc-112">Managing Marketing Campaigns</span><span class="sxs-lookup"><span data-stu-id="eedcc-112">Managing Marketing Campaigns</span></span>](marketing-campaigns.md)  
+[<span data-ttu-id="eedcc-113">Managing Sales Opportunities</span><span class="sxs-lookup"><span data-stu-id="eedcc-113">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)
 
-## <a name="see-also"></a>See Also
-[Sales](sales-manage-sales.md)  
-[Setting Up Relationship Management](marketing-setup-marketing.md)  
-[Managing your Customer Relationships Using Dynamics 365 for Sales from Inside [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="eedcc-114">See Also</span><span class="sxs-lookup"><span data-stu-id="eedcc-114">See Also</span></span>
+[<span data-ttu-id="eedcc-115">Sales</span><span class="sxs-lookup"><span data-stu-id="eedcc-115">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="eedcc-116">Setting Up Relationship Management</span><span class="sxs-lookup"><span data-stu-id="eedcc-116">Setting Up Relationship Management</span></span>](marketing-setup-marketing.md)  
+<span data-ttu-id="eedcc-117">[Managing your Customer Relationships Using Dynamics 365 for Sales from Inside [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)</span><span class="sxs-lookup"><span data-stu-id="eedcc-117">[Managing your Customer Relationships Using Dynamics 365 for Sales from Inside [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)</span></span>  
+<span data-ttu-id="eedcc-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="eedcc-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

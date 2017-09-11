@@ -16,106 +16,106 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ef5c6f4b9106b1b289cc5ed060fc28426fde0ae2
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>How to: Set Up the Envestnet Yodlee Bank Feeds Service
-You can import electronic bank statements from your bank to quickly fill in the **Payment Reconciliation Journal** window so you can apply payments and reconcile the bank account. For more information, see [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a><span data-ttu-id="10eb3-103">How to: Set Up the Envestnet Yodlee Bank Feeds Service</span><span class="sxs-lookup"><span data-stu-id="10eb3-103">How to: Set Up the Envestnet Yodlee Bank Feeds Service</span></span>
+<span data-ttu-id="10eb3-104">You can import electronic bank statements from your bank to quickly fill in the **Payment Reconciliation Journal** window so you can apply payments and reconcile the bank account.</span><span class="sxs-lookup"><span data-stu-id="10eb3-104">You can import electronic bank statements from your bank to quickly fill in the **Payment Reconciliation Journal** window so you can apply payments and reconcile the bank account.</span></span> <span data-ttu-id="10eb3-105">For more information, see [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="10eb3-105">For more information, see [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).</span></span>
 
-The Envestnet Yodlee Bank Feeds service is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)] and is ready to be enabled. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
+<span data-ttu-id="10eb3-106">The Envestnet Yodlee Bank Feeds service is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)] and is ready to be enabled.</span><span class="sxs-lookup"><span data-stu-id="10eb3-106">The Envestnet Yodlee Bank Feeds service is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)] and is ready to be enabled.</span></span> <span data-ttu-id="10eb3-107">For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="10eb3-107">For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).</span></span>
 
-After you enable the bank feed service, you must link a bank account to the online bank account that the feed will come from. You link bank accounts to online bank accounts in the following different scenarios:
+<span data-ttu-id="10eb3-108">After you enable the bank feed service, you must link a bank account to the online bank account that the feed will come from.</span><span class="sxs-lookup"><span data-stu-id="10eb3-108">After you enable the bank feed service, you must link a bank account to the online bank account that the feed will come from.</span></span> <span data-ttu-id="10eb3-109">You link bank accounts to online bank accounts in the following different scenarios:</span><span class="sxs-lookup"><span data-stu-id="10eb3-109">You link bank accounts to online bank accounts in the following different scenarios:</span></span>
 
-* A bank account does not exist in [!INCLUDE[d365fin](includes/d365fin_md.md)] for your online bank account. Therefore, you create the bank account by linking from the online bank account.
-* A bank account exists in [!INCLUDE[d365fin](includes/d365fin_md.md)], which you want to link to an online bank account.
-* A linked bank account must be unlinked because you want to stop using the bank feed service for the account.
-* Online bank accounts have changed and you want to update the information on bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+* <span data-ttu-id="10eb3-110">A bank account does not exist in [!INCLUDE[d365fin](includes/d365fin_md.md)] for your online bank account.</span><span class="sxs-lookup"><span data-stu-id="10eb3-110">A bank account does not exist in [!INCLUDE[d365fin](includes/d365fin_md.md)] for your online bank account.</span></span> <span data-ttu-id="10eb3-111">Therefore, you create the bank account by linking from the online bank account.</span><span class="sxs-lookup"><span data-stu-id="10eb3-111">Therefore, you create the bank account by linking from the online bank account.</span></span>
+* <span data-ttu-id="10eb3-112">A bank account exists in [!INCLUDE[d365fin](includes/d365fin_md.md)], which you want to link to an online bank account.</span><span class="sxs-lookup"><span data-stu-id="10eb3-112">A bank account exists in [!INCLUDE[d365fin](includes/d365fin_md.md)], which you want to link to an online bank account.</span></span>
+* <span data-ttu-id="10eb3-113">A linked bank account must be unlinked because you want to stop using the bank feed service for the account.</span><span class="sxs-lookup"><span data-stu-id="10eb3-113">A linked bank account must be unlinked because you want to stop using the bank feed service for the account.</span></span>
+* <span data-ttu-id="10eb3-114">Online bank accounts have changed and you want to update the information on bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="10eb3-114">Online bank accounts have changed and you want to update the information on bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
 
-When the bank feed service is enabled, you can set a bank account up to automatically import new bank statements into the **Payment Reconciliation Journal** window every two hour. Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported. For more information, see the “To enable automatic import of bank statements” section.
-
-> [!NOTE]  
->   If you use the Set Up Company assisted setup, some of the steps in the following procedures happen automatically when you get to the company bank account setup. For more information, see [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
-
-## <a name="to-enable-the-bank-feed-service"></a>To enable the bank feed service
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.
-2. Open the bank account that you will use for the bank feed service.
-3. In the **Bank Account** window, in the **Bank Statement Import Format** field, select YODLEEBANKFEED.  
-
-The bank feed service will be enabled when you link a bank account to its related online bank account. See the next procedure.  
-
-## <a name="to-create-a-new-linked-bank-account"></a>To create a new linked bank account
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.
-2. Select the relevant bank account, and then choose the **Create New Linked Bank Account**. The **Bank Account Linking** window opens after a few moments.
-
-    > [!NOTE]  
->   This window shows the actual web page of the Envestnet Yodlee Bank Feeds service. Terminology and functionality in the window may not match instructions provided in this topic.  
-3. In the **Online Bank Account Linking** window, in the **Link Account** pane, use the Search function to find the bank where you have one or more online bank accounts.
-4. Choose the bank name. The **Log In** pane opens.
-5. Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.  
-6. The bank feed service prepares to link the first online bank account at the specified bank to a new bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-    > [!NOTE]  
->   If you have more than one online bank account at the bank, you must create additional bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] for them. See steps 8 through 10.  
-
-    After the process completes, the bank name will appear in the **My Accounts** pane on the **Linked** tab. The number in brackets indicates how many online bank accounts were linked.  
-7. Choose the **OK** button.
-
-    If you're only linking one online bank account, the **Bank Account Card** window opens and displays the name of the online bank account. In this case, the bank account linking task is completed. All that's left to do is to set up the bank account. For more information, see [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md).
-
-    If you're linking more than one online bank accounts, the **Bank Account Linking** window opens and lists the online bank accounts that are not yet linked to bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In that case, follow the next step.  
-8. In the **Bank Account Linking** window, select the line for an online bank account, and then choose the **Link to New Bank Account** action.  
-
-    The **Bank Account Card** window for a new bank account opens and displays the name of the online bank account.
-
-    If a bank account already exists in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want to link the additional online bank account to, follow the next step.  
-9. In the **Bank Account Linking** window, select the line for an online bank account, and then choose the **Link to Existing Bank Account** action.
-10. In the **Bank Account List** window, select the bank account that you want to link to, and then choose the **OK** button.
-
-## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>To link a bank account to an online bank account
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.
-2. Select the line for a bank account that is not linked to an online bank account, and then choose the **Link to Online Bank Account** action. The **Online Bank Account Linking** window opens with the name of the bank prefilled in the **Link Account** pane.
-3. Choose the bank name. The **Log In** pane opens.
-4. Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.  
-
-    The bank feed service prepares to link your bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)] to the related online bank account.  
-
-    When the process has completed successfully, the bank name will appear in the **My Accounts** pane on the **Linked** tab. If the bank has more than one bank account, only the bank account that you selected in step 2 is linked.  
-5. Choose the **OK** button.
-
-In the **Bank Account List** window, the **Linked** check box is selected.
-
-## <a name="to-unlink-a-bank-account"></a>To unlink a bank account
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
-2. Select the line for a linked bank account that you want to unlink from its related online bank account, and the choose the **Unlink Online Bank Account** action.
+<span data-ttu-id="10eb3-115">When the bank feed service is enabled, you can set a bank account up to automatically import new bank statements into the **Payment Reconciliation Journal** window every two hour.</span><span class="sxs-lookup"><span data-stu-id="10eb3-115">When the bank feed service is enabled, you can set a bank account up to automatically import new bank statements into the **Payment Reconciliation Journal** window every two hour.</span></span> <span data-ttu-id="10eb3-116">Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported.</span><span class="sxs-lookup"><span data-stu-id="10eb3-116">Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported.</span></span> <span data-ttu-id="10eb3-117">For more information, see the “To enable automatic import of bank statements” section.</span><span class="sxs-lookup"><span data-stu-id="10eb3-117">For more information, see the “To enable automatic import of bank statements” section.</span></span>
 
 > [!NOTE]  
->   If you choose **Yes** on the confirmation dialog, the link to the online bank account is removed, and the log-in details are cleared. To link the bank account to the online bank account again, you must log on to the bank again. For more information, see the “To link a bank account to an online bank account“ section.
+>   <span data-ttu-id="10eb3-118">If you use the Set Up Company assisted setup, some of the steps in the following procedures happen automatically when you get to the company bank account setup.</span><span class="sxs-lookup"><span data-stu-id="10eb3-118">If you use the Set Up Company assisted setup, some of the steps in the following procedures happen automatically when you get to the company bank account setup.</span></span> <span data-ttu-id="10eb3-119">For more information, see [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).</span><span class="sxs-lookup"><span data-stu-id="10eb3-119">For more information, see [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).</span></span>
 
-## <a name="to-update-bank-account-linking"></a>To update bank account linking
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.
-2. Select the relevant bank account, and then choose the **Update Bank Account Linking** action.
+## <a name="to-enable-the-bank-feed-service"></a><span data-ttu-id="10eb3-120">To enable the bank feed service</span><span class="sxs-lookup"><span data-stu-id="10eb3-120">To enable the bank feed service</span></span>
+1. <span data-ttu-id="10eb3-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="10eb3-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="10eb3-122">Open the bank account that you will use for the bank feed service.</span><span class="sxs-lookup"><span data-stu-id="10eb3-122">Open the bank account that you will use for the bank feed service.</span></span>
+3. <span data-ttu-id="10eb3-123">In the **Bank Account** window, in the **Bank Statement Import Format** field, select YODLEEBANKFEED.</span><span class="sxs-lookup"><span data-stu-id="10eb3-123">In the **Bank Account** window, in the **Bank Statement Import Format** field, select YODLEEBANKFEED.</span></span>  
 
-If issues exist for any of the linked bank accounts in the **Bank Account List** window, the **Bank Account Linking** window opens specifying which bank accounts have issues. Issues can best be resolved by unlinking the online bank account and then re-creating the link. For more information, see the “To link a bank account to an online bank account“ section.
+<span data-ttu-id="10eb3-124">The bank feed service will be enabled when you link a bank account to its related online bank account.</span><span class="sxs-lookup"><span data-stu-id="10eb3-124">The bank feed service will be enabled when you link a bank account to its related online bank account.</span></span> <span data-ttu-id="10eb3-125">See the next procedure.</span><span class="sxs-lookup"><span data-stu-id="10eb3-125">See the next procedure.</span></span>  
 
-## <a name="to-enable-automatic-import-of-bank-statements"></a>To enable automatic import of bank statements
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.
-2. Select the line for a linked bank account, and then choose the **Automatic Bank Statement Import Setup** action.
-3. In the **Automatic Bank Statement Import Setup** window, in the **Number of Days Included** field, specify how far back in time to get new bank transactions for.
+## <a name="to-create-a-new-linked-bank-account"></a><span data-ttu-id="10eb3-126">To create a new linked bank account</span><span class="sxs-lookup"><span data-stu-id="10eb3-126">To create a new linked bank account</span></span>
+1. <span data-ttu-id="10eb3-127">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="10eb3-127">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="10eb3-128">Select the relevant bank account, and then choose the **Create New Linked Bank Account**.</span><span class="sxs-lookup"><span data-stu-id="10eb3-128">Select the relevant bank account, and then choose the **Create New Linked Bank Account**.</span></span> <span data-ttu-id="10eb3-129">The **Bank Account Linking** window opens after a few moments.</span><span class="sxs-lookup"><span data-stu-id="10eb3-129">The **Bank Account Linking** window opens after a few moments.</span></span>
 
     > [!NOTE]  
->   It is recommended that you set this value to 7 days or more.  
-4. Select the **Enabled** check box.  
+>   <span data-ttu-id="10eb3-130">This window shows the actual web page of the Envestnet Yodlee Bank Feeds service.</span><span class="sxs-lookup"><span data-stu-id="10eb3-130">This window shows the actual web page of the Envestnet Yodlee Bank Feeds service.</span></span> <span data-ttu-id="10eb3-131">Terminology and functionality in the window may not match instructions provided in this topic.</span><span class="sxs-lookup"><span data-stu-id="10eb3-131">Terminology and functionality in the window may not match instructions provided in this topic.</span></span>  
+3. <span data-ttu-id="10eb3-132">In the **Online Bank Account Linking** window, in the **Link Account** pane, use the Search function to find the bank where you have one or more online bank accounts.</span><span class="sxs-lookup"><span data-stu-id="10eb3-132">In the **Online Bank Account Linking** window, in the **Link Account** pane, use the Search function to find the bank where you have one or more online bank accounts.</span></span>
+4. <span data-ttu-id="10eb3-133">Choose the bank name.</span><span class="sxs-lookup"><span data-stu-id="10eb3-133">Choose the bank name.</span></span> <span data-ttu-id="10eb3-134">The **Log In** pane opens.</span><span class="sxs-lookup"><span data-stu-id="10eb3-134">The **Log In** pane opens.</span></span>
+5. <span data-ttu-id="10eb3-135">Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.</span><span class="sxs-lookup"><span data-stu-id="10eb3-135">Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.</span></span>  
+6. <span data-ttu-id="10eb3-136">The bank feed service prepares to link the first online bank account at the specified bank to a new bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="10eb3-136">The bank feed service prepares to link the first online bank account at the specified bank to a new bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
 
-Every hour, the **Payment Reconciliation Journal** window will display new payments that are made on the online bank account.
+    > [!NOTE]  
+>   <span data-ttu-id="10eb3-137">If you have more than one online bank account at the bank, you must create additional bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] for them.</span><span class="sxs-lookup"><span data-stu-id="10eb3-137">If you have more than one online bank account at the bank, you must create additional bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] for them.</span></span> <span data-ttu-id="10eb3-138">See steps 8 through 10.</span><span class="sxs-lookup"><span data-stu-id="10eb3-138">See steps 8 through 10.</span></span>  
+
+    <span data-ttu-id="10eb3-139">After the process completes, the bank name will appear in the **My Accounts** pane on the **Linked** tab.</span><span class="sxs-lookup"><span data-stu-id="10eb3-139">After the process completes, the bank name will appear in the **My Accounts** pane on the **Linked** tab.</span></span> <span data-ttu-id="10eb3-140">The number in brackets indicates how many online bank accounts were linked.</span><span class="sxs-lookup"><span data-stu-id="10eb3-140">The number in brackets indicates how many online bank accounts were linked.</span></span>  
+7. <span data-ttu-id="10eb3-141">Choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="10eb3-141">Choose the **OK** button.</span></span>
+
+    <span data-ttu-id="10eb3-142">If you're only linking one online bank account, the **Bank Account Card** window opens and displays the name of the online bank account.</span><span class="sxs-lookup"><span data-stu-id="10eb3-142">If you're only linking one online bank account, the **Bank Account Card** window opens and displays the name of the online bank account.</span></span> <span data-ttu-id="10eb3-143">In this case, the bank account linking task is completed.</span><span class="sxs-lookup"><span data-stu-id="10eb3-143">In this case, the bank account linking task is completed.</span></span> <span data-ttu-id="10eb3-144">All that's left to do is to set up the bank account.</span><span class="sxs-lookup"><span data-stu-id="10eb3-144">All that's left to do is to set up the bank account.</span></span> <span data-ttu-id="10eb3-145">For more information, see [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="10eb3-145">For more information, see [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md).</span></span>
+
+    <span data-ttu-id="10eb3-146">If you're linking more than one online bank accounts, the **Bank Account Linking** window opens and lists the online bank accounts that are not yet linked to bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="10eb3-146">If you're linking more than one online bank accounts, the **Bank Account Linking** window opens and lists the online bank accounts that are not yet linked to bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="10eb3-147">In that case, follow the next step.</span><span class="sxs-lookup"><span data-stu-id="10eb3-147">In that case, follow the next step.</span></span>  
+8. <span data-ttu-id="10eb3-148">In the **Bank Account Linking** window, select the line for an online bank account, and then choose the **Link to New Bank Account** action.</span><span class="sxs-lookup"><span data-stu-id="10eb3-148">In the **Bank Account Linking** window, select the line for an online bank account, and then choose the **Link to New Bank Account** action.</span></span>  
+
+    <span data-ttu-id="10eb3-149">The **Bank Account Card** window for a new bank account opens and displays the name of the online bank account.</span><span class="sxs-lookup"><span data-stu-id="10eb3-149">The **Bank Account Card** window for a new bank account opens and displays the name of the online bank account.</span></span>
+
+    <span data-ttu-id="10eb3-150">If a bank account already exists in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want to link the additional online bank account to, follow the next step.</span><span class="sxs-lookup"><span data-stu-id="10eb3-150">If a bank account already exists in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want to link the additional online bank account to, follow the next step.</span></span>  
+9. <span data-ttu-id="10eb3-151">In the **Bank Account Linking** window, select the line for an online bank account, and then choose the **Link to Existing Bank Account** action.</span><span class="sxs-lookup"><span data-stu-id="10eb3-151">In the **Bank Account Linking** window, select the line for an online bank account, and then choose the **Link to Existing Bank Account** action.</span></span>
+10. <span data-ttu-id="10eb3-152">In the **Bank Account List** window, select the bank account that you want to link to, and then choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="10eb3-152">In the **Bank Account List** window, select the bank account that you want to link to, and then choose the **OK** button.</span></span>
+
+## <a name="to-link-a-bank-account-to-an-online-bank-account"></a><span data-ttu-id="10eb3-153">To link a bank account to an online bank account</span><span class="sxs-lookup"><span data-stu-id="10eb3-153">To link a bank account to an online bank account</span></span>
+1. <span data-ttu-id="10eb3-154">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="10eb3-154">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="10eb3-155">Select the line for a bank account that is not linked to an online bank account, and then choose the **Link to Online Bank Account** action.</span><span class="sxs-lookup"><span data-stu-id="10eb3-155">Select the line for a bank account that is not linked to an online bank account, and then choose the **Link to Online Bank Account** action.</span></span> <span data-ttu-id="10eb3-156">The **Online Bank Account Linking** window opens with the name of the bank prefilled in the **Link Account** pane.</span><span class="sxs-lookup"><span data-stu-id="10eb3-156">The **Online Bank Account Linking** window opens with the name of the bank prefilled in the **Link Account** pane.</span></span>
+3. <span data-ttu-id="10eb3-157">Choose the bank name.</span><span class="sxs-lookup"><span data-stu-id="10eb3-157">Choose the bank name.</span></span> <span data-ttu-id="10eb3-158">The **Log In** pane opens.</span><span class="sxs-lookup"><span data-stu-id="10eb3-158">The **Log In** pane opens.</span></span>
+4. <span data-ttu-id="10eb3-159">Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.</span><span class="sxs-lookup"><span data-stu-id="10eb3-159">Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.</span></span>  
+
+    <span data-ttu-id="10eb3-160">The bank feed service prepares to link your bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)] to the related online bank account.</span><span class="sxs-lookup"><span data-stu-id="10eb3-160">The bank feed service prepares to link your bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)] to the related online bank account.</span></span>  
+
+    <span data-ttu-id="10eb3-161">When the process has completed successfully, the bank name will appear in the **My Accounts** pane on the **Linked** tab.</span><span class="sxs-lookup"><span data-stu-id="10eb3-161">When the process has completed successfully, the bank name will appear in the **My Accounts** pane on the **Linked** tab.</span></span> <span data-ttu-id="10eb3-162">If the bank has more than one bank account, only the bank account that you selected in step 2 is linked.</span><span class="sxs-lookup"><span data-stu-id="10eb3-162">If the bank has more than one bank account, only the bank account that you selected in step 2 is linked.</span></span>  
+5. <span data-ttu-id="10eb3-163">Choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="10eb3-163">Choose the **OK** button.</span></span>
+
+<span data-ttu-id="10eb3-164">In the **Bank Account List** window, the **Linked** check box is selected.</span><span class="sxs-lookup"><span data-stu-id="10eb3-164">In the **Bank Account List** window, the **Linked** check box is selected.</span></span>
+
+## <a name="to-unlink-a-bank-account"></a><span data-ttu-id="10eb3-165">To unlink a bank account</span><span class="sxs-lookup"><span data-stu-id="10eb3-165">To unlink a bank account</span></span>
+1. <span data-ttu-id="10eb3-166">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="10eb3-166">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="10eb3-167">Select the line for a linked bank account that you want to unlink from its related online bank account, and the choose the **Unlink Online Bank Account** action.</span><span class="sxs-lookup"><span data-stu-id="10eb3-167">Select the line for a linked bank account that you want to unlink from its related online bank account, and the choose the **Unlink Online Bank Account** action.</span></span>
 
 > [!NOTE]  
->   Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported.
+>   <span data-ttu-id="10eb3-168">If you choose **Yes** on the confirmation dialog, the link to the online bank account is removed, and the log-in details are cleared.</span><span class="sxs-lookup"><span data-stu-id="10eb3-168">If you choose **Yes** on the confirmation dialog, the link to the online bank account is removed, and the log-in details are cleared.</span></span> <span data-ttu-id="10eb3-169">To link the bank account to the online bank account again, you must log on to the bank again.</span><span class="sxs-lookup"><span data-stu-id="10eb3-169">To link the bank account to the online bank account again, you must log on to the bank again.</span></span> <span data-ttu-id="10eb3-170">For more information, see the “To link a bank account to an online bank account“ section.</span><span class="sxs-lookup"><span data-stu-id="10eb3-170">For more information, see the “To link a bank account to an online bank account“ section.</span></span>
 
-## <a name="see-also"></a>See Also
-[Setting Up Banking](bank-setup-banking.md)  
-[Managing Bank Accounts](bank-manage-bank-accounts.md)  
-[Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="to-update-bank-account-linking"></a><span data-ttu-id="10eb3-171">To update bank account linking</span><span class="sxs-lookup"><span data-stu-id="10eb3-171">To update bank account linking</span></span>
+1. <span data-ttu-id="10eb3-172">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="10eb3-172">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="10eb3-173">Select the relevant bank account, and then choose the **Update Bank Account Linking** action.</span><span class="sxs-lookup"><span data-stu-id="10eb3-173">Select the relevant bank account, and then choose the **Update Bank Account Linking** action.</span></span>
+
+<span data-ttu-id="10eb3-174">If issues exist for any of the linked bank accounts in the **Bank Account List** window, the **Bank Account Linking** window opens specifying which bank accounts have issues.</span><span class="sxs-lookup"><span data-stu-id="10eb3-174">If issues exist for any of the linked bank accounts in the **Bank Account List** window, the **Bank Account Linking** window opens specifying which bank accounts have issues.</span></span> <span data-ttu-id="10eb3-175">Issues can best be resolved by unlinking the online bank account and then re-creating the link.</span><span class="sxs-lookup"><span data-stu-id="10eb3-175">Issues can best be resolved by unlinking the online bank account and then re-creating the link.</span></span> <span data-ttu-id="10eb3-176">For more information, see the “To link a bank account to an online bank account“ section.</span><span class="sxs-lookup"><span data-stu-id="10eb3-176">For more information, see the “To link a bank account to an online bank account“ section.</span></span>
+
+## <a name="to-enable-automatic-import-of-bank-statements"></a><span data-ttu-id="10eb3-177">To enable automatic import of bank statements</span><span class="sxs-lookup"><span data-stu-id="10eb3-177">To enable automatic import of bank statements</span></span>
+1. <span data-ttu-id="10eb3-178">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="10eb3-178">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="10eb3-179">Select the line for a linked bank account, and then choose the **Automatic Bank Statement Import Setup** action.</span><span class="sxs-lookup"><span data-stu-id="10eb3-179">Select the line for a linked bank account, and then choose the **Automatic Bank Statement Import Setup** action.</span></span>
+3. <span data-ttu-id="10eb3-180">In the **Automatic Bank Statement Import Setup** window, in the **Number of Days Included** field, specify how far back in time to get new bank transactions for.</span><span class="sxs-lookup"><span data-stu-id="10eb3-180">In the **Automatic Bank Statement Import Setup** window, in the **Number of Days Included** field, specify how far back in time to get new bank transactions for.</span></span>
+
+    > [!NOTE]  
+>   <span data-ttu-id="10eb3-181">It is recommended that you set this value to 7 days or more.</span><span class="sxs-lookup"><span data-stu-id="10eb3-181">It is recommended that you set this value to 7 days or more.</span></span>  
+4. <span data-ttu-id="10eb3-182">Select the **Enabled** check box.</span><span class="sxs-lookup"><span data-stu-id="10eb3-182">Select the **Enabled** check box.</span></span>  
+
+<span data-ttu-id="10eb3-183">Every hour, the **Payment Reconciliation Journal** window will display new payments that are made on the online bank account.</span><span class="sxs-lookup"><span data-stu-id="10eb3-183">Every hour, the **Payment Reconciliation Journal** window will display new payments that are made on the online bank account.</span></span>
+
+> [!NOTE]  
+>   <span data-ttu-id="10eb3-184">Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported.</span><span class="sxs-lookup"><span data-stu-id="10eb3-184">Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="10eb3-185">See Also</span><span class="sxs-lookup"><span data-stu-id="10eb3-185">See Also</span></span>
+[<span data-ttu-id="10eb3-186">Setting Up Banking</span><span class="sxs-lookup"><span data-stu-id="10eb3-186">Setting Up Banking</span></span>](bank-setup-banking.md)  
+[<span data-ttu-id="10eb3-187">Managing Bank Accounts</span><span class="sxs-lookup"><span data-stu-id="10eb3-187">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+[<span data-ttu-id="10eb3-188">Apply Payments Automatically and Reconcile Bank Accounts</span><span class="sxs-lookup"><span data-stu-id="10eb3-188">Apply Payments Automatically and Reconcile Bank Accounts</span></span>](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+<span data-ttu-id="10eb3-189">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="10eb3-189">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)</span></span>  
+<span data-ttu-id="10eb3-190">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="10eb3-190">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

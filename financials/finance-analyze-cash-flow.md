@@ -16,43 +16,42 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analysing Cash Flow in Your Company
-As they say, cash is king. The charts on the Accountant Role Centre provide insight that can help you make solid decisions about what to do with your cash.  
+# <a name="analyzing-cash-flow-in-your-company"></a><span data-ttu-id="802a4-103">Analysing Cash Flow in Your Company</span><span class="sxs-lookup"><span data-stu-id="802a4-103">Analyzing Cash Flow in Your Company</span></span>
+<span data-ttu-id="802a4-104">As they say, cash is king.</span><span class="sxs-lookup"><span data-stu-id="802a4-104">As they say, cash is king.</span></span> <span data-ttu-id="802a4-105">The charts on the Accountant Role Centre provide insight that can help you make solid decisions about what to do with your cash.</span><span class="sxs-lookup"><span data-stu-id="802a4-105">The charts on the Accountant Role Center provide insight that can help you make solid decisions about what to do with your cash.</span></span>  
 
-| To answer questions like these | Use this chart |
+| <span data-ttu-id="802a4-106">To answer questions like these</span><span class="sxs-lookup"><span data-stu-id="802a4-106">To answer questions like these</span></span> | <span data-ttu-id="802a4-107">Use this chart</span><span class="sxs-lookup"><span data-stu-id="802a4-107">Use this chart</span></span> |
 | --- | --- |
-| How long does the sales process tie up my cash?</br> Should I increase or reduce inventory levels? |Cash Cycle |
-| When did cash move in and out of my company?</br> Are some periods better than others? |Cash Flow |
-| Do the numbers seem off for a period?</br> Should I investigate? |Income & Expense |
-| When might a cash surplus or deficit happen?</br> Should I pay down debt, or borrow to meet upcoming expenses? |Cash Flow Forecasts |
+| <span data-ttu-id="802a4-108">How long does the sales process tie up my cash?</span><span class="sxs-lookup"><span data-stu-id="802a4-108">How long does the sales process tie up my cash?</span></span></br> <span data-ttu-id="802a4-109">Should I increase or reduce inventory levels?</span><span class="sxs-lookup"><span data-stu-id="802a4-109">Should I increase or reduce inventory levels?</span></span> |<span data-ttu-id="802a4-110">Cash Cycle</span><span class="sxs-lookup"><span data-stu-id="802a4-110">Cash Cycle</span></span> |
+| <span data-ttu-id="802a4-111">When did cash move in and out of my company?</span><span class="sxs-lookup"><span data-stu-id="802a4-111">When did cash move in and out of my company?</span></span></br> <span data-ttu-id="802a4-112">Are some periods better than others?</span><span class="sxs-lookup"><span data-stu-id="802a4-112">Are some periods better than others?</span></span> |<span data-ttu-id="802a4-113">Cash Flow</span><span class="sxs-lookup"><span data-stu-id="802a4-113">Cash Flow</span></span> |
+| <span data-ttu-id="802a4-114">Do the numbers seem off for a period?</span><span class="sxs-lookup"><span data-stu-id="802a4-114">Do the numbers seem off for a period?</span></span></br> <span data-ttu-id="802a4-115">Should I investigate?</span><span class="sxs-lookup"><span data-stu-id="802a4-115">Should I investigate?</span></span> |<span data-ttu-id="802a4-116">Income & Expense</span><span class="sxs-lookup"><span data-stu-id="802a4-116">Income & Expense</span></span> |
+| <span data-ttu-id="802a4-117">When might a cash surplus or deficit happen?</span><span class="sxs-lookup"><span data-stu-id="802a4-117">When might a cash surplus or deficit happen?</span></span></br> <span data-ttu-id="802a4-118">Should I pay down debt, or borrow to meet upcoming expenses?</span><span class="sxs-lookup"><span data-stu-id="802a4-118">Should I pay down debt, or borrow to meet upcoming expenses?</span></span> |<span data-ttu-id="802a4-119">Cash Flow Forecasts</span><span class="sxs-lookup"><span data-stu-id="802a4-119">Cash Flow Forecasts</span></span> |
 
-## <a name="dig-into-the-numbers"></a>Dig into the numbers
-On the Accountant Role Center, under **Finance Performance**, the **Cash Cycle**, **Cash Flow**, and **Income & Expense** charts offer ways to analyze cash flow:  
+## <a name="dig-into-the-numbers"></a><span data-ttu-id="802a4-120">Dig into the numbers</span><span class="sxs-lookup"><span data-stu-id="802a4-120">Dig into the numbers</span></span>
+<span data-ttu-id="802a4-121">On the Accountant Role Center, under **Finance Performance**, the **Cash Cycle**, **Cash Flow**, and **Income & Expense** charts offer ways to analyze cash flow:</span><span class="sxs-lookup"><span data-stu-id="802a4-121">On the Accountant Role Center, under **Finance Performance**, the **Cash Cycle**, **Cash Flow**, and **Income & Expense** charts offer ways to analyze cash flow:</span></span>  
 
-* See figures for a period by using the timeline slider.  
-* Filter the chart by choosing the source in the legend.  
-* Change the length of the period, or go to the previous or next period, by choosing options on the **Finance Performance** drop down.  
-* View the entries by choosing a point in the chart. For example, a point on the timeline or a column segment. If the numbers seem off, this is where you can make adjustments.  
+* <span data-ttu-id="802a4-122">See figures for a period by using the timeline slider.</span><span class="sxs-lookup"><span data-stu-id="802a4-122">See figures for a period by using the timeline slider.</span></span>  
+* <span data-ttu-id="802a4-123">Filter the chart by choosing the source in the legend.</span><span class="sxs-lookup"><span data-stu-id="802a4-123">Filter the chart by choosing the source in the legend.</span></span>  
+* <span data-ttu-id="802a4-124">Change the length of the period, or go to the previous or next period, by choosing options on the **Finance Performance** drop down.</span><span class="sxs-lookup"><span data-stu-id="802a4-124">Change the length of the period, or go to the previous or next period, by choosing options on the **Finance Performance** drop down.</span></span>  
+* <span data-ttu-id="802a4-125">View the entries by choosing a point in the chart.</span><span class="sxs-lookup"><span data-stu-id="802a4-125">View the entries by choosing a point in the chart.</span></span> <span data-ttu-id="802a4-126">For example, a point on the timeline or a column segment.</span><span class="sxs-lookup"><span data-stu-id="802a4-126">For example, a point on the timeline or a column segment.</span></span> <span data-ttu-id="802a4-127">If the numbers seem off, this is where you can make adjustments.</span><span class="sxs-lookup"><span data-stu-id="802a4-127">If the numbers seem off, this is where you can make adjustments.</span></span>  
 
-Although it's separate, the **Cash Flow Forecast** chart is similar. You view details, filter results, and change what's displayed in the same ways. If you change a setting, you can refresh the forecast by choosing **Cash Flow Forecast**, and then **Recalculate Forecast**.
+<span data-ttu-id="802a4-128">Although it's separate, the **Cash Flow Forecast** chart is similar.</span><span class="sxs-lookup"><span data-stu-id="802a4-128">Although it's separate, the **Cash Flow Forecast** chart is similar.</span></span> <span data-ttu-id="802a4-129">You view details, filter results, and change what's displayed in the same ways.</span><span class="sxs-lookup"><span data-stu-id="802a4-129">You view details, filter results, and change what's displayed in the same ways.</span></span> <span data-ttu-id="802a4-130">If you change a setting, you can refresh the forecast by choosing **Cash Flow Forecast**, and then **Recalculate Forecast**.</span><span class="sxs-lookup"><span data-stu-id="802a4-130">If you change a setting, you can refresh the forecast by choosing **Cash Flow Forecast**, and then **Recalculate Forecast**.</span></span>
 
-If you want to examine the forecast, in addition to forecast entries, you can also look at the cash flow worksheet. For example, you can see how the forecast:
+<span data-ttu-id="802a4-131">If you want to examine the forecast, in addition to forecast entries, you can also look at the cash flow worksheet.</span><span class="sxs-lookup"><span data-stu-id="802a4-131">If you want to examine the forecast, in addition to forecast entries, you can also look at the cash flow worksheet.</span></span> <span data-ttu-id="802a4-132">For example, you can see how the forecast:</span><span class="sxs-lookup"><span data-stu-id="802a4-132">For example, you can see how the forecast:</span></span>
 
-* Handles confirmed sales and purchases.  
-* Subtracts payables and adds receivables.  
-* Skips duplicate sales orders and purchase orders.  
+* <span data-ttu-id="802a4-133">Handles confirmed sales and purchases.</span><span class="sxs-lookup"><span data-stu-id="802a4-133">Handles confirmed sales and purchases.</span></span>  
+* <span data-ttu-id="802a4-134">Subtracts payables and adds receivables.</span><span class="sxs-lookup"><span data-stu-id="802a4-134">Subtracts payables and adds receivables.</span></span>  
+* <span data-ttu-id="802a4-135">Skips duplicate sales orders and purchase orders.</span><span class="sxs-lookup"><span data-stu-id="802a4-135">Skips duplicate sales orders and purchase orders.</span></span>  
 
-### <a name="to-view-a-cash-flow-worksheet"></a>To view a cash flow worksheet
-1. Search for **Cash Flow Forecasts**, and then choose the related link.  
-2. Choose a cash flow forecast, and then choose the **Cash Flow Worksheet** action.  
-3. On the **Cash Flow Worksheet** page, choose the **Suggest Worksheet Lines** action.  
+### <a name="to-view-a-cash-flow-worksheet"></a><span data-ttu-id="802a4-136">To view a cash flow worksheet</span><span class="sxs-lookup"><span data-stu-id="802a4-136">To view a cash flow worksheet</span></span>
+1. <span data-ttu-id="802a4-137">Search for **Cash Flow Forecasts**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="802a4-137">Search for **Cash Flow Forecasts**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="802a4-138">Choose a cash flow forecast, and then choose the **Cash Flow Worksheet** action.</span><span class="sxs-lookup"><span data-stu-id="802a4-138">Choose a cash flow forecast, and then choose the **Cash Flow Worksheet** action.</span></span>  
+3. <span data-ttu-id="802a4-139">On the **Cash Flow Worksheet** page, choose the **Suggest Worksheet Lines** action.</span><span class="sxs-lookup"><span data-stu-id="802a4-139">On the **Cash Flow Worksheet** page, choose the **Suggest Worksheet Lines** action.</span></span>  
 
-## <a name="see-also"></a>See Also
-[Setting Up Finance](finance-setup-finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
+## <a name="see-also"></a><span data-ttu-id="802a4-140">See Also</span><span class="sxs-lookup"><span data-stu-id="802a4-140">See Also</span></span>
+[<span data-ttu-id="802a4-141">Setting Up Finance</span><span class="sxs-lookup"><span data-stu-id="802a4-141">Setting Up Finance</span></span>](finance-setup-finance.md)  
+<span data-ttu-id="802a4-142">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="802a4-142">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="802a4-143">Setting Up Cash Flow Analysis</span><span class="sxs-lookup"><span data-stu-id="802a4-143">Setting Up Cash Flow Analysis</span></span>](finance-setup-cash-flow-analyses.md)  
 

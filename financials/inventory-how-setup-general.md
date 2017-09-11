@@ -16,22 +16,21 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 328b522107b58029687dd9e3263ff53b10ede9a9
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-set-up-general-inventory-information"></a>How to: Set Up General Inventory Information
-You specify your general inventory setup in the **Inventory Setup** window.
+# <a name="how-to-set-up-general-inventory-information"></a><span data-ttu-id="f7134-103">How to: Set Up General Inventory Information</span><span class="sxs-lookup"><span data-stu-id="f7134-103">How to: Set Up General Inventory Information</span></span>
+<span data-ttu-id="f7134-104">You specify your general inventory setup in the **Inventory Setup** window.</span><span class="sxs-lookup"><span data-stu-id="f7134-104">You specify your general inventory setup in the **Inventory Setup** window.</span></span>
 
-## <a name="to-set-up-general-inventory-information"></a>To set up general inventory information
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.
-2. In the **Inventory Setup** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-set-up-general-inventory-information"></a><span data-ttu-id="f7134-105">To set up general inventory information</span><span class="sxs-lookup"><span data-stu-id="f7134-105">To set up general inventory information</span></span>
+1. <span data-ttu-id="f7134-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="f7134-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.</span></span>
+2. <span data-ttu-id="f7134-107">In the **Inventory Setup** window, fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="f7134-107">In the **Inventory Setup** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>See Also
-[Set Up Inventory](inventory-setup-inventory.md)  
-[Manage Inventory](inventory-manage-inventory.md)  
-[Supply Chain](madeira-supply-chain.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
-[General Business Functionality](ui-across-business-areas.md)
+## <a name="see-also"></a><span data-ttu-id="f7134-108">See Also</span><span class="sxs-lookup"><span data-stu-id="f7134-108">See Also</span></span>
+[<span data-ttu-id="f7134-109">Set Up Inventory</span><span class="sxs-lookup"><span data-stu-id="f7134-109">Set Up Inventory</span></span>](inventory-setup-inventory.md)  
+[<span data-ttu-id="f7134-110">Manage Inventory</span><span class="sxs-lookup"><span data-stu-id="f7134-110">Manage Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="f7134-111">Supply Chain</span><span class="sxs-lookup"><span data-stu-id="f7134-111">Supply Chain</span></span>](madeira-supply-chain.md)  
+<span data-ttu-id="f7134-112">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f7134-112">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+<span data-ttu-id="f7134-113">[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)</span><span class="sxs-lookup"><span data-stu-id="f7134-113">[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)</span></span>  
+[<span data-ttu-id="f7134-114">General Business Functionality</span><span class="sxs-lookup"><span data-stu-id="f7134-114">General Business Functionality</span></span>](ui-across-business-areas.md)
 

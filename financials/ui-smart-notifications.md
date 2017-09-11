@@ -15,26 +15,25 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="smart-notifications"></a>Smart Notifications
-[!INCLUDE[d365fin](includes/d365fin_md.md)] can help you work smarter by notifying you about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell, for example. These notifications are shown as discreet tips in the context of the task you are doing, and you can choose to ignore the notification or to see details about the issue.  
+# <a name="smart-notifications"></a><span data-ttu-id="c4611-103">Smart Notifications</span><span class="sxs-lookup"><span data-stu-id="c4611-103">Smart Notifications</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="c4611-104"> can help you work smarter by notifying you about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell, for example.</span><span class="sxs-lookup"><span data-stu-id="c4611-104"> can help you work smarter by notifying you about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell, for example.</span></span> <span data-ttu-id="c4611-105">These notifications are shown as discreet tips in the context of the task you are doing, and you can choose to ignore the notification or to see details about the issue.</span><span class="sxs-lookup"><span data-stu-id="c4611-105">These notifications are shown as discreet tips in the context of the task you are doing, and you can choose to ignore the notification or to see details about the issue.</span></span>  
 
-If you choose to see details for a notification, you can take action to resolve the issue, such as contacting the customer, buying more inventory, and so on. It's your choice what to do, and [!INCLUDE[d365fin](includes/d365fin_md.md)] gives you advice and recommendations.  
+<span data-ttu-id="c4611-106">If you choose to see details for a notification, you can take action to resolve the issue, such as contacting the customer, buying more inventory, and so on.</span><span class="sxs-lookup"><span data-stu-id="c4611-106">If you choose to see details for a notification, you can take action to resolve the issue, such as contacting the customer, buying more inventory, and so on.</span></span> <span data-ttu-id="c4611-107">It's your choice what to do, and [!INCLUDE[d365fin](includes/d365fin_md.md)] gives you advice and recommendations.</span><span class="sxs-lookup"><span data-stu-id="c4611-107">It's your choice what to do, and [!INCLUDE[d365fin](includes/d365fin_md.md)] gives you advice and recommendations.</span></span>  
 
-Notifications can help untrained users complete unfamiliar tasks, and do not reduce productivity for the more trained user.  
+<span data-ttu-id="c4611-108">Notifications can help untrained users complete unfamiliar tasks, and do not reduce productivity for the more trained user.</span><span class="sxs-lookup"><span data-stu-id="c4611-108">Notifications can help untrained users complete unfamiliar tasks, and do not reduce productivity for the more trained user.</span></span>  
 
-## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Turn on or turn off notifications, and control when they are sent
-When you first start with [!INCLUDE[d365fin](includes/d365fin_md.md)] all notifications are turned on, but you can turn them on or off, for example, if you aren't interested in a certain event or status.   
-Additionally, some notifications let you specify the conditions under which they are sent. For example, if you want to be notified when inventory is running low, but only for items you buy from a certain vendor.  
-Turning notifications on or off, and specifying conditions, applies only to you.  
+## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a><span data-ttu-id="c4611-109">Turn on or turn off notifications, and control when they are sent</span><span class="sxs-lookup"><span data-stu-id="c4611-109">Turn on or turn off notifications, and control when they are sent</span></span>
+<span data-ttu-id="c4611-110">When you first start with [!INCLUDE[d365fin](includes/d365fin_md.md)] all notifications are turned on, but you can turn them on or off, for example, if you aren't interested in a certain event or status.</span><span class="sxs-lookup"><span data-stu-id="c4611-110">When you first start with [!INCLUDE[d365fin](includes/d365fin_md.md)] all notifications are turned on, but you can turn them on or off, for example, if you aren't interested in a certain event or status.</span></span>   
+<span data-ttu-id="c4611-111">Additionally, some notifications let you specify the conditions under which they are sent.</span><span class="sxs-lookup"><span data-stu-id="c4611-111">Additionally, some notifications let you specify the conditions under which they are sent.</span></span> <span data-ttu-id="c4611-112">For example, if you want to be notified when inventory is running low, but only for items you buy from a certain vendor.</span><span class="sxs-lookup"><span data-stu-id="c4611-112">For example, if you want to be notified when inventory is running low, but only for items you buy from a certain vendor.</span></span>  
+<span data-ttu-id="c4611-113">Turning notifications on or off, and specifying conditions, applies only to you.</span><span class="sxs-lookup"><span data-stu-id="c4611-113">Turning notifications on or off, and specifying conditions, applies only to you.</span></span>  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **My Notifications**, and then choose the related link.
-2. To turn on or turn off a notification, select or clear the **Enabled** check box.
-3. To specify conditions that trigger a notification, choose the **View filter details** link, and then fill in the fields.  
+1. <span data-ttu-id="c4611-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **My Notifications**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="c4611-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **My Notifications**, and then choose the related link.</span></span>
+2. <span data-ttu-id="c4611-115">To turn on or turn off a notification, select or clear the **Enabled** check box.</span><span class="sxs-lookup"><span data-stu-id="c4611-115">To turn on or turn off a notification, select or clear the **Enabled** check box.</span></span>
+3. <span data-ttu-id="c4611-116">To specify conditions that trigger a notification, choose the **View filter details** link, and then fill in the fields.</span><span class="sxs-lookup"><span data-stu-id="c4611-116">To specify conditions that trigger a notification, choose the **View filter details** link, and then fill in the fields.</span></span>  
 
-## <a name="see-also"></a>See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="c4611-117">See Also</span><span class="sxs-lookup"><span data-stu-id="c4611-117">See Also</span></span>
+<span data-ttu-id="c4611-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c4611-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

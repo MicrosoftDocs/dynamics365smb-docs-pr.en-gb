@@ -16,68 +16,67 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 50ea98d45875fa418d12c5ba378f26208d739126
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-create-jobs"></a>How to: Create Jobs
-When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.  
+# <a name="how-to-create-jobs"></a><span data-ttu-id="9d5fa-103">How to: Create Jobs</span><span class="sxs-lookup"><span data-stu-id="9d5fa-103">How to: Create Jobs</span></span>
+<span data-ttu-id="9d5fa-104">When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-104">When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.</span></span>  
 
-The first layer consists of job tasks. You must create at least one job task per job because all posting refers to a job task. Having at least one job task in your job enables you to set up job planning lines and to post consumption to the job.
+<span data-ttu-id="9d5fa-105">The first layer consists of job tasks.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-105">The first layer consists of job tasks.</span></span> <span data-ttu-id="9d5fa-106">You must create at least one job task per job because all posting refers to a job task.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-106">You must create at least one job task per job because all posting refers to a job task.</span></span> <span data-ttu-id="9d5fa-107">Having at least one job task in your job enables you to set up job planning lines and to post consumption to the job.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-107">Having at least one job task in your job enables you to set up job planning lines and to post consumption to the job.</span></span>
 
-The second layer consists of job planning lines, which specify the detailed use of resources, items and various general ledger expenses.
+<span data-ttu-id="9d5fa-108">The second layer consists of job planning lines, which specify the detailed use of resources, items and various general ledger expenses.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-108">The second layer consists of job planning lines, which specify the detailed use of resources, items and various general ledger expenses.</span></span>
 
-The layer structure enables you to divide the job into smaller tasks, and therefore use more specific details in budgeting, quotes, and registration. In addition, it gives you insight into how a job is progressing. For example, you can track whether you are meeting designated milestones or if you are on target to meet budget expectations.
-
-> [!NOTE]  
->   The **New Job** action on the **Project Manager** Role Center launches an assisted setup that guides you through the steps of creating a job with integrated tasks and planning lines. The following procedure describes how to perform the steps manually.
+<span data-ttu-id="9d5fa-109">The layer structure enables you to divide the job into smaller tasks, and therefore use more specific details in budgeting, quotes, and registration.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-109">The layer structure enables you to divide the job into smaller tasks, and therefore use more specific details in budgeting, quotes, and registration.</span></span> <span data-ttu-id="9d5fa-110">In addition, it gives you insight into how a job is progressing.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-110">In addition, it gives you insight into how a job is progressing.</span></span> <span data-ttu-id="9d5fa-111">For example, you can track whether you are meeting designated milestones or if you are on target to meet budget expectations.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-111">For example, you can track whether you are meeting designated milestones or if you are on target to meet budget expectations.</span></span>
 
 > [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
-
-## <a name="to-create-a-job-card"></a>To create a job card
-You create a job card and then create job task lines and job planning lines for it.
-
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
-2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.
+>   <span data-ttu-id="9d5fa-112">The **New Job** action on the **Project Manager** Role Center launches an assisted setup that guides you through the steps of creating a job with integrated tasks and planning lines.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-112">The **New Job** action on the **Project Manager** Role Center launches an assisted setup that guides you through the steps of creating a job with integrated tasks and planning lines.</span></span> <span data-ttu-id="9d5fa-113">The following procedure describes how to perform the steps manually.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-113">The following procedure describes how to perform the steps manually.</span></span>
 
 > [!NOTE]  
->   If you are using time sheets with your job, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the job. For more information, see [How to: Set Up Timesheets](projects-how-setup-time-sheets.md).
+>   <span data-ttu-id="9d5fa-114">This functionality requires that your experience is set to **Suite**.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-114">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="9d5fa-115">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="9d5fa-115">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-## <a name="to-create-tasks-for-a-job"></a>To create tasks for a job
-A key part of creating a job is to specify the various tasks involved in the job. You do this by adding new lines on the **Tasks** FastTab in the **Job Card** window, one task per line. Every job must have at least one task.
+## <a name="to-create-a-job-card"></a><span data-ttu-id="9d5fa-116">To create a job card</span><span class="sxs-lookup"><span data-stu-id="9d5fa-116">To create a job card</span></span>
+<span data-ttu-id="9d5fa-117">You create a job card and then create job task lines and job planning lines for it.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-117">You create a job card and then create job task lines and job planning lines for it.</span></span>
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.
-2. Open the job card for a relevant job.
-3. On the **Tasks** FastTab, fill in the fields as necessary on a new line.
-4. To indent tasks and create a hierarchy, Choose the **Tasks** action, the then choose **Indent Job Tasks** action.
-5. Repeat steps 3 and 4 for all the tasks that you need for the job.
-6. To specify the job tasks with information on other job tasks, choose the **Copy Job Tasks from** action, fill in the fields as necessary, and then choose the **OK** button.
+1. <span data-ttu-id="9d5fa-118">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-118">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="9d5fa-119">Choose the **New** action, and then fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-119">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="9d5fa-120">To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-120">To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.</span></span>
 
-## <a name="to-create-planning-lines-for-a-job"></a>To create planning lines for a job
-You can refine your new job tasks on job planning lines. A planning line can be used to capture any information that you want to track for a job. You can use planning lines to add information such as what resources are required or to capture what items are needed to perform the job. For example, if you have a task to obtain customer approval of a job, you can associate that task with planning lines for items such as meeting with the customer and assigning a resource.  
+> [!NOTE]  
+>   <span data-ttu-id="9d5fa-121">If you are using time sheets with your job, you must also designate a person responsible.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-121">If you are using time sheets with your job, you must also designate a person responsible.</span></span> <span data-ttu-id="9d5fa-122">This person can approve time sheets for the employee tasks associated with the job.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-122">This person can approve time sheets for the employee tasks associated with the job.</span></span> <span data-ttu-id="9d5fa-123">For more information, see [How to: Set Up Timesheets](projects-how-setup-time-sheets.md).</span><span class="sxs-lookup"><span data-stu-id="9d5fa-123">For more information, see [How to: Set Up Timesheets](projects-how-setup-time-sheets.md).</span></span>
 
-A job planning line can have one of the following types.  
+## <a name="to-create-tasks-for-a-job"></a><span data-ttu-id="9d5fa-124">To create tasks for a job</span><span class="sxs-lookup"><span data-stu-id="9d5fa-124">To create tasks for a job</span></span>
+<span data-ttu-id="9d5fa-125">A key part of creating a job is to specify the various tasks involved in the job.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-125">A key part of creating a job is to specify the various tasks involved in the job.</span></span> <span data-ttu-id="9d5fa-126">You do this by adding new lines on the **Tasks** FastTab in the **Job Card** window, one task per line.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-126">You do this by adding new lines on the **Tasks** FastTab in the **Job Card** window, one task per line.</span></span> <span data-ttu-id="9d5fa-127">Every job must have at least one task.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-127">Every job must have at least one task.</span></span>
 
-| Type | Description |
+1. <span data-ttu-id="9d5fa-128">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-128">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>
+2. <span data-ttu-id="9d5fa-129">Open the job card for a relevant job.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-129">Open the job card for a relevant job.</span></span>
+3. <span data-ttu-id="9d5fa-130">On the **Tasks** FastTab, fill in the fields as necessary on a new line.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-130">On the **Tasks** FastTab, fill in the fields as necessary on a new line.</span></span>
+4. <span data-ttu-id="9d5fa-131">To indent tasks and create a hierarchy, Choose the **Tasks** action, the then choose **Indent Job Tasks** action.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-131">To indent tasks and create a hierarchy, Choose the **Tasks** action, the then choose **Indent Job Tasks** action.</span></span>
+5. <span data-ttu-id="9d5fa-132">Repeat steps 3 and 4 for all the tasks that you need for the job.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-132">Repeat steps 3 and 4 for all the tasks that you need for the job.</span></span>
+6. <span data-ttu-id="9d5fa-133">To specify the job tasks with information on other job tasks, choose the **Copy Job Tasks from** action, fill in the fields as necessary, and then choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-133">To specify the job tasks with information on other job tasks, choose the **Copy Job Tasks from** action, fill in the fields as necessary, and then choose the **OK** button.</span></span>
+
+## <a name="to-create-planning-lines-for-a-job"></a><span data-ttu-id="9d5fa-134">To create planning lines for a job</span><span class="sxs-lookup"><span data-stu-id="9d5fa-134">To create planning lines for a job</span></span>
+<span data-ttu-id="9d5fa-135">You can refine your new job tasks on job planning lines.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-135">You can refine your new job tasks on job planning lines.</span></span> <span data-ttu-id="9d5fa-136">A planning line can be used to capture any information that you want to track for a job.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-136">A planning line can be used to capture any information that you want to track for a job.</span></span> <span data-ttu-id="9d5fa-137">You can use planning lines to add information such as what resources are required or to capture what items are needed to perform the job.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-137">You can use planning lines to add information such as what resources are required or to capture what items are needed to perform the job.</span></span> <span data-ttu-id="9d5fa-138">For example, if you have a task to obtain customer approval of a job, you can associate that task with planning lines for items such as meeting with the customer and assigning a resource.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-138">For example, if you have a task to obtain customer approval of a job, you can associate that task with planning lines for items such as meeting with the customer and assigning a resource.</span></span>  
+
+<span data-ttu-id="9d5fa-139">A job planning line can have one of the following types.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-139">A job planning line can have one of the following types.</span></span>  
+
+| <span data-ttu-id="9d5fa-140">Type</span><span class="sxs-lookup"><span data-stu-id="9d5fa-140">Type</span></span> | <span data-ttu-id="9d5fa-141">Description</span><span class="sxs-lookup"><span data-stu-id="9d5fa-141">Description</span></span> |
 | --- | --- |
-| **Budget** |Provides estimated usage and costs for the job, typically in a time and materials type project. Planning lines of this type cannot be invoiced. |
-| **Billable** |Provides estimated invoicing to the customer, typically in a fixed price project. |
-| **Both Budget and Billable** |Provides budgeted usage equal to what you want to invoice. |
+| <span data-ttu-id="9d5fa-142">**Budget**</span><span class="sxs-lookup"><span data-stu-id="9d5fa-142">**Budget**</span></span> |<span data-ttu-id="9d5fa-143">Provides estimated usage and costs for the job, typically in a time and materials type project.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-143">Provides estimated usage and costs for the job, typically in a time and materials type project.</span></span> <span data-ttu-id="9d5fa-144">Planning lines of this type cannot be invoiced.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-144">Planning lines of this type cannot be invoiced.</span></span> |
+| <span data-ttu-id="9d5fa-145">**Billable**</span><span class="sxs-lookup"><span data-stu-id="9d5fa-145">**Billable**</span></span> |<span data-ttu-id="9d5fa-146">Provides estimated invoicing to the customer, typically in a fixed price project.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-146">Provides estimated invoicing to the customer, typically in a fixed price project.</span></span> |
+| <span data-ttu-id="9d5fa-147">**Both Budget and Billable**</span><span class="sxs-lookup"><span data-stu-id="9d5fa-147">**Both Budget and Billable**</span></span> |<span data-ttu-id="9d5fa-148">Provides budgeted usage equal to what you want to invoice.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-148">Provides budgeted usage equal to what you want to invoice.</span></span> |
 
-**Note**. As you enter information on job planning lines, cost information is automatically filled in. For example, the cost, price, and discount for resources and items are initially based on the information that is defined on the resource and item cards.
+<span data-ttu-id="9d5fa-149">**Note**.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-149">**Note**.</span></span> <span data-ttu-id="9d5fa-150">As you enter information on job planning lines, cost information is automatically filled in.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-150">As you enter information on job planning lines, cost information is automatically filled in.</span></span> <span data-ttu-id="9d5fa-151">For example, the cost, price, and discount for resources and items are initially based on the information that is defined on the resource and item cards.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-151">For example, the cost, price, and discount for resources and items are initially based on the information that is defined on the resource and item cards.</span></span>
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.
-2. Open a relevant job card.
-3. Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.  
-4. In the **Job Planning Lines** window, on a new line, fill in the fields as necessary.
-5. Repeat steps 3 and 4 for all planning lines that you need for the job task.
+1. <span data-ttu-id="9d5fa-152">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-152">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>
+2. <span data-ttu-id="9d5fa-153">Open a relevant job card.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-153">Open a relevant job card.</span></span>
+3. <span data-ttu-id="9d5fa-154">Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-154">Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.</span></span>  
+4. <span data-ttu-id="9d5fa-155">In the **Job Planning Lines** window, on a new line, fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-155">In the **Job Planning Lines** window, on a new line, fill in the fields as necessary.</span></span>
+5. <span data-ttu-id="9d5fa-156">Repeat steps 3 and 4 for all planning lines that you need for the job task.</span><span class="sxs-lookup"><span data-stu-id="9d5fa-156">Repeat steps 3 and 4 for all planning lines that you need for the job task.</span></span>
 
-## <a name="see-also"></a>See Also
-[Project Management](projects-manage-projects.md)  
-[Finance](finance.md)  
-[Purchasing](purchasing-manage-purchasing.md)         
-[Sales](sales-manage-sales.md)      
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="9d5fa-157">See Also</span><span class="sxs-lookup"><span data-stu-id="9d5fa-157">See Also</span></span>
+[<span data-ttu-id="9d5fa-158">Project Management</span><span class="sxs-lookup"><span data-stu-id="9d5fa-158">Project Management</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="9d5fa-159">Finance</span><span class="sxs-lookup"><span data-stu-id="9d5fa-159">Finance</span></span>](finance.md)  
+<span data-ttu-id="9d5fa-160">[Purchasing](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="9d5fa-160">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="9d5fa-161">[Sales](sales-manage-sales.md)    </span><span class="sxs-lookup"><span data-stu-id="9d5fa-161">[Sales](sales-manage-sales.md)    </span></span>  
+<span data-ttu-id="9d5fa-162">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9d5fa-162">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

@@ -16,68 +16,67 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2fdc8f99fa81a0eecd55438bba33b1a93335a416
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-invoice-jobs"></a>How to: Invoice Jobs
-During the project, job costs from resource usage, materials, and job-related purchases can accumulate. As the job progresses, these transactions get posted to the job journal. It is important that all costs get recorded in the job journal before you invoice the customer.
+# <a name="how-to-invoice-jobs"></a><span data-ttu-id="8aa2b-103">How to: Invoice Jobs</span><span class="sxs-lookup"><span data-stu-id="8aa2b-103">How to: Invoice Jobs</span></span>
+<span data-ttu-id="8aa2b-104">During the project, job costs from resource usage, materials, and job-related purchases can accumulate.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-104">During the project, job costs from resource usage, materials, and job-related purchases can accumulate.</span></span> <span data-ttu-id="8aa2b-105">As the job progresses, these transactions get posted to the job journal.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-105">As the job progresses, these transactions get posted to the job journal.</span></span> <span data-ttu-id="8aa2b-106">It is important that all costs get recorded in the job journal before you invoice the customer.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-106">It is important that all costs get recorded in the job journal before you invoice the customer.</span></span>
 
-You can invoice the whole job from the **Job Task Lines** window or only invoice selected billable lines from the **Planning Lines** window. Invoicing can be done after the job is finished or at certain intervals during the job's progress based on an invoicing schedule.
-
-> [!NOTE]  
->   If you select **Billable** in the **Job Line Type** field on the purchase documents for job-related purchases, then job planning lines that are ready to be invoiced to the customer are created. For more information, see [How to: Manage Project Supplies](projects-how-manage-project-supplies.md).
-
-## <a name="to-create-and-post-a-job-sales-invoice"></a>To create and post a job sales invoice
-You can create an invoice for a job or for one or more job tasks for a customer when either the work to be invoiced is complete or the date for invoicing based on an invoicing schedule has been reached.
-
-From the **Jobs** window, you can invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action. The following procedure shows how to use a batch job to invoice multiple jobs.  
-
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Create Sales Invoice**, and then choose the related link.  
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Set filters if you want to limit the jobs that the batch job will process.
-4. Choose the **OK** button to create the invoices.  
-
-## <a name="to-create-multiple-job-sales-invoices-from-job-planning-lines"></a>To create multiple job sales invoices from job planning lines
-You can create an invoice from a job planning lines, and indicate at that time the quantity of the item, resource, or general ledger account that you want to invoice.
-
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.
-2. Open a relevant job.
-3. Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.  
-4. On a job planning line, in the **Qty. To Transfer to Invoice** field, enter the quantity of the item, resource, general ledger account type that you want to invoice.  
-5. Choose the **Create Sales Invoice** action.
-6. In the **Job Create Sales Invoice** window, enter the posting date and whether you want to create a new invoice or append this invoice to an existing one.
-7. Choose the **OK** button.  
-
-    On the job planning line, in the **Qty. Transferred to Invoice** field, you can see the quantity.
-8. In the **Job Planning Lines** window, choose the **Sales Invoices/Credit Memos** action.
-
-    The **Sales Invoice** window opens, showing the quantity that you have transferred to the invoice.  
-9. Make any additional changes, and then choose the **Post** action.
+<span data-ttu-id="8aa2b-107">You can invoice the whole job from the **Job Task Lines** window or only invoice selected billable lines from the **Planning Lines** window.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-107">You can invoice the whole job from the **Job Task Lines** window or only invoice selected billable lines from the **Planning Lines** window.</span></span> <span data-ttu-id="8aa2b-108">Invoicing can be done after the job is finished or at certain intervals during the job's progress based on an invoicing schedule.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-108">Invoicing can be done after the job is finished or at certain intervals during the job's progress based on an invoicing schedule.</span></span>
 
 > [!NOTE]  
->   The above procedure is similar for creating, reviewing, and posting a job-related sales credit memo.
+>   <span data-ttu-id="8aa2b-109">If you select **Billable** in the **Job Line Type** field on the purchase documents for job-related purchases, then job planning lines that are ready to be invoiced to the customer are created.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-109">If you select **Billable** in the **Job Line Type** field on the purchase documents for job-related purchases, then job planning lines that are ready to be invoiced to the customer are created.</span></span> <span data-ttu-id="8aa2b-110">For more information, see [How to: Manage Project Supplies](projects-how-manage-project-supplies.md).</span><span class="sxs-lookup"><span data-stu-id="8aa2b-110">For more information, see [How to: Manage Project Supplies](projects-how-manage-project-supplies.md).</span></span>
 
-## <a name="to-calculate-and-post-job-completion-entries"></a>To calculate and post job completion entries
-When you have completed all activities for a job, including usage posting and invoicing, you must update the job to have a **Status** of **Completed**. Then, you must reverse any WIP that has been posted to the general ledger.
+## <a name="to-create-and-post-a-job-sales-invoice"></a><span data-ttu-id="8aa2b-111">To create and post a job sales invoice</span><span class="sxs-lookup"><span data-stu-id="8aa2b-111">To create and post a job sales invoice</span></span>
+<span data-ttu-id="8aa2b-112">You can create an invoice for a job or for one or more job tasks for a customer when either the work to be invoiced is complete or the date for invoicing based on an invoicing schedule has been reached.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-112">You can create an invoice for a job or for one or more job tasks for a customer when either the work to be invoiced is complete or the date for invoicing based on an invoicing schedule has been reached.</span></span>
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
-2. Select an open job, and then choose the **Edit** action.
-3. In the **Status** field, select **Completed**.
-4. Follow the assistance steps to calculate and post WIP. Alternatively, follows steps 5 and 6 to do so manually.  
-5. Choose the **Calculate WIP** action.
-6. In the **Job Calculate WIP** window, fill in the fields as necessary.  
+<span data-ttu-id="8aa2b-113">From the **Jobs** window, you can invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-113">From the **Jobs** window, you can invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action.</span></span> <span data-ttu-id="8aa2b-114">The following procedure shows how to use a batch job to invoice multiple jobs.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-114">The following procedure shows how to use a batch job to invoice multiple jobs.</span></span>  
 
-     The job WIP entries created by running the batch job will have the **Job Complete** check box selected to show that they are completion entries.  
-7. Choose the **Job Post WIP to G/L** action.
-8. In the **Job Post WIP to G/L** window, fill in the fields as necessary.  
+1. <span data-ttu-id="8aa2b-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Create Sales Invoice**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Create Sales Invoice**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="8aa2b-116">Fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-116">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="8aa2b-117">Set filters if you want to limit the jobs that the batch job will process.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-117">Set filters if you want to limit the jobs that the batch job will process.</span></span>
+4. <span data-ttu-id="8aa2b-118">Choose the **OK** button to create the invoices.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-118">Choose the **OK** button to create the invoices.</span></span>  
 
-     The job WIP general ledger entries created by running the batch job will have the **Job Complete** check box selected to show they are completion entries.
+## <a name="to-create-multiple-job-sales-invoices-from-job-planning-lines"></a><span data-ttu-id="8aa2b-119">To create multiple job sales invoices from job planning lines</span><span class="sxs-lookup"><span data-stu-id="8aa2b-119">To create multiple job sales invoices from job planning lines</span></span>
+<span data-ttu-id="8aa2b-120">You can create an invoice from a job planning lines, and indicate at that time the quantity of the item, resource, or general ledger account that you want to invoice.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-120">You can create an invoice from a job planning lines, and indicate at that time the quantity of the item, resource, or general ledger account that you want to invoice.</span></span>
 
-## <a name="see-also"></a>See Also
-[Manage Projects](projects-manage-projects.md)  
-[Finance](finance.md)  
-[Purchasing](purchasing-manage-purchasing.md)         
-[Sales](sales-manage-sales.md)      
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+1. <span data-ttu-id="8aa2b-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>
+2. <span data-ttu-id="8aa2b-122">Open a relevant job.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-122">Open a relevant job.</span></span>
+3. <span data-ttu-id="8aa2b-123">Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-123">Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.</span></span>  
+4. <span data-ttu-id="8aa2b-124">On a job planning line, in the **Qty. To Transfer to Invoice** field, enter the quantity of the item, resource, general ledger account type that you want to invoice.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-124">On a job planning line, in the **Qty. To Transfer to Invoice** field, enter the quantity of the item, resource, general ledger account type that you want to invoice.</span></span>  
+5. <span data-ttu-id="8aa2b-125">Choose the **Create Sales Invoice** action.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-125">Choose the **Create Sales Invoice** action.</span></span>
+6. <span data-ttu-id="8aa2b-126">In the **Job Create Sales Invoice** window, enter the posting date and whether you want to create a new invoice or append this invoice to an existing one.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-126">In the **Job Create Sales Invoice** window, enter the posting date and whether you want to create a new invoice or append this invoice to an existing one.</span></span>
+7. <span data-ttu-id="8aa2b-127">Choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-127">Choose the **OK** button.</span></span>  
+
+    <span data-ttu-id="8aa2b-128">On the job planning line, in the **Qty. Transferred to Invoice** field, you can see the quantity.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-128">On the job planning line, in the **Qty. Transferred to Invoice** field, you can see the quantity.</span></span>
+8. <span data-ttu-id="8aa2b-129">In the **Job Planning Lines** window, choose the **Sales Invoices/Credit Memos** action.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-129">In the **Job Planning Lines** window, choose the **Sales Invoices/Credit Memos** action.</span></span>
+
+    <span data-ttu-id="8aa2b-130">The **Sales Invoice** window opens, showing the quantity that you have transferred to the invoice.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-130">The **Sales Invoice** window opens, showing the quantity that you have transferred to the invoice.</span></span>  
+9. <span data-ttu-id="8aa2b-131">Make any additional changes, and then choose the **Post** action.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-131">Make any additional changes, and then choose the **Post** action.</span></span>
+
+> [!NOTE]  
+>   <span data-ttu-id="8aa2b-132">The above procedure is similar for creating, reviewing, and posting a job-related sales credit memo.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-132">The above procedure is similar for creating, reviewing, and posting a job-related sales credit memo.</span></span>
+
+## <a name="to-calculate-and-post-job-completion-entries"></a><span data-ttu-id="8aa2b-133">To calculate and post job completion entries</span><span class="sxs-lookup"><span data-stu-id="8aa2b-133">To calculate and post job completion entries</span></span>
+<span data-ttu-id="8aa2b-134">When you have completed all activities for a job, including usage posting and invoicing, you must update the job to have a **Status** of **Completed**.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-134">When you have completed all activities for a job, including usage posting and invoicing, you must update the job to have a **Status** of **Completed**.</span></span> <span data-ttu-id="8aa2b-135">Then, you must reverse any WIP that has been posted to the general ledger.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-135">Then, you must reverse any WIP that has been posted to the general ledger.</span></span>
+
+1. <span data-ttu-id="8aa2b-136">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-136">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="8aa2b-137">Select an open job, and then choose the **Edit** action.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-137">Select an open job, and then choose the **Edit** action.</span></span>
+3. <span data-ttu-id="8aa2b-138">In the **Status** field, select **Completed**.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-138">In the **Status** field, select **Completed**.</span></span>
+4. <span data-ttu-id="8aa2b-139">Follow the assistance steps to calculate and post WIP.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-139">Follow the assistance steps to calculate and post WIP.</span></span> <span data-ttu-id="8aa2b-140">Alternatively, follows steps 5 and 6 to do so manually.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-140">Alternatively, follows steps 5 and 6 to do so manually.</span></span>  
+5. <span data-ttu-id="8aa2b-141">Choose the **Calculate WIP** action.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-141">Choose the **Calculate WIP** action.</span></span>
+6. <span data-ttu-id="8aa2b-142">In the **Job Calculate WIP** window, fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-142">In the **Job Calculate WIP** window, fill in the fields as necessary.</span></span>  
+
+     <span data-ttu-id="8aa2b-143">The job WIP entries created by running the batch job will have the **Job Complete** check box selected to show that they are completion entries.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-143">The job WIP entries created by running the batch job will have the **Job Complete** check box selected to show that they are completion entries.</span></span>  
+7. <span data-ttu-id="8aa2b-144">Choose the **Job Post WIP to G/L** action.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-144">Choose the **Job Post WIP to G/L** action.</span></span>
+8. <span data-ttu-id="8aa2b-145">In the **Job Post WIP to G/L** window, fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-145">In the **Job Post WIP to G/L** window, fill in the fields as necessary.</span></span>  
+
+     <span data-ttu-id="8aa2b-146">The job WIP general ledger entries created by running the batch job will have the **Job Complete** check box selected to show they are completion entries.</span><span class="sxs-lookup"><span data-stu-id="8aa2b-146">The job WIP general ledger entries created by running the batch job will have the **Job Complete** check box selected to show they are completion entries.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="8aa2b-147">See Also</span><span class="sxs-lookup"><span data-stu-id="8aa2b-147">See Also</span></span>
+[<span data-ttu-id="8aa2b-148">Manage Projects</span><span class="sxs-lookup"><span data-stu-id="8aa2b-148">Manage Projects</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="8aa2b-149">Finance</span><span class="sxs-lookup"><span data-stu-id="8aa2b-149">Finance</span></span>](finance.md)  
+<span data-ttu-id="8aa2b-150">[Purchasing](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="8aa2b-150">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="8aa2b-151">[Sales](sales-manage-sales.md)    </span><span class="sxs-lookup"><span data-stu-id="8aa2b-151">[Sales](sales-manage-sales.md)    </span></span>  
+<span data-ttu-id="8aa2b-152">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="8aa2b-152">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

@@ -18,20 +18,20 @@ ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="accountant-portal-for-dynamics-365-for-financials"></a>Accountant Portal for Dynamics 365 for Financials
-This application provides a portal with summary data for each client of an accountant. The portal displays financial KPIs as well as a direct link to the client’s financial application.  
+# <a name="accountant-portal-for-dynamics-365-for-financials"></a><span data-ttu-id="964d8-103">Accountant Portal for Dynamics 365 for Financials</span><span class="sxs-lookup"><span data-stu-id="964d8-103">Accountant Portal for Dynamics 365 for Financials</span></span>
+<span data-ttu-id="964d8-104">This application provides a portal with summary data for each client of an accountant.</span><span class="sxs-lookup"><span data-stu-id="964d8-104">This application provides a portal with summary data for each client of an accountant.</span></span> <span data-ttu-id="964d8-105">The portal displays financial KPIs as well as a direct link to the client’s financial application.</span><span class="sxs-lookup"><span data-stu-id="964d8-105">The portal displays financial KPIs as well as a direct link to the client’s financial application.</span></span>  
 
-The portal includes a highly specialised Role Centre that serves as a dashboard for a better overview of your clients.  
-[![Accountant Portal](./media/ui-extensions-accportal/accountant-portal.png)](https://go.microsoft.com/fwlink/?linkid=851257)
+<span data-ttu-id="964d8-106">The portal includes a highly specialised Role Centre that serves as a dashboard for a better overview of your clients.</span><span class="sxs-lookup"><span data-stu-id="964d8-106">The portal includes a highly specialized Role Center that serves as a dashboard for a better overview of your clients.</span></span>  
+<span data-ttu-id="964d8-107">[![Accountant Portal](./media/ui-extensions-accportal/accountant-portal.png)](https://go.microsoft.com/fwlink/?linkid=851257)</span><span class="sxs-lookup"><span data-stu-id="964d8-107">[![Accountant Portal](./media/ui-extensions-accportal/accountant-portal.png)](https://go.microsoft.com/fwlink/?linkid=851257)</span></span>
 
-When you first install the extension, a sample company helps you get started. You can delete the sample company at any time.  
+<span data-ttu-id="964d8-108">When you first install the extension, a sample company helps you get started.</span><span class="sxs-lookup"><span data-stu-id="964d8-108">When you first install the extension, a sample company helps you get started.</span></span> <span data-ttu-id="964d8-109">You can delete the sample company at any time.</span><span class="sxs-lookup"><span data-stu-id="964d8-109">You can delete the sample company at any time.</span></span>  
 
-## <a name="installing-the-extension"></a>Installing the Extension
-When you add the extension to your [!INCLUDE[d365fin](includes/d365fin_md.md)], it replaces your current Role Center and adds permissions to your user profile. As a result, you must sign out and sign in a couple of times.  
+## <a name="installing-the-extension"></a><span data-ttu-id="964d8-110">Installing the Extension</span><span class="sxs-lookup"><span data-stu-id="964d8-110">Installing the Extension</span></span>
+<span data-ttu-id="964d8-111">When you add the extension to your [!INCLUDE[d365fin](includes/d365fin_md.md)], it replaces your current Role Center and adds permissions to your user profile.</span><span class="sxs-lookup"><span data-stu-id="964d8-111">When you add the extension to your [!INCLUDE[d365fin](includes/d365fin_md.md)], it replaces your current Role Center and adds permissions to your user profile.</span></span> <span data-ttu-id="964d8-112">As a result, you must sign out and sign in a couple of times.</span><span class="sxs-lookup"><span data-stu-id="964d8-112">As a result, you must sign out and sign in a couple of times.</span></span>  
 
-For more information, see [Accountant Experiences in Dynamics 365 for Financials](finance-accounting.md).  
+<span data-ttu-id="964d8-113">For more information, see [Accountant Experiences in Dynamics 365 for Financials](finance-accounting.md).</span><span class="sxs-lookup"><span data-stu-id="964d8-113">For more information, see [Accountant Experiences in Dynamics 365 for Financials](finance-accounting.md).</span></span>  
 
-## <a name="see-also"></a>See Also
-[Accountant Experiences in Dynamics 365 for Financials](finance-accounting.md)  
-[Finance](finance.md)  
+## <a name="see-also"></a><span data-ttu-id="964d8-114">See Also</span><span class="sxs-lookup"><span data-stu-id="964d8-114">See Also</span></span>
+[<span data-ttu-id="964d8-115">Accountant Experiences in Dynamics 365 for Financials</span><span class="sxs-lookup"><span data-stu-id="964d8-115">Accountant Experiences in Dynamics 365 for Financials</span></span>](finance-accounting.md)  
+[<span data-ttu-id="964d8-116">Finance</span><span class="sxs-lookup"><span data-stu-id="964d8-116">Finance</span></span>](finance.md)  
 

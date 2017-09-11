@@ -16,85 +16,85 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 40db0f3018bcf9575f80aa858bd9febd7bf0846a
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-defer-revenues-and-expenses"></a>How to: Defer Revenues and Expenses
-To recognise a revenue or an expense in a period other than the period in which the transaction was posted, you can use functionality to automatically defer revenues and expenses over a specified schedule.
+# <a name="how-to-defer-revenues-and-expenses"></a><span data-ttu-id="42ccb-103">How to: Defer Revenues and Expenses</span><span class="sxs-lookup"><span data-stu-id="42ccb-103">How to: Defer Revenues and Expenses</span></span>
+<span data-ttu-id="42ccb-104">To recognise a revenue or an expense in a period other than the period in which the transaction was posted, you can use functionality to automatically defer revenues and expenses over a specified schedule.</span><span class="sxs-lookup"><span data-stu-id="42ccb-104">To recognize a revenue or an expense in a period other than the period in which the transaction was posted, you can use functionality to automatically defer revenues and expenses over a specified schedule.</span></span>
 
-To distribute revenues or expenses on the involved accounting periods, you set up a deferral template for the resource, item, or G/L account that the revenue or expense will be posted for. When you post the related sales or purchase document, the revenue or expense are deferred to the involved accounting periods, according to a deferral schedule that is governed by settings in the deferral template and the posting date.
+<span data-ttu-id="42ccb-105">To distribute revenues or expenses on the involved accounting periods, you set up a deferral template for the resource, item, or G/L account that the revenue or expense will be posted for.</span><span class="sxs-lookup"><span data-stu-id="42ccb-105">To distribute revenues or expenses on the involved accounting periods, you set up a deferral template for the resource, item, or G/L account that the revenue or expense will be posted for.</span></span> <span data-ttu-id="42ccb-106">When you post the related sales or purchase document, the revenue or expense are deferred to the involved accounting periods, according to a deferral schedule that is governed by settings in the deferral template and the posting date.</span><span class="sxs-lookup"><span data-stu-id="42ccb-106">When you post the related sales or purchase document, the revenue or expense are deferred to the involved accounting periods, according to a deferral schedule that is governed by settings in the deferral template and the posting date.</span></span>
 
 > [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+>   <span data-ttu-id="42ccb-107">This functionality requires that your experience is set to **Suite**.</span><span class="sxs-lookup"><span data-stu-id="42ccb-107">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="42ccb-108">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="42ccb-108">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-## <a name="to-set-up-a-gl-account-for-deferral"></a>To set up a G/L account for deferral
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.
-2. Choose the **New** action.
-3. Fill in the fields as necessary to create a G/L account for deferred revenues. For more information, see [The General Ledger and the Chart of Accounts](finance-general-ledger.md).
-4. Repeat steps 2 and 3 to create a new G/L account for deferred expenses.
+## <a name="to-set-up-a-gl-account-for-deferral"></a><span data-ttu-id="42ccb-109">To set up a G/L account for deferral</span><span class="sxs-lookup"><span data-stu-id="42ccb-109">To set up a G/L account for deferral</span></span>
+1. <span data-ttu-id="42ccb-110">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="42ccb-110">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="42ccb-111">Choose the **New** action.</span><span class="sxs-lookup"><span data-stu-id="42ccb-111">Choose the **New** action.</span></span>
+3. <span data-ttu-id="42ccb-112">Fill in the fields as necessary to create a G/L account for deferred revenues.</span><span class="sxs-lookup"><span data-stu-id="42ccb-112">Fill in the fields as necessary to create a G/L account for deferred revenues.</span></span> <span data-ttu-id="42ccb-113">For more information, see [The General Ledger and the Chart of Accounts](finance-general-ledger.md).</span><span class="sxs-lookup"><span data-stu-id="42ccb-113">For more information, see [The General Ledger and the Chart of Accounts](finance-general-ledger.md).</span></span>
+4. <span data-ttu-id="42ccb-114">Repeat steps 2 and 3 to create a new G/L account for deferred expenses.</span><span class="sxs-lookup"><span data-stu-id="42ccb-114">Repeat steps 2 and 3 to create a new G/L account for deferred expenses.</span></span>
 
-For both types of deferral, select **Balance Sheet** in the **Type** field, and name the accounts appropriately, such as "Unearned Income" for deferred revenues and "Unpaid Expenses" for deferred expenses.
+<span data-ttu-id="42ccb-115">For both types of deferral, select **Balance Sheet** in the **Type** field, and name the accounts appropriately, such as "Unearned Income" for deferred revenues and "Unpaid Expenses" for deferred expenses.</span><span class="sxs-lookup"><span data-stu-id="42ccb-115">For both types of deferral, select **Balance Sheet** in the **Type** field, and name the accounts appropriately, such as "Unearned Income" for deferred revenues and "Unpaid Expenses" for deferred expenses.</span></span>
 
-## <a name="to-set-up-a-deferral-template"></a>To set up a deferral template
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deferral Templates**, and then choose the related link.
-2. Choose the **New** action.
-3. Fill in the fields as necessary.
-4. In the **Calc. Method** field, specify how the **Amount** field for each period in the **Deferral Schedule** window is calculated. You can choose between the following options:
+## <a name="to-set-up-a-deferral-template"></a><span data-ttu-id="42ccb-116">To set up a deferral template</span><span class="sxs-lookup"><span data-stu-id="42ccb-116">To set up a deferral template</span></span>
+1. <span data-ttu-id="42ccb-117">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deferral Templates**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="42ccb-117">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deferral Templates**, and then choose the related link.</span></span>
+2. <span data-ttu-id="42ccb-118">Choose the **New** action.</span><span class="sxs-lookup"><span data-stu-id="42ccb-118">Choose the **New** action.</span></span>
+3. <span data-ttu-id="42ccb-119">Fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="42ccb-119">Fill in the fields as necessary.</span></span>
+4. <span data-ttu-id="42ccb-120">In the **Calc. Method** field, specify how the **Amount** field for each period in the **Deferral Schedule** window is calculated.</span><span class="sxs-lookup"><span data-stu-id="42ccb-120">In the **Calc. Method** field, specify how the **Amount** field for each period in the **Deferral Schedule** window is calculated.</span></span> <span data-ttu-id="42ccb-121">You can choose between the following options:</span><span class="sxs-lookup"><span data-stu-id="42ccb-121">You can choose between the following options:</span></span>
 
-   * **Straight-Line**: The periodic deferral amounts are calculated according to the number of periods, distributed according to period length.
-   * **Equal Per Period**: The periodic deferral amounts are calculated according to the number of periods, distributed evenly on periods.
-   * **Days Per Period**: The periodic deferral amounts are calculated according to the number of days in the period.
-   * **User-Defined**: The periodic deferral amounts are not calculated. You must manually fill the **Amount** field for each period in the Deferral Schedule window. For more information, see the “To change a deferral schedule from a sales invoice” section.
-5. In the **Period Desc.** field, specify a description that will be shown on entries for the deferral posting. You can enter the following placeholder codes for typical values, which will be inserted automatically when the period description is displayed.
+   * <span data-ttu-id="42ccb-122">**Straight-Line**: The periodic deferral amounts are calculated according to the number of periods, distributed according to period length.</span><span class="sxs-lookup"><span data-stu-id="42ccb-122">**Straight-Line**: The periodic deferral amounts are calculated according to the number of periods, distributed according to period length.</span></span>
+   * <span data-ttu-id="42ccb-123">**Equal Per Period**: The periodic deferral amounts are calculated according to the number of periods, distributed evenly on periods.</span><span class="sxs-lookup"><span data-stu-id="42ccb-123">**Equal Per Period**: The periodic deferral amounts are calculated according to the number of periods, distributed evenly on periods.</span></span>
+   * <span data-ttu-id="42ccb-124">**Days Per Period**: The periodic deferral amounts are calculated according to the number of days in the period.</span><span class="sxs-lookup"><span data-stu-id="42ccb-124">**Days Per Period**: The periodic deferral amounts are calculated according to the number of days in the period.</span></span>
+   * <span data-ttu-id="42ccb-125">**User-Defined**: The periodic deferral amounts are not calculated.</span><span class="sxs-lookup"><span data-stu-id="42ccb-125">**User-Defined**: The periodic deferral amounts are not calculated.</span></span> <span data-ttu-id="42ccb-126">You must manually fill the **Amount** field for each period in the Deferral Schedule window.</span><span class="sxs-lookup"><span data-stu-id="42ccb-126">You must manually fill the **Amount** field for each period in the Deferral Schedule window.</span></span> <span data-ttu-id="42ccb-127">For more information, see the “To change a deferral schedule from a sales invoice” section.</span><span class="sxs-lookup"><span data-stu-id="42ccb-127">For more information, see the “To change a deferral schedule from a sales invoice” section.</span></span>
+5. <span data-ttu-id="42ccb-128">In the **Period Desc.**</span><span class="sxs-lookup"><span data-stu-id="42ccb-128">In the **Period Desc.**</span></span> <span data-ttu-id="42ccb-129">field, specify a description that will be shown on entries for the deferral posting.</span><span class="sxs-lookup"><span data-stu-id="42ccb-129">field, specify a description that will be shown on entries for the deferral posting.</span></span> <span data-ttu-id="42ccb-130">You can enter the following placeholder codes for typical values, which will be inserted automatically when the period description is displayed.</span><span class="sxs-lookup"><span data-stu-id="42ccb-130">You can enter the following placeholder codes for typical values, which will be inserted automatically when the period description is displayed.</span></span>
 
-   * %1 = The day number of the period posting date
-   * %2 = The week number of the period posting date
-   * %3 = The month number of the period posting date
-   * %4 = The month name of the period posting date
-   * %5 = The accounting period name of the period posting date
-   * %6 = The fiscal year of the period posting date
+   * <span data-ttu-id="42ccb-131">%1 = The day number of the period posting date</span><span class="sxs-lookup"><span data-stu-id="42ccb-131">%1 = The day number of the period posting date</span></span>
+   * <span data-ttu-id="42ccb-132">%2 = The week number of the period posting date</span><span class="sxs-lookup"><span data-stu-id="42ccb-132">%2 = The week number of the period posting date</span></span>
+   * <span data-ttu-id="42ccb-133">%3 = The month number of the period posting date</span><span class="sxs-lookup"><span data-stu-id="42ccb-133">%3 = The month number of the period posting date</span></span>
+   * <span data-ttu-id="42ccb-134">%4 = The month name of the period posting date</span><span class="sxs-lookup"><span data-stu-id="42ccb-134">%4 = The month name of the period posting date</span></span>
+   * <span data-ttu-id="42ccb-135">%5 = The accounting period name of the period posting date</span><span class="sxs-lookup"><span data-stu-id="42ccb-135">%5 = The accounting period name of the period posting date</span></span>
+   * <span data-ttu-id="42ccb-136">%6 = The fiscal year of the period posting date</span><span class="sxs-lookup"><span data-stu-id="42ccb-136">%6 = The fiscal year of the period posting date</span></span>
 
-Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %4 %6”, then the description displayed will be "Expenses deferred for February 2016".
+<span data-ttu-id="42ccb-137">Example: The posting date is 02/06/2016.</span><span class="sxs-lookup"><span data-stu-id="42ccb-137">Example: The posting date is 02/06/2016.</span></span> <span data-ttu-id="42ccb-138">If you enter “Expenses deferred for %4 %6”, then the description displayed will be "Expenses deferred for February 2016".</span><span class="sxs-lookup"><span data-stu-id="42ccb-138">If you enter “Expenses deferred for %4 %6”, then the description displayed will be "Expenses deferred for February 2016".</span></span>
 
-## <a name="to-assign-a-deferral-template-to-an-item"></a>To assign a deferral template to an item
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deferral Templates**, and then choose the related link.
-2. Open the card for the item for which revenues or expenses must be deferred to the accounting periods when the item was sold or purchased.
-3. In the **Default Deferral Template** field, select the relevant deferral template.
+## <a name="to-assign-a-deferral-template-to-an-item"></a><span data-ttu-id="42ccb-139">To assign a deferral template to an item</span><span class="sxs-lookup"><span data-stu-id="42ccb-139">To assign a deferral template to an item</span></span>
+1. <span data-ttu-id="42ccb-140">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deferral Templates**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="42ccb-140">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deferral Templates**, and then choose the related link.</span></span>
+2. <span data-ttu-id="42ccb-141">Open the card for the item for which revenues or expenses must be deferred to the accounting periods when the item was sold or purchased.</span><span class="sxs-lookup"><span data-stu-id="42ccb-141">Open the card for the item for which revenues or expenses must be deferred to the accounting periods when the item was sold or purchased.</span></span>
+3. <span data-ttu-id="42ccb-142">In the **Default Deferral Template** field, select the relevant deferral template.</span><span class="sxs-lookup"><span data-stu-id="42ccb-142">In the **Default Deferral Template** field, select the relevant deferral template.</span></span>
 
-## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a>To change a deferral schedule from a sales invoice
+## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a><span data-ttu-id="42ccb-143">To change a deferral schedule from a sales invoice</span><span class="sxs-lookup"><span data-stu-id="42ccb-143">To change a deferral schedule from a sales invoice</span></span>
 > [!NOTE]  
->   The steps in this procedure are the same as when you change a deferral schedule, for expenses, from a purchase invoice.
+>   <span data-ttu-id="42ccb-144">The steps in this procedure are the same as when you change a deferral schedule, for expenses, from a purchase invoice.</span><span class="sxs-lookup"><span data-stu-id="42ccb-144">The steps in this procedure are the same as when you change a deferral schedule, for expenses, from a purchase invoice.</span></span>
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.
-2. Create a sales invoice for an item that has a deferral template assigned. For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md).
+1. <span data-ttu-id="42ccb-145">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="42ccb-145">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.</span></span>
+2. <span data-ttu-id="42ccb-146">Create a sales invoice for an item that has a deferral template assigned.</span><span class="sxs-lookup"><span data-stu-id="42ccb-146">Create a sales invoice for an item that has a deferral template assigned.</span></span> <span data-ttu-id="42ccb-147">For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md).</span><span class="sxs-lookup"><span data-stu-id="42ccb-147">For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md).</span></span>
 
-    Notice that as soon as you enter the item (or resource or G/L account) on the invoice line, the **Deferral Code** field is filled with the code of the assigned deferral template.
-3. Choose the **Deferral Schedule** action.
-4. In the **Deferral Schedule** window, change settings on the header or values on the lines, for example to defer the amount to an additional accounting period.
-5. Choose the **Calculate Schedule** action.
-6. Choose the **OK** button. The deferral schedule is updated for the sales invoice. The related deferral template is unchanged.
+    <span data-ttu-id="42ccb-148">Notice that as soon as you enter the item (or resource or G/L account) on the invoice line, the **Deferral Code** field is filled with the code of the assigned deferral template.</span><span class="sxs-lookup"><span data-stu-id="42ccb-148">Notice that as soon as you enter the item (or resource or G/L account) on the invoice line, the **Deferral Code** field is filled with the code of the assigned deferral template.</span></span>
+3. <span data-ttu-id="42ccb-149">Choose the **Deferral Schedule** action.</span><span class="sxs-lookup"><span data-stu-id="42ccb-149">Choose the **Deferral Schedule** action.</span></span>
+4. <span data-ttu-id="42ccb-150">In the **Deferral Schedule** window, change settings on the header or values on the lines, for example to defer the amount to an additional accounting period.</span><span class="sxs-lookup"><span data-stu-id="42ccb-150">In the **Deferral Schedule** window, change settings on the header or values on the lines, for example to defer the amount to an additional accounting period.</span></span>
+5. <span data-ttu-id="42ccb-151">Choose the **Calculate Schedule** action.</span><span class="sxs-lookup"><span data-stu-id="42ccb-151">Choose the **Calculate Schedule** action.</span></span>
+6. <span data-ttu-id="42ccb-152">Choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="42ccb-152">Choose the **OK** button.</span></span> <span data-ttu-id="42ccb-153">The deferral schedule is updated for the sales invoice.</span><span class="sxs-lookup"><span data-stu-id="42ccb-153">The deferral schedule is updated for the sales invoice.</span></span> <span data-ttu-id="42ccb-154">The related deferral template is unchanged.</span><span class="sxs-lookup"><span data-stu-id="42ccb-154">The related deferral template is unchanged.</span></span>
 
-## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>To preview how deferred revenues or expenses will be posted to the general ledger
+## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a><span data-ttu-id="42ccb-155">To preview how deferred revenues or expenses will be posted to the general ledger</span><span class="sxs-lookup"><span data-stu-id="42ccb-155">To preview how deferred revenues or expenses will be posted to the general ledger</span></span>
 > [!NOTE]  
->   The steps in this procedure are the same as when you preview how expense deferrals are posted.
+>   <span data-ttu-id="42ccb-156">The steps in this procedure are the same as when you preview how expense deferrals are posted.</span><span class="sxs-lookup"><span data-stu-id="42ccb-156">The steps in this procedure are the same as when you preview how expense deferrals are posted.</span></span>
 
-1. In the **Sales Invoice** window, choose the **Preview Posting** action.
-2. In the **Posting Preview** window, choose the **G/L Entry** action, and then choose the **Show Related Entries** action.
+1. <span data-ttu-id="42ccb-157">In the **Sales Invoice** window, choose the **Preview Posting** action.</span><span class="sxs-lookup"><span data-stu-id="42ccb-157">In the **Sales Invoice** window, choose the **Preview Posting** action.</span></span>
+2. <span data-ttu-id="42ccb-158">In the **Posting Preview** window, choose the **G/L Entry** action, and then choose the **Show Related Entries** action.</span><span class="sxs-lookup"><span data-stu-id="42ccb-158">In the **Posting Preview** window, choose the **G/L Entry** action, and then choose the **Show Related Entries** action.</span></span>
 
-G/L entries to be posted to the specified deferral account, for example, Unearned Income, are denoted by the description that you entered in the **Period Desc.** field in the deferral template, for example, "Expenses deferred for February 2016".
+<span data-ttu-id="42ccb-159">G/L entries to be posted to the specified deferral account, for example, Unearned Income, are denoted by the description that you entered in the **Period Desc.**</span><span class="sxs-lookup"><span data-stu-id="42ccb-159">G/L entries to be posted to the specified deferral account, for example, Unearned Income, are denoted by the description that you entered in the **Period Desc.**</span></span> <span data-ttu-id="42ccb-160">field in the deferral template, for example, "Expenses deferred for February 2016".</span><span class="sxs-lookup"><span data-stu-id="42ccb-160">field in the deferral template, for example, "Expenses deferred for February 2016".</span></span>
 
-## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>To review posted deferrals in the Sales Deferral Summary report
+## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a><span data-ttu-id="42ccb-161">To review posted deferrals in the Sales Deferral Summary report</span><span class="sxs-lookup"><span data-stu-id="42ccb-161">To review posted deferrals in the Sales Deferral Summary report</span></span>
 > [!NOTE]  
->   The steps in this procedure are the same as when you review the Purchasing Deferral Summary report.
+>   <span data-ttu-id="42ccb-162">The steps in this procedure are the same as when you review the Purchasing Deferral Summary report.</span><span class="sxs-lookup"><span data-stu-id="42ccb-162">The steps in this procedure are the same as when you review the Purchasing Deferral Summary report.</span></span>
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Deferral Summary**, and then choose the related link.
-2. In the **Sales Deferral Summary** window, in the **Balance as of** field, enter the date up to which you want to see deferred revenues.
-3. Choose the **Preview** button.
+1. <span data-ttu-id="42ccb-163">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Deferral Summary**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="42ccb-163">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Deferral Summary**, and then choose the related link.</span></span>
+2. <span data-ttu-id="42ccb-164">In the **Sales Deferral Summary** window, in the **Balance as of** field, enter the date up to which you want to see deferred revenues.</span><span class="sxs-lookup"><span data-stu-id="42ccb-164">In the **Sales Deferral Summary** window, in the **Balance as of** field, enter the date up to which you want to see deferred revenues.</span></span>
+3. <span data-ttu-id="42ccb-165">Choose the **Preview** button.</span><span class="sxs-lookup"><span data-stu-id="42ccb-165">Choose the **Preview** button.</span></span>
 
-## <a name="see-also"></a>See Also
-[Finance](finance.md)  
-[Setting Up Finance](finance-setup-finance.md)  
-[Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="42ccb-166">See Also</span><span class="sxs-lookup"><span data-stu-id="42ccb-166">See Also</span></span>
+[<span data-ttu-id="42ccb-167">Finance</span><span class="sxs-lookup"><span data-stu-id="42ccb-167">Finance</span></span>](finance.md)  
+[<span data-ttu-id="42ccb-168">Setting Up Finance</span><span class="sxs-lookup"><span data-stu-id="42ccb-168">Setting Up Finance</span></span>](finance-setup-finance.md)  
+[<span data-ttu-id="42ccb-169">Working with General Journals</span><span class="sxs-lookup"><span data-stu-id="42ccb-169">Working with General Journals</span></span>](ui-work-general-journals.md)  
+<span data-ttu-id="42ccb-170">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="42ccb-170">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

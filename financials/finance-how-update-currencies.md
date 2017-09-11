@@ -16,31 +16,30 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: cc60569091b3aa37d17e981f1fae8f46c4a004df
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-update-currency-exchange-rates"></a>How to: Update Currency Exchange Rates
-You must set up a code for each currency you use if you buy or sell in currencies other than your local currency, have receivables or payables in other currencies, or record G/L transactions in different currencies.  
+# <a name="how-to-update-currency-exchange-rates"></a><span data-ttu-id="2f434-103">How to: Update Currency Exchange Rates</span><span class="sxs-lookup"><span data-stu-id="2f434-103">How to: Update Currency Exchange Rates</span></span>
+<span data-ttu-id="2f434-104">You must set up a code for each currency you use if you buy or sell in currencies other than your local currency, have receivables or payables in other currencies, or record G/L transactions in different currencies.</span><span class="sxs-lookup"><span data-stu-id="2f434-104">You must set up a code for each currency you use if you buy or sell in currencies other than your local currency, have receivables or payables in other currencies, or record G/L transactions in different currencies.</span></span>  
 
 > [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+>   <span data-ttu-id="2f434-105">This functionality requires that your experience is set to **Suite**.</span><span class="sxs-lookup"><span data-stu-id="2f434-105">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="2f434-106">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="2f434-106">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-You can use an external service to keep your currency exchange rates up to date. The Yahoo Currency Exchange Rates service is preinstalled and ready to enable.
+<span data-ttu-id="2f434-107">You can use an external service to keep your currency exchange rates up to date.</span><span class="sxs-lookup"><span data-stu-id="2f434-107">You can use an external service to keep your currency exchange rates up to date.</span></span> <span data-ttu-id="2f434-108">The Yahoo Currency Exchange Rates service is preinstalled and ready to enable.</span><span class="sxs-lookup"><span data-stu-id="2f434-108">The Yahoo Currency Exchange Rates service is preinstalled and ready to enable.</span></span>
 
-## <a name="to-set-up-a-currency-exchange-rate-service"></a>To set up a currency exchange rate service
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
-2. Choose the **New** action.
-3. In the **Currency Exchange Rate Service** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Choose the **Enabled** check box to enable the service.
+## <a name="to-set-up-a-currency-exchange-rate-service"></a><span data-ttu-id="2f434-109">To set up a currency exchange rate service</span><span class="sxs-lookup"><span data-stu-id="2f434-109">To set up a currency exchange rate service</span></span>
+1. <span data-ttu-id="2f434-110">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currency Exchange Rate Services**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="2f434-110">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currency Exchange Rate Services**, and then choose the related link.</span></span>
+2. <span data-ttu-id="2f434-111">Choose the **New** action.</span><span class="sxs-lookup"><span data-stu-id="2f434-111">Choose the **New** action.</span></span>
+3. <span data-ttu-id="2f434-112">In the **Currency Exchange Rate Service** window, fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="2f434-112">In the **Currency Exchange Rate Service** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="2f434-113">Choose the **Enabled** check box to enable the service.</span><span class="sxs-lookup"><span data-stu-id="2f434-113">Choose the **Enabled** check box to enable the service.</span></span>
 
-## <a name="to-update-currency-exchange-rates-through-a-service"></a>To update currency exchange rates through a service
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currencies**, and then choose the related link.
-2. Choose the **Update Exchange Rates** action.
+## <a name="to-update-currency-exchange-rates-through-a-service"></a><span data-ttu-id="2f434-114">To update currency exchange rates through a service</span><span class="sxs-lookup"><span data-stu-id="2f434-114">To update currency exchange rates through a service</span></span>
+1. <span data-ttu-id="2f434-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currencies**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="2f434-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currencies**, and then choose the related link.</span></span>
+2. <span data-ttu-id="2f434-116">Choose the **Update Exchange Rates** action.</span><span class="sxs-lookup"><span data-stu-id="2f434-116">Choose the **Update Exchange Rates** action.</span></span>
 
-The value in the **Exchange Rate** field in the **Currencies** window is updated with the latest currency exchange rate.
+<span data-ttu-id="2f434-117">The value in the **Exchange Rate** field in the **Currencies** window is updated with the latest currency exchange rate.</span><span class="sxs-lookup"><span data-stu-id="2f434-117">The value in the **Exchange Rate** field in the **Currencies** window is updated with the latest currency exchange rate.</span></span>
 
-## <a name="see-also"></a>See Also
-[Closing Years and Periods](year-close-years-periods.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="2f434-118">See Also</span><span class="sxs-lookup"><span data-stu-id="2f434-118">See Also</span></span>
+[<span data-ttu-id="2f434-119">Closing Years and Periods</span><span class="sxs-lookup"><span data-stu-id="2f434-119">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+<span data-ttu-id="2f434-120">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2f434-120">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

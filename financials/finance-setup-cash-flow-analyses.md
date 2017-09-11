@@ -16,82 +16,81 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="setting-up-cash-flow-analysis"></a>Setting Up Cash Flow Analysis
-If you want some help to decide what to do with your cash, have a look at the charts on the Accountant Role Centre:  
+# <a name="setting-up-cash-flow-analysis"></a><span data-ttu-id="7212f-103">Setting Up Cash Flow Analysis</span><span class="sxs-lookup"><span data-stu-id="7212f-103">Setting Up Cash Flow Analysis</span></span>
+<span data-ttu-id="7212f-104">If you want some help to decide what to do with your cash, have a look at the charts on the Accountant Role Centre:</span><span class="sxs-lookup"><span data-stu-id="7212f-104">If you want some help to decide what to do with your cash, have a look at the charts on the Accountant Role Center:</span></span>  
 
-* **Cash Cycle**  
-* **Income & Expense**  
-* **Cash Flow**  
-* **Cash Flow Forecasts**  
+* <span data-ttu-id="7212f-105">**Cash Cycle**</span><span class="sxs-lookup"><span data-stu-id="7212f-105">**Cash Cycle**</span></span>  
+* <span data-ttu-id="7212f-106">**Income & Expense**</span><span class="sxs-lookup"><span data-stu-id="7212f-106">**Income & Expense**</span></span>  
+* <span data-ttu-id="7212f-107">**Cash Flow**</span><span class="sxs-lookup"><span data-stu-id="7212f-107">**Cash Flow**</span></span>  
+* <span data-ttu-id="7212f-108">**Cash Flow Forecasts**</span><span class="sxs-lookup"><span data-stu-id="7212f-108">**Cash Flow Forecasts**</span></span>  
 
-This topic describes where the data in the charts comes from and, if necessary, what to do to start using the charts.  
+<span data-ttu-id="7212f-109">This topic describes where the data in the charts comes from and, if necessary, what to do to start using the charts.</span><span class="sxs-lookup"><span data-stu-id="7212f-109">This topic describes where the data in the charts comes from and, if necessary, what to do to start using the charts.</span></span>  
 
-## <a name="the-cash-cycle-and-income--expense-charts"></a>The Cash Cycle and Income & Expense charts
-The **Cash Cycle** and **Income & Expense** charts are ready to go, based on the Chart of Accounts and account schedules. The accounts are where the data comes from, and account schedules calculate the relationship between sales and receivables. Some accounts and account schedules are provided. You can use them as-is, change them, and add new ones. If you add G/L accounts to your chart of accounts, for example, by importing them from QuickBooks, you'll need to map to the accounts on the **Account Schedules** page for the following account schedule names:  
+## <a name="the-cash-cycle-and-income--expense-charts"></a><span data-ttu-id="7212f-110">The Cash Cycle and Income & Expense charts</span><span class="sxs-lookup"><span data-stu-id="7212f-110">The Cash Cycle and Income & Expense charts</span></span>
+<span data-ttu-id="7212f-111">The **Cash Cycle** and **Income & Expense** charts are ready to go, based on the Chart of Accounts and account schedules.</span><span class="sxs-lookup"><span data-stu-id="7212f-111">The **Cash Cycle** and **Income & Expense** charts are ready to go, based on the Chart of Accounts and account schedules.</span></span> <span data-ttu-id="7212f-112">The accounts are where the data comes from, and account schedules calculate the relationship between sales and receivables.</span><span class="sxs-lookup"><span data-stu-id="7212f-112">The accounts are where the data comes from, and account schedules calculate the relationship between sales and receivables.</span></span> <span data-ttu-id="7212f-113">Some accounts and account schedules are provided.</span><span class="sxs-lookup"><span data-stu-id="7212f-113">Some accounts and account schedules are provided.</span></span> <span data-ttu-id="7212f-114">You can use them as-is, change them, and add new ones.</span><span class="sxs-lookup"><span data-stu-id="7212f-114">You can use them as-is, change them, and add new ones.</span></span> <span data-ttu-id="7212f-115">If you add G/L accounts to your chart of accounts, for example, by importing them from QuickBooks, you'll need to map to the accounts on the **Account Schedules** page for the following account schedule names:</span><span class="sxs-lookup"><span data-stu-id="7212f-115">If you add G/L accounts to your chart of accounts, for example, by importing them from QuickBooks, you'll need to map to the accounts on the **Account Schedules** page for the following account schedule names:</span></span>  
 
-| Account Schedule Name | Where it's used |
+| <span data-ttu-id="7212f-116">Account Schedule Name</span><span class="sxs-lookup"><span data-stu-id="7212f-116">Account Schedule Name</span></span> | <span data-ttu-id="7212f-117">Where it's used</span><span class="sxs-lookup"><span data-stu-id="7212f-117">Where it's used</span></span> |
 | --- | --- |
-| **I_CACYCLE** |Cash Cycle |
-| **I_CASHFLOW** |Cash Flow |
-| **I_INCEXP** |Income & Expense |
-| **I_MINTRIAL** |As an income statement if you don't use the chart of accounts |
+| <span data-ttu-id="7212f-118">**I_CACYCLE**</span><span class="sxs-lookup"><span data-stu-id="7212f-118">**I_CACYCLE**</span></span> |<span data-ttu-id="7212f-119">Cash Cycle</span><span class="sxs-lookup"><span data-stu-id="7212f-119">Cash Cycle</span></span> |
+| <span data-ttu-id="7212f-120">**I_CASHFLOW**</span><span class="sxs-lookup"><span data-stu-id="7212f-120">**I_CASHFLOW**</span></span> |<span data-ttu-id="7212f-121">Cash Flow</span><span class="sxs-lookup"><span data-stu-id="7212f-121">Cash Flow</span></span> |
+| <span data-ttu-id="7212f-122">**I_INCEXP**</span><span class="sxs-lookup"><span data-stu-id="7212f-122">**I_INCEXP**</span></span> |<span data-ttu-id="7212f-123">Income & Expense</span><span class="sxs-lookup"><span data-stu-id="7212f-123">Income & Expense</span></span> |
+| <span data-ttu-id="7212f-124">**I_MINTRIAL**</span><span class="sxs-lookup"><span data-stu-id="7212f-124">**I_MINTRIAL**</span></span> |<span data-ttu-id="7212f-125">As an income statement if you don't use the chart of accounts</span><span class="sxs-lookup"><span data-stu-id="7212f-125">As an income statement if you don't use the chart of accounts</span></span> |
 
-**Note** It's a good idea to keep the calculations that are provided for the account schedule.  
+<span data-ttu-id="7212f-126">**Note** It's a good idea to keep the calculations that are provided for the account schedule.</span><span class="sxs-lookup"><span data-stu-id="7212f-126">**Note** It's a good idea to keep the calculations that are provided for the account schedule.</span></span>  
 
-Enter accounts in the **Totaling** field for **Total Revenue**, **Total Receivables**, **Total Payables**, and **Total Inventory**. To map to a range of accounts, or more than one specific account, enter the account numbers separated by ".." or by a vertical bar, respectively. For example, **1111..4444** or **2222|3333|5555**.  
+<span data-ttu-id="7212f-127">Enter accounts in the **Totaling** field for **Total Revenue**, **Total Receivables**, **Total Payables**, and **Total Inventory**.</span><span class="sxs-lookup"><span data-stu-id="7212f-127">Enter accounts in the **Totaling** field for **Total Revenue**, **Total Receivables**, **Total Payables**, and **Total Inventory**.</span></span> <span data-ttu-id="7212f-128">To map to a range of accounts, or more than one specific account, enter the account numbers separated by ".." or by a vertical bar, respectively.</span><span class="sxs-lookup"><span data-stu-id="7212f-128">To map to a range of accounts, or more than one specific account, enter the account numbers separated by ".." or by a vertical bar, respectively.</span></span> <span data-ttu-id="7212f-129">For example, **1111..4444** or **2222|3333|5555**.</span><span class="sxs-lookup"><span data-stu-id="7212f-129">For example, **1111..4444** or **2222|3333|5555**.</span></span>  
 
-**Tip** Verify your mapping by choosing the **Overview** action.  
+<span data-ttu-id="7212f-130">**Tip** Verify your mapping by choosing the **Overview** action.</span><span class="sxs-lookup"><span data-stu-id="7212f-130">**Tip** Verify your mapping by choosing the **Overview** action.</span></span>  
 
-## <a name="set-up-the-cash-flow-chart"></a>Set up the Cash Flow chart
-The Cash Flow chart is based on the following:  
+## <a name="set-up-the-cash-flow-chart"></a><span data-ttu-id="7212f-131">Set up the Cash Flow chart</span><span class="sxs-lookup"><span data-stu-id="7212f-131">Set up the Cash Flow chart</span></span>
+<span data-ttu-id="7212f-132">The Cash Flow chart is based on the following:</span><span class="sxs-lookup"><span data-stu-id="7212f-132">The Cash Flow chart is based on the following:</span></span>  
 
-* A chart of cash flow accounts.
-* One or more cash flow setups. These specify the accounts to use for general ledger, purchases, sales, services, and fixed assets.  
+* <span data-ttu-id="7212f-133">A chart of cash flow accounts.</span><span class="sxs-lookup"><span data-stu-id="7212f-133">A chart of cash flow accounts.</span></span>
+* <span data-ttu-id="7212f-134">One or more cash flow setups.</span><span class="sxs-lookup"><span data-stu-id="7212f-134">One or more cash flow setups.</span></span> <span data-ttu-id="7212f-135">These specify the accounts to use for general ledger, purchases, sales, services, and fixed assets.</span><span class="sxs-lookup"><span data-stu-id="7212f-135">These specify the accounts to use for general ledger, purchases, sales, services, and fixed assets.</span></span>  
 
-To help you get going, some accounts and cash flow setups are provided. You can add, change, or remove them.  
+<span data-ttu-id="7212f-136">To help you get going, some accounts and cash flow setups are provided.</span><span class="sxs-lookup"><span data-stu-id="7212f-136">To help you get going, some accounts and cash flow setups are provided.</span></span> <span data-ttu-id="7212f-137">You can add, change, or remove them.</span><span class="sxs-lookup"><span data-stu-id="7212f-137">You can add, change, or remove them.</span></span>  
 
-To set these up, search for **cash flow accounts**, choose the link, and then fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repeat these steps for **cash flow setup**.  
+<span data-ttu-id="7212f-138">To set these up, search for **cash flow accounts**, choose the link, and then fill in the fields.</span><span class="sxs-lookup"><span data-stu-id="7212f-138">To set these up, search for **cash flow accounts**, choose the link, and then fill in the fields.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]<span data-ttu-id="7212f-139"> Repeat these steps for **cash flow setup**.</span><span class="sxs-lookup"><span data-stu-id="7212f-139"> Repeat these steps for **cash flow setup**.</span></span>  
 
-## <a name="set-up-cash-flow-forecasts"></a>Set up cash flow forecasts
-The **Cash Flow Forecast** chart uses cash flow accounts, cash flow setups, and cash flow forecasts. Some are provided, however, you can set up your own by using an assisted setup guide. The guide helps you specify things like how often to update the forecast, the accounts to base it on, information about when you pay taxes, and whether to turn on [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite).  
+## <a name="set-up-cash-flow-forecasts"></a><span data-ttu-id="7212f-140">Set up cash flow forecasts</span><span class="sxs-lookup"><span data-stu-id="7212f-140">Set up cash flow forecasts</span></span>
+<span data-ttu-id="7212f-141">The **Cash Flow Forecast** chart uses cash flow accounts, cash flow setups, and cash flow forecasts.</span><span class="sxs-lookup"><span data-stu-id="7212f-141">The **Cash Flow Forecast** chart uses cash flow accounts, cash flow setups, and cash flow forecasts.</span></span> <span data-ttu-id="7212f-142">Some are provided, however, you can set up your own by using an assisted setup guide.</span><span class="sxs-lookup"><span data-stu-id="7212f-142">Some are provided, however, you can set up your own by using an assisted setup guide.</span></span> <span data-ttu-id="7212f-143">The guide helps you specify things like how often to update the forecast, the accounts to base it on, information about when you pay taxes, and whether to turn on [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite).</span><span class="sxs-lookup"><span data-stu-id="7212f-143">The guide helps you specify things like how often to update the forecast, the accounts to base it on, information about when you pay taxes, and whether to turn on [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite).</span></span>  
 
-Cash flow forecasts can use Cortana Intelligence to include documents with a due date in the future. The result is a more comprehensive prediction. The connection to Cortana Intelligence is already set up for you. You just need to turn it on. When you sign in to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], a notification displays in a blue bar, and provides a link to the default cash flow setup. The notification displays only once. If you close it, but decide to turn on Cortana Intelligence, you can use the assisted setup guide, or a manual process.  
+<span data-ttu-id="7212f-144">Cash flow forecasts can use Cortana Intelligence to include documents with a due date in the future.</span><span class="sxs-lookup"><span data-stu-id="7212f-144">Cash flow forecasts can use Cortana Intelligence to include documents with a due date in the future.</span></span> <span data-ttu-id="7212f-145">The result is a more comprehensive prediction.</span><span class="sxs-lookup"><span data-stu-id="7212f-145">The result is a more comprehensive prediction.</span></span> <span data-ttu-id="7212f-146">The connection to Cortana Intelligence is already set up for you.</span><span class="sxs-lookup"><span data-stu-id="7212f-146">The connection to Cortana Intelligence is already set up for you.</span></span> <span data-ttu-id="7212f-147">You just need to turn it on.</span><span class="sxs-lookup"><span data-stu-id="7212f-147">You just need to turn it on.</span></span> <span data-ttu-id="7212f-148">When you sign in to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], a notification displays in a blue bar, and provides a link to the default cash flow setup.</span><span class="sxs-lookup"><span data-stu-id="7212f-148">When you sign in to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], a notification displays in a blue bar, and provides a link to the default cash flow setup.</span></span> <span data-ttu-id="7212f-149">The notification displays only once.</span><span class="sxs-lookup"><span data-stu-id="7212f-149">The notification displays only once.</span></span> <span data-ttu-id="7212f-150">If you close it, but decide to turn on Cortana Intelligence, you can use the assisted setup guide, or a manual process.</span><span class="sxs-lookup"><span data-stu-id="7212f-150">If you close it, but decide to turn on Cortana Intelligence, you can use the assisted setup guide, or a manual process.</span></span>  
 
 > [!NOTE]  
->   Alternatively, you can use your own predictive web service. For more information, see [Create and use your own predictive web service for cash flow forecasts](#AnchorText).  
+>   <span data-ttu-id="7212f-151">Alternatively, you can use your own predictive web service.</span><span class="sxs-lookup"><span data-stu-id="7212f-151">Alternatively, you can use your own predictive web service.</span></span> <span data-ttu-id="7212f-152">For more information, see [Create and use your own predictive web service for cash flow forecasts](#AnchorText).</span><span class="sxs-lookup"><span data-stu-id="7212f-152">For more information, see [Create and use your own predictive web service for cash flow forecasts](#AnchorText).</span></span>  
 
-To use the assisted setup guide:  
+<span data-ttu-id="7212f-153">To use the assisted setup guide:</span><span class="sxs-lookup"><span data-stu-id="7212f-153">To use the assisted setup guide:</span></span>  
 
-1. In the Accountant Role Center, under the **Cash Flow Forecast** chart, choose the **Open Assisted Setup** action.  
-2. Fill in the fields in each step of the guide.  
-3. On the Home page, choose **Cash Flow Forecast** above the chart, and then **Recalculate Forecast**.  
+1. <span data-ttu-id="7212f-154">In the Accountant Role Center, under the **Cash Flow Forecast** chart, choose the **Open Assisted Setup** action.</span><span class="sxs-lookup"><span data-stu-id="7212f-154">In the Accountant Role Center, under the **Cash Flow Forecast** chart, choose the **Open Assisted Setup** action.</span></span>  
+2. <span data-ttu-id="7212f-155">Fill in the fields in each step of the guide.</span><span class="sxs-lookup"><span data-stu-id="7212f-155">Fill in the fields in each step of the guide.</span></span>  
+3. <span data-ttu-id="7212f-156">On the Home page, choose **Cash Flow Forecast** above the chart, and then **Recalculate Forecast**.</span><span class="sxs-lookup"><span data-stu-id="7212f-156">On the Home page, choose **Cash Flow Forecast** above the chart, and then **Recalculate Forecast**.</span></span>  
 
-To use a manual process:  
+<span data-ttu-id="7212f-157">To use a manual process:</span><span class="sxs-lookup"><span data-stu-id="7212f-157">To use a manual process:</span></span>  
 
-1. In the Accountant Role Center, search for **Cash Flow Setup**, and then choose the related link.  
-2. Expand the **Cortana Intelligence** FastTab, and then choose the **Cortana Intelligence Enabled** check box.  
-3. On the Home page, choose **Cash Flow Forecast** above the chart, and then **Recalculate Forecast**.  
+1. <span data-ttu-id="7212f-158">In the Accountant Role Center, search for **Cash Flow Setup**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="7212f-158">In the Accountant Role Center, search for **Cash Flow Setup**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="7212f-159">Expand the **Cortana Intelligence** FastTab, and then choose the **Cortana Intelligence Enabled** check box.</span><span class="sxs-lookup"><span data-stu-id="7212f-159">Expand the **Cortana Intelligence** FastTab, and then choose the **Cortana Intelligence Enabled** check box.</span></span>  
+3. <span data-ttu-id="7212f-160">On the Home page, choose **Cash Flow Forecast** above the chart, and then **Recalculate Forecast**.</span><span class="sxs-lookup"><span data-stu-id="7212f-160">On the Home page, choose **Cash Flow Forecast** above the chart, and then **Recalculate Forecast**.</span></span>  
 
 > [!TIP]  
->   Consider the length of the periods that the service will use in its calculations. The more data you provide, the more accurate the predictions will be. Also, watch out for large variances in periods. They will also impact predictions. If Cortana Intelligence does not find enough data, or the data varies a lot, the service will not make a prediction.  
+>   <span data-ttu-id="7212f-161">Consider the length of the periods that the service will use in its calculations.</span><span class="sxs-lookup"><span data-stu-id="7212f-161">Consider the length of the periods that the service will use in its calculations.</span></span> <span data-ttu-id="7212f-162">The more data you provide, the more accurate the predictions will be.</span><span class="sxs-lookup"><span data-stu-id="7212f-162">The more data you provide, the more accurate the predictions will be.</span></span> <span data-ttu-id="7212f-163">Also, watch out for large variances in periods.</span><span class="sxs-lookup"><span data-stu-id="7212f-163">Also, watch out for large variances in periods.</span></span> <span data-ttu-id="7212f-164">They will also impact predictions.</span><span class="sxs-lookup"><span data-stu-id="7212f-164">They will also impact predictions.</span></span> <span data-ttu-id="7212f-165">If Cortana Intelligence does not find enough data, or the data varies a lot, the service will not make a prediction.</span><span class="sxs-lookup"><span data-stu-id="7212f-165">If Cortana Intelligence does not find enough data, or the data varies a lot, the service will not make a prediction.</span></span>  
 
-## <a name="AnchorText"> </a>Create and use your own predictive web service for cash flow forecasts
-You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Dynamics 365 for Financials**. This predictive model is available online in the Cortana Intelligence Gallery. To use the model, follow these steps:  
+## <span data-ttu-id="7212f-166"><a name="AnchorText"> </a>Create and use your own predictive web service for cash flow forecasts</span><span class="sxs-lookup"><span data-stu-id="7212f-166"><a name="AnchorText"> </a>Create and use your own predictive web service for cash flow forecasts</span></span>
+<span data-ttu-id="7212f-167">You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Dynamics 365 for Financials**.</span><span class="sxs-lookup"><span data-stu-id="7212f-167">You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Dynamics 365 for Financials**.</span></span> <span data-ttu-id="7212f-168">This predictive model is available online in the Cortana Intelligence Gallery.</span><span class="sxs-lookup"><span data-stu-id="7212f-168">This predictive model is available online in the Cortana Intelligence Gallery.</span></span> <span data-ttu-id="7212f-169">To use the model, follow these steps:</span><span class="sxs-lookup"><span data-stu-id="7212f-169">To use the model, follow these steps:</span></span>  
 
-1. Open a browser and go to the [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Search for **Forecasting Model for Microsoft Dynamics 365 for Financials**, and then open the model in Azure Machine Learning Studio.  
-3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
-4. Run the model, and publish it as a web service.  
-5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
-6. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Flow Setup**, and then choose the related link.  
-7. Expand the **Cortana Intelligence** FastTab, and then fill in the fields.  
+1. <span data-ttu-id="7212f-170">Open a browser and go to the [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352).</span><span class="sxs-lookup"><span data-stu-id="7212f-170">Open a browser and go to the [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352).</span></span>  
+2. <span data-ttu-id="7212f-171">Search for **Forecasting Model for Microsoft Dynamics 365 for Financials**, and then open the model in Azure Machine Learning Studio.</span><span class="sxs-lookup"><span data-stu-id="7212f-171">Search for **Forecasting Model for Microsoft Dynamics 365 for Financials**, and then open the model in Azure Machine Learning Studio.</span></span>  
+3. <span data-ttu-id="7212f-172">Use your Microsoft account to sign up for a workspace, and then copy the model.</span><span class="sxs-lookup"><span data-stu-id="7212f-172">Use your Microsoft account to sign up for a workspace, and then copy the model.</span></span>  
+4. <span data-ttu-id="7212f-173">Run the model, and publish it as a web service.</span><span class="sxs-lookup"><span data-stu-id="7212f-173">Run the model, and publish it as a web service.</span></span>  
+5. <span data-ttu-id="7212f-174">Make a note of the API URL and API key.</span><span class="sxs-lookup"><span data-stu-id="7212f-174">Make a note of the API URL and API key.</span></span> <span data-ttu-id="7212f-175">You will use these credentials for a cash flow setup.</span><span class="sxs-lookup"><span data-stu-id="7212f-175">You will use these credentials for a cash flow setup.</span></span>  
+6. <span data-ttu-id="7212f-176">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Flow Setup**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="7212f-176">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Flow Setup**, and then choose the related link.</span></span>  
+7. <span data-ttu-id="7212f-177">Expand the **Cortana Intelligence** FastTab, and then fill in the fields.</span><span class="sxs-lookup"><span data-stu-id="7212f-177">Expand the **Cortana Intelligence** FastTab, and then fill in the fields.</span></span>  
 
-## <a name="see-also"></a>See Also
-[Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
-[Setting Up Finance](finance-setup-finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="7212f-178">See Also</span><span class="sxs-lookup"><span data-stu-id="7212f-178">See Also</span></span>
+[<span data-ttu-id="7212f-179">Analyzing Cash Flow in Your Company</span><span class="sxs-lookup"><span data-stu-id="7212f-179">Analyzing Cash Flow in Your Company</span></span>](finance-analyze-cash-flow.md)  
+[<span data-ttu-id="7212f-180">Setting Up Finance</span><span class="sxs-lookup"><span data-stu-id="7212f-180">Setting Up Finance</span></span>](finance-setup-finance.md)  
+<span data-ttu-id="7212f-181">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7212f-181">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

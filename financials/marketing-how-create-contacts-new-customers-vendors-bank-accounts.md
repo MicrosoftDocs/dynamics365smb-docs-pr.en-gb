@@ -16,29 +16,28 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 142c1649438ad31b604767d6b6f35a1caeb3f9e4
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-create-a-customer-vendor-or-bank-account-from-a-contact"></a>How to: Create a Customer, Vendor, or Bank Account From a Contact
-You may want to record some of your existing contacts as customers, vendors, or bank accounts. Creating a customer, vendor, or bank account from a contact enables you use existing data. When you create a customer, vendor, or bank account this way, it is synchronised with the contact. Synchronisation makes information that is common between contacts and customers, vendors, or bank account the same.
+# <a name="how-to-create-a-customer-vendor-or-bank-account-from-a-contact"></a><span data-ttu-id="a925a-103">How to: Create a Customer, Vendor, or Bank Account From a Contact</span><span class="sxs-lookup"><span data-stu-id="a925a-103">How to: Create a Customer, Vendor, or Bank Account From a Contact</span></span>
+<span data-ttu-id="a925a-104">You may want to record some of your existing contacts as customers, vendors, or bank accounts.</span><span class="sxs-lookup"><span data-stu-id="a925a-104">You may want to record some of your existing contacts as customers, vendors, or bank accounts.</span></span> <span data-ttu-id="a925a-105">Creating a customer, vendor, or bank account from a contact enables you use existing data.</span><span class="sxs-lookup"><span data-stu-id="a925a-105">Creating a customer, vendor, or bank account from a contact enables you use existing data.</span></span> <span data-ttu-id="a925a-106">When you create a customer, vendor, or bank account this way, it is synchronised with the contact.</span><span class="sxs-lookup"><span data-stu-id="a925a-106">When you create a customer, vendor, or bank account this way, it is synchronized with the contact.</span></span> <span data-ttu-id="a925a-107">Synchronisation makes information that is common between contacts and customers, vendors, or bank account the same.</span><span class="sxs-lookup"><span data-stu-id="a925a-107">Synchronization makes information that is common between contacts and customers, vendors, or bank account the same.</span></span>
 
-Before you can record contacts this way, you must specify a business relation code for customers, vendors, and bank accounts in the **Marketing Setup** window. If you will be recording contacts as bank accounts, you must also specify numbers series for bank accounts in the **General Ledger Setup** window.
+<span data-ttu-id="a925a-108">Before you can record contacts this way, you must specify a business relation code for customers, vendors, and bank accounts in the **Marketing Setup** window.</span><span class="sxs-lookup"><span data-stu-id="a925a-108">Before you can record contacts this way, you must specify a business relation code for customers, vendors, and bank accounts in the **Marketing Setup** window.</span></span> <span data-ttu-id="a925a-109">If you will be recording contacts as bank accounts, you must also specify numbers series for bank accounts in the **General Ledger Setup** window.</span><span class="sxs-lookup"><span data-stu-id="a925a-109">If you will be recording contacts as bank accounts, you must also specify numbers series for bank accounts in the **General Ledger Setup** window.</span></span>
 
-## <a name="to-create-a-contact-as-a-customer-vendor-or-bank-account"></a>To create a contact as a customer, vendor, or bank account
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contacts**, and then choose the related link.
-2. Select the contact you want to create as a customer, vendor, or bank account.
-3. Choose the **Create As** action, and then choose either **Customer**, **Vendor**, or **Bank**.
-4. Confirm the subsequent message.
+## <a name="to-create-a-contact-as-a-customer-vendor-or-bank-account"></a><span data-ttu-id="a925a-110">To create a contact as a customer, vendor, or bank account</span><span class="sxs-lookup"><span data-stu-id="a925a-110">To create a contact as a customer, vendor, or bank account</span></span>
+1. <span data-ttu-id="a925a-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contacts**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="a925a-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contacts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="a925a-112">Select the contact you want to create as a customer, vendor, or bank account.</span><span class="sxs-lookup"><span data-stu-id="a925a-112">Select the contact you want to create as a customer, vendor, or bank account.</span></span>
+3. <span data-ttu-id="a925a-113">Choose the **Create As** action, and then choose either **Customer**, **Vendor**, or **Bank**.</span><span class="sxs-lookup"><span data-stu-id="a925a-113">Choose the **Create As** action, and then choose either **Customer**, **Vendor**, or **Bank**.</span></span>
+4. <span data-ttu-id="a925a-114">Confirm the subsequent message.</span><span class="sxs-lookup"><span data-stu-id="a925a-114">Confirm the subsequent message.</span></span>
 
-The contact information is transferred from the **Contact** card to the **Bank Account** card, the **Customer** card, or the **Vendor** card. You may want to add specific information to each of the cards, such as invoicing and payment details.
+<span data-ttu-id="a925a-115">The contact information is transferred from the **Contact** card to the **Bank Account** card, the **Customer** card, or the **Vendor** card.</span><span class="sxs-lookup"><span data-stu-id="a925a-115">The contact information is transferred from the **Contact** card to the **Bank Account** card, the **Customer** card, or the **Vendor** card.</span></span> <span data-ttu-id="a925a-116">You may want to add specific information to each of the cards, such as invoicing and payment details.</span><span class="sxs-lookup"><span data-stu-id="a925a-116">You may want to add specific information to each of the cards, such as invoicing and payment details.</span></span>
 
-## <a name="see-also"></a>See Also
-[How to: Create Contact Companies](marketing-create-contact-companies.md)  
-[How to: Create Contact Persons](marketing-create-contact-persons.md)  
-[Setting Up Relationship Management](marketing-setup-marketing.md)  
-[Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[How to: Link Contacts to Existing Customers, Vendors, or Bank Accounts](marketing-how-link-contact.md)  
-[Assign Business Relations to a Contact](marketing-business-relations.md#AssignBusRelContact)  
-[Working with Financials](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="a925a-117">See Also</span><span class="sxs-lookup"><span data-stu-id="a925a-117">See Also</span></span>
+[<span data-ttu-id="a925a-118">How to: Create Contact Companies</span><span class="sxs-lookup"><span data-stu-id="a925a-118">How to: Create Contact Companies</span></span>](marketing-create-contact-companies.md)  
+[<span data-ttu-id="a925a-119">How to: Create Contact Persons</span><span class="sxs-lookup"><span data-stu-id="a925a-119">How to: Create Contact Persons</span></span>](marketing-create-contact-persons.md)  
+[<span data-ttu-id="a925a-120">Setting Up Relationship Management</span><span class="sxs-lookup"><span data-stu-id="a925a-120">Setting Up Relationship Management</span></span>](marketing-setup-marketing.md)  
+[<span data-ttu-id="a925a-121">Synchronizing Contacts With Customers, Vendors, and Bank Accounts</span><span class="sxs-lookup"><span data-stu-id="a925a-121">Synchronizing Contacts With Customers, Vendors, and Bank Accounts</span></span>](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
+[<span data-ttu-id="a925a-122">How to: Link Contacts to Existing Customers, Vendors, or Bank Accounts</span><span class="sxs-lookup"><span data-stu-id="a925a-122">How to: Link Contacts to Existing Customers, Vendors, or Bank Accounts</span></span>](marketing-how-link-contact.md)  
+[<span data-ttu-id="a925a-123">Assign Business Relations to a Contact</span><span class="sxs-lookup"><span data-stu-id="a925a-123">Assign Business Relations to a Contact</span></span>](marketing-business-relations.md#AssignBusRelContact)  
+[<span data-ttu-id="a925a-124">Working with Financials</span><span class="sxs-lookup"><span data-stu-id="a925a-124">Working with Financials</span></span>](ui-work-product.md)
 

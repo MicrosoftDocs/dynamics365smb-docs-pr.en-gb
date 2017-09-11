@@ -16,22 +16,21 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6844d5fe3efba5349eef166161c5956116bc7fc0
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-run-batch-jobs"></a>How to: Run Batch Jobs
-A batch job is a routine that processes data in batches, for example the **Adjust Exchange Rates** batch job. There are batch jobs that perform periodic accounting activities, such as closing the income statement at the end of a fiscal year. Many batch jobs do calculation work, such as calculation of finance charges, exchange rate adjustment, and calculation of unit prices.
+# <a name="how-to-run-batch-jobs"></a><span data-ttu-id="9ae72-103">How to: Run Batch Jobs</span><span class="sxs-lookup"><span data-stu-id="9ae72-103">How to: Run Batch Jobs</span></span>
+<span data-ttu-id="9ae72-104">A batch job is a routine that processes data in batches, for example the **Adjust Exchange Rates** batch job.</span><span class="sxs-lookup"><span data-stu-id="9ae72-104">A batch job is a routine that processes data in batches, for example the **Adjust Exchange Rates** batch job.</span></span> <span data-ttu-id="9ae72-105">There are batch jobs that perform periodic accounting activities, such as closing the income statement at the end of a fiscal year.</span><span class="sxs-lookup"><span data-stu-id="9ae72-105">There are batch jobs that perform periodic accounting activities, such as closing the income statement at the end of a fiscal year.</span></span> <span data-ttu-id="9ae72-106">Many batch jobs do calculation work, such as calculation of finance charges, exchange rate adjustment, and calculation of unit prices.</span><span class="sxs-lookup"><span data-stu-id="9ae72-106">Many batch jobs do calculation work, such as calculation of finance charges, exchange rate adjustment, and calculation of unit prices.</span></span>
 
-A batch job is like a report, except the batch job uses the result of its work to update information directly, instead of printing the results.
+<span data-ttu-id="9ae72-107">A batch job is like a report, except the batch job uses the result of its work to update information directly, instead of printing the results.</span><span class="sxs-lookup"><span data-stu-id="9ae72-107">A batch job is like a report, except the batch job uses the result of its work to update information directly, instead of printing the results.</span></span>
 
-## <a name="to-run-a-batch-job"></a>To run a batch job
-1. To open the request window for the relevant batch job, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter the name of the batch job, and then choose the related link.
-2. If there is an **Options** FastTab for the batch job, fill in the fields to determine what the batch job will do.
-3. The window may contain one or more FastTab with filters, which you can use to limit the data included in the batch job. You can enter criteria in the suggested filters or add more filters.
-4. Choose the **OK** button to start the batch job.
+## <a name="to-run-a-batch-job"></a><span data-ttu-id="9ae72-108">To run a batch job</span><span class="sxs-lookup"><span data-stu-id="9ae72-108">To run a batch job</span></span>
+1. <span data-ttu-id="9ae72-109">To open the request window for the relevant batch job, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter the name of the batch job, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="9ae72-109">To open the request window for the relevant batch job, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter the name of the batch job, and then choose the related link.</span></span>
+2. <span data-ttu-id="9ae72-110">If there is an **Options** FastTab for the batch job, fill in the fields to determine what the batch job will do.</span><span class="sxs-lookup"><span data-stu-id="9ae72-110">If there is an **Options** FastTab for the batch job, fill in the fields to determine what the batch job will do.</span></span>
+3. <span data-ttu-id="9ae72-111">The window may contain one or more FastTab with filters, which you can use to limit the data included in the batch job.</span><span class="sxs-lookup"><span data-stu-id="9ae72-111">The window may contain one or more FastTab with filters, which you can use to limit the data included in the batch job.</span></span> <span data-ttu-id="9ae72-112">You can enter criteria in the suggested filters or add more filters.</span><span class="sxs-lookup"><span data-stu-id="9ae72-112">You can enter criteria in the suggested filters or add more filters.</span></span>
+4. <span data-ttu-id="9ae72-113">Choose the **OK** button to start the batch job.</span><span class="sxs-lookup"><span data-stu-id="9ae72-113">Choose the **OK** button to start the batch job.</span></span>
 
-## <a name="see-also"></a>See Also
-[Entering Criteria in Filters](ui-enter-criteria-filters.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="9ae72-114">See Also</span><span class="sxs-lookup"><span data-stu-id="9ae72-114">See Also</span></span>
+[<span data-ttu-id="9ae72-115">Entering Criteria in Filters</span><span class="sxs-lookup"><span data-stu-id="9ae72-115">Entering Criteria in Filters</span></span>](ui-enter-criteria-filters.md)  
+<span data-ttu-id="9ae72-116">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9ae72-116">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
