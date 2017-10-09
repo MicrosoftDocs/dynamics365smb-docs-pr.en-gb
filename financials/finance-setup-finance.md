@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/07/2017
+ms.date: 08/10/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 52fd9ae967dab9c6f90733e1ea25b6c875374243
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b63e2e65f92edbbe10bcb5e2c340db31b1acda28
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-finance"></a>Setting Up Finance
@@ -31,13 +30,17 @@ The following table describes a sequence of tasks, with links to the topics that
 | --- | --- |
 | Choose how you pay your vendors. |[Defining Payment Methods](finance-payment-methods.md) |
 | Specify the posting groups that map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. |[Setting Up Posting Groups](finance-posting-groups.md)|
+|Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[How to: Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Set up fiscal periods. |[How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md) |
 | Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[How To: Report VAT to Tax Authorities](finance-how-report-vat.md)|
-| Set up how to update additional currencies if you perform international trade. |[How to: Update Currency Exchange Rates](finance-how-update-currencies.md) |
+| Set your Sales and Purchases features up to handle payments in foreign currencies.|[How to: Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 | Add new accounts to the existing chart of accounts. |[Setting Up the Chart of Accounts](finance-setup-chart-accounts.md) |
 | Set up business intelligence (BI) charts to analyse cash flow. |[Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md) |
+|Enable invoicing of a customer who is not set up in the system.|[How to: Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)|
+| Set up Intrastat reporting, and submit the report to an authority | [How to: Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>See Also
+[Finance](finance.md)]  
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with Dimensions](finance-dimensions.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
@@ -45,3 +48,4 @@ The following table describes a sequence of tasks, with links to the topics that
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

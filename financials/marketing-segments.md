@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cfb32511dd5ba564572050a3d52058fcc2c2f9d3
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-segments"></a>Managing Segments
@@ -28,7 +27,7 @@ There are two main tasks in creating a segment:
 * Enter general information about the segment. Before you can select the contacts within the segment, you must first create the segment.
 * Select the contacts to be included within the segment.
 
-The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.
+The following table describes a sequence of tasks, with links to the topics that describe them. 
 
 | To | See |
 | --- | --- |

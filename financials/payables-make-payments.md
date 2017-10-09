@@ -10,31 +10,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/06/2017
+ms.date: 06/28/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d0b9020596484a8910db2f5720adfe159ad96fe7
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 00792adb8b4c7deccee262982cd532423884c8f5
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="make-payments"></a>Make Payments
-When you make payments to vendors, you post the related payment lines in the **Payment Journal** window. You can use the **Suggest Vendor Payments** function to find payments that are due. You can also use the **Vendor - Summary Aging** report to get an overview of due payments.
+# <a name="making-payments"></a>Making Payments
+When you make payments to vendors or reimbursements to employees, you post the related payment lines in the **Payment Journal** window. You can use the **Suggest Vendor Payments** function to find vendor payments that are due. You can also use the **Vendor - Summary Ageing** report to get an overview of due vendor payments.
 
 From the payment journal, you can print computer cheques or record when cheques are written. If you select **Computer Cheque** in the **Bank Payment Type** field, then any lines representing cheques must be printed before the payment journal can be posted.
 
 When the payments are posted, you can export them to a bank file for upload to your bank for processing.
 
-After the payments are made at your bank, you must apply them to their related open vendor ledger entries. You can do this manually or by importing a bank statement file and applying the payments automatically. For more information, see [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+After the payments are made at your bank, you must apply them to their related open vendor or employee ledger entries. You can do this manually or by importing a bank statement file and applying the payments automatically. For more information, see [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
 | To | See |
 | --- | --- |
+|Use the **Payment Journal** window, which is a based on the general journal, to post payments to vendors or employees.|[Working with General Journals](ui-work-general-journals.md)|
 | Use a function to suggest vendor payments according to selected criteria, such as due date, discount eligibility, and your liquidity. |[How to: Suggest Vendor Payments](payables-how-suggest-vendor-payments.md) |
-| Issue cheques for payments, either as print-outs or as computer cheques. Void cheques before or after posting. |[How to: Work with Checks](payables-how-work-checks.md) |
+|Reimburse employees for personal expenses during business activities by making payment to their bank account.|[How to: Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
+| Issue cheques for vendor payments, either as print-outs or as computer cheques. Void cheques before or after posting. |[How to: Work With Checks](payables-how-work-checks.md) |
+| Pay the vendor by cash or cheque, and post the payment when you post the invoice. |[How to: Settle Purchase Invoices Promptly](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Make sure that your bank only clears validated cheques and amounts by sending them a file that contains vendor, cheque, and payment information. |[How to: Export a Positive Pay file](finance-how-positive-pay.md) |
 |Export payments from the **Payment Journal** window to a bank file that you upload to your bank for processing, including EFT (electronic funds transfer) in North America. |[How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md)|  
 

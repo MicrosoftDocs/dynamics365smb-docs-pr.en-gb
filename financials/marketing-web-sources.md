@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: internet
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6e78a86ba3d29948b07777d0a346c1ef58d088e6
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b81deefcdf79a93cc988d216f80b08794efb8ab6
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-web-sources-for-contact-companies"></a>How to: Set Up Web Sources for Contact Companies
@@ -25,7 +24,7 @@ You can use web sources with your contact companies to identify, for example, se
 
 Using web sources on contacts is a two-step process. First, you define the web source code. You only have to perform this step one time for each web source. Once you have a web source code, you can start to assign the code to contact persons.
 
-## <a name="to-define-a-web-source-code"></a>to define a web source code
+## <a name="to-define-a-web-source-code"></a>To define a web source code
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Web Sources**, and then choose the related link.
 2. Choose the **New** actions.
 3. Fill in the **Code**, **Description**, and **URL** fields.
@@ -34,7 +33,7 @@ Using web sources on contacts is a two-step process. First, you define the web s
 
 Repeat these steps to set up as many web sources as you want.
 
-## <a name="to-assign-web-sources-to-a-contact-company"></a>to assign web sources to a contact company
+## <a name="to-assign-web-sources-to-a-contact-company"></a>To assign web sources to a contact company
 When assigning web sources, you specify which search engine and search word that the application will use to find the requested information.
 
 1. Open the contact.

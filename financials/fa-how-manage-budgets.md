@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: forecast
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2185a1fc40ddae772e20994f6531b02d7e703e17
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-budgets-for-fixed-assets"></a>How to: Manage Budgets for Fixed Assets

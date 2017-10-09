@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2016
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d840981dcceb54c74ac70ed0ddd05b3d3fa9bfc8
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 4256c563edc79ebfbe1bbe9337cf1e8a7e9d9991
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-many-incoming-document-records"></a>How to: Manage Many Incoming Document Records
@@ -35,7 +34,7 @@ The **Processed** check box is automatically selected on incoming document recor
 1. In the **Incoming Documents** window, select one or more lines for incoming document records that you want to remove from the default view.
 2. Choose the **Set to Processed** action.
 
-The incoming document records are removed from the default view, and the **Processed** check box is selected on the lines.
+    The incoming document records are removed from the default view, and the **Processed** check box is selected on the lines.
 
 > [!NOTE]  
 >   You can also perform this action for the individual record in the **Incoming Document Card** window.

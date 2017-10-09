@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
 ms.openlocfilehash: 980a0646317c2b5c02c0eadcde9ba984c11580c4
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-recurring-sales-and-purchase-lines"></a>How to: Create Recurring Sales and Purchase Lines

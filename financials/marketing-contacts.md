@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Creating and Managing Contacts
@@ -27,7 +26,7 @@ All of the external entities that you have business relationships with (for exam
 
 You can record information based on a company or a person at that company. You can also create an independent contact person for people who do not work for a particular company, but who work independently or freelance.
 
-The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.
+The following table describes a sequence of tasks, with links to the topics that describe them. 
 
 | To | See |
 | --- | --- |

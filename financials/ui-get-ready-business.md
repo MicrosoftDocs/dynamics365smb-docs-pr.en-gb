@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Getting Ready for Doing Business
@@ -39,7 +39,7 @@ In the **Assisted Setup** window, you will find the following with the **Basic**
 | Set Up Office Add-Ins |Sets up the ability to use and launch [!INCLUDE[d365fin](includes/d365fin_md.md)] from Outlook. |
 | Set Up Approval Workflow |Sets up the ability to automatically notify an approver when a user tries to create or change certain values on documents, journal lines, or cards, such as an amount above a specified limit. |
 | Set Up Email Logging |Sets up the capability to log email correspondence in [!INCLUDE[d365fin](includes/d365fin_md.md)] to follow up on interactions. |
-| Set Up Dynamics CRM Connection |Sets up a connection to Dynamics CRM which allows you to synchronise data such as contacts and sales order information. |
+| Set Up Dynamics 365 Connector |Sets up a connection to Dynamics 365 for Sales which allows you to synchronise data such as contacts and sales order information. |
 
 When you have run an assisted setup, it is marked as **Completed**. To run the assisted setup, you choose the three dots also called the context menu, and then you select **Start Setup**.
 

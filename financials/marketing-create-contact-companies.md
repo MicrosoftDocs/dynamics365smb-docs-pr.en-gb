@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bbde977ff87049625295fab798445539b23f23dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-companies"></a>Creating Contact Companies
@@ -27,7 +26,7 @@ By assigning as much data as possible about a specific company ensures efficient
 
 You can also define the business relationship that you have with a contact. For example, a contact could be a prospect, bank, or contractor.
 
-The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.
+The following table describes a sequence of tasks, with links to the topics that describe them. 
 
 | To | See |
 | --- | --- |

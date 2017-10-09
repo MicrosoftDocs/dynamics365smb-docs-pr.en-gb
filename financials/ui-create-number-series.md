@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 7cc119c5879400adf63e468259a2c3a275b71cca
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-number-series"></a>How to: Create Number Series

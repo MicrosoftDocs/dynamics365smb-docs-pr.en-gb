@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/16/2017
+ms.date: 06/14/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b7b69b3419520c482cbe6a84494bbac7ef35bea1
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 844668124df1897493737b28383a68a2a0a66d10
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="working-with-dimensions"></a>Working with Dimensions
@@ -36,8 +35,11 @@ The more dimensions you use, the more detailed reports you can base your busines
 > [!NOTE]  
 >   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
-## <a name="analyzing-by-dimensions"></a>Analysing By Dimensions
+## <a name="analyzing-by-dimensions"></a>Analysing by Dimensions
 The Dimensions functionality plays an important role in business intelligence, such as when defining analysis views. For more information, see [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
+
+> [!TIP]
+> As a quick way to analyse transactional data by dimensions, you can filter totals in the chart of accounts and entries in all **Entries** windows by dimensions. Look for the **Set Dimension Filter** action.
 
 ## <a name="dimension-sets"></a>Dimension Sets
 A dimension set is a unique combination of dimension values. It is stored as dimension set entries in the database. Each dimension set entry represents a single dimension value. The dimension set is identified by a common dimension set ID that is assigned to each dimension set entry that belongs to the dimension set.  
@@ -104,10 +106,11 @@ In a document such as a sales order, you can add dimension information for both 
 
 If you work in a journal instead, you can add dimension information to an entry in the same way, if you have set up shortcut dimensions as fields directly on journal lines.  
 
-You can set up default dimensions for accounts or account types, so that dimensions and dimension values are filled in automatically.  
+You can set up default dimensions for accounts or account types, so that dimensions and dimension values are filled in automatically.
 
 ## <a name="see-also"></a>See Also
 [Business Intelligence](bi.md)  
 [Finance](finance.md)  
+[How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

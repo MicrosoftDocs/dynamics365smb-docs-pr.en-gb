@@ -1,6 +1,6 @@
 ---
-title: Project Management| Microsoft Docs
-description: Describes how to use resources, time sheets, and jobs to manage projects.
+title: Job Tasks using Resources and Time Sheets| Microsoft Docs
+description: Outlines how to use resources, time sheets, and jobs to manage projects.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 608817222d087a04293a25913064e7b47f1c78f0
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e823f58ac796b22a488ab6fd54ed6dc00e262c87
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/04/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="project-management"></a>Project Management
@@ -25,7 +24,8 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can perform common project m
 
 Before you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] to manage projects, you must set up resources, time sheets, and jobs. For more information, see [Setting Up Project Management](projects-setup-projects.md).  
 
-**Note**: This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+> [!NOTE]  
+>   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
@@ -43,9 +43,9 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## <a name="see-also"></a>See Also
 [Setting Up Project Management](projects-setup-projects.md)  
-[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)      
+[Customising Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)      
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)    
 [Finance](finance.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

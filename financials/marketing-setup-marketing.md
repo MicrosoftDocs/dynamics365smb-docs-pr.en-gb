@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bac6c541a07f5da6c42fa076627e174249f708b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-relationship-management"></a>Setting Up Relationship Management
@@ -54,13 +53,10 @@ For more information, see [Synchronising Contacts with Customers, Vendors and Ba
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Assigning a Number Series to Contacts and Opportunities
 You can set up a number series for contacts and opportunities. If you have set up a number series for contacts, when you create a contact, and press Enter in the No. field on the contact card, the program automatically enters the next available contact number.
 
-For more information about number series, see [Creating Number Series](ui-create-number-series.md).
+For more information about number series, see [How to: Create Number Series](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Searching for Duplicate Contacts when Contacts are Created
 You can choose to have the program automatically search for duplicates each time you create a contact company, or you can choose to search manually after you have created contacts. You can also choose to have the program update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for the program to consider them as duplicates.
-
-## <a name="setting-up-email-logging"></a>Setting Up Email Logging
-You can exchange email messages with your contacts, customers, vendors, and so on. You can send and receive your email messages either from the application or from Outlook. Before you can exchange messages this way and have the system store and queue them, you have to set up some parameters, such as time interval at which the program will check whether any emails are waiting to be processed, email logging profile name, and so on.
 
 ## <a name="see-also"></a>See Also
 [Managing Contacts](marketing-contacts.md)  

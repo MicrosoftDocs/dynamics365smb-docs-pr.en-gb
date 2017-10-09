@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 07/05/2017
+ms.date: 07/07/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 6bf7d2024ff9f0254e1d885580126fb16c0c6fce
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2aefbfade71ed78c89c59597f76c6e6707110d16
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Customising Dynamics 365 for Financials Using Extensions
@@ -51,6 +50,7 @@ Microsoft provides the following extensions:
 
 * [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
 * [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
 * [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)  
@@ -69,7 +69,7 @@ Microsoft provides the following extensions:
 [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
 [How to: Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
-[Set up the GetAddress.io UK Postal Code extension](uk-setup-postal-code-service.md)  
+[Set up the GetAddress.io UK Postal Code extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

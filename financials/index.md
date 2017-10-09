@@ -1,8 +1,6 @@
 ---
-title: Welcome to Dynamics 365 for Financials | Microsoft Docs
-description: Dynamics 365 for Financials is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system.
-services: project-madeira
-documentationcenter: 
+title: Meet Dynamics 365 for Financials| Microsoft Docs
+description: Learn about capabilities and work scenarios in Dynamics 365 for Financials, a business management solution for small and mid-sized organisations.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/02/2017
+ms.date: 08/23/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d44f71f9f52c60a789cfb84f3f7a96daa0f9cab1
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -30,8 +27,8 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], some things will be familiar to 
 For some quick, nice-to-know tricks, see:  
 
 * [Find things](ui-search.md)  
-* [Set filters](ui-enter-criteria-filters.md)  
-* [Sort data in lists](ui-sorting.md)  
+* [Searching, Filtering, and Sorting Lists](ui-enter-criteria-filters.md)  
+* [Entering Data](ui-enter-data.md)  
 
 For more information, see [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
@@ -60,16 +57,19 @@ In the **Assisted Setup** window, you will find the following with the **Suite**
 | Set Up Reporting |Sets up data sets that you can use to build powerful reports using Excel or Power BI, for example. |
 | Set Up an Item Approval Workflow |Sets up the ability to send a notification to an approver when a user changes or creates an item. |
 | Set Up a Payment Approval Workflow |Sets up the ability to send a notification to an approver when a user sends payment journal lines for approval. |
-| Set Up Dynamics CRM Connection |Sets up a connection to Dynamics CRM, which allows you to synchronise data such as contacts and sales order information. |
+| Set Up the Dynamics 365 Connector |Sets up a connection to Dynamics 365 for Sales, which allows you to synchronise data such as contacts and sales order information. |
 | Set Up VAT |Gets you started with default tax groups and assigning tax area codes that you can assign to customers and vendors in order to automatically calculate VAT in sales or purchase documents. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Trying things out in your own company
-Thinking about subscribing? You can easily change from the demonstration company, and create and work in a company of your own. This is a great way to start toward a subscription. Setups for finances are provided; you just need to create or import your items, customers, and vendors. After that, you're ready to post invoices and use business intelligence tools to analyse your business. You can use your company for free for a 30-day trial period. If you subscribe to [!INCLUDE[d365fin](includes/d365fin_md.md)] during that time, you're already up and running. You can continue with the work you did during the trial.  
+Thinking about subscribing? You can easily change from the demonstration company, and create and work in a company of your own. This is a great way to start toward a subscription. Setups for finances are provided; you just need to create or import your customers, vendors, and the products or services that you sell. After that, you're ready to post invoices and use business intelligence tools to analyse your business. You can use your company for free for a 30-day trial period. If you subscribe to [!INCLUDE[d365fin](includes/d365fin_md.md)] during that time, you're already up and running. You can continue with the work you did during the trial.  
 
 To create a company to try things out, go to the **My Settings** menu in the top right corner, and change the company to **My Company**. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)] and then sign in again to apply the change. An assisted setup guide will help you provide basic information about your company. When that's done, explore the Home page and find the **Assisted Setup** action.  
 
 ## <a name="ready-to-subscribe"></a>Ready to subscribe?
-Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, use the link in the notification to get in touch with Microsoft. You can also go to [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707).
+Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, use the link in the notification to get in touch with Microsoft. You can also contact the [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team at [Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+## <a name="other-dynamics-365-apps"></a>Other Dynamics 365 apps
+Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 365](https://docs.microsoft.com/dynamics365) link in the blue banner at the top of this page. You can also learn more at the [Dynamics 365 website](https://www.microsoft.com/en-us/dynamics365/).
 
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -80,7 +80,7 @@ Each time you sign in during the trial period, a notification in a blue bar at t
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
 [Microsoft Dynamics 365 documentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

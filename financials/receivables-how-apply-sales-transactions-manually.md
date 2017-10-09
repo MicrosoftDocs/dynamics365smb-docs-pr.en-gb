@@ -1,8 +1,6 @@
 ---
 title: Apply Customer Ledger Entries to Manually Reconcile Customer Payments | Microsoft Docs
 description: Describes how to apply customer cash receipts or refunds to one or more open customer ledger entries and reconcile customer payments.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 03/29/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 568bd66c201764cae45ea12a900ea12eabbf0546
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ccef6a35b1632bd94f64c5e9ad56ecd3bacbfd06
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually"></a>How to: Reconcile Customer Payments Manually
@@ -77,8 +75,8 @@ You can also apply customer and vendor payments in the **Payment Reconciliation 
 5. In the **Account Type** field, enter **Customer**.
 6. In the **Bal. Account Type** field, enter **Bank Account**.
 7. In the **Amount** field, enter the full payment as a negative amount.
-8. To apply the payment to multiple customer ledger entries when posting, choose the **Apply Entries** action.
-9. Select the lines with the entries that you want the applying entry to be applied to, and then choose the **Set Applies-to ID** action.
+8. To apply the payment to multiple customer ledger entries when posting, choose the **Apply Entries** action.  
+9. Select the lines with the entries that you want the applying entry to be applied to, and then choose the **Set Applies-to ID** action.  
 10. On each line, in the **Amount to Apply** field, enter the amount you want to apply to the individual entry. If you do not enter an amount, the maximum amount is applied.
 
     At the bottom of the **Apply Customer Entries** window, you can see the specific amount in the **Applied Amount** field and also whether the application balances.  

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 78710d796ed73d7b4c2505f6cbb8c7d5f41d7320
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 82089770524e6fb6614f86cada7c5792bedf162f
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-register-new-vendors"></a>How to: Register New Vendors
@@ -38,6 +37,9 @@ Vendor cards hold the information that is required to buy products from the vend
 3. In the **Select a template for a new vendor** window, choose the template that you want to use for the new vendor card.
 4. Choose the **OK** button. A new vendor card opens with some fields filled with information from the template.
 5. Proceed to fill or change fields on the vendor card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]  
+>   If you do not know the invoicing address that will be used for every invoice from a vendor, do not fill in the **Pay-to** field. Instead, choose the pay-to vendor number after you have set up a purchase quote, order, or invoice header.
 
 The vendor is now registered, and the vendor card is ready to be used on purchase documents.
 

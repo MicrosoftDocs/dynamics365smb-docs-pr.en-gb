@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 035f4c0e98e3b7ba308319c2017568de832e26c5
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6379aea58ab7943b117e5b19b22f71193290c2cb
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-enable-application-of-ledger-entries-in-different-currencies"></a>How to: Enable Application of Ledger Entries in Different Currencies
@@ -39,6 +38,17 @@ The following procedure describes how to set this up for vendor ledger entries i
 | None |Application between currencies is not allowed. |
 | EMU |Application between EMU currencies is allowed. |
 | All |Application between all currencies is allowed. |
+
+## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>To set up G/L accounts for currency application rounding differences  
+If you apply entries in different currencies, you must set up the general ledger accounts to which you want to post rounding differences.  
+  
+> [!NOTE]  
+>  You must set up the general ledger accounts before you complete the task. For more information, see [Understanding the General Ledger and the Chart of Accounts](finance-general-ledger.md). 
+  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer Posting Groups**, and then choose the related link.  
+2. In the **Debit Curr. Appln. Rndg. Acc.** and **Credit Curr. Appln. Rndg. Acc.** fields, enter the relevant general ledger accounts to post rounding differences.  
+3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendor Posting Groups**, and then choose the related link.  
+4. In the **Debit Curr. Appln. Rndg. Acc.** and **Credit Curr. Appln. Rndg. Acc.** fields, enter the relevant general ledger accounts to post rounding differences.  
 
 ## <a name="see-also"></a>See Also
 [Managing Payables](payables-manage-payables.md)  

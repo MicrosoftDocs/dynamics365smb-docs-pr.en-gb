@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 60906dde627216903b5ef82e34ce4bc918f3c988
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 5bd635465626c192d8650cbd2a999dd0fbceb15e
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-purchases"></a>How to: Record Purchases
@@ -25,7 +24,7 @@ You create a purchase invoice or purchase order to record the cost of purchases 
 > [!NOTE]  
 >   You must use purchase orders if your purchasing process requires that you record partial receipts of an order quantity, for example, because the full quantity was not available at the vendor. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use purchase orders. For more information, see [How to: Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, purchase orders work the same way as purchase invoices. The following procedure is based on a purchase invoice. The steps are similar for a purchase order.
 
-When you receive the inventory items, or when the purchased service is completed, you post the purchase invoice or order to update inventory and financial records and to activate payment to the vendor according to the payment terms. For more information, see [Make Payments](payables-make-payments.md).
+When you receive the inventory items, or when the purchased service is completed, you post the purchase invoice or order to update inventory and financial records and to activate payment to the vendor according to the payment terms. For more information, see [Making Payments](payables-make-payments.md).
 
 > [!CAUTION]  
 >   Do not post a purchase invoice until you receive the items and know the final cost of the purchase, including any additional charges. Otherwise, your inventory value and profit figures may be skewed.
@@ -78,6 +77,7 @@ The purchase is now reflected in inventory and financial records, and the vendor
 ## <a name="see-also"></a>See Also
 [Purchasing](purchasing-manage-purchasing.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
+[How to: Request Quotes](purchasing-how-request-quotes.md)  
 [How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)  
 [How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
 [How to: Prepare Drop Shipments](sales-how-drop-shipment.md)  

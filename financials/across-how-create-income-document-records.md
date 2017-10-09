@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c6e4b4dd5535848bba257fc422436c43b827d95a
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-incoming-document-records"></a>How to: Create Incoming Document Records
@@ -44,7 +43,7 @@ If you approve the incoming document record, the **Released** check box on the i
 3. In the **Incoming Documents** window, choose the ellipsis button, and then choose **Create from Camera**. The camera on the tablet or phone is activated.
 4. Take a photo of a document, such as a purchase receipt, that you want to process as an incoming document, and then choose the **OK** button.
 
-A new incoming document record is created, with the image attached.
+    A new incoming document record is created, with the image attached.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>To attach an image to an incoming document record by taking a photo
 > [!NOTE]  
@@ -55,14 +54,12 @@ A new incoming document record is created, with the image attached.
 3. In the **Incoming Document** window, choose the ellipsis button, and then choose **Attach Image from Camera**. The camera on the tablet or phone is activated.
 4. Take a photo of a document, such as a purchase receipt, that you want to process as an incoming document, and then choose the **OK** button.
 
-The image is attached to the incoming document record.
+    The image is attached to the incoming document record.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>To create an incoming document record manually
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Incoming Documents**, and then choose the related link.
 2. Choose the **Create from File** action.  
-3. In the **Insert File** window, select a file, and then choose **Open**.
-
-    The file is automatically attached.
+3. In the **Insert File** window, select a file, and then choose **Open**. The file is automatically attached.
 4. Alternatively, choose the **New** action.
 5. To attach a file, choose the **Attach File** action.
 6. In the **Insert File** window, select the file that represents the incoming document in question, and then choose the **Open** button.

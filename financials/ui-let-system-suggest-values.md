@@ -9,17 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/15/2017
+ms.date: 08/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 99a76141f13efde3c7edb86037d6daaa0dbbb9d4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3ca73c8298101eb02aac397894f87f7a5f58a5c2
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="letting-dynamics-365-for-financials-suggest-values"></a>Letting Dynamics 365 for Financials Suggest Values
+# <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Letting [!INCLUDE[d365fin](includes/d365fin_md.md)] Suggest Values
 [!INCLUDE[d365fin](includes/d365fin_md.md)] can help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself. Although such automatic data entry is always correct, you can change it afterwards if you want to.
 
 Functionality that enters field values for you is typically offered for tasks where you enter large volumes of transactional data and want to avoid errors and save time. This topic contains a selection of such functionality. More sections will be added in future updates of [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -46,6 +45,5 @@ You main actions in the window are to fill in the **Payment Made** check box and
 
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Finance](Finance.md)
-
+[Finance](finance.md)
 

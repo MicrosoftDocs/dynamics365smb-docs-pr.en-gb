@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 977debf7386ad1113ef54147b20fd24c7c285a78
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 990867cb428f860b1001177738d1a027f72485bc
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-make-drop-shipments"></a>How to: Make Drop Shipments
@@ -60,6 +59,7 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 5. Choose either the **Ship** option to invoice later, or the **Ship and Invoice** option to invoice immediately.
 
 ## <a name="see-also"></a>See Also
+[How to: Create Special Orders](sales-how-to-create-special-orders.md)|  
 [How to: Sell Products](sales-how-sell-products.md)  
 [How to: Record Purchases](purchasing-how-record-purchases.md)  
 [Sales](sales-manage-sales.md)  

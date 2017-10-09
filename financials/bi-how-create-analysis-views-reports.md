@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ec1f03555db4e370bf19da41bcb33e9b1d286f82
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: b96ff2d1f4339b137a6f7d2c2c1266185e2dc69c
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 #  <a name="how-to-create-analysis-reports"></a>How to: Create Analysis Reports
 Sales managers need to analyse turnover, gross profit and other key sales performance indicators on a regular basis. Purchasers, are more interested in the dynamics of purchase volumes, vendors' performance and purchase prices. Whereas logistics/inventory managers need information on inventory turnover, analysis of inventory movement, and statistics on inventory value.  
 
-You can use analysis reports to create customised reports based on records of your posted transactions, for example, sales, purchases, transfers and inventory adjustments. In a customisable report, the source data, which is derived from the item ledger (with associated value entries), can be combined, compared and presented in meaningful user-defined ways. In this sense, the analysis report is very similar to a PivotTable report in Microsoft Excel.  
+You can use analysis reports to create customized reports based on records of your posted transactions, for example, sales, purchases, transfers and inventory adjustments. In a customizable report, the source data, which is derived from the item ledger (with associated value entries), can be combined, compared and presented in meaningful user-defined ways. In this sense, the analysis report is very similar to a PivotTable report in Microsoft Excel.  
 
-You can create your personalised report that focuses on your key accounts in terms of total turnover both in amounts and quantities sold, gross profit and gross profit percentage during the current month, and have it compare those figures with the results from previous months or the same month last year, and calculate deviations. All this can be done in one and the same view, with the possibility to navigate to the cause of identified problem areas by choosing the drop-down button to access details on the level of individual transactions.  
+You can create your personalized report that focuses on your key accounts in terms of total turnover both in amounts and quantities sold, gross profit and gross profit percentage during the current month, and have it compare those figures with the results from previous months or the same month last year, and calculate deviations. All this can be done in one and the same view, with the possibility to navigate to the cause of identified problem areas by choosing the drop-down button to access details on the level of individual transactions.  
 
 The analysis report consists of the objects that you want to analyse, such as customers, customer groups, sales people and so on, represented as lines, and the analysis parameters, that is, the way you want to analyse the object, represented as columns, such as profit calculations, periodic comparisons of sales amounts and volumes or periodic comparisons of actual and budgeted figures.
 

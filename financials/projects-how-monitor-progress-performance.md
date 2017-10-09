@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
-ms.date: 06/06/2017
+ms.date: 07/04/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9b374c80a649a1e05c98fcbcea1ca447ec0b8d27
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 076b509ab5e9cf0f87f0910de11e49cda17f330a
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-monitor-job-progress-and-performance"></a>How to: Monitor Job Progress and Performance
@@ -29,7 +28,7 @@ You can calculate WIP based on the following:
 
 * Cost Value
 * Sales Value
-* Recognisable Cost
+* Recognizable Cost
 * Percentage of Completion
 * Completed Contract
 
@@ -38,7 +37,8 @@ If you want to view the result using a different method, you can change the meth
 ## <a name="to-create-a-job-wip-method"></a>To create a job WIP method
 You can create a job WIP method that reflects the needs of your organisation. After you have created it, you can set it as the default job WIP calculation method that will be used in your organisation.  
 
-**Note**. After you have used your new method to create WIP entries, you cannot delete the method or modify it.  
+> [!NOTE]
+> After you have used your new method to create WIP entries, you cannot delete the method or modify it.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job WIP Methods**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -94,7 +94,8 @@ All job-related entries are recorded in job registers and are numbered sequentia
 In the **Job Ledger Entries** window you can review the entries that are associated with any job.  
 
 ## <a name="see-also"></a>See Also
-[Manage Projects](projects-manage-projects.md)  
+[Managing Projects](projects-manage-projects.md)
+[Managing Inventory Costs](finance-manage-inventory-costs.md)   
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      

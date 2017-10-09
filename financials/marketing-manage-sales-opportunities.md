@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 11de49ec0ffc1ff847839a913fbe538930145221
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6a2e2465cb73716b4087c6dc43ef97c640840a63
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-sales-opportunities"></a>Managing Sales Opportunities
@@ -25,7 +24,7 @@ Any incoming lead can be considered a sales opportunity. You can create opportun
 
 Before you can start using opportunity management, you must set up sales cycles and sales cycle stages. As you create opportunities, you should provide information about the contact, salesperson, sales cycle, and dates, as well as your estimates for the sales value of the opportunity and your estimation of the chances of its success.
 
-The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.
+The following table describes a sequence of tasks, with links to the topics that describe them. 
 
 | To | See |
 | --- | --- |

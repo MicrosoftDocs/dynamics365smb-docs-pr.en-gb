@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: cost accounting
 ms.date: 03/29/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: bbacf9b5634d51478dd4d54ac4b587ea9bfaaf99
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-allocation-keys-in-general-journals"></a>How to: Use Allocation Keys in General Journals

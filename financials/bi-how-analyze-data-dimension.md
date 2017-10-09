@@ -12,18 +12,20 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/13/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 463dcad5d918e9655cd92991403d00a76aca7d69
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: aebeb7a0e3a5fa83ba329bf222c50492f9cb003a
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 #  <a name="how-to-analyze-data-by-dimensions"></a>How to: Analyse Data by Dimensions
 In financial analysis, a dimension is data that you can add to an entry as a kind of marker. This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Dimensions can be used on entries in journals, documents, and budgets. The term dimension describes how analysis occurs. A two-dimensional analysis, for example, would be sales per area. However, by using more than two dimensions when creating an entry, you can carry out a more complex analysis, such as sales per sales campaign per customer group per area. For more information, see [Working with Dimensions](finance-dimensions.md).
 
-Analysing data by dimensions gives you greater insight into your business, so you can evaluate information, such as how well your business is operating, where it is thriving and where it is not, and where more resources should be allocated.
+Analyzing data by dimensions gives you greater insight into your business, so you can evaluate information, such as how well your business is operating, where it is thriving and where it is not, and where more resources should be allocated.
+
+> [!TIP]
+> As a quick way to analyse transactional data by dimensions, you can filter totals in the chart of accounts and entries in all **Entries** windows by dimensions. Look for the **Set Dimension Filter** action.
 
 > [!NOTE]  
 >   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
@@ -44,7 +46,7 @@ You can use the **Analysis by Dimensions** matrix to view the amounts in your ge
 - The rightmost columns contain information based on to what you have selected in the **Show as Columns** field in the header.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Analysis by Dimensions**, and then choose the related link.  
-2. Select the relevant analysis view,  and then choose the **Edit Analysis View** action.
+2. Select the relevant analysis view, and then choose the **Edit Analysis View** action.
 3. At the top of the **Analysis by Dimensions** window, fill in the fields to define what is shown.
 4. 5. To see a specification of an amount shown in the matrix window, choose the amount.  
 
@@ -52,7 +54,7 @@ You can use the **Analysis by Dimensions** matrix to view the amounts in your ge
 >   You cannot select a period length shorter than the period specified for the date compression on the **Analysis View** card. The **Next Set** and **Previous Set** commands are inactive if you have selected **Period** in either the **Show as Lines** or the **Show as Columns** field.  
 
 > [!NOTE]  
->   You can use the **Dimensions - Detail** report to display a detailed classification of how dimensions have been used on entries over a selected period. You can use the **Dimensions - Total ** report to display only the total amounts.  
+>   You can use the **Dimensions - Detail** report to display a detailed classification of how dimensions have been used on entries over a selected period. You can use the **Dimensions - Total** report to display only the total amounts.  
 
 > [!TIP]  
 >   You can also change the view by changing the contents of the **Show as Lines** field and **Show as Columns** field. To reverse a view setting, choose the **Reverse Lines and Columns** action.
@@ -78,5 +80,6 @@ The following procedure is for updating an analysis view from the **Analysis by 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
+[Working with Dimensions](finance-dimensions.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 769eb1b41f65c8b6832f7cde7e536e8c3981289e
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 5c0ac5aca0ac5000dbcf74ec6d3a273cfe95270f
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-change-the-role-center"></a>How to: Change the Role Centre
@@ -29,7 +28,6 @@ The content on the Home page is based on the selected Role Centre. The standard 
 1. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose **My Settings**.
 2. In the **My Settings** window, in the **Role Centre** field, select the Role Centre that you want to set as the standard. For example, select **Accountant**.
 3. Choose the **OK** button.
-4. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)] and then sign in again to have the change take effect.
 
 ## <a name="see-also"></a>See Also
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

@@ -1,8 +1,6 @@
 ---
 title: Assign User Permissions and Create or Modify Permission Sets | Microsoft Docs
 description: Describes how add Office 365 users to Financials, and then assign permissions, access rights, and security settings.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,16 +10,15 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/27/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: a944a6135feeb81b32d1f7edcb823b9da89cd404
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-users-and-permissions"></a>How to: Manage Users and Permissions
-To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Add Users to Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
+To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Centre. For more information, see [Add Users to Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
 
 Once users are created in Office 365, they can be imported into the **Users** window by using the **Get Users from Office 365** action. Users are assigned permission sets depending on the plan assigned to the User in Office 365.
 
@@ -112,6 +109,7 @@ Administrators can define periods of time during which specified users are able 
 
 ## <a name="see-also"></a>See Also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Setup and Administration in Dynamics 365 for Financials](admin-setup-and-administration.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

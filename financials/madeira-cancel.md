@@ -12,19 +12,18 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 4dc1a0d643aa9b1a2e1fe5b870881dc43c1ed2a1
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Unsubscribe, Remove, or Reset [!INCLUDE[d365fin](includes/d365fin_md.md)]
 When you have signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)], you can choose to cancel your subscription at any time. Similarly, you can choose to reset the company that you can been using in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For a quick overview, see [the [!INCLUDE[d365fin](includes/d365fin_md.md)] blog](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
 ## <a name="unsubscribing-by-removing-included365finincludesd365finmdmd-from-your-office-365-experience"></a>Unsubscribing by removing [!INCLUDE[d365fin](includes/d365fin_md.md)] from your Office 365 experience
-If you have subscribed for [!INCLUDE[d365fin](includes/d365fin_md.md)] using an existing Office 365 business account, you must ask your Office 365 administrator to remove the [!INCLUDE[d365fin](includes/d365fin_md.md)] license from your user account.  
+If you have subscribed for [!INCLUDE[d365fin](includes/d365fin_md.md)] using an existing Office 365 business account, you must ask your Office 365 administrator to remove the [!INCLUDE[d365fin](includes/d365fin_md.md)] licence from your user account.  
 User accounts and licenses are managed in the [Office Portal](https://portal.office.com). Only administrators can remove [!INCLUDE[d365fin](includes/d365fin_md.md)] licenses from user accounts. The Office 365 administrator can remove [!INCLUDE[d365fin](includes/d365fin_md.md)] from your user account or remove the subscription from your company's account. If [!INCLUDE[d365fin](includes/d365fin_md.md)] is removed from your user account, and other people from your company continue the subscription, they will still have access to your shared data in the [!INCLUDE[d365fin](includes/d365fin_md.md)] company.  
 
 ## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>Unsubscribing from [!INCLUDE[d365fin](includes/d365fin_md.md)] without Office 365

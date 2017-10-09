@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="depreciation-methods"></a>Depreciation Methods
@@ -203,9 +202,9 @@ Calculation method:
 
 1st year:  
 
-*Declining-balance amount: 25% of 100,000 = 25,000 = 12,500 + 12,500*  
+*Declining-balance amount: 25% of 100,000 = 25,000=12,500+12,500*  
 
-*Straight-line amount = 100,000 / 8 = 12,500 = 6,250 + 6,250*  
+*Straight-line amount = 100,000/8=12,500=6,250+6,250*  
 
 The declining-balance amount is used because it is the greater amount.  
 

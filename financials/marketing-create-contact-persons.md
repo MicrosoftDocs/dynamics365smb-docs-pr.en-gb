@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 1e7d9f6e05f12ff826959dee420917f36258b573
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-persons"></a>Creating Contact Persons
@@ -29,7 +28,7 @@ You may also need some publications about your products translated and after som
 
 By recording as many details as possible about a contact person ensures that all groups at your company can find the relevant information.
 
-The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.
+The following table describes a sequence of tasks, with links to the topics that describe them. 
 
 | To | See |
 | --- | --- |
@@ -41,6 +40,6 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## <a name="see-also"></a>See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
-[Creating and Managing Contacts](marketing-create-contact-persons.md)  
+[Creating and Managing Contacts]()  
 [Working with Financials](ui-work-product.md)
 

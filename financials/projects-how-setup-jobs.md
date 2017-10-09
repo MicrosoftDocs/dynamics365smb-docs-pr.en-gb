@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: aa7669c5f7762de647346039e0023c93603fbc10
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b0e8a73af6f979cb426db1bffc34d154fc439dce
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-jobs"></a>How to: Set Up Jobs
@@ -116,7 +115,7 @@ One aspect of planning jobs is deciding which posting accounts to use for job co
 
 ## <a name="see-also"></a>See Also
 [Set Up Project Management](projects-setup-projects.md)  
-[Manage Projects](projects-manage-projects.md)  
+[Managing Projects](projects-manage-projects.md)  
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      

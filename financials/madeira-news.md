@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="whats-new-in-dynamics-365-for-financials"></a>What's New in Dynamics 365 for Financials
@@ -31,7 +30,7 @@ On this page, you can see which areas became available while we were still in pr
 As announced on the blog, we're now a service that you use in your business. But this update also adds new capabilities and a new extension.
 
 ### <a name="project-management"></a>Project management
-If you switch to the Suite experience, you can manage projects and work with resources, time sheets, and jobs. When you first log in as a Project Manager role, an assisted setup guide will help you set up how your projects are managed. You can work with the sample accounts, jobs, resources, and so on in the demonstration company to get familiar with the functionality. For more information, see [Manage Projects](projects-manage-projects.md).
+If you switch to the Suite experience, you can manage projects and work with resources, time sheets, and jobs. When you first log in as a Project Manager role, an assisted setup guide will help you set up how your projects are managed. You can work with the sample accounts, jobs, resources, and so on in the demonstration company to get familiar with the functionality. For more information, see [Managing Projects](projects-manage-projects.md).
 
 ### <a name="fixed-assets"></a>Fixed assets
 If you switch to the Suite experience, you can manage fixed assets, including depreciation and insurance. A standard setup is provided, but you can modify it if anytime you want. You can register purchases of fixed assets in dedicated fixed asset G/L journals where you can also dispose of fixed assets. The right accounting entries are created automatically. For more information, see [Fixed Assets](fa-manage.md).
@@ -43,10 +42,10 @@ If your business uses Dynamics GP today, you can use an assisted setup guide to 
 The charts on the Accountant Role Centre provide insight that can help you make solid decisions about what to do with your cash. Also, you can use the **Cash Flow Forecast** chart to generate predictions of your cash flow in the future. For more information, see [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md).
 
 ### <a name="team-members"></a>Team members
-The **Team Member** Role Center is a new role center that is defined for the Dynamics 356 team member role so that these users can read and modify most data in the system. As a team member, you can also work with timesheets and approval tasks that they are assigned.
+The **Team Member** Role Center is a new role center that is defined for the Dynamics 365 team member role so that these users can read and modify most data in the system. As a team member, you can also work with timesheets and approval tasks that they are assigned.
 
 ### <a name="synchronize-your-customers-and-services-with-bookings-in-office-365"></a>Synchronise your customers and services with Bookings in Office 365
-With this update, you can automatically synchronize your customer and service item records with the new **Bookings** app in Office 365. You'll create customers and services and book appointments in Bookings, and these then show up in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Just like that, you'll have invoiced the customer following the service automatically - and you won't have entered the same information twice in the process.
+With this update, you can automatically synchronise your customer and service item records with the new **Bookings** app in Office 365. You'll create customers and services and book appointments in Bookings, and these then show up in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Just like that, you'll have invoiced the customer following the service automatically - and you won't have entered the same information twice in the process.
 
 ## <a name="september-2016-update"></a>September 2016 Update
 This update of [!INCLUDE[d365fin](includes/d365fin_md.md)] added new capabilities as [announced on the blog](https://community.dynamics.com/business/b/financials/archive/2016/09/29/new-and-updated-capabilities-in-the-september-update-of-project-quot-madeira-quot).
@@ -100,8 +99,8 @@ You can add attributes to your inventory items that make it really easy to find 
 With this update, you can choose between even more extensions in the **Extension Management** window.
 For more information, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md).  
 
-### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Manage your customer relationships using Microsoft Dynamics CRM from inside [!INCLUDE[d365fin](includes/d365fin_md.md)]
-We've added a new assisted setup guide to the Business Manager home page that guides you through the setup process to connect to Dynamics CRM. Once that's done, you'll have a seamless coupling of Dynamics CRM records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records. For more information, see [Manage your customer relationships using Microsoft Dynamics CRM from inside [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Manage your customer relationships using Microsoft Dynamics 365 for Sales from inside [!INCLUDE[d365fin](includes/d365fin_md.md)]
+We have added a new assisted setup guide to the Business Manager home page that guides you through the setup process to connect to Dynamics 365 for Sales. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records. For more information, see [Manage your customer relationships using Microsoft Dynamics 365 for Sales from inside [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>May 2016 Update
 This update of [!INCLUDE[d365fin](includes/d365fin_md.md)] added new capabilities as [announced on the blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  

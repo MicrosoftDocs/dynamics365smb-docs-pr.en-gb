@@ -12,22 +12,21 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3de30e72853689df84d3807def1334db88776680
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Preparing to Set Up Contacts
 When creating contacts, you can enter specific information, such as the industry that the contact companies belong to and your business relationship with the contacts.
 
-Before you create contacts and record details about your business relationships, you must set up the different codes that you will use to assign this information to your contact companies and people. Codes can be set up for mailing groups, industry groups, business relationships, Web sources, organisational levels and job responsibilities.
+Before you create contacts and record details about your business relationships, you must set up the different codes that you will use to assign this information to your contact companies and people. Codes can be set up for mailing groups, industry groups, business relationships, Web sources, organizational levels and job responsibilities.
 
 By having this information set up, creating contacts is much more organised and being able to find all contacts based on a certain group will be more efficient. Every group at your company will be able to find the is information making communication with the contacts more successful.
 
-The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.
+The following table describes a sequence of tasks, with links to the topics that describe them. 
 
 | To | See |
 | --- | --- |

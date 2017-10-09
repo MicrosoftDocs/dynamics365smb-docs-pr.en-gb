@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 06/06/2017
+ms.date: 06/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6f0f3e1c14e21fff736b54b4c5f7423e1e909e72
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 7c13f127f1ca9f9d95878d79afe21488df7868a6
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-vendor-payments-manually"></a>How to: Reconcile Vendor Payments Manually
@@ -35,9 +34,9 @@ You can apply vendor ledger entries in three different ways:
 > [!NOTE]  
 >   If the **Application Method** field on the vendor card contains **Apply to Oldest**, then payments will automatically be applied to the oldest open credit entry if you do not manually specify which entry to apply to. If the application method for a customer is **Manual**, then you must apply entries manually.
 
-You can apply vendor payments manually to their related purchase documents when you post the payments in the **Payment Journal** window. For information about filling the payment journal, see [How to: Make Payments](payables-make-payments.md).
+You can apply vendor payments manually to their related purchase documents when you post the payments in the **Payment Journal** window. For information about filling the payment journal, see [Making Payments](payables-make-payments.md).
 
-You can also apply vendor payments, and customer payments, after the payments appear as negative bank transactions at your bank. In the **Payment Reconciliation Journal** window, you can use functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
+You can also apply vendor payments, and customer payments, after the payments appear as negative bank transactions in your bank. In the **Payment Reconciliation Journal** window, you can use functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>To apply a payment to a single or multiple vendor ledger entries
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journal**, and then choose the related link.

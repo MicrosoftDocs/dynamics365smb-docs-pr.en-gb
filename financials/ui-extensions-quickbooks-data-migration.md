@@ -1,8 +1,6 @@
 ---
 title: Using the QuickBooks Migration Extension | Microsoft Docs
 description: Describes how to use the extension to import customers, vendors, items, and accounts from QuickBooks Desktop to Dynamics 365 for Financials.
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,19 +10,18 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 37d90316ea0be5489fb5abe33645de3fe0d3cf90
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 4775c945a7721b8f4e52a187840a585396611e47
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="the-quickbooks-data-migration-extension-for-dynamics-365-for-financials"></a>The QuickBooks Data Migration Extension for Dynamics 365 for Financials
-This extension makes it easy to migrate customers, vendors, items, and accounts from QuickBooks to [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This extension makes it easy to migrate customers, vendors, items, and accounts from QuickBooks Desktop to [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 For more information, see [Importing Business Data from Other Finance Systems](upload-data.md).
 
-## <a name="exporting-data-from-quickbooks"></a>Exporting Data from QuickBooks
+## <a name="exporting-data-from-quickbooks-desktop"></a>Exporting Data from QuickBooks Desktop
 You must have exported some or all of your existing customers, vendors, inventory items, and accounts to an Intuit Interchange Format (IIF) file. The QuickBooks Data Migration extension includes a default mapping of QuickBooks data so that you can use your existing data to test your new [!INCLUDE[d365fin](includes/d365fin_md.md)] company. The default mapping will be sufficient in the vast majority of cases, but you can change the mapping in the assisted setup guide.  
 In QuickBooks, the File menu includes a utility to export lists. For the purposes of [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export the following lists:
 
@@ -34,6 +31,9 @@ In QuickBooks, the File menu includes a utility to export lists. For the purpose
 * Account List  
 
 The exported data is saved as an IIF file that you can then upload to [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+## <a name="finding-the-quickbooks-data-migration-extension"></a>Finding the QuickBooks Data Migration Extension
+The QuickBooks Data Migration extension is installed and ready to go as an integrated part of the Data Migration assisted setup guide. If you are ready to get started now, and have exported your data from QuickBooks, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.  
 
 ## <a name="see-also"></a>See Also
 [Importing Business Data from Other Finance Systems](upload-data.md)  

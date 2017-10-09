@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ed0a6848f07999246566ad740e02abfc561ae130
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="changing-basic-settings"></a>Changing Basic Settings
@@ -49,8 +48,11 @@ The default work date is usually today's date. You may have to temporarily chang
 > [!IMPORTANT]  
 >   The work date is only changed until you close the company or until the date changes. If you open a different company or open the same company the next day and still have to use a different work date, then you must set the work date again.
 
-## <a name="confirmation-dialogs"></a>Confirmation dialogs
-Use the options in this section if you want to specify some additional checks for posting documents. These options are checked as standard, but you can clear the check boxes to avoid getting specific warnings or messages.
+## <a name="region"></a>Region
+The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.   
+
+## <a name="change-when-i-receive-notifications"></a>Change when I receive notifications
+Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Smart Notifications](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

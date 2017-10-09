@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Suite, Basic, user interface, application area
-ms.date: 03/29/2017
+ms.date: 08/22/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6add50f8d24d75e58abd12d110c881628d1fa6d9
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: f2336dbb8381c1ed1961ed97ab4dd782ef846a10
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="customizing-your-dynamics-365-for-financials-experience"></a>Customising Your Dynamics 365 for Financials Experience
@@ -34,8 +33,8 @@ The following table lists the experiences that are currently available.
 
 | Experience | Impact on User Interface |
 | --- | --- |
-| Basic |Shows only core actions and fields for core business areas, such as sales, purchasing, finance, and opportunity management. |
-| Suite |Shows more actions and fields for core business areas and for other areas, such as project management, fixed asset management, and analysis by dimensions. |
+| Basic |Shows only core actions and fields within the most common business functionality, such as sales, purchasing, inventory, and finance. |
+| Suite |Shows all actions and fields for all available business functionality.|
 
 ## <a name="see-also"></a>See also 
 [Changing Basic Settings](ui-change-basic-settings.md)  
@@ -43,3 +42,4 @@ The following table lists the experiences that are currently available.
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

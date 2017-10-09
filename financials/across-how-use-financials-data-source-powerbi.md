@@ -10,12 +10,11 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/06/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 53fb2ae7bbbaf3215ca2549e207512f7c06838b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3f98a08415a896c37868bf0ed5efd9314d5ab07a
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-included365finincludesd365finmdmd-as-a-power-bi-data-source"></a>Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source
@@ -43,6 +42,7 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 5. Choose the **Connection** button to continue. The Power BI wizard shows a list of [!INCLUDE[d365fin](includes/d365fin_md.md)] data sources. These data source represent all the web services that you have published from your [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
    Alternatively, create a new web service URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Create Data Set** action in the **Web Services** page, using the **Set Up Reporting** Assisted Setup guide, or by choosing the **Edit in Excel** action in any lists.
+
 6. Specify the data you want to add to your data model, and then choose the **Load** button.
 7. Repeat the previous steps to add additional [!INCLUDE[d365fin](includes/d365fin_md.md)] data to your Power BI data model.
 
@@ -52,6 +52,7 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 Once the data is loaded it will appear in the right navigation on the page. At this point, you have successfully connected to your Dynamics 365 data and are ready to begin building your Power BI report. For more information, see the [Power BI documentation](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
 
 ## <a name="see-also"></a>See Also
+[Business Intelligence](bi.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

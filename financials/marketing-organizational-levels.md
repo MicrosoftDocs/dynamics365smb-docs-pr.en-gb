@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 927c27998bfaeb8d7247158cde1d1eb958a6911f
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d101076c8a51b1c7a79606d207f79a826c89bf29
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>How to: Set Up Organisational Levels for Contact Persons
@@ -25,13 +24,13 @@ You can use organisational levels on your contacts to specify which position the
 
 Using organisational levels on contacts is a two-step process. First, you define the organisational level code. You only have to perform this step one time for each organisational level. Once you have an organisational level code, you can start to assign the code to contact persons.
 
-## <a name="to-define-an-organizational-level-code"></a>to define an organisational level code
+## <a name="to-define-an-organizational-level-code"></a>To define an organisational level code
 The organisational level code defines the type or category of the organisational level, such a CEO  or CFO. You can have several organisational level codes. To define the organisational level, you use the **Organisational Levels** window.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Organizational Levels**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
 
-## <a name="to-assign-organizational-levels-to-a-contact-person"></a>to assign organisational levels to a contact person
+## <a name="to-assign-organizational-levels-to-a-contact-person"></a>To assign organisational levels to a contact person
 You can assign organisational levels to contact persons only, not contact companies. You can only assign one organisational level to each contact.
 
 1. Open the contact.

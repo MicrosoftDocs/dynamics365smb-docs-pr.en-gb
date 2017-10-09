@@ -9,20 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/25/2017
+ms.date: 08/24/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b15bd0928e797918c7431e595b1bdf500a8d6792
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-approval-workflows"></a>How to: Use Approval Workflows
 When a record, such as a purchase document or a customer card, needs to be approved by someone in your organisation, you send an approval request as part of a workflow. Based on how the workflow is set up, the appropriate approver is then notified that the record requires their approval.
 
-You set up approval workflows in the **Workflow** window.
+You set up approval workflows in the **Workflow** window. For more information, see [Setting Up Workflows](across-set-up-workflows.md).
+
+In addition to approval workflows described in this topic, you can perform various other workflow tasks. For more information, [Using Workflows](across-use-workflows.md).
 
 Core approval workflows for purchases documents, sales documents, payment journals, customer cards, and item cards are ready to start as assisted setup. For more information, see [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 
@@ -47,17 +48,6 @@ A customer may want to change an order after it has been submitted for approval.
 - In the window that displays the record, choose the **Cancel Approval Request** action.
 
 When the approval request has been cancelled, the status of the related approval entry is changed to **Cancelled**. The status of the record is updated from **Pending Approval** to **Open**. The approval process can then start again.
-
-## <a name="to-make-minor-changes-to-approved-records"></a>To make minor changes to approved records
-If you want to make a minor change to a record after it has been approved, you can reopen the record, make the change, and then release it. For minor changes, you do this with the **Reopen** and **Release** buttons.
-
-1. Open the window that displays the record, such as a purchase invoice, and then choose the **Reopen** action.
-
-    The **Document Status** field is changed to **Open**.
-2. Make the necessary changes on the record, such as the vendor’s address.
-3. Choose the **Release** action.
-
-When you reopen the source record, the status of the related approval entry remains Approved in the **Approval Entries** window.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>To approve or reject requests for approval
 The following task is performed by an approval user with approver rights.
@@ -98,5 +88,5 @@ The **Send Overdue Approval Notifications** function checks for all open approva
 [Sales](sales-manage-sales.md)    
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ceb01999525139cabc7c31e2304f738dcc9267f8
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 69d4a8d4482999ed9d622d73654c3d8a4c3d8394
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Setting Up or Changing the Chart of Accounts
@@ -41,7 +40,7 @@ From the chart of accounts, you can open each G/L account and add or change sett
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with Dimensions](finance-dimensions.md)  
 [Importing from Other Finance Systems](upload-data.md)  
-[How to: Work With GIFI Codes in Canada](ca-finance-work-gifi-codes.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+
