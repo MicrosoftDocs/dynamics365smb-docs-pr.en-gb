@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 69ca175c1b73e18dfbad1d0682d877021b5d94d7
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 21f51e08fa5153bca28d1470b724038acfcd85cf
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Field Mapping When Exporting Payment Files Using Bank Data Conversion Service
@@ -25,7 +25,7 @@ When you export payment files using the Bank Data Conversion Service feature, th
 
 The following table lists the fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] from which data can be exported to the service provider.  
 
-|Mapped Field|Field in Table|Table|Description]-->|  
+|Mapped Field|Field in Table|Table|Description|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |Creditor No.|Creditor No.|Bank Account|The identifier assigned to your company by your bank to collect payments|  
 |Sender Bank Account No.|Bank Account No./IBAN|Bank Account|Your company's bank account number (IBAN or other) that is specified on the bank account card|  
@@ -68,8 +68,8 @@ The following table lists the fields in [!INCLUDE[d365fin](includes/d365fin_md.m
 |Sender Bank Name - Data Conv.|Bank Name – Data Conv.|Bank Account|The sender bank account name that is requested by the bank data conversion service and specified on the bank account card|  
 
 ## <a name="see-also"></a>See Also  
-[Set Up Data Exchange](across-set-up-data-exchange.md)  
-[Exchanging Data as Electronic Documents](across-data-exchange.md)
+[Setting Up Data Exchange](across-set-up-data-exchange.md)  
+[Exchanging Data Electronically](across-data-exchange.md)
 [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)   
 [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
 

@@ -11,10 +11,10 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: d81e73ec99d8ef993cff8ec3b5f5f38d00741c7a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 0823414b222c2f578a6e6c6908f403240cf104d5
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="frequently-asked-questions"></a>Frequently Asked Questions
@@ -35,7 +35,7 @@ No. But if you want to experience [!INCLUDE[d365fin](includes/d365fin_md.md)] as
 Yes, but depending on how you signed up to [!INCLUDE[d365fin](includes/d365fin_md.md)], your data can be deleted or preserved. For more information, see [Canceling [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Where do I go if I have questions?
-If you have questions about [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can't find an answer for in this documentation, you can ask the Dynamics 365 for Financials community. For more information, see [Dynamics 365, Business edition community](https://community.dynamics.com/business). Also, our Support team post tips and tricks. For more information, see [Dynamics 365 for Financials Support Blog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
+If you have questions about [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can't find an answer for in this documentation, you can ask the Dynamics 365 Business edition  community. For more information, see [Dynamics 365, Business edition community](https://community.dynamics.com/business). Also, our Support team post tips and tricks. For more information, see [Dynamics 365 Business edition  Support Blog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Is it possible to extend my 30-day “New Company” trial period?
 Yes. If you want to extend your trial, you should contact Microsoft at 1-888-477-7989 (US) or 1-800-741-9206 (Canada). NOTE: It may take up to 2 business days to complete the trial extension process.  
@@ -51,5 +51,5 @@ Did you read about a new capability in the roadmap or on our blog recently? In t
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](madeira-outlook.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](madeira-no-outlook.md)  
 [How to: Change the Role Centre](change-role.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 

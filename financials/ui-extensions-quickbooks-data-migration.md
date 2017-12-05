@@ -11,14 +11,14 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4775c945a7721b8f4e52a187840a585396611e47
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fdda803b7cc2f93ae4d7353be28282dc60d904d8
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="the-quickbooks-data-migration-extension-for-dynamics-365-for-financials"></a>The QuickBooks Data Migration Extension for Dynamics 365 for Financials
-This extension makes it easy to migrate customers, vendors, items, and accounts from QuickBooks Desktop to [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+# <a name="the-quickbooks-data-migration-extension-for-dynamics-365-business-edition"></a>The QuickBooks Data Migration Extension for Dynamics 365 Business edition
+This extension makes it easy to migrate customers, vendors, items, and accounts from QuickBooks to [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 For more information, see [Importing Business Data from Other Finance Systems](upload-data.md).
 
 ## <a name="exporting-data-from-quickbooks-desktop"></a>Exporting Data from QuickBooks Desktop

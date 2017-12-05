@@ -1,8 +1,6 @@
 ---
 title: Set up SEPA credit transfer | Microsoft Docs
-description: Learn how to set up SEPA credit transfer in Dynamics 365 for Financials.
-services: project-madeira
-documentationcenter: 
+description: Learn how to set up SEPA credit transfer in Dynamics 365 Business edition .
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 88ac086fa0532892af9c770c14134723e0da2eaf
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: afdf20baa9d61d28e18aa08ae175f139fdb31bdd
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-credit-transfer"></a>How to: Set Up SEPA Credit Transfer
@@ -64,8 +62,8 @@ Before you can process payment electronically by exporting payment files in the 
     The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>See Also  
-[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
+[Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)  
 [How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)  
-[Exchanging Data as Electronic Documents](across-data-exchange.md)  
+[Exchanging Data Electronically](across-data-exchange.md)  
 

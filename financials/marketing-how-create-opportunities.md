@@ -1,6 +1,6 @@
 ---
 title: Create Sales Opportunities| Microsoft Docs
-description: Describes how to create opportunities from a salesperson or a contact in Financials.
+description: Describes how to create opportunities from a salesperson or a contact in Dynamics 365 Business edition.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3137ed6aeaa235e2f2b4db7fdfb7dd7b8570c886
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-sales-opportunities"></a>How to: Create Sales Opportunities
@@ -45,5 +45,5 @@ Before you can create opportunities, you must set up opportunity sales cycles. F
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
-[Working with Financials](ui-work-product.md)
+[Working with Dynamics 365](ui-work-product.md)
 

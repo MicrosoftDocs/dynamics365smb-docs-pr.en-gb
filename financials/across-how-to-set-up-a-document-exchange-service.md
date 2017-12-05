@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1191313565e813a92c13fa07b6278e7263eeaf19
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: c014e3ee7ed580fd893470c0e0b89273eaceb429
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-set-up-a-document-exchange-service"></a>How to: Set Up a Document Exchange Service
-You use an external service provider to exchange electronic documents with your trading partners. For more information, see [Exchanging Data as Electronic Documents](across-data-exchange.md).  
+You use an external service provider to exchange electronic documents with your trading partners. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>To set up a document exchange service  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Doc. Exch. Service Setup**, and then choose the related link.  
@@ -45,6 +45,6 @@ You use an external service provider to exchange electronic documents with your 
 2. In the **Data Encryption Management** window, enable encryption of your data. <!--For more information, see [Manage Data Encryption](../manage-data-encryption.md).-->  
 
 ## <a name="see-also"></a>See Also  
-[Set Up Data Exchange](across-set-up-data-exchange.md)  
-[Exchanging Data as Electronic Documents](across-data-exchange.md)
+[Setting Up Data Exchange](across-set-up-data-exchange.md)  
+[Exchanging Data Electronically](across-data-exchange.md)
 

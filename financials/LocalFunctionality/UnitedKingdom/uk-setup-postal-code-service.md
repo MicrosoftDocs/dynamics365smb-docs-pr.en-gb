@@ -1,6 +1,6 @@
 ---
 title: 'How to: Set Up the GetAddress.io UK Postcodes Extension | Microsoft Docs'
-description: Describes the general functionality you use to interact with data in Financials, such as entering values, sorting data, and changing views.
+description: Describes the general functionality you use to interact with data in Dynamics 365, such as entering values, sorting data, and changing views.
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: getaddress.io, postcodes, extension
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ca8fa2c53639854f0fd640d021ac57ea95dbab33
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1f71f57306adb929ad787a3a5d93602a60383a57
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-the-getaddressio-uk-postcodes-extension"></a>How to: Set Up the GetAddress.io UK Postcodes Extension

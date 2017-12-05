@@ -1,6 +1,6 @@
 ---
 title: Define Business Relation Codes on Contacts| Microsoft Docs
-description: Use business relations in Financials to help with marketing and to indicate the business relationship you have with your  prospects, clients, and customers, for example, a bank or service supplier.
+description: Use business relations in Dynamics 365 to help with marketing and to indicate the business relationship you have with your  prospects, clients, and customers, for example, a bank or service supplier.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: marketing, prospect, contact, client, customer
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7d0f189ac233ea4da72136858a343dfaa7e88883
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: ee7373ae4b58ce0d31bed5fbf853ae8e039833d4
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-business-relations-on-contact-companies"></a>Setting Up Business Relations on Contact Companies

@@ -1,6 +1,6 @@
 ---
 title: Welcome | Microsoft Docs
-description: Outlines the assisted setup guides, videos, help topics, and pages and windows to use to get ready for doing business in Dynamics 365 for Financials.
+description: Outlines the assisted setup guides, videos, help topics, and pages and windows to use to get ready for doing business in Dynamics 365 Business edition .
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e6a467f526b8bb1c55af686817ed3e419b214dbb
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Getting Ready for Doing Business
@@ -59,7 +59,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] you will find tooltips that can h
 Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **My Company** section of your **Home** page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration.
 
 ## <a name="see-also"></a>See Also
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Manage Users and Permissions](ui-how-users-permissions.md)
 

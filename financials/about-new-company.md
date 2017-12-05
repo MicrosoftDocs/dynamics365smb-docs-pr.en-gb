@@ -1,6 +1,6 @@
 ---
 title: Create new companies using an assisted setup guide | Microsoft Docs
-description: It's easy to create a new, blank company in Dynamics 365 for Financials. An assisted setup guide helps you through the steps, and you can import your existing business data.
+description: It's easy to create a new, blank company in Dynamics 365 Business edition. An assisted setup guide helps you through the steps, and you can import your existing business data.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: company, setup wizard
 ms.date: 07/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 3ff3c7af87033595d64e583b62b0e0242b22d2f1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c4152a77fcd3e5995aaf09c17b0a3a2c227aa2fa
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-new-companies-in-included365finlongincludesd365finlongmdmd"></a>Creating New Companies in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -44,10 +44,10 @@ When you sign in to a new company, the **Company Setup** wizard runs automatical
 
 For example, your company address is included in invoices and other documents, your bank information is used in payments, and the costing method is used to calculate prices as well as inventory valuation.  
 
-Once you have the basics in place, you can set up remaining core areas. Then, you are ready to add business data, such as customers and vendors. For more information, see [Setting Up Dynamics 365 for Financials](setup.md).  
+Once you have the basics in place, you can set up remaining core areas. Then, you are ready to add business data, such as customers and vendors. For more information, see [Setting Up Dynamics 365 Business edition ](setup.md).  
 
 ## <a name="see-also"></a>See Also
-[Setting Up Dynamics 365 for Financials](setup.md)  
+[Setting Up Dynamics 365 Business edition ](setup.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

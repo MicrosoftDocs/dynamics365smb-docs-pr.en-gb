@@ -12,10 +12,10 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>How to: View the Availability of Items
@@ -26,10 +26,10 @@ You can view the availability of all items per location, and you can view the av
 > [!NOTE]  
 >   Availability views by location require that you maintain inventory at more than one location. For more information, see [How to: Set Up Locations](inventory-how-setup-locations.md).
 
-In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are shown in two different fields, each with a different definition:
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are shown in two different fields, each with a different definition:
 
 * The **Quantity on Hand** field shows the actual quantity today according to posted item ledger entries.
-* The **Projected Available Balance** field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements. (In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], scheduled receipts include quantities on purchase orders and inbound transfer orders. Gross requirements include quantities on sales orders and outbound transfer orders.)
+* The **Projected Available Balance** field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements. (In [!INCLUDE[d365fin](includes/d365fin_md.md)], scheduled receipts include quantities on purchase orders and inbound transfer orders. Gross requirements include quantities on sales orders and outbound transfer orders.)
 
 > [!TIP]  
 >   The projected available balance is especially relevant to view in the **Item Availability by Periods** and **Item Availability by Event** windows as they contain the date dimension.  
@@ -119,6 +119,6 @@ If one or more assembly components are not available, then this is reflected in 
 [How to: Set Up Locations](inventory-how-setup-locations.md)  
 [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  
 [How to: Sell Products](sales-how-sell-products.md)      
-[Working with Financials](ui-work-product.md)  
+[Working with Dynamics 365](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 

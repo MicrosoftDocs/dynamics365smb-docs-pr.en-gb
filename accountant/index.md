@@ -1,28 +1,32 @@
 ---
-title: "Manage your clients in Dynamics 365 — Accountant Hub| Microsoft Docs"
-description: "Dynamics 365 — Accountant Hub gives you a better overview of your clients so you can switch easily from client to client."
+title: Manage your clients in Dynamics 365 | Microsoft Docs
+description: Accountant Hub gives you a better overview of your clients so you can switch easily from client to client.
 author: edupont04
-ms.service: dynamics365-financials
+ms.service: dynamics365-accountant
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard, accountant
-ms.date: 08/15/2017
+ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7a2579f6f34ebd7c3912b4b635d65dba130af440
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 021ca5cebb5de3357a36c802a725d806c592e40f
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="welcome-to-included365acclongincludesd365acclongmdmd"></a>Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
+[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
+
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients. From there, you can access each client's data.  
 
-You can get access to [!INCLUDE[d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)
+![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
 
-In the current version of [!INCLUDE[d365acc](includes/d365acc_md.md)], you can add clients who use [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] to run their business.
+You can get access to [!INCLUDE[d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). It's free of charge, and it's quick to get started and add your clients to the dashboard. For more information, see [Get Started with Accountant Hub](get-started.md).  
+
+In the current version of [!INCLUDE[d365acc](includes/d365acc_md.md)], you can add clients who use [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] to run their business.  
 
 ## <a name="see-also"></a>See Also
 [Microsoft Dynamics 365 documentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f6ebcafa1585d4f722802a6891a20a895aa96060
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 34fb52bd39036477b479a4de626225876cfe5800
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File
@@ -68,5 +68,5 @@ You can now proceed to post receipts of payment for the involved sales invoices.
 ## <a name="see-also"></a>See Also  
 [How to: Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
 [How to: Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
-[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
+[Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 

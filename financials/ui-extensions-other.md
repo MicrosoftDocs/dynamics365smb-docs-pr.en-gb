@@ -1,6 +1,6 @@
 ---
-title: Extensions for Dynamics 365 for Financials Provided by Other Companies | Microsoft Docs
-description: Lists the apps and extensions to customise Dynamics 365 for Financials provided by other companies.
+title: Extensions for Dynamics 365 Business edition  Provided by Other Companies | Microsoft Docs
+description: Lists the apps and extensions to customise Dynamics 365 Business edition provided by other companies.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,18 +12,18 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: bc54da2b0e40f25357eec88235d5e2f6de5a12a6
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 8d4c4c36cfa2900fdd64f1131eb7eb808aeb77b3
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="microsoft-dynamics-365-for-financials-extensions-by-other-providers"></a>Microsoft Dynamics 365 for Financials Extensions by Other Providers
+# <a name="microsoft-dynamics-365-business-edition-extensions-by-other-providers"></a>Microsoft Dynamics 365 Business edition Extensions by Other Providers
 At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Some extensions are provided by Microsoft, and other extensions are provided by other companies. We refer to the websites that these companies provide for more information about the extensions that are not published by Microsoft. You can find this information at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
 The list of the extensions by other companies grows each month. So keep an eye out for [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) and get apps to help you in your work in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="see-also"></a>See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

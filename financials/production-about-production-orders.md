@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 339515e73f65c0f0f37405d52c670f0597811934
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 1ca27811bef8e04fa96ccd920ca9b7327ad4d849
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="about-production-orders"></a>About Production Orders
 Production orders are used to manage the conversion of purchased materials into manufactured items. Production orders route work through various work or machine centres on the shop floor.  
 
-Before proceeding with production, most companies perform supply planning, typically once a week, to calculate how many production orders and purchase orders to execute to fulfill that week’s sales demand. Purchase orders supply the components that are required according to the production BOM to produce the end items. 
+Before proceeding with production, most companies perform supply planning, typically once a week, to calculate how many production orders and purchase orders to execute to fulfill that week’s sales demand. Purchase orders supply the components that are required according to the production BOM to produce the end items.
 
 Production orders are the central components of the program's manufacturing functionality and they contain the following information:  
 
@@ -46,7 +46,6 @@ Production orders are created using information from:
 
 - Items  
 - Production BOMs
-- Assembly BOMs
 - Routings  
 - Machine centres  
 - Work centres  

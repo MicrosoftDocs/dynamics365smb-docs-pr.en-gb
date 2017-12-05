@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 18b1dcd66b6816adc9fcb8b86d4f55834f51fd02
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3c67d6bd4d24d5b58462fa05168f2ac764b2c695
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="the-ceridian-payroll-extension-to-dynamics-365-for-financials"></a>The Ceridian Payroll Extension to Dynamics 365 for Financials
+# <a name="the-ceridian-payroll-extension-to-dynamics-365-business-edition"></a>The Ceridian Payroll Extension to Dynamics 365 Business edition 
 To account for salary payments and related transactions, you must import and post financial transactions made by your payroll provider to the general ledger.
 
 To do this, you first import a file that you receive from the payroll provider into the **General Journal** window. Then you map the external accounts in the payroll file to the relevant G/L accounts. Lastly, you post the payroll transactions according to the account mapping. For more information, see [How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md).

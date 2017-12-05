@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5a02126430e698d7624dfbae41390cdfb2ea2e0b
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: af4f55a85b0269832c6afba791f2499aebf0979c
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-set-up-electronic-document-sending-and-receiving"></a>How to: Set Up Electronic Document Sending and Receiving
@@ -137,7 +137,7 @@ The topic contains the following procedures:
     |**G/L Account for Non-Item Lines**|Specifies the G/L account that is automatically inserted on purchase lines that are created from electronic documents when the incoming document line does not contain an identifiable item. Any incoming document line that does not have a GTIN or the vendor’s item number will be converted to a purchase line of type **G/L Account**, and the **No.** field on the purchase line will contain the account that you select in the **G/L Account for Non-Item Lines** field.<br /><br /> If you leave the **G/L Account for Non-Item Lines** field blank, and the incoming document has lines without identifiable items, then the purchase document will not be created. An error message will instruct you to fill the **G/L Account for Non-Item Lines** field before you can complete the task.|  
 
 ## <a name="see-also"></a>See Also  
-[Exchanging Data as Electronic Documents](across-data-exchange.md)   
+[Exchanging Data Electronically](across-data-exchange.md)   
 [How to: Invoice Sales](sales-how-invoice-sales.md)   
 [How to: Record Purchases](purchasing-how-record-purchases.md)
 

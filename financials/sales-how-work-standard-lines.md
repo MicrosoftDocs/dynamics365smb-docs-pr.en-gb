@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 980a0646317c2b5c02c0eadcde9ba984c11580c4
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 6f7202da4290ae3f6093baed4185649c30d6a199
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-create-recurring-sales-and-purchase-lines"></a>How to: Create Recurring Sales and Purchase Lines
@@ -40,7 +40,7 @@ The following procedure shows how to work with standard sales lines. It works in
 ## <a name="to-create-multiple-sales-invoices-based-on-standard-sales-lines"></a>To create multiple sales invoices based on standard sales lines
 You can use the **Create Recurring Sales Inv.** batch job to create sales invoices according to standard sales lines that are assigned to the customers and with posting dates within the valid-from and valid-to dates that you specify on the standard sales code.
 
-In the **Recurring Sales Lines** window, you can also specify a direct-debit payment method and a direct-debit mandate. The sales invoices that are created with the **Create Recurring Sales Inv.** batch job will then include information required to collect payment for the sales invoices with SEPA direct debit. For more information, see Collect Payments with SEPA Direct Debit.
+In the **Recurring Sales Lines** window, you can also specify a direct-debit payment method and a direct-debit mandate. The sales invoices that are created with the **Create Recurring Sales Inv.** batch job will then include information required to collect payment for the sales invoices with SEPA direct debit. For more information, see [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md).
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Create Recurring Sales Invoices**, and then choose the related link.
 2. In the **Create Recurring Sales Inv.** window, fill in the fields as necessary.

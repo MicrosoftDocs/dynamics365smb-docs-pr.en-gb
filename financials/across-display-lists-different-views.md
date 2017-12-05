@@ -13,10 +13,10 @@ ms.search.keywords: personalization
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a93843c39c38692fb6a7703b5befedfbc78007a7
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 35a075d5c77dfacb4f817446ebdfd0f137a19a1a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="displaying-lists-in-different-ways"></a>Displaying Lists in Different Ways
@@ -28,6 +28,6 @@ On the Items list, having pictures helps you get a quick overview of what you se
 You can import a picture for a specific item by going to the **Item** card and to the right select **Picture** and then choose **Import**. Likewise you can export a picture to a file or delete the picture for the item.  
 
 ## <a name="see-also"></a>See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [How to: Register New Items](inventory-how-register-new-items.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: Manage Sales Opportunities and Leads| Microsoft Docs
-description: Describes managing any incoming lead or sales opportunity in Financials,  and associating the opportunity with a salesperson to keep track of potential sales.
+description: Describes managing any incoming lead or sales opportunity in Dynamics 365,  and associating the opportunity with a salesperson to keep track of potential sales.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6a2e2465cb73716b4087c6dc43ef97c640840a63
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 34c43d54d2472d6aee0fc791824013727e3fd324
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="managing-sales-opportunities"></a>Managing Sales Opportunities
@@ -24,7 +24,7 @@ Any incoming lead can be considered a sales opportunity. You can create opportun
 
 Before you can start using opportunity management, you must set up sales cycles and sales cycle stages. As you create opportunities, you should provide information about the contact, salesperson, sales cycle, and dates, as well as your estimates for the sales value of the opportunity and your estimation of the chances of its success.
 
-The following table describes a sequence of tasks, with links to the topics that describe them. 
+The following table describes a sequence of tasks, with links to the topics that describe them.
 
 | To | See |
 | --- | --- |

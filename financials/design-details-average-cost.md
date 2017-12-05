@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4ced0ece340de08598fecff157d59aa708e4e17c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70a0773826984bab5c49334a88ea48872a629023
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-average-cost"></a>Design Details: Average Cost
@@ -57,8 +57,8 @@ The average cost of an item is calculated with a periodic weighted average, base
 
 |**Posting Date**|**Item Ledger Entry Type**|**Quantity**|**Cost Amount (Actual)**|**Entry No.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Purchase|0|20.00|0|  
-|01-01-20|Purchase|0|40.00|2|  
+|01-01-20|Purchase|1|20.00|1|  
+|01-01-20|Purchase|1|40.00|2|  
 |01-01-20|Sale|-1|-20.00|3|  
 |02-01-20|Sale|-1|-40.00|4|  
 |02-02-20|Purchase|1|100.00|5|  
@@ -80,8 +80,8 @@ The average cost of an item is calculated with a periodic weighted average, base
 
 |**Posting Date**|**Item Ledger Entry Type**|**Quantity**|**Cost Amount (Actual)**|**Entry No.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Purchase|0|20.00|0|  
-|01-01-20|Purchase|0|40.00|2|  
+|01-01-20|Purchase|1|20.00|1|  
+|01-01-20|Purchase|1|40.00|2|  
 |01-01-20|Sale|-1|-30.00|3|  
 |02-01-20|Sale|-1|-30.00|4|  
 |02-02-20|Purchase|1|100.00|5|  
@@ -96,8 +96,8 @@ The average cost of an item is calculated with a periodic weighted average, base
 
 |**Posting Date**|**Item Ledger Entry Type**|**Quantity**|**Cost Amount (Actual)**|**Entry No.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Purchase|0|20.00|0|  
-|01-01-20|Purchase|0|40.00|2|  
+|01-01-20|Purchase|1|20.00|1|  
+|01-01-20|Purchase|1|40.00|2|  
 |01-01-20|Sale|-1|-20.00|3|  
 |02-01-20|Sale|-1|-40.00|4|  
 |02-02-20|Purchase|1|100.00|5|  
@@ -108,7 +108,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 
  The following table shows the entries in the **Avg. Cost Adjmt. Entry Point** table that apply to value entries resulting from the item ledger entries in the preceding table.  
 
-|**Item No.**|**Variant Code)**|**Location Code**|**Valuation Date**|**Cost is Adjusted**|  
+|**Item No.**|**Variant Code**|**Location Code**|**Valuation Date**|**Cost is Adjusted**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
 |ITEM1||BLUE|01-31-20|No|  
 |ITEM1||BLUE|02-28-20|No|  
@@ -120,8 +120,8 @@ The average cost of an item is calculated with a periodic weighted average, base
 
 |**Posting Date**|**Item Ledger Entry Type**|**Quantity**|**Cost Amount (Actual)**|**Entry No.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Purchase|0|20.00|0|  
-|01-01-20|Purchase|0|40.00|2|  
+|01-01-20|Purchase|1|20.00|1|  
+|01-01-20|Purchase|1|40.00|2|  
 |01-01-20|Sale|-1|-30.00|3|  
 |02-01-20|Sale|-1|-65.00|4|  
 |02-02-20|Purchase|1|100.00|5|  
@@ -148,7 +148,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 
 |Scenario|Posting Date|Item Ledger Entry Type|Valuation Date|Valued Quantity|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
 |--------------|-------------------------------------|-----------------------------------------------|-----------------------------------------|-----------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|0|01-01-20|Purchase|01-01-20|2|20.00|0|0|  
+|1|01-01-20|Purchase|01-01-20|2|20.00|1|1|  
 |2|01-15-20|(Item Charge)|01-01-20|2|8.00|1|2|  
 |3|02-01-20|Sale|02-01-20|-1|-14.00|2|3|  
 |4|03-01-20|(Revaluation)|03-01-20|1|-.4.00|1|4|  
@@ -187,8 +187,8 @@ The average cost of an item is calculated with a periodic weighted average, base
 
 |Valuation Date|Quantity|Cost Amount (Actual)|Entry No.|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|01-02-20|0|20.00|2|  
+|01-01-20|1|10.00|1|  
+|01-02-20|1|20.00|2|  
 |02-15-20|-1|-15.00|3|  
 |02-16-20|-1|-15.00|4|  
 
@@ -198,9 +198,9 @@ The average cost of an item is calculated with a periodic weighted average, base
 
 |Valuation Date|Quantity|Cost Amount (Actual)|Entry No.|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|01-02-20|0|20.00|2|  
-|01-03-20|0|21.00|5|  
+|01-01-20|1|10.00|1|  
+|01-02-20|1|20.00|2|  
+|01-03-20|1|21.00|5|  
 |02-15-20|-1|-17.00|3|  
 |02-16-20|-1|-17.00|4|  
 

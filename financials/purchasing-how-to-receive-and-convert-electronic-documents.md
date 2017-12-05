@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e975732dc7a47a4803d58b92272a24151b4315c6
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 14849dbb74f608f78e0ad8a317307ec1bf649cf8
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-receive-and-convert-electronic-documents"></a>How to: Receive and Convert Electronic Documents
@@ -61,6 +61,6 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports rece
 [Manage Payables](payables-manage-payables.md)  
 [Incoming Documents](across-income-documents.md)  
 [How to: Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Exchanging Data as Electronic Documents](across-data-exchange.md)   
+[Exchanging Data Electronically](across-data-exchange.md)   
 [General Business Functionality](ui-across-business-areas.md)  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cacedb1252133c5370e13fda36e984a784217e51
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: cdfb96475c46d56f32e5f0133efc7852a10ae446
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
 # <a name="design-details-item-tracking-availability"></a>Design Details: Item Tracking Availability
@@ -34,7 +34,7 @@ The **Item Tracking Lines** and **Item Tracking Summary** windows provide dynami
 > [!NOTE]  
 >  You can also see the information in the preceding table by using the **Select Entries** function in the **Item Tracking Lines** window.  
 
- To preserve database performance, availability data is only retrieved once from the database when you open the **Item Tracking Lines** window and use the **Refresh Availability** function in the window.  
+ To preserve database performance, availability data is only retrieved once from the database when you open the **Item Tracking Lines** window and when you use the **Refresh Availability** function in the window.  
 
 ## <a name="calculation-formula"></a>Calculation Formula  
  As described in the preceding table, the availability of a given serial or lot number is calculated as follows.  

@@ -13,10 +13,10 @@ ms.search.keywords: categories, search words, facets
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f071cca7df5bb1d3eac6f013784c0ca13e36477c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: dcc29b913c999fe05272dd709a873635efb5eeb4
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-item-attributes"></a>How to: Work with Item Attributes
@@ -25,7 +25,7 @@ When customers inquire about an item, either in correspondence or in an integrat
 You can also assign item attributes to item categories, which then apply to the items that use the item categories. For more information, see [How to: Categorize Item](inventory-how-categorize-items.md).
 
 > [!Tip]  
-> If you attach pictures to items, the Image Analyser extension can detect attributes in the image, and suggest the attributes so you can decide whether to assign them. The extension is ready to go. You just need to enable it. For more information, see [The Image Analyzer Extension for Microsoft Dynamics 365 for Financials](ui-extensions-image-analyzer.md).
+> If you attach pictures to items, the Image Analyser extension can detect attributes in the image, and suggest the attributes so you can decide whether to assign them. The extension is ready to go. You just need to enable it. For more information, see [The Image Analyser Extension for Microsoft Dynamics 365 Business edition ](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>To create item attributes
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Attributes**, and then choose the related link.

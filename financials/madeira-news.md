@@ -1,6 +1,6 @@
 ---
-title: What's New in Dynamics 365 for Financials| Microsoft Docs
-description: Describes the latest news and updates for Dynamics 365 for Financials.
+title: What's New in Dynamics 365 Business edition | Microsoft Docs
+description: Describes the latest news and updates for Dynamics 365 Business edition .
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 83637fe211ce764b4b18429ab4c2c79cc06f3d20
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="whats-new-in-dynamics-365-for-financials"></a>What's New in Dynamics 365 for Financials
-Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]! If you haven't already, then sign up for a trial, let us walk you through the basics of what you can do with [!INCLUDE[d365fin](includes/d365fin_md.md)], and then try things out on your own for a while. When you are ready, you can open a blank company and set things up for yourself.  
+# <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>What's New in Dynamics 365 for Finance and Operations, Business edition
+Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]! If you haven't already, then sign up for a trial, let us walk you through the basics of what you can do with [!INCLUDE[d365fin](includes/d365fin_md.md)], and then try things out on your own for a while. When you are ready, you can open a blank company and set things up for yourself.  
 
 On a regular basis, we will update [!INCLUDE[d365fin](includes/d365fin_md.md)] with additional capabilities in the core application and with new [extensions](ui-extensions.md). For an overview of what is coming and what is currently available, see the [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) - and remember to filter for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

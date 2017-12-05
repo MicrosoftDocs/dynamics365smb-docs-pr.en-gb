@@ -1,8 +1,6 @@
 ---
 title: Ways to Troubleshoot or Work Around Issues with Self-Service Sign-Up | Microsoft Docs
-description: Learn about the most common reasons why you may not be able to complete the signup to Dynamics 365 for Financials, and ways to work around them.
-services: project-madeira
-documentationcenter: 
+description: Learn about the most common reasons why you may not be able to complete the signup to Dynamics 365 Business edition , and ways to work around them.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,16 +10,16 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c97d406d0213c7b2ade23a2d209adf54bf9dfcae
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Troubleshooting Self-Service Sign-Up
 Signing up for [!INCLUDE[d365fin](includes/d365fin_md.md)] is easy and can be done very quickly. You can create a free account even if you are an existing organisation. This article addresses issues that you may have during signup.
 
-## <a name="what-email-address-can-i-use-with-financials"></a>What email address can I use with Financials?
+## <a name="what-email-address-can-i-use-with-dynamics-365"></a>What email address can I use with Dynamics 365?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] requires that you use a work, or school, email address to sign up. [!INCLUDE[d365fin](includes/d365fin_md.md)] does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.
 
 If you try to sign up with a personal email address, you will get a message indicating to use a work or school email address.
@@ -40,5 +38,4 @@ In many cases, registering for [!INCLUDE[d365fin](includes/d365fin_md.md)] can b
 ## <a name="see-also"></a>See Also
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

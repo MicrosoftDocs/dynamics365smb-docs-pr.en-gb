@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 166d85bbcf7d97cb513ba668e41fc4a179d8fcc3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-routings"></a>How to: Create Routings
@@ -28,8 +28,8 @@ As for production BOMs, the routings are assigned to the manufacturing end item.
 
 Before you can set up a routing, the following must be in place:  
 
-- Item cards are created for parent items that take part in manufacturing. For more information, see [How to: Register New Products](inventory-how-register-new-items.md).
-- Production resources are set up. For more information, see [How to: Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md).
+- Item cards are created for parent items that take part in manufacturing. For more information, see [How to: Register New Items](inventory-how-register-new-items.md).
+- Production resources are set up. For more information, see [How to: Set Up Work Centres and Machine Centres](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>To create a routing  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Routings**, and then choose the related link.  
@@ -53,7 +53,7 @@ Before you can set up a routing, the following must be in place:
 12.  Continue to fill in lines for all operations involved in producing the item in question.  
 13.  To copy lines from an existing routing, choose the **Copy Routing** action to select existing lines.  
 14. Certify the routing.  
-15. You can now attach the new routing to the card of the production item in question, by filling in the **Routing No.** field. For more information, see [How to: Register New Products](inventory-how-register-new-items.md).  
+15. You can now attach the new routing to the card of the production item in question, by filling in the **Routing No.** field. For more information, see [How to: Register New Items](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Remember also to recalculate the item’s standard cost from the **Item** card: Choose the **Manufacturing** action, select the **Calc. Standard Cost** action, and then select the **All Levels** action.  

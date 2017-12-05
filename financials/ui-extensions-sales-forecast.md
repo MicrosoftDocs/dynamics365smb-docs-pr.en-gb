@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a0cac0236611c90d3d1fdf1bae9deaaeb235b540
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b4f49d7d103bebeb6512d825a68c5941c8835214
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="sales-and-inventory-forecast-for-dynamics-365-for-financials"></a>Sales and Inventory Forecast for Dynamics 365 for Financials
+# <a name="sales-and-inventory-forecast-for-dynamics-365-business-edition"></a>Sales and Inventory Forecast for Dynamics 365 Business edition 
 Inventory management is a trade-off between customer service and managing your cost. On one hand, a low inventory requires less working capital, but, on the other hand, stock-outs potentially lead to missed sales. The Sales and Inventory Forecast extension predicts potential sales using historical data and gives a clear overview of expected stock-outs. Based on the forecast, the extension helps create replenishment requests to your vendors and saves you time.  
 
 ## <a name="setting-up-forecasting"></a>Setting up forecasting

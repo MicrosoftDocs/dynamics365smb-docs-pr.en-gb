@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 74822d77b45f0ba1aaf8b255f611a54d051c1f52
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b7617a0ac027b6d50c9029f386af3fe293e3bc7d
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-sell-items-assembled-to-order"></a>How to: Sell Items Assembled to Order
@@ -50,7 +50,7 @@ In this procedure, you process the sale of an item that will be assembled accord
     You could also customise the order by increasing the quantity of one standard item in the kit. You can do this by increasing the value in the **Quantity Per** field on the specific assembly order line.  
 
     > [!NOTE]  
-    >  The **Assemble-to-Order Lines** window only contains the basic fields that a salesperson is expected to use to customise the component list, add item tracking numbers, or to solve component availability issues. To see more assembly order information, such as the assembly order starting date, on the **Home** tab, in the **Process** group, choose **Show Documents**. This opens a full view of the assembly order that is linked to the sales order line. You cannot change the contents of most fields on the assembly order header, and you cannot post assembly output from it because you must use shipment posting of the sales order line.  
+    >  The **Assemble-to-Order Lines** window only contains the basic fields that a salesperson is expected to use to customise the component list, add item tracking numbers, or to solve component availability issues. To see more assembly order information, such as the assembly order starting date, choose the **Show Documents** action. This opens a full view of the assembly order that is linked to the sales order line. You cannot change the contents of most fields on the assembly order header, and you cannot post assembly output from it because you must use shipment posting of the sales order line.  
     >   
     >  On the header of linked assembly orders, only the **Starting Date** field can be changed to enable assembly workers to specify a date that is earlier than the due date when they will start the process. All fields on the lines of the linked assembly order can be changed so that warehouse workers can enter consumption figures during the process.  
 

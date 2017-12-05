@@ -1,6 +1,6 @@
 ---
 title: Choosing the User Experience to Show or Hide Advanced Features | Microsoft Docs
-description: Learn what the Basic and Suite user experience tiers mean for the user interface, application areas, and your company in Dynamics 365 for Financials.
+description: Learn what the Basic and Suite user experience tiers mean for the user interface, application areas, and your company in Dynamics 365 Business edition.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: Suite, Basic, user interface, application area
 ms.date: 08/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f2336dbb8381c1ed1961ed97ab4dd782ef846a10
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 361019af4ba1832cd0b9ac39c20bf22e98b38a76
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="customizing-your-dynamics-365-for-financials-experience"></a>Customising Your Dynamics 365 for Financials Experience
+# <a name="customizing-your-included365finlongincludesd365finlongmdmd-experience"></a>Customising Your [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Experience
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to help you run your business, regardless which line of business you are in. At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes. You add experiences to that according to your business needs by adding extensions from AppSource. You can also turn up and down the volume on the user experience and choose what's right for your company. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
 
 ## <a name="choosing-a-user-experience"></a>Choosing a user experience
@@ -38,8 +38,8 @@ The following table lists the experiences that are currently available.
 
 ## <a name="see-also"></a>See also 
 [Changing Basic Settings](ui-change-basic-settings.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Customizing [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Using Extensions](ui-extensions.md)  
+[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

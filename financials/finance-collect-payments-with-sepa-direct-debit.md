@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d9f60bfb92336227e85b0476a856bcc1173c71cd
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 0447e6c9f84457589df5cbc1efaecb2de24e7295
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
-# <a name="collect-payments-with-sepa-direct-debit"></a>Collect Payments with SEPA Direct Debit
+# <a name="collecting-payments-with-sepa-direct-debit"></a>Collecting Payments with SEPA Direct Debit
 With your customer’s consent, you can collect payments directly from the customer’s bank account according to the SEPA format.  
 
  First, set up the export format of the bank file that instructs your bank to perform a direct debit. Then, set up the customer’s payment method. Last, set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.  
@@ -41,5 +41,5 @@ With your customer’s consent, you can collect payments directly from the custo
 |Post payments made as SEPA direct debits.|[How to: Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
 
 ## <a name="see-also"></a>See Also  
-[Manage Receivables](receivables-manage-receivables.md)
+[Managing Receivables](receivables-manage-receivables.md)
 

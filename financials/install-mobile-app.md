@@ -1,6 +1,6 @@
 ---
-title: Use Financials on Your Mobile Device| Microsoft Docs
-description: You can view and edit your Financials data on your phone or tablet.
+title: Use Dynamics 365 on Your Mobile Device| Microsoft Docs
+description: You can view and edit your Dynamics 365 data on your phone or tablet.
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: phone, tablet
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 028c1fcc6f184b0307e1fdfdc7b6a34fee86565d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 56f2ef7c7b0c604f0966736020dcb9cff546dddd
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="getting-dynamics-365-for-financials-on-your-mobile-device"></a>Getting Dynamics 365 for Financials on Your Mobile Device
+# <a name="getting-dynamics-365-for-finance-and-operations-on-your-mobile-device"></a>Getting Dynamics 365 for Finance and Operations on Your Mobile Device
 Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile device. You can navigate through your business data, use features such as send to Excel or Office 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera. Follow the steps below to download the app and get started.
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>To get the app on my mobile device

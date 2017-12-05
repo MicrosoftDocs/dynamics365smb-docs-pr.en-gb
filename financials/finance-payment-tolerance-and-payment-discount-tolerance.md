@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 434e18ed539a189e8f041c914cfdcdf2c1e0532f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>How to: Work with Payment Tolerances and Payment Discount Tolerances
@@ -31,7 +31,7 @@ A single document has the same payment tolerance whether it is applied on its ow
 
 *payment discount date < payment date on the selected entry <= payment tolerance date*  
 
-This rule also applies to determine whether to display warnings when you apply payment tolerance to multiple documents. The payment discount tolerance warning is displayed for each entry that meets the date criteria. For more information, see the "Example 2 - Tolerance Calculations for Multiple Documents" section. 
+This rule also applies to determine whether to display warnings when you apply payment tolerance to multiple documents. The payment discount tolerance warning is displayed for each entry that meets the date criteria. For more information, see the "Example 2 - Tolerance Calculations for Multiple Documents" section.
 
 You can choose to display a warning that is based on different tolerance situations.  
 
@@ -95,7 +95,8 @@ Scenarios with alternative A or B represent the following:
 - **A** In this case, the payment discount tolerance warning has been turned off OR the user has the warning on and has selected to allow the late payment discount (Post the Balance as Payment Tolerance).  
 - **B** In this case, the user has the warning on and has selected not to allow the late payment discount (Leave the Balance as Remaining Amount).  
 
-|—|Inv.|Pmt. Disc.|Max<br /><br /> Pmt. Tol.|Pmt. Disc. Date|Pmt. Disc. Tol. Date|Payment Date|Pmt.|Tolerance Type|All Entries closed|Pmt. Disc. Tol. <br /> GL/CL|Pmt.<br /><br /> Tol.<br /><br /> G/L|  
+[!div class="mx-tdBreakAll"]  
+|—|Inv.|Pmt. Disc.|Max Pmt. Tol.|Pmt. Disc. Date|Pmt. Disc. Tol. Date|Payment Date|Pmt.|Tolerance Type|All Entries closed|Pmt. Disc. Tol. GL/CL|Pmt. Tol. G/L|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1,000|20|5|01/15/03|01/20/03|<=01/15/03|985|Pmt.Tol.|Yes|0|-5|  
 |2|**1,000**|**20**|**5**|**01/15/03**|**01/20/03**|**<=01/15/03**|**980**|**None**|**Yes**|**0**|**0**|  
@@ -166,7 +167,9 @@ Scenarios with alternative A, B, C, or D represent the following:
 - **C** - In this case, the user has the warning on and has selected to allow the late payment discount on the first invoice but not the second.  
 - **D** - In this case, the user has the warning on and has selected not to allow the late payment discount on the first invoice but allowed it on the second.  
 
-|—|Inv.|Pmt Disc.|Max Pmt. Tol.|Pmt. Disc. Date|Pmt. Disc. Tol. Date|Payment Date|Pmt|Tolerance Type|All Entries closed|Pmt. Disc. Tol. <br /> GL/CL|Pmt. Tol.<br /><br /> G/L|  
+[!div class="mx-tdBreakAll"]  
+
+|—|Inv.|Pmt Disc.|Max Pmt. Tol.|Pmt. Disc. Date|Pmt. Disc. Tol. Date|Payment Date|Pmt|Tolerance Type|All Entries closed|Pmt. Disc. Tol. GL/CL|Pmt. Tol. G/L|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
 |1|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|<=01/15/03|1920|Pmt.Tol.|Yes|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**<=01/15/03**|**1910**|**None**|**Yes**|**0**<br /><br /> **0**|0 <br />0|  

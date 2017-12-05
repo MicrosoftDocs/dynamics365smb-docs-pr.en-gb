@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setting Up Cash Flow Analysis
@@ -79,10 +79,10 @@ To use a manual process:
 >   Consider the length of the periods that the service will use in its calculations. The more data you provide, the more accurate the predictions will be. Also, watch out for large variances in periods. They will also impact predictions. If Cortana Intelligence does not find enough data, or the data varies a lot, the service will not make a prediction.  
 
 ## <a name="AnchorText"> </a>Create and use your own predictive web service for cash flow forecasts
-You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Dynamics 365 for Financials**. This predictive model is available online in the Cortana Intelligence Gallery. To use the model, follow these steps:  
+You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Dynamics 365 Business edition **. This predictive model is available online in the Cortana Intelligence Gallery. To use the model, follow these steps:  
 
 1. Open a browser and go to the [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Search for **Forecasting Model for Microsoft Dynamics 365 for Financials**, and then open the model in Azure Machine Learning Studio.  
+2. Search for **Forecasting Model for Microsoft Dynamics 365 Business edition **, and then open the model in Azure Machine Learning Studio.  
 3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
 4. Run the model, and publish it as a web service.  
 5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  

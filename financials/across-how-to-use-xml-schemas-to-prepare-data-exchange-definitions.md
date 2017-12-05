@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c4b53c6a87148990102ba9eca235cf139a48396e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>How to: Use XML Schemas to Prepare Data Exchange Definitions
@@ -46,7 +46,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 4.  Fill the fields as described in the following table.  
 
-    |Field|[Description]|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify a code to identify the XML schema.|  
     |**Description**|Specify a description of the XML schema.|  
@@ -130,6 +130,6 @@ To enable import/export of data in XML files through the data exchange framework
 ## <a name="see-also"></a>See Also  
 [How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)   
 [How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md)   
-[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
+[Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
 [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)
 

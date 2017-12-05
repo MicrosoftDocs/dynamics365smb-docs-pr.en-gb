@@ -13,10 +13,10 @@ ms.search.keywords: reconcile
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: dcefa921d7e8b901d906085e6bce01d6e0aa6ac4
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 2e8314c6da4da73712787a40204a964922f153f4
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="managing-bank-accounts"></a>Managing Bank Accounts
@@ -30,7 +30,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Reconcile bank accounts in connection with payment processing in the **Payment Reconciliation Journal** window. |[Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
+| Reconcile bank accounts in connection with payment processing in the **Payment Reconciliation Journal** window. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Reconcile bank accounts, including cheque ledger entries, as a separate task in the **Bank Acc. Reconciliation** window. |[How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md) |
 | Post transfers between bank accounts in the same currency or in different currencies. |[How to: Transfer Bank Funds](bank-how-transfer-bank-funds.md) |
 

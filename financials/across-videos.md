@@ -1,5 +1,5 @@
 ---
-title: How Do I Videos on Using Dynamics 365 for Financials| Microsoft Docs
+title: How Do I Videos on Using Dynamics 365 Business edition | Microsoft Docs
 description: Provides access to getting-started videos that illustrate how to do common tasks.
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: video, library, how to
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6e5f4e0b32b90a19f4f58a1fd792a686c0cb41d0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c3cb769e45d2ef2ade6eb82118cd6f79b5e3cf9d
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="visit-our-video-library"></a>Visit Our Video Library
@@ -35,10 +35,12 @@ You can access the videos in several ways. If you're already working in [!INCLUD
 * From the **Business Manager** Role Center, by choosing **Business Assistance**, and then **Show Setup and Help Resources**.  
 
 > [!Tip]  
-> In addition to videos, **Business Assistance** includes resources such as links to topics and assisted setup guides that make it easier to set things up. These resources replace the chart on the Role Centre. After you explore the resources, you can switch back to the chart in the **Business Assistance** menu by choosing **Show Chart**.  
+> Videos in the library display in a frame that might seem a little small. To make the frame larger, choose the double-ended arrow icon in the upper-right of the frame. Afterward, videos will display in the larger frame until you make it small again.  
+
+In addition to videos, **Business Assistance** includes resources such as links to topics and assisted setup guides that make it easier to set things up. These resources replace the chart on the Role Centre. After you explore the resources, you can switch back to the chart in the **Business Assistance** menu by choosing **Show Chart**.  
   
 You can view our "how to" videos, plus a lot of other content, on the YouTube channel we created for Microsoft Dynamics 365. To visit the channel now, [click here](https://go.microsoft.com/fwlink/?linkid=851533).
 
 ## <a name="see-also"></a>See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Using General Functionality Across Business Areas | Microsoft Docs
-description: Learn about the functionality and features that are used across business areas in Dynamics 365 for Financials.
+description: Learn about the functionality and features that are used across business areas in Dynamics 365 Business edition .
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b33fab6b4aeb3f1f6110d999a69956a76f8defd
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="general-business-functionality"></a>General Business Functionality
@@ -36,7 +36,7 @@ The following table lists these general business areas with links to topics that
 | Change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md) |
 |Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md)|
 |Record external documents in Financials, including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
-| Set up data exchange definitions to you can send and receive electronic documents. |[Exchanging Data as Electronic Documents](across-data-exchange.md) |
+| Set up data exchange definitions to you can send and receive electronic documents. |[Exchanging Data Electronically](across-data-exchange.md) |
 
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

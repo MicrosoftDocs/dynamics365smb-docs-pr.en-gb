@@ -1,5 +1,5 @@
 ---
-title: Walkthrough - Receiving and Putting Away in advanced warehouse configurations | Microsoft Docs
+title: Walkthrough - Receiving and Putting Away in Advanced Warehouse Configurations | Microsoft Docs
 description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
 services: project-madeira
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 87e9b0f2e4d8925ff9583c17c66fa2d49ad2b4b5
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1c78223608d7cf2c977adfca87e45f35aeee856a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Walkthrough: Receiving and Putting Away in advanced warehouse configurations
+# <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
 |Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  

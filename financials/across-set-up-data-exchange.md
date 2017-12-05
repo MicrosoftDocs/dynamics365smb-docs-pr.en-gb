@@ -1,6 +1,6 @@
 ---
 title: Set up data exchange | Microsoft Docs
-description: Set up the data exchange framework in Dynamics 365 for Financials.
+description: Set up the data exchange framework in Dynamics 365 Business edition .
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5c0fcfd6ef178c5917a4a07ba81a9bef9b4522aa
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 593904835c55d4ce9b137d0af387ea897603795f
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-data-exchange"></a>Setting Up Data Exchange
-Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved files. In addition, you must set up related areas, such as master data for customers that you send electronic invoices to or the bank data conversion service in case you use the external service provider to convert your bank files. For more information, see [Exchanging Data as Electronic Documents](across-data-exchange.md).  
+Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved files. In addition, you must set up related areas, such as master data for customers that you send electronic invoices to or the bank data conversion service in case you use the external service provider to convert your bank files. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
 
  When [!INCLUDE[d365fin](includes/d365fin_md.md)] is set up to exchange data with external files, users can use the setup in common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.  
 
@@ -39,8 +39,8 @@ Before you can send and receive electronic documents or import and export bank f
 |Set up the Data Exchange Framework to enable users to receive a new purchase document format, send a new sales document format, import a new bank file, or other data exchange.|[How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)|  
 
 ## <a name="see-also"></a>See Also  
-[Exchanging Data as Electronic Documents](across-data-exchange.md)  
-[Exchange Data](across-exchange-data.md)   
+[Exchanging Data Electronically](across-data-exchange.md)  
+[Exchanging Data](across-exchange-data.md)   
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 

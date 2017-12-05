@@ -1,20 +1,20 @@
 ---
-title: Import Your Legacy Business Data into Financials | Microsoft Docs
-description: You can migrate data for customers, vendors, and inventory, for example, from Excel, QuickBooks, or Dynamics GP, into Financials.
+title: Import Your Legacy Business Data into Dynamics 365 | Microsoft Docs
+description: You can migrate data for customers, vendors, and inventory, for example, from Excel, QuickBooks, or Dynamics GP, into Dynamics 365.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: migrate, initialize, implement
-ms.date: 07/05/2017
+ms.search.keywords: QuickBooks, transfer, import, migrate, initialize, implement
+ms.date: 09/25/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
-ms.openlocfilehash: dd6eb5a6b19bf4c8fd92674a48e8cd29ce912eee
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3f1df4bf771586c5e3e4d79d23c26051bf19c763
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importing Business Data from Other Finance Systems
@@ -24,13 +24,13 @@ From Home, you can start an assisted setup guide that helps you transfer the bus
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes templates for accounts, customers, vendors, and inventory items that you can choose to apply when you import your data.  
 
-## <a name="importing-data-from-quickbooks-or-dynamics-gp"></a>Importing Data from QuickBooks or Dynamics GP
+## <a name="importing-data-from-quickbooks-desktop-quickbooks-online-or-dynamics-gp"></a>Importing Data from QuickBooks Desktop, QuickBooks Online, or Dynamics GP
 If your business uses QuickBooks or Dynamics GP today, you can export the relevant information to a file. You can then open the assisted setup guide to transfer the data.
 For example, if your file includes customers and vendors, you can choose to transfer only the customer data. You can then transfer the rest of the information later.  
 
 The assisted setup includes an option to change the default configuration of the transfer, but we recommend that you only enter this advanced setup if you are familiar with database tables. In the vast majority of businesses, the default mapping from QuickBooks or Dynamics GP to [!INCLUDE[d365fin](includes/d365fin_md.md)] will transfer the information that you want.  
 
-For more information, see [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md) or [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md).
+For more information, see [QuickBooks Desktop Data Migration](ui-extensions-quickbooks-data-migration.md), [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md), or [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md).  
 
 ## <a name="importing-data-from-configuration-packages"></a>Importing Data from Configuration Packages
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a configuration package that you can export to Excel and set up your data there. Then, you can import the data from Excel again. The package consists of 27 tables, including master data such as customers, vendors, items, and accounts, other basic setup tables such as shipping methods, and transactions tables such as sales header and lines.  
@@ -41,7 +41,8 @@ For more information, see [QuickBooks Data Migration](ui-extensions-quickbooks-d
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  
 [Importing Data from Legacy Accounting Software using a Configuration Package](across-import-data-configuration-packages.md)  
-[QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
+[QuickBooks Desktop Data Migration](ui-extensions-quickbooks-data-migration.md)  
+[QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)  
 [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)   
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)

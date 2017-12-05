@@ -1,6 +1,6 @@
 ---
 title: Set up SEPA Direct Debit | Microsoft Docs
-description: Learn how to set up SEPA Direct Debit in Dynamics 365 for Financials.
+description: Learn how to set up SEPA Direct Debit in Dynamics 365 Business edition .
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a5f7a99a3e6bfd9c0146d87af4e3869cda381a67
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-direct-debit"></a>How to: Set Up SEPA Direct Debit
@@ -38,7 +38,7 @@ Before you can process customer payments electronically by exporting direct debi
 2. Choose the **New** action.  
 3. Set up a payment method. Fill in the direct debit\-specific fields as described in the following table.  
 
-    |Field|[Description|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Direct Debit**|Specify if the payment method is for SEPA direct debit collection.|  
     |**Direct Debit Pmt. Terms Code**|Specify the payment terms, such as DON’T PAY, that are displayed on sales invoices that are paid with SEPA direct debit to indicate to the customer that the payment will be collected automatically. Alternatively, leave the field empty.|  
@@ -59,7 +59,7 @@ Before you can process customer payments electronically by exporting direct debi
 4. In the **Customer Bank Account List** window, select the customer bank account that will use direct debits, and then, on the **Home** tab, in the **Process** group, choose **Direct Debit Mandates**.  
 5. In the **SEPA Direct Debit Mandates** window, fill in the fields as described in the following table.  
 
-    |[Field|Description]|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Customer Bank Account Code**|Specifies the bank account from which direct\-debit payments are collected. This field is filled automatically.|  
     |**Valid From**|Specify the date when the direct\-debit mandate starts.|  
@@ -75,8 +75,8 @@ Before you can process customer payments electronically by exporting direct debi
  The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>See Also  
-[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
+[Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)
 [How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
-[Exchanging Data as Electronic Documents](across-data-exchange.md)
+[Exchanging Data Electronically](across-data-exchange.md)
 

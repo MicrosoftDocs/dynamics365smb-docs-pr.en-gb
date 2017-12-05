@@ -1,6 +1,6 @@
 ---
 title: Manage Customers Using Dynamics 365 for Sales| Microsoft Docs
-description: You can use Dynamics 365 for Sales from inside Dynamics 365 for Financials to map data and have seamless integration and synchronisation in the lead-to-cash process.
+description: You can use Dynamics 365 for Sales from inside Dynamics 365 Business edition to map data and have seamless integration and synchronisation in the lead-to-cash process.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,27 +12,27 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bc0b9c8141c6c2eac78abc9cd3f5c89af3c89fbb
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fde1a04c4e6f56fb425f6aef85d21b029a76fe0c
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Managing Your Customer Relationships using Dynamics 365 for Sales from inside Dynamics 365 for Financials
+# <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Managing Customers and Sales Created in Dynamics 365 for Sales
 If you use Dynamics 365 for Sales for customer engagement, you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] for order processing and finances and have seamless integration in the lead-to-cash process.
 
 When your application is set up to integrate with Dynamics 365 for Sales, you have access to Sales data from [!INCLUDE[d365fin](includes/d365fin_md.md)] and the other way around in some cases. This integration enables you to work with and synchronise data types that are common to both services, such as customers, contacts, and sales information, and keep the data up to date in both locations.  
 
-For example, the sales person in Dynamics 365 for Sales can use the price lists from [!INCLUDE[d365fin](includes/d365fin_md.md)] when they create a sales order. When they add the item to the sales order line in Dynamics 365 for Sales, they are also able to see the inventory level (availability) of the item from [!INCLUDE[d365fin](includes/d365fin_md.md)]. This data is published as part of the assisted setup guide, **Dynamics 365 Connection Setup**.  
+For example, the sales person in Dynamics 365 for Sales can use the price lists from [!INCLUDE[d365fin](includes/d365fin_md.md)] when they create a sales order. When they add the item to the sales order line in Dynamics 365 for Sales, they are also able to see the inventory level (availability) of the item from [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]  
 >   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).  
 
 ## <a name="setting-up-the-connection"></a>Setting up the connection
-From Home, you can access the **Dynamics 365 Connection Setup** assisted setup guide that helps you set up the connection. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records.  
+From Home, you can access the **Dynamics 365 for Sales Connection Setup** assisted setup guide that helps you set up the connection. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records.  
 
 > [!NOTE]  
->   The following explains the assisted setup, but you can perform the same tasks manually in the **Dynamics 365 Connection Setup** window.
+>   The following explains the assisted setup, but you can perform the same tasks manually in the **Dynamics 365 for Sales Connection Setup** window.
 
 In the assisted setup guide, you can choose which data to synchronise between the two services. You can also specify that you want to import your existing Dynamics 365 for Sales solution. In that case, you must specify an administrative user account.
 
@@ -77,7 +77,7 @@ At the end of the assisted setup guide, you can choose the **Run Full Synchronis
 
 To check the progress of individual jobs in a full synchronization, drill down on the **Job Queue Entry Status**, **To Int. Table Job Status**, or **From Int. Table Job Status** field in the **CRM Full Synch. Review** window.
 
-From the **Dynamics 365 Connection Setup** window, you can get details about full synchronisation at any time. From here, you can also open the **Integration Table Mappings** window to see details about the tables in Financials and in the Dynamics 365 for Sales solution that must be synchronised.
+From the **Dynamics 365 Connection Setup** window, you can get details about full synchronisation at any time. From here, you can also open the **Integration Table Mappings** window to see details about the tables in Dynamics 365 Business edition and in the Dynamics 365 for Sales solution that must be synchronised.
 
 ## <a name="see-also"></a>See Also
 [Relationship Management](marketing-relationship-management.md)  

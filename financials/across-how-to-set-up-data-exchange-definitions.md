@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 111eb2f627f63edd31c6224f0fd664bf68417079
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-data-exchange-definitions"></a>How to: Set Up Data Exchange Definitions
-You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to exchange data in specific tables with data on external files, for example to send and receive electronic documents, import and export bank data or other data, such as payroll, currency exchange rates, and item catalogues. For more information, see [Exchanging Data as Electronic Documents](across-data-exchange.md).  
+You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to exchange data in specific tables with data on external files, for example to send and receive electronic documents, import and export bank data or other data, such as payroll, currency exchange rates, and item catalogues. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
 
 As preparation for creating a data exchange definition for a data file or stream, you can use the related XML schema to define which data elements to include on the **Column Definitions** FastTab. See step 6 in the “To describe the formatting of lines and columns in the file” section. For more information, see the [How to: Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
@@ -73,7 +73,7 @@ Creating a data exchange definition involves two tasks:
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Code)**|Enter a code to identify the line in the file.|  
+    |**Code**|Enter a code to identify the line in the file.|  
     |**Name**|Enter a name that describes the line in the file.|  
     |**Column Count**|Specify how many columns the line in data file has. **Note:**  This field is only relevant for import.|  
     |**Data Line Tag**|Specify the position in the related XML schema of the element that represents the main entry of the data file. **Note:**  This field is only relevant for import.|  
@@ -102,7 +102,7 @@ Creating a data exchange definition involves two tasks:
 
 9. Repeat step 8 for every column or XML element in the data file that has data that you want to exchange with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
- The next step in creating a data exchange definition is to decide which columns or XML elements in the data file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]].  
+ The next step in creating a data exchange definition is to decide which columns or XML elements in the data file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
 >  The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code in the **Data Exchange Definitions** window. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
@@ -114,7 +114,7 @@ Creating a data exchange definition involves two tasks:
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Table ID**|Specify the table that holds the fields to or from which data is exchanged according to the mapping.|  
-    |**Use as Intermediate Table**|Specify if the table that you select in the **Table ID** field is an intermediate table where the imported data is stored before it is mapped to the target table.<br /><br /> You typically use an intermediate table when the data exchange definition is used to import and convert electronic documents, such as vendor invoices into purchase invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Exchanging Data as Electronic Documents](across-data-exchange.md).|  
+    |**Use as Intermediate Table**|Specify if the table that you select in the **Table ID** field is an intermediate table where the imported data is stored before it is mapped to the target table.<br /><br /> You typically use an intermediate table when the data exchange definition is used to import and convert electronic documents, such as vendor invoices into purchase invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Exchanging Data Electronically](across-data-exchange.md).|  
     |**Name**|Enter a name for the mapping setup.|  
     |**Pre-Mapping Codeunit**|Specify the codeunit that prepares the mapping between fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] and external data.|  
     |**Mapping Codeunit**|Specify the codeunit that is used to map the specified columns or XML data elements to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
@@ -153,7 +153,7 @@ Creating a data exchange definition involves two tasks:
 5. Choose the file that you saved in step 1.  
 
 ## <a name="see-also"></a>See Also  
-[Set Up Data Exchange](across-set-up-data-exchange.md)  
+[Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [How to: Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [How to: Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)  
 [How to: Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  

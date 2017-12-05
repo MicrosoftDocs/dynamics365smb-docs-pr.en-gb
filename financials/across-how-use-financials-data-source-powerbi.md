@@ -11,10 +11,10 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3f98a08415a896c37868bf0ed5efd9314d5ab07a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fc942b29859d2607577119fe13292078b872b05e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="using-included365finincludesd365finmdmd-as-a-power-bi-data-source"></a>Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source
@@ -25,7 +25,7 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-power-bi-desktop"></a>To add [!INCLUDE[d365fin](includes/d365fin_md.md)] as a data source in Power BI Desktop
 1. In Power BI Desktop, in the left navigation pane, choose **Get Data**.
-2. In the **Get Data** window, choose **Online Services**, choose **Dynamics 365 for Financials**, and then choose the **Connect** button.
+2. In the **Get Data** window, choose **Online Services**, choose **Dynamics 365 Business edition **, and then choose the **Connect** button.
 
    Power BI displays a wizard that will guide you though the connection process. The first step will be to enter an OData URL and the company name that is associated with your [!INCLUDE[d365fin](includes/d365fin_md.md)] account.  
 

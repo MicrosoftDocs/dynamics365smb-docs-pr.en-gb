@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financials and Power BI Content Packs| Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Financials data is easy with Power BI and the Financials content packs.
+title: Dynamics 365 Business edition and Power BI Content Packs| Microsoft Docs
+description: Getting insight, business intelligence, and KPIs from your Dynamics 365 data is easy with Power BI and the Dynamics 365 content packs.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d165efbb6a157c6f95f8f59e6aa0d9b7100daa91
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Enabling Your Business Data for Power BI
@@ -44,7 +44,7 @@ The content packs are preconfigured to work with data from the demonstration com
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Accessing [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
 To see your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Power BI, you must have the following:  
 
-* Access to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Financials](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Access to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Access to Power BI. For more information, see [Power BI](https://powerbi.microsoft.com).
 
 On the Power BI site, you can find additional information about [connecting to services with content packs for Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  

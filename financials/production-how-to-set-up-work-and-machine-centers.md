@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8a7af6821affcef2c81499e904f2ed9520086323
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-work-centers-and-machine-centers"></a>How to: Set Up Work Centres and Machine Centres
@@ -33,7 +33,7 @@ The availability is stored in calendar entries. Before you set up work or machin
 ## <a name="to-set-up-a-work-center"></a>To set up a work centre
 The following primarily describes how to set up a work centre. The steps to set up a machine centre calendar are similar except for the **Routing Setup** FastTab.  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Centers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Centres**, and then choose the related link.  
 2.  Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  In the **Work Centre Group** field, select the higher-level resource grouping that the work centre is organised under, if relevant. Choose the **New** action in the drop-down list.  
@@ -65,7 +65,7 @@ The following primarily describes how to set up a work centre. The steps to set 
     > [!NOTE]  
     > If you select to use Days then remember that 1 day = 24 hours - and not 8 (working hours).
 
-13.  In the **Capacity** field, define whether the work centre has more than one machine or person working at the same time. If your **Product Name** installation does not include the Machine Centre functionality, then the value in this field must be **1**).  
+13.  In the **Capacity** field, define whether the work centre has more than one machine or person working at the same time. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] installation does not include the Machine Centre functionality, then the value in this field must be **1**.  
 14.  In the **Efficiency** field, enter the percentage of the expected standard output that this work centre actually outputs. If you enter **100**, it means that the work centre has an actual output that is the same as the standard output.  
 15. Select the **Consolidated Calendar** check box if you are also using machine centres. This ensures that calendar entries are rolled up from machine centre calendars.  
 16.  In the **Shop Calendar Code** field, select a shop calendar. For more information, see [How to: Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
@@ -79,6 +79,24 @@ If different machine centres (such as 210 Packing table 1, 310 Painting Cabin ..
 If, however, identical machine centres (such as 210 Packing table 1 and 220 Packing table 2) are combined in a work centre, the consideration of the work centre as a sum of the assigned machine centres is of interest. Therefore, the work centre would be listed with zero capacity. By activating the **Consolidated Calendar** field, the common capacity is assigned to the work centre.
 
 If capacities of work centres are to make no contribution to the total capacity, you can achieve this with efficiency = 0.
+
+## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>To set up a capacity constrained machine or work centre
+You must set up production resources that you regard as critical and mark them to accept a finite load instead of the default infinite load that other production resources accept. A capacity-constrained resource can be a work centre or machine centre that you have identified as a bottleneck and would like to establish a limited, finite load for.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] does not support detailed shop floor control. It plans for a feasible utilisation of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimisation rules.
+
+In the **Capacity-Constrained Resources** window, you can make setup that avoids overload of specific resources and ensure that no capacity is left unallocated if it could increase the turn-around time of a production order. In the **Dampener (% of Total Capacity)** field, you can add dampener time to resources to minimise operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.
+
+When planning with capacity-constrained resources, the system ensures that no resource is loaded above its defined capacity (critical load). This is done by assigning each operation to the nearest available time slot. If the time slot is not big enough to complete the entire operation, then the operation will be split into two or more parts placed in the nearest available time slots.
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Capacity Constrined Resources**, and then choose the related link.
+2. Choose the **New** action.
+3. Fill in the fields as necessary.
+
+> [!NOTE]
+> Operations on work centres or machine centres that are set up as constrained resources will always be planned serially. This means that if a constrained resource has multiple capacities, then those capacities can only be planned in sequence, not in parallel as they would be if the work or machine centre was not set up as a constrained resource. In a constrained resource, the Capacity field on the work centre or machine centre is greater than 1.
+
+> In case of operation splitting, the setup time is only assigned once because it is assumed that some manual adjustment is done to optimise the schedule.
 
 ## <a name="see-also"></a>See Also  
 [How to: Create Shop Calendars](production-how-to-create-work-center-calendars.md)  

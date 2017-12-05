@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6a1141c352dd93657d32bb83067ce32077901a47
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c0e678b07c1d5ca73808a2abb5631771dce76fd0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-contact-companies"></a>How to: Create Contact Companies
@@ -59,5 +59,5 @@ If you have already set up a number of customers, vendors, and bank accounts, yo
 [Assign Industry Groups to a Contact](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Assign Mailing Groups to a Contact](marketing-mailing-groups.md#AssignMailGroupContact)  
 [How to: Create Contact Persons](marketing-create-contact-persons.md)  
-[Working with Financials](ui-work-product.md)
+[Working with Dynamics 365](ui-work-product.md)
 

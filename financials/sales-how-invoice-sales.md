@@ -9,20 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 03/29/2017
+ms.date: 10/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 6de2d9c030313cd2d7990faa7b9217bb751fe138
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-invoice-sales"></a>How to: Invoice Sales
 You create a sales invoice or sales order to record your agreement with a customer to sell certain products on certain delivery and payment terms.  
 
-> [!NOTE]  
->   There are a couple of scenarios where you must use a sales order instead of a sales invoice:  
+There are a couple of scenarios where you must use a sales order instead of a sales invoice:  
 
 * If you need to ship only part of an order quantity, for example, because the full quantity is not on hand.  
 * If you sell items that your vendor delivers directly to your customer, known as drop shipment. For more information, see [How to: Make Drop Shipments](sales-how-drop-shipment.md).  
@@ -37,7 +36,7 @@ In business environments where the customer must pay before products are deliver
 
 You can easily correct or cancel a posted sales invoice before it is paid. For example, this is useful if you want to correct a typing mistake or if the customer requests a change early in the order process. For more information, see [How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md). If the posted sales invoice is paid, then you must create a sales credit memo to reverse the sale. For more information, see [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).
 
-Items can be both inventory items and services, denoted by the **Item - Inventory** and **Item - Service** types on sales lines. The sales invoice process is the same for both item types. For more information, see [How to: Register New Items](inventory-how-register-new-items.md).
+Items can be both inventory items and services, denoted by the **Inventory** and **Service** types on the item card. The sales invoice process is the same for both item types. For more information, see [How to: Register New Items](inventory-how-register-new-items.md).
 
 You can fill customer fields on the sales invoice in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 
@@ -67,7 +66,7 @@ If you have set up recurring sales lines for the customer, such as a monthly rep
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
 
     > [!NOTE]  
->   If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
+>   If the item is of type **Service**, or the **Type** field contains **Resource**, then the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
 
     The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
 
@@ -92,6 +91,6 @@ The related item and customer ledger entries are now created in your system, and
 [Setting Up Sales](sales-setup-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)  
-[Bulk Invoicing from Microsoft Bookings in Dynamics 365 for Financials](finance-bookings.md)  
+[Bulk Invoicing from Microsoft Bookings in Dynamics 365 Business edition ](finance-bookings.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Add your external accountant to your Financials | Microsoft Docs
-description: Learn how you can invite your external accountant to your Dynamics 365 for Financials.
+description: Learn how you can invite your external accountant to your Dynamics 365 Business edition .
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 09/05/2017
+ms.date: 11/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b7efbb724f322d371e9e1b725612cb4eb0b3ceb2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 9769d4b1e34da62290cc97de291462ee2d22c747
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Inviting Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -23,7 +23,7 @@ If you use an external accountant to manage your books and financial reporting, 
 Once your accountant has gained access to your [!INCLUDE[d365fin](includes/d365fin_md.md)], they can use the **Accountant** Role Center that gives easy access to the most relevant windows for their work.  
 
 > [!NOTE]  
->  This functionality requires that the experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).  
+>  This functionality requires that the experience is set to **Suite**. For more information, see [Customising Your Dynamics 365 Experience](ui-experiences.md).  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Invite Your Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In the latest version of [!INCLUDE[d365fin](includes/d365fin_md.md)], we have made it easy for you to invite your external accountant. Simply open the **Users** window, and then choose the **Invite External Accountant** action in the ribbon. An email is made ready for you, just add your accountant's work email, and send the invitation.  
@@ -31,7 +31,10 @@ In the latest version of [!INCLUDE[d365fin](includes/d365fin_md.md)], we have ma
 ![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  This requires that you have set up SMTP email. You can do this yourself or ask your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner. Also, you must be logged in to [!INCLUDE[d365fin](includes/d365fin_md.md)] as a user administrator, not as the business owner or other users.  
+>  This requires that you have set up SMTP email. You can do this yourself or ask your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner. Also, you must be logged in to [!INCLUDE[d365fin](includes/d365fin_md.md)] as a user administrator, not as the business owner or other users. Finally, you must have left the trial company so that you have an Azure Active Directory administrator.  
+
+> [!IMPORTANT]  
+>  The accountant's email address must be a work address that is based an Active Directory. If the accountant uses another type of email, then the invitation cannot be sent.  
 
 ### <a name="separate-license"></a>Separate Licence
 Behind the scenes, the accountant is added to your Active Directory tenant. Your administrator can verify that the accountant accepts the invitation and is assigned the correct licence. The steps for doing this depends on the type of account that you used when you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. This topic is based on the use of an Office 365 account, which uses Microsoft Azure Active Directory.  
@@ -43,6 +46,6 @@ One of the license types for [!INCLUDE[d365fin](includes/d365fin_md.md)] is the 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  
 [How to: Set Up Email Manually or Using the Assisted Setup](madeira-how-setup-email.md)  
-[Accountant Experiences in Dynamics 365 for Financials](finance-accounting.md)  
-[Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Accountant Experiences in Dynamics 365 Business edition ](finance-accounting.md)  
+[Dynamics 365 for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

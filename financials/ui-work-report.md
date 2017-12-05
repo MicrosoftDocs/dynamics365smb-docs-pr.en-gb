@@ -13,21 +13,23 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: badcdee3dfa5bec3c2462149989cf9d4fb5af2a0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 16c9c8c896e3517f08a7326eef88ebc646834b1a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="working-with-reports"></a>Working with Reports
 A report gathers information based on a specified set of criteria, and organises and presents the information in an easy-to-read, printable format. There are many reports that you can access throughout the application. The reports typically provide information relative to the context of the page you are on. For example, the **Customer** page includes reports for the top 10 customers and the sales statistics, and more.
 
-You can find reports in the **Reports** tab on selected pages, or you can use search to find reports by name. When you open a report, you are presented with a page that let's you specify information (options and filters) that determines want to include in the report. For example, depending on the report, you can specify a date range, a specific record such as a customer, or sorting order.
+You can find reports in the **Reports** tab on selected pages, or you can use search to find reports by name. When you open a report, you are presented with a page that let's you specify information (options and filters) that determines want to include in the report. For example, depending on the report, you can specify a date range, a specific record such as a customer, or sorting order. Here is an example:
+
+![Report options](media/report_options.png "Report options")
 
 ## <a name="previewing-a-report"></a>Previewing a report
 Choose **Preview** to see the report in the Internet browser. Point to an area of the report to show the menu bar.  
 
-![Report preview toolbar](media/report_viewer.png "Report preview toolbar").
+![Report preview toolbar](media/report_viewer.png "Report preview toolbar")
 
 Use the menu bar to:
 
@@ -42,10 +44,11 @@ Use the menu bar to:
     You can move the visible area of the report in any direction so you can view other areas or the report. This is helpful when you have zoomed in to see details.  Using your mouse, for example, press and hold the mouse button anywhere in the report preview, and then move your mouse.
 
 -   Download to a PDF file on your computer or network.
+-   Print
 
 
 ## <a name="saving-a-report"></a>Saving a Report
-You can save a report to a PDF document, Microsoft Word document, or Microsoft Excel document by choosing **Send to**, and then making your selection. 
+You can save a report to a PDF document, Microsoft Word document, or Microsoft Excel document by choosing **Send to**, and then making your selection.
 
 ## <a name="ScheduleReport"></a> Scheduling a Report to Run
 You can schedule a report to run at a specific date and time. Scheduled reports are entered in the job queue and processed at the scheduled time, similar to other jobs. You can choose to save the processed report to a file, such as an Excel, Word, or PDF, print it to a selected printer, or process the report only. If you choose to save the report to a file, then the processed report is sent to the **Report Inbox** area on your Home page, where you can view it.
@@ -53,7 +56,7 @@ You can schedule a report to run at a specific date and time. Scheduled reports 
 You can schedule a report when you open a report. You choose the **Schedule** action and then you enter information such as printer, and time and date. The report is then added to the job queue and will be run at the specified time. When the report is processed, the item will be removed from the job queue. If you saved the processed report to a file, it will be available in the **Report Inbox** area.
 
 ## <a name="PrintReport"></a>Printing a Report
-When you want to print a report you have to download the report as a PDF, Word, or Excel document first by choosing **Send to**. Now, you can either open the report document right-away and print it, or save it and print it later.
+You can print a report from the **Print** button on the options page that appears when you open the report or from the menu bar in Preview.
 
 ## <a name="using-saved-settings"></a>Using Saved Settings
 A report can include one or more entries in the **Saved Settings** box. *Saved settings* are basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data.
@@ -69,5 +72,5 @@ A report layout controls what is shown on a report, how it is arranged, and how 
 ## <a name="see-also"></a>See Also
 [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 

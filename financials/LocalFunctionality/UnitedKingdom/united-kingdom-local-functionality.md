@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/17/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 09374cf1ca6e8e996448dc2c5d05eae52d4320e7
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 63eb31a0c3351102434a297702a33d9b12cb14e0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="united-kingdom-local-functionality"></a>United Kingdom Local Functionality
@@ -32,7 +32,6 @@ The following topics describe local functionality that is unique to the United K
 [How to: Print Cheques for APACS](how-to-print-checks-for-apacs.md)  
 [How to: Print Remittance Advice](how-to-print-remittance-advice.md)  
 [How to: Print Direct Sales and Purchase Details Reports](how-to-print-direct-sales-and-purchase-details-reports.md)  
-[How to: Print Non-Invoiced Stock Reports](how-to-print-non-invoiced-stock-reports.md)  
 [How to: Print VAT Audit Reports](how-to-print-vat-audit-reports.md)  
 [How to: Print VAT Reports](how-to-print-vat-reports.md)  
 [How to: Set Up Reverse Charges on VAT](how-to-set-up-reverse-charges-on-vat.md)  

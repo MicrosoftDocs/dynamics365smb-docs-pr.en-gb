@@ -1,8 +1,6 @@
 ---
 title: Using the QuickBooks Migration Extension | Microsoft Docs
-description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Financials.
-services: project-madeira
-documentationcenter: 
+description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Dynamics 365.
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fe87a108d132ff25f0c93a51df58bb88fb12f421
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-for-financials"></a>The QuickBooks Online Data Migration Extension for Dynamics 365 for Financials
+# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>The QuickBooks Online Data Migration Extension for Dynamics 365 Business edition
 This extension is included in the **Data Migration** assisted setup guide to help you migrate important business data from QuickBooks Online to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, this is useful when your business is growing, and you've decided to upgrade your business management app by starting to use [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>What data can I import from QuickBooks Online?
@@ -29,7 +27,7 @@ You can import the following data from QuickBooks Online to [!INCLUDE[d365fin](i
 * Customers
 * Vendors
 * Items
-* Chart of accounts 
+* Chart of accounts
 * Beginning balance transaction in the general ledger
 * On-hand quantities for inventory items
 * Open documents for customers and vendors, such as invoices, credit memos, and payments
@@ -41,7 +39,7 @@ We migrate only full amounts on sales and purchase documents. We do not update p
 
 ## <a name="before-you-start"></a>Before you start
 An important part of the migration process is to specify the accounts to migrate transactions to. It's a good idea to plan this mapping before you migrate data. For example, the accounts where you post transactions for:  
-  
+
 * The sale of items or services to customers.
 * The purchase of items or services from vendors.  
 * Adjustments in the general ledger.  

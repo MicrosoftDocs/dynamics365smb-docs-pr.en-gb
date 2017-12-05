@@ -13,10 +13,10 @@ ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a7944daaa0b07336361a03a9f46097f346481e66
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: e8e6098cf6efe91153fe4e112cf3f6f6635032ed
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="managing-receivables"></a>Managing Receivables
@@ -36,7 +36,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Apply payments to open customer or vendor ledger entries based on an imported bank statement file or feed, and reconcile the bank account when all payments are applied. |[Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
+| Apply payments to open customer or vendor ledger entries based on an imported bank statement file or feed, and reconcile the bank account when all payments are applied. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Apply payments to open customer ledger entries based on manual entry in a list of unpaid sales documents. |[How to: Reconcile Customer Payments Manually From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Post cash receipts or refunds for customers in the cash receipt journal and apply to customer ledger entries, either from the journal or from posted ledger entries. |[How to: Reconcile Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md) |
 | Remind customers of overdue amounts, calculate interest and finance charges, and manage accounts receivable. |[How to: Collect Outstanding Balances](receivables-collect-outstanding-balances.md) |

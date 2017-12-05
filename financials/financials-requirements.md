@@ -1,8 +1,6 @@
 ---
-title: Minimum requirements for using Financials| Microsoft Docs
-description: Learn about the minimum system and version requirements for using Dynamics 365 for Financials.
-services: project-madeira
-documentationcenter: 
+title: Minimum requirements for using Dynamics 365 Business edition| Microsoft Docs
+description: Learn about the minimum system and version requirements for using Dynamics 365 Business edition.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -10,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 06/02/2017
+ms.date: 09/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e1f5b9c3a8ef7337d3b958e733e034c79a9bc2bc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fb17aada5494bb700edc005599ff8cbc764abe83
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="minimum-requirements-for-using-dynamics-365-for-financials"></a>Minimum Requirements for Using Dynamics 365 for Financials
+# <a name="minimum-requirements-for-using-dynamics-365-business-edition"></a>Minimum Requirements for Using Dynamics 365 Business edition
 Before you access [!INCLUDE[d365fin](includes/d365fin_md.md)], we recommend that you verify that your computer or mobile device meets or exceeds the minimum system requirements for the product. This article lists the requirements.  
 
 ## <a name="browsers"></a>Browsers
