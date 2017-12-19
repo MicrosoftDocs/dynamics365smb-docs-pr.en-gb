@@ -1,6 +1,6 @@
 ---
 title: Exchange Data | Microsoft Docs
-description: You can exchange data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.
+description: You can exchange data between Dynamics 365 and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: f7ee9914d70474e912414ecd4de9a4cf16fa4e45
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 41f42162499401693f30e37a736c4fe0afe24822
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="exchanging-data"></a>Exchanging Data
@@ -30,7 +30,8 @@ Before you can send and receive electronic documents or import and export bank f
 |Send PDF or image files to a provider of OCR services, and receive them back as electronic documents that can be converted to document records in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[How to: Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)|  
 |Receive electronic documents, either from the OCR service or the document exchange service, in a standardized format that you convert to the relevant document records in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[How to: Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)|  
 |Import a bank statement file into the **Payment Reconciliation Journal** window as the first step in reconciling payments or into the **Bank Acc. Reconciliation** window as the first step in reconciling bank accounts.|[How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)|  
-|Export payments from the **Payment Journal** window to a bank file that you upload to your electronic bank account for processing.|[How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md)|  
+|Export payments from the **Payment Journal** window to a bank file that you upload to your electronic bank account for processing.|[How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md)|
+|Make electronic payments according to the EU SEPA Credit Transfer standard.|[Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|  
 |Instruct your bank to transfer payment amounts from your customers’ bank accounts to your company’s account according to your setup of SEPA direct debit.|[How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
 |Use a service provider of currency exchange rates to update the **Currencies** window.|[How to: Update Currency Exchange Rates](finance-how-update-currencies.md)|  
 |View which file elements are mapped to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] when importing SEPA CAMT statement files.|[Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)|  

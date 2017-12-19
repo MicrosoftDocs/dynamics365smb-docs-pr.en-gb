@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 08/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ad7ecfa7725aa6696620dc77ab9a6d7a09863b3c
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: bb8b1ecf0f5e8f91598bf96c85ec70f0d385267e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="smart-notifications"></a>Smart Notifications
@@ -25,11 +25,11 @@ If you choose to see details for a notification, you can take action to resolve 
 
 Notifications can help untrained users complete unfamiliar tasks, and do not reduce productivity for the more trained user.  
 
-## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Turn on or turn off notifications, and control when they are sent
+## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>To turn notifications on or off, and control when they are sent
 When you first start with [!INCLUDE[d365fin](includes/d365fin_md.md)] all notifications are turned on, but you can turn them on or off, for example, if you aren't interested in a certain event or status.  
-  
+
 Additionally, some notifications let you specify the conditions under which they are sent. For example, if you want to be notified when inventory is running low, but only for items you buy from a certain vendor.  
-  
+
 Turning notifications on or off, and specifying conditions, applies only to you.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **My Notifications**, and then choose the related link.

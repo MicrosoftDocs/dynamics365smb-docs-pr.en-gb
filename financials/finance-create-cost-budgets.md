@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e66e9f915772a6e5f9000ea6fe207e425ee25bb
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 19fbfd60beb973dc65a09b7bfeee95b976a89905
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="creating-cost-budgets"></a>Creating Cost Budgets
 Budgeting in cost accounting resembles budgeting in the general ledger. A cost budget is created based on cost types just as a budget for the general ledger is created based on general ledger accounts.  
 
-A cost budget is created for a certain period of time, for example, a fiscal year. You can create as many cost budgets as needed. You can create a new cost budget manually, or by importing a cost budget, or by copying an existing cost budget as the budget base. For more information, see [How to: Create Budgets](finance-how-create-budgets.md).
+A cost budget is created for a certain period of time, for example, a fiscal year. You can create as many cost budgets as needed. You can create a new cost budget manually, or by importing a cost budget, or by copying an existing cost budget as the budget base. For more information, see [How to: Create G/L Budgets](finance-how-create-budgets.md).
 
 You use the following windows to create and analyse cost budgets. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon to find a window, and then read the tooltip for each.
 
@@ -36,7 +36,7 @@ You use the following windows to create and analyse cost budgets. Choose the ![S
 
 ## <a name="see-also"></a>See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
-[How to: Create Budgets](finance-how-create-budgets.md)  
+[How to: Create G/L Budgets](finance-how-create-budgets.md)  
 [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
 [Defining and Allocating Costs](finance-define-and-allocate-costs.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

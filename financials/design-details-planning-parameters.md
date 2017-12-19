@@ -1,8 +1,6 @@
 ---
 title: Design Details - Planning Parameters | Microsoft Docs
-description: This topic describes the different planning parameters that you can use in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-services: project-madeira
-documentationcenter: 
+description: This topic describes the different planning parameters that you can use in Dynamics 365.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6d1b9d86d53076c2373f4f08316192eda29592c5
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 5ab63063b5ad2ae453ecb9953ba4547f31536ee8
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-planning-parameters"></a>Design Details: Planning Parameters
@@ -59,7 +57,7 @@ Independent of the reordering policy, the planning system usually follows this l
 4. If there is more gross demand due before the ending date of the forward-scheduled order proposal, and this demand brings the currently calculated projected available inventory below the safety stock quantity, the order quantity is increased to make up the deficit. The suggested supply order is then scheduled backward from the due date of the gross demand that would have violated the safety stock quantity.  
 5. If the **Time Bucket** field is not filled in, only the gross demand on the same due date will be added.  
 
-     The following reorder period fields also play a role in defining how much to reorder: **Rescheduling Period**, **Lot Accumulation Period**, and **Dampener Period**. For more information, see the "Optimize When and How Much to Reorder" section.  
+     The following reorder period fields also play a role in defining how much to reorder: **Rescheduling Period**, **Lot Accumulation Period**, and **Dampener Period**. For more information, see the "Optimise When and How Much to Reorder" section.  
 
 ### <a name="reordering-policies"></a>Reordering Policies  
 The following reordering policies affect the quantity that is being reordered.  

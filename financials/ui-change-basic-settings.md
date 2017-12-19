@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="changing-basic-settings"></a>Changing Basic Settings
@@ -39,7 +39,7 @@ The default company is called CRONUS and contains demonstration data only.
 > [!TIP]  
 >   If you want to display a different name for your company in the application (such as on the Home page), set the **Name** field on the **Company Information** page or the **Display Name** field on the **Companies** page.  
 
-## <a name="work-date"></a>Work date
+## <a name="work-date"></a>Work Date
 The default work date is usually today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not the current date.
 
 > [!TIP]  
@@ -51,7 +51,7 @@ The default work date is usually today's date. You may have to temporarily chang
 ## <a name="region"></a>Region
 The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.   
 
-## <a name="change-when-i-receive-notifications"></a>Change when I receive notifications
+## <a name="changing-when-i-receive-notifications"></a>Changing When I Receive Notifications
 Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Smart Notifications](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>See Also

@@ -12,14 +12,14 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fe51ade7a46ab7a8fdf77419a0098ac47fe2e5d1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: df1793d811dea11c01ff5e7d90a9f52b9e987c13
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-request-quotes"></a>How to: Request Quotes
-A purchase quote can be used as a preliminary draft for a purchase order, and the order can then be converted to a purchase invoice or a order.
+A purchase quote can be used as a preliminary draft for a purchase order, and the order can then be converted to a purchase invoice or an order.
 
 
 ## <a name="to-create-a-purchase-quote"></a>To create a purchase quote
@@ -27,11 +27,11 @@ A purchase quote can be used as a preliminary draft for a purchase order, and th
 2. Create a new document, in the same way as you make a purchase order. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>To convert a purchase quote to a purchase order
-When you have accepted the vendors quote, you can convert it to a purchase invoice or ordfer to process the purchase.
+When you have accepted the vendor's quote, you can convert it to a purchase invoice or order to process the purchase.
 
 1. Open a purchase quote that is ready to convert, and then choose the **Make Order** action.
 
-The purchase quote is removed from the database. A purchase invoice or a sales order is created based on the information in the purchase quote in which you can process the purchase. In the **Quote No.** field on the purchase invoice or purchase order, you can see the number of the purchase quote that it was made from.
+The purchase quote is removed from the database. A purchase invoice or a purchase order is created based on the information in the purchase quote in which you can process the purchase. In the **Quote No.** field on the purchase invoice or purchase order, you can see the number of the purchase quote that it was made from.
 
 ## <a name="see-also"></a>See Also
 [Purchasing](purchasing-manage-purchasing.md)  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 56d191c465b611c1764cf3c97e507c4952fe6287
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-enable-automated-data-capture-systems-adcs"></a>How to: Enable Automated Data Capture Systems (ADCS)
@@ -28,7 +28,7 @@ Based on the needs of your warehouse, you define the amount of information displ
 - Text information.  
 - Messages to show confirmations or errors about activities performed and registered by the handheld device user.
 
-For more information, see [Configuring an Automated Data Capture System](https://msdn.microsoft.com/en-us/library/dd338742.aspx) on MSDN.
+For more information, see [Configuring an Automated Data Capture System](/dynamics-nav/Configuring-Automated-Data-Capture-System) in the developer and IT-pro help.
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>To set up a warehouse to use ADCS  
 To use ADCS, you must specify which warehouse locations use the technology.  
@@ -107,7 +107,7 @@ When you have created a miniform, the next steps are to create functions and to 
 
 In the [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment, edit the code for the **Handling Codeunit** field to create or modify code to perform the required action or response.
 
-For more information, see [Configuring an Automated Data Capture System](https://msdn.microsoft.com/en-us/library/dd338742.aspx) on MSDN.
+For more information, see [Configuring an Automated Data Capture System](/dynamics-nav/Configuring-Automated-Data-Capture-System) in the developer and IT-pro help.
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

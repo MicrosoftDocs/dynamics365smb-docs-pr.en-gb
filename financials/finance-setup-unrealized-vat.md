@@ -13,10 +13,10 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 79851c90a2a2fd8ac2e744173a04b7eda50b98e8
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 9a51b767006911a26e4e3a7abd55fbbeda05e0bc
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -47,10 +47,10 @@ To use accounts for unrealised VAT, follow these steps:
 
     > [!NOTE]  
 >   The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for sales VAT.
-7. In the **Purch. VAT Unreal. Account** field, enter the general ledger count for unrealized purchase VAT.
+7. In the **Purch. VAT Unreal. Account** field, enter the general ledger account for unrealised purchase VAT.
 
     > [!NOTE]  
->   The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for sales VAT.
+>   The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase VAT.
 
 ## <a name="see-also"></a>See Also
 [Setting Up Value Added Tax](finance-setup-vat.md)

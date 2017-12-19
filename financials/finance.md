@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 203449e8a7f032dbcb7b3d014c3198e0a2e7847a
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="finance"></a>Finance
@@ -37,7 +37,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Manage inventory and manufacturing costs, report costs, and reconcile costs with the general ledger.|[Managing Inventory Costs](finance-manage-inventory-costs.md)|
 | Understand the general ledger and the chart of accounts. |[Understanding the General Ledger and the COA](finance-general-ledger.md) |
 | Add dimensions for richer business intelligence. |[Working with Dimensions](finance-dimensions.md) |
-| Create budgets to forecast different financial activities and assign dimensions for business intelligence purposes. |[How to: Create Budgets](finance-how-create-budgets.md) |
+| Create G/L budgets to forecast different financial activities and assign dimensions for business intelligence purposes. |[How to: Create G/L Budgets](finance-how-create-budgets.md) |
 |Record income or expenses directly in the general ledger without posting dedicated business documents.|[How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)|
 |Post reversing entries to undo value postings in the general journal or quantity postings on purchase and sales documents. |[How to: Reverse Postings](finance-how-reverse-journal-posting.md)|
 |Allocate an entry in a general journal to several different accounts when you post the journal. |[How to: Allocate Costs and Income](year-allocate-costs-income.md) |

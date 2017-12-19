@@ -13,10 +13,10 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>How to: Set Up Job Responsibilities for Contact Persons
@@ -24,13 +24,13 @@ You can add information about the job responsibilities of contact persons to ind
 
 Using job responsibilities on contacts is a two-step process. First, you define the job responsibility code. You only have to perform this step one time for each job responsibility. Once you have a job responsibility code, you can start to assign the code to contact persons.
 
-## <a name="to-define-a-job-responsibility-code"></a>to define a job responsibility code
+## <a name="to-define-a-job-responsibility-code"></a>To define a job responsibility code
 The job responsibility code defines the type or category of the job, such a MARKETING or PURCHASE. You can have several job responsibility codes. To define the job responsibility, you use the **Job Responsibilities** window.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Responsibilities**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
 
-## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>to assign job responsibilities to a contact person
+## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>To assign job responsibilities to a contact person
 You cannot assign job responsibilities to contact companies.
 
 1. Open the contact person.

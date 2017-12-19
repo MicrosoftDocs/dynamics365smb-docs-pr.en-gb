@@ -10,24 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/01/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 126c8da9b9ef80e954510fa8e5089906d7dd6f01
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>How to: Analyse Actual Amounts Versus Budgeted Amounts
 As a part of gathering, analysing, and sharing your company data, you view actual amounts compared to budgeted amounts for all accounts and for several periods.
 
-To analyse budgeted amounts, you must first create budgets. For more information, see [How to: Create Budgets](finance-how-create-budgets.md).
+To analyse budgeted amounts, you must first create G(L budgets. For more information, see [How to: Create G/L Budgets](finance-how-create-budgets.md).
 
 > [!NOTE]  
 >   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
-## <a name="to-view-a-budget"></a>To view a budget
+## <a name="to-view-a-gl-budget"></a>To view a G/L budget
 In a budget with dimensions, you can filter the entries and see specific budgets.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Budgets**, and then choose the related link.
@@ -68,7 +68,7 @@ Instead of viewing the actual and budgeted amounts for all accounts within a sin
 4. To see a specification of an amount shown, choose the field.  
 
 ## <a name="see-also"></a>See Also
-[Business Intelligence](bi.md)
+[Business Intelligence](bi.md)  
 [How to: Work with Account Schedules](bi-how-work-account-schedule.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

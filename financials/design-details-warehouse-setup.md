@@ -1,8 +1,6 @@
 ---
 title: Design Details - Warehouse Setup | Microsoft Docs
-description: Warehouse functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] contains different levels of complexity, as defined by licence permissions in the offered granules. The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license.
-services: project-madeira
-documentationcenter: 
+description: Warehouse functionality in Dynamics 365 contains different levels of complexity, as defined by licence permissions in the offered granules. The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c6d60ad75a8bf4f758a5e2fbc0ffa10b8929899
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-warehouse-setup"></a>Design Details: Warehouse Setup
@@ -41,7 +39,7 @@ The following table shows which granules are required to define different wareho
 
 |Complexity Level|Description|UI Document|CRONUS Location|Minimum Granule Requirement|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
-|0|No dedicated warehouse activity.<br /><br /> Receive/ship posting from orders.|Order|BLUE|Basic Inventory|  
+|1|No dedicated warehouse activity.<br /><br /> Receive/ship posting from orders.|Order|BLUE|Basic Inventory|  
 |2|No dedicated warehouse activity.<br /><br /> Receive/ship posting from orders.<br /><br /> Bin code is required.|Order, with bin code|SILVER|Basic Inventory/Bin|  
 |3 <br /><br /> **NOTE**: Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.|Basic warehouse activity, order-by-order.<br /><br /> Receive/ship posting from inventory put-away/pick documents. <br /><br /> Bin code is required.|Inventory Put-away/Inventory Movement/Inventory Pick, with bin code|(SILVER + Require Put-away or Require Put-away)|Basic Inventory/Bin/Put Away/Pick|  
 |4|Advanced warehouse activity, for multiple orders.<br /><br /> Consolidated receive/ship posting based on warehouse put-away/pick registrations.|Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Pick Worksheet|GREEN|Basic Inventory/Warehouse Receipt/Put Away/Pick/Warehouse Shipment|  

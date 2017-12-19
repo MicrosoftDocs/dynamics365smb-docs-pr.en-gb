@@ -11,10 +11,10 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 68a4563aab0edc6a0ac5b8cbcc5e053c449f20f8
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 7acca4df366752355e5bf28ace6c82fbca196725
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Setting Up [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -45,10 +45,10 @@ Some areas require you to be an administrator in your [!INCLUDE[d365fin](include
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  
-[Sales](sales-manage-sales.md)
+[Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Inventory](inventory-manage-inventory.md)    
-[Project Management](projects-manage-projects.md)
+[Project Management](projects-manage-projects.md)  
 [Fixed Assets](fa-manage.md)    
 [Assembly Management](assembly-assemble-items.md)  
 [Manufacturing](production-manage-manufacturing.md)  

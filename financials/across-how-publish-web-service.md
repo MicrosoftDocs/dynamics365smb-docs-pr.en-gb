@@ -1,6 +1,6 @@
 ---
 title: Expose objects as web services | Microsoft Docs
-description: Publish [!INCLUDE[d365fin](includes/d365fin_md.md)] objects as web services, they are immediately available on the network.
+description: Publish objects as web services to make them immediately available on the network.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: af1aef6ec730083c49b17ae8c0c9e39c7f663244
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 0ffce108abbe24ec70f31c8a8447e3b6a379b32c
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-publish-a-web-service"></a>How to: Publish a Web Service
@@ -23,12 +23,11 @@ Web services are a lightweight way to make application functionality available t
 You can set up a web service in the Windows client or in the Web client. You must then publish the web service so that it is available to service requests over the network. Users can discover web services by pointing a browser at the server location and requesting a list of available services. When you publish a web service, it is immediately available over the network for authenticated users. All authorised users can access metadata for web services, but only users who have sufficient permissions can access actual data.
 
 ## <a name="creating-and-publishing-a-web-service"></a>Creating and Publishing a Web Service  
- The following steps explain how to create and publish a web service.  
+The following steps explain how to create and publish a web service.  
 
-#### <a name="to-create-and-publish-a-web-service"></a>To create and publish a web service  
+### <a name="to-create-and-publish-a-web-service"></a>To create and publish a web service  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Web Services**, and then choose the related link.  
-
 2.  In the **Web Services** page, choose **New**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
@@ -38,23 +37,22 @@ You can set up a web service in the Windows client or in the Web client. You mus
 
 3.  Select the check box in the **Published** column.  
 
-     When you publish the web service, in the **OData URL** and **SOAP URL** fields, you can see the URLs that are generated for the web service. You can test the web service immediately by choosing the links in the **OData URL** and **SOAP URL** fields. Optionally, you can copy the value of the field and save it for later use.  
+When you publish the web service, in the **OData URL** and **SOAP URL** fields, you can see the URLs that are generated for the web service. You can test the web service immediately by choosing the links in the **OData URL** and **SOAP URL** fields. Optionally, you can copy the value of the field and save it for later use.  
 
 After you publish a web service, it is available to external parties. You can verify the availability of that web service by using a browser, or you can choose the link in the **OData URL** and **SOAP URL** fields in the **Web Services** window. The following procedure illustrates how you can verify the availability of the web service for later use.  
 
-#### <a name="to-verify-the-availability-of-a-web-service"></a>To verify the availability of a web service  
+### <a name="to-verify-the-availability-of-a-web-service"></a>To verify the availability of a web service  
 
-1.  In your browser, enter the relevant URL. The following table illustrates the types of URLs that you can enter.  
-
-    >    [!div class="mx-tdBreakAll"]
-    >    |Web service type|Syntax|Example|  
-    >    |----------------|------|-------|
-    >    |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |  
-    >    |OData |https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    The company name is case-sensitive.|
+1.  In your browser, enter the relevant URL. The following table illustrates the types of URLs that you can enter for different web service types.  
+> [!div class="mx-tdBreakAll"]
+> |Type|Syntax|Example|
+> |----------------|------|-------|
+> |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |
+> |OData |https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    The company name is case-sensitive.|
 
 2.  Review the information that is displayed in the browser. Verify that you can see the name of the web service that you have created.  
 
- When you access a web service, and you want to write data back to [!INCLUDE[d365fin](includes/d365fin_md.md)], you must specify the company name. You can specify the company as part of the URI as shown in the examples, or you can specify the company as part of the query parameters. For example, the following URIs point to the same OData web service and are both valid URIs.  
+When you access a web service, and you want to write data back to [!INCLUDE[d365fin](includes/d365fin_md.md)], you must specify the company name. You can specify the company as part of the URI as shown in the examples, or you can specify the company as part of the query parameters. For example, the following URIs point to the same OData web service and are both valid URIs.  
 
 ```  
 https://localhost:7048/server/OData/Company('CRONUS International Ltd.')/Customer  
@@ -65,5 +63,5 @@ https://localhost:7048/server/OData/Customer?company='CRONUS International Ltd.'
 ```  
 
 ## <a name="see-also"></a>See Also  
-[Setup and Administration in Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Setup and Administration](admin-setup-and-administration.md)  
 
