@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 508b45bab8b2ea98ae868c67e7e28c1e0a528040
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Set Up Complex Application Areas Using Best Practices
@@ -31,7 +31,10 @@ Entering the correct setup values from the start is important to the success of 
 -   [Setup Best Practices: Costing Method](setup-best-practices-costing-method.md)  
 
 ## <a name="see-also"></a>See Also  
- [Design Details: Supply Planning](design-details-supply-planning.md)   
- [Design Details: Costing Methods](design-details-costing-methods.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Design Details: Supply Planning](design-details-supply-planning.md)   
+[Design Details: Costing Methods](design-details-costing-methods.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

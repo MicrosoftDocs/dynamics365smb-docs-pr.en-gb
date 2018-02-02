@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
 ms.openlocfilehash: 066a2857532f062c6dcfe6deccc27423c1431b74
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="service-management"></a>Service Management
@@ -46,4 +46,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Receivables](receivables-manage-receivables.md)   
 [Jobs](projects-how-create-jobs.md)   
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 
