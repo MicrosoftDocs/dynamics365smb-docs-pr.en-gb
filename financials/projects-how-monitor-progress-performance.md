@@ -13,13 +13,13 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 07/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 076b509ab5e9cf0f87f0910de11e49cda17f330a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 22dc57e01941927dfc2077eb1e48645cfc7b56de
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-monitor-job-progress-and-performance"></a>How to: Monitor Job Progress and Performance
+# <a name="monitor-job-progress-and-performance"></a>Monitor Job Progress and Performance
 As a job progresses, materials, resources, and other expenses are consumed and must be posted to the job. Work in Process (WIP) is a feature that enables you to estimate the financial value of jobs in the general ledger while the jobs are ongoing. In many cases, you might post expenses for a job before invoicing a job. When only expenses have been posted, your financial statement will be inaccurate. For more information, see [Understanding WIP Methods](projects-understanding-wip.md).
 
 To track the value in the general ledger, you can calculate WIP and post the value to the general ledger.
@@ -50,7 +50,7 @@ You can create a job WIP method that reflects the needs of your organisation. Af
 When you create a new job, you must specify which job WIP method that applies. In some cases, which Job WIP method that you can use has been set up for you as a default.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.
-2. Choose the **New** action. For more information, see [How to: Create Jobs](projects-how-create-jobs.md).  
+2. Choose the **New** action. For more information, see [Create Jobs](projects-how-create-jobs.md).  
 3. In the **Job Card** window, in the **WIP Method** field, select a WIP method from the list. If a default method has been defined, you can select another option if needed.  
 
 ## <a name="to-calculate-wip"></a>To calculate WIP

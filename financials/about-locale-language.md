@@ -1,6 +1,6 @@
 ---
 title: Multilanguage and Localisation | Microsoft Docs
-description: Learn how language and locale influence your experience in Dynamics 365.
+description: Learn how language and locale influence your experience in Finance and Operations, Business edition.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords: language, locale, localization, culture
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 94a7a3e1da9f2ac3145f18102f86386cfc980ea5
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b46f4d9882297b147ecee1c86faf3eb19f4e9fa7
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="language-and-locale"></a>Language and Locale
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is supported in a number of markets and available in the languages that those markets require. This is a result of support for multiple languages at runtime in combination with support for legal requirements in the supported markets. This means that [!INCLUDE[d365fin](includes/d365fin_md.md)] can present itself in different languages. You can change the language that is used to display texts, and the change is immediate, once you have been automatically signed out and in again. The setting applies to you and not to everyone else in your company.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  is supported in a number of markets and available in the languages that those markets require. This is a result of support for multiple languages at runtime in combination with support for legal requirements in the supported markets. This means that [!INCLUDE[d365fin](includes/d365fin_md.md)] can present itself in different languages. You can change the language that is used to display texts, and the change is immediate, once you have been automatically signed out and in again. The setting applies to you and not to everyone else in your company.  
 
 For example, if you are Canadian, you can see the user interface in English and in French, but it is still the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)] in all other aspects. It is not the same as, say, [!INCLUDE[d365fin](includes/d365fin_md.md)] in the United Kingdom.  
 
@@ -28,7 +28,7 @@ For example, if you are Canadian, you can see the user interface in English and 
 Changing the texts that are stored as application data is not part of the multilanguage capability. This is an application design issue. Examples of such texts are the names of items in the inventory or the comments for a customer. In other words, these types of text are not translated.  
 
 > [!NOTE]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] only supports a single character set for data. Therefore some characters may not be supported in your tenant, and you may experience problems when retrieving data that was entered using a different character set. For instance, your tenant may support only English and Russian characters and if you enter data in a different language, it may not be stored correctly. You should contact your system administrator to make sure you understand which languages are supported for your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  [!INCLUDE[d365fin](includes/d365fin_md.md)]  only supports a single character set for data. Therefore some characters may not be supported in your tenant, and you may experience problems when retrieving data that was entered using a different character set. For instance, your tenant may support only English and Russian characters and if you enter data in a different language, it may not be stored correctly. You should contact your system administrator to make sure you understand which languages are supported for your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="changing-the-locale"></a>Changing the Locale
 Locale is different from both language and legal requirements in local markets. Locale determines how your data presents itself in terms of comma separator, aligned to the left or to the right, and certain other settings. The locale also determines some of the system elements in the browser, such as the action to create a new item in a list, for example.  

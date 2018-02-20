@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 04d7703df0c1b5e4da8996f00b5f1eed293cbf56
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dd090720943d0d7271200e087642a80157cbdbbd
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-prepayment-invoices"></a>How to: Create Prepayment Invoices
+# <a name="create-prepayment-invoices"></a>Create Prepayment Invoices
 If you require your customers to submit payment before you ship an order to them, or if your vendor requires you to submit payment before they ship an order to you, you can use the prepayment functionality.  
 
 After you create a sales or purchase order, you can create a prepayment invoice. You can use the default percentages for each sales or purchase line, or you can adjust the amount as necessary. For example, you can specify a total amount for the entire order.  
@@ -28,7 +28,7 @@ The following procedure describes how to invoice a prepayment for a sales orders
 
 ## <a name="to-create-a-prepayment-invoice"></a>To create a prepayment invoice  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
-2. Create a new sales order. For more information, see [How to: sell Products](sales-how-sell-products.md).  
+2. Create a new sales order. For more information, see [sell Products](sales-how-sell-products.md).  
 
     On the **Prepayment** FastTab, the **Prepayment %** field will be filled in automatically if there is a default prepayment percentage on the customer card. You can change the contents of the field. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.  
 

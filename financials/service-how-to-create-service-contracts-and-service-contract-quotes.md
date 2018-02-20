@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ded6ef2b93c2ab038472609093ef7e5ad3d88
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d4ad6854c361bf254c6acec44f460afa5e100ba
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-service-contracts-and-service-contract-quotes"></a>How to: Work with Service Contracts and Service Contract Quotes
+# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Work with Service Contracts and Service Contract Quotes
 You can create a service contract either manually or from a service contract quote. You can use a service contract quote as a forerunner of a service contract, in which your company makes an offer to the customer and obtains customer approval before you can convert it to a service contract. The procedures for creating either a service contract or service contract quote are similar.  
   
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>To create a service contract or service contract quote  
@@ -199,7 +199,7 @@ You may need to cancel a service contract when the contract has expired or has b
 You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote. [!INCLUDE[d365fin](includes/d365fin_md.md)] files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts. You can file a contract or quote yourself by choosing the **File Contract** action on the **Service Contracts** or **Service Contract Quotes** pages. If you want to view your archived contracts of quotes by searching for **Filed Contracts**.
 
 ## <a name="see-also"></a>See Also  
-[How to: Set Up Service Contracts](service-how-setup-service-contracts.md)  
+[Set Up Service Contracts](service-how-setup-service-contracts.md)  
 [Service Management](service-service.md)  
-[How to: Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)  
+[Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)  
 

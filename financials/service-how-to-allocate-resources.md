@@ -11,15 +11,15 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 462400f4a404592ec8f63e6a5e47e45c2158b7ea
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e975a945b878c39dc095e2e129a4ac0c02ee6c29
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-allocate-resources"></a>How to: Allocate Resources
-The key element to service management is the people who supply service. You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to assign the appropriate people to the appropriate jobs. Assignments can be based on service zones where the people are located or where the service occurs. In addition, you can group resources together when responding to service requests. For more information, see [How to: Set Up Resource Allocation](service-how-setup-resource-allocation.md).
+# <a name="allocate-resources"></a>Allocate Resources
+The key element to service management is the people who supply service. You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to assign the appropriate people to the appropriate jobs. Assignments can be based on service zones where the people are located or where the service occurs. In addition, you can group resources together when responding to service requests. For more information, see [Set Up Resource Allocation](service-how-setup-resource-allocation.md).
 
 You can allocate resources, for example, technicians, by using the **Dispatch Board**, or from a service order. You can use resource availability to allocate resources to perform the service tasks in the orders or quotes.
 
@@ -142,6 +142,6 @@ You can cancel resource allocations for service tasks without reallocating the t
     > In the **Status** field, the **Reallocation Needed** option is automatically selected. If the repair status of the service item in the entry is **Initial**, the repair status is changed to **Referred**, that is, no service has been started. If the repair status is **In Process**, it is changed to **Partly Serviced**, that is, some service has been completed.
 
 ## <a name="see-also"></a>See Also
-[How to: Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
+[Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
 [Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
 

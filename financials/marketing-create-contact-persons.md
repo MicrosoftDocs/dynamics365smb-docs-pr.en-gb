@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 59ab4fdc2cedb39296985dfaf9c5ac66fd5bf61d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 473cf43c227793e4e606c893154caf28466fdff7
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-contact-persons"></a>Creating Contact Persons
@@ -32,14 +32,14 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Provide information about a contact person. |[How to: Create Contact Persons](marketing-how-create-contact-persons.md) |
-| Set up an alternate address for a contact. |[How to: Assign Alternative Addresses](marketing-how-assign-alternate-address.md) |
-| Describe the business relationship of a company contact. |[How to: Set Up Job Responsibilities on Contacts](marketing-job-responsibilities.md) |
-| Describe the organisational level of your contacts. |[How to: Set Up Organizational Levels for Contact Persons](marketing-organizational-levels.md) |
+| Provide information about a contact person. |[Create Contact Persons](marketing-how-create-contact-persons.md) |
+| Set up an alternate address for a contact. |[Assign Alternative Addresses](marketing-how-assign-alternate-address.md) |
+| Describe the business relationship of a company contact. |[Set Up Job Responsibilities on Contacts](marketing-job-responsibilities.md) |
+| Describe the organisational level of your contacts. |[Set Up Organizational Levels for Contact Persons](marketing-organizational-levels.md) |
 | Assign mailing groups your contacts |[Assigning Mailing Groups to a Contact](marketing-mailing-groups.md) |
 
 ## <a name="see-also"></a>See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
 [Creating and Managing Contacts]()  
-[Working with Dynamics 365](ui-work-product.md)
+[Working with Finance and Operations, Business edition](ui-work-product.md)
 

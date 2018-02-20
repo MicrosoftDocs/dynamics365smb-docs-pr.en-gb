@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7ce4b45d740e50bba8256e72fcf43c70ea85922c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 58c243000bea5b70666b2a08cdd5696444e22f0f
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Walkthrough: Setting Up and Using a Purchase Approval Workflow
@@ -158,14 +158,14 @@ You have now set up and tested a simple approval workflow based on the first two
 
 The generic version [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a number of workflow templates for scenarios that are supported by the application code. Most of these are for approval workflows. For more information, see Workflow Templates.  
 
-You define variations of workflows by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](across-how-to-create-workflows.md).  
+You define variations of workflows by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
 If a business scenario requires a workflow event or response that is not supported, a Microsoft partner must implement them by customising the application code. For more information, see [Walkthrough: Implementing New Workflow Events and Responses](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) in the developer and IT-pro help.  
 
 ## <a name="see-also"></a>See Also  
-[How to: Set Up Approval Users](across-how-to-set-up-approval-users.md)   
+[Set Up Approval Users](across-how-to-set-up-approval-users.md)   
 [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
-[How to: Create Workflows](across-how-to-create-workflows.md)   
-[How to: Use Approval Workflows](across-how-use-approval-workflows.md)   
+[Create Workflows](across-how-to-create-workflows.md)   
+[Use Approval Workflows](across-how-use-approval-workflows.md)   
 [Workflow](across-workflow.md)
 

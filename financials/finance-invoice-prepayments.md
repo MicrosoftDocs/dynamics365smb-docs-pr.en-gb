@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 29e4380312724b08a7e250a65288d75d27444df0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 045cabbaab1b7978402524f408caee87ce8e53e2
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="invoicing-prepayments"></a>Invoicing Prepayments
@@ -28,9 +28,9 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
 
 |**To**|**See**|  
 |------------|-------------|  
-|Set up prepayment posting groups and number series, and set up default prepayment percentages for customers, vendors, and items.|[How to: Set Up Prepayments](finance-set-up-prepayments.md)|
-|Create an order, adjust the prepayment amounts, and issue an invoice for prepayment amounts.|[How to: Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md)|  
-|Issue an additional prepayment invoice, either for additional items or for an additional deposit on the original order, or issue a prepayment credit memo.|[How to: Correct Prepayments](finance-how-to-correct-prepayments.md)|  
+|Set up prepayment posting groups and number series, and set up default prepayment percentages for customers, vendors, and items.|[Set Up Prepayments](finance-set-up-prepayments.md)|
+|Create an order, adjust the prepayment amounts, and issue an invoice for prepayment amounts.|[Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md)|  
+|Issue an additional prepayment invoice, either for additional items or for an additional deposit on the original order, or issue a prepayment credit memo.|[Correct Prepayments](finance-how-to-correct-prepayments.md)|  
 
 ## <a name="see-also"></a>See Also  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

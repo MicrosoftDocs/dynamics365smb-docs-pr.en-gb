@@ -1,6 +1,6 @@
 ---
 title: Walkthrough - Receiving and Putting Away in Basic Warehouse Configurations | Microsoft Docs
-description: In Dynamics 365, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
+description: In Finance and Operations, Business edition, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 52b017591b389c883e8a0bbeb35c1e3a3a9e7377
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b420bc1cc0707824385cda832ac905c016cdd706
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations
@@ -134,11 +134,11 @@ In the **Inventory Put-away** window, you can manage all inbound warehouse activ
     The 40 loudspeakers are now registered as put away in bin S-01-0001, and a positive item ledger entry is created reflecting the posted purchase receipt.  
 
 ## <a name="see-also"></a>See Also  
- [How to: Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)   
- [How to: Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [How to: Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [How to: Pick for Production or Assembly](warehouse-how-to-pick-for-production.md)   
- [How to: Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)   
+ [Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md)   
+ [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

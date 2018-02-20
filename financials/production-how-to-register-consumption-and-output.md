@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a60e63e9741f81aa6efcf8b6a4780b5b464fe440
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 493c6e24a42229bc6e5223319ca66c103ee08f96
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-consumption-and-output-for-one-released-production-order-line"></a>How to: Register Consumption and Output for One Released Production order line
+# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Register Consumption and Output for One Released Production order line
 This execution task is performed in the **Production Journal** window. The journal combines the functions of the separate consumption journal and output journals into one journal. The combined journal is accessed directly from a released production order. Its main purpose is to manually post the consumption of components, the quantity of end items produced, and the time spent in operations. The values are posted to ledger entries under the released production order. Consumption quantities are posted as negative item ledger entries, output quantities are posted as positive ledger entries, and times spent are posted as capacity ledger entries. Such posted values can also be viewed at the bottom of the journal as actual quantities.  
 
 > [!NOTE]  
@@ -32,7 +32,7 @@ This execution task is performed in the **Production Journal** window. The journ
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon enter **Released Prod. Orders**, and then choose the related link.  
 2.  Open a released production order line that is ready for registration, and then on the **Lines** FastTab, choose the **Line** action, and then choose the **Production Journal** action.  
 
-    The **Production Journal** window opens showing journal lines for the production order line according to the **Prod. Order Component** and **Prod. Order Routing** windows. These lines originate from the production BOM and routing assigned to the item that is being produced. For more information, see [How to: Create Production BOMs](production-how-to-create-routings.md).  
+    The **Production Journal** window opens showing journal lines for the production order line according to the **Prod. Order Component** and **Prod. Order Routing** windows. These lines originate from the production BOM and routing assigned to the item that is being produced. For more information, see [Create Production BOMs](production-how-to-create-routings.md).  
 
 3.  In the **Posting Date** field at the top of the journal, enter a posting date that applies to all lines. The work date is entered by default. The field is meant as a quick way to align posting dates on all lines, if relevant.  
 

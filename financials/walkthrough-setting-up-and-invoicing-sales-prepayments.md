@@ -1,6 +1,6 @@
 ---
 title: Walkthrough - Setting Up and Invoicing Sales Prepayments | Microsoft Docs
-description: Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You may require a deposit before you manufacture items to order, or you may require payment before you ship items to a customer. You use the prepayments functionality in Dynamics 365 to invoice and collect deposits that are required from customers or remit deposits to vendors. Thus, you can make sure that all payments are posted against an invoice.
+description: Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You may require a deposit before you manufacture items to order, or you may require payment before you ship items to a customer. You use the prepayments functionality in Finance and Operations, Business edition to invoice and collect deposits that are required from customers or remit deposits to vendors. Thus, you can make sure that all payments are posted against an invoice.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: fbdeb6b9dc8c96b09ded933ec987b8c60098bfcf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cd74d543168f1f96f55141aace571d6d701e3de1
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Walkthrough: Setting Up and Invoicing Sales Prepayments
@@ -128,7 +128,7 @@ Susan creates the prepayment invoice and sends it to the customer.
 
     The **Prepayment %** field on the line with item **1100** contains **40**. This is the percentage you entered in the **Sales Prepayment Percentages** window for item **1100** and customer **20000**.  
 
-    For more information, see [How to: Set Up Prepayments](finance-set-up-prepayments.md).  
+    For more information, see [Set Up Prepayments](finance-set-up-prepayments.md).  
 8. Choose the **Statistics** action.  
 9. On the **Prepayment** FastTab, the **Prepmt. Line Amount Excl. VAT** field contains **1,560**. If you create a prepayment invoice for the order now, then this is the amount that is displayed on the invoice.  
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fd4b38964a7f6d1a2001a1bd9e5cecb80b62630c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3a716a33280d765911ac743b6a00cdeee24f45ab
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-print-direct-sales-and-purchase-details-reports"></a>How to: Print Direct Sales and Purchase Details Reports
+# <a name="print-direct-sales-and-purchase-details-reports"></a>Print Direct Sales and Purchase Details Reports
 The **Direct Sales Details** and **Direct Purchase Details** reports include headers with order numbers and descriptions from sales and purchase documents.  
 
  You can filter or select data for these reports based on:  

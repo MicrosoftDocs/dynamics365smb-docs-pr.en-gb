@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 899bdda7448810b029216c66402b739004193a61
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 09748a2bc86a945ff26e581738f85bc6d55b777d
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Managing Interactions for Segments
@@ -45,8 +45,8 @@ In the **Segment** window, when you choose **Log**, the application records the 
 In the **Logged Segments** window, you can decide to create a follow-up segment containing the same contacts as the segment you have logged.
 
 ## <a name="see-also"></a>See Also
-[How to: Create Segments](marketing-how-create-segment.md)  
-[How to: Create Interactions for Segments](marketing-how-create-interactions.md)  
+[Create Segments](marketing-how-create-segment.md)  
+[Create Interactions for Segments](marketing-how-create-interactions.md)  
 [Managing Segments](marketing-segments.md)  
 [Recording Interactions With Contacts](marketing-interactions.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  

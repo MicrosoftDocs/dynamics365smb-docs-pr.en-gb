@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 50ea98d45875fa418d12c5ba378f26208d739126
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ece0a95f83868ac2657fdf41330e7d0a9cce37d6
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-jobs"></a>How to: Create Jobs
+# <a name="create-jobs"></a>Create Jobs
 When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.  
 
 The first layer consists of job tasks. You must create at least one job task per job because all posting refers to a job task. Having at least one job task in your job enables you to set up job planning lines and to post consumption to the job.
@@ -31,9 +31,6 @@ The layer structure enables you to divide the job into smaller tasks, and theref
 > [!NOTE]  
 >   The **New Job** action on the **Project Manager** Role Center launches an assisted setup that guides you through the steps of creating a job with integrated tasks and planning lines. The following procedure describes how to perform the steps manually.
 
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
-
 ## <a name="to-create-a-job-card"></a>To create a job card
 You create a job card and then create job task lines and job planning lines for it.
 
@@ -42,7 +39,7 @@ You create a job card and then create job task lines and job planning lines for 
 3. To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.
 
 > [!NOTE]  
->   If you are using time sheets with your job, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the job. For more information, see [How to: Set Up Timesheets](projects-how-setup-time-sheets.md).
+>   If you are using time sheets with your job, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the job. For more information, see [Set Up Timesheets](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>To create tasks for a job
 A key part of creating a job is to specify the various tasks involved in the job. You do this by adding new lines on the **Tasks** FastTab in the **Job Card** window, one task per line. Every job must have at least one task.

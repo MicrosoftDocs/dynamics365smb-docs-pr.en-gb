@@ -12,18 +12,18 @@ ms.workload: na
 ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 378be05a9b8f280252f0b8a3d461840790316b23
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ab5be6e74e9dd90b07a765692d1ff9192fe42688
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-preview-posting-results"></a>How to: Preview Posting Results
+# <a name="preview-posting-results"></a>Preview Posting Results
 On every document and journal that can be posted, you can choose the **Preview Posting** button to review the different types of entries that will be created when you post the document or journal.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>To preview G/L entries that will result from posting a purchase invoice
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.
-2. Create a purchase invoice. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+2. Create a purchase invoice. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. Choose **Preview Posting**.
 4. In the **Posting Preview** window, select **G/L Entry**, and then choose **Show Related Entries**.  
    The **G/L Entries Preview** window shows which entries will be created when you post the purchase invoice.

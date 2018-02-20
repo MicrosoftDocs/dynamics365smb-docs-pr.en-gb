@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 59faad50504bff05e6cdb1c78d00553e85faf47e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67cc593691b4d3fe6a13cd960dce150c1e552da0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Criteria for Transferring General Ledger Entries to Cost Entries
@@ -41,7 +41,7 @@ General ledger entries are not transferred if:
 
 ## <a name="see-also"></a>See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
- [How to: Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+ [Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
  [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
  [About Cost Accounting](finance-about-cost-accounting.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

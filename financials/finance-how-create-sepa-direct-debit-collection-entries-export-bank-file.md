@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 34fb52bd39036477b479a4de626225876cfe5800
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4a527467e40448d5ddd82a66b153c7cad761e7fb
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File
+# <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Create SEPA Direct Debit Collection Entries and Export to a Bank File
 To instruct the bank to transfer the payment amount from the customer’s bank account to your company’s account, you create a direct-debit collection, which holds information about the customer’s bank account, the affected sales invoices, and the direct-debit mandate. From the resulting direct-debit collection entry, you then export an XML file that you send or upload to your electronic bank for processing. Any payments that could not be processed by the bank will be communicated to you by your bank, and you must then manually reject the direct debit-collection entries in question.  
 
 > [!NOTE]  
@@ -63,10 +63,10 @@ If the exported file cannot be processed, for example because the customer is in
 
      The related direct-debit collection is closed.  
 
-You can now proceed to post receipts of payment for the involved sales invoices. You can do this as you typically post payment receipts, such as in the **Payment Registration** window, or you can post the related payment receipts directly from the **Direct Debit Collect. Entries** window. For more information, see [How to: Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
+You can now proceed to post receipts of payment for the involved sales invoices. You can do this as you typically post payment receipts, such as in the **Payment Registration** window, or you can post the related payment receipts directly from the **Direct Debit Collect. Entries** window. For more information, see [Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
 
 ## <a name="see-also"></a>See Also  
-[How to: Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
-[How to: Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
+[Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
+[Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 

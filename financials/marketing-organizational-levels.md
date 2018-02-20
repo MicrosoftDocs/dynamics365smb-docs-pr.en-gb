@@ -13,13 +13,13 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d101076c8a51b1c7a79606d207f79a826c89bf29
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5b6934b6ea4c07f6e3d90885dfa25d73e14bbb82
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>How to: Set Up Organisational Levels for Contact Persons
+# <a name="set-up-organizational-levels-for-contact-persons"></a>Set Up Organisational Levels for Contact Persons
 You can use organisational levels on your contacts to specify which position they have in the company, for example, top management. You can use this information when entering information about your contacts.
 
 Using organisational levels on contacts is a two-step process. First, you define the organisational level code. You only have to perform this step one time for each organisational level. Once you have an organisational level code, you can start to assign the code to contact persons.
@@ -38,7 +38,7 @@ You can assign organisational levels to contact persons only, not contact compan
 
 After you have assigned organisational levels to your contacts, you can use this information to create segments.
 
-After you have assigned job responsibilities to your contacts, you can use this information to select contacts for your segments. For more information, see [How to: Add Contacts to Segments](marketing-add-contact-segment.md).
+After you have assigned job responsibilities to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  

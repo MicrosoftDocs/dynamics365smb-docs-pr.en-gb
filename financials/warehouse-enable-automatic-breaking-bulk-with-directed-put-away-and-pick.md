@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 910596b9716ff944a1e491076b599ab6c39c8859
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a74223d585e4d72f6a9f4c8ccae108170d2d15bf
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>How to: Enable Automatic Breaking Bulk with Directed Put-away and Pick
+# <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Enable Automatic Breaking Bulk with Directed Put-away and Pick
 For locations that use directed put-away and pick, [!INCLUDE[d365fin](includes/d365fin_md.md)] can, in various situations, automatically breakbulk, that is, break a larger unit of measure into smaller units of measure, when it creates warehouse instructions that fulfil the needs of source documents, production orders, or internal picks and put-aways. To breakbulk sometimes also means gathering smaller units of measure, if necessary, to meet outbound requests by breaking the larger unit of measure on the source document or production order into the smaller units of measure that are available in the warehouse.   
 
 ## <a name="breakbulking-in-picks"></a>Breakbulking in Picks  

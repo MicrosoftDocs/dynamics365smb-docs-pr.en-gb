@@ -1,6 +1,6 @@
 ---
 title: Define Business Relation Codes on Contacts| Microsoft Docs
-description: Use business relations in Dynamics 365 to help with marketing and to indicate the business relationship you have with your  prospects, clients, and customers, for example, a bank or service supplier.
+description: Use business relations in Finance and Operations, Business edition to help with marketing and to indicate the business relationship you have with your  prospects, clients, and customers, for example, a bank or service supplier.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: marketing, prospect, contact, client, customer
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: ee7373ae4b58ce0d31bed5fbf853ae8e039833d4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a72563f5057a1f9136a2d2b3aced6f028dc24051
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-business-relations-on-contact-companies"></a>Setting Up Business Relations on Contact Companies
@@ -46,7 +46,7 @@ Repeat these steps to assign as many business relations as you want. You can als
 
 The number of business relations you have assigned to the contact is displayed in the **No. of Business Relations** field in the **Segmentation** section in the **Contact** window.
 
-After you have assigned business relations to your contacts, you can use this information to select contacts for your segments. For more information, see [How to: Add Contacts to Segments](marketing-add-contact-segment.md).
+After you have assigned business relations to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  

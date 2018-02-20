@@ -1,6 +1,6 @@
 ---
-title: Set up email in Dynamics 365 Business edition | Microsoft Docs
-description: Describes how to use the company's SMTP server to send and receive email messages within Dynamics 365, or alternatively how to use the email server settings created with the Office 365 subscription.
+title: Set up email in Finance and Operations, Business edition | Microsoft Docs
+description: Describes how to use the company's SMTP server to send and receive email messages within Finance and Operations, Business edition, or alternatively how to use the email server settings created with the Office 365 subscription.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 59d97a3bd838c80e66d62ed16c2bcb1c525938c4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2389c97c37a2b35da01c846b32a81a1c7bbf2bad
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>How to: Set Up Email Manually or Using the Assisted Setup
+# <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Set Up Email Manually or Using the Assisted Setup
 To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields in the **SMTP Mail Setup** window.
 
 > [!NOTE]  
@@ -36,8 +36,8 @@ You can either set email up manually or you can get help by using the **Email Se
 ## <a name="see-also"></a>See Also  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[How to: Send Documents by Email](ui-how-send-documents-email.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Send Documents by Email](ui-how-send-documents-email.md)  
+[Customising [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](madeira-outlook.md)  
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on My Mobile Device](install-mobile-app.md)
 

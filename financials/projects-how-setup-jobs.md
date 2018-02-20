@@ -13,13 +13,13 @@ ms.search.keywords: project management
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b0e8a73af6f979cb426db1bffc34d154fc439dce
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2c57b2bd4b4c99373d4ce16905fbf626e549bc1f
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-jobs"></a>How to: Set Up Jobs
+# <a name="set-up-jobs"></a>Set Up Jobs
 In the **Jobs Setup** window, you must specify how you want to use certain job features.
 
 On the individual job cards, you must set up prices for job items, job resources, and job G/L accounts, and you must set up job posting groups.
@@ -39,7 +39,7 @@ If you select the **Apply Usage Link** check box, then you can review informatio
 When the **Apply Usage Link** check box is selected, and the job planning line type is **Billable**, the Financial creates a job planning line of type **Budget** after you post the journal line.
 
 > [!NOTE]  
->   If the **Apply Usage Link** check box on the job card is selected, and the **Line Type** field on the job journal line is blank, then new job planning lines of line type **Budget** are created when you post job journal lines. If the **Apply Usage Link** check box on the job card is not selected, and the **Line Type** field on the job journal line is blank, then no job planning lines are created when you post job journal lines. For more information, see [How to: Record Usage for Jobs](projects-how-record-job-usage.md).
+>   If the **Apply Usage Link** check box on the job card is selected, and the **Line Type** field on the job journal line is blank, then new job planning lines of line type **Budget** are created when you post job journal lines. If the **Apply Usage Link** check box on the job card is not selected, and the **Line Type** field on the job journal line is blank, then no job planning lines are created when you post job journal lines. For more information, see [Record Usage for Jobs](projects-how-record-job-usage.md).
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.
 2. Select or deselect the **Apply Usage Link** check box.

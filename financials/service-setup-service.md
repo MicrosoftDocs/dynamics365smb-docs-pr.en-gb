@@ -13,10 +13,10 @@ ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7eac962e0c9863d8c6ed9bcff19f320687f217ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cee6dcc0c0f4f596b3f63dbafec344875edb4e33
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -31,18 +31,18 @@ The following table describes a sequence of tasks, with links to the topics that
   
 | To | See |
 | --- | --- |
-| Set up codes that automatically assign lines on service documents for services you deliver often. |[How to: Set Up Codes for Standard Services](service-how-setup-service-coding.md)|
-| Establish general settings that control aspects of Service Management Processes.|[How to: Configure Service Processes](service-setup-service-processes.md)|
-| Define how your organisation works with fault reporting. |[How to: Set Up Fault Reporting](service-how-setup-fault-reporting.md) |
-| Set up the service offerings that your company delivers to customers.|[How to: Set Up Service Offerings](service-how-setup-service-offerings.md)|
-| Provide troubleshooting guidelines that help service reps deliver faster service. |[How to: Set Up Troubleshooting](service-how-setup-troubleshooting.md) |
-| Set up resource allocation to make it easy to assign the right resource to a service task. |[How to: Set Up Resource Allocation](service-how-setup-resource-allocation.md) |
-| Define pricing for services, and set up additional service costs to assess on service orders. |[How to: Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)|
-| Set things up so you can track resource hours and service order status in order to forecast workloads and service needs.|[How to: Set Up Work Hours and Service Hours](service-how-setup-work-service-hours.md)|
-| Set up repair status options so that you can monitor progress on repairs. | [How to: Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)|
-| Set up a loaner program, so you can lend a substitute while you work on a service item. |[How to: Set Up a Loaner Program](service-how-setup-loaner-program.md) |
-| Set up service items and service item components. |[How to: Set Up Service Items](service-how-setup-service-items.md) |
-| Lay the groundwork for creating service contracts and contract quotes. |[How to: Set Up Service Contracts](service-how-setup-service-contracts.md) |
+| Set up codes that automatically assign lines on service documents for services you deliver often. |[Set Up Codes for Standard Services](service-how-setup-service-coding.md)|
+| Establish general settings that control aspects of Service Management Processes.|[Configure Service Processes](service-setup-service-processes.md)|
+| Define how your organisation works with fault reporting. |[Set Up Fault Reporting](service-how-setup-fault-reporting.md) |
+| Set up the service offerings that your company delivers to customers.|[Set Up Service Offerings](service-how-setup-service-offerings.md)|
+| Provide troubleshooting guidelines that help service reps deliver faster service. |[Set Up Troubleshooting](service-how-setup-troubleshooting.md) |
+| Set up resource allocation to make it easy to assign the right resource to a service task. |[Set Up Resource Allocation](service-how-setup-resource-allocation.md) |
+| Define pricing for services, and set up additional service costs to assess on service orders. |[Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)|
+| Set things up so you can track resource hours and service order status in order to forecast workloads and service needs.|[Set Up Work Hours and Service Hours](service-how-setup-work-service-hours.md)|
+| Set up repair status options so that you can monitor progress on repairs. | [Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)|
+| Set up a loaner program, so you can lend a substitute while you work on a service item. |[Set Up a Loaner Program](service-how-setup-loaner-program.md) |
+| Set up service items and service item components. |[Set Up Service Items](service-how-setup-service-items.md) |
+| Lay the groundwork for creating service contracts and contract quotes. |[Set Up Service Contracts](service-how-setup-service-contracts.md) |
 
 ## <a name="see-also"></a>See also 
 [Service Management](service-service.md)  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c94729c84470267421207a6edaa413116718f715
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0395cf37d56282684c2a6e4c2066fd9b249f16f0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Updating Report or Document Layouts
@@ -60,7 +60,7 @@ If no errors occur, then the updates is applied to the report layouts. If errors
   
  The most typical problem occurs when a field that is used on the layout has been removed from the report dataset. In this case, you will see a line in the error message that states that an item has been removed. To fix this issue, you will have to modify the layout and remove the field in question.  
   
- For more information, see [How to: Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
+ For more information, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
   
  After you modify the layout, try to update the layout again.  
   

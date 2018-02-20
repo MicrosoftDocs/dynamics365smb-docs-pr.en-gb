@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 147163d0b75853914e5b4bd3417c3525d29caefc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9b839b26814f730febc384ae1bca432a7c26852f
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-replan-or-refresh-production-orders-directly"></a>How to: Replan or Refresh Production Orders Directly
+# <a name="replan-or-refresh-production-orders-directly"></a>Replan or Refresh Production Orders Directly
 The **Replan** function on production orders is typically used after you have added or changed components that constitute underlying production orders. The function calculates changes made to components and routings lines, and it includes items on lower production BOM levels for which it may generate new production orders.  
 
 Based on the changes you have made to the components and routing lines, the Replan function calculates and plans for any new demand for the production order.  
@@ -68,7 +68,7 @@ You can either insert the production order lines manually or use the function th
 If you have amended production order lines, components, or routing lines, you must also refresh the information on the production order. In the following procedure, the components are calculated for a firm planned production order. The steps are similar for routing lines.
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
-2.  Choose the **New** action. For more information, see [How to: Create Production orders](production-how-to-create-production-orders.md).  
+2.  Choose the **New** action. For more information, see [Create Production orders](production-how-to-create-production-orders.md).  
 3.  Choose the **Refresh** action.
 4. In the **Refresh Production Order** window, select one of the following options:
 

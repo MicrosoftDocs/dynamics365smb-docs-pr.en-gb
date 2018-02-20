@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 37a79ad08113b16bf0240d4c92eac6464015db07
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f8cd19f97c530397dd6b499157e13340331aa3ba
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-bins"></a>How to: Create Bins
+# <a name="create-bins"></a>Create Bins
 The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually from the location card. You can also use a function in the **Bin Creation Worksheet** window to create bins automatically.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>To create a bin from the location card  
@@ -39,7 +39,7 @@ Before you start creating bins automatically, you should determine the kind of b
 > [!NOTE]  
 >  As soon as you use a bin, you cannot delete it unless it is empty. But if you want to use another bin-naming system, you can use the reclassification journal to in effect move your items to a new bin system. This process is manual and takes time, however, so it is best to set up your bins correctly from the start.  
 
-To work with the **Bin Creation Worksheet** window, you must be set up as a warehouse employee at the location where the bins exist. For more information, see [How to: Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).    
+To work with the **Bin Creation Worksheet** window, you must be set up as a warehouse employee at the location where the bins exist. For more information, see [Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).    
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Creation Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Bins** action.

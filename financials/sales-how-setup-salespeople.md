@@ -11,13 +11,13 @@ ms.search.keywords: sales rep
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c43577eaeac85631da3b86af82b76d97fb612cd2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 528d1735a8b725cf245ec4e1611c8140f413b49a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-salespeople"></a>How to: Set Up Salespeople
+# <a name="set-up-salespeople"></a>Set Up Salespeople
 Many companies want to follow an individual employee's performance as a basis for calculating the sales commission or bonus. See, for example, the **Salesperson Commissions** report. A company may also want to assign a salesperson to each of their contacts.
 
 When yo have set up a salesperson in the **Salespeople** window, you can select it in the **Salesperson Code** field on all relevant records, such as G/L account, customer, vendor, contacts, and campaign cards. Then, when you post or set up invoices, credit memos, journal lines, finance charge activities, and so on, the salesperson code is carried to the resulting ledger entries.
@@ -26,7 +26,7 @@ When yo have set up a salesperson in the **Salespeople** window, you can select 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.
 2. In the **Salespeople** window, choose the **New** action.
 
-You can use salespeople in various relationship management and marketing work. For example, you can assign tasks to salespeople, so that the tasks are incorporated in sales opportunities that the salesperson are assigned to. For more information, see [How to: Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
+You can use salespeople in various relationship management and marketing work. For example, you can assign tasks to salespeople, so that the tasks are incorporated in sales opportunities that the salesperson are assigned to. For more information, see [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="see-also"></a>See Also
 [Setting Up Sales](sales-setup-sales.md)  

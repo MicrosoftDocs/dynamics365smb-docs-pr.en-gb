@@ -1,8 +1,6 @@
 ---
-title: Using Dynamics 365 Business edition  with Outlook| Microsoft Docs
-description: Dynamics 365 Business edition  has deep integration with Office 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
-services: project-madeira
-documentationcenter: 
+title: Using Finance and Operations, Business edition with Outlook| Microsoft Docs
+description: This service has deep integration with Office 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -13,19 +11,19 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 473c21085c54c7f97f34404eeb18683cf4479e41
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e22e907667127508634ce56b9d40e4b9cad01f5
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Using Dynamics 365 for Finance and Operations, Business edition as your Business Inbox in Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)] introduces the ability to manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook add-ins, you can see financial data related to customers and vendors, as well as create and send financial documents, such as quotes and invoices.  
+# <a name="using-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Using Finance and Operations, Business edition as your Business Inbox in Outlook
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  introduces the ability to manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook add-ins, you can see financial data related to customers and vendors, as well as create and send financial documents, such as quotes and invoices.  
 
 ## <a name="getting-the-add-in"></a>Getting the Add-in
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], one of the steps in the Getting Started assisted setup is the **Run your business within Office 365** window. In that window, when you choose the **Set up in Outlook** button, you must specify your Office 365 user name and password. The [!INCLUDE[d365fin](includes/d365fin_md.md)] add-ins are then automatically added to your Outlook.  
 
-Then, when you open Outlook, you will see an email messages from Dynamics 365 Admin. The new add-in is added to the Outlook ribbon, and in Outlook Web Access, you can see it in the add-in ribbon, immediately above the body of the email message. The add-in itself will be updated periodically, and you'll get notified that a new version is ready for you in Outlook.  
+Then, when you open Outlook, you will see an email message from Finance and Operations, Business edition Admin. The new add-in is added to the Outlook ribbon, and in Outlook Web Access, you can see it in the add-in ribbon, immediately above the body of the email message. The add-in itself will be updated periodically, and you'll get notified that a new version is ready for you in Outlook.  
 
 Some companies using Office 365 restrict users’ permissions to deploy add-ins. So you must make sure that you have an Office 365 subscription that includes email and allows you to deploy add-ins. If you want to try out the add-in anyway, you can [try Office 365 for free](https://products.office.com/try).  
 

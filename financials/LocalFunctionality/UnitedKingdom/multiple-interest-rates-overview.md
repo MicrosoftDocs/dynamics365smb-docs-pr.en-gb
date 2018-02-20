@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6d3b5c7a73154b9ce03112524a50ea0ce822c692
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 27cb0056b74f2315b13ec585ef2fcee9398d314b
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="multiple-interest-rates-overview"></a>Multiple Interest Rates Overview
@@ -25,7 +25,7 @@ For each finance charge term code, you can specify multiple interest rates so th
 ## <a name="creating-finance-charges"></a>Creating Finance Charges  
  When you create a finance charge memo, the memo lines show the finance charges with different interest rates for each time period. For finance charge terms, you can define descriptions for each term, and you can define a description that is used when multiple interest rates are used.  
 
- To use multiple interest rates, you must first define a finance charge term, and you must then add multiple interest rate lines to the terms. For more information, see [How to: Set Up Multiple Interest Rates](how-to-set-up-multiple-interest-rates.md).  
+ To use multiple interest rates, you must first define a finance charge term, and you must then add multiple interest rate lines to the terms. For more information, see [Set Up Multiple Interest Rates](how-to-set-up-multiple-interest-rates.md).  
 
  If no multiple interest rates exist, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will use the interest rate and period that is defined in the **Finance Charge Terms** window for the whole period of calculation.  
 
@@ -34,6 +34,6 @@ For each finance charge term code, you can specify multiple interest rates so th
 
 ## <a name="see-also"></a>See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
- [How to: Set Up Multiple Interest Rates](how-to-set-up-multiple-interest-rates.md)   
- [How to: Collect Outstanding balances](../../receivables-collect-outstanding-balances.md)
+ [Set Up Multiple Interest Rates](how-to-set-up-multiple-interest-rates.md)   
+ [Collect Outstanding balances](../../receivables-collect-outstanding-balances.md)
 

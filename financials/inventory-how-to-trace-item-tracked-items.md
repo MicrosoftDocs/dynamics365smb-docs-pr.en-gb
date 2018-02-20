@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c9944bc25131a5cb51015483511bd7d4854f4c1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cc24989d2cf770cd88bbde23d483e3859ff4a68a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-trace-item-tracked-items"></a>How to: Trace Item-Tracked Items
+# <a name="trace-item-tracked-items"></a>Trace Item-Tracked Items
 You can see where an item-tracked item was used, including how and when it was received or produced, transferred, sold, consumed, or returned. You can also find all current instances of a specific serial or lot number in the database. You do this by using the Item Tracing and the Navigate features.  
 
  These features can be particularly useful in quality control when you need to find out which customers received products with a particular lot number or when you need to find out which lot a defective component came from.  
@@ -69,7 +69,7 @@ You can see where an item-tracked item was used, including how and when it was r
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Item Tracking](design-details-item-tracking.md)
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
-[How to: Reserve Items](inventory-how-to-reserve-items.md)  
+[Reserve Items](inventory-how-to-reserve-items.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7cafdcb9f6002d0732ee86b643b784d96e8c2aa1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-service-orders-and-credit-memos"></a>How to: Post Service Orders and Credit Memos
+# <a name="post-service-orders-and-credit-memos"></a>Post Service Orders and Credit Memos
 When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. The order must contain at least one service item line and one service line before you can post it. Should the order contain more than one service line, all the lines are posted at one time.  
 
 If you have a large number of service orders, you can save time by using a batch job to post them at the same time. You can run the batch job from any service order.
@@ -99,7 +99,7 @@ The following procedure shows how to post shipment of service line items in loca
   
 4. Choose **Actions**, **Posting**, **Post**. In the window that appears, choose **Ship**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] creates ledger entries (in the warranty ledger, item ledger, service ledger, or G/L), produces the posted service shipment document, and updates the relevant fields on the service lines of the service order.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  creates ledger entries (in the warranty ledger, item ledger, service ledger, or G/L), produces the posted service shipment document, and updates the relevant fields on the service lines of the service order.  
   
 If the location is set up to require warehouse handling, then the shipping and moving of service line items function in the same ways as for other source documents. The only difference is that service line items can be consumed either externally or internally and therefore require two different release functions.  
   
@@ -133,5 +133,5 @@ The following procedure describes shipment posting directly from a service order
   
 ## <a name="see-also"></a>See Also  
 [Posting in Service Management](service-service-posting.md)  
-[How to: Create a Service Order](service-how-to-create-service-orders.md)  
+[Create a Service Order](service-how-to-create-service-orders.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: How to Flush Components According to Operation Output | Microsoft Docs
-description: For items that are set up with backward flushing method, the default behaviour is to calculate and post component consumption when you change the status of a released production order to **Finished**. For more information, see Flushing Method.
+description: For items that are set up with backward flushing method, the default behavior is to calculate and post component consumption when you change the status of a released production order to **Finished**. For more information, see Flushing Method.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b58e897768848b50232b360f3822846d6dd316df
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f61e3150f1978795a20d4ad68656d6d1e72402a0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-flush-components-according-to-operation-output"></a>How to: Flush Components According to Operation Output
+# <a name="flush-components-according-to-operation-output"></a>Flush Components According to Operation Output
 For items that are set up with backward flushing method, the default behavior is to calculate and post component consumption when you change the status of a released production order to **Finished**.  
 
-If you also define routing link codes, then calculation and posting occurs when each operation is finished, and the quantity that was actually consumed in the operation is posted. For more information, see [How to: Create Routings](production-how-to-create-routings.md).  
+If you also define routing link codes, then calculation and posting occurs when each operation is finished, and the quantity that was actually consumed in the operation is posted. For more information, see [Create Routings](production-how-to-create-routings.md).  
 
 For example, if a production order to produce 800 meters requires 8 kg of a component, then when you post 200 meters as output, 2 kg are automatically posted as consumption.  
 
@@ -43,7 +43,7 @@ The following procedure shows how to combine backward flushing and routing link 
     >  Select **Pick+ Forward** if the component is used in a location that is set up for directed put-away and pick.  
 
 4.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Routings**, and then choose the related link.  
-5.  Define routing link codes for every operation that consumes the component. For more information, see [How to: Create Routings](production-how-to-create-routings.md).  
+5.  Define routing link codes for every operation that consumes the component. For more information, see [Create Routings ](production-how-to-create-routings.md).  
 6.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Production BOM**, and then choose the related link.  
 7.  Define routing link codes from each instance of the component to the operation where it is consumed.
 
@@ -51,7 +51,7 @@ The following procedure shows how to combine backward flushing and routing link 
     >  The component must have a routing link to the last operation in the routing.  
 
 ## <a name="see-also"></a>See Also  
-[How to: Create Production BOMs](production-how-to-create-production-boms.md)  
+[Create Production BOMs](production-how-to-create-production-boms.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Planning](production-planning.md)   

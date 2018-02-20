@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 050b0bd997629ca189cfbe035e361de7a252d079
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 04e5a95b7a926528cc26c254390d08e3bce6ad8a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="defining-and-allocating-costs"></a>Defining and Allocating Costs
@@ -38,7 +38,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |To|See|  
 |--------|---------|  
-|Set up allocation source and its targets.|[How to: Set Up Allocation Source and Targets](finance-how-to-set-up-allocation-source-and-targets.md)|  
+|Set up allocation source and its targets.|[Set Up Allocation Source and Targets](finance-how-to-set-up-allocation-source-and-targets.md)|  
 |Set up various filters for dynamic allocation bases.|[Setting Filters for Dynamic Allocation Bases](finance-setting-filters-for-dynamic-allocation-bases.md)|  
 |See an example of how to define a static allocation.|[Scenario Example: Defining Static Allocations Based on Allocation Ratio](finance-scenario-example-defining-static-allocations-based-on-allocation-ratio.md)|  
 |See an example of how to define a dynamic allocation.|[Scenario Example: Defining Dynamic Allocations Based on Items Sold](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)|  

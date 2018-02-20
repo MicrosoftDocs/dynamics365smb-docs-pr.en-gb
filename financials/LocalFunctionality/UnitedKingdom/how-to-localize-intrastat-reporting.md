@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d36e20a5ce2bf98c4b1a39572bd86e735f745b2a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6388fb9586b0a049f8f381a8d2cd64aef7d8a743
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-localize-intrastat-reporting"></a>How to: Localize Intrastat Reporting
+# <a name="localize-intrastat-reporting"></a>Localise Intrastat Reporting
 You must localize Intrastat reporting to be legally compliant. The code for the shipment method must be transferred from the Intrastat journal.  
 
 ## <a name="to-localize-intrastat-reporting"></a>To localize Intrastat reporting  

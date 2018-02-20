@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: eb9a20547c7eef346fa199eaa136211dcdd09dab
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fae5e37b8f1fcca84a474b2eac2039f7fc6d8245
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-send-electronic-documents"></a>How to: Send Electronic Documents
+# <a name="send-electronic-documents"></a>Send Electronic Documents
 The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports sending electronic invoices and credit memos in the PEPPOL format, which is supported by the largest document exchange service providers. A document exchange service provider dispatches electronic documents between trading partners. To provide support for other electronic document formats, you use the data exchange framework.  
 
- In the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)], a document exchange service is preconfigured and ready to be set up for your company. For more information, see [How to: Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md).  
+ In the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)], a document exchange service is preconfigured and ready to be set up for your company. For more information, see [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md).  
 
- To send a sales invoice as an electronic PEPPOL document, you select the **Electronic Document** option in the **Post and Send** dialogue box from where you can also set up the customer’s default document sending profile. First, you must set up various master data, such as company information, customers, items, and units of measure. These are used to identify the business partners and items when converting data in fields in [How to: Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
+ To send a sales invoice as an electronic PEPPOL document, you select the **Electronic Document** option in the **Post and Send** dialogue box from where you can also set up the customer’s default document sending profile. First, you must set up various master data, such as company information, customers, items, and units of measure. These are used to identify the business partners and items when converting data in fields in [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
 ### <a name="to-send-an-electronic-sales-invoice"></a>To send an electronic sales invoice  
 
@@ -50,11 +50,11 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports send
     >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. In the **Posted Sales Invoice** window, on the **Actions** tab, in the **General** group, choose **Activity Log** to view the status of the electronic document. For more information, see **Activity Log**.  
 
 ## <a name="see-also"></a>See Also  
-[How to: Invoice Sales](sales-how-invoice-sales.md)  
-[How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)  
-[How to: Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[How to: Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md)  
-[How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)  
+[Invoice Sales](sales-how-invoice-sales.md)  
+[Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)  
+[Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md)  
+[Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)  
 [Exchanging Data Electronically](across-data-exchange.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 

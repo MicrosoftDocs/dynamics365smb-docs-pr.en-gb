@@ -12,20 +12,20 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e926baa3d5348f9c275d3063b67be57b72f616ee
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-new-items"></a>How to: Register New Items
+# <a name="register-new-items"></a>Register New Items
 Items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
 
 Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
 
-The item card can be of type **Inventory** or **Service** to specify if the item is a physical unit or a labor time unit. Apart from some fields that relate to the physical aspects of an item, all fields on an item card function in the same way for inventory items and services. For more information about selling an item, see [How to: Sell Products](sales-how-sell-products.md) or [How to: Invoice Sales](sales-how-invoice-sales.md).
+The item card can be of type **Inventory** or **Service** to specify if the item is a physical unit or a labor time unit. Apart from some fields that relate to the physical aspects of an item, all fields on an item card function in the same way for inventory items and services. For more information about selling an item, see [Sell Products](sales-how-sell-products.md) or [Invoice Sales](sales-how-invoice-sales.md).
 
-An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [How to: Work with Bills of Material](inventory-how-work-BOMs.md).
+An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
 
 > [!NOTE]  
 >   If item templates exist for different item types, then a window appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
@@ -77,7 +77,5 @@ The vendors will now appear in the **Item Vendor Catalogue** window, which you o
   [Inventory](inventory-manage-inventory.md)  
   [Purchasing](purchasing-manage-purchasing.md)  
   [Sales](sales-manage-sales.md)  
-  [Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

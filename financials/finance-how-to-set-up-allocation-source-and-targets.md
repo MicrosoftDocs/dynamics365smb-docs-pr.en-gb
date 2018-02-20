@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1aa37745b232ec2535fe8060330d0bc7442dca3d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d4dcf5f95d5fc44d4b8fb72b55d905c876989a56
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-allocation-source-and-targets"></a>How to: Set Up Allocation Source and Targets
+# <a name="set-up-allocation-source-and-targets"></a>Set Up Allocation Source and Targets
 Each allocation consists of an allocation source and one or more allocation targets. The allocation source defines which costs will be allocated. The allocation targets determine where the costs will be allocated.  
 
 ## <a name="to-set-up-cost-allocations"></a>To set up cost allocations  

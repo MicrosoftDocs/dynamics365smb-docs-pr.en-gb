@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 45bfe558c8bdc1f7c0befc4c929e895c54b7d85f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3f371a772f710576a70bac4808b15be091a61d66
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cost-objects"></a>How to: Set Up Cost Objects
+# <a name="set-up-cost-objects"></a>Set Up Cost Objects
 Cost objects are projects, products, or services of a company. The chart of cost objects is similar to the dimension information for the general ledger. You can set up the chart of cost objects in the following ways:  
 
 * Transfer dimension values in the general ledger to the chart of cost objects. You can make any necessary adjustments after the transfer.  

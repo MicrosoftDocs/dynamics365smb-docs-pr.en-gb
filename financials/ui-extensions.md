@@ -1,6 +1,6 @@
 ---
-title: Installing Extensions to Customise Dynamics 365 Business edition | Microsoft Docs
-description: Learn about adding functionality and customising Dynamics 365 Business edition by installing extensions.
+title: Installing Extensions to Customise Finance and Operations, Business edition | Microsoft Docs
+description: Learn about adding functionality and customising Finance and Operations, Business edition by installing extensions.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: fb13cfe2d5e5a397d33f66b9fd4db14e46dcc5e1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5deba7ee0f88c47738f3f964b9da912c730a1bd4
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Customising Dynamics 365, Business edition Using Extensions
+# <a name="customizing-finance-and-operations-business-edition-using-extensions"></a>Customising Finance and Operations, Business edition Using Extensions
 You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.
 When you first launch [!INCLUDE[d365fin](includes/d365fin_md.md)], some extensions are already installed for you. Over time, more extensions will be made available to you, and you can then choose if you want to use the extension or not.
 
@@ -68,12 +68,13 @@ Microsoft provides the following extensions:
 >  New extensions are not available in AppSource immediately after we announce an update. You can keep an eye out for the extensions at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
 ## <a name="see-also"></a>See Also
-[How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
-[How to: Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md)  
+[Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
+[Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrating Business Data from Other Finance Systems](upload-data.md)  
 [Setting Up the GetAddress.io UK Postcode extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

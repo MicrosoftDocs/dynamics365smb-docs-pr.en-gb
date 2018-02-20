@@ -13,14 +13,14 @@ ms.search.keywords: COA, cha of acc
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 69d4a8d4482999ed9d622d73654c3d8a4c3d8394
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1d0130dde256706460e58e5efc445bc5f4d5c595
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Setting Up or Changing the Chart of Accounts
-The chart of accounts shows the ledger accounts that store your financial data. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] includes a standard chart of accounts that is ready to support your business.
+The chart of accounts shows the ledger accounts that store your financial data. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard chart of accounts that is ready to support your business.
 However, you can change the default accounts, and you can add new accounts.  
 
 ## <a name="adding-or-changing-accounts"></a>Adding or Changing Accounts
@@ -33,7 +33,7 @@ From the chart of accounts, you can open each G/L account and add or change sett
 * The **Allow G/L Acc. Deletion Before** field must be set in the **General Ledger Setup** window, and the account must not have ledger entries on or after that date.  
 * If the **Check G/L Account Usage** field in the **General Ledger Setup** window is selected, then the account must not be used in any posting groups or posting setup.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.  
 
 ## <a name="see-also"></a>See Also
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  

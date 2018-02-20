@@ -13,19 +13,19 @@ ms.search.keywords: categories, search words, facets
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: dcc29b913c999fe05272dd709a873635efb5eeb4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2b29fed7bf976c896b3d663f526d9c3a96200100
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-item-attributes"></a>How to: Work with Item Attributes
+# <a name="work-with-item-attributes"></a>Work with Item Attributes
 When customers inquire about an item, either in correspondence or in an integrated web shop, they may ask or search according to characteristics, such as height and model year. To provide this customer service, you can assign item attribute values of different types to your items, which can then be used when searching for items.
 
-You can also assign item attributes to item categories, which then apply to the items that use the item categories. For more information, see [How to: Categorize Item](inventory-how-categorize-items.md).
+You can also assign item attributes to item categories, which then apply to the items that use the item categories. For more information, see [Categorise Item](inventory-how-categorize-items.md).
 
 > [!Tip]  
-> If you attach pictures to items, the Image Analyser extension can detect attributes in the image, and suggest the attributes so you can decide whether to assign them. The extension is ready to go. You just need to enable it. For more information, see [The Image Analyser Extension for Microsoft Dynamics 365 Business edition ](ui-extensions-image-analyzer.md).
+> If you attach pictures to items, the Image Analyser extension can detect attributes in the image, and suggest the attributes so you can decide whether to assign them. The extension is ready to go. You just need to enable it. For more information, see [The Image Analyser Extension for Microsoft Finance and Operations, Business edition ](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>To create item attributes
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Attributes**, and then choose the related link.
@@ -58,7 +58,7 @@ You can also assign item attributes to item categories, which then apply to the 
 6. Repeat steps 4 and 5 for all item attributes that you want to assign to the item category.
 
 > [!NOTE]  
->   Item attributes for parent item categories will be inherited to child item categories. This is indicated by the **Inherited From** field on the **Attributes** FastTab. For more information, see [How to: Categorize Items](inventory-how-categorize-items.md).
+>   Item attributes for parent item categories will be inherited to child item categories. This is indicated by the **Inherited From** field on the **Attributes** FastTab. For more information, see [Categorise Items](inventory-how-categorize-items.md).
 
 ## <a name="to-filter-by-item-attributes"></a>To filter by item attributes
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
@@ -78,8 +78,8 @@ You can also assign item attributes to item categories, which then apply to the 
 The items in the **Items** window are filtered by the specified item attribute values.
 
 ## <a name="see-also"></a>See Also
-[How to: Categorize Items](inventory-how-categorize-items.md)    
-[How to: Register New Items](inventory-how-register-new-items.md)  
+[Categorise Items](inventory-how-categorize-items.md)    
+[Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

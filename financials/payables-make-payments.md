@@ -13,10 +13,10 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 6cd7b9922f047d05a2cc37a9157de47221f67a7f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6dfdfce56a06c779881eb0a0f9553d19b6abd1ef
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="making-payments"></a>Making Payments
@@ -33,12 +33,12 @@ The following table describes a sequence of tasks, with links to the topics that
 | To | See |
 | --- | --- |
 |Use the **Payment Journal** window, which is a based on the general journal, to post payments to vendors or employees.|[Working with General Journals](ui-work-general-journals.md)|
-| Use a function to suggest vendor payments according to selected criteria, such as due date, discount eligibility, and your liquidity. |[How to: Suggest Vendor Payments](payables-how-suggest-vendor-payments.md) |
-|Reimburse employees for personal expenses during business activities by making payment to their bank account.|[How to: Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
-| Issue cheques for vendor payments, either as print-outs or as computer cheques. Void cheques before or after posting. |[How to: Work With Checks](payables-how-work-checks.md) |
-| Pay the vendor by cash or cheque, and post the payment when you post the invoice. |[How to: Settle Purchase Invoices Promptly](finance-how-to-settle-purchase-invoices-promptly.md) |
-| Make sure that your bank only clears validated cheques and amounts by sending them a file that contains vendor, cheque, and payment information. |[How to: Export a Positive Pay file](finance-how-positive-pay.md) |
-|Export payments from the **Payment Journal** window to a bank file that you upload to your bank for processing, including EFT (electronic funds transfer) in North America. |[How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md)|
+| Use a function to suggest vendor payments according to selected criteria, such as due date, discount eligibility, and your liquidity. |[Suggest Vendor Payments](payables-how-suggest-vendor-payments.md) |
+|Reimburse employees for personal expenses during business activities by making payment to their bank account.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
+| Issue cheques for vendor payments, either as print-outs or as computer cheques. Void cheques before or after posting. |[Work With Cheques](payables-how-work-checks.md) |
+| Pay the vendor by cash or cheque, and post the payment when you post the invoice. |[Settle Purchase Invoices Promptly](finance-how-to-settle-purchase-invoices-promptly.md) |
+| Make sure that your bank only clears validated cheques and amounts by sending them a file that contains vendor, cheque, and payment information. |[Export a Positive Pay file](finance-how-positive-pay.md) |
+|Export payments from the **Payment Journal** window to a bank file that you upload to your bank for processing, including EFT (electronic funds transfer) in North America. |[Export Payments to a Bank File](payables-how-export-payments-bank-file.md)|
 |Make electronic payments according to the EU SEPA Credit Transfer standard.|[Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|    
 
 ## <a name="see-also"></a>See Also

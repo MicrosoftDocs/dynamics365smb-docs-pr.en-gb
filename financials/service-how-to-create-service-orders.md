@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb514fe04fd70836f640d3db4ea592680ab0fa1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5460f50c4c556a74b518976d5d5fa90203f16967
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-orders"></a>How to: Create Service Orders
+# <a name="create-service-orders"></a>Create Service Orders
 You can use the **Service Order** window to create documents where you enter information about a service, such as repairs and maintenance, on service items by customer request.  
   
 When creating a service order, you only have to fill in a few fields. Some fields are optional and many are automatically filled in when you fill in related fields.  
@@ -79,7 +79,7 @@ If you need to be sure that an item is available for a service order, you can re
 5. On the **Reservation** page, choose **Reserve from Current Line**. 
 
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>To insert lines based on standard service codes  
-If you have set up standard service codes and assigned them to service item groups, you can insert the standard lines linked to the standard service codes on service documents. For more information, see [How to: Set Up Standard Service Codes](service-how-setup-service-coding.md).   
+If you have set up standard service codes and assigned them to service item groups, you can insert the standard lines linked to the standard service codes on service documents. For more information, see [Set Up Standard Service Codes](service-how-setup-service-coding.md).   
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
 2. Create a new service order.  
@@ -106,8 +106,8 @@ Service orders are not deleted automatically, however, if the total quantity on 
 
 ## <a name="see-also"></a>See Also  
 [Service Posting](service-service-posting.md)  
-[How to: Post a Service Order](service-how-to-post-service-orders.md)  
+[Post a Service Order](service-how-to-post-service-orders.md)  
 [Setting Up Service Management](service-setup-service.md)  
-[How to: Work on Service Tasks](service-how-to-work-on-service-tasks.md)  
-[How to: Allocate Resources](service-how-to-allocate-resources.md)  
+[Work on Service Tasks](service-how-to-work-on-service-tasks.md)  
+[Allocate Resources](service-how-to-allocate-resources.md)  
 

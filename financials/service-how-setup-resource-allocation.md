@@ -13,14 +13,14 @@ ms.search.keywords: resource, skill, service, zones
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6c20c0b346186adad6e4b125dbd48bd0d3f56ab2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b16ba9366aefc108f39667678fe8ab70ce421b83
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-resource-allocation"></a>How to: Set Up Resource Allocation
+# <a name="set-up-resource-allocation"></a>Set Up Resource Allocation
 To ensure that a service task is performed well, it's important to find a resource who is qualified to do the work. You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] so that it's easy to allocate someone who has the right skills for the job. In [!INCLUDE[d365fin](includes/d365fin_md.md)], we call this _resource allocation_. You can allocate resources based on their skill, availability, or whether they are in the same service zone as the customer. 
 
 To use resource allocation, you must set up:  
@@ -80,10 +80,10 @@ If you want to change the skill codes assigned to items, for example from **PC**
     * Delete the skill codes or update their relation: Select this option if you want to change the skill code on this item only. The skill code on the related service items will be reassigned, that is, the **Assigned From** field will be updated.  
   
 ## <a name="see-also"></a>See Also
-[How to: Allocate Resources](service-how-to-allocate-resources.md)  
-[How to: Set Up Work Hours and Service Hours](service-how-setup-work-service-hours.md)  
-[How to: Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
-[How to: Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
+[Allocate Resources](service-how-to-allocate-resources.md)  
+[Set Up Work Hours and Service Hours](service-how-setup-work-service-hours.md)  
+[Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
+[Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
  
 
 

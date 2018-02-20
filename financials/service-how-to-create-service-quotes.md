@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d5348e7b15eb0337f2a5f829c871dadcf3133b86
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9d4f8d21d0c79adbac238b2d26accc4c08656c77
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-quotes"></a>How to: Create Service Quotes
+# <a name="create-service-quotes"></a>Create Service Quotes
 You can think of service quotes as the basis for service orders. In fact, they are almost identical. They both contain information such as who the customer is, the type of order, the item that needs service, billing and shipping information, and information about the actual service work.
  
 You can use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.  
@@ -38,7 +38,7 @@ You can use a service quote as a preliminary draft for a service order, and then
 7. Register estimated costs on the service lines.  
   
 ## <a name="see-also"></a>See Also  
-[How to: Create Service Orders](service-how-to-create-service-orders.md)  
-[How to: Work on Service tasks](service-how-to-work-on-service-tasks.md)  
+[Create Service Orders](service-how-to-create-service-orders.md)  
+[Work on Service tasks](service-how-to-work-on-service-tasks.md)  
 
  

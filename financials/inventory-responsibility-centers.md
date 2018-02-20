@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ed7d44650d174b1ce3b7a1140e251858512f5e13
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b1a8eb26783b7e93e9afe04b13298972af83175d
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-responsibility-centers"></a>How to: Work with Responsibility Centres
+# <a name="work-with-responsibility-centers"></a>Work with Responsibility Centres
 Responsibility centres provide the ability to handle administrative centres. A responsibility centre can be a cost centre, a profit centre, an investment centre, or other company-defined administrative centre. Examples of responsibility centres are a sales office, a purchasing department for several locations, and a plant planning office. Using this functionality, for example, companies can set up user-specific views of sales and purchase documents related exclusively to a particular responsibility centre.  
 
 Using multiple locations together with responsibility centres provides the ability to manage business operations in the most flexible, yet optimal way.

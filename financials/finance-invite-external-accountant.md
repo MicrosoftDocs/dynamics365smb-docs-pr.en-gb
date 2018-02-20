@@ -1,6 +1,6 @@
 ---
 title: Add your external accountant to your Financials | Microsoft Docs
-description: Learn how you can invite your external accountant to your Dynamics 365 Business edition .
+description: Learn how you can invite your external accountant to your Finance and Operations, Business edition .
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,22 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 11/10/2017
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 9769d4b1e34da62290cc97de291462ee2d22c747
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fde920f4626079d66f285f366114d10807e7821b
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Inviting Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]
 If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[d365fin](includes/d365fin_md.md)] so they can work with you on your fiscal data.
 
 Once your accountant has gained access to your [!INCLUDE[d365fin](includes/d365fin_md.md)], they can use the **Accountant** Role Center that gives easy access to the most relevant windows for their work.  
-
-> [!NOTE]  
->  This functionality requires that the experience is set to **Suite**. For more information, see [Customising Your Dynamics 365 Experience](ui-experiences.md).  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Invite Your Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In the latest version of [!INCLUDE[d365fin](includes/d365fin_md.md)], we have made it easy for you to invite your external accountant. Simply open the **Users** window, and then choose the **Invite External Accountant** action in the ribbon. An email is made ready for you, just add your accountant's work email, and send the invitation.  
@@ -45,7 +42,7 @@ One of the license types for [!INCLUDE[d365fin](includes/d365fin_md.md)] is the 
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  
-[How to: Set Up Email Manually or Using the Assisted Setup](madeira-how-setup-email.md)  
-[Accountant Experiences in Dynamics 365 Business edition ](finance-accounting.md)  
-[Dynamics 365 for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Set Up Email Manually or Using the Assisted Setup](madeira-how-setup-email.md)  
+[Accountant Experiences in Finance and Operations, Business edition ](finance-accounting.md)  
+[Finance and Operations, Business edition for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

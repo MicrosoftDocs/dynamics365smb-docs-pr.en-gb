@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="changing-basic-settings"></a>Changing Basic Settings
@@ -29,7 +29,7 @@ In the centre you find the Activities tiles. Activities show current data and ca
 
 You can also build up a list of Favourite Customers on the Home page for accounts that you do business with often or need to pay special attention to. Use the arrows to collapse part of the page and make more room to show specific data. At the top of the Home page you will find all of the actions that can be applied to the current content. This too can be collapsed and you only need to click or tap within the collapsed area to view it again.
 
-The default Role Centre is **Business Manager**, but you can select another Role Centre that fits your needs better. For more information, see [How to: Change the Role Centre](change-role.md).
+The default Role Centre is **Business Manager**, but you can select another Role Centre that fits your needs better. For more information, see [Change the Role Centre](change-role.md).
 
 ## <a name="company"></a>Company
 A company functions as a container for data in [!INCLUDE[d365fin](includes/d365fin_md.md)]. There can be multiple companies in a database, but only one can be selected at a time.
@@ -56,6 +56,6 @@ Choose this link to view or change the notifications that you get about certain 
 
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[How to: Change the Role Centre](change-role.md)  
+[Change the Role Centre](change-role.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
 

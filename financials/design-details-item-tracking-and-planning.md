@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 27f3dd2e3ff6b15798c9d483480f4443992dc024
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-application"></a>Design Details: Item Application
@@ -70,7 +70,7 @@ The following table shows the item application entry that is created when you po
   
 |Posting Date|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Item Ledger Entry No.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|0|0|10|0|  
+|01-01-20|1|0|10|1|  
   
 ## <a name="inventory-decrease"></a>Inventory Decrease  
 When you post an inventory decrease, an item application entry is created that links the inventory decrease to an inventory increase. This link is created by using the item’s costing method as a guideline. For items using FIFO, Standard, and Average costing methods, the linking is based on the first-in-first-out principle. The inventory decrease is applied to the inventory increase with the earliest posting date. For items using the LIFO costing method, the linking is based on the last-in-first-out principle. The inventory decrease is applied to the inventory increase with the most recent posting date.  
@@ -84,8 +84,8 @@ The following table shows the two item application entries that result from the 
   
 |Posting Date|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Item Ledger Entry No.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|0|0|10|0|  
-|01-03-20|0|2|-5|2|  
+|01-01-20|1|0|10|1|  
+|01-03-20|1|2|-5|2|  
   
 ## <a name="fixed-application"></a>Fixed Application  
 You make a fixed application when you specify that the cost of an inventory increase should apply to a specific inventory decrease, or vice versa. The fixed application affects the remaining quantities of the entries, but the fixed application also reverses the exact cost of the original entry that you are applying to, or from.  
@@ -103,7 +103,7 @@ The following table shows item ledger entries resulting from the scenario.
   
 |**Posting Date**|**Item Ledger Entry Type**|**Quantity**|**Cost Amount (Actual)**|**Item Ledger Entry No.**|  
 |----------------------|---------------------------------------------------|------------------|----------------------------------------------------|---------------------------------------------------|  
-|01-04-20|Purchase|10|10.00|0|  
+|01-04-20|Purchase|10|10.00|1|  
 |01-05-20|Purchase|10|20.00|2|  
 |01-06-20|Purchase (Return)|-10|-20.00|3|  
   
@@ -113,7 +113,7 @@ The following table shows the item application entry that results from the fixed
   
 |Posting Date|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Item Ledger Entry No.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-06-20|0|3|10|3|  
+|01-06-20|1|3|10|3|  
   
 The cost of the second purchase, LCY 20.00, is passed correctly to the purchase return.  
   
@@ -130,8 +130,8 @@ The following table shows the result of the scenario on the item’s value entri
   
 |Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|0|200.00||No|0|0|  
-|01-01-20|Purchase|0|1000.00||No|2|2|  
+|01-01-20|Purchase|1|200.00||No|1|1|  
+|01-01-20|Purchase|1|1000.00||No|2|2|  
 |01-01-20|Purchase|-1|-1000|2|No|3|3|  
 |01-01-20|Purchase|1|100.00||No|4|4|  
 |01-01-20|Sale|-2|-300.00||Yes|5|5|  
@@ -142,8 +142,8 @@ The following table shows the result on the item’s value entries if step 2 in 
   
 |Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|0|200.00||No|0|0|  
-|01-01-20|Purchase|0|1000.00||No|2|2|  
+|01-01-20|Purchase|1|200.00||No|1|1|  
+|01-01-20|Purchase|1|1000.00||No|2|2|  
 |01-01-20|Purchase|-1|433,33||Yes|3|3|  
 |01-01-20|Purchase|1|100.00||No|4|4|  
 |01-01-20|Sale|-2|866,67||Yes|5|5|  
@@ -169,7 +169,7 @@ The following table shows the result of scenario steps 1 through 3 on the item�
   
 |Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-from Item Entry|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|0|1000.00||0|0|  
+|01-01-20|Purchase|1|1000.00||1|1|  
 |02-01-20|Sale|-1|1000.00||2|2|  
 |03-01-20|Sale (Credit Memo)|1|1000|2|3|3|  
   
@@ -177,16 +177,16 @@ The following table shows the value entry resulting from scenario step 4, postin
   
 |Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-from Item Entry|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|04-01-20|(Item Charge)|0|100.00||0|4|  
+|04-01-20|(Item Charge)|1|100.00||1|4|  
   
 The following table shows the effect of the exact cost reversal on the item’s value entries.  
   
 |Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-from Item Entry|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|0|1000.00||0|0|  
+|01-01-20|Purchase|1|1000.00||1|1|  
 |02-01-20|Sale|-1|1100.00||2|2|  
 |03-01-20|Sale (Credit Memo)|1|1100.00|2|3|3|  
-|04-01-20|(Item Charge)|0|100.00||0|4|  
+|04-01-20|(Item Charge)|1|100.00||1|4|  
   
 When you run the **Adjust Cost - Item Entries** batch job, the increased cost of the purchase entry, due to the item charge, is forwarded to the sales entry (entry number 2). The sales entry then forwards this increased cost to the sales credit entry (entry number 3). The final result is that the cost is correctly reversed.  
   
@@ -210,8 +210,8 @@ The following table shows the effect of the transfer on the item’s value entri
   
 |Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount (Actual)|Entry No.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|BLUE|0|10.00|0|  
-|01-01-20|Purchase|BLUE|0|20.00|2|  
+|01-01-20|Purchase|BLUE|1|10.00|1|  
+|01-01-20|Purchase|BLUE|1|20.00|2|  
 |02-01-20|Transfer|BLUE|-1|15.00|3|  
 |02-01-20|Transfer|RED|1|15.00|4|  
   
@@ -225,7 +225,7 @@ The following table shows the effect of the transfer on the item’s value entri
   
 |Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount (Actual)|Entry No.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|BLUE|0|10.00|0|  
+|01-01-20|Purchase|BLUE|1|10.00|1|  
 |02-01-20|Transfer|BLUE|-1|10.00|2|  
 |02-01-20|Transfer|RED|1|10.00|3|  
   

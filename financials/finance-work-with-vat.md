@@ -13,13 +13,13 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 596b5d73e019375aa84b7cb227d305fc29762ae1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 31b28811529cb4e5296a04c18f1f41d9f452a9be
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-vat-on-sales-and-purchases"></a>How to: Work with VAT on Sales and Purchases
+# <a name="work-with-vat-on-sales-and-purchases"></a>Work with VAT on Sales and Purchases
 If your country or region requires you to calculate value-added tax (VAT) on sales and purchase transactions so that you can report the amounts to a tax authority, you can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to calculate VAT automatically on sales and purchase documents. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax] (finance-setup-vat.md).
 
 There are, however, some VAT-related tasks that you can do manually. For example, you might need to correct a posted amount if you discover that a vendor uses a different rounding method.

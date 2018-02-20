@@ -1,6 +1,6 @@
 ---
 title: Manage Sales Opportunities and Leads| Microsoft Docs
-description: Describes managing any incoming lead or sales opportunity in Dynamics 365,  and associating the opportunity with a salesperson to keep track of potential sales.
+description: Describes managing any incoming lead or sales opportunity in Finance and Operations, Business edition,  and associating the opportunity with a salesperson to keep track of potential sales.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 34c43d54d2472d6aee0fc791824013727e3fd324
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67e385b6c3f533ab5c63259b9df7e775f2155897
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-sales-opportunities"></a>Managing Sales Opportunities
@@ -28,8 +28,8 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Set up the sales cycles that you usually follow, and the different stages within each opportunity sales cycle. |[How to: Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md) |
-| Create sales opportunities that you have from your contacts. |[How to: Create Opportunities](marketing-how-create-opportunities.md) |
+| Set up the sales cycles that you usually follow, and the different stages within each opportunity sales cycle. |[Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md) |
+| Create sales opportunities that you have from your contacts. |[Create Opportunities](marketing-how-create-opportunities.md) |
 | Move a sales opportunity through the sales cycle to completion. |[Processing Sales Opportunities](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>See Also

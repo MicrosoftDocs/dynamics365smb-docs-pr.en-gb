@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="depreciation-methods"></a>Depreciation Methods
@@ -212,7 +212,7 @@ The declining-balance amount is used because it is the greater amount.
 
 *Declining-balance amount: 25% of 23,730.46 = 4,943.85= 2,471.92 + 2,471.92*  
 
-*Straight-line amount = 23,730.46/3 = 7,910.15 = 3,995.07 + 3,995.08*  
+*Straight-line amount = 23,730.46/3 = 7,910.15=3,995.07+3,995.08*  
 
 The straight-line amount is used because it is the greater amount.  
 

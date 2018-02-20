@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 32cbc23b24a8a04a62a246dd50eac8d8a721e2e7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e6db49370a1fc2d9a2bb99e55d00ed69908d703
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-on-service-tasks"></a>How to: Work on Service Tasks
+# <a name="work-on-service-tasks"></a>Work on Service Tasks
 After you have created a service order or service quote, registered service item lines, and allocated resources to the service items in the order or quote, you can start repairing and maintaining the service items.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] features a **Service Tasks** window that gives an overview of all the service items that need attention. Think of it as your service dashboard where you can see what orders are pending, look for and register spare parts, and keep your inventory up-to-date.  
@@ -106,7 +106,7 @@ After repairing a service item, you can register both the fault code and the res
 4. Fill out the line. Choose the combination of fault and resolution codes, and then choose **OK** to copy it to the service item. If an appropriate combination cannot be found, you can create a new combination in the window.  
 
 ## <a name="see-also"></a>See Also  
-[How to: Set Up Fault Reporting](service-how-setup-fault-reporting.md)
+[Set Up Fault Reporting](service-how-setup-fault-reporting.md)
 [Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
 [Service Posting](service-service-posting.md)  
 

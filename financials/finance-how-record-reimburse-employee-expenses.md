@@ -13,14 +13,14 @@ ms.search.keywords: reimbursement
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 0e10011c598678134cb7badbd9a3be97751b4424
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c12561f4851cd75bdc4098e506c113e50d3bc3be
 ms.contentlocale: en-gb
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-record-and-reimburse-employees-expenses"></a>How to: Record and Reimburse Employees' Expenses
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supports transactions for employee in a similar way as for vendors. Accordingly, employee posting groups exist to make sure that employee ledger entries are posted to the relevant accounts in the general ledger.
+# <a name="record-and-reimburse-employees-expenses"></a>Record and Reimburse Employees' Expenses
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  supports transactions for employee in a similar way as for vendors. Accordingly, employee posting groups exist to make sure that employee ledger entries are posted to the relevant accounts in the general ledger.
 
 > [!NOTE]  
 > Employee transactions can be posted in the local currency only. Reimbursement payments to employees do not support discounts and payment tolerances.
@@ -47,12 +47,12 @@ You reimburse employees by posting payments to their bank account in the **Payme
 5. Choose the **Post** action to register the reimbursement.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>To reconcile reimbursements with employee ledger entries
-You apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments, for example in the **Payment Reconciliation Journal** window, based on the related bank statement entries. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply manually in the **Employee Ledger Entries** window. For more information, see the related [How to: Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md).  
+You apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments, for example in the **Payment Reconciliation Journal** window, based on the related bank statement entries. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply manually in the **Employee Ledger Entries** window. For more information, see the related [Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>See Also
-[How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
+[Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[How to: Reverse Postings](finance-how-reverse-journal-posting.md)  
+[Reverse Postings](finance-how-reverse-journal-posting.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

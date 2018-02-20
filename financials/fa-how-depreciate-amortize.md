@@ -13,13 +13,13 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 07e80551ca215eb4c2632faa9f534801a1813680
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e9edb717c073a3b94d925ac0cc532824a848daf6
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-depreciate-or-amortize-fixed-assets"></a>How to: Depreciate or Amortise Fixed Assets
+# <a name="depreciate-or-amortize-fixed-assets"></a>Depreciate or Amortise Fixed Assets
 Depreciation is used to allocate the cost of fixed assets, such as machinery and equipment, over their depreciable life. For each fixed asset, you must define how it will be depreciated.  
 
  There are two ways to post depreciation:  
@@ -27,7 +27,7 @@ Depreciation is used to allocate the cost of fixed assets, such as machinery and
 * Automatically, by running the **Calculate Depreciation** batch job.  
 * Manually, by using the fixed asset G/L journal.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] can calculate daily depreciation, which allows you to calculate depreciation for any period. You can therefore analyse current operating results on, for example, a monthly, quarterly, or annual basis. The calculation uses a standard year of 360 days and a standard month of 30 days. For more information, see [Depreciation Methods](fa-depreciation-methods.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  can calculate daily depreciation, which allows you to calculate depreciation for any period. You can therefore analyse current operating results on, for example, a monthly, quarterly, or annual basis. The calculation uses a standard year of 360 days and a standard month of 30 days. For more information, see [Depreciation Methods](fa-depreciation-methods.md).  
 
 If several departments use a fixed asset, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.  
 
@@ -52,10 +52,10 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.  
 2. Create an initial journal line and fill in the fields as necessary.  
 3. In the **FA Posting Type** field, select **Depreciation**.  
-4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for depreciation posting. For more information, see the "To set up fixed asset posting groups" section in [How to: Set Up General Fixed Asset Information](fa-how-setup-general.md).  
+4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for depreciation posting. For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).  
 5. On the **Home** tab, choose **Post** to post the journal.  
 
-If you have set up fixed asset allocation keys to allocate amounts to different departments or projects, the amounts are allocated during posting. For more information, see [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md).  
+If you have set up fixed asset allocation keys to allocate amounts to different departments or projects, the amounts are allocated during posting. For more information, see [Set Up General Fixed Assets Information](fa-how-setup-general.md).  
 
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>To calculate allocations in the fixed asset G/L journal
 If a fixed asset is used by several departments, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.  

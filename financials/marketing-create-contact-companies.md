@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ae78d21bc4f88788a01620dbd8505d7034857d8f
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-contact-companies"></a>Creating Contact Companies
@@ -30,15 +30,15 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Set up a contact for a new company, either from scratch or from a customer, vendor, or bank account. |[How to: Create Contact Companies](marketing-how-create-contact-companies.md) |
+| Set up a contact for a new company, either from scratch or from a customer, vendor, or bank account. |[Create Contact Companies](marketing-how-create-contact-companies.md) |
 | Synchronise information in contacts with common information in customers, vendors, and bank accounts |[Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
 | Describe the business relationship of a company contact. |[Setting Up Business Relations on Contacts Companies](marketing-business-relations.md) |
-| Place a contact company in the appropriate industry group, for example, retail. |[How to: Set Up Industry Groups on Contact Companies](marketing-industry-groups.md) |
-| Set up the mailing groups that you can use to identify groups of contacts that you want to receive the same information. |[How to: Set Up Mailing Groups on Contact Companies](marketing-mailing-groups.md) |
-| Set up an alternate address for a contact. |[How to: Assign Alternative Addresses to a Contact](marketing-how-assign-alternate-address.md) |
-| Assign Web sources (search engines and Web sites) to your contacts to indicate where on the Internet you intend to search for information about the contacts. |[How to: Set Up Web Sources on Contacts](marketing-web-sources.md) |
+| Place a contact company in the appropriate industry group, for example, retail. |[Set Up Industry Groups on Contact Companies](marketing-industry-groups.md) |
+| Set up the mailing groups that you can use to identify groups of contacts that you want to receive the same information. |[Set Up Mailing Groups on Contact Companies](marketing-mailing-groups.md) |
+| Set up an alternate address for a contact. |[Assign Alternative Addresses to a Contact](marketing-how-assign-alternate-address.md) |
+| Assign Web sources (search engines and Web sites) to your contacts to indicate where on the Internet you intend to search for information about the contacts. |[Set Up Web Sources on Contacts](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>See Also
 [Creating Contact Persons](marketing-create-contact-persons.md)   
-[Working with Dynamics 365](ui-work-product.md)
+[Working with Finance and Operations, Business edition](ui-work-product.md)
 

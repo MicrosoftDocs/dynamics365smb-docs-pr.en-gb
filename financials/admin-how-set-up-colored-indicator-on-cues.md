@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3576b9780e64fde7744b987f5af5faf4d939dfca
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 17daf9dfa367907d10dd5101f1001ac2aaf7ea03
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>How to: Set Up a Coloured Indicator on Cues for the Company or Individual Users
-As an administrator, you can set up Cues that appear on the users' Role Centers to include an indicator that changes color based on the data values in the Cues.  
+# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Set Up a Coloured Indicator on Cues for the Company or Individual Users
+As an administrator, you can set up Cues that appear on the users' Role Centres to include an indicator that changes colour based on the data values in the Cues.  
   
 The indicator appears as a coloured bar along the top border of the Cue tile. It provides a visual signal of the status of the Cue's activity, which can indicate favorable or unfavorable conditions to prompt the user to take action. For example, if a Cue displays ongoing sales invoices, you can set up the indicator to appear green (favorable) when total number of ongoing sales invoices is below 10, and appears red (unfavorable) when the total is greater than 20.  
   
@@ -66,4 +66,4 @@ To set up the indicator, you specify up to two threshold values that define thre
     |**Subordinate**|Grey|  
   
 ## <a name="see-also"></a>See Also  
-[How to: Set Up a Coloured Indicator on Cues of Your Workspace](ui-how-setup-colored-indicator-cues.md)  
+[Set Up a Coloured Indicator on Cues of Your Workspace](ui-how-setup-colored-indicator-cues.md)  

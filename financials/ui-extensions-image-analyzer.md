@@ -1,6 +1,6 @@
 ---
 title: Using the Image Analyser Extension | Microsoft Docs
-description: This extensions lets you analyse images of contact persons and items to find attributes, so you can quickly assign them in Dynamics 365.
+description: This extensions lets you analyse images of contact persons and items to find attributes, so you can quickly assign them in Finance and Operations, Business edition.
 documentationcenter: 
 author: bholtorf
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 06/19/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 4329a54114476885285da1d28cd292a4f9684e99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6b7db51399f965f290e8871c74b30b9925553f83
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-image-analyzer-extension-for-microsoft-dynamics-365-business-edition"></a>The Image Analyser Extension for Microsoft Dynamics 365 Business edition
+# <a name="the-image-analyzer-extension-for-microsoft-finance-and-operations-business-edition"></a>The Image Analyser Extension for Microsoft Finance and Operations, Business edition
 The Image Analyser extension uses powerful image analytics provided by the Computer Vision API for Microsoft Cognitive Services to detect attributes in the images that you import for items and contact persons, so you can easily review and assign them. For items, attributes could be whether the item is a table or a car, and whether it is red or blue. For contact persons, attributes can be gender or age.
 
 Image Analyser suggests attributes based on tags that the Computer Vision API finds, and a confidence level. By default, it suggests attributes only if it is at least 80% sure that the attribute is correct. You can set another confidence level, if needed. To learn more about how the tags and confidence level are determined, see [Computer Vision API](https://go.microsoft.com/fwlink/?linkid=851476).  
@@ -92,7 +92,7 @@ You can view the number of analyses you've done, and how many you can still do, 
 2. Clear the **Enable Image Analyzer** check box.  
 
 ## <a name="see-also"></a>See Also
-[How to: Work with Item Attributes](inventory-how-work-item-attributes.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Work with Item Attributes](inventory-how-work-item-attributes.md)  
+[Customising [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

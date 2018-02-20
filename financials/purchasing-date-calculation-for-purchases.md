@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7e569474e3d222a56500665fa73408f47480f338
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7a37b1ef9e4a73faf8d04398dbc4023eb04ab9f6
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="date-calculation-for-purchases"></a>Date Calculation for Purchases
-[!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.  
 
 If you specify a requested receipt date on a purchase order header, then the calculated order date is the date on which the order must be placed to receive the items on the date that you requested. Then, the date on which the items are available for picking is calculated and entered in the **Expected Receipt Date** field.  
 
@@ -46,6 +46,6 @@ If you change the order date on the header, then that date is copied to the **Or
 
 ## <a name="see-also"></a>See Also  
  [Date Calculation for Sales](sales-date-calculation-for-sales.md)   
- [How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
+ [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

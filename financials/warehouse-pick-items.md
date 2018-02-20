@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 13db47dcfcc7eb6d30230490baa5ac961fc825a8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 132408d095edbfa1a60577cdd19022920088670b
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="pick-items"></a>Pick Items
@@ -35,15 +35,15 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |**To**|**See**|
 |------------|-------------|  
-|Post the shipment of items directly in the outbound order document because no warehouse features exist. (Works the same for sales orders, outbound transfer orders, and return shipments.)|[How to: Ship Items](warehouse-how-ship-items.md)|  
-|Pick items order by order and post the shipment in the same activity, in a basic warehouse configuration.|[How to: Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)|
-|Pick items for multiple orders in an advanced warehouse configuration.|[How to: Pick Items with Warehouse Picks](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Pick components for production or assembly in a basic or an advanced warehouse configuration.|[How to: Pick for Production or Assembly](warehouse-how-to-pick-for-production.md)|  
-|Plan optimized pick instructions for a number of shipments rather than have warehouse workers act directly on posted shipments.|[How to: Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md)|  
-|Pick items technically for a special purpose, such as a production unit in need of extra components, in such a way that the items do not technically leave the warehouse.|[How to: Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Post the shipment of items directly in the outbound order document because no warehouse features exist. (Works the same for sales orders, outbound transfer orders, and return shipments.)|[Ship Items](warehouse-how-ship-items.md)|  
+|Pick items order by order and post the shipment in the same activity, in a basic warehouse configuration.|[Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)|
+|Pick items for multiple orders in an advanced warehouse configuration.|[Pick Items with Warehouse Picks](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
+|Pick components for production or assembly in a basic or an advanced warehouse configuration.|[Pick for Production or Assembly](warehouse-how-to-pick-for-production.md)|  
+|Plan optimized pick instructions for a number of shipments rather than have warehouse workers act directly on posted shipments.|[Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md)|  
+|Pick items technically for a special purpose, such as a production unit in need of extra components, in such a way that the items do not technically leave the warehouse.|[Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Understand how to automatically pick items according to their expiration date, for example perishable goods.|[Picking By FEFO](warehouse-picking-by-fefo.md)|
-|Split a pick line into multiple lines, for example because there are not enough items to take from in the designated bin.|[How to: Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Get immediate access to picks that are assigned to you as a warehouse worker.|[How to: Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)|  
+|Split a pick line into multiple lines, for example because there are not enough items to take from in the designated bin.|[Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Get immediate access to picks that are assigned to you as a warehouse worker.|[Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

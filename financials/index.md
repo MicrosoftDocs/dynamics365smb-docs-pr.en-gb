@@ -1,6 +1,6 @@
 ---
-title: Meet Dynamics 365 Business edition | Microsoft Docs
-description: Learn about capabilities and work scenarios in Dynamics 365 Business edition, a business management solution for small and mid-sized organisations.
+title: Meet Finance and Operations, Business edition | Microsoft Docs
+description: Learn about capabilities and work scenarios in Finance and Operations, Business edition, a business management solution for small and mid-sized organisations.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,14 +11,14 @@ ms.search.keywords: setup wizard
 ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 0173f682ccb09b2b4c02b9d7d74638f6b08e9a93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2f17af763663ffc7d10c9730ca433ca1574d6552
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system.
 When you sign up for the [!INCLUDE[d365fin](includes/d365fin_md.md)] preview you get access to a demonstration company. The demonstration company contains sample data, but you can create your own sales documents, for example, or set up a bank account.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Get to know [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -53,11 +53,11 @@ In the **Assisted Setup** window, you will find the following with the **Suite**
 | Set Up a Customer Approval Workflow |Sets up the ability to automatically notify an approver when a user tries to create or change a customer card. |
 | Set Up Email |Gets you ready for sending email messages directly from, for example, sales orders or contacts in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 | Set Up Email Logging |Sets up the capability to log email correspondence in [!INCLUDE[d365fin](includes/d365fin_md.md)] to follow up on interactions. |
-| Set Up Outlook for [!INCLUDE[d365fin](includes/d365fin_md.md)] |Sets up the ability to use and launch [!INCLUDE[d365fin](includes/d365fin_md.md)] from Outlook. |
+| Set Up Outlook for  [!INCLUDE[d365fin](includes/d365fin_md.md)] |Sets up the ability to use and launch [!INCLUDE[d365fin](includes/d365fin_md.md)] from Outlook. |
 | Set Up Reporting |Sets up data sets that you can use to build powerful reports using Excel or Power BI, for example. |
 | Set Up an Item Approval Workflow |Sets up the ability to send a notification to an approver when a user changes or creates an item. |
 | Set Up a Payment Approval Workflow |Sets up the ability to send a notification to an approver when a user sends payment journal lines for approval. |
-| Set Up the Dynamics 365 Connector |Sets up a connection to Dynamics 365 for Sales, which allows you to synchronise data such as contacts and sales order information. |
+| Set Up the Finance and Operations, Business edition Connector |Sets up a connection to Dynamics 365 for Sales, which allows you to synchronise data such as contacts and sales order information. |
 | Set Up VAT |Gets you started with default tax groups and assigning tax area codes that you can assign to customers and vendors in order to automatically calculate VAT in sales or purchase documents. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Trying things out in your own company
@@ -66,22 +66,21 @@ Thinking about subscribing? You can easily change from the demonstration company
 To create a company to try things out, go to the **My Settings** menu in the top right corner, and change the company to **My Company**. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)] and then sign in again to apply the change. An assisted setup guide will help you provide basic information about your company. When that's done, explore the Home page and find the **Assisted Setup** action.  
 
 ## <a name="ready-to-subscribe"></a>Ready to subscribe?
-Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, use the link in the notification to get in touch with Microsoft. You can also contact the [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team at [Microsoft Dynamics 365 Business edition ](https://go.microsoft.com/fwlink/?linkid=828707).  
+Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, use the link in the notification to get in touch with Microsoft. You can also contact the [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-## <a name="other-dynamics-365-apps"></a>Other Dynamics 365 apps
-Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 365](https://docs.microsoft.com/dynamics365) link in the blue banner at the top of this page. You can also learn more at the [Dynamics 365 website](https://www.microsoft.com/en-us/dynamics365/).  
+## <a name="other-finance-and-operations-business-edition-apps"></a>Other Finance and Operations, Business edition apps
+Navigate to content about the other Finance and Operations, Business edition apps by choosing the [Finance and Operations, Business edition](https://docs.microsoft.com/dynamics365) link in the blue banner at the top of this page. You can also learn more at the [Dynamics 365 for Finance and Operations, Business edition website](https://www.microsoft.com/en-us/dynamics365/).  
 
 If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Finance](finance.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Customising [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as my Business Inbox in Outlook](madeira-outlook.md)  
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
-[Microsoft Dynamics 365 documentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
-[roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Dynamics 365 Documentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
+[Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

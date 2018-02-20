@@ -11,13 +11,13 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: a370002c08d8ef4cc46baa864f32b6ca2ef01b78
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d0efd02b14cf1b93b18b187b5f9bebfb8618d6a8
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="accountant-portal-for-dynamics-365-business-edition"></a>Accountant Portal for Dynamics 365 Business edition
+# <a name="accountant-portal-for-finance-and-operations-business-edition"></a>Accountant Portal for Finance and Operations, Business edition
 This application provides a dashboard with summary data for each client of an accountant. The portal displays financial KPIs as well as a direct link to the client’s financial application.  
 
 The dashboard is a highly specialised Role Centre for a better overview of your clients.  
@@ -28,7 +28,7 @@ When you first install the extension, a sample company helps you get started. Yo
 ## <a name="installing-the-extension"></a>Installing the Extension
 When you install the extension in your [!INCLUDE[d365fin](includes/d365fin_md.md)], you will be asked if you want to use it now. If you do, then you must sign out and sign in again, because the extension replaces your current Role Centre and adds permissions to your user profile.  
 
-For more information, see [Accountant Experiences in Dynamics 365 Business edition ](finance-accounting.md).  
+For more information, see [Accountant Experiences in Finance and Operations, Business edition ](finance-accounting.md).  
 
 > [!NOTE]  
 >  The current version of the extension requires that your clients use [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -39,6 +39,6 @@ This extension will be deprecated in a few months. We recommend that you do not 
 For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index.md).  
 
 ## <a name="see-also"></a>See Also
-[Accountant Experiences in Dynamics 365 Business edition ](finance-accounting.md)  
+[Accountant Experiences in Finance and Operations, Business edition ](finance-accounting.md)  
 [Finance](finance.md)  
 

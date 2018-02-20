@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d87e01cb987a019c6e71b50dcdeae55dc0375146
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d8622d11cd23e506d1b85b18dbe5facb740c7753
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Scenario Example: Defining Dynamic Allocations Based on Items Sold
@@ -43,11 +43,11 @@ This topic shows an example of how to define allocations by using the dynamic al
 14. Choose the **Calculate Allocation Key** action to calculate the share.  
 
     > [!IMPORTANT]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.  
 
 ## <a name="see-also"></a>See Also  
  [Setting Filters for Dynamic Allocation Bases](finance-setting-filters-for-dynamic-allocation-bases.md)   
- [How to: Set Up Allocation Source and Targets](finance-how-to-set-up-allocation-source-and-targets.md)   
+ [Set Up Allocation Source and Targets](finance-how-to-set-up-allocation-source-and-targets.md)   
  [Defining and Allocating Costs](finance-define-and-allocate-costs.md)   
  [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
  [About Cost Accounting](finance-about-cost-accounting.md)

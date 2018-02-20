@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e5ac1c791b10c26a3cecd20711e7899bb7eaee3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bc323e4dac1b62802e999e2780352634e25e482d
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# How to: Set Up Stockkeeping Units
+# <a name="set-up-stockkeeping-units"></a>Set Up Stockkeeping Units
 You can use stockkeeping units to record information about your items for a specific location or a specific variant code.  
 
  Stockkeeping units are a supplement to item cards. They do not replace them, although they are related to them. Stockkeeping units allow you to differentiate information about an item for a specific location, such as a warehouse or distribution centre, or a specific variant, such as different shelf numbers and different replenishment information, for the same item.  
 
-## To set up a stockkeeping unit  
+## <a name="to-set-up-a-stockkeeping-unit"></a>To set up a stockkeeping unit  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Stockkeeping Units**, and then choose the related link.  
 2.  Choose the **New** action.  
@@ -37,8 +37,8 @@ To create several stockkeeping units for an item, use the **Create Stockkeeping 
 > [!NOTE]  
 >  The information on the **Stockkeeping Unit** card has priority over the **Item** card.  
 
-## See Also  
-[How to: Register New Items](inventory-how-register-new-items.md)  
+## <a name="see-also"></a>See Also  
+[Register New Items](inventory-how-register-new-items.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  

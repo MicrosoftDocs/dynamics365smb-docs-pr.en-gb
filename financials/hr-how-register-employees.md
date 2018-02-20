@@ -13,13 +13,13 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 08/11/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ceea5fba1b2daeab3c517d87e3e31e29d53441c3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 484d21ad14991d663de3e9c5491455fe60494a06
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-employees"></a>How to: Register Employees
+# <a name="register-employees"></a>Register Employees
 To use the Human Resources functionality, you must first register each employee by creating a card with all the core and related information.
 
 You can modify an employee's details at any time. Keeping up-to-date records about your employees simplifies personnel tasks. For example, if an employee's address changes, you register this on the employee card.
@@ -27,7 +27,7 @@ You can modify an employee's details at any time. Keeping up-to-date records abo
 The following procedures describe how to create an initial employee card and how to assign two types of employee details to an employee. In addition, you can assign various other related information, such as qualifications and causes of inactivity. You assign employee information either by choosing a field or an action in the **Employee Card** window.
 
 > [!NOTE]  
-> You can reimburse employees for their expenses during business activities. For this purpose, you must fill in the fields on the **Payments** FastTab in the **Employee Card** window. For more information, see [How to: Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
+> You can reimburse employees for their expenses during business activities. For this purpose, you must fill in the fields on the **Payments** FastTab in the **Employee Card** window. For more information, see [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>To set up an employee
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Employees**, and then choose the related link.
@@ -57,7 +57,7 @@ You can use alternate addresses to keep track of your employees’ location, for
 5. Repeat step 4 for each alternate address.
 
 ## <a name="see-also"></a>See Also
-[How to: Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
+[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)

@@ -13,13 +13,13 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 71210a9acbd196581aa4397264b462728007e5e8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1115f65c52215fe82c8371773c0c2071e9406ba4
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-maintain-fixed-assets"></a>How to: Maintain Fixed Assets
+# <a name="maintain-fixed-assets"></a>Maintain Fixed Assets
 Maintenance expenses are routine periodic costs undertaken to preserve the value of fixed assets. Unlike capital improvements, they do not increase values.
 
 You can record and maintain an up-to-date file on maintenance and service of your fixed assets to have complete maintenance records on a fixed asset easily accessible. Each time a fixed asset is sent to service, you record all relevant information such as date of service, vendor number and service agent's phone number. Maintenance registration is recorded for each fixed asset from the relevant fixed asset card.
@@ -43,7 +43,7 @@ Every time maintenance has been performed, such as a service visit, you can reco
 7. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for maintenance posting.
 
     > [!NOTE]  
->   Step 7 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see the "To set up fixed asset posting groups" section in [How to: Set Up General Fixed Asset Information](fa-how-setup-general.md).
+>   Step 7 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).
 8. Choose the **Post** action.
 
 ## <a name="to-follow-up-on-fixed-assets-service-visits"></a>To follow up on fixed assets service visits

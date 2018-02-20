@@ -13,13 +13,13 @@ ms.search.keywords: personalize, customize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e12c9edbc8aabc2be9cd285b7d6e5b0dfdc9b89c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e90100aac6737336431be3f4cdcfd4e5a6c89274
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-colored-indicator-on-cues"></a>How to: Set Up a Coloured Indicator on Cues
+# <a name="set-up-a-colored-indicator-on-cues"></a>Set Up a Coloured Indicator on Cues
 You can set up Cues that appear on the **Home** page to include an indicator that changes colour based on the data values in the Cues.
 
 The indicator appears as a coloured bar along the top border of the Cue tile. It provides a visual signal of the status of the Cue's activity, which can indicate favorable or unfavorable conditions to prompt the user to take action. For example, if a Cue displays ongoing sales invoices, you can set up the indicator to appear green (favorable) when total number of ongoing sales invoices is below 10, and appears red (unfavorable) when the total is greater than 20.

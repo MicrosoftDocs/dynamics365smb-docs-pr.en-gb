@@ -13,16 +13,16 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 3c67d6bd4d24d5b58462fa05168f2ac764b2c695
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 442459e82ebeb6b5b767b443e49c62ff0d4364d1
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-ceridian-payroll-extension-to-dynamics-365-business-edition"></a>The Ceridian Payroll Extension to Dynamics 365 Business edition 
+# <a name="the-ceridian-payroll-extension-to-finance-and-operations-business-edition"></a>The Ceridian Payroll Extension to Finance and Operations, Business edition 
 To account for salary payments and related transactions, you must import and post financial transactions made by your payroll provider to the general ledger.
 
-To do this, you first import a file that you receive from the payroll provider into the **General Journal** window. Then you map the external accounts in the payroll file to the relevant G/L accounts. Lastly, you post the payroll transactions according to the account mapping. For more information, see [How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md).
+To do this, you first import a file that you receive from the payroll provider into the **General Journal** window. Then you map the external accounts in the payroll file to the relevant G/L accounts. Lastly, you post the payroll transactions according to the account mapping. For more information, see [Import Payroll Transactions](finance-how-import-payroll-transactions.md).
 
 The Ceridian Payroll extension allows you to import payroll transactions from the Ceridian HR/Payroll (US) and Ceridian PowerPay (Canada) services.
 

@@ -1,6 +1,6 @@
 ---
-title: Invoice your bookings in Dynamics 365 | Microsoft Docs
-description: Learn how you can do bulk invoicing from Microsoft Bookings in Dynamics 365 Business edition .
+title: Invoice your bookings in Finance and Operations, Business edition | Microsoft Docs
+description: Learn how you can do bulk invoicing from Microsoft Bookings in Finance and Operations, Business edition .
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: invoicing, bookings
 ms.date: 06/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 154a4719cdd0e28280c5b0a5de85479beb0b9262
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d387bbbf59550a6ca11dff534b76683a07808ca4
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Bulk Invoicing for Microsoft Bookings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,11 +28,11 @@ For example, if you want to synchronize customers between Bookings and [!INCLUDE
 ## <a name="invoice-appointments"></a>Invoice Appointments
 When it is time to send invoices for the completed bookings, you go to the **Uninvoiced Bookings** page. Depending on how often the information is synchronised, the list is long or short. You can create invoices for all bookings in the list or one booking at a time. You can select one or more entries in the list and invoice those only.  
 
-The support for invoicing appointments from Bookings is simpler than the fuller workflow of working with sales quotes, sales orders, and sales invoices. For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md). You can choose to sell your services using [!INCLUDE[d365fin](includes/d365fin_md.md)] or choose to use Bookings, depending on your business needs.  
+The support for invoicing appointments from Bookings is simpler than the fuller workflow of working with sales quotes, sales orders, and sales invoices. For more information, see [Invoice Sales](sales-how-invoice-sales.md). You can choose to sell your services using [!INCLUDE[d365fin](includes/d365fin_md.md)] or choose to use Bookings, depending on your business needs.  
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  
-[How to: Invoice Sales](sales-how-invoice-sales.md)  
+[Invoice Sales](sales-how-invoice-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
 

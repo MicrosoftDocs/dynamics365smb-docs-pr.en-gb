@@ -13,10 +13,10 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 5ffaed472ab61d086e2b57579523340504bde119
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 341fccc4cb11f27e11d80558bbd9651ae4ad91be
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-intercompany-transactions"></a>Managing Intercompany Transactions
@@ -39,13 +39,16 @@ The following table describes a sequence of tasks, with links to the topics that
 
  |To |See|
  |---|---|
- |Create your intercompany vendors and customers as so-called intercompany partners, and set up an intercompany chart of accounts.|[How to: Set Up Intercompany](intercompany-how-setup.md)|
- |Use intercompany documents or journals to post transactions with your intercompany partners.|[How to: Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)|
- |Organise and process incoming and outgoing transactions that you exchange with your intercompany partners.|[How to: Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)|
+ |Create your intercompany vendors and customers as so-called intercompany partners, and set up an intercompany chart of accounts.|[Set Up Intercompany](intercompany-how-setup.md)|
+ |Use intercompany documents or journals to post transactions with your intercompany partners.|[Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)|
+ |Organise and process incoming and outgoing transactions that you exchange with your intercompany partners.|[Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)|
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with General Journals](ui-work-general-journals.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

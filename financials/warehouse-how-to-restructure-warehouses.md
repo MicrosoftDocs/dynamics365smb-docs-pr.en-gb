@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: da5928be8280bad2eac379a5f0e5b19ddc2d12bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d2820513ec95c43464979effd85d5113359886ef
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-restructure-warehouses"></a>How to: Restructure Warehouses
+# <a name="restructure-warehouses"></a>Restructure Warehouses
 You may want to restructure your warehouse with new bin codes and new bin characteristics. You will not undertake this kind of activity very often, but situations can occur where a reclassification is necessary to achieve or maintain a more efficient operation. For example:  
 
 - You might want to switch to bin codes that support the use of automatic data capture, for example, with hand-held devices.  
@@ -45,12 +45,12 @@ You have now emptied the bins where the items used to be. The default bins for y
 
 ## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>To restructure an advanced warehouse that uses directed put-away and pick  
 
-1.  Create the new bins that you want to use in the future. For more information, see [How to: Create Bins](warehouse-how-to-create-individual-bins.md).  
+1.  Create the new bins that you want to use in the future. For more information, see [Create Bins](warehouse-how-to-create-individual-bins.md).  
 2.  Move all the contents of your current bins to the new bins that you just created.  
 
     1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Reclassification Journal**, and then choose the related link.  
     2.  For the bins where no real movement of items is involved, create a line for each of your current bins in the **Warehouse Reclassification Journal** with the old bin code, **From Bin Code**, and the new bin code, **To Bin Code**.  
-    3.  If some of the movements involve actual physical movements that you want employees to perform, use **Movement Worksheets** to prepare movement instructions instead of using the warehouse reclassification journal. For more information, see [How to: Move Items in Advanced Warehouse Configurations](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+    3.  If some of the movements involve actual physical movements that you want employees to perform, use **Movement Worksheets** to prepare movement instructions instead of using the warehouse reclassification journal. For more information, see [Move Items in Advanced Warehouse Configurations](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  When the old bins are emptied, reclassify them as **QC** type bins to ensure that they are not included in item flows.  
 
@@ -58,7 +58,7 @@ You have now emptied the bins where the items used to be. The default bins for y
     2.  Select the line with the location, and then choose the **Bins** action.  
     3.  In the **Bins** window, in the **Bin Type Code** field, enter **QC** for each of the old bins that you emptied in step 3 in the previous procedure.  
 
-You have now removed the bins from the warehouse flow, and reclassified them as QC bins. QC bins have none of the activity fields in the **Bin Types** window selected and are therefore not considered by the item flow. For more information, see [How to: Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).  
+You have now removed the bins from the warehouse flow, and reclassified them as QC bins. QC bins have none of the activity fields in the **Bin Types** window selected and are therefore not considered by the item flow. For more information, see [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>To delete a bin  
 

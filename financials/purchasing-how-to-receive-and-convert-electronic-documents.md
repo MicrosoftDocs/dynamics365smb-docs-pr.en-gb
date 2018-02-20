@@ -11,20 +11,20 @@ ms.search.keywords:
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 8ae02f7a55f822751ae66b5b62013455aac87e48
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e2f5142eb21d346b17b7d541191df553086b30f
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-and-convert-electronic-documents"></a>How to: Receive and Convert Electronic Documents
+# <a name="receive-and-convert-electronic-documents"></a>Receive and Convert Electronic Documents
 The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. To receive an invoice from a vendor as an electronic PEPPOL document, you process the document in the Incoming Documents window to convert it to a purchase invoice or general journal line in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  In addition to receiving electronic documents directly from trading partners, you can receive electronic documents from an OCR service that has turned your PDF or image files into electronic documents.  
 
- Before you can receive electronic documents through the document exchange service, you must set up various master data, such as company information, vendors, items, and units of measure. These are used to identify the business partners and items when converting data in elements in the incoming document file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [How to: Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md).  
+ Before you can receive electronic documents through the document exchange service, you must set up various master data, such as company information, vendors, items, and units of measure. These are used to identify the business partners and items when converting data in elements in the incoming document file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md).  
 
- Before you can receive electronic documents through the OCR service, you must set up and enable the preconfigured service connection. For more information, see [How to: Set Up Incoming Documents](across-how-setup-income-documents.md).  
+ Before you can receive electronic documents through the OCR service, you must set up and enable the preconfigured service connection. For more information, see [Set Up Incoming Documents](across-how-setup-income-documents.md).  
 
  The traffic of electronic documents in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)] is managed by the Job Queue feature. Before you can receive electronic documents, the relevant job queue must be started.  
 
@@ -45,7 +45,7 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports rece
 
 2.  Select the line for the incoming document record that represents a new incoming electronic invoice, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
 
-     In the **Incoming Document Card** window, the related XML file is attached, and most of the fields are prefilled with information from the electronic invoice. For more information, see [How to: Create Incoming Document Records](across-how-create-income-document-records.md).  
+     In the **Incoming Document Card** window, the related XML file is attached, and most of the fields are prefilled with information from the electronic invoice. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).  
 
 3.  In the **Data Exchange Type** field, choose **PEPPOL - Invoice** or **OCR – Invoice** depending on the source of the electronic document.  
 
@@ -60,7 +60,7 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports rece
 ## <a name="see-also"></a>See Also  
 [Managing Payables](payables-manage-payables.md)  
 [Incoming Documents](across-income-documents.md)  
-[How to: Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Exchanging Data Electronically](across-data-exchange.md)   
 [General Business Functionality](ui-across-business-areas.md)  
 

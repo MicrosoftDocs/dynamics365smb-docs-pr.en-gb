@@ -13,13 +13,13 @@ ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 6f7202da4290ae3f6093baed4185649c30d6a199
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7c5820db4d8aa65ddeddfd5ee27f0a7e89100abf
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-recurring-sales-and-purchase-lines"></a>How to: Create Recurring Sales and Purchase Lines
+# <a name="create-recurring-sales-and-purchase-lines"></a>Create Recurring Sales and Purchase Lines
 If you often need to create sales and purchase lines with similar information, you can set up standard lines that you can then insert on recurring sales and purchase documents, for example, for recurring replenishment orders.  
 
 The following procedure shows how to work with standard sales lines. It works in a similar way for standard purchase lines.  

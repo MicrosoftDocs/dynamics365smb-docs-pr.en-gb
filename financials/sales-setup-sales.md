@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, configure
 ms.date: 10/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d94177e37fec6abf278dc8edac71b03c569c9581
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6407b49cf9b5e844b4e0920ccf1fc299d96ae34f
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-sales"></a>Setting Up Sales
@@ -30,14 +30,14 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 
 | To | See |
 | --- | --- |
-| Create a customer card for each customer that you sell to. |[How to: Register New Customers](sales-how-register-new-customers.md) |
-| Enable customers to pay through PayPal by choosing the PayPal logo on sales documents. |[How to: Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md) |
-| Enter the different discounts and special prices that you grant to customers depending on item, quantities, and/or date. |[How to: Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md) |
-| Set up salespeople so that you can assign them to customer contacts or measure salespeople's performance as a basis for calculating the sales commission or bonus. |[How to: Set Up Salespeople](sales-how-setup-salespeople.md) |
-| Specify for individual customers or for all customers how sales documents are sent by default when you choose the **Post and Send** action. |[How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md) |
-| Set your email up to contain a summary of information in the sales document that is being sent. |[How to: Send Documents by Email](ui-how-send-documents-email.md). |
-|Use an EU web service to verify a customer's VAT registration number.|[How to: Verify VAT Registration Numbers](finance-setup-vat.md)|
-|Enter information about the different transportation vendors you use, including a link to their package tracking service.|[How to: Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
+| Create a customer card for each customer that you sell to. |[Register New Customers](sales-how-register-new-customers.md) |
+| Enable customers to pay through PayPal by choosing the PayPal logo on sales documents. |[Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md) |
+| Enter the different discounts and special prices that you grant to customers depending on item, quantities, and/or date. |[Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md) |
+| Set up salespeople so that you can assign them to customer contacts or measure salespeople's performance as a basis for calculating the sales commission or bonus. |[Set Up Salespeople](sales-how-setup-salespeople.md) |
+| Specify for individual customers or for all customers how sales documents are sent by default when you choose the **Post and Send** action. |[Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md) |
+| Set your email up to contain a summary of information in the sales document that is being sent. |[Send Documents by Email](ui-how-send-documents-email.md). |
+|Use an EU web service to verify a customer's VAT registration number.|[Verify VAT Registration Numbers](finance-setup-vat.md)|
+|Enter information about the different transportation vendors you use, including a link to their package tracking service.|[Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  

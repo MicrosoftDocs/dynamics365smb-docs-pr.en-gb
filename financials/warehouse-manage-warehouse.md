@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c1ea1c4a5ea4b917243d60981ec35050895f82a7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5aa3728aa5658f61fd5bb094c7274405f6f9daa2
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="warehouse-management"></a>Warehouse Management
@@ -32,17 +32,20 @@ Before you can perform warehouse activities, you must set the system up for the 
 
 |**To**|**See**|  
 |------------|-------------|  
-|Record the receipt of items at warehouse locations, either with a purchase order only, in simple location setups, or with a warehouse receipt, in case of semi or fully automated warehouse processing at the location.|[How to: Receive Items](warehouse-how-receive-items.md)|
-|Bypass the put-away and pick processes to expedite an item straight from receiving or production to shipping.|[How to: Cross-Dock Items](warehouse-how-to-cross-dock-items.md)|    
+|Record the receipt of items at warehouse locations, either with a purchase order only, in simple location setups, or with a warehouse receipt, in case of semi or fully automated warehouse processing at the location.|[Receive Items](warehouse-how-receive-items.md)|
+|Bypass the put-away and pick processes to expedite an item straight from receiving or production to shipping.|[Cross-Dock Items](warehouse-how-to-cross-dock-items.md)|    
 |Put away items received from purchases, sales returns, transfers, or production output according to the configured warehouse process.|[Putting Items Away](warehouse-put-away-items.md)|
 |Move items between bins in the warehouse.|[Moving Items](warehouse-move-items.md)|
 |Pick items to be shipped, transferred, or consumed in assembly or production, according to the configured warehouse process.|[Picking Items](warehouse-pick-items.md)|
-|Record the shipment of items from warehouse locations, either with a sales order only, in simple location setups, or with a warehouse shipment, in case of semi or fully automated warehouse processes at the location.|[How to: Ship Items](warehouse-how-ship-items.md)|  
+|Record the shipment of items from warehouse locations, either with a sales order only, in simple location setups, or with a warehouse shipment, in case of semi or fully automated warehouse processes at the location.|[Ship Items](warehouse-how-ship-items.md)|  
 
 ## <a name="see-also"></a>See Also  
- [Inventory](inventory-manage-inventory.md)  
- [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
- [Assembly Management](assembly-assemble-items.md)    
+[Inventory](inventory-manage-inventory.md)  
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
+[Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

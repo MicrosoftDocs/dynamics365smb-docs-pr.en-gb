@@ -13,13 +13,13 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 07/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 8f2d66064a2ab62cc8a0303b70cd1ae74517f8eb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4c5212bd9e89994ec71cbc4f3613b63571762c31
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-record-special-purchase-prices-and-discounts"></a>How to: Record Special Purchase Prices and Discounts
+# <a name="record-special-purchase-prices-and-discounts"></a>Record Special Purchase Prices and Discounts
 The different price and discount agreements that apply when you buy from different vendors must be defined so that the agreed rules and values are applied to purchase documents that you create for the vendors.
 
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines. For more information, see the "Best Price Calculation" section.
@@ -33,7 +33,7 @@ Concerning discounts, you can set up and use two types of purchase discounts:
 | **Purchase Line Discount** |An amount discount that is inserted on purchase lines if a certain combination of vendor, item, minimum quantity, unit of measure, or starting/ending date exists. This works in the same way as for purchase prices. |
 | **Invoice Discount** |A percentage discount that is subtracted from the document total if the value amount of all lines on a purchase document exceeds a certain minimum. |
 
-Because purchase line discounts and purchase prices are based on a combination of item and vendor, you can also enter this configuration from the item card, where the rules and values are defined. For more information, see [How to: Register New Items](inventory-how-register-new-items.md).
+Because purchase line discounts and purchase prices are based on a combination of item and vendor, you can also enter this configuration from the item card, where the rules and values are defined. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>To set up a special purchase price for a vendor
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.
@@ -109,14 +109,14 @@ The best price is the lowest permissible price with the highest permissible line
 > [!NOTE]  
 >   The following describes how the best price is calculated for sales. The calculation is the same for purchases.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks the combination of the bill-to customer and the item and then calculates the applicable unit price and line discount percentage, using the following criteria:
+1. [!INCLUDE[d365fin](includes/d365fin_md.md)]  checks the combination of the bill-to customer and the item and then calculates the applicable unit price and line discount percentage, using the following criteria:
 
     - Does the customer have a price/discount agreement, or does the customer belong to a group that does?
     - Is the item or the item discount group on the line included in any of these price/discount agreements?
     - Is the order date (or the posting date for the invoice and credit memo) within the starting and ending date of the price/discount agreement?
     - Is a unit of measure code specified? If so, [!INCLUDE[d365fin](includes/d365fin_md.md)] checks for prices/discounts with the same unit of measure code, and prices/discounts with no unit of measure code.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks if any price/discount agreements apply to information on the document or journal line, and then inserts the applicable unit price and line discount percentage, using the following criteria:
+2. [!INCLUDE[d365fin](includes/d365fin_md.md)]  checks if any price/discount agreements apply to information on the document or journal line, and then inserts the applicable unit price and line discount percentage, using the following criteria:
 
     - Is there a minimum quantity requirement in the price/discount agreement that is fulfilled?
     - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if LCY would provide a better price. If there is no price/discount agreement for the specified currency code, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserts the lowest price and the highest line discount in LCY.

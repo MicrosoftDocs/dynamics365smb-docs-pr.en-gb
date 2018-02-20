@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2f258a2bf1852b4cc1741a312c78bedfc06b5c11
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Setting Up Relationship Management
@@ -31,7 +31,7 @@ Some information about contact companies is identical to the information about t
 
 When you modify one of these fields on the contact company card, the program will automatically modify the field on the contact person card (unless you have manually modified the field on the contact person card).
 
-For more information, see [How to: Create Contact Persons](marketing-how-create-contact-persons.md).
+For more information, see [Create Contact Persons](marketing-how-create-contact-persons.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Using Predefined Defaults on New Contacts
 You can decide that the application automatically assigns a specific language code, territory code, salesperson code, and country/region code as defaults to each new contact you create. You can also enter a default sales cycle code that the program automatically assigns to each new opportunity you create.
@@ -41,7 +41,7 @@ The inheritance of fields overwrites the default values you have set up. For exa
 <!--You can also setup a default salutation that the program automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, the program will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Automatically Recording Interactions
-[!INCLUDE[d365fin](includes/d365fin_md.md)] can automatically record sales and purchase documents as interactions (for example, orders, invoices, receipts, and so on), as well as emails, phone calls, and cover sheets.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  can automatically record sales and purchase documents as interactions (for example, orders, invoices, receipts, and so on), as well as emails, phone calls, and cover sheets.
 
 For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).
 
@@ -53,7 +53,7 @@ For more information, see [Synchronising Contacts with Customers, Vendors and Ba
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Assigning a Number Series to Contacts and Opportunities
 You can set up a number series for contacts and opportunities. If you have set up a number series for contacts, when you create a contact, and press Enter in the No. field on the contact card, the program automatically enters the next available contact number.
 
-For more information about number series, see [How to: Create Number Series](ui-create-number-series.md).
+For more information about number series, see [Create Number Series](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Searching for Duplicate Contacts when Contacts are Created
 You can choose to have the program automatically search for duplicates each time you create a contact company, or you can choose to search manually after you have created contacts. You can also choose to have the program update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for the program to consider them as duplicates.

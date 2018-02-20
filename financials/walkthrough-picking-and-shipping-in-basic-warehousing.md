@@ -1,6 +1,6 @@
 ---
 title: Walkthrough - Picking and Shipping in Basic Warehouse Configurations | Microsoft Docs
-description: In Dynamics 365, the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.
+description: In Finance and Operations, Business edition, the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 41a23df0e19bda1262dafbfaf89df7518b2b40b6
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Walkthrough: Picking and Shipping in Basic Warehouse Configurations
@@ -119,12 +119,12 @@ In the **Inventory Pick** window, you can manage all outbound warehouse activiti
     The 30 loudspeakers are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
 
 ## <a name="see-also"></a>See Also  
- [How to: Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)   
- [How to: Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [How to: Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [How to: Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [How to: Pick for Production or Assembly](warehouse-how-to-pick-for-production.md)   
- [How to: Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)   
+ [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+ [Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md)   
+ [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)   
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

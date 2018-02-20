@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c6d15f43e2a308dc8107e7a58e64f4b98452b1db
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac292561a5777b760fd8e857d28085af36201e3e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-undo-assembly-posting"></a>How to: Undo Assembly Posting
+# <a name="undo-assembly-posting"></a>Undo Assembly Posting
 Sometimes you may need to undo a posted assembly order, for example when the order was posted with mistakes that must be corrected, or because it should not have been posted in the first place and must be rolled back.
 
 When you undo a posted assembly order, a set of corrective item ledger entries is created to reverse the original entries. Each positive output entry for the assembly item is reversed by a negative output entry. Each negative consumption entry for an assembly component is reversed by a positive consumption entry. Fixed cost application is automatically created between the corrective and original entries to ensure exact cost reversal.  
@@ -39,7 +39,7 @@ In addition, existing assembly orders can only be restored if the number of line
 > [!TIP]  
 >  To solve conflicts due to line changes, you can manually revert the changes on the lines in question before undoing the related posted assembly order. Alternatively, you can post the assembly order fully and then select to recreate it when undoing the posting.  
 
-The following procedure describes how to undo posted assembly orders where the items were assembled to stock. If you want to undo posted assembly orders where the items were assembled to a sales order, then you must use the **Undo Shipment** function on the posted shipment that relates to the posted assembly order. For more information, see [How to: Reverse Postings](finance-how-reverse-journal-posting.md). The undoing of the posted assembly order then happens automatically in the same way as described in this topic.  
+The following procedure describes how to undo posted assembly orders where the items were assembled to stock. If you want to undo posted assembly orders where the items were assembled to a sales order, then you must use the **Undo Shipment** function on the posted shipment that relates to the posted assembly order. For more information, see [Reverse Postings](finance-how-reverse-journal-posting.md). The undoing of the posted assembly order then happens automatically in the same way as described in this topic.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>To undo posting of an assembly order  
 1.  To undo a fully or partially posted assembly order, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Assembly Orders**, and choose the related link.  
@@ -57,9 +57,9 @@ The **Reversed** field on the assembly order header changes to **Yes**. The asse
 
 ## <a name="see-also"></a>See Also  
 [Assembly Management](assembly-assemble-items.md)  
-[How to: Reverse Postings](finance-how-reverse-journal-posting.md)  
-[How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)    
-[How to: Work with Bills of Material](inventory-how-work-BOMs.md)  
+[Reverse Postings](finance-how-reverse-journal-posting.md)  
+[Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)    
+[Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

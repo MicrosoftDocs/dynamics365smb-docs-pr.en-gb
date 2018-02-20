@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7b8c24469a087c16c2e351b456b015e8fdd65f82
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>How to: Work with Payment Tolerances and Payment Discount Tolerances
+# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Work with Payment Tolerances and Payment Discount Tolerances
 You can set up a payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice. You can set up a payment discount tolerance to grant a payment discount after the payment discount date has passed.  
 
 You can use payment tolerances so that every outstanding amount has a set maximum allowed payment tolerance. If the payment tolerance is met, then the payment amount is analysed. If the payment amount is an underpayment, then the outstanding amount is fully closed by the underpayment. A detailed ledger entry is posted to the payment entry so that no remaining amount is left on the applied invoice entry. If the payment amount is an overpayment, then a new detailed ledger entry is posted to the payment entry so that no remaining amount is left on the payment entry.

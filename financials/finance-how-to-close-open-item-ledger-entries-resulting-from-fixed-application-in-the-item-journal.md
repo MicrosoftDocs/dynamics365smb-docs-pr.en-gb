@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/09/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d30a1316b48bd1b80ab4658ee99b14f0a0217478
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1553b5f85cd9f00f9de15b59bcf258fba412967b
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal
+# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal
 You can use the **Applies-from Entry** field in the **Item Journal** window to create a fixed application between an inbound transaction and the original outbound transaction. For example, to correct the outbound transaction or to process its return. For more information, see Applies-from Entry.  
 
 > [!IMPORTANT]  
@@ -35,8 +35,8 @@ The following procedure shows how to close such entries by performing two correc
 2.  Use the **Applies-to Entry** field to post a negative adjustment. This closes the original corrective positive entry with a fixed application.  
 
 ## <a name="see-also"></a>See Also  
-[ How to: Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)  
- [How to: Process Sales Returns and Cancellations](sales-how-process-sales-returns-cancellations.md)   
+[ Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)  
+ [Process Sales Returns and Cancellations](sales-how-process-sales-returns-cancellations.md)   
  [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)   
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)

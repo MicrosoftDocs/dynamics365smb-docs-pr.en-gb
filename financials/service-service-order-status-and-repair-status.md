@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a1d2177ab417eb932110ea610474b969acf7a26b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 21f4a6fc048688858cad77fb3d306fb39bd5620c
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-order-status-and-repair-status"></a>Service Order Status and Repair Status
@@ -63,6 +63,6 @@ A typical priority level assignment could be as follows:
 For example, if one service item has the repair status **Initial**, linked to the service order status **Pending**, another has the repair status **In Process**, linked to the service order status **In Process**, and a third has the repair status **Spare Part Ordered**, linked to the service order status **On Hold**, the resulting service order status will be **In Process** because this has the highest priority.  
   
 ## <a name="see-also"></a>See Also  
-[How to: Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)  
+[Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)  
 [Setting Up Service Management](service-setup-service.md)  
 

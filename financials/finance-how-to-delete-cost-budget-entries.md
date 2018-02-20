@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 79c9a58c7cb91ce922b81eec1d2ccad375943203
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ad8ba706ba1b376b78449ba801ed0f4fc4cfe09
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-delete-cost-budget-entries"></a>How to: Delete Cost Budget Entries
+# <a name="delete-cost-budget-entries"></a>Delete Cost Budget Entries
 You use the **Delete Cost Budget Entries** batch job to cancel cost budget entries from the cost budget register.  
 
 To prevent any gaps in the cost budget entries and cost register entries, you cannot delete a single entry or a batch of entries in the middle of the list of register entries.  

@@ -12,13 +12,13 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 94055c34b67f05faa8955fdff28f854e77d9664f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: aa2accb5b03fd55c96b046ca6b61582ed5b8a142
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>How to: Reconcile Customer Payments Manually From a List of Unpaid Sales Documents
+# <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Reconcile Customer Payments Manually From a List of Unpaid Sales Documents
 When your customers have made payments to your electronic bank account, you must apply each amount paid to the related sales document and then post the payment to update the customer, general ledger, and bank ledger entries.
 
 > [!NOTE]  
@@ -176,7 +176,7 @@ Proceed to record an undocumented payment.
 1. Choose the **General Journal** action.  
 
     The **General Journal** window opens with one line prefilled with the balancing account of the journal batch that is set up in the **Payment Registration Setup** window.  
-2. Fill in the remaining fields on the general journal line, such as the amount and the customer number or other information from the bank statement. For more information, see [How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).  
+2. Fill in the remaining fields on the general journal line, such as the amount and the customer number or other information from the bank statement. For more information, see [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).  
 
 You can either post the journal line to update the total on the balancing account. Alternatively, you can leave the journal line unposted, and perhaps append it with a note that the payment needs more analysis.  
 

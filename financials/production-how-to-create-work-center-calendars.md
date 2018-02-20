@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f42941328d49aee4e823007284fd14417866cbae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf54f63e94ab3249f30d2fcdbef2c35e323e4cd8
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-shop-calendars"></a>How to: Set Up Shop Calendars
+# <a name="set-up-shop-calendars"></a>Set Up Shop Calendars
 A work centre or machine calendar specifies the working days and hours, shifts, holidays, and absences that determine the centre’s gross available capacity, measured in time, according to its defined efficiency and capacity values.
 
 As a foundation for calculating a specific work or machine centre calendar, you must first set up one or more general shop calendars. A shop calendar defines a standard work week according to start and end times of each working day and the work shift relation. In addition, the shop calendar defines the fixed holidays during a year.  
@@ -97,7 +97,7 @@ Calendar entries are now created or updated displaying the available capacity fo
 The calculated work centre calendar will now define when and how much capacity is available at this work centre. This controls the detailed scheduling of operations performed at the work centre.  
 
 ## <a name="to-record-work-center-absence"></a>To record work centre absence  
-1.  In the **Work Center Calendar** window, choose the **Show Matrix** action.
+1.  In the **Work Centre Calendar** window, choose the **Show Matrix** action.
 2. In the **Work Centre Calendar Matrix** window, select the work centre and calendar day when the absence time should be recorded, and then choose the **Absence** action.  
 3.  In the **Absence** window, define the starting time, ending time, and description of that day’s absence. For example:  
 
@@ -108,8 +108,8 @@ The calculated work centre calendar will now define when and how much capacity i
 The capacity of the selected day has now decreased by the recorded absence time.  
 
 ## <a name="see-also"></a>See Also  
-[How to: Set Up Base Calendars](across-how-to-assign-base-calendars.md)  
-[How to: Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)  
+[Set Up Base Calendars](across-how-to-assign-base-calendars.md)  
+[Set Up Work Centres and Machine Centres](production-how-to-set-up-work-and-machine-centers.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

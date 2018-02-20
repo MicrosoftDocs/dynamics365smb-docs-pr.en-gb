@@ -1,6 +1,6 @@
 ---
 title: Set Up Opportunity Sales Cycles and Cycle Stages| Microsoft Docs
-description: Describes how to define sales stages, from initial contact to closing, to create a sales cycle and assign it to opportunities in Dynamics 365 Business edition.
+description: Describes how to define sales stages, from initial contact to closing, to create a sales cycle and assign it to opportunities in Finance and Operations, Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d164dd313352e80b6ce4e6f4ba8408e1e2c093de
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ecff2e9e0705055a514f1726b3223f8196300cb6
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-opportunity-sales-cycles-and-cycle-stages"></a>How to: Set Up Opportunity Sales Cycles and Cycle Stages
+# <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Set Up Opportunity Sales Cycles and Cycle Stages
 Before you can start using sales opportunities, you must set up sales cycles and sales cycle stages. A sales cycle is made up of a series of stages that go from the initial contact to the closing of a sale. Each stage can have certain requirements that must be met, such as requiring a sales quote, before an opportunity can go to the next stage. You can also specify whether a stage can be skipped. You can setup as many sales cycles as you need, and you can set up as many sales cycle stages as necessary within a sales cycle.
 
 Implementing opportunity sales cycles involves setting up the sales cycle, defining the different stages of the cycle, and then assigning the cycle to opportunities. Assigning the relevant activity or tasks to the opportunity may also be part of setting up a sales cycle.
@@ -37,7 +37,7 @@ Repeat these steps to set up as many sales cycles as you want. After you have se
 Repeat these steps to set up as many stages as you want within the sales cycle.
 
 ## <a name="to-assign-stage-cycles-to-opportunities"></a>To assign stage cycles to opportunities
-After you add the opportunities stage cycle, you can start to add sales opportunities, and then assign the stage cycle to opportunities by setting the **Sales Cycle Code** field. For more information, see [How to: Create Sales Opportunities](marketing-how-create-opportunities.md).
+After you add the opportunities stage cycle, you can start to add sales opportunities, and then assign the stage cycle to opportunities by setting the **Sales Cycle Code** field. For more information, see [Create Sales Opportunities](marketing-how-create-opportunities.md).
 
 ## <a name="to-set-up-activities-with-tasks"></a>To set up activities with tasks
 You can combine multiple task, for example tasks that each represent a step, in activities. Activity tasks are related to each other by a date formula. You can assign activities to opportunities, salespeople, or contacts.

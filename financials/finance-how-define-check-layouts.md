@@ -13,13 +13,13 @@ ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dd745186e4518c2005e34e6b2cbbc8925fd8931e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-define-check-layouts"></a>How to: Define Cheque Layouts
+# <a name="define-check-layouts"></a>Define Cheque Layouts
 You can design your cheques to conform with the standards set by the local authorities. Cheque images can be printed in English, French, or Spanish.
 
 Cheques are designed to print in both the United States and Canadian cheque image formats in either a cheque-stub-cheque format or a stub-stub-cheque format.
@@ -35,7 +35,7 @@ Cheques are designed to print in both the United States and Canadian cheque imag
 | 10401 |Cheque (Stub/Stub/Cheque) |This report is designed to print cheques in a stub/stub/cheque format. |
 | 10411 |Cheque (Stub/Cheque/Stub) |This report is designed to print cheques in a cheque/stub/cheque format. |
 
-When you have set up cheque layouts, you can print cheques from the **Payment Journal** window. For more information, see [How to: Work with Checks](payables-how-work-checks.md).
+When you have set up cheque layouts, you can print cheques from the **Payment Journal** window. For more information, see [Work with Cheques](payables-how-work-checks.md).
 
 ## <a name="see-also"></a>See Also
 [Managing Payables](payables-manage-payables.md)  

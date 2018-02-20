@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 43511c3c509c495555f4583fdbe982d8b98aa648
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 64d1a76c4d35a87ab7af85e3325b786156f5a62f
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-paypal-payments-standard-extension-to-dynamics-365-business-edition"></a>The PayPal Payments Standard Extension to Dynamics 365 Business edition 
+# <a name="the-paypal-payments-standard-extension-to-finance-and-operations-business-edition"></a>The PayPal Payments Standard Extension to Finance and Operations, Business edition 
 Customers continuously require higher customer service, both in terms of product quality but also in terms of delivery and payment options. The PayPal Payments Standard service helps you increase your customer service.
 
 As an alternative to collecting payments through bank transfer or credit cards, you can offer your customers to pay you through their PayPal account. When you send a sales invoice or sales order by email, there is a PayPal link in the email body and in the attached PDF document. When the customer chooses the link, the service page for their PayPal account appears showing the payment details for the sale. The customer can then pay the invoice as any other PayPal payment.
@@ -34,10 +34,10 @@ The PayPal Payments Standard service provides the following benefits:
 * The PayPal Payments Standard service does not involve monthly fees or setup fees.
 * Because it is an extension, you can easily enable the PayPal Payment Standard service when and if your business requires it.  
 
-For more information, see [How to: Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).
+For more information, see [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>See Also
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Customising [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

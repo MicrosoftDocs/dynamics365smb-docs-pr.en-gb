@@ -13,17 +13,17 @@ ms.search.keywords: scrap
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 5fc65c97e7c95a37d54b4084aaf8616169b625db
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 65c40cb262ccae73b94203b6438173febce0f439
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-dispose-of-or-retire-fixed-assets"></a>How to: Dispose of or Retire Fixed Assets
+# <a name="dispose-of-or-retire-fixed-assets"></a>Dispose of or Retire Fixed Assets
 When you sell or otherwise dispose of a fixed asset, the disposal value must be posted to calculate and record the gain or loss. A disposal entry must be the last entry posted for a fixed asset. For partially disposed fixed assets, you can post more than one disposal entry. The total of all posted disposal amounts must be a credit amount.  
 
 > [!NOTE]  
->   If you trade-in a fixed asset for another one, you must record both the sale of the old asset (disposal) and the purchase of the new one (acquisition). For more information, see [How to: Acquire Fixed Assets](fa-how-acquire.md).  
+>   If you trade-in a fixed asset for another one, you must record both the sale of the old asset (disposal) and the purchase of the new one (acquisition). For more information, see [Acquire Fixed Assets](fa-how-acquire.md).  
 
 ## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>To post a disposal from the fixed asset G/L journal
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA G/L Journals**, and then choose the related link.  
@@ -32,10 +32,10 @@ When you sell or otherwise dispose of a fixed asset, the disposal value must be 
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for disposal posting.  
 
     > [!NOTE]  
->   Step 4 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Disposal Account** field contains the general ledger debit account and the **Disposal Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see the "To set up fixed asset posting groups" section in [How to: Set Up General Fixed Asset Information](fa-how-setup-general.md).  
+>   Step 4 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Disposal Account** field contains the general ledger debit account and the **Disposal Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).  
 5. Choose the **Post** action.  
 
-    If you sell or dispose of part of a fixed asset, you must split up the asset before you can record the disposal transaction. For more information, see [How to: Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md).  
+    If you sell or dispose of part of a fixed asset, you must split up the asset before you can record the disposal transaction. For more information, see [Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md).  
 
 ## <a name="to-view-disposal-ledger-entries"></a>To view disposal ledger entries
 When you sell or dispose of a fixed asset, the disposal value is posted to the general ledger where you can view the result.  

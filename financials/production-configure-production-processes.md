@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: de493a4697c3a5c2fb8581545a29ee832fe1c3dc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f2d95dbb6d0336286f0fb657028970ce8a04cfda
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-manufacturing"></a>Setting Up Manufacturing
@@ -31,14 +31,14 @@ When you have set up manufacturing, you can plan and execute production orders. 
 |**To**|**See**|  
 |------------|-------------|  
 |Configure the manufacturing features, such as defining shop floor work hours and selecting planning principles.|The **Manufacturing Setup** page.|  
-|Define a standard working week in the manufacturing department in terms of starting and ending times of each work day and related work shift.|[How to: Create Shop Calendars](production-how-to-create-work-center-calendars.md)|  
-|Organise fixed values and requirements of production resources as work centres or machine centres to govern their output of production performed.|[How to: Set Up Work Centres and Machine Centres](production-how-to-set-up-work-and-machine-centers.md)|
-|Organise production operations in the required order and assign them to work or machine centres with the required work times.|[How to: Create Routings](production-how-to-create-routings.md)|
-|Organise production components or subassemblies under a produced parent item and certify the BOM for execution at work centres.|[How to: Create Production BOMs](production-how-to-create-production-boms.md)|
-|Make sure that the right component quantity is available when produced items are stocked in one unit of measure but produced in another.|[How to: Work With Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
-|Define families of production items with similar manufacturing processes to save consumption. For example, four pieces of the same item can be produced from one sheet and 10 pieces of another, different, item at the same time.|[How to: Work With Production Families](production-how-work-family.md)|
-|Use standard tasks to simplify the creation of routings by quickly attaching extra information to recurring operations.|[How to: Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)|  
-|Prepare work centres and routings to represent subcontracted production operations.|[How to: Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)|  
+|Define a standard working week in the manufacturing department in terms of starting and ending times of each work day and related work shift.|[Create Shop Calendars](production-how-to-create-work-center-calendars.md)|  
+|Organise fixed values and requirements of production resources as work centres or machine centres to govern their output of production performed.|[Set Up Work Centres and Machine Centres](production-how-to-set-up-work-and-machine-centers.md)|
+|Organise production operations in the required order and assign them to work or machine centres with the required work times.|[Create Routings](production-how-to-create-routings.md)|
+|Organise production components or subassemblies under a produced parent item and certify the BOM for execution at work centres.|[Create Production BOMs](production-how-to-create-production-boms.md)|
+|Make sure that the right component quantity is available when produced items are stocked in one unit of measure but produced in another.|[Work With Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
+|Define families of production items with similar manufacturing processes to save consumption. For example, four pieces of the same item can be produced from one sheet and 10 pieces of another, different, item at the same time.|[Work With Production Families](production-how-work-family.md)|
+|Use standard tasks to simplify the creation of routings by quickly attaching extra information to recurring operations.|[Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)|  
+|Prepare work centres and routings to represent subcontracted production operations.|[Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>See Also
 [Manufacturing](production-manage-manufacturing.md)    

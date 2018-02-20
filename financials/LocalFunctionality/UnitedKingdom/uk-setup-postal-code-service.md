@@ -1,6 +1,6 @@
 ---
-title: 'How to: Set Up the GetAddress.io UK Postcodes Extension | Microsoft Docs'
-description: Describes the general functionality you use to interact with data in Dynamics 365, such as entering values, sorting data, and changing views.
+title: Set Up the GetAddress.io UK Postcodes Extension | Microsoft Docs
+description: Describes the general functionality you use to interact with data in Finance and Operations, Business edition, such as entering values, sorting data, and changing views.
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: getaddress.io, postcodes, extension
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1f71f57306adb929ad787a3a5d93602a60383a57
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 52f608bc32be7846c55b2abf3e6bf4db1c236561
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-the-getaddressio-uk-postcodes-extension"></a>How to: Set Up the GetAddress.io UK Postcodes Extension
+# <a name="set-up-the-getaddressio-uk-postcodes-extension"></a>Set Up the GetAddress.io UK Postcodes Extension
 This extension makes it easy to enter addresses in the UK for entities like customers, contacts, employees, vendors, bank accounts, and so on.
 
 The GetAddress.io UK Postcodes extension uses the getAddress API to find addresses in postcodes in the UK. To use the extension, you need to get a plan and an API Key for the getAddress API. That's easy, and we help you do that when you set up the GetAddress.io UK Postcodes extension. Plans are based on use, or what's sometimes referred to as calls. A call, in this case, is when [!INCLUDE[d365fin](../../includes/d365fin_md.md)] displays a list of addresses in a postcode. Depending on how often you add addresses, choose the plan that is best for you. If you just choose **Get API Key** in the page, you'll use the **Free** plan, which lets you add 20 addresses per day, and is valid for 30 days.

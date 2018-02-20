@@ -1,6 +1,6 @@
 ---
 title: Process Incoming Documents| Microsoft Docs
-description: To record an external document, such as a PDF,  in Dynamics 365 Business edition , you first create or complete an incoming document record.
+description: To record an external document, such as a PDF,  in Finance and Operations, Business edition , you first create or complete an incoming document record.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f4dbb1ecca41861b6afa9371ebe2348eef8fcc0a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9534c847352f8b46aac461c672cd3fe70b5e4ca1
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="processing-incoming-documents"></a>Processing Incoming Documents
@@ -26,11 +26,11 @@ From PDF or image files that you receive from your trading partners, you can hav
 
 | To | See |
 | --- | --- |
-| Create incoming document records manually or automatically by taking a photo of a paper receipt, for example. |[How to: Create Incoming Document Records](across-how-create-income-document-records.md) |
-| Use an OCR service to turn PDF and image files into electronic documents that can be converted to purchase invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)], for example. Train the OCR service to avoid errors next time it processes similar data. |[How to: Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md) |
-| Connect or remove incoming document records for any non-posted sales or purchase document and to any customer, vendor, or general ledger entry from the document or entry. |[How to: How to: Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md) |
-| From the **Chart of Accounts** and **General Ledger Entries** windows, use a search function to find general ledger entries for posted documents that do not have incoming document records and then centrally link to existing records or create new ones with attached document files. |[How to: Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md) |
-| Get better overview by setting incoming document records to Processed to remove them from the default view. |[How to: Manage Many Incoming Document Records](across-how-manage-many-income-document-records.md) |
+| Create incoming document records manually or automatically by taking a photo of a paper receipt, for example. |[Create Incoming Document Records](across-how-create-income-document-records.md) |
+| Use an OCR service to turn PDF and image files into electronic documents that can be converted to purchase invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)], for example. Train the OCR service to avoid errors next time it processes similar data. |[Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md) |
+| Connect or remove incoming document records for any non-posted sales or purchase document and to any customer, vendor, or general ledger entry from the document or entry. |[Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md) |
+| From the **Chart of Accounts** and **General Ledger Entries** windows, use a search function to find general ledger entries for posted documents that do not have incoming document records and then centrally link to existing records or create new ones with attached document files. |[Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md) |
+| Get better overview by setting incoming document records to Processed to remove them from the default view. |[Manage Many Incoming Document Records](across-how-manage-many-income-document-records.md) |
 
 ## <a name="see-also"></a>See Also
 [Incoming Documents](across-income-documents.md)  

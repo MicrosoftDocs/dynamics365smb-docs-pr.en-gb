@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b2efb52ce874643fffc0af805fc7ff0dac792462
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 378c3d2b0429390c303c723dbfafd07c531b3958
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-#  <a name="how-to-create-analysis-reports"></a>How to: Create Analysis Reports
-Sales managers need to analyse turnover, gross profit and other key sales performance indicators on a regular basis. Purchasers, are more interested in the dynamics of purchase volumes, vendors' performance and purchase prices. Whereas logistics/inventory managers need information on inventory turnover, analysis of inventory movement, and statistics on inventory value.  
+#  <a name="create-analysis-reports"></a>Create Analysis Reports
+Sales managers need to analyze turnover, gross profit and other key sales performance indicators on a regular basis. Purchasers, are more interested in the dynamics of purchase volumes, vendors' performance and purchase prices. Whereas logistics/inventory managers need information on inventory turnover, analysis of inventory movement, and statistics on inventory value.  
 
 You can use analysis reports to create customized reports based on records of your posted transactions, for example, sales, purchases, transfers and inventory adjustments. In a customizable report, the source data, which is derived from the item ledger (with associated value entries), can be combined, compared and presented in meaningful user-defined ways. In this sense, the analysis report is very similar to a PivotTable report in Microsoft Excel.  
 
@@ -28,7 +28,7 @@ You can create your personalized report that focuses on your key accounts in ter
 
 The analysis report consists of the objects that you want to analyse, such as customers, customer groups, sales people and so on, represented as lines, and the analysis parameters, that is, the way you want to analyse the object, represented as columns, such as profit calculations, periodic comparisons of sales amounts and volumes or periodic comparisons of actual and budgeted figures.
 
-In addition to analysis reports, you can create and view similar information in analysis views, which are based on dimensions. For more information, see [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
+In addition to analysis reports, you can create and view similar information in analysis views, which are based on dimensions. For more information, see [Analyse Data by Dimensions](bi-how-analyze-data-dimension.md).
 
 ## <a name="example"></a>Example  
 You can set up lines like these:  
@@ -41,9 +41,6 @@ Then you can set up columns like these:
 - Sales Current Month  
 - Sales Last Month  
 - Sales in Pct. of last Month  
-
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Setting Up Line and Column Layouts  
  In the **Analysis Report** window, you can view different line and column layouts according to what you have set up. You set up your lines or line templates in the **Analysis Line Templates** window. In this window, you can define the name of the report and the objects you want to show in the lines of your report. You set up your columns in the **Analysis Column Templates** window. In this window, you can define the name of the column template and the analysis parameters that you want to show in the report as columns. In the **Analysis Column Templates** window, each line represents a column in your report. Note that analysis lines and analysis columns are independent from each other.  

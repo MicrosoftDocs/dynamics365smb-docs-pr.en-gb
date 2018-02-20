@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ac8e4cdfda63ed797415fcd183b410feea6bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 06b697ee8335f5c24b61414e9d7aebc5add2c5b0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-lend-and-receive-loaners"></a>How to: Lend and Receive Loaners
+# <a name="lend-and-receive-loaners"></a>Lend and Receive Loaners
 You can lend customers loaners to temporarily replace service items that you have received for servicing.  
   
 ## <a name="to-lend-a-loaner-item"></a>To lend a loaner item    
@@ -47,5 +47,5 @@ You can use the **General Service Comment Sheet** window to register comments on
 5. In the **Comment** field, enter a comment. You can enter a maximum of 80 characters. If you need to enter additional text, go to the next line. You can fill in as many lines as necessary.  
   
 ## <a name="see-also"></a>See Also  
-[How to: Set Up a Loaner Program](service-how-setup-loaner-program.md)   
+[Set Up a Loaner Program](service-how-setup-loaner-program.md)   
 

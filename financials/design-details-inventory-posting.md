@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 9bc177d45efa1e6e772ed70cc66de393e6250def
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-inventory-posting"></a>Design Details: Inventory Posting
@@ -77,7 +77,7 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 
 |Entry No.|Item Ledger Entry No.|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|  
 |---------------|---------------------------|----------------------------|-----------------------------|--------------|  
-|2|2|0|2|-10|  
+|2|2|1|2|-10|  
 
  At the end of the accounting period, you run the **Post Inventory Cost to G/L** batch job to reconcile these inventory transactions with the general ledger.  
 

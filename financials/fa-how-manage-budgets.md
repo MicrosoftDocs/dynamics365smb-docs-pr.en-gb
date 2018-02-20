@@ -10,22 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 06/02/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2185a1fc40ddae772e20994f6531b02d7e703e17
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: aba6d1c433d20c5d2da1234df06503ca97cac061
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-budgets-for-fixed-assets"></a>How to: Manage Budgets for Fixed Assets
+# <a name="manage-budgets-for-fixed-assets"></a>Manage Budgets for Fixed Assets
 You can set up budgeted fixed assets. For example, this lets you include anticipated acquisitions and sales in reports.  
 
 To prepare your budgeted income statement, budgeted balance sheet, and cash budget, you need information about future investments, disposals and depreciation of fixed assets. You can get this information from the **Fixed Asset - Projected Value** report. Before you print this report, you must prepare the budget.  
-
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>To budget the acquisition cost of a fixed asset
 To prepare a budget, you have to set up fixed asset cards for fixed assets that you intend to buy in the future. The budget fixed assets are set up as ordinary fixed assets, but it must be set up to not post to the general ledger.
@@ -35,7 +32,7 @@ When you post the acquisition cost, you enter the number of the budgeted fixed a
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.
 2. Choose the **New** action to create a new fixed asset card for the budgeted fixed asset.
 3. Select the **Budgeted Asset** check box to prevent posting to the general ledger.
-4. Fill in the remaining fields, assign a depreciation book, and then post the first acquisition cost with the budgeted fixed asset entered in the **Budgeted FA No.** field on the journal line. For more information, see [How to: Acquire Fixed Assets](fa-how-acquire.md).
+4. Fill in the remaining fields, assign a depreciation book, and then post the first acquisition cost with the budgeted fixed asset entered in the **Budgeted FA No.** field on the journal line. For more information, see [Acquire Fixed Assets](fa-how-acquire.md).
 
 ## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>To budget the disposal of a fixed asset
 If you plan to sell assets within the budget period, you can enter information about sales price and sales date.

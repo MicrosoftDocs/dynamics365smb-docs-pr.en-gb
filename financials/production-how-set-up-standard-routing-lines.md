@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 78170bd2bf64b110d5346855d5592837abf2b73e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac9813b06da171f2da0e179f3b7d360f4dcae3f5
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-standard-routing-lines"></a>How to: Set Up Standard Routing Lines
+# <a name="set-up-standard-routing-lines"></a>Set Up Standard Routing Lines
 The use of standard tasks simplifies the creation and maintenance of routings. They allow you to quickly attach extra information to recurring operations.
 
 ## <a name="to-set-up-a-standard-task"></a>To set up a standard task
@@ -35,8 +35,8 @@ The use of standard tasks simplifies the creation and maintenance of routings. T
 3. Select a relevant routing line, choose the **Operations** action, and then choose the **Tools**, **Personnel**, **Description**, or **Tools** action.
 
 ## <a name="see-also"></a>See Also  
-[How to: Create Routings](production-how-to-create-routings.md)  
-[How to: Create Production BOMs](production-how-to-create-production-boms.md)     
+[Create Routings](production-how-to-create-routings.md)  
+[Create Production BOMs](production-how-to-create-production-boms.md)     
 [Setting Up Manufacturing](production-configure-production-processes.md)   
 [Manufacturing](production-manage-manufacturing.md)    
 [Planning](production-planning.md)   

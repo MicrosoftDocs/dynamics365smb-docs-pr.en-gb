@@ -13,13 +13,13 @@ ms.search.keywords: Ceridian, Quickbooks, salary
 ms.date: 06/16/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d53dfb26a3fea663e68a3b558579a59184e9de26
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45ac64abac2a604eb4f669dd3c246b59f05f4d31
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-import-payroll-transactions"></a>How to: Import Payroll Transactions 
+# <a name="import-payroll-transactions"></a>Import Payroll Transactions
 To account for salary payments and related transactions, you must import and post financial transactions made by your payroll provider to the general ledger. To do this, you first import a file that you receive from the payroll provider into the **General Journal** window. Then you map the external accounts in the payroll file to the relevant G/L accounts. Lastly, you post the payroll transactions according to the account mapping.
 
 > [!NOTE]  
@@ -34,7 +34,7 @@ To account for salary payments and related transactions, you must import and pos
 >   In the step about mapping the external payroll records to your G/L accounts, the mappings that you make will be remembered next time the same records are imported. This will save you time as you do not have to manually fill in the **Account No.** field in the general journal every time you have imported recurring payroll transactions.   
 
     When you choose the **OK** button in the assisted setup guide, the **General Journal** window is filled with lines representing the transactions that the payroll file contains and with the relevant accounts prefilled in the **G/L Account** fields according to mappings you made in the guide.
-4. Edit or post the journal lines as for any other general ledger transactions. For more information, see [How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).   
+4. Edit or post the journal lines as for any other general ledger transactions. For more information, see [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).   
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  

@@ -13,13 +13,13 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cdf1183fb5383311dc34d8c2c619a1eddf7e8851
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7ae4abacf22d3610194ea56bbaa997390cb7df0a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-fixed-asset-maintenance"></a>How to: Set Up Fixed Asset Maintenance
+# <a name="set-up-fixed-asset-maintenance"></a>Set Up Fixed Asset Maintenance
 To manage fixed asset maintenance, you must first set up some general maintenance information, a posting account for maintenance costs, and maintenance codes for types of work, such as Routine Service or Repair.
 
 ## <a name="to-set-up-general-maintenance-information"></a>To set up general maintenance information
@@ -42,7 +42,7 @@ To post maintenance costs, you must first enter an account number in the **FA Po
 2. Fill in the **Maintenance Expense Account** field for each posting group.
 
 > [!NOTE]  
->   To define that maintenance costs are allocated to departments or projects, set up an allocation keys. For more information, see [How to: Set Up General Fixed Assets Features](fa-how-setup-general.md).
+>   To define that maintenance costs are allocated to departments or projects, set up an allocation keys. For more information, see [Set Up General Fixed Assets Features](fa-how-setup-general.md).
 
 ## <a name="see-also"></a>See Also
 [Setting Up Fixed Assets](fa-setup.md)  

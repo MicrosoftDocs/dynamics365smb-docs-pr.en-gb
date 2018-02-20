@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 902c98c126ff23659cb103e8eaf351c144b76ea9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 57f36592105faf0801864e034c3b930ae196ee62
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>How to: Set Up and Publish KPI Web Services Based on Account Schedules
+# <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Set Up and Publish KPI Web Services Based on Account Schedules
 In the **Account Schedule KPI Web Service Setup** window, you set up how to show the account-schedule KPI data and which specific account schedules to base the KPIs on. When you choose the **Publish Web Service** button, the specified account-schedule KPI data is added to the list of published web services in the **Web Services** window.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>To set up and publish a KPI web service that is based on account schedules  
@@ -50,7 +50,7 @@ In the **Account Schedule KPI Web Service Setup** window, you set up how to show
 7.  To publish the account-schedule KPI web service, choose the **Publish Web Service** action. The web service is added to the list of published web services in the **Web Services** window.  
 
 > [!NOTE]  
->  You can also publish the KPI web service by pointing to the **Account Schedule KPI Web Service Setup** page object from the **Web Services** window. For more information, see [How to: Publish a Web Service](across-how-publish-web-service.md).  
+>  You can also publish the KPI web service by pointing to the **Account Schedule KPI Web Service Setup** page object from the **Web Services** window. For more information, see [Publish a Web Service](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>See Also  
 [Business Intelligence](bi.md)  

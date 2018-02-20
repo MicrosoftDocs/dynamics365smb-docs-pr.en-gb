@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e9eb165c8ccb196f687c11f4cb4353d88c71de3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b2607dce0b62a3a1433362491692687d4c868d06
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-price-management"></a>Service Price Management
@@ -67,6 +67,6 @@ The following table describes the calculations.
 |**Minimum**|This means that you put a lower limit on the charge to your customer, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will only be performed if the total amount is less than the amount specified on the service price group.|  
   
 ## <a name="see-also"></a>See Also  
-[How to: Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
+[Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
 [Setting Up Service Management](service-setup-service.md)  
 

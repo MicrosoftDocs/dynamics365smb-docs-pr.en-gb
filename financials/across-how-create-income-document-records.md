@@ -13,18 +13,18 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8642f4d904c9a1e7c46846d790fcb2d0837c4cc2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 444dabfdcfbf91eb81e281f6f6b4b9f3b184462d
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-incoming-document-records"></a>How to: Create Incoming Document Records
+# <a name="create-incoming-document-records"></a>Create Incoming Document Records
 In the **Incoming Documents** window, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries.
 
 To record an external document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must first create or complete an incoming document record. You can do this manually, or you can take a photo of the external document and then create the incoming document record with the image file attached.
 
-Before you can use the Incoming Documents feature, you must perform the required setup. For more information, see [How to: Set Up Incoming Documents](across-how-setup-income-documents.md).
+Before you can use the Incoming Documents feature, you must perform the required setup. For more information, see [Set Up Incoming Documents](across-how-setup-income-documents.md).
 
 ## <a name="to-approve-or-reject-an-incoming-document"></a>To approve or reject an incoming document
 If you do want to allow users to create invoices or general journal lines from incoming document records unless they are approved, you can set up approvers who must approve the records before they can be processed.
@@ -69,5 +69,5 @@ If you approve the incoming document record, the **Released** check box on the i
 [Process Incoming Documents](across-process-income-documents.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

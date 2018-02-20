@@ -13,13 +13,13 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8219b8a054901f81785ef1376c6f86763560cc31
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c355657821f5f4d18c707d296d9607cf5ec60442
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-find-posted-documents-without-incoming-document-records"></a>How to: Find Posted Documents without Incoming Document Records
+# <a name="find-posted-documents-without-incoming-document-records"></a>Find Posted Documents without Incoming Document Records
 From the **Chart of Accounts** and **General Ledger Entries** windows, you can use a search function to find general ledger entries for posted purchase and sales documents that do not have incoming document records and then centrally link to existing records or create new ones with attached document files.
 
 ## <a name="to-find-posted-documents-without-incoming-document-records"></a>To find posted documents without incoming document records
@@ -35,11 +35,11 @@ The **Posted Documents without Incoming Document** window opens showing posted p
 2. In the **Incoming Documents** window, select the incoming document record that you want to connect to posted document found, and then choose the **OK** button.
 3. In the **Posted Documents without Incoming Document** window, the selected incoming document record is now connected to the posted document, as you can see in the **Incoming Document Files** FactBox.
 
-If a relevant incoming document record does not exist in the **Incoming Documents** window, then you can create it. For more information, see [How to: Create Incoming Document Records](across-how-create-income-document-records.md).
+If a relevant incoming document record does not exist in the **Incoming Documents** window, then you can create it. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).
 
 ## <a name="see-also"></a>See Also
 [Process Incoming Documents](across-process-income-documents.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

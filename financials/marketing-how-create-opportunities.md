@@ -1,6 +1,6 @@
 ---
 title: Create Sales Opportunities| Microsoft Docs
-description: Describes how to create opportunities from a salesperson or a contact in Dynamics 365 Business edition.
+description: Describes how to create opportunities from a salesperson or a contact in Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,18 +13,18 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ff4318d9da902847166ac5747adf469584a3d2a2
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sales-opportunities"></a>How to: Create Sales Opportunities
+# <a name="create-sales-opportunities"></a>Create Sales Opportunities
 You can create opportunities for the sales opportunities you have on your contacts. All opportunities must be assigned to a salesperson or purchaser and must have a contact.
 
 You can create opportunities from the **Opportunity List** window. But you typically will create opportunities from the specific contact or salespeople.
 
-Before you can create opportunities, you must set up opportunity sales cycles. For more information see [How to: Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Before you can create opportunities, you must set up opportunity sales cycles. For more information see [Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>To create an opportunity from a salesperson
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.
@@ -45,5 +45,5 @@ Before you can create opportunities, you must set up opportunity sales cycles. F
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
-[Working with Dynamics 365](ui-work-product.md)
+[Working with Finance and Operations, Business edition](ui-work-product.md)
 

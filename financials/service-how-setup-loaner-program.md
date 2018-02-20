@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f57c94523c4a907478dceae182446098cba31dd7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4d2927cb2bc02ecf2c8befde4dcdba141cb371f6
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-loaner-program"></a>How to: Set Up a Loaner Program
+# <a name="set-up-a-loaner-program"></a>Set Up a Loaner Program
 Sometimes you must provide a customer a loaner item for use when your customer service team makes a repair. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up a loaner programme, loan items to your customers, and track receipts when customers return the items. Additionally, you can add comments about loaners in one of two ways:  
   
 * Enter a note or comment about the loaner itself.  
@@ -33,7 +33,7 @@ Sometimes you must provide a customer a loaner item for use when your customer s
 5. In the **Unit of Measure Code** field, choose the relevant unit of measure.  
   
 ## <a name="see-also"></a>See Also
-[How to: Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)  
+[Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)  
 [Setting Up Service Management](service-setup-service.md)  
 [Delivering Service](service-deliver-service.md)  
 

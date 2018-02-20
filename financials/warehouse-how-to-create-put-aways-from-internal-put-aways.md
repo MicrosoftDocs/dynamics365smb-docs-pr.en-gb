@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2a6829c5a67f1121ecc135e1183af78b0e602f8f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5cafcc32874187ae787279c20256c11cadaff6a1
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-and-put-away-without-a-source-document"></a>How to: Pick and Put Away Without a Source Document
+# <a name="pick-and-put-away-without-a-source-document"></a>Pick and Put Away Without a Source Document
 After items have been put away and before they are picked to fulfill the needs of a production order or shipment, they are stored in the warehouse as part of available inventory.  
 
 Situations can arise where items must be taken out of the warehouse pick bins temporarily, perhaps to serve as demonstration models in a sales presentation. These items are still owned by the company and are part of inventory, but they are not available for picking. They are registered in a special purpose bin that you create for this purpose; technically, the items are in the warehouse, but physically, they could be in a conference or demonstration room.  

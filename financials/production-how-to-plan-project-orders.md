@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 49e3ce0ef80dd54f66565f62616b3b8f2a4aaeaa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 27b2571df137b489a72673251fb5a176bfa771fe
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-project-orders"></a>How to: Plan Project Orders
+# <a name="plan-project-orders"></a>Plan Project Orders
 This planning task starts from a sales order and uses the **Sales Order Planning** window. Once you have created a project production order, you can plan it further by using the **Order Planning** window.  
 
 ## <a name="to-create-a-project-production-order"></a>To create a project production order  
@@ -36,7 +36,7 @@ This planning task starts from a sales order and uses the **Sales Order Planning
 9. Choose the **Planning** action.
 10. In the **Order Planning** window, choose the **Refresh** action to calculate new demand.  
 
-The order header line for the project order is displayed with all unfulfilled demand lines expanded under it. Although the production order contains lines for several produced items, the total demand for all production order lines is listed under one order header line in the **Order Planning** window, and the original customer name is displayed. You can now proceed to plan for the demand as described in [How to: Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md).  
+The order header line for the project order is displayed with all unfulfilled demand lines expanded under it. Although the production order contains lines for several produced items, the total demand for all production order lines is listed under one order header line in the **Order Planning** window, and the original customer name is displayed. You can now proceed to plan for the demand as described in [Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  Demand lines in the project production order that have **Prod. Order** in their **Replenishment System** field represent underlying production orders. After you have generated these production orders, you must again calculate a plan in the **Order Planning** window to identify any unfulfilled component demand for them. In that case, they are displayed as demand lines under a normal production order header line, meaning, the project relation is no longer visible in the window. However, if you are using the Order Tracking feature, then you can look back and forth to all supply orders made under the original sales order.  

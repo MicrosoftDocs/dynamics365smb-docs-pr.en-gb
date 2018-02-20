@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: de7cf91736fd97943604237cee7093017e7c01f9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 659b3bebb20e3deb33e6e392c5318810848285a1
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-reports-with-xbrl"></a>How to: Create Reports with XBRL
+# <a name="create-reports-with-xbrl"></a>Create Reports with XBRL
 XBRL, which stands for eXtensible Business Reporting Language, is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data. The XBRL initiative enables global financial reporting by numerous ERP software companies and international accounting organizations. The goal of the initiative is to provide a standard for the uniform reporting of financial information for banks, investors, and government authorities. Such business reporting can include:  
 
  • Financial statements  
@@ -27,7 +27,7 @@ XBRL, which stands for eXtensible Business Reporting Language, is an XML-based l
  • Non-financial information  
  • Regulatory filings, such as annual and quarterly financial statements  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] enables companies to implement data in XBRL, and take advantage of the flexibility and automation it provides for both collecting and sharing data.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  enables companies to implement data in XBRL, and take advantage of the flexibility and automation it provides for both collecting and sharing data.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
 XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) is an XML-based language for financial reporting. XBRL provides a standard for uniform reporting for all users of the financial information supply chain; such as public and private companies, the accounting profession, regulators, analysts, the investment community, capital markets and lenders, as well as key third parties such as software developers and data aggregators.  

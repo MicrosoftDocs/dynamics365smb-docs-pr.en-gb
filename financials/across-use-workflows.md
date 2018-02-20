@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a42e336dba385cbf24c19702ad64d76b26c15104
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ed9cc92aee8a11a6094456ad24a07ab6c4d47952
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="using-workflows"></a>Using Workflows
@@ -31,11 +31,11 @@ You can set up and use workflows that connect business-process tasks performed b
 
 |**To**|**See**|  
 |------------|-------------|  
-|Set a workflow to start when the first entry-point event occurs.|[How to: Enable Workflows](across-how-to-enable-workflows.md)|  
-|Request approval of a task, as an approver, accept, decline, or delegate approvals, and send or view approval notifications.|[How to: Use Approval Workflows](across-how-use-approval-workflows.md)|  
-|Create workflow steps that restrict a certain record type from being used before a certain event occurs, for example that the record is approved.|[How to: Restrict and Allow Usage of a Record](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|View workflow step instances of status Completed.|[How to: View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)|  
-|Delete a workflow that you are sure will no longer be used.|[How to: Delete Workflows](across-how-to-delete-workflows.md)|  
+|Set a workflow to start when the first entry-point event occurs.|[Enable Workflows](across-how-to-enable-workflows.md)|  
+|Request approval of a task, as an approver, accept, decline, or delegate approvals, and send or view approval notifications.|[Use Approval Workflows](across-how-use-approval-workflows.md)|  
+|Create workflow steps that restrict a certain record type from being used before a certain event occurs, for example that the record is approved.|[Restrict and Allow Usage of a Record](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
+|View workflow step instances of status Completed.|[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)|  
+|Delete a workflow that you are sure will no longer be used.|[Delete Workflows](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-also"></a>See Also  
 [Setting Up Workflows](across-set-up-workflows.md)   

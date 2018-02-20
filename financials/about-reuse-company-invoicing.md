@@ -1,6 +1,6 @@
 ---
-title: Use Invoicing and Dynamics 365 | Microsoft Docs
-description: Workaround for accessing Microsoft Invoicing when you have signed up for Dynamics 365.
+title: Use Invoicing and Finance and Operations, Business edition | Microsoft Docs
+description: Workaround for accessing Microsoft Invoicing when you have signed up for Dynamics 365 for Finance and Operations, Business edition.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 11/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: db76c49d8f453b978e95d65afa14234cf9ccdffe
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: abceec5b1bc588e2842d0f512240c30eccbf6f8e
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="using-the-same-office-365-account-in-included365finincludesd365finmdmd-and-microsoft-invoicing"></a>Using the same Office 365 Account in [!INCLUDE[d365fin](includes/d365fin_md.md)] and Microsoft Invoicing
+# <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Using the same Office 365 Account in [!INCLUDE[d365fin](includes/d365fin_long_md.md)] and Microsoft Invoicing
 When you sign up for a trial with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can move to a 30-day evaluation phase, you can start a subscription, or you can stop using [!INCLUDE[d365fin](includes/d365fin_md.md)]. In all cases, if you log into the Office Portal, you might see a tile called **Business centre** and click it. This is part of the Office 365 Business Premium subscription, so not everyone will see that tile in the Office Portal.  
 
 If you do access the Business centre, you will see a section called **Invoicing**. If you access that section, you will see a message that you cannot access Microsoft Invoicing because your account is used in [!INCLUDE[d365fin](includes/d365fin_md.md)].  

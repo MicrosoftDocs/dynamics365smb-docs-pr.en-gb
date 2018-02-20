@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0c88d05426cbc8a5e947bd33449b8e60b4a99b1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2dd654e8b871c108088a413fa7c4ee4a7ee07069
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-print-vat-audit-reports"></a>How to: Print VAT Audit Reports
+# <a name="print-vat-audit-reports"></a>Print VAT Audit Reports
 All vendors must export the data required for auditing in a Content Separated Value (CSV) file format. The following reports comply with this requirement:  
 
 -   **VAT Audit**  report – This report is used for VAT auditing.  

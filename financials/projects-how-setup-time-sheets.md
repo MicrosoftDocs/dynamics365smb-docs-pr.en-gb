@@ -13,13 +13,13 @@ ms.search.keywords: project management, capacity, staff, resource
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3e85168709eb8e96b2ee2aea516189c2cf88d426
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a5b2027649e2adddfd3e59b4376303059f575a99
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-time-sheets"></a>How to: Set Up Time Sheets
+# <a name="set-up-time-sheets"></a>Set Up Time Sheets
 Time sheets in [!INCLUDE[d365fin](includes/d365fin_md.md)] handle time registration in weekly increments of seven days. You use them to track the time used on jobs, and you can use them to record simple resource time registration. Before you can use time sheets, you must specify how you want them to be set up and configured.
 
 After you have set up how your organisation will use time sheets, you can specify if and how time sheets are approved. Depending on the needs of your organisation, you can designate:
@@ -27,7 +27,7 @@ After you have set up how your organisation will use time sheets, you can specif
 * One or more users as the time sheet administrator and approver for all time sheets.
 * A time sheet approver for each resource.
 
-When you have set up time sheets, you can create time sheets for resources, assign them to job planning lines, and post time sheet lines. For more information, see [How to: Use Time Sheets](projects-how-use-time-sheets.md).
+When you have set up time sheets, you can create time sheets for resources, assign them to job planning lines, and post time sheet lines. For more information, see [Use Time Sheets](projects-how-use-time-sheets.md).
 
 ## <a name="to-set-up-general-information-for-time-sheets"></a>To set up general information for time sheets
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resources Setup**, and then choose the related link.  
@@ -42,7 +42,7 @@ When you have set up time sheets, you can create time sheets for resources, assi
 
 ## <a name="to-assign-a-time-sheet-administrator"></a>To assign a time sheet administrator
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Setup**, and then choose the related link.  
-2. Add a new user if the user list does not include the person who you want to be the time sheet administrator. For more information, see [How to: Manage Users and Permissions](ui-how-users-permissions.md).
+2. Add a new user if the user list does not include the person who you want to be the time sheet administrator. For more information, see [Manage Users and Permissions](ui-how-users-permissions.md).
 3. Select a user to be a time sheet administrator, and then select the **Time Sheet Admin.** check box.  
 
 > [!TIP]  

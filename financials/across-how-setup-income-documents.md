@@ -13,13 +13,13 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 9a07389bf676468ea17516f8b00b8b1a235dc853
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ad534c9d60bbf3805f701eec6295084f6121a6d0
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-incoming-documents"></a>How to: Set Up Incoming Documents
+# <a name="set-up-incoming-documents"></a>Set Up Incoming Documents
 If you create general journal lines from incoming document records, you must specify in the **Incoming Documents Setup** window which journal template and batch to use.
 
 If you do not want users to create invoices or general journal lines from incoming document records unless the documents are first approved, you must set up approvers in the **Incoming Document Approvers** window.
@@ -42,7 +42,7 @@ When the Incoming Documents feature is set up, you can use different functions t
 When approvers have been set up in the **Incoming Document Approvers** window, only those users can approve an incoming document if the **Require Approval To Create** check box in the **Incoming Documents Setup** window is selected.
 
 > [!NOTE]  
->   This approval setup is not related to approval workflows. For more information, see [How to: Use Approval Workflows](across-how-use-approval-workflows.md).
+>   This approval setup is not related to approval workflows. For more information, see [Use Approval Workflows](across-how-use-approval-workflows.md).
 
 ## <a name="to-set-up-an-ocr-service"></a>To set up an OCR service
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **OCR Service Setup**, and then choose the related link.
@@ -58,5 +58,5 @@ It is recommended that you protect the logon information that you enter in the *
 [Process Incoming Documents](across-process-income-documents.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

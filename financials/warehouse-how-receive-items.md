@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 34960041320f595b504c9f16913db07c1dd3f053
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e6ab403945df0f3c98ab1d47eefa0633f0172e3
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-items"></a>How to: Receive Items
+# <a name="receive-items"></a>Receive Items
 When items arrive at a warehouse that is not set up for warehouse receipt processing, you simply record the receipt on the related business document, such as a purchase order, a sales return order, or an inbound transfer order.
 
 When items arrive at a warehouse that is set up for warehouse receipt processing, you must retrieve the lines of the released source document that triggered their receipt. If you have bins, you can either accept the default bin that is filled in, or if the item has never been used before in the warehouse, fill in the bin where the item should be put away. You must then fill in the quantities of the items you have received, and post the receipt.  
@@ -27,7 +27,7 @@ When items arrive at a warehouse that is set up for warehouse receipt processing
 ## <a name="to-receive-items-with-a-purchase-order"></a>To receive items with a purchase order
 The following describes how to receive items with a purchase order. The steps are similar for sales return orders and transfer orders.  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.
-2. Open an existing purchase order, or create a new one. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+2. Open an existing purchase order, or create a new one. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. In the **Qty. to Receive** field, enter the received quantity.
 
     The value in the **Qty. Received** field is updated. If this is a partial receipt, then the value is lower than the value in the **Quantity** field.

@@ -11,13 +11,13 @@ ms.search.keywords: payment process, cash receipt
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ccef6a35b1632bd94f64c5e9ad56ecd3bacbfd06
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6e00e9cbc1b1dc8674ccf83876809496a563b0be
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-customer-payments-manually"></a>How to: Reconcile Customer Payments Manually
+# <a name="reconcile-customer-payments-manually"></a>Reconcile Customer Payments Manually
 When you receive a cash receipt from a customer, or you make a cash refund, you must decide whether to apply the payment or refund to close one or more open debit or credit entries. You can specify the amount you want to apply. For example, you can apply partial payments to customer ledger entries. Closing customer ledger entries makes sure that information such as customer statistics, account statements, and finance charges are correct.
 
 > [!NOTE]  
@@ -34,7 +34,7 @@ You can apply customer ledger entries in several ways:
 
 You can apply customer payments manually in the **Cash Receipt Journal** window. A cash receipt journal is a type of general journal, so you can use it to post transactions to general ledger, bank, customer, vendor, and fixed assets accounts. You can apply the payment to one or more debit entries when you post the payment, or you can apply from the posted entries later.
 
-You can also apply customer and vendor payments in the **Payment Reconciliation Journal** window, by using functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md). Alternatively, you can reconcile customer payments based on a list of unpaid sales documents in the **Payment Registration** window. For more information, see [How to: Reconcile Customer Payments From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
+You can also apply customer and vendor payments in the **Payment Reconciliation Journal** window, by using functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md). Alternatively, you can reconcile customer payments based on a list of unpaid sales documents in the **Payment Registration** window. For more information, see [Reconcile Customer Payments From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>To fill and post a cash receipt journal
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journal**, and then choose the related link.
@@ -129,7 +129,7 @@ If you sell to a customer in one currency and receive payment in another currenc
 
 If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2. The relevant exchange rate is found in the **Currency Exchange Rates** window.  
 
-Applying customer ledger entries in different currencies must be enabled. For more information, see [How to: Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md).  
+Applying customer ledger entries in different currencies must be enabled. For more information, see [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipts Journal**, and then choose the related link.
 2. Open the journal you want, and fill in the first empty journal line using a currency code.

@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5b2658a5b77b1e1ee293b6f99c419c133c535372
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5b73ac2ca4f1aa3bbb8c6514a8aafa39b3c76f99
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-items-for-warehouse-shipment"></a>How to: Pick Items for Warehouse Shipment
+# <a name="pick-items-for-warehouse-shipment"></a>Pick Items for Warehouse Shipment
 When the location is set up to require warehouse pick processing as well as warehouse shipment processing, you use the warehouse pick documents to create and process pick information prior to posting the warehouse shipment.  
 
 You cannot create a warehouse pick document from scratch because a pick activity is always part of a workflow, either in a pull or a push scenario.  
 
 You can create warehouse pick documents in a pull fashion by opening an empty warehouse shipment document, detect source documents that are released to shipment, and then create warehouse pick lines for those shipments. You can use the **Get Source Documents** or **Use Filter to Get Source Documents** functions to detect source documents that are ready for shipment.
 
-Alternatively, you can use the **Pick Worksheet** window to pull and create pick lines in batch mode. For more information, see [How to: Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md).  
+Alternatively, you can use the **Pick Worksheet** window to pull and create pick lines in batch mode. For more information, see [Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md).  
 
 You can also create warehouse pick documents in a push fashion from the **Warehouse Shipment** window by selecting **Create Pick**.  
 
@@ -37,7 +37,7 @@ You can also create warehouse pick documents in a push fashion from the **Wareho
 >   
 >  For more information, see the “Handling Assemble-to-Order Items in Warehouse Shipments” section.  
 >   
->  For information about picking components for assembly orders generally, including situations where the assembly item is not due on a sales shipment, see [How to: Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).  
+>  For information about picking components for assembly orders generally, including situations where the assembly item is not due on a sales shipment, see [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>To pick items for warehouse shipment  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Picks**, and then choose the related link.  
@@ -52,9 +52,9 @@ You can also create warehouse pick documents in a push fashion from the **Wareho
 
 4.  When you have performed the pick and placed the items in the shipping area or shipping bin, choose the **Register Pick** action.  
 
-The person responsible for shipment can now bring the items to the shipment dock and post the shipment, including the related source document, in the **Warehouse Shipment** window. For more information, see [How to: Ship Items](warehouse-how-ship-items.md).   
+The person responsible for shipment can now bring the items to the shipment dock and post the shipment, including the related source document, in the **Warehouse Shipment** window. For more information, see [Ship Items](warehouse-how-ship-items.md).   
 
-In addition to picking for source documents, as described in this topic, you can take and place items between bins without referring to source documents. For more information, see [How to: Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
+In addition to picking for source documents, as described in this topic, you can take and place items between bins without referring to source documents. For more information, see [Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
 ## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Handling Assemble-to-Order Items in Warehouse Shipments
 In assemble-to-order scenarios, the **Qty. to Ship** field on warehouse shipment lines is used to record how many units are assembled. The specified quantity is then posted as assembly output when the warehouse shipment is posted.

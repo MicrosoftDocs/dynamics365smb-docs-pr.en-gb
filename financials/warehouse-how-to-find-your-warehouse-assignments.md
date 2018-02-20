@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c85fa0d5ede1624a650a85d8340112f9ccbef1c4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d84010d0d707ad96970ff9fc24077cb12ad9f9df
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-find-your-warehouse-assignments"></a>How to: Find Your Warehouse Assignments
-To find your warehouse assignments, open the card window for a selected item. If warehouse instructions have been created, Take and Place lines are visible, and you can begin working on an assignment. In some warehouses, the manager may have assigned specific instructions to each employee. For more information, see [How to: Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).
+# <a name="find-your-warehouse-assignments"></a>Find Your Warehouse Assignments
+To find your warehouse assignments, open the card window for a selected item. If warehouse instructions have been created, Take and Place lines are visible, and you can begin working on an assignment. In some warehouses, the manager may have assigned specific instructions to each employee. For more information, see [Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>To find an instruction assigned to you  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Put-aways**, **Warehouse Picks**, or **Warehouse Movement**, and then choose the related link.

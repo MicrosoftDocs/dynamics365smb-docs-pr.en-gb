@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3a257ba6434f8689a78e975811a0c5897b3836f8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9564da28e9850e30e42ea2824043e25041f5adaa
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-import-and-export-a-report-or-document-layout"></a>How to: Import and Export a Report or Document Layout
+# <a name="import-and-export-a-report-or-document-layout"></a>Import and Export a Report or Document Layout
 You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then make the modifications to layout and return the file to you so that you can import it back.  
   
 > [!IMPORTANT]  
@@ -52,6 +52,6 @@ You can import and export an existing custom report layout as a file to and from
  The original custom report layout is replaced with the imported report layout.  
   
 ## <a name="see-also"></a>See Also  
- [How to: Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
+ [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
  [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
  [Working with Reports](ui-work-report.md)    

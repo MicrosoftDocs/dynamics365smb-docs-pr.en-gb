@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 701282909208c36b0ba546c1a15ca27afdbf447c
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Preparing to Set Up Contacts
@@ -31,11 +31,11 @@ The following table describes a sequence of tasks, with links to the topics that
 | To | See |
 | --- | --- |
 | Set up the business relationship that you have with your contacts, for example, prospect, bank, consultant, and service supplier. |[Setting Up Business Relations on Contacts Companies](marketing-business-relations.md) |
-| Set up the industry to which your contacts belong, for example, the retail industry and the automobile industry. |[How to: Set Up Industry Groups on Contact Companies](marketing-industry-groups.md) |
-| Set up the mailing groups that you can use to identify groups of contacts that you want to receive the same information. |[How to: Set Up Mailing Groups on Contact Companies](marketing-mailing-groups.md) |
+| Set up the industry to which your contacts belong, for example, the retail industry and the automobile industry. |[Set Up Industry Groups on Contact Companies](marketing-industry-groups.md) |
+| Set up the mailing groups that you can use to identify groups of contacts that you want to receive the same information. |[Set Up Mailing Groups on Contact Companies](marketing-mailing-groups.md) |
 | Set up the job responsibilities of your contact persons. |[Set Up Job Responsibilities on Contacts](marketing-job-responsibilities.md) |
-| Set up the organisational levels that you want to use about your contact persons. |[How to: Set Up Organizational Levels on Contacts](marketing-organizational-levels.md) |
-| Set up web sources (search engines and web sites) that you can use when you look up information about your contacts on the Internet. |[How to: Set Up Web Sources on Contacts](marketing-web-sources.md) |
+| Set up the organizational levels that you want to use about your contact persons. |[Set Up Organizational Levels on Contacts](marketing-organizational-levels.md) |
+| Set up web sources (search engines and web sites) that you can use when you look up information about your contacts on the Internet. |[Set Up Web Sources on Contacts](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>See Also
 [Managing Contacts](marketing-contacts.md)  

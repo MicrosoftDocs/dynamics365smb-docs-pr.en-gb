@@ -1,5 +1,5 @@
 ---
-title: SEPA Direct Debit in Dynamics 365 | Microsoft Docs
+title: SEPA Direct Debit in Finance and Operations, Business edition | Microsoft Docs
 description: "You can collect payments directly from the customer’s bank account according to the SEPA format."
 author: SorenGP
 ms.service: dynamics365-financials
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 0447e6c9f84457589df5cbc1efaecb2de24e7295
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf07a08eebe8bfffc99f7351a96526452728552e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="collecting-payments-with-sepa-direct-debit"></a>Collecting Payments with SEPA Direct Debit
@@ -35,10 +35,10 @@ With your customer’s consent, you can collect payments directly from the custo
 
 |**To**|**See**|  
 |------------|-------------|  
-|Prepare bank account formats, payment methods, and customer agreements for SEPA direct debit.|[How to: Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)|  
-|Instruct your bank to transfer payment amounts from your customers’ bank accounts to your company’s account according to your setup of SEPA direct debit.|[How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
-|Set up standard customer sales codes for direct-debit invoices and generate sales invoices with direct-debit information when the invoices are due for payment.|[How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)|  
-|Post payments made as SEPA direct debits.|[How to: Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
+|Prepare bank account formats, payment methods, and customer agreements for SEPA direct debit.|[Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)|  
+|Instruct your bank to transfer payment amounts from your customers’ bank accounts to your company’s account according to your setup of SEPA direct debit.|[Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
+|Set up standard customer sales codes for direct-debit invoices and generate sales invoices with direct-debit information when the invoices are due for payment.|[Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)|  
+|Post payments made as SEPA direct debits.|[Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
 
 ## <a name="see-also"></a>See Also  
 [Managing Receivables](receivables-manage-receivables.md)

@@ -1,6 +1,6 @@
 ---
-title: Working with the General Functionality in Dynamics 365 Business edition  | Microsoft Docs
-description: Describes the general functionality you use to interact with data in Dynamics 365, such as entering values, sorting data, and changing views.
+title: Working with the General Functionality in Finance and Operations, Business edition  | Microsoft Docs
+description: Describes the general functionality you use to interact with data in Finance and Operations, Business edition, such as entering values, sorting data, and changing views.
 services: 
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 05/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d9f0fd40b34637a8a31e28871b19bd2adb3aab40
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9cbe892644646fa0ff5704dea500aead0f9dcc2f
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="working-with-included365finlongincludesd365finlongmdmd"></a>Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="working-with-included365finincludesd365finmdmd"></a>Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]
 When performing business tasks, you interact with data in different ways, such as creating records and entering data, sorting and filtering data, writing notes, and outputting data to other applications.
 
 For example, you can adjust the size and position of any window, expand the width of columns and increase the height of column headers, and change the sorting of data in columns. And if you want to use the horizontal scroll bar to view all columns on a list page or on document lines, you will see that there is a vertical freeze pane to restrict some columns from scrolling.
@@ -32,15 +32,16 @@ The following table lists some of the general functionality with links to topics
 | Use Search to look for a specific page or report. |[Using Search for Page or Report](ui-search.md) |
 | Learn about how to sort data. |[Sorting](ui-sorting.md) |
 | Change how you view lists of, for example, customers, vendors, or items. |[Displaying Lists in Different Ways](across-display-lists-different-views.md) |
-| Modify the coloured indicator on cues. |[How to: Set Up a Colored Indicator on Cues](ui-how-setup-colored-indicator-cues.md) |
+| Modify the coloured indicator on cues. |[Set Up a Coloured Indicator on Cues](ui-how-setup-colored-indicator-cues.md) |
 | Change basic settings such as company or work date. |[Changing Basic Settings](ui-change-basic-settings.md) |
-| Change the Role Centre, and the related Home page, to fit your role. |[How to: Change the Role Centre](change-role.md) |
+| Change the Role Centre, and the related Home page, to fit your role. |[Change the Role Centre](change-role.md) |
 | Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md) |
-| Get reports to show data from specific date ranges. |[Entering Date Ranges in Dynamics 365 Business edition ](ui-enter-date-ranges.md) |
+| Get reports to show data from specific date ranges. |[Entering Date Ranges in Finance and Operations, Business edition ](ui-enter-date-ranges.md) |
 
 ## <a name="see-also"></a>See Also
 [General Business Functionality](ui-across-business-areas.md)  
-[Customizing Your [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Experience](ui-experiences.md)  
+[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
 
-## [!INCLUDE[free_trial](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

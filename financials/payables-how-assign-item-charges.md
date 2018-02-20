@@ -13,13 +13,13 @@ ms.search.keywords: transportation, added cost
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a97f56eeeb61aa94485dc4ec73f19a01e21e055a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5a40482673c8b8110a6036046174a58f5d7be18f
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-item-charges-to-account-for-additional-trade-costs"></a>How to: Use Item Charges to Account for Additional Trade Costs
+# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Use Item Charges to Account for Additional Trade Costs
 To ensure correct valuation, your inventory items must carry any added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling the items. For purchases, the landed cost of a purchased item consists of the vendor's purchase price and all additional direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.
 
 In addition to recording the added cost in you inventory value, you can use the Item Charges feature for the following:
@@ -48,7 +48,7 @@ You use item charge numbers to distinguish between the different kinds of item c
 If you know the item charge at the time when you post a purchase invoice for the item, follow this procedure.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.
-2. Create a new purchase invoice. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+2. Create a new purchase invoice. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. Make sure the purchase invoice has one or more lines of type Item.
 4. On a new line, in the **Type** field, select **Charge (Item)**.
 5. In the **Quantity** field, enter the units of the item charge that you have been invoiced for.
@@ -78,7 +78,7 @@ The item charge on the separate purchase invoice is now assigned to the item on 
 
 ## <a name="see-also"></a>See Also
 [Managing Payables](payables-manage-payables.md)  
-[How to: Record Purchases](purchasing-how-record-purchases.md)  
-[How to: Invoice Sales](sales-how-invoice-sales.md)  
+[Record Purchases](purchasing-how-record-purchases.md)  
+[Invoice Sales](sales-how-invoice-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

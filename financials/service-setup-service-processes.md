@@ -13,13 +13,13 @@ ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, 
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 708569e88d443f1dc4f1d17d8015da98cf186e6d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 87a18af2c88955d4d0b78eb37fea161e3332c4b3
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-configure-service-processes"></a>How to: Configure Service Processes
+# <a name="configure-service-processes"></a>Configure Service Processes
 The following are some examples of the settings that you can apply to service management processes:  
   
 * Some overall settings for various processes, such as warnings, next service calculations for service items, the starting fee to assess, the fault reporting level to use, and so on.  
@@ -33,10 +33,10 @@ The following are some examples of the settings that you can apply to service ma
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>See Also  
-[How to: Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
-[How to: Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
-[How to: Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
-[How to: Set Up Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
-[How to: Set Up Troubleshooting](service-how-setup-troubleshooting.md)  
+[Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
+[Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
+[Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
+[Set Up Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
+[Set Up Troubleshooting](service-how-setup-troubleshooting.md)  
 [Service Management](service-service.md)  
 

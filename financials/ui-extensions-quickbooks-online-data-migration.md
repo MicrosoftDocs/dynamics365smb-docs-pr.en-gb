@@ -1,6 +1,6 @@
 ---
 title: Using the QuickBooks Migration Extension | Microsoft Docs
-description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Dynamics 365.
+description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Finance and Operations, Business edition.
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ed245276a6bebd369a3ec32791a9939e8db5aa1
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>The QuickBooks Online Data Migration Extension for Dynamics 365 Business edition
+# <a name="the-quickbooks-online-data-migration-extension-for-finance-and-operations-business-edition"></a>The QuickBooks Online Data Migration Extension for Finance and Operations, Business edition
 This extension is included in the **Data Migration** assisted setup guide to help you migrate important business data from QuickBooks Online to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, this is useful when your business is growing, and you've decided to upgrade your business management app by starting to use [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>What data can I import from QuickBooks Online?
@@ -44,7 +44,7 @@ An important part of the migration process is to specify the accounts to migrate
 * The purchase of items or services from vendors.  
 * Adjustments in the general ledger.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] requires that general ledger accounts have account numbers assigned to them. Make sure that account numbers are assigned to your accounts in QuickBooks Online.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  requires that general ledger accounts have account numbers assigned to them. Make sure that account numbers are assigned to your accounts in QuickBooks Online.
 
 If transactions in QuickBooks Online have tax amounts, you must set up a tax account for your tax jurisdictions in [!INCLUDE[d365fin](includes/d365fin_md.md)] before you can post transactions.
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c4abfbcb3bc182fa14c44c427bc41ebd9d67f6cf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1f3f30673f8235377a581b398e1281fba92501e5
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="multiple-contracts"></a>Multiple Contracts
@@ -35,7 +35,7 @@ By handling a service item under multiple contracts, you can do the following:
 You can consider the following examples of using the multiple contracts functionality.  
   
 ## <a name="creating-multiple-contracts-per-service-item"></a>Creating Multiple Contracts per Service Item  
-You can manually create a service contract or contract quote for service items already registered in non-cancelled contracts owned by the same customer. To do this, follow the standard procedure of creating service contracts and service contract quotes. For more information, see [How to: Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
+You can manually create a service contract or contract quote for service items already registered in non-cancelled contracts owned by the same customer. To do this, follow the standard procedure of creating service contracts and service contract quotes. For more information, see [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
   
 When you add a service item on a contract line that is registered in other service contracts or contract quotes, a warning message is displayed stating that the service item already belongs to one or more service contracts or contract quotes. If you confirm this message, all relevant service item information is copied to a newly created contract line.  
   
@@ -47,5 +47,5 @@ You can manually create a service order for a service item that is registered in
   
 ## <a name="see-also"></a>See Also  
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
-[How to: Create Service Orders](service-how-to-create-service-orders.md)  
+[Create Service Orders](service-how-to-create-service-orders.md)  
 

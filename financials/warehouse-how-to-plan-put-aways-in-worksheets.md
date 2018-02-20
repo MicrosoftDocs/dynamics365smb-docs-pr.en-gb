@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 99c3ac10460a62ee23294cfd0d8c25709c37901b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f1ced6c90333c1da9cbd148f199debdc70ed5a46
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-put-aways-in-worksheets"></a>How to: Plan Put-aways in Worksheets
+# <a name="plan-put-aways-in-worksheets"></a>Plan Put-aways in Worksheets
 If your location requires both put-away and receive processing, and you want to plan put-away instructions for a number of receipts, rather than have employees follow the instructions that the program creates for separate posted receipts, you can use the put-away worksheet.  
 
 To set up your warehouse so that receipt lines are available to you in the put-away worksheet as soon as they are posted, select the **Use Put-away Worksheet** field on the **Warehouse** FastTab of the location card. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
@@ -58,7 +58,7 @@ If you do not select this field, the program will automatically create put-away 
 
     -   You can assign the put-away to a specific employee.  
     -   You can sort the put-away instruction lines as you did in the worksheet or by bin ranking. When you sort according to bin ranking, the Take lines appear first, since most receipt bins have a 0 bin ranking, and the Place lines appear last, starting with the bins with the lowest bin ranking. If you have structured your warehouse so bins of similar bin ranking are side by side, sorting lines in this way will ultimately save steps for your warehouse employees.  
-    -   You can choose not to see the intermediate lines created when the program breaks a larger unit of measure to smaller units of measure by selecting the **Set Breakbulk Filter** field. For more information, see [How to: Enable Automatic Breaking Bulk with Directed Put-away and Pick] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   You can choose not to see the intermediate lines created when the program breaks a larger unit of measure to smaller units of measure by selecting the **Set Breakbulk Filter** field. For more information, see [Enable Automatic Breaking Bulk with Directed Put-away and Pick] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   You can choose not to have the **Qty. to Handle** field automatically filled in on the put-away instructions.  
     -   You can choose to print the document immediately.  
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 10524be6bcfdc99672496b54903e4f04c33108ce
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 60438f0b6f0d5da60925b5b9c309cc359a8422e3
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="manage-documents"></a>Manage Documents
@@ -32,5 +32,5 @@ Invoiced service orders are usually deleted automatically after having been full
 Service orders are not deleted automatically, however, if the total quantity on the order has been posted not from the service order itself, but from the **Service Invoice** window. Then you may need to delete invoiced orders that were not deleted. You can do this by running the **Delete Invoiced Service Orders** batch job.  
 
 ## <a name="see-also"></a>See Also  
-[Setup and Administration in Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Setup and Administration in Finance and Operations, Business edition](admin-setup-and-administration.md)  
 

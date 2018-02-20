@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8dbefb4ef7daf4016c5c577d1e749d2049791c4b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 761502b8c8e4c2b9b1b864e7316ea1130a940bb0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Managing Interactions With Contacts
-In [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], interactions are all types of communications between your company and your contacts. For example, communications can be by letter, fax, email, telephone, meetings, and so on.
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], interactions are all types of communications between your company and your contacts. For example, communications can be by letter, fax, email, telephone, meetings, and so on.
 
 The relationship management area enables you to record all the interactions you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them. Setting up your application to record interactions consists of these tasks:
 
@@ -35,7 +35,7 @@ You set up an interaction template in the **Interaction Templates** window.
 ## <a name="creating-interactions"></a>Creating Interactions
 There are two ways of recording interactions:
 
-* You can manually create interactions that are linked to a single contact or to a segment. For more information, see [How to: Create Interactions on Contacts and Segments](marketing-how-create-interactions.md).  
+* You can manually create interactions that are linked to a single contact or to a segment. For more information, see [Create Interactions on Contacts and Segments](marketing-how-create-interactions.md).  
 * You can automatically record interactions when you perform actions in the application, for example, when you print an invoice, or quote. For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Viewing and managing Recorded Interactions

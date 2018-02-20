@@ -13,13 +13,13 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fbdfc4431056c4851208aa063daf8761b4e70bf1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92331aaa8e7d6aa83c0ec9e8bbbd350d30957cfc
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-fixed-asset-depreciation"></a>How to: Set Up Fixed Asset Depreciation
+# <a name="set-up-fixed-asset-depreciation"></a>Set Up Fixed Asset Depreciation
  You can use various methods of depreciation for preparing financial statements and income VAT returns. Many large corporations use straight-line depreciation in their financial statements because this generally permits reporting higher earnings. For income VAT purposes, however, many businesses use an accelerated depreciation method. For more information, see [Depreciation Methods](fa-depreciation-methods.md).
 
  When you have created the relevant depreciation books, you must assign one or more depreciation books to each fixed asset. A depreciation book that is assigned to a fixed asset is referred to as a fixed asset depreciation book. Accordingly, the window for assigned depreciation books is called **FA Depreciation Books**.

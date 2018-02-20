@@ -10,13 +10,13 @@ ms.search.keywords: write down
 ms.date: 07/17/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ba784d15ccac26c7a6afd73da6ce9fcfa5f73da9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5b7bf7e15d5d7a5200c7d6863b20fc2adfdcdce6
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets"></a>How to: Define Accounting Periods for Straight-Line Depreciation of Fixed Assets
+# <a name="define-accounting-periods-for-straight-line-depreciation-of-fixed-assets"></a>Define Accounting Periods for Straight-Line Depreciation of Fixed Assets
 You can define 13 accounting periods to calculate straight line depreciation. You must calculate depreciation daily and distribute across the relevant periods. You can also define these accounting periods in the **FA - Projected Value** report.  
 
 > [!NOTE]  
@@ -37,5 +37,5 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
 
 ## <a name="see-also"></a>See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)   
-[How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)  
+[Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)  
 

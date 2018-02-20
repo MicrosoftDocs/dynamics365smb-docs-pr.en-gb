@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 07/17/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 489cd6e4c79435afda798ecf24de90cd5d8a2192
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f200e7f937f739c5881bc8b2e5b60f3ab1750727
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-multiple-interest-rates"></a>How to: Set Up Multiple Interest Rates
+# <a name="set-up-multiple-interest-rates"></a>Set Up Multiple Interest Rates
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use reverse charge VAT accounting for a specific range of items to prevent Missing Trader Intercommunity Fund Fraud (MTIC), also known as carousel fraud. This feature is supplemented by the **Reverse Charge Sales List** report. The VAT accounting changes will affect companies trading in electronic goods and integrated circuit devices, such as mobile telephones, microprocessors, and central processing units. These goods will apply to reverse charges.
 
 > [!IMPORTANT]  

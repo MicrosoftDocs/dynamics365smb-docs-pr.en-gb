@@ -13,14 +13,14 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 733405000725ccfca2a1bdd1bb2a893e6f5f3536
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5861071decd1feac9adf53783038f2927be3c930
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="setting-up-to-calculations-and-posting-methods-for-value-added-tax"></a>Setting Up to Calculations and Posting Methods for Value-Added Tax
+# <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Setting Up Calculations and Posting Methods for Value-Added Tax
 Consumers and businesses pay value-added tax (VAT) when they purchase goods or services. The amount of VAT to pay can vary, depending on several factors. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you set up VAT to specify the rates to use to calculate tax amounts based on the following: 
 
 * Who you sell to  
@@ -40,7 +40,20 @@ We recommend that you use the VAT Setup assisted setup guide to set up VAT in [!
 
 To start the assisted setup guide, follow these steps:
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assisted Setup**.  
-2. Choose **VAT Setup**.
+2. Choose **Set up VAT**.
+
+## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>To set up VAT registration numbers for your country or region
+To help ensure that people enter valid VAT registration numbers, you can define formats for the VAT registration numbers that are used in the countries or regions in which you do business. [!INCLUDE[d365fin](includes/d365fin_md.md)] will display an error message when someone makes a mistake or uses a format that is incorrect for the country or region.
+
+To setup VAT registration numbers, follow these steps:
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Countries/Regions**.
+2. Choose the country or region, and then choose the **VAT Reg. No. Formats** action.
+3. In the **Formats** field, define the format by entering one or more of the following characters:  
+  
+    |----|----| | # | Requires a single-digit number. | | @ | Requires a letter. This is not case-sensitive. | | ? | Allows any character. |
+  
+    > [!Tip]
+    > You can use other characters as long as they are always present in the country or region format. For example, if you need to include a period or a hyphen between sets of numbers, you can define the format as ##.####.### or @@-###-###.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>To set up VAT business posting groups
 VAT business posting groups should represent the markets in which you do business with customers and vendors, and define how to calculate and post VAT in each market. Examples of VAT business posting groups are **Domestic** and **European Union (EU)**.  
@@ -64,7 +77,7 @@ To set up a VAT business posting group, follow these steps:
 2. Fill in the fields as necessary.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>To combine VAT posting groups in VAT posting setups
-[!INCLUDE[d365fin](includes/d365fin_md.md)] calculates VAT amounts on sales and purchases based on VAT posting setups, which are combinations of VAT business and product posting groups. For each combination, you can specify the VAT percent, VAT calculation type, and general ledger accounts for posting VAT for sales, purchases, and reverse charges. You can also specify whether to recalculate VAT when a payment discount is applied or received.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  calculates VAT amounts on sales and purchases based on VAT posting setups, which are combinations of VAT business and product posting groups. For each combination, you can specify the VAT percent, VAT calculation type, and general ledger accounts for posting VAT for sales, purchases, and reverse charges. You can also specify whether to recalculate VAT when a payment discount is applied or received.  
 
 Set up as many combinations as you need. If you want to group VAT posting setup combinations with similar attributes, you can define a **VAT Identifier** for each group, and assign the identifier to the group members.
 
@@ -235,4 +248,4 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
 ## <a name="see-also"></a>See Also  
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
 [How To: Report VAT to a Tax Authority](finance-how-report-vat.md)  
-[How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
+[Work with VAT on Sales and Purchases](finance-work-with-vat.md)  

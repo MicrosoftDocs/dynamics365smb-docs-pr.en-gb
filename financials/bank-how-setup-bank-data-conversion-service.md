@@ -13,22 +13,22 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 0a1c53428b0b64364a237da0932cda86d37d06f9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cdbe4f8680dad6dcf605dd98f88bc7750ed8077f
 ms.contentlocale: en-gb
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-the-bank-data-conversion-service"></a>How to: Set Up the Bank Data Conversion Service
+# <a name="set-up-the-bank-data-conversion-service"></a>Set Up the Bank Data Conversion Service
 A global provider of services to convert payment information to any data format that your bank requires is connected and ready to be enabled in [!INCLUDE[d365fin](includes/d365fin_md.md)]. This is referred to in [!INCLUDE[d365fin](includes/d365fin_md.md)] as the bank data conversion service.
 
-You can export payment lines from the **Payment Journal** window to a file or a data stream that you then upload to your bank for automatic processing so that you do not have to make electronic payments individually. For more information, see [How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md).
+You can export payment lines from the **Payment Journal** window to a file or a data stream that you then upload to your bank for automatic processing so that you do not have to make electronic payments individually. For more information, see [Export Payments to a Bank File](payables-how-export-payments-bank-file.md).
 
 You can import bank statement files into the **Payment Reconciliation Journal** window by using the bank data conversion service to convert a file that you receive from your bank to a data stream that [!INCLUDE[d365fin](includes/d365fin_md.md)] can import. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-As an alternative to importing bank statements with the bank data conversion service, you can use the Envestnet Yodlee Bank Feeds service. For more information, see [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
+As an alternative to importing bank statements with the bank data conversion service, you can use the Envestnet Yodlee Bank Feeds service. For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
-To import or export bank files, you must set up your own bank account and your vendors' bank accounts. For more information, see [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md).
+To import or export bank files, you must set up your own bank account and your vendors' bank accounts. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
 >   The bank data conversion service may impose a limit on the number of lines that can be exported in one file. You will receive an error message if the limit is exceeded. It is recommended that bank statement files do not exceed 1000 lines as the processing time in the bank data conversion service may otherwise increase significantly.

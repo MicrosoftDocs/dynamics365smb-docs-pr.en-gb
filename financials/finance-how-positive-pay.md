@@ -13,16 +13,16 @@ ms.search.keywords: check, clearing
 ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: dfae1975a78c9380b5b6d4086569d63fe3793832
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 57580354c2ea5b63162e1539cf2f97eb9770c50b
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-export-a-positive-pay-file"></a>How to: Export a Positive Pay file
+# <a name="export-a-positive-pay-file"></a>Export a Positive Pay file
 To make sure that your bank only clears validated cheques and amounts, you can export a Positive Pay file that contains vendor information, cheque number, and payment amount, which you send to the bank for reference when you process payments.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is preconfigured to support Positive Pay files for Bank of America and City Bank.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  is preconfigured to support Positive Pay files for Bank of America and City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>To set up a bank account for Positive Pay
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.

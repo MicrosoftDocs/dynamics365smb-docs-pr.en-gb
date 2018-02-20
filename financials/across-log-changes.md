@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: 9f3db97203e09608ea0776f5571d6179778283b6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f49e3722f95d4e5a2c8eea83d77175581d93277
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="logging-changes-in-dynamics-365-business-edition"></a>Logging Changes in Dynamics 365, Business edition 
+# <a name="logging-changes-in-finance-and-operations-business-edition"></a>Logging Changes in Finance and Operations, Business edition 
 You can enable the change log in [!INCLUDE[d365fin](includes/d365fin_md.md)] so you have a history of activities. The log is based on changes that are made to data in the tables that you track. In the change log, entries are chronologically ordered and show changes that are made to the fields on the specified tables. The change log collects all changes that are made to the table.  
 
 ## <a name="working-with-the-change-log"></a>Working with the Change Log
@@ -34,6 +34,6 @@ After you have set up the change log, activated it, and made a change to data, y
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Sorting](ui-sorting.md)  
 [Using Search for Page or Report](ui-search.md)  
-[How to: Manage Users and Permissions](ui-how-users-permissions.md)    
+[Manage Users and Permissions](ui-how-users-permissions.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

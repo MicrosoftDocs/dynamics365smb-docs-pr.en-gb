@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 12/01/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: 34642192e74992953b569cabeb5dbeb4112a0f44
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f6969d05cfde9ba7ce5767a961d4af1c7b3bd983
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-gl-budgets"></a>How to: Create G/L Budgets
+# <a name="create-gl-budgets"></a>Create G/L Budgets
 You can have multiple budgets for identical time periods by creating budgets with separate names. First, you set up the budget name and enter the budget figures. The budget name is then included on all the budget entries you create.  
 
  When you create a budget, you can define four dimensions for each budget. These budget-specific dimensions are called budget dimensions. You select the budget dimensions for each budget from among the dimensions you have already set up. Budget dimensions can be used to set filters on a budget and to add dimension information to budget entries. For more information, see [Working with Dimensions](finance-dimensions.md).
@@ -29,9 +29,6 @@ You can have multiple budgets for identical time periods by creating budgets wit
  Budgets play an important role in business intelligence, such as in financial statement based on account schedules that include budget entries or when analysing budgeted versus actual amounts in the chart of accounts. For more information, see [Business Intelligence](bi.md).
 
 In cost accounting, you work with cost budgets in a similar way. For more information, see [Creating Cost Budgets](finance-create-cost-budgets.md).    
-
- > [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).  
 
 ## <a name="to-create-a-new-gl-budget"></a>To create a new G/L budget  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Budgets**, and then choose the related link.  

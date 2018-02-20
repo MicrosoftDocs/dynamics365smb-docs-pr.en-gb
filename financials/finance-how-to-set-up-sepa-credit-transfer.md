@@ -1,6 +1,6 @@
 ---
 title: Set up SEPA credit transfer | Microsoft Docs
-description: Learn how to set up SEPA credit transfer in Dynamics 365 Business edition .
+description: Learn how to set up SEPA credit transfer in Finance and Operations, Business edition .
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: afdf20baa9d61d28e18aa08ae175f139fdb31bdd
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 66f24ea238eed97ffe7f76f3c979cc2843875860
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-sepa-credit-transfer"></a>How to: Set Up SEPA Credit Transfer
+# <a name="set-up-sepa-credit-transfer"></a>Set Up SEPA Credit Transfer
 From the **Payment Journal** window, you can export payments to a file for upload to your electronic bank for processing of the related money transfers. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.  
 
-To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[d365fin](includes/d365fin_md.md)] , you can set up a data exchange definition by using the data exchange framework. For more information, see [How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
+To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[d365fin](includes/d365fin_md.md)] , you can set up a data exchange definition by using the data exchange framework. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
 Before you can process payment electronically by exporting payment files in the SEPA Credit Transfer format, you must perform the following setup steps:  
 
@@ -57,13 +57,13 @@ Before you can process payment electronically by exporting payment files in the 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>To connect the data exchange definition for one or more payment types with the relevant payment method or methods  
 1. In the **Search** box, enter **Payment Methods**, and then choose the related link.  
 2. In the **Payment Methods** window, select the payment method that is used to export payments from, and then choose the **Pmt. Export Line Definition** field.  
-3. In the **Pmt. Export Line Definitions** window, select the code that you specified in the **Code** field on the **Line Definitions** FastTab in step 4 in the “To describe the formatting of lines and columns in the file” section in the [How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) procedure.  
+3. In the **Pmt. Export Line Definitions** window, select the code that you specified in the **Code** field on the **Line Definitions** FastTab in step 4 in the “To describe the formatting of lines and columns in the file” section in the [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) procedure.  
 
-    The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).  
+    The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>See Also  
 [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
-[How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)  
-[How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)  
+[Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)  
+[Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)  
 [Exchanging Data Electronically](across-data-exchange.md)  
 

@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6f8094545431468bd12e231364987e70bda429bb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2796da1b41569c8c950dc844fc31eaf4f0179efa
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-subcontract-manufacturing"></a>How to: Subcontract Manufacturing
+# <a name="subcontract-manufacturing"></a>Subcontract Manufacturing
 Subcontracting selected operations to vendor is common in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.
 
 The program provides several tools for managing subcontract work:  
@@ -41,12 +41,12 @@ Subcontract work centres can be used for operations on routings in the same way 
 
 You can set up a routing that uses an outside work centre as a standard operational step. Alternatively, you can modify the routing for a particular production order to include an outside operation. This might be needed in an emergency such as a server not working correctly, or during a temporary period of higher demand, where the work generally performed in-house must be sent to a subcontractor.  
 
-For more information, see [How to: Create Routings](production-how-to-create-routings.md).  
+For more information, see [Create Routings](production-how-to-create-routings.md).  
 
 ## <a name="subcontracting-worksheet"></a>Subcontracting Worksheet  
 Once you have calculated the subcontracting worksheet, the relevant document, in this case a purchase order, is created.  
 
-# <a name="how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>How to: Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders
+# <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders
 The **Subcontracting Worksheet** window functions like the **Planning Worksheet** by calculating the needed supply, in this case purchase orders, which you review in the worksheet and then create with the **Carry Out Action Message** function.  
 
 > [!NOTE]  

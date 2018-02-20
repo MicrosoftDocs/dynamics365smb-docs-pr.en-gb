@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 208c49d0f86ae0a3c8ef4db8008fa2995f77e674
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2bb49ed17db6a4b6f7eafef76c9109e2652fa76b
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-contact-persons"></a>How to: Create Contact Persons
+# <a name="create-contact-persons"></a>Create Contact Persons
 You can create a contact card for each contact who works for the companies you interact with. For each contact company you can enter as many contact persons as you want. You can also create contact cards for the persons that you want to record as independent.
 
 > [!TIP]  
@@ -40,8 +40,8 @@ You can create a contact card for each contact who works for the companies you i
 ## <a name="see-also"></a>See Also
 [Setting Up Relationship Management](marketing-setup-marketing.md)  
 [Assigning Mailing Groups to a Contact](marketing-mailing-groups.md#AssignMailGroupContact)  
-[How to: Set Up Job Responsibilities on Contacts](marketing-job-responsibilities.md)  
-[How to: Set Up Organizational Levels for Contact Persons](marketing-organizational-levels.md)  
+[Set Up Job Responsibilities on Contacts](marketing-job-responsibilities.md)  
+[Set Up Organizational Levels for Contact Persons](marketing-organizational-levels.md)  
 [Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Working with Dynamics 365](ui-work-product.md)  
+[Working with Finance and Operations, Business edition](ui-work-product.md)  
 

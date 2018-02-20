@@ -13,13 +13,13 @@ ms.search.keywords: internet
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b81deefcdf79a93cc988d216f80b08794efb8ab6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b80edfbbad575cfcaa15b2c1b79a4feacb077371
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-web-sources-for-contact-companies"></a>How to: Set Up Web Sources for Contact Companies
+# <a name="set-up-web-sources-for-contact-companies"></a>Set Up Web Sources for Contact Companies
 You can use web sources with your contact companies to identify, for example, search engines and web sites, on the Internet that you want to use to search for information about the contacts. When assigning web sources, you specify which search engine and search word the application will use to find the requested information.
 
 Using web sources on contacts is a two-step process. First, you define the web source code. You only have to perform this step one time for each web source. Once you have a web source code, you can start to assign the code to contact persons.

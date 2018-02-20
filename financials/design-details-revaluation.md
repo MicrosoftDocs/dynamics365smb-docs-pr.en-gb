@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: ba88be99ad8dfcecb78dfb1dd58be2d0645e85ba
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-revaluation"></a>Design Details: Revaluation
@@ -76,7 +76,7 @@ The valuation date is set to the date of the consumption posting (02-01-20), as 
 
 |Posting Date|Item|Entry Type|Quantity|Entry No.|  
 |------------------|----------|----------------|--------------|---------------|  
-|02-15-20|CHAIN|Output|0|3|  
+|02-15-20|CHAIN|Output|1|3|  
 
 **3V**: The user runs the **Adjust Cost - Item Entries** batch job, which posts the chain as invoiced to indicate that all material consumption has been completely invoiced. From a financial point of view, the links are no longer part of WIP inventory when the output is completely invoiced and adjusted. The following table shows the resulting value entries.  
 

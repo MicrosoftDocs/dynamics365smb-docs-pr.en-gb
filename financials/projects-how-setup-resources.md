@@ -13,13 +13,13 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0c8fee4bb34a6b16d552840462fdc4f4461498df
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 01c640a033c9607c0401ad471d257003e65ca636
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-resources"></a>How to: Set Up Resources
+# <a name="set-up-resources"></a>Set Up Resources
 To correctly manage resource activities, you must set up your resources and the related costs and prices. The job-related prices, discounts, and cost factor rules are set up on the job card. You can specify the costs and prices for individual resources, resource groups, or all available resources of the company.
 
 When resources are used or sold in a job, the prices and costs associated with them are retrieved from the information that you set up.
@@ -41,7 +41,7 @@ You can combine several resources in one resource group. All capacities and budg
 3. Fill in the fields as necessary.
 
 ## <a name="to-set-capacity-for-a-resource"></a>To set capacity for a resource
-To calculate how much time a resource can spend on jobs, their capacity must first be set up as available time per period on the work calendar. This setup is used when you fill in job planning lines that contain the resource. For more information, see [How to: Create Jobs](projects-how-create-jobs.md).
+To calculate how much time a resource can spend on jobs, their capacity must first be set up as available time per period on the work calendar. This setup is used when you fill in job planning lines that contain the resource. For more information, see [Create Jobs](projects-how-create-jobs.md).
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resources**, and then choose the related link.
 2. Open the relevant resource card, and then choose the **Resource Capacity** action.

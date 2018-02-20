@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9b41bb902d8a2298f438233ca24c5a7bcf7f69d9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c802ee014df6c992a9e5b1e975f2cdc981e3a5a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-items-and-locations-for-directed-put-away-and-pick"></a>How to: Set Up Items and Locations for Directed Put-away and Pick
+# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Set Up Items and Locations for Directed Put-away and Pick
 When you set up a warehouse location for directed put-away and pick, you have new functionality available to you to help run the warehouse in the most efficient way possible. In order to make full use of this functionality, you provide additional information about the items, which in turn helps to make the calculations necessary to suggest the most efficient and effective ways to conduct warehouse activities. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>To set up an item for directed put-away and pick  
@@ -44,7 +44,7 @@ You do not need to fill in any other fields on the location card until later in 
 > [!NOTE]  
 >  You cannot set up the warehouse to use bins when the location has open item ledger entries.  
 
-The next step is to define the type of bins you want to operate. For more information, see [How to: Set Up Bin Types](warehouse-how-to-set-up-bin-types.md). The bin type defines how to use a given bin when processing the flow of items through the warehouse. You can assign a bin type to both a zone and to a bin.  
+The next step is to define the type of bins you want to operate. For more information, see [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md). The bin type defines how to use a given bin when processing the flow of items through the warehouse. You can assign a bin type to both a zone and to a bin.  
 
 You can also define warehouse class codes, if the warehouse carries items that need various storage conditions. Warehouse class codes are used when suggesting item placement in bins. You assign the warehouse class codes to product groups, which are then assigned to items and SKUs, or to zones and bins that can accommodate the storage conditions required by the warehouse class codes.  
 
@@ -60,9 +60,9 @@ When you change a zone parameter, all bins created thereafter in that zone will 
 > [!NOTE]  
 >  If you want to operate without zones, you must still create one zone code that is undefined except for the code.  
 
-The next step in setting up the warehouse is to define bins. For more information, see [How to: Set Up Locations to Use Bins](warehouse-how-to-set-up-locations-to-use-bins.md).  
+The next step in setting up the warehouse is to define bins. For more information, see [Set Up Locations to Use Bins](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-In addition, you must create put-away templates and counting periods. For more information, see [How to: Set Up Put-away Templates](warehouse-how-to-set-up-put-away-templates.md).  
+In addition, you must create put-away templates and counting periods. For more information, see [Set Up Put-away Templates](warehouse-how-to-set-up-put-away-templates.md).  
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

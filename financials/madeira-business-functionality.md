@@ -1,5 +1,5 @@
 ---
-title: Business Functionality Supported by Dynamics 365, Business edition | Microsoft Docs
+title: Business Functionality Supported by Finance and Operations, Business edition | Microsoft Docs
 Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 services: project-madeira
 documentationcenter: 
@@ -13,16 +13,16 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 3b68f53f2ca2f1553b0d19a617ae58b25f29acdb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d764a759095e6cdf4e1157bc7b1f850800de3217
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="business-functionality"></a>Business Functionality
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides functionality for common business processes in small and mid-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported. 
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  provides functionality for common business processes in small and mid-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported. 
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Home page, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. Several areas of business functionality must be set up manually. For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Home page, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. Several areas of business functionality must be set up manually. For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 

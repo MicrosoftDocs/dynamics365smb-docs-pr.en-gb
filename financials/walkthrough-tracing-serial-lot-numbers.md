@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: face4821059b57c32e06dca46ec5144aba4ca528
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 569501a38bb12468400ca53a5014e7c6491ac012
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Walkthrough: Tracing Serial-Lot Numbers
@@ -292,7 +292,7 @@ Then you must create various purchase, production, and sales transactions with t
  This completes the walkthrough of how to use the **Navigate** window for defects management in integration with the **Item Tracing** window.  
 
 ## <a name="see-also"></a>See Also
-[How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
-[How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
+[Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
+[Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
 [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
 

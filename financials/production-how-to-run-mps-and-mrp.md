@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
-ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 412050e3fd1da21421e0752be6367fa0ead8d636
 ms.contentlocale: en-gb
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-run-full-planning-mps-or-mrp"></a>How to: Run Full Planning, MPS or MRP
+# <a name="run-full-planning-mps-or-mrp"></a>Run Full Planning, MPS or MRP
 The terms "running the planning worksheet" or "running MRP" refer to the calculation of the master production schedule and material requirements based on actual and forecasted demand. The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or it can calculate both at the same time.  
 
 -   MPS is the calculation of a master production schedule based on actual demand and the production forecast. The MPS calculation is used for end items that have a forecast or a sales order line. These items are called MPS items and are identified dynamically when the calculation starts.  
@@ -27,7 +27,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
 
 The planning algorithms used for both MPS and MRP are identical. The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages. The planning system process examines what is needed or will be needed (demand) and what is on-hand or expected (supply). When these quantities are netted against each other, [!INCLUDE[d365fin](includes/d365fin_md.md)] provides action messages. Action messages are suggestions to create a new order, change an order (quantity or date), or cancel an order already on order. The term "order" includes purchase orders, assembly orders, production orders, and transfer orders.
 
-Links created by the planning engine between demand and its related supply can be tracked in the **Order Tracking** window. For more information, see [How to: Track Relations Between Demand and Supply](production-how-track-demand-supply.md).   
+Links created by the planning engine between demand and its related supply can be tracked in the **Order Tracking** window. For more information, see [Track Relations Between Demand and Supply](production-how-track-demand-supply.md).   
 
 Proper planning results depend on the set up done on item cards, assembly BOMs, production BOMs, and routings.  
 

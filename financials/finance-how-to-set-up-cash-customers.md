@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6826c574bf63de70d76a29b45968c68c0b2e2d1f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a72e6ff0a710f2d555c805e4fa28896683a819e9
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cash-customers"></a>How to: Set Up Cash Customers
+# <a name="set-up-cash-customers"></a>Set Up Cash Customers
 You cannot create an invoice without a customer number. This is true, even if you make a cash sale and do not have anything to record in a customer account.  
 
 ## <a name="to-set-up-a-cash-customer"></a>To set up a cash customer  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer**, and then choose the related link.  
-2.  Create a new **Customer** card. For more information, see [How to: Register New Customers](sales-how-register-new-customers.md).
+2.  Create a new **Customer** card. For more information, see [Register New Customers](sales-how-register-new-customers.md).
 3.  In the **No.** field, enter **Cash**, for example.  
 4.  In the **Name** field, enter **Cash Sale**, for example.  
 5.  On the **Invoicing** FastTab, fill in the **Customer Posting Group** and the **Gen. Bus. Posting Group** fields.  
@@ -38,7 +38,7 @@ You cannot create an invoice without a customer number. This is true, even if yo
 
 ## <a name="see-also"></a>See Also
 [Managing Receivables](receivables-manage-receivables.md)  
-[How to: Register New Customers](sales-how-register-new-customers.md)    
+[Register New Customers](sales-how-register-new-customers.md)    
 [Finance](finance.md)  
 
 

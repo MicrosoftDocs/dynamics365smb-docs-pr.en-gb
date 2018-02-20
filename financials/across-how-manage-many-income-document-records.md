@@ -13,13 +13,13 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 99f4ec1b3b02ec88bc10fd21988af8e6683867cb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 65f3c14b29a5fcf7f855d7ea183445cf2fc1bd95
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-many-incoming-document-records"></a>How to: Manage Many Incoming Document Records
+# <a name="manage-many-incoming-document-records"></a>Manage Many Incoming Document Records
 As you create or process incoming document records, the number of lines in the **Incoming Documents** window may grow to an extent where you lose overview. Therefore, you can set incoming document records to Processed to remove them from the default view. When you choose the **Show All** action, you can view both processed and unprocessed records.
 
 > [!NOTE]  
@@ -56,5 +56,5 @@ All incoming document records are displayed, including those where the **Process
 [Process Incoming Documents](across-process-income-documents.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 21f51e08fa5153bca28d1470b724038acfcd85cf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: aa3569037e79f79b0a644511361901d0844e58a3
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Field Mapping When Exporting Payment Files Using Bank Data Conversion Service
@@ -70,6 +70,6 @@ The following table lists the fields in [!INCLUDE[d365fin](includes/d365fin_md.m
 ## <a name="see-also"></a>See Also  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)
-[How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)   
+[Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)   
 [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
 

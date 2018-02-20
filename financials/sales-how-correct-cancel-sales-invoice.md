@@ -13,17 +13,17 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6de89bc0865fbe8617e33288b9c0c8fe7da802ef
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e8e5a4762564d036ac8c0e7bdaf9e13b448d37f4
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-correct-or-cancel-unpaid-sales-invoices"></a>How to: Correct or Cancel Unpaid Sales Invoices
+# <a name="correct-or-cancel-unpaid-sales-invoices"></a>Correct or Cancel Unpaid Sales Invoices
 You can correct or cancel a posted sales invoice. This is useful if you make a mistake or if the customer requests a change.
 
 > [!NOTE]  
->   After a posted sales invoice has been partially or fully paid, you cannot correct or cancel it from the posted sales invoice itself. Instead, you must manually create a sales credit memo to void the sale and reimburse the customer, optionally managed with a sales return order. For more information, see [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).
+>   After a posted sales invoice has been partially or fully paid, you cannot correct or cancel it from the posted sales invoice itself. Instead, you must manually create a sales credit memo to void the sale and reimburse the customer, optionally managed with a sales return order. For more information, see [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).
 
 In the **Posted Sales Invoice** window, you can choose the **Correct** action or the **Cancel** action to perform the actions that are described in the following table.
 
@@ -60,6 +60,6 @@ When you correct or cancel a posted sales invoice, the corrective sales credit m
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[How to: Send Documents by Email](ui-how-send-documents-email.md)  
+[Send Documents by Email](ui-how-send-documents-email.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

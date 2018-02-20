@@ -13,16 +13,16 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 2085cc744c2ff3761937920cd893faab5a84dada
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 384bc05b8f775859c9ca6d6ea4241efb63a9e69d
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-suggest-vendor-payments"></a>How to: Suggest Vendor Payments
+# <a name="suggest-vendor-payments"></a>Suggest Vendor Payments
 In the **Payment Journal** window, you can use the **Suggest Vendor Payments** batch job to suggest payment lines. Lines for things like payments that are due soon, or payments where a payment discount is available, are suggested based on your settings.
 
-To benefit fully from suggested lines, you must first prioritise your vendors. For more information, see [How to: Prioritise Vendors](purchasing-how-prioritize-vendors.md).  
+To benefit fully from suggested lines, you must first prioritise your vendors. For more information, see [Prioritise Vendors](purchasing-how-prioritize-vendors.md).  
 
 Vendor entries that are not **On Hold** are not included.  
 
@@ -47,7 +47,7 @@ When you use the **Suggest Vendor Payments** batch job to create payment lines f
 
 Also, if the calculated posting date is in the past, then the posting date is moved up to the work date, and a warning is displayed.  
 
-Alternatively, you can manually create payment lines using the due date to calculate the posting date. After you apply vendor ledger entries, you can use the **Calculate Posting Date** action to update the posting date on the journal line with the due date of the related purchase invoice. For more information, see [How to: Apply Purchase Transactions Manually](payables-how-apply-purchase-transactions-manually.md).  
+Alternatively, you can manually create payment lines using the due date to calculate the posting date. After you apply vendor ledger entries, you can use the **Calculate Posting Date** action to update the posting date on the journal line with the due date of the related purchase invoice. For more information, see [Apply Purchase Transactions Manually](payables-how-apply-purchase-transactions-manually.md).  
 
 > [!NOTE]  
 >   If the purchase invoice is overdue, the posting date is set to the work date, and the font on the line becomes red.  

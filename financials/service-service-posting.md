@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d82961b41266f645f87b79555171891cd2ce828f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1a95163c861cf9691c5f82e4815df6d87a135ed6
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-posting"></a>Service Posting
@@ -23,7 +23,7 @@ Service posting functionality lets you process your documents efficiently and ma
 > [!NOTE]  
 >  The following describes service posting regardless of how items are physically handled in the warehouse.  
 >   
->  In a location that is not set up to require warehouse handling, you perform the posting actions directly from the **Service Lines** window. In locations that involve warehouse handling, the described posting actions, except Ship and Consume, are performed indirectly through varying warehouse ship functions, depending on setup. For more information, see [How to: Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  In a location that is not set up to require warehouse handling, you perform the posting actions directly from the **Service Lines** window. In locations that involve warehouse handling, the described posting actions, except Ship and Consume, are performed indirectly through varying warehouse ship functions, depending on setup. For more information, see [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Ship  
 The ship option lets you register the relevant items and time entered on the lines of a service order after you complete the service. A posted shipment is created and updates occur in the Inventory module and other modules in [!INCLUDE[d365fin](includes/d365fin_md.md)] to reflect that the items have been taken out of the inventory and sent to the customer. In particular, the item ledger entries, value ledger entries, service ledger entries, and warranty ledger entries are produced.  
@@ -56,6 +56,6 @@ The following procedure uses a posted service invoice as an example, but the sam
     The **Service Order Statistics** window opens. The window displays information such as quantity, amount, VAT, cost, profit, and customer credit limit for the posted document.
 
 ## <a name="see-also"></a>See Also  
-[How to: Post Service Orders](service-how-to-post-service-orders.md)   
-[How to: Create Service Orders](service-how-to-create-service-orders.md)
+[Post Service Orders](service-how-to-post-service-orders.md)   
+[Create Service Orders](service-how-to-create-service-orders.md)
 

@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0b91925a7ec6adb40cdf99d5bcf3398b62c28b3f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 89db93227222d79e535f2d18400330aa30566f2f
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-blanket-sales-orders"></a>How to: Work with Blanket Sales Orders
+# <a name="work-with-blanket-sales-orders"></a>Work with Blanket Sales Orders
 A blanket sales order represents a framework for a long-term agreement between you and your customer.
 
 A blanket order is typically made when a customer has committed to purchasing large quantities that are to be delivered in several smaller shipments over a certain period of time. Often blanket orders cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a sales order is that quantities entered on a blanket order do not affect item availability and thus can be used as a worksheet for monitoring, forecasting, and planning purposes.

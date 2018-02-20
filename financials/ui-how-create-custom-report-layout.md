@@ -13,13 +13,13 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 14c2e5340c64e2b302a0bb04c54911888e995136
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 43cb04b4852e305926550b55af8d10ccbf71bd4e
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-and-modify-a-custom-report-or-document-layout"></a>How to: Create and Modify a Custom Report or Document Layout
+# <a name="create-and-modify-a-custom-report-or-document-layout"></a>Create and Modify a Custom Report or Document Layout
 By default, a report will have a built-in report layout, which can be either an RDLC report layout or Word report layout, or both. You cannot modify built-in layouts. However, you can create your own custom layouts that enable you to change the appearance of report when it is viewed, printed or saved. You can create multiple custom report layouts for the same report, and then switch the layout that is used by a report as needed.
 
 > [!NOTE]  
@@ -89,13 +89,13 @@ If you are designing a Word report layout from scratch or adding new data fields
 2.  Delete the remaining text as needed.  
 
 ### <a name="adding-data-fields"></a>Adding data fields
-Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [How to: Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  
+Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  
 
 
 ## <a name="see-also"></a>See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  
-[How to: Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)  
-[How to: Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
+[Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)  
+[Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
 [Working with Reports](ui-work-report.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

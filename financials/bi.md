@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e41dcb709ad865ab6cb102834e9d99dc3346a840
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bb4fcd8aa08fb172ed26620dd0bd416c9e84897d
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="business-intelligence"></a>Business Intelligence
@@ -31,12 +31,12 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-|View actual amounts compared to budgeted amounts for all accounts and for several periods.|[How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)|
-|Create new account schedules to define financial statements for reporting or for display as charts.|[How to: Work with Account Schedules](bi-how-work-account-schedule.md)|
-|Analyse your financial performance by setting up KPIs based on account schedules, which you then publish as web services. The published account-schedule KPIs can be viewed on a web site or imported to Microsoft Excel using OData web services.|[How to: Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
-|Set up analysis views to analyse data using dimensions.|[How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)|
-|Create new analysis reports for sales, purchases, and inventory, and set up analysis templates.|[How to: Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
-|Enable global financial reporting by to international accounting organisations with the eXtensible Business Reporting Language standard.|[How to: Create Reports with XBRL](bi-create-reports-with-xbrl.md)|
+|View actual amounts compared to budgeted amounts for all accounts and for several periods.|[Analyse Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)|
+|Create new account schedules to define financial statements for reporting or for display as charts.|[Work with Account Schedules](bi-how-work-account-schedule.md)|
+|Analyse your financial performance by setting up KPIs based on account schedules, which you then publish as web services. The published account-schedule KPIs can be viewed on a web site or imported to Microsoft Excel using OData web services.|[Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
+|Set up analysis views to analyse data using dimensions.|[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)|
+|Create new analysis reports for sales, purchases, and inventory, and set up analysis templates.|[Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
+|Enable global financial reporting by to international accounting organisations with the eXtensible Business Reporting Language standard.|[Create Reports with XBRL](bi-create-reports-with-xbrl.md)|
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)    
@@ -44,4 +44,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Closing Fiscal Periods](year-close-years-periods.md)  
 [Importing from Other Finance Systems](upload-data.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

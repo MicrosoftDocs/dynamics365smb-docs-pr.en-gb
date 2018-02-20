@@ -13,23 +13,23 @@ ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-insure-fixed-assets"></a>How to: Insure Fixed Assets
+# <a name="insure-fixed-assets"></a>Insure Fixed Assets
 An insurance policy for a fixed asset is represented by an insurance card. You can assign one fixed asset to one insurance policy or multiple fixed assets to one insurance policy.
 
 You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger from the **Insurance Journal** window.
 
-In addition, you can assign a fixed asset to an insurance policy and create coverage ledger entries when you post its acquisition cost. You do this by posting an acquisition cost from the fixed asset journal with the **Insurance No.** field filled in. The **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window must be selected. For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section in [How to: Acquire Fixed Assets](fa-how-acquire.md).
+In addition, you can assign a fixed asset to an insurance policy and create coverage ledger entries when you post its acquisition cost. You do this by posting an acquisition cost from the fixed asset journal with the **Insurance No.** field filled in. The **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window must be selected. For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section in [Acquire Fixed Assets](fa-how-acquire.md).
 
 If the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window is not selected, then posting acquisitions from the fixed asset journal will create lines in the **Insurance Journal** window, which you must then post manually.
 
 > [!WARNING]  
->   If you do not select the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window, then your insurance journal should be based on a journal template without a number series. This is because the inserted document numbers from the fixed asset journal line will otherwise conflict with the number series of the insurance journal. For more information about journal templates and batches, see [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md).
+>   If you do not select the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** window, then your insurance journal should be based on a journal template without a number series. This is because the inserted document numbers from the fixed asset journal line will otherwise conflict with the number series of the insurance journal. For more information about journal templates and batches, see [Set Up General Fixed Assets Information](fa-how-setup-general.md).
 
 After you have assigned a fixed asset to an insurance policy, the **Insured** check box is selected on the fixed asset card. When you sell the fixed asset, the check box is automatically deselected.
 
@@ -70,7 +70,7 @@ You can use the **Index Insurance** batch job to update the value of the fixed a
 5. Open the relevant insurance journal, review the created values, and then post them to the insurance coverage ledger.  
 
 ## <a name="to-monitor-insurance-coverage"></a>To monitor insurance coverage
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides dedicated reports and statistics windows for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  provides dedicated reports and statistics windows for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.  
 
 ### <a name="overview-of-insurance-policies"></a>Overview of Insurance Policies
 To get an overview of your insurance policies, preview or print the **Insurance - List** report. The report shows all the policies and the most important fields from the insurance cards.  

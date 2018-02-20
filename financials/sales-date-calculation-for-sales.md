@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4e8bc9e8b99db8afda83edb4aff13f5daf9f5a31
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c5cb056c7287f4c12b84dcece595a8e97c0a6214
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="date-calculation-for-sales"></a>Date Calculation for Sales
-[!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the earliest possible date that an item on a sales order line can be shipped.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  automatically calculates the earliest possible date that an item on a sales order line can be shipped.
 
 If the customer has requested a specific delivery date, then the date on which the items must be available to pick to meet that delivery date is calculated.
 
@@ -45,6 +45,6 @@ If you do not specify a requested delivery date on the sales order line, or if t
 
 ## <a name="see-also"></a>See Also  
  [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)   
- [How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
+ [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8c15fded4b70ee0fce8ad43f90b915a33523fc77
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d38f1ed77ac3fac7c9283af6ea0f92479adbf89f
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="incoming-documents"></a>Incoming Documents
@@ -41,7 +41,7 @@ The incoming document process can consist of the following main activities:
 
 | To | See |
 | --- | --- |
-| Set up the Incoming Documents feature and set up the OCR service. |[How to: Set Up Incoming Documents](across-how-setup-income-documents.md) |
+| Set up the Incoming Documents feature and set up the OCR service. |[Set Up Incoming Documents](across-how-setup-income-documents.md) |
 | Create incoming document records, attach files, use OCR to turn PDF files into electronic documents, convert electronic documents to document records, audit incoming document records from posted sales and purchase documents. |[Processing Incoming Documents](across-process-income-documents.md) |
 
 ## <a name="see-also"></a>See Also

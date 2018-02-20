@@ -13,19 +13,19 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 114448607d8b99252573912d2df08f91e1d27c76
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9a746de45bc6878d15e879e623c6a65539943be3
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-purchase-returns-or-cancellations"></a>How to: Process Purchase Returns or Cancellations
+# <a name="process-purchase-returns-or-cancellations"></a>Process Purchase Returns or Cancellations
 If you want to return items to your vendor or cancel services that you have purchased, then you can create and post a purchase credit memo that specifies the requested change with regard to the original purchase invoice. To include the correct purchase invoice information, you can create the purchase credit memo directly from the posted purchase invoice or you can create a new purchase credit memo with copied invoice information.
 
 If you need more control of the purchase return process, such as warehouse documents for the item handling or better overview when shipping back items from multiple purchase documents with one purchase return, then you can create purchase return orders. A purchase return order automatically issues the related purchase credit memo. For more information, see the "To create a purchase return order based on one or more a posted purchase documents" section.
 
 > [!NOTE]  
->   If a posted purchase invoice has not yet been paid, then you can use the **Correct** or **Cancel** functions on the posted purchase invoice to automatically reverse the involved transactions. These functions only work for unpaid invoices, and they do not support partial returns or cancellations. For more information, see [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
+>   If a posted purchase invoice has not yet been paid, then you can use the **Correct** or **Cancel** functions on the posted purchase invoice to automatically reverse the involved transactions. These functions only work for unpaid invoices, and they do not support partial returns or cancellations. For more information, see [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
 Typically, you create a purchase credit memo or purchase return order in reaction to a credit memo sent to you by a vendor. The purchase credit memo or purchase return order functions as your internal documentation of the credit memo process for accounting purposes or to control the shipping of the involved items.
 
@@ -134,7 +134,7 @@ You may agree with your vendor that they compensate you for a purchased item by 
 1.  In the **Purchase Return Order** window for an active return process, on an empty line, make a negative entry for the replacement item by inserting a negative amount in the **Quantity** field.  
 2. Choose the **Move Negative Lines** action.  
 3. In the **Move Negative Purchase Lines** window, fill in the fields as necessary.
-4. Choose the **OK** button. The negative line is deleted from the purchase return order, and a new purchase order is created. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).  
+4. Choose the **OK** button. The negative line is deleted from the purchase return order, and a new purchase order is created. For more information, see [Record Purchases](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>To create a purchase allowance  
 If you receive items from your vendor that are not what you wanted, for example, if they are slightly damaged, the wrong colour or the wrong size, the vendor may offer you a purchase allowance.  
@@ -150,7 +150,7 @@ You can post this reduced purchase cost as an item charge on a credit memo or re
     You may want to create a special item charge number to cover purchase allowances.  
 6.  In the **Quantity** field, enter **1**.  
 7.  In the **Direct Unit Cost** field, enter the amount of the purchase allowance.  
-8.  Assign the purchase allowance as an item charge to the items in the posted receipt. For more information, see [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md). When you have assigned the allowance, return to the **Purchase Credit Memo** window.
+8.  Assign the purchase allowance as an item charge to the items in the posted receipt. For more information, see [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md). When you have assigned the allowance, return to the **Purchase Credit Memo** window.
 
 When you post the purchase return order, the purchase allowance is added to the relevant purchase entry amount. In this way, you can maintain accurate inventory valuation.  
 
@@ -183,7 +183,7 @@ When return shipments are combined on a credit memo and posted, then a posted pu
 
 ## <a name="see-also"></a>See Also
 [Purchasing](purchasing-manage-purchasing.md)  
-[How to: Record Purchases](purchasing-how-record-purchases.md)  
-[How to: How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Record Purchases](purchasing-how-record-purchases.md)  
+[Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

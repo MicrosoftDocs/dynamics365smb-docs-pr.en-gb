@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 973c42642f88024de9d8924b675496015ce60983
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4b4fde6f005c992b63856ec4afadbb689532ac16
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>How To: Set Up and Report Intrastat
@@ -85,7 +85,7 @@ The batch job retrieves all the item entries in the statistics period and insert
 > [!IMPORTANT]  
 >  The batch job retrieves only the entries that contain a country/region code for which an Intrastat code has been entered on the **Countries/Regions** page. Therefore, you must enter Intrastat codes for the country/region codes for which you will run the batch job.  
 
-### <a name="how-to-report-intrastat-on-a-form-or-a-file"></a>How to: Report Intrastat on a form or a file
+### <a name="report-intrastat-on-a-form-or-a-file"></a>Report Intrastat on a form or a file
 To get the information that is required on the Intrastat form from the statistical authorities, you must print the **Intrastat – Form** report. Before you can do this, you must prepare the Intrastat journal and fill it in. If you have both sales and purchase transactions, you must complete a separate form for each type, so that you must print the report two times.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
@@ -95,7 +95,7 @@ To get the information that is required on the Intrastat form from the statistic
 5. On the **Intrastat Jnl. Line** FastTab, add a **Type** filter and then specify whether this is a **Receipt** or a **Shipment**.  
 6. Choose **Send to** to print the report.  
 
-### <a name="how-to-report-intrastat-in-a-file"></a>How to: Report Intrastat in a file
+### <a name="report-intrastat-in-a-file"></a>Report Intrastat in a file
 You can submit the Intrastat report as a file. Before creating the file, you can print a checklist that contains the same information that will be in the file.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal**, and then choose the related link.  
@@ -106,7 +106,7 @@ You can submit the Intrastat report as a file. Before creating the file, you can
 6. Choose **Save**.  
 7. Browse to the location where you want to save the file, enter the file name, and then choose **Save**.
 
-## <a name="how-to-reorganize-intrastat-journals"></a>How to: Reorganise Intrastat Journals
+## <a name="reorganize-intrastat-journals"></a>Reorganise Intrastat Journals
 Because you must submit an Intrastat report every month, and you create a new journal batch for each report, you will eventually have many journal batches. The journal lines are not deleted automatically. You may want to reorganize the journal batch names periodically. You do this by deleting the journal batches that you no longer need. The journal lines in these batches are also deleted.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
@@ -115,6 +115,4 @@ Because you must submit an Intrastat report every month, and you create a new jo
 
 ## <a name="see-also"></a>See Also
 [Financial Management](finance.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

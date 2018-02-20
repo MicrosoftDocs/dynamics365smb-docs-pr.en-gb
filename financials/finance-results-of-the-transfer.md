@@ -13,10 +13,10 @@ ms.search.keywords: general ledger, transfer, cost entries
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9f1c3573137d7cd15c8b98813da514f8b8f2e1cd
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d479727b8d0cbb4b4ec9f127136f4e0578b8afb7
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Results of Transferring General Ledger Entries to Cost Entries
@@ -38,7 +38,7 @@ For single cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] transfers t
 In the **Cost Register** table, [!INCLUDE[d365fin](includes/d365fin_md.md)] creates an entry with the source transfer from general ledger. The entry records the first and last entry numbers of the general ledger entries that are transferred, in addition to the first and last entry numbers of the cost entries that are created.  
 
 ## <a name="see-also"></a>See Also  
-[How to: Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+[Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
 [Criteria for Transferring General Ledger Entries to Cost Entries](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
 [Automatic Transfer and Combined Entries](finance-automatic-transfer-combined-entries.md)   
 [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)  

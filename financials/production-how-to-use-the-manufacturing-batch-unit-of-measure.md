@@ -13,24 +13,24 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1b075d164e18a52fbda56cced8d88fabc77bec3f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7dafbb96b4ce4f5ad525ab299edd8549c7aa600e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-manufacturing-batch-units-of-measure"></a>How to: Work with Manufacturing Batch Units of Measure
+# <a name="work-with-manufacturing-batch-units-of-measure"></a>Work with Manufacturing Batch Units of Measure
 If an item is stocked in one unit of measure but produced in another, a production order is created that uses a manufacturing batch unit of measure to calculate the correct quantity of the components during the **Refresh Production Order** batch job. An example of a manufacturing batch unit of measure calculation is when a manufactured item is stocked in pieces but produced in tons.  
 
 ## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>To create a production BOM using a batch unit of measure  
 1.  The manufacturing batch unit of measure is set up as an alternative unit of measure in the **Item Units of Measure** window on the item to be produced. The batch unit of measure will not replace the base unit of measure on the item.  
-2.  Create a production BOM for the item set up with the manufacturing batch unit of measure. For more information, see [How to: Create Production BOMs](production-how-to-create-production-boms.md).  
+2.  Create a production BOM for the item set up with the manufacturing batch unit of measure. For more information, see [Create Production BOMs](production-how-to-create-production-boms.md).  
 3.  In the **Unit of Measure Code** field, select the manufacturing batch unit of measure.  
 4.  For each production BOM line, in the **Quantity Per** field, enter the quantity of this component item that is required to create this batch unit of measure.  
 5.  Open the **Item Card** for the related item.  
 
     On the **Replenishment** FastTab, in the **Production BOM No.** field, select the production BOM created above.  
-6.  Create a production order header using the item set up with the manufacturing batch unit of measure. For more information, see [How to: Create Production Orders](production-how-to-create-production-orders.md).  
+6.  Create a production order header using the item set up with the manufacturing batch unit of measure. For more information, see [Create Production Orders](production-how-to-create-production-orders.md).  
 7.  Choose the **Refresh** action, and then choose  the **OK** button.  
 
 On the **Lines** FastTab, choose the **Line** action, and then choose the **Components** action to view the result. The program calculates the correct quantity of the components needed to satisfy the production BOM based on the manufacturing batch unit of measure.  
@@ -46,8 +46,8 @@ On the **Lines** FastTab, choose the **Line** action, and then choose the **Comp
 8.  On the **Lines** FastTab, choose the **Line** action, and then choose the **Components** action to view the result. The correct quantity of the components needed to satisfy the production BOM is calculated based on the manufacturing batch unit of measure.  
 
 ## <a name="see-also"></a>See Also  
-[How to: Create Routings](production-how-to-create-routings.md)  
-[How to: Create Production BOMs](production-how-to-create-production-boms.md)     
+[Create Routings](production-how-to-create-routings.md)  
+[Create Production BOMs](production-how-to-create-production-boms.md)     
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Planning](production-planning.md)   

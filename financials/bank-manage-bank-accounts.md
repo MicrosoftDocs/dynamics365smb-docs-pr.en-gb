@@ -13,10 +13,10 @@ ms.search.keywords: reconcile
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 2e8314c6da4da73712787a40204a964922f153f4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d126a89064c3e899f864e63647e76f5e59e1666
 ms.contentlocale: en-gb
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-bank-accounts"></a>Managing Bank Accounts
@@ -31,8 +31,8 @@ The following table describes a sequence of tasks, with links to the topics that
 | To | See |
 | --- | --- |
 | Reconcile bank accounts in connection with payment processing in the **Payment Reconciliation Journal** window. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Reconcile bank accounts, including cheque ledger entries, as a separate task in the **Bank Acc. Reconciliation** window. |[How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md) |
-| Post transfers between bank accounts in the same currency or in different currencies. |[How to: Transfer Bank Funds](bank-how-transfer-bank-funds.md) |
+| Reconcile bank accounts, including cheque ledger entries, as a separate task in the **Bank Acc. Reconciliation** window. |[Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md) |
+| Post transfers between bank accounts in the same currency or in different currencies. |[Transfer Bank Funds](bank-how-transfer-bank-funds.md) |
 
 ## <a name="see-also"></a>See Also
 [Setting Up Banking](bank-setup-banking.md)  
@@ -40,4 +40,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Payables](payables-manage-payables.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

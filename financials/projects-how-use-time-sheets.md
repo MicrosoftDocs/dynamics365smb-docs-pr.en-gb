@@ -10,26 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9d67198e172b82c20c9d998854a819e39ae523ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 545b06fac95994229ec0442c7aacb57cc56001ff
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-time-sheets-for-jobs"></a>How to: Use Time Sheets for Jobs
+# <a name="use-time-sheets-for-jobs"></a>Use Time Sheets for Jobs
 You use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. You must have permissions to be able to create time sheets.
 
 You can copy and use your job planning lines in a time sheet. In that way, you must only enter the information in one place and the line information is always correct.
 
 After you have approved time sheet entries for a job, you can post them to the relevant job journal or resource journal.
 
-Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets. For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).
-
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-a-time-sheet"></a>To create a time sheet
 You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task.
@@ -96,7 +93,7 @@ Time sheet registration is tracked in hours, the standard base unit of measure f
 A time sheet must be submitted for approval before it can be used. You can approve and reject individual lines on a time sheet or send them back to the submitter for additional action. A time sheet can be approved in two ways:
 
 * A time sheet administrator can approve any time sheet.
-* The person who is specified in the **Time Sheet Approver User ID** field on a resource card can approve that resource's time sheets. For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).
+* The person who is specified in the **Time Sheet Approver User ID** field on a resource card can approve that resource's time sheets. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Manager Time Sheets**, and then choose the related link.
 2. Select a time sheet from the list.  

@@ -10,22 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 12/01/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1da2e94fa64d1daa3304b5266d54152563cfa283
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>How to: Analyse Actual Amounts Versus Budgeted Amounts
+# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analyse Actual Amounts Versus Budgeted Amounts
 As a part of gathering, analysing, and sharing your company data, you view actual amounts compared to budgeted amounts for all accounts and for several periods.
 
-To analyse budgeted amounts, you must first create G(L budgets. For more information, see [How to: Create G/L Budgets](finance-how-create-budgets.md).
-
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+To analyse budgeted amounts, you must first create G(L budgets. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
 
 ## <a name="to-view-a-gl-budget"></a>To view a G/L budget
 In a budget with dimensions, you can filter the entries and see specific budgets.
@@ -69,7 +66,7 @@ Instead of viewing the actual and budgeted amounts for all accounts within a sin
 
 ## <a name="see-also"></a>See Also
 [Business Intelligence](bi.md)  
-[How to: Work with Account Schedules](bi-how-work-account-schedule.md)  
+[Work with Account Schedules](bi-how-work-account-schedule.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  

@@ -11,15 +11,15 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d7bcb866d5f69e77e5a175d0b73e8ac03cf09d98
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b3ee160e2c38107aea1342b51d729aa172bbbc3e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# <a name="how-to-create-a-sandbox-environment"></a>How to: Create a Sandbox Environment
+# <a name="create-a-sandbox-environment"></a>Create a Sandbox Environment
 A sandbox environment (Preview) is a non-production instance of [!INCLUDE[d365fin](includes/d365fin_md.md)]. Isolated from production, a sandbox environment is the place to safely explore, learn, demo, develop, and test the service without the risk of affecting the data and settings of your production environment.
 
 ## <a name="to-create-a-sandbox-environment"></a>To create a sandbox environment
@@ -44,7 +44,7 @@ In the sandbox environment, a brand-new tenant has been created. This tenant is 
 > [!NOTE]  
 >  Resetting the sandbox environment will remove it completely, and then create it again with the default demonstration data.  
 
-8.  To switch between your production and sandbox environments, you can use the Dynamics 365 app launcher.
+8.  To switch between your production and sandbox environments, you can use the Finance and Operations, Business edition app launcher.
 ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png)
 
 9.  It is possible for an administrator or another user to limit or even block access for some users to the sandbox environment. This can be done by using the standard security features of the product, such as the User card, User Groups, and Permission Sets.

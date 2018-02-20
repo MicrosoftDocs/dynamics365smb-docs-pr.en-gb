@@ -13,13 +13,13 @@ ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7e49359f29bcb101b2dc16236e9b617962248a67
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 454385cf346510396b7ff154164e4495bb784419
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-the-role-center"></a>How to: Change the Role Centre
+# <a name="change-the-role-center"></a>Change the Role Centre
 The Home page is your main point of entry into [!INCLUDE[d365fin](includes/d365fin_md.md)]. Here you can get an overview of the daily work tasks and their status. Tasks that you perform often are accessed through the tiles in the content area, the navigation pane on the left, and through actions in the ribbon.
 
 The content on the Home page is based on the selected Role Centre. The standard Role Center for [!INCLUDE[d365fin](includes/d365fin_md.md)] is **Business Manager**, but you can change this and choose between a number of Role Centers.

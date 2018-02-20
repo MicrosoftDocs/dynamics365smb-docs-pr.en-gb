@@ -13,10 +13,10 @@ ms.search.keywords: relationship, CRM, integration, couple
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: dbb29d9d53618eec69817455d4304da2a6bfe466
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2b85c52378a351dbc1a0809ec540b1f53c8074ef
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synchronising Contacts With Customers, Vendors, and Bank Accounts
@@ -27,7 +27,7 @@ Before you can synchronise your contacts with customers, vendors, or bank accoun
 ## <a name="different-ways-to-synchronize-contacts-with-customers-vendors-and-bank-accounts"></a>Different Ways to Synchronise Contacts with Customers, Vendors and Bank Accounts
 You can synchronise your contacts with customers, vendors, or bank accounts by three methods:
 
-* Link contacts with existing customers, vendors, or bank accounts from the contact card. For more information, see [How to: Link Contacts With Customers, Vendors, and Bank Accounts](marketing-how-link-contact.md).
+* Link contacts with existing customers, vendors, or bank accounts from the contact card. For more information, see [Link Contacts With Customers, Vendors, and Bank Accounts](marketing-how-link-contact.md).
 * Create customers, vendors, or bank accounts from the contact. For more information, see [Create a Customer, Vendor, or Bank Account From a Contact](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
 * Create contacts from customers, vendors or bank accounts. For more information, see [Create a company contact from a customer, vendor, or bank account](marketing-how-create-contact-companies.md).
 

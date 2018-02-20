@@ -1,5 +1,5 @@
 ---
-title: 'How to: Use Allocation Keys in General Journals | Microsoft Docs'
+title: Use Allocation Keys in General Journals | Microsoft Docs
 description: Learn how you can use allocation keys in journals.
 services: project-madeira
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.search.keywords: cost accounting
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bbacf9b5634d51478dd4d54ac4b587ea9bfaaf99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ee3e0f325623666eb720e3cc2656cfd1f6332eb
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-allocation-keys-in-general-journals"></a>How to: Use Allocation Keys in General Journals
+# <a name="use-allocation-keys-in-general-journals"></a>Use Allocation Keys in General Journals
 You can allocate an entry in a general journal to several different accounts when you post the journal. The allocation can be made by quantity, percentage, or amount.
 
 ## <a name="to-set-up-allocation-keys"></a>To set up allocation keys

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 60bd652d7a07841601bede9cff77c5b252000347
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Accessibility and Keyboard Shortcuts in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -31,7 +31,7 @@ This topic provides information about the features that make [!INCLUDE[d365fin](
 -   Support for common assistive technologies  
 
 ##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
- [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
 |To do this|Press|  
 |----------------|-----------|  
@@ -55,13 +55,13 @@ This topic provides information about the features that make [!INCLUDE[d365fin](
  A descriptive text for images is set with the ALT attribute inside the IMG tag. A descriptive text for hyperlinks is set with the title attribute inside the A tag.  
 
 ##  <a name="AssistiveTech"></a> Assistive Technologies  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supports various assistive technologies, such as high contrast, screen readers, and voice recognition software. Some assistive technologies may not work well with certain elements in [!INCLUDE[d365fin](includes/d365fin_md.md)] pages.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  supports various assistive technologies, such as high contrast, screen readers, and voice recognition software. Some assistive technologies may not work well with certain elements in [!INCLUDE[d365fin](includes/d365fin_md.md)] pages.  
 
 ## <a name="for-more-accessibility-information"></a>For more accessibility information  
 You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=262160) site.
 
 ## <a name="see-also"></a>See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.md)  
 

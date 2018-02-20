@@ -13,13 +13,13 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 5f4b675db86bc6fef19a587454e1e513fe6fa83d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fa5c0c39dbbce40b59d639f810522c66da1a09ab
 ms.contentlocale: en-gb
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>How to: Set Up the Envestnet Yodlee Bank Feeds Service
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Set Up the Envestnet Yodlee Bank Feeds Service
 You can import electronic bank statements from your bank to quickly fill in the **Payment Reconciliation Journal** window so you can apply payments and reconcile the bank account. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 The Envestnet Yodlee Bank Feeds service is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)] and is ready to be enabled. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
@@ -63,7 +63,7 @@ The bank feed service will be enabled when you link a bank account to its relate
     After the process completes, the bank name will appear in the **My Accounts** pane on the **Linked** tab. The number in brackets indicates how many online bank accounts were linked.  
 7. Choose the **OK** button.
 
-    If you're only linking one online bank account, the **Bank Account Card** window opens and displays the name of the online bank account. In this case, the bank account linking task is completed. All that's left to do is to set up the bank account. For more information, see [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md).
+    If you're only linking one online bank account, the **Bank Account Card** window opens and displays the name of the online bank account. In this case, the bank account linking task is completed. All that's left to do is to set up the bank account. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).
 
     If you're linking more than one online bank accounts, the **Bank Account Linking** window opens and lists the online bank accounts that are not yet linked to bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In that case, follow the next step.  
 8. In the **Bank Account Linking** window, select the line for an online bank account, and then choose the **Link to New Bank Account** action.  

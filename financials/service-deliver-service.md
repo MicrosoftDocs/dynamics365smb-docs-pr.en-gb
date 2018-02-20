@@ -13,14 +13,14 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9c60f65b65c7037b4ce26212cfe80e7b7f1b1336
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 34283487641e7b249b556cec834531582c58af7a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="delivering-service"></a>Delivering Service
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  
   
 Another way to review pending service orders is to use the **Service Tasks** window. In this view of your service obligations, you can see where in your service workflow an order is and change that status to reflect interactions with your customer.  
   
@@ -34,13 +34,13 @@ The following table describes a sequence of tasks, with links to the topics that
   
 |**To**|**See**|  
 |------------|-------------|  
-|Create quotes that are drafts of service orders, and then convert the quotes to service orders.|[How to: Create Service Quotes](service-how-to-create-service-quotes.md)|
-|Create documents that contain information about a service, such as repairs and maintenance, on service items.|[How to: Create Service Orders](service-how-to-create-service-orders.md)|
-|Plan the delivery of service by using the **Dispatch Board**. You can also use project management tools in the Jobs department to help in planning.|[How to: Allocate Resources](service-how-to-allocate-resources.md)|  
-|Deliver service to customers by performing service tasks.|[How to: Work on Service Tasks](service-how-to-work-on-service-tasks.md)|  
-|Post service orders for services, so that your accounting is up-to-date.|[How to: Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)|  
-|Create and post invoices for services that you have delivered.|[How to: Create Service Invoices or Credit Memos](service-how-create-invoices.md)|  
-|Keep customers happy by lending them an item while you work on theirs.| [How to: Lend and Receive Loaner Items](service-how-to-lend-receive-loaners.md)|
+|Create quotes that are drafts of service orders, and then convert the quotes to service orders.|[Create Service Quotes](service-how-to-create-service-quotes.md)|
+|Create documents that contain information about a service, such as repairs and maintenance, on service items.|[Create Service Orders](service-how-to-create-service-orders.md)|
+|Plan the delivery of service by using the **Dispatch Board**. You can also use project management tools in the Jobs department to help in planning.|[Allocate Resources](service-how-to-allocate-resources.md)|  
+|Deliver service to customers by performing service tasks.|[Work on Service Tasks](service-how-to-work-on-service-tasks.md)|  
+|Post service orders for services, so that your accounting is up-to-date.|[Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)|  
+|Create and post invoices for services that you have delivered.|[Create Service Invoices or Credit Memos](service-how-create-invoices.md)|  
+|Keep customers happy by lending them an item while you work on theirs.| [Lend and Receive Loaner Items](service-how-to-lend-receive-loaners.md)|
   
 ## <a name="see-also"></a>See Also  
 [Planning Service](service-plan-service.md)  

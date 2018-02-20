@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 143124fd2e458ee756d47d3f8523380cff6826a9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a7266eddba4293807a1e7e2a187c5002be771499
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-for-new-demand-order-by-order"></a>How to: Plan for New Demand Order by Order
+# <a name="plan-for-new-demand-order-by-order"></a>Plan for New Demand Order by Order
 This planning task can be performed in the **Order Planning** window, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.  
 
 You can enter the **Order Planning** window in two ways depending on your focus: From an order that you want to plan for specifically or in batch mode because you want to plan for all and any new demand.  

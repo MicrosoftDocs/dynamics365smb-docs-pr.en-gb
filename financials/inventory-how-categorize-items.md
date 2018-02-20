@@ -13,22 +13,22 @@ ms.search.keywords: category, search, attribute, facet
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: da87c427033d58d92a6a5222bc323c68c4bc3f4e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 64511e0979671d13740bd18d95d53e8e37564583
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-categorize-items"></a>How to: Categorise Items
+# <a name="categorize-items"></a>Categorise Items
 To maintain an overview of your items and to help you sort and find items, it is useful to organise your items in item categories.
 
-To find items by characteristics, you can assign item attributes to items and also to item categories. For more information, see [How to: Work with Item Attributes](inventory-how-work-item-attributes.md).
+To find items by characteristics, you can assign item attributes to items and also to item categories. For more information, see [Work with Item Attributes](inventory-how-work-item-attributes.md).
 
 ## <a name="to-create-an-item-category"></a>To create an item category
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Categories**, and then choose the related link.
 2. In the **Item Categories** window, choose the **New** action.
 3. In the **Item Category Card** window, on the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. On the **Attributes** FastTab, specify any item attributes for the item category. For more information, see the "To assign item attributes to an item category" section in [How to: Work with Item Attributes](inventory-how-work-item-attributes.md).
+4. On the **Attributes** FastTab, specify any item attributes for the item category. For more information, see the "To assign item attributes to an item category" section in [Work with Item Attributes](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  
 >   If the item category has a parent item category, as indicated by the **Parent Category** field, then any item attributes that are assigned to that parent item category are prefilled on the **Attributes** FastTab.
@@ -42,8 +42,8 @@ To find items by characteristics, you can assign item attributes to items and al
 3. Choose the lookup button in the **Item Category Code** field and select an existing item category. Alternatively, choose the **New** action to first create a new item category as explained in the "To create an item category" section.
 
 ## <a name="see-also"></a>See Also
-[How to: Work with Item Attributes](inventory-how-work-item-attributes.md)  
-[How to: Register New Items](inventory-how-register-new-items.md)  
+[Work with Item Attributes](inventory-how-work-item-attributes.md)  
+[Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

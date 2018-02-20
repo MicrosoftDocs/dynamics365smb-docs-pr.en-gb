@@ -13,16 +13,16 @@ ms.search.keywords: project budget, forecast
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0e480c67ddb2acd5e98799c98cb1cd9d972889df
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e88eaebf65d950dcbb6c0296be24e68628a9494e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-job-budgets"></a>How to: Manage Job Budgets
+# <a name="manage-job-budgets"></a>Manage Job Budgets
 You can set up a budget for each job. The budget is used to plan the resources that you allocate to a job. The budget can be either general with few entries or it can contain more entries that are divided into activity levels. You can then compare the budgeted amounts with the actual usage as recorded in the job journal. By monitoring differences between actual usage and budgeted usage, you can control an ongoing project and improve the quality of future jobs by reducing the risk of underestimating costs.
 
-The following procedure describes how to estimate budgeted costs during planning. For information about recording budgeted versus actual job prices and costs, see [How to: Record Usage for Jobs](projects-how-record-job-usage.md).  
+The following procedure describes how to estimate budgeted costs during planning. For information about recording budgeted versus actual job prices and costs, see [Record Usage for Jobs](projects-how-record-job-usage.md).  
 
 ## <a name="JobBudgetCosts"></a> To estimate the budgeted costs for a job
 When a customer wants to know the price of a job that will be invoiced based on usage, you must have to determine the budgeted costs for the job. You use the **Job Task Lines** window to do this.
@@ -48,7 +48,7 @@ For the **Line Type** field, refer to the following information.
 
 In the **Job Card** window, you can now see a summary of the total budgeted costs, budgeted price, billable cost and billable price for each task.
 
-For information about recording budgeted versus actual job prices and costs, see [How to: Record Usage for Jobs](projects-how-record-job-usage.md).
+For information about recording budgeted versus actual job prices and costs, see [Record Usage for Jobs](projects-how-record-job-usage.md).
 
 ## <a name="see-also"></a>See Also
 [Project Management](projects-manage-projects.md)  

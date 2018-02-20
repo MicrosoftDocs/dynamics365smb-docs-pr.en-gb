@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e6b691eae1663cdc93d851f531306c472291484
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c942b0e0dcdc025fdeca6373fe30b485a147ad2
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-inventory-costing"></a>About Inventory Costing
@@ -36,8 +36,8 @@ Managing inventory costs is concerned with recording and reporting business oper
 |Understand the cost adjustment mechanism, which ensures that costs are brought forward even if inventory transactions happen in a random manner.|[Design Details: Cost Adjustment](design-details-cost-adjustment.md)|  
 |Read why standard costs are often used by manufacturing companies as a valuation base for components and end items.|[About Calculating Standard Cost](finance-about-calculating-standard-cost.md)|  
 |Understand how the value of inventory is reflected in the general ledger.|[Reporting Costs and Reconciling with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
-|Learn how item charges, such as freight and insurance, can assign additional cost components to an item's unit cost.|[How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|  
-|Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the fiscal year progresses.|[How to: Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)|  
+|Learn how item charges, such as freight and insurance, can assign additional cost components to an item's unit cost.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|  
+|Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the fiscal year progresses.|[Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)|  
 |Understand all mechanisms in the costing engine, including what happens when you post assembly and production transactions.|[Design Details: Inventory Costing](design-details-inventory-costing.md)|
 
 ## <a name="see-also"></a>See Also

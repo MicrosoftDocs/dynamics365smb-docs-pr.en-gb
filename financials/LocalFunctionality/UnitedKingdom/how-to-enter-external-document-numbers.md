@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 723e25b34c7b021e966483aaf92ba92f97df0be2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5f52cc6116fece8efdc8e5cabebc623f9ecf51f0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-enter-external-document-numbers"></a>How to: Enter External Document Numbers
+# <a name="enter-external-document-numbers"></a>Enter External Document Numbers
 You can enter external document numbers for customers and vendors in all sales and purchase orders, invoices, and credit memos. You can use these numbers to search for posted sales and purchase lines later.  
 
 ## <a name="to-enter-external-document-numbers-in-sales-and-purchase-orders"></a>To enter external document numbers in sales and purchase orders  

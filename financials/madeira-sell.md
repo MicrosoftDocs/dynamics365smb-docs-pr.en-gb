@@ -1,6 +1,6 @@
 ---
-title: Selling Dynamics 365 Business edition | Microsoft Docs
-description: Find out how you can expand your business opportunities and become a Microsoft partner and Dynamics 365 Business edition  reseller.
+title: Selling Finance and Operations, Business edition | Microsoft Docs
+description: Find out how you can expand your business opportunities and become a Microsoft partner and Finance and Operations, Business edition  reseller.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,18 +13,18 @@ ms.search.keywords: microsoft partner
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 582d000456c6802131c69fc5c0b391905a9b4ddf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6766559f314c6fd9031f9599f414dae0eff984f8
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Become a Reseller of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Expand your business opportunity with [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
 
-If you specialise in Cloud solutions, Office 365, SharePoint, industry solutions, analytics, ERP, CRM, accounting software, and/or business process optimisation software/services, Dynamics 365 is a new opportunity.   
+If you specialise in Cloud solutions, Office 365, SharePoint, industry solutions, analytics, ERP, CRM, accounting software, and/or business process optimisation software/services, Finance and Operations, Business edition is a new opportunity.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] can help you differentiate and deepen customer relationships by giving you the capability to deliver an end-to-end business management solution that’s connecting people and processes like never before, embedded within familiar Microsoft Office tools that small and medium businesses use every day.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  can help you differentiate and deepen customer relationships by giving you the capability to deliver an end-to-end business management solution that’s connecting people and processes like never before, embedded within familiar Microsoft Office tools that small and medium businesses use every day.  
 
 ## <a name="get-started"></a>Get started
 Sign up for the [!INCLUDE[d365fin](includes/d365fin_md.md)] Preview at [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e4cc14212f30c7b42aaf9d08c848488ab65444f6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6effbb7bd316eed24b20943e71f4e0bf8e9e8a3e
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -112,7 +112,7 @@ You can use the **Service Credit Memo Statistics** window to get a statistical o
 * General information about the customer, such as the customer's credit limit and balance on the account.  
 
 ## <a name="see-also"></a>See Also  
-[How to: Create Service Orders](service-how-to-create-service-orders.md)   
-[How to: Create Service Items](service-how-to-create-service-items.md)   
+[Create Service Orders](service-how-to-create-service-orders.md)   
+[Create Service Items](service-how-to-create-service-items.md)   
 [Planning Service](service-plan-service.md)  
 

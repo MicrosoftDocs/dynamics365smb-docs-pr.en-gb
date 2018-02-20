@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 8b5fab97874815849309aa46a6d44f758cb8dcb2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9a859bf8fe418e54c793fdc97d45cddc2d737638
 ms.contentlocale: en-gb
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>The Envestnet Yodlee Bank Feeds Extension
@@ -31,7 +31,7 @@ The Envestnet Yodlee Bank Feeds service provides the following benefits:
 * Supports manual as well as automatic bank feeds.
 * Enables outsourcing of payment reconciliation to an accountant by providing access to bank statements.
 
-For more information, see [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
+For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
 ## <a name="see-also"></a>See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)    

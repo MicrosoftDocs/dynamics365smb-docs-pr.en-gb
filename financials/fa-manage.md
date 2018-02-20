@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 06/02/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 069f621101023a3c57b7add4d4e3ffcbc2664845
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="fixed-assets"></a>Fixed Assets
@@ -31,10 +31,7 @@ For each asset, you can record maintenance costs and the next service date. Keep
 Each fixed asset can be attached to one or more insurance policies. You can therefore easily verify that insurance policy amounts are in accordance with the value of the assets that are linked to the policy. This also makes it easy to monitor annual insurance premiums.
 
 > [!NOTE]  
->   You can record fixed asset transactions in the **Fixed Asset G/L Journal** window or in the **Fixed Asset Journal** window, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window. For more information, see [How to: Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
-
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+>   You can record fixed asset transactions in the **Fixed Asset G/L Journal** window or in the **Fixed Asset Journal** window, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
 
 Before you can begin to manage fixed assets, you must set up default values, fixed asset accounting, posting groups, allocation keys, journals, and posting types. For more information, see [Setting Up Fixed Assets](fa-setup.md).
 
@@ -42,14 +39,14 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Create fixed assets, assign depreciation methods, post acquisitions, salvage values, and print fixed asset lists. |[How to: Acquire Fixed Assets](fa-how-acquire.md) |
-| Record service visits, post maintenance costs, and monitor maintenance costs. |[How to: Maintain Fixed Assets](fa-how-maintain.md) |
-| Update insurance information, post acquisition costs to insurance policies, modify insurance coverage, view insurance statistics, and list insurance policies. |[How to: Insure Fixed Assets](fa-how-insure.md) |
-| Reclassify fixed assets, transfer fixed assets to different locations, split up or combine assets. |[How to: Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md) |
-| Adjust values of fixed assets, post appreciation, and post write-down transactions. |[How to: Revalue Fixed Assets](fa-how-revalue.md) |
-| Calculate depreciation, post depreciation, and analyse depreciation in fixed assets reports. |[How to: Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md) |
-| Post disposal transactions, view disposal ledger entries, and post partial disposals. |[How to: Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md) |
-| Manage fixed asset budgets, budget acquisition costs, budget disposals of fixed assets, and budget depreciation. |[How to: Manage Budgets for Fixed Assets](fa-how-manage-budgets.md) |
+| Create fixed assets, assign depreciation methods, post acquisitions, salvage values, and print fixed asset lists. |[Acquire Fixed Assets](fa-how-acquire.md) |
+| Record service visits, post maintenance costs, and monitor maintenance costs. |[Maintain Fixed Assets](fa-how-maintain.md) |
+| Update insurance information, post acquisition costs to insurance policies, modify insurance coverage, view insurance statistics, and list insurance policies. |[Insure Fixed Assets](fa-how-insure.md) |
+| Reclassify fixed assets, transfer fixed assets to different locations, split up or combine assets. |[Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md) |
+| Adjust values of fixed assets, post appreciation, and post write-down transactions. |[Revalue Fixed Assets](fa-how-revalue.md) |
+| Calculate depreciation, post depreciation, and analyse depreciation in fixed assets reports. |[Depreciate or Amortise Fixed Assets](fa-how-depreciate-amortize.md) |
+| Post disposal transactions, view disposal ledger entries, and post partial disposals. |[Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md) |
+| Manage fixed asset budgets, budget acquisition costs, budget disposals of fixed assets, and budget depreciation. |[Manage Budgets for Fixed Assets](fa-how-manage-budgets.md) |
 
 ## <a name="see-also"></a>See Also
 [Setting Up Fixed Assets](fa-setup.md)  
@@ -58,4 +55,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
+

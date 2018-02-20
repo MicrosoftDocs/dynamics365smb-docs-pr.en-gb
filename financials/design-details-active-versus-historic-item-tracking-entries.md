@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 0b0d49b4f9b9e77b311628c2d88b4891b32f8276
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-active-versus-historic-item-tracking-entries"></a>Design Details: Active versus Historic Item Tracking Entries
@@ -44,7 +44,7 @@ When parts of a document line quantity are posted, only that particular quantity
 ||**Quantity (Base)**|**Qty. to Handle**|**Qty. to Invoice (Base)**|**Quantity Handled (Base)**|**Quantity Invoiced (Base)**|  
 |-|----------------------------------------------|--------------------------------------------|------------------------------------------------------|-------------------------------------------------------|--------------------------------------------------------|  
 |**Item Tracking Lines** window|7|**2**|**2**|4|0|  
-|**T337**|0|0|0|0|0|  
+|**T337**|1|0|0|0|0|  
 |**T336**|6|0|0|6|2|  
 
  Step 4: Receive one piece.  

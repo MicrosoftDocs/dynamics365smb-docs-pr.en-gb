@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8149c89e2031a7fd44f9942d7aba213158700dc9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e7bac54306953628e8aab21ffab66badf9a1c8fe
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-alternative-addresses-for-contacts"></a>How to: Set Up Alternative Addresses for Contacts
+# <a name="set-up-alternative-addresses-for-contacts"></a>Set Up Alternative Addresses for Contacts
 You can assign an alternate address where your contacts are sometimes sent mail and information, for example, their summer cottage. You can also assign one or several date ranges to each alternate address you have entered for your contacts to specify when each address is valid.
 
 ## <a name="to-assign-an-alternate-address"></a>To assign an alternate address
@@ -41,5 +41,5 @@ Repeat these steps to assign as many date ranges as you want.
 
 ## <a name="see-also"></a>See Also
 [Create Contact Companies](marketing-create-contact-companies.md)  
-[Working with Dynamics 365](ui-work-product.md)
+[Working with Finance and Operations, Business edition](ui-work-product.md)
 

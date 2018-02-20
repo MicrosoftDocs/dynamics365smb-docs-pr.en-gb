@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 6588f01c557b1c0586097766aa8a6f84d545bc6e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9f99b1fce3c44fdf2053a74b8fa090c6b69aef1a
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Field Mapping When Importing SEPA CAMT Files
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supports the regional SEPA standards (Single Euro Payments Area) for importing SEPA bank statements (CAMT format). For more information, see [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  supports the regional SEPA standards (Single Euro Payments Area) for importing SEPA bank statements (CAMT format). For more information, see [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md).  
 
  The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition (represented by the **SEPA CAMT** code in the **Posting Exchange Definitions** window) to adapt it to a local variation of the standard. The following tables show the element-to-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
- For information about creating or adjusting a data exchange definition, see [How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
+ For information about creating or adjusting a data exchange definition, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
 ## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>CAMT data mapping to fields in the General Journal table (81)  
 
@@ -57,11 +57,11 @@ ms.lasthandoff: 11/10/2017
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Unstructured|Text|Information supplied to enable the matching/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts-receivable system, in an unstructured form||6|Description|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Text|Additional information about the entry||16|Transaction Information|  
 
- Elements in the **Ntry** node that are imported into [!INCLUDE[d365fin](includes/d365fin_md.md)] but not mapped to any fields are stored in the **Posting Exch. Column Def** table. Users can view these elements from the **Payment Reconciliation Journal**, **Payment Application**, and **Bank Acc. Reconciliation** windows by choosing the **Bank Statement Line Details** action. For more information, see [How to: Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).  
+ Elements in the **Ntry** node that are imported into [!INCLUDE[d365fin](includes/d365fin_md.md)] but not mapped to any fields are stored in the **Posting Exch. Column Def** table. Users can view these elements from the **Payment Reconciliation Journal**, **Payment Application**, and **Bank Acc. Reconciliation** windows by choosing the **Bank Statement Line Details** action. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).  
 ## <a name="see-also"></a>See Also  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)  
-[How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)   
-[How to: Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
-[How to: Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)  
+[Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)   
+[Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)  
 

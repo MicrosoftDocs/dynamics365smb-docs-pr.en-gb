@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0dc8b3eeecfbf3f4a96985f4e4adaf0b3a5a21d0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4636cdedc2c99d1aa7cfc2dc361f7135aa3c4199
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-restrict-and-allow-usage-of-a-record"></a>How to: Restrict and Allow Usage of a Record
+# <a name="restrict-and-allow-usage-of-a-record"></a>Restrict and Allow Usage of a Record
 If you want to restrict a record from being used in certain activities, for example, until the record has been approved, you can incorporate two workflow responses in a workflow that controls the usage of the record. One workflow response will restrict usage of the record as defined by the workflow event and conditions. Another workflow response will allow usage of the record as defined by the workflow event and conditions. Two responses exist in the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] for this purpose: **Restrict usage of a record.** and **Allow usage of a record.**.
 
 > [!NOTE]  
@@ -32,7 +32,7 @@ The following procedure describes how to restrict purchase orders from being pos
 
 ## <a name="to-create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders"></a>To create a workflow step that restricts posting of unapproved purchase orders  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
-2. In the **Workflows** window, create a new workflow named Purchase Order Approval Workflow. For more information, see [How to: Create Workflows](across-how-to-create-workflows.md).  
+2. In the **Workflows** window, create a new workflow named Purchase Order Approval Workflow. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 3. Choose the **Copy From Workflow Template** action.  
 4. Choose the **Source Workflow Code** field, and then, in the **Workflow Templates** window, choose the Purchase Invoice Approval Workflow workflow template.  
 
@@ -41,6 +41,6 @@ The following procedure describes how to restrict purchase orders from being pos
 6. Proceed to edit, delete, or add other workflow steps to fit a business process that begins by restricting unapproved purchase orders from being posted.  
 
 ## <a name="see-also"></a>See Also  
-[How to: Create Workflows](across-how-to-create-workflows.md)   
+[Create Workflows](across-how-to-create-workflows.md)   
 [Workflow](across-workflow.md)   
 

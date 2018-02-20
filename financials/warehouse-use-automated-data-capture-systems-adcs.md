@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3249ed4b8bc50f7cbc577d5dc01b03029b4c06c3
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-enable-automated-data-capture-systems-adcs"></a>How to: Enable Automated Data Capture Systems (ADCS)
+# <a name="enable-automated-data-capture-systems-adcs"></a>Enable Automated Data Capture Systems (ADCS)
 You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories.  
 
 To use ADCS, you must give each item stored in the warehouse an item identifier. You must also set up miniforms, handheld functions, data exchanges, and specify settings for fields that control ADCS. You specify whether to use ADCS on the location card of a warehouse.
@@ -56,7 +56,7 @@ Each warehouse item that you want to use with ADCS must be assigned an identifie
 8.  To review the information, choose the **Identifier Code** field to open the **Item Identifiers** window.
 
 ## <a name="to-add-an-adcs-user"></a>To add an ADCS user  
-You can add any user as a user of an Automated Data Capture System (ADCS). When you do this, the user must also provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from the Windows logon password of the user. For more information, see [How to: Manage Users and Permissions](ui-how-users-permissions.md).
+You can add any user as a user of an Automated Data Capture System (ADCS). When you do this, the user must also provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from the Windows logon password of the user. For more information, see [Manage Users and Permissions](ui-how-users-permissions.md).
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **ADCS Users**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -65,7 +65,7 @@ You can add any user as a user of an Automated Data Capture System (ADCS). When 
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>To specify that a warehouse employee is an ADCS user  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Employees**, and then choose the related link.  
-2.  If needed, add a new warehouse employee. For more information, see [How to: Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).  
+2.  If needed, add a new warehouse employee. For more information, see [Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).  
 3.  Choose the **Edit List** action.  
 4.  Select a warehouse employee from the list. In the **ADCS User** field, choose the drop-down arrow, and then select the name of an ADCS user from the list.  
 

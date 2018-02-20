@@ -1,6 +1,6 @@
 ---
 title: Create new companies using an assisted setup guide | Microsoft Docs
-description: It's easy to create a new, blank company in Dynamics 365 Business edition. An assisted setup guide helps you through the steps, and you can import your existing business data.
+description: It's easy to create a new, blank company in Finance and Operations, Business edition. An assisted setup guide helps you through the steps, and you can import your existing business data.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: company, setup wizard
 ms.date: 07/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c4152a77fcd3e5995aaf09c17b0a3a2c227aa2fa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d18845dfb3c904139b1b392619d04611522c6e12
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="creating-new-companies-in-included365finlongincludesd365finlongmdmd"></a>Creating New Companies in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the containers for business data that belongs to a business unit or legal entity is referred to as a *company*. When you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)], you are given a demonstration company and an empty company, *My Company*. Switching between the companies is easy - just got to **My Settings** and move to the other company. But you can also create new companies in [!INCLUDE[d365fin](includes/d365fin_md.md)], depending on your business needs. When you create a new company, an assisted setup guide helps you get the basics in place. Then, you can import relevant data from your legacy system or another company in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Create New Company
@@ -44,10 +44,10 @@ When you sign in to a new company, the **Company Setup** wizard runs automatical
 
 For example, your company address is included in invoices and other documents, your bank information is used in payments, and the costing method is used to calculate prices as well as inventory valuation.  
 
-Once you have the basics in place, you can set up remaining core areas. Then, you are ready to add business data, such as customers and vendors. For more information, see [Setting Up Dynamics 365 Business edition ](setup.md).  
+Once you have the basics in place, you can set up remaining core areas. Then, you are ready to add business data, such as customers and vendors. For more information, see [Setting Up Finance and Operations, Business edition ](setup.md).  
 
 ## <a name="see-also"></a>See Also
-[Setting Up Dynamics 365 Business edition ](setup.md)  
+[Setting Up Finance and Operations, Business edition ](setup.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

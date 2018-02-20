@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e3f3430545b325be1e7145e49df8a798ee8904e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 663e269d8dc81cd6a0b947b6309a750545379ecf
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-posting-date-warning"></a>How to: Set Up a Posting Date Warning
+# <a name="set-up-a-posting-date-warning"></a>Set Up a Posting Date Warning
 A warning message will be displayed when you post or batch post sales and purchase documents with a posting date not same as the work date. You must set up for this in the **Sales Receivables Setup** and **Purchases Payables Setup**.  
 
 ## <a name="to-set-up-a-posting-date-warning-for-sales-and-purchases"></a>To set up a posting date warning for sales and purchases  

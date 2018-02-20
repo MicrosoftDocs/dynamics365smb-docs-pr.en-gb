@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 326c7931cc0217c72ede62d5516dba5f4ee6fa32
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f9672af6dc4f87f52773a91c587f60c6afe98b8f
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-serial-and-lot-numbers"></a>How to: Work with Serial and Lot Numbers
+# <a name="work-with-serial-and-lot-numbers"></a>Work with Serial and Lot Numbers
 You can assign serial numbers and lot numbers to any outbound or inbound document, and its posted item tracking entries are displayed in the related item ledger entries. You perform the work in the **Item Tracking Lines** window.
 
 The matrix of quantity fields at the top of the **Item Tracking Lines** window displays the quantities and sums of item tracking numbers being defined on the lines. The quantities must correspond to those of the document line, which is indicated by 0 in the **Undefined** fields.
 
 As a performance measure, the program collects the availability information in the **Item Tracking Lines** window only once, when you open the window. This means that the program does not update the availability information during the time that you have the window open, even if changes occur in inventory or on other documents during that time.
 
-Items with serial or lot numbers can be traced both backwards and forward in their supply chain. This is useful for general quality assurance and for product recalls. For more information, see [How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md).
+Items with serial or lot numbers can be traced both backwards and forward in their supply chain. This is useful for general quality assurance and for product recalls. For more information, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md).
 
 ## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>About Picking Serial or Lot Numbers in the Warehouse
 Outbound handling of serial or lot numbers is a frequent task in different warehouse processes.  
@@ -236,7 +236,7 @@ The contents of the **Serial No.** and **Lot No.** fields are not editable. Howe
 Reclassifying item tracking for an item means changing a lot or serial number to a new lot or serial number or changing the expiration date to a new expiration date. If you are working with lots, you can also merge multiple lots into one. You perform these tasks using the item reclassification journal.
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journal**, and then choose the related link.  
-2.  Fill in the line with the relevant information. For more information, see [How to: Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md).
+2.  Fill in the line with the relevant information. For more information, see [Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md).
 3.  Choose the **Item Tracking Lines** action.  
 4.  In the **Serial No.** or **Lot No.** field, select the current serial or lot number.  
 5.  If you want to enter a new item tracking number, enter it in the **New Serial No.** or **New Lot No.** field. If you want, you can merge one or more lots to one new or existing lot.  
@@ -259,10 +259,10 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 8.  Post the journal to link the renewed item tracking numbers or expiration dates to the associated item ledger entry
 
 ## <a name="see-also"></a>See Also
-[How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)   
+[Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)   
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Item Tracking](design-details-item-tracking.md)
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
-[How to: Reserve Items](inventory-how-to-reserve-items.md)  
+[Reserve Items](inventory-how-to-reserve-items.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

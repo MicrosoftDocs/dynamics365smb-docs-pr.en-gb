@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 01/19/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ff83b7e5b61cd265bb3cb1af0bd5db3513c26072
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-calculate-order-promising-dates"></a>How to: Calculate Order Promising Dates
+# <a name="calculate-order-promising-dates"></a>Calculate Order Promising Dates
 A company must be able to inform their customers of order delivery dates. The **Order Promising Lines** window enables you to do this from a sales order line.  
 
 Based on an item’s known and expected availability dates, [!INCLUDE[d365fin](includes/d365fin_md.md)] instantly calculates shipment and delivery dates, which can then be promised to the customer.  
@@ -39,7 +39,7 @@ If you do not specify a requested delivery date on a sales order line, or if the
 ## <a name="about-order-promising"></a>About Order Promising
 The Order Promising functionality enables you to promise an order to be shipped or delivered on a specific date. The date that an item is available to promise or capable to promise is calculated, and order lines are created for those dates that you accept. The functionality calculates the earliest possible date that an item is available for shipment or delivery. It also creates requisition lines, in case the items must first be purchases, for those dates that you accept.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] uses two fundamental concepts:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  uses two fundamental concepts:  
 
 - Available to Promise (ATP)  
 - Capable to Promise (CTP)  
@@ -48,8 +48,10 @@ The Order Promising functionality enables you to promise an order to be shipped 
 Available to promise (ATP) calculates dates based on the reservation system. It performs an availability check of the unreserved quantities in inventory with regard to planned production, purchases, transfers, and sales returns. Based on this information, [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the delivery date of the customer’s order because the items are available, either in inventory or on planned receipts.  
 
 ### <a name="capable-to-promise"></a>Capable to Promise  
-Capable to promise (CTP) assumes a “what if” scenario where the item is not in inventory and no orders are scheduled. Based on this scenario, [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the earliest date that the item can be available if it is to be produced, purchased, or transferred.  
+Capable to promise (CTP) assumes a “what if” scenario, which only applies to item quantities that are not in inventory or on scheduled orders. Based on this scenario, [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the earliest date that the item can be available if it is to be produced, purchased, or transferred.
 
+#### <a name="example"></a>Example
+If there is an order for 10 pieces, and 6 pieces are available in inventory or on scheduled orders, then the Capable-to-Promise calculation will be based on 4 pieces.
 
 ### <a name="calculations"></a>Calculations  
 When [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the customer’s delivery date, it performs two tasks:  
@@ -62,7 +64,7 @@ If the customer does not request a specific delivery date, the shipment date is 
 - Shipment Date + Outbound Warehouse + Planned Shipment + Handling Time = Date  
 - Planned Shipment Date + Shipping Time = Planned Delivery Date  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] then verifies if the calculated delivery date is realistic by calculating backward in time to determine when the item must be available to meet the promised date. This is accomplished by the following formulas:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  then verifies if the calculated delivery date is realistic by calculating backward in time to determine when the item must be available to meet the promised date. This is accomplished by the following formulas:  
 
 - Planned Delivery Date - Shipping Time = Planned Shipment Date  
 - Planned Shipment Date - Outbound Warehouse Handling = Shipment Date  
@@ -73,7 +75,7 @@ Based on new dates and times, all related dates are calculated according to the 
 
 The order processor finishes the CTP process by accepting the dates. This means that a planning line and a reservation entry are created for the item before the calculated dates to ensure that the order is fulfilled.  
 
-In addition to the external order promising that you can perform in the **Order Promising Lines** window, you can also promise internal or external delivery dates for bill-of-material items. For more information, see [How to: View the Availability of Items](inventory-how-availability-overview.md).
+In addition to the external order promising that you can perform in the **Order Promising Lines** window, you can also promise internal or external delivery dates for bill-of-material items. For more information, see [View the Availability of Items](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>To set up order promising  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Order Promising Setup**, and then choose the related link.  

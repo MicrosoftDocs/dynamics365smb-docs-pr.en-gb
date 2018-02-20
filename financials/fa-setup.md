@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 08/15/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9dea8be0f5b0200f97082dc25dbaa2483ad6c735
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ca21ece631fdd07cb95ffdaaa350506b4a8c9e1
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Setting Up Fixed Assets
@@ -31,17 +31,14 @@ The table below has links to more information. After you set those things up, yo
 
 When you enable a fixed asset activity in the **G/L Integration** section in the **Depreciation Book Card** window, the **Fixed Asset G/L Journal** window is used to post transactions for the activity.
 
-> [!NOTE]  
->  This functionality requires that the experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).  
-
 The following table describes a sequence of tasks, with links to the topics that describe them.  
 
 | To | See |
 | --- | --- |
-| Set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting, and set up fixed asset classes and subclasses, such as Tangible and Intangible. |[How to: Set Up General Fixed Assets Information](fa-how-setup-general.md) |
-| Create depreciation books, define various depreciation methods, integrate with the general ledger, and enable duplication of entries in several depreciation books. |[How to: Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md) |
-| Enable insurance of fixed assets, set up general insurance information, an insurance card per policy, and prepare journals to post insurance costs. |[How to: Set Up Fixed Asset Insurance](fa-how-setup-insurance.md) |
-| Enable maintenance of fixed assets, set up general maintenance information, set up maintenance posting accounts, and define types of maintenance work. |[How to: Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md) |
+| Set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting, and set up fixed asset classes and subclasses, such as Tangible and Intangible. |[Set Up General Fixed Assets Information](fa-how-setup-general.md) |
+| Create depreciation books, define various depreciation methods, integrate with the general ledger, and enable duplication of entries in several depreciation books. |[Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md) |
+| Enable insurance of fixed assets, set up general insurance information, an insurance card per policy, and prepare journals to post insurance costs. |[Set Up Fixed Asset Insurance](fa-how-setup-insurance.md) |
+| Enable maintenance of fixed assets, set up general maintenance information, set up maintenance posting accounts, and define types of maintenance work. |[Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md) |
 | Learn about different fixed asset depreciation methods. |[Depreciation Methods](fa-depreciation-methods.md) |
 
 ## <a name="see-also"></a>See Also

@@ -13,13 +13,13 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cce1f5c30b758155056b00e933c9f6cabfd9f1f4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7a23f0ba28ab4c7bc9e028375246ea2e57d32764
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-intercompany"></a>How to: Set Up Intercompany
+# <a name="set-up-intercompany"></a>Set Up Intercompany
 To send a transaction (such as a sales journal line) from one company and have the corresponding transaction (such as a purchase journal line) automatically created in the partner company, the companies involved must agree on a common chart of accounts and set of dimensions for use on intercompany transactions. The intercompany chart of accounts can be, for example, a simplified version of the parent company's chart of accounts. Each company maps their full chart of accounts to the shared intercompany chart of accounts, and each company maps their dimensions to the intercompany dimensions.  
 
 You must also set up an intercompany partner code for each partner company, which is agreed upon by all of the companies, and then assign them to customer and vendor cards respectively by filling in the **Intercompany Partner Code** field.  
@@ -40,7 +40,7 @@ If you will make intercompany sales transactions that include resources, you mus
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>To set up intercompany vendors and intercompany customers
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.
 2. Alternatively, access the vendor from the **Vendor No.** field in the **Intercompany Partner** window.
-3. Open the card for a vendor that is an intercompany partner. For more information, see [How to: Register New Vendors](purchasing-how-register-new-vendors.md).
+3. Open the card for a vendor that is an intercompany partner. For more information, see [Register New Vendors](purchasing-how-register-new-vendors.md).
 4. In the **Intercompany Partner Code** field, select the relevant intercompany partner code.
 5. Repeat steps 1 through 4 for customers.
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1f3a90b9bc9cce2e138e490d3064f6d505a088b9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ec7a0c7c34e164b6ca6c8e65938a8c5e53e65514
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-bin-contents"></a>How to: Create Bin Contents
+# <a name="create-bin-contents"></a>Create Bin Contents
 After you have set up your bins, you can set up the bin contents. In other words, you can set up the items you want to store in any given bin and set the rules that govern filling the bin with a particular item. You can do this manually in the **Bin Contents** window or automatically with the **Create Bin Content Worksheet** window.
 
 ## <a name="to-create-bin-content-manually"></a>To create bin content manually  
@@ -56,7 +56,7 @@ When you have created your bins, you can create the bin content that you want fo
 In this worksheet, you can work with a number of bin content lines for a number of bins and thereby obtain a good overview of what you are putting into various bins in a given zone, aisle, or rack.  
 
 ## <a name="see-also"></a>See Also
-[How to: Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)    
+[Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)    
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     

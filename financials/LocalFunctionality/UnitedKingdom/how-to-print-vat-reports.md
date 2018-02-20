@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 67edd4e431477385fe8cc8009bb9e9295bcb4719
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fb75a598349c6450924df2380a9768b454584275
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-print-vat-reports"></a>How to: Print VAT Reports
+# <a name="print-vat-reports"></a>Print VAT Reports
 You can use the following reports for VAT reporting:  
 
 -   **Day Book VAT Entry** – Displays the daily total for VAT entries for a specific period.  

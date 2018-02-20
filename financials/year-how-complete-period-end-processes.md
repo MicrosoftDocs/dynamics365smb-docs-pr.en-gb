@@ -1,6 +1,6 @@
 ---
 title: Optional Activities for Closing Periods | Microsoft Docs
-description: This topic outlines the optional processes and activities for closing accounting periods in Dynamics 365.
+description: This topic outlines the optional processes and activities for closing accounting periods in Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,19 +13,19 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 06/19/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 526ae1811768f38b04f961e378454fed79a8426b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 344e294083813d41b415ad07e6e8acdd3fe5047b
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Overview of Tasks to Close Accounting Periods
-[!INCLUDE[d365fin](includes/d365fin_md.md)] does not force you to close periods, however, there are many period-end (month-end) activities that you can do. This topic provides an overview of optional processes and activities for closing periods.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  does not force you to close periods, however, there are many period-end (month-end) activities that you can do. This topic provides an overview of optional processes and activities for closing periods.  
 
 ## <a name="general-ledger"></a>General Ledger
 * Specify system-wide and user-specific posting periods.  
 
-    This specifies the dates between which you allow posting. Depending on your business, you may want to allow posting at the start of the period, or toward the end. For more information, see [How to: Specify Posting Periods](finance-how-specify-posting-periods.md).  
+    This specifies the dates between which you allow posting. Depending on your business, you may want to allow posting at the start of the period, or toward the end. For more information, see [Specify Posting Periods](finance-how-specify-posting-periods.md).  
 * Make all necessary G/L adjustments.  
 * Update and post Recurring Journals.  
   <!--* Process Consolidations-->

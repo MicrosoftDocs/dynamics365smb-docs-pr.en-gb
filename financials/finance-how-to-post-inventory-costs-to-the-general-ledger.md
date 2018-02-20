@@ -12,18 +12,18 @@ ms.search.keywords: warehouse, stock
 ms.date: 07/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 41c967c323f4bc156733575cf96925d2b64ddafe
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b71ca658374679860fae487c60d52502ce8eb243
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-inventory-costs-with-the-general-ledger"></a>How to: Reconcile Inventory Costs with the General Ledger
+# <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Reconcile Inventory Costs with the General Ledger
 When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change of inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction that you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger.
 
 Automatic cost posting is defined by the **Automatic Cost Posting** field in the **Inventory Setup** window.
 
-Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md).
+Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [Adjust Item Costs](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>To post inventory costs manually
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") ico, enter **Post Inventory Cost to G/L**, and then choose the related link.
@@ -73,8 +73,6 @@ Choose the  amount in any of the total fields to see the inventory report entrie
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)    
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

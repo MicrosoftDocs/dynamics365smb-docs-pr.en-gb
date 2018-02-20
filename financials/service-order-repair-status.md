@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 36925a08f7fdfffedf13902a5c6feaaa8b0929a4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ffd5d6893b2b6c8ce7b7377c586f4f5414279b5
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-statuses-for-service-orders-and-repairs"></a>How to: Set Up Statuses for Service Orders and Repairs
+# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Set Up Statuses for Service Orders and Repairs
 You must set up repair status options that identify the progress of repair and maintenance of service items in service orders. You must set up at least nine repair status options that identify situations or actions taken when servicing service items.  
 
 You can set the priority level for service order status options. There four priorities are High, Medium High, Medium Low, and Low.  

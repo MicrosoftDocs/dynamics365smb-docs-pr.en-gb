@@ -1,6 +1,6 @@
 ---
-title: 'How to: Create Number Series | Microsoft Docs'
-description: Learn how to set up number series that assign unique ID codes to accounts and documents in Dynamics 365 Business edition .
+title: Create Number Series | Microsoft Docs
+description: Learn how to set up number series that assign unique ID codes to accounts and documents in Finance and Operations, Business edition .
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8605c5273ac69ff7a5b8b8dab59b0856795ed706
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3f50bc1153ccd6b58bc502974c042626ce696078
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-number-series"></a>How to: Create Number Series
+# <a name="create-number-series"></a>Create Number Series
 For each company that you set up, you need to assign unique identification codes to things such as general ledger accounts, customer and vendor accounts, invoices, and other documents. Numbering is important not only for identification. A well-designed numbering system also makes the company more manageable and easy to analyse, and can reduce the number of errors that occur in data entry.
 
 > [!NOTE]  

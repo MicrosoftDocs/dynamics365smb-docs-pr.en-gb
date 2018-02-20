@@ -1,6 +1,6 @@
 ---
 title: Set up SEPA Direct Debit | Microsoft Docs
-description: Learn how to set up SEPA Direct Debit in Dynamics 365 Business edition .
+description: Learn how to set up SEPA Direct Debit in Finance and Operations, Business edition .
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 28958f1f090e5adad69cb21d30727fcbd6a7fef8
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-sepa-direct-debit"></a>How to: Set Up SEPA Direct Debit
+# <a name="set-up-sepa-direct-debit"></a>Set Up SEPA Direct Debit
 From the **Direct Debit Collections** window, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA direct debit format, but in your country/region, other formats for electronic payments may be available.  
 
-To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[d365fin](includes/d365fin_md.md)] , you can set up a data exchange definition by using the data exchange framework. For more information, see [How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
+To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[d365fin](includes/d365fin_md.md)] , you can set up a data exchange definition by using the data exchange framework. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
 Before you can process customer payments electronically by exporting direct debit instructions in the SEPA Direct Debit format, you must perform the following setup steps:  
 
@@ -72,11 +72,11 @@ Before you can process customer payments electronically by exporting direct debi
 
 6.  Repeat steps 1 through 5 for all customers that you want to set up for SEPA direct debits.  
 
- The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).  
+ The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>See Also  
 [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
-[How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)
-[How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
+[Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)
+[Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
 [Exchanging Data Electronically](across-data-exchange.md)
 

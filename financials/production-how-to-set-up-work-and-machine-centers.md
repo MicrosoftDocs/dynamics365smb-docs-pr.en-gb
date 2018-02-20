@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-work-centers-and-machine-centers"></a>How to: Set Up Work Centres and Machine Centres
+# <a name="set-up-work-centers-and-machine-centers"></a>Set Up Work Centres and Machine Centres
 The program distinguishes between three types of capacities. These are arranged hierarchically. Each level contains the subordinate levels.  
 
 The top level is the work centre group. Work centres are assigned to the work centre groups. Every work centre can only belong to one work centre group.
@@ -28,7 +28,7 @@ You can assign various machine centres to every work centre. A machine centre ma
 
 The planned capacity of a work centre consists of the availability of the corresponding machine centres and the additional planned availability of the work centre. The planned availability of the work centre group is, therefore, the sum of all corresponding availabilities of the machine centres and work centres.  
 
-The availability is stored in calendar entries. Before you set up work or machine centres, you must set up shop calendars. For more information, see [How to: Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
+The availability is stored in calendar entries. Before you set up work or machine centres, you must set up shop calendars. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
 
 ## <a name="to-set-up-a-work-center"></a>To set up a work centre
 The following primarily describes how to set up a work centre. The steps to set up a machine centre calendar are similar except for the **Routing Setup** FastTab.  
@@ -37,7 +37,7 @@ The following primarily describes how to set up a work centre. The steps to set 
 2.  Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  In the **Work Centre Group** field, select the higher-level resource grouping that the work centre is organised under, if relevant. Choose the **New** action in the drop-down list.  
-5.  Select the **Blocked** field if you want to prevent the work centre from being used in any processing. This means that output cannot be posted for an item that is produced at the work centre. For more information, see [How to: Post Production Output](production-how-to-post-output-quantity.md).
+5.  Select the **Blocked** field if you want to prevent the work centre from being used in any processing. This means that output cannot be posted for an item that is produced at the work centre. For more information, see [Post Production Output](production-how-to-post-output-quantity.md).
 6.  In the **Direct Unit Cost** field, enter the cost of producing one unit of measure at this work centre, excluding any other cost elements. This cost is often referred to as the *direct labour rate*.  
 7.  In the **Indirect Cost %** field, enter the general operation costs of using the work centre as a percentage of the direct unit cost. This percentage amount is added to the direct cost in the calculation of the unit cost.  
 8.  In the **Overhead Rate** field, enter any non-operational costs, for example maintenance expenses, of the work centre as an absolute amount.  
@@ -68,7 +68,7 @@ The following primarily describes how to set up a work centre. The steps to set 
 13.  In the **Capacity** field, define whether the work centre has more than one machine or person working at the same time. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] installation does not include the Machine Centre functionality, then the value in this field must be **1**.  
 14.  In the **Efficiency** field, enter the percentage of the expected standard output that this work centre actually outputs. If you enter **100**, it means that the work centre has an actual output that is the same as the standard output.  
 15. Select the **Consolidated Calendar** check box if you are also using machine centres. This ensures that calendar entries are rolled up from machine centre calendars.  
-16.  In the **Shop Calendar Code** field, select a shop calendar. For more information, see [How to: Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
+16.  In the **Shop Calendar Code** field, select a shop calendar. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
 17.  In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work centre. Note that queue time is added to other non-productive time elements such as wait time and move time that you may define on routing lines using this work centre.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Example - Different Machine Centres Assigned to a Work Centre
@@ -83,7 +83,7 @@ If capacities of work centres are to make no contribution to the total capacity,
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>To set up a capacity constrained machine or work centre
 You must set up production resources that you regard as critical and mark them to accept a finite load instead of the default infinite load that other production resources accept. A capacity-constrained resource can be a work centre or machine centre that you have identified as a bottleneck and would like to establish a limited, finite load for.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] does not support detailed shop floor control. It plans for a feasible utilisation of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimisation rules.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  does not support detailed shop floor control. It plans for a feasible utilisation of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimisation rules.
 
 In the **Capacity-Constrained Resources** window, you can make setup that avoids overload of specific resources and ensure that no capacity is left unallocated if it could increase the turn-around time of a production order. In the **Dampener (% of Total Capacity)** field, you can add dampener time to resources to minimise operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.
 
@@ -99,7 +99,7 @@ When planning with capacity-constrained resources, the system ensures that no re
 > In case of operation splitting, the setup time is only assigned once because it is assumed that some manual adjustment is done to optimise the schedule.
 
 ## <a name="see-also"></a>See Also  
-[How to: Create Shop Calendars](production-how-to-create-work-center-calendars.md)  
+[Create Shop Calendars](production-how-to-create-work-center-calendars.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Planning](production-planning.md)   

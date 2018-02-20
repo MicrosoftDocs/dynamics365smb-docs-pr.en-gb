@@ -1,26 +1,25 @@
 ---
 title: Set Up Prepayments | Microsoft Docs
 description: Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You might require a deposit before you manufacture items to order, or you might require payment before you ship items to a customer. The prepayments functionality enables you to invoice and collect deposits required from customers or to remit deposits to vendors. Thus, you can ensure that all payments are posted against an invoice.
-services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/07/2017
-ms.author: sgroespe
+ms.date: 15/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 11aef4cb4b1d40568b63662239a26993782201a3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 66c5d81fd7c3517b42930f53b81e06a3583aeb3d
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-prepayments"></a>How to: Set Up Prepayments
-If you require your customers to submit payment before you ship an order to them, or if your vendor requires you to submit payment before they ship an order to you, you can use the Prepayment functionality. The functionality enables you to invoice and collect deposits required from customers or to remit deposits to vendors, and to ensure that all partial payments are posted against an invoice. For more information, see [How to: Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md).
+# <a name="set-up-prepayments"></a>Set Up Prepayments
+If you require your customers to submit payment before you ship an order to them, or if your vendor requires you to submit payment before they ship an order to you, you can use the Prepayment functionality. The functionality enables you to invoice and collect deposits required from customers or to remit deposits to vendors, and to ensure that all partial payments are posted against an invoice. For more information, see [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md).
 
 Before you can post prepayment invoices, you have to set up the posting accounts in the general ledger, and you have to set up number series for prepayment documents.  
 
@@ -35,6 +34,8 @@ Because the prepaid amount belongs to the buyer until they have received the goo
 
     - **Sales Prepayments Account**  
     - **Purch. Prepayments Account**  
+
+If you have not already set up general ledger accounts for prepayments, you can do that in the **G/L Account List** window.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>To set up number series for prepayment documents  
 
@@ -79,6 +80,7 @@ In other words, the prepayment percentage on the customer card will only apply i
 ## <a name="see-also"></a>See Also  
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[Understanding the General Ledger and the COA](finance-general-ledger.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

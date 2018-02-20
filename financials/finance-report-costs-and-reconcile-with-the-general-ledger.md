@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c3a02aa2251b9b6b18576e9f274d018a617b179
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45afc7249e921b483d9fcb6860401528746f554a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Reporting Costs and Reconciling with the General Ledger
@@ -30,9 +30,9 @@ At the end of accounting periods, monthly, yearly or other, a sequence of cost c
 |View the inventory value of selected production orders in your WIP (work in process) inventory, such as the quantities and values of consumption, capacity usage, and output in ongoing production orders.|**Inventory Valuation - WIP** report|  
 |View the inventory value of selected items, including their actual and expected cost on the date specified.|**Invt. Valuation - Cost Spec.** report|  
 |Use a report to analyze the reasons for cost variances or to gain insight into the cost shares of sold items (COGS).|**Cost Shares Breakdown** report|  
-|Periodically post the value entries of item transactions from the inventory ledger to the related G/L accounts to reconcile the two ledgers.|[How to: Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Use one window to audit the reconciliation between the inventory ledger and the general ledger.|[How to: Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Determine the WIP amount that needs to be posted to balance sheet accounts for period-end reporting.|[How to: Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)|
+|Periodically post the value entries of item transactions from the inventory ledger to the related G/L accounts to reconcile the two ledgers.|[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Use one window to audit the reconciliation between the inventory ledger and the general ledger.|[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Determine the WIP amount that needs to be posted to balance sheet accounts for period-end reporting.|[Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>See Also  
 [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)  

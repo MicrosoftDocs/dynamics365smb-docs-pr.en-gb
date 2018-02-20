@@ -13,13 +13,13 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1385b97ef7d6a27a62cb347521b61f5853a0618c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 02e72507a2118cf279be156774079be70d5ede43
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-contacts-to-segments"></a>How to: Add Contacts to Segments
+# <a name="add-contacts-to-segments"></a>Add Contacts to Segments
 After you have created a segment and entered basic information about it, you may want to add contacts to the segment. You can do this by filling in the lines in the **Segment** window manually, but it is easier and faster to use the **Add Contacts** action.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>To add a contact to a segment
@@ -54,7 +54,7 @@ After you have selected the contacts within a segment, you may want to remove so
 You can reduce a segment as many times as you want. If you have refined the segment by mistake and want to go one step back, then choose the **Go Back** action.
 
 ## <a name="see-also"></a>See Also
-[How to: Create a Segment](marketing-how-create-segment.md)   
+[Create a Segment](marketing-how-create-segment.md)   
 [Managing Segments](marketing-segments.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

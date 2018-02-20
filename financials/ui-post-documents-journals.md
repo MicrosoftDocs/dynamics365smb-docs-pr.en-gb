@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 349ad16c943f7efef7ca920f7adad82c8a1c0d5e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9f389fb58252100eb1302d4b546bef58902f3208
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="post-documents-and-journals"></a>Post Documents and Journals
@@ -30,8 +30,8 @@ The following table describes related tasks, with links to the topics that descr
 | Learn about posting purchase documents. |[Posting Purchases](ui-post-purchases.md) |
 | Learn about posting sales documents. |[Posting Sales](ui-post-sales.md) |
 | Learn about posting general journals. |[Working with General Journals](ui-work-general-journals.md) |
-| Preview, in a window, the entries that will be created when you post. |[How to: Preview Posting Results](ui-how-preview-post-results.md) |
-| Preview, in a report, the entries that will be created when you post. |[How to: View Test Reports Before Posting](ui-how-view-test-reports-posting.md) |
+| Preview, in a window, the entries that will be created when you post. |[Preview Posting Results](ui-how-preview-post-results.md) |
+| Preview, in a report, the entries that will be created when you post. |[View Test Reports Before Posting](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>See Also
 [General Business Functionality](ui-across-business-areas.md)  

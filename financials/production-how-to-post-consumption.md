@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 29e85f5264f007db3712d4f6227d689b2a3de926
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67d80735f7ea217fa62317283246f098294323da
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-batch-post-production-consumption"></a>How to: Batch Post Production Consumption
+# <a name="batch-post-production-consumption"></a>Batch Post Production Consumption
 If the flushing method is **Manual**, you must post the components manually, using a consumption journal.
 
 You can also set the system up to automatically post (*flush*) components when you start or finish production orders. For more information, see [Enable Flushing of Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).
@@ -28,7 +28,7 @@ You can also set the system up to automatically post (*flush*) components when y
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Consumption Journal**, and then choose the related link.  
 2.  Fill in the fields with the production order data and the consumption data. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    If the warehouse location where the components are stored is set up to use bins but does not require pick processing, assign a bin code to the journal line to indicate where the items should be taken from in the warehouse. For more information, see [How to: Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).  
+    If the warehouse location where the components are stored is set up to use bins but does not require pick processing, assign a bin code to the journal line to indicate where the items should be taken from in the warehouse. For more information, see [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).  
 3.  Choose the **Post** action to post the consumption. The related item ledger entries are reduced.
 
 ## <a name="see-also"></a>See Also  

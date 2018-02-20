@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 222056cc8b505d0ed027492d764ff4cde7f68795
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 351c079df25516a83de42d5fa12954b25ba5e63e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-workflow-notifications"></a>Setting Up Workflow Notifications
@@ -30,19 +30,19 @@ Many workflow responses are about notifying a user that an event has occurred th
 
 You set up different aspects of workflow notifications in the following places:  
 
-1.  For approval workflows, you set up the recipients of workflow notifications by filling a line in the **Approval User Setup** window for each user that takes part in the workflow. For example, if User 2 is specified in the **Approver ID** field on the line for User 1, then the approval request notification is sent to User 1. For more information, see [How to: Set Up Approval Users](across-how-to-set-up-approval-users.md).  
-2.  You set when and how users receive workflow notifications by filling the **Notification Schedule** window for each workflow user. For more information, see [How to: Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md).  
+1.  For approval workflows, you set up the recipients of workflow notifications by filling a line in the **Approval User Setup** window for each user that takes part in the workflow. For example, if User 2 is specified in the **Approver ID** field on the line for User 1, then the approval request notification is sent to User 1. For more information, see [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
+2.  You set when and how users receive workflow notifications by filling the **Notification Schedule** window for each workflow user. For more information, see [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md).  
 3.  You set up the general content and layout of notifications, including notifications about overdue workflow responses, by setting up notification templates in the **Notification Templates** window. You can use the default templates provided with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-4.  You set up specific content and rules of a workflow notification when you create the workflow in question. You do this by selecting options in the **Workflow Response Options** window for the workflow response that represents the notification. For more information, see step 9 in [How to: Create Workflows](across-how-to-create-workflows.md).  
+4.  You set up specific content and rules of a workflow notification when you create the workflow in question. You do this by selecting options in the **Workflow Response Options** window for the workflow response that represents the notification. For more information, see step 9 in [Create Workflows](across-how-to-create-workflows.md).  
 
 ## <a name="see-also"></a>See Also  
- [How to: Set Up Approval Users](across-how-to-set-up-approval-users.md)   
- [How to: Set Up Workflow Users](across-how-to-set-up-workflow-users.md)   
- [How to: Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)   
- [How to: Create Workflows](across-how-to-create-workflows.md)   
- [How to: Manage Notification Templates](across-how-to-manage-notification-templates.md)   
+ [Set Up Approval Users](across-how-to-set-up-approval-users.md)   
+ [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)   
+ [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)   
+ [Create Workflows](across-how-to-create-workflows.md)   
+ [Manage Notification Templates](across-how-to-manage-notification-templates.md)   
  [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)   
- [How to: Set up Email](madeira-how-setup-email.md)   
+ [Set up Email](madeira-how-setup-email.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Workflow](across-workflow.md)   
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2126f980f550329cf7466c4461169c760218b33a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7f5810d59f3a1d2dc88814f92fdc3373c3870878
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-multiple-interest-rates"></a>How to: Set Up Multiple Interest Rates
+# <a name="set-up-multiple-interest-rates"></a>Set Up Multiple Interest Rates
 You can calculate finance charges with multiple interest rates for a specific period. The interest calculation is similar for all financial charges, with variation only in the rate of interest for a specific period.  
 
 For example, you can charge customers accordingly if they pay late.  
@@ -45,5 +45,5 @@ For example, you can charge customers accordingly if they pay late.
 
 ## <a name="see-also"></a>See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
-[How to: Collect Outstanding Balances](../../receivables-collect-outstanding-balances.md)   
+[Collect Outstanding Balances](../../receivables-collect-outstanding-balances.md)   
 

@@ -13,10 +13,10 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 2939c4bf99b0fec05fd3625af589f05710a05a3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 04416ae3b9433ccc3bf1295f006df0f4c72f27b5
 ms.contentlocale: en-gb
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-payables"></a>Managing Payables
@@ -32,13 +32,16 @@ The following table describes a sequence of tasks within accounts payable, with 
 | --- | --- |
 | Generate due vendor payments or employee reimbursements, prepare cheque payments, and export payments to a bank file when posting. |[Making Payments](payables-make-payments.md) |
 | Apply vendor payments automatically to unpaid purchase invoices by importing a bank statement file. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Apply vendor payments to unpaid purchase invoices manually. |[How to: Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md) |
-|Ensure correct inventory valuation by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing.|[How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
+| Apply vendor payments to unpaid purchase invoices manually. |[Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md) |
+|Ensure correct inventory valuation by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
 
 ## <a name="see-also"></a>See Also
 [Purchasing](purchasing-manage-purchasing.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
-[How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)  
+[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

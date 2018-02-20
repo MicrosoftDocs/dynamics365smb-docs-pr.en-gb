@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Business edition and Power BI Content Packs| Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Dynamics 365 data is easy with Power BI and the Dynamics 365 content packs.
+title: Finance and Operations, Business edition and Power BI Content Packs| Microsoft Docs
+description: Getting insight, business intelligence, and KPIs from your Finance and Operations, Business edition data is easy with Power BI and the Finance and Operations, Business edition content packs.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61d339e584107d48e22bd4c250085e9468271d7e
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Enabling Your Business Data for Power BI
@@ -24,9 +24,9 @@ Microsoft has published the following content packs:
 
 | App | Description |
 | --- | --- |
-| Microsoft Dynamics 365 for Financials | Provides a dashboard with key financial data over time, such as earnings versus expenses, operating margin, and cash cycle.|
-| Microsoft Dynamics 365 for Financials - CRM | Provides a dashboard with key data about sales opportunities and contacts.  |
-| Microsoft Dynamics 365 for Financials - Sales | Provides a dashboard with key data about sales and inventory. |
+| Microsoft Finance and Operations, Business edition | Provides a dashboard with key financial data over time, such as earnings versus expenses, operating margin, and cash cycle.|
+| Microsoft Finance and Operations, Business edition - CRM | Provides a dashboard with key data about sales opportunities and contacts.  |
+| Microsoft Finance and Operations, Business edition - Sales | Provides a dashboard with key data about sales and inventory. |
 
 ## <a name="using-the-dashboards"></a>Using the Dashboards
 Each content pack provides reports that you can drill into:
@@ -44,7 +44,7 @@ The content packs are preconfigured to work with data from the demonstration com
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Accessing [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
 To see your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Power BI, you must have the following:  
 
-* Access to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Access to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Finance and Operations, Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Access to Power BI. For more information, see [Power BI](https://powerbi.microsoft.com).
 
 On the Power BI site, you can find additional information about [connecting to services with content packs for Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  
@@ -120,9 +120,10 @@ If you see an "Oops" error dialogue after you pass the authentication dialogue, 
 [Business Intelligence](bi.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
-[Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a PowerApps Data Source](across-how-use-financials-data-source-powerapps.md)  
-[Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)   
+[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
+[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a PowerApps Data Source](across-how-use-financials-data-source-powerapps.md)  
+[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

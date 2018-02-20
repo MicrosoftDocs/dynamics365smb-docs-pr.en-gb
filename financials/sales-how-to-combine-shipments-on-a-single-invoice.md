@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e6be50119da5c617ce6dbf603903266f9ced821e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c9f2464014f2078f2a86f2e7d8a72873fa4015a8
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-combine-shipments-on-a-single-invoice"></a>How to: Combine Shipments on a Single Invoice
+# <a name="combine-shipments-on-a-single-invoice"></a>Combine Shipments on a Single Invoice
 If you want to invoice more than one shipment at a time, you can use the combined shipments feature.  
 
  Before you can create a combined shipment, more than one sales shipment for the same customer in the same currency must be posted. In other words, you must have filled in two or more sales orders and posted them as shipped, but not invoiced. To combine shipments, the **Combine Shipments** check box must be selected on the **Shipping** FastTab of the **Customer** card.  
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>To manually combine shipments on a single invoice  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.  
-2. Choose the **New** action. For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md).
+2. Choose the **New** action. For more information, see [Invoice Sales](sales-how-invoice-sales.md).
 3. In the **Sell-to Customer No.** field, enter the customer who will receive the invoice for the shipped items.  
 4. On the **Lines** FastTab, choose the **Get Shipment Lines** action.  
 5. Select the shipment line that you want to include in the invoice:  

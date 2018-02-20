@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 05/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2d7eb238395a0b1060668996fbbc3e13d9dd8a94
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67e76ea76267c001277be3203c28103c3acb3214
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-purchase-items-for-a-sale"></a>How to: Purchase Items for a Sale
+# <a name="purchase-items-for-a-sale"></a>Purchase Items for a Sale
 From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale. You can use two different functions depending on the document type.
 |Function|Description|
 |--------|-----------|
@@ -27,10 +27,7 @@ From sales orders and sales invoices, you can use functions to quickly create pu
 |**Create Purchase Invoice**|From a sales order and from a sales invoice, this function creates a purchase invoice for a selected vendor for all lines or selected lines on the sales document. The full sales quantity is suggested.|
 
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>To create one or more purchase orders from a sales order
-To create a purchase order for each unavailable item quantity on the sales order, you use the **Create Purchase Orders** function. 
-
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+To create a purchase order for each unavailable item quantity on the sales order, you use the **Create Purchase Orders** function.
 
 1. On the Home page, choose the **Ongoing Sales Orders** tile.
 2. Open a sales order that you want to purchase items for.
@@ -43,14 +40,14 @@ To create a purchase order for each unavailable item quantity on the sales order
 
     > [!NOTE]  
 >   You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.
-5. Choose the **OK** button. 
-    
+5. Choose the **OK** button.
+
     A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made in the **Create Purchase Orders** window.
-7. Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+7. Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
 
 ## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>To create a purchase invoice from a sales order or sales invoice
-To create a single purchase invoice for one or more lines on a sales document by first selecting which vendor to buy from, you use the **Create Purchase Invoice** function. 
+To create a single purchase invoice for one or more lines on a sales document by first selecting which vendor to buy from, you use the **Create Purchase Invoice** function.
 
 > [!NOTE]  
 >   This function creates a purchase invoice for the exact item quantity on the selected sales document. To change the purchase quantity, you must edit the purchase invoice after it is created.  
@@ -63,12 +60,12 @@ To create a single purchase invoice for one or more lines on a sales document by
 6. In the list of vendors that appears, select the vendor that you want to buy all the items from, and then choose the **OK** button.
 
     A purchase invoice is created that contains one, more, or all the lines on the sales invoice.
-7. Proceed to process the purchase invoice, for example, by editing or adding purchase invoice lines. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+7. Proceed to process the purchase invoice, for example, by editing or adding purchase invoice lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
 ## <a name="see-also"></a>See Also
 [Purchasing](purchasing-manage-purchasing.md)  
-[How to: Record Purchases](purchasing-how-record-purchases.md)  
-[How to: Invoice Sales](sales-how-invoice-sales.md)  
-[How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
+[Record Purchases](purchasing-how-record-purchases.md)  
+[Invoice Sales](sales-how-invoice-sales.md)  
+[Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

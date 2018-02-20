@@ -1,6 +1,6 @@
 ---
-title: Overview of Tasks to Set Up Dynamics 365 Business edition | Microsoft Docs
-description: Outlines tasks to set up, initialise, and configure Dynamics 365 Business edition to suit your needs.
+title: Overview of Tasks to Set Up Finance and Operations, Business edition | Microsoft Docs
+description: Outlines tasks to set up, initialise, and configure Finance and Operations, Business edition to suit your needs.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7acca4df366752355e5bf28ace6c82fbca196725
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 14d3c2639fcbc6c0a1ecf47fd89a2c0452e06fb9
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Setting Up [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most business processes, but you can change the configuration to suit the needs of company.
+# <a name="setting-up-included365finincludesd365finmdmd"></a>Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  includes standard configurations for most business processes, but you can change the configuration to suit the needs of company.
 
 For example, your chart of accounts is prefilled with a number of posting accounts ready for use. You can, of course, change the chart of accounts to suit your needs. For more information, see [Finance](finance.md).
 
@@ -38,10 +38,10 @@ Some functionality, either general or for specific business processes, can be se
 |Define the general rules and values for warehouse processes and the specific handling at each location.|[Setting Up Warehouse Management](warehouse-setup-warehouse.md)|
 |Prepare production BOMs and routings to define how end items are produced, and prepare machine or work centres to perform the required operations.|[Setting Up Manufacturing](production-configure-production-processes.md)|
 | Set up unique identification codes for records, such as cards, documents, and journal lines, to track them in the system. |[Creating Number Series](ui-create-number-series.md) |
-| Set up the **SMTP Mail Setup** window to send and receive emails from documents within [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[How to: Set up Email](madeira-how-setup-email.md) |
-| Set up unique identification codes. |[How to: Create Number Series](ui-create-number-series.md) |
+| Set up the **SMTP Mail Setup** window to send and receive emails from documents within [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Set up Email](madeira-how-setup-email.md) |
+| Set up unique identification codes. |[Create Number Series](ui-create-number-series.md) |
 
-Some areas require you to be an administrator in your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For more information, see [Setup and Administration in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md).  
+Some areas require you to be an administrator in your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For more information, see [Setup and Administration in [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  
@@ -58,5 +58,6 @@ Some areas require you to be an administrator in your [!INCLUDE[d365fin](include
 [Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

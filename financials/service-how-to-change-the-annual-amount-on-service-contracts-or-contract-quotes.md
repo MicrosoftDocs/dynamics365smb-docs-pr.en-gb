@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 541eed23db807d62c570834ab0efbef6fc4f4083
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: afeaeb66ee6ff9f45b642e56c9a06ec484fe9669
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>How to: Change the Annual Amount on Service Contracts or Contract Quotes
+# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Change the Annual Amount on Service Contracts or Contract Quotes
 You can change the annual amount of the service contract or contract quote to correct the amount that will be invoiced annually.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>To change the annual amount of the service contract or contract quote  
@@ -186,6 +186,6 @@ Finally, the contract lines will contain this data.
 |Item 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
 ## <a name="see-also"></a>See Also  
-[How to: Create Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Create Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Setting Up Service Management](service-setup-service.md)  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0a3b89e2d2a59aa3434e747976437f24860be408
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92ad393733c758304743ec0b63c98c1612e7240b
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Defining Cost Centres and Cost Objects for Chart of Accounts
@@ -43,7 +43,7 @@ For each general ledger account, you can define default dimension values in the 
 
 ## <a name="see-also"></a>See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
-[How to: Set Up Cost Centers](finance-how-to-set-up-cost-centers.md)   
-[How to: Set Up Cost Objects](finance-how-to-set-up-cost-objects.md)  
+[Set Up Cost Centres](finance-how-to-set-up-cost-centers.md)   
+[Set Up Cost Objects](finance-how-to-set-up-cost-objects.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

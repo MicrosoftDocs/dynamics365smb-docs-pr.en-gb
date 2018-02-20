@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9b3599a3f1a2cfc53d682a153eda8395e892305b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2176baf2947a08785fdf6327b2ebebf35686d04a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-combine-receipts-on-a-single-invoice"></a>How to: Combine Receipts on a Single Invoice
+# <a name="combine-receipts-on-a-single-invoice"></a>Combine Receipts on a Single Invoice
 If you want to invoice more than one purchase receipt at a time, you can use the **Combine Receipts** function.  
 
 Before you can create a combined purchase receipt, more than one receipt from the same vendor in the same currency must be posted. In other words, you must have filled in two or more purchase orders and posted them as received, but not invoiced.  
@@ -28,7 +28,7 @@ When purchase receipts are combined on an invoice and posted, then a posted purc
 
 ## <a name="to-combine-receipts"></a>To combine receipts  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.  
-2. Choose the **New** action. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).  
+2. Choose the **New** action. For more information, see [Record Purchases](purchasing-how-record-purchases.md).  
 3. On the **Lines** FastTab, choose the **Get Receipt Lines** action.  
 4. Select multiple receipt lines that you want to include in the invoice.  
 

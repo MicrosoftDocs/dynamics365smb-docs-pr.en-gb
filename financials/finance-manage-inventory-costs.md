@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8da779426dfd06519507796c995adcedcd40ac81
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e2443552440cae8a0d90753d9a56fdc82006a197
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Managing Inventory Costs
@@ -28,12 +28,12 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |**To**|**See**|  
 |------------|-------------|  
-|Read various conceptual information to understand the principles and definitions that govern the inventory costing accounting functionality in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].|[About Inventory Costing](finance-learn-about-costing.md)|  
+|Read various conceptual information to understand the principles and definitions that govern the inventory costing accounting functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[About Inventory Costing](finance-learn-about-costing.md)|  
 |Set up inventory periods, costing methods, and rounding methods.|[Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)|
-|Appreciate or depreciate the value of one or more items in inventory by posting their current, calculated value.|[How to: Revalue Inventory](inventory-how-revalue-inventory.md)|
-|Adjust item costs, either automatically or manually, to forward cost changes from inbound entries to their related outbound entries.|[How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)|
+|Appreciate or depreciate the value of one or more items in inventory by posting their current, calculated value.|[Revalue Inventory](inventory-how-revalue-inventory.md)|
+|Adjust item costs, either automatically or manually, to forward cost changes from inbound entries to their related outbound entries.|[Adjust Item Costs](inventory-how-adjust-item-costs.md)|
 |Use special costing functions for every-day item transactions in the item operations.|[Handling Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)|  
-|Periodically update the standard costs of components, in assembly or production BOMs, and roll the new costs up to the parent item.|[How to: Update Standard Costs](finance-how-to-update-standard-costs.md)|
+|Periodically update the standard costs of components, in assembly or production BOMs, and roll the new costs up to the parent item.|[Update Standard Costs](finance-how-to-update-standard-costs.md)|
 |Perform period-end control and reporting tasks, such calculate the value of inventory and post costs to the general ledger.|[Reporting Costs and Reconciling with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
 |Learn about all mechanisms in the costing system.|[Design Details: Inventory Costing](design-details-inventory-costing.md)|  
 

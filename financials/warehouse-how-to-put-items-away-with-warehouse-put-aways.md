@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 28ff0073c75136f31153327a70a8f7c0bb9176aa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ccc452db91f7c227e052f60d50f8cc0fdf46fd0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-warehouse-put-aways"></a>How to: Put Items Away with Warehouse Put-aways
+# <a name="put-items-away-with-warehouse-put-aways"></a>Put Items Away with Warehouse Put-aways
 When your location is set up to require warehouse put-away processing and warehouse receive processing, you use the warehouse put-away documents function to control the putting away of items.  
 
 When you post a warehouse receipt, the source documents, such as purchase, inbound transfer, or sales return orders, are updated, the quantity received is posted to the item ledger, and the lines about the items received are sent to the put-away function in the warehouse. If you have internal put-away and pick, the internal put-away can also create lines for put-away.  
 
-Depending on the warehouse setup, the lines are either made available to the put-away worksheet or used to generate put-away instructions immediately. For more information, see [How to: Plan Put-aways in Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md).  
+Depending on the warehouse setup, the lines are either made available to the put-away worksheet or used to generate put-away instructions immediately. For more information, see [Plan Put-aways in Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md).  
 
 In addition to the standard ways to create warehouse put-aways that are described in this topic, you can create the put-away from the related posted warehouse receipt. This is useful if you have deleted put-away lines, or if you use directed put-away and pick and have decided not to use the put-away worksheet, because you can create or recreate put-away instructions from the posted receipt lines.  
 
@@ -56,7 +56,7 @@ In addition to the standard ways to create warehouse put-aways that are describe
 
 At locations that are set up to use directed put-away and pick, the following settings are prerequisites for the procedure above:  
 
-- A put-away template is set up. For more information, see [How to: Set Up Put-away Templates](warehouse-how-to-set-up-put-away-templates.md).  
+- A put-away template is set up. For more information, see [Set Up Put-away Templates](warehouse-how-to-set-up-put-away-templates.md).  
 - The weight, cubage, and special storage requirements of the item or stockkeeping unit are defined. For more information, see Gross Weight.  
 - The capacity, bin type, and bin ranking of the bins. For more information, see Bin Ranking.  
 
