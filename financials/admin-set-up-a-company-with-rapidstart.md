@@ -1,0 +1,54 @@
+---
+title: Set Up a Company With RapidStart Services| Microsoft Docs
+description: You can set up a new company in Business Central with RapidStart services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks.
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 03/05/2018
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 64f9764bb438498de490c296a368b650409db746
+ms.contentlocale: en-gb
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="setting-up-a-company-with-rapidstart-services"></a><span data-ttu-id="847e3-103">Setting Up a Company With RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="847e3-103">Setting Up a Company With RapidStart Services</span></span>
+<span data-ttu-id="847e3-104">You can set up a new company in [!INCLUDE[d365fin](includes/d365fin_md.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks.</span><span class="sxs-lookup"><span data-stu-id="847e3-104">You can set up a new company in [!INCLUDE[d365fin](includes/d365fin_md.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks.</span></span>  
+
+<span data-ttu-id="847e3-105">RapidStart Services helps you gain an overview of the setup process of your new company by providing a worksheet in which you can set up the tables often involved in the configuration process of new companies.</span><span class="sxs-lookup"><span data-stu-id="847e3-105">RapidStart Services helps you gain an overview of the setup process of your new company by providing a worksheet in which you can set up the tables often involved in the configuration process of new companies.</span></span> <span data-ttu-id="847e3-106">As you do this, you can create a questionnaire to guide your customers through the collection of setup information.</span><span class="sxs-lookup"><span data-stu-id="847e3-106">As you do this, you can create a questionnaire to guide your customers through the collection of setup information.</span></span> <span data-ttu-id="847e3-107">Your customers have the option of using the questionnaire to set up application areas, or they can open the setup page directly and do the setup there.</span><span class="sxs-lookup"><span data-stu-id="847e3-107">Your customers have the option of using the questionnaire to set up application areas, or they can open the setup page directly and do the setup there.</span></span> <span data-ttu-id="847e3-108">Most importantly, RapidStart Services helps you, as a customer, prepare the company with default setup data that you can fine-tune and customise.</span><span class="sxs-lookup"><span data-stu-id="847e3-108">Most importantly, RapidStart Services helps you, as a customer, prepare the company with default setup data that you can fine-tune and customize.</span></span> <span data-ttu-id="847e3-109">Lastly, when you use RapidStart Services, you can configure and migrate existing customer data, such as a list of customers or items, into the new company.</span><span class="sxs-lookup"><span data-stu-id="847e3-109">Lastly, when you use RapidStart Services, you can configure and migrate existing customer data, such as a list of customers or items, into the new company.</span></span>
+
+<span data-ttu-id="847e3-110">You can use the following components to speed up your company setup:</span><span class="sxs-lookup"><span data-stu-id="847e3-110">You can use the following components to speed up your company setup:</span></span>  
+
+-   <span data-ttu-id="847e3-111">Configuration wizard</span><span class="sxs-lookup"><span data-stu-id="847e3-111">Configuration wizard</span></span>  
+-   <span data-ttu-id="847e3-112">Configuration worksheet</span><span class="sxs-lookup"><span data-stu-id="847e3-112">Configuration worksheet</span></span>  
+-   <span data-ttu-id="847e3-113">Configuration packages</span><span class="sxs-lookup"><span data-stu-id="847e3-113">Configuration packages</span></span>  
+-   <span data-ttu-id="847e3-114">Configuration templates</span><span class="sxs-lookup"><span data-stu-id="847e3-114">Configuration templates</span></span>  
+-   <span data-ttu-id="847e3-115">Configuration questionnaire</span><span class="sxs-lookup"><span data-stu-id="847e3-115">Configuration questionnaire</span></span>  
+
+> [!Note]  
+>  <span data-ttu-id="847e3-116">There are areas of [!INCLUDE[d365fin](includes/d365fin_md.md)] that you must set up manually.</span><span class="sxs-lookup"><span data-stu-id="847e3-116">There are areas of [!INCLUDE[d365fin](includes/d365fin_md.md)] that you must set up manually.</span></span> <span data-ttu-id="847e3-117">These include adding users, setting up accounting periods, and setting up dimensions for business intelligence.</span><span class="sxs-lookup"><span data-stu-id="847e3-117">These include adding users, setting up accounting periods, and setting up dimensions for business intelligence.</span></span> <span data-ttu-id="847e3-118">For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).</span><span class="sxs-lookup"><span data-stu-id="847e3-118">For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).</span></span>
+
+ <span data-ttu-id="847e3-119">The following table describes a sequence of tasks with links to topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="847e3-119">The following table describes a sequence of tasks with links to topics that describe them.</span></span>
+
+|<span data-ttu-id="847e3-120">**To**</span><span class="sxs-lookup"><span data-stu-id="847e3-120">**To**</span></span>|<span data-ttu-id="847e3-121">**See**</span><span class="sxs-lookup"><span data-stu-id="847e3-121">**See**</span></span>|  
+|------------|-------------|  
+|<span data-ttu-id="847e3-122">Set up the main user interface of RapidStart Services.</span><span class="sxs-lookup"><span data-stu-id="847e3-122">Set up the main user interface of RapidStart Services.</span></span>|[<span data-ttu-id="847e3-123">Use the RapidStart Services Implementer Role Centre</span><span class="sxs-lookup"><span data-stu-id="847e3-123">Use the RapidStart Services Implementer Role Center</span></span>](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
+|<span data-ttu-id="847e3-124">Create a new company and import basic setup data and templates.</span><span class="sxs-lookup"><span data-stu-id="847e3-124">Create a new company and import basic setup data and templates.</span></span>|[<span data-ttu-id="847e3-125">Set Up Company Configuration</span><span class="sxs-lookup"><span data-stu-id="847e3-125">Set Up Company Configuration</span></span>](admin-set-up-company-configuration.md)|  
+|<span data-ttu-id="847e3-126">Deploy the configured package to your customer for implementation.</span><span class="sxs-lookup"><span data-stu-id="847e3-126">Deploy the configured package to your customer for implementation.</span></span>|[<span data-ttu-id="847e3-127">Apply Configurations to New Companies</span><span class="sxs-lookup"><span data-stu-id="847e3-127">Apply Configurations to New Companies</span></span>](admin-apply-configuration-to-new-companies.md)|
+|<span data-ttu-id="847e3-128">Define and validate your customer’s setup values for all core areas, such as company information, general ledger, inventory, sales, or manufacturing.</span><span class="sxs-lookup"><span data-stu-id="847e3-128">Define and validate your customer’s setup values for all core areas, such as company information, general ledger, inventory, sales, or manufacturing.</span></span>|[<span data-ttu-id="847e3-129">Gather Customer Setup Values</span><span class="sxs-lookup"><span data-stu-id="847e3-129">Gather Customer Setup Values</span></span>](admin-gather-customer-setup-values.md)|  
+|<span data-ttu-id="847e3-130">Configure core master data records using templates to prepare to migrate existing customer data.</span><span class="sxs-lookup"><span data-stu-id="847e3-130">Configure core master data records using templates to prepare to migrate existing customer data.</span></span>|[<span data-ttu-id="847e3-131">Prepare to Migrate Customer Data</span><span class="sxs-lookup"><span data-stu-id="847e3-131">Prepare to Migrate Customer Data</span></span>](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
+|<span data-ttu-id="847e3-132">Define tables and fields, validate existing customer data, and migrate data into the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.</span><span class="sxs-lookup"><span data-stu-id="847e3-132">Define tables and fields, validate existing customer data, and migrate data into the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.</span></span>|[<span data-ttu-id="847e3-133">Migrate Customer Data</span><span class="sxs-lookup"><span data-stu-id="847e3-133">Migrate Customer Data</span></span>](admin-migrate-customer-data.md)|  
+|<span data-ttu-id="847e3-134">Find solutions to known issues in the RapidStart Services toolkit.</span><span class="sxs-lookup"><span data-stu-id="847e3-134">Find solutions to known issues in the RapidStart Services toolkit.</span></span>|[<span data-ttu-id="847e3-135">Tips and Tricks: RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="847e3-135">Tips and Tricks: RapidStart Services</span></span>](admin-tips-and-tricks-rapidstart-services.md)|  
+
+## <a name="see-also"></a><span data-ttu-id="847e3-136">See Also</span><span class="sxs-lookup"><span data-stu-id="847e3-136">See Also</span></span>  
+[<span data-ttu-id="847e3-137">Administration</span><span class="sxs-lookup"><span data-stu-id="847e3-137">Administration</span></span>](admin-setup-and-administration.md)  
+<span data-ttu-id="847e3-138">[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)</span><span class="sxs-lookup"><span data-stu-id="847e3-138">[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)</span></span>  
+[<span data-ttu-id="847e3-139">Set Up Complex Application Areas Using Best Practices</span><span class="sxs-lookup"><span data-stu-id="847e3-139">Set Up Complex Application Areas Using Best Practices</span></span>](set-up-complex-application-areas-using-best-practices.md)   
+
