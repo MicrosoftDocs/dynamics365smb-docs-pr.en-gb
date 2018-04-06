@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/28/2017
+ms.date: 02/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 655c2248d10b357fd6ac5f3dba5cf71d7fd2c77b
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="finance"></a>Finance
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
 
 The default configuration includes a chart of accounts and standard posting groups that make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.  
 
@@ -33,6 +33,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Make your customers submit payment before you ship to them, or submit payment to your vendors before they ship to you.|[Invoicing Prepayments](finance-invoice-prepayments.md)|
 | Reconcile bank accounts and transfer funds between bank accounts. |[Managing Bank Accounts](bank-manage-bank-accounts.md) |
 |Set up intercompany partners and process transactions, manually or automatically, between legal entities within the same company.|[Managing Intercompany Transactions](intercompany-manage.md)|
+|Combines general ledger entries from multiple companies in one virtual "consolidated company" for financial analysis.|[Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)|
 |Analyse the costs of running your business by allocating actual and budgeted costs of operations, departments, products, and projects to cost centres.|[Accounting for Costs](finance-manage-cost-accounting.md)|
 |Manage inventory and manufacturing costs, report costs, and reconcile costs with the general ledger.|[Managing Inventory Costs](finance-manage-inventory-costs.md)|
 | Understand the general ledger and the chart of accounts. |[Understanding the General Ledger and the COA](finance-general-ledger.md) |

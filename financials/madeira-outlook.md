@@ -14,11 +14,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3e22e907667127508634ce56b9d40e4b9cad01f5
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Using Finance and Operations, Business edition as your Business Inbox in Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  introduces the ability to manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook add-ins, you can see financial data related to customers and vendors, as well as create and send financial documents, such as quotes and invoices.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] introduces the ability to manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook add-ins, you can see financial data related to customers and vendors, as well as create and send financial documents, such as quotes and invoices.  
 
 ## <a name="getting-the-add-in"></a>Getting the Add-in
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], one of the steps in the Getting Started assisted setup is the **Run your business within Office 365** window. In that window, when you choose the **Set up in Outlook** button, you must specify your Office 365 user name and password. The [!INCLUDE[d365fin](includes/d365fin_md.md)] add-ins are then automatically added to your Outlook.  

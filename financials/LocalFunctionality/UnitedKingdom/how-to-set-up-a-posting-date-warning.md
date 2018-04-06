@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 663e269d8dc81cd6a0b947b6309a750545379ecf
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-a-posting-date-warning"></a>Set Up a Posting Date Warning

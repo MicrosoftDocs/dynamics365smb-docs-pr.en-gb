@@ -11,10 +11,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 09/07/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d254d8caf15e4409326d321b3276f075d7e26f5c
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 0f6e0acc81a477ebc962778369014659d0d863bf
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="why-a-page-is-locked-from-personalizing"></a>Why a Page is Locked From Personalising
@@ -24,13 +24,13 @@ If there is a lock icon in the **Personalising** bar when you open a page (as sh
 
 This is because we changed the way personalisation works behind the scenes since the last time that you personalised the page. Unfortunately, the old way and new of doing things do not work together.
 
-The page currently includes the last personalisation changes that you made. If you want to continue personalising the page, then you can choose the lock icon and then **Unlock**. Just be aware that if you choose to unlock the page, the current personalisation of the page will be cleared, and you will have to start from scratch. 
+The page currently includes the last personalisation changes that you made. If you want to continue personalising the page, then you can choose the lock icon and then **Unlock**. Just be aware that if you choose to unlock the page, the current personalisation of the page will be cleared, and you will have to start from scratch.
 
 
 ## <a name="see-also"></a>See Also
 [Personalising Your Workspace](ui-personalization-manage.md)  
 [Managing Personalisation](ui-personalization-manage.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Change the Role Centre](change-role.md)  
+[Changing Basic Settings](ui-change-basic-settings.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
 

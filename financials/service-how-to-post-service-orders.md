@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Post Service Orders and Credit Memos
@@ -99,7 +99,7 @@ The following procedure shows how to post shipment of service line items in loca
   
 4. Choose **Actions**, **Posting**, **Post**. In the window that appears, choose **Ship**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  creates ledger entries (in the warranty ledger, item ledger, service ledger, or G/L), produces the posted service shipment document, and updates the relevant fields on the service lines of the service order.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] creates ledger entries (in the warranty ledger, item ledger, service ledger, or G/L), produces the posted service shipment document, and updates the relevant fields on the service lines of the service order.  
   
 If the location is set up to require warehouse handling, then the shipping and moving of service line items function in the same ways as for other source documents. The only difference is that service line items can be consumed either externally or internally and therefore require two different release functions.  
   

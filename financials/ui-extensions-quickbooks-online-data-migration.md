@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 8ed245276a6bebd369a3ec32791a9939e8db5aa1
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -44,7 +44,7 @@ An important part of the migration process is to specify the accounts to migrate
 * The purchase of items or services from vendors.  
 * Adjustments in the general ledger.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  requires that general ledger accounts have account numbers assigned to them. Make sure that account numbers are assigned to your accounts in QuickBooks Online.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] requires that general ledger accounts have account numbers assigned to them. Make sure that account numbers are assigned to your accounts in QuickBooks Online.
 
 If transactions in QuickBooks Online have tax amounts, you must set up a tax account for your tax jurisdictions in [!INCLUDE[d365fin](includes/d365fin_md.md)] before you can post transactions.
 

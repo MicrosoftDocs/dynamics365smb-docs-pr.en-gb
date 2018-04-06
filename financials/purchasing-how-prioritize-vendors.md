@@ -16,11 +16,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d44e06f4dd33332e8d96e712e93ed05c7f0a920b
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="prioritize-vendors"></a>Prioritise Vendors
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  can suggest various payments to vendors, for example, payments that will be due soon or payments where a discount is available. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] can suggest various payments to vendors, for example, payments that will be due soon or payments where a discount is available. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
 
 First, you must prioritise your vendors by assigning numbers to them.
 
@@ -29,7 +29,7 @@ First, you must prioritise your vendors by assigning numbers to them.
 2. Select the relevant vendor, and then choose **Edit**.
 3. In the **Priority** field, enter a number.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  considers the lowest number, except 0, to have the highest priority. So, for example, if you use 1, 2, and 3, then 1 will have the highest priority.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] considers the lowest number, except 0, to have the highest priority. So, for example, if you use 1, 2, and 3, then 1 will have the highest priority.
 
 If you do not want to prioritise a vendor, leave the **Priority** field blank. Then, if you use the payment suggestion feature, the vendor will be listed after all the vendors that have a priority number. You can enter as many priority levels as necessary.
 

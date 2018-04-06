@@ -13,17 +13,17 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 02e72507a2118cf279be156774079be70d5ede43
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 159359a6d7cb051bd3cda0e750ba52f8d2a06e18
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="add-contacts-to-segments"></a>Add Contacts to Segments
 After you have created a segment and entered basic information about it, you may want to add contacts to the segment. You can do this by filling in the lines in the **Segment** window manually, but it is easier and faster to use the **Add Contacts** action.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>To add a contact to a segment
-1. On the Home page, choose **Active Segments**. Or, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Segments**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Segments**, and then choose the related link.  
 2. Select the segment, and then choose the **Add Contacts** action. The **Add Contacts** batch job window opens.
 3. In the **Contact** section, set filters to specify the information by which you want to select contacts.
 

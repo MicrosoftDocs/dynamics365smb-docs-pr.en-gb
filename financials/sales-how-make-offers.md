@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 552fbf283a9149c430ea1ed94bcea4bd22e43fea
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 66a78ebc362d0e01c0e6df4bd4a2d74568845159
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="make-offers"></a>Make Offers
@@ -26,7 +26,7 @@ While you negotiate with the customer, you can change and resend the sales quote
 You can fill customer fields on the sales quote in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 
 ## <a name="to-create-a-sales-quote"></a>To create a sales quote
-On the Home page,  choose the **Sales Quote** action.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Quotes**, and then choose the related link.
 2. In the **Customer** field, enter the name of an existing customer.
 
    Other fields in the **Sales Quote** window contain standard information of the selected customer. If the customer is not registered, follow these steps:

@@ -13,17 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4e76980237c79919b0e90ae75115c1571a6cdb85
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 83aabad9c08bd232c05016be008a45b1f8dce0b6
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-segments"></a>Create Segments
 You can create segments to select a group of contacts, for example, if you want to create an interaction involving several contacts, such as direct mail.
 
 ## <a name="to-create-a-segment"></a>To create a segment
-1. On the Home page, choose **Active Segments**. Or, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Segments**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Segments**, and then choose the related link.
 2. Choose the **New** action.
 3. In the **General** section, in the **No.** field, enter a number for the segment.
 

@@ -14,11 +14,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9f99b1fce3c44fdf2053a74b8fa090c6b69aef1a
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Field Mapping When Importing SEPA CAMT Files
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  supports the regional SEPA standards (Single Euro Payments Area) for importing SEPA bank statements (CAMT format). For more information, see [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] supports the regional SEPA standards (Single Euro Payments Area) for importing SEPA bank statements (CAMT format). For more information, see [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md).  
 
  The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition (represented by the **SEPA CAMT** code in the **Posting Exchange Definitions** window) to adapt it to a local variation of the standard. The following tables show the element-to-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

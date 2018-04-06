@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: bfb0a5b68768c3fe5e0fcf2874752b55bd96708e
+ms.sourcegitcommit: e6e662ee13db1f9002e1c3e74a0d15e2aa2e2a98
+ms.openlocfilehash: a130d946a7efa1d49584d4756fe6cd622c409827
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Record Special Sales Prices and Discounts
@@ -32,6 +32,9 @@ Concerning discounts, you can set up and use two types of sales discounts:
 | **Invoice Discount** |A percentage discount that is subtracted from the document total if the value amount of all lines on a sales document exceeds a certain minimum. |
 
 Because sales prices and sales line discounts are based on a combination of item and customer, you can also perform this configuration from the item card of the item where the rules and values apply.
+
+> [!NOTE]  
+> If you do not want an item to ever be sold at a discounted price, simply leave discount fields on the item card empty, and do not include the item in any line discount setup.
 
 ## <a name="to-set-up-a-sales-price-for-a-customer"></a>To set up a sales price for a customer
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.
@@ -54,7 +57,7 @@ When you have decided which customers are eligible for invoice discounts, enter 
 2. Open the customer card for a customer that will be eligible for invoice discounts.
 3. In the **Invoice Disc. Code** field, select a code for the relevant invoice discount terms to use to calculate invoice discounts for the customer.
 
-    > [!NOTE]  
+> [!NOTE]  
 >   Invoice discount codes are represented by existing customer cards. This enables you to quickly assign invoice discount terms to customers by picking the name of another customer who will have the same terms.
 
     Proceed to set up new the sales invoice discount terms.
@@ -95,14 +98,14 @@ The best price is the lowest permissible price with the highest permissible line
 > [!NOTE]  
 >   The following describes how the best price is calculated for sales. The calculation is the same for purchases.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)]  checks the combination of the bill-to customer and the item and then calculates the applicable unit price and line discount percentage, using the following criteria:
+1. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks the combination of the bill-to customer and the item and then calculates the applicable unit price and line discount percentage, using the following criteria:
 
     - Does the customer have a price/discount agreement, or does the customer belong to a group that does?
     - Is the item or the item discount group on the line included in any of these price/discount agreements?
     - Is the order date (or the posting date for the invoice and credit memo) within the starting and ending date of the price/discount agreement?
     - Is a unit of measure code specified? If so, [!INCLUDE[d365fin](includes/d365fin_md.md)] checks for prices/discounts with the same unit of measure code, and prices/discounts with no unit of measure code.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)]  checks if any price/discount agreements apply to information on the document or journal line, and then inserts the applicable unit price and line discount percentage, using the following criteria:
+2. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks if any price/discount agreements apply to information on the document or journal line, and then inserts the applicable unit price and line discount percentage, using the following criteria:
 
     - Is there a minimum quantity requirement in the price/discount agreement that is fulfilled?
     - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if local currency would provide a better price. If there is no price/discount agreement for the specified currency code, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserts the lowest price and the highest line discount in your local currency.

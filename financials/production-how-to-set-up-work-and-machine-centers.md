@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Set Up Work Centres and Machine Centres
@@ -83,7 +83,7 @@ If capacities of work centres are to make no contribution to the total capacity,
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>To set up a capacity constrained machine or work centre
 You must set up production resources that you regard as critical and mark them to accept a finite load instead of the default infinite load that other production resources accept. A capacity-constrained resource can be a work centre or machine centre that you have identified as a bottleneck and would like to establish a limited, finite load for.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  does not support detailed shop floor control. It plans for a feasible utilisation of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimisation rules.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] does not support detailed shop floor control. It plans for a feasible utilisation of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimisation rules.
 
 In the **Capacity-Constrained Resources** window, you can make setup that avoids overload of specific resources and ensure that no capacity is left unallocated if it could increase the turn-around time of a production order. In the **Dampener (% of Total Capacity)** field, you can add dampener time to resources to minimise operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.
 

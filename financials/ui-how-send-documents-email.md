@@ -12,16 +12,16 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: dc22f7e06cf0686238cf1b6ab43951f3943e38a3
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: a31558764cf8c2bccde7598119216096803eb1ca
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="send-documents-by-email"></a>Send Documents by Email
 To communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers, you can use the Report Layout feature to define document-specific content that gets inserted in email bodies automatically. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
 
-To enable emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], start the **Set Up Email** assisted setup on the Home page.
+To enable emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], start the **Set Up Email** assisted setup on the Role Centre.
 
 You can email practically all document types as attachments to email messages directly from the window that shows the document. In addition to the attachment, you can set up document-specific email bodies with core information from the document preceded by standard text that greets the mail recipient and introduces the document in question. To offer your customers to pay for sales electronically using a payment service, such as PayPal, you can also have the PayPal information and hyperlink inserted in the email body.
 

@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 1f6b31663aad5c777d16b82742bf11c7dce05264
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setting Up Cash Flow Analysis
@@ -67,13 +67,15 @@ To use the assisted setup guide:
 
 1. In the Accountant Role Center, under the **Cash Flow Forecast** chart, choose the **Open Assisted Setup** action.  
 2. Fill in the fields in each step of the guide.  
-3. On the Home page, choose **Cash Flow Forecast** above the chart, and then **Recalculate Forecast**.  
+3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Flow Forecast**, and then choose the related link.
+4. In the **Cash Flow Forecast** window, choose the **Recalculate Forecast** action.  
 
 To use a manual process:  
 
 1. In the Accountant Role Center, search for **Cash Flow Setup**, and then choose the related link.  
 2. Expand the **Cortana Intelligence** FastTab, and then choose the **Cortana Intelligence Enabled** check box.  
-3. On the Home page, choose **Cash Flow Forecast** above the chart, and then **Recalculate Forecast**.  
+3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Flow Forecast**, and then choose the related link.
+4. In the **Cash Flow Forecast** window, choose the **Recalculate Forecast** action.  
 
 > [!TIP]  
 >   Consider the length of the periods that the service will use in its calculations. The more data you provide, the more accurate the predictions will be. Also, watch out for large variances in periods. They will also impact predictions. If Cortana Intelligence does not find enough data, or the data varies a lot, the service will not make a prediction.  

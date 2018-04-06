@@ -11,16 +11,18 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a9e622dbf9b9edf5e74386dd5c651d7b585d3b46
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Accessibility and Keyboard Shortcuts in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 This topic provides information about the features that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the following accessibility features:  
 
--   Keyboard shortcuts  
+-   Keyboard shortcuts
+
+    For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md)
 
 -   Navigation  
 
@@ -30,8 +32,9 @@ This topic provides information about the features that make [!INCLUDE[d365fin](
 
 -   Support for common assistive technologies  
 
+<!-- moved to separate article
 ##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
 |To do this|Press|  
 |----------------|-----------|  
@@ -42,6 +45,8 @@ This topic provides information about the features that make [!INCLUDE[d365fin](
 |To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
 |To move focus to the next element outside the list.|Ctrl + Enter|  
 |To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+
+-->
 
 ##  <a name="Navigation"></a> Navigation  
  You can navigate between the tabs and actions in the ribbon, elements in the navigation pane, and other controls on [!INCLUDE[d365fin](includes/d365fin_md.md)] pages and reports using the keyboard. To move the focus from one tab, action, or control to another, press the Tab key to move forward. Press Shift+Tab to move backward.  
@@ -55,7 +60,7 @@ This topic provides information about the features that make [!INCLUDE[d365fin](
  A descriptive text for images is set with the ALT attribute inside the IMG tag. A descriptive text for hyperlinks is set with the title attribute inside the A tag.  
 
 ##  <a name="AssistiveTech"></a> Assistive Technologies  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  supports various assistive technologies, such as high contrast, screen readers, and voice recognition software. Some assistive technologies may not work well with certain elements in [!INCLUDE[d365fin](includes/d365fin_md.md)] pages.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] supports various assistive technologies, such as high contrast, screen readers, and voice recognition software. Some assistive technologies may not work well with certain elements in [!INCLUDE[d365fin](includes/d365fin_md.md)] pages.  
 
 ## <a name="for-more-accessibility-information"></a>For more accessibility information  
 You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=262160) site.

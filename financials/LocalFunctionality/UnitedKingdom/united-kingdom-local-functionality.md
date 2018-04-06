@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/17/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 1e06bcc5016d87eca85723e756d2b2f795b549c3
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 50a2fd4b4410062718fc896a4c5d9aad06fa293d
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="united-kingdom-local-functionality"></a>United Kingdom Local Functionality
@@ -35,6 +35,7 @@ The following topics describe local functionality that is unique to the United K
 [Print VAT Audit Reports](how-to-print-vat-audit-reports.md)  
 [Print VAT Reports](how-to-print-vat-reports.md)  
 [Set Up Reverse Charges on VAT](how-to-set-up-reverse-charges-on-vat.md)  
+[The GetAddress.io UK Postcodes Extension](../../ui-extensions-getaddressio.md)
 
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

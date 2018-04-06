@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Walkthrough: Making Cash Flow Forecasts by Using Account Schedules
@@ -34,7 +34,7 @@ This walkthrough describes the following tasks:
 ### <a name="prerequisites"></a>Prerequisites  
 To complete this walkthrough, you will need:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)]  installed.  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)] installed.  
 - The cash flow worksheet lines are registered.  
 
 ## <a name="roles"></a>Roles  

@@ -12,13 +12,13 @@ ms.search.keywords: dates, reporting, filter
 ms.date: 05/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: da2fea4e095c8211f30aaa7c570a84a005e7cbc8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 0494a04e67803049df71cfefe779c831c9f31674
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="entering-date-ranges-in-finance-and-operations-business-edition"></a>Entering Date Ranges in Finance and Operations, Business edition 
+# <a name="entering-date-ranges"></a>Entering Date Ranges 
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
 ![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="insure-fixed-assets"></a>Insure Fixed Assets
@@ -70,7 +70,7 @@ You can use the **Index Insurance** batch job to update the value of the fixed a
 5. Open the relevant insurance journal, review the created values, and then post them to the insurance coverage ledger.  
 
 ## <a name="to-monitor-insurance-coverage"></a>To monitor insurance coverage
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  provides dedicated reports and statistics windows for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides dedicated reports and statistics windows for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.  
 
 ### <a name="overview-of-insurance-policies"></a>Overview of Insurance Policies
 To get an overview of your insurance policies, preview or print the **Insurance - List** report. The report shows all the policies and the most important fields from the insurance cards.  

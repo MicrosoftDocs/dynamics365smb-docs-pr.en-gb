@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3a716a33280d765911ac743b6a00cdeee24f45ab
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="print-direct-sales-and-purchase-details-reports"></a>Print Direct Sales and Purchase Details Reports

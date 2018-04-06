@@ -12,17 +12,17 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 0602/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 81587638e5a92b48bb1bef406423c23e061f2241
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 29304bbbac28926247dfd6a6304647770dcd8114
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-finance-and-operations-business-edition-without-outlook"></a>Using Finance and Operations, Business edition without Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] has deep integration with Office 365, and you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in Outlook. But if you do not have Outlook, you can work with [!INCLUDE[d365fin](includes/d365fin_md.md)] in the browser or on your mobile device.  
 
 ## <a name="sending-email"></a>Sending Email
-You can send documents such as invoices as email using your business email address. From your Home page, you can access an assisted setup guide that helps you set up email. If you do not use an Office 365 email account, you must specify technical information about your mail server. If you do not have this information available, please contact your IT support staff.  
+You can send documents such as invoices as email using your business email address. From your Role Centre, you can access an assisted setup guide that helps you set up email. If you do not use an Office 365 email account, you must specify technical information about your mail server. If you do not have this information available, please contact your IT support staff.  
 
 
 ## <a name="see-also"></a>See Also

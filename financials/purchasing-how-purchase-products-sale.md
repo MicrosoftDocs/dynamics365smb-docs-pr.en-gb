@@ -13,10 +13,10 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 67e76ea76267c001277be3203c28103c3acb3214
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: bb89654d7bc48ad9746265b15cf0b6270fec2f7c
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Purchase Items for a Sale
@@ -29,7 +29,7 @@ From sales orders and sales invoices, you can use functions to quickly create pu
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>To create one or more purchase orders from a sales order
 To create a purchase order for each unavailable item quantity on the sales order, you use the **Create Purchase Orders** function.
 
-1. On the Home page, choose the **Ongoing Sales Orders** tile.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.
 2. Open a sales order that you want to purchase items for.
 3. Choose the **Create Purchase Orders** action.
 
@@ -52,7 +52,7 @@ To create a single purchase invoice for one or more lines on a sales document by
 > [!NOTE]  
 >   This function creates a purchase invoice for the exact item quantity on the selected sales document. To change the purchase quantity, you must edit the purchase invoice after it is created.  
 
-1. On the Home page, choose the **Ongoing Sales Invoices** tile.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.
 2. Open a sales invoice that you want to purchase items for.
 3. Select one or more sales invoice lines that you want to use on the purchase invoice. To use all the sales invoice lines, select either all of them or do not select any lines.
 4. Choose the **Create Purchase Invoice** action.

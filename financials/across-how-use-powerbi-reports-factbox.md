@@ -16,11 +16,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9b4190ca0ffbc0a922c6679fcf98367a72980eea
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-finance-and-operations-business-edition"></a>Viewing List Data in Power BI Reports in Finance and Operations, Business edition 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  includes a FactBox control element on a number of key list pages that provides additional insight into the data in the list. As you move between rows in the list, the report is updated and filtered for the selected entry. You can create custom reports to display in this control, but there are a few rules to follow when creating the reports to ensure they provide the desired behaviour.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a FactBox control element on a number of key list pages that provides additional insight into the data in the list. As you move between rows in the list, the report is updated and filtered for the selected entry. You can create custom reports to display in this control, but there are a few rules to follow when creating the reports to ensure they provide the desired behaviour.  
 
 > [!NOTE]  
 >   You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).  

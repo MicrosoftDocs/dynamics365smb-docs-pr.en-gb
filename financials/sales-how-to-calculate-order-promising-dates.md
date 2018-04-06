@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Calculate Order Promising Dates
@@ -39,7 +39,7 @@ If you do not specify a requested delivery date on a sales order line, or if the
 ## <a name="about-order-promising"></a>About Order Promising
 The Order Promising functionality enables you to promise an order to be shipped or delivered on a specific date. The date that an item is available to promise or capable to promise is calculated, and order lines are created for those dates that you accept. The functionality calculates the earliest possible date that an item is available for shipment or delivery. It also creates requisition lines, in case the items must first be purchases, for those dates that you accept.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  uses two fundamental concepts:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] uses two fundamental concepts:  
 
 - Available to Promise (ATP)  
 - Capable to Promise (CTP)  
@@ -64,7 +64,7 @@ If the customer does not request a specific delivery date, the shipment date is 
 - Shipment Date + Outbound Warehouse + Planned Shipment + Handling Time = Date  
 - Planned Shipment Date + Shipping Time = Planned Delivery Date  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  then verifies if the calculated delivery date is realistic by calculating backward in time to determine when the item must be available to meet the promised date. This is accomplished by the following formulas:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] then verifies if the calculated delivery date is realistic by calculating backward in time to determine when the item must be available to meet the promised date. This is accomplished by the following formulas:  
 
 - Planned Delivery Date - Shipping Time = Planned Shipment Date  
 - Planned Shipment Date - Outbound Warehouse Handling = Shipment Date  

@@ -1,8 +1,6 @@
 ---
 title: Design Details - Item Application | Microsoft Docs
 description: This topic describes where inventory quantity and value are recorded when you post an inventory transaction.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/01/2017
+ms.date: 11/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a70d1c31d867f3e005f51af0fc1b6352cb23ce91
 ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-item-application"></a>Design Details: Item Application
@@ -242,11 +240,12 @@ Because of the way an item’s unit cost is calculated, an incorrect item applic
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a feature for analyzing and correcting item applications. This work is performed in the **Application Worksheet** window.  
 
 ## <a name="see-also"></a>See Also  
-[Design Details: Inventory Costing](design-details-inventory-costing.md)   
-[Design Details: Costing Methods](design-details-costing-methods.md)   
+[Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+[Design Details: Inventory Costing](design-details-inventory-costing.md)  
+[Design Details: Costing Methods](design-details-costing-methods.md)  
 [Design Details: Average Cost](design-details-average-cost.md)   
-[Design Details: Cost Adjustment](design-details-cost-adjustment.md)
+[Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

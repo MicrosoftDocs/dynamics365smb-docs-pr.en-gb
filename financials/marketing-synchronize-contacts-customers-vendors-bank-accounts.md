@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2b85c52378a351dbc1a0809ec540b1f53c8074ef
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synchronising Contacts With Customers, Vendors, and Bank Accounts

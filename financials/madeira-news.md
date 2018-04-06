@@ -13,10 +13,10 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 78f340d619f622c6bca91bd97f0fcd8ae6b28acd
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 46e2150432c4e304fbfce63ae5eecea443391efe
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>What's New in Dynamics 365 for Finance and Operations, Business edition
@@ -100,7 +100,7 @@ With this update, you can choose between even more extensions in the **Extension
 For more information, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Manage your customer relationships using Microsoft Dynamics 365 for Sales from inside [!INCLUDE[d365fin](includes/d365fin_md.md)]
-We have added a new assisted setup guide to the Business Manager home page that guides you through the setup process to connect to Dynamics 365 for Sales. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records. For more information, see [Manage your customer relationships using Microsoft Dynamics 365 for Sales from inside [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+We have added a new assisted setup guide to the Business Manager Role Centre that guides you through the setup process to connect to Dynamics 365 for Sales. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records. For more information, see [Manage your customer relationships using Microsoft Dynamics 365 for Sales from inside [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>May 2016 Update
 This update of [!INCLUDE[d365fin](includes/d365fin_md.md)] added new capabilities as [announced on the blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
@@ -122,7 +122,7 @@ Key scenarios to try out on your own:
 - [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](madeira-no-outlook.md)  
 - [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
 - [Enabling Your Business Data for Power BI](madeira-powerbi.md)  
-- [Changing the Role Center](change-role.md)  
+- [Changing Basic Settings](ui-change-basic-settings.md)  
 
 
 

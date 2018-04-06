@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 5677eeebaabb35c077772b0671fd62d8bc856854
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="change-vat-setup-in-journals"></a>Change VAT Setup in Journals

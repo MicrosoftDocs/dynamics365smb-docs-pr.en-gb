@@ -16,18 +16,18 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 747a3f83d5e0387a557eebaf9ad5d2ef5dcd0673
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="visit-our-video-library"></a>Visit Our Video Library
 To help you get started quickly, we're building up a library of "how to" videos that illustrate how to complete various processes in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Just to mention a few examples, the library contains videos that show how to:  
 
-* Migrate business data from another finance app into  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Migrate business data from another finance app into [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Set up dimensions so you can track and analyse various documents and entities
 * Connect [!INCLUDE[d365fin](includes/d365fin_md.md)] with Microsoft Dynamics 365 for Sales
 * Set up approval workflows  
-* Use Power BI with  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Set up email and send documents directly from  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Use Power BI with [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Set up email and send documents directly from [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 You can access the videos in several ways. If you're already working in [!INCLUDE[d365fin](includes/d365fin_md.md)], there are two ways to get to the library:
 

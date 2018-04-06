@@ -13,7 +13,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 5b7bf7e15d5d7a5200c7d6863b20fc2adfdcdce6
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="define-accounting-periods-for-straight-line-depreciation-of-fixed-assets"></a>Define Accounting Periods for Straight-Line Depreciation of Fixed Assets

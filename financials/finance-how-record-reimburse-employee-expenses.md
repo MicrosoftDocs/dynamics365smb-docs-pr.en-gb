@@ -16,11 +16,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: c12561f4851cd75bdc4098e506c113e50d3bc3be
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Record and Reimburse Employees' Expenses
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  supports transactions for employee in a similar way as for vendors. Accordingly, employee posting groups exist to make sure that employee ledger entries are posted to the relevant accounts in the general ledger.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] supports transactions for employee in a similar way as for vendors. Accordingly, employee posting groups exist to make sure that employee ledger entries are posted to the relevant accounts in the general ledger.
 
 > [!NOTE]  
 > Employee transactions can be posted in the local currency only. Reimbursement payments to employees do not support discounts and payment tolerances.

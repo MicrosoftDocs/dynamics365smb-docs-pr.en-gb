@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/11/2017
+ms.date: 03/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9c48b1258a5000f3ef994a02fe98387de50c8ac1
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 4f180f280415584d7bb216ee5be997f266d38ab2
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="invoice-sales"></a>Invoice Sales
@@ -34,6 +34,10 @@ If the customer decides to buy, you post the sales invoice to create the related
 
 In business environments where the customer must pay before products are delivered, such as in retail, you must wait for the receipt of payment before you deliver the products. In most cases, you process incoming payments some weeks after delivery by applying the payments to their related posted, unpaid sales invoices. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
+In business environments where the customer pays immediately, for example by cash, PayPal, or credit card, you can select the relevant method in the **Payment Method Code** field on the sales invoice. Payment is then recorded immediately on the posted invoice. For payment services, you must also fill in the **Payment Service** field. For more information, see [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md).
+
+You can even create directly paid invoices for non-registered customers by first setting up a "cash customer" card, which you point to on the sales invoice. For more information, see [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md).  
+
 You can easily correct or cancel a posted sales invoice before it is paid. For example, this is useful if you want to correct a typing mistake or if the customer requests a change early in the order process. For more information, see [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md). If the posted sales invoice is paid, then you must create a sales credit memo to reverse the sale. For more information, see [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).
 
 Items can be both inventory items and services, denoted by the **Inventory** and **Service** types on the item card. The sales invoice process is the same for both item types. For more information, see [Register New Items](inventory-how-register-new-items.md).
@@ -41,7 +45,7 @@ Items can be both inventory items and services, denoted by the **Inventory** and
 You can fill customer fields on the sales invoice in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 
 ## <a name="to-create-a-sales-invoice"></a>To create a sales invoice
-1. On the Home page,  choose the **Sales Invoice** action.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.  
 2. In the **Customer** field, enter the name of an existing customer.
 
    Other fields in the **Sales Invoice** window contain standard information about the selected customer. If the customer is not registered, follow these steps:
@@ -60,8 +64,8 @@ If you have set up recurring sales lines for the customer, such as a monthly rep
 9. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
 10. In the **No.** field, select a record to post according to the value in the **Type** field.
 
- You leave the **No.** field empty in the following cases: -If the line is for a comment. Write the comment in the **Description** field.
- -If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).
+    You leave the **No.** field empty in the following cases: -If the line is for a comment. Write the comment in the **Description** field.
+        -If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).
 
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
 

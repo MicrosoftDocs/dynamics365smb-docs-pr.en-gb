@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 09/14/2017
+ms.date: 01/31/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2f17af763663ffc7d10c9730ca433ca1574d6552
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9ffe72d64d8cb9a3db426ad299af8c2025ec31f5
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system.
 When you sign up for the [!INCLUDE[d365fin](includes/d365fin_md.md)] preview you get access to a demonstration company. The demonstration company contains sample data, but you can create your own sales documents, for example, or set up a bank account.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Get to know [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -35,14 +35,14 @@ For more information, see [Working with [!INCLUDE[d365fin](includes/d365fin_md.m
 When you are ready to start working and you want to look at some of the business processes that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports, see [Business Functionality](madeira-business-functionality.md). For an overview of current capabilities and what is coming, take a look at our roadmap at [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>The Home pages
-Home pages use a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Home pages by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") in the top right corner,  choosing **My Settings**, and then the Role Center to explore. Sign in again to apply the change. For more information, see [Changing the Role Center](change-role.md).  
+Home pages use a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Home pages by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") in the top right corner,  choosing **My Settings**, and then the Role Center to explore. Sign in again to apply the change. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
 
 Each Home page provides a **Setup and Extensions** button. Here you have access to a list of assisted setup that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup windows where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Basic** experience gives access to fewer than the **Suite** experience does. The first time you sign in, you use the Basic experience. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).  
+>   The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Basic** experience gives access to fewer than the **Essential** experience does. The first time you sign in, you use the Basic experience. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).  
 
-In the **Assisted Setup** window, you will find the following with the **Suite** experience:
+In the **Assisted Setup** window, you will find the following with the **Essential** experience:
 
 | Assisted Setup | Description |
 | --- | --- |
@@ -53,7 +53,7 @@ In the **Assisted Setup** window, you will find the following with the **Suite**
 | Set Up a Customer Approval Workflow |Sets up the ability to automatically notify an approver when a user tries to create or change a customer card. |
 | Set Up Email |Gets you ready for sending email messages directly from, for example, sales orders or contacts in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 | Set Up Email Logging |Sets up the capability to log email correspondence in [!INCLUDE[d365fin](includes/d365fin_md.md)] to follow up on interactions. |
-| Set Up Outlook for  [!INCLUDE[d365fin](includes/d365fin_md.md)] |Sets up the ability to use and launch [!INCLUDE[d365fin](includes/d365fin_md.md)] from Outlook. |
+| Set Up Outlook for [!INCLUDE[d365fin](includes/d365fin_md.md)] |Sets up the ability to use and launch [!INCLUDE[d365fin](includes/d365fin_md.md)] from Outlook. |
 | Set Up Reporting |Sets up data sets that you can use to build powerful reports using Excel or Power BI, for example. |
 | Set Up an Item Approval Workflow |Sets up the ability to send a notification to an approver when a user changes or creates an item. |
 | Set Up a Payment Approval Workflow |Sets up the ability to send a notification to an approver when a user sends payment journal lines for approval. |
@@ -83,5 +83,6 @@ If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d
 [Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

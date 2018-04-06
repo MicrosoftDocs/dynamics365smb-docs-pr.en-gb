@@ -13,16 +13,16 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d764a759095e6cdf4e1157bc7b1f850800de3217
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 98064d9500f47035f1c73aaa0c87a2e96fd876cd
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="business-functionality"></a>Business Functionality
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  provides functionality for common business processes in small and mid-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported. 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides functionality for common business processes in small and mid-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Home page, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. Several areas of business functionality must be set up manually. For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Role Centre, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. Several areas of business functionality must be set up manually. For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
@@ -48,6 +48,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 
 ## <a name="see-also"></a>See Also
+[Administration](admin-setup-and-administration.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

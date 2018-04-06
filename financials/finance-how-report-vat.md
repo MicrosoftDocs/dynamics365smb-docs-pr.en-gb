@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3d9a803f16ebe5f88a659d3e9e6dab35efe1eed9
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -52,7 +52,7 @@ For the VAT return, you can specify the entries to include:
 * Submit only entries from the specified periods, or also include entries from previous periods. This is useful for updating a VAT return that you have already submitted, for example, if a vendor sends you a late invoice.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>To connect to your tax authority's web service
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  provides service connections to tax authority websites. For example, if you are in the UK, you can enable the **GovTalk** service connection to submit the EC Sales List and VAT Return reports electronically. If you want to submit the report manually, for example by entering your data on the tax authority's website, this is not required.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides service connections to tax authority websites. For example, if you are in the UK, you can enable the **GovTalk** service connection to submit the EC Sales List and VAT Return reports electronically. If you want to submit the report manually, for example by entering your data on the tax authority's website, this is not required.   
 
 To report VAT to a tax authority electronically, you need to connect [!INCLUDE[d365fin](includes/d365fin_md.md)] to the tax authority's web service. This requires that you set up an account with your tax authority. When you have an account, you can enable a service connection that we provide in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -77,7 +77,7 @@ To report VAT to a tax authority electronically, you need to connect [!INCLUDE[d
 4. To validate and prepare the report for submission, choose the **Release** action.  
 
     >  [!NOTE]  
->   [!INCLUDE[d365fin](includes/d365fin_md.md)]  validates whether the report is set up correctly. If the validation fails, the errors display under **Errors and Warnings** so that you know what to fix. Typically, if the message is about a missing setting in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can click the message to open the page that contains the information to correct.  
+>   [!INCLUDE[d365fin](includes/d365fin_md.md)] validates whether the report is set up correctly. If the validation fails, the errors display under **Errors and Warnings** so that you know what to fix. Typically, if the message is about a missing setting in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can click the message to open the page that contains the information to correct.  
 5. To submit the report, choose the **Submit** action.  
 
 After you submit the report, [!INCLUDE[d365fin](includes/d365fin_md.md)] monitors the service and keeps a record of your communications. The **Status** field indicates where the report is in the process. For example, when the authorities process your report, the status of the report changes to **Succeeded**. If the tax authority found mistakes in the report you submitted, the status of the report will be **Failed**. You can view the errors under **Errors and Warnings**, correct them, and then submit the report again. To view a list of all your EC Sales List reports, go to the **EC Sales List Reports** page.  

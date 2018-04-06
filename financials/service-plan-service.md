@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2d02977377f0d88229fdbfd4c2df96d88cd82f2e
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning-services"></a>Planning Services
 With [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To do this, you must determine what service items and offerings your service organisation supports, and at what price.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.
   
 The following table describes a sequence of tasks, with links to the topics that describe them.   
   

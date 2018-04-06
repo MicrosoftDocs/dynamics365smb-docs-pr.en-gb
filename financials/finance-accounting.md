@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 594c4cca94ee23904eaadc913f0e29ef0590f3f8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 8e28d3b8e245c014e6494cee341b49132242ac9f
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Accountant Experiences in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -23,7 +23,7 @@ Any business must do its books and sign off on the accounting. Some businesses e
 ## <a name="accountant-role-center"></a>Accountant Role Centre
 The Role Centre is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. In the ribbon at the top of the window, you have access to more actions, such as opening the most commonly used financial reports and statements in Excel. In the navigation pane to the left, you can quickly switch between the lists you use most often. If you expand the **Home** menu in the navigation pane, you will see other areas, such as **Posted Documents** with the various types of documents that the company has posted.  
 
-If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a list of videos right from your Home page. You can also launch a **Getting Started** tour that points out key areas.  
+If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a list of videos right from your Role Centre. You can also launch a **Getting Started** tour that points out key areas.  
 
 ## <a name="accountant-hub"></a>Accountant Hub
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  

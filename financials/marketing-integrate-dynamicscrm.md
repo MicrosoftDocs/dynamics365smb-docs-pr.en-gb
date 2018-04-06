@@ -12,10 +12,10 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5626472de338f23df287699d65901645b84b49b3
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: cc1ad2ef812c073e570835e4018ce077b3b45494
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Managing Customers and Sales Created in Dynamics 365 for Sales
@@ -76,7 +76,14 @@ At the end of the assisted setup guide, you can choose the **Run Full Synchronis
 
 To check the progress of individual jobs in a full synchronization, drill down on the **Job Queue Entry Status**, **To Int. Table Job Status**, or **From Int. Table Job Status** field in the **CRM Full Synch. Review** window.
 
-From the **Dynamics 365 for Sales Connection Setup** window, you can get details about full synchronisation at any time. From here, you can also open the **Integration Table Mappings** window to see details about the tables in Finance and Operations, Business edition and in the Dynamics 365 for Sales solution that must be synchronised.
+From the **Dynamics 365 for Sales Connection Setup** window, you can get details about full synchronisation at any time. From here, you can also open the **Integration Table Mappings** window to see details about the tables in Finance and Operations, Business edition and in the Dynamics 365 for Sales solution that must be synchronised.  
+
+## <a name="handling-special-sales-order-data"></a>Handling Special Sales Order Data
+Sales orders in Dynamics 365 for Sales will be transferred to [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically if you select the **Automatically Create Sales Orders** check box in the **Microsoft Dynamics 365 for Sales Connection Setup** window. On such sales orders, the **Name** field on the original order is transferred and mapped to the **External Document Number** field on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+This can also work if the original sales order contains write-in products, meaning items or resources that are not registered in either product. In that case, you must fill in the **Write-in Product Type** and **Write-in Product No.** fields in the **Sales & Receivables Setup** window, so that such non-registered product sales are mapped to a specified item/resource number for financial analysis.
+
+If the item description on the original sales order is very long, then an additional sales order line of type Comment is created to hold the full text on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>See Also
 [Relationship Management](marketing-relationship-management.md)  

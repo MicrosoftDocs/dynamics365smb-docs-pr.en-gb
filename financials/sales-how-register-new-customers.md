@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: a03575bce7d1029e47f2aa1a46d5d0dcf585ab2a
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f72a0fc7ce8e1d25d3b084f30f079778860a947c
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-customers"></a>Register New Customers
@@ -28,7 +28,7 @@ Before you can register new customers, you must set up various sales codes that 
 >   If customer templates exist for different customer types, then a window appears when you create a new customer card from where you can select an appropriate template. If only one customer template exists, then new customer cards always use that template.
 
 ## <a name="to-create-a-new-customer-card"></a>To create a new customer card
-1. On the Home page, choose the **Customers** action to open the list of existing customers.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
 2. In the **Customers** window, choose the **New** action.
 
     If only one customer template exists, then a new customer card opens with some fields filled with information from the template.

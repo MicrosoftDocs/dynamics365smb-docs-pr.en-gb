@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 712f0de68476a73871672c399bc5be72d511d9c1
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Use Job Queues to Schedule Tasks
@@ -25,7 +25,7 @@ The **Job Queue Entries** window lists all existing jobs. If you add a new job q
 
 Optionally, you can set a filter in the **Job Queue Category Filter** field. Job queue categories can be used to group jobs in the list.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  automatically runs the jobs according to the specified schedules for each job queue entry. You can also start, stop, and put a job queue entry on hold manually.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] automatically runs the jobs according to the specified schedules for each job queue entry. You can also start, stop, and put a job queue entry on hold manually.
 
 ### <a name="log-files"></a>Log Files
 Errors are listed in the **Job Queue Log Entries** window that you can access from the ribbon. You can also troubleshoot job queue errors. Data that is generated when a job queue is run is stored in the database.  
@@ -35,7 +35,7 @@ Job queues are an effective tool to schedule the running of business processes i
 
  Alternatively, you may want to schedule postings for hours when it is convenient for your organisation. For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded. You can achieve this by setting the job queue up to run various batch post reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and **Batch Post Sales Credit Memos** reports.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  supports background posting for the following document types:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports background posting for the following document types:  
 
 -   Sales: sales order, return order, credit memo, invoice  
 
@@ -52,7 +52,7 @@ You set up this use of the job queue in the **Sales & Receivables Setup** window
 >  If you set up a job that will post and print documents, and the printer displays a dialogue box, such as a request for credentials or a warning about low printer ink, your document is posted but not printed. The corresponding job queue entry eventually times out and the **Status** field is set to **Error**. Accordingly, we recommend that you do not use a printer setup that requires interaction with the display of printer dialogue boxes in conjunction with background posting.  
 
 ## <a name="use-the-my-job-queue-part"></a>Use the My Job Queue Part
-The **My Job Queue** part shows the job queues entries that a user has started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Centre. For more information, see [Change Role Centres](change-role.md).  
+The **My Job Queue** part shows the job queues entries that a user has started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Centre. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
 
 In this part, you can see those documents that are being processed or that are queued for which your ID is specified in the **Assigned User ID** field. The part helps you keep track of all job queue entries, including those related to background posting. The part can tell you at a glance whether there has been an error in the posting of a document or if there are errors in a job queue entry. The part also lets you cancel a document posting if it is not running.  
 

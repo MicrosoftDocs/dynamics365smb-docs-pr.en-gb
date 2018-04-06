@@ -13,16 +13,16 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ce7ec04b72fd6a5c4c00eeff277e74a9d834959a
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7b28d3ec6f4a52c5229d2e121ff1fe8ed847eeb7
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="work-with-account-schedules"></a>Work with Account Schedules
-Use account schedules to get insight into the financial data stored in your chart of accounts. Account schedules analyse figures in G/L accounts, and compare general ledger entries with general ledger budget entries. The results display in charts on your Home page, such as the Cash Flow chart.  
+Use account schedules to get insight into the financial data stored in your chart of accounts. Account schedules analyse figures in G/L accounts, and compare general ledger entries with general ledger budget entries. The results display in charts on your Role Centre, such as the Cash Flow chart.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare. For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups. You can create as many customised financial statements as you want.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare. For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups. You can create as many customised financial statements as you want.  
 
 Setting up account schedules requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries. This requires that budgets are created. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
 

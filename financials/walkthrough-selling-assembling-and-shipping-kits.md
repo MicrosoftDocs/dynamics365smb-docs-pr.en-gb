@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Walkthrough: Selling, Assembling, and Shipping Kits
@@ -36,7 +36,7 @@ Assembly items are characterised by their replenishment system and the assembly 
 -   Creating an assembly BOM that lists the assembly components and the resource that go into the assembly item.  
 
 ### <a name="selling-customized-assembly-items"></a>Selling Customised Assembly Items  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  provides the flexibility to enter both an inventory quantity and an assemble-to-order quantity on one sales order line. This section covers the following tasks:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides the flexibility to enter both an inventory quantity and an assemble-to-order quantity on one sales order line. This section covers the following tasks:  
 
 -   Creating a pure ATO sales order line where the full quantity is unavailable and must be assembled before shipment.  
 -   Customising ATO items.  

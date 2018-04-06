@@ -12,10 +12,10 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9643e71c29adf4b4be1d9d474832e3e29f2c21d8
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-items"></a>Register New Items
@@ -33,7 +33,7 @@ An item can be structured as a parent item with underlying child items in a bill
 If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The vendors will then appear in the **Item Vendor Catalogue** window, so that you can easily select an alternate vendor.
 
 ## <a name="to-create-a-new-item-card"></a>To create a new item card
-1. On the Home page, choose the **Items** action to open the list of existing items.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
 2. In the **Items** window, choose the **New** action.
 
     If only one item template exists, then a new item card opens with some fields filled with information from the template.

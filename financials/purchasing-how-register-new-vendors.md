@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 73d23013c97189caf5c75f561896b965dfb64837
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7cb6c75fa8c232c017e662ee8f324a8639c44a16
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-vendors"></a>Register New Vendors
@@ -30,7 +30,7 @@ Vendor cards hold the information that is required to buy products from the vend
 >   If vendor templates exist for different vendor types, then a window appears when you create a new vendor card from where you can select an appropriate template. If only one vendor template exists, then new vendor cards always use that template.
 
 ## <a name="to-create-a-new-vendor-card"></a>To create a new vendor card
-1. On the Home page, choose **Vendors** to open the list of existing vendors.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
 2. In the **Vendors** window, Choose **New**.
 
     If more than one vendor template exists, then a window opens from which you can select a vendor template. In that case, follow the next two steps.

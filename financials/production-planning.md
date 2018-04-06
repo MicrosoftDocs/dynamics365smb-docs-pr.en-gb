@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 439776669b9978ab622131aac770679ed08900ea
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 85b5583d18042b05aea264d59ed9484dddeb4d12
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning"></a>Planning
@@ -25,7 +25,7 @@ The production operations required to transform inputs into finished goods must 
 > [!NOTE]
 > This topic mainly describes planning for companies involved in manufacturing or assembly management where the resulting supply orders can be either production, assembly, transfer, or purchase orders. The main interface for this planning work is the **Planning Worksheet** window.
 
-> [!INCLUDE[d365fin](includes/d365fin_md.md)]  also supports supply planning for wholesale companies where the resulting supply orders can only be transfer and purchase orders. The main interface for this planning work is the **Requisition Worksheet** window, which is described indirectly in this topic as most planning functionality applies to both worksheets.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] also supports supply planning for wholesale companies where the resulting supply orders can only be transfer and purchase orders. The main interface for this planning work is the **Requisition Worksheet** window, which is described indirectly in this topic as most planning functionality applies to both worksheets.
 
 Before you can plan and execute production orders, you must configure production capacities, such as creating shop calendars, routings, production BOMs, and machine centres. For more information, see [Setting Up Manufacturing](production-configure-production-processes.md).
 

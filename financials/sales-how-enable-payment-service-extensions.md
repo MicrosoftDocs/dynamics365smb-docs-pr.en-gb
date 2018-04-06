@@ -13,10 +13,10 @@ ms.search.keywords: online payment
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: cfa15ee7b85f1bd01077493d295f230e836239a7
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c8f3faa68280a1c6157ab62ca2a19ce964bdbfd4
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Enable Customer Payments Through Payment Services
@@ -35,7 +35,7 @@ The Microsoft Pay, PayPal Payments Standard, and WorldPay Payments Standard exte
 6. Close the window.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>To select a payment service on a sales invoice
-1. On the Home page, choose **Sales Invoices**.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.  
 2. Open the sales invoice that you want to pay by using the payment service.  
 3. In the **Payment Service** field, choose the payment service.  
 

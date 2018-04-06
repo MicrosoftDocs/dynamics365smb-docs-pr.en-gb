@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: e9edb717c073a3b94d925ac0cc532824a848daf6
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Depreciate or Amortise Fixed Assets
@@ -27,7 +27,7 @@ Depreciation is used to allocate the cost of fixed assets, such as machinery and
 * Automatically, by running the **Calculate Depreciation** batch job.  
 * Manually, by using the fixed asset G/L journal.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  can calculate daily depreciation, which allows you to calculate depreciation for any period. You can therefore analyse current operating results on, for example, a monthly, quarterly, or annual basis. The calculation uses a standard year of 360 days and a standard month of 30 days. For more information, see [Depreciation Methods](fa-depreciation-methods.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] can calculate daily depreciation, which allows you to calculate depreciation for any period. You can therefore analyse current operating results on, for example, a monthly, quarterly, or annual basis. The calculation uses a standard year of 360 days and a standard month of 30 days. For more information, see [Depreciation Methods](fa-depreciation-methods.md).  
 
 If several departments use a fixed asset, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.  
 

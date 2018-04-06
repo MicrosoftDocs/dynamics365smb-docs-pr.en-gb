@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f597ce7dc0d4cda526da00d9aac5b1178c5e7a14
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Set Up Electronic Document Sending and Receiving
@@ -104,7 +104,7 @@ The topic contains the following procedures:
 4. In the **Electronic Document** field, select **Yes (Through Document Exchange Service)**.  
 
     > [!NOTE]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  automatically detects if the document is an invoice or a credit memo and applies the PEPPOL format accordingly.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically detects if the document is an invoice or a credit memo and applies the PEPPOL format accordingly.  
 
 5. To make this document sending profile apply to all customers, select the **Default** check box on the **General** FastTab. To make it apply to specific customers only, fill the **Document Sending Profile** field on the customer cards in question. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).  
 

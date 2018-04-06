@@ -16,11 +16,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: c5cb056c7287f4c12b84dcece595a8e97c0a6214
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="date-calculation-for-sales"></a>Date Calculation for Sales
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  automatically calculates the earliest possible date that an item on a sales order line can be shipped.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the earliest possible date that an item on a sales order line can be shipped.
 
 If the customer has requested a specific delivery date, then the date on which the items must be available to pick to meet that delivery date is calculated.
 

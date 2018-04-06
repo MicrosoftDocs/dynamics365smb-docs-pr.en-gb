@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 397b7d3de0355ce6be1be6607e5cfc7f61b5f55d
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Plan Warehouse Movements in Worksheets
@@ -28,7 +28,7 @@ As the warehouse ships items out to customers, the bins with the highest bin ran
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Movement Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Bin Replenishment** action.  
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)]  creates lines that indicate precisely how you should move items from the low-ranking bins to the higher-ranking bins.  
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] creates lines that indicate precisely how you should move items from the low-ranking bins to the higher-ranking bins.  
 
     > [!NOTE]  
     >  A movement is suggested according to FEFO when you activate the **Create Movement** function if the following conditions are met for an item:  

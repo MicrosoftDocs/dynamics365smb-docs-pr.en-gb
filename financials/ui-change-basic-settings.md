@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7c9dec3bcb000be958acec3f0d88abbab9946bf8
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="changing-basic-settings"></a>Changing Basic Settings
@@ -27,9 +27,13 @@ The Role Centre represents the Home page, a starting page that is designed for t
 
 In the centre you find the Activities tiles. Activities show current data and can be clicked or tapped for easy access to the selected document. The Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses.
 
-You can also build up a list of Favourite Customers on the Home page for accounts that you do business with often or need to pay special attention to. Use the arrows to collapse part of the page and make more room to show specific data. At the top of the Home page you will find all of the actions that can be applied to the current content. This too can be collapsed and you only need to click or tap within the collapsed area to view it again.
+You can also build up a list of favourite customers on the Home page for accounts that you do business with often or need to pay special attention to. Use the arrows to collapse part of the page and make more room to show specific data. At the top of the Home page you will find all of the actions that can be applied to the current content. This too can be collapsed and you only need to choose the collapsed area to view it again.
 
-The default Role Centre is **Business Manager**, but you can select another Role Centre that fits your needs better. For more information, see [Change the Role Centre](change-role.md).
+### <a name="to-change-role-center"></a>To change Role Centre
+The default Role Centre is **Business Manager**, but you can select another Role Centre that fits your needs better.
+1. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose **My Settings**.
+2. In the **My Settings** window, in the **Role Centre** field, select the Role Centre that you want to set as the standard. For example, select **Accountant**.
+3. Choose the **OK** button.
 
 ## <a name="company"></a>Company
 A company functions as a container for data in [!INCLUDE[d365fin](includes/d365fin_md.md)]. There can be multiple companies in a database, but only one can be selected at a time.
@@ -56,6 +60,5 @@ Choose this link to view or change the notifications that you get about certain 
 
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Change the Role Centre](change-role.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
 

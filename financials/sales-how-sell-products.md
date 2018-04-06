@@ -13,10 +13,10 @@ ms.search.keywords: trade
 ms.date: 01/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 6e18df20a5bef5aae44f476755eede73c99668da
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: b396908f9c63b63eb8eb0a3e9fd84d20cd1c6c32
 ms.contentlocale: en-gb
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="sell-products"></a>Sell Products
@@ -40,7 +40,7 @@ Items can be both inventory items and services, denoted by the **Item - Inventor
 You can fill customer fields on the sales order in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 
 ## <a name="to-create-a-sales-order"></a>To create a sales order
-1. On the Home page,  choose the **Sales Order** action.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link. 
 2. In the **Customer** field, enter the name of an existing customer.
 
     Other fields in the **Sales Order** window are now filled with the standard information of the selected customer. If the customer is not registered, then follow these steps:
