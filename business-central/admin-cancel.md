@@ -11,8 +11,8 @@ ms.search.keywords: remove, delete
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b11a528805decc52c69e5bf781307440526c2b34
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1ff8e38973220300715eaaf2836286bebdafe902
 ms.contentlocale: en-gb
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ If you have added data to your [!INCLUDE[d365fin](includes/d365fin_md.md)] previ
 If you want to hide [!INCLUDE[d365fin](includes/d365fin_md.md)] from your app launcher, you can quite simply unpin it. This does not remove any data, and it does not cancel your subscription.  
 
 ## <a name="see-also"></a>See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Office Portal](https://portal.office.com)  
 [How long is the trial period and how do I cancel?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
 

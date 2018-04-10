@@ -13,8 +13,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25509535a04f94c00bf8ea123e36898d4eb20eb8
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ebee0f94a64fcb6d3a86a7fe1808fdb643371cfd
 ms.contentlocale: en-gb
 ms.lasthandoff: 03/22/2018
 
@@ -31,11 +31,11 @@ There are eight methods of depreciation available:
 * Manual  
 
   > [!NOTE]  
->   Use this method for assets that are not subject to depreciation, for example, land. You must enter depreciation in the fixed asset G/L journal. The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.  
+  >   Use this method for assets that are not subject to depreciation, for example, land. You must enter depreciation in the fixed asset G/L journal. The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.  
 * Half-Year Convention  
 
   > [!NOTE]  
->    When you use this method, a fixed asset is depreciated by the same amount each year.  
+  >    When you use this method, a fixed asset is depreciated by the same amount each year.  
 
 ## <a name="straight-line-depreciation"></a>Straight-Line Depreciation
 When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:  
@@ -355,6 +355,6 @@ When you enter an entry in B1 in the fixed asset G/L journal and place a check m
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -12,8 +12,8 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc317c6fefbc9f79b668c1332bbaef2fc74ed4da
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e517397fb849e84da42492aaeea36def7dd3a28
 ms.contentlocale: en-gb
 ms.lasthandoff: 03/22/2018
 
@@ -43,12 +43,12 @@ In the **Assisted Setup** window, you will find the following with the **Basic**
 
 When you have run an assisted setup, it is marked as **Completed**. To run the assisted setup, you choose the three dots also called the context menu, and then you select **Start Setup**.
 
-## <a name="role-center-home-page"></a>Role Centre Home Page
-On the Role Centre home page, you have an overview of the business. To the left you see a navigation bar that gives you easy access to customers, vendors, items, and so on. In the centre you find the **Activities** tiles. **Activities** show current data and can be clicked or tapped for easy access to the selected document. The **Key Performance Indicators** can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of **Favourite Customers** on the Role Centre home page for accounts that you do business with often or need to pay special attention to.
-Use the arrows to collapse part of the page and make more room to show specific data. At the top of the Role Centre home page you will find all of the actions that can be applied to the current content. This too can be collapsed and you only need to click or tap within the collapsed area to view it again.
+## <a name="role-center"></a>Role Centre
+On the Role Centre, you have an overview of the business. To the left you see a navigation bar that gives you easy access to customers, vendors, items, and so on. In the centre you find the **Activities** tiles. **Activities** show current data and can be clicked or tapped for easy access to the selected document. The **Key Performance Indicators** can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of **Favourite Customers** on the Role Centre for accounts that you do business with often or need to pay special attention to.
+Use the arrows to collapse part of the page and make more room to show specific data. At the top of the Role Centre you will find all of the actions that can be applied to the current content. This too can be collapsed and you only need to click or tap within the collapsed area to view it again.
 
 > [!TIP]  
-> You can get back to the Role Centre home page by selecting the company name in the upper left corner.
+> You can get back to the Role Centre by selecting the company name in the upper left corner.
 
 ## <a name="company-information"></a>Company Information
 Under **Company Settings** you can view and edit setup information about the current company, much of this was prefilled if you completed the **Set Up Company** assisted setup when signing up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you want to change the company logo, contact information, bank settings, or tax information, you can do it from this window.    
@@ -63,7 +63,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] you will find tooltips that can h
 Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **My Company** section of your **Home** page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration.
 
 ## <a name="see-also"></a>See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Manage Users and Permissions](ui-how-users-permissions.md)
 

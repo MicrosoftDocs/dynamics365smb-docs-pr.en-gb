@@ -12,8 +12,8 @@ ms.workload: na
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ce84903f1273540e744006cc3b042e12113ab5c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 26729b9ced13d6727437db91d464d7a42907b0a1
 ms.contentlocale: en-gb
 ms.lasthandoff: 03/22/2018
 
@@ -45,7 +45,7 @@ The following table lists some of the general functionality with links to topics
 |Watch videos on selected functionality to help you get started.|[Videos on Common Tasks](across-videos.md)|  
 
 ## <a name="see-also"></a>See Also
-[Getting Started](index.md)  
+[Getting Started](product-get-started.md)  
 [Setting Up Business Central](setup.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 

@@ -13,8 +13,8 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ee0615cd475d412f7380d6577bfa2965bb0cee9f
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
 ms.contentlocale: en-gb
 ms.lasthandoff: 03/22/2018
 
@@ -23,11 +23,11 @@ ms.lasthandoff: 03/22/2018
 In the **My Settings** window, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="role-center"></a>Role Centre
-The Role Centre represents the home page, a starting page that is designed for the needs of the role. The Role Centre provides you with an overview of the business, reflecting the information, tasks, and priorities of your role. 
+The Role Centre represents the starting page and is designed for the needs of the role. The Role Centre provides you with an overview of the business, reflecting the information, tasks, and priorities of your role.
 
 Along the top of the Role Centre, you see a navigation bar that gives you easy access to typical entities for the role, such as customers, vendors, items, and so on.
 
-Whats appears in the main content area will depend on the specific Role Centre. For example, on most Role Centres, you can find the Activities tiles that show current data and can be clicked or tapped for easy access to the selected document. Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. Some Role Centres enable you to build a list of favourite entities, like customers and vendors, or show the Report Inbox.
+What appears in the main content area will depend on the specific Role Centre. For example, on most Role Centres, you can find the Activities tiles that show current data and can be clicked or tapped for easy access to the selected document. Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. Some Role Centres enable you to build a list of favourite entities, like customers and vendors, or show the Report Inbox.
 
 ### <a name="to-change-role-center"></a>To change Role Centre
 The default Role Centre is **Business Manager**, but you can select another Role Centre that fits your needs better.
@@ -41,7 +41,7 @@ A company functions as a container for data in [!INCLUDE[d365fin](includes/d365f
 The default company is called CRONUS and contains demonstration data only.
 
 > [!TIP]  
->   If you want to display a different name for your company in the application (such as on the Role Centre home page), set the **Name** field on the **Company Information** page or the **Display Name** field on the **Companies** page.  
+>   If you want to display a different name for your company in the application (such as on the Role Centre), set the **Name** field on the **Company Information** page or the **Display Name** field on the **Companies** page.  
 
 ## <a name="work-date"></a>Work Date
 The default work date is usually today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not the current date.

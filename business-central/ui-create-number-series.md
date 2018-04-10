@@ -2,20 +2,20 @@
 title: Create Number Series | Microsoft Docs
 description: Learn how to set up number series that assign unique ID codes to accounts and documents in Business Central .
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 06/02/2017
-ms.author: solsen
+ms.date: 03/27/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 151e585b0a809b1b537b52089fce297f222a60dc
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: 4d7e554300f0b445816ef9dd7fb81ea54fd25bf7
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="create-number-series"></a>Create Number Series
@@ -30,14 +30,29 @@ You typically set up your number series to automatically insert the next consecu
 
 If you want to use more than one number series code for one type of master data - for example, if you want to use different number series for different categories of items - you can use number series relationships.
 
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Behaviour of the No. field on Documents and Cards
+On sales, purchase, and transfer documents and on all cards, the **No.** can be filled in automatically from a number series or manually, and it can be set up to be invisible.
+
+The **No.** field can be filled in three ways:
+
+1. If only one number series for the type of document or card exists where the **Default Nos.** check box is selected and the **Manual Nos.** check box is not selected, then the field is automatically filled with the next number in the series, and the **No.** field will not be visible.
+
+    > [!NOTE]  
+    > If the number series does not function, for example because it has run out of numbers, then the **No.** field will be visible and you can manually enter a number or resolve the issues in the **No. Series List** window.
+
+2. If more than one number series for the type of document or card exist, and the **Default Nos.** check box is not selected for the number series that is currently assigned, then the **No.** field is visible, and you can look up to the **No. Series List** window and select the number series you want to use. The next number in the series is then inserted in the **No.** field.
+
+3. If you have not set up a number series for the type of document or card, or if the **Manual Nos.** field is selected for the number series, then the **No.** field is visible and you must enter any number manually. You can enter a maximum of 20 characters, both numbers and letters.
+
+When you open a new document or card that a number series exists for, then the relevant **No. Series Setup** window opens so that you can set up a number series for that type of document or card before you proceed with other data entry.
+
+> [!NOTE]  
+> If you need to enable manual numbering on, for example, new item cards that have been created with a data migration process that has hidden the **No.** by default, then go to the **Inventory Setup** window and choose the **Item Nos.** field to open and set the related number series to **Manual Nos.**.
+
 ## <a name="to-create-a-new-number-series"></a>To create a new number series
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **No. Series**, and then choose the related link.
 2. Choose the **New** action.
 3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-**TIP**: To allow manual entry of a number on new cards or documents, deselect the **Default Nos.** check box and select the **Manual Nos.** check box.
-
-Now when you create a new card or document that is set up to use the number series in question, you can manually fill in the **No.** field with any value.  
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>To set up where a number series is used
 The following procedure shows how to set number series up for the Sales area. The steps are similar for other areas.

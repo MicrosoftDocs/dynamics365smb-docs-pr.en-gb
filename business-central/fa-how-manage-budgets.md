@@ -13,8 +13,8 @@ ms.search.keywords: forecast
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b2a1b634a96422ea48ee75b037c3292021513bce
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d83a40c2abf1cfb30d8666a620327b8d6e8a7ebe
 ms.contentlocale: en-gb
 ms.lasthandoff: 03/22/2018
 
@@ -61,6 +61,6 @@ You can use the **Fixed Asset - Projected Value** report to calculate future dep
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

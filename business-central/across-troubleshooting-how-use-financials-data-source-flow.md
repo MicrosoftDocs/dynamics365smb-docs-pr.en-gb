@@ -12,8 +12,8 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 01/25/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 60ce05760251da39280eb8a4884cb80586c2ab62
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 68355bc0b4afe4fcdd92f9cdb190d4b5c0d845df
 ms.contentlocale: en-gb
 ms.lasthandoff: 03/22/2018
 
@@ -47,7 +47,7 @@ For example, if the table that you are using as a data source has 4,000 records,
 
 ## <a name="see-also"></a>See Also
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in an Automated Workflow](across-how-use-financials-data-source-flow.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Manage Users and Permissions](ui-how-users-permissions.md)    
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

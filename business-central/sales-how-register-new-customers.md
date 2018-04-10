@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6dcd375cc687e74783cadc2cf50fbf804377d3ca
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: 6ca938a5bcd0fd160c98358d89740e4dfd756e79
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="register-new-customers"></a>Register New Customers
@@ -54,6 +54,7 @@ If you want to use this customer card as a template when you create new customer
 The customer template is added to the list of customer templates, so that you can use it to create new customer cards.
 
 ## <a name="see-also"></a>See Also
+[Create Number Series](ui-create-number-series.md)  
 [Sales](sales-manage-sales.md)    
 [Setting Up Sales](sales-setup-sales.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

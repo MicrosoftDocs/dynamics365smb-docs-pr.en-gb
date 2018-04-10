@@ -1,8 +1,6 @@
 ---
 title: Create Analysis Reports| Microsoft Docs
 description: Describes how to create new analysis reports for sales, purchases, and inventory, and set up analysis templates.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 622323cd0df894c2cb8a55c6fdfe29a81934af05
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
 ms.contentlocale: en-gb
 ms.lasthandoff: 03/22/2018
 
@@ -69,9 +67,8 @@ A template contains a set of lines each representing the analysis columns that y
 4. In the **Analysis Columns** window, fill in the fields to specify the columns that you want to include in your analysis report.  
 
     > [!NOTE]  
->   To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**. Set up the analysis type codes in the **Analysis Types** window.  
-
-    **Note**. In the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied. If you select **Item Budget Entries**, the budgeted figures from the budget are copied.  
+    >   To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**. Set up the analysis type codes in the **Analysis Types** window.  
+    Also, in the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied. If you select **Item Budget Entries**, the budgeted figures from the budget are copied.  
 5.  Choose the **OK** button to save your changes.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>To set up analysis line templates  

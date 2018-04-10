@@ -11,8 +11,8 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b72de70da67a7401bad90bd55d1a31a1ae6d880
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7b62652e34c15831b44975a7c33b088e2be873e4
 ms.contentlocale: en-gb
 ms.lasthandoff: 03/22/2018
 
@@ -101,7 +101,7 @@ If you get a "login failed" error when you log in to the dashboard, using your [
 * The [!INCLUDE[d365fin](includes/d365fin_md.md)] instance that you are trying to connect to does not have a valid SSL certificate. In this case you'll see a more detailed error message ("unable to establish trusted SSL relationship").
 
     > [!NOTE]  
->   Self-signed certificates are not supported.  
+    >   Self-signed certificates are not supported.  
 
 **"Oops"**  
 If you see an "Oops" error dialogue after you pass the authentication dialogue, this is most frequently caused by a problem connecting to the data for the content pack.
@@ -118,7 +118,7 @@ If you see an "Oops" error dialogue after you pass the authentication dialogue, 
 
 ## <a name="see-also"></a>See Also
 [Business Intelligence](bi.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a PowerApps Data Source](across-how-use-financials-data-source-powerapps.md)  

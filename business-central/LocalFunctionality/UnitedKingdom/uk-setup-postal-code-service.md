@@ -11,8 +11,8 @@ ms.search.keywords: getaddress.io, postcodes, extension
 ms.date: 03/05/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fa9b386e0bbc31fe3a1e34285e8926417b43f501
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 9f01c2bd43462eee494a956bdbabb95caf9ac65c
 ms.contentlocale: en-gb
 ms.lasthandoff: 03/22/2018
 
