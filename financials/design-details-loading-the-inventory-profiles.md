@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d2a2ee196be4562f62604afd4faed608ff07411f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c588e4273fa9b23f9ace044a85f5132e12112916
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a><span data-ttu-id="17dc4-103">Design Details: Loading the Inventory Profiles</span><span class="sxs-lookup"><span data-stu-id="17dc4-103">Design Details: Loading the Inventory Profiles</span></span>
@@ -28,15 +28,15 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="17dc4-112">In general, the planning system considers all supply orders after the planning starting date as subject to change in order to fulfill demand.</span><span class="sxs-lookup"><span data-stu-id="17dc4-112">In general, the planning system considers all supply orders after the planning starting date as subject to change in order to fulfill demand.</span></span> <span data-ttu-id="17dc4-113">However, as soon as a quantity is posted from a supply order, it can no longer be changed by the planning system.</span><span class="sxs-lookup"><span data-stu-id="17dc4-113">However, as soon as a quantity is posted from a supply order, it can no longer be changed by the planning system.</span></span> <span data-ttu-id="17dc4-114">Accordingly, the following different orders cannot be replanned:</span><span class="sxs-lookup"><span data-stu-id="17dc4-114">Accordingly, the following different orders cannot be replanned:</span></span>  
 
--   <span data-ttu-id="17dc4-115">Released production orders where consumption or output has been posted.</span><span class="sxs-lookup"><span data-stu-id="17dc4-115">Released production orders where consumption or output has been posted.</span></span>  
+- <span data-ttu-id="17dc4-115">Released production orders where consumption or output has been posted.</span><span class="sxs-lookup"><span data-stu-id="17dc4-115">Released production orders where consumption or output has been posted.</span></span>  
 
--   <span data-ttu-id="17dc4-116">Assembly orders where consumption or output has been posted.</span><span class="sxs-lookup"><span data-stu-id="17dc4-116">Assembly orders where consumption or output has been posted.</span></span>  
+- <span data-ttu-id="17dc4-116">Assembly orders where consumption or output has been posted.</span><span class="sxs-lookup"><span data-stu-id="17dc4-116">Assembly orders where consumption or output has been posted.</span></span>  
 
--   <span data-ttu-id="17dc4-117">Transfer orders where shipment has been posted.</span><span class="sxs-lookup"><span data-stu-id="17dc4-117">Transfer orders where shipment has been posted.</span></span>  
+- <span data-ttu-id="17dc4-117">Transfer orders where shipment has been posted.</span><span class="sxs-lookup"><span data-stu-id="17dc4-117">Transfer orders where shipment has been posted.</span></span>  
 
--   <span data-ttu-id="17dc4-118">Purchase orders where receipt has been posted.</span><span class="sxs-lookup"><span data-stu-id="17dc4-118">Purchase orders where receipt has been posted.</span></span>  
+- <span data-ttu-id="17dc4-118">Purchase orders where receipt has been posted.</span><span class="sxs-lookup"><span data-stu-id="17dc4-118">Purchase orders where receipt has been posted.</span></span>  
 
- <span data-ttu-id="17dc4-119">Apart from loading demand and supply types, certain types are loaded with attention to special rules and dependencies that are described in the following.</span><span class="sxs-lookup"><span data-stu-id="17dc4-119">Apart from loading demand and supply types, certain types are loaded with attention to special rules and dependencies that are described in the following.</span></span>  
+  <span data-ttu-id="17dc4-119">Apart from loading demand and supply types, certain types are loaded with attention to special rules and dependencies that are described in the following.</span><span class="sxs-lookup"><span data-stu-id="17dc4-119">Apart from loading demand and supply types, certain types are loaded with attention to special rules and dependencies that are described in the following.</span></span>  
 
 ## <a name="item-dimensions-are-separated"></a><span data-ttu-id="17dc4-120">Item Dimensions are Separated</span><span class="sxs-lookup"><span data-stu-id="17dc4-120">Item Dimensions are Separated</span></span>  
  <span data-ttu-id="17dc4-121">The supply plan must be calculated per combination of the item dimensions, such as variant and location.</span><span class="sxs-lookup"><span data-stu-id="17dc4-121">The supply plan must be calculated per combination of the item dimensions, such as variant and location.</span></span> <span data-ttu-id="17dc4-122">However, there is no reason to calculate any theoretical combination.</span><span class="sxs-lookup"><span data-stu-id="17dc4-122">However, there is no reason to calculate any theoretical combination.</span></span> <span data-ttu-id="17dc4-123">Only those combinations that carry a demand and/or supply need to be calculated.</span><span class="sxs-lookup"><span data-stu-id="17dc4-123">Only those combinations that carry a demand and/or supply need to be calculated.</span></span>  
