@@ -30,7 +30,7 @@ If you will make intercompany sales transactions that include resources, you mus
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>To set up companies for intercompany transactions
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
-2. In the **Company Information** window, fill in the **Intercompany Partner Code**, **Intercompany Inbox Type**. and **Intercompany Inbox Details** fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. In the **Company Information** window, fill in the **Intercompany Partner Code**, **Intercompany Inbox Type**. and **Intercompany Inbox Details** fields. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>To set intercompany partners
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Partners**, and then choose the related link.

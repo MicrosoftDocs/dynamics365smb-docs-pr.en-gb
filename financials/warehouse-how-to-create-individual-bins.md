@@ -23,10 +23,10 @@ ms.lasthandoff: 03/22/2018
 The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually from the location card. You can also use a function in the **Bin Creation Worksheet** window to create bins automatically.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>To create a bin from the location card  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and choose the related link.  
-2.  Select the location that you want to create a bin from, and then choose the **Bins** action.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and choose the related link.  
+2. Select the location that you want to create a bin from, and then choose the **Bins** action.  
 3. Choose the **New** action.
-4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>To create bins individually in the bin creation worksheet  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Creation Worksheet**, and choose the related link.  

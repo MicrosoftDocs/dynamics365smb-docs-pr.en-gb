@@ -28,12 +28,12 @@ When you perform typical service, you often have to create service documents tha
   
 ## <a name="to-set-up-a-standard-service-code"></a>To set up a standard service code    
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Service Codes**, and then choose the related link.  
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Fill in the service lines linked to this service code.  
+2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Fill in the service lines linked to this service code.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>To assign a standard service code to a service item group
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service item Groups**, and then choose the related link.  
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Fill in the service lines linked to this service code.  
 
 ## <a name="see-also"></a>See Also

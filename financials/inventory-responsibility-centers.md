@@ -29,11 +29,11 @@ Multiple locations allows companies to manage their inventory in multiple locati
 Responsibility centres extends the multiple locations functionality by providing users the ability to handle administrative centres. A responsibility centre can be a cost centre, a profit centre, an investment centre, or other company-defined administrative centre. Examples of responsibility centres are a sales office, a purchasing department for several locations, and a plant planning office. Using this functionality, for example, companies can set up user-specific views of sales and purchase documents related exclusively to a particular responsibility centre.
 
 ## <a name="to-set-up-a-responsibility-center"></a>To set up a responsibility centre  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Responsibility Centres**, and then choose the related link.  
-2.  Choose the **New** action.  
-3.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Responsibility Centres**, and then choose the related link.  
+2. Choose the **New** action.  
+3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    If you are using responsibility centres to administer your company, it can be useful to have a default responsibility centre for your company.
+   If you are using responsibility centres to administer your company, it can be useful to have a default responsibility centre for your company.
 4. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.
 5. In the **Responsibility Centre** field, enter a responsibility centre code.
 
