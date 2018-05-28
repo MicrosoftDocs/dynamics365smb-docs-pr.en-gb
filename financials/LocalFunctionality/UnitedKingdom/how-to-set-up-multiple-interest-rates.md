@@ -25,7 +25,6 @@ You can calculate finance charges with multiple interest rates for a specific pe
 For example, you can charge customers accordingly if they pay late.  
 
 ## <a name="to-set-up-multiple-interest-rates"></a>To set up multiple interest rates  
-
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Finance Charge Terms**, and then choose the related link.  
 2. In the **Finance Charge Terms** window, select the required finance term, and then, on the **Navigate** tab, choose **Interest Rates**.  
 3. Fill in the fields as described in the following table.  
