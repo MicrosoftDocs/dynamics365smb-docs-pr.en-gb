@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: 9f9e80c785b01e6d27edf02292484f1bf2eaf69a
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: 0a66bae782a667de78310519ff661c9413acfd38
 ms.contentlocale: en-gb
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="set-up-multiple-interest-rates"></a><span data-ttu-id="0c81c-104">Set Up Multiple Interest Rates</span><span class="sxs-lookup"><span data-stu-id="0c81c-104">Set Up Multiple Interest Rates</span></span>
@@ -25,7 +25,6 @@ ms.lasthandoff: 04/16/2018
 <span data-ttu-id="0c81c-107">For example, you can charge customers accordingly if they pay late.</span><span class="sxs-lookup"><span data-stu-id="0c81c-107">For example, you can charge customers accordingly if they pay late.</span></span>  
 
 ## <a name="to-set-up-multiple-interest-rates"></a><span data-ttu-id="0c81c-108">To set up multiple interest rates</span><span class="sxs-lookup"><span data-stu-id="0c81c-108">To set up multiple interest rates</span></span>  
-
 1. <span data-ttu-id="0c81c-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Finance Charge Terms**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="0c81c-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Finance Charge Terms**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="0c81c-110">In the **Finance Charge Terms** window, select the required finance term, and then, on the **Navigate** tab, choose **Interest Rates**.</span><span class="sxs-lookup"><span data-stu-id="0c81c-110">In the **Finance Charge Terms** window, select the required finance term, and then, on the **Navigate** tab, choose **Interest Rates**.</span></span>  
 3. <span data-ttu-id="0c81c-111">Fill in the fields as described in the following table.</span><span class="sxs-lookup"><span data-stu-id="0c81c-111">Fill in the fields as described in the following table.</span></span>  
