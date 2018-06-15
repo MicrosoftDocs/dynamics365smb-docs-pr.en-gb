@@ -1,1 +1,1 @@
-<span data-ttu-id="f03e8-101">Choose a field to read a short description of the field or link to more information.</span><span class="sxs-lookup"><span data-stu-id="f03e8-101">Choose a field to read a short description of the field or link to more information.</span></span>
+<span data-ttu-id="e1568-101">Hover over a field to read a short description.</span><span class="sxs-lookup"><span data-stu-id="e1568-101">Hover over a field to read a short description.</span></span>
