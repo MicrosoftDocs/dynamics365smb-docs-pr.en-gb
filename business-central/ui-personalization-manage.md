@@ -13,10 +13,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 07/26/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 854dddab2d958e128309aa201b53234d87d2c049
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 2d9b45bf21d325e60beadedfc94827d7f3fda075
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Managing Personalisation as an Administrator
@@ -66,5 +66,5 @@ The **User Personalisation Card** page enables you to clear the personalisation 
 [Personalising Your Workspace](ui-personalization-user.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
-[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
+[Changing Which Features are Displayed](ui-experiences.md)  
 

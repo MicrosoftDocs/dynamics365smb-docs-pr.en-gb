@@ -10,10 +10,10 @@ ms.workload: na
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1595f5020a0da7b2899ba056f135ff5e88985d38
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f1d432ae73696e9e81bdc96c939051b676008e54
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Troubleshooting Self-Service Sign-Up
@@ -39,23 +39,20 @@ In many cases, registering for [!INCLUDE[d365fin](includes/d365fin_md.md)] can b
 ## <a name="regional-availability"></a>Regional Availability
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
 
-*   Europe:
-  * Austria
-  * Belgium
-    * Denmark
-  * Germany
-  * Finland
-  * France
-  * Italy
-  * Netherlands
-  * Spain
-  * Sweden
-  * Switzerland
-  * United Kingdom
-*   North America:
-  * Canada
-  * United States
-
+| Europe | North America |
+| --- | --- |
+| Austria | Canada |
+| Belgium | United States |
+| Denmark | |
+| Germany | |
+| Finland | |
+| France | |
+| Italy | |
+| Netherlands | |
+| Spain | |
+| Sweden | |
+| Switzerland | |
+| United Kingdom | |
 
 ## <a name="see-also"></a>See Also
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  

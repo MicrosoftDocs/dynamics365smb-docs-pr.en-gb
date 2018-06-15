@@ -12,10 +12,10 @@ ms.date: 04/03/2018
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.translationtype: HT
-ms.sourcegitcommit: 9cad9c7e2b54506e60af7d38d42f413599a44d01
-ms.openlocfilehash: 7b9140611a47b8b823274763731cf000258c681e
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 0196bff5dedb878884fd3d6e0208022faa968dfd
 ms.contentlocale: en-gb
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Connecting Power BI to Dynamics 365 Business Central Content Packs
@@ -142,7 +142,7 @@ If you enter a non-valid company name during the connection process, you may get
 [Power BI - Basic Concepts](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
 [Business Intelligence](bi.md)  
 [Getting Started](product-get-started.md)  
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  
 [Setup Reporting for [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI](across-how-use-financials-data-source-powerbi.md)  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 07/01/2017
+ms.date: 05/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 90b85a099b2b52930299a27b39ed96be9bade624
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Design Details: Planning Parameters
@@ -76,7 +76,7 @@ To obtain a rational supply plan, a planner will fine-tune planning parameters t
 |---------------------------------|---------------------------------------|  
 |**Rescheduling Period**|This field is used to determine whether the action message should reschedule an existing order or cancel it and create a new order. The existing order will be rescheduled within one rescheduling period before the current supply and until one rescheduling period after the current supply.|  
 |**Lot Accumulation Period**|With reordering policy Lot-for-Lot, this field is used to accumulate multiple supply needs into one supply order. From the first planned supply, the system accumulates all supply needs in the following lot accumulation period into one supply, which is placed on the date of the first supply. Demand outside the lot accumulation period is not covered by this supply.|  
-|**Dampener Period**|This field is used to avoid minor rescheduling of existing supply out in time. Changes from the supply date until one dampener period from the supply date will not generate any action messages.<br /><br /> As a result a positive delta between the suggested new supply date and the original supply date will always be larger than the dampener period.|  
+|**Dampener Period**|This field is used to avoid minor rescheduling of existing supply out in time. Changes from the supply date until one dampener period from the supply date will not generate any action messages.<br /><br /> The dampener period specifies a period of time during which you do not want the planning system to propose to reschedule existing supply orders forward. This limits the number of insignificant rescheduling of existing supply to a later date if the rescheduled date is within the dampener period.<br /><br /> As a result, a positive delta between the suggested new supply date and the original supply date will always be larger than the dampener period.|  
 
 The timing of rescheduling period, dampener period, and lot accumulation period is based on a supply date. The time bucket is based on the planning start date, as shown in the following illustration.  
 

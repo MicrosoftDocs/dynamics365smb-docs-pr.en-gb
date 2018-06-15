@@ -1,8 +1,6 @@
 ---
 title: Create Contact Persons| Microsoft Docs
 description: Outlines the tasks to create a contact card for a person, for example, a prospect or supplier, helping to define the relationship and tailor communication.
-services: project-madeira
-documentationcenter: 
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 05/09/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3701bf4f4470b84d05ce8f7a7686a6b8d37b7025
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 341cd12db4ca130539a2ba2838c3aa95a96cb6ab
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="creating-contact-persons"></a>Creating Contact Persons
@@ -40,6 +38,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## <a name="see-also"></a>See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
-[Creating and Managing Contacts]()  
+[Creating Contact Persons](marketing-create-contact-persons.md)  
+[Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)  
 [Working with Business Central](ui-work-product.md)
 

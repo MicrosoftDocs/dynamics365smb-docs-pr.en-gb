@@ -13,10 +13,10 @@ ms.search.keywords: projects
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f13343d8f0a18832c9f1ed16f02e79f9a59b5f12
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 545c09e5b462dd712dffa68a27341b1acde17071
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="project-management"></a>Project Management
@@ -40,7 +40,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## <a name="see-also"></a>See Also
 [Setting Up Project Management](projects-setup-projects.md)  
-[Customising Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)      
+[Changing Which Features are Displayed](ui-experiences.md)      
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)    
 [Finance](finance.md)  

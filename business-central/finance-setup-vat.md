@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3ca2883af506af1d98322305ee07a2995470bb2b
+ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
+ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 
@@ -48,7 +48,9 @@ To setup VAT registration numbers, follow these steps:
 2. Choose the country or region, and then choose the **VAT Reg. No. Formats** action.
 3. In the **Formats** field, define the format by entering one or more of the following characters:  
 
-    |----|----| | # | Requires a single-digit number. | | @ | Requires a letter. This is not case-sensitive. | | ? | Allows any character. |
+* # <a name="--requires-a-single-digit-number"></a>- Requires a single-digit number.
+* @ - Requires a letter. This is not case-sensitive.
+* ? - Allows any character.
 
     > [!Tip]
     > You can use other characters as long as they are always present in the country or region format. For example, if you need to include a period or a hyphen between sets of numbers, you can define the format as ##.####.### or @@-###-###.  

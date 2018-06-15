@@ -13,21 +13,21 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f71b0e7d53138be0f89abe4e7935ab7c21437d8e
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Changing Basic Settings
-In the **My Settings** window, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+In the **My Settings** window, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The changes that you make will only affect your workspace; not the workspaces of other users.  
 
 ## <a name="role-center"></a>Role Centre
-The Role Centre represents the starting page and is designed for the needs of the role. The Role Centre provides you with an overview of the business, reflecting the information, tasks, and priorities of your role.
+The Role Centre represents the home page, a starting screen that is designed for the needs of a specific role in an organisation. Depending on your role, the Role Centre gives you an overview of the business, your department, or your personal tasks. It also helps you navigate to your daily tasks and find work that is assigned to you.
 
-Along the top of the Role Centre, you see a navigation bar that gives you easy access to typical entities for the role, such as customers, vendors, items, and so on.
+-   At the top, the navigation allows you to switch between customers, vendors, items, and other important lists of information. Similarly, actions allow you to initiate tasks, such as create a new sales invoice, directly from the Role Centre.
 
-What appears in the main content area will depend on the specific Role Centre. For example, on most Role Centres, you can find the Activities tiles that show current data and can be clicked or tapped for easy access to the selected document. Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. Some Role Centres enable you to build a list of favourite entities, like customers and vendors, or show the Report Inbox.
+-   In the centre, you find **Activities**. Activities show current data and can be clicked or tapped to view more detailed information. Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of favourite customers on the home page for accounts that you do business with often or need to pay special attention to.
 
 ### <a name="to-change-role-center"></a>To change Role Centre
 The default Role Centre is **Business Manager**, but you can select another Role Centre that fits your needs better.
@@ -55,10 +55,16 @@ The default work date is usually today's date. You may have to temporarily chang
 ## <a name="region"></a>Region
 The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.   
 
+
+## <a name="language"></a>Language
+Changes the display language. This field appears only when there is more than one language to choose from. 
+
+The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The language that you set will be used on all devices that you sign in from, such as a phone or tablet. 
+
 ## <a name="changing-when-i-receive-notifications"></a>Changing When I Receive Notifications
 Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Smart Notifications](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
+[Changing Which Features are Displayed](ui-experiences.md)  
 

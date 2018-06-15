@@ -11,19 +11,19 @@ ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: a9753b00b47fc4d74583482b2da92aae5e2f8a74
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: e4f739e13123054527bf3116aec2c8c4133537e6
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
-# <a name="troubleshooting-included365acclongincludesd365acclongmdmd"></a>Troubleshooting [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
-[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
+# <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Troubleshooting [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+[!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-Signing up for [!INCLUDE[d365acc](includes/d365acc_md.md)] is easy and can be done very quickly. Adding clients to the dashboard is also easy, but this article addresses issues that you may have on the way.
+Signing up for [!INCLUDE [d365acc](includes/d365acc_md.md)] is easy and can be done very quickly. Adding clients to the dashboard is also easy, but this article addresses issues that you may have on the way.
 
-## <a name="what-email-address-can-i-use-with-included365accincludesd365accmdmd"></a>What email address can I use with [!INCLUDE[d365acc](includes/d365acc_md.md)]?
-[!INCLUDE[d365acc](includes/d365acc_md.md)] requires that you use a work or school email address to sign up. [!INCLUDE[d365acc](includes/d365acc_md.md)] does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
+## <a name="what-email-address-can-i-use-with-include-d365accincludesd365accmdmd"></a>What email address can I use with [!INCLUDE [d365acc](includes/d365acc_md.md)]?
+[!INCLUDE [d365acc](includes/d365acc_md.md)] requires that you use a work or school email address to sign up. [!INCLUDE [d365acc](includes/d365acc_md.md)] does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
 
 If you try to sign up with a personal email address, you will get a message indicating to use a work or school email address.  
 
@@ -36,15 +36,15 @@ There can be a couple of reasons, including the following:
 - The client's company is currently offline, for example if it being upgraded
 
   In your dashboard, choose the **Tools** menu item, and then choose **Check Errors**. This opens a list with technical details, so you might want to contact your administrator if you're seeing errors. For example, the error message "The server has rejected the client credentials" suggests that you do not have access.  
-- You have not received an email from your client that invites them to their [!INCLUDE[d365fin](includes/d365fin_md.md)], or you did not open the link in the email, or you did not accept the invitation
+- You have not received an email from your client that invites them to their [!INCLUDE [d365fin](includes/d365fin_md.md)], or you did not open the link in the email, or you did not accept the invitation
 
-  You must open the link in the invitation and accept the steps that adds you to your client's [!INCLUDE[d365fin](includes/d365fin_md.md)]. Until then, you do not have access to their data.  
-- You do not have access to all companies in your client's [!INCLUDE[d365fin](includes/d365fin_md.md)]
+  You must open the link in the invitation and accept the steps that adds you to your client's [!INCLUDE [d365fin](includes/d365fin_md.md)]. Until then, you do not have access to their data.  
+- You do not have access to all companies in your client's [!INCLUDE [d365fin](includes/d365fin_md.md)]
 
-  Your client can have multiple business units or companies in [!INCLUDE[d365fin](includes/d365fin_md.md)], and your invitation does not always include all companies. Work with your client to make sure that you have access to the companies that the client wants you to work in.  
+  Your client can have multiple business units or companies in [!INCLUDE [d365fin](includes/d365fin_md.md)], and your invitation does not always include all companies. Work with your client to make sure that you have access to the companies that the client wants you to work in.  
 
 ## <a name="why-doesnt-the-data-refresh-in-my-dashboard"></a>Why doesn't the data refresh in my dashboard?
-When you add a client or request a refresh of the data, [!INCLUDE[d365acc](includes/d365acc_md.md)] fetches the data. But you must refresh the window yourself, such as choosing the "Redisplay all companies" action, refresh the browser window, navigate away from the dashboard and then back again, or similar. This is a known issue that we are working on improving in a later update.  
+When you add a client or request a refresh of the data, [!INCLUDE [d365acc](includes/d365acc_md.md)] fetches the data. But you must refresh the window yourself, such as choosing the "Redisplay all companies" action, refresh the browser window, navigate away from the dashboard and then back again, or similar. This is a known issue that we are working on improving in a later update.  
 
 ## <a name="see-also"></a>See Also
 [Get Started with [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  

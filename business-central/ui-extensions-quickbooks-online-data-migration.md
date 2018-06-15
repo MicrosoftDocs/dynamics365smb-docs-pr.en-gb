@@ -11,10 +11,10 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f84d2bcccb8876588e7292708ba2cc98fcbe50fb
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: a53e9b4199a133678dfa8d001875df7dcdc1a37e
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 
@@ -64,6 +64,6 @@ There are a few things in particular that you should do:
 * Verify the beginning balances for accounts in the general ledger. QuickBooks Online does not store the current balance for all accounts, so you might need to correct beginning balances.
 
 ## <a name="see-also"></a>See Also
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 

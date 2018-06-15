@@ -8,41 +8,48 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/06/2017
+ms.date: 04/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 0c1b37616b4aafc9535f2d3fbf60b915c490dd0b
+ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
+ms.openlocfilehash: 39b48fbd34b29db56b39712fbd2cbf5dc91fefc6
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 
 ---
-# <a name="work-with-checks"></a>Work With Cheques
+# <a name="make-check-payments"></a>Make Cheque Payments
 You can issue electronic and manual checks in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Both methods use the payment journal to issue checks to vendors. You can also void cheques and view cheque ledger entries.
 
-The process of issuing cheques suggests payments, creates ledger entries, and prints the computer cheques.
+The following procedure shows how to pay a vendor with a computer cheque by applying the payment to the relevant vendor invoice, printing the cheque, and then posting the payment as paid. This results in positive vendor ledger entries, applied to negative bank ledger entries, and physical cheques for processing in the bank.
+
+You can pay with two types of cheque. For both types, the **Bal. Account Type** or the **Account Type** field must contain **Bank Account**.
+
+- **Computer Cheque**: Select this option if you want to print a cheque for the amount on the payment journal line. You must print the checks before you can post the journal lines. You can only select **Computer Cheque** if
+- **Manual Cheque**: Select this option if you have created a cheque manually and want to create a corresponding cheque ledger entry for this amount. By using this option, you cannot print the cheque.
 
 > [!NOTE]  
->   To make sure that your bank only clears validated cheques and amounts, you can send them a file that contains vendor, cheque, and payment information. For more information, see [Export a Positive Pay file](finance-how-positive-pay.md).
+> To make sure that your bank only clears validated cheques and amounts, you can send them a file that contains vendor, cheque, and payment information. For more information, see [Export a Positive Pay file](finance-how-positive-pay.md).
 
 Your printer must be correctly set up with the cheque forms, and you must define which cheque layout to use. For more information, see [Define Cheque Layouts](finance-how-define-check-layouts.md)
 
-## <a name="to-issue-checks"></a>To issue cheques
+## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>To pay a vendor invoice with a computer cheque
+The following describes how to pay a vendor by cheque. The steps are similar to refund a customer by cheque.
+
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.
-2. Fill in the journal with relevant payments, for example by using the Suggest Vendor Payments function. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
-3. In the **Bank Payment Type** field on journal lines for payment that you want to make with cheques, select one of the following options:
+2. Fill in the payment journal lines. For more information, see [Record Payments and Refunds](payables-how-post-payments-refunds.md).
+3. In the **Payment Method Code** field, select **Cheque**.
+4. In the **Bank Payment Type** field, select **Computer Cheque**.
+5. Choose the **Print Cheque** action.
+6. In the **Check** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Choose the **Send to** button, select the **PDF Document** option, and then choose the **OK** button.
 
-   * **Computer Cheque**: Select this option if you want to print a cheque for the amount on the payment journal line. You must print the checks before you can post the journal lines. You can only select **Computer Cheque** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.
-   * **Manual Cheque**: Select this option if you have created a cheque manually and want to create a corresponding cheque ledger entry for this amount. By using this option, you cannot print checks from [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can only select **Manual Cheque** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.
+    The physical cheques can now be brought to the bank for processing. Proceed to post the payment as applied to the vendor and thereby paid in the system.
+8. Choose the **Post** action.
 
-     > [!NOTE]  
-     >   You must print computer cheques before you post the related journal lines.
-4. In case of computer cheques, choose **Print Cheque**.
-5. In the **Check** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-6. Choose the **Print** button.
+Fully applied vendor ledger entries and bank ledger entries are created.
 
 > [!NOTE]  
->   If you want to print cheques in more than one currency from different bank accounts, you must run the **Print Cheque** batch job separately for each currency and specify the appropriate bank account.
+> If you want to print and pay cheques in more than one currency from different bank accounts, you must run the **Print Cheque** batch job separately for each currency and specify the appropriate bank account.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>To cancel printed cheques that are not posted
 You can cancel non-posted cheques after they have been printed by using the **Void Cheque** action in the **Payment Journal** window.
@@ -58,7 +65,13 @@ When cheque payment have been posted, you can only cancel (void) cheques from th
 4. Select the **Void Cheque Only** check box.
 5. Choose the **OK** button.
 
+## <a name="to-view-a-summary-of-posted-checks"></a>To view a summary of posted cheques
+If you want to review posted cheques, for example to verify multiple cheques paid to one vendor, you can use the **Bank Account - Cheque Details** report.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account - Cheque Details**, and then choose the related link.
+2. Set filters as relevant, and then choose the **Preview** button.
+
 ## <a name="see-also"></a>See Also
+[Making Payments](payables-make-payments.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Export a Positive Pay file](finance-how-positive-pay.md)  

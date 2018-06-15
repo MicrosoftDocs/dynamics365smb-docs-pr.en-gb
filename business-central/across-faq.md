@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/27/2017
+ms.date: 04/19/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: d015f3c2e4b06a7e93b7b4e0fe678c5066afbb8c
+ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
+ms.openlocfilehash: 24b6001df4937df491be8a90fee806cd0f074830
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Frequently Asked Questions
@@ -45,6 +45,15 @@ This is a bit complicated, but it looks like your administrator didn't change yo
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Why can't I find that capability in my [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Did you read about a new capability in the roadmap or on our blog recently? In that case, your [!INCLUDE[d365fin](includes/d365fin_md.md)] might not have been upgraded to the latest version yet. If the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource.
+
+## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Why are some UI elements that I used in Dynamics NAV not visible in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], the Application Areas system and the Experience options enable you to show/hide relevant parts of the product according to the purchased plan (Essential or Premium) and according to your business needs.
+
+These capabilities have been used to simplify the UI in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, fields that are not commonly used, such as **Fax No.**, have been removed, and on ribbons on lists and cards, duplicate actions are removed and the most-used actions are promoted. A few complete features, such as Comments, are currently being optimised for the web client and are, therefore, not available in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+Accordingly, certain UI elements that are visible in the standard version of Dynamics NAV are not visible in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The controls in question currently have the #Advanced application area tag. 
+
+If you want your [!INCLUDE[d365fin](includes/d365fin_md.md)] solution to contain the same UI elements as your Dynamics NAV solution, you must take a couple of steps in the development environment to surface the #Advanced controls, through an extension. For more information, see [Extending Application Areas](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extending-application-areas).
 
 ## <a name="see-also"></a>See Also
 [Getting Started](product-get-started.md)  

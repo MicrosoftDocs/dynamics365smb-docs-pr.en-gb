@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/07/2017
+ms.date: 04/09/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c3cb26758401d1f1b25b204ce53abcb89970c3ba
+ms.sourcegitcommit: a1ab45cb40669beb901da59469a02bd58b86d3ac
+ms.openlocfilehash: 8782fae0935a609cb991fe869907d9cd8fceccd9
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 # <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>The Microsoft Pay Extension to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
@@ -27,7 +27,7 @@ The Microsoft Pay extension provides the following benefits:
 - Customer payments appear faster on your bank account.
 - Customers have more ways to pay invoices.
 - Microsoft Pay offers a trustworthy payment service, which customers prefer to entering credit card information on unknown web sites.
-- Microsoft Pay offers multiple ways of handling payments, including credit card processing, WePay, PayPal, and other sources.
+- Microsoft Pay offers multiple ways of handling payments, including credit card processing, such as PayPal and Stripe.
 - The Microsoft Pay link can be embedded automatically on every invoice document or by the user.
 - Because this functionality is built as an extension, it gives you full control to enable it when and if your business processes require it.
 

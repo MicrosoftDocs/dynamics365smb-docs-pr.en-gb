@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3e517397fb849e84da42492aaeea36def7dd3a28
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 5508b9336b0e6bffcc47632b95eac3691ab3891c
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Getting Ready for Doing Business
@@ -26,7 +26,7 @@ To help you get ready for doing business, you can visit the **Business Assistanc
 On the Role Centre, in the navigation bar at the top, you will find the **Setup and Extensions** menu. Here you have access to a list of assisted setup that can help you get started. Once you have migrated data such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if the other assisted setup can help you. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup windows where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Basic** experience gives access to fewer than the **Essential** experience does. The first time you sign in, you use the Basic experience. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+>   The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Basic** experience gives access to fewer than the **Essential** experience does. The first time you sign in, you use the Basic experience. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
 
 In the **Assisted Setup** window, you will find the following with the **Basic** experience:
 

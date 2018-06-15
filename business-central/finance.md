@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 02/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 63dd2062d9560ef1a0fca5febfe0499aba437dc3
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: e4cda1f4770117065d1650a0c51dbd46fdf8baac
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="finance"></a>Finance
@@ -58,7 +58,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Purchasing](purchasing-manage-purchasing.md)  
 [Closing Fiscal Periods](year-close-years-periods.md)  
 [Managing Projects](projects-manage-projects.md)    
-[Importing from Other Finance Systems](upload-data.md)  
+[Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
 [Working with General Journals](ui-work-general-journals.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
