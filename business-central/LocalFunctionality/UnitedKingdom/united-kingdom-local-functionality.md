@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/17/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: db11e21b29101dab309d3e9ea8553f1ea657d080
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 9cf1e74a6a6c48940c33ac85c6d1d1df04c17003
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="united-kingdom-local-functionality"></a><span data-ttu-id="ba5f7-103">United Kingdom Local Functionality</span><span class="sxs-lookup"><span data-stu-id="ba5f7-103">United Kingdom Local Functionality</span></span>
@@ -40,5 +40,5 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="ba5f7-121">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ba5f7-121">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+ 
 
