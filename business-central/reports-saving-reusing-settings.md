@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fcfbf5d9c66df986e34e68d98888042d83a53481
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f5225d1f6d0d4ac0020fb073d5df6da83b5c0f5b
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Managing Saved Settings on Reports
@@ -22,7 +22,7 @@ Depending on the report that is run, you might be presented with a page that let
 
 You can see the saved settings that are available to you for a report in **Saved Settings** section of the report request page.  
 
-## <a name="to-apply-saved-settings-to-a-report"></a>To apply saved settings to a report
+## <a name="apply-saved-settings-to-a-report"></a>Apply saved settings to a report
 1. Open the report.
 
    The report request page appears.    
@@ -30,7 +30,7 @@ You can see the saved settings that are available to you for a report in **Saved
 
    The **Saved Settings** section only appears if the report has been run before or if there are existing saved settings entries. The saved settings entry called **Last used options and filters** is always available. These settings are the option and filter values that were used the last time you ran the report.
 
-## <a name="administer-saved-report-settings-for-users"></a>Administer saved report settings for users
+## <a name="create-and-modify-saved-settings-for-all-users"></a>Create and modify saved settings for all users
 If you have the proper permissions, you can view, create, and modify the saved settings for all reports for all users in company. You can assign saved settings for a report to individual users or all users in the company.
 
 You manage saved settings from page 1506 **Reports Settings**. To open this page, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Settings**, and then choose the related link.

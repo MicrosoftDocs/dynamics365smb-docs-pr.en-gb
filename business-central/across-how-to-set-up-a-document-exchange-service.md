@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 043034d281eb4b58fab8ab4344987d5d3ca5f494
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 0e57f02f1689de12e75595a26c489eeda68a4b89
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-a-document-exchange-service"></a>Set Up a Document Exchange Service
@@ -37,12 +37,8 @@ You use an external service provider to exchange electronic documents with your 
     |**Token**|Enter the 3-legged OAuth key for the token. This is provided by the document exchange service provider.|  
     |**Token Secret**|Enter the secret that protects the token. This is provided by the document exchange service provider.|  
 
-> [!NOTE]  
->  It is recommended that you protect the logon information that you enter in the **VAN Service Setup** window. You can encrypt data on the server by generating new or importing existing encryption keys that you enable on the server instance that connects to the database. This is described in the following procedure.  
-
-## <a name="to-encrypt-your-logon-information"></a>To encrypt your logon information  
-1. In the **VAN Service Setup** window, choose the **Encryption Management** action.  
-2. In the **Data Encryption Management** window, enable encryption of your data. <!--For more information, see [Manage Data Encryption](../manage-data-encryption.md).-->  
+    > [!NOTE]  
+    > You login data is automatically encrypted.
 
 ## <a name="see-also"></a>See Also  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  

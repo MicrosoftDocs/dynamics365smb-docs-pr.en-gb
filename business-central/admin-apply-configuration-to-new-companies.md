@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/08/2018
+ms.date: 06/06/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0e06ca0b3c9c5532c40938dd44112f8cd889a27c
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 68a0c21fd79d0fffcb2a7d7eb9aeb161f06fba33
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="apply-configurations-to-new-companies"></a>Apply Configurations to New Companies
@@ -29,7 +29,6 @@ After you have created a configuration package, the next step is to deploy the p
 |Create a new company in which to perform a customer implementation.|[Create a New Company](admin-how-to-create-a-new-company.md)|  
 |Import and apply a configuration package to a new company.|[Configure New Companies](admin-how-to-configure-new-companies.md)|  
 |Use an assisted setup guide to easily complete a company configuration.|[Configure a Company with the RapidStart Wizard](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
-|Load and import a configuration package with PowerShell.|[Configure New Companies using a Cmdlet](admin-how-to-configure-new-companies-using-a-cmdlet.md)|
 |Copy commonly used values from an existing company to a new one, within the same database.|[Copy Data to New Companies](admin-how-to-copy-data-to-new-companies.md)|  
 |Use a batch job to transfer legacy account balances to a newly configured company and then apply the resulting journal entries.|[Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md)|  
 

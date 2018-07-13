@@ -11,10 +11,10 @@ ms.search.keywords: trade, sell
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ef18d7cedac26894d4053fbe72dc3254e328c3dd
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: 6351f2b8a79afa201192addc4960bda6d59448eb
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="sales"></a>Sales
@@ -38,7 +38,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Create a sales quote where you offer products on negotiable terms before converting the quote to a sales invoice. |[Make Offers](sales-how-make-offers.md) |
+| Create a sales quote where you offer products on negotiable terms before converting the quote to a sales invoice. |[Make Sales Quotes](sales-how-make-offers.md) |
 | Create a sales invoice to record your agreement with a customer to sell products on certain delivery and payment terms. |[Invoice Sales](sales-how-invoice-sales.md) |
 | Process a sales order that involves partial shipping or drop shipment. |[Sell Products](sales-how-sell-products.md) |
 |Set up standard sales or purchase lines that you can quickly insert on documents, for example, for recurring replenishment orders.|[Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)|  

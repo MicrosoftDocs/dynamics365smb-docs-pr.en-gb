@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 402745a9c90d1b82779e436f4a6533d2aed1b344
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: 497d19dfdc8c972ff22aa0bcb65d96791bc8390e
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Quote an Assemble-to-Order Sale
@@ -29,7 +29,7 @@ As when you sell any other type of item, you can also create a sales quote for a
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>To create a sales quote for an assemble-to-order item  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Quote**, and then choose the related link.  
-2.  Create a sales quote line with one line for an assembly item. For more information, see [Make Offers](sales-how-make-offers.md).  
+2.  Create a sales quote line with one line for an assembly item. For more information, see [Make Sales Quotes](sales-how-make-offers.md).  
 3.  In the **Qty. to Assemble to Order** field, enter the full quantity.
 
     > [!NOTE]  
@@ -38,7 +38,7 @@ As when you sell any other type of item, you can also create a sales quote for a
 4.  On the **Lines** FastTab, choose **Line**, choose **Assemble to Order**, and then choose **Assemble-to-Order Lines**. Alternatively, choose the **Qty. to Assemble to Order** field on the line.  
 5.  In the **Assemble-to-Order Lines** window, review or modify the assembly order lines according to the quote that the customer is requesting. If you want to view more information, choose the **Show Document** action to open the complete blanket quote order. You cannot change the contents of most fields, and you cannot post.  
 6.  When you have adjusted the assembly order lines according to the quote, close the **Assemble-to-Order Lines** window to return to the **Sales Quote** window.  
-7.  If the customer accepts the quote, then create a sales order for the quoted assembly item. For more information, see [Make Offers](sales-how-make-offers.md). The linked assembly quote and any customisations are linked to that new sales order to prepare for assembly of the item or items to be sold.  
+7.  If the customer accepts the quote, then create a sales order for the quoted assembly item. For more information, see [Make Sales Quotes](sales-how-make-offers.md). The linked assembly quote and any customisations are linked to that new sales order to prepare for assembly of the item or items to be sold.  
 
 ## <a name="see-also"></a>See Also  
 [Assembly Management](assembly-assemble-items.md)  

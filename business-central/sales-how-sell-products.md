@@ -11,10 +11,10 @@ ms.search.keywords: trade
 ms.date: 04/30/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: b3a3c4067c40ff2911c368cc97c94404b9dd66e2
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: ad8936e09a8f093f5855a87c8d78e05839afefc1
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="sell-products"></a>Sell Products
@@ -23,7 +23,7 @@ You create a sales order or sales invoice to record your agreement with a custom
 > [!NOTE]  
 >   You use sales orders if your sales process requires that you can ship parts of an order quantity, for example, because the full quantity is not available at once. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, sales orders work the same way as sales invoices. For more information, see [Invoice Sales](sales-how-invoice-sales.md).
 
-You can negotiate with the customer by first creating a sales quote, which you can convert to a sales order when you agree on the sale. For more information, see [Make Offers](sales-how-make-offers.md).
+You can negotiate with the customer by first creating a sales quote, which you can convert to a sales order when you agree on the sale. For more information, see [Make Sales Quotes](sales-how-make-offers.md).
 
 After the customer has confirmed the agreement, for example after a quote process, you can send an order confirmation to record your obligation to deliver the products as agreed.
 

@@ -1,8 +1,6 @@
 ---
 title: Post Intercompany Documents and Journals| Microsoft Docs
 description: Use intercompany documents to post transactions with your intercompany partners.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/21/2017
+ms.date: 06/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f56dd9746ab065628f5785715153b82fa02a155
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: ab05b9d596af65936d81c649fbace0f250efe076
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Work with Intercompany Documents and Journals
@@ -43,7 +41,7 @@ The following procedure describes how to fill in and send an intercompany sales 
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>To fill in and post an intercompany journal
 When you post an intercompany general journal line in your company, a corresponding journal line is created in your intercompany outbox that you can transfer to your partner. Your partner can then post the corresponding transaction in their company, without having to re-enter the data.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IC General Journals**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany General Journals**, and then choose the related link.  
 2. Open the relevant journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. Fill in the fields as necessary.
 4. In the **IC Partner G/L Acc. No.** field, enter the intercompany general ledger account that the amount will be posted to in your partner's company.
@@ -52,7 +50,7 @@ When you post an intercompany general journal line in your company, a correspond
     > This field must be filled in on a line with a bank account or general ledger account in either the **Account No.** field or the **Bal. Account No.** field.  
 5. Choose the **Post** action.
 
-The involved entries are posted in your company and a journal with the corresponding entries are created in your intercompany outbox that you can send to your partner company. For more information, see [Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md). 
+The involved entries are posted in your company and a journal with the corresponding entries are created in your intercompany outbox that you can send to your partner company. For more information, see [Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md).
 
 ## <a name="see-also"></a>See Also
 [Managing Intercompany Transactions](intercompany-manage.md)  

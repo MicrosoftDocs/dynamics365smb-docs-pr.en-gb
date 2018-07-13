@@ -1,6 +1,6 @@
 ---
 title: Manage Fixed Assets| Microsoft Docs
-description: Learn about the fixed assets functionality in Financials and get an overview of how to work with fixed assets.
+description: Learn about the fixed assets functionality and get an overview of how to work with fixed assets.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 814b3295fdd7a719ce9de9d7da5f1ac0b66a4bfe
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 37e71ef201b771b13fc4393f9a6c3ffab91de163
 ms.contentlocale: en-gb
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="fixed-assets"></a>Fixed Assets
@@ -56,5 +56,5 @@ The following table describes a sequence of tasks, with links to the topics that
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

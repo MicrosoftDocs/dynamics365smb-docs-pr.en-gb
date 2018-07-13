@@ -1,6 +1,6 @@
 ---
 title: Connect Your Data with Flow| Microsoft Docs
-description: You can make your Financials data available as a data source and specify an OData URL of your web services to build an automated workflow.
+description: You can make your Business Central data available as a data source and specify an OData URL of your web services to build an automated workflow.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: a9299fc1b5478ec0592d69b34732822c2d2846e0
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 4dd987ee51cd2b5d8575d6d97ad21d00ec85739a
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in an Automated Workflow

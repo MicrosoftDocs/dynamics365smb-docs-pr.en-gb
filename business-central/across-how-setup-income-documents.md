@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/02/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6381fc0949c3f6789a6b3387d119051403bcbb4a
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: ea5673f341954960852de33cb94ee5722c8dbe26
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-incoming-documents"></a>Set Up Incoming Documents
@@ -48,11 +48,8 @@ When approvers have been set up in the **Incoming Document Approvers** window, o
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **OCR Service Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-encrypt-your-login-information"></a>To encrypt your login information
-It is recommended that you protect the logon information that you enter in the **OCR Service Setup** window. You can encrypt data on the server by generating new or importing existing encryption keys that you enable on the server instance that connects to the database.
-
-1. In the **OCR Service Setup** window, choose the **Encryption Management** action.
-2. In the **Data Encryption Management** window, enable encryption of your data.
+> [!NOTE]  
+> You login data is automatically encrypted.
 
 ## <a name="see-also"></a>See Also
 [Process Incoming Documents](across-process-income-documents.md)  

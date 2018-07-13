@@ -11,10 +11,10 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: d75e50429f58c3834993ee392d274f6c8ba8a00f
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: b885c47a3fd4499b670a89844277a7e34f809f6f
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="accountant-portal-for-dynamics-365-business-central"></a>Accountant Portal for Dynamics 365 Business Central
@@ -25,7 +25,7 @@ The portal includes a highly specialised Role Centre that serves as a dashboard 
 
 When you first install the extension, a sample company helps you get started. You can delete the sample company at any time.  
 
-## <a name="installing-the-extension"></a>Installing the Extension
+## <a name="installing-the-extension"></a>Installing the extension
 When you add the extension to your [!INCLUDE [d365fin](includes/d365fin_md.md)], it replaces your current Role Center and adds permissions to your user profile. As a result, you must sign out and sign in a couple of times.  
 
 ## <a name="see-also"></a>See Also

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 12/20/2017
+ms.date: 05/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 44b9d4b0f1a57920ad4be0ccb4a13f17df88ff3b
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 025c00e6013e773204a12abc7d86c09b3dcef3dd
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="setting-up-finance"></a>Setting Up Finance
@@ -30,6 +30,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | --- | --- |
 | Choose how you pay your vendors. |[Defining Payment Methods](finance-payment-methods.md) |
 | Specify the posting groups that map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. |[Setting Up Posting Groups](finance-posting-groups.md)|
+|Create account schedules and define account categories to define the contents of financial charts and reports, such as the Balance Sheet and Income Statement reports.|[Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)|
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Set up fiscal periods. |[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md) |
 | Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[How To: Report VAT to Tax Authorities](finance-how-report-vat.md)|
@@ -48,5 +49,5 @@ The following table describes a sequence of tasks, with links to the topics that
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

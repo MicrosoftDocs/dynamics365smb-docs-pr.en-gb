@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 01/25/2018
+ms.date: 06/19/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: d5ae63043a6f296de22f71c401a5686f970ad3a0
+ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
+ms.openlocfilehash: 322f55f9233e89e6e6b5a710520b3e5931d9c44a
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/20/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Purchase Items for a Sale
-From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale. You can use two different functions depending on the document type.
+From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale. You can use two different functions depending on the document type.  
+
 |Function|Description|
 |--------|-----------|
 |**Create Purchase Orders**|From a sales order, this function creates a purchase order for each vendor of items on the sales order. You can edit the purchase quantity before you create the purchase orders. Only unavailable sales quantities are suggested.
@@ -57,7 +58,7 @@ To create a single purchase invoice for one or more lines on a sales document by
 5. Select either **All Lines** or **Selected Lines**, and then choose the **OK** button.  
 6. In the list of vendors that appears, select the vendor that you want to buy all the items from, and then choose the **OK** button.
 
-    A purchase invoice is created that contains one, more, or all the lines on the sales invoice.
+    A purchase invoice is created that contains one, more than one, or all the lines on the sales invoice.
 7. Proceed to process the purchase invoice, for example, by editing or adding purchase invoice lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
 ## <a name="see-also"></a>See Also

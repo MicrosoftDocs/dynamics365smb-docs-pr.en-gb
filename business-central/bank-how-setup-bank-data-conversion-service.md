@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/02/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 98d7215b4d8ae476fbc550ea0057e6f71a00a5fd
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 5bf6e0c961e35b2fdb23eb1ba470da0f5c098d81
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Set Up the Bank Data Conversion Service
@@ -44,11 +44,8 @@ To import or export bank files, you must set up your own bank account and your v
 5. In the **Bank Data Conv. Service Setup** window, in the User **Name** field, enter the same value that you entered as logon name on the service provider’s page in step 4.
 6. In the **Password** field, enter the same value that you entered in the **Password** field on the service provider’s page in step 4.
 
-## <a name="to-encrypt-your-login-information"></a>To encrypt your login information
-It is recommended that you protect the logon information that you enter in the **Bank Data Conv. Service Setup** window. You can encrypt data on the [!INCLUDE[d365fin](includes/d365fin_md.md)] server by generating new or importing existing encryption keys that you enable on the [!INCLUDE[d365fin](includes/d365fin_md.md)] server instance that connects to the database.
-
-1. In the **Bank Data Conv. Service Setup** window, choose the **Encryption Management** action.
-2. In the **Data Encryption Management** window, enable encryption of your data.
+> [!NOTE]  
+> You login data is automatically encrypted.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>To view or update the list of currently supported bank data formats
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Data Conv. Service Setup** , and then choose the related link.

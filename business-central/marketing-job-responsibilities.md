@@ -13,10 +13,10 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c62aea1e830b1b37e470fdf7ffbe8227bec41f6
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 7bab8449c957048e49b84eed53647e2921123fe7
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Set Up Job Responsibilities for Contact Persons
@@ -46,5 +46,5 @@ After you have assigned job responsibilities to your contacts, you can use this 
 ## <a name="see-also"></a>See Also
 [Creating Contact Persons](marketing-create-contact-persons.md)  
 [Creating Contact Companies](marketing-create-contact-companies.md)  
-[Working with Financials](ui-work-product.md)
+[Working with Business Central](ui-work-product.md)
 

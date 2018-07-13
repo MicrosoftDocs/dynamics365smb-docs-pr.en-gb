@@ -11,10 +11,10 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: 400b4710bd4e9a26db3b392646581f5225a2d245
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: b90577cbab4167894fe79a3e8e8a0c61ce8c70e9
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 
@@ -47,6 +47,11 @@ If you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)] from the [Trial
 On the Work and School Privacy page, you can also close your account. However, we recommend that you make sure that you have exported and deleted all data first, since deleting your account means that you lose access to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 You can still mark people as blocked due to privacy and export, edit, or delete transactions as explained elsewhere in this article.  
+
+## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Exporting Data from Tables not Classified by Data Subject
+If you have a situation where you have to export data that is not classified in a way so that it gets automatically exported, such as data from the Profile Answers table, you must do the following: 
+-   Consider if you really want or have to export this supplemental data that is unrelated to the contact, meaning that it has no direct relationship to it 
+-   Add this table and relationship manually to the Rapid Start package and export it directly from the Rapid Start package – that’s why we generate a Rapid Start package for you, so that you can tweak it in situations such as this.
 
 ## <a name="handling-data-about-minors"></a>Handling Data About Minors
 If a contact person's age is below the age of legal consent according to the laws in your region, you can indicate that by choosing the **Minor** check box on the **Contact** card. When you do, the **Privacy Blocked** check box is automatically selected. When you receive consent from the minor's parent or legal guardian, you can choose the **Parental Consent Received** check box to unblock the contact. Though you can process personal data for minors, you cannot use the profiling functionality in Microsoft Dynamics 365 for Sales.

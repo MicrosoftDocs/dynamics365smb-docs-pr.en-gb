@@ -13,15 +13,15 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 73d0044308d619f92e0379cc7b678301c72ce31c
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 30f93593985140abd49c6cd4f90a992da793b164
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 
 # <a name="viewing-service-statistics"></a>Viewing Service Statistics
-Financials can provide some statistics that you can use to analyse service documents and determine how well you are managing your service processes. You can analyse service contracts, items, quotes, orders, invoices, and credit memos by choosing the **Statistics** action. For service items and contracts, you can also use the **Service Item Trendscape** or **Contract Trendscape** to view a summary of service ledger entries for a specific service item.   
+You can use statistics to analyse service documents and determine how well you are managing your service processes. You can analyse service contracts, items, quotes, orders, invoices, and credit memos by choosing the **Statistics** action. For service items and contracts, you can also use the **Service Item Trendscape** or **Contract Trendscape** to view a summary of service ledger entries for a specific service item.   
 
 ## <a name="viewing-statistics-for-service-orders"></a>Viewing Statistics for Service Orders
 The service order statistics feature gives you a quick overview of the contents of the entire service order, the details on the specific service lines, and information related to invoicing, shipping and consuming, and the customer's balance.  

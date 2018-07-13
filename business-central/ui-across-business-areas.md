@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: f35e361d083ce9fd497f76cb3b8417fef233438c
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f6a8bca975e37adb436f30ef3d16bbc198f26447
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="general-business-functionality"></a>General Business Functionality
@@ -33,7 +33,7 @@ The following table lists these general business areas with links to topics that
 | Set up standard text codes so you can extend standard text by adding extra lines, and set up conditions for use of the extra lines. |[Defining Extended Text](ui-how-define-ext-text.md) |
 |Create tasks to remind you of work to be done. You can create tasks for yourself, but you can also assign tasks to others or be assigned a task by someone else in your organisation.|[Defining User Tasks](across-user-tasks.md)|
 |Let the system help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself.|[Letting Business Central Suggest Values](ui-let-system-suggest-values.md)|
-|Record external documents in Financials, including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
+|Record external documents, including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
 |Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md)|
 | Set up data exchange definitions so you can send and receive electronic documents. |[Exchanging Data Electronically](across-data-exchange.md) |
 
@@ -42,5 +42,5 @@ The following table lists these general business areas with links to topics that
 [Administration](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

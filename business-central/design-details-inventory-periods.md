@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 99aa0cacdbe6933c5ba16443297d1838b8bfd3ac
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: c4c699204cf8c9e85f38f844a57c8da2e8e8e332
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="design-details-inventory-periods"></a>Design Details: Inventory Periods
@@ -34,5 +34,5 @@ Backdated transactions or cost adjustments often affect balances and stock valua
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md) [Managing Inventory Costs](finance-manage-inventory-costs.md) [Finance](finance.md)  
- [Working with Financials](ui-work-product.md)
+ [Working with Business Central](ui-work-product.md)
 

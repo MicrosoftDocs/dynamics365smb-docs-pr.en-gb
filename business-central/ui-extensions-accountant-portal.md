@@ -11,10 +11,10 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 0e7778f0a118280ef18c2ddb61a1c0b0ee7b2452
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: cb4933268be7f0a571622e6d8eccec6bd9ee2d09
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="accountant-portal-for-business-central"></a>Accountant Portal for Business Central
@@ -34,7 +34,7 @@ For more information, see [Accountant Experiences in Business Central ](finance-
 >  The current version of the extension requires that your clients use [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="using-the-extension"></a>Using the extension
-This extension will be deprecated in a few months. We recommend that you do not install this extension but sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] at [Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) instead.
+This extension will be deprecated in a few months. We recommend that you do not install this extension but sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] at [Business Central for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) instead.
 
 For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).  
 
