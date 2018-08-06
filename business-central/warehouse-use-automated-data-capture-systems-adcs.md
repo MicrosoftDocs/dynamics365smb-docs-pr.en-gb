@@ -8,8 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/18/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
+redirect_url: warehouse-manage-warehouse
 ms.translationtype: HT
 ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
 ms.openlocfilehash: 4b7b4cf17020a122af3d7d9fd9d43fe507a071a1
@@ -94,7 +95,6 @@ When you have created a miniform, the next steps are to create functions and to 
     <xsl:template match="Function[.='F6']">  
       <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
     </xsl:template>  
-
     ```  
 2.  In the [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment, open table 7702 and add a code representing the new key. In this example, create a key that is named **F6**.  
 3.  Add C/AL code to the relevant function of the miniform-specific codeunit to handle the function key.  
