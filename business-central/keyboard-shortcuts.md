@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: 2695ebc582ee2c161b566522bffd62f534fbc013
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 
@@ -59,7 +59,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Home<br />(Fn+Left Arrow)|Move to the first field in the row.|Move to the first tile in the row.||
 |End<br />(Fn+right Arrow)|Move to the last actionable field in the row.|Move to the last tile in the row.||
 |Page Up<br />(Fn+up Arrow)|Move in the same column to the uppermost visible row.|Move in the same column to the uppermost visible row.||
-|Page Down<br />(Fn+down Arrow)|Move in the same column to lowermost visible row.|Move in the same column to the lowermost visible row.||
+|Page Down<br />(Fn+Down Arrow)|Move in the same column to lowermost visible row.|Move in the same column to the lowermost visible row.||
 |Enter<br />(Fn+down Arrow)|Open the record that is associated with the field|Opens the record.| Only relevant if a card page is associated with the record.|
 |Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus moves to the first actionable field in row|Move to the tile in first row in the list||
 |Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus moves to first actionable field in row|Move to the first tile in last row in the list||
@@ -91,6 +91,22 @@ When setting a date field, you can either enter the date manually or open a cale
 |Enter|Select the focused date.|
 |Ctrl+End<br />(Cmd+End)|Close the calendar and delete current the date.|
 |Esc|Close the calendar without a selection, keep current date.|
+
+
+## <a name="keyboard-shortcuts-in-the-report-preview"></a>Keyboard Shortcuts in the Report Preview
+
+|Press these keys<br />(in macOS)|To do this|
+|-----------------|-------|
+|Down Arrow|Scroll down the page.|  
+|Up Arrow|Scroll up the page.|
+|Right Arrow|Scroll to the right when the page is zoomed in so that it is not entirely in view. |
+|Left Arrow|Scroll to the left when the page is zoomed in so that it is not entirely in view. |
+|Ctrl+0 (zero)<br />(Cmd+0)|Fits the entire page in the window. |
+|Ctrl+Home<br />(Cmd+Home)|Go to the first page of the report.|
+|Ctrl+End<br />(Cmd+Home)|Go to the last page of the report.|
+|Page Down<br />(Fn+Down Arrow)|Go to the next page of the report.|
+|Page Upbr />(Fn+Up Arrow)|Go to the previous page of the report.|
+
 
 <!--
 ## Keyboard shortcuts in list (shown as tiles)

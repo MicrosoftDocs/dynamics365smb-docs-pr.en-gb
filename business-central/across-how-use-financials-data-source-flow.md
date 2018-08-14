@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 4dd987ee51cd2b5d8575d6d97ad21d00ec85739a
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: b8c9f05335c76884ba0d61451b0730d64bd1bfce
 ms.contentlocale: en-gb
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 07/30/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in an Automated Workflow
@@ -60,7 +60,7 @@ At this point, you have successfully connected to your Business Central data and
 11. Flow will prompt you to select a company within your [!INCLUDE[d365fin_md](includes/d365fin_md.md)] tenant. Because each step in the flow is independent of the next, you may be required to define the company multiple times when using a [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow template.
 
 > [!NOTE]  
-> The [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow template integrates with the core workflow engine in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. This means that each time you use one of these templates to create a flow, a corresponding workflow is created within [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. For more information, see [Workflow](across-workflow.md).
+> The [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow template integrates with the core workflow engine in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. This means that each time you use one of these templates to create a flow, a corresponding workflow is created within [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Also, the person creating the flow must be set up as an approver in the Assisted Setup guide. For more information, see [Workflow](across-workflow.md).
 
 For more information, see the [Flow Documentation](https://docs.microsoft.com/en-us/flow/getting-started).
 

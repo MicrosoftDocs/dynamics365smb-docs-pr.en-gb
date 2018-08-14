@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 03/16/2018
+ms.date: 07/05/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8f4cb1b2fdd55275fc1a3cba494d1ea4b583b5ed
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: 566594f04a1b189fe2263a945d8bd7d565539930
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Collect Outstanding Balances
@@ -100,6 +100,9 @@ If you create more reminders than you have defined levels for, the conditions fo
 |%12|Content of the **Add. Fee per Line** field on the reminder header|  
 
 For example, if you write **You owe %9 %7 due on %2.**, then the resulting reminder will contain the following text: **You owe GBP 1.200,50 due on 02-02-2014.**.
+
+> [!NOTE]
+> The due date is calculated according to the date formula that you enter. For more information, see the "Using Date Formulas" section in [Entering Date Ranges](ui-enter-date-ranges.md).
 
 After you have set up the reminder terms, with additional levels and text, enter one of the codes on each of the customer cards. For more information, see [Register New Customers](sales-how-register-new-customers.md).
 
