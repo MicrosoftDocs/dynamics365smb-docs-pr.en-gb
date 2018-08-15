@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/20/2018
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
+ms.date: 08/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 4c20da1a46879ddc342250a0e074b0f8097a64ab
+ms.sourcegitcommit: c5e17cf33d61aa45105cd3a195f2d67be5f16676
+ms.openlocfilehash: 3a25dce67299db183a11728e713a5c775232ce70
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/30/2018
+ms.lasthandoff: 08/15/2018
 
 ---
 # <a name="frequently-asked-questions"></a><span data-ttu-id="625d2-103">Frequently Asked Questions</span><span class="sxs-lookup"><span data-stu-id="625d2-103">Frequently Asked Questions</span></span>
@@ -56,6 +56,7 @@ ms.lasthandoff: 07/30/2018
 [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="625d2-145"> is available in a limited number of markets, but new countries are added through Microsoft-led localisation or through partner-led localisation on a quarterly basis.</span><span class="sxs-lookup"><span data-stu-id="625d2-145"> is available in a limited number of markets, but new countries are added through Microsoft-led localization or through partner-led localization on a quarterly basis.</span></span> <span data-ttu-id="625d2-146">For more information, see [Countries and Translations Supported](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).</span><span class="sxs-lookup"><span data-stu-id="625d2-146">For more information, see [Countries and Translations Supported](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).</span></span>  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a><span data-ttu-id="625d2-147">Why are some UI elements that I used in Dynamics NAV not visible in [!INCLUDE[d365fin](includes/d365fin_md.md)]?</span><span class="sxs-lookup"><span data-stu-id="625d2-147">Why are some UI elements that I used in Dynamics NAV not visible in [!INCLUDE[d365fin](includes/d365fin_md.md)]?</span></span>
+
 <span data-ttu-id="625d2-148">In [!INCLUDE[d365fin](includes/d365fin_md.md)], the Application Areas system and the Experience options enable you to show/hide relevant parts of the product according to the purchased plan (Essential or Premium) and according to your business needs.</span><span class="sxs-lookup"><span data-stu-id="625d2-148">In [!INCLUDE[d365fin](includes/d365fin_md.md)], the Application Areas system and the Experience options enable you to show/hide relevant parts of the product according to the purchased plan (Essential or Premium) and according to your business needs.</span></span>
 
 <span data-ttu-id="625d2-149">These capabilities have been used to simplify the UI in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="625d2-149">These capabilities have been used to simplify the UI in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="625d2-150">For example, fields that are not commonly used, such as **Fax No.**, have been removed, and on ribbons on lists and cards, duplicate actions are removed and the most-used actions are promoted.</span><span class="sxs-lookup"><span data-stu-id="625d2-150">For example, fields that are not commonly used, such as **Fax No.**, have been removed, and on ribbons on lists and cards, duplicate actions are removed and the most-used actions are promoted.</span></span> <span data-ttu-id="625d2-151">A few complete features, such as Comments, are currently being optimised for the web client and are, therefore, not available in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="625d2-151">A few complete features, such as Comments, are currently being optimized for the web client and are, therefore, not available in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
