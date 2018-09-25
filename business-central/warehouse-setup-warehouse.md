@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4d57e87363830c521a90f00b552146dd09654f68
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: caa494729c4408334fadd50903f0d17df330409d
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Setting Up Warehouse Management
@@ -40,8 +40,8 @@ A company's distribution strategy is reflected in the configuration of its wareh
 |Define when and how items in warehouse locations are counted for maintenance or financial reporting purposes.|[Count, Adjust, or Reclassify Inventory](inventory-how-count-adjust-reclassify.md)|
 |Enable warehouse workers to break a larger unit of measure into smaller units of measure to fulfil the needs of source documents.|[Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Set up the warehouse to automatically suggest items to be picked that expire first.|[Enable Picking by FEFO](warehouse-picking-by-fefo.md)|
-|Integrate bar code readers to your warehouse management solution.|[Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|  
-|Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|  
+|Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|
+<!-- |Integrate bar code readers to your warehouse management solution.|[Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)| -->  
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

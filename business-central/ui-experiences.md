@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 05/27/2018
+ms.date: 07/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 6ff186cadae5771f131a128b3d3e977800925670
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: f8dd92a5a7398ddce64dd4fce0ce9323014a29a0
 ms.contentlocale: en-gb
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Changing Which Features are Displayed
@@ -36,7 +36,7 @@ The following table lists the experiences that are currently available.
 | **Premium** |Shows all actions and fields for all business functionality, including Manufacturing and Service Management.|
 
 > [!NOTE]  
-> The experiences that you can select from in [!INCLUDE[d365fin](includes/d365fin_md.md)] depend on your solution licence, called a plan. For information about the **Essential** and **Premium** plans, see [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) on the Microsoft Dynamics 365 marketing site. See also the [!INCLUDE[d365fin](includes/d365fin_md.md)] Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
+> The experiences that you can select from in [!INCLUDE[d365fin](includes/d365fin_md.md)] depend on your solution licence, called a plan. For information about the **Essential** and **Premium** plans, see [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) on the Microsoft Dynamics 365 marketing site. See also the [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
 
 > [!IMPORTANT]  
 > All regular users in a solution must be assigned the same plan, Essential or Premium, before that experience can be selected for the company. Accordingly, one user cannot access Premium features if one or more other users can only access Essential features. This is not the case for non-regular users of type Team Member, Internal Admin, External Accountant, and Delegated Admin, who can each be assigned a different plan than other users in the solution.
@@ -69,5 +69,4 @@ You can now proceed to select the new experience.
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 
