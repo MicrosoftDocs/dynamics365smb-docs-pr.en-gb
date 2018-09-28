@@ -7,13 +7,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.search.keywords: write down
-ms.date: 07/17/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3a5503e6afdf2b575a31abb0dffc3b8825c03c53
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d7b9d5eb0e7df3b860dcadd31a1d5133d1b72ba4
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="define-accounting-periods-for-straight-line-depreciation-of-fixed-assets"></a><span data-ttu-id="37571-104">Define Accounting Periods for Straight-Line Depreciation of Fixed Assets</span><span class="sxs-lookup"><span data-stu-id="37571-104">Define Accounting Periods for Straight-Line Depreciation of Fixed Assets</span></span>

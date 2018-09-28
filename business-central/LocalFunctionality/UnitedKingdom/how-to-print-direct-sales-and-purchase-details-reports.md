@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3eb0a56467f36d519320f1d037d30ae4190f36ad
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0c7e7c07976cdcbcdd7f481bef7c789d696bbe1c
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="print-direct-sales-and-purchase-details-reports"></a><span data-ttu-id="4ca1c-103">Print Direct Sales and Purchase Details Reports</span><span class="sxs-lookup"><span data-stu-id="4ca1c-103">Print Direct Sales and Purchase Details Reports</span></span>

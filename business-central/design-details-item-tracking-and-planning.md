@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, item ledger, costing
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6f496530fcf4f0321b71941cdfdaa5fe100e15ee
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 71c327dd10816934d202643644cc5864f190bb78
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-item-application"></a><span data-ttu-id="ba76f-103">Design Details: Item Application</span><span class="sxs-lookup"><span data-stu-id="ba76f-103">Design Details: Item Application</span></span>
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/22/2018
   
 <span data-ttu-id="ba76f-106">In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method.</span><span class="sxs-lookup"><span data-stu-id="ba76f-106">In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method.</span></span> <span data-ttu-id="ba76f-107">For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).</span><span class="sxs-lookup"><span data-stu-id="ba76f-107">For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).</span></span>  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="ba76f-108"> makes two types of item application.</span><span class="sxs-lookup"><span data-stu-id="ba76f-108"> makes two types of item application.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="ba76f-108">makes two types of item application.</span><span class="sxs-lookup"><span data-stu-id="ba76f-108"> makes two types of item application.</span></span>  
   
 |<span data-ttu-id="ba76f-109">Application type</span><span class="sxs-lookup"><span data-stu-id="ba76f-109">Application type</span></span>|<span data-ttu-id="ba76f-110">Description</span><span class="sxs-lookup"><span data-stu-id="ba76f-110">Description</span></span>|  
 |----------------------|---------------------------------------|  
@@ -239,7 +239,7 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="ba76f-524">You want to overrule the application created automatically when posting, according to the item’s costing method.</span><span class="sxs-lookup"><span data-stu-id="ba76f-524">You want to overrule the application created automatically when posting, according to the item’s costing method.</span></span>  
 * <span data-ttu-id="ba76f-525">You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.</span><span class="sxs-lookup"><span data-stu-id="ba76f-525">You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.</span></span>  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="ba76f-526"> offers a feature for analyzing and correcting item applications.</span><span class="sxs-lookup"><span data-stu-id="ba76f-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="ba76f-527">This work is performed in the **Application Worksheet** window.</span><span class="sxs-lookup"><span data-stu-id="ba76f-527">This work is performed in the **Application Worksheet** window.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="ba76f-526">offers a feature for analyzing and correcting item applications.</span><span class="sxs-lookup"><span data-stu-id="ba76f-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="ba76f-527">This work is performed in the **Application Worksheet** window.</span><span class="sxs-lookup"><span data-stu-id="ba76f-527">This work is performed in the **Application Worksheet** window.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="ba76f-528">See Also</span><span class="sxs-lookup"><span data-stu-id="ba76f-528">See Also</span></span>  
 [<span data-ttu-id="ba76f-529">Design Details: Inventory Costing</span><span class="sxs-lookup"><span data-stu-id="ba76f-529">Design Details: Inventory Costing</span></span>](design-details-inventory-costing.md)  
