@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.search.keywords: write down
-ms.date: 07/17/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
