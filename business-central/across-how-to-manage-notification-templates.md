@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d6c7637527c9a93024ee62dbdd32ba63d665661d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-notification-templates"></a>Manage Notification Templates
@@ -27,7 +27,7 @@ Notifications are sent to workflow users to notify them about steps they must ma
  The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains three notification templates, one for notifying about approval requests, one for notifying about new records, and one for notifying about overdue approval requests. The three predefined notification templates support **Email** and **Note** as notification method. To view the content of the three notification templates, see the “Content of the Notification Templates” section in this topic.
 
 ## <a name="to-create-a-new-notification-template"></a>To create a new notification template  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Notification Templates**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Notification Templates**, and then choose the related link.  
 2.  In the **Notification Templates** window, choose the **New** action.  
 3.  Fill the fields as described in the following table.  
 
@@ -40,7 +40,7 @@ Notifications are sent to workflow users to notify them about steps they must ma
     |**Default**|Specify if the notification template will be used by default.|  
 
 ## <a name="to-modify-a-notification-template"></a>To modify a notification template  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Notification Templates**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Notification Templates**, and then choose the related link.  
 2.  In the **Notification Templates** window, select the notification template that you want to modify.  
 3.  Choose the **Export Template Content** action.  
 4.  In the **Export File** window, choose the **Save** button, and then name and save the HTML file in an appropriate location.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ab66e5b2404f512816d1a4fcb3b110a95265e1f7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a107203cf81b149b920944db1fabace6e434221a
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="creating-cost-budgets"></a>Creating Cost Budgets
@@ -24,14 +24,14 @@ Budgeting in cost accounting resembles budgeting in the general ledger. A cost b
 
 A cost budget is created for a certain period of time, for example, a fiscal year. You can create as many cost budgets as needed. You can create a new cost budget manually, or by importing a cost budget, or by copying an existing cost budget as the budget base. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
 
-You use the following windows to create and analyse cost budgets. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon to find a window, and then read the tooltip for each.
+You use the following windows to create and analyse cost budgets. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon to find a window, and then read the tooltip for each.
 
 |To|See|  
 |--------|---------|  
 |Transfer budgets from the general ledger.|**Copy G-L Budget to Cost Acctg.** batch job|  
 |Copy cost budgets.|**Copy Cost Budget** batch job|  
-|Allocate budgets.|**Cost Allocation** page|  
-|See cost budget registers and cost budget entries.|**Cost Budget Registers** page|  
+|Allocate budgets.|**Cost Allocation** window|  
+|See cost budget registers and cost budget entries.|**Cost Budget Registers** window|  
 |Print cost budget comparisons using various reports.|**Cost Acctg. Balance-Budget** report<br /><br /> **Cost Acctg. Statement-Budget** report<br /><br /> **Cost Budget by Cost Centre** report<br /><br /> **Cost Budget by Cost Object** report|  
 
 ## <a name="see-also"></a>See Also  

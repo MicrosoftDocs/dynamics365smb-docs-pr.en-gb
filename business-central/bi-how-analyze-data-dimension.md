@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 94d783a806b56e972f16ebe1e0d383582cd72126
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5176b7c04c09b9357041ec4fed5ed37c385d13ce
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analyse Data by Dimensions
@@ -30,7 +30,7 @@ Analyzing data by dimensions gives you greater insight into your business, so yo
 ## <a name="to-set-up-an-analysis-view"></a>To set up an analysis view  
 An analysis by dimensions displays a selected combination of dimensions. You can store and retrieve each analysis you have set up. The information for setting up an analysis is stored on an **Analysis View** card to simplify future analysis.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Analysis Views**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.  
 2. In the **Analysis View List** window, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. To add other dimension codes in addition to the four on the **Dimensions** FastTab, choose the **Filter** action, fill in the fields, and then choose the **OK** button.  
@@ -42,7 +42,7 @@ You can use the **Analysis by Dimensions** matrix to view the amounts in your ge
 - The leftmost columns contain information based on what you have selected in the **Show as Lines** field in the header.  
 - The rightmost columns contain information based on to what you have selected in the **Show as Columns** field in the header.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Analysis by Dimensions**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis by Dimensions**, and then choose the related link.  
 2. Select the relevant analysis view, and then choose the **Edit Analysis View** action.
 3. At the top of the **Analysis by Dimensions** window, fill in the fields to define what is shown.
 4. 5. To see a specification of an amount shown in the matrix window, choose the amount.  
@@ -61,7 +61,7 @@ The amounts that are displayed in the **Analysis by Dimensions** window give you
 
 The following procedure is for updating an analysis view from the **Analysis by Dimensions** window. The steps are similar from the **Analysis View Card** and the **Analysis View List** windows.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Analysis by Dimensions**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis by Dimensions**, and then choose the related link.  
 2. In the **Analysis by Dimensions** window, choose the **Analysis View Code** field.  
 3. Select the line with the relevant analysis view.  
 4. Choose the **Update** action.  

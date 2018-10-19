@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9dfee6403b451dc728c0fe37c0a5fff77d8133f6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ab76136c7f28e322bbc3b52a0fec354c6c13f3ff
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Walkthrough: Setting Up and Invoicing Sales Prepayments
@@ -64,7 +64,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
 The following procedures describe how to complete Phyllis' tasks:  
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>To set up number series for prepayments  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
 2.  In the **Sales & Receivables Setup** window, expand the **Numbering** FastTab.  
 3.  Verify that the number series for posted prepayment invoices in the **Posted Prepmt. Inv. Nos.** field is the same as for posted sales invoices (**Posted Invoice Nos.**) and the number series for posted prepayment credit memos (**Posted Prepmt. Cr. Memo Nos.**) is the same as for posted credit memos (**Posted Credit Memo Nos.**).  
 
@@ -78,11 +78,11 @@ By default, Phyllis requires customer 20000 to be invoiced for a 30% down paymen
 Phyllis requires all customers to be invoiced a 20% deposit for item 1100. Customer 20000 has a poor payment history. Therefore, she requires a 40% prepayment from customer 20000 for item 1100. The following procedure illustrates how to set up default prepayment percentages.  
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>To assign default prepayment percentages to customers and items  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2.  Open the card for customer 20000 (Selangorian).
 3.  In the **Prepayment %** field, type **30**.  
 4.  Choose the **OK** button to close the customer card.  
-5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 6.  Open the card for customer 1100.
 7.  Choose the **Prepayment Percentages** action.  
 8.  Fill in two lines in the **Sales Prepayment Percentages** window as follows.  
@@ -98,7 +98,7 @@ Phyllis requires all customers to be invoiced a 20% deposit for item 1100. Custo
 9. Close all windows.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>To specify an account for sales prepayments in general posting setup  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Posting Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
 2.  Select the line where the **Gen. Bus. Posting Group** field is set to **EXPORT**, and the **Gen. Prod. Posting Group** field is set to **RETAIL**, and then choose the **Edit** action.  
 3.  In the **General Posting Setup Card** window, in the **Sales Prepayments Account** field, specify the relevant account.  
 4.  Choose the **OK** button.  
@@ -111,7 +111,7 @@ The customer requests to be able to pay 35%, to which Susan can agree. Therefore
 Susan creates the prepayment invoice and sends it to the customer.  
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>To create a sales order with a prepayment  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  In the **Sell-to Customer No.** field, select **20000**.  
 5.  Accept the overdue balance warning that is displayed.  
@@ -173,7 +173,7 @@ The customer pays the prepayments amount and Arnie, who works in the accounts de
 
 #### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>To apply a payment to the prepayment invoices  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journals**, and then choose the related link.  
 2.  Fill in a journal line with the following information.  
 
     |Field name|Enter|  
@@ -202,7 +202,7 @@ Now Arnie has been informed that the items on the order have been shipped and th
 
 Arnie can view the history to verify that the sales invoice was created as intended.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 
 ## <a name="next-steps"></a>Next Steps  
 This walkthrough has taken you through steps to set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to handle prepayments. You have set up default prepayment percentages on customers and items, and you have also used different methods to calculate the prepayments on an order. You have tried to assign one total prepayment amount to the order, and you have had the prepayment amount calculated as a percentage of the whole order.  

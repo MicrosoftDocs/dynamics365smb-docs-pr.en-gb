@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 825e901b4126dc1ba317527862eb459559ecb538
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f930a9a2e303c0dcc0a3604cc43b919690d6f96f
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Walkthrough: Setting Up and Using a Purchase Approval Workflow
@@ -58,7 +58,7 @@ You must create a new user on the local computer and in [!INCLUDE[d365fin](inclu
 7.  Close the **Local Users and Groups** window.  
 
 ### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>To add Alicia as a user in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
 2.  In the **Windows Users** window, on the **Home** tab, in the **New** group, choose **New**.  
 3.  In the **User Card** window, in the **User Name** field, enter Alicia.  
 4.  In the **Windows User Name** field, choose the AssistEdit button.  
@@ -72,7 +72,7 @@ You must create a new user on the local computer and in [!INCLUDE[d365fin](inclu
 Using the Windows user that you have just created, set Alicia up as an approval user whose approver is yourself. Set up your approval rights and specify how and when you are notified of approval requests.  
 
 ### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>To set up yourself and Alicia as approval users  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Approval User Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.  
 2.  In the **Approval User Setup** window, on the **Home** tab, in the **New** group, choose **New**.  
 
     > [!NOTE]  
@@ -103,7 +103,7 @@ Specify how and when you are notified of approval requests.
  Create the purchase order approval workflow by copying the steps from the Purchase Order Approval Workflow workflow template. Leave the existing workflow steps unchanged, and then enable the workflow.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>To create and enable a purchase order approval workflow  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2.  In the **Workflows** window, on the **Actions** tab, in the **General** group, choose **Create Workflow from Template**.  
 3.  On the **Actions** tab, in the **General** group, choose **Create Workflow from Template**. The **Workflow Templates** window opens.  
 4.  Select the workflow template named Purchase Order Approval Workflow, and then choose the **OK** button.  
@@ -115,7 +115,7 @@ Specify how and when you are notified of approval requests.
 Make sure that a job queue in your installation is set up to handle workflow notifications.  
 
 ### <a name="to-start-the-notify-job-queue"></a>To start the NOTIFY job queue  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queues**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queues**, and then choose the related link.  
 2.  In the **Job Queues** window, select the line for the NOTIFY job queue, and then, on the **Home** tab, in the **Process** group, choose **Start Job Queue**.  
 
 ## <a name="using-the-approval-workflow"></a>Using the Approval Workflow  
@@ -133,7 +133,7 @@ To log into [!INCLUDE[d365fin](includes/d365fin_md.md)] as different users, you 
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>To request approval of a purchase order, as Alicia  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2.  Select the line for open purchase order 104001, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
 3.  In the **Purchase Order** window, on the **Actions** tab, in the **Approval** group, choose **Send Approval Request**.  
 

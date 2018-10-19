@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 07/02/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 33987f37c170af9982b86baf20f0c3e0682de2cd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 057db7c39834c7be0fb93589e4fc58d740dd259c
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Managing Customers and Sales Created in Dynamics 365 for Sales
@@ -99,7 +99,7 @@ To import an existing Sales solution, the setup guide uses an administrative acc
 * System Administrator  
 * Solution Customizer  
 
-For more information, see [Create users in Microsoft Dynamics 365 (online) and assign  security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) and [Manage Users and Permissions](ui-how-users-permissions.md).  
+For more information, see [Create users in Microsoft Dynamics 365 (online) and assign  security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) and [Managing Users and Permissions](ui-how-users-permissions.md).  
 
 This account is only used during the setup. Once the solution is imported into [!INCLUDE[d365fin](includes/d365fin_md.md)], the account is no longer needed.
 
@@ -147,7 +147,7 @@ If the item description on the original sales order is very long, then an additi
 [Relationship Management](marketing-relationship-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  
-[Manage Users and Permissions](ui-how-users-permissions.md)    
+[Managing Users and Permissions](ui-how-users-permissions.md)    
 [Onboard your organisation and users to Dynamics 365 (online)](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

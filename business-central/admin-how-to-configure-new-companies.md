@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b9e701f102f1a2fc7ccbd4882dfec37f65cfe3b7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="configure-new-companies"></a>Configure New Companies
@@ -28,15 +28,15 @@ The following procedures assume that you have initialised and opened your new co
 
 ## <a name="to-import-a-configuration-package"></a>To import a configuration package  
 1. Open the new company in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
-2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then select the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then select the related link.  
 3. Choose the **Import Package** action.  
 4. Navigate to the location where you have saved the .rapidstart configuration package file, and then choose the **Open** button.  
-5. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link. Enter information about the company in the company information card. Include information, such as bank details. You can also provide a logo for the company.  
+5. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link. Enter information about the company in the company information card. Include information, such as bank details. You can also provide a logo for the company.  
 
 All the tables that you have designated for inclusion in the new company are imported. At this point, you can apply the package data to the database, or adjust and modify the table data to meet your customer specifications.  
 
 ## <a name="to-apply-package-data"></a>To apply package data  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then select the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then select the related link.  
 2. Select a table that you want to modify data for, and then choose the **Apply Data** action. Choose the **Yes** button to confirm the application.
 3. To confirm that the data is now in the database and that the application has succeeded, return to the **Config. Worksheet** window and choose the **Database Data** action.  
 
@@ -44,7 +44,7 @@ All the tables that you have designated for inclusion in the new company are imp
 >  After you apply data, you can only see it in the database. It is no longer in the package.  
 
 ## <a name="to-modify-and-apply-package-data"></a>To modify and apply package data  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then select the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then select the related link.  
 2. Select a table that you want to modify data for, and then choose the **Package Data** action.  
 3. In the **Config. Package Records** window, make your modifications. For example, you can delete options that do not apply.  
 4. Choose the **Apply Data** action, and then choose the **OK** button.  
@@ -53,7 +53,7 @@ All the tables that you have designated for inclusion in the new company are imp
 ## <a name="to-locate-and-identify-a-configuration-error"></a>To locate and identify a configuration error  
 There are certain types of errors that may occur when you apply data to a database. The most common error is that required related tables were not included. You fix such errors in the configuration worksheet.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then select the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then select the related link.  
 2. Select the package you want to review, and then choose the **Edit** action.  
 
     Any table that has errors is highlighted. The number of package errors is displayed in the **No. of Package Errors** field.  
@@ -62,7 +62,7 @@ There are certain types of errors that may occur when you apply data to a databa
 
 ### <a name="to-fix-an-error"></a>To fix an error  
 1. Open the company that is based on your configuration package.  
-2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then select the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then select the related link.  
 3. Fix errors, such as add missing related tables to the worksheet.  
 4. Add the tables to the existing configuration package, or create a new package that only contains the new tables. For more information, see [Prepare a Configuration Package](admin-how-to-prepare-a-configuration-package.md).  
 5. Reopen the new company that you are implementing the configuration for.  

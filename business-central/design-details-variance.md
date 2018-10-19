@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f01c57c3686764866c9d2a3c25d426e7f9a986a6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 36062fc6fa40c3fc2b928ffad7e3b242634149fc
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-variance"></a>Design Details: Variance
@@ -40,7 +40,7 @@ Variance is defined as the difference between the actual cost and the standard c
 
  The following table shows the resulting value entries.  
 
- ![Purchase variance calculation](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+ ![Purchase variance calculation](media/design_details_inventory_costing_11_purchase_variance.png "Purchase variance calculation")  
 
 ## <a name="determining-the-standard-cost"></a>Determining the Standard Cost  
  The standard cost is used when calculating variance and the amount to capitalise. Since the standard cost can be changed over time because of manual update calculation, you need a point in time when the standard cost is fixed for variance calculation. This point is when the inventory increase is invoiced. For produced or assembled items, the point when standard cost is determined is when the cost is adjusted.  
@@ -50,16 +50,16 @@ Variance is defined as the difference between the actual cost and the standard c
 |Cost Share|Purchased Item|Produced/Assembled Item|  
 |----------------|--------------------|------------------------------|  
 |**Standard Cost**||Single-Level Material Cost + Single-Level Capacity Cost + Single-Level Subcontrd. Cost + Single-Level Cap. Ovhd. Cost + Single-Level Mfg. Ovhd. Cost|  
-|**Single-Level Material Cost**|Unit Cost|![Equation 1](media/design_details_inventory_costing_11_equation_1.png "design_details_inventory_costing_11_equation_1")|  
-|**Single-Level Capacity Cost**|Not applicable|![Equation 2](media/design_details_inventory_costing_11_equation_2.png "design_details_inventory_costing_11_equation_2")|  
-|**Single-Level Subcontrd. Cost**|Not applicable|![Equation 3](media/design_details_inventory_costing_11_equation_3.png "design_details_inventory_costing_11_equation_3")|  
-|**Single-Level Cap. Ovhd Cost**|Not applicable|![Equation 4](media/design_details_inventory_costing_11_equation_4.png "design_details_inventory_costing_11_equation_4")|  
+|**Single-Level Material Cost**|Unit Cost|![Equation 1](media/design_details_inventory_costing_11_equation_1.png "Equation 1")|  
+|**Single-Level Capacity Cost**|Not applicable|![Equation 2](media/design_details_inventory_costing_11_equation_2.png "Equation 2")|  
+|**Single-Level Subcontrd. Cost**|Not applicable|![Equation 3](media/design_details_inventory_costing_11_equation_3.png "Equation 3")|  
+|**Single-Level Cap. Ovhd Cost**|Not applicable|![Equation 4](media/design_details_inventory_costing_11_equation_4.png "Equation 4")|  
 |**Single-Level Mfg. Ovhd Cost**|Not applicable|(Single-Level Material Cost + Single-Level Capacity Cost + Single-Level Subcontrd. Cost) * Indirect Cost % / 100 + Overhead Rate|  
-|**Rolled-up Material Cost**|Unit Cost|![Equation 5](media/design_details_inventory_costing_11_equation_5.png "design_details_inventory_costing_11_equation_5")|  
-|**Rolled-up Capacity Cost**|Not applicable|![Equation 6](media/design_details_inventory_costing_11_equation_6.png "design_details_inventory_costing_11_equation_6")|  
-|**Rolled-Up Subcontracted Cost**|Not applicable|![Equation 7](media/design_details_inventory_costing_11_equation_7.png "design_details_inventory_costing_11_equation_7")|  
-|**Rolled-up Capacity Ovhd. Cost**|Not applicable|![Equation 8](media/design_details_inventory_costing_11_equation_8.png "design_details_inventory_costing_11_equation_8")|  
-|**Rolled-up Mfg. Ovhd. Cost**|Not applicable|![Equation 9](media/design_details_inventory_costing_11_equation_9.png "design_details_inventory_costing_11_equation_9")|  
+|**Rolled-up Material Cost**|Unit Cost|![Equation 5](media/design_details_inventory_costing_11_equation_5.png "Equation 5")|  
+|**Rolled-up Capacity Cost**|Not applicable|![Equation 6](media/design_details_inventory_costing_11_equation_6.png "Equation 6")|  
+|**Rolled-Up Subcontracted Cost**|Not applicable|![Equation 7](media/design_details_inventory_costing_11_equation_7.png "Equation 7")|  
+|**Rolled-up Capacity Ovhd. Cost**|Not applicable|![Equation 8](media/design_details_inventory_costing_11_equation_8.png "Equation 8")|  
+|**Rolled-up Mfg. Ovhd. Cost**|Not applicable|![Equation 9](media/design_details_inventory_costing_11_equation_9.png "Equation 9")|  
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   

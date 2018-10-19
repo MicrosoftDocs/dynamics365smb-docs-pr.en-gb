@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 15/01/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5aa1a2c09e5d4ecc2af04aa9d8b3758d96dc7b3f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b4469b91f8bb377e4fef5700063d6085ac700605
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-prepayments"></a>Set Up Prepayments
@@ -29,7 +29,7 @@ Because the prepaid amount belongs to the buyer until they have received the goo
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>To add prepayment accounts to the general posting setup  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Posting Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.
 2. In the **General Posting Setup** window, fill in the following fields:  
 
     - **Sales Prepayments Account**  
@@ -39,13 +39,13 @@ If you have not already set up general ledger accounts for prepayments, you can 
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>To set up number series for prepayment documents  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
 2. In the **Sales & Receivables Setup** window, fill in the following fields:  
 
    - **Posted Prepmt. Inv. Nos.**
    - **Posted Prepmt. Cr. Memo Nos.**
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.
 2. In the **Purchases & Payables Setup** window, fill in the following fields:
 
     - **Posted Prepmt. Inv. Nos.**
@@ -57,13 +57,13 @@ If you have not already set up general ledger accounts for prepayments, you can 
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>To set up prepayment percentages for items, customers, and vendors  
 For an item, you can set up a default prepayment percentage for all customers, a specific customer, or a customer price group.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Select an item, and then choose the **Prepayment Percentages** action.  
 3. In the **Sales Prepayment Percentages** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 For a customer or vendor, you can set up one default prepayment percentage for all items and all types of sales lines. You enter this on the customer or vendor card.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the card for a customer.
 3. Fill in the **Prepayment %** field.
 4. Repeat the steps for other customers or for vendors.  

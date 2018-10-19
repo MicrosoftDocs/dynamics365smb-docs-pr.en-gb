@@ -8,41 +8,41 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1113f371caf00b693144d0ea6f74aed49bbbc9df
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0a94a47a2c32fc38792fbfc3285e9d0e4659ccf1
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="dimension-set-entries-overview"></a>Dimension Set Entries Overview
 This topic describes how dimension set entries are stored and posted in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-  
+
 ## <a name="dimension-sets"></a>Dimension Sets  
 A dimension set is a unique combination of dimension values. It is stored as dimension set entries in the database. Each dimension set entry represents a single dimension value. The dimension set is identified by a common dimension set ID that is assigned to each dimension set entry that belongs to the dimension set.  
-  
+
 The following example shows a dimension set that has three dimension set entries. The dimension set is identified by a dimension set ID, which is 108.  
-  
+
 |Dimension Set ID|Dimension Code|Dimension Value Code|Dimension Value Name|  
 |----------------------|--------------------|--------------------------|--------------------------|  
 |108|AREA|70|America North|  
 |108|BUSINESSGROUP|HOME|Home|  
 |108|DEPARTMENT|SALES|Sales|  
-  
+
 ## <a name="dimension-set-entries"></a>Dimension Set Entries  
 Dimension sets are stored in the **Dimension Set Entry** table as dimension set entries with the same dimension set ID.  
-  
-![Dimension Entry overview](media/dimensionentrynav7.png "DimensionEntryNAV7")  
-  
+
+![Flow of dimension set entries](media/dimensionentrynav7.png "Flow of dimension set entries")  
+
 When you create a new journal line, document header, or document line, you can specify a combination of dimension values. Instead of explicitly storing each dimension value in the database, a dimension set ID is assigned to the journal line, document header, or document line to specify the dimension set.  
-  
+
 When you edit and close the **Edit Dimension Set Entries** window, a check is performed to see whether the combination of dimension values exists as a dimension set in the table. If the combination occurs in the table, then the corresponding dimension set ID is assigned to the journal line, document header, or document line. Otherwise, a new dimension set is added to the table, and the new dimension set ID is assigned to the journal line, document header, or document line.  
-  
+
 ## <a name="performance-improvement"></a>Performance Improvement  
 By storing dimension sets once in the database, database space is preserved, and overall performance is improved.  
-  
+
 ## <a name="see-also"></a>See Also  
 [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   
 [Design Details: Table Structure](design-details-table-structure.md)   

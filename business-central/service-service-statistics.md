@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 30f93593985140abd49c6cd4f90a992da793b164
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5af0da45b27c70bc2b25fbad22f83479e9543432
 ms.contentlocale: en-gb
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -87,14 +87,14 @@ A contract gain or loss entry is generated when a contract quote is converted to
 |**Contract Gain/Loss (Reasons)**|To view the contract gain/loss by reason code.|  
 |**Contract Gain/Loss (Resp.Ctr)**|To view the contract gain/loss by responsibility centre.|  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter the name of the page to display, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the page to display, and then choose the related link.  
 2. Fill in the filter criteria you want to apply. For example, in the **Contract Gain/Loss (Reasons)** window, choose a value for **Reason Code Filter**.  
 3. Choose the **Show Matrix** action.
 
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Viewing Statistics for Posted Service Documents
 The service statistics feature lets you gain a statistical overview of the contents of posted service documents, such as a posted shipment, posted invoice, and posted credit memo.  
 
-The statistical information is displayed in the statistics window for the corresponding posted service document. You can open the relevant statistics window from posted service shipment, posted service invoice, or posted service credit memo documents. For each of these document types, on the **Home** tab, in the **Process** group, choose **Statistics**. For example, from the **Posted Service Invoices** window, on the **Home** tab, in the **Process** group, choose **Statistics**.  
+The statistical information is displayed in the statistics window for the corresponding posted service document. You can open the relevant statistics window from posted service shipment, posted service invoice, or posted service credit memo documents. For each of these document types, in the **Home** tab, in the **Process** group, choose **Statistics**. For example, from the **Posted Service Invoices** window, on the **Home** tab, in the **Process** group, choose **Statistics**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Posted Service Shipment Statistics  
 The **Service Shipment Statistics** window provides an overview of a posted service shipment. This includes information about the physical contents of the shipment, such as quantity of the shipped items, resource hours or costs, and weight and volume of the shipped items.  

@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6114149372b786c20ee7edbe13022abe688ed9a2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fad67a87a2b78a0e3b550599b82ceabc7a7f2afe
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-capacities"></a>Post Capacities
 In the capacity journal, you post consumed capacities that are not assigned to the production order. For example, maintenance work must be assigned to capacity, but not to a production order.  
 
 ## <a name="to-post-capacities"></a>To post capacities  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Capacity Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Capacity Journals**, and then choose the related link.  
 2.  Fill in the **Posting Date** and **Document No.** fields.  
 3.  In the **Type** field, enter the type of the capacity, either **Machine Centre** or **Work Centre**, that you are posting.  
 4.  In the **No.** field, enter the number of the machine centre or work centre.  
@@ -32,7 +32,7 @@ In the capacity journal, you post consumed capacities that are not assigned to t
 
 ## <a name="to-view-work-center-ledger-entries"></a>To view work centre ledger entries  
 In the **Work Centre Card** and **Machine Centre Card** windows, you can view the posted capacities as a result of finished production orders.    
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Centres**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.  
 2.  Open the relevant **Work Centre** card from the list, and then choose the **Capacity Ledger Entries** action.  
 
 The **Capacity Ledger Entries** window displays the posted entries from the work centre in the order they were posted.   

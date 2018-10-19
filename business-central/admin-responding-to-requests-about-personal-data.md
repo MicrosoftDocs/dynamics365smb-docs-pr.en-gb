@@ -5,16 +5,16 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 05/25/2018
+ms.date: 10/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: b90577cbab4167894fe79a3e8e8a0c61ce8c70e9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ec3efb324420956763c9db272c12c22241b86e55
 ms.contentlocale: en-gb
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -31,7 +31,7 @@ The following table provides examples of the types of requests you can respond t
 |Request Type|Description and Suggested Response|
 |-----|-----|
 |Portability requests|A data subject can make a data portability request, meaning, in part, that you must export the data subject's personal data from your systems and provide it in in a structured, commonly used format. To respond to these requests you can use the **Data Privacy Utility** to export personal data to an Excel file or a RapidStart configuration package. Using Excel, you can edit the personal data and save it in a commonly used, machine-readable format, such as .csv or .xml. For RapidStart configuration packages, you can configure master data tables and their related tables that contain personal data. <br><br> **Note:** When you export data you specify a minimum sensitivity level. The export will include the minimum and all sensitivity levels above it. For example, if you choose to export data that is classified as Personal, the export will also include data that is classified as Sensitive. <br><br>When exporting data related to a data subject, the **Data Privacy Utility** looks for direct relationships between the data subject and data related to the data subject. Indirect relationships between data related to the data subject and other data are not exported automatically by the **Data Privacy Utility**. For example, the Contact table has directly related Contact Profile Answers data, and the Contact Profile Answers table is futher related to Profile Questions data. If you want to export Profile Questions as well, you must add this table manually as a row with the appropriate filters in the configuration package that the **Data Privacy Utility** creates.|
-|Requests for deletion|A data subject can request that you delete their personal data. There are several ways to delete personal data using the customisation capabilities, but the decision and implementation is your responsibility. In some cases, you may choose to directly edit your data, for example deleting a contact and then running the Delete Cancelled Interaction batch job to delete interactions for the contact. <br><br> **Note:** If you have specified a date in the **Allow Document Deletion Before** field on the **Sales & Receivables Setup** or **Purchases & Payables Setup** pages, you might need to change the date so that you can delete posted sales and purchase documents that you have printed and that have posting dates on or before that date.|
+|Requests for deletion|A data subject can request that you delete their personal data. There are several ways to delete personal data using the customisation capabilities, but the decision and implementation is your responsibility. In some cases, you may choose to directly edit your data, for example deleting a contact and then running the Delete Cancelled Interaction batch job to delete interactions for the contact. <br><br> **Note:** If you have specified a date in the **Allow Document Deletion Before** field on the **Sales & Receivables Setup** or **Purchases & Payables Setup** windows, you might need to change the date so that you can delete posted sales and purchase documents that you have printed and that have posting dates on or before that date.|
 |Requests for correction|A data subject can request that you correct inaccurate personal data. There are several ways to do so. In some cases, you can export lists to Excel to quickly bulk-edit multiple records, and then import the updated data. For more information, see [Exporting your Business Data to Excel](about-export-data.md). You can also manually edit fields that contain personal data, such as editing information about a customer in the Customer card. However, transaction records such as general, customer, and tax ledger entries are essential to the integrity of the enterprise resource planning system. If you store personal data in business transaction records, consider using the customisation capabilities to modify such personal data.|
 
 ## <a name="restrict-data-processing-for-a-data-subject"></a>Restrict Data Processing for a Data Subject

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: dd1651c6df11f99c010c1a9725b2cb5069b929e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
 ms.contentlocale: en-gb
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Managing Interactions With Contacts
@@ -30,7 +30,9 @@ The relationship management area enables you to record all the interactions you 
 
 ##  <a name="setting-up-interaction-templates"></a>Setting up Interaction Templates
 Before you can create and record interactions, you must set up interaction templates. When creating interactions, you must specify the interaction templates they are based on. An interaction template is a model that defines the basic characteristics of an interaction.
-You set up an interaction template in the **Interaction Templates** window.  
+You set up an interaction template in the **Interaction Templates** window.
+
+After you have entered information about the interaction template, you can create an attachment, for example, a Microsoft Word document. Repeat the steps to set up as many interaction templates as you want.  
 
 ## <a name="creating-interactions"></a>Creating Interactions
 There are two ways of recording interactions:
@@ -38,7 +40,7 @@ There are two ways of recording interactions:
 * You can manually create interactions that are linked to a single contact or to a segment. For more information, see [Create Interactions on Contacts and Segments](marketing-how-create-interactions.md).  
 * You can automatically record interactions when you perform actions in the application, for example, when you print an invoice, or quote. For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).
 
-## <a name="viewing-and-managing-recorded-interactions"></a>Viewing and managing Recorded Interactions
+## <a name="viewing-and-managing-recorded-interactions"></a>Viewing and Managing Recorded Interactions
 You can view all the recorded interactions that have not been deleted in the **Interaction Log Entries** window. You can open this window by:
 
 * Using the **Search for Page or Report** icon to search on **Interaction Log Entries**.
@@ -50,7 +52,7 @@ In this window, you can:
 * View the status of interactions.
 * Mark interactions as cancelled.
 
-You can delete interaction log entries that have been cancelled. To delete interaction log entries, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Canceled Interaction Log Entries**, and then choose the related link, and then fill in the information.
+You can delete interaction log entries that have been cancelled. To delete interaction log entries, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Cancelled Interaction Log Entries**, and then choose the related link, and then fill in the information.
 
 ## <a name="see-also"></a>See Also
 [Managing Contacts](marketing-contacts.md)  

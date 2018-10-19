@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7f90612764872875077de1dbe250b3d59582372f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Design Details: Assembly Order Posting
@@ -33,14 +33,14 @@ The following journal postings occur during assembly order posting:
 
 The following diagram shows the structure of item and resource ledger entries that result from assembly order posting.  
 
-![Resource and capacity costs](media/design_details_assembly_posting_1.png "design_details_assembly_posting_1")  
+![Item, resource, and capacity ledger entries resulting from assembly order posting](media/design_details_assembly_posting_1.png "Item, resource, and capacity ledger entries resulting from assembly order posting")  
 
 > [!NOTE]  
 >  Machine and work centres are included to illustrate that capacity ledger entries are created from both production and assembly.  
 
 The following diagram shows how assembly data flows into ledger entries during posting:  
 
-![Data flow during posting](media/design_details_assembly_posting_2.png "design_details_assembly_posting_2")  
+![Assembly-related entry flow during posting](media/design_details_assembly_posting_2.png "AAssembly-related entry flow during posting")  
 
 ## <a name="posting-sequence"></a>Posting Sequence  
 The posting of an assembly order occurs in the following order:  
@@ -71,7 +71,7 @@ The order Level detection function is used in conversion scenarios, production a
 
 The following graphic shows the adjustment entry structure and how assembly costs are adjusted.  
 
-![Adjustment entry structure](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Assembly-related entry flow during cost adjustment](media/design_details_assembly_posting_3.png "Assembly-related entry flow during posting")  
 
 ### <a name="performing-the-adjustment"></a>Performing the Adjustment  
 The spreading of detected adjustments from material and resource costs onto the assembly output entries is performed by the **Adjust Cost – Item Entries** batch job. It contains the Make Multilevel Adjustment function, which consists of the following two elements:  
@@ -79,7 +79,7 @@ The spreading of detected adjustments from material and resource costs onto the 
 -   Make Assembly Order Adjustment – which forwards cost from material and resource usage to the assembly output entry. Lines 5 and 6 in the algorithm below are responsible for that.  
 -   Make Single Level Adjustments – which forwards costs for individual items using their costing method. Lines 9 and 10 in the algorithm below are responsible for that.  
 
-![Assembly adjustment algorithm](media/design_details_assembly_posting_4.jpg "design_details_assembly_posting_4")  
+![Summary of the cost adjustment algorithm for assembly posting](media/design_details_assembly_posting_4.jpg "Summary of the cost adjustment algorithm for assembly posting")  
 
 > [!NOTE]  
 >  The Make WIP Adjustments element, in lines 7 and 8, is responsible for forwarding production material and capacity usage to the output of unfinished production orders. This is not used when adjusting assembly order costs as the concept of WIP does not apply to assembly.  

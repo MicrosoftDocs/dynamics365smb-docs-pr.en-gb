@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 12/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 74460bfcff36d293006229f4a89719f8c05c2631
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6b1b23c062fdb1c4558a292c7aa454ae24ff3c71
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="archive-documents"></a>Archive Documents
@@ -26,7 +26,7 @@ You can archive sales and purchase orders, quotes, return orders, and blanket or
 You can set up automatic archiving of sales and purchase orders, quotes, blanket orders, and return orders, before you delete documents.
 
 The following procedure describes how to set up automatic archiving of sales documents. The steps are similar for purchase documents.
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
 2. In the **Sales & Receivables Setup** window, fill in the fields as follows.
 
 |Field|Description|
@@ -38,7 +38,7 @@ The following procedure describes how to set up automatic archiving of sales doc
 ## <a name="to-archive-a-sales-order"></a>To archive a sales order
 The following procedure describes how to archive a sales order. The steps are similar for all orders, blanket orders, return orders, and quotes.
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Open a sales order that you want to archive.  
 3.  Choose the **Archive Document** action.
 
@@ -47,7 +47,7 @@ The sales order is archived. You can view it in the **Archived Sales orders** wi
 ## <a name="to-recreate-a-sales-order-from-the-archive"></a>To recreate a sales order from the archive
 The following procedure describes how to recreate a sales order. The steps are similar for all orders, blanket orders, return orders, and quotes.
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Archived Sales Orders**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archived Sales Orders**, and then choose the related link.
 2.  Select the archived sales order that you want to recreate, and then choose the **Restore** action.  
 
 The sales order is created and added to the **Sales Orders** window.
@@ -55,7 +55,7 @@ The sales order is created and added to the **Sales Orders** window.
 ## <a name="to-delete-archived-sales-orders"></a>To delete archived sales orders
 The following procedure describes how to delete archived sales orders. The steps are similar for other archived sales and purchase documents.
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Archived Sales Order Versions**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Archived Sales Order Versions**, and then choose the related link.  
 2.  In the **Delete Archived Sales Order Versions** window, select the appropriate filters.  
 3.  Choose the **OK** button.
 

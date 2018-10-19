@@ -3,20 +3,20 @@ title: Using General Functionality Across Business Areas | Microsoft Docs
 description: Learn about the functionality and features that are used across business areas in Business Central .
 services: project-madeira
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 05/09/2018
-ms.author: solsen
+ms.date: 10/01/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: f6a8bca975e37adb436f30ef3d16bbc198f26447
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 560ea1ce0b93a596afb6c37bda7b438115614606
 ms.contentlocale: en-gb
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="general-business-functionality"></a>General Business Functionality
@@ -28,9 +28,10 @@ The following table lists these general business areas with links to topics that
 
 | To | See |
 | --- | --- |
+|Add extra information to accounts, customers cards, or sales orders to communicate agreements, such as a special price or delivery method, to other users.|[Add Comments to Cards and Documents](across-how-use-comments.md)| 
 |View ongoing, posted, or archived documents that are related to sales and purchase order lines.|[Track Document Lines](across-how-to-track-document-lines.md)|
-| Communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers. |[Sending Documents by Email](ui-how-send-documents-email.md) |
-| Set up standard text codes so you can extend standard text by adding extra lines, and set up conditions for use of the extra lines. |[Defining Extended Text](ui-how-define-ext-text.md) |
+| Communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers. |[Send Documents by Email](ui-how-send-documents-email.md) |
+| Set up standard text codes so you can extend standard text by adding extra lines, and set up conditions for use of the extra lines. |[Add Extended Item Text](ui-how-define-ext-text.md) |
 |Create tasks to remind you of work to be done. You can create tasks for yourself, but you can also assign tasks to others or be assigned a task by someone else in your organisation.|[Defining User Tasks](across-user-tasks.md)|
 |Let the system help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself.|[Letting Business Central Suggest Values](ui-let-system-suggest-values.md)|
 |Record external documents, including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
@@ -42,5 +43,4 @@ The following table lists these general business areas with links to topics that
 [Administration](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

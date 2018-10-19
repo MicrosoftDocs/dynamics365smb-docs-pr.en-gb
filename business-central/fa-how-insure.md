@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 1c84275357b6bf5726a7c60396ad22b4670de3e1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: faf013087b29f758cf86ff2a10d407fe74f85f95
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="insure-fixed-assets"></a>Insure Fixed Assets
@@ -38,7 +38,7 @@ An insurance policy for a fixed asset must be represented by an insurance card.
 
 When you receive information about changes in the coverage amount, you must enter the new information in the **Insurance Card** window to ensure that you analyze insurance policy coverage correctly.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance**, and then choose the related link.
 2. Choose the **New** action to create a new card for an insurance policy. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Alternatively, select the insurance policy that you want to change, and then choose the **Edit** action.
 
@@ -47,7 +47,7 @@ You assign a fixed asset to an insurance policy by posting to the insurance cove
 
 The following procedure explains how to create an insurance journal line manually. If the **Automatic Insurance Posting** check box is selected in the **FA Setup** window, then insurance journal lines are automatically created when you post acquisition costs. In that case, all you have to do is to post the journal.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance Journals**, and then choose the related link.  
 2. Open the relevant journal, and fill in the journal lines as necessary.  
 3. To assign multiple fixed assets to one insurance policy, create journal lines with the same value in the **Insurance No.** field and different values in the **FA No.** field.  
 4. Choose the **Post** action.  
@@ -58,7 +58,7 @@ The following procedure explains how to create an insurance journal line manuall
 ## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>To update the insurance value of a fixed asset
 You can use the **Index Insurance** batch job to update the value of the fixed assets that are covered.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Index Insurance**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Index Insurance**, and then choose the related link.
 2. Fill in the fields as necessary.
 
     > [!NOTE]  
@@ -66,7 +66,7 @@ You can use the **Index Insurance** batch job to update the value of the fixed a
 3. Choose the **OK** button.  
 
    The batch job calculates the new amount as a percentage of the total value insured, as stated in the **Insurance Statistics** window, and then creates a line in the insurance journal.  
-4. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.  
+4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance Journals**, and then choose the related link.  
 5. Open the relevant insurance journal, review the created values, and then post them to the insurance coverage ledger.  
 
 ## <a name="to-monitor-insurance-coverage"></a>To monitor insurance coverage
@@ -92,13 +92,13 @@ To check if you have forgotten to assign a fixed asset to an insurance policy, y
 ## <a name="to-view-insurance-coverage-ledger-entries"></a>To view insurance coverage ledger entries
 You can view the entries that you have made in the insurance coverage ledger.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance**, and then choose the related link.  
 2. Select the relevant insurance policy, and then choose the **Coverage Ledger Entries** action.  
 
 ## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>To view the total insurance value of fixed assets
 A dedicated matrix window shows the insurance values that are registered for each insurance policy for each fixed asset as a result of insurance-related amounts that you have posted.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance**, and then choose the related link.  
 2. Select the relevant insurance policy, and then choose the **Total Value Insures per FA** action.  
 3. Fill in the fields as necessary.  
 4. Choose the **Show Matrix** action.  
@@ -107,7 +107,7 @@ A dedicated matrix window shows the insurance values that are registered for eac
 ## <a name="to-correct-insurance-coverage-entries"></a>To correct insurance coverage entries
 If a fixed asset has been attached to the wrong insurance policy, you can correct it by creating two reclassification entries from the insurance journal.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance Journals**, and then choose the related link.  
 2. Create one journal line for the fixed asset and the correct insurance policy where the value in the **Amount** field is positive.  
 3. Create another journal line for the fixed asset and the incorrect insurance policy where the value in the **Amount** field is negative.  
 4. Choose the **Post** action.  

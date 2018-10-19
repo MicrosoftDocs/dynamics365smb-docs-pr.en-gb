@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2075010c892893d28c7ae3fe627709669bc80a38
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e6c6c8a54ae638fa90bca94e43a38d120b5fd3f6
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="assign-default-bins-to-items"></a>Assign Default Bins to Items
 If you are using bins at a location, assigning default bins to your items can make the process of shipping, receiving, and moving your items much easier. When a default bin is assigned to an item, this bin is suggested every time you initiate a transaction for this item. Default bins are defined in the **Bin Content** window.  
 
 ## <a name="to-assign-a-default-bin-to-an-item"></a>To assign a default bin to an item
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Content Creation Worksheet**, and choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Content Creation Worksheet**, and choose the related link.  
 2.  Fill in the bin code and item information for each bin that you would like to set up as a default for an item. Make sure to select the **Default** field.  
 3.  Choose the **Create Bin Content** action. Default bins are now assigned for your item.  
 
@@ -32,7 +32,7 @@ If you are using bins at a location, assigning default bins to your items can ma
 
 ## <a name="to-change-the-default-bin-for-an-item"></a>To change the default bin for an item  
 You may need to change the default bin assignment for an item or assign a default bin to a new item.    
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Contents**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Contents**, and then choose the related link.  
 2.  In the **Location Filter** field, select the appropriate location code.  
 3.  Find the current default bin content entry for the item and clear the **Default Bin** check box.  
 4.  Find the bin content line for the bin that you would like as the new default bin. Select the **Default Bin** check box.  

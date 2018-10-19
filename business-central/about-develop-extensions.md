@@ -1,7 +1,6 @@
 ---
 title: Customise Dynamics 365 Business Central | Microsoft Docs
 description: Build, showcase, and promote your apps and extensions for Business Central.
-services: project-madeira
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/12/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 69f660f8a19bd1fd9cb39a79d5be7977e68d3a47
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fc926afbf0c1442bb610531b28507fbb2c1b1cf4
 ms.contentlocale: en-gb
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Extending [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -38,7 +37,7 @@ Bring your [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] services to Mic
 **Individual Apps** – where you bring your industry expertise to market.  
 **Packaged Consulting Services** – where you bring ready-made packaged engagements to market.
 
-The new development tools enable to you to build extensions for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] users. If you want to familiarize yourself with the new tools or learn about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+The new development tools enable to you to build extensions for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] users. If you want to familiarize yourself with the new tools or learn about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
 Find information on apps and consulting services that are currently available on [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
@@ -71,9 +70,9 @@ To learn more about the Microsoft AppSource consulting services offerings, selec
 ## <a name="the-ready-to-go-program"></a>The Ready to Go Programme
 The Ready to Go programme is designed to support you in bringing your Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] offers into Microsoft Appsource. The programme holds: 
 
-- [Online learning](http://aka.ms/ReadyToGoOnlineLearning)
-- [Training and workshops](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go#the-ready-to-go-coaching)
-- [Microsoft Collaborate platform](http://aka.ms/Collaborate)
+- [Online learning](https://aka.ms/ReadyToGoOnlineLearning)
+- [Training and workshops](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)
+- [Microsoft Collaborate platform](https://aka.ms/Collaborate)
 
 Learn more on how you can build a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] offering in the [Ready to Go programme](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go) details. If you have questions or feedback about the **Ready to Go** programme offering, you can [contact us](mailto:dyn365bep@microsoft.com). 
 
