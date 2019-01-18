@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Design Details: Outbound Warehouse Flow
@@ -66,7 +66,7 @@ In addition, the following internal source documents exist that function like ou
  When the outbound source document is released, an outbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
 
 ### <a name="3-create-inventory-pick-or-movement"></a>3: Create Inventory Pick or Movement  
- In the **Inventory Pick** or **Inventory Movement** window, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on outbound warehouse requests. Alternatively, the inventory pick lines are already created, in a push fashion, by the user who is responsible for the source document.  
+ In the **Inventory Pick** or **Inventory Movement** page, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on outbound warehouse requests. Alternatively, the inventory pick lines are already created, in a push fashion, by the user who is responsible for the source document.  
 
 ### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Post Inventory Pick or Register Inventory Movement  
  On each line for items that have been picked or moved, partially or fully, the warehouse worker fills in the **Quantity** field, and then posts the inventory pick or registers the inventory movement. Source documents related to the inventory pick are posted as shipped or consumed. Source documents related to inventory movements are not posted.  
@@ -85,7 +85,7 @@ In addition, the following internal source documents exist that function like ou
  When the inbound source document is released, an outbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
 
 ### <a name="3-create-warehouse-shipment"></a>3: Create Warehouse Shipment  
- In the **Warehouse Shipment** window, the shipping worker who is responsible retrieves pending source document lines based on the outbound warehouse request. Several source document lines can be combined in one warehouse shipment document.  
+ On the **Warehouse Shipment** page, the shipping worker who is responsible retrieves pending source document lines based on the outbound warehouse request. Several source document lines can be combined in one warehouse shipment document.  
 
 ### <a name="4-release-shipment--create-warehouse-pick"></a>4: Release Shipment / Create Warehouse Pick  
  The shipping worker who is responsible releases the warehouse shipment, so that warehouse workers can  create or coordinate warehouse picks for the shipment in question.  
@@ -109,7 +109,7 @@ In addition, the following internal source documents exist that function like ou
  The warehouse worker who perform picks create a warehouse pick document, in a pull fashion, based on the released source document. Alternatively, the warehouse pick document is created and assigned to the warehouse worker in a push fashion.  
 
 ### <a name="9-register-warehouse-pick"></a>9: Register Warehouse Pick  
- On each line for items that have been picked, partially or fully, the warehouse worker fills in the **Quantity** field in the **Warehouse Pick** window and then registers the warehouse pick.  
+ On each line for items that have been picked, partially or fully, the warehouse worker fills in the **Quantity** field on the **Warehouse Pick** page and then registers the warehouse pick.  
 
  Warehouse entries are created, and the warehouse pick lines are deleted, if fully handled. The warehouse pick document remains open until the full quantity of the related warehouse shipment is registered. The **Qty. Picked** field on the warehouse shipment lines is updated accordingly.  
 

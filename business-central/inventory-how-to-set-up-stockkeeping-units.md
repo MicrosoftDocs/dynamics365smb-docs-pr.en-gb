@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3c368af3347c72f2cf355876ed5574151095f993
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: d5582e1857481d32ad146d0732f4c60d1b678c74
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="set-up-stockkeeping-units"></a>Set Up Stockkeeping Units
@@ -35,7 +35,11 @@ When you have set up the first stockkeeping unit for an item, the **Stockkeeping
 To create several stockkeeping units for an item, use the **Create Stockkeeping Unit** batch job.  
 
 > [!NOTE]  
->  The information on the **Stockkeeping Unit** card has priority over the **Item** card.  
+>  The information on the **Stockkeeping Unit** card has priority over the **Item** card.
+
+> [!Warning]
+> If the SKU is supplied through production, then the **Standard Cost** field is not used when invoicing and adjusting the actual cost of the produced item. Instead, the **Standard Cost** field on the underlying item card is used, and any variances are calculated against the cost shares of that item.<br /><br />
+> Because production BOMs and routing cannot be assigned to SKUs, then the unit cost roll-up and the related calculation of cost shares are also not available on SKUs. For more information, see [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 
 ## <a name="see-also"></a>See Also  
 [Register New Items](inventory-how-register-new-items.md)  

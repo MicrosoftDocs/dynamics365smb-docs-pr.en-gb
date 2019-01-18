@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 11/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bdf0ab2dc31a9060bb50088e57eece26ee671985
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking"></a>Design Details: Item Tracking
@@ -28,7 +28,7 @@ An item tracking system should provide a company with easy handling of serial an
 [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
 [Design Details: Item Tracking Posting Structure](design-details-item-tracking-posting-structure.md)  
 [Design Details: Active versus Historic Item Tracking Entries](design-details-active-versus-historic-item-tracking-entries.md)  
-[Design Details: Item Tracking Lines Window](design-details-item-tracking-lines-window.md)  
+[Design Details: Item Tracking Lines Page](design-details-item-tracking-lines-window.md)  
 [Design Details: Item Tracking Availability](design-details-item-tracking-availability.md)  
 [Design Details: Item Tracking and Planning](design-details-item-tracking-and-planning.md)  
 [Design Details: Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  

@@ -11,10 +11,10 @@ ms.search.keywords: dimension
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0a94a47a2c32fc38792fbfc3285e9d0e4659ccf1
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 927ec8c1379a3f03d5bd377e6cd3d21c66691a00
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="dimension-set-entries-overview"></a>Dimension Set Entries Overview
@@ -38,7 +38,7 @@ Dimension sets are stored in the **Dimension Set Entry** table as dimension set 
 
 When you create a new journal line, document header, or document line, you can specify a combination of dimension values. Instead of explicitly storing each dimension value in the database, a dimension set ID is assigned to the journal line, document header, or document line to specify the dimension set.  
 
-When you edit and close the **Edit Dimension Set Entries** window, a check is performed to see whether the combination of dimension values exists as a dimension set in the table. If the combination occurs in the table, then the corresponding dimension set ID is assigned to the journal line, document header, or document line. Otherwise, a new dimension set is added to the table, and the new dimension set ID is assigned to the journal line, document header, or document line.  
+When you edit and close the **Edit Dimension Set Entries** page, a check is performed to see whether the combination of dimension values exists as a dimension set in the table. If the combination occurs in the table, then the corresponding dimension set ID is assigned to the journal line, document header, or document line. Otherwise, a new dimension set is added to the table, and the new dimension set ID is assigned to the journal line, document header, or document line.  
 
 ## <a name="performance-improvement"></a>Performance Improvement  
 By storing dimension sets once in the database, database space is preserved, and overall performance is improved.  

@@ -13,10 +13,10 @@ ms.search.keywords: project management, task
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8c7af2db512927f575f62d40265ea2def6b7dc2c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5db9709500ce20bc09e2dc651ae6b7aa763c0e5f
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-jobs"></a>Create Jobs
@@ -42,7 +42,7 @@ You create a job card and then create job task lines and job planning lines for 
 >   If you are using time sheets with your job, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the job. For more information, see [Set Up Timesheets](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>To create tasks for a job
-A key part of creating a job is to specify the various tasks involved in the job. You do this by adding new lines on the **Tasks** FastTab in the **Job Card** window, one task per line. Every job must have at least one task.
+A key part of creating a job is to specify the various tasks involved in the job. You do this by adding new lines on the **Tasks** FastTab on the **Job Card** page, one task per line. Every job must have at least one task.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
 2. Open the job card for a relevant job.
@@ -67,7 +67,7 @@ A job planning line can have one of the following types.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
 2. Open a relevant job card.
 3. Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.  
-4. In the **Job Planning Lines** window, on a new line, fill in the fields as necessary.
+4. On the **Job Planning Lines** page, on a new line, fill in the fields as necessary.
 5. Repeat steps 3 and 4 for all planning lines that you need for the job task.
 
 ## <a name="see-also"></a>See Also

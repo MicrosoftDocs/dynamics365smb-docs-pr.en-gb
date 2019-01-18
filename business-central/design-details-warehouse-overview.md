@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/19/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: cea5bb76f8fdb8c9c52a5f341d29a34bcb8f0cdc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2d1fc180b971a7a0003847ea6b5830cc124cf5c7
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-warehouse-overview"></a>Design Details: Warehouse Overview
 To support the physical handling of items on the zone and bin level, all information must be traced for each transaction or movement in the warehouse. This is managed in the **Warehouse Entry** table. Each transaction is stored in a warehouse register.  
 
-Warehouse documents and a warehouse journal are used to register item movements in the warehouse. Every time that an item in the warehouse is moved, received, put away, picked, shipped, or adjusted, warehouse entries are registered to store the physical information about zone, bin, and quantity. For more information, see [Design Details: Inbound Warehouse Flow](design-details-outbound-warehouse-flow.md).  
+Warehouse documents and a warehouse journal are used to register item movements in the warehouse. Every time that an item in the warehouse is moved, received, put away, picked, shipped, or adjusted, warehouse entries are registered to store the physical information about zone, bin, and quantity.
 
 The **Bin Content** table is used to handle all the different dimensions of the contents of a bin per item, such as unit of measure, maximum quantity, and minimum quantity. The **Bin Content** table also contains flow fields to the warehouse entries, warehouse instructions, and warehouse journal lines, which ensures that the availability of an item per bin and a bin for an item can be calculated quickly. For more information, see [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md).  
 
@@ -68,7 +68,7 @@ Warehouse functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] can be im
 -   **Whse. Item Reclass. Journal**  
 -   (Various reports)  
 
-For more information about each document, see the respective window topics.  
+For more information about each document, see the respective page topics.  
 
 ### <a name="terminology"></a>Terminology  
 To align with the financial concepts of purchases and sales, [!INCLUDE[d365fin](includes/d365fin_md.md)] warehouse documentation refers to the following terms for item flow in the warehouse.  

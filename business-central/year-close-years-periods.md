@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7b125edfcfd5e03882568b8ab6eb264418f15bef
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="closing-years-and-periods"></a>Closing Years and Periods
@@ -26,6 +26,7 @@ The following table provides an overview of tasks that you typically perform to 
 
 | To | See |
 | --- | --- |
+| Define your fiscal year, and divide it into time periods for which to report financial performance. | [Working with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)|
 | Specify system-wide and user-specific posting date ranges. Depending on your business needs, you may want to restrict user posting date ranges at the start of the period-end process or after it. |[Specify Posting Periods](finance-how-specify-posting-periods.md) |
 | Get an overview of activities that are commonly performed at the end of a period, such as posting all documents and journals, or running account schedules. |[Closing Periods](year-how-complete-period-end-processes.md) |
 | Update currency exchange rates and adjust the exchange rates of posted customer, vendor, and bank account entries. |[Update Currency Exchange Rates](finance-how-update-currencies.md) |

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Manage Company Configuration in a Worksheet
@@ -33,7 +33,7 @@ The following procedures demonstrate how to add and customise table information 
 2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>To add a table to the worksheet  
-1.  In the **Config. Worksheet** window, choose the **Edit List** action.  
+1.  On the **Config. Worksheet** page, choose the **Edit List** action.  
 2.  On the first line, in the **Line Type** field, select **Table**.  
 4.  In the **Table ID** field, select the table that you want to add to your configuration.  
 5.  In the **Page ID** field, enter the ID of the page that is associated with the table. For standard tables, this value is automatically filled in. For custom tables, you must provide the ID.
@@ -53,7 +53,7 @@ The following procedures demonstrate how to add and customise table information 
 10. To remove duplicate table information that can result from using the **Get Related Tables** action, choose the **Delete Duplicate Lines** action. This will remove duplicate tables that have the same package code.  
 
 ## <a name="to-add-multiple-tables-to-the-configuration-worksheet"></a>To add multiple tables to the configuration worksheet  
-1. Choose the **Get Tables** action. The **Get Config. Tables** batch job window opens.  
+1. Choose the **Get Tables** action. The **Get Config. Tables** batch job page opens.  
 2. On the **Options** FastTab, specify the types of tables that you want to add to the configuration, as described in the following table.
 
     |Option|Description|  
@@ -73,7 +73,7 @@ The following procedures demonstrate how to add and customise table information 
     > - The relation is conditional.  
     > Example: If you get related tables for the **Customer** table, then the **Location** table will not be added, since it is only conditionally related to the **Customer** table, namely if the **Location Code** field in the **Customer** table is filled in.  
     > - The related table is filtered.  
-    > Example: A field in the related table has a WHERE clause. The reason for this is that the involved relations information is stored in the **Field** virtual table and is not available in windows such as the configuration worksheet for performance reasons.  
+    > Example: A field in the related table has a WHERE clause. The reason for this is that the involved relations information is stored in the **Field** virtual table and is not available in pages such as the configuration worksheet for performance reasons.  
     > You must add related tables with such complex relationships manually by following step 4 in the "To add a table to the worksheet" section.
 
 7. To delete tables in the resulting list of tables, select a table to remove, and then choose the **Delete** action.  

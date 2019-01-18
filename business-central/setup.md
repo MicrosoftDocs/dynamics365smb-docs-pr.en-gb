@@ -11,10 +11,10 @@ ms.search.keywords: configure, initialize
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2c766654faad241f57cd4a99648bb349e4258857
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -22,7 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 For example, your chart of accounts is prefilled with a number of posting accounts ready for use. You can, of course, change the chart of accounts to suit your needs. For more information, see [Finance](finance.md).
 
-From your Role Centre, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For information about how to access all assisted and manual setup windows, see [Getting Ready for Doing Business](ui-get-ready-business.md).
+From your Role Centre, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For information about how to access all assisted and manual setup pages, see [Getting Ready for Doing Business](ui-get-ready-business.md).
 
 > [!NOTE]
 > You can set up a new company in [!INCLUDE[d365fin](includes/d365fin_md.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. For more information, see [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).

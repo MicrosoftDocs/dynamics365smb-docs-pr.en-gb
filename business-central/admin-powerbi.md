@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: eae7e97ec122b91a479ad956176a0b34b269bcb6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 26fe722a863ada2bcd017e2bc614b976a7119a25
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Enabling Your Business Data for Power BI
@@ -49,7 +49,7 @@ The content packs are preconfigured to work with data from the demonstration com
 
 You may also get starting from within Dynamics 365 Business Edition. From the role centre, navigate to **Report Selection** in the Power BI Role Centre part. Select either **Service** or **My Organisation** from the ribbon. When either of these actions are selected, you will be taken to either the Organisation gallery in Power BI or to the services library in Power BI, which will also be filtered to only display content packs related to [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-2. In the **Services** box, select **Get**. This will open a window with the **AppSource** and **Apps for Power BI apps**.  
+2. In the **Services** box, select **Get**. This will open a page with the **AppSource** and **Apps for Power BI apps**.  
 ![Choose content packs from online services](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Select **Apps** from the **Apps for Power BI apps** tab, choose the **Microsoft Dynamics 365 Business Central** content pack that you want to use, and then select **Get it now**.  
 ![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)

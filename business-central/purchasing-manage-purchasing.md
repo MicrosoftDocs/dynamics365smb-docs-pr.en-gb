@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e4f27c9ad628fa66f692a862e59cd0b306b02c6c
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: 87e3d134abe82e0f55acf4d3680b84fbc2c0c14b
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="purchasing"></a>Purchasing
@@ -40,6 +40,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Perform an action on an unpaid posted purchase invoice to automatically create a credit memo and either cancel the purchase invoice or recreate it so you can make corrections. |[Correct or Cancel Unpaid Sales Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Create a purchase credit memo to revert a specific posted purchase invoice to reflect which products you are returning to the vendor and which payment amount you will collect. |[Process Purchase Returns or Cancellations](purchasing-how-register-new-vendors.md) |
 |Prepare to invoice multiple receipts from the same vendor once by combining the receipts on one invoice.|[Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)|
+|Convert, for example, electronic invoices from your vendors to purchase invoices inside Business Central.|[Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Learn how [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates when you must order an item to receive it on a certain date.|[Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)|
 
 ## <a name="see-also"></a>See Also
@@ -51,5 +52,4 @@ The following table describes a sequence of tasks, with links to the topics that
 [General Business Functionality](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3d4c111af62db5858b81b76f9f51a9093c01e5e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 85e295997089ea10b956fe0a5d087652c190fb44
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-multiple-interest-rates"></a>Set Up Multiple Interest Rates
@@ -26,12 +26,12 @@ When you create finance charge terms and reminder terms, for delayed payment pen
 
 ## <a name="to-set-up-multiple-interest-rates"></a>To set up multiple interest rates  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Terms**, and then choose the related link.  
-2.  In the **Finance Charge Terms** window, select the required finance term, and then choose the **Interest Rates** action.  
+2.  On the **Finance Charge Terms** page, select the required finance term, and then choose the **Interest Rates** action.  
 3.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Choose the **OK** button.  
 5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
-6.  In the **Reminder Terms** window, select the required reminder term, and then choose the **Levels** action.  
-7.  In the **Reminder Levels** window, select the **Calculate Interest** field.  
+6.  On the **Reminder Terms** page, select the required reminder term, and then choose the **Levels** action.  
+7.  On the **Reminder Levels** page, select the **Calculate Interest** field.  
 
 When you issue a finance charge memo, the memo shows the finance charges with multiple interest rates for a specific time period. The memo also contains the contact details of the customer, the company issuing the memo, the additional amount, and the total amount. The opening entry on the memo is displayed in bold. The finance charges are calculated with multiple interest rates for a specific time period and are printed after the opening entry of the memo.  
 

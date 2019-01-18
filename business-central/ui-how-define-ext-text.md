@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: eeb73ec964441da0f655b2900e2cb22a1ea492e5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f27608342eb0d91dc956f9d7ebb9887c02be07dc
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-extended-item-text"></a>Add Extended Item Text
@@ -25,11 +25,11 @@ You can extend a standard text for items by adding extra lines, and you can set 
 1. Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.
 2. In the **Code** field, enter the code, and in the **Description** field, enter the desired text.
 3. Choose **Extended Texts**.
-4. Fill in the lines in the **Extended Text** window with the additional text.
+4. Fill in the lines on the **Extended Text** page with the additional text.
 5. Fill in the **Language Code** field or the **All Language Codes** field if you use language codes.
 6. Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.
 7. Select relevant check boxes for the document types where you want the extended text printed.
-8. Close the window.
+8. Close the page.
 
 ## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>To add an extended item text on a sales order line
 1. Open a sales order with a sales line for an item that has extended text defined. For more information, see [Sell Products](sales-how-sell-products.md).

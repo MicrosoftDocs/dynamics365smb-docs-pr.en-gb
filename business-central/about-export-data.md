@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 33ccc1dbe9654245129bdbd760896054c10cd2f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b0f53eaa777fb944e0c4b55402b895373c7843a1
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exporting Your Business Data to Excel
@@ -22,6 +22,9 @@ If you want to work with your data from [!INCLUDE[d365fin](includes/d365fin_md.m
 
 ## <a name="opening-lists-in-excel"></a>Opening Lists in Excel
 You can open data in Excel from any journal, list, or worksheet. You just open the page that you want, and then choose **Open in Excel**. For example, open the list of customers (search for **Customers**), and then choose **Open in Excel**. Your browser will prompt you to open or save the generated Excel workbook.  
+
+> [!NOTE]
+> Use this option when you do not want to make changes and publish those changes back to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Each list includes a number of columns, and the export to Excel will include any columns that are in your current view. If you want to add or remove columns before you open the list in Excel, you simply open the shortcut menu for any column and then specify which columns that you want to see. This list of columns is different for most lists, and it reflects the structure in the database where your data is stored. If you are not sure what type of data a certain column contains, you can add it to your view and then decide if you want to remove it again.  
 
@@ -39,7 +42,7 @@ You can export all pages, of course, but that might be more than you really need
 * Banks  
 * Items  
 
-If you want all your financial transactions as well, this is a large amount of data, so the export will often take more than a few minutes of time. The financial transactions are shown in the **General Ledger Entries** window.  
+If you want all your financial transactions as well, this is a large amount of data, so the export will often take more than a few minutes of time. The financial transactions are shown on the **General Ledger Entries** page.  
 
 We recommend that you also consider exporting data from the following pages:  
 

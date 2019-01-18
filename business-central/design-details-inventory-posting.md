@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f9f93fcf80524f18c9ff83b74d64231d1a033bae
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 80c2912836d8f11a8e3cf869b9412ad9ed66ca54
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Design Details: Inventory Posting
@@ -29,7 +29,7 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 
  In relation to quantity postings, item application entries exist to link inventory increase with inventory decrease. This enables the costing engine to forward costs from increases to the related decreases and vice versa. For more information, see [Design Details: Item Application](design-details-item-application.md).  
 
- Item ledger entries, value entries, and item application entries are created as a result of posting an item journal line, either indirectly by posting an order line or directly in the Item Journal window.  
+ Item ledger entries, value entries, and item application entries are created as a result of posting an item journal line, either indirectly by posting an order line or directly in the Item Journal page.  
 
  At regular intervals, value entries that are created in the inventory ledger are posted to the general ledger to reconcile the two ledgers for financial control reasons. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
 

@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d66ad263235d7f123f731263b0f13a009a1e20fd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7184143303dd1a8b04d8d740d83f35f1fa19485a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Plan Warehouse Movements in Worksheets
 Plan movements in the worksheet using a bin replenishment function or manually planning the lines that you want to create as movement instructions.  
 
 ## <a name="to-calculate-a-replenishment-movement"></a>To calculate a replenishment movement  
-As the warehouse ships items out to customers, the bins with the highest bin rankings contain fewer and fewer items. To fill up these high-ranking pick bins with items from other bins, run the **Calculate Bin Replenishment** function in the **Movement Worksheet** window
+As the warehouse ships items out to customers, the bins with the highest bin rankings contain fewer and fewer items. To fill up these high-ranking pick bins with items from other bins, run the **Calculate Bin Replenishment** function on the **Movement Worksheet** page
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Bin Replenishment** action.  
@@ -47,8 +47,8 @@ As the warehouse ships items out to customers, the bins with the highest bin ran
 You can also use the movement worksheet to plan other movement of inventory within the warehouse. For example, when you want to place items in a bin for quality control, you can use the movement worksheet to plan this action and then create a movement to make instructions for an employee.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
-2.  Choose the **Get Bin Content** action. Use the request window to filter which bins and items you want to appear on the movement worksheet lines.  
-3.  Fill in the relevant fields in the batch job request window. For example, if you want to see the bin content of all the bins in a certain zone at the location, fill in the **Zone Code** field. If you want to retrieve lines for each bin that contains a particular item, fill in the **Item No.** field.  
+2.  Choose the **Get Bin Content** action. Use the request page to filter which bins and items you want to appear on the movement worksheet lines.  
+3.  Fill in the relevant fields in the batch job request page. For example, if you want to see the bin content of all the bins in a certain zone at the location, fill in the **Zone Code** field. If you want to retrieve lines for each bin that contains a particular item, fill in the **Item No.** field.  
 
     > [!NOTE]  
     >  You cannot manually move items in or out of a bin of bin type RECEIVE, because items that are in a RECEIVE-type bin must be registered as being put away before they are part of available inventory.  
@@ -60,7 +60,7 @@ You can also use the movement worksheet to plan other movement of inventory with
     >   
     >  -   The item has an expiration date.  
     > -   The **Pick According to FEFO** check box on the location card is selected.  
-    > -   The **Bin Mandatory** check box on the location card is selected.  
+    > -   The **Bin Mandatory** check box on the location card is selected.  
     > -   The **From Zone** and **From Bin** fields are blank.  
 
 5.  Complete some of the retrieved lines to reflect the changes you want to make. For each item that you want to move, you must fill in the **Item No.**, **From Bin Code**, **To Bin Code**, and **Quantity** fields.  

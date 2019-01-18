@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Design Details: Known Item Application Issue
@@ -102,7 +102,7 @@ The following diagram shows how cost applications are made.
 
  For scenario 1, identify the issue as follows:  
 
--   In the **Posted Sales Credit Memo** or **Posted Return Receipt** window, look up from the **Appl.\-from Item Entry** field to see if the field is populated, and in that case to which item ledger entry the return receipt is cost applied.  
+-   In the **Posted Sales Credit Memo** or **Posted Return Receipt** page, look up from the **Appl.\-from Item Entry** field to see if the field is populated, and in that case to which item ledger entry the return receipt is cost applied.  
 
  For scenario 2, identify the issue in either of the following ways:  
 
@@ -111,12 +111,12 @@ The following diagram shows how cost applications are made.
 |Entry No.|Posting Date|Entry Type|Document Type|Document No.|Item No.|Location Code|Quantity|Cost Amount (Actual)|Invoiced Quantity|Remaining Quantity|Open|Correction|  
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
 |333|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|-1|-10|-1|-1|Yes|No|  
-|334|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|1|10|1|1|Yes|**Yes**|  
+|334|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|0|10|0|0|Yes|**Yes**|  
 
--   In the **Posted Sales Shipment** window, look up from the **Appl.-from Item Entry** field to see if the field is populated, and in that case to which item ledger entry the return receipt is cost applied.  
+-   On the **Posted Sales Shipment** page, look up from the **Appl.-from Item Entry** field to see if the field is populated, and in that case to which item ledger entry the return receipt is cost applied.  
 
 > [!NOTE]  
->  Cost applications cannot be identified in the **Applied Item Entries** window because that window only shows quantity applications.  
+>  Cost applications cannot be identified on the **Applied Item Entries** page because that page only shows quantity applications.  
 
  For both scenarios, identify the involved cost application as follows:  
 
@@ -138,7 +138,7 @@ The following diagram shows how cost applications are made.
  Notice above that inbound item ledger entry 334 is cost applied to outbound item ledger entry 333.  
 
 ## <a name="workaround-for-the-issue"></a>Workaround for the Issue  
- In the **Item Journal** window, post the following lines for the item in question:  
+ On the **Item Journal** page, post the following lines for the item in question:  
 
 -   A positive adjustment to close the open outbound item ledger entry.  
 

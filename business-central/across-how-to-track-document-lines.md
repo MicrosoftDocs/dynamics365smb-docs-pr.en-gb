@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 39a44f4b608bca436adedb16c800c96a046d5644
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2325aafc22db4ab737e63a261b836076cc3fde20
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="track-document-lines"></a>Track Document Lines
@@ -28,7 +28,7 @@ The following procedure describes how to track from a sales order line. The step
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Open a sales order that you want to track from.  
 3.  Select a line, and then choose the **Document Line Tracking** action.
-4. In the **Document Lines Tracking** window, select the document that you want to view, and then choose the **Show** action to see the related line.
+4. On the **Document Lines Tracking** page, select the document that you want to view, and then choose the **Show** action to see the related line.
 5. To view the entire document for the selected document line, choose the **Show Document** action.
 
 ## <a name="see-also"></a>See Also

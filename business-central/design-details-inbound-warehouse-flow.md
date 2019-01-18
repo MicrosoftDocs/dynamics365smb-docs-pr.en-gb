@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Design Details: Inbound Warehouse Flow
@@ -62,7 +62,7 @@ When items are received in the warehouse, the user who is responsible for receiv
 When the inbound source document is released, an inbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
 
 ### <a name="3-create-inventory-put-away"></a>3: Create Inventory Put-Away  
-In the **Inventory Put-away** window, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on inbound warehouse requests. Alternatively, the inventory put-away lines are already created, in a push fashion, by the user who is responsible for the source document.  
+On the **Inventory Put-away** page, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on inbound warehouse requests. Alternatively, the inventory put-away lines are already created, in a push fashion, by the user who is responsible for the source document.  
 
 ### <a name="4-post-inventory-put-away"></a>4: Post Inventory Put-Away  
 On each line for items that have been put away, partially or fully, the warehouse worker fills in the **Quantity** field, and then posts the inventory put-away. Source documents that are related to the inventory put-away are posted as received.  
@@ -81,7 +81,7 @@ When items are received in the warehouse, the user who is responsible for receiv
 When the inbound source document is released, an inbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
 
 ### <a name="3-create-warehouse-receipt"></a>3: Create Warehouse Receipt  
-In the **Warehouse Receipt** window, the user who is responsible for receiving items retrieves the pending source document lines based on the inbound warehouse request. Several source document lines can be combined in one warehouse receipt document.  
+On the **Warehouse Receipt** page, the user who is responsible for receiving items retrieves the pending source document lines based on the inbound warehouse request. Several source document lines can be combined in one warehouse receipt document.  
 
 The user fills in the **Qty. to Handle** field and selects the receiving zone and bin, if required.  
 
@@ -106,7 +106,7 @@ When all put-aways are planned and assigned to warehouse workers, the user gener
 The warehouse worker who performs put-aways creates a warehouse put-away document in a pull fashion, based on the posted warehouse receipt. Alternatively, the warehouse put-away document is created and assigned to a warehouse worker in a push fashion.  
 
 ### <a name="9-register-warehouse-put-away"></a>9: Register Warehouse Put-Away  
-On each line for items that have been put away, partially or fully, the warehouse worker fills in the **Quantity** field in the **Warehouse Put-away** window, and then registers the warehouse put-away.  
+On each line for items that have been put away, partially or fully, the warehouse worker fills in the **Quantity** field on the **Warehouse Put-away** page, and then registers the warehouse put-away.  
 
 Warehouse entries are created, and the warehouse put-away lines are deleted, if fully handled. The warehouse put-away document remains open until the full quantity of the related posted warehouse receipt is registered. The **Qty. Put Away** field on the warehouse receipt order lines is updated.  
 

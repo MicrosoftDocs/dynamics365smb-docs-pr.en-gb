@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 60628167a50977d7486c86d9730378f8d2527786
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bdb9d8c0d47fe53e9e5ea310a83854e69f545d9e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="subcontract-manufacturing"></a>Subcontract Manufacturing
@@ -46,7 +46,7 @@ For more information, see [Create Routings](production-how-to-create-routings.md
 ## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders  
 Once you have calculated the subcontracting worksheet, the relevant document, in this case a purchase order, is created.  
 
-The **Subcontracting Worksheet** window functions like the **Planning Worksheet** by calculating the needed supply, in this case purchase orders, which you review in the worksheet and then create with the **Carry Out Action Message** function.  
+The **Subcontracting Worksheet** page functions like the **Planning Worksheet** by calculating the needed supply, in this case purchase orders, which you review in the worksheet and then create with the **Carry Out Action Message** function.  
 
 > [!NOTE]  
 >  Only production orders with status **Released** can be accessed and used from a subcontracting worksheet.  
@@ -54,10 +54,10 @@ The **Subcontracting Worksheet** window functions like the **Planning Worksheet*
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>To calculate the subcontracting worksheet  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
 2.  To calculate the worksheet, choose the **Calculate Subcontracts** action.  
-3.  In the **Calculate Subcontracts** window, set filters for the subcontracted operations, or the work centers where they are performed, to calculate only the relevant production orders.  
+3.  On the **Calculate Subcontracts** page, set filters for the subcontracted operations, or the work centres where they are performed, to calculate only the relevant production orders.  
 4.  Choose the **OK** button.  
 
-    Review the lines in the **Subcontracting Worksheet** window. The information in this worksheet comes from the production order and production order routing lines and flows to the purchase order when that document is created. You can delete a row from the worksheet without affecting the original information, just as you can with the other worksheets. The information will reappear the next time you run the **Calculate Subcontracts** function.  
+    Review the lines on the **Subcontracting Worksheet** page. The information in this worksheet comes from the production order and production order routing lines and flows to the purchase order when that document is created. You can delete a row from the worksheet without affecting the original information, just as you can with the other worksheets. The information will reappear the next time you run the **Calculate Subcontracts** function.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>To create the subcontract purchase order  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet**, and then choose the related link.  

@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c75b9eef5716379f6545494c20cbe6c7b34c1edd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 729524ce2145b4e167fb49671045b298affb862b
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,7 +26,7 @@ You can use the following reports :
 * The **EC Sales List** European Community (EC) Sales List report lists the value added tax (VAT) amounts that you have collected for sales to VAT-registered customers in the European Union (EU) countries.  
 * The **VAT Return** report includes VAT for sales and purchases to customers in all countries that use VAT.
 
-If you want to view a complete history of VAT entries, every posting that involves VAT creates an entry in the **VAT Entries** window. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view VAT entries, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Entries**, and then choose the related link.
+If you want to view a complete history of VAT entries, every posting that involves VAT creates an entry on the **VAT Entries** page. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view VAT entries, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Entries**, and then choose the related link.
 
 ## <a name="about-the-ec-sales-list-report"></a>About the EC Sales List report
 In the UK, all companies that sell goods and services to VAT-registered customers, including customers in other European Union (EU) countries, must submit an electronic version of the European Community (EC) Sales List report in XML format through Her Majesty's Revenue and Customs (HMRC) website. The EC Sales List report works only for countries in the EU.
@@ -39,7 +39,7 @@ The report includes one line for each type of transaction with the customer, and
 
 B2B goods and services specify whether you sold a good or a service, and are controlled by the **EU Service** setting in the VAT posting setup. B2B Triangulated Goods indicate whether you engaged in trade with a 3rd party, and are controlled by the **EU 3-Party Trade** setting on sales documents, such as sales orders, invoices, credit memos, and so on.  
 
-After the tax authority reviews your report, they will send an email to the contact person for your company. In [!INCLUDE[d365fin](includes/d365fin_md.md)], the contact person is specified in the **Company Information** window. Before you submit the report, make sure that a contact person is chosen.
+After the tax authority reviews your report, they will send an email to the contact person for your company. In [!INCLUDE[d365fin](includes/d365fin_md.md)], the contact person is specified on the **Company Information** page. Before you submit the report, make sure that a contact person is chosen.
 
 ## <a name="about-the-vat-return-report"></a>About the VAT Return report
 Use this report to submit VAT for sales and purchase documents, such as purchase and sales orders, invoices, and credit memos. The information in the report is in the same format as on the declaration form from the customs and tax authorities.  
@@ -80,7 +80,7 @@ To report VAT to a tax authority electronically, you need to connect [!INCLUDE[d
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] validates whether the report is set up correctly. If the validation fails, the errors display under **Errors and Warnings** so that you know what to fix. Typically, if the message is about a missing setting in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can click the message to open the page that contains the information to correct.  
 5. To submit the report, choose the **Submit** action.  
 
-After you submit the report, [!INCLUDE[d365fin](includes/d365fin_md.md)] monitors the service and keeps a record of your communications. The **Status** field indicates where the report is in the process. For example, when the authorities process your report, the status of the report changes to **Succeeded**. If the tax authority found mistakes in the report you submitted, the status of the report will be **Failed**. You can view the errors under **Errors and Warnings**, correct them, and then submit the report again. To view a list of all your EC Sales List reports, go to the **EC Sales List Reports** window.  
+After you submit the report, [!INCLUDE[d365fin](includes/d365fin_md.md)] monitors the service and keeps a record of your communications. The **Status** field indicates where the report is in the process. For example, when the authorities process your report, the status of the report changes to **Succeeded**. If the tax authority found mistakes in the report you submitted, the status of the report will be **Failed**. You can view the errors under **Errors and Warnings**, correct them, and then submit the report again. To view a list of all your EC Sales List reports, go to the **EC Sales List Reports** page.  
 
 ## <a name="viewing-communications-with-your-tax-authority"></a>Viewing communications with your tax authority
 In some countries, you exchange messages with the tax authority when you submit reports. You can view the first and the last message you sent or received by choosing the **Download Submission Message** and **Download Response Message** actions.  

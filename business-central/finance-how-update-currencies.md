@@ -13,10 +13,10 @@ ms.search.keywords: multiple currencies
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7d22d0849e2212d5f3586935601c6dee73f4e10b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 23940bd1e5fd29dc92e8285c08679135889701e9
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="update-currency-exchange-rates"></a>Update Currency Exchange Rates
@@ -24,7 +24,7 @@ You must set up a code for each currency you use if you buy or sell in currencie
 
 As companies operate in increasingly more countries/regions, it becomes more important that they be able to review or report financials in more than one currency. The program supports use of multiple currencies. Within the program, your general ledger is set up using your local currency (LCY), and another currency is set up as an additional currency, with a current exchange rate assigned.  
 
- By designating a second currency as an additional reporting currency, [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and on other entries, such as VAT entries. When G/L entry amounts are calculated in an additional reporting currency, the information in the **Currency Exchange Rates** window is used to find the relevant exchange rate.  
+ By designating a second currency as an additional reporting currency, [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and on other entries, such as VAT entries. When G/L entry amounts are calculated in an additional reporting currency, the information on the **Currency Exchange Rates** page is used to find the relevant exchange rate.  
 
 > [!WARNING]  
 >  The Additional Reporting Currency functionality should NOT be used as a basis for financial statement translation. It is not a tool that can perform translation of foreign subsidiary financial statements as part of a company consolidation. The additional reporting currency functionality only provides the option of preparing reports in another currency, as if that currency was the company’s local currency.
@@ -39,21 +39,21 @@ Using an additional reporting currency can assist the reporting process for a co
 
 - Companies that also wish to display reports in a more internationally traded currency than their own local currency.  
 
-Several reports in the General Ledger application area are based on G/L entries. To display the financial data in the report in the additional reporting currency, you simply select the **Show in Add.-Currency** field in the relevant G/L report window.  
+Several reports in the General Ledger application area are based on G/L entries. To display the financial data in the report in the additional reporting currency, you simply select the **Show in Add.-Currency** field in the relevant G/L report page.  
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>To set up a currency exchange rate service
 You can use an external service to keep your currency exchange rates up to date, such as FloatRates.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
 2. Choose the **New** action.
-3. In the **Currency Exchange Rate Service** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. On the **Currency Exchange Rate Service** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Enabled** check box to enable the service.
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>To update currency exchange rates through a service
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.
 2. Choose the **Update Exchange Rates** action.
 
-The value in the **Exchange Rate** field in the **Currencies** window is updated with the latest currency exchange rate.
+The value in the **Exchange Rate** field on the **Currencies** page is updated with the latest currency exchange rate.
 
 ## <a name="see-also"></a>See Also
 [Closing Years and Periods](year-close-years-periods.md)  

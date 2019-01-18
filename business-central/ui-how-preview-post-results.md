@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de5623e6dad677a8fb5f07824c17cb42632cff37
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 18c650a9f4c7fe1fa8daf8d9bac0949d90e3fc4f
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="preview-posting-results"></a>Preview Posting Results
@@ -25,8 +25,8 @@ On every document and journal that can be posted, you can choose the **Preview P
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Create a purchase invoice. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. Choose **Preview Posting**.
-4. In the **Posting Preview** window, select **G/L Entry**, and then choose **Show Related Entries**.  
-   The **G/L Entries Preview** window shows which entries will be created when you post the purchase invoice.
+4. On the **Posting Preview** page, select **G/L Entry**, and then choose **Show Related Entries**.  
+   The **G/L Entries Preview** page shows which entries will be created when you post the purchase invoice.
 
 ## <a name="see-also"></a>See Also
 [Post Documents and Journals](ui-post-documents-journals.md)  

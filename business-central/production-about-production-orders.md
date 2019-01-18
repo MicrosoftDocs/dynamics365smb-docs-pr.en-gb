@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7172c271d2bd25d79294a637dec83a8a0fb834dc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1c534f16c1e69840912e42c30bbcae2d6496b373
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-production-orders"></a>About Production Orders
@@ -40,7 +40,7 @@ Production orders are the starting points for:
 -   Tracking of finished manufacturing  
 
 ## <a name="production-order-creation"></a>Production Order Creation  
-Production orders can be created on an order-by-order basis manually from the **Production Order** window, or generated from the **Sales Order Planning** or **Order Planning** windows. Multiple orders are created from the **Planning Worksheet** window.  
+Production orders can be created on an order-by-order basis manually from the **Production Order** page, or generated from the **Sales Order Planning** or **Order Planning** pages. Multiple orders are created from the **Planning Worksheet** page.  
 
 Production orders are created using information from:  
 
@@ -54,8 +54,8 @@ Production orders are created using information from:
 Production orders are automatically reserved and tracked to their source when:  
 
 -   Created from the **Planning Worksheet**  
--   Created with the Order function in the **Sales Order Planning** window  
--   Created from the **Order Planning** window  
+-   Created with the Order function on the **Sales Order Planning** page  
+-   Created from the **Order Planning** page  
 -   Using the **Replan** function on production orders  
 
 For more information, see [Track Relations Between Demand and Supply](production-how-track-demand-supply.md).
@@ -63,7 +63,7 @@ For more information, see [Track Relations Between Demand and Supply](production
 Production orders created through other means are not automatically reserved and tracked.   
 
 ## <a name="production-order-status"></a>Production Order Status  
-The production order status controls how the production order behaves within the program. The form and content of the production are dictated by the order's status. The production orders are displayed in different windows according to their status. You cannot change the status of a production order manually; you must use the **Change Status** function.  
+The production order status controls how the production order behaves within the program. The form and content of the production are dictated by the order's status. The production orders are displayed in different pages according to their status. You cannot change the status of a production order manually; you must use the **Change Status** function.  
 
 ### <a name="simulated-production-order"></a>Simulated Production Order  
 The Simulated Production Order is unique based on the following characteristics:  

@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: beed335b93ef9211e4fc53c25f97b3fed6137348
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cc624d52ce61cea4a8e92bb7d37e07ad8c769393
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reverse-postings"></a>Reverse Postings
@@ -31,10 +31,10 @@ If you have made an incorrect negative quantity posting, such as a purchase orde
 If you have made an incorrect positive quantity posting, such as a purchase return order with the wrong number of items and posted it as shipped but not invoiced, then you can undo the posting.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>To reverse the journal posting of a general ledger entry
-You can reverse entries from all **Ledger Entries** windows. The following procedure is based in the **General Ledger Entries** window.
+You can reverse entries from all **Ledger Entries** pages. The following procedure is based on the **General Ledger Entries** page.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Entries**, and then choose the related link.
 2. Select the entry that you want to reverse, and then choose the **Reverse Transaction** action. Note that is must originate from a journal posting.
-3. In the **Reverse Transaction Entries** window, select the relevant entry, and then choose the **Reverse** action.
+3. On the **Reverse Transaction Entries** page, select the relevant entry, and then choose the **Reverse** action.
 4. Choose the **Yes** button on the confirmation message.
 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>To undo a quantity posting on a posted purchase receipt  
@@ -62,7 +62,7 @@ You can reverse entries from all **Ledger Entries** windows. The following proce
 
     Now go back to the purchase return order to redo the posting.  
 
-5.  In the **Posted Return Shipment** window, take a note of the number in the **Return Order No.** field.  
+5.  On the **Posted Return Shipment** page, take a note of the number in the **Return Order No.** field.  
 6.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Return Orders**, and then select the related link.  
 7.  Open the return order in question, and then choose the **Reopen** action.  
 8.  Correct the entry in the **Quantity** field and post the purchase return order again.  

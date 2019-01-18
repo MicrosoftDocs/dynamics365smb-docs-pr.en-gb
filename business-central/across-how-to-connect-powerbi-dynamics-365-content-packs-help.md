@@ -12,10 +12,10 @@ ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 0196bff5dedb878884fd3d6e0208022faa968dfd
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 48c57e03f4679ea05792304fe13bdf896be2f1e3
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Connecting Power BI to Dynamics 365 Business Central Content Packs
@@ -29,7 +29,7 @@ You must have a valid account with Dynamics 365 and with Power BI. Also, you mus
 
 You may also get starting from within Dynamics 365 Business Edition. From the role centre, navigate to **Report Selection** in the Power BI Role Centre part. Select either **Service** or **My Organisation** from the ribbon. When either of these actions are selected, you will be taken to either the Organisation gallery in Power BI or to the services library in Power BI, which will also be filtered to only display content packs related to [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-2. In the **Services** box, select **Get**. This will open a window with the **AppSource** and **Apps for Power BI apps**.  
+2. In the **Services** box, select **Get**. This will open a page with the **AppSource** and **Apps for Power BI apps**.  
 ![Choose content packs from online services](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Select **Apps** from the **Apps for Power BI apps** tab, choose the **Microsoft Dynamics 365 Business Central** content pack that you want to use, and then select **Get it now**.  
 ![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)

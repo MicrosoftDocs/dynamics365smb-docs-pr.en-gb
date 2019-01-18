@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2300cc6e3f4c429cd73a17939420a44b846a3b13
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1de7b6679b6b2494145654f712c3ddb3e760271e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Track Relations Between Demand and Supply
@@ -36,12 +36,12 @@ The following describes how to track linked items on a firm planned production o
 The lines in the **Order Tracking** display the documents that are related to the current production order line.
 
 ## <a name="untracked-planning-elements"></a>Untracked Planning Elements
-The **Untracked Planning Elements** window opens when you choose the **Untracked Qty.** field in the **order Planning** window. It serves two purposes:
+The **Untracked Planning Elements** page opens when you choose the **Untracked Qty.** field on the **order Planning** page. It serves two purposes:
 
-1. To hold information about untracked quantities displayed when the user looks up from the Order Tracking window to see untracked quantities.
-2. To hold warning messages displayed when the user chooses the **Warning** icon in the **Planning Worksheet** window.
+1. To hold information about untracked quantities displayed when the user looks up from the Order Tracking page to see untracked quantities.
+2. To hold warning messages displayed when the user chooses the **Warning** icon on the **Planning Worksheet** page.
 
-The window contains entries which account for an untracked surplus quantity in order tracking network. These entries are generated during the planning run and explain where the untracked surplus quantity in the order tracking lines came from. This untracked surplus can come from:
+The page contains entries which account for an untracked surplus quantity in order tracking network. These entries are generated during the planning run and explain where the untracked surplus quantity in the order tracking lines came from. This untracked surplus can come from:
 
 - Production forecast
 - Blanket orders

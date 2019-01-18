@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f8f5959c25800c1a8d5ee7ed88f4e7a8599ce20a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ace9e09a1f57310e93bb86422c492383690bc04b
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Design Details: Cost Adjustment
@@ -71,7 +71,7 @@ For more information, see [Design Details: Assembly Order Posting](design-detail
 Cost adjustment can be performed in two ways:  
 
 * Manually, by running the **Adjust Cost - Item Entries** batch job. You can run this batch job either for all items or for only certain items or item categories. This batch job runs a cost adjustment for the items in inventory for which an inbound transaction has been made, such as a purchase. For items that use the average costing method, the batch job also makes an adjustment if any outbound transactions are created.  
-* Automatically, by adjusting costs every time that you post an inventory transaction, and when you finish a production order. The cost adjustment is only run for the specific item or items affected by the posting. This is set up when you select the **Automatic Cost Adjustment** check box in the **Inventory Setup** window.  
+* Automatically, by adjusting costs every time that you post an inventory transaction, and when you finish a production order. The cost adjustment is only run for the specific item or items affected by the posting. This is set up when you select the **Automatic Cost Adjustment** check box on the **Inventory Setup** page.  
 
 It is good practice to run the cost adjustment automatically when you post because unit costs are more frequently updated and therefore more accurate. The disadvantage is that the performance of the database can be affected by running the cost adjustment so often.  
 
@@ -79,7 +79,7 @@ Because it is important to keep the unit cost of an item up to date, it is recom
 
 Regardless if you run the cost adjustment manually or automatically, the adjustment process and its consequences are the same. [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the value of the inbound transaction and forwards that cost to any outbound transactions, such as sales or consumptions, which have been applied to the inbound transaction. The cost adjustment creates value entries that contain adjustment amounts and amounts that compensate for rounding.  
 
-The new adjustment and rounding value entries have the posting date of the related invoice. Exceptions are if the value entries fall in a closed accounting period or inventory period or if the posting date is earlier than the date in the **Allow Posting From** field in the **General Ledger Setup** window. If this occurs, the batch job assigns the posting date as the first date of the next open period.  
+The new adjustment and rounding value entries have the posting date of the related invoice. Exceptions are if the value entries fall in a closed accounting period or inventory period or if the posting date is earlier than the date in the **Allow Posting From** field on the **General Ledger Setup** page. If this occurs, the batch job assigns the posting date as the first date of the next open period.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Adjust Cost - Item Entries Batch Job  
 When you run the **Adjust Cost - Item Entries** batch job, you have the option to run the batch job for all items or for only certain items or categories.  
@@ -143,7 +143,7 @@ Later, you post a related purchase item charge for 2.00 LCY invoiced on 02-10-20
 |01-15-20|[COGS Account]|7290||2.00|8|  
 
 ## <a name="automatic-cost-adjustment"></a>Automatic Cost Adjustment  
-To set up cost adjustment to run automatically when you post an inventory transaction, use the **Automatic Cost Adjustment** field in the **Inventory Setup** window. This field enables you to select how far back in time from the current work date that you want automatic cost adjustment to be performed. The following options exist.  
+To set up cost adjustment to run automatically when you post an inventory transaction, use the **Automatic Cost Adjustment** field on the **Inventory Setup** page. This field enables you to select how far back in time from the current work date that you want automatic cost adjustment to be performed. The following options exist.  
 
 |Option|Description|  
 |----------------------------------|---------------------------------------|  

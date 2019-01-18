@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6739a7fc1400e9c1cfbc276c0a9ebeb3f95467b2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 35eaf9776508d608a48aaa38e6d83ae879cd05af
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Walkthrough: Picking and Shipping in Basic Warehouse Configurations
@@ -32,7 +32,7 @@ For more information, see [Design Details: Outbound Warehouse Flow](design-detai
 The following walkthrough demonstrates method B in the previous table.  
 
 ## <a name="about-this-walkthrough"></a>About This Walkthrough  
-In basic warehouse configurations where your location is set up to require pick processing but not ship processing, you use the **Inventory Pick** window to record and post pick and ship information for your outbound source documents. The outbound source document can be a sales order, purchase return order, outbound transfer order, or a production order with component need.  
+In basic warehouse configurations where your location is set up to require pick processing but not ship processing, you use the **Inventory Pick** page to record and post pick and ship information for your outbound source documents. The outbound source document can be a sales order, purchase return order, outbound transfer order, or a production order with component need.  
 
 This walkthrough demonstrates the following tasks:  
 
@@ -56,7 +56,7 @@ To complete this walkthrough, you will need:
 -   To make yourself a warehouse employee at SILVER location by following these steps:  
 
     1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
-    2.  Choose the **User ID** field, and select your own user account in the **Users** window.  
+    2.  Choose the **User ID** field, and select your own user account on the **Users** page.  
     3.  In the **Location Code** field, enter SILVER.  
     4.  Select the **Default** field.  
 
@@ -73,10 +73,10 @@ To complete this walkthrough, you will need:
     3.  Choose the **Post** action, and then select the **Yes** button.  
 
 ## <a name="story"></a>Story  
-Ellen, the warehouse manager at CRONUS, sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks in the **Inventory Pick** window, which automatically points to the bins where LS-81 is stored.  
+Ellen, the warehouse manager at CRONUS, sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks on the **Inventory Pick** page, which automatically points to the bins where LS-81 is stored.  
 
 ## <a name="setting-up-the-location"></a>Setting Up the Location  
-The setup of the **Location Card** window defines the company’s warehouse flows.  
+The setup of the **Location Card** page defines the company’s warehouse flows.  
 
 ### <a name="to-set-up-the-location"></a>To set up the location  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
@@ -102,7 +102,7 @@ Sales orders are the most common type of outbound source document.
     John proceeds to pick and ship the sold items.  
 
 ## <a name="picking-and-shipping-items"></a>Picking and Shipping Items  
-In the **Inventory Pick** window, you can manage all outbound warehouse activities for a specific source document, such as a sales order.  
+On the **Inventory Pick** page, you can manage all outbound warehouse activities for a specific source document, such as a sales order.  
 
 ### <a name="to-pick-and-ship-items"></a>To pick and ship items  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  

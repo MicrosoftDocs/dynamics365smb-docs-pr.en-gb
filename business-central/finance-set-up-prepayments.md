@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b4469b91f8bb377e4fef5700063d6085ac700605
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7dc774654b35ce9b08885fd4ad18539e3ce5ebd5
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-prepayments"></a>Set Up Prepayments
@@ -30,23 +30,23 @@ Because the prepaid amount belongs to the buyer until they have received the goo
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>To add prepayment accounts to the general posting setup  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.
-2. In the **General Posting Setup** window, fill in the following fields:  
+2. On the **General Posting Setup** page, fill in the following fields:  
 
     - **Sales Prepayments Account**  
     - **Purch. Prepayments Account**  
 
-If you have not already set up general ledger accounts for prepayments, you can do that in the **G/L Account List** window.  
+If you have not already set up general ledger accounts for prepayments, you can do that on the **G/L Account List** page.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>To set up number series for prepayment documents  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
-2. In the **Sales & Receivables Setup** window, fill in the following fields:  
+2. On the **Sales & Receivables Setup** page, fill in the following fields:  
 
    - **Posted Prepmt. Inv. Nos.**
    - **Posted Prepmt. Cr. Memo Nos.**
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.
-2. In the **Purchases & Payables Setup** window, fill in the following fields:
+2. On the **Purchases & Payables Setup** page, fill in the following fields:
 
     - **Posted Prepmt. Inv. Nos.**
     - **Posted Prepmt. Cr. Memo Nos.**
@@ -59,7 +59,7 @@ For an item, you can set up a default prepayment percentage for all customers, a
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Select an item, and then choose the **Prepayment Percentages** action.  
-3. In the **Sales Prepayment Percentages** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. On the **Sales Prepayment Percentages** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 For a customer or vendor, you can set up one default prepayment percentage for all items and all types of sales lines. You enter this on the customer or vendor card.
 

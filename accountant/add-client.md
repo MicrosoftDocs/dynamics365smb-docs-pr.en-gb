@@ -8,26 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/15/2018
+ms.date: 11/23/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: 00e0d0a131b586d3aee39b3d08064defff81814a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Add clients to your dashboard in [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-You can add a client by using the **Clients** window, which you can open by choosing the **Manage Clients** action in the ribbon. Simply choose **New** and then fill in the fields.  
+You can add a client by using the **Clients** page, which you can open by choosing the **Manage Clients** action in the ribbon. Simply choose **New** and then fill in the fields.  
 
-![Add a client](./media/accountant-add-client/manage-client.png)
+> [!div class="mx-imgBorder"]
+> ![Add a client](./media/accountant-add-client/manage-client.png)
 
 The data in the card for each client is specified by you, and you can change it as needed. However, the **Client URL** field is critical - this is how you can access each client's [!INCLUDE [d365fin](includes/d365fin_md.md)]. Use the **Validate Client URL** action in the ribbon to test that you entered the right link. The URL that you must enter points at the client's [!INCLUDE [d365fin](includes/d365fin_md.md)] and includes their domain address. For example, if they have specified a domain such as MyBusiness.com, then the link to their [!INCLUDE [d365fin](includes/d365fin_md.md)] is *https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1*.  
 
 > [!NOTE]
->  Before the May 2018 update, the URL that you specified had a different format with the client's company name at the beginning. With the May 2018 update, the format is ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, where ```clientdomain``` represents the domain of your client.  
+>  Before the May 2018 update, the URL that you specified had a different format with the client's company name at the beginning. In the current version of [!INCLUDE [d365fin](includes/d365fin_md.md)], the format is ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, where ```clientdomain``` represents the domain of your client.  
 
 The client URL is used when you choose the **Go To Company** menu item in the [!INCLUDE [d365acc](includes/d365acc_md.md)] dashboard.  
 

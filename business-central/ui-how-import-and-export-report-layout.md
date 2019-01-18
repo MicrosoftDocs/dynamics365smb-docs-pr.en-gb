@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27818c45c68f37c052a39eeaeaf0fe6c2c871af9
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Import and Export a Report or Document Layout
@@ -31,7 +31,7 @@ You can import and export an existing custom report layout as a file to and from
   
 2.  Select the row for the report that contains the custom report layout that you want to export, and then on the **Home** tab, in the **Process** group, choose **Custom Layouts**.  
   
-3.  In the **Report Layouts** window, select the report layout that you want to export to a file, and then on the **Home** tab, in the **Process** group, choose **Export Layout**.  
+3.  On the **Report Layouts** page, select the report layout that you want to export to a file, and then on the **Home** tab, in the **Process** group, choose **Export Layout**.  
   
 4.  In the **Export File** dialogue box, choose **Save**, and then save the file to a location on your computer or network.  
   
@@ -45,7 +45,7 @@ You can import and export an existing custom report layout as a file to and from
   
 3.  Select the row for the report to which you want to import the report layout, and then on the **Home** tab, in the **Process** group, choose **Custom Layouts**.  
   
-4.  In the **Report Layouts** window, select the report layout to which you want to import the file, and then on the **Home** tab, in the **Process** group, choose **Import Layout**.  
+4.  On the **Report Layouts** page, select the report layout to which you want to import the file, and then on the **Home** tab, in the **Process** group, choose **Import Layout**.  
   
 5.  In the **Import** dialogue box, select the document that defines the report layout, and then choose **Open**.  
   

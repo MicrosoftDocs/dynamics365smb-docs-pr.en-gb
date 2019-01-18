@@ -1,6 +1,6 @@
 ---
 title: How to Print Direct Sales and Purchase Details Reports | Microsoft Docs
-description: The **Direct Sales Details** and **Direct Purchase Details** reports include headers with order numbers and descriptions from sales and purchase documents.
+description: The Direct Sales Details and Direct Purchase Details reports include headers with order numbers and descriptions from sales and purchase documents.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3eb0a56467f36d519320f1d037d30ae4190f36ad
+ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
+ms.openlocfilehash: 74b520ebefbda06f6efbd08eb4d428219e3ad57a
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/04/2018
 
 ---
 # <a name="print-direct-sales-and-purchase-details-reports"></a>Print Direct Sales and Purchase Details Reports

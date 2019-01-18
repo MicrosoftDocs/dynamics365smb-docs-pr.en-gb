@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ab76136c7f28e322bbc3b52a0fec354c6c13f3ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 81176d2dc4cb5223d20ea553390b591d47bd5a85
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Walkthrough: Setting Up and Invoicing Sales Prepayments
@@ -65,11 +65,11 @@ The following procedures describe how to complete Phyllis' tasks:
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>To set up number series for prepayments  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
-2.  In the **Sales & Receivables Setup** window, expand the **Numbering** FastTab.  
+2.  On the **Sales & Receivables Setup** page, expand the **Numbering** FastTab.  
 3.  Verify that the number series for posted prepayment invoices in the **Posted Prepmt. Inv. Nos.** field is the same as for posted sales invoices (**Posted Invoice Nos.**) and the number series for posted prepayment credit memos (**Posted Prepmt. Cr. Memo Nos.**) is the same as for posted credit memos (**Posted Credit Memo Nos.**).  
 
 #### <a name="to-block-shipments-for-unpaid-prepayment"></a>To block shipments for unpaid prepayment  
-1.  In the **Sales & Receivables Setup** window, on the **General** FastTab, select the **Check Prepayment when Posting** check box.
+1.  On the **Sales & Receivables Setup** page, on the **General** FastTab, select the **Cheque Prepayment when Posting** check box.
 
     Now you cannot ship or invoice an order that has an unpaid prepayment amount.  
 
@@ -85,7 +85,7 @@ Phyllis requires all customers to be invoiced a 20% deposit for item 1100. Custo
 5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 6.  Open the card for customer 1100.
 7.  Choose the **Prepayment Percentages** action.  
-8.  Fill in two lines in the **Sales Prepayment Percentages** window as follows.  
+8.  Fill in two lines on the **Sales Prepayment Percentages** page as follows.  
 
     |**Sales Type**|**Sales Code**|**Item No.**|**Prepayment %**|  
     |--------------------|--------------------|------------------|----------------------|  
@@ -95,12 +95,12 @@ Phyllis requires all customers to be invoiced a 20% deposit for item 1100. Custo
     > [!IMPORTANT]  
     >  Depending on your country/region, you must also specify a tax group code on the **Invoicing** FastTab for items 1000 and 1100.  
 
-9. Close all windows.  
+9. Close all pages.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>To specify an account for sales prepayments in general posting setup  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
 2.  Select the line where the **Gen. Bus. Posting Group** field is set to **EXPORT**, and the **Gen. Prod. Posting Group** field is set to **RETAIL**, and then choose the **Edit** action.  
-3.  In the **General Posting Setup Card** window, in the **Sales Prepayments Account** field, specify the relevant account.  
+3.  On the **General Posting Setup Card** page, in the **Sales Prepayments Account** field, specify the relevant account.  
 4.  Choose the **OK** button.  
 
 ## <a name="creating-an-order-that-requires-a-prepayment"></a>Creating an Order that Requires a Prepayment  
@@ -126,7 +126,7 @@ Susan creates the prepayment invoice and sends it to the customer.
 
 7. Verify that the **Prepayment %** field on the line with item **1000** contains **30**. The default value was taken from the sales header, which was populated from the customer card.  
 
-    The **Prepayment %** field on the line with item **1100** contains **40**. This is the percentage you entered in the **Sales Prepayment Percentages** window for item **1100** and customer **20000**.  
+    The **Prepayment %** field on the line with item **1100** contains **40**. This is the percentage you entered on the **Sales Prepayment Percentages** page for item **1100** and customer **20000**.  
 
     For more information, see [Set Up Prepayments](finance-set-up-prepayments.md).  
 8. Choose the **Statistics** action.  
@@ -136,14 +136,14 @@ Susan creates the prepayment invoice and sends it to the customer.
 
     > [!IMPORTANT]  
     >  Depending on your country/region, the following step might not apply.  
-10. Change the amount in the **Prepmt. Line Amount Excl. VAT** field to **2000** and then close the window.  
+10. Change the amount in the **Prepmt. Line Amount Excl. VAT** field to **2000** and then close the page.  
 11. Verify the **Prepayment %** field on the sales lines, and you will see that it has been recalculated to **40.81625**.  
 
     The recalculation includes all lines that have a prepayment percentage that is greater than 0.  
 
     Now the customer asks if the prepayment percent can be set to 35%. Susan's supervisor approves the change.  
 
-12. In the **Sales Order** window, in the **Prepayment %** field, enter **35**.  
+12. On the **Sales Order** page, in the **Prepayment %** field, enter **35**.  
 13. In the warning that appears, choose the **Yes** button. A rate of 35% will be applied as the payment percentage for the whole order.  
 14. Verify that the lines have been updated accordingly.  
 
@@ -152,7 +152,7 @@ After entering the correct prepayment values on the order, Susan creates the pre
 
 #### <a name="to-create-a-prepayment-invoice"></a>To create a prepayment invoice  
 
-1.  In the **Sales Order** window, choose the **Post Prepayment Invoice** action.  
+1.  On the **Sales Order** page, choose the **Post Prepayment Invoice** action.  
 
 > [!NOTE]  
 >  Susan would select **Post and Print Prepmt. Invoice** and mail the invoice to the customer.  
@@ -162,7 +162,7 @@ The following day, the customer calls Susan and makes changes to the order. The 
 
 #### <a name="to-create-an-additional-prepayment-invoice"></a>To create an additional prepayment invoice  
 
-1.  In the **Sales Order** window, choose the **Reopen** action.  
+1.  On the **Sales Order** page, choose the **Reopen** action.  
 2.  On the line for item **1100**, in the **Quantity** field, enter **2**.  
 
     Scroll to see the prepayment fields. The **Prepayment Line Amount Excl. VAT** field now contains **630**, and the **Prepmt. Amt. Inv. Excl. VAT** field contains **315**. This shows that there is an additional prepayment amount that has not been invoiced yet.  
@@ -182,7 +182,7 @@ The customer pays the prepayments amount and Arnie, who works in the accounts de
     |**Account Type**|**Customer**|  
     |**Account No.**|**20000**|  
 3. Choose the **Apply Entries** action.  
-4.  In the **Apply Customer Entries** window, select the first prepayment invoice, and then choose the **Set Applies-to ID** action.  
+4.  On the **Apply Customer Entries** page, select the first prepayment invoice, and then choose the **Set Applies-to ID** action.  
 5.  Repeat the previous step for the second prepayment.  
 6.  Choose the **OK** button.  
 

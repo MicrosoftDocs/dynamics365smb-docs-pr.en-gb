@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fad67a87a2b78a0e3b550599b82ceabc7a7f2afe
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 80f47bc3af8b26e2a58bca739f2b4f629b9d5dc0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="post-capacities"></a>Post Capacities
@@ -31,11 +31,11 @@ In the capacity journal, you post consumed capacities that are not assigned to t
 6.  Choose the **Post** action to post the capacities.  
 
 ## <a name="to-view-work-center-ledger-entries"></a>To view work centre ledger entries  
-In the **Work Centre Card** and **Machine Centre Card** windows, you can view the posted capacities as a result of finished production orders.    
+In the **Work Centre Card** and **Machine Centre Card** pages, you can view the posted capacities as a result of finished production orders.    
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.  
 2.  Open the relevant **Work Centre** card from the list, and then choose the **Capacity Ledger Entries** action.  
 
-The **Capacity Ledger Entries** window displays the posted entries from the work centre in the order they were posted.   
+The **Capacity Ledger Entries** page displays the posted entries from the work centre in the order they were posted.   
 
 ## <a name="see-also"></a>See Also  
 [Manufacturing](production-manage-manufacturing.md)    

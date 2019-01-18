@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-transfer-and-post-cost-entries
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 62ed00ef7ca278245b9cdd1a28a4ee70cf9a8f11
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 273a8c4341f621710819fd5fbc5cb8ce579c86f5
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="transfer-general-ledger-entries-to-cost-entries"></a>Transfer General Ledger Entries to Cost Entries
@@ -27,11 +28,11 @@ Before you run the process for transferring general ledger entries to cost entri
 ## <a name="to-prepare-the-transfer"></a>To prepare the transfer  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Accounting Setup**, and then choose the related link.  
-2.  In the **Cost Accounting Setup** window, verify that the **Starting Date for G/L Transfer** field is set to the correct value.  
+2.  On the **Cost Accounting Setup** page, verify that the **Starting Date for G/L Transfer** field is set to the correct value.  
 3.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Types**, and then choose the related link.  
-4.  In the **Cost Type Card** window, verify that the **G/L Account Range** field is linked correctly for each cost type to take entries from the general ledger.  
+4.  On the **Cost Type Card** page, verify that the **G/L Account Range** field is linked correctly for each cost type to take entries from the general ledger.  
 5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
-6.  For each relevant general ledger account, in the **G/L Account Card** window, verify that the **Cost Type No.** field is linked correctly to a cost type. For more information, see [Defining the Relationship Between Cost Types and General Ledger Accounts](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md).  
+6.  For each relevant general ledger account, on the **G/L Account Card** page, verify that the **Cost Type No.** field is linked correctly to a cost type. For more information, see [Setting Up Cost Accounting](finance-set-up-cost-accounting.md).  
 7.  Verify that all relevant general ledger entries have dimension values that correspond to a cost centre and a cost object.  
 
 ## <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>To transfer general ledger entries to cost entries  
@@ -41,9 +42,6 @@ Before you run the process for transferring general ledger entries to cost entri
     During the transfer, the process creates connections in the entries in the **Cost Entry** table and the **Cost Register** table. This makes it possible to trace the source of cost entries.  
 
 ## <a name="see-also"></a>See Also  
- [Criteria for Transferring General Ledger Entries to Cost Entries](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
- [Automatic Transfer and Combined Entries](finance-automatic-transfer-combined-entries.md)   
- [Results of the Transfer](finance-results-of-the-transfer.md)   
- [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
- [Defining the Relationship Between Cost Types and General Ledger Accounts](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
+[Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
+[Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   
 

@@ -11,10 +11,10 @@ ms.search.keywords: remove, delete
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 473b2fb8f20b30ce49265e6891a99291b663f6a8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Unsubscribe, Remove, or Reset [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -38,7 +38,7 @@ To close your account, currently you must contact the [!INCLUDE[d365fin](include
 If you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)] using a non-Office 365 business account, you do not have an Office 365 administrator. Instead, you must unsubscribe by contacting the [!INCLUDE[d365fin](includes/d365fin_md.md)] Cancellation team by sending an email message at cancelbusinesscentra@microsoft.com. You must include the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant in the message so that we can identify you. The easiest way to do that is to copy the URL from your [!INCLUDE[d365fin](includes/d365fin_md.md)] home page.  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Resetting your [!INCLUDE[d365fin](includes/d365fin_md.md)] experience
-If you have added data to your [!INCLUDE[d365fin](includes/d365fin_md.md)] free trial, and you want to start over with a fresh experience, you can create a new company and then reset the first company. If you open the **Companies** window, you can create a copy of your current company, sign out and then sign into your new company, and then reset the original company.  
+If you have added data to your [!INCLUDE[d365fin](includes/d365fin_md.md)] free trial, and you want to start over with a fresh experience, you can create a new company and then reset the first company. If you open the **Companies** page, you can create a copy of your current company, sign out and then sign into your new company, and then reset the original company.  
 > [!NOTE]  
 >   When you reset a company that you are sharing with other people from your organisation, you must make sure other people are not logged in when you reset the company.  
 

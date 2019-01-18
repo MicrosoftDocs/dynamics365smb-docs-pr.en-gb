@@ -13,15 +13,15 @@ ms.search.keywords: service, service item, service order, repairs, maintenance
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f73f5b9d74e7b6a75be6320697aa1a4ad84fb4a1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b9bf54d61ba71281a7069a6977ad1264637eba46
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="set-up-standard-service-codes"></a>Set Up Standard Service Codes
-When you perform typical service, you often have to create service documents that use service lines that contain similar information. To make it easy to create these lines, you can set up standard service codes that have a predefined set of service lines. When you choose the code on a service document, the lines are entered automatically. You can set up any number of standard service codes, and each code can have an unlimited number of service lines of different types, including item, resource, cost, or standrd text linked to it. You create service lines of each standard serice code on the **Standard Service Code** card. You then assign standard service codes to service item groups in the **Standard Serv. Item Gr. Codes** window. Later, when you create a service document, you can use the **Get Standard Service Codes** action to add service lines.  
+When you perform typical service, you often have to create service documents that use service lines that contain similar information. To make it easy to create these lines, you can set up standard service codes that have a predefined set of service lines. When you choose the code on a service document, the lines are entered automatically. You can set up any number of standard service codes, and each code can have an unlimited number of service lines of different types, including item, resource, cost, or standrd text linked to it. You create service lines of each standard serice code on the **Standard Service Code** card. You then assign standard service codes to service item groups on the **Standard Serv. Item Gr. Codes** page. Later, when you create a service document, you can use the **Get Standard Service Codes** action to add service lines.  
   
 > [!Tip]
 >  You can use the same concept to create lines on sales and purchase documents. For more information, see [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).    

@@ -13,10 +13,10 @@ ms.search.keywords: inventory, periods
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e6873ca2e4f4ab082bddad90f1ab59edb34a2a63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1aae1d32b86000ea8a5f867f1ee4c07d8bc1ff09
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-inventory-periods"></a>Work with Inventory Periods
@@ -52,7 +52,7 @@ This means that all outbound transaction quantities, such as those from sales or
 
      Run the **Post Inventory Cost to G/L** batch job to ensure that all costs are posted to the general ledger.  
 3. Choose the **Post Inventory to G/L** action.  
-4. In the **Inventory Periods** window, select the inventory period you want to close.  
+4. On the **Inventory Periods** page, select the inventory period you want to close.  
 5. Choose the **Close Period** action. After the inventory period has been closed, you cannot post inventory changes before the ending date. The cost of all items must be adjusted with the **Adjust Cost – Item Entries** batch job before you close the inventory period.  
 6. Choose the **Yes** button to confirm that you want to close the period, or choose **No** to cancel the closing.  
 7. The inventory period is closed and a confirmation message is displayed when it is finished.  

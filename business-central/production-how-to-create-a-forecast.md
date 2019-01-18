@@ -1,6 +1,6 @@
 ---
 title: How to Create a Demand Forecast | Microsoft Docs
-description: You can create sales and production forecasts with the **Demand Forecast** window.
+description: You can create sales and production forecasts with the **Demand Forecast** page.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d0f4d314a33c86d169d6e2dae0b859b879702e5d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b7937bf83074dcbe9cd2bf501d4a5f67c1712511
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-a-demand-forecast"></a>Create a Demand Forecast
-You can create sales and production forecasts with the **Demand Forecast** window.  
+You can create sales and production forecasts with the **Demand Forecast** page.  
 
 Forecasting functionality is used to create anticipated demand; actual demand is created from sales and production orders. During creation of the Master Production Schedule (MPS), the forecast is netted against the sales and production orders. The *Component* option on the forecast determines which type of requirements to take into consideration in the netting process. If the forecast is for a sales item, only sales orders net the forecast. If it is for components, only dependent demand from production order components net the forecast.  
 
@@ -34,7 +34,7 @@ The forecasting functionality in the program can be used to create sales or prod
 
 In most cases, then, the production planner modifies the sales forecast to fit the conditions of production, yet still satisfies the sales forecast.  
 
-You create forecasts manually in the **Demand Forecast** window. Multiple forecasts can exist in the system, and are differentiated by name and type. Forecasts can be copied and edited as necessary. Note that only one forecast is valid for planning purposes at a time.  
+You create forecasts manually on the **Demand Forecast** page. Multiple forecasts can exist in the system, and are differentiated by name and type. Forecasts can be copied and edited as necessary. Note that only one forecast is valid for planning purposes at a time.  
 
 The forecast consists of a number of records each stating item number, forecast date, and forecasted quantity. The forecast of an item covers a period, which is defined by the forecast date and the forecast date of the next (later) forecast record. From a planning point of view, the forecasted quantity should be available at the start of the demand period.  
 
@@ -46,7 +46,7 @@ The component forecast can be seen as an option forecast in relation to a parent
 As the component forecast is designed to define options for a parent item, the component forecast should be equal or less than the sales item forecast quantity. If the component forecast is higher than the sales item forecast, the system treats the difference between these two types of forecast as independent demand.  
 
 ## <a name="forecasting-periods"></a>Forecasting Periods  
- The forecast period is valid from its starting date until the date the next forecast starts. The time interval window gives you multiple choices to insert the demand at a specific date in a period. It is therefore recommended not to change the forecast period scope unless you want to move all forecast entries to the starting date of this period.  
+ The forecast period is valid from its starting date until the date the next forecast starts. The time interval page gives you multiple choices to insert the demand at a specific date in a period. It is therefore recommended not to change the forecast period scope unless you want to move all forecast entries to the starting date of this period.  
 
 ## <a name="forecast-by-locations"></a>Forecast by Locations  
 It can be stated in the manufacturing setup if you want filter forecast according to location when calculating a plan. Note, though, that if location-based forecasts are viewed in isolation, the overall forecast may not be representative.
@@ -64,10 +64,10 @@ It can be stated in the manufacturing setup if you want filter forecast accordin
     > [!NOTE]  
     >  You should consider which time interval that you want to use for future forecasts so that the time interval is consistent throughout. When you enter a forecast quantity, it is valid on the first day of the time interval that you select. For example, if you select a month, then you enter the forecast quantity on the first day of the month. If you select a quarter, then you enter the forecast quantity on the first day of the first month in the quarter.  
 
-8.  In the **View as** field, select how the forecast quantities are shown for the time interval. If you select **Net Change**, then the net change in balance is displayed for the time interval. If you select **Balance at Date**, then the window displays the balance as of the last day in the time interval.  
+8.  In the **View as** field, select how the forecast quantities are shown for the time interval. If you select **Net Change**, then the net change in balance is displayed for the time interval. If you select **Balance at Date**, then the page displays the balance as of the last day in the time interval.  
 
 > [!NOTE]  
->  You can also edit an existing forecast. In the **Demand Forecast Matrix** window, choose the **Copy Demand Forecast** action and populate the **Demand Forecast** window with an existing forecast. You can then edit quantities as appropriate.  
+>  You can also edit an existing forecast. On the **Demand Forecast Matrix** page, choose the **Copy Demand Forecast** action and populate the **Demand Forecast** page with an existing forecast. You can then edit quantities as appropriate.  
 
 ## <a name="see-also"></a>See Also  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

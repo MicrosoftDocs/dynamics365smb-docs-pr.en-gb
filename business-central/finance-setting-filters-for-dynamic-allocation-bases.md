@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5ca8e7008c2bfe4a9abeb9d9b7b467a38e2c1971
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: fcf97328900bb21a85be51452b9e86da8398d195
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="setting-filters-for-dynamic-allocation-bases"></a>Setting Filters for Dynamic Allocation Bases
@@ -38,7 +39,5 @@ The dynamic allocation method is based on changeable values. For example, the nu
 |Items Purchased (Amount)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
 
 ## <a name="see-also"></a>See Also  
- [Scenario Example: Defining Dynamic Allocations Based on Items Sold](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
- [Set Up Allocation Source and Targets](finance-how-to-set-up-allocation-source-and-targets.md)   
- [Defining and Allocating Costs](finance-define-and-allocate-costs.md)
+[Defining and Allocating Costs](finance-define-and-allocate-costs.md)
 

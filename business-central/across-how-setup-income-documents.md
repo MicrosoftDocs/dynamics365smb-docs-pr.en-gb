@@ -13,16 +13,16 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 35911fe862a016546954d6912b3cf12896d23fdd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6072dcf536211ddad76c6423421033dd43f534b0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-incoming-documents"></a>Set Up Incoming Documents
-If you create general journal lines from incoming document records, you must specify in the **Incoming Documents Setup** window which journal template and batch to use.
+If you create general journal lines from incoming document records, you must specify on the **Incoming Documents Setup** page which journal template and batch to use.
 
-If you do not want users to create invoices or general journal lines from incoming document records unless the documents are first approved, you must set up approvers in the **Incoming Document Approvers** window.
+If you do not want users to create invoices or general journal lines from incoming document records unless the documents are first approved, you must set up approvers on the **Incoming Document Approvers** page.
 
 To turn PDF and image files into electronic documents that you can convert to, for example, purchase invoices inside [!INCLUDE[d365fin](includes/d365fin_md.md)], you must first set up the OCR feature and enable the service.
 
@@ -34,12 +34,12 @@ When the Incoming Documents feature is set up, you can use different functions t
 
 ## <a name="to-set-up-approvers-of-incoming-document-records"></a>To set up approvers of incoming document records
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Document Setup**, and then choose the related link.  
-2. In the **Incoming Documents Setup** window, choose the **Approvers** action.
+2. On the **Incoming Documents Setup** page, choose the **Approvers** action.
 
-    The **Incoming Document Approvers** window shows all users that are set up in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+    The **Incoming Document Approvers** page shows all users that are set up in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 3. Select one or more users that can approve an incoming document before a related document or journal line can be created.
 
-When approvers have been set up in the **Incoming Document Approvers** window, only those users can approve an incoming document if the **Require Approval To Create** check box in the **Incoming Documents Setup** window is selected.
+When approvers have been set up on the **Incoming Document Approvers** page, only those users can approve an incoming document if the **Require Approval To Create** check box on the **Incoming Documents Setup** page is selected.
 
 > [!NOTE]  
 >   This approval setup is not related to approval workflows. For more information, see [Use Approval Workflows](across-how-use-approval-workflows.md).

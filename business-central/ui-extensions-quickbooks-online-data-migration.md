@@ -11,10 +11,10 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e9b0a481f16d8f0bc1647640b62a81b3ea441028
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: e158f1e92bdf7ebeab0eb4d538d2a141a590b7cd
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -55,7 +55,7 @@ Getting started is easy. All you need to do is run the **Data Migration** assist
 2. Follow the instructions on each step in the assisted setup guide.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>What do I do after I migrate data?
-After you migrate data, transactions have the status **Unposted**, so you can review them and make adjustments. To review the transactions, go to the page where you would normally find them. For example, to review unposted sales invoices, go to the **Sales Invoices** window. To review payment journals, go to the **Payment Journals** window.   
+After you migrate data, transactions have the status **Unposted**, so you can review them and make adjustments. To review the transactions, go to the page where you would normally find them. For example, to review unposted sales invoices, go to the **Sales Invoices** page. To review payment journals, go to the **Payment Journals** page.   
 
 There are a few things in particular that you should do:
 

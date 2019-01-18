@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42f4d0f07e23bfc8fd2ab79fdf315df21a90c9b3
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2f71dbbb4e7e4af19829f08243371bea1998b093
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Sell Assemble-to-Order Items and Inventory Items Together
@@ -31,7 +31,7 @@ Similar flexibility exists when you are selling items to be assembled to the ord
 >  The following procedure does not include the standard sales order steps that you need to follow before you create an assembly order for unavailable quantities.
 
 ## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>To sell assemble-to-order items and inventory items together  
-1.  On a sales order line for an item that is set up to be assembled to stock, enter a quantity in the **Quantity** field that exceeds inventory. The **Check Availability** window appears. For more information, see [View the Availability of Items](inventory-how-availability-overview.md).
+1.  On a sales order line for an item that is set up to be assembled to stock, enter a quantity in the **Quantity** field that exceeds inventory. The **Check Availability** page appears. For more information, see [View the Availability of Items](inventory-how-availability-overview.md).
 2.  Note the **Total Quantity** field (a negative value), which you will enter in the next step.  
 3.  In the **Qty. to Assemble to Order** field, enter the value from the previous step.  
 4.  Perform any changes to the assembly components. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  

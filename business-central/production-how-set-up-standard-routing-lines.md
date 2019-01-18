@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e597f0847a5d1991e26b1fed4596815889f950d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7d4f7293a040ad25ce8325552bc6f05f94dd0710
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-standard-routing-lines"></a>Set Up Standard Routing Lines
@@ -27,7 +27,7 @@ The use of standard tasks simplifies the creation and maintenance of routings. T
 2. Choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Tools**, **Personnel**, **Description**, or **Tools** action.
-5. In the window that opens, describe the standard task in question.
+5. on the page that opens, describe the standard task in question.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>To add a standard task to an operation
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.

@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 24a2cec78c97d52716c1548f062fa6346bddc5f6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 849ea09fb84e2cf52971b582920debf89ca7c2b0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="planning"></a>Planning
 The production operations required to transform inputs into finished goods must be planned daily or weekly depending on the volume and nature of the products. [!INCLUDE[d365fin](includes/d365fin_md.md)] offers features to supply for anticipated and actual demand from sale, assembly, and production as well as features for distribution planning using stockkeeping units and location transfers.
 
 > [!NOTE]
-> This topic mainly describes planning for companies involved in manufacturing or assembly management where the resulting supply orders can be either production, assembly, transfer, or purchase orders. The main interface for this planning work is the **Planning Worksheet** window.
+> This topic mainly describes planning for companies involved in manufacturing or assembly management where the resulting supply orders can be either production, assembly, transfer, or purchase orders. The main interface for this planning work is the **Planning Worksheet** page.
 
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] also supports supply planning for wholesale companies where the resulting supply orders can only be transfer and purchase orders. The main interface for this planning work is the **Requisition Worksheet** window, which is described indirectly in this topic as most planning functionality applies to both worksheets.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] also supports supply planning for wholesale companies where the resulting supply orders can only be transfer and purchase orders. The main interface for this planning work is the **Requisition Worksheet** page, which is described indirectly in this topic as most planning functionality applies to both worksheets.
 
 Before you can plan and execute production orders, you must configure production capacities, such as creating shop calendars, routings, production BOMs, and machine centres. For more information, see [Setting Up Manufacturing](production-configure-production-processes.md).
 
@@ -41,9 +41,9 @@ The following table describes a sequence of tasks, with links to the topics that
 |Forecast demand presented by expected sales and production components.|[Create a Demand Forecast](production-how-to-create-a-forecast.md)|  
 |Create one-to-one production orders automatically from a sales order to cover the exact demand of that sales order line.|[Create Production Orders from Sales Orders](production-how-to-create-production-orders-from-sales-orders.md)|
 |Create a project production order directly from a multiline sales order representing a production project.|[Plan Project Orders](production-how-to-plan-project-orders.md)|
-|Use the **Order Planning** window to manually plan for sales or production demand one production BOM level at a time.|[Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)|
-|Use the **Planning Worksheet** window to run both the MPS and MRP options to automatically create either a high-level or detailed supply plan at all item levels.|[Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)|
-|Run the requisition worksheet to automatically create a detailed supply plan to cover demand for items that are replenished by purchase or transfer only.|**Requisition Worksheet** window|  
+|Use the **Order Planning** page to manually plan for sales or production demand one production BOM level at a time.|[Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)|
+|Use the **Planning Worksheet** page to run both the MPS and MRP options to automatically create either a high-level or detailed supply plan at all item levels.|[Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)|
+|Run the requisition worksheet to automatically create a detailed supply plan to cover demand for items that are replenished by purchase or transfer only.|**Requisition Worksheet** page|  
 |Initiate or update a production order as rough-scheduled operations in the master production schedule.|[Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)|
 |Recalculate work or machine centre calendars due to planning changes.|"To calculate a work centre calendar" section in [Set Up Shop Calendars](production-how-to-create-work-center-calendars.md)|
 |Track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.|[Track Relations Between Demand and Supply](production-how-track-demand-supply.md)|

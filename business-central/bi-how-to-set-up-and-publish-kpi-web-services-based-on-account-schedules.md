@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9e7adbe575df0b9253ead53ca2a5c782fa27e064
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 89ea440851c359db7e08d4f0265a647cb9424330
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Set Up and Publish KPI Web Services Based on Account Schedules
-In the **Account Schedule KPI Web Service Setup** window, you set up how to show the account-schedule KPI data and which specific account schedules to base the KPIs on. When you choose the **Publish Web Service** button, the specified account-schedule KPI data is added to the list of published web services in the **Web Services** window.  
+On the **Account Schedule KPI Web Service Setup** page, you set up how to show the account-schedule KPI data and which specific account schedules to base the KPIs on. When you choose the **Publish Web Service** button, the specified account-schedule KPI data is added to the list of published web services on the **Web Services** page.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>To set up and publish a KPI web service that is based on account schedules  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedule KPI Web Service Setup**, and then choose the related link.  
@@ -28,11 +28,11 @@ In the **Account Schedule KPI Web Service Setup** window, you set up how to show
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Forecasted Values Start**|Specify at what point in time forecasted values are shown on the account-schedule KPI graphic.<br /><br /> The forecasted values are retrieved from the general ledger budget that you select in the **G/L Budget Name** field. **Note:**  To obtain KPIs that show forecasted figures after a certain date and actual figures before the date, you can change the **Allow Posting From** field in the **General Ledger Setup** window. For more information, see Allow Posting From.|  
+    |**Forecasted Values Start**|Specify at what point in time forecasted values are shown on the account-schedule KPI graphic.<br /><br /> The forecasted values are retrieved from the general ledger budget that you select in the **G/L Budget Name** field. **Note:**  To obtain KPIs that show forecasted figures after a certain date and actual figures before the date, you can change the **Allow Posting From** field on the **General Ledger Setup** page. For more information, see Allow Posting From.|  
     |**G/L Budget Name**|Specify the name of the general ledger budget that provides forecasted values to the account-schedule KPI web service.|  
     |**Period**|Specify the period that the account-schedule KPI web service is based on.|  
     |**View By**|Specify which time interval the account-schedule KPI is shown in.|  
-    |**Web Service Name**|Specify the name of the account-schedule KPI web service.<br /><br /> This name will appear in the **Service Name** field in the **Web Services** window.|  
+    |**Web Service Name**|Specify the name of the account-schedule KPI web service.<br /><br /> This name will appear in the **Service Name** field on the **Web Services** page.|  
 
     Specify one or more account schedules that you want to publish as a KPI web service according to the setup that you made in the previous table.  
 
@@ -46,10 +46,10 @@ In the **Account Schedule KPI Web Service Setup** window, you set up how to show
 4.  Repeat step 3 for all the account schedules that you want to base the account-schedule KPI web service on.  
 5.  To view or edit the selected account schedule, on the **Account Schedule** FastTab, choose the **Edit Account Schedule** action.  
 6.  To view the account-schedule KPI data that you have set up, choose the **Account Schedule KPI Web Service** action.  
-7.  To publish the account-schedule KPI web service, choose the **Publish Web Service** action. The web service is added to the list of published web services in the **Web Services** window.  
+7.  To publish the account-schedule KPI web service, choose the **Publish Web Service** action. The web service is added to the list of published web services on the **Web Services** page.  
 
 > [!NOTE]  
->  You can also publish the KPI web service by pointing to the **Account Schedule KPI Web Service Setup** window object from the **Web Services** window. For more information, see [Publish a Web Service](across-how-publish-web-service.md).  
+>  You can also publish the KPI web service by pointing to the **Account Schedule KPI Web Service Setup** page object from the **Web Services** page. For more information, see [Publish a Web Service](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>See Also  
 [Business Intelligence](bi.md)  

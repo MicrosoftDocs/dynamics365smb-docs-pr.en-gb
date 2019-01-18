@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Set Up Data Exchange Definitions
@@ -22,7 +22,7 @@ You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to exchange data in s
 
 As preparation for creating a data exchange definition for a data file or stream, you can use the related XML schema to define which data elements to include on the **Column Definitions** FastTab. See step 6 in the “To describe the formatting of lines and columns in the file” section. For more information, see the [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-You normally set up data exchange definitions in the **Data Exchange Definition** window. However, when you set up a data exchange definition for the service of refreshing currency exchange rates, you start the process in the simplified **Exch. Rate Update Setup Card** window.  
+You normally set up data exchange definitions on the **Data Exchange Definition** page. However, when you set up a data exchange definition for the service of refreshing currency exchange rates, you start the process in the simplified **Exch. Rate Update Setup Card** page.  
 
 > [!NOTE]  
 >  If the file that is being converted is in XML format, the term *“column”* in this topic should be interpreted as *“XML element containing data”*.  
@@ -36,8 +36,8 @@ This topic includes the following procedures:
 ## <a name="to-create-a-data-exchange-definition"></a>To create a data exchange definition  
 Creating a data exchange definition involves two tasks:  
 
-1. In the **Data Exchange Definition** window, describe the formatting of lines and columns in the file.  
-2. In the **Data Exchange Mapping** window, map columns in the data file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+1. On the **Data Exchange Definition** page, describe the formatting of lines and columns in the file.  
+2. On the **Data Exchange Mapping** page, map columns in the data file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
      This is described in the following procedures.  
 
@@ -84,7 +84,7 @@ Creating a data exchange definition involves two tasks:
      Proceed to describe the formatting of columns in the data file by filling the fields on the **Column Definitions** FastTab as described in the table below. You can use the structure file, such as an .XSD file, for the data file to prefill the FastTab with the relevant elements. For more information, see [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. On the **Column Definitions** FastTab, choose **Get File Structure**.  
-7. In the **Get File Structure** window, select the related structure file, and then choose the **OK** button. The lines on the **Column Definitions** FastTab are filled according to the structure of the data file.  
+7. On the **Get File Structure** page, select the related structure file, and then choose the **OK** button. The lines on the **Column Definitions** FastTab are filled according to the structure of the data file.  
 8. On the **Column Definitions** FastTab, edit or fill the fields as described in the following table.  
 
     |Field|Description|  
@@ -105,10 +105,10 @@ Creating a data exchange definition involves two tasks:
  The next step in creating a data exchange definition is to decide which columns or XML elements in the data file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code in the **Data Exchange Definitions** window. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code on the **Data Exchange Definitions** page. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>To map columns in the data file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. On the **Line Definitions** FastTab, select the line for which you want to map columns to fields, and then choose **Field Mapping**. The **Data Exchange Mapping** window opens.  
+1. On the **Line Definitions** FastTab, select the line for which you want to map columns to fields, and then choose **Field Mapping**. The **Data Exchange Mapping** page opens.  
 2. On the **General** FastTab, specify the mapping setup by filling the fields as described in the following table.  
 
     |Field|Description|  
@@ -124,7 +124,7 @@ Creating a data exchange definition involves two tasks:
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Column No.**|Specify which column in the data file that you want to define a map for.<br /><br /> You can only select columns that are represented by lines on the **Column Definitions** FastTab in the **Data Exchange Definition** window.|  
+    |**Column No.**|Specify which column in the data file that you want to define a map for.<br /><br /> You can only select columns that are represented by lines on the **Column Definitions** FastTab on the **Data Exchange Definition** page.|  
     |**Field ID**|Specify which field the column in the **Column No.** field maps to.<br /><br /> You can only select from fields that exist in the table that you specified in the **Table** field on the **General** FastTab.|  
     |**Optional**|Specify that the map will be skipped if the field is empty. **Note:**  If you do not select this check box, an export error will occur if the field is empty. **Note:**  This field is only relevant for export.|  
     |**Target Table ID**|Only visible when the **Use as Intermediate Table** check box is selected.<br /><br /> Specify the table that the value in the **Column Caption** field is mapped to, when you are using an intermediate table for data import.|  
@@ -148,7 +148,7 @@ When you have created the data exchange definition for a specific data file, you
 ### <a name="to-import-an-existing-data-exchange-definition"></a>To import an existing data exchange definition  
 1. Save the XML file that represents the data exchange definition in an appropriate location.  
 2. In the **Search** box, enter **Data Exchange Definitions**, and then choose the related link.  
-3. Choose the **New** action. The **Data Exchange Definitio** window opens.  
+3. Choose the **New** action. The **Data Exchange Definitio** page opens.  
 4. Choose the **Import Data Exchange Definition** action.  
 5. Choose the file that you saved in step 1.  
 

@@ -13,10 +13,10 @@ ms.search.keywords: forecast
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d13b3589c5afc917730364dd3d8ab6815cd5552a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 12833530e37ed092cec5f410afdf7f4f52cd46b1
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Manage Budgets for Fixed Assets
@@ -39,7 +39,7 @@ If you plan to sell assets within the budget period, you can enter information a
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
 2. Select the fixed asset to be disposed of, and then choose the **Depreciation Books** action.
-3. In the **FA Depreciation Books** window, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. On the **FA Depreciation Books** page, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a>To view projected disposal values
 To see the projected disposal values and have the gain and loss calculated, you can use the **FA Projected Value** report.

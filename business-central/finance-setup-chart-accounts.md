@@ -11,10 +11,10 @@ ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 9f84af8bb4ac3be9132ab621906c463cfc9b91ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9ed8bc069fc702a1b2d8d893531baca5eab7a903
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Setting Up or Changing the Chart of Accounts
@@ -28,8 +28,8 @@ From the chart of accounts, you can open each G/L account and add or change sett
 >   You can delete a general ledger account. However, before you delete it, the following must be true:  
 
 * The balance on the account must be zero.  
-* The **Allow G/L Acc. Deletion Before** field must be set in the **General Ledger Setup** window, and the account must not have ledger entries on or after that date.  
-* If the **Check G/L Account Usage** field in the **General Ledger Setup** window is selected, then the account must not be used in any posting groups or posting setup.  
+* The **Allow G/L Acc. Deletion Before** field must be set on the **General Ledger Setup** page, and the account must not have ledger entries on or after that date.  
+* If the **Check G/L Account Usage** field on the **General Ledger Setup** page is selected, then the account must not be used in any posting groups or posting setup.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.  
 

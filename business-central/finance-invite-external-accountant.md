@@ -11,19 +11,19 @@ ms.search.keywords: accountant, accounting
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 2408d7df92a8367505bd068dcad22283a7082126
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: bb514cdfcaf2ea0a05b669cb5b5963da79a94d0e
 ms.contentlocale: en-gb
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Inviting Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]
 If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[d365fin](includes/d365fin_md.md)] so they can work with you on your fiscal data.
 
-Once your accountant has gained access to your [!INCLUDE[d365fin](includes/d365fin_md.md)], they can use the **Accountant** Role Center that gives easy access to the most relevant windows for their work.  
+Once your accountant has gained access to your [!INCLUDE[d365fin](includes/d365fin_md.md)], they can use the **Accountant** Role Centre that gives easy access to the most relevant pages for their work.  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Invite Your Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]
-In the latest version of [!INCLUDE[d365fin](includes/d365fin_md.md)], we have made it easy for you to invite your external accountant. Simply open the **Users** window, and then choose the **Invite External Accountant** action in the ribbon. An email is made ready for you, just add your accountant's work email, and send the invitation.  
+In the latest version of [!INCLUDE[d365fin](includes/d365fin_md.md)], we have made it easy for you to invite your external accountant. Simply open the **Users** page, and then choose the **Invite External Accountant** action in the ribbon. An email is made ready for you, just add your accountant's work email, and send the invitation.  
 
 ![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)
 

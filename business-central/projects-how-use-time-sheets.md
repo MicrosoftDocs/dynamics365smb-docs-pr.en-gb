@@ -11,10 +11,10 @@ ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 981b7bc6cb61753f14de19b9cc68cac20d7374b5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 70d63dcc678a49fa1854b88bc3ca1f9ec8ecc69f
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-time-sheets-for-jobs"></a>Use Time Sheets for Jobs
@@ -30,7 +30,7 @@ Before you can use time sheets, you must set up general information and specify 
 You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.
-2. In the **Time Sheet List** window, choose the **Create Time Sheets** action.
+2. On the **Time Sheet List** page, choose the **Create Time Sheets** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -38,13 +38,13 @@ You can use the **Create Time Sheets** batch job to set up time sheets for a spe
 
 1. Choose the **OK** button.  
 
-You can view the time sheets that you have created in the **Time Sheet list** window.
+You can view the time sheets that you have created on the **Time Sheet list** page.
 
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>To copy job planning lines to a time sheet
 The following procedure describes how to quickly add job planning lines to a time sheet.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.  
-2. In the **Time Sheet List** window, select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.  
+2. On the **Time Sheet List** page, select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.  
 3. Choose the **Create lines from job planning** action. Any job planning lines in the time sheet time period are copied to the time sheet for the person or machine in the **Resource No.** field on the time sheet.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>To define work types and add one to a time sheet
@@ -53,9 +53,9 @@ You can define the work type for all time sheet lines for jobs. In this way, you
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.   
 2. Open the relevant time sheet.
 3. Choose the **Description** field.  
-4. In the **Time Sheet Line Job Detail** window, choose the **Work Type Code** field, and select a work type from the list, such as **Miles**.  
+4. On the **Time Sheet Line Job Detail** page, choose the **Work Type Code** field, and select a work type from the list, such as **Miles**.  
 5. If no work types exist, chose the **New** action.
-6. In the **Work Types** window, fill in the fields as necessary.
+6. On the **Work Types** page, fill in the fields as necessary.
 7. Repeat step 4 to assign the new work type to the time sheet.
 
 ## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>To reuse time sheet lines in other time sheets
@@ -77,7 +77,7 @@ Time sheet registration is tracked in hours, the standard base unit of measure f
     > [!TIP]  
     >   You can review the sum of time sheet hours that you have entered in the **Actual/Budgeted Summary** FactBox.  
 4. Repeat step 3 for other work types that the resource performs.
-5. Choose the **Submit** action, and then choose the **All open lines** action to submit all lines or the **Selected lines only** action to submit only the lines that are selected in the **Time Sheet** window.  
+5. Choose the **Submit** action, and then choose the **All open lines** action to submit all lines or the **Selected lines only** action to submit only the lines that are selected on the **Time Sheet** page.  
 
     > [!NOTE]  
     >   You can only submit time sheet lines for which you have entered time.  
@@ -95,7 +95,7 @@ A time sheet must be submitted for approval before it can be used. You can appro
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manager Time Sheets**, and then choose the related link.
 2. Select a time sheet from the list.  
-3. In the **Time Sheet** window, choose the **Approve** action, and then choose the **All submitted lines** action to approve all lines or the **Selected lines only** action to approve only the lines that are selected in the **Time Sheet** window.
+3. On the **Time Sheet** page, choose the **Approve** action, and then choose the **All submitted lines** action to approve all lines or the **Selected lines only** action to approve only the lines that are selected on the **Time Sheet** page.
 4. Choose the **OK** button.  
 5. Alternatively, choose the **Reject** action and follow steps 4 through 5.  
 
@@ -110,7 +110,7 @@ After you have approved or rejected a time sheet, it cannot be modified unless i
 
     > [!NOTE]  
     >   You can only reopen lines that have the status **Approved**. You cannot reopen lines that have the status **Rejected**. You cannot reopen a time sheet if it has been posted.  
-3. In the **Time Sheet** window, choose the **Reopen** action, and then choose the **All submitted lines** action to reopen all lines or the **Selected lines only** action to reopen only the lines that are selected in the **Time Sheet** window.
+3. On the **Time Sheet** page, choose the **Reopen** action, and then choose the **All submitted lines** action to reopen all lines or the **Selected lines only** action to reopen only the lines that are selected on the **Time Sheet** page.
 4. Choose the **OK** button. The status of the time sheets line or lines is changes to **Submitted**.  
 
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>To post time sheet lines in a resource journal
@@ -121,7 +121,7 @@ After you have approved time sheet entries for a resource, you can post them to 
 3. Fill in the fields as necessary.  
 4. Choose the **OK** button. Entries for usage are created in the resource journal, where you can modify the information as needed.  
 5. Choose the **Post** action.  
-6. To verify the posting, choose the **Ledger Entries** action. The **Resource Ledger Entries** window opens showing the result of posting the resource journal.
+6. To verify the posting, choose the **Ledger Entries** action. The **Resource Ledger Entries** page opens showing the result of posting the resource journal.
 
 ## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>To post time sheet lines in a job journal
 After you have approved time sheet entries for a job, you can post them to the relevant job journal.
@@ -134,13 +134,13 @@ After you have approved time sheet entries for a job, you can post them to the r
     > [!NOTE]  
     >   Information about work type and whether the work is chargeable is copied from the time sheet line. If needed, you can reduce the quantity of hours and do a partial posting. If you reduce the quantity, then the next time that you choose the **Suggest Lines From Time Sheets** action, the line that is created will contain the remaining quantity of hours.  
 5. Choose the **Post** action.  
-6. To verify the posting, choose the **Ledger Entries** action. The **Job Ledger Entries** window opens showing the result of posting the resource journal.
+6. To verify the posting, choose the **Ledger Entries** action. The **Job Ledger Entries** page opens showing the result of posting the resource journal.
 
 ## <a name="to-archive-time-sheets"></a>To archive time sheets
 After you have posted time sheets, you can archive them for future reference. All time sheets lines must be posted before a time sheet can be archived.
 
 > [!NOTE]  
->   When you archive a time sheet, it is removed from the lists in both the **Time Sheets** window and the **Manager Time Sheets** window.
+>   When you archive a time sheet, it is removed from the lists in both the **Time Sheets** page and the **Manager Time Sheets** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Move Time Sheets to Archive**, and then choose the related link.  
 2. Fill in the fields as necessary, and then choose the **OK** button.  

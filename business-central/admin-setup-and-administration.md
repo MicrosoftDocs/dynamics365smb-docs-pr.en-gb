@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: c1675921c82ddf00f6a00f94bb38bd594a9a0089
+ms.sourcegitcommit: 46a37fb00319647ea1c4b4630e4d9369687dd7cf
+ms.openlocfilehash: 26057b4838681b4b6036c4a56aab4fd6d49ac1dd
 ms.contentlocale: en-gb
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/12/2018
 
 ---
 # <a name="administration"></a>Administration
@@ -27,7 +27,7 @@ Whether you use RapidStart Services to implement setup values or you manually en
 A super user or an administrator can set up the Data Exchange Framework to enable users to export and import data in bank and payroll files, for example for various cash management processes.
 
 > [!NOTE]
-> You can set up a new company in [!INCLUDE[d365fin](includes/d365fin_md.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. For more information, see ## [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> You can set up a new company in [!INCLUDE[d365fin](includes/d365fin_md.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. For more information, see [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.   
 
@@ -44,6 +44,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Manage, delete, or compress documents|[Deleting Documents](admin-manage-documents.md)|  
 |Expose pages, codeunits, and queries as web services.|[Publishing a Web Service](across-how-publish-web-service.md)|
 |As a part of creating Connect apps between [!INCLUDE[d365fin](includes/d365fin_md.md)] and 3rd-party solutions through REST APIs, define templates that are used to populate empty properties on an entity when you create a POST action through an API.|[Configuring API Templates](admin-configuring-api-template.md)|
+|Encrypt data on the [!INCLUDE[d365fin](includes/d365fin_md.md)] server by generating new or importing existing encryption keys that you enable on the server.|[Managing Data Encryption](admin-manage-data-encryption.md)|
 
 ## <a name="see-also"></a>See Also
 [Business Functionality](across-business-functionality.md)  

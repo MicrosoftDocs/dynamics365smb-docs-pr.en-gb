@@ -16,10 +16,10 @@ ms.date: 10/01/2018
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1682db5bd62f980e8789613cd2ca4169f98e839d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
 ms.contentlocale: en-gb
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-payables"></a>Managing Payables
@@ -36,10 +36,10 @@ You can apply payments to close invoices when you post the payment, or after you
 [!INCLUDE[d365fin](includes/d365fin_md.md)] can suggest various payments to vendors, such as payments that will be due soon, or payments where a discount is available. The payment suggestion can consider an amount that you specify as available funds for payment, and eligibility for payment discounts.
 
 ## <a name="issue-checks"></a>Issue Checks
-[!INCLUDE[d365fin](includes/d365fin_md.md)] lets you issue checks to vendors manually and electronically. You do both in the **Payment Journals** window, where you can also void checks and view check ledger entries.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] lets you issue checks to vendors manually and electronically. You do both on the **Payment Journals** page, where you can also void cheques and view cheque ledger entries.
 
 ## <a name="export-payments-to-a-bank-file"></a>Export Payments to a Bank File
-When you are ready to pay a vendor, from the **Payment Journal** window you can export a file with the payment information from the journal lines. You can then upload the file to your electronic bank to process the money transfers.
+When you are ready to pay a vendor, from the **Payment Journal** page you can export a file with the payment information from the journal lines. You can then upload the file to your electronic bank to process the money transfers.
 
 If you do not want to post a payment journal line for an exported payment, for example because you are waiting for the bank to confirm the transaction, just delete the journal line. Later, when you create a payment journal line to pay the remaining amount on the invoice, the **Total Exported Amount** field shows how much of the payment amount has already been exported. Also, you can find detailed information about the exported total by choosing the **Credit Transfer Reg. Entries** button.
 

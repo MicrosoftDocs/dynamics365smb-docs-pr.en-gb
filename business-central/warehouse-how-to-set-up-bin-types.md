@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2865d938c9bde4a64898e48d0381ed73b8c94d6e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a82ce6867a86dcc5ba09949b7e7611550d744a83
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-bin-types"></a>Set Up Bin Types
@@ -26,7 +26,7 @@ There are six types. You can operate your warehouse with all of the six possible
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>To set up the bin types you want to use  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Types**, and then choose the related link.  
-2.  In the **Bin Types** window, create a 10-character code for a bin type.  
+2.  On the **Bin Types** page, create a 10-character code for a bin type.  
 3.  Select the activities that can be performed with each bin type.  
 
 > [!NOTE]  

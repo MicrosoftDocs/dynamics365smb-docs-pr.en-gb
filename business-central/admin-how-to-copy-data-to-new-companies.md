@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>Copy Data to New Companies
@@ -26,7 +26,7 @@ You can copy commonly used values from an existing company to a new one, as long
 1. Open the new company.  
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 3. Choose the **Copy Data from Company**.  
-4. In the **Copy Company Data** window, choose a company to copy from in the **Copy From** field, and then choose the **OK** button.  
+4. On the **Copy Company Data** page, choose a company to copy from in the **Copy From** field, and then choose the **OK** button.  
 5. Select a table from one of the configuration packages that you have imported, and then choose the **Copy Data** action.
 
 ## <a name="see-also"></a>See Also

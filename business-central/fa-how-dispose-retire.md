@@ -11,10 +11,10 @@ ms.search.keywords: scrap
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 550ae80bb03fb053547713fc71a8708fae100e5f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 10e7939378d222e2e2f915c89f820e000615ac1e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Dispose of or Retire Fixed Assets
@@ -30,7 +30,7 @@ When you sell or otherwise dispose of a fixed asset, the disposal value must be 
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for disposal posting.  
 
     > [!NOTE]  
-    >   Step 4 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Disposal Account** field contains the general ledger debit account and the **Disposal Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).  
+    >   Step 4 only works if you have set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Disposal Account** field contains the general ledger debit account and the **Disposal Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).  
 5. Choose the **Post** action.  
 
 If you sell or dispose of part of a fixed asset, you must split up the asset before you can record the disposal transaction. For more information, see [Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md).  
@@ -42,9 +42,9 @@ When you sell or dispose of a fixed asset, the disposal value is posted to the g
 2. Select the fixed asset that you want to view entries for, and then choose the **Depreciation Books** action.  
 3. Select the depreciation book that you want to view entries for, and then choose the **Ledger Entries** action.  
 4. Select a line with **Disposal** in the **FA Posting Category** field, and then choose the **Navigate** action.  
-5. In the **Navigate** window, select the general ledger entry line, and then choose the **Show** action.  
+5. On the **Navigate** page, select the general ledger entry line, and then choose the **Show** action.  
 
-The **General Ledger Entries** window opens where you can see the entries that the disposal posting resulted in.  
+The **General Ledger Entries** page opens where you can see the entries that the disposal posting resulted in.  
 
 ## <a name="see-also"></a>See Also
 [Fixed Assets](fa-manage.md)  

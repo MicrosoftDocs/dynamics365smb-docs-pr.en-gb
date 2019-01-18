@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 420aac30c9b9a76c8874e6697cfa0e105bb1744a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b09a740ccd0054418c597285ebe65827827ad9de
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Pick Items for Warehouse Shipment
@@ -26,9 +26,9 @@ You cannot create a warehouse pick document from scratch because a pick activity
 
 You can create warehouse pick documents in a pull fashion by opening an empty warehouse shipment document, detect source documents that are released to shipment, and then create warehouse pick lines for those shipments. You can use the **Get Source Documents** or **Use Filter to Get Source Documents** functions to detect source documents that are ready for shipment.
 
-Alternatively, you can use the **Pick Worksheet** window to pull and create pick lines in batch mode. For more information, see [Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md).  
+Alternatively, you can use the **Pick Worksheet** page to pull and create pick lines in batch mode. For more information, see [Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md).  
 
-You can also create warehouse pick documents in a push fashion from the **Warehouse Shipment** window by selecting **Create Pick**.  
+You can also create warehouse pick documents in a push fashion from the **Warehouse Shipment** page by selecting **Create Pick**.  
 
 > [!NOTE]  
 >  Picking for warehouse shipment of items that are assembled to the sales order being shipped follows the same steps as for regular warehouse picks for shipment, as described in this topic. However, the number of pick lines per quantity to ship may be many to one because you pick the components, not the assembly item.  
@@ -52,7 +52,7 @@ You can also create warehouse pick documents in a push fashion from the **Wareho
 
 4.  When you have performed the pick and placed the items in the shipping area or shipping bin, choose the **Register Pick** action.  
 
-The person responsible for shipment can now bring the items to the shipment dock and post the shipment, including the related source document, in the **Warehouse Shipment** window. For more information, see [Ship Items](warehouse-how-ship-items.md).   
+The person responsible for shipment can now bring the items to the shipment dock and post the shipment, including the related source document, on the **Warehouse Shipment** page. For more information, see [Ship Items](warehouse-how-ship-items.md).   
 
 In addition to picking for source documents, as described in this topic, you can take and place items between bins without referring to source documents. For more information, see [Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -63,7 +63,7 @@ For other warehouse shipment lines, the value in the **Qty. to Ship** field is z
 
 When workers in charge of assembly finish assembling parts or all of the assemble-to-order quantity, they record it in the **Qty. to Ship** field on the warehouse shipment line and then choose the **Post Shipment** action. The result is that the corresponding assembly output is posted, including the component consumption. A sales shipment for the quantity is posted for the sales order.
 
-From the assembly order, you can choose **Asm.-to-Order Whse. Shpt. Line** to access the warehouse shipment line. This is convenient for workers who do not typically use the **Warehouse Shipment** window.
+From the assembly order, you can choose **Asm.-to-Order Whse. Shpt. Line** to access the warehouse shipment line. This is convenient for workers who do not typically use the **Warehouse Shipment** page.
 
 After the warehouse shipment is posted, various fields on the sales order line are updated to show progress in the warehouse. The following fields are also updated to show how many assemble-to-order quantities remain to be assembled and shipped:
 

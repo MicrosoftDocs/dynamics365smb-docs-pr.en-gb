@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1a1db22bc990fc6438a11515f87f930be1eff252
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 81b23fd28426d5241ce24b2a3bd40a5b3ec3379d
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Transfer, Split, or Combine Fixed Assets
@@ -30,9 +30,9 @@ You may need to transfer a fixed asset to a different department when, for examp
 4. Create a reclassification journal where the **FA No.** field contains the original fixed asset, and the **New FA No.** field contains the new fixed asset to be moved.  
 5. Choose the **Reclassify** action.
 
-    Two lines are now created in the fixed asset G/L journal using the template and batch that you have specified in the **FA Journal Setup** window for the specified depreciation book. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
+    Two lines are now created in the fixed asset G/L journal using the template and batch that you have specified on the **FA Journal Setup** page for the specified depreciation book. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
 6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.    
-7. In the **Fixed Asset G/L Journal** window, choose the **Post** action to post the reclassification that you performed in steps 4 and 5.
+7. On the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 4 and 5.
 
 If you have posted an acquisition cost for one asset, you can use the fixed asset reclassification journal to split the acquisition cost among several assets.  
 
@@ -48,9 +48,9 @@ You can split one fixed asset into multiple fixed assets, for example when you n
 7. On both lines, select the **Reclassify Acquisition Cost** and **Reclassify Depreciation** check boxes.   
 8. Choose the **Reclassify** action.
 
-    Two lines are now created in the fixed asset G/L journal using the template and batch that you have specified in the **FA Journal Setup** window for the specified depreciation book. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).    
+    Two lines are now created in the fixed asset G/L journal using the template and batch that you have specified on the **FA Journal Setup** page for the specified depreciation book. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).    
 9. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.
-10. In the **Fixed Asset G/L Journal** window, choose the **Post** action to post the reclassification that you performed in steps 4 through 8.
+10. On the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 4 through 8.
 
 ## <a name="to-combine-two-fixed-assets-into-one"></a>To combine two fixed assets into one
 You can combine multiple fixed assets into one fixed asset, for example when you move distributed fixed assets into one department. If you have posted acquisition costs and depreciation for the fixed asset to be moved, those values will be combined in the single fixed asset.
@@ -61,9 +61,9 @@ You can combine multiple fixed assets into one fixed asset, for example when you
 4. Select the **Reclassify Acquisition Cost** and **Reclassify Depreciation** check boxes.
 5. On the **Actions** tab, choose **Reclassify**.
 
-    Two lines are now created in the fixed asset G/L journal using the template and batch that you have specified in the **FA Journal Setup** window for the specified depreciation book. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).   
+    Two lines are now created in the fixed asset G/L journal using the template and batch that you have specified on the **FA Journal Setup** page for the specified depreciation book. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).   
 6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.
-7. In the **Fixed Asset G/L Journal** window, choose the **Post** action to post the reclassification that you performed in steps 2 through 5.
+7. On the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 2 through 5.
 
 ## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>To view changed depreciation book values due to fixed asset reclassification
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Book Value 02**, and then choose the related link.

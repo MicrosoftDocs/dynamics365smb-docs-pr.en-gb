@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1927938bc7e882902d8f609242c529e0ba29cd1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 96be04b6226fb44fd3e910e547a1d2590352b04d
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-industry-groups-for-contact-companies"></a>Set Up Industry Groups for Contact Companies
@@ -28,7 +29,7 @@ Using industry groups on contacts is a two-step process. First, you define the i
 >   If you plan to synchronise your contacts with vendors, customers, or bank accounts in other parts of the application, you may want to set up a business relation for them.
 
 ## <a name="to-define-an-industry-group-code"></a>To define an industry group code
-The industry group code defines the type or category of the group, such as ADVERT for advertising, or PRESS, for TV and radio. You can have several industry group codes. To define the industry groups, you use the **Industry Groups** window.
+The industry group code defines the type or category of the group, such as ADVERT for advertising, or PRESS, for TV and radio. You can have several industry group codes. To define the industry groups, you use the **Industry Groups** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Industry Groups**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
@@ -37,12 +38,12 @@ The industry group code defines the type or category of the group, such as ADVER
 You cannot assign industry groups to a contact person - only companies.
 
 1. Open the contact.
-2. Choose the **Company** action, and then the **Industry Groups** action. The **Contact Industry Groups** window opens.
+2. Choose the **Company** action, and then the **Industry Groups** action. The **Contact Industry Groups** page opens.
 3. In the **Industry Groups Code** field, select the industry groups you want to assign.
 
 Repeat these steps to assign as many industry groups as you want. You can also assign industry groups from the contact list by following the same procedure.
 
-The number of industry groups that you have assigned to the contact is displayed in the **No. of Industry Groups** field in the **Segmentation** section in the **Contact** window.
+The number of industry groups that you have assigned to the contact is displayed in the **No. of Industry Groups** field in the **Segmentation** section on the **Contact** page.
 
 After you have assigned industry groups to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 

@@ -12,16 +12,16 @@ ms.search.keywords: warehouse, stock
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d6df6884ef5cf8fce96ec1f5bc5ca91bdbd3ede7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0e9b610d54f955c3dec9cba6b2327a74663288a2
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Reconcile Inventory Costs with the General Ledger
 When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change of inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction that you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger.
 
-Automatic cost posting is defined by the **Automatic Cost Posting** field in the **Inventory Setup** window.
+Automatic cost posting is defined by the **Automatic Cost Posting** field on the **Inventory Setup** page.
 
 Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [Adjust Item Costs](inventory-how-adjust-item-costs.md).
 
@@ -37,7 +37,7 @@ To see a list of errors before running the posting batch job, you can run the **
 If you would like to simply get an overview of what values could be posted to the general ledger without actually performing the posting, you can run the **Post Inventory Cost to G/L** batch job without actually posting the values to the general ledger. You do this by clearing the check mark from the **Post** field on the request page. This way, when you run the batch job, the report is produced showing the values that are ready to be posted to the general ledger, but they are not posted.
 
 ## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>To audit the reconciliation between the inventory ledger and the general ledger
-The **Inventory - G/L Reconciliation** window provides the following:
+The **Inventory - G/L Reconciliation** page provides the following:
 
 - Exposes reconciliation differences by comparing what is recorded in G/L and what is recorded in the inventory ledger (value entries).
 - Displays unreconciled cost amounts in the value entries in the inventory ledger as if they were mapped to corresponding inventory-related accounts in G/L and compares those to the totals actually recorded in the same accounts in G/L.
@@ -57,11 +57,11 @@ The **G/L Total** column shows the amounts (in bold font) for each G/L account t
 
 The **Difference** column represents the difference between the value in the **G/L Total** and **Total** fields.
 
-In the top of the **Inventory - G/L Reconciliation** window, you can enter filters to limit, for example, the period of time for which you want information.
+In the top of the **Inventory - G/L Reconciliation** page, you can enter filters to limit, for example, the period of time for which you want information.
 
 If you select the **Show Warning** check box and if there are any discrepancies between the inventory totals and G/L totals, the programme shows messages in the **Warning** field of the grid that explain the discrepancy. If you choose the Warning field, the program gives you more information on what the warning means.
 
-When you have entered all relevant filters, choose the **Show Matrix** action. The data is calculated and the matrix window appears.
+When you have entered all relevant filters, choose the **Show Matrix** action. The data is calculated and the matrix page appears.
 
 On the far left column in the grid, you see the various general ledger account types that are associated with inventory. The grid then shows the invoiced, non-invoiced (interim), and WIP inventory totals for each of these account types. These totals are calculated from the value entries.
 

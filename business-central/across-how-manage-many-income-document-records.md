@@ -13,14 +13,14 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 121483c36152da6a96979d13417b0d88c938cecb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 97ca5aab24b04f6c2d0677c6fd9626b93fcd8ca8
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-many-incoming-document-records"></a>Manage Many Incoming Document Records
-As you create or process incoming document records, the number of lines in the **Incoming Documents** window may grow to an extent where you lose overview. Therefore, you can set incoming document records to Processed to remove them from the default view. When you choose the **Show All** action, you can view both processed and unprocessed records.
+As you create or process incoming document records, the number of lines on the **Incoming Documents** page may grow to an extent where you lose overview. Therefore, you can set incoming document records to Processed to remove them from the default view. When you choose the **Show All** action, you can view both processed and unprocessed records.
 
 > [!NOTE]  
 >   You cannot edit information, attach files, or perform other processes on incoming document records that are set to Processed. You must first set it to Unprocessed.
@@ -28,29 +28,29 @@ As you create or process incoming document records, the number of lines in the *
 The **Processed** check box is automatically selected on incoming document records that have been processed, but you can also select or deselect the check box manually. Depending on your business process, an incoming document record may be processed when a related document has been created for it or a file has been attached.
 
 > [!NOTE]  
->   When you open the **Incoming Documents** window with the **My Incoming Documents** action on the Role Center, only unprocessed incoming document records are shown by default. This is referred to in this topic as "the default view".
+>   When you open the **Incoming Documents** page with the **My Incoming Documents** action on the Role Centre, only unprocessed incoming document records are shown by default. This is referred to in this topic as "the default view".
 
 ## <a name="to-remove-incoming-document-records-from-the-default-view"></a>To remove incoming document records from the default view
-1. In the **Incoming Documents** window, select one or more lines for incoming document records that you want to remove from the default view.
+1. On the **Incoming Documents** page, select one or more lines for incoming document records that you want to remove from the default view.
 2. Choose the **Set to Processed** action.
 
     The incoming document records are removed from the default view, and the **Processed** check box is selected on the lines.
 
 > [!NOTE]  
->   You can also perform this action for the individual record in the **Incoming Document Card** window.
+>   You can also perform this action for the individual record on the **Incoming Document Card** page.
 
 ## <a name="to-view-all-incoming-document-records"></a>To view all incoming document records
-1. In the **Incoming Documents** window, choose the **Show All** action.
+1. On the **Incoming Documents** page, choose the **Show All** action.
 
 All incoming document records are displayed, including those where the **Processed** check box is not selected.
 
 ## <a name="to-add-incoming-document-records-to-the-default-view"></a>To add incoming document records to the default view
-1. In the **Incoming Documents** window, choose the **Show All** action.
+1. On the **Incoming Documents** page, choose the **Show All** action.
 2. Select one or more lines for incoming document records that you want to appear in the default view.
 3. Choose the **Set to Unprocessed** action.  
 
 > [!NOTE]  
->   You can also perform this action for the individual record in the **Incoming Document Card** window.
+>   You can also perform this action for the individual record on the **Incoming Document Card** page.
 
 ## <a name="see-also"></a>See Also
 [Process Incoming Documents](across-process-income-documents.md)  

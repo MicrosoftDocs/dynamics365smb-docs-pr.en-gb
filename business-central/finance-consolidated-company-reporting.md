@@ -12,10 +12,10 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 035eb85050ec6feb9e65ee924ebf4dbd2064e5ba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4208616e0d4d865a2cc113cd888abde8285dc202
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -83,8 +83,8 @@ The following table describes the exchange rate methods you can use for accounts
 To specify exchange rates for business units, follow these steps:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
-2. In the **Business Unit List** window, choose the business unit, and then choose the **Average Rate (Manual)** action.   
-3. In the **Change Exchange Rate** window, the contents of the **Relational Exch. Rate** field have been copied from the **Currency Exchange Rate** table, but you can modify them. Close the page.  
+2. On the **Business Unit List** page, choose the business unit, and then choose the **Average Rate (Manual)** action.   
+3. On the **Change Exchange Rate** page, the contents of the **Relational Exch. Rate** field have been copied from the **Currency Exchange Rate** table, but you can modify them. Close the page.  
 4. Choose the **Closing Rate** action.  
 5. In the **Relational Exch. Rate Amount** field, enter the exchange rate.
 

@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Design Details: Loading the Inventory Profiles
@@ -45,7 +45,7 @@ To sort out the many sources of demand and supply, the planning system organises
  The planning system controls this by running through the inventory profile. When a new combination is found, the program creates an internal control record that holds the actual combination information. The program inserts the SKU as the control record, or outer loop. As a result, the proper planning parameters according to a combination of variant and location are set, and the program can proceed to the inner loop.  
 
 > [!NOTE]  
->  The program does not require the user to enter a SKU record when entering demand and/or supply for a particular combination of variant and location. Therefore, if a SKU does not exist for a given combination, the program creates its own temporary SKU record based on the item card data. If Location Mandatory is set to Yes in the Inventory Setup window, then either a SKU must be created or Components at Location must be set to Yes. For more information, see [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md).  
+>  The program does not require the user to enter a SKU record when entering demand and/or supply for a particular combination of variant and location. Therefore, if a SKU does not exist for a given combination, the program creates its own temporary SKU record based on the item card data. If Location Mandatory is set to Yes in the Inventory Setup page, then either a SKU must be created or Components at Location must be set to Yes. For more information, see [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md).  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Serial/Lot Numbers are Loaded by Specification Level  
  Attributes in the form of serial/lot numbers are loaded into the inventory profiles along with the demand and supply that they are assigned to.  

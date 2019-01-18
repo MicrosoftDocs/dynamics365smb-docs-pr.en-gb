@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ff73031219e236a1b98f6ea0fce570e05d34c04e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7e52bac155dd26ba9058a5bf62d4f095e76589a9
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-remittance-advice"></a>Print Remittance Advice
@@ -25,7 +25,7 @@ You can print remittance advice before posting a payment journal and after posti
 ## <a name="to-print-remittance-advice"></a>To print remittance advice  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
-2.  In the **Payment Journal** window, select the payment for which remittance advice must be printed.  
+2.  On the **Payment Journal** page, select the payment for which remittance advice must be printed.  
 3.  Choose the **Print Remittance Advice** action.  
 4.  In the **Remittance Advice - Journal** batch job, on the **Gen. Journal Line** FastTab, and select the appropriate filters.  
 

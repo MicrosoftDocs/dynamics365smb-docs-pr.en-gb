@@ -13,10 +13,10 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9c2bdec641a78a13d75ed8d1b3379a74f7af353a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bb320750002681d11bb3ec4aa196a55884b73da7
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adjust-item-costs"></a>Adjust Item Costs
@@ -34,11 +34,11 @@ If you use the FIFO costing method, then an item’s unit cost is the actual val
 
 If you use the Average costing method, then an item’s unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. For items that use this costing method, you can choose the **Unit Cost** field on the item card to view the history of transactions that the average cost is calculated from
 
-The cost adjustment function processes only value entries that have not yet been adjusted. If the function encounters a situation where changed inbound costs need to be forwarded to associated outbound entries, then new adjustment value entries are created, which are based on the information in the original value entries but contain the adjustment amount. The cost adjustment function uses the posting date of the original value entry in the adjustment entry, unless that date is in a closed inventory period. In that case, the program uses the starting date of the next open inventory period. If inventory periods are not used, then the date in the **Allow Posting From** field in the **General Ledger Setup** window will define when the adjustment entry is posted.
+The cost adjustment function processes only value entries that have not yet been adjusted. If the function encounters a situation where changed inbound costs need to be forwarded to associated outbound entries, then new adjustment value entries are created, which are based on the information in the original value entries but contain the adjustment amount. The cost adjustment function uses the posting date of the original value entry in the adjustment entry, unless that date is in a closed inventory period. In that case, the program uses the starting date of the next open inventory period. If inventory periods are not used, then the date in the **Allow Posting From** field on the **General Ledger Setup** page will define when the adjustment entry is posted.
 
 ## <a name="to-adjust-item-costs-manually"></a>To adjust item costs manually
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Cost - Item Entries**, and then choose the related link.
-2. In the **Adjust Cost - Item Entries** window, specify which items to adjust costs for.
+2. On the **Adjust Cost - Item Entries** page, specify which items to adjust costs for.
 3. Choose the **OK** button.
 
 ## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>To make general changes in the direct unit cost

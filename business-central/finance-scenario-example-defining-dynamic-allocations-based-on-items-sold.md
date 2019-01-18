@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 85d58264b14d191389bdf23a792dff7ad30bf9c3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3103583c9781c283479c5f66e90f0e875faf46cc
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Scenario Example: Defining Dynamic Allocations Based on Items Sold
@@ -28,7 +29,7 @@ This topic shows an example of how to define allocations by using the dynamic al
 ## <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>To define dynamic allocations based on items sold in the previous year  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocations**, and then choose the related link.  
-2.  In the **Cost Allocation** window, choose the **New** action.  
+2.  On the **Cost Allocation** page, choose the **New** action.  
 3.  In the **ID** field, press Enter or enter an ID.  
 4.  In the **Level** field, enter **1**.  
 5.  In the **Valid From** and **Valid To** fields, enter appropriate dates.  
@@ -46,9 +47,7 @@ This topic shows an example of how to define allocations by using the dynamic al
     >  [!INCLUDE[d365fin](includes/d365fin_md.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.  
 
 ## <a name="see-also"></a>See Also  
- [Setting Filters for Dynamic Allocation Bases](finance-setting-filters-for-dynamic-allocation-bases.md)   
- [Set Up Allocation Source and Targets](finance-how-to-set-up-allocation-source-and-targets.md)   
- [Defining and Allocating Costs](finance-define-and-allocate-costs.md)   
- [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
- [About Cost Accounting](finance-about-cost-accounting.md)
+[Defining and Allocating Costs](finance-define-and-allocate-costs.md)  
+[Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
+[About Cost Accounting](finance-about-cost-accounting.md)
 

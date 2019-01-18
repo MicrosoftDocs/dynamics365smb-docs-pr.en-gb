@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d16e9405cea366e11ee6319b06052fe0a2b76676
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c6f298a12cda4e06aeaa28eb3143b7a22ff12d10
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-planning-functionality"></a>About Planning Functionality
@@ -73,7 +73,7 @@ The following order modifiers exist on the item or SKU card:
 -   Maximum Order Quantity  
 -   Order Multiple  
 
-Global planning setup fields in the **Manufacturing Setup** window include:  
+Global planning setup fields on the **Manufacturing Setup** page include:  
 
 -   Dynamic Low-Level Code  
 -   Current Demand Forecast  
@@ -95,7 +95,7 @@ This specifies whether the supply represented by the production order line is co
 If the field contains **Unlimited**, then the planning system includes the line when calculating action messages. If the field contains **None**, then the line is firm and unchangeable, and the planning system does not include the line when calculating action messages.
 
 ### <a name="warning"></a>Warning
-The **Warning** information field in the **Planning Worksheet** window informs you of any planning line created for an unusual situation with a text, which the user can choose to read additional information. The following warning types exist:
+The **Warning** information field on the **Planning Worksheet** page informs you of any planning line created for an unusual situation with a text, which the user can choose to read additional information. The following warning types exist:
 
 - Emergency
 - Exception

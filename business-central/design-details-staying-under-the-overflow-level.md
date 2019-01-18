@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e532893b1823ef84256403fb7bf5ef9fabd59f2e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a4a35cec571f1a0c7644fe937553d87007a9567e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Design Details: Staying under the Overflow Level
@@ -60,7 +60,7 @@ Planning Line Quantity = Current Supply Quantity – (Projected Inventory – Ov
 -   If the planning line quantity is equal to or lower than 0, then the action message is Cancel  
 
 ### <a name="composing-the-warning-message"></a>Composing the Warning Message  
-In case of overflow, the **Untracked Planning Elements** window displays a warning message with the following information:  
+In case of overflow, the **Untracked Planning Elements** page displays a warning message with the following information:  
 
 -   The projected inventory level that triggered the warning  
 -   The calculated overflow level  

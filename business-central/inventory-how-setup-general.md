@@ -10,26 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2018
+ms.date: 11/06/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0daae6b5f38c223462cb76d9f34fc6e7b4bae197
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dd7d3c34aca37bb60a81df3e461bdc19176c4b64
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-general-inventory-information"></a>Set Up General Inventory Information
-You specify your general inventory setup in the **Inventory Setup** window.
+You specify your general inventory setup on the **Inventory Setup** page.
 
 ## <a name="to-set-up-general-inventory-information"></a>To set up general inventory information
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
-2. In the **Inventory Setup** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. On the **Inventory Setup** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory, in the **Inventory Setup** window, and for your location. For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).  
+If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory, on the **Inventory Setup** page, and for your location. For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).  
 
 ## <a name="see-also"></a>See Also
 [Set Up Inventory](inventory-setup-inventory.md)  
+[Design Details: Costing Methods](design-details-costing-methods.md)    
 [Manage Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fe8964f46bd76d23e3f1457ad5627888ec3da012
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b01e3cb4d8ea09d08a546fb0af25dc0879111eb
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Sell Inventory Items in Assemble-to-Order Flows
@@ -41,9 +41,9 @@ In this procedure, you replace assemble-to-order quantities with inventory quant
 4.  In the **Sales Line Details** FactBox, determine if all or some of the demanded quantity is available.  
 5.  In the **Qty. to Assemble to Order** field, deduct the available quantity so that only the unavailable quantity is assembled to the order. The **Reserved Quantity** field is decreased accordingly to reflect that the order-to-order link, or reservation, only applies to the quantity to be assembled.  
 6.  On the **Lines** FastTab, choose **Functions**, and then choose the **Reserve** action.  
-7.  In the **Reservation** window, select the item ledger entry line or lines that contain the available quantities, choose the **Reserve from Current Line** action, and then choose the **OK** button.  
+7.  On the **Reservation** page, select the item ledger entry line or lines that contain the available quantities, choose the **Reserve from Current Line** action, and then choose the **OK** button.  
 
-    In the **Sales Order** window, the **Reserved Quantity** field now shows that the whole order line quantity is reserved. The **Qty. to Assemble to Order** field still reflects the subquantity that has to be assembled.  
+    On the **Sales Order** page, the **Reserved Quantity** field now shows that the whole order line quantity is reserved. The **Qty. to Assemble to Order** field still reflects the subquantity that has to be assembled.  
 
 8.  Release the sales order for picking of the inventory items and for assembly of the unavailable items. For more information, see [Assemble Items](assembly-how-to-assemble-items.md).  
 

@@ -11,10 +11,10 @@ ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a69a5de1ac0d6e2d238415204ec95fad9af7b9b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -42,7 +42,7 @@ After you have created a questionnaire, you must create contact ratings to class
 > If you enter a question that is automatically answered, choose <STRONG>Line</STRONG>, and then choose <STRONG>Question Details</STRONG>, to enter the criteria to automatically answer the question.
 
 ## <a name="the-automatic-classification-of-contacts"></a>The Automatic Classification of Contacts
-You can automatically classify your contacts according to customer, vendor, and contact information, by setting up automatically answered profile questions in the **Profile Questionnaire Setup** window.  
+You can automatically classify your contacts according to customer, vendor, and contact information, by setting up automatically answered profile questions on the **Profile Questionnaire Setup** page.  
 
 > [!NOTE]
 > Only contacts that are recorded as customers can be assigned a classification based on customer data and only contacts that are recorded as vendors can be assigned a classification based on vendor data. The automatic classification is not updated automatically. Consequently, you may want to update the profile questionnaires, after you have updated the customer, vendor or contact data they are based on.  
@@ -79,7 +79,7 @@ You can classify your contacts according to how much they bought from you:
 </tbody>
 </table>
 
-To do this, fill in the **Profile Questionnaire Setup** window as follows:
+To do this, fill on the **Profile Questionnaire Setup** page as follows:
 
 
 <table>
@@ -104,34 +104,34 @@ To do this, fill in the **Profile Questionnaire Setup** window as follows:
 <td><p>Question</p></td>
 <td><p>ABC Classification</p></td>
 <td><p>Click to insert a check mark</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Answer</p></td>
 <td><p>A</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>500,000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Answer</p></td>
 <td><p>B</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>100,000</p></td>
 <td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Answer</p></td>
 <td><p>C</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 <td><p>99,999</p></td>
 </tr>
 </tbody>
 </table>
 
-Then fill in the **Profile Question Details** window as follows:
+Then fill on the **Profile Question Details** page as follows:
 <table>
 <colgroup>
 <col style="width: 50%" />

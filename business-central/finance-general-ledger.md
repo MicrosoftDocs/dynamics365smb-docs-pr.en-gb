@@ -13,10 +13,10 @@ ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1c5fda0c8cd063e784ec44448b040a298bfeaf2f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 40363e1ef9deeda6b39e2d554c5c3dc3a85334b8
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Understanding the General Ledger and the COA
@@ -25,13 +25,13 @@ The general ledger stores your financial data, and the chart of accounts shows t
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>General Ledger Setup and General Posting Setup
 The setup of the general ledger is at the core of financial processes because it defines how you post data.  
 
-In the **General Ledger Setup** window, you specify how to handle certain accounting issues in your company, such as:  
+On the **General Ledger Setup** page, you specify how to handle certain accounting issues in your company, such as:  
 
 * Invoice rounding details  
 * Address formats  
 * Financial reporting  
 
-Similarly, in the **General Posting Setup** window, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. For more information, see [Posting Group Setups](finance-posting-groups.md)  
+Similarly, on the **General Posting Setup** page, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. For more information, see [Posting Group Setups](finance-posting-groups.md)  
 
 ## <a name="the-chart-of-accounts"></a>The Chart of Accounts
 The chart of accounts shows all general ledger accounts. From the chart of accounts, you can do things like:  
@@ -47,9 +47,9 @@ You can add, change, or delete general ledger accounts. However, to prevent disc
 ## <a name="account-categories"></a>Account Categories
 You can personalise the structure of your financial statements by mapping general ledger accounts to account categories.  
 
-The **G/L Account Categories** window shows your categories and subcategories, and the G/L accounts that are assigned to them. You can create new subcategories and assign those categories to existing accounts.  
+The **G/L Account Categories** page shows your categories and subcategories, and the G/L accounts that are assigned to them. You can create new subcategories and assign those categories to existing accounts.  
 
-You create a category group by indenting other subcategories under a line in the **G/L Account Categories** window. This makes it easy for you to get an overview, because each grouping shows a total balance. For example, you can create subcategories for different types of assets, and then create category groups for fixed assets versus current assets.  
+You create a category group by indenting other subcategories under a line on the **G/L Account Categories** page. This makes it easy for you to get an overview, because each grouping shows a total balance. For example, you can create subcategories for different types of assets, and then create category groups for fixed assets versus current assets.  
 
 You can specify whether the accounts in each subcategory must be included in specific types of reports. The account categories help define the layout of your financial statements.  
 

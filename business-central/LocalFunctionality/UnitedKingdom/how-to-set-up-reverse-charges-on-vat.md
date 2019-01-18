@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 96e49d8dcb90cf264bf238848af3340c76d9d20d
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: d173d41202a9bf874d6cbc074892d492979323b6
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="set-up-multiple-interest-rates"></a>Set Up Multiple Interest Rates
@@ -33,7 +33,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use reverse charge
 6.  On the **Reverse Charge** FastTab, fill in the fields as necessary.
 7.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup** and then choose the related link.  
 6.  On the **Reverse Charge** FastTab, fill in the fields as necessary.
-9. To set up items subject to reverse charge, select the item, and open the **Item Card** window.  
+9. To set up items subject to reverse charge, select the item, and open the **Item Card** page.  
 10. On the **Invoicing** FastTab, fill in the **Reverse Charge Applies** field.  
 
 ## <a name="reverse-charge-sales-list"></a>Reverse Charge Sales List

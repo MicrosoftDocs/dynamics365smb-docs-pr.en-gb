@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7362518cbade8132fb07f49e7b2e9be67c4bce29
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-centers"></a>Set Up Cost Centres
@@ -27,7 +27,7 @@ Cost centres are departments that are responsible for costs and income. The char
 -   Create a new chart of cost centre that is independent of the general ledger or add a new cost centre to an existing chart of cost centre. You must create each cost centre individually.  
 
 ## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>To transfer dimension values in the general ledger to the chart of cost centres  
-1.  Set up a dimension to be the cost center dimension in the **Update Cost Acctg. Dimensions** window. Only the values from this dimension are transferred.  
+1.  Set up a dimension to be the cost centre dimension on the **Update Cost Acctg. Dimensions** page. Only the values from this dimension are transferred.  
 2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Centres**, and then choose the related link.  
 3.  On the **Actions** tab, in the **Functions** group, choose **Get Cost Centres from Dimension** to transfer dimension values to the chart of cost centres. The function transfers the dimension values that you defined in step 1.  
 
@@ -36,10 +36,10 @@ Cost centres are departments that are responsible for costs and income. The char
 
 The chart of cost centres now contains all specified dimension values from the general ledger and includes titles and subtotals.  
 
-## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-window"></a>To create new cost centers in the Chart of Cost Centers window  
-You can set up and maintain cost centers in either the **Cost Center Card** card or in the **Chart of Cost Centers** window. In this procedure, you set up cost centers in the **Chart of Cost Centers** window.  
+## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>To create new cost centres in the Chart of Cost Centres page  
+You can set up and maintain cost centres in either the **Cost Centre Card** card or on the **Chart of Cost Centres** page. In this procedure, you set up cost centres on the **Chart of Cost Centres** page.  
 
-1. Open the **Chart of Cost Centers** window in edit mode.  
+1. Open the **Chart of Cost Centres** page in edit mode.  
 2. In the **Code** field, enter the cost center code. All cost centres must have a code.  
 3. In the **Name** field, enter the cost center name.  
 4. Choose the drop-down arrow in the **Line Type** field to specify the purpose of the cost centre.  

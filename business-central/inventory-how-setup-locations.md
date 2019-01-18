@@ -13,10 +13,10 @@ ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 503655e65b7df83c89e52d76a22396b672b2d28e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 828979bf181f1cd7f7a66d2c7c8ac8a2700b732b
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-locations"></a>Set Up Locations
@@ -27,7 +27,7 @@ You can then create document lines for a specific location, view availability by
 ## <a name="to-create-a-location-card"></a>To create a location card
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Choose the **New** action.
-3. In the **Location Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. On the **Location Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Repeat steps 2 and 3 for every location where you want to keep inventory.
 
 > [!NOTE]  
@@ -35,9 +35,9 @@ You can then create document lines for a specific location, view availability by
 
 ## <a name="to-create-a-transfer-route"></a>To create a transfer route
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Routes**, and then choose the related link.
-2. Alternatively, from any **Location Card** window, choose the **Transfer Routes** action.
+2. Alternatively, from any **Location Card** page, choose the **Transfer Routes** action.
 3. Choose the **New** action.
-4. In the **Location Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. On the **Location Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 You can now transfer inventory items between two locations. For more information, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).    
 

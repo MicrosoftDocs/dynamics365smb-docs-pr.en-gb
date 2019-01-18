@@ -13,10 +13,10 @@ ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bde0b129455dbdd7cbc91bd50b6d993abf727100
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b2cb135991a067b86b7c5579e0386ffd199aefcf
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Design Details: Item Tracking Posting Structure
@@ -24,7 +24,7 @@ To align with inventory costing functionality and to obtain a simpler and more r
   
 Item tracking numbers on order network entities and non-order network entities are specified in the **Reservation Entry** table (T337). Item tracking numbers that are related to historical information are retrieved directly from the item ledger entries that are related to the transaction in question. This means that item ledger entries reflect the item tracking specification of the posted order line.  
   
-The **Item Tracking Lines** window retrieves the information from T337 and the item ledger entries and shows it through the temporary table, **Tracking Specification** (T336). T336 also hold the temporary data in the **Item Tracking Lines window** for item tracking quantities that remain to be invoiced.  
+The **Item Tracking Lines** page retrieves the information from T337 and the item ledger entries and shows it through the temporary table, **Tracking Specification** (T336). T336 also hold the temporary data in the **Item Tracking Lines page** for item tracking quantities that remain to be invoiced.  
   
 ## <a name="one-to-many-relation"></a>One-to-Many Relation  
 The **Item Entry Relation** table, which is used to link a posted document line with its related item ledger entries, consists of two main parts:  

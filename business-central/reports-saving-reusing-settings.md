@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6027ba17868aca0a6571e059c9d157c542d12823
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 9fd086831c0d145570d87c33c62a003c166aca87
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Managing Saved Settings on Reports
@@ -40,7 +40,7 @@ You manage saved settings from page **1560 Reports Settings**. There are two way
 
 The page displays all the existing save settings entries for all users. If there is a user name in the **Assigned to** column, only that user can use the saved settings for the associated report. If there is a check mark in the **Share with all users** column, all users can use the saved settings for the report.
 
-From the **Report Settings** window, you can:
+From the **Report Settings** page, you can:
 -   Choose **New** to create a new saved settings entry from scratch.
 -   Select a saved settings entry from the list, and choose **Copy** to create a copy.
 -   Select a saved settings entry from the list, and choose **Edit** to modify a saved settings entry.

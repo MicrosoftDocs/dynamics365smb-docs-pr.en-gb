@@ -11,10 +11,10 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 065f6cc5dc11af1a9cddf2b3eed2b20e99912960
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 79e5a1e34fbd6c119be52deec60bba494fdd2671
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="monitor-job-progress-and-performance"></a>Monitor Job Progress and Performance
@@ -40,7 +40,7 @@ You can create a job WIP method that reflects the needs of your organisation. Af
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job WIP Methods**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Close the window.   
+3. Close the page.   
 4. To make this new method the default, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs Setup**, and then choose the related link.  
 5. In the **Default WIP Method** field, choose the method from the list.
 
@@ -49,14 +49,14 @@ When you create a new job, you must specify which job WIP method that applies. I
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
 2. Choose the **New** action. For more information, see [Create Jobs](projects-how-create-jobs.md).  
-3. In the **Job Card** window, in the **WIP Method** field, select a WIP method from the list. If a default method has been defined, you can select another option if needed.  
+3. On the **Job Card** page, in the **WIP Method** field, select a WIP method from the list. If a default method has been defined, you can select another option if needed.  
 
 ## <a name="to-calculate-wip"></a>To calculate WIP
 You can determine the WIP amount that is to be posted to balance sheet accounts for the period end reporting. You use the **Job Calculate WIP** batch job to do this.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Calculate WIP**, and then choose the related link.  
 2. Choose the **Calculate WIP** action.
-3. In the **Job Calculate WIP** window, fill in the fields as necessary.
+3. On the **Job Calculate WIP** page, fill in the fields as necessary.
 4. Choose the **OK** button.  
 
 > [!NOTE]  
@@ -66,7 +66,7 @@ You can determine the WIP amount that is to be posted to balance sheet accounts 
 When you have calculated WIP, you can post it to balance sheet accounts for the period end reporting. You use the **Job Post WIP to G/L** batch job to do this.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Post WIP to G/L**, and then choose the related link.  
-2. In the **Job Post WIP to G/L** window, fill in the fields as necessary.  
+2. On the **Job Post WIP to G/L** page, fill in the fields as necessary.  
 3. Choose the **OK** button.
 
 ## <a name="to-view-job-usage-estimates-and-post-updates"></a>To view job usage estimates and post updates
@@ -79,7 +79,7 @@ This lets you track and compare your original estimates against actual results a
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. Select a relevant job journal, and then choose the **Calc. Remaining Usage** action.  
-3. In the **Job Calc. Remaining Usage** window, enter the document number and posting date that is to be inserted in the journal, and then choose the **OK** button.  
+3. On the **Job Calc. Remaining Usage** page, enter the document number and posting date that is to be inserted in the journal, and then choose the **OK** button.  
 4. Update the journal with any modifications that may be needed.  
 5. Choose the **Post**.
 
@@ -89,7 +89,7 @@ All job-related entries are recorded in job registers and are numbered sequentia
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Registers**, and then choose the related link.
 2. Select a relevant register, and then choose **Job Ledger** action.
 
-In the **Job Ledger Entries** window you can review the entries that are associated with any job.  
+On the **Job Ledger Entries** page you can review the entries that are associated with any job.  
 
 ## <a name="see-also"></a>See Also
 [Managing Projects](projects-manage-projects.md)

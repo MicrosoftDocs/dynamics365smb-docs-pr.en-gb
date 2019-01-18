@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ad6a72c7a0cd523ec9215df1093c69864f866028
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 92b853c0d897ac5d93cbabc435b71bbf420d28a5
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Record Special Sales Prices and Discounts
@@ -62,7 +62,7 @@ When you have decided which customers are eligible for invoice discounts, enter 
 
 Proceed to set up new the sales invoice discount terms.
 
-1. In the **Customer Card** window, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** window opens.
+1. On the **Customer Card** page, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** page opens.
 2. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in GBP.
 3. In the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
 4. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
@@ -73,23 +73,23 @@ The invoice discount is now set up and assigned to the customer in question. Whe
 ## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>To work with sales invoice discounts and service charges
 When you use invoice discounts, the size of the invoice amount determines the size of the discount that is granted.  
 
-In the **Cust. Invoice Discounts** window, you can also add a service charge to invoices over a certain amount.  
+On the **Cust. Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  
 
 Before you can use invoice discounts with sales, you must enter certain information in the program. You must decide:  
 
 - which customers will be granted this type of discount.  
 - which discount percentages you will use.  
 
-If you invoice discounts to be calculated automatically, you can specify this in the **Sales & Receivables Setup** window.  
+If you invoice discounts to be calculated automatically, you can specify this on the **Sales & Receivables Setup** page.  
 
 For each customer, you can specify whether you will grant invoice discounts if the requirement is satisfied (that is, if the invoice amount is large enough). You can define the terms of the invoice discount in local currency for domestic customers and in foreign currency for foreign customers.  
 
-You link discount percentages to specific invoice amounts in **Cust. Invoice Discounts** windows. You can enter any number of percentages in each window. Each customer can have its own window, or you can link several customers to the same window.  
+You link discount percentages to specific invoice amounts in **Cust. Invoice Discounts** pages. You can enter any number of percentages in each page. Each customer can have its own page, or you can link several customers to the same page.  
 
 In addition to (or instead of) a discount percentage, you can link a service charge amount to a specific invoice amount.  
 
 > [!TIP]  
->  Before you start entering this information in the program, it is a good idea to prepare an outline of the discount structure you want to use. This makes it easier to see which customers can be linked to the same invoice discount window. The fewer windows you have to set up, the faster you can enter the basic information.  
+>  Before you start entering this information in the program, it is a good idea to prepare an outline of the discount structure you want to use. This makes it easier to see which customers can be linked to the same invoice discount page. The fewer pages you have to set up, the faster you can enter the basic information.  
 
 ## <a name="best-price-calculation"></a>Best Price Calculation
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines.
@@ -114,17 +114,17 @@ The best price is the lowest permissible price with the highest permissible line
 If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
 
 ## <a name="to-copy-sales-prices"></a>To copy sales prices  
-If you want to copy sales prices, such as an individual customer's sales prices to use for a customer price group, you must run the **Suggest Sales Price on Wksh.**  batch job. You find the batch job in the **Sales Price Worksheet** window.    
+If you want to copy sales prices, such as an individual customer's sales prices to use for a customer price group, you must run the **Suggest Sales Price on Wksh.**  batch job. You find the batch job on the **Sales Price Worksheet** page.    
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Worksheet**, and then choose the related link.  
 2.  Choose the **Suggest Sales Price on Wksh.** action.  
 3.  On the **Sales Prices** FastTab, fill in the **Sales Type** and **Sales Code** fields with the original sales prices you want to copy.  
-4.  In the top section of the request window, fill in the **Sales Type** and **Sales Code** with the type and name you want the sales prices copied to.  
+4.  In the top section of the request page, fill in the **Sales Type** and **Sales Code** with the type and name you want the sales prices copied to.  
 5.  If you want the batch job to create new prices, select the **Create New Prices** field.  
-6.  Choose the **OK** button to fill in the lines in the **Sales Price Worksheet** window with the suggested new prices, indicating that they are valid for the selected **Sales Type**.  
+6.  Choose the **OK** button to fill in the lines on the **Sales Price Worksheet** page with the suggested new prices, indicating that they are valid for the selected **Sales Type**.  
 
 > [!NOTE]  
->  This batch job only creates suggestions and it does not implement the suggested changes. If you are satisfied with the suggestions and want to implement them, that is insert them in the **Sales Prices** table, you can use the **Implement Price Changes** batch job, which is found on the **Actions** tab, in the **Functions** group, in the **Sales Price Worksheet** window.
+>  This batch job only creates suggestions and it does not implement the suggested changes. If you are satisfied with the suggestions and want to implement them, that is insert them in the **Sales Prices** table, you can use the **Implement Price Changes** batch job, which is found on the **Actions** tab, in the **Functions** group, on the **Sales Price Worksheet** page.
 
 ## <a name="see-also"></a>See Also
 [Setting Up Sales](sales-setup-sales.md)  

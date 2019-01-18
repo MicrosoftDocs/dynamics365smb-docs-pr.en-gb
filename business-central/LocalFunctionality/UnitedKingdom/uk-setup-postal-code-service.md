@@ -11,10 +11,10 @@ ms.search.keywords: getaddress.io, postcodes, extension
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7c97bb057268d002a0571702d118e369c685698a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4de447f1d9d408b40d208de815ba351a076d6475
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-the-getaddressio-uk-postcodes-extension"></a>Set Up the GetAddress.io UK Postcodes Extension
@@ -24,18 +24,18 @@ The GetAddress.io UK Postcodes extension uses the getAddress API to find address
 
 ##<a name="to-set-up-the-getaddressio-uk-postcodes-extension"></a>To set up the GetAddress.io UK Postcodes extension
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Connections**, and then choose the related link.  
-2. In the **Service Connections** window, choose **UK Postcode Service**.
-3. In the **Postcode provider configuration** window, choose **Disabled**.
-4. In the **Postal code service selection** window, choose **GetAddress.io**.
-5. In the **GetAddress.io Config** window, choose **Get API Key** to open the **Plans** window on the website for the getAddress API.  
+2. On the **Service Connections** page, choose **UK Postcode Service**.
+3. On the **Postcode provider configuration** page, choose **Disabled**.
+4. On the **Postcode service selection** page, choose **GetAddress.io**.
+5. On the **GetAddress.io Config** page, choose **Get API Key** to open the **Plans** page on the website for the getAddress API.  
 
     > [!NOTE]  
     >   You might need to allow pop-ups in your browser.
 
 6. Purchase a plan, or just choose **Get API Key**, and then provide your email address.
 7. Open the email from getAddress.io, and copy the API key. The key is under the **Your API Key** heading.
-8. In the **GetAddress.io Config** window, paste the API key in the **API Key** field, and then choose **OK**.
-9. In the **Service Connections** window, verify that the **Address Provider** field shows **GetAddress.io**. If it does, the service is enabled.
+8. On the **GetAddress.io Config** page, paste the API key in the **API Key** field, and then choose **OK**.
+9. On the **Service Connections** page, verify that the **Address Provider** field shows **GetAddress.io**. If it does, the service is enabled.
 
 ## <a name="see-also"></a>See Also
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  

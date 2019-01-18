@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36c68048c384f4ccfef6c811ac288b306351ce2f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3f5521102ebcf4ad6b5bcb88c862106fd6b85f3f
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-special-orders"></a>Create Special Orders
@@ -32,9 +32,9 @@ Before you can use this feature, you must first set up the customer, vendor, and
     You must now create a purchase order from a requisition worksheet.  
 4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requisition Worksheet**, and then choose the related link.  
 5. Choose the **Special Order** action, and then choose the **Get Sales Orders** action.  
-6.  In the **Get Sales Orders** window, show results where the **Document No.** is the sales order number. Choose the **OK** button. A requisition worksheet line is created for the item.  
+6.  On the **Get Sales Orders** page, show results where the **Document No.** is the sales order number. Choose the **OK** button. A requisition worksheet line is created for the item.  
 7.  On the requisition worksheet line, in the **Action Message** field, select **New**.  
-8.  In the **Req. Worksheet** window, choose the **Carry Out Action Message** action. The **Carry Out Action Msg. - Req.** window opens. Choose the **OK** button.  
+8.  On the **Req. Worksheet** page, choose the **Carry Out Action Message** action. The **Carry Out Action Msg. - Req.** page opens. Choose the **OK** button.  
 
     A message appears telling you that the purchase orders have been created. Choost the **OK** button.  
 

@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b8c59f24eae07efe8f2c4ca1e4e22d05fd4f1b1c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d7a02a85e65a663bc304becd8392e949d485f13a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Set Up Web Sources for Contact Companies
@@ -29,7 +30,7 @@ Using web sources on contacts is a two-step process. First, you define the web s
 2. Choose the **New** actions.
 3. Fill in the **Code**, **Description**, and **URL** fields.
 
-    Type %1 in the **URL** field to insert a placeholder for a search word in the URL. When you launch the web source from a contact, the %1 is replaced with the search word, for example, the name of the company that you have entered in the **Contact Web Sources** window.
+    Type %1 in the **URL** field to insert a placeholder for a search word in the URL. When you launch the web source from a contact, the %1 is replaced with the search word, for example, the name of the company that you have entered on the **Contact Web Sources** page.
 
 Repeat these steps to set up as many web sources as you want.
 
@@ -37,13 +38,13 @@ Repeat these steps to set up as many web sources as you want.
 When assigning web sources, you specify which search engine and search word that the application will use to find the requested information.
 
 1. Open the contact.
-2. Choose the **Company** action, and then choose the **Web Sources** action. The **Contact Web Sources** window opens.
+2. Choose the **Company** action, and then choose the **Web Sources** action. The **Contact Web Sources** page opens.
 3. In the **Web Source Code** field, choose the web source you want to assign.
 4. In the **Search Word** field, enter the search word that you want to use to find the information.
 
 Repeat these steps to assign as many web sources as you want.
 
-You can also assign web sources from the **Contact List** window by following the same procedure.
+You can also assign web sources from the **Contact List** page by following the same procedure.
 
 ## <a name="see-also"></a>See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  

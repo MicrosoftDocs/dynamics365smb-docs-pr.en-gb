@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 50b77f4c6e333f3024f2261eb0c6df42b3e535d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27ef914e3ee8dc00f0e61848afaeea0433cd2279
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-prepayment-invoices"></a>Create Prepayment Invoices
@@ -44,7 +44,7 @@ The following procedure describes how to invoice a prepayment for a sales orders
 4. If you want to apply one prepayment percentage to the entire order, change the **Prepayment %** field on the header after filling in the lines.  
 5. To view the total prepayment amount, choose the **Statistics** action.
 
-    If you want to adjust the total prepayment amount for the order, you can change the contents of the **Prepayment Amount** field in the **Sales Order Statistics** window.  
+    If you want to adjust the total prepayment amount for the order, you can change the contents of the **Prepayment Amount** field on the **Sales Order Statistics** page.  
 
     If the **Prices Including VAT** field is selected, the **Prepayment Amount Incl. VAT** field is editable.  
 

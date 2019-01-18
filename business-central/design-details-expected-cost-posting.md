@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 50ac9cbb946fedc687eb5ea1373c99d68f3d322b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae88a455552c7194422d07e6e666bd81b7eab101
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-expected-cost-posting"></a>Design Details: Expected Cost Posting
@@ -27,12 +27,12 @@ Expected costs represent the estimation of, for example, a purchased item’s co
 > [!NOTE]  
 >  Expected costs are only managed for item transactions. Expected costs are not for immaterial transaction nature codes, such as capacity and item charges.  
 
- If only the quantity part of an inventory increase has been posted, then the inventory value in the general ledger does not change unless you have selected the **Expected Cost Posting to G/L** check box in the **Inventory Setup** window. In that case, the expected cost is posted to interim accounts at the time of receipt. After the receipt has been fully invoiced, the interim accounts are then balanced and the actual cost is posted to the inventory account.  
+ If only the quantity part of an inventory increase has been posted, then the inventory value in the general ledger does not change unless you have selected the **Expected Cost Posting to G/L** check box on the **Inventory Setup** page. In that case, the expected cost is posted to interim accounts at the time of receipt. After the receipt has been fully invoiced, the interim accounts are then balanced and the actual cost is posted to the inventory account.  
 
  To support reconciliation and traceability work, the invoiced value entry shows the expected cost amount that has been posted to balance the interim accounts.  
 
 ## <a name="example"></a>Example  
- The following example shows expected cost if the **Automatic Cost Posting** check box and the **Expected Cost Posting to G/L** check box are selected in the **Inventory Setup** window.  
+ The following example shows expected cost if the **Automatic Cost Posting** check box and the **Expected Cost Posting to G/L** check box are selected on the **Inventory Setup** page.  
 
  You post a purchase order as received. The expected cost is LCY 95.00.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="restructure-warehouses"></a>Restructure Warehouses
@@ -56,9 +56,9 @@ You have now emptied the bins where the items used to be. The default bins for y
 
     1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
     2.  Select the line with the location, and then choose the **Bins** action.  
-    3.  In the **Bins** window, in the **Bin Type Code** field, enter **QC** for each of the old bins that you emptied in step 3 in the previous procedure.  
+    3.  On the **Bins** page, in the **Bin Type Code** field, enter **QC** for each of the old bins that you emptied in step 3 in the previous procedure.  
 
-You have now removed the bins from the warehouse flow, and reclassified them as QC bins. QC bins have none of the activity fields in the **Bin Types** window selected and are therefore not considered by the item flow. For more information, see [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).  
+You have now removed the bins from the warehouse flow, and reclassified them as QC bins. QC bins have none of the activity fields on the **Bin Types** page selected and are therefore not considered by the item flow. For more information, see [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>To delete a bin  
 
@@ -69,7 +69,7 @@ You have now removed the bins from the warehouse flow, and reclassified them as 
 
 If you choose the **Yes** button, the bin is deleted for use in the future, but the bin code in all warehouse entries remains the same.  
 
-If you want to rename a bin so that all records associated with the bin are also renamed, including bin contents, warehouse activity lines, registered warehouse activity lines, warehouse worksheet lines, warehouse receipt lines, posted warehouse receipt lines, warehouse shipment lines, posted warehouse shipment lines, and warehouse entries, you can do so in the **Bins** window.  
+If you want to rename a bin so that all records associated with the bin are also renamed, including bin contents, warehouse activity lines, registered warehouse activity lines, warehouse worksheet lines, warehouse receipt lines, posted warehouse receipt lines, warehouse shipment lines, posted warehouse shipment lines, and warehouse entries, you can do so on the **Bins** page.  
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>To rename a bin and change the bin code in all records  
 

@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3eb90611939dce2134d9413812918c2afb82c083
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 616fcbe937e556c17e8beb79f68bc961ea8bbe18
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-objects"></a>Set Up Cost Objects
@@ -27,7 +27,7 @@ Cost objects are projects, products, or services of a company. The chart of cost
 * Create a new chart of cost object that is independent of the general ledger or add a new cost object to an existing chart of cost objects. You must create each cost object individually.  
 
 ## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>To transfer dimension values from the general ledger to the chart of cost objects  
-1.  Set a dimension to be the cost object dimension in the **Update CA Dimensions** window. Only the values from this dimension are transferred.  
+1.  Set a dimension to be the cost object dimension on the **Update CA Dimensions** page. Only the values from this dimension are transferred.  
 2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Objects**, and then choose the related link.  
 3.  Choose the **Get Cost Objects from Dimension** action to transfer dimension values to the chart of cost objects. The function transfers the dimension values that you defined in step 1.  
 
@@ -36,10 +36,10 @@ Cost objects are projects, products, or services of a company. The chart of cost
 
 The chart of cost objects now contains all specified dimension values from the general ledger and includes titles and subtotals.  
 
-## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-window"></a>To create new cost objects in the Chart of Cost Objects window  
-You can set up and maintain cost objects in either the **Cost Object Card** card or in the **Chart of Cost Objects** window. In this procedure, you set up cost objects in the **Chart of Cost Objects** window.  
+## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>To create new cost objects in the Chart of Cost Objects page  
+You can set up and maintain cost objects in either the **Cost Object Card** card or on the **Chart of Cost Objects** page. In this procedure, you set up cost objects on the **Chart of Cost Objects** page.  
 
-1.  Open the **Chart of Cost Objects** window in edit mode.  
+1.  Open the **Chart of Cost Objects** page in edit mode.  
 2.  In the **Code** field, enter the cost object code. All cost objects must have a code.  
 3.  In the **Name** field, enter the cost object name.  
 4.  Choose the drop-down arrow in the **Line Type** field to specify the purpose of the cost object.  

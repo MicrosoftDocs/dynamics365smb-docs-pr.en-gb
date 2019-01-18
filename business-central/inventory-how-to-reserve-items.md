@@ -13,27 +13,27 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0f1800674e6f5561dc48eadde132f56b06500f98
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: aa7e25f8e1d837dde55ac05812306634c4ac37bf
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reserve-items"></a>Reserve Items
-You can reserve items for sales orders, purchase orders, service orders, assembly orders, and production orders. You can reserve items on inventory or inbound on open document or journal lines. You perform the work in the **Reservation** window.
+You can reserve items for sales orders, purchase orders, service orders, assembly orders, and production orders. You can reserve items on inventory or inbound on open document or journal lines. You perform the work on the **Reservation** page.
 
-Each line in the **Reservation** window, which you open to reserve items, displays information about one type of line (sales, purchase, journal) or inventory entry. The lines describe how many items are available to be reserved from each type of line or entry.
+Each line on the **Reservation** page, which you open to reserve items, displays information about one type of line (sales, purchase, journal) or inventory entry. The lines describe how many items are available to be reserved from each type of line or entry.
 
 ## <a name="to-reserve-items-for-sales"></a>To reserve items for sales
 The following describes how to reserve items from a sales order. The steps are similar for purchase, service, and assembly orders.  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
-2.  On a sales order, on the **Lines** FastTab, choose the **Reserve** action. The **Reservation** window opens.  
+2.  On a sales order, on the **Lines** FastTab, choose the **Reserve** action. The **Reservation** page opens.  
 3. Select the line that you want to reserve the items from.  
 4. Choose one of the following actions.  
 
     |**Function**|**Description**|
     |------------------|---------------------|  
-    |**Auto Reserve**|To automatically reserve items in the **Reservation** window.|  
+    |**Auto Reserve**|To automatically reserve items on the **Reservation** page.|  
     |**Reserve from Current Line**|To reserve the items from the document on the line you have selected.|  
     |**Cancel Reservation from Current Line**|To cancel reservation of the items from the document on the line you have selected.|
 
@@ -48,7 +48,7 @@ In the following procedure, a firm planned production order is used.
 2. Open the firm planned production order you want to reserve parent items for.  
 3. Select the relevant production order line.  
 4. On the **Lines** FastTab, choose the **Reserve** action.
-5. In the **Reservation** window, select the **Sales Line, Order** line, and then choose the **Reserve from Current Line** action.  
+5. On the **Reservation** page, select the **Sales Line, Order** line, and then choose the **Reserve from Current Line** action.  
 
 The quantity you entered in the firm planned production order line is now reserved.
 
@@ -62,22 +62,22 @@ In the following procedure, a firm planned production order is used.
 4. On the **Lines** FastTab, choose **Line**, and then choose **Components**.  
 5. Select the relevant component line.  
 6. Choose On the **Lines** FastTab, choose the **Reserve** action.  
-7. In the **Reservation** window, select a line, and then choose the **Reserve from Current Line** action.  
+7. On the **Reservation** page, select a line, and then choose the **Reserve from Current Line** action.  
 
 The quantity you entered in the firm planned production component line is now reserved.
 
 ## <a name="to-change-a-reservation"></a>To change a reservation  
 Sometimes, you may want to change an item reservation.   
 1. From the document line that you have reserved from, on the **Lines** FastTab, choose the **Reserve** action.  
-2. In the **Reservation** window, choose the **Reservation Entries** action.
-3. The **Reservation Entries** window, update the **Quantity** field on the line you want to change.
+2. On the **Reservation** page, choose the **Reservation Entries** action.
+3. The **Reservation Entries** page, update the **Quantity** field on the line you want to change.
 4. Confirm the subsequent message, by choosing the **OK** button.
 
 ## <a name="to-cancel-a-reservation"></a>To cancel a reservation  
 Sometimes, you may want to cancel an item reservation.   
 1. From the document line that you want to cancel a reservation from, on the **Lines** FastTab, choose the **Reserve** action.  
-2. In the **Reservation** window, choose **Reservation Entries** action.  
-3.  In the **Reservation Entries** window, choose the **Cancel Reservation** action.  
+2. On the **Reservation** page, choose **Reservation Entries** action.  
+3.  On the **Reservation Entries** page, choose the **Cancel Reservation** action.  
 4.  Confirm the subsequent message, by choosing the **OK** button.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>To reserve a specific serial or lot number  
@@ -91,8 +91,8 @@ The following procedure is based on a sales order.
 3. Assign serial and lot numbers to the sales order line. For more information, see [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 4. On the sales order line, choose the **Reserve** action.  
 5. Choose the **Yes** button to reserve specific serial or lot numbers.  
-6. In the   **Item Tracking List** window, select the serial and lot number combination that you have just assigned.  
-7. Choose the **OK** button to open the **Reservation** window showing only supply with the specified item tracking number. If there are any non-specific reservations on any of the item tracking numbers that you have specified for this line, you are informed of the quantity that has already been reserved.  
+6. In the   **Item Tracking List** page, select the serial and lot number combination that you have just assigned.  
+7. Choose the **OK** button to open the **Reservation** page showing only supply with the specified item tracking number. If there are any non-specific reservations on any of the item tracking numbers that you have specified for this line, you are informed of the quantity that has already been reserved.  
 8. Choose either the **Auto Reserve** or the **Reserve from Current Line** action to create the reservation on the specific item tracking numbers.
 
 ## <a name="see-also"></a>See Also

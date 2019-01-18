@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1311d566a8166a8a8720bb09789f42c65a1b6e7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-gl-budgets"></a>Create G/L Budgets
@@ -34,11 +34,11 @@ In cost accounting, you work with cost budgets in a similar way. For more inform
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, and then choose the related link.  
 2. Choose the **Edit List** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **Edit Budget** action.
-4. At the top of the **Budget** window, fill in the fields as necessary to define what is displayed.  
+4. At the top of the **Budget** page, fill in the fields as necessary to define what is displayed.  
 
-    Only entries that contain the budget name that you entered in the **budget Name** field are shown. Because the budget name has just been created, there are no entries that match the filter. Therefore, the window is empty.  
-5. To enter an amount, choose the relevant cell in the matrix. The **G/L Budget Entries** window opens.  
-6. Create a new line and fill in the **Amount** field. Close the **G/L Budget Entries** window.  
+    Only entries that contain the budget name that you entered in the **budget Name** field are shown. Because the budget name has just been created, there are no entries that match the filter. Therefore, the page is empty.  
+5. To enter an amount, choose the relevant cell in the matrix. The **G/L Budget Entries** page opens.  
+6. Create a new line and fill in the **Amount** field. Close the **G/L Budget Entries** page.  
 7. Repeat steps 5 and 6 until you have entered all of the budget amounts.  
 
 > [!NOTE]  

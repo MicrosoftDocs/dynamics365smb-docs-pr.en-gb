@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 036aa1f317c1b1de7fc1548e03d40eca8c25be89
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d35fd5de7a0583c3864268d0749384322bf947ed
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Scenario Example: Defining Static Allocations Based on Allocation Ratio
@@ -30,7 +31,7 @@ This topic describes how to define three new allocation target cost objects for 
 ## <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>To define the allocation source PROD cost centre on the General FastTab  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then choose the related link.  
-2.  In the **Cost Allocation** window, choose the **New** action.  
+2.  On the **Cost Allocation** page, choose the **New** action.  
 3.  In the **ID** field, press Enter or enter an ID.  
 4.  In the **Level** field, enter **1**.  
 5.  In the **Valid From** and **Valid To** fields, enter appropriate dates.  
@@ -59,8 +60,5 @@ This topic describes how to define three new allocation target cost objects for 
 >  [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.  
 
 ## <a name="see-also"></a>See Also  
-[Set Up Allocation Source and Targets](finance-how-to-set-up-allocation-source-and-targets.md)   
 [Defining and Allocating Costs](finance-define-and-allocate-costs.md)   
-[Scenario Example: Defining Dynamic Allocations Based on Items Sold](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
-[Defining and Allocating Costs](finance-define-and-allocate-costs.md)
 

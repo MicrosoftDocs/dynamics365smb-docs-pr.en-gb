@@ -12,22 +12,22 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ee07ca7ba498858fac794f1ee1f27f281de8ae02
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d427ab28e1344ece77baaab8ceefe4043d3beaa0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-sepa-direct-debit-payment-receipts"></a>Post SEPA Direct Debit Payment Receipts
 When a direct debit collection is successfully processed by your bank, you can proceed to post receipt of the payment for the involved sales invoices. For more information, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
 
-You can post the payment receipt directly from the **Direct Debit Collections** window or the **Direct Debit Collect. Entries** window. Alternatively, you can relay the work to another user by preparing the related journal lines.  
+You can post the payment receipt directly from the **Direct Debit Collections** page or the **Direct Debit Collect. Entries** page. Alternatively, you can relay the work to another user by preparing the related journal lines.  
 
-## <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-window"></a>To post a direct-debit payment receipt from the Direct Debit Collections window  
+## <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>To post a direct-debit payment receipt from the Direct Debit Collections page  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.  
 2. Select a line for a direct debit collection that has been exported to a bank file and successfully processed by the bank. For more information, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
 3. Choose the **Post Payment Receipts** action.  
-4. In the **Post Direct Debit Collection** window, fill in the fields as described in the following table.  
+4. On the **Post Direct Debit Collection** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

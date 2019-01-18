@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: soalex
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 17425538b398216f24037b3fdd54727b64fb2893
+ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
+ms.openlocfilehash: 4d154473788372e26498e5675863a1500b1cf1ac
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="united-kingdom-local-functionality"></a>United Kingdom Local Functionality
@@ -35,7 +35,7 @@ The following topics describe local functionality that is unique to the United K
 ||[Print Remittance Advice](how-to-print-remittance-advice.md)|Current|
 |**Fixed Assets**|[Define Accounting Periods for Straight Line Depreciation of Fixed Assets](how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md)|Current|
 |**Miscellaneous**|[Enter Statutory Information](how-to-enter-statutory-information.md)|Current|
-||[The GetAddress.io UK Postcodes Extension](../../ui-extensions-getaddressio.md)|Current|
+||[The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)|Current|
 ||[Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md)|Current|
 ||[Enter External Document Numbers](how-to-enter-external-document-numbers.md)|Current|
 ||[Print Direct Sales and Purchase Details Reports](how-to-print-direct-sales-and-purchase-details-reports.md)|Current|

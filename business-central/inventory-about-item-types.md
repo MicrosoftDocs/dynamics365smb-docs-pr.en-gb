@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/18/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b976ca548bf02511e818fa981395cb9261757468
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2240840e977bcd1186c74972ce0457deb03058a0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-item-types"></a>About Item Types
-In the **Type** field in the **Item Card** window, you can select what the item is used for in your business and therefore how it is managed in the system. Three options exist:
+In the **Type** field on the **Item Card** page, you can select what the item is used for in your business and therefore how it is managed in the system. Three options exist:
 
 |Option|Typical Purpose|
 |------|-----------|
@@ -34,10 +34,10 @@ The **Service** and **Non-Inventory** types do not involve tracking of inventory
 
 The three item types support the following features respectively.
 
-|Item Type|Sales|Purchasing|Job Consumption|Service Consumption|Assembly Consumption|Production Consumption|Assemply Output|Production Output|Location Transfer|Physical Counting|Inventory Revaluation|Inventory Costing|Item Tracking|Reservation|Warehousing|Planning|
+|Item Type|Sales|Purchasing|Job Consumption|Service Consumption|Assembly Consumption|Production Consumption|Assembly Output|Production Output|Location Transfer|Physical Counting|Inventory Revaluation|Inventory Costing|Item Tracking|Reservation|Warehousing|Planning|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|Non-Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|
+|Non-Inventory|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|
 |Service|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|
 
 > [!NOTE]

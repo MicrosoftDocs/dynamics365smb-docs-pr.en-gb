@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: df77e655c58b6eba6f431ef66be3152f56ac634f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dda69814c0f8b2a21a3e927e2e357817090549f4
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-integration-with-inventory"></a>Design Details: Integration with Inventory
 The Warehouse Management application area and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.  
   
 ## <a name="physical-inventory"></a>Physical Inventory  
- The **Whse. Phys. Inventory Journal** window is used with the **Phys. Inventory Journal** window for all advanced warehouse locations. The inventory on bin level is calculated, and a printed list is provided for the warehouse employee. The list shows which items in which bins must be counted.  
+ The **Whse. Phys. Inventory Journal** page is used with the **Phys. Inventory Journal** page for all advanced warehouse locations. The inventory on bin level is calculated, and a printed list is provided for the warehouse employee. The list shows which items in which bins must be counted.  
   
- The warehouse employee enters the counted quantity in the **Whse. Phys. Inventory Journal** window and then posts the journal.  
+ The warehouse employee enters the counted quantity on the **Whse. Phys. Inventory Journal** page and then posts the journal.  
   
  If the counted quantity is greater than the quantity on the journal line, a movement is posted for this difference from the default adjustment bin to the counted bin. This increases the quantity in the counted bin and decreases the quantity in the default adjustment bin.  
   
@@ -36,7 +36,7 @@ The Warehouse Management application area and the Inventory application area int
  When you post the physical inventory journal, the inventory and the default adjustment bin are updated.  
   
 ### <a name="warehouse-adjustments-to-the-item-ledger"></a>Warehouse Adjustments to the Item Ledger  
- You use the **Item Journal** window and the **Calculate Whse. Adjustment** function to adjust inventory on the item ledger in accordance with an adjustment that has been made to the item quantity in a warehouse bin. To create a link between the inventory and the warehouse, you must define a default adjustment bin per location.  
+ You use the **Item Journal** page and the **Calculate Whse. Adjustment** function to adjust inventory on the item ledger in accordance with an adjustment that has been made to the item quantity in a warehouse bin. To create a link between the inventory and the warehouse, you must define a default adjustment bin per location.  
   
  The default adjustment bin registers items in the warehouse when you post an increase for the inventory. However, if you post a decrease, the quantity on the default bin is also decreased. In both cases, item ledger entries and warehouse entries are created.  
   

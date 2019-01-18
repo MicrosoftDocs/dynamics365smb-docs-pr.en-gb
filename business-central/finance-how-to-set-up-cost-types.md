@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2846967648f5c0e0b6015c7990a941642fc27323
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-types"></a>Set Up Cost Types
@@ -34,12 +35,12 @@ The chart of cost types is similar to the chart of accounts in the general ledge
     > [!IMPORTANT]  
     >  The **Register Cost Types in Chart of Accounts** function updates the relationship between the chart of accounts and the chart of cost types. The **No.** field is filled and verified to make sure that each general ledger account is related to only one cost type. The function runs automatically before transferring general ledger entries to cost accounting.  
 
-## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>To set up new cost types in the Chart of Cost Types window  
-1.  Open the **Chart of Cost Types** window in edit mode.  
+## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>To set up new cost types in the Chart of Cost Types page  
+1.  Open the **Chart of Cost Types** page in edit mode.  
 2.  Fill in the fields as described as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window. In this procedure, you set up cost types in the **Chart of Cost Types** window.
+    >  You can set up and maintain cost types in either the **Cost Type Card** page or on the **Chart of Cost Types** page. In this procedure, you set up cost types on the **Chart of Cost Types** page.
 
 3.  After you have created all cost types, choose the **Indent Cost Types** action. In the dialogue box, choose the **Yes** button.  
 4.  Link the new cost type to the corresponding general ledger account.  
@@ -48,7 +49,7 @@ The chart of cost types is similar to the chart of accounts in the general ledge
     >  If you have entered definitions in the **Totalling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.  
 
 ## <a name="to-update-cost-types"></a>To update cost types  
-1.  In the **Cost Accounting Setup** window, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.  
+1.  On the **Cost Accounting Setup** page, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.  
 2.  In the **Align G/L Account** field, you can choose from the following options.  
 
 - **No Alignment** - There is no corresponding change in the chart of cost types when you change the chart of accounts.  
@@ -57,7 +58,6 @@ The chart of cost types is similar to the chart of accounts in the general ledge
 
 ## <a name="see-also"></a>See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
-[Defining the Relationship Between Cost Types and General Ledger Accounts](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
 [Defining Cost Centers and Cost Objects for Chart of Accounts](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Balances Between Cost Type, Cost Center, and Cost Object](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   

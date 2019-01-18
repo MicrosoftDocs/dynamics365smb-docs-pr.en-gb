@@ -13,10 +13,10 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5e8aa531697dcdc6f629312c0569c5628b3f5755
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="depreciation-methods"></a>Depreciation Methods
@@ -52,7 +52,7 @@ If you enter the depreciation period (the number of depreciation years, the numb
 
 Remaining depreciation days are calculated as the number of depreciation days minus the number of days between the depreciation starting date and the last fixed asset entry date.  
 
-Book value may be reduced by posted appreciation, write-down, custom 1 or custom 2 amounts, depending on whether the **Include in Depr. Calculation** field is deactivated and whether the **Part of Book Value** field is activated in the **FA Posting Type Setup** window. This calculation ensures that the fixed asset is fully depreciated at the depreciation ending date.  
+Book value may be reduced by posted appreciation, write-down, custom 1 or custom 2 amounts, depending on whether the **Include in Depr. Calculation** field is deactivated and whether the **Part of Book Value** field is activated on the **FA Posting Type Setup** page. This calculation ensures that the fixed asset is fully depreciated at the depreciation ending date.  
 
 ### <a name="fixed-yearly-percentage"></a>Fixed Yearly Percentage
 If you enter a fixed yearly percentage, the program uses the following formula to calculate the depreciation amount:  
@@ -90,7 +90,7 @@ The following formula calculates depreciation amounts:
 
 The depreciable basis is calculated as the book value less posted depreciation since the starting date of the current fiscal year.  
 
-The posted depreciation amount can contain entries with various posting types (write-down, custom1, and custom2) posted since the starting date of the current fiscal year. These posting types are included in the posted depreciation amount if there are check marks in the **Depreciation Type** and the **Part of Book Value** fields in the **FA Posting Type Setup** window.  
+The posted depreciation amount can contain entries with various posting types (write-down, custom1, and custom2) posted since the starting date of the current fiscal year. These posting types are included in the posted depreciation amount if there are check marks in the **Depreciation Type** and the **Part of Book Value** fields on the **FA Posting Type Setup** page.  
 
 ### <a name="example---declining-balance-1-depreciation"></a>Example - Reducing-Balance Depreciation
 A fixed asset has an acquisition cost of LCY 100,000. The **Declining-Balance %** field is 25. The **Calculate Depreciation** batch job is run biannually.  
@@ -167,10 +167,10 @@ The **Calculate Depreciation** batch job calculates a straight-line amount and a
 
 You can use various percentages to calculate declining-balance.  
 
-If you use this method, you must enter the estimated useful lifetime and a declining balance percentage in the **FA Depreciation Books** window.  
+If you use this method, you must enter the estimated useful lifetime and a declining balance percentage on the **FA Depreciation Books** page.  
 
 ### <a name="example---db1-sl-depreciation"></a>Example - DB1-SL Depreciation
-A fixed asset has an acquisition cost of LCY 100,000. In the **FA Depreciation Books** window, the **Declining-Balance %** field contains 25 and the **No. of Depreciation Years** field contains 8. The **Calculate Depreciation** batch job is run biannually.  
+A fixed asset has an acquisition cost of LCY 100,000. On the **FA Depreciation Books** page, the **Declining-Balance %** field contains 25 and the **No. of Depreciation Years** field contains 8. The **Calculate Depreciation** batch job is run biannually.  
 
 The fixed asset ledger entries look like this:  
 
@@ -219,21 +219,21 @@ The straight-line amount is used because it is the greater amount.
 ## <a name="user-defined-depreciation"></a>User-defined Depreciation
 The program has a facility that allows you to set up user-defined depreciation methods.  
 
-With a user-defined method, you use the **Depreciation Tables** window, where you must enter a depreciation percentage for each period (month, quarter, year, or accounting period).  
+With a user-defined method, you use the **Depreciation Tables** page, where you must enter a depreciation percentage for each period (month, quarter, year, or accounting period).  
 
 The formula for calculating the depreciation amounts is:  
 
 Depreciation Amount = (Depreciation % x Number of Depreciation Days x Depr. Basis) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Depreciation Based on Number of Units
-This user-defined method can also be used to depreciate based on number of units, for example, in the case of production machines with an established lifetime capacity. In the **Depreciation Tables** window, you can enter the number of units that can be produced in each period (month, quarter, year, or accounting period).  
+This user-defined method can also be used to depreciate based on number of units, for example, in the case of production machines with an established lifetime capacity. On the **Depreciation Tables** page, you can enter the number of units that can be produced in each period (month, quarter, year,or accounting period).  
 
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>To set up user-defined depreciation methods
-In the **Depreciation Table** window, you can set up user-defined depreciation methods. For example, you can set up depreciation based on number of units.  
+On the **Depreciation Table** page, you can set up user-defined depreciation methods. For example, you can set up depreciation based on number of units.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Tables**, and then choose the related link.  
-2. In the **Depreciation Table List** window, choose the **New** action.  
-3. **Depreciation Table Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. On the **Depreciation Table List** page, choose the **New** action.  
+3. **Depreciation Table Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Example - User-defined Depreciation
 You use a depreciation method that allows you to depreciate assets in an accelerated manner for income VAT purposes.  
@@ -257,7 +257,7 @@ The acquisition cost is LCY 100,000, and the depreciable lifetime is five years.
 
 * Depreciation starting date  
 
-If you use a user-defined method, the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields must be filled in in the **FA Depreciation Books** window. The **First User-Defined Depr. Date** field and the contents in the **Period Length** field in the **Depreciation Tables** window are used to determine the time intervals to be used for depreciation calculations. This ensures that the program will start using the specified percentage on the same day for all assets. The **Depreciation Starting Date** field is used to calculate the number of depreciation days.  
+If you use a user-defined method, the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields must be filled in on the **FA Depreciation Books** page. The **First User-Defined Depr. Date** field and the contents in the **Period Length** field on the **Depreciation Tables** page are used to determine the time intervals to be used for depreciation calculations. This ensures that the program will start using the specified percentage on the same day for all assets. The **Depreciation Starting Date** field is used to calculate the number of depreciation days.  
 
 In the previous example, both the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields contain 01/01/01. If, however, the **First User-Defined Depr. Date** field contained 01/01/10 and the **Depreciation Starting Date** field contained 04/01/11, the result would be:  
 
@@ -273,7 +273,7 @@ In the previous example, both the **First User-Defined Depr. Date** and **Deprec
 * Depreciation starting date  
 
 ## <a name="half-year-convention-depreciation"></a>Half-Year Convention Depreciation
-The Half-Year Convention method will only be applied if you have placed a check mark in the **Use Half-Year Convention** field in the fixed **FA Depreciation Book** window.  
+The Half-Year Convention method will only be applied if you have placed a check mark in the **Use Half-Year Convention** field in the fixed **FA Depreciation Book** page.  
 
 This depreciation method can be used in conjunction with the following depreciation methods in the program:  
 
@@ -284,7 +284,7 @@ This depreciation method can be used in conjunction with the following depreciat
 When you apply the Half-Year Convention, a fixed asset has six months of depreciation in the first fiscal year, regardless of the contents of the **Depreciation Starting Date** field.  
 
 > [!NOTE]  
->   The estimated life of the fixed asset that is remaining after the first fiscal year will always contain a half-year using the Half-Year Convention Method. Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field in the **FA Depreciation Book** window must always contain a date which is exactly six months before the final date of the fiscal year in which the fixed asset will fully depreciate.  
+>   The estimated life of the fixed asset that is remaining after the first fiscal year will always contain a half-year using the Half-Year Convention Method. Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field on the **FA Depreciation Book** page must always contain a date which is exactly six months before the final date of the fiscal year in which the fixed asset will fully depreciate.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Example - Half-Year Convention Depreciation
 A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 03/01/10. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
@@ -304,7 +304,7 @@ The fixed asset ledger entries look like this:
 * Depreciation starting date  
 
 ## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Example - Sum of Digits Depreciation Using Half-Year Convention
-A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 11/01/10. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15. In the **FA Depreciation Books** window, the **Declining-Balance %** field contains 40. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
+A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 11/01/10. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15. On the **FA Depreciation Books** page, the **Declining-Balance %** field contains 40. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
 
 The fixed asset ledger entries look like this:  
 

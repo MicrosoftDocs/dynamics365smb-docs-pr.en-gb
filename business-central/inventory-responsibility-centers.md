@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7b8d12d597930824aba96cc894b11419f9ae00b0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 643d0b7be64addf3604283dbed58d59a54df2032
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-responsibility-centers"></a>Work with Responsibility Centres
@@ -48,7 +48,7 @@ You can set up users so that in their daily routines the program retrieves only 
 To set this up, you assign responsibility centres to users in three functional areas: Purchases, Sales, and Service Management.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
-2.  In the **User Setup** window, select the user you want to assign a responsibility center to. If the user not is on the list, you must enter a user ID in the **User ID** field.  
+2.  On the **User Setup** page, select the user you want to assign a responsibility centre to. If the user not is on the list, you must enter a user ID in the **User ID** field.  
 3.  In the **Sales Resp. Ctr. Filter** field, enter the responsibility centre where the user will have tasks related to sales.  
 4.  In the **Purchase Resp. Ctr. Filter** field, enter the responsibility centre where the user will have tasks related to purchasing.  
 5.  In the **Service Resp. Ctr. Filter** field, enter the responsibility centre where the user will have tasks related to service management.  

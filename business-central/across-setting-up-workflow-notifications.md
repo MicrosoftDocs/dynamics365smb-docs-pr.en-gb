@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 1a8fd4f75fc1562985412b7e478066aa425c9425
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 53b063598cf21ca5b5de72d953995b48a17d64a2
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-workflow-notifications"></a>Setting Up Workflow Notifications
@@ -30,17 +30,17 @@ Many workflow responses are about notifying a user that an event has occurred th
 
 You set up different aspects of workflow notifications in the following places:  
 
-1.  For approval workflows, you set up the recipients of workflow notifications by filling a line in the **Approval User Setup** window for each user that takes part in the workflow. For example, if User 2 is specified in the **Approver ID** field on the line for User 1, then the approval request notification is sent to User 1. For more information, see [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
-2.  You set when and how users receive workflow notifications by filling the **Notification Schedule** window for each workflow user. For more information, see [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md).  
-3.  You set up the general content and layout of notifications, including notifications about overdue workflow responses, by setting up notification templates in the **Notification Templates** window. You can use the default templates provided with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-4.  You set up specific content and rules of a workflow notification when you create the workflow in question. You do this by selecting options in the **Workflow Response Options** window for the workflow response that represents the notification. For more information, see step 9 in [Create Workflows](across-how-to-create-workflows.md).  
+1.  For approval workflows, you set up the recipients of workflow notifications by filling a line on the **Approval User Setup** page for each user that takes part in the workflow. For example, if User 2 is specified in the **Approver ID** field on the line for User 1, then the approval request notification is sent to User 1. For more information, see [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
+2.  You set up when and how users receive workflow notifications by filling the **Notification Schedule** page for each workflow user. For more information, see [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md).  
+3.  If you want, you can customise the content of the email notification by modifying report 1320, Notification Email. For more information, see [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).  
+4.  You set up specific content and rules of a workflow notification when you create the workflow in question. You do this by selecting options on the **Workflow Response Options** page for the workflow response that represents the notification. For more information, see step 9 in [Create Workflows](across-how-to-create-workflows.md).  
 
 ## <a name="see-also"></a>See Also  
  [Set Up Approval Users](across-how-to-set-up-approval-users.md)   
  [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)   
  [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)   
  [Create Workflows](across-how-to-create-workflows.md)   
- [Manage Notification Templates](across-how-to-manage-notification-templates.md)   
+ [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)   
  [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)   
  [Set up Email](admin-how-setup-email.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   

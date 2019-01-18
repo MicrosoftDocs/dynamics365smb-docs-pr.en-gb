@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="configure-new-companies"></a>Configure New Companies
@@ -38,7 +38,7 @@ All the tables that you have designated for inclusion in the new company are imp
 ## <a name="to-apply-package-data"></a>To apply package data  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then select the related link.  
 2. Select a table that you want to modify data for, and then choose the **Apply Data** action. Choose the **Yes** button to confirm the application.
-3. To confirm that the data is now in the database and that the application has succeeded, return to the **Config. Worksheet** window and choose the **Database Data** action.  
+3. To confirm that the data is now in the database and that the application has succeeded, return to the **Config. Worksheet** page and choose the **Database Data** action.  
 
 > [!NOTE]  
 >  After you apply data, you can only see it in the database. It is no longer in the package.  
@@ -46,9 +46,9 @@ All the tables that you have designated for inclusion in the new company are imp
 ## <a name="to-modify-and-apply-package-data"></a>To modify and apply package data  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then select the related link.  
 2. Select a table that you want to modify data for, and then choose the **Package Data** action.  
-3. In the **Config. Package Records** window, make your modifications. For example, you can delete options that do not apply.  
+3. On the **Config. Package Records** page, make your modifications. For example, you can delete options that do not apply.  
 4. Choose the **Apply Data** action, and then choose the **OK** button.  
-5. To confirm that the data is now in the database and that the application has succeeded, return to the **Config. Worksheet** window and choose the **Database Data** action.  
+5. To confirm that the data is now in the database and that the application has succeeded, return to the **Config. Worksheet** page and choose the **Database Data** action.  
 
 ## <a name="to-locate-and-identify-a-configuration-error"></a>To locate and identify a configuration error  
 There are certain types of errors that may occur when you apply data to a database. The most common error is that required related tables were not included. You fix such errors in the configuration worksheet.
@@ -58,7 +58,7 @@ There are certain types of errors that may occur when you apply data to a databa
 
     Any table that has errors is highlighted. The number of package errors is displayed in the **No. of Package Errors** field.  
 
-3. Choose the **No. of Package Errors** field to open the **Config. Package Records** window, which lists the records with errors.  
+3. Choose the **No. of Package Errors** field to open the **Config. Package Records** page, which lists the records with errors.  
 
 ### <a name="to-fix-an-error"></a>To fix an error  
 1. Open the company that is based on your configuration package.  

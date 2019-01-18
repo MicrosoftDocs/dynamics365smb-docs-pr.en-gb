@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4b9fa6fb99ec68982a2869be2085de0588d76c85
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 83545421ec7539b214788d08d4f4b33c4bdb71d7
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="undo-assembly-posting"></a>Undo Assembly Posting
@@ -44,7 +44,7 @@ The following procedure describes how to undo posted assembly orders where the i
 ## <a name="to-undo-posting-of-an-assembly-order"></a>To undo posting of an assembly order  
 1.  To undo a fully or partially posted assembly order, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Assembly Orders**, and choose the related link.  
 
-    The **Posted Assembly Orders** window opens showing one or more posted assembly orders that are posted from the assembly order in question. Each partial posting creates a separate posted assembly order.  
+    The **Posted Assembly Orders** page opens showing one or more posted assembly orders that are posted from the assembly order in question. Each partial posting creates a separate posted assembly order.  
 2.  Open the posted assembly order that you want to undo, and then choose the **Undo Assembly** action.  
 
     If the posted assembly order that you want to undo relates to a fully posted assembly order that is now deleted, then you have the option to recreate it, typically because you want to reprocess it.  

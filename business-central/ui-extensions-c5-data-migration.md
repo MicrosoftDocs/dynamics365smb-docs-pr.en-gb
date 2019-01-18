@@ -13,10 +13,10 @@ ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a10c05116e97cdf000bd46258a9d67f4c9910c90
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5c89d841cdf0e92af4a3dc497cb9c807798e3924
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -103,11 +103,8 @@ There are just a few steps to export data from C5, and import it in [!INCLUDE[d3
 2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Migration**, and then choose **Data Migration**.  
 3. Complete the steps in the assisted setup guide. Make sure to choose **Import from Microsoft Dynamcis C5 2012** as the data source.  
 
-> [!Note]
-> Companies often add fields to customise C5 for their specific line of business. [!INCLUDE[d365fin](includes/d365fin_md.md)] does not migrate data from custom fields. Also, migration will fail if you have more than 10 custom fields.
-
 ## <a name="viewing-the-status-of-the-migration"></a>Viewing the Status of the Migration
-Use the **Data Migration Overview** window to monitor the success of the migration. The page shows information such as the number of entities that the migration will include, the status of the migration, and the number of items that have been migrated and whether they were successfull. It also shows the number of errors, lets you investigate what went wrong and, when possible, makes it easy to go to the entity to fix the issues. For more information, see the next section in this topic.  
+Use the **Data Migration Overview** page to monitor the success of the migration. The page shows information such as the number of entities that the migration will include, the status of the migration, and the number of items that have been migrated and whether they were successfull. It also shows the number of errors, lets you investigate what went wrong and, when possible, makes it easy to go to the entity to fix the issues. For more information, see the next section in this topic.  
 
 > [!Note]
 > While you are waiting for the results of the migration, you must refresh the page to display the results.
@@ -120,12 +117,12 @@ To help avoid double-posting to the general ledger, the following balance accoun
 * For items, we create a general posting setup where the adjustment account is the account specified as the inventory account on the inventory posting setup.  
 
 ## <a name="correcting-errors"></a>Correcting Errors
-If something goes wrong and an error occurs, the **Status** field will show **Completed with Errors**, and the **Error Count** field will show how many. To view a list of the errors, you can open the **Data Migration Errors** window by choosing:  
+If something goes wrong and an error occurs, the **Status** field will show **Completed with Errors**, and the **Error Count** field will show how many. To view a list of the errors, you can open the **Data Migration Errors** page by choosing:  
 
 * The number in the **Error Count** field for the entity.  
 * The entity, and then the **Show Errors** action.  
 
-In the **Data Migration Errors** window, to fix an error you can choose an error message, and then choose **Edit Record** to view the migrated data for the entity. If you have several errors to fix, you can choose **Bulk-Fix Errors** to edit the entities in a list. You still need to open individual records if the error was caused by a related entry though. For example, a vendor will not be migrated if an email address one of their contacts has an invalid format.
+On the **Data Migration Errors** page, to fix an error you can choose an error message, and then choose **Edit Record** to view the migrated data for the entity. If you have several errors to fix, you can choose **Bulk-Fix Errors** to edit the entities in a list. You still need to open individual records if the error was caused by a related entry though. For example, a vendor will not be migrated if an email address one of their contacts has an invalid format.
 
 After you fix one or more errors, you can choose **Migrate** to migrate only the entities you fixed, without having to completely restart the migration.  
 

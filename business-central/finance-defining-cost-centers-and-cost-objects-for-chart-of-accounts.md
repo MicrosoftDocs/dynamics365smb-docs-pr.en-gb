@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5da3967e99bf8a1d5628159a542885ffd1113a02
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b3ca863a9f4969046695e0cec16fedf6f5ac7aec
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Defining Cost Centres and Cost Objects for Chart of Accounts
@@ -39,11 +40,10 @@ For each general ledger account, you can define default dimension values in the 
 |Cost Object|No Code|Code Mandatory|  
 
 > [!NOTE]  
->  To make sure that the predefined cost centre and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup window.  
+>  To make sure that the predefined cost centre and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup page.  
 
 ## <a name="see-also"></a>See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
-[Set Up Cost Centres](finance-how-to-set-up-cost-centers.md)   
-[Set Up Cost Objects](finance-how-to-set-up-cost-objects.md)  
+[Setting Up Cost Accounting](finance-set-up-cost-accounting.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

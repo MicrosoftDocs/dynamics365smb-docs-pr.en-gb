@@ -12,10 +12,10 @@ ms.search.keywords: non-inventoriable
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: feef36443adef82329fe47573dd05cc6941b9d87
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-catalog-items"></a>Work with Catalogue Items
@@ -25,8 +25,8 @@ You can offer certain items to your customers for their convenience, which you d
 * From a sales order line of type **Item** with an empty **No** field, select a catalogue item. An item card is then automatically created for the catalogue item.
 
 > [!NOTE]  
-> You cannot select a catalogue item from the **Sales Invoice** window.<br /><br />
-> You can select a catalogue item from the **Sales Quote** window, but the catalogue item will not be converted to a normal item when you use the **Make Order** function.
+> You cannot select a catalogue item from the **Sales Invoice** page.<br /><br />
+> You can select a catalogue item from the **Sales Quote** page, but the catalogue item will not be converted to a normal item when you use the **Make Order** function.
 
 A catalogue item typically has the item number of the vendor who supplies it. To enable conversion of a catalogue item card to a normal item card, you must first set up how vendor item numbering is converted to your own item numbering.   
 
@@ -49,7 +49,7 @@ To enable conversion of a catalogue item card to a normal item card, you must fi
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>To convert a catalogue item to a normal item
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Catalogue Items**, and then choose the related link.
 2. Open the card for a catalogue item that you want to convert to a normal item.
-3. In the **Catalogue Item Card** window, choose the **Create Item** action.
+3. On the **Catalogue Item Card** page, choose the **Create Item** action.
 
 A new item card prefilled with information from the catalogue item and a relevant item template is created. You can then fill or edit fields on the new item card as necessary. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
@@ -60,7 +60,7 @@ A new item card prefilled with information from the catalogue item and a relevan
 4. Choose the **Line** action, and then choose the **Select Catalogue Items** action.
 
     The catalogue item is converted to a normal item. A new item card prefilled with information from the catalogue item and a relevant item template is created.
-5. In the **Catalogue Items** window, select the catalogue item that you want to sell, and then choose the **OK** button.
+5. On the **Catalogue Items** page, select the catalogue item that you want to sell, and then choose the **OK** button.
 6. When the sales order is complete, choose the **Post** action.
 
 You can then fill or edit fields on the new item card as necessary. For more information, see [Register New Items](inventory-how-register-new-items.md).

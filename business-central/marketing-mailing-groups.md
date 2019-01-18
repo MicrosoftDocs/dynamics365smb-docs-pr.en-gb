@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a7b9c39b1f213bf2b09ee24e3e6172df027e042c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7f40b94cef953b22684ddcc744de0cfbdb8e0f20
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Set Up Mailing Groups for Contacts
@@ -25,19 +26,19 @@ You can use mailing groups to identify groups of contacts that you want to recei
 Using mailing groups on contacts is a two-step process. First, you define the mailing group code. You only have to perform this step one time for each mailing group. Once you have a mailing group code, you can start to assign the code to contact companies.
 
 ## <a name="to-define-mailing-group-codes"></a>To define mailing group codes
-The mailing group code defines the type or category of the group, such as MOVE for office move, or GIFT for holiday gift. You can have several industry group codes. To define the industry groups, you use the **Mailing Groups** window.
+The mailing group code defines the type or category of the group, such as MOVE for office move, or GIFT for holiday gift. You can have several industry group codes. To define the industry groups, you use the **Mailing Groups** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Mailing Groups**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
 
 ## <a name="AssignMailGroupContact"></a> To assign mailing groups to a contact
 1. Open the contact.
-2. Choose the **Mailing Groups** action. The **Contact Mailing Groups** window opens.
+2. Choose the **Mailing Groups** action. The **Contact Mailing Groups** page opens.
 3. In the **Mailing Groups Code** field, select the mailing group that you want to assign.
 
 Repeat these steps to assign as many mailing groups as you want. You can also assign mailing groups from the contact list by following the same procedure.
 
-The number of mailing groups you have assigned to the contact is displayed in the **No. of Mailing Groups** field in the **Segmentation** section in the **Contact** window.
+The number of mailing groups you have assigned to the contact is displayed in the **No. of Mailing Groups** field in the **Segmentation** section on the **Contact** page.
 
 After you have assigned mailing groups to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 

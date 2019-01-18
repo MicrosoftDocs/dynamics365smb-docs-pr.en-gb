@@ -11,17 +11,17 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 037a1d507ec6705e1cc07db313fb7e78b86fed7e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: abe6155963054b942e5d70e27737da15bcb82220
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Move Items in Advanced Warehouse Configurations
 In advanced warehouse configurations, that is, locations with directed put-away and pick, warehouse movements between bins are performed by a senior employee preparing warehouse movements in the movement worksheet and then creating the warehouse movements for warehouse employees to perform.  
 
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>To move items with the warehouse movement worksheet
-The **Movement Worksheet** window has two functions that can assist in automatically filling in the lines. The first is the **Calculate Bin Replenishment** function. This function uses the bin rankings to suggest replenishment for high-ranking bins from low-ranking bins. The second is the **Get Bin Content** function, which fills in the worksheet lines with the entire bin contents of the bin or bins you specify.
+The **Movement Worksheet** page has two functions that can assist in automatically filling in the lines. The first is the **Calculate Bin Replenishment** function. This function uses the bin rankings to suggest replenishment for high-ranking bins from low-ranking bins. The second is the **Get Bin Content** function, which fills in the worksheet lines with the entire bin contents of the bin or bins you specify.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
 2.  Enter the warehouse movement information on the worksheet lines as appropriate.  

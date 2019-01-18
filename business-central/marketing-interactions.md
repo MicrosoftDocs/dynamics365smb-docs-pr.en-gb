@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Managing Interactions With Contacts
@@ -30,7 +30,7 @@ The relationship management area enables you to record all the interactions you 
 
 ##  <a name="setting-up-interaction-templates"></a>Setting up Interaction Templates
 Before you can create and record interactions, you must set up interaction templates. When creating interactions, you must specify the interaction templates they are based on. An interaction template is a model that defines the basic characteristics of an interaction.
-You set up an interaction template in the **Interaction Templates** window.
+You set up an interaction template on the **Interaction Templates** page.
 
 After you have entered information about the interaction template, you can create an attachment, for example, a Microsoft Word document. Repeat the steps to set up as many interaction templates as you want.  
 
@@ -41,13 +41,13 @@ There are two ways of recording interactions:
 * You can automatically record interactions when you perform actions in the application, for example, when you print an invoice, or quote. For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Viewing and Managing Recorded Interactions
-You can view all the recorded interactions that have not been deleted in the **Interaction Log Entries** window. You can open this window by:
+You can view all the recorded interactions that have not been deleted on the **Interaction Log Entries** page. You can open this page by:
 
 * Using the **Search for Page or Report** icon to search on **Interaction Log Entries**.
 * Choosing the **Interaction Log Entries** action on a contact or segment.
-  The **Interaction Log Entry** window contains the interactions you create manually and the interactions that the application records automatically.
+  The **Interaction Log Entry** page contains the interactions you create manually and the interactions that the application records automatically.
 
-In this window, you can:
+In this page, you can:
 
 * View the status of interactions.
 * Mark interactions as cancelled.

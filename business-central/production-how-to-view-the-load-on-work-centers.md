@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dd1bfde6dcffffa65ab58591d891a9f8b179a7eb
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 5a740651cd2413415076f2a29726793f0c36db02
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>View Load on Work and Machine Centres
-In the **Work Centre Card** and **Machine Centre Card** windows, you can view the shop floor load as a result of planned and released production orders.    
+In the **Work Centre Card** and **Machine Centre Card** pages, you can view the shop floor load as a result of planned and released production orders.    
 
 ## <a name="to-view-the-load-on-work-centers"></a>To view the load on work centres  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.  

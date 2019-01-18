@@ -11,14 +11,14 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 11/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-basic-settings"></a>Changing Basic Settings
-In the [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central") window, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The changes that you make will only affect your workspace; not the workspaces of other users.  
+In the [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central") page, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The changes that you make will only affect your workspace; not the workspaces of other users.  
 
 ## <a name="role-center"></a> Role Centre
 The Role Centre represents the home page, a starting screen that is designed for the needs of a specific role in an organisation. Depending on your role, the Role Centre gives you an overview of the business, your department, or your personal tasks. It also helps you navigate to your daily tasks and find work that is assigned to you.
@@ -30,7 +30,7 @@ The Role Centre represents the home page, a starting screen that is designed for
 ### <a name="to-change-role-center"></a>To change Role Centre
 The default Role Centre is **Business Manager**, but you can select another Role Centre that fits your needs better.
 1. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose **My Settings**.
-2. In the **My Settings** window, in the **Role Centre** field, select the Role Centre that you want to set as the standard. For example, select **Accountant**.
+2. On the **My Settings** page, in the **Role Centre** field, select the Role Centre that you want to set as the standard. For example, select **Accountant**.
 3. Choose the **OK** button.
 
 ## <a name="company"></a>Company
@@ -39,9 +39,9 @@ A company functions as a container for data in [!INCLUDE[d365fin](includes/d365f
 The default company is called CRONUS and contains demonstration data only.
 
 > [!TIP]  
->   If you want to display a different name for your company in the application (such as on the Role Centre), set the **Name** field in the **Company Information** window or the **Display Name** field in the **Companies** window.  
+>   If you want to display a different name for your company in the application (such as on the Role Centre), set the **Name** field on the **Company Information** page or the **Display Name** field on the **Companies** page.  
 
-## <a name="work-date"></a>Work date
+## <a name="work-date"></a>Work Date
 The default work date is usually today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not the current date.
 
 > [!TIP]  

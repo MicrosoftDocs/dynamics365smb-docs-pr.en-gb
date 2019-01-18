@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Set Up Shop Calendars
@@ -39,7 +39,7 @@ Even if your work centres do not work in different work shifts, enter at least o
 2.  On a blank line, enter a number in the **Code** field to identify the shop calendar.  
 3.  Describe the shop calendar in the **Description** field.  
 4.  Choose the **Working Days** action.
-5.  In the **Shop Calendar Working Days** window, define a complete work week, with the start and end times for each day.  
+5.  On the **Shop Calendar Working Days** page, define a complete work week, with the start and end times for each day.  
 
     In the **Work Shift Code** field, select one of the shifts that you previously defined. Add a line for every working day and every shift. For example:  
 
@@ -55,10 +55,10 @@ Even if your work centres do not work in different work shifts, enter at least o
 
     Any week days that you do not define in the shop calendar, such as Saturday and Sunday, are considered non-working days and will have zero available capacity in a work centre calendar.  
 
-    When all the working days of a week are defined, you can close the **Shop Calendar Working Days** window and proceed to enter holidays.  
+    When all the working days of a week are defined, you can close the **Shop Calendar Working Days** page and proceed to enter holidays.  
 
-6.  In the **Shop Calendars** window, select the shop calendar, and then choose the **Holidays** action.
-7. In the **Shop Calendar Holidays** window, define the holidays of the year by entering the start date and time, the end time, and description of each holiday on individual lines. For example:  
+6.  On the **Shop Calendars** page, select the shop calendar, and then choose the **Holidays** action.
+7. On the **Shop Calendar Holidays** page, define the holidays of the year by entering the start date and time, the end time, and description of each holiday on individual lines. For example:  
 
     04/07/14 0:00:00 23:59:00 Summer Holiday  
     05/07/14 0:00:00 23:59:00 Summer Holiday  
@@ -74,12 +74,12 @@ The shop calendar can now be assigned to a work centre to calculate the work sho
 2. Open the work centre that you want to update.  
 3. In the **Shop Calendar Code** field, select which shop calendar to use as the foundation for a work centre calendar.  
 4. Choose the **Calendar** action.  
-5. In the **Work Centre Calendar** window, choose the **Show Matrix** action.  
+5. On the **Work Centre Calendar** page, choose the **Show Matrix** action.  
 
-    The left side of the matrix window lists the work centres that are set up. The right side shows a calendar displaying the available capacity values for each working day in the defined unit of measure, for example, **480** minutes. Each line represents the calendar of one work centre.  
+    The left side of the matrix page lists the work centres that are set up. The right side shows a calendar displaying the available capacity values for each working day in the defined unit of measure, for example, **480** minutes. Each line represents the calendar of one work centre.  
 
     > [!NOTE]  
-    >  You can also select to view the capacity values for each week or month by changing the selection in the **View By** field in the **Work Centre Calendar** window.  
+    >  You can also select to view the capacity values for each week or month by changing the selection in the **View By** field on the **Work Centre Calendar** page.  
 
     To reflect the new shop calendar as a line on the selected work centre, it must first be calculated.  
 
@@ -97,13 +97,13 @@ Calendar entries are now created or updated displaying the available capacity fo
 The calculated work centre calendar will now define when and how much capacity is available at this work centre. This controls the detailed scheduling of operations performed at the work centre.  
 
 ## <a name="to-record-work-center-absence"></a>To record work centre absence  
-1.  In the **Work Centre Calendar** window, choose the **Show Matrix** action.
-2. In the **Work Centre Calendar Matrix** window, select the work centre and calendar day when the absence time should be recorded, and then choose the **Absence** action.  
-3.  In the **Absence** window, define the starting time, ending time, and description of that day’s absence. For example:  
+1.  On the **Work Centre Calendar** page, choose the **Show Matrix** action.
+2. On the **Work Centre Calendar Matrix** page, select the work centre and calendar day when the absence time should be recorded, and then choose the **Absence** action.  
+3.  On the **Absence** page, define the starting time, ending time, and description of that day’s absence. For example:  
 
     25/01/01 08:00 10:00 Maintenance  
 
-4.  Choose the **Update** action, and then close the **Absence** window.  
+4.  Choose the **Update** action, and then close the **Absence** page.  
 
 The capacity of the selected day has now decreased by the recorded absence time.  
 

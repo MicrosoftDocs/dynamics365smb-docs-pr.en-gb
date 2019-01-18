@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 429002d1eb6bfa487e5a21e54964ce33de175441
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 914196e61a4f1c3647fdca76133dbb5612ce87c8
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Combine Shipments on a Single Invoice
@@ -38,7 +38,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
 7. To post the invoice, choose the **Post** action.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>To automatically combine shipments on a single invoice  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Combine Shipments**, and then choose the related link. The batch job request window opens.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Combine Shipments**, and then choose the related link. The batch job request page opens.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Select the **Post Invoices** check box.  
 4.  Choose the **OK** button.  

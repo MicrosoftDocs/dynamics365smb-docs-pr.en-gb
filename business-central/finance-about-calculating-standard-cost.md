@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 9dfe8a2b30a2a11969d8d7937998611613602ae7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>About Calculating Standard Cost
@@ -81,7 +81,7 @@ You set up the rates for each time type for each machine or work centre on an in
 > [!NOTE]  
 >  While run time rates apply for each item unit that is produced, the setup time rates apply for each lot. Therefore, you must prorate the routing setup time for each operation over the lot size. You specify the lot size in the corresponding field on the **Ordering** FastTab of the item card.  
 
-To specify setup time on the routing for planning but not include this expense in the standard cost calculation, clear the **Cost Incl. Setup** field in the **Manufacturing Setup** window.  
+To specify setup time on the routing for planning but not include this expense in the standard cost calculation, clear the **Cost Incl. Setup** field on the **Manufacturing Setup** page.  
 
 On a single-level basis, this is the labour cost that is required to produce the finished production item and is specified on the production item's routing. On a multi-level basis, this is the capacity cost that is specified for each individually produced item that is included in the parent item's BOM.  
 

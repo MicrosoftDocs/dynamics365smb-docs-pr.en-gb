@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac684ffdb7bc6e9ddefa218e27babb7c9c5bb3ea
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 9708b248eb9e9f8f1f0e14f9b8d9f02ea84767fa
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="calculate-bin-replenishment"></a>Calculate Bin Replenishment
@@ -31,7 +31,7 @@ Finally, if you have defined your bulk storage bins with a bin type action **Put
 ## <a name="to-replenish-pick-bins"></a>To replenish pick bins  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Bin Replenishment** action to open the report request page.  
-3.  Fill in the batch job request window to limit the scope of the replenishment suggestions that will be calculated. For example, you might be concerned with particular items, zones, or bins.  
+3.  Fill in the batch job request page to limit the scope of the replenishment suggestions that will be calculated. For example, you might be concerned with particular items, zones, or bins.  
 4.  Choose the **OK** button. Lines are created for the replenishment movements that need to be performed according to the rules that have been set up for the bins and bin contents, that is, items in bins.  
 5.  If you want to perform all the suggested replenishments, choose the **Create Movement** action. Employees can now find instructions in the **Movements** menu item, carry them out and register them.  
 6.  If you only want some of the suggestions to be performed, delete the lines that are less important and then create a movement.  

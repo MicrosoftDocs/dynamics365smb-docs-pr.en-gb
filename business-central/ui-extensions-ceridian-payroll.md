@@ -13,16 +13,16 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7df17702abafd834976527978f1caadffb590ab4
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: ed3ba9f10ce24c97760dce972aa96134f1bc1119
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="the-ceridian-payroll-extension"></a>The Ceridian Payroll Extension
 To account for salary payments and related transactions, you must import and post financial transactions made by your payroll provider to the general ledger.
 
-To do this, you first import a file that you receive from the payroll provider into the **General Journal** window. Then you map the external accounts in the payroll file to the relevant G/L accounts. Lastly, you post the payroll transactions according to the account mapping. For more information, see [Import Payroll Transactions](finance-how-import-payroll-transactions.md).
+To do this, you first import a file that you receive from the payroll provider into the **General Journal** page. Then you map the external accounts in the payroll file to the relevant G/L accounts. Lastly, you post the payroll transactions according to the account mapping. For more information, see [Import Payroll Transactions](finance-how-import-payroll-transactions.md).
 
 The Ceridian Payroll extension allows you to import payroll transactions from the Ceridian HR/Payroll (US) and Ceridian PowerPay (Canada) services.
 

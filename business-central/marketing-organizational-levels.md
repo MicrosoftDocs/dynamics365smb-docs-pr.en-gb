@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6680a5dedcbedc3ed7e430c4290871d5fbaaf9ad
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 44da3ed8f78dd685000e5ec27d43e1bb3a5959ba
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="set-up-organizational-levels-for-contact-persons"></a>Set Up Organisational Levels for Contact Persons
@@ -25,7 +26,7 @@ You can use organisational levels on your contacts to specify which position the
 Using organisational levels on contacts is a two-step process. First, you define the organisational level code. You only have to perform this step one time for each organisational level. Once you have an organisational level code, you can start to assign the code to contact persons.
 
 ## <a name="to-define-an-organizational-level-code"></a>To define an organisational level code
-The organisational level code defines the type or category of the organisational level, such a CEO  or CFO. You can have several organisational level codes. To define the organisational level, you use the **Organisational Levels** window.
+The organisational level code defines the type or category of the organisational level, such a CEO  or CFO. You can have several organisational level codes. To define the organisational level, you use the **Organisational Levels** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Organisational Levels**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.

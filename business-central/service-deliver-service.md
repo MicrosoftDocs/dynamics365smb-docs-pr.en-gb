@@ -13,16 +13,16 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9a4debcccf673ca4b2f21ac35304e18c2f571d24
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="delivering-service"></a>Delivering Service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  
   
-Another way to review pending service orders is to use the **Service Tasks** window. In this view of your service obligations, you can see where in your service workflow an order is and change that status to reflect interactions with your customer.  
+Another way to review pending service orders is to use the **Service Tasks** page. In this view of your service obligations, you can see where in your service workflow an order is and change that status to reflect interactions with your customer.  
   
 The following table describes a sequence of tasks, with links to the topics that describe them.   
 

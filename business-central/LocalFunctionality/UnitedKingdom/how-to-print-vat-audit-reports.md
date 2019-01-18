@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b5863e9bf39243d14c1969b4c29a51a79c8fc2db
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: edf2c9d9095b251b580d9595e39994b256df0c78
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-vat-audit-reports"></a>Print VAT Audit Reports
@@ -28,7 +28,7 @@ All vendors must export the data required for auditing in a Content Separated Va
 ## <a name="to-print-the-vat-audit-report"></a>To print the VAT audit report  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Audit**, and then choose the related link.  
-2.  In the **VAT Audit** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  On the **VAT Audit** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -40,7 +40,7 @@ All vendors must export the data required for auditing in a Content Separated Va
     |**Export VAT Entries**|Select to export the entries in the **VAT Entry** table.|  
 
     > [!NOTE]  
-    >  You must select at least one check box in this window.  
+    >  You must select at least one check box in this page.  
 
 3.  To export the file, choose the **OK** button.  
 
@@ -49,7 +49,7 @@ All vendors must export the data required for auditing in a Content Separated Va
 ## <a name="to-print-the-vat-entry-exception-report"></a>To print the VAT entry exception report  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Entry Exception Report**, and then choose the related link.  
-2.  In the **VAT Entry Exception Report** window, on the **Options** FastTab, fll in the fields as described in the following table.  
+2.  On the **VAT Entry Exception Report** page, on the **Options** FastTab, fll in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -62,7 +62,7 @@ All vendors must export the data required for auditing in a Content Separated Va
     |**VAT Rate % Difference**|Specify the maximum VAT rate difference.|  
 
     > [!NOTE]  
-    >  You must select at least one check box in this window.  
+    >  You must select at least one check box in this page.  
 
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 

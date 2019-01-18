@@ -12,10 +12,10 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9a2d7999f3a4ecc3a597b6641ee1db69d754de4c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 803d755a7caa470b97bf606f0f8916d0135d047e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -50,14 +50,14 @@ The Image Analyzer extension is built-in to [!INCLUDE[d365fin](includes/d365fin_
 * Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose **Image Analysis Setup**. Choose the **Enable Image Analyzer** check box, and then complete the steps in the assisted setup guide.  
 
     > [!TIP]  
-    > The **Image Analysis Setup** window is also where you can change the degree of confidence for attribute suggestions. For example, if you want to require a greater degree of confidence, you can enter a higher percentage.
+    > The **Image Analysis Setup** page is also where you can change the degree of confidence for attribute suggestions. For example, if you want to require a greater degree of confidence, you can enter a higher percentage.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>To analyse an image of an item
 The following steps describe how to analyse an image that was imported before you enabled the Image Analyser extension.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Choose the item, and then choose the **Analyze Picture** action.  
-3. The **Image Analyser Attributes** window displays the detected attributes, the confidence level, and other details about the attribute. Use the **Action to perform** options to specify what to do with the attribute.  
+3. The **Image Analyzer Attributes** page displays the detected attributes, the confidence level, and other details about the attribute. Use the **Action to perform** options to specify what to do with the attribute.  
 
     > [!TIP]  
     > You can add the name of the attribute to the item description by choosing **Add to item description**. For example, this can be useful for quickly adding detail.  

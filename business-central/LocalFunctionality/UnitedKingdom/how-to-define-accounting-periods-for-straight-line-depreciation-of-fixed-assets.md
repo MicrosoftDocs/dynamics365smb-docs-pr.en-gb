@@ -10,10 +10,10 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3a5503e6afdf2b575a31abb0dffc3b8825c03c53
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: d1e2fd799c57c43c5b769f59168d21c1ec311242
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="define-accounting-periods-for-straight-line-depreciation-of-fixed-assets"></a>Define Accounting Periods for Straight-Line Depreciation of Fixed Assets
@@ -25,7 +25,7 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
 ### <a name="to-define-accounting-periods-to-calculate-straight-line-depreciation"></a>To define accounting periods to calculate straight line depreciation  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.  
-2.  To open a new **Depreciation Book Card** window, on the **Home** tab, choose **New**.  
+2.  To open a new **Depreciation Book Card** page, on the **Home** tab, choose **New**.  
 3.  On the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 5.  Choose the **OK** button.  
 

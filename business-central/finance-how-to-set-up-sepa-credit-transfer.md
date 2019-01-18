@@ -10,15 +10,16 @@ ms.workload: na
 ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 64abd01caa2a2f6845bb3d54c7721333a0a360b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 103ebe376d3384eab119617b903f9a803f248462
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-sepa-credit-transfer"></a>Set Up SEPA Credit Transfer
-From the **Payment Journal** window, you can export payments to a file for upload to your electronic bank for processing of the related money transfers. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.  
+From the **Payment Journal** page, you can export payments to a file for upload to your electronic bank for processing of the related money transfers. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.  
 
 To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[d365fin](includes/d365fin_md.md)] , you can set up a data exchange definition by using the data exchange framework. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -26,7 +27,7 @@ Before you can process payment electronically by exporting payment files in the 
 
 * Set up the bank account in question to handle the SEPA Credit Transfer format  
 * Set up vendor cards to process payments by exporting files in the SEPA Credit Transfer format  
-* Set up the related general journal batch to enable payment export from the **Payment Journal** window  
+* Set up the related general journal batch to enable payment export from the **Payment Journal** page  
 * Connect the data exchange definition for one or more payment types with the relevant payment method or methods  
 
 ### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>To set up a bank account for SEPA Credit Transfer  
@@ -45,21 +46,19 @@ Before you can process payment electronically by exporting payment files in the 
 3. On the **Payment** FastTab, in the **Payment Method Code** field, choose **BANK**.  
 4. In the **Preferred Bank Account** field, choose the bank to which the money will be transferred when it is processed by your electronic bank.  
 
-     The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field in the **Payment Journal** window.  
+     The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field on the **Payment Journal** page.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>To set the payment journal up to export payment files  
 1. In the **Search** box, enter **Payment Journals**, and then choose the related link.  
 2. Open the payment journal that you use to process payments by exporting files in the SEPA Credit Transfer format.  
 3. In the **Batch Name** field, choose the drop\-down button.  
-4. In the **General Journal Batches** window, on the **Home** tab, in the **Manage** group, choose **Edit List**.  
+4. On the **General Journal Batches** page, on the **Home** tab, in the **Manage** group, choose **Edit List**.  
 5. On the line for the payment journal that you will use to export payments, select the **Allow Payment Export** check box.  
 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>To connect the data exchange definition for one or more payment types with the relevant payment method or methods  
 1. In the **Search** box, enter **Payment Methods**, and then choose the related link.  
-2. In the **Payment Methods** window, select the payment method that is used to export payments from, and then choose the **Pmt. Export Line Definition** field.  
-3. In the **Pmt. Export Line Definitions** window, select the code that you specified in the **Code** field on the **Line Definitions** FastTab in step 4 in the “To describe the formatting of lines and columns in the file” section in the [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) procedure.  
-
-    The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).  
+2. On the **Payment Methods** page, select the payment method that is used to export payments from, and then choose the **Pmt. Export Line Definition** field.  
+3. On the **Pmt. Export Line Definitions** page, select the code that you specified in the **Code** field on the **Line Definitions** FastTab in step 4 in the “To describe the formatting of lines and columns in the file” section in the [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) procedure.  
 
 ## <a name="see-also"></a>See Also  
 [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  

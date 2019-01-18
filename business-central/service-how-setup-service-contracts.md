@@ -13,10 +13,10 @@ ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 35dcecb6b3510101026202cb6548aa936d74b25c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a965721aef3769aa1e794c0edb9ffa48faf99541
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -45,7 +45,7 @@ Before you can work with contracts, you must set up the following:
 2. Create a new service contract template.  
 3. In the **No.** field, enter a number for the contract template.  
   
-     Alternatively, if you have set up number series for contract templates in the **Service Mgt. Setup** window, you can press the Enter key to enter the next available contract template number. Fill in the other fields if appropriate.  
+     Alternatively, if you have set up number series for contract templates on the **Service Mgt. Setup** page, you can press the Enter key to enter the next available contract template number. Fill in the other fields if appropriate.  
   
 4. On the **Invoice** FastTab, fill in the **Serv. Contract Acc. Group Code** field, the **Invoice Period**, and so on. Fill in the other fields if appropriate.  
 5. Choose the **Service Discounts** action to add contract discounts.  

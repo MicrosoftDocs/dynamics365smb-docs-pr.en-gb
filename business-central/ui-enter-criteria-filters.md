@@ -11,10 +11,10 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1ee115c258c25d8b695a0394dbaa11247b9b8ab
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f0cdb045d314a630e795ec744f2f4470d930835a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sorting, Searching, and Filtering Lists
@@ -123,7 +123,7 @@ A filter pane is divided in three sections: **Views**, **Filter list by**, and *
   To add a filter, select **+ Filter**, select one of the predefined dimensions, and then add the filter criteria in the box.
 
   > [!NOTE]
-  > Filters in the **Filter totals by** section are controlled by FlowFilters in the page design. For technical information, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+  > Filters in the **Filter totals by** section are controlled by FlowFilters on the page design. For technical information, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 
 ### <a name="entering-filter-criteria-in-the-filter-pane"></a>Entering filter criteria in the filter pane

@@ -12,17 +12,18 @@ ms.workload: na
 ms.search.keywords: relationship, CRM, integration, couple
 ms.date: 10/01/2018
 ms.author: edupont
+redirect_url: marketing-create-contact-companies
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f377236158ae1035fd40dd15342d76822aa91ac8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 84cb3a6a96826ad5e3d1824ed5182dfcd972d0b3
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synchronising Contacts With Customers, Vendors, and Bank Accounts
 If some of your contacts are also customers, vendors, or bank accounts, you can synchronise the contact information with the related customer, vendor, or bank account. Synchronisation makes information that is common between contacts and customers, vendors, or bank account the same.  
 
-Before you can synchronise your contacts with customers, vendors, or bank accounts, you must specify a business relation code for customers, vendors, and bank accounts in the **Marketing Setup** window. For more information, see [Setting Up Relationship Management](marketing-setup-marketing.md).
+Before you can synchronise your contacts with customers, vendors, or bank accounts, you must specify a business relation code for customers, vendors, and bank accounts on the **Marketing Setup** page. For more information, see [Setting Up Relationship Management](marketing-setup-marketing.md).
 
 ## <a name="different-ways-to-synchronize-contacts-with-customers-vendors-and-bank-accounts"></a>Different Ways to Synchronise Contacts with Customers, Vendors and Bank Accounts
 You can synchronise your contacts with customers, vendors, or bank accounts by three methods:

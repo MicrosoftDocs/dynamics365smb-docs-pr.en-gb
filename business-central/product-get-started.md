@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4eed11706d890a1b83af7fcb70fe1457a787ba3a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Getting Started with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -39,14 +39,14 @@ For more information, see [Working with [!INCLUDE[d365fin](includes/d365fin_md.m
 When you are ready to start working and you want to look at some of the business processes that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports, see [Business Functionality](across-business-functionality.md). For an overview of current capabilities and what is coming, take a look at our roadmap at [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-role-centers"></a>The Role Centres
-The Role Centre window is based on a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Role Centre by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") in the top right corner,  choosing **My Settings**, and then the Role Centre to explore. Sign in again to apply the change. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).
+The Role Centre page is based on a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Role Centre by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") in the top right corner,  choosing **My Settings**, and then the Role Centre to explore. Sign in again to apply the change. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).
 
-Each Role Centre provides a **Setup and Extensions** button. Here you have access to a list of assisted setup that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup windows where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Each Role Centre provides a **Setup and Extensions** button. Here you have access to a list of assisted setup that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
 >   The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the Essential experience. For more information, see [Changing Which Features are Displayed](ui-experiences.md).  
 
-In the **Assisted Setup** window, you will find the following with the **Essential** experience:
+On the **Assisted Setup** page, you will find the following with the **Essential** experience:
 
 | Assisted Setup | Description |
 | --- | --- |

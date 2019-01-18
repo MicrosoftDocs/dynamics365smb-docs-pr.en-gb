@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 681540708d9807aafebcf5701232a282a189e47b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b4c3d7350ee6557a68c7efd087a463277aec7fd3
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Updating Report or Document Layouts
@@ -32,7 +32,7 @@ Not all report dataset changes can be automatically updated in the report layout
   
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.  
   
-2.  In the **Report Layouts** window, if you want to update a specific report, select the layout from the list, and then choose the **Update Layout** action. Or, if you want to update all custom report layouts for the company, choose the **Update All Layouts** action.  
+2.  On the **Report Layouts** page, if you want to update a specific report, select the layout from the list, and then choose the **Update Layout** action. Or, if you want to update all custom report layouts for the company, choose the **Update All Layouts** action.  
 
 If no errors occur, then the updates is applied to the report layouts. If errors occur, then a message that contains the errors appears. You will then have to manually edit the custom report layout to fix the error. For more information, see [Fixing Errors](ui-update-report-layouts.md#FixErrors).  
 
@@ -40,9 +40,9 @@ If no errors occur, then the updates is applied to the report layouts. If errors
   
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
   
-2.  In the **Report Layout Selection** window, choose the **Test Layout Updates** action.  
+2.  On the **Report Layout Selection** page, choose the **Test Layout Updates** action.  
   
- Chnages to the report layouts are tested but not applied to the actual report layouts. A **Report Layout Update Log** window appears that provides the status a potential updates for each report layout. If there are errors for a report layout, you can access the report layout directly for editing from the message to fix any issues. For more information, see [Fixing Errors](ui-update-report-layouts.md#FixErrors).  
+ Chnages to the report layouts are tested but not applied to the actual report layouts. A **Report Layout Update Log** page appears that provides the status a potential updates for each report layout. If there are errors for a report layout, you can access the report layout directly for editing from the message to fix any issues. For more information, see [Fixing Errors](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Limitations of the Custom Report Layout Update  
  There are several types of changes that the automatic update can apply to custom report layouts, for example, a field that is used in the layout has been removed from the report data set. However, the automatic update cannot handle the following changes to a report dataset.  

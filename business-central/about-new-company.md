@@ -11,17 +11,17 @@ ms.search.keywords: company, setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: ce2fd5c5027fc54c92bf5ffc63b70c84d81f26b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
 ms.contentlocale: en-gb
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the containers for business data that belongs to a business unit or legal entity is referred to as a *company*. When you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)], you are given a demonstration company and an empty company, *My Company*. Switching between the companies is easy - just got to **My Settings** and move to the other company. But you can also create new companies in [!INCLUDE[d365fin](includes/d365fin_md.md)], depending on your business needs. When you create a new company, an assisted setup guide helps you get the basics in place. Then, you can import relevant data from your legacy system or another company in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Create New Company
-If you decide to add a company to your [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use the **Create New Company** assisted setup wizard to get you started. The setup wizard is available from the **Companies** window and from the lookup in the **Company** field in **My Settings**.  
+If you decide to add a company to your [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use the **Create New Company** assisted setup wizard to get you started. The setup wizard is available from the **Companies** page and from the lookup in the **Company** field in **My Settings**.  
 
 The setup wizard offers three templates:
 
@@ -36,7 +36,7 @@ The setup wizard offers three templates:
 If you want to get started easily with a new company, choose **Production - Setup Data Only** and then import your own business data, such as customers, items, and vendors. Choose the **New** template if you want to set everything up from scratch. In that case, you can use the **Company Setup** assisted setup guide to help you get started with essential setup data.  
 
 > [!NOTE]  
->   When you create a new company, it takes a few minutes before you can access it in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The setup status in the **Companies** window shows when the new company is ready for you. Then, you can switch to the new company by using **My Settings**.  
+>   When you create a new company, it takes a few minutes before you can access it in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The setup status on the **Companies** page shows when the new company is ready for you. Then, you can switch to the new company by using **My Settings**.  
 
 During your 30 day trial, you can create any number of new companies, but they will only be available during your trial. For more information, contact your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner.  
 

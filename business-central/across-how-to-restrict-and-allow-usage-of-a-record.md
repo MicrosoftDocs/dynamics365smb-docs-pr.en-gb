@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: addbb1436b49cd3f03697f00541751992d0a773e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a95eaa2f0933c6724b1e9158c675ad1a27e0ba2a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Restrict and Allow Usage of a Record
@@ -32,9 +32,9 @@ The following procedure describes how to restrict purchase orders from being pos
 
 ## <a name="to-create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders"></a>To create a workflow step that restricts posting of unapproved purchase orders  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
-2. In the **Workflows** window, create a new workflow named Purchase Order Approval Workflow. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
+2. On the **Workflows** page, create a new workflow named Purchase Order Approval Workflow. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 3. Choose the **Copy From Workflow Template** action.  
-4. Choose the **Source Workflow Code** field, and then, in the **Workflow Templates** window, choose the Purchase Invoice Approval Workflow workflow template.  
+4. Choose the **Source Workflow Code** field, and then, on the **Workflow Templates** page, choose the Purchase Invoice Approval Workflow workflow template.  
 
      Notice that the first two workflow steps are about restricting and then allowing usage of purchase invoices. Proceed to change the event condition on the first step of the new workflow to specify that it applies to purchase orders.  
 5. On the **Workflow Steps** FastTab, choose the **Event Conditions** field, and then, for the **Document Type** filter, select **Order**.  

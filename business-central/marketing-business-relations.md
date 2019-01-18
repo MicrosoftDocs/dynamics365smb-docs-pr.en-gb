@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-marketing
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a950b87b7e7947de1602db76805a0b1f41d8274
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33743655f682aae9e02393aa68d04dffd334357b
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-business-relations-on-contact-companies"></a>Setting Up Business Relations on Contact Companies
@@ -28,7 +29,7 @@ Using business relations on contacts is a two-step process. First, you define th
 >   If you plan to synchronise your contacts with vendors, customers, or bank accounts in other parts of the application, you may want to set up a business relation for them.
 
 ## <a name="to-define-a-business-relation-code"></a>To define a business relation code
-The business relation code defines a category or type of the business relationship, such as BANK or Law. You can have several business relation codes. To define the business relation, you use the **Business Relations** window.
+The business relation code defines a category or type of the business relationship, such as BANK or Law. You can have several business relation codes. To define the business relation, you use the **Business Relations** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Relations**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
@@ -39,12 +40,12 @@ You cannot assign business relations to a contact person - only companies.
 1. Open the contact.
 2. Choose the **Company** action, and then the **Business Relations** action.
 
-    The **Contact Business Relations** window opens.
+    The **Contact Business Relations** page opens.
 3. In the **Business Relation Code** field, select the business relation you want to assign.
 
 Repeat these steps to assign as many business relations as you want. You can also assign business relations from the contact list by following the same procedure.
 
-The number of business relations you have assigned to the contact is displayed in the **No. of Business Relations** field in the **Segmentation** section in the **Contact** window.
+The number of business relations you have assigned to the contact is displayed in the **No. of Business Relations** field in the **Segmentation** section on the **Contact** page.
 
 After you have assigned business relations to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac8340eae21d4af2ad8853c1e6412f410953480c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convert Service Contracts that Include VAT Amounts
@@ -49,7 +49,7 @@ The following procedure describes how to create a credit memo that only includes
 ### <a name="to-create-contract-expiration-dates-in-contract-lines"></a>To create contract expiration dates in contract lines  
 The following procedure describes how to create new contracts by working with contract expiration dates in service contract lines.  
 
-1. In the **Service Contract** window, set the contract expiration date to **30.06.2017**.  
+1. On the **Service Contract** page, set the contract expiration date to **30.06.2017**.  
 2. Choose the **Create Credit Memo** action to automatically create a credit memo for July 2017 to December 2017.  
 3. Because the contract has expired, you need to create a new contract for the period with the new VAT rate for July 1, 2017 to December 31, 2017.  
 
@@ -59,7 +59,7 @@ The following procedure describes how to create a new credit memo using the **Ge
 1. Run the VAT rate change tool on July 1, 2017. The general product posting group or the VAT product posting group is changed. For more information, see [Work with VAT on Sales and Purchases](finance-work-with-vat.md).  
 2. After running the VAT rate change tool, enter a contract expiration date for the service contract. You can now delete the service contract line and create a new line that is identical to the old one.  
 3. Create a new invoice for the period of January 2017 to December 2012 using the new VAT rate.  
-4. To create another credit memo, in the **Service Credit Memos** window, choose **New** to create a new service credit memo.  
+4. To create another credit memo, on the **Service Credit Memos** page, choose **New** to create a new service credit memo.  
 5. Choose the **Get Prepaid Contract Entries** action.  
 6. After the conversion is complete, VAT and service ledger entries will be correct.  
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 605de1d0acbbe345c3568fd4328d3e649feaef9f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2fec578da84a190535e5ebf74972aee8ff7e3b7a
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replan or Refresh Production Orders Directly
@@ -41,7 +41,7 @@ You can either insert the production order lines manually or use the function th
 4.  Add a component, which is a produced item or subassembly.  
 5.  From the production order, choose the **Replan** action.  
 
-    In the **Replan Production Order** window, proceed to define how and what to replan.  
+    On the **Replan Production Order** page, proceed to define how and what to replan.  
 6.  In the **Scheduling Direction** field, select one of the following options.  
 
     |Option|Description|  
@@ -68,7 +68,7 @@ If you have amended production order lines, components, or routing lines, you mu
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
 2.  Choose the **New** action. For more information, see [Create Production orders](production-how-to-create-production-orders.md).  
 3.  Choose the **Refresh** action.
-4. In the **Refresh Production Order** window, select one of the following options:
+4. On the **Refresh Production Order** page, select one of the following options:
 
     |Option|Description|  
     |----------------------------------|---------------|---------------------------------------|  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c6e661d36363a35248785a9f97620b2ca7ccf177
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 12d192338fc683cd1de8aa8092b781a559872df1
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Set Up Work Centres and Machine Centres
@@ -85,7 +85,7 @@ You must set up production resources that you regard as critical and mark them t
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] does not support detailed shop floor control. It plans for a feasible utilisation of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimisation rules.
 
-In the **Capacity-Constrained Resources** window, you can make setup that avoids overload of specific resources and ensure that no capacity is left unallocated if it could increase the turn-around time of a production order. In the **Dampener (% of Total Capacity)** field, you can add dampener time to resources to minimise operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.
+On the **Capacity-Constrained Resources** page, you can make setup that avoids overload of specific resources and ensure that no capacity is left unallocated if it could increase the turn-around time of a production order. In the **Dampener (% of Total Capacity)** field, you can add dampener time to resources to minimise operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.
 
 When planning with capacity-constrained resources, the system ensures that no resource is loaded above its defined capacity (critical load). This is done by assigning each operation to the nearest available time slot. If the time slot is not big enough to complete the entire operation, then the operation will be split into two or more parts placed in the nearest available time slots.
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Set Up Base Calendars
@@ -27,7 +27,7 @@ You can assign a base calendar to your company and its business partners, such a
 2.  Choose the **New** action.  
 3.  Fill in the **Code** field.  
 4. Choose the **Maintain Base Calendar Changes** action.
-5. In the **Base Calendar Changes** window, use the **Recurring System** field to mark a particular date or day as a recurring nonworking day. You can select either the **Annual Recurring** or **Weekly Recurring** option.  
+5. On the **Base Calendar Changes** page, use the **Recurring System** field to mark a particular date or day as a recurring nonworking day. You can select either the **Annual Recurring** or **Weekly Recurring** option.  
 
     If you select **Annual Recurring**, you must also enter the relevant date in the **Date** field.  
 
@@ -37,7 +37,7 @@ When you make an entry, the **Nonworking** field is selected. You can choose to 
  When you return to the base calendar card, you will observe that the nonworking day entries that you made have been updated. These entries now appear in red and the **Nonworking** field is selected.  
 
 > [!NOTE]  
->  When setting up a new base calendar, you can select and copy lines from an existing calendar. You do this in the relevant **Base Calendar Changes** window.  
+>  When setting up a new base calendar, you can select and copy lines from an existing calendar. You do this in the relevant **Base Calendar Changes** page.  
 
 > [!IMPORTANT]  
 >  Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.
@@ -57,7 +57,7 @@ Any base calendar defined for the vendor or the location affects how the dates a
 > [!Important]
 > If your location uses a significantly different calendar than your vendors do, then it is important that you set up specific calendars for those vendors, to calculate optimal vendor lead times. For information about how to set up vendor calendars, see the "To assign a base calendar" section.
 
-The contents of the **Lead Time Calculation** field is copied from either the item card or the SKU card, if the lead time is defined for the item, or in the **Item Vendor Catalogue** window, if the lead time is defined for the vendor.
+The contents of the **Lead Time Calculation** field is copied from either the item card or the SKU card, if the lead time is defined for the item, or on the **Item Vendor Catalogue** page, if the lead time is defined for the vendor.
 
 ## <a name="to-customize-a-calendar"></a>To customise a calendar
 The main task in customizing a base calendar for your company, or one of its business partners, is to enter any changes to working and nonworking day status.
@@ -68,7 +68,7 @@ The following procedure uses the case of the location as an example. Note that a
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Open the location that you want to update, and then select the **Customised Calendar** field. Note that a calendar must be selected in the **Base Calendar Code** field.
-3. In the **Customised Calendar Entries** window opens, choose the **Maintain Customised Calendar Changes** action.
+3. On the **Customised Calendar Entries** page opens, choose the **Maintain Customised Calendar Changes** action.
 4. In the **Customised Calendar Changes**, add lines for customised calendar entries.
 
     When you enter a line, the **Nonworking** check box is selected. You can clear the check box if you want to change the status to a working day.
@@ -79,7 +79,7 @@ The following procedure uses the case of the location as an example. Note that a
 
 5. Choose the **OK** button.
 
-In the **Customised Calendar Entries** window, you will observe that the date entries are updated with the changes that you made.
+On the **Customised Calendar Entries** page, you will observe that the date entries are updated with the changes that you made.
 
 On the Location card, you will observe that the **Customised Calendar** field contains **Yes**, indicating that a customised calendar has been set up.
 
@@ -100,7 +100,7 @@ Base calendars are assigned to your own company, customers, vendors, locations, 
 -   On the **Company Information** and **Customer** cards, the base calendar is assigned on the **Shipping** FastTab.  
 -   On the **Vendor** card, the base calendar is assigned on the **Receiving** FastTab.  
 -   On the **Location** card, the base calendar is assigned on the **Warehouse** FastTab.  
--   In the **Shipping Agents** window, the base calendar is assigned in the **Shipping Agent Services** window.  
+-   On the **Shipping Agents** page, the base calendar is assigned on the **Shipping Agent Services** page.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2.  Open the **Customer** card for whom you will assign a base calendar.  

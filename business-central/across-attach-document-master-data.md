@@ -1,6 +1,6 @@
 ---
-title: Attach files to master data | Microsoft Docs
-description: Add pictures, documents, or images to customers, vendors and other master records, and let them be attached to invoices as well.
+title: Attach Files to Cards and Documents | Microsoft Docs
+description: You can attach pictures, documents, and other type of files to all cards, such as the item card and job card, and you can attach files to all types of sales and purchase documents.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,23 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12955b6c85544147dd003241e658b9ef08a4b8b5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 02a590e3389e2453f146db6bac1c487c039f5177
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="attaching-documents-to-master-data"></a>Attaching Documents to Master Data
-You can attach pictures, documents, or images to items, customers, vendors, jobs, and resources. Optionally, let the attachments be attached to sales and purchase documents for that master record as well.  
+# <a name="attaching-files-to-cards-and-documents"></a>Attaching Files to Cards and Documents
+You can attach pictures, documents, and other types of files to all cards, such as the item card and job card, and you can attach files to all types of sales and purchase documents.
 
-## <a name="adding-attachments"></a>Adding Attachments
+## <a name="to-attach-a-file-to-a-sales-order"></a>To attach a file to a sales order.
+The following procedure is based on a sales order. The steps are similar for all other sales and purchase documents and for all cards.
 
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+2. Open the sales that you want to attach a file to.
+3. Choose the **Attachments** action.
+4. On the **Attached Documents** page, in the **Attachment** field, choose the **Select File** button.
+5. Select a file from any location, and then choose the **Open** button.
 
 ## <a name="see-also"></a>See Also
-[Register New Customers](sales-how-register-new-customers.md)  
-[Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Register New Items](inventory-how-register-new-items.md)  
+[Sell Products](sales-how-sell-products.md)
 

@@ -13,14 +13,14 @@ ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ceccc02c841044803337ac53f378451d8f315484
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="working-with-reports"></a>Working with Reports
-A report gathers information based on a specified set of criteria, and organises and presents the information in an easy-to-read, printable format. There are many reports that you can access throughout the application. The reports typically provide information relative to the context of the page you are on. For example, the **Customer** window includes reports for the top 10 customers and the sales statistics, and more.
+A report gathers information based on a specified set of criteria, and organises and presents the information in an easy-to-read, printable format. There are many reports that you can access throughout the application. The reports typically provide information relative to the context of the page you are on. For example, the **Customer** page includes reports for the top 10 customers and the sales statistics, and more.
 
 You can find reports in the **Reports** tab on selected pages, or you can use search ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") to find reports by name.
 
@@ -58,7 +58,7 @@ Use the menu bar to:
 
 -   Move through pages
 -   Zoom in and out
--   Resize to fit the window
+-   Resize to fit the page
 -   Select text
 
     You can copy text from a report, and then paste it somewhere else, like a page in [!INCLUDE[d365fin](includes/d365fin_md.md)] or Microsoft Word.  Using a mouse, for example, you press and hold where you want to start, and then move the mouse to select one or more words, sentences, or paragraphs. You can then press the right mouse button, and select **Copy**. You can the paste the selected text where ever you want it.

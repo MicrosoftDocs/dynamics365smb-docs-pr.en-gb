@@ -11,10 +11,10 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6a13eca9f8ad83b82e4b281c9564bdfd0c66f4fb
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -40,7 +40,7 @@ You must have a subscription to [!INCLUDE[d365fin](includes/d365fin_md.md)] to b
 6. At the top of the Role Centre, a notification appears to inform you that this is a sandbox environment. You can also see the type of the environment in the title bar of the client.
 ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 In the sandbox environment, a brand-new tenant has been created. This tenant is loaded with default demonstration data for the CRONUS company. No data is copied or otherwise transferred from the production environment during the sandbox creation.
-7.  At any time, you can return to the **Sandbox Environment** window, and reset the sandbox environment.
+7.  At any time, you can return to the **Sandbox Environment** page, and reset the sandbox environment.
 > [!NOTE]  
 >  Resetting the sandbox environment will remove it completely, and then create it again with the default demonstration data.  
 
@@ -58,7 +58,7 @@ In a sandbox environment, you will find the in-client designer feature enabled, 
 ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>Enable the advanced user experience
-It is possible to enable and try the advanced (full) functionality of [!INCLUDE[d365fin](includes/d365fin_md.md)] in a sandbox tenant by setting the **Experience** field in the **Company Information** window.
+It is possible to enable and try the advanced (full) functionality of [!INCLUDE[d365fin](includes/d365fin_md.md)] in a sandbox tenant by setting the **Experience** field on the **Company Information** page.
 
 ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png)
 

@@ -11,17 +11,17 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: feb49e3c78329235cff68c8be009c996b1111812
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 3a6b49b754eff669e9991e8c4245ef7acd2689db
 ms.contentlocale: en-gb
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Accountant Experiences in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[d365fin](includes/d365fin_md.md)]. From here, you can access all windows that you need in your work.  
+Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[d365fin](includes/d365fin_md.md)]. From here, you can access all pages that you need in your work.  
 
 ## <a name="accountant-role-center"></a>Accountant Role Centre
-The Role Centre is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. In the ribbon at the top of the window, you have access to more actions, such as opening the most commonly used financial reports and statements in Excel. In the navigation bar at the top, you can quickly switch between the lists you use most often. Here, you will see other areas, such as **Posted Documents** with the various types of documents that the company has posted.  
+The Role Centre is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. In the ribbon at the top of the page, you have access to more actions, such as opening the most commonly used financial reports and statements in Excel. In the navigation bar at the top, you can quickly switch between the lists you use most often. Here, you will see other areas, such as **Posted Documents** with the various types of documents that the company has posted.  
 
 If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a list of videos right from your Role Centre. You can also launch a **Getting Started** tour that points out key areas.  
 

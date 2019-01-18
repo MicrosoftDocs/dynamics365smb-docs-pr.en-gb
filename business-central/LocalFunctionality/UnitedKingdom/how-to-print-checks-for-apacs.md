@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 40f8e3ad43163a185df132982cc4d7236432e9fe
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: db3d4a32966d88a625de026d2cf1d99d955a6aab
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-checks-for-apacs"></a>Print Cheques for APACS
@@ -33,7 +33,7 @@ The Association for Payment Clearing Services (APACS) specification defines a st
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Bank Account**|Specifies bank account code.|  
-    |**Last Cheque No.**|Specifies the last cheque number that was specified in the **Bank Account Card** window.|  
+    |**Last Cheque No.**|Specifies the last cheque number that was specified on the **Bank Account Card** page.|  
     |**One Cheque per Vendor per Document No.**|Select to print only one cheque per vendor for each document number.|  
     |**Reprint Cheques**|Select to reprint cancelled cheques.|  
     |**Test Print**|Select to print cheques on blank paper before printing them on cheque forms.|  

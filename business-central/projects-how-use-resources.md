@@ -13,10 +13,10 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d8f900e61628960f2a64f609f62dc8465722770c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 688593a6d59cf5d6fb9b58106a21601f3f15781e
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="use-resources-for-jobs"></a>Use Resources for Jobs
@@ -47,7 +47,7 @@ If you have already set up alternate resource price for some resources, you can 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resource Price Changes**, and then choose the related link.
 2. Choose the **Suggest Res. Price Chg. (Price)** action, and then fill in the fields as necessary.
 3. Choose the **OK** button.  
-4. When the batch job is finished, the **Resource Price Changes** window shows the results of the batch job.
+4. When the batch job is finished, the **Resource Price Changes** page shows the results of the batch job.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>To get resource price change suggestions based on standard prices
 If you want to set up multiple alternate resource prices based on the standard prices on the resource cards, you can use a batch job.  
@@ -55,7 +55,7 @@ If you want to set up multiple alternate resource prices based on the standard p
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resource Price Changes**, and then choose the related link.
 2. Choose the **Suggest Res. Price Chg. (Res.)** action, and then fill in the fields as necessary.  
 3. Choose the **OK** button.  
-4. When the batch job is finished, open the **Resource Price Changes** window to see the results of the batch job.
+4. When the batch job is finished, open the **Resource Price Changes** page to see the results of the batch job.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>To get resource price change suggestions based on alternate prices
 If you have already set up alternate resource price for some resources, you can use a batch job to set up multiple alternate resource prices.
@@ -63,7 +63,7 @@ If you have already set up alternate resource price for some resources, you can 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Suggest Res. Price Chg. (Price)**, and then choose the related link.  
 2. Fill in the fields as necessary.
 3. Choose the **OK** button.  
-4. When the batch job is finished, open the **Resource Price Changes** window to see the results of the batch job.
+4. When the batch job is finished, open the **Resource Price Changes** page to see the results of the batch job.
 
 ## <a name="see-also"></a>See Also
 [Project Management](projects-manage-projects.md)  

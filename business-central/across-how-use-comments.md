@@ -8,20 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2018
+ms.date: 10/03/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 17a37dd74565266c748439bf4ee5eecfa8e8c7ea
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27a1fcc2bb0efd79e95f10c78dbae54869c59703
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Add Comments to Cards and Documents
 You can add extra information to G/L accounts, customers cards, or sales orders to communicate exceptions or special agreements to other users.
-Practically all cards and document have a **Comments** action, which opens the **Comment Sheet** window where you can write or read comments. On documents, you can also add comments to individual lines.
+Practically all cards and document have a **Comments** action, which opens the **Comment Sheet** page where you can write or read comments. On documents, you can also add comments to individual lines.
 
 Comments on ongoing documents are transferred to the related posted document. For example, a comment on a sales order is transferred to a resulting posted sales shipment.
+
+In addition, you can specify if you want comments to be transferred from one type of document to another resulting type of document, such as from a sales order to a sales invoice. You do this in the **Sales & Receivables** and the **Purchases & Payables** pages respectively.
 
 > [!NOTE]
 > Comments are not printed or output to reports or externally-facing documents.
@@ -32,7 +34,7 @@ The following describes how to add a comment to an item card. The steps are simi
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the relevant item card.
 3. Choose the **Comments** action.
-4. In the **Comment Sheet** window, enter any text, and then choose the **OK** button.
+4. On the **Comment Sheet** page, enter any text, and then choose the **OK** button.
 
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e26174fcf723e13ef5a9ed0b386006c0439e1c7a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 868972e4d53d858834ba5985a3de3ffa1d4dcc6b
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Create Custom Company Configuration Packages
@@ -46,7 +46,7 @@ To see a complete list of setup tables, Choose the ![Lightbulb that opens the Te
 2.  Create a new company for the industry or solution template. For more information, see [Create a New Company](admin-how-to-create-a-new-company.md).  
 3.  Setup the new company in the way you need. Fill in all required setup tables.  
 4.  Open the new company.
-5. Open the **Configuration Worksheet** window.  
+5. Open the **Configuration Worksheet** page.  
 6.  Add the tables that you want to transfer to another company to the worksheet. Assign the worksheet lines to the package.  
 7.  Create a questionnaire for the most frequently used setup tables.  
 8.  Create configuration templates to make it easier to create master data, such as customers or items.  

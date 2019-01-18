@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f68bd92456ccab6d4bade8f5545d5c715a0c35bd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33b0271c85d97abb8cd4a65c8c9ab9ddd354674b
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Set Up a Coloured Indicator on Cues for the Company or Individual Users
@@ -24,20 +24,20 @@ As an administrator, you can set up Cues that appear on the users' Role Centres 
   
 The indicator appears as a coloured bar along the top border of the Cue tile. It provides a visual signal of the status of the Cue's activity, which can indicate favorable or unfavorable conditions to prompt the user to take action. For example, if a Cue displays ongoing sales invoices, you can set up the indicator to appear green (favorable) when total number of ongoing sales invoices is below 10, and appears red (unfavorable) when the total is greater than 20.  
   
-From the **Cue Setup** window, you set up indicators for all the Cues that are available in the company database. You can set up the indicators to apply to all users in the company or an individual user only. The indicator settings in the **Cue Setup** window act as the default indicator settings. If the **Cue Setup End User** window is made available to users, then they can personalise the indicators settings that you define in the **Cue Setup** window.  
+From the **Cue Setup** page, you set up indicators for all the Cues that are available in the company database. You can set up the indicators to apply to all users in the company or an individual user only. The indicator settings on the **Cue Setup** page act as the default indicator settings. If the **Cue Setup End User** page is made available to users, then they can personalise the indicators settings that you define on the **Cue Setup** page.  
   
 To set up the indicator, you specify up to two threshold values that define three ranges of data values (low, middle, and high) to which you can apply a different colour (or style).  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>To set up coloured indicators on Cues  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cue Setup**, and then choose the related link.  
   
-     The **Cue Setup** window appears. The window lists the indicators that are currently setup up on Cues. Indicators that apply to all users in the company have a blank **User Name** field. Indicators that apply to a specific user include the user's name in the **User Name** field.  
+     The **Cue Setup** page appears. The page lists the indicators that are currently setup up on Cues. Indicators that apply to all users in the company have a blank **User Name** field. Indicators that apply to a specific user include the user's name in the **User Name** field.  
   
     > [!NOTE]  
     >  If you set up a company-wide indicator and a user modifies the indicator later on, then a separate entry for the indicator appears in list for that user.  
   
 2. Choose **Edit List** action.  
-3. To set up an indicator for a Cue that is not listed in the window, choose the **New** action, and then fill in the fields as described in the following. If you want to modify an existing indicator, go to the next step.  
+3. To set up an indicator for a Cue that is not listed on the page, choose the **New** action, and then fill in the fields as described in the following. If you want to modify an existing indicator, go to the next step.  
   
     |  Field  |  Description  |    
     |---------|---------------|  

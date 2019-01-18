@@ -11,10 +11,10 @@ ms.search.keywords: migration, Excel
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 45a236dfeb7a5ce489cf8917d6a08a92ca5c4e8b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f5ca69c1e542a9b5846c99b03103fd9b2be86499
 ms.contentlocale: en-gb
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importing Business Data from Other Finance Systems
@@ -24,7 +24,7 @@ From the Role Centre, you can start an assisted setup guide that helps you trans
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes templates for accounts, customers, vendors, and inventory items that you can choose to apply when you import your data.
 
-You can import master data and some transactional data from other finance systems based on the default configuration package in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In the **Configuration Packages** window, you can work with the package to import and validate the data before you apply the package.  
+You can import master data and some transactional data from other finance systems based on the default configuration package in [!INCLUDE[d365fin](includes/d365fin_md.md)]. On the **Configuration Packages** page, you can work with the package to import and validate the data before you apply the package.  
 
 > [!TIP]  
 > Alternatively, use data migration wizards to import data from QuickBooks or Dynamics GP. For more information, see [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md) or [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md).

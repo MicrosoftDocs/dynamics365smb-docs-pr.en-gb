@@ -11,10 +11,10 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572831f99559a65c490dcb93e13fba3bdfc57688
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4dd8f50f4d7767cb70b53a16009b86f135a5f5c6
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-check-payments"></a>Make Cheque Payments
@@ -42,7 +42,7 @@ The following describes how to pay a vendor by cheque. The steps are similar to 
 3. In the **Payment Method Code** field, select **Cheque**.
 4. In the **Bank Payment Type** field, select **Computer Cheque**.
 5. Choose the **Print Cheque** action.
-6. In the **Check** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. On the **Cheque** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Choose the **Send to** button, select the **PDF Document** option, and then choose the **OK** button.
 
     The physical cheques can now be brought to the bank for processing. Proceed to post the payment as applied to the vendor and thereby paid in the system.
@@ -54,16 +54,16 @@ Fully applied vendor ledger entries and bank ledger entries are created.
 > If you want to print and pay cheques in more than one currency from different bank accounts, you must run the **Print Cheque** batch job separately for each currency and specify the appropriate bank account.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>To cancel printed cheques that are not posted
-You can cancel non-posted cheques after they have been printed by using the **Void Cheque** action in the **Payment Journal** window.
+You can cancel non-posted cheques after they have been printed by using the **Void Cheque** action on the **Payment Journal** page.
 
-1. In the **Payment Journal** window, choose the **Void Cheque**, and then choose which cheques to cancel.
+1. On the **Payment Journal** page, choose the **Void Cheque**, and then choose which cheques to cancel.
 
 ## <a name="to-void-checks"></a>To void cheques
 When cheque payment have been posted, you can only cancel (void) cheques from the resulting bank ledger entries.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the relevant bank account, choose the **Edit** action, and then choose the **Cheque Ledger Entries** action.
-3. In the **Cheque Ledger Entries** window, choose the **Void Cheque** action.
+3. On the **Cheque Ledger Entries** page, choose the **Void Cheque** action.
 4. Select the **Void Cheque Only** check box.
 5. Choose the **OK** button.
 

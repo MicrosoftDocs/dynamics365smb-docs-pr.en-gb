@@ -12,14 +12,14 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5bede56db06b7bac991f3f910c11e1dae61c7463
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Set Up Email Manually or Using the Assisted Setup
-To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields in the **SMTP Mail Setup** window.
+To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields on the **SMTP Mail Setup** page.
 
 > [!NOTE]  
 >   Instead of entering the SMTP server details, you can use a function to enter them with information from your Office 365 subscription.
@@ -31,7 +31,7 @@ You can either set email up manually or you can get help by using the **Email Se
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Alternatively, choose the **Apply Office 365 Server Settings** action to insert any information that is already defined for your Office 365 subscription.
 4. When all the fields are correctly filled in, choose the **Test Email Setup** action.
-5. When the test succeeds, close the window.
+5. When the test succeeds, close the page.
 
 ## <a name="see-also"></a>See Also  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 37e71ef201b771b13fc4393f9a6c3ffab91de163
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9569f01f286008b76667e3a524257ba1aac61f91
 ms.contentlocale: en-gb
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fixed-assets"></a>Fixed Assets
@@ -31,7 +31,7 @@ For each asset, you can record maintenance costs and the next service date. Keep
 Each fixed asset can be attached to one or more insurance policies. You can therefore easily verify that insurance policy amounts are in accordance with the value of the assets that are linked to the policy. This also makes it easy to monitor annual insurance premiums.
 
 > [!NOTE]  
->   You can record fixed asset transactions in the **Fixed Asset G/L Journal** window or in the **Fixed Asset Journal** window, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
+>   You can record fixed asset transactions on the **Fixed Asset G/L Journal** page or on the **Fixed Asset Journal** page, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** page. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
 
 Before you can begin to manage fixed assets, you must set up default values, fixed asset accounting, posting groups, allocation keys, journals, and posting types. For more information, see [Setting Up Fixed Assets](fa-setup.md).
 

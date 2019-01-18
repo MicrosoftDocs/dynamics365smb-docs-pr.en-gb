@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a3c8910ad937ec4283ce0803f787a4fe6aed071d
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Design Details: Assembly Order Posting
@@ -53,7 +53,7 @@ The following table outlines the sequence of actions.
 |Action|Description|  
 |------------|-----------------|  
 |Initialise Posting|1.  Make preliminary checks.<br />2.  Add posting number and modify the assembly order header.<br />3.  Release the assembly order.|  
-|Post|<ol><li>Create the posted assembly order header.</li><li>Copy comment lines.</li><li>Post assembly order lines (consumption):<br /><br /> <ol><li>Create a status window to calculate assembly consumption.</li><li>Get the remaining quantity on which the item journal line will be based.</li><li>Reset the consumed and remaining quantities.</li><li>For assembly order lines of type Item:<br /><br /> <ol><li>Populate fields on the item journal line.</li><li>Transfer reservations to the item journal line.</li><li>Post the item journal line to create the item ledger entries.</li><li>Create warehouse journal lines and post them.</li></ol></li><li>For assembly order lines of type Resource:<br /><br /> <ol><li>Populate fields on the item journal line.</li><li>Post the item journal line. This creates capacity ledger entries.</li><li>Create and post resource journal line.</li></ol></li><li>Transfer field values from the assembly order line into a newly created posted assembly order line.</li></ol></li><li>Post the assembly order header (output):<br /><br /> <ol><li>Populate fields on the item journal line.</li><li>Transfer reservations to the item journal line.</li><li>Post the item journal line to create the item ledger entries.</li><li>Create warehouse journal lines and post them.</li><li>Reset the assembly quantities and remaining quantities.</li></ol></li></ol>|  
+|Post|<ol><li>Create the posted assembly order header.</li><li>Copy comment lines.</li><li>Post assembly order lines (consumption):<br /><br /> <ol><li>Create a status page to calculate assembly consumption.</li><li>Get the remaining quantity on which the item journal line will be based.</li><li>Reset the consumed and remaining quantities.</li><li>For assembly order lines of type Item:<br /><br /> <ol><li>Populate fields on the item journal line.</li><li>Transfer reservations to the item journal line.</li><li>Post the item journal line to create the item ledger entries.</li><li>Create warehouse journal lines and post them.</li></ol></li><li>For assembly order lines of type Resource:<br /><br /> <ol><li>Populate fields on the item journal line.</li><li>Post the item journal line. This creates capacity ledger entries.</li><li>Create and post resource journal line.</li></ol></li><li>Transfer field values from the assembly order line into a newly created posted assembly order line.</li></ol></li><li>Post the assembly order header (output):<br /><br /> <ol><li>Populate fields on the item journal line.</li><li>Transfer reservations to the item journal line.</li><li>Post the item journal line to create the item ledger entries.</li><li>Create warehouse journal lines and post them.</li><li>Reset the assembly quantities and remaining quantities.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  
 >  Unlike for production output, which is posted at expected cost, assembly output is posted at actual cost.  

@@ -11,10 +11,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 44648f9d9cfd9ad2e1ea3589031b6560f4a4dcfb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-bills-of-material"></a>Work with Bills of Material
@@ -51,16 +51,16 @@ There are two parts to creating an assembly BOM:
 1. Set up a new item. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
     Proceed to enter components or resources on the assembly BOM.  
-2. In the **Item Card** window for an assembly item, choose the **Assembly** action, and then choose the **Assembly BOM** action.
-3. In the **Assembly BOM** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. On the **Item Card** page for an assembly item, choose the **Assembly** action, and then choose the **Assembly BOM** action.
+3. On the **Assembly BOM** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>To view the components of an assembly item indented according to the BOM structure
-From the **Assembly BOM** window, you can open a separate window that shows the components and any resources indented according to their BOM position under the assembly item.
+From the **Assembly BOM** page, you can open a separate page that shows the components and any resources indented according to their BOM position under the assembly item.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
-2. Open the card for an assembly item. (The **Assembly BOM** field in the **Items** window contains **Yes**.)
-3. In the **Item Card** window, choose the **Assembly** action, and then choose the **Assembly BOM** action.
-4. In the **Assembly BOM** window, choose the **Show BOM** action.
+2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)
+3. On the **Item Card** page, choose the **Assembly** action, and then choose the **Assembly BOM** action.
+4. On the **Assembly BOM** page, choose the **Show BOM** action.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>To replace the assembly item with its components on document lines
 From any sales and purchase document that contains an assembly item, you can use a special function to replace the line for the assembly item with new lines for its components. This function is useful, for example, if you want to sell the components as a kit that represents the assembly item.
@@ -75,19 +75,19 @@ The following procedure is based on a sales invoice. The same steps apply to oth
 
 All fields on the sales invoice line for the assembly item are cleared except for the **Item** and **Description** fields. Complete sales invoice lines are inserted for the components and possible resources that comprise the assembly item.
 
-**Note**: The Explode BOM function is also available in the **Assembly BOM** window.
+**Note**: The Explode BOM function is also available on the **Assembly BOM** page.
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>To calculate the standard cost of an assembly item
 You calculate the unit cost of an assembly item by rolling up the unit cost of each component and resource in the item’s assembly BOM.
 
-You can also calculate and update the standard cost for one or many items in the **Standard Cost Worksheet** window. For more information, see [Update Standard Costs](finance-how-to-update-standard-costs.md).  
+You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. For more information, see [Update Standard Costs](finance-how-to-update-standard-costs.md).  
 
 The unit cost of an assembly BOM always equals the total of the unit costs of its components, including other assembly BOMs, and any resources.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.
-2. Open the card for an assembly item. (The **Assembly BOM** field in the **Items** window contains **Yes**.)
-3. In the **Item Card** window, choose the **Assembly** action, and then choose the **Assembly BOM** action.
-4. In the **Assembly BOM** window, choose the **Calc. Standard Cost** action.
+2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)
+3. On the **Item Card** page, choose the **Assembly** action, and then choose the **Assembly BOM** action.
+4. On the **Assembly BOM** page, choose the **Calc. Standard Cost** action.
 5. Select one of the following options, and then choose the **OK** button.
 
 |Option |Description |

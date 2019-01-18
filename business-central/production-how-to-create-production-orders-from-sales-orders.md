@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36e7d2f3d43a966cd97fba3c92f3fd20b6b1c585
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d4aaa82077d3628bbf75a9bc169d73ecc651884
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Create Production Orders from Sales Orders
@@ -26,7 +26,7 @@ You can create production orders for produced items directly from sales orders.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Select the sales order you want to create a production order for.  
-3.  Choose the **Planning** action. In the **Sales Order Planning** window, you can view the availability of the sales order item.  
+3.  Choose the **Planning** action. On the **Sales Order Planning** page, you can view the availability of the sales order item.  
 4.  Choose the **Create Prod. Order** action.  
 5.  Select the status and order type.  
 6.  Choose the **Yes** button to create the production order.

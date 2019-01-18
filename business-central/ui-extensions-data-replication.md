@@ -1,6 +1,6 @@
 ---
-title: Cloud copy of your data | Microsoft Docs
-description: Use the Data Replication extension to create a cloud copy of your data so you are connected to the intelligent cloud.
+title: Business Central Intelligent Cloud Extensions | Microsoft Docs
+description: Use this data replication extension to create a cloud copy of your data so you are connected to the intelligent cloud.
 author: edupont04
 manager: edupont
 ms.service: dynamics365-business-central
@@ -9,24 +9,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c01e1c4fe4cd67e8ef474e174f0a9797b60de329
+ms.sourcegitcommit: 7b5f8cb6a126bdd99ab5fb7a82f981eab1c484a1
+ms.openlocfilehash: 1d4bea462879d49f02c6fa6d8b4a83365d5149a3
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/17/2018
 
 ---
 
-# <a name="business-central-data-replication-extension"></a>Business Central Data Replication Extension**
+# <a name="business-central-intelligent-cloud-extensions"></a>Business Central Intelligent Cloud Extensions
 
-This extension will take you through the process to configure your Intelligent Cloud environment.  Once your Intelligent Cloud environment is configured, you will be able to replicate data from your [!INCLUDE[prodshort](includes/prodshort.md)] on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.  This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.
+If you are using one of the supported on-premises products, you can configure your intelligent cloud environment based on a product-specific extension. Once your intelligent cloud environment is configured, you will be able to replicate data from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant. This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.  
 
-This extension must be used in conjunction with the **Business Central Intelligent** cloud extension.
+## <a name="business-central-on-premises"></a>Business Central on-premises
+If you are using an on-premises deployment of [!INCLUDE[prodshort](includes/prodshort.md)], get the **Intelligent Cloud Base** extension and the **Business Central Intelligent Cloud** extension, and follow the guides in both.  
+
+## <a name="dynamics-gp"></a>Dynamics GP
+If you are using Dynamics GP, get the **Intelligent Cloud Base Extension** extension, the **Dynamics GP Data Migration** extension, and the **Dynamics GP Intelligent Cloud**, and follow the guides in all three.  
 
 ## <a name="see-also"></a>See Also
 
 [Your Access to the Intelligent Cloud](about-intelligent-cloud.md)  
-[Business Central Intelligent Cloud extension](ui-extensions-intelligent-cloud.md)  
+[Intelligent Cloud Base Extension](ui-extensions-intelligent-cloud.md)  
 

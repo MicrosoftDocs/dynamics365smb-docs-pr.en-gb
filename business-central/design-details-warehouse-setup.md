@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 574bca49a01d23cdbf3ea9cda3b2c67f39ee9d05
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Design Details: Warehouse Setup
@@ -93,7 +93,7 @@ In advanced warehousing, bins can be set up with capacity values, such as quanti
 
 On each item card, you can assign a unit of measure (UOM) for the item, such as pieces, pallets, liters, grams, or boxes. You can also have a base UOM for an item and specify larger UOMs that are based on it. For example, you can define a pallet to equal 16 pieces, the latter being the base UOM.  
 
-If you want to set a maximum quantity of a specific item to be stored in an individual bin and the item has more than one UOM, then you must set the maximum quantity for every UOM that exists on the item card. Accordingly, if an item has been set up to be handled in pieces and pallets, then the **Max. Qty.** field in the **Bin Content** window for that item must also be in pieces and pallets. Otherwise, the allowed quantity for that bin is not calculated correctly.  
+If you want to set a maximum quantity of a specific item to be stored in an individual bin and the item has more than one UOM, then you must set the maximum quantity for every UOM that exists on the item card. Accordingly, if an item has been set up to be handled in pieces and pallets, then the **Max. Qty.** field on the **Bin Content** page for that item must also be in pieces and pallets. Otherwise, the allowed quantity for that bin is not calculated correctly.  
 
 Before you set capacity restrictions for bin contents on a bin, you must first make sure that the UOM and dimensions of the item have been set up on the item card.  
 

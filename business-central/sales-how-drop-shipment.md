@@ -13,10 +13,10 @@ ms.search.keywords: direct shipment
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0fc9fee94f06b2452fa38a0a754f054a0ed16a0d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 68af9892db003a2200bd0ceb9b9fa839952dce36
 ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-drop-shipments"></a>Make Drop Shipments
@@ -36,7 +36,7 @@ To prepare a drop shipment for the item to be sold, you create a purchase order 
 1. Create a purchase order. Do not fill any fields on the lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 2. In the **Sell-to Customer No.** field, select the customer that you are selling to.
 3. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
-4. In the **Sales List** window, select the sales order that you prepared in the "To create a sales order for drop shipment" section.
+4. On the **Sales List** page, select the sales order that you prepared in the "To create a sales order for drop shipment" section.
 5. Choose the **OK** button.
 
 The line information from the sales order is inserted on the purchase order line(s).
