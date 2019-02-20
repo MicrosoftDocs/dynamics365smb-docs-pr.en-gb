@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 16f444fa31e3d63a7d61567667184facf2c3a7d6
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: d7476674407dd505fafa8e82f3bfecc3aa5a5fee
 ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Setting Up a Company With RapidStart Services
@@ -44,7 +44,8 @@ You can use the following components to speed up your company setup:
 |Deploy the configured package to your customer for implementation.|[Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)|
 |Define and validate your customer’s setup values for all core areas, such as company information, general ledger, inventory, sales, or manufacturing.|[Gather Customer Setup Values](admin-gather-customer-setup-values.md)|  
 |Configure core master data records using templates to prepare to migrate existing customer data.|[Prepare to Migrate Customer Data](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
-|Define tables and fields, validate existing customer data, and migrate data into the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.|[Migrate Customer Data](admin-migrate-customer-data.md)|  
+|Define tables and fields, validate existing customer data, and migrate data into the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.|[Migrate Customer Data](admin-migrate-customer-data.md)|
+|Prepare to reuse company configurations in other companies.|[Create Custom Company Configuration Packages](admin-how-to-create-custom-company-configuration-packages.md)|
 |Find solutions to known issues in the RapidStart Services toolkit.|[Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>See Also  

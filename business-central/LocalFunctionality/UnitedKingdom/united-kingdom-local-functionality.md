@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: soalex
 ms.translationtype: HT
-ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
-ms.openlocfilehash: 4d154473788372e26498e5675863a1500b1cf1ac
+ms.sourcegitcommit: 5e8dfa9572b84360bfcc5087bc3b0b9b9ed9182f
+ms.openlocfilehash: de54e7f8160306c57d67ef4b4e3fbd8c65e79bfa
 ms.contentlocale: en-gb
-ms.lasthandoff: 10/15/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 # <a name="united-kingdom-local-functionality"></a>United Kingdom Local Functionality
@@ -25,7 +25,7 @@ The following topics describe local functionality that is unique to the United K
 
 |Feature Area|Feature|Availability|
 |------------|-------|------------|
-|**VAT**|Making Tax Digital - VAT Returns submission|In development, estimated end 2018|
+|**VAT**|[Making Tax Digital - VAT Returns submission](making-tax-digital-submit-vat-return.md)|Current|
 ||[Change VAT Setup in Journals](how-to-change-vat-setup-in-journals.md)|Current|
 ||[Print VAT Audit Reports](how-to-print-vat-audit-reports.md)|Current|
 ||[Print VAT Reports](how-to-print-vat-reports.md)|Current|

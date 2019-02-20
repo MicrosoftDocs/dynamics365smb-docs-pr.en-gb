@@ -13,10 +13,10 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8c14b4614f88cea932a69c00422c8e3a12bc644b
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 5c07daf590fb87d318d2d3dc656e17838f23de8a
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Connecting to Your Business Central Data to Build a Business App Using PowerApps
@@ -28,9 +28,9 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-powerapps"></a>To add [!INCLUDE[d365fin](includes/d365fin_md.md)] as a data source in PowerApps
 1. In your browser, navigate to [powerapps.microsoft.com](https://powerapps.microsoft.com/en-us/), and then sign in.
 2. In the left navigation pane, choose **New App**.
-3. Choose your editor, PowerApps Studio for Pages or PowerApps Studio for Web.
+3. Choose your editor, PowerApps Studio for Windows or PowerApps Studio for Web.
 
-   PowerApps Studio for Pages is a desktop application used to create and publish PowerApps. The PowerApps Studio for Web is the online solution used to create and publish PowerApps.
+   PowerApps Studio for Windows is a desktop application used to create and publish PowerApps. The PowerApps Studio for Web is the online solution used to create and publish PowerApps.
 4. The next step to create a PowerApp is to select your data. Choose the Arrow icon then choose the **New connection** option in the upper left side of the page.
 5. In the list of available connections, choose **Dynamics 365 Business Central**.
 6. PowerApps will display a connection page that prompts you for the information that is required to connect to your [!INCLUDE[d365fin](includes/d365fin_md.md)] data. To connect, you must specify an OData URL, username, password, and company name.

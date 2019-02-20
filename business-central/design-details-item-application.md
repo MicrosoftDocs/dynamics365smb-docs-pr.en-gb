@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2018
+ms.date: 12/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="design-details-item-application"></a>Design Details: Item Application
@@ -93,9 +93,9 @@ To make a fixed application, you use the **Appl.-to Item Entry** field or the **
 ### <a name="example--fixed-application-in-purchase-return"></a>Example – Fixed Application in Purchase Return  
 The following example, which illustrates the effect of fixed application of a purchase return of an item using the FIFO costing method, is based on the following scenario:  
 
-1. In entry number 1, the user posts a purchase at a cost of LCY 10.00.  
-2. In entry number 2, the user posts a purchase at a cost of LCY 20.00.  
-3. In entry number 3, the user posts a purchase return. The user makes a fixed application to the second purchase by entering the item ledger entry number in the **Appl.-to Item Entry** field on the purchase return order line.  
+1. In entry 1, the user posts a purchase at a cost of LCY 10.00.  
+2. In entry 2, the user posts a purchase at a cost of LCY 20.00.  
+3. In entry 3, the user posts a purchase return. The user makes a fixed application to the second purchase by entering the item ledger entry number in the **Appl.-to Item Entry** field on the purchase return order line.  
 
 The following table shows item ledger entries resulting from the scenario.  
 
@@ -111,7 +111,7 @@ The following table shows the item application entry that results from the fixed
 
 |Posting Date|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Item Ledger Entry No.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-06-20|1|3|10|3|  
+|01-06-20|2|3|10|3|  
 
 The cost of the second purchase, LCY 20.00, is passed correctly to the purchase return.  
 

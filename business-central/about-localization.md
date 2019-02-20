@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 10/01/2018
+ms.date: 12/06/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: ffe2c700ed409a0881c94ddfd0157cf32141c60f
+ms.sourcegitcommit: 9d0836083f4e8506efbd077f9b0cd733b6dbf623
+ms.openlocfilehash: c7b581f7524199c33959756e858476aa9bbaac15
 ms.contentlocale: en-gb
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 02/01/2019
 
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>Local Functionality in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -29,20 +29,23 @@ To learn about the local functionality for each country, choose the related link
 | --- | --- |--- |
 | Europe |  | |
 |        | Austria | [Austria Local Functionality](localfunctionality/austria/austria-local-functionality.md) |
-|        | Belgium |  [Australia Local Functionality](localfunctionality/belgium/belgium-local-functionality.md) |
+|        | Belgium |  [Belgium Local Functionality](localfunctionality/belgium/belgium-local-functionality.md) |
 |        | Denmark | [Denmark Local Functionality](localfunctionality/denmark/denmark-local-functionality.md) |
 |        | Germany | [Germany Local Functionality](localfunctionality/germany/germany-local-functionality.md) |
 |        | Finland | [Finland Local Functionality](localfunctionality/finland/finland-local-functionality.md) |
 |        | France | [France Local Functionality](localfunctionality/france/france-local-functionality.md) |
+|        | Iceland | [Iceland Local Functionality](localfunctionality/iceland/iceland-local-functionality.md) |
 |        | Italy | [Italy Local Functionality](localfunctionality/italy/italy-local-functionality.md) |
 |        | Netherlands | [Netherlands Local Functionality](localfunctionality/netherlands/netherlands-local-functionality.md) |
+|        | Norway | [Norway Local Functionality](localfunctionality/norway/norway-local-functionality.md) |
 |        | Spain | [Spain Local Functionality](localfunctionality/spain/spain-local-functionality.md) |
 |        | Sweden | [Sweden Local Functionality](localfunctionality/sweden/sweden-local-functionality.md) |
 |        | Switzerland | [Switzerland Local Functionality](localfunctionality/switzerland/switzerland-local-functionality.md) |
 |        | United Kingdom | [United Kingdom Local Functionality](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md) |
 | North America |       |  |
-|               | Canada|[Canada Local Functionality](localfunctionality/canada/canada-local-functionality.md) |
-|               | United States|[United States Local Functionality](localfunctionality/unitedstates/united-states-local-functionality.md) |
+|        | Canada|[Canada Local Functionality](localfunctionality/canada/canada-local-functionality.md) |
+|        | Mexico | [Mexico Local Functionality](localfunctionality/mexico/mexico-local-functionality.md) |
+|        | United States|[United States Local Functionality](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Asia Pacific |       |  |
 |        | Australia | [Australia Local Functionality](localfunctionality/australia/australia-local-functionality.md) |
 |        | New Zealand | [New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md) |

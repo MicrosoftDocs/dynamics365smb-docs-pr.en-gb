@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Manage Company Configuration in a Worksheet
@@ -107,6 +107,22 @@ After you have added all necessary tables to a configuration package, determine 
 
     > [!NOTE]  
     >  The tables remain in the package even though they are deleted from the worksheet.  
+
+## <a name="to-review-and-customize-existing-database-data"></a>To review and customize existing database data
+As you create a configuration package for a solution, you can view and customize the available database data to suit your customer needs. The database table has to have an associated page.  
+
+## <a name="to-customize-data-in-the-database"></a>To customize data in the database  
+
+1.  On the **Configuration Worksheet** page, identify the tables whose data that you want to view or customize.  
+
+    > [!NOTE]  
+    >  Make sure that each table has a page ID assigned to it. For standard [!INCLUDE[d365fin](includes/d365fin_md.md)] tables, this value is automatically filled in. For custom tables, you have to provide the ID.  
+
+2.  Choose the **Database Data** action.  
+
+     The [!INCLUDE[d365fin](includes/d365fin_md.md)] page for the page opens.  
+
+3.  Review the available information. Modify it as necessary by deleting records that are not relevant or by adding new ones.
 
 ## <a name="see-also"></a>See Also  
 [Set Up Company Configuration](admin-set-up-company-configuration.md)  

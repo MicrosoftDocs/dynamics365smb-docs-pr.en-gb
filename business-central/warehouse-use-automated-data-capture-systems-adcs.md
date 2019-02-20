@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4d378e4407ce0023ab0f089f7a8a218605c4cf7d
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: a2b30b3eec747104f3351aed0d0d9787d2fc4e9f
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Use Automated Data Capture Systems (ADCS)
@@ -60,7 +60,7 @@ Each warehouse item that you want to use with ADCS must be assigned an identifie
 8.  To review the information, choose the **Identifier Code** field to open the **Item Identifiers** page.
 
 ## <a name="to-add-an-adcs-user"></a>To add an ADCS user  
-You can add any user as a user of an Automated Data Capture System (ADCS). When you do this, the user must also provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from the Pages logon password of the user. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).
+You can add any user as a user of an Automated Data Capture System (ADCS). When you do this, the user must also provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from the Windows logon password of the user. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **ADCS Users**, and then choose the related link.  
 2. Choose the **New** action.  

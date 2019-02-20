@@ -9,10 +9,10 @@ ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 313ebe68ae1963e22bc17d53a7c41ae8f090de60
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -47,8 +47,8 @@ On the Work and School Privacy page, you can also close your account. However, w
 You can still mark people as blocked due to privacy and export, edit, or delete transactions as explained elsewhere in this article.  
 
 ## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Exporting Data from Tables not Classified by Data Subject
-If you have a situation where you have to export data that is not classified in a way so that it gets automatically exported, such as data from the Profile Answers table, you must do the following: 
--   Consider if you really want or have to export this supplemental data that is unrelated to the contact, meaning that it has no direct relationship to it 
+If you have a situation where you have to export data that is not classified in a way so that it gets automatically exported, such as data from the Profile Answers table, you must do the following:
+-   Consider if you really want or have to export this supplemental data that is unrelated to the contact, meaning that it has no direct relationship to it
 -   Add this table and relationship manually to the Rapid Start package and export it directly from the Rapid Start package – that’s why we generate a Rapid Start package for you, so that you can tweak it in situations such as this.
 
 ## <a name="handling-data-about-minors"></a>Handling Data About Minors

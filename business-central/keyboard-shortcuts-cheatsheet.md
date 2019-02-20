@@ -1,6 +1,6 @@
 ---
-title: Keyboard Shortcuts
-description: List of keyboard shortcuts for navigating in lists.
+title: Keyboard Shortcuts Quick Reference
+description: A print-friendly reference sheet containing the most popular keyboard shortcuts.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,17 +11,17 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 400865a0e94ea04c534a56fcb25eb8dc039411e1
-ms.openlocfilehash: 39c32033f377654abda42dedff4a0a2edafa6621
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: f0a88ccadd5107130150e5cadda3e3e5d1cee4bf
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
-# <a name="keyboard-shortcuts-quick-reference"></a>Keyboard shortcuts quick reference
+# <a name="keyboard-shortcuts-quick-reference"></a>Keyboard Shortcuts Quick Reference
 
 ||||  
-|----------------|-----------|----------------| 
+|----------------|-----------|----------------|
 |**General**|Alt+Q<br />Alt+Up<br />Tab<br />Shift+Tab<br />Alt+Down Arrow<br />Alt+Right Arrow<br />F5/Ctrl+F5<br />Esc|Open **Tell me**<br />Open tooltip or validation error<br />Move focus to the next control<br />Move focus to the previous control<br />Open a drop-down or look up<br />See the transactions for calculated value<br />Refresh/reload page<br />Close the current page or drop-down.|
 |**Navigate and select rows**| Home/End<br />Ctrl+Home/End <br />Ctrl+Up/Down<br />Ctrl+A <br />Ctrl+Space<br />Ctrl/Shift+Click<br />Ctrl+Shift+Home/End<br />Shift+Up/Down<br />Shift+Page Up/Down<br />Ctrl+Enter| Go to first/last field<br />Go to first/last row<br />Navigate without losing selection<br />Select all<br />Toggle row selection<br /> Add the row/rows to the selection<br />Extend selection to first/last row<br />Add row above/below to selection<br />Add all visible rows above/below to selection<br />Focus out of the list|
 |**Copy and paste**|Ctrl+C<br />Ctrl+V<br />F8|Copy rows<br />Paste rows<br />Copy field above into current row|

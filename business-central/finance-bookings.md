@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fb288b0b318fefd5b9720516432b6a85bb7347dd
+ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
+ms.openlocfilehash: 65542f3855eff3a5ed117bff3247adbf05def6e2
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/07/2019
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Bulk Invoicing for Microsoft Bookings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -23,7 +23,15 @@ If your company uses the Bookings app in Office 365, you can do bulk invoicing f
 ## <a name="connect-to-bookings"></a>Connect to Bookings
 To connect your [!INCLUDE[d365fin](includes/d365fin_md.md)] with Bookings, you must specify your Bookings company, what to synchronize with Bookings, how often to synchronize, and which templates to use. You set up this information on the **Booking Sync. Setup** page, which you can launch from the **Exchange Sync. Setup** page, which you can find through [Search](ui-search.md).  
 
-For example, if you want to synchronize customers between Bookings and [!INCLUDE[d365fin](includes/d365fin_md.md)], you must specify the default template to use to add new customers in [!INCLUDE[d365fin](includes/d365fin_md.md)] based on the customers in your Bookings company.  
+For example, if you want to synchronise customers between Bookings and [!INCLUDE[d365fin](includes/d365fin_md.md)], you must specify the default template to use to add new customers in [!INCLUDE[d365fin](includes/d365fin_md.md)] based on the customers in your Bookings company.  
+
+> [!NOTE]
+> The Bookings app is designed to book appointments for individual customers rather than companies. The synchronisation with [!INCLUDE[d365fin](includes/d365fin_md.md)] will, therefore, only synchronise customer contacts with a Type of "Person". An email address is also required for the contact to synchronise.  
+
+Similarly, if you want to synchronise service items between Bookings and [!INCLUDE[d365fin](includes/d365fin_md.md)], you must specify the default template to use to add new service items in [!INCLUDE[d365fin](includes/d365fin_md.md)] based on the services in our Bookings company.  
+
+> [!NOTE]
+> Only items of type *Service* will synchronise between Bookings and [!INCLUDE[d365fin](includes/d365fin_md.md)]. The template that you set up in the **Configuration Templates** page so it can be used for the item synchronisation must define the type as *Service*.
 
 ## <a name="invoice-appointments"></a>Invoice Appointments
 When it is time to send invoices for the completed bookings, you go to the **Uninvoiced Bookings** page. Depending on how often the information is synchronised, the list is long or short. You can create invoices for all bookings in the list or one booking at a time. You can select one or more entries in the list and invoice those only.  

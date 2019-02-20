@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d8c5345e8b040b5b2e6adbc103d5bbaab62ad453
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 8b68012cc6032d14071ec0eb30c0efaf947344a0
 ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="customizing-business-central-using-extensions"></a>Customising Business Central Using Extensions
@@ -70,6 +70,7 @@ Microsoft provides the following extensions:
 >  New extensions are not available in AppSource immediately after we announce an update. You can keep an eye out for the extensions at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
 ## <a name="see-also"></a>See Also
+[Extending Dynamics 365 Business Central](about-develop-extensions.md)  
 [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
 [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrating Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
@@ -78,5 +79,4 @@ Microsoft provides the following extensions:
 [Getting Started](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 
