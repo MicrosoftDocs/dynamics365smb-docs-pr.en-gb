@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: making tax digital, vat, vat return, submit vat, making tax digital software, hmrc, tax
 ms.date: 12/20/2018
 ms.author: soalex
-ms.translationtype: HT
-ms.sourcegitcommit: 9d0836083f4e8506efbd077f9b0cd733b6dbf623
 ms.openlocfilehash: e70ed223679a36adfb1c62b6470a225d6104b8aa
-ms.contentlocale: en-gb
-ms.lasthandoff: 02/01/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827385"
 ---
 # <a name="making-tax-digital-in-the-united-kingdom"></a>Making Tax Digital in the United Kingdom
 Her Majesty's Revenue and Customs (HMRC) is implementing the first step of Making Tax Digital, which imposes new requirements on VAT registered businesses above the VAT threshold. Requirements will be implemented in phases. In the first phase, with a deadline in April, 2019, the following requirements will take effect:
@@ -47,7 +47,7 @@ The Making Tax Digital feature uses a service connection to communicate with HMR
     > [!Note]
     > If you use an on-premises version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] you will also need to provide a client ID and client secret. If you are not sure what these are, contact your partner. They can get the information for you on [PartnerSource](https://mbs.microsoft.com/partnersource/global/deployment/downloads/tax-regulatory-updates/365dynamicsbctaxdigitsupinfo). 
 
-3. To open a GOV.UK website and request an authorizaton code, choose **Process**, then **Request Authorization Code**, and then choose **Continue**. 
+3. To open a GOV.UK website and request an authorizaton code, choose **Process**, then **Request Authorisation Code**, and then choose **Continue**. 
 4. Sign in with your HMRC credentials. To allow the **Dynamics 365 Business Central MTD VAT** application to interact with HMRC on your behalf, choose **Grant authority**.
 5. A confirmation page displays "Authorization granted" and an authorization code. To copy the authorization code, choose **Copy**.
 6. Return to the service connection you are setting up, and paste the authorization code in the **Enter Authorization Code** field. Then choose **Enter**.
@@ -125,4 +125,3 @@ The VAT payments are now retrieved from HMRC and you can view them on the **VAT 
 [The GetAddress.io UK Postcodes Extension](../../ui-extensions-getaddressio.md)  
 [Customising [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Using Extensions](../../ui-extensions.md)  
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
-

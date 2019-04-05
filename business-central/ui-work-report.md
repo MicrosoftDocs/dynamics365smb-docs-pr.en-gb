@@ -2,7 +2,7 @@
 title: Scheduling a Report to Run at a Specific Date and Time | Microsoft Docs
 description: Learn about entering a report into a job queue and scheduling it to be processed at a specific date and time.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,23 +12,32 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852431"
 ---
-# <a name="working-with-reports"></a>Working with Reports
+# <a name="working-with-reports-and-batch-jobs"></a>Working with Reports and Batch Jobs
 A report gathers information based on a specified set of criteria, and organises and presents the information in an easy-to-read, printable format. There are many reports that you can access throughout the application. The reports typically provide information relative to the context of the page you are on. For example, the **Customer** page includes reports for the top 10 customers and the sales statistics, and more.
+
+Batch jobs do more or less the same as reports but for the purpose of performing a process. For example, the **Create Reminders** batch job creates reminder documents for customers with overdue payments.  
+
+> [!NOTE]
+> This topic refers mainly to "report", but similar information applies to batch jobs.
 
 You can find reports in the **Reports** tab on selected pages, or you can use search ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") to find reports by name.
 
 
-## <a name="specifying-the-data-to-include-in-the-report"></a>Specifying the data to include in the report
+## <a name="specifying-the-data-to-include-in-the-report"></a>Specifying the Data to Include in the Report
 When you open a report, you are typically presented with a page where you set various options and filters that determine what to include in the report. This page is called the report request page. For example, the report request page lets you create a report for a specific customer, a certain date range, or sort the order of information in the report. Here is an example of a report request page:
 
 ![Report options](media/report_options.png "Report options")
+
+> [!Caution]
+> The **Show results** section on a request page provides a generic filtering capability for reports. These filters are optional.<br /><br /> Some reports will ignore any such filters, meaning that no matter what filter is set in the **Show results** section, the output of the report is the same. It is not possible to provide a list of which fields are ignored in which reports, so you will have to experiment with the filters when using them.<br /><br />
+**Example**: When you use the **Create Reminders** batch job, a filter for the **Customer Ledger Entries** field of **Last Issued Reminder Level** will be ignored because filters are fixed for that batch job.
 
 ### <a name="SavedSettings"></a>Using Saved Settings
 With some reports, depending on how they are designed, the report page might include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. The entries in this box are called *saved settings*. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you looked at the report.
@@ -47,9 +56,9 @@ You can add more filters by setting the **Add** boxes. When you have more than o
 
 Depending on what type field you are filtering, you can specify the filter criteria to look for an exact match, partial match, range of values, and more. For help about how to set up filters, see:
 -   [Filtering](ui-enter-criteria-filters.md#FilterCriteria)
--   [Entering Date Ranges](ui-enter-date-ranges.md)
+-   [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
 
-## <a name="previewing-a-report"></a>Previewing a report
+## <a name="previewing-a-report"></a>Previewing a Report
 Choose **Preview** to see the report in the Internet browser. Point to an area of the report to show the menu bar.  
 
 ![Report preview toolbar](media/report_viewer.png "Report preview toolbar")
@@ -88,4 +97,3 @@ A report layout controls what is shown on a report, how it is arranged, and how 
 [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

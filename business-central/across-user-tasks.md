@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 492eeda86a392320c8b8205d3faa76416a9cf6fb
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852362"
 ---
-# <a name="defining-user-tasks"></a>Defining User Tasks
+# <a name="define-user-tasks"></a>Define User Tasks
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can create tasks to remind you of work to be done. You can create tasks for yourself, but you can also assign tasks to others or be assigned a task by someone else in your organisation.  
 
 ## <a name="managing-user-tasks"></a>Managing User Tasks
@@ -41,4 +41,3 @@ If you want to bulk delete all or some user tasks, you can use the **Delete User
 ## <a name="see-also"></a>See Also
 [Searching for a Page or Report](ui-search.md)  
 [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
-

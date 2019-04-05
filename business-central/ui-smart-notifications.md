@@ -2,7 +2,7 @@
 title: Work With Smart Notifications and Specify When You See Them | Microsoft Docs
 description: You can receive notifications that inform you about status changes or events, for example, an overdue balance or low inventory.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: ea0429a42447a980cf9d23f0f3b70d7c57efa184
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa37e68f0544325e75e3869c61e00cde0d71a520
-ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852173"
 ---
-# <a name="smart-notifications"></a>Smart Notifications
+# <a name="managing-notifications"></a>Managing Notifications
 [!INCLUDE[d365fin](includes/d365fin_md.md)] can help you work smarter by notifying you about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell, for example. These notifications are shown as discreet tips in the context of the task you are doing, and you can choose to ignore the notification or to see details about the issue.  
 
 If you choose to see details for a notification, you can take action to resolve the issue, such as contacting the customer, buying more inventory, and so on. It's your choice what to do, and [!INCLUDE[d365fin](includes/d365fin_md.md)] gives you advice and recommendations.  
@@ -38,4 +38,3 @@ Turning notifications on or off, and specifying conditions, applies only to you.
 
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

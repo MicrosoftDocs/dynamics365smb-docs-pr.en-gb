@@ -2,7 +2,7 @@
 title: Personalising Pages | Microsoft Docs
 description: Learn how to customise the user interface to suit your way of working.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,16 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 65bd6d24395990d2b92b7eeea0c7b208f7311eef
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: df4c40e38b3f7784f9f7603cddbfd9ac8681d952
-ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852316"
 ---
 # <a name="personalizing-your-workspace"></a>Personalising Your Workspace
-<!--NAV in the Web client--> You can customise, or *personalise*, your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalisation changes that you make will only affect what you see, not what other users see.
+<!--NAV in the Web client-->
+You can customise, or *personalise*, your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalisation changes that you make will only affect what you see, not what other users see.
 
 Depending on the type of page and what it includes, you can:
 
@@ -29,7 +30,10 @@ Depending on the type of page and what it includes, you can:
 -   Change the freeze pane of columns in a list. The freeze pane locks one or more columns to the left side of a list so that are always present, even when you scroll horizontally.
 -   Adjust the width of columns in a list.
 -   Move and remove Cues (tiles).
--   Move and remove parts. Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.  
+-   Move and remove parts. Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.
+
+> [!NOTE]
+> In addition to what users can personalise, administrators and super users can override users' personalisations and define which features are accessible in all or specific companies. For more information, see [Customising Business Central](ui-customizing-overview.md). 
 
 ## <a name="to-personalize-a-page"></a>To personalise a page
 
@@ -79,4 +83,3 @@ To help you better understand personalisation, here are some pointers.
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  
-

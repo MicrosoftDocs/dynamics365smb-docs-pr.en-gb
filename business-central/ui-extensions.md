@@ -1,7 +1,7 @@
 ---
 title: Installing Extensions to Customise Business Central  | Microsoft Docs
 description: Learn about adding functionality and customising Business Central  by installing extensions.
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 11/27/2018
 ms.author: edupont
+ms.openlocfilehash: f093a9ce2a654d5ee693ee91f32e87f6546279d1
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 8b68012cc6032d14071ec0eb30c0efaf947344a0
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852454"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Customising Business Central Using Extensions
 You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.
@@ -60,7 +60,7 @@ Microsoft provides the following extensions:
 * [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)  
 * [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)  
 * [Accountant Portal](ui-extensions-accountant-portal.md)  
-* [Image Analyzer](ui-extensions-image-analyzer.md)  
+* [Image Analyser](ui-extensions-image-analyzer.md)  
 * [Payments and Reconciliations (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
 * [C5 Data Migration](ui-extensions-c5-data-migration.md)  
 * [Essential Business Insights](ui-extensions-essential-business-insights.md)  
@@ -71,6 +71,7 @@ Microsoft provides the following extensions:
 
 ## <a name="see-also"></a>See Also
 [Extending Dynamics 365 Business Central](about-develop-extensions.md)  
+[Business Central Extensions by Other Providers](ui-extensions-other.md)  
 [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
 [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrating Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
@@ -79,4 +80,3 @@ Microsoft provides the following extensions:
 [Getting Started](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

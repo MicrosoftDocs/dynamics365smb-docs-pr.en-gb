@@ -11,15 +11,14 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 10/01/2018
 ms.author: bmeier
+ms.openlocfilehash: 932b6f45ed4f8704b48873518ba2b096efc33e7a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abf01698e25ae04a2e34696fb2443ff7d413a26
-ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852140"
 ---
-
-# <a name="your-access-to-the-intelligent-cloud-with-includeprodlongincludesprodlongmd"></a>Your Access to the Intelligent Cloud with [!INCLUDE[prodlong](includes/prodlong.md)]
+# <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Your Access to the Intelligent Cloud with [!INCLUDE[prodshort](includes/prodshort.md)]
 
 As a user of [!INCLUDE[prodshort](includes/prodshort.md)] online, you have full access to scenarios that are based on the intelligent cloud, such as editing data in Excel and pushing changes back to [!INCLUDE[prodshort](includes/prodshort.md)], or when you view your data in Power BI. However, while [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud-first service, also those customers who need to run their workloads fully on-premises or on the intelligent edge connected to the cloud can do so.  
 
@@ -53,4 +52,3 @@ When your Dynamics 365 reselling partner has acquired the right licence for your
 [Business Central Intelligent Cloud extension](ui-extensions-intelligent-cloud.md)  
 [Data Replication extension](ui-extensions-data-replication.md)  
 [Connect to the Intelligent Cloud](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge)  
-
