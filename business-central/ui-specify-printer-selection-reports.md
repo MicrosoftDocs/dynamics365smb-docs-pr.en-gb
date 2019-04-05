@@ -2,7 +2,7 @@
 title: Setting Up Reports to Print on Specific Printers | Microsoft Docs
 description: Learn about specifying a printer for a report and using the Printer Selections page.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: bc3a7ab7a61e7a51a58494c3f5892c22b6867333
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809357"
 ---
-# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="e0f37-103">Specify Printer Selection for Reports</span><span class="sxs-lookup"><span data-stu-id="e0f37-103">Specify Printer Selection for Reports</span></span>
-<span data-ttu-id="e0f37-104">This page is empty because you cannot yet set up specific printers for specific reports.</span><span class="sxs-lookup"><span data-stu-id="e0f37-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="e0f37-105">We are working on solving this.</span><span class="sxs-lookup"><span data-stu-id="e0f37-105">We are working on solving this.</span></span>
+# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="46d58-103">Specify Printer Selection for Reports</span><span class="sxs-lookup"><span data-stu-id="46d58-103">Specify Printer Selection for Reports</span></span>
+<span data-ttu-id="46d58-104">This page is empty because you cannot yet set up specific printers for specific reports.</span><span class="sxs-lookup"><span data-stu-id="46d58-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="46d58-105">We are working on solving this.</span><span class="sxs-lookup"><span data-stu-id="46d58-105">We are working on solving this.</span></span>
 
-<span data-ttu-id="e0f37-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span><span class="sxs-lookup"><span data-stu-id="e0f37-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="e0f37-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span><span class="sxs-lookup"><span data-stu-id="e0f37-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="e0f37-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span><span class="sxs-lookup"><span data-stu-id="e0f37-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
+<span data-ttu-id="46d58-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span><span class="sxs-lookup"><span data-stu-id="46d58-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="46d58-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span><span class="sxs-lookup"><span data-stu-id="46d58-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="46d58-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span><span class="sxs-lookup"><span data-stu-id="46d58-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
 
 <!--
 
@@ -45,8 +45,7 @@ The following table describes the combination of values to specify when you set 
 |Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
 -->
 
-## <a name="see-also"></a><span data-ttu-id="e0f37-109">See Also</span><span class="sxs-lookup"><span data-stu-id="e0f37-109">See Also</span></span>
-<span data-ttu-id="e0f37-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e0f37-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="e0f37-111">Run Batch Jobs</span><span class="sxs-lookup"><span data-stu-id="e0f37-111">Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
-[<span data-ttu-id="e0f37-112">Send Documents by Email</span><span class="sxs-lookup"><span data-stu-id="e0f37-112">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
-
+## <a name="see-also"></a><span data-ttu-id="46d58-109">See Also</span><span class="sxs-lookup"><span data-stu-id="46d58-109">See Also</span></span>
+<span data-ttu-id="46d58-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="46d58-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="46d58-111">Run Batch Jobs</span><span class="sxs-lookup"><span data-stu-id="46d58-111">Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
+[<span data-ttu-id="46d58-112">Send Documents by Email</span><span class="sxs-lookup"><span data-stu-id="46d58-112">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
