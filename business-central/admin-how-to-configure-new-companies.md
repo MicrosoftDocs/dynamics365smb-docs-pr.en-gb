@@ -2,22 +2,22 @@
 title: How to Configure New Companies | Microsoft Docs
 description: You can configure and customise a new company that you have created. To fine tune your implementation, you proceed in three phases to complete your configuration.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1c953b0a5e1247115b26a8984a632478f80cdda
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809790"
 ---
 # <a name="configure-new-companies"></a>Configure New Companies
 To configure a new company in your solution implementation, you typically follow three phases. In the first phase, you import the configuration package, a .rapidstart file with the configuration information. In the second phase, you modify the configuration information and then apply it to your new company. In the final phase, you review and fix any errors.  
@@ -71,10 +71,9 @@ There are certain types of errors that may occur when you apply data to a databa
     > [!NOTE]  
     >  If you import the same package again, you may overwrite any data modifications that you have already made. For that reason, you may want to add any new tables in a new package and import that instead.  
 
-7. Apply the data to the database, as described in the "To modify and apply package data" section.
+7. Apply the data to the database, as described in [To modify and apply package data](admin-how-to-configure-new-companies.md#to-modify-and-apply-package-data).
 
 ## <a name="see-also"></a>See Also  
 [Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

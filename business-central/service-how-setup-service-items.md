@@ -2,22 +2,22 @@
 title: Set Up for Service Items and Service Item Components | Microsoft Docs
 description: Learn about the things you must set up before you can use service items, including default values such as response time, contract discount percent, and service price group.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e82aa86668da5999117eea636ee29d8fde2cc09e
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809143"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Set Up Service Items and Service Item Components
 To work with service items, you must set up the following
@@ -65,4 +65,3 @@ You can set up service shelves that identify where you store your service items.
 ## <a name="see-also"></a>See Also
 [Set Up Codes for Standard Services](service-how-setup-service-coding.md)   
 [Set Up Troubleshooting](service-how-setup-troubleshooting.md)
-

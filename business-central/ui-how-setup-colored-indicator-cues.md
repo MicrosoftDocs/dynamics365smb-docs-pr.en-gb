@@ -1,8 +1,8 @@
 ---
 title: Customise Visual Signals About a Cue's Activity | Microsoft Docs
-description: "Set up a coloured indicator on a Cue tile to provide a personalised visual signal of the Cue’s activity."
+description: Set up a coloured indicator on a Cue tile to provide a personalised visual signal of the Cue’s activity.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: personalize, customize
 ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-how-set-up-colored-indicator-on-cues
+ms.openlocfilehash: 0547091220aa65562766c25fe6a06d456a2c96ad
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 366d762fbfbd2a61253b087577ef2810194e2c35
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808961"
 ---
 # <a name="set-up-a-colored-indicator-on-cues"></a>Set Up a Coloured Indicator on Cues
 You can set up Cues that appear on the Role Centre to include an indicator that changes colour based on the data values in the Cues.
@@ -46,4 +46,3 @@ The following table lists the colors that correspond to the options of the **Low
 
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

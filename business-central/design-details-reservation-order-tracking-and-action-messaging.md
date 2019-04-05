@@ -2,7 +2,7 @@
 title: Design Details - Reservation, Order Tracking, and Action Messaging | Microsoft Docs
 description: The reservations system is comprehensive and includes the interrelated and parallel features of Order Tracking and Action Messaging.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 11/05/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f44bbe229db6067531e894be9ae768eb909727e7
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808831"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Design Details: Reservation, Order Tracking, and Action Messaging
 The reservations system is comprehensive and includes the interrelated and parallel features of Order Tracking and Action Messaging.  
@@ -232,4 +232,3 @@ On the **Manufacturing Setup** page, the **Components at Location** field is set
 ## <a name="see-also"></a>See Also  
 [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)   
 [Design Details: Supply Planning](design-details-supply-planning.md)
-

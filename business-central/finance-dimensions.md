@@ -2,7 +2,7 @@
 title: Work with Dimensions| Microsoft Docs
 description: You use dimensions to categorise entries, for example, by department or project, so you can easily track and analyse data.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ac8d1f84c3daacbee931d559e6f67f4351df73c5
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809675"
 ---
 # <a name="working-with-dimensions"></a>Working with Dimensions
 To make it simpler to perform analysis on documents such as sales orders, you can use dimensions. Dimensions are attributes and values that categorise entries so you can track and analyse them. For example, dimensions can indicate the project or department an entry came from.  
@@ -176,4 +176,3 @@ In a ledger entry page, you can see whether there are global dimensions for the 
 [Finance](finance.md)  
 [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

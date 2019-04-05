@@ -2,7 +2,7 @@
 title: Setting up Cash Flow Analysis| Microsoft Docs
 description: Set up the charts on the Accounts Role Centre to help analyse the flow of money in your business, including expenses and income, liquidity, and cash receipts minus cash payments.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 01/18/2019
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: 24fad5d816260764a3eb2c476e5bff86268790a1
-ms.contentlocale: en-gb
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808907"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setting Up Cash Flow Analysis
 If you want some help to decide what to do with your cash, have a look at the charts on the Accountant Role Centre:  
@@ -72,7 +72,7 @@ To use the assisted setup guide:
 
 To use a manual process:  
 
-1. In the Accountant Role Center, search for **Cash Flow Setup**, and then choose the related link.  
+1. In the Accountant Role Centre, search for **Cash Flow Setup**, and then choose the related link.  
 2. Expand the **Cortana Intelligence** FastTab, and then choose the **Cortana Intelligence Enabled** check box.  
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Forecast**, and then choose the related link.
 4. On the **Cash Flow Forecast** page, choose the **Recalculate Forecast** action.  
@@ -84,7 +84,7 @@ To use a manual process:
 You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Business Central**. This predictive model is available online in the Cortana Intelligence Gallery. To use the model, follow these steps:  
 
 1. Open a browser and go to the [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Search for **Forecasting Model for Microsoft Business Central **, and then open the model in Azure Machine Learning Studio.  
+2. Search for **Forecasting Model for Microsoft Business Central**, and then open the model in Azure Machine Learning Studio.  
 3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
 4. Run the model, and publish it as a web service.  
 5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
@@ -92,7 +92,6 @@ You can also create your own predictive web service based on a public model name
 7. Expand the **Cortana Intelligence** FastTab, and then fill in the fields.  
 
 ## <a name="see-also"></a>See Also
-[Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
+[Analysing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

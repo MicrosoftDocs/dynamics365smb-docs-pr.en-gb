@@ -2,7 +2,7 @@
 title: Manage Bank Accounts| Microsoft Docs
 description: You must regularly reconcile bank ledger entries with the related bank transactions in your bank accounts.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: reconcile
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 62b2bf8987146a69d17bd343f88d31d60a205ffb
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809328"
 ---
 # <a name="managing-bank-accounts"></a>Managing Bank Accounts
 At regular intervals, you must reconcile your bank ledger entries in [!INCLUDE[d365fin](includes/d365fin_md.md)] with the related bank transactions in bank accounts at your bank, and then post the balance to your bank account. You can perform this task either as part of processing the payments represented on a bank statement in the **Payment Reconciliation Journal**. Alternatively, you can perform the task separately from payment processing, on the **Bank Acc. Reconciliation** page where you match (reconcile) bank statement lines in the left-hand pane with your internal bank account ledger entries in the right-hand pane. In both pages, you can fill in the bank statement information by importing a file or feed and you can use automatic matching suggestions.
@@ -46,4 +46,3 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

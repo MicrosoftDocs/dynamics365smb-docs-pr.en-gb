@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: SorenGP
+ms.openlocfilehash: bf0687d5b3000dde609c1eca29a0f2534d384ada
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b3cbf41f5c803eb8d992d67e9e880759c247298e
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808782"
 ---
 # <a name="transfer-inventory-between-locations"></a>Transfer Inventory Between Locations
 You can transfer inventory items between locations by creating transfer orders. Alternatively, you can use the item reclassification journal.
@@ -25,7 +25,7 @@ With transfer orders, you ship the outbound transfer from one location and recei
 With the reclassification journal, you simply fill in the **Location Code** and the **New Location Code** fields. When you post the journal, the item ledger entries are adjusted at the locations in question. With this method, warehouse activities are not managed.
 
 > [!NOTE]  
->   If you have items recorded in your inventory without a location code, for example from a time when you only had one warehouse, then you cannot transfer those items using transfer orders. Instead, you must use the reclassification journal to reclassify the items from a blank location code to an actual location code.  For more information, see step 3 in the "To transfer items with the item reclassification journal" section.
+>   If you have items recorded in your inventory without a location code, for example from a time when you only had one warehouse, then you cannot transfer those items using transfer orders. Instead, you must use the reclassification journal to reclassify the items from a blank location code to an actual location code.  For more information, see step 3 in [To transfer items with the item reclassification journal](inventory-how-transfer-between-locations.md#to-transfer-items-with-the-item-reclassification-journal).
 
 To transfer items, locations and transfer routes must be set up. For more information, see [Set Up Locations](inventory-how-setup-locations.md).
 
@@ -62,4 +62,3 @@ To transfer items, locations and transfer routes must be set up. For more inform
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)
-

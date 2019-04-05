@@ -2,7 +2,7 @@
 title: Manage Interactions With Your Contacts| Microsoft Docs
 description: You can manage all types of communication or interactions between your company and your contacts, for example, letters, phone calls, meetings, and so on.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809010"
 ---
 # <a name="managing-interactions-with-contacts"></a>Managing Interactions With Contacts
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], interactions are all types of communications between your company and your contacts. For example, communications can be by letter, fax, email, telephone, meetings, and so on.
@@ -58,4 +58,3 @@ You can delete interaction log entries that have been cancelled. To delete inter
 [Managing Contacts](marketing-contacts.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Working with Business Central](ui-work-product.md)  
-

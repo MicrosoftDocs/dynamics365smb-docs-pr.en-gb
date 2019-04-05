@@ -2,22 +2,22 @@
 title: How to Reserve Items | Microsoft Docs
 description: You can reserve items for sales orders, purchase orders, and production orders. You can reserve items on inventory or inbound on open document lines.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 531489dddc80530b1d2c33a828388a90784db6c0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: aa7e25f8e1d837dde55ac05812306634c4ac37bf
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809493"
 ---
 # <a name="reserve-items"></a>Reserve Items
 You can reserve items for sales orders, purchase orders, service orders, assembly orders, and production orders. You can reserve items on inventory or inbound on open document or journal lines. You perform the work on the **Reservation** page.
@@ -38,7 +38,7 @@ The following describes how to reserve items from a sales order. The steps are s
     |**Cancel Reservation from Current Line**|To cancel reservation of the items from the document on the line you have selected.|
 
 > [!NOTE]  
->  If item tracking lines exist for the sales order, the reservation system will take you through special steps. For more information, see the "To reserve a specific serial or lot number" section.  
+>  If item tracking lines exist for the sales order, the reservation system will take you through special steps. For more information, see [To reserve a specific serial or lot number](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
 ## <a name="to-reserve-an-item-for-a-production-order-line"></a>To reserve an item for a production order line  
 You can reserve items for production orders. You have to distinguish between production order lines, meaning the parent item, and production order components.
@@ -101,4 +101,3 @@ The following procedure is based on a sales order.
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

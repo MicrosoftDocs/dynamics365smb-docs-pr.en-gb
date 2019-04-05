@@ -1,23 +1,23 @@
 ---
 title: SEPA Direct Debit in Business Central | Microsoft Docs
-description: "You can collect payments directly from the customer’s bank account according to the SEPA format."
+description: You can collect payments directly from the customer’s bank account according to the SEPA format.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/15/2018
 ms.author: sgroespe
+ms.openlocfilehash: f917bed9eedf3c0aa8227d9c207de5e38f60a791
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c732702808f807396702cef9ef0a1a22354ead15
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809144"
 ---
-# <a name="collecting-payments-with-sepa-direct-debit"></a>Collecting Payments with SEPA Direct Debit
+# <a name="collect-payments-with-sepa-direct-debit"></a>Collect Payments with SEPA Direct Debit
 With your customer’s consent, you can collect payments directly from the customer’s bank account according to the SEPA format.  
 
  First, set up the export format of the bank file that instructs your bank to perform a direct debit. Then, set up the customer’s payment method. Last, set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.  
@@ -158,4 +158,3 @@ Before you can process customer payments electronically by exporting direct debi
 
 ## <a name="see-also"></a>See Also  
 [Managing Receivables](receivables-manage-receivables.md)
-

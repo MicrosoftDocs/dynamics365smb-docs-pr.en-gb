@@ -1,8 +1,8 @@
 ---
 title: Acquire Fixed Assets| Microsoft Docs
-description: "You can set up a fixed asset, assign a depreciation book, and record the fixed asset’s acquisition cost."
+description: You can set up a fixed asset, assign a depreciation book, and record the fixed asset’s acquisition cost.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 56062eb42db00408031cff5438cc2b9276011d27
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2839753f888dfd76e17672c36b15da47a344900f
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809028"
 ---
 # <a name="acquire-fixed-assets"></a>Acquire Fixed Assets
 For each fixed asset, you must set up a card containing information about the asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. A depreciation book must be set up and assigned to each fixed asset before you can acquire it.
@@ -29,12 +29,12 @@ The salvage value is the residual value of a fixed asset when it can no longer b
 Indexation is used to adjust values for general price-level changes. The **Index Fixed Assets** batch job can be used to calculate the acquisition costs at replacement costs.
 
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>To create a fixed asset and acquire it automatically
-The following procedure describes how to create a fixed asset and then acquire it by using the **Assisted Fixed Asset Acquisition** page to create and post the required fixed asset G/L journal lines. You can also create and post the journal lines manually. For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section.
+The following procedure describes how to create a fixed asset and then acquire it by using the **Assisted Fixed Asset Acquisition** page to create and post the required fixed asset G/L journal lines. You can also create and post the journal lines manually. For more information, see [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields on the **General** FastTab as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. On the **Depreciation Book** FastTab, fill in the fields as necessary. This step assigns a depreciation book to the fixed asset.  
-4. If you need to assign more than one depreciation book to the fixed asset, choose the **Add More Depreciation Books** action. For more information, see the "To assign a depreciation book to a fixed asset" section in [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
+4. If you need to assign more than one depreciation book to the fixed asset, choose the **Add More Depreciation Books** action. For more information, see [To assign a depreciation book to a fixed asset](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset).
 
     When all fields required to acquire a fixed asset are filled in, the **You are ready to acquire the fixed asset. Acquire** notification appears at the top of the page.
 5. Choose the **Acquire** action in the notification.
@@ -59,7 +59,7 @@ Both the main asset and all its components must be set up as individual fixed as
 7. Select the **Allow Posting to Main Assets** check box.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>To post a fixed asset acquisition manually with the fixed asset G/L journal
-The following procedure describes how to acquire a fixed asset manually by creating and posting lines on the **Fixed Asset G/L Journal** page. You can also acquire a fixed asset automatically by using the **Assisted Fixed Asset Acquisition** page. For more information, see step 5 in the "To create a fixed asset and acquire it automatically" section.
+The following procedure describes how to acquire a fixed asset manually by creating and posting lines on the **Fixed Asset G/L Journal** page. You can also acquire a fixed asset automatically by using the **Assisted Fixed Asset Acquisition** page. For more information, see step 5 in [To create a fixed asset and acquire it automatically](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically).
 
 > [!NOTE]  
 >   You can also post acquisition cost as credits. In that case, remember that the value in the **Amount** field must be with a minus sign to indicate a credit.
@@ -91,7 +91,7 @@ To cancel ledger entries for multiple fixed assets at a time, use the **Cancel F
 You can post the salvage value together with the acquisition cost from a fixed asset G/L journal.    
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cancel FA Entries**, and then choose the related link.
-2. Create the acquisition journal line. For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section.
+2. Create the acquisition journal line. For more information, see [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 3. In the **Salvage Value** field on the journal line, enter the salvage value amount as a credit (with a minus sign).
 4. Choose the **Post** action.
 
@@ -104,4 +104,3 @@ You can post the salvage value together with the acquisition cost from a fixed a
 [Finance](finance.md)  
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

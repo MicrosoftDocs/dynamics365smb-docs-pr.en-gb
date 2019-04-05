@@ -2,7 +2,7 @@
 title: Using Human Resources Functionality| Microsoft Docs
 description: You can register new personnel, edit information about existing staff, and record and analyse absence.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 209a36d19d38f62aa94f77f8ef33b849c078dd67
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: a0254dad989b361883dd62f1f798686452941538
-ms.contentlocale: en-gb
-ms.lasthandoff: 04/18/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809588"
 ---
 # <a name="manage-human-resources"></a>Manage Human Resources
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees. You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.
@@ -37,4 +37,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Which Features are Displayed](ui-experiences.md)        
-

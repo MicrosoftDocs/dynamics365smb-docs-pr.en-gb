@@ -2,22 +2,22 @@
 title: How to Create Journal Opening Balances | Microsoft Docs
 description: Business Central includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data with journals postings.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 612eb9cfa5c6cd45bf154f4813efa3b349f44841
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fc8e8f34220643b7cd3fd357aea3807641cee911
-ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809779"
 ---
 # <a name="create-journal-opening-balances"></a>Create Journal Opening Balances
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data with the customer journal, the vendor journal, the item journal, or the G/L journal.
@@ -45,4 +45,3 @@ Before you start, make sure that you are on the RapidStart Services Implementer 
 [Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

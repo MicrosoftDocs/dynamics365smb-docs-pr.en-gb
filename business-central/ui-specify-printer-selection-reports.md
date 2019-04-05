@@ -2,7 +2,7 @@
 title: Setting Up Reports to Print on Specific Printers | Microsoft Docs
 description: Learn about specifying a printer for a report and using the Printer Selections page.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: bc3a7ab7a61e7a51a58494c3f5892c22b6867333
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809357"
 ---
 # <a name="specify-printer-selection-for-reports"></a>Specify Printer Selection for Reports
 This page is empty because you cannot yet set up specific printers for specific reports. We are working on solving this.
@@ -49,4 +49,3 @@ The following table describes the combination of values to specify when you set 
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Run Batch Jobs](ui-how-run-batch-jobs.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
-

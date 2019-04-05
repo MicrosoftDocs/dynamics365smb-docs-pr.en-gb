@@ -2,7 +2,7 @@
 title: Overview of Pre-Closing Reports to Verify Account Accuracy | Microsoft Docs
 description: Provides an overview of the reports you can use to verify the accuracy of accounts before closing the books at the end of a year or period.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 94fe194350eeb7e83ce443452cf876f6e498ca27
-ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809205"
 ---
 # <a name="using-pre-closing-reports"></a>Using Pre-Closing Reports
 There are many standard reports that you can use to verify the accuracy of the accounts before closing the books at the end of a year or period. For example, you can use the **Customer - Trial Balance** report to verify that the balance for a customer posting group is equal to the balance on the corresponding general ledger account on a certain date.
@@ -40,5 +40,4 @@ To see a report, choose the ![Lightbulb that opens the Tell Me feature](media/ui
 ## <a name="see-also"></a>See Also
 [Closing Years and Periods](year-close-years-periods.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7d952f46d5e688fe1b86077723a0482c91995661
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 519696376cba2e494ad83b3e1bce442de8299884
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809387"
 ---
-# <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Reconcile Payments That Cannot be Applied Automatically
+# <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Reconcile Payments that Cannot be Applied Automatically
 You may sometimes have to handle payments to your bank account that cannot be applied to a related open customer, vendor or bank account ledger entry. Reasons may be that no document exists in [!INCLUDE[d365fin](includes/d365fin_md.md)] that the payment can be applied to, or the related document in [!INCLUDE[d365fin](includes/d365fin_md.md)] has a different amount than the transaction amount, for example, because of currency exchange. On the **Payment Reconciliation Journal** page, all transaction amounts for payments that are not yet applied appear in the **Difference** field, including amounts that cannot be applied because of reasons such as the above.
 
 Payments that cannot be applied can appear on payment reconciliation journal lines in the following different ways:
@@ -30,7 +30,7 @@ To reconcile such payments, you can choose the **Transfer Difference to Account*
 > [!TIP]  
 >   Similar functionality exists to set up automatic reconciliation of recurring payments that cannot be applied to related open customer, vendor, or bank account ledger entries. For more information, see [Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-## <a name="to-reconcile-payments-that-cannot-be-applied"></a>To reconcile payments that cannot be applied
+## <a name="to-reconcile-payments-that-cannot-be-applied-automatically"></a>To reconcile payments that cannot be applied automatically
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
 2. Open a payment reconciliation journal. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 3. Choose the **Transfer Difference to Account**. The **Transfer Difference to Account** page opens.
@@ -47,4 +47,3 @@ If the value in the **Difference** field was lower than the value in the **Trans
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -2,22 +2,22 @@
 title: Set Up Statuses for Service Orders and Repairs | Microsoft Docs
 description: You must set up nine repair status options that identify the progress of repair and maintenance of service items in service orders.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 366bf200b78e4927b1c202340dd84af09d32c1a5
-ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808881"
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Set Up Statuses for Service Orders and Repairs
 You must set up repair status options that identify the progress of repair and maintenance of service items in service orders. You must set up at least nine repair status options that identify situations or actions taken when servicing service items.  
@@ -44,4 +44,3 @@ When you change the repair status of a service item in a service order, the serv
 ## <a name="see-also"></a>See Also  
 [Service Order Status and Repair Status](service-service-order-status-and-repair-status.md)  
 [Setting Up Service Management](service-setup-service.md)  
-

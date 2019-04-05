@@ -1,7 +1,7 @@
 ---
 title: Get an Availability Overview| Microsoft Docs
 description: You can get information about the availability of items or stock across locations, per sales or purchase events, by a time period, or by the item's position on an assembly or production BOM.
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 47634e2af9b109c8102c527508c4a9d94a3cb7c0
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809131"
 ---
 # <a name="view-the-availability-of-items"></a>View the Availability of Items
 From the context of a business task, you can get advanced information about when and where an item is available, such as when talking to a customer about a delivery date.
@@ -121,4 +121,3 @@ If one or more assembly components are not available, then this is reflected in 
 [Sell Products](sales-how-sell-products.md)      
 [Working with Business Central](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
-

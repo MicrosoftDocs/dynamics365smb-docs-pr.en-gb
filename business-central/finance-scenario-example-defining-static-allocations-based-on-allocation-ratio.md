@@ -2,23 +2,23 @@
 title: Defining Static Allocations Based on Allocation Ratio | Microsoft Docs
 description: Static allocation method is based on a definite value, such as square meters used, or an established allocation ratio such as 5:2:4.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d35fd5de7a0583c3864268d0749384322bf947ed
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809653"
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Scenario Example: Defining Static Allocations Based on Allocation Ratio
 Static allocation method is based on a definite value, such as square meters used, or an established allocation ratio such as 5:2:4.  
@@ -61,4 +61,3 @@ This topic describes how to define three new allocation target cost objects for 
 
 ## <a name="see-also"></a>See Also  
 [Defining and Allocating Costs](finance-define-and-allocate-costs.md)   
-

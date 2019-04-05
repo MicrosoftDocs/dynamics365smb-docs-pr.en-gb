@@ -2,7 +2,7 @@
 title: Manage Segments and Select Contacts to Include| Microsoft Docs
 description: Outlines the tasks to create a segment to select a group of contacts according to specific criteria, for example, contacts in a particular industry that you want to target.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: c49ccda1632eccabb412cfe44f59abd1ed2efc09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fab3aed9e8c426d6a8840177f63f74afe808428d
-ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809425"
 ---
 # <a name="managing-segments"></a>Managing Segments
 You create segments to select a group of contacts according to specific criteria. For example, a segment could be the industry that the contacts belong to or your business relationship with the contacts. You can create a segment to select the contacts you want to target with a campaign.
@@ -39,4 +39,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Managing Contacts](marketing-contacts.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

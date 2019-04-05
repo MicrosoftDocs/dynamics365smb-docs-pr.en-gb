@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 91f21f3b6382aee410ea1de51f371999ac86281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fbbf44cd7a98598ed25dadeb4d6e3a8d37a0bfb0
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809344"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Use XML Schemas to Prepare Data Exchange Definitions
 To enable import/export of data in XML files through the data exchange framework in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use XML schemas to define which data elements you want to exchange with [!INCLUDE[d365fin](includes/d365fin_md.md)]. You perform this work on the **XML Schema Viewer** page by loading the XML schema file, selecting the relevant data elements, and then initialising either a data exchange definition or an XMLport.  
@@ -130,6 +130,5 @@ To enable import/export of data in XML files through the data exchange framework
 ## <a name="see-also"></a>See Also  
 [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)   
 [Export Payments to a Bank File](payables-how-export-payments-bank-file.md)   
-[Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
+[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
 [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)
-

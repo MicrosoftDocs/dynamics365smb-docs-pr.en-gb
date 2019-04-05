@@ -7,16 +7,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 6d24df38b980542b1c77d737b8f661fac0df29fa
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d427ab28e1344ece77baaab8ceefe4043d3beaa0
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809473"
 ---
 # <a name="post-sepa-direct-debit-payment-receipts"></a>Post SEPA Direct Debit Payment Receipts
 When a direct debit collection is successfully processed by your bank, you can proceed to post receipt of the payment for the involved sales invoices. For more information, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
@@ -39,6 +39,5 @@ You can post the payment receipt directly from the **Direct Debit Collections** 
 5. Choose the **OK** button.  
 
 ## <a name="see-also"></a>See Also  
- [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
+ [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
  [Sales](sales-manage-sales.md)
-

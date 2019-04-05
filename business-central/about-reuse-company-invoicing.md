@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/26/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 95213b7d5881945bb2880e6288eef1b415427ca5
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809171"
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Using the same Office 365 Account in [!INCLUDE[d365fin](includes/d365fin_long_md.md)] and Microsoft Invoicing
 When you sign up for a trial with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can move to a 30-day evaluation phase, you can start a subscription, or you can stop using [!INCLUDE[d365fin](includes/d365fin_md.md)]. In all cases, if you log into the Office Portal, you might see a tile called **Microsoft Invoicing** and click it. This is part of the Office 365 Business Premium subscription, so not everyone will see that tile in the Office Portal.  
@@ -49,4 +49,3 @@ If you use both Invoicing and [!INCLUDE[d365fin](includes/d365fin_md.md)], the d
 ## <a name="see-also"></a>See Also
 [Frequently Asked Questions](across-faq.md)  
 [Administration](admin-setup-and-administration.md)  
-

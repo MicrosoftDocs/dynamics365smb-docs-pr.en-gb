@@ -11,12 +11,12 @@ ms.search.keywords: accounting year, fiscal period
 ms.date: 11/21/2018
 ms.author: edupont
 redirect_url: finance-accounting-periods-and-fiscal-years
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cb523f1ee5b8bfafa63fc41284da6450f205967e
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809220"
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Open a New Fiscal Year and Create Accounting Periods
 Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.  
@@ -39,4 +39,3 @@ The accounting periods are added to the page with the **Starting Date** and **Na
 [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

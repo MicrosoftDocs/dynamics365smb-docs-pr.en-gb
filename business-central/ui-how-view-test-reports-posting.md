@@ -2,7 +2,7 @@
 title: Review a Test Report Before Posting a Sales or Purchase Document | Microsoft Docs
 description: Before you post a document, for example, an order or a credit memo, you can test and review it to check for errors that might block posting.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: cead1a86d50b0fc0e3b2998d748b8edf4a76b735
-ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808810"
 ---
 # <a name="view-test-reports-before-posting"></a>View Test Reports Before Posting
 When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.
@@ -34,5 +34,4 @@ All parts of the purchase invoice are tested, and the result is presented in a r
 ## <a name="see-also"></a>See Also
 [Post Documents and Journals](ui-post-documents-journals.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

@@ -2,22 +2,22 @@
 title: How to Configure a Company with the RapidStart Wizard | Microsoft Docs
 description: You can quickly configure a new company that you have created by using the RapidStart Services configuration wizard.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 63120671100b7caac7f3cb08bd3fbbcd1d29ff5c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4dd595fabbf8e4cd2a3eef73a934922dfea92858
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809216"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configure a Company with the RapidStart Wizard
 You can quickly configure a new company that you have created by using the RapidStart Services configuration wizard.
@@ -33,7 +33,7 @@ In the following procedure, you have provided the customer with the configuratio
 
     1. Apply the configuration by choosing the **Apply Package** action. This imports the configuration package and applies the package database data all at the same time.  
 
-    2. Review the configuration after it has been applied. This option lets you review configuration details and questionnaires provided by the partner and import some master data that is required for your company. Choose the **Configuration Worksheet** action. For more information, see the "To complete the configuration questionnaire" section in [Gather Customer Setup Values](admin-gather-customer-setup-values.md).  
+    2. Review the configuration after it has been applied. This option lets you review configuration details and questionnaires provided by the partner and import some master data that is required for your company. Choose the **Configuration Worksheet** action. For more information, see [To complete the configuration questionnaire](admin-gather-customer-setup-values.md#to-complete-the-configuration-questionnaire).  
 
 6. Expand the **Step 5** FastTab. Specify which Role Centre that you want to be the default for the new company.  
 
@@ -51,4 +51,3 @@ You have now configured the company and applied data to it.
 [Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

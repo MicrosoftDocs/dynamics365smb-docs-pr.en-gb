@@ -2,7 +2,7 @@
 title: Business Intelligence| Microsoft Docs
 description: Capture and analyse business data, such as sales figures, purchases, operational expenses, employee salaries, and budgets, that can be valuable information for business intelligence or for decision making.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809424"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Businesses capture a tremendous amount of data through daily activity. This data, which reflects such things as the organisation's sales figures, purchases, operational expenses, employee salaries, and budgets, can become valuable information, or business intelligence, for decision makers. [!INCLUDE[d365fin](includes/d365fin_md.md)] contains a number of features that help you gather, analyze, and share your company data.
@@ -42,9 +42,8 @@ The following table describes a sequence of tasks, with links to the topics that
 [Finance](finance.md)    
 [Using Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Closing Fiscal Periods](year-close-years-periods.md)  
-[Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

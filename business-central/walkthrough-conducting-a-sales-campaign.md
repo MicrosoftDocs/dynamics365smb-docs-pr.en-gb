@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1922c9c2112006b302851301224818f803d9f4e2
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809247"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Walkthrough: Conducting a Sales Campaign
 A campaign is any kind of activity that involves several contacts. An important part of setting up a campaign involves selecting the target audience for your campaign. For this purpose, in [!INCLUDE[d365fin](includes/d365fin_md.md)], you create a segment, or a group of contacts using filters.  
@@ -199,4 +199,3 @@ A campaign is any kind of activity that involves several contacts. An important 
 [Relationship Management](marketing-relationship-management.md)  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

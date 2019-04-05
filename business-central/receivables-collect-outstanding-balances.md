@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f33d8a851c1c5a8f3c464a44ebd1d6319131af09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 3dfc2d9edbb72de196238748ab90ce8dd4990adb
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808841"
 ---
 # <a name="collect-outstanding-balances"></a>Collect Outstanding Balances
 Managing receivables includes checking whether amounts due are paid on time. If customers have overdue payments, you can begin by sending the Customer Statement report as a reminder. Alternatively, you can issue reminders.
@@ -82,7 +82,7 @@ If you create more reminders than you have defined levels for, the conditions fo
     For each reminder level, you can specify text that will be printed before (**Beginning Text**) or after (**Ending Text**) on the entries on the reminder.
 
 6. Choose the **Beginning Text** or **Ending Text** actions respectively, and fill on the **Reminder Text** page.
-7. To automatically insert related values in the resulting reminder text, enter the following placeholders in the **Text** field.  
+7. To automatically insert related values in the resulting reminder text, enter the following placeholders in the **Text** field .  
 
 |Placeholder|Value|  
 |-----------------|-----------|  
@@ -102,7 +102,7 @@ If you create more reminders than you have defined levels for, the conditions fo
 For example, if you write **You owe %9 %7 due on %2.**, then the resulting reminder will contain the following text: **You owe GBP 1.200,50 due on 02-02-2014.**.
 
 > [!NOTE]
-> The due date is calculated according to the date formula that you enter. For more information, see the "Using Date Formulas" section in [Entering Date Ranges](ui-enter-date-ranges.md).
+> The due date is calculated according to the date formula that you enter. For more information, see [Using Date Formulas](ui-enter-date-ranges.md#using-date-formulas).
 
 After you have set up the reminder terms, with additional levels and text, enter one of the codes on each of the customer cards. For more information, see [Register New Customers](sales-how-register-new-customers.md).
 
@@ -254,4 +254,3 @@ When you issue a reminder, a reminder entry is created on the **Reminder/Fin. Ch
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

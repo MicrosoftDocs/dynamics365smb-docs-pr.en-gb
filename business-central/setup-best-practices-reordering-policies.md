@@ -2,22 +2,22 @@
 title: Setup Best Practices - Reordering Policies | Microsoft Docs
 description: The Reordering Policy field on item cards offers four different planning methods that determine how the individual planning parameters interact.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
 ms.openlocfilehash: cc333a1a17173abeff36ba556f2ff0d235af225f
-ms.contentlocale: en-gb
-ms.lasthandoff: 10/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809366"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Setup Best Practices: Reordering Policies
 The **Reordering Policy** field on item cards offers four different planning methods that determine how the individual planning parameters interact.  
@@ -52,4 +52,3 @@ The following table provides best practices for selecting between the four polic
  [Design Details: Maximum Qty.](design-details-maximum-qty.md)   
  [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

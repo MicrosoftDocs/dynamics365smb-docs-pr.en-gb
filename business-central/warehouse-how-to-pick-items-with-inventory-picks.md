@@ -2,22 +2,22 @@
 title: How to Pick Items with Inventory Picks | Microsoft Docs
 description: If a location is set up to require pick processing but not shipment processing, you use the inventory pick documents to record and post picking and shipping information for your source documents.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4537dbb31768ff681dd71775c3813d23caba599b
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809608"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Pick Items with Inventory Picks
 When your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** page to record and post picking and shipping information for your source documents. The outbound source document can be a sales order, a purchase return order, an outbound transfer order, or a production order whose components are ready to be picked.
@@ -112,4 +112,3 @@ In combination scenarios, where a part of the quantity must first be assembled a
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

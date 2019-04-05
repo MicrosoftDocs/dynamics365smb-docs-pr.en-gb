@@ -7,17 +7,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 147a7e41d490167fceb76ff89de1f6c628223914
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809762"
 ---
-
 # <a name="exchanging-data-electronically"></a>Exchanging Data Electronically
 You can use the Data Exchange Framework to exchange business documents, bank files, currency exchange rates, and any other data files with your business partners.
 
@@ -63,4 +62,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Exchanging Data](across-exchange-data.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)
-

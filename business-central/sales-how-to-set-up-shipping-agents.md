@@ -2,22 +2,22 @@
 title: How to Set Up Shipping Agents | Microsoft Docs
 description: You can set up a code for each of your shipping agents and enter information about them.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 49ed631f56730bce647dfe9fc75be2c2fc6b9359
-ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809548"
 ---
 # <a name="set-up-shipping-agents"></a>Set Up Shipping Agents
 You can set up a code for each of your shipping agents and enter information about them.  
@@ -46,4 +46,3 @@ When you have assigned a shipping agent service to a sales order line, the shipp
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

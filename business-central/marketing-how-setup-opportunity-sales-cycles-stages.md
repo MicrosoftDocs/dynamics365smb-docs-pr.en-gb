@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: jswymer
+ms.openlocfilehash: 0cd630da56c26ff9b21f94a99217f801bc9d23ba
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 319a59c865b7883cf7de5c35d9ebce5c30de0f76
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809788"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Set Up Opportunity Sales Cycles and Cycle Stages
 Before you can start using sales opportunities, you must set up sales cycles and sales cycle stages. A sales cycle is made up of a series of stages that go from the initial contact to the closing of a sale. Each stage can have certain requirements that must be met, such as requiring a sales quote, before an opportunity can go to the next stage. You can also specify whether a stage can be skipped. You can setup as many sales cycles as you need, and you can set up as many sales cycle stages as necessary within a sales cycle.
 
 Implementing opportunity sales cycles involves setting up the sales cycle, defining the different stages of the cycle, and then assigning the cycle to opportunities. Assigning the relevant activity or tasks to the opportunity may also be part of setting up a sales cycle.
 
-This topic also describes how to set up tasks and activities, and how to assign tasks to activities. For more information, see the "To set up activities with tasks" section.
+This topic also describes how to set up tasks and activities, and how to assign tasks to activities. For more information, see [To set up activities with tasks](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>To set up opportunity sales cycle codes
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Cycles**, and then choose the related link. The **Sales Cycles** page opens, and lists all the existing sales cycles.
@@ -66,4 +66,3 @@ When you have set up a task, you can assign it to a sales opportunity and thereb
 [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

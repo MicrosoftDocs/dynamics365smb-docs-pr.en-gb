@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809200"
 ---
 # <a name="design-details-warehouse-setup"></a>Design Details: Warehouse Setup
 Warehouse functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] contains different levels of complexity, as defined by licence permissions in the offered granules. The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license. In addition, the application objects in the license govern which UI document to use for the supported warehouse activities.  
@@ -130,4 +130,3 @@ The put-away template can be assigned to an item and to a location. The put-away
 ## <a name="see-also"></a>See Also  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)   
 [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)
-

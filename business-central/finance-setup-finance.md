@@ -2,7 +2,7 @@
 title: Set Up Financial Processes| Microsoft Docs
 description: Learn about the tasks to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 12/19/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
 ms.openlocfilehash: 377e7f8eb3cb78adf68e3f4167a215d8f027f972
-ms.contentlocale: en-gb
-ms.lasthandoff: 12/19/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809477"
 ---
 # <a name="setting-up-finance"></a>Setting Up Finance
 To help you get going quickly, [!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most financial processes. If you need to change the configurations to suit your business, go right ahead. For example, from the Role Centre, you can use an assisted setup guide to set up VAT rate for your location.  
@@ -56,4 +56,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

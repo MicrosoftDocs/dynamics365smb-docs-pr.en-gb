@@ -1,23 +1,23 @@
 ---
 title: How to Set Up Base Calendars | Microsoft Docs
-description: "You can assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are calculated according to the calendar’s specified working days."
+description: You can assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are calculated according to the calendar’s specified working days.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b00871f4074af32500678642cae63850956bfce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809232"
 ---
 # <a name="set-up-base-calendars"></a>Set Up Base Calendars
 You can assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are calculated according to the calendar’s specified working days. The main task in setting up a new base calendar is to specify and define the non-working days that you want to apply.  
@@ -41,7 +41,7 @@ When you make an entry, the **Nonworking** field is selected. You can choose to 
 
 > [!IMPORTANT]  
 >  Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.
-Specifies a date formula for the time that it takes to replenish the item. It is used to calculate the **Planned Receipt Date** field, if calculating forward, and **Order Date** field, if calculating backwards. See the "Lead Time Calculation" section.
+Specifies a date formula for the time that it takes to replenish the item. It is used to calculate the **Planned Receipt Date** field, if calculating forward, and **Order Date** field, if calculating backwards. See [Lead Time Calculation](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Lead Time Calculation
 Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days. Accordingly, the two date fields on purchase order lines are calculated as follows under different conditions.
@@ -55,7 +55,7 @@ Any base calendar defined for the vendor or the location affects how the dates a
 > In addition to the lead time calculation that affects the planned receipt date and order date, as shown in the above table, warehouse handling time and safety lead time may be added to the formulas to make up the value in the **Expected Receipt Date** field, as follows: Planned Receipt Date + Safety Lead Time + Inbound Warehouse Handling Time = Expected Receipt Date.
 
 > [!Important]
-> If your location uses a significantly different calendar than your vendors do, then it is important that you set up specific calendars for those vendors, to calculate optimal vendor lead times. For information about how to set up vendor calendars, see the "To assign a base calendar" section.
+> If your location uses a significantly different calendar than your vendors do, then it is important that you set up specific calendars for those vendors, to calculate optimal vendor lead times. For information about how to set up vendor calendars, see [To assign a base calendar](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar).
 
 The contents of the **Lead Time Calculation** field is copied from either the item card or the SKU card, if the lead time is defined for the item, or on the **Item Vendor Catalogue** page, if the lead time is defined for the vendor.
 
@@ -119,4 +119,3 @@ Base calendars are assigned to your own company, customers, vendors, locations, 
 [Manufacturing](production-manage-manufacturing.md)    
 [Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

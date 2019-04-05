@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: b5dba16cae1e767c867544cfae21e12ac7d0f933
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809505"
 ---
 # <a name="service-posting"></a>Service Posting
 Service posting functionality lets you process your documents efficiently and maintain successful customer service policy. You can create and update posted documents, and create ledger entries both in the service area and in other modules to ensure the correct update.  
@@ -58,4 +58,3 @@ The following procedure uses a posted service invoice as an example, but the sam
 ## <a name="see-also"></a>See Also  
 [Post Service Orders](service-how-to-post-service-orders.md)   
 [Create Service Orders](service-how-to-create-service-orders.md)
-

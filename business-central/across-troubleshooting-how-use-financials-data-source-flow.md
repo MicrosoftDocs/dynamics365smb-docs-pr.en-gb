@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting Integration with Microsoft Flow| Microsoft Docs
 description: Troubleshoot how you can make your Business Central data available as a data source and specify an OData URL of your web services to build an automated workflow.
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 0818550021bf17e5a269d3e11f8db54b9ff80dfa
-ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809062"
 ---
 # <a name="troubleshooting-integration-with-microsoft-flow---request-url-too-long"></a>Troubleshooting Integration with Microsoft Flow - Request URL Too Long
 You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a workflow in Microsoft Flow.  
@@ -52,4 +52,3 @@ For example, if the table that you are using as a data source has 4,000 records,
 [Managing Users and Permissions](ui-how-users-permissions.md)    
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  
-

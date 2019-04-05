@@ -8,14 +8,13 @@ ms.custom: na
 ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809325"
 ---
-
 # <a name="responding-to-requests-about-personal-data"></a>Responding to Requests About Personal Data  
 Data subjects can request several types of actions regarding their personal data. For example, under the General Data Protection Regulation (GDPR), EU residents have the right to request the export, deletion and modification of their personal data. This is known as a *Data Subject Request*. If you have classified the sensitivity of your data, and are sure they are correct, an administrator can respond to requests by using the options under **Data Privacy** on the **Manage Users, User Groups, and Permissions** Role Centre or, if you are using the Windows client, in the **IT Manager** Role Centre. For more information about classifying data and classifying data sensitivity in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], see [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) and [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md).  
 
@@ -63,4 +62,3 @@ If a contact person's age is below the age of legal consent according to the law
 [Exporting your Business Data to Excel](about-export-data.md)  
 [Logging Changes](across-log-changes.md)  
 [Data Subject Requests for the GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
-

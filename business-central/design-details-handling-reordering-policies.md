@@ -2,22 +2,22 @@
 title: Design Details - Handling Reordering Policies | Microsoft Docs
 description: Overview of tasks for defining a reorder policy in supply planning.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/14/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 42fc4a95c572f3afecc3b3a76ba987edd1fdd011
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809423"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Design Details: Handling Reordering Policies
 For an item to participate in supply planning, a reorder policy must be defined. The following four reordering policies exist:  
@@ -298,4 +298,3 @@ Because the supply order quantity is based on the actual demand it can make sens
 [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)   
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)   
 [Design Details: Supply Planning](design-details-supply-planning.md)
-

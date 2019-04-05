@@ -2,7 +2,7 @@
 title: Setup Standard Lines for Recurring Sales and Purchases| Microsoft Docs
 description: You can set up sales lines and purchase lines that you frequently make and then insert them on sales and purchase documents to quickly fill the lines with standard information.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 10/24/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4285603b736cbd585c839a533d325384ba27cd15
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f8c8f96e73f6ba119e4345c8ba12c895dd212da3
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809717"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Create Recurring Sales and Purchase Lines
 If you often need to create sales and purchase lines with similar information, you can set up standard lines that you can then insert on recurring sales and purchase documents, for example, for recurring replenishment orders.  
@@ -50,7 +50,7 @@ If recurring sales lines exist for the customer, you can insert them on all type
 4. On the **Recurring Sales Lines** page, choose the lookup button in the **Code** field, and then select a set of standard sales lines.
 
     > [!NOTE]
-    > To use the recurring sales lines set together with the **Create Recurring Sales Invoices** batch job, you must also fill in the **Valid From Date** and **Valid To Date** fields on the **Recurring Sales Lines** page. For more information, see the "To create multiple sales invoices based on standard sales lines" section.
+    > To use the recurring sales lines set together with the **Create Recurring Sales Invoices** batch job, you must also fill in the **Valid From Date** and **Valid To Date** fields on the **Recurring Sales Lines** page. For more information, see [To create multiple sales invoices based on standard sales lines](sales-how-work-standard-lines.md#to-create-multiple-sales-invoices-based-on-standard-sales-lines).
 
 5. Choose the **OK** button to insert the standard sales lines on the invoice where you can reuse them as is or edit the information.
 
@@ -58,7 +58,7 @@ If recurring sales lines exist for the customer, you can insert them on all type
 You can use the **Create Recurring Sales Invoices** batch job to create sales invoices according to standard sales lines that are assigned to the customers and with posting dates within the valid-from and valid-to dates that you specify on the standard sales lines.
 
 > [!NOTE]
-> On the **Recurring Sales Lines** page, you can also specify a direct-debit payment method and a direct-debit mandate. The sales invoices that are created with the **Create Recurring Sales Inv.** batch job will then include information required to collect payment for the sales invoices with SEPA direct debit. For more information, see [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md).
+> On the **Recurring Sales Lines** page, you can also specify a direct-debit payment method and a direct-debit mandate. The sales invoices that are created with the **Create Recurring Sales Inv.** batch job will then include information required to collect payment for the sales invoices with SEPA direct debit. For more information, see [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Recurring Sales Invoices**, and then choose the related link.
 2. On the **Create Recurring Sales Invoices** page, fill in the fields as necessary.
@@ -70,4 +70,3 @@ Sales invoices are created for the customers with the specified standard custome
 ## <a name="see-also"></a>See Also  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

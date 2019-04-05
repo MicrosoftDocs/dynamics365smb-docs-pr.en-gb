@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809441"
 ---
 # <a name="design-details-known-item-application-issue"></a>Design Details: Known Item Application Issue
 This article addresses an issue where the inventory level is zero although open item ledger entries exist in  [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -151,4 +151,3 @@ The following diagram shows how cost applications are made.
 ## <a name="see-also"></a>See Also  
 [Design Details: Item Application](design-details-item-application.md)   
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
-

@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/27/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: ddcda93c59df3f8390dc3852595d4f07f03648f5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f715dc4994fb3507d73f44bc9adc689f6d3f71cb
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809159"
 ---
 # <a name="working-with-general-journals"></a>Working with General Journals
 
@@ -35,7 +35,7 @@ The information that you enter in a journal is temporary and can be changed whil
 
 ## <a name="using-journal-templates-and-batches"></a>Using Journal Templates and Batches
 
-There are several general journal templates. Each journal template is represented by a dedicated page with particular functions and the fields that are required to support those functions, such as the **Payment Reconciliation Journal** page to process bank payments and the **Payment Journal** page to pay your vendors or reimburse your employees. For more information, see [Make Payments](payables-make-payments.md) and [Reconcile Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md).
+There are several general journal templates. Each journal template is represented by a dedicated page with particular functions and the fields that are required to support those functions, such as the **Payment Reconciliation Journal** page to process bank payments and the **Payment Journal** page to pay your vendors or reimburse your employees. For more information, see [Make Payments](payables-make-payments.md) and [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md).
 
 For each journal template, you can set up your own personal journal as a journal batch. For example, you can define your own journal batch for the payment journal that has your personal layout and settings. The following tip is an example of how to personalise a journal.
 
@@ -49,7 +49,7 @@ If you have set up default balancing accounts for the journal batches on the **G
 >   VAT is calculated separately for the main account and the balancing account, so they can use different VAT percentage rates.
 
 ## <a name="working-with-recurring-journals"></a>Working with Recurring Journals
-A recurring journal is a general journal with specific fields for managing transactions that you post frequently with few or no changes, such as rent, subscriptions, electricity, and heat. Using these fields for recurring transactions, you can post both fixed and variable amounts. You can also specify automatic reversal entries for the day after the posting date. You can also use allocation keys to divide the recurring entries among various accounts. For more information, see the "Allocating Recurring Journal Amounts to Several Accounts" section.
+A recurring journal is a general journal with specific fields for managing transactions that you post frequently with few or no changes, such as rent, subscriptions, electricity, and heat. Using these fields for recurring transactions, you can post both fixed and variable amounts. You can also specify automatic reversal entries for the day after the posting date. You can also use allocation keys to divide the recurring entries among various accounts. For more information, see [Allocating Recurring Journal Amounts to Several Accounts](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
 
 With a recurring journal, entries that will be posted regularly need to be typed in only once. That is, the accounts, dimensions and dimension values and so on that you enter will be remain in the journal after posting. If any adjustments are necessary, you can make them with each posting.
 
@@ -60,7 +60,7 @@ This field determines how the amount on the journal line is treated after postin
 | --- | --- |
 |Fixed|The amount on the journal line will remain after posting.|
 |Variable|The amount on the journal line will be deleted after posting.|
-|Balance|The posted amount on the account on the line will be allocated among the accounts specified for the line in the Gen. Jnl. Allocation table. The balance on the account will thus be set to zero. Remember to fill in the **Allocation %** field on the **Allocations** page. For more information, see the "Allocating Recurring Journal Amounts to Several Accounts" section.|
+|Balance|The posted amount on the account on the line will be allocated among the accounts specified for the line in the Gen. Jnl. Allocation table. The balance on the account will thus be set to zero. Remember to fill in the **Allocation %** field on the **Allocations** page. For more information, see [Allocating Recurring Journal Amounts to Several Accounts](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
 |Reversing Fixed|The amount on the journal line will remain after posting, and a balancing entry will be posted on the next day.|
 |Reversing Variable|The amount on the journal line will be deleted after posting, and a balancing entry will be posted on the next day.|
 |Reversing Balance|The posted amount on the account on the line will be allocated among the accounts specified for the line on the **Allocations** page. The balance on the account will be set to zero, and a balancing entry is posted on the next day.|
@@ -69,7 +69,7 @@ This field determines how the amount on the journal line is treated after postin
 >  The VAT fields can be filled in on either the recurring journal line or on the allocation journal line but not on both. That is, they can be filled in on the **Allocations** page only if the corresponding lines in the recurring journal are not filled in.
 
 ### <a name="recurring-frequency-field"></a>Recurring Frequency field
-This field determines how often the entry on the journal line will be posted. It is a date formula field, and it must be filled in for recurring journal lines. For more information, see the "Using Date Formulas" section in [Entering Data](ui-enter-data.md).
+This field determines how often the entry on the journal line will be posted. It is a date formula field, and it must be filled in for recurring journal lines. For more information, see [Using Date Formulas](ui-enter-date-ranges.md#using-date-formulas).
 
 #### <a name="examples"></a>Examples
 If the journal line must be posted every month, enter "1M". After every posting, the date in the **Posting Date** field will be updated to the same date in the next month.
@@ -164,4 +164,3 @@ Values in the **Document No.** field are changed, where required, so that the do
 [Allocate Costs and Income](year-allocate-costs-income.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

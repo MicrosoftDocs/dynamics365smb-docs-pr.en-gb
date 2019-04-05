@@ -2,22 +2,22 @@
 title: How to Create Routings | Microsoft Docs
 description: A routing holds master data that captures the process requirements of a given produced item. Once a production order is created for that item, its routing will govern the scheduling of operations as represented on the **Prod. Order Routing** page under the production order.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6eb16bd42357646a9e88c4799a3f110be0e294eb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809604"
 ---
 # <a name="create-routings"></a>Create Routings
 Manufacturing companies use routings to visualize and direct the manufacturing process.
@@ -43,11 +43,11 @@ Before you can set up a routing, the following must be in place:
 6.  In the **Operation No.** field, enter the number of the first operation, for example,  **10**.  
 7.  In the **Type** field, specify which kind of resource is used, for example, **Work Centre**.  
 8.  In the **No.** field, select the resource to be used, or type it in the field.  
-9.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see the "To create routing links" section.
-10.  In the **Run Time** and **Setup Time** fields, enter the process times needed to perform the operation.  
+9.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see [To create routing links](production-how-to-create-routings.md#to-create-routing-links).
+10.  In the **Run Time** and **Setup Time** fields, enter the process times needed to perform the operation.
 
-    > [!NOTE]  
-    >  Setup time is calculated per production order, whereas run time is calculated per produced item.  
+    > [!NOTE]
+    > Setup time is calculated per production order, whereas run time is calculated per produced item.  
 
 11.  In the **Concurrent Capacities** field, specify how many units of the selected resource are used to perform the operation. For example, two people allocated to one packing operation will halve the run time.  
 12.  Continue to fill in lines for all operations involved in producing the item in question.  
@@ -126,4 +126,3 @@ The time validity of the version is specified by the **Starting Date** field.
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

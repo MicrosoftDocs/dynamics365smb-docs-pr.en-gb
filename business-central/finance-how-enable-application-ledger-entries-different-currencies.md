@@ -2,7 +2,7 @@
 title: Apply Entries in Different Currencies| Microsoft Docs
 description: You can apply ledger entries in multiple currencies, for example, if you sell in one currency and receive payment in another.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6d58c088c776a953cb76d102b7deeb3b8d69b42a
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809442"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Enable Application of Ledger Entries in Different Currencies
 If you purchase from a vendor in one currency and submit payment in another currency, you can apply the payment to the purchase.
@@ -51,4 +51,3 @@ If you apply entries in different currencies, you must set up the general ledger
 [Managing Payables](payables-manage-payables.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

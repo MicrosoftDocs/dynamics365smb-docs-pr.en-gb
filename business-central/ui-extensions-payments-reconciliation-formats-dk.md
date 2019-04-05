@@ -2,7 +2,7 @@
 title: Using the Payments and Reconciliations (DK) Extension | Microsoft Docs
 description: This extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: c8b829a69547ae8791e763e399012649dc750359
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a39aeebdd75c1511739eb575205b1c7c34c9df11
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809141"
 ---
-
 # <a name="the-payments-and-reconciliations-dk-extension"></a>The Payments and Reconciliations (DK) Extension
 Make fast, error-free payments by exporting files that are formatted specifically for exchanges with your vendor or bank. These files speed up the payment and reconciliation processes, and eliminate errors that can happen when you manually enter the information on a bank website.  
 
@@ -104,6 +103,5 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 [Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
 [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
 [Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
-[Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
+[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-

@@ -2,7 +2,7 @@
 title: Learn About General Ledger and COA| Microsoft Docs
 description: Describes the general ledger, the chart of accounts, and account categories.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 40363e1ef9deeda6b39e2d554c5c3dc3a85334b8
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809469"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Understanding the General Ledger and the COA
 The general ledger stores your financial data, and the chart of accounts shows the accounts that all general ledger entries are posted to. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard chart of accounts that is ready to support your business.
@@ -65,4 +65,3 @@ The next time you generate account schedules your balance statement will show a 
 [Finance](finance.md)  
 [Setting Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
-

@@ -2,7 +2,7 @@
 title: Overview of Tasks to Deliver Service | Microsoft Docs
 description: Outlines tasks to set up make sure that you deliver quality service and live up to agreements with customers.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809536"
 ---
 # <a name="delivering-service"></a>Delivering Service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  
@@ -46,4 +46,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Planning Service](service-plan-service.md)  
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
 [Managing Projects](projects-manage-projects.md)  
-

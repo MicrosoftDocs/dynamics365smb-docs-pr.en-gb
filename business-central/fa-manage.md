@@ -2,7 +2,7 @@
 title: Manage Fixed Assets| Microsoft Docs
 description: Learn about the fixed assets functionality and get an overview of how to work with fixed assets.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9569f01f286008b76667e3a524257ba1aac61f91
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809438"
 ---
 # <a name="fixed-assets"></a>Fixed Assets
 The Fixed Assets functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] provides an overview of your fixed assets and ensures correct periodic depreciation. It also enables you to keep track of your maintenance costs, manage insurance policies, post fixed asset transactions, and generate various reports and statistics.
@@ -57,4 +57,3 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

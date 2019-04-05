@@ -1,22 +1,22 @@
 ---
 title: Export SEPA Direct Debit Collection Entries| Microsoft Docs
-description: "Create a direct-debit collection, which holds information about the customer’s bank account, the affected sales invoices, and the direct-debit mandate."
+description: Create a direct-debit collection, which holds information about the customer’s bank account, the affected sales invoices, and the direct-debit mandate.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 6eeaae3812190b363d4ac18a44eaa8d4369b6221
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9790f75e9be5ec96a57320e96dd0cd38d567c16f
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809520"
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Create SEPA Direct Debit Collection Entries and Export to a Bank File
 To instruct the bank to transfer the payment amount from the customer’s bank account to your company’s account, you create a direct-debit collection, which holds information about the customer’s bank account, the affected sales invoices, and the direct-debit mandate. From the resulting direct-debit collection entry, you then export an XML file that you send or upload to your electronic bank for processing. Any payments that could not be processed by the bank will be communicated to you by your bank, and you must then manually reject the direct debit-collection entries in question.  
@@ -69,5 +69,4 @@ You can now proceed to post receipts of payment for the involved sales invoices.
 ## <a name="see-also"></a>See Also  
 [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
 [Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
-[Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
-
+[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  

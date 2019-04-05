@@ -1,7 +1,7 @@
 ---
 title: Using the Image Analyser Extension | Microsoft Docs
 description: This extensions lets you analyse images of contact persons and items to find attributes, so you can quickly assign them in Business Central.
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 803d755a7caa470b97bf606f0f8916d0135d047e
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809463"
 ---
-
 # <a name="the-image-analyzer-extension"></a>The Image Analyser Extension
 The Image Analyser extension uses powerful image analytics provided by the Computer Vision API for Microsoft Cognitive Services to detect attributes in the images that you import for items and contact persons, so you can easily review and assign them. For items, attributes could be whether the item is a table or a car, and whether it is red or blue. For contact persons, attributes can be gender or age.
 
@@ -95,4 +94,3 @@ You can view the number of analyses you've done, and how many you can still do, 
 [Work with Item Attributes](inventory-how-work-item-attributes.md)  
 [Customising [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Getting Started](product-get-started.md)  
-

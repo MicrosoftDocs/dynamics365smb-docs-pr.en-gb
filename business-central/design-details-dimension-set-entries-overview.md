@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 927ec8c1379a3f03d5bd377e6cd3d21c66691a00
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809061"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimension Set Entries Overview
 This topic describes how dimension set entries are stored and posted in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -49,4 +49,3 @@ By storing dimension sets once in the database, database space is preserved, and
 [Design Details: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)   
 [Design Details: Code Examples of Changed Patterns in Modifications](design-details-code-examples-of-changed-patterns-in-modifications.md)   
 [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
-

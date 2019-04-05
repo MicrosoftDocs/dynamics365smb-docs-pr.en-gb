@@ -2,7 +2,7 @@
 title: Depreciation Methods| Microsoft Docs
 description: Learn about the different methods to depreciate or write-down fixed assets.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809448"
 ---
 # <a name="depreciation-methods"></a>Depreciation Methods
 There are eight methods of depreciation available:  
@@ -357,4 +357,3 @@ When you enter an entry in B1 in the fixed asset G/L journal and place a check m
 [Finance](finance.md)  
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -2,7 +2,7 @@
 title: Change the Way a Report Looks by Selecting a Different Layout | Microsoft Docs
 description: You can use different layouts for a report, and switch between layouts to change how a report looks.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a68c26e94aa4adda7c1f546e57331a741dcfe94b
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809769"
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Change Which Layout is Currently Used on a Report
 A report can be set up with more than one report layout, which you can then switch among as needed.
@@ -48,4 +48,3 @@ You return to the **Report Layout Selection** page. The name of the selected cus
 ## <a name="see-also"></a>See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

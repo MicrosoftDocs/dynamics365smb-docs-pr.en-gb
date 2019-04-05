@@ -2,7 +2,7 @@
 title: Design Details - Item Application | Microsoft Docs
 description: This topic describes how item application happens when you post an inventory transaction.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, item, item ledger, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0fa6bb40ccd17c01c40a7068ff0b081e5be1aa16
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809263"
 ---
 # <a name="design-details-item-application"></a>Design Details: Item Application
 When you post an inventory transaction, the quantity posting is recorded in the item ledger entries, the value posting in the value entries. For more information, see [Design Details: Inventory Posting](design-details-inventory-posting.md).  
@@ -246,4 +246,3 @@ Because of the way an item’s unit cost is calculated, an incorrect item applic
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Design Details: Average Cost](design-details-average-cost.md)  
 [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
-

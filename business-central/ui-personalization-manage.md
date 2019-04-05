@@ -2,7 +2,7 @@
 title: Managing Personalisation as an Administrator in Business Central | Microsoft Docs
 description: Learn how to customise the user interface to suit your way of working.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: ad3b4cf3be7031ab1c7c4699bed6020fe09bd2d1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 15d7e4aac7989f95f7becc8aa8ed96381a7dc2de
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809084"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Managing Personalisation as an Administrator
 <!--NAV in the Web client--> Users can personalise their workspace to suit their own preferences. As an administrator, you can control and manage personalisation by disabling the ability for users to personalise pages and clearing any page personalisations that users have made.
 
 ## <a name="disable-personalization-for-a-profile"></a>Disable personalisation for a profile
 You can prevent all users that belong to a specific profile from being able to personalise their pages.
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profile List**, and then choose the related link.
 2.  Select the profile in the list that you want to modify.
 3. Select the **Disable personalisation** check box, and then choose the **OK** button.
 
@@ -66,4 +66,3 @@ The **User Personalisation Card** page enables you to clear the personalisation 
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  
-

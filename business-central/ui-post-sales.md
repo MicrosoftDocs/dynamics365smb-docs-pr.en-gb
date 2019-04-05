@@ -2,7 +2,7 @@
 title: Understanding How To Post Sales Documents | Microsoft Docs
 description: Learn about the different posting functions to post sales documents.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7ada688f7946d7f857dc6d4a6518b8bcb4e5c707
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808927"
 ---
 # <a name="posting-sales"></a>Posting Sales
 In the **Posting group** on a sales document, you can choose between the following posting functions:
@@ -46,5 +46,4 @@ When the posting is completed, the posted sales lines are removed from the order
 [Sales](sales-manage-sales.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

@@ -2,7 +2,7 @@
 title: Set Up and Report Intrastat| Microsoft Docs
 description: Learn how to set up Intrastat reporting features, and how to report trade with companies in other EU countries.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b75d709933cd9d147a9b5e0862a88a44a300f3c1
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809054"
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>How To: Set Up and Report Intrastat
 All companies in the European Union must report their trade with other EU countries/regions. You must report the movement of goods to the statistics authorities in your country/region every month, and the report must be delivered to the tax authorities. This is referred to as Intrastat Reporting. You use the **Intrastat Journal** page to complete periodic Intrastat reports.  
@@ -122,4 +122,3 @@ Because you must submit an Intrastat report every month, and you create a new jo
 
 ## <a name="see-also"></a>See Also
 [Financial Management](finance.md)
-

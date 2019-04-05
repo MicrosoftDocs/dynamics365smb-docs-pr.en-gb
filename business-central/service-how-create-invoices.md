@@ -2,22 +2,22 @@
 title: Create Invoices or Credit Memos for Services | Microsoft Docs
 description: Learn how to create invoices, so you can get paid for your service.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a0c8cc9444c1b6979843beff55cc9e792ec188d0
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809303"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Create Service Invoices or Credit Memos
 Ease in invoicing your service orders is a key feature of [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can send an invoice to your customers at any time, or create invoices periodically.  
@@ -102,4 +102,3 @@ A service credit memo document is typically used when a customer returns an item
 [Post Service Invoices](service-how-to-post-service-orders.md)  
 [Setting Up Service Management](service-setup-service.md)  
 [Service Posting](service-service-posting.md)  
-

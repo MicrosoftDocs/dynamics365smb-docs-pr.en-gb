@@ -2,7 +2,7 @@
 title: Reclassify Fixed Assets| Microsoft Docs
 description: You reclassify a fixed asset to transfer it to a different department, split it up, or combine it with other fixed assets.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 81b23fd28426d5241ce24b2a3bd40a5b3ec3379d
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809255"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Transfer, Split, or Combine Fixed Assets
 You use the fixed asset reclassification journal to transfer, split up, and combine fixed assets. You view or print the results of fixed asset reclassification with the **Fixed Asset-Book Value 02** report.
@@ -76,4 +76,3 @@ You can combine multiple fixed assets into one fixed asset, for example when you
 [Finance](finance.md)  
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

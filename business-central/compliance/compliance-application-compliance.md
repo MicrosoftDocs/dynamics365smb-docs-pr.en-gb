@@ -2,21 +2,21 @@
 title: Application Compliance | Microsoft Docs
 description: This content contains information about application compliance in relation to Business Central.
 author: sorenfriisalexandersen
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: soalex
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: cda5dc10951981a5d2e496c6cd27bb84b875ede0
-ms.contentlocale: en-gb
-ms.lasthandoff: 12/14/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809022"
 ---
 # <a name="application-compliance"></a>Application Compliance
 This content contains information about application compliance in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)], like the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business. With Business Central companies are empowered to streamline business processes while consistently and cost-efficiently complying with increasing regulation and reporting requirements.
@@ -96,4 +96,3 @@ Microsoft is building localized versions of Business Central for some countries.
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
  
-

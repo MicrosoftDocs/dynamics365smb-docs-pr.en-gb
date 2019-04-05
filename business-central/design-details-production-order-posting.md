@@ -2,22 +2,22 @@
 title: Design Details - Production Order Posting | Microsoft Docs
 description: Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: b71f12ad075197f1630e681b826ec3dff1f4ddff
-ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809291"
 ---
 # <a name="design-details-production-order-posting"></a>Design Details: Production Order Posting
 Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished. For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.
@@ -112,4 +112,3 @@ In standard-cost environments, the costing of a production order is based on the
  [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md) [Finance](finance.md)  
  [Working with Business Central](ui-work-product.md)
-

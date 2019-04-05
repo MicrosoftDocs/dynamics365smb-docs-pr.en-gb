@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 4c0fdd965f56f811ab9ce3346b3c408702df87bf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4b63e47d812f3a263848e1d7388b6ca7f7b3eb9f
-ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809491"
 ---
 # <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a>About the Data Exchange Framework in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports various bank file formats and data service standards. To provide support for other electronic document formats, you use the data exchange framework. For more information, see [Exchanging Data Electronically](across-data-exchange.md).    
@@ -33,4 +33,3 @@ The format of files for exchange of data in bank files, electronic documents, cu
 [Exchanging Data](across-exchange-data.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-

@@ -2,24 +2,23 @@
 title: Service Statistics | Microsoft Docs
 description: Get a quick overview of the contents of service documents such as orders, quotes, invoices, or credit memos, the details on the specific service lines, and the service items.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 03074e2296c95a2afec9f5852a9c4277efa0a37a
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809780"
 ---
-
 # <a name="viewing-service-statistics"></a>Viewing Service Statistics
 You can use statistics to analyse service documents and determine how well you are managing your service processes. You can analyse service contracts, items, quotes, orders, invoices, and credit memos by choosing the **Statistics** action. For service items and contracts, you can also use the **Service Item Trendscape** or **Contract Trendscape** to view a summary of service ledger entries for a specific service item.   
 
@@ -115,4 +114,3 @@ You can use the **Service Credit Memo Statistics** page to get a statistical ove
 [Create Service Orders](service-how-to-create-service-orders.md)   
 [Create Service Items](service-how-to-create-service-items.md)   
 [Planning Service](service-plan-service.md)  
-

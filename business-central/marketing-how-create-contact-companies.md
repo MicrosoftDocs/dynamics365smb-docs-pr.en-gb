@@ -2,7 +2,7 @@
 title: Create Contact Companies| Microsoft Docs
 description: Describes how to create a contact for each new company or prospective company you interact with or have a relationship with.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,19 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ff585f1a96d509ef317aaaf3671bc91ca46a430a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d607b23f5cd41db8551a61b68be6bf265e85d328
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809786"
 ---
-# <a name="create-contact-companies"></a>Create Contact Companies
+# <a name="create-contacts"></a>Create Contacts
 You can create a contact for each new company you interact with, for example, a customer, vendor, prospective customer, bank, law firm, consultant, and so on.
 
 There are two ways to create a contact: from scratch or from an existing customer, vendor, or bank account.
-
-Before creating a contact, you may want to check the settings on the **Marketing Setup** page. For more information, see [Setting Up Relationship Management](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Create a company contact from scratch
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.
@@ -61,4 +59,3 @@ If you have already set up a number of customers, vendors, and bank accounts, yo
 [Assign Mailing Groups to a Contact](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Create Contact Persons](marketing-create-contact-persons.md)  
 [Working with Business Central](ui-work-product.md)
-

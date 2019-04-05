@@ -2,7 +2,7 @@
 title: How to Set Up Item Units of Measure| Microsoft Docs
 description: You can set up multiple units of measure for an item so that you can assign units of measure to the item.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 376e34074c6ee216b7a9062a42404a8123758598
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809760"
 ---
 # <a name="set-up-item-units-of-measure"></a>Set Up Item Units of Measure
 You can set up multiple units of measure for an item so that you can assign units of measure to the item for the following purposes:
@@ -63,4 +63,3 @@ If you usually buy or sell in units different from the base unit of measure, you
 [Managing Purchasing](purchasing-manage-purchasing.md)  
 [Managing Sales](sales-manage-sales.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

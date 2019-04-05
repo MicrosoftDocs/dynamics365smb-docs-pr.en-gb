@@ -2,7 +2,7 @@
 title: Results of the Transfer | Microsoft Docs
 description: This topic describes what happens after you transfer general ledger entries to cost entries.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: general ledger, transfer, cost entries
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 0e17ff5ad60014cba6ce866c9ddae848b1239167
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809204"
 ---
 # <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Results of Transferring General Ledger Entries to Cost Entries
 During the transfer of general ledger entries to cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] creates connections in the entries in the **G/L Entry** table, the **Cost Entry** table, and the **Cost Register** table to make it possible to trace the connections between cost entries and general ledger entries.  
@@ -40,4 +40,3 @@ In the **Cost Register** table, [!INCLUDE[d365fin](includes/d365fin_md.md)] crea
 
 ## <a name="see-also"></a>See Also  
 [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
-

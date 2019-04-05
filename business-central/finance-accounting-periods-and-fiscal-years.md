@@ -2,22 +2,22 @@
 title: Working with Accounting Periods and Fiscal Years | Microsoft Docs
 description: Learn how to work with accounting periods to define when your company reports financial performance.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 08/13/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6f760f546ea02fbc19473c70eb26d8b4c47c0987
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809756"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Working with Accounting Periods and Fiscal Years
 Accounting periods, which are also known as reporting periods, are periods of time for which a company or organisation reports financial performance, for example, by generating their income statement or balance sheet. Typically, accounting periods refer to the company's fiscal year, which can contain several accounting periods, such as months or quarters.
@@ -66,7 +66,6 @@ Although a fiscal year is closed, you can still post general ledger entries to i
 [Closing Years and Periods](year-close-years-periods.md)  
 [How to Work with Account Schedules](bi-how-work-account-schedule.md)  
   
-
 
 
 

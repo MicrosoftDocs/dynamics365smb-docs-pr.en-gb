@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting
 ms.date: 01/14/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
 ms.openlocfilehash: aff05be6ade45224a57f57c92c2d52fcf9e6eb13
-ms.contentlocale: en-gb
-ms.lasthandoff: 01/15/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809773"
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Inviting Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]
 If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[d365fin](includes/d365fin_md.md)] so they can work with you on your fiscal data.
@@ -37,13 +37,12 @@ We have made it easy for you to invite your external accountant. Simply open the
 ### <a name="separate-license"></a>Separate Licence
 Behind the scenes, the accountant is added to your Active Directory tenant. Your administrator can verify that the accountant accepts the invitation and is assigned the correct licence. The steps for doing this depends on the type of account that you used when you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. This topic is based on the use of an Office 365 account, which uses Microsoft Azure Active Directory.  
 
-If you have activated your subscription of [!INCLUDE[d365fin](includes/d365fin_md.md)] and are no longer using the evaluation company, you have an Azure Active Directory tenant. Your administrator or [!INCLUDE[d365fin](includes/d365fin_md.md)] partner manages this tenant in the [Azure portal](https://portal.azure.com). This is where new users are added and licenses are applied and removed. For more information, see the [Microsoft Azure portal overview](https://docs.microsoft.com/en-us/azure/azure-portal-overview).  
+If you have activated your subscription of [!INCLUDE[d365fin](includes/d365fin_md.md)] and are no longer using the evaluation company, you have an Azure Active Directory tenant. Your administrator or [!INCLUDE[d365fin](includes/d365fin_md.md)] partner manages this tenant in the [Azure portal](https://portal.azure.com). This is where new users are added and licences are applied and removed. For more information, see the [Microsoft Azure portal overview](https://docs.microsoft.com/en-us/azure/azure-portal-overview).  
 
-One of the license types for [!INCLUDE[d365fin](includes/d365fin_md.md)] is the *External Accountant* license. This licence type is intended for use by users such as external accountants. This means that you do not have to buy an extra seat in your current Active Directory or use one of your existing [!INCLUDE[d365fin](includes/d365fin_md.md)] user accounts on your external accountant. For example, if your current Office 365 subscription includes 10 users for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you are currently using 10 *Full User* licences, your administrator can simply add your external accountant as a guest user in the Azure portal and assign this user the *External Accountant* licence at no additional cost. However, you can only have one user with the *External Accountant* license. If you want to add more users, you must update your Office 365 subscription accordingly.  
+One of the licence types for [!INCLUDE[d365fin](includes/d365fin_md.md)] is the *External Accountant* licence. This licence type is intended for use by users such as external accountants. This means that you do not have to buy an extra seat in your current Active Directory or use one of your existing [!INCLUDE[d365fin](includes/d365fin_md.md)] user accounts on your external accountant. For example, if your current Office 365 subscription includes 10 users for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you are currently using 10 *Full User* licences, your administrator can simply add your external accountant as a guest user in the Azure portal and assign this user the *External Accountant* licence at no additional cost. However, you can only have one user with the *External Accountant* license. If you want to add more users, you must update your Office 365 subscription accordingly.  
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  
 [Set Up Email Manually or Using the Assisted Setup](admin-how-setup-email.md)  
 [Accountant Experiences in Business Central ](finance-accounting.md)  
 [Business Central for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-

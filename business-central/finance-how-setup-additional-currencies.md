@@ -2,7 +2,7 @@
 title: Setting Up Additional Currencies| Microsoft Docs
 description: Your general ledger is set up to use your local currency (LCY), and another currency is set up as an additional currency, with a current exchange rate assigned.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 01/07/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: 294ed8019b12287e4b4ad59d46e842e4022a637f
-ms.contentlocale: en-gb
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808821"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Set Up an Additional Reporting Currency
 As companies operate in increasingly more countries/regions, it becomes more important that they are able to review and report financial data in more than one currency.
@@ -125,4 +125,3 @@ In addition, all future entries of the same type will have amounts recorded in b
 [Update Currency Exchange Rates](finance-how-update-currencies.md)  
 [Closing Years and Periods](year-close-years-periods.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

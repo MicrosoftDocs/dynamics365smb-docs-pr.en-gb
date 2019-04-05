@@ -2,25 +2,29 @@
 title: How to Archive Sales and Purchase Documents | Microsoft Docs
 description: You can archive sales and purchase orders, quotes, return orders, and blanket orders, and you can use the archived document to recreate the document that it was archived from.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/14/2018
 ms.author: sgroespe
+ms.openlocfilehash: 2f05313d30aede255e4ef49065f0189d649ce93c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4827e25d97127faf691b96df9868320bb47dee39
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809538"
 ---
 # <a name="archive-documents"></a>Archive Documents
-You can archive sales and purchase orders, quotes, return orders, and blanket orders, and you can use the archived document to recreate the document that it was archived from.
+You can archive sales and purchase orders, quotes, return orders, and blanket orders, for example because you want to save a copy of a document for reuse later. You can archive a sales or purchase document several times, saving a different archived version each time.
+
+For archived documents where the original still exists and is not posted, you can use the **Restore** function to overwrite the original with the archived version of the document. This is practical if you need to restore the contents of a document to an earlier state.
+
+For archived documents where the original is deleted, you can only reuse the content by copying the data, for example with the **Copy Document** function.   
 
 ## <a name="to-set-up-automatic-document-archiving"></a>To set up automatic document archiving  
 You can set up automatic archiving of sales and purchase orders, quotes, blanket orders, and return orders, before you delete documents.
@@ -42,15 +46,15 @@ The following procedure describes how to archive a sales order. The steps are si
 2.  Open a sales order that you want to archive.  
 3.  Choose the **Archive Document** action.
 
-The sales order is archived. You can view it on the **Archived Sales orders** page. From here, you can also use it to recreate the sales order that it was archived from.
+The sales order is archived. You can view it on the **Archived Sales orders** page.
 
-## <a name="to-recreate-a-sales-order-from-the-archive"></a>To recreate a sales order from the archive
-The following procedure describes how to recreate a sales order. The steps are similar for all orders, blanket orders, return orders, and quotes.
+## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>To restore a non-posted sales order from the archive
+The following procedure describes how to bring the contents of an archived sales order back to the original sales order. This is only possible when the original document has not been posted. The steps are similar for all orders, blanket orders, return orders, and quotes.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archived Sales Orders**, and then choose the related link.
-2.  Select the archived sales order that you want to recreate, and then choose the **Restore** action.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archived Sales Orders**, and then choose the related link.
+2. Select the archived sales order, or version of it, that you want to restore, and then choose the **Restore** action.  
 
-The sales order is created and added to the **Sales Orders** page.
+The contents of the original sales order is replaced with that of the selected archived version.
 
 ## <a name="to-delete-archived-sales-orders"></a>To delete archived sales orders
 The following procedure describes how to delete archived sales orders. The steps are similar for other archived sales and purchase documents.
@@ -64,4 +68,3 @@ The following procedure describes how to delete archived sales orders. The steps
 [Sales](sales-manage-sales.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

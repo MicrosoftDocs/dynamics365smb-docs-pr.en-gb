@@ -2,22 +2,22 @@
 title: How to Manage Company Configuration in a Worksheet | Microsoft Docs
 description: The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
+ms.openlocfilehash: bd228a418db3b3ee0b3094a0da520dea6139281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
-ms.contentlocale: en-gb
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809401"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Manage Company Configuration in a Worksheet
 The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.  
@@ -74,7 +74,7 @@ The following procedures demonstrate how to add and customise table information 
     > Example: If you get related tables for the **Customer** table, then the **Location** table will not be added, since it is only conditionally related to the **Customer** table, namely if the **Location Code** field in the **Customer** table is filled in.  
     > - The related table is filtered.  
     > Example: A field in the related table has a WHERE clause. The reason for this is that the involved relations information is stored in the **Field** virtual table and is not available in pages such as the configuration worksheet for performance reasons.  
-    > You must add related tables with such complex relationships manually by following step 4 in the "To add a table to the worksheet" section.
+    > You must add related tables with such complex relationships manually by following step 4 in [To add a table to the worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md#to-add-a-table-to-the-worksheet).
 
 7. To delete tables in the resulting list of tables, select a table to remove, and then choose the **Delete** action.  
 
@@ -128,4 +128,3 @@ As you create a configuration package for a solution, you can view and customize
 [Set Up Company Configuration](admin-set-up-company-configuration.md)  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

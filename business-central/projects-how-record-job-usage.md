@@ -2,7 +2,7 @@
 title: Record Billable and Budgeted Usage of Job Resources| Microsoft Docs
 description: Describes how to record the consumption or usage of items or resources on jobs to facilitate project management.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f1b3864eadd616273c3a4a7d061623dab701d01e
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809155"
 ---
 # <a name="record-usage-for-jobs"></a>Record Usage for Jobs
 On the **Job Planning Lines** page, you can review and record usage on various parts of your job, which is automatically updated as you modify and transfer information between jobs and job journals or job invoices. This requires that you have set up a job so that the **Apply Usage Link by Default** is turned on. For more information, see [Set Up Jobs](projects-how-setup-jobs.md).  
@@ -91,4 +91,3 @@ After you have posted job journal lines, you can see the planning lines that are
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -1,7 +1,7 @@
 ---
 title: Entering dates and times in Business Central  | Microsoft Docs
 description: Learn how to enter dates and times including various productivity tips such as shorthand, expressions and ranges. Filter lists or reports down to specific date or time periods.
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808925"
 ---
-
 # <a name="working-with-calendar-dates-and-times"></a>Working with Calendar Dates and Times
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] offers multiple ways to enter dates and times, including powerful features that accelerate data entry, or help you write complex calendar expressions. There are various places throughout the application where you can enter dates and times in fields. For example, on a sales order, you can set the shipment date. When filtering lists or report data, you can enter dates and times to pinpoint only the data that you are interested in.
@@ -372,4 +371,3 @@ For example, if the unit of measure is hours, the number `5` is converted to 5 h
 [Working with [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  
 [Entering Criteria in Filters](ui-enter-criteria-filters.md)  
-

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture
 ms.date: 11/19/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 218b1b825501d64bef9d65640f922e690df3108f
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809227"
 ---
 # <a name="changing-language-and-locale"></a>Changing Language and Locale
 
@@ -52,4 +52,3 @@ It's simple - scroll to the bottom of the browser page and choose the globe symb
 ## <a name="see-also"></a>See Also  
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Getting Started](product-get-started.md)  
-

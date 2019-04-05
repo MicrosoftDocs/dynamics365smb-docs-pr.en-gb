@@ -2,23 +2,23 @@
 title: How to Transfer General Ledger Entries to Cost Entries | Microsoft Docs
 description: You can transfer general ledger entries to cost entries.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 273a8c4341f621710819fd5fbc5cb8ce579c86f5
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809519"
 ---
 # <a name="transfer-general-ledger-entries-to-cost-entries"></a>Transfer General Ledger Entries to Cost Entries
 You can transfer general ledger entries to cost entries.  
@@ -44,4 +44,3 @@ Before you run the process for transferring general ledger entries to cost entri
 ## <a name="see-also"></a>See Also  
 [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
 [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   
-

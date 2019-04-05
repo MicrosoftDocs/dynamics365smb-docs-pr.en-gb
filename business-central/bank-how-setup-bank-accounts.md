@@ -2,7 +2,7 @@
 title: Set Up Bank Accounts| Microsoft Docs
 description: You can reconcile bank accounts with statements from the bank.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3b52026643eee4fa2eb4625c99c881789e0373ed
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809619"
 ---
 # <a name="set-up-bank-accounts"></a>Set Up Bank Accounts
 You use bank accounts in the [!INCLUDE[d365fin](includes/d365fin_md.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the cheque printing option.
@@ -52,4 +52,3 @@ Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are 
 [Setting Up Banking](bank-setup-banking.md)  
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

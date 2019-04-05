@@ -2,22 +2,22 @@
 title: How to Update Standard Costs | Microsoft Docs
 description: You must periodically update the standard costs of components and roll the new costs up to the parent item.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809297"
 ---
 # <a name="update-standard-costs"></a>Update Standard Costs
 You must periodically update the standard costs of components and roll the new costs up to the parent item. The process typically consists of the following four steps:  
@@ -45,6 +45,5 @@ For more information, see [About Calculating Standard Cost](finance-about-calcul
 ## <a name="see-also"></a>See Also  
  [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)   
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   
- [Design Details: Costing Methods](design-details-costing-methods.md) [[Finance](finance.md)  
+ [Design Details: Costing Methods](design-details-costing-methods.md) [Finance](finance.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

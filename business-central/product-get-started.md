@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 12/03/2018
 ms.author: edupont
+ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
-ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
-ms.contentlocale: en-gb
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809000"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Getting Started with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system. To help you with your subscription, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -38,8 +38,8 @@ For more information, see [Working with [!INCLUDE[d365fin](includes/d365fin_md.m
 
 When you are ready to start working and you want to look at some of the business processes that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports, see [Business Functionality](across-business-functionality.md). For an overview of current capabilities and what is coming, take a look at our release notes at [Microsoft Dynamics 365 Business Central Release Notes](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
-## <a name="the-role-centers"></a>The Role Centers
-The Role Center page is based on a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Role Centre by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") in the top right corner,  choosing **My Settings**, and then the Role Centre to explore. Sign in again to apply the change. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).
+## <a name="the-role-centers"></a>The Role Centres
+The Role Centre page is based on a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Role Centre by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") in the top right corner,  choosing **My Settings**, and then the Role Centre to explore. Sign in again to apply the change. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).
 
 Each Role Centre provides a **Setup and Extensions** button. Here you have access to a list of assisted setup that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
@@ -99,4 +99,3 @@ If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

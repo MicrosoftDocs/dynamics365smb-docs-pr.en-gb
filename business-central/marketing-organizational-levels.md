@@ -2,7 +2,7 @@
 title: Set Up Organisational Levels for Contact Persons| Microsoft Docs
 description: You can define an organisational level and assign it to your contact to indicate the position they have in their company, for example, top management.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: be0bde09790c68730167709e1e82562a9a39c4e6
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 44da3ed8f78dd685000e5ec27d43e1bb3a5959ba
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809089"
 ---
 # <a name="set-up-organizational-levels-for-contact-persons"></a>Set Up Organisational Levels for Contact Persons
 You can use organisational levels on your contacts to specify which position they have in the company, for example, top management. You can use this information when entering information about your contacts.
@@ -42,7 +42,5 @@ After you have assigned organisational levels to your contacts, you can use this
 After you have assigned job responsibilities to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>See Also
-[Creating Contact Companies](marketing-create-contact-companies.md)  
-[Creating Contact Persons](marketing-create-contact-persons.md)  
+[Creating Contacts](marketing-create-contact-companies.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

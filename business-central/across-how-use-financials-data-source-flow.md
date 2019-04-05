@@ -1,7 +1,7 @@
 ---
 title: Connect Your Data with Flow| Microsoft Docs
 description: You can make your Business Central data available as a data source and specify an OData URL of your web services to build an automated workflow.
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 10/16/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6f79bd9a5e3f79d4366a1a43411fe39942ac4e4f
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809528"
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in an Automated Workflow
 You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a workflow in Microsoft Flow.
@@ -75,4 +75,3 @@ For troubleshooting your Microsoft Flow, see [Troubleshooting Integration with M
 [Approval User Setup](across-how-to-set-up-approval-users.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  
-

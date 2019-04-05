@@ -2,22 +2,22 @@
 title: How to Prepare a Configuration Package | Microsoft Docs
 description: When you configure a new company, table relations are recognised and processed. Data is imported and applied in the correct order. Dimension tables are also imported if they are included in the configuration package.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809011"
 ---
 # <a name="prepare-a-configuration-package"></a>Prepare a Configuration Package
 When you configure a new company, table relations are recognised and processed. Data is imported and applied in the correct order. Dimension tables are also imported if they are included in the configuration package.  
@@ -93,7 +93,7 @@ Use the configuration worksheet to gather and categorise the information that yo
 3.  In the **Line Type** field, choose **Group**. In the **Name** field, enter a descriptive name.  
 4.  In the **Line Type** field, choose **Table**. In the **Table ID** field, select the table you want to include in the worksheet.  
 
-You can now assign the tables to specific configuration packages that you have created or plan to create. For more information, see the "To assign a table to a configuration package" section.
+You can now assign the tables to specific configuration packages that you have created or plan to create. For more information, see [To assign a table to a configuration package](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
 ## <a name="to-work-with-promoted-tables"></a>To work with promoted tables  
 1. Select the **Promoted Table** check box to indicate a table that is frequently used during the setup process by a typical customer, for example, the **G/L Account** table. When a table has this designation, a customer will be able to easily filter his worksheet to see just the list of promoted tables that require attention.  
@@ -103,7 +103,7 @@ You can now assign the tables to specific configuration packages that you have c
 After you have defined the tables that you want to treat as part of your configuration, you can easily assign the tables to configuration packages. You can assign a table to one package only. In the following procedure, you assign the package from within configuration worksheet.  
 
 > [!NOTE]  
->  You can also create a package directly, and add tables to it. For more information, see the "To create a configuration package" section.
+>  You can also create a package directly, and add tables to it. For more information, see [To create a configuration package](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. In the configuration worksheet, select a line or group of lines that you want to assign to a configuration package, and then choose the **Assign Package** action.  
@@ -139,4 +139,3 @@ After you have vetted and tested all your setup information, you can proceed to 
 [Set Up Company Configuration](admin-set-up-company-configuration.md)  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

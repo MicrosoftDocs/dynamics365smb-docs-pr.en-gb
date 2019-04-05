@@ -2,22 +2,22 @@
 title: How to Move Components to an Operation Area in Basic Warehouse Configurations | Microsoft Docs
 description: If item processing operations occur at your warehouse location, then you may have to move items between internal bins to respond to internal source documents, such as production, assembly, or service orders at the location.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: a5f103ae832231be521e9faf1d9024cbbb393c33
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc3bbfa0ef8d655ef66aab219bcd7bcfb930b2
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808912"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Move Components to an Operation Area in Basic Warehouse Configurations
 If item processing operations occur at your warehouse location, then you may have to move items between internal bins to respond to internal source documents, such as production, assembly, or service orders at the location.  
@@ -44,7 +44,7 @@ Alternatively, a warehouse worker can create it by pointing to the released asse
 > [!NOTE]  
 >  If the movement is for an assembly order where the item is assembled to a sales order, then you can define that the inventory movement document is automatically created when you create the inventory pick document that takes the finished assembly item and posts the shipment. To set this up, select the **Create Movements Automatically** field on the **Assembly Setup** page  
 >   
->  For more information about assembly orders and basic warehouse configurations, see the "Handling Assemble-to-Order Items with Inventory Picks" section in [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).  
+>  For more information about assembly orders and basic warehouse configurations, see [Handling Assemble-to-Order Items with Inventory Picks](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 This procedure shows how to create an inventory movement from the **Inventory Movement** page by referencing a released assembly order as a source document. The procedure is the same when you move components for production orders and service orders.  
 
@@ -79,4 +79,3 @@ This procedure shows how to create an inventory movement from the **Inventory Mo
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

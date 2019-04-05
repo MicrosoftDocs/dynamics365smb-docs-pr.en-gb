@@ -2,22 +2,22 @@
 title: How to Add Fields to a Word Report Layout | Microsoft Docs
 description: Describes how to add fields of a report dataset to an existing Word report layout for a report.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/22/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 78c689aafe31cdec7be1e1740422f781352bbd3c
 ms.openlocfilehash: 5293b5298a2084c8cd36ae4dcc60beda75f5014e
-ms.contentlocale: en-gb
-ms.lasthandoff: 10/25/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809601"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Add Fields to a Word Report Layout
 A report dataset can consist of fields that display labels, data, and images. This topic describes the procedure for adding fields of a report dataset to an existing Word report layout for a report. You add fields by using the Word custom XML part for the report and adding content controls that map to the fields of the report dataset. Adding fields requires that you have some knowledge of the report's dataset so that you can identify the fields that you want to add to the layout.  
@@ -125,4 +125,3 @@ The following table provides a simplified overview of the XML of a custom XML pa
   
 ## <a name="see-also"></a>See Also  
  [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
-

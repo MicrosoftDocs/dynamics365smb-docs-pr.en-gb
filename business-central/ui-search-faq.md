@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 74cd6b136cf5785237640b124472cd26aeff97de
 ms.openlocfilehash: 70ab7fb07cda5ce9d86b3f39dd14321829e85a52
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809356"
 ---
 # <a name="tell-me-faq"></a>Tell Me FAQ
 This topic answers questions that our advanced users often ask about the new Tell Me feature, which has replaced the previous Page Search feature known as **Find Pages and Reports**.
@@ -43,4 +43,3 @@ The help articles display in the language you have specified in **My Settings**,
 
 ## <a name="see-also"></a>See Also  
 [Finding Features and Information](ui-search.md)
-

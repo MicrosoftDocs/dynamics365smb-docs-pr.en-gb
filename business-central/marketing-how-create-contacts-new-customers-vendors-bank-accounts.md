@@ -2,7 +2,7 @@
 title: Create a Customer or VendorFrom a Contact| Microsoft Docs
 description: You can record an existing contact as a customer, vendor, or bank account using existing data and specifying a business relationship.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 5f5e690a8db82c2f95f190d5fac4b6430f900b57
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9125e31ce579b6cda55aee8a79cb299e3c4d75a0
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809632"
 ---
 # <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Create a Customer, Vendor, or Bank Account From a Contact
 You may want to record some of your existing contacts as customers, vendors, or bank accounts. Creating a customer, vendor, or bank account from a contact enables you use existing data. When you create a customer, vendor, or bank account this way, it is synchronised with the contact. Synchronisation makes information that is common between contacts and customers, vendors, or bank account the same.
@@ -36,9 +36,7 @@ The contact information is transferred from the **Contact** card to the **Bank A
 ## <a name="see-also"></a>See Also
 [Create Contact Companies](marketing-create-contact-companies.md)  
 [Create Contact Persons](marketing-create-contact-persons.md)  
-[Setting Up Relationship Management](marketing-setup-marketing.md)  
-[Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
+[Synchronising Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Link Contacts to Existing Customers, Vendors, or Bank Accounts](marketing-how-link-contact.md)  
 [Assign Business Relations to a Contact](marketing-business-relations.md#AssignBusRelContact)  
 [Working with Business Central](ui-work-product.md)
-

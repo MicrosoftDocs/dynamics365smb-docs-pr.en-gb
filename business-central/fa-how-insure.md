@@ -2,7 +2,7 @@
 title: Insure Fixed Assets| Microsoft Docs
 Description: You can assign a fixed asset to an insurance policy, which is represented by an insurance card.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: bf30a9b9e783cbd9e54576a76369fc33647b3af3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 774d578d6dfe0533bfc900f796dfe39383ad869b
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809199"
 ---
 # <a name="insure-fixed-assets"></a>Insure Fixed Assets
 An insurance policy for a fixed asset is represented by an insurance card. You can assign one fixed asset to one insurance policy or multiple fixed assets to one insurance policy.
 
 You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger from the **Insurance Journal** page.
 
-In addition, you can assign a fixed asset to an insurance policy and create coverage ledger entries when you post its acquisition cost. You do this by posting an acquisition cost from the fixed asset journal with the **Insurance No.** field filled in. The **Automatic Insurance Posting** check box on the **Fixed Asset Setup** page must be selected. For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section in [Acquire Fixed Assets](fa-how-acquire.md).
+In addition, you can assign a fixed asset to an insurance policy and create coverage ledger entries when you post its acquisition cost. You do this by posting an acquisition cost from the fixed asset journal with the **Insurance No.** field filled in. The **Automatic Insurance Posting** check box on the **Fixed Asset Setup** page must be selected. For more information, see [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 If the **Automatic Insurance Posting** check box on the **Fixed Asset Setup** page is not selected, then posting acquisitions from the fixed asset journal will create lines on the **Insurance Journal** page, which you must then post manually.
 
@@ -119,4 +119,3 @@ The fixed asset will be detached from the incorrect insurance policy, on the sec
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

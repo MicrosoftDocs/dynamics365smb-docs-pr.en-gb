@@ -2,22 +2,22 @@
 title: How to Plan Order by Order | Microsoft Docs
 description: This planning task can be performed on the **Order Planning** page, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cee1e18d0c6c7fd8b37815d44c35f91ef5ef227c
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809142"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Plan for New Demand Order by Order
 This planning task can be performed on the **Order Planning** page, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.  
@@ -75,7 +75,7 @@ The page displays planning lines according to the view filter **Production Deman
     >  You can only select this check box if the item has **Optional** or **Always** in the **Reserve** field on its item card.  
 
 8.  In the **Qty. to Order** field, you can enter the quantity that will go on the supply order you are creating.   
-    The default value is the same quantity as that in the **Needed Quantity** field. But you may decide to order more or less than this quantity based on your knowledge of the demand situation. If, for example, you see on the **Order Planning** page that several unrelated demand lines are for the same purchased item, and they are due around the same date, you can consolidate these by entering the total needed quantity in the **Qty. to Order** field of one line, and then delete the other, obsolete planning lines for that item.  
+    The default value is the same quantity as that in the **Needed Quantity**field. But you may decide to order more or less than this quantity based on your knowledge of the demand situation. If, for example, you see on the **Order Planning** page that several unrelated demand lines are for the same purchased item, and they are due around the same date, you can consolidate these by entering the total needed quantity in the **Qty. to Order** field of one line, and then delete the other, obsolete planning lines for that item.  
 
 9.  In the **Due Date** and **Order Date** fields, you can enter the dates that should apply to the created supply orders.  
 
@@ -119,4 +119,3 @@ When you have finished your planning work on the **Order Planning** page, for ex
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

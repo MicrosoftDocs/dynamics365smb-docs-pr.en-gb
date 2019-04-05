@@ -1,7 +1,7 @@
 ---
 title: Set Up Document-Specific Email Content | Microsoft Docs
 description: You can define content to insert into the body of an email message, for example, a PayPal link. You can also attach documents to email messages.
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 591ec86980240b8ffcfda0cf51debe571e327299
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a800f24f86227afc2ab45ffcb6d1aaffd608e69e
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809318"
 ---
 # <a name="send-documents-by-email"></a>Send Documents by Email
 To communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers, you can use the Report Layout feature to define document-specific content that gets inserted in email bodies automatically. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
@@ -57,7 +57,7 @@ The following procedure describes how to send a posted sales invoice as an email
 7. In the **Attachment** field, the generated invoice is attached by default as a PDF file. Choose the lookup button to open the file or attach another one.
 8. In the **Body** field, enter a short message to the recipient.
 
-    If a document-specific email body is set up on the **Report Selection - Sales** page, then the **Body** field is filled in automatically. For more information, see the "To set up a document-specific email body for sales invoices" section in this topic.
+    If a document-specific email body is set up on the **Report Selection - Sales** page, then the **Body** field is filled in automatically. For more information, see [To set up a document-specific email body for sales invoices](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).
 9. Choose the **OK** button to send the email message.
 
 > [!NOTE]  
@@ -68,4 +68,3 @@ The following procedure describes how to send a posted sales invoice as an email
 [Set up Email](admin-how-setup-email.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

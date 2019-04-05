@@ -2,22 +2,22 @@
 title: How to Work with Service Contracts and Service Contract Quotes | Microsoft Docs
 description: You can create a service contract either manually or from a service contract quote. You can create a contract based on a service contract quote.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8f27a27941130a56f8ad1c1c5ef22d3e448e455b
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809777"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Work with Service Contracts and Service Contract Quotes
 You can create a service contract either manually or from a service contract quote. You can use a service contract quote as a forerunner of a service contract, in which your company makes an offer to the customer and obtains customer approval before you can convert it to a service contract. The procedures for creating either a service contract or service contract quote are similar.  
@@ -202,4 +202,3 @@ You can file service contracts and contract quotes at any time to record and arc
 [Set Up Service Contracts](service-how-setup-service-contracts.md)  
 [Service Management](service-service.md)  
 [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)  
-

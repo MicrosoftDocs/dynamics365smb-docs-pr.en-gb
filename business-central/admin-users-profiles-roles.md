@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 10/24/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7ecd8a5ad2b321d4d1683047e70ede90c7ce229f
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809376"
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Understanding Users, Profiles, and Role Centres
 
@@ -99,4 +99,3 @@ Users personalise the user interface of their personal version by customising th
 [Managing Users and Permissions](ui-how-users-permissions.md)  
 [Managing Personalisation as an Administrator](ui-personalization-manage.md)  
 [Personalising Your Workspace](ui-personalization-user.md)  
-

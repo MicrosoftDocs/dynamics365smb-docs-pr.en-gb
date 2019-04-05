@@ -2,29 +2,29 @@
 title: How to Pick for Production in Basic Warehouse Configurations | Microsoft Docs
 description: When your warehouse location requires pick processing but does not require shipment processing, use the **Inventory Pick** page to organise and record the picking of components.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 01/22/2019
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c4616282a204077665a9dfb7e8e59ee51f2846ce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
-ms.openlocfilehash: 115bd8ef6d4069674f1d04878d0ec704214383ce
-ms.contentlocale: en-gb
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809124"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Pick for Production or Assembly in Basic Warehouse Configurations
 How you put away your pick components for production or assembly orders depends on how your warehouse is set up as a location. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
 In basic warehouse configurations where the location requires pick processing but not shipment processing, you use the **Inventory Pick** page to organise and record the picking of components.  
 
-In basic warehouse configurations, you must pick for assembly orders with the **Inventory Movement** page. For more information, see the "Handling Assemble-to-Order Item with Inventory Picks" section in [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).  
+In basic warehouse configurations, you must pick for assembly orders with the **Inventory Movement** page. For more information, see [Handling Assemble-to-Order Item with Inventory Picks](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 In advanced warehouse configurations where locations require both picks and shipments, you use the **Warehouse Pick** page to bring components to production or assembly orders. For more information, see [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 
@@ -80,4 +80,3 @@ This flow chart shows how the **Bin Code** field on production order component l
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

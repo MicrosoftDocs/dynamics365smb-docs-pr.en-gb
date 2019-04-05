@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 7b3065dd0528588fec4c05e4e9c391a3beb1cc9a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 605c4ad4043d8b7c4b5603a4821e683f63d4a33d
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809355"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Record Payments and Refunds in the Payment Journal
 
@@ -25,9 +25,9 @@ The payment journal is a general journal that is optimised for making payments. 
 
 - Applying payments to invoices or credit memos
 
-    If you fill in the **Applies-to Doc. No.** field with the invoice or credit memo that must be paid or refunded, then the document in question is set to paid when you post the journal. This is referred to as "applied". As an alternative to applying during payment posting, you can use the **Apply Vendor Entries** and **Apply Customer Entries** page after you have made the payment posting. For more information, see, for example, [Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md).  
+    If you fill in the **Applies-to Doc. No.** field with the invoice or credit memo that must be paid or refunded, then the document in question is set to paid when you post the journal. This is referred to as "applied". As an alternative to applying during payment posting, you can use the **Apply Vendor Entries** and **Apply Customer Entries** page after you have made the payment posting. For more information, see, for example, [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md).  
 
-- Get suggested payments to vendors or employees 
+- Get suggested payments to vendors or employees
 
     The **Suggest Vendor Payments** and **Suggest Employee Payments** functions can help you fill payment journal lines automatically according to vendor prioritisation and due dates. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md). With this function, the **Applies-to Doc. No.** field is always filled in.  
 
@@ -35,7 +35,7 @@ The payment journal is a general journal that is optimised for making payments. 
 
     In addition to recording that the payment is made, you can also use the **Payment Journal** page to output the payment for further processing by your bank. For more information, see [Make Cheque Payments](payables-how-work-checks.md) and [Make Electronic Payments](payables-how-export-payments-bank-file.md).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a>To make payments in the payment journal 
+## <a name="to-make-payments-in-the-payment-journal"></a>To make payments in the payment journal
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Open the journal batch that is dedicated to payments.
@@ -57,4 +57,3 @@ The payment journal is a general journal that is optimised for making payments. 
 [Working with General Journals](ui-work-general-journals.md)  
 [Personalising Your Workspace](ui-personalization-user.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

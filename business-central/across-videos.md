@@ -2,7 +2,7 @@
 title: How Do I Videos on Using Business Central | Microsoft Docs
 description: Provides access to getting-started videos that illustrate how to do common tasks.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 71e92f587ac5697b96aca937e6a6d4b00dc41902
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: b9f8ba9113cdac79dfd8b20d99c194e834578a8e
-ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809626"
 ---
 # <a name="visit-our-video-library"></a>Visit Our Video Library
 Please bear with us while we rebuild our library of "how to" videos. A side effect of the recent improvements in [!INCLUDE[d365fin](includes/d365fin_md.md)] is that we have to reproduce our content so that it accurately reflects the product. 
@@ -49,4 +49,3 @@ Just to mention a few examples, the videos we are updating will show how to:
 
 ## <a name="see-also"></a>See Also
 [Getting Started](product-get-started.md)
-

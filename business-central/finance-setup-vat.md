@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808868"
 ---
-
 # <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Setting Up Calculations and Posting Methods for Value-Added Tax
 Consumers and businesses pay value-added tax (VAT) when they purchase goods or services. The amount of VAT to pay can vary, depending on several factors. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you set up VAT to specify the rates to use to calculate tax amounts based on the following:
 
@@ -271,4 +270,3 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
 [How To: Report VAT to a Tax Authority](finance-how-report-vat.md)  
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
-

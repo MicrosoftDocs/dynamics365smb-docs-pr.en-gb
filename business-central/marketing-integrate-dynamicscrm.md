@@ -1,7 +1,7 @@
 ---
 title: Manage Customers Using Dynamics 365 for Sales| Microsoft Docs
 description: You can use Dynamics 365 for Sales from inside Business Central to map data and have seamless integration and synchronisation in the lead-to-cash process.
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 01/24/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: bba9fb9a83856cea43e4f4215e7c148b713252a9
-ms.contentlocale: en-gb
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809698"
 ---
 # <a name="integrating-with-dynamics-365-for-sales"></a>Integrating with Dynamics 365 for Sales
 If you use Dynamics 365 for Sales for customer engagement, you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] for order processing and finances and have seamless integration in the lead-to-cash process.
@@ -155,4 +155,3 @@ If the item description on the original sales order is very long, then an additi
 [Onboard your organisation and users to Dynamics 365 (online)](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

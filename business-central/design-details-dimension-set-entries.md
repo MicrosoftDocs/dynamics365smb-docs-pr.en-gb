@@ -2,7 +2,7 @@
 title: Design Details - Dimension Set Entries | Microsoft Docs
 description: This documentation provides detailed technical insight into the concepts and principles that are used to redesign the dimension entry storing and posting feature.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, dimensions, codeunit
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 5563241784aaf8bfa1a29f8568411be657647cf7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 66de44003ac66bad52a7b7e57d582659047bdbdf
-ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809102"
 ---
 # <a name="design-details-dimension-set-entries"></a>Design Details: Dimension Set Entries
 This documentation provides detailed technical insight into the concepts and principles that are used to redesign the dimension entry storing and posting feature in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The documentation starts by describing conceptual overviews of the redesign. Then it explains the technical architecture to show how the redesign is made. Finally, it provides code examples to prepare you for dimension code migration and upgrade.  
@@ -28,4 +28,3 @@ This documentation provides detailed technical insight into the concepts and pri
 [Design Details: Table Structure](design-details-table-structure.md)  
 [Design Details: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)  
 [Design Details: Code Examples of Changed Patterns in Modifications](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

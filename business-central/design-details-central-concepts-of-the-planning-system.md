@@ -2,22 +2,22 @@
 title: Design Details - Central Concepts of the Planning System| Microsoft Docs
 description: The planning functions are contained in a batch job that first selects the relevant items and period to plan for and then suggests possible actions for the user to take based on the demand/supply situation and the items' planning parameters.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 06dc378a045f9217cd54a53fef9747fbd9c7ba1b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809373"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Design Details: Central Concepts of the Planning System
 The planning functions are contained in a batch job that first selects the relevant items and period to plan for. Then, according to each item’s low-level code (BOM position), the batch job calls a code unit, which calculates a supply plan by balancing supply-demand sets and suggesting possible actions for the user to take. The suggested actions appear as lines in the planning worksheet or the requisition worksheet.  
@@ -237,7 +237,7 @@ Violating the safety stock level is considered an exception because it should no
 In general, exceptional order proposals ensure that the projected available inventory is never lower than the safety stock level. This means that the proposed quantity is just enough to cover the safety stock, without considering planning parameters. However, in some scenarios, order modifiers will be considered.  
 
 > [!NOTE]  
->  The planning system may have consumed the safety stock intentionally and will then replenish it straight away. For more information, see the "Safety Stock May Be Consumed" section in [Design Details: Loading the Inventory Profile](design-details-loading-the-inventory-profiles.md).
+>  The planning system may have consumed the safety stock intentionally and will then replenish it straight away. For more information, see [Safety Stock May Be Consumed](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
 
 ### <a name="attention"></a>Attention  
 The attention warning is displayed in three situations:  
@@ -289,4 +289,3 @@ This completes the outline of central concepts relating to supply planning in [!
 [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)   
 [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)
-

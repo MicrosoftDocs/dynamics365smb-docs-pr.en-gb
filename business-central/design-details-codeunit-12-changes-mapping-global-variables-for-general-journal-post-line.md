@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 9cb19558c8c441eac188504e798ca36d86b599d5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: aae8b02b95d3e385030610533f4b1b7f04602d5e
-ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "809239"
 ---
 # <a name="codeunit-12-changes-mapping-global-variables-for-general-journal-post-line"></a>Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line
 The following changes have been implemented in this release of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -109,4 +109,3 @@ The following changes have been implemented in this release of [!INCLUDE[d365fin
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Codeunit 12 Changes: Changes in General Journal Post Procedures](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
-
