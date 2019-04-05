@@ -2,25 +2,25 @@
 title: How to Use the RapidStart Services Role Implementer Centre | Microsoft Docs
 description: When you use RapidStart Services, we recommend that you track your work and use the RapidStart Services Implementer Role Centre as it provides the correct context for your configuration work.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c00a3e452e59e27e7edaad1fbefcfc50316254df
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
-ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808421"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Use the RapidStart Services Implementer Role Centre
-When you use RapidStart Services, we recommend that you use the RapidStart Services Implementer Role Centre as it provides the correct context for your configuration work. For more information, see the "To change Role Centre" section in [Changing Basic Settings](ui-change-basic-settings.md).
+When you use RapidStart Services, we recommend that you use the RapidStart Services Implementer Role Centre as it provides the correct context for your configuration work. For more information, see [To change Role Centre](ui-change-basic-settings.md#to-change-role-center).
 
 As you continue with your work, you can assign each table the status that reflects where you are in the process. [!INCLUDE[d365fin](includes/d365fin_md.md)] then keeps track of the table status in the **Activities** part on the Role Centre.  
 
@@ -46,4 +46,3 @@ In the **Configuration Areas** part, completion statistics are shown for the are
 ## <a name="see-also"></a>See Also  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
-

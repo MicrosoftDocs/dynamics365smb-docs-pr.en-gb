@@ -2,22 +2,22 @@
 title: Set Up Inventory Valuation and Costing | Microsoft Docs
 description: The following table describes a sequence of tasks, with links to the topics that describe them.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f512e4b5469bbf8b9440ac930eb4e7ab2e3e4ac7
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808324"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Setting Up Inventory Valuation and Costing
 To make sure that inventory costs are recorded correctly, you must set up various fields and pages before you begin to make item transactions.
@@ -41,4 +41,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Working with Business Central](ui-work-product.md)  
 [Finance](finance.md)  
-

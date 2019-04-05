@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: bb9623c00aa038b387179d46e6eb8a869552569e
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808506"
 ---
 # <a name="publish-a-web-service"></a>Publish a Web Service
 
@@ -65,4 +65,3 @@ https://localhost:7048/server/OData/Customer?company='CRONUS International Ltd.'
 
 ## <a name="see-also"></a>See Also  
 [Administration](admin-setup-and-administration.md)  
-

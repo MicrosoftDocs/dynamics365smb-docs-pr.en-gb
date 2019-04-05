@@ -1,7 +1,7 @@
 ---
 title: Transfer Data from a QuickBooks App  | Microsoft Docs
 description: You can migrate data such as customers, vendors, inventory items, and G/L accounts from QuickBooks apps to Business Central.
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,15 +11,13 @@ ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: badf86b9fefad8019b6bee5b8edcbaa1aebf8a6d
-ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808683"
 ---
-
-
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Changing from a QuickBooks App to Dynamics 365 Business Central
 More and more growing businesses are changing from finance apps like QuickBooks Desktop and QuickBooks Online, which are designed for startups and other small businesses, to [!INCLUDE[d365fin](includes/d365fin_md.md)], which also supports larger, more complex organisations. 
 
@@ -39,4 +37,3 @@ If you are ready to get started now, choose the ![Lightbulb that opens the Tell 
 ## <a name="see-also"></a>See Also
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customising Business Central Using Extensions](ui-extensions.md)   
-

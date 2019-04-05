@@ -2,7 +2,7 @@
 title: Design Details - Monitoring the Projected Inventory Level and the Reorder Point | Microsoft Docs
 description: Learn how inventory planning distinguishes between projected inventory and projected available inventory levels.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, supply, inventory, planning
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: d26790c1c48eff8af150a72f5d5d697eb7b9dc2a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 336b5c300cf3640d7356313d2d627f6b4008c7b4
-ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808410"
 ---
 # <a name="design-details-monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Design Details: Monitoring the Projected Inventory Level and the Reorder Point
 Inventory is a type of supply, but for inventory planning, the planning system distinguishes between two inventory levels:  
@@ -76,4 +76,3 @@ The following shows a graphical illustration of this principle:
 [Design Details: Planning Parameters](design-details-planning-parameters.md)   
 [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
 [Design Details: Supply Planning](design-details-supply-planning.md)
-

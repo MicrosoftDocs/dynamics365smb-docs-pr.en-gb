@@ -2,22 +2,22 @@
 title: How to Block Items from Sales or Purchasing
 description: In Business Central, an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 0d5ad688cfa6fb58e8383692362105beeee386f8
-ms.contentlocale: en-gb
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808542"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Block Items from Sales or Purchasing
 You can block an item from being entered on sales or purchase lines, and you can block it from being posted in any transaction.  
@@ -53,4 +53,3 @@ If you try to post any type of transaction for the item, you will now get an err
 ## <a name="see-also"></a>See Also  
 [Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  
-

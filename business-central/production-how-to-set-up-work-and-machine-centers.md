@@ -2,22 +2,22 @@
 title: How to Set Up Work Centres and Machine Centres | Microsoft Docs
 description: A **Work Centre** card organises the fixed values and requirements of the production resource, and thus governs the output of production performed in that work centre.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b2db4a7750a9313cc5970ef480518cdbbdca959
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 12d192338fc683cd1de8aa8092b781a559872df1
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808741"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Set Up Work Centres and Machine Centres
 The program distinguishes between three types of capacities. These are arranged hierarchically. Each level contains the subordinate levels.  
@@ -48,22 +48,22 @@ The following primarily describes how to set up a work centre. The steps to set 
 
 9.  In the **Unit Cost Calculation** field, define whether the above calculation should be based on the amount of time used:  **Time**, or on the number of produced units:  **Units**.  
 10.  Select the **Specific Unit Cost** field if you want to define the work centre’s unit cost on the routing line where it is being used. This may be relevant for operations with dramatically different capacity costs than what would normally be processed at that work centre.  
-11.  In the **Flushing Method** field, select whether output posting at this work centre should be calculated and posted manually or automatically, using either of the following methods.  
+11.  In the **Flushing Method** field, select whether output posting at this work centre should be calculated and posted manually or automatically, using either of the following methods.
 
-    |Option|Description|  
-    |----------------------------------|---------------------------------------|  
-    |**Manual**|Concumption is posted manually in the output journal or production journal.|
-    |**Forward**|Consumption is calculated and posted automatically when the production order is released.|  
-    |**Backward**|Consumption is calculated and posted automatically when the production order is finished.|  
+|Option|Description|
+|------|-----------|
+|**Manual**|Concumption is posted manually in the output journal or production journal.|
+|**Forward**|Consumption is calculated and posted automatically when the production order is released.|
+|**Backward**|Consumption is calculated and posted automatically when the production order is finished.|
 
-    > [!NOTE]  
-    >  If necessary, the flushing method selected here and on the **Item** card, can be overridden for individual operations by changing the setting on routing lines.
+> [!NOTE]
+> If necessary, the flushing method selected here and on the **Item** card, can be overridden for individual operations by changing the setting on routing lines
 
 12.  In the **Unit of Measure Code** field, enter the time unit in which this work centre’s cost calculation and capacity planning are made.
     In order to be able to constantly monitor consumption, you must first set up a method of measure. The units you enter are basic units. For example, the processing time is measured in hours and minutes.
 
-    > [!NOTE]  
-    > If you select to use Days then remember that 1 day = 24 hours - and not 8 (working hours).
+> [!NOTE]  
+> If you select to use Days then remember that 1 day = 24 hours - and not 8 (working hours).
 
 13.  In the **Capacity** field, define whether the work centre has more than one machine or person working at the same time. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] installation does not include the Machine Centre functionality, then the value in this field must be **1**.  
 14.  In the **Efficiency** field, enter the percentage of the expected standard output that this work centre actually outputs. If you enter **100**, it means that the work centre has an actual output that is the same as the standard output.  
@@ -106,4 +106,3 @@ When planning with capacity-constrained resources, the system ensures that no re
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

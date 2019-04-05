@@ -8,14 +8,13 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2018
+ms.openlocfilehash: 4e12aa7b4b105a221a218bcd0b6ab7d3ed30c290
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 05d9630075ed533759f8225810e4e4a95c141b16
-ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808664"
 ---
-
 # <a name="classifying-data-sensitivity"></a>Classifying Data Sensitivity
 To classify the fields that hold sensitive or personal data, a Microsoft partner can set the ```DataClassification``` property on fields. This requires access to the database tables, either through the development environment or by running a Windows PowerShell script. For more information, see [Classifying Data](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  
 
@@ -50,4 +49,3 @@ For example, the Data Classification worksheet lets you do things like:
 
 ## <a name="see-also"></a>See Also
 [Classifying Data](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data)  
-

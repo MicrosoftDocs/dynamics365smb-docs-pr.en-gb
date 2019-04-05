@@ -2,22 +2,22 @@
 title: Design Details - Costing Methods | Microsoft Docs
 description: The costing method determines if an actual or a budgeted value is capitalised and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808375"
 ---
 # <a name="design-details-costing-methods"></a>Design Details: Costing Methods
 The costing method determines if an actual or a budgeted value is capitalised and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded. The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
@@ -159,4 +159,3 @@ The costing method determines if an actual or a budgeted value is capitalised an
  [Design Details: Item Application](design-details-item-application.md) [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

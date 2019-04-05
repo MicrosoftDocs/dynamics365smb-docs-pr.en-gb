@@ -2,22 +2,22 @@
 title: Transferring and Posting Cost Entries | Microsoft Docs
 description: Before you define cost allocations, you must understand where cost entries come from.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 43213f5d9e3056bdaa073624cd247e14b9925c1b
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808329"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transferring and Posting Cost Entries
 Before you define cost allocations, you must understand how cost entries come from the following sources:  
@@ -103,4 +103,3 @@ In the **Cost Register** table, [!INCLUDE[d365fin](includes/d365fin_md.md)] crea
  [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   
  [Defining and Allocating Costs](finance-define-and-allocate-costs.md)   
  [Accounting for Costs](finance-manage-cost-accounting.md)
-

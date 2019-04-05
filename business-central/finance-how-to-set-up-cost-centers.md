@@ -2,23 +2,23 @@
 title: How to Set Up Cost Centres | Microsoft Docs
 description: Cost centres are departments that are responsible for costs and income. The chart of cost centres is similar to the dimension information for the general ledger.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808528"
 ---
 # <a name="set-up-cost-centers"></a>Set Up Cost Centres
 Cost centres are departments that are responsible for costs and income. The chart of cost centres is similar to the dimension information for the general ledger. You can set up the chart of cost centres in the following ways:  
@@ -44,7 +44,7 @@ You can set up and maintain cost centres in either the **Cost Centre Card** card
 3. In the **Name** field, enter the cost center name.  
 4. Choose the drop-down arrow in the **Line Type** field to specify the purpose of the cost centre.  
 
-    - For cost centers of the **Total** type, you must fill in the **Totaling** field. Use the **or** operator, which is a vertical line (**&#124;**) to set ranges of cost centers.  
+    - For cost centres of the **Total** type, you must fill in the **Totalling** field. Use the **or** operator, which is a vertical line (**&#124;**) to set ranges of cost centres.  
     - For cost centres of the **End-Total** line type, this field is filled in automatically when you use the indent function.  
 5.  Fill in the **Sorting Order** and **Cost Subtype** fields.  
 6.  Choose the next empty line to create a new cost centre, and then repeat steps 2 through 5.  
@@ -59,4 +59,3 @@ You can set up and maintain cost centres in either the **Cost Centre Card** card
 [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
 [About Cost Accounting](finance-about-cost-accounting.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

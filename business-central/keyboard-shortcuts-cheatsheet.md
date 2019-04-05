@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: f0a88ccadd5107130150e5cadda3e3e5d1cee4bf
-ms.contentlocale: en-gb
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808749"
 ---
-
 # <a name="keyboard-shortcuts-quick-reference"></a>Keyboard Shortcuts Quick Reference
 
 ||||  
@@ -27,4 +26,3 @@ ms.lasthandoff: 12/04/2018
 |**Copy and paste**|Ctrl+C<br />Ctrl+V<br />F8|Copy rows<br />Paste rows<br />Copy field above into current row|
 |**Search, filter, and sort**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Toggle search<br />Toggle filter pane; focus on field filters<br />Toggle filter pane; focus on totals filters<br />Filter on selected cell value<br />Add filter on selected field<br />Reset filters|
 |**Report preview**|Up/Down<br />Right/Left<br />Ctrl+Home/End<br />Page Up/Down|Scroll up and down the page<br />Scroll to the right/left <br />Go to the first/last page<br />Go to the previous/next page|
-

@@ -2,7 +2,7 @@
 title: Defining the Relationship Between Cost Types and General Ledger Accounts | Microsoft Docs
 description: Learn how to define the relationship between the cost type and the general ledger account.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: cost types, general ledger
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
+ms.openlocfilehash: f80e9b6276d26adffb5e3208ffefbf98d7f7ff96
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7709edb214804f52ee9b495c43b5302e2a23bd6b
-ms.contentlocale: en-gb
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808611"
 ---
 # <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Defining the Relationship Between Cost Types and General Ledger Accounts
 The relationship between the cost type and the general ledger account is created in the cost type and in the general ledger account.  
@@ -50,4 +50,3 @@ A cost type may not have a relationship to general ledger accounts if one of the
 [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   
 [About Cost Accounting](finance-about-cost-accounting.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -2,7 +2,7 @@
 title: Assign a Different Contact Address| Microsoft Docs
 description: Describes how to assign an alternate address for your contacts or prospects, where they are sometimes sent information.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: d069a22603a969220a62e2c7458cb6259cfbc630
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
-ms.contentlocale: en-gb
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808614"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Set Up Alternative Addresses for Contacts
 You can assign an alternate address where your contacts are sometimes sent mail and information, for example, their summer cottage. You can also assign one or several date ranges to each alternate address you have entered for your contacts to specify when each address is valid.
@@ -43,4 +43,3 @@ Repeat these steps to assign as many date ranges as you want.
 ## <a name="see-also"></a>See Also
 [Create Contact Companies](marketing-create-contact-companies.md)  
 [Working with Business Central](ui-work-product.md)
-

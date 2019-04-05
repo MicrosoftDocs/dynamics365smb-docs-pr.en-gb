@@ -2,7 +2,7 @@
 title: Display Custom Power BI Reports| Microsoft Docs
 description: You can use Power BI reports to gain additional insight into data in lists.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 2be3a29ad88c46f8b96b9f4bed34602da35fbcb7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 595e6fb7cc8239ea33cf57aadfd8b0f3419323e5
-ms.contentlocale: en-gb
-ms.lasthandoff: 06/01/2018
-
+ms.contentlocale: en-GB
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "808734"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Viewing List Data in Power BI Reports in Business Central 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a FactBox control element on a number of key list pages that provides additional insight into the data in the list. As you move between rows in the list, the report is updated and filtered for the selected entry. You can create custom reports to display in this control, but there are a few rules to follow when creating the reports to ensure they provide the desired behaviour.  
@@ -44,7 +44,7 @@ The size of the report must be set to 325 pixels by 310 pixels. This is required
 
 You can change the width and height of the report by choosing **Custom** in the **Type** field.
 
-Similarly, if you want to have the background of the report blend into the background color of the Power BI Fact Box control, define a custom report background color of *E5E5E5*. This is optional.  
+Similarly, if you want to have the background of the report blend into the background colour of the Power BI Fact Box control, define a custom report background colour of *E5E5E5*. This is optional.  
 
 ## <a name="reports-with-multiple-pages"></a>Reports with Multiple Pages
 With Power BI, you can create a single report with multiple pages. The visuals that you want to see in the [!INCLUDE[d365fin](includes/d365fin_md.md)] list pages must be on the first page of the report in Power BI.  
@@ -76,4 +76,3 @@ Verify that the report size is set to 325 pixels x 310 pixels. Save the report, 
 [Getting Started](product-get-started.md)    
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
 [Finance](finance.md)  
-
