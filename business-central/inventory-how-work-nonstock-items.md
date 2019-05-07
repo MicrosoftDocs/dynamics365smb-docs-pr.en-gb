@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 03/12/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 780aabb1bcd37cfd912f84da7b956a146a918eef
-ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
+ms.openlocfilehash: 4af4a4610fc42f4b413056cf85555b5c506ff8da
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836142"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915148"
 ---
 # <a name="work-with-catalog-items"></a>Work with Catalogue Items
 You can offer certain items to your customers for their convenience, which you do not want to manage in your system until you start selling them. When you want to start managing such items in your system, you can convert them to normal item cards in two ways.

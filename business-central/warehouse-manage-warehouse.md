@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a7b8ebe9ea06d7f39ac2bc70a83eca09a8739a56
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 98cb79b14ac8bd4610bf14af8344213f87f7f170
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852224"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917510"
 ---
 # <a name="warehouse-management"></a>Warehouse Management
 After goods are received and before goods are shipped, a series of internal warehouse activities take place to ensure an effective flow through the warehouse and to organize and maintain company inventories.

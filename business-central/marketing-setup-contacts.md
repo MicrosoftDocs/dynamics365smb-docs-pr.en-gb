@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71c48a677dbc684978271e19d67409dc07143f9d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808629"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918154"
 ---
-# <a name="setting-up-contacts"></a>Setting Up Contacts
+# <a name="set-up-contacts"></a>Set Up Contacts
 When creating contacts, you can enter specific information, such as the industry that the contact belong to and your business relationship with the contacts.
 
 Before you create contacts and record details about your business relationships, you must set up the different codes that you will use to assign this information to your contact companies and people. Codes can be set up for mailing groups, industry groups, business relationships, Web sources, organisational levels and job responsibilities. You can set these up by choosing the **New** action as you look up to the lists from the contact card.  
@@ -151,10 +151,10 @@ In order to synchronise the contact card with a linked customer, vendor, or bank
 
 For more information, see [Synchronising contacts with customers, vendors, and bank accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
-## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Searching for Duplicate Contacts when Contacts are Created
-You can choose to have the program automatically search for duplicates each time you create a contact company, or you can choose to search manually after you have created contacts. You can also choose to have the program update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for the programme to consider them as duplicates.
+## <a name="searching-for-duplicate-contacts"></a>Searching for Duplicate Contacts
+You can choose to have the program automatically search for duplicates each time you create a contacts, or you can choose to search manually after you have created contacts. You can also choose to have the program update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for the programme to consider them as duplicates. You set this up on the **Duplicates** FastTab on the **Marketing Setup** page.
 
-You set this up on the **Duplicates** FastTab on the **Marketing Setup** page.
+When you have found a duplicate contact, you can use the **Merge Duplicate** page to merge it into an existing contact record that you want to keep. For more information, see [Merge Duplicate Records](sales-how-merge-duplicate-records.md).
 
 ## <a name="see-also"></a>See Also
 [Managing Contacts](marketing-contacts.md)  

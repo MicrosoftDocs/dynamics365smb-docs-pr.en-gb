@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 46e60bcb217178d94eda195045df0db33873a190
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 68ee937b8bf9f9f0784c8e96a78dbc3f0486d50f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808512"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921176"
 ---
 # <a name="set-up-a-loaner-program"></a>Set Up a Loaner Program
 Sometimes you must provide a customer a loaner item for use when your customer service team makes a repair. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up a loaner programme, loan items to your customers, and track receipts when customers return the items. Additionally, you can add comments about loaners in one of two ways:  

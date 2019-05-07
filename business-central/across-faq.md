@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 72fcf1b698b464cd21107184cd2bb166a8612cae
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852293"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916156"
 ---
 # <a name="frequently-asked-questions"></a>Frequently Asked Questions
 
@@ -49,12 +49,15 @@ If you have access to Microsoft CustomerSource, you can get access to the Imagin
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is sold through partners, and you should contact your reselling partner to get help with technical problems. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft.  
 
-If you have signed up for a trial and have not yet purchased [!INCLUDE[d365fin](includes/d365fin_md.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team.  
-
-You can find a Business Central partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
+For more information, see [Help and Support](product-help-and-support.md).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Why does Help describe functionality that I cannot access?
-If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Changing Which Features are Displayed](ui-experiences.md).  
+If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
+
+## <a name="where-is-the-save-button"></a>Where is the save button?
+
+There is no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[d365fin](includes/d365fin_md.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you will see the text **Saving** in the top-right corner of the page, which will quickly change to **Saved** if no errors occur. If an error occurs, the text will change to **Not Saved**.
+
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>What email address can I use with [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] requires that you use a work, or school, email address to sign up. [!INCLUDE[d365fin](includes/d365fin_md.md)] does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  

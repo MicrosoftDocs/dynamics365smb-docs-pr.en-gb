@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 11/19/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d95d2f609129e4bdba35deda726323dbed2ba67a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808883"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916229"
 ---
 # <a name="changing-basic-settings"></a>Changing Basic Settings
 In the [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central") page, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The changes that you make will only affect your workspace; not the workspaces of other users.  
@@ -48,10 +48,21 @@ The default work date is usually today's date. You may have to temporarily chang
 >   Type **w** to quickly enter the work date in a date field. Write **t** to quickly enter the current date in the date field.
 
 > [!IMPORTANT]  
->   The work date is only changed until you close the company or until the date changes. If you open a different company or open the same company the next day and still have to use a different work date, then you must set the work date again.
+>   After you change the work date, if you sign out or switch to another company, the work data reverts to the default work date. So the next time you sign in or switch back to the original company, you may have to set the work date again. 
 
+### <a name="work-date-indication"></a>Work Date Indication
+<!--
+Whenever the work date is not set to the current day (today), there are two indicators on pages that you open for editing:
+
+- A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in. 
+
+- If you dismiss the reminder, the work date will appear in the title of the page.  
+-->
+If the work date is not set to the current day (today), then on all pages where you can edit data, the current work date is shown in the upper-left corner of the page.
+  
 ## <a name="region"></a> Region
-The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.   
+
+The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.
 
 
 ## <a name="language"></a> Language

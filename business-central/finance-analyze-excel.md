@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: acd894ede7ad497311a793fb7153333a9a35e1cb
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b816d7ff9f8446aa81746b980fd47b3b531e1396
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809138"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913809"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysing Financial Statements in Microsoft Excel
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can see KPIs and get overviews of the company's financial state. You can also open lists in Excel and analyse the data there. But you can also export heavy financial statements such as the balance sheet or the income statement to Excel, analyse the data, and print the reports.  

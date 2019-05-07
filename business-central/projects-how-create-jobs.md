@@ -1,23 +1,19 @@
 ---
 title: Create a Job Card for a Job and Specify Tasks| Microsoft Docs'
 description: For a new project, you create a job card that contains job tasks and planning lines, to help you manage progress and budgets.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5db9709500ce20bc09e2dc651ae6b7aa763c0e5f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2e2ab155f4d326ab16b7730e64711d5b91343768
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808816"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915630"
 ---
 # <a name="create-jobs"></a>Create Jobs
 When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.  
@@ -28,8 +24,8 @@ The second layer consists of job planning lines, which specify the detailed use 
 
 The layer structure enables you to divide the job into smaller tasks, and therefore use more specific details in budgeting, quotes, and registration. In addition, it gives you insight into how a job is progressing. For example, you can track whether you are meeting designated milestones or if you are on target to meet budget expectations.
 
-> [!NOTE]  
->   The **New Job** action on the **Project Manager** Role Center launches an assisted setup that guides you through the steps of creating a job with integrated tasks and planning lines. The following procedure describes how to perform the steps manually.
+> [!TIP]
+> Choose the **New Job** action on the **Project Manager** Role Centre to launch an assisted setup guide that takes you through the steps of creating a job with integrated tasks and planning lines. The following procedure describes how to perform the steps manually. For an example of how to create a job manually, see [Video: How to create a job in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
 ## <a name="to-create-a-job-card"></a>To create a job card
 You create a job card and then create job task lines and job planning lines for it.
@@ -71,8 +67,10 @@ A job planning line can have one of the following types.
 5. Repeat steps 3 and 4 for all planning lines that you need for the job task.
 
 ## <a name="see-also"></a>See Also
+
 [Project Management](projects-manage-projects.md)  
+[Video: How to create a job in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Finance](finance.md)  
-[Purchasing](purchasing-manage-purchasing.md)         
-[Sales](sales-manage-sales.md)      
+[Purchasing](purchasing-manage-purchasing.md)  
+[Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

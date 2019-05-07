@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 092d8d3f114eac890c97eca520de7b9adbc37108
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 05cf51ae4d09dc0b023782f7f68e514eb8668be8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809377"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923352"
 ---
 # <a name="setting-up-banking"></a>Setting Up Banking
 Using bank account cards, you can keep track of all your bank accounts, in any currency. After you have set up the bank accounts, you can also use the cheque printing option.

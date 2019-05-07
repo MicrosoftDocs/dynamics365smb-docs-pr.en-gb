@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Office 365
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 5e4bd35edea680c46cb0df753b50916b1aeb93be
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 93acc30c501b099b829a304650b09b356d2243e7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809666"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924292"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchronise Contacts in Business Central with Contacts in Microsoft Outlook
 You can see the same contacts in [!INCLUDE[d365fin](includes/d365fin_md.md)] as you see in Outlook if you set up contact synchronisation. For example, if you are a sales person, you might do some of your work in Outlook and some of your work in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If the contacts are the same in both places, your work is more straightforward.  

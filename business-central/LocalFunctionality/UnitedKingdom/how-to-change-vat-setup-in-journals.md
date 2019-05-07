@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fa3c1dba200aa5ab79efdef31b253da312a49466
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: db5a7ebf5edb03e7eaa45999002836626b9b7e38
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827393"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922857"
 ---
 # <a name="change-vat-setup-in-journals"></a>Change VAT Setup in Journals
 You can add VAT setup information to journal lines if needed. If you enter items without VAT, you do not need to remove VAT setup information manually.  

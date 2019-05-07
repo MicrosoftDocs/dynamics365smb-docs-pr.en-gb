@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 12/19/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 377e7f8eb3cb78adf68e3f4167a215d8f027f972
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 68128de48b014e7ca44fba3909cf72dcf0d87135
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809477"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920422"
 ---
 # <a name="setting-up-finance"></a>Setting Up Finance
 To help you get going quickly, [!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most financial processes. If you need to change the configurations to suit your business, go right ahead. For example, from the Role Centre, you can use an assisted setup guide to set up VAT rate for your location.  

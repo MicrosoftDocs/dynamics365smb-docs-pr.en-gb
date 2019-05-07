@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: admin-how-to-create-custom-company-configuration-packages
-ms.openlocfilehash: 1f49d437e03ecf45a234574530f1e65d93584dea
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 95b16dc77bcdb0051447a4f153dd720661c52cf9
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808721"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917943"
 ---
 # <a name="review-and-customize-existing-database-data"></a>Review and Customise Existing Database Data
 As you create a configuration package for a solution, you can view and customise the available database data to suit your customer needs. The database table has to have an associated page.  

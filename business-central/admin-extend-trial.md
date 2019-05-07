@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/16/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 95a00ec61db3b65b2be729bf0b68da7af960d6ab
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f41cdfb90ab7ef6cff74205edfa4393c7da5f3d2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808995"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925977"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Need More Time to Decide Whether to Subscribe?
 It's important to make the right decision when choosing a business application, and we know that it can take time to explore all of the corners in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you need more time to finish your evaluation you can extend the trial period yourself for another 30 days. When the expiration date for your trial period is approaching we will display a notification to alert you when you sign in. The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period. The extra 30 days start the moment you choose **Extend Trial** in the guide.

@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 932b6f45ed4f8704b48873518ba2b096efc33e7a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 4bd30c2912c8a690431221e7983f5fe53b543322
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852140"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920920"
 ---
 # <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Your Access to the Intelligent Cloud with [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -38,7 +38,7 @@ In your [!INCLUDE[prodshort](includes/prodshort.md)] online company, the **Intel
 Next to the KPI charts, you get insights into potential areas of concern, including overdue payments. Choose each insight to drill into the data.  
 
 > [!div class="mx-imgBorder"]
-> ![Intelligent cloud insights](media/across-intelligent-cloud/intelligentcloudinsights.png "Shows the intelligent Cloud Insights page in Business Central")
+> ![Intelligent cloud insights](media/across-intelligent-cloud/intelligentcloudApril19.png "Shows the intelligent Cloud Insights page in Business Central")
 
 The page also connects to Power BI for even more insights.
 

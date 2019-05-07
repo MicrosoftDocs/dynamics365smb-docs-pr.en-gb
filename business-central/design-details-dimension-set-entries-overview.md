@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 927ec8c1379a3f03d5bd377e6cd3d21c66691a00
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9706b5cc2438c49c143b7ded27447b4d6403e0dc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809061"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911583"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimension Set Entries Overview
 This topic describes how dimension set entries are stored and posted in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -41,7 +41,7 @@ When you create a new journal line, document header, or document line, you can s
 When you edit and close the **Edit Dimension Set Entries** page, a check is performed to see whether the combination of dimension values exists as a dimension set in the table. If the combination occurs in the table, then the corresponding dimension set ID is assigned to the journal line, document header, or document line. Otherwise, a new dimension set is added to the table, and the new dimension set ID is assigned to the journal line, document header, or document line.  
 
 ## <a name="performance-improvement"></a>Performance Improvement  
-By storing dimension sets once in the database, database space is preserved, and overall performance is improved.  
+By storing dimension sets once in the database, database space is preserved and overall performance is improved.  
 
 ## <a name="see-also"></a>See Also  
 [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   

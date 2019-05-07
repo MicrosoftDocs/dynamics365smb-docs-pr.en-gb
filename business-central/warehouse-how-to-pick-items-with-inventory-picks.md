@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4537dbb31768ff681dd71775c3813d23caba599b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d4340172164401e736bf070b8bf6f3da97cfacb6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809608"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921058"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Pick Items with Inventory Picks
 When your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** page to record and post picking and shipping information for your source documents. The outbound source document can be a sales order, a purchase return order, an outbound transfer order, or a production order whose components are ready to be picked.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1fd6afcdeb42d2f2c594a2a1fce0f60596ac4e6d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809405"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926115"
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Unsubscribe, Remove, or Reset [!INCLUDE[d365fin](includes/d365fin_md.md)]
 If you want to stop using [!INCLUDE[d365fin](includes/d365fin_md.md)], you can close your account or get the licence removed from your account. The steps to take are different if you are currently using the free trial, or if you have a monthly subscription as part of an Office 365 account.  

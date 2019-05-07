@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852431"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921416"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Working with Reports and Batch Jobs
 A report gathers information based on a specified set of criteria, and organises and presents the information in an easy-to-read, printable format. There are many reports that you can access throughout the application. The reports typically provide information relative to the context of the page you are on. For example, the **Customer** page includes reports for the top 10 customers and the sales statistics, and more.
@@ -50,9 +50,9 @@ Using saved settings is a fast and reliable way to consistently generate reports
 ### <a name="setting-options-and-filters"></a>Setting Options and Filters
 If you want to further limit or pin-point the data that is included in a report, you can set additional options and filters.
 
-Filters enable you display data based on a specific criteria. Filters are grouped by the entity to which they belong, such as **Customer** in the illustration above. You define a filter by setting the **Where** box to the field that you want to filter on, and then adding the criteria in the **is:** box. For example, in the illustration above, there is a single filter that will create report for the customer whose **No.** is equal to **01121212**.
+Filters enable you to display data based on a specific criteria. Filters are grouped by the entity to which they belong, such as **Customer** in the illustration above. You define a filter by setting the **Where** box to the field that you want to filter on, and then adding the criteria in the **is:** box.
 
-You can add more filters by setting the **Add** boxes. When you have more than one filter, only results that meet the criteria for all filters will be included in the report.
+You can add more filters by filling the **And** and **is** boxes. When you have more than one filter, only results that meet the criteria for all filters will be included in the report.
 
 Depending on what type field you are filtering, you can specify the filter criteria to look for an exact match, partial match, range of values, and more. For help about how to set up filters, see:
 -   [Filtering](ui-enter-criteria-filters.md#FilterCriteria)
@@ -70,7 +70,7 @@ Use the menu bar to:
 -   Resize to fit the page
 -   Select text
 
-    You can copy text from a report, and then paste it somewhere else, like a page in [!INCLUDE[d365fin](includes/d365fin_md.md)] or Microsoft Word.  Using a mouse, for example, you press and hold where you want to start, and then move the mouse to select one or more words, sentences, or paragraphs. You can then press the right mouse button, and select **Copy**. You can the paste the selected text where ever you want it.
+    You can copy text from a report, and then paste it somewhere else, like a page in [!INCLUDE[d365fin](includes/d365fin_md.md)] or Microsoft Word.  Using a mouse, for example, you press and hold where you want to start, and then move the mouse to select one or more words, sentences, or paragraphs. You can then press the right mouse button and select **Copy**. You can then paste the selected text where ever you want it.
 -   Pan the document
 
     You can move the visible area of the report in any direction so you can view other areas or the report. This is helpful when you have zoomed in to see details.  Using your mouse, for example, press and hold the mouse button anywhere in the report preview, and then move your mouse.

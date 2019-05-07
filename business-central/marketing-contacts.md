@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: af87183dfd9785bfbe3dd56794682d13a5057ada
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 85975b28dbe19702412a05bb927f3fe59bd8bfc3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809341"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915124"
 ---
 # <a name="creating-and-managing-contacts"></a>Creating and Managing Contacts
 Different groups at your company will have business relationships with various companies. For example, a salesperson might regularly meet prospective customers and at the end of the week record the results of these visits.
@@ -28,8 +28,9 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Set up contact management prior to creating contacts. |[Setting Up Contacts](marketing-setup-contacts.md) |
-| Create a contact card for each new person or company that you interact with, such as a customer or vendor. |[Creating Contacts](marketing-create-contact-companies.md) |
+| Set up contact management prior to creating contacts. |[Set Up Contacts](marketing-setup-contacts.md) |
+| Create a contact card for each new person or company that you interact with, such as a customer or vendor. |[Create Contacts](marketing-create-contact-companies.md) |
+|Resolve confusion when two or more records exist for the same contact.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>See Also
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
