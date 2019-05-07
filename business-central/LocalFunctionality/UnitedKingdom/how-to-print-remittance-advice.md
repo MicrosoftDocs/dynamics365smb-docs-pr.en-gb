@@ -10,30 +10,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7e52bac155dd26ba9058a5bf62d4f095e76589a9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 371e2968b4dbe114c040784a08ea0b1579a2ab8c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827404"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "936431"
 ---
-# <a name="print-remittance-advice"></a><span data-ttu-id="30e73-104">Print Remittance Advice</span><span class="sxs-lookup"><span data-stu-id="30e73-104">Print Remittance Advice</span></span>
-<span data-ttu-id="30e73-105">You can print remittance advice before posting a payment journal and after posting a payment.</span><span class="sxs-lookup"><span data-stu-id="30e73-105">You can print remittance advice before posting a payment journal and after posting a payment.</span></span> <span data-ttu-id="30e73-106">This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.</span><span class="sxs-lookup"><span data-stu-id="30e73-106">This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.</span></span>  
+# <a name="print-remittance-advice"></a><span data-ttu-id="c365c-104">Print Remittance Advice</span><span class="sxs-lookup"><span data-stu-id="c365c-104">Print Remittance Advice</span></span>
+<span data-ttu-id="c365c-105">You can print remittance advice before posting a payment journal and after posting a payment.</span><span class="sxs-lookup"><span data-stu-id="c365c-105">You can print remittance advice before posting a payment journal and after posting a payment.</span></span> <span data-ttu-id="c365c-106">This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.</span><span class="sxs-lookup"><span data-stu-id="c365c-106">This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.</span></span>  
 
-## <a name="to-print-remittance-advice"></a><span data-ttu-id="30e73-107">To print remittance advice</span><span class="sxs-lookup"><span data-stu-id="30e73-107">To print remittance advice</span></span>  
+## <a name="to-print-remittance-advice"></a><span data-ttu-id="c365c-107">To print remittance advice</span><span class="sxs-lookup"><span data-stu-id="c365c-107">To print remittance advice</span></span>  
 
-1.  <span data-ttu-id="30e73-108">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="30e73-108">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="30e73-109">On the **Payment Journal** page, select the payment for which remittance advice must be printed.</span><span class="sxs-lookup"><span data-stu-id="30e73-109">On the **Payment Journal** page, select the payment for which remittance advice must be printed.</span></span>  
-3.  <span data-ttu-id="30e73-110">Choose the **Print Remittance Advice** action.</span><span class="sxs-lookup"><span data-stu-id="30e73-110">Choose the **Print Remittance Advice** action.</span></span>  
-4.  <span data-ttu-id="30e73-111">In the **Remittance Advice - Journal** batch job, on the **Gen. Journal Line** FastTab, and select the appropriate filters.</span><span class="sxs-lookup"><span data-stu-id="30e73-111">In the **Remittance Advice - Journal** batch job, on the **Gen. Journal Line** FastTab, and select the appropriate filters.</span></span>  
+1.  <span data-ttu-id="c365c-108">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="c365c-108">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="c365c-109">On the **Payment Journal** page, select the payment for which remittance advice must be printed.</span><span class="sxs-lookup"><span data-stu-id="c365c-109">On the **Payment Journal** page, select the payment for which remittance advice must be printed.</span></span>  
+3.  <span data-ttu-id="c365c-110">Choose the **Print Remittance Advice** action.</span><span class="sxs-lookup"><span data-stu-id="c365c-110">Choose the **Print Remittance Advice** action.</span></span>  
+4.  <span data-ttu-id="c365c-111">In the **Remittance Advice - Journal** batch job, on the **Gen. Journal Line** FastTab, and select the appropriate filters.</span><span class="sxs-lookup"><span data-stu-id="c365c-111">In the **Remittance Advice - Journal** batch job, on the **Gen. Journal Line** FastTab, and select the appropriate filters.</span></span>  
 
     > [!NOTE]  
-    >  <span data-ttu-id="30e73-112">You can filter using the vendor's external document number to match payments with invoices.</span><span class="sxs-lookup"><span data-stu-id="30e73-112">You can filter using the vendor's external document number to match payments with invoices.</span></span>  
+    >  <span data-ttu-id="c365c-112">You can filter using the vendor's external document number to match payments with invoices.</span><span class="sxs-lookup"><span data-stu-id="c365c-112">You can filter using the vendor's external document number to match payments with invoices.</span></span>  
 
-5.  <span data-ttu-id="30e73-113">On the **Vendor** FastTab, select the appropriate filters.</span><span class="sxs-lookup"><span data-stu-id="30e73-113">On the **Vendor** FastTab, select the appropriate filters.</span></span>  
-6.  <span data-ttu-id="30e73-114">Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.</span><span class="sxs-lookup"><span data-stu-id="30e73-114">Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.</span></span>  
+5.  <span data-ttu-id="c365c-113">On the **Vendor** FastTab, select the appropriate filters.</span><span class="sxs-lookup"><span data-stu-id="c365c-113">On the **Vendor** FastTab, select the appropriate filters.</span></span>  
+6.  <span data-ttu-id="c365c-114">Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.</span><span class="sxs-lookup"><span data-stu-id="c365c-114">Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="30e73-115">See Also</span><span class="sxs-lookup"><span data-stu-id="30e73-115">See Also</span></span>  
-[<span data-ttu-id="30e73-116">United Kingdom Local Functionality</span><span class="sxs-lookup"><span data-stu-id="30e73-116">United Kingdom Local Functionality</span></span>](united-kingdom-local-functionality.md)
+## <a name="see-also"></a><span data-ttu-id="c365c-115">See Also</span><span class="sxs-lookup"><span data-stu-id="c365c-115">See Also</span></span>  
+[<span data-ttu-id="c365c-116">United Kingdom Local Functionality</span><span class="sxs-lookup"><span data-stu-id="c365c-116">United Kingdom Local Functionality</span></span>](united-kingdom-local-functionality.md)
