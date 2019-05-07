@@ -8,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/12/2019
 ms.author: jswymer
-ms.openlocfilehash: 3fbd9fa2e68ab84c7abb82bdef42b10e9e2cc93e
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853311"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "990184"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Add Links to Websites, Documents, or Programmes on Records
-On a specific record, such as a customer, document, or sales order, you can add a link to an external document, website, or programme. Or, you may want a link that opens a new empty email to a specific recipient when you select it. The card page for some records, such as customer and vendor cards, include a **Home Page** field where you can enter an Internet address (URL). To include other links, you can use the method described in this article.
+On a specific record, such as a customer, document, or sales order, you can add a link to an external document, website, or programme. Or, you may want a link that opens a new empty email to a specific recipient when you select it. The card page for some records, such as customer and vendor cards, include a **Home Page** field where you can enter an Internet address (URL). To include other links, you can use the method described in this article.  
+
+> [!IMPORTANT]
+> Currently, this capability is available only in [!INCLUDE [prodshort](includes/prodshort.md)] on-premises deployments with the legacy Dynamics NAV Windows client.  
 
 Another example could be when you receive printed invoices from vendors. You can scan them and store them as .pdf files on a SharePoint site. Then you can make a link from a purchase invoice in [!INCLUDE[d365fin_md](includes/d365fin_md.md)] to the corresponding invoice on  SharePoint. Or, you can make a link from an item card to the corresponding page in your vendor's online catalogue.
 

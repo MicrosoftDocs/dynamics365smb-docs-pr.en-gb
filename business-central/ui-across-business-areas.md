@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/13/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac385409d72fea4ee43f7549a86da3516a299608
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853101"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939469"
 ---
 # <a name="general-business-functionality"></a>General Business Functionality
 [!INCLUDE[d365fin](includes/d365fin_md.md)] provides dedicated functionality for typical business areas, such as finance and sales. For more information, see [Business Functionality](across-business-functionality.md).
@@ -40,6 +40,7 @@ The following table lists these general business areas with links to topics that
 |Attach pictures, documents, and other types of files to all cards, such as the item card and job card, and attach files to all types of sales and purchase documents.|[Attach Files to Cards and Documents](across-attach-document-master-data.md)|
 |Work with your Business Central data in Excel.|[Exporting Your Business Data to Excel](about-export-data.md)|
 |Understand what happens when you choose the **Post** action.|[Posting Documents and Journals](ui-post-documents-journals.md)|
+|Review the result of posting before you post.|[Preview Posting Results](ui-how-preview-post-results.md)| 
 |Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Working with General Journals](ui-work-general-journals.md) |
 | Schedule a report to run at a specific date and time. |[Scheduling a Report to Run](ui-work-report.md#ScheduleReport) |
 |Let the system help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself.|[Letting Business Central Suggest Values](ui-let-system-suggest-values.md)|

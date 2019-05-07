@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 70ab7fb07cda5ce9d86b3f39dd14321829e85a52
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809356"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937588"
 ---
 # <a name="tell-me-faq"></a>Tell Me FAQ
 This topic answers questions that our advanced users often ask about the new Tell Me feature, which has replaced the previous Page Search feature known as **Find Pages and Reports**.
@@ -33,7 +33,7 @@ Actions, pages, and reports that originate from extensions are picked up by Tell
 Page Search has evolved into Tell Me to help you get work done quickly. Page Search could only help you navigate to pages or reports. At a technical level, Tell Me is no longer based on the legacy MenuSuite concept.
 
 ### <a name="i-use-on-premises-included365finincludesd365finmdmd-does-that-include-tell-me"></a>I use on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Does that include Tell Me?
-You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not documentation. Users connecting to [!INCLUDE[d365fin](includes/d365fin_md.md)] from the Dynamics NAV client continue to use Page Search.
+You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not documentation, or apps and consulting services on AppSource. Users connecting to [!INCLUDE[d365fin](includes/d365fin_md.md)] from the Dynamics NAV client continue to use Page Search.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Is Tell Me available for all form factors?
 Tell Me is only available in the Web Client or Windows desktop app.

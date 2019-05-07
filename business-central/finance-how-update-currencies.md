@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 03/19/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 81db512103c36f77b9d31e01fe05214045e74705
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: a9fa636fb68a428da3c587e59be1bf76cf976207
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853193"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926945"
 ---
 # <a name="update-currency-exchange-rates"></a>Update Currency Exchange Rates
 As companies operate in increasingly more countries/regions, it becomes more important that they be able to trade and report financials in more than one currency. You must set up a code for each currency you use if you buy or sell in currencies other than your local currency, have receivables or payables in other currencies, or record G/L transactions in different currencies.

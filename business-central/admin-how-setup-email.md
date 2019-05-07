@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b7f41e3630b818607dee18ad2b8afe6ba5daa3de
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809253"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939159"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Set Up Email Manually or Using the Assisted Setup
 To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields on the **SMTP Mail Setup** page.
@@ -24,7 +24,7 @@ To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md
 > [!NOTE]  
 >   Instead of entering the SMTP server details, you can use a function to enter them with information from your Office 365 subscription.
 
-You can either set email up manually or you can get help by using the **Email Setup** assisted setup. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
+You can either set email up manually or you can get help by using the **Email Setup** assisted setup guide. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.

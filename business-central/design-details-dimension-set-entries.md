@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, dimensions, codeunit
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5563241784aaf8bfa1a29f8568411be657647cf7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c6b66ecee87e1fd128733f541d46b97f44af0453
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809102"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935666"
 ---
 # <a name="design-details-dimension-set-entries"></a>Design Details: Dimension Set Entries
-This documentation provides detailed technical insight into the concepts and principles that are used to redesign the dimension entry storing and posting feature in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The documentation starts by describing conceptual overviews of the redesign. Then it explains the technical architecture to show how the redesign is made. Finally, it provides code examples to prepare you for dimension code migration and upgrade.  
+This documentation provides detailed technical insight into the concepts and principles of the dimension-entry storing and posting functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The documentation starts by describing conceptual overviews. Then it explains the technical architecture. Finally, it provides code examples to prepare you for dimension code migration and upgrade from versions earlier than Dynamics NAV 2013R2.  
 
 ## <a name="in-this-section"></a>In This Section  
 [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  

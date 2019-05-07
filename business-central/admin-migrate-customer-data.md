@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808331"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "953517"
 ---
 # <a name="migrate-customer-data"></a>Migrate Customer Data
 You can migrate existing customer data from an existing ERP system to [!INCLUDE[d365fin](includes/d365fin_md.md)] using the data migration tools of RapidStart Services. You can use Excel files as the data carrier. You can also manually move the data by entering it directly in the company.
@@ -101,7 +101,7 @@ In the following procedures, you should review in advance which values you want 
 5. In the **Old Value** field, enter the value that you want to change. In the **New Value** field, enter the value that you want the old value to be changed to. Choose the **OK** button.  
 6. Import the customer data. For more information, see [To import customer data](admin-migrate-customer-data.md#to-import-customer-data).
 7. In the **No. of Package Errors** field, see if there are any errors reported. If there are, drill down to see the errors. The **Config. Package Records** page opens.
-8. Choose the **Show Error** action. You will receive the following error: **<option> is not a valid option. Valid options are <valid option list>**. Choose the **OK** button.  
+8. Choose the **Show Error** action. You will receive the following error: **XX is not a valid option. Valid options are: XX**. Choose the **OK** button.  
 9. To apply the mapping that you have set up, choose the **Apply Data** action.  
 
 ### <a name="mapping-example"></a>Mapping Example  
@@ -153,7 +153,11 @@ When the customer data has been entered in the data migration files in Excel, yo
 
 1. Open the **Config. Package Card** page.
 2. Select the table for which you want to import data, and then, on the **Tables** tab, choose the **Import from Excel** action.
-3. Locate and open the file that you want from which you want to import data to [!INCLUDE[d365fin](includes/d365fin_md.md)].
+3. Locate and open the file that you want to import data from.
+4. On the **Config. Package Import Preview** page, review the content that will be imported.
+
+    The **Config. Package Import Preview** page provides an overview of the Excel file content to be imported. It also indicates if a new configuration package is created or the existing one is updated, and if new configuration package lines (tables) are created or existing ones are updated.    
+5. Choose the **Import** action
 
 Data from the file is imported into the configuration package tables. In the **No. of Package Records** field, you can see the number of records that have been imported. In addition, you can see the number of migration errors.
 

@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2019
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: afaab918f2959ee32315988c81dee987499aa05a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: be056212ecfd610cbd7753a6ffc9babb08100359
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852247"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926897"
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]
 When performing business tasks, you interact with data in different ways, such as creating records and entering data, sorting and filtering data, writing notes, and outputting data to other applications.
@@ -39,7 +39,7 @@ The following table lists some of the general functionality with links to topics
 |Learn how to interact with Excel from practically anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Viewing and Editing in Excel](across-work-with-excel.md)|
 |Get notified about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance.|[Managing Notifications](ui-smart-notifications.md)|
 | Change basic settings such as company, work date, and Role Centre. |[Changing Basic Settings](ui-change-basic-settings.md) |
-| Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customising [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
+| Change which and where UI elements are shown to fit your preferences.|[Personalising Your Workspace](ui-personalization-user.md) |
 |Define, preview, print, or save reports and define and run batch jobs.|[Working with Reports and Batch Jobs](ui-work-report.md)|
 | Manage the content and format of reports and documents, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more.|[Managing Report and Document Layouts](ui-manage-report-layouts.md) |
 |Learn about features and capabilities that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities.|[Accessibility and Keyboard Shortcuts](ui-accessibility.md)|
@@ -55,3 +55,4 @@ Here's a short video about how to get around in [!INCLUDE[d365fin](includes/d365
 [General Business Functionality](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

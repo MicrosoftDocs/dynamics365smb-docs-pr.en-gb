@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5a740651cd2413415076f2a29726793f0c36db02
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4afcca772cb4cccd2a44d5808b95d510d1484cf3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809351"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941263"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>View Load on Work and Machine Centres
 In the **Work Centre Card** and **Machine Centre Card** pages, you can view the shop floor load as a result of planned and released production orders.    

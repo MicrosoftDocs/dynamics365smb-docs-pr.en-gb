@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809409"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928076"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sorting, Searching, and Filtering Lists
 There are a few things that you can do that will help you scan, find, and limit records in a list. These include sorting, searching and filtering. You can apply some or all of these simultaneously to quickly find or analyse your data.
@@ -36,11 +36,12 @@ To sort a list, you can either choose a column heading text to toggle between as
 >   Sorting is not supported on images, BLOB fields, FlowFilters, and fields that do not belong to a table.  
 
 ## <a name="searching"></a>Searching
-<!--## Searching by using the Quick Filter --> At the top of each list page, there is a ![Search list](media/ui-search/search-list.png "Search list icon") **Search** icon that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you are interested in seeing.
+<!--## Searching by using the Quick Filter -->
+At the top of each list page, there is a ![Search list](media/ui-search/search-list.png "Search list icon") **Search** icon that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you are interested in seeing.
 
 To search, simply select the search icon, and then in the box, type the text that you are looking for. You can enter letters, numbers, and other symbols.
 
-### <a name="fine-tune-the-search"></a>Fine-tune the search
+### <a name="fine-tune-the-search"></a>Fine-tune the Search
 In general, search will attempt to match text across all fields; it does not distinguish between uppercase and lowercase characters (in other words, case insensitive), and will match text placed anwhere in the field (at the beginning, end, or in the middle).
 
 However, you can make a more exact search by using the following special characters:
@@ -55,27 +56,6 @@ However, you can make a more exact search by using the following special charact
 
 The following table provides some examples to explain how you can use the search.
 
-
-<!--
-In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
-
-<!--
-The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
-
-* If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
-* If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
--->
-<!--
-
-|Search Criteria|Interpreted as...|Finds...|
-|---------------|----------------|----------|
-|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
-|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
-|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
-|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
-|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
--->
-
 |Search Criteria|Finds...|
 |---------------|----------|
 |`man`<br />or <br />`Man`|All records with fields that contain the text **man**, regardless of the case. For example, **Manchester**, **manual**, or **Sportsman**. |
@@ -87,7 +67,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > [!TIP]
 > You can press F3 to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="filtering"></a>Filtering
+## <a name="Filtering"> </a>Filtering
 Filtering provides a more advanced and versatile way of controlling which records display in a list. There are two major differences between searching and filtering, as described in the table below.
 
 || **Searching** | **Filtering** |
@@ -97,14 +77,15 @@ Filtering provides a more advanced and versatile way of controlling which record
 
 Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
 
-### <a name="working-in-the-filter-pane"></a>Working in the filter pane
+### <a name="working-in-the-filter-pane"></a>Working in the Filter Pane
+
+To display the filter pane, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3**. For lists within the Role Centre, you can also choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane** as shown here:
+
+![Show filter pane](media/open-filter-pane.png "Show filter pane")
+
 The filter pane displays the current filters for a list, and enables you to set your own custom filters on one or more fields. The following figure shows an example filter pane for a Sales Quotes list.
 
 ![Filter pane overview ](media/filter-pane-overview.png "Filter icon")
-
-To display the filter pane, use the **Shift+F3** keyboard shortcut. For lists within the Role Centre, you can also choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane**.
-
-![Show filter pane](media/open-filter-pane.png "Show filter pane")
 
 A filter pane is divided in three sections: **Views**, **Filter list by**, and **Filter totals by**:
 
@@ -126,7 +107,7 @@ A filter pane is divided in three sections: **Views**, **Filter list by**, and *
   > Filters in the **Filter totals by** section are controlled by FlowFilters on the page design. For technical information, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 
-### <a name="entering-filter-criteria-in-the-filter-pane"></a>Entering filter criteria in the filter pane
+### <a name="entering-filter-criteria-in-the-filter-pane"></a>Entering Filter Criteria in the Filter Pane
 To select a field to filter, do one of the following:
   - In the filter pane, choose **+ Field**. Type the name of the field you wish to filter, or pick a field from the menu that displays all fields in the table.
 
@@ -137,7 +118,7 @@ You can now type or select your filter criteria in the box. The type of field yo
 Columns that already have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the column heading, then choose **Clear Filter**.
 
 
-### <a name="entering-filter-criteria-without-the-filter-pane"></a>Entering filter criteria without the filter pane
+### <a name="entering-filter-criteria-without-using-the-filter-pane"></a>Entering Filter Criteria Without Using the Filter Pane
 You can specify simple filters directly within the list without having to use the filter pane.
 With any field selected on a row, use the **Alt+F3** keyboard shortcut to display only the records having that same value. You can then select another field and use the same shortcut again to continue refining your filters. If the selected field is already filtered, using **Alt+F3** will clear that filter.
 
@@ -146,7 +127,7 @@ With any field selected on a row, use the **Alt+F3** keyboard shortcut to displa
 For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 
-## <a name="FilterCriteria"> </a>Filter criteria and symbols
+## <a name="FilterCriteria"> </a>Filter Criteria and Symbols
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
 
 > [!IMPORTANT]  
@@ -235,7 +216,7 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |-----------------------|-----------------------|  
 |`Hans?n`|Text such as Hansen or Hanson|  
 
-### <a name="combined-format-expressions"></a>Combined format expressions  
+### <a name="combined-format-expressions"></a>Combined Format Expressions  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
@@ -244,14 +225,14 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |`>50&<100`|Include records with numbers that are greater than 50 and less than 100 (numbers 51 through 99).|  
 
 
-## <a name="FilterTokens"> </a>Filter tokens
+## <a name="FilterTokens"> </a>Filter Tokens
 When entering filter criteria, you can also type words that have special meaning, called filter tokens. After entering the token word, the word is replaced by the value or values that it represents. This makes filtering easier by reducing the need to navigate to other pages to look up values you want to add to your filter. The tables below describe some of the tokens you can type as filter criteria.
 
 > [!TIP]
-> Your organisation may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. For technical information see [Adding Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
+> Your organisation may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. For technical information see [Adding Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
 
-### <a name="me-or-userid-records-assigned-to-you"></a>(%me or %userid) Records assigned to you
+### <a name="me-or-userid-records-assigned-to-you"></a>(%me or %userid) Records Assigned to You
 
 Use `%me` or `%userid` when filtering fields that contain the user ID, such as **Assigned to User ID** field, to display all records that are assigned to you.
 

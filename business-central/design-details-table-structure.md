@@ -10,23 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/11/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b2e87b2ef999c04cc4c878d4ad087329d644b709
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 688c448f920a032a0f137bab7abdb9de51af1f96
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "808745"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927525"
 ---
 # <a name="design-details-table-structure"></a>Design Details: Table Structure
-To understand how the dimension entry storing and posting is redesigned, it is important to understand the table structure.  
+To understand how dimension entries are stored and posted, it is important to understand the table structure.  
 
-## <a name="new-tables"></a>New Tables  
- Three new tables have been designed to manage dimension set entries.  
-
-### <a name="table-480-dimension-set-entry"></a>Table 480 Dimension Set Entry  
- You cannot change this table. After data has been written to the table, you cannot delete or edit it.
+## <a name="table-480-dimension-set-entry"></a>Table 480, Dimension Set Entry  
+You cannot change this table. After data has been written to the table, you cannot delete or edit it.
 
 |Field No.|Field Name|Data Type|Comment|  
 |---------------|----------------|---------------|-------------|  
@@ -37,8 +34,8 @@ To understand how the dimension entry storing and posting is redesigned, it is i
 |5|**Dimension Name**|Text 30|CalcField. Lookup to table 348.|  
 |6|**Dimension Value Name**|Text 30|CalcField. Lookup to table 349.|  
 
-### <a name="table-481-dimension-set-tree-node"></a>Table 481 Dimension Set Tree Node  
- You cannot change this table. It is used to search for a dimension set. If the dimension set is not found, a new set is created.  
+## <a name="table-481-dimension-set-tree-node"></a>Table 481, Dimension Set Tree Node  
+You cannot change this table. It is used to search for a dimension set. If the dimension set is not found, a new set is created.  
 
 |Field No.|Field Name|Data Type|Comment|  
 |---------------|----------------|---------------|-------------|  
@@ -47,8 +44,8 @@ To understand how the dimension entry storing and posting is redesigned, it is i
 |3|**Dimension Set ID**|Integer|AutoIncrement. Used in field 1 in table 480.|  
 |4|**In Use**|Boolean|False if not in use.|  
 
-### <a name="table-482-reclas-dimension-set-buffer"></a>Table 482 Reclas. Dimension Set Buffer  
- The table is used when you change a dimension value code, for example, on an item ledger entry by using the **Item Reclassification Journal** page.  
+## <a name="table-482-reclas-dimension-set-buffer"></a>Table 482 Reclas. Dimension Set Buffer  
+This table is used when you change a dimension value code, for example, on an item ledger entry by using the **Item Reclassification Journal** page.  
 
 |Field No.|Field Name|Data Type|Comment|  
 |---------------|----------------|---------------|-------------|  
@@ -61,35 +58,32 @@ To understand how the dimension entry storing and posting is redesigned, it is i
 |7|**Dimension Value Name**|Text 30|CalcField. Lookup to table 349.|  
 |8|**New Dimension Value Name**|Text 30|CalcField. Lookup to table 349.|  
 
-## <a name="modified-tables"></a>Modified Tables  
- All transaction and budget tables have been modified to manage dimension set entries.  
-
-### <a name="changes-to-transaction-and-budget-tables"></a>Changes to Transaction and Budget Tables  
- A new field has been added to all transaction and budget tables.  
+## <a name="transaction-and-budget-tables"></a>Transaction and Budget Tables  
+In addition to other dimension fields in the table, this field is important:  
 
 |Field No.|Field Name|Data Type|Comment|  
 |---------------|----------------|---------------|-------------|  
 |480|**Dimension Set ID**|Integer|References field 1 in table 480.|  
 
-### <a name="changes-to-table-83-item-journal-line"></a>Changes to Table 83 Item Journal Line  
- Two new fields have been added to table 83 **Item Journal Line**.  
+### <a name="table-83-item-journal-line"></a>Table 83, Item Journal Line  
+In addition to other dimension fields in the table, these fields are important.  
 
 |Field No.|Field Name|Data Type|Comment|  
 |---------------|----------------|---------------|-------------|  
 |480|**Dimension Set ID**|Integer|References field 1 in table 480.|  
 |481|**New Dimension Set ID**|Integer|References field 1 in table 480.|  
 
-### <a name="changes-to-table-349-dimension-value"></a>Changes to Table 349 Dimension Value  
- A new field has been added to table 349 **Dimension Value**.  
+### <a name="table-349-dimension-value"></a>Table 349, Dimension Value  
+In addition to other dimension fields in the table, these fields are important.  
 
 |Field No.|Field Name|Data Type|Comment|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimension Value ID**|Integer|AutoIncrement. Used for references in table 480 and table 481.|  
 
-### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tables That Get New Field 480 Dimension Set ID  
- A new field, 480 **Dimension Set ID**, has been added to the following tables. For the tables that store posted data, the field only provides a non-editable display of dimensions, which is marked as Drill-down. For the tables that store working documents, the field is editable. The buffer tables that are used internally do not need editable or non-editable capabilities.  
+### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tables That Contain the Dimension Set ID Field
+ The **Dimension Set ID** field (480) exists in the following tables. For the tables that store posted data, the field only provides a non-editable display of dimensions, which is marked as Drill-down. For the tables that store working documents, the field is editable. The buffer tables that are used internally do not need editable or non-editable capabilities.  
 
- The 480 field is non-editable in the following tables.  
+ Field 480 is non-editable in the following tables.  
 
 |Table No.|Table Name|  
 |---------------|----------------|  
@@ -143,7 +137,7 @@ To understand how the dimension entry storing and posting is redesigned, it is i
 |6660|**Return Receipt Header**|  
 |6661|**Return Receipt Line**|  
 
- The 480 field is editable in the following tables.  
+Field 480 is editable in the following tables.  
 
 |Table No.|Table Name|  
 |---------------|----------------|  
@@ -177,7 +171,7 @@ To understand how the dimension entry storing and posting is redesigned, it is i
 |7134|**Item Budget Entry**|  
 |99000829|**Planning Component**|  
 
- The 480 field has been added to the following buffer tables.  
+Field 480 exists in the following buffer tables.  
 
 |Table No.|Table Name|  
 |---------------|----------------|  

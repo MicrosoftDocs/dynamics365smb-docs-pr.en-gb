@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/03/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 27a1fcc2bb0efd79e95f10c78dbae54869c59703
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 90ec163e5a58ffc95de1af14f30dfcd7f8c8acc8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809343"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "933008"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Add Comments to Cards and Documents
 You can add extra information to G/L accounts, customers cards, or sales orders to communicate exceptions or special agreements to other users.

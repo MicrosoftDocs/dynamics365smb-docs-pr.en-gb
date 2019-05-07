@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: edupont
-ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852086"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969839"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most business processes, but you can change the configuration to suit the needs of company.
@@ -27,7 +27,7 @@ From your Role Centre, you can access assisted setup guides that help you config
 > [!NOTE]
 > You can set up a new company in [!INCLUDE[d365fin](includes/d365fin_md.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. For more information, see [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-Some functionality, either general or for specific business processes, can be set up manually in addition to the assisted setup. The following lists some of functionality that can you can set up manually.
+Some functionality, either general or for specific business processes, can be set up manually in addition to the assisted setup guide. The following lists some of functionality that can you can set up manually.
 
 | To | See |
 | --- | --- |
@@ -58,18 +58,18 @@ Some functionality, either general or for specific business processes, can be se
 Some areas require you to be an administrator in your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For more information, see [Administration](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>See Also
+
 [Administration](admin-setup-and-administration.md)  
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Inventory](inventory-manage-inventory.md)    
+[Inventory](inventory-manage-inventory.md)  
 [Project Management](projects-manage-projects.md)  
-[Fixed Assets](fa-manage.md)    
+[Fixed Assets](fa-manage.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Administration](admin-setup-and-administration.md)  
 [Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Getting Started](product-get-started.md)  
 

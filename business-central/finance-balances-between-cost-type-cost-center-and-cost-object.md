@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: d223bdc490c2ac45353d0e7f8aff6816c1ce5f51
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8b64941b6c17468b598d419053c05e1d32dac7ce
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "809781"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938233"
 ---
 # <a name="balances-between-cost-type-cost-center-and-cost-object"></a>Balances Between Cost Type, Cost Centre, and Cost Object
 When you set up cost accounting, you must make sure that all entries are assigned to a cost type as well as a cost centre or a cost object. The means that each cost entry must have a cost type assigned and a cost centre code or a cost object assigned. This rule ensures that each cost entry appears in either the cost centres or the cost objects, but never in both places.  
