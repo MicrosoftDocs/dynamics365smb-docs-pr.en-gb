@@ -12,11 +12,11 @@ ms.search.keywords: procurement
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 77f8db5fee4322a7ac2715375988815e8c908a6c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935979"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252741"
 ---
 # <a name="record-purchases"></a>Record Purchases
 You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices and purchase orders are also used to dynamically update inventory levels so that you can minimise your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices or orders contribute to profit figures and other financial KPIs on your Role Centre.

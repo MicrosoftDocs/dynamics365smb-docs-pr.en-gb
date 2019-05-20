@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 23d7ea5cac7b261f4b74e1b423507ee00c47df25
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923158"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253891"
 ---
 # <a name="create-production-boms"></a>Create Production BOMs
 A production bill of material (BOM) holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented on the **Prod. Order Components** page.

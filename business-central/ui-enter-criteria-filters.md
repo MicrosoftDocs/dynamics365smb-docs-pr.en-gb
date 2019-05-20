@@ -11,11 +11,11 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928076"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253960"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sorting, Searching, and Filtering Lists
 There are a few things that you can do that will help you scan, find, and limit records in a list. These include sorting, searching and filtering. You can apply some or all of these simultaneously to quickly find or analyse your data.

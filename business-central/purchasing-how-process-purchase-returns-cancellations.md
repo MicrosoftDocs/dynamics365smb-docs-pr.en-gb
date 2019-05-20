@@ -13,11 +13,11 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 78a67f214de9e3d4d1df673a21c5a2c1b3ec1f64
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934380"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252534"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Process Purchase Returns or Cancellations
 If you want to return items to your vendor or cancel services that you have purchased, then you can create and post a purchase credit memo that specifies the requested change with regard to the original purchase invoice. To include the correct purchase invoice information, you can create the purchase credit memo directly from the posted purchase invoice or you can create a new purchase credit memo with copied invoice information.

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 68128de48b014e7ca44fba3909cf72dcf0d87135
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: c64b58c036395764191c05f47f8327c6479a4c6f
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920422"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447044"
 ---
 # <a name="setting-up-finance"></a>Setting Up Finance
 To help you get going quickly, [!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most financial processes. If you need to change the configurations to suit your business, go right ahead. For example, from the Role Centre, you can use an assisted setup guide to set up VAT rate for your location.  
@@ -44,7 +44,6 @@ The following table describes a sequence of tasks, with links to the topics that
 | Set up business intelligence (BI) charts to analyse cash flow. |[Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md) |
 |Enable invoicing of a customer who is not set up in the system.|[Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)|
 | Set up Intrastat reporting, and submit the report to an authority | [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)|
-|Prepare the Consolidated Trial Balance report on the Accountant Role Center to get a financial overview across multiple companies.|[Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)|
 |Make sure an entry in a general journal is allocated to several different accounts when you post the journal, either quantity, percentage, or amount.|[Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)|
 
 ## <a name="see-also"></a>See Also

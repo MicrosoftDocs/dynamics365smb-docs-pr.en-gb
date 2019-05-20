@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 19f7c77a115f473238441b8c67417e53c0896625
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 3a719e7b2d44a6cf67335b938a0899a52fcde41b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915483"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446837"
 ---
 # <a name="managing-sales-opportunities"></a>Managing Sales Opportunities
 Any incoming lead can be considered a sales opportunity. You can create opportunities and associate them to a salesperson so that you can keep track of potential sales.
@@ -30,7 +30,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | --- | --- |
 | Set up the sales cycles that you usually follow, and the different stages within each opportunity sales cycle. |[Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md) |
 | Create sales opportunities that you have from your contacts. |[Create Opportunities](marketing-how-create-opportunities.md) |
-| Move a sales opportunity through the sales cycle to completion. |[Processing Sales Opportunities](marketing-processing-sales-opportunities.md) |
+| Move a sales opportunity through the sales cycle to completion. |[Process Sales Opportunities](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  

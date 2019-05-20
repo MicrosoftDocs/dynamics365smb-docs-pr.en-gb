@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: b0fdc5b1c0b76db96652e363979e6eb55f3c6c24
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "929581"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252028"
 ---
 # <a name="planning"></a>Planning
 The production operations required to transform inputs into finished goods must be planned daily or weekly depending on the volume and nature of the products. [!INCLUDE[d365fin](includes/d365fin_md.md)] offers features to supply for anticipated and actual demand from sale, assembly, and production as well as features for distribution planning using stockkeeping units and location transfers.

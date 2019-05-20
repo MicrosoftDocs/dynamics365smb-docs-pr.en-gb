@@ -11,11 +11,11 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0df165440ebe34c35da8a59289f051239821ea5a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918964"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251936"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Map Text on Recurring Payments to Accounts for Automatic Reconciliation
 On the **Text-to-Account Mapping** page, which you open from the **Payment Reconciliation Journal** page, you can set up mappings between text on payments and specific debit, credit, and balancing accounts so that such payments are posted to the specified accounts when you post the payment reconciliation journal.

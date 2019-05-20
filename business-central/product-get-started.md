@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 80dcc6b46cdb89c846666963baffa6704daade28
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: eae085d430fb7341b8ac62f26033d68d9ea155cf
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926000"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1254087"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Getting Started with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system. To help you with your subscription, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search).  

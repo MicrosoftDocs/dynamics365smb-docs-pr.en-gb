@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: bf64955898ddbdce539a2e68c2db07c2c6b8c575
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934659"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253086"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Run Full Planning, MPS or MRP
 The terms "running the planning worksheet" or "running MRP" refer to the calculation of the master production schedule and material requirements based on actual and forecasted demand. The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or it can calculate both at the same time.  

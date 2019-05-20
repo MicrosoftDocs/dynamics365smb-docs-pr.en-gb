@@ -4,20 +4,20 @@ description: Planning with or without location codes on demand lines is importan
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 09/04/2017
 ms.author: sgroespe
 ms.openlocfilehash: 3904bbd635386d1cd263053db1b106435c2b1ba0
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922463"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252074"
 ---
 # <a name="planning-with-or-without-locations"></a>Planning With or Without Locations
 Concerning planning with or without location codes on demand lines, the planning system operates in a straight forward way when:  

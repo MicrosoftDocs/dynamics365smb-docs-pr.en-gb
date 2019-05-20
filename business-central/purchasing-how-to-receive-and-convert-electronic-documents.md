@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a121363d04de0aea69e423df8de5c50c24744061
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939277"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252189"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Receive and Convert Electronic Documents
 The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. To receive an invoice from a vendor as an electronic PEPPOL document, you process the document in the Incoming Documents page to convert it to a purchase invoice or general journal line in [!INCLUDE[d365fin](includes/d365fin_md.md)].

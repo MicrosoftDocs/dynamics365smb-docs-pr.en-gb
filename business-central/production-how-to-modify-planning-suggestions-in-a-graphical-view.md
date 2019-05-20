@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 30de3d3243b0b6babff94efc33d87e7494d2e2bd
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939254"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253500"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modify Planning Suggestions in a Graphical View
 A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function. An alternative to doing this in the planning worksheet is to use a graphical view.

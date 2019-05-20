@@ -10,11 +10,11 @@ ms.workload: na
 ms.date: 09/20/2018
 ms.author: edupont
 ms.openlocfilehash: 9b8820c1660f50dc3ad68cb82d48bc7fd1460d4a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826151"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1254102"
 ---
 # <a name="create-a-product-or-service-in-included365invlongincludesd365invlongmd"></a>Create a product or service in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 Products are the basis of your business, the goods or services that you trade in. Each product must be registered as an item in the Prices list. An item holds the information that is required to buy, store, sell, deliver, and account for products you sell.  

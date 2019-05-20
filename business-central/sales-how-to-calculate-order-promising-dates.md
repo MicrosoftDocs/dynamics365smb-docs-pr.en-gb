@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 119c3df2f58f6aeb7ee6614a56b85c42724517c8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919875"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251545"
 ---
 # <a name="calculate-order-promising-dates"></a>Calculate Order Promising Dates
 A company must be able to inform their customers of order delivery dates. The **Order Promising Lines** page enables you to do this from a sales order line.  

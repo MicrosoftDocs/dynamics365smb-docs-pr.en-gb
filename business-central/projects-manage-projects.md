@@ -9,11 +9,11 @@ ms.search.keywords: projects
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: dcd68331143cac2572b37e7bf130010d69dc05f4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921035"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253109"
 ---
 # <a name="project-management"></a>Project Management
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can perform common project management tasks, such as configuring a job and scheduling a resource, as well as providing the information needed to manage budgets and monitor progress. You can track machine and employee hours on the project by using time sheets. As a project manager, you have a good overview, not only of individual jobs, but also of the allocation of employees, machinery and other resources being used in all projects.

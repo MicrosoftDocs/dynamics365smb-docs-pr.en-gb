@@ -11,11 +11,11 @@ ms.search.keywords: sales rep
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 01872122592db05ec49b765dd78b59e98b6239f6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916526"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251729"
 ---
 # <a name="set-up-salespeople"></a>Set Up Salespeople
 Many companies want to follow an individual employee's performance as a basis for calculating the sales commission or bonus. See, for example, the **Salesperson Commissions** report. A company may also want to assign a salesperson to each of their contacts.

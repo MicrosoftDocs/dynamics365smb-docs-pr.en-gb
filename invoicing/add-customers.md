@@ -10,11 +10,11 @@ ms.workload: na
 ms.date: 02/20/2019
 ms.author: bholtorf
 ms.openlocfilehash: 0f74ace105aa92e0188af9ded99762a387e18772
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826159"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1254105"
 ---
 # <a name="managing-information-about-customers"></a>Managing information about customers
 Keeping information about your customers up-to-date makes it faster and easier to create estimates and invoices. For example, when you choose the customer while creating an invoice, Invoicing fills in information about the customer for you.  

@@ -13,11 +13,11 @@ ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3c175e15c9a1cf1fae4879a520c26232195b289d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931897"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251803"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Review or Apply Payments Manually After Automatic Application
 For each journal line representing a payment on the **Payment Reconciliation Journal** page, you can open the **Payment Application** page to see all candidate open entries for the payment and view detailed information for each entry about the data matching that a payment application is based on. Here, you can manually apply payments or reapply payments that were applied automatically to a wrong entry. For more information about automatic application, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).

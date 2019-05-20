@@ -13,11 +13,11 @@ ms.search.keywords: project invoice
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 57a0cb6624e122f52aaa0680fd73df8b67a23d30
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927884"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253340"
 ---
 # <a name="invoice-jobs"></a>Invoice Jobs
 During the project, job costs from resource usage, materials, and job-related purchases can accumulate. As the job progresses, these transactions get posted to the job journal. It is important that all costs get recorded in the job journal before you invoice the customer.

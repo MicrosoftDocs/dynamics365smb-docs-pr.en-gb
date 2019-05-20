@@ -13,11 +13,11 @@ ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a6521a6f67fa39ded3b3baa863fc0d4341aa0524
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916953"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252442"
 ---
 # <a name="set-up-document-sending-profiles"></a>Set Up Document Sending Profiles
 You can set each customer up with a preferred method of sending sales documents, so that you do not have to select a sending option every time you choose the **Post and Send** action.

@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: d3c3a460cd13d0af16e38564d4b2fb0de367ed53
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931002"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252212"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Work with Service Contracts and Service Contract Quotes
 You can create a service contract either manually or from a service contract quote. You can use a service contract quote as a forerunner of a service contract, in which your company makes an offer to the customer and obtains customer approval before you can convert it to a service contract. The procedures for creating either a service contract or service contract quote are similar.  

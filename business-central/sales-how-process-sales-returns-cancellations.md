@@ -11,11 +11,11 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a116dd3394e8aae36661815d72db3a8b13265bcf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917774"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251867"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Process Sales Returns or Cancellations
 If a customer wants to return items or be reimbursed for items or services that you have sold and received payment for, you must create and post a sales credit memo that specifies the requested change. To include the correct sales invoice information, you can create the sales credit memo directly from the posted sales invoice or you can create a new sales credit memo with copied invoice information.

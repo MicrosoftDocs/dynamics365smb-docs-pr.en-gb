@@ -10,11 +10,11 @@ ms.workload: na
 ms.date: 09/12/2018
 ms.author: edupont
 ms.openlocfilehash: 384791aeadaaa4c374607ec529955171456ab7e4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826175"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1254067"
 ---
 # <a name="export-or-delete-data-from-included365invlongincludesd365invlongmd"></a>Export or delete data from [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 

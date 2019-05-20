@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7ebdf239e592faedd1502c8fff50dd91e474352f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: d92d732b99eedb06eb0185d1227252e1ace95334
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917726"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446883"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Reporting Costs and Reconciling with the General Ledger
 At the end of accounting periods, monthly, yearly or other, a sequence of cost control and auditing tasks must be performed to report a correct and balanced inventory value to the finance department. Apart from the posting routine that transfers the individual item value entries to dedicated general ledger accounts, several reports, tracing functions, and a special reconciliation tool are available to the auditor or controller responsible for this business-critical work.  
@@ -31,7 +31,6 @@ At the end of accounting periods, monthly, yearly or other, a sequence of cost c
 |View the inventory value of selected items, including their actual and expected cost on the date specified.|**Invt. Valuation - Cost Spec.** report|  
 |Use a report to analyze the reasons for cost variances or to gain insight into the cost shares of sold items (COGS).|**Cost Shares Breakdown** report|  
 |Periodically post the value entries of item transactions from the inventory ledger to the related G/L accounts to reconcile the two ledgers.|[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Use one page to audit the reconciliation between the inventory ledger and the general ledger.|[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Determine the WIP amount that needs to be posted to balance sheet accounts for period-end reporting.|[Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>See Also  

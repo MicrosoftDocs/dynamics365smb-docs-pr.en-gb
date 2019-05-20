@@ -11,11 +11,11 @@ ms.search.keywords: payment process, cash receipts
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: d96f46d7c0bd2b8a20294ff934ed645a76298e42
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926636"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251890"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Reconcile Payments that Cannot be Applied Automatically
 You may sometimes have to handle payments to your bank account that cannot be applied to a related open customer, vendor or bank account ledger entry. Reasons may be that no document exists in [!INCLUDE[d365fin](includes/d365fin_md.md)] that the payment can be applied to, or the related document in [!INCLUDE[d365fin](includes/d365fin_md.md)] has a different amount than the transaction amount, for example, because of currency exchange. On the **Payment Reconciliation Journal** page, all transaction amounts for payments that are not yet applied appear in the **Difference** field, including amounts that cannot be applied because of reasons such as the above.

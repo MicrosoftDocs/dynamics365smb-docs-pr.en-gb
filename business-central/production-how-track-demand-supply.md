@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: beb438be379cfc6e3f239ebb0ae270a2e957651c
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938497"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252810"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Track Relations Between Demand and Supply
 From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.

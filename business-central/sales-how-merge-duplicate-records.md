@@ -13,11 +13,11 @@ ms.search.keywords: client
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c23e34cfe0a1684a4bd5b95b60f56f0e411608ab
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940393"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251816"
 ---
 # <a name="merge-duplicate-records"></a>Merge Duplicate Records
 As different users create new customer, vendor, or contact cards over time, or the new records are created automatically during migration, a customer, vendor, or contact may be represented in the system with more than one record. In this case, you can use the **Merge Duplicate** page from the card of the record that you want to keep. The page gives you an overview of duplicated field values and provides functions to select which values to keep or discard when merging two records into one.

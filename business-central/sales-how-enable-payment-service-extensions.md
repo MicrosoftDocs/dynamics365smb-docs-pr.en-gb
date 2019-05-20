@@ -11,11 +11,11 @@ ms.search.keywords: online payment
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e5d4d9fd0c6857c22f2b4c929a6e6ed528cadf26
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931683"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252672"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Enable Customer Payments Through Payment Services
 As an alternative to collecting payments through bank transfer or credit cards, your customers can pay you through their account with payment services, such as Microsoft Pay, PayPal, or WorldPay.  

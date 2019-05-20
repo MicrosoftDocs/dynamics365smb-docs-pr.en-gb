@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 04/01/2019
-ms.openlocfilehash: eb9d4ec76c0dbbd59763f7622ca51137c9563a91
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.openlocfilehash: e747757ec6942ede0e237e013703ebf6d3df189b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "969885"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447021"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspecting Pages in Business Central
 
@@ -22,7 +22,7 @@ The page inspection feature enables you to get details about a page, providing i
 
 ## <a name="working-with-page-inspection"></a>Working with Page Inspection
 
-To inspect a page, in the top right corner, choose ![Settings icon](media/ui-experience/settings_icon_small.png), then choose **Inspect**. Or, you can use the keyboard shortcut **Ctrl+Alt+F1**.
+You start page inspection from the **Help & Support** page. Choose the question mark in the top right corner, choose **Help & Support**, and then choose **Inspect pages and data**. Or, you can just use the keyboard shortcut **Ctrl+Alt+F1**.
 
 The **Page inspection** pane opens on the side. The following figure illustrates the **Page Inspection** pane on the **Sales Order** page.
 
@@ -34,7 +34,7 @@ Use the keyboard or pointing device to move focus to different elements on the p
 
 For more information about what is shown in page inspection, see [Inspecting and Troubleshooting Pages](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) in the Business Central Developer and IT Pro help.
 
-If you do not see the details that you expect to see in the **Page Inspection** pane, you probably do not have the required permissions, as described in th next section.
+If you do not see the details that you expect to see in the **Page Inspection** pane, you probably do not have the required permissions, as described in the next section.
 
 ## <a name="controlling-access-to-page-inspection-details"></a>Controlling Access to Page Inspection Details
 

@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: bholtorf
-ms.openlocfilehash: c4536dca720be5d52bc860c9acce8d7f903314ff
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: fcc9eda38a54e8e94bd74bfbcc76fe808a119525
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919082"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446998"
 ---
-# <a name="how-to-report-vat-to-a-tax-authority"></a>How To: Report VAT to a Tax Authority
+# <a name="report-vat-to-a-tax-authority"></a>Report VAT to a Tax Authority
 This topic describes the reports in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can use to submit information about value-added tax (VAT) amounts for sales and purchases to tax authorities in your region.
 
 You can use the following reports :
@@ -59,7 +59,7 @@ To report VAT to a tax authority electronically, you need to connect [!INCLUDE[d
 2. Fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    >   It's a good idea to test your connection. To do this, choose the **Test Mode** check box, then prepare and submit your VAT report as described in the _To prepare and submit a VAT report_ section. While in Test Mode, the service tests whether the tax authority can receive your report, and the status of the report will indicate whether the test submission was successful. It's important to remember that this is not an actual submission. To submit the report for real, you must clear the **Test Mode** check box, and then repeat the submission process.
+    >   It is a good idea to test your connection. To do this, choose the **Test Mode** check box, then prepare and submit your VAT report as described in the _To prepare and submit a VAT report_ section. While in Test Mode, the service tests whether the tax authority can receive your report, and the status of the report will indicate whether the test submission was successful. It is important to remember that this is not an actual submission. To submit the report for real, you must clear the **Test Mode** check box, and then repeat the submission process.
 
 ## <a name="to-set-up-vat-reports-in-included365finincludesd365finmdmd"></a>To set up VAT reports in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then choose the related link.  
@@ -93,7 +93,7 @@ Periodically, you must remit the net VAT to the tax authorities. If you need to 
 When you transfer VAT amounts to the settlement account, the purchase VAT account is credited, and the sales VAT account is debited with the amounts calculated for the specified period. The net amount is credited or debited, if the purchase VAT amount is larger, to the VAT settlement account. You can post the settlement immediately or print a test report first.  
 
 > [!Note]
-> When you use the **Calc. and Post VAT Settlement** batch job, if you don't specify a **VAT Bus. Posting Group** and a **VAT Prod. Posting group**, entries with all business posting groups and product posting group codes are included.
+> When you use the **Calc. and Post VAT Settlement** batch job, if you do not specify a **VAT Bus. Posting Group** and a **VAT Prod. Posting group**, entries with all business posting groups and product posting group codes are included.
 
 ## <a name="configuring-your-own-vat-reports"></a>Configuring your own VAT reports
 You can use the EC Sales List report out-of-the-box, however, you can also create your own reports. This requires that you create a few codeunits. If you need help with that, contact a Microsoft Partner.  
@@ -110,7 +110,7 @@ The following table describes the codeunits that you must create for your report
 
 > [!Note]
 > When create codeunits for the report, pay attention to the value in the **VAT Report Version** field. This field must reflect the version of the report that is, or was, required by the tax authority. For example, you might enter **2017** in the field to indicate that the report conforms to the requirements that were in place that year. To find the current version, contact your tax authority.
- 
+
 ## <a name="see-also"></a>See also 
 [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  

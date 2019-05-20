@@ -3,22 +3,21 @@ title: Set Up Marketing and Contact Management Information| Microsoft Docs
 description: You can set up marketing and contact management in Business Central to optimise relationships with prospects or customers, and improve campaigns and promotions.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/01/2019
-ms.author: jswymer
-redirect_url: marketing-setup-contacts
-ms.openlocfilehash: 40c7777cc630602b77392e636e4c29c4ec6c0696
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.date: 04/24/2019
+ms.author: sgroespe
+ms.openlocfilehash: 7d294ba1a484af195b962bac827435e57ff5709f
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934010"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446860"
 ---
 # <a name="setting-up-relationship-management"></a>Setting Up Relationship Management
 Before you get started working with your contacts and marketing interests, there are a few decisions and steps that you should take to set up how the marketing area manages certain aspects of your contacts. For example, you can decide whether to synchronise the contact card with the customer card, vendor card, and bank account card, how number series are defined, or what the standard salutation should be when writing to your contacts.
@@ -27,7 +26,7 @@ Managing your contacts and having a strategy in place to identify, attract, and 
 
 You set up the marketing and contact management from the **Marketing Setup** page. To open the **Marketing Setup** page, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Marketing Setup**, and then choose the related link.
 
-## <a name="automatically-copying-specific-information-from-the-contact-companies-to-the-contact-persons"></a>Automatically Copying Specific Information from the Contact Companies to the Contact Persons
+## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Automatically Copying Specific Information from Contact Companies to Contact Persons
 Some information about contact companies is identical to the information about the contact persons working within these companies, for example, the address details. In the **Inheritance** section of the **Marketing Setup** page, you can set the application to automatically copy specific fields from the contact company card to the contact person card each time you create a contact person for a contact company. For example, you can select to copy the salesperson code, address details (address, address 2, city, postcode, and county), communication details (fax number, telex answer back, and phone number), and more.
 
 When you modify one of these fields on the contact company card, the program will automatically modify the field on the contact person card (unless you have manually modified the field on the contact person card).

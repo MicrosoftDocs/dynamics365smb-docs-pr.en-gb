@@ -12,17 +12,15 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 7ef4416c695543cb93fcf0bed9501bfa4d04985d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: eedb7a319a11b740f6afa869d162f15c167ccc6d
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917196"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446791"
 ---
-# <a name="managing-interactions-with-contacts"></a>Managing Interactions With Contacts
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], interactions are all types of communications between your company and your contacts. For example, communications can be by letter, fax, email, telephone, meetings, and so on.
-
-The relationship management area enables you to record all the interactions you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them. Setting up your application to record interactions consists of these tasks:
+# <a name="record-interactions-with-contacts"></a>Record Interactions With Contacts
+Setting up your application to record interactions consists of these tasks:
 
 * Setting up interaction templates  
 * Creating interactions on contacts or segments  
