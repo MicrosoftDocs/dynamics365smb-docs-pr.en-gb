@@ -13,11 +13,11 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: ff9e2087f832d954ae403596744990a243af80c5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934311"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249659"
 ---
 # <a name="managing-report-and-document-layouts"></a>Managing Report and Document Layouts
 A report layout controls content and format of the report, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more. From [!INCLUDE[d365fin](includes/d365fin_md.md)], you can change which layout is used on a report, create new layout, or modify the existing layouts.

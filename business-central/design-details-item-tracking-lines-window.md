@@ -13,11 +13,11 @@ ms.search.keywords: design, inventory, item, tracking, serial number, lot number
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0ddfa9b2d981f81f649240a08c26e8cca845bd1f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920468"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246136"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Design Details: Item Tracking Lines Page
 Item tracking records and reservation records are created in the reservation system, and their availability is calculated dynamically. Data that is entered on the **Item Tracking Lines** page is managed in a temporary version of the **Tracking Specification** table. When the page is closed, the active data is committed to the **Reservation Entry** table and the historic data is committed to the **Tracking Specification** table. For more information, see [Design Details: Active versus Historic Item Tracking Entries](design-details-active-versus-historic-item-tracking-entries.md).  

@@ -9,11 +9,11 @@ ms.date: 04/01/2019
 ms.reviewer: na
 ms.topic: article
 ms.openlocfilehash: 3b49df32acdc9530eb56a26538dbc34e245ec1e3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917389"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244916"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Responding to Requests About Personal Data  
 Data subjects can request several types of actions regarding their personal data. For example, under the General Data Protection Regulation (GDPR), EU residents have the right to request the export, deletion and modification of their personal data. This is known as a *Data Subject Request*. If you have classified the sensitivity of your data, and are sure they are correct, an administrator can respond to requests by using the options under **Data Privacy** on the **Manage Users, User Groups, and Permissions** Role Centre or, if you are using the Windows client, in the **IT Manager** Role Centre. For more information about classifying data and classifying data sensitivity in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], see [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) and [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md).  

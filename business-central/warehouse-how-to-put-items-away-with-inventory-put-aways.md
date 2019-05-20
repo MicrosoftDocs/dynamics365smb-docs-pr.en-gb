@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: d97b1bb4c7e079c479eebd47e6919d5ede5b1f55
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924616"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248555"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Put Items Away with Inventory Put-aways
 When your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** document to record and post put-away and receipt information for your source documents. The inbound source document can be a purchase order, a sales return order, an inbound transfer order, or an assembly or production order whose output is ready to be put away.  

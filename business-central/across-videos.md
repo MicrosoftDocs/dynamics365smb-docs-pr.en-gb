@@ -13,11 +13,11 @@ ms.search.keywords: video, library, how to
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928574"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244893"
 ---
 # <a name="visit-our-video-library"></a>Visit Our Video Library
 Please bear with us while we rebuild our library of "how to" videos. A side effect of the recent improvements in [!INCLUDE[d365fin](includes/d365fin_md.md)] is that we have to reproduce our content so that it accurately reflects the product.

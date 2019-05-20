@@ -13,11 +13,11 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 6f86df1f98d3f00405380a4e2790a5bf7919a390
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935148"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250188"
 ---
 # <a name="create-and-modify-a-custom-report-or-document-layout"></a>Create and Modify a Custom Report or Document Layout
 By default, a report will have a built-in report layout, which can be either an RDLC report layout or Word report layout, or both. You cannot modify built-in layouts. However, you can create your own custom layouts that enable you to change the appearance of report when it is viewed, printed or saved. You can create multiple custom report layouts for the same report, and then switch the layout that is used by a report as needed.

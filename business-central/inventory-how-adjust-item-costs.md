@@ -13,11 +13,11 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: dd48be8b92a03d50bc590d579de940599da6aa7e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941687"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243351"
 ---
 # <a name="adjust-item-costs"></a>Adjust Item Costs
 The cost of an item (inventory value) that you purchase and later sell may change during its lifetime, for example because a freight cost is added to its purchase cost after you have sold the item. Cost adjustment is especially relevant in situations where you sell goods before you invoice the purchase of those goods. To always know the correct inventory value, item costs must therefore regularly be adjusted. This ensures that sales and profit statistics are up to date and that financial KPIs are correct. For more information, see [Design Details: Cost Adjustment](design-details-cost-adjustment.md).

@@ -1,8 +1,6 @@
 ---
 title: Specify the Layout of a Cheque| Microsoft Docs
 description: You can design and print your checks in different formats to conform with standards.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2019
+ms.date: 04/24/2019
 ms.author: edupont
-ms.openlocfilehash: eace865bc70f56206d478f8e8d38fd217133925e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: f2b7fa01cff36e3aab335f7d5921954343c69b74
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935265"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243602"
 ---
 # <a name="define-check-layouts"></a>Define Cheque Layouts
 You can design your cheques to conform with the standards set by the local authorities. Cheque images can be printed in English, French, or Spanish.
@@ -29,11 +27,12 @@ Cheques are designed to print in both the United States and Canadian cheque imag
 2. On the **Report Selection - Bank Acc.** page, in the **Usage** field, select **Cheque**.
 3. Select one of the following report IDs.
 
-| Report ID | Report Name | Description |
-| --- | --- | --- |
-| 1401 |Cheque |This is the default report. |
-| 10401 |Cheque (Stub/Stub/Cheque) |This report is designed to print cheques in a stub/stub/cheque format. |
-| 10411 |Cheque (Stub/Cheque/Stub) |This report is designed to print cheques in a cheque/stub/cheque format. |
+  | Report ID | Report Name | Description |
+  | --- | --- | --- |
+  | 1401 |Cheque |This is the default report. |
+  | 10411 |Cheque (Stub/Stub/Cheque) |This report is designed to print cheques in a stub/stub/cheque format. |
+  | 10412 |Cheque (Stub/Cheque/Stub) |This report is designed to print cheques in a stub/cheque/stub format. |
+  | 10413 |Three Cheques per Page |This report is designed to print three cheques on each page. |
 
 When you have set up cheque layouts, you can print cheques from the **Payment Journal** page. For more information, see [Work with Cheques](payables-how-work-checks.md).
 
@@ -41,5 +40,5 @@ When you have set up cheque layouts, you can print cheques from the **Payment Jo
 [Managing Payables](payables-manage-payables.md)  
 [Managing Bank Accounts](bank-manage-bank-accounts.md)   
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

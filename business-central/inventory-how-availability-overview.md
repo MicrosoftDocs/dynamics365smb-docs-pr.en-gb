@@ -12,11 +12,11 @@ ms.search.keywords: stock
 ms.date: 04/01/2019
 ms.author: SorenGP
 ms.openlocfilehash: ab3e23f9d3128045e722bf2677b1b687b2218b10
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922270"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243265"
 ---
 # <a name="view-the-availability-of-items"></a>View the Availability of Items
 From the context of a business task, you can get advanced information about when and where an item is available, such as when talking to a customer about a delivery date.

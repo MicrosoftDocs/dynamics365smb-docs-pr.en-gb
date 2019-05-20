@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: df77998dc9e5ee06531f3be158a7d9ca2604fc05
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914745"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248707"
 ---
 # <a name="setting-up-warehouse-management"></a>Setting Up Warehouse Management
 A company's distribution strategy is reflected in the configuration of its warehouse processes. This includes defining how different items are handled in different warehouse locations, such as the degree of bin control and the extend of workflow required between warehouse activities.  

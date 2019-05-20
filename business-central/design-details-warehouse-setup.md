@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3b847791283820d8b9996f417e2bae1ca8c0e461
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939377"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246319"
 ---
 # <a name="design-details-warehouse-setup"></a>Design Details: Warehouse Setup
 Warehouse functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] contains different levels of complexity, as defined by licence permissions in the offered granules. The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license. In addition, the application objects in the license govern which UI document to use for the supported warehouse activities.  

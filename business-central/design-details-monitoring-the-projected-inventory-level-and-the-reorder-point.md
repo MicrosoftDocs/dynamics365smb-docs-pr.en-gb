@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.openlocfilehash: 3ab1fbc381638a31b601f872e7280d7dc5200fdb
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935119"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246342"
 ---
 # <a name="design-details-monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Design Details: Monitoring the Projected Inventory Level and the Reorder Point
 Inventory is a type of supply, but for inventory planning, the planning system distinguishes between two inventory levels:  

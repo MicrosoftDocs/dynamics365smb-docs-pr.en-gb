@@ -13,11 +13,11 @@ ms.search.keywords: bank account balance, bank statement
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 60b3e0d732125f60b092a0e089cabc2b82ad71ef
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932039"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245103"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Reconcile Bank Accounts Separately
 To reconcile bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] with statements received from the bank, you begin by filling in the left-hand pane on the **Bank Acc. Reconciliation** page with bank statement information that you then match (reconcile) with bank account ledger entries in the right-hand pane. A smart way to fill in bank statement lines is by importing a bank statement file or feed.

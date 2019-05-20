@@ -11,11 +11,11 @@ ms.search.keywords: tax rates
 ms.date: 09/20/2018
 ms.author: edupont
 ms.openlocfilehash: f9b33875c5831d3caac8ce29140104f570048754
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826177"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246594"
 ---
 # <a name="us-tax-rates-in-included365invlongincludesd365invlongmd"></a>US tax rates in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 You can add tax rates on the fly when you create estimates and invoices. You can see the tax rates that you've already added in the settings for Microsoft Invoicing, and you can add new tax rates there as well.  

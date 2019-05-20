@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: db5a7ebf5edb03e7eaa45999002836626b9b7e38
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922857"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245473"
 ---
 # <a name="change-vat-setup-in-journals"></a>Change VAT Setup in Journals
 You can add VAT setup information to journal lines if needed. If you enter items without VAT, you do not need to remove VAT setup information manually.  

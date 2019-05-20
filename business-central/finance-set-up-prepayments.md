@@ -8,11 +8,11 @@ ms.search.keywords: prepayment
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: e8a6e0834b259358de5c07d3f83a7b5477a0d3a7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931990"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244706"
 ---
 # <a name="set-up-prepayments"></a>Set Up Prepayments
 If you require your customers to submit payment before you ship an order to them, or if your vendor requires you to submit payment before they ship an order to you, you can use the Prepayment functionality. The functionality enables you to invoice and collect deposits required from customers or to remit deposits to vendors, and to ensure that all partial payments are posted against an invoice. For more information, see [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md).

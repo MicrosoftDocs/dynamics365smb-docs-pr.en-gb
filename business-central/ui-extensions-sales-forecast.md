@@ -13,11 +13,11 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 6f31f95b521135ce51a8bc9c82dd6b48cec103bf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916179"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249567"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>The Sales and Inventory Forecast Extension
 Inventory management is a trade-off between customer service and managing your cost. On one hand, a low inventory requires less working capital, but, on the other hand, stock-outs potentially lead to missed sales. The Sales and Inventory Forecast extension predicts potential sales using historical data and gives a clear overview of expected stock-outs. Based on the forecast, the extension helps create replenishment requests to your vendors and saves you time.  

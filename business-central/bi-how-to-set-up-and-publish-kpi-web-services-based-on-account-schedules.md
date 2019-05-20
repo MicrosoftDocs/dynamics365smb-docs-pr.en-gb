@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: a2d2394201f101ea368cfc616bf3c293c4c51e98
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941359"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246940"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Set Up and Publish KPI Web Services Based on Account Schedules
 On the **Account Schedule KPI Web Service Setup** page, you set up how to show the account-schedule KPI data and which specific account schedules to base the KPIs on. When you choose the **Publish Web Service** button, the specified account-schedule KPI data is added to the list of published web services on the **Web Services** page.  

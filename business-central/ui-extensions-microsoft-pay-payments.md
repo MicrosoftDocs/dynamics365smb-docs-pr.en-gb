@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 61022b690cb2a442eaf6cd27c305ebd874a9474f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935833"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249935"
 ---
 # <a name="the-microsoft-pay-extension"></a>The Microsoft Pay Extension
 Customers continuously require higher customer service, both in terms of the quality of product but also in terms of delivery and payment services. The Microsoft Pay service helps you increase your customer service.

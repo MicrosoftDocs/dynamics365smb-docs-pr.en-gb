@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: def9338cea3a1998aafac671e304c55f83fdece7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932725"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242475"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Work with Payment Tolerances and Payment Discount Tolerances
 You can set up a payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice. You can set up a payment discount tolerance to grant a payment discount after the payment discount date has passed.  

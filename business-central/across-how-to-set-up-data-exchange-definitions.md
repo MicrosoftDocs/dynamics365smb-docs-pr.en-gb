@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914431"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245150"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Set Up Data Exchange Definitions
 You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to exchange data in specific tables with data on external files, for example to send and receive electronic documents, import and export bank data or other data, such as payroll, currency exchange rates, and item catalogues. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  

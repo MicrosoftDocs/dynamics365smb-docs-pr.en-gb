@@ -13,11 +13,11 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 124b3e82a38af375128353d977cc250aa9f94cf8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921662"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251407"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Applying Payments Automatically and Reconciling Bank Accounts
 You must regularly reconcile your bank, receivables, and payables accounts by applying payments recorded in the bank to their related unpaid invoices and credit memos or other open entries in [!INCLUDE[d365fin](includes/d365fin_md.md)].  

@@ -13,11 +13,11 @@ ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 991d8432c24b1963da019e3c8b665f9ad009d077
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940387"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247287"
 ---
 # <a name="integrating-with-dynamics-365-for-sales"></a>Integrating with Dynamics 365 for Sales
 The sales person role is often considered as one the most outward-facing jobs in a business. However, it can be helpful for sales people to be able to look inward in the business and see what is happening on the back end. By integrating [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)], you can give your sales people that insight by enabling them to view information in [!INCLUDE[d365fin](includes/d365fin_md.md)] while they are working in [!INCLUDE[crm_md](includes/crm_md.md)]. For example, when preparing a sales quote it could be useful to know whether you have enough inventory to fulfil the order. For more information, see [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md).

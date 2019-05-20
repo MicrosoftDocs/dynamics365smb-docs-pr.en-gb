@@ -11,11 +11,11 @@ ms.search.keywords: access, right, security
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 4a9bbc34893f1af257908558122f8e8cbe6ce757
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912950"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250119"
 ---
 # <a name="managing-users-and-permissions"></a>Managing Users and Permissions
 To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Centre. For more information, see [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users).

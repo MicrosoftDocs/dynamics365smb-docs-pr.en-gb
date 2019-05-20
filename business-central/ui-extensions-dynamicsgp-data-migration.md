@@ -12,11 +12,11 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: cf401500c34d8d40acc153a591229684770afa64
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917483"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250086"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>The Dynamics GP Data Migration Extension 
 This extension makes it easy to migrate customers, vendors, inventory items, general ledger accounts, open payables and open receivables transactions from Dynamics GP to [!INCLUDE[prodshort](includes/prodshort.md)]. If your business uses Dynamics GP today, you can export the relevant records and then open an assisted setup guide to add the data to [!INCLUDE[prodshort](includes/prodshort.md)]. The migration extension works for all supported versions of Microsoft Dyanmics GP. For more information, see [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).

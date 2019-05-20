@@ -11,11 +11,11 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: d95d2f609129e4bdba35deda726323dbed2ba67a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916229"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250982"
 ---
 # <a name="changing-basic-settings"></a>Changing Basic Settings
 In the [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central") page, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The changes that you make will only affect your workspace; not the workspaces of other users.  

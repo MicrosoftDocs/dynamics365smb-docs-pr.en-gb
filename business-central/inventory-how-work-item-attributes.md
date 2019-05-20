@@ -11,11 +11,11 @@ ms.search.keywords: categories, search words, facets
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 7d35f7c91792d9fe8eea87a4c63f8fd637a94fd1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941618"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243970"
 ---
 # <a name="work-with-item-attributes"></a>Work with Item Attributes
 When customers inquire about an item, either in correspondence or in an integrated web shop, they may ask or search according to characteristics, such as height and model year. To provide this customer service, you can assign item attribute values of different types to your items, which can then be used when searching for items.

@@ -12,11 +12,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
 ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912809"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246894"
 ---
 # <a name="application-compliance"></a>Application Compliance
 This content contains information about application compliance in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)], like the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business. With Business Central companies are empowered to streamline business processes while consistently and cost-efficiently complying with increasing regulation and reporting requirements.

@@ -13,11 +13,11 @@ ms.search.keywords: kit, kitting
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 983dbc4ee6f4efb3a710c08916a814a0195fd650
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935930"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247032"
 ---
 # <a name="assembly-management"></a>Assembly Management
 To support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality, [!INCLUDE[d365fin](includes/d365fin_md.md)] includes features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.  

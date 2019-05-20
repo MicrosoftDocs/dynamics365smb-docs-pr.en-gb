@@ -13,11 +13,11 @@ ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 53ee8bb7ee798c473e1053ea8413be28f9185d1b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911726"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248210"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>The Envestnet Yodlee Bank Feeds Extension
 To quickly reconcile payments made to your bank accounts, the Envestnet Yodlee Bank Feeds service allows you to link your system bank account to your online bank account. This means that the latest bank statement is automatically or manually fed into your reconciliation journal, ensuring that you are always processing the latest payments with minimal risk of errors.

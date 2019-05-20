@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 73cbd1f7a36e9493495464357117e28732cf5cd2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935172"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249797"
 ---
 # <a name="create-bins"></a>Create Bins
 The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually from the location card. You can also use a function on the **Bin Creation Worksheet** page to create bins automatically.  

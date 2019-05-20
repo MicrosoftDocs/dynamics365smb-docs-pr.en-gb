@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e003f429122bd31ee35ef9b843682bfe8866407a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926470"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246706"
 ---
 # <a name="set-up-company-configuration"></a>Set Up Company Configuration
 The implementation process begins with the Microsoft partner. The partner is responsible for thinking through the configuration details and creating a package that a customer can easily apply. Before you create a new company, you should plan how it will be configured. You must consider basic setup data and the types of data that your [!INCLUDE[d365fin](includes/d365fin_md.md)] solution will require. You bundle all of this information in configuration packages.

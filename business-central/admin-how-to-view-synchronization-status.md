@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: d55d8d5ab916cee6600deaf891702a625d76d7ee
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940405"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245692"
 ---
 # <a name="view-the-status-of-a-synchronization"></a>View the Status of a Synchronisation
 You can view the status of the individual synchronisation jobs that have been run for [!INCLUDE[crm_md](includes/crm_md.md)] integration. This includes synchronisation jobs that have been run from the job queue and manual synchronisation jobs that were performed on records from [!INCLUDE[d365fin](includes/d365fin_md.md)]. This is helpful when troubleshooting synchronisation problems because it gives you access to details about specific errors.

@@ -12,11 +12,11 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: fe1673a5d829c9c71a45383b291405e5a5121ae8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932785"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250763"
 ---
 # <a name="the-image-analyzer-extension"></a>The Image Analyser Extension
 The Image Analyser extension uses powerful image analytics provided by the Computer Vision API for Microsoft Cognitive Services to detect attributes in the images that you import for items and contact persons, so you can easily review and assign them. For items, attributes could be whether the item is a table or a car, and whether it is red or blue. For contact persons, attributes can be gender or age.

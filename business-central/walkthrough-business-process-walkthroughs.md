@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 33f8f1b0844532e32c391c3c474ad555204a600c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928004"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249130"
 ---
 # <a name="business-process-walkthroughs"></a>Business Process Walkthroughs
 This selection of walkthroughs provides step-by-step, end-to-end business processes that you can perform using the CRONUS International Ltd. demonstration company. The walkthroughs consist of multiple procedures, some of which would normally be performed by one user, while others incorporate several different user roles. In order to simulate the working environment, some of the walkthroughs contain setup steps necessary to complete the exercises as described. These steps can provide insight into the kind of information users need to share with their company's IT professionals.  

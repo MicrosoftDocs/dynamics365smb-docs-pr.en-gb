@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
 ms.openlocfilehash: aa5998b989d8a3d37f3d7bfcdb348a2c09381168
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934403"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243230"
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Set Up Web Sources for Contact Companies
 You can use web sources with your contact companies to identify, for example, search engines and web sites, on the Internet that you want to use to search for information about the contacts. When assigning web sources, you specify which search engine and search word the application will use to find the requested information.

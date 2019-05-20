@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 911e3ebb67aa506055f2738be031443e622f8a1d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912883"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246189"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Design Details: Item Tracking and Reservations
 Simultaneous use of reservation and specific item tracking is uncommon, because they both create a coupling between supply and demand. Except for situations where a customer or production planner requests a specific lot, it rarely makes sense to reserve inventory items that already carry item tracking numbers for specific application. Although it is possible to reserve items that require specific item tracking, special functionality is needed to avoid availability conflicts between order processors that request the same item-tracked items.  

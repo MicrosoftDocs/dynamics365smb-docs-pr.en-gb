@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
 ms.openlocfilehash: c5b4549e330bd9b3369b6fe5b18361f6662291c9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918037"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242636"
 ---
 # <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Defining the Relationship Between Cost Types and General Ledger Accounts
 The relationship between the cost type and the general ledger account is created in the cost type and in the general ledger account.  

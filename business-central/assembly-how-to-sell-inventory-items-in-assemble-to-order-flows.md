@@ -13,11 +13,11 @@ ms.search.keywords: kit, kitting
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 188df39e5381f331da338aec1284b44f4e329977
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931825"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247063"
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Sell Inventory Items in Assemble-to-Order Flows
 If the **Assembly Policy** field on the item card of an assembly item contains **Assemble-to-Order**, then the default sales order process assumes that the item is not in inventory and must be assembled for that specific sales order. Therefore, a linked assembly order is automatically created when you add the item to a sales order line. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md). However, if a part of the sales order quantity is already available in inventory, then you can decrease the assembly order quantity by changing the **Qty. to Assemble to Order** field on the sales order line.  

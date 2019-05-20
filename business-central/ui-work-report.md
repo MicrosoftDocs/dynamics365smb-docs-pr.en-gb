@@ -13,11 +13,11 @@ ms.search.keywords: task, process, report
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921416"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250694"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Working with Reports and Batch Jobs
 A report gathers information based on a specified set of criteria, and organises and presents the information in an easy-to-read, printable format. There are many reports that you can access throughout the application. The reports typically provide information relative to the context of the page you are on. For example, the **Customer** page includes reports for the top 10 customers and the sales statistics, and more.

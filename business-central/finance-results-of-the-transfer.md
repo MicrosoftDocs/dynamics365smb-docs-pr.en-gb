@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
 ms.openlocfilehash: 590c1501f9da2c7c343b5c2f3617df873fcd3b7a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926720"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242498"
 ---
 # <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Results of Transferring General Ledger Entries to Cost Entries
 During the transfer of general ledger entries to cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] creates connections in the entries in the **G/L Entry** table, the **Cost Entry** table, and the **Cost Register** table to make it possible to trace the connections between cost entries and general ledger entries.  

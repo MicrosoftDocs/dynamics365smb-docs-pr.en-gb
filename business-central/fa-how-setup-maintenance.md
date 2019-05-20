@@ -13,11 +13,11 @@ ms.search.keywords: repair, service
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: ba01ccb88349a1f1943655949a36e2a21f3ae2de
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913902"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244506"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Set Up Fixed Asset Maintenance
 To manage fixed asset maintenance, you must first set up some general maintenance information, a posting account for maintenance costs, and maintenance codes for types of work, such as Routine Service or Repair.

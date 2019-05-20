@@ -13,11 +13,11 @@ ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 36f1a0fe8c50744d9ce13d1e6c3c899f4ceaf5e4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940409"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245412"
 ---
 # <a name="couple-and-synchronize-records-manually"></a>Couple and Synchronise Records Manually
 This topic describes how to couple one or more records in [!INCLUDE[d365fin](includes/d365fin_md.md)] with records in [!INCLUDE[crm_md](includes/crm_md.md)]. Coupling records lets you view [!INCLUDE[crm_md](includes/crm_md.md)] information from [!INCLUDE[d365fin](includes/d365fin_md.md)], and vice versa. The coupling also enables you to synchronise data between the records. You can couple existing records, or create and couple new records.

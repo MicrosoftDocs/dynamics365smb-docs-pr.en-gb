@@ -13,11 +13,11 @@ ms.search.keywords: Yodlee, feed, stream
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e3ccc70405b286929c9d267e76c3ba76fd2e7e4a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931492"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247375"
 ---
 # <a name="set-up-bank-accounts"></a>Set Up Bank Accounts
 You use bank accounts in the [!INCLUDE[d365fin](includes/d365fin_md.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the cheque printing option.

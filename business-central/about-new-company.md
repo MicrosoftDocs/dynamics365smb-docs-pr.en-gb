@@ -11,11 +11,11 @@ ms.search.keywords: company, setup wizard
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: eae262341eb61e40f130caf45bb838a62aa67cf2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916589"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245218"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the containers for business data that belongs to a business unit or legal entity is referred to as a *company*. When you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)], you are given a demonstration company and an empty company, *My Company*. Switching between the companies is easy - just got to **My Settings** and move to the other company. But you can also create new companies in [!INCLUDE[d365fin](includes/d365fin_md.md)], depending on your business needs. When you create a new company, an assisted setup guide helps you get the basics in place. Then, you can import relevant data from your legacy system or another company in [!INCLUDE[d365fin](includes/d365fin_md.md)].  

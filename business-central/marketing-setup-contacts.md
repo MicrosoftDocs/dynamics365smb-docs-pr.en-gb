@@ -13,11 +13,11 @@ ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918154"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242293"
 ---
 # <a name="set-up-contacts"></a>Set Up Contacts
 When creating contacts, you can enter specific information, such as the industry that the contact belong to and your business relationship with the contacts.

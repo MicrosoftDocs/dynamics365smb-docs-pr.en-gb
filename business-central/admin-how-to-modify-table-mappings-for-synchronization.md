@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: de924baa494ae00c09dcb7657c050f2d9ae3ba87
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940398"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247451"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Modify Table Mappings for Synchronisation
 An integration table mapping links a table in [!INCLUDE[d365fin](includes/d365fin_md.md)] to an integration table for the [!INCLUDE[crm_md](includes/crm_md.md)] entity. For each entity in [!INCLUDE[crm_md](includes/crm_md.md)] that you want to synchronise with corresponding data in [!INCLUDE[d365fin](includes/d365fin_md.md)]], there must be a corresponding integration table mapping. An integration table mapping includes several settings that enable you to control how records in a [!INCLUDE[d365fin](includes/d365fin_md.md)] table and a [!INCLUDE[crm_md](includes/crm_md.md)] entity are synchronised by the corresponding integration synchronisation jobs.  

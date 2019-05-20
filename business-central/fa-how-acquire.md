@@ -13,11 +13,11 @@ ms.search.keywords: purchase fixed asset
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 1532fef560b01a999fbcbc16b279a82193af92ab
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926376"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247124"
 ---
 # <a name="acquire-fixed-assets"></a>Acquire Fixed Assets
 For each fixed asset, you must set up a card containing information about the asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. A depreciation book must be set up and assigned to each fixed asset before you can acquire it.

@@ -11,11 +11,11 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e8744455f41897f00315968cc10f12f18bf042b9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919567"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245265"
 ---
 #  <a name="create-analysis-reports"></a>Create Analysis Reports
 Sales managers need to analyze turnover, gross profit and other key sales performance indicators on a regular basis. Purchasers, are more interested in the dynamics of purchase volumes, vendors' performance and purchase prices. Whereas logistics/inventory managers need information on inventory turnover, analysis of inventory movement, and statistics on inventory value.  

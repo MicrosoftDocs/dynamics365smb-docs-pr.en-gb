@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 368bfc191aea4ae00c53d0c7ee892f3cc82c0ff7
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "940414"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245738"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Manually Synchronise Table Mappings
 An integration table mapping associates a [!INCLUDE[d365fin](includes/d365fin_md.md)] table (record type), such as customer, with a [!INCLUDE[crm_md](includes/crm_md.md)] entity, such as an account. Synchronising an integration table mapping enables you to synchronise data in all records of the [!INCLUDE[d365fin](includes/d365fin_md.md)] table and [!INCLUDE[crm_md](includes/crm_md.md)] entity that are coupled. Additionally, depending on the configuration of the table mapping, synchronisation can create and couple new records in the destination solution for uncoupled records in the source.  

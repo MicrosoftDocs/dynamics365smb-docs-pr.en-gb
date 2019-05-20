@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941641"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245866"
 ---
 # <a name="prepare-a-configuration-package"></a>Prepare a Configuration Package
 When you configure a new company, table relations are recognised and processed. Data is imported and applied in the correct order. Dimension tables are also imported if they are included in the configuration package. For more information, see [To import customer data](admin-migrate-customer-data.md#to-import-customer-data). 

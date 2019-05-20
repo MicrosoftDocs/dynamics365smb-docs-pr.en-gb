@@ -13,11 +13,11 @@ ms.search.keywords: check, clearing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c2a3a1e94eaa5fee747ce52726765ff1f9401bb2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915414"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243625"
 ---
 # <a name="export-a-positive-pay-file"></a>Export a Positive Pay File
 To make sure that your bank only clears validated cheques and amounts, you can export a Positive Pay file that contains vendor information, cheque number, and payment amount, which you send to the bank for reference when you process payments.

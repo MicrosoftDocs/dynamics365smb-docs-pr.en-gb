@@ -13,11 +13,11 @@ ms.search.keywords: posting setup, initialize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: ee93a04f1dd4f6d7d1796a759baa4c585d943c68
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939088"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242521"
 ---
 # <a name="setting-up-posting-groups"></a>Setting Up Posting Groups
 Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. They save time and help avoid mistakes when you post transactions. The transaction values go to the accounts specified in the posting group for that particular entity. The only requirement is that you have a chart of accounts. For more information, see [Set Up the Chart of Accounts](finance-setup-chart-accounts.md).  

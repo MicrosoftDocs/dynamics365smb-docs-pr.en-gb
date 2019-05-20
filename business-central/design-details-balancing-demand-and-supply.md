@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 514c896c4bee0b5ade8532f8b08dba6b8a7a6657
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937563"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243878"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Design Details: Balancing Demand and Supply
 To understand how the planning system works, it is necessary to understand the prioritised goals of the planning system, the most important of which are to ensure that:  

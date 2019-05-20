@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 1cf5b75bc63acfa07a90cda1d03f45579a0aa51d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935382"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247260"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Use Job Queues to Schedule Tasks
 Job queues in [!INCLUDE[d365fin](includes/d365fin_md.md)] enables users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson - Sales Statistics** report weekly, to track sales by salesperson each week, or you might want to run the **Process Service E-mail Queue** codeunit daily, to make sure pending email messages to customers regarding their service orders are sent out in a timely manner.

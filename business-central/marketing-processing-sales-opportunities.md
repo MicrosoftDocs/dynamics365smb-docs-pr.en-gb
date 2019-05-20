@@ -13,11 +13,11 @@ ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: c3c86d622ca14d07eb19bb293066b0fbfaf74c42
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928636"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243050"
 ---
 # <a name="process-sales-opportunities"></a>Process Sales Opportunities
 After you create an opportunity, there are several features for managing the opportunity and moving it through to completion.

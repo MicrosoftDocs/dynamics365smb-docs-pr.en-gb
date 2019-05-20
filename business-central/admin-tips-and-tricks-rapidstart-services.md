@@ -4,20 +4,20 @@ description: When you configure companies using RapidStart Services, there are s
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 03/05/2018
 ms.author: sgroespe
 ms.openlocfilehash: 6a10ab0d2e4658eba4824e44527d45cbf0f33dd8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936919"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243487"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Tips and Tricks: RapidStart Services
 When you configure companies using RapidStart Services, there are some tips and tricks that you can take advantage of to help your implementation go smoothly.  

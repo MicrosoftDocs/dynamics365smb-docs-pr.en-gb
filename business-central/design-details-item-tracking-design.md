@@ -11,11 +11,11 @@ ms.search.keywords: design, item, tracking, tracing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 90da4a9665de1f5f47ab99aa7567fc5ff65599d2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937301"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246777"
 ---
 # <a name="design-details-item-tracking-design"></a>Design Details: Item Tracking Design
 In the first version of Item Tracking in [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60, serial numbers or lot numbers were recorded directly on item ledger entries. This design provided full availability information and simple tracking of historic entries, but it lacked flexibility and functionality.  

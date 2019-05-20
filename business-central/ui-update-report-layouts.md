@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 03eeb13e5087e064e80d444ab373b0407f5a93be
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914548"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248141"
 ---
 # <a name="updating-report-or-document-layouts"></a>Updating Report or Document Layouts
 Occasionally, you may need to update a custom report layout that is used on a report. This is required when there has been a design change to the report's data set, for example, a field that is used in the layout has been removed from the report data set. If a report layout requires updating, you will get an error message when you try to preview, print or save the report.  

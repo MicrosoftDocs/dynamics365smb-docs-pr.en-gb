@@ -13,11 +13,11 @@ ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 1934467dd789b737fa4dc85c5321a3a79c4bd1bf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918678"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242982"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Recording Interactions with Contacts Automatically
 You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:

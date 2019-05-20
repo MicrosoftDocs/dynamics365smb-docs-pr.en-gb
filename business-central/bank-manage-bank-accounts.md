@@ -13,11 +13,11 @@ ms.search.keywords: reconcile
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 25e1242541e98cc47e2fcc4f016a860ad08c635d
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939136"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246963"
 ---
 # <a name="managing-bank-accounts"></a>Managing Bank Accounts
 At regular intervals, you must reconcile your bank ledger entries in [!INCLUDE[d365fin](includes/d365fin_md.md)] with the related bank transactions in bank accounts at your bank, and then post the balance to your bank account. You can perform this task either as part of processing the payments represented on a bank statement in the **Payment Reconciliation Journal**. Alternatively, you can perform the task separately from payment processing, on the **Bank Acc. Reconciliation** page where you match (reconcile) bank statement lines in the left-hand pane with your internal bank account ledger entries in the right-hand pane. In both pages, you can fill in the bank statement information by importing a file or feed and you can use automatic matching suggestions.

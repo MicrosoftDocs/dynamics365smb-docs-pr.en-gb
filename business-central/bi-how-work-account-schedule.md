@@ -11,11 +11,11 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: e7430c17e090e2b0c3ca13ee7c52cfec749fcc2b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918417"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245381"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Prepare Financial Reporting with Account Schedules and Account Categories
 Use account schedules to get insight into the financial data stored in your chart of accounts. Account schedules analyse figures in G/L accounts, and compare general ledger entries with general ledger budget entries. The results display in charts on your Role Centre, such as the Cash Flow chart, and in reports, such as the Income Statement and the Balance Sheet reports.

@@ -11,11 +11,11 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 2db4fb00567c98b1133cd031a3d7d9f1d1955626
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922320"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250901"
 ---
 # <a name="copying-and-pasting"></a>Copying and Pasting
 You can copy one or more rows from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).

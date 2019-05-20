@@ -11,11 +11,11 @@ ms.search.keywords: find
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 309146e68abe91a89f761be0957ae27718ee2a0d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934426"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249912"
 ---
 # <a name="using-tell-me-to-find-features-and-information"></a>Using Tell Me to Find Features and Information  
 This topic describes how Tell Me can help you quickly go to things like actions, pages, or reports, find information about how to complete a particular task, and discover additional apps and consulting services for [!INCLUDE[d365fin](includes/d365fin_md.md)].  

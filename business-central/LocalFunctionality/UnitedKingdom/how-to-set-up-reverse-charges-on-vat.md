@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/07/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 051cc8d9213648049eb7020c7aed711653dbbf59
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8e5e3db0c514f6127920a5952ec53ba0a1755ba9
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827389"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "1246012"
 ---
 # <a name="set-up-reverse-charge-vat"></a>Set Up Reverse Charge VAT
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use reverse charge VAT accounting for a specific range of items to prevent Missing Trader Intercommunity Fund Fraud (MTIC), also known as carousel fraud. This feature is supplemented by the **Reverse Charge Sales List** report. The VAT accounting changes will affect companies trading in electronic goods and integrated circuit devices, such as mobile telephones, microprocessors, and central processing units. These goods will apply to reverse charges.
 
 > [!IMPORTANT]  
->  Legislative information may be subject to change by HM Revenue & Customs (HMRC). For more information, see the [HMRC website](https://www.hmrc.gov.uk/index.htm).  
+> Legislative information may be subject to change by HM Revenue & Customs (HMRC). For more information, see the [HMRC website](https://www.gov.uk/government/organisations/hm-revenue-customs).  
 
 ## <a name="to-reverse-charges-on-vat"></a>To reverse charges on VAT  
 
@@ -41,10 +41,10 @@ This report displays sales of goods which are subject to reverse charge. The rep
 
 Examples of goods subject to reverse charge:  
 
--   Mobile telephones.  
--   Computer chips  
+- Mobile telephones.  
+- Computer chips  
 
-Consult the [HMRC website](http:\\www.hmrc.gov.uk) for the list of goods subject to reverse charge.  
+Consult the [HMRC website](https://www.gov.uk/government/organisations/hm-revenue-customs) for the list of goods subject to reverse charge.  
 
 ## <a name="see-also"></a>See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  

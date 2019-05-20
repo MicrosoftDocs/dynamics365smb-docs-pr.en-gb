@@ -11,11 +11,11 @@ ms.search.keywords: write down
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 16b1605d137401b58be3c57ae1cfcffc17f5654d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928122"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246986"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Set Up Fixed Asset Depreciation
  You can use various methods of depreciation for preparing financial statements and income VAT returns. Many large corporations use straight-line depreciation in their financial statements because this generally permits reporting higher earnings. For income VAT purposes, however, many businesses use an accelerated depreciation method. For more information, see [Depreciation Methods](fa-depreciation-methods.md).

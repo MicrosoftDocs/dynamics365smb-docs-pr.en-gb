@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9b6c7278ae17e9d2b71b8c32f7bb58356fc4e544
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923865"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249850"
 ---
 # <a name="service-order-status-and-repair-status"></a>Service Order Status and Repair Status
 The **Status** field on the **Service Order** page and the service item repair status, which is represented by the **Repair Status Code** field on the **Service Order** page have a certain relationship in Service Management. The service order status reflects the repair status of all the service items in the service order.  

@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: c70a8fd066ffd5d312716891aa4cdf7768cd102a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926683"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249222"
 ---
 # <a name="managing-notifications"></a>Managing Notifications
 [!INCLUDE[d365fin](includes/d365fin_md.md)] can help you work smarter by notifying you about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell, for example. These notifications are shown as discreet tips in the context of the task you are doing, and you can choose to ignore the notification or to see details about the issue.  

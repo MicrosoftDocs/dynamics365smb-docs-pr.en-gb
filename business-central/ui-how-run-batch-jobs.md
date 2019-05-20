@@ -13,11 +13,11 @@ ms.search.keywords: task, process
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: 0b9bf37f9054d767938b851e399a1b2c347f77c3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937393"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249268"
 ---
 # <a name="run-batch-jobs"></a>Run Batch Jobs
 A batch job is a routine that processes data in batches, for example the **Adjust Exchange Rates** batch job. There are batch jobs that perform periodic accounting activities, such as closing the income statement at the end of a fiscal year. Many batch jobs do calculation work, such as calculation of finance charges, exchange rate adjustment, and calculation of unit prices.

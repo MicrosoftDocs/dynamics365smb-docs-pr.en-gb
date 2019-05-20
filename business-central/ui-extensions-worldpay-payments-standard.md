@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: a61fd494235a3c939822c423d4b0044ad0709e4d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935619"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249291"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>The WorldPay Payments Standard Extension
 The WorldPay Payments Standard extension lets you offer customers a convenient alternative to making payments through bank transfers or credit cards. Not only that, payments made through payment services will typically land in your bank account more quickly.

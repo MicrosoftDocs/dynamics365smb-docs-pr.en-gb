@@ -11,11 +11,11 @@ ms.search.keywords: customization, personalization
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 3e7b00d54a9c655a77b7b7f4854e59993866427e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941522"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251235"
 ---
 # <a name="managing-saved-settings-on-reports"></a>Managing Saved Settings on Reports
 When running a reports, users are typically presented with a page that lets them set certain options and filters for changing the data that is included in the generated report. This page is called the report request page. A report can include one or more *saved settings* that users can apply to the report from the request page. *Saved settings* are basically predefined options and filters. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. For more information about how saved settings are used, see [Using Saved Settings](ui-work-report.md#SavedSettings).

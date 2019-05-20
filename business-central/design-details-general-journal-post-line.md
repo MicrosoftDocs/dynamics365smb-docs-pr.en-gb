@@ -11,11 +11,11 @@ ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 337f1e679ba2f0b1fcfc0ceb8b3f0ea45ca86ecc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935643"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243003"
 ---
 # <a name="design-details-general-journal-post-line"></a>Design Details: General Journal Post Line
 This documentation provides detailed technical insight into the concepts and principles that are used to redesign the general journal posting line feature in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The redesign makes codeunit 12 simpler and more maintainable. The documentation starts by describing conceptual overviews of the redesign. Then it explains the technical architecture to show the changes that result from the redesign.  

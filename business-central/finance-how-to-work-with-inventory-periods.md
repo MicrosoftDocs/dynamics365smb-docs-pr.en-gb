@@ -13,11 +13,11 @@ ms.search.keywords: inventory, periods
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 309de0c582e125eb4bf5fb5b0c6b901adb1d0bfc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "929248"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242682"
 ---
 # <a name="work-with-inventory-periods"></a>Work with Inventory Periods
 Inventory periods define a period of time in which you can post changes to inventory. An inventory period is defined by the date on which it ends, or the ending date. When you close an inventory period, you cannot post any changes to inventory, either expected or invoiced, before this ending date. You cannot post any new values to inventory before the ending date. If you have open item entries in the closed period, meaning positive quantities that have not yet been applied to outbound transactions, you can still apply outbound quantities to these entries, even if the period is closed.  

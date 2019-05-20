@@ -13,11 +13,11 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 442d16561321acc552a2cf39a1659d763e6f319a
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939561"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244085"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setting Up Cash Flow Analysis
 If you want some help to decide what to do with your cash, have a look at the charts on the Accountant Role Centre:  

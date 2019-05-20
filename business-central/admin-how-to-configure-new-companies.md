@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: ecfa992e5a228225c6ef18ced95e477519ce0fd7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925563"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245442"
 ---
 # <a name="configure-new-companies"></a>Configure New Companies
 To configure a new company in your solution implementation, you typically follow three phases. In the first phase, you import the configuration package, a .rapidstart file with the configuration information. In the second phase, you modify the configuration information and then apply it to your new company. In the final phase, you review and fix any errors.  

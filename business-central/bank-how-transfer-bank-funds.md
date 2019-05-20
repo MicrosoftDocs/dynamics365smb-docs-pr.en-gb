@@ -13,11 +13,11 @@ ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 69e5f439ee8a02ae553d8b148480b655596e2951
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934613"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244177"
 ---
 # <a name="transfer-bank-funds"></a>Transfer Bank Funds
 You may sometimes need to transfer an amount from one bank account to another. To do this, you must post the a transaction in the general journal. The task varies depending on whether the bank accounts use the same currency or different currencies.

@@ -11,11 +11,11 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 69e4d4f4e924edd7eea45da73a3b0b5f71dd8cc0
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928800"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243764"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Set Up Unrealised VAT for Cash-Based Accounting
 If you are using cash-based accounting methods, you can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to handle unrealised VAT.

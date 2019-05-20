@@ -13,11 +13,11 @@ ms.search.keywords: cost accounting
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: aa2e553b28825338dadd758f48c5ff43a0494cf4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913832"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249245"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Use Allocation Keys in General Journals
 You can allocate an entry in a general journal to several different accounts when you post the journal. The allocation can be made by quantity, percentage, or amount.
