@@ -11,11 +11,11 @@ ms.search.keywords: making tax digital, vat, vat return, submit vat, making tax 
 ms.date: 04/01/2019
 ms.author: soalex
 ms.openlocfilehash: 4d1ae9eb28744b93309ff486c451ae1ebd7d9dcd
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927968"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241213"
 ---
 # <a name="making-tax-digital-in-the-united-kingdom"></a>Making Tax Digital in the United Kingdom
 Her Majesty's Revenue and Customs (HMRC) is implementing the first step of Making Tax Digital, which imposes new requirements on VAT registered businesses above the VAT threshold. Requirements will be implemented in phases. In the first phase, with a deadline in April, 2019, the following requirements will take effect:

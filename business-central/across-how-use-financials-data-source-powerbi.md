@@ -11,11 +11,11 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 8dfedbc2685e086f9bdc63706d70327ebb95c2b5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919898"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241055"
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>Using [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] as Power BI Data Source for Building Reports
 You can make your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data available as a data source in Power BI and build powerful reports of the state of your business.  

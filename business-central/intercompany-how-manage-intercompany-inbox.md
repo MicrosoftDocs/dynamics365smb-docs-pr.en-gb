@@ -13,11 +13,11 @@ ms.search.keywords: incoming document
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9ef598ec969e406d2e64519c31521d2444849d58
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "910274"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240264"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Manage the Intercompany Inbox and Outbox
 All of the intercompany transactions that you receive electronically from your intercompany partners are listed in the intercompany Inbox.  

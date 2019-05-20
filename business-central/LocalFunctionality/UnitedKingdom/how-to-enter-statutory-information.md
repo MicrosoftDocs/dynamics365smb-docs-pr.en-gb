@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 97ac354ea5b1e6a529906b826de2dabfd9fb3124
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935631"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241163"
 ---
 # <a name="enter-statutory-information"></a>Enter Statutory Information
 To comply with legal requirements, statutory information is available on the **Statutory** FastTab on the **Company Information** page.  

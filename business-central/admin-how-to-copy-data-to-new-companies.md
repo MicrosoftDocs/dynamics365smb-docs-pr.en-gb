@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: daf11bb8f219367506cff4fff46caa4f75ec6c86
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938995"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239873"
 ---
 # <a name="copy-data-to-new-companies"></a>Copy Data to New Companies
 You can copy commonly used values from an existing company to a new one, as long as both companies are in the same database. For example, if you have a standard list of symptom codes that is common to all your service management implementations, you can copy the codes easily from one company to another.  

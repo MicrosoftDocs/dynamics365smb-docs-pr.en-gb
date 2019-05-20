@@ -10,11 +10,11 @@ ms.workload: na
 ms.date: 07/18/2018
 ms.author: edupont
 ms.openlocfilehash: 7cc7dec1bd8cfb6a8d0691edfdf643a56adaed21
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938386"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237368"
 ---
 # <a name="send-an-estimate-to-a-customer-in-included365invlongincludesd365invlongmd"></a>Send an estimate to a customer in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 You can send an estimate (the same as a quote or an offer) to existing customers or prospects – it works almost the same way as sending an invoice, but with the estimate you’re sending a draft that the customer can accept or not.  

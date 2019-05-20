@@ -11,11 +11,11 @@ ms.search.keywords: scrap
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8afc427ab4bce255c69d797f659b4578723cc023
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941546"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239896"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Dispose of or Retire Fixed Assets
 When you sell or otherwise dispose of a fixed asset, the disposal value must be posted to calculate and record the gain or loss. A disposal entry must be the last entry posted for a fixed asset. For partially disposed fixed assets, you can post more than one disposal entry. The total of all posted disposal amounts must be a credit amount.  

@@ -11,11 +11,11 @@ ms.search.keywords: write down
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: cf21543205f30d36162520e2bcdf1224e3cf43d0
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918536"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239229"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Depreciate or Amortise Fixed Assets
 Depreciation is used to allocate the cost of fixed assets, such as machinery and equipment, over their depreciable life. For each fixed asset, you must define how it will be depreciated.  

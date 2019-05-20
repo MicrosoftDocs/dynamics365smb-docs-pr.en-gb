@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.openlocfilehash: 8684389c75299dc57a2056041b50ebde37a0bea1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941310"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239298"
 ---
 # <a name="design-details-the-concept-of-balancing-in-brief"></a>Design Details: The Concept of Balancing in Brief
 Demand is given by a company’s customers. Supply is what the company can create and remove to establish balance. The planning system starts with the independent demand and then tracks backwards to the supply.  

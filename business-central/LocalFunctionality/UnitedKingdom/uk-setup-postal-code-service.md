@@ -11,11 +11,11 @@ ms.search.keywords: getaddress.io, postcodes, extension
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: d80426c83148d99ede9e9f65563009a6834b75e9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915839"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241411"
 ---
 # <a name="set-up-the-getaddressio-uk-postcodes-extension"></a>Set Up the GetAddress.io UK Postcodes Extension
 This extension makes it easy to enter addresses in the United Kingdom (UK) for entities like customers, contacts, employees, vendors, bank accounts, and so on.

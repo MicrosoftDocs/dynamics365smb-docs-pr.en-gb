@@ -11,11 +11,11 @@ ms.search.keywords: Invoicing, Office 365
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 0173d64e140cfea91bf7f08d821c2d30cf0eb7b3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911275"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241491"
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Using the same Office 365 Account in [!INCLUDE[d365fin](includes/d365fin_long_md.md)] and Microsoft Invoicing
 When you sign up for a trial with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can move to a 30-day evaluation phase, you can start a subscription, or you can stop using [!INCLUDE[d365fin](includes/d365fin_md.md)]. In all cases, if you sign in to the Office Portal, you might see a tile called **Microsoft Invoicing** and click it. This is part of the Office 365 Business Premium subscription, so not everyone will see that tile in the Office Portal.  
