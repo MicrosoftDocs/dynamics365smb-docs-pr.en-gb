@@ -13,29 +13,29 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: ebe165de02ff3925a67da8306de0277e2315ad16
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941499"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253649"
 ---
-# <a name="post-scrap-manually"></a><span data-ttu-id="fff10-104">Post Scrap Manually</span><span class="sxs-lookup"><span data-stu-id="fff10-104">Post Scrap Manually</span></span>
-<span data-ttu-id="fff10-105">If scrap is produced during processing, it can be entered in the output journal.</span><span class="sxs-lookup"><span data-stu-id="fff10-105">If scrap is produced during processing, it can be entered in the output journal.</span></span> 
+# <a name="post-scrap-manually"></a><span data-ttu-id="d7315-104">Post Scrap Manually</span><span class="sxs-lookup"><span data-stu-id="d7315-104">Post Scrap Manually</span></span>
+<span data-ttu-id="d7315-105">If scrap is produced during processing, it can be entered in the output journal.</span><span class="sxs-lookup"><span data-stu-id="d7315-105">If scrap is produced during processing, it can be entered in the output journal.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="fff10-106">The scrap quantity does not increase the output quantity.</span><span class="sxs-lookup"><span data-stu-id="fff10-106">The scrap quantity does not increase the output quantity.</span></span>  
+> <span data-ttu-id="d7315-106">The scrap quantity does not increase the output quantity.</span><span class="sxs-lookup"><span data-stu-id="d7315-106">The scrap quantity does not increase the output quantity.</span></span>  
 
-## <a name="to-post-scrap-manually"></a><span data-ttu-id="fff10-107">To post scrap manually</span><span class="sxs-lookup"><span data-stu-id="fff10-107">To post scrap manually</span></span>  
-1. <span data-ttu-id="fff10-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="fff10-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="fff10-109">Fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="fff10-109">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. <span data-ttu-id="fff10-110">In the **Scrapped Quantity** field, enter the scrap quantity.</span><span class="sxs-lookup"><span data-stu-id="fff10-110">In the **Scrapped Quantity** field, enter the scrap quantity.</span></span>  
-4. <span data-ttu-id="fff10-111">In the **Scrap Code** field, enter the scrap code.</span><span class="sxs-lookup"><span data-stu-id="fff10-111">In the **Scrap Code** field, enter the scrap code.</span></span>  
-5. <span data-ttu-id="fff10-112">Choose the **Post** action to post the specified scrap per operation.</span><span class="sxs-lookup"><span data-stu-id="fff10-112">Choose the **Post** action to post the specified scrap per operation.</span></span>  
+## <a name="to-post-scrap-manually"></a><span data-ttu-id="d7315-107">To post scrap manually</span><span class="sxs-lookup"><span data-stu-id="d7315-107">To post scrap manually</span></span>  
+1. <span data-ttu-id="d7315-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="d7315-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="d7315-109">Fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="d7315-109">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="d7315-110">In the **Scrapped Quantity** field, enter the scrap quantity.</span><span class="sxs-lookup"><span data-stu-id="d7315-110">In the **Scrapped Quantity** field, enter the scrap quantity.</span></span>  
+4. <span data-ttu-id="d7315-111">In the **Scrap Code** field, enter the scrap code.</span><span class="sxs-lookup"><span data-stu-id="d7315-111">In the **Scrap Code** field, enter the scrap code.</span></span>  
+5. <span data-ttu-id="d7315-112">Choose the **Post** action to post the specified scrap per operation.</span><span class="sxs-lookup"><span data-stu-id="d7315-112">Choose the **Post** action to post the specified scrap per operation.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="fff10-113">See Also</span><span class="sxs-lookup"><span data-stu-id="fff10-113">See Also</span></span>  
-<span data-ttu-id="fff10-114">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="fff10-114">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="fff10-115">Setting Up Manufacturing</span><span class="sxs-lookup"><span data-stu-id="fff10-115">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="fff10-116">[Planning](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="fff10-116">[Planning](production-planning.md)    </span></span>  
-[<span data-ttu-id="fff10-117">Inventory</span><span class="sxs-lookup"><span data-stu-id="fff10-117">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="fff10-118">Purchasing</span><span class="sxs-lookup"><span data-stu-id="fff10-118">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="fff10-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="fff10-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="d7315-113">See Also</span><span class="sxs-lookup"><span data-stu-id="d7315-113">See Also</span></span>  
+<span data-ttu-id="d7315-114">[Manufacturing](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="d7315-114">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="d7315-115">Setting Up Manufacturing</span><span class="sxs-lookup"><span data-stu-id="d7315-115">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="d7315-116">[Planning](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="d7315-116">[Planning](production-planning.md)    </span></span>  
+[<span data-ttu-id="d7315-117">Inventory</span><span class="sxs-lookup"><span data-stu-id="d7315-117">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="d7315-118">Purchasing</span><span class="sxs-lookup"><span data-stu-id="d7315-118">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="d7315-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d7315-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

@@ -1,0 +1,1 @@
+<span data-ttu-id="b83cc-101">Hover over a field to read a short description.</span><span class="sxs-lookup"><span data-stu-id="b83cc-101">Hover over a field to read a short description.</span></span>
