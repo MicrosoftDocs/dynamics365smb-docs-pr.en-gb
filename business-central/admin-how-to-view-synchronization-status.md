@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d55d8d5ab916cee6600deaf891702a625d76d7ee
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 11e29674c2d12031fdf4e7f66e767be4fcc74795
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245692"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620891"
 ---
 # <a name="view-the-status-of-a-synchronization"></a>View the Status of a Synchronisation
 You can view the status of the individual synchronisation jobs that have been run for [!INCLUDE[crm_md](includes/crm_md.md)] integration. This includes synchronisation jobs that have been run from the job queue and manual synchronisation jobs that were performed on records from [!INCLUDE[d365fin](includes/d365fin_md.md)]. This is helpful when troubleshooting synchronisation problems because it gives you access to details about specific errors.
 
-### <a name="to-view-all-synchronization-issues"></a>To view all synchronisation issues
+### <a name="to-view-synchronization-issues-for-coupled-records"></a>To view synchronisation issues for coupled records
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Coupled Data Synchronisation Errors**, and then choose the related link.
-2. On the **Coupled Data Synchronisation Errors** page you can view of all issues that occurred in synchronisation of data between [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)], filter and sort records in the page by table, error message and take actions such as **Retry** or **Remove Coupling** to resolve issues one by one or in bulk.
+2. The **Coupled Data Synchronisation Errors** page shows issues that occurred when you synchronised coupled records. You can filter and sort records and take actions such as **Restore** or **Delete Records** to resolve issues one by one.
 
 ### <a name="to-view-synchronization-log-for-specific-manually-synchronized-record"></a>To view synchronisation log for specific (manually synchronised) record
-1. Open, for example, customer, item or any other record that is synchronising data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Sales
-2. Choose **Synchronisation Log** action to view the synchronisation log for selected record, for example, specific customer you synchronised manually
+1. Open, for example, a customer, item or any other record that is synchronising data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Sales.
+2. Choose the **Synchronisation Log** action to view the synchronisation log for a selected record. For example, a specific customer you synchronised manually.
 
 ## <a name="see-also"></a>See Also  
 [Setting Up Dynamics 365 for Sales Integration in Business Central](admin-setting-up-integration-with-dynamics-sales.md)  

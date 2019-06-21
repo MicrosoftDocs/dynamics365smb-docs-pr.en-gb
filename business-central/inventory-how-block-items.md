@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e13d59e939e71a252e08afc26d2fb1ec76b247c9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8c98e4b893783c795a49e05ab04dc70b03161c6a
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238539"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594264"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Block Items from Sales or Purchasing
 You can block an item from being entered on sales or purchase lines, and you can block it from being posted in any transaction.  
@@ -28,7 +28,10 @@ The following table illustrates what occurs when items are blocked.
 |--------------------|------------|  
 |**Sales Blocked**|You cannot enter the item in a sales document or in a sales item journal.|  
 |**Purchasing Blocked**|You cannot enter the item in a purchase document, in a purchase item journal, or in purchase planning processes.|  
-|**Blocked**|You cannot use the item for any item transaction. For more information about blocking an item for all purposes, see Item Card.|  
+|**Blocked**|You cannot use the item for any item transaction.|  
+
+> [!NOTE]
+> Blocked items can be returned. This means that none of the above settings apply when the item is used on return orders and credit memos.
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>To block an item from being entered on sales lines  
 

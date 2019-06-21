@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 04/01/2019
+ms.date: 05/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c326b280e6539da69831fd4f9610540f1a1e139e
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249383"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594134"
 ---
 # <a name="send-documents-by-email"></a>Send Documents by Email
 To communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers, you can use the Report Layout feature to define document-specific content that gets inserted in email bodies automatically. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
@@ -54,7 +54,7 @@ The following procedure describes how to send a posted sales invoice as an email
 4. Choose the **OK** button. The **Send Email** page opens.
 5. In the **To:** field, enter a valid email address. The default value is the customer email address.
 6. In the **Subject** field, enter a descriptive subject text. The default value is the customer name and invoice number.
-7. In the **Attachment** field, the generated invoice is attached by default as a PDF file. Choose the lookup button to open the file or attach another one.
+7. In the **Attachment** field, the generated invoice is attached by default as a PDF file.
 8. In the **Body** field, enter a short message to the recipient.
 
     If a document-specific email body is set up on the **Report Selection - Sales** page, then the **Body** field is filled in automatically. For more information, see [To set up a document-specific email body for sales invoices](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).
