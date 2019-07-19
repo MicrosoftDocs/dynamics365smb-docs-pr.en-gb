@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: d03d1aa3910dc73dc61c61bdd66725e8e8af3c66
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: e1f7d9891be4ae31fc3f98fb768bfddcd38582ca
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621121"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629879"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Customising Business Central Using Extensions
 You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.
@@ -48,24 +48,28 @@ Some extensions are provided by Microsoft, and other extensions are provided by 
 
 Microsoft provides the following extensions:  
 
-* [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
-* [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
-* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)  
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)  
-* [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
-* [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)  
-* [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)  
-* [Accountant Portal](ui-extensions-accountant-portal.md)  
-* [Image Analyser](ui-extensions-image-analyzer.md)  
-* [Payments and Reconciliations (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [C5 Data Migration](ui-extensions-c5-data-migration.md)  
-* [Essential Business Insights](ui-extensions-essential-business-insights.md)  
-* [Late Payment Predictions](ui-extensions-late-payment-prediction.md  )
-* [Send Remittance Advice](ui-extensions-send-remittance-advice.md)
+* [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
+* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
+* [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Essential Business Insights](ui-extensions-essential-business-insights.md)
+* [Image Analyser](ui-extensions-image-analyzer.md)
+* [Intelligent Cloud](ui-extensions-data-replication.md)
+* [Intelligent Cloud Base](ui-extensions-intelligent-cloud.md)
+* [Late Payment Predictions](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
+* [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
+* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
+* [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)
+* [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+* [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
+* [Business Central Extensions by Other Providers](ui-extensions-other.md)
 
 > [!NOTE]  
 >  New extensions are not available in AppSource immediately after we announce an update. You can keep an eye out for the extensions at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

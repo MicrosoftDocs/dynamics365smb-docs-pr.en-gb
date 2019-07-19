@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/12/2018
 ms.author: edupont
-ms.openlocfilehash: aed202d5de052d6c938e307b961e049be322da0b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bea5ed403aad64779b2a79d5031a98441f627cea
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254111"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726948"
 ---
 # <a name="troubleshooting-included365invlongincludesd365invlongmd"></a>Troubleshooting [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 Read this section for tips and troubleshooting info on [!INCLUDE[d365inv](includes/d365inv.md)].
@@ -35,7 +35,7 @@ You can do that in the Settings for [!INCLUDE[d365inv](includes/d365inv.md)]. By
 The number is generated when you send the invoice. Until then, it does not have a number. You can see the expected next number in the **Settings** page.  
 
 ## <a name="can-i-change-the-design-of-my-invoice"></a>Can I change the design of my invoice?
-Not yet. We're working on this feature and will update our content as soon as it's available.  
+No, you cannot change the layout or colour of invoices but you can add an image, such as your company logo. For more information, see [Set up your business information](set-up-business-profile.md). 
 
 ## <a name="how-can-i-delete-an-invoice"></a>How can I delete an invoice?
 If you've sent an invoice to a customer, you can cancel the invoice, but you can't delete it. When you delete an invoice, you customer gets a cancellation email and your accountant will be able to see that the invoice was cancelled. To cancel an invoice, follow these steps:

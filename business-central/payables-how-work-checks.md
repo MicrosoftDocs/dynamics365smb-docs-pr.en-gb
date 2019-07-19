@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0eb1c99d38467969f072659996b0f598ba9d6576
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 97b98a334428f697e83bf655c1ec15a3539d3dea
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254052"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701205"
 ---
 # <a name="make-check-payments"></a>Make Cheque Payments
 You can issue electronic and manual checks in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Both methods use the payment journal to issue checks to vendors. You can also void cheques and view cheque ledger entries.
@@ -30,9 +30,9 @@ You can pay with two types of cheque. For both types, the **Bal. Account Type** 
 > [!NOTE]  
 > To make sure that your bank only clears validated cheques and amounts, you can send them a file that contains vendor, cheque, and payment information. For more information, see [Export a Positive Pay file](finance-how-positive-pay.md).
 
-Your printer must be correctly set up with the cheque forms, and you must define which cheque layout to use. For more information, see [Define Cheque Layouts](finance-how-define-check-layouts.md)
+Your printer must be correctly set up with the cheque forms, and you must define which cheque layout to use. For more information, see [Select a Cheque Layout](finance-how-define-check-layouts.md)
 
-You can print up to 10 invoices on a page for a cheque stub. If a cheque applies to more than 10 invoices, when you print the stub we void the cheque on the first page and print the word VOID on the cheque. We then print the remainder of the invoices and the total cheque amount on the second page. 
+You can print up to 10 invoices on a page for a cheque stub. If a cheque applies to more than 10 invoices, when you print the stub we void the cheque on the first page and print the word VOID on the cheque. We then print the remainder of the invoices and the total cheque amount on the second page.
 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>To pay a vendor invoice with a computer cheque
 The following describes how to pay a vendor by cheque. The steps are similar to refund a customer by cheque.

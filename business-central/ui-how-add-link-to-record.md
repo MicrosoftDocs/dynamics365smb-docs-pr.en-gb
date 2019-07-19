@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/12/2019
 ms.author: jswymer
-ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250349"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629764"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Add Links to Websites, Documents, or Programmes on Records
 On a specific record, such as a customer, document, or sales order, you can add a link to an external document, website, or programme. Or, you may want a link that opens a new empty email to a specific recipient when you select it. The card page for some records, such as customer and vendor cards, include a **Home Page** field where you can enter an Internet address (URL). To include other links, you can use the method described in this article.  
@@ -35,10 +35,9 @@ Another example could be when you receive printed invoices from vendors. You can
 
 4.  In the **Link Address** field, enter
 
-    -   To link to a file on your computer or network, enter the full path and file name, such as  **C:My Documentsinvoice1.doc**.
+    -   To link to a file on your computer or network, enter the full path and file name, such as  **C:\My Documents\invoice1.doc**.
     -   To link to website, enter the Internet address (URL), such as **www.microsoft.com**.
-    -   To link to website, enter the Internet address (URL), such as **www.microsoft.com**.
-    -   To link to a programme, enter a specific string to open the programme. For example, to open OneNote with a specific page, enter **onenote:///C:My Documentstest.one**. Or, to open Outlook with a new empty email to a specific alias, enter **mailto:testalias**.  
+    -   To link to a programme, enter a specific string to open the programme. For example, to open OneNote with a specific page, enter **onenote:///C:\My Documents/test.one**. Or, to open Outlook with a new empty email to a specific alias, enter **mailto:testalias**.  
 
 5.  Fill in the **Description** field with information about the link.  
 

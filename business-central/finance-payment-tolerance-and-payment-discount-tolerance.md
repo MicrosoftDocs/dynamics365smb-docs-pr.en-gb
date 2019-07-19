@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: def9338cea3a1998aafac671e304c55f83fdece7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7ca4f01d261915e2ecf6416ee1d9e85f50c73fb0
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242475"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629718"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Work with Payment Tolerances and Payment Discount Tolerances
 You can set up a payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice. You can set up a payment discount tolerance to grant a payment discount after the payment discount date has passed.  
@@ -218,7 +218,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Multiple payment tolerance rules 2")  
+![Multiple payment tolerance rules 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Multiple payment tolerance rules 2")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -229,7 +229,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Multiple payment tolerance rules 3")  
+![Multiple payment tolerance rules 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Multiple payment tolerance rules 3")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 

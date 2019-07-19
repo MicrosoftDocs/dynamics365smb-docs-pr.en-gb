@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 06/03/2019
 ms.author: mikebc
-ms.openlocfilehash: bf595cc54fa6d3d105770893864f655f82e04433
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: a4e33c2f1598f4e3ff659302f046b32656edb81a
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620845"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701182"
 ---
 # <a name="searching-and-filtering-faq"></a>Searching and Filtering FAQ
 This article answers common questions you might have about searching and filtering.
@@ -43,7 +43,7 @@ See also [Is the filter pane available for filtering reports?](#is-the-filter-pa
 On different display targets such as mobile devices or in Outlook, you can search in lists but cannot filter on individual fields in most cases.
 
 ## <a name="is-the-filter-pane-available-for-filtering-reports"></a>Is the filter pane available for filtering reports?
-No. The report filter dialogue, commonly referred to as the request page, currently use a different experience that provides some, but not all, of the capabilities of the filter pane.
+No. The report filter dialogue, commonly referred to as the request page, currently uses a different experience that provides some, but not all, of the capabilities of the filter pane.
 
 ## <a name="will-microsoft-extend-the-filter-pane-experience"></a>Will Microsoft extend the filter pane experience?
 At Microsoft, we're constantly listening to feedback from our diverse community of users and acting upon the top community suggestions. If you are interested in extending the filter pane to more form factors, more types of lists and reports, or have a great idea on how to improve it, add an idea or vote for existing ideas at [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).
