@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: edupont
-ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 41917ece38cf553582438d7c57ca3e09b82b21e9
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247193"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796718"
 ---
 # <a name="administration"></a>Administration
 Central administration tasks are usually performed by one role in the company. The scope of these tasks can depend on the company's size and the administrator's job responsibilities. These tasks can include managing database synchronisation of job and email queues, setting up users, and customising the user interface.  
@@ -33,7 +33,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |**To**|**See**|  
 |------------|-------------|  
-|Add users, manage permissions and access to data, assign roles.|[Understanding Profiles and Role Centres](admin-users-profiles-roles.md)|  
+|Add users, manage permissions and access to data, assign roles.|[Understanding Profiles (Roles) and Role Centres](admin-users-profiles-roles.md)|  
 |Assign permissions to users, modify permission sets, and group users per permissions.|[Managing Users and Permissions](ui-how-users-permissions.md)|
 |Classify data sensitivities for fields so that you can respond to requests from data subjects related to their personal data.|[Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)|
 |Respond to requests from data subjects related to their personal data.|[Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)|

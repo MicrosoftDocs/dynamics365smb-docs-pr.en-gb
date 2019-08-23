@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: sgroespe
-ms.openlocfilehash: 45fb2f1ac2b9d26e74e625321a64b4a5033880bf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 195ab393046d56611445d7cba9ed39cdbaf75454
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252511"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796824"
 ---
 # <a name="register-new-customers"></a>Register New Customers
 Customers are the source of your income. You must register each customer you sell to as a customer card. Customer cards hold the information that is required to sell products to the customer. For more information, see [Invoice Sales](sales-how-invoice-sales.md) and [Register New Items](inventory-how-register-new-items.md).  
@@ -54,6 +54,7 @@ If you want to use this customer card as a template when you create new customer
 The customer template is added to the list of customer templates, so that you can use it to create new customer cards.
 
 ## <a name="see-also"></a>See Also
+[Defining Payment Methods](finance-payment-methods.md)  
 [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Sales](sales-manage-sales.md)    

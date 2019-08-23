@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/23/2019
 ms.author: sgroespe
-ms.openlocfilehash: 32a50a2b1b967fa2f19022ab6e07865716243d8e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4d7d9ad0e9c84d5c767095b7b7e786be932625e7
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245668"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796695"
 ---
 # <a name="archive-documents"></a>Archive Documents
 You can archive sales and purchase orders, quotes, return orders, and blanket orders, for example because you want to save a copy of a document for reuse later. You can archive a sales or purchase document several times, saving a different archived version each time.
@@ -46,7 +46,7 @@ The following procedure describes how to archive a sales order. The steps are si
 2.  Open a sales order that you want to archive.  
 3.  Choose the **Archive Document** action.
 
-The sales order is archived. You can view it on the **Archived Sales orders** page.
+The sales order is archived. You can view it on the **Archived Sales Orders** page.
 
 ## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>To restore a non-posted sales order from the archive
 The following procedure describes how to bring the contents of an archived sales order back to the original sales order. This is only possible when the original document has not been posted. The steps are similar for all orders, blanket orders, return orders, and quotes.

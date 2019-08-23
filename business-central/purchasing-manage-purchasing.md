@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 04/01/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
-ms.openlocfilehash: 738cbfece41121eb05aeb598f9ea4367173f29a5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e49632655eebc0ab5d818e67fecd599d6d079cce
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251844"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796780"
 ---
 # <a name="purchasing"></a>Purchasing
 You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices are also used to dynamically update inventory levels so that you can minimise your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices contribute to profit figures and other financial KPIs on your Role Centre.
@@ -37,6 +37,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Create a purchase invoice to record your agreement with a vendor to purchase products on certain delivery and payment terms. |[Record Purchases](purchasing-how-record-purchases.md) |
 |Create a purchase quote to reflect a request for quote from your vendor, which you can later convert to a purchase order.|[Request Quotes](purchasing-how-request-quotes.md)|
 | Create a purchase invoice for all or selected lines on a sales invoice. |[Purchase Items for a Sale](purchasing-how-purchase-products-sale.md) |
+|Understand what happens when you post purchase documents.|[Posting Purchases](ui-post-purchases.md)|
 | Perform an action on an unpaid posted purchase invoice to automatically create a credit memo and either cancel the purchase invoice or recreate it so you can make corrections. |[Correct or Cancel Unpaid Sales Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Create a purchase credit memo to revert a specific posted purchase invoice to reflect which products you are returning to the vendor and which payment amount you will collect. |[Process Purchase Returns or Cancellations](purchasing-how-register-new-vendors.md) |
 |Prepare to invoice multiple receipts from the same vendor once by combining the receipts on one invoice.|[Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)|

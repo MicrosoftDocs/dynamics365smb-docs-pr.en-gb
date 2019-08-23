@@ -1,8 +1,6 @@
 ---
 title: Display Custom Power BI Reports| Microsoft Docs
 description: You can use Power BI reports to gain additional insight into data in lists.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2019
+ms.date: 07/08/2019
 ms.author: edupont
-ms.openlocfilehash: 29c7b7656632d2103a16025848a6ddc82650353e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: acf9462db8b4f559a5fbc40381b4e5009cdac088
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241609"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755202"
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Viewing List Data in Power BI Reports in Business Central 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a FactBox control element on a number of key list pages that provides additional insight into the data in the list. As you move between rows in the list, the report is updated and filtered for the selected entry. You can create custom reports to display in this control, but there are a few rules to follow when creating the reports to ensure they provide the desired behaviour.  
+# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Viewing List Data in Power BI Reports in Business Central
+
+[!INCLUDE[prodlong](includes/prodlong.md)] includes a FactBox control element on a number of key list pages that provides additional insight into the data in the list. As you move between rows in the list, the report is updated and filtered for the selected entry. You can create custom reports to display in this control, but there are a few rules to follow when creating the reports to ensure they provide the desired behaviour.  
 
 > [!NOTE]  
->   You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).  
+> You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, to build custom reports, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Report Data Set
 When you create the report in Power BI Desktop, specify the data source or web service that contains the data related to the list that you want to associate the report with. For example, if you want to create a report for the Sales List, ensure that the data set contains information related to sales.  
@@ -50,7 +49,7 @@ Similarly, if you want to have the background of the report blend into the backg
 With Power BI, you can create a single report with multiple pages. The visuals that you want to see in the [!INCLUDE[d365fin](includes/d365fin_md.md)] list pages must be on the first page of the report in Power BI.  
 
 > [!NOTE]  
->  The Power BI Fact Box can show only the first page of your report; if you want to see other pages, you must expand the report and use tabs at the bottom of the report to navigate to other pages.  
+> The Power BI Fact Box can show only the first page of your report; if you want to see other pages, you must expand the report and use tabs at the bottom of the report to navigate to other pages.  
 
 ## <a name="saving-your-report"></a>Saving Your Report
 
@@ -72,7 +71,9 @@ This section provides a workaround for the most typical issues that can occur wh
 Verify that the report size is set to 325 pixels x 310 pixels. Save the report, and then refresh the list page.  
 
 ## <a name="see-also"></a>See Also
+
+[Enabling Your Business Data for Power BI](admin-powerbi.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Getting Started](product-get-started.md)    
-[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
+[Getting Started](product-get-started.md)  
+[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  

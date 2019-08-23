@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629948"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858296"
 ---
-# <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Getting Started with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Getting Started with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system. To help you with your subscription, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search).  
 
 When you sign up for the [!INCLUDE[d365fin](includes/d365fin_md.md)] preview you get access to a demonstration company. The demonstration company contains sample data, but you can create your own sales documents, for example, or set up a bank account.  
 
-## <a name="get-to-know-included365finincludesd365finmdmd"></a>Get to know [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>Get to know [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], some things will be familiar to you, and other things might be unfamiliar. In the demonstration company, visual guides explain core functionality, and help you try out daily tasks like creating a sales invoice and viewing a report. If you leave a guide, for example, to explore [!INCLUDE[d365fin](includes/d365fin_md.md)] on your own, but want to return to it, go back to the Role Centre and launch the Getting Started tour. If you want more assistance, contact a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner.  
 
 > [!TIP]  
@@ -87,7 +87,7 @@ If you have additional questions, we recommend that you ask the community or con
 Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search). You can also contact the [[!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Other Dynamics 365 apps
-Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 365](https://docs.microsoft.com/dynamics365) link in the blue banner at the top of this page. You can also learn more at the [Dynamics 365 Business Central website](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 365](/dynamics365/) link in the blue banner at the top of this page. You can also learn more at the [Dynamics 365 Business Central website](https://dynamics.microsoft.com/en-us/business-central/overview/).  
 
 If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
@@ -99,7 +99,7 @@ If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as my Business Inbox in Outlook](admin-outlook.md)  
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
 [Resources for Help and Support](product-help-and-support.md)  
-[Dynamics 365 Documentation](https://docs.microsoft.com/en-us/dynamics365/)  
+[Dynamics 365 Documentation](/dynamics365/)  
 [Microsoft Dynamics 365 Business Central Release Plan](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 

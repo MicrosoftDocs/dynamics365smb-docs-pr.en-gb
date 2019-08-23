@@ -1,22 +1,21 @@
 ---
-title: Understanding How To Post Sales Documents | Microsoft Docs
-description: Learn about the different posting functions to post sales documents.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+title: Posting Sales Documents | Microsoft Docs
+description: Learn about the different posting functions to post sales documents, and how you can update posted documents.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.reviewer: edupont
 ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: d1b2d29c4c5b8397bd6e9e05088e7ea50d68fd20
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.author: sgroespe
+ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247916"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796902"
 ---
 # <a name="posting-sales"></a>Posting Sales
 In the **Posting group** on a sales document, you can choose between the following posting functions:
@@ -40,10 +39,12 @@ For each sales order line, an item ledger entry will be created in the **Item Le
 > [!IMPORTANT]  
 >   When you post an order, you can create both a shipment and an invoice. These can be done at the same time or independently. You can also create a partial shipment and a partial invoice by completing the **Qty. to Ship** and **Qty. to Invoice** fields on the individual sales order lines before you post. Note that you cannot create an invoice for something that is not shipped. That is, before you can invoice, you must have recorded a shipment, or you must choose to ship and invoice at the same time.
 
-When the posting is completed, the posted sales lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Cust. Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **Posted Sales Shipments**, and **Posted Sales Invoices** pages.
+When the posting is completed, the posted sales lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Cust. Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **Posted Sales Shipments**, and **Posted Sales Invoices** pages.  
 
 ## <a name="see-also"></a>See Also
+
 [Sales](sales-manage-sales.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
+[Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)  
+[Using Tell Me to Find Features and Information](ui-search.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

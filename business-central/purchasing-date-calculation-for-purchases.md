@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 436af4a8e802b76a1f657a0ec0f2b097ac5bea0c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e7dfe565fc533ca5a724675c925cf6a415c49b94
+ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251706"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1737104"
 ---
 # <a name="date-calculation-for-purchases"></a>Date Calculation for Purchases
 [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.  
@@ -33,6 +33,9 @@ If there is a requested receipt date on the purchase order line, then that date 
 - requested receipt date + inbound whse. handling time + safety lead time = expected receipt date  
 
 If you entered a requested receipt date on the purchase order header, then that date is copied to the corresponding field on all the lines. You can change this date on any of the lines, or you can remove the date on the line.  
+
+> [!Note]
+> If your process is based on backward calculation, for example, if you use the requested receipt date to get the order date, we recommend that you use date formulas that have fixed durations, such as "5D" for five days or "1W" for one week. Date formulas without fixed durations, such as "CW" for current week or CM for current month, can result in incorrect date calculations. For more information about date formulas, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 ## <a name="calculating-without-a-requested-delivery-date"></a>Calculating without a Requested Delivery Date  
 If you enter a purchase order line without a requested delivery date, then the **Order Date** field on the line is filled with the date in the **Order Date** field on the purchase order header. This is either the date that you entered or the work date. The following dates are then calculated for the purchase order line, with the order date as the starting point.  

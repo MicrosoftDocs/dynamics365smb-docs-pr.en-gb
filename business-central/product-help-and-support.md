@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/03/2019
-ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.date: 07/17/2019
+ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
+ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726961"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "1755976"
 ---
 # <a name="resources-for-help-and-support"></a>Resources for Help and Support
 
@@ -43,11 +43,11 @@ If you are using a trial version of [!INCLUDE [prodshort](includes/prodshort.md)
 
 ### <a name="blog"></a>Blog
 
-The [Business Central blog](https://community.dynamics.com/business/b/financials) is where you can learn more about new [!INCLUDE[prodshort](includes/prodshort.md)] capabilities, new app releases, tips and tricks, as well as updates about new country releases.  
+We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), including when they are made available, and if there are special considerations.  
 
 ### <a name="capabilities-coming-soon"></a>Capabilities Coming Soon
 
-[!INCLUDE[prodshort](includes/prodshort.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in the release plan across Dynamics 365 at [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in the release plan across Dynamics 365 at [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
 
 For the longer term overview, the [!INCLUDE[prodshort](includes/prodshort.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prodshort](includes/prodshort.md)] in the coming years.  
 

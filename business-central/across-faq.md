@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 06/13/2019
+ms.date: 08/02/2019
 ms.author: edupont
-ms.openlocfilehash: 4854dc38fe395fb36381cda0e2c177e9e3abf591
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 91cd5a7bd5b4aa5103e472fbf040599ac9740226
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629488"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858273"
 ---
 # <a name="frequently-asked-questions"></a>Frequently Asked Questions
 
 This section contains answers to frequently asked questions about signing up for a trial, buying a subscription, and using [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can also learn how to get technical support.  
 
-## <a name="is-included365finincludesd365finmdmd-available-in-my-country"></a>Is [!INCLUDE[d365fin](includes/d365fin_md.md)] available in my country?
+## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>Is [!INCLUDE[d365fin](includes/d365fin_md.md)] available in my country?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is available in a limited number of markets, but new countries are added through Microsoft-led localisation or through partner-led localisation on a quarterly basis. For more information, see [Countries and Translations Supported](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
@@ -30,25 +30,27 @@ To help you get ready for doing business in [!INCLUDE [prodshort](includes/prods
 
 When you are ready to buy [!INCLUDE [prodshort](includes/prodshort.md)], you can find a [!INCLUDE [prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
 
+[!INCLUDE [prodshort](includes/prodshort.md)] is sold and implemented through a global network of Dynamics 365 partners with industry expertise. Contact a partner for a detailed assessment, consulting services, and additional pricing. For more information, see the **Pricing** section on the [Dynamics 365 Business Central page on microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+
 ## <a name="where-do-i-go-if-i-have-questions"></a>Where do I go if I have questions?
 If you have questions about [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can't find an answer for in this documentation, you can ask the Business Central community. For more information, see [Dynamics 365 Business Central community](https://community.dynamics.com/business).  
 
-From the community home page, you can also find links to our blogs where you can also find tips and tricks. For more information, see [Dynamics 365 Business Central Blog](https://community.dynamics.com/business/b/financials) and [Dynamics 365 Business Central Support Blog](https://community.dynamics.com/business/b/dynamics365financialssupport).  
+From the community home page, you can also find links to our blogs where you can also find tips and tricks. For more information, see [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) and the older [Dynamics 365 Business Central Blog](https://community.dynamics.com/business/b/financials).  
 
 Finally, you can contact your [!INCLUDE[d365fin](includes/d365fin_md.md)] reselling partner. For more information, see the [How do I get technical support?](across-faq.md#how-do-i-get-technical-support-for-) section.  
 
-## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Why can't I find that capability in my [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Why can't I find that capability in my [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Did you read about a new capability in the release plan or on our blog recently? In that case, your [!INCLUDE[d365fin](includes/d365fin_md.md)] might not have been upgraded to the latest version yet. If the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Are there any differences between an on-premises deployment and the cloud version of Business Central?
 Yes. Some Cloud-based features may run on premises in certain cases and others are not supported at all. For more information, see [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
-## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Can I get training in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>Can I get training in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Yes, you can. But currently, you have to ask your reselling partner. If you don't know who that is, find a Business Central partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
 
 If you have access to Microsoft CustomerSource, you can get access to the Imagine Academy site with  eLearning material. For more information on how to get access, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
 
-## <a name="how-do-i-get-technical-support-for-included365finincludesd365finmdmd"></a>How do I get technical support for [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>How do I get technical support for [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is sold through partners, and you should contact your reselling partner to get help with technical problems. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft.  
 
@@ -62,7 +64,7 @@ If your Experience setting on the **Company Information** page is set to **Essen
 There is no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[d365fin](includes/d365fin_md.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you will see the text **Saving** in the top-right corner of the page, which will quickly change to **Saved** if no errors occur. If an error occurs, the text will change to **Not Saved**.
 
 
-## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>What email address can I use with [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="what-email-address-can-i-use-with-included365finincludesd365fin_mdmd"></a>What email address can I use with [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] requires that you use a work, or school, email address to sign up. [!INCLUDE[d365fin](includes/d365fin_md.md)] does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
 
 If you try to sign up with a personal email address, you will get a message indicating to use a work or school email address. For more information, see [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md).  
@@ -72,12 +74,12 @@ If you want to deploy [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, t
 ## <a name="do-i-have-to-buy-office-365"></a>Do I have to buy Office 365?
 No. But if you want to experience [!INCLUDE[d365fin](includes/d365fin_md.md)] as fully integrated with Office 365, you can sign up for a 1-month free trial of Office 365 [here](https://products.office.com/try).  
 
-If the account you sign up with is a non-Office 365 work account (such as joe@mysolution.com), and you have an Office 365 subscription, then you can associate your domain (mysolution.com) with the Office 365 subscription. For more information, see [Get help with Office 365 domains](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+If the account you sign up with is a non-Office 365 work account (such as *joe@mysolution.com*), and you have an Office 365 subscription, then you can associate your domain (*mysolution.com*) with the Office 365 subscription. For more information, see [Get help with Office 365 domains](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
 If you do not have an Office 365 subscription, and you do not want to buy one, then, when you sign up, we provision a new Azure Active Directory tenant for you so that you have access to the Azure portal where you have access to advanced administration tools.  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>What is the integration with Office 365 about?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is fully integrated with Office 365 so that you can navigate freely between Office 365 apps and [!INCLUDE[d365fin](includes/d365fin_md.md)] using the app launcher. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can open data in Excel, print reports using Word, and you can work with your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Outlook, for example. For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](admin-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] online is fully integrated with Office 365 so that you can navigate freely between Office 365 apps and [!INCLUDE[d365fin](includes/d365fin_md.md)] using the app launcher. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can open data in Excel, print reports using Word, and you can work with your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Outlook, for example. For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Can I extend my 30-day “New Company” trial period?
 Yes. When the expiration date for your trial period is approaching we will display a notification to alert you when you sign in. The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period. The extra 30 days start the moment you choose **Extend Trial** in the guide. You can extend the trial period one time yourself. After that, a Microsoft partner can extend it for another 30 days. For more information, see [Extend Your Trial Version](admin-extend-trial.md). To contact a Microsoft partner in your country or region now, see the list of phone numbers in [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc).  
@@ -85,7 +87,7 @@ Yes. When the expiration date for your trial period is approaching we will displ
 > [!NOTE]
 > It may take up to two business days to complete the trial extension process.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Our administrator has moved me to another plan to give me another role, but I still see the same Role Centre in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365fin_mdmd"></a>Our administrator has moved me to another plan to give me another role, but I still see the same Role Centre in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 This is a bit complicated, but it looks like your administrator didn't change your Role Centre and assign user groups that match the new licence. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (licence) that you have - this sets permissions and your default Role Centre page. You can change your Role Centre manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home because your permissions were not changed.  
 
 ## <a name="can-i-cancel-my-subscription"></a>Can I cancel my subscription?

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 64995372f68ed2804bc165823dacc34ad6a3194d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1a3edaca2e76388d82ea8991c3196410dd9c7288
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251292"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796776"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Why a Page is Locked from Personalisation
 
@@ -55,7 +55,7 @@ If there is a ![Personalisation blocked](media/personalization-blocked-icon.png 
 
 ![Personalise blocked](media/personalization-blocked.png "Personalise lock")
 
-The reason for this is that the Role Centre or profile that is currently associated with your user account modifies this page specifically for your role. Please contact your administrator for assistance or, if it makes sense, try switching to a Role Centre (from  [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central")) that does include role-tailoring for this page.
+The reason for this is that the Role Centre or role that is currently associated with your user account modifies this page specifically for your role. Please contact your administrator for assistance or, if it makes sense, try switching to a Role Centre (from  [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central")) that does include role-tailoring for this page.
 
 ## <a name="see-also"></a>See Also
 [Personalising Your Workspace](ui-personalization-manage.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 06/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c86cd9018caa59106468121e1d763d0974c96e
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 5f3bab58a2387f5bf21042da782756f7b36d4792
+ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629925"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1740509"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sorting, Searching, and Filtering Lists
 There are a few things that you can do that will help you scan, find, and limit records in a list. These include sorting, searching and filtering. You can apply some or all of these simultaneously to quickly find or analyse your data.
@@ -128,10 +128,15 @@ For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilt
 
 
 ## <a name="FilterCriteria"> </a>Filter Criteria and Symbols
-When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
+When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols (or operators) to further filter the results. The following tables show the symbols which can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
 
 > [!IMPORTANT]  
->  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.  
+>  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.
+
+The following sections describe how to use the different operators.
+
+> [!NOTE]
+> If there are more than 200 operators in a single filter, the system will automatically group some expressions in parentheses `()` for the purpose of processing. This has no effect on the filter or the results.  
 
 ### <a name="-interval"></a>(..) Interval
 
@@ -145,7 +150,7 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |`23..`|From 23-current month-current year 0:00:00 until the end of time|  
 |`22..23`|From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59|  
 
-### <a name="124-eitheror"></a>(&#124;) Either/or  
+### <a name="124-eitheror"></a>(&#124;) Either/or 
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  

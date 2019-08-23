@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 07/16/2019
 ms.author: bholtorf
-ms.openlocfilehash: b3fb3d2680cd85da8b2def7e82fbf62c0046fcc3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9290730bb559d4ac03a437a49ed81b09f3c01853
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247428"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755225"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-for-sales"></a>Scheduling a Synchronisation between Business Central and Dynamics 365 for Sales
 You can synchronise [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUDE[crm_md](includes/crm_md.md)] on scheduled intervals by setting up jobs in the job queue. The synchronisation jobs synchronise data in [!INCLUDE[d365fin](includes/d365fin_md.md)] records and [!INCLUDE[crm_md](includes/crm_md.md)] records that have been previously coupled together. Or for records that are not already coupled, depending on the synchronisation direction and rules, the synchronisation jobs can create and couple new records in the destination system. There are several synchronisation jobs that are available out-of-the-box. You can view them on the **Job Queue Entries** page. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
@@ -31,7 +31,7 @@ To synchronise data, [!INCLUDE[crm_md](includes/crm_md.md)] entity records must 
 -   By default, only records in [!INCLUDE[d365fin](includes/d365fin_md.md)] that are coupled to records in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronised. You can change the table mapping between a [!INCLUDE[crm_md](includes/crm_md.md)] entity and a [!INCLUDE[d365fin](includes/d365fin_md.md)] table so that the integration synchronisation jobs will create new records in the destination database for each record in the source database that is not coupled. The new records are also coupled to the corresponding records in the source. For example, when you synchronise customers with [!INCLUDE[crm_md](includes/crm_md.md)] accounts, a new account record is created for each customer in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The new accounts are automatically coupled to customers in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Because the synchronisation in this case is bidirectional, a new customer is created and coupled for each [!INCLUDE[crm_md](includes/crm_md.md)] account that is not already coupled.  
 
     > [!NOTE]  
-    >  There are rules and filters that determine what data is synchronised. For more information, see [Synchronisation Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
+    > There are rules and filters that determine what data is synchronised. For more information, see [Synchronisation Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
 
 -   When new records are created in [!INCLUDE[d365fin](includes/d365fin_md.md)], the records use the either the template that is defined for the integration table mapping or the default template that is available for the record type. Fields are populated with data from [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[crm_md](includes/crm_md.md)] depending on the synchronisation direction. For more information, see [How to: Modify Table Mappings for Synchronisation](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
@@ -51,7 +51,7 @@ The following table describes the default synchronisation jobs.
 |CUSTOMER - Dynamics 365 for Sales synchronisation job|Synchronises [!INCLUDE[crm_md](includes/crm_md.md)] accounts with [!INCLUDE[d365fin](includes/d365fin_md.md)] customers.|Bidirectional|CUSTOMER|  
 |CUSTPRCGRP-PRICE - Dynamics 365 for Sales synchronisation job|Synchronises [!INCLUDE[crm_md](includes/crm_md.md)] sales price lists with [!INCLUDE[d365fin](includes/d365fin_md.md)] customer price groups.| |CUSTOMER PRICE GROUPS-SALES PRICE LISTS|
 |ITEM - PRODUCT - Dynamics 365 for Sales synchronisation job|Synchronises [!INCLUDE[crm_md](includes/crm_md.md)] products with [!INCLUDE[d365fin](includes/d365fin_md.md)] items.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]|ITEM-PRODUCT|
-|POSTEDSALESINV-INV - Dynamics 365 for Sales synchronisation job|Synchronises [!INCLUDE[crm_md](includes/crm_md.md)] invoices with [!INCLUDE[d365fin](includes/d365fin_md.md)] posted sales invoices.|From [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)]|INVOICES-POSTED SALES INVOICES|
+|POSTEDSALESINV-INV - Dynamics 365 for Sales synchronisation job|Synchronises [!INCLUDE[crm_md](includes/crm_md.md)] invoices with [!INCLUDE[d365fin](includes/d365fin_md.md)] posted sales invoices.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]|INVOICES-POSTED SALES INVOICES|
 |RESOURCE-PRODUCT - Dynamics 365 for Sales synchronisation job|Synchronises [!INCLUDE[crm_md](includes/crm_md.md)] products with [!INCLUDE[d365fin](includes/d365fin_md.md)] resources.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]|RESOURCE-PRODUCT|  
 |SALESPEOPLE - Dynamics 365 for Sales synchronisation job|Synchronises [!INCLUDE[d365fin](includes/d365fin_md.md)] salespeople with [!INCLUDE[crm_md](includes/crm_md.md)] users.|From [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)]|SALESPEOPLE|
 |SALESPRC-PRODUCTPRICE - Dynamics 365 for Sales synchronisation job|Synchronises [!INCLUDE[crm_md](includes/crm_md.md)] product prices with [!INCLUDE[d365fin](includes/d365fin_md.md)] sales prices.||PRODUCT PRICE-SALES PRICE|
@@ -63,7 +63,7 @@ The following table describes the default synchronisation jobs.
 2.  If one or more error occurred for a synchronisation job, the number of errors appears in the **Failed** column. To view the errors for the job, choose the number.  
 
     > [!TIP]  
-    >  You can view all synchronisation job errors by opening the synchronisation job error log directly.
+    > You can view all synchronisation job errors by opening the synchronisation job error log directly.
 
 ## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>To view the synchronisation job log from the table mappings  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.

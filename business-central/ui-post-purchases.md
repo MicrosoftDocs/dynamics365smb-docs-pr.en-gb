@@ -1,22 +1,21 @@
 ---
 title: Understanding How To Post Purchase Documents | Microsoft Docs
-description: Learn about the different posting functions to post purchase documents.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+description: Learn about the different posting functions to post purchase documents, and how you can update posted documents.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: cc3d2e5b0f3425c329e5567e7d00908cb7f5c7d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.reviewer: edupont
+ms.date: 07/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247864"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796925"
 ---
 # <a name="posting-purchases"></a>Posting Purchases
 In the **Posting group** on a purchase document, you can choose between the following posting functions:
@@ -45,7 +44,9 @@ You can either post, or post and print. If you choose to post and print, a repor
 When the posting is completed, the posted purchase lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Vendor Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **Purchase Receipts**, and **Posted Purchase Invoices** pages.
 
 ## <a name="see-also"></a>See Also
+
 [Purchasing](purchasing-manage-purchasing.md)  
 [Post Documents and Journals](ui-post-documents-journals.md)  
+[Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Using Tell Me to Find Features and Information](ui-search.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

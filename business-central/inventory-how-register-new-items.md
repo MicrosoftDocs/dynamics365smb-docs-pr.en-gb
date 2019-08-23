@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2019
+ms.date: 06/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 468f2f213d2f9dafb38d76706da578b417d01ca9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 854af39ef866d0d8959410c928acf65d65ffcb3d
+ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240195"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870553"
 ---
 # <a name="register-new-items"></a>Register New Items
 Items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
@@ -33,6 +33,8 @@ Items that you offer to your customers but you do not want manage in your system
 
 > [!NOTE]  
 > If item templates exist for different item types, then a page appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
+
+The following procedure explains how to create an item card from scratch. You can also create new item cards by copying existing ones. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).
 
 ## <a name="to-create-a-new-item-card"></a>To create a new item card
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a620b7ed9d06cdd8adf7b12bea2b55aecea32bcc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 927c16f0fb1d12ff1202e4e675b97078d354375f
+ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251140"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1737127"
 ---
 # <a name="date-calculation-for-sales"></a>Date Calculation for Sales
 [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the earliest possible date that an item on a sales order line can be shipped.
@@ -27,14 +27,15 @@ If the customer has requested a specific delivery date, then the date on which t
 If the customer does not request a specific delivery date, then the date on which the items can be delivered is calculated, starting from the date on which the items are available for picking.
 
 ## <a name="calculating-a-requested-delivery-date"></a>Calculating a Requested Delivery Date
-If you specify a requested delivery date on the sales order line, then that date is used as the starting point for the following calculations.
+If you specify a requested delivery date on the sales order line, that date becomes the starting point for the following calculations.
 
 - requested delivery date - shipping time = planned shipment date
 - planned shipment date - outbound whse. handling time = shipment date
 
-If the items are available to pick on the shipment date, then the sales process can continue.
+If the items are available to pick on the shipment date, then the sales process can continue. Otherwise, a stock-out warning is displayed.
 
-If the items are not available to be picked on the shipment date, then a stock-out warning is displayed.
+> [!Note]
+> If your process is based on backward calculation, for example, if you use the requested delivery date to get the planned shipment date, we recommend that you use date formulas that have fixed durations, such as "5D" for five days or "1W" for one week. Date formulas without fixed durations, such as "CW" for current week or CM for current month, can result in incorrect date calculations. For more information about date formulas, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 ## <a name="calculating-the-earliest-possible-delivery-date"></a>Calculating the Earliest Possible Delivery Date
 If you do not specify a requested delivery date on the sales order line, or if the requested delivery date cannot be met, then the earliest date on which that the items are available is calculated. That date is then entered in the Shipment Date field on the line, and the date on which you plan to ship the items as well as the date on which they will be delivered to the customer are calculated using the following formulas.

@@ -9,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.reviewer: edupont
+ms.date: 07/16/2019
 ms.author: soalex
-ms.openlocfilehash: a4dd426cbbe8aa45e3128814886e4d43797c46b3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1b1c0e0260db1dd8fec21ab2552b553ea2591df2
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244613"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755173"
 ---
 # <a name="service-compliance"></a>Service Compliance
 This content contains information about service compliance in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -25,12 +26,18 @@ Business Central is a cloud service with a global reach and scale running on one
 
 Please find the detailed list of [Cloud compliance offerings for Business Central here](https://aka.ms/d365-compliance-list).
 
-If you are interested in the complete list of compliance offerings from Microsoft, see [this page](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).
+If you are interested in the complete list of compliance offerings from Microsoft, see [Microsoft Trust Centre](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).
 
-## <a name="see-also"></a>See Also  
+## <a name="service-terms"></a>Service Terms
+
+[!INCLUDE [prodshort](../includes/prodshort.md)] online is governed under the [Modern Lifecycle Policy](https://support.microsoft.com/en-us/help/30881/modern-lifecycle-policy). The service level agreement terms are described in the document that you can download from the **Service Level Agreements for Microsoft Online Services** section on the [Licensing terms](https://www.microsoft.com/en-us/licensing/product-licensing/products) page.  
+
+Furthermore, you can monitor your tenant's health and specify upgrade windows in the [Tenant Administration Centre](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+
+## <a name="see-also"></a>See Also
+
 [Compliance](compliance-overview.md)  
 [Application Compliance](compliance-application-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
