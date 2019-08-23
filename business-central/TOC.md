@@ -106,6 +106,7 @@
 ### [Work with Responsibility Centres](inventory-responsibility-centers.md)
 ### [Set Up Locations](inventory-how-setup-locations.md)
 ### [Register New Items](inventory-how-register-new-items.md)
+### [Copy Existing Items to Create New Items](inventory-how-copy-items.md)
 ### [About Item Types](inventory-about-item-types.md)
 ### [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md)
 ### [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
@@ -302,7 +303,7 @@
 
 # Administration
 ## [Overview](admin-setup-and-administration.md)
-## [Understanding Profiles, and Role Centres](admin-users-profiles-roles.md)
+## [Understanding Users, Roles, and Profiles](admin-users-profiles-roles.md)
 ## [Managing Users and Permissions](ui-how-users-permissions.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ## [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
@@ -834,7 +835,6 @@
 #### [Issue Delivery Reminders](LocalFunctionality\Austria\how-to-issue-delivery-reminders.md)
 #### [Print Test Reports for Delivery Reminders](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### General
-#### [Copy Existing Items to New Items](LocalFunctionality/Austria/how-to-copy-existing-items-to-new-items.md)
 #### [Print General Ledger Setup Information](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 #### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
@@ -856,7 +856,6 @@
 #### [Apply CODA Statements](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 #### [Automatically Transfer and Post CODA Statements](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
 #### [CODA Bank Statements](LocalFunctionality/Belgium/coda-bank-statements.md)
-#### [Download CODA Files from an Isabel Server](LocalFunctionality/Belgium/how-to-download-coda-files-from-an-isabel-server.md)
 #### [Belgian Electronic Banking](LocalFunctionality/Belgium/belgian-electronic-banking.md)
 #### [Set Up Electronic Banking](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
 #### [Set Up Export Protocols](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
@@ -866,8 +865,6 @@
 #### [Create Payment Journal Templates and Batches](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 #### [Test Electronic Payments](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
 #### [Generate Payment Suggestions](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
-#### [Isabel 6](LocalFunctionality/Belgium/isabel-6.md)
-#### [Upload Payment Files to an Isabel Server](LocalFunctionality/Belgium/how-to-upload-payment-files-to-an-isabel-server.md)
 #### [Import CODA Statements](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### [Manage Electronic Payment Lines](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
 #### [Manually Transfer and Post CODA Statements](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
@@ -883,7 +880,6 @@
 #### [Export and Post Domiciliations](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
 #### [Generate Domiciliation Suggestions](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 #### [Summarising Payment Lines and General Journal Lines](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
-#### [Archive IBS Log Entries](LocalFunctionality/Belgium/how-to-archive-ibs-log-entries.md)
 ### Core Finance
 #### [Apply and Unapply General Ledger Entries](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Create Financial Journals](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -1025,7 +1021,6 @@
 #### [Include Company Registration Numbers on Sales Reports and Purchase Reports](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
 #### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Print General Ledger Setup Information](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
-#### [Copy Existing Items to New Items](LocalFunctionality/Germany/how-to-copy-existing-items-to-new-items.md)
 #### [Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)
 
 ## Iceland
@@ -1242,7 +1237,7 @@
 #### [How to: Release, Track, and Write-Off Fixed Assets](LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets.md)
 #### [How to: View Posted Entries on a Fixed Asset Charge](LocalFunctionality/Russia/How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)
 #### [How to: Set Up an Intangible Assets Account](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
-#### [How to: Account for the Cost to Dispose a Fixed Asset](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) 
+#### [How to: Account for the Cost to Dispose a Fixed Asset](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md)
 #### [Undepreciable Fixed Assets](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
 ### VAT
 #### [Overview](LocalFunctionality/Russia/VAT.md)
@@ -1376,7 +1371,6 @@
 #### [Print Test Reports for Delivery Reminders](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
 ### Inventory
 #### [Swiss Inventory Management](LocalFunctionality/Switzerland/swiss-inventory-management.md)
-#### [Copy Existing Items to New Items](LocalFunctionality/Switzerland/how-to-copy-existing-items-to-new-items.md)
 #### [Print an Inventory Picking List from a Sales Order](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
 ### General    
 #### [Import Swiss Postcodes](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
