@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: making tax digital, vat, vat return, submit vat, making tax digital software, hmrc, tax
-ms.date: 06/28/2019
+ms.date: 07/10/2019
 ms.author: soalex
-ms.openlocfilehash: e9006f1037e6100c80bab4e1991e913052dc4112
-ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
+ms.openlocfilehash: 2a8a0a3d9c6d322bff7e7c2ff253aaa8f48c55ec
+ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "1717630"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1737139"
 ---
 # <a name="making-tax-digital-in-the-united-kingdom"></a>Making Tax Digital in the United Kingdom
 Her Majesty's Revenue and Customs (HMRC) is implementing the first step of Making Tax Digital, which imposes new requirements on VAT registered businesses above the VAT threshold. Requirements will be implemented in phases. In the first phase, with a deadline in April, 2019, the following requirements will take effect:
@@ -81,7 +81,7 @@ HMRC maintains a list of VAT obligations for companies, which are the periods fo
 * Remind you about VAT returns that are due or overdue.
 * Automatically enter start and end dates when you create VAT returns.
 
-### <a name="to-retrieve-the-vat-return-periods-from-the-hmrc"></a>To retrieve the VAT return periods from the HMRC:
+### <a name="to-retrieve-the-vat-return-periods-from-hmrc"></a>To retrieve the VAT return periods from HMRC:
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, choose **Process**, and then choose **Get VAT Return Periods**.
 3. Enter the **Start Date** and **End Date** to specify the period for which to get the VAT return periods, and then choose **OK**.  
@@ -89,7 +89,7 @@ HMRC maintains a list of VAT obligations for companies, which are the periods fo
 The VAT obligations are now retrieved from HMRC and you can view them on the **VAT Return Periods** page. A confirmation page shows how many obligations were retrieved.
 
   > [!NOTE]  
-    >  Do not create VAT Return Periods manually when submitting VAT Returns to HMRC. VAT Return Periods must be retrieved from HMRC using the steps above. Creating them manually will result in inability to submit VAT Returns.  
+  >  Do not create VAT return periods manually when submitting VAT Returns to HMRC. VAT return periods must be retrieved from HMRC using the steps above. Creating them manually will result in inability to submit VAT Returns.  
 
 
 ## <a name="vat-returns"></a>VAT Returns
@@ -139,8 +139,8 @@ This integration to HMRC and support of Making Tax Digital for VAT does not incl
 If you experience "The operation has timed out" errors on an on-premises installation of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] please check your firewall settings that may be blocking the communication to and from HMRC.
 
 ## <a name="testing-the-integration-to-hmrc-in-a-sandbox"></a>Testing the integration to HMRC in a Sandbox
- > [!NOTE]  
-    >  Due to a limitation at HMRC it is not possible to send test submissions of VAT Returns and test the integration in non-production scenarios. You can only send real VAT Returns. In other online documentation at HMRC the term **Sandbox** is described. This refers to software developers like Microsoft and other's ability to test features their features during development and is not intended for customer testing.
+
+Due to a limitation at HMRC, it is not possible to send test submissions of VAT Returns and test the integration in non-production scenarios. You can only send real VAT returns. Certain online documentation at HMRC refers to the term *Sandbox*. This refers to and environment for software developers such as Microsoft and others for testing their features during development. this environment is not intended for customer testing and is unrelated to [!INCLUDE[prodshort](../../includes/prodshort.md)] sandboxes.
 
 ## <a name="see-also"></a>See Also
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  

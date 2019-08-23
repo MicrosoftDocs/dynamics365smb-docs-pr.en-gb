@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2019
+ms.date: 06/20/2019
 ms.author: SorenGP
-ms.openlocfilehash: 038e3a9bfdb66a8d714f4f9452f0322623e6ddc4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 53214df635c637e265c6d302498beee08e9b806c
+ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238516"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870530"
 ---
 # <a name="setting-up-inventory"></a>Setting Up Inventory
 Before you can manage warehouse activities and inventory costing, you must configure the rules and values that define the company's inventory policies.
@@ -32,6 +32,7 @@ When you have set up your inventory, you can manage various processes related to
 |Configure an efficient distribution model with a combination of different locations and responsibility centres assigned to business partners or employees.|[Work with Responsibility Centres](inventory-responsibility-centers.md)|
 | Organise your inventory at multiple locations, including transfer routes. |[Set Up Locations](inventory-how-register-new-items.md) |
 | Create item cards for inventory, non-inventory, or service items that you trade in. |[Register New Items](inventory-how-register-new-items.md) |
+|Use the **Copy Item** function to quickly create a new item card based on an existing one.|[Copy Existing Items to Create New Items](inventory-how-copy-items.md)|
 |Learn how to fill in the **Type** field on item cards according to the business purpose.|[About Item Types](inventory-about-item-types.md)|
 |Set up multiple units of measure for an item that you can use as alternate UOMs, for example on sales, purchasing, or production transactions.|[Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md)|
 |As a supplement to item cards, record information about your items in a specific location or of a specific variant.|[Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)|
