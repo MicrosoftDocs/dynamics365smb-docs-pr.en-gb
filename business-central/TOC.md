@@ -217,9 +217,9 @@
 ## [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
 ## [Using the same Office 365 account in Business Central and in Microsoft Invoicing](about-reuse-company-invoicing.md)
 ## [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
-## [Setting Up Email](admin-how-setup-email.md)
-## [Creating Number Series](ui-create-number-series.md)
-## [Setting Up Base Calendars](across-how-to-assign-base-calendars.md)
+## [Set Up Email](admin-how-setup-email.md)
+## [Create Number Series](ui-create-number-series.md)
+## [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
 
 # General Business Functionality
 ## [Overview](ui-across-business-areas.md)
@@ -234,6 +234,7 @@
 ## [Exporting Your Business Data to Excel](about-export-data.md)
 ## [Posting Documents and Journals](ui-post-documents-journals.md)
 ## [Preview Posting Results](ui-how-preview-post-results.md)
+## [Edit Posted Documents](across-edit-posted-document.md)
 ## [Working with General Journals](ui-work-general-journals.md)
 ## [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ## [Letting Business Central Suggest Values](ui-let-system-suggest-values.md)
@@ -590,10 +591,12 @@
 ### [Overview](marketing-manage-sales-opportunities.md)
 ### [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Create Opportunities](marketing-how-create-opportunities.md)
-### [Process Sales Opportunities](marketing-processing-sales-opportunities.md)
-## [Managing Marketing Campaigns](marketing-campaigns.md)
-## Engaging with Customers through Dynamics 365 for Sales
-### [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
+### [Track Email Message Exchanges](marketing-set-up-email-logging.md)
+
+### [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)
+### [Set Up Email Logging](marketing-set-up-email-logging.md)
+## [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
+## [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
 ### [Couple and Synchronise Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [View the Status of a Synchronisation](admin-how-to-view-synchronization-status.md)
 
