@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/17/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: 77be24dce0d34c712b87649f9ced21b947c77cbe
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796925"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921345"
 ---
 # <a name="posting-purchases"></a>Posting Purchases
 In the **Posting group** on a purchase document, you can choose between the following posting functions:
@@ -43,10 +43,12 @@ You can either post, or post and print. If you choose to post and print, a repor
 
 When the posting is completed, the posted purchase lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Vendor Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **Purchase Receipts**, and **Posted Purchase Invoices** pages.
 
-## <a name="see-also"></a>See Also
+You can edit certain fields on posted purchase documents, such as the **Payment Reference** field. For more information, see [Edit Posted Documents](across-edit-posted-document.md).
 
+## <a name="see-also"></a>See Also
+[Edit Posted Documents](across-edit-posted-document.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Post Documents and Journals](ui-post-documents-journals.md)  
+[Posting Documents and Journals](ui-post-documents-journals.md)  
 [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Using Tell Me to Find Features and Information](ui-search.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

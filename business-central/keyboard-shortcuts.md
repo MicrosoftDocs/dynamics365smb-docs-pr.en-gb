@@ -1,21 +1,21 @@
 ---
 title: Keyboard Shortcuts
 description: The complete list of keyboard shortcut combinations to work efficiently with your data.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.date: 09/06/2019
+ms.author: sgroespe
+ms.openlocfilehash: e6919dd3e09fcf13bf07b051abfea90a5a35eb01
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621213"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985917"
 ---
 # <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
 This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -170,6 +170,12 @@ When setting a date field, you can either enter the date manually or open a cale
 |Esc|Close the calendar without a selection, keep current date.|
 |Page Down|Move to the next month.|
 |Page Up|Move to the previous month.|  
+
+## <a name="keyboard-shortcuts-in-date-fields"></a>Keyboard Shortcuts in Date Fields
+|Press these keys<br />(in macOS)|To do this|
+|-----------------|-------|
+|t|Enter the current date. "T" stands for "today".|
+|w|Enter the work date. For more information, see [Work Date](ui-change-basic-settings.md#work-date)|
 
 ## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Keyboard Shortcuts in the Report Preview
 

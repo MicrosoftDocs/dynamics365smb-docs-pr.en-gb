@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 6f86df1f98d3f00405380a4e2790a5bf7919a390
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 993c3b539df3a7479ed97eaf03203e3f1cceb4eb
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250188"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985794"
 ---
 # <a name="create-and-modify-a-custom-report-or-document-layout"></a>Create and Modify a Custom Report or Document Layout
 By default, a report will have a built-in report layout, which can be either an RDLC report layout or Word report layout, or both. You cannot modify built-in layouts. However, you can create your own custom layouts that enable you to change the appearance of report when it is viewed, printed or saved. You can create multiple custom report layouts for the same report, and then switch the layout that is used by a report as needed.
@@ -66,7 +66,7 @@ To modify a report layout, you must first export the report layout as a file to 
 5. In the **Import** dialogue box, select **Choose** to find and select the report layout document, and then choose **Open**.
 
 ##  <a name="MakeChangesToLayout"></a> Making changes to a Word report layout  
-To can make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
+To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
 
 If you are designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.
 

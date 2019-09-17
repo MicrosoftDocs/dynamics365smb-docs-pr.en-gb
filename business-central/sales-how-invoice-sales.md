@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 04/01/2019
+ms.date: 08/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: f80d98ee46f06a9c39928dcf6bcdb4f8bf203874
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 53f2356299bfa21efda3ec4c98dacfca68539dea
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252603"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887606"
 ---
 # <a name="invoice-sales"></a>Invoice Sales
 You create a sales invoice or sales order to record your agreement with a customer to sell certain products on certain delivery and payment terms.  
@@ -79,8 +79,11 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
     If special item prices are set up on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, the price and amount on the sales line automatically update if the price criteria is met. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
 13. Repeat steps 9 through 12 for every product or charge that you want to invoice the customer for.  
 
-    The totals under the lines are automatically calculated as you create or modify lines.  
-14. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
+    The totals fields under the lines are automatically updated as you create or modify lines to display the amounts that will be posted to the ledgers.
+
+    > [!NOTE]
+    > In very rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to VAT or sales tax.<br /><br />To check the amounts that will actually be posted, you can use the **Statistics** page, which takes into account the rounding calculations. Also, if you choose the **Release** action, the totals fields will be updated to include rounding calculations.
+14. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. VAT** field.
 
     If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
 15. When the sales invoice lines are completed, choose the **Post and Send** action.  

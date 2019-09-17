@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: b5a3b83d21390711ff0517df67bf9912ece57f6b
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 9506b64229c4d936fa25d74d71a923bdf7915e45
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629626"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917467"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synchronising Data in Business Central and Dynamics 365 for Sales
 When you integrate [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can decide whether to synchronise data in selected fields of [!INCLUDE[d365fin](includes/d365fin_md.md)] records (such as customers, contacts, and sales people) with equivalent records in [!INCLUDE[d365fin](includes/d365fin_md.md)] (such as accounts, contacts, and users). Depending on the type of record, you can synchronise data from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)], or vice versa. For more information, see [Integrating with Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -92,7 +92,7 @@ The following table describes rules that control the synchronisation between the
 |Sales Prices|Sales prices that have sales type Customer Price Group and have a sales code defined are synchronised with [!INCLUDE[crm_md](includes/crm_md.md)] price list lines|
 |Opportunities|Opportunities are synchronised with [!INCLUDE[crm_md](includes/crm_md.md)] opportunities. The Salesperson Code value defines the owner of the coupled entity in [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Posted Sales Invoices|Posted sales invoices are synchronised with sales invoices. Before an invoice can be synchronised, it is better to synchronise all other entities that can participate in the invoice, from salespersons to price lists. The Salesperson Code value in the invoice header defines the owner of the coupled entity in Sales.|
-|Sales Orders|Released sales order (headers) are synchronised with sales order. Before an order can be synchronised, it is better to synchronise all other entities that can participate in the order, from salespersons to price lists. The Salesperson Code value in the order header defines the owner of the coupled entity in Sales.|  
+|Sales Orders|When sales order integration is enabled, sales orders in [!INCLUDE[d365fin](includes/d365fin_md.md)] that are created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronised with sales orders in INCLUDE SALES when they are released. Before you synchronise orders, we recommend that you first synchronise all entities that the are involved with the order, such as sales persons and price lists. The Salesperson Code field in the order header defines the owner of the coupled entity in [!INCLUDE[crm_md](includes/crm_md.md)].|  
 
 ## <a name="see-also"></a>See Also  
 [Couple and Synchronise Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)   

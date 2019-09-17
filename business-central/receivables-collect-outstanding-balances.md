@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a39e43a430720c0453ba5bd9bccf864237b8ae6f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252764"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985893"
 ---
 # <a name="collect-outstanding-balances"></a>Collect Outstanding Balances
 Managing receivables includes checking whether amounts due are paid on time. If customers have overdue payments, you can begin by sending the Customer Statement report as a reminder. Alternatively, you can issue reminders.
@@ -179,7 +179,7 @@ Finance charges can be calculated using either the average daily balance method 
 In addition, each code in the Finance Charge Terms table is linked to a subtable, the Finance Charge Text table. For each set of finance charge terms, you can define a beginning and/or an ending text to be included on the finance charge memo.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Terms**, and then choose the related link.  
-2. Fill in the fields as necessary.  
+2. Fill in the fields as necessary.
 3. To use more than one combination of finance charge terms, set up a code for each one.
 
     For each finance charge term, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency. You can define many additional fees in foreign currencies for each code on the **Finance Charge Terms** page.

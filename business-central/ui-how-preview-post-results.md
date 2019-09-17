@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 9cb6047a5293a3134a433ea9610e31dca5943e1d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 95408ec41a2252eff5655004a34f376f466b5972
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249337"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921391"
 ---
 # <a name="preview-posting-results"></a>Preview Posting Results
 On every document and journal that can be posted, you can choose the **Preview Posting** button to review the different types of entries that will be created when you post the document or journal.
@@ -29,6 +29,6 @@ On every document and journal that can be posted, you can choose the **Preview P
    The **G/L Entries Preview** page shows which entries will be created when you post the purchase invoice.
 
 ## <a name="see-also"></a>See Also
-[Post Documents and Journals](ui-post-documents-journals.md)  
+[Posting Documents and Journals](ui-post-documents-journals.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

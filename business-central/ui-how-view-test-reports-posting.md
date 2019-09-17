@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 16ce39ef0603e65acbd161c122ed48492290de3c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2a0de959150584e56c488335688950a79430da25
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249176"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921322"
 ---
 # <a name="view-test-reports-before-posting"></a>View Test Reports Before Posting
 When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.
@@ -32,6 +32,5 @@ When you are ready to post a document, such as an order, invoice, or a credit me
 All parts of the purchase invoice are tested, and the result is presented in a report. If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.
 
 ## <a name="see-also"></a>See Also
-[Post Documents and Journals](ui-post-documents-journals.md)  
+[Posting Documents and Journals](ui-post-documents-journals.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796902"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921437"
 ---
 # <a name="posting-sales"></a>Posting Sales
-In the **Posting group** on a sales document, you can choose between the following posting functions:
+Under the **Posting** menu in a sales document, you can choose between the following posting functions:
 
 * **Post**
-* **Test Report**
+* **Post and New**
 * **Post and Send**
-* **Post and Print**
-* **Post and Email**
-* **Post Batch**
 * **Preview Posting**
+* **Draft Invoice**
+* **Pro Forma Invoice**
+* **Test Report**
 
 When you have completed all the lines and entered all the information on the sales order, you can post it. This creates a shipment and an invoice.
 
@@ -41,9 +41,11 @@ For each sales order line, an item ledger entry will be created in the **Item Le
 
 When the posting is completed, the posted sales lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Cust. Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **Posted Sales Shipments**, and **Posted Sales Invoices** pages.  
 
-## <a name="see-also"></a>See Also
+You can edit certain fields on posted sales documents, such as the **Package Tracking No.** field. For more information, see [Edit Posted Documents](across-edit-posted-document.md).
 
+## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
+[Edit Posted Documents](across-edit-posted-document.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)  
 [Using Tell Me to Find Features and Information](ui-search.md)  

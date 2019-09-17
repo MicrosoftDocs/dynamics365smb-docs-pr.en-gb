@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 716e195b4e8c5b4150d7a288918c3fb84f6ac713
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: d0f1dfd88b30a4ec2e3a9bfd3366005a93d97f82
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726866"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917375"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Using Dynamics 365 for Sales from Business Central
 If you use Dynamics 365 for Sales for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using [!INCLUDE[d365fin](includes/d365fin_md.md)] for backend activities such as processing orders, managing inventory, and doing your finances.
@@ -65,7 +65,7 @@ To check the progress of individual jobs in a full synchronisation, on the **Dyn
 From the **Microsoft Dynamics 365 Connection Setup** page, you can get details about full synchronisation at any time. From here, you can also open the **Integration Table Mappings** page to see details about the tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] and Sales that must be synchronised.
 
 ## <a name="handling-sales-order-data"></a>Handling Sales Order Data
-Sales orders that people submit in [!INCLUDE[crm_md](includes/crm_md.md)] will be transferred to [!INCLUDE[d365fin](includes/d365fin_md.md)] if you select the **Automatically Create Sales Orders** check box on the **Microsoft Dynamics 365 Connection Setup** page.
+Sales orders that people submit in [!INCLUDE[crm_md](includes/crm_md.md)] will be automatically transferred to [!INCLUDE[d365fin](includes/d365fin_md.md)] if you select the **Automatically Create Sales Orders** check box on the **Microsoft Dynamics 365 Connection Setup** page.
 Alternatively, you can manually convert submitted sales orders from [!INCLUDE[crm_md](includes/crm_md.md)] by using the **Create in [!INCLUDE[d365fin](includes/d365fin_md.md)]** action available on **Sales Orders - Dynamics 365 for Sales** page.
 On such sales orders, the **Name** field on the original order is transferred and mapped to the **External Document Number** field on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -74,6 +74,9 @@ This can also work if the original sales order contains write-in products, meani
 If the description of the item on the original sales order is long, an additional sales order line of the type **Comment** is created to hold the full text on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Updates to sales order header fields, such as Last Shipment Date or Requested Delivery Date, that are mapped in SALESORDER-ORDER **Integration table mapping** are periodically synchronised to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing a sales order and shipping or invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Introduction to activity feeds](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+
+> [!NOTE]  
+> Periodical synchronisation based on the SALESORDER-ORDER **Integration table mapping** will work only when sales order integration is enabled. For more information, see [Conned to Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Only sales orders created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronised. For more information, see [Enable Sales Order Processing Integration](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

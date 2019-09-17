@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 04/01/2019
+ms.date: 08/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 77f8db5fee4322a7ac2715375988815e8c908a6c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0dfe71ac1473b469afd4b6ae563836e3e21821b6
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252741"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887629"
 ---
 # <a name="record-purchases"></a>Record Purchases
 You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices and purchase orders are also used to dynamically update inventory levels so that you can minimise your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices or orders contribute to profit figures and other financial KPIs on your Role Centre.
@@ -62,8 +62,14 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
 
     The **Line Amount** field is updated to show the value in the **Direct Unit Cost** field multiplied by the value in the **Quantity** field.
 
-    The price and line amount are shown with or without sales tax depending on what you selected in the **Prices Including Tax** field on the vendor card.
-12. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field at the bottom of the invoice.
+    The price and line amount are shown with or without sales tax depending on what you selected in the **Prices Including VAT** field on the vendor card.
+
+    The totals fields under the lines are automatically updated as you create or modify lines to display the amounts that will be posted to the ledgers.
+
+    > [!NOTE]
+    > In very rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to VAT or sales tax.<br /><br />To check the amounts that will actually be posted, you can use the **Statistics** page, which takes into account the rounding calculations. Also, if you choose the **Release** action, the totals fields will be updated to include rounding calculations.
+
+12. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. VAT** field at the bottom of the invoice.
 
     > [!NOTE]  
     >   If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Invoice Discount Amount** field.

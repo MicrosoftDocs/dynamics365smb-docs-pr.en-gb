@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 688c448f920a032a0f137bab7abdb9de51af1f96
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1dd1877540a536d95c8ea1613a23d2bd40e9c990
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246181"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970954"
 ---
 # <a name="design-details-table-structure"></a>Design Details: Table Structure
 To understand how dimension entries are stored and posted, it is important to understand the table structure.  
@@ -187,5 +187,4 @@ Field 480 exists in the following buffer tables.
  [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
  [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)   
  [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   
- [Design Details: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)   
- [Design Details: Code Examples of Changed Patterns in Modifications](design-details-code-examples-of-changed-patterns-in-modifications.md)
+ 

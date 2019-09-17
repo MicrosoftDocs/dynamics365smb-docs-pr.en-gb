@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
+ms.date: 08/16/2019
 ms.author: jswymer
-ms.openlocfilehash: 37cdf2d7dcc46b1286cbb7a5ad620547e364309e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250602"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887744"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Managing Personalisation as an Administrator
 
@@ -70,7 +70,10 @@ You can prevent all users that belong to a specific profile from being able to p
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles**, and then choose the related link.
 2. Select the profile in the list that you want to modify.
-3. Select the **Disable personalisation** check box, and then choose the **OK** button.
+3. Select the **Disable personalisation** cheque box, and then choose the **OK** button.
+
+> [!NOTE]  
+> In Business Central online, you can only disable personalisation for a tenant profile, not for system profiles. 
 
 ## <a name="to-clear-user-personalizations"></a>To clear user personalisations
 

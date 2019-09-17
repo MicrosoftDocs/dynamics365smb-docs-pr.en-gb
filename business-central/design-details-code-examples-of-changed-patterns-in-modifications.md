@@ -13,12 +13,12 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: 5bb5e5713ed23877006ebb913e01416feac69266
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 59fce0a432c7f433552cff21ef304fa16fa85a8a
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243441"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970908"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Design Details: Code Examples of Changed Patterns in Modifications
 This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios. It compares the code examples in earlier versions to the code examples in Business Central.
@@ -197,4 +197,3 @@ GetSalesHeader;
 ## <a name="see-also"></a>See Also  
 [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
 [Design Details: Table Structure](design-details-table-structure.md)   
-[Design Details: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)

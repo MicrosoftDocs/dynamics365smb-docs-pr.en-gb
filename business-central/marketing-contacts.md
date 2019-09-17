@@ -10,19 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 407470afdca7a4e8b0e3cb2d2095903353e5d5b9
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: a0db1779172a9b2822ad4898e9dbf82e68b58622
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446952"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985746"
 ---
 # <a name="managing-contacts"></a>Managing Contacts
-Different groups at your company will have business relationships with various companies. For example, a salesperson might regularly meet prospective customers and at the end of the week record the results of these visits.
-
-All of the external entities that you have business relationships with (for example, customers, prospective customers, vendors, lawyers, and consultants) should be recorded as contacts. Having this data recorded in one central location ensures every group in your company can view and use the information efficiently. Communication with your contacts will be more successful if all details are readily available. For example, a marketing person might like to know what other products a specific customer has purchased before attempting to interest them in a new product.
+Employees in your company regularly meet prospective business relations that may develop into formal relationships. All such external contacts and their detailed information should be recorded in the system so that communication is more successful and so they can easily be converted to formal customer, vendor, or bank relationships.
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
