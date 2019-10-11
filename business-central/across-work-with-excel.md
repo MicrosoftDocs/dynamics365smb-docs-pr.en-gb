@@ -8,43 +8,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 68139f258595bcca2658e394a4251e30dfbe6510
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2474f83fd9fa137b40756a3d07ac025208f3ac6c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240218"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308267"
 ---
-# <a name="viewing-and-editing-in-excel-from-business-central"></a><span data-ttu-id="a0b6c-103">Viewing and Editing in Excel From Business Central</span><span class="sxs-lookup"><span data-stu-id="a0b6c-103">Viewing and Editing in Excel From Business Central</span></span> 
+# <a name="viewing-and-editing-in-excel-from-business-central"></a><span data-ttu-id="1b548-103">Viewing and Editing in Excel From Business Central</span><span class="sxs-lookup"><span data-stu-id="1b548-103">Viewing and Editing in Excel From Business Central</span></span> 
 
-<span data-ttu-id="a0b6c-104">With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can also view the records using Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="a0b6c-104">With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can also view the records using Microsoft Excel.</span></span> <span data-ttu-id="a0b6c-105">To do this, you have two options.</span><span class="sxs-lookup"><span data-stu-id="a0b6c-105">To do this, you have two options.</span></span> <span data-ttu-id="a0b6c-106">You can either select the **Open in Excel** action or the **Edit in Excel** action on the page.</span><span class="sxs-lookup"><span data-stu-id="a0b6c-106">You can either select the **Open in Excel** action or the **Edit in Excel** action on the page.</span></span> <span data-ttu-id="a0b6c-107">The differences between the two actions is as follows:</span><span class="sxs-lookup"><span data-stu-id="a0b6c-107">The differences between the two actions is as follows:</span></span>  
+<span data-ttu-id="1b548-104">With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can also view the records using Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="1b548-104">With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can also view the records using Microsoft Excel.</span></span> <span data-ttu-id="1b548-105">To do this, you have two options.</span><span class="sxs-lookup"><span data-stu-id="1b548-105">To do this, you have two options.</span></span> <span data-ttu-id="1b548-106">You can either select the **Open in Excel** action or the **Edit in Excel** action on the page.</span><span class="sxs-lookup"><span data-stu-id="1b548-106">You can either select the **Open in Excel** action or the **Edit in Excel** action on the page.</span></span> <span data-ttu-id="1b548-107">The differences between the two actions is as follows:</span><span class="sxs-lookup"><span data-stu-id="1b548-107">The differences between the two actions is as follows:</span></span>  
 
-## <a name="open-in-excel"></a><span data-ttu-id="a0b6c-108">Open in Excel</span><span class="sxs-lookup"><span data-stu-id="a0b6c-108">Open in Excel</span></span>
+## <a name="open-in-excel"></a><span data-ttu-id="1b548-108">Open in Excel</span><span class="sxs-lookup"><span data-stu-id="1b548-108">Open in Excel</span></span>
 
--    <span data-ttu-id="a0b6c-109">With this action, Excel respects any filters on the page the limit the records shown.</span><span class="sxs-lookup"><span data-stu-id="a0b6c-109">With this action, Excel respects any filters on the page the limit the records shown.</span></span> <span data-ttu-id="a0b6c-110">This means that the Excel workbook will contain the same rows and columns that appear on the the page in [!INCLUDE[prodshort](includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="a0b6c-110">This means that the Excel workbook will contain the same rows and columns that appear on the the page in [!INCLUDE[prodshort](includes/prodshort.md)].</span></span>
+-    <span data-ttu-id="1b548-109">With this action, Excel respects any filters on the page the limit the records shown.</span><span class="sxs-lookup"><span data-stu-id="1b548-109">With this action, Excel respects any filters on the page the limit the records shown.</span></span> <span data-ttu-id="1b548-110">This means that the Excel workbook will contain the same rows and columns that appear on the the page in [!INCLUDE[prodshort](includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="1b548-110">This means that the Excel workbook will contain the same rows and columns that appear on the the page in [!INCLUDE[prodshort](includes/prodshort.md)].</span></span>
 
--    <span data-ttu-id="a0b6c-111">You can make changes to the records in Excel, but you cannot publish the changes back to [!INCLUDE[prodshort](includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="a0b6c-111">You can make changes to the records in Excel, but you cannot publish the changes back to [!INCLUDE[prodshort](includes/prodshort.md)].</span></span> <span data-ttu-id="a0b6c-112">You can only save the changes to Excel file on your computer.</span><span class="sxs-lookup"><span data-stu-id="a0b6c-112">You can only save the changes to Excel file on your computer.</span></span> 
+-    <span data-ttu-id="1b548-111">You can make changes to the records in Excel, but you cannot publish the changes back to [!INCLUDE[prodshort](includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="1b548-111">You can make changes to the records in Excel, but you cannot publish the changes back to [!INCLUDE[prodshort](includes/prodshort.md)].</span></span> <span data-ttu-id="1b548-112">You can only save the changes to Excel file on your computer.</span><span class="sxs-lookup"><span data-stu-id="1b548-112">You can only save the changes to Excel file on your computer.</span></span> 
 
--    <span data-ttu-id="a0b6c-113">This action works on both on Windows and macOS.</span><span class="sxs-lookup"><span data-stu-id="a0b6c-113">This action works on both on Windows and macOS.</span></span> 
-
->[!NOTE]
-><span data-ttu-id="a0b6c-114">For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Open in Excel** action is not available if the **Edit in Excel** action is.</span><span class="sxs-lookup"><span data-stu-id="a0b6c-114">For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Open in Excel** action is not available if the **Edit in Excel** action is.</span></span>
-
-## <a name="edit-in-excel"></a><span data-ttu-id="a0b6c-115">Edit in Excel</span><span class="sxs-lookup"><span data-stu-id="a0b6c-115">Edit in Excel</span></span>
-
--    <span data-ttu-id="a0b6c-116">With this action, the Excel workbook does not respect filters on the page the limit the records shown.</span><span class="sxs-lookup"><span data-stu-id="a0b6c-116">With this action, the Excel workbook does not respect filters on the page the limit the records shown.</span></span> <span data-ttu-id="a0b6c-117">This means that the Excel workbook will contain all the available records and columns, regardless of what is shown on the page.</span><span class="sxs-lookup"><span data-stu-id="a0b6c-117">This means that the Excel workbook will contain all the available records and columns, regardless of what is shown on the page.</span></span> 
-
--    <span data-ttu-id="a0b6c-118">The advantage of the **Edit in Excel** action is that it lets you make changes to records in Excel and then publish the changes back to [!INCLUDE[prodshort](includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="a0b6c-118">The advantage of the **Edit in Excel** action is that it lets you make changes to records in Excel and then publish the changes back to [!INCLUDE[prodshort](includes/prodshort.md)].</span></span>
-
--    <span data-ttu-id="a0b6c-119">It only works on Windows; not macOS.</span><span class="sxs-lookup"><span data-stu-id="a0b6c-119">It only works on Windows; not macOS.</span></span>
+-    <span data-ttu-id="1b548-113">This action works on both on Windows and macOS.</span><span class="sxs-lookup"><span data-stu-id="1b548-113">This action works on both on Windows and macOS.</span></span> 
 
 >[!NOTE]
-><span data-ttu-id="a0b6c-120">For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Edit in Excel** action is only available if the Excel add-in has been installed by your administrator.</span><span class="sxs-lookup"><span data-stu-id="a0b6c-120">For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Edit in Excel** action is only available if the Excel add-in has been installed by your administrator.</span></span> <span data-ttu-id="a0b6c-121">For administrators, if you want to learn how to install the excel add-in, see [Setting up the Excel Add-In](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).</span><span class="sxs-lookup"><span data-stu-id="a0b6c-121">For administrators, if you want to learn how to install the excel add-in, see [Setting up the Excel Add-In](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).</span></span>
+><span data-ttu-id="1b548-114">For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Open in Excel** action is not available if the **Edit in Excel** action is.</span><span class="sxs-lookup"><span data-stu-id="1b548-114">For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Open in Excel** action is not available if the **Edit in Excel** action is.</span></span>
 
-### <a name="see-the-differences-between-the-options"></a><span data-ttu-id="a0b6c-122">See the differences between the options</span><span class="sxs-lookup"><span data-stu-id="a0b6c-122">See the differences between the options</span></span> 
+## <a name="edit-in-excel"></a><span data-ttu-id="1b548-115">Edit in Excel</span><span class="sxs-lookup"><span data-stu-id="1b548-115">Edit in Excel</span></span>
+
+-    <span data-ttu-id="1b548-116">With this action, the Excel workbook does not respect filters on the page the limit the records shown.</span><span class="sxs-lookup"><span data-stu-id="1b548-116">With this action, the Excel workbook does not respect filters on the page the limit the records shown.</span></span> <span data-ttu-id="1b548-117">This means that the Excel workbook will contain all the available records and columns, regardless of what is shown on the page.</span><span class="sxs-lookup"><span data-stu-id="1b548-117">This means that the Excel workbook will contain all the available records and columns, regardless of what is shown on the page.</span></span> 
+
+-    <span data-ttu-id="1b548-118">The advantage of the **Edit in Excel** action is that it lets you make changes to records in Excel and then publish the changes back to [!INCLUDE[prodshort](includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="1b548-118">The advantage of the **Edit in Excel** action is that it lets you make changes to records in Excel and then publish the changes back to [!INCLUDE[prodshort](includes/prodshort.md)].</span></span>
+
+-    <span data-ttu-id="1b548-119">It only works on Windows; not macOS.</span><span class="sxs-lookup"><span data-stu-id="1b548-119">It only works on Windows; not macOS.</span></span>
+
+>[!NOTE]
+><span data-ttu-id="1b548-120">For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Edit in Excel** action is only available if the Excel add-in has been installed by your administrator.</span><span class="sxs-lookup"><span data-stu-id="1b548-120">For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Edit in Excel** action is only available if the Excel add-in has been installed by your administrator.</span></span> <span data-ttu-id="1b548-121">For administrators, if you want to learn how to install the excel add-in, see [Setting up the Excel Add-In](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).</span><span class="sxs-lookup"><span data-stu-id="1b548-121">For administrators, if you want to learn how to install the excel add-in, see [Setting up the Excel Add-In](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).</span></span>
+
+### <a name="see-the-differences-between-the-options"></a><span data-ttu-id="1b548-122">See the differences between the options</span><span class="sxs-lookup"><span data-stu-id="1b548-122">See the differences between the options</span></span> 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-## <a name="see-also"></a><span data-ttu-id="a0b6c-123">See Also</span><span class="sxs-lookup"><span data-stu-id="a0b6c-123">See Also</span></span>
-[<span data-ttu-id="a0b6c-124">Working with Business Central</span><span class="sxs-lookup"><span data-stu-id="a0b6c-124">Working with Business Central</span></span>](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="1b548-123">See Also</span><span class="sxs-lookup"><span data-stu-id="1b548-123">See Also</span></span>
+[<span data-ttu-id="1b548-124">Working with Business Central</span><span class="sxs-lookup"><span data-stu-id="1b548-124">Working with Business Central</span></span>](ui-work-product.md)  

@@ -18,35 +18,39 @@
 
 # Working with Business Central
 ## [Overview](ui-work-product.md)
-## [Finding Features and Information](ui-search.md)
+## [Finding Pages and Information with Tell Me](ui-search.md)
+## [Finding Pages from a Feature Overview](ui-role-explorer.md)
 ## [Tell Me FAQ](ui-search-faq.md)
-## [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)
+## [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
 ## [Searching and Filtering FAQ](ui-search-filter-faq.md)
 ## [Entering Data](ui-enter-data.md)
+## [Copy and Paste FAQ](ui-copy-paste.md)
 ## [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
-## [Copying and Pasting](ui-copy-paste.md)
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
 ## [Changing Language and Locale](about-locale-language.md)
 ## [Viewing and Editing in Excel](across-work-with-excel.md)  
-## [Managing Notifications](ui-smart-notifications.md)
-## [Changing Basic Settings](ui-change-basic-settings.md)
+## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
+## [Change Basic Settings](ui-change-basic-settings.md)
+## [Manage Notifications](ui-smart-notifications.md)
 ## Personalising Business Central
-### [Personalising Your Workspace](ui-personalization-user.md)
+### [Personalise Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked from Personalising](ui-personalization-locked.md)
+### [Save and Personalise List Views](ui-views.md)
+### [Add a page action to your Role Centre](ui-bookmarks.md)
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
-## Printing Reports and Running Batch Jobs
-### [Working with Reports and Batch Jobs](ui-work-report.md)
+## Printing Reports and Running Batch Jobs and XMLports
+### [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)
 ### [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)
-### [Schedule a Report or Batch Job to Run](ui-work-report.md#ScheduleReport)
-### [Managing Saved Settings on Reports](reports-saving-reusing-settings.md)
+### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
+### [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md)
 ### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
-### [Run Batch Jobs](ui-how-run-batch-jobs.md)
-## Changing how Documents Look
+### [Run Batch Jobs and XML ports](ui-how-run-batch-jobs.md)
+## Changing how Externally-Facing Documents and Reports Look
 ### [Managing Report and Document Layouts](ui-manage-report-layouts.md)
 ### [Updating Report or Document Layouts](ui-update-report-layouts.md)
 ### [Making Changes to a Word Report Layout](ui-how-create-custom-report-layout.md)
 ### [Import and Export a Report or Document Layout](ui-how-import-and-export-report-layout.md)
-### [Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)
+### [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)
 ### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
 ## Using Keyboard Shortcuts
 ### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
@@ -229,10 +233,9 @@
 ## [Archive Documents](across-how-to-archive-documents.md)
 ## [Add Extended Item Text](ui-how-define-ext-text.md)
 ## [Define User Tasks](across-user-tasks.md)
-## [Add Links to Websites, Documents, or Programmes on Records](ui-how-add-link-to-record.md)
-## [Attaching Files to Cards and Documents](across-attach-document-master-data.md)
 ## [Exporting Your Business Data to Excel](about-export-data.md)
 ## [Posting Documents and Journals](ui-post-documents-journals.md)
+## [Post Multiple Documents at the Same Time](ui-batch-posting.md)
 ## [Preview Posting Results](ui-how-preview-post-results.md)
 ## [Edit Posted Documents](across-edit-posted-document.md)
 ## [Working with General Journals](ui-work-general-journals.md)
@@ -304,8 +307,8 @@
 
 # Administration
 ## [Overview](admin-setup-and-administration.md)
-## [Understanding Users, Roles, and Profiles](admin-users-profiles-roles.md)
-## [Managing Users and Permissions](ui-how-users-permissions.md)
+## [Manage Users and Permissions](ui-how-users-permissions.md)
+## [Manage Profiles](admin-users-profiles-roles.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ## [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
 ## [Creating New Companies](about-new-company.md)
@@ -318,20 +321,14 @@
 ## [Extending Your Trial Version](admin-extend-trial.md)
 ## [Inspecting Pages](across-inspect-page.md)
 ## [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
-## Integrating with Dynamics 365 for Sales
-### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Setting Up User Accounts for Integrating with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Set Up a Dynamics 365 for Sales Connection](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synchronising Business Central and Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
-### [Modify Table Mappings for Synchronisation](admin-how-to-modify-table-mappings-for-synchronization.md)
-### [Manually Synchronise Table Mappings](admin-manual-synchronization-of-table-mappings.md)
-### [Schedule a Synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-### [Troubleshooting Synchronisation Errors](admin-troubleshoot-sales-synchronization.md)
 ## Customising Business Central
 ### [Overview](ui-customizing-overview.md)
-### Customising Using Extensions
+### [Customise Pages for Profiles](ui-personalization-manage.md)
+### [Change Which Features are Displayed](ui-experiences.md)
+### [Set Up a Coloured Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
+### Customise Using Extensions
 #### [Overview](ui-extensions.md)
-#### [Customising Using Extensions](ui-extensions.md)
+#### [Customise Using Extensions](ui-extensions.md)
 #### [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
@@ -354,9 +351,15 @@
 #### [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
-### [Changing Which Features are Displayed](ui-experiences.md)
-### [Managing Personalisation as an Administrator](ui-personalization-manage.md)
-### [Setting Up a Coloured Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
+## Integrating with Dynamics 365 Sales
+### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Set Up a Dynamics 365 Sales Connection](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synchronising Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+### [Modify Table Mappings for Synchronisation](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Manually Synchronise Table Mappings](admin-manual-synchronization-of-table-mappings.md)
+### [Schedule a Synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Troubleshooting Synchronisation Errors](admin-troubleshoot-sales-synchronization.md)
 
 # Finance
 ## [Overview](finance.md)
@@ -470,7 +473,7 @@
 ## [Working with Dimensions](finance-dimensions.md)
 ## [Create G/L Budgets](finance-how-create-budgets.md)
 ## [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
-## [Reverse Postings](finance-how-reverse-journal-posting.md)
+## [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)
 ## [Allocate Costs and Income](year-allocate-costs-income.md)
 ## [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ## [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)
@@ -592,8 +595,7 @@
 ### [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Create Opportunities](marketing-how-create-opportunities.md)
 ### [Track Email Message Exchanges](marketing-set-up-email-logging.md)
-
-### [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)
+### [Process Sales Opportunities](marketing-processing-sales-opportunities.md)
 ### [Set Up Email Logging](marketing-set-up-email-logging.md)
 ## [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
 ## [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
@@ -839,7 +841,6 @@
 #### [Print Test Reports for Delivery Reminders](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### General
 #### [Print General Ledger Setup Information](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
-#### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Belgium
 ### [Overview](LocalFunctionality/Belgium/belgium-local-functionality.md)
@@ -1022,7 +1023,6 @@
 #### [Currency Exchange Rates](LocalFunctionality/Germany/currency-exchange-rates.md)
 #### [EU Sales List in Germany](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 #### [Include Company Registration Numbers on Sales Reports and Purchase Reports](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
-#### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Print General Ledger Setup Information](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
 #### [Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)
 
@@ -1074,12 +1074,11 @@
 #### [Set Up Company Information](LocalFunctionality/Italy/how-to-set-up-company-information.md)
 #### [Italian Subcontracting](LocalFunctionality/Italy/italian-subcontracting.md)
 #### [Set Up Journal Templates and Batches](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
-#### [Report Trade with Customers and Vendors in Blacklist Countries and Regions](LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)  
 
 ## Mexico
 ### [Overview](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### Tax
-#### [Mexico VAT](LocalFunctionality/Mexico/mexico-sales-tax.md)  
+#### [Mexico Sales Tax](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Set Up Use Tax and Purchase Tax](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Set Up Unrealised VAT and Sales Payment Discounts](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
 #### [Reporting Sales Tax in Mexico](LocalFunctionality/Mexico/mexico-sales-tax.md)
@@ -1168,6 +1167,7 @@
 ## Norway
 ### [Overview](LocalFunctionality/Norway/norway-local-functionality.md)
 ### VAT
+#### [Norwegian Standard Audit File - Tax (SAF-T) Management](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 #### [Norwegian VAT Reporting](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 #### [Norwegian VAT Codes](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 #### [How to Use One VAT Code in Journals](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
@@ -1378,7 +1378,6 @@
 ### General    
 #### [Import Swiss Postcodes](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Swiss Purchase Documents and Sales Orders](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
-#### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## United Kingdom
 ### [Overview](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
