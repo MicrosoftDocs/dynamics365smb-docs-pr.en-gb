@@ -1,6 +1,6 @@
 ---
 title: Couple and Synchronise Records Manually| Microsoft Docs
-description: Synchronising an integration table mapping enables data syncing in all records in a table in Business Central and Dynamics 365 for Sales entity that are coupled.
+description: Synchronising an integration table mapping enables data syncing in all records in a table in Business Central and Dynamics 365 Sales entity that are coupled.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 6d1248ac77208e382c5594af57335df6ff824630
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 0c70b1ba34af32b7cf542149c8f15cb191761358
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726774"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308123"
 ---
 # <a name="couple-and-synchronize-records-manually"></a>Couple and Synchronise Records Manually
 This topic describes how to couple one or more records in [!INCLUDE[d365fin](includes/d365fin_md.md)] with records in [!INCLUDE[crm_md](includes/crm_md.md)]. Coupling records lets you view [!INCLUDE[crm_md](includes/crm_md.md)] information from [!INCLUDE[d365fin](includes/d365fin_md.md)], and vice versa. The coupling also enables you to synchronise data between the records. You can couple existing records, or create and couple new records.
@@ -46,4 +46,4 @@ This topic describes how to couple one or more records in [!INCLUDE[d365fin](inc
 3.  If records can be synchronised either from [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)] or from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)], select the option that specifies the direction of data update, and then choose **OK**.  
 
 ## <a name="see-also"></a>See Also  
-[Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
+[Using Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md)

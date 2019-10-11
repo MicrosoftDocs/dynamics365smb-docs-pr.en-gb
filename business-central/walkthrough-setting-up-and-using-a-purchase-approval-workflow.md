@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dfd2a97c6c41ac43bbe4d33792774f929a68d7f6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ca97d08166b73f75240203aa9949e4b0aa774ea6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247969"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310523"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Walkthrough: Setting Up and Using a Purchase Approval Workflow
 You can automate the process of approving new or changed records, such as documents, journal lines, and customer cards, by creating workflows with steps for the approvals in question. Before you create approval workflows, you must set up an approver and substitute approver for each approval user. You can also set approvers’ amount limits to define which sales and purchase records they are qualified to approve. Approval requests and other notifications can be sent as email or internal note. For each approval user setup, you can also set up when they receive notifications.
@@ -45,7 +45,7 @@ Sean is a super user at CRONUS. He creates two approval users. One is Alicia who
 To test the approval workflow, Sean first logs into [!INCLUDE[d365fin](includes/d365fin_md.md)] as Alicia, and then requests approval of a purchase order. Sean then logs in as himself, sees the note on his Role Centre, follows the link to the approval request for the purchase order, and approves the request.  
 
 ## <a name="setting-up-sample-data"></a>Setting Up Sample Data
-Before you can set up approval users and their notification method, you must make sure that two users exist in [!INCLUDE[d365fin](includes/d365fin_md.md)]: One user will represent Alicia. The other user, yourself, will represent Sean. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).
+Before you can set up approval users and their notification method, you must make sure that two users exist in [!INCLUDE[d365fin](includes/d365fin_md.md)]: One user will represent Alicia. The other user, yourself, will represent Sean. For more information, see [Manage Users and Permissions](ui-how-users-permissions.md).
 
 ### <a name="setting-up-approval-users"></a>Setting Up Approval Users  
 When logged in as yourself, set Alicia up as an approval user whose approver is yourself. Set up your approval rights and specify how and when you are notified of approval requests.  

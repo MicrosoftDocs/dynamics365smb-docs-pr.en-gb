@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4d7d9ad0e9c84d5c767095b7b7e786be932625e7
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: 8a3bda8a7f4f953265e4191ac65b052e5af80157
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796695"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305507"
 ---
 # <a name="archive-documents"></a>Archive Documents
 You can archive sales and purchase orders, quotes, return orders, and blanket orders, for example because you want to save a copy of a document for reuse later. You can archive a sales or purchase document several times, saving a different archived version each time.

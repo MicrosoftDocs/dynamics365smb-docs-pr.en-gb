@@ -4,20 +4,20 @@ description: Learn about the reports that you can use to report VAT information.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0061d01e1513c0b20238f08adb50b66af695c2ce
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5d5430e581d2ad6ae7a0725cba897d56154318ad
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245401"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300953"
 ---
 # <a name="print-vat-reports"></a>Print VAT Reports
 You can use the following reports for VAT reporting:  

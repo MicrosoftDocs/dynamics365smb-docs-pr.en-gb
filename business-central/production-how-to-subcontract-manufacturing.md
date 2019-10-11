@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dac30e8c48e37464bc503fcc1d2961cc5721868
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 020fde81b868a2aba65ae5d5acae2047a007eaa5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253017"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313067"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontract Manufacturing
 Subcontracting selected operations to vendor is common in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.
 
-The program provides several tools for managing subcontract work:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides several tools for managing subcontract work:  
 
 - Work Centres with assigned vendor: This feature enables you to set up a work centre that is associated with a vendor (subcontractor). This is called a subcontract work centre. You can specify a subcontract work centre on a routing operation, which allows you to easily process the subcontracted activity. In addition, the cost of the operation can be designated at the routing or the work centre level.  
-- Work Centre cost based on units or time: This feature enables you to specify whether costs associated with the work centre are based on the production time or a flat charge per unit. Although subcontractors commonly use a flat charge per unit to charge for their services, the program can handle both options (production time and flat charge per unit).  
-- Subcontracting Worksheet: This feature allows you to find the production orders with material ready to send to a subcontractor and to automatically create purchase orders for subcontract operations from production order routings. Then the program automatically posts the purchase order charges to the production order during the posting of the purchase order. Only production orders with a status of released can be accessed and used from a subcontracting worksheet.  
+- Work Centre cost based on units or time: This feature enables you to specify whether costs associated with the work centre are based on the production time or a flat charge per unit. Although subcontractors commonly use a flat charge per unit to charge for their services, the application can handle both options (production time and flat charge per unit).  
+- Subcontracting Worksheet: This feature allows you to find the production orders with material ready to send to a subcontractor and to automatically create purchase orders for subcontract operations from production order routings. The application automatically posts the purchase order charges to the production order during the posting of the purchase order. Only production orders with a status of released can be accessed and used from a subcontracting worksheet.  
 
 ## <a name="subcontract-work-centers"></a>Subcontract Work Centres  
 Subcontract Work Centres are set up the same as regular work centres with additional information. They are assigned to routings in the same manner as other work centres.  

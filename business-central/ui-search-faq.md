@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248026"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310763"
 ---
 # <a name="tell-me-faq"></a>Tell Me FAQ
-This topic answers questions that our advanced users often ask about the new Tell Me feature, which has replaced the previous Page Search feature known as **Find Pages and Reports**.
+This topic answers questions that our advanced users often ask about the Tell Me feature.
 
 ### <a name="are-all-actions-from-my-current-page-discoverable-in-tell-me"></a>Are all actions from my current page discoverable in Tell Me?
 No. Actions in parts, such as the Sales Lines part or FactBoxes, are not displayed in Tell Me.
@@ -32,8 +32,8 @@ Actions, pages, and reports that originate from extensions are picked up by Tell
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>What makes this different from what was previously known as Page Search?
 Page Search has evolved into Tell Me to help you get work done quickly. Page Search could only help you navigate to pages or reports. At a technical level, Tell Me is no longer based on the legacy MenuSuite concept.
 
-### <a name="i-use-on-premises-included365finincludesd365finmdmd-does-that-include-tell-me"></a>I use on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Does that include Tell Me?
-You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not documentation, or apps and consulting services on AppSource. Users connecting to [!INCLUDE[d365fin](includes/d365fin_md.md)] from the Dynamics NAV client continue to use Page Search.
+### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>I use on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Does that include Tell Me?
+You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not documentation, or apps and consulting services on AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Is Tell Me available for all form factors?
 Tell Me is only available in the Web Client or Windows desktop app.
@@ -41,5 +41,14 @@ Tell Me is only available in the Web Client or Windows desktop app.
 ### <a name="are-the-documentation-results-available-in-any-language"></a>Are the documentation results available in any language?
 The help articles display in the language you have specified in **My Settings**, if help is available in that language.
 
+### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Why don't I see a bookmark icon for my search results?
+The bookmark icon is not displayed in the Tell Me window when personalisation is disabled for a user role.
+
+### <a name="is-the-bookmark-icon-available-for-reports"></a>Is the bookmark icon available for reports?
+No. You can only bookmark a link to a page or any search results that are displayed in the **Pages and Tasks** section of the Tell Me window.
+
+
 ## <a name="see-also"></a>See Also  
-[Finding Features and Information](ui-search.md)
+[Save and Personalise List Views](ui-views.md)  
+[Finding Pages and Information with Tell Me](ui-search.md)  
+[Finding Pages from a Feature Overview](ui-role-explorer.md)

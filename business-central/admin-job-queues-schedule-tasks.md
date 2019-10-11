@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 1cf5b75bc63acfa07a90cda1d03f45579a0aa51d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 21e3defe178a3619df58d712c86935515e303692
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247260"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308411"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Use Job Queues to Schedule Tasks
 Job queues in [!INCLUDE[d365fin](includes/d365fin_md.md)] enables users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson - Sales Statistics** report weekly, to track sales by salesperson each week, or you might want to run the **Process Service E-mail Queue** codeunit daily, to make sure pending email messages to customers regarding their service orders are sent out in a timely manner.
@@ -93,7 +93,7 @@ Data that is generated when a job queue is run is stored in the database, so tha
 2. Review the error message and fix the problem.
 
 ## <a name="the-my-job-queue-part"></a>The My Job Queue Part
-The **My Job Queue** part on your Role Centre shows the job queues entries that you have started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Centre. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
+The **My Job Queue** part on your Role Centre shows the job queues entries that you have started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Centre. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
 The part shows which documents with your ID in the **Assigned User ID** field are being processed or are queued, including those related to background posting. The part can tell you at a glance whether there has been an error in the posting of a document or if there are errors in a job queue entry. The part also lets you cancel a document posting if it is not running.
 
@@ -115,4 +115,4 @@ The job queue entry record has many fields whose purpose is to carry parameters 
 ## <a name="see-also"></a>See Also  
 [Administration](admin-setup-and-administration.md)  
 [Setting Up Business Central](setup.md)  
-[Changing Basic Settings](ui-change-basic-settings.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  

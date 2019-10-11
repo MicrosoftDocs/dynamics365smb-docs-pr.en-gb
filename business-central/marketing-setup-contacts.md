@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8a3cce098b254111b219f94baf1c507d6edbcd23
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242293"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308723"
 ---
 # <a name="set-up-contacts"></a>Set Up Contacts
 When creating contacts, you can enter specific information, such as the industry that the contact belong to and your business relationship with the contacts.
@@ -142,9 +142,9 @@ When you modify one of these fields on the contact company card, the same fields
 For more information, see [Create Contacts](marketing-create-contact-companies.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Using Predefined Defaults on New Contacts
-You can decide that the application automatically assigns a specific language code, territory code, salesperson code, and country/region code as defaults to each new contact you create. You can also enter a default sales cycle code that the programme automatically assigns to each new opportunity you create. You set this up on the On the **Defaults** FastTab on the **Marketing Setup** page
+You can decide that the application automatically assigns a specific language code, territory code, salesperson code, and country/region code as defaults to each new contact you create. You can also enter a default sales cycle code that application automatically assigns to each new opportunity you create. You set this up on the On the **Defaults** FastTab on the **Marketing Setup** page
 
-The inheritance of fields overwrites the default values you have set up. For example, if you have set up English as the default language, but the contact company's language is German, the programme will automatically assign German as the language code for the contact persons recorded for that company.
+The inheritance of fields overwrites the default values you have set up. For example, if you have set up English as the default language, but the contact company's language is German, application will automatically assign German as the language code for the contact persons recorded for that company.
 
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synchronising Contacts with Customers, Vendors, and Bank Accounts
 In order to synchronise the contact card with a linked customer, vendor, or bank account card, you must fill in the relevant field in the **Bus. Relation Code for** section on the **Interactions** FastTab on the **Marketing Setup** page.  
@@ -152,7 +152,7 @@ In order to synchronise the contact card with a linked customer, vendor, or bank
 For more information, see [Synchronising contacts with customers, vendors, and bank accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Searching for Duplicate Contacts
-You can choose to have the program automatically search for duplicates each time you create a contacts, or you can choose to search manually after you have created contacts. You can also choose to have the program update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for the programme to consider them as duplicates. You set this up on the **Duplicates** FastTab on the **Marketing Setup** page.
+You can choose to have application automatically search for duplicates each time you create a contacts, or you can choose to search manually after you have created contacts. You can also choose to have application update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for application to consider them as duplicates. You set this up on the **Duplicates** FastTab on the **Marketing Setup** page.
 
 When you have found a duplicate contact, you can use the **Merge Duplicate** page to merge it into an existing contact record that you want to keep. For more information, see [Merge Duplicate Records](sales-how-merge-duplicate-records.md).
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446975"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301547"
 ---
 # <a name="finance"></a>Finance
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
@@ -40,7 +40,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Add dimensions for richer business intelligence. |[Working with Dimensions](finance-dimensions.md) |
 | Create G/L budgets to forecast different financial activities and assign dimensions for business intelligence purposes. |[Create G/L Budgets](finance-how-create-budgets.md) |
 |Record income or expenses directly in the general ledger without posting dedicated business documents.|[Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)|
-|Post reversing entries to undo value postings in the general journal or quantity postings on purchase and sales documents. |[Reverse Postings](finance-how-reverse-journal-posting.md)|
+|Post reversing entries to undo value postings in the general journal or quantity postings on purchase and sales documents. |[Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)|
 |Allocate an entry in a general journal to several different accounts when you post the journal. |[Allocate Costs and Income](year-allocate-costs-income.md) |
 | Assign extra costs, such as freight and physical handling that you incur during trade, to the involved items so that the cost is reflected in inventory valuation. |[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md) |
 |Post employees' personal expenses for business-related activities and reimburse employees by making payment to their bank account.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|

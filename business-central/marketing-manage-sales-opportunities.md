@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 3a719e7b2d44a6cf67335b938a0899a52fcde41b
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 254b33c666189e20e9cc891d04a80e9c6a07db0a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446837"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308867"
 ---
 # <a name="managing-sales-opportunities"></a>Managing Sales Opportunities
 Any incoming lead can be considered a sales opportunity. You can create opportunities and associate them to a salesperson so that you can keep track of potential sales.

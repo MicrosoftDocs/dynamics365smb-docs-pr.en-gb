@@ -2,30 +2,30 @@
 title: Choosing the User Experience to Show or Hide Advanced Features | Microsoft Docs
 description: Learn what the Essential and Premium user experience tiers mean for the user interface, application areas, and your company.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/01/2019
-ms.author: edupont
-ms.openlocfilehash: 9110ee79e4d1788f41c8f1960f282cb490a3cc8a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 5866ce2bc125d7e21c6dbdf93984a87b07ae46b1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251430"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311363"
 ---
-# <a name="changing-which-features-are-displayed"></a>Changing Which Features are Displayed
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to help you run your business, regardless which line of business you are in. At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes. You add experiences to that according to your business needs by adding extensions from AppSource or by changing the Experience setting for your company. For more information, see [Customising [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md), or [Choosing a User Experience to Show or Hide Features](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).
+# <a name="change-which-features-are-displayed"></a>Change Which Features are Displayed
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to help you run your business, regardless which line of business you are in. At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes. You add experiences to that according to your business needs by changing the **Experience** setting for your company, as described below, or by adding extensions from AppSource. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Choosing a User Experience to Show or Hide Features
 The user experience determines how much of the core functionality is available when you and your colleagues use [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can choose the user experience for your company on the **Company Information** page, in the **Experience** field.
 
 > [!NOTE]  
-> This setting applies to all users in your company. Users can customise their own experience even further by changing page layouts and content. For more information, see [Personalising Your Workspace and Pages](ui-personalization-user.md).  
+> This setting applies to all users in your company. Users can customise their own experience even further by changing page layouts and content. For more information, see [Personalise Your Workspace](ui-personalization-user.md).  
 
 The following table lists the experiences that are currently available.
 
@@ -43,7 +43,7 @@ The following table lists the experiences that are currently available.
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Enabling Premium Features after Upgrading a Plan
 Users are assigned to plans in Office 365 Admin Centre in connection with the general work to create the Business Central users. For more information, see [Add Users to Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
-You can then define which specific functions and pages within the experience those users are allowed to access by assigning permission sets. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).
+You can then define which specific functions and pages within the experience those users are allowed to access by assigning permission sets. For more information, see [Manage Users and Permissions](ui-how-users-permissions.md).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>To update plan changes in users groups
 When you have made a change to users plans in Office 365 Admin Centre, such as assigned more users to the Premium plan, you must reflect the change in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -63,10 +63,11 @@ You can now proceed to select the new experience.
 All feature descriptions in user documentation for [!INCLUDE[d365fin](includes/d365fin_md.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements. A text note is inserted in high-level help topics for the Manufacturing and Service Managements feature areas stating that they require the **Premium** experience.
 
 ## <a name="see-also"></a>See also 
+[Personalise Your Workspace](ui-personalization-user.md)  
+[Customising Business Central](ui-customizing-overview.md)
 [Creating New Companies](about-new-company.md)  
-[Managing Users and Permissions](ui-how-users-permissions.md)    
-[Changing Basic Settings](ui-change-basic-settings.md)  
-[Customising [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Manage Users and Permissions](ui-how-users-permissions.md)    
+[Change Basic Settings](ui-change-basic-settings.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 

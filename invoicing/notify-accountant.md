@@ -7,16 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/18/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c8cd654d7ae31587a38033885321f2c49b366bdc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f14768f1ed10cf17e6d53d65683600aabf99346a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241811"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314316"
 ---
-# <a name="let-your-accountant-know-you-sent-an-invoice-with-included365invlongincludesd365invlongmd"></a>Let your accountant know you sent an invoice with [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+# <a name="let-your-accountant-know-you-sent-an-invoice-with-included365inv_longincludesd365inv_longmd"></a>Let your accountant know you sent an invoice with [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 
 To keep your accountant updated when you send invoices to your customers by email, you can add the accountant as a recipient for all the invoicing emails.  
 

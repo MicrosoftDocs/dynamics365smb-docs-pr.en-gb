@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 0392e39957455702bb1aae8eef38d872f803ee42
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 186f14f25e4b158babcdd2930ace3263269415ea
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446814"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308771"
 ---
 # <a name="managing-segments"></a>Managing Segments
 You create segments to select a group of contacts according to specific criteria. For example, a segment could be the industry that the contacts belong to or your business relationship with the contacts. You can create a segment to select the contacts you want to target with a campaign.

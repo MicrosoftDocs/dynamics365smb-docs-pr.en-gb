@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 04/01/2019
-ms.openlocfilehash: fe02153a89ad5f63855cff5eec5344d601c8663a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.openlocfilehash: 22471a6e0281f6f7aa4e9c9bbf0b2d9c5a0fd710
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240034"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309299"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Use Profile Questionnaires to Classify Business Contacts
 You can set up profile questionnaires that you want to use when entering information about your contacts' profiles. Within each questionnaire, you can set up the different questions you intend to ask your contacts.  
@@ -154,7 +154,7 @@ Then fill on the **Profile Question Details** page as follows:
 </tbody>
 </table>
 
-When you assign the profile questionnaire containing this question to a contact, the programme automatically enters the relevant answer for this contact on the profile lines of the contact card.
+When you assign the profile questionnaire containing this question to a contact, application automatically enters the relevant answer for this contact on the profile lines of the contact card.
 
 ## <a name="see-also"></a>See Also
 [Creating Contacts](marketing-create-contact-companies.md)  

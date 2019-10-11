@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 691a8af0a6b3646cc4cf6129fa99a9231bfd2324
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248187"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315235"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Import and Export a Report or Document Layout
 You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then make the modifications to layout and return the file to you so that you can import it back.  
@@ -54,4 +54,4 @@ You can import and export an existing custom report layout as a file to and from
 ## <a name="see-also"></a>See Also  
  [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
  [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
- [Working with Reports and Batch Jobs](ui-work-report.md)    
+ [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)    

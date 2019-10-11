@@ -9,22 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000770"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315595"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Working with Calendar Dates and Times
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] offers multiple ways to enter dates and times, including powerful features that accelerate data entry, or help you write complex calendar expressions. There are various places throughout the application where you can enter dates and times in fields. For example, on a sales order, you can set the shipment date. When filtering lists or report data, you can enter dates and times to pinpoint only the data that you are interested in.
 
 ## <a name="check-your-region-and-language-settings"></a>Check your region and language settings
-
-The [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central") page specifies the **Region** and **Language** that you are using in the application. These settings influence how you enter dates and times.
+The **My Settings** page specifies the **Region** and **Language** that you are using in the application. These settings influence how you enter dates and times.
 
 -   The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.
 
@@ -51,7 +50,7 @@ Any field displaying a calendar icon can be set using the calendar date picker. 
 
 ![Date fields](media/ui-date-field.png "Example of a date field")
 
-See also [Keyboard Shortcuts in the calendar date picker](keyboard-shortcuts.md#calendarshortcuts)
+See also [Keyboard Shortcuts in the calendar date picker](keyboard-shortcuts.md#calendarshortcuts).
 
 ### <a name="day-week-year-pattern"></a>Day\-week\-year pattern
 
@@ -85,11 +84,11 @@ The accounting periods are defined on the **Accounting Periods** page. To view o
 
 The work date feature allows you to record transactions using a date that is different from the current date.
 
-The word for 'workdate', in the language set by **Language** setting, will set the date to the currently set work date that is specified on the [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central") page. Instead of entering the entire word, you can enter part of the word, starting from the beginning, such as 'w' or 'work'.
+The word for 'workdate', in the language set by **Language** setting, will set the date to the currently set work date that is specified on the **My Settings** page. Instead of entering the entire word, you can enter part of the word, starting from the beginning, such as 'w' or 'work'.
 
 If you have not defined a work date, the current date will be used as the work date. You may want to use a work date if you have many transactions with a date other than today's date.
 
-See also [Changing Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date).
+See also [Change Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Closing Date
 
@@ -129,8 +128,8 @@ On lists, totals and reports, you can set filters on dates, times and datetimes 
 |**Meaning**|**Sample expression (Date)**|**Data included in the filter**|
 |-----------|---------------------|--------------------|
 |Interval|12 15 00..01 15 01<br /><br />..12 15 00<br /><br />p1..p4|Records with dates between and including 12 15 00 and 01 15 01.<br /><br />Records with dates of 12 15 00 or earlier.<br /><br />Date range that includes the second, third, and fourth accounting periods, such as 01/01/20..04/30/20.|
-|Either/or|12 15 00|12 16 00|Records with dates of either 12 15 00 or 12 16 00. If there are records with dates on both days, they will all be displayed.|
-|Combination|12 15 00|12 01 00..12 10 00  \n..12 14 00|12 30 00..|Records with dates of 12 15 00 or on dates between and including 12 01 00 and 12 10 00.  \Records with dates of 12 14 00 or earlier, or dates of 12 30 00 or later, that is, all records except those with dates between and including 12 15 00 and 12 29 00.|
+|Either/or|12 15 00\|12 16 00|Records with dates of either 12 15 00 or 12 16 00. If there are records with dates on both days, they will all be displayed.|
+|Combination|12 15 00\|12 01 00..12 10 00  <br /><br />..12 14 00\|12 30 00..|Records with dates of 12 15 00 or on dates between and including 12 01 00 and 12 10 00.  <br /><br />Records with dates of 12 14 00 or earlier, or dates of 12 30 00 or later, that is, all records except those with dates between and including 12 15 00 and 12 29 00.|
 
 You can use any of the valid formats in date range filters. For example, mon14 3..t 4p applied on a datetime field results in a filter from 3 AM on Monday in week 14 of the current work date year, inclusive, until today at 4PM, inclusive.
 

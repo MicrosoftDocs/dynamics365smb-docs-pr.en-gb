@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2f6a84e015ccfd625f3b902281bd8ec59150540f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: efd4d06d0d16b81ca3640af46a797c359098cc08
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246295"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306682"
 ---
 # <a name="design-details-warehouse-management"></a>Design Details: Warehouse Management
 This documentation gives an overview of the concepts and principles that are used in the Warehouse Management features in [!INCLUDE[d365fin](includes/d365fin_md.md)]. It explains the design behind central warehouse features and how warehousing integrates with other supply chain features.  

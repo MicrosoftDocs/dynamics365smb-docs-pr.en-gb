@@ -7,16 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: d644cc3b44ef726a76cd667d8c96624eb928af95
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c735d48d6ef60d77c159feeb9e2628114fd32135
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237365"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314284"
 ---
-# <a name="set-up-your-business-information-in-included365invlongincludesd365invlongmd"></a>Set up your business information in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+# <a name="set-up-your-business-information-in-included365inv_longincludesd365inv_longmd"></a>Set up your business information in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 
 For the invoices to include your business address and other important information, you can define this in the **Settings** page. Here, you can upload your logo, specify your tax details, add links to your social network accounts, and make other general customizations.  
 

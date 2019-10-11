@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 03eeb13e5087e064e80d444ab373b0407f5a93be
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9bc4879e6461ad9a2a1f88e2c877bc80d27c2206
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248141"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314995"
 ---
 # <a name="updating-report-or-document-layouts"></a>Updating Report or Document Layouts
 Occasionally, you may need to update a custom report layout that is used on a report. This is required when there has been a design change to the report's data set, for example, a field that is used in the layout has been removed from the report data set. If a report layout requires updating, you will get an error message when you try to preview, print or save the report.  
@@ -66,4 +66,4 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
 ## <a name="see-also"></a>See Also  
  [Managing Report Layouts](ui-manage-report-layouts.md)  
- [Working with Reports and Batch Jobs](ui-work-report.md)  
+ [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  

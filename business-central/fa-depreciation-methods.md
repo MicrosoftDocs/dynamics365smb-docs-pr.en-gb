@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9c9d01e54aa43cbba722c459a2bf60be26433727
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 261fc147c4e940e4fce69e5a302d1d501f9c5597
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240983"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302891"
 ---
 # <a name="depreciation-methods"></a>Depreciation Methods
 There are eight methods of depreciation available:  
@@ -55,12 +55,12 @@ Remaining depreciation days are calculated as the number of depreciation days mi
 Book value may be reduced by posted appreciation, write-down, custom 1 or custom 2 amounts, depending on whether the **Include in Depr. Calculation** field is deactivated and whether the **Part of Book Value** field is activated on the **FA Posting Type Setup** page. This calculation ensures that the fixed asset is fully depreciated at the depreciation ending date.  
 
 ### <a name="fixed-yearly-percentage"></a>Fixed Yearly Percentage
-If you enter a fixed yearly percentage, the program uses the following formula to calculate the depreciation amount:  
+If you enter a fixed yearly percentage, application uses the following formula to calculate the depreciation amount:  
 
 Depreciation Amount = (Straight-Line % x Depreciable Basis x Number of Depr. Days) / (100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Fixed Yearly Amount
-If you enter a fixed yearly amount, the program uses this formula to calculate the depreciation amount:  
+If you enter a fixed yearly amount, application uses this formula to calculate the depreciation amount:  
 
 Depreciation Amount = (Fixed Depreciation Amount x Number of Depreciation Days) / 360  
 
@@ -217,7 +217,7 @@ The declining-balance amount is used because it is the greater amount.
 The straight-line amount is used because it is the greater amount.  
 
 ## <a name="user-defined-depreciation"></a>User-defined Depreciation
-The program has a facility that allows you to set up user-defined depreciation methods.  
+The application has a facility that allows you to set up user-defined depreciation methods.  
 
 With a user-defined method, you use the **Depreciation Tables** page, where you must enter a depreciation percentage for each period (month, quarter, year, or accounting period).  
 
@@ -257,7 +257,7 @@ The acquisition cost is LCY 100,000, and the depreciable lifetime is five years.
 
 * Depreciation starting date  
 
-If you use a user-defined method, the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields must be filled in on the **FA Depreciation Books** page. The **First User-Defined Depr. Date** field and the contents in the **Period Length** field on the **Depreciation Tables** page are used to determine the time intervals to be used for depreciation calculations. This ensures that the program will start using the specified percentage on the same day for all assets. The **Depreciation Starting Date** field is used to calculate the number of depreciation days.  
+If you use a user-defined method, the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields must be filled in on the **FA Depreciation Books** page. The **First User-Defined Depr. Date** field and the contents in the **Period Length** field on the **Depreciation Tables** page are used to determine the time intervals to be used for depreciation calculations. This ensures that application will start using the specified percentage on the same day for all assets. The **Depreciation Starting Date** field is used to calculate the number of depreciation days.  
 
 In the previous example, both the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields contain 01/01/01. If, however, the **First User-Defined Depr. Date** field contained 01/01/10 and the **Depreciation Starting Date** field contained 04/01/11, the result would be:  
 
@@ -275,7 +275,7 @@ In the previous example, both the **First User-Defined Depr. Date** and **Deprec
 ## <a name="half-year-convention-depreciation"></a>Half-Year Convention Depreciation
 The Half-Year Convention method will only be applied if you have placed a check mark in the **Use Half-Year Convention** field in the fixed **FA Depreciation Book** page.  
 
-This depreciation method can be used in conjunction with the following depreciation methods in the program:  
+This depreciation method can be used in conjunction with the following depreciation methods in application:  
 
 * Straight-Line  
 * Reducing-Balance  
@@ -343,7 +343,7 @@ The straight-line amount is used because it is the greater amount.
 ## <a name="duplicating-entries-to-more-depreciation-books"></a>Duplicating Entries to More Depreciation Books
 If you have three depreciation books, B1, B2 and B3, and you want to duplicate entries from B1 to B2 and B3, you can place a check mark in the **Part of Duplication List** field on the depreciation book cards for B2 and B3. This can be useful if depreciation book B1 is integrated with the general ledger and uses the fixed asset G/L journal, and depreciation books B2 and B3 are not integrated with the general ledger and use the fixed asset journal.  
 
-When you enter an entry in B1 in the fixed asset G/L journal and place a check mark in the **Use Duplication List** field, the program will duplicate the entry in book B2 and B3 in the fixed asset journal when the entry is posted.  
+When you enter an entry in B1 in the fixed asset G/L journal and place a check mark in the **Use Duplication List** field, application will duplicate the entry in book B2 and B3 in the fixed asset journal when the entry is posted.  
 
 > [!NOTE]  
 >   You cannot duplicate in the same journal and journal batch as you are duplicating from. If you post entries in the fixed asset G/L journal, you can duplicate them in the fixed asset journal or in the fixed asset G/L journal using another batch.  

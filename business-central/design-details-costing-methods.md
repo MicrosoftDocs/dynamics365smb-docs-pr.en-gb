@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/03/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 99d3a5b4048756e71711abf9fa24bef12c12d963
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 6f009b0e43a3d3424782f5c3f052033c813e3f18
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621075"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303657"
 ---
 # <a name="design-details-costing-methods"></a>Design Details: Costing Methods
 The costing method determines if an actual or a budgeted value is capitalised and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded.
@@ -162,6 +162,7 @@ The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Variance](design-details-variance.md)   
  [Design Details: Average Cost](design-details-average-cost.md)   
- [Design Details: Item Application](design-details-item-application.md) [Managing Inventory Costs](finance-manage-inventory-costs.md)  
+ [Design Details: Item Application](design-details-item-application.md)  
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

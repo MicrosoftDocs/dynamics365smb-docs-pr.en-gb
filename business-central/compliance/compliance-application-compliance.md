@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ede085fca1595c7349501d9a8cbbd09e4e14e897
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246894"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303885"
 ---
 # <a name="application-compliance"></a>Application Compliance
 This content contains information about application compliance in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)], like the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business. With Business Central companies are empowered to streamline business processes while consistently and cost-efficiently complying with increasing regulation and reporting requirements.
@@ -46,16 +46,19 @@ Business Central delivers real-time, integrated operational and financial inform
 ## <a name="gain-control-of-critical-information-processes-and-reports"></a>Gain control of critical information, processes, and reports
 
 ### <a name="manage-compliance-to-the-standards-that-matter"></a>Manage compliance to the standards that matter
+
 Deliver integrated information, aligned processes, and easy-to-use tools to help your people meet the financial management expectations and standards that matter to your specific business.
 
 ### <a name="tailor-account-schedules-to-your-needs"></a>Tailor account schedules to your needs
+
 - Define the structure of your company’s chart of accounts based on business requirements and applicable regulatory standards
 - Create accounts and handle complex processes related to a spectrum of business activities, including inventory valuation, foreign currencies, segment reporting, and departures from local GAAPs.
 - Control the level of detail for each recorded transaction and select detailed registration for specific types of transactions, such as fixed assets and accounts payable.
-- Tailor schedule calculations  and display for financial reporting, or export the information to Microsoft® Office Excel® for further analysis.
+- Tailor schedule calculations and display for financial reporting, or export the information to Microsoft Excel for further analysis.
 
 ### <a name="improve-information-validity"></a>Improve information validity
-- Configure data fields to  accept only information in the correct format, such as the correct number of decimal places or alphanumeric patterns.
+
+- Configure data fields to accept only information in the correct format, such as the correct number of decimal places or alphanumeric patterns.
 - Help ensure information is complete with application controls such as requiring a vendor invoice number to be entered before a purchase order can be posted.
 - Reduce the risk of inaccurate information or tampering and help protect sensitive information with access to information based on job role.
 - Prohibit access, provide read-only access, or enable full-access users to add, edit, or delete information.
@@ -69,10 +72,11 @@ Deliver integrated information, aligned processes, and easy-to-use tools to help
 - Speed transmission of financial information to customers, shareholders, regulatory agencies, and the public with XML-based XBRL documents that support the exchange of financial information across different software and technologies, including the Internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Help ensure clear audit trails
+
 - Trace documents and information both forward and backward through the system, from the original source to final financial statements and back.
 - Identify how, when, and by whom information was entered or edited, and to what account financial entries have been posted.
-- Look up database changes, including previous and revised  data, in the solution’s Change  Log.
-- Increase  audit trail transparency and usability, and speed information access for third-party auditors with drill-down, look-up, filtering, register, and navigation
+- Look up database changes, including previous and revised data, in the solution’s [Change Log](../across-log-changes.md).
+- Increase audit trail transparency and usability, and speed information access for third-party auditors with drill-down, look-up, filtering, register, and navigation
 
 ## <a name="compliance-and-local-functionality"></a>Compliance and local functionality
 Microsoft is building localized versions of Business Central for some countries. These localizations primarily focus on regulatory features in the tax and financial area but can sometimes involve other parts of the application. If you want to see what is built in localized country versions of Business Central, see **Local Functionality** in the menu and choose a country to learn about country specific functionality.
@@ -89,7 +93,8 @@ Microsoft is building localized versions of Business Central for some countries.
 > **Basel II: Implications for Reporting and Analysis**  
 > Basel II, developed by the Bank for International Settlements, helps ensure safety and security in the financial system in three key areas: minimum capital requirements, supervisory review process, and market discipline. Although the accord applies to financial institutions and does not target small and mid-sized businesses, Basel II may have some implications for these organizations in reporting  and analysis.
 
-## <a name="see-also"></a>See Also  
+## <a name="see-also"></a>See Also
+
 [Compliance](compliance-overview.md)  
 [Service Compliance](compliance-service-compliance.md)  
 [Certifications](compliance-certifications.md)  

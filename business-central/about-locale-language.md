@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9e743a51e675431dc1759a6c3a58b7eb4de1ccc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245310"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300792"
 ---
 # <a name="changing-language-and-locale"></a>Changing Language and Locale
 
@@ -23,7 +23,7 @@ ms.locfileid: "1245310"
 
 For example, if you are using the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)], you can see the user interface in English and in French, but it is still the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)] in all other aspects. It is not the same as, say, [!INCLUDE[d365fin](includes/d365fin_md.md)] in the United Kingdom.  
 
-To change the language of the user interface, go to the **My Settings** page. For more information, see [Changing Basic Settings](ui-change-basic-settings.md#language).  
+To change the language of the user interface, go to the **My Settings** page. For more information, see [Change Basic Settings](ui-change-basic-settings.md#language).  
 
 Changing the texts that are stored as application data is not part of the multilanguage capability. This is an application design issue. Examples of such texts are the names of items in the inventory or the comments for a customer. In other words, these types of text are not translated.  
 
@@ -38,9 +38,9 @@ You can change the locale in the browser tab that you are using to work in [!INC
 > [!IMPORTANT]  
 >  When you change the locale, you will see a long list of languages and locales. However, only the locale setting is used in the current version of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-To change the locale, go to the **My Settings** page. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
+To change the locale, go to the **My Settings** page. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
-## <a name="languages-of-the-included365finincludesd365finmdmd-help"></a>Languages of the [!INCLUDE[d365fin](includes/d365fin_md.md)] Help
+## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Languages of the [!INCLUDE[d365fin](includes/d365fin_md.md)] Help
 The Help content for the core functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] publishes to the Microsoft Docs site and available in a number of different languages. If you access the docs from inside [!INCLUDE[d365fin](includes/d365fin_md.md)], the content will display in your language. If a particular page is not available in your language yet, it will be shown in English.
 
 ### <a name="how-do-i-change-the-language"></a>How Do I Change the Language?
@@ -50,5 +50,5 @@ It's simple - scroll to the bottom of the browser page and choose the globe symb
 > The list shows all languages that are supported by the Microsoft Docs site. [!INCLUDE[d365fin](includes/d365fin_md.md)] is available in a limited number of countries/regions, but the Help content is made available in more languages. However, the Help content is not available in all languages that the Microsoft Docs site supports.
 
 ## <a name="see-also"></a>See Also  
-[Changing Basic Settings](ui-change-basic-settings.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  
 [Getting Started](product-get-started.md)  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c8a399b6e8c37206003492bb1598120dc6e06929
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: eed219bb8bc6401c0f2bbc5cab7600fe1bfc3d53
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239667"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306083"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Reconcile Inventory Costs with the General Ledger
 When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change of inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction that you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger.
@@ -59,7 +59,7 @@ The **Difference** column represents the difference between the value in the **G
 
 In the top of the **Inventory - G/L Reconciliation** page, you can enter filters to limit, for example, the period of time for which you want information.
 
-If you select the **Show Warning** check box and if there are any discrepancies between the inventory totals and G/L totals, the programme shows messages in the **Warning** field of the grid that explain the discrepancy. If you choose the Warning field, the program gives you more information on what the warning means.
+If you select the **Show Warning** check box and if there are any discrepancies between the inventory totals and G/L totals, application shows messages in the **Warning** field of the grid that explain the discrepancy. If you choose the Warning field, application gives you more information on what the warning means.
 
 When you have entered all relevant filters, choose the **Show Matrix** action. The data is calculated and the matrix page appears.
 

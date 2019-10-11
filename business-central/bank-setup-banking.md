@@ -4,20 +4,20 @@ description: You use bank account cards to keep track of your bank accounts and 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
-ms.date: 06/02/2016
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 05cf51ae4d09dc0b023782f7f68e514eb8668be8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1dbbc8ff96f381a5e52c67eac9dfe2c91ee17eb5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244108"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303995"
 ---
 # <a name="setting-up-banking"></a>Setting Up Banking
 Using bank account cards, you can keep track of all your bank accounts, in any currency. After you have set up the bank accounts, you can also use the cheque printing option.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: ca99b44b7c96037d07c00902df3411db81745d86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985893"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316651"
 ---
 # <a name="collect-outstanding-balances"></a>Collect Outstanding Balances
 Managing receivables includes checking whether amounts due are paid on time. If customers have overdue payments, you can begin by sending the Customer Statement report as a reminder. Alternatively, you can issue reminders.
@@ -161,6 +161,11 @@ In addition, issuing the reminder may result in VAT entries.
 
 The reminder is either printed for sent to an specified email as a PDF attachment.
 
+### <a name="to-cancel-an-issued-reminder"></a>To cancel an issued reminder
+If reminders were issued in error, you can cancel them before they are sent out. You can do this either one by one or as a batch.
+1. On the **Issued Reminders** page, select one or more lines for issued reminders that you want to cancel, and then choose the **Cancel** action.
+2. On the **Cancel Issued Reminders** page, fill in the fields as necessary, and then choose the **OK** button.
+
 ## <a name="to-set-up-finance-charge-terms"></a>To set up finance charge terms
 You must set up a code representing each finance charge calculation. Then you can enter this code in the **Fin. Charge Terms Code** field on customer or vendor cards.
 
@@ -243,6 +248,11 @@ In addition, issuing the finance charge memo may result in VAT entries.
 4. Choose the **OK** button
 
 The finance charge memo is either printed for sent to an specified email as a PDF attachment.
+
+### <a name="to-cancel-an-issued-finance-charge-memo"></a>To cancel an issued finance charge memo
+If finance charge memos were issued in error, you can cancel them before they are sent out. You can do this either one by one or as a batch.
+1. On the **Issued Finance Charge Memos** page, select one or more lines for issued finance charge memos that you want to cancel, and then choose the **Cancel** action.
+2. On the **Cancel Issued Fin. Charge Memos** page, fill in the fields as necessary, and then choose the **OK** button.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>To view reminder and finance charge entries  
 When you issue a reminder, a reminder entry is created on the **Reminder/Fin. Charge Entries** page for each reminder line that contains a customer ledger entry. You can then get an overview of the created reminder entries for a specific customer.    

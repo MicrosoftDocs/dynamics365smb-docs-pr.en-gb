@@ -3,21 +3,21 @@ title: Custom and Built-In Layouts for Reports and Documents | Microsoft Docs
 description: Use report layouts to customise documents, for example, to personalise the font, logo, or page settings of PDF files you send to customers.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 05/22/2019
-ms.author: solsen
-ms.openlocfilehash: e00ca327748ac84dc39e5de73c4bcaae97f26105
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594294"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315163"
 ---
 # <a name="managing-report-and-document-layouts"></a>Managing Report and Document Layouts
 A report layout controls content and format of the report, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more. From [!INCLUDE[d365fin](includes/d365fin_md.md)], you can change which layout is used on a report, create new layout, or modify the existing layouts.
@@ -56,7 +56,7 @@ The general design concepts for Word and RDLC layouts are very similar. However 
 
 The process for setting up Word report layouts and RDLC report layouts on reports is the same. The main difference is in the way you modify the layouts. Word report layouts are typically easier to create and modify than RDLC report layouts because you can use Word. RDLC report layouts are modified by using SQL Server Report builder which targets more advanced users.
 
-For information on how to change which layout to use, see [Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md).
+For information on how to change which layout to use, see [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>See Also
 [Updating Report or Document Layouts](ui-update-report-layouts.md)  
@@ -64,4 +64,4 @@ For information on how to change which layout to use, see [Change Which Layout i
 [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)  
 [Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
-[Working with Reports and Batch Jobs](ui-work-report.md)  
+[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  

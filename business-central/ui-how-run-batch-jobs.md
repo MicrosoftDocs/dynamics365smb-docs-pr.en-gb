@@ -10,19 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 0b9bf37f9054d767938b851e399a1b2c347f77c3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2387356fd3e80e5020b4d2e4857280dd4b99788a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249268"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315211"
 ---
-# <a name="run-batch-jobs"></a>Run Batch Jobs
+# <a name="run-batch-jobs-and-xmlports"></a>Run Batch Jobs and XMLports
 A batch job is a routine that processes data in batches, for example the **Adjust Exchange Rates** batch job. There are batch jobs that perform periodic accounting activities, such as closing the income statement at the end of a fiscal year. Many batch jobs do calculation work, such as calculation of finance charges, exchange rate adjustment, and calculation of unit prices.
 
 A batch job is like a report, except the batch job uses the result of its work to update information directly, instead of printing the results.
+
+You can schedule when a batch job runs. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
 ## <a name="to-run-a-batch-job"></a>To run a batch job
 1. To open the request page for the relevant batch job, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the batch job, and then choose the related link.
@@ -32,4 +34,5 @@ A batch job is like a report, except the batch job uses the result of its work t
 
 ## <a name="see-also"></a>See Also
 [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
+[Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 8d7421d5fee1a6498c204730f873c3746aafc637
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 022e364b6a40fe8df1f9c4e3425030d35f729e6a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726751"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304499"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>View the Status of Synchronisation Jobs
 Use the **Coupled Data Synchronisation Errors** page to view the status of synchronisation jobs that have been run for coupled records in a [!INCLUDE[crm_md](includes/crm_md.md)] integration. This includes jobs that were run from the job queue and manual synchronisation jobs that ran on records from [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, viewing their status is helpful when troubleshooting because it gives you access to details about errors related to coupled records. Typically, these types of errors are caused by user actions, for example, when:  
@@ -44,5 +44,5 @@ Use the **Coupled Data Synchronisation Errors** page to view the status of synch
 2. Choose the **Synchronisation Log** action to view the synchronisation log for a selected record. For example, a specific customer you synchronised manually.
 
 ## <a name="see-also"></a>See Also  
-[Setting Up User Accounts for Integrating with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)  
-[Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
+[Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
+[Using Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md)

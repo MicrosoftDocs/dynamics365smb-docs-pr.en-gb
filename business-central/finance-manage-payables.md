@@ -12,15 +12,15 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: f7556b204403f0abdb6361a0e1650b90e58810e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 36da19dbe011f3e26dc166955fb9c5f0decd3b94
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238884"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305771"
 ---
 # <a name="managing-payables"></a>Managing Payables
 [!INCLUDE[d365fin](includes/d365fin_md.md)] has what you need to effectively manage accounts payable.  
@@ -47,7 +47,7 @@ If you wait to post payments until after your bank confirms that it has processe
 
 * In a payment journal with suggested payment lines, sort on either the **Exported to Payment File** or **Total Exported Amount** columns, and then delete payment suggestions for open invoices for which payments have already been made and you do not want to make payments for.
 
-    **Note** You might have to add these columns to the list. For more information, see [Personalising Your Workspace](ui-personalization-user.md).  
+    **Note** You might have to add these columns to the list. For more information, see [Personalise Your Workspace](ui-personalization-user.md).  
 * Alternatively, on the **Suggest Vendor Payments** batch job, where you specify the payments to include in the payment journal, you can specify not to insert journal lines for payments that have already been exported by choosing the **Skip Exported Payments** check box.
 
 ## <a name="see-also"></a>See Also

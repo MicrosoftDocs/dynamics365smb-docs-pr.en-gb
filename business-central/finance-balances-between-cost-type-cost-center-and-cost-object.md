@@ -4,20 +4,21 @@ description: When you set up cost accounting, you must make sure that all entrie
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8b64941b6c17468b598d419053c05e1d32dac7ce
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: finance-set-up-cost-accounting
+ms.openlocfilehash: 7ae54e8a1a011b8e4f1914ef9f15c179794d2675
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239025"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302531"
 ---
 # <a name="balances-between-cost-type-cost-center-and-cost-object"></a>Balances Between Cost Type, Cost Centre, and Cost Object
 When you set up cost accounting, you must make sure that all entries are assigned to a cost type as well as a cost centre or a cost object. The means that each cost entry must have a cost type assigned and a cost centre code or a cost object assigned. This rule ensures that each cost entry appears in either the cost centres or the cost objects, but never in both places.  

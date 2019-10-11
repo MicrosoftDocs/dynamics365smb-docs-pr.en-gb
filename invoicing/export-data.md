@@ -7,16 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/12/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 384791aeadaaa4c374607ec529955171456ab7e4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 106f9132124226a3dd8650fa257b566119f8e933
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254067"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314380"
 ---
-# <a name="export-or-delete-data-from-included365invlongincludesd365invlongmd"></a>Export or delete data from [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+# <a name="export-or-delete-data-from-included365inv_longincludesd365inv_longmd"></a>Export or delete data from [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 
 If you want to delete a contact or customer from [!INCLUDE[d365inv](includes/d365inv.md)], it's easy to do.  
 

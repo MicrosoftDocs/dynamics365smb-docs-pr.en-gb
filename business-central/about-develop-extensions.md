@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: e8e2b011dc07657198ebf42663bd404b7850834a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 369fcd1905d701f7262e1b4d444dc20321b393e6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241393"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300888"
 ---
-# <a name="extending-included365finincludesd365finmdmd"></a>Extending [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="extending-included365finincludesd365fin_mdmd"></a>Extending [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is a business management solution that helps companies connect their financials, sales, service, and operations to streamline business processes, improve customer interactions, and make better decisions. [!INCLUDE[d365fin](includes/d365fin_md.md)] is available in the cloud and to users across various multiple types of devices, which is always up-to-date. With this modern business platform you can easily and quickly tailor, extend, and build applications so they fit your specific needs — with little to no code development.  
 
 There are plenty of benefits of using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a platform for App builders, which includes:
@@ -30,7 +30,7 @@ There are plenty of benefits of using [!INCLUDE[d365fin](includes/d365fin_md.md)
 * Enhance business value and increase deal size with existing and new customers
 * Achieve more with a platform that delivers a modern experience and offers scale  
 * Get actionable insights on the performance of your listings via the Cloud Partner Portal or the Office app publishing process
-* Bundle with intelligent business apps such as PowerApps, Flow, Power BI, Cortana Intelligence, and many more  
+* Bundle with intelligent business apps such as PowerApps, Flow, Power BI, Azure AI, and many more  
 
 Bring your [!INCLUDE[d365fin](includes/d365fin_md.md)] services to Microsoft AppSource as:
 
@@ -41,9 +41,9 @@ The new development tools enable to you to build extensions for [!INCLUDE[d365fi
 
 Find information on apps and consulting services that are currently available on [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
-To help business users get started quickly, Microsoft has added a catalogue of consulting services offerings for solutions based on [!INCLUDE[d365fin](includes/d365fin_md.md)], Power BI, and PowerApps to AppSource. Learn more about the [Consulting Services](/dynamics-nav/developer/readiness/readiness-consulting).
+To help business users get started quickly, Microsoft has added a catalogue of consulting services offerings for solutions based on [!INCLUDE[d365fin](includes/d365fin_md.md)], Power BI, and PowerApps to AppSource. Learn more about the [Consulting Services](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
 
-## <a name="choosing-which-services-to-offer-with-included365finincludesd365finmdmd"></a>Choosing which Services to Offer with [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="choosing-which-services-to-offer-with-included365finincludesd365fin_mdmd"></a>Choosing which Services to Offer with [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 ### <a name="integrate-a-3rd-party-solution"></a>Integrate a 3rd Party Solution
 [!INCLUDE[d365fin](includes/d365fin_md.md)] exposes many ready-to-use APIs for [Connect apps](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps) to make a seamless integration between your service and [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can bundle your services with a [!INCLUDE[d365fin](includes/d365fin_md.md)] and give your customers an integrated experience. Learn more about [Integrating a 3rd Party Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
@@ -55,7 +55,7 @@ Create an app that is specialised within a specific industry. With [Embed app](/
 Extend the experience and capability of [!INCLUDE[d365fin](includes/d365fin_md.md)] by creating an [Add-on app](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-add-on-apps) which integrates into user experience of [!INCLUDE[d365fin](includes/d365fin_md.md)]. Build an interface based on how you want your data to flow between [!INCLUDE[d365fin](includes/d365fin_md.md)] and your services. Learn more about the [Development of a Horizontal Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-horizontal).
 
 ### <a name="development-of-a-localization-solution"></a>Development of a Localisation Solution
-Comply with local regulatory capabilities by developing for [!INCLUDE[d365fin](includes/d365fin_md.md)], which adapts functional areas to the requirements of the local market along with [Dynamics 365 Translation Service](/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview). Align the core capabilities of local legal requirement and extend existing functionality to successfully compete on your local market. Learn more about the [Development of a Localisation Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
+Comply with local regulatory capabilities by developing for [!INCLUDE[d365fin](includes/d365fin_md.md)], which adapts functional areas to the requirements of the local market along with [Dynamics 365 Translation Service](/dynamics365/unified-operations/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview). Align the core capabilities of local legal requirement and extend existing functionality to successfully compete on your local market. Learn more about the [Development of a Localisation Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
 ### <a name="reseller-solution"></a>Reseller Solution
 Since every business is unique, with [Customising Tenants](/dynamics-nav/developer/readiness/readiness-customizing-tenants), you can match how you work with your streamlined processes, your terminology, and how your employees or departments connect and collaborate. Additionally, you can choose to resell and adjust [!INCLUDE[d365fin](includes/d365fin_md.md)] to the individual needs of your customers by providing [Consulting Services](/dynamics-nav/developer/readiness/readiness-consulting). Or, use Microsoft Flow, Power Apps, and Power BI to create [Customised Workflows](/dynamics-nav/developer/readiness/readiness-no-code), apps and business insight reports without having to write any code. Learn more about [Dynamics 365 Reseller (VARs)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
@@ -76,7 +76,7 @@ The Ready to Go programme is designed to support you in bringing your [!INCLUDE[
 
 Learn more on how you can build a [!INCLUDE[d365fin](includes/d365fin_md.md)] offering in the [Ready to Go programme](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go) details. If you have questions or feedback about the **Ready to Go** programme offering, you can [contact us](mailto:dyn365bep@microsoft.com).
 
-## <a name="included365finincludesd365finmdmd-extensions-provided-by-microsoft"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions Provided by Microsoft
+## <a name="included365finincludesd365fin_mdmd-extensions-provided-by-microsoft"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions Provided by Microsoft
 The standard version of the product includes an increasing number of extensions developed by Microsoft. For more information, see [Customising [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
 
 ## <a name="see-also"></a>See Also

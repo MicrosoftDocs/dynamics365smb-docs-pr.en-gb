@@ -7,16 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/18/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 5bfe6a249f59f41bd27765ae93a17799f510e108
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: eb1b8960372170d8ec4f865ac2a2ecb3c6686b8e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254108"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313748"
 ---
-# <a name="add-value-added-tax-vat-to-your-invoices-in-included365invlongincludesd365invlongmd"></a>Add value added tax (VAT) to your invoices in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+# <a name="add-value-added-tax-vat-to-your-invoices-in-included365inv_longincludesd365inv_longmd"></a>Add value added tax (VAT) to your invoices in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 
 If you or your customers are in a country that uses valued added tax (VAT), such as the United Kingdom, [!INCLUDE[d365inv](includes/d365inv.md)] calculates the VAT for you, and applies the amount to your invoices.  
 

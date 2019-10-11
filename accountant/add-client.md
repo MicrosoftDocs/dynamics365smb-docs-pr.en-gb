@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/23/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 95a4153c56693d8bdd28980f1acff14b917a9488
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237861"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300074"
 ---
-# <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Add clients to your dashboard in [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="add-clients-to-your-dashboard-in-include-d365acc_longincludesd365acc_long_mdmd"></a>Add clients to your dashboard in [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 You can add a client by using the **Clients** page, which you can open by choosing the **Manage Clients** action in the ribbon. Simply choose **New** and then fill in the fields.  
@@ -32,7 +32,7 @@ The data in the card for each client is specified by you, and you can change it 
 
 The client URL is used when you choose the **Go To Company** menu item in the [!INCLUDE [d365acc](includes/d365acc_md.md)] dashboard.  
 
-### <a name="get-invited-to-a-clients-include-d365finlongincludesd365finlongmdmd"></a>Get invited to a client's [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]
+### <a name="get-invited-to-a-clients-include-d365fin_longincludesd365fin_long_mdmd"></a>Get invited to a client's [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]
 A company who use [!INCLUDE [d365fin](includes/d365fin_md.md)] can invite you to [!INCLUDE [d365fin](includes/d365fin_md.md)] as their external accountant. To get invited, you must give them the email that you use with [!INCLUDE [d365acc](includes/d365acc_md.md)], such as <em>me@accountant.com</em>. Your client's administrator can then add you to their system by running the **Invite External Accountant** wizard.  
 
 As a result, you will receive email from your client with links to their [!INCLUDE [d365fin](includes/d365fin_md.md)]. The first link is an invitation to get access to their company - open the link and accept the steps that adds you to your client's [!INCLUDE [d365fin](includes/d365fin_md.md)]. The second link is for adding this client to your dashboard in [!INCLUDE [d365acc](includes/d365acc_md.md)] as described above.  

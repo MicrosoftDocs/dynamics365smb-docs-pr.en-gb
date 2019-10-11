@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: /dynamics365/business-central/admin-set-up-company-configuration
 ROBOTS: NOINDEX
-ms.openlocfilehash: e1cfcc47d5fb1112c4422be93ab49a345e9a30ec
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 908e460ae5a3fc8ecb804f27363a1cfad71d997c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726912"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307935"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Use the RapidStart Services Implementer Role Centre
-When you use RapidStart Services, we recommend that you use the RapidStart Services Implementer Role Centre as it provides the correct context for your configuration work. For more information, see [To change Role Centre](ui-change-basic-settings.md#to-change-role-center).
+When you use RapidStart Services, we recommend that you use the RapidStart Services Implementer Role Centre as it provides the correct context for your configuration work. For more information, see [To change the role](ui-change-basic-settings.md#to-change-the-role).
 
 As you continue with your work, you can assign each table the status that reflects where you are in the process. [!INCLUDE[d365fin](includes/d365fin_md.md)] then keeps track of the table status in the **Activities** part on the Role Centre.  
 

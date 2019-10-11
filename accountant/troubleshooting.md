@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
-ms.date: 10/23/2017
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8faba6940469265959d09f807d2d3c1afe6199af
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237987"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300408"
 ---
-# <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Troubleshooting [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="troubleshooting-include-d365acc_longincludesd365acc_long_mdmd"></a>Troubleshooting [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Signing up for [!INCLUDE [d365acc](includes/d365acc_md.md)] is easy and can be done very quickly. Adding clients to the dashboard is also easy, but this article addresses issues that you may have on the way.
 
-## <a name="what-email-address-can-i-use-with-include-d365accincludesd365accmdmd"></a>What email address can I use with [!INCLUDE [d365acc](includes/d365acc_md.md)]?
+## <a name="what-email-address-can-i-use-with-include-d365accincludesd365acc_mdmd"></a>What email address can I use with [!INCLUDE [d365acc](includes/d365acc_md.md)]?
 [!INCLUDE [d365acc](includes/d365acc_md.md)] requires that you use a work or school email address to sign up. [!INCLUDE [d365acc](includes/d365acc_md.md)] does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
 
 If you try to sign up with a personal email address, you will get a message indicating to use a work or school email address.  

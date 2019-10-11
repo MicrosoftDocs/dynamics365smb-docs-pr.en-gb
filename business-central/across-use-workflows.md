@@ -4,20 +4,20 @@ description: You can set up and use workflows that connect business-process task
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/04/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e5dee76fa49d66d72c7e20cb9ff5eead63cf37aa
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6535523fb34504a4f964971f41d4803bdc7b2117
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244870"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304763"
 ---
 # <a name="using-workflows"></a>Using Workflows
 You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  

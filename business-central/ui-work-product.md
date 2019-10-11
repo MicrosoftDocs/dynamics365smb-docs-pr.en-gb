@@ -2,22 +2,22 @@
 title: Working with the General Functionality in Business Central  | Microsoft Docs
 description: Describes the general functionality you use to interact with data in Business Central, such as entering values, sorting data, and changing views.
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: be056212ecfd610cbd7753a6ffc9babb08100359
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 81ba616c55b364843a718e9b000bfee02a513ad1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249751"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310643"
 ---
-# <a name="working-with-included365finincludesd365finmdmd"></a>Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="working-with-included365finincludesd365fin_mdmd"></a>Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]
 When performing business tasks, you interact with data in different ways, such as creating records and entering data, sorting and filtering data, writing notes, and outputting data to other applications.
 
 For example, you can adjust the size and position of any page, expand the width of columns and increase the height of column headers, and change the sorting of data in columns. And if you want to use the horizontal scroll bar to view all columns on a list page or on document lines, you will see that there is a vertical freeze pane to restrict some columns from scrolling.
@@ -29,18 +29,20 @@ The following table lists some of the general functionality with links to topics
 
 | To | See |
 | --- | --- |
-| Find a specific page, report, action, help topic, or partner extension. |[Using Tell Me to Find Features and Information](ui-search.md) |
+|Find a specific page, report, action, help topic, or partner extension. |[Finding Pages and Information with Tell Me](ui-search.md) |
+|Get an overview of pages for your role and for other roles and navigate to pages.|[Finding Pages from a Feature Overview](ui-role-explorer.md)|
 | Filter data in views, reports, or functions by using special symbols and characters. |[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md) |
 |Learn the many general functions that help you enter data in a quick and easy way.|[Entering Data](ui-enter-data.md)|
+|Learn how to quickly copy and paste data including by using keyboard shortcuts.|[Copying and Pasting FAQ](ui-copy-paste.md)|
 | View or process data in specific date ranges. |[Working with Calendar Dates and Times](ui-enter-date-ranges.md) |
-|Learn how to quickly copy and paste data including by using keyboard shortcuts.|[Copying and Pasting](ui-copy-paste.md)|
 | See which fields must be filled in. |[Detecting Mandatory Fields](ui-mandatory-fields.md) |
 |Understand how the computer locale affects the user interface and the Help site and how to change the language.|[Changing Language and Locale](about-locale-language.md)|
 |Learn how to interact with Excel from practically anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Viewing and Editing in Excel](across-work-with-excel.md)|
-|Get notified about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance.|[Managing Notifications](ui-smart-notifications.md)|
-| Change basic settings such as company, work date, and Role Centre. |[Changing Basic Settings](ui-change-basic-settings.md) |
-| Change which and where UI elements are shown to fit your preferences.|[Personalising Your Workspace](ui-personalization-user.md) |
-|Define, preview, print, or save reports and define and run batch jobs.|[Working with Reports and Batch Jobs](ui-work-report.md)|
+|Attach files, add links, or write notes on cards and documents.|[Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)|
+| Change basic settings such as company, work date, and Role Centre. |[Change Basic Settings](ui-change-basic-settings.md) |
+|Get notified about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance.|[Manage Notifications](ui-smart-notifications.md)|
+| Change which and where UI elements are shown to fit your preferences.|[Personalise Your Workspace](ui-personalization-user.md) |
+|Define, preview, print, or save reports and define and run batch jobs.|[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)|
 | Manage the content and format of reports and documents, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more.|[Managing Report and Document Layouts](ui-manage-report-layouts.md) |
 |Learn about features and capabilities that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities.|[Accessibility and Keyboard Shortcuts](ui-accessibility.md)|
 

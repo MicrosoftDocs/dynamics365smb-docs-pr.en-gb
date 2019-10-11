@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4a9bbc34893f1af257908558122f8e8cbe6ce757
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 51c8c4207d9b5311698c7c5575fc67d8c5b2df9d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250119"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310907"
 ---
-# <a name="managing-users-and-permissions"></a>Managing Users and Permissions
+# <a name="manage-users-and-permissions"></a>Manage Users and Permissions
 To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Centre. For more information, see [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users).
 
 Once users are created in Office 365, they can be imported into the **Users** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Users are assigned permission sets depending on the plan assigned to the user in Office 365. For detailed information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
@@ -28,15 +28,23 @@ A permission set is a collection of permissions for specific objects in the data
 
 From the **User Card** page, you can open the **Effective Permissions** page to see which permissions the user has and through which permission sets they are granted. Here you can also change permission details for permission sets of type **User-Defined**. For more information, see [To get an overview of a user's permissions](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-Administrators can use the **User Setup** page to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
+## <a name="users-in-on-premises-deployments"></a>Users in On-Premises Deployments
+For on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], the administrator can choose between different credential authorisation mechanisms for users. Then, when you create a user, you provide different information depending on the credential type that you are using in the specific [!INCLUDE[server](includes/server.md)] instance. For more information, see the [Authentication and Credential Types](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in the Administration section of the developer and ITPro content for [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Another system that defines what users can access is the Experience setting. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
+## <a name="profiles"></a>Profiles
+After users are added, you can define what they see in the user interface and how they interact with their permitted functionality through pages. You do this through profiles, reflecting roles or departments, which you assign to different types of users. For more information, see [Manage Profiles](admin-users-profiles-roles.md) and [Customising [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
 
 ## <a name="to-add-a-user-in-business-central"></a>To add a user in Business Central
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Choose the **Get Users from Office 365** action.
 
 Any new user that has been created for your Office 365 subscription will be added on the **Users** page.
+
+## <a name="to-edit-or-delete-a-user"></a>To edit or delete a user
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+2. Select the user that you want to edit, and then choose the **Edit** action.
+3. On the **User Card** page, change the information as necessary.    
+4. To delete a user, select the user that you want to delete, and then choose the **delete** action.
 
 ## <a name="to-group-users-in-user-groups"></a>To group users in user groups
 You can set up users groups to help you manage permission sets for groups of users in your company.
@@ -110,7 +118,7 @@ For example, a user can have permission to run codeunit 80, Sales-Post. The Sale
 
 However, the user does not need to have full access to the Sales Line table to run the codeunit. If the user has indirect permission for the Sales Line table, then the Sales-Post codeunit runs successfully. When a user has indirect permission, that user can only modify the Sales Line table by running the Sales-Post codeunit or another object that has permission to modify the Sales Line table. The user can only modify the Sales Line table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.
 
-### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>To limit a user's access to specific records in a table
+## <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>To limit a user's access to specific records in a table
 For record-level security in [!INCLUDE[d365fin](includes/d365fin_md.md)], you use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in Developer and IT-Pro help.
 
 
@@ -174,11 +182,16 @@ The following procedure explains how to assign permission sets to a user on the 
 > [!NOTE]  
 > When you edit a permission set, the changes will also apply to other users that have the permission set assigned.
 
+## <a name="to-remove-a-users-access-to-the-system"></a>To remove a user's access to the system
+
+As an administrator, you can remove a user's access to the system by setting the **State** field to **Disabled**. All references to the user will be retained, but the user can no longer sign in to the system, and active sessions for the user will be terminated. To give the user access again, set the **State** field to **Enabled**.
+
 ## <a name="see-also"></a>See Also
 [Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
-[Understanding Users, Profiles, and Role Centres](admin-users-profiles-roles.md)  
+[Manage Profiles](admin-users-profiles-roles.md)  
+[Customising [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Changing Which Features are Displayed](ui-experiences.md)  
+[Change Which Features are Displayed](ui-experiences.md)  
 [Administration](admin-setup-and-administration.md)  
 [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users)  
 [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing)

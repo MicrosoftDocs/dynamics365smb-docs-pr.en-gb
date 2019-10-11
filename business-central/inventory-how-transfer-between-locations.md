@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 95ce328595bccaff230699c56e603ba55f9375b7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 26ce0f4661a44c1f478b38a2709015ea6ff1f602
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240103"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309707"
 ---
 # <a name="transfer-inventory-between-locations"></a>Transfer Inventory Between Locations
 You can transfer inventory items between locations by creating transfer orders. Alternatively, you can use the item reclassification journal.
@@ -31,20 +31,24 @@ To transfer items, locations and transfer routes must be set up. For more inform
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>To transfer items with a transfer order
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer orders**, and then choose the related link.
-2. On the **Transfer Order** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. On the header of the **Transfer Order** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     >   If you have filled in the **In-Transit Code**, **Shipping Agent Code**, and **Shipping Agent Service** fields on the **Trans. Route Spec.** page when you set up the transfer route, then the corresponding fields on the transfer order are filled in automatically.
 
     When you fill in the **Shipping Agent Service** field, the receipt date at the transfer-to location is calculated by adding the shipping time of the shipping agent service to the shipment date.
 
+3. To fill in the lines, either enter them manually or choose one of the following options on the under the **Functions** action:
+    - Choose the **Get Bin Content** action to select existing items from a specific bin at the location.
+    - Choose the **Get Receipt Lines** to select items that have just arrived at the transfer-from location.   
+
     As a warehouse worker at the transfer-from location, proceed to ship the items.
-3. Choose the **Post** action, choose the **Ship** option, and then choose the **OK** button.
+4. Choose the **Post** action, choose the **Ship** option, and then choose the **OK** button.
 
     The items are now in transit between the specified locations, according to the specifies transfer route.
 
-    As a warehouse worker at the transfer-from location, proceed to receive the items.
-4. Choose the **Post** action, choose the **Receive** option, and then choose the **OK** button.
+    As a warehouse worker at the transfer-from location, proceed to receive the items. The transfer order lines are the same as when shipped and cannot be edited.
+5. Choose the **Post** action, choose the **Receive** option, and then choose the **OK** button.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>To transfer items with the item reclassification journal
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journals**, and then choose the related link.
@@ -60,5 +64,5 @@ To transfer items, locations and transfer routes must be set up. For more inform
 [Manage Inventory](inventory-manage-inventory.md)  
 [Set Up Locations](inventory-how-setup-locations.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Changing Which Features are Displayed](ui-experiences.md)  
+[Change Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)

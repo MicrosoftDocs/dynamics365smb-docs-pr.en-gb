@@ -7,16 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/12/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: bea5ed403aad64779b2a79d5031a98441f627cea
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: d741214d8d0e768283775a336cd9675e7a723e79
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726948"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314320"
 ---
-# <a name="troubleshooting-included365invlongincludesd365invlongmd"></a>Troubleshooting [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+# <a name="troubleshooting-included365inv_longincludesd365inv_longmd"></a>Troubleshooting [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 Read this section for tips and troubleshooting info on [!INCLUDE[d365inv](includes/d365inv.md)].
 
 ## <a name="how-do-i-save-my-changes"></a>How do I save my changes?

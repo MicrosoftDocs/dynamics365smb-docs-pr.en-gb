@@ -7,16 +7,16 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fad44ecb12276ed27a941ee918c748edb5b07481
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 706b48ac9a35ee5c1df2c80ad0a442e43fc49260
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254114"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314369"
 ---
-# <a name="welcome-to-included365invlongincludesd365invlongmd"></a>Welcome to [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+# <a name="welcome-to-included365inv_longincludesd365inv_longmd"></a>Welcome to [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 
 [!INCLUDE[d365inv](includes/d365inv.md)] is an easy to use online and mobile app that can help send invoices, manage your expenses, and monitor your cash flow. With [!INCLUDE[d365inv](includes/d365inv.md)], you can get paid faster by seamlessly creating, editing, sending invoices, and accepting payments. It's easy to add new customers, mark invoices as paid when you receive payment, and view monthly and yearly sales.
 

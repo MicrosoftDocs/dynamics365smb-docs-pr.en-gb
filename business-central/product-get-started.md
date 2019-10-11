@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: 00ab948c07e708ae22c63177f01ed4c6ada28c5a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858296"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313595"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Getting Started with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system. To help you with your subscription, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -42,13 +42,15 @@ Before you can begin to use functionality, certain setup must be made. For more 
 
 For an overview of current capabilities and what is coming, take a look at our release plan at [Microsoft Dynamics 365 Business Central Release Plan](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
+You can also find eLearning content on [Microsoft Learn](/learn/browse/?products=dynamics-business-central).  
+
 ## <a name="the-role-centers"></a>The Role Centres
-The Role Centre page is based on a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Role Centre by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") in the top right corner,  choosing **My Settings**, and then the Role Centre to explore. Sign in again to apply the change. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).
+The Role Centre page is based on a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Role Centre by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") in the top right corner,  choosing **My Settings**, and then the Role Centre to explore. Sign in again to apply the change. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
 
 Each Role Centre provides a **Setup and Extensions** button. Here you have access to a list of assisted setup guides that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the Essential experience. For more information, see [Changing Which Features are Displayed](ui-experiences.md).  
+>   The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the Essential experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).  
 
 On the **Assisted Setup** page, you will find the following with the **Essential** experience:
 
@@ -65,7 +67,7 @@ On the **Assisted Setup** page, you will find the following with the **Essential
 | Set Up Reporting |Sets up data sets that you can use to build powerful reports using Excel or Power BI, for example. |
 | Set Up an Item Approval Workflow |Sets up the ability to send a notification to an approver when a user changes or creates an item. |
 | Set Up a Payment Approval Workflow |Sets up the ability to send a notification to an approver when a user sends payment journal lines for approval. |
-| Set Up the Business Central Connector |Sets up a connection to Dynamics 365 for Sales, which allows you to synchronise data such as contacts and sales order information. |
+| Set Up the Business Central Connector |Sets up a connection to Dynamics 365 Sales, which allows you to synchronise data such as contacts and sales order information. |
 | Set Up VAT |Gets you started with default tax groups and assigning tax area codes that you can assign to customers and vendors in order to automatically calculate VAT in sales or purchase documents. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Trying things out in your own company
@@ -99,6 +101,7 @@ If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as my Business Inbox in Outlook](admin-outlook.md)  
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
 [Resources for Help and Support](product-help-and-support.md)  
+[Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 [Dynamics 365 Documentation](/dynamics365/)  
 [Microsoft Dynamics 365 Business Central Release Plan](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  

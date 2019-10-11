@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a5e25c9df3ccd98436945b0070773d5b48eb54ac
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 327cd6e048ce4afcc6b58c2d546da4768ec03724
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247658"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314539"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Enable Picking Items by FEFO
 First-Expired-First-Out (FEFO) is a sorting method that ensures that the oldest items, those with the earliest expiration dates, are picked first.  
@@ -25,7 +25,7 @@ First-Expired-First-Out (FEFO) is a sorting method that ensures that the oldest 
  This functionality only works when the following criteria are met:  
 
 -   The item must have a serial/lot number.  
--   On the item’s item tracking code setup, the **SN-Specific Warehouse Tracking** field or the **Lot-Specific Warehouse Tracking** field must be selected.  
+-   On the item’s item tracking code setup, the **SN Specific Tracking** field or the **Lot Specific Tracking** field must be selected.  
 -   The item must be posted to inventory with an expiration date.  
 -   On the location card, the **Require Pick** check box must be selected.  
 -   On the location card, the **Pick According to FEFO** check box must be selected.  
@@ -36,7 +36,7 @@ First-Expired-First-Out (FEFO) is a sorting method that ensures that the oldest 
 > [!NOTE]  
 > If some serial/lot-numbered items use specific tracking, then those are respected first and under them, the remaining, non-specific, serial/lot numbers are listed according to FEFO.
 <br /><br />
-If two serial/lot-numbered items have the same expiration date, then the program selects the item with the lowest serial or lot number.
+If two serial/lot-numbered items have the same expiration date, then application selects the item with the lowest serial or lot number.
 <br /><br />
 When picking serial/lot-numbered items in locations set up for directed put-away and pick, only quantities on bins of type *Pick* are picked according to FEFO.  
 <br /><br />
