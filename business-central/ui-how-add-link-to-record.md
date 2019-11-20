@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 10/21/2019
 ms.author: sgroespe
-ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315283"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649795"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Manage Attachments, Links, and Notes on Cards and Documents
 
@@ -52,9 +52,7 @@ The following procedure is based on an item card. The steps are similar for all 
 3. In the **Links**, choose the **+** icon.
 4. In the **Link Address** field, enter the link.
 
-    - To link to a file on your computer or network, enter the full path and file name, such as **C:\My Documents\invoice1.doc**.
-    - To link to website, enter the Internet address (URL), such as **www.microsoft.com**.
-    - To link to a programme, enter a specific string to open the programme. For example, to open Outlook with a new empty email to a specific alias, enter **mailto:testalias**.  
+    The link must be a valid internet or intranet URL.
 
 5. In the **Description** field, enter any information about the link.  
 6. Choose the **OK** button.

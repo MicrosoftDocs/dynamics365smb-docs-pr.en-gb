@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 369fcd1905d701f7262e1b4d444dc20321b393e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 497045b1c79f1ea27bebe994bbfbc39d5a29e1d9
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300888"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649819"
 ---
 # <a name="extending-included365finincludesd365fin_mdmd"></a>Extending [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is a business management solution that helps companies connect their financials, sales, service, and operations to streamline business processes, improve customer interactions, and make better decisions. [!INCLUDE[d365fin](includes/d365fin_md.md)] is available in the cloud and to users across various multiple types of devices, which is always up-to-date. With this modern business platform you can easily and quickly tailor, extend, and build applications so they fit your specific needs — with little to no code development.  
@@ -58,10 +58,10 @@ Extend the experience and capability of [!INCLUDE[d365fin](includes/d365fin_md.m
 Comply with local regulatory capabilities by developing for [!INCLUDE[d365fin](includes/d365fin_md.md)], which adapts functional areas to the requirements of the local market along with [Dynamics 365 Translation Service](/dynamics365/unified-operations/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview). Align the core capabilities of local legal requirement and extend existing functionality to successfully compete on your local market. Learn more about the [Development of a Localisation Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
 ### <a name="reseller-solution"></a>Reseller Solution
-Since every business is unique, with [Customising Tenants](/dynamics-nav/developer/readiness/readiness-customizing-tenants), you can match how you work with your streamlined processes, your terminology, and how your employees or departments connect and collaborate. Additionally, you can choose to resell and adjust [!INCLUDE[d365fin](includes/d365fin_md.md)] to the individual needs of your customers by providing [Consulting Services](/dynamics-nav/developer/readiness/readiness-consulting). Or, use Microsoft Flow, Power Apps, and Power BI to create [Customised Workflows](/dynamics-nav/developer/readiness/readiness-no-code), apps and business insight reports without having to write any code. Learn more about [Dynamics 365 Reseller (VARs)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
+Since every business is unique, with [Customising Tenants](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants), you can match how you work with your streamlined processes, your terminology, and how your employees or departments connect and collaborate. Additionally, you can choose to resell and adjust [!INCLUDE[d365fin](includes/d365fin_md.md)] to the individual needs of your customers by providing [Consulting Services](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting). Or, use Microsoft Flow, Power Apps, and Power BI to create [Customised Workflows](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-no-code), apps and business insight reports without having to write any code. Learn more about [Dynamics 365 Reseller (VARs)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
 
-## <a name="where-do-i-learn-more"></a>Where do I Learn more?
-To learn more about the Microsoft AppSource consulting services offerings, select the following links:
+## <a name="where-do-i-learn-more"></a>Where Do I Learn more?
+To learn more about the Microsoft AppSource consulting services offerings, see the following links:
 
 [AppSource Consulting Offerings](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1)  
 [Partner Eligibility](https://smp-cdn-prod.azureedge.net/documents/Microsoft%20AppSource%20Partner%20Listing%20Guidelines.pdf)  
@@ -70,7 +70,7 @@ To learn more about the Microsoft AppSource consulting services offerings, selec
 ## <a name="the-ready-to-go-program"></a>The Ready to Go Programme
 The Ready to Go programme is designed to support you in bringing your [!INCLUDE[d365fin](includes/d365fin_md.md)] offering into Microsoft Appsource. The programme includes:
 
-- [Online learning](https://aka.ms/ReadyToGoOnlineLearning)
+- [Online learning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-catalog)
 - [Training and workshops](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)
 - [Microsoft Collaborate platform](https://aka.ms/Collaborate)
 

@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 10/01/2019
-ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/06/2019
+ms.openlocfilehash: e1c7d5f7880f283c0b26679572202aaa769a1227
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313619"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767664"
 ---
 # <a name="resources-for-help-and-support"></a>Resources for Help and Support
 
@@ -73,7 +73,7 @@ The **Troubleshooting** section shows technical information that your administra
 Your [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner will help you with technical support. [!INCLUDE[prodshort](includes/prodshort.md)] is sold through partners, and this section makes it easy for you to contact your reselling partner if they have submitted their support contact details. If your [!INCLUDE[prodshort](includes/prodshort.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft.  
 
 > [!NOTE]
-> This section is only available if you have paid for a [!INCLUDE [prodshort](includes/prodshort.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prodshort](includes/prodshort.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team. You can find a [!INCLUDE[prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
+> This section is only available if you have paid for a [!INCLUDE [prodshort](includes/prodshort.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prodshort](includes/prodshort.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team. You can find a [!INCLUDE[prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner).  
 
 ### <a name="support-contacts"></a>Support contacts
 
@@ -83,6 +83,8 @@ To alert your partner to a problem, choose the link to either send an email or o
 
 ## <a name="see-also"></a>See Also
 
+[Business Central Learning Catalogue](readiness/readiness-learning-catalog.md)  
+[How do I find a reselling partner?](across-faq.md#findpartner)  
 [Blog post: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Business Central developer and ITpro docs](/dynamics365/business-central/dev-itpro/)  
 [Resources for Help and Support for Partners](/dynamics365/business-central/dev-itpro/help-and-support)  

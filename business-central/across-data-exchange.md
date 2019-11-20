@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209516aff6195901f06705d2a2fb27d7144c4a0a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 700c0e8456185ffdf9c322f58b59337c8be44328
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300648"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692687"
 ---
 # <a name="exchanging-data-electronically"></a>Exchanging Data Electronically
 You can use the Data Exchange Framework to exchange business documents, bank files, currency exchange rates, and any other data files with your business partners.
@@ -32,15 +32,15 @@ To receive, for example, an invoice from a vendor as an electronic PEPPOL docume
  To receive, for example, an invoice as an electronic OCR document, you process it as when you receive an electronic PEPPOL document. The receiving and conversion of electronic documents from OCR are performed by the Data Exchange Framework, represented by the **OCR – Invoice** data exchange definition.  
 
 ## <a name="bank-files"></a>Bank Files  
- The formats of files for exchange of bank data with ERP systems vary depending on the supplier of the file and on the country/region. The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)]  supports import and export of SEPA bank files (Single Euro Payments Area) and a bank data conversion service provided by external provider, AMC Consult. To provide support for other electronic document formats, you use the Data Exchange Framework.  
+The formats of files for exchanging bank data with ERP systems vary depending on the supplier of the file and the country or region. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports import and export of SEPA bank files (Single Euro Payments Area) and the AMC Banking 365 Fundamentals extension lets you connect to a bank data conversion service provided by external provider, AMC Consult. To provide support for other electronic document formats, you use the Data Exchange Framework.  
 
-To export SEPA credit transfers, you choose **Export Payments to File** button on the **Payment Journal** page and then upload the file to process the payments in your bank. First you must set up various master data, such as bank account, vendors, and payment methods. The data conversion and export of SEPA bank data is performed by a dedicated codeunit and XMLport, represented by the **SEPA Credit Transfer** bank export/import setup. Alternatively, you can set up the bank data conversion service to perform the export, represented by the **Bank Data Conversion Service - Credit Transfer** data exchange definition.  
+To export SEPA credit transfers, you choose **Export Payments to File** button on the **Payment Journal** page and then upload the file to process the payments in your bank. First you must set up various master data, such as bank account, vendors, and payment methods. The data conversion and export of SEPA bank data is performed by a dedicated codeunit and XMLport, represented by the **SEPA Credit Transfer** bank export/import setup. Alternatively, you can set up the AMC Banking 365 Fundamentals extension to perform the export, represented by the **Bank Data Conversion Service - Credit Transfer** data exchange definition.  
 
 To export SEPA direct debit instructions, you choose the **Export Direct Debit File** button on the **Direct Debit Collections** page and then send to your bank to automatically collect the involved customer payments. First you must set up bank accounts, customers, direct-debit mandates, and payment methods. The data conversion and export of SEPA bank data is performed by dedicated a codeunit and XMLport, represented by the **SEPA Direct Debit** bank export/import setup.  
 
-To import SEPA bank statements, you choose the Import Bank Statement button in the **Payment Reconciliation Journal** and **Bank Acc. Reconciliation** pages and then you proceed to apply each bank statement entry to payments or bank ledger entries, manually or automatically. First you must set up bank accounts. The import and data conversion of SEPA bank data is performed by the Data Exchange Framework, represented by the **SEPA CAMT** data exchange definition. Alternatively, you can set up the bank data conversion service to perform the import, represented by the **Bank Data Conversion Service – Bank Statement** data exchange definition.  
+To import SEPA bank statements, you choose the Import Bank Statement button in the **Payment Reconciliation Journal** and **Bank Acc. Reconciliation** pages and then you proceed to apply each bank statement entry to payments or bank ledger entries, manually or automatically. First you must set up bank accounts. The import and data conversion of SEPA bank data is performed by the Data Exchange Framework, represented by the **SEPA CAMT** data exchange definition. Alternatively, you can set up the AMC Banking 365 Fundamentals extension to perform the import, represented by the **Bank Data Conversion Service – Bank Statement** data exchange definition.  
 
- In addition, the local versions of [!INCLUDE[d365fin](includes/d365fin_md.md)] support various other file formats for import/export of bank data, payroll transactions, and other data. For more information, see the “Local Functionality” Help section in your country version of [!INCLUDE[d365fin](includes/d365fin_md.md)] .  
+In addition, the local versions of [!INCLUDE[d365fin](includes/d365fin_md.md)] support various other file formats for importing and exporting bank data, payroll transactions, and other data. For more information, see the “Local Functionality” Help section in your country version of [!INCLUDE[d365fin](includes/d365fin_md.md)] .  
 
 ## <a name="currency-exchange-rates"></a>Currency Exchange Rates  
 You can set up an external service to keep your for currency exchange rates up to date. The service that provides updated currency exchange rates is enabled by a data exchange definition. Accordingly, the **Exch. Rate Update Setup Card** page is a condensed view of the **Data Exchange Definition** page for the data exchange definition in question.  

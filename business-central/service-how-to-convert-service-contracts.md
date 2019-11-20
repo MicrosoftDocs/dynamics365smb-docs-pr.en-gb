@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 777133cb15b6949eafe20abf325556cd8b16bb9a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316067"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554795"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convert Service Contracts that Include VAT Amounts
 Because the VAT rate change tool cannot convert service contracts, these contracts must be converted manually. This topic describes several alternative methods that you can use for service contract conversion.  
@@ -32,9 +32,9 @@ Because the VAT rate change tool cannot convert service contracts, these contrac
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contract Management**, and then choose the related link.  
 2. Under **Lists**, choose **Service Contracts**.  
 3. Create a new prepaid service contract. Enter a start date of **01.01.2017** and an invoice period year for customer **20000**.  
-4. This contract must be signed. On the **Home** tab, in the **Process** group, choose **Sign Contract**.  
+4. To sign the contract, choose the **Sign Contract** action.  
 5. Create a service invoice.
-6. The invoice is listed as an unposted service invoice. To view the service invoice, choose **Service**, choose **Contract Management**, and then choose **Service Invoices**.  
+6. The invoice is listed as an unposted service invoice. To view the service invoice, choose the **Service** action, choose the **Contract Management** action, and then choose the **Service Invoices** action.  
 7. Post the service invoice.  
 
 > [!NOTE]  
@@ -59,7 +59,7 @@ The following procedure describes how to create a new credit memo using the **Ge
 1. Run the VAT rate change tool on July 1, 2017. The general product posting group or the VAT product posting group is changed. For more information, see [Work with VAT on Sales and Purchases](finance-work-with-vat.md).  
 2. After running the VAT rate change tool, enter a contract expiration date for the service contract. You can now delete the service contract line and create a new line that is identical to the old one.  
 3. Create a new invoice for the period of January 2017 to December 2012 using the new VAT rate.  
-4. To create another credit memo, on the **Service Credit Memos** page, choose **New** to create a new service credit memo.  
+4. To create another credit memo, on the **Service Credit Memos** page, choose the **New** action to create a new service credit memo.  
 5. Choose the **Get Prepaid Contract Entries** action.  
 6. After the conversion is complete, VAT and service ledger entries will be correct.  
 

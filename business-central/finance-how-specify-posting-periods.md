@@ -13,12 +13,12 @@ ms.workload: na
 ms.search.keywords: user setup
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 14ffdb7d4be38949a31aebeb86e6312a5e3128aa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e51853d3378fe07680667f38bf729673da40a3c7
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306155"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767521"
 ---
 # <a name="specify-posting-periods"></a>Specify Posting Periods
 Use posting periods to specify when users can post to the general ledger.  
@@ -28,7 +28,7 @@ Use posting periods to specify when users can post to the general ledger.
 2. On the **General Ledger Setup** page, define the period by entering dates in the **Allow Posting From** and **Allow Posting To** fields.  
 
 > [!NOTE]  
->   These posting periods apply to the company and to all users. To allow for exceptions, you can define different posting periods for specific users on the **User Setup** page. These posting periods overrule those specified on the **General Ledger Setup** page. For more information, see [To set up user time constraints](ui-how-users-permissions.md#to-set-up-user-time-constraints).
+>   These posting periods apply to the company and to all users. To allow for exceptions, you can define different posting periods for specific users on the **User Setup** page. These posting periods overrule those specified on the **General Ledger Setup** page. For more information, see [To set up user time constraints](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  

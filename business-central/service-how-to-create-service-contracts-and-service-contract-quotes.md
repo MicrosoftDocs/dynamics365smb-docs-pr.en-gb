@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311699"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553923"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Work with Service Contracts and Service Contract Quotes
 You can create a service contract either manually or from a service contract quote. You can use a service contract quote as a forerunner of a service contract, in which your company makes an offer to the customer and obtains customer approval before you can convert it to a service contract. The procedures for creating either a service contract or service contract quote are similar.  
@@ -73,7 +73,7 @@ You can use a contract service credit memo when a customer cancels a prepaid ser
 
  To automatically create a credit memo when contract lines are removed from a service contract, on the **Service Contract** page, on the **Invoice Details** FastTab, select the **Automatic Credit Memos** check box.  
 
- To manually create a credit memo when contract lines are removed from a service contract, on the **Service Contract** page, on the **Actions** tab, in the **Functions** group, choose **Credit Memo**.  
+ To manually create a credit memo when contract lines are removed from a service contract, on the **Service Contract** page, choose the **Credit Memo** action.  
 
 ## <a name="updating-and-evaluating-contracts"></a>Updating and evaluating contracts
 Sometimes you have to change the terms of a contract after it has been created. In most cases, you open the relevant contract on the **Service Contract** page, and change it as necessary.  
@@ -99,12 +99,12 @@ You may need to remove contract lines from the service contract as you remove co
 4. Choose the contract line you want to remove. Fill in the **Contract Expiration Date** field with the date as of which you want to remove the line. For example, you could enter the date when the service item broke down.  
 5. Choose the **Remove Contract Lines** action. The **Remove Lines from Contract** page opens.  
 6. Fill in the default filters: **Contract No.**, **Service Item No.**, and **Contract Type**. If needed, you can apply more filters or change the existing ones.  
-7. Fill in the fields on the **Options** FastTab. In the **Action** field, select **Delete Lines**.  
+7. Fill in the fields on the **Options** FastTab, and then choose the **Delete Lines** action.  
 
 > [!NOTE]  
 >  If the contract is not detailed, you must update the value in the **Annual Amount** field on the **Invoice Details** FastTab on the **Service Contract** page, reflecting the loss of the service item from the contract.  
 >   
->  If the contract is detailed and prepaid, and you have posted invoices for the contract, you can create a credit memo for the contract. On the **Actions** tab, in the **Functions** group, choose **Create Credit Memo**. This is unnecessary if the check box in the **Automatic Credit Memos** field on the **Invoice Details** FastTab is selected. In that case, a credit memo is created automatically when you remove a contract line.
+>  If the contract is detailed and prepaid, and you have posted invoices for the contract, you can create a credit memo for the contract. Choose the **Create Credit Memo** action. This is unnecessary if the check box in the **Automatic Credit Memos** field on the **Invoice Details** FastTab is selected. In that case, a credit memo is created automatically when you remove a contract line.
 
 ## <a name="service-line-cost-and-value"></a>Service Line Cost and Value
 On a service contract lines, the amounts in the **Line Cost** and **Line Value** are calculated as described in the following tables.
@@ -150,7 +150,7 @@ You may need to change the owner of a service contract. If a service item in a s
 4. In the **Contract No.** and **Service Item No**. fields you can see the numbers of the contract and service item owned by the selected customer. If the customer owns more than one contract with more than one service item included, then the value of these fields will be **Multiple**. To see the list of related contracts or service items, select these field values.  
 5. In the **New Customer No.** field, choose the new customer.  
 6. In the **New Ship-to Code** field, choose the address.  
-7. Choose **OK** to change the customer and ship-to code of the service contracts.  
+7. Choose the **OK** button to change the customer and ship-to code of the service contracts.  
 8. Choose the **Lock Contract** action to lock the contract and to make sure that the changes will be part of the contracts.  
 
 ## <a name="to-update-a-service-contract-price"></a>To update a service contract price  

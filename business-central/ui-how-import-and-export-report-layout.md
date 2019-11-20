@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315235"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553825"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Import and Export a Report or Document Layout
 You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then make the modifications to layout and return the file to you so that you can import it back.  
@@ -29,11 +29,11 @@ You can import and export an existing custom report layout as a file to and from
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
 
-2.  Select the row for the report that contains the custom report layout that you want to export, and then on the **Home** tab, in the **Process** group, choose **Custom Layouts**.  
+2.  Select the row for the report that contains the custom report layout that you want to export, and then choose the **Custom Layouts** action.  
 
-3.  On the **Report Layouts** page, select the report layout that you want to export to a file, and then on the **Home** tab, in the **Process** group, choose **Export Layout**.  
+3.  On the **Report Layouts** page, select the report layout that you want to export to a file, and then choose the **Export Layout** action.  
 
-4.  In the **Export File** dialogue box, choose **Save**, and then save the file to a location on your computer or network.  
+4.  In the **Export File** dialogue box, choose the **Save** button, and then save the file to a location on your computer or network.  
 
 ### <a name="to-import-a-report-layout-file"></a>To import a report layout file  
 
@@ -43,11 +43,11 @@ You can import and export an existing custom report layout as a file to and from
 
 2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
 
-3.  Select the row for the report to which you want to import the report layout, and then on the **Home** tab, in the **Process** group, choose **Custom Layouts**.  
+3.  Select the row for the report to which you want to import the report layout, and then choose the **Custom Layouts** action.  
 
-4.  On the **Report Layouts** page, select the report layout to which you want to import the file, and then on the **Home** tab, in the **Process** group, choose **Import Layout**.  
+4.  On the **Report Layouts** page, select the report layout to which you want to import the file, and then choose the **Import Layout** action.  
 
-5.  In the **Import** dialogue box, select the document that defines the report layout, and then choose **Open**.  
+5.  In the **Import** dialogue box, select the document that defines the report layout, and then choose the **Open** button.  
 
  The original custom report layout is replaced with the imported report layout.  
 

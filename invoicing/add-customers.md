@@ -9,14 +9,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 0f8ee16195036611702326fecf0762cbf6608266
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fee580992bda258a338123fb53a0e0ba722bc0e8
+ms.sourcegitcommit: a64e1abcc3c1974c87fe3e33fa6983ea7fbbb3ff
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313752"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2778110"
 ---
 # <a name="managing-information-about-customers"></a>Managing information about customers
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
+
 Keeping information about your customers up-to-date makes it faster and easier to create estimates and invoices. For example, when you choose the customer while creating an invoice, Invoicing fills in information about the customer for you.  
 
 In Invoicing, you can add and manage information about customers in the **Customers** list, and you can also create customers on the fly when you create estimates and invoices. If the customer isn't already in your list of customers Invoicing will add the customer and the information you add about them to the Customers list. This happens automatically, that is, you don't need to do anything. If you later want to add more details about the customer, or delete them, you'll find the customer in the Customer list.    <br></br>

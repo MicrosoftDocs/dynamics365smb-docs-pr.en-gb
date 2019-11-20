@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dcb1f7e94aacb07bb314aa5053d789877e3b49a8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e3d77e5f9a018325855594da62fc4a45f711e30b
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306563"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554237"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Transfer, Split, or Combine Fixed Assets
 You use the fixed asset reclassification journal to transfer, split up, and combine fixed assets. You view or print the results of fixed asset reclassification with the **Fixed Asset-Book Value 02** report.
@@ -59,7 +59,7 @@ You can combine multiple fixed assets into one fixed asset, for example when you
 2. Create a reclassification journal where the **FA No.** field contains the fixed asset to be moved/combined, and the **New FA No.** field contains the fixed asset that it will be combined with.
 3. Leave the **Reclassify Acq. Cost %** field empty to move/combine the entire acquisition cost.    
 4. Select the **Reclassify Acquisition Cost** and **Reclassify Depreciation** check boxes.
-5. On the **Actions** tab, choose **Reclassify**.
+5. Choose the **Reclassify** action.
 
     Two lines are now created in the fixed asset G/L journal using the template and batch that you have specified on the **FA Journal Setup** page for the specified depreciation book. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).   
 6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.

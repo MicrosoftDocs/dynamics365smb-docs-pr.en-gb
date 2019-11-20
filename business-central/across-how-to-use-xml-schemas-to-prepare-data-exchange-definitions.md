@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b00ed408bcdc5b98a7c23a8083109b140db175ae
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305123"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554453"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Use XML Schemas to Prepare Data Exchange Definitions
 To enable import/export of data in XML files through the data exchange framework in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use XML schemas to define which data elements you want to exchange with [!INCLUDE[d365fin](includes/d365fin_md.md)]. You perform this work on the **XML Schema Viewer** page by loading the XML schema file, selecting the relevant data elements, and then initialising either a data exchange definition or an XMLport.  
@@ -40,9 +40,9 @@ To enable import/export of data in XML files through the data exchange framework
 
 1.  Make sure that the relevant XML schema file is available. The file extension is .xsd.  
 
-2.  In the **Search** box, enter **XML Schemas**, and then choose the related link.  
+2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schemas**, and then choose the related link.  
 
-3.  On the **Home** tab, in the **New** group, choose **New**.  
+3.  Choose the **New** action.  
 
 4.  Fill the fields as described in the following table.  
 
@@ -53,7 +53,7 @@ To enable import/export of data in XML files through the data exchange framework
 
      The **Target Namespace** field specifies any namespace in the XML schema file that has been loaded for the line.  
 
-5.  On the **Home** tab, in the **Process** group, choose **Load Schema**, and then select the XML schema file.  
+5.  Choose the **Load Schema** action, and then select the XML schema file.  
 
      When the file is loaded, the rest of the fields on the line are filled with information from the file, and the **Schema is Loaded** check box is selected.  
 
@@ -62,7 +62,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>To select or clear nodes in an XML schema  
 
-1.  In the **Search** box, enter **XML Schema Viewer**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schema Viewer**, and then choose the related link.  
 
 2.  Fill the fields on the header as described in the following table.  
 
@@ -77,7 +77,7 @@ To enable import/export of data in XML files through the data exchange framework
 
      Alternatively, right-click on a node and then choose **Expand All**.  
 
-4.  On the **Home** tab, in the **View** group, choose either of the following actions to change which nodes are displayed.  
+4.  Choose either of the following actions to change which nodes are displayed.  
 
     |**Action**|Description|  
     |----------------|---------------------------------------|  
@@ -85,7 +85,7 @@ To enable import/export of data in XML files through the data exchange framework
     |**Hide Non-Mandatory**|Only nodes representing elements that are required according to the XML schema are shown. These nodes are typically indicated by a **1** in the **MinOccurs** field.<br /><br /> Choose **Show All** to reverse the view.|  
     |**Hide Non-Selected**|Only nodes where the **Selected** check box is selected are shown.<br /><br /> Choose **Show All** to reverse the view.|  
 
-5.  On the **Home** tab, in the **Manage** group, choose **Edit**.  
+5.  Choose the **Edit** action.  
 
 6.  In the **Selected** check box, specify for each node if you want the element to be supported in the data exchange definition for the related SEPA bank file.  
 
@@ -100,13 +100,13 @@ To enable import/export of data in XML files through the data exchange framework
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>To generate a data exchange definition that is based on an XML schema  
 
-1.  In the **Search** box, enter  **XML Schemas**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter  **XML Schemas**, and then choose the related link.  
 
-2.  Select the relevant XML schema, and then on the on the **Home** tab, in the **Process** group, choose **Open XML Schema Viewer**.  
+2.  Select the relevant XML schema, and then choose the **Open XML Schema Viewer** action.  
 
 3.  Make sure the relevant nodes are selected. For more information, see the “To select or clear nodes in an XML schema” section.  
 
-4.  On the **XML Schema Viewer** page, on the **Home** tab, in the **Process** group, choose **Generate Data Exchange Definition**.  
+4.  On the **XML Schema Viewer** page, choose the **Generate Data Exchange Definition** action.  
 
  A data exchange definition is created on the **Posting Exchange Definition** page, which you can complete by specifying which elements in the file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -115,15 +115,15 @@ To enable import/export of data in XML files through the data exchange framework
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>To generate an XMLport that is based on an XML schema  
 
-1.  In the **Search** box, enter  **XML Schemas**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter  **XML Schemas**, and then choose the related link.  
 
-2.  Select the relevant XML schema, and then on the on the **Home** tab, in the **Process** group, choose **Open XML Schema Viewer**.  
+2.  Select the relevant XML schema, and then choose the **Open XML Schema Viewer** action.  
 
 3.  In the **New XMLport No.** field, specify the number that the new XMLport object will be given when it is generated.  
 
 4.  Make sure the relevant nodes are selected. For more information, see the “To select or clear nodes in an XML schema” section.  
 
-5.  On the **Home** tab, in the **Process** group, choose **Generate XMLport**, and then save the object as a .txt file in an appropriate location.  
+5.  Choose the **Generate XMLport** action, and then save the object as a .txt file in an appropriate location.  
 
 6. Import the new XMLport into the [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment and compile it.
 

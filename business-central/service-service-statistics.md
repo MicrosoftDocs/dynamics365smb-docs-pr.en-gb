@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 16b3a3be096bc8d5391b7a14b56524191663ff56
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315883"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553849"
 ---
 # <a name="viewing-service-statistics"></a>Viewing Service Statistics
 You can use statistics to analyse service documents and determine how well you are managing your service processes. You can analyse service contracts, items, quotes, orders, invoices, and credit memos by choosing the **Statistics** action. For service items and contracts, you can also use the **Service Item Trendscape** or **Contract Trendscape** to view a summary of service ledger entries for a specific service item.   
@@ -93,7 +93,7 @@ A contract gain or loss entry is generated when a contract quote is converted to
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Viewing Statistics for Posted Service Documents
 The service statistics feature lets you gain a statistical overview of the contents of posted service documents, such as a posted shipment, posted invoice, and posted credit memo.  
 
-The statistical information is displayed in the statistics page for the corresponding posted service document. You can open the relevant statistics page from posted service shipment, posted service invoice, or posted service credit memo documents. For each of these document types, in the **Home** tab, in the **Process** group, choose **Statistics**. For example, from the **Posted Service Invoices** page, on the **Home** tab, in the **Process** group, choose **Statistics**.  
+The statistical information is displayed in the statistics page for the corresponding posted service document. You can open the relevant statistics page from posted service shipment, posted service invoice, or posted service credit memo documents. For each of these document types, choose the **Statistics** action. For example, from the **Posted Service Invoices** page, choose the **Statistics** action.  
 
 ### <a name="posted-service-shipment-statistics"></a>Posted Service Shipment Statistics  
 The **Service Shipment Statistics** page provides an overview of a posted service shipment. This includes information about the physical contents of the shipment, such as quantity of the shipped items, resource hours or costs, and weight and volume of the shipped items.  

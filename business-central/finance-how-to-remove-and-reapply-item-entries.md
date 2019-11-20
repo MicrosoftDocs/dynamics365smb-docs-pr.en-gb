@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3d9d602690b8d4ca7714b328759a705204c740ee
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898548bd33bbc9a5a7ae7400c626bf7a7820bfd4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306059"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554141"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Remove and Reapply Item Ledger Entries
 On the **Application Worksheet** page, you can view and manually change certain item application entries that are created automatically during inventory transactions.  
@@ -61,7 +61,7 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>To reapply an item application by using the Application Worksheet  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
 2.  The **Application Worksheet** page opens displaying existing item ledger entries for all items.  
-3.  To reapply entries that were removed since the worksheet was opened, select the item ledger entry that you want to reapply. On the **Actions** tab, in the **Functions** group, choose **Reapply**.  
+3.  To reapply entries that were removed since the worksheet was opened, select the item ledger entry that you want to reapply, and then choose the **Reapply** action.  
 
     > [!NOTE]  
     >  This reapplication to the original balance also occurs automatically when you close the **Application Worksheet** page.  

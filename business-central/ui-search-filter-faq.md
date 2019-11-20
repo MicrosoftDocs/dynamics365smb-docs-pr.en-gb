@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: 93a68509653aef29bb8f798e7fded70bab550e13
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315067"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695198"
 ---
 # <a name="searching-and-filtering-faq"></a>Searching and Filtering FAQ
 This article answers common questions you might have about searching and filtering.
@@ -52,5 +52,5 @@ As an on-premises administrator, you increase the time-limit on searches by chan
 ## <a name="see-also"></a>See also 
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
-[Finding Pages from a Feature Overview](ui-role-explorer.md)  
+[Finding Pages with the Role Explorer](ui-role-explorer.md)  
 [Getting Started](product-get-started.md)  

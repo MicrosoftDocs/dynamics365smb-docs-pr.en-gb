@@ -9,14 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c30640acf7256c59c8200a21c60db899feb3b2e0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a2abad18eb8ec173c1b0fd9d3688ea50ecc83ffb
+ms.sourcegitcommit: a64e1abcc3c1974c87fe3e33fa6983ea7fbbb3ff
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313740"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2778089"
 ---
 # <a name="give-a-discount-using-in-included365inv_longincludesd365inv_longmd"></a>Give a discount using in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
 
 When you add products to an invoice or an estimate, you can grant a discount at two different levels:  
 

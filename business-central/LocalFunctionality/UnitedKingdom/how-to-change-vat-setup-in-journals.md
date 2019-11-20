@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dae503a548644634a04c77404c88fb95a115c326
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 94778611d9121386e47dadb7ef6c7e420a201d85
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300957"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554554"
 ---
 # <a name="change-vat-setup-in-journals"></a>Change VAT Setup in Journals
 You can add VAT setup information to journal lines if needed. If you enter items without VAT, you do not need to remove VAT setup information manually.  
@@ -35,4 +35,4 @@ You can add VAT setup information to journal lines if needed. If you enter items
 
 ## <a name="see-also"></a>See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)   
-[How To: Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+[Report VAT to Tax Authorities](../../finance-how-report-vat.md)

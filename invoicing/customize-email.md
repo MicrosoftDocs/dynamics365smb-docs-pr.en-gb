@@ -9,14 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: e3927afbac34ffea7bbc4af03c29fa5ce33de58f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5bb25466ad75cfc3a7422f074138384ab02c6d4d
+ms.sourcegitcommit: a64e1abcc3c1974c87fe3e33fa6983ea7fbbb3ff
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313744"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2778093"
 ---
 # <a name="define-the-default-email-message-in-included365inv_longincludesd365inv_longmd"></a>Define the default email message in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
 
 When you first start using [!INCLUDE[d365inv](includes/d365inv.md)], your invoices are sent with a standard email text, but you can change that to suit your business.  
 

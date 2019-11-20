@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 43aea054ce4e66e9108f408d96c2eb491351b382
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cffa7d23b7c09561914cc00a8a4b9820ed743c29
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304944"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775362"
 ---
 # <a name="auditing-changes-in-business-central"></a>Auditing Changes in Business Central
 
@@ -48,5 +48,5 @@ The information is displayed in the **Activity Log** page, according to the cont
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Sorting](ui-sorting.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
-[Manage Users and Permissions](ui-how-users-permissions.md)    
+[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

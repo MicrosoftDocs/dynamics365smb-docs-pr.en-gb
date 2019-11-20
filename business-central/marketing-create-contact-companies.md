@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: sgroespe
-ms.openlocfilehash: f4bf8e694a7b034eb601c3bf39bd420ff61ab73a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf7ef0013cac921ec7ab7b1fa505a9c2f0852a33
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309323"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798578"
 ---
 # <a name="create-contacts"></a>Create Contacts
 You regularly meet persons from other companies that may develop into business relationships, such as a customer relation. When such a new contact is made, as much information as possible must be recorded on a contact card so that communication can continue.
 
 You can create the contact as type **Company**, for example, if the relation not an individual person but an entity, such as a contractor or a bank. You an also create the contact as type **Person**. Functionality is more or less the same for both types and both can be changed as the relationship evolves.
 
-When a contact card is converted to a customer card, for example, the contact person or contact company becomes the name of the customer. The contact card remains, and data on the two cards will be synchronised going forward is you link them.
+When a contact card is converted to a customer card, for example, the contact person or contact company becomes the name of the customer. The contact card remains, and data on the two cards will be synchronised going forward if you link them.
 
 ## <a name="person-or-company"></a>Person or Company
 You can decide to set up a contact as a person or a company, typically depending on whether you know the name of the contact person at the time of creation. You do this when you fill in the **Type** field on the **Contact Card** page. You can also maintain contact cards for both a company and one or more persons working in the company. This happens automatically when you fill in the **Company Name** field on a contact card of type **Person**.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 3a5fc25004ce7dd838369ff178b8d613fb984acd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313523"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649771"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimum Requirements for Using Business Central
 Before you access [!INCLUDE [prodshort](includes/prodshort.md)] online, we recommend that you verify that your computer or mobile device meets or exceeds the minimum system requirements for the product. This article lists the requirements.  
@@ -33,9 +33,9 @@ Before you access [!INCLUDE [prodshort](includes/prodshort.md)] online, we recom
 **Device size:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is supported on smartphones with a minimum screen size of 4” and tablets with a minimum screen size of 7”.  
 
 ## <a name="outlook"></a>Outlook
-**Outlook applications:** To use [!INCLUDE[d365fin](includes/d365fin_md.md)] online as your business inbox in Outlook, you will need Outlook 2016 or later, Outlook Web App, OWA for iPhone, OWA for iPad, or OWA for Android. Your organisation must also use Office 365. You cannot use [!INCLUDE [prodshort](includes/prodshort.md)] online as your business inbox in Outlook if your organisation uses Exchange Server on-premises.  
-**Browsers:** When using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in the Outlook Web App (OWA), the add-in requires that your computer is running one of the listed supported browsers that are listed earlier in this article.  
-**Platforms:** When using the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook Add-In in OWA for iPhone, OWA for iPad, and OWA for Android, the add-in requires that your mobile device is running one of the listed supported mobile devices for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+**Outlook applications:** To use [!INCLUDE[d365fin](includes/d365fin_md.md)] online as your business inbox in Outlook, you will need Outlook 2016 or later, Outlook in a browser, Outlook for iPhone, Outlook for iPad, or Outlook for Android. Your organisation must also use Office 365. You cannot use [!INCLUDE [prodshort](includes/prodshort.md)] online as your business inbox in Outlook if your organisation uses Exchange Server on-premises.  
+**Browsers:** When using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in Outlook in a browser, the add-in requires that your computer is running one of the listed supported browsers that are listed earlier in this article.  
+**Platforms:** When using the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook Add-In in Outlook for iPhone, Outlook for iPad, or Outlook for Android, the add-in requires that your mobile device is running one of the listed supported mobile devices for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="excel"></a>Excel
 **Edit in Excel:** To use the Excel add-in to make changes in Excel and push the changes back into [!INCLUDE[d365fin](includes/d365fin_md.md)], you need Excel 2016 or later. For more information, see [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  

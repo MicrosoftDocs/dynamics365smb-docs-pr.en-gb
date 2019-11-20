@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 10/01/2019
+ms.date: 11/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 00a07acfb455b9b1ddf714f7ca7e49a56a8aebbc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b96b5cbff2ec182ab1a7254ee3384a6d1869e3c4
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304254"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775434"
 ---
 # <a name="manage-profiles"></a>Manage Profiles
 All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a profile that reflects their business role, the department they work in, or another categorisation. Profiles allow administrators to define and manage centrally what different user types can see and do in the user interface so they can perform their business tasks efficiently.
@@ -22,16 +22,13 @@ All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a profile 
 
 As an administrator, you create and manage profiles on the **Profiles (Roles)** page. Each profile has a card where you manage various settings for the related role, such as the role name, the user settings, and which Role Centre the profile uses. For more information about user settings and Role Centres, see [Change Basic Settings](ui-change-basic-settings.md).
 
-Before you can administrate users' profiles, the users must be created and added, through the Office 365 Admin Centre. Then you can assign permissions to each user or user group to define which features they are allowed to view and/or edit. For more information, see [Manage Users and Permissions](ui-how-users-permissions.md).
+Before you can administrate users' profiles, the users must be created and added, through the Office 365 Admin Centre. Then you can assign permissions to each user or user group to define which features they are allowed to view and/or edit. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
 ## <a name="page-customization"></a>Page Customisation
 You can customise page layouts for a profile so that all users assigned the profile will see the customised pages. As an administrator, you customise pages by using the same functionality as users do when they personalise. For more information, see [Customise Pages for Profiles](ui-personalization-manage.md).
 
 ## <a name="to-create-a-profile"></a>To create a profile
 If you cannot copy an existing profile, you can create a new one manually.
-
-> [!NOTE]
-> All profiles can be copied, but the profiles page customisations can only be copied if they are user-created.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)**, and then choose the related link.  
 2. On the **Profiles (Roles)** page, choose the **New** action.  
@@ -40,15 +37,18 @@ If you cannot copy an existing profile, you can create a new one manually.
 ## <a name="to-copy-a-profile"></a>To copy a profile
 To save time, you can create a new profile by copying an existing one. Copy one that has similar settings to the one you want to create.
 
-1. On the **Profiles (Roles)** page, select the line for the profile that you want to copy, and then choose the **Copy profile** action.
+> [!NOTE]
+> When you copy a profile, all the involved page customisations are copied as well, both the user-created and those derived from extensions.
+
+1. On the **Profiles (Roles)** page, select the line for the profile that you want to copy, and then choose the **Copy Profile** action.
 2. Fill in the **Profile ID** and **Display Name** fields, and then choose the **OK** button.
 3. On the **Profiles (Roles)** page, open the newly created profile card, and then edit other fields as necessary.
 
 ## <a name="to-edit-a-profile"></a>To edit a profile
-You can edit a profile by changing the fields on the **Profile (Role)** page.
+You can edit a profile by changing the fields on the **Profile (Role)** page. However, the changes will not be visible to user assigned the profile until they sign out and back in.
 
-> [!NOTE]
-> You cannot edit a profile when users assigned the profile are signed in.
+> [!Caution]
+> Do not rename a profile while users assigned the profile are signed in as users may experience that the product freezes and must be restarted.
 
 ## <a name="to-assign-a-profile-to-a-user"></a>To assign a profile to a user
 Users can assign themselves a role (representing a profile) by choosing the **Role** field on the **My Settings** page. As an administrator, you can do the same through the **Profiles (Roles)** page.
@@ -73,25 +73,25 @@ As an administrator, you can define these setting for a profile and thereby appl
 ## <a name="to-activate-a-profile"></a>To activate a profile
 When a profile is created, you can select different check boxes that define if, where, and how the profile and its information is made available to users.
 
-1. On the **Profile (Role)** page, select the following check boxes:
+* On the **Profile (Role)** page, select the following check boxes:
     - **Enabled** to specify if the related role is visible in the **Available Roles** page for users to choose from.  
     - **Use as default profile** to specify the profile that applies to users who are not assigned a specific role.
     - **Disable personalisation** to specify if users of the related role can personalise their workspace.
-    - **Show in Role Explorer** to specify if menu items to business features included in the profile are displayed in the feature overview. For more information, see [Finding Pages from a Feature Overview](ui-role-explorer.md).
+    - **Show in Role Explorer** to specify if actions to business features included in the profile are shown in the extended view of the role explorer, a feature overview. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
-    ## <a name="to-export-user-created-profiles"></a>To export user-created profiles
-    You can export profiles that have been changed either by you or by users, as indicated by **(User-created)** in the **Source** field. The profile is exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customisations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+## <a name="to-export-user-created-profiles"></a>To export user-created profiles
+You can export profiles that have been changed either by you or by users, as indicated by **(User-created)** in the **Source** field. The profile is exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customisations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
-    * On the **Profiles (Roles)** page, choose the **Export User-Created Profiles** action.
+* On the **Profiles (Roles)** page, choose the **Export User-Created Profiles** action.
 
-    A zip file with the .al files for profiles that were newly added or modified is exported.
+A zip file with the .al files for profiles that were newly added or modified is exported.
 
 ## <a name="to-delete-a-profile"></a>To delete a profile
 You can delete a profile by choosing the **Delete** action on the **Profiles (Roles)** page. However, the following limitations apply:
 
+- You cannot delete a profile that is assigned to a user or a user group.
 - You cannot delete profiles that originate from extensions. The extension must first be uninstalled.
-- The profile must be disabled. This also ensures that no users assigned the profile are signed in when you delete.
-- You can only delete one profile at a time.  
+- You can only delete one profile at a time.
 
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>To delete all personalisations made by a user
 You can delete all changes that a user has made to pages that make up their workspace. This may be useful, for example, if an employee has changed role and no longer needs the personalisations. Deleting users' personalisations changes the page layout back to what is defined by the profile.
@@ -124,6 +124,6 @@ The user will see the changes the next time they sign-in.
 You can also delete individual page customisations for a profile. For more information, see [To delete customisation for specific pages for a profile](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
 
 ## <a name="see-also"></a>See Also  
-[Manage Users and Permissions](ui-how-users-permissions.md)  
+[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Customise Pages for Profiles](ui-personalization-manage.md)  
 [Personalise Your Workspace](ui-personalization-user.md)  
