@@ -1,8 +1,6 @@
 ---
 title: How to Use Item Families in Manufacturing | Microsoft Docs
 description: The main task in customizing a base calendar for your company, or one of its business partners, is to enter any changes to working and nonworking day status.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 483d78fcbb21cdfac8811c2bed06f591936577a9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8d773c1c12bd170801b178c1627dc0b3dc718bdb
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313019"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883149"
 ---
 # <a name="work-with-production-families"></a>Work with Production Families
 A production family is a group of individual items whose relationship is based on the similarity of their manufacturing processes. By forming production families, some items can be manufactured twice or more in one production, which will optimise material consumption.

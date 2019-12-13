@@ -1,8 +1,6 @@
 ---
 title: How to Set Up Work Hours and Service Hours | Microsoft Docs
 description: You can specify the usual service working hours in your company. These service hours are used to calculate the response date and time for service orders and quotes, and to send response time warnings.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3adc4f10e8a5b9d26440bf47170f117de7e17310
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6aaf78756f091d70a1a33532afbafb14a5b29bc7
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311771"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877286"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Set Up Work Hours and Service Hours
 Typically, a service management system tracks resource hours and service order status in order to forecast workloads and service needs. [!INCLUDE[d365fin](includes/d365fin_md.md)] has built-in tools that you can customise to record this kind of information.  

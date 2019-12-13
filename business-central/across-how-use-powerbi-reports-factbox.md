@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: a8acad8d0be760f567902587acada49ab68e740f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0506dad5f65766919405dd944d75b014957b509c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304943"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879434"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Viewing List Data in Power BI Reports in Business Central
 
 [!INCLUDE[prodlong](includes/prodlong.md)] includes a FactBox control element on a number of key list pages that provides additional insight into the data in the list. As you move between rows in the list, the report is updated and filtered for the selected entry. You can create custom reports to display in this control, but there are a few rules to follow when creating the reports to ensure they provide the desired behaviour.  
 
 > [!NOTE]  
-> You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, to build custom reports, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).  
+> You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, to build custom reports, you must download [Power BI Desktop](https://powerbi.microsoft.com/desktop/). For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Report Data Set
 When you create the report in Power BI Desktop, specify the data source or web service that contains the data related to the list that you want to associate the report with. For example, if you want to create a report for the Sales List, ensure that the data set contains information related to sales.  

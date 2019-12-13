@@ -8,15 +8,15 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2019
-ms.openlocfilehash: f2b5e3ded5c89f241d0c49ee8c6f9d196c6bae43
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7578cdff40111adcbf2401e6bed33ddf47641107
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308219"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880983"
 ---
 # <a name="classifying-data-sensitivity"></a>Classifying Data Sensitivity
-To classify the fields that hold sensitive or personal data, a Microsoft partner can set the ```DataClassification``` property on fields. This requires access to the database tables, either through the development environment or by running a Windows PowerShell script. For more information, see [Classifying Data](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  
+To classify the fields that hold sensitive or personal data, a Microsoft partner can set the ```DataClassification``` property on fields. This requires access to the database tables, either through the development environment or by running a Windows PowerShell script. For more information, see [Classifying Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 As a customer, you can add a second level of classification by specifying sensitivity levels for the data you store in standard and custom fields. Classifying data sensitivity helps ensure that you know where you keep personal data in your system, and makes it easier to respond to requests from data subjects. For example, if a contact or customer asks you to export their personal data. For more information, see [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md).
 
@@ -48,4 +48,5 @@ For example, the Data Classification worksheet lets you do things like:
 > We have defined sample sensitivity classifications for the tables and fields in the Cronus demonstration company. You can use those classifications as inspiration when you classify your own tables and fields.
 
 ## <a name="see-also"></a>See Also
-[Classifying Data](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data)  
+
+[Classifying Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  

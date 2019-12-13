@@ -1,8 +1,6 @@
 ---
 title: How to Post Service Orders | Microsoft Docs
 description: When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. The order must contain at least one service item line and one service line before you can post it. Should the order contain more than one service line, all the lines are posted at one time.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 05ee230bd8a68d08223ec9942fd410c4a6b3ce39
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: cc2f6261b778c9cd4fc62ae2c0b44003a3b1bf80
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554747"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877214"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Post Service Orders and Credit Memos
 When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. The order must contain at least one service item line and one service line before you can post it. Should the order contain more than one service line, all the lines are posted at one time.  

@@ -1,8 +1,6 @@
 ---
 title: Design Details - Inventory Valuation | Microsoft Docs
 description: Inventory valuation XE "Inventory Valuation"  is the determination of the cost that is assigned to an inventory item, as expressed by the following equation.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f83c00da396b87eb90f7c03f8c673fb3cd2d1aaf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a734d4b270fcce9959bd720f923fc1fd990559ff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307067"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880287"
 ---
 # <a name="design-details-inventory-valuation"></a>Design Details: Inventory Valuation
 Inventory valuation XE "Inventory Valuation"  is the determination of the cost that is assigned to an inventory item, as expressed by the following equation.  

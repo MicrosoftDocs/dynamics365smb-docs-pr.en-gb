@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b57b87dd8cdc9390ed5b1b7136107639f689c192
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c843f0fb6c8017817ada9dc5bf2af0ef68a5cc5a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305003"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878755"
 ---
 # <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>Using [!INCLUDE [prodlong](includes/prodlong.md)] as Power BI Data Source for Building Reports
 
 You can make your [!INCLUDE[prodlong](includes/prodlong.md)] data available as a data source in Power BI and build powerful reports of the state of your business.  
 
-You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). For more information, see [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).  
+You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/desktop/). For more information, see [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).  
 
 ## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-bi-desktop"></a>To add [!INCLUDE[prodshort](includes/prodshort.md)] as a data source in Power BI Desktop
 

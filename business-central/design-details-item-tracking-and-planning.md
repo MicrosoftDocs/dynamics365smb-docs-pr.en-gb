@@ -1,8 +1,6 @@
 ---
 title: Design Details - Item Tracking and Planning | Microsoft Docs
 description: Because they are stored in the reservation system, item tracking numbers are fully coordinated with order tracking records.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0b83cc4daea4e37dae1e1ef7437276205b76cbe5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bc6b919a2c54fc4c500f46b1ad7972350b72e1e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303356"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880263"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Design Details: Item Tracking and Planning
 Because they are stored in the reservation system, item tracking numbers are fully coordinated with order tracking records. This means that items with order tracking records can be assigned item tracking numbers. Conversely, items that have item tracking numbers can become order tracking records. For more information, see [Design Details: Item Tracking Design](design-details-item-tracking-design.md).

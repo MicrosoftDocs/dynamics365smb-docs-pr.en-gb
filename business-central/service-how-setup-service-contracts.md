@@ -1,8 +1,6 @@
 ---
 title: Set Up Service Contracts | Microsoft Docs
 description: Learn how to set up service contracts.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 785a1f813956fa769d55b9bd71544613ca463b5b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 96928809525ef07ee82725bad5dd7f6ac4b7a6e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316147"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877358"
 ---
 # <a name="set-up-service-contracts"></a>Set Up Service Contracts
 Before you can work with contracts, you must set up the following: 

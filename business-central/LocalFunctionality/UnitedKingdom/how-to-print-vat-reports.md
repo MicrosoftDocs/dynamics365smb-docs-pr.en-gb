@@ -1,8 +1,6 @@
 ---
 title: How to Print VAT Reports | Microsoft Docs
 description: Learn about the reports that you can use to report VAT information.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5d5430e581d2ad6ae7a0725cba897d56154318ad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2fdd03519255079e4ca5146787a205fb619dd86c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300953"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878793"
 ---
 # <a name="print-vat-reports"></a>Print VAT Reports
 You can use the following reports for VAT reporting:  

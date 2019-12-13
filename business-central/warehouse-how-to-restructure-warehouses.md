@@ -1,8 +1,6 @@
 ---
 title: How to Restructure Warehouses | Microsoft Docs
 description: You may want to restructure your warehouse with new bin codes and new bin characteristics.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d615322b183a0b99e16ed0802601dcffa1dc6dd1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5562e13a2b430c6f7d3e8875b5b87dbe8febf670
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313863"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876567"
 ---
 # <a name="restructure-warehouses"></a>Restructure Warehouses
 You may want to restructure your warehouse with new bin codes and new bin characteristics. You will not undertake this kind of activity very often, but situations can occur where a reclassification is necessary to achieve or maintain a more efficient operation. For example:  

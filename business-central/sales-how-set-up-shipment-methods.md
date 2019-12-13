@@ -1,8 +1,6 @@
 ---
 title: How to Set Up Shipping Methods | Microsoft Docs
 description: You can set up a code for each of your offered shipment methods, such as  and enter information about them.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: be65cd62cec984cd2571b6e88998dc169741f376
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 75a3e689083e64f446e84b2bc3b1d26961e3d898
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312083"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877550"
 ---
 # <a name="set-up-shipment-methods"></a>Set Up Shipment Methods
 Shipment methods, also called incoterms, often depend on the items, the customers, and the vendors. For example, if the customer lives on an island, they can choose to have items always shipped by air or always by sea. Some customers may require next day delivery. Some may want to pick up the order. On the customer and vendor cards, you can specify what sort of delivery is desired.

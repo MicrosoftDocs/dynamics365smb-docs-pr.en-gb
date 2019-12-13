@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c1ad25642cdbfd9367b1533f1a39d178fe08ebb2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 078313bb3f437734b6e52f51b6d6512ebf09f1df
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312467"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881433"
 ---
 # <a name="record-purchases"></a>Record Purchases
 You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices and purchase orders are also used to dynamically update inventory levels so that you can minimise your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices or orders contribute to profit figures and other financial KPIs on your Role Centre.
@@ -34,6 +34,9 @@ You can easily correct or cancel a posted purchase invoice before you pay the ve
 The item card can be of type **Inventory**, **Service**, and **Non-Inventory** to specify if the item is a physical inventory unit, a labour time unit, or a physical unit that is not kept on inventory. For more information, see [Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for all three item types.
 
 You can fill vendor fields on the purchase invoice in two ways depending on whether the vendor is already registered.
+<br><br>  
+  
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt]
 
 ## <a name="to-create-a-purchase-invoice"></a>To create a purchase invoice
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  

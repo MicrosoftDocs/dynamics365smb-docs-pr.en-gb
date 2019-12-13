@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fea52bfa75d953b96aecc0f3e354806324f77d83
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306323"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808584"
 ---
 # <a name="select-a-check-layout"></a>Select a Cheque Layout
 You can design your cheques to conform with the standards set by the local authorities. Cheque images can be printed in English, French, or Spanish.
@@ -36,10 +36,10 @@ Cheques are designed to print in both the United States and Canadian cheque imag
 
 When you have set up cheque layouts, you can print cheques from the **Payment Journal** page. For more information, see [Work with Cheques](payables-how-work-checks.md).
 
-To change one of these default cheque layouts, use either the Word or the RDLC integration to do so. For more information, see [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).
+To change one of these default cheque layouts, use either the Word or the RDLC integration to do so. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>See Also
-[Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)  
+[Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Managing Bank Accounts](bank-manage-bank-accounts.md)   
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  

@@ -1,8 +1,6 @@
 ---
 title: How to Print Remittance Advice | Microsoft Docs
 description: You can print remittance advice before posting a payment journal and after posting a payment. This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7a1af6b792866d14069d5f2b5216ef63b50f9507
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c3e58f64828154658e9ddfd8ea770a4b47e8990d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300954"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878794"
 ---
 # <a name="print-remittance-advice"></a>Print Remittance Advice
 You can print remittance advice before posting a payment journal and after posting a payment. This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.  

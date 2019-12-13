@@ -1,8 +1,6 @@
 ---
 title: Design Details - Central Concepts of the Planning System| Microsoft Docs
 description: The planning functions are contained in a batch job that first selects the relevant items and period to plan for and then suggests possible actions for the user to take based on the demand/supply situation and the items' planning parameters.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303755"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880599"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Design Details: Central Concepts of the Planning System
 The planning functions are contained in a batch job that first selects the relevant items and period to plan for. Then, according to each item’s low-level code (BOM position), the batch job calls a code unit, which calculates a supply plan by balancing supply-demand sets and suggesting possible actions for the user to take. The suggested actions appear as lines in the planning worksheet or the requisition worksheet.  

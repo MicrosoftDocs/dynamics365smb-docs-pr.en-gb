@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/24/2019
 ms.author: jswymer
-ms.openlocfilehash: 71b4e5b7124f929255f1374b38cfbe28c9f12d2b
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 99fe339426b755b70983d8ec9345858357043347
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692807"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808752"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Viewing and Editing in Excel From Business Central
 
@@ -49,6 +49,8 @@ This was enhanced in 2019 release wave 2. For more information, see [Enhancement
 > For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, this feature is only available for the Web client.
 
 ### <a name="see-the-differences-between-the-options"></a>See the differences between the options 
+<br><br>  
+
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
 ## <a name="see-also"></a>See Also

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 93411d5469373a1084579b1235dcd2befdf921a8
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 79e09037208233b378a4b464acce996537375e6c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554285"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879975"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Depreciate or Amortise Fixed Assets
 Depreciation is used to allocate the cost of fixed assets, such as machinery and equipment, over their depreciable life. For each fixed asset, you must define how it will be depreciated.  
@@ -40,10 +40,11 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **OK** button.  
 
-    The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.  
+    The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.
+
 4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
 
-    On the **Fixed Asset G/L Journal** page, in the **No. of Depreciation Days** field you can see how many days of depreciation have been calculated.  
+    On the **Fixed Asset G/L Journal** page, in the **No. of Depreciation Days** field, you can see how many days of depreciation have been calculated.  
 5. Choose the **Post** action.  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>To post depreciation manually from the fixed asset G/L journal
@@ -53,7 +54,16 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for depreciation posting. For more information, see [To set up fixed asset posting groups](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Choose the **Post** action to post the journal.  
 
+The **Book Value** field on the **Fixed Asset Card** page is updated accordingly.
+
 If you have set up fixed asset allocation keys to allocate amounts to different departments or projects, the amounts are allocated during posting. For more information, see [Set Up General Fixed Assets Information](fa-how-setup-general.md).  
+
+## <a name="to-manage-the-ending-book-value"></a>To manage the ending book value
+In the **Ending Book Value** field on the **FA Depreciation Books** page, you can specify the book value that you want your fixed asset to have in the current depreciation book after it has been fully depreciated. You can do this manually or you can fill in the **Default Ending Book Value** field on the related **Depreciation Book** page, which will then be used to automatically fill the field.
+
+> [!NOTE]
+> If the last depreciation means that the **Book Value** field on the **Fixed Asset Card** page is zero, the last depreciation is automatically reduced by this amount.<br /><br />
+> If the value in the **Book Value** field is greater than zero after the last depreciation,  for example because of a rounding problem or because a salvage value exists, the value in the **Ending Book Value** field on the **FA Depreciation Books** page is ignored. For more information, see [To post the salvage value together with the acquisition cost](fa-how-acquire.md#to-post-the-salvage-value-together-with-the-acquisition-cost).
 
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>To calculate allocations in the fixed asset G/L journal
 If a fixed asset is used by several departments, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.  

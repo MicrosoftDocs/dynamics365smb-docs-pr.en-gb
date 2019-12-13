@@ -1,8 +1,6 @@
 ---
 title: How to Enter Statutory Information | Microsoft Docs
 description: To comply with legal requirements, statutory information is available on the Statutory FastTab on the Company Information page.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9a558da3fa4eb78654dd2c3408689dbb1895453e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fa5cbeeb85806c79b23227a420446d78ca4696f0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300970"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881285"
 ---
 # <a name="enter-statutory-information"></a>Enter Statutory Information
 To comply with legal requirements, statutory information is available on the **Statutory** FastTab on the **Company Information** page.  
@@ -35,7 +33,7 @@ To comply with legal requirements, statutory information is available on the **S
     |**Registered Address 2**|Specifies an additional part of the company's registered address.|  
     |**Registered City**|Specifies the city where the company is registered.|  
     |**Registered County**|Specifies the county of the company's registered address.|  
-    |**Registered Post Code**|Specifies the registered postcode of the company.|  
+    |**Registered Postcode**|Specifies the registered postcode of the company.|  
     |**Branch Number**|Specifies the branch number of the company.|  
     |**Contact Name**|Specifies the name of the contact person for the company.|  
 

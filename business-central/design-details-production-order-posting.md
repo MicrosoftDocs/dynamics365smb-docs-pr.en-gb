@@ -1,8 +1,6 @@
 ---
 title: Design Details - Production Order Posting | Microsoft Docs
 description: Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e6379530eed2c0e3881dd951fbd09602360e5fad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9feb2f4f484d2c8769c133696287252663a96997
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306899"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878468"
 ---
 # <a name="design-details-production-order-posting"></a>Design Details: Production Order Posting
 Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished. For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9814da8c8a29c29e5bfee5da85f6d9b522a03e9d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 51c2260f4c8b5251cc466f8969921ee6cad92c1d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312155"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883029"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Record Special Sales Prices and Discounts
 The different price and discount agreements that apply when selling to different customers must be defined so that the agreed rules and values are applied to sales documents that you create for the customers.
@@ -40,14 +40,14 @@ Because sales prices and sales line discounts are based on a combination of item
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the relevant customer card, and then choose the **Prices** action.
 
-    The **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
+    On the **Sales Prices** page, the **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a special sales price to the customer.
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>To set up a sales line discount for a customer
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the relevant customer card, and then choose the **Line Discounts** action.
 
-    The **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
+    On the **Sales Line Discounts** page, the **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a sales line discount to the customer.
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>To set up an invoice discount for a customer

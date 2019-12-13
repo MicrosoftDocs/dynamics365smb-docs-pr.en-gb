@@ -1,8 +1,6 @@
 ---
 title: Prepare Customer Data Migration | Microsoft Docs
 description: After you import and apply setup data in the new database, you can start migrating the customer’s existing master data, such as item and customer numbers and names. To make sure that this data is created quickly and accurately in the new company, you should use templates to structure the data.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0257b3bdb68a92cdc1719f19a2fc4b73a9e33dc2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f2289ff66e3d95a0df16b2e51b72719b56a20eda
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307782"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896092"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Prepare to Migrate Customer Data
 After you import and apply setup data in the new database, you can start migrating the customer’s existing master data, such as item and customer numbers and names. To make sure that this data is created quickly and accurately in the new company, you should use templates to structure the data.  
@@ -34,9 +32,12 @@ However, you can create a template structure for and apply it to any table in [!
 > [!TIP]  
 >  You can also use data templates for daily operations to create new records that are based on templates. These data templates only work for the supported master data tables. For more information, see, for example, [Register New Items](inventory-how-register-new-items.md).  
 
-When you import customer data, such as for items, from a file, the mandatory field data that you have specified is taken from the linked data template. When you create a new item, you only enter general information such as item name, description, and price and then collect the rest of the mandatory field data from a selected data template.  
+When you import customer data, such as for items, from a file, the mandatory field data that you have specified is taken from the linked data template. When you create a new item, you only enter general information such as item name, description, and price and then collect the rest of the mandatory field data from a selected data template.
 
 When you create a new master data record, such as a customer card, some fields are mandatory and must be filled in. You can group most mandatory fields, such as posting groups and payment terms, to make creating master data records easier and more stable. For example, you can group mandatory fields for table 18, **Customer**, as **Domestic**, **Foreign**, or **Export** types.
+
+> [!NOTE]
+> Fields of type Blob cannot be exported/imported using Excel.
 
 ## <a name="to-select-a-data-template"></a>To select a data template
 When you select an existing data template, you must evaluate if the templates that you created for the new company are sufficient for the customer. Review the provided fields and values to determine which templates are appropriate for a new company.  
@@ -61,7 +62,7 @@ You can quickly create a new data template by copying information from an existi
 2. Choose the **New** action.
 3. Fill in the **Code** field.
 4. Choose the **Copy Config. Template** action.
-5. On the **Configuration Templatesd** page, select an existing template to copy, and then choose the **OK** button.
+5. On the **Configuration Templates** page, select an existing template to copy, and then choose the **OK** button.
 
 The table ID, table name, and lines of the existing data template are inserted in the new template.
 

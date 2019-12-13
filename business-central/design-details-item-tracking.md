@@ -1,8 +1,6 @@
 ---
 title: Design Details - Item Tracking | Microsoft Docs
 description: This topic provides an overview of design details for item tracking.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b263abf09a3d74bbac4f8b94c4dde61644702bfc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1eaa4339512ebc243a7ba8b7e3193c943aeebaef
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303203"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878540"
 ---
 # <a name="design-details-item-tracking"></a>Design Details: Item Tracking
 As the flow of goods in today’s supply chain becomes more and more complex, the ability to keep track of items is increasingly important to the companies involved. Monitoring an item’s transaction flow is a legal requirement in the business of medical and chemical supply, but other businesses may want to monitor products with warranties or expiration dates for customer service reasons.  

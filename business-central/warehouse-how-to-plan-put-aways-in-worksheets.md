@@ -1,8 +1,6 @@
 ---
 title: How to Plan Put-aways in Worksheets | Microsoft Docs
 description: If your location requires both put-away and receive processing, and you want to plan put-away instructions for a number of receipts, rather than have employees follow the instructions that application creates for separate posted receipts, you can use the put-away worksheet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae631fc6383e9aec6edc5fcc432e614f39ee74e4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4537a7f6d450ec71e574c85cef1987232f792479
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314611"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876543"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Plan Put-aways in Worksheets
 If your location requires both put-away and receive processing, and you want to plan put-away instructions for a number of receipts, rather than have employees follow the instructions that application creates for separate posted receipts, you can use the put-away worksheet.  

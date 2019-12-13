@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c971a3cd11f34db0ff04cd66096d74909cca3651
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 6e9456a17ccf8dc6c3e3e8ae8272baa03f43f7da
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577262"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882669"
 ---
 # <a name="update-currency-exchange-rates"></a>Update Currency Exchange Rates
 As companies operate in increasingly more countries/regions, it becomes more important that they be able to trade and report financials in more than one currency. You must set up a code for each currency you use if you buy or sell in currencies other than your local currency, have receivables or payables in other currencies, or record G/L transactions in different currencies.
@@ -45,9 +45,9 @@ If you post in an additional reporting currency, you can have the batch job crea
 The adjustment entries are assigned the default dimensions from the accounts they are posted to.
 
 > [!Important]
-> Before you can use the batch job, you must enter the adjustment exchange rates that are used to adjust the foreign currency balances. You do so on the **Currency Exchange Rates** page.
+> Before you can use the batch job, you must enter the adjustment exchange rates that are used to adjust the foreign currency balances. You do so on the **Currency Exchange Rates** page.<br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Q24s]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>To set up a currency exchange rate service
 You can use an external service to keep your currency exchange rates up to date, such as FloatRates.

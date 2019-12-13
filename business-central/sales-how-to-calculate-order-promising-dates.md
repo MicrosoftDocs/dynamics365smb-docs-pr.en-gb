@@ -1,8 +1,6 @@
 ---
 title: How to Calculate Order Promising Dates | Microsoft Docs
 description: The order promising function is a tool for calculating the earliest possible date that an item is available for shipment or delivery. It also creates requisition lines for those dates that you accept.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 575d83652dde83c9b12358788a96d00c70ffcda3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0bd5943f9c917f02fd319c07e51c95afb2de0a75
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316339"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882981"
 ---
 # <a name="calculate-order-promising-dates"></a>Calculate Order Promising Dates
 A company must be able to inform their customers of order delivery dates. The **Order Promising Lines** page enables you to do this from a sales order line.  

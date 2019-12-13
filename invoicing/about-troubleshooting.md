@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/25/2019
 ms.author: edupont
-ms.openlocfilehash: 1fb7b3f8befe54bca4cfdf9423827a9368158b87
-ms.sourcegitcommit: a64e1abcc3c1974c87fe3e33fa6983ea7fbbb3ff
+ms.openlocfilehash: aabf632ccc229949e39909b0185441149af1d9b1
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2778125"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832379"
 ---
 # <a name="troubleshooting-included365inv_longincludesd365inv_longmd"></a>Troubleshooting [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 > [!Note]
@@ -50,11 +50,11 @@ If you've sent an invoice to a customer, you can cancel the invoice, but you can
 Not yet.  
 
 ## <a name="who-has-access-to-included365invincludesd365invmd"></a>Who has access to [!INCLUDE[d365inv](includes/d365inv.md)]?
-To get access to [!INCLUDE[d365inv](includes/d365inv.md)] you must sign up for an [Office 365 Business Premium subscription](https://products.office.com/en-us/business/office-365-business-premium). The person who signs up becomes what's called a "global administrator" for the subscription and can access all apps and manage settings and business information. This includes managing other people's access to the apps. Invoicing is part of the Microsoft 365 Business licence. 
+To get access to [!INCLUDE[d365inv](includes/d365inv.md)] you must sign up for an [Office 365 Business Premium subscription](https://products.office.com/en-us/business/office-365-business-premium). The person who signs up becomes what's called a *global administrator* for the subscription and can access all apps and manage settings and business information. This includes managing other people's access to the apps. Invoicing is part of the Microsoft 365 Business licence. 
 
 However, small businesses often deal with sensitive customer information like credit card numbers, social security numbers, or health records. In the tech world, this is called personally identifiable information, or PII for short. It’s the job of the business owner to protect this information. One way to help protect PII is to control which of your employees has access. The business owner and the global administrator, if they aren't the same person, can work together to control access to information by selecting or deselecting apps. For example, if you choose not to give access to [!INCLUDE[d365inv](includes/d365inv.md)] to one or more employees, you can deselect the licence for them and they won't be able to access the app.   
 
-To turn licences on or off for users, from your Microsoft Office Home page, choose the **Admin** tile to open the Office 365 admin centre. Then choose **Active users**, choose one or more users, and then choose **Edit** next to **Product licences**. Now select or deselect the licences for the products for the user.  
+To turn licences on or off for users, from your Microsoft Office Home page, choose the **Admin** tile to open the Microsoft 365 Admin Centre. Then choose **Active users**, choose one or more users, and then choose **Edit** next to **Product licences**. Now select or deselect the licences for the products for the user.  
 
 ## <a name="can-i-cancel-my-subscription"></a>Can I cancel my subscription?
 Yes, you can remove [!INCLUDE[d365inv](includes/d365inv.md)] from your Office 365 subscription. But you can also choose to simply not use [!INCLUDE[d365inv](includes/d365inv.md)].  

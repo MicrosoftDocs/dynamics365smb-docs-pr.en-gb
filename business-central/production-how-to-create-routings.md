@@ -1,8 +1,6 @@
 ---
 title: How to Create Routings | Microsoft Docs
 description: A routing holds master data that captures the process requirements of a given produced item. Once a production order is created for that item, its routing will govern the scheduling of operations as represented on the **Prod. Order Routing** page under the production order.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aa03051a02309944c66d3fdf89de12627af8c4bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 79875b770dba5ef7b074bd3b7c52858f37951c25
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314103"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883293"
 ---
 # <a name="create-routings"></a>Create Routings
 Manufacturing companies use routings to visualize and direct the manufacturing process.

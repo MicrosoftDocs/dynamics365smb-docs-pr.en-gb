@@ -1,8 +1,6 @@
 ---
 title: How to Cross-Dock Items | Microsoft Docs
 description: Cross-docking functionality is available to you if you have set up your location to require warehouse receive and put-away processing.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 49e67bbdcf67b750f0de0d0c890df00281e381e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 717f6db3e8d53a8b2d75b9a27749e353e5ff28bc
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310379"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876806"
 ---
 # <a name="cross-dock-items"></a>Cross-Dock Items
 Cross-docking functionality is available to you if you have set up your location to require warehouse receive and put-away processing.  

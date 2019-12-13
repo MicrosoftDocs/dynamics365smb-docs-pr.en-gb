@@ -1,8 +1,6 @@
 ---
 title: Walkthrough - Calculating Work in Process for a Job | Microsoft Docs
 description: With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 98ecc7dad5857d36ca662d1b35d4e1d066e8f851
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1ba3bb79978d9635239183e7bbfc14722951b222
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314875"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876998"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Walkthrough: Calculating Work in Process for a Job
 

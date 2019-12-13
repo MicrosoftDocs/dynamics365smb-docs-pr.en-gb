@@ -1,8 +1,6 @@
 ---
 title: General Journal Post Line Overview | Microsoft Docs
 description: This topic introduces changes to Codeunit 12, **Gen. Jnl.-Post Line**, which is the major application object for general ledger posting and is the only place to insert general ledger, VAT, and customer and vendor ledger entries.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5589aa476662a9dff69e95d70367ae4c5e45aaba
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9de46d66fe13a798dda812b74f19b9ed247b84fd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303563"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880407"
 ---
 # <a name="general-journal-post-line-overview"></a>General Journal Post Line Overview
 Codeunit 12, **Gen. Jnl.-Post Line**, is the major application object for general ledger posting and is the only place to insert general ledger, VAT, and customer and vendor ledger entries. This codeunit is also used for all Apply, Unapply and Reverse operations.  

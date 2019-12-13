@@ -1,8 +1,6 @@
 ---
 title: Set Up for Service Items and Service Item Components | Microsoft Docs
 description: Learn about the things you must set up before you can use service items, including default values such as response time, contract discount percent, and service price group.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 41c2a4ea5a79f7fe66eaae93c7bffa2c7bbe3d2e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 196f3d73827f03ce03e4990039779d8f814295ff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316123"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877406"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Set Up Service Items and Service Item Components
 To work with service items, you must set up the following

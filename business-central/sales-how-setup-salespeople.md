@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 59138242b77af3b71a7feab566e2c66513547fdb
-ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
+ms.openlocfilehash: ef0e1db9e4af18ad209c111c951c98a46b0aabe9
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "2764511"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877574"
 ---
 # <a name="set-up-salespeople"></a>Set Up Salespeople
 Many companies want to follow an individual employee's performance as a basis for calculating the sales commission or bonus. See, for example, the **Salesperson Commissions** report. A company may also want to assign a salesperson to each of their contacts.
 
 When you have set up a salesperson on the **Salespeople** page, you can select it in the **Salesperson Code** field on all relevant records, such as G/L account, customer, vendor, contacts, and campaign cards. Then, when you post or set up invoices, credit memos, journal lines, finance charge activities, and so on, the salesperson code is carried to the resulting ledger entries.
 <br><br>  
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43Vhm)]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm)]
 
 ## <a name="to-set-up-a-salesperson-code"></a>To set up a salesperson code
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link.

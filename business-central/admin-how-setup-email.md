@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2019
+ms.date: 11/15/2019
 ms.author: sgroespe
-ms.openlocfilehash: 90e119dc44a23bcd9dca7920d05538ac685a44f6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e1f24e6da71d32e162b107b0e0b9e01cb68cc302
+ms.sourcegitcommit: 23577ae8ecaaf09b58716c2b9f65e39c188e3661
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304619"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2810820"
 ---
 # <a name="set-up-email"></a>Set Up Email
 To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields on the SMTP Mail Setup page.
@@ -30,7 +30,7 @@ You can either set email up manually, as described below, or you can get help by
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
-    > If you are using an account that requires two-factor authentication, then the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription and it must be of type **App Password**.
+    > If you are using an account that requires two-factor authentication, then the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 3. Alternatively, choose the **Apply Office 365 Server Settings** action to insert any information that is already defined for your Office 365 subscription.
 4. When all the fields are correctly filled in, choose the **Test Email Setup** action.
 5. When the test succeeds, close the page.
@@ -51,13 +51,13 @@ The following are examples of how Send As and Send on Behalf are used in [!INCLU
 2. In [!INCLUDE[d365fin](includes/d365fin_md.md)] choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 3. In the **Send As** field, enter the substitute address.
 4. Copy or make a note of the address in the **User ID** field.
-5. In the **Exchange admin centre**, find the mailbox to use as the substitute address, and then enter the address from the **User ID** field in the **Send As** field. For more information, see [Manage permissions for recipients](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. In the **Exchange admin centre**, find the mailbox to use as the substitute address, and then enter the address from the **User ID** field in the **Send As** field. For more information, see [Manage permissions for recipients](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>To use the substitute address in approval workflows
 1. In [!INCLUDE[d365fin](includes/d365fin_md.md)] choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Copy or make a note of the address in the **User ID** field.
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.
-4. In the **Exchange admin centre**, find the mailboxes for each user listed in the **Approval User Setup** page, and in the **Send As** field enter the address from the **User ID** field of the **SMTP Email Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Manage permissions for recipients](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+4. In the **Exchange admin centre**, find the mailboxes for each user listed in the **Approval User Setup** page, and in the **Send As** field enter the address from the **User ID** field of the **SMTP Email Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Manage permissions for recipients](/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
 5. In [!INCLUDE[d365fin](includes/d365fin_md.md)] choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 6. To enable substitution, turn on the **Allow Sender Substitution** toggle.
 
@@ -65,8 +65,9 @@ The following are examples of how Send As and Send on Behalf are used in [!INCLU
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] will determine which address to display in the following order: <br><br> 1. The address specified in the **E-Mail** field on the **Approval User Setup** page for messages in a workflow. <br> 2. The address specified in the **Send As** field in the **SMTP Email Setup** page. <br> 3. The address specified in the **User ID** field in the **SMTP Email Setup** page.
 
 
-## <a name="see-also"></a>See Also  
-[Shared mailboxes in Exchange Online](https://docs.microsoft.com/en-us/exchange/collaboration-exo/shared-mailboxes)  
+## <a name="see-also"></a>See Also
+
+[Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  

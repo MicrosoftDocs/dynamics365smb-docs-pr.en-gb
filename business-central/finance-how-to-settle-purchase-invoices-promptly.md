@@ -1,8 +1,6 @@
 ---
 title: How to Settle Purchase Invoices Promptly | Microsoft Docs
 description: If you need to pay the vendor by cash or cheque, you can have the necessary posting done when you post the invoice.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 7392ec07c59974869dce6c1e8172eb48701e1d26
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: d187398fe615574785a17b4a7eb122b7a18c557e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554021"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879687"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Settle Purchase Invoices Promptly
 If you need to pay the vendor by cash or cheque, you can post the payment when you post the invoice.  

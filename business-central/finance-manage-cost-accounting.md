@@ -1,8 +1,6 @@
 ---
 title: Accounting for Costs | Microsoft Docs
 description: Cost accounting is used to help you understand the costs of running a business. To get started with cost accounting, see the following topics.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c4a9b0477f566e10dd1aac3b8a02c86877c227f3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9700b3453e43b1f692d1e98c2feab225b57e7c01
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302076"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882597"
 ---
 # <a name="accounting-for-costs"></a>Accounting for Costs
 Cost accounting is used to help you understand the costs of running a business. To get started with cost accounting, see the following topics.  

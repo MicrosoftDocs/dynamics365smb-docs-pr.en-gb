@@ -1,8 +1,6 @@
 ---
 title: How to Find Your Warehouse Assignments | Microsoft Docs
 description: To find your warehouse assignments, open the card page for a selected item. If warehouse instructions have been created, Take and Place lines are visible, and you can begin working on an assignment. In some warehouses, the manager may have assigned specific instructions to each employee.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3e056c16a700f6ce4dc08c0bc55ad54e6992ea71
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7952276992b28ec5c1c90da10634867ef7b7a35c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314055"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881757"
 ---
 # <a name="find-your-warehouse-assignments"></a>Find Your Warehouse Assignments
 To find your warehouse assignments, open the card page for a selected item. If warehouse instructions have been created, Take and Place lines are visible, and you can begin working on an assignment. In some warehouses, the manager may have assigned specific instructions to each employee. For more information, see [Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).

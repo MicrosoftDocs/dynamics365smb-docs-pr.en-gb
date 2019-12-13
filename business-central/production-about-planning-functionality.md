@@ -1,8 +1,6 @@
 ---
 title: About Planning Functionality | Microsoft Docs
 description: The planning system takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 27a2a105cbb6a8a449de44c564dc448ec6136d61
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 03ac7e30e65912a5f09d617b87c09a7b15c4f9c5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313475"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878102"
 ---
 # <a name="about-planning-functionality"></a>About Planning Functionality
 The planning system takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.  

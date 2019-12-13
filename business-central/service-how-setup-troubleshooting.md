@@ -1,8 +1,6 @@
 ---
 title: Set Up Troubleshooting Processes | Microsoft Docs
 description: Learn how to set up processes that help service representatives identify and resolve issues with service items.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5f6136ca2f94510b13d4bcfd472cf22a5535e69b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6a0a4b49b957d082ad66178aabd1ccc532011885
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316099"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877318"
 ---
 # <a name="setting-up-troubleshooting-for-service-items"></a>Setting Up Troubleshooting for Service Items
 You can set up troubleshooting guidelines that help technicians solve problems when providing service. For example, guidelines might be a list of steps to perform a repair, or a series of questions to ask about the items. After you set up troubleshooting guidelines, you can assign them to service item groups, service items, and items. There is an inheritance hierarchy for guidelines. If you assign them to a service item group, the items included in the group will inherit the guidelines unless you specify them for the items. Similarly, service items will inherit guidelines from items.  

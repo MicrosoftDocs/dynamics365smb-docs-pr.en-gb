@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7c85b58de2ec9e497e2578a6241b7f1499a81ae9
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315163"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809383"
 ---
 # <a name="managing-report-and-document-layouts"></a>Managing Report and Document Layouts
 A report layout controls content and format of the report, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more. From [!INCLUDE[d365fin](includes/d365fin_md.md)], you can change which layout is used on a report, create new layout, or modify the existing layouts.
@@ -59,9 +59,10 @@ The process for setting up Word report layouts and RDLC report layouts on report
 For information on how to change which layout to use, see [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>See Also
-[Updating Report or Document Layouts](ui-update-report-layouts.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)  
+[Update Custom Report Layouts](ui-update-report-layouts.md)  
+[Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  
 [Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
+[Define Special Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

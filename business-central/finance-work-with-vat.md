@@ -1,8 +1,6 @@
 ---
 title: How to work With VAT on Sales and Purchases | Microsoft Docs
 description: This topic describes how perform tasks such as correcting posted VATIn EU countries/regions, every sales and purchase transaction is subject to VAT calculations. This topic describes how.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 24f9720c0dfb1641db347d6eca37d7e4f4c3a2ab
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: e9e8ecf2c53a168fe0dee28a8e9dce8b2db11fa4
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554189"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882453"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Work with VAT on Sales and Purchases
 If your country or region requires you to calculate value-added tax (VAT) on sales and purchase transactions so that you can report the amounts to a tax authority, you can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to calculate VAT automatically on sales and purchase documents. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).

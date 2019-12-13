@@ -1,25 +1,23 @@
 ---
 title: Keeping a Report Layout Up-to-date | Microsoft Docs
 description: You may need to update a custom report layout that is used on a report. This is required when there has been a design change to the report's data set, for example, a field that is used in the layout has been removed from the report data set.
-services: project-madeira
-documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 9bc4879e6461ad9a2a1f88e2c877bc80d27c2206
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 7a9389134c57d60999be2019a1e4394f8c3a00e5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314995"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876950"
 ---
-# <a name="updating-report-or-document-layouts"></a>Updating Report or Document Layouts
+# <a name="update-custom-report-layouts"></a>Update Custom Report Layouts
 Occasionally, you may need to update a custom report layout that is used on a report. This is required when there has been a design change to the report's data set, for example, a field that is used in the layout has been removed from the report data set. If a report layout requires updating, you will get an error message when you try to preview, print or save the report.  
 
 You can automatically update a report layout from the error message that appears when you run the report by choosing the **Yes** button on the error message. Or, in advance of running reports, you can update specific report layouts or all custom report layouts that might be affected by dataset changes.  

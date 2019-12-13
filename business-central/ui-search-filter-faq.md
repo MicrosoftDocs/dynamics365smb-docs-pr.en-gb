@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 79fb96b0262eacfd67326236c7cf8468689c6b5e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695198"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876878"
 ---
 # <a name="searching-and-filtering-faq"></a>Searching and Filtering FAQ
 This article answers common questions you might have about searching and filtering.
@@ -47,7 +47,7 @@ At Microsoft, we're constantly listening to feedback from our diverse community 
 
 There is a time-limit on how a long a search operation can take. First, try changing the search criteria and search again. If you are using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, contact your system administrator, because an administrator can increase the time-limit for searches.
 
-As an on-premises administrator, you increase the time-limit on searches by changing the **Search Timeout** setting of [!INCLUDE[prodshort](includes/prodshort.md)] server. For more information, see [Configuring Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in the Business Central Developer and IT Pro Help.
+As an on-premises administrator, you increase the time-limit on searches by changing the **Search Timeout** setting of [!INCLUDE[prodshort](includes/prodshort.md)] server. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in the Business Central Developer and IT Pro Help.
 
 ## <a name="see-also"></a>See also 
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 10/01/2019
+ms.date: 11/25/2019
 ms.author: sgroespe
-ms.openlocfilehash: dc37aa410c9e9ba823894fad961b68897468b9ca
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 667adfcc9c470a9d4dbf26923fe5e6edfc7ed85a
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303443"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832198"
 ---
 # <a name="design-details-inventory-costing"></a>Design Details: Inventory Costing
 This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -38,6 +38,6 @@ Inventory costing, also referred to as cost management, is concerned with record
 [Design Details: Production Order Posting](design-details-production-order-posting.md)  
 [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
 [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  
-[Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
+[Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)  
 [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
 [Design Details: Revaluation](design-details-revaluation.md)

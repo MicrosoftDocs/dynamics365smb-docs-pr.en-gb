@@ -1,8 +1,6 @@
 ---
 title: How to Put Items Away with Inventory Put-aways | Microsoft Docs
 description: When your location is setup to require put-away processing but not receive processing, you use the **Inventory Put-away** document to record and post put-away and receipt information for your source documents. The inbound source document can be a purchase order, a sales return order, an inbound transfer order, or a production order whose output is ready for put-away.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aaf527802d9b49f84e0c4261d4658f01382efa45
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 35305a5adddf178748811dc66bbf5ed6047d77a1
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313887"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881709"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Put Items Away with Inventory Put-aways
 When your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** document to record and post put-away and receipt information for your source documents. The inbound source document can be a purchase order, a sales return order, an inbound transfer order, or an assembly or production order whose output is ready to be put away.  

@@ -1,8 +1,6 @@
 ---
 title: How to Modify Planning Suggestions in a Graphical View | Microsoft Docs
 description: A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function. An alternative to doing this in the planning worksheet is to use a graphical view.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3aea6aa1aab6b5006bdc548b99bfa037e995de32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d068ed3e206f7d93b15d0cd2af56a7557ce3977
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313379"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877934"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modify Planning Suggestions in a Graphical View
 A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function. An alternative to doing this in the planning worksheet is to use a graphical view.

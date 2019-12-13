@@ -7,12 +7,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: edcd3cdef966b8163b5c6a46c66337dd90812a67
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 119c3f77d1423daeed519ac22e805b59d689bf51
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313547"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883364"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>What's New in Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ If you haven't already, then sign up for a [trial](https://go.microsoft.com/fwli
 
 On a regular basis, we will update [!INCLUDE[d365fin](includes/d365fin_md.md)] with additional capabilities in the core application and with new extensions. For the current list of Microsoft extensions, see [Customising Business Central Using Extensions](ui-extensions.md).
 
-To see all extensions offered by [!INCLUDE[d365fin](includes/d365fin_md.md)] partners, see [AppSource, Business Central](http://go.microsoft.com/fwlink/?linkid=2081646).  
+To see all extensions offered by [!INCLUDE[d365fin](includes/d365fin_md.md)] partners, see [AppSource, Business Central](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 ## <a name="check-the-dynamics-365-blog"></a>Check the Dynamics 365 Blog
 
@@ -37,7 +37,7 @@ For the partner community, we publish information on [Microsoft Dynamics 365 Bus
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Resources for Help and Support](product-help-and-support.md)  
-[Business Central pricing](https://dynamics.microsoft.com/en-us/business-central/overview/#pricing)  
+[Business Central pricing](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central Community](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

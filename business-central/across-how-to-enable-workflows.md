@@ -1,8 +1,6 @@
 ---
 title: How to Enable Workflows | Microsoft Docs
 description: When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c6a59947f212d0634c6b6918e751db6d8278925c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48e95e17938c240862c8c5391bf328aa78bae7aa
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305411"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881151"
 ---
 # <a name="enable-workflows"></a>Enable Workflows
 When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.  

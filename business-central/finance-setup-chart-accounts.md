@@ -10,18 +10,19 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b31bc4fb174c78092986c14f97232d8498974834
-ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
+ms.openlocfilehash: ee789f35118c054fec8129106db0ad60cc48141c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "2764487"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879472"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Setting Up or Changing the Chart of Accounts
 The chart of accounts shows the ledger accounts that store your financial data. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard chart of accounts that is ready to support your business.
 However, you can change the default accounts, and you can add new accounts. 
 <br><br>  
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43KO9]
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9]
 
 
 ## <a name="adding-or-changing-accounts"></a>Adding or Changing Accounts

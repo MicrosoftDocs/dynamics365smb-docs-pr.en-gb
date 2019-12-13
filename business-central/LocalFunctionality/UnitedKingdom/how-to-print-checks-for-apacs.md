@@ -1,8 +1,6 @@
 ---
 title: How to Print Cheques for APACS | Microsoft Docs
 description: The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on cheques. The Cheque report uses this specification.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7124026e84c70211444911760b78b5100a417615
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0fbcef4407d0c5886b08a693a5803d64d426f82c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300966"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878795"
 ---
 # <a name="print-checks-for-apacs"></a>Print Cheques for APACS
 The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on cheques. The **Cheque** report uses this specification.  

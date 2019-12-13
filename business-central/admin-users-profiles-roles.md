@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 11/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: b96b5cbff2ec182ab1a7254ee3384a6d1869e3c4
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775434"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809040"
 ---
 # <a name="manage-profiles"></a>Manage Profiles
 All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a profile that reflects their business role, the department they work in, or another categorisation. Profiles allow administrators to define and manage centrally what different user types can see and do in the user interface so they can perform their business tasks efficiently.
@@ -22,7 +22,7 @@ All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a profile 
 
 As an administrator, you create and manage profiles on the **Profiles (Roles)** page. Each profile has a card where you manage various settings for the related role, such as the role name, the user settings, and which Role Centre the profile uses. For more information about user settings and Role Centres, see [Change Basic Settings](ui-change-basic-settings.md).
 
-Before you can administrate users' profiles, the users must be created and added, through the Office 365 Admin Centre. Then you can assign permissions to each user or user group to define which features they are allowed to view and/or edit. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
+Before you can administrate users' profiles, the users must be created and added, through the Microsoft 365 Admin Centre. Then you can assign permissions to each user or user group to define which features they are allowed to view and/or edit. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
 ## <a name="page-customization"></a>Page Customisation
 You can customise page layouts for a profile so that all users assigned the profile will see the customised pages. As an administrator, you customise pages by using the same functionality as users do when they personalise. For more information, see [Customise Pages for Profiles](ui-personalization-manage.md).

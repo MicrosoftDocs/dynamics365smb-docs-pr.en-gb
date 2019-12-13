@@ -1,8 +1,6 @@
 ---
 title: Specify Coloured Indicators to Customise Visual Signals About a Cue's Activity for the Company or Individual Users | Microsoft Docs
 description: As an administrator, you can set up Cues that appear on the users' Role Centres to include an indicator that changes colour based on the data values in the Cues.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 3c6cfb1c012a2991477a874f9611460c0bd8e4d8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6d9cecac1a7e1ac0c65542ee4e2928ac2a27412f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308171"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880959"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Set Up a Coloured Indicator on Cues for the Company or Individual Users
 As an administrator, you can set up Cues that appear on the users' Role Centres to include an indicator that changes colour based on the data values in the Cues.  

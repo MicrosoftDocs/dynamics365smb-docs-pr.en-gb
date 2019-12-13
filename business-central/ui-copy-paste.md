@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a77c5bcadb15cd1180fc102a1f15881d0cc5db5a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c8714bc1f12b6fd4bf68124cf1797bfa89ece6b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315667"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882261"
 ---
 # <a name="copy-and-paste-faq"></a>Copy and Paste FAQ
 You can copy one or more rows (records) from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).
@@ -56,7 +56,7 @@ Yes. This is pasted as a nicely-formatted table that preserves indentation, nume
 ## <a name="in-which-lists-can-i-copy-and-paste-rows"></a>In which lists can I copy and paste rows?
 You can copy rows in any kind of list, including worksheets, FactBoxes, or list that are embedded on a page (like lines of a sales order). However, to paste rows, the list must be editable.
 
-On some pages, the application design may prevent you from pasting rows. Contact your administrator or application developer to change the [Editable property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) on the page or [PasteIsValid property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) on the source table.
+On some pages, the application design may prevent you from pasting rows. Contact your administrator or application developer to change the [Editable property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) on the page or [PasteIsValid property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) on the source table.
 
 ## <a name="on-which-clients-is-copy-and-paste-available"></a>On which clients is copy and paste available?
 Copy and paste are available in the browser or the [!INCLUDE[d365fin](includes/d365fin_md.md)] app for Windows 10.

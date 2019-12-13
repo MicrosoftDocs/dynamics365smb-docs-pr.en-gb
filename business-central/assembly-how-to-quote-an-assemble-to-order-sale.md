@@ -1,8 +1,6 @@
 ---
 title: How to Quote an Assemble-to-Order Sale | Microsoft Docs
 description: You can use assembly management to customise an assembly item to a customer’s request during the sales process.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1ca43d43c382d191854e89760479d642edec722a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b6c9ea37d0a76c39a82f25970b58b60c1993afac
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307715"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880863"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Quote an Assemble-to-Order Sale
 You can use assembly management to customise an assembly item to a customer’s request during the sales process. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  

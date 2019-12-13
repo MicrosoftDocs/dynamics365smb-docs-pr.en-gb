@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/17/2019
+ms.date: 11/22/2019
 ms.author: edupont
-ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649723"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879140"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Using Business Central as your Business Inbox in Outlook
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduces the ability to manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook add-ins, you can see financial data related to customers and vendors, as well as create and send financial documents, such as quotes and invoices.  
 
 ## <a name="getting-the-add-in"></a>Getting the Add-in
@@ -26,9 +27,13 @@ It is easy to get started with the [!INCLUDE[d365fin](includes/d365fin_md.md)] a
 Then, when you open Outlook, you will see an email message from *Dynamics 365 Business Central Admin*. The new add-ins are added to the Outlook ribbon, and in the browser, you can see the [!INCLUDE[prodshort](includes/prodshort.md)] add-ins immediately above or below the body of the email message. The add-ins are updated periodically, and you'll get notified that a new version is ready for you in Outlook.  
 
 > [!TIP]
-> If you use the new Outlook in a browser, then the [!INCLUDE [prodshort](includes/prodshort.md)] add-ins can be hidden under **More actions**.
+> If you use the new Outlook on the web, then the [!INCLUDE [prodshort](includes/prodshort.md)] add-ins can be hidden under **More actions**. If you use the add-in often, you can pin it so that it is always immediately visible. For more information, see [Using add-ins in Outlook on the web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-If you work with more that one [!INCLUDE [prodshort](includes/prodshort.md)] company, you can easily switch between companies in Outlook.
+If you work with more that one [!INCLUDE [prodshort](includes/prodshort.md)] company, you can easily switch between companies in Outlook. In the add-in's action bar, choose **More Actions**, and then you can see the option for switching between companies.  
+
+<!--TEMP-->
+> [!NOTE]
+> Switching between companies requires [!INCLUDE [prodshort](includes/prodshort.md)] 2019 release wave 2 or later as announced in the [release plan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Some companies using Office 365 restrict users’ permissions to deploy add-ins. So you must make sure that you have an Office 365 subscription that includes email and allows you to deploy add-ins. If you want to try out the add-in anyway, you can [try Office 365 for free](https://products.office.com/try).  
 
@@ -74,4 +79,4 @@ The add-ins are designed to be used with Office 365. If you use [!INCLUDE [prods
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Minimum Requirements for Outlook](product-requirements.md#outlook)  
-[Using add-ins in Outlook on the web](https://support.office.com/en-us/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Using add-ins in Outlook on the web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  

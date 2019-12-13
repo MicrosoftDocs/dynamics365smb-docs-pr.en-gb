@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac77368b30d442d6524b5231252ba5f370d50233
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774730"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809355"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Assign Permissions to Users and Groups
 The [!INCLUDE[d365fin](includes/d365fin_md.md)] security system allows you to control which objects a user can access within each database or environment. You can specify for each user whether they are able to read, modify, or enter data in the selected database objects. For detailed information, see [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in the Developer and ITPro help for [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Before you assign permissions to users and user groups, you must define who can sign in to by creating users according to the licence as defined in the Office 365 Admin Centre. For more information, see [Create Users According to Licences](ui-how-users-permissions.md).
+Before you assign permissions to users and user groups, you must define who can sign in to by creating users according to the licence as defined in the Microsoft 365 Admin Centre. For more information, see [Create Users According to Licences](ui-how-users-permissions.md).
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], there are two levels of permissions to database objects:
 - Overall permissions according to the licence, also referred to as the entitlement.

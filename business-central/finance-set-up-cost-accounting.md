@@ -1,8 +1,6 @@
 ---
 title: Setting Up Cost Accounting | Microsoft Docs
 description: Before you start working with cost accounting, you must perform setup tasks.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a521280c3a3f3f38e06a37984401652d9fa9e50c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f65755d13ccfb445006fec9dc8c1697777db66c4
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301739"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882505"
 ---
 # <a name="setting-up-cost-accounting"></a>Setting Up Cost Accounting
 Before you start working with cost accounting, you must perform setup tasks.

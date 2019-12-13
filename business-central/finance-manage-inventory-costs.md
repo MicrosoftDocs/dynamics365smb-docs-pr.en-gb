@@ -1,8 +1,6 @@
 ---
 title: Managing Inventory Costs | Microsoft Docs
 description: Cost management, also referred to as “costing”, is concerned with recording and reporting business operating costs. It includes the reporting of manufacturing costs and inventory costs, that is, the value of items.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9ac7f23ebe3ef0cbe16b9effd5c6dea85250cc0e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 888eb525aafcd0f7fdd41e846b7aa5b0d60fb39d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301907"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879568"
 ---
 # <a name="managing-inventory-costs"></a>Managing Inventory Costs
 Cost management, also referred to as “costing”, is concerned with recording and reporting business operating costs. It includes the reporting of manufacturing costs and inventory costs, that is, the value of items.   

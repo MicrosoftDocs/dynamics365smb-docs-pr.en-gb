@@ -1,8 +1,6 @@
 ---
 title: How to Create Production Orders from Sales Orders | Microsoft Docs
 description: You can create production orders from sales orders in the Sales & Marketing department.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d1851131512f194f708f7873978a201d85a9e248
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 362429f34c326996d9097ff23a0aec02787b2781
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314151"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883317"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Create Production Orders from Sales Orders
 You can create production orders for produced items directly from sales orders.  

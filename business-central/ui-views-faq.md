@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: list, filter, pane, views
 ms.date: 01/01/2019
 ms.author: mikebc
-ms.openlocfilehash: d2caa1d9b84d99c0b43a70bca1c45da81138f7b9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6357a025c58df8e55bf7aaad5961190ad6ed3350
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316840"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881997"
 ---
 # <a name="list-views-faq"></a>List Views FAQ
 This topic answers questions that our advanced users often ask about working with list views and saving filters.  
@@ -58,7 +58,7 @@ Some system views can have unique layouts of the columns in the list. For exampl
 ### <a name="what-does-the-show-system-filters-link-do"></a>What does the Show System Filters link do?
 On some list pages, the filter pane will display **Show system filters** at the bottom of the filter pane when the page includes filters specified by the system. These special filters are typically used to display records based on the current context, such as when a list of orders has to be filtered for a specific customer.
 
-System filters are set by developers using filter group 0. For technical details about system filters, see [Filtergroup Function](https://docs.microsoft.com/en-us/dynamics-nav/filtergroup-function--record-)
+System filters are set by developers using filter group 0. For technical details about system filters, see [Filtergroup Method](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)
 
 ### <a name="i-see-multiple-views-on-my-page-but-i-did-not-create-them-where-did-they-come-from"></a>I see multiple views on my page, but I did not create them. Where did they come from?
 The views you see on any list are a combination of your personal views together with system views. System views may originate from the business application, from extensions, or may be role-specific if the list was customised for your role.

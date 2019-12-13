@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 21e3defe178a3619df58d712c86935515e303692
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308411"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879209"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Use Job Queues to Schedule Tasks
 Job queues in [!INCLUDE[d365fin](includes/d365fin_md.md)] enables users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson - Sales Statistics** report weekly, to track sales by salesperson each week, or you might want to run the **Process Service E-mail Queue** codeunit daily, to make sure pending email messages to customers regarding their service orders are sent out in a timely manner.
@@ -111,6 +111,9 @@ When a job queue is activated manually, it is run with the credentials of the us
 
 ## <a name="using-job-queues-effectively"></a>Using Job Queues Effectively  
 The job queue entry record has many fields whose purpose is to carry parameters into a codeunit that you have specified to be run with a job queue. This also means that codeunits that are to be run via the job queue must be specified with the Job Queue Entry record as a parameter in the **OnRun** trigger. This helps provide an extra level of security, as this prevents users from running random codeunits via the job queue. If the user must pass parameters to a report, the only way to do this is by wrapping the report execution into a codeunit, which then parses the input parameters and enters them into the report before executing it.  
+
+## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Scheduling Synchronisation Between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)]
+If you have integrated [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUDE[crm_md](includes/crm_md.md)], you can use the job queue to schedule when you want to synchronise data for the records that you have coupled in the two business apps. Depending on direction and rules that you have defined for the integration, the synchronisation jobs can also create new records in the destination app to match those in the source. For example, if a salesperson creates a new contact in [!INCLUDE[crm_md](includes/crm_md.md)], the synchronisation job can create that contact for the coupled salesperson in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more informtaion, see [Scheduling a Synchronisation between Business Central and Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ## <a name="see-also"></a>See Also  
 [Administration](admin-setup-and-administration.md)  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/08/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8c9223176968d048d167b3b8509cab26343ee9f1
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 32de53150f90f2400962f33601a0fa45c059bd4c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775338"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882165"
 ---
 # <a name="change-which-features-are-displayed"></a>Change Which Features are Displayed
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to help you run your business regardless of the size and complexity. At the core of the product, you find essential features, such as financial reporting, sales, purchasing, and inventory management. As business complexity increases, you can turn on functionality for manufacturing and service management, for example.
@@ -40,10 +40,10 @@ Prior to defining a company's experience setting, you define users' access to sp
 The **Experience** setting applies to all users in a company, but each user can personalise their own experience further by changing page layouts and content. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Enabling Premium Features after Upgrading a Plan
-Users are assigned to plans in Office 365 Admin Centre in connection with the general work to create the Business Central users. For more information, see [Add Users to Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Users are assigned to plans in Microsoft 365 Admin Centre in connection with the general work to create the Business Central users. For more information, see [Add users individually or in bulk to Office 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>To update plan changes in users groups
-When you have made a change to users plans in Office 365 Admin Centre, such as assigned more users to the Premium plan, you must reflect the change in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+When you have made a change to users plans in Microsoft 365 Admin Centre, such as assigned more users to the Premium plan, you must reflect the change in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Sign is as an administrator.
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.

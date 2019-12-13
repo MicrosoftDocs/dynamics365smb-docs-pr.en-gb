@@ -11,18 +11,18 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: e17485563e331f7e78500650e174f6b2b57bbb8e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307979"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879113"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Enabling Your Business Data for Power BI
 
 Getting insights into your [!INCLUDE[prodshort](includes/prodshort.md)] data is easy with the [!INCLUDE[prodshort](includes/prodshort.md)] apps for Power BI. Power BI retrieves your data and then builds an out-of-the-box dashboard and reports based on that data.  
 
-You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) if you wish to create your own Power BI reports. Power BI apps require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
+You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/desktop/) if you wish to create your own Power BI reports. Power BI apps require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
 
 > [!IMPORTANT]
 > The Power BI Apps that are described in this article are designed to use Azure Active Directory as the authentication mechanism unless otherwise specified. To install a Power BI App, you must also have a Power BI Pro licence.  Once the Power BI App is installed, it may be shared with users with any licence type.
@@ -214,7 +214,7 @@ The Power BI app will only display data from the [!INCLUDE [prodshort](includes/
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a PowerApps Data Source](across-how-use-financials-data-source-powerapps.md)  
-[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)  
+[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
+[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

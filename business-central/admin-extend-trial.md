@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/01/2019
+ms.date: 11/14/2019
 ms.author: bholtorf
-ms.openlocfilehash: bce2f8ec50fa836be87c0f1bd77a28e44b208167
-ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
+ms.openlocfilehash: 6468ab23e570066bfdc052461ff49f4ae3c03ad5
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "2764631"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808896"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Need More Time to Decide Whether to Subscribe?
 It's important to make the right decision when choosing a business application, and we know that it can take time to explore all of the corners in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you need more time to finish your evaluation you can extend the trial period yourself for another 30 days. When the expiration date for your trial period is approaching we will display a notification to alert you when you sign in. The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period. The extra 30 days start the moment you choose **Extend Trial** in the guide.
@@ -31,6 +31,7 @@ If your first 30-day trial period is expired, you can extend it yourself and thi
 2. In the notification at the top of the workspace, choose **Extend Trial**.
 
 ## <a name="see-also"></a>See Also
+
 [Creating New Companies](about-new-company.md)  
-[Access to a Preview](across-preview.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Trials and Subscriptions](across-preview.md)  
 [How do I find a reselling partner?](across-faq.md#findpartner)  

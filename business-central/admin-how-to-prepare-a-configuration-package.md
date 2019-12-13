@@ -1,8 +1,6 @@
 ---
 title: How to Prepare a Configuration Package | Microsoft Docs
 description: When you configure a new company, table relations are recognised and processed. Data is imported and applied in the correct order. Dimension tables are also imported if they are included in the configuration package.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0f74b3472b081d7968336fd16b6ef6addccff861
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308004"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879257"
 ---
 # <a name="prepare-a-configuration-package"></a>Prepare a Configuration Package
 When you configure a new company, table relations are recognised and processed. Data is imported and applied in the correct order. Dimension tables are also imported if they are included in the configuration package. For more information, see [To import customer data](admin-migrate-customer-data.md#to-import-customer-data). 

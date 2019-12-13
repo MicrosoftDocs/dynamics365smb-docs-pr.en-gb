@@ -1,8 +1,6 @@
 ---
 title: How to Put Items Away with Warehouse Put-aways | Microsoft Docs
 description: When your location is set up to require warehouse put-away processing and warehouse receive processing, you use the warehouse put-away documents function to control the putting away of items.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 17743791d7694754f8b8eb97f6792a94b68176d2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f9c1e144e5574e04d1d5baec039d3f358839631e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310259"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881661"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Put Items Away with Warehouse Put-aways
 When your location is set up to require warehouse put-away processing and warehouse receive processing, you use the warehouse put-away documents function to control the putting away of items.  

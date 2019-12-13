@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: edupont
-ms.openlocfilehash: 9ba3997b20c86c5ddd3bf3f21a6a9455b4f54ec6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ac1cc92d67142b22de67dc417686a869a9ea5277
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311483"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832366"
 ---
 # <a name="setting-up-included365finincludesd365fin_mdmd"></a>Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most business processes, but you can change the configuration to suit the needs of company.
@@ -46,8 +46,8 @@ Some functionality, either general or for specific business processes, can be se
 |Transfer customers, vendors, inventory, and bank accounts information from another system into [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).|
 |Use Business Central Outlook add-ins to see financial data related to customers and vendors or create and send financial documents, such as quotes and invoices.|[Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)|
 |Get insights into your Business Central data with Power BI and the Business Central content packs.|[Enabling Your Business Data for Power BI](admin-powerbi.md)|
-|Use your Business Central data as part of a workflow in Microsoft Flow.|[Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)|
-|Make your Business Central data available as a data source in PowerApps.|[Connecting to Your Business Central Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)|
+|Use your Business Central data as part of a workflow in Power Automate.|[Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)|
+|Make your Business Central data available as a data source in Power Apps.|[Connecting to Your Business Central Data to Build a Business App Using Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Use dedicated Quickbooks migration guides.|[Changing from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)|
 |Access your Business Central data from your mobile device.|[Getting Business Central on Your Mobile Device](install-mobile-app.md)|
 |Do bulk invoicing of appointments created in Bookings.|[Bulk Invoicing for Microsoft Bookings](finance-bookings.md)|

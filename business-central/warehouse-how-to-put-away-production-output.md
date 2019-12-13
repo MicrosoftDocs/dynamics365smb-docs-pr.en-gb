@@ -1,8 +1,6 @@
 ---
 title: How to Put Away Production Output | Microsoft Docs
 description: How you put away your output from production depends on how your warehouse is set up as a location.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6d1684b170d050392b02a9b40070b17ff22ebd47
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5d2a8e53d26ea6a6f0ab591b9695acb39024348b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314587"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881685"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Put Away Production or Assembly Output
 How you put away your output from production depends on how your warehouse is set up as a location. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  

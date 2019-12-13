@@ -3,29 +3,31 @@ title: Create and Modify Custom Layouts for Reports and Documents | Microsoft Do
 description: Learn how to create your own customised layouts to personalise the appearance of a report when it is viewed, printed, or saved.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: f7d907393f765538512a547c8eaa6a3f8963de79
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: d83f243ee9b04c44886610d39c71ad6a4dae434a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311051"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882045"
 ---
-# <a name="create-and-modify-a-custom-report-or-document-layout"></a>Create and Modify a Custom Report or Document Layout
+# <a name="create-and-modify-custom-report-layouts"></a>Create and Modify Custom Report Layouts
 By default, a report will have a built-in report layout, which can be either an RDLC report layout or Word report layout, or both. You cannot modify built-in layouts. However, you can create your own custom layouts that enable you to change the appearance of report when it is viewed, printed or saved. You can create multiple custom report layouts for the same report, and then switch the layout that is used by a report as needed.
 
 > [!NOTE]  
 >   In [!INCLUDE[d365fin](includes/d365fin_md.md)], the term "report" also covers externally-facing documents, such as sales invoices and order confirmations that you send to customers as PDF files.
 
 To create a custom layout, you can either make a copy of an existing custom layout or add a new custom layout, which in most cases is based on a built-in layout. When you add a new custom layout, you can choose to add an RDLC report layout type, Word report layout type, or both. The new custom layout will automatically be based on the built-in layout for the report if one is available. If there is no built-in layout for the type, then a new blank layout is a created, which you will have to modify and design from scratch. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Manage Report Layouts](ui-manage-report-layouts.md).  
+
+When custom report layouts are defined, you can select them from customer and vendor cards to specify that the selected layouts will be used for documents that you crate for the customer or vendor in question. For more information, see [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md).
 
 ## <a name="to-create-a-custom-layout"></a>To create a custom layout
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
@@ -68,7 +70,7 @@ To modify a report layout, you must first export the report layout as a file to 
 
 5. In the **Import** dialogue box, select **Choose** to find and select the report layout document, and then choose **Open**.
 
-##  <a name="MakeChangesToLayout"></a> Making changes to a Word report layout  
+##  <a name="MakeChangesToLayout"></a> Create and Modify Custom Report Layouts  
 To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
 
 If you are designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.
@@ -78,7 +80,7 @@ If you are designing a Word report layout from scratch or adding new data fields
 
 ### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Embedding Fonts in Word Layouts for Consistency
 
-To ensure that reports always display and print with the intended fonts, regardless of where users open or print the reports, you can embed the fonts in the Word document. However, be aware that embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/en-us/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+To ensure that reports always display and print with the intended fonts, regardless of where users open or print the reports, you can embed the fonts in the Word document. However, be aware that embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
 ###  <a name="RemoveField"></a> Removing Label and Data Fields in Word Layouts  
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it is selected in the Word document.  

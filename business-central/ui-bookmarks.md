@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d52f1dce42bb8c3b84ff335eb07b6a12154fbcf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2c39fb8e9c2b380674169a27d05a04f0f4b0d451
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316886"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832101"
 ---
 # <a name="add-a-page-action-to-your-role-center"></a>Add a Page Action to Your Role Centre
 Using the new bookmark icon, you can add an action link to any page from the navigation menu of your Role Centre. You add the bookmark from the target page, meaning the page that you want the action on the Role Centre to open.
@@ -33,6 +33,9 @@ An action names after the page is now added to the navigation menu on your Role 
 2. Hower over the search result for the **Sales Orders** page, and then choose the ![Bookmark](media/ui_bookmark_icon.png "Bookmark") icon.
 
 If a bookmark already exists for the page, then the icon is dark, and the tooltip says "Bookmarked".
+
+> [!NOTE]  
+> When a bookmark is added, any translated text that was available at the time is bookmarked as well. If new translated text is added later, then the bookmarked link is not updated.
 
 ## <a name="see-also"></a>See Also
 [Personalise Your Workspace](ui-personalization-user.md)  

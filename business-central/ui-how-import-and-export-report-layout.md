@@ -1,25 +1,23 @@
 ---
 title: Importing and Exporting a Report and Document Layout | Microsoft Docs
 description: You can import and export an existing custom report layout as a file to and from a location on your computer and network.
-services: project-madeira
-documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 97f66d28576586c4e09c0bc700785eac969d316a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553825"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881973"
 ---
-# <a name="import-and-export-a-report-or-document-layout"></a>Import and Export a Report or Document Layout
+# <a name="import-and-export-custom-report-layouts"></a>Import and Export Custom Report Layouts
 You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then make the modifications to layout and return the file to you so that you can import it back.  
 
 > [!IMPORTANT]  

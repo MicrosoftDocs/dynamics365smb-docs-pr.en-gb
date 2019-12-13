@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3ace06e81029ea38bf393502743716b66b10fe74
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a9bb72a85fb49b4316af2160e5823fbf77a18cbf
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316507"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881408"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Manage Saved Settings for Reports and Batch jobs
 When running reports, users are typically presented with a page that lets them select options and set filters to change the data that is included in the generated report. This page is called the request page. A report can include one or more *saved settings* that users can apply to the report from the request page. *Saved settings* are basically predefined options and filters. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
@@ -52,7 +52,7 @@ From the **Report Settings** page, you can:
 > Consider the name that you give a saved settings entry. If you create a saved settings entry for all users, and you give it the same name as an existing saved settings entry that is assigned to a specific user only, then that user will not be able to use the saved settings entry that is assigned to everyone.  In the **Saved Settings** section on the request page, the user will see two saved settings entries with the same name. However, no matter which option they choose, the user-specific saved settings entry will be used.
 
 > [!NOTE]
-> The Saved Settings feature is available only on reports where the [SaveValues property](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) of the report's request page is set to **Yes**. The **SaveValues** property is set in the development environment.  
+> The Saved Settings feature is available only on reports where the [SaveValues property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) of the report's request page is set to **Yes**. The **SaveValues** property is set in the development environment.  
 
 ## <a name="see-also"></a>See Also
 [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  

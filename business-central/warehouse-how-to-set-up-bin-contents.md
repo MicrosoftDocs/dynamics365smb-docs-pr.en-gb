@@ -1,8 +1,6 @@
 ---
 title: How to Create Bin Contents | Microsoft Docs
 description: After you have set up your bins, you can set up the bin contents. In other words, you can set up the items you want to store in any given bin and set the rules that govern filling the bin with a particular item.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c932a29c42b379e7ce7686e8ae3c4bc26b9d2fa9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d716040bae8f6e0cec3055af0ce2a26b6bc04e1
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314563"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876519"
 ---
 # <a name="create-bin-contents"></a>Create Bin Contents
 After you have set up your bins, you can set up the bin contents. In other words, you can set up the items you want to store in any given bin and set the rules that govern filling the bin with a particular item. You can do this manually on the **Bin Contents** page or automatically with the **Create Bin Content Worksheet** page.

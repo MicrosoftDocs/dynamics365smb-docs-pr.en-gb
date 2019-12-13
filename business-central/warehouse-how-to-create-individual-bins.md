@@ -1,8 +1,6 @@
 ---
 title: How to Create Bins | Microsoft Docs
 description: The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 753e76ae1c1ca120896d71ade44222864658fded
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: dd48519f471a8ead924c1d3512538ff71fe39640
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314635"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876737"
 ---
 # <a name="create-bins"></a>Create Bins
 The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually from the location card. You can also use a function on the **Bin Creation Worksheet** page to create bins automatically.  

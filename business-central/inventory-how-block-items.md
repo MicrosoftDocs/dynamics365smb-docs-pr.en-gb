@@ -1,8 +1,6 @@
 ---
 title: How to Block Items from Sales or Purchasing
 description: In Business Central, an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 87cfa1830e461eac2a03a10e917712dba56eaf98
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0218cf1b4982b9e8c5b5c2817590bc5ebd8f1941
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308627"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896068"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Block Items from Sales or Purchasing
 You can block an item from being entered on sales or purchase lines, and you can block it from being posted in any transaction.  
@@ -32,6 +30,8 @@ The following table illustrates what occurs when items are blocked.
 
 > [!NOTE]
 > Blocked items can be returned. This means that none of the above settings apply when the item is used on return orders and credit memos.
+
+When you use the **Copy Document** function to create new documents based on existing documents, you are notified if any items on the source document lines are blocked. The blocked document lines are excluded from the new document, and a notification shows an overview of all document lines that are blocked in the source document.
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>To block an item from being entered on sales lines  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e80887f9c1e1bd5641b496f3dfac01ddcd621f5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2609a18c26f968dab65037c684cc770666038e9a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302867"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882765"
 ---
 # <a name="acquire-fixed-assets"></a>Acquire Fixed Assets
 For each fixed asset, you must set up a card containing information about the asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. A depreciation book must be set up and assigned to each fixed asset before you can acquire it.
@@ -88,15 +88,15 @@ For example, if you post an acquisition with the wrong date, you must correct it
 To cancel ledger entries for multiple fixed assets at a time, use the **Cancel FA Ledger Entries** batch job.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>To post the salvage value together with the acquisition cost
-You can post the salvage value together with the acquisition cost from a fixed asset G/L journal.    
+You can post the salvage value together with the acquisition cost from a fixed asset journal.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cancel FA Entries**, and then choose the related link.
-2. Create the acquisition journal line. For more information, see [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Journals**, and then choose the related link.
+2. On the **Fixed Asset Journals** page, create the acquisition line. For more information, see [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 3. In the **Salvage Value** field on the journal line, enter the salvage value amount as a credit (with a minus sign).
 4. Choose the **Post** action.
 
-> [!NOTE]  
->   The **Salvage Value** posting type is an option on the **Fixed Asset Journal** page only. It is not available on the **Fixed Asset G/L Journal** page because salvage value is never posted to the general ledger.
+> [!NOTE]
+> If a salvage value exists for a fixed asset, then that value will be used in depreciation posting instead of the value in the **Ending Book Value** field on the **FA Depreciation Books** page. For more information, see [To manage the ending book value](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
 ## <a name="see-also"></a>See Also
 [Fixed Assets](fa-manage.md)  

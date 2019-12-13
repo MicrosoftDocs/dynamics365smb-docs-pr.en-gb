@@ -1,8 +1,6 @@
 ---
 title: How to Work with Responsibility Centres | Microsoft Docs
 description: Responsibility centres providing the ability to handle administrative centres. A responsibility centre can be a cost centre, a profit centre, an investment centre, or other company-defined administrative centre.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 39b44713eb473e0a5220906a7caa5e7acdce24bc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ac4415423a7e40332d56193ea3a183bae329a48f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309515"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878228"
 ---
 # <a name="work-with-responsibility-centers"></a>Work with Responsibility Centres
 Responsibility centres provide the ability to handle administrative centres. A responsibility centre can be a cost centre, a profit centre, an investment centre, or other company-defined administrative centre. Examples of responsibility centres are a sales office, a purchasing department for several locations, and a plant planning office. Using this functionality, for example, companies can set up user-specific views of sales and purchase documents related exclusively to a particular responsibility centre.  

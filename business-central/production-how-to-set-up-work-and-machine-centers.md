@@ -1,8 +1,6 @@
 ---
 title: How to Set Up Work Centres and Machine Centres | Microsoft Docs
 description: A **Work Centre** card organises the fixed values and requirements of the production resource, and thus governs the output of production performed in that work centre.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: eb947aec01b7932b827332d0c283ec9b08981634
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1d8b24df628cbb41449e37b31cbf1082d434bb81
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313115"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877843"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Set Up Work Centres and Machine Centres
 The application distinguishes between three types of capacities. These are arranged hierarchically. Each level contains the subordinate levels.  

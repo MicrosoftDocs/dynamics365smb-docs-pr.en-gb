@@ -1,8 +1,6 @@
 ---
 title: How to Copy Existing Items to New Items
 description: When you add a new item, to save time, you can use the Copy Item function to copy an existing item to use as a template for a new item.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 91f2aede108b767617f2aa8afd3db1b81713d8f7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 22f31b1f4c37e2129db379df9b71d9436ac81a2f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310017"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878372"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Copy Existing Items to Create New Items
 When you add a new item, to save time, you can use the **Copy Item** function to copy an existing item to use as a template for a new item.  

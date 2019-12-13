@@ -1,8 +1,6 @@
 ---
 title: How to Pick Items for Warehouse Shipment | Microsoft Docs
 description: When the location is set up to require warehouse pick processing as well as warehouse shipment processing, you use the warehouse pick documents to create and process pick information prior to posting the warehouse shipment.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b136b5a1c06ee61313596f7613cb99fb4bf11e86
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d35c6dec3eee09ec72a09325dcc527c18dc9b8c4
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313983"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876686"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Pick Items for Warehouse Shipment
 When the location is set up to require warehouse pick processing as well as warehouse shipment processing, you use the warehouse pick documents to create and process pick information prior to posting the warehouse shipment.  

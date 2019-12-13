@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c33ef33a9eb660e7cde7da2d1e8a6dad76f18dd7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88b84c13da3b443714bcfb7cb86a52ee49264c64
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301715"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879496"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setting Up Cash Flow Analysis
 If you want some help to decide what to do with your cash, have a look at the charts on the Accountant Role Centre:  
@@ -56,7 +56,7 @@ To help you get going, some accounts and cash flow setups are provided. You can 
 To set these up, search for **cash flow accounts**, choose the link, and then fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repeat these steps for **cash flow setup**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Set up cash flow forecasts
-The **Cash Flow Forecast** chart uses cash flow accounts, cash flow setups, and cash flow forecasts. Some are provided, however, you can set up your own by using an assisted setup guide. The guide helps you specify things like how often to update the forecast, the accounts to base it on, information about when you pay taxes, and whether to turn on [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/).  
+The **Cash Flow Forecast** chart uses cash flow accounts, cash flow setups, and cash flow forecasts. Some are provided, however, you can set up your own by using an assisted setup guide. The guide helps you specify things like how often to update the forecast, the accounts to base it on, information about when you pay taxes, and whether to turn on [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
 Cash flow forecasts can use Azure AI to include documents with a due date in the future. The result is a more comprehensive prediction. The connection to Azure AI is already set up for you. You just need to turn it on. When you sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)], a notification displays in a blue bar, and provides a link to the default cash flow setup. The notification displays only once. If you close it, but decide to turn on Azure AI, you can use the assisted setup guide, or a manual process.  
 

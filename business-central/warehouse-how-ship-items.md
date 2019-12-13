@@ -1,8 +1,6 @@
 ---
 title: How to Ship Items | Microsoft Docs
 description: Depending on your warehouse configuration, you can either record shipment on the related outbound business document, such as a sales order,  directly, or you can use warehouse shipment documents that respect a workflow and integrate to various warehouse activities.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 239810db7fa6f7cd74aaebf94581f9ad76fd5599
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a2bde69033ee208082662fa771616ac0b124d73e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314683"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876782"
 ---
 # <a name="ship-items"></a>Ship Items
 When you ship items from a warehouse that is not set up for warehouse shipment processing, you simply record the shipment on the related business document, such as a sales order, service order, purchase return order, or outbound transfer order.

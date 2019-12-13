@@ -1,8 +1,6 @@
 ---
 title: How to Create Service Orders | Microsoft Docs
 description: You can use the **Service Order** page to create documents where you enter information about a service, such as repairs and maintenance, on service items by customer request.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e27844b708982e76ce4dfcf15ec02f7190cd855
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311723"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877334"
 ---
 # <a name="create-service-orders"></a>Create Service Orders
 You can use the **Service Order** page to create documents where you enter information about a service, such as repairs and maintenance, on service items by customer request.  

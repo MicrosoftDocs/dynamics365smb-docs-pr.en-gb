@@ -1,8 +1,6 @@
 ---
 title: How to Reverse Output Posting | Microsoft Docs
 description: There are times when output posting must be reversed. An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a production order.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7ff9557d088bec5fb76e4bf673ad4afd244e08bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2cdda8a01d6391f97bfae5600ce35d2ab989ae54
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313163"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877857"
 ---
 # <a name="reverse-output-posting"></a>Reverse Output Posting
 There are times when output posting must be reversed. An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a production order.  

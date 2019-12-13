@@ -12,18 +12,18 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9b5cf95eb076a365dfefa318f990b944a4c458d2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0b1353631aa9e727c25fd6e47dcb7f5699f3e9e1
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315403"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877094"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>The Sales and Inventory Forecast Extension
 Inventory management is a trade-off between customer service and managing your cost. On one hand, a low inventory requires less working capital, but, on the other hand, stock-outs potentially lead to missed sales. The Sales and Inventory Forecast extension predicts potential sales using historical data and gives a clear overview of expected stock-outs. Based on the forecast, the extension helps create replenishment requests to your vendors and saves you time.  
 
 ## <a name="setting-up-forecasting"></a>Setting up Forecasting
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], the connection to [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/) is already set up for you. But you can configure the forecast to use a different type of period to report by, such as changing from forecasting by month to forecasting by quarter. You can also choose the number of periods to calculate the forecast by, depending on how granular you want the forecast to be. We suggest that you forecast by month and with a 12 month horizon for the forecast.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], the connection to [Azure AI](https://azure.microsoft.com/overview/ai-platform/) is already set up for you. But you can configure the forecast to use a different type of period to report by, such as changing from forecasting by month to forecasting by quarter. You can also choose the number of periods to calculate the forecast by, depending on how granular you want the forecast to be. We suggest that you forecast by month and with a 12 month horizon for the forecast.  
 
 ## <a name="using-the-forecasts"></a>Using the Forecasts
 The extension uses Azure AI to predict future sales based on your sales history to help you avoid inventory shortage. For example, when you choose an item on the **Items** page, the chart in the **Item Forecast** pane shows the estimated sales of this item in the coming period. This way you can see if you are likely to run out of stock of the item soon.  

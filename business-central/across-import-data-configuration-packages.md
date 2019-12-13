@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: edupont
-ms.openlocfilehash: e4399c16c28d97c0c1c6d8826af14e1b4a48e454
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff9f17e6ac1625dc4d1f27a39fc843d9eaa375d7
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304979"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896260"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importing Business Data from Other Finance Systems
 When you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)], you can choose to create an empty company so that you can upload your own data and to test your new [!INCLUDE[d365fin](includes/d365fin_md.md)] company. Depending on the finance solution that your business uses today, you can transfer information about customers, vendors, inventory, and bank accounts.  
@@ -45,6 +45,9 @@ When you export the default configuration package to Excel, the generated workbo
 
 > [!IMPORTANT]  
 >  Do not change the columns in the worksheets. If they are moved, changed, or deleted, the worksheet cannot be imported into [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!NOTE]
+> Fields of type Blob cannot be exported/imported using Excel.
 
 ## <a name="tables-in-the-default-configuration-package"></a>Tables in the Default Configuration Package
 The default configuration package supports the following tables:

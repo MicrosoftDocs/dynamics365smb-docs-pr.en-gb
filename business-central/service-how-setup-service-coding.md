@@ -1,8 +1,6 @@
 ---
 title: Set Up Codes for Standard Services | Microsoft Docs
 description: Learn how to set up codes for service activities that you often perform.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2f94eb415085dc56b151b23c4edbf38207b54af1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 766af833ddef09b72a520e97d47a32fb7b77fd86
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311819"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877430"
 ---
 # <a name="set-up-standard-service-codes"></a>Set Up Standard Service Codes
 When you perform typical service, you often have to create service documents that use service lines that contain similar information. To make it easy to create these lines, you can set up standard service codes that have a predefined set of service lines. When you choose the code on a service document, the lines are entered automatically. You can set up any number of standard service codes, and each code can have an unlimited number of service lines of different types, including item, resource, cost, or standrd text linked to it. You create service lines of each standard serice code on the **Standard Service Code** card. You then assign standard service codes to service item groups on the **Standard Serv. Item Gr. Codes** page. Later, when you create a service document, you can use the **Get Standard Service Codes** action to add service lines.  
