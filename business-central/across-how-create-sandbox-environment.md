@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 12/06/2019
+ms.date: 12/10/2019
 ms.author: solsen
-ms.openlocfilehash: 0f8f0f85df89c1d71fc3e114ebd902f2aa85f802
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: 7d189ab6fa5aff518b643c797b7600570fcad43e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896116"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910643"
 ---
 # <a name="creating-a-sandbox-environment-in-include-prodshortincludesprodshortmd"></a>Creating a Sandbox Environment in [!INCLUDE [prodshort](includes/prodshort.md)]
 
@@ -74,13 +74,13 @@ In a sandbox environment, you will find the **Designer** enabled. You can activa
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ### <a name="to-enable-the-advanced-user-experience"></a>To enable the advanced user experience
-It is possible to enable and try the advanced (full) functionality of [!INCLUDE[d365fin](includes/d365fin_md.md)] in a sandbox tenant by setting the **Experience** field on the **Company Information** page.
+It is possible to enable and try the full functionality of the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)] in a sandbox tenant by setting the **Experience** field on the **Company Information** page.
 
 <!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->
 
 <!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
 
-After you have enabled the advanced functionality in a sandbox tenant, you get access to all the standard profiles (roles) and Role Centres. You can also create an evaluation company that is fully set up, including demonstration data and access to the advanced areas of the product.
+After you have enabled the *Premium* user experience, you get access to all the standard profiles (roles) and Role Centres in the standard version. You can also create an evaluation company that is fully set up, including demonstration data and access to the advanced areas of the product. Alternatively, contact a reselling partner for a demonstration of the capabilities. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner).  
 
 <!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 

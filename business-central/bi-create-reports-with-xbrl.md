@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6a327ffa67dcf5f9a388c99b236ce9cbf5755561
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9aec5c57c66ce39bc9d314dc257e2a801ed961ea
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307547"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952753"
 ---
 # <a name="create-reports-with-xbrl"></a>Create Reports with XBRL
 XBRL, which stands for eXtensible Business Reporting Language, is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data. The XBRL initiative enables global financial reporting by numerous ERP software companies and international accounting organizations. The goal of the initiative is to provide a standard for the uniform reporting of financial information for banks, investors, and government authorities. Such business reporting can include:  
@@ -104,6 +104,8 @@ When a taxonomy changes you need to update the current taxonomy accordingly. The
 5.  Select the relevant linkbase or press Ctrl+N for a new line, select the type of linkbase, and then insert a description.  
 6.  To import the linkbase, choose the **Import** action.  
 7.  Choose the **Yes** button to apply the linkbase to the schema.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)    

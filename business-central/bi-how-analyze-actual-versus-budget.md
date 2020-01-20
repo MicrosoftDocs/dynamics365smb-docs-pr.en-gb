@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: f2d17bebfec468ea8499bc0b739f232dc9a90d63
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6773f03a436d1a65eace851abb1e886bdccee55f
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304038"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953858"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analyse Actual Amounts Versus Budgeted Amounts
 As a part of gathering, analysing, and sharing your company data, you view actual amounts compared to budgeted amounts for all accounts and for several periods.
@@ -63,6 +63,8 @@ Instead of viewing the actual and budgeted amounts for all accounts within a sin
 2. On the **Chart of Accounts** page, select the relevant general ledger account, and then choose the **G/L Account Balance/Budget** action.  
 3. At the top of the page, fill in the fields as necessary to define what is shown.   
 4. To see a specification of an amount shown, choose the field.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Business Intelligence](bi.md)  

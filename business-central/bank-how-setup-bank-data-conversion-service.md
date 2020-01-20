@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7c36c50387418f25f3d16f46cefcf275742e69d3
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 0ff91eff703f7f490a3c47cd515523f7fca0316e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692759"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911294"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Set Up the Bank Data Conversion Service
 A global provider of services to convert payment information to any data format that your bank requires is connected and ready to be enabled in [!INCLUDE[d365fin](includes/d365fin_md.md)]. This is referred to in [!INCLUDE[d365fin](includes/d365fin_md.md)] as the bank data conversion service.
@@ -62,5 +62,5 @@ You have now signed up for the bank data conversion service. Proceed to reflect 
 
 ## <a name="see-also"></a>See Also
 [Setting Up Banking](bank-setup-banking.md)  
-[Managing Bank Accounts](bank-manage-bank-accounts.md)  
+[Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

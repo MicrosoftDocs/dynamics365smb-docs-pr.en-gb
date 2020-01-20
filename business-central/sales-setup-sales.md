@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 701556c09944c5dcce74543b550c9036c5cc77dd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311939"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953402"
 ---
 # <a name="setting-up-sales"></a>Setting Up Sales
 Before you can manage sales processes, you must configure the rules and values that define the company's sales policies.
@@ -39,6 +39,8 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 |Use an EU web service to verify a customer's VAT registration number.|[Verify VAT Registration Numbers](finance-setup-vat.md)|
 |Define the different incoterms that you offer to customers or that your vendors offer you.|[Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)|
 |Enter information about the different transportation vendors you use, including a link to their package tracking service.|[Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>See Related Training at [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  

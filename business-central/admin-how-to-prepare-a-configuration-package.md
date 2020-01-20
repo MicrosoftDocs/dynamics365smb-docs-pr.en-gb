@@ -10,24 +10,37 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 398ca571c7b201ca80d252aaff958ee295890f4e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879257"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910619"
 ---
 # <a name="prepare-a-configuration-package"></a>Prepare a Configuration Package
 When you configure a new company, table relations are recognised and processed. Data is imported and applied in the correct order. Dimension tables are also imported if they are included in the configuration package. For more information, see [To import customer data](admin-migrate-customer-data.md#to-import-customer-data). 
 
 To help your customer use the configuration package, you may want to add a questionnaire or a set of questionnaires to the package. The questionnaire can help the customer in understanding the various setup options. Typically, questionnaires are created for the major setup tables where a customer may require additional guidance about how to select an appropriate setting. For more information, see [Gather Customer Setup Values](admin-gather-customer-setup-values.md).
 
-Make sure that you are on the RapidStart Services Implementer Role Centre. For more information, see [Use the RapidStart Services Implementer Role Centre](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+## <a name="before-you-create-a-configuration-package"></a>Before You Create a Configuration Package
+There are some things to consider before you create a configuration package because they will impact you or your customer's ability to import it. 
 
-> [!IMPORTANT]  
->  When exporting and importing configuration packages between two company databases, the databases should have the same schema to ensure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
->   
->  You can import a configuration package that has been exported from a database that has a different schema than that target database. However, any tables or fields in the configuration package that are missing in the target database will not be imported. Tables with different primary keys and fields with different data types will also not successfully import. For example, if the configuration pack includes table **50000, Customer** that has primary key **Code20** and the database to which you import the pack includes table **50000, Customer Bank Account** that has the primary key **Code20 + Code 20**, then data will not be imported.  
+### <a name="tables-that-contain-posted-entries"></a>Tables That Contain Posted Entries
+You cannot import data to tables that contain posted entries, such as the tables for customer, vendor, and item ledger entries, so you should not include this data in your configuration package. You can add entries to these tables after you import the configuration package by using journals to post the entries. For more information, see [Posting Documents and Journals](ui-post-documents-journals.md).
+
+### <a name="licensing"></a>Licensing
+Your licence must include the tables you are updating. If you are unsure, the **Configuration Worksheet** page can help. If your licence includes the table, the **Licensed Table** check box is chosen.  
+
+### <a name="permissions"></a>Permissions
+The process of creating and importing a configuration package involves the following effective permissions for all tables in the package: 
+
+* The user who exports data for the configuration package must have **Read** effective permissions.
+* The user who imports the configuration package must have **Insert** and **Modify** effective permissions.
+
+### <a name="database-schema"></a>Database Schema
+When exporting and importing configuration packages between two company databases, the databases should have the same schema to ensure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
+
+You can import a configuration package that has been exported from a database that has a different schema than that target database. However, any tables or fields in the configuration package that are missing in the target database will not be imported. Tables with different primary keys and fields with different data types will also not successfully import. For example, if the configuration pack includes table **50000, Customer** that has primary key **Code20** and the database to which you import the pack includes table **50000, Customer Bank Account** that has the primary key **Code20 + Code 20**, then data will not be imported.  
 
 ## <a name="to-create-a-configuration-package"></a>To create a configuration package  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 636b8a23d3952536a8cd8de92d44402baf4a56e5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1b7936a73274545dc0e8a9fcddec2fe68fdb62c9
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878944"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953882"
 ---
 # <a name="assembly-management"></a>Assembly Management
 To support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality, [!INCLUDE[d365fin](includes/d365fin_md.md)] includes features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.  
@@ -45,6 +45,8 @@ The following table describes a sequence of tasks, with links to the topics that
 |Undo a posted assembly order, for example because the order was posted with mistakes that must be corrected.|[Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)|
 |Learn about the difference between assembly BOMs and production BOMs and the involved processing differences.|[Work with Bills of Material](inventory-how-work-BOMs.md)|
 |Learn how assembly consumption and output are handled when you post assembly orders and how the derived item and resource costs are processed and distributed to the general ledger.|[Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)|  
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsassemble-items-dynamics-365-business-central"></a>See Related Training at [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: f3ff7d711e7a8f7bfe7acf44c8cd648dcb7a591e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 54ff8fe435012d1a6f00c70540f8dfccdc5901bc
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304860"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952873"
 ---
 # <a name="incoming-documents"></a>Incoming Documents
 Some business transactions are not recorded in [!INCLUDE[d365fin](includes/d365fin_md.md)] from the outset. Instead, an external business document comes into your company as an email attachment or a paper copy that you scan to file. This is typical of purchases, where such incoming document files represent payment receipts for expenses or small purchases.
@@ -43,6 +43,8 @@ The incoming document process can consist of the following main activities:
 | --- | --- |
 | Set up the Incoming Documents feature and set up the OCR service. |[Set Up Incoming Documents](across-how-setup-income-documents.md) |
 | Create incoming document records, attach files, use OCR to turn PDF files into electronic documents, convert electronic documents to document records, audit incoming document records from posted sales and purchase documents. |[Processing Incoming Documents](across-process-income-documents.md) |
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesincoming-documents-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Purchasing](purchasing-manage-purchasing.md)  

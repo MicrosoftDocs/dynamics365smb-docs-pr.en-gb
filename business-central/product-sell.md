@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 10/01/2019
+ms.date: 12/20/2019
 ms.author: edupont
-ms.openlocfilehash: 964cbf52362db7a5f9131375925adbf8f941938d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 36185512ff17e7044dfc9bb6539d3f7b102472b5
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883343"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918149"
 ---
 # <a name="become-a-reseller-of-included365fin_longincludesd365fin_long_mdmd"></a>Become a Reseller of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Expand your business opportunity with [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
@@ -26,10 +26,7 @@ If you specialise in Cloud solutions, Office 365, SharePoint, industry solutions
 
 ## <a name="get-started"></a>Get started
 
-The "Ready to Go" programme is one way to get started as a [!INCLUDE [prodshort](includes/prodshort.md)] reseller. You can also contact the Microsoft office in your coyntrye or region. For more information about the resources available to you through the "Ready to Go" programme", see [aka.ms/readytogo](https://aka.ms/readytogo). Learn more about becoming a reseller at [Resell Different Solutions](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).  
-
-Sign up for a trial at [https://dynamics.microsoft.com/business-central/overview/ ](https://dynamics.microsoft.com/business-central/overview/
-), and send feedback at [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
+The "Ready to Go" programme is one way to get started as a [!INCLUDE [prodshort](includes/prodshort.md)] reseller. You can also contact the Microsoft office in your country or region. For more information about the resources available to you through the "Ready to Go" programme", see [aka.ms/readytogo](https://aka.ms/readytogo), [Resell Different Solutions](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller), and [Get started as a reseller](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
 
 ## <a name="see-also"></a>See Also
 

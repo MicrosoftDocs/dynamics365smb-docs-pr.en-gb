@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/04/2019
+ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896212"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918221"
 ---
 # <a name="migrate-customer-data"></a>Migrate Customer Data
 You can migrate existing customer data from an existing ERP system to [!INCLUDE[d365fin](includes/d365fin_md.md)] using the data migration tools of RapidStart Services. You can use Excel files as the data carrier. You can also manually move the data by entering it directly in the company.
@@ -31,13 +31,13 @@ When you create a new company, you can import company settings for the new compa
 > [!NOTE]  
 >  You cannot rename a file that is not already a RapidStart Services configuration package as a .rapidstart configuration package file and then try to import it. If you try to do so, you will receive an error message.  
 
-Before you start, make sure that you are on the RapidStart Services Implementer Role Centre.
+Before you start, you must make sure that you have permission to run the RapidStart Services objects. For example you can have the SUPER permission set, or be an internal or delegated administrator. We also recommend that you are on a Role Centre with links to RapidStart Services, such as the Administration Role Centre. For more information, see [To change the role](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
->  When exporting and importing configuration packages between two company databases, the databases should have the same schema to make sure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
->   
+> When exporting and importing configuration packages between two company databases, the databases should have the same schema to make sure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
+>
 >  You can import a configuration package that has been exported from a database that has a different schema than that target database. However, any tables or fields in the configuration package that are missing in the target database will not be imported.
->   
+>
 > Tables that have different primary keys and fields that have different data types will also not be successfully imported. For example, if the configuration pack includes table **50000 Customer** that has primary key **Code20** and the database to which you import the pack includes table **50000 Customer Bank Account** that has the primary key **Code20 + Code 20**, data will not be imported.  
 
 1. Open the new company.  
@@ -56,7 +56,11 @@ Before you start, make sure that you are on the RapidStart Services Implementer 
 If the selection of tables does not meet your needs, you can create one or more new data migration files. If the files are sufficient, you can continue with the data migration using Excel or XML files.
 
 ## <a name="to-create-a-data-migration-file"></a>To create a data migration file
-You can create new data migration files and customise them to support your business. Note that a file can only be used to migrate a field that has its **FieldClass** property set to **Normal**.  
+
+You can create new data migration files and customise them to support your business.  
+
+> [!TIP]
+> A file can only be used to migrate a field that has its **FieldClass** property set to **Normal**.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Package**, and then choose the related link.  
 2. Select and open the package that you want to use to migrate data, and then choose the **Get Tables** action. The **Get Package Table** page opens.  

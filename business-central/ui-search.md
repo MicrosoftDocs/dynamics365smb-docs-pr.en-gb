@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 11/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 75bff4d303ac13c2ba76cb21a76de1ac6a08dca1
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 13b3e82d184e83841ea5daeb32c735e5383b3e02
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695054"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953954"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finding Pages and Information with Tell Me  
 This topic describes how Tell Me can help you quickly go to things like actions, pages, or reports, find information about how to complete a particular task, and discover additional apps and consulting services for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -62,6 +62,8 @@ The **Tell me what you want to do** function does not search for data, such as c
 
 ## <a name="questions"></a>Questions?
 We have shown Tell Me to a range of stakeholders, noted the questions that they had in common, and turned our notes into a list frequently asked questions. If you are interested, see [Tell Me FAQ](ui-search-faq.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesuser-interface-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Working with Business Central](ui-work-product.md)  

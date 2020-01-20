@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: c843f0fb6c8017817ada9dc5bf2af0ef68a5cc5a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: a069fb7df3738b1f42aa2ddc86ce95144c39daff
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878755"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952849"
 ---
 # <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>Using [!INCLUDE [prodlong](includes/prodlong.md)] as Power BI Data Source for Building Reports
 
@@ -41,6 +41,8 @@ Once the data is loaded it will appear in the right navigation on the page. At t
 Before building your report, we recommend that you import the [!INCLUDE [prodshort](includes/prodshort.md)] theme file.  The theme file will create a colour palette so that you can build reports with the same colour styling as the [!INCLUDE [prodshort](includes/prodshort.md)] apps without requiring you to define custom colours for each visual.
 
 For more information, see the [Power BI documentation](/power-bi/consumer/power-bi-consumer-landing/).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 

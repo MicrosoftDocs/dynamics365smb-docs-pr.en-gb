@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 137d44db160d0f1e832cc344a779e6bf01a64bbd
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808584"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911146"
 ---
 # <a name="select-a-check-layout"></a>Select a Cheque Layout
 You can design your cheques to conform with the standards set by the local authorities. Cheque images can be printed in English, French, or Spanish.
@@ -41,7 +41,7 @@ To change one of these default cheque layouts, use either the Word or the RDLC i
 ## <a name="see-also"></a>See Also
 [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Managing Bank Accounts](bank-manage-bank-accounts.md)   
+[Reconciling Bank Accounts](bank-manage-bank-accounts.md)   
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  
 [Working with [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

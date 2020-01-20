@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f5727e241d40e362e17d727d924a829f9b0c4ae
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 94f3a735887d4af23b3ec27ffb04e874dbc1924c
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305243"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952921"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Set Up Electronic Document Sending and Receiving
 As an alternative to emailing as file attachments, you can send and receive business documents electronically. By electronic document is meant a standard\-compliant file representing a business document, such as an invoice from a vendor that can be received and converted to a purchase invoice in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The exchange of electronic documents between two trading partners is performed by an external provider of document exchange services. The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports sending and receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. A major provider of document exchange services is preconfigured and ready to be set up for your company.  
@@ -135,6 +135,8 @@ The topic contains the following procedures:
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**G/L Account for Non-Item Lines**|Specifies the G/L account that is automatically inserted on purchase lines that are created from electronic documents when the incoming document line does not contain an identifiable item. Any incoming document line that does not have a GTIN or the vendor’s item number will be converted to a purchase line of type **G/L Account**, and the **No.** field on the purchase line will contain the account that you select in the **G/L Account for Non-Item Lines** field.<br /><br /> If you leave the **G/L Account for Non-Item Lines** field blank, and the incoming document has lines without identifiable items, then the purchase document will not be created. An error message will instruct you to fill the **G/L Account for Non-Item Lines** field before you can complete the task.|  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also  
 [Exchanging Data Electronically](across-data-exchange.md)   

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4f65a4908fee045190229c1423ef61c6c7bed8c7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315115"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953354"
 ---
 # <a name="personalize-your-workspace"></a>Personalise Your Workspace
 You can personalise your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalisation changes that you make will only affect what you see, not what other users see.
@@ -115,6 +115,8 @@ To help you better understand personalisation, here are some pointers.
 - Changes that you make will take effect on all your Role Centres. For example, if you make a change to the Customer list when the Role Centre is set to Business Manager, you will also see the change on the **Customers** page when the Role Centre is set to Sales Order Processor.
 - Changes to a page in a pane will take effect on the page where ever it is shown.  
 - You can only add fields and columns from a predefined list, which is based on the page. You cannot create new ones.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Customise Pages for Profiles](ui-personalization-manage.md)  

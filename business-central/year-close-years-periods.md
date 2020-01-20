@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: jswymer
-ms.openlocfilehash: 0862806e6ad92dd3988c4a23090e3db7657fde1a
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: ef2f3f5e11b9593dce1ba1eb2039c0c0edd32aba
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554603"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953138"
 ---
 # <a name="closing-years-and-periods"></a>Closing Years and Periods
 At the end of a fiscal year, there are a number of administrative tasks that you have to perform, like making sure all documents and journals are posted, making sure currency data are up-to-date, closing the books, and more. The actual tasks will depend your company.
@@ -36,9 +36,10 @@ The following table provides an overview of tasks that you typically perform to 
 | Close accounting periods and fiscal year, transfer income statement balances to balance sheet accounts and post the year end closing entry. |[Closing Books](year-close-books.md) |
 | Print reports that can assist you in creating financial statements. |[Preparing Closing Statements](year-prepare-close-statement.md) |
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesclose-fiscal-year-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/index)
+
 ## <a name="see-also"></a>See Also
 [Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2019
+ms.date: 12/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: c38666d6e3dcdaf2a5426795930887d726767190
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3618ad87377ebc47f183292207d2f25dc6c3ed34
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304025"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910427"
 ---
 # <a name="transfer-bank-funds"></a>Transfer Bank Funds
-You may sometimes need to transfer an amount from one bank account to another. To do this, you must post the a transaction in the general journal. The task varies depending on whether the bank accounts use the same currency or different currencies.
+You may sometimes need to transfer an amount from one bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)] to another. To do this, you must post the a transaction on the **General Journal** page. The task varies depending on whether the bank accounts use the same currency or different currencies.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>To post a transfer between bank accounts with the same currency code
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.
@@ -54,7 +54,7 @@ To transfer funds between bank accounts that use different currencies, you must 
 13. Post the journal.
 
 ## <a name="see-also"></a>See Also
-[Managing Bank Accounts](bank-manage-bank-accounts.md)  
+[Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Working with General Journals](ui-work-general-journals.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

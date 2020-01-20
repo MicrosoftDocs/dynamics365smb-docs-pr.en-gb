@@ -10,19 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae54c2f764deafe34df8d38e1213757ee9b05515
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: aade98d02744ef2e40b7d844c4bddea4d231fceb
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878588"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910815"
 ---
 # <a name="configure-new-companies"></a>Configure New Companies
 To configure a new company in your solution implementation, you typically follow three phases. In the first phase, you import the configuration package, a .rapidstart file with the configuration information. In the second phase, you modify the configuration information and then apply it to your new company. In the final phase, you review and fix any errors.  
 
 The following procedures assume that you have created and saved a configuration package. For more information, see [Prepare a Configuration Package](admin-how-to-prepare-a-configuration-package.md).  
 
-The following procedures assume that you have initialised and opened your new company and that you are using the RapidStart Services Implementer Role Centre.
+The following procedures assume that you have initialised and opened your new company, and that you are using the Administration Role Centre.
+
+## <a name="before-you-import-a-configuration-package"></a>Before You Import a Configuration Package
+Before you import a configuration package it is a good idea to verify that the following statements are true. Otherwise, you or your customer will not be able to import the configuration package.
+
+* Your licence includes the tables you are updating. If you are unsure, the **Configuration Worksheet** can help. If your licence includes the tables, the **Licensed Table** check box is chosen.  
+* The user who imports the configuration package has Insert and Modify effective permissions to all of the tables that the package will update. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md) 
 
 ## <a name="to-import-a-configuration-package"></a>To import a configuration package  
 1. Open the new company in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/07/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774850"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911130"
 ---
 # <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
 This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -66,6 +66,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Esc|Close the current page or drop-down list.|
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|
+|Y and N|Activate **Yes** and **No** buttons in dialogues. This is language-supported. For example, press J in Germany to activate a **Ja** button.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Keyboard Shortcuts in Lists
 
@@ -141,6 +142,7 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 |Alt+N |Open a page to create a new record; the same way as choosing the **New** action. |
 |Alt+Shift+N |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |
 |Alt+Shift+W |Open the current card or document in a new window. For more information, see [Multitasking Across Multiple Pages](ui-enter-data.md#multitasking-across-multiple-pages).|
+|Ctrl+Enter|Save and close the page.|
 |Ctrl+Down Arrow|Open the next record for an entity.|
 |Ctrl+Up Arrow |Open the previous record for an entity.|
 |Ctrl+Insert |Insert a new line in documents.|
@@ -172,8 +174,8 @@ When setting a date field, you can either enter the date manually or open a cale
 |Ctrl+Up Arrow<br />(Cmd+Up Arrow)|Move to the previous week, same day of the week.|
 |Ctrl+Down Arrow<br />(Cmd+Down Arrow)|Move to the next week, same day of the week.|
 |Enter|Select the focused date.|
-|Ctrl+End<br />(Cmd+End)|Close the calendar and delete current the date.|
-|Esc|Close the calendar without a selection, keep current date.|
+|Ctrl+End<br />(Cmd+End)|Close the calendar and delete the current date.|
+|Esc|Close the calendar without a selection, keep the current date.|
 |Page Down|Move to the next month.|
 |Page Up|Move to the previous month.|  
 

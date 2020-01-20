@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ebf6d29a388ed3c66159a8c8a8e8fd65abe709ed
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 63013d244b5cab25e520bb05af4c84293aa5ed48
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878848"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910767"
 ---
 # <a name="create-journal-opening-balances"></a>Create Journal Opening Balances
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data with the customer journal, the vendor journal, the item journal, or the G/L journal.
 
 The first step is to create a configuration package that includes the setup tables for those journals. The following procedure assumes that this step is completed. For more information, see [Set Up Company Configuration](admin-set-up-company-configuration.md). This procedure describes the subsequent steps, which include applying the package that is provided by a partner.  
 
-Before you start, make sure that you are on the RapidStart Services Implementer Role Centre page as it provides the correct context for your configuration work. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
+Before you start, make sure that you are using the Administration Role Centre page because it provides the correct context for your configuration work. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
 
 ## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>To apply the entries in a journal to a new company  
 1. Configure a new company and apply a configuration package to it. For more information, see [Configure a Company with the RapidStart Wizard](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
@@ -30,7 +30,7 @@ Before you start, make sure that you are on the RapidStart Services Implementer 
     The new company does not contain information about journal opening balances.  
 
 2. Open the configuration worksheet and import existing data about customers, items, vendors, and the general ledger. For more information, see [Migrate Customer Data](admin-migrate-customer-data.md).  
-3. Choose, for example, the **Create G/L Journal Lines** action.  
+3. Choose, for example, the **Create G/L Acct. Journal Lines** action.  
 4. Fill in the **Options** FastTab as appropriate, and set filters as needed. For example, in the **Journal Template** field, enter a name.  
 5. Choose the **OK** button. The records are now in the journal, but the amounts are empty.  
 6. Export the journal table to Excel and manually enter the posting and balancing account information from the legacy data.

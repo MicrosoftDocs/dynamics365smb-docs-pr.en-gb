@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 249c38574c2f5ff1babc17df25bf33679a6b6764
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3d7c1fa772263aa863b6398e86f35be47998f455
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316411"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954017"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Process Sales Returns or Cancellations
 If a customer wants to return items or be reimbursed for items or services that you have sold and received payment for, you must create and post a sales credit memo that specifies the requested change. To include the correct sales invoice information, you can create the sales credit memo directly from the posted sales invoice or you can create a new sales credit memo with copied invoice information.
@@ -214,6 +214,8 @@ When return receipts are combined on a credit memo and posted, a posted sales cr
 3.  Choose the **OK** button.  
 
 Alternatively, delete individual sales return orders manually.   
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>See Related Training at [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  

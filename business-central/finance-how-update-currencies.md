@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6e9456a17ccf8dc6c3e3e8ae8272baa03f43f7da
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: be39f8a56dc95ed48e339e89513a103d044faa08
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882669"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952681"
 ---
 # <a name="update-currency-exchange-rates"></a>Update Currency Exchange Rates
 As companies operate in increasingly more countries/regions, it becomes more important that they be able to trade and report financials in more than one currency. You must set up a code for each currency you use if you buy or sell in currencies other than your local currency, have receivables or payables in other currencies, or record G/L transactions in different currencies.
@@ -62,6 +62,8 @@ You can use an external service to keep your currency exchange rates up to date,
 2. Choose the **Update Exchange Rates** action.
 
 The value in the **Exchange Rate** field on the **Currencies** page is updated with the latest currency exchange rate.
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>See Related Training at [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
 [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)  

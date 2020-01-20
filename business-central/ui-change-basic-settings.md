@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ecceb1fc9ccc5245ef5305d9723f26e6270de79e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311435"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953320"
 ---
 # <a name="change-basic-settings"></a>Change Basic Settings
 
@@ -83,6 +83,8 @@ The initial language is either determined by the administrator or by your browse
 
 ## <a name="changing-when-i-receive-notifications"></a>Changing When I Receive Notifications
 Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Managing Notifications](ui-smart-notifications.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Creating New Companies](about-new-company.md)  

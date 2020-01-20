@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809355"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943216"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Assign Permissions to Users and Groups
 The [!INCLUDE[d365fin](includes/d365fin_md.md)] security system allows you to control which objects a user can access within each database or environment. You can specify for each user whether they are able to read, modify, or enter data in the selected database objects. For detailed information, see [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in the Developer and ITPro help for [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -120,7 +120,7 @@ In each of the five access type fields, **Read Permission**, **Insert Permission
 |Option|Description|Ranking|
 |------|-----------|
 |**Yes**|The user can perform the action on the object in question.|Highest|
-|**Indirect**|The user can perform the action on the object in question but only through another related object that the user has full access to.|Second highest|
+|**Indirect**|The user can perform the action on the object in question but only through another related object that the user has full access to. For more information about indirect permissions, see [Permissions Property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) in Developer and IT-Pro Help|Second highest|
 |**Blank**|The user cannot perform the action on the object in question.|Lowest|
 
 ### <a name="example---indirect-permission"></a>Example - Indirect Permission

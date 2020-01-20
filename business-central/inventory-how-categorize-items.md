@@ -12,17 +12,20 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bf4ae1f000afcae3026b3c35a8097f2fb73a9a4a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 43d125f3d5c7b69b9ddb640d808165b451744513
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309996"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910378"
 ---
 # <a name="categorize-items"></a>Categorise Items
 To maintain an overview of your items and to help you sort and find items, it is useful to organise your items in item categories.
 
 To find items by characteristics, you can assign item attributes to items and also to item categories. For more information, see [Work with Item Attributes](inventory-how-work-item-attributes.md).
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo]
 
 ## <a name="to-create-an-item-category"></a>To create an item category
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.

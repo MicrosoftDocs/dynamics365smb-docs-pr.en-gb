@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: f5a6118bc374a28b183f3b07f526f859486b4ecd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff49f8d38935ed574c58f397c45854b02088d199
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300947"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952933"
 ---
 # <a name="united-kingdom-local-functionality"></a>United Kingdom Local Functionality
 The following topics describe local functionality that is unique to the United Kingdom version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -42,9 +42,9 @@ The following topics describe local functionality that is unique to the United K
     * [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md) **Available Now**
     * [Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md) **Available Now**
     * [Enter External Document Numbers](how-to-enter-external-document-numbers.md) **Available Now**
-    * [Print Direct Sales and Purchase Details Reports](how-to-print-direct-sales-and-purchase-details-reports.md) **Available Now**
 
 ## <a name="see-also"></a>See Also
+[Preparing for the United Kingdom to leave the European Union](united-kingdom-leaving-eu.md)<br>
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/21/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 84d9c0768a457fd13a73b3d70d2b8c329098fe82
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649795"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953287"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Manage Attachments, Links, and Notes on Cards and Documents
 
@@ -23,7 +23,10 @@ In the FactBox on most cards and documents, you can attach files, add links, and
 
 To view or change any of these attached information types, you must first open the **Attachments** tab in the FactBox. The number behind the tab title indicates how many attached files, links, or notes exist for the card or document.
 
-Attachments, links, and notes stay attached as the card or document is processed into other counties, such as from an ongoing sales order to a posted sales invoice. Note, however, that none of the attachment types are output from the system, for example, when printing or when saving to a file.
+Attachments, links, and notes stay attached as the card or document is processed into other counties, such as from an ongoing sales order to a posted sales invoice. However, none of the attachment types are output from the system, for example, when printing or when saving to a file.
+
+> [!NOTE]
+> When you partially ship and invoice a sales order or purchase order, the attachment will only be attached to the final invoice of that order. Likewise, when you invoice using the Deferrals feature, the attachment is only attached to the G/L entries for the document but not for the deferral entries.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>To attach a file to a purchase invoice
 You can attach any type of file, containing text, image, or video, to a card or document. This is useful, for example, when you want to store a vendor's invoice as a PDF file on the related purchase invoice in [!INCLUDE[d365fin](includes/d365fin_md.md)].

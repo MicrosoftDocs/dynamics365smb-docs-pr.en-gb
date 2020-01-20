@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2495292a967d81cd64694d3a238399e964c1d94f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d0f65eeb44b6a9a2608c05f6b7c71f989a0b9386
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316723"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953522"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Record Special Purchase Prices and Discounts
 The different price and discount agreements that apply when you buy from different vendors must be defined so that the agreed rules and values are applied to purchase documents that you create for the vendors.
@@ -120,6 +120,8 @@ The best price is the lowest permissible price with the highest permissible line
     - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if LCY would provide a better price. If there is no price/discount agreement for the specified currency code, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserts the lowest price and the highest line discount in LCY.
 
 If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesset-up-prices-discounts-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  

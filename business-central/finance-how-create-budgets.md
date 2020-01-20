@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: b999e8670c2d9208fb0a9f86d6c0ec26353207b6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5d84dee6ed6cf0b17f488d67e5403638ecb79ce9
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302363"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953810"
 ---
 # <a name="create-gl-budgets"></a>Create G/L Budgets
 You can have multiple budgets for identical time periods by creating budgets with separate names. First, you set up the budget name and enter the budget figures. The budget name is then included on all the budget entries you create.  
@@ -47,6 +47,8 @@ As for practically all other pages, you can export data on budget pages to Excel
 
 > [!NOTE]
 > The chart of accounts, that G/L budgets are based on, have lines of account type Heading that contain the total of the lines below it. When you export a G/L budget, data on all lines is exported regardless of the account type. However, only data on lines of account type Posting can be imported back in. Accordingly: <br /><br /> **When you import a G/L budget, any values that existed on Heading lines will be deleted.** <br /><br /> This is to avoid wrong totals after importing data that has been created or edited in Excel.<br /><br /> **Scenario**: You know that the new budgeted salaries cost is going to be LCY 1.200.000. You want to let the Salaries department budget for the three specific lines (of account type Posting) for Full-time Employees, Part-time Employees, and Temp Help. The three lines are grouped under a Salaries heading line.<br /><br />You enter 1.200.000 on the Heading line, export the budget to Excel, and then send it to the Salaries department, telling them to distribute the LCY 1.200.000.<br /><br /> The Salaries department distributes the amount on the three posting accounts. When you import back into the G/L budget, the three accounts are filled in with the new Excel data, summing to LCY 1.200.000, and the Heading line is blank.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Exporting Your Business Data to Excel](about-export-data.md)  

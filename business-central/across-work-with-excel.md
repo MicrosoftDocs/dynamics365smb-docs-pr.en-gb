@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/24/2019
+ms.date: 01/13/2020
 ms.author: jswymer
-ms.openlocfilehash: 99fe339426b755b70983d8ec9345858357043347
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 9fd5c6c242932d75addcfa5c1811bdd1aff99a94
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808752"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953059"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Viewing and Editing in Excel From Business Central
 
@@ -25,9 +25,9 @@ With pages that display a list of records in rows and columns, like a list of cu
 
 - With this action, Excel respects any filters on the page that limit the records shown. This means that the Excel workbook will contain the same rows and columns that appear on the page in [!INCLUDE[prodshort](includes/prodshort.md)].
 
-- You can make changes to the records in Excel, but you cannot publish the changes back to [!INCLUDE[prodshort](includes/prodshort.md)]. You can only save the changes to Excel file on your computer. 
+- You can make changes to the records in Excel, but you cannot publish the changes back to [!INCLUDE[prodshort](includes/prodshort.md)]. You can only save the changes to Excel file on your computer.
 
-- This action works on both on Windows and macOS. 
+- This action works on both on Windows and macOS.
 
 > [!NOTE]
 > For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Open in Excel** action is available by default. However, if you set up [!INCLUDE [prodshort](includes/prodshort.md)] on-premises for editing data in Excel, then the **Open in Excel** action is replaced by the **Edit in Excel** action.
@@ -48,10 +48,12 @@ This was enhanced in 2019 release wave 2. For more information, see [Enhancement
 > [!NOTE]
 > For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, this feature is only available for the Web client.
 
-### <a name="see-the-differences-between-the-options"></a>See the differences between the options 
+### <a name="see-the-differences-between-the-options"></a>See the differences between the options
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Working with Business Central](ui-work-product.md)  

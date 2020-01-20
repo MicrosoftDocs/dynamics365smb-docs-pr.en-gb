@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 11/11/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0360396d0379ca325a8563fffbfead971b8ba7f1
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: b64d0cf270678206cbcb077de937acb0f8220776
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798530"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953690"
 ---
 # <a name="set-up-value-added-tax"></a>Set Up Value-Added Tax
 Consumers and businesses pay value-added tax (VAT) when they purchase goods or services. The amount of VAT to pay can vary, depending on several factors. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you set up VAT to specify the rates to use to calculate tax amounts based on the following:
@@ -37,7 +37,8 @@ We recommend that you use the VAT Setup assisted setup guide to set up VAT in [!
 
 To start the assisted setup guide, follow these steps:
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**.  
-2. Choose **Set up VAT**.
+2. Choose **Set up VAT** and complete the steps.
+3. When you have completed the assisted setup, visit the **Vat Posting Setup** page and check if you have to fill in additional fields according to your local country version. For more information, see [Local functionality in Business Central](about-localization.md)  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>To set up VAT registration numbers for your country or region
 To help ensure that people enter valid VAT registration numbers, you can define formats for the VAT registration numbers that are used in the countries or regions in which you do business. [!INCLUDE[d365fin](includes/d365fin_md.md)] will display an error message when someone makes a mistake or uses a format that is incorrect for the country or region.
@@ -269,7 +270,10 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
 > [!IMPORTANT]  
 >  After the conversion, the **Converted** field in the **VAT Rate Change Log Entry** table is chosen and the **Converted Date** field in the **VAT Rate Change Log Entry** table displays the conversion date.  
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>See Also  
-[Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
+[Setting Up Unrealised Value Added Tax](finance-setup-unrealized-vat.md)      
 [Report VAT to a Tax Authority](finance-how-report-vat.md)  
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
+[Local functionality in Business Central](about-localization.md)

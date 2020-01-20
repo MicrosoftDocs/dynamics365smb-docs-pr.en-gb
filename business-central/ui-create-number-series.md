@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 65d4562e133d8fa2383bd1fb5092ea001d577396
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ad00fffd79d35e7e1dc29134b75c4c5213891e0b
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311411"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953310"
 ---
 # <a name="create-number-series"></a>Create Number Series
 For each company that you set up, you need to assign unique identification codes to things such as general ledger accounts, customer and vendor accounts, invoices, and other documents. Numbering is important not only for identification. A well-designed numbering system also makes the company more manageable and easy to analyse, and can reduce the number of errors that occur in data entry.
@@ -81,6 +81,8 @@ If you have set up more than one number series code for the same kind of basic i
 5. Close the page.
 
 Now when you set up something that requires a number, you can use the relationships you created to select among the related number series.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesnumber-series-trail-codes-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
