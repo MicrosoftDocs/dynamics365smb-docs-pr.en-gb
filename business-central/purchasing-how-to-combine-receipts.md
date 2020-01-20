@@ -1,6 +1,8 @@
 ---
-title: How to Allow Receipts of More Items than Ordered| Microsoft Docs
+title: How to Combine Receipts | Microsoft Docs
 description: If you want to invoice more than one purchase receipt at a time, you can use the Combine Receipts function.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,26 +10,40 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/17/2018
 ms.author: sgroespe
-ms.openlocfilehash: 3a8a637292f25f683b197d96d55816bfc79d44cf
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 08a0bb315916ab2a5d344519b680e48bcf6d95fa
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883053"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911222"
 ---
-# <a name="allow-receipt-of-more-items-than-ordered"></a><span data-ttu-id="09e9d-103">Allow Receipt of More Items Than Ordered</span><span class="sxs-lookup"><span data-stu-id="09e9d-103">Allow Receipt of More Items Than Ordered</span></span>
-<span data-ttu-id="09e9d-104">When you receive more goods than you ordered, you may want to receive them in stead of cancelling the receipt.</span><span class="sxs-lookup"><span data-stu-id="09e9d-104">When you receive more goods than you ordered, you may want to receive them in stead of canceling the receipt.</span></span> <span data-ttu-id="09e9d-105">For example, it may be cheaper to keep the excess on your inventory than returning them or your vendor may offer you a discount for keeping them.</span><span class="sxs-lookup"><span data-stu-id="09e9d-105">For example, it may be cheaper to keep the excess on your inventory than returning them or your vendor may offer you a discount for keeping them.</span></span>
+# <a name="combine-receipts-on-a-single-invoice"></a><span data-ttu-id="b527c-103">Combine Receipts on a Single Invoice</span><span class="sxs-lookup"><span data-stu-id="b527c-103">Combine Receipts on a Single Invoice</span></span>
+<span data-ttu-id="b527c-104">If you want to invoice more than one purchase receipt at a time, you can use the **Combine Receipts** function.</span><span class="sxs-lookup"><span data-stu-id="b527c-104">If you want to invoice more than one purchase receipt at a time, you can use the **Combine Receipts** function.</span></span>  
 
-<span data-ttu-id="09e9d-106">Order processors and warehouse workers must be able to handle such "over receipts" without going through a lengthy process of preparing and getting approval for a new purchase order.</span><span class="sxs-lookup"><span data-stu-id="09e9d-106">Order processors and warehouse workers must be able to handle such "over receipts" without going through a lengthy process of preparing and getting approval for a new purchase order.</span></span>
+<span data-ttu-id="b527c-105">Before you can create a combined purchase receipt, more than one receipt from the same vendor in the same currency must be posted.</span><span class="sxs-lookup"><span data-stu-id="b527c-105">Before you can create a combined purchase receipt, more than one receipt from the same vendor in the same currency must be posted.</span></span> <span data-ttu-id="b527c-106">In other words, you must have filled in two or more purchase orders and posted them as received, but not invoiced.</span><span class="sxs-lookup"><span data-stu-id="b527c-106">In other words, you must have filled in two or more purchase orders and posted them as received, but not invoiced.</span></span>  
 
-## <a name="to-receive-more-items-than-specified-on-the-purchase-document"></a><span data-ttu-id="09e9d-107">To receive more items than specified on the purchase document</span><span class="sxs-lookup"><span data-stu-id="09e9d-107">To receive more items than specified on the purchase document</span></span>
+<span data-ttu-id="b527c-107">When purchase receipts are combined on an invoice and posted, then a posted purchase invoice is created for the invoiced lines.</span><span class="sxs-lookup"><span data-stu-id="b527c-107">When purchase receipts are combined on an invoice and posted, then a posted purchase invoice is created for the invoiced lines.</span></span> <span data-ttu-id="b527c-108">The **Quantity Invoiced** field on the originating purchase order, or blanket purchase order, is updated based on the invoiced quantity.</span><span class="sxs-lookup"><span data-stu-id="b527c-108">The **Quantity Invoiced** field on the originating purchase order, or blanket purchase order, is updated based on the invoiced quantity.</span></span> <span data-ttu-id="b527c-109">However, this original purchase document is not deleted, even if it has been fully received and invoiced, and you must therefore delete the purchase document.</span><span class="sxs-lookup"><span data-stu-id="b527c-109">However, this original purchase document is not deleted, even if it has been fully received and invoiced, and you must therefore delete the purchase document.</span></span>  
 
-1. <span data-ttu-id="09e9d-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="09e9d-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.</span></span>
-2.   
+## <a name="to-combine-receipts"></a><span data-ttu-id="b527c-110">To combine receipts</span><span class="sxs-lookup"><span data-stu-id="b527c-110">To combine receipts</span></span>  
+1. <span data-ttu-id="b527c-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="b527c-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="b527c-112">Choose the **New** action.</span><span class="sxs-lookup"><span data-stu-id="b527c-112">Choose the **New** action.</span></span> <span data-ttu-id="b527c-113">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="b527c-113">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>  
+3. <span data-ttu-id="b527c-114">On the **Lines** FastTab, choose the **Get Receipt Lines** action.</span><span class="sxs-lookup"><span data-stu-id="b527c-114">On the **Lines** FastTab, choose the **Get Receipt Lines** action.</span></span>  
+4. <span data-ttu-id="b527c-115">Select multiple receipt lines that you want to include in the invoice.</span><span class="sxs-lookup"><span data-stu-id="b527c-115">Select multiple receipt lines that you want to include in the invoice.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="09e9d-109">See Also</span><span class="sxs-lookup"><span data-stu-id="09e9d-109">See Also</span></span>  
-[<span data-ttu-id="09e9d-110">Purchasing</span><span class="sxs-lookup"><span data-stu-id="09e9d-110">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="09e9d-111">Receive Items</span><span class="sxs-lookup"><span data-stu-id="09e9d-111">Receive Items</span></span>](warehouse-how-receive-items.md)  
-<span data-ttu-id="09e9d-112">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="09e9d-112">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+    <span data-ttu-id="b527c-116">If an incorrect receipt line was selected or you want to start over, you can just delete the lines on the purchase invoice and then use the **Get Receipt Lines** function again.</span><span class="sxs-lookup"><span data-stu-id="b527c-116">If an incorrect receipt line was selected or you want to start over, you can just delete the lines on the purchase invoice and then use the **Get Receipt Lines** function again.</span></span>  
+5. <span data-ttu-id="b527c-117">To post the invoice, choose the **Post** action.</span><span class="sxs-lookup"><span data-stu-id="b527c-117">To post the invoice, choose the **Post** action.</span></span>  
+
+## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a><span data-ttu-id="b527c-118">To remove open purchase orders after combined receipt posting</span><span class="sxs-lookup"><span data-stu-id="b527c-118">To remove open purchase orders after combined receipt posting</span></span>  
+1. <span data-ttu-id="b527c-119">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Purchase Orders**, and select the related link.</span><span class="sxs-lookup"><span data-stu-id="b527c-119">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Purchase Orders**, and select the related link.</span></span>  
+2. <span data-ttu-id="b527c-120">Fill in the fields as necessary.</span><span class="sxs-lookup"><span data-stu-id="b527c-120">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]<span data-ttu-id="b527c-121">.</span><span class="sxs-lookup"><span data-stu-id="b527c-121">.</span></span>
+3. <span data-ttu-id="b527c-122">Choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="b527c-122">Choose the **OK** button.</span></span>  
+
+<span data-ttu-id="b527c-123">Alternatively, delete the individual orders manually.</span><span class="sxs-lookup"><span data-stu-id="b527c-123">Alternatively, delete the individual orders manually.</span></span>
+
+<span data-ttu-id="b527c-124">Repeat steps 1 through 3 for any other affected documents, such as blanket purchase orders.</span><span class="sxs-lookup"><span data-stu-id="b527c-124">Repeat steps 1 through 3 for any other affected documents, such as blanket purchase orders.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="b527c-125">See Also</span><span class="sxs-lookup"><span data-stu-id="b527c-125">See Also</span></span>  
+[<span data-ttu-id="b527c-126">Purchasing</span><span class="sxs-lookup"><span data-stu-id="b527c-126">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="b527c-127">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b527c-127">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

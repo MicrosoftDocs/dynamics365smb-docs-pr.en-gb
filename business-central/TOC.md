@@ -5,6 +5,15 @@
 ## [Minimum Requirements](product-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Resources for Help and Support](product-help-and-support.md)
+## [Getting Ready for Doing Business](ui-get-ready-business.md)
+## [Overview of Business Functionality](across-business-functionality.md)
+## [Your Access to the Intelligent Cloud with Business Central](about-intelligent-cloud.md)
+## [Visit Our Video Library](across-videos.md)
+## Trials and Subscriptions
+### [Overview](across-preview.md)
+### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
+### [Extending Your Trial Version](admin-extend-trial.md)
+### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Find Training
 ### [Learning Catalogue](readiness/readiness-learning-catalog.md)
 ### [Business Decision Maker Learning Catalogue](readiness/readiness-learning-bus-decision-makers.md)
@@ -13,14 +22,6 @@
 ### [Functional Consultant Learning Catalogue](readiness/readiness-learning-functional-consultants.md)
 ### [Pre-sales Learning Catalogue](readiness/readiness-learning-presales.md)
 ### [Sales Learning Catalogue](readiness/readiness-learning-sales.md)
-
-## [Getting Ready for Doing Business](ui-get-ready-business.md)
-## [Overview of Business Functionality](across-business-functionality.md)
-## [Trials and Subscriptions](across-preview.md)
-### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
-### [Unsubscribe or Remove Business Central](admin-cancel.md)
-## [Your Access to the Intelligent Cloud with Business Central](about-intelligent-cloud.md)
-## [Visit Our Video Library](across-videos.md)
 ## Resellers and Partners
 ### [Become a Reseller](product-sell.md)
 ### [Extending Business Central](about-develop-extensions.md)
@@ -314,7 +315,7 @@
 #### [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 #### [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Field Mapping When Exporting Payment Files Using Bank Data Conversion Service](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Field Mapping for the AMC Banking 365 Fundamentals Extension](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Administration
 ## [Overview](admin-setup-and-administration.md)
@@ -369,7 +370,7 @@
 ### [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Set Up a Dynamics 365 Sales Connection](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronising Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
-### [Modify Table Mappings for Synchronisation](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Mapping the Tables and Fields to Synchronise](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually Synchronise Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshooting Synchronisation Errors](admin-troubleshoot-sales-synchronization.md)
@@ -384,6 +385,7 @@
 #### [Review or Apply Payments Manually after Automatic Application](receivables-how-review-apply-payments-auto-application.md)
 #### [Reconcile Payments that Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+#### [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md)
 ### [Reconcile Customer Payments from a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md)
 ### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
@@ -415,7 +417,7 @@
 ### [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md)
 ### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
 ### [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
-### [Block Customers](receivables-how-block-customers.md)
+### [Block Vendors](payables-how-block-vendors.md)
 ### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
@@ -426,11 +428,10 @@
 ### [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md)
 ### [Correct Prepayments](finance-how-to-correct-prepayments.md)
 
-## Managing Bank Accounts
+## Reconciling Bank Accounts
 ### [Overview](bank-manage-bank-accounts.md)
+### [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md)
 ### [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-### [Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  
-### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 
 ## Managing Intercompany Transactions
 ### [Overview](intercompany-manage.md)
@@ -473,7 +474,7 @@
 ### [Closing Periods](year-how-complete-period-end-processes.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 ### [Allocate Costs and Income](year-allocate-costs-income.md)
-### [Report VAT to the Tax Authorities](finance-how-report-vat.md)
+### [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ### [Preparing Pre-Closing Reports](year-prepare-preclose-reports.md)
 ### [Closing Books](year-close-books.md)
 ### [Preparing Closing Statements](year-prepare-close-statement.md)
@@ -498,7 +499,8 @@
 ## [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
 ## [Analysing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-## [Analysing Financial Statements in Excel](finance-analyze-excel.md)
+## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
+## [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 ## [Accountant Experiences in Business Central](finance-accounting.md)
 
 # Business Intelligence
@@ -924,10 +926,29 @@
 
 ## Czech Republic
 ### [Overview](LocalFunctionality/Czech/czech-local-functionality.md)
+### Core Finance  
+#### [Finance](LocalFunctionality/Czech/finance.md)
+#### [Year Close Operations](LocalFunctionality/Czech/year-close-operations.md)
+#### [General Ledger Entries Application](LocalFunctionality/Czech/general-ledger-entries-application.md)
+#### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
 ### VAT
+#### [Finance - VAT](LocalFunctionality/Czech/finance-vat.md)
 #### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
-### Banking & Payments
+### Fixed Assets
+#### [Fixed Assets](LocalFunctionality/Czech/fixed-assets.md)
+### Banking and Payments
+#### [Bank Feature](LocalFunctionality/Czech/bank-feature.md)
+#### [Cash Desk Management](LocalFunctionality/Czech/cash-desk-management.md)
 #### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
+#### [Advances](LocalFunctionality/Czech/advances.md)
+### Payables and Receivables
+#### [Payables and Receivables](LocalFunctionality/Czech/receivables-payables.md)
+#### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+### Inventory
+#### [Inventory](LocalFunctionality/Czech/inventory.md)
+### General
+#### [Extended User Control](LocalFunctionality/Czech/general.md)
+#### [Best Practices](LocalFunctionality/Czech/best-practices.md)
 
 ## Denmark
 ### [Overview](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1092,9 +1113,10 @@
 ## Mexico
 ### [Overview](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### Tax
+#### [Set Up and Generate DIOT Reports](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 #### [Mexico Sales Tax](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Set Up Use Tax and Purchase Tax](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
-#### [Set Up Unrealised VAT and Sales Payment Discounts](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
+#### [Set Up Unrealised Sales Tax and Sales Payment Discounts](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
 #### [Reporting Sales Tax in Mexico](LocalFunctionality/Mexico/mexico-sales-tax.md)
 #### [Create Deposits](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 #### [Tax Identification Types for Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
@@ -1423,7 +1445,6 @@
 #### [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 #### [Enter External Document Numbers](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
-#### [Print Direct Sales and Purchase Details Reports](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
 ## United States
 ### [Overview](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
