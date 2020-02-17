@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 01/06/2020
 ms.author: edupont
-ms.openlocfilehash: 9c409b3aa0301b959cde0681307cf8346fbe7a54
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: 50cc4aba9f3a01b9518d974cf011de3b9b20a4da
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943045"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991863"
 ---
 # <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Accountant Experiences in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[d365fin](includes/d365fin_md.md)]. From here, you can access all pages that you need in your work.  
@@ -42,7 +42,7 @@ We have made it easy for you to invite your external accountant. Simply open the
 > 
 > This task requires access to managing users and licences in Azure Active Directory, the user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Office 365 admin centre. For more information, see [About admin roles](/office365/admin/add-users/about-admin-roles) in the Office 365 admin content.  
 
-### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Adding your accountant to your Office 365 via Azure Portal'
+### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Adding your accountant to your Office 365 via Azure Portal
 
 If your administrator or reselling partner do not want to use the **Invite External Accountant** guide, they can add an external user in the Azure Portal and assign this user the External Accountant licence. For more information, see [Quickstart: Add guest users to your directory in the Azure portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

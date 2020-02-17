@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/13/2020
+ms.date: 01/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: 575e46f7988184f52cddf8e986a7aef05a61804b
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 73e488270862e62a237575929caa3753b4c7f545
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953474"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991983"
 ---
 # <a name="collect-outstanding-balances"></a>Collect Outstanding Balances
 Managing receivables includes checking whether amounts due are paid on time. If customers have overdue payments, you can begin by sending the Customer Statement report as a reminder. Alternatively, you can issue reminders.
@@ -216,7 +216,10 @@ A finance charge memo is similar to an invoice. You can fill in a header manuall
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memos**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary.  
 3. Choose **Suggest Fin. Charge Memo Lines** action.
-4. On the **Suggest Finance Charge Memo Lines** page, set a filter on the **Cust. Ledger Entry** FastTab if you want to create finance charge memos only for specific entries.  
+4. On the **Suggest Finance Charge Memo Lines** page, set a filter on the **Cust. Ledger Entry** FastTab if you want to create finance charge memos only for specific entries.
+
+    > [!NOTE]
+    > Although they are listed, selecting **Payment** and **Credit Memo** as **Document Type** filters will not have any effect because the **Suggest Finance Charge Memo Lines** function only handles positive amounts.
 5.  Choose the **OK** button to start the batch job.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>To update finance charge memo texts  

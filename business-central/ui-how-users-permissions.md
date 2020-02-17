@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: e07636b6211eb57205d41d982bfbfb4bc2d5b330
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943240"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030059"
 ---
 # <a name="create-users-according-to-licenses"></a>Create Users According to Licences
 The following describes how you as an administrator create users and define who can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)], and which fundamental rights different user types have according to the licences.
@@ -61,7 +61,7 @@ Sometimes you may need to change the licence that is assigned to a user. For exa
 1. Change the licence in the Microsoft 365 Admin Centre. For more information, see [Add users individually or in bulk to Office 365](https://aka.ms/CreateOffice365Users).
 2. Sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)] as an administrator.
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
-4. On the **Users** page, choose the **Refresh all User Groups** action.
+4. On the **Users** page, choose the **Restore User Default User Groups** action.
 
 The users will be moved to a proper user group and the permission sets will be updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
@@ -87,7 +87,7 @@ If you change the user in Office 365 afterwards, and you need to synchronise the
 ## <a name="the-device-license"></a>The Device Licence
 With the Dynamics 365 Business Central Device licence, multiple users can use a device that is licenced with the Device licence to operate a point of sale device, shop floor device, or warehouse device. For more information, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
 
-The Device licence is implemented as a concurrent-user model. When you have purchased X number of device licences, up to X number of users from the designated group called Dynamics 365 Business Central Device Users* can log in concurrently.
+The Device licence is implemented as a concurrent-user model. When you have purchased X number of device licences, up to X number of users from the designated group called Dynamics 365 Business Central Device Users can log in concurrently.
 
 Your company's Office 365 administrator or Microsoft partner should create the designated device group and add device users as members of that group. They can do this in the [Microsoft 365 Admin Centre](https://admin.microsoft.com/) or on the [Azure Portal](https://portal.azure.com/).
 

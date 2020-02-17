@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 68168b253fa1d9532298f399030a60c377e67b82
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5f7a95b297ef494cc3607f4550b6a0e58b18839d
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316027"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992176"
 ---
 # <a name="create-service-items"></a>Create Service Items
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the term "service item" refers to equipment or items that require service. When you create a service order, you specify the items that need service. In the order, you can link a service item to an item in inventory or a service item group.    
@@ -36,12 +36,12 @@ When you receive items for service that you want to register as service items, y
     A number is assigned to the service item and a service item card is created. The **Service Item No.** field is filled in with the number of the new service item.
 
 ## <a name="to-create-a-service-item-when-shipping-items"></a>To create a service item when shipping items  
-When you ship items by posting either service orders or service invoices, the shipped items are automatically registered as service items if the following condition is met. The items must belong to a service item group with the **Create Service Item** check box selected. If the items have serial numbers registered in the Item Tracking Lines page, this information is copied automatically to the **Serial No.** field on the service item card when creating service items.  
+When you ship items by posting either sales orders or sales invoices, the shipped items are automatically registered as service items if the following condition is met. The items must belong to a service item group with the **Create Service Item** check box selected. If the items have serial numbers registered in the Item Tracking Lines page, this information is copied automatically to the **Serial No.** field on the service item card when creating service items.  
 
-The following procedure shows how to create service items when you ship items on service orders.  
+The following procedure shows how to create service items when you ship items on sales orders.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
-2. Open the relevant service order.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+2. Open the relevant sales order.  
 3. Choose the **Post** or **Post and Print** action.  
 4. Choose the **Ship** or **Ship and Invoice** action.  
 5. The service items are automatically created for the items on the order, provided these belong to a service item group that you have set up to create service items. If you registered specific serial numbers on the **Item Tracking Lines** page, they will be assigned to these service items.  

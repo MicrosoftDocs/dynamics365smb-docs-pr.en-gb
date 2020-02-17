@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5fa6f0ea5f12d44ae538df5a2be3489819963e47
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 79fe847cdfaef12c16ce972ec20f3213f0af352a
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692831"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999718"
 ---
 # <a name="setting-up-data-exchange"></a>Setting Up Data Exchange
 Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved files. In addition, you must set up related areas, such as the customers that you send electronic invoices to, or the AMC Banking 365 Fundamentals extension if you use the external service provider to convert your bank files. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
@@ -40,6 +40,5 @@ Before you can send and receive electronic documents or import and export bank f
 
 ## <a name="see-also"></a>See Also  
 [Exchanging Data Electronically](across-data-exchange.md)  
-[Exchanging Data](across-exchange-data.md)   
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)  

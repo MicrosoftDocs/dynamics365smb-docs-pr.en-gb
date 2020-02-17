@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879209"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999790"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Use Job Queues to Schedule Tasks
 Job queues in [!INCLUDE[d365fin](includes/d365fin_md.md)] enables users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson - Sales Statistics** report weekly, to track sales by salesperson each week, or you might want to run the **Process Service E-mail Queue** codeunit daily, to make sure pending email messages to customers regarding their service orders are sent out in a timely manner.
@@ -31,6 +31,11 @@ You can achieve this by setting the job queue up to run various batch-posting re
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supports background posting for all sales, purchasing, and service documents.
 
+> [!NOTE]
+> Some jobs change the same data and should not run at the same time because that can cause conflicts. For example, background jobs for sales documents will try to modify the same data at the same time. Job queue categories help prevent these kinds of conflicts by ensuring that when one job is running, another job that belongs to the same job queue category will not run until it finishes. For example, a job that belongs to a Sales job queue category will wait until all other sales related jobs are done. You specify a job queue category on the **Background Posting** FastTab on the **Sales & Receivables Setup** page. 
+> 
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] provides job queue categories for sales, purchase, and general ledger posting. We recommend that one of these, or one that you create, is always specified. If you experience failures due to conflicts, consider setting up a category for all sales, purchase, and general ledger background posting.
+
 The following procedure explains how to set up background posting of sales orders. The steps are similar for purchasing and service.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
@@ -41,7 +46,7 @@ The following procedure explains how to set up background posting of sales order
 4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
 5. On the **Job Queue Entries** page, choose the **New** action.
 6. In the **Object Type to Run** field, select **Codeunit**.  
-7. In the **Object ID to Run** field, select 88, **Sales Post via Job Queue**.
+7. In the **Object ID to Run** field, select **88**. The Description and Object Caption to Run fields will show Sales Post via Job Queue.
 
     No other fields are relevant for this scenario.
 8. Choose the **Set Status to Ready** action.

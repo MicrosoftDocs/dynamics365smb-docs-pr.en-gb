@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 12/16/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 416ca6f99dec55a9eb0c9a70e9974d2e7bcb348c
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 0e38ec4c70fdbf81b29d96ad9db80cd7efdd2c82
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910451"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999862"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Reverse Journal Postings and Undo Receipts/Shipments
 To undo an erroneous journal posting, you select the entry and create a reverse entry (entries identical to the original entry but with opposite sign in the amount field) with the same document number and posting date as the original entry. After reversing an entry, you must make the correct entry.
@@ -34,7 +34,7 @@ If you have made an incorrect positive quantity posting, such as a sales shipmen
 You can reverse entries from all **Ledger Entries** pages. The following procedure is based on the **General Ledger Entries** page.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Entries**, and then choose the related link.
 2. Select the entry that you want to reverse, and then choose the **Reverse Transaction** action. Note that is must originate from a journal posting.
-3. On the **Reverse Transaction Entries** page, select the relevant entry, and then choose the **Reverse** action.
+3. On the **Reverse Transaction Entries** page, choose the **Reverse** action.
 4. Choose the **Yes** button on the confirmation message.
 
 > [!NOTE]

@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: edupont
-ms.openlocfilehash: 901650c2ed61867cdcccd093d54b10fe24ce30a9
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 780b42f779fa436716144e4bc598255d913427ed
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911078"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999814"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Setting Up or Changing the Chart of Accounts
 The chart of accounts shows the ledger accounts that store your financial data. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard chart of accounts that is ready to support your business.
-However, you can change the default accounts, and you can add new accounts. 
+However, you can change the default accounts, and you can add new accounts.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9]
@@ -36,6 +36,8 @@ From the chart of accounts, you can open each G/L account and add or change sett
 >   * If the **Check G/L Account Usage** field on the **General Ledger Setup** page is selected, then the account must not be used in any posting groups or posting setup.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschart-accounts-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  

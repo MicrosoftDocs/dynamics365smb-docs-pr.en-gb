@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 665842a2ec24cbee6db469f5ce71b03ddd278555
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 3ca0221f755aa4bf3033cbab3469c6772c6d8413
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877142"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030227"
 ---
 # <a name="configure-service-processes"></a>Configure Service Processes
 The following are some examples of the settings that you can apply to service management processes:  
@@ -27,7 +27,7 @@ The following are some examples of the settings that you can apply to service ma
 * The number sequences to use for service-related documents and items.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>To enter general and mandatory settings
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Management Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>See Also  

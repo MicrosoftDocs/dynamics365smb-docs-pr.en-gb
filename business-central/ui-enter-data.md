@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311387"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992098"
 ---
 # <a name="entering-data"></a>Entering Data
 
@@ -108,10 +108,11 @@ When working on multiple tasks at a time or when managing interruptions to the c
 To open the current card or document in a new window, choose ![Open New Window](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
 
 > [!NOTE]
-> When you open other pages from a card or document that is opened in a new window, those pages will open in a new windows even though you do not choose ![Open New Window](media/open-new-window-icon.png "Open new window icon").
+> When you open other pages from a card or document that is opened in a new window, those pages will open in a new window even though you do not choose ![Open New Window](media/open-new-window-icon.png "Open new window icon").
 
 > [!NOTE]
-> If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify the product URL as an allowed website. For information see, [Change preferences in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
+> If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify the product URL as an allowed website. For information see, [Change preferences in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> The same may happen in other browsers, such as Firefox. For more information, see [Pop-up blocker settings in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
 ## <a name="entering-quantities-by-calculation"></a>Entering Quantities by Calculation
 

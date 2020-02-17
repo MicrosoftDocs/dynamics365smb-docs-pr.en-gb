@@ -8,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: db3a3cf0426c97ebebff9c4a486975c44b8d6510
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4f11ac5080c8601ce8ae46178bf5c1ed8bb646e1
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302747"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999578"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Set Up Fixed Asset Depreciation
- You can use various methods of depreciation for preparing financial statements and income VAT returns. Many large corporations use straight-line depreciation in their financial statements because this generally permits reporting higher earnings. For income VAT purposes, however, many businesses use an accelerated depreciation method. For more information, see [Depreciation Methods](fa-depreciation-methods.md).
+ You can use various methods of depreciation for preparing financial statements and income VAT returns. Many large corporations use straight-line depreciation in their financial statements because this generally permits reporting higher earnings. For income tax purposes, however, many businesses use an accelerated depreciation method, such as declining-balance depreciation. You define an asset's depreciation method with the **Depreciation Method** field on the **Fixed Asset Card** page. For more information about what the different methods do, see [Depreciation Methods](fa-depreciation-methods.md).
 
- When you have created the relevant depreciation books, you must assign one or more depreciation books to each fixed asset. A depreciation book that is assigned to a fixed asset is referred to as a fixed asset depreciation book. Accordingly, the page for assigned depreciation books is called **FA Depreciation Books**.
+ In depreciation books you define the different ways depreciation must be calculated for your different fixed assets. In each book, you can specify individual depreciation terms. For example, you can specify that a fixed asset should be depreciated over a period of three years in one book and over a period of five years in another book.
+
+ When you have created the relevant depreciation books, you must assign one or more depreciation books to each fixed asset. A depreciation book that is assigned to a fixed asset is referred to as a fixed asset depreciation book. You can set up an unlimited number of depreciation books for a fixed asset. 
 
 ## <a name="to-create-a-depreciation-book"></a>To create a depreciation book
 In a fixed asset depreciation book, you specify how fixed assets are depreciated. To accommodate various methods of depreciation, you can set up multiple depreciation books.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 729a767c0cb4bb330a463e14c7eb6a4f8fd7d909
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 489e66165c5441ea63043a30dee8af314ef5d815
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304276"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991815"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Troubleshooting Synchronisation Errors
 There are lots of moving parts involved in integrating [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUDE[crm_md](includes/crm_md.md)], and sometimes things go wrong. This topic points out some of the typical errors that occur and gives some pointers for how to fix them.
@@ -37,6 +37,16 @@ You must manually resolve the errors, but there are a few ways in which the page
 
 * The **Source** and **Destination** fields may contain links to the record where the error was found. Click the link to open the record and investigate the error.  
 * The **Delete Entries Older than 7 Days** and the **Delete All Entries** actions will clean up the list. Typically, you use these actions after you have resolved the cause of an error that affects many records. Use caution, however. These actions might delete errors that are still relevant.
+
+Sometimes the timestamps on records can cause conflicts. The "CRM Integration Record" table keeps the timestamps "Last Synch. Modified On" and "Last Synch. CRM Modified On" for the last integration done in both directions for a record. These timestamps are compared to timestamps on Business Central and Sales records. In Business Central, the timestamp is in the Integration Record table.
+
+You can filter on records that are to be synched by comparing record timestamps in the table "Integration Table Mapping" fields "Synch. Modified On Filter" and “Synch. Int. Tbl. Mod. On Fltr.”.
+
+The conflict error message "Cannot update the Customer record because it has a later modified date than the Account record" or "Cannot update the Account record because it has a later modified date than the Customer record" can happen if a record has a timestamp that is bigger than IntegrationTableMapping."Synch. Modified On Filter" but it is not more recent than the timestamp on Sales Integration Record. It means that the source record was synced manually, not by the job queue entry. 
+
+The conflict happens because the destination record was also changed  - the record timestamp is more recent than Sales Integration Record’s timestamp. The destination check happens only for bi-directional tables. 
+
+These records are now moved to the "Skipped Synch. Records" page, which you open from the Microsoft Dynamics Connection Setup page in Business Central. There you can specify the changes to keep, and then synchronise the records again.
 
 ## <a name="see-also"></a>See Also
 [Integrating with [!INCLUDE[crm_md](includes/crm_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: SorenGP
-ms.openlocfilehash: 73ed7ac7ef80aa9e85f4d87ee1adbd5ba53ba44f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58f4787a5e9bb845fc72b2ce6d9a1872c4245ee4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308603"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991911"
 ---
 # <a name="view-the-availability-of-items"></a>View the Availability of Items
 From the context of a business task, you can get advanced information about when and where an item is available, such as when talking to a customer about a delivery date.
@@ -91,13 +91,16 @@ On each line on the page for both parent items and child items, the following ke
 |**Able to Make Parent**|Shows how many units of any subassembly in the top item you can make. The field specifies how many immediate parent units you can assemble. The value is based on availability of the item on the line.|
 |**Able to Make Top Item**|Shows how many units of the top item you can make. The field specifies how many units of the top-line BOM item you can assemble. The value is based on availability of the item on the line.|
 
-### <a name="item-availability-by-bom-level-page"></a>Item Availability by BOM Level Page
+### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>To view the availability of an item according to demand for its parent
 The **Item Availability by BOM Level** page shows information for the item on the card or document line that the page is opened for. The item is always shown on the top line. You can view information for other items or for all items by changing the value in the **Item Filter** field.
 
 > [!NOTE]  
->   By default, availability figures on the lines show the total availability of all items under the top item. These figures are displayed in the **Available Quantity** field, and the focus is on the top item. However, information about how many subassemblies you can make may be skewed. To get a true indication of how many of the shown subassemblies you can make, you must clear the **Show Total Availability** chack box and then see the figure in the **Able to Make Parent** field.
+>   By default, availability figures on the lines show the total availability of all items under the top item. These figures are displayed in the **Available Quantity** field, and the focus is on the top item. However, information about how many subassemblies you can make may be skewed. To get a true indication of how many of the shown subassemblies you can make, you must clear the **Show Total Availability** check box and then see the figure in the **Able to Make Parent** field.
 
 The **Bottleneck** field specifies which item in the BOM structure restricts you from making a larger quantity than the quantity that is shown in the **Able to Make Top Item** field. For example, the bottleneck item can be a purchased component with an expected receipt date that is too late to make additional units of the top item by the date in the **Needed by Date** field.
+
+### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>To view the availability of an item by its units of measure
+The **Item Availability by Unit of Measure** page shows an items availability broken down in the different units of measure that it is stored in.
 
 ## <a name="assembly-availability-page"></a>Assembly Availability Page
 The **Assembly Availability** page shows detailed availability information for the assembly item. It opens:

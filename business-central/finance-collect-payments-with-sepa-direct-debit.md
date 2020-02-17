@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2cc4f25ad0ae861579789d05dd192c1019bfe505
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: e3270864e184bdb7473a95fd1620ea98c3e3fbd2
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554309"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030203"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Collect Payments with SEPA Direct Debit
 With your customer’s consent, you can collect payments directly from the customer’s bank account according to the SEPA format.  
@@ -32,7 +32,10 @@ With your customer’s consent, you can collect payments directly from the custo
 >  To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.  
 
 ## <a name="setting-up-sepa-direct-debit"></a>Setting Up SEPA Direct Debit
-From the **Direct Debit Collections** page, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA direct debit format, but in your country/region, other formats for electronic payments may be available.  
+From the **Direct Debit Collections** page, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account according to the SEPA Direct Debit format.
+
+> [!NOTE]
+> The global version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA direct debit format only. Your country/region version may support other formats for electronic payment. See under **Local Functionality** in the table of contents.  
 
 To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[d365fin](includes/d365fin_md.md)] , you can set up a data exchange definition by using the data exchange framework. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -112,7 +115,7 @@ Before you can process customer payments electronically by exporting direct debi
 
  4. Choose the **OK** button.  
 
-      A direct-debit collection is added to the **Direct Debit Collections** page, and one or more direct-debit collection entries are created.  
+A direct-debit collection is added to the **Direct Debit Collections** page, and one or more direct-debit collection entries are created.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>To export a direct-debit collection entry to a bank file  
  1. On the **Direct Debit Collections** page, choose the **Direct Debit Collect. Entries** action.  

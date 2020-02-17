@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: c20dcb73b52a42d6070fdbcb32c726d2181c8c6b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 95653acf28c553d8331e2c086b7e84f1518bc3c0
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316483"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992055"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Correct or Cancel Unpaid Sales Invoices
 You can correct or cancel a posted sales invoice. This is useful if you make a mistake or if the customer requests a change.
@@ -54,6 +54,9 @@ When you correct or cancel a posted sales invoice, the corrective sales credit m
 
     A sales credit memo is automatically created and posted to void the initial posted sales invoice. The **Cancelled** field on the initial posted sales invoice is changed to **Yes**.
 4. Choose **Show Corrective Credit Memo** to view the posted sales credit memo that voids the initial posted sales invoice.
+
+### <a name="partial-invoice-posting-also-supported"></a>Partial Invoice Posting also Supported
+If the cancellation is related to a partial invoice posting, then the originating sales order line is updated to reflect the cancelled invoiced quantity. The **Qty. to Invoice** and **Qty. Invoiced** fields on the related sales order line are reset to the values before the partial posting.
 
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  

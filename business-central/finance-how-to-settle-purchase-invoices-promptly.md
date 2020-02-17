@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: bholtorf
-ms.openlocfilehash: d187398fe615574785a17b4a7eb122b7a18c557e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b38f5f97c7b5be46f1d6cd4d1bc898e72060417e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879687"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999626"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Settle Purchase Invoices Promptly
 If you need to pay the vendor by cash or cheque, you can post the payment when you post the invoice.  
@@ -26,7 +26,7 @@ If you need to pay the vendor by cash or cheque, you can post the payment when y
 3.  To pay either in cash or by bank transfer, enter the number of the general ledger cash account or the bank account in the **Bal. Account No.** field.  
 
 > [!IMPORTANT]  
->  The **Bal. Account Type** and **Bal. Account No.** fields are not included in the standard layout of the invoice header. In order to post the payment of an invoice, you must first insert them with the design facilities.  
+>  The **Bal. Account Type** and **Bal. Account No.** fields are not included in the standard layout of the invoice header. In order to post the payment of an invoice, you must first insert them with the design facilities. For more information, see [Personalise Your Workspace](ui-personalization-user.md). 
 
 > [!NOTE]  
 >  If you frequently pay purchase invoices in cash, it is a good idea to set up a specific payment method with a balancing account and enter this method in the **Payment Method** field on the vendor card. The balancing account number is inserted automatically on the invoice header every time you create a new invoice.  
