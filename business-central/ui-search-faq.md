@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 67dd65491710206245a2ff83dce3d3eb94484770
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695102"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071917"
 ---
 # <a name="tell-me-faq"></a>Tell Me FAQ
 This topic answers questions that our advanced users often ask about the Tell Me feature.
@@ -32,7 +32,7 @@ Actions, pages, and reports that originate from extensions are picked up by Tell
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>What makes this different from what was previously known as Page Search?
 Page Search has evolved into Tell Me to help you get work done quickly. Page Search could only help you navigate to pages or reports. At a technical level, Tell Me is no longer based on the legacy MenuSuite concept.
 
-### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>I use on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Does that include Tell Me?
+### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>I use on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Does that include Tell Me?
 You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not documentation, or apps and consulting services on AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Is Tell Me available for all form factors?
@@ -44,11 +44,9 @@ The help articles display in the language you have specified in **My Settings**,
 ### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Why don't I see a bookmark icon for my search results?
 The bookmark icon is not displayed in the Tell Me window when personalisation is disabled for a user role.
 
-### <a name="is-the-bookmark-icon-available-for-reports"></a>Is the bookmark icon available for reports?
-No. You can only bookmark a link to a page or any search results that are displayed in the **Pages and Tasks** section of the Tell Me window.
-
 
 ## <a name="see-also"></a>See Also  
 [Save and Personalise List Views](ui-views.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
-[Finding Pages with the Role Explorer](ui-role-explorer.md)
+[Finding Pages with the Role Explorer](ui-role-explorer.md)  
+[Bookmark a Page or Report on Your Role Centre](ui-bookmarks.md)

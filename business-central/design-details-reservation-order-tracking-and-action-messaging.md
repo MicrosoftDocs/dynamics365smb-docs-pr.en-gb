@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f179075a63ee42ba2cb61c3647b116536afd5a65
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878444"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076956"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Design Details: Reservation, Order Tracking, and Action Messaging
 The reservations system is comprehensive and includes the interrelated and parallel features of Order Tracking and Action Messaging.  
@@ -80,7 +80,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 
 -   A multilevel production order where the **Manufacturing Policy** field of the involved parent and child items is set to **Make-to-Order**. The planning system creates reservations between the parent production order and the underlying production orders to ensure that they are processed together. Such a reservation binding overrides the item’s default costing and application method.  
 
--   A production, assembly, or purchase order where the **Reordering Policy** field of the involved item is set to **Order**. The planning system creates reservations between the demand and the planned supply to ensure that the specific supply is created. For more information, see [Design Details: Order](design-details-order.md).  
+-   A production, assembly, or purchase order where the **Reordering Policy** field of the involved item is set to **Order**. The planning system creates reservations between the demand and the planned supply to ensure that the specific supply is created. For more information, see [Order](design-details-handling-reordering-policies.md#order).  
 
 -   A production order created from a sales order with the **Sales Order Planning** function is linked to the sales order with an automatic reservation.  
 

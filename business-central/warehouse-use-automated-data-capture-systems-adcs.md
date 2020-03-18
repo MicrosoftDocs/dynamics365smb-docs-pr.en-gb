@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 64391913910dfc963d430efa3d00a75491a6c41f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832342"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097799"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Use Automated Data Capture Systems (ADCS)
 
 > [!NOTE]
-> In the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)], ADCS only works in on-premise deployments. However, a Microsoft partner can make it work in online deployments by using Power Apps or similar.
+> The Automated Data Capture System (ADCS) solution provides a way for [!INCLUDE[d365fin](includes/d365fin_md.md)] to communicate with handheld devices through web services. You must work with a Microsoft partner who can provide the link between the web service and the specific handheld device. 
 
 You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories. ADCS typically involves scanning a barcode.
 
@@ -32,7 +32,23 @@ Based on the needs of your warehouse, you define the amount of information displ
 - Text information.  
 - Messages to show confirmations or errors about activities performed and registered by the handheld device user.
 
-For more information, see [Configuring an Automated Data Capture System](/dynamics-nav/Configuring-Automated-Data-Capture-System) in the developer and IT-pro help.
+## <a name="to-enable-web-services-for-adcs"></a>To enable Web Services for ADCS
+To use Automated Data Capture System, you must enable the ADCS web service.  
+
+## <a name="to-enable-and-publish-the-adcs-web-service"></a>To enable and publish the ADCS web service  
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Web Services**, and then choose the related link.
+2. Choose the **New** action.  
+3. On the **Web Services** page, enter the following information on a new line:  
+
+    |Field|Value|  
+    |---------------------------------|-----------|  
+    |**Object Type**|Codeunit|  
+    |**Object ID**|7714|  
+    |**Service Name**|ADCS **Important:** It is required that you name the service **ADCS**.|  
+
+5. Select the **Published** check box.  
+6. Choose the **OK** button.  
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>To set up a warehouse to use ADCS  
 To use ADCS, you must specify which warehouse locations use the technology.  
@@ -79,7 +95,8 @@ You can add any user as a user of an Automated Data Capture System (ADCS). When 
 ## <a name="to-create-and-customize-miniforms"></a>To create and customise miniforms
 You use miniforms to describe the information that you want to present on a handheld device. For example, you can create miniforms to support the warehouse activity of picking items. After you create a miniform, you can add functions to it for the common actions that a user takes with handheld devices, such as moving up or down a line.  
 
-To implement or change the functionality of a miniform function, you must create a new codeunit or modify an existing one to perform the required action or response. You can learn more about ADCS functionality by examining codeunits such as 7705, which is the handling codeunit for logon functionality. Codeunit 7705 shows how a Card-type miniform works.  
+> [!NOTE] 
+> To implement or change the functionality of a miniform function, you must create a new codeunit for the **Handling Codeunit** field to perform the required action or response. You can learn more about ADCS functionality by examining codeunits, such as 7705, 7706, 7712, and 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>To create a miniform for ADCS  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Miniforms**, and then choose the related link.  
@@ -92,25 +109,11 @@ To implement or change the functionality of a miniform function, you must create
 
 When you have created a miniform, the next steps are to create functions and to associate functionality for various keyboard inputs.  
 
-### <a name="to-add-support-for-a-function-key"></a>To add support for a function key  
-1.  Add code similar to the following example to the.xsl file for the plug-in. This creates a function for the **F6** key. The key sequence information can be obtained from the device manufacturer.  
-    ```xml  
-    <xsl:template match="Function[.='F6']">  
-      <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
-    </xsl:template>  
-    ```  
-2.  In the [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment, open table 7702 and add a code representing the new key. In this example, create a key that is named **F6**.  
-3.  Add C/AL code to the relevant function of the miniform-specific codeunit to handle the function key.  
-
 ### <a name="to-customize-miniform-functions"></a>To customise miniform functions  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Miniforms**, and then choose the related link.  
 2.  Select a miniform from the list, and then choose the **Edit** action.  
 3.  Choose the **Functions** action.  
 4.  In the **Function Code** drop-down list, select a code to represent the function that you want to associate with the miniform. For example, you can select ESC, which associates functionality with the press of the ESC key.  
-
-In the [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment, edit the code for the **Handling Codeunit** field to create or modify code to perform the required action or response.
-
-For more information, see [Configuring an Automated Data Capture System](/dynamics-nav/Configuring-Automated-Data-Capture-System) in the developer and IT-pro help.
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

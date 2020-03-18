@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b809743aa25aee409b9a71ca98da77ea64b58fb1
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880599"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076521"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Design Details: Central Concepts of the Planning System
 The planning functions are contained in a batch job that first selects the relevant items and period to plan for. Then, according to each item’s low-level code (BOM position), the batch job calls a code unit, which calculates a supply plan by balancing supply-demand sets and suggesting possible actions for the user to take. The suggested actions appear as lines in the planning worksheet or the requisition worksheet.  
@@ -46,7 +46,7 @@ All supply and demand before the starting date of the planning period will be co
 
 In other words, it assumes that the plan for the past is executed according to the given plan.  
 
-For more information, see [Design Details: Dealing with Orders Before the Planning Starting Date](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+For more information, see [Dealing with Orders Before the Planning Starting Date](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Dynamic Order Tracking (Pegging)  
 Dynamic Order Tracking, with its simultaneous creation of action messages in the planning worksheet, is not a part of the supply planning system in [!INCLUDE[d365fin](includes/d365fin_md.md)]. This feature links, in real-time, the demand and the quantities that could cover them, whenever a new demand or supply is created or changed.  
@@ -76,7 +76,7 @@ In contrast, the planning system deals with all demand and supply for a particul
 
 After the planning run, no action messages remain in the Action Message Entry table, because they have been replaced by the suggested actions in the planning worksheet  
 
-For more information, see Order Tracking Links during Planning in [Design Details: Balancing Supply with Demand](design-details-balancing-supply-with-demand.md).  
+For more information, see Order Tracking Links during Planning in [Balancing Supply with Demand](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Sequence and Priority in Planning  
 When establishing a plan, the sequence of the calculations is important to get the job done within a reasonable timeframe. In addition, the prioritisation of requirements and resources play an important role in obtaining the best results.  
@@ -90,7 +90,7 @@ In a manufacturing environment, the demand for a finished, sellable item will re
 
 The figures illustrates in which sequence the system makes suggestions for supply orders at the top level and, assuming that the user will accept these suggestions, for any lower-level items as well.  
 
-For more information about manufacturing considerations, see [Design Details: Loading the Inventory Profiles](design-details-loading-the-inventory-profiles.md).  
+For more information about manufacturing considerations, see [Loading the Inventory Profiles](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ### <a name="locations--transfer-level-priority"></a>Locations / Transfer-Level Priority  
 Companies that operate at more than one location may need to plan for each location individually. For example, an item’s safety stock level and its reordering policy may differ from one location to another. In this case, the planning parameters must be specified per item and also per location.  
@@ -106,14 +106,14 @@ For more information, see [Design Details: Transfers in Planning](design-details
 ### <a name="order-priority"></a>Order Priority  
 Within a given SKU, the requested or available date represents the highest priority; the demand of today should be dealt with before the demand of the coming days. But apart from this some kind of priority, the different demand and supply types are sorted according to business importance to decide which demand should be satisfied before satisfying another demand. On the supply side, the order priority will tell what source of supply should be applied before applying other sources of supply.  
 
-For more information, see [Design Details: Prioritizing Orders](design-details-prioritizing-orders.md).  
+For more information, see [Prioritising Orders](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 ## <a name="demand-forecasts-and-blanket-orders"></a>Demand Forecasts and Blanket Orders  
 Forecasts and blanket orders both represent anticipated demand. The blanket order, which covers a customer’s intended purchases over a specific period of time, acts to lessen the uncertainty of the overall forecast. The blanket order is a customer-specific forecast on top of the unspecified forecast as illustrated below.  
 
 ![Planning with forecasts](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planning with forecasts")  
 
-For more information, see the “Forecast Demand is Reduced by Sales Orders” section in [Design Details: Loading the Inventory Profiles](design-details-loading-the-inventory-profiles.md).  
+For more information, see the “Forecast Demand is Reduced by Sales Orders” section in [Loading the Inventory Profiles](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ## <a name="planning-assignment"></a>Planning Assignment  
 All items should be planned for, however, there is no reason to calculate a plan for an item unless there has been a change in the demand or supply pattern since the last time a plan was calculated.  
@@ -171,9 +171,9 @@ Serial/lot-numbered items without specific item tracking setup may carry serial/
 
 Demand-supply with serial/lot numbers, specific or non-specific, are considered high priority and are therefore exempt from the frozen zone, meaning that they will be part of planning even if they are due before the planning starting date.  
 
-For more information, see the “Serial/Lot Numbers are Loaded by Specification Level” section in [Design Details: Loading the Inventory Profiles](design-details-loading-the-inventory-profiles.md).  
+For more information, see the “Serial/Lot Numbers are Loaded by Specification Level” section in [Loading the Inventory Profiles](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
-For more information about how the planning system balances attributes, see the “Serial/Lot Numbers and Order-to-Order Links are Exempt from the Frozen Zone” in [Design Details: Dealing with Orders Before the Planning Starting Date](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+For more information about how the planning system balances attributes, see [Serial/Lot Numbers and Order-to-Order Links are Exempt from the Frozen Zone](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
 ## <a name="order-to-order-links"></a>Order-to-Order Links  
 Order-to-order procurement means that an item is purchased, assembled, or produced to exclusively cover a specific demand. Typically it relates to A-items and the motivation for choosing this policy can be that the demand is infrequent, the lead-time is insignificant, or the required attributes vary.  
@@ -223,14 +223,14 @@ The emergency warning is displayed in two situations:
 -   When the inventory is negative on the planning starting date.  
 -   When back-dated supply or demand events exist.  
 
-If an item’s inventory is negative on the planning starting date, the planning system suggests an emergency supply for the negative quantity to arrive on the planning starting date. The warning text states the starting date and the quantity of the emergency order. For more information, see [Design Details: Handling Projected Negative Inventory](design-details-handling-projected-negative-inventory.md).  
+If an item’s inventory is negative on the planning starting date, the planning system suggests an emergency supply for the negative quantity to arrive on the planning starting date. The warning text states the starting date and the quantity of the emergency order. For more information, see [Handling Projected Negative Inventory](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
 Any document lines with due dates before the planning starting date are consolidated into one emergency supply order for the item to arrive on the planning starting date.  
 
 ### <a name="exception"></a>Exception  
 The exception warning is displayed if the projected available inventory drops below the safety stock quantity. The planning system will suggest a supply order to meet the demand on its due date. The warning text states the item’s safety stock quantity and the date on which it is violated.  
 
-Violating the safety stock level is considered an exception because it should not occur if the reorder point has been set correctly. For more information, see [Design Details: The Role of the Reorder Point](design-details-the-role-of-the-reorder-point.md).  
+Violating the safety stock level is considered an exception because it should not occur if the reorder point has been set correctly. For more information, see [The Role of the Reorder Point](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
 In general, exceptional order proposals ensure that the projected available inventory is never lower than the safety stock level. This means that the proposed quantity is just enough to cover the safety stock, without considering planning parameters. However, in some scenarios, order modifiers will be considered.  
 
@@ -242,7 +242,7 @@ The attention warning is displayed in three situations:
 
 -   The planning starting date is earlier than the work date.  
 -   The planning line suggests changing a released purchase or production order.  
--   The projected inventory exceeds the overflow level on the due date. For more information, see [Design Details: Staying under the Overflow Level](design-details-staying-under-the-overflow-level.md).  
+-   The projected inventory exceeds the overflow level on the due date. For more information, see [Staying under the Overflow Level](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
 
 > [!NOTE]  
 >  In planning lines with warnings, the **Accept Action Message** field is not selected, because the planner is expected to further investigate these lines before carrying out the plan.  

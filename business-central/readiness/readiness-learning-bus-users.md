@@ -1,20 +1,20 @@
 ---
-title: Business user learning catalogue
-description: Business user learning catalogue
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/06/2019
+title: Business users learning catalogue
+description: Find all the available learning for Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: 00ee925575dbdfe6eb32e78e3051c7bb8c6d7d96
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: v-lshann
+ms.openlocfilehash: 51e8249f504e9182bf9e427e15629dd51fc804b5
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767897"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097775"
 ---
 # <a name="business-users-learning-catalog"></a>Business Users Learning Catalogue
+
+Did you just get a new application to use?
 
 The following catalogue is organised from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs. 
 

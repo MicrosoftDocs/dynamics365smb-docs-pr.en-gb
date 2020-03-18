@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 10/01/2019
+ms.date: 02/20/2020
 ms.author: edupont
-ms.openlocfilehash: 137d44db160d0f1e832cc344a779e6bf01a64bbd
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: df141f15eda20b1c3ce17e12e726f79a20532915
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911146"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097751"
 ---
 # <a name="select-a-check-layout"></a>Select a Cheque Layout
 You can design your cheques to conform with the standards set by the local authorities. Cheque images can be printed in English, French, or Spanish.
@@ -38,8 +38,50 @@ When you have set up cheque layouts, you can print cheques from the **Payment Jo
 
 To change one of these default cheque layouts, use either the Word or the RDLC integration to do so. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
+## <a name="using-micr-and-security-fonts"></a>Using MICR and Security Fonts
+The online version of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains pre-installed fonts on the servers that can be used when defining cheque layouts. The following outlines which fonts are available and has links to detailed information by the 3rd-party suppliers of the fonts.
+
+> [!Important]
+> MICR and cheque security fonts in Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] are licensed in a font package from IDAutomation.com, Inc. These products may only be used as part of and in connection with Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+In update 15.3 and newer, Magnetic Ink Character Recognition (MICR) fonts are installed and available to use. Both the E-13B and the CMC-7 standards are supported. In addition to MICR fonts, special security fonts are available to generate text, names, amounts, and the currency symbols Dollar, Euro, Pound, and Yen, which are hard to tamper with once a cheque has been printed.
+
+> [!NOTE]
+> For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[d365fin](includes/d365fin_md.md)] environment.
+
+### <a name="micr-e-13b-specifications"></a>MICR E-13B Specifications
+The following summarises specifications for the MICR E-13B fonts that may be useful when calibrating fonts to be on cheque layouts with specific MICR printers.
+
+![MICR E-13B Specifications](media/font_MICR_E-13B_Specifications.png "MICR E-13B Specifications")
+
+The full specification of MICR E-13B fonts can be found in the supplier's documentation here: (https://www.idautomation.com/micr-fonts/e13b/).
+
+### <a name="micr-cmc-7-specifications"></a>MICR CMC-7 Specifications
+The following CMC-7 fonts are available in [!INCLUDE[d365fin](includes/d365fin_md.md)] online:
+
+- IDAutomationCMC7
+- IDAutomationCMC7n10
+- IDAutomationCMC7n25
+-   IDAutomationCMC7n40
+
+The following summarises specifications for the MICR CMC-7 fonts that may be useful when calibrating fonts to be on cheque layouts with specific MICR printers.
+
+![MICR CMC-7 Specifications](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 Specifications")
+
+The full specification of MICR CMC-7 fonts can be found in the supplier's documentation here: (http://www.idautomation.com/micr-fonts/cmc7/).
+
+### <a name="secure-font-specifications"></a>Secure Font Specifications
+The following Summarises specifications for cheque security fonts that may be useful when calibrating fonts to be on cheque layouts with specific MICR printers.
+
+![Cheque Security Font Specifications](media/font_check-security-font_Specifications.png "Cheque Security Font Specifications")
+
+The full specification of cheque security fonts can be found in the supplier's documentation here: (https://www.idautomation.com/security-fonts/).
+
+Fonts for other purposes are also available in [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Available Fonts](ui-fonts.md)
+
 ## <a name="see-also"></a>See Also
 [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  
+[Fonts in Business Central](ui-fonts.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)   
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  

@@ -1,21 +1,20 @@
 ---
-title: Developer learning catalogue
-description: Developer learning catalogue
-author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 11/19/2019
+title: Developers learning catalogue
+description: Find all the available learing for Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.reviewer: margoc
-ms.author: solsen
-ms.openlocfilehash: cdca386a3feb505364152b831d3e105b94db6c43
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.author: v-lshann
+ms.openlocfilehash: 05c2f4426f8d84f5e478a7ca7f63bd6ab64eeb6a
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832246"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097847"
 ---
-# <a name="developer-learning-catalog"></a>Developer Learning Catalogue
+# <a name="developers-learning-catalog"></a>Developers Learning Catalogue
+
+Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
 
 The following catalogue is organised from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs. 
 

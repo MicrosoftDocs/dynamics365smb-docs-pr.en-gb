@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 01/30/2020
+ms.date: 02/18/2020
 ms.author: jenolson
-ms.openlocfilehash: 17bcc754612782903ca0a977f6cd3e80e0e1c6b1
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 8afa05f7e1790ab28f8450a8323b48ec1c5ebd72
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999602"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076387"
 ---
-# <a name="intelligent-cloud-extensions"></a>Intelligent Cloud Extensions
+# <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Intelligent Cloud Extensions for Cloud Migration
 
 This extension will connect your data from [!INCLUDE [prodshort](includes/prodshort.md)] on-premises with [!INCLUDE [prodshort](includes/prodshort.md)] online for purposes of migrating your solution to the cloud.  
 

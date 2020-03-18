@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dda414746c8661e5a9cee3eee5ce569cfa83e16
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882957"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076419"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Design Details: Balancing Demand and Supply
 To understand how the planning system works, it is necessary to understand the prioritised goals of the planning system, the most important of which are to ensure that:  
@@ -66,7 +66,7 @@ If the initial available inventory is below zero, the planning system suggests a
 ## <a name="loading-the-inventory-profiles"></a>Loading the Inventory Profiles
 To sort out the many sources of demand and supply, the planning system organises them on two timelines called inventory profiles.  
 
-The normal types of demand and supply with due dates on or after the planning starting date are loaded into each inventory profile. When loaded, the different demand and supply types are sorted according to overall priorities, such as due date, low-level codes, location, and variant. In addition, order priorities are applied to the different types to ensure that the most important demand is fulfilled first. For more information, see [Design Details: Prioritizing Orders](design-details-prioritizing-orders.md).  
+The normal types of demand and supply with due dates on or after the planning starting date are loaded into each inventory profile. When loaded, the different demand and supply types are sorted according to overall priorities, such as due date, low-level codes, location, and variant. In addition, order priorities are applied to the different types to ensure that the most important demand is fulfilled first. For more information, see [Prioritising Orders](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 As previously mentioned, demand could also be negative. This means that it should be treated as supply; however, unlike the normal types of supply, negative demand is considered fixed supply. The planning system can take it into account, but will not suggest any changes to it.  
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2be63cdb75a056beebb8648fa151b055a5a4f484
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: da0ef3338a32e797c9ebe21b051fb8cc8babcc6d
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308693"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076860"
 ---
 # <a name="setting-up-relationship-management"></a>Setting Up Relationship Management
 Before you get started working with your contacts and marketing interests, there are a few decisions and steps that you should take to set up how the marketing area manages certain aspects of your contacts. For example, you can decide whether to synchronise the contact card with the customer card, vendor card, and bank account card, how number series are defined, or what the standard salutation should be when writing to your contacts.
@@ -31,7 +31,7 @@ Some information about contact companies is identical to the information about t
 
 When you modify one of these fields on the contact company card, application will automatically modify the field on the contact person card (unless you have manually modified the field on the contact person card).
 
-For more information, see [Create Contact Persons](marketing-how-create-contact-persons.md).
+For more information, see [Create Contacts](marketing-create-contact-companies.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Using Predefined Defaults on New Contacts
 You can decide that the application automatically assigns a specific language code, territory code, salesperson code, and country/region code as defaults to each new contact you create. You can also enter a default sales cycle code that application automatically assigns to each new opportunity you create.
