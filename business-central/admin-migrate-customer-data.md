@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
-ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
+ms.openlocfilehash: 2da58a4f5a3655fc2153647d80c5d69e1356b503
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2918221"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097703"
 ---
 # <a name="migrate-customer-data"></a>Migrate Customer Data
 You can migrate existing customer data from an existing ERP system to [!INCLUDE[d365fin](includes/d365fin_md.md)] using the data migration tools of RapidStart Services. You can use Excel files as the data carrier. You can also manually move the data by entering it directly in the company.
@@ -31,7 +31,7 @@ When you create a new company, you can import company settings for the new compa
 > [!NOTE]  
 >  You cannot rename a file that is not already a RapidStart Services configuration package as a .rapidstart configuration package file and then try to import it. If you try to do so, you will receive an error message.  
 
-Before you start, you must make sure that you have permission to run the RapidStart Services objects. For example you can have the SUPER permission set, or be an internal or delegated administrator. We also recommend that you are on a Role Centre with links to RapidStart Services, such as the Administration Role Centre. For more information, see [To change the role](ui-change-basic-settings.md#to-change-the-role).  
+Before you start, you must make sure that you have permission to run the RapidStart Services objects. For example, you can have the SUPER or D365 RAPIDSTART permission sets. We also recommend that you are on a Role Centre with links to RapidStart Services, such as the Administration Role Centre. For more information, see [To change the role](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
 > When exporting and importing configuration packages between two company databases, the databases should have the same schema to make sure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
@@ -116,7 +116,7 @@ The following example illustrates how [!INCLUDE[d365fin](includes/d365fin_md.md)
 2. Add additional tables to the package, for example, **Customer** and **Vendor**. These tables both reference the **Salesperson/Purchaser** table through the **Salesperson Code** and **Purchaser Code** fields respectively.  
 3. When you apply data, the mapping that you provided for the **Code** field in the the **Salesperson/Purchaser** table will also be considered during the processing of the **Salesperson Code** and **Purchaser Code** fields.
 
-## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>To add additional values to [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## <a name="to-add-additional-values-to-d365fin"></a>To add additional values to [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 2. Select the table for which you want to add additional values, and then, on the **Tables** tab, choose the **Fields** action.  
 3. For the fields for which you want [!INCLUDE[d365fin](includes/d365fin_md.md)] to permit additional values during migration, select the **Create Missing Codes** check box.  
@@ -135,7 +135,7 @@ When you have run the batch job, use the following procedure to process the data
 3. To apply the mapping that you have set up, choose the **Apply Data** action.
 
 ## <a name="to-migrate-customer-data"></a>To migrate customer data
-When you have exported a migration table, your next step is to enter the customer’s legacy data. To simplify your tasks, you can take advantage of the XML manipulation tools that are built into Excel. You can also use Excel built-in functions to help with data formatting and to put data in the correct cell.
+When you have exported a migration table, your next step is to enter the customer's legacy data. To simplify your tasks, you can take advantage of the XML manipulation tools that are built into Excel. You can also use Excel built-in functions to help with data formatting and to put data in the correct cell.
 
 For assistance with XML, enable the **Developer** tab of the Excel ribbon, and then choose the **Source** action to see the XML schema of your migration table as represented in Excel.
 
@@ -181,7 +181,7 @@ Customer data must be validated before you apply the records to the [!INCLUDE[d3
 
 When you make a correction, the record is removed from the list of records on the **Migration Data Errors** page.  
 
-You are now ready to apply the customer’s data to the database.  
+You are now ready to apply the customer's data to the database.  
 
 ## <a name="to-apply-customer-data"></a>To apply customer data
 When you have imported all data migration records that are valid and have no errors, you can apply the records to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
@@ -191,7 +191,7 @@ When you have imported all data migration records that are valid and have no err
 
 You can see the number of database records that have been created in the **No. of Database Records** field. You can verify that the correct records have been created by choosing the link in the **No. of Database Records** field.  
 
-The customer’s company database is now set up and basic data is imported. Your next steps in the implementation process are to train users, define processes, create additional data, customise reports, and so on.
+The customer's company database is now set up and basic data is imported. Your next steps in the implementation process are to train users, define processes, create additional data, customise reports, and so on.
 
 ## <a name="see-also"></a>See Also  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
