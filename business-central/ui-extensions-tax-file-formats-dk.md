@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: da09b2fafa2464bb6a86cc4cc50281e0e2a00b75
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5dfc1b44b9852a573e76b5593a38eb99a2503b36
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315380"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189634"
 ---
-# <a name="the-tax-file-formats-dk-extension"></a><span data-ttu-id="b438a-103">The Tax File Formats (DK) Extension</span><span class="sxs-lookup"><span data-stu-id="b438a-103">The Tax File Formats (DK) Extension</span></span>
-<span data-ttu-id="b438a-104">If you engage in trade with companies, or internal branches or subsidiaries, in other EU countries you must report information about the activities to SKAT and to Statistics Denmark.</span><span class="sxs-lookup"><span data-stu-id="b438a-104">If you engage in trade with companies, or internal branches or subsidiaries, in other EU countries you must report information about the activities to SKAT and to Statistics Denmark.</span></span> <span data-ttu-id="b438a-105">If you use the VAT and Intrastat reporting features in [!INCLUDE[d365fin](includes/d365fin_md.md)], this extension can ensure that the file you export is compatible with requirements from these organisations.</span><span class="sxs-lookup"><span data-stu-id="b438a-105">If you use the VAT and Intrastat reporting features in [!INCLUDE[d365fin](includes/d365fin_md.md)], this extension can ensure that the file you export is compatible with requirements from these organizations.</span></span> <span data-ttu-id="b438a-106">The extension adds the MS-ECSL Report Export File and Intrastat Export Lines submission codeunits to your VAT Report configuration, so you can export data in the new format right away.</span><span class="sxs-lookup"><span data-stu-id="b438a-106">The extension adds the MS-ECSL Report Export File and Intrastat Export Lines submission codeunits to your VAT Report configuration, so you can export data in the new format right away.</span></span>
+# <a name="the-tax-file-formats-dk-extension"></a><span data-ttu-id="3d179-103">The Tax File Formats (DK) Extension</span><span class="sxs-lookup"><span data-stu-id="3d179-103">The Tax File Formats (DK) Extension</span></span>
+<span data-ttu-id="3d179-104">If you engage in trade with companies, or internal branches or subsidiaries, in other EU countries you must report information about the activities to SKAT and to Statistics Denmark.</span><span class="sxs-lookup"><span data-stu-id="3d179-104">If you engage in trade with companies, or internal branches or subsidiaries, in other EU countries you must report information about the activities to SKAT and to Statistics Denmark.</span></span> <span data-ttu-id="3d179-105">If you use the VAT and Intrastat reporting features in [!INCLUDE[d365fin](includes/d365fin_md.md)], this extension can ensure that the file you export is compatible with requirements from these organisations.</span><span class="sxs-lookup"><span data-stu-id="3d179-105">If you use the VAT and Intrastat reporting features in [!INCLUDE[d365fin](includes/d365fin_md.md)], this extension can ensure that the file you export is compatible with requirements from these organizations.</span></span> <span data-ttu-id="3d179-106">The extension adds the MS-ECSL Report Export File and Intrastat Export Lines submission codeunits to your VAT Report configuration, so you can export data in the new format right away.</span><span class="sxs-lookup"><span data-stu-id="3d179-106">The extension adds the MS-ECSL Report Export File and Intrastat Export Lines submission codeunits to your VAT Report configuration, so you can export data in the new format right away.</span></span>
 
-<span data-ttu-id="b438a-107">The extension is free, you just need to install it.</span><span class="sxs-lookup"><span data-stu-id="b438a-107">The extension is free, you just need to install it.</span></span>
+<span data-ttu-id="3d179-107">The extension is free, you just need to install it.</span><span class="sxs-lookup"><span data-stu-id="3d179-107">The extension is free, you just need to install it.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="b438a-108">See Also</span><span class="sxs-lookup"><span data-stu-id="b438a-108">See Also</span></span>
-[<span data-ttu-id="b438a-109">Customising Business Central Using Extensions</span><span class="sxs-lookup"><span data-stu-id="b438a-109">Customizing Business Central Using Extensions</span></span>](ui-extensions.md)
+## <a name="see-also"></a><span data-ttu-id="3d179-108">See Also</span><span class="sxs-lookup"><span data-stu-id="3d179-108">See Also</span></span>
+[<span data-ttu-id="3d179-109">Customising Business Central Using Extensions</span><span class="sxs-lookup"><span data-stu-id="3d179-109">Customizing Business Central Using Extensions</span></span>](ui-extensions.md)

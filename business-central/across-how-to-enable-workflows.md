@@ -8,30 +8,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 48e95e17938c240862c8c5391bf328aa78bae7aa
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: be8d5805c86161eb264a62dc8a97f71a7f49149b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881151"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188307"
 ---
-# <a name="enable-workflows"></a><span data-ttu-id="ddaa0-103">Enable Workflows</span><span class="sxs-lookup"><span data-stu-id="ddaa0-103">Enable Workflows</span></span>
-<span data-ttu-id="ddaa0-104">When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.</span><span class="sxs-lookup"><span data-stu-id="ddaa0-104">When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.</span></span>  
+# <a name="enable-workflows"></a><span data-ttu-id="6cf46-103">Enable Workflows</span><span class="sxs-lookup"><span data-stu-id="6cf46-103">Enable Workflows</span></span>
+<span data-ttu-id="6cf46-104">When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.</span><span class="sxs-lookup"><span data-stu-id="6cf46-104">When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.</span></span>  
 
- <span data-ttu-id="ddaa0-105">On the **Workflow** page, you create a workflow by listing the involved steps on the lines.</span><span class="sxs-lookup"><span data-stu-id="ddaa0-105">On the **Workflow** page, you create a workflow by listing the involved steps on the lines.</span></span> <span data-ttu-id="ddaa0-106">Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options.</span><span class="sxs-lookup"><span data-stu-id="ddaa0-106">Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options.</span></span> <span data-ttu-id="ddaa0-107">You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</span><span class="sxs-lookup"><span data-stu-id="ddaa0-107">You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</span></span> <span data-ttu-id="ddaa0-108">For more information, see [Create Workflows](across-how-to-create-workflows.md).</span><span class="sxs-lookup"><span data-stu-id="ddaa0-108">For more information, see [Create Workflows](across-how-to-create-workflows.md).</span></span>  
+ <span data-ttu-id="6cf46-105">On the **Workflow** page, you create a workflow by listing the involved steps on the lines.</span><span class="sxs-lookup"><span data-stu-id="6cf46-105">On the **Workflow** page, you create a workflow by listing the involved steps on the lines.</span></span> <span data-ttu-id="6cf46-106">Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options.</span><span class="sxs-lookup"><span data-stu-id="6cf46-106">Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options.</span></span> <span data-ttu-id="6cf46-107">You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</span><span class="sxs-lookup"><span data-stu-id="6cf46-107">You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</span></span> <span data-ttu-id="6cf46-108">For more information, see [Create Workflows](across-how-to-create-workflows.md).</span><span class="sxs-lookup"><span data-stu-id="6cf46-108">For more information, see [Create Workflows](across-how-to-create-workflows.md).</span></span>  
 
-## <a name="to-enable-a-workflow"></a><span data-ttu-id="ddaa0-109">To enable a workflow</span><span class="sxs-lookup"><span data-stu-id="ddaa0-109">To enable a workflow</span></span>  
-1.  <span data-ttu-id="ddaa0-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="ddaa0-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="ddaa0-111">Open the workflow that you want to enable.</span><span class="sxs-lookup"><span data-stu-id="ddaa0-111">Open the workflow that you want to enable.</span></span>  
-3.  <span data-ttu-id="ddaa0-112">On the **Workflow** page, select the **Enabled** check box.</span><span class="sxs-lookup"><span data-stu-id="ddaa0-112">On the **Workflow** page, select the **Enabled** check box.</span></span>  
+## <a name="to-enable-a-workflow"></a><span data-ttu-id="6cf46-109">To enable a workflow</span><span class="sxs-lookup"><span data-stu-id="6cf46-109">To enable a workflow</span></span>  
+1.  <span data-ttu-id="6cf46-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="6cf46-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="6cf46-111">Open the workflow that you want to enable.</span><span class="sxs-lookup"><span data-stu-id="6cf46-111">Open the workflow that you want to enable.</span></span>  
+3.  <span data-ttu-id="6cf46-112">On the **Workflow** page, select the **Enabled** check box.</span><span class="sxs-lookup"><span data-stu-id="6cf46-112">On the **Workflow** page, select the **Enabled** check box.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="ddaa0-113">See Also</span><span class="sxs-lookup"><span data-stu-id="ddaa0-113">See Also</span></span>  
- <span data-ttu-id="ddaa0-114">[Create Workflows](across-how-to-create-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="ddaa0-114">[Create Workflows](across-how-to-create-workflows.md) </span></span>  
- <span data-ttu-id="ddaa0-115">[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) </span><span class="sxs-lookup"><span data-stu-id="ddaa0-115">[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) </span></span>  
- <span data-ttu-id="ddaa0-116">[Delete Workflows](across-how-to-delete-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="ddaa0-116">[Delete Workflows](across-how-to-delete-workflows.md) </span></span>  
- <span data-ttu-id="ddaa0-117">[Setting Up Workflows](across-set-up-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="ddaa0-117">[Setting Up Workflows](across-set-up-workflows.md) </span></span>  
- <span data-ttu-id="ddaa0-118">[Using Workflows](across-use-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="ddaa0-118">[Using Workflows](across-use-workflows.md) </span></span>  
- <span data-ttu-id="ddaa0-119">[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span><span class="sxs-lookup"><span data-stu-id="ddaa0-119">[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span></span>  
- [<span data-ttu-id="ddaa0-120">Workflow</span><span class="sxs-lookup"><span data-stu-id="ddaa0-120">Workflow</span></span>](across-workflow.md)   
+## <a name="see-also"></a><span data-ttu-id="6cf46-113">See Also</span><span class="sxs-lookup"><span data-stu-id="6cf46-113">See Also</span></span>  
+ <span data-ttu-id="6cf46-114">[Create Workflows](across-how-to-create-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="6cf46-114">[Create Workflows](across-how-to-create-workflows.md) </span></span>  
+ <span data-ttu-id="6cf46-115">[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) </span><span class="sxs-lookup"><span data-stu-id="6cf46-115">[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) </span></span>  
+ <span data-ttu-id="6cf46-116">[Delete Workflows](across-how-to-delete-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="6cf46-116">[Delete Workflows](across-how-to-delete-workflows.md) </span></span>  
+ <span data-ttu-id="6cf46-117">[Setting Up Workflows](across-set-up-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="6cf46-117">[Setting Up Workflows](across-set-up-workflows.md) </span></span>  
+ <span data-ttu-id="6cf46-118">[Using Workflows](across-use-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="6cf46-118">[Using Workflows](across-use-workflows.md) </span></span>  
+ <span data-ttu-id="6cf46-119">[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span><span class="sxs-lookup"><span data-stu-id="6cf46-119">[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span></span>  
+ [<span data-ttu-id="6cf46-120">Workflow</span><span class="sxs-lookup"><span data-stu-id="6cf46-120">Workflow</span></span>](across-workflow.md)   
