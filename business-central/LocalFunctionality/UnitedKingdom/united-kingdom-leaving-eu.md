@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: united kingdom, uk, brexit, eu, european union
-ms.date: 01/09/2012
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: d4a75fdc18dc6aaebccd5563b68f5a299cc06ef2
-ms.sourcegitcommit: 2f741f442226b8be74586e355f283f365e43220f
+ms.openlocfilehash: ba5551df6c2ca9a88a65f7957155b55ea384555d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "2947305"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189040"
 ---
 # <a name="preparing-for-the-united-kingdom-to-leave-the-european-union"></a>Preparing for the United Kingdom to leave the European Union
 

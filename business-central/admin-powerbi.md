@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952994"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186895"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Enabling Your Business Data for Power BI
 
@@ -25,18 +25,15 @@ Getting insights into your [!INCLUDE[prodshort](includes/prodshort.md)] data is 
 You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/desktop/) if you wish to create your own Power BI reports. Power BI apps require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
 
 > [!IMPORTANT]
-> The Power BI Apps that are described in this article are designed to use Azure Active Directory as the authentication mechanism unless otherwise specified. To install a Power BI App, you must also have a Power BI Pro licence.  Once the Power BI App is installed, it may be shared with users with any licence type.
+> The Power BI Apps that are described in this article are designed to use Azure Active Directory as the authentication mechanism unless otherwise specified. Also, you need a [Power BI Pro licence](/power-bi/service-features-license-type) to share your content, and the people you share it with do too, or the content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
 [!INCLUDE [prodlong](includes/prodlong.md)] has published the following apps for Power BI:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Sales  
-- [!INCLUDE [prodlong](includes/prodlong.md)](on-premises) - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)](on-premises) - Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)](on-premises) - Sales  
 
-## <a name="using-the-include-prodshortincludesprodshortmd-dashboards-in-power-bi"></a>Using the [!INCLUDE [prodshort](includes/prodshort.md)] dashboards in Power BI
+## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Using the [!INCLUDE [prodshort](includes/prodshort.md)] dashboards in Power BI
 
 Each app provides reports that you can drill into:
 
@@ -81,7 +78,7 @@ The apps are designed to work with data from any company that you have in your [
 - [Select a tile](/power-bi/service-dashboard-tiles) to open the underlying report.  
 - By default, your dataset is not scheduled to refresh. You can change the refresh schedule or try refreshing it on demand using           **Refresh Now**. For more information, see [Configuring scheduled refresh](/power-bi/refresh-scheduled-refresh).
 
-## <a name="power-bi-in-include-prodshortincludesprodshortmd"></a>Power BI in [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="power-bi-in-prodshort"></a>Power BI in [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Your Home page in [!INCLUDE [prodshort](includes/prodshort.md)] can include a Power BI control element that can be configured to display Power BI reports on your Home page.
 
@@ -164,11 +161,11 @@ A Power BI account has not been set up. In order to have a valid Power BI accoun
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Message: There are no enabled reports. Choose Select Report to see a list of reports that you can display.
 
-This message will appear if the default report failed to deploy to your Power BI workspace, or the report deployed but did not successfully refresh. If this happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credendials. Once the dataset successfully refreshes, navigate back to Business Central and manually select the report from the **Select Reports** page.
+This message will appear if the default report failed to deploy to your Power BI workspace, or the report deployed but did not successfully refresh. If this happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credentials. Once the dataset successfully refreshes, navigate back to Business Central and manually select the report from the **Select Reports** page.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>You need a Power BI Pro licence to install the [!INCLUDE [prodshort](includes/prodshort.md)] app in Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>You need a Power BI Pro licence to install the [!INCLUDE [prodshort](includes/prodshort.md)] app in Power BI
 
-Power BI apps can only be installed by users that have a Power BI Pro licence. Once the Power BI app is installed, you can share it with users that do not have a Power BI Pro licence.  
+You need a [Power BI Pro licence](/power-bi/service-features-license-type) to share your content, and the people you share it with do too, or the content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
 ### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>"Parameter validation failed, please make sure all parameters are valid"
 
@@ -179,9 +176,9 @@ This error indicates that the one more of the parameters are not valid.
 - If connecting to [!INCLUDE [prodshort](includes/prodshort.md)] on-premises. you have entered a URL that is not valid. You can verify the URL in the **Web Services** page in [!INCLUDE [prodshort](includes/prodshort.md)]  
 - A port is not open to allow the request to go through your firewall.
 
-### <a name="login-failed"></a>Login failed
+### <a name="cannot-sign-in"></a>Cannot sign in
 
-If you get a "login failed" error after using your [!INCLUDE [prodshort](includes/prodshort.md)] user credentials to log in, then you are probably experiencing one of the following issues:
+If you get a "login failed" error after using your [!INCLUDE [prodshort](includes/prodshort.md)] user credentials to sign in, then you are probably experiencing one of the following issues:
 
 - The account that you are using does not have permissions to retrieve the [!INCLUDE [prodshort](includes/prodshort.md)] data from your account. Verify that you have permissions to the required data in [!INCLUDE [prodshort](includes/prodshort.md)] and try again.
 - You have selected an authentication type other than Basic if connecting to [!INCLUDE [prodshort](includes/prodshort.md)]on-premises .
@@ -203,7 +200,7 @@ Once the Power BI app is installed and your data shows up in Power BI, you may n
 
 The Power BI app will only display data from the [!INCLUDE [prodshort](includes/prodshort.md)] company that was defined when the Power BI app was installed. Data from additional companies can be added to the reports by adding new queries that use different companies as the data source.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 

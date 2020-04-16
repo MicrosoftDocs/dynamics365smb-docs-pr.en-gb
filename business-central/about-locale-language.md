@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/22/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 2d98f433acbe5905d9807bf7e7ded8708ed22d3b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692711"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189028"
 ---
 # <a name="changing-language-and-locale"></a>Changing Language and Locale
 
@@ -44,7 +44,7 @@ To change the locale, go to the **My Settings** page. For more information, see 
 
 In the **Help and Support** page, you can see the version of [!INCLUDE [prodshort](includes/prodshort.md)] that your company is based on. If you want to base a company on a different version, your administrator can create a new production environment. For more information, see [Create a new production environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) in the developer- and IT Pro content.  
 
-## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Languages of the [!INCLUDE[d365fin](includes/d365fin_md.md)] Help
+## <a name="languages-of-the-d365fin-help"></a>Languages of the [!INCLUDE[d365fin](includes/d365fin_md.md)] Help
 The Help content for the core functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] publishes to the Microsoft Docs site and available in a number of different languages. If you access the docs from inside [!INCLUDE[d365fin](includes/d365fin_md.md)], the content will display in your language. If a particular page is not available in your language yet, it will be shown in English.
 
 ### <a name="how-do-i-change-the-language"></a>How Do I Change the Language?

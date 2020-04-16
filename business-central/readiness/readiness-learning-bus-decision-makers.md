@@ -2,15 +2,15 @@
 title: Business decision maker learning catalogue
 description: Business decision maker learning catalogue
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: 29830b2d243cde7ab5b68f0967883db07c713f24
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 1e02527e370308f5332a0453b0e05f3838b0194a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097582"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190882"
 ---
 # <a name="business-decision-makers-learning-catalog"></a>Business Decision Makers Learning Catalogue
 
@@ -18,13 +18,13 @@ Do you decide whether to invest in new technologies?
 
 The following catalogue is organised from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.  
 
-## Business value<a name="busvalue"></a>
+## <a name="business-value"></a>Business value<a name="busvalue"></a>
 
 | Content                                                                 | Description                                                                                                | Format                                | Length     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/) | This module shows application features, benefits, and examples of Dynamics 365 Business Central in action. | Free, self-paced online learning path | 24 minutes |
 
-## Getting started<a name="get-started"></a>
+## <a name="getting-started"></a>Getting started<a name="get-started"></a>
 
 | Content                                                                                                                             | Description                                                                                                                                                                                                                                                                                      | Format                                | Length             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

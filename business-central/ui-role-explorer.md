@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0cd3a1d72b466946f8efcd4774a1629c21af6d0
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 5e6e034aa6a071751893ebae477cb3e22b2635bb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774802"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195370"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Finding Pages with the Role Explorer
 You can get an overview of all the business features that are available for your role, and for other roles if you go a step further. In the following documentation, this feature overview is referred to as the *role explorer*.
@@ -27,7 +27,9 @@ You can open the role explorer from the Role Centre and all list pages and from 
 - On your Role Centre or any list page, choose the ![Menu button](media/ui_menu_button.png "Menu button") button to the right of the navigation bar, or press Shift+F12.
 - In the **Tell Me** window, choose the **exploring** action at the bottom.
 
-To get an overview of business feature that are available for all other roles, in addition to your own, choose the **Explore all** action on the page that presents the role explorer.
+Choose the **Find** action at the top of the role explorer to quickly locate feature names that contain a certain term.
+
+Choose the **Explore all** action at the top of the role explorer to get an overview of all business features that are available for all roles including your own.
 
 > [!NOTE]
 > Only Role Centre actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore all** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).

@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809040"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186507"
 ---
 # <a name="manage-profiles"></a>Manage Profiles
 All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a profile that reflects their business role, the department they work in, or another categorisation. Profiles allow administrators to define and manage centrally what different user types can see and do in the user interface so they can perform their business tasks efficiently.
@@ -79,12 +79,23 @@ When a profile is created, you can select different check boxes that define if, 
     - **Disable personalisation** to specify if users of the related role can personalise their workspace.
     - **Show in Role Explorer** to specify if actions to business features included in the profile are shown in the extended view of the role explorer, a feature overview. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
-## <a name="to-export-user-created-profiles"></a>To export user-created profiles
-You can export profiles that have been changed either by you or by users, as indicated by **(User-created)** in the **Source** field. The profile is exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customisations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+## <a name="to-export-profiles"></a>To export profiles
+You can export profiles from [!INCLUDE[d365fin](includes/d365fin_md.md)], for example to reuse them in another tenant. The profiles are exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customisations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
-* On the **Profiles (Roles)** page, choose the **Export User-Created Profiles** action.
+* On the **Profiles (Roles)** page, choose the **Export Profiles** action.
 
-A zip file with the .al files for profiles that were newly added or modified is exported.
+A zip file with the .al files for all profiles is exported.
+
+## <a name="to-import-profiles"></a>To import profiles
+You can import profiles that have been exported from [!INCLUDE[d365fin](includes/d365fin_md.md)]. The steps are more or less the opposite of the steps to export profiles. For more information, see [To export profiles](admin-users-profiles-roles.md#to-export-profiles).
+
+1. On the **Profiles (Roles)** page, choose the **Import Profiles** action.
+2. Follow the steps on the **Import Profiles** wizard.
+
+    If you only want to import selected profiles, use the **Selected** check box to indicate which to import.
+3. Choose the **Import selected** button.
+
+A zip file with .al files for the selected profiles is imported.
 
 ## <a name="to-delete-a-profile"></a>To delete a profile
 You can delete a profile by choosing the **Delete** action on the **Profiles (Roles)** page. However, the following limitations apply:

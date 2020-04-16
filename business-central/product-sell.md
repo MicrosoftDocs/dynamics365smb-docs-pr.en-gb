@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 12/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 36185512ff17e7044dfc9bb6539d3f7b102472b5
-ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
+ms.openlocfilehash: 0c0ef6e00c2d1564c2f19c98a07c3cc4771c1d8a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2918149"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190066"
 ---
-# <a name="become-a-reseller-of-included365fin_longincludesd365fin_long_mdmd"></a>Become a Reseller of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="become-a-reseller-of-d365fin_long"></a>Become a Reseller of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Expand your business opportunity with [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
 
 If you specialise in Cloud solutions, Office 365, SharePoint, industry solutions, analytics, ERP, CRM, accounting software, and/or business process optimisation software/services, Business Central is a new opportunity.   

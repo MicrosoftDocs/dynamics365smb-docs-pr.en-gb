@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/17/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911246"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190090"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimum Requirements for Using Business Central
 Before you access [!INCLUDE [prodshort](includes/prodshort.md)] online, we recommend that you verify that your computer or mobile device meets or exceeds the minimum system requirements for the product. This article lists the requirements.  
@@ -30,13 +30,13 @@ Before you access [!INCLUDE [prodshort](includes/prodshort.md)] online, we recom
 
 ### <a name="other-supported-browsers"></a>Other supported browsers
 
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-bit and 64-bit versions). We recommend that you upgrade to the latest version of Internet Explorer supported for your version of Windows. 
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-bit and 64-bit versions). We recommend that you upgrade to the latest version of Internet Explorer supported for your version of Windows. You can also run the new Edge and still access websites that require Internet Explorer. For more information, see [Microsoft Edge documentation](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Mobile devices
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows can be installed on devices with at least 1GB of RAM and Windows 10 Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
 **iOS:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for iPad and iPhone requires iOS 10.0 or later.  
 **Android:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Android tablet and Android phone can be installed on devices with at least 1GB of RAM and Android 6.0 or higher.  
-**Device size:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is supported on smartphones with a minimum screen size of 4” and tablets with a minimum screen size of 7”.  
+**Device size:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is supported on smartphones with a minimum screen size of 4" and tablets with a minimum screen size of 7".  
 
 ## <a name="outlook"></a>Outlook
 **Outlook applications:** To use [!INCLUDE[d365fin](includes/d365fin_md.md)] online as your business inbox in Outlook, you will need Outlook 2016 or later, Outlook in a browser, Outlook for iPhone, Outlook for iPad, or Outlook for Android. Your organisation must also use Office 365. You cannot use [!INCLUDE [prodshort](includes/prodshort.md)] online as your business inbox in Outlook if your organisation uses Exchange Server on-premises.  

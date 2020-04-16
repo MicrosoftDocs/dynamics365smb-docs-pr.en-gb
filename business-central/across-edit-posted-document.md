@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6fbb4e458b0e4f9068b234748a3921dbca6b3222
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1041dda83552af3c2c805c08518600d89f0467fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300600"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188739"
 ---
 # <a name="edit-posted-documents"></a>Edit Posted Documents
 Sometimes you have to update a posted document because information that is relevant to the document has changed. On a posted sales document, this can be the shipping agent's package tracking number, for example. On a posted purchase document, this can be a payment reference text.

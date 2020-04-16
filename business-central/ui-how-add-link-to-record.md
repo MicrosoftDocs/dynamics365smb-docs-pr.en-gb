@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 84d9c0768a457fd13a73b3d70d2b8c329098fe82
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: c5d9dcc46e05cef21961e20008227a1a35b737af
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953287"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193892"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Manage Attachments, Links, and Notes on Cards and Documents
 
@@ -34,7 +34,7 @@ You can attach any type of file, containing text, image, or video, to a card or 
 > [!NOTE]
 > Files attached with the Incoming Documents feature are not included on the **Attachments** tab. For more information, see [Incoming Documents](across-income-documents.md).
 
-The following procedure is based on a sales order. The steps are similar for all other supported documents and cards.
+The following procedure is based on a purchase invoice. The steps are similar for all other supported documents and cards.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Open the sales order that you want to attach a file to.
@@ -44,6 +44,16 @@ The following procedure is based on a sales order. The steps are similar for all
 5. Select a file from any location, and then choose the **Open** button.
 
 The file is now attached to the purchase invoice.
+
+## <a name="to-save-a-document-as-a-pdf-attachment"></a>To save a document as a PDF attachment
+Whenever you need to save a document as a file, you can use the **Attach as PDF** action to capture the current document content as a PDF file attached to the FactBox of the document. This is useful, for example, when documents follow multiple steps in a process, such as a sales process or an approval workflow, and you want to refer to a printout of the previous step.
+
+The following procedure is based on a sales order. The steps are similar for all supported documents.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+2. Select a sales order, and then choose the **Attach as PDF** action.
+
+A PDF file with the current content of the sales order is added to the **Attachments** tab in the FactBox. 
 
 ## <a name="to-add-a-link-from-an-item-card"></a>To add a link from an item card
 You can add a link from a card or document to any URL or path. This is useful, for example, when you want to link an item card with the supplier's item catalogue.

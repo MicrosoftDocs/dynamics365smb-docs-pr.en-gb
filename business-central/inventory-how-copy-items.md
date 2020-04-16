@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 22f31b1f4c37e2129db379df9b71d9436ac81a2f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 7ea742e03271c1394de93869a4ffb3f45b917a5c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878372"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182259"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Copy Existing Items to Create New Items
 When you add a new item, to save time, you can use the **Copy Item** function to copy an existing item to use as a template for a new item.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 02/07/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8a0814c8fc275e4324195cddadddafe1683d809f
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 34e9b896eeca0e1c9856013ac427c844a6bde070
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071989"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195394"
 ---
 # <a name="personalize-your-workspace"></a>Personalise Your Workspace
 You can personalise your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalisation changes that you make will only affect what you see, not what other users see.
@@ -35,7 +35,7 @@ You can easily resize columns on any list by dragging the boundary between two c
 
 As for other personalisation, the changes you make to column width are stored on your account and follow you no matter which device you sign into.
 
-## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>To personalise a page through the **Personalising** banner
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>To start personalising a page through the **Personalising** banner
 1. Open any page that you want to personalise.
 2. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then choose the **Personalise** action.
 
@@ -52,7 +52,7 @@ As for other personalisation, the changes you make to column width are stored on
 6. Choose the element, and then choose either **Move**, **Remove**, **Hide**, **Show**, **Show under "Show more"**, **Show when collapsed**, **Show always**, **Set/Clear Freeze Pane**, or **Include/Exclude from Quick Entry**, depending on the type and county of the UI element. For more information, see [What You Can Personalise](#What).
 7. When you have finished changing the layout of one or more pages, choose the **Done** button on the **Personalising** banner.
 
-## <a name="What"></a>What You Can Personalise
+## <a name="what-you-can-personalize"></a><a name="What"></a>What You Can Personalise
 
 |What do you want to do|How to do it|Remarks|
 |----|------------|-------|
@@ -67,9 +67,10 @@ As for other personalisation, the changes you make to column width are stored on
 |Reorder and remove views representing filtered lists.|Choose the arrowhead next to a view, and then choose **Move**, **Remove**, or **Hide**.|See [Save and Personalise List Views](ui-views.md)|  
 |Add a new action to a page or report on your Role Centre.|From the target page, report request page, or Tell Me window, choose the bookmark icon.|See [Bookmark a Page or Report on Your Role Centre Role Centre](ui-bookmarks.md)|
 
-## <a name="Actions"></a>Personalising Actions
 
-Personalisation lets you decide which actions to show on the action bar and on Role Centres and where to show them. You can show, hide, or move individual actions or action groups. Personalising the action bar is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalising mode and then let the arrowheads guide you.
+## <a name="personalizing-actions"></a><a name="Actions"></a>Personalising Actions
+
+Personalisation lets you decide which actions to show on the navigation and action bars and on Role Centres and where to show them. You can show, hide, or move individual actions or action groups. Personalising the navigation and action bars is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalising mode and then let the arrowheads guide you.
 
 There are a couple terms that you should be familiar with to better understand action personalisation: *action group* and *promoted category*.  
 
@@ -87,9 +88,9 @@ When you want to show or hide an action, the options under the arrowhead define 
 
 |Option|What it does|
 |------|------------
-|**Remove**|This option appears if the selected action is also shown somewhere else on the action bar. Choosing this option deletes the action from the selected location so that it no longer appears. The action or action group will remain in the other locations. |
-|**Hide**|This option appears if the action or action group is not located anywhere else on the action bar. Like **Remove**, choosing this option will make the action or action group disappear from the action bar. However, in personalising mode, the action or action group will still be shown in the current position, except that it appears dimmed.|
-|**Show**|This option appears if the action or action group has been previously hidden (dimmed). Choosing this option will make the action or action group appear on the action bar.|
+|**Remove**|This option appears if the selected action is also shown somewhere else on the navigation bar or action bar. Choosing this option deletes the action from the selected location so that it no longer appears. The action or action group will remain in the other locations. |
+|**Hide**|This option appears if the action or action group is not located anywhere else on the navigation bar or action bar. Like **Remove**, choosing this option will make the action or action group disappear from the navigation bar or action bar. However, in personalising mode, the action or action group will still be shown in the current position, except that it appears dimmed.|
+|**Show**|This option appears if the action or action group has been previously hidden (dimmed). Choosing this option will make the action or action group appear on the navigation bar or action bar.|
 
 ### <a name="to-move-actions-and-action-groups"></a>To move actions and action groups
 Where you can drop actions or actions groups is indicated by a horizontal line between two actions or a border around an action group. The following limitations exist:
@@ -100,6 +101,18 @@ Where you can drop actions or actions groups is indicated by a horizontal line b
 1. To move an action or action group, drag and drop it to the desired position, like you do with fields and columns.
 2. To move an action or action group into another action group that is empty, drag the action or action group to the new group and drop it in the **Drop an action here** box.
 
+
+## <a name="personalizing-parts"></a><a name="Parts"></a>Personalising Parts
+
+Parts are areas on a page that are typically composed of multiple fields, charts or other content, and can be identified by a coloured border when setting focus to the part. For example, a Role Centre home screen has multiple parts. Because of their well-defined boundary, you can personalise the entire part as well as its' contents.
+
+- To move a part, drag and drop it to the desired position. A coloured line indicates valid positions on the screen. For example, FactBoxes can only be moved next to other FactBoxes in the FactBox pane.
+- You can hide a part by choosing the **Hide** option under the arrowhead.
+- When you start personalising or navigate to a new page, any parts that are currently hidden will appear on the page with distinctive visuals to indicate they are hidden. You can unhide that part by choosing the **Show** option under the arrowhead.
+
+You can clear all personalisation changes that you have made within a single part by choosing the **Clear personalisation** option under the part's arrowhead. Clearing personalisation of a part only affects changes to the contents of the part, not the placement or visibility of the part on the page.  
+
+
 ## <a name="to-clear-personalization"></a>To clear personalisation
 At some point, you might want to undo some or all of the personalisation changes that you have made to a page over time.
 
@@ -109,9 +122,9 @@ At some point, you might want to undo some or all of the personalisation changes
 |Option|What it does|
 |------|------------
 |**Only Navigation Menu**|Clears any personalisation changes that you have ever made to the navigation menu that is shared across the Role Centre and other pages. This includes any new actions that were added as bookmarks, and any changes to links and groups in the menu.|  
-|**Only Actions**|Clears any personalisation changes that you have ever made on the action bar on the page.|
-|**Only Fields, Columns, and Parts**|Clears any personalisation changes that you have ever made to the page except those on the action bar. This includes changes to fields, columns, parts, and tiles. |
-|**All**|Clears all personalisation changes that you have made to the page so it looks like it did originally. This includes changes to action bar, fields, columns, parts, and tiles.|
+|**Only Actions**|Clears any personalisation changes that you have ever made on the navigation or action bars on the page.|
+|**Only Fields, Columns, and Parts**|Clears any personalisation changes that you have ever made to the page except those on the navigation or action bar. This includes changes to fields, columns, parts, and tiles. |
+|**All**|Clears all personalisation changes that you have made to the page so it looks like it did originally. This includes changes to navigation and action bars, fields, columns, parts, and tiles.|
 
 ## <a name="additional-points-of-interest"></a>Additional Points of Interest
 To help you better understand personalisation, here are some pointers.

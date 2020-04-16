@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076419"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185715"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Design Details: Balancing Demand and Supply
 To understand how the planning system works, it is necessary to understand the prioritised goals of the planning system, the most important of which are to ensure that:  
@@ -37,7 +37,7 @@ To understand how the planning system works, it is necessary to understand the p
   Planning parameters and inventory levels are other types of demand and supply respectively, which undergo integrated balancing to replenish stock items. For more information, see [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md).
 
 ## <a name="the-concept-of-balancing-in-brief"></a>The Concept of Balancing in Brief
-  Demand is given by a company’s customers. Supply is what the company can create and remove to establish balance. The planning system starts with the independent demand and then tracks backwards to the supply.  
+  Demand is given by a company's customers. Supply is what the company can create and remove to establish balance. The planning system starts with the independent demand and then tracks backwards to the supply.  
 
    The inventory profiles are used to contain information about the demands and supplies, quantities, and timing. These profiles essentially make up the two sides of the balancing scale.  
 
@@ -99,7 +99,7 @@ During balancing, the planning system regards supply that carries serial/lot num
 
 Another reason that serial/lot numbered supply is inflexible is that serial/lot numbers are generally assigned so late in the process that it would be confusing if changes are suggested.  
 
-The balancing of serial/lot numbers does not respect the [Frozen Zone](design-details-dealing-with-orders-before-the-planning-starting-date.md). If demand and supply is not synchronised, the planning system will suggest changes or suggest new orders, regardless of the planning starting date.  
+The balancing of serial/lot numbers does not respect the *frozen zone*. If demand and supply is not synchronised, the planning system will suggest changes or suggest new orders, regardless of the planning starting date.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Order-to-Order Links are Never Broken  
 When planning an order-to-order item, the linked supply must not be used for any demand other than what it was originally intended for. The linked demand should not be covered by any other random supply, even if, in its present situation, it is available in time and quantity. For example, an assembly order that is linked to a sales order in an assemble-to-order scenario cannot be used to cover other demand.  
@@ -117,7 +117,7 @@ This balancing also affects the timing. The limited horizon that is given by the
 ### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Component Need is Loaded according to Production Order Changes  
 When handling production orders, the planning system must monitor the needed components before loading them into the demand profile. Component lines that result from an amended production order will replace those of the original order. This ensures that the planning system establishes that planning lines for component need are never duplicated.  
 
-###  <a name="BKMK_SafetyStockMayBeConsumed"></a> Safety Stock May Be Consumed  
+###  <a name="safety-stock-may-be-consumed"></a><a name="BKMK_SafetyStockMayBeConsumed"></a> Safety Stock May Be Consumed  
 The safety stock quantity is primarily a demand type and is therefore loaded into the inventory profile on the planning starting date.  
 
 Safety stock is an inventory quantity set aside to compensate for uncertainties in demand during the replenishment lead time. However, it may be consumed if it is necessary to take from it to fulfill a demand. In that case, the planning system will ensure that the safety stock is quickly replaced by suggesting a supply order to replenish the safety stock quantity on the date it is consumed. This planning line will display an Exception warning icon explaining to the planner that the safety stock has been partly or fully consumed by means of an exception order for the missing quantity.  

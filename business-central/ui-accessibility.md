@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb898a459bdf5d0b4ced3baadd2a245cd23b8f38
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1098e0998369e15bd9484ba33b808b9b435b538c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311459"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192130"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Accessibility and Keyboard Shortcuts
 This topic provides information about the features that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the following accessibility features:  
@@ -48,18 +48,18 @@ This topic provides information about the features that make [!INCLUDE[d365fin](
 
 -->
 
-##  <a name="Navigation"></a> Navigation  
+##  <a name="navigation"></a><a name="Navigation"></a> Navigation  
  You can navigate between the tabs and actions in the ribbon, elements in the navigation bar, and other controls on [!INCLUDE[d365fin](includes/d365fin_md.md)] pages and reports using the keyboard. To move the focus from one tab, action, or control to another, press the Tab key to move forward. Press Shift+Tab to move backward.  
 
  By using the tab order, you can also switch between the main browser page and dialogue boxes that request confirmation, for example, or the login page.  
 
-##  <a name="Headings"></a> Headings  
+##  <a name="headings"></a><a name="Headings"></a> Headings  
  The HTML source for [!INCLUDE[d365fin](includes/d365fin_md.md)] content uses tags to help users of assistive technology to understand the structure and content of the page. For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag. Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).  
 
-##  <a name="Images"></a> Image and Links  
+##  <a name="image-and-links"></a><a name="Images"></a> Image and Links  
  A descriptive text for images is set with the ALT attribute inside the IMG tag. A descriptive text for hyperlinks is set with the title attribute inside the A tag.  
 
-##  <a name="AssistiveTech"></a> Assistive Technologies  
+##  <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Assistive Technologies  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supports various assistive technologies, such as high contrast, screen readers, and voice recognition software. Some assistive technologies may not work well with certain elements in [!INCLUDE[d365fin](includes/d365fin_md.md)] pages.  
 
 ## <a name="for-more-accessibility-information"></a>For more accessibility information  

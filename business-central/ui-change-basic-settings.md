@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953320"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194602"
 ---
 # <a name="change-basic-settings"></a>Change Basic Settings
 
 On the **My Settings** page, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The changes that you make will only affect your workspace, not the workspaces of other users.  
 
-## <a name="role-center"></a> Role Centre
+## <a name="role-center"></a><a name="role-center"></a> Role Centre
 The Role Centre represents the home page, a starting screen that is designed for the needs of a specific role in an organisation. Depending on your role, the Role Centre gives you an overview of the business, your department, or your personal tasks. It also helps you navigate to your daily tasks and find work that is assigned to you.
 
 -   At the top, the navigation allows you to switch between customers, vendors, items, and other important lists of information. Similarly, actions allow you to initiate tasks, such as create a new sales invoice, directly from the Role Centre.
@@ -34,7 +34,7 @@ The default role is **Business Manager**, but you can select another role to use
 2. On the **My Settings** page, in the **Role** field, select the role that you want to use by default. For example, select **Accountant**.
 3. Choose the **OK** button.
 
-## <a name="company"></a>Company
+## <a name="company"></a><a name="company"></a>Company
 A company functions as a container for data in [!INCLUDE[d365fin](includes/d365fin_md.md)]. There can be multiple companies in a database, but only one can be selected at a time.
 
 The default company is called CRONUS and contains demonstration data only. You can create a new company with custom data. For more information, see [Creating New Companies](about-new-company.md).
@@ -42,7 +42,7 @@ The default company is called CRONUS and contains demonstration data only. You c
 ## <a name="to-change-the-company-name"></a>To change the company name
 The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Centre. You can change this name on the **Company Information** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+1. Choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top left corner.
 
@@ -55,7 +55,7 @@ You can add a customised badge in the top right corner, which you can choose to 
 > [!NOTE]
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)
 
-## <a name="work-date"></a>Work Date
+## <a name="work-date"></a><a name="work-date"></a>Work Date
 The most commonly used work date is today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not today's date.
 
 > [!TIP]  
@@ -72,19 +72,21 @@ Whenever the work date is not set to today's date, then two types of indicators 
 - If you dismiss the reminder, the work date will appear in the title of the page.  
 --> If the work date is not set to the current day (today), then on all pages where you can edit data, the current work date is shown in the upper-left corner of the page.
 
-## <a name="region"></a> Region
+## <a name="region"></a><a name="region"></a> Region
 
 The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.
 
-## <a name="language"></a> Language
+## <a name="language"></a><a name="language"></a> Language
 Changes the display language. This field appears only when there is more than one language to choose from.
 
 The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The language that you set will be used on all devices that you sign in from, such as a phone or tablet.
 
+Additional languages for [!INCLUDE[prodshort](includes/prodshort.md)] can be installed from AppSource. While all supported display languages are shown in the list, the administrator must install the releant language app to the tenant before users can switch to the new language in [!INCLUDE[prodshort](includes/prodshort.md)].  
+
 ## <a name="changing-when-i-receive-notifications"></a>Changing When I Receive Notifications
 Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Managing Notifications](ui-smart-notifications.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Creating New Companies](about-new-company.md)  

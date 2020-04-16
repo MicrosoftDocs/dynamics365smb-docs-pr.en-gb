@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 01/17/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: aa8433735f1f09d71e4597485abfd4d48e2292ea
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 4686f509f81ba31e3215687630cc14f0a6e45402
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991959"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181735"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Keyboard Quick Reference - PC Only
 
 #### <a name="general"></a>General
 |||  
 |-|-|
-|Alt+F2<br />Alt+N<br />Alt+Shift+N<br />Alt+O<br />Alt+Q<br />Alt+Up<br />Alt+Down Arrow<br />Alt+T<br />Alt+Shift+W<br />Ctrl+Insert<br />Ctrl-Delete<br />Ctrl+Shift+F12<br />Ctrl+F1<br />Ctrl+Click<br />Shift+F12<br />F5/Ctrl+F5<br />Tab/Shift+Tab<br />|Show and hide the FactBox pane<br />Create a new record<br />Close a newly created record and create a new one<br />Add a new note for the selected record<br />Open **Tell me**<br />Open tooltip or validation error<br />Open a drop-down or look up<br />Open the **My Settings** page<br />Open the current card or document in a new window<br />Insert a new line on a document<br />Delete the line on a document, journal, or worksheet<br />Maximise the line items part on a document page<br />Open help for the page<br />Navigate when personalising and customising<br />Open the role explorer, a feature overview<br />Refresh/reload page<br />Move focus to the next/previous element|
+|Alt+F2<br />Alt+N<br />Alt+Shift+N<br />Alt+O<br />Alt+Q<br />Alt+Up<br />Alt+Down Arrow<br />Alt+T<br />Alt+Shift+W<br />Ctrl+Insert<br />Ctrl-Delete<br />Ctrl+Shift+F12<br />Ctrl+F1<br />Ctrl+Click<br />Shift+F12<br />F5/Ctrl+F5<br />Tab/Shift+Tab<br />F6/Shift+F6<br />|Show and hide the FactBox pane<br />Create a new record<br />Close a newly created record and create a new one<br />Add a new note for the selected record<br />Open **Tell me**<br />Open tooltip or validation error<br />Open a drop-down or look up<br />Open the **My Settings** page<br />Open the current card or document in a new window<br />Insert a new line on a document<br />Delete the line on a document, journal, or worksheet<br />Maximise the line items part on a document page<br />Open help for the page<br />Navigate when personalising and customising<br />Open the role explorer, a feature overview<br />Refresh/reload page<br />Move focus to the next/previous element<br />Move to next FastTab/part|
 
 #### <a name="navigate--select-rows"></a>Navigate & Select Rows
 |||
@@ -37,7 +37,7 @@ ms.locfileid: "2991959"
 #### <a name="search-filter--sort"></a>Search, Filter, & Sort
 |||
 |-|-|
-|F6<br />Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Move to next FastTab<br />Sort column in ascending/descending order<br />Toggle search<br />Toggle filter pane; focus on field filters<br />Toggle filter pane; focus on totals filters<br />Filter on selected cell value<br />Add filter on selected field<br />Reset filters|
+|Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Sort column in ascending/descending order<br />Toggle search<br />Toggle filter pane; focus on field filters<br />Toggle filter pane; focus on totals filters<br />Filter on selected cell value<br />Add filter on selected field<br />Reset filters|
 
 #### <a name="quick-entry"></a>Quick Entry
 |||

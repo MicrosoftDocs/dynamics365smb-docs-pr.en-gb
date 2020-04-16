@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 858116d656ef264c7c9445596c8b5345da944c8e
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: d20dc2ba62a5b13042fe864963f1d483c383563f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952584"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183987"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysing Financial Statements in Microsoft Excel
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can see KPIs and get overviews of the company's financial state. You can also open lists in Excel and analyse the data there. But you can also export heavy financial statements such as the balance sheet or the income statement to Excel, analyse the data, and print the reports.  
@@ -36,12 +36,12 @@ Let's say you want to dig deeper into your cash flow. From the Business Manager 
 
 In Excel, you see a tab where the data is laid out for you on the first worksheet. All the data that was exported is also present in other worksheets in case you need it. You can print the report right away, or you can modify it until you have the overview and the details that you want. Use the [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel Add-in to further filter and analyse data.  
 
-## <a name="the-included365finincludesd365fin_mdmd-excel-add-in"></a>The [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel Add-in
+## <a name="the-d365fin-excel-add-in"></a>The [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel Add-in
 Your [!INCLUDE[d365fin](includes/d365fin_md.md)] experience includes an add-in for Excel. Depending on your subscription, you are logged in automatically, or you must specify the same login details that you use for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 With the add-in, you can get fresh data from [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can push changes back into [!INCLUDE[d365fin](includes/d365fin_md.md)]. However, the ability to push data back to the database is disabled for the financial Excel reports in the list above.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  

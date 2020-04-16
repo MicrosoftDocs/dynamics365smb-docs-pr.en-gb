@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff34a7a8a1086b41d2df2a75955017fc82866fb6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315595"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194410"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Working with Calendar Dates and Times
 
@@ -121,7 +121,7 @@ The following table contains examples of dates using all the formats. It assumes
 |t 23|Tuesday of week 23 of the work date year|
 |t-1|Tuesday of week 1 of the work date year|
 
-##  <a name="BKMK_SettingDateRanges"></a> Setting Ranges
+##  <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Setting Ranges
 
 On lists, totals and reports, you can set filters on dates, times and datetimes containing a start value and optionally an end value to display only the data contained in that range. The standard rules apply to the way you set date ranges.
 

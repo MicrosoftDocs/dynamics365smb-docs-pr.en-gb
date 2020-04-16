@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911130"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181755"
 ---
 # <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
 This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -38,7 +38,7 @@ Most of the shortcuts are the same whether the operating system is Windows or ma
 > [!NOTE]
 > In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], F9 posts a document and Ctrl+F7 shows the financial entries for a record. (These may be different in you solution.) The keyboard shortcut is shown in the tooltip for the action in question.
 
-##  <a name="Keyboard"></a> General Keyboard Shortcuts
+##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.
 
 |Press these keys<br />(in macOS)|To do this|
@@ -83,7 +83,8 @@ The following table describes the keyboard shortcuts that you can use on a list 
 |Alt+N|Insert a new line in an editable list, such as the **G/L Budgets** page.|Same.|
 |Shift+F10 |Open a menu of options that are available for the selected row.|Same.|
 
-### <a name="navigateshortcuts"></a>Navigating Between Rows and Columns
+### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigating Between Rows and Columns
+Grids containing rows and columns exist on many page types in [!INCLUDE[prodshort](includes/prodshort.md)], such as list pages and **Lines** parts on documents. Moving from one cell to another across a grid is fully keyboard-enabled.
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
 |-----------------|-------|-------|
@@ -93,16 +94,17 @@ The following table describes the keyboard shortcuts that you can use on a list 
 |End<br />(Fn+right Arrow)|Move to the last field in the row.|Move to the last tile in the row.|
 |Enter|Open the record that is associated with the field.<br /><br />Only relevant if a card page is associated with the record.|Opens the record.<br /><br />Only relevant if a card page is associated with the record.|
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.|
+|Page Up<br />(Fn+Up Arrow)|Scroll to display the set rows above the current rows in view. |Scrolls to display the set of tiles above the current tiles in view. |
+|Page Down<br />(Fn+Down Arrow)|Scroll to display the set rows below the current rows in view.|Scroll to display the set of tiles below the current tiles in view.|
 |Down Arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. |
 |Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |
 |Right Arrow|In a view-only list, move in the same row to the next field to the right.<br /><br />In an editable list, move to the right within the current field.| Move in the same row to the next tile to the right. |
 |Left Arrow|In a view-only list, move in the same row to the previous field to the left. <br /><br />In an editable list, move to the left within the current field.| Move in the same row to the previous tile to the left. |
-|Page Up<br />(Fn+up Arrow)|Scroll to display the set rows above the current rows in view. |Scrolls to display the set of tiles above the current tiles in view. |
-|Page Down<br />(Fn+down Arrow)|Scroll to display the set rows below the current rows in view.|Scroll to display the set of tiles below the current tiles in view.|
 |Tab|In editable list, move in the same row to the next field to the right.|Not applicable.||
 |Shift+Tab|In editable list, move in the same row to the previous field to the left. | Not applicable. |
 
-### <a name="CopyRows"></a>Selecting, Copying, and Pasting
+
+### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selecting, Copying, and Pasting
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
 |-----------------|-------|-------|
@@ -120,7 +122,7 @@ The following table describes the keyboard shortcuts that you can use on a list 
 |Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all visible rows below the current selection of rows.|Not applicable.|
 |F8|Copy the field in the same column of the row above, and paste it into the current row. You can only do this in editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that you want to have the same value as the row above.|Not applicable.|
 
-### <a name="KeyboardFilter"></a>Searching and Filtering Lists
+### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Searching and Filtering Lists
 
 |Press these keys<br />(in macOS)|To do this|
 |-----------------|-------|
@@ -138,7 +140,7 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 
 |Press these keys<br />(in macOS)|To do this|
 |----------------|-----------|
-|Alt+F6|Toggle collapse/expand for the current FastTab.|
+|Alt+F6|Toggle collapse/expand for the current FastTab or part (sub-page).|
 |Alt+N |Open a page to create a new record; the same way as choosing the **New** action. |
 |Alt+Shift+N |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |
 |Alt+Shift+W |Open the current card or document in a new window. For more information, see [Multitasking Across Multiple Pages](ui-enter-data.md#multitasking-across-multiple-pages).|
@@ -151,7 +153,7 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 |F6|Move to the next FastTab or part (sub-page).|
 |Shift+F6|Move to previous FastTab or part (sub-page).|
 
-## <a name="QuickEntry"></a>Quick Entry Shortcuts for Fields
+## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Quick Entry Shortcuts for Fields
 
 The following shortcuts pertain to the Quick Entry feature on cards, documents, and list pages. On lists, the shortcuts cannot be used when the list is in the tile view. For more information about Quick Entry, see [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry).
 
@@ -161,7 +163,7 @@ The following shortcuts pertain to the Quick Entry feature on cards, documents, 
 |Shift+Enter|Confirm the value in the current field and go to the previous Quick Entry field.||
 |Ctrl+Shift+Enter|Confirm the value in the current column and go to next Quick Entry field outside the list.<br /><br />This shortcut applies to embedded lists on a page, such as line items on a sales order. It enables you to quickly get out of the list and continue entering data in other fields on the page.|
 
-## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Keyboard Shortcuts in the Calendar (Date Picker)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Keyboard Shortcuts in the Calendar (Date Picker)
 
 When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.
 
@@ -185,7 +187,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |t|Enter the current date. "T" stands for "today".|
 |w|Enter the work date. For more information, see [Work Date](ui-change-basic-settings.md#work-date)|
 
-## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Keyboard Shortcuts in the Report Preview
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Keyboard Shortcuts in the Report Preview
 
 |Press these keys<br />(in macOS)|To do this|
 |-----------------|-------|

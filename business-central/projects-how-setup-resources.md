@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bd0206c0ceb9a2e559f3fb4e391877e158800cd4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 08e8f00a73b6c03978d8c00b23f36e3f510c43d6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312755"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191146"
 ---
 # <a name="set-up-resources"></a>Set Up Resources
 To correctly manage resource activities, you must set up your resources and the related costs and prices. The job-related prices, discounts, and cost factor rules are set up on the job card. You can specify the costs and prices for individual resources, resource groups, or all available resources of the company.
@@ -25,6 +25,10 @@ To correctly manage resource activities, you must set up your resources and the 
 When resources are used or sold in a job, the prices and costs associated with them are retrieved from the information that you set up.
 
 You specify the default amount per hour when the resource is created. For example, if you use a specific machine on a job for five hours, the job would be calculated based on the amount per hour.
+
+> [!NOTE]
+> You can purchase external resources, for example to invoice a vendor for work delivered. For more information, see [Record Purchases](purchasing-how-record-purchases.md).<br /><br />
+> In that case, it is recommended that you name or group such external resources to indicate their purpose so they are not confused with your internal resources.
 
 ## <a name="to-set-up-a-resource"></a>To set up a resource
 Create a card for each resource that you want to use in projects.

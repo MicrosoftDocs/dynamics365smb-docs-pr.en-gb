@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e325cce98256b723c6fcfdf4d16068f852a2b032
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 13699c002402b6b6d32edc13dca3710fefff2129
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308747"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181270"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Track Email Message Exchanges Between Salespeople and Contacts
 Get more out of the communications between salespeople and your existing or potential customers by tracking email exchanges, and then turning them into actionable opportunities. [!INCLUDE[d365fin](includes/d365fin_md.md)] can work with Exchange Online to keep a log of the inbound and outbound messages. You can view and analyse the contents of each message on the **Interaction Log Entries** page.
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085401]
 
-## <a name="setting-up-included365finincludesd365fin_mdmd-to-log-email-messages"></a>Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)] to Log Email Messages
+## <a name="setting-up-d365fin-to-log-email-messages"></a>Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)] to Log Email Messages
 Get started with email logging in two easy steps:
 
 1. Connect [!INCLUDE[d365fin](includes/d365fin_md.md)] with Exchange Online for your Office 365 subscription. Exchange Online handles your email messages. We've made this step easy by providing an assisted setup guide. You just need your administrator credentials for your administrator account in Office 365. To start the guide, go to **Assisted Setup**, and then choose **Set up email logging**. 

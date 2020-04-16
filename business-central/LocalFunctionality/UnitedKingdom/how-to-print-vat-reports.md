@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2fdd03519255079e4ca5146787a205fb619dd86c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 6b282136b53f6aff0ce113e5bb471bc46fe9ea9a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878793"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189047"
 ---
 # <a name="print-vat-reports"></a>Print VAT Reports
 You can use the following reports for VAT reporting:  
