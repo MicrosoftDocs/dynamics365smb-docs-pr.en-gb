@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 811e3cda680d414694f1cf060bdb66390939e6d6
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 168a330bdb85c8d5ed18a9ce2b65339c82b4055e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876407"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196146"
 ---
 # <a name="set-up-put-away-templates"></a>Set Up Put-away Templates
 With directed put-away and pick functionality, the most appropriate bin for your items at any given time is suggested, according to the put-away template that you have set up for the warehouse, the bin rankings you have given to the bins, and the minimum and maximum quantities that you have set up for fixed bins.  

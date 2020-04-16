@@ -1,8 +1,6 @@
 ---
 title: Close Accounting Periods for a Fiscal Year | Microsoft Docs
 description: Describes how to close the accounting periods that make up the fiscal year.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: ba6cd85d50f9d2b4d98fb45cbd38bcc57e08e3a2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a696f45446f93dba2dedb0976ff646dd6e4b12b1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313815"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195882"
 ---
 # <a name="close-accounting-periods"></a>Close Accounting Periods
 When a fiscal year is over, you must close the periods that comprise it.
@@ -39,7 +37,8 @@ Even though a fiscal year has been closed, you can still post general ledger ent
 After a fiscal year is closed, you must close the income statement accounts and transfer the year's results to an account in the balance sheet. You can repeat this every time that you post to the closed fiscal year.
 
 ## <a name="see-also"></a>See Also
+
 [Closing Books](year-close-books.md)  
 [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
-[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
+[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

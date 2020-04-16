@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2d716040bae8f6e0cec3055af0ce2a26b6bc04e1
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 7e2b7dbc00d096f32f4ec3d04b5c6f775c355598
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876519"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196218"
 ---
 # <a name="create-bin-contents"></a>Create Bin Contents
 After you have set up your bins, you can set up the bin contents. In other words, you can set up the items you want to store in any given bin and set the rules that govern filling the bin with a particular item. You can do this manually on the **Bin Contents** page or automatically with the **Create Bin Content Worksheet** page.

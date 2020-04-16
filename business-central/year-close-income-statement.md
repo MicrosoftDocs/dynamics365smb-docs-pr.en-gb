@@ -1,8 +1,6 @@
 ---
 title: Close Income Statement Accounts | Microsoft Docs
 description: At year closing, you must run the Close Income Statement batch job to close the accounting periods that make up the fiscal year.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: fd811a1a472efe53fe1c16bd5c301925d424f274
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 059fda6f088c73c32f82a4029976e7ae6acd40f4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313935"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195834"
 ---
 # <a name="close-income-statement-accounts"></a>Close Income Statement Accounts
 When a fiscal year is over, you must close the periods that comprise it. To do this, you run the **Close Income Statement** batch job. This job transfers the year's result to an account in the balance sheet and closes the income statement accounts. You do this by creating lines in a journal, which you then can post.
@@ -37,7 +35,8 @@ The date on the lines that the batch job inserts in the journal is always a clos
 The **Close Income Statement** batch job can be used several times. You can post in a previous fiscal year, even after the income statement accounts have been closed, if you run the batch job again.
 
 ## <a name="see-also"></a>See Also
+
 [Closing Books](year-close-books.md)  
 [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
-[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
+[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

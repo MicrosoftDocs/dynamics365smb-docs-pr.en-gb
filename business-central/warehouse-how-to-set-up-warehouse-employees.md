@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 624603a2610ca07388c0b84d13b0707e06e92a18
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 7abdb225967bc402195d0811c26de1f237238c8b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881548"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196122"
 ---
 # <a name="set-up-warehouse-employees"></a>Set Up Warehouse Employees
 Each user who performs warehouse activities must be set up as a warehouse employee assigned to one default location and potentially more non-default locations. This user setup filters all warehouse activities across the database to the employee's location so that the employee can only perform the warehouse activities at the default location. A user can be assigned to additional non-default locations for which the employee can view activity lines but not perform the activities.

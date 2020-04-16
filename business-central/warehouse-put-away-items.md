@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: cd24de2b05945aafacc4324a6aa93b151f196bcc
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e50e9e7ae7c876ad39a62bd0c0307cdb2532734b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881493"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196054"
 ---
 # <a name="putting-items-away"></a>Putting Items Away
 The warehouse activity of putting items away after they are received or output is performed in different ways depending on how warehouse management features are configured. The complexity can rank from no warehouse features, through basic warehouse configurations for order-by order handling in one or more activities only, to advanced configurations where all warehouse activities must be performed in a directed workflow. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).

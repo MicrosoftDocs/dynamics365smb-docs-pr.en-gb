@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f7fd88c88a69806e6cc914c27737d3a8b823bc51
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 4d6cc3353380aed83dbb0963d7602a4660e05f4b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876495"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196026"
 ---
 # <a name="moving-items"></a>Moving Items
 The warehouse activity of moving items within the warehouse is performed in different ways depending on how warehouse management features are configured. The complexity can rank from no warehouse features, through basic warehouse configurations for order-by order handling in one or more activities only, to advanced configurations where all warehouse activities must be performed in a directed workflow. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).

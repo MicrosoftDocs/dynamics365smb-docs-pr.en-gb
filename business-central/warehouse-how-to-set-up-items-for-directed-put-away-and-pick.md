@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5e76ef000ffc9242cf98e11be353b604990bf5ea
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: fd41813ba17c9e753cf027392b1e77f9052e1bbc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876416"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196194"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Set Up Items and Locations for Directed Put-away and Pick
 When you set up a warehouse location for directed put-away and pick, you have new functionality available to you to help run the warehouse in the most efficient way possible. In order to make full use of this functionality, you provide additional information about the items, which in turn helps to make the calculations necessary to suggest the most efficient and effective ways to conduct warehouse activities. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).

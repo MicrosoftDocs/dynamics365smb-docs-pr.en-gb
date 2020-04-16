@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f09ff8999629f2fbb3378174823dc4eec478e8d0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0af922e2af27cc810b3ba77207c271b8f6a4a22f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881560"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195982"
 ---
 # <a name="warehouse-management"></a>Warehouse Management
 After goods are received and before goods are shipped, a series of internal warehouse activities take place to ensure an effective flow through the warehouse and to organize and maintain company inventories.
@@ -32,7 +32,7 @@ The inventory-related tasks of counting, adjusting, and reclassifying items may 
 
 |**To**|**See**|  
 |------------|-------------|  
-|Record the receipt of items at warehouse locations, either with a purchase order only, in simple location setups, or with a warehouse receipt, in case of semi or fully automated warehouse processing at the location.|[Receive Items](warehouse-how-receive-items.md)|
+|Record the receipt (including over-receipt) of items at warehouse locations, either with a purchase order only, in simple location setups, or with a warehouse receipt, in case of semi or fully automated warehouse processing at the location.|[Receive Items](warehouse-how-receive-items.md)|
 |Bypass the put-away and pick processes to expedite an item straight from receiving or production to shipping.|[Cross-Dock Items](warehouse-how-to-cross-dock-items.md)|    
 |Put away items received from purchases, sales returns, transfers, or production output according to the configured warehouse process.|[Putting Items Away](warehouse-put-away-items.md)|
 |Move items between bins in the warehouse.|[Moving Items](warehouse-move-items.md)|

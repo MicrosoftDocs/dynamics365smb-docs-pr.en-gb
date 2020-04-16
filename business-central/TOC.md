@@ -28,7 +28,7 @@
 
 # Working with Business Central
 ## [Overview](ui-work-product.md)
-## [Print-Friendly Cheat Sheet](ui-work-product.md)
+## [Print-Friendly Cheat Sheet](ui-work-product.md#cheatsheet)
 ## [Finding Pages and Information with Tell Me](ui-search.md)
 ## [Finding Pages with the Role Explorer](ui-role-explorer.md)
 ## [Tell Me FAQ](ui-search-faq.md)
@@ -43,6 +43,7 @@
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
 ## [Change Basic Settings](ui-change-basic-settings.md)
 ## [Manage Notifications](ui-smart-notifications.md)
+## [Performance Tips for Business Users](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Personalising Business Central
 ### [Personalise Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked from Personalising](ui-personalization-locked.md)
@@ -51,7 +52,7 @@
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
 ## Printing Reports and Running Batch Jobs and XMLports
 ### [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)
-### [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)
+### [Set Up Printers](ui-specify-printer-selection-reports.md)
 ### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
 ### [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md)
 ### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
@@ -78,7 +79,7 @@
 ### [Setting Up Posting Groups](finance-posting-groups.md)
 ### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 ### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
-### [Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)
+### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 ### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
 ### [Set Up Unrealised VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
 ### [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -322,6 +323,7 @@
 ## [Create Users According to Licences](ui-how-users-permissions.md)
 ## [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)
 ## [Manage Profiles](admin-users-profiles-roles.md)
+## [Set Up Printers](ui-specify-printer-selection-reports.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ## [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
 ## [Creating New Companies](about-new-company.md)
@@ -367,13 +369,17 @@
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 ## Integrating with Dynamics 365 Sales
 ### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Set Up a Dynamics 365 Sales Connection](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synchronising Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+## Integrating with Common Data Service
+### [Overview](admin-common-data-service.md)
+### [Data Ownership Models](admin-cds-company-concept.md)
+### [Setting Up User Accounts for Integrating with Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
+### [Connect to Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synchronising Business Central and Common Data Service](admin-synchronizing-business-central-and-sales.md)
 ### [Mapping the Tables and Fields to Synchronise](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually Synchronise Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshooting Synchronisation Errors](admin-troubleshoot-sales-synchronization.md)
+<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Finance
 ## [Overview](finance.md)
@@ -511,6 +517,7 @@
 ## [Analyse Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ## [Create Reports with XBRL](bi-create-reports-with-xbrl.md)
+## [Manage Database Access Intent](admin-data-access-intent.md)
 
 # Sales
 ## [Overview](sales-manage-sales.md)
@@ -1390,7 +1397,7 @@
 #### [Swiss Value Added Tax](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [VAT Rates for Switzerland](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Banking & Payments
-#### QR Code on Swiss Payment Slips
+#### QR-Bill Management (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Close an LSV Collection](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Export Payments Using LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Import ESR Payments](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)
