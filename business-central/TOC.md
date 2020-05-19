@@ -70,6 +70,7 @@
 ### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)
 ### [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)
+## [Troubleshooting: Accessing Camera and Location](ui-troubleshooting-camera-location.md)
 
 # Setting Up Business Central
 ## [Overview](setup.md)
@@ -82,6 +83,7 @@
 ### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 ### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
 ### [Set Up Unrealised VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
+### [Setting Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)
 ### [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 ### [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
@@ -335,7 +337,10 @@
 ## [Managing Data Encryption](admin-manage-data-encryption.md)
 ## [Extending Your Trial Version](admin-extend-trial.md)
 ## [Inspecting Pages](across-inspect-page.md)
+## [Viewing Database Locks](admin-view-database-locks.md)
+## [Viewing Table Information](admin-view-table-information.md)
 ## [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
+## [Enabling New Features Ahead of Time](admin-feature-management.md)
 ## Customising Business Central
 ### [Overview](ui-customizing-overview.md)
 ### [Customise Pages for Profiles](ui-personalization-manage.md)
@@ -525,6 +530,7 @@
 ## [Make Sales Quotes](sales-how-make-offers.md)
 ## [Invoice Sales](sales-how-invoice-sales.md)
 ## [Sell Products](sales-how-sell-products.md)
+## [Print the Picking List](sales-how-print-picking-list.md)
 ## [Posting Sales](ui-post-sales.md)
 ## [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
 ## [Make Drop Shipments](sales-how-drop-shipment.md)
@@ -642,7 +648,7 @@
 ## [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ## [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)
 ## [Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
-## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
+<!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 # Assembly Management
 ## [Overview](assembly-assemble-items.md)
@@ -816,7 +822,7 @@
 ## Australia
 ### [Overview](LocalFunctionality/Australia/australia-local-functionality.md)
 ### Tax
-#### [Tax](LocalFunctionality/Australia/tax.md)
+#### [Overview](LocalFunctionality/Australia/tax.md)
 #### [Withholding Tax](LocalFunctionality/Australia/withholding-tax.md)
 #### [Set Up Withholding Tax](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
 #### [Set Up Revenue Types for Withholding Tax](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -874,7 +880,7 @@
 #### [Print Periodic VAT Reports](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 #### [Set Up Belgian Commodity Codes](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 #### [Belgian Intrastat Reporting](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-#### [Set Up Intrastat Establishment Numbers](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)    
+#### [Set Up Intrastat Establishment Numbers](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
 #### [Print the Intrastat Form Report](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 #### [Set Up Declaration Types](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 #### [Export Intrastat Third-Party Declarations](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
@@ -1241,7 +1247,7 @@
 #### [Set Up OCR Payments](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 #### [Import and Post OCR Payments](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 #### [Print the OCR Journal Test Report](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
-### Core Finance    
+### Core Finance
 #### [Apply General Ledger Entries in Closed Periods](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 ### General
 #### [Recurring Orders](LocalFunctionality/Norway/recurring-orders.md)  
@@ -1427,7 +1433,7 @@
 ### Inventory
 #### [Swiss Inventory Management](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 #### [Print an Inventory Picking List from a Sales Order](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-### General    
+### General
 #### [Import Swiss Postcodes](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Swiss Purchase Documents and Sales Orders](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 
