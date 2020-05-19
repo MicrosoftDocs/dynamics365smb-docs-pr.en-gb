@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/30/2020
 ms.author: jswymer
-ms.openlocfilehash: 33b5a3ff604b0ddf7525b89d7a8a82bcfdd7f653
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196395"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333915"
 ---
 # <a name="managing-database-access-intent"></a>Managing Database Access Intent 
 
@@ -29,7 +29,7 @@ When objects run, the database access intent determines whether to use a read-on
 
 The **Database Access Intent List** page lets you override the predefined database access intent for objects when they're run.
 
-In database terms, this feature is commonly known as *read scale-out*. For more information about read-scale out and data access intent in [!INCLUDE[d365fin](includes/d365fin_md.md)], see [Utilising Read Scale-Out for Better Performance](https://review.docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview?branch=tfs337368-readscaleout) in the [!INCLUDE[d365fin](includes/d365fin_md.md)] Developer and IT Pro help.
+In database terms, this feature is commonly known as *read scale-out*. For more information about read-scale out and data access intent in [!INCLUDE[prodshort](includes/prodshort.md)], see [Utilising Read Scale-Out for Better Performance](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in the [!INCLUDE[prodshort](includes/prodshort.md)] Developer and Administration help.
 
 ## <a name="to-change-the-database-access-intent"></a>To change the database access intent
 

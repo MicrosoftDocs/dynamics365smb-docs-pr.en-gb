@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2020
+ms.date: 05/11/2020
 ms.author: edupont
-ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eae48b25446e4c81d1b8eae86fd2d0d7d0126df6
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184035"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372623"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Accountant Experiences in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[d365fin](includes/d365fin_md.md)]. From here, you can access all pages that you need in your work.  
@@ -40,7 +40,7 @@ We have made it easy for you to invite your external accountant. Simply open the
 > [!IMPORTANT]  
 > The accountant's email address must be a work address that is based on Azure Active Directory. If the accountant uses another type of email, then the invitation cannot be sent. 
 > 
-> This task requires access to managing users and licences in Azure Active Directory, the user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Office 365 admin centre. For more information, see [About admin roles](/office365/admin/add-users/about-admin-roles) in the Office 365 admin content.  
+> This task requires access to managing users and licences in Azure Active Directory, the user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Microsoft 365 admin centre. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) in the Microsoft 365 admin content.  
 
 ### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Adding your accountant to your Office 365 via Azure Portal
 

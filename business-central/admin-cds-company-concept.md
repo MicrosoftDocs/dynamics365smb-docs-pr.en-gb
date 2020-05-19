@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
 ms.date: 01/17/2020
 ms.author: bholtorf
-ms.openlocfilehash: ccd371711a53c598279fcc981c5581be5ee9bdaf
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196907"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324061"
 ---
 # <a name="data-ownership-models"></a>Data Ownership Models
 [!INCLUDE[d365fin](includes/cds_long_md.md)] requires that you specify an owner for the data you store. For more information, see [Entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) in the Power Apps documentation. When you set up integration between [!INCLUDE[d365fin](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)] you must choose one of two ownership models for records that are synchronised:
@@ -34,6 +34,9 @@ Because business units lack legal and business implications, you cannot force a 
 * We create a default business unit that has the same name as the company. For example, Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * We create separate owner team with the same name as the company and associate it with the business unit. The name of the team is prefixed with "BCI -." For example, BCI - Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Records that are created and synchronised to [!INCLUDE[d365fin](includes/cds_long_md.md)] are assigned to the "BCI Owner" team that is linked to the business unit.
+
+> [!NOTE]
+> If you rename a company in [!INCLUDE[d365fin](includes/d365fin_md.md)], the names of the company, business, and team that we create automatically in [!INCLUDE[d365fin](includes/cds_long_md.md)] are not updated. Because only the company ID is used for integration, this does not affect synchronisation. If you want the names to match you must update the company, business unit, and team in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 The following image shows an example of this data setup in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
@@ -56,11 +59,17 @@ Synchronisation determines which team should own records. This is controlled by 
 > [!NOTE]
 > Records become read-only after a company is added and saved, so be sure to choose the correct company.
 
-### <a name="choosing-a-different-business-unit"></a>Choosing a different business unit
-You can change the business unit selection. If you choose another unit, for example, one that you created earlier in CDS it will keep its original name. That is, it will not be suffixed with the company ID. We will create a team that does use the naming convention.
+## <a name="choosing-a-different-business-unit"></a>Choosing a different business unit
+You can change the business unit selection if you are using the Teams ownership model. If you use the Person ownership model, the default business unit is always selected. 
+
+If you choose another business unit, for example, one that you created earlier in [!INCLUDE[d365fin](includes/cds_long_md.md)], it will keep its original name. That is, it will not be suffixed with the company ID. We will create a team that does use the naming convention.
+
+When changing a business unit, you can choose only the business units that are one level below the root business unit.
 
 ## <a name="person-ownership"></a>Person Ownership
-If you choose the Person ownership model you must specify each salesperson who will own new records. The business unit and team are created as described in the previous section.  
+If you choose the Person ownership model you must specify each salesperson who will own new records. The business unit and team are created as described in the [Team Ownership](admin-cds-company-concept.md#team-ownership) section.
+
+The default business unit is used when the Person ownership model is chosen, and you cannot choose another business unit. The team that is associated with the default business unit will own records for common entities, such as the Product entity, that are not related to specific salespersons.
 
 ## <a name="see-also"></a>See Also
 [About [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

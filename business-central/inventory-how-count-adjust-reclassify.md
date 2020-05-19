@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: d3d2770cd261215144edfe0992d0bb2b269971df
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 815956fe6eefa069a9930043d4a0c93a725b4fc1
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182235"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272069"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Count, Adjust, and Reclassify Inventory Using Journals
 At least once every fiscal year you must take a physical inventory, that is, count all the items on inventory, to see if the quantity registered in the database is the same as the actual physical quantity in the warehouses. When the actual physical quantity is known, it must be posted to the general ledger as a part of period-end valuation of inventory.
@@ -94,6 +94,9 @@ When you register the warehouse physical inventory, you are not posting to the i
 4. Choose the **Print** button.
 
 Employees can now proceed to count inventory and record any discrepancies on the printed report.
+
+> [!NOTE]
+> It can take several days before printed reports come back for final processing and posting. When you specify and post actual counted inventory, the system adjusts inventory to reflect the difference between the expected and the actual counted inventory. You must keep the originally calculated journal lines and not recalculate the expected inventory, because the expected inventory may change and lead to wrong inventory levels. If you need to issue multiple reports, such as for different locations or group of items, you must create and keep separate journal batches.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>To enter and post the actual counted inventory in basic warehouse configurations
 1. On each line on the **Phys. Inventory Journal** page where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. (Phys. Inventory)** field.

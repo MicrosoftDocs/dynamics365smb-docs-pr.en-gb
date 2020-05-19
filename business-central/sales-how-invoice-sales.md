@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9e485f2051cb045db6f106377521973a45546ad7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2ff842cc12ea820c9a2fe180cd4dd2eef3ecc18f
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193666"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324325"
 ---
 # <a name="invoice-sales"></a>Invoice Sales
 You create a sales invoice or sales order to record your agreement with a customer to sell certain products on certain delivery and payment terms.  
@@ -109,6 +109,7 @@ You can even create directly-paid invoices for non-registered customers by first
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
+[Print the Picking List](sales-how-print-picking-list.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Bulk Invoicing from Microsoft Bookings in Business Central ](finance-bookings.md)  

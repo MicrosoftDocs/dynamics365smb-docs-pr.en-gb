@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c19f527f4d9c06aa28212e7519fee67c6dfd042b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3897602d405f13b5de4a1bc401cc409cb5ef58ec
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192234"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271901"
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Setup Best Practices: Global Planning Setup
 The **Planning** FastTab on the **Manufacturing Setup** page contains several fields that define global rules for supply planning.  
@@ -28,7 +28,7 @@ The **Planning** FastTab on the **Manufacturing Setup** page contains several fi
 |Components at Location|If items are not defined as SKUs, select the location code of your main warehouse.|This also applies if you only use the requisition worksheet.|  
 |Blank Overflow Level|Select **Allow Default Calculation** if you are migrating from Microsoft Dynamics NAV 5.0 or earlier.|Use only if you want to allow all or some of your items to overflow the reorder point.|  
 |Default Dampener Period|Set between 1D and 5D.<br /><br /> If new to planning in [!INCLUDE[d365fin](includes/d365fin_md.md)], then set a longer period.|When users are more familiar with the different reasons for action messages, then shorten the dampener period to allow more change suggestions.|  
-|Default Dampener Quantity|Set between 5 and 20 percent of the item’s lot size.||  
+|Default Dampener Quantity %|Set between 5 and 20 percent of the item’s lot size.||  
 
 ## <a name="see-also"></a>See Also  
  [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)   

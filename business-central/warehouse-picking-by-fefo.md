@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f3355fb6ff46e7fa59d5b76aec8e88e675de31f8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 466736905815efb0b013a66fd05854769da24be5
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195976"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324013"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Enable Picking Items by FEFO
 First-Expired-First-Out (FEFO) is a sorting method that ensures that the oldest items, those with the earliest expiration dates, are picked first.  
@@ -23,7 +23,7 @@ First-Expired-First-Out (FEFO) is a sorting method that ensures that the oldest 
  This functionality only works when the following criteria are met:  
 
 -   The item must have a serial/lot number.  
--   On the item’s item tracking code setup, the **SN Specific Tracking** field or the **Lot Specific Tracking** field must be selected.  
+-   On the item’s item tracking code setup, the **SN Warehouse Tracking** field or the **Lot Warehouse Tracking** field must be selected.  
 -   The item must be posted to inventory with an expiration date.  
 -   On the location card, the **Require Pick** check box must be selected.  
 -   On the location card, the **Pick According to FEFO** check box must be selected.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0bdc559f04064e2b4d49ef4ed7a8759c68be3579
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3b56b4009e08085bb232b050790aa03acf2aa4cf
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194050"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324277"
 ---
 # <a name="register-new-customers"></a>Register New Customers
 Customers are the source of your income. You must register each customer you sell to as a customer card. Customer cards hold the information that is required to sell products to the customer. For more information, see [Invoice Sales](sales-how-invoice-sales.md) and [Register New Items](inventory-how-register-new-items.md).  
@@ -43,6 +43,9 @@ Before you can register new customers, you must set up various sales codes that 
 On the **Sales Prices** FastTab, you can view special prices or discounts that you grant for the customer if certain criteria are met, such as item, minimum order quantity, or ending date. Each row represents a special price or line discount. Each column represents a criterion that must apply to warrant the special price that you enter in the **Unit Price** field, or the line discount that you enter in the **Line Discount %** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 
 The customer is now registered, and the customer card is ready to be used on sales documents.
+
+### <a name="deleting-customer-cards"></a>Deleting Customer Cards
+If you have posted a transaction for a customer, you cannot delete the card because the ledger entries may be needed for auditing. To delete customer cards with ledger entries, contact to Microsoft partner to do so through code.
 
 If you want to use this customer card as a template when you create new customer cards, you can save it as a template. For more information, see the following section.
 

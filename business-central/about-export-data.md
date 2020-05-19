@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 04/01/2020
+ms.date: 05/04/2020
 ms.author: edupont
-ms.openlocfilehash: 6e7968f7e37e2bf1e1495331cf863aef34e7e7e4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eb11098292f9d83fcd0a4b23bde9c1813f4c6c8e
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188979"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333891"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exporting Your Business Data to Excel
 If you want to work with your data from [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, you can open all lists in Excel and work with it there. Similarly, if you want to cancel your subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export your data to Excel so that you can take it with you.
@@ -64,7 +64,14 @@ We recommend that you also consider exporting data from the following pages:
 * Salespeople  
 
 > [!NOTE]  
->   If you have set up more than one company in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must export the relevant data from each company.
+> If you have set up more than one company in [!INCLUDE[prodshort](includes/prodshort.md)], you must export the relevant data from each company.
+
+> [!NOTE]
+> You must have at least one of the following permissions to open or edit data in Excel:
+>    - Permission set *D365 Excel Export Action*  
+>    - System permission 6110 *Allow Action Export To Excel*.  
+
+For more information, see [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

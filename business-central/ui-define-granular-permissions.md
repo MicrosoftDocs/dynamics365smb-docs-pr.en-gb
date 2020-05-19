@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d6fe5cff52d3ed8c2404e12b3e37703c8e8db8bb
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194482"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324037"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Assign Permissions to Users and Groups
 The [!INCLUDE[d365fin](includes/d365fin_md.md)] security system allows you to control which objects a user can access within each database or environment. You can specify for each user whether they are able to read, modify, or enter data in the selected database objects. For detailed information, see [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in the Developer and ITPro help for [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -106,6 +106,26 @@ You can also use a copy function to quickly carry all the permissions of another
 
 The new permission set, containing all the permissions of the copied permission set, is added as a new line on the **Permission Sets** page. Now you can modify permission in the new permission set. Note that the lines are sorted alphabetically within each type.
 
+### <a name="to-export-and-import-a-permission-set"></a>To export and import a permission set
+To quickly set up permissions, you can import permission sets that you have exported from another [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant.
+
+In multitenant environments, a permission set will be imported into a specific tenant, i.e. the scope of the import is "Tenant".
+
+1. In tenant 1, on the **Permission Sets** page, select the line or lines for the permission sets to export, and then choose the **Export Permission Sets** action.
+
+    An xml file is created in the download folder on your machine. By default it is named "Export Permission Sets.xml"
+
+2. In tenant 2, on the **Permission Sets** page, select the **Import Permission Sets** action.
+3. On the **Import Permission Sets** dialogue page, consider if you want to merge existing permission sets with any new permission sets in the xml file.
+
+    If you select the **Update existing permissions** check box, existing permission sets with the same name as those that exist in the xml file will be merged with the imported permission sets.
+
+    If you do not select the **Update existing permissions** check box, permission sets with the same name as those that exist in the xml file will be skipped during import. In that case, you will be notified about permission sets that are skipped.
+
+4. From the **Import** dialogue page, find and select the xml file to be imported, and then choose the **Open** action.
+
+The permission sets are imported.
+
 ## <a name="to-create-or-modify-permissions-manually"></a>To create or modify permissions manually
 This procedure explains how to add or edit permissions manually. You can also have a permissions generated automatically from your actions in the UI. For more information, see [To create or modify permissions by recording your actions](ui-define-granular-permissions.md#to-create-or-modify-permissions-by-recording-your-actions).
 
@@ -187,6 +207,9 @@ The following procedure explains how to assign permission sets to a user group o
 2. On the **Users** page, select the relevant user, and then choose the **Permission Set by User Group** action.
 3. On the **Permission Set by User Group** page, select the **[user group name]** check box on a line for the relevant permission set to assign the set to the user group.
 4. Select the **All User Groups** check box to assign the permission set to all user groups.
+
+## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>To remove obsolete permissions from all permission sets
+1. On the **Permission Sets** page, choose the **Remove Obsolete Permissions** action.
 
 ## <a name="to-set-up-user-time-constraints"></a>To set up user time constraints
 Administrators can define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on. Administrators can also assign responsibility centres to users. For more information, see [Work with Responsibility Centres](inventory-responsibility-centers.md).

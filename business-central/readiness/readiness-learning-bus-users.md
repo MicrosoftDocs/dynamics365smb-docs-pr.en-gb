@@ -2,15 +2,15 @@
 title: Business users learning catalogue
 description: Find all the available learning for Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: c169bde62c9ff2bf32160801d258d034d0187371
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190858"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271949"
 ---
 # <a name="business-users-learning-catalog"></a>Business Users Learning Catalogue
 
@@ -33,7 +33,7 @@ The following catalogue is organised from core knowledge to specific domains, an
 | [Use cost accounting in Microsoft Dynamics 365 Business Central](/learn/paths/use-cost-accounting-dynamics-365-business-central/)                                     | Do you need to use cost accounting in your company? This learning path can help get you started with cost accounting in Business Central. It explains cost accounting setup, how to create master data for cost accounting, how to transfer transactions, and allocate costs to a group of accounts.   | Free, self-paced online learning path | 3 hours 16 minutes |
 | [Use journals in Microsoft Dynamics 365 Business Central](/learn/paths/use-journals-dynamics-365-business-central/)                                                   | Do you need to create and post journal entries in Business Central? Then this path is for you. Setting up general journal templates, creating journal transactions including recurring transactions, and posting transactions are all discussed in the modules of this learning path.                  | Free, self-paced online learning path | 2 hours 1 minute   |
 | [Reconcile bank accounts in Microsoft Dynamics 365 Business Central](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)                             | Do you want to find out how to reconcile bank accounts in Business Central? The bank reconciliation feature and reconciliation journals are discussed in this learning path.                                                                                                                           | Free, self-paced online learning path | 1 hour 3 minutes   |
-| [Use multiple currencies in Microsoft Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Do you work with multiple currencies? If you do, this path will help you understand the steps you need to complete to set up and use multiple currencies, process payments and invoices in different currencies, and adjust exchange rates when necessary.                                             | Free, self-paced online learning path | 3 hours 4 minutes  |
+| [Use multiple currencies in Microsoft Dynamics 365 Business Central](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Do you work with multiple currencies? If you do, this path will help you understand the steps you need to complete to set up and use multiple currencies, process payments and invoices in different currencies, and adjust exchange rates when necessary.                                             | Free, self-paced online learning path | 3 hours 4 minutes  |
 | [Create financial reports in Microsoft Dynamics 365 Business Central](/learn/paths/create-financial-reports-dynamics-365-business-central/)                           | Are you responsible for generating financial reports from Business Central? This learning path discusses creating budgets, and using account schedules, dimensions, and eXtensible business reporting language (XBRL) to generate the financial reports that are typically needed for most businesses. | Free, self-paced online learning path | 3 hours 44 minutes |
 | [Process financial periodic activities in Microsoft Dynamics 365 Business Central](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/) | Are you responsible for period and year-end closing processes? Complete this module, which discusses how to send reminders and finance charge memos to customers. It also discusses Intrastat processing and reporting, and closing a fiscal year.                                                     | Free, self-paced online learning path | 3 hours 3 minutes  |
 ## <a name="trade"></a>Trade<a name="trade"></a>

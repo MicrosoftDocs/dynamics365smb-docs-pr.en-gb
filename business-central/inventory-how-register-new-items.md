@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 061c0148601f3aaa871fbf4d613b51ceaf9cdfb1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 506576c6ecbc707dd44ce23294ce7eb8b6e89329
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182163"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324157"
 ---
 # <a name="register-new-items"></a>Register New Items
 Items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
@@ -52,11 +52,14 @@ The following procedure explains how to create an item card from scratch. You ca
 >
 > If you select **Average**, then the item's unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field to view, on the **Average Cost Calc. Overview** page, the history of transactions that the average cost is calculated from.
 
-You can view or edit special prices or discounts that you grant for the item if certain criteria are met, such as customer, minimum order quantity, or ending date. You do this by choosing the **Set Special Prices** or **Set Special Discounts** actions. Each row on, for example, the **Sales Prices** page represents a special price. Each column represents a criterion that must apply to grant a customer the special price that you enter in the **Unit Price** field on the **Sales Prices** page. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
+You can view or edit special prices or discounts that you grant, or that your vendor grants you, for the item if certain criteria are met, such as customer, minimum order quantity, or ending date. You do this by choosing the **Set Special Prices** or **Set Special Discounts** actions. Each row on, for example, the **Sales Prices** page represents a special price. Each column represents a criterion that must apply to grant a customer the special price that you enter in the **Unit Price** field on the **Sales Prices** page. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md) or [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
 The item is now registered, and the item card is ready to be used on purchase and sales documents.
 
 If you want to use this item card as a template when you create new item cards, you can save it as a template. For more information, see the following section.
+
+### <a name="deleting-item-cards"></a>Deleting Item Cards
+If you have posted a transaction for an item, you cannot delete the card because the ledger entries may be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.
 
 ## <a name="to-save-the-item-card-as-a-template"></a>To save the item card as a template
 1. On the **Item Card** page, choose the **Save as Template** action. The **Item Template** page opens showing the item card as a template.
@@ -80,8 +83,9 @@ If you purchase the same item from more than one vendor, you must enter informat
 The vendors will now appear on the **Item Vendor Catalogue** page, which you open from the item card, so that you can easily select an alternate vendor.
 
 ## <a name="see-also"></a>See Also
-[Create Number Series](ui-create-number-series.md)  
 [Inventory](inventory-manage-inventory.md)  
+[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Create Number Series](ui-create-number-series.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

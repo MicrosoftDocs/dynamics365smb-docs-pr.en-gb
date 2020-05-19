@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: d559eb54b727a60c2135a10ec23fc31b33241832
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a317d80b9aa3a82da939d39f515fb4e0d37e887a
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190642"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324349"
 ---
 # <a name="setting-up-manufacturing"></a>Setting Up Manufacturing
 To convert material into produced end items, production resources, such as bills of material, routings, machine operators, and machinery must be set up in the system.
@@ -24,11 +24,14 @@ Operators and machines are represented in the system as machine centres that may
 
 When you have set up manufacturing, you can plan and execute production orders. For more information, see [Planning](production-planning.md) and [Manufacturing](production-manage-manufacturing.md).  
 
+
+
  The following table describes a sequence of tasks, with links to the topics that describe them.   
 
 |**To**|**See**|  
 |------------|-------------|  
-|Configure the manufacturing features, such as defining shop floor work hours and selecting planning principles.|The **Manufacturing Setup** page.|  
+|Configure the manufacturing features, such as defining shop floor work hours and selecting planning parameters.|The **Manufacturing Setup** page.|
+|On the **Planning** tab on the **Manufacturing Setup** page, set global planning parameters that override parameters set on individual item cards.|[Design Details: Planning Parameters](design-details-planning-parameters.md)|
 |Define a standard working week in the manufacturing department in terms of starting and ending times of each work day and related work shift.|[Create Shop Calendars](production-how-to-create-work-center-calendars.md)|  
 |Organise fixed values and requirements of production resources as work centres or machine centres to govern their output of production performed.|[Set Up Work Centres and Machine Centres](production-how-to-set-up-work-and-machine-centers.md)|
 |Organise production operations in the required order and assign them to work or machine centres with the required work times.|[Create Routings](production-how-to-create-routings.md)|
