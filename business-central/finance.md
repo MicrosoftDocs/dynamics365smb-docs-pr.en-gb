@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8424d94b25ce56ceae65b04e41071c1a70f520ea
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182619"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410754"
 ---
 # <a name="finance"></a>Finance
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
@@ -45,6 +45,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Assign extra costs, such as freight and physical handling that you incur during trade, to the involved items so that the cost is reflected in inventory valuation. |[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md) |
 |Post employees' personal expenses for business-related activities and reimburse employees by making payment to their bank account.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
 | Recognise revenues and expenses in other periods than when the transactions were posted. |[Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)|
+| Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue. |[Recurring (subscription) Revenue](finance-recurring-invoicing.md)|
 |Learn how to use additional currencies and update currency exchange rates automatically. |[Update Currency Exchange Rates](finance-how-update-currencies.md)|
 | Import salary transactions from your payroll provider into the general ledger. |[Import Payroll Transactions](finance-how-import-payroll-transactions.md)|
 |Use functions to calculate value-added tax (VAT) on sales and purchase transactions so that you can report the amounts to the tax authorities.|[Work with VAT on Sales and Purchases](finance-work-with-vat.md)|

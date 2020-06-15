@@ -5,16 +5,17 @@ author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: get-started-article
 ms.search.keywords: setup wizard, accountant
-ms.date: 11/25/2019
+ms.date: 06/06/2020
 ms.author: edupont
-ms.openlocfilehash: fefc6c01d51793a23d7f69f9dff99e9a7329025c
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: a5eba80a54b16a601d5f4b004049fe3575b6db5d
+ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832005"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435166"
 ---
-# <a name="welcome-to-include-d365acc_longincludesd365acc_long_mdmd"></a>Welcome to [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="welcome-to-d365acc_long"></a>Welcome to [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 If you are an accountant with several clients, you can use [!INCLUDE [d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients. From there, you can access each client's data.  
@@ -22,12 +23,15 @@ If you are an accountant with several clients, you can use [!INCLUDE [d365acc](i
 > [!div class="mx-imgBorder"]
 > ![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
 
-You can get access to [!INCLUDE [d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). It's free of charge, and it's quick to get started and add your clients to the dashboard. For more information, see [Get Started with Accountant Hub](get-started.md).  
+You can get access to [!INCLUDE [d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/dynamics365/financial-insights-for-accountants). It's free of charge, and it's quick to get started and add your clients to the dashboard. For more information, see [Get Started with Accountant Hub](get-started.md).  
 
 In the current version of [!INCLUDE [d365acc](includes/d365acc_md.md)], you can add clients who use [!INCLUDE [d365fin](includes/d365fin_long_md.md)] to run their business. For more information, see [Add clients to your dashboard](add-client.md).  
 
-> [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.
+[!INCLUDE [d365fin_early_release.md](includes/d365fin_early_release.md.md)]
 
 ## <a name="see-also"></a>See Also
+
 [Get Started with Accountant Hub](get-started.md)  
+[Exporting Your Business Data to Excel (Business Central)](/dynamics365/business-central/about-export-data)  
+[Accountant Experiences in Dynamics 365 Business Central](/dynamics365/business-central/finance-accounting)  
+[Dynamics 365 release plans](/dynamics365/release-plans/)  

@@ -8,21 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 05/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5303974c1f7e9c4b2386980c949b67df7d60f457
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 66a32f8ecdc0ddd07794be9354edc75adf96df42
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189922"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402532"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Create Service Invoices or Credit Memos
-Ease in invoicing your service orders is a key feature of [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can send an invoice to your customers at any time, or create invoices periodically.  
-  
-To create an invoice directly, you can use the **Service Contract** page. You can also set up your system so that a service technician in the field can create an invoice for service that is not connected to a contract or order.  
+Ease in invoicing your service orders is a key feature of [!INCLUDE[prodshort](includes/prodshort.md)]. You can set up your [!INCLUDE[prodshort](includes/prodshort.md)] so that a service technician in the field can create an invoice for a service that is not connected to a contract or order. Alternatively, set up [!INCLUDE[prodshort](includes/prodshort.md)] so that you invoice service contracts periodically. The invoice period for each contract defines how often you invoice it.
 
-## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>To invoice a service contract from the Service Contract page   
+## <a name="to-invoice-several-service-contracts"></a>To invoice several service contracts
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Service Contract Invoices**, and then choose the related link.  
 2. Set the filters you want to apply.  
 3. In the **Posting Date** field, enter the date to use as the posting date on the service invoices.  
@@ -30,9 +29,17 @@ To create an invoice directly, you can use the **Service Contract** page. You ca
 5. In the **Action** field, choose **Create Invoices**.  
 6. Choose **OK** to create the service invoices.  
   
-  > [!NOTE]  
-  >  You cannot create service invoices for the service contract when the **Change Status** field value is set to **Open**.  
+You can also invoice a service contract directly from the **Service Contract** page, if the next invoice date on the contract is earlier than the working date.
+
+## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>To invoice a service contract from the Service Contract page   
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts**, and then choose the related link.  
+2. Choose the service contract to invoice, and open the contract card.  
+3. Choose **Create Service Invoice** action. 
+4. Choose **Yes** to create the service invoices.  
   
+  > [!NOTE]  
+  > You cannot create service invoices for the service contract when the **Change Status** field value is set to **Open**.  
+
 ## <a name="to-post-an-invoice-from-a-service-order"></a>To post an invoice from a service order  
 The following procedure describes how to define the part of service that you will charge the customer for.  
 
@@ -42,9 +49,9 @@ The following procedure describes how to define the part of service that you wil
 4. Find the required entries, and then specify the quantities for which you will charge the customer in the **Qty. to Invoice** field.  
   
    > [!NOTE]  
-   >  You can invoice the customer for the registered service either fully or in parts. If you choose to invoice the customer fully, the value in the **Qty. to Invoice** field must be equal to the value in the **Quantity** field. You can post a full invoice together with a full shipment, and you can post a full invoice for an already posted full shipment that has been neither invoiced nor consumed previously.  
-   >   
-   >  When you post a partial invoice, there are two ways of specifying the quantity to invoice. If you are going to post the service with **the Ship and Invoice** option, the value in the **Qty. to Invoice** field must be equal to that in the **Qty. to Ship** field. If you want to invoice an already posted shipment, the quantity to invoice must be no larger than the value in the **Quantity Shipped** field.  
+   > You can invoice the customer for the registered service either fully or in parts. If you choose to invoice the customer fully, the value in the **Qty. to Invoice** field must be equal to the value in the **Quantity** field. You can post a full invoice together with a full shipment, and you can post a full invoice for an already posted full shipment that has been neither invoiced nor consumed previously.  
+   >  
+   > When you post a partial invoice, there are two ways of specifying the quantity to invoice. If you are going to post the service with **the Ship and Invoice** option, the value in the **Qty. to Invoice** field must be equal to that in the **Qty. to Ship** field. If you want to invoice an already posted shipment, the quantity to invoice must be no larger than the value in the **Quantity Shipped** field.  
   
 5. Choose **Post**, and then either **Invoice** or **Ship and Invoice**. For more information about these options, see [Posting in Service Management](service-service-posting.md).  
   
@@ -70,7 +77,7 @@ Typically, after you post a service order with the **Invoice** or **Ship and Inv
 6. Fill in the **Document Date** field. The date you enter here will appear on the printed invoice and will be used to calculate the due date.  
 7. Fill in the service lines of the invoice. Fill in the **Type**, **No.**, and **Quantity** fields to register items, resources and costs that have been used in servicing. 
 
-## <a name="to-invoice-posted-shipment-lines"></a>To invoice posted shipment lines  
+## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>To create an invoice that combines posted shipment lines from one or more service orders 
 You might need to create a service invoice for the service that has already been shipped, either from one or several service orders, but not yet invoiced or consumed. You can fill in the invoice lines automatically with the selected posted shipment lines for a specific customer.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Invoices**, and then choose the related link.  
@@ -79,14 +86,6 @@ You might need to create a service invoice for the service that has already been
 4. Post the service invoice.  
   
  The posted service invoice and the corresponding ledger entries are created. Previously posted shipment documents are updated with the invoiced quantities and the relevant quantities on the service lines of the source orders.  
-
-## <a name="to-create-a-combined-invoice"></a>To create a combined invoice  
-You can invoice the customer for services provided on different service orders. Invoice lines are created for items, resource hours, or costs that have already been shipped from different service orders but not yet invoiced.  
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Invoices**, and then choose the related link.  
-2. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Choose the **Get Shipment Lines** action. The **Get Service Shipment Lines** page displays all lines that are shipped but not invoiced for the customer.  
-4. Choose the lines for the service to invoice, and then choose **OK** to add the service shipment lines to the invoice.  
 
 ## <a name="to-create-a-service-credit-memo"></a>To create a service credit memo  
 A service credit memo document is typically used when a customer returns an item, but it can also be used to give a customer some compensation or to correct an erroneous invoice.  
