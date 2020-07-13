@@ -5,16 +5,17 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34e72f5b80f4516dcd7e9061f263a8f08b06b0d7
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186507"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528520"
 ---
 # <a name="manage-profiles"></a>Manage Profiles
+
 All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a profile that reflects their business role, the department they work in, or another categorisation. Profiles allow administrators to define and manage centrally what different user types can see and do in the user interface so they can perform their business tasks efficiently.
 
 > [!NOTE]
@@ -130,9 +131,15 @@ You can delete personalisations that one or more users have made to specific pag
 
 2. Select the line for the page personalisation that you want to delete, and then choose the **Delete** action.
 
-The user will see the changes the next time they sign-in.    
+The user will see the changes the next time they sign-in.  
 
 You can also delete individual page customisations for a profile. For more information, see [To delete customisation for specific pages for a profile](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
+
+## <a name="managing-user-sessions"></a>Managing user sessions
+
+As the administrator of [!INCLUDE[prodshort](includes/prodshort.md)] online, you can manage user sessions in the administration centre. For more information, see [Managing Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) in the administration content.  
+
+For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. for more information, see [SQL Server technical documentation](/sql/sql-server/?view=sql-server-ver15).  
 
 ## <a name="see-also"></a>See Also  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  

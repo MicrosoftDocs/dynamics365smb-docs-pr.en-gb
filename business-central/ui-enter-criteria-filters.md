@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50fbfe2cfa10885ad126153b0602bf953a105d9f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 786b782bd1cba3d75ce42776fa5df84ae89e624e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194458"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529120"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sorting, Searching, and Filtering
 There are a few things that you can do that will help you scan, find, and limit records on a list or in a report or XMLport. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyse your data.
@@ -68,6 +68,9 @@ The following table provides some examples to explain how you can use the search
 
 > [!TIP]
 > You can press **F3** to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
+
+> [!NOTE]  
+> Search will not match values in images, BLOB fields, FlowFilters, FlowFields, and other fields that are not part of a table. 
 
 ## <a name="filtering"></a><a name="filtering"></a>Filtering
 Filtering provides a more advanced and versatile way of controlling which records display on a list or include in a report or XMLport. There are two major differences between searching and filtering, as described in the table below.

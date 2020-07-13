@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 04/01/2020
+ms.date: 06/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3bc9a348dba8b9265730dd2723b045a10809139b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36405d80a021e6d3675a20c0283421c49aabd23b
+ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191098"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499573"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Use Time Sheets for Jobs
+
 You use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. You must have permissions to be able to create time sheets.
 
 You can copy and use your job planning lines in a time sheet. In that way, you must only enter the information in one place and the line information is always correct.
@@ -27,16 +28,16 @@ After you have approved time sheet entries for a job, you can post them to the r
 Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-a-time-sheet"></a>To create a time sheet
+
 You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.
 2. On the **Time Sheet List** page, choose the **Create Time Sheets** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]  
->   The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.
-
-1. Choose the **OK** button.  
+    > [!NOTE]  
+    > The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.
+4. Choose the **OK** button.  
 
 You can view the time sheets that you have created on the **Time Sheet list** page.
 

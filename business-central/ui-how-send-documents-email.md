@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 05/13/2020
 ms.author: edupont
-ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402513"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527992"
 ---
 # <a name="send-documents-by-email"></a>Send Documents by Email
 
@@ -65,7 +65,7 @@ The following procedure describes how to send a posted sales invoice as an email
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documents marked as printed when they are sent
 
-Some documents in [!INCLUDE [prodshort](includes/prodshort.md)] have a field that specifies how many times that document has been printed. The field is also updated if you don't print the document but send it in email instead. The field even gets updated if you don't actually send the document, such as when your organisation has not set up email, or when the contact that you want to send the document to doesn't have an email address listed. In all scenarios, as far as [!INCLUDE [prodshort](includes/prodshort.md)] is concerned, the document is printed because a PDF file is generated.  
+Some documents in [!INCLUDE[prodshort](includes/prodshort.md)] have a field that specifies how many times that document has been printed. The field is also updated if you don't print the document but send it in email instead. The field even gets updated if you don't actually send the document, such as when your organisation has not set up email, or when the contact that you want to send the document to doesn't have an email address listed. In all scenarios, as far as [!INCLUDE[prodshort](includes/prodshort.md)] is concerned, the document is printed because a PDF file is generated.  
 
 The user might not see this generated file, but this is why the field is updated.
 

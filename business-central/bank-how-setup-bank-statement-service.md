@@ -1,8 +1,6 @@
 ---
-title: Set Up Yodlee Bank Feeds| Microsoft Docs'
+title: Set Up Yodlee Bank Feeds
 description: You can convert payment information to any data format that your bank requires and enable the export or import of bank files.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,23 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 04/01/2020
+ms.date: 06/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 39e31cad30c1e55c651abd818a52ea8b0a6941cf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6de088c47fda309d5c4d2832ffe4199cd5331bf8
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186243"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503399"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Set Up the Envestnet Yodlee Bank Feeds Service
+
 You can import electronic bank statements from your bank to quickly fill on the **Payment Reconciliation Journal** page so you can apply payments and reconcile the bank account. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!IMPORTANT]
-> Due to the new Payment Services Directive in Europe (PSD2), after September 14, 2019, you will no longer be able to automatically import bank statements from banks in the United Kingdom into [!INCLUDE[d365fin](includes/d365fin_md.md)]. We are looking into the possibility of offering this feature again in the future.
+> Due to the Payment Services Directive in Europe (PSD2), after September 14, 2019, you will no longer be able to automatically import bank statements from banks in the United Kingdom into [!INCLUDE[d365fin](includes/d365fin_md.md)]. We are looking into the possibility of offering this feature again in the future.
 
 > [!NOTE]
-> The Envestnet Yodlee Bank Feeds service is only supported in the online version of Business Central. To use this functionality on-premises, you must obtain a cobrand account from Envestnet Yodlee.<br /><br />
+> The Envestnet Yodlee Bank Feeds service is only supported in the online version of Business Central. To use this functionality on-premises, you must obtain a cobrand account from Envestnet, and you must add code to integrate with the Yodlee API.
+>
 > The Envestnet Yodlee Bank Feeds service is only supported in the United States and Canada.
 > Only banks residing in these countries are supported, even though banks from other countries may appear in the Envestnet Yodlee Bank Feeds bank selection window in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

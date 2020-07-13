@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ab3da8450586928a02d17ccce14c704ed6d7c8fe
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 481e8bbdb13863055c4dc532cb2c214228b8a8ba
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182403"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454303"
 ---
 # <a name="about-item-types"></a>About Item Types
 In the **Type** field on the **Item Card** page, you can select what the item is used for in your business and therefore how it is managed in the system. Three options exist:
@@ -40,11 +40,17 @@ The three item types support the following features respectively.
 |Non-Inventory|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|
 |Service|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|
 
-> [!NOTE]
-> Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalogue items. Catalogue items are not to be mistaken with regular items of type Non-Inventory. For more information, see [Work with Catalogue Items](inventory-how-work-nonstock-items.md).
+## <a name="costing-methods-for-types-of-items"></a>Costing Methods for Types of Items
+When you post inventory transactions, the quantity and value changes to the inventory are recorded in the item ledger entries and the value entries, respectively. 
 
-> [!NOTE]
-> Customers' items that you perform service on, such as a printer, are called service items. Service items have nothing to do with regular or catalogue items. However, service components can be regular items. For more information, see [Set Up Service Items and Service Item Components](service-how-setup-service-items.md).
+For inventory items, the cost is recorded in the **Cost Amount (Actual)** field on the **Value Entries** page, and when it is reconciled to the general ledger the cost will be shown in the **Cost Posted to G/L** field. For more information, see [Design Details: Inventory Costing](design-details-inventory-costing.md).
+
+For non-inventory and service items the cost is recorded in the **Cost Amount (Non-Invtbl.)** field on the **Value Entries** page. For non-inventory and service items the cost is specified on the sales, assembly, and production documents and journals. The default cost can be specified in the **Unit Cost** field on the **Item Card** and **Stockkeeping Unit** pages. Costs for these types of items are not reconciled to the general ledger. 
+
+## <a name="catalog-and-service-items"></a>Catalogue and Service Items
+Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalogue items. Catalogue items are not to be mistaken with regular items of type Non-Inventory. For more information, see [Work with Catalogue Items](inventory-how-work-nonstock-items.md).
+
+Customers' items that you perform service on, such as a printer, are called service items. Service items have nothing to do with regular or catalogue items. However, service components can be regular items. For more information, see [Set Up Service Items and Service Item Components](service-how-setup-service-items.md).
 
 ## <a name="see-also"></a>See Also
 [Register New Items](inventory-how-register-new-items.md)  

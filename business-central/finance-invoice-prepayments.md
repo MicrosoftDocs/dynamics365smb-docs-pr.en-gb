@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: d19a45caabbd4eecf4a0d37cb1c7d964683f4698
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7bb145fc93c6adadf13e41317b0ce1ee79bb32d3
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183116"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503474"
 ---
 # <a name="invoicing-prepayments"></a>Invoicing Prepayments
+
 Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You might require a deposit before you manufacture items to order, or you might require payment before you ship items to a customer. The prepayments functionality enables you to invoice and collect deposits required from customers or to remit deposits to vendors. Thus, you can ensure that all payments are posted against an invoice.  
 
  Prepayment requirements can be defined for a customer or vendor for all items or selected items. After you complete the required setup, you can generate prepayment invoices from sales and purchase orders for the calculated prepayment amount. You can change the amounts on the invoice as needed. For example, you can specify a total amount for the entire order. You can also send additional prepayment invoices if, for example, additional items are added to the order. You can increase quantities or add new lines to an order after issuing a prepayment, and then you can post another prepayment invoice. If you want to delete a line for which a prepayment has already been invoiced, you must issue a prepayment credit memo before you can delete the line.  
@@ -32,7 +33,8 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See Also  
+## <a name="see-also"></a>See Also
+
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

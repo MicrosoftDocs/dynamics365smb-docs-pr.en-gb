@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1a9aea8ef63874b63bfd608d04b16dd3da4c7c35
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 05a41839035c271b1f3e8c94d76702f1384d5025
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190018"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529045"
 ---
 # <a name="project-management"></a>Project Management
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can perform common project management tasks, such as configuring a job and scheduling a resource, as well as providing the information needed to manage budgets and monitor progress. You can track machine and employee hours on the project by using time sheets. As a project manager, you have a good overview, not only of individual jobs, but also of the allocation of employees, machinery and other resources being used in all projects.
@@ -36,7 +36,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## <a name="get-started-with-projects"></a>Get started with projects
 
-Project management is complicated enough in itself, and learning how to create jobs and managing work in process in a new tool can be another complication. To help you get started with project management in [!INCLUDE [prodshort](includes/prodshort.md)], you can see [a video about creating jobs](https://www.youtube.com/watch?v=VqaPWr7BWmw) on the [!INCLUDE [prodshort](includes/prodshort.md)] YouTube channel.  
+Project management is complicated enough in itself, and learning how to create jobs and managing work in process in a new tool can be another complication. To help you get started with project management in [!INCLUDE[prodshort](includes/prodshort.md)], you can see [a video about creating jobs](https://www.youtube.com/watch?v=VqaPWr7BWmw) on the [!INCLUDE[prodshort](includes/prodshort.md)] YouTube channel.  
 
 ## <a name="see-also"></a>See Also
 

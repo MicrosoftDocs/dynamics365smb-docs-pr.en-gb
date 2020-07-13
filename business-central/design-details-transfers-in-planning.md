@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5940319c254c97040c3f3b15fc540ed9cfecda5c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6016feb4a65fe869d2c29c107afc19dd7756b011
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184667"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503651"
 ---
 # <a name="design-details-transfers-in-planning"></a>Design Details: Transfers in Planning
 Transfer orders are also a source of supply when working at the SKU level. When using multiple locations (warehouses), the SKU replenishment system can be set to Transfer, implying that the location is replenished by transferring goods from another location. In a situation with more warehouses, companies might have a chain of transfers where supply to GREEN location is transferred from YELLOW, and supply to YELLOW is transferred from RED and so on. In the beginning of the chain, there is a replenishment system of Prod. Order or Purchase.  
@@ -94,7 +94,7 @@ Now the planner at PINK location chooses to reserve against the purchase.
 
 ![Changing the quantity in transfer planning 2](media/nav_app_supply_planning_7_transfers10.png "Changing the quantity in transfer planning 2")  
 
-This usually means that the planning system will ignore the purchase order and the transfer demand. As long as there is balance, there is no problem. But what happens when the customer at RED location partly regrets his order and changes it to 22?  
+This usually means that the planning system will ignore the purchase order and the transfer demand. As long as there is balance, there is no problem. But what happens when the customer at RED location partly regrets the order and changes it to 22?  
 
 ![Changing the quantity in transfer planning 3](media/nav_app_supply_planning_7_transfers11.png "Changing the quantity in transfer planning 3")  
 

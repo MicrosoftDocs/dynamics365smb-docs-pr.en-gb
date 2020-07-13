@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: a83a6aa09ecfd6bb6ae459096707d0fbb5ff234f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6fd4091a921c519c82e43bce868181bb77b66caf
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189826"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528920"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Walkthrough: Managing Projects with Jobs
 
-**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 This walkthrough introduces you to the project management features in jobs. Jobs are a way for you to schedule the usage of your company's resources and to keep track of the various costs associated with the resources on a specific project. Jobs involves the consumption of employee hours, machine hours, inventory items, and other types of usage that you may want to track as a job progresses.  
 

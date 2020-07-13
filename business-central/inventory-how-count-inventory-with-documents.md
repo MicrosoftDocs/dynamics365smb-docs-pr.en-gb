@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 944ce9e3950ea64fafada118b6f99f5d891242a5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8152299efea0ef07e1506d5897ff9cd27d21d21a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182211"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529070"
 ---
 # <a name="count-inventory-using-documents"></a>Count Inventory Using Documents
 You can take a physical inventory of your items by using physical inventory order and physical inventory recording documents. The **Physical Inventory Order** page is used to organise the complete inventory counting project, for example one per location. The **Physical Inventory Recording** page is used by to communicate and capture the actual counting of items. You can create multiple recordings for one order, for example to distribute groups of items to different employees.
@@ -40,7 +40,7 @@ To create the physical inventory order lines, you typically use the **Calculate 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
 2. Choose the **New** action.
-3. Fill in the required fields on the **General** FastTab. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fill in the required fields on the **General** FastTab. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Calculate Lines** action.
 5. Select options as necessary.
 6. Set filters, for example, to only include a subset of items to be counted with the first recording.

@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: e3fccf0fbbc0031c0b2bf4dc73059bece1c465f4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188931"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528870"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Intelligent Insights with [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
@@ -24,7 +24,7 @@ As a user of [!INCLUDE[prodshort](includes/prodshort.md)] online, you have full 
 
 If you are interested in [!INCLUDE[prodshort](includes/prodshort.md)], you can sign up for a free trial online, or you can choose to work with a partner to deploy [!INCLUDE[prodshort](includes/prodshort.md)] locally to your own choice of hardware. You can then decide to get intelligent insights by connecting to a tenant in the cloud. As a result, the data from your locally deployed [!INCLUDE[prodshort](includes/prodshort.md)] will be replicated to the cloud for intelligent cloud scenarios.  
 
-Connecting to the intelligent cloud from an on-premises solution requires your administrator to specify information about your database. The tools used to connect your on-premises deployment to [!INCLUDE [prodshort](includes/prodshort.md)] online are the same that are also used to migration from on-premises to online. For more information, see [Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the administration content for [!INCLUDE[prodshort](includes/prodshort.md)].  
+Connecting to the intelligent cloud from an on-premises solution requires your administrator to specify information about your database. The tools used to connect your on-premises deployment to [!INCLUDE[prodshort](includes/prodshort.md)] online are the same that are also used to migration from on-premises to online. For more information, see [Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the administration content for [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 ## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Viewing Intelligent Cloud Insights in [!INCLUDE[prodshort](includes/prodshort.md)] Online
 

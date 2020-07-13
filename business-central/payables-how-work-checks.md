@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 12de08f6163c141a2c2e8669a814616b2b5fc04b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190234"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503805"
 ---
 # <a name="make-check-payments"></a>Make Cheque Payments
+
 You can issue electronic and manual checks in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Both methods use the payment journal to issue checks to vendors. You can also void cheques and view cheque ledger entries.
 
 The following procedure shows how to pay a vendor with a computer cheque by applying the payment to the relevant vendor invoice, printing the cheque, and then posting the payment as paid. This results in positive vendor ledger entries, applied to negative bank ledger entries, and physical cheques for processing in the bank.
@@ -30,7 +31,8 @@ You can pay with two types of cheque. For both types, the **Bal. Account Type** 
 > [!NOTE]  
 > To make sure that your bank only clears validated cheques and amounts, you can send them a file that contains vendor, cheque, and payment information. For more information, see [Export a Positive Pay file](finance-how-positive-pay.md).
 
-Your printer must be correctly set up with the cheque forms, and you must define which cheque layout to use. For more information, see [Select a Cheque Layout](finance-how-define-check-layouts.md)
+> [!IMPORTANT]
+> Your printer must be correctly set up with the cheque forms, and you must define which cheque layout to use. For more information, see [Select a Cheque Layout](finance-how-define-check-layouts.md). Alternatively, you can send the cheque as a PDF file, for example.  
 
 You can print up to 10 invoices on a page for a cheque stub. If a cheque applies to more than 10 invoices, when you print the stub we void the cheque on the first page and print the word VOID on the cheque. We then print the remainder of the invoices and the total cheque amount on the second page.
 
@@ -43,7 +45,7 @@ The following describes how to pay a vendor by cheque. The steps are similar to 
 4. In the **Bank Payment Type** field, select **Computer Cheque**.
 5. Choose the **Print Cheque** action.
 6. On the **Cheque** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Choose the **Send to** button, select the **PDF Document** option, and then choose the **OK** button.
+7. If your printer is set up to print cheques, choose the **Print** button. Otherwise, choose the **Send to** button, select the **PDF Document** option, choose the **OK** button, and then print the PDF document.
 
     The physical cheques can now be brought to the bank for processing. Proceed to post the payment as applied to the vendor and thereby paid in the system.
 8. Choose the **Post** action.

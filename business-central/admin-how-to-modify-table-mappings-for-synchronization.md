@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0a6d6e08db723979fa938488bb0df6fb08a5c4d1
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: 0b814c18c328ea0647e38b6a837577b277ca4e63
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3271997"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527942"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mapping the Tables and Fields to Synchronise
 The basis of synchronising data in [!INCLUDE[d365fin](includes/d365fin_md.md)] with data in [!INCLUDE[d365fin](includes/cds_long_md.md)] is mapping the tables and fields that contain the data to each other. Mapping happens through integration tables. 
 
 ## <a name="mapping-integration-tables"></a>Mapping Integration Tables
-An integration table is a table in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database that represents an entity, such as an account, in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Integration tables include fields that correspond to the fields in the table for the [!INCLUDE[cds_long_md](includes/cds_long_md.md)] entity. For example, the Account integration table connects to the Accounts entity in [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. There must be a integration table mapping for each entity in [!INCLUDE [cds_short_md](includes/cds_short_md.md)] that you want to synchronise with data in [!INCLUDE[prodshort](includes/prodshort.md)].
+An integration table is a table in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database that represents an entity, such as an account, in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Integration tables include fields that correspond to the fields in the table for the [!INCLUDE[cds_long_md](includes/cds_long_md.md)] entity. For example, the Account integration table connects to the Accounts entity in [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. There must be a integration table mapping for each entity in [!INCLUDE[cds_short_md](includes/cds_short_md.md)] that you want to synchronise with data in [!INCLUDE[prodshort](includes/prodshort.md)].
 
 When you create the connection between the apps, [!INCLUDE[d365fin](includes/d365fin_md.md)] sets up some default table and field mappings. You can change the table mappings if you want. For more information, see [Standard Entity Mapping for Synchronisation](admin-synchronizing-business-central-and-sales.md#standard-entity-mapping-for-synchronization). If you have changed the default mappings and want to revert your changes, on the **[!INCLUDE[d365fin](includes/cds_long_md.md)] Connection Setup** page, choose **Use Default Synchronisation Setup**.
 

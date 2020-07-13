@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/05/2020
 ms.author: sgroespe
-ms.openlocfilehash: 593fd5544f544b793b14fe14e4faf69f13d21ed6
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: 62bd4575c94f97fc363a73ad2fbfce0846c9146a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339953"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528620"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modify Planning Suggestions in a Graphical View
 
-A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function. An alternative to doing this in the planning worksheet is to use a graphical view. However, this is currently not supported in [!INCLUDE [prodshort](includes/prodshort.md)].  
+A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function. An alternative to doing this in the planning worksheet is to use a graphical view. However, this is currently not supported in [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 

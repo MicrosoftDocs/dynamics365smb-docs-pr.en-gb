@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: microsoft partner
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0c0ef6e00c2d1564c2f19c98a07c3cc4771c1d8a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4567f62a7866f6d02103f8f80aea13b92415d0bd
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190066"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528695"
 ---
 # <a name="become-a-reseller-of-d365fin_long"></a>Become a Reseller of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Expand your business opportunity with [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
@@ -26,7 +26,7 @@ If you specialise in Cloud solutions, Office 365, SharePoint, industry solutions
 
 ## <a name="get-started"></a>Get started
 
-The "Ready to Go" programme is one way to get started as a [!INCLUDE [prodshort](includes/prodshort.md)] reseller. You can also contact the Microsoft office in your country or region. For more information about the resources available to you through the "Ready to Go" programme", see [aka.ms/readytogo](https://aka.ms/readytogo), [Resell Different Solutions](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller), and [Get started as a reseller](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
+The "Ready to Go" programme is one way to get started as a [!INCLUDE[prodshort](includes/prodshort.md)] reseller. You can also contact the Microsoft office in your country or region. For more information about the resources available to you through the "Ready to Go" programme", see [aka.ms/readytogo](https://aka.ms/readytogo), [Resell Different Solutions](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller), and [Get started as a reseller](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
 
 ## <a name="see-also"></a>See Also
 

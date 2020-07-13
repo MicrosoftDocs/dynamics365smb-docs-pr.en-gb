@@ -1,7 +1,7 @@
 ---
 title: Understanding Assemble to Order and Assemble to Stock | Microsoft Docs
 description: Assembly items can be supplied either by assembling them when they are ordered or by assembling them to be kept in inventory until they are need on a sales order.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1f34ee61fa532aa7600baa8883d182cbad545493
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: bholtorf
+ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186819"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496807"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Understanding Assemble to Order and Assemble to Stock
 Assembly items can be supplied in the following two processes:  
@@ -66,11 +66,11 @@ When you enter an assemble-to-order item on a sales line, an assembly order is a
 
  However, in combination scenarios, the full value in the **Qty. to Ship** is not copied to the **Quantity to Assemble** field on the assembly order header. Instead, a default value is inserted in the **Quantity to Assemble** field that is calculated from the **Qty. to Ship** field according to a predefined rule that ensures shipment of assemble-to-order quantities first.  
 
- If you want to deviate from this default, for example because you only want to assemble more or less of the quantity in the **Qty. to Ship** field, then you can modify the **Quantity to Assemble** field, but only within predefined rules, as illustrated below  
+ If you want to deviate from this default, for example because you only want to assemble more or less of the quantity in the **Qty. to Ship** field, then you can modify the **Quantity to Assemble** field, but only within predefined rules, as illustrated below.  
 
- An example why you would want to modify the quantity to assemble is that you want to partially post shipment of inventory quantities before the assembly output can be shipped.  
+ An example of why you would want to modify the quantity to assemble is that you want to partially post shipment of inventory quantities before the assembly output can be shipped.  
 
- The following explains the rules that define the minimum and maximum values that you can enter manually in the **Quantity to Assemble** to deviate from the default value in a combination scenario. The table shows a combination scenario where the **Qty. to Ship** field on the linked sales order line is changed from 7 to 4, and the **Quantity to Assemble** is therefore defaulted to 4.  
+ The following table explains the rules that define the minimum and maximum values that you can enter in the **Quantity to Assemble** field to deviate from the default value in a combination scenario. The table shows a combination scenario where the **Qty. to Ship** field on the linked sales order line is changed from 7 to 4, and the **Quantity to Assemble** is therefore defaulted to 4.  
 
 ||Sales Order Line|Assembly Order Hheader|  
 |-|----------------------|---------------------------|  

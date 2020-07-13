@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: 666102d7f75028035b4b4087c2c8de0c693268c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0f8cc20f9f5f9afcd3db5fbeb3dc6d12ad8d6cad
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189352"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496731"
 ---
 # <a name="working-with-d365fin"></a>Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]
 When performing business tasks, you interact with data in different ways, such as creating records and entering data, sorting and filtering data, writing notes, and outputting data to other applications.
@@ -26,7 +26,7 @@ For example, you can adjust the size and position of any page, expand the width 
 > [!TIP]
 > For a print-friendly overview of the most used functions, choose the following image and download the PDF file.
 >
-> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
+> [ ![Icon for the PDF file](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icon that opens a PDF")
 
 ## <a name="links-to-learn-more"></a>Links to Learn More
 

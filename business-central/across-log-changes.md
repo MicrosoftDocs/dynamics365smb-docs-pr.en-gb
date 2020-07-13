@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6db170f8cf0b214a4ec85fc835eb8b98f071f203
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 201716238ddd42ac19cd769a8635d726e27e1509
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187726"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528820"
 ---
 # <a name="auditing-changes-in-business-central"></a>Auditing Changes in Business Central
 
@@ -40,7 +40,7 @@ After you have set up the change log, activated it, and made a change to data, y
 
 ## <a name="working-with-activity-logs"></a>Working with Activity Logs
 
-From some pages in [!INCLUDE [prodshort](includes/prodshort.md)], you can view an activity log that shows the status and any errors from files that you export from or import into [!INCLUDE [prodshort](includes/prodshort.md)].  
+From some pages in [!INCLUDE[prodshort](includes/prodshort.md)], you can view an activity log that shows the status and any errors from files that you export from or import into [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 The information is displayed in the **Activity Log** page, according to the context that it is opened from. You can open the window from the **Document Exchange Service Setup**, **Incoming Document**, **Posted Sales Invoice**, and **Posted Sales Credit Memo** pages, for example. You can empty the list of log entries, or just clear the list of entries older than 7 days.  
 

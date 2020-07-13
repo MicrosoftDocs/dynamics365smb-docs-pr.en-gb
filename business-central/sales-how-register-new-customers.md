@@ -1,8 +1,6 @@
 ---
 title: Create a Customer Card to Register New Customers | Microsoft Docs
 description: Describes how to create a customer card to register information about each new customer or client that you sell to.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,26 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/27/2020
+ms.date: 06/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3b56b4009e08085bb232b050790aa03acf2aa4cf
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: cc48c7c55edac8af9333dd04661a828c528621b8
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324277"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503980"
 ---
 # <a name="register-new-customers"></a>Register New Customers
+
 Customers are the source of your income. You must register each customer you sell to as a customer card. Customer cards hold the information that is required to sell products to the customer. For more information, see [Invoice Sales](sales-how-invoice-sales.md) and [Register New Items](inventory-how-register-new-items.md).  
 
 Before you can register new customers, you must set up various sales codes that you can select from when you fill in customer cards. For more information, see [Setting Up Sales](sales-setup-sales.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
+## <a name="adding-new-customers"></a>Adding new customers
+
+To register a new customer, you must fill in a customer card. You can establish templates for different customer profiles, or you can add customers without templates.  
+
 > [!NOTE]  
 > If customer templates exist for different customer types, then a page appears when you create a new customer card from where you can select an appropriate template. If only one customer template exists, then new customer cards always use that template.  
 
-## <a name="to-create-a-new-customer-card"></a>To create a new customer card
+### <a name="to-create-a-new-customer-card"></a>To create a new customer card
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2. On the **Customers** page, choose the **New** action.
 
@@ -44,12 +48,10 @@ On the **Sales Prices** FastTab, you can view special prices or discounts that y
 
 The customer is now registered, and the customer card is ready to be used on sales documents.
 
-### <a name="deleting-customer-cards"></a>Deleting Customer Cards
-If you have posted a transaction for a customer, you cannot delete the card because the ledger entries may be needed for auditing. To delete customer cards with ledger entries, contact to Microsoft partner to do so through code.
+If you want to use this customer card as a template when you create new customer cards, you can save it as a template. For more information, see the following section.  
 
-If you want to use this customer card as a template when you create new customer cards, you can save it as a template. For more information, see the following section.
+### <a name="to-save-the-customer-card-as-a-template"></a>To save the customer card as a template
 
-## <a name="to-save-the-customer-card-as-a-template"></a>To save the customer card as a template
 1. On the **Customer Card** page, choose the **Save as Template** action. The **Customer Template** page opens showing the customer card as a template.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To reuse dimensions in templates, choose the **Dimensions** action. The **Dimension Templates** page opens showing any dimension codes that are set up for the customer.
@@ -58,10 +60,15 @@ If you want to use this customer card as a template when you create new customer
 
 The customer template is added to the list of customer templates, so that you can use it to create new customer cards.
 
+## <a name="deleting-customer-cards"></a>Deleting customer cards
+
+If you have posted a transaction for a customer, you cannot delete the card because the ledger entries may be needed for auditing. To delete customer cards with ledger entries, contact to Microsoft partner to do so through code.  
+
 ## <a name="see-also"></a>See Also
+
 [Defining Payment Methods](finance-payment-methods.md)  
 [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
 [Create Number Series](ui-create-number-series.md)  
-[Sales](sales-manage-sales.md)    
-[Setting Up Sales](sales-setup-sales.md)    
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Sales](sales-manage-sales.md)  
+[Setting Up Sales](sales-setup-sales.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

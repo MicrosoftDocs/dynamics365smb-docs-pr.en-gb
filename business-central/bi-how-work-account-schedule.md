@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1f150535e8d3441bddd0144b14592592f405b201
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 458576ac91955d4f98036dbc9f1253f199f9ac00
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186027"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528945"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Prepare Financial Reporting with Account Schedules and Account Categories
 Use account schedules to get insight into the financial data stored in your chart of accounts. Account schedules analyse figures in G/L accounts, and compare general ledger entries with general ledger budget entries. The results display in charts on your Role Centre, such as the Cash Flow chart, and in reports, such as the Income Statement and the Balance Sheet reports.
@@ -71,7 +71,7 @@ You use column layouts to define what columns should be included in the resultin
 > A printed/previewed/saved version of an account schedule can display a maximum of five columns. If the account schedule is only meant for analysis on the **Acc. Schedule Overview** page, you can create as many columns as you want.
 
 1. On the **Account Schedules** page, select the relevant account schedule, and then choose the **Edit Column Layout Setup** action.
-2. On the **Column Layouts** page, create a row for each column by which financial data is shown in the financial report. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. On the **Column Layouts** page, create a row for each column by which financial data is shown in the financial report. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choose the **OK** button.
 4. Open the **Acc. Schedule Overview** page from time to time to verify that the new column layout works as intended.
 

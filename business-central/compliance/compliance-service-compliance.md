@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 769764f94ba887552b6b23c62c0ddad3c876fda9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c64d93769cd2c824cdad54df8ddb3de5e9004f81
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185916"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528342"
 ---
 # <a name="service-compliance"></a>Service Compliance
 This content contains information about service compliance in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -30,7 +30,7 @@ If you are interested in the complete list of compliance offerings from Microsof
 
 ## <a name="service-terms"></a>Service Terms
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] online is governed under the [Modern Lifecycle Policy](https://support.microsoft.com/help/30881/modern-lifecycle-policy). The service level agreement terms are described in the document that you can download from the **Service Level Agreements for Microsoft Online Services** section on the [Licensing terms](https://www.microsoft.com/licensing/product-licensing/products) page.  
+[!INCLUDE[prodshort](../includes/prodshort.md)] online is governed under the [Modern Lifecycle Policy](https://support.microsoft.com/help/30881/modern-lifecycle-policy). The service level agreement terms are described in the document that you can download from the **Service Level Agreements for Microsoft Online Services** section on the [Licensing terms](https://www.microsoft.com/licensing/product-licensing/products) page.  
 
 Furthermore, you can monitor your tenant's health and specify upgrade windows in the [Tenant Administration Centre](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: e6d277656ab5b159aaca93e03a333ba6232c3bcc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 358c7ed4068ca90637082f61e24bcff25cef61a3
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191189"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527967"
 ---
 # <a name="set-up-jobs"></a>Set Up Jobs
 
-As a project manager, you can set up jobs that define each of the projects that you manage in [!INCLUDE [prodshort](includes/prodshort.md)]. On the **Jobs Setup** page, you must specify how you want to use certain job features.
+As a project manager, you can set up jobs that define each of the projects that you manage in [!INCLUDE[prodshort](includes/prodshort.md)]. On the **Jobs Setup** page, you must specify how you want to use certain job features.
 
 For each job, you then specify individual job cards with information about prices for job items, job resources, and job G/L accounts, and you must set up job posting groups.
 

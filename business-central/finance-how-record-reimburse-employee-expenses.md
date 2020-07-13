@@ -1,8 +1,6 @@
 ---
 title: Record and Reimburse Employees' Business-Related Expenses | Microsoft Docs
 description: Post employees' expenses with the general journal to the employee's account and later post a payment to the employee's bank account to reimburse for the business-related expense.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,22 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f943006997e4735d4ec224957442f23e2af1324
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9d2ba275d747ced6f4c3adbd642f45d5ed33d8d1
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184083"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503526"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Record and Reimburse Employees' Expenses
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supports transactions for employee in a similar way as for vendors. Accordingly, employee posting groups exist to make sure that employee ledger entries are posted to the relevant accounts in the general ledger.
 
 > [!NOTE]  
 > Employee transactions can be posted in the local currency only. Reimbursement payments to employees do not support discounts and payment tolerances.
 
-If employees spend their own money during business activities, you can post the expense to the employee's account. Then you can reimburse the employee by making a payment to the employee's bank account, similarly to how you pay vendors.
+If employees spend their own money during business activities, you can post the expense to the employee's account. Then you can reimburse the employee by making a payment to the employee's bank account, similarly to how you pay vendors.  
+
+> [!TIP]
+> This article explains how to record the expense in the books and how to reimburse the employee. Your organisation may have a portal or app where employees can submit their expense reports.
 
 ## <a name="to-record-an-employees-expense"></a>To record an employee's expense
 You post employees' expenses on the **General Journal** page.

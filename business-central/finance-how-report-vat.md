@@ -8,24 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7365886f09e1e3d1b67dcbea82594f3d3599f25a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f12d12bf4fb6a12a0abe52101f30a16a182bd1b2
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183891"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528217"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Report VAT to Tax Authorities
-This topic describes the reports in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can use to submit information about value-added tax (VAT) amounts for sales and purchases to tax authorities in your region.
+This topic describes the reports in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can use to submit information about value-added tax (VAT) amounts for sales and purchases to tax authorities in your region. 
 
 You can use the following reports :
 
 * The **EC Sales List** European Community (EC) Sales List report lists the value added tax (VAT) amounts that you have collected for sales to VAT-registered customers in the European Union (EU) countries.  
-* The **VAT Return** report includes VAT for sales and purchases to customers in all countries that use VAT.
+* The **VAT Return** report includes VAT for sales and purchases to customers and from vendors in all countries that use VAT.
 
 If you want to view a complete history of VAT entries, every posting that involves VAT creates an entry on the **VAT Entries** page. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view VAT entries, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Entries**, and then choose the related link.
+
+> [!NOTE]
+> Each [!INCLUDE[d365fin](includes/d365fin_md.md)] environment is meant to handle regulatory reporting in one single country. For example, the Dutch version of [!INCLUDE[d365fin](includes/d365fin_md.md)] handles VAT reporting in The Netherlands but not in other countries. Similarly, the United States version of [!INCLUDE[d365fin](includes/d365fin_md.md)] handles 1099 reporting in the United States and does not support claiming VAT reporting in other countries, unless brought by an extension delivered by our partner ecosystem or a customer-specific code modification.
 
 ## <a name="about-the-ec-sales-list-report"></a>About the EC Sales List report
 In the UK, all companies that sell goods and services to VAT-registered customers, including customers in other European Union (EU) countries, must submit an electronic version of the European Community (EC) Sales List report in XML format through Her Majesty's Revenue and Customs (HMRC) website. The EC Sales List report works only for countries in the EU.
@@ -59,7 +62,7 @@ To report VAT to a tax authority electronically, you need to connect [!INCLUDE[d
 2. Fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    >   It is a good idea to test your connection. To do this, choose the **Test Mode** check box, then prepare and submit your VAT report as described in the _To prepare and submit a VAT report_ section. While in Test Mode, the service tests whether the tax authority can receive your report, and the status of the report will indicate whether the test submission was successful. It is important to remember that this is not an actual submission. To submit the report for real, you must clear the **Test Mode** check box, and then repeat the submission process.
+    > It is a good idea to test your connection. To do this, choose the **Test Mode** check box, then prepare and submit your VAT report as described in the _To prepare and submit a VAT report_ section. While in Test Mode, the service tests whether the tax authority can receive your report, and the status of the report will indicate whether the test submission was successful. It is important to remember that this is not an actual submission. To submit the report for real, you must clear the **Test Mode** check box, and then repeat the submission process.
 
 ## <a name="to-set-up-vat-reports-in-d365fin"></a>To set up VAT reports in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then choose the related link.  
@@ -76,7 +79,7 @@ To report VAT to a tax authority electronically, you need to connect [!INCLUDE[d
 4. To validate and prepare the report for submission, choose the **Release** action.  
 
     > [!NOTE]  
-    >   [!INCLUDE[d365fin](includes/d365fin_md.md)] validates whether the report is set up correctly. If the validation fails, the errors display under **Errors and Warnings** so that you know what to fix. Typically, if the message is about a missing setting in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can click the message to open the page that contains the information to correct.  
+    > [!INCLUDE[d365fin](includes/d365fin_md.md)] validates whether the report is set up correctly. If the validation fails, the errors display under **Errors and Warnings** so that you know what to fix. Typically, if the message is about a missing setting in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can click the message to open the page that contains the information to correct.  
 5. To submit the report, choose the **Submit** action.  
 
 After you submit the report, [!INCLUDE[d365fin](includes/d365fin_md.md)] monitors the service and keeps a record of your communications. The **Status** field indicates where the report is in the process. For example, when the authorities process your report, the status of the report changes to **Succeeded**. If the tax authority found mistakes in the report you submitted, the status of the report will be **Failed**. You can view the errors under **Errors and Warnings**, correct them, and then submit the report again. To view a list of all your EC Sales List reports, go to the **EC Sales List Reports** page.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 01629cb7e881de1c679d8c6925eaacc3a5639597
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 0763119e323a8bae6d2b7ce3db0780284befa292
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196478"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484116"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Synchronising Data in Business Central with Common Data Service
 When you integrate [!INCLUDE[d365fin](includes/cds_long_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can decide whether to synchronise data in selected fields of [!INCLUDE[d365fin](includes/d365fin_md.md)] records (such as customers, contacts, and sales people) with equivalent records in [!INCLUDE[d365fin](includes/cds_long_md.md)] (such as accounts, contacts, and users). Depending on the type of record, you can synchronise data from [!INCLUDE[d365fin](includes/cds_long_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)], or vice versa. For more information, see [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -44,11 +44,11 @@ The following table lists the standard mapping between entities in [!INCLUDE[d36
 
 |[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)]|Synchronisation Direction|Default Filter|
 |-------------------------------------------|-----|-------------------------|--------------|
-|Salesperson/Purchaser|User|[!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales contact filter: **Status** is **No**, **User Licensed** is **Yes**, Integration user mode is **No**|
-|Customer|Account|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales account filter: **Relationship Type** is **Customer** and **Status** is **Active**.|
-|Vendor|Account|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales account filter: **Relationship Type** is **Vendor** and **Status** is **Active**.|
-|Contact|Contact|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] contact filter: **Type** is **Person** and the contact is assigned to a company. Sales contact filter: The contact is assigned to a company and the parent customer type is **Account**|
-|Currency|Transaction Currency|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+|Salesperson/Purchaser|User|[!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)] contact filter: **Status** is **No**, **User Licensed** is **Yes**, Integration user mode is **No**|
+|Customer|Account|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)] account filter: **Relationship Type** is **Customer** and **Status** is **Active**. [!INCLUDE[d365fin](includes/d365fin_md.md)] filter: **Blocked** is blank (Customer is not blocked).|
+|Vendor|Account|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)] account filter: **Relationship Type** is **Vendor** and **Status** is **Active**. [!INCLUDE[d365fin](includes/d365fin_md.md)] filter: **Blocked** is blank (Vendor is not blocked).|
+|Contact|Contact|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] contact filter: **Type** is **Person** and the contact is assigned to a company. [!INCLUDE[d365fin](includes/cds_long_md.md)] contact filter: The contact is assigned to a company and the parent customer type is **Account**|
+|Currency|Transaction Currency|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)]| |
 
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Tip for Admins: Viewing Entity Mappings

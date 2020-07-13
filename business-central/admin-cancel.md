@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: f48f5785ffc62b124b26764da5e86838c1e01dfa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187443"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528419"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>Unsubscribe or Remove [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -31,7 +31,7 @@ If you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)] using a non-Off
 
 ## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Unsubscribing by removing [!INCLUDE[d365fin](includes/d365fin_md.md)] from your Office 365 experience
 
-If your company subscribes to [!INCLUDE [prodshort](includes/prodshort.md)] but you as a user no longer want access, you must ask your administrator or your Dynamics 365 reselling partner to remove the [!INCLUDE[d365fin](includes/d365fin_md.md)] licence from your Office 365 user account. If [!INCLUDE[d365fin](includes/d365fin_md.md)] is removed from your user account, and your company continues the subscription, your coworkers will still have access to your shared data in the [!INCLUDE[d365fin](includes/d365fin_md.md)] company.  
+If your company subscribes to [!INCLUDE[prodshort](includes/prodshort.md)] but you as a user no longer want access, you must ask your administrator or your Dynamics 365 reselling partner to remove the [!INCLUDE[d365fin](includes/d365fin_md.md)] licence from your Office 365 user account. If [!INCLUDE[d365fin](includes/d365fin_md.md)] is removed from your user account, and your company continues the subscription, your coworkers will still have access to your shared data in the [!INCLUDE[d365fin](includes/d365fin_md.md)] company.  
 
 If your company wants to unsubscribe from [!INCLUDE[d365fin](includes/d365fin_md.md)], the Dynamics 365 reselling partner can remove the paid subscription from the company's account. For more information, see [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in the developer and IT-pro content.  
 

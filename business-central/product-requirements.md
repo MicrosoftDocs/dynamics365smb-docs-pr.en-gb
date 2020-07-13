@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372599"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528720"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimum Requirements for Using Business Central
-Before you access [!INCLUDE [prodshort](includes/prodshort.md)] online, we recommend that you verify that your computer or mobile device meets or exceeds the minimum system requirements for the product. This article lists the requirements.  
+Before you access [!INCLUDE[prodshort](includes/prodshort.md)] online, we recommend that you verify that your computer or mobile device meets or exceeds the minimum system requirements for the product. This article lists the requirements.  
 
 ## <a name="browsers"></a>Browsers
 
@@ -40,7 +40,7 @@ Before you access [!INCLUDE [prodshort](includes/prodshort.md)] online, we recom
 **Device size:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is supported on smartphones with a minimum screen size of 4" and tablets with a minimum screen size of 7".  
 
 ## <a name="outlook"></a>Outlook
-**Outlook applications:** To use [!INCLUDE[d365fin](includes/d365fin_md.md)] online as your business inbox in Outlook, you will need Outlook 2016 or later, Outlook in a browser, Outlook for iPhone, Outlook for iPad, or Outlook for Android. Your organisation must also use Office 365. You cannot use [!INCLUDE [prodshort](includes/prodshort.md)] online as your business inbox in Outlook if your organisation uses Exchange Server on-premises.  
+**Outlook applications:** To use [!INCLUDE[d365fin](includes/d365fin_md.md)] online as your business inbox in Outlook, you will need Outlook 2016 or later, Outlook in a browser, Outlook for iPhone, Outlook for iPad, or Outlook for Android. Your organisation must also use Office 365. You cannot use [!INCLUDE[prodshort](includes/prodshort.md)] online as your business inbox in Outlook if your organisation uses Exchange Server on-premises.  
 **Browsers:** When using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in Outlook in a browser, the add-in requires that your computer is running one of the listed supported browsers that are listed earlier in this article.  
 **Platforms:** When using the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook Add-In in Outlook for iPhone, Outlook for iPad, or Outlook for Android, the add-in requires that your mobile device is running one of the listed supported mobile devices for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

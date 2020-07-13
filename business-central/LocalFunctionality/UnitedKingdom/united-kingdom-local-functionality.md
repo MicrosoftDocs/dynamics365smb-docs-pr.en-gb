@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/09/2020
 ms.author: soalex
-ms.openlocfilehash: 685c6da207cf91eeab438fbbed9b4c7a9f19eb80
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9520817ac661de07e4f0ddcc96a9b9dd3bb57ec6
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189015"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454399"
 ---
 # <a name="united-kingdom-local-functionality"></a>United Kingdom Local Functionality
+
 The following topics describe local functionality that is unique to the United Kingdom version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Feature Availability
@@ -44,7 +45,9 @@ The following topics describe local functionality that is unique to the United K
     * [Enter External Document Numbers](how-to-enter-external-document-numbers.md) **Available Now**
 
 ## <a name="see-also"></a>See Also
-[Preparing for the United Kingdom to leave the European Union](united-kingdom-leaving-eu.md)<br>
+
+[Preparing for the United Kingdom to leave the European Union](united-kingdom-leaving-eu.md)  
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

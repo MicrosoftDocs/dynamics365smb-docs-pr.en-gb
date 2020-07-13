@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: edupont
-ms.openlocfilehash: 9c6e162e8b8146c59c135b669566594ca67be7dc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188691"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528092"
 ---
 # <a name="frequently-asked-questions"></a>Frequently Asked Questions
 
@@ -22,13 +22,13 @@ This section contains answers to frequently asked questions about signing up for
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is available in a limited number of markets, but new countries are added through Microsoft-led localisation or through partner-led localisation on a quarterly basis. For more information, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (available in English only).  
 
-## <a name="how-do-i-get-prodshort"></a>How do I get [!INCLUDE [prodshort](includes/prodshort.md)]?
+## <a name="how-do-i-get-prodshort"></a>How do I get [!INCLUDE[prodshort](includes/prodshort.md)]?
 
-You can sign up for a free trial to explore [!INCLUDE [prodshort](includes/prodshort.md)]. [!INCLUDE [free_trial_md](includes/free_trial_md.md)] If you want more time to explore, [you can extend your trial period](#can-i-extend-my-30-day-new-company-trial-period).  
+You can sign up for a free trial to explore [!INCLUDE[prodshort](includes/prodshort.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] If you want more time to explore, [you can extend your trial period](#can-i-extend-my-30-day-new-company-trial-period).  
 
-To help you get ready for doing business in [!INCLUDE [prodshort](includes/prodshort.md)], you can launch assisted setup guides, videos, or help topics for selected setup tasks. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
+To help you get ready for doing business in [!INCLUDE[prodshort](includes/prodshort.md)], you can launch assisted setup guides, videos, or help topics for selected setup tasks. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
-When you are ready to buy [!INCLUDE [prodshort](includes/prodshort.md)], you can find a [!INCLUDE [prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](#findpartner).  
+When you are ready to buy [!INCLUDE[prodshort](includes/prodshort.md)], you can find a [!INCLUDE[prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](#findpartner).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Where do I go if I have questions?
 If you have questions about [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can't find an answer for in this documentation, you can ask the Business Central community. For more information, see [Dynamics 365 Business Central community](https://community.dynamics.com/business).  
@@ -50,7 +50,7 @@ Yes, you can! You can find free eLearning content on the [Microsoft Learn site](
 
 For more information about training across Dynamics 365 that is provided by Microsoft, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
 
-Additional content is provided by the [!INCLUDE [prodshort](includes/prodshort.md)] community, such as the [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) that is written by a partner.  
+Additional content is provided by the [!INCLUDE[prodshort](includes/prodshort.md)] community, such as the [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) that is written by a partner.  
 
 ## <a name="how-do-i-get-technical-support-for-d365fin"></a><a name="hdigetsupport"></a>How do I get technical support for [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
@@ -101,18 +101,26 @@ Sure. If you do, you might need an app password in order to send email messages.
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>How do I find a reselling partner?
 
-[!INCLUDE [prodshort](includes/prodshort.md)] is sold and implemented through a global network of Dynamics 365 partners with industry expertise. Contact a partner for a detailed assessment, consulting services, and additional pricing. For more information, see the **Pricing** section on the [Dynamics 365 Business Central page on microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+[!INCLUDE[prodshort](includes/prodshort.md)] is sold and implemented through a global network of Dynamics 365 partners with industry expertise. Contact a partner for a detailed assessment, consulting services, and additional pricing. For more information, see the **Pricing** section on the [Dynamics 365 Business Central page on microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
 
-When you are ready to buy [!INCLUDE [prodshort](includes/prodshort.md)], you can find a [!INCLUDE [prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. You can also find solutions and services from partners in [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
+When you are ready to buy [!INCLUDE[prodshort](includes/prodshort.md)], you can find a [!INCLUDE[prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. You can also find solutions and services from partners in [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
 
 If you want guidance from Microsoft, contact the [Microsoft Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Your reselling partner will also handle technical support for you. For more information, see [Resources for Help and Support](product-help-and-support.md).
+Your reselling partner will also handle technical support for you. For more information, see [Resources for Help and Support](product-help-and-support.md).  
+
+## <a name="why-is-new-information-not-available-in-my-language"></a>Why is new information not available in my language?
+
+On the docs.microsoft.com site, content about business functionality is published in a number of languages. The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it is then sent off for translation into the supported languages. This means that you will not be able to read this new content in your own language for up to 4 weeks.  
+
+We understand the problems this can cause, and we encourage users to search for what they are looking for in English if they cannot find it in their own language.  
 
 ## <a name="is-the-windows-client-supported"></a>Is the Windows client supported?
+
 The first releases of [!INCLUDE[prodshort](includes/prodshort.md)] on premises included an installed client derived from Microsoft Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", will no longer be available for [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [FAQ About the Windows Client and Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>See Also
+
 [Getting Started](product-get-started.md)  
 [Tell Me FAQ](ui-search-faq.md)  
 [Searching and Filtering FAQ](ui-search-filter-faq.md)  

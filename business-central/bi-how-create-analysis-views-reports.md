@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186099"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496832"
 ---
 #  <a name="create-analysis-reports"></a>Create Analysis Reports
 Sales managers need to analyze turnover, gross profit and other key sales performance indicators on a regular basis. Purchasers, are more interested in the dynamics of purchase volumes, vendors' performance and purchase prices. Whereas logistics/inventory managers need information on inventory turnover, analysis of inventory movement, and statistics on inventory value.  
@@ -41,9 +41,9 @@ Then you can set up columns like these:
 - Sales in Pct. of last Month  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Setting Up Line and Column Layouts  
- On the **Analysis Report** page, you can view different line and column layouts according to what you have set up. You set up your lines or line templates on the **Analysis Line Templates** page. In this page, you can define the name of the report and the objects you want to show in the lines of your report. You set up your columns on the **Analysis Column Templates** page. In this page, you can define the name of the column template and the analysis parameters that you want to show in the report as columns. On the **Analysis Column Templates** page, each line represents a column in your report. Note that analysis lines and analysis columns are independent from each other.  
+ On the **Analysis Report** page, you can view different line and column layouts according to the lines or line templates that you set up on the **Analysis Line Templates** page. You can define the name of the report and the objects you want to show in the lines of your report. You set up your columns on the **Analysis Column Templates** page. You can define the name of the column template and the analysis parameters that you want to show in the report as columns. On the **Analysis Column Templates** page, each line represents a column in your report. Note that analysis lines and analysis columns are independent from each other.  
 
-Based on the lines and columns you have set up, application will aggregate the result of your report in the **Analysis Report** matrix page, such as in this example:  
+Based on the lines and columns you have set up, [!INCLUDE[d365fin](includes/d365fin_md.md)] will aggregate the result of your report in the **Analysis Report** page, as shown in the following table.  
 
 | |Sales Current Month|Sales Last Month|Sales Last Month %|  
 |-|-|-|-|  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 479281e24bffb824f9fc8499bb34ab6b11311a52
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8346e8a868f73d3de729a56e86530048c58229aa
+ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183675"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3458936"
 ---
 # <a name="select-a-check-layout"></a>Select a Cheque Layout
 You can design your cheques to conform with the standards set by the local authorities. Cheque images can be printed in English, French, or Spanish.
@@ -54,6 +54,9 @@ The following summarises specifications for the MICR E-13B fonts that may be use
 
 ![MICR E-13B Specifications](media/font_MICR_E-13B_Specifications.png "MICR E-13B Specifications")
 
+### <a name="delimiter-characters"></a>Delimiter characters
+![Delimiter characters](media/font-micr-letters.png "Delimiter characters")
+
 The full specification of MICR E-13B fonts can be found in the supplier's documentation here: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>MICR CMC-7 Specifications
@@ -67,6 +70,9 @@ The following CMC-7 fonts are available in [!INCLUDE[d365fin](includes/d365fin_m
 The following summarises specifications for the MICR CMC-7 fonts that may be useful when calibrating fonts to be on cheque layouts with specific MICR printers.
 
 ![MICR CMC-7 Specifications](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 Specifications")
+
+### <a name="delimiter-characters"></a>Delimiter characters
+![Delimiter characters](media/font-cmc7-letters.png "Delimiter characters")
 
 The full specification of MICR CMC-7 fonts can be found in the supplier's documentation here: (http://www.idautomation.com/micr-fonts/cmc7/).
 

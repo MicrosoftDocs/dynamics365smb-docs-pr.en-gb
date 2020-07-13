@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: 2d5285fdfbe8c1a07a766a3fbbe268a4ecbfef0a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262173"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528895"
 ---
 # <a name="working-with-dimensions"></a>Working with Dimensions
 To make it simpler to perform analysis on documents such as sales orders, you can use dimensions. Dimensions are attributes and values that categorise entries so you can track and analyse them. For example, dimensions can indicate the project or department an entry came from.  
@@ -113,7 +113,7 @@ Global and shortcut dimensions can be used as a filter anywhere in [!INCLUDE[d36
 > When you add or change a global or shortcut dimension, you are automatically signed out and back in so that the new value is prepared for use all over the application.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.
-2. On the **Dimensions** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. On the **Dimensions** FastTab, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>To change global dimensions
 When you change a global or shortcut dimension, all entries posted with the dimension in question are updated. Because this process may be time-consuming and can affect performance, two different modes are provided to adapt the process to the size of the database.  

@@ -7,19 +7,19 @@ ms.topic: get-started-article
 ms.search.keywords: setup wizard
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190162"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528745"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Getting Started with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system.  
 
 To help you with your subscription, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner).  
 
-When you sign up for [!INCLUDE [prodshort](includes/prodshort.md)], you get access to a demonstration company. The demonstration company contains sample data, but you can create new sales documents, for example, or set up a bank account. However, if you want to use [!INCLUDE [prodshort](includes/prodshort.md)] to help run your business, you must contact a [!INCLUDE [prodshort](includes/prodshort.md)] reselling partner and buy a subscription. For more information about trials and subscriptions, see [Trials and Subscriptions](across-preview.md).  
+When you sign up for [!INCLUDE[prodshort](includes/prodshort.md)], you get access to a demonstration company. The demonstration company contains sample data, but you can create new sales documents, for example, or set up a bank account. However, if you want to use [!INCLUDE[prodshort](includes/prodshort.md)] to help run your business, you must contact a [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner and buy a subscription. For more information about trials and subscriptions, see [Trials and Subscriptions](across-preview.md).  
 
 ## <a name="get-to-know-d365fin"></a>Get to know [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -34,7 +34,7 @@ For more information, see [Working with [!INCLUDE[d365fin](includes/d365fin_md.m
 > [!TIP]  
 > You can always get back to the Role Centre by selecting the company name in the upper left corner.
 
-In the demonstration company, the Business Manager and Accountant Role Centres include the Getting Started tile and the Product Videos tile. Both tiles launch pages where you can choose between different videos that can help you get started with different aspects of [!INCLUDE [prodshort](includes/prodshort.md)]. You can find more videos on our YouTube channel. For more information, see [Visit Our Video Library](across-videos.md). You can also find eLearning content for the base version of [!INCLUDE [prodshort](includes/prodshort.md)] on [Microsoft Learn](/learn/browse/?products=dynamics-business-central). If you want more assistance, contact a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner.  
+In the demonstration company, the Business Manager and Accountant Role Centres include the Getting Started tile and the Product Videos tile. Both tiles launch pages where you can choose between different videos that can help you get started with different aspects of [!INCLUDE[prodshort](includes/prodshort.md)]. You can find more videos on our YouTube channel. For more information, see [Visit Our Video Library](across-videos.md). You can also find eLearning content for the base version of [!INCLUDE[prodshort](includes/prodshort.md)] on [Microsoft Learn](/learn/browse/?products=dynamics-business-central). If you want more assistance, contact a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner.  
 
 When you are ready to start working and you want to look at some of the business processes that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports, see [Business Functionality](across-business-functionality.md).
 

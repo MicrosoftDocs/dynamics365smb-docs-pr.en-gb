@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9802821985550668d460aa3213c9fb64764169c0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d1c9d1f61f2ab89d58d0c3f4a8c512fe6ea0f1
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183555"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528845"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Set Up an Additional Reporting Currency
 As companies operate in increasingly more countries/regions, it becomes more important that they are able to review and report financial data in more than one currency.
@@ -103,7 +103,7 @@ For each general ledger account, you must specify how general ledger amounts for
 5. The **Adjust Add. Reporting Currency** batch job opens.
 
     This batch job converts LCY amounts on existing entries to the additional reporting currency. The batch job uses a default exchange rate copied from the exchange rate that is valid on the work date on the **Currency Exchange Rates** page. Residual amounts that occur on conversion of LCY to additional reporting currency are posted to the residual gains and losses accounts specified on the **Currencies** page. The posting date and document number for these entries are the same as for the original general ledger entry. After all these residual entries are posted, the batch job posts a rounding entry on the closing date of each closed year to the retained earnings account. This is to make sure that the ending balance of the income accounts for each closed years is 0 in both LCY and the additional reporting currency.
-6. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
+6. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Choose the **OK** button to run the batch job.  
 
 After running the batch job, amounts on the following existing entries will be in both LCY and in the additional reporting currency:  

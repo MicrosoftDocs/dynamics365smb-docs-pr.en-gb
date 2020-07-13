@@ -1,6 +1,6 @@
 ---
 title: Pick Items | Microsoft Docs
-description: The warehouse activity of picking items before they are shipped or consumed is performed in different ways, depending on how warehouse management features are configured. The [setup](../configure-warehouse-processes.md) complexity can rank from no warehouse features, through basic warehouse configurations for order-by-order handling in one or more activities only, to advanced configurations where all warehouse activities must be performed in a directed workflow.
+description: The warehouse activity of picking items before they are shipped or consumed is performed in different ways, depending on how warehouse management features are configured. The setup complexity can rank from no warehouse features, through basic warehouse configurations for order-by-order handling in one or more activities only, to advanced configurations where all warehouse activities must be performed in a directed workflow.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4b7f183c36c739f4dcb92b901639de6ebe8af97f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a19496eafcacb3a2c021d78da5e5b7130300154a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196072"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529295"
 ---
 # <a name="pick-items"></a>Pick Items
+
 The warehouse activity of picking items before they are shipped or consumed is performed in different ways, depending on how warehouse management features are configured. The complexity can rank from no warehouse features, through basic warehouse configurations for order-by-order handling in one or more activities only, to advanced configurations where all warehouse activities must be performed in a directed workflow. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
 If you decide to organise and record your picking activity with warehouse documents, you place a check mark in the **Require Pick** field on the location card. This indicates that when you have items that need to be picked for an outbound source document you want the picking of those items to be controlled by the system. An outbound source document can be a sales order, a purchase return order, an outbound transfer order, a service order, or a production order whose components should be picked.
