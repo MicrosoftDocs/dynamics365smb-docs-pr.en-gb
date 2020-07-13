@@ -38,10 +38,11 @@
 ## [Copy and Paste FAQ](ui-copy-paste.md)
 ## [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
-## [Changing Language and Locale](about-locale-language.md)
+## [Changing Language and Region](about-locale-language.md)
 ## [Viewing and Editing in Excel](across-work-with-excel.md)
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
 ## [Change Basic Settings](ui-change-basic-settings.md)
+## [Switching to Another Company or Environment](ui-organization-switch.md)
 ## [Manage Notifications](ui-smart-notifications.md)
 ## [Performance Tips for Business Users](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Personalising Business Central
@@ -128,7 +129,7 @@
 ### [Register New Items](inventory-how-register-new-items.md)
 ### [Copy Existing Items to Create New Items](inventory-how-copy-items.md)
 ### [About Item Types](inventory-about-item-types.md)
-### [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md)
+### [Set Up Units of Measure](inventory-how-setup-units-of-measure.md)
 ### [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 ### [Categorise Items](inventory-how-categorize-items.md)
 ### [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
@@ -216,7 +217,7 @@
 #### [Copy Data to New Companies](admin-how-to-copy-data-to-new-companies.md)
 #### [Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md)
 ### [Gather Customer Setup Data](admin-gather-customer-setup-values.md)
-### [Prepare to Migrate Customer Data](admin-use-templates-to-prepare-customer-data-for-migration.md)
+### [Prepare to Migrate Customer Data with Templates](admin-use-templates-to-prepare-customer-data-for-migration.md)
 ### [Migrate Customer Data](admin-migrate-customer-data.md)
 ### [Create Custom Company Configuration Packages](admin-how-to-create-custom-company-configuration-packages.md)
 ### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
@@ -325,6 +326,7 @@
 ## [Create Users According to Licences](ui-how-users-permissions.md)
 ## [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)
 ## [Manage Profiles](admin-users-profiles-roles.md)
+## [Manage User Settings and Preferences](admin-manage-user-settings-preferences.md)
 ## [Set Up Printers](ui-specify-printer-selection-reports.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ## [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
@@ -348,7 +350,6 @@
 ### [Set Up a Coloured Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
 ### Customise Using Extensions
 #### [Overview](ui-extensions.md)
-#### [Customise Using Extensions](ui-extensions.md)
 #### [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
@@ -384,7 +385,6 @@
 ### [Manually Synchronise Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshooting Synchronisation Errors](admin-troubleshoot-sales-synchronization.md)
-<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Finance
 ## [Overview](finance.md)
@@ -508,6 +508,7 @@
 ## [Work with VAT on Sales and Purchases](finance-work-with-vat.md)
 ## [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ## [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
+## [Managing VAT Rate Changes](finance-how-use-vat-rate-change-tool.md)
 ## [Analysing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
@@ -626,7 +627,6 @@
 ### [Create Opportunities](marketing-how-create-opportunities.md)
 ### [Track Email Message Exchanges](marketing-set-up-email-logging.md)
 ### [Process Sales Opportunities](marketing-processing-sales-opportunities.md)
-### [Set Up Email Logging](marketing-set-up-email-logging.md)
 ## [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
 ## [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
 ### [Couple and Synchronise Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)
@@ -768,6 +768,7 @@
 ## Design Details: Inventory Costing
 ### [Overview](design-details-inventory-costing.md)
 ### [Design Details: Costing Methods](design-details-costing-methods.md)  
+### [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)
 ### [Design Details: Item Application](design-details-item-application.md)  
 ### [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ### [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
@@ -1404,7 +1405,7 @@
 #### [Swiss Value Added Tax](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [VAT Rates for Switzerland](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Banking & Payments
-#### QR-Bill Management (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
+#### [QR-Bill Management](LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Close an LSV Collection](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Export Payments Using LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Import ESR Payments](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)
