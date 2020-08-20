@@ -10,24 +10,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b6e8588669e5079e77c3e6dd8b072c24c98263cb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f4521a8c858ca96d5b240547a0471da1f1a47bb7
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189044"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676621"
 ---
-# <a name="set-up-a-posting-date-warning"></a><span data-ttu-id="cb60b-104">Set Up a Posting Date Warning</span><span class="sxs-lookup"><span data-stu-id="cb60b-104">Set Up a Posting Date Warning</span></span>
-<span data-ttu-id="cb60b-105">A warning message will be displayed when you post or batch post sales and purchase documents with a posting date not same as the work date.</span><span class="sxs-lookup"><span data-stu-id="cb60b-105">A warning message will be displayed when you post or batch post sales and purchase documents with a posting date not same as the work date.</span></span> <span data-ttu-id="cb60b-106">You must set up for this on the **Sales Receivables Setup** and **Purchases Payables Setup** pages.</span><span class="sxs-lookup"><span data-stu-id="cb60b-106">You must set up for this on the **Sales Receivables Setup** and **Purchases Payables Setup** pages.</span></span>  
+# <a name="set-up-a-posting-date-warning"></a><span data-ttu-id="27fc6-104">Set Up a Posting Date Warning</span><span class="sxs-lookup"><span data-stu-id="27fc6-104">Set Up a Posting Date Warning</span></span>
+<span data-ttu-id="27fc6-105">A warning message will be displayed when you post or batch post sales and purchase documents with a posting date not same as the work date.</span><span class="sxs-lookup"><span data-stu-id="27fc6-105">A warning message will be displayed when you post or batch post sales and purchase documents with a posting date not same as the work date.</span></span> <span data-ttu-id="27fc6-106">You must set up for this on the **Sales Receivables Setup** and **Purchases Payables Setup** pages.</span><span class="sxs-lookup"><span data-stu-id="27fc6-106">You must set up for this on the **Sales Receivables Setup** and **Purchases Payables Setup** pages.</span></span>  
 
-## <a name="to-set-up-a-posting-date-warning-for-sales-and-purchases"></a><span data-ttu-id="cb60b-107">To set up a posting date warning for sales and purchases</span><span class="sxs-lookup"><span data-stu-id="cb60b-107">To set up a posting date warning for sales and purchases</span></span>  
+## <a name="to-set-up-a-posting-date-warning-for-sales-and-purchases"></a><span data-ttu-id="27fc6-107">To set up a posting date warning for sales and purchases</span><span class="sxs-lookup"><span data-stu-id="27fc6-107">To set up a posting date warning for sales and purchases</span></span>  
 
-1.  <span data-ttu-id="cb60b-108">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup** or **Purchases & Payables Setup**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="cb60b-108">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup** or **Purchases & Payables Setup**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="cb60b-109">On the **Sales Receivables Setup** page or the **Purchases Payables Setup** page, in the **General** FastTab, select the **Posting Date Cheque on Posting** check box.</span><span class="sxs-lookup"><span data-stu-id="cb60b-109">On the **Sales Receivables Setup** page or the **Purchases Payables Setup** page, in the **General** FastTab, select the **Posting Date Check on Posting** check box.</span></span>  
-3.  <span data-ttu-id="cb60b-110">Choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="cb60b-110">Choose the **OK** button.</span></span>  
+1.  <span data-ttu-id="27fc6-108">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup** or **Purchases & Payables Setup**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="27fc6-108">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup** or **Purchases & Payables Setup**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="27fc6-109">On the **Sales Receivables Setup** page or the **Purchases Payables Setup** page, in the **General** FastTab, select the **Posting Date Cheque on Posting** check box.</span><span class="sxs-lookup"><span data-stu-id="27fc6-109">On the **Sales Receivables Setup** page or the **Purchases Payables Setup** page, in the **General** FastTab, select the **Posting Date Check on Posting** check box.</span></span>  
+3.  <span data-ttu-id="27fc6-110">Choose the **OK** button.</span><span class="sxs-lookup"><span data-stu-id="27fc6-110">Choose the **OK** button.</span></span>  
 
     > [!NOTE]  
-    >  <span data-ttu-id="cb60b-111">A warning message displays when you post or batch post documents with a posting date not same as the work date.</span><span class="sxs-lookup"><span data-stu-id="cb60b-111">A warning message displays when you post or batch post documents with a posting date not same as the work date.</span></span> <span data-ttu-id="cb60b-112">If you select **Replace Posting Date** check box while batch posting, you will be warned about the replacing posting date not being the same as the work date.</span><span class="sxs-lookup"><span data-stu-id="cb60b-112">If you select **Replace Posting Date** check box while batch posting, you will be warned about the replacing posting date not being the same as the work date.</span></span>  
+    >  <span data-ttu-id="27fc6-111">A warning message displays when you post or batch post documents with a posting date not same as the work date.</span><span class="sxs-lookup"><span data-stu-id="27fc6-111">A warning message displays when you post or batch post documents with a posting date not same as the work date.</span></span> <span data-ttu-id="27fc6-112">If you select **Replace Posting Date** check box while batch posting, you will be warned about the replacing posting date not being the same as the work date.</span><span class="sxs-lookup"><span data-stu-id="27fc6-112">If you select **Replace Posting Date** check box while batch posting, you will be warned about the replacing posting date not being the same as the work date.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="cb60b-113">See Also</span><span class="sxs-lookup"><span data-stu-id="cb60b-113">See Also</span></span>  
-[<span data-ttu-id="cb60b-114">United Kingdom Local Functionality</span><span class="sxs-lookup"><span data-stu-id="cb60b-114">United Kingdom Local Functionality</span></span>](united-kingdom-local-functionality.md)
+## <a name="see-also"></a><span data-ttu-id="27fc6-113">See Also</span><span class="sxs-lookup"><span data-stu-id="27fc6-113">See Also</span></span>  
+[<span data-ttu-id="27fc6-114">United Kingdom Local Functionality</span><span class="sxs-lookup"><span data-stu-id="27fc6-114">United Kingdom Local Functionality</span></span>](united-kingdom-local-functionality.md)
