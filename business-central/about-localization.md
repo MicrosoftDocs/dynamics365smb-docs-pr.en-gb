@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 8566856ade03531ce01f0fca35828d9af4fe785d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6d9cbf61160a2f8d64cfc7cd6b65aae4bd84a881
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188883"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611541"
 ---
 # <a name="local-functionality-in-prodlong"></a>Local Functionality in [!INCLUDE[prodlong](includes/prodlong.md)]
 
@@ -25,7 +25,7 @@ For a list of currently supported markets, see [Country/Regional Availability an
 
 ## <a name="local-functionality"></a>Local Functionality
 
-To learn about the local functionality for each country, choose the related link:
+To learn about the local functionality for each country/region, choose the related link:
 
 | Region | Country | More information |
 | --- | --- |--- |
@@ -54,9 +54,11 @@ To learn about the local functionality for each country, choose the related link
 |        | New Zealand | [New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Other Countries
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is also available in other markets through localisation apps. If a Microsoft partner has developed a localisation app for your country, you can find it in [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is also available in other markets through localisation apps. If a Microsoft partner has developed a localisation app for your country/region, you can find it in [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## <a name="see-also"></a>See Also
+
 [Getting Started](product-get-started.md)  
 [Compliance](compliance/compliance-overview.md)  
 [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

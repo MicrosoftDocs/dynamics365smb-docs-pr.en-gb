@@ -9,34 +9,40 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: soalex
-ms.openlocfilehash: 1dde92217278ad8f4b5f8805afe052b06d6fc64b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8593958c57f508597cfa082bdbee4d518cc51d1b
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185955"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611416"
 ---
-# <a name="certifications"></a>Certifications  
+# <a name="certifications"></a>Certifications
+
 This content contains information about certifications in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
-## <a name="country-certifications-and-accreditations"></a>Country certifications and accreditations
-In some countries accounting software must be certified to comply with local tax regulatives and financial requirements. Some countries excersice this as a yearly recurring requirement and others as a one-off requirement to comply with. Below is a list of the current countries in which Business Central has achieved certifications. Note that only some countries have this requirement.  
-- France (Tax Audit Certification) [(link to certification in French)](https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf) 
-- Germany (also covers Austria and Switzerland) [(link to certification in German)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)
+## <a name="countryregion-specific-certifications-and-accreditations"></a>Country/region-specific certifications and accreditations
+
+In some countries or regions, accounting software must be certified to comply with local tax regulation and financial requirements. Some countries exercize this as a yearly recurring requirement and others as a one-off requirement to comply with. Below is a list of the current countries/regions where Business Central has achieved certifications.
+
+> [!NOTE]
+> Only some countries have this requirement.
+
+- France (Tax Audit Certification) [(link to certification in French)](https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf)  
+- Germany (also covers Austria and Switzerland) [(link to certification in German)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)  
 
 > [!NOTE]  
->  **Certifications in countries where Microsoft does not release localized versions**  
-> In countries where Microsoft does not release a local version, it is usually up to the partners to achieve certification of the Business Central base product including the partner's localization and regulatory features on top.
+> In countries/regions where Microsoft does not release a local version, it is usually up to the partners to achieve certification of the Business Central base product, including the partner's localisation and regulatory features on top.
 
-## <a name="other-certifications"></a>Other certifications  
-Business Central as a cloud service also has achieved certifications like ISO 27001 and more. For a complete list of these certifications, see [this page (PDF)](https://aka.ms/d365-compliance-list).
+## <a name="other-certifications"></a>Other certifications
 
-## <a name="see-also"></a>See Also  
+Business Central as a cloud service also has achieved certifications, such as ISO 27001 and more. For a complete list of these certifications, see [this page (PDF)](https://aka.ms/d365-compliance-list).
+
+## <a name="see-also"></a>See Also
+
 [Compliance](compliance-overview.md)  
 [Application Compliance](compliance-application-compliance.md)  
 [Service Compliance](compliance-service-compliance.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

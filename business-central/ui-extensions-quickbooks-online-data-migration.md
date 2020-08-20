@@ -1,5 +1,5 @@
 ---
-title: Using the QuickBooks Migration Extension | Microsoft Docs
+title: QuickBooks Online Migration Extension | Microsoft Docs
 description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: c3e5415c5da03c4dd9a2228cc21b7c08a9beeec3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 33de4d2b6d75f79c140c7c2fdf5b84b7a77521d6
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189730"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617793"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>The QuickBooks Online Data Migration Extension
+
 This extension is included in the **Data Migration** assisted setup guide to help you migrate important business data from QuickBooks Online to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, this is useful when your business is growing, and you've decided to upgrade your business management app by starting to use [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>What data can I import from QuickBooks Online?
+
 You can import the following data from QuickBooks Online to [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 * Customers
@@ -34,9 +36,10 @@ You can import the following data from QuickBooks Online to [!INCLUDE[d365fin](i
 We migrate only full amounts on sales and purchase documents. We do not update partially paid amounts. For example, if a customer has paid 300 of a total of 500 dollars on a sales invoice, we migrate the full 500. If you have received partial payments, you must update these manually, either before or after you migrate data. We recommend that you apply outstanding transactions before you migrate, just to make things easier afterward.
 
 > [!NOTE]  
->   We do not migrate purchase orders or sales orders.
+> We do not migrate purchase orders or sales orders.
 
 ## <a name="before-you-start"></a>Before you start
+
 An important part of the migration process is to specify the accounts to migrate transactions to. It's a good idea to plan this mapping before you migrate data. For example, the accounts where you post transactions for:  
 
 * The sale of items or services to customers.
@@ -48,13 +51,15 @@ An important part of the migration process is to specify the accounts to migrate
 If transactions in QuickBooks Online have tax amounts, you must set up a tax account for your tax jurisdictions in [!INCLUDE[d365fin](includes/d365fin_md.md)] before you can post transactions.
 
 ## <a name="how-do-i-start-using-the-extension"></a>How do I start using the extension?
+
 Getting started is easy. All you need to do is run the **Data Migration** assisted setup guide. Here's how:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose **Migrate business data**.
 2. Follow the instructions on each step in the assisted setup guide.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>What do I do after I migrate data?
-After you migrate data, transactions have the status **Unposted**, so you can review them and make adjustments. To review the transactions, go to the page where you would normally find them. For example, to review unposted sales invoices, go to the **Sales Invoices** page. To review payment journals, go to the **Payment Journals** page.   
+
+After you migrate data, transactions have the status **Unposted**, so you can review them and make adjustments. To review the transactions, go to the page where you would normally find them. For example, to review unposted sales invoices, go to the **Sales Invoices** page. To review payment journals, go to the **Payment Journals** page.  
 
 There are a few things in particular that you should do:
 
@@ -63,5 +68,6 @@ There are a few things in particular that you should do:
 * Verify the beginning balances for accounts in the general ledger. QuickBooks Online does not store the current balance for all accounts, so you might need to correct beginning balances.
 
 ## <a name="see-also"></a>See Also
+
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  

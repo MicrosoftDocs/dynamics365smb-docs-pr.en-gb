@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 06/25/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528092"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611591"
 ---
 # <a name="frequently-asked-questions"></a>Frequently Asked Questions
 
 This section contains answers to frequently asked questions about signing up for a trial, buying a subscription, and using [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can also learn how to get technical support.  
 
-## <a name="is-d365fin-available-in-my-country"></a>Is [!INCLUDE[d365fin](includes/d365fin_md.md)] available in my country?
+## <a name="is-d365fin-available-in-my-countryregion"></a>Is [!INCLUDE[d365fin](includes/d365fin_md.md)] available in my country/region?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is available in a limited number of markets, but new countries are added through Microsoft-led localisation or through partner-led localisation on a quarterly basis. For more information, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (available in English only).  
 
@@ -108,6 +108,10 @@ When you are ready to buy [!INCLUDE[prodshort](includes/prodshort.md)], you can 
 If you want guidance from Microsoft, contact the [Microsoft Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 Your reselling partner will also handle technical support for you. For more information, see [Resources for Help and Support](product-help-and-support.md).  
+
+## <a name="where-do-i-find-that-line-number"></a>Where do I find that line number?
+
+Documents such as sales order or purchase invoices consist of headers and lines. Each line has a number that [!INCLUDE [prodshort](includes/prodshort.md)] uses to identify this particular line. As a result, you might see a warning or an error message that something is wrong in line number 1000, for example. In the default version of [!INCLUDE [prodshort](includes/prodshort.md)], line numbers are hidden. If you want to see the line numbers, you must personalise the current page and add the **Line No.** field. For more information, see [Personalise Your Workspace](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
 
 ## <a name="why-is-new-information-not-available-in-my-language"></a>Why is new information not available in my language?
 

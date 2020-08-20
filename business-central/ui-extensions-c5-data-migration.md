@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 06/19/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: d94fd19194eb47b421e99c81ac8bd588543510e5
-ms.sourcegitcommit: ec3034640ed10e0fd028568ec45f21c84498d3de
+ms.openlocfilehash: d52b04f000617ac037ccc37bcf02061609e680c6
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3486378"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617843"
 ---
 # <a name="the-c5-data-migration-extension"></a>The C5 Data Migration Extension
 
@@ -146,8 +146,8 @@ After you fix one or more errors, you can choose **Migrate** to migrate only the
 
 One way to verify that your data migrated correctly is to look at the following pages in C5 and [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Batch Job to Use |
-|---------------------------|--------------------------------------------|------------------|
+|Microsoft Dynamics C5 2012 | Dynamics 365 Business Central| Batch Job to Use |
+|---------------------------|------------------------------|------------------|
 |Customer Entries| General Journals| CUSTMIGR |
 |Vendor Entries| General Journals| VENDMIGR|
 |Item Entries| Item Journals| ITEMMIGR |

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272093"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549874"
 ---
 # <a name="set-up-printers"></a>Set Up Printers
 Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it cannot reach local printers connected to users' machines. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
@@ -55,7 +55,11 @@ If you use the Email Printer extension, then all or some print jobs will be sent
 You must take all necessary privacy precautions, including ensuring that the email printing solution has properly configured permissions, privacy settings, and retention policies. It is your responsibility to provide a correct, verified, and operational email address. For more information, see [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## <a name="to-select-which-printers-print-which-reports"></a>To select which printers print which reports
+
 On the **Printer Selections** page, you can set up for your user account which reports are printed by which printer. This is useful if you work with different reports that require different printers because of their placement in the company or their output capabilities.
+
+> [!IMPORTANT]
+> For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Printer Selections** page can only be used for printers defined by printer extensions. It can't be used for local printers.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections**, and then select the related link. Alternatively, from the **Printer Management** page, select a printer, and then choose the **Printer Selections** action.
 2. Choose the **New** action to add a printer selection for a specific report.
@@ -76,7 +80,7 @@ You or the administrator can also use the **Printer Selections** page to define 
 |Print a report to a specific printer for all users |Specify values in the **Report ID** and **Printer Name** fields and leave the **User ID** field blank.|
 |Print all reports to a specific printer for a specific user|Specify values in the **User ID** and **Printer Name** fields and leave the **Report ID** field blank.|
 |Set the default printer for all reports|Specify a value in the **Printer Name** field and leave the **User ID** and **Report ID** fields blank.|
-|Print a specific report to the user’s default printer|Specify a value in the **Report ID** field and leave the **Printer Name** and **User ID** fields blank.|
+|Print a specific report to the user's default printer|Specify a value in the **Report ID** field and leave the **Printer Name** and **User ID** fields blank.|
 |Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
 
 > [!NOTE]

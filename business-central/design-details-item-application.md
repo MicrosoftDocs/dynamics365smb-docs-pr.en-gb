@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098bb0e946d78f69a848ddeb8405ea43579c4597
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185163"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617634"
 ---
 # <a name="design-details-item-application"></a>Design Details: Item Application
+
 When you post an inventory transaction, the quantity posting is recorded in the item ledger entries, the value posting in the value entries. For more information, see [Design Details: Inventory Posting](design-details-inventory-posting.md).  
 
 In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).  
@@ -40,15 +41,15 @@ Whether quantity applications or cost applications are made depends on the direc
 
 The following table shows, based on the central application fields on inventory transaction lines, how costs flow depending on the transaction direction. It also indicates when and why the item application is of type quantity or cost.  
 
-||Appl.-to Item Entry field|Appl.-from Item Entry field|  
+|-|Appl.-to Item Entry field|Appl.-from Item Entry field|  
 |-|--------------------------------|----------------------------------|  
 |Application for outbound entry|The outbound entry pulls the cost from the open inbound entry.<br /><br /> **Quantity application**|Not supported|  
 |Application for inbound entry|The inbound entry pushes the cost onto the open outbound entry.<br /><br /> The inbound entry is the cost source.<br /><br /> **Quantity application**|The inbound entry pulls the cost from the outbound entry. **Note:**  When making this fixed application, the inbound transaction is treated as a sales return. Therefore, the applied outbound entry remains open. <br /><br /> The inbound entry is NOT the cost source.<br /><br /> **Cost application**|  
 
 > [!IMPORTANT]  
->  A sales return is NOT considered a cost source when fixed applied.  
->   
->  The sales entry remains open until the real source is posted.  
+> A sales return is NOT considered a cost source when fixed applied.  
+>
+> The sales entry remains open until the real source is posted.  
 
 An item application entry records the following information.  
 
@@ -71,7 +72,7 @@ The following table shows the item application entry that is created when you po
 |01-01-20|1|0|10|1|  
 
 ## <a name="inventory-decrease"></a>Inventory Decrease  
-When you post an inventory decrease, an item application entry is created that links the inventory decrease to an inventory increase. This link is created by using the item’s costing method as a guideline. For items using FIFO, Standard, and Average costing methods, the linking is based on the first-in-first-out principle. The inventory decrease is applied to the inventory increase with the earliest posting date. For items using the LIFO costing method, the linking is based on the last-in-first-out principle. The inventory decrease is applied to the inventory increase with the most recent posting date.  
+When you post an inventory decrease, an item application entry is created that links the inventory decrease to an inventory increase. This link is created by using the item's costing method as a guideline. For items using FIFO, Standard, and Average costing methods, the linking is based on the first-in-first-out principle. The inventory decrease is applied to the inventory increase with the earliest posting date. For items using the LIFO costing method, the linking is based on the last-in-first-out principle. The inventory decrease is applied to the inventory increase with the most recent posting date.  
 
 In the  **Item Ledger Entry** table, the **Remaining Quantity** field shows the quantity that has not yet been applied. If the remaining quantity is more than 0, then the **Open** check box is selected.  
 
@@ -124,7 +125,7 @@ The following example, which illustrates the effect of fixed application, is bas
 4. In entry number 5, the user posts a sales invoice.  
 5. The inventory quantity is 0, and the inventory value is also 0.00  
 
-The following table shows the result of the scenario on the item’s value entries.  
+The following table shows the result of the scenario on the item's value entries.  
 
 |Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
@@ -136,7 +137,7 @@ The following table shows the result of the scenario on the item’s value entri
 
 If the user had not made the fixed application between the purchase credit memo and the purchase with the incorrect direct unit cost (step 2 in the previous scenario), then the cost would have been adjusted differently.  
 
-The following table shows the result on the item’s value entries if step 2 in the previous scenario is performed without a fixed application.  
+The following table shows the result on the item's value entries if step 2 in the previous scenario is performed without a fixed application.  
 
 |Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
@@ -163,7 +164,7 @@ The following example, which illustrates how a fixed application ensures exact c
 3.  The user posts a sales credit memo for the returned item, which applies to the sales entry, to reverse the cost correctly.  
 4.  A freight cost, related to the purchase order that was posted earlier, arrives. The user posts it as an item charge.  
 
-The following table shows the result of scenario steps 1 through 3 on the item’s value entries.  
+The following table shows the result of scenario steps 1 through 3 on the item's value entries.  
 
 |Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-from Item Entry|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
@@ -177,7 +178,7 @@ The following table shows the value entry resulting from scenario step 4, postin
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |04-01-20|(Item Charge)|1|100.00||1|4|  
 
-The following table shows the effect of the exact cost reversal on the item’s value entries.  
+The following table shows the effect of the exact cost reversal on the item's value entries.  
 
 |Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-from Item Entry|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
@@ -204,7 +205,7 @@ The following example, which illustrates how transfer entries are applied, is ba
 2. The user purchases the item again at a cost of LCY 20.00.  
 3. The user transfers the item from BLUE to RED location.  
 
-The following table shows the effect of the transfer on the item’s value entries.  
+The following table shows the effect of the transfer on the item's value entries.  
 
 |Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount (Actual)|Entry No.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
@@ -219,7 +220,7 @@ The following example, which illustrates how transfer entries are applied, is ba
 1. The user purchases the item at a standard cost of LCY 10.00.  
 2. The user transfers the item from BLUE to RED location at a standard cost of LCY 12.00.  
 
-The following table shows the effect of the transfer on the item’s value entries.  
+The following table shows the effect of the transfer on the item's value entries.  
 
 |Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount (Actual)|Entry No.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
@@ -230,11 +231,11 @@ The following table shows the effect of the transfer on the item’s value entri
 Since the value of the original inventory increase is LCY 10.00, the transfer is valued at that cost, not at LCY 12.00.  
 
 ## <a name="reapplication"></a>Reapplication  
-Because of the way an item’s unit cost is calculated, an incorrect item application could lead to a skewed average cost and unit cost. The following scenarios may cause incorrect item applications, which require that you undo item applications and reapply item ledger entries:  
+Because of the way an item's unit cost is calculated, an incorrect item application could lead to a skewed average cost and unit cost. The following scenarios may cause incorrect item applications, which require that you undo item applications and reapply item ledger entries:  
 
 * You have forgotten to make a fixed application.  
 * You have made an incorrect fixed application.  
-* You want to overrule the application created automatically when posting, according to the item’s costing method.  
+* You want to overrule the application created automatically when posting, according to the item's costing method.  
 * You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a feature for analyzing and correcting item applications. This work is performed on the **Application Worksheet** page.  

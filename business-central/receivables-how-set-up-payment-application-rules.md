@@ -1,5 +1,5 @@
 ---
-title: Use Automatic Application to Reconcile Payments | Microsoft Docs
+title: Set Up Rules for Automatic Application of Payments
 description: On the Payment Application Rules page, you set up rules to govern how payments/bank transactions should be automatically applied to their related open ledger entries when you use the Apply Automatically function on the Payment Reconciliation Journal page.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,17 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b655032a17aa617ccbaba2ac3dfd5413d4ca4326
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191938"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617580"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Set Up Rules for Automatic Application of Payments
+
 On the **Payment Application Rules** page, you set up rules to govern how payment text (on a bank transaction) is automatically matched with text on open entries in the following two processes:
+
 - Automatically apply payments to their related open (unpaid) invoices, credit memos, or other entries when you use the **Apply Automatically** function on the **Payment Reconciliation Journal** page. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 - Automatically match bank transactions with their related, internal bank account ledger entries when you choose the **Match Automatically** action on the **Bank Acc. Reconciliation** page. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).

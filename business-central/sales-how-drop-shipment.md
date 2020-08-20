@@ -12,29 +12,29 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c61f55701ecb07862f42d3cce242756001529588
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7cc6101fbd63ed7bc4f92372acf651fe8868c7be
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193690"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666979"
 ---
 # <a name="make-drop-shipments"></a>Make Drop Shipments
 A drop shipment is the shipment of items from one of your vendors directly to one of your customers.
 
-When a sales order is marked for drop shipment, and you create a purchase order specifying the customer in the **Ship-to** field, **Customer Address**, you can link the two documents and thereby instruct the vendor to ship directly to the customer.
+When a sales order is marked for drop shipment, and you create a purchase order specifying the customer in the **Ship-to** field, **Customer Address**, you can link the two documents to instruct the vendor to ship directly to the customer.
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>To create a sales order for drop shipment
-To prepare a drop shipment, you create a sales order for an item as normal, except you must indicate on the sales line that the sale requires drop shipment.
+To prepare a drop shipment, you create a sales order for an item and indicate on the sales line that the sale requires drop shipment.
 
 1. Create a sales order for an item. For more information, see [Sell Products](sales-how-sell-products.md).
 2. On the sales order line for the drop shipment, select the **Drop Shipment** check box. Use the **Choose Columns** function if the field is not visible. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>To create the purchase order for drop shipment
-To prepare a drop shipment for the item to be sold, you create a purchase order as normal, except you must indicate on the purchase order that it must be shipped to your customer, not to yourself.
+To prepare a drop shipment, you indicate on the purchase order that it must be shipped to your customer, not to yourself.
 
 1. Create a purchase order. Do not fill any fields on the lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 2. In the **Ship-to** field, select **Customer Address**.
@@ -47,6 +47,15 @@ The line information from the sales order is inserted on the purchase order line
 
 You can now instruct the vendor to ship the items to your customer, for example, by mailing the purchase order as a PDF.     
 
+## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>To create multiple purchase orders for drop shipments
+You can also use the requisition worksheet to create the purchase order for the vendor. The advantage of using the requisition worksheet is that it can create purchase orders for all outstanding drop shipments, so you don't have to create each one individually.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requistion Worksheets**, and then choose the related link.
+2. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
+3. Choose the **OK** button.
+4. Review the purchase order lines, and in the **Vendor No.** field, select vendor that supplies required goods. 
+5. Choose the **Carry Out Action Message*** action to convert reviewed lines to a purchase order.
+
 ## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>To view the linked purchase order from the sales order
 * Select the drop-shipment sales order line, choose the **Order** action, choose the **Drop Shipment** action, and then choose the **Purchase Order** action.
 
@@ -54,7 +63,7 @@ You can now instruct the vendor to ship the items to your customer, for example,
 After the vendor ships the items, you can post the sales order as shipped. You can also post the purchase order, but only with the **Receive** option until the sales order has been invoiced.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
-2. Open the sales order that you created in [To create a sales order for drop shipment]().
+2. Open the sales order that you created in [To create a sales order for drop shipment](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
 3. In the **Qty. to Ship** field, specify how many of the order quantity to ship, the full or a partial order quantity.
 4. Choose the **Post** or **Post and Send** action.
 5. Choose either the **Ship** option to invoice later, or the **Ship and Invoice** option to invoice immediately.

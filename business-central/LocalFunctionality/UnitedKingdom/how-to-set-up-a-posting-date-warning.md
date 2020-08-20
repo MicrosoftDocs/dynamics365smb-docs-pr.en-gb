@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b6e8588669e5079e77c3e6dd8b072c24c98263cb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f4521a8c858ca96d5b240547a0471da1f1a47bb7
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189044"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676621"
 ---
 # <a name="set-up-a-posting-date-warning"></a>Set Up a Posting Date Warning
 A warning message will be displayed when you post or batch post sales and purchase documents with a posting date not same as the work date. You must set up for this on the **Sales Receivables Setup** and **Purchases Payables Setup** pages.  
 
 ## <a name="to-set-up-a-posting-date-warning-for-sales-and-purchases"></a>To set up a posting date warning for sales and purchases  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup** or **Purchases & Payables Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup** or **Purchases & Payables Setup**, and then choose the related link.  
 2.  On the **Sales Receivables Setup** page or the **Purchases Payables Setup** page, in the **General** FastTab, select the **Posting Date Cheque on Posting** check box.  
 3.  Choose the **OK** button.  
 

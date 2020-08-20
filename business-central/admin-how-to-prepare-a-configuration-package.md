@@ -1,7 +1,7 @@
 ---
 title: How to Prepare a Configuration Package | Microsoft Docs
 description: Learn now to configure a RapidStart configuration package that can help set up new companies based on existing data.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: bholtorf
+ms.openlocfilehash: 026a76fac8ce50c5eab68c40c9f7b4300f1493b8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535979"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3667004"
 ---
 # <a name="prepare-a-configuration-package"></a>Prepare a Configuration Package
 
@@ -30,6 +30,12 @@ There are some things to consider before you create a configuration package beca
 ### <a name="tables-that-contain-posted-entries"></a>Tables That Contain Posted Entries
 
 You cannot import data to tables that contain posted entries, such as the tables for customer, vendor, and item ledger entries, so you should not include this data in your configuration package. You can add entries to these tables after you import the configuration package by using journals to post the entries. For more information, see [Posting Documents and Journals](ui-post-documents-journals.md).
+
+### <a name="table-names-that-contain-special-characters"></a>Table Names That Contain Special Characters
+
+Use caution if you have tables or fields that have the same temporal name but are differentiated by special characters, such as %, &, <, >, (, and ). For example, table "XYZ" might contain the "Field 1" and "Field 1%" fields.
+
+The XML processor accepts only some special characters, and will remove those it does not. If removing a special character, such as the % sign in "Field 1%," results in two or more tables or fields with the same name an error will occur when you export or import a configuration package. 
 
 ### <a name="licensing"></a>Licensing
 

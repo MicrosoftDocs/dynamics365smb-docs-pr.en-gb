@@ -8,29 +8,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2c42e87db1e0dd792d9b4444db3cfe5d1a05ed48
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5360b3a8a72387cda8d0e640562a118ca1f20ff4
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187155"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577133"
 ---
 # <a name="create-journal-opening-balances"></a>Create Journal Opening Balances
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data with the customer journal, the vendor journal, the item journal, or the G/L journal.
 
 The first step is to create a configuration package that includes the setup tables for those journals. The following procedure assumes that this step is completed. For more information, see [Set Up Company Configuration](admin-set-up-company-configuration.md). This procedure describes the subsequent steps, which include applying the package that is provided by a partner.  
 
 Before you start, make sure that you are using the Administration Role Centre page because it provides the correct context for your configuration work. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
 
-## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>To apply the entries in a journal to a new company  
+## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>To apply the entries in a journal to a new company
+
 1. Configure a new company and apply a configuration package to it. For more information, see [Configure a Company with the RapidStart Wizard](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
 
     The new company does not contain information about journal opening balances.  
 
 2. Open the configuration worksheet and import existing data about customers, items, vendors, and the general ledger. For more information, see [Migrate Customer Data](admin-migrate-customer-data.md).  
-3. Choose, for example, the **Create G/L Acct. Journal Lines** action.  
+
+    Now you have master data in place. Next, you add the opening balances. The following steps describe how to create journal lines for G/L accounts, but the same apply to creating journal lines for customers, vendors, and items.  
+3. Choose the **Create G/L Acct. Journal Lines** action.  
 4. Fill in the **Options** FastTab as appropriate, and set filters as needed. For example, in the **Journal Template** field, enter a name.  
 5. Choose the **OK** button. The records are now in the journal, but the amounts are empty.  
 6. Export the journal table to Excel and manually enter the posting and balancing account information from the legacy data.
@@ -39,7 +43,11 @@ Before you start, make sure that you are using the Administration Role Centre pa
 9. Review the information, and then choose the **Post** action.  
 10. Repeat the steps to import and post any other opening balances.  
 
-## <a name="see-also"></a>See Also  
+> [!TIP]
+> You can use the same batch jobs to add opening balances whenever you register a new customer or vendor that you have done business with before but not registered in [!INCLUDE [prodshort](includes/prodshort.md)]. Just search for the relevant task, and then choose the relevant link.
+
+## <a name="see-also"></a>See Also
+
 [Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
-[Administration](admin-setup-and-administration.md)
+[Administration](admin-setup-and-administration.md)  

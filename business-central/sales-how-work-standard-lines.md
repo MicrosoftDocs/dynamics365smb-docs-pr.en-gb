@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 05/25/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4da1195333f6b36866f55ee02123f75df4778de0
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 70ce34984a98631d20c2d836164f9328fbb15a2a
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402567"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577183"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Create Recurring Sales and Purchase Lines
 If you often need to create sales and purchase lines with similar information, you can set up standard lines that you can then insert on recurring sales and purchase documents, for example, for recurring replenishment orders.  
@@ -31,6 +31,8 @@ The following procedures show how to work with standard sales lines on a sales i
 
 > [!NOTE]
 > You cannot define prices on recurring sales lines because prices, discounts, etc. are calculated on the actual sales documents after you insert the recurring sales lines.
+
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## <a name="to-assign-recurring-sales-lines-to-a-customer"></a>To assign recurring sales lines to a customer
 
