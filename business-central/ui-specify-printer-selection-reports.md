@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
-ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
+ms.author: edupont
+ms.openlocfilehash: 4bf794dd423a2049887eb1a4fe725a091fdbd190
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3549874"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781192"
 ---
 # <a name="set-up-printers"></a>Set Up Printers
 Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it cannot reach local printers connected to users' machines. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
