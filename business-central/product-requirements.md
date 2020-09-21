@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 05/06/2020
+ms.date: 08/25/2020
 ms.author: edupont
-ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 65d8295c6beb4fe918ad11434bc9813c34e81a93
+ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528720"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3731225"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimum Requirements for Using Business Central
 Before you access [!INCLUDE[prodshort](includes/prodshort.md)] online, we recommend that you verify that your computer or mobile device meets or exceeds the minimum system requirements for the product. This article lists the requirements.  
@@ -32,6 +32,9 @@ Before you access [!INCLUDE[prodshort](includes/prodshort.md)] online, we recomm
 
 **Microsoft Edge Legacy:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the legacy version of Microsoft Edge.  
 **Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-bit and 64-bit versions). We recommend that you upgrade to the latest version of Internet Explorer supported for your version of Windows. You can also run the new Edge and still access other websites that require Internet Explorer. For more information, see [Microsoft Edge documentation](/deployedge/edge-ie-mode).
+
+> [!IMPORTANT]
+> Starting in April 2021, Internet Explorer 11 and Edge Legacy will no longer be supported. We recommend you switch to one of the recommended modern browsers as soon as possible.
 
 ## <a name="mobile-devices"></a>Mobile devices
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows can be installed on devices with at least 1 GB of RAM and Windows 10 Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  

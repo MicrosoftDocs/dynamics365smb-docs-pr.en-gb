@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 46b976894854781ee2d8198deed316f94189c007
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 97cd7c2f74875317a3d4559c15d0bd22367e6df7
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188331"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778099"
 ---
 # <a name="delete-workflows"></a>Delete Workflows
 If you are certain that a workflow is no longer being used, you can delete it. All workflow step instances that are defined in the workflow must have status **Completed**.  

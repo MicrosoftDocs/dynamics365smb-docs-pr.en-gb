@@ -8,12 +8,12 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 42ad388e6c07ca259d4ef6095b9f8c908b509407
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196906"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693031"
 ---
 # <a name="handling-missing-option-values"></a>Handling Missing Option Values
 [!INCLUDE[d365fin](includes/cds_long_md.md)] contains only three option set fields that contain option values that you can map to [!INCLUDE[d365fin](includes/d365fin_md.md)] fields of Option type<!-- Option type, not enum? @Onat can you vertify this? --> for automatic synchronisation. During synchronisation, non-mapped options are ignored and the missing options are appended to the related [!INCLUDE[d365fin](includes/d365fin_md.md)] table and added to the **CDS Option Mapping** system table to handle manually later. For example, by adding the missing options in either product and then updating the mapping. This section describes how that works.
@@ -99,6 +99,9 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 
 > [!IMPORTANT]  
 > You must use the same option ID values from [!INCLUDE[d365fin](includes/cds_long_md.md)] when you extend the [!INCLUDE[d365fin](includes/d365fin_md.md)] enum. Otherwise synchronisation will fail.
+
+> [!IMPORTANT]  
+> Do not use character "," in the Enum values and captions. This is currently not supported by the [!INCLUDE[d365fin](includes/d365fin_md.md)] runtime.
 
 > [!NOTE]
 > The first ten characters of the new option value names and captions must be unique. For example, two options named "Transfer 20 working days" and "Transfer 20 calendar days" will cause an error because both have the same first 10 characters, "Transfer 2". Name them, for example, "TRF20 WD" and "TRF20 CD."

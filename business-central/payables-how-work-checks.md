@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 787f6eecef82abf7b76bf7273b49deb13b18554a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503805"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777993"
 ---
 # <a name="make-check-payments"></a>Make Cheque Payments
 
@@ -47,7 +47,7 @@ The following describes how to pay a vendor by cheque. The steps are similar to 
 6. On the **Cheque** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. If your printer is set up to print cheques, choose the **Print** button. Otherwise, choose the **Send to** button, select the **PDF Document** option, choose the **OK** button, and then print the PDF document.
 
-    The physical cheques can now be brought to the bank for processing. Proceed to post the payment as applied to the vendor and thereby paid in the system.
+    The physical cheques can now be sent to the vendors for processing. Proceed to post the payment as applied to the vendor and thereby paid in the system.
 8. Choose the **Post** action.
 
 Fully applied vendor ledger entries and bank ledger entries are created.
@@ -61,7 +61,11 @@ You can cancel non-posted cheques after they have been printed by using the **Vo
 1. On the **Payment Journal** page, choose the **Void Cheque**, and then choose which cheques to cancel.
 
 ## <a name="to-void-checks"></a>To void cheques
+
 When cheque payment have been posted, you can only cancel (void) cheques from the resulting bank ledger entries.
+
+> [!IMPORTANT]
+> If the cheque is applied to an invoice, unapply the cheque first so that the invoice can be repaid, and then void the cheque. If the cheque was printed and did not pay an invoice, then choose **Void Cheque Only** as described in this section.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the relevant bank account, choose the **Edit** action, and then choose the **Cheque Ledger Entries** action.

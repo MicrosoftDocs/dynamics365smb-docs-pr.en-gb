@@ -8,21 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 4567f62a7866f6d02103f8f80aea13b92415d0bd
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 37b813e417d4d20be5c35678639f9f4c49184e33
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528695"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693056"
 ---
 # <a name="become-a-reseller-of-d365fin_long"></a>Become a Reseller of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+
 Expand your business opportunity with [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
 
-If you specialise in Cloud solutions, Office 365, SharePoint, industry solutions, analytics, ERP, CRM, accounting software, and/or business process optimisation software/services, Business Central is a new opportunity.   
+If you specialise in Cloud solutions, Office 365, SharePoint, industry solutions, analytics, ERP, CRM, accounting software, and/or business process optimisation software/services, Business Central is a new opportunity.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] can help you differentiate and deepen customer relationships by giving you the capability to deliver an end-to-end business management solution that’s connecting people and processes like never before, embedded within familiar Microsoft Office tools that small and medium businesses use every day.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] can help you differentiate and deepen customer relationships by giving you the capability to deliver an end-to-end business management solution that's connecting people and processes like never before, embedded within familiar Microsoft Office tools that small and medium businesses use every day.  
 
 ## <a name="get-started"></a>Get started
 
@@ -32,4 +33,4 @@ The "Ready to Go" programme is one way to get started as a [!INCLUDE[prodshort](
 
 [Getting Started](product-get-started.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1)  
+[https://appsource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646)  

@@ -4,13 +4,13 @@ description: Find all the available learning for Business Central.
 author: loreleishannonmsft
 ms.date: 08/10/2020
 ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 547d02d6a1fb76ae5f3ad64feb265b69edf0bf64
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: margoc
+ms.openlocfilehash: 59653a67bd300a8359a82648e3bac6b919d2b233
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676828"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779175"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Partner Pre-Sales Learning Catalogue
 
@@ -77,4 +77,4 @@ The following catalogue is organised from core knowledge to specific domains, an
 | [Demo: Customer Approval Process - Summer 2019](https://youtu.be/_Oyj6DBAuPI) | Join Craig as he shows a basic business process of onboarding a new customer. | YouTube video | 3 minutes 24 seconds |
 | [Demo: Consolidating Companies - Summer 2019](https://youtu.be/A4SExgt7wV4) | Join Craig as he shows you how to consolidate companies using Business Central. | YouTube video | 2 minutes 15 seconds |
 | [Demo: Automate Accounts Payable - Summer 2019](https://youtu.be/RB3_7UTpEjo) | Join Craig as he shows you one way in which you can automate accounts payable process using Business Central. | YouTube video | 3 minutes 51 seconds |
-| [Demo: Setting up a new company](https://youtu.be/ZHg4UXTOEp8) | Join Craig as he shows you ohow to set up a new company using Business Central | YouTube video | 4 minutes 48 seconds |
+| [Demo: Setting up a new company](https://youtu.be/ZHg4UXTOEp8) | Join Craig as he shows you how to set up a new company using Business Central | YouTube video | 4 minutes 48 seconds |

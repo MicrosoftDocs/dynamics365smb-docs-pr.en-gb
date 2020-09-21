@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ab94492b95947dd52e0b4158ce8486794c008afd
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 9d5a971f8a4d88c7806e6bfb732c9348a3f9a035
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676628"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778152"
 ---
 # <a name="print-remittance-advice"></a>Print Remittance Advice
 You can print remittance advice before posting a payment journal and after posting a payment. This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.  

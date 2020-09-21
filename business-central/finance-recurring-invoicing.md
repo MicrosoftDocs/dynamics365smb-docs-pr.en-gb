@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
-ms.date: 05/27/2020
+ms.date: 08/12/2020
 ms.author: andreipa
-ms.openlocfilehash: a0439557ce69b3c53406bd43b3b76cdf9ae73a10
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: fbc512242a335a938b6280e749f5278947e0db5e
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410794"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693156"
 ---
 # <a name="work-with-recurring-revenue-in-d365fin"></a>Work with recurring revenue in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -107,7 +107,7 @@ For more information, see [Recurring Orders (Norway)](/localfunctionality/norway
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Recurring revenue and subscription billing by other providers
 
-At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get extensions for Business Central. Some extensions are provided by Microsoft, and other extensions are provided by other companies. The list of the extensions by other companies grows each month. So keep an eye out for [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) and get apps to help you in your work in Business Central.  
+At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get extensions for Business Central. Some extensions are provided by Microsoft, and other extensions are provided by other companies. The list of the extensions by other companies grows each month. So keep an eye out for [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) and get apps to help you in your work in Business Central.  
 
 ## <a name="see-also"></a>See also 
 

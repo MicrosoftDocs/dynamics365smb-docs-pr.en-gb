@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/09/2020
+ms.date: 08/19/2020
 ms.author: soalex
-ms.openlocfilehash: 9520817ac661de07e4f0ddcc96a9b9dd3bb57ec6
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: f9644f4b125a4d23c31de05e9a39004d0dde4661
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454399"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701808"
 ---
 # <a name="united-kingdom-local-functionality"></a>United Kingdom Local Functionality
 
@@ -27,7 +27,7 @@ The following topics describe local functionality that is unique to the United K
     * [Making Tax Digital - VAT Returns submission](making-tax-digital-submit-vat-return.md) **Available Now**
     * [Change VAT Setup in Journals](how-to-change-vat-setup-in-journals.md) **Available Now**
     * [Print VAT Audit Reports](how-to-print-vat-audit-reports.md) **Available Now**
-    * [Print VAT Reports](how-to-print-vat-reports.md)|Current|
+    * [Print VAT Reports](how-to-print-vat-reports.md) **Available Now**
     * [Set Up Reverse Charges on VAT](how-to-set-up-reverse-charges-on-vat.md) **Available Now**
 
 * Banking & Payments
@@ -46,7 +46,7 @@ The following topics describe local functionality that is unique to the United K
 
 ## <a name="see-also"></a>See Also
 
-[Preparing for the United Kingdom to leave the European Union](united-kingdom-leaving-eu.md)  
+[Using Business Central after the United Kingdom Has Left the European Union](united-kingdom-leaving-eu.md)  
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
