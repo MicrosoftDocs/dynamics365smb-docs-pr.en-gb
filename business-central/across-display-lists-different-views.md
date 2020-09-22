@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4d97afb002ddce4306ffa7238a4fb362f9e26158
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: cb9c29f6123edc4cad2b5e34381db574fab3685a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188783"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784264"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Displaying Lists in Different Ways
 In the right corner of any list in [!INCLUDE[d365fin](includes/d365fin_md.md)] you will find icons that let you choose how the list of records is displayed. A list can be displayed as detailed rows, which is ideal when you need to work with many fields or edit fields in the list. But you can also switch to display records as tiles, which is more compact and shows less fields on the specific record. This is very useful to gain an overview of several entries and is in particular useful on smaller devices, because it is compact and easier to tap.

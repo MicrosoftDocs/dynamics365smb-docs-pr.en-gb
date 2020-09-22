@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2e962552bf091e095a968f6f312e852e02aad8d6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: f9b92b0a884588e6cbf068d9d6e3a8d6d2ea87fc
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195026"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784491"
 ---
 # <a name="setting-up-troubleshooting-for-service-items"></a>Setting Up Troubleshooting for Service Items
 You can set up troubleshooting guidelines that help technicians solve problems when providing service. For example, guidelines might be a list of steps to perform a repair, or a series of questions to ask about the items. After you set up troubleshooting guidelines, you can assign them to service item groups, service items, and items. There is an inheritance hierarchy for guidelines. If you assign them to a service item group, the items included in the group will inherit the guidelines unless you specify them for the items. Similarly, service items will inherit guidelines from items.  

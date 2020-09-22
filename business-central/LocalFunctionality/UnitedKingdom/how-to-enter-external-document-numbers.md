@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/15/2020
-ms.author: sgroespe
-ms.openlocfilehash: 963403e07530a9eb7239647fea02e8cf67d3c977
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: dbcc07b5c89bb513b703e774b0927dec69b6e1c8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676630"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784889"
 ---
 # <a name="enter-external-document-numbers"></a>Enter External Document Numbers
 

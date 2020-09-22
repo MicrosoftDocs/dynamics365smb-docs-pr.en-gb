@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4567bdc42cc7ef9434957d77b2675db78a7fd6f2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 4a54ed9896c6d9921d13f2a4c9c43ed1ba5b7eea
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184323"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784666"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Set Up Fixed Asset Depreciation
  You can use various methods of depreciation for preparing financial statements and income VAT returns. Many large corporations use straight-line depreciation in their financial statements because this generally permits reporting higher earnings. For income tax purposes, however, many businesses use an accelerated depreciation method, such as declining-balance depreciation. You define an asset's depreciation method with the **Depreciation Method** field on the **Fixed Asset Card** page. For more information about what the different methods do, see [Depreciation Methods](fa-depreciation-methods.md).

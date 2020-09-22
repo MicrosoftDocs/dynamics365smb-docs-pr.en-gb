@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 72baaa4304ac3bc64f66b02360a0d8ae2a00b174
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5e1871083613b2e280cf2fbf2d610c996eccd542
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183843"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786428"
 ---
 # <a name="creating-cost-budgets"></a>Creating Cost Budgets
 Budgeting in cost accounting resembles budgeting in the general ledger. A cost budget is created based on cost types just as a budget for the general ledger is created based on general ledger accounts.  
