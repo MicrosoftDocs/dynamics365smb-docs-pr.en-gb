@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 59884fbde8cb466a84bdd243aed92ca0143eb709
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: d2ca7c9d062ec4f6e6f30111b06e1899921e6405
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191002"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782955"
 ---
 # <a name="set-up-purchasers"></a>Set Up Purchasers
 If several purchasers work at your company, you can set them up in a page and assign them each a code. You can then use the codes to prepare statistics and to filter information in printed reports.<br><br>  

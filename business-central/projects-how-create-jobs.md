@@ -7,13 +7,13 @@ ms.topic: article
 ms.workload: na
 ms.search.keywords: project management, task
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2dd4dfa75f5ff8fc127da1e6981b3a23641362f0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5db8c77ab8525ce4e8bd4b461c162448730f4eff
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191290"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783938"
 ---
 # <a name="create-jobs"></a>Create Jobs
 When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.  

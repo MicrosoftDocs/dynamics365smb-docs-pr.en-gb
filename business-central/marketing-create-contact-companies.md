@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 67b11d9c763ef4688af35a3f9cd83ee8c364fcee
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: 463b14d5c20818691bcc130281e7cc4247da2c4c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528444"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784164"
 ---
 # <a name="create-contacts"></a>Create Contacts
 You regularly meet persons from other companies that may develop into business relationships, such as a customer relation. When such a new contact is made, as much information as possible must be recorded on a contact card so that communication can continue.

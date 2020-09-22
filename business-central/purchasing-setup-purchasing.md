@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 34d3dc87da0c8f20558a6e32b9c979f84f9a0018
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: bda110a8d97376b283461bb0c2c6a6b7f334ba4d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190906"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783286"
 ---
 # <a name="setting-up-purchasing"></a>Setting Up Purchasing
 Before you can manage purchase processes, you must configure the rules and values that define the company's purchase policies.

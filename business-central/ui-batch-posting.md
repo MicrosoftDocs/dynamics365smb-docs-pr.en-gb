@@ -8,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 32998248de254facdb225d60a0c8b55066b2707c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 2c04dac37b043995a9b78e2f662f9411c3cf9ae1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192106"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782525"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Post Multiple Documents at the Same Time
+
 Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for immediate posting or for batch posting according to a schedule, such as at the end of the day. This may be useful if only a supervisor can post documents created by other users or to avoid system performance issues from posting during work hours.
 
 ## <a name="to-post-multiple-purchase-orders-immediately"></a>To post multiple purchase orders immediately
+
 The following procedure explains how to post multiple purchase orders immediately. The steps are similar for all purchase and sales documents.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
@@ -31,10 +33,11 @@ The following procedure explains how to post multiple purchase orders immediatel
 6. Choose the **Yes** button on the confirmation message.
 
 ## <a name="to-batch-post-multiple-purchase-orders"></a>To batch post multiple purchase orders
+
 The following procedure explains how to batch post purchase orders. The steps are similar for all purchase and sales documents where the **Batch Post** action is available.
 
 > [!NOTE]
-> Batch posting of documents happens in the background as defined by a job queue entry, which must first be set up. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
+> Batch posting of documents happens in the background. [!INCLUDE [prodshort](includes/prodshort.md)] online includes default jobs for background posting and batch posting. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2. On the **Purchase Orders** page, proceed to select all orders to be posted:
@@ -42,10 +45,6 @@ The following procedure explains how to batch post purchase orders. The steps ar
 4. Select the check box for all the lines representing orders that you want to post at the same time.
 5. Choose the **Posting** action, and then choose the **Post Batch** action.
 6. On the **Batch Post Purchase Order** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-    > [!NOTE]
-    > To print related reports when posting, such as the **Order Confirmation** report for sales orders, select the **Print** check box.<br /><br /> In the **Report Output Type** field on the **Sales and Receivables Setup** page or **Purchases and Payables Setup** page, you define if the report will be printed or output as a PDF.<br /><br /> Note also that direct printing to a selected printer is only possible in on-premises installations.
-
 7. Choose the **OK** button.
 8. To view potential issues that occurred during batch posting of documents, open the **Error Message Register** page.
 
@@ -54,6 +53,7 @@ The purchase orders will now be added to a dedicated job queue entry, which defi
 If you select **PDF** in the **Report Output Type** field, successfully posted purchase orders will be available in the **Report Inbox** part on your Role Centre.
 
 ## <a name="see-also"></a>See Also
+
 [Posting Documents and Journals](ui-post-documents-journals.md)  
 [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  
 [Edit Posted Documents](across-edit-posted-document.md)  
