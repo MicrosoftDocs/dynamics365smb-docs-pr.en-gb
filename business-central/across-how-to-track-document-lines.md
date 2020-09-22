@@ -9,29 +9,29 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/14/2020
-ms.author: sgroespe
-ms.openlocfilehash: 48d8e3baf3adfbd4836cadb638949e54555a39c9
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.author: edupont
+ms.openlocfilehash: ee77fe46999d6b586d7c524232ba4883f9c18340
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577385"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781992"
 ---
-# <a name="track-document-lines"></a><span data-ttu-id="27a14-105">Track Document Lines</span><span class="sxs-lookup"><span data-stu-id="27a14-105">Track Document Lines</span></span>
-<span data-ttu-id="27a14-106">You can view documents that are related to sales order lines and purchase order lines, including from archived order lines.</span><span class="sxs-lookup"><span data-stu-id="27a14-106">You can view documents that are related to sales order lines and purchase order lines, including from archived order lines.</span></span> <span data-ttu-id="27a14-107">Related documents that you can track include quotes, shipments, receipts, and blanket orders.</span><span class="sxs-lookup"><span data-stu-id="27a14-107">Related documents that you can track include quotes, shipments, receipts, and blanket orders.</span></span> <span data-ttu-id="27a14-108">This helps you to identify documents used to process orders.</span><span class="sxs-lookup"><span data-stu-id="27a14-108">This helps you to identify documents used to process orders.</span></span>  
+# <a name="track-document-lines"></a><span data-ttu-id="29381-105">Track Document Lines</span><span class="sxs-lookup"><span data-stu-id="29381-105">Track Document Lines</span></span>
+<span data-ttu-id="29381-106">You can view documents that are related to sales order lines and purchase order lines, including from archived order lines.</span><span class="sxs-lookup"><span data-stu-id="29381-106">You can view documents that are related to sales order lines and purchase order lines, including from archived order lines.</span></span> <span data-ttu-id="29381-107">Related documents that you can track include quotes, shipments, receipts, and blanket orders.</span><span class="sxs-lookup"><span data-stu-id="29381-107">Related documents that you can track include quotes, shipments, receipts, and blanket orders.</span></span> <span data-ttu-id="29381-108">This helps you to identify documents used to process orders.</span><span class="sxs-lookup"><span data-stu-id="29381-108">This helps you to identify documents used to process orders.</span></span>  
 
-## <a name="to-track-documents-related-to-a-sales-order-line"></a><span data-ttu-id="27a14-109">To track documents related to a sales order line</span><span class="sxs-lookup"><span data-stu-id="27a14-109">To track documents related to a sales order line</span></span>
-<span data-ttu-id="27a14-110">The following procedure describes how to track from a sales order line.</span><span class="sxs-lookup"><span data-stu-id="27a14-110">The following procedure describes how to track from a sales order line.</span></span> <span data-ttu-id="27a14-111">The steps are similar for purchase order and blanket order lines.</span><span class="sxs-lookup"><span data-stu-id="27a14-111">The steps are similar for purchase order and blanket order lines.</span></span>
+## <a name="to-track-documents-related-to-a-sales-order-line"></a><span data-ttu-id="29381-109">To track documents related to a sales order line</span><span class="sxs-lookup"><span data-stu-id="29381-109">To track documents related to a sales order line</span></span>
+<span data-ttu-id="29381-110">The following procedure describes how to track from a sales order line.</span><span class="sxs-lookup"><span data-stu-id="29381-110">The following procedure describes how to track from a sales order line.</span></span> <span data-ttu-id="29381-111">The steps are similar for purchase order and blanket order lines.</span><span class="sxs-lookup"><span data-stu-id="29381-111">The steps are similar for purchase order and blanket order lines.</span></span>
 
-1.  <span data-ttu-id="27a14-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="27a14-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="27a14-113">Open a sales order that you want to track from.</span><span class="sxs-lookup"><span data-stu-id="27a14-113">Open a sales order that you want to track from.</span></span>  
-3.  <span data-ttu-id="27a14-114">Select a line, and then choose the **Document Line Tracking** action.</span><span class="sxs-lookup"><span data-stu-id="27a14-114">Select a line, and then choose the **Document Line Tracking** action.</span></span>
-4. <span data-ttu-id="27a14-115">On the **Document Lines Tracking** page, select the document that you want to view, and then choose the **Show** action to see the related line.</span><span class="sxs-lookup"><span data-stu-id="27a14-115">On the **Document Lines Tracking** page, select the document that you want to view, and then choose the **Show** action to see the related line.</span></span>
-5. <span data-ttu-id="27a14-116">To view the entire document for the selected document line, choose the **Show Document** action.</span><span class="sxs-lookup"><span data-stu-id="27a14-116">To view the entire document for the selected document line, choose the **Show Document** action.</span></span>
+1.  <span data-ttu-id="29381-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="29381-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="29381-113">Open a sales order that you want to track from.</span><span class="sxs-lookup"><span data-stu-id="29381-113">Open a sales order that you want to track from.</span></span>  
+3.  <span data-ttu-id="29381-114">Select a line, and then choose the **Document Line Tracking** action.</span><span class="sxs-lookup"><span data-stu-id="29381-114">Select a line, and then choose the **Document Line Tracking** action.</span></span>
+4. <span data-ttu-id="29381-115">On the **Document Lines Tracking** page, select the document that you want to view, and then choose the **Show** action to see the related line.</span><span class="sxs-lookup"><span data-stu-id="29381-115">On the **Document Lines Tracking** page, select the document that you want to view, and then choose the **Show** action to see the related line.</span></span>
+5. <span data-ttu-id="29381-116">To view the entire document for the selected document line, choose the **Show Document** action.</span><span class="sxs-lookup"><span data-stu-id="29381-116">To view the entire document for the selected document line, choose the **Show Document** action.</span></span>
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="see-also"></a><span data-ttu-id="27a14-117">See Also</span><span class="sxs-lookup"><span data-stu-id="27a14-117">See Also</span></span>
-[<span data-ttu-id="27a14-118">Sales</span><span class="sxs-lookup"><span data-stu-id="27a14-118">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="27a14-119">General Business Functionality</span><span class="sxs-lookup"><span data-stu-id="27a14-119">General Business Functionality</span></span>](ui-across-business-areas.md)  
-<span data-ttu-id="27a14-120">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="27a14-120">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="29381-117">See Also</span><span class="sxs-lookup"><span data-stu-id="29381-117">See Also</span></span>
+[<span data-ttu-id="29381-118">Sales</span><span class="sxs-lookup"><span data-stu-id="29381-118">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="29381-119">General Business Functionality</span><span class="sxs-lookup"><span data-stu-id="29381-119">General Business Functionality</span></span>](ui-across-business-areas.md)  
+<span data-ttu-id="29381-120">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="29381-120">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
