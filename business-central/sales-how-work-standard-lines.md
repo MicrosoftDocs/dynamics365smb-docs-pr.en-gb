@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 07/14/2020
-ms.author: sgroespe
-ms.openlocfilehash: 70ce34984a98631d20c2d836164f9328fbb15a2a
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.author: edupont
+ms.openlocfilehash: 804ad75b198d3eb0935ecd3d730e4222e0f5df82
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577183"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788857"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Create Recurring Sales and Purchase Lines
 If you often need to create sales and purchase lines with similar information, you can set up standard lines that you can then insert on recurring sales and purchase documents, for example, for recurring replenishment orders.  
