@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3fe943fd3c2925f1c80107e23b389cd09958a47b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 962f7762db6cae08b2ac7080898df629015d79e7
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184707"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787195"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Design Details: Searching for Dimension Combinations
 When you close a page after you edit a set of dimensions, [!INCLUDE[d365fin](includes/d365fin_md.md)] evaluates whether the edited set of dimensions exists. If the set does not exist, a new set is created and the dimension combination ID is returned.  

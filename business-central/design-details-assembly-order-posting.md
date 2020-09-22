@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2c90a6b4a122c9a224e26ef57a03a7f6c981177f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 22a31f050c1b1a25e17076c3f1469d97b638add5
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185811"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788253"
 ---
 # <a name="design-details-assembly-order-posting"></a>Design Details: Assembly Order Posting
 Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption/output. However, the principles are combined in that assembly orders have their own posting UI, like that for sales orders, while the actual entry posting happens in the background as direct item and resource journal postings, like that for production consumption, output, and capacity.  

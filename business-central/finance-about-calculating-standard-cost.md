@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 208f07fe68fac326d5cc444b498d9cca09fd231b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 10a510f48dbe84da175a5b95248f02fa822e659f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184275"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788528"
 ---
 # <a name="about-calculating-standard-cost"></a>About Calculating Standard Cost
 Many manufacturing companies select a valuation base of standard cost. This also applies to companies that perform light manufacturing, such as assembly and kitting. A standard cost system determines inventory unit cost based on some reasonable historical or expected cost. Studies of past and estimated future cost data can then provide the basis for standard costs. These costs are frozen until a decision is made to change them. The actual cost to produce a product may differ from the estimated standard costs. For management control, the actual cost is compared to the standard cost for a specific item and differences, or *variances*, are identified and analysed.  

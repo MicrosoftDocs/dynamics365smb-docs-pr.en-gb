@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 872e451302ffa3f6dcebe55886b2af943424bba7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 6cfe028d21086269f1492aefde31fe6b659d06b4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185691"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788128"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Design Details: Central Concepts of the Planning System
 The planning functions are contained in a batch job that first selects the relevant items and period to plan for. Then, according to each item’s low-level code (BOM position), the batch job calls a code unit, which calculates a supply plan by balancing supply-demand sets and suggesting possible actions for the user to take. The suggested actions appear as lines in the planning worksheet or the requisition worksheet.  

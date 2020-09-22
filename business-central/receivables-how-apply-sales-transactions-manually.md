@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 74031e19332bb258323559a51fa22c486c880edb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 84c5107df8603585e4bf304d4a8c56fec87fb282
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192034"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788420"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries
 When you receive a cash receipt from a customer, or you make a cash refund, you must decide whether to apply the payment or refund to close one or more open debit or credit entries. You can specify the amount you want to apply. For example, you can apply partial payments to customer ledger entries. Closing customer ledger entries makes sure that information such as customer statistics, account statements, and finance charges are correct.

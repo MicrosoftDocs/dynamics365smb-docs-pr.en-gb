@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 10eb4e51a90437d847d01fdbf577adba8c8275eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: dbab0b20fd46235b549e48950d23879229e6dc1c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185763"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788228"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Design Details: Availability in the Warehouse
 The system must keep a constant control of item availability in the warehouse, so that outbound orders can flow efficiently and provide optimal deliveries.  

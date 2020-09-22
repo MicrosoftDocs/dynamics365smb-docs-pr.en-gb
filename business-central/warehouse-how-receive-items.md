@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/07/2020
-ms.author: sgroespe
-ms.openlocfilehash: 99aab6de06cd50d53b977ed37a863cad28fab8fa
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 038ecb0122e58cfdca3ff62ac93554fab01dcdb6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542674"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786603"
 ---
 # <a name="receive-items"></a>Receive Items
 
@@ -32,7 +32,8 @@ The following describes how to receive items with a purchase order. The steps ar
 3. In the **Qty. to Receive** field, enter the received quantity.
 
   > [!NOTE]
-  > If the received quantity is higher than ordered on the purchase order, per the **Quantity** field, and the vendor has been set up to allow over-receipts, then you use the **Over-Receive** field top handle the excess quantity. For more information, see [To receive more items than ordered](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+  > If the received quantity is higher than ordered on the purchase order, per the **Quantity** field, and the vendor has been set up to allow over-receipts, then you use the **Over-Receive** field to handle the excess quantity. For more information, see [To receive more items than ordered](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+
 4. Choose the **Post** action.
 
   The value in the **Qty. Received** field is updated. If this is a partial receipt, then the value is lower than the value in the **Quantity** field.

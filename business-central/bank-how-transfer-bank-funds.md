@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a21cabaf2f3edc9e8f1f261a9f9169c3cb611b61
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 0183f9a8184b67cb10155b3aecfd7ab4a121eb6c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186219"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786553"
 ---
 # <a name="transfer-bank-funds"></a>Transfer Bank Funds
 You may sometimes need to transfer an amount from one bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)] to another. To do this, you must post the a transaction on the **General Journal** page. The task varies depending on whether the bank accounts use the same currency or different currencies.

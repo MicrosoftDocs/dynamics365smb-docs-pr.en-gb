@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 06/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6016feb4a65fe869d2c29c107afc19dd7756b011
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.author: edupont
+ms.openlocfilehash: b0948dce78320d677ac7362bdfbe6971da789911
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503651"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787153"
 ---
 # <a name="design-details-transfers-in-planning"></a>Design Details: Transfers in Planning
 Transfer orders are also a source of supply when working at the SKU level. When using multiple locations (warehouses), the SKU replenishment system can be set to Transfer, implying that the location is replenished by transferring goods from another location. In a situation with more warehouses, companies might have a chain of transfers where supply to GREEN location is transferred from YELLOW, and supply to YELLOW is transferred from RED and so on. In the beginning of the chain, there is a replenishment system of Prod. Order or Purchase.  
