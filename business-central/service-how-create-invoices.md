@@ -8,42 +8,42 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/20/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 66a32f8ecdc0ddd07794be9354edc75adf96df42
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 4cdc60905f03b5fab6ae43b8a5a99cda352e03c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402532"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925847"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Create Service Invoices or Credit Memos
 Ease in invoicing your service orders is a key feature of [!INCLUDE[prodshort](includes/prodshort.md)]. You can set up your [!INCLUDE[prodshort](includes/prodshort.md)] so that a service technician in the field can create an invoice for a service that is not connected to a contract or order. Alternatively, set up [!INCLUDE[prodshort](includes/prodshort.md)] so that you invoice service contracts periodically. The invoice period for each contract defines how often you invoice it.
 
 ## <a name="to-invoice-several-service-contracts"></a>To invoice several service contracts
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Service Contract Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Service Contract Invoices** , and then choose the related link.  
 2. Set the filters you want to apply.  
 3. In the **Posting Date** field, enter the date to use as the posting date on the service invoices.  
 4. In the **Invoice to Date** field, enter the date up to which you want to invoice contracts. The batch job will include the contracts with the next invoice dates, up to this date.  
-5. In the **Action** field, choose **Create Invoices**.  
+5. In the **Action** field, choose **Create Invoices** .  
 6. Choose **OK** to create the service invoices.  
   
 You can also invoice a service contract directly from the **Service Contract** page, if the next invoice date on the contract is earlier than the working date.
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>To invoice a service contract from the Service Contract page   
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts** , and then choose the related link.  
 2. Choose the service contract to invoice, and open the contract card.  
 3. Choose **Create Service Invoice** action. 
 4. Choose **Yes** to create the service invoices.  
   
   > [!NOTE]  
-  > You cannot create service invoices for the service contract when the **Change Status** field value is set to **Open**.  
+  > You cannot create service invoices for the service contract when the **Change Status** field value is set to **Open** .  
 
 ## <a name="to-post-an-invoice-from-a-service-order"></a>To post an invoice from a service order  
 The following procedure describes how to define the part of service that you will charge the customer for.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders** , and then choose the related link.  
 2. Choose the service order to invoice, and open the order card.  
 3. Choose the **Service Lines** action.  
 4. Find the required entries, and then specify the quantities for which you will charge the customer in the **Qty. to Invoice** field.  
@@ -53,16 +53,16 @@ The following procedure describes how to define the part of service that you wil
    >  
    > When you post a partial invoice, there are two ways of specifying the quantity to invoice. If you are going to post the service with **the Ship and Invoice** option, the value in the **Qty. to Invoice** field must be equal to that in the **Qty. to Ship** field. If you want to invoice an already posted shipment, the quantity to invoice must be no larger than the value in the **Quantity Shipped** field.  
   
-5. Choose **Post**, and then either **Invoice** or **Ship and Invoice**. For more information about these options, see [Posting in Service Management](service-service-posting.md).  
+5. Choose **Post** , and then either **Invoice** or **Ship and Invoice** . For more information about these options, see [Posting in Service Management](service-service-posting.md).  
   
- The service line you have selected is posted. You can post several service lines at once by selecting them all and choosing **Post**. If you do this, make sure you have filled in all the necessary information on the lines you want to post.  
+ The service line you have selected is posted. You can post several service lines at once by selecting them all and choosing **Post** . If you do this, make sure you have filled in all the necessary information on the lines you want to post.  
   
  When you post the order with the **Invoice** option, a posted service invoice is created along with the corresponding ledger entries and updates to the relevant fields on the service lines of the order. In addition, previously posted shipment documents are updated with the quantities that have been invoiced. If you select the **Ship and Invoice** posting option, a posted shipment is created.
 
 ## <a name="to-create-a-service-invoice-manually"></a>To create a service invoice manually  
 Typically, after you post a service order with the **Invoice** or **Ship and Invoice** option, a service invoice is posted automatically. Yet, you may need to issue an invoice that is not linked either to a service contract or to a service order. This procedure explains how to issue an invoice at the same time that the customer receives the service.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Invoices** , and then choose the related link.  
 2. Create a new service invoice.  
 3. Fill in the **No.** field.  
   
@@ -75,12 +75,12 @@ Typically, after you post a service order with the **Invoice** or **Ship and Inv
   
 5. Enter a date in the **Posting Date** field. This date will appear on the posted entries. This field is filled with the current working date, but you can change it manually.  
 6. Fill in the **Document Date** field. The date you enter here will appear on the printed invoice and will be used to calculate the due date.  
-7. Fill in the service lines of the invoice. Fill in the **Type**, **No.**, and **Quantity** fields to register items, resources and costs that have been used in servicing. 
+7. Fill in the service lines of the invoice. Fill in the **Type** , **No.** , and **Quantity** fields to register items, resources and costs that have been used in servicing. 
 
 ## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>To create an invoice that combines posted shipment lines from one or more service orders 
 You might need to create a service invoice for the service that has already been shipped, either from one or several service orders, but not yet invoiced or consumed. You can fill in the invoice lines automatically with the selected posted shipment lines for a specific customer.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Invoices** , and then choose the related link.  
 2. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 3. Create invoice lines for services shipped but not invoiced. Alternatively, you can use the **Get Shipment Lines** action to add posted shipment lines to the invoice.  
 4. Post the service invoice.  
@@ -90,7 +90,7 @@ You might need to create a service invoice for the service that has already been
 ## <a name="to-create-a-service-credit-memo"></a>To create a service credit memo  
 A service credit memo document is typically used when a customer returns an item, but it can also be used to give a customer some compensation or to correct an erroneous invoice.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Credit Memos**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Credit Memos** , and then choose the related link.  
 2. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. The **Posting Date** and **Document Date** fields display the work date. If needed, you can change it.    
 4. On the credit memo lines, enter information about the items that have been returned or removed, or the compensation that will be given to the customer.  

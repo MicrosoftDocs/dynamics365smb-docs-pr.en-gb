@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 541d3842977e7b139877d9a26fcc39b448ef9745
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b6999be84e2fdaca2eefef41c339c366c330a3dc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786978"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925037"
 ---
 # <a name="about-planning-functionality"></a>About Planning Functionality
 
@@ -97,7 +97,7 @@ For more information, see [Design Details: Planning Parameters](design-details-p
 On most supply orders, such as production orders, you can select **Unlimited** or **None** in the **Planning Flexibility** field on the lines.
 
 This specifies whether the supply represented by the production order line is considered by the planning system when calculating action messages.
-If the field contains **Unlimited**, then the planning system includes the line when calculating action messages. If the field contains **None**, then the line is firm and unchangeable, and the planning system does not include the line when calculating action messages.
+If the field contains **Unlimited** , then the planning system includes the line when calculating action messages. If the field contains **None** , then the line is firm and unchangeable, and the planning system does not include the line when calculating action messages.
 
 ### <a name="warning"></a>Warning
 
@@ -148,7 +148,7 @@ The **Requisition Worksheet** page lists items that you want to order. You can e
 
 - Enter the items manually in the worksheet and fill in the relevant fields.
 
-- Use the **Calculate Plan** batch job. This calculates a replenishment plan for items and stockkeeping units that have been set up with a replenishment system of **Purchase** or **Transfer**. When you use this batch job, the program automatically fills in the **Action Message** field with a suggestion for an action you can take to replenish the item. This could be increasing the item quantity on an existing order or creating a new order, for example.
+- Use the **Calculate Plan** batch job. This calculates a replenishment plan for items and stockkeeping units that have been set up with a replenishment system of **Purchase** or **Transfer** . When you use this batch job, the program automatically fills in the **Action Message** field with a suggestion for an action you can take to replenish the item. This could be increasing the item quantity on an existing order or creating a new order, for example.
 
 - If you have used the **Calculate Plan** batch job from the **Planning Worksheet** page to calculate a replenishment plan, you can use the **Carry Out Action Message** batch job to copy purchase and transfer order proposals from the planning worksheet to the requisition worksheet. This is practical if separate users are responsible for handling production orders and purchase/transfer orders.
 

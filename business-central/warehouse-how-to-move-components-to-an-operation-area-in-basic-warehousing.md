@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f1c082a24348b106a0bcbd0e48084f7ce88b435
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f628ceefb6894f8ca2f05e6345ac4f3b19f3235e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779618"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923273"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Move Components to an Operation Area in Basic Warehouse Configurations
 If item processing operations occur at your warehouse location, then you may have to move items between internal bins to respond to internal source documents, such as production, assembly, or service orders at the location.  
@@ -47,7 +47,7 @@ Alternatively, a warehouse worker can create it by pointing to the released asse
 This procedure shows how to create an inventory movement from the **Inventory Movement** page by referencing a released assembly order as a source document. The procedure is the same when you move components for production orders and service orders.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>To move components to an operation area in basic warehouse configurations  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Movement**, and choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Movement** , and choose the relevant link.  
 2.  On the **General** FastTab, fill in the **No.** field. You can press the Enter key  to select from the number series.  
 3.  In the **Location Code** field, enter the location where the movement occurs.  
 4.  Choose the **Get Source Documents** action. Alternatively, fill in the **Source Document** field, and then choose the **AssistEdit** button in the **Source No.** field.  

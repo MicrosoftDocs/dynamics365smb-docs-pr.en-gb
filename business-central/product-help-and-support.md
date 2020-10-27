@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/01/2020
-ms.openlocfilehash: 7d9ad42f501d3fe7a810fba7573488e8988e7406
-ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
+ms.date: 10/01/2020
+ms.openlocfilehash: 607e34730cbca4992212c293a73ff077b0b081a9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3532651"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925112"
 ---
 # <a name="resources-for-help-and-support"></a>Resources for Help and Support
 
@@ -91,7 +91,7 @@ The docs.microsoft.com site is the default location for learning about capabilit
 
 The content that Microsoft publishes under the user assistance concept of *Learn more* is in part intended to answer those questions that the user interface cannot answer, such as where that page fits into the bigger workflow, or what comes next, or what would be the alternative, and so on. From inside the product, you can access this content either through the *Learn more* link in tooltips, or by using the *Ctrl+F1* keyboard shortcut.  
 
-The navigation panel to the left, the table of contents, groups articles by business area. For example, you read the article [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md), and then the table of contents shows you that there is also an article called [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Both articles are in the group called *Purchasing*, which bundles articles that are related to the Purchasing module in [!INCLUDE [prodshort](includes/prodshort.md)].  
+The navigation panel to the left, the table of contents, groups articles by business area. For example, you read the article [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md), and then the table of contents shows you that there is also an article called [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Both articles are in the group called *Purchasing* , which bundles articles that are related to the Purchasing module in [!INCLUDE [prodshort](includes/prodshort.md)].  
 
 The table of contents includes a group of content that describes local functionality for the countries that Microsoft supports. If you do not see your country listed there, it is probably because your country is localised by a partner. For more information, see [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
@@ -103,7 +103,7 @@ If you land on an article that doesn't answer your question, you can find other 
 
 - Use the **Filter by title** field in the table of contents on the left side of the website
 
-  This way, you can filter by words used in the titles of the various articles. For example, type *invoice*, and then choose one of the offered links, such as [Set Up Invoice Rounding](finance-set-up-invoice-rounding.md) or [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md).  
+  This way, you can filter by words used in the titles of the various articles. For example, type *invoice* , and then choose one of the offered links, such as [Set Up Invoice Rounding](finance-set-up-invoice-rounding.md) or [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md).  
 
   Underneath each link,  you can see where that article is in the table of contents. That way, you can easily see if the article is in the Purchasing section or in the section for Australian local functionality, for example.  
 - Use the **Search** field in the top right corner of the website
@@ -116,13 +116,13 @@ Content about business functionality is published in a number of languages. When
 
 You can change the language by changing the URL, or you can use the language toggle in the bottom left corner of the website.  
 
-The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it is then sent off for translation into the supported languages. In some cases, you will not be able to read this new content in your own language for up to 4 weeks, but in most cases it only takes a week or two. You can always view the latest information by switching the language to *en-us*.  
+The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it is then sent off for translation into the supported languages. In some cases, you will not be able to read this new content in your own language for up to 4 weeks, but in most cases it only takes a week or two. You can always view the latest information by switching the language to *en-us* .  
 
 For each language, the table of contents is translated, but the content in the *Local Functionality* section is in English except for the country that corresponds to the current language. For example, in the Danish version of the docs.microsoft.com site (`https://docs.microsoft.com/da-dk/dynamics365/business-central/`), you can see the entries for Australian local functionality in Danish in the table of contents, but the articles are in English. Only the articles for Danish local functionality are translated into Danish.  
 
 ### <a name="providing-feedback"></a>Providing feedback
 
-On docs.microsoft.com, each article has two buttons at the end of the article. The *Product feedback* button sends you to the Ideas site, and the *Sign in to give documentation feedback* button lets you submit feedback about the content through GitHub. In both cases, you must create an account if you do not already have one. For *product feedback*, you must sign in with your work or organisational email account. For *access to GitHub*, you can use any email address when you create an account.  
+On docs.microsoft.com, each article has two buttons at the end of the article. The *Product feedback* button sends you to the Ideas site, and the *Sign in to give documentation feedback* button lets you submit feedback about the content through GitHub. In both cases, you must create an account if you do not already have one. For *product feedback* , you must sign in with your work or organisational email account. For *access to GitHub* , you can use any email address when you create an account.  
 
 We welcome your contributions, both as pull requests with suggestions or corrections to the content, and as GitHub Issues with bugs or questions. But please be mindful that feedback and contributions to the *dynamics365smb-docs* repo is about the content, not about the product.  
 

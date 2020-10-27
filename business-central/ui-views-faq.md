@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: list, filter, pane, views
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: mikebc
-ms.openlocfilehash: 1433e22f232b032242a4464730b07df376cadaf3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7b992fe4f5db07605015a88ea69d9a510adbcca4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189322"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925517"
 ---
 # <a name="list-views-faq"></a>List Views FAQ
 This topic answers questions that our advanced users often ask about working with list views and saving filters.  
@@ -83,7 +83,7 @@ Working with personal views is quick and effective, but [!INCLUDE[d365fin](inclu
 When saving a new view or renaming an existing view, you must enter a recognisable and meaningful name for that view. The name is saved for your current language and will be displayed also when you or other users work with [!INCLUDE[d365fin](includes/d365fin_md.md)] in different languages. To provide translated view names, you must switch language using the **My Settings** page and then rename the view, which will store the translated name in the new language.
 
 ### <a name="do-views-with-expressions-work-in-all-languages"></a>Do views with expressions work in all languages?
-Expressions that only use symbols, such as '**|**' or **..**, are considered safe for users to access in any language. Any views with expressions that include letters, keywords or filter tokens will only work for the language in which they were authored.
+Expressions that only use symbols, such as ' **|** ' or **..** , are considered safe for users to access in any language. Any views with expressions that include letters, keywords or filter tokens will only work for the language in which they were authored.
 
 
 ### <a name="see-also"></a>See Also  

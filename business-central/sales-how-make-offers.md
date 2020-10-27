@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7cad06a00b5afcff00d382620bf157c22a19cf26
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c4423dba57993c10276de8f20bb74f5ee45169a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781692"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926204"
 ---
 # <a name="make-sales-quotes"></a>Make Sales Quotes
 You create a sales quote to record your offer to a customer to sell certain products on certain delivery and payment terms. You can send the sales quote to the customer to communicate the offer. You can email the document as a PDF attachment. You can also have the email body prefilled with a summary of the quote. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
@@ -26,7 +26,7 @@ While you negotiate with the customer, you can change and resend the sales quote
 You can fill customer fields on the sales quote in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 
 ## <a name="to-create-a-sales-quote"></a>To create a sales quote
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quotes**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quotes** , and then choose the related link.
 2. In the **Customer** field, enter the name of an existing customer.
 
    Other fields on the **Sales Quote** page contain standard information of the selected customer. If the customer is not registered, follow these steps:
@@ -53,9 +53,9 @@ You can fill customer fields on the sales quote in two ways depending on whether
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.
 
     > [!NOTE]  
-    >  If the item is of type **Service**, or the **Type** field contains **Resource**, then the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line. For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md)
+    >  If the item is of type **Service** , or the **Type** field contains **Resource** , then the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line. For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md)
 
-    The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
+    The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity* .  
 
     The price and line amounts are with or without sales tax, depending on what you selected in the **Prices Including Tax** field on the customer card.  
 12. If you want to give a discount, enter a percentage in the **Line Discount %** field. The value in the **Line Amount** field updates accordingly.  

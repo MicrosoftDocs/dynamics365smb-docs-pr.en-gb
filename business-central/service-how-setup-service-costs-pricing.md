@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b80a2f89ae958a58b8cddd3c239df1a11e63a0f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c993027b54c624ea393c6bfc96554d02c0882ed
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784591"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925804"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Set Up Pricing and Additional Costs for Services
 You can use the [!INCLUDE[d365fin](includes/d365fin_md.md)] pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs, and orders. These pricing decisions are then easily transmitted to the invoicing process.  
@@ -25,7 +25,7 @@ As your implementation requires, you can set up pricing groups and map them to s
 ## <a name="to-set-up-a-service-price-group"></a>To set up a service price group
 You can set up groups containing service items that you want to receive the same special service pricing. You assign service price groups to service items on service item lines. You can also assign service price groups to service item groups.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Price Groups**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Price Groups** , and then choose the related link.  
 2. Create a new service price group.  
 3. Fill in the **Code** and **Description** fields.  
 4. Choose the **Setup** action.  
@@ -37,7 +37,7 @@ You can set up groups containing service items that you want to receive the same
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>To set up a service price adjustment group  
 You can set up price adjustment groups to adjust service pricing of service items. For example, you can set up price adjustment groups that adjust price of freight or spare parts.  
   
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Price Adjustment Groups**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Price Adjustment Groups** , and then choose the related link.  
 2. Create a new service price adjustment group.  
 3. Fill in the **Code** and **Description** fields.  
 4. In the **Type** field, enter the type of the entry that you want to adjust.  
@@ -55,11 +55,11 @@ You can set up price adjustment groups to adjust service pricing of service item
 When you work with service items and service orders, you may need to register additional costs, such as travel costs to particular service zones or starting fees. When you create a service order, you can insert these costs and a line with the type **Cost** will be added to the order. Alternatively, if you want to apply the cost to all service orders, you can set up a default cost. For example, if you always want to apply a starting fee.
   
 ### <a name="to-set-up-service-costs"></a>To set up service costs
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Costs**, and then choose the related link. 
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Costs** , and then choose the related link. 
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>To specify a default cost for service orders
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Setup**, and then choose the related link. 
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Setup** , and then choose the related link. 
 2. In the **Service Order Starting Fee** field, choose the appropriate service cost.
 
 ## <a name="see-also"></a>See Also

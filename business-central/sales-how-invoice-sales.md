@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 08fcc6ff958b7ac756d75b12e1558add936fe9b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2613a328ad1274a690d3d394fef054527e5a75de
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781717"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926229"
 ---
 # <a name="invoice-sales"></a>Invoice Sales
 
@@ -36,12 +36,12 @@ If the customer decides to buy, you post the sales invoice to create the related
 
 You can easily correct or cancel a posted sales invoice before it is paid. For example, this is useful if you want to correct a typing mistake or if the customer requests a change early in the order process. For more information, see [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md). If the posted sales invoice is paid, then you must create a sales credit memo to reverse the sale. For more information, see [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).
 
-The item card can be of type **Inventory**, **Service**, and **Non-Inventory** to specify if the item is a physical inventory unit, a labour time unit, or a physical unit that is not kept on inventory. For more information, see [Register New Items](inventory-how-register-new-items.md). The sales invoice process is the same for all three item types.
+The item card can be of type **Inventory** , **Service** , and **Non-Inventory** to specify if the item is a physical inventory unit, a labour time unit, or a physical unit that is not kept on inventory. For more information, see [Register New Items](inventory-how-register-new-items.md). The sales invoice process is the same for all three item types.
 
 You can fill customer fields on the sales invoice in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 
 ## <a name="to-create-a-sales-invoice"></a>To create a sales invoice
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices** , and then choose the related link.  
 2. In the **Customer** field, enter the name of an existing customer.
 
    Other fields on the **Sales Invoice** page contain standard information about the selected customer. If the customer is not registered, follow these steps:
@@ -71,9 +71,9 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
 
     > [!NOTE]  
-    > If the item is of type **Service**, or the **Type** field contains **Resource**, then the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line. For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md)
+    > If the item is of type **Service** , or the **Type** field contains **Resource** , then the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line. For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md)
 
-    The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
+    The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity* .  
 
     The price and line amounts are with or without sales tax, depending on what you selected in the **Prices Including Tax** field on the customer card.  
 12. If you want to give a discount, enter a percentage in the **Line Discount %** field. The value in the **Line Amount** field updates accordingly.  

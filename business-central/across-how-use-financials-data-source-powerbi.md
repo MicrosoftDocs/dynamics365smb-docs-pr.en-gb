@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: c3ec3a511164d85dd01f827227e2cbcff76ce395
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: a19d2bbff275ea4401943b588a68cdd2e6740e12
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697729"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924810"
 ---
 # <a name="building-power-bi-reports-to-display-prodlong-data"></a>Building Power BI Reports to Display [!INCLUDE [prodlong](includes/prodlong.md)] Data
 
@@ -55,18 +55,18 @@ This article describes how to get started using Power BI Desktop to create repor
 The first task in creating reports is to add [!INCLUDE[prodshort](includes/prodshort.md)] as a data source in Power BI Desktop. Once connected, you can start to build the report.
 
 1. Start Power BI Desktop.
-2. Select **Get Data**.
+2. Select **Get Data** .
 
-    If you don't see **Get Data**, select the **File** menu, then **Get Data**.
-2. On the **Get Data** page, select **Online Services**.
+    If you don't see **Get Data** , select the **File** menu, then **Get Data** .
+2. On the **Get Data** page, select **Online Services** .
 3. In the **Online Services** pane, do one of the following steps:
 
-    1. If you're connecting to [!INCLUDE [prodshort](includes/prodshort.md)] online, choose **Dynamics 365 Business Central**, then **Connect**.
-    2. If you're connecting to [!INCLUDE [prodshort](includes/prodshort.md)] on-premises, choose **Dynamics 365 Business Central (on-premises)**, then **Connect**.
+    1. If you're connecting to [!INCLUDE [prodshort](includes/prodshort.md)] online, choose **Dynamics 365 Business Central** , then **Connect** .
+    2. If you're connecting to [!INCLUDE [prodshort](includes/prodshort.md)] on-premises, choose **Dynamics 365 Business Central (on-premises)** , then **Connect** .
 
 4. Power BI displays a wizard that will guide you through the connection process, including signing into [!INCLUDE [prodshort](includes/prodshort.md)].
 
-    For online, choose **Sign in**, and then choose the relevant account. Use the same account that you use to sign into [!INCLUDE [prodshort](includes/prodshort.md)].
+    For online, choose **Sign in** , and then choose the relevant account. Use the same account that you use to sign into [!INCLUDE [prodshort](includes/prodshort.md)].
     
     For on-premises, enter the OData URL for [!INCLUDE[prodshort](includes/prodshort.md)], and optionally the company name. Then, when prompted, enter the user name and password of the account to use for connecting to [!INCLUDE[prodshort](includes/prodshort.md)]. In the **Password** box, enter the web service access key.
 
@@ -100,11 +100,11 @@ Before building your report, we recommend that you download and import the [!INC
 The theme file is available as a json file on Microsoft Power BI Community Themes Gallery. To download the theme file, do the following steps:
 
 1. Go to [Microsoft Power BI Community Themes Gallery for Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
-2. Select the download attachment **Microsoft Dynamics Business Central.json**.
+2. Select the download attachment **Microsoft Dynamics Business Central.json** .
 
 ### <a name="import-the-theme-on-a-report"></a>Import the theme on a report
 
-After you've downloaded the [!INCLUDE [prodshort](includes/prodshort.md)] report theme, you can import it to your reports. To import the theme, Select the **View** > **Themes** > **Browse for themes**. For more information, see [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
+After you've downloaded the [!INCLUDE [prodshort](includes/prodshort.md)] report theme, you can import it to your reports. To import the theme, Select the **View** > **Themes** > **Browse for themes** . For more information, see [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
 ## <a name="publish-reports"></a>Publish reports
 

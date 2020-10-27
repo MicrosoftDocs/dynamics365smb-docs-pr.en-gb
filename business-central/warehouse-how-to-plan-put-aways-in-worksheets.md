@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aefbc04e188cc5ac5f87c063819d673fb9cdef8a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c957005251b65e1b6c37bb42946146c6a013cfd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779418"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925429"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Plan Put-aways in Worksheets
 If your location requires both put-away and receive processing, and you want to plan put-away instructions for a number of receipts, rather than have employees follow the instructions that application creates for separate posted receipts, you can use the put-away worksheet.  
@@ -31,7 +31,7 @@ If you do not select this field, application will automatically create put-away 
 > 2.  Continue the process in as many put-aways as you wish, until you have deleted the lines you want to work on in the worksheet. Now choose **Put-away Worksheets** and proceed with planning.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>To plan instructions in the put-away worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Worksheet** , and then choose the related link.  
 2.  Choose the **Get Warehouse Documents** action. The **Put-away Selection** page opens.  
 
     You see all the posted receipts and registered internal put-aways that have been forwarded to the put-away function, including those for which put-away instructions have already been created. Documents with put-away lines that have been completely put away and registered are not shown on this list.  

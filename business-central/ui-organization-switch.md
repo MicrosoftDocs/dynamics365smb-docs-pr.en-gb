@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 362a994ccda698a4bf91e42c27532af95f9c9c27
-ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
+ms.openlocfilehash: 24ea6b353a22ae00ca98901c080c031870f66168
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535316"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925604"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Switching to Another Company or Environment
 
@@ -23,7 +23,7 @@ ms.locfileid: "3535316"
 
 ## <a name="switch-to-another-environment"></a>Switch to Another Environment
 
-When you are signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)], the environments that you can access are available on the Dynamics 365 Home page. You can open the page by choosing the **App Launcher** icon ![App Launcher](media/app-launcher-icon.png "The App Launcher provides access to more features") and choosing **Dynamics 365**. To go to your default company in that environment, choose the tile. There will be one tile for each type of environment. If you have more than one environment of a certain type, when you choose the tile you can choose the environment to access.
+When you are signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)], the environments that you can access are available on the Dynamics 365 Home page. You can open the page by choosing the **App Launcher** icon ![App Launcher](media/app-launcher-icon.png "The App Launcher provides access to more features") and choosing **Dynamics 365** . To go to your default company in that environment, choose the tile. There will be one tile for each type of environment. If you have more than one environment of a certain type, when you choose the tile you can choose the environment to access.
 
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.
 

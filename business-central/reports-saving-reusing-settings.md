@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d61e599b9e86f28de6edcf4ccff5b245503880fe
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d9ae0f8e45c940d2a78d4d383a733ad378e90650
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784616"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926354"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Manage Saved Settings for Reports and Batch jobs
 When running reports, users are typically presented with a page that lets them select options and set filters to change the data that is included in the generated report. This page is called the request page. A report can include one or more *saved settings* that users can apply to the report from the request page. *Saved settings* are basically predefined options and filters. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
@@ -38,7 +38,7 @@ If you have the proper permissions, you can view, create, and modify the saved s
 
 ## <a name="to-create-and-modify-saved-settings-for-all-users"></a>To create and modify saved settings for all users
 You manage saved settings on the **Reports Settings** page. There are two ways to open this page:
--   Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Settings**, and then choose the related link.
+-   Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Settings** , and then choose the related link.
 -   Open a report, choose the lookup in the **Use default values from** field, and then choose the **Select from full list** action.
 
 The page displays all the existing saved settings entries for all users. If there is a user name in the **Assigned to** field, only that user can use the saved settings for the associated report. If there is a check mark in the **Share with all users** field, all users can use the saved settings for the report.
@@ -52,7 +52,7 @@ From the **Report Settings** page, you can:
 > Consider the name that you give a saved settings entry. If you create a saved settings entry for all users, and you give it the same name as an existing saved settings entry that is assigned to a specific user only, then that user will not be able to use the saved settings entry that is assigned to everyone.  In the **Saved Settings** section on the request page, the user will see two saved settings entries with the same name. However, no matter which option they choose, the user-specific saved settings entry will be used.
 
 > [!NOTE]
-> The Saved Settings feature is available only on reports where the [SaveValues property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) of the report's request page is set to **Yes**. The **SaveValues** property is set in the development environment.  
+> The Saved Settings feature is available only on reports where the [SaveValues property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) of the report's request page is set to **Yes** . The **SaveValues** property is set in the development environment.  
 
 ## <a name="see-also"></a>See Also
 [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f11b92eb0a9941e72c8f6c87e0e052fcc0530fd1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cc62673e83fa0a748164af57bf0a075ca325dde4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786953"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925012"
 ---
 # <a name="about-production-orders"></a>About Production Orders
 Production orders are used to manage the conversion of purchased materials into manufactured items. Production orders route work through various work or machine centres on the shop floor.  
@@ -178,7 +178,7 @@ The amount of the flush is for the quantity per assembly stated on the productio
 #### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatic Reporting - Back Flushing the Entire Order  
 This reporting method does not consider routing link codes.  
 
-No components are picked until the released production order status is changed to *Finished*. The amount of the flush is the quantity per assembly stated on the production BOM multiplied by the number of parent items that were finished and placed into inventory.  
+No components are picked until the released production order status is changed to *Finished* . The amount of the flush is the quantity per assembly stated on the production BOM multiplied by the number of parent items that were finished and placed into inventory.  
 
 Backward flushing the entire production order requires the same setup as for forward flushing: The reporting method must be set to backward on each item card for all items within the parent BOM to be reported. In addition, all routing link codes must be removed from the production BOM.  
 

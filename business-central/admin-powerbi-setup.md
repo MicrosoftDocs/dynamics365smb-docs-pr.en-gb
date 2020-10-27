@@ -1,6 +1,6 @@
 ---
-title: Enabling Power BI Integration With Business Central| Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Business Central data is easy with the Business Central apps for Power BI.
+title: Enabling Power BI Integration With Business Central
+description: Learn how to set up the connection to Power Bi so you can get insights, business intelligence, and KPIs from your Business Central data with the Business Central apps for Power BI.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 92b3bb1d04c58332db20c978928fe1b04ed2ab37
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: ce4b45dbe80ab1972c92cde144b457eeeaff3402
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697800"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927079"
 ---
 # <a name="enabling-power-bi-integration-with-prodshort"></a>Enabling Power BI Integration With [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -27,8 +27,8 @@ With [!INCLUDE[prodshort](includes/prodshort.md)], users get a free Power BI lic
 
 |Power Licence|View reports|Create reports|Share reports|Refresh reports| [!INCLUDE[prodshort](includes/prodshort.md)] Apps|
 |-------------|--------||
-|Power BI free|![cheque](media/check.png)|![cheque](media/check.png)|(limited)|(limited)||
-|Power BI Pro|![cheque](media/check.png)|![cheque](media/check.png)|![cheque](media/check.png)|(extensive)|![cheque](media/check.png)|
+|Power BI free|![a checkmark](media/check.png)|![another checkmark](media/check.png)|(limited)|(limited)||
+|Power BI Pro|![yet another checkmark](media/check.png)|![it's a checkmark](media/check.png)|![again a checkmark](media/check.png)|(extensive)|![last checkmark](media/check.png)|
 
 For more information, see [Licensing the Power BI service for users in your organisation](/power-bi/admin/service-admin-licensing-organization) or [Sign up for the Power BI service as an individual](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 

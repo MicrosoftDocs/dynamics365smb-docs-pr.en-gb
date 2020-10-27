@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bmeier
-ms.openlocfilehash: c2fbd841332ff48bd4716a082b0c9ef2bb9ac6df
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8f4da5b51b4e0df5cdf6f41f7a78c0a51cf0f083
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528995"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924860"
 ---
 # <a name="using-prodshort-in-an-automated-workflow"></a>Using [!INCLUDE[prodshort](includes/prodshort.md)] in an Automated Workflow
 
@@ -32,23 +32,23 @@ You can use your [!INCLUDE[prodshort](includes/prodshort.md)] data as part of a 
 
 1. In your browser, navigate to [flow.microsoft.com](https://flow.microsoft.com), and then sign in.
 2. Choose **My flows** from the ribbon at the top of the page.
-3. There are 3 ways to create a flow; **Start from template**, **Start from blank**, and **Start from a connector**. A template is a predefined flow that has been created for you. To use a template, simply select it and create a connection for each service the template uses. With the **Start from blank** and **Start from a connector** options, you can create a new flow completely from scratch.
+3. There are 3 ways to create a flow; **Start from template** , **Start from blank** , and **Start from a connector** . A template is a predefined flow that has been created for you. To use a template, simply select it and create a connection for each service the template uses. With the **Start from blank** and **Start from a connector** options, you can create a new flow completely from scratch.
 4. To create from blank, on the **My flows** page, choose the **Start from blank** and **Automated flow** options.
 5. Search for **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]** connector.
 6. Define a name and choose the trigger you want to use for your flow.
 7. From the list of available triggers, select one of the [!INCLUDE[prodshort](includes/prodshort.md)] triggers available:  
 
-    *When a vendor approval is requested*,  
-    *When a general journal line approval is requested*,  
-    *When a record is deleted*,  
-    *When a record is changed*,  
-    *When a record is created*,  
-    *When a record is modified*,  
-    *When a general journal batch approval is requested*,  
-    *When a customer approval is requested*,  
-    *When an item approval is requested*,  
-    *When a purchase document approval is requested*, or  
-    *When a sales document approval is requested*.
+    *When a vendor approval is requested* ,  
+    *When a general journal line approval is requested* ,  
+    *When a record is deleted* ,  
+    *When a record is changed* ,  
+    *When a record is created* ,  
+    *When a record is modified* ,  
+    *When a general journal batch approval is requested* ,  
+    *When a customer approval is requested* ,  
+    *When an item approval is requested* ,  
+    *When a purchase document approval is requested* , or  
+    *When a sales document approval is requested* .
 
 8. Power Automate will prompt you to select an environment and company within your [!INCLUDE[prodshort](includes/prodshort.md)] tenant, as well as any conditions in your data that you want to listen for.
 
@@ -59,21 +59,21 @@ You can use your [!INCLUDE[prodshort](includes/prodshort.md)] data as part of a 
 
 9. To create from a template, choose the **Start from template** option.
 10. Search for **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]** templates.
-11. From the list of available templates, select one of the templates, and then choose **Create**.  
+11. From the list of available templates, select one of the templates, and then choose **Create** .  
 
-    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sales order*,  
-    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sales quote*,  
-    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sales invoice*,  
-    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sales credit memo*,  
-    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] customer*,  
-    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] purchase order*,  
-    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] purchase invoice*,  
-    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] purchase credit memo*,  
-    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] item*,  
-    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] vendor*,  
-    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] general journal batch*, or    
-    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] general journal lines*.  
-12. Power Automate will display a list of services used in the flow template and will attempt to connect automatically to those services. If you have not previously connected to a service, you will be prompted to sign in to each of the services you need to connect to. A green checkmark will appear next to each service once a connection has been successfully made. Select **Continue**.
+    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sales order* ,  
+    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sales quote* ,  
+    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sales invoice* ,  
+    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sales credit memo* ,  
+    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] customer* ,  
+    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] purchase order* ,  
+    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] purchase invoice* ,  
+    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] purchase credit memo* ,  
+    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] item* ,  
+    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] vendor* ,  
+    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] general journal batch* , or    
+    *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] general journal lines* .  
+12. Power Automate will display a list of services used in the flow template and will attempt to connect automatically to those services. If you have not previously connected to a service, you will be prompted to sign in to each of the services you need to connect to. A green checkmark will appear next to each service once a connection has been successfully made. Select **Continue** .
 13. Power Automate will prompt you to select an environment and company within your [!INCLUDE[prodshort](includes/prodshort.md)] tenant. Because each step in the flow is independent of the next, you may be required to define the environment and company multiple times when using a [!INCLUDE[prodshort](includes/prodshort.md)] Power Automate template.
 
 For more information, see the [Power Automate Documentation](/power-automate/getting-started).

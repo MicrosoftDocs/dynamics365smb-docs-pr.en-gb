@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/09/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6816ba11203e697ff833b9ea96aa85139fbcffe9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5e8c611ed5d542436f470781c92d17095ecd1f5d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783608"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924585"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Use Job Queues to Schedule Tasks
 
@@ -31,7 +31,7 @@ Job queues are an effective tool to schedule the running of business processes i
 
 The following procedure explains how to set up background posting of sales orders. The steps are similar for purchasing.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup** , and then choose the related link.
 2. On the **Sales & Receivables Setup** page, choose the **Post with Job Queue** check box.
 3. Choose the **Job Queue Category Code** field, and then specify the **SALESPOST** code.
 
@@ -43,7 +43,7 @@ The following procedure explains how to set up background posting of sales order
     If you also want sales documents to be printed when they are posted, select the **Post & Print with Job Queue** check box on the **Sales & Receivables Setup** page.  
 
     > [!IMPORTANT]  
-    > If you set up a job that will post and print documents, and the printer displays a dialogue box, such as a request for credentials or a warning about low printer ink, your document is posted but not printed. The corresponding job queue entry eventually times out and the **Status** field is set to **Error**. Accordingly, we recommend that you do not use a printer setup that requires interaction with the display of printer dialogue boxes in conjunction with background posting.
+    > If you set up a job that will post and print documents, and the printer displays a dialogue box, such as a request for credentials or a warning about low printer ink, your document is posted but not printed. The corresponding job queue entry eventually times out and the **Status** field is set to **Error** . Accordingly, we recommend that you do not use a printer setup that requires interaction with the display of printer dialogue boxes in conjunction with background posting.
 
     Next time that you post sales documents, [!INCLUDE [prodshort](includes/prodshort.md)] automatically creates a job queue entry for each document and run the jobs in the background, one by one.
 
@@ -53,14 +53,14 @@ The following procedure explains how to set up background posting of sales order
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>To create a job queue entry for batch posting of sales orders
 
-Alternatively, you can postpone postings for when it is convenient for your organisation. For example, in your business it might make sense to run certain routines when most of the data entry for the day has concluded. You can achieve this by setting the job queue up to run various batch-posting reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and similar reports. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports background posting for all sales, purchasing, and service documents.
+Alternatively, you can postpone postings for when it is convenient for your organisation. For example, in your business it might make sense to run certain routines when most of the data entry for the day has concluded. You can achieve this by setting the job queue up to run various batch-posting reports, such as the **Batch Post Sales Orders** , **Batch Post Sales Invoices** , and similar reports. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports background posting for all sales, purchasing, and service documents.
 
 The following procedure shows how to set the **Batch Post Sales Orders** report up to automatically post sales orders at 4 PM on week days.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries** , and then choose the related link.  
 2. Choose the **New** action.  
-3. In the **Object Type to Run** field, select **Report**.  
-4. In the **Object ID to Run** field, select 296, **Batch Post Sales Orders**.
+3. In the **Object Type to Run** field, select **Report** .  
+4. In the **Object ID to Run** field, select 296, **Batch Post Sales Orders** .
 
    You can also use following reports:
   
@@ -81,8 +81,8 @@ The following procedure shows how to set the **Batch Post Sales Orders** report 
 6. In the **Batch Post Sales Orders** request page, define what is included during automatic posting of sales orders, and then choose the **OK** button.
 
     > [!IMPORTANT]
-    > Remember to set strict filters; otherwise, [!INCLUDE [prodshort](includes/prodshort.md)] will post all documents, even if they are not ready. Consider setting a filter on the **Status** field for the value *Released*, and a filter on the **Posting Date** field for the value *..today*. For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md).
-7. Select all check boxes from **Run on Mondays** through **Run on Fridays**.
+    > Remember to set strict filters; otherwise, [!INCLUDE [prodshort](includes/prodshort.md)] will post all documents, even if they are not ready. Consider setting a filter on the **Status** field for the value *Released* , and a filter on the **Posting Date** field for the value *..today* . For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md).
+7. Select all check boxes from **Run on Mondays** through **Run on Fridays** .
 8. In the **Starting Time** field, enter 4 PM.
 9. Choose the **Set Status to Ready** action.
 
@@ -105,11 +105,11 @@ After a job has finished successfully, it is removed from the list of job queue 
 Data that is generated when a job queue is run is stored in the database, so that you can troubleshoot job queue errors.
 
 ### <a name="to-view-status-for-any-job"></a>To view status for any job
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries** , and then choose the related link.
 2. On the **Job Queue Entries** page, select a job queue entry, and then choose the **Log Entries** action.  
 
 ### <a name="to-view-status-from-a-sales-or-purchase-document"></a>To view status from a sales or purchase document
-1. From the document that you have tried to post with background posting, choose the **Job Queue Status** field, which will contain **Error**.
+1. From the document that you have tried to post with background posting, choose the **Job Queue Status** field, which will contain **Error** .
 2. Review the error message and fix the problem.
 
 ## <a name="the-my-job-queue-part"></a>The My Job Queue Part
@@ -118,7 +118,7 @@ The **My Job Queue** part on your Role Centre shows the job queues entries that 
 The part shows which documents with your ID in the **Assigned User ID** field are being processed or are queued, including those related to background posting. The part can tell you at a glance whether there has been an error in the posting of a document or if there are errors in a job queue entry. The part also lets you cancel a document posting if it is not running.
 
 ### <a name="to-view-an-error-from-the-my-job-queue-part"></a>To view an error from the My Job Queue part
-1. On an entry with the status **Error**, choose the **Show Error** action.
+1. On an entry with the status **Error** , choose the **Show Error** action.
 2. Review the error message and fix the problem.
 
 ## <a name="security"></a>Security  

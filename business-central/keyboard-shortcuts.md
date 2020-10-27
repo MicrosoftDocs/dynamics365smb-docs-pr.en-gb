@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/02/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3765953"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922876"
 ---
 # <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
 
@@ -69,7 +69,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Esc|Close the current page or drop-down list.|
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|
-|Y and N|Activate **Yes** and **No** buttons in dialogue boxes. Actual keys will vary based on your current language specified in **My Settings**. For example, press J to activate the **Ja** button when using German language.|
+|Y and N|Activate **Yes** and **No** buttons in dialogue boxes. Actual keys will vary based on your current language specified in **My Settings** . For example, press J to activate the **Ja** button when using German language.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Keyboard Shortcuts in Lists
 
@@ -130,20 +130,21 @@ Grids containing rows and columns exist on many page types in [!INCLUDE[prodshor
 |Press these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
 |F3|Toggles the search box.<ul><li>Activate the search box, so you can start typing your search text.</li><li>If the search box is already activated, F3 returns to the list without clearing the search text.</li><ul>|
-|Shift+F3|Open and close the filter pane.<ul><li> If the filter pane isn't open, Shift+F3 opens it and focuses on the **+ Filter** action under **Filter list by**. You can then just hit Enter to start adding a field filter.</li><li>If the filter pane is already open, Shift+F3 closes it but doesn't clear any filters that you've added.</li></ul>|
-|Ctrl+Shift+F3|Open and close the filter pane.<ul><li> If the filter pane isn't open, Ctrl+Shift+F3 opens it and focuses on the **+ Filter** action under **Filter total by**. You can then just hit Enter to start adding a totals filter.</li><li>If the filter pane is already open, Ctrl+Shift+F3 closes it but doesn't clear any filters that you've added.</li></ul>  |
+|Shift+F3|Open and close the filter pane.<ul><li> If the filter pane isn't open, Shift+F3 opens it and focuses on the **+ Filter** action under **Filter list by** . You can then just hit Enter to start adding a field filter.</li><li>If the filter pane is already open, Shift+F3 closes it but doesn't clear any filters that you've added.</li></ul>|
+|Ctrl+Shift+F3|Open and close the filter pane.<ul><li> If the filter pane isn't open, Ctrl+Shift+F3 opens it and focuses on the **+ Filter** action under **Filter total by** . You can then just hit Enter to start adding a totals filter.</li><li>If the filter pane is already open, Ctrl+Shift+F3 closes it but doesn't clear any filters that you've added.</li></ul>  |
 |Alt+F3|Toggle filtering to the selected value.<ul><li>Applies a column filter on the selected field value in the list. This does the same as choosing **Filter to this value** from a column heading. It opens the filter pane, sets filter to the selected value, while focus remains on cell in the list.</li><li>If the column is already filtered, Alt+F3 clears the filter on that column.</li></ul> |
 |Shift+Alt+F3|Open the filter pane and add a filter on the selected column in the list. Focus is on the new filter field, which lets you start typing the filter criteria right away.<br /><br /> This does the same as selecting **Filter** from the column heading.<br /><br />If there is already a filter on the field, a new filter is added. |
-|Ctrl+Shift+Alt+F3|Reset filters. This does the same as choosing **Reset filters** in the filter pane, and it applies to field and totals filters.<br /><br /> Filters return to the default filters for the current view. If the current view is **All**, then this is the same as returning to an unfiltered view with all records. |
+|Ctrl+Shift+Alt+F3|Reset filters. This does the same as choosing **Reset filters** in the filter pane, and it applies to field and totals filters.<br /><br /> Filters return to the default filters for the current view. If the current view is **All** , then this is the same as returning to an unfiltered view with all records. |
 |Ctrl+Enter|Change focus from the filter pane back to the list.|
 
 ## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Keyboard Shortcuts in Cards and Documents
 
-The following shortcuts are available on card pages, such as **Customer Card**, and document pages, such as **Sales Order**, to display and modify records.
+The following shortcuts are available on card pages, such as **Customer Card** , and document pages, such as **Sales Order** , to display and modify records.
 
 |Press these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
 |Alt+F6|Toggle collapse/expand for the current FastTab or part (subpage).|
+|Alt+G|Open the **Find Entries** page for finding entries related to the posted document. Works on lists also.|
 |Alt+N |Open a page to create a new record; the same way as choosing the **New** action. |
 |Alt+Shift+N |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |
 |Alt+Shift+W |Open the current card or document in a new window. For more information, see [Multitasking Across Multiple Pages](ui-enter-data.md#multitasking-across-multiple-pages).|
@@ -172,7 +173,7 @@ When setting a date field, you can either enter the date manually or open a cale
 
 |Press these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
-|Ctrl+Home|Open the calendar if closed. **Note**: This doesn't work if the date field is in a grid, where Ctrl+Home jumps to the first row.|
+|Ctrl+Home|Open the calendar if closed. **Note** : This doesn't work if the date field is in a grid, where Ctrl+Home jumps to the first row.|
 |Ctrl+Home<br />(Cmd+Home)|Move to the current month, current day.|
 |Ctrl+Left Arrow<br />(Cmd+Left Arrow)|Move to the previous day.|
 |Ctrl+Right Arrow<br />(Cmd+Right Arrow)|Move to the next day.|
@@ -212,3 +213,4 @@ When setting a date field, you can either enter the date manually or open a cale
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.md)  
+[Find Entries](ui-find-entries.md)  

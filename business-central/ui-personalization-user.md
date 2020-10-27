@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e41c3dd810367f254bd62271083e884afdc9da50
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8b29f96f37448c2ca6eb02330946171adb5f04b9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781317"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925579"
 ---
 # <a name="personalize-your-workspace"></a>Personalise Your Workspace
 You can personalise your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalisation changes that you make will only affect what you see, not what other users see.
@@ -54,7 +54,7 @@ As for other personalisation, the changes you make to column width are stored on
 3. To add a field, choose the **+ Field** action.
 4. From the **Add Field to Page** pane, drag and drop a field into the desired position on the page.
 5. To change a UI element, point to the element, such as an action, a field, or a part. The element is immediately highlighted with an arrowhead or border.
-6. Choose the element, and then choose either **Move**, **Remove**, **Hide**, **Show**, **Show under "Show more"**, **Show when collapsed**, **Show always**, **Set/Clear Freeze Pane**, or **Include/Exclude from Quick Entry**, depending on the type and county of the UI element. For more information, see [What You Can Personalise](#What).
+6. Choose the element, and then choose either **Move** , **Remove** , **Hide** , **Show** , **Show under "Show more"** , **Show when collapsed** , **Show always** , **Set/Clear Freeze Pane** , or **Include/Exclude from Quick Entry** , depending on the type and county of the UI element. For more information, see [What You Can Personalise](#What).
 7. When you have finished changing the layout of one or more pages, choose the **Done** button on the **Personalising** banner.
 
 ## <a name="what-you-can-personalize"></a><a name="What"></a>What You Can Personalise
@@ -66,10 +66,10 @@ As for other personalisation, the changes you make to column width are stored on
 |Show hidden actions and parts.|For a grayed (hidden) element, choose the arrowhead, and then choose <b>Show</b>.|The hidden element is visible again.|
 |Add a field or column.|In the <b>Personalising</b> banner, choose the <b>+ Field</b> action.<br /></br>The <b>Add Field to Page</b> pane opens on the right. It lists the fields that you can add to the page.<br /><br />To add a field, drag it from the pane to the position that you want it. The position is indicated by either a thick horizontal or vertical line.|Each page includes a predefined set of fields that you can display. Use this procedure to add fields or columns that have not been previously displayed or to show fields that you have hidden.|
 |Display a field in the heading of a Fastab when the FastTab is collapsed.|Choose the arrowhead, and then choose <b>Show when collapsed</b>. <br /> <br />If you do not see this option, then it is already set. In this case, to stop displaying the field on the FastTab heading, choose <b>Show always</b>.|*FastTab* is the term used for a group of fields that appear under a common heading. Use the <b>Show when collapsed</b> option to display the most important fields. If you select a field in the heading, the FastTab will open and focus on the selected field.<br /><br />This option is only applicable if a page has a more than one FastTab. If the is only one FastTab, it cannot be collapsed, so the <b>Show when collapsed</b> option is not available.|
-|Make a field display only when you select **Show more**.|Choose the arrowhead, and then choose <b>Show under "Show More"</b>. <br /> <br />If you do not see the <b>Show under "Show More"</b> option, then it is already set. In this case, to make a field display always, not just when you select **Show more**, choose <b>Show always</b>.||
+|Make a field display only when you select **Show more** .|Choose the arrowhead, and then choose <b>Show under "Show More"</b>. <br /> <br />If you do not see the <b>Show under "Show More"</b> option, then it is already set. In this case, to make a field display always, not just when you select **Show more** , choose <b>Show always</b>.||
 |Change the freeze pane in a list to another column. |Choose the arrowhead of the column that you want as the last column of the freeze pane, and then choose <b>Set Freeze Pane</b>.<br /><br/>If you want to set the freeze pane back to its original designed position, choose the arrowhead for the current freeze pane column, and choose <b>Clear Freeze Pane</b>. Note: You cannot remove this freeze pane.|The freeze pane specifies the columns that always appear on the left, even as you scroll horizontally.|  
-|Skip over a field when pressing Enter.|Choose the arrowhead next to the field, or column heading in a list, and choose **Exclude from Quick Entry**. <br /><br /> If you do not see this option, then the field is already set to be skipped. In this case, to stop skipping the field, choose **Include in Quick Entry**. |See [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry)|
-|Reorder and remove views representing filtered lists.|Choose the arrowhead next to a view, and then choose **Move**, **Remove**, or **Hide**.|See [Save and Personalise List Views](ui-views.md)|  
+|Skip over a field when pressing Enter.|Choose the arrowhead next to the field, or column heading in a list, and choose **Exclude from Quick Entry** . <br /><br /> If you do not see this option, then the field is already set to be skipped. In this case, to stop skipping the field, choose **Include in Quick Entry** . |See [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry)|
+|Reorder and remove views representing filtered lists.|Choose the arrowhead next to a view, and then choose **Move** , **Remove** , or **Hide** .|See [Save and Personalise List Views](ui-views.md)|  
 |Add a new action to a page or report on your Role Centre.|From the target page, report request page, or Tell Me window, choose the bookmark icon.|See [Bookmark a Page or Report on Your Role Centre Role Centre](ui-bookmarks.md)|
 |Always start a list as expanded or collapsed|Choose the Expand All or Collapse All button in the top-left corner of the list, or choose the Expand All or Collapse All action in the menu of the first column. |Applies to collapsible hierarchy lists|
 
@@ -77,11 +77,11 @@ As for other personalisation, the changes you make to column width are stored on
 
 Personalisation lets you decide which actions to show on the navigation and action bars and on Role Centres and where to show them. You can show, hide, or move individual actions or action groups. Personalising the navigation and action bars is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalising mode and then let the arrowheads guide you.
 
-There are a couple terms that you should be familiar with to better understand action personalisation: *action group* and *promoted category*.  
+There are a couple terms that you should be familiar with to better understand action personalisation: *action group* and *promoted category* .  
 
 An *action group* is an element that expands to display other actions or groups. For example, on the **Sales Orders** page, the **Functions** action that appear when you choose the **Actions** action is an action groups.
 
-A *promoted category* is an action group that appears before the vertical line `|` on the action bar. The categories typically include the most commonly used actions, so that you can quickly find them. For example, on the **Sales Orders** page, the **Order**, **Release**, and  **Posting** actions are promoted categories.
+A *promoted category* is an action group that appears before the vertical line `|` on the action bar. The categories typically include the most commonly used actions, so that you can quickly find them. For example, on the **Sales Orders** page, the **Order** , **Release** , and  **Posting** actions are promoted categories.
 
 > [!NOTE]
 > You cannot personalise the action bar that appears in parts on the page (for example, the sales lines part on the **Sales Order** page).
@@ -94,7 +94,7 @@ When you want to show or hide an action, the options under the arrowhead define 
 |Option|What it does|
 |------|------------
 |**Remove**|This option appears if the selected action is also shown somewhere else on the navigation bar or action bar. Choosing this option deletes the action from the selected location so that it no longer appears. The action or action group will remain in the other locations. |
-|**Hide**|This option appears if the action or action group is not located anywhere else on the navigation bar or action bar. Like **Remove**, choosing this option will make the action or action group disappear from the navigation bar or action bar. However, in personalising mode, the action or action group will still be shown in the current position, except that it appears dimmed.|
+|**Hide**|This option appears if the action or action group is not located anywhere else on the navigation bar or action bar. Like **Remove** , choosing this option will make the action or action group disappear from the navigation bar or action bar. However, in personalising mode, the action or action group will still be shown in the current position, except that it appears dimmed.|
 |**Show**|This option appears if the action or action group has been previously hidden (dimmed). Choosing this option will make the action or action group appear on the navigation bar or action bar.|
 
 ### <a name="to-move-actions-and-action-groups"></a>To move actions and action groups

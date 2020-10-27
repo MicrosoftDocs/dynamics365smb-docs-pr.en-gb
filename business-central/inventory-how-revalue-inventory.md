@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3570d5e7347745763c8d8e18dfdf65166e7839e0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b29e93d248e939eb9eb1cea97e53cd1718304e80
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782050"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923802"
 ---
 # <a name="revalue-inventory"></a>Revalue Inventory
 If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.
 
 ## <a name="to-revalue-inventory"></a>To revalue inventory
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Revaluation Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Revaluation Journal** , and then choose the related link.
 2. Choose the **Calculate Inventory Value** action.
 3. On the **Calculate Inventory Value** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **OK** button.

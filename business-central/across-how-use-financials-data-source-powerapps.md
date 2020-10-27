@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f0eb7a1562a8300bd7181ef6470c70f60934470
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 718d4378a897b187ba3073449869184fef5cec98
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528645"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924835"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Connecting to Your Business Central Data to Build a Business App Using Power Apps
 
@@ -30,13 +30,13 @@ You can make your [!INCLUDE[prodshort](includes/prodshort.md)] data available as
 2. On the Home page, in the **Start from data** section, choose the **Other data sources** tile.  
 
     This opens Power Apps Studio. On first login, you must specify the country/region.  
-3. In the list of available connections, choose **Business Central**, and then choose the **Create** button.
+3. In the list of available connections, choose **Business Central** , and then choose the **Create** button.
 
     Power Apps will connect to your [!INCLUDE[prodshort](includes/prodshort.md)] using the credentials that you are signed in with. If you are not an administrator of your [!INCLUDE[prodshort](includes/prodshort.md)], you may have to sign in with another account.  
 
-4. Power Apps will display a list of *Environments and companies* that are available from [!INCLUDE[prodshort](includes/prodshort.md)]. Choose the environment and company that contains the data you want to connect to, such as *PRODUCTION - My Company*.  
+4. Power Apps will display a list of *Environments and companies* that are available from [!INCLUDE[prodshort](includes/prodshort.md)]. Choose the environment and company that contains the data you want to connect to, such as *PRODUCTION - My Company* .  
 
-5. Next, you will be presented with a list of tables that are exposed as part of the API for your environment. Select the table that you want to connect to, and then choose **Connect**.
+5. Next, you will be presented with a list of tables that are exposed as part of the API for your environment. Select the table that you want to connect to, and then choose **Connect** .
 
 These so-called tables are exposed as endpoints by the [!INCLUDE[prodshort](includes/prodshort.md)] connector for Power Apps.  
 

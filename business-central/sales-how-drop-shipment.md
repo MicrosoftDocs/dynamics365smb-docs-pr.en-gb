@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 08/17/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0c93b138762f5a01fc06e3577e7597facf7abb5c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: add7cf9f2f274f50d0e187362b2e0c1bcc2fe8e0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781767"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926279"
 ---
 # <a name="make-drop-shipments"></a>Make Drop Shipments
 
 A drop shipment is the shipment of items from one of your vendors directly to one of your customers.
 
-When a sales order is marked for drop shipment, and you create a purchase order specifying the customer in the **Ship-to** field, **Customer Address**, you can link the two documents to instruct the vendor to ship directly to the customer.
+When a sales order is marked for drop shipment, and you create a purchase order specifying the customer in the **Ship-to** field, **Customer Address** , you can link the two documents to instruct the vendor to ship directly to the customer.
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
@@ -38,7 +38,7 @@ To prepare a drop shipment, you create a sales order for an item and indicate on
 To prepare a drop shipment, you indicate on the purchase order that it must be shipped to your customer, not to yourself.
 
 1. Create a purchase order. Do not fill any fields on the lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
-2. In the **Ship-to** field, select **Customer Address**.
+2. In the **Ship-to** field, select **Customer Address** .
 3. In the **Customer** field, select the customer that you are selling to.
 4. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
 5. On the **Sales List** page, select the sales order that you prepared in [To create a sales order for drop shipment](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
@@ -52,7 +52,7 @@ You can now instruct the vendor to ship the items to your customer, for example,
 
 You can also use the requisition worksheet to create the purchase order for the vendor. The advantage of using the requisition worksheet is that it can create purchase orders for all outstanding drop shipments, so you don't have to create each one individually.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requistion Worksheets**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requistion Worksheets** , and then choose the related link.
 2. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
 3. Choose the **OK** button.
 4. Review the purchase order lines, and in the **Vendor No.** field, select vendor that supplies required goods. 
@@ -66,7 +66,7 @@ You can also use the requisition worksheet to create the purchase order for the 
 
 After the vendor ships the items, you can post the sales order as shipped. You can also post the purchase order, but only with the **Receive** option until the sales order has been invoiced.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.
 2. Open the sales order that you created in [To create a sales order for drop shipment](#to-create-a-sales-order-for-drop-shipment).
 3. In the **Qty. to Ship** field, specify how many of the order quantity to ship, the full or a partial order quantity.
 4. Choose the **Post** or **Post and Send** action.

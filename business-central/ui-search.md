@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 37ee56fef2f7424e0655303f2a6111a8b3eae94f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 11efef293064aa5624bc0a5af2c59002ccd914d6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195322"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923377"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finding Pages and Information with Tell Me  
 This topic describes how Tell Me can help you quickly go to things like actions, pages, or reports, find information about how to complete a particular task, and discover additional apps and consulting services for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -29,7 +29,7 @@ When you start typing characters, [!INCLUDE[d365fin](includes/d365fin_md.md)] im
 
 The column to the right indicates the general category of the result. For example, whether it will open a list page or is an administrative task .  
 
-At the bottom of the **Tell Me** window is an action called **exploring**, which opens a feature overview that shows you all available features for your role or for all roles. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).
+At the bottom of the **Tell Me** window is an action called **exploring** , which opens a feature overview that shows you all available features for your role or for all roles. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
 > [!NOTE]  
 >   If you prefer to use your keyboard, use the Tab key and Arrow keys to choose an item in the results. If you press the Enter key on your keyboard without choosing a result, [!INCLUDE[d365fin](includes/d365fin_md.md)] opens the result that is listed first.

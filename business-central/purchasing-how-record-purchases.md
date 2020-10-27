@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d01903b88919c498e804429c10be1beae7baf05
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4073ccccd36f6ec62804a5c1bd1881fb4d7a167d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783006"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926804"
 ---
 # <a name="record-purchases"></a>Record Purchases
 You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices and purchase orders are also used to dynamically update inventory levels so that you can minimise your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices or orders contribute to profit figures and other financial KPIs on your Role Centre.
 
-In addition to buying physical items (**Inventory** item type), which affect inventory valuation, you can purchase services represented by time units. You can do this either with the **Service** item type or with the **Resource** line type.
+In addition to buying physical items ( **Inventory** item type), which affect inventory valuation, you can purchase services represented by time units. You can do this either with the **Service** item type or with the **Resource** line type.
 
 > [!NOTE]  
 > You must use purchase orders if your purchasing process requires that you record partial receipts of an order quantity, for example, because the full quantity was not available at the vendor. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use purchase orders. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, purchase orders work the same way as purchase invoices. The following procedure is based on a purchase invoice. The steps are similar for a purchase order.
@@ -33,7 +33,7 @@ When you receive the inventory items or when the purchased service is completed,
 
 You can easily correct or cancel a posted purchase invoice before you pay the vendor. This is useful if you want to correct a typing mistake or if you want to change the purchase early in the order process. For more information, see [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). If you have already paid for items or services on the posted purchase invoice, then you must create a purchase credit memo to reverse the purchase. For more information, see [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
 
-The item card can be of type **Inventory**, **Service**, and **Non-Inventory** to specify if the item is a physical inventory unit, a labour time unit, or a physical unit that is not kept on inventory. For more information, see [Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for all three item types.
+The item card can be of type **Inventory** , **Service** , and **Non-Inventory** to specify if the item is a physical inventory unit, a labour time unit, or a physical unit that is not kept on inventory. For more information, see [Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for all three item types.
 
 > [!NOTE]
 > With the **Resource** purchase line type, you can also purchase external resources, for example, to invoice a vendor for work delivered. For more information, see [Set Up Resources](projects-how-setup-resources.md).<br /><br />
@@ -47,7 +47,7 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
 ## <a name="to-create-a-purchase-invoice"></a>To create a purchase invoice
 The following describes how to create a purchase invoice. The steps are similar for a purchase order. The main difference is that purchase orders have additional fields and actions for physical handling of items.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices** , and then choose the related link.  
 2. In the **Vendor** field, enter the name of an existing vendor.
 
     Other fields on the **Purchase Invoice** page are now filled with the standard information of the selected vendor. If the vendor is not registered, then follow these steps:
@@ -69,7 +69,7 @@ The following describes how to create a purchase invoice. The steps are similar 
 11. In the **Quantity** field, enter the number of items to be purchased.
 
     > [!NOTE]  
-    >   For items of type **Service** and for lines of type **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.
+    >   For items of type **Service** and for lines of type **Resource** , the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.
 
     The **Line Amount** field is updated to show the value in the **Direct Unit Cost** field multiplied by the value in the **Quantity** field.
 
@@ -84,7 +84,7 @@ The following describes how to create a purchase invoice. The steps are similar 
 
     > [!NOTE]  
     >   If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Invoice Discount Amount** field.
-13. When you receive the purchased items or services, choose **Post**.
+13. When you receive the purchased items or services, choose **Post** .
 
 The purchase is now reflected in inventory, resource ledgers, and financial records, and the vendor payment is activated. The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.
 

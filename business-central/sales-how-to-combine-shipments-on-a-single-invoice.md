@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6af01d93f378a7ea96d2ff8f693115804bdd167f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 19b6cb69d33d76d4263ad75a666eba14deaeeae8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788957"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925954"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Combine Shipments on a Single Invoice
 If you want to invoice more than one shipment at a time, you can use the combined shipments feature.  
@@ -23,7 +23,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
 Before you can create a combined shipment, more than one sales shipment for the same customer in the same currency must be posted. In other words, you must have create two or more sales orders and post them as shipped, but not invoiced. 
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>To manually combine shipments on a single invoice  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices** , and then choose the related link.  
 2. Choose the **New** action. For more information, see [Invoice Sales](sales-how-invoice-sales.md).
 3. In the **Sell-to Customer No.** field, enter the customer who will receive the invoice for the shipped items.  
 4. On the **Lines** FastTab, choose the **Get Shipment Lines** action.  
@@ -38,7 +38,7 @@ Before you can create a combined shipment, more than one sales shipment for the 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>To automatically combine shipments on a single invoice  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] will select only sales orders where **Combine Shipments** is chosen. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Combine Shipments**, and then choose the related link. The batch job request page opens.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Combine Shipments** , and then choose the related link. The batch job request page opens.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choose the **Post Invoices** check box.  
 4. Choose the **OK** button.  
@@ -51,7 +51,7 @@ When shipments are combined on an invoice and posted, a posted sales invoice is 
 
 When you invoice shipments in this way, the orders from which the shipments were posted still exist, even if they have been fully shipped and invoiced.   
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Sales Orders**, and then select the link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Sales Orders** , and then select the link.  
 2. Specify in the **No.** filter field which sales orders to delete.  
 3. Choose the **OK** button.  
 

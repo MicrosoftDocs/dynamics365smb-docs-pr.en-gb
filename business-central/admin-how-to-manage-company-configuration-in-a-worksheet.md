@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f44e84342e9cf13d3f41130644f8bddd3809fb2f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: fb5ede0362f54f8475807e10e1bad87beffaec02
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783583"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922599"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Manage Company Configuration in a Worksheet
 The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.  
@@ -28,11 +28,11 @@ The following procedures demonstrate how to add and customise table information 
 
 ## <a name="to-open-the-configuration-worksheet"></a>To open the configuration worksheet  
 1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)], open the company that is the baseline for configuration, and then open its RapidStart Services Implementer Role Centre.  
-2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
+2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet** , and then choose the related link.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>To add a table to the worksheet  
 1.  On the **Config. Worksheet** page, choose the **Edit List** action.  
-2.  On the first line, in the **Line Type** field, select **Table**.  
+2.  On the first line, in the **Line Type** field, select **Table** .  
 4.  In the **Table ID** field, select the table that you want to add to your configuration.  
 5.  In the **Page ID** field, enter the ID of the page that is associated with the table. For standard tables, this value is automatically filled in. For custom tables, you must provide the ID.
 6.  In the **Reference** field, enter the URL of a documentation page, for example in Help, that provides best-practice information or instructions o setting up the table.  
@@ -62,7 +62,7 @@ The following procedures demonstrate how to add and customise table information 
     |**Include Licensed Tables Only**|Select the check box to include only those tables for which the license under which you are creating the worksheet allows you access.|
 
 3. On the **Object** FastTab, set filters as appropriate to specify the types of tables you want to include or exclude.  
-4. Choose the **OK** button. [!INCLUDE[d365fin](includes/d365fin_md.md)] tables are added to the worksheet. Each entry in the list has a line of type **Table**.  
+4. Choose the **OK** button. [!INCLUDE[d365fin](includes/d365fin_md.md)] tables are added to the worksheet. Each entry in the list has a line of type **Table** .  
 5. To remove duplicate table information that can result from using the **Get Tables** action, choose the **Delete Duplicate Lines** action. This will remove duplicate tables that have the same package code.  
 6. You can add tables to the worksheet that are related to a table you have selected. Review the information in the **Related Tables** FactBox to see whether there are missing tables. To add related tables for a specific table, select the table in the list, and then choose the **Get Related Tables** action.  
 
@@ -92,9 +92,9 @@ The following procedure describes how to add area and group designations, after 
 
 ## <a name="to-categorize-and-group-functionality-in-the-worksheet"></a>To categorise and group functionality in the worksheet  
 1. At the beginning of an area, insert a new line in the worksheet.  
-2. In the **Line Type** field, choose **Area**. In the **Name** field, enter a name for the area.  
+2. In the **Line Type** field, choose **Area** . In the **Name** field, enter a name for the area.  
 3. At the beginning of a grouping of tables, insert a new line in the worksheet.  
-4. In the **Line Type** field, choose **Group**. In the **Name** field, enter a name for the area. The group name is automatically indented.  
+4. In the **Line Type** field, choose **Group** . In the **Name** field, enter a name for the area. The group name is automatically indented.  
 5. To move tables to the appropriate category, select a table to move, and then choose the **Move Up** or **Move Down** action. Alternatively, you can delete a worksheet line and insert the table again in the required location.  
 
 Some [!INCLUDE[d365fin](includes/d365fin_md.md)] tables are standard and the data in these is not likely to change from implementation to implementation. Consequently, to help your customer focus, you can remove these tables from the worksheet after you have included them in the configuration package. Once added, the tables remain part of the configuration package.  

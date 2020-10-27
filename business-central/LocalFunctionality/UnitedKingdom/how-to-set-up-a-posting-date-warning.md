@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4757caab8c0fd0b4fff3fd12a46ea5543b095c1a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 93a7ac5baea3639b1059943db9d2db1c6ffa6f20
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782030"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925125"
 ---
 # <a name="set-up-a-posting-date-warning"></a>Set Up a Posting Date Warning
 A warning message will be displayed when you post or batch post sales and purchase documents with a posting date not same as the work date. You must set up for this on the **Sales Receivables Setup** and **Purchases Payables Setup** pages.  
 
 ## <a name="to-set-up-a-posting-date-warning-for-sales-and-purchases"></a>To set up a posting date warning for sales and purchases  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup** or **Purchases & Payables Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup** or **Purchases & Payables Setup** , and then choose the related link.  
 2.  On the **Sales Receivables Setup** page or the **Purchases Payables Setup** page, in the **General** FastTab, select the **Posting Date Cheque on Posting** check box.  
 3.  Choose the **OK** button.  
 

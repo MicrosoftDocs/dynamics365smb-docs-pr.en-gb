@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 41e0c3e93a2a778745ad70d2a1711c76f28ec091
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 85e27db78481e3e3cd9f8e8ef34eb26eee8b08f0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788932"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925904"
 ---
 # <a name="create-special-orders"></a>Create Special Orders
 You can create a special order for a specific catalogue item to be shipped to a specific customer. Your vendor ships the item to your warehouse and you can then ship the item on to your customer either independently or together with other items on another order.  
@@ -25,15 +25,15 @@ Special orders imply that the purchase and sales order are linked to ensure that
 Before you can use this feature, you must first set up the customer, vendor, and item cards necessary for the order.  
 
 ## <a name="to-create-a-special-order"></a>To create a special order  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order** , and then choose the related link.  
 2. Choose the **New** action. Create and fill in a  sales order for the item. For more information, see [Sell Products](sales-how-sell-products.md).
 3.  On the **Lines** FastTab, fill in the sales line. In the **Purchasing Code** field, select a purchasing code that has the **Special Order** field selected.
 
     You must now create a purchase order from a requisition worksheet.  
-4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requisition Worksheet**, and then choose the related link.  
+4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requisition Worksheet** , and then choose the related link.  
 5. Choose the **Special Order** action, and then choose the **Get Sales Orders** action.  
 6.  On the **Get Sales Orders** page, show results where the **Document No.** is the sales order number. Choose the **OK** button. A requisition worksheet line is created for the item.  
-7.  On the requisition worksheet line, in the **Action Message** field, select **New**.  
+7.  On the requisition worksheet line, in the **Action Message** field, select **New** .  
 8.  On the **Req. Worksheet** page, choose the **Carry Out Action Message** action. The **Carry Out Action Msg. - Req.** page opens. Choose the **OK** button.  
 
     A message appears telling you that the purchase orders have been created. Choost the **OK** button.  
@@ -41,7 +41,7 @@ Before you can use this feature, you must first set up the customer, vendor, and
 A purchase order created as a special order for a sales order is respected by the planning system as it balances demand and supply. That is, the purchase order (supply) remains linked to the sales order (demand), even if that purchase order could supply another earlier demand. For more information, see [Design Details: Reordering Policies](design-details-reservation-order-tracking-and-action-messaging.md).  
 
 > [!NOTE]  
->  You cannot use the special order functionality if the item is already reserved. Therefore, for items that are sold on special orders, make sure the **Reserve** field on the item card is not set to **Always**.  
+>  You cannot use the special order functionality if the item is already reserved. Therefore, for items that are sold on special orders, make sure the **Reserve** field on the item card is not set to **Always** .  
 
 ## <a name="see-also"></a>See Also  
 [Work with Catalogue Items](inventory-how-work-nonstock-items.md)  

@@ -1,8 +1,6 @@
 ---
-title: Upgrading an Integration with Dynamics 365 Sales| Microsoft Docs
-description: Learn how to get Dynamics 365 Business Central ready to integrate with Dynamics 365 Sales.
-services: project-madeira
-documentationcenter: ''
+title: Upgrading an Integration with Dynamics 365 Sales
+description: Learn how to move your Dynamics 365 Business Central integration with Dynamics 365 Sales to the latest version.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 10/01/2019
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 57bb8d6ee48b608074a669109bdd99abf8c452c2
-ms.sourcegitcommit: 351eb465e6dfb3d01c0f3ea406db340f393f47fc
+ms.openlocfilehash: 3bb6b26e011afc515fbd4f492f56b3090c56e860
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3742842"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922374"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Upgrading an Integration with Dynamics 365 Sales
 [!INCLUDE[d365fin](includes/d365fin_md.md)] integrates with [!INCLUDE[d365fin](includes/cds_long_md.md)], which makes it easy to connect and synchronise data with other Dynamics 365 applications, such as [!INCLUDE[crm_md](includes/crm_md.md)], or even apps that you build yourself. If you are integrating for the first time, we recommend that you do so through [!INCLUDE[d365fin](includes/cds_long_md.md)]. For more information, see [Integration with Common Data Service](admin-common-data-service.md).

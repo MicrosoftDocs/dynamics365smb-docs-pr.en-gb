@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 88107b3f42be23a723ccded0729098de74b15de2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e77238b4e0578307a90f80bddfdec64002e7ac27
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782981"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926779"
 ---
 # <a name="register-new-vendors"></a>Register New Vendors
 
@@ -33,8 +33,8 @@ Vendor cards hold the information that is required to buy products from the vend
 
 ## <a name="to-create-a-new-vendor-card"></a>To create a new vendor card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
-2. On the **Vendors** page, Choose **New**.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors** , and then choose the related link.  
+2. On the **Vendors** page, Choose **New** .
 
     If more than one vendor template exists, then a page opens from which you can select a vendor template. In that case, follow the next two steps.
 3. On the **Select a template for a new vendor** page, choose the template that you want to use for the new vendor card.

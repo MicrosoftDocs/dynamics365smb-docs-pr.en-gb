@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c751d6925af74e7e4c1a0e37f6d22ea9144adff
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4b5293ace8fe0fc59b0e1f499574355397fb2d84
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779393"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923227"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Plan Warehouse Movements in Worksheets
 Plan movements in the worksheet using a bin replenishment function or manually planning the lines that you want to create as movement instructions.  
@@ -23,7 +23,7 @@ Plan movements in the worksheet using a bin replenishment function or manually p
 ## <a name="to-calculate-a-replenishment-movement"></a>To calculate a replenishment movement  
 As the warehouse ships items out to customers, the bins with the highest bin rankings contain fewer and fewer items. To fill up these high-ranking pick bins with items from other bins, run the **Calculate Bin Replenishment** function on the **Movement Worksheet** page
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet** , and then choose the related link.  
 2.  Choose the **Calculate Bin Replenishment** action.  
 
     [!INCLUDE[d365fin](includes/d365fin_md.md)] creates lines that indicate precisely how you should move items from the low-ranking bins to the higher-ranking bins.  
@@ -44,7 +44,7 @@ As the warehouse ships items out to customers, the bins with the highest bin ran
 ## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>To move the entire contents of one or more bins by using the Get Bin Content function  
 You can also use the movement worksheet to plan other movement of inventory within the warehouse. For example, when you want to place items in a bin for quality control, you can use the movement worksheet to plan this action and then create a movement to make instructions for an employee.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet** , and then choose the related link.  
 2.  Choose the **Get Bin Content** action. Use the request page to filter which bins and items you want to appear on the movement worksheet lines.  
 3.  Fill in the relevant fields in the batch job request page. For example, if you want to see the bin content of all the bins in a certain zone at the location, fill in the **Zone Code** field. If you want to retrieve lines for each bin that contains a particular item, fill in the **Item No.** field.  
 
@@ -61,7 +61,7 @@ You can also use the movement worksheet to plan other movement of inventory with
     > -   The **Bin Mandatory** check box on the location card is selected.  
     > -   The **From Zone** and **From Bin** fields are blank.  
 
-5.  Complete some of the retrieved lines to reflect the changes you want to make. For each item that you want to move, you must fill in the **Item No.**, **From Bin Code**, **To Bin Code**, and **Quantity** fields.  
+5.  Complete some of the retrieved lines to reflect the changes you want to make. For each item that you want to move, you must fill in the **Item No.** , **From Bin Code** , **To Bin Code** , and **Quantity** fields.  
 6.  Delete the incomplete lines that you used for information.  
 7.  Once the movement worksheet lines accurately reflect how the movement action should be carried out by the warehouse employee, choose the **Create Movement** action to create the instructions for the employee.  
 

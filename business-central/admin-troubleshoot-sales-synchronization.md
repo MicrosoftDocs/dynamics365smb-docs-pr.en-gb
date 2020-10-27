@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 82b5f3ec52be27c4fbe60a6a63a0cfc5f6f1bd7c
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: db8b05aa74583d8ba74fcfeb8fae1d3c28893fac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196550"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922399"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Troubleshooting Synchronisation Errors
 There are lots of moving parts involved in integrating [!INCLUDE[d365fin](includes/d365fin_md.md)] with Common Data Service, and sometimes things go wrong. This topic points out some of the typical errors that occur and gives some pointers for how to fix them.
@@ -50,6 +50,9 @@ The conflict error message "Cannot update the Customer record because it has a l
 The conflict happens because the destination record was also changed  - the record timestamp is more recent than Sales Integration Record's timestamp. The destination check happens only for bi-directional tables. 
 
 These records are now moved to the "Skipped Synch. Records" page, which you open from the Microsoft Dynamics Connection Setup page in Business Central. There you can specify the changes to keep, and then synchronise the records again.
+
+## <a name="remove-couplings-between-records"></a>Remove Couplings Between Records
+When something goes wrong in your integration and you need to uncouple records to stop synchronising them, you can do so for one or more records at a time. On the **Integration Table Mappings** page, you can choose choose **Uncoupling** , and then **Delete Coupling** . Alternatively, on the **Coupled Data Synchronisation Errors** page, you can choose the errors and then choose **Remove Couplings** . 
 
 ## <a name="see-also"></a>See Also
 [Integrating with Common Data Service](admin-prepare-dynamics-365-for-sales-for-integration.md)  

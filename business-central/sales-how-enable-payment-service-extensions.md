@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 753a9ae7b6b47113107bb9f9bdf439323cff615a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6d905c6155b305a5788ca48a1364dbd619c084ef
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781742"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926254"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Enable Customer Payments Through Payment Services
 As an alternative to collecting payments through bank transfer or credit cards, your customers can pay you through their account with payment services, such as Microsoft Pay, PayPal, or WorldPay.  
@@ -25,7 +25,7 @@ After you enable a payment service in [!INCLUDE[d365fin](includes/d365fin_md.md)
 The Microsoft Pay, PayPal Payments Standard, and WorldPay Payments Standard extensions are installed in [!INCLUDE[d365fin](includes/d365fin_md.md)], and are ready for you to enable.  
 
 ## <a name="to-enable-a-payment-service-in-d365fin"></a>To enable a payment service in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Services**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Services** , and then choose the related link.  
 2. On the **Payment Services** page, choose the **New** action.  
 3. Select the payment service, and then close the page.  
 4. On the **Payment Services** page, choose the **Setup** action.  
@@ -33,7 +33,7 @@ The Microsoft Pay, PayPal Payments Standard, and WorldPay Payments Standard exte
 6. Close the page.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>To select a payment service on a sales invoice
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices** , and then choose the related link.  
 2. Open the sales invoice that you want to pay by using the payment service.  
 3. In the **Payment Service** field, choose the payment service.  
 

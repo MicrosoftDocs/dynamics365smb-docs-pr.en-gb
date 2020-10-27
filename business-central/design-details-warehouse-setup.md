@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/04/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fbb720caa8443e2f840004044edc17f9ba4bfcff
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 44cbc7d42827b92f8983aa47b94d76760ddda8d2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787028"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924270"
 ---
 # <a name="design-details-warehouse-setup"></a>Design Details: Warehouse Setup
 
@@ -42,10 +42,10 @@ The following table shows which granules are required to define different wareho
 |----------------|-----------|-----------|---------------|---------------------------|  
 |1|No dedicated warehouse activity.<br /><br /> Receive/ship posting from orders.|Order|BLUE|Basic Inventory|  
 |2|No dedicated warehouse activity.<br /><br /> Receive/ship posting from orders.<br /><br /> Bin code is required.|Order, with bin code|SILVER|Basic Inventory/Bin|  
-|3 <br /><br /> **NOTE**: Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.|Basic warehouse activity, order-by-order.<br /><br /> Receive/ship posting from inventory put-away/pick documents. <br /><br /> Bin code is required.|Inventory Put-away/Inventory Movement/Inventory Pick, with bin code|(SILVER + Require Put-away or Require Put-away)|Basic Inventory/Bin/Put Away/Pick|  
+|3 <br /><br /> **NOTE** : Even though the settings are called **Require Pick** and **Require Put-away** , you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.|Basic warehouse activity, order-by-order.<br /><br /> Receive/ship posting from inventory put-away/pick documents. <br /><br /> Bin code is required.|Inventory Put-away/Inventory Movement/Inventory Pick, with bin code|(SILVER + Require Put-away or Require Put-away)|Basic Inventory/Bin/Put Away/Pick|  
 |4|Advanced warehouse activity, for multiple orders.<br /><br /> Consolidated receive/ship posting based on warehouse put-away/pick registrations.|Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Pick Worksheet|GREEN|Basic Inventory/Warehouse Receipt/Put Away/Pick/Warehouse Shipment|  
 |5|Advanced warehouse activity, for multiple orders.<br /><br /> Consolidated receive/ship posting based on warehouse put-away/pick registrations.<br /><br /> Bin code is required.|Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Pick Worksheet/Put-away Worksheet, with bin code|(GREEN + Bin Mandatory)|Basic Inventory/Bin/Warehouse Receipt/Put Away/Pick/Warehouse Shipment|  
-|6 <br /><br /> **Note**: This level is referred to as “WMS”, since it requires the most advanced granule, Warehouse Management Systems.|Advanced warehouse activity, for multiple orders<br /><br /> Consolidated receive/ship posting based on warehouse put-away/pick registrations<br /><br /> Bin code is required.<br /><br /> Zone/Class code is optional.<br /><br /> Warehouse workers directed by workflow<br /><br /> Bin replenishment planning<br /><br /> Bin ranking<br /><br /> Bin setup by capacity<br /><br /> Slotting  <!-- Hand-held device integration -->|Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Warehouse Movement/Pick Worksheet/Put-away Worksheet/Internal Whse. Pick/Internal Warehouse Put-away, with bin/class/zone code<br /><br /> Various worksheets for bin management<br /><br /> ADCS screens|WHITE|Basic Inventory/Bin/Put Away/Warehouse Receipt/Pick/Warehouse Shipment/Warehouse Management Systems/Internal Picks and Put-aways/Bin Setup/<!-- Automated Data Capture System/ -->Bin Setup|  
+|6 <br /><br /> **Note** : This level is referred to as “WMS”, since it requires the most advanced granule, Warehouse Management Systems.|Advanced warehouse activity, for multiple orders<br /><br /> Consolidated receive/ship posting based on warehouse put-away/pick registrations<br /><br /> Bin code is required.<br /><br /> Zone/Class code is optional.<br /><br /> Warehouse workers directed by workflow<br /><br /> Bin replenishment planning<br /><br /> Bin ranking<br /><br /> Bin setup by capacity<br /><br /> Slotting  <!-- Hand-held device integration -->|Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Warehouse Movement/Pick Worksheet/Put-away Worksheet/Internal Whse. Pick/Internal Warehouse Put-away, with bin/class/zone code<br /><br /> Various worksheets for bin management<br /><br /> ADCS screens|WHITE|Basic Inventory/Bin/Put Away/Warehouse Receipt/Pick/Warehouse Shipment/Warehouse Management Systems/Internal Picks and Put-aways/Bin Setup/<!-- Automated Data Capture System/ -->Bin Setup|  
 
 For examples of how the UI documents are used per warehouse complexity level, see [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md).  
 

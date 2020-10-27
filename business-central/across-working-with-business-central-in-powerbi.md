@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 07/10/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: bdcbcb0fa82d799e29cfcdbb034e231635510656
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 99628b761a3d5f79941a78c00a999a5b8131869e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697801"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927229"
 ---
 # <a name="working-with-prodshort-data-in-power-bi"></a>Working with [!INCLUDE [prodshort](includes/prodshort.md)] Data in Power BI
 
@@ -29,7 +29,7 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 
 Once you have a Power BI account, you can sign in at [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/).
 
-The Power BI service hosts all the reports available to you. To see the report, select **My Workspace** > **Reports**. Then just select the report that you want to view.
+The Power BI service hosts all the reports available to you. To see the report, select **My Workspace** > **Reports** . Then just select the report that you want to view.
 
 With [!INCLUDE[prodshort](includes/prodshort.md)] online, you'll automatically have a set of default reports on your workspace. If you want to create your own reports, you can use Power BI Desktop to create reports, and then publish them to your workspace. For more information, see [Getting Started Building Reports in Power BI Desktop to Display [!INCLUDE [prodlong](includes/prodlong.md)] Data](across-how-use-financials-data-source-powerbi.md).
 
@@ -37,15 +37,15 @@ If you're using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you'll
 
 ## <a name="get-the-latest-data"></a>Get the latest data
 
-Each Power BI report is based on a dataset that gets data from the [!INCLUDE[prodshort](includes/prodshort.md)] sources. You want to make sure that the data in your Power BI reports is up to date with the data in [!INCLUDE[prodshort](includes/prodshort.md)]. This concept is referred to as *refreshing*.  Depending on how your organisation has set up Power BI, refreshing might not happen automatically. There are two ways to refresh data: manually or by scheduling a refresh. Manual refreshing is done on-demand, as needed. Scheduled refreshing lets you refresh automatically at defined time intervals.
+Each Power BI report is based on a dataset that gets data from the [!INCLUDE[prodshort](includes/prodshort.md)] sources. You want to make sure that the data in your Power BI reports is up to date with the data in [!INCLUDE[prodshort](includes/prodshort.md)]. This concept is referred to as *refreshing* .  Depending on how your organisation has set up Power BI, refreshing might not happen automatically. There are two ways to refresh data: manually or by scheduling a refresh. Manual refreshing is done on-demand, as needed. Scheduled refreshing lets you refresh automatically at defined time intervals.
 
 ### <a name="refresh-manually"></a>Refresh manually
 
-In the navigation pane, under **Datasets**, select **More options (...)** next to the dataset, then select **Refresh now**.
+In the navigation pane, under **Datasets** , select **More options (...)** next to the dataset, then select **Refresh now** .
 
 ### <a name="schedule-a-refresh"></a>Schedule a refresh
 
-In the navigation pane, under Datasets, select More options (...) next to the dataset, then select **Schedule refresh**. Fill in the information under the **Schedule refresh** section, and select **Apply**.
+In the navigation pane, under Datasets, select More options (...) next to the dataset, then select **Schedule refresh** . Fill in the information under the **Schedule refresh** section, and select **Apply** .
 
 For more information, see [Configure scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh)
 
@@ -53,11 +53,11 @@ For more information, see [Configure scheduled refresh](/power-bi/connect-data/r
 
 Power BI Reports can be distributed among users as .pbix files. If you have a .pbix file, you can upload the file to a workspace. To upload a report, do the following steps:
 
-1. In your new workspace, select **Get Data**.
+1. In your new workspace, select **Get Data** .
 
-2. In the Files box, select **Get**.
+2. In the Files box, select **Get** .
 
-3. Select **Local File**, navigate to where you saved the file, and select **Open**.
+3. Select **Local File** , navigate to where you saved the file, and select **Open** .
 
 For more information, see [Upload the report to the service](/power-bi/paginated-reports/paginated-reports-quickstart-aw#upload-the-report-to-the-service).
 
@@ -71,7 +71,7 @@ For more information, see [Upload the report to the service](/power-bi/paginated
 
 Once a report is in your workspace, you can share it with others in your organisation.
 
-To share a report, in a list reports, or in an open report, select **Share**. In the **Share report** pane, enter the full email addresses for individuals or distribution groups you want to share with. Follow the instructions on screen to complete the sharing. For more information, see [Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+To share a report, in a list reports, or in an open report, select **Share** . In the **Share report** pane, enter the full email addresses for individuals or distribution groups you want to share with. Follow the instructions on screen to complete the sharing. For more information, see [Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
 > [!NOTE]
 > You must have  [Power BI Pro licence](/power-bi/service-features-license-type), and the people you share with do too. The content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).

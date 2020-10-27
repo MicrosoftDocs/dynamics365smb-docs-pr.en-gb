@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: acd08841a8fe26be7fcc3442a8453af4e0108c36
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4da0f30f47827515f8591802ce2ca49c245009ab
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782100"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922901"
 ---
 # <a name="import-multiple-item-pictures"></a>Import Multiple Item Pictures
 You can import multiple item pictures in one go. Simply name your picture files with names corresponding to your item numbers, compress them to a ZIP file, and then use the **Import Item Pictures** page to manage which item pictures to import.
@@ -32,10 +32,10 @@ All common file formats are supported.
     |1001|1001.bmp|
     |1002|1002.bmp|
 
-2. Collect all the files in a ZIP file. For example, in Windows Explorer, select the files, and then choose **Send to**, **Compressed (zipped) folder**.     
+2. Collect all the files in a ZIP file. For example, in Windows Explorer, select the files, and then choose **Send to** , **Compressed (zipped) folder** .     
 
 ## <a name="to-import-item-pictures"></a>To import item pictures
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup** , and then choose the related link.
 2. Choose the **Import Item Pictures** action.
 3. In the **Select a ZIP file** field, select the relevant ZIP folder, and then choose the **Open** button.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8e6f248768f558f3bc5e12002234ffb56b006759
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2c8cd73e1dd47549cab57e9fd44fe52232437175
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780017"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925304"
 ---
 # <a name="set-up-put-away-templates"></a>Set Up Put-away Templates
 
@@ -25,7 +25,7 @@ You can set up a number of put-away templates and select one of them to govern p
 
 ## <a name="to-set-up-put-away-templates"></a>To set up put-away templates
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Templates** , and then choose the related link.  
 2. Choose the **New** action.  
 3. Enter a code that is the unique identifier of the template you are about to create.  
 4. Enter a short description, if you wish.  

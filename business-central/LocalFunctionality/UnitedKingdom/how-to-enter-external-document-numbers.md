@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/15/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dbcc07b5c89bb513b703e774b0927dec69b6e1c8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c9df7b233de4f4cb80f7bcfc5e8a9c06e032de69
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784889"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923944"
 ---
 # <a name="enter-external-document-numbers"></a>Enter External Document Numbers
 
@@ -28,7 +28,7 @@ The following procedure explains how to specify an external document number on a
 
 ## <a name="to-enter-external-document-numbers-in-a-sales-order"></a>To enter external document numbers in a sales order  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
 2. Select the relevant sales order, and then choose the **Edit** action.  
 3. On the **General** FastTab, in the **External Document No.** field, enter the invoice number.  
 

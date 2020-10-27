@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e244afdb7690ad10eeb99f0c8004cb171469744b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d2e600f3b2da20540e224cb1405a50adc4a31f25
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781967"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924960"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Use XML Schemas to Prepare Data Exchange Definitions
 
@@ -35,7 +35,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 1. Make sure that the relevant XML schema file is available. The file extension is .xsd.  
 
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schemas**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schemas** , and then choose the related link.  
 
 3. Choose the **New** action.  
 
@@ -57,7 +57,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>To select or clear nodes in an XML schema  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schema Viewer**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schema Viewer** , and then choose the related link.  
 
 2. Fill the fields on the header as described in the following table.  
 
@@ -70,7 +70,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 3. On the first line, in the **Node Name** column, expand the **Document** node, and then gradually expand underlying nodes that you want to review.  
 
-     Alternatively, right-click on a node and then choose **Expand All**.  
+     Alternatively, right-click on a node and then choose **Expand All** .  
 
 4. Choose either of the following actions to change which nodes are displayed.  
 
@@ -95,7 +95,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>To generate a data exchange definition that is based on an XML schema  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter  **XML Schemas**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter  **XML Schemas** , and then choose the related link.  
 
 2. Select the relevant XML schema, and then choose the **Open XML Schema Viewer** action.  
 

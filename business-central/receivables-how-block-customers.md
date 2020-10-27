@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 720eb2d5899ba067dbcee8dc97492ebcd01b1abd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: dc8014cf0896db1ebbc5f0c5ea22e0f160c1b06d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779185"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926554"
 ---
 # <a name="block-customers"></a>Block Customers
 You can block a customer, for example because of insolvency, so that the customer cannot be added to sales documents or so that no transactions can be posted for the customer.
@@ -32,7 +32,7 @@ The following table describes the options for blocking customers.
 |**All**|No transaction is allowed for this customer, including payments.|  
 
 ## <a name="to-block-a-customer"></a>To block a customer  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** , and then choose the related link.
 2. Select a customer, and then choose the **Edit** action.
 3. In the **Blocked** field, choose what to block, as described in the table above.
 

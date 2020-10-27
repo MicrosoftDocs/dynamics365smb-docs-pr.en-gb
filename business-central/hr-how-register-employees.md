@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ec9f187985a7deb58329a9301d3215a25e9f0fa5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 75c3c6a59e951052f59f4100688ace92af16b50f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777649"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922976"
 ---
 # <a name="register-employees"></a>Register Employees
 To use the Human Resources functionality, you must first register each employee by creating a card with all the core and related information.
@@ -30,18 +30,18 @@ The following procedures describe how to create an initial employee card and how
 > You can reimburse employees for their expenses during business activities. For this purpose, you must fill in the fields on the **Payments** FastTab on the **Employee Card** page. For more information, see [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>To set up an employee
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees** , and then choose the related link.
 2. Choose the **New** action.
 3. On the **Employee Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>To insert a picture of an employee
 If you have a picture of an employee in .bmp format, you can insert it on the employee card.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees** , and then choose the related link.
 2. Open the card for the relevant employee.
-3. In the **Employee Picture** FactBox, choose the drop-down button, and then choose **Import**.
+3. In the **Employee Picture** FactBox, choose the drop-down button, and then choose **Import** .
 4. On the **Select a picture to upload** page, choose the **Choose** button.
-5. Select the file, and then choose **Open**.
+5. Select the file, and then choose **Open** .
 
 The picture is inserted in the **Employee Picture** FactBox.
 
@@ -50,7 +50,7 @@ On the employee card, you can set up information, such as union membership, rela
 
 You can use alternate addresses to keep track of your employees’ location, for example if they are stationed abroad, on a long business trip, or residing at a summer residence.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees** , and then choose the related link.
 2. Open the card for the relevant employee.
 3. Choose the **Alternate Addresses** action.
 4. **In the Alternate Address List** page, fill in the fields as necessary.

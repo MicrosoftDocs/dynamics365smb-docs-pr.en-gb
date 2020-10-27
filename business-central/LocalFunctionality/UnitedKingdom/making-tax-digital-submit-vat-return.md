@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: making tax digital, vat, vat return, submit vat, making tax digital software, hmrc, tax
-ms.date: 08/17/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: a05dd53a40d54df152a09c5e2f317f32aa9b9699
-ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
+ms.openlocfilehash: 3f7c2303e05848bb463e377050456c58814fbe1a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3701935"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923940"
 ---
 # <a name="making-tax-digital-in-the-united-kingdom"></a>Making Tax Digital in the United Kingdom
 
@@ -44,53 +44,53 @@ The Making Tax Digital feature uses a service connection to communicate with HMR
 > [!Note]
 > If you are using an on-premises version, there are some additional steps to set up the features for Making Tax Digital. In the cloud version, these happen automatically. For more information, see the section titled [Additional Setup Requirements for On-Premises Versions](#additional-setup-requirements-for-on-premises-versions) below.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose the related link.  
-2. On the **Service Connections** page, choose **HMRC VAT Setup**.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections** , and then choose the related link.  
+2. On the **Service Connections** page, choose **HMRC VAT Setup** .
 
     > [!Note]
     > If you use an on-premises version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] you will also need to provide a client ID and client secret. If you are not sure what these are, contact your partner. They can get the information for you on [PartnerSource](https://mbs.microsoft.com/partnersource/global/deployment/downloads/tax-regulatory-updates/365dynamicsbctaxdigitsupinfo).
 
-3. To open a GOV.UK website and request an authorisation code, choose **Process**, then **Request Authorisation Code**, and then choose **Continue**.  
-4. Sign in with your HMRC credentials. To allow the **Dynamics 365 Business Central MTD VAT** application to interact with HMRC on your behalf, choose **Grant authority**.
-5. A confirmation page displays "Authorization granted" and an authorization code. To copy the authorization code, choose **Copy**.
-6. Return to the service connection you are setting up, and paste the authorisation code in the **Enter Authorisation Code** field. Then choose **Enter**. Note, that the authorisation code is valid for 10 minutes and must be entered into [!INCLUDE[d365fin](../../includes/d365fin_md.md)] before expiry in order to set up the connection correctly.
+3. To open a GOV.UK website and request an authorisation code, choose **Process** , then **Request Authorisation Code** , and then choose **Continue** .  
+4. Sign in with your HMRC credentials. To allow the **Dynamics 365 Business Central MTD VAT** application to interact with HMRC on your behalf, choose **Grant authority** .
+5. A confirmation page displays "Authorization granted" and an authorization code. To copy the authorization code, choose **Copy** .
+6. Return to the service connection you are setting up, and paste the authorisation code in the **Enter Authorisation Code** field. Then choose **Enter** . Note, that the authorisation code is valid for 10 minutes and must be entered into [!INCLUDE[d365fin](../../includes/d365fin_md.md)] before expiry in order to set up the connection correctly.
 
     > [!Note]
-    > [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will use the authorisation code to test whether the service connection can communicate with HMRC. If the connection is successful, a confirmation page prompts you to verify your VAT registration number. To open the **Company Information** page and verify the number is correct, and the one you have used to register with HMRC, choose **Yes**.
+    > [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will use the authorisation code to test whether the service connection can communicate with HMRC. If the connection is successful, a confirmation page prompts you to verify your VAT registration number. To open the **Company Information** page and verify the number is correct, and the one you have used to register with HMRC, choose **Yes** .
 
 ### <a name="additional-setup-requirements-for-on-premises-versions"></a>Additional Setup Requirements for On-Premises Versions
 
 1. You must add a VAT report configuration on the **VAT Reports Configuration** page.  
   
     a. Create a new configuration, and choose the VAT Return type.  
-    b. Give the configuration a descriptive name, such as **HMRC MTD**.  
-    c. In the **Suggest Lines Codeunit ID** field, choose codeunit **745**.  
-    d. In the **Content Coneunit ID** field, choose codeunit **10531**.  
-    e. In the **Submission Codeunit ID** field, choose codeunit **10532**.  
-    f. In the **Validate Codeunit ID** field, choose codeunit **10533**.  
+    b. Give the configuration a descriptive name, such as **HMRC MTD** .  
+    c. In the **Suggest Lines Codeunit ID** field, choose codeunit **745** .  
+    d. In the **Content Coneunit ID** field, choose codeunit **10531** .  
+    e. In the **Submission Codeunit ID** field, choose codeunit **10532** .  
+    f. In the **Validate Codeunit ID** field, choose codeunit **10533** .  
     g. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 2. You must edit the VAT report setup on the **VAT Report Setup** page.  
   
     a. Expand the **Return Period** FastTab.  
     b. In the **Report Version** field, choose the VAT report configuration that you created in the previous step.  
-    c. In the **Manual Receive Codeunit ID** field, choose codeunit **10534**.  
-    d. In the **Receive Submitted Return Codeunit ID** field, choose codeunit **10536**.  
+    c. In the **Manual Receive Codeunit ID** field, choose codeunit **10534** .  
+    d. In the **Receive Submitted Return Codeunit ID** field, choose codeunit **10536** .  
     e. Optional: If you want to automatically update the information about VAT obligations, specify how often to do so in the **Update Period Job Frequency** field, and then specify codeunit **10535** in the **Auto Receive Codeunit ID** field.  
     f. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 ## <a name="vat-obligations"></a>VAT Obligations
 
-HMRC maintains a list of VAT obligations for companies, which are the periods for which they must report VAT and the due date for the report. HMRC exposes this information through their APIs, which enables [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to retrieve the obligations. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] stores VAT obligations as **VAT Return Periods**, and uses them to:
+HMRC maintains a list of VAT obligations for companies, which are the periods for which they must report VAT and the due date for the report. HMRC exposes this information through their APIs, which enables [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to retrieve the obligations. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] stores VAT obligations as **VAT Return Periods** , and uses them to:
 
 * Remind you about VAT returns that are due or overdue.
 * Automatically enter start and end dates when you create VAT returns.
 
 ### <a name="to-retrieve-the-vat-return-periods-from-hmrc"></a>To retrieve the VAT return periods from HMRC
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
-2. On the **VAT Return Periods** page, choose **Process**, and then choose **Get VAT Return Periods**.
-3. Enter the **Start Date** and **End Date** to specify the period for which to get the VAT return periods, and then choose **OK**.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods** , and then choose the related link.  
+2. On the **VAT Return Periods** page, choose **Process** , and then choose **Get VAT Return Periods** .
+3. Enter the **Start Date** and **End Date** to specify the period for which to get the VAT return periods, and then choose **OK** .  
 
 The VAT obligations are now retrieved from HMRC and you can view them on the **VAT Return Periods** page. A confirmation page shows how many obligations were retrieved.
 
@@ -103,21 +103,21 @@ Use this report to submit VAT for sales and purchase documents, such as purchase
 
 ### <a name="to-create-and-submit-a-vat-return"></a>To create and submit a VAT return
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
-2. On the **VAT Return Periods** page, choose **Process**, and then choose **Create VAT Return**.
-3. If you want to open the VAT return, on the confirmation page, choose **Yes**.
-4. On the **VAT Return** page, to calculate and prepare the amounts for the VAT return, choose **Process**, and then choose **Suggest Lines**.  
-5. Fill in the fields as necessary, and choose **OK**. VAT amounts display in the **Report Lines** section on the **VAT Return** page.  
-6. To release the VAT return and prepare it for submission, choose **Process**, and then choose **Release**. After you release a VAT return you cannot edit it. If you need to change something, you must reopen the return. Releasing the VAT return does not submit it.
-7. To submit the VAT return to HMRC, choose **Process**, and then choose **Submit**.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods** , and then choose the related link.  
+2. On the **VAT Return Periods** page, choose **Process** , and then choose **Create VAT Return** .
+3. If you want to open the VAT return, on the confirmation page, choose **Yes** .
+4. On the **VAT Return** page, to calculate and prepare the amounts for the VAT return, choose **Process** , and then choose **Suggest Lines** .  
+5. Fill in the fields as necessary, and choose **OK** . VAT amounts display in the **Report Lines** section on the **VAT Return** page.  
+6. To release the VAT return and prepare it for submission, choose **Process** , and then choose **Release** . After you release a VAT return you cannot edit it. If you need to change something, you must reopen the return. Releasing the VAT return does not submit it.
+7. To submit the VAT return to HMRC, choose **Process** , and then choose **Submit** .  
 
 A successful submission of the VAT Return will result in a Status = Accepted on the VAT Return. This status is based on the submission result at the HMRC. If the status after submission is not set to Approved a previously submitted VAT Return can be retrieved from the HMRC.
 
 ### <a name="to-receive-previously-submitted-vat-returns-from-hmrc"></a>To receive previously submitted VAT Returns from HMRC
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods** , and then choose the related link.  
 2. On the **VAT Return Periods** page, choose the relevant VAT return period.
-3. On the **VAT Return Period Card** page, choose **Receive Submitted VAT Returns**.
+3. On the **VAT Return Period Card** page, choose **Receive Submitted VAT Returns** .
 
 ## <a name="vat-liabilities-and-payments"></a>VAT Liabilities and Payments
 
@@ -125,17 +125,17 @@ If you want to check the status of your VAT, you can retrieve information from H
 
 To retrieve VAT liabilities:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Liabilities**, and then choose the related link.  
-2. On the **VAT Liabilities** page, choose **Process**, and then select **Get Liabilities**.
-3. Enter the **Start Date** and **End Date** of the period to retrieve VAT liabilities for, and then choose **OK**.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Liabilities** , and then choose the related link.  
+2. On the **VAT Liabilities** page, choose **Process** , and then select **Get Liabilities** .
+3. Enter the **Start Date** and **End Date** of the period to retrieve VAT liabilities for, and then choose **OK** .
 
 The VAT liabilities are now retrieved from HMRC and you can view them on the **VAT Liabilities** page. A confirmation page shows how many liabilities were retrieved.
 
 To retrieve VAT payments from HMRC:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Payments**, and then choose the related link.  
-2. On the **VAT Payments** page, choose **Process**, and then choose **Get Payments**.
-3. Enter the **Start Date** and **End Date** of the period to retrieve VAT payments for, and then choose **OK**.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Payments** , and then choose the related link.  
+2. On the **VAT Payments** page, choose **Process** , and then choose **Get Payments** .
+3. Enter the **Start Date** and **End Date** of the period to retrieve VAT payments for, and then choose **OK** .
 
 The VAT payments are now retrieved from HMRC and you can view them on the **VAT Payments** page. A confirmation page shows how many VAT payments were retrieved.
 
@@ -152,7 +152,7 @@ If you experience "The operation has timed out" errors on an on-premises install
 
 ## <a name="testing-the-integration-to-hmrc-in-a-sandbox"></a>Testing the integration to HMRC in a Sandbox
 
-Due to a limitation at HMRC, it is not possible to send test submissions of VAT Returns and test the integration in non-production scenarios. You can only send real VAT returns. Certain online documentation at HMRC refers to the term *Sandbox*. This refers to and environment for software developers such as Microsoft and others for testing their features during development. this environment is not intended for customer testing and is unrelated to [!INCLUDE[prodshort](../../includes/prodshort.md)] sandboxes.
+Due to a limitation at HMRC, it is not possible to send test submissions of VAT Returns and test the integration in non-production scenarios. You can only send real VAT returns. Certain online documentation at HMRC refers to the term *Sandbox* . This refers to and environment for software developers such as Microsoft and others for testing their features during development. this environment is not intended for customer testing and is unrelated to [!INCLUDE[prodshort](../../includes/prodshort.md)] sandboxes.
 
 ## <a name="see-also"></a>See Also
 

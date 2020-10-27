@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
-ms.date: 07/06/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 52d1846ce71a651dabfd099ced203648c0242082
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e6a9465f13e272d653ec9a0544618b243928af03
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777798"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923727"
 ---
 # <a name="set-up-units-of-measure"></a>Set Up Units of Measure
 
-As part of setting up your [!INCLUDE [prodshort](includes/prodshort.md)], you set up general units of measure in the **Units of Measure** page. Then, when you register new items, you specify the base unit of measure on the **Item Card**. But you can also add units of measure later.  
+As part of setting up your [!INCLUDE [prodshort](includes/prodshort.md)], you set up general units of measure in the **Units of Measure** page. Then, when you register new items, you specify the base unit of measure on the **Item Card** . But you can also add units of measure later.  
 
 You can set up multiple units of measure for an item so that you can assign units of measure to the item for the following purposes:
 
@@ -30,7 +30,7 @@ If an item is stocked in one unit of measure but produced in another, a producti
 
 ## <a name="to-set-up-units-of-measure"></a>To set up units of measure
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure** , and then choose the related link.  
 2. Choose the **New** action. A new empty line is inserted.  
 3. Fill in the fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. If you know that your organisation will sell items with this unit of measure to customers in other countries, you can add translations.  
@@ -43,14 +43,14 @@ When you register a new item, you can choose the base unit of measure from the l
 
 ## <a name="to-set-up-multiple-item-units-of-measure"></a>To set up multiple item units of measure
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.
 2. Open the card of the item for which you want to set up alternate units of measure.
 3. Choose the **Units of Measure** action. The **Item Units of Measure** page opens.
 4. If the **Base Unit of Measure** field on the item card is filled, then that unit of measure is already set up.
 5. Choose the **New** action. A new empty line is inserted.
 6. In the **Code** field, enter the name of the unit of measure. Alternatively, choose the field to select from the unit of measure codes that are in the database.
 7. In the **Qty. per Unit of Measure** field, enter how many units of the base unit of measure the new unit of measure contains.
-8. Optionally, in the **Height**, **Width**, **Length**, and **Weight** fields, specify precise information about the size of one unit of measure so that the [!INCLUDE [prodshort](includes/prodshort.md)] can calculate how many of each item unit can be placed in any given bin. The **Cubage** field is calculated automatically based on **Height**, **Width**, and **Length**.
+8. Optionally, in the **Height** , **Width** , **Length** , and **Weight** fields, specify precise information about the size of one unit of measure so that the [!INCLUDE [prodshort](includes/prodshort.md)] can calculate how many of each item unit can be placed in any given bin. The **Cubage** field is calculated automatically based on **Height** , **Width** , and **Length** .
 
     If any of these fields contain a value other than 0, then that measure is used during all processes that involve placing items in a bin: put-away, movements, receipts, shipments, picks, and adjustments. [!INCLUDE [prodshort](includes/prodshort.md)] checks the sum of each physical measure of the items being put away and the items already in the bin against the maximum size or other measure that can fit into a bin, according to the bin capacity policy on the location card for this item. In other words, you must use the same unit measure for each dimension across all item units of measure - use kilograms or pounds for weight, for example, but be consistent.
 9. Repeat steps 5 through 7 to set up all the alternate units of measure that you want to use in different processes for this item.
@@ -63,7 +63,7 @@ You can now use the alternate units of measure on purchase, production, and sale
 
 When you sell items to foreign customers, you may want to specify the unit of measure in the customer's language. You can do this after you have set up the necessary unit of measure translations.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure** , and then choose the related link.
 2. Select the code for which you want to set up translations, and then choose the **Translations** action.
 3. In the **Language Code** field, select the drop-down arrow to see a list of available language codes. Select the language code for which you want to enter a translation, and then choose the OK button to copy the code to the field.
 4. In the **Description** field, enter the appropriate text.
@@ -73,7 +73,7 @@ When you sell items to foreign customers, you may want to specify the unit of me
 
 If you usually buy or sell in units different from the base unit of measure, you can specify separate units of measure for purchases and sales. To do this, the units of measure must be set up on the **Item Units of Measure** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.
 2. Open the relevant item card for which you want to specify a default sales or purchase unit of measure code.
 3. For sales, on the **Invoicing** FastTab, in the **Sales Unit of Measure** field, open the **Item Units of Measure** page.
 4. For purchasing, on the **Replenishment** FastTab, in the **Purch. Unit of Measure** field, open the **Item Units of Measure** page.

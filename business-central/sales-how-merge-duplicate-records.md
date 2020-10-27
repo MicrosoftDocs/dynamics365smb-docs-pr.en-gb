@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f789c5caf0f59b1fdf3b3b10d42210152f32dc97
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6e5e51251f19391eb96a1979a2bb24f7bf894d4b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781667"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926179"
 ---
 # <a name="merge-duplicate-records"></a>Merge Duplicate Records
 As different users create new customer, vendor, or contact cards over time, or the new records are created automatically during migration, a customer, vendor, or contact may be represented in the system with more than one record. In this case, you can use the **Merge Duplicate** page from the card of the record that you want to keep. The page gives you an overview of duplicated field values and provides functions to select which values to keep or discard when merging two records into one.
@@ -30,7 +30,7 @@ As different users create new customer, vendor, or contact cards over time, or t
 
 The following procedure is based on a customer card. The steps are similar for a vendor  and contact cards.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** , and then choose the related link.
 2. Select the customer that you know or suspect that a duplicate record exists for, and then choose the **Edit** action.
 3. On the **Customer Card** page, choose the **Merge With** action.
 4. On the **Merge Duplicate** page, in the **Merge With** field, select the customer that you believe is a duplicate of the one you have opened, indicated in the **Current** field.
@@ -54,7 +54,7 @@ The following procedure is based on a customer card. The steps are similar for a
 10. If you do not want to keep the duplicate customer record, choose the **Remove Duplicate** action, and then choose the **Close** button.
 
     Identical field values, other than the value in the **No.** field, are removed from the duplicate record and inserted on the current record.
-11. If you want to keep the duplicate customer record after the merge,  choose the **Rename Duplicate**.
+11. If you want to keep the duplicate customer record after the merge,  choose the **Rename Duplicate** .
 12. On lines, not for the **No.** field, where the field has the same value on both records, change the value in the **Alternate Value** field, and then choose the **Close** button.
 
     The conflicting field value is updated on the duplicate record so that it can be merged with the current record. The duplicate record continues to exist after the merge.

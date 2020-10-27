@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 18be3b3e5757f3d108ddc9b413eb075aec5ae3af
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ca5104a8d4268c9f4822e98150a3e969c6c66d48
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779008"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924160"
 ---
 # <a name="work-with-inventory-periods"></a>Work with Inventory Periods
 Inventory periods define a period of time in which you can post changes to inventory. An inventory period is defined by the date on which it ends, or the ending date. When you close an inventory period, you cannot post any changes to inventory, either expected or invoiced, before this ending date. You cannot post any new values to inventory before the ending date. If you have open item entries in the closed period, meaning positive quantities that have not yet been applied to outbound transactions, you can still apply outbound quantities to these entries, even if the period is closed.  
@@ -27,7 +27,7 @@ The following sections describe how to:
 * Reopen inventory periods.  
 
 ## <a name="to-create-an-inventory-period"></a>To create an inventory period  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Periods**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Periods** , and then choose the related link.  
 2. Create a new line.  
 3. In the **Ending Date** field, enter the last date in the inventory period that you want to define. When the period is closed, you will not be able to post inventory changes before this date.  
 4. Enter a descriptive name in the **Name** field. Choose the **OK** button.  
@@ -59,7 +59,7 @@ This means that all outbound transaction quantities, such as those from sales or
 After you have closed the inventory period, you cannot delete the inventory period. You can, however, reopen it, if you would like to allow posting before the ending date of the inventory period. Reopening a period also reopens all inventory periods with ending dates later than the period you reopen.  
 
 ### <a name="to-reopen-an-inventory-period"></a>To reopen an inventory period  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Periods**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Periods** , and then choose the related link.  
 2. Select the inventory period you want to reopen.  
 3. Choose the **Reopen Period** period action. Confirm that you want to reopen the period.  
 4. All inventory periods with ending dates later than the period you selected are reopened.  

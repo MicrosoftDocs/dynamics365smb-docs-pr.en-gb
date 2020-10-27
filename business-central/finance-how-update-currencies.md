@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 35d478faf6d9eddb7240c2c346d6a7deedc583f0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9027fe7cb01efe2e06ef52154f30f2fa8fb41b83
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778070"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924135"
 ---
 # <a name="update-currency-exchange-rates"></a>Update Currency Exchange Rates
 
@@ -58,7 +58,7 @@ The adjustment entries are assigned the default dimensions from the accounts the
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>To set up a currency exchange rate service
 You can use an external service to keep your currency exchange rates up to date, such as FloatRates.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services** , and then choose the related link.
 2. Choose the **New** action.
 3. On the **Currency Exchange Rate Service** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Enabled** check box to enable the service.
@@ -67,7 +67,7 @@ You can use an external service to keep your currency exchange rates up to date,
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>To update currency exchange rates through a service
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies** , and then choose the related link.
 2. Choose the **Update Exchange Rates** action.
 
 The value in the **Exchange Rate** field on the **Currencies** page is updated with the latest currency exchange rate.

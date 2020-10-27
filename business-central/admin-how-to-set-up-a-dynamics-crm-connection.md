@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
-ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
+ms.openlocfilehash: 51f04f690483fd5b0c3f093ac5f8e2694ca3fdd9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3701999"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924635"
 ---
 # <a name="connect-to-common-data-service"></a>Connect to Common Data Service
 
@@ -34,7 +34,7 @@ There are a few pieces of information to have ready before you create the connec
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Set Up a Connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-For all authentication types other than Office 365 authentication, you set up your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on the **CDS Connection Setup** page. For Office 365 authentication, we recommend that you use the **Set up Common Data Service connection** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as ownership model and initial synchronisation.  
+For all authentication types other than Microsoft 365 authentication, you set up your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on the **CDS Connection Setup** page. For Microsoft 365 authentication, we recommend that you use the **Set up Common Data Service connection** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as ownership model and initial synchronisation.  
 
 > [!IMPORTANT]
 > During the setup of the connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], the administrator will be asked to give following permissions to registered Azure application named [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:
@@ -47,7 +47,7 @@ For all authentication types other than Office 365 authentication, you set up yo
 
 ### <a name="to-use-the-set-up-common-data-service-connection-assisted-setup-guide"></a>To use the Set up Common Data Service connection assisted setup guide
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup** , and then choose the related link.
 2. Choose **Set up Common Data Service connection** to start the assisted setup guide.
 3. Fill in the fields as necessary.
 
@@ -55,7 +55,7 @@ For all authentication types other than Office 365 authentication, you set up yo
 
 The following procedure describes how to set up the connection manually on the **CDS Connection Setup** page manually. This is also the page where you manage settings for the integration.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CDS Connection Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CDS Connection Setup** , and then choose the related link.
 2. Enter the following information for the connection from [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
     |Field|Description|
@@ -63,22 +63,22 @@ The following procedure describes how to set up the connection manually on the *
     |**Environment URL**|If you own environments in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], we will find those for you when you run the setup guide. If you want to connect to a different environment in another tenant, you can enter the administrator credentials for the environment and we will discover those. |
     |**Enabled**|Start using the integration. If you do not enable the connection now, the connection settings will be saved but users will not be able to access [!INCLUDE[cds_long_md](includes/cds_long_md.md)] data from [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can return to this page and enable the connection later.  |
 
-3. In the **Ownership Model** field, choose whether you want a team entity in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to own new records, or one or more specific users. If you choose **Person**, you must specify each user. If you choose **Team**, the default business unit BCI_Company will display in the **Coupled Business Unit** field.
+3. In the **Ownership Model** field, choose whether you want a team entity in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to own new records, or one or more specific users. If you choose **Person** , you must specify each user. If you choose **Team** , the default business unit BCI_Company will display in the **Coupled Business Unit** field.
 
     <!--Need to verify the details in this table, are these specific to Sales maybe?-->
     Enter the following advanced settings.
 
     |Field|Description|
     |-----|-----|
-    |**[!INCLUDE[d365fin](includes/d365fin_md.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[d365fin](includes/d365fin_md.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Office 365 Authentication Email** of the [!INCLUDE[d365fin](includes/d365fin_md.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[d365fin](includes/d365fin_md.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[d365fin](includes/d365fin_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[d365fin](includes/d365fin_md.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[d365fin](includes/d365fin_md.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
+    |**[!INCLUDE[d365fin](includes/d365fin_md.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[d365fin](includes/d365fin_md.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[d365fin](includes/d365fin_md.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes** , [!INCLUDE[d365fin](includes/d365fin_md.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[d365fin](includes/d365fin_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[d365fin](includes/d365fin_md.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No** , all [!INCLUDE[d365fin](includes/d365fin_md.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
     |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field-->|
 
-4. To test the connection settings, choose **Connection**, and then **Test Connection**.  
+4. To test the connection settings, choose **Connection** , and then **Test Connection** .  
 
     > [!NOTE]  
-    > If data encryption is not enabled in [!INCLUDE[d365fin](includes/d365fin_md.md)], you will be asked whether you want to enable it. To enable data encryption, choose **Yes** and provide the required information. Otherwise, choose **No**. You can enable data encryption later. For more information, see [Encrypting Data in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in the developer and administration help.  
+    > If data encryption is not enabled in [!INCLUDE[d365fin](includes/d365fin_md.md)], you will be asked whether you want to enable it. To enable data encryption, choose **Yes** and provide the required information. Otherwise, choose **No** . You can enable data encryption later. For more information, see [Encrypting Data in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in the developer and administration help.  
 
-5. If [!INCLUDE[cds_long_md](includes/cds_long_md.md)] synchronisation is not already set up, you will be asked whether you want to use the default synchronisation setup. Depending on whether you want to keep records aligned in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)], choose **Yes** or **No**.
+5. If [!INCLUDE[cds_long_md](includes/cds_long_md.md)] synchronisation is not already set up, you will be asked whether you want to use the default synchronisation setup. Depending on whether you want to keep records aligned in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)], choose **Yes** or **No** .
 
 ## <a name="show-me-the-process"></a>Show Me the Process
 
@@ -96,18 +96,18 @@ If you want to connect using an Azure Active Directory (Azure AD) account, you m
 
 The following steps assume that you use Azure AD to manage identities and access. For more information about registering an application in Azure AD, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). If you do not use Azure AD, see [Using Another Identity and Access Management Service](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-identity-and-access-management-service).  
 
-1. In the Azure Portal, under **Manage** on the Navigation Pane, choose **Authentication**.  
-2. Under **Redirect URLs**, add the redirect URL that is suggested on the **Common Data Service Connection Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-3. Under **Manage**, choose **API permissions**.
-4. Under **Configured permissions**, choose **Add a permission**, and then add delegated permissions on the **Microsoft APIs** tab as follows:
+1. In the Azure Portal, under **Manage** on the Navigation Pane, choose **Authentication** .  
+2. Under **Redirect URLs** , add the redirect URL that is suggested on the **Common Data Service Connection Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+3. Under **Manage** , choose **API permissions** .
+4. Under **Configured permissions** , choose **Add a permission** , and then add delegated permissions on the **Microsoft APIs** tab as follows:
     * For Business Central, add the **Financials.ReadWrite.All** permissions.
     * For Dynamics CRM, add the **user_impersonation** permissions.  
 
     > [!NOTE]
     > The name of the Dynamics CRM API might change.
 
-5. Under **Manage**, choose **Certificates & Secrets**, and then create a new secret for your app. You will use the secret either in [!INCLUDE[d365fin](includes/d365fin_md.md)], in the **Client Secret** field on the **Common Data Service Connection Setup** page, or store in a secure storage and provide it in an event subscriber as described earlier in this topic.
-6. Choose **Overview**, and then find the **Application (client) ID** value. This is the Client ID of your application. You must enter it either on the **Common Data Service Connection Setup** page in the **Client ID** field, or store it in a secure storage and provide it in an event subscriber.
+5. Under **Manage** , choose **Certificates & Secrets** , and then create a new secret for your app. You will use the secret either in [!INCLUDE[d365fin](includes/d365fin_md.md)], in the **Client Secret** field on the **Common Data Service Connection Setup** page, or store in a secure storage and provide it in an event subscriber as described earlier in this topic.
+6. Choose **Overview** , and then find the **Application (client) ID** value. This is the Client ID of your application. You must enter it either on the **Common Data Service Connection Setup** page in the **Client ID** field, or store it in a secure storage and provide it in an event subscriber.
 7. In [!INCLUDE[d365fin](includes/d365fin_md.md)], on the **Common Data Service Connection Setup** page, in the **Environment URL** field, enter the URL for your [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment.
 8. To enable the connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], turn on the **Enabled** toggle.
 9. Sign in with your administrator account for Azure Active Directory (this account must have a valid licence for [!INCLUDE[cds_long_md](includes/cds_long_md.md)] and be an administrator in your [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment). After you sign in you will be prompted to allow your registered application to sign in to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on behalf of the organisation. You must give consent to complete the setup.
@@ -121,7 +121,7 @@ If you are not using Azure Active Directory to manage identities and access, you
 
 ### <a name="to-disconnect-from-cds_long_md"></a>To disconnect from [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CDS Connection Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CDS Connection Setup** , and then choose the related link.
 2. On the **CDS Connection Setup** page, turn off the **Enabled** toggle.  
 
 ## <a name="see-also"></a>See Also

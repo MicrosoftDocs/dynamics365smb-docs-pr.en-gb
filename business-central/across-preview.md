@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: d20b1814e6b5a21efee145223b42c703d65a6c2e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693106"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924660"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Trials and Subscriptions
 
@@ -53,11 +53,11 @@ To help you set up your company, the **Assisted Setup** page lists the assisted 
 | Set Up a Customer Approval Workflow |Sets up the ability to automatically notify an approver when a user tries to create or change a customer card. |
 | Set Up a Payment Approval Workflow |Sets up the ability to send a notification to an approver when a user sends payment journal lines for approval. |
 | Set Up Dynamics 365 Sales Connection |Sets up a connection to Dynamics 365 Sales, which allows you to synchronise data such as contacts and sales order information. |
-| Set Up Cash Flow Forecast |Sets up the Cash Flow Forecast chart, so you can view the predicted movement of cash in and out of your business. The chart is available on the **Accountant Role Center**. |
+| Set Up Cash Flow Forecast |Sets up the Cash Flow Forecast chart, so you can view the predicted movement of cash in and out of your business. The chart is available on the **Accountant Role Center** . |
 | Set Up Reporting Data|Sets up data sets that you can use to build powerful reports using Excel or Power BI, for example. |
 | Invite External Accountant |If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prodshort](includes/prodshort.md)] so they can work with you on your fiscal data. |
 
-The **Assisted Setup** page may contain other entries. When you go through a setup, the setup will be marked as **Completed**. You can set up additional areas of the company by using manual setup. For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+The **Assisted Setup** page may contain other entries. When you go through a setup, the setup will be marked as **Completed** . You can set up additional areas of the company by using manual setup. For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 ### <a name="resetting-your-prodshort-trial-experience"></a>Resetting your [!INCLUDE[prodshort](includes/prodshort.md)] trial experience
 
@@ -70,7 +70,7 @@ If you have added data to your [!INCLUDE[prodshort](includes/prodshort.md)] free
 
 Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner). The reselling partner can help you set up [!INCLUDE[prodshort](includes/prodshort.md)] to fit your business, including importing your data from your previous system. You can also customise [!INCLUDE[prodshort](includes/prodshort.md)] by adding apps from [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-[!INCLUDE[prodshort](includes/prodshort.md)] online uses Office 365. If your company uses a different type of email setup, the reselling partner can help you decided how to migrate, or if you should use [!INCLUDE[prodshort](includes/prodshort.md)] on-premises.  
+[!INCLUDE[prodshort](includes/prodshort.md)] online uses Microsoft 365. If your company uses a different type of email setup, the reselling partner can help you decided how to migrate, or if you should use [!INCLUDE[prodshort](includes/prodshort.md)] on-premises.  
 
 You can also contact the [[!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
 

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: b9926ced6827354c438445f0618db5a525b080d2
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 37e94bcc276ee8526a336e13eabe81c694130196
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196742"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923702"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Using Dynamics 365 Sales from Business Central
 If you use Dynamics 365 Sales for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using [!INCLUDE[d365fin](includes/d365fin_md.md)] for backend activities such as processing orders, managing inventory, and doing your finances.
@@ -36,11 +36,11 @@ Conversely, order processors in [!INCLUDE[d365fin](includes/d365fin_md.md)] can 
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] integrates only with [!INCLUDE[crm_md](includes/crm_md.md)]. Other Dynamics 365 applications that change the standard workflow or data model in [!INCLUDE[crm_md](includes/crm_md.md)], for example Project Service Automation, can break the integration between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="coupling-records"></a>Coupling Records
-The assisted setup guide lets you choose the data to synchronise. Later, you can also set up synchronisation for specific records. This is referred to as *coupling*. For example, you can couple a specific account in [!INCLUDE[crm_md](includes/crm_md.md)] with a specific customer in [!INCLUDE[d365fin](includes/d365fin_md.md)]. This section describes what to take into consideration when you couple records.
+The assisted setup guide lets you choose the data to synchronise. Later, you can also set up synchronisation for specific records. This is referred to as *coupling* . For example, you can couple a specific account in [!INCLUDE[crm_md](includes/crm_md.md)] with a specific customer in [!INCLUDE[d365fin](includes/d365fin_md.md)]. This section describes what to take into consideration when you couple records.
 
 For example, if you want to see accounts in [!INCLUDE[crm_md](includes/crm_md.md)] as customers in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must couple the two types of records. To do that, on the **Customers** list page in [!INCLUDE[d365fin](includes/d365fin_md.md)], use the **Set Up Coupling** action. Then specify which [!INCLUDE[d365fin](includes/d365fin_md.md)] customers to match to which accounts in [!INCLUDE[crm_md](includes/crm_md.md)].
 
-You can also create (and couple) an account in [!INCLUDE[crm_md](includes/crm_md.md)] based on, for example, a customer record in [!INCLUDE[d365fin](includes/d365fin_md.md)] using **Create Account in Dynamics 365 Sales**, or vice versa, using **Create Customer in [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
+You can also create (and couple) an account in [!INCLUDE[crm_md](includes/crm_md.md)] based on, for example, a customer record in [!INCLUDE[d365fin](includes/d365fin_md.md)] using **Create Account in Dynamics 365 Sales** , or vice versa, using **Create Customer in [!INCLUDE[d365fin](includes/d365fin_md.md)]** .
 
 When you set up coupling between two records, you can also manually request current record, for example a customer, to be overwritten immediately by account data from Sales (or from [!INCLUDE[d365fin](includes/d365fin_md.md)]) using **Synchronise Now** action. **Synchronise Now** action which will ask whether to overwrite Sales or [!INCLUDE[d365fin](includes/d365fin_md.md)] record data.
 
@@ -69,14 +69,17 @@ Sales orders that people submit in [!INCLUDE[crm_md](includes/crm_md.md)] will b
 Alternatively, you can manually convert submitted sales orders from [!INCLUDE[crm_md](includes/crm_md.md)] by using the **Create in [!INCLUDE[d365fin](includes/d365fin_md.md)]** action available on **Sales Orders - Dynamics 365 for Sales** page.
 On such sales orders, the **Name** field on the original order is transferred and mapped to the **External Document Number** field on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-This can also work if the original sales order contains write-in products, meaning items or resources that are not registered in either app. In that case, you must fill in the **Write-in Product Type** and **Write-in Product No.** fields on the **Sales & Receivables Setup** page so that such non-registered product sales are mapped to a specified item/resource number for financial analysis.
+This can also work if the original sales order contains write-in products, meaning items or resources that are not registered in either app. In that case, you must fill in the **Write-in Product Type** and **Write-in Product No.** fields on the **Sales & Receivables Setup** page so that sales of non-registered products are mapped to a specified item or resource number.
+
+> [!NOTE]
+> You cannot map a write-in to an item or resource in [!INCLUDE[d365fin](includes/d365fin_md.md)] that is coupled with a product in [!INCLUDE[crm_md](includes/crm_md.md)]. To allow for write-ins, we recommend that you create an item or resource specifically for that purpose, and do not couple it with a product in [!INCLUDE[crm_md](includes/crm_md.md)]. 
 
 If the description of the item on the original sales order is long, an additional sales order line of the type **Comment** is created to hold the full text on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Updates to fields on sales order headers, such as the Last Shipment Date or Requested Delivery Date fields, that are mapped in SALESORDER-ORDER **Integration table mapping** are periodically synchronised to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing a sales order and shipping or invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Introduction to activity feeds](/dynamics365/sales-enterprise/developer/introduction-activity-feeds). <!--The link is broken. Should this actually point to https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/manage-activities-->
+Updates to fields on sales order headers, such as the Last Shipment Date or Requested Delivery Date fields, that are mapped in the **SALESORDER-ORDER** integration table mapping are periodically synchronised to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing a sales order and shipping or invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Introduction to activity feeds](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
-> Periodical synchronisation based on the SALESORDER-ORDER **Integration table mapping** will work only when sales order integration is enabled. For more information, see [Connection settings on the Sales Connection Setup Page](admin-prepare-dynamics-365-for-sales-for-integration.md). Only sales orders created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronised. For more information, see [Enable Sales Order Processing Integration](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodical synchronisation based on the **SALESORDER-ORDER** integration table mapping will work only when sales order integration is enabled. For more information, see [Connection settings on the Sales Connection Setup Page](admin-prepare-dynamics-365-for-sales-for-integration.md). Only sales orders created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronised. For more information, see [Enable Sales Order Processing Integration](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
@@ -87,10 +90,12 @@ On such sales quotes, the **Name** field on the original quote is transferred an
 
 Sales quotes go through many revisions while they are being finalised. Both manual and automatic processing of sales quotes in [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that previous versions of sales quotes are archived before processing new revisions of sales quotes from [!INCLUDE[crm_md](includes/crm_md.md)].
 
-## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Handling Posted Sales Invoices, Customer Payments, and Statistics
-After fulfilling a sales order, invoices will be created for it. When you invoice a sales order, you can transfer the posted sales invoice to [!INCLUDE[crm_md](includes/crm_md.md)] if you select the **Create Invoice in [!INCLUDE[crm_md](includes/crm_md.md)]** check box on the **Posted Sales Invoice** page. Posted invoices are transferred to [!INCLUDE[crm_md](includes/crm_md.md)] with the status, **Billed**.
+When you choose **Process** in [!INCLUDE[d365fin](includes/d365fin_md.md)] for a quote that is in county **Won** , a sales order is created in [!INCLUDE[d365fin](includes/d365fin_md.md)] only if a corresponding sales order is submitted in [!INCLUDE[crm_md](includes/crm_md.md)]. Otherwise, the quote is only released in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If a corresponding sales order is submitted in [!INCLUDE[crm_md](includes/crm_md.md)] later, and a sales order is created from it, the **Quote No.** is updated on the sales order and the quote is archived.
 
-When the customer payment is received for the sales invoice in [!INCLUDE[d365fin](includes/d365fin_md.md)], the sales invoice status will be changed to **Paid** with the **Status Reason** field set to **Partial**, if partially paid, or **Complete** if completely paid, when you choose the **Update Account Statistics** action on the customer page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The **Update Account Statistics** function will also refresh values, such as the **Balance** and **Total Sales** fields in the **[!INCLUDE[d365fin](includes/d365fin_md.md)] Account Statistics** FactBox in [!INCLUDE[crm_md](includes/crm_md.md)]. Alternatively, you can have the scheduled jobs, Customer Statistics and POSTEDSALESINV-INV automatically run both of these processes in the background.
+## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Handling Posted Sales Invoices, Customer Payments, and Statistics
+After fulfilling a sales order, invoices will be created for it. When you invoice a sales order, you can transfer the posted sales invoice to [!INCLUDE[crm_md](includes/crm_md.md)] if you select the **Create Invoice in [!INCLUDE[crm_md](includes/crm_md.md)]** check box on the **Posted Sales Invoice** page. Posted invoices are transferred to [!INCLUDE[crm_md](includes/crm_md.md)] with the status, **Billed** .
+
+When the customer payment is received for the sales invoice in [!INCLUDE[d365fin](includes/d365fin_md.md)], the sales invoice status will be changed to **Paid** with the **Status Reason** field set to **Partial** , if partially paid, or **Complete** if completely paid, when you choose the **Update Account Statistics** action on the customer page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The **Update Account Statistics** function will also refresh values, such as the **Balance** and **Total Sales** fields in the **[!INCLUDE[d365fin](includes/d365fin_md.md)] Account Statistics** FactBox in [!INCLUDE[crm_md](includes/crm_md.md)]. Alternatively, you can have the scheduled jobs, Customer Statistics and POSTEDSALESINV-INV automatically run both of these processes in the background.
 
 ## <a name="see-also"></a>See Also
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

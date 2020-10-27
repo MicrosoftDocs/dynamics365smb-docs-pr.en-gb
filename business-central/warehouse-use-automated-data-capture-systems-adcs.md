@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3360dff32fab445a5dafe825a48f5745ad6479f3
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5fe40d26a9128b9f689c5ec4502af929d0af04c2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786278"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925354"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Use Automated Data Capture Systems (ADCS)
 
@@ -37,7 +37,7 @@ To use Automated Data Capture System, you must enable the ADCS web service.
 
 ## <a name="to-enable-and-publish-the-adcs-web-service"></a>To enable and publish the ADCS web service  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Web Services**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Web Services** , and then choose the related link.
 2. Choose the **New** action.  
 3. On the **Web Services** page, enter the following information on a new line:  
 
@@ -45,7 +45,7 @@ To use Automated Data Capture System, you must enable the ADCS web service.
     |---------------------------------|-----------|  
     |**Object Type**|Codeunit|  
     |**Object ID**|7714|  
-    |**Service Name**|ADCS **Important:** It is required that you name the service **ADCS**.|  
+    |**Service Name**|ADCS **Important:** It is required that you name the service **ADCS** .|  
 
 5. Select the **Published** check box.  
 6. Choose the **OK** button.  
@@ -56,14 +56,14 @@ To use ADCS, you must specify which warehouse locations use the technology.
 > [!NOTE]  
 >  We recommend that you do not set up a warehouse to use ADCS if the warehouse also has a bin capacity policy.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations** , and choose the related link.
 2.  Select a warehouse from the list for which you want to enable ADCS, and then choose the **Edit** action.
 3. On the **Location Card** page, select the **Use ADCS** check box.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>To specify an item to use ADCS  
 Each warehouse item that you want to use with ADCS must be assigned an identifier code to link it with its item number. For example, you can use the item's bar code as the identifier code. An item can also have multiple identifier codes. You may find this useful in the case where an item is available in various units of measures, such as pieces and pallets. In this case, assign an identifier code to each.    
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.  
 2.  Select an item from the list that is part of your ADCS solution, and then choose the **Edit** action.
 3. On the **Item Card** page, choose the **Identifiers** action.
 4. On the **Item Identifiers** page, choose the **New** action.
@@ -78,13 +78,13 @@ Each warehouse item that you want to use with ADCS must be assigned an identifie
 ## <a name="to-add-an-adcs-user"></a>To add an ADCS user  
 You can add any user as a user of an Automated Data Capture System (ADCS). When you do this, the user must also provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from the Windows logon password of the user. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **ADCS Users**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **ADCS Users** , and then choose the related link.  
 2. Choose the **New** action.  
 3.  In the **Name** field, enter a name for the user. The name cannot contain more than 20 characters, including spaces.  
 4.  In the **Password** field, enter a password. The password is masked.  
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>To specify that a warehouse employee is an ADCS user  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees** , and then choose the related link.  
 2.  If needed, add a new warehouse employee. For more information, see [Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).  
 3.  Choose the **Edit List** action.  
 4.  Select a warehouse employee from the list. In the **ADCS User** field, choose the drop-down arrow, and then select the name of an ADCS user from the list.  
@@ -99,7 +99,7 @@ You use miniforms to describe the information that you want to present on a hand
 > To implement or change the functionality of a miniform function, you must create a new codeunit for the **Handling Codeunit** field to perform the required action or response. You can learn more about ADCS functionality by examining codeunits, such as 7705, 7706, 7712, and 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>To create a miniform for ADCS  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Miniforms**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Miniforms** , and then choose the related link.  
 2. Choose the **New** action.  
 3.  In the **Code** field, enter a code for the miniform. Optionally, enter values in all other fields.  
 
@@ -110,7 +110,7 @@ You use miniforms to describe the information that you want to present on a hand
 When you have created a miniform, the next steps are to create functions and to associate functionality for various keyboard inputs.  
 
 ### <a name="to-customize-miniform-functions"></a>To customise miniform functions  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Miniforms**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Miniforms** , and then choose the related link.  
 2.  Select a miniform from the list, and then choose the **Edit** action.  
 3.  Choose the **Functions** action.  
 4.  In the **Function Code** drop-down list, select a code to represent the function that you want to associate with the miniform. For example, you can select ESC, which associates functionality with the press of the ESC key.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e531a80521cdb76a337cbfec95b6b30a0d1d118d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 62a284d536c9ffe51302062d264647fd818f9a6b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784366"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925754"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convert Service Contracts that Include VAT Amounts
 Because the VAT rate change tool cannot convert service contracts, these contracts must be converted manually. This topic describes several alternative methods that you can use for service contract conversion.  
@@ -29,9 +29,9 @@ Because the VAT rate change tool cannot convert service contracts, these contrac
 >  For this example, you must change your work date to 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>To correct an invoice for a prepaid service contract  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contract Management**, and then choose the related link.  
-2. Under **Lists**, choose **Service Contracts**.  
-3. Create a new prepaid service contract. Enter a start date of **01.01.2017** and an invoice period year for customer **20000**.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contract Management** , and then choose the related link.  
+2. Under **Lists** , choose **Service Contracts** .  
+3. Create a new prepaid service contract. Enter a start date of **01.01.2017** and an invoice period year for customer **20000** .  
 4. To sign the contract, choose the **Sign Contract** action.  
 5. Create a service invoice.
 6. The invoice is listed as an unposted service invoice. To view the service invoice, choose the **Service** action, choose the **Contract Management** action, and then choose the **Service Invoices** action.  
@@ -41,7 +41,7 @@ Because the VAT rate change tool cannot convert service contracts, these contrac
 >  Do not change the unposted service invoice. Since the service ledger entries are created when the invoice is created, a change in the unposted invoice will not change the already created service ledger entries. However, the VAT entries are created when the invoice is posted. This lets you change the general product posting group and the GSP product posting group on the unposted service invoice.  
 
 ### <a name="to-create-a-credit-memo-for-vat-difference"></a>To create a credit memo for VAT difference  
-The following procedure describes how to create a credit memo that only includes the VAT difference for the already invoiced period starting on **01.07.2017**. In this example, the VAT amount is only posted to the Financial Management module, not to the Service Management module. The VAT entries that are linked to the service ledger entry will not be corrected.  
+The following procedure describes how to create a credit memo that only includes the VAT difference for the already invoiced period starting on **01.07.2017** . In this example, the VAT amount is only posted to the Financial Management module, not to the Service Management module. The VAT entries that are linked to the service ledger entry will not be corrected.  
 
 1. Create a new general ledger account for the VAT difference. This account will be used for direct posting of the VAT correction.  
 2. Add a new line to the VAT posting setup.  
@@ -49,7 +49,7 @@ The following procedure describes how to create a credit memo that only includes
 ### <a name="to-create-contract-expiration-dates-in-contract-lines"></a>To create contract expiration dates in contract lines  
 The following procedure describes how to create new contracts by working with contract expiration dates in service contract lines.  
 
-1. On the **Service Contract** page, set the contract expiration date to **30.06.2017**.  
+1. On the **Service Contract** page, set the contract expiration date to **30.06.2017** .  
 2. Choose the **Create Credit Memo** action to automatically create a credit memo for July 2017 to December 2017.  
 3. Because the contract has expired, you need to create a new contract for the period with the new VAT rate for July 1, 2017 to December 31, 2017.  
 

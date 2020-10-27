@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: e4e56b2594820cc1af4861d0117b9e7d6af891ec
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 821393e41439abedc884295e0a8e56062603be9b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181345"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923552"
 ---
 # <a name="process-sales-opportunities"></a>Process Sales Opportunities
 After you create an opportunity, there are several features for managing the opportunity and moving it through to completion.
@@ -27,9 +27,9 @@ The existing sale opportunities are available from the **Opportunity List** page
 
 | To view opportunities for | Then |
 | --- | --- |
-| All salespeople and contacts |Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Opportunity List**, and then choose the related link. |
-| A specific sales person |Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link. Select the salesperson, choose the **Opportunities** action, and then choose the **List** action. |
-| A specific contact |Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link. Select the contact from the list, and then choose the **Opportunities** action. |
+| All salespeople and contacts |Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Opportunity List** , and then choose the related link. |
+| A specific sales person |Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople** , and then choose the related link. Select the salesperson, choose the **Opportunities** action, and then choose the **List** action. |
+| A specific contact |Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts** , and then choose the related link. Select the contact from the list, and then choose the **Opportunities** action. |
 
 Each of these tasks opens the **Opportunity List** page.
 
@@ -41,7 +41,7 @@ You can close opportunities when the negotiations are over. When closing an oppo
 
    The **Close Opportunity Code** and **Date Closed** fields are required fields and must be filled in before you can choose the **OK** button.
 
-   In the **Close Opportunity Code** field, you can choose from one of the existing close opportunity codes or add a new code. To add a new code, from the drop-down list, choose **Select from full list**, and then choose **new**. On the new blank line, fill in the **Code**, **Type**, and **Description** fields, and then choose the **OK** button.
+   In the **Close Opportunity Code** field, you can choose from one of the existing close opportunity codes or add a new code. To add a new code, from the drop-down list, choose **Select from full list** , and then choose **new** . On the new blank line, fill in the **Code** , **Type** , and **Description** fields, and then choose the **OK** button.
 
 ## <a name="to-create-quotes-for-opportunities"></a>To create quotes for opportunities
 You can create sales quotes for contacts that are not recorded as customers.
@@ -65,7 +65,7 @@ To delete closed opportunities from the **Opportunity List** page, select the op
 
 To delete closed opportunities by using the **Delete Closed Opportunities** batch job, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Opportunities**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Opportunities** , and then choose the related link.
 2. In the **Opportunity** section, set up the filters that specify the closed opportunities to delete.
 3. Choose the **OK** button.
 

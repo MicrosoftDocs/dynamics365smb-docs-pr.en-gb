@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 278b965e60bb1927809399ea7fa646779e01ca8e
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.openlocfilehash: e3dc2284a8568163737db30f421e8b004528b9fe
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676776"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923948"
 ---
 # <a name="change-vat-setup-in-journals"></a>Change VAT Setup in Journals
 
@@ -23,9 +23,9 @@ You can add VAT setup information to journal lines if needed in the British vers
 
 ## <a name="to-change-vat-setup-in-journals"></a>To change VAT setup in journals  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals** , and then choose the related link.  
 2. On the **General Journal** page, choose the button in the **Batch Name** field.  
-3. On the **General Journal Batches** page, on the **Home** tab, choose **New**.  
+3. On the **General Journal Batches** page, on the **Home** tab, choose **New** .  
 4. Enter information into the required fields.  
 5. To include VAT information, select the **Copy VAT Setup to Jnl. Lines** check box.  
 

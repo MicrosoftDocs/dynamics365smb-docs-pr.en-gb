@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1fd402c3c081fcd4056254ffc6632f0b4f3164e5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 06cc9aa2eb962e8556cb2f026c9be405deb89bef
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781942"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924935"
 ---
 # <a name="view-archived-workflow-step-instances"></a>View Archived Workflow Step Instances
 All completed workflow step instances are saved on the **Archived Workflow Step Instances** page.  
@@ -23,12 +23,12 @@ All completed workflow step instances are saved on the **Archived Workflow Step 
  On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
 ## <a name="to-view-archived-workflow-step-instances"></a>To view archived workflow step instances  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows** , and then choose the related link.  
 2.  Open the workflow for which you want to view all archived workflow step instances.  
 3.  On the **Workflow** page, choose the **Archived Workflow Step Instances** action.  
 
     The **Archived Workflow Step Instances** page opens showing the archived workflow step instances of the selected workflow.  
-4.  Alternatively, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archived Workflow Step Instances**, and then choose the related link.  
+4.  Alternatively, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archived Workflow Step Instances** , and then choose the related link.  
 
 The **Archived Workflow Step Instances** page opens showing all archived workflow step instances. In the **Workflow Code** field, you can see which workflow the archived workflow step instance belonged to.  
 

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9517f2bc0639959d06ce1baeaf7cf7489e3b5e63
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: aa24a1530d9e1d74e688f2ec9b44e1d615919c7a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777864"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924785"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Use OCR to Turn PDF and Image Files into Electronic Documents
 From PDF or image files that you receive from your trading partners, you can have an external OCR service (Optical Character Recognition) generate electronic documents that can be converted to document records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the **Incoming Documents** page. This is described in the first procedure.
@@ -30,14 +30,14 @@ Because OCR is based on optical recognition, it is likely that the OCR service w
 The traffic of files to and from the OCR service is processed by a dedicated job queue entry, which are created automatically when you enable the related service connection. For more information, see [Set Up Incoming Documents](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>To send a PDF or image file to the OCR service from the **Incoming Documents** page
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents** , and then choose the related link.
 2. Create a new incoming document record and attach the file. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).  
 3. On the **Incoming Documents** page, select one or more lines, and then choose the **Send to Job Queue** action.
 
-    The value in the **OCR Status** field changes to **Ready**. The attached PDF or image file is sent to the OCR service by the job queue according to the schedule, provided that no errors exist.
+    The value in the **OCR Status** field changes to **Ready** . The attached PDF or image file is sent to the OCR service by the job queue according to the schedule, provided that no errors exist.
 4. Alternatively, on the **Incoming Documents** page, select one or more lines, and then choose the **Send to OCR Service** action.
 
-The value in the **OCR Status** field changes to **Sent**, provided that no errors exist.
+The value in the **OCR Status** field changes to **Sent** , provided that no errors exist.
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>To send a PDF or image file to the OCR service by email
 From your email application, you can send an email to the OCR service provider with the PDF or image file attached. For information about the email address to send to, see the OCR service provider’s web site.
@@ -53,7 +53,7 @@ The electronic document that is created by the OCR service from the PDF or image
 If you are not using a job queue, or you want to receive a finished OCR document sooner than per the job queue schedule, you can choose the **Receive from OCR Service** button. This will get any documents that are completed by the OCR service.
 
 > [!NOTE]  
->   If the OCR service is set up to require manual verification of processed documents, then the **OCR Status** field will contain **Awaiting Verification**. In that case, perform the following steps to log in to the OCR service website to manually verify an OCR document.
+>   If the OCR service is set up to require manual verification of processed documents, then the **OCR Status** field will contain **Awaiting Verification** . In that case, perform the following steps to log in to the OCR service website to manually verify an OCR document.
 
 1. In the **OCR Status** field, choose the **Awaiting Verification** hyperlink.
 2. On the OCR service website, log in using the credentials of your OCR service account. These are the credentials you also used when setting up the service. For more information, see [To set up an OCR service](across-how-setup-income-documents.md#to-set-up-an-ocr-service).
@@ -107,7 +107,7 @@ Because OCR is based on optical recognition, it is likely that the OCR service w
 
 The **OCR Data Correction** page, which you open from the **Incoming Document** page, shows the fields from the **Financial Information** FastTab in two columns, one with the OCR data editable and one with the OCR data read-only. When you choose the **Send OCR Feedback** button, the content of the **OCR Data Correction** page is sent to the OCR service. Next time the service processes PDF or image files that contain the data in question, your corrections will be incorporated to avoid the same errors.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents** , and then choose the related link.
 2. Open an incoming document record that contains data received from OCR service, which you want to correct.
 3. On the **Incoming Document** page, choose the **Correct OCR Data** action.
 4. On the **OCR Data Correction** page, overwrite the data in the editable column for each field that has an incorrect value.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e5543c19abb9d40a1ed19b7224a54d584af36635
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e54c82e2d00c26f191506b8057a730d31fddc867
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783814"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925404"
 ---
 # <a name="set-up-bin-types"></a>Set Up Bin Types
 You can direct the flow of items through bins that you have defined for particular warehouse activities. You give each bin its basic flow activities, and thereby define the way the way a bin is used, by assigning it a bin type.  
@@ -23,7 +23,7 @@ You can direct the flow of items through bins that you have defined for particul
 There are six types. You can operate your warehouse with all of the six possible bin types, or you can choose to operate with just the RECEIVE, PUTPICK, SHIP and QC bin types. These four bin types enable suggestions to be made that support the flow of items and allow you to record inventory discrepancies.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>To set up the bin types you want to use  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Types**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Types** , and then choose the related link.  
 2.  On the **Bin Types** page, create a 10-character code for a bin type.  
 3.  Select the activities that can be performed with each bin type.  
 

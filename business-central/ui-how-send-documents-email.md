@@ -5,15 +5,15 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 05/13/2020
+ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 72ed1cba131e76eba2020e4cca9c900b9b2ed45c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527992"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923427"
 ---
 # <a name="send-documents-by-email"></a>Send Documents by Email
 
@@ -25,14 +25,14 @@ You can email practically all document types as attachments to email messages di
 
 From all supported documents, you initiate emailing by choosing the **Send** action, on posted documents, or the **Post and Send** action, on non-posted documents.
 
-If the **Email** field on the **Send Document to** page is set to **Yes (Prompt for Settings)**, then the **Send Email** page opens prefilled with the contact person in the **To:** field and the document attached as a PDF file. In the **Body** field, you can either enter text manually or you can have the field filled with a document-specific email body that you have set up.
+If the **Email** field on the **Send Document to** page is set to **Yes (Prompt for Settings)** , then the **Send Email** page opens prefilled with the contact person in the **To:** field and the document attached as a PDF file. In the **Body** field, you can either enter text manually or you can have the field filled with a document-specific email body that you have set up.
 
 The following procedure describes how to set the **Sales - Invoice** report up to be used for document-specific email bodies when you email posted sales invoices.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>To set up a document-specific email body for sales invoices
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Sales**, and then choose the related link.
-2. On the **Report Selection - Sales** page, in the **Usage** field, select **Invoice**.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Sales** , and then choose the related link.
+2. On the **Report Selection - Sales** page, in the **Usage** field, select **Invoice** .
 3. On a new line, in the **Report ID** field, select, for example, standard report 1306.
 4. Select the **Use for Email Body** check box.
 5. Choose the **Email Body Layout Code** field, and then select a layout from the drop-down list.
@@ -48,9 +48,9 @@ The following procedure describes how to send a posted sales invoice as an email
 
 ## <a name="to-send-documents-by-email"></a>To send documents by email
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices** , and then choose the related link.
 2. Select the relevant posted sales invoice, and then choose the **Send** action. The **Send Document to** page opens.
-3. In the **Email** field, select **Yes (Prompt for Settings)**. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
+3. In the **Email** field, select **Yes (Prompt for Settings)** . For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 4. Choose the **OK** button. The **Send Email** page opens.
 5. In the **To:** field, enter a valid email address. The default value is the customer email address.
 6. In the **Subject** field, enter a descriptive subject text. The default value is the customer name and invoice number.

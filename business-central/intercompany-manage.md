@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0499ad80020293e73879061a7bc5f8dfdb3c043c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 070ffe0a25791f8fee51e0e4279a3886a3f18135
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780117"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924035"
 ---
 # <a name="managing-intercompany-transactions"></a>Managing Intercompany Transactions
 Your organization may consist of several companies, but might not have the equivalent number of accounting and administrative teams. The Intercompany functionality lets you do business with your subsidiary and internal partner organisations in the same way as you engage with your external vendors and customers. You enter intercompany transaction information only once in the appropriate documents. You can use the functionality you are already familiar with, such as receivables and payables management. Mapping facilities for the chart of accounts and dimensions help ensure that information appears in the right places.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b277c8363ec831a803081898ca6bea591140bac
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 45f32a9f5bbdc13148483b689b5793038c675649
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779218"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923019"
 ---
 # <a name="setting-up-finance"></a>Setting Up Finance
 Before you can begin to run your business, you must specify rules and defaults for how you want to manage finance processes for that company. You start by setting up the core of the company's accounting records - the chart of accounts. Then you set up posting groups, which makes the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.
@@ -48,6 +48,9 @@ The following table describes a sequence of tasks, with links to the topics that
 | Set up Intrastat reporting, and submit the report to an authority | [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)|
 |Make sure an entry in a general journal is allocated to several different accounts when you post the journal, either quantity, percentage, or amount.|[Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)|
 |Set up source codes and reason codes that you can use to track audit trails|[Setting Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)|
+
+> [!TIP]
+> Depending on your geographical location, some pages can contain fields that are not described in the articles that are listed here because they apply to local functionality or customisations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 

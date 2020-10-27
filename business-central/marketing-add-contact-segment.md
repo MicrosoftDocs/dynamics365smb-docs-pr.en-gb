@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 7383fe5e716fbd63012e8ab5ffa236af9e7a979e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 68a62afd8ca154f8a5270899fe458a6841407000
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181707"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922851"
 ---
 # <a name="add-contacts-to-segments"></a>Add Contacts to Segments
 After you have created a segment and entered basic information about it, you may want to add contacts to the segment. You can do this by filling in the lines on the **Segment** page manually, but it is easier and faster to use the **Add Contacts** action.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>To add a contact to a segment
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments** , and then choose the related link.  
 2. Select the segment, and then choose the **Add Contacts** action. The **Add Contacts** batch job page opens.
 3. In the **Contact** section, set filters to specify the information by which you want to select contacts.
 
@@ -35,11 +35,11 @@ If you have added contacts by mistake and want to go back one step, then choose 
 After you have selected the contacts within a segment, you may decide to remove some but keep others. You can manually remove contacts from the lines on the **Segment** page, but it is easier and faster to use the **Refine Contacts** action.
 
 1. Open the segment.
-2. Choose **Contacts**, and then choose the **Refine Contacts** action. The **Remove Contacts - Refine** page opens.
+2. Choose **Contacts** , and then choose the **Refine Contacts** action. The **Remove Contacts - Refine** page opens.
 3. In the **Contact** section, enter filters to specify the information that you want to use to select the contacts to be removed from the segment.
 4. Add additional filters as needed, and then choose the **OK** button.
 
-You can refine a segment as many times as you want. If you have refined the segment by mistake and want to go one step back, choose the **Go Back**.
+You can refine a segment as many times as you want. If you have refined the segment by mistake and want to go one step back, choose the **Go Back** .
 
 To see a list of the segment criteria that you have used, in the **General** section, choose the **No. of Criteria Actions** field.
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: faab1c6273d3e7c09c44f42104da55296859139e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6a363007ece179430949d0fc0c62cb9df3fc9dac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181443"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923652"
 ---
 # <a name="manage-interactions-for-segments"></a>Manage Interactions for Segments
 The **Segment** page is a type of worksheet where you can:
@@ -40,7 +40,7 @@ On the **Segment** page, you can create interactions for several contacts simult
 You can specify information about the interaction for the segment on the **Segment** header. For example, you can decide which interaction template you want to use for all the contacts, specify a description, a correspondence type, and so on. However, you can modify this information in the segment line for each particular contact, for example, by specifying another description for one contact. If you are merging a segment with a Microsoft Word document, you can personalise the document to be sent for one or several of the contacts within the segment, for example, by adding individualised comments to the document.
 
 ## <a name="logging"></a>Logging
-On the **Segment** page, when you choose **Log**, the application records the interactions on the **Interaction Log Entry** page, and logs the segment. After you have logged the segment, you can only find it on the **Logged Segments** page.
+On the **Segment** page, when you choose **Log** , the application records the interactions on the **Interaction Log Entry** page, and logs the segment. After you have logged the segment, you can only find it on the **Logged Segments** page.
 
 On the **Logged Segments** page, you can decide to create a follow-up segment containing the same contacts as the segment you have logged.
 

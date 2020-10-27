@@ -1,6 +1,6 @@
 ---
 title: How to Assemble Items | Microsoft Docs
-description: If the **Replenishment System** field on the item card contains **Assembly**, then the default method of supplying the item is to assemble it from defined components and potentially by a defined resource.
+description: If the **Replenishment System** field on the item card contains **Assembly** , then the default method of supplying the item is to assemble it from defined components and potentially by a defined resource.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 249565d7a351cc2064c5bc0daa16d96f30ce24b8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5fee9631f984c8d9a54c42c63359af2386ea17c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782250"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924510"
 ---
 # <a name="assemble-items"></a>Assemble Items
-If the **Replenishment System** field on the item card contains **Assembly**, then the default method of supplying the item is to assemble it from defined components and potentially by a defined resource.  
+If the **Replenishment System** field on the item card contains **Assembly** , then the default method of supplying the item is to assemble it from defined components and potentially by a defined resource.  
 
 The components and resources that go into this kind of an assembly item must be defined in an assembly BOM. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).  
 
@@ -41,7 +41,7 @@ These setup options are default settings that manage how sales and assembly orde
 In this procedure, you create and process an assembly order for items that are assembled to stock, which means without a linked sales order. The steps include initiating the assembly order, handling potential component availability issues, and partially posting assembly item output.
 
 ## <a name="to-assemble-an-item"></a>To assemble an item  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Orders** , and then choose the related link.  
 2.  Choose the **New** action. The **New Assembly Order** page opens.  
 3.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  In the **Item No.** field, select the assembly item that you want to process. The field is filtered to show only items that are set up for assembly, which means that they have assembly BOMs assigned.  
@@ -59,7 +59,7 @@ In this procedure, you create and process an assembly order for items that are a
 
     > [!NOTE]  
     >  To make sure that component consumption posting matches the assembly item output posting, the quantity fields in the assembly order lines automatically adjust to the value that you enter in the **Quantity to Assemble** field.  
-7.  On assembly order lines of type **Item** or **Resource**, in the **Quantity to Consume** field, specify how many units you want to post as consumed the next time that you post the assembly order.
+7.  On assembly order lines of type **Item** or **Resource** , in the **Quantity to Consume** field, specify how many units you want to post as consumed the next time that you post the assembly order.
 8.  When you are ready to partially or fully post, choose the **Post** action.  
 
     > [!NOTE]  

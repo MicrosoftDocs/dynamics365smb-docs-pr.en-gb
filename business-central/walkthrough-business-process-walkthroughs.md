@@ -1,6 +1,6 @@
 ---
 title: Business Process Walkthroughs | Microsoft Docs
-description: This selection of walkthroughs provides step-by-step, end-to-end business processes that you can perform using the CRONUS International Ltd. demonstration company. The walkthroughs consist of multiple procedures, some of which would normally be performed by one user, while others incorporate several different user roles. In order to simulate the working environment, some of the walkthroughs contain setup steps necessary to complete the exercises as described. These steps can provide insight into the kind of information users need to share with their company's IT professionals.
+description: This selection of walkthroughs provides step-by-step, end-to-end business processes that you can perform using the CRONUS International Ltd. demonstration company.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d278175606927cc1ee1ee2dda86099f6f080822c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788378"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923327"
 ---
 # <a name="business-process-walkthroughs"></a>Business Process Walkthroughs
 
@@ -39,7 +39,8 @@ This selection of walkthroughs provides step-by-step, end-to-end business proces
 |Plan a project, from start to finish. **Requires complete sample data**|[Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)|  
 |Report on the costs of a project. **Requires complete sample data**|[Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)|  
 |Pick items for shipment in basic warehouse configurations. **Requires complete sample data**|[Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Perform defects management. **Requires complete sample data**|[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)|  
+|Perform defects management. **Requires complete sample data**|[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)|
+|Export business data for auditing purposes in Germany.|[Walkthrough: Exporting Data for a Digital Audit](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
 
 ## <a name="see-also"></a>See Also
 

@@ -1,8 +1,6 @@
 ---
 title: Create and Manage Company Contacts| Microsoft Docs
 description: You set up all external entities that you have a business relationship with (such as prospects, customers, vendors, and consultants) as contacts.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e1c951a3eb0a8b519ac5c0f7c5112cb40272219
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ea0bf893088694115e5cb54f2b9500bb4eacf6ac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779268"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922776"
 ---
 # <a name="managing-contacts"></a>Managing Contacts
+
 Employees in your company regularly meet prospective business relations that may develop into formal relationships. All such external contacts and their detailed information should be recorded in the system so that communication is more successful and so they can easily be converted to formal customer, vendor, or bank relationships.
+
+Use the **Contacts** list to manage your contacts. From there, you can create opportunities and manage other interactions with individual contacts. You can also see statistics about a contact, and you can access a range of reports. For information about how to find the right contact in the list, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md) .  
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
@@ -32,5 +33,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Resolve confusion when two or more records exist for the same contact.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>See Also
+
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
+[Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
 [Working with Business Central](ui-work-product.md)  
