@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 10795ffc60861766f3fcc4aebcb086ab55a0094f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1d053c65b94efdb3b033c617f1b6b2db316c1ec2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779942"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919295"
 ---
 # <a name="create-production-boms"></a>Create Production BOMs
 A production bill of material (BOM) holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented on the **Prod. Order Components** page.
@@ -28,10 +28,10 @@ Before you can set up a routing, the following must be in place:
 - Production resources are set up. For more information, see [Set Up Work Centres and Machine Centres](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>To create a production BOM  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM** , and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. To edit the BOM, set the **Status** field to **New** or **Under Development**. To activate it, set the **Status** field to **Certified**.  
+4. To edit the BOM, set the **Status** field to **New** or **Under Development** . To activate it, set the **Status** field to **Certified** .  
 
     Proceed to fill in the production BOM lines.
 5. In the **Type** field, select whether the item on this BOM line is an ordinary item or a production BOM. If the item on the line is a production BOM, then it must already exist as a certified production BOM.  
@@ -55,14 +55,14 @@ New versions of production BOMs are used when, for example, an item is replaced 
 
 The starting date indicates the start of the period in which this version is valid. For all other considerations, the starting date is a filter criterion for calculations and evaluations. The BOM version is valid until the next version becomes valid for its starting date.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM** , and then choose the related link.  
 2.  Select the production BOM to be copied, and then choose the **Versions** action.  
 3.  Choose the **New** action.  
 4. Fill in the fields as necessary.
 5. In the **Version Code** field, enter the unique identification of the version. Any combination of numbers and letters is permitted.  
 
-    The newly created version is automatically assigned the status **New**.
-6. When the BOM version is completed, setting the **Status** field to **Certified**.  
+    The newly created version is automatically assigned the status **New** .
+6. When the BOM version is completed, setting the **Status** field to **Certified** .  
 
 The time validity of the version is specified by the **Starting Date** field.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 06/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1034765a452bf94ab243c301df58cb8a891f79f9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e88cc5ad2eaf449d22dd0c9840a4fc33ae0f56f7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783373"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916175"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Record and Reimburse Employees' Expenses
 
@@ -31,7 +31,7 @@ If employees spend their own money during business activities, you can post the 
 
 ## <a name="to-record-an-employees-expense"></a>To record an employee's expense
 You post employees' expenses on the **General Journal** page.
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals** , and then choose the related link.
 2. Open the relevant general journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. On a new journal line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
@@ -45,7 +45,7 @@ You post employees' expenses on the **General Journal** page.
 
 ## <a name="to-reimburse-an-employee"></a>To reimburse an employee
 You reimburse employees by posting payments to their bank account on the **Payment Journal** page.
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals** , and then choose the related link.
 2. Open the relevant payment journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. Fill in the fields as necessary. For more information, see [Making Payments](payables-make-payments.md).
 4. Alternatively, choose the **Suggest Employee Payment** action to automatically insert journal lines for pending employee reimbursements.

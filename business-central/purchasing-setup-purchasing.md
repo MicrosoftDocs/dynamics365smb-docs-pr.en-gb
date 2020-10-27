@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bda110a8d97376b283461bb0c2c6a6b7f334ba4d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 72c947263ccf736d9432c52b6256868ad346ad09
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783286"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918744"
 ---
 # <a name="setting-up-purchasing"></a>Setting Up Purchasing
 Before you can manage purchase processes, you must configure the rules and values that define the company's purchase policies.
@@ -32,6 +32,9 @@ Finance-related purchase setup, such as payment methods and currencies, are cove
 | Enter the different discounts and special prices that vendors grant you depending on item, quantities, and/or date |[Record Purchase Price, Discount, and Payment Agreements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Prioritise vendors |[Prioritise Vendors](purchasing-how-prioritize-vendors.md) |
 | Set up purchasers |[Set Up Purchasers](purchasing-how-setup-purchasers.md) |
+
+> [!TIP]
+> Depending on your geographical location, some pages can contain fields that are not described in the articles that are listed here because they apply to local functionality or customisations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d6878413b4a3db077ffcd16f5f6939582fa57809
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a1278b344efef1df243d4f82e9d463f8faf9a259
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787053"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920804"
 ---
 # <a name="depreciation-methods"></a>Depreciation Methods
 There are eight methods of depreciation available:  
@@ -231,7 +231,7 @@ This user-defined method can also be used to depreciate based on number of units
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>To set up user-defined depreciation methods
 On the **Depreciation Table** page, you can set up user-defined depreciation methods. For example, you can set up depreciation based on number of units.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Tables**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Tables** , and then choose the related link.  
 2. On the **Depreciation Table List** page, choose the **New** action.  
 3. **Depreciation Table Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 663d1c846e957be1b3d85a95a56a6f7f6cc940e8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7e2c8aeda1d71c7f01e7999dd540ce9194806dc5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787328"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917308"
 ---
 # <a name="design-details-production-order-posting"></a>Design Details: Production Order Posting
 Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished. For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.
@@ -103,7 +103,7 @@ In standard-cost environments, the costing of a production order is based on the
 
     > [!NOTE]  
     >  This differs from assembly order posting, which always posts actual costs. For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
-2.  When the production order is set to **Finished**, the order is invoiced by running the **Adjust Cost-Item Entries** batch job. As a result, the total cost of the order is calculated based on the standard cost of the consumed materials and capacity. The variances between the calculated standard costs and the actual production costs are calculated and posted.  
+2.  When the production order is set to **Finished** , the order is invoiced by running the **Adjust Cost-Item Entries** batch job. As a result, the total cost of the order is calculated based on the standard cost of the consumed materials and capacity. The variances between the calculated standard costs and the actual production costs are calculated and posted.  
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   

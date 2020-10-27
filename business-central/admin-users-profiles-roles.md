@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 06/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d44ccf98ac02e24d1cd136bf1a0fe31b5bf0437
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 16be03cec9799817646bcc04f842b2f5d3519caa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786103"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922299"
 ---
 # <a name="manage-profiles"></a>Manage Profiles
 
@@ -31,7 +31,7 @@ You can customise page layouts for a profile so that all users assigned the prof
 ## <a name="to-create-a-profile"></a>To create a profile
 If you cannot copy an existing profile, you can create a new one manually.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)** , and then choose the related link.  
 2. On the **Profiles (Roles)** page, choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -66,8 +66,8 @@ On the **My Settings** page, users can define basic behaviour of their account, 
 
 As an administrator, you can define these setting for a profile and thereby apply the settings to all users of the related role.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
-2. Select the line for the profile that you want to change user settings for, choose the **Navigate** action, and then choose the **User Personalisations** action.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)** , and then choose the related link.
+2. Select the line for the profile that you want to change user settings for, then choose the **User Personalisations List** action.
 3. On the **User Personalisations** page, open the card for the user whose settings you want to change.
 4. On the **User Personalisation Card** page, edit the fields as necessary.
 
@@ -108,7 +108,7 @@ You can delete a profile by choosing the **Delete** action on the **Profiles (Ro
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>To delete all personalisations made by a user
 You can delete all changes that a user has made to pages that make up their workspace. This may be useful, for example, if an employee has changed role and no longer needs the personalisations. Deleting users' personalisations changes the page layout back to what is defined by the profile.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalisations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalisations** , and then choose the related link.
 
     The **User Personalisations** page lists all users who have made personalisations.
 
@@ -122,7 +122,7 @@ You can also delete all page customisations for a profile. For more information,
 ## <a name="to-delete-personalizations-for-specific-pages"></a>To delete personalisations for specific pages
 You can delete personalisations that one or more users have made to specific pages that make up their workspace. This may be useful, for example, if a changed business process means that a personalisation must no longer be used by users. Deleting users' personalisations changes the page layout back to what is defined by the profile.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Page Personalisations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Page Personalisations** , and then choose the related link.
 
     The **User Page Personalisations** page lists all the pages that have been personalised and the user that they belong to.
 
@@ -139,7 +139,7 @@ You can also delete individual page customisations for a profile. For more infor
 
 As the administrator of [!INCLUDE[prodshort](includes/prodshort.md)] online, you can manage user sessions in the administration centre. For more information, see [Managing Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) in the administration content.  
 
-For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. for more information, see [SQL Server technical documentation](/sql/sql-server/?view=sql-server-ver15).  
+For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. For more information, see [SQL Server technical documentation](/sql/sql-server).  
 
 ## <a name="see-also"></a>See Also  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  

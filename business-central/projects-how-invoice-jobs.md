@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 05/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 66e5dd52eb01e8a396156d0c646a43916fdc0021
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: effed84c3f0d4c625192ac4d41dc2d9edf97c663
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783964"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921449"
 ---
 # <a name="invoice-jobs"></a>Invoice Jobs
 During the project, job costs from resource usage, materials, and job-related purchases can accumulate. As the job progresses, these transactions get posted to the job journal. It is important that all costs get recorded in the job journal before you invoice the customer.
@@ -33,7 +33,7 @@ You can create an invoice for a job or for one or more job tasks for a customer 
 
 The following procedure shows how to use a batch job to invoice multiple jobs.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Create Sales Invoice**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Create Sales Invoice** , and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Set filters if you want to limit the jobs that the batch job will process.
 4. Choose the **OK** button to create the invoices.  
@@ -46,9 +46,9 @@ You can review and post created invoices in the **Sales Invoices** window.
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>To create and post job sales invoice from job planning lines
 You can create an invoice from a job planning lines, and indicate at that time the quantity of the item, resource, or general ledger account that you want to invoice.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs** , and then choose the related link.
 2. Open a relevant job.
-3. Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.  
+3. Select a job task for which the **Job Task Type** field contains **Posting** , and then choose the **Job Planning Lines** action.  
 4. On a job planning line, in the **Qty. To Transfer to Invoice** field, enter the quantity of the item, resource, general ledger account type that you want to invoice.  
 5. Choose the **Create Sales Invoice** action.
 6. On the **Job Create Sales Invoice** page, enter the posting date and whether you want to create a new invoice or append this invoice to an existing one.
@@ -62,11 +62,11 @@ You can create an invoice from a job planning lines, and indicate at that time t
 >   The above procedure is similar for creating, reviewing, and posting a job-related sales credit memo.
 
 ## <a name="to-calculate-and-post-job-completion-entries"></a>To calculate and post job completion entries
-When you have completed all activities for a job, including usage posting and invoicing, you must update the job to have a **Status** of **Completed**. Then, you must reverse any WIP that has been posted to the general ledger.
+When you have completed all activities for a job, including usage posting and invoicing, you must update the job to have a **Status** of **Completed** . Then, you must reverse any WIP that has been posted to the general ledger.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs** , and then choose the related link.  
 2. Select an open job, and then choose the **Edit** action.
-3. In the **Status** field, select **Completed**.
+3. In the **Status** field, select **Completed** .
 4. Follow the assistance steps to calculate and post WIP. Alternatively, follows steps 5 and 6 to do so manually.  
 5. Choose the **Calculate WIP** action.
 6. On the **Job Calculate WIP** page, fill in the fields as necessary.  

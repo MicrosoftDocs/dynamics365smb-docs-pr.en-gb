@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f12d12bf4fb6a12a0abe52101f30a16a182bd1b2
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 65331f8c60c57bd87e3a459012a9a5678d033790
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528217"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920584"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Report VAT to Tax Authorities
 This topic describes the reports in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can use to submit information about value-added tax (VAT) amounts for sales and purchases to tax authorities in your region. 
@@ -25,7 +25,7 @@ You can use the following reports :
 * The **EC Sales List** European Community (EC) Sales List report lists the value added tax (VAT) amounts that you have collected for sales to VAT-registered customers in the European Union (EU) countries.  
 * The **VAT Return** report includes VAT for sales and purchases to customers and from vendors in all countries that use VAT.
 
-If you want to view a complete history of VAT entries, every posting that involves VAT creates an entry on the **VAT Entries** page. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view VAT entries, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Entries**, and then choose the related link.
+If you want to view a complete history of VAT entries, every posting that involves VAT creates an entry on the **VAT Entries** page. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view VAT entries, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Entries** , and then choose the related link.
 
 > [!NOTE]
 > Each [!INCLUDE[d365fin](includes/d365fin_md.md)] environment is meant to handle regulatory reporting in one single country. For example, the Dutch version of [!INCLUDE[d365fin](includes/d365fin_md.md)] handles VAT reporting in The Netherlands but not in other countries. Similarly, the United States version of [!INCLUDE[d365fin](includes/d365fin_md.md)] handles 1099 reporting in the United States and does not support claiming VAT reporting in other countries, unless brought by an extension delivered by our partner ecosystem or a customer-specific code modification.
@@ -58,20 +58,20 @@ For the VAT return, you can specify the entries to include:
 
 To report VAT to a tax authority electronically, you need to connect [!INCLUDE[d365fin](includes/d365fin_md.md)] to the tax authority's web service. This requires that you set up an account with your tax authority. When you have an account, you can enable a service connection that we provide in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose appropriate link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections** , and then choose appropriate link.
 2. Fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     > It is a good idea to test your connection. To do this, choose the **Test Mode** check box, then prepare and submit your VAT report as described in the _To prepare and submit a VAT report_ section. While in Test Mode, the service tests whether the tax authority can receive your report, and the status of the report will indicate whether the test submission was successful. It is important to remember that this is not an actual submission. To submit the report for real, you must clear the **Test Mode** check box, and then repeat the submission process.
 
 ## <a name="to-set-up-vat-reports-in-d365fin"></a>To set up VAT reports in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup** , and then choose the related link.  
 2. To let users change and resubmit this report, choose the **Modify Submitted Reports** check box.  
 3. Choose the number series to use for each report.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>To prepare and submit a VAT report
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **EC Sales List** or **VAT Return**, and then choose the related link.  
-2. Choose **New**, and then fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **EC Sales List** or **VAT Return** , and then choose the related link.  
+2. Choose **New** , and then fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To generate the content of the report, choose the **Suggest Lines** action.  
 
     > [!NOTE]  
@@ -82,7 +82,7 @@ To report VAT to a tax authority electronically, you need to connect [!INCLUDE[d
     > [!INCLUDE[d365fin](includes/d365fin_md.md)] validates whether the report is set up correctly. If the validation fails, the errors display under **Errors and Warnings** so that you know what to fix. Typically, if the message is about a missing setting in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can click the message to open the page that contains the information to correct.  
 5. To submit the report, choose the **Submit** action.  
 
-After you submit the report, [!INCLUDE[d365fin](includes/d365fin_md.md)] monitors the service and keeps a record of your communications. The **Status** field indicates where the report is in the process. For example, when the authorities process your report, the status of the report changes to **Succeeded**. If the tax authority found mistakes in the report you submitted, the status of the report will be **Failed**. You can view the errors under **Errors and Warnings**, correct them, and then submit the report again. To view a list of all your EC Sales List reports, go to the **EC Sales List Reports** page.  
+After you submit the report, [!INCLUDE[d365fin](includes/d365fin_md.md)] monitors the service and keeps a record of your communications. The **Status** field indicates where the report is in the process. For example, when the authorities process your report, the status of the report changes to **Succeeded** . If the tax authority found mistakes in the report you submitted, the status of the report will be **Failed** . You can view the errors under **Errors and Warnings** , correct them, and then submit the report again. To view a list of all your EC Sales List reports, go to the **EC Sales List Reports** page.  
 
 ## <a name="viewing-communications-with-your-tax-authority"></a>Viewing communications with your tax authority
 In some countries, you exchange messages with the tax authority when you submit reports. You can view the first and the last message you sent or received by choosing the **Download Submission Message** and **Download Response Message** actions.  
@@ -96,7 +96,7 @@ Periodically, you must remit the net VAT to the tax authorities. If you need to 
 When you transfer VAT amounts to the settlement account, the purchase VAT account is credited, and the sales VAT account is debited with the amounts calculated for the specified period. The net amount is credited or debited, if the purchase VAT amount is larger, to the VAT settlement account. You can post the settlement immediately or print a test report first.  
 
 > [!Note]
-> When you use the **Calc. and Post VAT Settlement** batch job, if you do not specify a **VAT Bus. Posting Group** and a **VAT Prod. Posting group**, entries with all business posting groups and product posting group codes are included.
+> When you use the **Calc. and Post VAT Settlement** batch job, if you do not specify a **VAT Bus. Posting Group** and a **VAT Prod. Posting group** , entries with all business posting groups and product posting group codes are included.
 
 ## <a name="configuring-your-own-vat-reports"></a>Configuring your own VAT reports
 You can use the EC Sales List report out-of-the-box, however, you can also create your own reports. This requires that you create a few codeunits. If you need help with that, contact a Microsoft Partner.  

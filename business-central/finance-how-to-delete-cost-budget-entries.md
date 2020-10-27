@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d26bba0cf0bd273d981e7bc83f06a7bd53216637
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2ff0ede7bd5d90607a04b1037f5b6c6d092c1c33
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784189"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916150"
 ---
 # <a name="delete-cost-budget-entries"></a>Delete Cost Budget Entries
 You use the **Delete Cost Budget Entries** batch job to cancel cost budget entries from the cost budget register.  
@@ -24,7 +24,7 @@ To prevent any gaps in the cost budget entries and cost register entries, you ca
 
 ### <a name="to-delete-a-cost-budget-entry"></a>To delete a cost budget entry  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Cost Budget Entries**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Cost Budget Entries** , and then choose the related link.  
 
     The **To Register No.** field contains the last register entry number and cannot be changed.  
 

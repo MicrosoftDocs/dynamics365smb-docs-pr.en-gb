@@ -1,6 +1,6 @@
 ---
 title: How to Flush Components According to Operation Output | Microsoft Docs
-description: For items that are set up with backward flushing method, the default behavior is to calculate and post component consumption when you change the status of a released production order to **Finished**. For more information, see Flushing Method.
+description: For items that are set up with backward flushing method, the default behavior is to calculate and post component consumption when you change the status of a released production order to **Finished** . For more information, see Flushing Method.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d895ede7ec603b1f4892b1aacb2683f6ace11233
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 366c450924367ba70eece30809035895c42a0838
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779769"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921624"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Flush Components According to Operation Output
-For items that are set up with backward flushing method, the default behavior is to calculate and post component consumption when you change the status of a released production order to **Finished**.  
+For items that are set up with backward flushing method, the default behavior is to calculate and post component consumption when you change the status of a released production order to **Finished** .  
 
 If you also define routing link codes, then calculation and posting occurs when each operation is finished, and the quantity that was actually consumed in the operation is posted. For more information, see [Create Routings](production-how-to-create-routings.md).  
 
@@ -33,16 +33,16 @@ This functionality is useful for the following reasons:
 The following procedure shows how to combine backward flushing and routing link codes so that the quantity that is flushed for each operation is proportional to the actual output of the finished operation.  
 
 ## <a name="to-flush-components-according-to-operation-output"></a>To flush components according to operation output  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.  
 2.  Choose the **Edit** action.  
-3.  On the **Replenishment** FastTab, in the **Flushing Method** field, select **Forward**.  
+3.  On the **Replenishment** FastTab, in the **Flushing Method** field, select **Forward** .  
 
     > [!NOTE]  
     >  Select **Pick+ Forward** if the component is used in a location that is set up for directed put-away and pick.  
 
-4.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+4.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings** , and then choose the related link.  
 5.  Define routing link codes for every operation that consumes the component. For more information, see [Create Routings ](production-how-to-create-routings.md).  
-6.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM**, and then choose the related link.  
+6.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM** , and then choose the related link.  
 7.  Define routing link codes from each instance of the component to the operation where it is consumed.
 
     > [!IMPORTANT]  

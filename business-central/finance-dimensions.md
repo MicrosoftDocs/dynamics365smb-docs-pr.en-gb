@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05c187adbe7a471a5ba2f240ad4e61e083aa0346
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b0e5a74db148e0c33eeb87bd006f3c136bc8ee33
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786378"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917183"
 ---
 # <a name="working-with-dimensions"></a>Working with Dimensions
 To make it simpler to perform analysis on documents such as sales orders, you can use dimensions. Dimensions are attributes and values that categorise entries so you can track and analyse them. For example, dimensions can indicate the project or department an entry came from.  
 
 For example, instead of setting up separate general ledger accounts for each department and project, you can use dimensions. This gives a rich opportunity for analysis, without creating a complicated chart of accounts. For more information, see [Business Intelligence](bi.md).
 
-Another example is to set up a dimension called *Department*, and use this dimension when you post sales documents. This will let you use business intelligence tools to see which department sold which items.
+Another example is to set up a dimension called *Department* , and use this dimension when you post sales documents. This will let you use business intelligence tools to see which department sold which items.
 The more dimensions you use, the more detailed reports you can base your business decisions on. For example, a single sales entry can include multiple dimension information, such as:  
 
 * The account the item sale was posted to  
@@ -44,7 +44,7 @@ A dimension set is a unique combination of dimension values. It is stored as dim
 When you create a journal line, document header, or document line, you can specify a combination of dimension values. Instead of explicitly storing each dimension value in the database, a dimension set ID is assigned to the journal line, document header, or document line to specify the dimension set.  
 
 ## <a name="setting-up-dimensions"></a>Setting Up Dimensions
-You can define the dimensions and dimension values to categorise journals and documents, such as sales orders and purchase orders. You set up dimensions on the **Dimensions** page, where you create one line for each dimension, such as *Project*, *Department*, *Area*, and *Salesperson*.
+You can define the dimensions and dimension values to categorise journals and documents, such as sales orders and purchase orders. You set up dimensions on the **Dimensions** page, where you create one line for each dimension, such as *Project* , *Department* , *Area* , and *Salesperson* .
 
 You also set up values for dimensions. For example, values might be departments in your company. Dimension values can be set up in a hierarchical structure similar to the chart of accounts, so that data can be broken down into various levels of granularity, and subsets of dimension values can be totalled. You can define as many dimensions and dimension values as you need, and everyone in your company can use them.
 
@@ -56,7 +56,7 @@ When dimensions and values are set up, you can define global and shortcut dimens
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>To set up default dimensions for customers, vendors, and other accounts
 You can assign a default dimension for a specific account. The dimension will be copied to the journal or document when you enter the account number on a line, but you can delete or change the code on the line if appropriate. You can also make a dimension required for posting an entry with a specific type of account.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dimensions**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dimensions** , and then choose the related link.  
 2.  On the **Dimensions** page, select the relevant dimension, and then choose the **Account Type Default Dim** action.  
 4.  Fill in a line for each new default dimension that you want to set up. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -64,7 +64,7 @@ You can assign a default dimension for a specific account. The dimension will be
 >  If you want to make a dimension required but you do not want to assign a default value to the dimension, leave the **Dimension Value Code** field blank and then select **Code Mandatory** in the **Value Posting** field.  
 
 > [!WARNING]  
->  If an account is used in the **Adjust Exchange Rates** batch job or the **Post Inventory Cost to G/L** batch job, do not select **Code Mandatory** or **Same Code**. These batch jobs cannot use dimension codes.  
+>  If an account is used in the **Adjust Exchange Rates** batch job or the **Post Inventory Cost to G/L** batch job, do not select **Code Mandatory** or **Same Code** . These batch jobs cannot use dimension codes.  
 
 > [!NOTE]  
 >  If an account must have a different dimension assigned to it than the default dimension already set up for the account type, you must set up a default dimension for this account. The default dimension for the individual account then replaces the default dimension for the account type.  
@@ -72,7 +72,7 @@ You can assign a default dimension for a specific account. The dimension will be
 ### <a name="to-set-up-default-dimension-priorities"></a>To set up default dimension priorities  
 Different account types, such as a customer account and an item account, can have different default dimensions set up. As a result, an entry can have more than one default dimension proposed for a dimension. To avoid such conflicts, you can apply priority rules to the different sources.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Default Dimension Priorities**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Default Dimension Priorities** , and then choose the related link.  
 2.  On the **Default Dimension Priorities** page, in the **Source Code** field, enter the source code for the entry table to which default dimension priorities will apply.  
 3.  Fill in a line for each default dimension priority that you want for the selected source code.
 4.  Repeat the procedure for each source code for which you want to set up default dimension priorities.  
@@ -83,7 +83,7 @@ Different account types, such as a customer account and an item account, can hav
 ### <a name="to-set-up-dimension-combinations"></a>To set up dimension combinations  
 To avoid posting entries with contradictory or irrelevant dimensions, you can block or limit specific combinations of two dimensions. A blocked dimension combination means that you cannot post both dimensions on the same entry regardless of what the dimension values are. A limited dimension combination lets you post both dimensions to the same entry, but only for certain combinations of dimension values.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dimension Combinations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dimension Combinations** , and then choose the related link.  
 2.  On the **Dimension Combinations** page, choose the field of the dimension combination and select one of the following options.  
 
     |Field|Description|
@@ -112,13 +112,13 @@ Global and shortcut dimensions can be used as a filter anywhere in [!INCLUDE[d36
 > [!Note]
 > When you add or change a global or shortcut dimension, you are automatically signed out and back in so that the new value is prepared for use all over the application.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** , and then choose the related link.
 2. On the **Dimensions** FastTab, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>To change global dimensions
 When you change a global or shortcut dimension, all entries posted with the dimension in question are updated. Because this process may be time-consuming and can affect performance, two different modes are provided to adapt the process to the size of the database.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** , and then choose the related link.
 2. Choose the **Change Global Dimensions** action.
 3. At the top of the page, select one of the following options to define in which mode the batch job is run.
 
@@ -146,7 +146,7 @@ Let's say that your company wants to track transactions based on organisational 
 | AREA |Area |Area Code |Area Filter |
 | DEPARTMENT |Department |Department Code |Department Filter |
 
-For **AREA**, you add the following dimension values:
+For **AREA** , you add the following dimension values:
 
 | Code | Name | Dimension Value Type |
 | --- | --- | --- |
@@ -165,7 +165,7 @@ For the two main geographic areas, Americas and Europe, you add subcategories fo
 > [!NOTE]  
 >   To set up a hierarchy, the codes must be in alphabetical order. This includes the codes of the dimension values that are provided in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-For **DEPARTMENT**, you add the following dimension values:
+For **DEPARTMENT** , you add the following dimension values:
 
 | Code | Name | Dimension Value Type |
 | --- | --- | --- |
@@ -198,7 +198,7 @@ Global dimensions are always company\-defined and company-named. To see the glob
 
 In a ledger entry page, you can see whether there are global dimensions for the entries. The two global dimensions differ from the rest of your dimensions because you can use them as filters anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts** , and then choose the related link.  
 2.  On the **Chart of Accounts** page, choose the **Ledger Entries** action.  
 3.  To see only the entries that are relevant, set one or more filters on the page.  
 4.  To see all the dimensions for an entry, select the entry, and then choose the **Dimensions** action.  
@@ -218,7 +218,7 @@ When you post documents or journal lines that contain dimensions, various errors
 |Deleted dimension|%1 %2 can't be found.|-Restore the missing dimension.<br />-Find non-posted documents containing the dimension set with the missing dimension and add it.<br />-Remove the dimension set line for the missing dimension.|
 |Blocked dimension value|%1 %2 - %3 is blocked.|-Find non-posted documents containing the dimension set with the blocked dimension value and unblock it.<br />-Remove the dimension set line for the blocked dimension value.|
 |Deleted dimension value|   %1 for %2 is missing.|-Restore the missing dimension value.<br />-Find non-posted documents containing the dimension set with the missing dimension value and add it.<br />-Remove the dimension set line for the missing dimension value.|
-|Disallowed dimension value|Dimension Value Type for %1 %2 - %3 must not be %4.|-Change the **Dimension Value Type** field on the **Dimension Values** page to **Standard** or **Begin-Total**.<br />-Remove the dimension set line for the blocked dimension value.|
+|Disallowed dimension value|Dimension Value Type for %1 %2 - %3 must not be %4.|-Change the **Dimension Value Type** field on the **Dimension Values** page to **Standard** or **Begin-Total** .<br />-Remove the dimension set line for the blocked dimension value.|
 |Blocked dimension combination|Dimensions %1 and %2 can't be used concurrently.|-Find non-posted documents containing the dimension set with the blocked dimension combination and unblock it.<br />-Modify one of the conflicting permission set line for the dimension combination.|
 |Blocked dimension value Combination|Dimension combinations %1 - %2 and %3 - %4 can't be used concurrently.|-Find non-posted documents containing the dimension set with the blocked dimension value combination and unblock it.<br />-Modify one of the conflicting permission set line for the dimension value combination.|
 |Blank dimension value code for default dimension where the **Value Posting** field contains **Code Mandatory**|-Select a %1 for the %2 %3.<br />-Select a %1 for the %2 %3 for %4 %5.|-Change the **Value Posting** field on the **Default Dimension** page.<br />-Enter a non-blank dimension value for the conflicting dimension in the dimension set.|

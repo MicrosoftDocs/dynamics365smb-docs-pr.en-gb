@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7e24351bb7382d01a060326ec8e592af555870a7
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 2f1b79cdf04075159b5e464e384bace89d9f933c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619391"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917808"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-common-data-service"></a>Scheduling a Synchronisation between Business Central and Common Data Service
 
@@ -70,7 +70,7 @@ Some job queue entries, such as those that schedule synchronisation between [!IN
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Flowchart for when job queue entries are put on hold due to inactivity.":::
 
-When the value in this field is not zero, and the job queue did not find any changes during the last run, [!INCLUDE[d365fin](includes/d365fin_md.md)] puts the job queue entry on hold. When that happens, the **Status of Job Queue** field will show **On Hold Due to Inactivity**, and [!INCLUDE[d365fin](includes/d365fin_md.md)] will wait for the period of time specified in **Inactivity Timeout** field before it runs the job queue entry again.  
+When the value in this field is not zero, and the job queue did not find any changes during the last run, [!INCLUDE[d365fin](includes/d365fin_md.md)] puts the job queue entry on hold. When that happens, the **Status of Job Queue** field will show **On Hold Due to Inactivity** , and [!INCLUDE[d365fin](includes/d365fin_md.md)] will wait for the period of time specified in **Inactivity Timeout** field before it runs the job queue entry again.  
 
 For example, by default, the CURRENCY job queue entry, which synchronises currencies in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] with exchange rates in [!INCLUDE[d365fin](includes/d365fin_md.md)], will look for changes to exchange rates every 30 minutes. If no changes are found, [!INCLUDE[d365fin](includes/d365fin_md.md)] puts the CURRENCY job queue entry on hold for 720 minutes (six hours). If an exchange rate is changed in [!INCLUDE[d365fin](includes/d365fin_md.md)] while the job queue entry is on hold, [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically reactivate the job queue entry and restart the job queue. 
 
@@ -79,7 +79,7 @@ For example, by default, the CURRENCY job queue entry, which synchronises curren
 
 ## <a name="to-view-the-synchronization-job-log"></a>To view the synchronisation job log
 
-1. Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Synchronisation Log**, and then choose the related link.
+1. Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Synchronisation Log** , and then choose the related link.
 2. If one or more error occurred for a synchronisation job, the number of errors appears in the **Failed** column. To view the errors for the job, choose the number.  
 
     > [!TIP]  
@@ -87,12 +87,12 @@ For example, by default, the CURRENCY job queue entry, which synchronises curren
 
 ## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>To view the synchronisation job log from the table mappings
 
-1. Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Table Mappings**, and then choose the related link.
-2. In the **Integration Table Mappings** page, select an entry, and then choose **Integration Synch. Job Log**.  
+1. Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Table Mappings** , and then choose the related link.
+2. In the **Integration Table Mappings** page, select an entry, and then choose **Integration Synch. Job Log** .  
 
 ## <a name="to-view-the-synchronization-error-log"></a>To view the synchronisation error log
 
-- Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Synchronisation Errors**, and then choose the related link.
+- Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Synchronisation Errors** , and then choose the related link.
 
 ## <a name="see-also"></a>See Also
 

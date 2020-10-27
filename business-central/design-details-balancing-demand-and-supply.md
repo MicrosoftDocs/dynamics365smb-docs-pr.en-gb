@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b039c15a3e55135576dfe6341248bde936d58093
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 30c78ba04d58a2e2c2227ec638724c85cb1236c7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788153"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917558"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Design Details: Balancing Demand and Supply
 To understand how the planning system works, it is necessary to understand the prioritised goals of the planning system, the most important of which are to ensure that:  
@@ -99,7 +99,7 @@ During balancing, the planning system regards supply that carries serial/lot num
 
 Another reason that serial/lot numbered supply is inflexible is that serial/lot numbers are generally assigned so late in the process that it would be confusing if changes are suggested.  
 
-The balancing of serial/lot numbers does not respect the *frozen zone*. If demand and supply is not synchronised, the planning system will suggest changes or suggest new orders, regardless of the planning starting date.  
+The balancing of serial/lot numbers does not respect the *frozen zone* . If demand and supply is not synchronised, the planning system will suggest changes or suggest new orders, regardless of the planning starting date.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Order-to-Order Links are Never Broken  
 When planning an order-to-order item, the linked supply must not be used for any demand other than what it was originally intended for. The linked demand should not be covered by any other random supply, even if, in its present situation, it is available in time and quantity. For example, an assembly order that is linked to a sales order in an assemble-to-order scenario cannot be used to cover other demand.  
@@ -209,7 +209,7 @@ If the user wants to exclude an existing supply order from the planning suggesti
 
 In general, all supply has a planning flexibility that is limited by the conditions of each of the suggested actions.  
 
--   **Reschedule Out**: The date of an existing supply order can be scheduled out to meet the demand due date unless:  
+-   **Reschedule Out** : The date of an existing supply order can be scheduled out to meet the demand due date unless:  
 
     -   It represents inventory (always on day zero).  
     -   It has an order-to-order linked to another demand.  
@@ -219,7 +219,7 @@ In general, all supply has a planning flexibility that is limited by the conditi
     -   The supply order has already been tied to another demand on a previous date.  
     -   The needed rescheduling is so minimal that the user finds it negligible.  
 
--   **Reschedule In**: The date of an existing supply order can be scheduled in, except in the following conditions:  
+-   **Reschedule In** : The date of an existing supply order can be scheduled in, except in the following conditions:  
 
     -   It is linked directly to some other demand.  
     -   It lies outside the reschedule page defined by the time bucket.  
@@ -227,18 +227,18 @@ In general, all supply has a planning flexibility that is limited by the conditi
 > [!NOTE]  
 >  When planning an item using a reorder point, the supply order can always be scheduled in if necessary. This is common in forward-scheduled supply orders triggered by a reorder point.  
 
--   **Increase Quantity**: The quantity of an existing supply order can be increased to meet the demand unless the supply order is linked directly to a demand by an order-to-order link.  
+-   **Increase Quantity** : The quantity of an existing supply order can be increased to meet the demand unless the supply order is linked directly to a demand by an order-to-order link.  
 
 > [!NOTE]  
 >  Even though it is possible to increase the supply order, it may be limited due to a defined maximum order quantity.  
 
--   **Decrease Quantity**: An existing supply order with a surplus compared to an existing demand can be decreased to meet the demand.  
+-   **Decrease Quantity** : An existing supply order with a surplus compared to an existing demand can be decreased to meet the demand.  
 
 > [!NOTE]  
 >  Even though the quantity could be decreased, there may still be some surplus compared to the demand due to a defined minimum order quantity or order multiple.  
 
--   **Cancel**: As a special incident of the decrease quantity action, the supply order could be cancelled if it has been decreased to zero.  
--   **New**: If no supply order already exists, or an existing one cannot be changed to meet the necessary quantity on the demanded due date, a new supply order is suggested.  
+-   **Cancel** : As a special incident of the decrease quantity action, the supply order could be cancelled if it has been decreased to zero.  
+-   **New** : If no supply order already exists, or an existing one cannot be changed to meet the necessary quantity on the demanded due date, a new supply order is suggested.  
 
 ### <a name="determining-the-supply-quantity"></a>Determining the Supply Quantity  
 Planning parameters defined by the user control the suggested quantity of each supply order.  

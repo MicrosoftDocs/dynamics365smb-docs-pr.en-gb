@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c3f588a92d424d4ad8b1dfeda28b23981eca6c42
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 20dd616b52c1d6752d8aeeeb7c95e9d4f814b9a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788078"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920954"
 ---
 # <a name="design-details-cost-adjustment"></a>Design Details: Cost Adjustment
 
@@ -27,7 +27,7 @@ The following are secondary purposes, or functions, of cost adjustment:
 
 * Invoice finished production orders:  
 
-  * Change the status of value entries from **Expected** to **Actual**.  
+  * Change the status of value entries from **Expected** to **Actual** .  
   * Clear WIP accounts. For more information, see [Design Details: Production Order Posting](design-details-production-order-posting.md).  
   * Post variance. For more information, see [Design Details: Variance](design-details-variance.md).  
   * Update the unit cost on the item card.  
@@ -163,7 +163,7 @@ To set up cost adjustment to run automatically when you post an inventory transa
 |Year|Costs are adjusted if posting occurs within one year from the work date.|  
 |Always|Costs are always adjusted when you post, regardless of the posting date.|  
 
-The selection that you make in the **Automatic Cost Adjustment** field is important for performance and the accuracy of your costs. Shorter time periods, such as **Day** or **Week**, affect system performance less, because they provide the stricter requirement that only costs posted in the last day or week can be automatically adjusted. This means that the automatic cost adjustment does not run as frequently and therefore affects system performance less. However, it also means that unit costs may be less accurate.  
+The selection that you make in the **Automatic Cost Adjustment** field is important for performance and the accuracy of your costs. Shorter time periods, such as **Day** or **Week** , affect system performance less, because they provide the stricter requirement that only costs posted in the last day or week can be automatically adjusted. This means that the automatic cost adjustment does not run as frequently and therefore affects system performance less. However, it also means that unit costs may be less accurate.  
 
 ### <a name="example"></a>Example
 

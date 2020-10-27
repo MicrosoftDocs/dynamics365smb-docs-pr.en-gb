@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b164ce7ba4be7e21b7c99c6e38cb9019e3ddc665
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3d053de6193593256e404803d61b14f4681dc771
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784874"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921544"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Track Relations Between Demand and Supply
 From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.
@@ -27,7 +27,7 @@ Order tracking shows how sales orders, production orders, and purchase orders ar
 
 The following describes how to track linked items on a firm planned production order. The steps are similar for all other order types, and from planning worksheet lines.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order** , and then choose the related link.
 2. Open the relevant firm planned production order from the list.
 3. On the **Lines** FastTab, choose the **Functions** action, and then choose the **Order Tracking** action.
 

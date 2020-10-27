@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: daff9e471ce62f4885703a1fd11bbf35620360f9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6a9db4249cdf5814bc04653a1987d17f8f94ecb2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189682"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918620"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>The Sales and Inventory Forecast Extension
 Inventory management is a trade-off between customer service and managing your cost. On one hand, a low inventory requires less working capital, but, on the other hand, stock-outs potentially lead to missed sales. The Sales and Inventory Forecast extension predicts potential sales using historical data and gives a clear overview of expected stock-outs. Based on the forecast, the extension helps create replenishment requests to your vendors and saves you time.  
@@ -42,21 +42,21 @@ These web services are stateless, meaning they use data only to calculate predic
 >   You can also use your own predictive web service instead of ours. For more information, see [Create and use your own predictive web service for sales and inventory forecasts](#AnchorText). 
 
 ### <a name="data-required-for-forecast"></a>Data required for forecast
-To make predictions about future sales, the web service requires quantitative data about past sales. That data comes from the **Posting Date**, **Item No**, and **Quantity** fields on the **Item Ledger Entries** page, where:
+To make predictions about future sales, the web service requires quantitative data about past sales. That data comes from the **Posting Date** , **Item No** , and **Quantity** fields on the **Item Ledger Entries** page, where:
 -    The entry type is "Sale."
 - The posting date is between the date that is calculated based on the values in the **Historical Periods** and **Period Type** fields on the **Sales and Inventory Forecast Setup** page and the work date.
 
 Before using the web service [!INCLUDE[d365fin](includes/d365fin_md.md)] compresses transactions by **Item No.** and **Posting Date** based on the value in the **Period Type** field in the **Sales and Inventory Forecast Setup** page.
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-sales-and-inventory-forecasts"></a><a name="AnchorText"> </a>Create and use your own predictive web service for sales and inventory forecasts
-You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Business Central**. This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  
+You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Business Central** . This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  
 
 1. Open a browser and go to the [Azure AI Gallery](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Search for **Forecasting Model for Microsoft Business Central**, and then open the model in Azure Machine Learning Studio.  
+2. Search for **Forecasting Model for Microsoft Business Central** , and then open the model in Azure Machine Learning Studio.  
 3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
 4. Run the model, and publish it as a web service.  
 5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
-6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales and Inventory Forecast Setup**, and then choose the related link.  
+6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales and Inventory Forecast Setup** , and then choose the related link.  
 7. Expand the **General** FastTab, and then fill in the API URL and API key fields.  
 
 

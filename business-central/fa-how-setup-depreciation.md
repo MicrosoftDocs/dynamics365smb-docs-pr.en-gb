@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4a54ed9896c6d9921d13f2a4c9c43ed1ba5b7eea
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a08c4dbdb54343f1ec2a66064508496517617555
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784666"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921922"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Set Up Fixed Asset Depreciation
  You can use various methods of depreciation for preparing financial statements and income VAT returns. Many large corporations use straight-line depreciation in their financial statements because this generally permits reporting higher earnings. For income tax purposes, however, many businesses use an accelerated depreciation method, such as declining-balance depreciation. You define an asset's depreciation method with the **Depreciation Method** field on the **Fixed Asset Card** page. For more information about what the different methods do, see [Depreciation Methods](fa-depreciation-methods.md).
@@ -27,7 +27,7 @@ ms.locfileid: "3784666"
 ## <a name="to-create-a-depreciation-book"></a>To create a depreciation book
 In a fixed asset depreciation book, you specify how fixed assets are depreciated. To accommodate various methods of depreciation, you can set up multiple depreciation books.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books** , and then choose the related link.
 2. On the **Depreciation Books List** page, choose the **New** action.
 3. On the **Depreciation Book Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -37,7 +37,7 @@ In a fixed asset depreciation book, you specify how fixed assets are depreciated
 5. Repeat steps 2 through 4 for each depreciation method or posting method that you want to assign to fixed assets as a depreciation book.
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>To assign a depreciation book to a fixed asset
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets** , and then choose the related link.
 2. Select the fixed asset that you want to set up a fixed asset depreciation book for.
 3. On the **Depreciation Book** FastTab, fill in the fields as necessary.
 4. If you need to assign more than one depreciation book to the fixed asset, choose the **Add More Depreciation Books** action.
@@ -49,7 +49,7 @@ In a fixed asset depreciation book, you specify how fixed assets are depreciated
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>To assign a depreciation book to multiple fixed assets with a batch job
 If you want to assign a depreciation book to several fixed assets, you can use the **Create FA Depreciation Books** batch job to create fixed asset depreciation books.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets** , and then choose the related link.
 2. Select the fixed asset that you want to set up a assign a depreciation book to, and then choose the **Edit** action.
 3. On the **Depreciation Book Card** page, choose the **Create FA Depreciation Books** action.
 4. On the **Create FA Depreciation Books** page, fill in the **Depreciation Book** field.
@@ -62,7 +62,7 @@ If you want to assign a depreciation book to several fixed assets, you can use t
 ## <a name="to-set-up-depreciation-posting-types"></a>To set up depreciation posting types
 For each depreciation book, you must set up how you want [!INCLUDE[d365fin](includes/d365fin_md.md)] to handle various posting types. For example, whether posting should be debit or credit and whether the posting type should be included in the depreciable basis.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books** , and then choose the related link.  
 2. Select the depreciation book that you want to set up, and them choose the **FA Posting Type Setup** action.
 3. On the **FA Posting Type Setup** page, fill in the fields as necessary.
 
@@ -74,7 +74,7 @@ We recommend that you do not change the setup for depreciation books for entries
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>To set up default templates and batches for fixed asset depreciation
 For each depreciation book, you define a default setup of templates and batches. You use these defaults to duplicate lines from one journal to another, create journal lines using the **Calculate Depreciation** or **Index Fixed Assets** batch jobs, duplicate acquisition costs in the insurance journal.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books** , and then choose the related link.  
 2. Select the depreciation book that you want to define default journals for, and then choose the **FA Journal Setup** action.  
 3. If you want to have a default setup for each user, choose the **User ID** field to select from the **Users** page.  
 4. In the other fields, select the journal template or journal batch that must be used by default.  

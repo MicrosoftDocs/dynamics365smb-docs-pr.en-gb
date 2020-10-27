@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a1e2e8ceee41c2c6ed517d000fc7c3a4a6aa274c
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: e339033e8529f59f548e8bf71fd683f9a2a17eba
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697679"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917883"
 ---
 # <a name="prodshort-and-power-bi"></a>[!INCLUDE[prodshort](includes/prodshort.md)] and Power BI
 
@@ -31,10 +31,10 @@ There are various features for working with [!INCLUDE[prodshort](includes/prodsh
 
 |Feature|Description|Online|On-premises|More information|
 |-------|-----------|--------------|-----------|----------------|
-|View [!INCLUDE[prodshort](includes/prodshort.md)] data in Power BI|You can view your data from [!INCLUDE[prodshort](includes/prodshort.md)] in reports in Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] online includes some predefined Power BI reports. Or your organisation might have made some custom reports available to you.|![cheque](media/check.png)|![cheque](media/check.png)|[See...](across-working-with-powerbi.md)|
-|View Power BI reports in the [!INCLUDE[prodshort](includes/prodshort.md)] client.| Power BI reports that display [!INCLUDE[prodshort](includes/prodshort.md)] data can be embedded directly in parts [!INCLUDE[prodshort](includes/prodshort.md)] pages. You can switch the part to display any report that is made available to you. |![cheque](media/check.png)|![cheque](media/check.png)<sup>[*](#onprem)</sup>|[See...](across-working-with-business-central-in-powerbi.md).|
-|Create reports and dashboards in Power BI that display [!INCLUDE[prodshort](includes/prodshort.md)] data.|Use Power BI Desktop to create your own reports and dashboards. You can publish the reports to your own Power BI Service or share them with others within your organisation.|![cheque](media/check.png)|![cheque](media/check.png)|[See...](across-how-use-financials-data-source-powerbi.md)
-|[!INCLUDE[prodshort](includes/prodshort.md)] apps in Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] publishes three apps for Power BI on Microsoft AppSource. These apps create detailed reports and dashboards in your Power BI service for viewing [!INCLUDE[prodshort](includes/prodshort.md)] data. Available apps include: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] - CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Sales </li></ul>  |![cheque](media/check.png)||[See...](across-powerbi-business-central-apps.md)
+|View [!INCLUDE[prodshort](includes/prodshort.md)] data in Power BI|You can view your data from [!INCLUDE[prodshort](includes/prodshort.md)] in reports in Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] online includes some predefined Power BI reports. Or your organisation might have made some custom reports available to you.|![Works online](media/check.png)|![Works on-premises](media/check.png)|[See...](across-working-with-powerbi.md)|
+|View Power BI reports in the [!INCLUDE[prodshort](includes/prodshort.md)] client.| Power BI reports that display [!INCLUDE[prodshort](includes/prodshort.md)] data can be embedded directly in parts [!INCLUDE[prodshort](includes/prodshort.md)] pages. You can switch the part to display any report that is made available to you. |![works online](media/check.png)|![Works on-premises](media/check.png)<sup>[*](#onprem)</sup>|[See...](across-working-with-business-central-in-powerbi.md).|
+|Create reports and dashboards in Power BI that display [!INCLUDE[prodshort](includes/prodshort.md)] data.|Use Power BI Desktop to create your own reports and dashboards. You can publish the reports to your own Power BI Service or share them with others within your organisation.|![Works online](media/check.png)|![works on-premises](media/check.png)|[See...](across-how-use-financials-data-source-powerbi.md)
+|[!INCLUDE[prodshort](includes/prodshort.md)] apps in Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] publishes three apps for Power BI on Microsoft AppSource. These apps create detailed reports and dashboards in your Power BI service for viewing [!INCLUDE[prodshort](includes/prodshort.md)] data. Available apps include: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] - CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Sales </li></ul>  |![Works online](media/check.png)||[See...](across-powerbi-business-central-apps.md)
 
 <a name="onprem"><sup>*</sup></a> This feature requires a registered application for Business Central in Microsoft Azure. For more information, see [Registering Business Central On-Premises in Azure AD for Integrating with Other Services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 

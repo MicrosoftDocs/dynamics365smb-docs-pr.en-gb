@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75880e3315933831bf20fa9c5e8ce6a1528b935e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 84d985bb329f76c9c4954e56a01f9d6c7f8bc09c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785103"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916200"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Set Up a Document Exchange Service
 You use an external service provider to exchange electronic documents with your trading partners. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>To set up a document exchange service  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Doc. Exch. Service Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Doc. Exch. Service Setup** , and then choose the related link.  
 2. Fill the fields as described in the following table.  
 
     |Field|Description|  

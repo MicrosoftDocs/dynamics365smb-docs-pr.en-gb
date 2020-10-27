@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 708ae474b15724e151cba367842091763544a434
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cba54a66815874a3885e038283e8fe9a84b9dd09
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182979"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916857"
 ---
 # <a name="defining-payment-methods"></a>Defining Payment Methods
-Payment methods define the way you prefer for customers to pay you, and how you like to pay your vendors. The method can vary for each customer or vendor. Examples of typical payment methods are **bank**, **cash**, **cheque**, or **account**.
+Payment methods define the way you prefer for customers to pay you, and how you like to pay your vendors. The method can vary for each customer or vendor. Examples of typical payment methods are **bank** , **cash** , **cheque** , or **account** .
 
 You can assign a payment method to customers and vendors so that the same method is always used on the sales and purchase documents you create for them. If needed, you can change the method on the sales or purchase document. For example, if you want to pay a particular purchase invoice in cash rather than by cheque. This does not change the default payment method assigned to the vendor.
 
@@ -31,11 +31,11 @@ Credit memos for returns, however, are exceptions because money is flowing in th
 ## <a name="to-set-up-a-payment-method"></a>To set up a payment method
 [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a few payment methods that businesses often use. You can, however, add as many as you need.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods** , and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>To assign a payment method to a customer or vendor
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor** , and then choose the related link.
 2. In the **Payment Method Code** field, choose the method to use by default for the customer or vendor.
 
 ## <a name="see-also"></a>See Also

@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 479ad10ee6bd10d123202749c1cc934bc67493af
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c71184f1894fb5503211b87595744e52c361862d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779643"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920329"
 ---
 # <a name="find-your-warehouse-assignments"></a>Find Your Warehouse Assignments
 To find your warehouse assignments, open the card page for a selected item. If warehouse instructions have been created, Take and Place lines are visible, and you can begin working on an assignment. In some warehouses, the manager may have assigned specific instructions to each employee. For more information, see [Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>To find an instruction assigned to you  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Put-aways**, **Warehouse Picks**, or **Warehouse Movement**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Put-aways** , **Warehouse Picks** , or **Warehouse Movement** , and then choose the related link.
 
     All three pages show assignments for all warehouse locations.  
 

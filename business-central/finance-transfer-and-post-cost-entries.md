@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31e9435f9473cc22bd402ad988e3efb9dfedd55e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9063126f0b8bd1b9ef8deadcbeb0451b3009f10d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777748"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919470"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transferring and Posting Cost Entries
 Before you define cost allocations, you must understand how cost entries come from the following sources:  
@@ -40,9 +40,9 @@ General ledger entries are not transferred if:
 -   The entries have dimension values that do not correspond to a cost centre or a cost object.  
 -   The entries have an amount of zero.  
 -   The entries have a general ledger account that has been deleted.  
--   The entries have a general ledger account that is not of the type **Income Statement**.  
+-   The entries have a general ledger account that is not of the type **Income Statement** .  
 -   The entries have a general ledger account that is not assigned a cost type.  
--   The entries have a posting date before the **Starting Date for G/L Transfer**.  
+-   The entries have a posting date before the **Starting Date for G/L Transfer** .  
 -   The entries have been posted with a closing date. These are typically entries that set back the balance of the income statement at the end of the year.
 
 ## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Transferring General Ledger Entries to Cost Entries
@@ -52,16 +52,16 @@ Before you run the process for transferring general ledger entries to cost entri
 
 ### <a name="to-prepare-the-transfer"></a>To prepare the transfer  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Accounting Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Accounting Setup** , and then choose the related link.  
 2.  On the **Cost Accounting Setup** page, verify that the **Starting Date for G/L Transfer** field is set to the correct value.  
-3.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Types**, and then choose the related link.  
+3.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Types** , and then choose the related link.  
 4.  On the **Cost Type Card** page, verify that the **G/L Account Range** field is linked correctly for each cost type to take entries from the general ledger.  
-5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts** , and then choose the related link.  
 6.  For each relevant general ledger account, on the **G/L Account Card** page, verify that the **Cost Type No.** field is linked correctly to a cost type. For more information, see [Setting Up Cost Accounting](finance-set-up-cost-accounting.md).  
 7.  Verify that all relevant general ledger entries have dimension values that correspond to a cost centre and a cost object.  
 
 ### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>To transfer general ledger entries to cost entries  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer GL Entries to CA**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer GL Entries to CA** , and then choose the related link.  
 2.  Choose the **Yes** button to start the transfer. The process transfers all general ledger entries that have not already been transferred.  
 
     During the transfer, the process creates connections in the entries in the **Cost Entry** table and the **Cost Register** table. This makes it possible to trace the source of cost entries.
@@ -91,7 +91,7 @@ For combined cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] saves the
 
 The **G/L Account** field in the **Cost Entry** table contains the number of the general ledger account that the cost entry came from.  
 
-For single cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] transfers the posting text from the general ledger entry to the **Description** text field. For combined entries, the text field shows these entries are transferred as combined entries. For example, for a combined entry for the month of October in 2013, the text can be **Combined Entries, October 2013**.  
+For single cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] transfers the posting text from the general ledger entry to the **Description** text field. For combined entries, the text field shows these entries are transferred as combined entries. For example, for a combined entry for the month of October in 2013, the text can be **Combined Entries, October 2013** .  
 
 ### <a name="cost-register"></a>Cost Register  
 In the **Cost Register** table, [!INCLUDE[d365fin](includes/d365fin_md.md)] creates an entry with the source transfer from general ledger. The entry records the first and last entry numbers of the general ledger entries that are transferred, in addition to the first and last entry numbers of the cost entries that are created.

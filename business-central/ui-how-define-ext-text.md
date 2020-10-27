@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/08/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cf0418f4182e9d66da88af9262dd807a34dd3572
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1dd6c3085c0cb8696b6e7011fbea3c3cd9a1c86e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782325"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920454"
 ---
 # <a name="add-extended-text"></a>Add Extended Text
 
@@ -26,7 +26,7 @@ The following section describes how to add extended text to a description of an 
 
 1. Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.
 2. Fill in the **Code** and **Description** fields.
-3. Choose the **New**.
+3. Choose the **New** .
 4. Fill in the **Language Code** field or select the **All Language Codes** check box if you use language codes.
 5. Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.
 6. In the **Text** field, write the extended text.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2983a1e87b0cc2ef11ca545de0c485a8348e3aa1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7ae55ba1c1aa0d2f10d1529dbf82b47022d3d9d5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785228"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916300"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Specify When and How to Receive Notifications
 When you set up users in approval workflows, you must specify in the **Notification Setup** and **Notification Schedule** pages how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the **Change Notification Settings** button on any notification.  
@@ -31,7 +31,7 @@ When you set up users in approval workflows, you must specify in the **Notificat
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Specify when and how users receive notifications  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup** , and then choose the related link.  
 2.  Select the line for the user that you want to set up notification preferences for, and then choose the **Notification Setup** action.  
 3.  On the **Notification Setup** page, fill the fields as described in the following table.  
 
@@ -50,11 +50,11 @@ When you set up users in approval workflows, you must specify in the **Notificat
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Recurrence**|Specify the recurrence pattern in which the user receives notifications.|  
-    |**Time**|Specify what time of the day the user receives notifications when the value in the **Recurrence** field is different from **Instantly**.|  
-    |**Daily Frequency**|Specify on which type of days the user receives notifications when the value in the **Recurrence** field is **Daily**.<br /><br /> Select **Weekday** to receive notifications every work day of the week. Select **Daily** to receive notifications every day of the week, including weekends.|  
-    |**Monday** through **Sunday**|Specify on which days the user receives notifications when the value in the **Recurrence** field is **Weekly**.|  
+    |**Time**|Specify what time of the day the user receives notifications when the value in the **Recurrence** field is different from **Instantly** .|  
+    |**Daily Frequency**|Specify on which type of days the user receives notifications when the value in the **Recurrence** field is **Daily** .<br /><br /> Select **Weekday** to receive notifications every work day of the week. Select **Daily** to receive notifications every day of the week, including weekends.|  
+    |**Monday** through **Sunday**|Specify on which days the user receives notifications when the value in the **Recurrence** field is **Weekly** .|  
     |**Date of Month**|Specify if the user receives notifications on the first, last, or a specific date of the month.|  
-    |**Monthly Notification Date**|Specify the date of the month on which the user receives notifications when the value in the **Date of Month** field is **Custom**.|  
+    |**Monthly Notification Date**|Specify the date of the month on which the user receives notifications when the value in the **Date of Month** field is **Custom** .|  
 
 ## <a name="change-when-and-how-you-receive-notifications"></a>Change when and how you receive notifications  
 1.  On one of the notifications that you have received, either as email or note, choose the **Change Notification Settings** button.  

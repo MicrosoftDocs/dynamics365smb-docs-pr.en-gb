@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 04/01/2020
-ms.openlocfilehash: 9cf4817cd85951f193ffadbcd3e7ebc971bcca36
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 10/01/2020
+ms.openlocfilehash: ef8b2c90ef01841e2c641b9fc96348d899d4997e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181587"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919345"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Use Profile Questionnaires to Classify Business Contacts
 You can set up profile questionnaires that you want to use when entering information about your contacts' profiles. Within each questionnaire, you can set up the different questions you intend to ask your contacts.  
@@ -23,7 +23,7 @@ You can set up profile questionnaires that you want to use when entering informa
 You can also run the questionnaire to answer some of the questions based on contact, customer, or vendor data automatically.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>To add a profile questionnaire
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup** , and then choose the related link.  
 2.  Choose the **New** Action.  
 3.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

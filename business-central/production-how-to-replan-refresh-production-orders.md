@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 48986fc36332c4bbca3f84208261fe8215e58f92
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: edfcb7904f540edad7f471511de9047c511a2cb2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781867"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921599"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replan or Refresh Production Orders Directly
 The **Replan** function on production orders is typically used after you have added or changed components that constitute underlying production orders. The function calculates changes made to components and routings lines, and it includes items on lower production BOM levels for which it may generate new production orders.  
@@ -35,7 +35,7 @@ You can either insert the production order lines manually or use the function th
 > If you use the Refresh function to recalculate production order lines, the old production order lines are deleted and new lines are calculated.  
 
 ## <a name="to-replan-a-production-order"></a>To replan a production order  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders** , and then choose the related link.  
 2.  Open the production order you want to replan.  
 3.  On the **Lines** FastTab, choose the **Lines** action, and then choose the **Components** action.  
 4.  Add a component, which is a produced item or subassembly.  
@@ -57,7 +57,7 @@ You can either insert the production order lines manually or use the function th
     |**One Level**|Plan for first-level production demand. First-level production orders may be created.|  
     |**All Levels**|Plan for all-level production demand. All-level production orders may be created.|  
 
-8.  Select **One Level**, and choose the **OK** button to replan the production order, and calculate and create a new underlying production order for the introduced subassembly, if it is not fully available.  
+8.  Select **One Level** , and choose the **OK** button to replan the production order, and calculate and create a new underlying production order for the introduced subassembly, if it is not fully available.  
 
 > [!NOTE]  
 >  Changes implemented with the **Replan** function are very likely to change the capacity need of the production order and you may therefore have to reschedule operations afterwards.  
@@ -65,7 +65,7 @@ You can either insert the production order lines manually or use the function th
 ## <a name="to-refresh-a-production-order"></a>To refresh a production order  
 If you have amended production order lines, components, or routing lines, you must also refresh the information on the production order. In the following procedure, the components are calculated for a firm planned production order. The steps are similar for routing lines.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order** , and then choose the related link.  
 2.  Choose the **New** action. For more information, see [Create Production orders](production-how-to-create-production-orders.md).  
 3.  Choose the **Refresh** action.
 4. On the **Refresh Production Order** page, select one of the following options:

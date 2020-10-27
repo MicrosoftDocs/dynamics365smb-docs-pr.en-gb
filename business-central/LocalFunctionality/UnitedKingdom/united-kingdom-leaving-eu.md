@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: united kingdom, uk, brexit, eu, european union
-ms.date: 08/19/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: e82a9004bd95bd93b5377fcc2f87eb362bc2503d
-ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
+ms.openlocfilehash: 340eb7d828692b217e699a7fe5b400f3651216f5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3701731"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918178"
 ---
 # <a name="using-business-central-after-the-united-kingdom-has-left-the-european-union"></a>Using Business Central after the United Kingdom Has Left the European Union
 

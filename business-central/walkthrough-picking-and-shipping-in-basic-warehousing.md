@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d607037d76f0778aa0f1037ac9540cfd3d497dbd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c05456ca45b4508be0ba44acedf81997a92b56bb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786828"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918495"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Walkthrough: Picking and Shipping in Basic Warehouse Configurations
 
@@ -61,14 +61,14 @@ To complete this walkthrough, you will need:
 - For [!INCLUDE[prodshort](includes/prodshort.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, CRONUS International Ltd. installed.  
 - To make yourself a warehouse employee at the location SILVER by following these steps:  
 
-  1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+  1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees** , and then choose the related link.  
   2. Choose the **User ID** field, and select your own user account on the **Users** page.  
   3. In the **Location Code** field, enter SILVER.  
   4. Select the **Default** field.  
 
 - Make item LS-81 available at SILVER location by following these steps:  
 
-  1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.  
+  1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals** , and then choose the related link.  
   2. Open the default journal, and then create two item journal lines with the following information about the work date (January 23).  
 
         |Entry Type|Item Number|Location Code|Bin Code|Quantity|  
@@ -88,7 +88,7 @@ The setup of the **Location Card** page defines the company’s warehouse flows.
 
 ### <a name="to-set-up-the-location"></a>To set up the location
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations** , and then choose the related link.  
 2. Open the SILVER location card.  
 3. On the **Warehouse** FastTab, choose the **Require Pick** check box.  
 
@@ -98,7 +98,7 @@ Sales orders are the most common type of outbound source document.
 
 ### <a name="to-create-the-sales-order"></a>To create the sales order
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
 2. Choose the **New** action.  
 3. Create a sales order for customer 10000 on the work date (January 23) with the following sales order line.  
 
@@ -118,18 +118,18 @@ On the **Inventory Pick** page, you can manage all outbound warehouse activities
 
 ### <a name="to-pick-and-ship-items"></a>To pick and ship items
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks** , and then choose the related link.  
 2. Choose the **New** action.  
 
     Make sure that the **No.** field on the **General** FastTab is filled in.
-3. Select the **Source Document** field, and then select **Sales Order**.  
+3. Select the **Source Document** field, and then select **Sales Order** .  
 4. Select the **Source No.** field, select the line for the sale to customer 10000, and then choose the **OK** button.  
 
     Alternatively, choose the **Get Source Document** action, and then select the sales order.  
 5. Choose the **Autofill Qty. to Handle** action.  
 
     Alternatively, in the **Qty. to Handle** field, enter 10 and 20 respectively on the two inventory pick lines.  
-6. Choose the **Post** action, select **Ship**, and then choose the **OK** button.  
+6. Choose the **Post** action, select **Ship** , and then choose the **OK** button.  
 
     The 30 loudspeakers are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
 

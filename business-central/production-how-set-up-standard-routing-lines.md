@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/08/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 498b3410ee635a4e31b9bd20e509950541371c43
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a434de3479f4b100317230b93b06b922fa04692b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779967"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916608"
 ---
 # <a name="set-up-standard-routing-lines"></a>Set Up Standard Routing Lines
 
@@ -23,16 +23,16 @@ The use of standard tasks simplifies the creation and maintenance of routings. T
 
 ## <a name="to-set-up-a-standard-task"></a>To set up a standard task
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Tasks**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Tasks** , and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Choose the **Tools**, **Personnel**, **Description**, or **Tools** action, and then, on the page that opens, add the relevant entry.
+4. Choose the **Tools** , **Personnel** , **Description** , or **Tools** action, and then, on the page that opens, add the relevant entry.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>To add a standard task to an operation
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings** , and then choose the related link.
 2. Open the relevant routing.
-3. Select a relevant routing line, choose the **Operations** action, and then choose the **Tools**, **Personnel**, **Description**, or **Tools** action.
+3. Select a relevant routing line, choose the **Operations** action, and then choose the **Tools** , **Personnel** , **Description** , or **Tools** action.
 
 When you print the routing sheeting, you can choose to include the elements from the standard task that you added to the routing lines.
 

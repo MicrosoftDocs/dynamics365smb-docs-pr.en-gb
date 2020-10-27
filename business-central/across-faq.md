@@ -4,15 +4,15 @@ description: Answers common questions about how to sign up for or buy Business C
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 07/21/2020
+ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 57e16c820da7879d92223050979b6f9c6a770644
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611591"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918108"
 ---
 # <a name="frequently-asked-questions"></a>Frequently Asked Questions
 
@@ -59,11 +59,11 @@ Additional content is provided by the [!INCLUDE[prodshort](includes/prodshort.md
 For more information, see [Help and Support](product-help-and-support.md) and the [How do I find a reselling partner?](#findpartner) section.  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Why does Help describe functionality that I cannot access?
-If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Change Which Features are Displayed](ui-experiences.md).
+If your Experience setting on the **Company Information** page is set to **Essential** , then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
 ## <a name="where-is-the-save-button"></a>Where is the save button?
 
-There is no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[d365fin](includes/d365fin_md.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you will see the text **Saving** in the top-right corner of the page, which will quickly change to **Saved** if no errors occur. If an error occurs, the text will change to **Not Saved**.
+There is no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[d365fin](includes/d365fin_md.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you will see the text **Saving** in the top-right corner of the page, which will quickly change to **Saved** if no errors occur. If an error occurs, the text will change to **Not Saved** .
 
 ## <a name="what-email-address-can-i-use-with-d365fin"></a><a name="email"></a>What email address can I use with [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] requires that you use a work, or school, email address to sign up. [!INCLUDE[d365fin](includes/d365fin_md.md)] does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
@@ -72,15 +72,15 @@ If you try to sign up with a personal email address, you will get a message indi
 
 If you want to deploy [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, then you can use other authentication methods. For more information, see [Deployment of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## <a name="do-i-have-to-buy-office-365"></a>Do I have to buy Office 365?
-No. But if you want to experience [!INCLUDE[d365fin](includes/d365fin_md.md)] as fully integrated with Office 365, you can sign up for a 1-month free trial of Office 365 [here](https://products.office.com/try).  
+## <a name="do-i-have-to-buy-microsoft-365"></a>Do I have to buy Microsoft 365?
+No. But if you want to experience [!INCLUDE[d365fin](includes/d365fin_md.md)] as fully integrated with Microsoft 365, you can sign up for a 1-month free trial of Microsoft 365 [here](https://products.office.com/try).  
 
-If the account you sign up with is a non-Office 365 work account (such as joe@mysolution.com), and you have an Office 365 subscription, then you can associate your domain (*mysolution.com*) with the Office 365 subscription. For more information, see [Get help with Office 365 domains](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+If the account you sign up with is a non-Microsoft 365 work account (such as joe@mysolution.com), and you have an Microsoft 365 subscription, then you can associate your domain ( *mysolution.com* ) with the Microsoft 365 subscription. For more information, see [Get help with Microsoft 365 domains](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
-If you do not have an Office 365 subscription, and you do not want to buy one, then, when you sign up, we provision a new Azure Active Directory tenant for you so that you have access to the Azure portal where you have access to advanced administration tools.  
+If you do not have an Microsoft 365 subscription, and you do not want to buy one, then, when you sign up, we provision a new Azure Active Directory tenant for you so that you have access to the Azure portal where you have access to advanced administration tools.  
 
-## <a name="what-is-the-integration-with-office-365-about"></a>What is the integration with Office 365 about?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] online is fully integrated with Office 365 so that you can navigate freely between Office 365 apps and [!INCLUDE[d365fin](includes/d365fin_md.md)] using the app launcher. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can open data in Excel, print reports using Word, and you can work with your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Outlook, for example. For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](admin-outlook.md).  
+## <a name="what-is-the-integration-with-microsoft-365-about"></a>What is the integration with Microsoft 365 about?
+[!INCLUDE[d365fin](includes/d365fin_md.md)] online is fully integrated with Microsoft 365 so that you can navigate freely between Microsoft 365 apps and [!INCLUDE[d365fin](includes/d365fin_md.md)] using the app launcher. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can open data in Excel, print reports using Word, and you can work with your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Outlook, for example. For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Can I extend my 30-day "New Company" trial period?
 Yes. When the expiration date for your trial period is approaching we will display a notification to alert you when you sign in. The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period. The extra 30 days start the moment you choose **Extend Trial** in the guide. You can extend the trial period one time yourself. After that, a Microsoft partner can extend it for another 30 days. For more information, see [Extend Your Trial Version](admin-extend-trial.md).
@@ -97,7 +97,7 @@ This is a bit complicated, but it looks like your administrator didn't change yo
 Yes, but depending on how you signed up to [!INCLUDE[d365fin](includes/d365fin_md.md)], your data can be deleted or preserved. For more information, see [Cancelling [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Can I use multi-factor authentication?
-Sure. If you do, you might need an app password in order to send email messages. App passwords give an app or a device access to your email account. The steps for getting an app password vary, depending on your email provider. For more information, see the help from your provider. For example, if you're using Outlook, see [Create an app password for Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Sure. If you do, you might need an app password in order to send email messages. App passwords give an app or a device access to your email account. The steps for getting an app password vary, depending on your email provider. For more information, see the help from your provider. For example, if you're using Outlook, see [Create an app password for Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>How do I find a reselling partner?
 

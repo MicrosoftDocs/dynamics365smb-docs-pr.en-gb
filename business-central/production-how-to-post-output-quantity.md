@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb0f01c84cb82765c346e45273bff82fbd1a53af
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: db613df030a739ac8899b3cea19e89f17dcfe53e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778491"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916582"
 ---
 # <a name="batch-post-output-and-run-times"></a>Batch Post Output and Run Times
 The output quantity represents the work progress in the form of the finished quantity.  
@@ -24,7 +24,7 @@ The output quantity represents the work progress in the form of the finished qua
 > Only when you post output quantity on the last operation, the inventory is updated automatically.  
 
 ## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>To post output quantities for one or more production order lines
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal** , and then choose the related link.  
 2. Fill in the fields with the production order data and the output data. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. If the operation has been completed, select the **Finished** field.  
 
@@ -35,7 +35,7 @@ The output quantity represents the work progress in the form of the finished qua
 ## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>To post run times for one or more production order lines
 The run time represents work progress in the form of the necessary working time.    
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal** , and then choose the related link.  
 2. Fill in the fields with the production order data and the output data.  
 3.  If the operation is completed, select the **Finished** field.  
 4. Choose the **Post** action to post the time spent per operation. Capacity ledger entries are updated for the used work or machine centres.

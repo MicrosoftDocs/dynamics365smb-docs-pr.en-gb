@@ -8,26 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 99f60e9811827869dda6f6b79440a36d680fde60
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 09fea87bb1d8606390fe8c0ed5b2e3780dbc4978
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785978"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919195"
 ---
 # <a name="plan-project-orders"></a>Plan Project Orders
 This planning task starts from a sales order and uses the **Sales Order Planning** page. Once you have created a project production order, you can plan it further by using the **Order Planning** page.  
 
 ## <a name="to-create-a-project-production-order"></a>To create a project production order  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
 2.  Select the sales order that represents the production project, and then choose the **Planning** action.  
 4.  On the **Sales Order Planning** page, choose  the **Create Prod. Order** action.  
-5.  On the **Create Order from Sales** page, in the **Order Type** field, select **Project Order**.  
+5.  On the **Create Order from Sales** page, in the **Order Type** field, select **Project Order** .  
 6.  Choose the **Yes** button.  
-7.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production Orders**, and then choose the related link.
+7.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production Orders** , and then choose the related link.
 8. Open the production order just created.  
 
     Notice that the **Source Type** field of the production order contains **Sales Header** and the order has multiple lines, one for each sales line item that must be produced.  

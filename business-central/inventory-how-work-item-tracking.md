@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d02b8f9e813690c24b8d4864dbb240a434849e95
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 510958f185f748f1c8d122d2f199e164b7e45fba
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783397"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921874"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Work with Serial and Lot Numbers
 You can assign serial numbers and lot numbers to any outbound or inbound document, and its posted item tracking entries are displayed in the related item ledger entries. You perform the work on the **Item Tracking Lines** page, which you can open from an inbound or outbound document.
@@ -55,7 +55,7 @@ If you work on the **Item Tracking Lines** page for a long period of time or if 
 ## <a name="to-set-up-item-tracking-codes"></a>To set up item tracking codes
 An item tracking code reflects the different considerations a company has regarding the use of serial and lot numbers for items moving through the inventory.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracking Codes**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracking Codes** , and then choose the related link.  
 2. Choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. On the **Serial No.** and the **Lot No.** FastTabs, define policies of item tracking by serial and lot numbers respectively.  
@@ -79,7 +79,7 @@ For some items you might want to set up specific expiration dates and rules in t
 
 ### <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>To set up warranties for serial or lot numbers  
 For some items, you might want to set up specific warranties in the item tracking code. This functionality allows you to keep track of when the warranties on specific serial or lot numbers in your inventory will run out.        
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracking Codes**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracking Codes** , and then choose the related link.  
 
 1. Select an existing item tracking code, and then choose the **Edit** action.  
 2.  On the **Misc.** FastTab, fill in the **Warranty Date Formula** field, and then select the check box as follows.  
@@ -102,9 +102,9 @@ If you need to link special information to a specific item tracking number, for 
 6. Select the **Blocked** check box to exclude the serial or lot number from any transactions.  
 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>To modify existing serial or lot number information  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.  
 2. Select an item that has an item tracking code and has serial or lot number information.
-3. From the **Item Card** page, choose the **Entries** action, and then choose **Ledger Entries**.
+3. From the **Item Card** page, choose the **Entries** action, and then choose **Ledger Entries** .
 4. Choose the **Lot No.** or **Serial No.** field. If information exists for the item tracking number, then the **Lot No. Information List** or **Serial No. Information List** page opens.  
 5. Select a card, and then choose the **Lot No./Serial No. Information Card** action.  
 6. Modify the short description text, the comment record, or the **Blocked** field.  
@@ -119,7 +119,7 @@ The exact rules for handling item tracking numbers across your company are gover
 > [!NOTE]  
 >  To use item tracking numbers in warehouse activities, the **Lot Warehouse Tracking** and **SN Warehouse Tracking** setup fields must be selected, as they define the special principles in handling serial and lot numbers in warehouse activities.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** , and then choose the related link.  
 2.  Select the relevant document line and on the **Lines** FastTab, choose the **Line** action, and then choose the **Item Tracking Lines** action.  
 
     You can assign serial or lot numbers in the following ways:  
@@ -130,7 +130,7 @@ The exact rules for handling item tracking numbers across your company are gover
     -   Manually, by assigning a specific number to each item unit.  
 
 3. To assign automatically, choose the **Create Customised SN** action.  
-4. In the **Customised SN** field, enter the starting number of a descriptive serial number series, for example **S/N-Vend0001**.  
+4. In the **Customised SN** field, enter the starting number of a descriptive serial number series, for example **S/N-Vend0001** .  
 5. In the **Increment** field, enter 1 to define that each sequential number increases by one.  
 
     The **Quantity to Create** field contains the line quantity by default, but you can modify it.  
@@ -138,7 +138,7 @@ The exact rules for handling item tracking numbers across your company are gover
 6. Select the **Create New Lot No.** check box to organise the new serial numbers in a distinct lot.  
 7. Choose the **OK** button.  
 
-A lot number with individual serial numbers is created according to the item quantity of the document line, starting from **S/N-Vend0001**.  
+A lot number with individual serial numbers is created according to the item quantity of the document line, starting from **S/N-Vend0001** .  
 
 The matrix of quantity fields in the header displays dynamically the quantities and sums of the item tracking numbers you define on the page. The quantities must correspond to those of the document line, which is signified by 0 in the **Undefined** fields.  
 
@@ -201,7 +201,7 @@ Procedures for handling serial and lot numbers that are being transferred betwee
 However, the transfer order is unique in that shipment and receipt are both done from the same transfer line and, therefore, use the same instance of the **Item Tracking Lines** page. This means that item tracking numbers shipped from one location must be received unchanged at the other location.  
 
  The exact rules for handling item tracking numbers across your company are governed by the setup of the  **Item Tracking Code** table.    
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Orders** , and then choose the related link.  
 2.  Open the transfer order you want to process. On the **Lines** FastTab, choose choose the **Line** action, choose the **Item Tracking Lines** action, and then choose the **Shipment** action.  
 3.  On the **Item Tracking Lines** page, assign or select serial or lot numbers as for any other outbound item transaction.  
 
@@ -224,7 +224,7 @@ The functionality supports the following outbound processes:
 
 In these situations, the existing item tracking lines are copied automatically to the invoice or credit memo, but the **Item Tracking Lines** page does not permit changes to the serial or lot numbers. Only the quantities can be changed.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then select the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices** , and then select the related link.  
 2.  Open a purchase invoice for items that are purchase with serial or lot numbers.  
 3.  From a purchase invoice line, on the **Lines** FastTab, choose the **Get Receipt Lines** action.  
 4.  On the **Get Receipt Lines** page, select a receipt lines that has item tracking lines, and then choose the **OK** button.  
@@ -239,7 +239,7 @@ The contents of the **Serial No.** and **Lot No.** fields are not editable. Howe
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>To reclassify serial or lot numbers  
 Reclassifying item tracking for an item means changing a lot or serial number to a new lot or serial number or changing the expiration date to a new expiration date. If you are working with lots, you can also merge multiple lots into one. You perform these tasks using the item reclassification journal.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journal** , and then choose the related link.  
 2.  Fill in the line with the relevant information. For more information, see [Count Inventory Using Documents](inventory-how-count-inventory-with-documents.md) or [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).
 3.  Choose the **Item Tracking Lines** action.  
 4.  In the **Serial No.** or **Lot No.** field, select the current serial or lot number.  

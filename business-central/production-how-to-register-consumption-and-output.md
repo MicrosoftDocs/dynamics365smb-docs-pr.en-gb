@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 66854e91b271aec1ef567a0db9abd5fc9b4b8e71
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 504cc43ee29afd55deb5f51ca85d93eb7908d7d7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780367"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919095"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Register Consumption and Output for One Released Production order line
 This execution task is performed on the **Production Journal** page. The journal combines the functions of the separate consumption journal and output journals into one journal. The combined journal is accessed directly from a released production order. Its main purpose is to manually post the consumption of components, the quantity of end items produced, and the time spent in operations. The values are posted to ledger entries under the released production order. Consumption quantities are posted as negative item ledger entries, output quantities are posted as positive ledger entries, and times spent are posted as capacity ledger entries. Such posted values can also be viewed at the bottom of the journal as actual quantities.  
@@ -27,7 +27,7 @@ This execution task is performed on the **Production Journal** page. The journal
 >  Components without routing link codes are listed first in the journal.  
 
 ## <a name="to-register-consumption-and-output"></a>To register consumption and output  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon enter **Released Prod. Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon enter **Released Prod. Orders** , and then choose the related link.  
 2.  Open a released production order line that is ready for registration, and then on the **Lines** FastTab, choose the **Line** action, and then choose the **Production Journal** action.  
 
     The **Production Journal** page opens showing journal lines for the production order line according to the **Prod. Order Component** and **Prod. Order Routing** pages. These lines originate from the production BOM and routing assigned to the item that is being produced. For more information, see [Create Production BOMs](production-how-to-create-routings.md).  

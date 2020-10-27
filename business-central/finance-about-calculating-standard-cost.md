@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 10a510f48dbe84da175a5b95248f02fa822e659f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 167f99d7a7a0df7727e8c50df376b847e5dfefcb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788528"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917215"
 ---
 # <a name="about-calculating-standard-cost"></a>About Calculating Standard Cost
-Many manufacturing companies select a valuation base of standard cost. This also applies to companies that perform light manufacturing, such as assembly and kitting. A standard cost system determines inventory unit cost based on some reasonable historical or expected cost. Studies of past and estimated future cost data can then provide the basis for standard costs. These costs are frozen until a decision is made to change them. The actual cost to produce a product may differ from the estimated standard costs. For management control, the actual cost is compared to the standard cost for a specific item and differences, or *variances*, are identified and analysed.  
+Many manufacturing companies select a valuation base of standard cost. This also applies to companies that perform light manufacturing, such as assembly and kitting. A standard cost system determines inventory unit cost based on some reasonable historical or expected cost. Studies of past and estimated future cost data can then provide the basis for standard costs. These costs are frozen until a decision is made to change them. The actual cost to produce a product may differ from the estimated standard costs. For management control, the actual cost is compared to the standard cost for a specific item and differences, or *variances* , are identified and analysed.  
 
 Standard costs can be maintained for items that are replenished through purchase, assembly, and production. For each replenishment method, standard costs can consist of the following elements.  
 
@@ -48,7 +48,7 @@ The following key cost elements make up the total direct cost of a finished proc
  Material costs are costs that are associated with subassemblies and purchased raw material. Material unit cost can consist of direct and indirect cost elements.  
 
 -   Direct material cost represents an invoiced amount for purchased raw materials or the processing cost of a subassembly.  
--   Indirect material cost, or *overhead*, can represent elements such as inventory carrying costs for the finished item after it is produced.  
+-   Indirect material cost, or *overhead* , can represent elements such as inventory carrying costs for the finished item after it is produced.  
 
 The setup of the material cost for purchased items that affect direct and indirect cost depends on the costing method that you have selected for the specified item. You set up cost information for either costing method on the item card. For more information, see [Register New Items](inventory-how-register-new-items.md).
 

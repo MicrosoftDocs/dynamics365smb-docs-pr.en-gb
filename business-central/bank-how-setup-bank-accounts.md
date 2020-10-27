@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/16/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a8c055dcca0c529ff62e32efa00bff359466aaba
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bf310ff190682b22ffe81d0ad3072b3bdc8803b7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779818"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921079"
 ---
 # <a name="set-up-bank-accounts"></a>Set Up Bank Accounts
 You use bank accounts in the [!INCLUDE[d365fin](includes/d365fin_md.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the cheque printing option.<br><br>  
@@ -23,7 +23,7 @@ You use bank accounts in the [!INCLUDE[d365fin](includes/d365fin_md.md)] to keep
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl?rel=0]
 
 ## <a name="to-set-up-bank-accounts"></a>To set up bank accounts
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts** , and then choose the related link.
 2. On the **Bank Accounts** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -33,7 +33,7 @@ You use bank accounts in the [!INCLUDE[d365fin](includes/d365fin_md.md)] to keep
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>To set up your bank account for import or export of bank files
 Fields on the **Transfer** FastTab on the **Bank Account Card** page are related to import and export of bank feeds and files. For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts** , and then choose the related link.
 2. Open the card for a bank account that you will export or import bank files for.
 3. On the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -44,10 +44,10 @@ Fields on the **Transfer** FastTab on the **Bank Account Card** page are related
 
 Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are related to export of bank feeds and files. For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors** , and then choose the related link.
 2. Open the card for a vendor whose bank account you will export payment bank files to.
-3. Choose **Navigate**, and then choose the **Bank Accounts** action.
-4. From the **Vendor Bank Accounts List**, choose the relevant bank account, or add a new bank account.  
+3. Choose the **Bank Accounts** action.
+4. From the **Vendor Bank Accounts List** , choose the relevant bank account, or add a new bank account.  
 5. On the **Vendor Bank Account Card** page, on the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>See Also

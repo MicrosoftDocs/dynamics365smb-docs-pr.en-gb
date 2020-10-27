@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/02/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70433ce496c79edcd053ae345b3b0559cf60b744
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: df36e96ce30193344d8c8d92679c16ee9255e658
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782906"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918845"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Combine Receipts on a Single Invoice
 
@@ -30,7 +30,7 @@ When purchase receipts are combined on an invoice and posted, then a posted purc
 
 ## <a name="to-combine-receipts"></a>To combine receipts
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices** , and then choose the related link.  
 2. Choose the **New** action. For more information, see [Record Purchases](purchasing-how-record-purchases.md).  
 3. On the **Lines** FastTab, choose the **Get Receipt Lines** action.  
 4. Select multiple receipt lines that you want to include in the invoice.  
@@ -40,7 +40,7 @@ When purchase receipts are combined on an invoice and posted, then a posted purc
 
 ## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>To remove open purchase orders after combined receipt posting
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Purchase Orders**, and select the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Purchase Orders** , and select the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Choose the **OK** button.  
 

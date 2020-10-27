@@ -4,22 +4,22 @@ description: Learn how you can troubleshoot and find solutions to error messages
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62a60610b565cc37c812023dd2bea08c3f5c8834
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 6e261b1ec22f24638b29ec28531008362475a484
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611728"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916633"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Warnings and Error Messages in Dynamics 365 Business Central
 
-During your work day, you might see notifications in [!INCLUDE [prodshort](includes/prodshort.md)] that something went wrong, or that it was not possible to post something, for example. In many cases, the notification makes it easy to resolve the matter, or to roll back any changes that you made. In other cases, you might not have have the information that you need to get unblocked. This article provides tips to how to make progress.  
+During your work day, you might see notifications in [!INCLUDE [prodshort](includes/prodshort.md)] that something went wrong, or that it was not possible to post something, for example. In many cases, the notification makes it easy to resolve the matter, or to roll back any changes that you made. In other cases, you might not have have the information that you need to get unblocked. This article provides tips on how to make progress.  
 
 ## <a name="in-product-user-assistance"></a>In-product user assistance
 
-The default version of [!INCLUDE [prodshort](includes/prodshort.md)] includes descriptions for most fields, columns, and actions that can be accessed when you choose the name. In combination with descriptive captions and instructional text, these tooltips, or callouts, are our current implementation of *embedded user assistance*, which is an important principle in today's world of software design.  
+The default version of [!INCLUDE [prodshort](includes/prodshort.md)] includes descriptions for most fields, columns, and actions that can be accessed when you choose the name. In combination with descriptive captions and instructional text, these tooltips, or callouts, are our current implementation of *embedded user assistance* , which is an important principle in today's world of software design.  
 
 If you have a question about a field or another element of the user interface, choose the name, and a short description will appear. Choose the *Learn more* link if that is not enough.  
 

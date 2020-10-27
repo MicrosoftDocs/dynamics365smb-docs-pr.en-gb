@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/06/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ed2d7c8dd8a8a2fe4744c670197a3ac0a7ec38fa
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8f4bd2978652366ecd18109377f4ebeeebfbb4a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782300"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922349"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Prepare to Migrate Customer Data with Templates
 
@@ -35,7 +35,7 @@ However, you can create a template structure for and apply it to any table in [!
 
 When you import customer data, such as for items, from a file, the mandatory field data that you have specified is taken from the linked data template. When you create a new item, you only enter general information such as item name, description, and price and then collect the rest of the mandatory field data from a selected data template.
 
-When you create a new master data record, such as a customer card, some fields are mandatory and must be filled in. You can group most mandatory fields, such as posting groups and payment terms, to make creating master data records easier and more stable. For example, you can group mandatory fields for table 18, **Customer**, as **Domestic**, **Foreign**, or **Export** types.
+When you create a new master data record, such as a customer card, some fields are mandatory and must be filled in. You can group most mandatory fields, such as posting groups and payment terms, to make creating master data records easier and more stable. For example, you can group mandatory fields for table 18, **Customer** , as **Domestic** , **Foreign** , or **Export** types.
 
 > [!NOTE]
 > Fields of type Blob cannot be exported/imported using Excel.
@@ -47,7 +47,7 @@ When you select an existing data template, you must evaluate if the templates th
 > [!TIP]  
 > You can also use data templates to create new records quickly. Use them for faster and more accurate data creation. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates** , and then choose the related link.  
 2. On the **Configuration Templates** page, select a data template from the list, and then choose the **Edit** action.  
 
 If the default templates do not meet your needs, you can create new templates or add fields to an existing template. If the default templates are sufficient, you can use them to create records based on master data templates.
@@ -100,7 +100,7 @@ The table ID, table name, and lines of the existing data template are inserted i
 
 You can create an Excel workbook to serve as a template that is based on the structure of an existing database table quickly. You can then use the template to gather together customer data in a consistent format for later import into [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet** , and then choose the related link.
 2. Add a table to the list, or select an existing table. For more information, see [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Choose the **Shows Fields** action to define the fields from the table that you want to include in the template.
 4. Choose the **Export to Template** action.
@@ -130,11 +130,11 @@ You can use the structure of data that is contained in the data templates to con
 
 The following steps illustrate how to create an item card from an item data template. You can create a record from any data template using the same procedure.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates** , and then choose the related link.  
 2. Select the **Item** template, and then choose the **Edit** action. For more information, see [To create a data template](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Choose the **Create Instance** action. An item card is created.  
 4. Choose the **OK** button.  
-5. To review the new item card, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+5. To review the new item card, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.  
 6. Open the new item card.  
 7. Expand various FastTabs, and verify that the information was created correctly on them.  
 

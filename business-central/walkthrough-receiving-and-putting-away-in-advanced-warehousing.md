@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9a54bcb1131e2b5df0fd98ece66701c9f601ce41
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c200d178a00716de99bd88475346ff4396c9bebf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786753"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918395"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations
 
@@ -58,7 +58,7 @@ To complete this walkthrough, you will need:
 -   CRONUS International Ltd. installed.  
 -   To make yourself a warehouse employee at WHITE location by following these steps:  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees** , and then choose the related link.  
 2.  Choose the **User ID** field, and select your own user account on the **Users** page.  
 3.  In the **Location Code** field, enter WHITE.  
 4.  Select the **Default** field.  
@@ -71,7 +71,7 @@ The setup of the **Location Card** page defines the company’s warehouse flows.
 
 ### <a name="to-review-the-location-setup"></a>To review the location setup  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations** , and then choose the related link.  
 2.  Open the WHITE location card.  
 3.  Note on the **Warehouse** FastTab that the **Directed Put-away and Pick** check box is selected.  
 
@@ -86,7 +86,7 @@ Purchase orders are the most common type of inbound source document.
 
 ### <a name="to-create-the-purchase-orders"></a>To create the purchase orders  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** , and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Create a purchase order for vendor 10000 on the work date (January 23) with the following purchase order lines.  
 
@@ -117,14 +117,14 @@ Purchase orders are the most common type of inbound source document.
 On the **Warehouse Receipt** page, you can manage multiple inbound orders for source documents, such as a purchase order.  
 
 ### <a name="to-receive-the-items"></a>To receive the items  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts** , and then choose the related link.  
 2.  Choose the **New** action.  
 3.  In the **Location Code** field, enter WHITE.  
 4.  Choose the **Use Filters to Get Src. Docs.** action.  
-5.  In the **Code** field, enter **ACCESSORY**.  
-6.  In the **Description** field, enter **Vendors 10000 and 20000**.  
+5.  In the **Code** field, enter **ACCESSORY** .  
+6.  In the **Description** field, enter **Vendors 10000 and 20000** .  
 7.  Choose the **Modify** action.  
-8.  On the **Purchase** FastTab, in the **Buy-from Vendor No. Filter** field, enter **10000&#124;20000**.  
+8.  On the **Purchase** FastTab, in the **Buy-from Vendor No. Filter** field, enter **10000&#124;20000** .  
 9. Choose the **Run** action. The warehouse receipt is filled with four lines representing purchase order lines for the specified vendors. The **Qty. to Receive** field is filled because you did not select the **Do not Fill Qty. to Handle** check box on the **Filters to Get Source Docs.** page.  
 10. Optionally, if you want to use a filter as described earlier in this section, choose the **Get Source Document** action, and then select purchase orders from the vendors in question.  
 11. Choose the **Post Receipt** action, and then choose the **Yes** button.  
@@ -135,7 +135,7 @@ On the **Warehouse Receipt** page, you can manage multiple inbound orders for so
 On the **Warehouse Put-away** page, you can manage put-aways for a specific warehouse receipt document covering multiple source documents. Like all warehouse activity documents, each item on the warehouse put-away is represented by a Take line and a Place line. In the following procedure, the bin code on the Take lines is the default receiving bin at WHITE location, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>To put the items away  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-Aways**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-Aways** , and then choose the related link.  
 2.  Select the only warehouse put-away document in the list, and then choose the **Edit** action.  
 
     The warehouse put-away document opens with a total of eight Take or Place lines for the four purchase order lines.
@@ -144,7 +144,7 @@ On the **Warehouse Put-away** page, you can manage put-aways for a specific ware
 
 3.  Select the second line on the **Warehouse Put-away** page, the Place line for item 70200.  
 4.  In the **Qty. to Handle** field, change the value from 100 to 60.  
-5.  On the **Lines** FastTab, choose **Functions**, and then choose **Split Line**. A new line is inserted for item 70200 with 40 in **Qty. to Handle** field.  
+5.  On the **Lines** FastTab, choose **Functions** , and then choose **Split Line** . A new line is inserted for item 70200 with 40 in **Qty. to Handle** field.  
 6.  In the **Bin Code** field, enter W-02-0001. The **Zone Code** field is automatically filled.  
 
     Proceed to register the put-away.  

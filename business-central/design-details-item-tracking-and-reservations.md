@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0f671fc4c3a8b08d1bf9b21cef79ae35defb636
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787628"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922099"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Design Details: Item Tracking and Reservations
 
@@ -36,15 +36,16 @@ Reservation of item tracking numbers falls into two categories, as shown in the 
 |Nonspecific|You do not select a specific serial or lot number when you reserve the inventory item from a demand, such as a sales order.<br /><br /> This is a state that is imposed on a reservation entry for serial or lot numbers that are not selected specifically. **Note:**  The demand does not carry serial or lot numbers. <br /><br /> For example, you want to reserve a can of blue paint from any lot for your sales order. A can of blue paint from a random serial or lot number is shipped to the customer.|  
   
 The main difference between specific and nonspecific reservation is defined by the existence of serial or lot numbers on the demand side, as shown in the following table.  
-  
-|<!--blank -->|**Supply**|**Demand**|  
-|**Specific**|Serial or lot number.|Serial or lot number.|  
-|**Nonspecific**|Serial or lot number.|No serial or lot number.|  
+
+| Type            | Supply                | Demand                   |
+|-----------------|-----------------------|--------------------------|
+| **Specific**    | Serial or lot number. | Serial or lot number.    |
+| **Nonspecific** | Serial or lot number. | No serial or lot number. |
   
 When you reserve inventory quantities from an outbound document line for an item that has item tracking numbers assigned and is set up for specific item tracking, the **Reservation** page leads you through different workflows depending on your need for the serial or lot numbers.  
   
 ## <a name="specific-reservation"></a>Specific Reservation  
-When you choose **Reserve** from the outbound document line, a dialogue box appears that asks you if you want to reserve specific serial or lot numbers. If you choose **Yes**, then a list is displayed with all the serial or lot numbers that are assigned to the document line. The **Reservation** page opens after you select one of the serial or lot numbers, and you can then reserve among the selected serial or lot numbers in a typical fashion.  
+When you choose **Reserve** from the outbound document line, a dialogue box appears that asks you if you want to reserve specific serial or lot numbers. If you choose **Yes** , then a list is displayed with all the serial or lot numbers that are assigned to the document line. The **Reservation** page opens after you select one of the serial or lot numbers, and you can then reserve among the selected serial or lot numbers in a typical fashion.  
   
 If some of the specific item tracking numbers that you are trying to reserve are held in nonspecific reservations, then a message at the bottom of the **Reservation** page informs you how many of the total reserved quantity are held in nonspecific reservations and whether they are still available.  
   

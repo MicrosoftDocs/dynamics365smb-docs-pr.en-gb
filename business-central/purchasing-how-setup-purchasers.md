@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2ca7c9d062ec4f6e6f30111b06e1899921e6405
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: befc5fc1c79f3cd24f5f1af9437aebab01b62945
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782955"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918870"
 ---
 # <a name="set-up-purchasers"></a>Set Up Purchasers
 If several purchasers work at your company, you can set them up in a page and assign them each a code. You can then use the codes to prepare statistics and to filter information in printed reports.<br><br>  
@@ -25,12 +25,12 @@ If several purchasers work at your company, you can set them up in a page and as
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
 ## <a name="to-set-up-purchasers"></a>To set up purchasers
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople/Purchasers**, and then choose the related link.
-2. On the **Salespeople/Purchasers** page, choose **New**.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople/Purchasers** , and then choose the related link.
+2. On the **Salespeople/Purchasers** page, choose **New** .
 3. On the **Salesperson/Purchaser Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>To assign purchasers to vendors
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors** , and then choose the related link.
 2. Open the relevant vendor card for the vendor that will be assigned a purchaser.
 3. In the **Purchaser Code** field, select the applicable purchaser code and then close the page.
 

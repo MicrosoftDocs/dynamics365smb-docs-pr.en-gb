@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0adc08f7fa30f4ceb88531ea45948c6da36d3c72
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2cfc545e328da020ce8ecd4dc7a79e6303902636
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789332"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916559"
 ---
 # <a name="post-scrap-manually"></a>Post Scrap Manually
 If scrap is produced during processing, it can be entered in the output journal. 
@@ -24,7 +24,7 @@ If scrap is produced during processing, it can be entered in the output journal.
 > The scrap quantity does not increase the output quantity.  
 
 ## <a name="to-post-scrap-manually"></a>To post scrap manually  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal** , and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. In the **Scrapped Quantity** field, enter the scrap quantity.  
 4. In the **Scrap Code** field, enter the scrap code.  

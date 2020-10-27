@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6cfe028d21086269f1492aefde31fe6b659d06b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788128"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917508"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Design Details: Central Concepts of the Planning System
 The planning functions are contained in a batch job that first selects the relevant items and period to plan for. Then, according to each item’s low-level code (BOM position), the batch job calls a code unit, which calculates a supply plan by balancing supply-demand sets and suggesting possible actions for the user to take. The suggested actions appear as lines in the planning worksheet or the requisition worksheet.  
@@ -91,6 +91,14 @@ In a manufacturing environment, the demand for a finished, sellable item will re
 The figures illustrates in which sequence the system makes suggestions for supply orders at the top level and, assuming that the user will accept these suggestions, for any lower-level items as well.  
 
 For more information about manufacturing considerations, see [Loading the Inventory Profiles](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+
+#### <a name="optimizing-performance-for-low-level-calculations"></a>Optimising Performance for Low-Level Calculations
+Low-level code calculations can impact system performance. To mitigate the impact, you can disable **Dynamic low-level code calculation** on the **Manufacturing Setup** page. When you do, [!INCLUDE[d365fin](includes/d365fin_md.md)] will suggest that you create a recurrent job queue entry that will update low-level codes daily. You can ensure that the job will run outside working hours by specifying a start time the **Earliest Start Date/Time** field.
+
+You can also enable logic that speeds up low-level code calculations by selecting **Optimise low-level code calculation** on the **Manufacturing Setup** page. 
+
+> [!IMPORTANT]
+> If you choose to optimise performance, [!INCLUDE[d365fin](includes/d365fin_md.md)] will use new calculation methods to determine low-level codes. If you have an extension that relies on the events used by the old calculations, the extension may stop working.   
 
 ### <a name="locations--transfer-level-priority"></a>Locations / Transfer-Level Priority  
 Companies that operate at more than one location may need to plan for each location individually. For example, an item’s safety stock level and its reordering policy may differ from one location to another. In this case, the planning parameters must be specified per item and also per location.  

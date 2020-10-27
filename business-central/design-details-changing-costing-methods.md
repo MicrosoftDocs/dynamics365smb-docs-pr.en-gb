@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0560e2bf900af4b49d0ce299dfa751a5c41ea54e
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617738"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917533"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Design Details: Change the Costing Method for Items
 
@@ -82,10 +82,10 @@ To make the new items fully useful you must manually copy some master data from 
 |     |Item substitutions         |Check whether any item substitutions are defined for the original item. If there are, transfer that data to the new item. To view substitute items, use the **Substitutions** action on the **Item Card** page.         |
 |     |Analysis reports         |Review the Item Analysis, Sales Analysis, and Purchase Analysis reports. For those that reference the original items you can either create a new analysis report with a reference to the new item (keeping the original analysis report to use as history) or adjust the reports so that they reference the new item.         |
 |     |Standard journals         |Check whether standard journals reference the original item and transfer that data to the new item when necessary. This information is found on the standard journals, which are available on the item journal.          |
-|Sales     |Sales prepayment percentage         | Check whether any sales prepayment percentages are defined for the original item and transfer that data to the new item. To view prepayment percentages, on the **Item Card** page, choose **Sales**, and then **Prepayment Percentages**.        |
-|Purchase     |Purchase prepayment percentage         |Check whether any purchase prepayment percentages are defined for the original item and transfer that data to the new item. To view prepayment percentages, on the **Item Card** page, choose **Purchases**, and then **Prepayment Percentages**.                 |
+|Sales     |Sales prepayment percentage         | Check whether any sales prepayment percentages are defined for the original item and transfer that data to the new item. To view prepayment percentages, on the **Item Card** page, choose **Sales** , and then **Prepayment Percentages** .        |
+|Purchase     |Purchase prepayment percentage         |Check whether any purchase prepayment percentages are defined for the original item and transfer that data to the new item. To view prepayment percentages, on the **Item Card** page, choose **Purchases** , and then **Prepayment Percentages** .                 |
 |Warehouse     |Bin contents         |Review the bin content defined for the original item. If columns such as as Min. Qty., Max. Qty., Default, and Dedicated have been individually entered then you must manually create bin content for the new item. If they are not, no action is required. [!INCLUDE[d365fin](includes/d365fin_md.md)] will maintain the records when you register warehouse documents and journals.|
-|Job     |Job Prices         |Check whether job prices are defined for the original item and transfer that data to the new item. This information is available on the **Job Card** page in the **Job Details – No. of Prices** part on the **FactBox pane**.         |
+|Job     |Job Prices         |Check whether job prices are defined for the original item and transfer that data to the new item. This information is available on the **Job Card** page in the **Job Details – No. of Prices** part on the **FactBox pane** .         |
 |Service     |Service resource skill         |Check whether service resource skills are defined for the original item and transfer that data to the new item. To view resource skills, use the **Resource Skills** action on the **Item Card** page.          |
 |     |Service item components         |Check whether components are defined for the original service item and transfer that data to the new item. To view service item components, on the **Item Card** page use the **Service Item** action to open the list of related service items, and then choose the **Components** action.          |
 |Production     |Production BOMs         |Check whether any production BOMs contain the original item and replace it with the new item. To replace the original item, on the **Production BOMs** page, choose the **Exchange Production BOM Item** action.         |

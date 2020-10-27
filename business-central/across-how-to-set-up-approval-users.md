@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 55224611d35a53459c4e63a684db7c60dbff5a25
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a2016d071eb3350c7e7744b691653279d8f8e5eb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785074"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918008"
 ---
 # <a name="set-up-approval-users"></a>Set Up Approval Users
 Before you can create workflows that involve approval steps, you must set up the workflow users who are involved in approval processes. On the **Approval User Setup** page, you also set amount limits for specific types of requests and define substitute approvers to whom approval requests are delegated when the original approver is absent.  
@@ -26,12 +26,12 @@ Before you can create workflows that involve approval steps, you must set up the
  When you have set up approval users, you can use the setup to create workflow responses for approval workflows. For more information, see step 9 in [Create Workflows](across-how-to-create-workflows.md).  
 
 > [!NOTE]  
->  To define that an approval request is not approved until multiple approvers in an approval chain have approved it, set up approvers in a hierarchy. For approver type **Approver**, set approvers up on the **Approval User Setup** page. For approver type, **Workflow User Group**, set approvers up on the **Workflow User Groups** page and define the hierarchy by assigning incremental numbers to each approver in the **Sequence No.** field. For more information, see this topic and [Set Up Workflow Users](across-how-to-set-up-workflow-users.md).  
+>  To define that an approval request is not approved until multiple approvers in an approval chain have approved it, set up approvers in a hierarchy. For approver type **Approver** , set approvers up on the **Approval User Setup** page. For approver type, **Workflow User Group** , set approvers up on the **Workflow User Groups** page and define the hierarchy by assigning incremental numbers to each approver in the **Sequence No.** field. For more information, see this topic and [Set Up Workflow Users](across-how-to-set-up-workflow-users.md).  
 >   
->  To define that an approval request is not approved until multiple equal approvers have approved it, regardless of a hirarchy, set up a flat workflow user group. For approver type, **Workflow User Group**, set up approvers on the **Workflow User Groups** page and assign the same number to each approver in the **Sequence No.** field. For more information, see [Set Up Workflow Users](across-how-to-set-up-workflow-users.md).  
+>  To define that an approval request is not approved until multiple equal approvers have approved it, regardless of a hirarchy, set up a flat workflow user group. For approver type, **Workflow User Group** , set up approvers on the **Workflow User Groups** page and assign the same number to each approver in the **Sequence No.** field. For more information, see [Set Up Workflow Users](across-how-to-set-up-workflow-users.md).  
 
 ## <a name="to-set-up-an-approval-user"></a>To set up an approval user  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup** , and then choose the related link.  
 2. Create a new line on the **Approval User Setup** page, and then fill the fields as described in the following table.  
 
     |Field|Description|  

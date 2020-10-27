@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 163b352e55ca85644bc833093f39ea8c422e5030
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5858ce15a9b8ff1c5042df21dd8572a2ddff3139
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780592"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919722"
 ---
 # <a name="create-incoming-document-records"></a>Create Incoming Document Records
 On the **Incoming Documents** page, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries.
@@ -29,7 +29,7 @@ Before you can use the Incoming Documents feature, you must perform the required
 ## <a name="to-approve-or-reject-an-incoming-document"></a>To approve or reject an incoming document
 If you do want to allow users to create invoices or general journal lines from incoming document records unless they are approved, you can set up approvers who must approve the records before they can be processed.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents** , and then choose the related link.
 2. Select the line with the document that you want to approve or reject, and then choose the **Approve** or **Reject** actions.
 
 If you approve the incoming document record, the **Released** check box on the incoming document line is selected. The user in charge of creating, for example, purchase invoices can proceed to process the record.
@@ -39,8 +39,8 @@ If you approve the incoming document record, the **Released** check box on the i
 >   The following procedure only applies to the [!INCLUDE[d365fin](includes/d365fin_md.md)] Tablet and Phone clients.
 
 1. On the app bar, choose the **Create Incoming Document from Camera** tile, and then go to step 4.
-2. Alternatively, on the app bar, choose the options button, choose **Incoming Documents**, and then choose **All**.
-3. On the **Incoming Documents** page, choose the ellipsis button, and then choose **Create from Camera**. The camera on the tablet or phone is activated.
+2. Alternatively, on the app bar, choose the options button, choose **Incoming Documents** , and then choose **All** .
+3. On the **Incoming Documents** page, choose the ellipsis button, and then choose **Create from Camera** . The camera on the tablet or phone is activated.
 4. Take a photo of a document, such as a purchase receipt, that you want to process as an incoming document, and then choose the **OK** button.
 
     A new incoming document record is created, with the image attached.
@@ -49,17 +49,17 @@ If you approve the incoming document record, the **Released** check box on the i
 > [!NOTE]  
 >   The following procedure only applies to the [!INCLUDE[d365fin](includes/d365fin_md.md)] Tablet and Phone clients.
 
-1. On the app bar, choose the options button, choose **Incoming Documents**, and then choose **All**.
+1. On the app bar, choose the options button, choose **Incoming Documents** , and then choose **All** .
 2. Open the card for an existing incoming document record.
-3. On the **Incoming Document** page, choose the ellipsis button, and then choose **Attach Image from Camera**. The camera on the tablet or phone is activated.
+3. On the **Incoming Document** page, choose the ellipsis button, and then choose **Attach Image from Camera** . The camera on the tablet or phone is activated.
 4. Take a photo of a document, such as a purchase receipt, that you want to process as an incoming document, and then choose the **OK** button.
 
     The image is attached to the incoming document record.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>To create an incoming document record manually
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents** , and then choose the related link.
 2. Choose the **Create from File** action.  
-3. On the **Insert File** page, select a file, and then choose **Open**. The file is automatically attached.
+3. On the **Insert File** page, select a file, and then choose **Open** . The file is automatically attached.
 4. Alternatively, choose the **New** action.
 5. To attach a file, choose the **Attach File** action.
 6. On the **Insert File** page, select the file that represents the incoming document in question, and then choose the **Open** button.

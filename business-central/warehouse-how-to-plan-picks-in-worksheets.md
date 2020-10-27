@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c78ca553c940fe59a33021e9804f4bc9eedec670
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8030a00dbf488f697a53af1697ed193de0febb9d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779443"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918295"
 ---
 # <a name="plan-picks-in-worksheets"></a>Plan Picks in Worksheets
 
@@ -39,11 +39,11 @@ If you sort by due date, you can choose to delete from the worksheet all lines e
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>To plan picks in the worksheet
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet** , and then choose the related link.  
 2. Choose the **Get Warehouse Documents** action.  
 3. Select the shipments for which you want to prepare a pick. You can now sort the lines to some degree, but the sorting you do here will not be carried through to the pick instruction. You can also delete some of the lines to make a more effective pick. For instance, if there are a number of lines with items in cross-dock bins, you might want to create a pick for all the lines associated with these lines. The cross-docked items will be shipped, along with the other items on the shipments, and the cross-dock bins will have space for more incoming items.  
 4. Choose the **Create Pick** action, and fill in the **Create Pick** request page. The sorting you request here will order the pick lines you create. For example, you can create one pick for each zone and sort the lines by bin ranking within each pick.  
-5. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Picks**, and then choose the related link. The **Warehouse Picks** page opens.  
+5. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Picks** , and then choose the related link. The **Warehouse Picks** page opens.  
 6. You can now find the pick assignment you just created by selecting the pick with the highest number.  
 7. In the pick, you can still alter, if necessary, the assigned user ID and the way the lines are sorted.  
 8. Choose the **Print** action to print the pick instructions.  

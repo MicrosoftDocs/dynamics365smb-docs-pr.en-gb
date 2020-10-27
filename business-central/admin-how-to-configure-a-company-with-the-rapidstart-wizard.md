@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03d2a79c3e40d67baea726fe13ca231624e5081e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a8631e9ff23ac9972da82fca8f45876f4467031b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783758"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917933"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configure a Company with the RapidStart Wizard
 You can quickly configure a new company that you have created by using the RapidStart Services configuration wizard.
@@ -24,7 +24,7 @@ In the following procedure, you have provided the customer with the configuratio
 
 ## <a name="to-configure-a-new-company"></a>To configure a new company  
 1. On the RapidStart Services Implementer Role Centre, choose the **RapidStart Wizard** action.  
-2. Expand the **Step 1** FastTab, which contains general information about the new company. Enter the appropriate information about the new company in the fields. There is one field that you are required to fill out, **Name**. The rest of the fields are optional.  
+2. Expand the **Step 1** FastTab, which contains general information about the new company. Enter the appropriate information about the new company in the fields. There is one field that you are required to fill out, **Name** . The rest of the fields are optional.  
 3. Expand the **Step 2** FastTab, which contains communication and contact information for the new company. Enter the appropriate information about the new company in the fields.
 4. Expand the **Step 3** FastTab, which contains bank account and payment information for the new company. Enter the appropriate information about the new company in the fields.  
 5. Expand the **Step 4** FastTab. Choose the **AssistEdit** button to select the configuration package you want to apply. The name of the configuration package is displayed. You can then perform the following actions, in the listed order:  
@@ -39,7 +39,7 @@ In the following procedure, you have provided the customer with the configuratio
     >  Only change your Role Centre after you have completed configuration of the company. If you have more setup details to consider and modify, first use the configuration worksheet to continue your work. Then, return to the wizard to update your Role Centre profile, or choose the **Complete Setup** action.
 
 7. Choose the **OK** button.  
-8. To verify that the configuration information has been applied to the new company, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+8. To verify that the configuration information has been applied to the new company, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** , and then choose the related link.
 
 The **Company Information** page contains information that you have specified.   
 

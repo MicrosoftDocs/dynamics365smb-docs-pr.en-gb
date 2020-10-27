@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8346e8a868f73d3de729a56e86530048c58229aa
-ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
+ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "3458936"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917083"
 ---
 # <a name="select-a-check-layout"></a>Select a Cheque Layout
 You can design your cheques to conform with the standards set by the local authorities. Cheque images can be printed in English, French, or Spanish.
@@ -23,8 +23,8 @@ You can design your cheques to conform with the standards set by the local autho
 Cheques are designed to print in both the United States and Canadian cheque image formats in either a cheque-stub-cheque format or a stub-stub-cheque format.
 
 ## <a name="to-select-a-check-layout"></a>To select a cheque layout
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Bank Account**, and then choose the related link.
-2. On the **Report Selection - Bank Acc.** page, in the **Usage** field, select **Cheque**.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Bank Account** , and then choose the related link.
+2. On the **Report Selection - Bank Acc.** page, in the **Usage** field, select **Cheque** .
 3. Select one of the following report IDs.
 
 | Report ID | Report Name | Description |

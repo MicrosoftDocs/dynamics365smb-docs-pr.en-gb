@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b4430118eb8075ceded16bdc375479e61a132f96
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 292f78f16b77940fa16a6ffc25bd79dbca0684e3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697799"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915867"
 ---
 # <a name="using-the-prodshort-apps-in-power-bi"></a>Using the [!INCLUDE [prodshort](includes/prodshort.md)] Apps in Power BI
 
@@ -67,25 +67,25 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 
     You can also get starting from within [!INCLUDE [prodshort](includes/prodshort.md)]. From your Home page, navigate to **Report Selection** in the Power BI section. Select either **Service** or **My Organisation** from the ribbon. Either the Organisation gallery in Power BI or Microsoft AppSource opens, filtered to only display apps related to [!INCLUDE[prodshort](includes/prodshort.md)].
 
-3. In the **Services** box, select **Get**.
+3. In the **Services** box, select **Get** .
 
-    This step opens the **Power BI Apps** page, which lets you browse for Power BI app available in **AppSource**.  
+    This step opens the **Power BI Apps** page, which lets you browse for Power BI app available in **AppSource** .  
 
-4. In the **Search** box, enter **Dynamics 365 Business Central**.
-5. Select app that you want to use, select **Get it now**, and then **Install**.  
+4. In the **Search** box, enter **Dynamics 365 Business Central** .
+5. Select app that you want to use, select **Get it now** , and then **Install** .  
 
     When completed, the app will be available from **Apps** on the navigation menu in Power BI.
 
 ## <a name="connect-the-prodshort-app-to-your-data"></a>Connect the [!INCLUDE[prodshort](includes/prodshort.md)] app to your data
 
-1. Under **Apps**, select the Business Central app, then **Connect**.
+1. Under **Apps** , select the Business Central app, then **Connect** .
 2. When prompted, fill in the **Company Name** and **Environment** with information about the [!INCLUDE[prodshort](includes/prodshort.md)] instance that you want to connect to.
 
-    - For **Company Name**, make sure to use the full name, not the display name. You can find the company name in the **Companies** page in [!INCLUDE[prodshort](includes/prodshort.md)]. 
-    - For **Environment**, if you haven't created multiple environments, enter **Production**.
+    - For **Company Name** , make sure to use the full name, not the display name. You can find the company name in the **Companies** page in [!INCLUDE[prodshort](includes/prodshort.md)]. 
+    - For **Environment** , if you haven't created multiple environments, enter **Production** .
 
-3. Select **Next**.
-4. Select **Sign-in**.
+3. Select **Next** .
+4. Select **Sign-in** .
 5. When prompted, enter the user name and password for signing into [!INCLUDE[prodshort](includes/prodshort.md)].
 6. Once connected, a dashboard and reports are added to your Power BI workspace. When completed, the tiles show data from your [!INCLUDE[prodshort](includes/prodshort.md)] company.
 
@@ -101,7 +101,7 @@ A Power BI account hasn't been set up. You must have a licence to get a valid Po
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Message: There are no enabled reports. Choose Select Report to see a list of reports that you can display.
 
-This message appears if the default report failed to deploy to your Power BI workspace. Or the report deployed but didn't successfully refresh. If this problem happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credentials. Once the dataset successfully refreshes, navigate back to [!INCLUDE[prodshort](includes/prodshort.md)] and manually select the report from the **Select Reports** page.
+This message appears if the default report failed to deploy to your Power BI workspace. Or the report deployed but didn't successfully refresh. If this problem happens, navigate to the report in your Power BI workspace, select **Dataset** , **Settings** , and then manually update the credentials. Once the dataset successfully refreshes, navigate back to [!INCLUDE[prodshort](includes/prodshort.md)] and manually select the report from the **Select Reports** page.
 
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>You need a Power BI Pro licence to install the [!INCLUDE[prodshort](includes/prodshort.md)] app in Power BI
 
@@ -130,7 +130,7 @@ For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the problem might 
 
 ### <a name="incorrect-company-name"></a>Incorrect company name
 
-A common mistake is to enter the company display name instead of the company name. To find the company name search for **Companies**. Then use the **Name** field when entering your company name.
+A common mistake is to enter the company display name instead of the company name. To find the company name search for **Companies** . Then use the **Name** field when entering your company name.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>The key didn't match any rows in the table
 
@@ -149,7 +149,7 @@ The Power BI app will only display data from the [!INCLUDE[prodshort](includes/p
 - Try [asking a question in the Q&A box](/power-bi/service-q-and-a-tips) at the top of the dashboard.
 - [Change the tiles](/power-bi/service-dashboard-edit-tile) in the dashboard.  
 - [Select a tile](/power-bi/service-dashboard-tiles) to open the underlying report.  
-- By default, your dataset isn't scheduled to refresh. You can change the refresh schedule or try refreshing it on demand using **Refresh Now**. For more information, see [Configuring scheduled refresh](/power-bi/refresh-scheduled-refresh).
+- By default, your dataset isn't scheduled to refresh. You can change the refresh schedule or try refreshing it on demand using **Refresh Now** . For more information, see [Configuring scheduled refresh](/power-bi/refresh-scheduled-refresh).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

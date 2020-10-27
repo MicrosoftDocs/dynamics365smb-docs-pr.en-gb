@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 06/30/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 976d2ec94ba895894323b3021d51811abff88cef
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7d1b9a1af6edde26e9c966bb25bc6d237a510d00
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781517"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921699"
 ---
 # <a name="setting-up-relationship-management"></a>Setting Up Relationship Management
 
@@ -23,7 +23,7 @@ Before you get started working with your contacts and marketing interests, there
 
 Managing your contacts and having a strategy in place to identify, attract, and retain customers will help optimise your business and increase customer satisfaction. Using a good contact management system will also help you create and maintain relationships with your customers. Communication is the key to these relationships. Being able to tailor communication with potential and existing customers, vendors, and business partners according to their needs, is necessary for companies to succeed. Establishing a strategy and defining how your company uses contact information is a primary step. This information will be viewed by many different groups in your company, so having a good system in place will help everyone be more productive.
 
-You set up the marketing and contact management from the **Marketing Setup** page. To open the **Marketing Setup** page, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Marketing Setup**, and then choose the related link.
+You set up the marketing and contact management from the **Marketing Setup** page. To open the **Marketing Setup** page, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Marketing Setup** , and then choose the related link.
 
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Automatically Copying Specific Information from Contact Companies to Contact Persons
 Some information about contact companies is identical to the information about the contact persons working within these companies, for example, the address details. In the **Inheritance** section of the **Marketing Setup** page, you can set the application to automatically copy specific fields from the contact company card to the contact person card each time you create a contact person for a contact company. For example, you can select to copy the salesperson code, address details (address, address 2, city, postcode, and county), communication details (fax number, telex answer back, and phone number), and more.
@@ -47,7 +47,7 @@ For more information, see [Automatically Record Interactions with Contacts](mark
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Synchronising Contacts with Customers and More
 In order to synchronise the contact card with the customer card, the vendor card and the bank account card, you must select a business relation code for customers, vendors, and bank accounts. For example, you can only link a contact with an existing customer if you have selected a business relation code for customers on the **Marketing Setup** page.
 
-For more information, see [Synchronising Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).  
+For more information, see [Synchronising Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).  
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Assigning a Number Series to Contacts and Opportunities
 You can set up a number series for contacts and opportunities. If you have set up a number series for contacts, when you create a contact, and press Enter in the No. field on the contact card, application automatically enters the next available contact number.

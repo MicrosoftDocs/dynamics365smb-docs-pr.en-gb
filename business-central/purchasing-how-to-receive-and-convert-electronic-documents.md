@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34a9461a967760b682f9a219389bd4078e3e654c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: fcc8e97a61c777a7857e95db04fe16973c4c7b07
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782881"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918820"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Receive and Convert Electronic Documents
 The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. To receive an invoice from a vendor as an electronic PEPPOL document, you process the document in the Incoming Documents page to convert it to a purchase invoice or general journal line in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -28,7 +28,7 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports rece
 
  The traffic of electronic documents in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)] is managed by the Job Queue feature. Before you can receive electronic documents, the relevant job queue must be started.  
 
- You can either start the conversion of electronic documents manually, as described in this procedure, or you can enable a workflow to convert electronic documents automatically when they are received. The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a workflow template, *From Incoming Electronic through OCR to Open Purchase Invoice Workflow*, which is ready to be copied to a workflow and enabled. For more information, see [Workflow](across-workflow.md).  
+ You can either start the conversion of electronic documents manually, as described in this procedure, or you can enable a workflow to convert electronic documents automatically when they are received. The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a workflow template, *From Incoming Electronic through OCR to Open Purchase Invoice Workflow* , which is ready to be copied to a workflow and enabled. For more information, see [Workflow](across-workflow.md).  
 
 > [!NOTE]  
 >  When you convert electronic documents received from the OCR service to documents or journal lines in [!INCLUDE[d365fin](includes/d365fin_md.md)], multiple lines on the source document will be summed on one line. The single line will be of type G/L Account and the **Description** and (G/L account) **No.** fields will be empty. The value in the **Amount** field will equal the total amount excluding VAT of all lines in the source document.  
@@ -41,7 +41,7 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports rece
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>To receive and convert an electronic invoice to a purchase invoice  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents** , and then choose the related link.  
 
 2.  Select the line for the incoming document record that represents a new incoming electronic invoice, and then choose the **Edit** action.  
 
@@ -49,7 +49,7 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports rece
 
 3.  In the **Data Exchange Type** field, choose **PEPPOL - Invoice** or **OCR – Invoice** depending on the source of the electronic document.  
 
-4.  To map text on the vendor invoice to a specific debit account, on the **Actions** tab, in the **General** group, choose **Map Text to Account**, and then fill the **Text-to-Account Mapping Worksheet** page.  
+4.  To map text on the vendor invoice to a specific debit account, on the **Actions** tab, in the **General** group, choose **Map Text to Account** , and then fill the **Text-to-Account Mapping Worksheet** page.  
 
 5.  Choose the **Create Document** action.  
 

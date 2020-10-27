@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/27/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fbfe510c420187ba881ee1cace8ecdafe47b4924
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4aa769c8a2b044f434a9643209eecb97f7f51f13
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786353"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919395"
 ---
 # <a name="work-with-bills-of-material"></a>Work with Bills of Material
 You use bills of materials (BOMs) to structure parent items that must be assembled or produced by resources or machine centres from components. An assembly BOM can also be used to sell a parent item as a kit consisting of its components.
@@ -40,7 +40,7 @@ To define a parent item that consists of other items, and potentially of resourc
 
 Assembly BOMs usually contain items but can also contain one or more resources that are required to put the assembly item together.
 
-Assembly BOMs can have multiple levels, which means that a component on the assembly BOM can be an assembly item itself. In that case, the **Assembly BOM** field on the assembly BOM line contains **Yes**.
+Assembly BOMs can have multiple levels, which means that a component on the assembly BOM can be an assembly item itself. In that case, the **Assembly BOM** field on the assembly BOM line contains **Yes** .
 
 Special requirements apply to items on assembly BOMs with regards to availability. For more information, see [To see the availability of an item by its use in assembly BOMs](inventory-how-availability-overview.md#to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms).
 
@@ -57,15 +57,15 @@ There are two parts to creating an assembly BOM:
 ## <a name="to-edit-assembly-boms"></a>To edit assembly BOMs
 You can edit the lines on an assembly BOM at any time. But be aware that the BOM may be in use on ongoing sales or assemblies of the parent, which may be affected by the change. Choose the **Where-Used** action to see in which items it is being used and then whether sales or assembly orders may be affected.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.
 2. Choose the **Yes** value in the **Assembly BOM** column.
 3. On the **Assembly BOM** page, choose the **Edit List** action, and then change any field as needed.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>To view components and resources indented according to the BOM structure
 From the **Assembly BOM** page, you can open a separate page that shows the components and any resources indented according to their BOM position under the assembly item.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
-2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.
+2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes** .)
 3. On the **Item Card** page, choose the **Assembly** action, and then choose the **Assembly BOM** action.
 4. On the **Assembly BOM** page, choose the **Show BOM** action.
 
@@ -79,7 +79,7 @@ The Explode BOM function is also available on the **Assembly BOM** page as a met
 
 The following procedure is based on a sales invoice. The same steps apply to other sales documents and to all purchase documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices** , and then choose the related link.
 2. Open a sales invoice that contains a line for an assembly item.
 3. Choose the line for an assembly item, and then **Explode BOM** line action.
 
@@ -95,8 +95,8 @@ You can also calculate and update the standard cost for one or many items on the
 
 The unit cost of an assembly BOM always equals the total of the unit costs of its components, including other assembly BOMs, and any resources.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.
-2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items** , and then choose the related link.
+2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes** .)
 3. On the **Item Card** page, choose the **Assembly** action, and then choose the **Assembly BOM** action.
 4. On the **Assembly BOM** page, choose the **Calc. Standard Cost** action.
 5. Select one of the following options, and then choose the **OK** button.

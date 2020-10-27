@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 779ff0a12611606e70d0a310b260a8e20031f628
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 211f4cda3bd7d47c6268b0dfc041d25b100d2d14
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181510"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919270"
 ---
 # <a name="create-segments"></a>Create Segments
 You can create segments to select a group of contacts, for example, if you want to create an interaction involving several contacts, such as direct mail.
 
 ## <a name="to-create-a-segment"></a>To create a segment
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments** , and then choose the related link.
 2. Choose the **New** action.
 3. In the **General** section, in the **No.** field, enter a number for the segment.
 

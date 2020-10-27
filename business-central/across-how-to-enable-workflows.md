@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 185e35e9b9f44e8cc18b10adf0dc359c3dce1ef0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b04f9edd37c96efb9ee6b215d85335c743de6214
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784239"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916325"
 ---
 # <a name="enable-workflows"></a>Enable Workflows
 When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.  
@@ -23,7 +23,7 @@ When you have created a workflow and you are sure that it is ready to start, you
  On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
 ## <a name="to-enable-a-workflow"></a>To enable a workflow  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows** , and then choose the related link.  
 2.  Open the workflow that you want to enable.  
 3.  On the **Workflow** page, select the **Enabled** check box.  
 
