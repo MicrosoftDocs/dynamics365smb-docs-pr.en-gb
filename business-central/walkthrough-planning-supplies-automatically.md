@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 219b7aa5bdeff1ba0a7a527ba35ff23b846920ed
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6f0d7b5c90777e46a3cfca2ceb4603aa9173aec0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786803"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912103"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Walkthrough: Planning Supplies Automatically
 
@@ -74,7 +74,7 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 ### <a name="to-change-selected-planning-parameters"></a>To change selected planning parameters  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Units**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Units** , and then choose the related link.  
 2.  Open the BLUE stockkeeping unit card for item 1100, Front Wheel.  
 3.  On the **Planning** FastTab, fill in the fields as described in the following table.  
 
@@ -91,7 +91,7 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 ### <a name="to-create-the-sales-order"></a>To create the sales order  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **Sales Order** page, fill in the fields as described in the following table.  
 
@@ -103,7 +103,7 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>To create a regenerative plan to fulfill demand at location BLUE  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet** , and then choose the related link.  
 2.  Choose the **Calculate Regenerative Plan** action.  
 3.  On the **Calculate Plan - Plan. Wksh.** page, fill in the fields as described in the following table.  
 
@@ -126,7 +126,7 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>To calculate MRP to include underlying component needs  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet** , and then choose the related link.  
 2.  Choose the **Calculate Regenerative Plan** action.  
 3.  On the **Calculate Plan - Plan. Wksh.** page, fill in the fields as described in the following table.  
 
@@ -220,7 +220,7 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 3.  Accept the availability warning and choose the **Yes** button to record the demand quantity.  
 4.  Proceed to replan to adjust the current supply plan.  
-5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet** , and then choose the related link.  
 6.  Choose the **Calculate Net Change Plan** action.  
 7.  On the **Calculate Plan - Plan. Wksh.** page, fill in the fields as described in the following table.  
 
@@ -230,11 +230,11 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 8.  Choose the **OK** button to start the planning run.  
 
- A total of 14 planning lines are created. Notice in the first planning line that the **Action Message** field contains **New**, the **Quantity** field 10, and the **Due Date** field 02-12-14. This new line for the top parent item, 1001, Touring Bike, is created because the item uses a reordering policy of **Order**, which means that it must be supplied in a one-to-one relationship to its demand, the sales order of ten pieces.  
+ A total of 14 planning lines are created. Notice in the first planning line that the **Action Message** field contains **New** , the **Quantity** field 10, and the **Due Date** field 02-12-14. This new line for the top parent item, 1001, Touring Bike, is created because the item uses a reordering policy of **Order** , which means that it must be supplied in a one-to-one relationship to its demand, the sales order of ten pieces.  
 
  The next two planning lines are the production orders for touring bike wheels. Each existing order of five, in the **Original Quantity** field, is increased to 15, in the **Quantity** field. Both production orders have unchanged due dates, as indicated in the **Action Message** field that contains **Change Qty.** This is also the case for the planning line for item 1300, except its order multiple of 10.00 rounds the tracked demand for 15 pieces up to the 20.  
 
- All other planning lines have an action message of **Resched. & Chg. Qty.**. This means that apart from being increased in quantity, the due dates are moved in relation to the supply plan to include the extra quantity in the available production time (capacity). Purchased components are rescheduled and increased to supply the production orders. Proceed to analyse the new plan.  
+ All other planning lines have an action message of **Resched. & Chg. Qty.** . This means that apart from being increased in quantity, the due dates are moved in relation to the supply plan to include the extra quantity in the available production time (capacity). Purchased components are rescheduled and increased to supply the production orders. Proceed to analyse the new plan.  
 
 ## <a name="analyzing-the-changed-planning-result"></a>Analysing the Changed Planning Result  
  Because all lot-for-lot-planned items within the filter, 1100 to 1300, have a rescheduling period of two weeks, their existing supply orders are all modified to meet the new demand, which occurs within the specified two weeks.  

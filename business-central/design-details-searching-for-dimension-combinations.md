@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 962f7762db6cae08b2ac7080898df629015d79e7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c8fb1026c871efc1ce61b26e587399f91bdf718f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787195"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910912"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Design Details: Searching for Dimension Combinations
 When you close a page after you edit a set of dimensions, [!INCLUDE[d365fin](includes/d365fin_md.md)] evaluates whether the edited set of dimensions exists. If the set does not exist, a new set is created and the dimension combination ID is returned.  
@@ -48,7 +48,7 @@ When you close a page after you edit a set of dimensions, [!INCLUDE[d365fin](inc
  ![Example of dimension tree structure in NAV 2013](media/nav2013_dimension_tree_example2.png "Example of dimension tree structure in NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Finding Dimension Set ID  
- At a conceptual level, **Parent ID**, **Dimension**, and **Dimension Value**, in the search tree, are combined and used as the primary key because [!INCLUDE[d365fin](includes/d365fin_md.md)] traverses the tree in the same order as the dimension entries. The GET function (record) is used to search for dimension set ID. The following code example shows how to find the dimension set ID when there are three dimension values.  
+ At a conceptual level, **Parent ID** , **Dimension** , and **Dimension Value** , in the search tree, are combined and used as the primary key because [!INCLUDE[d365fin](includes/d365fin_md.md)] traverses the tree in the same order as the dimension entries. The GET function (record) is used to search for dimension set ID. The following code example shows how to find the dimension set ID when there are three dimension values.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  
@@ -60,7 +60,7 @@ EXIT(DimSet.ID);
 
 ```  
 
-However, to preserve the ability of [!INCLUDE[d365fin](includes/d365fin_md.md)] to rename both a dimension and a dimension value, table 349, **Dimension Value**, is extended with an integer field, **Dimension Value ID**. This table converts the field pair, **Dimension** and **Dimension Value**, to an integer value. When you rename the dimension and dimension value, the integer value is not changed.  
+However, to preserve the ability of [!INCLUDE[d365fin](includes/d365fin_md.md)] to rename both a dimension and a dimension value, table 349, **Dimension Value** , is extended with an integer field, **Dimension Value ID** . This table converts the field pair, **Dimension** and **Dimension Value** , to an integer value. When you rename the dimension and dimension value, the integer value is not changed.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  

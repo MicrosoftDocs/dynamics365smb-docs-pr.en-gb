@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fa091993d64aeba6982a871aeb794c97be3e81d9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3f98cd6423b67fd9bbcc6081d06eca4cb21e81c7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782450"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912678"
 ---
 # <a name="change-basic-settings"></a>Change Basic Settings
 
@@ -29,9 +29,9 @@ The Role Centre represents the home page, a starting screen that is designed for
 -   In the centre, you find the **Activities** area, which shows current data and can be clicked or tapped to view more detailed information. Key performance indicators (KPIs) can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of favourite customers on the Role Centre for business accounts that you do business with often or need to pay special attention to.
 
 ### <a name="to-change-the-role"></a>To change the role
-The default role is **Business Manager**, but you can select another role to use a role centre that fits your needs better.
+The default role is **Business Manager** , but you can select another role to use a role centre that fits your needs better.
 1. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre"), and then choose the **My Settings** action.
-2. On the **My Settings** page, in the **Role** field, select the role that you want to use by default. For example, select **Accountant**.
+2. On the **My Settings** page, in the **Role** field, select the role that you want to use by default. For example, select **Accountant** .
 3. Choose the **OK** button.
 
 ## <a name="company"></a><a name="company"></a>Company
@@ -49,7 +49,7 @@ The company name is always displayed at the top left corner and works as an acti
 ## <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a>To display a company badge for quick access to company information  
 You can add a customised badge in the top right corner, which you can choose to quickly view company name and tenant information in a pop-up box.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** , and then choose the related link.
 2. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]

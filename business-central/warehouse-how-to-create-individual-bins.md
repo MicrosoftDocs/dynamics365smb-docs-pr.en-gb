@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d3258bdc7781b6160bcb3a73a73358c2cac313f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: fe5261a2253659480aabe36a6fff1586bd4478c5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779718"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911803"
 ---
 # <a name="create-bins"></a>Create Bins
 The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually from the location card. You can also use a function on the **Bin Creation Worksheet** page to create bins automatically.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>To create a bin from the location card  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations** , and choose the related link.  
 2.  Select the location that you want to create a bin from, and then choose the **Bins** action.  
 3. Choose the **New** action.
 4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -37,7 +37,7 @@ Making a bin dedicated results in similar functionality in basic warehousing to 
 > Items in dedicated bins are not protected when they are picked and consumed as production or assembly components with the **Inventory Pick** page. For more information, see [Pick for Production or Assembly in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md).
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>To create bins individually in the bin creation worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Creation Worksheet**, and choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Creation Worksheet** , and choose the related link.  
 2.  Fill in on each line the fields that are necessary to name and characterize the bins you are creating.  
 3.  Choose the **Create Bins** action.  
 
@@ -49,16 +49,16 @@ Before you start creating bins automatically, you should determine the kind of b
 
 To work with the **Bin Creation Worksheet** page, you must be set up as a warehouse employee at the location where the bins exist. For more information, see [Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Creation Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Creation Worksheet** , and then choose the related link.  
 2.  Choose the **Calculate Bins** action.
 3. On the **Calculate Bins** page, in the **Bin Template Code** field, select the bin template that you want to use as the model for the bins you are creating.
 4.  Fill in a description for the bins you are in the process of creating.  
-5.  To create the bin codes, fill in the **From No.** and **To No.** fields in the three categories shown on the page: **Rack**, **Section,**, and **Level.** The bin code can contain up to 20 characters.  
+5.  To create the bin codes, fill in the **From No.** and **To No.** fields in the three categories shown on the page: **Rack** , **Section,** , and **Level.** The bin code can contain up to 20 characters.  
 
     > [!NOTE]  
     >  The number of characters that you have entered in the three categories for either field, for example, the characters you have entered in the three **From No.** fields, plus the field separators, if any, must be 20 or less.  
 
-     You can use letters in the code as an identifying combination, but the letter you use must be the same in the **From No.** and **To No.** fields. For example, you might define the Rack part of the code as **From No. A01** and **To No. A10**. The application is not set up to generate codes with letter sequences, for example, from A01 to F05.  
+     You can use letters in the code as an identifying combination, but the letter you use must be the same in the **From No.** and **To No.** fields. For example, you might define the Rack part of the code as **From No. A01** and **To No. A10** . The application is not set up to generate codes with letter sequences, for example, from A01 to F05.  
 
 6.  If you want a character, such as a hyphen, to separate the category fields you have defined as part of the bin code, fill in the **Field Separator** field with this character.  
 7.  If you want application not to create a line for a bin if it exists already, select the **Check on Existing Bin** field.  

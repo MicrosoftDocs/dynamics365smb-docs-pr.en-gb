@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b89724725f5929e0ebea79a94bcdb3e87069c75d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8875cdcc7ad13f72c9cf131061b301dac1dcff2b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788907"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910587"
 ---
 # <a name="send-electronic-documents"></a>Send Electronic Documents
 The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports sending electronic invoices and credit memos in the PEPPOL format, which is supported by the largest document exchange service providers. A document exchange service provider dispatches electronic documents between trading partners. To provide support for other electronic document formats, you use the data exchange framework.  
@@ -26,19 +26,19 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports send
 
 ### <a name="to-send-an-electronic-sales-invoice"></a>To send an electronic sales invoice  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices** , and then choose the related link.  
 
 2.  Create a new sales invoice.  
 
 3.  When the sales invoice is ready to be invoiced, choose the **Post and Send** action.  
 
-     If the customer’s default sending profile is **Electronic Document**, then it will be shown in the **Post and Send Confirmation** dialogue box and you just have to choose the **Yes** button to post and send the invoice electronically in the selected format.  
+     If the customer’s default sending profile is **Electronic Document** , then it will be shown in the **Post and Send Confirmation** dialogue box and you just have to choose the **Yes** button to post and send the invoice electronically in the selected format.  
 
 4.  In the **Post and Send Confirmation** dialogue box, choose the AssistEdit button to the right of the **Send Document to** field.  
 
-5.  In the **Send Document to** dialogue box, in the **Electronic Document** field, choose **Through Document Exchange Service**.  
+5.  In the **Send Document to** dialogue box, in the **Electronic Document** field, choose **Through Document Exchange Service** .  
 
-6.  In the **Format** field, choose **PEPPOL**.  
+6.  In the **Format** field, choose **PEPPOL** .  
 
 7.  Choose the **OK** button. The **Post and Send Confirmation** dialogue box appears. **Electronic Document (PEPPOL)** is added to the **Send Document to** field.  
 
@@ -47,7 +47,7 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports send
      The sales invoice is posted and sent to the customer as an electronic document in the PEPPOL format.  
 
     > [!NOTE]  
-    >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. On the **Posted Sales Invoice** page, choose the **Activity Log** action to view the status of the electronic document. For more information, see **Activity Log**.  
+    >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. On the **Posted Sales Invoice** page, choose the **Activity Log** action to view the status of the electronic document. For more information, see **Activity Log** .  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 

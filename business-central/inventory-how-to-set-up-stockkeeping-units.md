@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c94a02cdbd658efcf96c5cff443ebfe03cb3feef
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4f5a1933e803322367b241e772d796f1365f9d11
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785903"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915467"
 ---
 # <a name="set-up-stockkeeping-units"></a>Set Up Stockkeeping Units
 You can use stockkeeping units to record information about your items for a specific location or a specific variant code.  
@@ -24,9 +24,9 @@ You can use stockkeeping units to record information about your items for a spec
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a>To set up a stockkeeping unit  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Units**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Units** , and then choose the related link.  
 2.  Choose the **New** action.  
-3.  Fill in the fields on the card. The following fields are required: **Item No.**, **Location Code**, and/or **Variant Code**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3.  Fill in the fields on the card. The following fields are required: **Item No.** , **Location Code** , and/or **Variant Code** . [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 When you have set up the first stockkeeping unit for an item, the **Stockkeeping Unit Exists** check box on the **Item** card is selected.  
 

@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0048d0e78084c939c9e2a707975598a171108cdc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6b69d64e67428cc4f1e7dc75e6267b2749e182c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183939"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913453"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-d365fin"></a>Bulk Invoicing for Microsoft Bookings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-If your company uses the Bookings app in Office 365, you can do bulk invoicing for appointments. The **Uninvoiced Bookings** page in [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a list of the company's completed bookings. In this page you can quickly select the appointments that you want to invoice and create draft invoices for the services provided.  
+If your company uses the Bookings app in Microsoft 365, you can do bulk invoicing for appointments. The **Uninvoiced Bookings** page in [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a list of the company's completed bookings. In this page you can quickly select the appointments that you want to invoice and create draft invoices for the services provided.  
 
 ## <a name="connect-to-bookings"></a>Connect to Bookings
 To connect your [!INCLUDE[d365fin](includes/d365fin_md.md)] with Bookings, you must specify your Bookings company, what to synchronize with Bookings, how often to synchronize, and which templates to use. You set up this information on the **Booking Sync. Setup** page, which you can launch from the **Exchange Sync. Setup** page, which you can find through [Search](ui-search.md).  
@@ -31,7 +31,7 @@ For example, if you want to synchronise customers between Bookings and [!INCLUDE
 Similarly, if you want to synchronise service items between Bookings and [!INCLUDE[d365fin](includes/d365fin_md.md)], you must specify the default template to use to add new service items in [!INCLUDE[d365fin](includes/d365fin_md.md)] based on the services in our Bookings company.  
 
 > [!NOTE]
-> Only items of type *Service* will synchronise between Bookings and [!INCLUDE[d365fin](includes/d365fin_md.md)]. The template that you set up in the **Configuration Templates** page so it can be used for the item synchronisation must define the type as *Service*.
+> Only items of type *Service* will synchronise between Bookings and [!INCLUDE[d365fin](includes/d365fin_md.md)]. The template that you set up in the **Configuration Templates** page so it can be used for the item synchronisation must define the type as *Service* .
 
 ## <a name="invoice-appointments"></a>Invoice Appointments
 When it is time to send invoices for the completed bookings, you go to the **Uninvoiced Bookings** page. Depending on how often the information is synchronised, the list is long or short. You can create invoices for all bookings in the list or one booking at a time. You can select one or more entries in the list and invoice those only.  

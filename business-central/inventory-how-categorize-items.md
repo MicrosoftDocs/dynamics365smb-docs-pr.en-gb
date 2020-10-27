@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: category, search, attribute, facet
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9d474f4e4b8381795405e11b1c3513cbf8a7ed90
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a5698746fe52ff7ff6ca38e1207f09ded0742c96
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777598"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914117"
 ---
 # <a name="categorize-items"></a>Categorise Items
 
@@ -27,7 +27,7 @@ To find items by characteristics, you can assign item attributes to items and al
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
 ## <a name="to-create-an-item-category"></a>To create an item category
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories** , and then choose the related link.
 2. On the **Item Categories** page, choose the **New** action.
 3. On the **Item Category Card** page, on the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. On the **Attributes** FastTab, specify any item attributes for the item category. For more information, see [To assign item attributes to item categories](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
@@ -38,9 +38,11 @@ To find items by characteristics, you can assign item attributes to items and al
 > [!NOTE]  
 > Item attributes that you assign to an item category will automatically apply to the item that the item category is assigned to.
 
+If you change your mind about an item category, you can delete it. However, if it has already been assigned to an item, you must remove that assignment before you can delete the item category.
+
 ## <a name="to-assign-an-item-category-to-an-item"></a>To assign an item category to an item
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.
 2. Open the card for the item that you want to assign to an item category.
 3. Choose the lookup button in the **Item Category Code** field and select an existing item category. Alternatively, choose the **New** action to first create a new item category as explained in [To create an item category](inventory-how-categorize-items.md#to-create-an-item-category).
 

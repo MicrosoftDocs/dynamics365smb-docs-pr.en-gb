@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a21bc82cc065f3d05863d3d3f9959dc4269a739a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d34b34d5629779d7b87016fb9e83bf1d3f25fd82
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780042"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914146"
 ---
 # <a name="view-the-availability-of-items"></a>View the Availability of Items
 From the context of a business task, you can get advanced information about when and where an item is available, such as when talking to a customer about a delivery date.
@@ -30,7 +30,7 @@ If you use warehousing functionality, availability varies depending on allocatio
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are typically shown in two different fields, each with a different definition:
 
-* The **Quantity on Hand** field, in some places named **Inventory**, shows the actual quantity today according to posted item ledger entries.
+* The **Quantity on Hand** field, in some places named **Inventory** , shows the actual quantity today according to posted item ledger entries.
 * The **Projected Available Balance** field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements. (In [!INCLUDE[d365fin](includes/d365fin_md.md)], scheduled receipts include quantities on purchase orders and inbound transfer orders. Gross requirements include quantities on sales orders and outbound transfer orders.)
 
 > [!TIP]  
@@ -42,7 +42,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are typical
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>To view the availability of an item according to when it will be received or shipped
 You view the availability of an item according to scheduled item transactions on the **Availability by Event** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Event** action.
 
@@ -52,7 +52,7 @@ You view the availability of an item according to scheduled item transactions on
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>To view the availability of an item in different periods
 You view the availability of an item over time for specified time periods on the **Item Availability by Periods** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Period** action.
 
@@ -62,7 +62,7 @@ You view the availability of an item over time for specified time periods on the
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>To view the availability of an item at the locations where it is stored
 You view the availability of an item at the different places where it is stored on the **Item Availability by Location** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Location** action.
 
@@ -73,7 +73,7 @@ You view the availability of an item at the different places where it is stored 
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>To view the availability of all items by the location where they are stored
 You view the availability of all your items across all your locations on the **Items by Location** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.
 2. Choose the **Items by Location** action.
 
     The **Items by Location** page shows for all your items how many are available at each location.

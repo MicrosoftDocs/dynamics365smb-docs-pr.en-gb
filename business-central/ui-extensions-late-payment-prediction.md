@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 79b57454d0e4ac1bcdad9817b53f1b273e416658
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6456d982629571d4d39622a910df4bfd7039d7a8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194170"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915067"
 ---
 # <a name="the-late-payment-prediction-extension"></a>The Late Payment Prediction Extension  
 Effectively managing receivables is important to the overall financial health of a business. The Late Payment Prediction extension can help you reduce outstanding receivables and fine-tune your collections strategy by predicting whether sales invoices will be paid on time. For example, if a payment is predicted to be late, you might decide to adjust the terms of payment or the payment method for the customer.
@@ -26,7 +26,7 @@ When you open a posted sales document, a notification will display at the top of
 
 To enable the extension manually, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup** , and then choose the related link.  
 2. Fill in the fields as necessary.
 
 > [!Note]
@@ -43,7 +43,7 @@ If you enable the extension a **Payments Predicted to be Late** tile is availabl
 > The Customer Ledger Entries page also shows a FactBox on the right. While you are reviewing predictions, the information in the **Customer Details** section can be helpful. When you choose the invoice in the list, the section shows information about the customer. It also lets you take immediate action. For example, if a customer frequently misplaces their wallet, you can open the Customer card from the FactBox and block the customer for future sales.  
 
 ## <a name="viewing-a-payment-prediction-for-a-specific-sales-document"></a>Viewing a Payment Prediction for a Specific Sales Document
-You can also predict late payments up-front. On the **Sales Quotes**, **Sales Orders**, and **Sales Invoices** pages, you can use the **Predict Payment** action to generate a prediction for the sales document you're viewing.
+You can also predict late payments up-front. On the **Sales Quotes** , **Sales Orders** , and **Sales Invoices** pages, you can use the **Predict Payment** action to generate a prediction for the sales document you're viewing.
 
 <!--## Scheduling Payment Predictions
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
@@ -62,9 +62,9 @@ These web-services are stateless, meaning they use data only to calculate predic
 >   You can use your own predictive web service instead of ours. For more information, see [Create and use your own predictive web service late payment prediction](#AnchorText). 
 
 ### <a name="data-required-to-train-and-evaluate-the-model"></a>Data required to train and evaluate the model 
-For each **Customer ledger entry** that has a related **Posted Sales Invoice**:
+For each **Customer ledger entry** that has a related **Posted Sales Invoice** :
 - Amount (LCY) including Tax
-- Payment terms in days is calculated as **Due Date** minus **Posting Date**.
+- Payment terms in days is calculated as **Due Date** minus **Posting Date** .
 - Whether there is an applied credit memo. 
 
 Additionally, the record is enriched with aggregated data from other invoices that are related to the same customer. This includes the following:
@@ -91,19 +91,19 @@ If it appears that your processes do not match the standard model, you still can
 [!INCLUDE[d365fin](includes/d365fin_md.md)] runs training and evaluation automalically when there are enough paid and late invoices are available, however you can run it manually whenever you want.
 
 #### <a name="to-train-and-use-your-model"></a>To train and use your model
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
-2. In the **Selected Model** field, choose **My Model**.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup** , and then choose the related link.  
+2. In the **Selected Model** field, choose **My Model** .
 3. Choose the **Create My Model** action, to train model on your data.  
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-late-payment-prediction"></a><a name="AnchorText"> </a>Create and use your own predictive web service for late payment prediction
-You can also create your own predictive web service based on a public model named **Prediction Experiment for Dynamics 365 Business Central**. This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  
+You can also create your own predictive web service based on a public model named **Prediction Experiment for Dynamics 365 Business Central** . This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  
 
 1. Open a browser and go to the [Azure AI Gallery](https://go.microsoft.com/fwlink/?linkid=2086310).  
-2. Search for **Prediction Experiment for Dynamics 365 Business Central**, and then open the model in Azure Machine Learning Studio.  
+2. Search for **Prediction Experiment for Dynamics 365 Business Central** , and then open the model in Azure Machine Learning Studio.  
 3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
 4. Run the model, and publish it as a web service.  
 5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
-6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup** , and then choose the related link.  
 7. Choose the **Use My Azure Subscription** check box.
 8. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  .  
 

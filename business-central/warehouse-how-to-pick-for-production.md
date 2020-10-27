@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c9d19d8406fe49df7449a9b5ecfe231cc3024c9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a772ae65768bbc5c363c11266a2a0bcaf18b472d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779543"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910012"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Pick for Production or Assembly in Basic Warehouse Configurations
 How you put away your pick components for production or assembly orders depends on how your warehouse is set up as a location. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
@@ -37,7 +37,7 @@ A system precondition for picking, or moving, components for source documents is
 ## <a name="to-pick-components-in-basic-warehouse-configurations"></a>To pick components in basic warehouse configurations
 In basic warehouse configurations where the location is set up to use picking only, you can pick components for production activities with the **Inventory Pick** page. For more information, see [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks** , and then choose the related link.  
 2.  To access the production order components, choose the **Get Source Documents** action, and then select the released production order.  
 3.  Perform the pick, and then record the actual picking information in the **Qty. Picked** field.  
 4.  When the lines are ready for posting, choose the **Post** action. The posting creates the necessary warehouse entries and posts the consumption of the items.  

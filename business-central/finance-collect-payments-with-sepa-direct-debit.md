@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 72a184236ffb040b90b5de780f92e140d6838cd0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e7af0cc7e84ea94c12b6e7aa4988c081f135f52c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786453"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913428"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Collect Payments with SEPA Direct Debit
 With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.  
@@ -46,12 +46,12 @@ Before you can process customer payments electronically by exporting direct debi
 * Set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>To set up your bank account for SEPA direct debit  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts** , and then choose the related link.  
 2. Open the bank account that you want to use for direct debit.  
 3. On the **Transfer** FastTab, in the **SEPA Direct Debit Export Format** field, choose the option for SEPA direct debit.  
 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>To set up the customer's payment method for SEPA direct debit  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods** , and then choose the related link.  
 2. Choose the **New** action.  
 3. Set up a payment method. Fill in the direct debit\-specific fields as described in the following table.  
 
@@ -64,13 +64,13 @@ Before you can process customer payments electronically by exporting direct debi
     >  Do not enter a value in the **Bal. Account No.** field.  
 
 4. Choose the **OK** button to close the **Payment Methods** page.  
-5. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+5. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** , and then choose the related link.  
 6. Open the customer card for the customer that you want to set up for SEPA direct debit collection.  
 7. Choose the **Payment Method Code** field, and then select the payment method code that you specified in step 3.  
 8. Repeat steps 6 and 7 for all customers that you want to set up for SEPA direct debit collection.  
 
 #### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>To set up the direct-debit mandate that represents the customer agreement  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** , and then choose the related link.  
 2. Open the card for the customer that you want to set up for SEPA direct debits.  
 3. Choose the **Bank Accounts** action.  
 4. On the **Customer Bank Account List** page, select the customer bank account that will use direct debits, and then choose the **Direct Debit Mandates** action.  
@@ -82,7 +82,7 @@ Before you can process customer payments electronically by exporting direct debi
     |**Valid From**|Specify the date when the direct\-debit mandate starts.|  
     |**Valid To**|Specify the date when the direct\-debit mandate ends.|  
     |**Date of Signature**|Specify the date when the customer signed the direct\-debit mandate.|  
-    |**Type of Payment**|Specify if the agreement covers multiple (**Recurring**) or a single (**One Off**) direct debit collection.|  
+    |**Type of Payment**|Specify if the agreement covers multiple ( **Recurring** ) or a single ( **One Off** ) direct debit collection.|  
     |**Expected Number of Debits**|Specify how many direct debit collections you expect to make. This field is only relevant if you selected **Recurring** in the **Sequence Type** field.|  
     |**Debit Counter**|Specifies how many direct debit collections have been made using this direct\-debit mandate. This field is automatically updated.|  
     |**Blocked**|Specify that direct debit collections cannot be made using this direct\-debit mandate.|  
@@ -99,7 +99,7 @@ Before you can process customer payments electronically by exporting direct debi
 
 ### <a name="to-create-a-direct-debit-collection"></a>To create a direct-debit collection  
 
- 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.  
+ 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections** , and then choose the related link.  
  2. On the **Direct Debit Collections** page, choose the **Create Direct Debit Collection** action.  
  3. On the **Create Direct Debit Collection** page, fill in the fields as described in the following table.  
 
@@ -107,7 +107,7 @@ Before you can process customer payments electronically by exporting direct debi
      |---------------------------------|---------------------------------------|  
      |**From Due Date**|Specify the earliest payment due date on sales invoices that you want to create a direct-debit collection for.|  
      |**To Due Date**|Specify the latest payment due date on sales invoices that you want to create a direct-debit collection for.|  
-     |**Partner Type**|Specify if the direct-debit collection is made for customers of type **Company** or **Person**.|  
+     |**Partner Type**|Specify if the direct-debit collection is made for customers of type **Company** or **Person** .|  
      |**Only Customers With Valid Mandate**|Specify if a direct-debit collection is created for customers who have a valid direct-debit mandate. **Note:**  A direct-debit collection is created even if the **Direct Debit Mandate ID** field is not filled on the sales invoice.|  
      |**Only Invoices With Valid Mandate**|Specify if a direct-debit collection is only created for sales invoices if a valid direct-debit mandate is selected in the **Direct Debit Mandate ID** field on the sales invoice.|  
      |**Bank Account No.**|Specify which of your company's bank accounts the collected payment will be transferred to from the customer's bank account.|  
@@ -130,7 +130,7 @@ A direct-debit collection is added to the **Direct Debit Collections** page, and
 
  * On the **Direct Debit Collect. Entries** page, select the entry that was not successfully processed, and then choose the **Reject Entry** action.  
 
-      The value in the **Status** field on the **Direct Debit Collect. Entries** page is changed to **Rejected**.  
+      The value in the **Status** field on the **Direct Debit Collect. Entries** page is changed to **Rejected** .  
 
 ### <a name="to-close-a-direct-debit-collection"></a>To close a direct-debit collection  
  *  On the **Direct Debit Collect. Entries** page, select the entry that was successfully processed, and then choose the **Close Collection** action.  
@@ -145,7 +145,7 @@ A direct-debit collection is added to the **Direct Debit Collections** page, and
  You can post the payment receipt directly from the **Direct Debit Collections** page or the **Direct Debit Collect. Entries** page. Alternatively, you can relay the work to another user by preparing the related journal lines.  
 
 ### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>To post a direct-debit payment receipt from the Direct Debit Collections page  
- 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.  
+ 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections** , and then choose the related link.  
  2. Select a line for a direct debit collection that has been exported to a bank file and successfully processed by the bank.
  3. Choose the **Post Payment Receipts** action.  
  4. On the **Post Direct Debit Collection** page, fill in the fields as described in the following table.  

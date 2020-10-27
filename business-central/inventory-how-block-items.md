@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fb80cecd119cf061b3102d94f586da4c103bd21c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f958600a47daa12a665975d6c41e214fca7cf5ad
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784820"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914100"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Block Items from Sales or Purchasing
 You can block an item from being entered on lines in sales or purchase documents, and you can block it from being posted in any transaction. For example, this is useful when an item has a known defect. If someone chooses a blocked item on a sales or purchase document a message will inform them that the item is blocked.
@@ -34,15 +34,15 @@ The following table describes what occurs when items are blocked.
 When you use the **Copy from Document** function to create new documents based on existing documents, you are notified if any items on the source document lines are blocked. The blocked document lines are excluded from the new document, and a notification shows an overview of all document lines that are blocked in the source document.
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>To block an item from being entered on sales lines  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.  
 2.  Select the item that you want to block, and then select the **Sales Blocked** check box.  
 
 ## <a name="to-block-an-item-from-being-entered-on-purchase-lines"></a>To block an item from being entered on purchase lines  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.  
 2.  Select the item that you want to block, and then select the **Purchasing Blocked** check box.  
 
 ## <a name="to-block-an-item-from-being-posted"></a>To block an item from being posted
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.
 2. Select the item that you want to block, and then select the **Blocked** check box.
 
 ## <a name="see-also"></a>See Also  

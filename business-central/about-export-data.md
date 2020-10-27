@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 05/04/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eb11098292f9d83fcd0a4b23bde9c1813f4c6c8e
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: e8b62e04b3b1d44ba53572559c66acc1c05da8c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333891"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914621"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exporting Your Business Data to Excel
 If you want to work with your data from [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, you can open all lists in Excel and work with it there. Similarly, if you want to cancel your subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export your data to Excel so that you can take it with you.
 
 ## <a name="opening-lists-in-excel"></a>Opening Lists in Excel
-You can open data in Excel from any journal, list, or worksheet. You just open the page that you want, and then choose **Open in Excel**. For example, open the list of customers (search for **Customers**), and then choose **Open in Excel**. Your browser will prompt you to open or save the generated Excel workbook.  
+You can open data in Excel from any journal, list, or worksheet. You just open the page that you want, and then choose **Open in Excel** . For example, open the list of customers (search for **Customers** ), and then choose **Open in Excel** . Your browser will prompt you to open or save the generated Excel workbook.  
 
 > [!NOTE]
 > Use this option when you do not want to make changes and publish those changes back to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -69,7 +69,7 @@ We recommend that you also consider exporting data from the following pages:
 > [!NOTE]
 > You must have at least one of the following permissions to open or edit data in Excel:
 >    - Permission set *D365 Excel Export Action*  
->    - System permission 6110 *Allow Action Export To Excel*.  
+>    - System permission 6110 *Allow Action Export To Excel* .  
 
 For more information, see [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 

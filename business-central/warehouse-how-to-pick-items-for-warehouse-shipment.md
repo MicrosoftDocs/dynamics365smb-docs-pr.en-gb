@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 718df42f71fe5fd23877ce6660b7e3715c3bccb8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8da226a21e795228efa253f994d817f60ac5616b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779493"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910062"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Pick Items for Warehouse Shipment
 When the location is set up to require warehouse pick processing as well as warehouse shipment processing, you use the warehouse pick documents to create and process pick information prior to posting the warehouse shipment.  
@@ -26,7 +26,7 @@ You can create warehouse pick documents in a pull fashion by opening an empty wa
 
 Alternatively, you can use the **Pick Worksheet** page to pull and create pick lines in batch mode. For more information, see [Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md).  
 
-You can also create warehouse pick documents in a push fashion from the **Warehouse Shipment** page by selecting **Create Pick**.  
+You can also create warehouse pick documents in a push fashion from the **Warehouse Shipment** page by selecting **Create Pick** .  
 
 > [!NOTE]  
 >  Picking for warehouse shipment of items that are assembled to the sales order being shipped follows the same steps as for regular warehouse picks for shipment, as described in this topic. However, the number of pick lines per quantity to ship may be many to one because you pick the components, not the assembly item.  
@@ -38,7 +38,7 @@ You can also create warehouse pick documents in a push fashion from the **Wareho
 >  For information about picking components for assembly orders generally, including situations where the assembly item is not due on a sales shipment, see [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>To pick items for warehouse shipment  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks** , and then choose the related link.  
 
     If you need to work on a particular pick, select the pick from the list or filter the list to find the picks that have been assigned to you specifically. Open the pick card.  
 2.  If the **Assigned User ID** field is empty, enter your ID to identify yourself if necessary.  

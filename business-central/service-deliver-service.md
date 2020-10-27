@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2c3536f87fedb4703cdf91f1bd32885229274bd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bf4a825c8d035b4dab6f6e8b8fc3472eb48ddf6d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788782"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910387"
 ---
 # <a name="delivering-service"></a>Delivering Service
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board** . At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  
   
 Another way to review pending service orders is to use the **Service Tasks** page. In this view of your service obligations, you can see where in your service workflow an order is and change that status to reflect interactions with your customer.  
   
@@ -36,7 +36,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |------------|-------------|  
 |Create quotes that are drafts of service orders, and then convert the quotes to service orders.|[Create Service Quotes](service-how-to-create-service-quotes.md)|
 |Create documents that contain information about a service, such as repairs and maintenance, on service items.|[Create Service Orders](service-how-to-create-service-orders.md)|
-|Plan the delivery of service by using the **Dispatch Board**. You can also use project management tools in the Jobs department to help in planning.|[Allocate Resources](service-how-to-allocate-resources.md)|  
+|Plan the delivery of service by using the **Dispatch Board** . You can also use project management tools in the Jobs department to help in planning.|[Allocate Resources](service-how-to-allocate-resources.md)|  
 |Deliver service to customers by performing service tasks.|[Work on Service Tasks](service-how-to-work-on-service-tasks.md)|  
 |Post service orders for services, so that your accounting is up-to-date.|[Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)|  
 |Create and post invoices for services that you have delivered.|[Create Service Invoices or Credit Memos](service-how-create-invoices.md)|  

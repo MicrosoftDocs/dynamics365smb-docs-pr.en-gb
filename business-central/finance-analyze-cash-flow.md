@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 09bf4d364afdff27dc97396a2d88ea0a934379fb
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.openlocfilehash: 26df3104e99d9e6f647331c48b5a03f8f87c81a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542699"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913503"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysing Cash Flow in Your Company
 The charts on the Accountant Role Centre provide insights that can help you make solid decisions about what to do with your cash.  
@@ -29,14 +29,14 @@ The charts on the Accountant Role Centre provide insights that can help you make
 | Do the numbers seem off for a period?</br> Should I investigate? |Income & Expense |
 | When might a cash surplus or deficit happen?</br> Should I pay down debt, or borrow to meet upcoming expenses? |Cash Flow Forecasts |
 
-On the Accountant Role Center, under **Finance Performance**, the **Cash Cycle**, **Cash Flow**, and **Income & Expense** charts offer ways to analyze cash flow:  
+On the Accountant Role Center, under **Finance Performance** , the **Cash Cycle** , **Cash Flow** , and **Income & Expense** charts offer ways to analyze cash flow:  
 
 * See figures for a period by using the timeline slider.  
 * Filter the chart by choosing the source in the legend.  
 * Change the length of the period, or go to the previous or next period, by choosing options on the **Finance Performance** drop down.  
 * View the entries by choosing a point in the chart. For example, a point on the timeline or a column segment. If the numbers seem off, this is where you can make adjustments.  
 
-Although it's separate, the **Cash Flow Forecast** chart is similar. You view details, filter results, and change what is displayed in the same ways. If you change a setting, you can refresh the forecast by choosing **Cash Flow Forecast**, and then **Recalculate Forecast**.
+Although it's separate, the **Cash Flow Forecast** chart is similar. You view details, filter results, and change what is displayed in the same ways. If you change a setting, you can refresh the forecast by choosing **Cash Flow Forecast** , and then **Recalculate Forecast** .
 
 If you want to examine the forecast, in addition to forecast entries, you can also look at the cash flow worksheet. For example, you can see how the forecast:
 
@@ -45,7 +45,7 @@ If you want to examine the forecast, in addition to forecast entries, you can al
 * Skips duplicate sales orders and purchase orders.  
 
 ## <a name="to-view-a-cash-flow-worksheet"></a>To view a cash flow worksheet
-1. Search for **Cash Flow Forecasts**, and then choose the related link.  
+1. Search for **Cash Flow Forecasts** , and then choose the related link.  
 2. Choose a cash flow forecast, and then choose the **Cash Flow Worksheet** action.  
 3. On the **Cash Flow Worksheet** page, choose the **Suggest Worksheet Lines** action.  
 

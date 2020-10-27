@@ -8,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f9b92b0a884588e6cbf068d9d6e3a8d6d2ea87fc
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ea836775e8dc32107620d90d67fbf4a614c5d9b8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784491"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910236"
 ---
 # <a name="setting-up-troubleshooting-for-service-items"></a>Setting Up Troubleshooting for Service Items
 You can set up troubleshooting guidelines that help technicians solve problems when providing service. For example, guidelines might be a list of steps to perform a repair, or a series of questions to ask about the items. After you set up troubleshooting guidelines, you can assign them to service item groups, service items, and items. There is an inheritance hierarchy for guidelines. If you assign them to a service item group, the items included in the group will inherit the guidelines unless you specify them for the items. Similarly, service items will inherit guidelines from items.  
 
 ## <a name="to-set-up-troubleshooting-guidelines"></a>To set up troubleshooting guidelines
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Troubleshooting**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Troubleshooting** , and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-troubleshooting-guidelines-to-items-service-items-or-service-item-groups"></a>To assign troubleshooting guidelines to items, service items, or service item groups
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, **Service Items**, or **Service Item Groups**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , **Service Items** , or **Service Item Groups** , and then choose the related link.  
 2. Choose the relevant entity, and then choose the **Troubleshooting** action.  
 
 ## <a name="see-also"></a>See Also

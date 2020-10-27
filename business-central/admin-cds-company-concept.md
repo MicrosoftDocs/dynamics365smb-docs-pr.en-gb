@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
-ms.date: 01/17/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 4f8e5959098e01cd08134a37ae706aa852d88729
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324061"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911669"
 ---
 # <a name="data-ownership-models"></a>Data Ownership Models
 [!INCLUDE[d365fin](includes/cds_long_md.md)] requires that you specify an owner for the data you store. For more information, see [Entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) in the Power Apps documentation. When you set up integration between [!INCLUDE[d365fin](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)] you must choose one of two ownership models for records that are synchronised:
@@ -70,6 +70,8 @@ When changing a business unit, you can choose only the business units that are o
 If you choose the Person ownership model you must specify each salesperson who will own new records. The business unit and team are created as described in the [Team Ownership](admin-cds-company-concept.md#team-ownership) section.
 
 The default business unit is used when the Person ownership model is chosen, and you cannot choose another business unit. The team that is associated with the default business unit will own records for common entities, such as the Product entity, that are not related to specific salespersons.
+
+When you couple salespersons in [!INCLUDE[d365fin](includes/d365fin_md.md)] to users in [!INCLUDE[d365fin](includes/cds_long_md.md)], [!INCLUDE[d365fin](includes/d365fin_md.md)] will add the user to the default team in [!INCLUDE[d365fin](includes/cds_long_md.md)]. You can verify that users are added by looking at the **Default Team Member** column on the **Users - Common Data Service** page. If the user is not added, you can add them manually by using the **Add Coupled Users to Team** action. For more information, see [Synchronising Data in Business Central with Common Data Service](admin-synchronizing-business-central-and-sales.md).
 
 ## <a name="see-also"></a>See Also
 [About [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b13bc643a93d7558c4760791af81a9a6cc6190b2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 14aae820463718357d3bac69524751833f5dd79d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787678"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913670"
 ---
 # <a name="design-details-item-application"></a>Design Details: Item Application
 
@@ -35,7 +35,7 @@ Item applications can be made in the following ways.
 |Method|Description|Application type|  
 |------------|---------------------------------------|----------------------|  
 |Automatic|Occurs as general cost forwarding according to the costing method|Quantity application|  
-|Fixed|Made by the user when:<br /><br /> -   Processing returns<br />-   Posting corrections<br />-   Undoing quantity postings<br />-   Creating drop shipments **Note:**  The fixed application can be  made either manually by entering an entry number in the **Appl.-from Item Entry** field or by using a function, such as the **Get Posted Document Lines to Reverse**.|Quantity application<br /><br /> Cost application **Note:**  Cost application only occurs in inbound transactions where the **Appl.-from Item Entry** field is filled to create a fixed application. See the next table.|  
+|Fixed|Made by the user when:<br /><br /> -   Processing returns<br />-   Posting corrections<br />-   Undoing quantity postings<br />-   Creating drop shipments **Note:**  The fixed application can be  made either manually by entering an entry number in the **Appl.-from Item Entry** field or by using a function, such as the **Get Posted Document Lines to Reverse** .|Quantity application<br /><br /> Cost application **Note:**  Cost application only occurs in inbound transactions where the **Appl.-from Item Entry** field is filled to create a fixed application. See the next table.|  
 
 Whether quantity applications or cost applications are made depends on the direction of the inventory transaction and whether the item application is made automatically or fixed, in connection with special processes.  
 

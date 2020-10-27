@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d8c494183e1b59adac4d85b7520a737804589439
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6138bc80b96e55c559067abad2957044d2e7c87f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789256"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914842"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Walkthrough: Conducting a Sales Campaign
 A campaign is any kind of activity that involves several contacts. An important part of setting up a campaign involves selecting the target audience for your campaign. For this purpose, in [!INCLUDE[d365fin](includes/d365fin_md.md)], you create a segment, or a group of contacts using filters.  
@@ -62,9 +62,9 @@ A campaign is any kind of activity that involves several contacts. An important 
 
 ### <a name="to-set-up-a-campaign"></a>To set up a campaign  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Campaigns**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Campaigns** , and then choose the related link.  
 2.  Choose the **New** action to create a new campaign. On the campaign card, press Enter to have a campaign number automatically inserted.  
-3.  In the **Description** field, enter a description for the campaign, for example, **FUTURUS trade show**.  
+3.  In the **Description** field, enter a description for the campaign, for example, **FUTURUS trade show** .  
 4.  Choose the **Status Code** field, and select a status code from the list that opens on the **Campaign Status** page.  
 5.  Fill in the **Starting Date** and **Ending Date** fields of the campaign as appropriate.  
 
@@ -75,7 +75,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 
 1.  Choose the **Segments** action.  
 2.  Choose the **New** action to create a new segment. On the segment card, press Enter to have a segment number automatically inserted.  
-3.  On the **General** FastTab, in the **Description** field, enter, for example, **Visitors at the FUTURUS trade show**.  
+3.  On the **General** FastTab, in the **Description** field, enter, for example, **Visitors at the FUTURUS trade show** .  
 
      After entering general information about the segment, select the contacts to be included in the segment.  
 
@@ -101,7 +101,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 ### <a name="to-remove-contacts-from-the-segment"></a>To remove contacts from the segment  
 
 1.  On the **Segment** page, choose the **Contacts** action, and then choose the **Reduce Contacts** action to open the **Remove Contacts – Reduce** page.  
-2.  On the **Business Relation** FastTab, select the **PROS** filter as the **Business Relation Code**, and choose the **OK** button.  
+2.  On the **Business Relation** FastTab, select the **PROS** filter as the **Business Relation Code** , and choose the **OK** button.  
 
      The **Segment** page now contains a reduced list of contacts, and in the **No. of Lines** field, you can see the number of contacts that now meet these new criteria.  
 
@@ -117,7 +117,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 
 ### <a name="to-link-a-segment-to-the-campaign"></a>To link a segment to the campaign  
 
-1.  On the **Segment** page, on the **Campaign** FastTab, choose the **Campaign No.** field to select the campaign that you want the segment to be attached to, for example, **CP0001**.  
+1.  On the **Segment** page, on the **Campaign** FastTab, choose the **Campaign No.** field to select the campaign that you want the segment to be attached to, for example, **CP0001** .  
 2.  Since this segment is the target of the campaign, select the **Campaign Target** check box.  
 
 ## <a name="sending-letters-and-email-messages-to-contacts"></a>Sending Letters and Email Messages to Contacts  
@@ -125,9 +125,9 @@ A campaign is any kind of activity that involves several contacts. An important 
 
 ### <a name="to-use-a-segment-to-send-a-letter-to-a-contact"></a>To use a segment to send a letter to a contact  
 
-1.  Open the **Segment** card for the **Visitors at the FUTURUS trade show**.  
-2.  On the **Interaction** FastTab, in the **Interaction Template Code** field, select the Business Letter template, code **BUS**.  
-3.  In the **Subject (Default)** field, enter the following example text: **Thank you for visiting the trade show**.  
+1.  Open the **Segment** card for the **Visitors at the FUTURUS trade show** .  
+2.  On the **Interaction** FastTab, in the **Interaction Template Code** field, select the Business Letter template, code **BUS** .  
+3.  In the **Subject (Default)** field, enter the following example text: **Thank you for visiting the trade show** .  
 
     > [!NOTE]  
     >  This template consists of more than one attachment document, each of them written in a different language. Example languages include English and Danish.  
@@ -148,24 +148,24 @@ A campaign is any kind of activity that involves several contacts. An important 
 
 9. The attachments are sent. When the process is done, choose the **OK** button for the message that states that the segment has been logged.  
 
-     The letters are automatically printed and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is moved to the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
+     The letters are automatically printed and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is moved to the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments** , and then choose the related link.  
 
 10. After the segment is logged, each letter that is sent is recorded as an interaction, which you can view in the log.  
 
-     Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Log Entries**, and then choose the related link. There is an entry for each sent letter.  
+     Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Log Entries** , and then choose the related link. There is an entry for each sent letter.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>To send an email message to a contact  
 
-1.  On the **Interaction** FastTab, in the **Interaction Template Code** field, select the Business Letter template, code **BUS**.  
-2.  In the **Subject (Default)** field, enter the following example text: **Thank you for visiting the trade show**.  
-3.  In the **Correspondence Type** field, choose **E-Mail**.  
+1.  On the **Interaction** FastTab, in the **Interaction Template Code** field, select the Business Letter template, code **BUS** .  
+2.  In the **Subject (Default)** field, enter the following example text: **Thank you for visiting the trade show** .  
+3.  In the **Correspondence Type** field, choose **E-Mail** .  
 4.  Specify language settings, as in the previous procedure.  
 5.  Choose the **Log** action. The **Log Segment** page opens.  
 6.  Select the **Send Attachments** check box to have the attachments sent by email.  
 7.  Select the **Create Follow-up Segment** check box.  
 8.  Choose the **OK** button.  
 
-     The letters are automatically sent by email, and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is saved in the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
+     The letters are automatically sent by email, and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is saved in the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments** , and then choose the related link.  
 
 ## <a name="registering-campaign-responses"></a>Registering Campaign Responses  
  During the next couple of weeks, the prospective customers respond to the letter. The marketing manager wants to keep track of the responses and record these interactions.  
@@ -180,7 +180,7 @@ A campaign is any kind of activity that involves several contacts. An important 
      There is no interaction template for recording responses to campaigns. Therefore, create a new template.  
 
 3.  On the **Interaction Templates** page, choose the **New** action.  
-4.  In the **Code** field, enter **RESP**, and in the **Description** field, enter **Campaign Responses**.  
+4.  In the **Code** field, enter **RESP** , and in the **Description** field, enter **Campaign Responses** .  
 5.  Choose the **OK** button.  
 6.  Select this interaction template in the **Interaction Template Code** field and confirm the message that asks if you want to update the segment lines with the same Interaction Template Code.  
 

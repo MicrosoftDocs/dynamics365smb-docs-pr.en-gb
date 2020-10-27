@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 85a5bbd3c1920aaac3e0560737f921c7518d1d32
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.openlocfilehash: 57284dc738ba35c9865bd25f9c180827d4c59c94
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503601"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913378"
 ---
 # <a name="create-prepayment-invoices"></a>Create Prepayment Invoices
 
@@ -29,7 +29,7 @@ The following procedure describes how to invoice a prepayment for a sales order.
 
 ## <a name="to-create-a-prepayment-invoice"></a>To create a prepayment invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
 2. Create a new sales order for the relevant customer. For more information, see [Sell Products](sales-how-sell-products.md).  
 
     On the **Prepayment** FastTab, the **Prepayment %** field specifies the percentage to use to calculate the prepayment amount. If there is a default prepayment percentage on the customer card, the field is filled in automatically. You can change the percentage. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  
@@ -41,7 +41,7 @@ The following procedure describes how to invoice a prepayment for a sales order.
 
     If you want to specify a prepayment invoice with one line for each sales order line that has a prepayment percentage, then do not choose the **Compress Prepayment** field.  
 
-    The due date for the prepayment is calculated automatically based on the value of the **Prepmt. Payment Terms Code**.
+    The due date for the prepayment is calculated automatically based on the value of the **Prepmt. Payment Terms Code** .
 
 3. Fill in the sales lines.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e0856f51292169ad46e51e5f4a540cfa054ac73e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 67a6e963800bf5f0ce8e1a293463d53b51470ee5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786878"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914792"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Walkthrough: Making Cash Flow Forecasts by Using Account Schedules
 This walkthrough describes how you can use account schedules to make cash flow forecasts. Account schedules perform calculations that cannot be done directly in the chart of cash flow accounts. In the account schedules, you can set up subtotals for cash flow receipts and disbursements. These subtotals can be included in new totals that can then be used in making cash flow forecasts.  
@@ -48,10 +48,10 @@ An account schedule consists of a cash flow account schedule name with a series 
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>To set up a new account schedule name  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules** , and then choose the related link.  
 2.  On the **Account Schedule Names** page, choose the **New** to create a new cash flow account schedule name.  
-3.  In the **Name** field, enter **Forecast**.  
-4.  In the **Description** field, enter **Cash Flow Forecast**.  
+3.  In the **Name** field, enter **Forecast** .  
+4.  In the **Description** field, enter **Cash Flow Forecast** .  
 5.  Leave the **Default Column Layout** and **Analysis View Name** fields blank.  
 
 ## <a name="setting-up-account-schedule-lines"></a>Setting Up Account Schedule Lines  

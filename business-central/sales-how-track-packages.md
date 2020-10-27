@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: rfq
-ms.date: 05/28/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a655768234c262ff98a753b28dfbbd53d1bc1749
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: 6b0cf72609a180d271604dd276f840efbc6b1aa6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410699"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910662"
 ---
 # <a name="track-packages"></a>Track Packages
 
@@ -22,7 +22,7 @@ The following procedure shows how to track a package from a posted sales shipmen
 
 ## <a name="to-track-a-package"></a>To track a package
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment** , and then choose the related link.
 2. Open the relevant shipment.
 3. Choose the **Update Document** action.
 4. In the **Package Tracking No.** field, enter the package number you have received from the shipping agent. Update **Shipping Agent** if needed and close the page.

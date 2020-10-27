@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1603ad8a107e4d879a3a17605f35b23b9db526cd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 84b6c80131662675df1117bcb771aaa0ee9553c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778950"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914321"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Post Transactions Directly to the General Ledger
 
@@ -29,7 +29,7 @@ Unlike for entries that are posted with documents, which require a credit memo p
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>To post a transaction directly to a general ledger account
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals** , and then choose the related link.
 2. Open the relevant general journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. On a new journal line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 

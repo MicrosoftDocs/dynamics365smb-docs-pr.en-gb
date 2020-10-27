@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4ec1d07793b90e180bd22b57dc45c717b456e317
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b8d764bcbf1a7f6a2bc97130eddbdc1a644f9f1c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780067"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914171"
 ---
 # <a name="adjust-item-costs"></a>Adjust Item Costs
 The cost of an item (inventory value) that you purchase and later sell may change during its lifetime, for example because a freight cost is added to its purchase cost after you have sold the item. Cost adjustment is especially relevant in situations where you sell goods before you invoice the purchase of those goods. To always know the correct inventory value, item costs must therefore regularly be adjusted. This ensures that sales and profit statistics are up to date and that financial KPIs are correct. For more information, see [Design Details: Cost Adjustment](design-details-cost-adjustment.md).
@@ -37,7 +37,7 @@ If you use the Average costing method, then an item’s unit cost is calculated 
 The cost adjustment function processes only value entries that have not yet been adjusted. If the function encounters a situation where changed inbound costs need to be forwarded to associated outbound entries, then new adjustment value entries are created, which are based on the information in the original value entries but contain the adjustment amount. The cost adjustment function uses the posting date of the original value entry in the adjustment entry, unless that date is in a closed inventory period. In that case, application uses the starting date of the next open inventory period. If inventory periods are not used, then the date in the **Allow Posting From** field on the **General Ledger Setup** page will define when the adjustment entry is posted.
 
 ## <a name="to-adjust-item-costs-manually"></a>To adjust item costs manually
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Cost - Item Entries**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Cost - Item Entries** , and then choose the related link.
 2. On the **Adjust Cost - Item Entries** page, specify which items to adjust costs for.
 3. Choose the **OK** button.
 
@@ -46,7 +46,7 @@ If you need to change the direct unit cost for several items, you can use the **
 
  The batch job changes the contents in the **Unit Price** field on the item card. The batch job changes the content of the field in the same way for all items or selected items. The batch job multiplies the value in the field by an adjustment factor that you specify.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Item Costs/Prices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Item Costs/Prices** , and then choose the related link.  
 2. In the **Adjust Field** field, specify which item or SKU card field you want to adjust.  
 3. In the **Adjustment Factor** field, specify the factor by which the value will be adjusted. For example, enter **1.5** to increase the value by 50%.  
 4. On the **Item** FastTab, set filters to specify, for example, which items to process with the batch job.  

@@ -7,18 +7,18 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Invoicing, Office 365
-ms.date: 04/30/2020
+ms.search.keywords: Invoicing, Microsoft 365
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7776cd01218f5959734173226574bb4a0d043153
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: 90f5f913fdaa96b2d4c4a057cc675e3a9edcc95c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333867"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914446"
 ---
-# <a name="using-the-same-office-365-account-in-d365fin-and-microsoft-invoicing"></a>Using the same Office 365 Account in [!INCLUDE[d365fin](includes/d365fin_long_md.md)] and Microsoft Invoicing
-When you sign up for a trial with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can move to a 30-day evaluation phase, you can start a subscription, or you can stop using [!INCLUDE[d365fin](includes/d365fin_md.md)]. In all cases, you may at some point have seen something called **Microsoft Invoicing** and clicked it. This was an app that was part of what is now Microsoft 365 Business Standard and was formerly known as Office 365 Business Premium subscription, so not everyone will have seen that tile in their Office 365 experience.  
+# <a name="using-the-same-microsoft-365-account-in-d365fin-and-microsoft-invoicing"></a>Using the same Microsoft 365 Account in [!INCLUDE[d365fin](includes/d365fin_long_md.md)] and Microsoft Invoicing
+When you sign up for a trial with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can move to a 30-day evaluation phase, you can start a subscription, or you can stop using [!INCLUDE[d365fin](includes/d365fin_md.md)]. In all cases, you may at some point have seen something called **Microsoft Invoicing** and clicked it. This was an app that was part of what is now Microsoft 365 Business Standard and was formerly known as Microsoft 365 Business Premium subscription, so not everyone will have seen that tile in their Microsoft 365 experience.  
 
 Microsoft Invoicing is no longer available, but if you need to sign into Invoicing to retrieve your data, you might see a message that you cannot access Microsoft Invoicing because your account is used in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -31,15 +31,15 @@ So you will have to sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)] and r
 
 ### <a name="to-rename-your-company"></a>To rename your company
 1. Sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].
-2. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre"), and then choose **My Settings**.
+2. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre"), and then choose **My Settings** .
 3. In the **Company** field, choose a different company.
-4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Companies**, and then choose the related link.  
-5. On the **Companies** page, choose **Edit List**.  
+4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Companies** , and then choose the related link.  
+5. On the **Companies** page, choose **Edit List** .  
 6. Change the name of the *My Company* entry to something else.  
 
     Wait a number of minutes. We’ll be making a number of changes in the underlying database, and that takes a while.
 7.  When the system is ready again, choose the **Create New Company** button.  
-8.  In the dialogue that appears, specify the name as *My Company*, and choose the **Production – Setup Data Only** option.  
+8.  In the dialogue that appears, specify the name as *My Company* , and choose the **Production – Setup Data Only** option.  
 
 This again takes a number of minutes. When the process completes, you will be able to access Invoicing as part of your Microsoft 365 Business Standard experience. but only to export data since the Invoicing app is deprecated.  
 

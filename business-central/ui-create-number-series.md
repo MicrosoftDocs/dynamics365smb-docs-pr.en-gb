@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c974f2289e792844c762e7ea0c52979f6adb2967
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 75a841fd2d6bf8321f15bb0a6fe88d41bf152308
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782425"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912653"
 ---
 # <a name="create-number-series"></a>Create Number Series
 For each company that you set up, you need to assign unique identification codes to things such as general ledger accounts, customer and vendor accounts, invoices, and other documents. Numbering is important not only for identification. A well-designed numbering system also makes the company more manageable and easy to analyse, and can reduce the number of errors that occur in data entry.
@@ -54,10 +54,10 @@ The **No.** field can be filled in three ways:
 When you open a new document or card that a number series exists for, then the relevant **No. Series Setup** page opens so that you can set up a number series for that type of document or card before you proceed with other data entry.
 
 > [!NOTE]  
-> If you need to enable manual numbering on, for example, new item cards that have been created with a data migration process that has hidden the **No.** by default, then go to the **Inventory Setup** page and choose the **Item Nos.** field to open and set the related number series to **Manual Nos.**.
+> If you need to enable manual numbering on, for example, new item cards that have been created with a data migration process that has hidden the **No.** by default, then go to the **Inventory Setup** page and choose the **Item Nos.** field to open and set the related number series to **Manual Nos.** .
 
 ## <a name="to-create-a-new-number-series"></a>To create a new number series
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **No. Series**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **No. Series** , and then choose the related link.
 2. Choose the **New** action.
 3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Lines** action.
@@ -66,7 +66,7 @@ When you open a new document or card that a number series exists for, then the r
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>To set up where a number series is used
 The following procedure shows how to set number series up for the Sales area. The steps are similar for other areas.
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables** , and then choose the related link.
 2. On the **Sales & Receivables** page, on the **Number Series** FastTab, select the desired number series for each sales card or document.
 
 The selected number will now be used to fill in the **No.** field on the card or document in question, according to the settings you made on the number series line.
@@ -74,8 +74,8 @@ The selected number will now be used to fill in the **No.** field on the card or
 ## <a name="to-create-relationships-between-number-series"></a>To create relationships between number series
 If you have set up more than one number series code for the same kind of basic information or transactions, you can create relationships between the codes. This feature can assist you in deciding among the codes when you use a number.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **No. Series**, and then choose the related link.
-2. Select the line with the number series you want to create relationships for and then choose **Relationships**.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **No. Series** , and then choose the related link.
+2. Select the line with the number series you want to create relationships for and then choose **Relationships** .
 3. In the **Series Code** field, enter the code for the number series that you want to relate to the series you selected in step 2.
 4. Add a line for each code that you want to relate to the selected number series.
 5. Close the page.

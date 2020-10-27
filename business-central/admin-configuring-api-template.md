@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 7e21da444f8dc8858ebe0e5f65335311dfb2a5e7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: e87809d33fb7fd511912cf6d384db0e488a8ff2d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187395"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911612"
 ---
 # <a name="configuring-api-templates"></a>Configuring API Templates
 The API library for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] provides a simplified representation of the underlying entities. All the properties in the application are not exposed through the associated API. The **API Setup** page allows you to define templates that are used to populate empty properties on an entity when you create a POST action through the API. 
@@ -31,8 +31,8 @@ To use templates with the API library, you must first set up and define properti
 
 To assign a template to an API, you must go through the following steps.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **API Setup**, and choose the related link.
-2. Choose **New**, and then choose the **Order** value for the record.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **API Setup** , and choose the related link.
+2. Choose **New** , and then choose the **Order** value for the record.  
 If there is more than one template selected for an API (Page ID), the templates are applied in the order defined in the **Order** column.   
 When each template is applied, field values defined in the template are only applied to fields that have not already had a value defined, either explicitly in the API, or in a previously applied template in the order. 
 3. Select a **Page ID** value.  

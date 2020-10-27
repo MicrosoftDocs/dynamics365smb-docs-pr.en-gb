@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/10/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 96d815a39428abc23c050da02c92d8a46a9111c1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784139"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910712"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Set Up Work Centres and Machine Centres
 
@@ -27,18 +27,21 @@ You can assign various machine centres to every work centre. A machine centre ma
 
 The planned capacity of a work centre consists of the availability of the corresponding machine centres and the additional planned availability of the work centre. The planned availability of the work centre group is, therefore, the sum of all corresponding availabilities of the machine centres and work centres.  
 
-The availability is stored in calendar entries. Before you set up work or machine centres, you must set up shop calendars. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
+The availability is stored in calendar entries.  
+
+> [!IMPORTANT]
+> Before you set up work or machine centres, you must set up shop calendars. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).
 
 ## <a name="to-set-up-a-work-center"></a>To set up a work centre
 
 The following primarily describes how to set up a work centre. The steps to set up a machine centre calendar are similar except for the **Routing Setup** FastTab.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres** , and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. In the **Work Centre Group** field, select the higher-level resource grouping that the work centre is organised under, if relevant. Choose the **New** action in the drop-down list.  
 5. Select the **Blocked** field if you want to prevent the work centre from being used in any processing. This means that output cannot be posted for an item that is produced at the work centre. For more information, see [Post Production Output](production-how-to-post-output-quantity.md).
-6. In the **Direct Unit Cost** field, enter the cost of producing one unit of measure at this work centre, excluding any other cost elements. This cost is often referred to as the *direct labour rate*.  
+6. In the **Direct Unit Cost** field, enter the cost of producing one unit of measure at this work centre, excluding any other cost elements. This cost is often referred to as the *direct labour rate* .  
 7. In the **Indirect Cost %** field, enter the general operation costs of using the work centre as a percentage of the direct unit cost. This percentage amount is added to the direct cost in the calculation of the unit cost.  
 8. In the **Overhead Rate** field, enter any non-operational costs, for example maintenance expenses, of the work centre as an absolute amount.  
 
@@ -46,7 +49,7 @@ The following primarily describes how to set up a work centre. The steps to set 
 
     Unit Cost = Direct Unit Cost + (Direct Unit Cost x Indirect Cost %) + Overhead Rate.  
 
-9. In the **Unit Cost Calculation** field, define whether the above calculation should be based on the amount of time used:  **Time**, or on the number of produced units:  **Units**.  
+9. In the **Unit Cost Calculation** field, define whether the above calculation should be based on the amount of time used:  **Time** , or on the number of produced units:  **Units** .  
 10. Select the **Specific Unit Cost** field if you want to define the work centre's unit cost on the routing line where it is being used. This may be relevant for operations with dramatically different capacity costs than what would normally be processed at that work centre.  
 11. In the **Flushing Method** field, select whether output posting at this work centre should be calculated and posted manually or automatically, using either of the following methods.
 
@@ -65,8 +68,8 @@ The following primarily describes how to set up a work centre. The steps to set 
     > [!NOTE]  
     > If you select to use Days then remember that 1 day = 24 hours - and not 8 (working hours).
 
-13. In the **Capacity** field, define whether the work centre has more than one machine or person working at the same time. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] installation does not include the Machine Centre functionality, then the value in this field must be **1**.  
-14. In the **Efficiency** field, enter the percentage of the expected standard output that this work centre actually outputs. If you enter **100**, it means that the work centre has an actual output that is the same as the standard output.  
+13. In the **Capacity** field, define whether the work centre has more than one machine or person working at the same time. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] installation does not include the Machine Centre functionality, then the value in this field must be **1** .  
+14. In the **Efficiency** field, enter the percentage of the expected standard output that this work centre actually outputs. If you enter **100** , it means that the work centre has an actual output that is the same as the standard output.  
 15. Select the **Consolidated Calendar** check box if you are also using machine centres. This ensures that calendar entries are rolled up from machine centre calendars.  
 16. In the **Shop Calendar Code** field, select a shop calendar. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
 17. In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work centre. Note that queue time is added to other non-productive time elements such as wait time and move time that you may define on routing lines using this work centre.  
@@ -91,7 +94,7 @@ On the **Capacity-Constrained Resources** page, you can make setup that avoids o
 
 When planning with capacity-constrained resources, the system ensures that no resource is loaded above its defined capacity (critical load). This is done by assigning each operation to the nearest available time slot. If the time slot is not big enough to complete the entire operation, then the operation will be split into two or more parts placed in the nearest available time slots.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Capacity Constrained Resources**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Capacity Constrained Resources** , and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6935f96c39ae378ddd8fa960c574f150bba16328
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 63009574c6d569cfc0ac20a6f474a11e2f8d5cb9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777773"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913278"
 ---
 # <a name="create-a-demand-forecast"></a>Create a Demand Forecast
 You can create sales and production forecasts with the **Demand Forecast** page.  
@@ -36,7 +36,7 @@ You create forecasts manually on the **Demand Forecast** page. Multiple forecast
 
 The forecast consists of a number of records each stating item number, forecast date, and forecasted quantity. The forecast of an item covers a period, which is defined by the forecast date and the forecast date of the next (later) forecast record. From a planning point of view, the forecasted quantity should be available at the start of the demand period.  
 
-You must designate a forecast as *Sales Item*, *Component*, or *Both*. The forecast type *Sales Item* is used for sales forecasting. The production forecast is created using the *Component* type. The forecast type *Both* is only used to give the planner an overview of both the sales forecast and the production forecast. With this option, the forecast entries are not editable. By designating these forecast types here, you can use the same worksheet to enter a sales forecast as you do a production forecast, and use the same sheet to view both forecasts simultaneously. Note that the system treats the different inputs (sales and production) differently when calculating planning, based on item, manufacturing, and production setup.  
+You must designate a forecast as *Sales Item* , *Component* , or *Both* . The forecast type *Sales Item* is used for sales forecasting. The production forecast is created using the *Component* type. The forecast type *Both* is only used to give the planner an overview of both the sales forecast and the production forecast. With this option, the forecast entries are not editable. By designating these forecast types here, you can use the same worksheet to enter a sales forecast as you do a production forecast, and use the same sheet to view both forecasts simultaneously. Note that the system treats the different inputs (sales and production) differently when calculating planning, based on item, manufacturing, and production setup.  
 
 ## <a name="component-forecast"></a>Component Forecast  
 The component forecast can be seen as an option forecast in relation to a parent item. This can, for example, be useful if the planner can estimate the demand for the component.  
@@ -51,16 +51,16 @@ It can be stated in the manufacturing setup if you want filter forecast accordin
 
 ## <a name="to-create-a-demand-forecast"></a>To create a demand forecast
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Demand Forecast**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Demand Forecast** , and then choose the related link.  
 2. On the **General** FastTab, select a forecast in the **Demand Forecast Name** field. Multiple forecasts can exist and are differentiated by name and forecast type.  
 3. In the **Location Filter** field , select the location to which this forecast will apply.
-4. In the **View by** field to change the period that is displayed in each column. You can select from the following intervals: **Day**, **Week**, **Month**, **Quarter**, **Year**, or the **Accounting Period** as set up in your finance area.    
+4. In the **View by** field to change the period that is displayed in each column. You can select from the following intervals: **Day** , **Week** , **Month** , **Quarter** , **Year** , or the **Accounting Period** as set up in your finance area.    
 
 > [!NOTE]  
 >  You should consider which time interval that you want to use for future forecasts so that the time interval is consistent throughout. When you enter a forecast quantity, it is valid on the first day of the time interval that you select. For example, if you select a month, then you enter the forecast quantity on the first day of the month. If you select a quarter, then you enter the forecast quantity on the first day of the first month in the quarter.
 
-5. In the **View as** field, select how the forecast quantities are shown for the time interval. If you select **Net Change**, then the net change in balance is displayed for the time interval. If you select **Balance at Date**, then the page displays the balance as of the last day in the time interval.  
-6. In the **Forecast Type** field, select **Sales Item**,  **Component**, or **Both**. If you select **Sales Item** or **Component**, then you can edit the quantity by period. If you select **Both**, then you cannot edit the quantity, but you can choose the drop-down arrow button and view the demand forecast entries.  
+5. In the **View as** field, select how the forecast quantities are shown for the time interval. If you select **Net Change** , then the net change in balance is displayed for the time interval. If you select **Balance at Date** , then the page displays the balance as of the last day in the time interval.  
+6. In the **Forecast Type** field, select **Sales Item** ,  **Component** , or **Both** . If you select **Sales Item** or **Component** , then you can edit the quantity by period. If you select **Both** , then you cannot edit the quantity, but you can choose the drop-down arrow button and view the demand forecast entries.  
 7. Specify a **Date Filter** if you want to limit the amount of data displayed.  
 8. On the **Demand Forecast Matrix** FastTab, enter the forecasted quantities by typing a quantity in the cell representing an item on a particular date or period. Note that in empty cells, the lookup button opens an empty page indicating that you must enter a value manually.   
 

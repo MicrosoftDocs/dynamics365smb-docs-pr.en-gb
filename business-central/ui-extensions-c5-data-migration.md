@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d52b04f000617ac037ccc37bcf02061609e680c6
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: fb71224df8730c68fb5c56c255353a05a7846eed
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617843"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912368"
 ---
 # <a name="the-c5-data-migration-extension"></a>The C5 Data Migration Extension
 
@@ -107,7 +107,7 @@ The largest file size you can upload to [!INCLUDE[d365fin](includes/d365fin_md.m
 There are just a few steps to export data from C5, and import it in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 1. In C5, use the **Export Database** feature to export the data. Then send the export folder to a compressed (zipped) folder.  
-2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Migration**, and then choose **Data Migration**.  
+2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Migration** , and then choose **Data Migration** .  
 3. Complete the steps in the assisted setup guide. Make sure to choose **Import from Microsoft Dynamcis C5 2012** as the data source.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Viewing the Status of the Migration
@@ -127,7 +127,7 @@ To help avoid double-posting to the general ledger, the following balance accoun
 
 ## <a name="correcting-errors"></a>Correcting Errors
 
-If something goes wrong and an error occurs, the **Status** field will show **Completed with Errors**, and the **Error Count** field will show how many. To view a list of the errors, you can open the **Data Migration Errors** page by choosing:  
+If something goes wrong and an error occurs, the **Status** field will show **Completed with Errors** , and the **Error Count** field will show how many. To view a list of the errors, you can open the **Data Migration Errors** page by choosing:  
 
 * The number in the **Error Count** field for the entity.  
 * The entity, and then the **Show Errors** action.  
@@ -137,7 +137,7 @@ On the **Data Migration Errors** page, to fix an error you can choose an error m
 After you fix one or more errors, you can choose **Migrate** to migrate only the entities you fixed, without having to completely restart the migration.  
 
 > [!Tip]
-> If you have fixed more than one error, you can use the **Select More** feature to select multiple lines to migrate. Alternatively, if there are errors that are not important to fix, you can choose them and then choose **Skip Selections**.
+> If you have fixed more than one error, you can use the **Select More** feature to select multiple lines to migrate. Alternatively, if there are errors that are not important to fix, you can choose them and then choose **Skip Selections** .
 
 > [!Note]
 > If you have items that are included in a BOM, you might need to migrate more than once if the original item is not created before the variants that reference it. If an item variant is created first, the reference to the original item can cause an error message.  
@@ -155,7 +155,7 @@ One way to verify that your data migrated correctly is to look at the following 
 
 ## <a name="stopping-data-migration"></a>Stopping Data Migration
 
-You can stop migrating data by choosing **Stop All Migrations**. If you do, all pending migrations are also stopped.
+You can stop migrating data by choosing **Stop All Migrations** . If you do, all pending migrations are also stopped.
 
 ## <a name="see-also"></a>See Also
 

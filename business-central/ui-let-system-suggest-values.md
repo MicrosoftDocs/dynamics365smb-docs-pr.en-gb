@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9703034a622b07d4e0154112eff23cdfa6d556ba
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8e1c3c1eeb90f57aeed70a142f3429c593a0c1a2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781417"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910112"
 ---
 # <a name="letting-d365fin-suggest-values"></a>Letting [!INCLUDE[d365fin](includes/d365fin_md.md)] Suggest Values
 [!INCLUDE[d365fin](includes/d365fin_md.md)] can help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself. Although such automatic data entry is always correct, you can change it afterwards if you want to.
@@ -25,7 +25,7 @@ Functionality that enters field values for you is typically offered for tasks wh
 When, for example, you are entering general journal lines for multiple expenses that must all be posted to the same bank account, then each time you enter a new journal line for an expense, you can have the **Amount** field on the bank account line automatically updated to the amount that balances the expenses. For more information about working with general journals, see [Working with General Journals](ui-work-general-journals.md).
 
 ### <a name="to-have-the-amount-field-on-balancing-general-journal-lines-filled-automatically"></a>To have the **Amount** field on balancing general journal lines filled automatically
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals** , and then choose the related link.
 2. On the line for your preferred general journal batch, choose the **Suggest Balancing Amount** check box.
 3. Open the general journal and proceed to register and post transactions using the described functionality for automatic entry of a field value.       
 
@@ -37,7 +37,7 @@ The **Payment Registration** page shows outstanding incoming payments as lines t
 You main actions on the page are to fill in the **Payment Made** check box and the **Date Received** field. You can set [!INCLUDE[d365fin](includes/d365fin_md.md)] up to automatically enter work date in the **Date Received** field when you select the **Payment Made** check box.
 
 ### <a name="to-have-the-date-received-field-on-the-payment-registration-page-filled-automatically"></a>To have the **Date Received** field on the **Payment Registration** page filled automatically
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration Setup** , and then choose the related link.
 2. Select the **Automatically Fill Date Received** check box.
 3. Open the **Payment Registration** page and proceed to process incoming customer payments using the described functionality for automatic entry of a field value.
 

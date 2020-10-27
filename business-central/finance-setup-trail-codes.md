@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: e39de1d4656b272c5c6cf5c01f54d5d6ebeca05b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372694"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914221"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Setting Up Source Codes and Reason Codes for Audit Trails
 
@@ -29,11 +29,11 @@ Sometimes, you want see how a particular entry arose, such as whether it came fr
 
 Posting journals, orders, invoices, or credit memos, and running various batch jobs, creates entries in the financial statements. The **Source Code Setup** page contains several FastTabs, one for each application area. Each FastTab contains the source codes that are applicable for that application area.
 
-When you post or run a batch job, the correct source code is automatically attached to the entry. For example, when you post from the general journal, the entry is coded as *GENJNL*. You can then filter the **General Ledger Entries** page to show which entries were posted from the general journal or from sales documents, for example
+When you post or run a batch job, the correct source code is automatically attached to the entry. For example, when you post from the general journal, the entry is coded as *GENJNL* . You can then filter the **General Ledger Entries** page to show which entries were posted from the general journal or from sales documents, for example
 
 ### <a name="to-define-source-codes"></a>To define source codes
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Source Code Setup**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Source Code Setup** , and then choose the related link.  
 
 2. In the **Source Code Setup** window, for each each posting type and batch job, specify the relevant source code.  
 
@@ -41,11 +41,11 @@ You can change the contents of a field later, and that change will then impact f
 
 ## <a name="change-source-codes"></a>Change source codes
 
-You may want to change a source code. For example, you want to change the source code *GENJNL* to *GNJ*.
+You may want to change a source code. For example, you want to change the source code *GENJNL* to *GNJ* .
 
 ### <a name="to-change-source-codes"></a>To change source codes
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Source Codes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Source Codes** , and then choose the related link.
 
 2. On the line with the code to be changed, select the code in the **Code** field.
 
@@ -59,7 +59,7 @@ Reason codes supplement the source codes and are used to indicate why an entry w
 
 ### <a name="to-set-up-reason-codes"></a>To set up reason codes
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon")  icon, enter **Reason Codes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon")  icon, enter **Reason Codes** , and then choose the related link.
 
 2. In the **Reason Codes** window, enter the first code in the **Code** field. In the **Description** field, enter an explanatory text.
 
@@ -69,7 +69,7 @@ The following procedure describes how to add a reason code to a journal template
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>To assign reason codes to journal templates
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon")  icon, enter **General Journal Templates**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon")  icon, enter **General Journal Templates** , and then choose the related link.
 
 2. On the line with the selected journal template, in the **Reason Code** field, specify the relevant code.
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c5e3f26e45a4c990a3614011e21fe8d661973035
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b2ee2dcba364f7b89bae49c3f15f098c51d2c5a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784741"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913554"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Create Workflows from Workflow Templates
 To save time when creating new workflows, you can create workflows from workflow templates.  
@@ -29,7 +29,7 @@ To save time when creating new workflows, you can create workflows from workflow
 On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
 ## <a name="to-create-a-workflow-from-workflow-template"></a>To create a workflow from workflow template  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows** , and then choose the related link.  
 2.  Choose the **Create Workflow from Template** action. The **Workflow Templates** page opens.  
 3.  Select a workflow template, and then choose the **OK** button.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb6c3762d9b6ec587cea6915cf292a6bb57e25fd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1078b9839920684c4be54e1753db5c87e1694912
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782500"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912703"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bookmark a Page or Report on Your Role Centre
 Using the bookmark icon, you can add an action that opens a page or report from the navigation menu of your Role Centre. This allows you to quickly reach your favourite content or business tasks. You add the bookmark from the target page or report, meaning the screen that you want the link on the Role Centre to open.
@@ -35,7 +35,7 @@ An action named after the page is now added to the navigation menu on your Role 
 An action named after the report is now added to the navigation menu on your Role Centre.
 
 ## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>To bookmark a page or report from the Tell Me window
-1. Open the **Tell Me** window and enter, for example, **Sales Orders**.
+1. Open the **Tell Me** window and enter, for example, **Sales Orders** .
 2. Hover over the search result for the **Sales Orders** page or report, and then choose the ![Bookmark](media/ui_bookmark_icon.png "Bookmark") icon.
 
 An action named after the page or report is now added to the navigation menu on your Role Centre.

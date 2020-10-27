@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ed022ead8151d7a17269fd0282fa54cc9acd34dc
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 638b1f560dc28374e0e8d5afbc94f6ef8d416c83
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777523"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913153"
 ---
 # <a name="service-order-status-and-repair-status"></a>Service Order Status and Repair Status
 The **Status** field on the **Service Order** page and the service item repair status, which is represented by the **Repair Status Code** field on the **Service Order** page have a certain relationship in Service Management. The service order status reflects the repair status of all the service items in the service order.  
@@ -28,19 +28,19 @@ The **Status** field on the **Service Order** page and the service item repair s
 * The service order status that each repair status is linked to. For more information, see Service Order Status.  
 * The level of priority of each service order status option. For more information, see Priority.  
 
- When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending**.  
+ When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending** .  
 
 ## <a name="specifying-service-order-status-for-repair-status"></a>Specifying Service Order Status for Repair Status  
-Each repair status is linked to a particular service order status. The options for the service order status are as follows: **Pending**, **In Process**, **On Hold**, and **Finished**. The repair status options are as follows: **Initial**, **In Process**, **Referred**, **Partly Serviced**, **Quote Finished**, **Waiting for Customer**, **Spare Part Ordered**, **Spare Part Received**, and **Finished**.  
+Each repair status is linked to a particular service order status. The options for the service order status are as follows: **Pending** , **In Process** , **On Hold** , and **Finished** . The repair status options are as follows: **Initial** , **In Process** , **Referred** , **Partly Serviced** , **Quote Finished** , **Waiting for Customer** , **Spare Part Ordered** , **Spare Part Received** , and **Finished** .  
 
 ### <a name="pending"></a>Pending  
-The service order status **Pending** indicates that the service can start or continue at any time. Therefore, the repair status options of **Initial**, **Referred**, **Partly Serviced**, and **Spare Part Received** can be linked to this service order status.  
+The service order status **Pending** indicates that the service can start or continue at any time. Therefore, the repair status options of **Initial** , **Referred** , **Partly Serviced** , and **Spare Part Received** can be linked to this service order status.  
 
 ### <a name="in-process"></a>In Process  
 The service order status **In Process** indicates that the service is in process. Therefore, the repair status options **In Process** and **Spare Part Ordered** can both be linked to this service order status. If you link the **Spare Part Ordered** status to an **In Process** service order status, you must also link the **Spare Part Received** status to this service order status.  
 
 ### <a name="on-hold"></a>On Hold  
-The service order status **On Hold** indicates that the service is temporarily on hold because you are waiting for a customer response or spare parts before the service can start. Therefore, the repair status options of **Quote Finished**, **Spare Part Ordered**, and **Waiting for Customer** can be linked to this service order status.  
+The service order status **On Hold** indicates that the service is temporarily on hold because you are waiting for a customer response or spare parts before the service can start. Therefore, the repair status options of **Quote Finished** , **Spare Part Ordered** , and **Waiting for Customer** can be linked to this service order status.  
 
 ### <a name="finished"></a>Finished  
 The service order status **Finished** indicates that the service has been completed. Therefore, the **Finished** repair status is linked to this status.  
@@ -58,7 +58,7 @@ A typical priority level assignment could be as follows:
 * On Hold - Medium low  
 * Finished - Low  
 
-For example, if one service item has the repair status **Initial**, linked to the service order status **Pending**, another has the repair status **In Process**, linked to the service order status **In Process**, and a third has the repair status **Spare Part Ordered**, linked to the service order status **On Hold**, the resulting service order status will be **In Process** because this has the highest priority.  
+For example, if one service item has the repair status **Initial** , linked to the service order status **Pending** , another has the repair status **In Process** , linked to the service order status **In Process** , and a third has the repair status **Spare Part Ordered** , linked to the service order status **On Hold** , the resulting service order status will be **In Process** because this has the highest priority.  
 
 ## <a name="see-also"></a>See Also  
 [Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)  

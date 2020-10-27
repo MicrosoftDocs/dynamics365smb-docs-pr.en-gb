@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5cddd49089202e83ffbc2f6062c5c69067157df8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c7b6a70c800308fd04067be191f80f89f02f5a0d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784516"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910287"
 ---
 # <a name="set-up-service-offerings"></a>Set Up Service Offerings
 When you set up service management, you must decide what services to offer customers and the schedule for those services. A service is a type of work performed by one or more resources and provided to a customer. For example, a service could be a type of computer repair. A service item is the equipment or item that needs servicing, for example, the computer that needs repair, installed at a specific customer. You can set up services as part of a group of related repair or maineenance items.  

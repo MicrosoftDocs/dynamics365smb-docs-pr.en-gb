@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 8e55baf7fcc375c492a4b50794d823ad13b432a4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 854970fc2d47110375cf905236df19c90db27e33
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181395"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914046"
 ---
 # <a name="record-interactions-with-contacts"></a>Record Interactions With Contacts
 Setting up your application to record interactions consists of these tasks:
@@ -41,7 +41,7 @@ There are two ways of recording interactions:
 ## <a name="viewing-and-managing-recorded-interactions"></a>Viewing and Managing Recorded Interactions
 You can view all the recorded interactions that have not been deleted on the **Interaction Log Entries** page. You can open this page by:
 
-* Using the **Search for Page or Report** icon to search on **Interaction Log Entries**.
+* Using the **Search for Page or Report** icon to search on **Interaction Log Entries** .
 * Choosing the **Interaction Log Entries** action on a contact or segment.
   The **Interaction Log Entry** page contains the interactions you create manually and the interactions that the application records automatically.
 
@@ -50,7 +50,7 @@ In this page, you can:
 * View the status of interactions.
 * Mark interactions as cancelled.
 
-You can delete interaction log entries that have been cancelled. To delete interaction log entries, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Cancelled Interaction Log Entries**, and then choose the related link, and then fill in the information.
+You can delete interaction log entries that have been cancelled. To delete interaction log entries, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Cancelled Interaction Log Entries** , and then choose the related link, and then fill in the information.
 
 ## <a name="see-also"></a>See Also
 [Managing Contacts](marketing-contacts.md)  

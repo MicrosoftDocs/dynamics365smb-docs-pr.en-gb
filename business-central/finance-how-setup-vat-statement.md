@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 00b7958c9402ff47e1daf8ddd9b55b7623f7fe6a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9e750f5c68361d0582ce59784bab41337d331152
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183507"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913645"
 ---
 # <a name="set-up-a-vat-statement"></a>Set Up a VAT Statement
 
@@ -25,21 +25,21 @@ Tax authorities can, and do, change their requirements for posting VAT. VAT Stat
 ## <a name="to-define-a-vat-statements"></a>To define a VAT statements
 VAT statements let you calculate your VAT settlement amount for a certain period, for example, a quarter.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements** , and then choose the related link.  
 2. Choose the **Name** field, and then choose **New** on the **VAT Statement Names** page.
 3. Fill in the required fields. Usually you want to have a setting for each VAT Bus. Posting Group / VAT Prod. Posting Group combination. For Row numbers it does make sense to use equvalent numbers or codes as in your official VAT Statement [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
 > [!Tip]
 > You can filter the information that the statement will include, depending on what you choose in the **Type** field. **Account Totalling** is useful when you want the VAT from a specific account.
-**VAT Entry Totalling** gets VAT from the accounts assigned to the selections in the **Gen. Posting Type**, **VAT Bus. Posting Group**, and/or the **VAT Prod. Posting Group** fields. **Row Totalling** lets you enter a value or quick filter criteria in the **Row Totalling** field. For more information, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md). **Description** is often used to add a note to the statement. For example, you could use it as a heading when you've used row totalling.
+**VAT Entry Totalling** gets VAT from the accounts assigned to the selections in the **Gen. Posting Type** , **VAT Bus. Posting Group** , and/or the **VAT Prod. Posting Group** fields. **Row Totalling** lets you enter a value or quick filter criteria in the **Row Totalling** field. For more information, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md). **Description** is often used to add a note to the statement. For example, you could use it as a heading when you've used row totalling.
 
 ## <a name="to-preview-the-vat-statement"></a>To preview the VAT statement
 After you define a VAT statement, you can preview it to make sure it meets your needs.
 > [!Tip]
-> It is best practice to have one section in the VAT Statement using **Type****Vat Entry Totalling** and another section below using **Type****Account Totalling** to reconcile the amounts based on the **VAT Entry** table compared to the amount on the **G/L Accounts**. You can also use the **G/L - VAT Reconciliation** Report for this purpose.
+> It is best practice to have one section in the VAT Statement using **Type****Vat Entry Totalling** and another section below using **Type****Account Totalling** to reconcile the amounts based on the **VAT Entry** table compared to the amount on the **G/L Accounts** . You can also use the **G/L - VAT Reconciliation** Report for this purpose.
 
-1. Choose **Preview**.
+1. Choose **Preview** .
 2. Enter a date filter to limit the statement to a specific period. For more information about how to customise the page to show the date filter, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md).
 3. You can select various options to specify the type of VAT entries to include in the statement.
 4. On the lines where the **Type** field contains **VAT Entry Totalling** you can see a list of VAT entries by choosing the amount in the **Column Amount** field.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c04dac37b043995a9b78e2f662f9411c3cf9ae1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1fd25f8b07a359414f62ef4757162f8a73889c27
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782525"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912728"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Post Multiple Documents at the Same Time
 
@@ -25,7 +25,7 @@ Instead of posting individual documents one by one, you can select multiple non-
 
 The following procedure explains how to post multiple purchase orders immediately. The steps are similar for all purchase and sales documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** , and then choose the related link.
 2. On the **Purchase Orders** page, proceed to select all orders to be posted:
 3. In the **No.** field, choose the three vertical dots to open the context menu, and then choose the **Select More** action.
 4. Select the check box for all the lines representing orders that you want to post at the same time.
@@ -39,7 +39,7 @@ The following procedure explains how to batch post purchase orders. The steps ar
 > [!NOTE]
 > Batch posting of documents happens in the background. [!INCLUDE [prodshort](includes/prodshort.md)] online includes default jobs for background posting and batch posting. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** , and then choose the related link.  
 2. On the **Purchase Orders** page, proceed to select all orders to be posted:
 3. In the **No.** field, choose the three vertical dots to open the context menu, and then choose the **Select More** action.
 4. Select the check box for all the lines representing orders that you want to post at the same time.

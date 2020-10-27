@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ea5d9fce1c10cf3c07c833efbe19b208f0c5a7c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0144c5283d6c5b860cb14522c08acec2f769df8d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788882"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910562"
 ---
 # <a name="set-up-shipping-agents"></a>Set Up Shipping Agents
 You can set up a code for each of your shipping agents and enter information about them.  
@@ -28,10 +28,10 @@ For each shipping agent, you can set up an unlimited number of services, and you
 When you have assigned a shipping agent service to a sales order line, the shipping time of the service will be included in the order promising calculation, for that line. For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>To set up a shipping agent  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipping Agents**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipping Agents** , and then choose the related link.  
 2.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Choose the **Shipping Agent Services** action.
-4. In the **Shipping Agent Services**, fill in the fields as necessary.
+4. In the **Shipping Agent Services** , fill in the fields as necessary.
 
 > [!NOTE]  
 >  If you delete the shipping agent on the order line, the shipping agent service code is also deleted. The contents of fields that were based in part on the shipping agent service are recalculated.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1ad2eb6d2e9a423aa1891eb52f71e815f4b89eff
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785453"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912503"
 ---
 # <a name="entering-data"></a>Entering Data
 
@@ -54,7 +54,7 @@ Press the **F2** key to toggle between selecting the entire field value or placi
 
 When the cursor is shown at the end of the field value:
 - Add to the value by just typing.
-- Use the **Home**, **End**, **Left-arrow**, and **Right-arrow** keys to move the cursor within the value. If you're editing a field in a list, pressing the **Left-arrow** key again when the cursor is at the beginning of the value will set focus to the previous field. Similarly, pressing the **Right-arrow** key again when the cursor is at the end of the value will set focus to the next field.
+- Use the **Home** , **End** , **Left-arrow** , and **Right-arrow** keys to move the cursor within the value. If you're editing a field in a list, pressing the **Left-arrow** key again when the cursor is at the beginning of the value will set focus to the previous field. Similarly, pressing the **Right-arrow** key again when the cursor is at the end of the value will set focus to the next field.
 
 > [!NOTE]
 > After you specify a value, Business Central will only check that it's valid after you click outside the field or set focus to another element, such as the next field.  
@@ -74,7 +74,7 @@ You can use the Tab key to navigate from one field on a page to the next editabl
 
 ### <a name="how-quick-entry-works"></a>How Quick Entry Works
 
-Every field can be marked as either *included in Quick Entry* or *excluded from Quick Entry*. Fields that are included in Quick Entry will be included in the path when you press Enter. Fields that are excluded from Quick Entry won't.
+Every field can be marked as either *included in Quick Entry* or *excluded from Quick Entry* . Fields that are included in Quick Entry will be included in the path when you press Enter. Fields that are excluded from Quick Entry won't.
 
 When you're finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry Shortcuts for Fields](keyboard-shortcuts.md#QuickEntry).
 
@@ -94,7 +94,7 @@ The following list provides some useful information about using Quick Entry.
 To set up Quick Entry on fields, you use personalisation.
 
 1. Start personalisation by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then the **Personalise** action.
-2. Select a field that you want change. In lists, select the corresponding column heading. Then, choose either **Include in Quick Entry** or **Exclude from Quick Entry**.
+2. Select a field that you want change. In lists, select the corresponding column heading. Then, choose either **Include in Quick Entry** or **Exclude from Quick Entry** .
 
 For more information about personalisation, see [Personalise Your Workspace](ui-personalization-user.md).
 
@@ -192,7 +192,7 @@ You can enter negative numbers in two ways. The number -20.5 can be entered as:
 
  In both cases, the amount will be recorded in as -20.5.  
 
- If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign. An example, **10-20+** will result in 10 and not -10.  
+ If the last character of the expression is a **+** or a **-** , the entire expression will be recorded with that sign. An example, **10-20+** will result in 10 and not -10.  
 
 ## <a name="entering-dates-and-times"></a>Entering Dates and Times
 

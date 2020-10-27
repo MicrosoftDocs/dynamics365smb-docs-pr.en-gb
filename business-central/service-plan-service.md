@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4e3e879a2f768e8260693d160c419b006159ed46
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0e6218a313c2cb9031da8ee1c66a90cfe9dd0207
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192490"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915267"
 ---
 # <a name="planning-services"></a>Planning Services
 With [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To do this, you must determine what service items and offerings your service organisation supports, and at what price.   

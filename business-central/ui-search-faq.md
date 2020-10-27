@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a23851dfbca688c5935d967a66ad6ebc8a0abe5e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f7534d1e3365dd02b6f9f1afde03b5de76640e1a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195346"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914892"
 ---
 # <a name="tell-me-faq"></a>Tell Me FAQ
 This topic answers questions that our advanced users often ask about the Tell Me feature.
@@ -39,7 +39,7 @@ You can use Tell Me in the on-premises Web Client to find actions, pages, and re
 Tell Me is only available in the Web Client or Windows desktop app.
 
 ### <a name="are-the-documentation-results-available-in-any-language"></a>Are the documentation results available in any language?
-The help articles display in the language you have specified in **My Settings**, if help is available in that language.
+The help articles display in the language you have specified in **My Settings** , if help is available in that language.
 
 ### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Why don't I see a bookmark icon for my search results?
 The bookmark icon is not displayed in the Tell Me window when personalisation is disabled for a user role.

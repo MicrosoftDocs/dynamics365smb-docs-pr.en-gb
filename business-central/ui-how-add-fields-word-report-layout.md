@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d5aba21a9b98ef98b31dc4bc4dfa0bb853d7891a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 192ce7cfea150e78bfdcac6961e529046c920e21
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193934"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915017"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Add Fields to a Word Report Layout
 A report dataset can consist of fields that display labels, data, and images. This topic describes the procedure for adding fields of a report dataset to an existing Word report layout for a report. You add fields by using the Word custom XML part for the report and adding content controls that map to the fields of the report dataset. Adding fields requires that you have some knowledge of the report's dataset so that you can identify the fields that you want to add to the layout.  
@@ -33,11 +33,11 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
      By default, the **Developer** tab is not shown in the ribbon. For more information, see [Show the Developer Tab on the Ribbon](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
-3.  On the **Developer** tab, choose **XML Mapping Pane**.  
+3.  On the **Developer** tab, choose **XML Mapping Pane** .  
   
 4.  In the **XML Mapping** pane, in the **Custom XML Part** dropdown list, choose the custom XML part for ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> report, which is typically last in the list. The name of the custom XML part has the following format:  
   
-     urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
+     urn:microsoft-dynamics-nav/reports/ *report_name*/*ID*  
   
      *report_name* is the name that is assigned to the report<!--OnPrem as specified by the report's [Name Property-duplicate](../FullExperience/nav_dev_long_md.md)]-->.  
   
@@ -49,7 +49,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 1.  Place your cursor in the document where you want to add the control.  
   
-2.  In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Plain Text**.  
+2.  In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control** , and then choose **Plain Text** .  
   
     > [!NOTE]  
     >  You cannot add a field by manually typing the dataset field name in the content control. You must use the **XML Mapping** pane to map the fields.  
@@ -62,13 +62,13 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 2.  Select the entire row.  
   
-3.  In the **XML Mapping** pane, right-click the control that corresponds to the report data item that contains the fields that you want repeated, choose **Insert Content Control**, and then choose **Repeating**.  
+3.  In the **XML Mapping** pane, right-click the control that corresponds to the report data item that contains the fields that you want repeated, choose **Insert Content Control** , and then choose **Repeating** .  
   
 4.  Add the repeating fields to the row as follows:  
   
     1.  Place your pointer in a column.  
   
-    2.  In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Plain Text**.  
+    2.  In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control** , and then choose **Plain Text** .  
   
     3.  For each field, repeat steps a and b.  
   
@@ -84,12 +84,12 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 1.  Place your pointer in the document where you want to add the control.  
   
-2.  In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Picture**.  
+2.  In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control** , and then choose **Picture** .  
   
 3.  To increase or decrease the image size, drag a sizing handle away from or towards the centre of the content control.  
 
 ## <a name="custom-xml-part-overview"></a>Custom XML Part Overview
-Word report layouts are built on *custom XML parts*. A custom XML part for a report consists of elements that correspond to the data items, columns, and labels that comprise the report's dataset. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->The custom XML part is used to map the data into a report when the report is run.
+Word report layouts are built on *custom XML parts* . A custom XML part for a report consists of elements that correspond to the data items, columns, and labels that comprise the report's dataset. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->The custom XML part is used to map the data into a report when the report is run.
 
   
 ### <a name="xml-structure-of-custom-xml-part"></a>XML Structure of Custom XML Part  

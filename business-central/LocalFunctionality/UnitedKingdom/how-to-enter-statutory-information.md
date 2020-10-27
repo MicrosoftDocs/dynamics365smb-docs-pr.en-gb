@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8be8b863caa8c57f6ec87d3543c9231e3a41387f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3f2badc006ab3a71a7916c0cf41ba1705d308643
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782036"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914634"
 ---
 # <a name="enter-statutory-information"></a>Enter Statutory Information
 To comply with legal requirements, statutory information is available on the **Statutory** FastTab on the **Company Information** page.  
 
 ## <a name="to-enter-statutory-information"></a>To enter statutory information  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** , and then choose the related link.  
 2.  On the **Statutory** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

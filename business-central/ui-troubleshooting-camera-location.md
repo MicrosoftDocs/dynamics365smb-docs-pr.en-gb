@@ -3,19 +3,19 @@ title: 'Troubleshooting: Accessing Camera and Location'
 description: This article describes how to troubleshoot access to camera and location information in Business Central.
 author: blrobl
 ms.author: t-blrobl
-ms.date: 04/22/2020
+ms.date: 10/01/2020
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.openlocfilehash: 10338040ddcfb64dd91e9e55f607280e99720403
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b44044b9ec2c71ad3b99f25b4a941a3ab473ca4f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781142"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912028"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Troubleshooting: Accessing Camera and Location
 
@@ -29,11 +29,11 @@ If your device has camera and location capabilities but you still encounter prob
 
 ## <a name="access-permissions-not-enabled"></a>Access Permissions not Enabled
 
-You must enable general access to camera and location from your device's privacy settings and explicitly give permission to  [!INCLUDE[prodshort](includes/prodshort.md)] to access them. For example, to see or change permissions for a device running on Windows, go to **Settings**, choose **Privacy**, and then **App permissions**. 
+You must enable general access to camera and location from your device's privacy settings and explicitly give permission to  [!INCLUDE[prodshort](includes/prodshort.md)] to access them. For example, to see or change permissions for a device running on Windows, go to **Settings** , choose **Privacy** , and then **App permissions** . 
 
-For mobile devices, you must give camera and location access permissions to the [!INCLUDE[prodshort](includes/prodshort.md)] Mobile App. To do so for an iOS device, go to **Settings**, choose **Privacy**, and then **Camera** or **Location**. For Android devices go to **Settings**, choose **Apps & Notifications**, **Advanced**, **Permission Manager**, and then **Camera** or **Location**.
+For mobile devices, you must give camera and location access permissions to the [!INCLUDE[prodshort](includes/prodshort.md)] Mobile App. To do so for an iOS device, go to **Settings** , choose **Privacy** , and then **Camera** or **Location** . For Android devices go to **Settings** , choose **Apps & Notifications** , **Advanced** , **Permission Manager** , and then **Camera** or **Location** .
 
-In addition, if you are using [!INCLUDE[prodshort](includes/prodshort.md)] in a browser, you must also grant the [!INCLUDE[prodshort](includes/prodshort.md)] site permission to access the camera or location information. To see or change a site's permissions in the Microsoft Edge browser, go to **Settings**, choose **Site Permissions**, and then **Camera** or **Location**. Note that this might be different for other browsers.
+In addition, if you are using [!INCLUDE[prodshort](includes/prodshort.md)] in a browser, you must also grant the [!INCLUDE[prodshort](includes/prodshort.md)] site permission to access the camera or location information. To see or change a site's permissions in the Microsoft Edge browser, go to **Settings** , choose **Site Permissions** , and then **Camera** or **Location** . Note that this might be different for other browsers.
 
 By default, the device or browser will pop up a request to access these capabilities when the user activates them for the first time.
 

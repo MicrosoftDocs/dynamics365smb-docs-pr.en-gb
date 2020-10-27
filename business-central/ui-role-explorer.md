@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 732ba4989b5097e57ed6e42df1502053151ca36b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: dff5ad97f8fa4b8fecf2906806d74283b46fd95d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781217"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914917"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Finding Pages with the Role Explorer
-You can get an overview of all the business features that are available for your role, and for other roles if you go a step further. In the following documentation, this feature overview is referred to as the *role explorer*.
+You can get an overview of all the business features that are available for your role, and for other roles if you go a step further. In the following documentation, this feature overview is referred to as the *role explorer* .
 
 Each element on the role explorer is an action that opens a page. Accordingly, you can also use the role explorer as a means to navigate in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9beffaa8e881717506d0c471b9e8bfb9feaf3168
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0ff9dd0851b220b9e3e4888e43ffa070397b8943
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779141"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911928"
 ---
 # <a name="ship-items"></a>Ship Items
 
@@ -30,7 +30,7 @@ When you ship items from a warehouse that is set up warehouse shipment processin
 
 The following describes how to ship items from a sales order. The steps are similar for purchase return orders, service orders, and outbound transfer orders.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.
 2. Open an existing sales order, or create a new one. For more information, see [Sell Products](sales-how-sell-products.md).
 3. In the **Qty. to Ship** field, enter the shipped quantity.
 
@@ -48,7 +48,7 @@ First you create a shipment document from a business source document. Then you p
 
 Typically, the employee who is responsible for shipping creates a warehouse shipment. The following procedure describes how to create the shipment manually in the default version of [!INCLUDE[prodshort](includes/prodshort.md)], but your organisation might have automated part of the process, such as with the use of hand-held or mounted scanners that are supported by external providers.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments** , and then choose the related link.  
 2. Choose the **New** action.  
 
     Fill in the fields on **General** FastTab. When you retrieve source document lines, some of the information is copied to each line.  
@@ -83,12 +83,12 @@ When you have the lines you want to ship, you can start the process that sends t
 
 Typically, a warehouse worker responsible for picking creates a pick document, or opens an already created pick document.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments** , and then choose the related link.
 2. Select the warehouse shipment that you want to pick for, and then choose the **Create Pick** action.
 3. Fill in the fields in the request page, and then choose the **OK** button. The specified warehouse pick document is created.
 
     Alternatively, open an existing warehouse pick.
-4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link. Select the warehouse pick that you want to work on.
+4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks** , and then choose the related link. Select the warehouse pick that you want to work on.
 
     If the warehouse is set up to use bins, then the pick lines have been converted to Take and Place action lines.
 

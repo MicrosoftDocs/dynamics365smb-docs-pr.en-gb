@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9254d7b32d96fc97dd1c6facba567f92bbb630b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 25d94f27f1a440342c8e24310b5c853aa832b4db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786653"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910212"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Walkthrough: Setting Up and Using a Purchase Approval Workflow
 You can automate the process of approving new or changed records, such as documents, journal lines, and customer cards, by creating workflows with steps for the approvals in question. Before you create approval workflows, you must set up an approver and substitute approver for each approval user. You can also set approvers’ amount limits to define which sales and purchase records they are qualified to approve. Approval requests and other notifications can be sent as email or internal note. For each approval user setup, you can also set up when they receive notifications.
@@ -46,7 +46,7 @@ Before you can set up approval users and their notification method, you must mak
 When signed in as yourself, set Alicia up as an approval user whose approver is yourself. Set up your approval rights and specify how and when you are notified of approval requests.  
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>To set up yourself and Alicia as approval users  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup** , and then choose the related link.  
 2.  On the **Approval User Setup** page, choose the **New** action.  
 
     > [!NOTE]  
@@ -64,16 +64,16 @@ In this walkthrough, the user is notified by internal note about requests to app
 
 #### <a name="to-set-up-how-and-when-you-are-notified"></a>To set up how and when you are notified  
 1.  On the **Approval User Setup** page, select the line for yourself, and then choose the **Notification Setup** action.  
-2.  On the **Notification Setup** page, in the **Notification Type** field, choose **Approval**.  
-3.  In the **Notification Method** field, choose **Note**.  
+2.  On the **Notification Setup** page, in the **Notification Type** field, choose **Approval** .  
+3.  In the **Notification Method** field, choose **Note** .  
 6.  On the **Notification Setup** page, choose the **Notification Schedule** action.  
-7.  On the **Notification Schedule** page, in the **Recurrence** field, select **Instantly**.  
+7.  On the **Notification Schedule** page, in the **Recurrence** field, select **Instantly** .  
 
 ## <a name="creating-the-approval-workflow"></a>Creating the Approval Workflow  
  Create the purchase order approval workflow by copying the steps from the Purchase Order Approval Workflow workflow template. Leave the existing workflow steps unchanged, and then enable the workflow.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>To create and enable a purchase order approval workflow  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows** , and then choose the related link.  
 2.  On the **Workflows** page, choose the **New Workflow from Template** action.  
 3.  On the **Workflow Templates** page, select the workflow template named Purchase Order Approval Workflow, and then choose the **OK** button.  
 
@@ -85,20 +85,20 @@ Use the new Purchase Order Approval Workflow workflow by first signing in to [!I
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>To request approval of a purchase order, as Alicia  
 1. Sign in as Alicia.
-2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** , and then choose the related link.  
 3.  Select the line for open purchase order 106001, and then choose the **Edit** action.  
 4.  On the **Purchase Order** page, choose the **Send Approval Request** action.  
 
-Notice that the value in the **Status** field has changed to **Pending Approval**.  
+Notice that the value in the **Status** field has changed to **Pending Approval** .  
 
 ### <a name="to-approve-the-purchase-order-as-sean"></a>To approve the purchase order, as Sean  
 1. Sign in as Sean.
 2. On the Role Centre, in the **Self Service** area, choose the **Requests to Approve** tile.
 3. On the **Requests to Approve** page, select the line about the purchase order by Alicia, and then choose the **Approve** action.  
 
-The value in the **Status** field on Alicia’s purchase order changes to **Released**.  
+The value in the **Status** field on Alicia’s purchase order changes to **Released** .  
 
-You have now set up and tested a simple approval workflow based on the first two steps of the Purchase Order Approval Workflow workflow. You can easily extend this workflow to automatically post Alicia’s purchase order when Sean approves it. To do this, you must enable the Purchase Invoice Workflow workflow, in which the response to a released purchase invoice is to post it. First you must change the event condition on the first workflow step from (purchase) **Invoice** to **Order**.  
+You have now set up and tested a simple approval workflow based on the first two steps of the Purchase Order Approval Workflow workflow. You can easily extend this workflow to automatically post Alicia’s purchase order when Sean approves it. To do this, you must enable the Purchase Invoice Workflow workflow, in which the response to a released purchase invoice is to post it. First you must change the event condition on the first workflow step from (purchase) **Invoice** to **Order** .  
 
 The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a number of workflow templates for scenarios that are supported by the application code. Most of these are for approval workflows.  
 

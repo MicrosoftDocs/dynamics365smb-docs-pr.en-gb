@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 122c1e602f9f7d1c50115ba1e6ba515694fc84a1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785428"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912478"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Working with Calendar Dates and Times
 
@@ -76,7 +76,7 @@ Enter the word for today, in the language set by **Language** setting, that will
 
 ### <a name="period"></a>Period
 
-To filter on a specific accounting period, in a date field enter the letter p, or the word period, followed by a number that identifies the accounting period, like p2 or period4. The accounting period is relative to the fiscal year of the current work date that set in your Role Centre. For example, if the work date is **03/21/20**, then p1, or just p, filters on the first accounting period of the fiscal year 2020 (such as 01/01/20..01/31/20). p15 filters on the fifteenth accounting period from the start of fiscal year 2020 (such as 03/01/21..03/31/21).
+To filter on a specific accounting period, in a date field enter the letter p, or the word period, followed by a number that identifies the accounting period, like p2 or period4. The accounting period is relative to the fiscal year of the current work date that set in your Role Centre. For example, if the work date is **03/21/20** , then p1, or just p, filters on the first accounting period of the fiscal year 2020 (such as 01/01/20..01/31/20). p15 filters on the fifteenth accounting period from the start of fiscal year 2020 (such as 03/01/21..03/31/21).
 
 The accounting periods are defined on the **Accounting Periods** page. To view or change the accounting periods, open the page [here](https://businesscentral.dynamics.com/?page=100).
 
@@ -98,7 +98,7 @@ To specify that a date is a closing date, put C just before the date, such as C1
 
 ### <a name="examples"></a>Examples
 
-The following table contains examples of dates using all the formats. It assumes region settings that format dates according to: **year.month.day.**, a week starting on Monday, and the English language.
+The following table contains examples of dates using all the formats. It assumes region settings that format dates according to: **year.month.day.** , a week starting on Monday, and the English language.
 
 |**Entry**      |**Interpretation**      |
 |---------------|------------------------|

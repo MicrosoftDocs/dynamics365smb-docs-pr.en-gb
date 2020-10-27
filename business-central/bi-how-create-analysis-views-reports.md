@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 259c8ffdef6df97fb4e2f3e30b110f36e07ba1df
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3c4e5b5211b9e56193698e2f86b587e5f8951f79
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786203"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913820"
 ---
 #  <a name="create-analysis-reports"></a>Create Analysis Reports
 Sales managers need to analyze turnover, gross profit and other key sales performance indicators on a regular basis. Purchasers, are more interested in the dynamics of purchase volumes, vendors' performance and purchase prices. Whereas logistics/inventory managers need information on inventory turnover, analysis of inventory movement, and statistics on inventory value.  
@@ -61,14 +61,14 @@ In an analysis report, your analysis parameters are shown as columns. You can de
 
 A template contains a set of lines each representing the analysis columns that you see in the analysis report. To define a column you must assign an analysis type code to a line. This analysis type code determines the type of source data in the item ledger entries that the analysis will be based on. Source data includes cost, sales amount, or quantity, and their associated value entries. You can set up as many column templates as you like, and then use them to create new analysis reports.    
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Column Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Column Templates** , and then choose the related link.  
 2. Select the first empty line, and then fill in the fields as necessary.
 3. Choose the **Columns** action.  
 4. On the **Analysis Columns** page, fill in the fields to specify the columns that you want to include in your analysis report.  
 
     > [!NOTE]  
-    >   To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**. Set up the analysis type codes on the **Analysis Types** page.  
-    Also, in the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied. If you select **Item Budget Entries**, the budgeted figures from the budget are copied.  
+    >   To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula** . Set up the analysis type codes on the **Analysis Types** page.  
+    Also, in the **Ledger Entry Type** field, if you select **Item Entries** , the actual figures from the item ledger entry are copied. If you select **Item Budget Entries** , the budgeted figures from the budget are copied.  
 5.  Choose the **OK** button to save your changes.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>To set up analysis line templates  
@@ -78,10 +78,10 @@ In an analysis report your analysis objects are shown on the lines. You can defi
 
 A template contains a set of lines representing the analysis lines that you see in the analysis report. A line can specify one or a range of items, customers, vendors, or groups. You can also create a formula in a line to sum up the other lines. You can set up as many line templates as you like, and then use them to create new analysis reports.    
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Line Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Line Templates** , and then choose the related link.  
 2. Select the first empty line, and then fill in the fields as necessary.
 3. Choose the **Lines** action.  
-4. On the **Analysis Lines** page, create lines for the items, customers, vendors, or salespeople you want to view figures for in your analysis report. You must fill in the **Type**, **Range**, and the **Description** fields.  
+4. On the **Analysis Lines** page, create lines for the items, customers, vendors, or salespeople you want to view figures for in your analysis report. You must fill in the **Type** , **Range** , and the **Description** fields.  
 
 > [!NOTE]  
 >   Alternatively, when you want to create many individual lines for each item, customer, and so on, you can select the appropriate insert option to fill in all the relevant fields on the line. If you need to, you can then edit the lines manually. To insert lines, choose the **Insert Items** action or the **Insert Item Groups** action.  
@@ -91,7 +91,7 @@ The following procedure is based on analysis reports for sales. The steps are si
 
 You use analysis reports to analyse the dynamics of your sales according to key sales performance indicators that you select, for example, sales turnover in both amounts and quantities, contribution margin, or progress of actual sales against the budget. You can also use the report to analyze your average sales prices and evaluate the sales performance of your sales force.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Analysis Reports**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Analysis Reports** , and then choose the related link.  
 2. On the **Analysis Report Sale** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Edit Analysis Report** action.

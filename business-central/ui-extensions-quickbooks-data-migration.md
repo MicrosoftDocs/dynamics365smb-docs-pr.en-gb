@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f603ce9391a3c971b719a1aae367a2f578166f94
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 34acbbf383048c6ef411797dfb1afcb51f7f6b40
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617818"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912278"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>The QuickBooks Data Migration Extension
 
@@ -57,7 +57,7 @@ In order to get your data out of the QuickBooks desktop application you will nee
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Finding the QuickBooks Data Migration Extension
 
-The QuickBooks Data Migration extension is installed and ready to go as an integrated part of the Data Migration assisted setup guide. If you are ready to get started now, and have exported your data from QuickBooks, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.  
+The QuickBooks Data Migration extension is installed and ready to go as an integrated part of the Data Migration assisted setup guide. If you are ready to get started now, and have exported your data from QuickBooks, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup** , and then choose the related link. Choose **Migrate business data** , and then follow the steps in the guide.  
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>What do I do after I migrate Data?
 

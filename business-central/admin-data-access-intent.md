@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/30/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: 98105cb3e3634169b31a850f20a65a3854b006b4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333915"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911562"
 ---
 # <a name="managing-database-access-intent"></a>Managing Database Access Intent 
 
@@ -29,11 +29,11 @@ When objects run, the database access intent determines whether to use a read-on
 
 The **Database Access Intent List** page lets you override the predefined database access intent for objects when they're run.
 
-In database terms, this feature is commonly known as *read scale-out*. For more information about read-scale out and data access intent in [!INCLUDE[prodshort](includes/prodshort.md)], see [Utilising Read Scale-Out for Better Performance](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in the [!INCLUDE[prodshort](includes/prodshort.md)] Developer and Administration help.
+In database terms, this feature is commonly known as *read scale-out* . For more information about read-scale out and data access intent in [!INCLUDE[prodshort](includes/prodshort.md)], see [Utilising Read Scale-Out for Better Performance](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in the [!INCLUDE[prodshort](includes/prodshort.md)] Developer and Administration help.
 
 ## <a name="to-change-the-database-access-intent"></a>To change the database access intent
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Database Access Intent List**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Database Access Intent List** , and then choose the related link.
 
     The page lists all reports, pages, and queries. The **Access Intent** column includes one of the following values:
 
@@ -48,7 +48,7 @@ In database terms, this feature is commonly known as *read scale-out*. For more 
 3. On the **Edit - Database Access Intent List** page, change the **Access Intent** field for the objects.
 
     > [!NOTE]
-    > If an object that is editable, like the Customer Card, is set to **Read Only**, the primary database will still be used, regardless of the access intent, allowing users to make changes as normal.
+    > If an object that is editable, like the Customer Card, is set to **Read Only** , the primary database will still be used, regardless of the access intent, allowing users to make changes as normal.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 

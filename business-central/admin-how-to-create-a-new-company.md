@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1f176fb0e9d72d948d26d041f417554949087b68
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 095d939d247a419d2adba16f9d3f61c8afb70e4d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783676"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911362"
 ---
 # <a name="create-a-new-company"></a>Create a New Company
 To use RapidStart Services for [!INCLUDE[d365fin](includes/d365fin_md.md)], you first create a new company for which you want to perform a customer implementation. When you create a new company, the standard [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and pages are created, but there is no data in them.
@@ -26,7 +26,7 @@ Example configuration packages, including country/region-specific files, are inc
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>To use the sample BASICCONFIG configuration package  
 1. Open the CRONUS International Ltd. company. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages** , and then choose the related link.  
 3. Choose the BASICCONFIG package from the list, and then choose the **Export Package** action.  
 
 Use the following procedure to create a new company, and use the BASICCONFIG package as part of the process.  

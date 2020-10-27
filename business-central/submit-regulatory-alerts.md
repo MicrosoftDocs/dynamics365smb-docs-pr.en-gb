@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 349c930a5103814d6d7befc3a4e8135bc92081b0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: da0469ddb00e0c29fc04dc421a21724dc247b80b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192154"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912803"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Submit Alerts about Country/Region-Specific Regulatory Features
 
@@ -48,10 +48,10 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 
         |Field        |Description                               |
         |-------------|------------------------------------------|
-        |Title  | Enter a descriptive title to identify the area of impact. For example, enter *Changes in invoice document as of July 1, 2019*. |
+        |Title  | Enter a descriptive title to identify the area of impact. For example, enter *Changes in invoice document as of July 1, 2019* . |
         |Description  | Enter a brief overview of the law. Your description should focus on issues that are relevant to enterprise resource planning (ERP), so that users can understand the requirements at a high level without having to read the legislation first.|
         |Country  | Specify the country or region that the legislation applies to.|
-        |Industry| Specify the industry, if the requirement applies only to specific industries. For example, choose **Public sector**, **Retail**, or **Manufacturing**.|
+        |Industry| Specify the industry, if the requirement applies only to specific industries. For example, choose **Public sector** , **Retail** , or **Manufacturing** .|
         |Feature reference  | This is not relevant for Dynamics 365 Business Central, but you can enter a feature reference, if you know it. The list of features for the specific country can be found in the [Localisation portal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) on the CustomerSource site. |
         |Law enforcement date  | Specify the date when affected customers must start to comply with the law.|
         |Government announcement date  | Specify the date when the authority announced the change.|

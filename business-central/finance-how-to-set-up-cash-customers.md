@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b93999ec3e8520dedd1601efad7fc00d4d625317
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a4f73de177129f5bc33808e6acf74bd273ae0d33
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788632"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915567"
 ---
 # <a name="set-up-cash-customers"></a>Set Up Cash Customers
 You cannot create an invoice without a customer number. This is true, even if you make a cash sale and do not have anything to record in a customer account.  
 
 ## <a name="to-set-up-a-cash-customer"></a>To set up a cash customer  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** , and then choose the related link.  
 2.  Create a new **Customer** card. For more information, see [Register New Customers](sales-how-register-new-customers.md).
-3.  In the **No.** field, enter **Cash**, for example.  
-4.  In the **Name** field, enter **Cash Sale**, for example.  
+3.  In the **No.** field, enter **Cash** , for example.  
+4.  In the **Name** field, enter **Cash Sale** , for example.  
 5.  On the **Invoicing** FastTab, fill in the **Customer Posting Group** and the **Gen. Bus. Posting Group** fields.  
 
  Now you have set up a customer that contains sufficient information for invoicing.  

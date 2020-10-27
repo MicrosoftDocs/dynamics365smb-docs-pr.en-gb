@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a5fc9b13e28b51d776fad6d02feae4624b756c4c
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 746aa6c0146205cbc3f3ed1796b084825bbfdbdf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617943"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915717"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Understanding Assemble to Order and Assemble to Stock
 Assembly items can be supplied in the following two processes:  
@@ -41,7 +41,7 @@ When you enter an assemble-to-order item on a sales line, an assembly order is a
 > [!NOTE]  
 >  Although it is not part of the default process, you can sell inventory quantities with the assemble-to-order quantities. For more information, see [Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
- To enable this process, the **Assembly Policy** field on the item card must be **Assemble-to-Order**.  
+ To enable this process, the **Assembly Policy** field on the item card must be **Assemble-to-Order** .  
 
 ## <a name="assemble-to-stock"></a>Assemble to Stock  
  You typically use *assemble to stock* for items that you want to assemble ahead of sales, such as to prepare for a kit campaign, and keep in stock until they are ordered. These items are usually standard items such as packaged kits that you do not offer to customise to customer requests.  
@@ -53,7 +53,7 @@ When you enter an assemble-to-order item on a sales line, an assembly order is a
 > [!NOTE]  
 >  Although it is not part of the default process, you can assemble an item to order even if it is set up to be assembled to stock. For more information, see [Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 
- To enable this process, the **Assembly Policy** field on the item card must be **Assemble-to-Stock**.  
+ To enable this process, the **Assembly Policy** field on the item card must be **Assemble-to-Stock** .  
 
 ## <a name="combination-scenarios"></a>Combination Scenarios  
  A general principle in Assembly Management is that when combined on a sales order line, assemble-to-order quantities must be shipped before inventory quantities.  

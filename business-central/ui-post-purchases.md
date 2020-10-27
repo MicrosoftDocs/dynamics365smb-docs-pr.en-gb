@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bd22d29f82c1cfe1ac5e998f131c20cc2e288085
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 687a63e1d53db4c120070de0a353b3501a335d27
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781266"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914942"
 ---
 # <a name="posting-purchases"></a>Posting Purchases
 On a purchase document, you can choose between the following posting actions:
@@ -31,13 +31,13 @@ When a purchase document is posted, the vendor's account, the general ledger, th
 For each purchase document, a purchase entry is created in the **G/L Entry** table. An entry is also created in the vendor's account in the **Vendor Ledger Entry** table and a G/L entry is created in the relevant payables account. In addition, posting the purchase may result in a VAT entry and a G/L entry for the discount amount. Whether an entry for the discount is posted depends on the contents of the **Discount Posting** field on the **Purchases & Payables Setup** page.
 
 For each purchase line, the following entries will be created:
-- An entry in the **Item Ledger Entry** table if the purchase line is of type **Item**.
+- An entry in the **Item Ledger Entry** table if the purchase line is of type **Item** .
 - An entry in the **G/L Entry** table if the purchase lines is of type **G/L Account**
-- An entry in the **Resource Ledger Entry** table if the purchase line is of type **Resource**.
+- An entry in the **Resource Ledger Entry** table if the purchase line is of type **Resource** .
 
 In addition, purchase documents are always recorded in the **Purch. Recpt. Header** and **Purch. Inv. Header** tables.
 
-Before you start to post, you can print a test report that contains all the information in the purchase order and indicates any errors there. To print the report, choose **Posting**, and then choose **Test Report**.
+Before you start to post, you can print a test report that contains all the information in the purchase order and indicates any errors there. To print the report, choose **Posting** , and then choose **Test Report** .
 
 > [!IMPORTANT]  
 >   When you post a purchase order for items, you can create both a receipt and an invoice. These can be done simultaneously or independently. You can also create a partial receipt and a partial invoice by completing the **Qty. to Receive** and **Qty. to Invoice** fields on the individual purchase order lines before you post. Note that you cannot create an invoice for something that has not been received. That is, before you can invoice, you must have recorded a receipt, or you must choose to receive and invoice at the same time.
@@ -45,7 +45,7 @@ Before you start to post, you can print a test report that contains all the info
 You can either post or post and print. If you choose to post and print, a report is printed when the order is posted. You can also choose the **Post Batch** function, which lets you post several orders at the same time. For more information, see [Post Multiple Documents at the Same Time](ui-batch-posting.md).
 
 ## <a name="viewing-ledger-entries"></a>Viewing Ledger Entries
-When the posting is completed, the posted purchase lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Vendor Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **resource ledger entries**, **Purchase Receipts**, and **Posted Purchase Invoices** pages.
+When the posting is completed, the posted purchase lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Vendor Ledger Entries** , **G/L Entries** , **Item Ledger Entries** , **resource ledger entries** , **Purchase Receipts** , and **Posted Purchase Invoices** pages.
 
 In most cases, you can open ledger entries from the affected card or document. For example, on the **Vendor Card** page, choose the **Entries** action.
 

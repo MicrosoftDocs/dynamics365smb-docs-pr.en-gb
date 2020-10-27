@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7e08a4487c9ae6782555530adc0c0cf4cfc5458e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c67ea33937ded164626e4c403522a7dc1f3dca0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786903"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912578"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sorting, Searching, and Filtering
 
@@ -32,7 +32,7 @@ When you want to search for data, such as customer names, addresses, or product 
 
 ## <a name="sorting"></a>Sorting
 
-Sorting makes it easy for you to get a quick overview of your data. If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **VAT Registration No.** to get the overview you need.
+Sorting makes it easy for you to get a quick overview of your data. If you have many customers, for example, you can choose to sort them by **Customer No.** , **Customer Posting Group** , **Currency Code** , **Country Region Code** , or **VAT Registration No.** to get the overview you need.
 
 To sort a list, you can either choose a column heading text to toggle between ascending and descending order, or choose the drop-down arrow in the column heading, and then choose the **Ascending** or **Descending** action.  
 
@@ -64,11 +64,11 @@ The following table provides some examples to explain how you can use the search
 
 |Search Criteria|Finds...|
 |---------------|----------|
-|`man`<br />or <br />`Man`|All records with fields that contain the text **man**, regardless of the case. For example, **Manchester**, **manual**, or **Sportsman**. |
-|`'Man'`|All records with fields that contain only **Man**, matching the case.|
-|`Man*`|All records with fields that start with the text <b>Man</b>, matching the case. For example, **Manchester** but not **manual** or **Sportsman**.|
-|`@Man*`|All records with fields that start with **man**, regardless of the case. For example, **Manchester** and **manual**, but not **Sportsman**.|
-|`@*man`|All records that end with **man**, regardless of the case. For example **Sportsman**, but not **Manchester** or **manual**.|
+|`man`<br />or <br />`Man`|All records with fields that contain the text **man** , regardless of the case. For example, **Manchester** , **manual** , or **Sportsman** . |
+|`'Man'`|All records with fields that contain only **Man** , matching the case.|
+|`Man*`|All records with fields that start with the text <b>Man</b>, matching the case. For example, **Manchester** but not **manual** or **Sportsman** .|
+|`@Man*`|All records with fields that start with **man** , regardless of the case. For example, **Manchester** and **manual** , but not **Sportsman** .|
+|`@*man`|All records that end with **man** , regardless of the case. For example **Sportsman** , but not **Manchester** or **manual** .|
 
 > [!TIP]
 > You can press **F3** to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
@@ -93,20 +93,20 @@ For lists, the filters are displayed on a filter pane that appears to the left o
 
 For "ordinary" fields that hold data, setup date or business data, you can set filters both by selecting data and by typing filter values, and you can use symbols to define advanced filter criteria. For more information, see [Entering Filter Criteria](ui-enter-criteria-filters.md#entering-filter-criteria).
 
-For fields of type **Option**, however, you can only set a filter by selecting one or more options from a drop-down list of the available options. An example of an option field is the **Status** field on the **Sales Orders** page.
+For fields of type **Option** , however, you can only set a filter by selecting one or more options from a drop-down list of the available options. An example of an option field is the **Status** field on the **Sales Orders** page.
 
 > [!NOTE]
-> When you select multiple options as a filter value, the relationship between the options is defined as *OR*. For example, if you select both the **Open** and the **Released** check box in the **Status** filter field on the **Sales Orders** page, it means that sales orders that are either open or released are displayed.
+> When you select multiple options as a filter value, the relationship between the options is defined as *OR* . For example, if you select both the **Open** and the **Released** check box in the **Status** filter field on the **Sales Orders** page, it means that sales orders that are either open or released are displayed.
 
 ### <a name="setting-filters-on-lists"></a>Setting Filters on Lists
 
-On lists, you set filters by using the filter pane. To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, press **Shift+F3**.
+On lists, you set filters by using the filter pane. To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, press **Shift+F3** .
 
-To display the filter pane for a column on a list, choose the drop-down arrow, and then choose the **Filter** action. Alternatively, press **Shift+F3**. The filter pane opens with the selected column shown as a filter field in the **Filter list by** section.
+To display the filter pane for a column on a list, choose the drop-down arrow, and then choose the **Filter** action. Alternatively, press **Shift+F3** . The filter pane opens with the selected column shown as a filter field in the **Filter list by** section.
 
 The filter pane displays the current filters for a list, and enables you to set your own custom filters on one or more fields by choosing the **+ Filter** action.
 
- A filter pane is divided in three sections: **Views**, **Filter list by**, and **Filter totals by**:
+ A filter pane is divided in three sections: **Views** , **Filter list by** , and **Filter totals by** :
 
 - **Views**
 
@@ -123,7 +123,7 @@ The filter pane displays the current filters for a list, and enables you to set 
   > [!NOTE]
   > Filters in the **Filter totals by** section are controlled by FlowFilters on the page design. For technical information, see [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
-You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell on the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, press **Alt+F3**.
+You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell on the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, press **Alt+F3** .
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Setting Filters in Reports, Batch Jobs, and XMLports
 
@@ -149,7 +149,7 @@ Columns that already have filters are indicated by the ![Filter icon](media/ui-s
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols (or operators) to further filter the results. The following tables show the symbols that can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
 
 > [!IMPORTANT]  
-> There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.
+> There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R* , the filter expression is `'S&R*'`.
 
 The following sections describe how to use the different operators.
 

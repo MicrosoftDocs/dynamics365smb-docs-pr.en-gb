@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5db8c77ab8525ce4e8bd4b461c162448730f4eff
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d669df714e6fdba9f8faa8f3b2029f1988c8af5e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783938"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915367"
 ---
 # <a name="create-jobs"></a>Create Jobs
 When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.  
@@ -30,7 +30,7 @@ The layer structure enables you to divide the job into smaller tasks, and theref
 ## <a name="to-create-a-job-card"></a>To create a job card
 You create a job card and then create job task lines and job planning lines for it.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs** , and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.
 
@@ -40,7 +40,7 @@ You create a job card and then create job task lines and job planning lines for 
 ## <a name="to-create-tasks-for-a-job"></a>To create tasks for a job
 A key part of creating a job is to specify the various tasks involved in the job. You do this by adding new lines on the **Tasks** FastTab on the **Job Card** page, one task per line. Every job must have at least one task.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs** , and then choose the related link.
 2. Open the job card for a relevant job.
 3. On the **Tasks** FastTab, fill in the fields as necessary on a new line.
 4. To indent tasks and create a hierarchy, Choose the **Tasks** action, the then choose **Indent Job Tasks** action.
@@ -58,11 +58,11 @@ A job planning line can have one of the following types.
 | **Billable** |Provides estimated invoicing to the customer, typically in a fixed price project. |
 | **Both Budget and Billable** |Provides budgeted usage equal to what you want to invoice. |
 
-**Note**. As you enter information on job planning lines, cost information is automatically filled in. For example, the cost, price, and discount for resources and items are initially based on the information that is defined on the resource and item cards.
+**Note** . As you enter information on job planning lines, cost information is automatically filled in. For example, the cost, price, and discount for resources and items are initially based on the information that is defined on the resource and item cards.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs** , and then choose the related link.
 2. Open a relevant job card.
-3. Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.  
+3. Select a job task for which the **Job Task Type** field contains **Posting** , and then choose the **Job Planning Lines** action.  
 4. On the **Job Planning Lines** page, on a new line, fill in the fields as necessary.
 5. Repeat steps 3 and 4 for all planning lines that you need for the job task.
 

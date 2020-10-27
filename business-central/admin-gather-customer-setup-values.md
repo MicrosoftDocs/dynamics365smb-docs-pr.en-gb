@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ddd7300786c3f028a71abe5f70bf63a23c542f6a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 77534395d868b1ea82317c32aaed0e70d222e1e1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784716"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911487"
 ---
 # <a name="gather-customer-setup-values"></a>Gather Customer Setup Values
 You use the configuration questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company. You can generate the configuration questionnaire in [!INCLUDE[d365fin](includes/d365fin_md.md)] and then provide it to your customer as an Excel or XML file.  
@@ -50,9 +50,9 @@ You can use a questionnaire to help you determine the scope and needs of configu
 -   Warehouse Setup  
 
 > [!NOTE]  
->  To see a complete list of setup tables, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrating Customer Data](admin-migrate-customer-data.md).  
+>  To see a complete list of setup tables, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Setup** , and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrating Customer Data](admin-migrate-customer-data.md).  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire** , and choose the related link.  
 2. Choose the **New** action.   
 3. On the **Configuration Questionnaire** page, in the **Code** field, enter... 
 <!--4. In the **Name** field, enter...
@@ -98,10 +98,10 @@ You use the configuration questionnaire to structure and document a detailed dis
 >  You can also create your own configuration questionnaire to meet your needs.  
 
 1. Open the company that you want to complete the questionnaire for.
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire** , and then choose the related link.  
 3. Select the questionnaire for the company, and then choose the **Export to Excel** action, optionally the **Export to XML** action.
 4. Have the customer complete the configuration questionnaire by entering the answers in the Excel workbook. There are worksheets for each of the question areas that have been created for the questionnaire.   
-5. Save the Excel workbook as *XML Data*. Choose the **Import from XML** action, and select the .xml file with the customer's answers.
+5. Save the Excel workbook as *XML Data* . Choose the **Import from XML** action, and select the .xml file with the customer's answers.
 6. Choose the **Question Areas** action to begin the process of validating and applying the answers to the configuration questionnaire.  
 
 ## <a name="to-complete-a-questionnaire-from-the-configuration-worksheet"></a>To complete a questionnaire from the configuration worksheet  
@@ -131,7 +131,7 @@ When you have completed your validation, the data is ready to be applied to the 
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>To apply answers from the configuration questionnaire
 After you have imported and validated information from a configuration questionnaire, you can transfer, or apply the setup data to the corresponding tables in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and then choose the related link. The **Config. Questionnaire** page opens.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire** , and then choose the related link. The **Config. Questionnaire** page opens.  
 2. Select a configuration questionnaire from the list, and then choose the **Edit List** action.  
 3. You can apply answers in one of two ways.  
 

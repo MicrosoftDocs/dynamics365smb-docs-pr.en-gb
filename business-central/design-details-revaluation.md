@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb3357d2d102dceba9896731c651174a4962bab6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 43a62271bab9401bfea21663c72b6363884c2ef4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787253"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911012"
 ---
 # <a name="design-details-revaluation"></a>Design Details: Revaluation
 You can revalue the inventory based on the valuation base that most accurately reflects the inventory value. You can also backdate a revaluation, so that the cost of goods sold (COGS) is correctly updated for items that have already been sold. Items using the Standard costing method that have not been completely invoiced can also be revalued.  
@@ -41,7 +41,7 @@ The following example illustrates when a WIP item transitions to become part of 
 
 ![WIP inventory and revaluation](media/design_details_inventory_costing_10_revaluation_wip.png "WIP inventory and revaluation")  
 
-**1Q**: The user posts the purchased links as received. The following table shows the resulting item ledger entry.  
+**1Q** : The user posts the purchased links as received. The following table shows the resulting item ledger entry.  
 
 |Posting Date|Item|Entry Type|Quantity|Entry No.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -50,13 +50,13 @@ The following example illustrates when a WIP item transitions to become part of 
 > [!NOTE]  
 >  Now an item using the Standard costing method is available for revaluation.  
 
-**1V**: The user posts the purchased links as invoiced and the links become part of inventory, from a financial point of view. The following table shows the resulting value entries.  
+**1V** : The user posts the purchased links as invoiced and the links become part of inventory, from a financial point of view. The following table shows the resulting value entries.  
 
 |Posting Date|Entry Type|Valuation Date|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |01-15-20|Direct Cost|01-01-20|150.00|1|1|  
 
- **2Q + 2V**: The user posts the purchased links as consumed for the production of the iron chain. From a financial point of view, the links become part of WIP inventory.  The following table shows the resulting item ledger entry.  
+ **2Q + 2V** : The user posts the purchased links as consumed for the production of the iron chain. From a financial point of view, the links become part of WIP inventory.  The following table shows the resulting item ledger entry.  
 
 |Posting Date|Item|Entry Type|Quantity|Entry No.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -70,13 +70,13 @@ The following table shows the resulting value entry.
 
 The valuation date is set to the date of the consumption posting (02-01-20), as a regular inventory decrease.  
 
-**3Q**: The user posts the chain as output and finishes the production order. The following table shows the resulting item ledger entry.  
+**3Q** : The user posts the chain as output and finishes the production order. The following table shows the resulting item ledger entry.  
 
 |Posting Date|Item|Entry Type|Quantity|Entry No.|  
 |------------------|----------|----------------|--------------|---------------|  
 |02-15-20|CHAIN|Output|1|3|  
 
-**3V**: The user runs the **Adjust Cost - Item Entries** batch job, which posts the chain as invoiced to indicate that all material consumption has been completely invoiced. From a financial point of view, the links are no longer part of WIP inventory when the output is completely invoiced and adjusted. The following table shows the resulting value entries.  
+**3V** : The user runs the **Adjust Cost - Item Entries** batch job, which posts the chain as invoiced to indicate that all material consumption has been completely invoiced. From a financial point of view, the links are no longer part of WIP inventory when the output is completely invoiced and adjusted. The following table shows the resulting value entries.  
 
 |Posting Date|Entry Type|Valuation Date|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
@@ -92,9 +92,9 @@ The revaluable quantity XE "Revaluable Quantity"  XE "Quantity;Revaluable"  is c
 
 When calculating the revaluable quantity for items using the Standard costing method, item ledger entries that have not been completely invoiced are included in the calculation. These entries are then revalued when you post the revaluation. When you invoice the revalued entry, the following value entries are created:  
 
--   The usual invoiced value entry with an entry type of **Direct Cost**. The cost amount on this entry is the direct cost from the source line.  
--   A value entry with an entry type of **Variance**. This entry records the difference between the invoiced cost and the revalued standard cost.  
--   A value entry with an entry type of **Revaluation**. This entry records the reversal of the revaluation of the expected cost.  
+-   The usual invoiced value entry with an entry type of **Direct Cost** . The cost amount on this entry is the direct cost from the source line.  
+-   A value entry with an entry type of **Variance** . This entry records the difference between the invoiced cost and the revalued standard cost.  
+-   A value entry with an entry type of **Revaluation** . This entry records the reversal of the revaluation of the expected cost.  
 
 ### <a name="example"></a>Example  
 The following example, which is based on the production of the chain in the previous example, illustrates how the three types of entries are created. It is based on the following scenario:  
@@ -103,7 +103,7 @@ The following example, which is based on the production of the chain in the prev
 2.  The user then posts a revaluation of the links with a new unit cost of LCY 3.00, updating the standard cost to LCY 3.00.  
 3.  The user posts the original purchase of the links as invoiced, which creates the following:  
 
-    1.  An invoiced value entry with an entry type of **Direct Cost**.  
+    1.  An invoiced value entry with an entry type of **Direct Cost** .  
     2.  A value entry with an entry type of **Revaluation** to record the reversal of the revaluation of the expected cost.  
     3.  A value entry with an entry type of Variance, recording the difference between the invoiced cost and the revalued standard cost.  
 The following table shows the resulting value entries.  

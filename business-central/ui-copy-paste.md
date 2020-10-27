@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7aafe33ac70546378abd90cc98aea3b1a326c77
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d53932be1597a96ced906ed7546ce8ff011639e3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782475"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912628"
 ---
 # <a name="copy-and-paste-faq"></a>Copy and Paste FAQ
 You can copy one or more rows (records) from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).
@@ -38,7 +38,7 @@ To copy a single row, select it, and then press Ctrl+C.
 
 If you want to copy more rows, you can:
 - Press Ctrl+Click on another row or press Shift+Click to select the row and all rows in between. See [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows) for more mouse and keyboard combinations for selecting rows.
-- Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column, choose **Select More**, select the check box next to each row that you want to copy, and then press Ctrl+C.
+- Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column, choose **Select More** , select the check box next to each row that you want to copy, and then press Ctrl+C.
 
 ## <a name="how-do-i-paste-rows"></a>How do I paste rows?
 Select an empty row, with focus in any cell, and then press Crtl+V.

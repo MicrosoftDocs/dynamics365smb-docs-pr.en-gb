@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 07/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f8d8b40e77e53dad7855721f23cf4cb33a669c4e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ee4d805ce0fc51e96e4d6956a2bcf1537830730f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782706"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914967"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Create and Modify Custom Report Layouts
 
@@ -33,7 +33,7 @@ When custom report layouts are defined, you can select them from customer and ve
 
 ## <a name="to-create-a-custom-layout"></a>To create a custom layout
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection** , and then choose the related link.
 
     The **Report Layout Selection** page lists all the reports that are available in the company that is specified in the **Company Name** field at the top of the page.
 2. Set the **Company** field to the company in which you want to create the report layout.
@@ -50,7 +50,7 @@ When custom report layouts are defined, you can select them from customer and ve
    4. Choose the **OK** button.  
 
     The new custom layout now appear on the **Custom Report Layouts** page. If a new layout is based on a built-in layout, then it has the words **Copy of a Built-in Layout** in the **Description** field. If there was no built-in layout for the report, then the new layout has the words **New Layout** in the **Description** field, which indicates that custom layout is blank.
-6. By default, the **Company Name** field is blank, which means that the custom layout will be available for the report in all companies. To make the custom layout available in a specific company only, choose **Edit**, and then set the **Company Name** field to the company that you want.
+6. By default, the **Company Name** field is blank, which means that the custom layout will be available for the report in all companies. To make the custom layout available in a specific company only, choose **Edit** , and then set the **Company Name** field to the company that you want.
 
 The custom layout has been created. You can now modify the custom layout as needed.
 
@@ -73,7 +73,7 @@ To modify a report layout, you must first export the report layout as a file to 
 
 4.  Return to the **Custom Report Layouts** page, select the report layout that you exported and modified, and then choose the **Import Layout** action.  
 
-5. In the **Import** dialogue box, select **Choose** to find and select the report layout document, and then choose **Open**.
+5. In the **Import** dialogue box, select **Choose** to find and select the report layout document, and then choose **Open** .
 
 ##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Create and Modify Custom Report Layouts
 
@@ -82,7 +82,7 @@ To make general formatting and layout changes, such as changing text font, addin
 If you are designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.
 
 > [!TIP]  
-> Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you are done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
+> Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you are done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines** .
 
 ### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Embedding Fonts in Word Layouts for Consistency
 
@@ -98,7 +98,7 @@ To ensure that reports always display and print with the intended fonts, regardl
 
 ### <a name="to-remove-a-label-or-data-field"></a>To remove a label or data field  
 
-1. Right-click the field that you want to delete, and then choose **Remove Content Control**.  
+1. Right-click the field that you want to delete, and then choose **Remove Content Control** .  
 
      The content control is removed, but the field name remains as text.  
 

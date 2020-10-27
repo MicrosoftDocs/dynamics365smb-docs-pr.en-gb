@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 0411e080aa5304b47ec64a9248368fc8385d4ee5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1d296f51aa307d3a3336f7a999eb02c51acc18e1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187347"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911462"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Set Up a Coloured Indicator on Cues for the Company or Individual Users
 As an administrator, you can set up Cues that appear on the users' Role Centres to include an indicator that changes colour based on the data values in the Cues.  
@@ -27,7 +27,7 @@ From the **Cue Setup** page, you set up indicators for all the Cues that are ava
 To set up the indicator, you specify up to two threshold values that define three ranges of data values (low, middle, and high) to which you can apply a different colour (or style).  
 
 ### <a name="to-set-up-colored-indicators-on-cues"></a>To set up coloured indicators on Cues  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cue Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cue Setup** , and then choose the related link.  
 
      The **Cue Setup** page appears. The page lists the indicators that are currently setup up on Cues. Indicators that apply to all users in the company have a blank **User Name** field. Indicators that apply to a specific user include the user's name in the **User Name** field.  
 
@@ -53,7 +53,7 @@ To set up the indicator, you specify up to two threshold values that define thre
     |**HighThreshold**|Specifies the value above which the indicator changes to the colour specified by the **High Range Style** field.|  
     |**HighStyle**|Specifies the colour to use when the Cue's value is above the value of the **Threshold 2** field.|  
 
-     The following table lists the colours that correspond to the options of the **LowStyle**, **MiddleStyle**, and **HighStyle** fields.  
+     The following table lists the colours that correspond to the options of the **LowStyle** , **MiddleStyle** , and **HighStyle** fields.  
 
     |  Option  |  Colour  |  
     |----------|---------|  
