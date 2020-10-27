@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 09/04/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: da6e53a314438ef7ce5063febf8ece1d18c69f7b
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: a0e62b60f9624cad44efa7fd42c5840a2ecd07b5
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766098"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970367"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installing and Uninstalling Extensions in Business Central
 
@@ -28,7 +28,7 @@ To use the functionality that is provided by an extension, such as opening pages
 
 ## <a name="installing-an-extension"></a>Installing an Extension
 
-You manage extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension**, and then choose the related link.  
+You manage extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension** , and then choose the related link.  
 
 You can get new extensions from the marketplace at [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Here, you can see all available extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can get apps, extensions, and content packs for other Microsoft products. Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -48,40 +48,40 @@ Some extensions are provided by Microsoft, and other extensions are provided by 
 
 Microsoft provides the following extensions:
 
-* [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)  
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md) 
-* [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md) 
-* [Essential Business Insights](ui-extensions-essential-business-insights.md)   
-* [Image Analyser](ui-extensions-image-analyzer.md) 
-* [Intelligent Cloud](ui-extensions-data-replication.md)    
+* [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
+* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
+* [Company Hub](ui-extensions-company-hub.md)  
+* [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Essential Business Insights](ui-extensions-essential-business-insights.md)
+* [Image Analyser](ui-extensions-image-analyzer.md)
+* [Intelligent Cloud](ui-extensions-data-replication.md)
 * [Intelligent Cloud Base](ui-extensions-intelligent-cloud.md)  
-* [Late Payment Predictions](ui-extensions-late-payment-prediction.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md) 
-* [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)   
-* [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md) 
-* [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md) 
-* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)   
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md) 
-* [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)    
-* [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)  
-* [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md) 
-* [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md) 
-* [Business Central Extensions by Other Providers](ui-extensions-other.md)
+* [Late Payment Predictions](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
+* [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
+* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
+* [VAT Group](ui-extensions-vat-group.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
+* [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)
+* [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+* [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 
 ## <a name="uninstalling-an-extension"></a>Uninstalling an Extension
 
-You uninstall an extension using the **Extension Management** page. If you uninstall an extension, and you then change your mind, you can install the extension again. When you uninstall an extension that you have been using, data is by default preserved so that if you install the extension again. You can instead choose to delete the data with the extension. This is controlled by the **Delete Extension Data** checkbox. By default, this checkbox is *not enabled*.
+You uninstall an extension using the **Extension Management** page. If you uninstall an extension, and you then change your mind, you can install the extension again. When you uninstall an extension that you have been using, data is by default preserved so that if you install the extension again. You can instead choose to delete the data with the extension. This is controlled by the **Delete Extension Data** checkbox. By default, this checkbox is *not enabled* .
 
 > [!IMPORTANT]  
-> If you enable the **Delete Extension Data** checkbox, you will get a confirmation dialogue and you must choose **OK**. With the **Delete Extension Data** checkbox enabled, you can now uninstall the extension, and you will be asked to reconfirm that you want to uninstall the extension and delete the data. The action cannot be undone.
+> If you enable the **Delete Extension Data** checkbox, you will get a confirmation dialogue and you must choose **OK** . With the **Delete Extension Data** checkbox enabled, you can now uninstall the extension, and you will be asked to reconfirm that you want to uninstall the extension and delete the data. The action cannot be undone.
 Some extensions are required. You are prevented from uninstalling these from the **Extension Management** page. If you try, an error message appears.  
 
-
 ## <a name="see-also"></a>See Also
+
 [Extending Dynamics 365 Business Central](about-develop-extensions.md)  
 [Business Central Extensions by Other Providers](ui-extensions-other.md)  
 [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5d3acaf05952a61845eb8bb72b2556f2e54f8208
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 04c0c5d203e78c2ae0be48609a5ee90f45b83c6f
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697705"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968392"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Creating Power BI Reports for Displaying List Data in [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -34,21 +34,21 @@ Specify the data source that contains the data related to the list. For example,
 
 ## <a name="defining-the-report-filter"></a>Defining the report filter
 
-To make the data update to the selected record in the list, you add a filter to the report. The filter must include a field of the data source that's used as the *primary key*. In most cases, the primary key for a list is the **No.** field.
+To make the data update to the selected record in the list, you add a filter to the report. The filter must include a field of the data source that's used as the *primary key* . In most cases, the primary key for a list is the **No.** field.
 
-To define a filter for the report, select the primary key from the list of available fields, and then drag and drop that field into the **Report Filter** section. The filter must be basic report filter. It can't be page, visual, or advanced filter. 
+To define a filter for the report, select the primary key from the list of available fields, and then drag and drop that field into the **Report Filter** section. The filter must be a basic report filter that's defined for all pages. It can't be page, visual, or advanced filter.
 
-![Setting the report filter for the Sales Invoice Activity report](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
+![Setting the report filter for the Sales Invoice Activity report](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 
 ## <a name="setting-the-report-size-and-color"></a>Setting the report size and colour
 
 The size of the report must be set to 325 pixels by 310 pixels. This size provides the proper scaling of the report in the available space of the Power BI FactBox control in [!INCLUDE[d365fin](includes/d365fin_md.md)]. To define the size of the report, place focus outside of the report layout area, and then choose the paint roller icon.
 
-![Setting the report width and height for the Sales Invoice Activity report](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
+![Setting the report width and height for the Sales Invoice Activity report](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 You can change the width and height of the report by choosing **Custom** in the **Type** field.
 
-If you want the background of the report to blend with the background colour of the Power BI FactBox control, set report background colour to *#FFFFFF*. 
+If you want the background of the report to blend with the background colour of the Power BI FactBox control, set report background colour to *#FFFFFF* . 
 
 ## <a name="using-reports-with-multiple-pages"></a>Using reports with multiple pages
 

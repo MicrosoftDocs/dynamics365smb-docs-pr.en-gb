@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3e25756cff974e0db835f5e3ed3247dff6d7624a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 67bae862e702bb2c0ca4798d9d3699b8419f823f
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780891"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968444"
 ---
 # <a name="register-new-customers"></a>Register New Customers
 
@@ -34,7 +34,7 @@ To register a new customer, you must fill in a customer card. You can establish 
 
 ### <a name="to-create-a-new-customer-card"></a>To create a new customer card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** , and then choose the related link.  
 2. On the **Customers** page, choose the **New** action.
 
     If only one customer template exists, then a new customer card opens with some fields filled with information from the template.
@@ -62,7 +62,7 @@ The customer template is added to the list of customer templates, so that you ca
 
 ## <a name="deleting-customer-cards"></a>Deleting customer cards
 
-If you have posted a transaction for a customer, you cannot delete the card because the ledger entries may be needed for auditing. To delete customer cards with ledger entries, contact to Microsoft partner to do so through code.  
+If you have posted a transaction for a customer, you cannot delete the card because the ledger entries may be needed for auditing. To delete customer cards with ledger entries, contact your Microsoft partner to do so through code.  
 
 ## <a name="see-also"></a>See Also
 

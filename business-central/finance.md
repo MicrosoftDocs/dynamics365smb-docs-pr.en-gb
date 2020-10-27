@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410754"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970471"
 ---
 # <a name="finance"></a>Finance
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
@@ -54,7 +54,12 @@ The following table describes a sequence of tasks, with links to the topics that
 | Monitor the flow of cash in and out of your business. |[Analysing Cash Flows in Your Company](finance-analyze-cash-flow.md) |
 |Follow and end-to-end procedure on using use account schedules to make cash flow forecasts.|[Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Work with financial statements and overviews in Excel. |[Analysing Financial Statements in Excel](finance-analyze-excel.md) |
-|Learn how to use the Accountant Role Centre, invite an external accountant, and use the Accountant Hub to manage accounts for multiple clients.|[Accountant Experiences in Business Central](finance-accounting.md)|  
+|Learn how to use the Accountant Role Centre, invite an external accountant and use the Company Hub to manage accounts for multiple clients.|[Accountant Experiences in Business Central](finance-accounting.md)|  
+
+## <a name="take-a-video-tour"></a>Take a Video Tour
+The following video introduces some of the key capabilities for managing finances. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>See Also
 [Setting Up Finance](finance-setup-finance.md)  
