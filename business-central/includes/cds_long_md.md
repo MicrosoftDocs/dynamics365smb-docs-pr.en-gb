@@ -4,11 +4,11 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0514eb9afdc45a7fbe96deaf382d7c8b72e7580
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 58e3303d63fee9eac258bec27bb911824ad139a4
+ms.sourcegitcommit: 6e1ed7595b02cf2e046dd076cf826e894375743a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911262"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644489"
 ---
-<span data-ttu-id="7ae74-101">Common Data Service</span><span class="sxs-lookup"><span data-stu-id="7ae74-101">Common Data Service</span></span>
+<span data-ttu-id="32c7f-101">Dataverse</span><span class="sxs-lookup"><span data-stu-id="32c7f-101">Dataverse</span></span>
