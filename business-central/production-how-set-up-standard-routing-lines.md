@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a434de3479f4b100317230b93b06b922fa04692b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 68844bd869e2e0437ae53ad507e8d2c752c5496f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916608"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759424"
 ---
 # <a name="set-up-standard-routing-lines"></a>Set Up Standard Routing Lines
 
@@ -23,16 +23,16 @@ The use of standard tasks simplifies the creation and maintenance of routings. T
 
 ## <a name="to-set-up-a-standard-task"></a>To set up a standard task
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Tasks** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Tasks**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Choose the **Tools** , **Personnel** , **Description** , or **Tools** action, and then, on the page that opens, add the relevant entry.
+4. Choose the **Tools**, **Personnel**, **Description**, or **Tools** action, and then, on the page that opens, add the relevant entry.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>To add a standard task to an operation
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.
 2. Open the relevant routing.
-3. Select a relevant routing line, choose the **Operations** action, and then choose the **Tools** , **Personnel** , **Description** , or **Tools** action.
+3. Select a relevant routing line, choose the **Operations** action, and then choose the **Tools**, **Personnel**, **Description**, or **Tools** action.
 
 When you print the routing sheeting, you can choose to include the elements from the standard task that you added to the routing lines.
 
@@ -45,4 +45,4 @@ When you print the routing sheeting, you can choose to include the elements from
 [Planning](production-planning.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

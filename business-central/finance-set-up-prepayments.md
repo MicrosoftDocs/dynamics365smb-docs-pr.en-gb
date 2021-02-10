@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f8d0109b42eb75f022bac580c2bef006f311157
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 34e5d1e0f424097de259d01e438158f6a92390ae
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914246"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750437"
 ---
 # <a name="set-up-prepayments"></a>Set Up Prepayments
 If you require your customers to submit payment before you ship an order to them, or if your vendor requires you to submit payment before they ship an order to you, you can use the Prepayment functionality. The functionality enables you to invoice and collect deposits required from customers or to remit deposits to vendors, and to ensure that all partial payments are posted against an invoice. For more information, see [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md).
@@ -32,7 +32,7 @@ Because the prepaid amount belongs to the buyer until they have received the goo
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>To add prepayment accounts to the general posting setup  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.
 2. On the **General Posting Setup** page, fill in the following fields:  
 
     - **Sales Prepayments Account**  
@@ -45,13 +45,13 @@ If you have not already set up general ledger accounts for prepayments, you can 
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>To set up number series for prepayment documents  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
 2. On the **Sales & Receivables Setup** page, fill in the following fields:  
 
    - **Posted Prepmt. Inv. Nos.**
    - **Posted Prepmt. Cr. Memo Nos.**
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.
 2. On the **Purchases & Payables Setup** page, fill in the following fields:
 
     - **Posted Prepmt. Inv. Nos.**
@@ -63,13 +63,13 @@ If you have not already set up general ledger accounts for prepayments, you can 
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>To set up prepayment percentages for items, customers, and vendors  
 For an item, you can set up a default prepayment percentage for all customers, a specific customer, or a customer price group.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Select an item, and then choose the **Prepayment Percentages** action.  
 3. On the **Sales Prepayment Percentages** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 For a customer or vendor, you can set up one default prepayment percentage for all items and all types of sales lines. You enter this on the customer or vendor card.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the card for a customer.
 3. Fill in the **Prepayment %** field.
 4. Repeat the steps for other customers or for vendors.  
@@ -93,4 +93,4 @@ In other words, the prepayment percentage on the customer card will only apply i
 [Calculate Goods and Services Tax on Prepayments in New Zealand](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Understanding the General Ledger and the COA](finance-general-ledger.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

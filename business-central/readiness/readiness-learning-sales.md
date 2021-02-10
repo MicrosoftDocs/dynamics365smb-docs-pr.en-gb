@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: d0ab1b4894c9e8c586692e17210e8254eadb57eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c4a12f7a79840790a98c2a3a19a845fdd1bb91c2
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926654"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367966"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Partner Sales and Marketing Learning Catalogue
 
@@ -39,11 +39,10 @@ The following catalogue is organised from core knowledge to specific domains, an
 
 | Content   | Description        | Format                                | Length                |
 |-----------|--------------------|---------------------------------------|-----------------------|
-| [Dynamics 365 Business Central - Compelling Prospect Conversations (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Partners only) Join Errol Schoenfish, Director of Product Marketing, as he talks through how to have compelling conversations with prospects on Microsoft Dynamics 365 Business Central.   | Video    | 11 minutes 15 seconds |
-| [Search customer stories](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Find customer reference stories for Dynamics 365 Business Central on [https://customer.microsoft.com](https://customer.microsoft.com).  | Website |                       |
+| [Dynamics 365 Business Central - Compelling Prospect Conversations (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Partners only) Join Errol Schoenfish, then Director of Product Marketing, as he talks through how to have compelling conversations with prospects on Microsoft Dynamics 365 Business Central.   | Video    | 11 minutes 15 seconds |
 | [Cloud Solution Provider programme](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Partners only) About the Cloud Solution Provider programme     | Website |                       |
 | [Marketing in a Cloud World](https://mbspartner.microsoft.com/OSS/Topic/19) | (Partner only) Addressing how to optimise your marketing practices and realign your marketing principles for a cloud-first world will be a primary factor in determining the success or failure of your organisation moving forward. This series of videos and resources provide marketing best practices, content creation guidance, pragmatic tips and useful tools for applying cloud marketing principals to drive demand for your solutions. | Topic page | 35 minutes |
-| [Cloud Solution Provider programme - selling in-demand cloud solutions](https://docs.microsoft.com/partner-center/csp-overview)  | The Cloud Solution Provider programme (CSP) helps you go beyond reselling licences to being more involved in your customer’s business.   | Website      |                       |
+| [Cloud Solution Provider programme - selling in-demand cloud solutions](https://docs.microsoft.com/partner-center/csp-overview)  | The Cloud Solution Provider programme (CSP) helps you go beyond reselling licences to being more involved in your customer's business.   | Website      |                       |
 | [Cloud Solution Provider programme - compare partner support programmes](https://partner.microsoft.com/support/partnersupport) | Watch this video to see how to pick the right partner support plan for your business. Then see a side-by-side comparison below.    | Website                               |                       |
-| [Cloud SureStep Accelerated Selling](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Partners-only) The Cloud SureStep Accelerated Sales Process is built around the needs of the modern buyer and endeavors to trigger an emotional, experience-driven Strategic Tipping Point early in the selling process. This series of videos and resources explain a prescriptive selling process that is specifically designed to counter the traditional resource intensive, “demo-oriented” solution sales approach that typically leads to highly customised product demonstrations, complex sales cycles and long implementation projects. The library of resources includes a number of customisable templates so you may create your own set of sales assets to support accelerated selling. | Website     |                       |
-| [Supplement to the Transition Partner Playbook (July 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | This supplement to the Transition Partner playbook provides some updated and new guidance to partners for securing their existing customer base from competition and new SaaS entrants.  | PowerPoint slideshow | 15 slides |
+| [Cloud SureStep Accelerated Selling](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Partners-only) The Cloud SureStep Accelerated Sales Process is built around the needs of the modern buyer and endeavors to trigger an emotional, experience-driven Strategic Tipping Point early in the selling process. This series of videos and resources explain a prescriptive selling process that is specifically designed to counter the traditional resource intensive, "demo-oriented" solution sales approach that typically leads to highly customised product demonstrations, complex sales cycles and long implementation projects. The library of resources includes a number of customisable templates so you may create your own set of sales assets to support accelerated selling. | Website     |                       |
+| [Supplement to the Transition Partner Playbook (July 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | This supplement to the Transition Partner playbook provides some updated and new guidance to partners for securing their existing customer base from competition and new SaaS entrants.  | PowerPoint slideshow | 15 slides |
