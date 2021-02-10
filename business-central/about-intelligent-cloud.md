@@ -10,25 +10,25 @@ ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 10/01/2020
-ms.author: bmeier
-ms.openlocfilehash: 28bc5ac96d8a14ba57b4defa0140a065f81b0221
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.author: edupont
+ms.openlocfilehash: a186166e73d4c6dcda01bbda6ac2c88a18b2babb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914596"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753724"
 ---
-# <a name="intelligent-insights-with-prodshort-online"></a>Intelligent Insights with [!INCLUDE[prodshort](includes/prodshort.md)] Online
+# <a name="intelligent-insights-with-prod_short-online"></a>Intelligent Insights with [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-As a user of [!INCLUDE[prodshort](includes/prodshort.md)] online, you have full access to scenarios that are based on the intelligent cloud, such as KPIs that are based on machine learning, or when you view your data in Power BI. However, while [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud-first service, also those customers who need to run their workloads fully on-premises or on the intelligent edge connected to the cloud can do so.  
+As a user of [!INCLUDE[prod_short](includes/prod_short.md)] online, you have full access to scenarios that are based on the intelligent cloud, such as KPIs that are based on machine learning, or when you view your data in Power BI. However, while [!INCLUDE[prod_short](includes/prod_short.md)] is a cloud-first service, also those customers who need to run their workloads fully on-premises or on the intelligent edge connected to the cloud can do so.  
 
-If you are interested in [!INCLUDE[prodshort](includes/prodshort.md)], you can sign up for a free trial online, or you can choose to work with a partner to deploy [!INCLUDE[prodshort](includes/prodshort.md)] locally to your own choice of hardware. You can then decide to get intelligent insights by connecting to a tenant in the cloud. As a result, the data from your [!INCLUDE[prodshort](includes/prodshort.md)] on-premises deployment replicates to the cloud for intelligent cloud scenarios.  
+If you are interested in [!INCLUDE[prod_short](includes/prod_short.md)], you can sign up for a free trial online, or you can choose to work with a partner to deploy [!INCLUDE[prod_short](includes/prod_short.md)] locally to your own choice of hardware. You can then decide to get intelligent insights by connecting to a tenant in the cloud. As a result, the data from your [!INCLUDE[prod_short](includes/prod_short.md)] on-premises deployment replicates to the cloud for intelligent cloud scenarios.  
 
-Connecting to the intelligent cloud from an on-premises solution requires your administrator to specify information about your database. The tools used to connect your on-premises deployment to [!INCLUDE[prodshort](includes/prodshort.md)] online are the same that are also used to migration from on-premises to online. For more information, see [Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the administration content for [!INCLUDE[prodshort](includes/prodshort.md)].  
+Connecting to the intelligent cloud from an on-premises solution requires your administrator to specify information about your database. The tools used to connect your on-premises deployment to [!INCLUDE[prod_short](includes/prod_short.md)] online are the same that are also used to migration from on-premises to online. For more information, see [Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the administration content for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Viewing Intelligent Cloud Insights in [!INCLUDE[prodshort](includes/prodshort.md)] Online
+## <a name="viewing-intelligent-cloud-insights-in-prod_short-online"></a>Viewing Intelligent Cloud Insights in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-In your [!INCLUDE[prodshort](includes/prodshort.md)] online company, the **Intelligent Cloud Insights** page shows four key points of interest for most businesses:
+In your [!INCLUDE[prod_short](includes/prod_short.md)] online company, the **Intelligent Cloud Insights** page shows four key points of interest for most businesses:
 
 - Cash availability
 - Sales profitability
@@ -44,7 +44,7 @@ The page also connects to Power BI for even more insights.
 
 ## <a name="viewing-intelligent-insights-on-premises"></a>Viewing Intelligent Insights On-Premises
 
-When your Dynamics 365 reselling partner has acquired the right licence for your on-premises solution to connect to the cloud through [!INCLUDE[prodshort](includes/prodshort.md)], your administrator can set up the connection. Once that is done, you can view the same insights from the cloud in your on-premises application. Depending on the on-premises solution, the **Intelligent Cloud Insights** page can be embedded in the Home page or be a separate page as in [!INCLUDE[prodshort](includes/prodshort.md)] online and on-premises.  
+When your Dynamics 365 reselling partner has acquired the right licence for your on-premises solution to connect to the cloud through [!INCLUDE[prod_short](includes/prod_short.md)], your administrator can set up the connection. Once that is done, you can view the same insights from the cloud in your on-premises application. Depending on the on-premises solution, the **Intelligent Cloud Insights** page can be embedded in the Home page or be a separate page as in [!INCLUDE[prod_short](includes/prod_short.md)] online and on-premises.  
 
 ## <a name="see-also"></a>See Also
 

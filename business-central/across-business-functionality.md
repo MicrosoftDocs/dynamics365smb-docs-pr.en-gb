@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d1988bd3bbd9424f48431927dd6416eab636adf1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 622e9833af12db9cecdb09f4358d5c7716bbb994
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914421"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753524"
 ---
 # <a name="business-functionality"></a>Business Functionality
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides functionality for common business processes in small and mid-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported.
+[!INCLUDE[prod_short](includes/prod_short.md)] provides functionality for common business processes in small and mid-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Role Centre, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. Several areas of business functionality must be set up manually. For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Role Centre, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[prod_short](includes/prod_short.md)]. Several areas of business functionality must be set up manually. For more information, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 | To | See |
 | --- | --- |
@@ -40,12 +40,12 @@ ms.locfileid: "3914421"
 |Schedule service calls and set up service orders, and track repair parts and supplies.|[Service Management](service-service.md)|
 |Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md)|
 |Enable users to exchange data with external sources during daily tasks, such as sending/receiving electronic documents, importing/exporting bank files, and updating currency exchange rates.|[Exchanging Data Electronically](across-data-exchange.md)|
-|Record external documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
+|Record external documents in [!INCLUDE[prod_short](includes/prod_short.md)], including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
 
 ## <a name="see-also"></a>See Also
 
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Administration](admin-setup-and-administration.md)  
-[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

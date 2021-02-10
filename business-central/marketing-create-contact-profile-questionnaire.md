@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2020
-ms.openlocfilehash: ef8b2c90ef01841e2c641b9fc96348d899d4997e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 65c27bee86d273c467709f1e238b996829d73f37
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919345"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755449"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Use Profile Questionnaires to Classify Business Contacts
 You can set up profile questionnaires that you want to use when entering information about your contacts' profiles. Within each questionnaire, you can set up the different questions you intend to ask your contacts.  
@@ -23,7 +23,7 @@ You can set up profile questionnaires that you want to use when entering informa
 You can also run the questionnaire to answer some of the questions based on contact, customer, or vendor data automatically.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>To add a profile questionnaire
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup**, and then choose the related link.  
 2.  Choose the **New** Action.  
 3.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -46,7 +46,7 @@ You can automatically classify your contacts according to customer, vendor, and 
 > [!NOTE]
 > Only contacts that are recorded as customers can be assigned a classification based on customer data and only contacts that are recorded as vendors can be assigned a classification based on vendor data. The automatic classification is not updated automatically. Consequently, you may want to update the profile questionnaires, after you have updated the customer, vendor or contact data they are based on.  
 
-After you have set up automatically answered profile questions, if you assign the profile questionnaire containing these questions to a contact, [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically assign the right answers for the contact.  
+After you have set up automatically answered profile questions, if you assign the profile questionnaire containing these questions to a contact, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically assign the right answers for the contact.  
 
 ## <a name="example"></a>Example
 You can classify your contacts according to how much they bought from you:
@@ -103,28 +103,28 @@ To do this, fill on the **Profile Questionnaire Setup** page as follows:
 <td><p>Question</p></td>
 <td><p>ABC Classification</p></td>
 <td><p>Click to insert a check mark</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Answer</p></td>
 <td><p>A</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>500,000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Answer</p></td>
 <td><p>B</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>100,000</p></td>
 <td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Answer</p></td>
 <td><p>C</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 <td><p>99,999</p></td>
 </tr>
 </tbody>

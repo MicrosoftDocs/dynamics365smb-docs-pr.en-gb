@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 30c8eac184987e82b9bfb158a61efdbbc559207a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 338c5dce8ae2011bb36ad126d4926635a86d3e95
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924060"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746398"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Work with Intercompany Documents and Journals
 You use intercompany documents or journals to post transactions with your intercompany partners. When you post an intercompany document or journal line in your company, a corresponding document or journal line is created in your intercompany outbox that you can transfer to your partner. Your partner can then post the corresponding transaction in their company, without having to re-enter the data.
@@ -29,7 +29,7 @@ You can send sales and purchase orders and return orders before posting. Invoice
 
 The following procedure describes how to fill in and send an intercompany sales order. The same steps apply to intercompany purchase orders and return orders, and to posted intercompany invoices and credit memos.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Choose **New** to create a new sales order. For more information, see [Sell Products](sales-how-sell-products.md).  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Make sure the customer is an intercompany partner.
@@ -41,7 +41,7 @@ The following procedure describes how to fill in and send an intercompany sales 
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>To fill in and post an intercompany journal
 When you post an intercompany general journal line in your company, a corresponding journal line is created in your intercompany outbox that you can transfer to your partner. Your partner can then post the corresponding transaction in their company, without having to re-enter the data.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany General Journals** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany General Journals**, and then choose the related link.  
 2. Open the relevant journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. Fill in the fields as necessary.
 4. In the **IC Partner G/L Acc. No.** field, enter the intercompany general ledger account that the amount will be posted to in your partner's company.
@@ -57,4 +57,4 @@ The involved entries are posted in your company and a journal with the correspon
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

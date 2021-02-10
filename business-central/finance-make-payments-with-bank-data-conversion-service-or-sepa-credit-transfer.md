@@ -1,5 +1,5 @@
 ---
-title: Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer | Microsoft Docs
+title: Make Payments with AMC Banking  (US) or SEPA Credit Transfer (EU)
 description: Process payments to your vendors by exporting a file together with the payment information from the journal lines.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ba2f2d902dd982ed7f411dddd37b2a49d9f4983b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a94cde16f61ccb42c580db1f93fe6cdca0b639eb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923076"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746748"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer
 
-On the **Payment Journal** page, you can process payments to your vendors by exporting a file together with the payment information from the journal lines. You can then upload the file to your electronic bank where the related money transfers are processed. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.
+On the **Payment Journal** page, you can process payments to your vendors by exporting a file together with the payment information from the journal lines. You can then upload the file to your electronic bank where the related money transfers are processed. [!INCLUDE[prod_short](includes/prod_short.md)] supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.
 
 > [!NOTE]
-> In the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in [To export payments to a bank file](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).  
+> In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in [To export payments to a bank file](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).  
 
  To enable SEPA credit transfers, you must first set up a bank account, a vendor, and the general journal batch that the payment journal is based on. You then prepare payments to vendors by automatically filling the **Payment Journal** page with due payments with specified posting dates.  
 
@@ -35,9 +35,9 @@ Activate the AMC Banking 365 Fundamentals extension to have any bank statement f
 
 ## <a name="setting-up-sepa-credit-transfer"></a>Setting Up SEPA Credit Transfer
 
-From the **Payment Journal** page, you can export payments to a file for upload to your electronic bank for processing of the related money transfers. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.  
+From the **Payment Journal** page, you can export payments to a file for upload to your electronic bank for processing of the related money transfers. [!INCLUDE[prod_short](includes/prod_short.md)] supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.  
 
-To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[d365fin](includes/d365fin_md.md)] , you can set up a data exchange definition by using the data exchange framework. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
+To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[prod_short](includes/prod_short.md)] , you can set up a data exchange definition by using the data exchange framework. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
 Before you can process payment electronically by exporting payment files in the SEPA Credit Transfer format, you must perform the following setup steps:  
 
@@ -48,27 +48,27 @@ Before you can process payment electronically by exporting payment files in the 
 
 ### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>To set up a bank account for SEPA Credit Transfer
 
-1. In the **Search** box, enter **Bank Accounts** , and then choose the related link.  
+1. In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
 2. Open the card of the bank account from which you will export payment files in the SEPA Credit Transfer format.  
-3. On the **Transfer** FastTab, in the **Payment Export Format** field, choose **SEPACT** .  
+3. On the **Transfer** FastTab, in the **Payment Export Format** field, choose **SEPACT**.  
 4. On the **General** FastTab, in the **Credit Transfer Msg. Nos.** field, choose a number series from which numbers are assigned to SEPA credit transfer entries.  
 5. Make sure the **IBAN** field is filled.  
 
     > [!NOTE]  
-    > The **Currency Code** field must be set to **EUR** , because SEPA credit transfers can only be made in the EURO currency.  
+    > The **Currency Code** field must be set to **EUR**, because SEPA credit transfers can only be made in the EURO currency.  
 
 ### <a name="to-set-up-a-vendor-card-for-sepa-credit-transfer"></a>To set up a vendor card for SEPA Credit Transfer
 
-1. In the **Search** box, enter **Vendors** , and then choose the related link.  
+1. In the **Search** box, enter **Vendors**, and then choose the related link.  
 2. Open the card of the vendor whom you will pay electronically by export payment files in the SEPA Credit Transfer format.  
-3. On the **Payment** FastTab, in the **Payment Method Code** field, choose **BANK** .  
+3. On the **Payment** FastTab, in the **Payment Method Code** field, choose **BANK**.  
 4. In the **Preferred Bank Account** field, choose the bank to which the money will be transferred when it is processed by your electronic bank.  
 
      The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field on the **Payment Journal** page.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>To set the payment journal up to export payment files
 
-1. In the **Search** box, enter **Payment Journals** , and then choose the related link.  
+1. In the **Search** box, enter **Payment Journals**, and then choose the related link.  
 2. Open the payment journal that you use to process payments by exporting files in the SEPA Credit Transfer format.  
 3. In the **Batch Name** field, choose the drop\-down button.  
 4. On the **General Journal Batches** page, choose the **Edit List** action.  
@@ -76,7 +76,7 @@ Before you can process payment electronically by exporting payment files in the 
 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>To connect the data exchange definition for one or more payment types with the relevant payment method or methods
 
-1. In the **Search** box, enter **Payment Methods** , and then choose the related link.  
+1. In the **Search** box, enter **Payment Methods**, and then choose the related link.  
 2. On the **Payment Methods** page, select the payment method that is used to export payments from, and then choose the **Pmt. Export Line Definition** field.  
 3. On the **Pmt. Export Line Definitions** page, select the code that you specified in the **Code** field on the **Line Definitions** FastTab in step 4 in the "To describe the formatting of lines and columns in the file" section in the [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) procedure.  
 
@@ -88,7 +88,7 @@ Fill the payment journal with lines for due payments to vendors, with the option
 
 When you are ready to make payments to your vendors, or reimbursements to your employees, you can export a file with the payment information on the lines on the **Payment Journal** page. You can then upload the file to your bank to process the related money transfers.
 
-In the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the AMC Banking 365 Fundamentals extension is available. In North American versions, the same extension can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in [To export payments to a bank file](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
+In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], the AMC Banking 365 Fundamentals extension is available. In North American versions, the same extension can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in [To export payments to a bank file](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
 
 > [!NOTE]  
 > Before you can export payment files from the payment journal, you must specify the electronic format for the involved bank account, and you must enable the AMC Banking 365 Fundamentals extension. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md) and [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md). In addition, you must select the **Allow Payment Export** check box on the **General Journal Batches** page. For more information, see [Working with General Journals](ui-work-general-journals.md).  
@@ -99,7 +99,7 @@ You use the **Credit Transfer Registers** page to view the payment files that ha
 
 The following describes how to pay a vendor by cheque. The steps are similar to refund a customer by cheque.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Fill in the payment journal lines. For more information, see [Record Payments and Refunds](payables-how-post-payments-refunds.md).
 
     > [!NOTE]
@@ -115,7 +115,7 @@ The following describes how to pay a vendor by cheque. The steps are similar to 
     > [!TIP]  
     > When you use the AMC Banking 365 Fundamentals extension, a common error message states that the bank account number does not have the length that your bank requires. To avoid or resolve the error, you must remove the value in the **IBAN** field on the **Bank Account Card** page and then, in the **Bank Account No.** field, enter a bank account number in the format that your bank requires.
 
-5. On the **Save As** page, specify the location that the file is exported to, and then choose **Save** .
+5. On the **Save As** page, specify the location that the file is exported to, and then choose **Save**.
 
     > [!NOTE]  
     > If you are using EFT, save the resulting vendor remittance form as a Word document or select to have it emailed directly to the vendor. The payments are now added to the **Generate EFT File** page from where you can generate multiple payment orders together to save transmission cost. For more information, see the following steps.
@@ -123,7 +123,7 @@ The following describes how to pay a vendor by cheque. The steps are similar to 
 
     On the **Generate EFT File** page, all payments set up for EFT that you have exported from the payment journal for a specified bank account but not yet generated are listed on the **Lines** FastTab.
 7. Choose the **Generate EFT File** action to export one file for all the EFT payments.
-8. On the **Save As** page, specify the location that the file is exported to, and then choose **Save** .
+8. On the **Save As** page, specify the location that the file is exported to, and then choose **Save**.
 
 The bank payment file is exported to the location that you specify, and you can proceed to upload it to your electronic bank account and make the actual payments. Then you can post the exported payment journal lines.
 
@@ -145,7 +145,7 @@ You can re-export payment files from the **Credit Transfer Registers** page. Bef
 > [!NOTE]  
 > Exported EFT files are not shown on the **Credit Transfer Registers** page and cannot be re-exported.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Credit Transfer Registers** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Credit Transfer Registers**, and then choose the related link.
 2. Select a payment export that you want to re-export, and then choose the **Reexport Payment to File** action.
 
 ## <a name="posting-the-payments"></a>Posting the Payments

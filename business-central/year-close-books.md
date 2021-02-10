@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 0b2536d39bf0121f68172429513bce2ad3180110
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84947d0c88834fe674942e5edb5cf8ac73a9741c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925279"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755649"
 ---
 # <a name="closing-the-books"></a>Closing the Books
 After you ensure that all your accounts are up-to-date, and you allocate costs and income, then you can close the books for a fiscal year or period.
@@ -54,4 +54,4 @@ You can post in a previous fiscal year, even after the income statement accounts
 ## <a name="see-also"></a>See Also
 
 [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

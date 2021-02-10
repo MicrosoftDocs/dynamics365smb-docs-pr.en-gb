@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 070ffe0a25791f8fee51e0e4279a3886a3f18135
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 44f6fa0f4f5b957a3164fb8cda68c0397f639bc1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924035"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750112"
 ---
 # <a name="managing-intercompany-transactions"></a>Managing Intercompany Transactions
 Your organization may consist of several companies, but might not have the equivalent number of accounting and administrative teams. The Intercompany functionality lets you do business with your subsidiary and internal partner organisations in the same way as you engage with your external vendors and customers. You enter intercompany transaction information only once in the appropriate documents. You can use the functionality you are already familiar with, such as receivables and payables management. Mapping facilities for the chart of accounts and dimensions help ensure that information appears in the right places.  
@@ -39,16 +39,17 @@ Consolidating financial data may especially be relevant in connection with inter
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
- |To |See|
- |---|---|
- |Create your intercompany vendors and customers as so-called intercompany partners, and set up an intercompany chart of accounts.|[Set Up Intercompany](intercompany-how-setup.md)|
- |Use intercompany documents or journals to post transactions with your intercompany partners.|[Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)|
- |Organise and process incoming and outgoing transactions that you exchange with your intercompany partners.|[Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)|
+|To |See|
+|---|---|
+|Create your intercompany vendors and customers as so-called intercompany partners, and set up an intercompany chart of accounts.|[Set Up Intercompany](intercompany-how-setup.md)|
+|Use intercompany documents or journals to post transactions with your intercompany partners.|[Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)|
+|Organise and process incoming and outgoing transactions that you exchange with your intercompany partners.|[Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)|
+|Use intercompany postings to distribute costs between partner companies.|[Allocate Costs to Intercompany Partners](intercompany-allocate-costs.md)|
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

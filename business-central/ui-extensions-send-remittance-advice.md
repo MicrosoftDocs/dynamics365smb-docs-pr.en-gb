@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f6afaa9ade29c955033914b608806c3fb0f5a310
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3ae8d131b714b0d7ffb60727d1a991cd6e4ab692
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912228"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757074"
 ---
 # <a name="send-remittance-advice"></a>Send Remittance Advice
 
@@ -26,12 +26,12 @@ Where remittance advice is used to notify vendors of payments being made, you ca
 
 You can send remittance advice in two different ways:
 
-* In the **Payment Journal** page, choose **Related** , **Payments** , **Send Remittance Advice** to email remittance advice for one or multiple payment journal lines
-* In the **Vendor Ledger Entries** page, choose **Actions** , **Functions** , **Send Remittance Advice** to email remittance advice after posting of vendor payments, for one or multiple vendor ledger entries
+* In the **Payment Journal** page, choose **Related**, **Payments**, **Send Remittance Advice** to email remittance advice for one or multiple payment journal lines
+* In the **Vendor Ledger Entries** page, choose **Actions**, **Functions**, **Send Remittance Advice** to email remittance advice after posting of vendor payments, for one or multiple vendor ledger entries
 
 ## <a name="see-also"></a>See Also
 
 [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  

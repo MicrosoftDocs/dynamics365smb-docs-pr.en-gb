@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc4daea0a139a99249c708a4c32795708277c99c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: eef51c7fe686b9cfa2383930cf7daef3ef3d6f02
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911753"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755874"
 ---
 # <a name="warehouse-management"></a>Warehouse Management
 After goods are received and before goods are shipped, a series of internal warehouse activities take place to ensure an effective flow through the warehouse and to organize and maintain company inventories.
@@ -44,6 +44,6 @@ The inventory-related tasks of counting, adjusting, and reclassifying items may 
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

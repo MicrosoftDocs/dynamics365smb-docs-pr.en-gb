@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: reconcile
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d5610e86ea06b6edd2ef0ae4cb7c1473dd096e9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7eb749c17ea9f17b3ef7c7c29c5dc9037fcbaf9c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924360"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752337"
 ---
 # <a name="reconciling-bank-accounts"></a>Reconciling Bank Accounts
 
@@ -26,7 +26,7 @@ You can perform the task on the **Bank Acc. Reconciliation** page where you matc
 > [!NOTE]  
 > In the North American versions, you can also perform bank reconciliation on the **Bank Rec. Worksheet** page, which is better suited for cheques and deposits but does not offer import of bank statement files. To use this page instead of the **Bank Acc. Reconciliation** page, deselect the **Bank Recon. with Auto. Match** field on the **General Ledger Setup** page. For more information, see [Reconcile Bank Accounts](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) under United States Local Functionality.
 
-Before you can manage your bank accounts within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must set each bank account up as a bank account card. In addition, you must set up electronic services that you may use for bank statement import and payment file export. For more information, see [Setting Up Banking](bank-setup-banking.md).
+Before you can manage your bank accounts within [!INCLUDE[prod_short](includes/prod_short.md)], you must set each bank account up as a bank account card. In addition, you must set up electronic services that you may use for bank statement import and payment file export. For more information, see [Setting Up Banking](bank-setup-banking.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
@@ -48,5 +48,5 @@ The following table describes a sequence of tasks, with links to the topics that
 [Transfer Bank Funds](bank-how-transfer-bank-funds.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

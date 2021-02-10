@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b2cebfbee991bcb9aa9c9bebe9e9112a024c429
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8d23cd7ca8badf10bc8c734d84b5142d34ad4362
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918945"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748825"
 ---
 # <a name="understanding-wip-methods"></a>Understanding WIP Methods
 As a job progresses, materials, resources, and other expenses are consumed and must be posted to the job. Work in Process (WIP) is a feature that enables you to estimate the financial value of jobs in the general ledger while the jobs are ongoing. In many cases, you might post expenses for a job before invoicing a job. When only expenses have been posted, your financial statement will be inaccurate.
 
 To track the value in the general ledger, you can calculate WIP and post the value to the general ledger. For more information, see [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supports the following methods of calculating and recording the value of work in process.
+[!INCLUDE[prod_short](includes/prod_short.md)] supports the following methods of calculating and recording the value of work in process.
 
 | WIP Method | Calculation Formula | Calculation Description |
 | --- | --- | --- |
@@ -39,4 +39,4 @@ To track the value in the general ledger, you can calculate WIP and post the val
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

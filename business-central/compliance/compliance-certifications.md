@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 55ed4b00a4d4140a625f914e148a51d83170fbd7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b7dbdaa20391723ec91811c3cce4226b224a4aa5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921029"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751987"
 ---
 # <a name="certifications"></a>Certifications
 
-This content contains information about certifications in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+This content contains information about certifications in relation to [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
 ## <a name="countryregion-specific-certifications-and-accreditations"></a>Country/region-specific certifications and accreditations
 
@@ -45,4 +45,4 @@ Business Central as a cloud service also has achieved certifications, such as IS
 [Application Compliance](compliance-application-compliance.md)  
 [Service Compliance](compliance-service-compliance.md)  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  

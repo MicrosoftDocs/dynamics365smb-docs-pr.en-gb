@@ -11,17 +11,17 @@ ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: andreipa
-ms.openlocfilehash: 25cf2c75ac6beca4f187b329c610914452d7dfcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 311af347fede15b3d246e66d66b47a5fd09c90db
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910812"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750487"
 ---
-# <a name="work-with-recurring-revenue-in-d365fin"></a>Work with recurring revenue in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="work-with-recurring-revenue-in-prod_short"></a>Work with recurring revenue in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Many companies are moving from a business revenue model where revenue is made from a customer's one-time purchase to a subscription model where revenue is made on a recurring basis in return for consistent access to the delivery of a good or service.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] has the following options for automating how you send subscription invoices to your customers and register recurring revenue. 
+[!INCLUDE[prod_short](includes/prod_short.md)] has the following options for automating how you send subscription invoices to your customers and register recurring revenue. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Register revenue with a recurring general journal
 
@@ -31,7 +31,7 @@ A recurring journal is a general journal with specific fields for managing trans
 
 With this option, you define flexible invoicing periods with [Date Formulas](ui-enter-date-ranges.md#using-date-formulas).
 
-However, with this option, you cannot print and send invoices in the default version of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+However, with this option, you cannot print and send invoices in the default version of [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 For more information, see [Working with Recurring Journals](ui-work-general-journals.md#working-with-recurring-journals).  
 
@@ -57,7 +57,7 @@ If you often need to create sales and purchase lines with similar information, y
 
 With this option, you can assign the same recurring lines to multiple customers. You can define period of validity for the recurring sales lines for specific customer. You can assign multiple recurring lines to the same customer and all of them will be included in the invoice.
 
-However, there is no way to set fixed prices for items because [!INCLUDE[d365fin](includes/d365fin_md.md)] will use the actual prices and discount valid on document date, trying to find best combination that gives the lowest price.  
+However, there is no way to set fixed prices for items because [!INCLUDE[prod_short](includes/prod_short.md)] will use the actual prices and discount valid on document date, trying to find best combination that gives the lowest price.  
 
 For more information, see [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).
 
@@ -77,7 +77,7 @@ However, this option requires the Premium licence. Setting up service management
 For more information, see [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md) and [Invoice several service contracts](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Related features
-There are several related capabilities in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+There are several related capabilities in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="blanket-sales-orders"></a>Blanket sales orders
 
@@ -103,7 +103,7 @@ With this option, you can choose between fixed and "best" prices.
 
 However, this is only available in Norway. Validity period can be defined on the recurring group level.
 
-For more information, see [Recurring Orders (Norway)](/localfunctionality/norway/recurring-orders.md).
+For more information, see [Recurring Orders](LocalFunctionality/Norway/recurring-orders.md).
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Recurring revenue and subscription billing by other providers
 
@@ -120,4 +120,4 @@ At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get exte
 [Invoice several service contracts](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Demand Forecasts and Blanket Orders](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)  
-[Recurring Orders (Norway)](/localfunctionality/norway/recurring-orders.md)  
+[Recurring Orders (Norway)](LocalFunctionality/Norway/recurring-orders.md)  

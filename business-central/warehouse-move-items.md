@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d0decb06f9ea7c8dd85aba8cb9aea2ac02cac824
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 57a7292dda8594bd74c62ea8a15b9b38df7b4cc0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920279"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755833"
 ---
 # <a name="moving-items"></a>Moving Items
 The warehouse activity of moving items within the warehouse is performed in different ways depending on how warehouse management features are configured. The complexity can rank from no warehouse features, through basic warehouse configurations for order-by order handling in one or more activities only, to advanced configurations where all warehouse activities must be performed in a directed workflow. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
@@ -45,4 +45,4 @@ The inventory-related tasks of counting, adjusting, and reclassifying items may 
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f78a4e0220ac3c933a6b00300dee4b389c5ea4cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9b58caa880dce813439a2ce4ab2b9da8dccddae5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911953"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756349"
 ---
 # <a name="receive-items"></a>Receive Items
 
@@ -27,7 +27,7 @@ When items arrive at a warehouse that is set up for warehouse receipt processing
 
 The following describes how to receive items with a purchase order. The steps are similar for sales return orders and transfer orders.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
 2. Open an existing purchase order, or create a new one. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. In the **Qty. to Receive** field, enter the received quantity.
 
@@ -43,7 +43,7 @@ The following describes how to receive items with a purchase order. The steps ar
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>To receive items with a warehouse receipt
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
 2. Choose the **New** action.  
 
     Fill in the fields on **General** FastTab. When you retrieve source document lines, some of the information is copied to each line.  
@@ -96,7 +96,7 @@ You must define a percentage by which you allow the ordered quantity to be excee
 
 The following describes how to set up and assign an over-receipt code to an item. The steps are similar for a vendor.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card for an item that you suspect may sometimes be delivered with a higher quantity than ordered.
 3. Choose the look-up button in the **Over-Receipt Code** field.
 4. Choose the **New** action.
@@ -123,7 +123,7 @@ When you handle an over-receipt, you can either increase the value in the **Qty.
 2. Post the receipt as you would for any other receipt.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] does not include functionality to automatically initiate the financial administration of over-receipts. You must manually handle this in agreement with the vendor, for example, by the vendor forwarding a new or updated invoice.
+> [!INCLUDE[prod_short](includes/prod_short.md)] does not include functionality to automatically initiate the financial administration of over-receipts. You must manually handle this in agreement with the vendor, for example, by the vendor forwarding a new or updated invoice.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
@@ -134,4 +134,4 @@ When you handle an over-receipt, you can either increase the value in the **Qty.
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

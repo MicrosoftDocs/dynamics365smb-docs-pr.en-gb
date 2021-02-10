@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 98916c0843d84c76529e7b6f475ba207b2590a08
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40f6a55adc0c2ade279638b43136475d81cb2c58
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911187"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751687"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimension Set Entries Overview
-This topic describes how dimension set entries are stored and posted in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This topic describes how dimension set entries are stored and posted in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="dimension-sets"></a>Dimension Sets  
 A dimension set is a unique combination of dimension values. It is stored as dimension set entries in the database. Each dimension set entry represents a single dimension value. The dimension set is identified by a common dimension set ID that is assigned to each dimension set entry that belongs to the dimension set.  

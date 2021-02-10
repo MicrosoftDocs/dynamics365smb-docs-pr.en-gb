@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e7d6380465eed64a7086b9348e1a2261555a024
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 99111bce195e4436aac597cc4eb2e5f8f3ef77cd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913895"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747298"
 ---
 # <a name="sell-items-assembled-to-order"></a>Sell Items Assembled to Order
-If the **Assembly Policy** field on the item card of an assembly item is **Assemble-to-Order** , then the item is not expected to be in inventory, and it must be assembled specifically to a sales order. When you enter the item on a sales order line, then an assembly order is automatically created and linked to the sales order.  
+If the **Assembly Policy** field on the item card of an assembly item is **Assemble-to-Order**, then the item is not expected to be in inventory, and it must be assembled specifically to a sales order. When you enter the item on a sales order line, then an assembly order is automatically created and linked to the sales order.  
 
 > [!NOTE]  
 >  If some assemble-to-order items are already in inventory, then you can deduct that quantity from the assembly order and reserve it from inventory. For more information, see [Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
@@ -29,7 +29,7 @@ In this procedure, you process the sale of an item that will be assembled accord
 >  The following procedure does not include the standard sales order steps before the step where you enter the assemble-to-order item on a sales order line.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>To sell an item that is assembled to order  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Create a sales order. For more information, see [Sell Products](sales-how-sell-products.md).  
 3.  In the **No.** field, enter an item that is set up to be assembled to order.  
 4.  In the **Location Code** field, define which location the item will be sold from. The assembly process will occur at that location.  
@@ -62,4 +62,4 @@ In this procedure, you process the sale of an item that will be assembled accord
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

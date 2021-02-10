@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfb7c0186f7ed81687ad3f4d667b3f71d77af424
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 659478fb593f16c4c0a8dd746ccdd61211bc7ecb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922524"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752732"
 ---
 # <a name="prepare-a-configuration-package"></a>Prepare a Configuration Package
 
@@ -52,18 +52,18 @@ The process of creating and importing a configuration package involves the follo
 
 When exporting and importing configuration packages between two company databases, the databases should have the same schema to ensure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
 
-You can import a configuration package that has been exported from a database that has a different schema than that target database. However, any tables or fields in the configuration package that are missing in the target database will not be imported. Tables with different primary keys and fields with different data types will also not successfully import. For example, if the configuration pack includes table **50000, Customer** that has primary key **Code20** and the database to which you import the pack includes table **50000, Customer Bank Account** that has the primary key **Code20 + Code 20** , then data will not be imported.  
+You can import a configuration package that has been exported from a database that has a different schema than that target database. However, any tables or fields in the configuration package that are missing in the target database will not be imported. Tables with different primary keys and fields with different data types will also not successfully import. For example, if the configuration pack includes table **50000, Customer** that has primary key **Code20** and the database to which you import the pack includes table **50000, Customer Bank Account** that has the primary key **Code20 + Code 20**, then data will not be imported.  
 
 ## <a name="to-create-a-configuration-package"></a>To create a configuration package
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 2. Choose the **New** action.  
 3. On the **General** FastTab, fill in the fields as appropriate. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. To exclude the configuration questionnaires, configuration templates, and configuration worksheet tables from the package, select the **Exclude Configuration Tables** check box. Otherwise, these tables will be added to the list of package tables automatically when you export the package.  
 5. Choose the **Get Tables** action. The **Get Package Tables** batch job page opens.  
 6. Choose the **Select Tables** field. The **Config. Selection** page opens.  
 7. Choose the **Select All** action to add all tables to the package, or select the **Selected** check box for each table in the list that you want to add.
-8. Choose the **OK** button. The count of tables that you have selected is indicated in the **Select Tables** field. Specify additional options, and then choose the **OK** button. [!INCLUDE[d365fin](includes/d365fin_md.md)] tables are added to the lines of the **Config. Package** page.  
+8. Choose the **OK** button. The count of tables that you have selected is indicated in the **Select Tables** field. Specify additional options, and then choose the **OK** button. [!INCLUDE[prod_short](includes/prod_short.md)] tables are added to the lines of the **Config. Package** page.  
 
     > [!NOTE]  
     >  You can also do this in the configuration worksheet. Select the tables you want to include in the package, and then choose the **Assign Package** action.
@@ -107,7 +107,7 @@ You can save the file with a name that is meaningful to you, but you cannot chan
 
 After you have created a package that meets most of your needs, you can use it as a basis for creating similar packages. This can speed up implementation time and enhances the repeatability of RapidStart Services.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 2. Select a package from the list, and then choose the **Copy Package** action.  
 3. In the **New Package Code** field, enter a code for the new package.  
 4. Select the **Copy Data** check box if you also want to copy database data from the existing package.  
@@ -117,10 +117,10 @@ After you have created a package that meets most of your needs, you can use it a
 
 Use the configuration worksheet to gather and categorise the information that you want to use to configure a new company, and arrange tables in a logical way. Formatting in the worksheet is based on a simple hierarchy: Areas contain groups, which in turn contain tables. Areas and groups are optional, but are necessary to enable an overview of the configuration process on the RapidStart Services Role Centre.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet** , and then choose the related link.  
-2. In the **Line Type** field, choose **Area** . In the **Name** field, enter a descriptive name.  
-3. In the **Line Type** field, choose **Group** . In the **Name** field, enter a descriptive name.  
-4. In the **Line Type** field, choose **Table** . In the **Table ID** field, select the table you want to include in the worksheet.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
+2. In the **Line Type** field, choose **Area**. In the **Name** field, enter a descriptive name.  
+3. In the **Line Type** field, choose **Group**. In the **Name** field, enter a descriptive name.  
+4. In the **Line Type** field, choose **Table**. In the **Table ID** field, select the table you want to include in the worksheet.  
 
 You can now assign the tables to specific configuration packages that you have created or plan to create. For more information, see [To assign a table to a configuration package](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
@@ -136,7 +136,7 @@ After you have defined the tables that you want to treat as part of your configu
 > [!NOTE]  
 > You can also create a package directly, and add tables to it. For more information, see [To create a configuration package](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. In the configuration worksheet, select a line or group of lines that you want to assign to a configuration package, and then choose the **Assign Package** action.  
 3. Select a package from the list, or choose the **New** action to create a new package, and then choose the **OK** button.  
 
@@ -147,11 +147,11 @@ After you have defined the tables that you want to treat as part of your configu
 
 As you create a configuration package for a solution, you can view and customise the available database data to suit your customer needs. The database table must have an associated page.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. In the configuration worksheet, identify the tables whose data that you want to view or customise.  
 
     > [!NOTE]  
-    >  Make sure that each table has a page ID assigned to it. For standard [!INCLUDE[d365fin](includes/d365fin_md.md)] tables, this value is automatically filled in. For custom tables, you must provide the ID.
+    >  Make sure that each table has a page ID assigned to it. For standard [!INCLUDE[prod_short](includes/prod_short.md)] tables, this value is automatically filled in. For custom tables, you must provide the ID.
 
 3. Choose the **Database Data** action. The page for the related page opens.
 4. Review the available information. Modify it as necessary by deleting records that are not relevant or by adding new ones.  
@@ -161,7 +161,7 @@ As you create a configuration package for a solution, you can view and customise
 After you have vetted and tested all your setup information, you can proceed to copy data to your production environment. You create a new company in the same database.
 
 1. Open and initialise the new company.  
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet** , and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 3. Choose the **Copy Data from the Company** action.  
 4. On the **Copy Company Data** page, choose the **Copy From** field. The **Companies** page opens.  
 5. Select the company from which you want to copy data, and then choose the **OK** button. A list of tables selected on the configuration worksheet opens. Only tables that contain records are included in this list.
@@ -174,3 +174,4 @@ After you have vetted and tested all your setup information, you can proceed to 
 [Set Up Company Configuration](admin-set-up-company-configuration.md)  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
+[Analysing Configuration Package Trace Telemetry](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  

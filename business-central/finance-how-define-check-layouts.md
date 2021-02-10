@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4a402e9cdcaa7eea55b693f697db3b47138cdd02
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917083"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746998"
 ---
 # <a name="select-a-check-layout"></a>Select a Cheque Layout
 You can design your cheques to conform with the standards set by the local authorities. Cheque images can be printed in English, French, or Spanish.
@@ -23,8 +23,8 @@ You can design your cheques to conform with the standards set by the local autho
 Cheques are designed to print in both the United States and Canadian cheque image formats in either a cheque-stub-cheque format or a stub-stub-cheque format.
 
 ## <a name="to-select-a-check-layout"></a>To select a cheque layout
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Bank Account** , and then choose the related link.
-2. On the **Report Selection - Bank Acc.** page, in the **Usage** field, select **Cheque** .
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Bank Account**, and then choose the related link.
+2. On the **Report Selection - Bank Acc.** page, in the **Usage** field, select **Cheque**.
 3. Select one of the following report IDs.
 
 | Report ID | Report Name | Description |
@@ -39,15 +39,15 @@ When you have set up cheque layouts, you can print cheques from the **Payment Jo
 To change one of these default cheque layouts, use either the Word or the RDLC integration to do so. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
 ## <a name="using-micr-and-security-fonts"></a>Using MICR and Security Fonts
-The online version of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains pre-installed fonts on the servers that can be used when defining cheque layouts. The following outlines which fonts are available and has links to detailed information by the 3rd-party suppliers of the fonts.
+The online version of [!INCLUDE[prod_short](includes/prod_short.md)] contains pre-installed fonts on the servers that can be used when defining cheque layouts. The following outlines which fonts are available and has links to detailed information by the 3rd-party suppliers of the fonts.
 
 > [!Important]
-> MICR and cheque security fonts in Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] are licensed in a font package from IDAutomation.com, Inc. These products may only be used as part of and in connection with Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> MICR and cheque security fonts in Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)] are licensed in a font package from IDAutomation.com, Inc. These products may only be used as part of and in connection with Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)].
 
 In update 15.3 and newer, Magnetic Ink Character Recognition (MICR) fonts are installed and available to use. Both the E-13B and the CMC-7 standards are supported. In addition to MICR fonts, special security fonts are available to generate text, names, amounts, and the currency symbols Dollar, Euro, Pound, and Yen, which are hard to tamper with once a cheque has been printed.
 
 > [!NOTE]
-> For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[d365fin](includes/d365fin_md.md)] environment.
+> For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[prod_short](includes/prod_short.md)] environment.
 
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B Specifications
 The following summarises specifications for the MICR E-13B fonts that may be useful when calibrating fonts to be on cheque layouts with specific MICR printers.
@@ -60,7 +60,7 @@ The following summarises specifications for the MICR E-13B fonts that may be use
 The full specification of MICR E-13B fonts can be found in the supplier's documentation here: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>MICR CMC-7 Specifications
-The following CMC-7 fonts are available in [!INCLUDE[d365fin](includes/d365fin_md.md)] online:
+The following CMC-7 fonts are available in [!INCLUDE[prod_short](includes/prod_short.md)] online:
 
 - IDAutomationCMC7
 - IDAutomationCMC7n10
@@ -83,7 +83,7 @@ The following Summarises specifications for cheque security fonts that may be us
 
 The full specification of cheque security fonts can be found in the supplier's documentation here: (https://www.idautomation.com/security-fonts/).
 
-Fonts for other purposes are also available in [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Available Fonts](ui-fonts.md)
+Fonts for other purposes are also available in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Available Fonts](ui-fonts.md)
 
 ## <a name="see-also"></a>See Also
 [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  
@@ -91,5 +91,5 @@ Fonts for other purposes are also available in [!INCLUDE[prodshort](includes/pro
 [Managing Payables](payables-manage-payables.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)   
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  
-[Working with [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

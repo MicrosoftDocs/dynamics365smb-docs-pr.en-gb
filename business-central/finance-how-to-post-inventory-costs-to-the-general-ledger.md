@@ -1,6 +1,6 @@
 ---
 title: How to Post Inventory Costs to the General Ledger| Microsoft Docs
-description: Describes how to manage the physical products that you trade in, for example, handling the stock in your warehouse.
+description: At the end of accounting periods, monthly, yearly or other, a sequence of cost control and auditing tasks must be performed to report a correct and balanced inventory value to the finance department. Apart from the posting routine that transfers the individual item value entries to dedicated general ledger accounts, several reports, tracing functions, and a special reconciliation tool are available to the auditor or controller responsible for this business-critical work.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e760818349cf59a9c85d0a0d22b72baefd99af6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad6c8d2084c2bffb38f1c98855e837b9ba13e8fe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919495"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746823"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Reconcile Inventory Costs with the General Ledger
 When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change of inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction that you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger.
@@ -26,7 +26,7 @@ Automatic cost posting is defined by the **Automatic Cost Posting** field on the
 Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [Adjust Item Costs](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>To post inventory costs manually
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") ico, enter **Post Inventory Cost to G/L** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Inventory Cost to G/L**, and then choose the related link.
 2. Post inventory costs to the general ledger manually by running the batch job. When you run this batch job, general ledger entries are created on the basis of value entries. You can post the entries so that they are summarized per posting group.
 
 > [!NOTE]  
@@ -49,7 +49,7 @@ The **Inventory - G/L Reconciliation** page provides the following:
 
 The **Name** column on the far left in the grid lists the various G/L account types that are associated with inventory.
 
-The **Inventory** , **Inventory (Interim)** , and **WIP Inventory** columns show the invoiced, non-invoiced, and WIP totals of each G/L account type. These are calculated from value entries, that is, they are projected onto the G/L account types where they will end when they are eventually posted to G/L.
+The **Inventory**, **Inventory (Interim)**, and **WIP Inventory** columns show the invoiced, non-invoiced, and WIP totals of each G/L account type. These are calculated from value entries, that is, they are projected onto the G/L account types where they will end when they are eventually posted to G/L.
 
 The **Total** column shows the sum (in bold font) of the value entry amounts in the three inventory columns.
 
@@ -69,9 +69,21 @@ The next columns show the totals for the same account types calculated from the 
 
 Choose the  amount in any of the total fields to see the inventory report entries that were used to calculate the totals. For inventory totals, the inventory report entries are the sums of the value entries for the items. For the G/L totals, the inventory report entries are the sums from the general ledger entries.
 
+## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Reporting Costs and Reconciling with the General Ledger
+Other reports, tracing functions, and a special reconciliation tool are available to the auditor or controller responsible for reporting a correct and balanced inventory value to the finance department.
+
+The following table describes them.    
+
+|**To**|**See**|  
+|------------|-------------|  
+|View the inventory value of selected items, including information about the quantities and values of increases and decreases in inventory over a selected period.|**Inventory Valuation** report|  
+|View the inventory value of selected production orders in your WIP (work in process) inventory, such as the quantities and values of consumption, capacity usage, and output in ongoing production orders.|**Inventory Valuation - WIP** report|  
+|View the inventory value of selected items, including their actual and expected cost on the date specified.|**Invt. Valuation - Cost Spec.** report|  
+|Use a report to analyze the reasons for cost variances or to gain insight into the cost shares of sold items (COGS).|**Cost Shares Breakdown** report|  
+
 ## <a name="see-also"></a>See Also  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)    
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

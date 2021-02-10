@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81ee1ad91bd4ec887d85e940152f18e99a6d464c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6cdfee54927dd6e966f1fd1ac0b4e40ba9df1135
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923777"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750087"
 ---
 # <a name="set-up-locations"></a>Set Up Locations
 If you buy, store, or sell items at more than one place or warehouse, you must set each location up with a location card and define transfer routes.
@@ -28,7 +28,7 @@ You can then create document lines for a specific location, view availability by
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="to-create-a-location-card"></a>To create a location card
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **Location Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Repeat steps 2 and 3 for every location where you want to keep inventory.
@@ -37,7 +37,7 @@ You can then create document lines for a specific location, view availability by
 > Many fields on the location card refer to the handling of items in inbound and outbound warehouse processes. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
 ## <a name="to-create-a-transfer-route"></a>To create a transfer route
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Routes** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Routes**, and then choose the related link.
 2. Alternatively, from any **Location Card** page, choose the **Transfer Routes** action.
 3. Choose the **New** action.
 4. On the **Location Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -47,6 +47,6 @@ You can now transfer inventory items between two locations. For more information
 ## <a name="see-also"></a>See Also
 [Manage Inventory](inventory-manage-inventory.md)  
 [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)    
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)

@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb6abdb25db5567a49e394b3f13f257e3a97cf1d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca9f3dc4cbc21cad8a2369ed4c29ab6682723cc1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921179"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754699"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Set Up Data Exchange Definitions
-You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to exchange data in specific tables with data on external files, for example to send and receive electronic documents, import and export bank data or other data, such as payroll, currency exchange rates, and item catalogues. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
+You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to exchange data in specific tables with data on external files, for example to send and receive electronic documents, import and export bank data or other data, such as payroll, currency exchange rates, and item catalogues. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
 
 As preparation for creating a data exchange definition for a data file or stream, you can use the related XML schema to define which data elements to include on the **Column Definitions** FastTab. See step 6 in [To describe the formatting of lines and columns in the file](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). For more information, see the [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 You normally set up data exchange definitions on the **Data Exchange Definition** page. However, when you set up a data exchange definition for the service of refreshing currency exchange rates, you start the process in the simplified **Exch. Rate Update Setup Card** page.  
 
 > [!NOTE]  
->  If the file that is being converted is in XML format, the term *“column”* in this topic should be interpreted as *“XML element containing data”* .  
+>  If the file that is being converted is in XML format, the term *“column”* in this topic should be interpreted as *“XML element containing data”*.  
 
 This topic includes the following procedures:  
 
@@ -37,7 +37,7 @@ This topic includes the following procedures:
 Creating a data exchange definition involves two tasks:  
 
 1. On the **Data Exchange Definition** page, describe the formatting of lines and columns in the file.  
-2. On the **Data Exchange Mapping** page, map columns in the data file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+2. On the **Data Exchange Mapping** page, map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 This is described in the following procedures.  
 
@@ -45,7 +45,7 @@ This is described in the following procedures.
 > To see which codeunits Microsoft uses in existing definitions in the standard product, review the three **Codeunit** fields on the header of the **Field Mapping** page for each definition.
 
 #### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a>To describe the formatting of lines and columns in the file  
-1. In the **Search** box, enter **Data Exchange Definitions** , and then choose the related link.  
+1. In the **Search** box, enter **Data Exchange Definitions**, and then choose the related link.  
 2. Choose the **New** action.  
 3. On the **General** FastTab, describe the data exchange definition and the data file type by filling the fields as described in the following table.  
 
@@ -53,16 +53,16 @@ This is described in the following procedures.
     |---------------------------------|---------------------------------------|  
     |**Code**|Enter a code to identify the data exchange definition.|  
     |**Name**|Enter a name for the data exchange definition.|  
-    |**File Type**|Specify what type of file that the data exchange definition is used for. You can select between four file types:<br /><br /> -   **XML** : Layered strings of content and markup surrounded by tags indicating function.<br />-   **Variable Text** : Records have variable length and are separated by a character, such as comma or semi\-colon. Also known as *delimited file* .<br />-   **Fixed Text** : Records have the same length, using pad characters, and each record is on a separate line. Also known as *fixed-width file* .<br />- **Json** : Layered strings of content in JavaScript.|  
-    |**Type**|Specify what type of business activity the data exchange definition is used for, such as **Payment Export** .|  
-    |**Data Handling Codeunit**|Specify the codeunit that transfers data in and out of tables in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**File Type**|Specify what type of file that the data exchange definition is used for. You can select between four file types:<br /><br /> -   **XML**: Layered strings of content and markup surrounded by tags indicating function.<br />-   **Variable Text**: Records have variable length and are separated by a character, such as comma or semi\-colon. Also known as *delimited file*.<br />-   **Fixed Text**: Records have the same length, using pad characters, and each record is on a separate line. Also known as *fixed-width file*.<br />- **Json**: Layered strings of content in JavaScript.|  
+    |**Type**|Specify what type of business activity the data exchange definition is used for, such as **Payment Export**.|  
+    |**Data Handling Codeunit**|Specify the codeunit that transfers data in and out of tables in [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Validation Codeunit**|Specify the codeunit that is used to validate data against pre-defined business rules.|  
     |**Reading/Writing Codeunit**|Specify the codeunit that processes imported data prior to mapping and exported data after mapping.|  
     |**Reading/Writing XMLport**|Specify the XMLport through which an imported data file or service enters prior to mapping and through which exported data exits when it is written to a data file or service after mapping.|  
     |**Ext. Data Handling Codeunit**|Specify the codeunit that transfers external data in and out of the data exchange framework.|  
     |**User Feedback Codeunit**|Specify the codeunit that does various clean-up after mapping, such as marks the lines as exported and deletes temporary records.|  
     |**File Encoding**|Specify the encoding of the file. **Note:**  This field is only relevant for import.|  
-    |**Column Separator**|Specify how columns in the data file are separated, if the file is of type **Variable Text** .|  
+    |**Column Separator**|Specify how columns in the data file are separated, if the file is of type **Variable Text**.|  
     |**Header Lines**|Specify how many header lines exist in the file.<br /><br /> This makes sure that the header data is not imported. **Note:**  This field is only relevant for import.|  
     |**Header Tag**|If a header line exists in several positions in the file, enter the text of the first column on the header line.<br /><br /> This makes sure that the header data is not imported. **Note:**  This field is only relevant for import.|  
     |**Footer Tag**|If a footer line exists in several positions in the file, enter the text of the first column on the footer line.<br /><br /> This makes sure that the footer data is not imported. **Note:**  This field is only relevant for import.|  
@@ -86,7 +86,7 @@ This is described in the following procedures.
 
      Proceed to describe the formatting of columns in the data file by filling the fields on the **Column Definitions** FastTab as described in the table below. You can use the structure file, such as an .XSD file, for the data file to prefill the FastTab with the relevant elements. For more information, see [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-6. On the **Column Definitions** FastTab, choose **Get File Structure** .  
+6. On the **Column Definitions** FastTab, choose **Get File Structure**.  
 7. On the **Get File Structure** page, select the related structure file, and then choose the **OK** button. The lines on the **Column Definitions** FastTab are filled according to the structure of the data file.  
 8. On the **Column Definitions** FastTab, edit or fill the fields as described in the following table.  
 
@@ -94,39 +94,39 @@ This is described in the following procedures.
     |---------------------------------|---------------------------------------|  
     |**Column No.**|Specify the number that reflects the column’s position on the line in the file.<br /><br /> For XML files, specify the number that reflects the type of element in the file that contains the data.|  
     |**Name**|Specify the name of the column.<br /><br /> For XML files, specify the markup that marks the data to be exchanged.|  
-    |**Data Type**|Specify if the data to be exchanged is of type **Text** , **Date** , or **Decimal** .|  
-    |**Data Format**|Specify the format of the data, if any. For example, **MM-dd-yyyy** if the data type is **Date** . **Note:**  For export, specify the data format according to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For import, specify the data format according to the .NET Framework. For more information, see [Standard Date and Time Format Strings](https://go.microsoft.com/fwlink/?LinkID=323466).|  
+    |**Data Type**|Specify if the data to be exchanged is of type **Text**, **Date**, or **Decimal**.|  
+    |**Data Format**|Specify the format of the data, if any. For example, **MM-dd-yyyy** if the data type is **Date**. **Note:**  For export, specify the data format according to [!INCLUDE[prod_short](includes/prod_short.md)]. For import, specify the data format according to the .NET Framework. For more information, see [Standard Date and Time Format Strings](https://go.microsoft.com/fwlink/?LinkID=323466).|  
     |**Data Formatting Culture**|Specify the culture of the data format, if any. For example, **en-US** if the data type is **Decimal** to make sure that comma is used as the .000 separator, according to the US format. For more information, see [Standard Date and Time Format Strings](https://go.microsoft.com/fwlink/?LinkID=323466). **Note:**  This field is only relevant for import.|  
-    |**Length**|Specify the length of the fixed-width line that holds the column if the data file is of type **Fixed Text** .|  
+    |**Length**|Specify the length of the fixed-width line that holds the column if the data file is of type **Fixed Text**.|  
     |**Description**|Enter a description of the column, for information.|  
     |**Path**|Specify the position of the element in the related XML schema.|  
     |**Negative-Sign Identifier**|Enter the value that is used in the data file to identify negative amounts, in data files that cannot contain negative signs. This identifier is then used to reverse the identified amounts to negative signs during import. **Note:**  This field is only relevant for import.|  
     |**Constant**|Specify any data that you want to export in this column, such as extra information about the payment type. **Note:**  This field is only relevant for export.|  
 
-9. Repeat step 8 for every column or XML element in the data file that has data that you want to exchange with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+9. Repeat step 8 for every column or XML element in the data file that has data that you want to exchange with [!INCLUDE[prod_short](includes/prod_short.md)].  
 
- The next step in creating a data exchange definition is to decide which columns or XML elements in the data file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ The next step in creating a data exchange definition is to decide which columns or XML elements in the data file map to which fields in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]  
->  The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code on the **Data Exchange Definitions** page. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[prod_short](includes/prod_short.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code on the **Data Exchange Definitions** page. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-d365fin"></a>To map columns in the data file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-prod_short"></a>To map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]  
 > [!TIP]
 > Sometimes the values in the fields that you want to map are different. For example, in one business app the language code for the United States is "U.S.," but in the other it's "US." That means you must transform the value when you exchange data. This happens through transformation rules that you define for the fields. For more information, see [Transformation Rules](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
-1. On the **Line Definitions** FastTab, select the line for which you want to map columns to fields, and then choose **Field Mapping** . The **Data Exchange Mapping** page opens.  
+1. On the **Line Definitions** FastTab, select the line for which you want to map columns to fields, and then choose **Field Mapping**. The **Data Exchange Mapping** page opens.  
 2. On the **General** FastTab, specify the mapping setup by filling the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Table ID**|Specify the table that holds the fields to or from which data is exchanged according to the mapping.|  
-    |**Use as Intermediate Table**|Specify if the table that you select in the **Table ID** field is an intermediate table where the imported data is stored before it is mapped to the target table.<br /><br /> You typically use an intermediate table when the data exchange definition is used to import and convert electronic documents, such as vendor invoices into purchase invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Exchanging Data Electronically](across-data-exchange.md).|  
+    |**Use as Intermediate Table**|Specify if the table that you select in the **Table ID** field is an intermediate table where the imported data is stored before it is mapped to the target table.<br /><br /> You typically use an intermediate table when the data exchange definition is used to import and convert electronic documents, such as vendor invoices into purchase invoices in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Exchanging Data Electronically](across-data-exchange.md).|  
     |**Name**|Enter a name for the mapping setup.|  
-    |**Pre-Mapping Codeunit**|Specify the codeunit that prepares the mapping between fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] and external data.|  
-    |**Mapping Codeunit**|Specify the codeunit that is used to map the specified columns or XML data elements to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Post-Mapping Codeunit**|Specify the codeunit that completes the mapping between fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] and external data. **Note:**  When using the AMC Banking 365 Fundamentals extension feature, the codeunit converts exported data from [!INCLUDE[d365fin](includes/d365fin_md.md)] to a generic format that is ready for export. For import, the codeunit converts external data to a format that is ready for import into [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Pre-Mapping Codeunit**|Specify the codeunit that prepares the mapping between fields in [!INCLUDE[prod_short](includes/prod_short.md)] and external data.|  
+    |**Mapping Codeunit**|Specify the codeunit that is used to map the specified columns or XML data elements to fields in [!INCLUDE[prod_short](includes/prod_short.md)].|  
+    |**Post-Mapping Codeunit**|Specify the codeunit that completes the mapping between fields in [!INCLUDE[prod_short](includes/prod_short.md)] and external data. **Note:**  When using the AMC Banking 365 Fundamentals extension feature, the codeunit converts exported data from [!INCLUDE[prod_short](includes/prod_short.md)] to a generic format that is ready for export. For import, the codeunit converts external data to a format that is ready for import into [!INCLUDE[prod_short](includes/prod_short.md)].|  
 
-3.  On the **Field Mapping** FastTab, specify which columns map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] by filling the fields as described in the following table.  
+3.  On the **Field Mapping** FastTab, specify which columns map to which fields in [!INCLUDE[prod_short](includes/prod_short.md)] by filling the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -142,7 +142,7 @@ This is described in the following procedures.
 The data exchange definition is now ready to be enabled for users. For more information, see [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Set Up SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md), and [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### <a name="transformation-rules"></a>Transformation Rules
-If the values in the fields you are mapping differ, you must use transformation rules for data exchange definitions to make them the same. You define transformation rules for data exchange definitions by opening an existing definition, or creating a new definition, and then on the **Line Definitions** FastTab, choosing **Manage** , and then **Field Mapping** . Predefined rules are provided, but you can also create your own. The following table describes the types of transformations that you can perform.
+If the values in the fields you are mapping differ, you must use transformation rules for data exchange definitions to make them the same. You define transformation rules for data exchange definitions by opening an existing definition, or creating a new definition, and then on the **Line Definitions** FastTab, choosing **Manage**, and then **Field Mapping**. Predefined rules are provided, but you can also create your own. The following table describes the types of transformations that you can perform.
 
 |Option|Description|
 |---------|---------|
@@ -150,7 +150,7 @@ If the values in the fields you are mapping differ, you must use transformation 
 |**Lowercase**|Make all letters lowercase.|
 |**Title Case**|Capitalise the first letter of each word.|
 |**Trim**|Remove empty spaces before and after the value.|
-|**Substring**|Transform a specific portion of a value. To specify where to start the transformation, choose either a **Start Position** or **Starting Text** . The starting position is a number that represents the first character to transform. The starting text is the letter immediately before the letter to replace. If you want to start with the first letter in the value, use a starting position instead. To specify where to stop the transformation you choose either **Length** , which is the number of characters to replace, or the **Ending Text** , which is the character that is immediately after the last character to transform.|
+|**Substring**|Transform a specific portion of a value. To specify where to start the transformation, choose either a **Start Position** or **Starting Text**. The starting position is a number that represents the first character to transform. The starting text is the letter immediately before the letter to replace. If you want to start with the first letter in the value, use a starting position instead. To specify where to stop the transformation you choose either **Length**, which is the number of characters to replace, or the **Ending Text**, which is the character that is immediately after the last character to transform.|
 |**Replace**|Find a value and replace it with another. This is useful for replacing simple values, such as a particular word.|
 |**Regular Expression - Replace**|Use a regular expression as part of a find and replace operation. This is useful for replacing multiple, or perhaps more complex, values.|
 |**Remove Non-Alphanumeric Characters**|Delete characters that are not letters or numbers, such as symbols or special characters.|
@@ -179,7 +179,7 @@ After you define your rules you can test them. In the **Test** section, enter an
 ### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>To export a data exchange definition as an XML file for use by others
 When you have created the data exchange definition for a specific data file, you can export the data exchange definition as an XML file that you can import. This is described in the following procedure.  
 
-1. In the **Search** box, enter **Data Exchange Definitions** , and then choose the related link.  
+1. In the **Search** box, enter **Data Exchange Definitions**, and then choose the related link.  
 2. Select the data exchange definition that you want to export.  
 3. Choose the **Export Data Exchange Definition** action.  
 4. Save the XML file that represents the data exchange definition in an appropriate location.  
@@ -188,7 +188,7 @@ When you have created the data exchange definition for a specific data file, you
 
 ### <a name="to-import-an-existing-data-exchange-definition"></a>To import an existing data exchange definition  
 1. Save the XML file that represents the data exchange definition in an appropriate location.  
-2. In the **Search** box, enter **Data Exchange Definitions** , and then choose the related link.  
+2. In the **Search** box, enter **Data Exchange Definitions**, and then choose the related link.  
 3. Choose the **New** action. The **Data Exchange Definitio** page opens.  
 4. Choose the **Import Data Exchange Definition** action.  
 5. Choose the file that you saved in step 1.  

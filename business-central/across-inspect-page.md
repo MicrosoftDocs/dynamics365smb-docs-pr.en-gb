@@ -10,12 +10,12 @@ ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
 ms.date: 10/01/2020
-ms.openlocfilehash: f56dbf4546f5f1b466b23c3bd2794d3c4ffe02c3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d80baed51b646b389f9dd86540cc993c212be09b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924710"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754399"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspecting Pages in Business Central
 
@@ -23,7 +23,7 @@ The page inspection feature enables you to get details about a page, providing i
 
 ## <a name="working-with-page-inspection"></a>Working with Page Inspection
 
-You start page inspection from the **Help & Support** page. Choose the question mark in the top right corner, choose **Help & Support** , and then choose **Inspect pages and data** . Or, you can just use the keyboard shortcut **Ctrl+Alt+F1** .
+You start page inspection from the **Help & Support** page. Choose the question mark in the top right corner, choose **Help & Support**, and then choose **Inspect pages and data**. Or, you can just use the keyboard shortcut **Ctrl+Alt+F1**.
 
 The **Page inspection** pane opens on the side. The following figure illustrates the **Page Inspection** pane on the **Sales Order** page.
 
@@ -39,10 +39,10 @@ If you do not see the details that you expect to see in the **Page Inspection** 
 
 ## <a name="controlling-access-to-page-inspection-details"></a>Controlling Access to Page Inspection Details
 
-As an administrator, you can control access to the full details that are shown in the **Page Inspection** pane by configuring the permissions that users have. To grant a user permission to the full details, give users **Execute** permission on the **System** object **5330** . You can grant this permission by using a permission set (such as **D365 Troubleshoot** ) or a user group (such as **D365 Troubleshoot** ). For more information about permissions, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
+As an administrator, you can control access to the full details that are shown in the **Page Inspection** pane by configuring the permissions that users have. To grant a user permission to the full details, give users **Execute** permission on the **System** object **5330**. You can grant this permission by using a permission set (such as **D365 Troubleshoot**) or a user group (such as **D365 Troubleshoot**). For more information about permissions, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
 Users who are not granted permissions on **System object 5330** can still access the **Page Inspection** pane, but they will only see the **Page** and **Table** fields, which display basic details that they can pass on to their support team.
 
 ## <a name="see-also"></a>See Also
 
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

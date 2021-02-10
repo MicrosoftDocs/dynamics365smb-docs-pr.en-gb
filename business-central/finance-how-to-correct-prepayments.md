@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3dd124807d3d6ce3a775d18dcd88a8251b0feb30
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1be1ba8d59567fdf9ba2adfeceeaa23c9cf63778
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924185"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750737"
 ---
 # <a name="correct-prepayments"></a>Correct Prepayments
 
@@ -28,7 +28,7 @@ You can make a correction to an order after you have posted a prepayment invoice
 
 The following procedure shows how to issue a prepayment credit memo to cancel all invoiced prepayments for a sales order.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Open the relevant sales order.
 3. Choose the **Prepayment** action, and then choose the **Post Prepayment Credit Memo** action or the **Post and Print Prepmt. Cr. Memo** action.  
 4. On the **Sales Credit Memo** page, proceed to correct the relevant entries, as for any sales credit memo. For more information, see [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).  
@@ -44,4 +44,4 @@ The following procedure shows how to issue a prepayment credit memo to cancel al
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

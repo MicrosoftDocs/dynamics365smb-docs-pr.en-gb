@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d1b9a1af6edde26e9c966bb25bc6d237a510d00
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1fc20ebadc9d516d45c74d963be7b26cfd2b8d4d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921699"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749762"
 ---
 # <a name="setting-up-relationship-management"></a>Setting Up Relationship Management
 
@@ -23,7 +23,7 @@ Before you get started working with your contacts and marketing interests, there
 
 Managing your contacts and having a strategy in place to identify, attract, and retain customers will help optimise your business and increase customer satisfaction. Using a good contact management system will also help you create and maintain relationships with your customers. Communication is the key to these relationships. Being able to tailor communication with potential and existing customers, vendors, and business partners according to their needs, is necessary for companies to succeed. Establishing a strategy and defining how your company uses contact information is a primary step. This information will be viewed by many different groups in your company, so having a good system in place will help everyone be more productive.
 
-You set up the marketing and contact management from the **Marketing Setup** page. To open the **Marketing Setup** page, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Marketing Setup** , and then choose the related link.
+You set up the marketing and contact management from the **Marketing Setup** page. To open the **Marketing Setup** page, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Marketing Setup**, and then choose the related link.
 
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Automatically Copying Specific Information from Contact Companies to Contact Persons
 Some information about contact companies is identical to the information about the contact persons working within these companies, for example, the address details. In the **Inheritance** section of the **Marketing Setup** page, you can set the application to automatically copy specific fields from the contact company card to the contact person card each time you create a contact person for a contact company. For example, you can select to copy the salesperson code, address details (address, address 2, city, postcode, and county), communication details (fax number, telex answer back, and phone number), and more.
@@ -40,7 +40,7 @@ The inheritance of fields overwrites the default values you have set up. For exa
 <!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Automatically Recording Interactions
-[!INCLUDE[d365fin](includes/d365fin_md.md)] can automatically record sales and purchase documents as interactions (for example, orders, invoices, receipts, and so on), as well as emails, phone calls, and cover sheets.
+[!INCLUDE[prod_short](includes/prod_short.md)] can automatically record sales and purchase documents as interactions (for example, orders, invoices, receipts, and so on), as well as emails, phone calls, and cover sheets.
 
 For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).
 
@@ -59,4 +59,4 @@ You can choose to have application automatically search for duplicates each time
 
 ## <a name="see-also"></a>See Also
 [Managing Contacts](marketing-contacts.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

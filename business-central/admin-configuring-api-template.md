@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: e87809d33fb7fd511912cf6d384db0e488a8ff2d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e90fe0282af79f36fde145e22ae28818c4575bce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911612"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754074"
 ---
 # <a name="configuring-api-templates"></a>Configuring API Templates
-The API library for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] provides a simplified representation of the underlying entities. All the properties in the application are not exposed through the associated API. The **API Setup** page allows you to define templates that are used to populate empty properties on an entity when you create a POST action through the API. 
+The API library for [!INCLUDE[prod_short_md](includes/prod_short.md)] provides a simplified representation of the underlying entities. All the properties in the application are not exposed through the associated API. The **API Setup** page allows you to define templates that are used to populate empty properties on an entity when you create a POST action through the API. 
 
 For example, if a configuration template is defined for the item entity, when a new item record is created through the items API, any properties for the new item that are not defined in the API call will be populated from the selected template. If, for example, no value is defined for the **Gen. Prod. Posting Group** field through the API, but a value is defined in the selected template, then the posting group value defined in the template will be applied to the new item. 
 
@@ -31,8 +31,8 @@ To use templates with the API library, you must first set up and define properti
 
 To assign a template to an API, you must go through the following steps.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **API Setup** , and choose the related link.
-2. Choose **New** , and then choose the **Order** value for the record.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **API Setup**, and choose the related link.
+2. Choose **New**, and then choose the **Order** value for the record.  
 If there is more than one template selected for an API (Page ID), the templates are applied in the order defined in the **Order** column.   
 When each template is applied, field values defined in the template are only applied to fields that have not already had a value defined, either explicitly in the API, or in a previously applied template in the order. 
 3. Select a **Page ID** value.  
@@ -44,7 +44,7 @@ The defined template is applied to a new record created through the API if, and 
 
 ## <a name="see-also"></a>See Also
 [API Documentation](/dynamics-nav/fin-graph)  
-[Developing Connect Apps for [!INCLUDE[d365fin_md](includes/d365fin_md.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+[Developing Connect Apps for [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 [Enabling the APIs](/dynamics-nav/enabling-apis-for-dynamics-nav)  
 [Endpoints for the APIs](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Setting Up a Company with RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  

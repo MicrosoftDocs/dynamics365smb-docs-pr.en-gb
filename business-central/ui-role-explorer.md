@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dff5ad97f8fa4b8fecf2906806d74283b46fd95d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914917"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756700"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Finding Pages with the Role Explorer
-You can get an overview of all the business features that are available for your role, and for other roles if you go a step further. In the following documentation, this feature overview is referred to as the *role explorer* .
+You can get an overview of all the business features that are available for your role, and for other roles if you go a step further. In the following documentation, this feature overview is referred to as the *role explorer*.
 
-Each element on the role explorer is an action that opens a page. Accordingly, you can also use the role explorer as a means to navigate in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Each element on the role explorer is an action that opens a page. Accordingly, you can also use the role explorer as a means to navigate in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 You can open the role explorer from the Role Centre and all list pages and from the **Tell Me** window.
 
@@ -44,4 +44,4 @@ The actions that open pages are organised under nodes named after the features o
 ## <a name="see-also"></a>See Also
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

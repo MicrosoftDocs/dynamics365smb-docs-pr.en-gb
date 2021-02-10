@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: personalization
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 702e5e565eb1b5efcbadf74dd3856e60186a1bf3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c6771cba5d386c8eec5041aa9cb9a7152827ab9f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914393"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753474"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Displaying Lists in Different Ways
-In the right corner of any list in [!INCLUDE[d365fin](includes/d365fin_md.md)] you will find icons that let you choose how the list of records is displayed. A list can be displayed as detailed rows, which is ideal when you need to work with many fields or edit fields in the list. But you can also switch to display records as tiles, which is more compact and shows less fields on the specific record. This is very useful to gain an overview of several entries and is in particular useful on smaller devices, because it is compact and easier to tap.
+In the right corner of any list in [!INCLUDE[prod_short](includes/prod_short.md)] you will find icons that let you choose how the list of records is displayed. A list can be displayed as detailed rows, which is ideal when you need to work with many fields or edit fields in the list. But you can also switch to display records as tiles, which is more compact and shows less fields on the specific record. This is very useful to gain an overview of several entries and is in particular useful on smaller devices, because it is compact and easier to tap.
 
 ## <a name="item-list"></a>Item List
 On the **Items** page, having pictures helps you get a quick overview of what you sell and switching to the tiles gives you an item catalogue to browse through. For lists that include pictures, such as the **Items** page, you have a third option to display as large tiles. This displays large pictures for each record but also shows few fields.
@@ -28,5 +28,5 @@ On the **Items** page, having pictures helps you get a quick overview of what yo
 You can import item pictures, either one by one or for multiple items in one go. For more information, see [Import Multiple Item Pictures](inventory-how-import-item-pictures.md).  
 
 ## <a name="see-also"></a>See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Register New Items](inventory-how-register-new-items.md)  

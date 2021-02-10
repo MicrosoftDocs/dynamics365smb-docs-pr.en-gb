@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: ac10dbbc8490fbc5250d03ef8d5828aaddecc1b4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3c4a49b179af3bb16fb66a808be9f20274246ce0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918176"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753122"
 ---
 # <a name="united-kingdom-local-functionality"></a>United Kingdom Local Functionality
 
-The following topics describe local functionality that is unique to the United Kingdom version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+The following topics describe local functionality that is unique to the United Kingdom version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Feature Availability
 
@@ -47,7 +47,7 @@ The following topics describe local functionality that is unique to the United K
 ## <a name="see-also"></a>See Also
 
 [Using Business Central after the United Kingdom Has Left the European Union](united-kingdom-leaving-eu.md)  
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

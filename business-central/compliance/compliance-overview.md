@@ -12,16 +12,16 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 7fb48d888153e9ad77666abf4ca09f6cb429772d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8e0ffc9680d421a0b39f00eae577c80206de639b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921004"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751962"
 ---
 # <a name="compliance"></a>Compliance
 
-This content contains information about compliance in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+This content contains information about compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
 Compliance is a topic of increasing interest, and throughout the evolution of Business Central we have ensured that the product empowers customers and partners on a broad scale and does not impose blockers in regards to compliance. On the contrary, Business Central contains functionality and is built on a platform that makes it easy for customers to comply with compliance and regulatory legislation.
 
@@ -34,4 +34,4 @@ In this section you can read more about our approach to compliance from the pers
 |See information about different certifications related to Business Central. Here you will find information about general certifications and country-specific certifications.|[Certifications](compliance-certifications.md)|  
 |Learn about the service level agreement terms and other terms for the service|[Service Terms](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  

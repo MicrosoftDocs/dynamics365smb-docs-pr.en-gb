@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0442a935442890d0edaec4fa803e887da47477f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b548d6d8426fefa01bb45d3d1fdedaeb98966ce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920554"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746898"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Set Up an Additional Reporting Currency
 As companies operate in increasingly more countries/regions, it becomes more important that they are able to review and report financial data in more than one currency.
 
-Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries.
+Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries.
 
 > [!Warning]
 > The Additional Reporting Currency functionality should not be used as a basis for financial statement translation. It is not a tool that can perform translation of foreign subsidiary financial statements as part of a company consolidation. The additional reporting currency can only be used to prepare reports in another currency, as if that currency was the company’s local currency.
@@ -48,7 +48,7 @@ To set up an additional reporting currency, you must follow these steps:
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>To specify general ledger accounts for posting exchange rate adjustments  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.  
 2. On the **Currencies** page, fill in the following fields for the additional reporting currency.  
 
 |Field|Description|  
@@ -59,12 +59,12 @@ To set up an additional reporting currency, you must follow these steps:
 |**Residual Losses Account**|The general ledger account to which residual amounts that are losses are posted if you post in the general ledger application area in both LCY and an additional reporting currency.|
 
 > [!NOTE]  
->  Residual amounts can occur when [!INCLUDE[d365fin](includes/d365fin_md.md)] rounds debit and credit amounts that have been converted from LCY to an additional reporting currency.  
+>  Residual amounts can occur when [!INCLUDE[prod_short](includes/prod_short.md)] rounds debit and credit amounts that have been converted from LCY to an additional reporting currency.  
 
 For each general ledger account, you must specify how general ledger amounts for that account will be adjusted for exchange rate fluctuations between LCY and the additional reporting currency.  
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>To specify the exchange rate adjustment method for all general ledger accounts  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. On the **Chart of Accounts** page, select the relevant account, and then choose the **Edit** action.  
 3. On the **GL Account Card** page, select the relevant method in the **Exchange Rate Adjustment** field.  
 
@@ -81,7 +81,7 @@ For each general ledger account, you must specify how general ledger amounts for
 4.  Close the **G/L Account Card** page.  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>To specify exchange rate adjustment method for VAT entries  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, select the relevant method in the **VAT Exchange Rate Adjustment** field.  
 3. If you post in an additional reporting currency, you can specify in the **VAT Exchange Rate Adjustment** field how the accounts set up for VAT posting on the **VAT Posting Setup** page will be adjusted for exchange-rate fluctuations between LCY and the additional reporting currency.  
 
@@ -96,9 +96,9 @@ For each general ledger account, you must specify how general ledger amounts for
     |**Adjust Additional-Currency Amount**|The additional reporting currency is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Additional-Currency Amount** field and to the accounts you specified for gains or losses in the **Realized G/L Gains Account** and **Realized G/L Losses Account** fields on the **Currencies** page.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>To activate the additional reporting currency  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, choose the **Additional Reporting Currency** field to select the additional currency that you want to report in.  
-3. When you leave the field, [!INCLUDE[d365fin](includes/d365fin_md.md)] displays a confirmation message describing the effects of activating the additional reporting currency.  
+3. When you leave the field, [!INCLUDE[prod_short](includes/prod_short.md)] displays a confirmation message describing the effects of activating the additional reporting currency.  
 4. Choose the **Yes** button to confirm that you want to activate the currency.  
 5. The **Adjust Add. Reporting Currency** batch job opens.
 
@@ -126,4 +126,4 @@ In addition, all future entries of the same type will have amounts recorded in b
 ## <a name="see-also"></a>See Also
 [Update Currency Exchange Rates](finance-how-update-currencies.md)  
 [Closing Years and Periods](year-close-years-periods.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

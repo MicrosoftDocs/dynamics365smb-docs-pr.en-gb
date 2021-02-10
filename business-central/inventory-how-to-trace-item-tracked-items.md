@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9b9e77925a46f57b3c45a21f86ae583024146ff4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21eff2a2c52dfabb3788bb06d1d2f684c34441ce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916100"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750012"
 ---
 # <a name="trace-item-tracked-items"></a>Trace Item-Tracked Items
 You can see where an item-tracked item was used, including how and when it was received or produced, transferred, sold, consumed, or returned. You can also find all current instances of a specific serial or lot number in the database. You do this by using the Item Tracing and the [Find Entries](ui-find-entries.md) features.  
@@ -30,7 +30,7 @@ These features can be particularly useful in quality control when you need to fi
 
 ## <a name="to-trace-item-tracked-items"></a>To trace item-tracked items  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing**, and then choose the related link.  
 2.  In the filter fields at the top of the page, enter the specific item numbers or a filter on the item numbers that you would like to trace.  
 3.  In the **Show Components** field, select whether you would like to also see where the components for the items came from. Your options in this field are as follows.  
 
@@ -59,8 +59,8 @@ These features can be particularly useful in quality control when you need to fi
 
 ## <a name="to-find-item-tracked-items-with-find-entries"></a>To find item-tracked items with Find Entries  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries** , and then select the related link.  
-2. Choose **Actions** > **Find by** > **Find by Item Reference** .
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then select the related link.  
+2. Choose **Actions** > **Find by** > **Find by Item Reference**.
 3. In the **Serial No.** and **Lot No.** fields, enter the item tracking numbers that you want to trace.  
 4. Choose the **Find** action to find all instances of the serial or lot number in the database.  
 
@@ -69,6 +69,6 @@ These features can be particularly useful in quality control when you need to fi
 [Design Details: Item Tracking](design-details-item-tracking.md)
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
 [Reserve Items](inventory-how-to-reserve-items.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)  
 [Find Entries](ui-find-entries.md)  

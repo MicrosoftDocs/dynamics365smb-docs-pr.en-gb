@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 79f893007ab2c81140744a042fed24d1b932a4da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 60080b0a8982420ff2f3a6654d496395733bc425
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917226"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749225"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Set Up Fixed Asset Maintenance
 To manage fixed asset maintenance, you must first set up some general maintenance information, a posting account for maintenance costs, and maintenance codes for types of work, such as Routine Service or Repair.
@@ -25,20 +25,20 @@ To manage fixed asset maintenance, you must first set up some general maintenanc
 ## <a name="to-set-up-general-maintenance-information"></a>To set up general maintenance information
 If you set up the fields for maintenance, you can post maintenance expenses from the fixed asset journal.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
 2. Select the fixed asset that you to define insurance coverage for, and then choose the **Edit** action.
 3. On the **Maintenance** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-maintenance-codes"></a>To set up maintenance codes
 When you post maintenance costs from a general journal, you fill in the **Maintenance Code** field to record what kind of maintenance has been performed, such as routine service or repair.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Maintenance** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Maintenance**, and then choose the related link.
 2. On the **Maintenance** page, set up codes for different types of maintenance work.
 
 ## <a name="to-set-up-maintenance-expense-accounts"></a>To set up maintenance expense accounts
 To post maintenance costs, you must first enter an account number on the **FA Posting Groups** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Posting Groups** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Posting Groups**, and then choose the related link.
 2. Fill in the **Maintenance Expense Account** field for each posting group.
 
 > [!NOTE]  
@@ -49,4 +49,4 @@ To post maintenance costs, you must first enter an account number on the **FA Po
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  
 [Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

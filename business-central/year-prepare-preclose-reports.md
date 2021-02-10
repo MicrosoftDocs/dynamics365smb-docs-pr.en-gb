@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b270a7b1f9ffda71d68fa981885aacbe31f55eab
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7f9421ec564c9117da41674bb22fb3fc58c6a2a4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923127"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755524"
 ---
 # <a name="using-pre-closing-reports"></a>Using Pre-Closing Reports
 There are many standard reports that you can use to verify the accuracy of the accounts before closing the books at the end of a year or period. For example, you can use the **Customer - Trial Balance** report to verify that the balance for a customer posting group is equal to the balance on the corresponding general ledger account on a certain date.
@@ -39,5 +39,5 @@ To see a report, choose the ![Lightbulb that opens the Tell Me feature](media/ui
 
 ## <a name="see-also"></a>See Also
 [Closing Years and Periods](year-close-years-periods.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

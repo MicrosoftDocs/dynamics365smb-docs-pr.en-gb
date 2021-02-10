@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 23a90d6529da231194b80f75e570e106d66a99c6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 58bc5001400a1a6ed03f5780a71b2f1ab96c43bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922199"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752162"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Prepare Financial Reporting with Account Schedules and Account Categories
 
@@ -23,7 +23,7 @@ Use account schedules to get insight into the financial data stored in your char
 
 You access these two reports, for example, with the **Financials Statements** action on the Business Manager and Accountant Role Centres.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare. For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups. You can create as many customised financial statements as you want.  
+[!INCLUDE[prod_short](includes/prod_short.md)] provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare. For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups. You can create as many customised financial statements as you want.  
 
 Setting up account schedules requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries. This requires that budgets are created. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
 
@@ -50,11 +50,11 @@ You can use G/L account categories to change the layout of your financial statem
 
 You use account schedules to analyse figures in general ledger accounts or to compare general ledger entries with general ledger budget entries. For example, you can view the general ledger entries as percentages of the budget entries.
 
-The account schedules in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)] are the basis of the standard financial reports, which may not suit the needs of your business. To quickly create your own financial reports, you can start by copying an existing account schedule. See step 3 below.
+The account schedules in the standard version of [!INCLUDE[prod_short](includes/prod_short.md)] are the basis of the standard financial reports, which may not suit the needs of your business. To quickly create your own financial reports, you can start by copying an existing account schedule. See step 3 below.
 
 The **Acc. Schedule Overview** page is where you preview the financial report that the account schedule defines. In the following, it is important to understand that what you set up as account schedule rows and columns can only be seen and validated on the **Acc. Schedule Overview** page, which you open from an account schedule by choosing the **Overview** action. The **Account Schedule** page itself is only a setup area.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
 2. On the **Account Schedules** page, choose the **New** action to create a new account schedule name.
 3. Alternatively, choose the **Copy Account Schedule** action, fill in the two fields, and then choose the **OK** button.
 4. Fill in the fields as necessary. In the **Default Column Layout** field select an existing layout. You can edit it later if you want.
@@ -82,26 +82,26 @@ You use column layouts to define what columns should be included in the resultin
 4. Open the **Acc. Schedule Overview** page from time to time to verify that the new column layout works as intended.
 
 > [!NOTE]
-> The columns that you define on each row represent columns 3 and up on the **Acc. Schedule Overview** page. The first two columns, **Row No.** and **Description** , are fixed.  
+> The columns that you define on each row represent columns 3 and up on the **Acc. Schedule Overview** page. The first two columns, **Row No.** and **Description**, are fixed.  
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>To create a column that calculates percentages
 
 Sometimes you may want to include a column in an account schedule to calculate percentages of a total. For example, if you have a number of rows that break down sales by dimension, you may want a column to indicate the percentage of total sales that each row represents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
 2. On the **Account Schedule Names** page, select an account schedule.  
 3. Choose the **Edit Account Schedule** action to set up an account schedule row to calculate the total on which the percentages will be based.  
 4. Insert a line immediately above the first row for which you want to display a percentage.  
-5. Fill in the fields on the line as follows: In the **Totaling Type** field, enter **Set Base for Percent** . In the **Totalling** field, enter a formula for the total that the percentage will be based on. For example, if row 11 contains the total sales, enter **11** .  
+5. Fill in the fields on the line as follows: In the **Totaling Type** field, enter **Set Base for Percent**. In the **Totalling** field, enter a formula for the total that the percentage will be based on. For example, if row 11 contains the total sales, enter **11**.  
 6. Choose the **Edit Column Layout Setup** action to set up a column.  
-7. Fill in the fields on the line as follows: In the **Column Type** field, select **Formula** . In the **Formula** field, enter a formula for the amount that you want to calculate a percentage for, followed by %. For example, if column number N contains the net change, enter **N%** .  
+7. Fill in the fields on the line as follows: In the **Column Type** field, select **Formula**. In the **Formula** field, enter a formula for the amount that you want to calculate a percentage for, followed by %. For example, if column number N contains the net change, enter **N%**.  
 8. Repeat steps 4 through 7 for each group of rows that you want to break down by percentage.
 
 ## <a name="to-set-up-account-schedules-with-overviews"></a>To set up account schedules with overviews
 
 You can use an account schedule to create a statement comparing general ledger figures and general leger budget figures.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
 2. On the **Account Schedule Names** page, select an account schedule.  
 3. Choose the **Edit Account Schedule** action  
 4. On the **Account Schedule** page, in the **Name** field, select the default account schedule name.
@@ -121,7 +121,7 @@ Your account schedule can compare the results of different accounting periods, s
 
 An accounting period does not have to match the calendar, but each fiscal year must have the same number of accounting periods, even though each period can be different in length.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] uses the period formula to calculate the amount from the comparison period in relation to the period represented by the date filter on the report request. The comparison period is based on the period of the start date of the date filter. The abbreviations for period specifications are:
+[!INCLUDE[prod_short](includes/prod_short.md)] uses the period formula to calculate the amount from the comparison period in relation to the period represented by the date filter on the report request. The comparison period is based on the period of the start date of the date filter. The abbreviations for period specifications are:
 
 | Abbreviation | Description                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
@@ -142,10 +142,10 @@ Examples of formulas:
 | \-1FY\[1..CP\]  | From the beginning of previous fiscal year to current period in previous fiscal year, including both periods |
 | \-1FY\[CP..LP\] | From current period in previous fiscal year to last period of previous fiscal year, including both periods   |
 
-If you want to calculate by regular time periods, you must enter a formula in the **Comparison Date Formula** field instead. For example, if the field is set to -1Y, [!INCLUDE [prodshort](includes/prodshort.md)] compares to the same period 1 year earlier.
+If you want to calculate by regular time periods, you must enter a formula in the **Comparison Date Formula** field instead. For example, if the field is set to -1Y, [!INCLUDE [prod_short](includes/prod_short.md)] compares to the same period 1 year earlier.
 
 > [!NOTE]
-> It is not always transparent which periods you are comparing because you can set a date filter on a report that spans different dates than the accounting periods that are reflected in the data in the chart of accounts. For example, you create an account schedule where you want to compare this period with the same period last year, so you set the **Comparison Date Formula** field to *-1FY* . Then, you run the report on February 28th and set the date filter to January and February. As a result, the account schedule compares January and February this year to January last year, which is the only completed accounting period of the two for last year.  
+> It is not always transparent which periods you are comparing because you can set a date filter on a report that spans different dates than the accounting periods that are reflected in the data in the chart of accounts. For example, you create an account schedule where you want to compare this period with the same period last year, so you set the **Comparison Date Formula** field to *-1FY*. Then, you run the report on February 28th and set the date filter to January and February. As a result, the account schedule compares January and February this year to January last year, which is the only completed accounting period of the two for last year.  
 
 For more information about date formulas, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).  
 
@@ -157,4 +157,4 @@ For more information about date formulas, see [Working with Calendar Dates and T
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

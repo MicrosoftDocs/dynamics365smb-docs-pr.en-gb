@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bed47fc3109d622f4078e36e29aa04678bd22f9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 57488adb784736eaf404cf57f1563f08c517ed6c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918058"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753349"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Field Mapping When Importing SEPA CAMT Files
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supports the regional SEPA standards (Single Euro Payments Area) for importing SEPA bank statements (CAMT format). For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] supports the regional SEPA standards (Single Euro Payments Area) for importing SEPA bank statements (CAMT format). For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).  
 
- The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition (represented by the **SEPA CAMT** code on the **Posting Exchange Definitions** page) to adapt it to a local variation of the standard. The following tables show the element-to-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition (represented by the **SEPA CAMT** code on the **Posting Exchange Definitions** page) to adapt it to a local variation of the standard. The following tables show the element-to-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  For information about creating or adjusting a data exchange definition, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -57,10 +57,10 @@ ms.locfileid: "3918058"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Unstructured|Text|Information supplied to enable the matching/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts-receivable system, in an unstructured form||6|Description|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Text|Additional information about the entry||16|Transaction Information|  
 
- Elements in the **Ntry** node that are imported into [!INCLUDE[d365fin](includes/d365fin_md.md)] but not mapped to any fields are stored in the **Posting Exch. Column Def** table. Users can view these elements from the **Payment Reconciliation Journal** , **Payment Application** , and **Bank Acc. Reconciliation** pages by choosing the **Bank Statement Line Details** action. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
+ Elements in the **Ntry** node that are imported into [!INCLUDE[prod_short](includes/prod_short.md)] but not mapped to any fields are stored in the **Posting Exch. Column Def** table. Users can view these elements from the **Payment Reconciliation Journal**, **Payment Application**, and **Bank Acc. Reconciliation** pages by choosing the **Bank Statement Line Details** action. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]
-> In an import of CAMT bank statements, [!INCLUDE[d365fin](includes/d365fin_md.md)] expects each transaction to be unique, which means that the **Transaction ID** field that comes from the *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* tag in the CAMT file, must be unique within the open bank account reconciliation. If the information is not present, [!INCLUDE[d365fin](includes/d365fin_md.md)] ignores the payment. If an earlier bank reconciliation on the same bank account was posted with the same transaction ID as on the current import, the current transaction will not automatically reconcile but can still be imported.
+> In an import of CAMT bank statements, [!INCLUDE[prod_short](includes/prod_short.md)] expects each transaction to be unique, which means that the **Transaction ID** field that comes from the *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* tag in the CAMT file, must be unique within the open bank account reconciliation. If the information is not present, [!INCLUDE[prod_short](includes/prod_short.md)] ignores the payment. If an earlier bank reconciliation on the same bank account was posted with the same transaction ID as on the current import, the current transaction will not automatically reconcile but can still be imported.
 
 ## <a name="see-also"></a>See Also  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  

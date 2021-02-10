@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 401f471fe8af79c2373547a7ec6f51dc6366bd78
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e64ee514f8b837f2c9e1114511122bcf6e160a64
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923051"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746573"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setting Up Cash Flow Analysis
 If you want some help to decide what to do with your cash, have a look at the charts on the Accountant Role Centre:  
@@ -44,7 +44,7 @@ The **Cash Cycle** and **Income & Expense** charts are ready to go, based on the
 
 **Note** It's a good idea to keep the calculations that are provided for the account schedule.  
 
-Enter accounts in the **Totaling** field for **Total Revenue** , **Total Receivables** , **Total Payables** , and **Total Inventory** . To map to a range of accounts, or more than one specific account, enter the account numbers separated by ".." or by a vertical bar, respectively. For example, **1111..4444** or **2222|3333|5555** .  
+Enter accounts in the **Totaling** field for **Total Revenue**, **Total Receivables**, **Total Payables**, and **Total Inventory**. To map to a range of accounts, or more than one specific account, enter the account numbers separated by ".." or by a vertical bar, respectively. For example, **1111..4444** or **2222|3333|5555**.  
 
 **Tip** Verify your mapping by choosing the **Overview** action.  
 
@@ -56,12 +56,12 @@ The Cash Flow chart is based on the following:
 
 To help you get going, some accounts and cash flow setups are provided. You can add, change, or remove them.  
 
-To set these up, search for **cash flow accounts** , choose the link, and then fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repeat these steps for **cash flow setup** .  
+To set these up, search for **cash flow accounts**, choose the link, and then fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repeat these steps for **cash flow setup**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Set up cash flow forecasts
 The **Cash Flow Forecast** chart uses cash flow accounts, cash flow setups, and cash flow forecasts. Some are provided, however, you can set up your own by using an assisted setup guide. The guide helps you specify things like how often to update the forecast, the accounts to base it on, information about when you pay taxes, and whether to turn on [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
-Cash flow forecasts can use Azure AI to predict future documents. The result is a more comprehensive forecast. The connection to Azure AI is already set up for you. You just need to turn it on. When you sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)], a notification displays in a blue bar, and provides a link to the default cash flow setup. The notification displays only once. If you close it, but decide to turn on Azure AI, you can use the assisted setup guide, or a manual process.  
+Cash flow forecasts can use Azure AI to predict future documents. The result is a more comprehensive forecast. The connection to Azure AI is already set up for you. You just need to turn it on. When you sign in to [!INCLUDE[prod_short](includes/prod_short.md)], a notification displays in a blue bar, and provides a link to the default cash flow setup. The notification displays only once. If you close it, but decide to turn on Azure AI, you can use the assisted setup guide, or a manual process.  
 
 > [!NOTE]  
 >   Alternatively, you can use your own predictive web service. For more information, see [Create and use your own predictive web service for cash flow forecasts](#AnchorText).  
@@ -70,21 +70,21 @@ To use the assisted setup guide:
 
 1. In the Accountant Role Center, under the **Cash Flow Forecast** chart, choose the **Open Assisted Setup** action.  
 2. Fill in the fields in each step of the guide.  
-3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Forecast** , and then choose the related link.
+3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Forecast**, and then choose the related link.
 4. On the **Cash Flow Forecast** page, choose the **Recalculate Forecast** action.  
 
 To use a manual process:  
 
-1. In the Accountant Role Centre, search for **Cash Flow Setup** , and then choose the related link.  
+1. In the Accountant Role Centre, search for **Cash Flow Setup**, and then choose the related link.  
 2. Expand the **Azure AI** FastTab, and then choose the **Azure AI Enabled** check box.  
-3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Forecast** , and then choose the related link.
+3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Forecast**, and then choose the related link.
 4. On the **Cash Flow Forecast** page, choose the **Recalculate Forecast** action.  
 
 > [!TIP]  
 >   Consider the length of the periods that the service will use in its calculations. The more data you provide, the more accurate the predictions will be. Also, watch out for large variances in periods. They will also impact predictions. If Azure AI does not find enough data, or the data varies a lot, the service will not make a prediction.  
 
 ## <a name="design-details"></a>Design details
-Subscriptions for [!INCLUDE[d365fin](includes/d365fin_md.md)] come with access to several predictive web services in all regions where [!INCLUDE[d365fin](includes/d365fin_md.md)] is available. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) website. 
+Subscriptions for [!INCLUDE[prod_short](includes/prod_short.md)] come with access to several predictive web services in all regions where [!INCLUDE[prod_short](includes/prod_short.md)] is available. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) website. 
 
 These web services are stateless, meaning they use data only to calculate predictions on demand. They do not store data.
 
@@ -95,35 +95,35 @@ These web services are stateless, meaning they use data only to calculate predic
 To make predictions about future revenue and expenses, web services require historical data from receivables, payables, and taxes.
 
 #### <a name="receivables"></a>Receivables:
-**Due Date** , **Amount (LCY)** fields of the **Customer Ledger Entries** page, where:
+**Due Date**, **Amount (LCY)** fields of the **Customer Ledger Entries** page, where:
 - The document type is Invoice or Credit Memo.
 - The due date is between date that is calculated based on the values in the **Historical Periods** and **Period Type** fields on the **Cash Flow Setup** page and the work date.
 
-Before using the predictive web-service [!INCLUDE[d365fin](includes/d365fin_md.md)] compresses transactions by **Due Date** based on the value in the **Period Type** field on the **Cash Flow Setup** page.
+Before using the predictive web-service [!INCLUDE[prod_short](includes/prod_short.md)] compresses transactions by **Due Date** based on the value in the **Period Type** field on the **Cash Flow Setup** page.
 
 #### <a name="payables"></a>Payables:
-**Due Date** , **Amount (LCY)** fields on the **Vendor Ledger Entries** page, where:
+**Due Date**, **Amount (LCY)** fields on the **Vendor Ledger Entries** page, where:
 - The document type is "Invoice" or "Credit Memo."
 - The due date is between date that is calculated based on values in the **Historical Periods** and **Period Type** fields on the **Cash Flow Setup** page and the work date.
 
-Before using the predictive web-service [!INCLUDE[d365fin](includes/d365fin_md.md)] compresses transactions by **Due Date** based on the value in the **Period Type** field on the **Cash Flow Setup** page.
+Before using the predictive web-service [!INCLUDE[prod_short](includes/prod_short.md)] compresses transactions by **Due Date** based on the value in the **Period Type** field on the **Cash Flow Setup** page.
 
 #### <a name="tax"></a>Tax:
-**Document Date** , **Amount** fields on the **VAT (Tax) Ledger Entries** page, where:
+**Document Date**, **Amount** fields on the **VAT (Tax) Ledger Entries** page, where:
 - The document type is "sales."
 - The document date is between the date that is calculated based on values in the **Historical Periods** and **Period Type** fields on the **Cash Flow Setup** page and the work date.
 
-Before using the predictive web-service [!INCLUDE[d365fin](includes/d365fin_md.md)] compresses transactions by **Document Date** based on value in the **Period Type** field in the **Cash Flow Setup** page.
+Before using the predictive web-service [!INCLUDE[prod_short](includes/prod_short.md)] compresses transactions by **Document Date** based on value in the **Period Type** field in the **Cash Flow Setup** page.
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"> </a>Create and use your own predictive web service for cash flow forecasts
-You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Business Central** . This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  
+You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Business Central**. This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  
 
 1. Open a browser and go to the [Azure AI Gallery](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Search for **Forecasting Model for Microsoft Business Central** , and then open the model in Azure Machine Learning Studio.  
+2. Search for **Forecasting Model for Microsoft Business Central**, and then open the model in Azure Machine Learning Studio.  
 3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
 4. Run the model, and publish it as a web service.  
 5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
-6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Setup** , and then choose the related link.  
+6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Setup**, and then choose the related link.  
 7. Expand the **Azure AI** FastTab, and then fill in the fields.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
@@ -131,4 +131,4 @@ You can also create your own predictive web service based on a public model name
 ## <a name="see-also"></a>See Also
 [Analysing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

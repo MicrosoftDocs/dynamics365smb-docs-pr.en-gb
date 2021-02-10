@@ -12,41 +12,41 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 746c5be8f77f7afd7a65de17c9893ce1a16fccb2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 934124d419e19c1dc8180f11fcae748cd2afd15d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924410"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752362"
 ---
 # <a name="transfer-bank-funds"></a>Transfer Bank Funds
-You may sometimes need to transfer an amount from one bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)] to another. To do this, you must post the a transaction on the **General Journal** page. The task varies depending on whether the bank accounts use the same currency or different currencies.
+You may sometimes need to transfer an amount from one bank account in [!INCLUDE[prod_short](includes/prod_short.md)] to another. To do this, you must post the a transaction on the **General Journal** page. The task varies depending on whether the bank accounts use the same currency or different currencies.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>To post a transfer between bank accounts with the same currency code
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.
 2. On a journal line, fill in the **Posting Date** and **Document No.** fields.
-3. In the **Account Type** field, select **Bank Account** .
+3. In the **Account Type** field, select **Bank Account**.
 4. In the **Account No.** field, select the bank from which you want to transfer the funds.
 5. In the **Amount** field, enter the amount to be transferred.
 6. Choose the **Show More Columns** action to view all available fields.
-7. In the **Bal. Account Type** field, select **Bank Account** .
+7. In the **Bal. Account Type** field, select **Bank Account**.
 8. In the **Bal. Account No.** field, select the bank account to which you want to transfer the funds.
 9. Post the journal.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>To post a transfer between bank accounts with different currency codes
 To transfer funds between bank accounts that use different currencies, you must post two general journal lines.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.
 2. Create two journal lines, and fill in the **Posting Date** and **Document No.** fields.
-3. On the first journal line, in the **Type** field, select **Bank Account** .
+3. On the first journal line, in the **Type** field, select **Bank Account**.
 4. In the **Account No.** field, select the bank account from which you want to transfer the funds.
 5. In the **Amount** field, enter the amount in the currency of the bank account. Enter credit amounts with a minus sign. Enter debit amounts without a minus sign.
-6. In the **Bal. Account Type** field, select **Bank Account** .
+6. In the **Bal. Account Type** field, select **Bank Account**.
 7. In the **Bal. Account No.** field, select the bank account to which you want to transfer the funds.
-8. On the second journal line, in the **Type** field, select **Bank Account** .
+8. On the second journal line, in the **Type** field, select **Bank Account**.
 9. In the **Account No.** field, select the bank account to which you want to transfer the funds.
 10. In the **Amount** field, enter the amount in the currency of the bank account. Enter credit amounts with a minus sign. Enter debit amounts without a minus sign.
-11. In the **Bal. Account Type** field, select **Bank Account** .  
+11. In the **Bal. Account Type** field, select **Bank Account**.  
 12. In the **Bal. Account No.** field, select the bank account from which you want to transfer the funds.
 
     > [!NOTE]  
@@ -57,4 +57,4 @@ To transfer funds between bank accounts that use different currencies, you must 
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0961fb9cda09596e0c40ecd7f6478340d40f2e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6a2100a1f945153d9c89d3cd86fb5d16860c4930
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913403"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747098"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidating Financial Data from Multiple Companies
 
-Some organisations use [!INCLUDE [prodshort](includes/prodshort.md)] in multiple business units or legal entities. Others use [!INCLUDE [prodshort](includes/prodshort.md)] in subsidiaries that must report into parent organisations. In both cases, the accountants use built-in tools to help consolidate the financial data.  
+Some organisations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that must report into parent organisations. In both cases, the accountants use built-in tools to help consolidate the financial data.  
 
 You can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company. Each individual company involved in a consolidation is called a business unit. The combined company is called the consolidated company.  
 
-You can import data into the consolidated company from other companies in the same [!INCLUDE [prodshort](includes/prodshort.md)] tenant, from tenants, or from files.  
+You can import data into the consolidated company from other companies in the same [!INCLUDE [prod_short](includes/prod_short.md)] tenant, from tenants, or from files.  
 
 If the financial statements of a business unit are in a different currency than those of the consolidated company, you must set up exchange rates for consolidation.  
 
@@ -42,31 +42,31 @@ You set up the consolidated company in the same way that you set up other compan
 
 ## <a name="trial-balance"></a>Trial balance
 
-If you have more than one company in [!INCLUDE[d365fin](includes/d365fin_md.md)], the **Consolidated Trial Balance** report can give you an overview of the financial health of your overall business.  
+If you have more than one company in [!INCLUDE[prod_short](includes/prod_short.md)], the **Consolidated Trial Balance** report can give you an overview of the financial health of your overall business.  
 
 The report combines general ledger entries from each of your companies in a new company that you create to contain the consolidated data. This company is typically referred to as the "consolidated company". The consolidated company is just a container for the consolidated data, and does not have any live business data. The companies that you include in the consolidated company become **Business Units** in the report. For more information, see [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md).  
 
 ## <a name="consolidate-data"></a>Consolidate data
 
-The process of transferring the figures from the business units to the consolidated company is the actual *consolidation* . Before you do this, it is a good idea to check whether there are differences between the basic information in the business units and in the consolidated company. There are two reports that you can use to test the database and file.
+The process of transferring the figures from the business units to the consolidated company is the actual *consolidation*. Before you do this, it is a good idea to check whether there are differences between the basic information in the business units and in the consolidated company. There are two reports that you can use to test the database and file.
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>To test the data before you consolidate
 
-You can test your data before you transfer it to the consolidated company. [!INCLUDE[d365fin](includes/d365fin_md.md)] looks for differences in the information in the business units and the consolidated company. For example, whether account numbers or dimension codes are different. You must correct errors before you can run the report. You can test the database or, if you are importing data from an XML file, you can test the file.  
+You can test your data before you transfer it to the consolidated company. [!INCLUDE[prod_short](includes/prod_short.md)] looks for differences in the information in the business units and the consolidated company. For example, whether account numbers or dimension codes are different. You must correct errors before you can run the report. You can test the database or, if you are importing data from an XML file, you can test the file.  
 
 1. Open the consolidated company.  
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units** , and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
 3. Do one of the following:  
 
-    * To test a file, choose the **Test File** action, enter the name of the file to test, and then choose **Print** .  
-    * To test the database, choose **Test Database** .  
+    * To test a file, choose the **Test File** action, enter the name of the file to test, and then choose **Print**.  
+    * To test the database, choose **Test Database**.  
 
 ### <a name="run-the-consolidation"></a>Run the consolidation
 
 After you have tested the data, you can transfer it to the consolidated company.  
 
 1. Sign in to the consolidated company.  
-2. On the **Accountant Role Centre** , choose the **Run Consolidation** action.  
+2. On the **Accountant Role Centre**, choose the **Run Consolidation** action.  
 3. Fill in the required fields.  
 4. In the Filter section, set a filter for the relevant business unit or company name.  
 5. Optionally, schedule the report to run at a convenient time.  
@@ -107,7 +107,7 @@ If data for a business unit is in another database, you must export the data to 
 
 After you run the batch job, all entries in general ledger accounts are processed. For every combination of selected dimensions and date, the contents of the entries' **Amount** fields are totalled and exported. The next combination of selected dimensions and date with the same account number is processed, then the combinations in the next account number are processed, and so on.  
 
-The exported entries contain the following fields: **Account No.** , **Posting Date** , and **Amount** . If dimensions information was also exported, dimension codes and dimension values are also included.  
+The exported entries contain the following fields: **Account No.**, **Posting Date**, and **Amount**. If dimensions information was also exported, dimension codes and dimension values are also included.  
 
 1. For each exported line, if the total of the **Amount** fields is a debit, the account number that is set up in the business unit's **Consol. Debit Acc.** field is exported to the line. If the total is a credit, the corresponding number in the **Consol. Credit Acc.** field is exported to the line.  
 2. The date used for each exported line is either the period's ending date or, if the transfer occurs each day, the exact date of the calculation.  
@@ -118,5 +118,5 @@ The exported entries contain the following fields: **Account No.** , **Posting D
 
 [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)  
 [Managing Intercompany Transactions](intercompany-manage.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exporting Your Business Data to Excel](about-export-data.md)

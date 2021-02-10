@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct posting, general ledger
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84b6c80131662675df1117bcb771aaa0ee9553c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 72e2851ee60d6cb79f722d12e16ddcb30e95fdbe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914321"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746948"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Post Transactions Directly to the General Ledger
 
@@ -29,7 +29,7 @@ Unlike for entries that are posted with documents, which require a credit memo p
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>To post a transaction directly to a general ledger account
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
 2. Open the relevant general journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. On a new journal line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
@@ -47,4 +47,4 @@ Unlike for entries that are posted with documents, which require a credit memo p
 [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a1278b344efef1df243d4f82e9d463f8faf9a259
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c6f349d7a77078536b7a61e14b5dcd4169ba0f9b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920804"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749500"
 ---
 # <a name="depreciation-methods"></a>Depreciation Methods
 There are eight methods of depreciation available:  
@@ -231,7 +231,7 @@ This user-defined method can also be used to depreciate based on number of units
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>To set up user-defined depreciation methods
 On the **Depreciation Table** page, you can set up user-defined depreciation methods. For example, you can set up depreciation based on number of units.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Tables** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Tables**, and then choose the related link.  
 2. On the **Depreciation Table List** page, choose the **New** action.  
 3. **Depreciation Table Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -356,4 +356,4 @@ When you enter an entry in B1 in the fixed asset G/L journal and place a check m
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
 [Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c71184f1894fb5503211b87595744e52c361862d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b3656ff58273999a1059392795914b5926835c57
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920329"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756274"
 ---
 # <a name="find-your-warehouse-assignments"></a>Find Your Warehouse Assignments
 To find your warehouse assignments, open the card page for a selected item. If warehouse instructions have been created, Take and Place lines are visible, and you can begin working on an assignment. In some warehouses, the manager may have assigned specific instructions to each employee. For more information, see [Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>To find an instruction assigned to you  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Put-aways** , **Warehouse Picks** , or **Warehouse Movement** , and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Put-aways**, **Warehouse Picks**, or **Warehouse Movement**, and then choose the related link.
 
     All three pages show assignments for all warehouse locations.  
 
@@ -36,4 +36,4 @@ You can use the **Assigned User ID** field on the header to claim work assignmen
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md) 
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 

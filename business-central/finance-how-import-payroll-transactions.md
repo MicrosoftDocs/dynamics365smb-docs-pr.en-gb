@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: Ceridian, Quickbooks, salary
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2fde597db9f5889678c5501bfdcc5f2412ec47cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca36be547224e0d401a05b63452420b88b0b7d1f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917008"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746973"
 ---
 # <a name="import-payroll-transactions"></a>Import Payroll Transactions
 To account for salary payments and related transactions, you must import and post financial transactions made by your payroll provider to the general ledger. To do this, you first import a file that you receive from the payroll provider into the **General Journal** page. Then you map the external accounts in the payroll file to the relevant G/L accounts. Lastly, you post the payroll transactions according to the account mapping.
 
 > [!NOTE]  
->   To use this functionality, an extension for payroll import must be installed and enabled. The Ceridian Payroll and the Quickbooks Payroll File Import extensions are pre-installed in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
+>   To use this functionality, an extension for payroll import must be installed and enabled. The Ceridian Payroll and the Quickbooks Payroll File Import extensions are pre-installed in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md).
 
 ## <a name="to-import-a-payroll-file"></a>To import a payroll file
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
 2. In the relevant general journal batch, choose the **Import Payroll Transactions** action. An assisted setup guide opens.
 3. Follow the steps on the **Import Payroll Transactions** page.
 
@@ -36,5 +36,5 @@ To account for salary payments and related transactions, you must import and pos
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Working with General Journals](ui-work-general-journals.md)  

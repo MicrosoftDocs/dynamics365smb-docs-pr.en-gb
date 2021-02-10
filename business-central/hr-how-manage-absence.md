@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 42bd650cd3452be8c209e2ff12d1f5c06d6c4f21
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b9371127ca692ae636f93e44b202608684acaedb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913620"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746540"
 ---
 # <a name="manage-employee-absence"></a>Manage Employee Absence
 To manage an employee's absence, you must record the absence on the **Absence Registration** page. It can then be viewed in different ways for analysis and reporting needs.
@@ -31,7 +31,7 @@ To obtain meaningful statistics, you should always use the same unit of measure 
 ## <a name="to-register-employee-absence"></a>To register employee absence
 You can register employee absences on a daily basis or at some other interval that meets your organisational needs.
 
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Absence Registration** , and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Absence Registration**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in a line for each employee absence you want to register.
 4. Close the page.
@@ -40,20 +40,20 @@ You can register employee absences on a daily basis or at some other interval th
     > To obtain meaningful statistics, always use the same unit of measure, hour or day, when registering employee absences.
 
 ## <a name="to-view-an-individual-employees-absence"></a>To view an individual employee's absence
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Employees** , and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Employees**, and then choose the related link.
 2. Select the relevant employee, and then choose the **Absences** action.
 
     The **Employee Absences** page opens showing all the absences and the date on which they started and ended.
 
 ## <a name="to-view-an-employees-absence-by-categories"></a>To view an employee's absence by categories
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Employees** , and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Employees**, and then choose the related link.
 2. Select the relevant employee, and then choose the **Absences by Categories** action.
 3. On the **Empl. Absences by categories** page, fill in the filter fields as necessary, and then choose the **Show Matrix** action.
 
     The **Empl. Absences by Cat. Matrix** page opens showing all absences, broken down by causes of absence.
 
 ## <a name="to-view-all-employee-absences-by-category"></a>To view all employee absences by category
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Absence Registration** , and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Absence Registration**, and then choose the related link.
 2. On the **Absence Registration** page, choose the **Overview by Categories** action.
 3. On the **Absence Overview by Categories** page, set a filter in the **Employee No. Filter** field to view employee absences for individual or a defined group of employees.
 4. Choose the **Show Matrix** action.
@@ -61,7 +61,7 @@ You can register employee absences on a daily basis or at some other interval th
     The **Absence Overview by Categories Matrix** page opens showing all employees’ absences broken down by the various causes of absence.
 
 ## <a name="to-view-all-employee-absences-by-period"></a>To view all employee absences by period
-1. In the top right corner, choose the **Search for Page or Report** icon, enter **Absence Registration** , and then choose the related link.
+1. In the top right corner, choose the **Search for Page or Report** icon, enter **Absence Registration**, and then choose the related link.
    On the **Absence Registration** page, choose the **Overview by Periods** action.
 2. On the **Absence Overview by Periods** page, set a filter in the **Cause of Absence Filter** field to view employee absences for specified causes of absence.
 3. Choose the **Show Matrix** action.
@@ -71,5 +71,5 @@ You can register employee absences on a daily basis or at some other interval th
 ## <a name="see-also"></a>See Also
 [Manage Human Resources](hr-manage-human-resources.md)  
 [Finance](finance.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working With [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)

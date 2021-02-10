@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 73fbf09cff59556c04b43383c507a01883bbb071
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e3ecf8d206e50244c19a820bdb67d2992cbefe36
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923752"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746373"
 ---
 # <a name="set-up-general-inventory-information"></a>Set Up General Inventory Information
 
@@ -23,20 +23,20 @@ You specify your general inventory setup on the **Inventory Setup** page.
 
 ## <a name="to-set-up-general-inventory-information"></a>To set up general inventory information
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
 2. On the **Inventory Setup** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-For detailed information about the costing fields, **Automatic Cost Posting** , **Expected Cost Posting to G/L** , and **Default Costing Method** , see [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Design Details: Inventory Costing](design-details-inventory-costing.md), and [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md). For more information about costing in general, see [Managing Inventory Costs](finance-manage-inventory-costs.md).  
+For detailed information about the costing fields, **Automatic Cost Posting**, **Expected Cost Posting to G/L**, and **Default Costing Method**, see [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Design Details: Inventory Costing](design-details-inventory-costing.md), and [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md). For more information about costing in general, see [Managing Inventory Costs](finance-manage-inventory-costs.md).  
 
 If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory, on the **Inventory Setup** page, and for your location. For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).  
 
 > [!NOTE]
-> The **Automatic Cost Adjustment** toggle is turned on by default to ensure that inventory values are always correct in the general ledger, which in turn keeps your sales and profit statistics up to date. Cost changes from inbound entries, such as those for purchases or production output, are assigned to the related outbound entries, such as sales or transfers. This is helpful for new [!INCLUDE[d365fin](includes/d365fin_md.md)] customers and small businesses with relatively low inventory transaction levels. However, as a business grows and inventory levels increase, this can slow down system performance. To minimise reduced performance during posting, select a time option to define how far back in time from the work date an inbound transaction can occur to potentially trigger adjustment of related outbound value entries. Alternatively, you can manually adjust costs at regular intervals with the Adjust Cost - Item Entries batch job.
+> The **Automatic Cost Adjustment** toggle is turned on by default to ensure that inventory values are always correct in the general ledger, which in turn keeps your sales and profit statistics up to date. Cost changes from inbound entries, such as those for purchases or production output, are assigned to the related outbound entries, such as sales or transfers. This is helpful for new [!INCLUDE[prod_short](includes/prod_short.md)] customers and small businesses with relatively low inventory transaction levels. However, as a business grows and inventory levels increase, this can slow down system performance. To minimise reduced performance during posting, select a time option to define how far back in time from the work date an inbound transaction can occur to potentially trigger adjustment of related outbound value entries. Alternatively, you can manually adjust costs at regular intervals with the Adjust Cost - Item Entries batch job.
 
 ## <a name="see-also"></a>See Also
 [Set Up Inventory](inventory-setup-inventory.md)  
 [Design Details: Costing Methods](design-details-costing-methods.md)    
 [Manage Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)

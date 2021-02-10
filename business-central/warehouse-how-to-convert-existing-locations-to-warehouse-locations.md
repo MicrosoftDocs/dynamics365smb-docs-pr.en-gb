@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6f8b27c4b0abc4221bd081df8474876577e476e6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2a8bb0fe974ac13cdff2cd65fbd5b8428208e0bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911868"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756299"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Convert Existing Locations to Warehouse Locations
 You can enable an existing inventory location to use zones and bins and to operate as a warehouse location.  
@@ -28,7 +28,7 @@ You can create zones and bins either before or after the conversion. The only bi
 >  To clear all negative inventory and any open warehouse documents before you convert the location for warehouse handling, run a report to identify the items with negative inventory and open warehouse documents for the location. For more information, see Check on Negative Inventory.  
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>To enable an existing location to operate as a warehouse location  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Warehouse Location** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Warehouse Location**, and then choose the related link.  
 2.  In the **Location Code** field, specify the location that you want to enable for warehouse processing.  
 3.  In the **Adjustment Bin Code** field, specify the bin at the location where unsynchronized warehouse entries are stored. For more information, see the [To synchronise the adjusted warehouse entries with the related item ledger entries](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
 
@@ -48,4 +48,4 @@ You can create zones and bins either before or after the conversion. The only bi
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

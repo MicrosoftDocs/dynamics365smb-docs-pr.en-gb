@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 823403fc34ad57cb170fc39bd9533b53c4008950
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 50e37e54d840c82cbcbfc92ab8f5fc009642a6b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910887"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750537"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Work with Payment Tolerances and Payment Discount Tolerances
 You can set up a payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice. For example, payment tolerances are typically for small amounts that would cost more to correct than to just accept. You can set up a payment discount tolerance to grant a payment discount after the payment discount date has passed.  
@@ -45,40 +45,40 @@ For more information, see [To enable or disable payment tolerance warning](finan
 Tolerance on days and amounts allows you to close an invoice even though the payment does not fully cover the amount on the invoice, whether this is because the due date for the payment discount has been exceeded, goods have been deducted or because of a minor error. This also applies to refunds and credit memos.  
 
 To set up tolerance you have to set up various tolerance accounts, specify both payment discount tolerance and payment tolerance posting methods and then run the **Change Payment Tolerance** batch job.  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
 2. On the **General Posting Setup** page, set up a debit and a credit sales payment tolerance account and a debit and a credit purchase payment tolerance account.  
-3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Posting Groups** , and then choose the related link.    
+3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Posting Groups**, and then choose the related link.    
 4. On the **Customer Posting Groups** page, set up a debit and a credit payment tolerance account. For more information, see [Setting Up Posting Groups](finance-posting-groups.md).  
-5. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Posting Setup** , and then choose the related link.  
+5. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Posting Setup**, and then choose the related link.  
 6. On the **Vendor Posting Groups** page, set up a debit and a credit payment tolerance account.  
-7. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** , and then choose the related link.  
+7. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 8. Open the **General Ledger Setup** page.  
-9. On the **Application** FastTab, fill in the **Pmt. Disc. Tolerance Posting** , **Payment Discount Grace Period** and **Payment Tolerance Posting** fields.   
+9. On the **Application** FastTab, fill in the **Pmt. Disc. Tolerance Posting**, **Payment Discount Grace Period** and **Payment Tolerance Posting** fields.   
 10. Choose the **Change Payment Tolerance** action.
 11. On the **Change Payment Tolerance** page, fill in the **Payment Tolerance %** and **Max Payment Tolerance Amount** fields, and then choose the **OK** button.
 
 > [!IMPORTANT]  
->  You have now set up tolerance for local currency only. If you want [!INCLUDE[d365fin](includes/d365fin_md.md)] to handle tolerance on payments, credit memos, and refunds in a foreign currency, you must run the **Change Payment Tolerance** batch job with a value in the **Currency Code** field.  
+>  You have now set up tolerance for local currency only. If you want [!INCLUDE[prod_short](includes/prod_short.md)] to handle tolerance on payments, credit memos, and refunds in a foreign currency, you must run the **Change Payment Tolerance** batch job with a value in the **Currency Code** field.  
 
 > [!NOTE]  
 >  If you want to get a payment tolerance warning every time that you post an application in the tolerance, you must activate the payment tolerance warning. For more information, see [To enable or disable payment tolerance warning](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings) section.  
 >   
 >  To deactivate tolerance for a customer or vendor, you must block tolerances on the relevant customer or vendor card. For more information, see [To block payment tolerance for customers](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  When you set up tolerance, [!INCLUDE[d365fin](includes/d365fin_md.md)] also checks if there are any open entries and calculates the tolerance for these entries.
+>  When you set up tolerance, [!INCLUDE[prod_short](includes/prod_short.md)] also checks if there are any open entries and calculates the tolerance for these entries.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>To enable or disable payment tolerance warnings
 The payment tolerance warning appears when you post an application that has a balance in the allowed tolerance. You can then choose how you want to post and document the balance.    
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, on the **Application** FastTab, turn on the **Payment Tolerance Warning** toggle to activate the warning. To deactivate the warning, turn off the toggle.  
 
 > [!NOTE]  
->  The default option for the **Payment Tolerance Warning** page is **Leave the Balance as Remaining Amount** . The default option for the **Pmt. Disc. Tolerance Warning** page the is **Do Not Accept the Late Payment Discount** .
+>  The default option for the **Payment Tolerance Warning** page is **Leave the Balance as Remaining Amount**. The default option for the **Pmt. Disc. Tolerance Warning** page the is **Do Not Accept the Late Payment Discount**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>To block payment tolerance for customers  
 The default setting for payment tolerance is allowed. To disallow a certain customer or vendor payment tolerance you need to block tolerance on the respective customer or vendor card. The following describes how to do it for a customer. The steps are similar for a vendor.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.  
 2. On the **Payments** FastTab, select the **Block Payment Tolerance** check box.  
 
 > [!NOTE]  
@@ -208,7 +208,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules 1](media/multiplePmtTolRules(Pre1503).gif "Multiple payment tolerance rules 1")  
+:::image type="content" source="media/multiplePmtTolRules(Pre1503).gif" alt-text="Multiple payment tolerance rules 1a":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -219,7 +219,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Multiple payment tolerance rules 2")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1-2).gif" alt-text="Multiple payment tolerance rules 2":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -230,7 +230,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Multiple payment tolerance rules 3")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1).gif" alt-text="Multiple payment tolerance rules 3":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -241,7 +241,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Multiple payment tolerance rules 4")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv2).gif" alt-text="Multiple payment tolerance rules 4":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -252,7 +252,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules 5](media/multiplePmtTolRules(Post0122).gif "Multiple payment tolerance rules 5")  
+:::image type="content" source="media/multiplePmtTolRules(Post0122).gif" alt-text="Multiple payment tolerance rules 5":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -262,4 +262,4 @@ Normal Application Rules
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

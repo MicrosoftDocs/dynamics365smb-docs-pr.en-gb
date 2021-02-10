@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3096bdcdf7ed6570e28d0e636b7dc8f1b28113c4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 868b8afe7fb9b36b9fc55930fa702bd181e395f2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916075"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746023"
 ---
 # <a name="set-up-contacts"></a>Set Up Contacts
 When creating contacts, you can enter specific information, such as the industry that the contact belong to and your business relationship with the contacts.
@@ -30,7 +30,7 @@ By having this information set up, creating contacts is much more organised and 
 You use industry groups to indicate the type of industry to which your contacts belong, for example, the retail industry or the automobile industry.
 
 > [!NOTE]
-> This is only possible for contacts of type **Company** .
+> This is only possible for contacts of type **Company**.
 
 The industry group code defines the type or category of the group, such as ADVERT for advertising, or PRESS, for TV and radio. You can have several industry group codes. To define the industry groups, you use the **Industry Groups** page.
 
@@ -74,7 +74,7 @@ Repeat these steps to assign as many alternate addresses as you want. For each a
 You can add information about the job responsibilities of contact persons to indicate what the contact person is responsible for within their company, for example, IT, management, or production. You can use this information when entering information about your contacts.
 
 > [!NOTE]
-> This is only possible for contacts of type **Person** .
+> This is only possible for contacts of type **Person**.
 
 The job responsibility code defines the type or category of the job, such a MARKETING or PURCHASE. You can have several job responsibility codes. To define the job responsibility, you use the **Job Responsibilities** page.
 
@@ -92,7 +92,7 @@ After you have assigned job responsibilities to your contacts, you can use this 
 You can use organisational levels on your contacts to specify which position they have in the company, for example, top management. You can use this information when entering information about your contacts.
 
 > [!NOTE]
-> This is only possible for contacts of type **Person** .
+> This is only possible for contacts of type **Person**.
 
 The organisational level code defines the type or category of the organisational level, such a CEO  or CFO. You can have several organisational level codes. To define the organisational level, you use the **Organisational Levels** page.
 
@@ -107,7 +107,7 @@ After you have assigned job responsibilities to your contacts, you can use this 
 You can use web sources with your contact companies to identify, for example, search engines and web sites, on the Internet that you want to use to search for information about the contacts. When assigning web sources, you specify which search engine and search word the application will use to find the requested information.
 
 > [!NOTE]
-> This is only possible for contacts of type **Company** .
+> This is only possible for contacts of type **Company**.
 
 When assigning web sources, you specify which search engine and search word that the application will use to find the requested information.
 
@@ -122,7 +122,7 @@ Repeat these steps to assign as many web sources as you want.
 You can use business relations to indicate the business relationship you have with your contacts, for example, a prospect, bank, consultant, service supplier, and so on.
 
 > [!NOTE]
-> This is only possible for contacts of type **Company** .
+> This is only possible for contacts of type **Company**.
 
 1. Open the relevant contact card.
 2. Choose the **Company** action, and then the **Business Relations** action.
@@ -160,4 +160,4 @@ When you have found a duplicate contact, you can use the **Merge Duplicate** pag
 [Managing Contacts](marketing-contacts.md)  
 [Create Contacts](marketing-create-contact-companies.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

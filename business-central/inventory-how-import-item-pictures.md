@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: product, image
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4da0f30f47827515f8591802ce2ca49c245009ab
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e4391293396ff380bc3f96cd799f0932856ba11f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922901"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746198"
 ---
 # <a name="import-multiple-item-pictures"></a>Import Multiple Item Pictures
 You can import multiple item pictures in one go. Simply name your picture files with names corresponding to your item numbers, compress them to a ZIP file, and then use the **Import Item Pictures** page to manage which item pictures to import.
@@ -32,10 +32,10 @@ All common file formats are supported.
     |1001|1001.bmp|
     |1002|1002.bmp|
 
-2. Collect all the files in a ZIP file. For example, in Windows Explorer, select the files, and then choose **Send to** , **Compressed (zipped) folder** .     
+2. Collect all the files in a ZIP file. For example, in Windows Explorer, select the files, and then choose **Send to**, **Compressed (zipped) folder**.     
 
 ## <a name="to-import-item-pictures"></a>To import item pictures
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
 2. Choose the **Import Item Pictures** action.
 3. In the **Select a ZIP file** field, select the relevant ZIP folder, and then choose the **Open** button.
 
@@ -54,4 +54,4 @@ The **Import Status** field is updated to show if the picture import was skipped
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

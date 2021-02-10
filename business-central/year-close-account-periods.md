@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: e49f067eb0410e3d2f6f84241ae83be041bce918
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6acdc86afc195185f66836bf723c83d4a1647927
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925379"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755674"
 ---
 # <a name="close-accounting-periods"></a>Close Accounting Periods
 When a fiscal year is over, you must close the periods that comprise it.
 
 ## <a name="to-close-accounting-periods"></a>To close accounting periods
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.
 2. On the **Accounting Periods** page, choose the **Close Year** action.
 
     If more than one fiscal year is open, the earliest one is automatically selected to be closed. A message displays identifying the year that will close and the consequences of closing the year.
@@ -41,4 +41,4 @@ After a fiscal year is closed, you must close the income statement accounts and 
 [Closing Books](year-close-books.md)  
 [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
 [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

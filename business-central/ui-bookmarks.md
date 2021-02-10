@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1078b9839920684c4be54e1753db5c87e1694912
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1bcbd23658ff2a74ae0ab88b6020e1d859f37355
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912703"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747725"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bookmark a Page or Report on Your Role Centre
 Using the bookmark icon, you can add an action that opens a page or report from the navigation menu of your Role Centre. This allows you to quickly reach your favourite content or business tasks. You add the bookmark from the target page or report, meaning the screen that you want the link on the Role Centre to open.
@@ -35,7 +35,7 @@ An action named after the page is now added to the navigation menu on your Role 
 An action named after the report is now added to the navigation menu on your Role Centre.
 
 ## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>To bookmark a page or report from the Tell Me window
-1. Open the **Tell Me** window and enter, for example, **Sales Orders** .
+1. Open the **Tell Me** window and enter, for example, **Sales Orders**.
 2. Hover over the search result for the **Sales Orders** page or report, and then choose the ![Bookmark](media/ui_bookmark_icon.png "Bookmark") icon.
 
 An action named after the page or report is now added to the navigation menu on your Role Centre.
@@ -81,6 +81,6 @@ When you add a new action, any translated text that was available at the time is
 
 ## <a name="see-also"></a>See Also
 [Personalise Your Workspace](ui-personalization-user.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  

@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2886548e1af66e0f28eadc16c80f64263f3e1917
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e863f3140301fe31c029ecbf207a3b255d90c5d8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920629"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747248"
 ---
 # <a name="fixed-assets"></a>Fixed Assets
-The Fixed Assets functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] provides an overview of your fixed assets and ensures correct periodic depreciation. It also enables you to keep track of your maintenance costs, manage insurance policies, post fixed asset transactions, and generate various reports and statistics.
+The Fixed Assets functionality in [!INCLUDE[prod_short](includes/prod_short.md)] provides an overview of your fixed assets and ensures correct periodic depreciation. It also enables you to keep track of your maintenance costs, manage insurance policies, post fixed asset transactions, and generate various reports and statistics.
 
 For each fixed asset, you must set up a card containing information about the asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. Then you can begin to acquire, maintain, and sell the fixed assets. You can also set up budgeted assets. This makes it possible to include any anticipated acquisitions and sales in reports.
 
-To keep track of fixed asset depreciations as well as other financial transactions related to fixed assets, you set up one or more depreciation books for each fixed asset in your company. Depreciation is done by running a report to calculate periodic depreciation and fill in a journal with the resulting entries, ready to be posted. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports several depreciation methods. For more information, see [Depreciation Methods](fa-depreciation-methods.md). You can set up multiple depreciation books per fixed asset for different purposes, such as one for tax reporting and another for internal reporting.
+To keep track of fixed asset depreciations as well as other financial transactions related to fixed assets, you set up one or more depreciation books for each fixed asset in your company. Depreciation is done by running a report to calculate periodic depreciation and fill in a journal with the resulting entries, ready to be posted. [!INCLUDE[prod_short](includes/prod_short.md)] supports several depreciation methods. For more information, see [Depreciation Methods](fa-depreciation-methods.md). You can set up multiple depreciation books per fixed asset for different purposes, such as one for tax reporting and another for internal reporting.
 
 For each asset, you can record maintenance costs and the next service date. Keeping track of maintenance expenses can be important for budgeting purposes and for making decisions about whether to replace a fixed asset.
 
@@ -58,7 +58,7 @@ The following video covers the basics of fixed assets.
 [Change Which Features are Displayed](ui-experiences.md)  
 [Finance](finance.md)  
 [Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

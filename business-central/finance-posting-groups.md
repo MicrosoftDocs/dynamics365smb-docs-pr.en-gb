@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9e04dcccfde480ca72d09c65608c309eba09aa6e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c36b365b0828a19fa82ef28f8d901915937995c2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910837"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746673"
 ---
 # <a name="setting-up-posting-groups"></a>Setting Up Posting Groups
 Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. They save time and help avoid mistakes when you post transactions. The transaction values go to the accounts specified in the posting group for that particular entity. The only requirement is that you have a chart of accounts. For more information, see [Set Up the Chart of Accounts](finance-setup-chart-accounts.md).  
@@ -78,4 +78,4 @@ The more product and business posting groups you have, the more lines you see in
 ## <a name="see-also"></a>See also 
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

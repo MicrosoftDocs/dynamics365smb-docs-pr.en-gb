@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 105752cd77706c808d2244e6562d23c0b9aab4e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d52bcdf2db94fba3eea32b3634f1c0b935b28693
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918200"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753129"
 ---
 # <a name="the-getaddressio-uk-postcodes-extension"></a>The GetAddress.io UK Postcodes Extension
-The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, vendors, bank accounts, and employees. For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[d365fin](../../includes/d365fin_md.md)] shows a list of addresses. Pick the address you want, and presto, the address fields are filled out.  
+The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, vendors, bank accounts, and employees. For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[prod_short](../../includes/prod_short.md)] shows a list of addresses. Pick the address you want, and presto, the address fields are filled out.  
 
 ##<a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a>To use the GetAddress.io UK Postcodes extension when you enter an address
-1. Under **Address** , choose **Look up address from postcode** .  
+1. Under **Address**, choose **Look up address from postcode**.  
 
     > [!NOTE]  
-    >   The **Look up address from postcode** option is available only if the **Country/Region Code** field is either empty, or contains **GB** .
+    >   The **Look up address from postcode** option is available only if the **Country/Region Code** field is either empty, or contains **GB**.
 2. On the **Postcode Search** page, in the **Postcode** field, enter or choose the postcode.  
 3. On the **Address Selection** page, choose the address.  
 

@@ -10,19 +10,19 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fb71224df8730c68fb5c56c255353a05a7846eed
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0f257b81f1e36e86e40e67ca8ba07169ec22d938
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912368"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747600"
 ---
 # <a name="the-c5-data-migration-extension"></a>The C5 Data Migration Extension
 
-This extension makes it easy to migrate customers, vendors, items, and your general ledger accounts from Microsoft Dynamics C5 2012 to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can also migrate historical entries for general ledger accounts.
+This extension makes it easy to migrate customers, vendors, items, and your general ledger accounts from Microsoft Dynamics C5 2012 to [!INCLUDE[prod_short](includes/prod_short.md)]. You can also migrate historical entries for general ledger accounts.
 
 > [!Note]
-> The company in [!INCLUDE[d365fin](includes/d365fin_md.md)] must not contain any data. Additionally, after you start a migration, do not create customers, vendors, items, or accounts until the migration finishes.
+> The company in [!INCLUDE[prod_short](includes/prod_short.md)] must not contain any data. Additionally, after you start a migration, do not create customers, vendors, items, or accounts until the migration finishes.
 
 ## <a name="what-data-is-migrated"></a>What Data is Migrated?
 The following data is migrated for each entity:
@@ -100,14 +100,14 @@ If you migrate accounts, the following data is also migrated:
 
 ## <a name="file-size-requirements"></a>File Size Requirements
 
-The largest file size you can upload to [!INCLUDE[d365fin](includes/d365fin_md.md)] is 150 MB. If the file you export from C5 is larger than that, consider migrating data in multiple files. For example, export one or two types of entities from C5, such as customers and vendors, to a file, and then export items to another file, and so on. You can import files individually in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+The largest file size you can upload to [!INCLUDE[prod_short](includes/prod_short.md)] is 150 MB. If the file you export from C5 is larger than that, consider migrating data in multiple files. For example, export one or two types of entities from C5, such as customers and vendors, to a file, and then export items to another file, and so on. You can import files individually in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="to-migrate-data"></a>To migrate data
 
-There are just a few steps to export data from C5, and import it in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+There are just a few steps to export data from C5, and import it in [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. In C5, use the **Export Database** feature to export the data. Then send the export folder to a compressed (zipped) folder.  
-2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Migration** , and then choose **Data Migration** .  
+2. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Migration**, and then choose **Data Migration**.  
 3. Complete the steps in the assisted setup guide. Make sure to choose **Import from Microsoft Dynamcis C5 2012** as the data source.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Viewing the Status of the Migration
@@ -127,7 +127,7 @@ To help avoid double-posting to the general ledger, the following balance accoun
 
 ## <a name="correcting-errors"></a>Correcting Errors
 
-If something goes wrong and an error occurs, the **Status** field will show **Completed with Errors** , and the **Error Count** field will show how many. To view a list of the errors, you can open the **Data Migration Errors** page by choosing:  
+If something goes wrong and an error occurs, the **Status** field will show **Completed with Errors**, and the **Error Count** field will show how many. To view a list of the errors, you can open the **Data Migration Errors** page by choosing:  
 
 * The number in the **Error Count** field for the entity.  
 * The entity, and then the **Show Errors** action.  
@@ -137,14 +137,14 @@ On the **Data Migration Errors** page, to fix an error you can choose an error m
 After you fix one or more errors, you can choose **Migrate** to migrate only the entities you fixed, without having to completely restart the migration.  
 
 > [!Tip]
-> If you have fixed more than one error, you can use the **Select More** feature to select multiple lines to migrate. Alternatively, if there are errors that are not important to fix, you can choose them and then choose **Skip Selections** .
+> If you have fixed more than one error, you can use the **Select More** feature to select multiple lines to migrate. Alternatively, if there are errors that are not important to fix, you can choose them and then choose **Skip Selections**.
 
 > [!Note]
 > If you have items that are included in a BOM, you might need to migrate more than once if the original item is not created before the variants that reference it. If an item variant is created first, the reference to the original item can cause an error message.  
 
 ## <a name="verifying-data-after-migrating"></a>Verifying Data After Migrating
 
-One way to verify that your data migrated correctly is to look at the following pages in C5 and [!INCLUDE[d365fin](includes/d365fin_md.md)].
+One way to verify that your data migrated correctly is to look at the following pages in C5 and [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |Microsoft Dynamics C5 2012 | Dynamics 365 Business Central| Batch Job to Use |
 |---------------------------|------------------------------|------------------|
@@ -155,9 +155,9 @@ One way to verify that your data migrated correctly is to look at the following 
 
 ## <a name="stopping-data-migration"></a>Stopping Data Migration
 
-You can stop migrating data by choosing **Stop All Migrations** . If you do, all pending migrations are also stopped.
+You can stop migrating data by choosing **Stop All Migrations**. If you do, all pending migrations are also stopped.
 
 ## <a name="see-also"></a>See Also
 
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Getting Started](product-get-started.md)  

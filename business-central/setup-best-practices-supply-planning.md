@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9e191c68606cdafb3e88c6d81ebf6494f969918e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c8b0585aa714630aefb2fa870feafbf6ebf12228
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912853"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747825"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Setup Best Practices: Supply Planning
 Supply planning is a critical business area. When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and inventory costs.  
@@ -34,4 +34,4 @@ Supply planning is a critical business area. When set up and used correctly, sup
  [Design Details: Supply Planning](design-details-supply-planning.md)   
  [Design Details: Planning Parameters](design-details-planning-parameters.md)   
  [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

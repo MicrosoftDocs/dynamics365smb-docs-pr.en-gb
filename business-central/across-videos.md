@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a053692e9e58dc7b64962c8d117e8cec832fd8fc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fad4d9bdd68bc6299bf573432e0a33f6afb0ddfb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927304"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752956"
 ---
 # <a name="visit-our-video-library"></a>Visit Our Video Library
 
 We know that some people prefer to watch content rather than read it. To that end, we're producing short, easily digestible videos that either stand alone, or supplement our user assistance.  
 
-If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch the introduction videos from the welcome page that displays. If you're already working in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can get to the library from the **Business Manager** and **Accountant** Role Centres by choosing the **Product Videos** tile.  
+If you are new to [!INCLUDE[prod_short](includes/prod_short.md)], you can launch the introduction videos from the welcome page that displays. If you're already working in [!INCLUDE[prod_short](includes/prod_short.md)], you can get to the library from the **Business Manager** and **Accountant** Role Centres by choosing the **Product Videos** tile.  
 
-You can also view our "how to" videos, plus a lot of other content, on the YouTube playlist that we created for [!INCLUDE[d365fin](includes/d365fin_md.md)]. To visit the videos now, [click here](https://go.microsoft.com/fwlink/?linkid=851533).
+You can also view our "how to" videos, plus a lot of other content, on the YouTube playlist that we created for [!INCLUDE[prod_short](includes/prod_short.md)]. To visit the videos now, [click here](https://go.microsoft.com/fwlink/?linkid=851533).
 
 > [!Tip]  
 > Videos in the library display in a frame that might seem a little small. To make the frame larger, choose the double-ended arrow icon in the upper-right corner. Afterward, videos will display in the larger frame until you make it small again.

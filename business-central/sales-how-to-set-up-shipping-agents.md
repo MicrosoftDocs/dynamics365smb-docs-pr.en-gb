@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0144c5283d6c5b860cb14522c08acec2f769df8d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fbd27caed8be1e7231f98964890fafed66c7bbbb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910562"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748225"
 ---
 # <a name="set-up-shipping-agents"></a>Set Up Shipping Agents
 You can set up a code for each of your shipping agents and enter information about them.  
@@ -28,10 +28,10 @@ For each shipping agent, you can set up an unlimited number of services, and you
 When you have assigned a shipping agent service to a sales order line, the shipping time of the service will be included in the order promising calculation, for that line. For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>To set up a shipping agent  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipping Agents** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipping Agents**, and then choose the related link.  
 2.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Choose the **Shipping Agent Services** action.
-4. In the **Shipping Agent Services** , fill in the fields as necessary.
+4. In the **Shipping Agent Services**, fill in the fields as necessary.
 
 > [!NOTE]  
 >  If you delete the shipping agent on the order line, the shipping agent service code is also deleted. The contents of fields that were based in part on the shipping agent service are recalculated.  
@@ -44,4 +44,4 @@ When you have assigned a shipping agent service to a sales order line, the shipp
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

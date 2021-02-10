@@ -10,29 +10,29 @@ ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e8b62e04b3b1d44ba53572559c66acc1c05da8c0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0058fd8aa684fd12392e641dda3bbb0ee6862134
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914621"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753699"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exporting Your Business Data to Excel
-If you want to work with your data from [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, you can open all lists in Excel and work with it there. Similarly, if you want to cancel your subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export your data to Excel so that you can take it with you.
+If you want to work with your data from [!INCLUDE[prod_short](includes/prod_short.md)] in Excel, you can open all lists in Excel and work with it there. Similarly, if you want to cancel your subscription for [!INCLUDE[prod_short](includes/prod_short.md)], you can export your data to Excel so that you can take it with you.
 
 ## <a name="opening-lists-in-excel"></a>Opening Lists in Excel
-You can open data in Excel from any journal, list, or worksheet. You just open the page that you want, and then choose **Open in Excel** . For example, open the list of customers (search for **Customers** ), and then choose **Open in Excel** . Your browser will prompt you to open or save the generated Excel workbook.  
+You can open data in Excel from any journal, list, or worksheet. You just open the page that you want, and then choose **Open in Excel**. For example, open the list of customers (search for **Customers**), and then choose **Open in Excel**. Your browser will prompt you to open or save the generated Excel workbook.  
 
 > [!NOTE]
-> Use this option when you do not want to make changes and publish those changes back to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> Use this option when you do not want to make changes and publish those changes back to [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Each list includes a number of columns, and the export to Excel will include any columns that are in your current view. If you want to add or remove columns before you open the list in Excel, you simply open the shortcut menu for any column and then specify which columns that you want to see. This list of columns is different for most lists, and it reflects the structure in the database where your data is stored. If you are not sure what type of data a certain column contains, you can add it to your view and then decide if you want to remove it again.  
 
 ### <a name="edit-data-in-excel"></a>Edit Data in Excel
-Your [!INCLUDE[d365fin](includes/d365fin_md.md)] experience includes an add-in for Excel so you can edit data in Excel. For more information, see [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
+Your [!INCLUDE[prod_short](includes/prod_short.md)] experience includes an add-in for Excel so you can edit data in Excel. For more information, see [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Exporting Data to Other Finance Systems
-If you decide to cancel your subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export your data to Excel and take it with you to your next finance system.  
+If you decide to cancel your subscription for [!INCLUDE[prod_short](includes/prod_short.md)], you can export your data to Excel and take it with you to your next finance system.  
 
 You can export all pages, of course, but that might be more than you really need. So consider exporting the following essential pages, and remember to add all columns as described earlier:  
 
@@ -64,21 +64,21 @@ We recommend that you also consider exporting data from the following pages:
 * Salespeople  
 
 > [!NOTE]  
-> If you have set up more than one company in [!INCLUDE[prodshort](includes/prodshort.md)], you must export the relevant data from each company.
+> If you have set up more than one company in [!INCLUDE[prod_short](includes/prod_short.md)], you must export the relevant data from each company.
 
 > [!NOTE]
 > You must have at least one of the following permissions to open or edit data in Excel:
 >    - Permission set *D365 Excel Export Action*  
->    - System permission 6110 *Allow Action Export To Excel* .  
+>    - System permission 6110 *Allow Action Export To Excel*.  
 
 For more information, see [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
-[Canceling Your Subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  
+[Canceling Your Subscription for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
 [Finance](finance.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

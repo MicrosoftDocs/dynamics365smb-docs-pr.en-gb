@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.date: 11/03/2020
 ms.author: edupont
-ms.openlocfilehash: 97904add0f97be5a93bec5e53b45179fadfddffb
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: cb9586e207f3eda516d11dd4f184351ff66ca4b2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968340"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749962"
 ---
 # <a name="work-with-responsibility-centers"></a>Work with Responsibility Centres
 
@@ -27,12 +27,12 @@ Multiple locations allows companies to manage their inventory in multiple locati
 
 ## <a name="to-set-up-a-responsibility-center"></a>To set up a responsibility centre
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Responsibility Centres** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Responsibility Centres**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     If you are using responsibility centres to administer your company, it can be useful to have a default responsibility centre for your company.
-4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** , and then choose the related link.
+4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
 5. In the **Responsibility Centre** field, enter a responsibility centre code.
 
 This code will be used on all purchase, sales, or service documents, if the user, customer, or vendor has no default responsibility centre. On any sales, purchase, or service document, you can enter another responsibility centre than the default.
@@ -46,14 +46,14 @@ You can set up users so that in their daily routines application retrieves only 
 
 To set this up, you assign responsibility centres to users in three functional areas: Purchases, Sales, and Service Management.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
 2. On the **User Setup** page, select the user you want to assign a responsibility centre to. If the user not is on the list, you must enter a user ID in the **User ID** field.  
 3. In the **Sales Resp. Ctr. Filter** field, enter the responsibility centre where the user will have tasks related to sales.  
 4. In the **Purchase Resp. Ctr. Filter** field, enter the responsibility centre where the user will have tasks related to purchasing.  
 5. In the **Service Resp. Ctr. Filter** field, enter the responsibility centre where the user will have tasks related to service management.  
 
 > [!NOTE]  
-> Users will still be able to view all posted documents and ledger entries, not just those related to their own responsibility centre.
+> Users can view only those posted documents that related to their own responsibility centre. However, they can view all ledger entries and navigate to other posted documents from the ledger entries.
 
 ## <a name="see-also"></a>See Also
 
@@ -62,4 +62,4 @@ To set this up, you assign responsibility centres to users in three functional a
 [Inventory](inventory-manage-inventory.md)[Warehouse Management](warehouse-manage-warehouse.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

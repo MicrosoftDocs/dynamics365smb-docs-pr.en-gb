@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: e0ef9e91d303191cc98afb7dc56f4585d443e5c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc95787d17affb1291ad963b5e69b303a579f1e7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917608"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752012"
 ---
 # <a name="application-compliance"></a>Application Compliance
 
-This content contains information about application compliance in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)], like the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business. With Business Central companies are empowered to streamline business processes while consistently and cost-efficiently complying with increasing regulation and reporting requirements.
+This content contains information about application compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)], like the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business. With Business Central companies are empowered to streamline business processes while consistently and cost-efficiently complying with increasing regulation and reporting requirements.
 
 ## <a name="data-privacy"></a>Data Privacy
 
@@ -108,5 +108,5 @@ Microsoft builds localised versions of Business Central for a limited number of 
 [Service Compliance](compliance-service-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  

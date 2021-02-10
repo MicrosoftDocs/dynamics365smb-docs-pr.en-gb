@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: move, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 79dfe973780269480285bac6aca380461b1ab403
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f406a44a3d786c06ea1ac1e61d5b51bb97b67f12
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913303"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746148"
 ---
 # <a name="transfer-inventory-between-locations"></a>Transfer Inventory Between Locations
 You can transfer inventory items between locations by creating transfer orders. Alternatively, you can use the item reclassification journal.
@@ -30,11 +30,11 @@ With the reclassification journal, you simply fill in the **Location Code** and 
 To transfer items, locations and transfer routes must be set up. For more information, see [Set Up Locations](inventory-how-setup-locations.md).
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>To transfer items with a transfer order
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer orders** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer orders**, and then choose the related link.
 2. On the header of the **Transfer Order** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   If you have filled in the **In-Transit Code** , **Shipping Agent Code** , and **Shipping Agent Service** fields on the **Trans. Route Spec.** page when you set up the transfer route, then the corresponding fields on the transfer order are filled in automatically.
+    >   If you have filled in the **In-Transit Code**, **Shipping Agent Code**, and **Shipping Agent Service** fields on the **Trans. Route Spec.** page when you set up the transfer route, then the corresponding fields on the transfer order are filled in automatically.
 
     When you fill in the **Shipping Agent Service** field, the receipt date at the transfer-to location is calculated by adding the shipping time of the shipping agent service to the shipment date.
 
@@ -51,7 +51,7 @@ To transfer items, locations and transfer routes must be set up. For more inform
 5. Choose the **Post** action, choose the **Receive** option, and then choose the **OK** button.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>To transfer items with the item reclassification journal
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journals** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journals**, and then choose the related link.
 2. On the **Item Reclass. Journal** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In the **Location Code** field, enter the location where the items are currently stored.
 
@@ -63,6 +63,6 @@ To transfer items, locations and transfer routes must be set up. For more inform
 ## <a name="see-also"></a>See Also
 [Manage Inventory](inventory-manage-inventory.md)  
 [Set Up Locations](inventory-how-setup-locations.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)

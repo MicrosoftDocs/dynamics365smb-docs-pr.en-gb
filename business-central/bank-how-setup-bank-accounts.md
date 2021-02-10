@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf310ff190682b22ffe81d0ad3072b3bdc8803b7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1684f12858a33234f51d7847b50ea15aa1d7b230
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921079"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755299"
 ---
 # <a name="set-up-bank-accounts"></a>Set Up Bank Accounts
-You use bank accounts in the [!INCLUDE[d365fin](includes/d365fin_md.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the cheque printing option.<br><br>  
+You use bank accounts in the [!INCLUDE[prod_short](includes/prod_short.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the cheque printing option.<br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl?rel=0]
 
 ## <a name="to-set-up-bank-accounts"></a>To set up bank accounts
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. On the **Bank Accounts** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -33,7 +33,7 @@ You use bank accounts in the [!INCLUDE[d365fin](includes/d365fin_md.md)] to keep
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>To set up your bank account for import or export of bank files
 Fields on the **Transfer** FastTab on the **Bank Account Card** page are related to import and export of bank feeds and files. For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Open the card for a bank account that you will export or import bank files for.
 3. On the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -44,10 +44,10 @@ Fields on the **Transfer** FastTab on the **Bank Account Card** page are related
 
 Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are related to export of bank feeds and files. For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the card for a vendor whose bank account you will export payment bank files to.
 3. Choose the **Bank Accounts** action.
-4. From the **Vendor Bank Accounts List** , choose the relevant bank account, or add a new bank account.  
+4. From the **Vendor Bank Accounts List**, choose the relevant bank account, or add a new bank account.  
 5. On the **Vendor Bank Account Card** page, on the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>See Also
@@ -55,4 +55,4 @@ Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are 
 [Setting Up Banking](bank-setup-banking.md)  
 [Setting Up Posting Groups](finance-posting-groups.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

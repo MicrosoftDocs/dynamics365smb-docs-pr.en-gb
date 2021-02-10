@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac927f9ef676cbfa433265346f69c92552802fce
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: aafd30be751440c9afd124f07ada43d57b799555
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919245"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748975"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Create Production Orders from Sales Orders
 You can create production orders for produced items directly from sales orders.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>To create a production order from a sales order  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Select the sales order you want to create a production order for.  
 3.  Choose the **Planning** action. On the **Sales Order Planning** page, you can view the availability of the sales order item.  
 4.  Choose the **Create Prod. Order** action.  
@@ -38,4 +38,4 @@ You can also choose to make a project production order. For more information, se
 [Purchasing](purchasing-manage-purchasing.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

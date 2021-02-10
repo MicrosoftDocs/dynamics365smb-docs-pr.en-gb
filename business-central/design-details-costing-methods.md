@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0a9b8b1fc46f953fb545f5c2f14e4b0479897ef1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927029"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751712"
 ---
 # <a name="design-details-costing-methods"></a>Design Details: Costing Methods
 
@@ -24,7 +24,7 @@ The costing method determines whether an actual or a budgeted value is capitalis
 > [!NOTE]
 > You cannot change an item's costing method if item ledger entries exist for the item. For more information, see [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md).
 
-The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+The following methods are supported in [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 | Costing method | Description | When to use |
 |--|--|--|
@@ -42,8 +42,8 @@ The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md
 
 |Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  
-|General characteristic|Easy to understand|Based on period options: **Day**/**Week**/**Month**/**Quarter**/**Accounting Period** .<br /><br /> Can be calculated per item or per item/location/variant.|Easy to use, but requires qualified maintenance.|Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialised items.|  
-|Application/Adjustment|Application keeps track of **the remaining quantity** .<br /><br /> Adjustment forwards costs according to quantity application.|Application keeps track of the **remaining quantity** .<br /><br /> Costs are calculated and forwarded per the **valuation date** .|Application keeps track of the **remaining quantity** .<br /><br /> Application is based on FIFO.|All applications are fixed.|  
+|General characteristic|Easy to understand|Based on period options: **Day**/**Week**/**Month**/**Quarter**/**Accounting Period**.<br /><br /> Can be calculated per item or per item/location/variant.|Easy to use, but requires qualified maintenance.|Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialised items.|  
+|Application/Adjustment|Application keeps track of **the remaining quantity**.<br /><br /> Adjustment forwards costs according to quantity application.|Application keeps track of the **remaining quantity**.<br /><br /> Costs are calculated and forwarded per the **valuation date**.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|All applications are fixed.|  
 |Revaluation|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time.|Revalues invoiced and un-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|  
 |Miscellaneous|If you back-date an inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|If you back-date an inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|  
 
@@ -67,9 +67,9 @@ The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md
 ### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effect of Costing Methods on Valuing Inventory Increases  
  **FIFO**/**LIFO**/**Average**/**Specific**  
 
- For items with costing methods that use actual cost as the valuation base ( **FIFO** , **LIFO** , **Average** , or **Specific** ), inventory increases are valued at the item's acquisition cost.  
+ For items with costing methods that use actual cost as the valuation base (**FIFO**, **LIFO**, **Average**, or **Specific**), inventory increases are valued at the item's acquisition cost.  
 
- The following table shows how inventory increases are valued for all costing methods except **Standard** .  
+ The following table shows how inventory increases are valued for all costing methods except **Standard**.  
 
 |Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
 |------------------|--------------|----------------------------|---------------|  
@@ -163,4 +163,4 @@ The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md
  [Design Details: Item Application](design-details-item-application.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

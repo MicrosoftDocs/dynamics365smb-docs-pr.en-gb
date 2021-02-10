@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 095daa34ee8a956da8245f4e02c3bd438ba277fb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b3c9b79701296cd21492752e94b2a0ec7848658b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924010"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746323"
 ---
 # <a name="about-item-types"></a>About Item Types
 In the **Type** field on the **Item Card** page, you can select what the item is used for in your business and therefore how it is managed in the system. Three options exist:
@@ -57,4 +57,4 @@ Customers' items that you perform service on, such as a printer, are called serv
 [Setting Up Inventory](inventory-setup-inventory.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

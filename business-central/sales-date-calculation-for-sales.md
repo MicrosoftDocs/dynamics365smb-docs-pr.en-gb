@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a8f272b73f7cc5940f2e0b845c62fd28395b6923
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 26782d211d205bb5414c5bd423ccf240f70f197e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926329"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748475"
 ---
 # <a name="date-calculation-for-sales"></a>Date Calculation for Sales
-[!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the earliest possible date that an item on a sales order line can be shipped.
+[!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the earliest possible date that an item on a sales order line can be shipped.
 
 If the customer has requested a specific delivery date, then the date on which the items must be available to pick to meet that delivery date is calculated.
 
@@ -45,4 +45,4 @@ If you do not specify a requested delivery date on the sales order line, or if t
 ## <a name="see-also"></a>See Also  
  [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)   
  [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

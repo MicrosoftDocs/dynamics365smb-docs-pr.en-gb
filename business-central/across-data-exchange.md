@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c11553dc3a48a2fdf0df65258914d36f9c2efbd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6ca289f723af83758c96537e3d4b5a1c0117cc7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914374"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753499"
 ---
 # <a name="exchanging-data-electronically"></a>Exchanging Data Electronically
 You can use the Data Exchange Framework to manage the exchange of business documents, bank files, currency exchange rates, and any other data files with your business partners.
 
-In the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the Data Exchange Framework is used in features, such as Electronic Documents, Bank File Import/Export, and Currency Exchange Rates Update. For more information, see [About the Data Exchange Framework](across-about-the-data-exchange-framework.md).
+In the standard version of [!INCLUDE[prod_short](includes/prod_short.md)], the Data Exchange Framework is used in features, such as Electronic Documents, Bank File Import/Export, and Currency Exchange Rates Update. For more information, see [About the Data Exchange Framework](across-about-the-data-exchange-framework.md).
 
 As an administrator or Microsoft partner, you can use the framework in new integration features by setting up which data to exchange and how. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 

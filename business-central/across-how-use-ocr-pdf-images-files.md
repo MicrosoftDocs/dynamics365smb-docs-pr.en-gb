@@ -11,15 +11,15 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aa24a1530d9e1d74e688f2ec9b44e1d615919c7a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e0195ea3cf635da2e0088e5f20b729017ced776d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924785"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753107"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Use OCR to Turn PDF and Image Files into Electronic Documents
-From PDF or image files that you receive from your trading partners, you can have an external OCR service (Optical Character Recognition) generate electronic documents that can be converted to document records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the **Incoming Documents** page. This is described in the first procedure.
+From PDF or image files that you receive from your trading partners, you can have an external OCR service (Optical Character Recognition) generate electronic documents that can be converted to document records in [!INCLUDE[prod_short](includes/prod_short.md)]. For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the **Incoming Documents** page. This is described in the first procedure.
 
 As an alternative to sending the file from the **Incoming Documents** page, you can send the file to the OCR service by email. Then, when you receive the electronic document back, a related incoming document record is created automatically. This is described in the second procedure.
 
@@ -30,14 +30,14 @@ Because OCR is based on optical recognition, it is likely that the OCR service w
 The traffic of files to and from the OCR service is processed by a dedicated job queue entry, which are created automatically when you enable the related service connection. For more information, see [Set Up Incoming Documents](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>To send a PDF or image file to the OCR service from the **Incoming Documents** page
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
 2. Create a new incoming document record and attach the file. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).  
 3. On the **Incoming Documents** page, select one or more lines, and then choose the **Send to Job Queue** action.
 
-    The value in the **OCR Status** field changes to **Ready** . The attached PDF or image file is sent to the OCR service by the job queue according to the schedule, provided that no errors exist.
+    The value in the **OCR Status** field changes to **Ready**. The attached PDF or image file is sent to the OCR service by the job queue according to the schedule, provided that no errors exist.
 4. Alternatively, on the **Incoming Documents** page, select one or more lines, and then choose the **Send to OCR Service** action.
 
-The value in the **OCR Status** field changes to **Sent** , provided that no errors exist.
+The value in the **OCR Status** field changes to **Sent**, provided that no errors exist.
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>To send a PDF or image file to the OCR service by email
 From your email application, you can send an email to the OCR service provider with the PDF or image file attached. For information about the email address to send to, see the OCR service provider’s web site.
@@ -53,29 +53,29 @@ The electronic document that is created by the OCR service from the PDF or image
 If you are not using a job queue, or you want to receive a finished OCR document sooner than per the job queue schedule, you can choose the **Receive from OCR Service** button. This will get any documents that are completed by the OCR service.
 
 > [!NOTE]  
->   If the OCR service is set up to require manual verification of processed documents, then the **OCR Status** field will contain **Awaiting Verification** . In that case, perform the following steps to log in to the OCR service website to manually verify an OCR document.
+>   If the OCR service is set up to require manual verification of processed documents, then the **OCR Status** field will contain **Awaiting Verification**. In that case, perform the following steps to log in to the OCR service website to manually verify an OCR document.
 
 1. In the **OCR Status** field, choose the **Awaiting Verification** hyperlink.
 2. On the OCR service website, log in using the credentials of your OCR service account. These are the credentials you also used when setting up the service. For more information, see [To set up an OCR service](across-how-setup-income-documents.md#to-set-up-an-ocr-service).
 
     Information for the OCR document is displayed, showing both the source content of the PDF or image file and the resulting OCR field values.
 3. Review the various field values and manually edit or enter values in fields that the OCR service has tagged as uncertain.
-4. Choose the **OK** button. The OCR process is completed and the resulting electronic document is sent to the **Incoming Documents** page in [!INCLUDE[d365fin](includes/d365fin_md.md)],  according to the job queue schedule.
+4. Choose the **OK** button. The OCR process is completed and the resulting electronic document is sent to the **Incoming Documents** page in [!INCLUDE[prod_short](includes/prod_short.md)],  according to the job queue schedule.
 5. Repeat step 4 for any other OCR document to be verified.
 
-Now you can proceed to create document records for the received electronic documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], manually or automatically. For more information, see the next procedure. You can also connect the new incoming document record to existing posted or non-posted document so that the source file is easy to access from [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Process Incoming Documents](across-process-income-documents.md).
+Now you can proceed to create document records for the received electronic documents in [!INCLUDE[prod_short](includes/prod_short.md)], manually or automatically. For more information, see the next procedure. You can also connect the new incoming document record to existing posted or non-posted document so that the source file is easy to access from [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Process Incoming Documents](across-process-income-documents.md).
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>To create a purchase invoice from an electronic document received from the OCR service
 The following procedure describes how to create a purchase invoice record from a vendor invoice received as an electronic document from the OCR service. The procedure is the same when you create, for example, a general journal line from an expense receipt or a sales return order from a customer.
 
 > [!NOTE]  
->   The **Description** and **No.** fields on the created document lines will only be filled if you have first mapped text found on the OCR document to the two fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can do this mapping as item cross-references, for document lines of type Item. For more information, see [Use Item Cross References](inventory-how-use-item-cross-refs.md). You can also use the Text-to-Account Mapping function. For more information, see [To map text on an incoming document to a specific vendor, G/L, or bank account](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
+>   The **Description** and **No.** fields on the created document lines will only be filled if you have first mapped text found on the OCR document to the two fields in [!INCLUDE[prod_short](includes/prod_short.md)]. You can do this mapping as item cross-references, for document lines of type Item. For more information, see [Use Item Cross References](inventory-how-use-item-cross-refs.md). You can also use the Text-to-Account Mapping function. For more information, see [To map text on an incoming document to a specific vendor, G/L, or bank account](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Select the line for the incoming document, and then choose the **Create Document** action.
 
-A purchase invoice will be created in [!INCLUDE[d365fin](includes/d365fin_md.md)] based on the information in the electronic vendor document that you received from the OCR service. Information will be inserted in the new purchase invoice based on the mapping that you have defined as a cross-reference or as text-to-account mapping.
+A purchase invoice will be created in [!INCLUDE[prod_short](includes/prod_short.md)] based on the information in the electronic vendor document that you received from the OCR service. Information will be inserted in the new purchase invoice based on the mapping that you have defined as a cross-reference or as text-to-account mapping.
 
-Any validation errors, typically related to wrong or missing master data in [!INCLUDE[d365fin](includes/d365fin_md.md)], will be shown on the **Errors and Warnings** FastTab. For more information, see [To handle errors when receiving electronic documents](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
+Any validation errors, typically related to wrong or missing master data in [!INCLUDE[prod_short](includes/prod_short.md)], will be shown on the **Errors and Warnings** FastTab. For more information, see [To handle errors when receiving electronic documents](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
 ### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>To map text on an incoming document to a specific vendor account
 For incoming documents, you typically use the **Map Text to Account** action to define that a certain text on a vendor invoice received from the OCR service is mapped to a certain vendor account. Going forward, any part of the incoming document description that exists as a mapping text means that the **No.** field on resulting document or journal lines of type G/L Account are filled with the vendor in question.
@@ -107,7 +107,7 @@ Because OCR is based on optical recognition, it is likely that the OCR service w
 
 The **OCR Data Correction** page, which you open from the **Incoming Document** page, shows the fields from the **Financial Information** FastTab in two columns, one with the OCR data editable and one with the OCR data read-only. When you choose the **Send OCR Feedback** button, the content of the **OCR Data Correction** page is sent to the OCR service. Next time the service processes PDF or image files that contain the data in question, your corrections will be incorporated to avoid the same errors.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
 2. Open an incoming document record that contains data received from OCR service, which you want to correct.
 3. On the **Incoming Document** page, choose the **Correct OCR Data** action.
 4. On the **OCR Data Correction** page, overwrite the data in the editable column for each field that has an incorrect value.
@@ -121,4 +121,4 @@ The fields on the **Financial Information** FastTab on the **Incoming Document**
 [Process Incoming Documents](across-process-income-documents.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

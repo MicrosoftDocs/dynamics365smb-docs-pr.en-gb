@@ -4,12 +4,12 @@ ms.service: dynamics365-accountant
 ms.topic: include
 ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: a62a1a628f22ff47fa86a64a72f5b1834960dc72
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 1b9f60eab5b0bcf812343e82389087ac5535301a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931278"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749787"
 ---
 Before you can set up email logging, you must prepare your Exchange Online with [public folders](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). You can do this in the [Exchange admin centre](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ), or you can use the [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
 
@@ -66,10 +66,10 @@ The following list describes the main steps with links to learn more.
 
   |Purpose  |Name |Conditions                        |Action                                       |
   |---------|-----|----------------------------------|---------------------------------------------|
-  |A rule for incoming email |Log Email Sent to This Organisation|*The sender* is located *Outside the organisation* , and *the recipient* is located *Inside the organisation*|BCC the email account that is specified for the *Queue* public folder|
-  |A rule for outgoing email | Log Email Sent from This Organisation |*The sender* is located *Inside the organisation* , and *the recipient* is located *Outside the organisation*|BCC the email account that is specified for the *Queue* public folder|
+  |A rule for incoming email |Log Email Sent to This Organisation|*The sender* is located *Outside the organisation*, and *the recipient* is located *Inside the organisation*|BCC the email account that is specified for the *Queue* public folder|
+  |A rule for outgoing email | Log Email Sent from This Organisation |*The sender* is located *Inside the organisation*, and *the recipient* is located *Outside the organisation*|BCC the email account that is specified for the *Queue* public folder|
   
   For more information, see [Manage mail flow rules in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) and [Mail flow rule actions in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
-> If you make changes in the Exchange Management Shell, the changes become visible in the Exchange admin centre after a delay. Also, the changes made in Exchange will be available in [!INCLUDE[prodshort](prodshort.md)] after a delay.
+> If you make changes in the Exchange Management Shell, the changes become visible in the Exchange admin centre after a delay. Also, the changes made in Exchange will be available in [!INCLUDE[prod_short](prod_short.md)] after a delay.

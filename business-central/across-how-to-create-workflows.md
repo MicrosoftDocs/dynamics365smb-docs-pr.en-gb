@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3dafae41b015df7b3b87657014a901128d34b7c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0db0e2e6705a7d2fd1907227996d8c258dcbc554
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915892"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754799"
 ---
 # <a name="create-workflows"></a>Create Workflows
 You can create workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  
 
 On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event moderated by event conditions and a workflow response with response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.  
 
-When you create workflows, you can copy the steps from existing workflows or from workflow templates. Workflow templates represent non-editable workflows that exist in the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)]. The code for workflow templates that are added by Microsoft are prefixed with “MS-“, such as in “MS-PIW”. For more information, see [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
+When you create workflows, you can copy the steps from existing workflows or from workflow templates. Workflow templates represent non-editable workflows that exist in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)]. The code for workflow templates that are added by Microsoft are prefixed with “MS-“, such as in “MS-PIW”. For more information, see [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
 
 If your business scenario requires workflow events or responses that are not supported, a Microsoft partner must implement them by customising the application code.  
 
@@ -30,7 +30,7 @@ If your business scenario requires workflow events or responses that are not sup
 >  All notifications about workflow steps are sent through a job queue. Make sure that the job queue in your installation is set up to handle workflow notifications, and that the **Start Automatically From NAS** check box is selected. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>To create a workflow  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2. Choose the **New** action. The **Workflow** page opens.  
 3. In the **Code** field, enter a maximum of 20 characters to identify the workflow.  
 4. To create the workflow from a workflow template, on the **Workflows** page, choose the **Create Workflow from Template** action. For more information, see [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -46,7 +46,7 @@ If your business scenario requires workflow events or responses that are not sup
     If the workflow event is the change of a specific field on a record, then the **Event Conditions** page opens with options to select the field and the type of change.  
 
     1.  To specify a field change for the event, on the **Event Conditions** page, in the **Field** field, select the field that changes.  
-    2.  In the **Operator** field, select either **Decreased** , **Increased** , or **Changed** .  
+    2.  In the **Operator** field, select either **Decreased**, **Increased**, or **Changed**.  
 9. In the **Then Response** field, specify the response that will follow when the workflow event occurs.  
 
      When you choose the field, the **Workflow Responses** page opens where you select from all workflow responses that exist and set response options for the selected response.  
@@ -56,11 +56,11 @@ If your business scenario requires workflow events or responses that are not sup
 
         |Field|Description|  
         |----------------------------------|---------------------------------------|  
-        |**Notify Sender**|Specify if the approval requestor is notified instead of the approval request recipient. If you select the check box, the **Recipient User ID** field is disabled because the requestor of the approval, the sender, will be notified instead. The name of the workflow response changes accordingly, to **Create Notification for &lt;Sender&gt;** . If the check box is not selected, the name of the workflow response is **Create Notification for &lt;User&gt;** .
+        |**Notify Sender**|Specify if the approval requestor is notified instead of the approval request recipient. If you select the check box, the **Recipient User ID** field is disabled because the requestor of the approval, the sender, will be notified instead. The name of the workflow response changes accordingly, to **Create Notification for &lt;Sender&gt;**. If the check box is not selected, the name of the workflow response is **Create Notification for &lt;User&gt;**.
         |**Recipient User ID**|Specify the user who the notification must be sent to. Note: This option is only available for workflow responses with a placeholder for a specific user. For workflow responses without placeholders for users, the notification recipient is typically defined by the approval user setup.|  
         |**Notification Entry Type**|Specifies if the workflow notification is triggered by a record change, an approval request, or a passed due data.|
-        |**Link Target Page**|Specify another page in [!INCLUDE[d365fin](includes/d365fin_md.md)] that the link in the notification opens instead of the default page.<br /><br />Note that the page must have the same source table as the record involved.|  
-        |**Custom Link**|Specify the URL of a link that is added to the notification in addition to the link to page in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+        |**Link Target Page**|Specify another page in [!INCLUDE[prod_short](includes/prod_short.md)] that the link in the notification opens instead of the default page.<br /><br />Note that the page must have the same source table as the record involved.|  
+        |**Custom Link**|Specify the URL of a link that is added to the notification in addition to the link to page in [!INCLUDE[prod_short](includes/prod_short.md)].|  
     2.  To specify options for a workflow response that involves creating an approval request, fill the fields as described in the following table.  
 
         |Field|Description|  
@@ -91,7 +91,7 @@ If your business scenario requires workflow events or responses that are not sup
 >  Do not enable a workflow until you are sure that the workflow is completed and that the involved workflow steps can start.  
 
 > [!TIP]  
->  To see relations between tables that are used in workflows, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, and then enter **Workflow – Table Relations** .  
+>  To see relations between tables that are used in workflows, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, and then enter **Workflow – Table Relations**.  
 
 ## <a name="see-also"></a>See Also  
 [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)   

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5dda40147d86bbe67e3eb20860ffa4648e2e9918
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9165a7392f5c95b2ebb8a056f69be49d93476b66
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913920"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747373"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Sell Assemble-to-Order Items and Inventory Items Together
-If the **Assembly Policy** field on the item card of an assembly item contains **Assemble-to-Stock** , then the default sales order process assumes that the item is already assembled and can be picked from inventory, if it is available. Therefore, no assembly order is automatically created and linked to the sales order line. However, if a part (or all) of the quantity is not available, then you have the flexibility to create an assembly order for the remaining quantity by filling in the **Qty. to Assemble to Order** field on the sales order line. In this manner, you can assemble the item to order although it is set up to be assembled to stock by default.  
+If the **Assembly Policy** field on the item card of an assembly item contains **Assemble-to-Stock**, then the default sales order process assumes that the item is already assembled and can be picked from inventory, if it is available. Therefore, no assembly order is automatically created and linked to the sales order line. However, if a part (or all) of the quantity is not available, then you have the flexibility to create an assembly order for the remaining quantity by filling in the **Qty. to Assemble to Order** field on the sales order line. In this manner, you can assemble the item to order although it is set up to be assembled to stock by default.  
 
 Similar flexibility exists when you are selling items to be assembled to the order and a part of the quantity is in inventory, which you want to deduct from the assembly order. For more information, see [Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
@@ -43,4 +43,4 @@ Similar flexibility exists when you are selling items to be assembled to the ord
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

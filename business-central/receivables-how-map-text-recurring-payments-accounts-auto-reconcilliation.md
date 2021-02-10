@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97903c269856636cff618d5c91125ae9f1ace496
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6e389d31d6f9a28c9cff12950c37f01c1cf51004
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926479"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748575"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Map Text on Recurring Payments to Accounts for Automatic Reconciliation
 On the **Text-to-Account Mapping** page, which you open from the **Payment Reconciliation Journal** page, you can set up mappings between text on payments and specific debit, credit, and balancing accounts so that such payments are posted to the specified accounts when you post the payment reconciliation journal.
@@ -25,12 +25,12 @@ Similar functionality exists to reconcile excess amounts on payment reconciliati
 Payments posted based on text-to-account mapping are not applied to open entries, but are merely posted to the specified accounts in addition to creating bank account ledger entries. Accordingly, text-to-account mapping is suited for recurring cash receipts or expenses, such as frequent purchases of car fuel or bank fees and interest, that regularly occur on the bank statement and do not need a related business document. For more information, see the "Example - Text-to-Account Mapping for Fuel Expense" section in this topic.
 
 > [!NOTE]  
->   Payments on reconciliation journal lines are only set to posting according to text-to-account mapping if the automatic application function can only provide a match confidence of **Low** or **Medium** . If the automatic application function provides a match confidence of High, then the payment is automatically applied to one or more open entries, and the payment is not posted to the accounts specified on the **Text-to-Account Mapping** page. In other words, a match confidence of **High** overrules a text-to-account mapping.
+>   Payments on reconciliation journal lines are only set to posting according to text-to-account mapping if the automatic application function can only provide a match confidence of **Low** or **Medium**. If the automatic application function provides a match confidence of High, then the payment is automatically applied to one or more open entries, and the payment is not posted to the accounts specified on the **Text-to-Account Mapping** page. In other words, a match confidence of **High** overrules a text-to-account mapping.
 
-On a payment reconciliation journal line where the payment has been set to posting according to text-to-account mapping, the **Match Confidence** field contains **High - Text-to-Account Mapping** , and the **Account Type** and **Account No.** fields contain the mapped accounts.
+On a payment reconciliation journal line where the payment has been set to posting according to text-to-account mapping, the **Match Confidence** field contains **High - Text-to-Account Mapping**, and the **Account Type** and **Account No.** fields contain the mapped accounts.
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>To map text on recurring payments to accounts for automatic reconciliation
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
 2. Open a payment reconciliation journal. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 3. Choose the **Map Text to Account** action. The **Text-to-Account Mapping** page opens.
 4. In the **Mapping Text** field, enter any text that occurs on payments that you want to post to specified accounts without applying to an open entry. You can enter up to 50 characters.
@@ -46,7 +46,7 @@ On a payment reconciliation journal line where the payment has been set to posti
 
 8. Repeat steps 3 through 7 for all text on payments that you want to map to accounts for direct posting without application.
 
-Next time you import a bank statement file or choose the **Apply Automatically** action on the **Payment Reconciliation Journal** page, journal lines for the payments that contain the specified mapping text will contain the mapped accounts in the **Account Type** and **Account No.** fields. The **Match Confidence** field will contain **High - Text-to-Account Mapping** . This is on the condition that the automatic application function can only provide a match confidence of **Low** or **Medium** .
+Next time you import a bank statement file or choose the **Apply Automatically** action on the **Payment Reconciliation Journal** page, journal lines for the payments that contain the specified mapping text will contain the mapped accounts in the **Account Type** and **Account No.** fields. The **Match Confidence** field will contain **High - Text-to-Account Mapping**. This is on the condition that the automatic application function can only provide a match confidence of **Low** or **Medium**.
 
 ## <a name="example-text-to-account-mapping-for-bank-fees"></a>Example: Text-to-Account Mapping for Bank Fees
 
@@ -61,5 +61,5 @@ To always post expenses that are related to fees from a specific bank, MyBank, t
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

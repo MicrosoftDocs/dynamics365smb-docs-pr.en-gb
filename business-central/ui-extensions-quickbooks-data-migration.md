@@ -10,16 +10,16 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34acbbf383048c6ef411797dfb1afcb51f7f6b40
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36b6eb6970daef6ea2e3aafc28ed232942707728
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912278"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757124"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>The QuickBooks Data Migration Extension
 
-This extension makes it easy to migrate customers, vendors, items, and accounts from QuickBooks to [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This extension makes it easy to migrate customers, vendors, items, and accounts from QuickBooks to [!INCLUDE[prod_short](includes/prod_short.md)]. If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[prod_short](includes/prod_short.md)].  
 For more information, see [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).
 
 ## <a name="data-from-quickbooks-desktop"></a>Data from QuickBooks Desktop
@@ -50,14 +50,14 @@ An important part of the migration process is to specify the accounts to migrate
 Business Central requires that general ledger accounts have account numbers assigned to them. Make sure that account numbers are assigned to your accounts in QuickBooks.
 If transactions in QuickBooks have tax amounts, you must set up a tax account for your tax jurisdictions in Business Central before you can post transactions.
 
-In order to get your data out of the QuickBooks desktop application you will need to download the Microsoft Data Exporter Tool.  The instructions for the tool are in the Data Migration Wizard in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The tool will connect to your QuickBooks application and export the applicable data to a .zip file.  
+In order to get your data out of the QuickBooks desktop application you will need to download the Microsoft Data Exporter Tool.  The instructions for the tool are in the Data Migration Wizard in [!INCLUDE[prod_short](includes/prod_short.md)]. The tool will connect to your QuickBooks application and export the applicable data to a .zip file.  
 
 > [!NOTE]
 > Currently the data exporter tool only works with QuickBooks 2017 and 2018.
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Finding the QuickBooks Data Migration Extension
 
-The QuickBooks Data Migration extension is installed and ready to go as an integrated part of the Data Migration assisted setup guide. If you are ready to get started now, and have exported your data from QuickBooks, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup** , and then choose the related link. Choose **Migrate business data** , and then follow the steps in the guide.  
+The QuickBooks Data Migration extension is installed and ready to go as an integrated part of the Data Migration assisted setup guide. If you are ready to get started now, and have exported your data from QuickBooks, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.  
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>What do I do after I migrate Data?
 
@@ -69,4 +69,4 @@ Verify the beginning balances for accounts in the general ledger. QuickBooks doe
 ## <a name="see-also"></a>See Also
 
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  
+[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)  

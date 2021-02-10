@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e77238b4e0578307a90f80bddfdec64002e7ac27
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8efd74c3ae6962a383e5b127056d744dd7c1892f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926779"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748800"
 ---
 # <a name="register-new-vendors"></a>Register New Vendors
 
@@ -33,8 +33,8 @@ Vendor cards hold the information that is required to buy products from the vend
 
 ## <a name="to-create-a-new-vendor-card"></a>To create a new vendor card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors** , and then choose the related link.  
-2. On the **Vendors** page, Choose **New** .
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
+2. On the **Vendors** page, Choose **New**.
 
     If more than one vendor template exists, then a page opens from which you can select a vendor template. In that case, follow the next two steps.
 3. On the **Select a template for a new vendor** page, choose the template that you want to use for the new vendor card.
@@ -64,4 +64,4 @@ If you have posted a transaction for a vendor, you cannot delete the card becaus
 [Create Number Series](ui-create-number-series.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Record Purchases](purchasing-how-record-purchases.md)   
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

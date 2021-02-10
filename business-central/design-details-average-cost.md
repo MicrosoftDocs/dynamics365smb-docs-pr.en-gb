@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ad867ebf705a4be3b544e017fe67f17d63e47b7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6a716b25f3dfb25d2011fd12ed388fed5e1e98f9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917583"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751837"
 ---
 # <a name="design-details-average-cost"></a>Design Details: Average Cost
-The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  The valuation date is set automatically.  
 
@@ -51,7 +51,7 @@ The average cost of an item is calculated with a periodic weighted average, base
  The calculated average cost is then applied to the inventory decreases for the item (or item, location, and variant) with posting dates in the average cost period. If any inventory increases exist that were fixed applied to inventory decreases in the average cost period, then the calculated average cost is forwarded from the increase to the decrease.  
 
 ### <a name="example-average-cost-period--day"></a>Example: Average Cost Period = Day  
- The following example shows the effect of calculating the average cost based on an average cost period of one day. The **Average Cost Calc. Type** field on the **Inventory Setup** page is set to **Item** .  
+ The following example shows the effect of calculating the average cost based on an average cost period of one day. The **Average Cost Calc. Type** field on the **Inventory Setup** page is set to **Item**.  
 
  The following table shows item ledger entries for the sample average-cost item, ITEM1, before the **Adjust Cost - Item Entries** batch job has been run.  
 
@@ -88,7 +88,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 |02-03-20|Sale|-1|-100.00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Example: Average Cost Period = Month  
- The following example shows the effect of calculating the average cost based on an average cost period of one month. The **Average Cost Calc. Type** field on the **Inventory Setup** page  is set to **Item** .  
+ The following example shows the effect of calculating the average cost based on an average cost period of one month. The **Average Cost Calc. Type** field on the **Inventory Setup** page  is set to **Item**.  
 
  If the average cost period is one month, then only one entry is created for each combination of item number, variant code, location code, and valuation date.  
 
@@ -181,7 +181,7 @@ The average cost of an item is calculated with a periodic weighted average, base
  It is possible to change the inventory valuation base within an accounting period by changing the **Average Cost Period** field and the **Average Cost Calc. Type** field. However, this should be done with care and in agreement with an auditor.  
 
 ### <a name="example"></a>Example  
- The following example illustrates how the average cost is recalculated when a late posting is introduced on a date that comes before one or more inventory decreases. The example is based on an average cost period of **Day** .  
+ The following example illustrates how the average cost is recalculated when a late posting is introduced on a date that comes before one or more inventory decreases. The example is based on an average cost period of **Day**.  
 
  The following table shows the value entries that exist for the item before the posting is introduced.  
 
@@ -211,4 +211,4 @@ The average cost of an item is calculated with a periodic weighted average, base
  [Design Details: Item Application](design-details-item-application.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

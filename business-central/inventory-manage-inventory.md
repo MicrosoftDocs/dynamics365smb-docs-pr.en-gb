@@ -11,15 +11,15 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d1eb5a29a1e83b3dad454426327f03786b8f644
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3fa97eb12cc7343c1cfb659736ed6ad6b43d0633
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921774"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755474"
 ---
 # <a name="inventory"></a>Inventory
-For each physical product that you trade in, you must create an item card of type **Inventory** . Items that you offer to customers but do not keep in inventory you can register as catalogue items, which you can convert to inventory items when necessary. You can increase or decrease the quantity of an item in inventory by posting directly to the item ledger entries, for example, after a physical count or if you do not record purchases.
+For each physical product that you trade in, you must create an item card of type **Inventory**. Items that you offer to customers but do not keep in inventory you can register as catalogue items, which you can convert to inventory items when necessary. You can increase or decrease the quantity of an item in inventory by posting directly to the item ledger entries, for example, after a physical count or if you do not record purchases.
 
 Inventory increases and decreases are naturally also recorded when you post purchase and sales documents respectively. For more information, see [Record Purchases](purchasing-how-record-purchases.md), [Sell Products](sales-how-sell-products.md), and [Invoice Sales](sales-how-invoice-sales.md). Transfers between locations changes inventory quantities across your company's warehouses.   
 
@@ -33,7 +33,11 @@ Planning for items to fulfil demand is covered as part of supply planning functi
 ## <a name="inventory-reconciliation"></a>Inventory Reconciliation
 When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change of inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction that you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger. For more information, see [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [Adjust Item Costs](inventory-how-adjust-item-costs.md).
+Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [Adjust Item Costs](inventory-how-adjust-item-costs.md).  
+
+## <a name="related-tasks"></a>Related Tasks
+
+The following table outlines related tasks.
 
 |To |See |
 |---|----|
@@ -53,14 +57,14 @@ Even though inventory costs are automatically posted to the general ledger, it i
 |Find where any serial or lot number was used in its supply chain, for example in recall situations.|[Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)|
 |Block items from being entered on sales or purchase lines or from being posted in any transaction.|[Block Items](inventory-how-block-items.md)|
 |Manage business operations in sales offices, a purchasing departments, or plant planning offices across multiple locations.|[Work with Responsibility Centres](inventory-responsibility-centers.md)|
+|Use resources with specific skills for various services and service items.|[Set Up Resource Allocation](service-how-setup-resource-allocation.md)|
 
+## <a name="see-also"></a>See Also
 
-
-## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Sales](sales-manage-sales.md)    
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[General Business Functionality](ui-across-business-areas.md)
+[Sales](sales-manage-sales.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[General Business Functionality](ui-across-business-areas.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

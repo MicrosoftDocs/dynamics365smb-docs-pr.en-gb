@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: c53722ad94cf4a2469d314ab30445e4ac5ccc80c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f6ba8df61a2c375c9a938cbe5b0c1a30032c5d9d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923603"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755349"
 ---
 # <a name="managing-sales-opportunities"></a>Managing Sales Opportunities
 Any incoming lead can be considered a sales opportunity. You can create opportunities and associate them to a salesperson so that you can keep track of potential sales.
@@ -35,4 +35,4 @@ The following table describes a sequence of tasks, with links to the topics that
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a8a18e56af1edde2dfef116ca3545c7d511e6bf3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 96db04d8bc647b16b3d615132ce68e5f094bf273
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916733"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749175"
 ---
 # <a name="suggest-vendor-payments"></a>Suggest Vendor Payments
 On the **Payment Journal** page, you can use the **Suggest Vendor Payments** batch job to suggest payment lines. Lines for payments that are due soon or payments where a payment discount is available are suggested based on your settings.
@@ -34,13 +34,13 @@ To benefit fully from payment suggestions, you must first prioritise your vendor
     * Open vendor entries that qualify for payment discounts, arranged by vendor number.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>To use the Suggest Vendor Payments function
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2. Open the relevant journal, and then choose the **Suggest Vendor Payments** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Choose the **OK** button.  
 
 ## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>To insert the due date as posting date on payment journal lines
-When you use the **Suggest Vendor Payments** batch job to create payment lines for your vendors, you can fill two special fields to make sure that the generated lines use the due date to calculate the posting date. These fields are **Calculate Posting Date from Applies-to-Doc Due Date** and **Applies-to-Doc Due Date Offset** .  
+When you use the **Suggest Vendor Payments** batch job to create payment lines for your vendors, you can fill two special fields to make sure that the generated lines use the due date to calculate the posting date. These fields are **Calculate Posting Date from Applies-to-Doc Due Date** and **Applies-to-Doc Due Date Offset**.  
 
 > [!IMPORTANT]  
 >   You cannot use the **Calculate Posting Date from Applies-to-Doc Due Date** field together with the **Find Payment Discounts** field or the **Summarise per Vendor** field. If the posting date is based on the due date, some payment discounts may not calculate correctly because the posting date is after the payment discount date.  
@@ -56,4 +56,4 @@ Alternatively, you can manually create payment lines using the due date to calcu
 [Managing Payables](payables-manage-payables.md)  
 [Making Payments](payables-make-payments.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 57284dc738ba35c9865bd25f9c180827d4c59c94
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5f227cc73531111ae15f69d6fba5ac541e28560c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913378"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746873"
 ---
 # <a name="create-prepayment-invoices"></a>Create Prepayment Invoices
 
@@ -29,7 +29,7 @@ The following procedure describes how to invoice a prepayment for a sales order.
 
 ## <a name="to-create-a-prepayment-invoice"></a>To create a prepayment invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Create a new sales order for the relevant customer. For more information, see [Sell Products](sales-how-sell-products.md).  
 
     On the **Prepayment** FastTab, the **Prepayment %** field specifies the percentage to use to calculate the prepayment amount. If there is a default prepayment percentage on the customer card, the field is filled in automatically. You can change the percentage. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  
@@ -41,7 +41,7 @@ The following procedure describes how to invoice a prepayment for a sales order.
 
     If you want to specify a prepayment invoice with one line for each sales order line that has a prepayment percentage, then do not choose the **Compress Prepayment** field.  
 
-    The due date for the prepayment is calculated automatically based on the value of the **Prepmt. Payment Terms Code** .
+    The due date for the prepayment is calculated automatically based on the value of the **Prepmt. Payment Terms Code**.
 
 3. Fill in the sales lines.  
 
@@ -63,7 +63,7 @@ The following procedure describes how to invoice a prepayment for a sales order.
 You can issue additional prepayment invoices for the order. To do this, increase the prepayment amount on one or more lines, adjust the document date if necessary, and post the prepayment invoice. A new invoice will be created for the difference between the prepayment amounts invoiced so far and the new prepayment amount.  
 
 > [!NOTE]  
-> If you are located in North America, you cannot change the prepayment percentage after the prepayment invoice has been posted. This is prevented in the North American version of [!INCLUDE[d365fin](includes/d365fin_md.md)] because the calculation of sales tax will otherwise be incorrect.  
+> If you are located in North America, you cannot change the prepayment percentage after the prepayment invoice has been posted. This is prevented in the North American version of [!INCLUDE[prod_short](includes/prod_short.md)] because the calculation of sales tax will otherwise be incorrect.  
 
  When you are ready to post the rest of the invoice, post it as you would post any invoice, and the prepayment amount will automatically be deducted from the amount due.  
 
@@ -72,4 +72,4 @@ You can issue additional prepayment invoices for the order. To do this, increase
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 48a75bd1d5a47e6e91ed64868f15743713e40ec4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f1916724c995f875d15b931e919d07d2253dcdb1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926054"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748301"
 ---
 # <a name="set-up-shipment-methods"></a>Set Up Shipment Methods
 Shipment methods, also called incoterms, often depend on the items, the customers, and the vendors. For example, if the customer lives on an island, they can choose to have items always shipped by air or always by sea. Some customers may require next day delivery. Some may want to pick up the order. On the customer and vendor cards, you can specify what sort of delivery is desired.
@@ -23,7 +23,7 @@ Shipment methods, also called incoterms, often depend on the items, the customer
 You set up the description and code for each shipment method on the **Shipment Methods** page. For example, you can set up the code FOB, and enter Free on Board in the **Description** field. You can then enter the code in **Shipment Method Code** fields elsewhere in the system, such as on a customer card. Then when you create new orders, invoices, credit memos, and so on, the system will enter the description represented by the code. You can change it on the document as needed.
 
 ## <a name="to-set-up-a-shipment-code"></a>To set up a shipment code
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipment Methods** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipment Methods**, and then choose the related link.
 2. On the **Shipment Methods** page, choose the **New** action.
 3. On the new line, specify a code and description for the shipment method.
 
@@ -36,4 +36,4 @@ You set up the description and code for each shipment method on the **Shipment M
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

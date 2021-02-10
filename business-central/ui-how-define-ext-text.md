@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1dd6c3085c0cb8696b6e7011fbea3c3cd9a1c86e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9e443a44135bbdaf75f6a064370983592797b10b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920454"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756924"
 ---
 # <a name="add-extended-text"></a>Add Extended Text
 
@@ -26,7 +26,7 @@ The following section describes how to add extended text to a description of an 
 
 1. Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.
 2. Fill in the **Code** and **Description** fields.
-3. Choose the **New** .
+3. Choose the **New**.
 4. Fill in the **Language Code** field or select the **All Language Codes** check box if you use language codes.
 5. Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.
 6. In the **Text** field, write the extended text.
@@ -43,4 +43,4 @@ You can now add this extended text to documents. The following procedure explain
 ## <a name="see-also"></a>See Also
 
 [Setting Up Inventory](inventory-setup-inventory.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

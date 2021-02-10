@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e54c82e2d00c26f191506b8057a730d31fddc867
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ee6694f15a8717c44504dea274fa50de7a1e6e6f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925404"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756024"
 ---
 # <a name="set-up-bin-types"></a>Set Up Bin Types
 You can direct the flow of items through bins that you have defined for particular warehouse activities. You give each bin its basic flow activities, and thereby define the way the way a bin is used, by assigning it a bin type.  
@@ -23,7 +23,7 @@ You can direct the flow of items through bins that you have defined for particul
 There are six types. You can operate your warehouse with all of the six possible bin types, or you can choose to operate with just the RECEIVE, PUTPICK, SHIP and QC bin types. These four bin types enable suggestions to be made that support the flow of items and allow you to record inventory discrepancies.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>To set up the bin types you want to use  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Types** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Types**, and then choose the related link.  
 2.  On the **Bin Types** page, create a 10-character code for a bin type.  
 3.  Select the activities that can be performed with each bin type.  
 
@@ -49,4 +49,4 @@ The bin types that you can create are listed below.
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

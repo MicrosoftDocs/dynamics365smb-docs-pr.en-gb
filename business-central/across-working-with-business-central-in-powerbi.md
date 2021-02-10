@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 99628b761a3d5f79941a78c00a999a5b8131869e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d705a6e4a9187644876277f0a9f6836ecc14f282
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927229"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754124"
 ---
-# <a name="working-with-prodshort-data-in-power-bi"></a>Working with [!INCLUDE [prodshort](includes/prodshort.md)] Data in Power BI
+# <a name="working-with-prod_short-data-in-power-bi"></a>Working with [!INCLUDE [prod_short](includes/prod_short.md)] Data in Power BI
 
-In this article, you learn some of the basics about working with reports and dashboards in Power BI that use [!INCLUDE [prodshort](includes/prodshort.md)] as a data source. The article discusses some aspects that will help you get started as a [!INCLUDE[prodshort](includes/prodshort.md)] user. For general guidelines and instructions about using Power BI, see [Power BI documentation for consumers](https://review.docs.microsoft.com/en-us/power-bi/consumer).
+In this article, you learn some of the basics about working with reports and dashboards in Power BI that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that will help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. For general guidelines and instructions about using Power BI, see [Power BI documentation for consumers](https://review.docs.microsoft.com/en-us/power-bi/consumer).
 
 ## <a name="get-ready"></a>Get ready
 
@@ -29,23 +29,23 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 
 Once you have a Power BI account, you can sign in at [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/).
 
-The Power BI service hosts all the reports available to you. To see the report, select **My Workspace** > **Reports** . Then just select the report that you want to view.
+The Power BI service hosts all the reports available to you. To see the report, select **My Workspace** > **Reports**. Then just select the report that you want to view.
 
-With [!INCLUDE[prodshort](includes/prodshort.md)] online, you'll automatically have a set of default reports on your workspace. If you want to create your own reports, you can use Power BI Desktop to create reports, and then publish them to your workspace. For more information, see [Getting Started Building Reports in Power BI Desktop to Display [!INCLUDE [prodlong](includes/prodlong.md)] Data](across-how-use-financials-data-source-powerbi.md).
+With [!INCLUDE[prod_short](includes/prod_short.md)] online, you'll automatically have a set of default reports on your workspace. If you want to create your own reports, you can use Power BI Desktop to create reports, and then publish them to your workspace. For more information, see [Getting Started Building Reports in Power BI Desktop to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md).
 
-If you're using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you'll have to start from scratch by using Power BI Desktop. Optionally, Power BI reports can be distributed as files, that you can upload.
+If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you'll have to start from scratch by using Power BI Desktop. Optionally, Power BI reports can be distributed as files, that you can upload.
 
 ## <a name="get-the-latest-data"></a>Get the latest data
 
-Each Power BI report is based on a dataset that gets data from the [!INCLUDE[prodshort](includes/prodshort.md)] sources. You want to make sure that the data in your Power BI reports is up to date with the data in [!INCLUDE[prodshort](includes/prodshort.md)]. This concept is referred to as *refreshing* .  Depending on how your organisation has set up Power BI, refreshing might not happen automatically. There are two ways to refresh data: manually or by scheduling a refresh. Manual refreshing is done on-demand, as needed. Scheduled refreshing lets you refresh automatically at defined time intervals.
+Each Power BI report is based on a dataset that gets data from the [!INCLUDE[prod_short](includes/prod_short.md)] sources. You want to make sure that the data in your Power BI reports is up to date with the data in [!INCLUDE[prod_short](includes/prod_short.md)]. This concept is referred to as *refreshing*.  Depending on how your organisation has set up Power BI, refreshing might not happen automatically. There are two ways to refresh data: manually or by scheduling a refresh. Manual refreshing is done on-demand, as needed. Scheduled refreshing lets you refresh automatically at defined time intervals.
 
 ### <a name="refresh-manually"></a>Refresh manually
 
-In the navigation pane, under **Datasets** , select **More options (...)** next to the dataset, then select **Refresh now** .
+In the navigation pane, under **Datasets**, select **More options (...)** next to the dataset, then select **Refresh now**.
 
 ### <a name="schedule-a-refresh"></a>Schedule a refresh
 
-In the navigation pane, under Datasets, select More options (...) next to the dataset, then select **Schedule refresh** . Fill in the information under the **Schedule refresh** section, and select **Apply** .
+In the navigation pane, under Datasets, select More options (...) next to the dataset, then select **Schedule refresh**. Fill in the information under the **Schedule refresh** section, and select **Apply**.
 
 For more information, see [Configure scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh)
 
@@ -53,11 +53,11 @@ For more information, see [Configure scheduled refresh](/power-bi/connect-data/r
 
 Power BI Reports can be distributed among users as .pbix files. If you have a .pbix file, you can upload the file to a workspace. To upload a report, do the following steps:
 
-1. In your new workspace, select **Get Data** .
+1. In your new workspace, select **Get Data**.
 
-2. In the Files box, select **Get** .
+2. In the Files box, select **Get**.
 
-3. Select **Local File** , navigate to where you saved the file, and select **Open** .
+3. Select **Local File**, navigate to where you saved the file, and select **Open**.
 
 For more information, see [Upload the report to the service](/power-bi/paginated-reports/paginated-reports-quickstart-aw#upload-the-report-to-the-service).
 
@@ -65,13 +65,13 @@ For more information, see [Upload the report to the service](/power-bi/paginated
 > Uploading a report requires that you have a [Premium capacity](/power-bi/service-premium-what-is) work space. For more information, see [Managing Premium capacities](/power-bi/admin/service-premium-capacity-manage). 
 
 > [!TIP]
-> If you're using [!INCLUDE[prodshort](includes/prodshort.md)] online, you can also upload a report from within [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Working with Power BI Reports in [!INCLUDE [prodshort](includes/prodshort.md)] - Upload Reports](across-working-with-powerbi.md#upload).
+> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] online, you can also upload a report from within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Working with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)] - Upload Reports](across-working-with-powerbi.md#upload).
 
 ## <a name="share-reports-with-others"></a><a name="share"></a>Share reports with others
 
 Once a report is in your workspace, you can share it with others in your organisation.
 
-To share a report, in a list reports, or in an open report, select **Share** . In the **Share report** pane, enter the full email addresses for individuals or distribution groups you want to share with. Follow the instructions on screen to complete the sharing. For more information, see [Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+To share a report, in a list reports, or in an open report, select **Share**. In the **Share report** pane, enter the full email addresses for individuals or distribution groups you want to share with. Follow the instructions on screen to complete the sharing. For more information, see [Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
 > [!NOTE]
 > You must have  [Power BI Pro licence](/power-bi/service-features-license-type), and the people you share with do too. The content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
@@ -81,9 +81,9 @@ To share a report, in a list reports, or in an open report, select **Share** . I
 ## <a name="see-also"></a>See Also
 
 [Business Central and Power BI](admin-powerbi.md)  
-[Building Power BI Reports to Display [!INCLUDE [prodlong](includes/prodlong.md)] Data](across-how-use-financials-data-source-powerbi.md)  
-[Power BI Integration Component and Architecture Overview for [!INCLUDE[prodshort](includes/prodshort.md)]](admin-powerbi-overview.md)  
-[Working with Power BI Reports in [!INCLUDE [prodshort](includes/prodshort.md)]](across-working-with-powerbi.md)  
+[Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md)  
+[Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
+[Working with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md)  
 [Power BI for consumers](/power-bi/consumer/end-user-consumer)  
 [The 'new look' of the Power BI service](/power-bi/service-new-look)  
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
@@ -91,9 +91,9 @@ To share a report, in a list reports, or in an open report, select **Share** . I
 [Business Intelligence](bi.md)  
 [Getting Started](product-get-started.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
-[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
+[Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
+[Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
+[Using [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

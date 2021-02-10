@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8ffb5b8b90d0fdd4f3e1bd90271db8568c05d41e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915771"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753974"
 ---
 # <a name="create-journal-opening-balances"></a>Create Journal Opening Balances
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data with the customer journal, the vendor journal, the item journal, or the G/L journal.
+[!INCLUDE[prod_short](includes/prod_short.md)] includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data with the customer journal, the vendor journal, the item journal, or the G/L journal.
 
 The first step is to create a configuration package that includes the setup tables for those journals. The following procedure assumes that this step is completed. For more information, see [Set Up Company Configuration](admin-set-up-company-configuration.md). This procedure describes the subsequent steps, which include applying the package that is provided by a partner.  
 
@@ -44,7 +44,7 @@ Before you start, make sure that you are using the Administration Role Centre pa
 10. Repeat the steps to import and post any other opening balances.  
 
 > [!TIP]
-> You can use the same batch jobs to add opening balances whenever you register a new customer or vendor that you have done business with before but not registered in [!INCLUDE [prodshort](includes/prodshort.md)]. Just search for the relevant task, and then choose the relevant link.
+> You can use the same batch jobs to add opening balances whenever you register a new customer or vendor that you have done business with before but not registered in [!INCLUDE [prod_short](includes/prod_short.md)]. Just search for the relevant task, and then choose the relevant link.
 
 ## <a name="see-also"></a>See Also
 

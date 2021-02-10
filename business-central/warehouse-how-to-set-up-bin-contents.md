@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cd37ecbadda34238d9fb7e74ef26f1bb218073a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc805db942ce9ebf178b49468129a83bb20a325e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923152"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756049"
 ---
 # <a name="create-bin-contents"></a>Create Bin Contents
 
@@ -23,17 +23,17 @@ After you have set up your bins, you can set up the bin contents. In other words
 
 ## <a name="to-create-bin-content-manually"></a>To create bin content manually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2. Select the location where you want to set up bin contents,  and then choose the **Bins** action.  
 3. Select the bin where you want to set up contents, and then choose the **Contents** action.  
 4. For each item that you want to store in the bin, fill in a line on the **Bin Contents** page with the appropriate information. Some of the fields are filled in already with information about the bin.  
-5. First fill in the **Item No.** field, and then, if you are using directed put-away and pick, fill in the other fields such as the **Unit of Measure Code** , **Max. Qty.** , and **Min. Qty.** fields.  
+5. First fill in the **Item No.** field, and then, if you are using directed put-away and pick, fill in the other fields such as the **Unit of Measure Code**, **Max. Qty.**, and **Min. Qty.** fields.  
 
 Select the **Fixed** field if necessary. If the bin is to be used as the default bin for the item, select the **Default Bin** field.  
 
 If you are using directed put-away and pick, and if you have entered the correct dimensional information on the item card about each item's units of measure, the maximum quantity that you enter on the **Bin Contents** page is verified against the physical capabilities of the bin. The minimum and maximum quantities are used when calculating bin replenishment and suggested put-aways.  
 
-If you select the **Fixed** field, you are fixing the item to the bin, meaning that [!INCLUDE[d365fin](includes/d365fin_md.md)] will try to put this item in the bin if there is space for it, and it will preserve the record fixing the item to the bin even when the quantity in the bin is 0. Other items can be put into the bin, even though a particular item has been fixed to the bin.  
+If you select the **Fixed** field, you are fixing the item to the bin, meaning that [!INCLUDE[prod_short](includes/prod_short.md)] will try to put this item in the bin if there is space for it, and it will preserve the record fixing the item to the bin even when the quantity in the bin is 0. Other items can be put into the bin, even though a particular item has been fixed to the bin.  
 
 > [!NOTE]  
 > You can set up several bin contents at the same time on the **Bin Content Creation Worksheet** page.  
@@ -42,11 +42,11 @@ If you select the **Fixed** field, you are fixing the item to the bin, meaning t
 
 When you have created your bins, you can create the bin content that you want for each bin in the bin content creation worksheet.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Content Creation Worksheet** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Content Creation Worksheet**, and then choose the related link.  
 2. On the worksheet header, in the **Name** field, select the worksheet of the location where you want to create bin contents.  
 3. In the **Bin Code** field, select the code of the bin for which you want to define bin content.  
 
-    If you are using directed put-away and pick in this location, the fields relating to that particular bin, such as **Bin Type** , **Warehouse Class Code** , and **Bin Ranking** , will be filled in automatically. This is information that you need to consider as you define the bin content.  
+    If you are using directed put-away and pick in this location, the fields relating to that particular bin, such as **Bin Type**, **Warehouse Class Code**, and **Bin Ranking**, will be filled in automatically. This is information that you need to consider as you define the bin content.  
 4. Select the item that you want to assign to the bin, and fill in the fields related to the bin content. If you are using directed put-away and pick, and you want to use the **Calculate Bin Replenishment** function, fill in the **Max. Qty.** and **Min. Qty.** fields.  
 
     To set this bin as the preferred bin for the item even if the bin quantity is **0** and all other put-away criteria equal, select the **Fixed** field.  
@@ -65,4 +65,4 @@ In this worksheet, you can work with a number of bin content lines for a number 
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Design Details: Warehouse Setup](design-details-warehouse-setup.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

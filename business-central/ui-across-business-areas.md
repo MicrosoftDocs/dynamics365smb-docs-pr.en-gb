@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2382fa440c67881411fe67e596a62aaf5d431426
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f73178cc55840ffa1756c45a83f01f1bdf8bc359
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912753"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747701"
 ---
 # <a name="general-business-functionality"></a>General Business Functionality
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides dedicated functionality for typical business areas, such as finance and sales. For more information, see [Business Functionality](across-business-functionality.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] provides dedicated functionality for typical business areas, such as finance and sales. For more information, see [Business Functionality](across-business-functionality.md).
 
 To support those business area-specific tasks, you can use a variety of general business functionality, such as defining extended text for document lines and organising connecting business tasks in workflows.
 
@@ -50,7 +50,7 @@ The following table lists these general business areas with links to topics that
 | Set up data exchange definitions so you can send and receive electronic documents. |[Exchanging Data Electronically](across-data-exchange.md) |
 
 ## <a name="see-also"></a>See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administration](admin-setup-and-administration.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

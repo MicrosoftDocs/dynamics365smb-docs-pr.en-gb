@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5a062f9a18b6c0e965a06a7d4b18ff1e983f05db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f2c6c8a8515192640625fff5cda58f62d19d4d37
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916050"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756949"
 ---
 # <a name="change-the-current-report-layout"></a>Change the Current Report Layout
 A report can be set up with more than one report layout, which you can then switch among as needed.
@@ -30,13 +30,13 @@ When custom report layouts are defined, you can select them from customer and ve
 > Document reports (not lists) that use a Word report layout are typically faster than those that use an RDLC report layout. So if you have the option to choose between a Word or RDLC report layout for a document report, use the Word report layout for the best performance.
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>To change which report layout to use for a report or document
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
    The **Report Layout Selection** page lists all the reports that are available for the company that is specified in the **Company** field at the top of the page. The **Selected Layout** field specifies the layout that is currently used on the report.
 2. Set the **Company** field at the top of the page to the company that includes the report.
 3. To change the layout that is used by a report, on the row for the report, set the **Selected Layout** field to one of the following options:
-   * **RDLC (built-in)** , uses the built-in RDLC report layout on the report.
-   * **Word (built-in)** , uses the built-in Word report layout on the report.
-   * **Custom** , uses a custom layout on the report.  
+   * **RDLC (built-in)**, uses the built-in RDLC report layout on the report.
+   * **Word (built-in)**, uses the built-in Word report layout on the report.
+   * **Custom**, uses a custom layout on the report.  
 
 > [!NOTE]
 > If you choose a report layout of type **RDLC (built-in)** or **Word (built-in)** and you get an error message that the report does not have a layout of the specified type, then you must choose another layout option or create a custom report layout of the type that you want to use. See the next procedure.
@@ -59,4 +59,4 @@ You can now go to your customer and vendor cards to specify which of the layouts
 
 ## <a name="see-also"></a>See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

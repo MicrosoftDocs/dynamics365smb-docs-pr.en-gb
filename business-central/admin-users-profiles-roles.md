@@ -7,16 +7,16 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 16be03cec9799817646bcc04f842b2f5d3519caa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca0ca5f756d0d7423c92ca25034038fa1fb05727
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922299"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745996"
 ---
 # <a name="manage-profiles"></a>Manage Profiles
 
-All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a profile that reflects their business role, the department they work in, or another categorisation. Profiles allow administrators to define and manage centrally what different user types can see and do in the user interface so they can perform their business tasks efficiently.
+All users of [!INCLUDE[prod_short](includes/prod_short.md)] are assigned a profile that reflects their business role, the department they work in, or another categorisation. Profiles allow administrators to define and manage centrally what different user types can see and do in the user interface so they can perform their business tasks efficiently.
 
 > [!NOTE]
 > The typical business use of a profile is a role. A profile is therefore named *Profile (Role)* in the UI.
@@ -31,7 +31,7 @@ You can customise page layouts for a profile so that all users assigned the prof
 ## <a name="to-create-a-profile"></a>To create a profile
 If you cannot copy an existing profile, you can create a new one manually.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)** , and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)**, and then choose the related link.  
 2. On the **Profiles (Roles)** page, choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -66,7 +66,7 @@ On the **My Settings** page, users can define basic behaviour of their account, 
 
 As an administrator, you can define these setting for a profile and thereby apply the settings to all users of the related role.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
 2. Select the line for the profile that you want to change user settings for, then choose the **User Personalisations List** action.
 3. On the **User Personalisations** page, open the card for the user whose settings you want to change.
 4. On the **User Personalisation Card** page, edit the fields as necessary.
@@ -81,14 +81,14 @@ When a profile is created, you can select different check boxes that define if, 
     - **Show in Role Explorer** to specify if actions to business features included in the profile are shown in the extended view of the role explorer, a feature overview. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>To export profiles
-You can export profiles from [!INCLUDE[d365fin](includes/d365fin_md.md)], for example to reuse them in another tenant. The profiles are exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customisations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+You can export profiles from [!INCLUDE[prod_short](includes/prod_short.md)], for example to reuse them in another tenant. The profiles are exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customisations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * On the **Profiles (Roles)** page, choose the **Export Profiles** action.
 
 A zip file with the .al files for all profiles is exported.
 
 ## <a name="to-import-profiles"></a>To import profiles
-You can import profiles that have been exported from [!INCLUDE[d365fin](includes/d365fin_md.md)]. The steps are more or less the opposite of the steps to export profiles. For more information, see [To export profiles](admin-users-profiles-roles.md#to-export-profiles).
+You can import profiles that have been exported from [!INCLUDE[prod_short](includes/prod_short.md)]. The steps are more or less the opposite of the steps to export profiles. For more information, see [To export profiles](admin-users-profiles-roles.md#to-export-profiles).
 
 1. On the **Profiles (Roles)** page, choose the **Import Profiles** action.
 2. Follow the steps on the **Import Profiles** wizard.
@@ -108,7 +108,7 @@ You can delete a profile by choosing the **Delete** action on the **Profiles (Ro
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>To delete all personalisations made by a user
 You can delete all changes that a user has made to pages that make up their workspace. This may be useful, for example, if an employee has changed role and no longer needs the personalisations. Deleting users' personalisations changes the page layout back to what is defined by the profile.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalisations** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalisations**, and then choose the related link.
 
     The **User Personalisations** page lists all users who have made personalisations.
 
@@ -122,12 +122,12 @@ You can also delete all page customisations for a profile. For more information,
 ## <a name="to-delete-personalizations-for-specific-pages"></a>To delete personalisations for specific pages
 You can delete personalisations that one or more users have made to specific pages that make up their workspace. This may be useful, for example, if a changed business process means that a personalisation must no longer be used by users. Deleting users' personalisations changes the page layout back to what is defined by the profile.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Page Personalisations** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Page Personalisations**, and then choose the related link.
 
     The **User Page Personalisations** page lists all the pages that have been personalised and the user that they belong to.
 
     > [!Note]
-    > A check mark in the **Legacy Personalisation** field indicates that the personalisation was done in an older version of [!INCLUDE[d365fin](includes/d365fin_md.md)], which handled personalisation differently. Users who try to personalise these pages are locked from doing so unless they choose to unlock the page. For more information, see [Why a Page is Locked from Personalising](ui-personalization-locked.md).
+    > A check mark in the **Legacy Personalisation** field indicates that the personalisation was done in an older version of [!INCLUDE[prod_short](includes/prod_short.md)], which handled personalisation differently. Users who try to personalise these pages are locked from doing so unless they choose to unlock the page. For more information, see [Why a Page is Locked from Personalising](ui-personalization-locked.md).
 
 2. Select the line for the page personalisation that you want to delete, and then choose the **Delete** action.
 
@@ -137,9 +137,9 @@ You can also delete individual page customisations for a profile. For more infor
 
 ## <a name="managing-user-sessions"></a>Managing user sessions
 
-As the administrator of [!INCLUDE[prodshort](includes/prodshort.md)] online, you can manage user sessions in the administration centre. For more information, see [Managing Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) in the administration content.  
+As the administrator of [!INCLUDE[prod_short](includes/prod_short.md)] online, you can manage user sessions in the administration centre. For more information, see [Managing Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) in the administration content.  
 
-For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. For more information, see [SQL Server technical documentation](/sql/sql-server).  
+For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. For more information, see [SQL Server technical documentation](/sql/sql-server).  
 
 ## <a name="see-also"></a>See Also  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  

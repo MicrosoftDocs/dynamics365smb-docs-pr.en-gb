@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a07e490b51d882e3699e0c37f23aadda8a38ca8a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d221e0960eb49ba018ae34f73f2360a502465d61
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914692"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755599"
 ---
 # <a name="close-income-statement-accounts"></a>Close Income Statement Accounts
 When a fiscal year is over, you must close the periods that comprise it. To do this, you run the **Close Income Statement** batch job. This job transfers the year's result to an account in the balance sheet and closes the income statement accounts. You do this by creating lines in a journal, which you then can post.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>To run the Close Income Statement batch job
 1. Close the fiscal year. The fiscal year must closed before the batch job can be run. For more information, see [Close Accounting Periods](year-close-account-periods.md).
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Close Income Statement** , and then choose the related link.
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Close Income Statement**, and then choose the related link.
 3. Choose the **OK** button to run the batch job.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>About the Close Income Statement Batch Job
@@ -39,4 +39,4 @@ The **Close Income Statement** batch job can be used several times. You can post
 [Closing Books](year-close-books.md)  
 [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
 [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

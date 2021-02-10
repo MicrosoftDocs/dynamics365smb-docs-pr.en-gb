@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84232aadd133527d06ff0bf2b65490d5dfe8d651
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 93ff6228855c2dccd3d032523c3f0bd38a54a6d2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917708"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755274"
 ---
 # <a name="create-blanket-assembly-orders"></a>Create Blanket Assembly Orders
 You can use assembly management to customise an assembly item to a customer’s request during the sales process. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +26,7 @@ You can use assembly management to customise an assembly item to a customer’s 
 >  Like all blanket orders, quantities on assembly blanket orders are only forecasts and are not operational until they are converted to actual assembly orders. Therefore, order functionality, such as availability calculation, reservation, and item tracking, is not active on blanket assembly orders.  
 
 ## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>To create a blanket assembly order for an assemble\-to\-order item  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
 2. Create a new blanket sales order with one line for an assembly item. For more information, see [Create Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md).  
 3. In the **Qty. to Assemble to Order** field on the blanket assembly order line, enter the full quantity.
 
@@ -46,4 +46,4 @@ The linked blanket assembly order and any customizations are linked to that new 
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

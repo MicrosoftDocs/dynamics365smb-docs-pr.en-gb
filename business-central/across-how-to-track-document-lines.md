@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 056cb7d0aec55ae939c09adb47477343908c2e6c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 169e1947cb3e2ca962dc0937c5901c8c92ca936a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924985"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754649"
 ---
 # <a name="track-document-lines"></a>Track Document Lines
 You can view documents that are related to sales order lines and purchase order lines, including from archived order lines. Related documents that you can track include quotes, shipments, receipts, and blanket orders. This helps you to identify documents used to process orders.  
@@ -23,7 +23,7 @@ You can view documents that are related to sales order lines and purchase order 
 ## <a name="to-track-documents-related-to-a-sales-order-line"></a>To track documents related to a sales order line
 The following procedure describes how to track from a sales order line. The steps are similar for purchase order and blanket order lines.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Open a sales order that you want to track from.  
 3.  Select a line, and then choose the **Document Line Tracking** action.
 4. On the **Document Lines Tracking** page, select the document that you want to view, and then choose the **Show** action to see the related line.
@@ -34,4 +34,4 @@ The following procedure describes how to track from a sales order line. The step
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

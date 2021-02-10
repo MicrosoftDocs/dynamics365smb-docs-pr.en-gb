@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: a08845f3465e24036abcb82ea6d2917deda24663
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 25b3c8a795c1a3f9d08ae0971da88b78e4d29b25
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911312"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752582"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Manage user settings and preferences
 
-As an administrator, you can user settings in [!INCLUDE[d365fin](includes/d365fin_md.md)], similar to how individual users can manage their own preferences in the **My Settings** page.  
+As an administrator, you can user settings in [!INCLUDE[prod_short](includes/prod_short.md)], similar to how individual users can manage their own preferences in the **My Settings** page.  
 
 ## <a name="types-of-user-settings"></a>Types of user settings
 
-*User settings* is not the same as *user setup* , which is about the user as an entity and the user's access in the system. Furthermore, user settings has nothing to do with a user's personalisation, such as lightweight changes to the user interface. User settings determine the user's preferences in various aspects of the way the application presents itself to the user. The following paragraph lists the five types of user settings and preferences that can be set by the individual or centrally by the administrator:
+*User settings* is not the same as *user setup*, which is about the user as an entity and the user's access in the system. Furthermore, user settings has nothing to do with a user's personalisation, such as lightweight changes to the user interface. User settings determine the user's preferences in various aspects of the way the application presents itself to the user. The following paragraph lists the five types of user settings and preferences that can be set by the individual or centrally by the administrator:
 
 - **Company**  
 
@@ -31,27 +31,27 @@ As an administrator, you can user settings in [!INCLUDE[d365fin](includes/d365fi
 
 - **Profile (Roles)**  
 
-  The profile describes the user's function in the company, such as *Sales Manager* , *Bookkeeper* , or *Purchasing Agent* . The profile then determines the user's role centre, the home page that users will see when they sign in. The profile does not impact access rights to functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+  The profile describes the user's function in the company, such as *Sales Manager*, *Bookkeeper*, or *Purchasing Agent*. The profile then determines the user's role centre, the home page that users will see when they sign in. The profile does not impact access rights to functionality in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 - **Locale ID (Regional settings)**  
 
-  Defines how dates and numbers are presented in the [!INCLUDE[d365fin](includes/d365fin_md.md)] client, such as whether to use European or American date formats, or how to display the decimal sign and thousand separators in amounts. If [!INCLUDE[d365fin](includes/d365fin_md.md)] users are synchronised from Microsoft 365, the regional settings from Microsoft 365 are used, assuming that the user wants to use the same settings in Office products and [!INCLUDE[d365fin](includes/d365fin_md.md)]. An administrator or user can change these settings manually in [!INCLUDE[d365fin](includes/d365fin_md.md)] but they will be reset to the value from Microsoft 365 once the next synchronisation is performed.
+  Defines how dates and numbers are presented in the [!INCLUDE[prod_short](includes/prod_short.md)] client, such as whether to use European or American date formats, or how to display the decimal sign and thousand separators in amounts. If [!INCLUDE[prod_short](includes/prod_short.md)] users are synchronised from Microsoft 365, the regional settings from Microsoft 365 are used, assuming that the user wants to use the same settings in Office products and [!INCLUDE[prod_short](includes/prod_short.md)]. An administrator or user can change these settings manually in [!INCLUDE[prod_short](includes/prod_short.md)] but they will be reset to the value from Microsoft 365 once the next synchronisation is performed.
 
 - **Language**  
 
-  Defines the application language that [!INCLUDE[d365fin](includes/d365fin_md.md)] presents text, captions, and error messages in. If [!INCLUDE[d365fin](includes/d365fin_md.md)] users are synchronised from Microsoft 365, the language settings from Microsoft 365 are used, assuming that the user wants to use the same settings in Office products and [!INCLUDE[d365fin](includes/d365fin_md.md)]. An administrator or user can change these settings manually in [!INCLUDE[d365fin](includes/d365fin_md.md)] but they will be reset to the value from Microsoft 365 once the next synchronisation is performed.
+  Defines the application language that [!INCLUDE[prod_short](includes/prod_short.md)] presents text, captions, and error messages in. If [!INCLUDE[prod_short](includes/prod_short.md)] users are synchronised from Microsoft 365, the language settings from Microsoft 365 are used, assuming that the user wants to use the same settings in Office products and [!INCLUDE[prod_short](includes/prod_short.md)]. An administrator or user can change these settings manually in [!INCLUDE[prod_short](includes/prod_short.md)] but they will be reset to the value from Microsoft 365 once the next synchronisation is performed.
 
-  If the language setting from Microsoft 365 matches a supported language in [!INCLUDE[d365fin](includes/d365fin_md.md)], this language will be chosen for the user.  
+  If the language setting from Microsoft 365 matches a supported language in [!INCLUDE[prod_short](includes/prod_short.md)], this language will be chosen for the user.  
 
   > [!NOTE]
-  > You may have to install a language app for [!INCLUDE[d365fin](includes/d365fin_md.md)] to properly display the language. Therefore, it is a good practice to install the necessary language apps before any user logs in the first time so that they have a good experience from their first day. For more information, see the list of [supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+  > You may have to install a language app for [!INCLUDE[prod_short](includes/prod_short.md)] to properly display the language. Therefore, it is a good practice to install the necessary language apps before any user logs in the first time so that they have a good experience from their first day. For more information, see the list of [supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
   
 - **Time zone**  
 
   Defines the time zone in which the user is located. Currently this is not synchronised from Microsoft 365 and must be set manually.  
 
 > [!NOTE]
-> If a Microsoft 365 user synchronisation is made while users are logged into [!INCLUDE[d365fin](includes/d365fin_md.md)], these users must refresh the browser or log out and back in to [!INCLUDE[d365fin](includes/d365fin_md.md)] to see a potential different language set by the synchronisation action.
+> If a Microsoft 365 user synchronisation is made while users are logged into [!INCLUDE[prod_short](includes/prod_short.md)], these users must refresh the browser or log out and back in to [!INCLUDE[prod_short](includes/prod_short.md)] to see a potential different language set by the synchronisation action.
 
 ## <a name="overview-of-all-user-settings"></a>Overview of all user settings
 
@@ -62,8 +62,8 @@ Administrators have the option to set or change these settings for users in each
 
 ## <a name="to-review-or-make-changes-to-user-settings"></a>To review or make changes to user settings
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Personalisations** , and then choose the related link.
-2. This shows the list of users and their settings. To modify a user's settings, click the **User ID** or choose **Manage** and then **Edit** .
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Personalisations**, and then choose the related link.
+2. This shows the list of users and their settings. To modify a user's settings, click the **User ID** or choose **Manage** and then **Edit**.
 3. The **User Personlization** card for the specific user's settings is shown and desired changes can be made.  
 
 ## <a name="see-also"></a>See Also

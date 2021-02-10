@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c8cd73e1dd47549cab57e9fd44fe52232437175
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b2f31804dace5371da17a4c6e1eeaaac24815c6f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925304"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755935"
 ---
 # <a name="set-up-put-away-templates"></a>Set Up Put-away Templates
 
@@ -25,7 +25,7 @@ You can set up a number of put-away templates and select one of them to govern p
 
 ## <a name="to-set-up-put-away-templates"></a>To set up put-away templates
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Templates** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Templates**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Enter a code that is the unique identifier of the template you are about to create.  
 4. Enter a short description, if you wish.  
@@ -45,4 +45,4 @@ You can create various put-away templates and then apply them as you see fit. Th
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

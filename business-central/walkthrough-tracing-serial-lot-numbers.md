@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 90327ababa08d28baadcec26353f67c8736c62ee
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925454"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756374"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Walkthrough: Tracing Serial/Lot Numbers
 
@@ -50,7 +50,7 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 
 To complete this walkthrough, you will need:  
 
-- The [!INCLUDE[d365fin](includes/d365fin_md.md)] company.  
+- The [!INCLUDE[prod_short](includes/prod_short.md)] company.  
 - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data)..  
 
 ## <a name="story"></a>Story
@@ -77,9 +77,9 @@ Then you must create various purchase, production, and sales transactions with t
 
 ### <a name="to-create-the-items"></a>To create the items  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Choose the **New** action.  
-3. In the **No.** field, enter **2000** , and then proceed to fill in the following fields.  
+3. In the **No.** field, enter **2000**, and then proceed to fill in the following fields.  
 
     |Description|Base Unit of Measure|Gen. Prod. Posting Group|VAT Prod. Posting Group|Inventory Posting Group|Item Tracking Code|  
     |-----------|--------------------|------------------------|-----------------------|--------------------|------------------|  
@@ -90,8 +90,8 @@ Then you must create various purchase, production, and sales transactions with t
 
 4. All other fields have acceptable default data or do not have to be filled in.  
 5. Choose the **OK** button to create the first new item card, 2000.  
-6. Choose **New** .  
-7. In the **No.** field, enter **1002** , and then proceed to fill in the following fields.  
+6. Choose **New**.  
+7. In the **No.** field, enter **1002**, and then proceed to fill in the following fields.  
 
     |Description|Base Unit of Measure|Gen. Prod. Posting Group|VAT Prod. Posting Group|Inventory Posting Group|Replenishment System|Item Tracking Code|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
@@ -102,19 +102,19 @@ Then you must create various purchase, production, and sales transactions with t
 
     Next, define the item's manufacturing setup.
 
-8. On the **Replenishment** FastTab, in the **Routing No.** field, enter **1000** .  
-9. Choose the **Production BOM No.** field, and then choose **Advanced** .  
-10. On the **Production BOM List** page, choose the first line, **1000** , and then choose the **Edit** action.  
-11. On the **Production BOM** page, change the value in the **Status** field to **Under Development** .  
+8. On the **Replenishment** FastTab, in the **Routing No.** field, enter **1000**.  
+9. Choose the **Production BOM No.** field, and then choose **Advanced**.  
+10. On the **Production BOM List** page, choose the first line, **1000**, and then choose the **Edit** action.  
+11. On the **Production BOM** page, change the value in the **Status** field to **Under Development**.  
 12. Go to an empty line, enter **2000** in the **No.** field, and then enter **1** in the **Quantity Per** field.  
-13. Change the value in the **Status** field back to **Certified** .  
+13. Change the value in the **Status** field back to **Certified**.  
 14. Choose the **OK** button to insert the production BOM on the item card and close the **Production BOM** page.  
 
     Next, purchase racing frames from Custom Metals Incorporated.  
 
 ### <a name="to-purchase-components"></a>To purchase components
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Create a purchase order for vendor, Custom Metals Incorporated, by filling in the following line fields.  
 
@@ -128,7 +128,7 @@ Then you must create various purchase, production, and sales transactions with t
 7. Choose the **Post** action, select the **Receive and Invoice** option, and then choose the **OK** button.  
 
     Next, purchase racing frames from Coolwood Technologies.  
-8. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** , and then choose the related link.  
+8. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 9. Choose the **New** action.
 10. Create a purchase order for vendor, Coolwood Technologies, by filling in the following line fields.  
 
@@ -145,7 +145,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 ### <a name="to-produce-end-items"></a>To produce end items
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Prod. Orders** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Prod. Orders**, and then choose the related link.  
 2. Choose the **New** group.  
 3. Create a new released production order by filling in the following fields.  
 
@@ -161,12 +161,12 @@ Then you must create various purchase, production, and sales transactions with t
     Next, post consumption of racing frames from LOT1.  
 7. On the **Released Production Order** page, choose the **Production Journal** action.  
 8. On the **Production Journal** page, select the consumption line for item 2000, choose the **Item Tracking Lines** action.
-9. On the **Item Tracking Lines** page, choose the **Lot No.** field, choose **LOT1** , and then choose the **OK** button.  
+9. On the **Item Tracking Lines** page, choose the **Lot No.** field, choose **LOT1**, and then choose the **OK** button.  
 10. Leave all other defaults on the **Production Journal** page, and then choose the **Post** action.  
 
     Next, produce two more racing bikes, SN3 and SN4.  
 
-11. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Prod. Orders** , and then choose the related link.  
+11. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Prod. Orders**, and then choose the related link.  
 12. Choose the **New** action.  
 13. Create a new released production order by filling in the following fields on the header.  
 
@@ -181,7 +181,7 @@ Then you must create various purchase, production, and sales transactions with t
     Next, post more consumption of racing frames from LOT1.  
 16. On the **Released Production Order** page, choose the **Production Journal** action.  
 17. On the **Production Journal** page, select the consumption line for item 2000, choose the **Item Tracking Lines** action.
-18. On the **Item Tracking Lines** page, choose the **Lot No.** field, choose **LOT1** , and then choose the **OK** button.  
+18. On the **Item Tracking Lines** page, choose the **Lot No.** field, choose **LOT1**, and then choose the **OK** button.  
 19. Leave all other defaults on the **Production Journal** page, and then choose the **Post** action.  
 
     You have produced four racing bikes, SN1 to SN4, and consumed four of the ten racing frames from LOT1, two frames in each production order.  
@@ -191,7 +191,7 @@ Then you must create various purchase, production, and sales transactions with t
     Next, sell racing bikes. First sell the racing bike with SN1 to Selangorian Ltd..  
 
 ### <a name="to-sell-the-end-items"></a>To sell the end items  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Choose the **New** action, and then, create a sales order by filling in the following fields.  
 
     |Customer|Item|Qty.|Serial No.|  
@@ -203,7 +203,7 @@ Then you must create various purchase, production, and sales transactions with t
 
     Next, sell the racing bike with SN2 to The Cannon Group PLC.  
 
-5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 6.  Choose the **New** action, and then, create a sales order by filling in the following fields.  
 
     |Customer|Item|Qty.|Serial No.|  
@@ -215,7 +215,7 @@ Then you must create various purchase, production, and sales transactions with t
 
     Finally, sell some racing frames separately. The Cannon Group PLC. also orders four separate racing frames for their own assembly line.  
 
-9. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
+9. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 10. Choose the **New** action, and then, create a sales order by filling in the following fields.  
 
     |Customer|Item|Qty.|Serial No.|  
@@ -233,9 +233,9 @@ Then you must create various purchase, production, and sales transactions with t
  From the sales department, the quality controller knows that the returned racing bike, item 1002, has the serial number SN1. By using this basic information, he can determine where the finished racing bike was last used, in this case, on the sales shipment to Selangorian Ltd.. Then, the quality controller must trace backward to the earliest origin to establish which lot number the faulty racing frame came from and which vendor supplied it.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>To determine which lot included the faulty frame and who supplied it  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing**, and then choose the related link.  
 2.  On the **Item Tracing** page, enter **SN1** in the **Serial No. Filter** field, and then enter **1002** in the **Item Filter** field.  
-3.  Keep the default setting of **Item-Tracked Only** in the **Show Components** field, and keep the default trace method of **Usage – Origin** in the **Trace Method** .  
+3.  Keep the default setting of **Item-Tracked Only** in the **Show Components** field, and keep the default trace method of **Usage – Origin** in the **Trace Method**.  
 4.  Choose the **Trace** action.  
 
     Note that one sales shipment header matches the search criteria. Before you continue the trace, verify that the shipment is the one that shipped the faulty racing bike to Selangorian Ltd.  
@@ -265,9 +265,9 @@ Then you must create various purchase, production, and sales transactions with t
 
 ### <a name="to-find-all-usage-of-the-faulty-lot"></a>To find all usage of the faulty lot  
 
-1.  On the **Item Tracing** page, select the line of the purchase receipt, the last trace line, and then choose **Trace Opposite – from Line** .  
+1.  On the **Item Tracing** page, select the line of the purchase receipt, the last trace line, and then choose **Trace Opposite – from Line**.  
 
-    The trace result is now based on the filters of the trace line for the purchase receipt, LOT1 and item 2000, and the result is based on trace method **Origin - Usage** .  
+    The trace result is now based on the filters of the trace line for the purchase receipt, LOT1 and item 2000, and the result is based on trace method **Origin - Usage**.  
 
     To obtain an overview of all usage of item 2000 with LOT1, continue to expand all trace lines.  
 

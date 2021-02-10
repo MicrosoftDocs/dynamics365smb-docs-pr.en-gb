@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: affea21b7f6c6d59c609321d7bd3ceebfc6bedd1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ea9974a8fb63d4e119cdc8b78930fd94777e6a38
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920854"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749575"
 ---
 # <a name="design-details-warehouse-management"></a>Design Details: Warehouse Management
-This documentation gives an overview of the concepts and principles that are used in the Warehouse Management features in [!INCLUDE[d365fin](includes/d365fin_md.md)]. It explains the design behind central warehouse features and how warehousing integrates with other supply chain features.  
+This documentation gives an overview of the concepts and principles that are used in the Warehouse Management features in [!INCLUDE[prod_short](includes/prod_short.md)]. It explains the design behind central warehouse features and how warehousing integrates with other supply chain features.  
 
 To differentiate the different complexity levels of the warehousing, this documentation is divided into two general groups, Basic and Advanced warehouse configurations, indicated by section titles. This simple differentiation covers different complexity levels as defined by product granules and location setup. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
 

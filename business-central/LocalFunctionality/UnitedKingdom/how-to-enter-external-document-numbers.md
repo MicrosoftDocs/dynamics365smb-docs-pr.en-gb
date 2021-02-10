@@ -10,25 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c9df7b233de4f4cb80f7bcfc5e8a9c06e032de69
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 46889fc776a88a1b03262a064ae8396418ff2d09
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923944"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753137"
 ---
 # <a name="enter-external-document-numbers"></a>Enter External Document Numbers
 
 You can enter external document numbers for customers and vendors in all sales and purchase orders, invoices, and credit memos. You can use these numbers to search for posted sales and purchase lines later.  
 
 > [!NOTE]
-> Specify the document number that your customer or vendor has specified. [!INCLUDE [prodshort](../../includes/prodshort.md)] does not check if these external document numbers are unique or duplicates.
+> Specify the document number that your customer or vendor has specified. [!INCLUDE [prod_short](../../includes/prod_short.md)] does not check if these external document numbers are unique or duplicates.
 
 The following procedure explains how to specify an external document number on a sales order, but similar steps apply to other sales and purchase documents.
 
 ## <a name="to-enter-external-document-numbers-in-a-sales-order"></a>To enter external document numbers in a sales order  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Select the relevant sales order, and then choose the **Edit** action.  
 3. On the **General** FastTab, in the **External Document No.** field, enter the invoice number.  
 

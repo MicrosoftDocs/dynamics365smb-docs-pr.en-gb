@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2020
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922876"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746123"
 ---
 # <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
 
-This article provides an overview of some of the shortcut key combinations that you can use when you're working with [!INCLUDE[prodshort](includes/prodshort.md)].
+This article provides an overview of some of the shortcut key combinations that you can use when you're working with [!INCLUDE[prod_short](includes/prod_short.md)].
 
 For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md).
 
@@ -37,7 +37,7 @@ Keyboard shortcuts aid accessibility and can make it easier and more efficient t
 Most of the shortcuts are the same whether the operating system is Windows or macOS. However, some shortcuts differ for macOS. These shortcuts are indicated with brackets in the following sections.
 
 > [!NOTE]
-> In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], F9 posts a document and Ctrl+F7 shows the financial entries for a record. (These may be different in your solution.) The keyboard shortcut is shown in the tooltip for the action in question.
+> In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], F9 posts a document and Ctrl+F7 shows the ledger entries for a record when you open the record in a card. (These may be different in your solution.) The keyboard shortcut is shown in the tooltip for the action in question.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> General Keyboard Shortcuts
 
@@ -63,13 +63,13 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Ctrl+F1|Open the Business Central help for the page.|
 |Ctrl+F12|Switch between wide and narrow layout view.|
 |Ctrl+Click|Navigate during personalising or customising when the action is highlighted with an arrowhead. For more information, see [Personalise Your Workspace](ui-personalization-user.md).|  
-|Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application. (Similar to selecting refresh/reload in the browser.)|
+|Ctrl+F5|Reload the [!INCLUDE[prod_short](includes/prod_short.md)] application. (Similar to selecting refresh/reload in the browser.)|
 |F5|Refresh the data on the current page.<br /><br />Use this key to ensure that the data on the page is up to date with any changes that others have made while you're working.|
 |Enter|Enable or access the element or control that is in focus.|
 |Esc|Close the current page or drop-down list.|
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|
-|Y and N|Activate **Yes** and **No** buttons in dialogue boxes. Actual keys will vary based on your current language specified in **My Settings** . For example, press J to activate the **Ja** button when using German language.|
+|Y and N|Activate **Yes** and **No** buttons in dialogue boxes. Actual keys will vary based on your current language specified in **My Settings**. For example, press J to activate the **Ja** button when using German language.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Keyboard Shortcuts in Lists
 
@@ -88,7 +88,7 @@ The following table describes the keyboard shortcuts that you can use on a list 
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigating Between Rows and Columns
 
-Grids containing rows and columns exist on many page types in [!INCLUDE[prodshort](includes/prodshort.md)], such as list pages and **Lines** parts on documents. Moving from one cell to another across a grid is fully keyboard-enabled.
+Grids containing rows and columns exist on many page types in [!INCLUDE[prod_short](includes/prod_short.md)], such as list pages and **Lines** parts on documents. Moving from one cell to another across a grid is fully keyboard-enabled.
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
 |--------------------------------|--------------------------|--------------------------|
@@ -130,16 +130,16 @@ Grids containing rows and columns exist on many page types in [!INCLUDE[prodshor
 |Press these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
 |F3|Toggles the search box.<ul><li>Activate the search box, so you can start typing your search text.</li><li>If the search box is already activated, F3 returns to the list without clearing the search text.</li><ul>|
-|Shift+F3|Open and close the filter pane.<ul><li> If the filter pane isn't open, Shift+F3 opens it and focuses on the **+ Filter** action under **Filter list by** . You can then just hit Enter to start adding a field filter.</li><li>If the filter pane is already open, Shift+F3 closes it but doesn't clear any filters that you've added.</li></ul>|
-|Ctrl+Shift+F3|Open and close the filter pane.<ul><li> If the filter pane isn't open, Ctrl+Shift+F3 opens it and focuses on the **+ Filter** action under **Filter total by** . You can then just hit Enter to start adding a totals filter.</li><li>If the filter pane is already open, Ctrl+Shift+F3 closes it but doesn't clear any filters that you've added.</li></ul>  |
+|Shift+F3|Open and close the filter pane.<ul><li> If the filter pane isn't open, Shift+F3 opens it and focuses on the **+ Filter** action under **Filter list by**. You can then just hit Enter to start adding a field filter.</li><li>If the filter pane is already open, Shift+F3 closes it but doesn't clear any filters that you've added.</li></ul>|
+|Ctrl+Shift+F3|Open and close the filter pane.<ul><li> If the filter pane isn't open, Ctrl+Shift+F3 opens it and focuses on the **+ Filter** action under **Filter total by**. You can then just hit Enter to start adding a totals filter.</li><li>If the filter pane is already open, Ctrl+Shift+F3 closes it but doesn't clear any filters that you've added.</li></ul>  |
 |Alt+F3|Toggle filtering to the selected value.<ul><li>Applies a column filter on the selected field value in the list. This does the same as choosing **Filter to this value** from a column heading. It opens the filter pane, sets filter to the selected value, while focus remains on cell in the list.</li><li>If the column is already filtered, Alt+F3 clears the filter on that column.</li></ul> |
 |Shift+Alt+F3|Open the filter pane and add a filter on the selected column in the list. Focus is on the new filter field, which lets you start typing the filter criteria right away.<br /><br /> This does the same as selecting **Filter** from the column heading.<br /><br />If there is already a filter on the field, a new filter is added. |
-|Ctrl+Shift+Alt+F3|Reset filters. This does the same as choosing **Reset filters** in the filter pane, and it applies to field and totals filters.<br /><br /> Filters return to the default filters for the current view. If the current view is **All** , then this is the same as returning to an unfiltered view with all records. |
+|Ctrl+Shift+Alt+F3|Reset filters. This does the same as choosing **Reset filters** in the filter pane, and it applies to field and totals filters.<br /><br /> Filters return to the default filters for the current view. If the current view is **All**, then this is the same as returning to an unfiltered view with all records. |
 |Ctrl+Enter|Change focus from the filter pane back to the list.|
 
 ## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Keyboard Shortcuts in Cards and Documents
 
-The following shortcuts are available on card pages, such as **Customer Card** , and document pages, such as **Sales Order** , to display and modify records.
+The following shortcuts are available on card pages, such as **Customer Card**, and document pages, such as **Sales Order**, to display and modify records.
 
 |Press these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
@@ -173,7 +173,7 @@ When setting a date field, you can either enter the date manually or open a cale
 
 |Press these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
-|Ctrl+Home|Open the calendar if closed. **Note** : This doesn't work if the date field is in a grid, where Ctrl+Home jumps to the first row.|
+|Ctrl+Home|Open the calendar if closed. **Note**: This doesn't work if the date field is in a grid, where Ctrl+Home jumps to the first row.|
 |Ctrl+Home<br />(Cmd+Home)|Move to the current month, current day.|
 |Ctrl+Left Arrow<br />(Cmd+Left Arrow)|Move to the previous day.|
 |Ctrl+Right Arrow<br />(Cmd+Right Arrow)|Move to the next day.|
@@ -206,11 +206,19 @@ When setting a date field, you can either enter the date manually or open a cale
 |Page Down<br />(Fn+Down Arrow)|Go to the next page of the report.|
 |Page Up<br />(Fn+Up Arrow)|Go to the previous page of the report.|
 
+## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Keyboard Shortcuts for Zooming In and Out
+
+|Press these keys|To do this|
+|--------------------------------|----------|
+|Ctrl++|Zoom in on the current page.|  
+|Ctrl+-|Zoom out on the current page.|  
+|Ctrl+0|Zoom in or out to 100% on the current page.|  
+
 ## <a name="see-also"></a>See also 
 
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  
 [Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.md)  
 [Find Entries](ui-find-entries.md)  

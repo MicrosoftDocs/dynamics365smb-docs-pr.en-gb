@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aed172663290ce3ac467e405266d513a8978a128
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22b8ae947ceb82753aa0e881ba8b0ebf603cca9f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913003"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747900"
 ---
 # <a name="setting-up-service-management"></a>Setting Up Service Management
-Before you can start using Service Management features in [!INCLUDE[d365fin](includes/d365fin_md.md)], there are a few things to set up. For example, you can establish coding for standard services, symptoms, and fault codes, and the service items and service item types that your company's customer service needs require.  
+Before you can start using Service Management features in [!INCLUDE[prod_short](includes/prod_short.md)], there are a few things to set up. For example, you can establish coding for standard services, symptoms, and fault codes, and the service items and service item types that your company's customer service needs require.  
 
 When you set up Service Management, you must decide what services to offer customers and the schedule for those services. A service is a type of work performed by one or more resources and provided to a customer. For example, a service could be a type of computer repair. A service item is the equipment or item needing servicing, for example, the computer needing repair, installed at a specific customer. You can set up services as part of a group of related repair or maintenance items.  
   

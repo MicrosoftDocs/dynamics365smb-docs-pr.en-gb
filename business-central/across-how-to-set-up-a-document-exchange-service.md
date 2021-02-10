@@ -10,25 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84d985bb329f76c9c4954e56a01f9d6c7f8bc09c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 92a1b6118f0617dfd219ab38be5ff8d029a68275
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916200"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754724"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Set Up a Document Exchange Service
 You use an external service provider to exchange electronic documents with your trading partners. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>To set up a document exchange service  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Doc. Exch. Service Setup** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Doc. Exch. Service Setup**, and then choose the related link.  
 2. Fill the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**User Agent**|Enter any text that can be used to identify your company in document exchange processes.|  
     |**Doc. Exch. Tenant ID**|Enter the tenant in the document exchange service that represents your company. This is provided by the document exchange service provider.|  
-    |**Enabled**|Specify if the service is enabled. **Note:**  As soon as you enable the service, at least two job queue entries are created to process the traffic of electronic documents in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)]. When you disable the service, the job queue entries are deleted.|  
+    |**Enabled**|Specify if the service is enabled. **Note:**  As soon as you enable the service, at least two job queue entries are created to process the traffic of electronic documents in and out of [!INCLUDE[prod_short](includes/prod_short.md)]. When you disable the service, the job queue entries are deleted.|  
     |**Signup URL**|Specify the web page where you sign up for the document exchange service.|  
     |**Service URL**|Specify the address of the document exchange service, which will be called when you send and receive electronic documents.|  
     |**Login URL**|Specify the logon page for the document exchange service, which is where you enter your company’s user name and password to log on to the service.|  

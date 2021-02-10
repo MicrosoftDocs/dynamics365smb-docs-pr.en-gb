@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f90f17fa962bc8a18ea3ba1c30b01af52463ede4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 006681473227ccf371c66708e5855da1bf868ddc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915592"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750687"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Remove and Reapply Item Ledger Entries
 On the **Application Worksheet** page, you can view and manually change certain item application entries that are created automatically during inventory transactions.  
@@ -36,12 +36,12 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
 > The following are important considerations to remember when you are working with the application worksheet:
     - You should not leave application entries unapplied for long periods of time because other users cannot process the items until you reapply the application entries or close the **Application Worksheet** page. Users who try to perform actions that involve a manually unapplied application entry receive the following error message:“You cannot perform this action because entries for item XXX are unapplied in the Application Worksheet by user XXX.”
     - You should only reapply item ledger entries during nonworking hours to avoid conflicts with other users who are posting transactions with the same items.
-    - When you close the application worksheet, [!INCLUDE[d365fin](includes/d365fin_md.md)] performs a check to make sure that all entries are applied. For example, if you remove a quantity application but do not create a new application, and then you close the application worksheet, a new application is created. This helps keep the cost intact. However, if you remove a fixed application, a new fixed application is not automatically created when you close the worksheet. You must do this manually by creating a new application in the worksheet.
+    - When you close the application worksheet, [!INCLUDE[prod_short](includes/prod_short.md)] performs a check to make sure that all entries are applied. For example, if you remove a quantity application but do not create a new application, and then you close the application worksheet, a new application is created. This helps keep the cost intact. However, if you remove a fixed application, a new fixed application is not automatically created when you close the worksheet. You must do this manually by creating a new application in the worksheet.
     - It is possible to remove applications from more than one entry at a time in the application worksheet. However, because applying entries affects the set of entries that are available for application, you cannot create an application for more than one entry at a time.
     - The application worksheet cannot make an application in the following situation: If there is not enough quantity on stock to apply, the application worksheet cannot make an application when you are trying to apply an inventory decrease entry without item tracking information to an inventory increase entry with item tracking information.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>To remove an item application by using the Application Worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
 2.  The **Application Worksheet** page opens displaying existing item ledger entries for all items.  
 3.  Enter filters on the **General** FastTab to make it easier to find the item ledger entry for which you want to change the application.  
 4.  Select the item ledger entry, and then choose the **Applied Entries** action. The **View Applied Entries – Applied Entries** page opens to show the item ledger entry or entries that are currently applied to the selected entry.  
@@ -57,7 +57,7 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
 >  **You cannot perform this action because entries for item <item> are unapplied in the Application Worksheet by user <user>.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>To reapply an item application by using the Application Worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
 2.  The **Application Worksheet** page opens displaying existing item ledger entries for all items.  
 3.  To reapply entries that were removed since the worksheet was opened, select the item ledger entry that you want to reapply, and then choose the **Reapply** action.  
 
@@ -70,11 +70,11 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
 
     > [!NOTE]  
     >  If you have chosen to make an application that would create an infinite loop in the cost adjustment process, then the application that you proposed is not made. This can occur when the original entries created negative stock. The application is not made. Therefore, you must select a different entry for the application.  
-6.  If the **Automatic Cost Adjustment** field in the **Inventory Setup** is set to **Always** , then the cost adjustment batch job is automatically run after you make a reapplication. Otherwise, run the **Adjust Cost - Item Entries** batch job to make sure that all costs are up to date.  
+6.  If the **Automatic Cost Adjustment** field in the **Inventory Setup** is set to **Always**, then the cost adjustment batch job is automatically run after you make a reapplication. Otherwise, run the **Adjust Cost - Item Entries** batch job to make sure that all costs are up to date.  
 
 ## <a name="see-also"></a>See Also  
 [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   
  [Design Details: Item Application](design-details-item-application.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

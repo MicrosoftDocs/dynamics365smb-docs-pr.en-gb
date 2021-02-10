@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e620772e5e83777d0ef48cc2b86bfbdc372daf8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 802706f3b501b7c0bdc7959573d5a7c830a7bf90
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913328"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747073"
 ---
 # <a name="defining-and-allocating-costs"></a>Defining and Allocating Costs
 Cost allocations move costs and revenues between cost types, cost centres, and cost objects. You can define as many allocations as you need. Each allocation consists of:  
@@ -38,7 +38,7 @@ The following table describes a sequence of tasks, with links to the topics that
 Each allocation consists of an allocation source and one or more allocation targets. The allocation source defines which costs will be allocated. The allocation targets determine where the costs will be allocated.  
 
 ### <a name="to-set-up-cost-allocations"></a>To set up cost allocations  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation** , and then chose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then chose the related link.  
 2.  On the **Cost Allocation** page, choose the **Edit** action.  
 3.  Enter an ID for the allocation source in the **ID** field.  
 4.  Define a level as a number between 1 and 99 in the **Level** field. The allocation posting will follow the order of the levels.  
@@ -78,64 +78,64 @@ Static allocation method is based on a definite value, such as square meters use
 This topic describes how to define three new allocation target cost objects for the allocation source PROD cost centre using the established allocation ratio 5:2:4. The three target cost objects are ACCESSO, PAINT, and FITTINGS.  
 
 > [!NOTE]  
->  The example uses the demo data in the [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  The example uses the demo data in the [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>To define the allocation source PROD cost centre on the General FastTab  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then choose the related link.  
 2.  On the **Cost Allocation** page, choose the **New** action.  
 3.  In the **ID** field, press Enter or enter an ID.  
-4.  In the **Level** field, enter **1** .  
+4.  In the **Level** field, enter **1**.  
 5.  In the **Valid From** and **Valid To** fields, enter appropriate dates.  
-6.  In the **Cost Center Code** field, enter **PROD** .  
-7.  In the **Credit to Cost Type** field, enter the cost type **9903** .  
+6.  In the **Cost Center Code** field, enter **PROD**.  
+7.  In the **Credit to Cost Type** field, enter the cost type **9903**.  
 
 ### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>To define the allocation target cost objects on the Lines FastTab  
 
-1.  On the first line, in the **Target Cost Type** field, enter **9903** .  
-2.  On the first line, in the **Target Cost Object** field, select **ACCESSO** .  
+1.  On the first line, in the **Target Cost Type** field, enter **9903**.  
+2.  On the first line, in the **Target Cost Object** field, select **ACCESSO**.  
 3.  On the first line, in the **Allocation Target Type** field, select **All Costs** to define how all accrued costs are allocated.  
 4.  On the first line, in the **Base** field, select **Static** to use the static allocation method.  
-5.  On the first line, in the **Share** field, enter the allocation ratio **5** .  
-6.  On the second line, in the **Target Cost Type** field, enter **9903** .  
-7.  On the second line, in the **Target Cost Object** field, select **PAINT** .  
+5.  On the first line, in the **Share** field, enter the allocation ratio **5**.  
+6.  On the second line, in the **Target Cost Type** field, enter **9903**.  
+7.  On the second line, in the **Target Cost Object** field, select **PAINT**.  
 8.  On the second line, in the **Allocation Target Type** field, select **All Costs** to define how all accrued costs are allocated.  
 9. On the second line, in the **Base** field, select **Static** to use the static allocation method.  
-10. On the second line, in the **Share** field, enter the allocation ratio **2** .  
-11. On the third line, in the **Target Cost Type** field, enter **9903** .  
-12. On the third line, in the **Target Cost Object** field, select **FITTINGS** .  
+10. On the second line, in the **Share** field, enter the allocation ratio **2**.  
+11. On the third line, in the **Target Cost Type** field, enter **9903**.  
+12. On the third line, in the **Target Cost Object** field, select **FITTINGS**.  
 13. On the third line, in the **Allocation Target Type** field, select **All Costs** to define how all accrued costs are allocated.  
 14. On the third line, in the **Base** field, select **Static** to use the static allocation method.  
-15. On the third line, in the **Share** field, enter the allocation ratio **4** .  
+15. On the third line, in the **Share** field, enter the allocation ratio **4**.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.
 
 ## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Scenario 2: Defining Dynamic Allocations Based on Items Sold
 This topic shows an example of how to define allocations by using the dynamic allocation method. In the example, you change the dynamic allocation of the costs for the SALES cost centre to support the new cost object IT EQUIPMENT. IT EQUIPMENT packages have item numbers in the range from 8904-W to 8924-W. You use the previous year’s sales figures to calculate the share. The allocation is posted to the helping cost type 9903.  
 
 > [!NOTE]  
->  The example uses the demo data in the [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  The example uses the demo data in the [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>To define dynamic allocations based on items sold in the previous year  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocations** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocations**, and then choose the related link.  
 2.  On the **Cost Allocation** page, choose the **New** action.  
 3.  In the **ID** field, press Enter or enter an ID.  
-4.  In the **Level** field, enter **1** .  
+4.  In the **Level** field, enter **1**.  
 5.  In the **Valid From** and **Valid To** fields, enter appropriate dates.  
-6.  In the **Cost Center Code** field, enter **SALES** .  
-7.  In the **Credit to Cost Type** field, enter the cost type **9903** .  
-8.  In the **Target Cost Type** field, enter the cost type **9903** .  
-9. In the **Target Cost Object** field, choose **New** to create a new cost object IT EQUIPMENT and fill in fields as necessary. Select **IT EQUIPMENT** . Leave the **Target Cost Center** field blank.  
+6.  In the **Cost Center Code** field, enter **SALES**.  
+7.  In the **Credit to Cost Type** field, enter the cost type **9903**.  
+8.  In the **Target Cost Type** field, enter the cost type **9903**.  
+9. In the **Target Cost Object** field, choose **New** to create a new cost object IT EQUIPMENT and fill in fields as necessary. Select **IT EQUIPMENT**. Leave the **Target Cost Center** field blank.  
 10. In the **Allocation Target Type** field, select **All Costs** to define how all accumulated costs are allocated.  
-11. In the **Base** field, select the allocation base **Items Sold (Amount)** .  
-12. In the **No. Filter** field, enter **8904-W..8924-W** .  
-13. In the **Date Filter Code** field, enter **Last Year** .  
+11. In the **Base** field, select the allocation base **Items Sold (Amount)**.  
+12. In the **No. Filter** field, enter **8904-W..8924-W**.  
+13. In the **Date Filter Code** field, enter **Last Year**.  
 14. Choose the **Calculate Allocation Key** action to calculate the share.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.
 
 ## <a name="see-also"></a>See Also  
  [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   

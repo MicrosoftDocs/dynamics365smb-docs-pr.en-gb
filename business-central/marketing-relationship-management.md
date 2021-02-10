@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 00ffaf4cefa87ad530a94495386998d65be4fdc5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6c1539b19274c4e31fa66b31af17be5429c719f5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923527"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745973"
 ---
 # <a name="managing-relationships"></a>Managing Relationships
-The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts. With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.
+The relationship management features of [!INCLUDE[prod_short](includes/prod_short.md)] help you manage and support your sales efforts. With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.
 
-Good sales and marketing practices are all about how to make the best decisions at the right time. [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.
+Good sales and marketing practices are all about how to make the best decisions at the right time. [!INCLUDE[prod_short](includes/prod_short.md)] provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.
 
 The following table describes a sequence of tasks, with links to the topics that describe them.  
 

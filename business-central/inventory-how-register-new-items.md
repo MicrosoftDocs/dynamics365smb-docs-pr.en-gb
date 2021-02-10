@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 74eb66c4303acb452972f9ac3c7dda008e3c6502
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6e4bf13885ccd7888e1750f4351741150df7b7df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923827"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746223"
 ---
 # <a name="register-new-items"></a>Register New Items
 
@@ -23,13 +23,13 @@ Items, among other products, are the basis of your business, the goods or servic
 
 Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
 
-The item card can be of type **Inventory** , **Service** , or **Non-Inventory** to specify if the item is a physical inventory unit, a labour time unit, or a physical unit that is not tracked in inventory. For more information, see [About Item Types](inventory-about-item-types.md).
+The item card can be of type **Inventory**, **Service**, or **Non-Inventory** to specify if the item is a physical inventory unit, a labour time unit, or a physical unit that is not tracked in inventory. For more information, see [About Item Types](inventory-about-item-types.md).
 
-An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
+An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[prod_short](includes/prod_short.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
 
 If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The vendors will then appear on the **Item Vendor Catalogue** page, so that you can easily select an alternate vendor.
 
-Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalogue items. Catalogue items are not to be mistaken with regular items of type **Non-Inventory** . For more information, see [Work with Catalogue Items](inventory-how-work-nonstock-items.md).  
+Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalogue items. Catalogue items are not to be mistaken with regular items of type **Non-Inventory**. For more information, see [Work with Catalogue Items](inventory-how-work-nonstock-items.md).  
 
 > [!NOTE]  
 > If item templates exist for different item types, then a page appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
@@ -40,7 +40,7 @@ The following procedure explains how to create an item card from scratch. You ca
 
 ## <a name="to-create-a-new-item-card"></a>To create a new item card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. On the **Items** page, choose the **New** action.
 
     If only one item template exists, then a new item card opens with some fields filled with information from the template.
@@ -51,7 +51,7 @@ The following procedure explains how to create an item card from scratch. You ca
 > [!NOTE]
 > In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. Five costing methods are available, depending on the type of item. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).
 >
-> If you select **Average** , then the item's unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field to view, on the **Average Cost Calc. Overview** page, the history of transactions that the average cost is calculated from.
+> If you select **Average**, then the item's unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field to view, on the **Average Cost Calc. Overview** page, the history of transactions that the average cost is calculated from.
 
 You can view or edit special prices or discounts that you grant, or that your vendor grants you, for the item if certain criteria are met, such as customer, minimum order quantity, or ending date. You do this by choosing the **Set Special Prices** or **Set Special Discounts** actions. Each row on, for example, the **Sales Prices** page represents a special price. Each column represents a criterion that must apply to grant a customer the special price that you enter in the **Unit Price** field on the **Sales Prices** page. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md) or [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
@@ -77,7 +77,7 @@ If you want to register items that are then used in production orders, you speci
 
 If you purchase the same item from more than one vendor, you must enter information about each vendor of the item, such as prices, lead time, discounts, and so on.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select the relevant item, and then choose the **Edit** action.  
 3. Choose the **Vendors** action.  
 4. Choose the **Vendor No.** field, and then select the vendor that you want to set up for the item.  
@@ -96,9 +96,9 @@ If you have posted a transaction for an item, you cannot delete the card because
 
 ## <a name="manage-inventory-in-warehouses"></a>Manage inventory in warehouses
 
-When you register a new item, you will see fields that are related to warehouse management, especially on the **Warehouse** FastTab. If your organisation does not use the warehouse management capabilities in [!INCLUDE [prodshort](includes/prodshort.md)], then you can ignore those fields.  
+When you register a new item, you will see fields that are related to warehouse management, especially on the **Warehouse** FastTab. If your organisation does not use the warehouse management capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], then you can ignore those fields.  
 
-If your organisation later sets up warehouse management, in most cases, you must then go back to each existing item to make sure that it has the right information in the various fields, so that the warehouse processes can run as expected. This information can includes fields such as **Warehouse Class Code** or **Put-away Template Code** . For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
+If your organisation later sets up warehouse management, in most cases, you must then go back to each existing item to make sure that it has the right information in the various fields, so that the warehouse processes can run as expected. This information can includes fields such as **Warehouse Class Code** or **Put-away Template Code**. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
 
 ## <a name="see-also"></a>See Also
 
@@ -110,4 +110,4 @@ If your organisation later sets up warehouse management, in most cases, you must
 [Setting Up Posting Groups](finance-posting-groups.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

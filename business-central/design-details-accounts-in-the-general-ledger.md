@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 18c8eb8f379be15bf425a6a2bcd8db6b0c48bcb3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5129a8b8116eab9996a47ad82b2579658a45b8b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922174"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751887"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Design Details: Accounts in the General Ledger
 To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
@@ -99,4 +99,4 @@ The following table shows how the amounts to post to the general ledger are calc
  [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

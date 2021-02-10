@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef457ddf93e2634345c809b241e15acc94d0593e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b9e4bf86ec68ad06a22c0a9dcca37eecffb0316b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911728"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755799"
 ---
 # <a name="pick-items"></a>Pick Items
 
@@ -24,7 +24,7 @@ The warehouse activity of picking items before they are shipped or consumed is p
 If you decide to organise and record your picking activity with warehouse documents, you place a check mark in the **Require Pick** field on the location card. This indicates that when you have items that need to be picked for an outbound source document you want the picking of those items to be controlled by the system. An outbound source document can be a sales order, a purchase return order, an outbound transfer order, a service order, or a production order whose components should be picked.
 
 > [!NOTE]
-> Even though the setting is called **Require Pick** , you can still post shipments directly from the source business document at location where you select this check box.
+> Even though the setting is called **Require Pick**, you can still post shipments directly from the source business document at location where you select this check box.
 
 If your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** page to organise the picking information, print the picking information, enter the result of the pick, and post the picking information, which in turn posts the shipment of the items. In the case of picking components for a production order, the posting of the pick also posts the consumption.
 
@@ -51,4 +51,4 @@ The following table describes a sequence of tasks, with links to the topics that
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

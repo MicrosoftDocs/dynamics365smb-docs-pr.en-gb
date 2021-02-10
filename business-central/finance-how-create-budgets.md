@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cfc696141e2d3db0b5da1facb83e09216529e269
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6018edd9d7d324c827c6c338ec700492b39bf56d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917108"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747023"
 ---
 # <a name="create-gl-budgets"></a>Create G/L Budgets
 You can have multiple budgets for identical time periods by creating budgets with separate names. First, you set up the budget name and enter the budget figures. The budget name is then included on all the budget entries you create.  
@@ -29,7 +29,7 @@ Budgets play an important role in business intelligence, such as in financial st
 In cost accounting, you work with cost budgets in a similar way. For more information, see [Creating Cost Budgets](finance-create-cost-budgets.md).    
 
 ## <a name="to-create-a-new-gl-budget"></a>To create a new G/L budget  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, and then choose the related link.  
 2. Choose the **Edit List** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **Edit Budget** action.
 4. At the top of the **Budget** page, fill in the fields as necessary to define what is displayed.  
@@ -46,7 +46,7 @@ In cost accounting, you work with cost budgets in a similar way. For more inform
 As for practically all other pages, you can export data on budget pages to Excel for further processing or analysis. For more information, see [Exporting Your Business Data to Excel](about-export-data.md).
 
 > [!NOTE]
-> The chart of accounts, that G/L budgets are based on, have lines of account type Heading that contain the total of the lines below it. When you export a G/L budget, data on all lines is exported regardless of the account type. However, only data on lines of account type Posting can be imported back in. Accordingly: <br /><br /> **When you import a G/L budget, any values that existed on Heading lines will be deleted.** <br /><br /> This is to avoid wrong totals after importing data that has been created or edited in Excel.<br /><br /> **Scenario** : You know that the new budgeted salaries cost is going to be LCY 1.200.000. You want to let the Salaries department budget for the three specific lines (of account type Posting) for Full-time Employees, Part-time Employees, and Temp Help. The three lines are grouped under a Salaries heading line.<br /><br />You enter 1.200.000 on the Heading line, export the budget to Excel, and then send it to the Salaries department, telling them to distribute the LCY 1.200.000.<br /><br /> The Salaries department distributes the amount on the three posting accounts. When you import back into the G/L budget, the three accounts are filled in with the new Excel data, summing to LCY 1.200.000, and the Heading line is blank.
+> The chart of accounts, that G/L budgets are based on, have lines of account type Heading that contain the total of the lines below it. When you export a G/L budget, data on all lines is exported regardless of the account type. However, only data on lines of account type Posting can be imported back in. Accordingly: <br /><br /> **When you import a G/L budget, any values that existed on Heading lines will be deleted.** <br /><br /> This is to avoid wrong totals after importing data that has been created or edited in Excel.<br /><br /> **Scenario**: You know that the new budgeted salaries cost is going to be LCY 1.200.000. You want to let the Salaries department budget for the three specific lines (of account type Posting) for Full-time Employees, Part-time Employees, and Temp Help. The three lines are grouped under a Salaries heading line.<br /><br />You enter 1.200.000 on the Heading line, export the budget to Excel, and then send it to the Salaries department, telling them to distribute the LCY 1.200.000.<br /><br /> The Salaries department distributes the amount on the three posting accounts. When you import back into the G/L budget, the three accounts are filled in with the new Excel data, summing to LCY 1.200.000, and the Heading line is blank.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
@@ -56,4 +56,4 @@ As for practically all other pages, you can export data on budget pages to Excel
 [Business Intelligence](bi.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

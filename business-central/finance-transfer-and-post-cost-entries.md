@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9063126f0b8bd1b9ef8deadcbeb0451b3009f10d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e70d34effb16c7fc4daa3bde19cf1fb0ac03902c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919470"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750312"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transferring and Posting Cost Entries
 Before you define cost allocations, you must understand how cost entries come from the following sources:  
@@ -40,9 +40,9 @@ General ledger entries are not transferred if:
 -   The entries have dimension values that do not correspond to a cost centre or a cost object.  
 -   The entries have an amount of zero.  
 -   The entries have a general ledger account that has been deleted.  
--   The entries have a general ledger account that is not of the type **Income Statement** .  
+-   The entries have a general ledger account that is not of the type **Income Statement**.  
 -   The entries have a general ledger account that is not assigned a cost type.  
--   The entries have a posting date before the **Starting Date for G/L Transfer** .  
+-   The entries have a posting date before the **Starting Date for G/L Transfer**.  
 -   The entries have been posted with a closing date. These are typically entries that set back the balance of the income statement at the end of the year.
 
 ## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Transferring General Ledger Entries to Cost Entries
@@ -52,16 +52,16 @@ Before you run the process for transferring general ledger entries to cost entri
 
 ### <a name="to-prepare-the-transfer"></a>To prepare the transfer  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Accounting Setup** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Accounting Setup**, and then choose the related link.  
 2.  On the **Cost Accounting Setup** page, verify that the **Starting Date for G/L Transfer** field is set to the correct value.  
-3.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Types** , and then choose the related link.  
+3.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Types**, and then choose the related link.  
 4.  On the **Cost Type Card** page, verify that the **G/L Account Range** field is linked correctly for each cost type to take entries from the general ledger.  
-5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts** , and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 6.  For each relevant general ledger account, on the **G/L Account Card** page, verify that the **Cost Type No.** field is linked correctly to a cost type. For more information, see [Setting Up Cost Accounting](finance-set-up-cost-accounting.md).  
 7.  Verify that all relevant general ledger entries have dimension values that correspond to a cost centre and a cost object.  
 
 ### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>To transfer general ledger entries to cost entries  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer GL Entries to CA** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer GL Entries to CA**, and then choose the related link.  
 2.  Choose the **Yes** button to start the transfer. The process transfers all general ledger entries that have not already been transferred.  
 
     During the transfer, the process creates connections in the entries in the **Cost Entry** table and the **Cost Register** table. This makes it possible to trace the source of cost entries.
@@ -76,25 +76,25 @@ In cost accounting, you can transfer general ledger entries to a cost type by us
 |Month|All general ledger entries in the same calendar month are transferred as one entry to the corresponding cost type.|  
 
 > [!IMPORTANT]  
->  If you have selected the **Auto Transfer from G/L** check box on the **Cost Accounting Setup** page, [!INCLUDE[d365fin](includes/d365fin_md.md)] updates the cost accounting after every posting in the general ledger. Combined entries are not possible.
+>  If you have selected the **Auto Transfer from G/L** check box on the **Cost Accounting Setup** page, [!INCLUDE[prod_short](includes/prod_short.md)] updates the cost accounting after every posting in the general ledger. Combined entries are not possible.
 
 ## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Results of Transferring General Ledger Entries to Cost Entries
-During the transfer of general ledger entries to cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] creates connections in the entries in the **G/L Entry** table, the **Cost Entry** table, and the **Cost Register** table to make it possible to trace the connections between cost entries and general ledger entries.  
+During the transfer of general ledger entries to cost entries, [!INCLUDE[prod_short](includes/prod_short.md)] creates connections in the entries in the **G/L Entry** table, the **Cost Entry** table, and the **Cost Register** table to make it possible to trace the connections between cost entries and general ledger entries.  
 
 ### <a name="general-ledger-entries"></a>General Ledger Entries  
-For each general ledger entry that is transferred to cost accounting, [!INCLUDE[d365fin](includes/d365fin_md.md)] fills the cost **Entry No.** field.  
+For each general ledger entry that is transferred to cost accounting, [!INCLUDE[prod_short](includes/prod_short.md)] fills the cost **Entry No.** field.  
 
 ### <a name="cost-entries"></a>Cost Entries  
-For each cost entry, [!INCLUDE[d365fin](includes/d365fin_md.md)] saves the entry number of the corresponding general ledger entry in the **G/L Entry No.** field in the **Cost Entry** table.  
+For each cost entry, [!INCLUDE[prod_short](includes/prod_short.md)] saves the entry number of the corresponding general ledger entry in the **G/L Entry No.** field in the **Cost Entry** table.  
 
-For combined cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] saves the entry number of the last general ledger entry, which is the entry with the highest entry number.  
+For combined cost entries, [!INCLUDE[prod_short](includes/prod_short.md)] saves the entry number of the last general ledger entry, which is the entry with the highest entry number.  
 
 The **G/L Account** field in the **Cost Entry** table contains the number of the general ledger account that the cost entry came from.  
 
-For single cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] transfers the posting text from the general ledger entry to the **Description** text field. For combined entries, the text field shows these entries are transferred as combined entries. For example, for a combined entry for the month of October in 2013, the text can be **Combined Entries, October 2013** .  
+For single cost entries, [!INCLUDE[prod_short](includes/prod_short.md)] transfers the posting text from the general ledger entry to the **Description** text field. For combined entries, the text field shows these entries are transferred as combined entries. For example, for a combined entry for the month of October in 2013, the text can be **Combined Entries, October 2013**.  
 
 ### <a name="cost-register"></a>Cost Register  
-In the **Cost Register** table, [!INCLUDE[d365fin](includes/d365fin_md.md)] creates an entry with the source transfer from general ledger. The entry records the first and last entry numbers of the general ledger entries that are transferred, in addition to the first and last entry numbers of the cost entries that are created.
+In the **Cost Register** table, [!INCLUDE[prod_short](includes/prod_short.md)] creates an entry with the source transfer from general ledger. The entry records the first and last entry numbers of the general ledger entries that are transferred, in addition to the first and last entry numbers of the cost entries that are created.
 
 ## <a name="see-also"></a>See Also  
  [About Cost Accounting](finance-about-cost-accounting.md)   

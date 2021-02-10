@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e3b0b01eb85cc6b24cc665e340da1d479517924a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 650f45093688825565eb664ebca7daaa3e972140
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914867"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756525"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Walkthrough: Calculating Work in Process for a Job
 
@@ -38,7 +38,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
  This walkthrough uses the project team member (Tricia) as the persona.  
 
 ## <a name="prerequisites"></a>Prerequisites  
- Before you can perform the tasks in the walkthrough, the [!INCLUDE[d365fin](includes/d365fin_md.md)] must be installed on your computer.  
+ Before you can perform the tasks in the walkthrough, the [!INCLUDE[prod_short](includes/prod_short.md)] must be installed on your computer.  
 
 ## <a name="story"></a>Story  
  This walkthrough focuses on CRONUS International Ltd., a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of the work at CRONUS is project-oriented and Tricia, a project team member, uses jobs to have an overview of each ongoing job that CRONUS has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the job.  
@@ -53,19 +53,19 @@ With jobs, you can schedule the usage of your company's resources and keep track
 |Field|Description|  
 |-------------------------------------|---------------------------------------|  
 |**<blank>**|Leave blank if the job task is a part of a group of tasks.|  
-|**Total**|Defines the range or group of tasks that are included in the WIP and recognition calculation. Within the group, any job task with **Job Task Type** set to **Posting** will be included in the WIP Total, unless its **WIP-Total** field is set to **Excluded** .|  
-|**Excluded**|Applies only to a task with **Job Task Type** of **Posting** . The task is not included when WIP and recognition are calculated.|  
+|**Total**|Defines the range or group of tasks that are included in the WIP and recognition calculation. Within the group, any job task with **Job Task Type** set to **Posting** will be included in the WIP Total, unless its **WIP-Total** field is set to **Excluded**.|  
+|**Excluded**|Applies only to a task with **Job Task Type** of **Posting**. The task is not included when WIP and recognition are calculated.|  
 
  In the following walkthrough, Tricia applies the Cost Value method, her company standard, to calculate WIP. She specifies what part of the job will be included in the WIP calculation by assigning WIP-Total values to various job task lines.  
 
 ### <a name="to-calculate-wip"></a>To calculate WIP  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  In the **Jobs** list, select the **Deerfield** job, and then choose the **Edit** action. This will open the job card in edit mode.  
 
      WIP can be calculated based on Cost Value, Sales Value, Cost of Sales, Percentage of Completion, or Completed Contract. In this example, CRONUS uses the Cost Value method.  
 
-3.  On the **Posting** FastTab, choose the **WIP Method** field, and then select **Cost Value** .  
+3.  On the **Posting** FastTab, choose the **WIP Method** field, and then select **Cost Value**.  
 4.  Choose the **Job Task Lines** action and set the following values in the **WIP-Total** field.  
 
      The following table describes the values.  
@@ -80,7 +80,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 5.  Choose the **WIP** action, and then choose the **Calculate WIP** action.  
 6.  On the **Job Calculate WIP** page, you can select a job that you want to calculate WIP. On the **Job** FastTab, select **Deerfield** in the **No.** field.  
 7.  In the **Posting Date** field, enter a date that is later than the work date.
-8.  In the **Document No.** field, enter **1** . This creates a document that you can refer to later for traceability.  
+8.  In the **Document No.** field, enter **1**. This creates a document that you can refer to later for traceability.  
 9. Choose the **OK** button to run the batch job. A message is displayed. Choose the **OK** button to continue. Close the **Job Task Lines** page.  
 
     > [!NOTE]  
@@ -88,11 +88,11 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
 10. On the **Job** card, expand the **WIP and Recognition** FastTab to see the calculated values. You can also see the **WIP Posting Date** and the values that have been posted to the general ledger, if any.  
 
- Notice that the value for **Recog. Costs Amount** is 215.60 in the **To Post** column. This reflects the total costs of two of the items in the group of job tasks 1110 – 1130. The third item was set to **Excluded** , and therefore is not included in the WIP calculation.  
+ Notice that the value for **Recog. Costs Amount** is 215.60 in the **To Post** column. This reflects the total costs of two of the items in the group of job tasks 1110 – 1130. The third item was set to **Excluded**, and therefore is not included in the WIP calculation.  
 
 ### <a name="to-review-wip-warnings"></a>To review WIP warnings  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job WIP Cockpit** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job WIP Cockpit**, and then choose the related link.  
 2.  Select the **Deerfield** job, and then choose the **Show Warnings** action.  
 3.  On the **Job WIP Warnings** page, review the warning associated with the job.  
 
@@ -118,7 +118,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 1.  From the **Jobs** list, select the **Deerfield** job.  
 2.  Choose the **WIP** action, and then choose the **Post WIP to G/L** action.  
 3.  On the **Job Post WIP to G/L** page, on the **Job** FastTab, select **Deerfield** in the **No.** field.  
-4.  On the **Options** FastTab, in the **Reversal Document No.** field, enter **1** .  
+4.  On the **Options** FastTab, in the **Reversal Document No.** field, enter **1**.  
 5.  Choose the **OK** button to post WIP to the general ledger.  
 6.  Choose the **OK** button to close the confirmation page.  
 
@@ -141,11 +141,11 @@ With jobs, you can schedule the usage of your company's resources and keep track
 1.  From the **Jobs** list, select the **Deerfield** job.  
 2.  Choose the **WIP** action, and then choose the **Post WIP to G/L** action.  
 3.  On the **Job Post to WIP to G/L** page, on the **Job** FastTab, select **Deerfield** in the **No.** field.  
-4.  On the **Options** FastTab, in the **Reversal Document No.** field, enter **1** .  
+4.  On the **Options** FastTab, in the **Reversal Document No.** field, enter **1**.  
 5.  In the **Reversal Posting Date** field, enter the original posting date. It should be the same date that you used to calculate WIP the first time.  
 6.  Select the **Reverse Only** check box. This will reverse previously posted WIP, but does post new WIP to the general ledger.  
 7.  Choose the **OK** button to run the batch job, and choose the **OK** button to close the confirmation page.  
-8.  Open the **Job** card for **Deerfield** .  
+8.  Open the **Job** card for **Deerfield**.  
 9. On the **WIP and Recognition** FastTab, verify that there are no posted WIP entries.  
 10. Close this page.  
 11. In the **Jobs** list, select the **Deerfield** job, choose the **WIP** action, and then choose the **WIP G/L Entries** action. The WIP entries have the **Reversed** check box selected.  
@@ -156,11 +156,11 @@ With jobs, you can schedule the usage of your company's resources and keep track
     >  Suppose Tricia calculated and posted WIP for a job with incorrect dates. Following the method that was discussed earlier, she can reverse the incorrect postings, correct the dates, and repost to the general ledger.  
 
 ## <a name="next-steps"></a>Next Steps  
- This walkthrough has taken you through the steps of calculating WIP in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In larger jobs, it may be useful to transfer the costs to a WIP account periodically while the job is being completed. This walkthrough has shown you how to exclude task lines from a calculation. It also shows you when you would have to recalculate. And finally, this walkthrough demonstrates how to post the WIP to the general ledger. An example of how to reverse a WIP posting to the general ledger is also included.  
+ This walkthrough has taken you through the steps of calculating WIP in [!INCLUDE[prod_short](includes/prod_short.md)]. In larger jobs, it may be useful to transfer the costs to a WIP account periodically while the job is being completed. This walkthrough has shown you how to exclude task lines from a calculation. It also shows you when you would have to recalculate. And finally, this walkthrough demonstrates how to post the WIP to the general ledger. An example of how to reverse a WIP posting to the general ledger is also included.  
 
 ## <a name="see-also"></a>See Also  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)   
  [Understanding WIP Methods](projects-understanding-wip.md)   
  [Monitor Progress and Performance](projects-how-monitor-progress-performance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

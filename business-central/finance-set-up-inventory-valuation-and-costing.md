@@ -7,19 +7,19 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: edcaaaedde3bb42c0c0d69c3e71dd659f5475712
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910737"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750462"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Setting Up Inventory Valuation and Costing
 
 To make sure that inventory costs are recorded correctly, you must set up various fields and pages before you begin to make item transactions. Typically, businesses choose a specific costing method and apply that to inventory items, for example, to help them track the value of items on stock.  
 
 > [!TIP]
-> For an introduction to costing in [!INCLUDE [prodshort](includes/prodshort.md)], see [About Inventory Costing](finance-learn-about-costing.md).
+> For an introduction to costing in [!INCLUDE [prod_short](includes/prod_short.md)], see [About Inventory Costing](finance-learn-about-costing.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 

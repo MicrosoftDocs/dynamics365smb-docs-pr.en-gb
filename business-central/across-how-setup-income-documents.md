@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0be6c730664d5162bd2359e029f9a387eae0d5d8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3a43c32d90a7c27af56ed55a4625b3dc3faf498b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915917"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754899"
 ---
 # <a name="set-up-incoming-documents"></a>Set Up Incoming Documents
 
@@ -23,13 +23,13 @@ If you create general journal lines from incoming document records, you must spe
 
 If you do not want users to create invoices or general journal lines from incoming document records unless the documents are first approved, you must set up workflow approvers.
 
-To turn PDF and image files into electronic documents that you can convert to, for example, purchase invoices inside [!INCLUDE[d365fin](includes/d365fin_md.md)], you must first set up the OCR feature and enable the service. Choose a service package that is appropriate for your organisation and/or country/region. Alternatively, you can create entries manually to represent the external documents.  
+To turn PDF and image files into electronic documents that you can convert to, for example, purchase invoices inside [!INCLUDE[prod_short](includes/prod_short.md)], you must first set up the OCR feature and enable the service. Choose a service package that is appropriate for your organisation and/or country/region. Alternatively, you can create entries manually to represent the external documents.  
 
 When the Incoming Documents feature is set up, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries. For more information, see [Processing Incoming Documents](across-process-income-documents.md).
 
 ## <a name="to-set-up-the-incoming-documents-feature"></a>To set up the Incoming Documents feature
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Document Setup** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Document Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 As part of the setup, you must decide if you want to require approval of incoming documents. To require approval, you must set up approvers and approval workflows. If your organisation does not intend to require approval, you can skip the next section.  
@@ -44,7 +44,7 @@ Before you can create workflows that involve approval steps, you must set up the
 
 ## <a name="to-set-up-an-ocr-service"></a>To set up an OCR service
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **OCR Service Setup** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **OCR Service Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -57,4 +57,4 @@ For more information, see [Use OCR to Turn PDF and Image Files into Electronic D
 [Process Incoming Documents](across-process-income-documents.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

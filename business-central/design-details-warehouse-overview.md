@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b265f8a910ba4d6e36856ce6d4485532b4e1337a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8842bd23f6d2d470599afe9b4382b35cec3d9251
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920829"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749550"
 ---
 # <a name="design-details-warehouse-overview"></a>Design Details: Warehouse Overview
 To support the physical handling of items on the zone and bin level, all information must be traced for each transaction or movement in the warehouse. This is managed in the **Warehouse Entry** table. Each transaction is stored in a warehouse register.  
@@ -31,7 +31,7 @@ The following illustration outlines typical warehouse flows.
 ![Overview of warehouse processes](media/design_details_warehouse_management_overview.png "Overview of warehouse processes")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Basic or Advanced Warehousing  
-Warehouse functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] can be implemented in different complexity levels, depending on a company’s processes and order volume. The main difference is that activities are performed order-by-order in basic warehousing when they are consolidated for multiple orders in advanced warehousing.  
+Warehouse functionality in [!INCLUDE[prod_short](includes/prod_short.md)] can be implemented in different complexity levels, depending on a company’s processes and order volume. The main difference is that activities are performed order-by-order in basic warehousing when they are consolidated for multiple orders in advanced warehousing.  
 
  To differentiate between the different complexity levels, this documentation refers to two general denominations, Basic and Advanced Warehousing. This simple differentiation covers several different complexity levels as defined by product granules and location setup, each supported by different UI documents. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
 
@@ -69,7 +69,7 @@ Warehouse functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] can be im
 For more information about each document, see the respective page topics.  
 
 ### <a name="terminology"></a>Terminology  
-To align with the financial concepts of purchases and sales, [!INCLUDE[d365fin](includes/d365fin_md.md)] warehouse documentation refers to the following terms for item flow in the warehouse.  
+To align with the financial concepts of purchases and sales, [!INCLUDE[prod_short](includes/prod_short.md)] warehouse documentation refers to the following terms for item flow in the warehouse.  
 
 |Term|Description|  
 |----------|---------------------------------------|  
