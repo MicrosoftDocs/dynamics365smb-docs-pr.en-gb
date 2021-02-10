@@ -8,21 +8,21 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0309ea14145758b4ae07ee034679fa4a0ef497db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915342"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758649"
 ---
 # <a name="set-up-jobs"></a>Set Up Jobs
 
-As a project manager, you can set up jobs that define each of the projects that you manage in [!INCLUDE[prodshort](includes/prodshort.md)]. On the **Jobs Setup** page, you must specify how you want to use certain job features.
+As a project manager, you can set up jobs that define each of the projects that you manage in [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Jobs Setup** page, you must specify how you want to use certain job features.
 
 For each job, you then specify individual job cards with information about prices for job items, job resources, and job G/L accounts, and you must set up job posting groups.
 
 ## <a name="to-set-general-information-for-jobs"></a>To set general information for jobs
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs Setup** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -30,31 +30,31 @@ For each job, you then specify individual job cards with information about price
 
 ### <a name="to-set-up-job-usage-tracking"></a>To set up job usage tracking
 
-When you are executing a job, you might want to know how your usage is tracking against your plan. To easily do this, you can create a link between your job planning lines and the actual usage. This lets you track your costs and to easily see at how much work remains to be done. By default, the job planning line type is **Budget** , but using the line type **Both Budget and Billable** has similar effects.
+When you are executing a job, you might want to know how your usage is tracking against your plan. To easily do this, you can create a link between your job planning lines and the actual usage. This lets you track your costs and to easily see at how much work remains to be done. By default, the job planning line type is **Budget**, but using the line type **Both Budget and Billable** has similar effects.
 
 If you select the **Apply Usage Link by Default** field, then you can review information on the job planning line. You can set the quantity of the resource, item, or general ledger account and then indicate what quantity you want to transfer to the job journal. The **Remaining Quantity** field on the job planning line will tell you what remains to be transferred and posted to the job journal.
 
 > [!TIP]  
 > You can enable or disable job usage tracking for a specific job. The value of the **Apply Usage Link** field on the individual job card overrides the setting in the **Jobs Setup** page.  
 
-When the **Apply Usage Link by Default** check box is selected, and the job planning line type is **Billable** , a job planning line of type **Budget** is created after you post a job journal line.
+When the **Apply Usage Link by Default** check box is selected, and the job planning line type is **Billable**, a job planning line of type **Budget** is created after you post a job journal line.
 
 > [!IMPORTANT]
 > If job usage tracking is enabled, either in the **Jobs Setup** page or on the individual job, and the **Line Type** field on the job journal line is blank, then new job planning lines of line type **Budget** are created when you post job journal lines.  
 >  
 > If job usage tracking is *not* enabled, either in the **Jobs Setup** page or on the individual job, and the **Line Type** field on the job journal line is blank, then no job planning lines are created when you post job journal lines. For more information, see [Record Usage for Jobs](projects-how-record-job-usage.md).
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup** , and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.
 2. Select the **Apply Usage Link by Default** check box.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>To set up prices for job resources
 You can set up specific prices for resources for a job. You use the **Job Resource Prices** page to do this.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **Resource** action.
 3. On the **Job Resource Prices** page, fill in the fields as necessary.
 
-The optional information in the **Job Task No.** , **Work Type** , **Currency Code** , **Line Discount %** , and **Unit Cost Factor** fields will be used on the job planning lines and usage journals when this resource is entered and added to the job.  
+The optional information in the **Job Task No.**, **Work Type**, **Currency Code**, **Line Discount %**, and **Unit Cost Factor** fields will be used on the job planning lines and usage journals when this resource is entered and added to the job.  
 
 The value in the **Unit Price** field for the resource will be used on the job planning lines and job journals when this resource, a resource assigned to the resource group, or any resource is entered.  
 
@@ -64,11 +64,11 @@ The value in the **Unit Price** field for the resource will be used on the job p
 ## <a name="to-set-up-prices-for-job-items"></a>To set up prices for job items
 You can set up specific prices for items for a job. You use the **Job Item Prices** page to do this.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **Item** action.
 3. On the **Job Item Prices** page, fill in the fields as necessary.
 
-The optional information in the **Job Task No.** , **Currency Code** , and **Line Discount %** fields will be used in the job planning lines and job journals when this item is entered or added to the job.  
+The optional information in the **Job Task No.**, **Currency Code**, and **Line Discount %** fields will be used in the job planning lines and job journals when this item is entered or added to the job.  
 
 The value in the **Unit Price** field for the item will be used on the job planning lines and job journals when this item is entered.  
 
@@ -78,11 +78,11 @@ The value in the **Unit Price** field for the item will be used on the job plann
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>To set up prices for job general ledger accounts
 You can set up specific prices for general ledger expenses for a job. You use the **Job G/L Account Prices** page to do this.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **G/L Account** action.  
 3. On the **Job G/L Account Prices** page, fill in the fields as necessary.
 
-The optional information in the **Job Task No.** , **Currency Code** , **Line Discount %** , **Unit Cost Factor** , and **Unit Cost** fields will be used on the job planning lines and job journals when this general ledger account is entered and added to a job.  
+The optional information in the **Job Task No.**, **Currency Code**, **Line Discount %**, **Unit Cost Factor**, and **Unit Cost** fields will be used on the job planning lines and job journals when this general ledger account is entered and added to a job.  
 
 The value in the **Unit Price** field for the general ledger job expense will be used on the job planning lines and job journals when this general ledger account is entered.
 
@@ -92,7 +92,7 @@ One aspect of planning jobs is deciding which posting accounts to use for job co
 > [!NOTE]  
 >   The necessary accounts in the chart of accounts must be set up before you set up posting groups. For more information, see [Set Up or Change the Chart of Accounts](finance-setup-chart-accounts.md).  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Posting Groups** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Posting Groups**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the account fields as described in the following table.  
 
 | Account field | Description |
@@ -121,4 +121,4 @@ One aspect of planning jobs is deciding which posting accounts to use for job co
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

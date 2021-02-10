@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b8c0acb51467d8320a6ebe91ee6dbf6827f8e85
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 404255e33d0fc689ee463b6fa0305bcd5cec0785
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915392"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758974"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontract Manufacturing
 Subcontracting selected operations to vendor is common in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides several tools for managing subcontract work:  
+[!INCLUDE[prod_short](includes/prod_short.md)] provides several tools for managing subcontract work:  
 
 - Work Centres with assigned vendor: This feature enables you to set up a work centre that is associated with a vendor (subcontractor). This is called a subcontract work centre. You can specify a subcontract work centre on a routing operation, which allows you to easily process the subcontracted activity. In addition, the cost of the operation can be designated at the routing or the work centre level.  
 - Work Centre cost based on units or time: This feature enables you to specify whether costs associated with the work centre are based on the production time or a flat charge per unit. Although subcontractors commonly use a flat charge per unit to charge for their services, the application can handle both options (production time and flat charge per unit).  
@@ -34,7 +34,7 @@ This **Subcontractor No.** field designates the work centre as a subcontract wor
 
 If you subcontract with the vendor for a different rate for each process, then select the **Specific Unit Cost** field. This lets you set up a cost on each routing line and saves the time of re-entering each purchase order. The cost on the routing line is used in processing instead of the cost on the work centre cost fields. Selecting the **Specific Unit Cost** field calculates costs for the vendor by the routing operation.  
 
-If you subcontract at a single rate per vendor, leave the **Specific Unit Cost** field blank. The costs will be set up by filling in **Direct Unit Cost** , **Indirect Cost %** , and **Overhead Rate** fields.  
+If you subcontract at a single rate per vendor, leave the **Specific Unit Cost** field blank. The costs will be set up by filling in **Direct Unit Cost**, **Indirect Cost %**, and **Overhead Rate** fields.  
 
 ### <a name="routings-that-use-subcontract-work-centers"></a>Routings that use Subcontract Work Centres  
 Subcontract work centres can be used for operations on routings in the same way as regular work centres.  
@@ -52,7 +52,7 @@ The **Subcontracting Worksheet** page functions like the **Planning Worksheet** 
 >  Only production orders with status **Released** can be accessed and used from a subcontracting worksheet.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>To calculate the subcontracting worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
 2.  To calculate the worksheet, choose the **Calculate Subcontracts** action.  
 3.  On the **Calculate Subcontracts** page, set filters for the subcontracted operations, or the work centres where they are performed, to calculate only the relevant production orders.  
 4.  Choose the **OK** button.  
@@ -60,7 +60,7 @@ The **Subcontracting Worksheet** page functions like the **Planning Worksheet** 
     Review the lines on the **Subcontracting Worksheet** page. The information in this worksheet comes from the production order and production order routing lines and flows to the purchase order when that document is created. You can delete a row from the worksheet without affecting the original information, just as you can with the other worksheets. The information will reappear the next time you run the **Calculate Subcontracts** function.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>To create the subcontract purchase order  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
 2.  Choose the **Carry Out Action Message** action.  
 3.  Select the **Print Orders** field to print the purchase order as it is created.  
 4.  Choose the **OK** button.  
@@ -73,10 +73,10 @@ The worksheet line that was turned into a purchase order is deleted from the wor
 Once the Subcontractor Purchase Orders have been created, they can be posted. Receiving the order posts a Capacity Ledger Entry to the production order and invoicing the order posts the direct cost of the purchase order to the production order.  
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>To post a subcontract purchase order  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** , and then select the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then select the related link.  
 2.  Open a purchase order that is created from the subcontracting worksheet.  
 
-    On the purchase order lines, you see the same information that was in the worksheet. The **Prod. Order No.** , **Prod. Order Line No.** , **Operation No.** , and **Work Center No.** fields are filled in with the information from the source production order.  
+    On the purchase order lines, you see the same information that was in the worksheet. The **Prod. Order No.**, **Prod. Order Line No.**, **Operation No.**, and **Work Center No.** fields are filled in with the information from the source production order.  
 
 3.  Choose the **Post** action.  
 
@@ -95,4 +95,4 @@ When the purchase order is posted as invoiced, then the direct cost of the purch
 [Planning](production-planning.md)      
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

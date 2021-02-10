@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c8dd465213a9882a98c1ac1623d8a093f3eecb9a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912328"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757499"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>The Payments and Reconciliations (DK) Extension
 
@@ -51,17 +51,17 @@ There are a few steps to get started.
 * Specify the payment method for each vendor. Payment methods define how you pay invoices from the vendor. For example, Bank, Cash, Cheque, or Account.  
 * Specify the type of format to use for each of your bank accounts. For example, NORDEA, DANSKEBANK, SDC, and so on.  
 
-Additionally, you must assign vendors to a domestic **Gen. Bus. Posting Group** and a **Vendor Posting Group** . The Country/Region setting for the vendor must be Denmark (DK). For more information, see [Setting Up Posting Groups](finance-posting-groups.md).  
+Additionally, you must assign vendors to a domestic **Gen. Bus. Posting Group** and a **Vendor Posting Group**. The Country/Region setting for the vendor must be Denmark (DK). For more information, see [Setting Up Posting Groups](finance-posting-groups.md).  
 
-### <a name="to-allow-d365fin-to-export-payment-data"></a>To allow [!INCLUDE[d365fin](includes/d365fin_md.md)] to export payment data
+### <a name="to-allow-prod_short-to-export-payment-data"></a>To allow [!INCLUDE[prod_short](includes/prod_short.md)] to export payment data
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.  
 2. On the **Edit Payment Journal** page, choose the **Bank** batch.  
 3. Choose the **Allow Payment Export** check box.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>To specify a payment method for a vendor
 
-The following table shows the combinations of FIK and GIRO payment methods that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports.
+The following table shows the combinations of FIK and GIRO payment methods that [!INCLUDE[prod_short](includes/prod_short.md)] supports.
 
 |Combination|Type 01 | Type 04 | Type 71 | Type 73 |
 |----|--------|---------|---------|---------|
@@ -69,42 +69,42 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 |Allows Message to Recipient? | Yes |No |No | Yes |
 |Contains Payment Reference number? | No | Yes, 16 digits. | Yes, 15 digits. | No|
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2. Open the card, expand the **Payments** tab, in the **Payment Method** field choose the payment method.  
 3. Depending on your selection, you must complete other fields. See the table above for a description of the combinations.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>To specify the format to use for a bank account
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2. Open the card for the bank account.  
 3. In the **Payment Export Format** field, choose the format for your export file.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Choosing the FIK or Giro payment information for vendor invoices
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Choose the vendor. Remember, this must be a Danish vendor with an address in Denmark.
 3. Create an invoice. The **Payment Method** and **Vendor Number** fields are filled in based on settings on the Vendor card. You can change them if you want.
 4. In the **Payment Reference** field, enter the 15-digit number from the vendor invoice.  
 
     > [!Tip]
-    > You only have to add the last 11 digits of the number. [!INCLUDE[d365fin](includes/d365fin_md.md)] will add four zeros to the beginning of the number.  
+    > You only have to add the last 11 digits of the number. [!INCLUDE[prod_short](includes/prod_short.md)] will add four zeros to the beginning of the number.  
 
 5. Post the invoice.
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>To use the extension to export payment data
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2. Choose the **Suggest Vendor Payment Journals** action.  
 
     > [!Tip]
     > If you want to export only specific payments, use the options for filtering the data.  
 
 3. If needed, you can add filters to export only specific payments.  
-4. In the **Bank Payment Type** field, choose **Electronic Payment** .  
+4. In the **Bank Payment Type** field, choose **Electronic Payment**.  
 5. Choose the **Export** action.  
 
 ## <a name="see-also"></a>See also 
 
-[Customising Business Central for [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Customising Business Central for [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [Working with General Journals](ui-work-general-journals.md)  

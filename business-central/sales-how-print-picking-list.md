@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c89cb40559a570605401108d7560f6b989e06773
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 47ae132d862d2c05bef4ea0d0af26688bdd16588
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926154"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758224"
 ---
 # <a name="print-the-picking-list"></a>Print the Picking List
 You can print an inventory picking list directly from a sales order, a sales invoice, or any other document that initiates shipment of items.
@@ -25,7 +25,7 @@ This report is typically used in companies without dedicated functionality for w
 ## <a name="to-print-a-picking-list-from-a-sales-order"></a>To print a picking list from a sales order  
 The following procedure is based on a sales order. The steps are similar for all sales documents that can be used to initiate shipment of items.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders** , and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
 2. Open the sales order that you want to pick items for.  
 3. Choose the **Report** action, and then choose the **Picking List by Order** action.  
 4. Choose the **Print** button to print the picking list or choose the **Preview** button to view it on the screen.
@@ -38,4 +38,4 @@ You can also save the picking list as a document, for example, to send to someon
 ## <a name="see-also"></a>See Also  
 [Inventory](inventory-manage-inventory.md)  
 [Pick Items](warehouse-pick-items.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)   
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   

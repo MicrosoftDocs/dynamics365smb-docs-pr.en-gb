@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 046c829955b38f6f5ea416e0a80c1fe058476942
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22153df1e56d274256b53d426e2dff30cad3e4bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918904"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758599"
 ---
 # <a name="date-calculation-for-purchases"></a>Date Calculation for Purchases
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.  
+[!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.  
 
 If you specify a requested receipt date on a purchase order header, then the calculated order date is the date on which the order must be placed to receive the items on the date that you requested. Then, the date on which the items are available for picking is calculated and entered in the **Expected Receipt Date** field.  
 
@@ -50,7 +50,7 @@ If you change the order date on the header, then that date is copied to the **Or
 
 ## <a name="default-values-for-lead-time-calculation"></a>Default values for lead time calculation
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] uses the value from the **Lead Time Calculation** field on the purchase order line to calculate the order and the expected receipt dates.  
+[!INCLUDE[prod_short](includes/prod_short.md)] uses the value from the **Lead Time Calculation** field on the purchase order line to calculate the order and the expected receipt dates.  
 
 You can manually specify the value on the line or let the program use values that are defined on the vendor card, item card, stockkeeping unit card, or the item vendor catalogue.
 However, the lead time value on the vendor card is used only if a lead time is not specified on the item card, stockkeeping unit card, or the item vendor catalogue for the item. This is also the escalating order of priority for these values. If they are all provided, the lead time from the vendor card has the lowest priority, and the lead time from the item vendor catalogue has the highest priority.  
@@ -59,4 +59,4 @@ However, the lead time value on the vendor card is used only if a lead time is n
 
 [Date Calculation for Sales](sales-date-calculation-for-sales.md)   
 [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

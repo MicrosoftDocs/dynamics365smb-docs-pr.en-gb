@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2cf9c34434136578b6ab31841c5bb7f69f72ae18
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 49448cc56d76846c70471a53a257986b543f11b3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921474"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758824"
 ---
 # <a name="planning-with-or-without-locations"></a>Planning With or Without Locations
 Concerning planning with or without location codes on demand lines, the planning system operates in a straight forward way when:  
@@ -50,7 +50,7 @@ During a planning run, the system checks for the 3 setup values in sequence and 
 
     If no, then:  
 
-    The item is planned according to: Reordering Policy =  *Lot-for-Lot* , Include Inventory =  *Yes* , all other planning parameters = Empty. (Items using reordering policy  *Order* remain using  *Order* as well as the other settings.)  
+    The item is planned according to: Reordering Policy =  *Lot-for-Lot*, Include Inventory =  *Yes*, all other planning parameters = Empty. (Items using reordering policy  *Order* remain using  *Order* as well as the other settings.)  
 
 > [!NOTE]  
 >  This minimal alternative only covers the exact demand. Any planning parameters defined are ignored.  
@@ -59,7 +59,7 @@ See variations in the scenarios below.
 
 ## <a name="demand-at-blank-location"></a>Demand at "Blank Location"  
 Even if the **Location Mandatory** check box is selected, the system will allow demand lines to be created without a location code – also referred to as *BLANK* location. This is a deviation for the system because it has various setup values tuned to dealing with locations (see above) and as a result, the planning engine will not create a planning line for such a demand line. If the **Location Mandatory** field is not selected but any of the location setup values exist, then that is also considered a deviation and the planning system will react by outputting the "minimal alternative":   
-The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains *Order)* , Include Inventory =  *Yes* , all other planning parameters = Empty.  
+The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains *Order)*, Include Inventory =  *Yes*, all other planning parameters = Empty.  
 
 See variations in the setup scenarios below.  
 
@@ -79,7 +79,7 @@ The item is planned according to planning parameters on the item card.
 
 #### <a name="case-13-demand-is-at--green-location"></a>Case 1.3: Demand is at  *GREEN* location  
 
-The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order* ), Include Inventory =  *Yes* , all other planning parameters = Empty.  
+The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.  
 
 #### <a name="case-14-demand-is-at--blank-location"></a>Case 1.4: Demand is at  *BLANK* location  
 
@@ -93,7 +93,7 @@ The item is not planned because no location is defined on the demand line.
 
 #### <a name="case-21-demand-is-at--red-location"></a>Case 2.1: Demand is at  *RED* location  
 
-The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order* ), Include Inventory =  *Yes* , all other planning parameters = Empty.  
+The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.  
 
 #### <a name="case-22-demand-is-at--blue-location"></a>Case 2.2: Demand is at  *BLUE* location  
 
@@ -107,7 +107,7 @@ The item is planned according to planning parameters on the item card.
 
 #### <a name="case-31-demand-is-at--red-location"></a>Case 3.1: Demand is at  *RED* location  
 
-The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order* ), Include Inventory =  *Yes* , all other planning parameters = Empty.  
+The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.  
 
 #### <a name="case-32-demand-is-at--blue-location"></a>Case 3.2: Demand is at  *BLUE* location  
 
@@ -115,7 +115,7 @@ The item is planned according to planning parameters on the item card.
 
 #### <a name="case-33-demand-is-at--blank-location"></a>Case 3.3: Demand is at  *BLANK* location  
 
-The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order* ), Include Inventory =  *Yes* , all other planning parameters = Empty.  
+The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.  
 
 ### <a name="setup-4"></a>Setup 4:  
 
@@ -125,7 +125,7 @@ The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* r
 
 #### <a name="case-41-demand-is-at--blue-location"></a>Case 4.1: Demand is at  *BLUE* location  
 
-The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order* ), Include Inventory =  *Yes* , all other planning parameters = Empty.  
+The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.  
 
 #### <a name="case-42-demand-is-at--blank-location"></a>Case 4.2: Demand is at  *BLANK* location  
 
@@ -143,4 +143,4 @@ Therefore, if you often plan for demand at locations, it is strongly advised to 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37b999dd9000ac9833798f827f85bfd945878638
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926404"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758349"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Set Up Rules for Automatic Application of Payments
 
@@ -40,7 +40,7 @@ In addition to the matching criteria, the following applies concerning the sign 
 - For positive amounts, a match is made first against open entries representing vendor invoices and then against customer credit memos.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>To set up a payment application rule
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Application Rules** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Application Rules**, and then choose the related link.
 2. Define a new or edited payment application rule by filling the fields on a line as described in the following table.
 
 |Field|Description|
@@ -51,10 +51,10 @@ In addition to the matching criteria, the following applies concerning the sign 
 |**Doc. No./Ext. Doc. No. Matched**|Specifies if text on the payment reconciliation journal line must match with the value in the **Document No.** field or the **External Document No.** field on the open entry before the application rule will be used to automatically apply the payment to the open entry.|
 |**Amount Incl. Tolerance Matched**|Specifies how many entries for a customer or vendor must match the amount including payment tolerance before the application rule will be used to automatically apply a payment to the open entry.|
 
-The following table shows which payment application rules are set up in the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+The following table shows which payment application rules are set up in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
-> The payment application rules may be different in your implementation of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> The payment application rules may be different in your implementation of [!INCLUDE[prod_short](includes/prod_short.md)].
 
 | Match Confidence | Priority | Related Party Matched | Doc. No./Ext. Doc. No. Matched | Amount Incl. Tolerance Matched |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
@@ -89,4 +89,4 @@ The following table shows which payment application rules are set up in the gene
 [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
