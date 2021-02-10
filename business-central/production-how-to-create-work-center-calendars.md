@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 343f608e9f8a451b67422a3c198ba4306256c0ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 127ae5af7533c4a6b8b77f2ed88fe90e4453966e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921673"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759324"
 ---
 # <a name="set-up-shop-calendars"></a>Set Up Shop Calendars
 A work centre or machine calendar specifies the working days and hours, shifts, holidays, and absences that determine the centre’s gross available capacity, measured in time, according to its defined efficiency and capacity values.
@@ -25,15 +25,15 @@ As a foundation for calculating a specific work or machine centre calendar, you 
 The following describes how to set up work centre calendars. The steps are similar when setting up machine centre calendars.  
 
 ## <a name="to-create-work-shifts"></a>To create work shifts  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Shifts** , and then choose the related link.  
-2.  On a blank line, enter a number in the **Code** field to identify the work shift, for example, **1** .  
-3.  Describe the work shift in the **Description** field, for example, **1st shift** .  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Shifts**, and then choose the related link.  
+2.  On a blank line, enter a number in the **Code** field to identify the work shift, for example, **1**.  
+3.  Describe the work shift in the **Description** field, for example, **1st shift**.  
 4.  Optionally, fill in lines for a second or third work shift.  
 
 Even if your work centres do not work in different work shifts, enter at least one work shift code.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>To set up a shop calendar  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shop Calendars** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shop Calendars**, and then choose the related link.  
 2.  On a blank line, enter a number in the **Code** field to identify the shop calendar.  
 3.  Describe the shop calendar in the **Description** field.  
 4.  Choose the **Working Days** action.
@@ -68,7 +68,7 @@ The shop calendar can now be assigned to a work centre to calculate the work sho
 
 ## <a name="to-calculate-a-work-center-calendar"></a>To calculate a work centre calendar  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres** , and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.
 2. Open the work centre that you want to update.  
 3. In the **Shop Calendar Code** field, select which shop calendar to use as the foundation for a work centre calendar.  
 4. Choose the **Calendar** action.  
@@ -110,4 +110,4 @@ The capacity of the selected day has now decreased by the recorded absence time.
 [Set Up Work Centres and Machine Centres](production-how-to-set-up-work-and-machine-centers.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

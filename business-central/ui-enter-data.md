@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912503"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840260"
 ---
 # <a name="entering-data"></a>Entering Data
 
@@ -24,7 +24,7 @@ There are many general features that help you enter data easier, faster, and mor
 The examples in this article use the demonstration data.
 
 ## <a name="working-with-editable-fields"></a>Working with editable fields
-Fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] may contain different editable data, such as text or currency amounts. Editable fields typically display an input box where you can type or choose a value. Non-editable fields are typically displayed with a grey background.   
+Fields in [!INCLUDE[prod_short](includes/prod_short.md)] may contain different editable data, such as text or currency amounts. Editable fields typically display an input box where you can type or choose a value. Non-editable fields are typically displayed with a grey background.   
 
 Some editable fields provide a picker to help you specify a value.  
 
@@ -44,7 +44,7 @@ To modify the value of a field, you must first set focus to that field. You set 
 - Use the **Tab** key. The action selects the entire value.
 - Left-click your mouse or similar input device. This action will only select the entire field value if the field is in a list.  
 
-When you interact with fields in the user interface, [!INCLUDE[d365fin](includes/d365fin_md.md)] typically favours selecting the entire field value to make it easier for you to replace that value.
+When you interact with fields in the user interface, [!INCLUDE[prod_short](includes/prod_short.md)] typically favours selecting the entire field value to make it easier for you to replace that value.
 
 When the entire field value is selected:
 - Replace the value by just typing to specify a new value. If the field offers a picker, you can activate it using the **Alt+Arrow-down** keyboard shortcut.
@@ -54,7 +54,7 @@ Press the **F2** key to toggle between selecting the entire field value or placi
 
 When the cursor is shown at the end of the field value:
 - Add to the value by just typing.
-- Use the **Home** , **End** , **Left-arrow** , and **Right-arrow** keys to move the cursor within the value. If you're editing a field in a list, pressing the **Left-arrow** key again when the cursor is at the beginning of the value will set focus to the previous field. Similarly, pressing the **Right-arrow** key again when the cursor is at the end of the value will set focus to the next field.
+- Use the **Home**, **End**, **Left-arrow**, and **Right-arrow** keys to move the cursor within the value. If you're editing a field in a list, pressing the **Left-arrow** key again when the cursor is at the beginning of the value will set focus to the previous field. Similarly, pressing the **Right-arrow** key again when the cursor is at the end of the value will set focus to the next field.
 
 > [!NOTE]
 > After you specify a value, Business Central will only check that it's valid after you click outside the field or set focus to another element, such as the next field.  
@@ -74,7 +74,7 @@ You can use the Tab key to navigate from one field on a page to the next editabl
 
 ### <a name="how-quick-entry-works"></a>How Quick Entry Works
 
-Every field can be marked as either *included in Quick Entry* or *excluded from Quick Entry* . Fields that are included in Quick Entry will be included in the path when you press Enter. Fields that are excluded from Quick Entry won't.
+Every field can be marked as either *included in Quick Entry* or *excluded from Quick Entry*. Fields that are included in Quick Entry will be included in the path when you press Enter. Fields that are excluded from Quick Entry won't.
 
 When you're finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry Shortcuts for Fields](keyboard-shortcuts.md#QuickEntry).
 
@@ -85,7 +85,7 @@ The following list provides some useful information about using Quick Entry.
 - It's available for any editable fields.
 - It also works across columns and rows.
 - It doesn't prevent accessing other elements of a page, such as actions. These elements are still accessible by using Tab and Shift+Tab.  
-- It's not required that FastTabs are expanded for Quick Entry to work. If the next Quick Entry field is located in a collapsed FastTab, that FastTab will automatically expand and focus on the chosen field. [!INCLUDE[d365fin](includes/d365fin_md.md)] will remember that the FastTab should be expanded next time you visit the page.  
+- It's not required that FastTabs are expanded for Quick Entry to work. If the next Quick Entry field is located in a collapsed FastTab, that FastTab will automatically expand and focus on the chosen field. [!INCLUDE[prod_short](includes/prod_short.md)] will remember that the FastTab should be expanded next time you visit the page.  
 - Quick Entry works no matter whether fields are mandatory. So it's a good idea to ensure that mandatory fields are included in Quick Entry.
 - By default, most fields are automatically included in Quick Entry. So initially your task will most likely be excluding fields from Quick Entry.
 
@@ -94,7 +94,7 @@ The following list provides some useful information about using Quick Entry.
 To set up Quick Entry on fields, you use personalisation.
 
 1. Start personalisation by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then the **Personalise** action.
-2. Select a field that you want change. In lists, select the corresponding column heading. Then, choose either **Include in Quick Entry** or **Exclude from Quick Entry** .
+2. Select a field that you want change. In lists, select the corresponding column heading. Then, choose either **Include in Quick Entry** or **Exclude from Quick Entry**.
 
 For more information about personalisation, see [Personalise Your Workspace](ui-personalization-user.md).
 
@@ -120,7 +120,7 @@ You can copy one or more rows from a list or a single field on a page. Then past
 
 In a list, to copy the field in the same column of the row above, and paste it into the current row, just press F8.
 
-For more information, see [Copying and Pasting FAQ](ui-copy-paste.md).
+For more information, see [Copying and Pasting FAQ](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Filtering Line Items
 
@@ -162,7 +162,7 @@ To open the current card or document in a new window, choose ![Open New Window](
 > If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify the product URL as an allowed website. For information see, [Change preferences in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > The same may happen in other browsers, such as Firefox. For more information, see [Pop-up blocker settings in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Another way to multitask, is to open [!INCLUDE[d365fin](includes/d365fin_md.md)] on two or more browser tabs. When you do it this way, you should create a new tab and then copy/paste the URL of the original tab into the new tab. This way creates a new session.   
+Another way to multitask, is to open [!INCLUDE[prod_short](includes/prod_short.md)] on two or more browser tabs. When you do it this way, you should create a new tab and then copy/paste the URL of the original tab into the new tab. This way creates a new session.   
 
 > [!NOTE]
 > Don't use the **Duplicate** function of the browser to create the new tab as this may cause actions on one tab to block actions on other tabs because they are part of the same session.
@@ -192,7 +192,7 @@ You can enter negative numbers in two ways. The number -20.5 can be entered as:
 
  In both cases, the amount will be recorded in as -20.5.  
 
- If the last character of the expression is a **+** or a **-** , the entire expression will be recorded with that sign. An example, **10-20+** will result in 10 and not -10.  
+ If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign. An example, **10-20+** will result in 10 and not -10.  
 
 ## <a name="entering-dates-and-times"></a>Entering Dates and Times
 
@@ -294,4 +294,4 @@ Here are some examples.
 
 ## <a name="see-also"></a>See Also  
  [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

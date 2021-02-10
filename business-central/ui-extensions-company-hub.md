@@ -1,6 +1,6 @@
 ---
-title: Using the Company Hub | Microsoft Docs
-description: Provides information about the Company Hub extension.
+title: Using the Company Hub
+description: Provides information about the Company Hub extension that you can use to manage work across multiple companies in Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +10,16 @@ ms.workload: na
 ms. search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c7304e170ecb6f71c3d0c85a80bff7c14a268f54
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ec59a17d9a3a32e1c17cf6670f69bcc4077993aa
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927744"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014132"
 ---
 # <a name="the-company-hub-for-business-central-extension"></a>The Company Hub for Business Central Extension
 
-This application provides a dashboard with summary data for each company that the user has access to across all [!INCLUDE [prodshort](includes/prodshort.md)] online, such as the many clients of an accountant. The home page displays financial KPIs as well as a direct link to the individual environments and companies so that users can.
+This application provides a dashboard with summary data for each company that the user has access to across all [!INCLUDE [prod_short](includes/prod_short.md)] online, such as the many clients of an accountant. The home page displays financial KPIs as well as a direct link to the individual environments and companies so that users can.
 
 The dashboard is a highly specialised Role Centre for a better overview of your work.
 
@@ -27,7 +27,7 @@ When you first install the extension, a sample company helps you get started. Yo
 
 ## <a name="installing-the-extension"></a>Installing the Extension
 
-When you install the extension in your [!INCLUDE [prodshort](includes/prodshort.md)], you will be asked if you want to use it now. If you do, then you must sign out and sign in again, because the extension replaces your current Role Centre and adds permissions to your user profile.
+When you install the extension in your [!INCLUDE [prod_short](includes/prod_short.md)], you will be asked if you want to use it now. If you do, then you must sign out and sign in again, because the extension replaces your current Role Centre and adds permissions to your user profile.
 
 ## <a name="see-also"></a>See also 
 

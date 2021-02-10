@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 12/03/2020
 ms.author: edupont
-ms.openlocfilehash: 5ca69a35aac0ba61591dfdfd71d739726e2fb62f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa2830aeb62fe6acea5f8e3879c678e9d8407fb4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910137"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760324"
 ---
 # <a name="posting-sales"></a>Posting Sales
 
@@ -25,9 +25,10 @@ Under the **Posting** menu in a sales document, you can choose between the follo
 * **Post and New**
 * **Post and Send**
 * **Preview Posting**
-* **Draft Invoice**
-* **Pro Forma Invoice**
+* **Post Batch**
 * **Test Report**
+
+> [NOTE!] For sales orders, you can also see options related to the prepayments functionality. For more information, see [Invoicing Prepayments](finance-invoice-prepayments.md). 
 
 When you have completed all the lines and entered all the information on the sales order, you can post it. This creates a shipment and an invoice.
 
@@ -44,7 +45,7 @@ You can either post, or post and send. If you choose to post and send, a PDF fil
 
 ## <a name="viewing-ledger-entries"></a>Viewing Ledger Entries
 
-When the posting is completed, the posted sales lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Cust. Ledger Entries** , **G/L Entries** , **Item Ledger Entries** , **Posted Sales Shipments** , and **Posted Sales Invoices** pages.  
+When the posting is completed, the posted sales lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Cust. Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **Posted Sales Shipments**, and **Posted Sales Invoices** pages.  
 
 In most cases, you can open ledger entries from the affected card or document. For example, on the **Customer Card** page, choose the **Ledger Entries** action.
 
@@ -62,4 +63,4 @@ You can edit certain fields on posted purchase documents, such as the **Package 
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

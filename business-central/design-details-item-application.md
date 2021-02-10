@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 14aae820463718357d3bac69524751833f5dd79d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: df1baacad6a1bca50c3d1891ab69e920fd375b12
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913670"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035489"
 ---
 # <a name="design-details-item-application"></a>Design Details: Item Application
 
@@ -23,7 +23,7 @@ When you post an inventory transaction, the quantity posting is recorded in the 
 
 In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] makes two types of item application.  
+[!INCLUDE[prod_short](includes/prod_short.md)] makes two types of item application.  
 
 |Application type|Description|  
 |----------------------|---------------------------------------|  
@@ -35,7 +35,7 @@ Item applications can be made in the following ways.
 |Method|Description|Application type|  
 |------------|---------------------------------------|----------------------|  
 |Automatic|Occurs as general cost forwarding according to the costing method|Quantity application|  
-|Fixed|Made by the user when:<br /><br /> -   Processing returns<br />-   Posting corrections<br />-   Undoing quantity postings<br />-   Creating drop shipments **Note:**  The fixed application can be  made either manually by entering an entry number in the **Appl.-from Item Entry** field or by using a function, such as the **Get Posted Document Lines to Reverse** .|Quantity application<br /><br /> Cost application **Note:**  Cost application only occurs in inbound transactions where the **Appl.-from Item Entry** field is filled to create a fixed application. See the next table.|  
+|Fixed|Made by the user when:<br /><br /> -   Processing returns<br />-   Posting corrections<br />-   Undoing quantity postings<br />-   Creating drop shipments **Note:**  The fixed application can be  made either manually by entering an entry number in the **Appl.-from Item Entry** field or by using a function, such as the **Get Posted Document Lines to Reverse**.|Quantity application<br /><br /> Cost application **Note:**  Cost application only occurs in inbound transactions where the **Appl.-from Item Entry** field is filled to create a fixed application. See the next table.|  
 
 Whether quantity applications or cost applications are made depends on the direction of the inventory transaction and whether the item application is made automatically or fixed, in connection with special processes.  
 
@@ -89,7 +89,7 @@ The following table shows the two item application entries that result from the 
 ## <a name="fixed-application"></a>Fixed Application  
 You make a fixed application when you specify that the cost of an inventory increase should apply to a specific inventory decrease, or vice versa. The fixed application affects the remaining quantities of the entries, but the fixed application also reverses the exact cost of the original entry that you are applying to, or from.  
 
-To make a fixed application, you use the **Appl.-to Item Entry** field or the **Appl.-from Item Entry** field in the document lines to specify the item ledger entry that you want the transaction line to apply to, or from. For example, you might make a fixed application when you want to create a cost application that specifies that a sales return should apply to a specific sales shipment to reverse the cost of the sales shipment. In this case, [!INCLUDE[d365fin](includes/d365fin_md.md)] ignores the costing method and applies the inventory decrease, or increase, for a sales return, to the item ledger entry that you specify. The advantage of making a fixed application is that the cost of the original transaction is passed to the new transaction.  
+To make a fixed application, you use the **Appl.-to Item Entry** field or the **Appl.-from Item Entry** field in the document lines to specify the item ledger entry that you want the transaction line to apply to, or from. For example, you might make a fixed application when you want to create a cost application that specifies that a sales return should apply to a specific sales shipment to reverse the cost of the sales shipment. In this case, [!INCLUDE[prod_short](includes/prod_short.md)] ignores the costing method and applies the inventory decrease, or increase, for a sales return, to the item ledger entry that you specify. The advantage of making a fixed application is that the cost of the original transaction is passed to the new transaction.  
 
 ### <a name="example--fixed-application-in-purchase-return"></a>Example – Fixed Application in Purchase Return  
 The following example, which illustrates the effect of fixed application of a purchase return of an item using the FIFO costing method, is based on the following scenario:  
@@ -120,12 +120,14 @@ The cost of the second purchase, LCY 20.00, is passed correctly to the purchase 
 The following example, which illustrates the effect of fixed application, is based on the following scenario for an item that uses the Average costing method:  
 
 1. In entry numbers 1 and 2, the user posts two purchase invoices. The second invoice has the incorrect direct unit cost of LCY 1000.00.  
-2. In entry number 3, the user posts a purchase credit memo, with a fixed application applied to the purchase entry with the wrong direct unit cost. The sum of the **Cost Amount (Actual)** field for the two fixed applied value entries becomes 0.00  
+2. In entry number 3, the user posts a purchase credit memo with a fixed application applied to the purchase entry with the wrong direct unit cost. The sum of the **Cost Amount (Actual)** field for the two fixed applied value entries becomes 0.00  
 3. In entry number 4, the user posts another purchase invoice with the correct direct unit cost of LCY 100.00  
 4. In entry number 5, the user posts a sales invoice.  
 5. The inventory quantity is 0, and the inventory value is also 0.00  
 
 The following table shows the result of the scenario on the item's value entries.  
+
+The following table shows the result of the scenario on the item's value entries after posting is complete and cost adjustment has been run.
 
 |Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
@@ -190,7 +192,7 @@ The following table shows the effect of the exact cost reversal on the item's va
 When you run the **Adjust Cost - Item Entries** batch job, the increased cost of the purchase entry, due to the item charge, is forwarded to the sales entry (entry number 2). The sales entry then forwards this increased cost to the sales credit entry (entry number 3). The final result is that the cost is correctly reversed.  
 
 > [!NOTE]  
->  If you are working with returns or credit memos and you have set up the **Exact Cost Reversing Mandatory** field in either the **Purchases & Payables Setup** page or the **Sales & Receivables Setup** page, as appropriate for your situation, then [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically fills the various application entry fields when you use the **Copy from Document** function. If you use the **Get Posted Document Lines to Reverse** function, then the fields are always filled automatically.  
+>  If you are working with returns or credit memos and you have set up the **Exact Cost Reversing Mandatory** field in either the **Purchases & Payables Setup** page or the **Sales & Receivables Setup** page, as appropriate for your situation, then [!INCLUDE[prod_short](includes/prod_short.md)] automatically fills the various application entry fields when you use the **Copy from Document** function. If you use the **Get Posted Document Lines to Reverse** function, then the fields are always filled automatically.  
 
 > [!NOTE]  
 >  If you post a transaction with a fixed application, and the item ledger entry that you are applying to is closed, meaning that the remaining quantity is zero, then the old application is automatically undone and reapplies the item ledger entry using the fixed application that you specified.  
@@ -203,30 +205,30 @@ The following example, which illustrates how transfer entries are applied, is ba
 
 1. The user purchases the item at a cost of LCY 10.00.  
 2. The user purchases the item again at a cost of LCY 20.00.  
-3. The user transfers the item from BLUE to RED location.  
+3. The user transfers the item from EAST to WEST location.  
 
 The following table shows the effect of the transfer on the item's value entries.  
 
 |Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount (Actual)|Entry No.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|BLUE|1|10.00|1|  
-|01-01-20|Purchase|BLUE|1|20.00|2|  
-|02-01-20|Transfer|BLUE|-1|15.00|3|  
-|02-01-20|Transfer|RED|1|15.00|4|  
+|01-01-20|Purchase|EAST|1|10.00|1|  
+|01-01-20|Purchase|EAST|1|20.00|2|  
+|02-01-20|Transfer|EAST|-1|15.00|3|  
+|02-01-20|Transfer|WEST|1|15.00|4|  
 
 ### <a name="example--standard-costing-method"></a>Example – Standard Costing Method  
 The following example, which illustrates how transfer entries are applied, is based on the following scenario for an item using Standard costing method and an average cost period of Day.  
 
 1. The user purchases the item at a standard cost of LCY 10.00.  
-2. The user transfers the item from BLUE to RED location at a standard cost of LCY 12.00.  
+2. The user transfers the item from EAST to WEST location at a standard cost of LCY 12.00.  
 
 The following table shows the effect of the transfer on the item's value entries.  
 
 |Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount (Actual)|Entry No.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|BLUE|1|10.00|1|  
-|02-01-20|Transfer|BLUE|-1|10.00|2|  
-|02-01-20|Transfer|RED|1|10.00|3|  
+|01-01-20|Purchase|EAST|1|10.00|1|  
+|02-01-20|Transfer|EAST|-1|10.00|2|  
+|02-01-20|Transfer|WEST|1|10.00|3|  
 
 Since the value of the original inventory increase is LCY 10.00, the transfer is valued at that cost, not at LCY 12.00.  
 
@@ -238,7 +240,7 @@ Because of the way an item's unit cost is calculated, an incorrect item applicat
 * You want to overrule the application created automatically when posting, according to the item's costing method.  
 * You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offers a feature for analyzing and correcting item applications. This work is performed on the **Application Worksheet** page.  
+[!INCLUDE[prod_short](includes/prod_short.md)] offers a feature for analyzing and correcting item applications. This work is performed on the **Application Worksheet** page.  
 
 ## <a name="see-also"></a>See Also  
 [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -248,4 +250,4 @@ Because of the way an item's unit cost is calculated, an incorrect item applicat
 [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

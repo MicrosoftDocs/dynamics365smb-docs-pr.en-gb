@@ -10,16 +10,16 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.openlocfilehash: b44044b9ec2c71ad3b99f25b4a941a3ab473ca4f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a29b2ea19d812d60d2824c131e311c34d74612af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912028"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760223"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Troubleshooting: Accessing Camera and Location
 
-You might come across some issues when trying to access the camera and location information of a device from [!INCLUDE[prodshort](includes/prodshort.md)]. You can find the possible causes behind these problems and how to work around them listed below.
+You might come across some issues when trying to access the camera and location information of a device from [!INCLUDE[prod_short](includes/prod_short.md)]. You can find the possible causes behind these problems and how to work around them listed below.
 
 ## <a name="device-must-have-camera-and-location-capabilities"></a>Device must have Camera and Location Capabilities
 
@@ -29,11 +29,11 @@ If your device has camera and location capabilities but you still encounter prob
 
 ## <a name="access-permissions-not-enabled"></a>Access Permissions not Enabled
 
-You must enable general access to camera and location from your device's privacy settings and explicitly give permission to  [!INCLUDE[prodshort](includes/prodshort.md)] to access them. For example, to see or change permissions for a device running on Windows, go to **Settings** , choose **Privacy** , and then **App permissions** . 
+You must enable general access to camera and location from your device's privacy settings and explicitly give permission to  [!INCLUDE[prod_short](includes/prod_short.md)] to access them. For example, to see or change permissions for a device running on Windows, go to **Settings**, choose **Privacy**, and then **App permissions**. 
 
-For mobile devices, you must give camera and location access permissions to the [!INCLUDE[prodshort](includes/prodshort.md)] Mobile App. To do so for an iOS device, go to **Settings** , choose **Privacy** , and then **Camera** or **Location** . For Android devices go to **Settings** , choose **Apps & Notifications** , **Advanced** , **Permission Manager** , and then **Camera** or **Location** .
+For mobile devices, you must give camera and location access permissions to the [!INCLUDE[prod_short](includes/prod_short.md)] Mobile App. To do so for an iOS device, go to **Settings**, choose **Privacy**, and then **Camera** or **Location**. For Android devices go to **Settings**, choose **Apps & Notifications**, **Advanced**, **Permission Manager**, and then **Camera** or **Location**.
 
-In addition, if you are using [!INCLUDE[prodshort](includes/prodshort.md)] in a browser, you must also grant the [!INCLUDE[prodshort](includes/prodshort.md)] site permission to access the camera or location information. To see or change a site's permissions in the Microsoft Edge browser, go to **Settings** , choose **Site Permissions** , and then **Camera** or **Location** . Note that this might be different for other browsers.
+In addition, if you are using [!INCLUDE[prod_short](includes/prod_short.md)] in a browser, you must also grant the [!INCLUDE[prod_short](includes/prod_short.md)] site permission to access the camera or location information. To see or change a site's permissions in the Microsoft Edge browser, go to **Settings**, choose **Site Permissions**, and then **Camera** or **Location**. Note that this might be different for other browsers.
 
 By default, the device or browser will pop up a request to access these capabilities when the user activates them for the first time.
 
@@ -49,7 +49,7 @@ The only exception is connecting to `http://localhost`, used for development and
 
 ## <a name="working-with-virtualization-technologies"></a>Working with Virtualization Technologies
 
-When connecting to [!INCLUDE[prodshort](includes/prodshort.md)] through Remote Desktop or another virtualization, the access to camera or location might not be available. If this is the case, use the physical system instead.
+When connecting to [!INCLUDE[prod_short](includes/prod_short.md)] through Remote Desktop or another virtualization, the access to camera or location might not be available. If this is the case, use the physical system instead.
 
 ## <a name="antivirus-software"></a>Antivirus Software
 Some antivirus software block access to camera and location by default. Remember to check your antivirus software settings.

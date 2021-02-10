@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0ff9dd0851b220b9e3e4888e43ffa070397b8943
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8e5a9c93315c1bc199dbcbfe9076c01828524e96
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911928"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759949"
 ---
 # <a name="ship-items"></a>Ship Items
 
@@ -30,7 +30,7 @@ When you ship items from a warehouse that is set up warehouse shipment processin
 
 The following describes how to ship items from a sales order. The steps are similar for purchase return orders, service orders, and outbound transfer orders.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Open an existing sales order, or create a new one. For more information, see [Sell Products](sales-how-sell-products.md).
 3. In the **Qty. to Ship** field, enter the shipped quantity.
 
@@ -38,7 +38,7 @@ The following describes how to ship items from a sales order. The steps are simi
 4. Choose the **Post** action.
 
 > [!NOTE]
-> If your organisation does not use sales orders, then, when you post the sales invoice, [!INCLUDE [prodshort](includes/prodshort.md)] assumes that you have shipped the full quantity. If this contradicts with how your organisation works, then we recommend that you use sales orders and register shipments as explain in this article.
+> If your organisation does not use sales orders, then, when you post the sales invoice, [!INCLUDE [prod_short](includes/prod_short.md)] assumes that you have shipped the full quantity. If this contradicts with how your organisation works, then we recommend that you use sales orders and register shipments as explain in this article.
 
 ## <a name="to-ship-items-with-a-warehouse-shipment"></a>To ship items with a warehouse shipment
 
@@ -46,9 +46,9 @@ First you create a shipment document from a business source document. Then you p
 
 ### <a name="to-create-a-warehouse-shipment"></a>To create a warehouse shipment
 
-Typically, the employee who is responsible for shipping creates a warehouse shipment. The following procedure describes how to create the shipment manually in the default version of [!INCLUDE[prodshort](includes/prodshort.md)], but your organisation might have automated part of the process, such as with the use of hand-held or mounted scanners that are supported by external providers.  
+Typically, the employee who is responsible for shipping creates a warehouse shipment. The following procedure describes how to create the shipment manually in the default version of [!INCLUDE[prod_short](includes/prod_short.md)], but your organisation might have automated part of the process, such as with the use of hand-held or mounted scanners that are supported by external providers.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments**, and then choose the related link.  
 2. Choose the **New** action.  
 
     Fill in the fields on **General** FastTab. When you retrieve source document lines, some of the information is copied to each line.  
@@ -83,12 +83,12 @@ When you have the lines you want to ship, you can start the process that sends t
 
 Typically, a warehouse worker responsible for picking creates a pick document, or opens an already created pick document.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments**, and then choose the related link.
 2. Select the warehouse shipment that you want to pick for, and then choose the **Create Pick** action.
 3. Fill in the fields in the request page, and then choose the **OK** button. The specified warehouse pick document is created.
 
     Alternatively, open an existing warehouse pick.
-4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks** , and then choose the related link. Select the warehouse pick that you want to work on.
+4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link. Select the warehouse pick that you want to work on.
 
     If the warehouse is set up to use bins, then the pick lines have been converted to Take and Place action lines.
 
@@ -105,7 +105,7 @@ For more information about picking for warehouse shipments, see [Pick Items for 
 You can also use the pick worksheet to make several pick instructions into one instruction (for several shipments) and thereby improve the efficiency of picking in the warehouse. For more information, see [Plan Pick in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
-> If you are waiting for particular items to arrive at the warehouse, and you use cross-dock functionality, then [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates on each shipment or pick worksheet line the quantity of the item that is in the cross-dock bin. It updates this field each time you leave and open the shipment document or worksheet. For more information, see [Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
+> If you are waiting for particular items to arrive at the warehouse, and you use cross-dock functionality, then [!INCLUDE[prod_short](includes/prod_short.md)] calculates on each shipment or pick worksheet line the quantity of the item that is in the cross-dock bin. It updates this field each time you leave and open the shipment document or worksheet. For more information, see [Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="see-also"></a>See Also
 
@@ -114,4 +114,4 @@ You can also use the pick worksheet to make several pick instructions into one i
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 59830cc2e9b90f9ee6c6fd61cb9715ce60208ad1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 30f29078c4ca32f934427d8b07715077a8175e6b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923202"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759699"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Put Away Production or Assembly Output
 How you put away your output from production depends on how your warehouse is set up as a location. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
@@ -27,14 +27,14 @@ In advanced warehouse configurations where the location requires both put-away a
 The first step in creating putting output away is to create the inbound warehouse request. This request informs the warehouse that the production or assembly order output is ready to be put away.
 
 ## <a name="to-create-the-inbound-warehouse-request"></a>To create the inbound warehouse request  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
 2.  On the production order that is ready for put-away, choose the **Create Inbound Whse. Request** action.  
 
 > [!NOTE]  
 >  You can also create the inbound warehouse request by selecting the **Create Inbound Request** check box when you refresh the production order. For more information, see [Refresh or Replan Production Orders](production-how-to-replan-refresh-production-orders.md).  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>To put output away with an inventory put-away  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-away** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-away**, and then choose the related link.  
 2.  Create a new inventory put-away. For more information, see [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  To access the production order output, choose the **Get Source Documents** action, and then select the released production order.  
 4.  Fill in the put-away lines as appropriate.
@@ -47,22 +47,22 @@ When you post an inventory put-away, it is assumed that all the operations are p
 If you only need to post setup or run time on the last operation, then set the output quantity on the last operation to 0. Alternatively, you can choose not to post the last line at all by simply deleting it  
 
 ## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>To put output away with a warehouse internal put-away
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Internal Put-away** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Internal Put-away**, and then choose the related link.  
 2. Choose the **New** action.
-3. Fill in the header of a new internal put-away with at least the **Location Code** .  
+3. Fill in the header of a new internal put-away with at least the **Location Code**.  
 4. Fill in a line for each item you wish to move to the warehouse. You only have to fill in the **Item No.** and the **Quantity** fields.  
 
     > [!NOTE]  
-    >  When you select the **Item No.** field, the **Bin Contents List** opens instead of the **Item List** . This is because you want to put away an item that is in a particular bin - a Bin Content - not just an item, and you already know the bin the item should be taken from.  
+    >  When you select the **Item No.** field, the **Bin Contents List** opens instead of the **Item List**. This is because you want to put away an item that is in a particular bin - a Bin Content - not just an item, and you already know the bin the item should be taken from.  
 
 4.  To fill the worksheet lines with the entire bin content or the filtered bin content of bins in the location, choose the **Get Bin Content** action.  
 5.  Choose the **Create Put-away** action, and the items you want to move out of production are now on put-away instructions waiting to be stored in the warehouse.  
 
 > [!NOTE]  
->  When your warehouse location is set up to use directed put-away and pick, the warehouse is linked to your manufacturing facility through the default production bins: the inbound and outbound production bins and the open shop bin, all of which you define on the **Bins** FastTab of the location card. When you post the output of a production order, the output is placed in the **Outbound Production Bin** . You follow the same procedure as described above to put-away the production output, except that instead of using the item's default bin, you will move or put-away the items from the **Outbound Production Bin** to the item's default bin.  
+>  When your warehouse location is set up to use directed put-away and pick, the warehouse is linked to your manufacturing facility through the default production bins: the inbound and outbound production bins and the open shop bin, all of which you define on the **Bins** FastTab of the location card. When you post the output of a production order, the output is placed in the **Outbound Production Bin**. You follow the same procedure as described above to put-away the production output, except that instead of using the item's default bin, you will move or put-away the items from the **Outbound Production Bin** to the item's default bin.  
 
 ## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>To manually specify a bin to store items from production output  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
 2.  Fill in the header, and create a line for each item you wish to move to the warehouse.  
 3.  Fill in both the **From Bin Code** and the **To Bin Code** fields, and enter the quantity in the **Quantity** field.  
 4.  To fill the worksheet lines with the entire bin content or the filtered bin content of bins in the location, choose the **Get Bin Content** action.  
@@ -77,4 +77,4 @@ If you only need to post setup or run time on the last operation, then set the o
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6b517c9b34d7046e8a4aae49f0392edf28cf4341
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed8b60c5b49502251f6ab6e61d22fd860af0915f
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912553"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024545"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Define Document Layouts for Customers and Vendors
-When custom report layouts are defined, you can select them from customer and vendor cards to specify which layouts will be used for different types of documents that you crate for the customer or vendor in question. The value in the **Usage** field, defines which process the document layout will be used for, such as **Reminder** , **Shipment** , and **Confirmation** .
+When custom report layouts are defined, you can select them from customer and vendor cards to specify which layouts will be used for different types of documents that you create for the customer or vendor in question. The value in the **Usage** field, defines which process the document layout will be used for, such as **Reminder**, **Shipment**, and **Confirmation**.
 
 In addition to setting up which layouts to use for what document, you can save time when sending documents to different customer or vendor contacts by setting up specific contacts' email addresses to use with specific documents. For example, customer statements will be sent to accountant contacts, sales orders to your customers' purchasers, and purchase orders to vendors' salespeople or account managers.
 
@@ -31,7 +31,7 @@ Before you can define which document layout to use for which processes, and whic
 The following describes how to define sales document layouts from a customer card. The steps are the same for purchase document layouts from a vendor card.
 
 ## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>To enable all available sales documents for a customer
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the card of the customer for whom you want to define document layouts per business process.
 3. On the **Customer Card** page, choose the **Document Layouts** page.
 4. On the **Document Layouts** page, choose the **Copy from Report Selection** action.

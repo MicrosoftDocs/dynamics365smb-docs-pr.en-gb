@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f7534d1e3365dd02b6f9f1afde03b5de76640e1a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7b880ef5cb49a02dcbb3973f87bc64eae48b2b3a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914892"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760249"
 ---
 # <a name="tell-me-faq"></a>Tell Me FAQ
 This topic answers questions that our advanced users often ask about the Tell Me feature.
@@ -32,14 +32,14 @@ Actions, pages, and reports that originate from extensions are picked up by Tell
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>What makes this different from what was previously known as Page Search?
 Page Search has evolved into Tell Me to help you get work done quickly. Page Search could only help you navigate to pages or reports. At a technical level, Tell Me is no longer based on the legacy MenuSuite concept.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>I use on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Does that include Tell Me?
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>I use on-premises [!INCLUDE[prod_short](includes/prod_short.md)]. Does that include Tell Me?
 You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not documentation, or apps and consulting services on AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Is Tell Me available for all form factors?
 Tell Me is only available in the Web Client or Windows desktop app.
 
 ### <a name="are-the-documentation-results-available-in-any-language"></a>Are the documentation results available in any language?
-The help articles display in the language you have specified in **My Settings** , if help is available in that language.
+The help articles display in the language you have specified in **My Settings**, if help is available in that language.
 
 ### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Why don't I see a bookmark icon for my search results?
 The bookmark icon is not displayed in the Tell Me window when personalisation is disabled for a user role.

@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting your company hub
-description: Learn how to work around any issues in the company hub in Dynamics 365 Business Central.
+description: Learn how to work around any issues when you the company hub in Dynamics 365 Business Central to manage work across multiple companies.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f348de3e8116efd789f85f1b011ecc7013bf2b1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94bd2c0270263a1382094e559b4e70753f9bb91f
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927750"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013589"
 ---
 # <a name="troubleshooting-your-company-hub"></a>Troubleshooting Your Company Hub
 
@@ -34,14 +34,14 @@ There can be a couple of reasons why you cannot connect to a company, including 
   Go to the **Environment Links** page, open the environment that you cannot connect to, and then choose the **Test the connection** action.  
 - The client's company is currently offline, for example if it being upgraded
 
-  In your dashboard, choose the **Tools** menu item, and then choose **Check Errors** . This opens a list with technical details, so you might want to contact your administrator if you're seeing errors. For example, the error message " *The server has rejected the client credentials* " suggests that you do not have access.  
+  In your dashboard, choose the **Tools** menu item, and then choose **Check Errors**. This opens a list with technical details, so you might want to contact your administrator if you're seeing errors. For example, the error message "*The server has rejected the client credentials*" suggests that you do not have access.  
 - You do not have access to all companies in the environment that you are trying to connect to
 
-  In [!INCLUDE [prodshort](includes/prodshort.md)], an organisation can have multiple business units called companies and you might not have access to all companies. Work with your administrator or client to make sure that you have access to the companies that you have to work in.  
+  In [!INCLUDE [prod_short](includes/prod_short.md)], an organisation can have multiple business units called companies and you might not have access to all companies. Work with your administrator or client to make sure that you have access to the companies that you have to work in.  
 
 ## <a name="data-does-not-refresh"></a>Data does not refresh
 
-When you add a company or request a refresh of the data, [!INCLUDE [prodshort](includes/prodshort.md)] fetches the data. But you must refresh the page yourself, such as choosing the **Reload all companies** action, refresh the browser page, navigate away from the dashboard and then back again, or similar.  
+When you add a company or request a refresh of the data, [!INCLUDE [prod_short](includes/prod_short.md)] fetches the data. But you must refresh the page yourself, such as choosing the **Reload all companies** action, refresh the browser page, navigate away from the dashboard and then back again, or similar.  
 
 If you've added a company but it is not displaying in the list, you can also use the **Reload all companies** action to update the list.
 

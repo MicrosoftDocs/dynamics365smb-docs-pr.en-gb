@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: a2c8071abc075caf359d942da5a3638ef811d126
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 28b796a001d1bd1d981ab84bc13607158733c502
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925628"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760474"
 ---
 # <a name="view-test-reports-before-posting"></a>View Test Reports Before Posting
 When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.
@@ -25,7 +25,7 @@ When you are ready to post a document, such as an order, invoice, or a credit me
 >   The following procedure is about testing before posting a purchase document. The functionality works in the same way for sales documents.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>To print a test report before posting a purchase invoice
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices** , and then select the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then select the related link.
 2. Open the purchase invoice that you want to test.
 3. Choose the **Test Report** action.  
 
@@ -33,4 +33,4 @@ All parts of the purchase invoice are tested, and the result is presented in a r
 
 ## <a name="see-also"></a>See Also
 [Posting Documents and Journals](ui-post-documents-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -1,5 +1,5 @@
 ---
-title: How to Change the Annual Amount on Service Contracts or Contract Quotes | Microsoft Docs
+title: Change the Annual Amount on Service Contracts or Contract Quotes
 description: You can change the amount that will be invoiced annually on service contracts or service contract quotes.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: aecd53065e9567678a2d87c8d6bd21956c6251c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 62a571ea35f70b26ac37aa23256d5af7b8e5320e
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925729"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013903"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Change the Annual Amount on Service Contracts or Contract Quotes
 You can change the annual amount of the service contract or contract quote to correct the amount that will be invoiced annually.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>To change the annual amount of the service contract or contract quote  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts** or **Service Contract Quotes** ,and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts** or **Service Contract Quotes**,and then choose the related link.  
 2. Choose the contract or contract quote.  
 3. Choose the **Open Contract** action to open the contract or contract quote for editing.  
 4. Choose the **Allow Unbalanced Amounts** check box if you want to change the annual amount and distribute the annual amount difference manually on the contract lines. Otherwise, clear the check box to automatically distribute the annual amount difference on the contract lines after you change the annual amount.  
@@ -41,7 +41,7 @@ If you change the annual amount of the service contract or contract quote, you m
 
 1. The difference between the new **Annual Amount** and **Calcd. Annual Amount** field values is divided by the number of the contract lines in the service contract or contract quote.  
 2. The **Line Amount** field value is updated by adding the result of the previous operation.  
-3. The contents in the **Line Discount Amount** , **Line Discount %** , and **Profit** fields are updated with regard to the new value in the **Line Amount** field in the following way:   
+3. The contents in the **Line Discount Amount**, **Line Discount %**, and **Profit** fields are updated with regard to the new value in the **Line Amount** field in the following way:   
     * Line Discount Amount = Line Value - Line Amount.  
     * Line Discount % = Line Discount Amount / Line Value * 100.  
     * Profit = Line Amount - Line Cost.  
@@ -59,7 +59,7 @@ The **Allow Unbalanced Amounts** check box is not selected in the service contra
 
 The **Annual Amount** field value is equal to the contents of the **Calcd. Annual Amount** field, which is always set to the sum of the line amounts. In this case, it is equal to the following:  40 + 45 + 63 = 148.  
 
-If you change the **Annual Amount** to 139, the amount is calculated that should be added to each **Line Amount** field value. This amount is calculated by subtracting the **Calcd. Annual Amount** from the new **Annual Amount** field value and dividing the result by the number of the contract lines in the service contract. In this case, it will be equal to the following: (139 - 148) / 3 = -3. Then, the last calculated figure is added to each **Line Amount** field value and the **Line Discount %** , **Line Discount Amount** , and **Profit** field values are updated using the formulas in the procedure described above.  
+If you change the **Annual Amount** to 139, the amount is calculated that should be added to each **Line Amount** field value. This amount is calculated by subtracting the **Calcd. Annual Amount** from the new **Annual Amount** field value and dividing the result by the number of the contract lines in the service contract. In this case, it will be equal to the following: (139 - 148) / 3 = -3. Then, the last calculated figure is added to each **Line Amount** field value and the **Line Discount %**, **Line Discount Amount**, and **Profit** field values are updated using the formulas in the procedure described above.  
 
 Finally, the contract lines will contain this data.  
 
@@ -74,7 +74,7 @@ If you change the annual amount of the service contract or contract quote, you m
 
 1. The line amount percentage contribution is calculated as follows: the contents of the **Line Amount** field is divided by the **Calcd. Annual Amount** field values on all contract lines.  
 2. The **Line Amount** field value is updated by adding to it the difference between the new and calculated annual amounts, which is multiplied by the line amount percentage contribution.  
-3. The contents in the **Line Discount Amount** , **Line Discount %** , and **Profit** fields are updated with regard to the new value in the **Line Discount Amount** field in the following way:  
+3. The contents in the **Line Discount Amount**, **Line Discount %**, and **Profit** fields are updated with regard to the new value in the **Line Discount Amount** field in the following way:  
 
     * Line Discount Amount = Line Value - Line Amount  
     * Line Discount % = Line Discount Amount / Line Value * 100  
@@ -99,7 +99,7 @@ If you change the **Annual Amount** to 60, the profit percentage contributions f
 * Item 2 – 5.1 / (5 + 5.1 + 12.7) = 0.2237  
 * Item 3 – 12.7 / (5 + 5.1 + 12.7) = 0.557  
 
-The **Line Amount** field value is updated on each contract line using the following formula: Line Amount = Line Amount + difference between the new and calculated annual amounts * Percentage Contribution. After that, the **Line Discount Amount** , **Line Discount %** , and **Profit** field values are updated using the formulas described in the procedure above.  
+The **Line Amount** field value is updated on each contract line using the following formula: Line Amount = Line Amount + difference between the new and calculated annual amounts * Percentage Contribution. After that, the **Line Discount Amount**, **Line Discount %**, and **Profit** field values are updated using the formulas described in the procedure above.  
 
 Finally, the contract lines will contain this data.  
 
@@ -137,7 +137,7 @@ The **Annual Amount** field value is equal to the contents of the **Calcd. Annua
 * Item 2 – 5.1 / (5 + 5.1 + 12.7) = 0.2237  
 * Item 3 – 12.7 / (5 + 5.1 + 12.7) = 0.557  
 
-The **Line Amount** field value is updated on each contract line using the following formula: Line Amount = Line Amount + difference between the new and calculated annual amounts * Percentage Contribution. After that, the **Line Discount Amount** , **Line Discount %** , and **Profit** field values are updated using the formulas in the step 3 of the procedure described above.  
+The **Line Amount** field value is updated on each contract line using the following formula: Line Amount = Line Amount + difference between the new and calculated annual amounts * Percentage Contribution. After that, the **Line Discount Amount**, **Line Discount %**, and **Profit** field values are updated using the formulas in the step 3 of the procedure described above.  
 
 Finally, the contract lines will contain this data.  
 
