@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd07d7d25bea1e49ffa4927a717088663c5d48da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6b59df9677216cfcc3fd7e60ec92b1a17890763
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911037"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035738"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Design Details: Internal Warehouse Flows
 The flow of items between bins at a company location centres on picking components and putting away end items for assembly or production orders and ad-hoc movements, such as bin replenishments, without a relation to source documents. The scope and nature of the involved activities vary between basic and advanced warehousing.  
@@ -33,9 +33,9 @@ The flow of items between bins at a company location centres on picking componen
 
  In addition to component handling, the integration is represented by the ability to put produced items away with the **Inventory Put-away** page.  
 
- The **To-Production Bin Code** , **From-Production Bin Code** , and **Open Shop Floor Bin Code** fields on the location card or the machine/work centre cards define default flows to and from production areas.  
+ The **To-Production Bin Code**, **From-Production Bin Code**, and **Open Shop Floor Bin Code** fields on the location card or the machine/work centre cards define default flows to and from production areas.  
 
- For more information about how component consumption is flushed from the To-Production or Open Shop Floor bins, see the “Flushing Production Components in the Warehouse” section in this topic.  
+ For more information about how component consumption is flushed from the To-Production or Open Shop Floor bins, see the "Flushing Production Components in the Warehouse" section in this topic.  
 
 ### <a name="flows-to-and-from-assembly"></a>Flows to and from Assembly  
  The main integration between assembly orders and basic warehouse activities is represented by the ability to move assembly components to the assembly area.  
@@ -52,7 +52,7 @@ The flow of items between bins at a company location centres on picking componen
 > [!NOTE]  
 >  If items are assembled to order, then the inventory pick of the linked sales order triggers an inventory movement for all the involved assembly components, not just for the sold item as when shipping inventory items.  
 
- The **To-Assembly Bin Code** , **From-Assembly Bin Code** , and **Asm.-to-Order Shpt. Bin Code** fields on the location card define default flows to and from assembly areas.  
+ The **To-Assembly Bin Code**, **From-Assembly Bin Code**, and **Asm.-to-Order Shpt. Bin Code** fields on the location card define default flows to and from assembly areas.  
 
 > [!NOTE]  
 >  The **Asm.-to-Order Shpt. Bin Code** field functions as the from-assembly bin in assemble-to-order scenarios.  
@@ -70,9 +70,9 @@ The flow of items between bins at a company location centres on picking componen
 
  Another integration point in production is provided with the **Warehouse Movement** page, together with the Movement Worksheet page, which enables you to place components and take produced items for released production orders.  
 
- The **To-Production Bin Code** , **From-Production Bin Code** , and **Open Shop Floor Bin Code** fields on the location card or the machine/work centre cards define default flows to and from production areas.  
+ The **To-Production Bin Code**, **From-Production Bin Code**, and **Open Shop Floor Bin Code** fields on the location card or the machine/work centre cards define default flows to and from production areas.  
 
- For more information about how component consumption is flushed from the To-Production or Open Shop Floor Bins, see the “Flushing Production Components in the Warehouse” section in this topic.  
+ For more information about how component consumption is flushed from the To-Production or Open Shop Floor Bins, see the "Flushing Production Components in the Warehouse" section in this topic.  
 
 ### <a name="flows-to-and-from-assembly"></a>Flows to and from Assembly  
  The main integration between assembly orders and advanced warehouse activities is represented by the ability to pick assembly components, both with the **Warehouse Pick** page and the **Pick Worksheet** page. This functionality works just like when picking components for production orders.  
@@ -90,17 +90,17 @@ The flow of items between bins at a company location centres on picking componen
 ## <a name="flushing-production-components-in-the-warehouse"></a>Flushing Production Components in the Warehouse  
  If set up on the item card, components picked with warehouse picks are posted as consumed by the production order when the warehouse pick is registered. By using the **Pick + Forward** method and the **Pick + Backward** flushing method, the pick registration triggers the related consumption posting when the first operation starts or when the last operation finishes, respectively.  
 
- Consider the following scenario based on the [!INCLUDE[d365fin](includes/d365fin_md.md)] demonstration database, WHITE location.  
+ Consider the following scenario based on the [!INCLUDE[prod_short](includes/prod_short.md)] demonstration database.  
 
  A production order for 15 PCS of item LS-100 exists. Some of the items on the component list must be flushed manually in a consumption journal, and other items on the list can be picked and flushed automatically using the **Pick + Backward** flushing method.  
 
 > [!NOTE]  
->  **Pick + Forward** only works if the second production routing line operation uses a routing link code. Releasing a planned production order initiates forward flushing of components set to **Pick + Forward** . However, the flushing cannot take place until the pick of the components is registered, which again can only take place when the order is released.  
+>  **Pick + Forward** only works if the second production routing line operation uses a routing link code. Releasing a planned production order initiates forward flushing of components set to **Pick + Forward**. However, the flushing cannot take place until the pick of the components is registered, which again can only take place when the order is released.  
 
  The following steps describe the involved actions by different users and the related response:  
 
 1.  The shop floor supervisor releases the production order. Items with **Forward** flushing method and no routing link code are deducted from the open shop floor bin.  
-2.  The shop floor supervisor chooses the **Create Warehouse Pick** button on the production order. A warehouse pick document is created pick for items with **Manual** , **Pick + Backward** , and **Pick + Forward** flushing methods. These items are placed in the To-Production bin.  
+2.  The shop floor supervisor chooses the **Create Warehouse Pick** button on the production order. A warehouse pick document is created pick for items with **Manual**, **Pick + Backward**, and **Pick + Forward** flushing methods. These items are placed in the To-Production bin.  
 3.  The warehouse manager assigns the picks to a warehouse worker.  
 4.  The warehouse worker picks the items from appropriate bins and places them in the To-Production bin or in the bin specified on the warehouse pick, which may be a work centre or machine centre bin.  
 5.  The warehouse worker registers the pick. The quantity is subtracted from the pick bins and added to the consumption bin. The **Qty. Picked** field on the component list for all picked items is updated.  
@@ -110,7 +110,7 @@ The flow of items between bins at a company location centres on picking componen
 
 6.  The machine operator informs the production manager that the end items are finished.  
 7.  The shop floor supervisor uses the consumption journal or production journal to post the consumption of component items that use either **Manual** flushing method or **Forward** or **Pick + Forward** flushing methods together with routing link codes.  
-8.  The production manager posts the output of the production order and changes status to **Finished** . The quantity of component items that use **Backward** flushing method is deducted from the open shop floor bin, and the quantity of component items that use **Pick + Backward** flushing method is deducted from the To-Production bin.  
+8.  The production manager posts the output of the production order and changes status to **Finished**. The quantity of component items that use **Backward** flushing method is deducted from the open shop floor bin, and the quantity of component items that use **Pick + Backward** flushing method is deducted from the To-Production bin.  
 
  The following illustration shows when the **Bin Code** field on the component list is filled according to your location or machine/work centre setup.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b01235241ccdcb837063f786157349ed7094e81e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7ec1276600ab84a43363708e037fccb5b2ca0cf2
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918470"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035638"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Walkthrough: Planning Supplies Manually
 
@@ -38,10 +38,10 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 -   Sales Order Processor  
 
 ## <a name="prerequisites"></a>Prerequisites  
- Before you begin this walkthrough, you must install the [!INCLUDE[d365fin](includes/d365fin_md.md)]. The following modifications must be made to the database:  
+ Before you begin this walkthrough, you must install the [!INCLUDE[prod_short](includes/prod_short.md)]. The following modifications must be made to the database:  
 
 -   Delete all existing sales orders for bicycles.  
--   Create one sales order for 10 bicycles at BLUE location.  
+-   Create one sales order for 10 bicycles at EAST location.  
 -   Delete all planned and firm planned production orders. Do not delete started orders with entries that are already posted.  
 
  As a rule, use the suggested data in this walkthrough because this data has the necessary records.  
@@ -67,7 +67,7 @@ The **Order Planning** page can be accessed from several different locations:
 
 ### <a name="to-use-the-order-planning-page"></a>To use the Order Planning page  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning**, and then choose the related link.  
 
      When the **Order Planning** page first opens, a plan must be calculated to show the new demand since it was last calculated.  
 
@@ -95,9 +95,9 @@ The **Order Planning** page can be accessed from several different locations:
 ### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>To plan a purchase order to fulfill component need in production  
 
 1.  Expand the first line (choose the + symbol).  
-2.  Choose the first demand line, with item **LSU-15** , and then choose the **Show Document** action.  
+2.  Choose the first demand line, with item **LSU-15**, and then choose the **Show Document** action.  
 3.  Close the opened production order to return to the **Order Planning** page.  
-4.  In the **Replenishment System** field, select **Purchase** .  
+4.  In the **Replenishment System** field, select **Purchase**.  
 
      The default value is from the item card, or SKU card, but you can change it to one of the following options:  
 
@@ -116,7 +116,7 @@ The **Order Planning** page can be accessed from several different locations:
     >  If the components have a default vendor number set up on the item cards, the lines will be preset.  
 
 6.  Choose the **Supply From**  field.  
-7.  On the **Item Vendor Catalogue** page, choose the **New** action, and then select vendor **30000** .  
+7.  On the **Item Vendor Catalogue** page, choose the **New** action, and then select vendor **30000**.  
 8.  Choose the **OK** button to return to the **Order Planning** page.  
 9. Copy vendor **30000** to the other lines for loudspeaker components on this production order.  
 
@@ -134,12 +134,12 @@ The **Order Planning** page can be accessed from several different locations:
 
 ### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>To plan a transfer order to fulfill sales demand  
 
-1.  Move the pointer to the planning line for order **2008** .  
+1.  Move the pointer to the planning line for order **2008**.  
 2.  Expand the line and move the pointer to the demand line.  
 
-     Sales order **2008** is for ten loudspeakers, item **LS-120** , ordered by John Haddock Insurance Co.  
+     Sales order **2008** is for ten loudspeakers, item **LS-120**, ordered by John Haddock Insurance Co.  
 
-     The item’s defined replenishment system and default vendor will display.  
+     The item's defined replenishment system and default vendor will display.  
 
     > [!NOTE]  
     >  At the bottom of the page, there are four information fields. In the **Earliest Date Available** field, the ten pieces that are needed will be available, on an inbound supply order, nine days later than the current due date. If this is too late for the customer, the **Available for Transfer** field shows 13 pieces of the item at another location. You will want to plan for this stock.  
@@ -148,7 +148,7 @@ The **Order Planning** page can be accessed from several different locations:
 4.  Choose the **OK** button to book the ten items that are available.  
 
     > [!NOTE]  
-    >  In the demand line, the suggested purchase has been exchanged with a transfer from GREEN location. The **Make Orders** function creates a transfer order from GREEN to the demanded location. The **Substitutes Exists** field works in the same way.  
+    >  In the demand line, the suggested purchase has been exchanged with a transfer from MAIN location. The **Make Orders** function creates a transfer order from MAIN to the demanded location. The **Substitutes Exists** field works in the same way.  
 
 5.  Choose the **Make Orders** action. The **Make Supply Orders** page opens.  
 6.  On the **Order Planning** FastTab, in the **Make Orders for** field, choose the **The Active Order** option.  
@@ -162,12 +162,12 @@ The **Order Planning** page can be accessed from several different locations:
 
 ### <a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a>To plan multilevel production to fulfill sales demand  
 
-1.  Select the planning line with sales demand for order **1001** , created earlier as prerequisite data.  
+1.  Select the planning line with sales demand for order **1001**, created earlier as prerequisite data.  
 
-     This demand is a sales line, but the item has a defined replenishment system of **Prod. Order** . Proceed to add an extra bell to the component need of each bicycle.  
+     This demand is a sales line, but the item has a defined replenishment system of **Prod. Order**. Proceed to add an extra bell to the component need of each bicycle.  
 
 2.  Choose the **Components** action to open the **Planning Components** page.  
-3.  On the line with the Bell item, change the **Quantity per** field from **1** to **2** .  
+3.  On the line with the Bell item, change the **Quantity per** field from **1** to **2**.  
 4.  On the **Order Planning** page, consider your planning alternatives. In this case, you have no alternative means of supply, no transfer, substitute, or later delivery. You must create the suggested supply order, a production order.  
 5.  Choose the **Make Orders** action to create the production order.  
 
@@ -181,7 +181,7 @@ The **Order Planning** page can be accessed from several different locations:
 
 ### <a name="to-plan-a-specific-production-order"></a>To plan a specific production order  
 
-1.  Open the production order **101001** , for ten bicycles, that you just created by using the **Make Orders** function.  
+1.  Open the production order **101001**, for ten bicycles, that you just created by using the **Make Orders** function.  
 2.  Open the **Prod. Order Components** page to check that the extra bell is reflected on the production order.  
 3.  Choose the **Planning** action.  
 
@@ -189,7 +189,7 @@ The **Order Planning** page can be accessed from several different locations:
 
 4.  Choose the **Calculate Plan** action.  
 
-     Notice that four new production orders appear as unplanned production demand derived from order **101001** . The new lines represent new production demand from the subassemblies that must be created to produce the order.  
+     Notice that four new production orders appear as unplanned production demand derived from order **101001**. The new lines represent new production demand from the subassemblies that must be created to produce the order.  
 
 5.  Choose the **Expand All** action to get an overview of all the production demand for the production orders.  
 
@@ -225,7 +225,7 @@ The **Order Planning** page can be accessed from several different locations:
 
      The message indicates that all required items are now supplied. Verify the firm planned production orders that are created.  
 
-13. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders** , and then choose the related link.  
+13. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
 
      On the **Firm Planned Prod. Orders** page review how start times and end times of individual orders are scheduled according to the product structure. The lowest-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
 

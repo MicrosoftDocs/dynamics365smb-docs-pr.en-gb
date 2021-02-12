@@ -5,7 +5,7 @@
 <!--### [Getting Ready for Doing Business](ui-get-ready-business.md)-->
 ## Learn
 ### [Business Central Learning Catalogue](readiness/readiness-learning-catalog.md)
-### [Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central&roles=business-user%2Cfunctional-consultant&resource_type=learning%20path)
+### [Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Business Process Walkthroughs
 #### [Available Walkthroughs](walkthrough-business-process-walkthroughs.md)
 #### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
@@ -101,13 +101,17 @@
 ### [Setting Up Business Central](setup.md)
 ### Setting Up Finance
 #### [Setting Up Finance](finance-setup-finance.md)
-#### [Defining Payment Methods](finance-payment-methods.md)
+#### [Set Up Payment Methods](finance-payment-methods.md)
+#### [Set Up Payment Terms](finance-payment-terms.md)
 #### [Setting Up Posting Groups](finance-posting-groups.md)
 #### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
+#### [Set Up Reminder Terms and Levels](finance-setup-reminders.md)
+#### [Set Up Finance Charge Terms](finance-setup-finance-charges.md)
 #### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
 #### [Set Up Unrealised VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
+#### [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md)
 #### [Setting Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)
 #### [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 #### [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)
@@ -190,6 +194,7 @@
 #### [Create Production BOMs](production-how-to-create-production-boms.md)
 #### [Enable Flushing of Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md)
 #### [Work With Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
+#### [Handling Lot Sizes in Production](production-handling-lot-sizes.md)
 #### [Work With Production Families](production-how-work-family.md)
 #### [Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)
 #### [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
@@ -238,11 +243,13 @@
 #### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
 #### [Synchronise with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 #### [Using Business Central Without Outlook](admin-no-outlook.md)
-### Microsoft Teams Integration
+### Using Microsoft Teams with Business Central
 #### [Overview](across-teams-overview.md)
 #### [Managing Teams Integration](admin-teams-integration.md)
 #### [Installing Business Central App for Teams](across-install-app-for-teams.md)
 #### [Working with Business Central Data in Teams](across-working-with-teams.md)
+#### [Teams FAQ](teams-faq.md)
+#### [Troubleshooting](admin-teams-troubleshooting.md)
 ### Using Power BI with Business Central
 #### [Introduction](admin-powerbi.md)
 #### Administrator
@@ -266,14 +273,18 @@
 ### [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
 ### [Set Up Email](admin-how-setup-email.md)
 ### [Create Number Series](ui-create-number-series.md)
+### [Report Selection](across-report-selections.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
-<!--### [Get SmartList Designer](bi-smartlist-designer-setup.md)-->
 
 ## Frequently Asked Questions
-### [Generally Asked Questions](across-faq.md)
+### [Frequently Asked Questions](across-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Searching and Filtering FAQ](ui-search-filter-faq.md)
 ### [List Views FAQ](ui-views-faq.md)
+### [Copy and Paste FAQ](faq-copy-paste.yml)
+### [Mobile Apps FAQ](ui-mobile-faq.md)
+### [Teams FAQ](teams-faq.md)
+### [Electronic Invoicing FAQ](faq-electronic-invoicing.yml)
 ### [Minimum Requirements](product-requirements.md)
 
 ## Help and Support
@@ -282,7 +293,7 @@
 ### [Visit Our Video Library](across-videos.md)
 ### [Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
 <!--## Learn
-### [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)
+### [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
 ### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
@@ -304,7 +315,7 @@
 ## [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
 ## [Searching and Filtering FAQ](ui-search-filter-faq.md)
 ## [Entering Data](ui-enter-data.md)
-## [Copy and Paste FAQ](ui-copy-paste.md)
+## [Copy and Paste FAQ](faq-copy-paste.yml)
 ## [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
 ## [Changing Language and Region](about-locale-language.md)
@@ -381,7 +392,7 @@
 ##### [Set Up Workflows](across-set-up-workflows.md)
 ##### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
 ##### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
-##### [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)
+##### [Workflow Notifications](across-setting-up-workflow-notifications.md)
 ##### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
 ##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
 ##### [Set up Email](admin-how-setup-email.md)
@@ -389,7 +400,6 @@
 ##### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
 ##### [Export and Import Workflows](across-how-to-export-and-import-workflows.md)
 ##### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-##### [Walkthrough: Implementing New Workflow Events and Responses](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
 #### Using Workflows
 ##### [Use Workflows](across-use-workflows.md)
 ##### [Enable Workflows](across-how-to-enable-workflows.md)
@@ -441,14 +451,13 @@
 #### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
 #### [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Block Customers](receivables-how-block-customers.md)
-#### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
 
 ### Managing Payables
 #### [Payables Overview](payables-manage-payables.md)
 #### Making Payments
-#### [Payments Overview](payables-make-payments.md)
+##### [Making Payments](payables-make-payments.md)
 ##### [Working with General Journals](ui-work-general-journals.md)
 ##### [Record Payments and Refunds](payables-how-post-payments-refunds.md)
 ##### [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md)
@@ -486,6 +495,7 @@
 #### [Set Up Intercompany](intercompany-how-setup.md)
 #### [Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)
 #### [Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)
+#### [Allocate Costs to Intercompany Partners](intercompany-allocate-costs.md)
 
 ### Accounting for Costs
 #### [Cost Accounting Overview](finance-manage-cost-accounting.md)
@@ -500,6 +510,7 @@
 ### Managing Inventory Costs
 #### [Inventory Costing Overview](finance-manage-inventory-costs.md)
 #### [About Inventory Costing](finance-learn-about-costing.md)
+#### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 #### [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 #### [Design Details: Inventory Costing](design-details-inventory-costing.md)
 #### [Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)
@@ -510,10 +521,7 @@
 #### [Update Standard Costs](finance-how-to-update-standard-costs.md)
 #### [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### Reporting Costs and Reconciling with the General Ledger
-##### [Reporting Costs](finance-report-costs-and-reconcile-with-the-general-ledger.md)
-##### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
-##### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
+#### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 
 ### Closing Years and Periods
 #### [Year Closing Overview](year-close-years-periods.md)
@@ -538,7 +546,6 @@
 ### [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
 ### [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)
 ### [Allocate Costs and Income](year-allocate-costs-income.md)
-### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ### [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)
 ### [Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
@@ -562,7 +569,6 @@
 ### [Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ### [Create Reports with XBRL](bi-create-reports-with-xbrl.md)
 ### [Manage Database Access Intent](admin-data-access-intent.md)
-<!--### [Create Custom Queries using SmartLists](bi-smartlists.md)-->
 
 ## Sales
 ### [Sales Overview](sales-manage-sales.md)
@@ -577,14 +583,13 @@
 ### [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
 ### [Make Drop Shipments](sales-how-drop-shipment.md)
 ### [Create Special Orders](sales-how-to-create-special-orders.md)
-### [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ### [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
+### [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ### [Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)
 ### [Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ### [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)
 ### [Track Packages](sales-how-track-packages.md)
 ### [Date Calculation for Sales](sales-date-calculation-for-sales.md)
-### [Create a Forecast](production-how-to-create-a-forecast.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 ### [Work with Recurring Revenue](finance-recurring-invoicing.md)
 
@@ -624,7 +629,7 @@
 ## Project Management
 ### [Project Management Overview](projects-manage-projects.md)
 ### [Create Jobs](projects-how-create-jobs.md)
-## [Use Resources for Jobs](projects-how-use-resources.md)
+### [Use Resources for Jobs](projects-how-use-resources.md)
 ### [Use Time Sheets for Jobs](projects-how-use-time-sheets.md)
 ### [Manage Job Budgets](projects-how-manage-budgets.md)
 ### [Record Usage for Jobs](projects-how-record-job-usage.md)
@@ -923,16 +928,19 @@
 #### Banking and Payments
 ##### [Bank Feature](LocalFunctionality/Czech/bank-feature.md)
 ##### [Cash Desk Management](LocalFunctionality/Czech/cash-desk-management.md)
+##### [Cash Desk Localisation for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Advances](LocalFunctionality/Czech/advances.md)
 #### Payables and Receivables
 ##### [Payables and Receivables](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+##### [Compensations Localisation for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Inventory
 ##### [Inventory](LocalFunctionality/Czech/inventory.md)
 #### General
 ##### [Extended User Control](LocalFunctionality/Czech/general.md)
 ##### [Best Practices](LocalFunctionality/Czech/best-practices.md)
+##### [Core Localisation Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 
 ### Denmark
 #### [Local Functionality in the Danish Version](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1114,7 +1122,7 @@
 ###### [GST Reconciliation](LocalFunctionality/India/GST-Reconciliation.md)
 ###### [GST E-Way Bill](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [GST Input Cedit Adjustment](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
-###### [GST Settelement](LocalFunctionality/India/GST-Settelement.md)
+###### [GST Settlement](LocalFunctionality/India/GST-Settelement.md)
 #### TDS
 ##### [TDS Overview](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS Transactions](LocalFunctionality/India/TDS-Transactions.md)
@@ -1592,12 +1600,12 @@
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 ## Integrating with Dynamics 365 Sales
 ### [Integrate with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
-## Integrating with Common Data Service
-### [Integrate with Common Data Service](admin-common-data-service.md)
+## Integrating with Microsoft Dataverse
+### [Integrate with Microsoft Dataverse](admin-common-data-service.md)
 ### [Data Ownership Models](admin-cds-company-concept.md)
-### [Setting Up User Accounts for Integrating with Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
-### [Connect to Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synchronising Business Central and Common Data Service](admin-synchronizing-business-central-and-sales.md)
+### [Setting Up User Accounts for Integrating with Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
+### [Connect to Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synchronising Business Central and Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Mapping the Tables and Fields to Synchronise](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually Synchronise Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
