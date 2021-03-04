@@ -110,3 +110,6 @@ Warehouse entries are created, and the warehouse put-away lines are deleted, if 
 
 ## <a name="see-also"></a>See Also  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

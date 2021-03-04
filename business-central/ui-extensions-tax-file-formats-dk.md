@@ -26,3 +26,6 @@ The extension is free, you just need to install it.
 
 ## <a name="see-also"></a>See Also
 [Customising Business Central Using Extensions](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

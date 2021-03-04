@@ -30,3 +30,5 @@ You can set up troubleshooting guidelines that help technicians solve problems w
 
 ## <a name="see-also"></a>See Also
 [Service Management](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

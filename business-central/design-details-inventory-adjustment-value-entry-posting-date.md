@@ -365,3 +365,6 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 ## <a name="see-also"></a>See Also  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Item Application](design-details-item-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

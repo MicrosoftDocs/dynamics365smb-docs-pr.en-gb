@@ -134,3 +134,6 @@ In addition, the following internal source documents exist that function like ou
 ## <a name="see-also"></a>See Also
 
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

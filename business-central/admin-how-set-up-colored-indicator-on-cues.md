@@ -64,3 +64,6 @@ To set up the indicator, you specify up to two threshold values that define thre
     |**Subordinate**|Grey|  
 
 ## <a name="see-also"></a>See Also
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

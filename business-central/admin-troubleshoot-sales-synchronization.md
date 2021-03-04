@@ -62,3 +62,6 @@ When something goes wrong in your integration and you need to uncouple records t
 [Set Up a Connection to Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Couple and Synchronise Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)  
 [View the Status of a Synchronisation](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

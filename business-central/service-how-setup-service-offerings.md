@@ -29,3 +29,5 @@ The following table describes a sequence of tasks, with links to the topics that
   
 ## <a name="see-also"></a>See Also  
 [Setting Up Service Management](service-setup-service.md)   
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -234,3 +234,6 @@ When you post documents or journal lines that contain dimensions, various errors
 [Finance](finance.md)  
 [Analyse Data by Dimensions](bi-how-analyze-data-dimension.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

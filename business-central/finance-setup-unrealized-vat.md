@@ -50,3 +50,6 @@ To use accounts for unrealised VAT, follow these steps:
 
 ## <a name="see-also"></a>See Also
 [Setting Up Value Added Tax](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

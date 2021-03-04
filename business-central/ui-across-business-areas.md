@@ -54,3 +54,6 @@ The following table lists these general business areas with links to topics that
 [Administration](admin-setup-and-administration.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -41,3 +41,6 @@ The following procedure describes how to restrict purchase orders from being pos
 ## <a name="see-also"></a>See Also  
 [Create Workflows](across-how-to-create-workflows.md)   
 [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

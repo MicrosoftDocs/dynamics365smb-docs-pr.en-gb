@@ -46,3 +46,6 @@ Before you can create opportunities, you must set up opportunity sales cycles. F
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
 [Working with Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

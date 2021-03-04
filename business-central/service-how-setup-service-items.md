@@ -63,3 +63,6 @@ You can set up service shelves that identify where you store your service items.
 ## <a name="see-also"></a>See Also
 [Set Up Codes for Standard Services](service-how-setup-service-coding.md)   
 [Set Up Troubleshooting](service-how-setup-troubleshooting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

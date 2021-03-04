@@ -151,3 +151,6 @@ The following diagram shows how cost applications are made.
 ## <a name="see-also"></a>See Also  
 [Design Details: Item Application](design-details-item-application.md)   
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

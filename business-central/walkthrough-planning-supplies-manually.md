@@ -232,3 +232,6 @@ The **Order Planning** page can be accessed from several different locations:
 ## <a name="see-also"></a>See Also  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

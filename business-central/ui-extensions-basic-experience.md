@@ -51,3 +51,5 @@ Bring your Dynamics C5 data along. After your Microsoft partner installs the Bas
 
 ## <a name="see-also"></a>See Also
 [The C5 Data Migration Extension](ui-extensions-c5-data-migration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

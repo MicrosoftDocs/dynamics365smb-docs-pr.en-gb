@@ -116,3 +116,6 @@ There are three ways to enable data synchronisation between contacts and custome
 [Managing Contacts](marketing-contacts.md)  
 [Setting Up Contacts](marketing-setup-contacts.md)  
 [Working with Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

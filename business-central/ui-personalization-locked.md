@@ -59,3 +59,6 @@ The reason for this is that the Role Centre or role that is currently associated
 [Customise Pages for Profiles](ui-personalization-manage.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

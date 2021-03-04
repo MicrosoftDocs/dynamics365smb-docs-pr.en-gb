@@ -35,3 +35,6 @@ Entering the correct setup values from the start is important to the success of 
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

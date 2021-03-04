@@ -69,3 +69,6 @@ After you have closed the inventory period, you cannot delete the inventory peri
 [Finance](finance.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Working with Financials](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

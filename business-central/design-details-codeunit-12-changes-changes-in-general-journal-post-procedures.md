@@ -191,3 +191,6 @@ The following changes have been implemented in versions of [!INCLUDE [navnow_md]
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

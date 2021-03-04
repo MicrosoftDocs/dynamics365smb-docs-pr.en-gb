@@ -63,3 +63,6 @@ You can view the mapping between the tables in [!INCLUDE[prod_short](includes/cd
 [Couple and Synchronise Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Schedule a Synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

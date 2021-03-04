@@ -87,3 +87,6 @@ You can use the following reports for VAT reporting:
 
 ## <a name="see-also"></a>See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

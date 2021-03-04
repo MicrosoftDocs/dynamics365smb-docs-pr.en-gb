@@ -118,3 +118,6 @@ The flow of items between bins at a company location centres on picking componen
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

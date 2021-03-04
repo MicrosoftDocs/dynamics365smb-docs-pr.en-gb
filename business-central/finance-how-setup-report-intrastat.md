@@ -131,3 +131,6 @@ In the **Commodity Codes** page, add all the codes that you use. You must enter 
 
 ## <a name="see-also"></a>See Also
 [Financial Management](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

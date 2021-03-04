@@ -28,3 +28,5 @@ In the [!INCLUDE[prod_short](includes/prod_short.md)] posting interface structur
   
 ## <a name="see-also"></a>See Also  
 [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -74,3 +74,6 @@ If you have questions regarding the localisation of [!INCLUDE[prod_short](../../
 ## <a name="see-also"></a>See Also
 
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

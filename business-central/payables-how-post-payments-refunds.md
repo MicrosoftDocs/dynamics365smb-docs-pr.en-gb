@@ -57,3 +57,6 @@ The payment journal is a general journal that is optimised for making payments. 
 [Working with General Journals](ui-work-general-journals.md)  
 [Personalise Your Workspace](ui-personalization-user.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

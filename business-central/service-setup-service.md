@@ -44,3 +44,6 @@ The following table describes a sequence of tasks, with links to the topics that
 ## <a name="see-also"></a>See also 
 [Service Management](service-service.md)  
 [Getting Started](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

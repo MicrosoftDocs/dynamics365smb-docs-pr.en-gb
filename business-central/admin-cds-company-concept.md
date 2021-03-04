@@ -77,3 +77,5 @@ When you couple salespersons in [!INCLUDE[prod_short](includes/prod_short.md)] t
 
 ## <a name="see-also"></a>See Also
 [About [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -233,3 +233,6 @@ On the **Manufacturing Setup** page, the **Components at Location** field is set
 ## <a name="see-also"></a>See Also  
 [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)   
 [Design Details: Supply Planning](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

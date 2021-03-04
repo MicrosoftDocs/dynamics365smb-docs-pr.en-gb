@@ -43,3 +43,6 @@ You use an external service provider to exchange electronic documents with your 
 ## <a name="see-also"></a>See Also  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

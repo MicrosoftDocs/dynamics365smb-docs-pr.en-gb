@@ -146,3 +146,5 @@ The **Payment Terms** table in [!INCLUDE[prod_short](includes/prod_short.md)] wi
 
 ## <a name="see-also"></a>See Also
 [Mapping the Tables and Fields to Synchronise](admin-how-to-modify-table-mappings-for-synchronization.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

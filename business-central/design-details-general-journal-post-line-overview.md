@@ -46,3 +46,6 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], codeunit 12 has had the follo
 ## <a name="see-also"></a>See Also  
 [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)   
 [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

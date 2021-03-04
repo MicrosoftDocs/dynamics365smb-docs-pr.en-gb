@@ -38,3 +38,6 @@ The following table describes the insights that this extension provides for each
 
 ## <a name="see-also"></a>See Also
 [Customising [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

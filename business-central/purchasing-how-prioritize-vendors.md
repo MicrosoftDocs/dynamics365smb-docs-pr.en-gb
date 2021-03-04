@@ -39,3 +39,6 @@ If you do not want to prioritise a vendor, leave the **Priority** field blank. T
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

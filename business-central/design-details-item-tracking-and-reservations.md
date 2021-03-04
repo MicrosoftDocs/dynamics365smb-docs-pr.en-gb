@@ -92,3 +92,5 @@ This business scenario is supported with Late Binding functionality that enables
   
 ## <a name="see-also"></a>See Also  
 [Design Details: Item Tracking](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

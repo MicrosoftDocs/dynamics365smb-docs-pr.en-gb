@@ -46,3 +46,6 @@ The **Planning** FastTab on the item card is the centre of a company’s supply 
  [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
  [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
  [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

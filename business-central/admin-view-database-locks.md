@@ -33,3 +33,6 @@ For more information about database locking, see [Monitoring Database Locks](/dy
 ## <a name="see-also"></a>See Also
 
 [Monitor Database Locks](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

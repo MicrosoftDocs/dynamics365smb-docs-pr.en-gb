@@ -48,3 +48,5 @@ Codeunit 22 loops through the item tracking numbers and splits the posting into 
 ## <a name="see-also"></a>See Also  
 [Design Details: Item Tracking](design-details-item-tracking.md)   
 [Design Details: Item Tracking Design](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

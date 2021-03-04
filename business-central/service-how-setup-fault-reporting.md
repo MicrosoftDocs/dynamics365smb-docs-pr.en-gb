@@ -47,3 +47,6 @@ To complete the setup of fault reporting, you can also specify what repairs or r
 ## <a name="see-also"></a>See Also
 [Setting Up Service Management](service-setup-service.md)  
 [Service Management](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

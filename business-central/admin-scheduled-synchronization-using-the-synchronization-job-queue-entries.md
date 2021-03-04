@@ -100,3 +100,6 @@ For example, by default, the CURRENCY job queue entry, which synchronises curren
 [Manually Synchronise Table Mappings](admin-manual-synchronization-of-table-mappings.md)  
 [Scheduling a Synchronisation between Business Central and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [About Integrating Dynamics 365 Business Central with [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

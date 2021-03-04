@@ -93,3 +93,6 @@ The following table lists the fields on the **Options** FastTab that are availab
 ## <a name="see-also"></a>See Also
 
 [Administration](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

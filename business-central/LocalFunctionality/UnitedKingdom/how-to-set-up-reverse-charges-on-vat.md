@@ -48,3 +48,6 @@ Consult the [HMRC website](https://www.gov.uk/government/organisations/hm-revenu
 
 ## <a name="see-also"></a>See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

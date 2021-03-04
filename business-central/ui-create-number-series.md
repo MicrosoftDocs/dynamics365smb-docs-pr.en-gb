@@ -87,3 +87,6 @@ Now when you set up something that requires a number, you can use the relationsh
 ## <a name="see-also"></a>See Also
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

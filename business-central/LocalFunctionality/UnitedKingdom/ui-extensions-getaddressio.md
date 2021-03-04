@@ -34,3 +34,6 @@ The GetAddress.io UK Postcodes extension can save time and prevent mistakes when
 
 ## <a name="see-also"></a>See Also
 [Set Up the GetAddress.io UK Postcode Extension](uk-setup-postal-code-service.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

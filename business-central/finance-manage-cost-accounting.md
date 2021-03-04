@@ -36,3 +36,6 @@ Cost accounting is used to help you understand the costs of running a business. 
 [Finance](finance.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

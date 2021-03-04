@@ -46,3 +46,6 @@ You can use the **General Service Comment Sheet** page to register comments on r
   
 ## <a name="see-also"></a>See Also  
 [Set Up a Loaner Program](service-how-setup-loaner-program.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

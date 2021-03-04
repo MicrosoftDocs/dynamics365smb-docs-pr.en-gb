@@ -87,3 +87,6 @@ Using this extension is just a matter of exporting data on the **Payment Journal
 ## <a name="see-also"></a>See Also
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Getting Started](product-get-started.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

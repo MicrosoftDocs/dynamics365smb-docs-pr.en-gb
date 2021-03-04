@@ -62,3 +62,6 @@ When parts of a document line quantity are posted, only that particular quantity
 ## <a name="see-also"></a>See Also  
  [Design Details: Item Tracking](design-details-item-tracking.md)   
  [Design Details: Item Tracking Lines Page](design-details-item-tracking-lines-window.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

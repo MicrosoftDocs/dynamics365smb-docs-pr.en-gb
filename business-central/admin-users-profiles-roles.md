@@ -145,3 +145,6 @@ For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can manage s
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Customise Pages for Profiles](ui-personalization-manage.md)  
 [Personalise Your Workspace](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

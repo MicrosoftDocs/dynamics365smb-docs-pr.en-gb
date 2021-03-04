@@ -49,3 +49,6 @@ ms.locfileid: "4756574"
 3.  Choose the **OK** button.  -->
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -37,3 +37,6 @@ If you need to pay the vendor by cash or cheque, you can post the payment when y
 [Managing Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

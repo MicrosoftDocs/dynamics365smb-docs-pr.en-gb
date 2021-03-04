@@ -41,3 +41,6 @@ The Association for Payment Clearing Services (APACS) specification defines a st
 
 ## <a name="see-also"></a>See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

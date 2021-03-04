@@ -158,3 +158,6 @@ When you assign the profile questionnaire containing this question to a contact,
 
 ## <a name="see-also"></a>See Also
 [Creating Contacts](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

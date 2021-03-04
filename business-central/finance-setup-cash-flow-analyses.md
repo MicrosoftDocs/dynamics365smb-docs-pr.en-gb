@@ -132,3 +132,6 @@ You can also create your own predictive web service based on a public model name
 [Analysing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -162,3 +162,6 @@ A direct-debit collection is added to the **Direct Debit Collections** page, and
 ## <a name="see-also"></a>See Also  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Service Management](service-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

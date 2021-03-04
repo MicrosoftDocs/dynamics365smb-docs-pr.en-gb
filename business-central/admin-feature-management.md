@@ -25,3 +25,6 @@ Learn more about [Feature Management](/dynamics365/business-central/dev-itpro/ad
 ## <a name="see-also"></a>See also 
 
 [New and planned features](https://aka.ms/Dynamics365ReleasePlan)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

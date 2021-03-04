@@ -34,3 +34,6 @@ To open the **Interaction Template Setup** page, choose the ![Lightbulb that ope
 ## <a name="see-also"></a>See Also
 [Recording Interactions With Contacts](marketing-interactions.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

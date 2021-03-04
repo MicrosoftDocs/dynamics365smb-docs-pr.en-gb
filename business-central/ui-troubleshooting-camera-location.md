@@ -57,3 +57,6 @@ Some antivirus software block access to camera and location by default. Remember
 ## <a name="see-also"></a>See Also
 [Implementing the Camera in AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Implementing the Location in AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

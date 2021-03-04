@@ -45,3 +45,6 @@ If you are using Dynamics SL, get the **Intelligent Cloud Base** extension, the 
 
 [Intelligent Insights](about-intelligent-cloud.md)  
 [Intelligent Cloud Base Extension](ui-extensions-intelligent-cloud.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

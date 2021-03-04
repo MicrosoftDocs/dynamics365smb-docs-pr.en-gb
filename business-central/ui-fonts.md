@@ -52,3 +52,6 @@ For more information, see [Select a Cheque Layout](finance-how-define-check-layo
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Select a Cheque Layout](finance-how-define-check-layouts.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

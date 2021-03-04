@@ -76,3 +76,6 @@ After you make a selection, enter the relevant search information in the fields 
 [Working with Business Central](ui-work-product.md)  
 [Add a Page Action to Your Role Centre](ui-bookmarks.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

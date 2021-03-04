@@ -68,3 +68,6 @@ We have shown Tell Me to a range of stakeholders, noted the questions that they 
 ## <a name="see-also"></a>See Also
 [Working with Business Central](ui-work-product.md)  
 [Add a Page Action to Your Role Centre](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -111,3 +111,6 @@ If your organisation later sets up warehouse management, in most cases, you must
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

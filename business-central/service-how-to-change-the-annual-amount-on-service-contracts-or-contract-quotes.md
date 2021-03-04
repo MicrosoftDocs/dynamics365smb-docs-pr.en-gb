@@ -150,3 +150,6 @@ Finally, the contract lines will contain this data.
 ## <a name="see-also"></a>See Also  
 [Create Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Setting Up Service Management](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

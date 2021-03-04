@@ -40,3 +40,6 @@ The **Archived Workflow Step Instances** page opens showing all archived workflo
  [Setting Up Workflows](across-set-up-workflows.md)   
  [Using Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

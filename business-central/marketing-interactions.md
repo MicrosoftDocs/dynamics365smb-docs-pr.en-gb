@@ -56,3 +56,6 @@ You can delete interaction log entries that have been cancelled. To delete inter
 [Managing Contacts](marketing-contacts.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Working with Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

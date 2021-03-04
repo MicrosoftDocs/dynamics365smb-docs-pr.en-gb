@@ -144,3 +144,6 @@ If you are not using Azure Active Directory to manage identities and access, you
 ## <a name="see-also"></a>See Also
 
 [View the Status of a Synchronisation](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

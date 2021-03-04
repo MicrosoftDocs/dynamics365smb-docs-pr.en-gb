@@ -115,3 +115,6 @@ Expressions that only use symbols, such as `|` or `..` are considered safe for u
 [Save and Personalise List Views](ui-views.md)  
 [Finding Features and Information](ui-search.md)  
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
