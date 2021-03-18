@@ -2,18 +2,12 @@
 metadata:
   title: Copy and paste data FAQ
   description: Get answers to frequently asked questions about copying and pasting data from fields and rows from Business Central pages.
-  author: SorenGP
-  ms.topic: article
-  ms.service: dynamics365-business-central
-  ms.search.keywords: accessibility, shortcuts, keyboarding
-  ms.date: 01/08/2021
-  ms.author: edupont
-  ms.openlocfilehash: 93b9f28fec418fef9968fb729ee03b3b0df3918a
-  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.openlocfilehash: 7d3d0e29bb6751913297974f611aa9695677ed66
+  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
   ms.translationtype: HT
   ms.contentlocale: en-GB
-  ms.lasthandoff: 01/15/2021
-  ms.locfileid: "5013928"
+  ms.lasthandoff: 02/15/2021
+  ms.locfileid: "5181836"
 title: Copy and Paste FAQ
 summary: "You can copy one or more rows (records) from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email).  \n\nIn short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS). There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows). This article answers common questions you might have about copying and pasting.  \n"
 sections:
