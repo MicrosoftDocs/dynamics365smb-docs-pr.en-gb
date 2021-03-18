@@ -3,19 +3,19 @@ title: Setting Up Unrealised Value Added Tax | Microsoft Docs
 description: If you're using cash-based accounting, you can specify how to handle unrealised VAT for sales and purchases.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 36404306909fb7c2e9d2de97e43fa181dc65a069
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9320a06b8224aae334e8b3b8682df4d8b5fbdb81
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746530"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492899"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Set Up Unrealised VAT for Cash-Based Accounting
 If you are using cash-based accounting methods, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to handle unrealised VAT.
@@ -49,7 +49,6 @@ To use accounts for unrealised VAT, follow these steps:
 > The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase VAT.
 
 ## <a name="see-also"></a>See Also
-[Setting Up Value Added Tax](finance-setup-vat.md)
-
+[Set Up Calculations and Posting Methods for Value Added Tax](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

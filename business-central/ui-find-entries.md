@@ -3,19 +3,19 @@ title: Finding entries | Microsoft Docs
 description: This article describes how to documents and entries that are related
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 870cd32dc2408236ed8997e1f939c00d1bf519e4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 437e0c076b664ad35d5819783e98d9e91abee982
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927748"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393981"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Finding Related Entries for Posted Documents 
 
@@ -56,7 +56,7 @@ The **Find Entries** page  includes all related documents and entries based on t
 
 ## <a name="search-for-entries"></a>Search for entries
 
-You can search for entries based on information about either the document, business contact, or item reference. To change the search, select **Actions** , **Find By** , then one of the following actions:
+You can search for entries based on information about either the document, business contact, or item reference. To change the search, select **Actions**, **Find By**, then one of the following actions:
 
 |Action|Description|
 |------|-----------|
@@ -67,7 +67,7 @@ You can search for entries based on information about either the document, busin
 After you make a selection, enter the relevant search information in the fields at the top. Use the tooltips on the fields to help. When you're finished, choose **Find** to start the search. If you change any of the filters, you have to choose **Find** again.
 
 > [!TIP]
-> For a couple examples about using **Find Entries** , see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).
+> For a couple examples about using **Find Entries**, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

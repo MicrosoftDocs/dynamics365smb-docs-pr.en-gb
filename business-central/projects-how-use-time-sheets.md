@@ -3,19 +3,19 @@ title: Work with Time Sheets for Jobs| Microsoft Docs
 description: Describes how to create a time sheet for a job, copy planning lines to it, define work types, fill in the time sheet, and submit it for approval.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b53768d7a7757f3f3e186e5d241b318a71c770b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 42357da17222bf6500667bfdf160124e245d6bb0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758624"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388355"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Use Time Sheets for Jobs
 

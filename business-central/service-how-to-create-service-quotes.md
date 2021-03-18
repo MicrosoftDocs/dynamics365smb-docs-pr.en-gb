@@ -3,19 +3,19 @@ title: How to Create Service Quotes | Microsoft Docs
 description: You can use the **Service Quote** page to create documents where you enter information about a service, such as repairs and maintenance, on service items by customer request. You can use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 41cb742ac256e124a273ac202a1c7f112a69795d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 92c93b2e0b876920f1c259d31b4d839a5b2ecbc0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918645"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388806"
 ---
 # <a name="create-service-quotes"></a>Create Service Quotes
 You can think of service quotes as the basis for service orders. In fact, they are almost identical. They both contain information such as who the customer is, the type of order, the item that needs service, billing and shipping information, and information about the actual service work.
@@ -23,7 +23,7 @@ You can think of service quotes as the basis for service orders. In fact, they a
 You can use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.  
   
 ## <a name="to-create-a-service-quote"></a>To create a service quote  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Quotes** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Quotes**, and then choose the related link.  
 2. Create a new service quote.  
 3. In the **No.** field, enter a number for the service quote. Alternatively, if you have set up a number series for service quotes on the **Service Mgt. Setup** page, you can press Enter to select the next available service quote number.  
 4. In the **Customer No.**  field, select the relevant customer from the list.  

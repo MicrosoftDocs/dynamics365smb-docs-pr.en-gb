@@ -6,21 +6,23 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
-ms.openlocfilehash: 65911039894d1f0eb81aeb1160a6b2aafc2fae0c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2b6d27ed04eb7f09bc884930105867c25b2b4a5f
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752882"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492970"
 ---
 # <a name="handling-missing-option-values"></a>Handling Missing Option Values
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] contains only three option set fields that contain option values that you can map to [!INCLUDE[prod_short](includes/prod_short.md)] fields of Option type<!-- Option type, not enum? @Onat can you vertify this? --> for automatic synchronisation. During synchronisation, non-mapped options are ignored and the missing options are appended to the related [!INCLUDE[prod_short](includes/prod_short.md)] table and added to the **CDS Option Mapping** system table to handle manually later. For example, by adding the missing options in either product and then updating the mapping. This section describes how that works.
+This topic is intended for a technical audience. The processes it describes require the help of a developer.
 
-The **Integration Table Mapping** page contains three maps for fields that contain one or more mapped option values. After a full synchronisation, the **CDS Option Mapping** page contains the non-mapped options in the three fields respectively.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] contains three option set fields that contain values that you can map to [!INCLUDE[prod_short](includes/prod_short.md)] fields of the Option type for automated synchronisation. During synchronisation, non-mapped options are ignored and the missing options are appended to the related [!INCLUDE[prod_short](includes/prod_short.md)] table and added to the **Dataverse Option Mapping** system table to handle manually later. For example, by adding the missing options in either product and then updating the mapping.
+
+The **Integration Table Mapping** page contains three fields that contain one or more mapped option values. After a full synchronisation, the **Dataverse Option Mapping** page contains the non-mapped options in the three fields.
 
 |         Record             | Option Value | Option Value Caption |
 |----------------------------|--------------|----------------------|
@@ -38,7 +40,7 @@ The **Integration Table Mapping** page contains three maps for fields that conta
 | Shipping Agent: FULLLOAD   | 6            | Full Load            |
 | Shipping Agent: WILLCALL   | 7            | Will Call            |
 
-The content of the **CDS Option Mapping** page is based on enum values in the **CDS Account** table. In [!INCLUDE[prod_short](includes/cds_long_md.md)], the following fields on the account table are mapped to fields on the customer and vendor records:
+The content of the **Dataverse Option Mapping** page is based on enum values in the **CRM Account** table. In [!INCLUDE[prod_short](includes/cds_long_md.md)], the following fields on the account table are mapped to fields on the customer and vendor records:
 
 - **Address 1: Freight Terms** of data type Enum, where values are defined as follow:
 
@@ -55,7 +57,6 @@ enum 5335 "CDS Shipment Method Code"
 - **Address 1: Shipping Method** of data type Enum, where values are defined as follows:
 
 ```
-enum 5336 "CDS Shipping Agent Code"
 enum 5336 "CDS Shipping Agent Code"
 {
     Extensible = true;
@@ -111,7 +112,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ### <a name="update-prod_short-option-mapping"></a>Update [!INCLUDE[prod_short](includes/cds_long_md.md)] Option Mapping
 Now you can recreate the mapping between [!INCLUDE[prod_short](includes/cds_long_md.md)] options and [!INCLUDE[prod_short](includes/prod_short.md)] records.
 
-On the **Integration Table Mapping** page, choose the line for the **Payment Terms** map, and then choose the **Synchronise Modified Records** action. The **CDS Option Mapping** page is updated with the additional records below.
+On the **Integration Table Mapping** page, choose the line for the **Payment Terms** map, and then choose the **Synchronise Modified Records** action. The **Dataverse Option Mapping** page is updated with the additional records below.
 
 |         Record                 | Option Value   | Option Value Caption |
 |--------------------------------|----------------|----------------------|
@@ -122,7 +123,7 @@ On the **Integration Table Mapping** page, choose the line for the **Payment Ter
 | **Payment Terms: CASH PAYME**  | **779800001**  | **Cash Payment**     |
 | **Payment Terms: TRANSFER**    | **779800002**  | **Transfer**         |
 
-The **Payment Terms** table in [!INCLUDE[prod_short](includes/prod_short.md)] will then have new records for the [!INCLUDE[prod_short](includes/cds_long_md.md)] options. In the following table new options are in bold font . Italic rows represent all options that can now be synchronised. Remaining rows represent options are not in use and will be ignored during synchronisation. You can remove them or extend CDS options with the same names.)
+The **Payment Terms** table in [!INCLUDE[prod_short](includes/prod_short.md)] will then have new records for the [!INCLUDE[prod_short](includes/cds_long_md.md)] options. In the following table new options are in bold font . Italic rows represent all options that can now be synchronised. Remaining rows represent options are not in use and will be ignored during synchronisation. You can remove them or extend Dataverse options with the same names.)
 
 | Code       | Due Date Calculation | Discount Date Calculation | Discount % | Calc. Pmt. Disc. on Cr. Memos | Description       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -136,10 +137,10 @@ The **Payment Terms** table in [!INCLUDE[prod_short](includes/prod_short.md)] wi
 | 30 DAYS    | 30D                  |                           | 0.         | FALSE                         | Net 30 days       |
 | 60 DAYS    | 60D                  |                           | 0.         | FALSE                         | Net 60 days       |
 | 7 DAYS     | 7D                   |                           | 0.         | FALSE                         | Net 7 days        |
-| ***CASH PAYME** _ |                      |                           | 0.         | FALSE                         |                   |
+| ***CASH PAYME*** |                      |                           | 0.         | FALSE                         |                   |
 | CM         | CM                   |                           | 0.         | FALSE                         | Current Month     |
 | COD        | 0D                   |                           | 0.         | FALSE                         | Cash on delivery  |
-| _NET30*      |                      |                           | 0.         | FALSE                         |                   |
+| *NET30*      |                      |                           | 0.         | FALSE                         |                   |
 | *NET45*      |                      |                           | 0.         | FALSE                         |                   |
 | *NET60*      |                      |                           | 0.         | FALSE                         |                   |
 | ***TRANSFER*** |                      |                           | 0.         | FALSE                         |                   |

@@ -3,19 +3,19 @@ title: How to Create Service Items | Microsoft Docs
 description: When you receive an unregistered item for servicing, you can register it as a service item.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e45c23c8ed3b6f96c24e78666822c6fb9ef9859f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5d77fd11748d4e537914a1209d6b2a9e66a6ee0e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757899"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390356"
 ---
 # <a name="create-service-items"></a>Create Service Items
 In [!INCLUDE[prod_short](includes/prod_short.md)], the term "service item" refers to equipment or items that require service. When you create a service order, you specify the items that need service. In the order, you can link a service item to an item in inventory or a service item group.    

@@ -3,19 +3,19 @@ title: Exploring and Navigating Pages per Role| Microsoft Docs
 description: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ef447ca9d0341983b43c0c90c96698ccc0eab77a
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756700"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470319"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Finding Pages with the Role Explorer
 You can get an overview of all the business features that are available for your role, and for other roles if you go a step further. In the following documentation, this feature overview is referred to as the *role explorer*.
@@ -39,7 +39,9 @@ The actions that open pages are organised under nodes named after the features o
 
 - To expand/collapse a node, choose the node. This applies to top-level nodes and sub nodes.
 - To expand/collapse all top-level nodes on the page, choose the **Expand** or **Collapse** action in the top-right corner.
-- To expand/collapse a top-level node and all sub nodes under it, press the Ctrl+Shift keys while you choose the **Expand** or **Collapse** action in the top-right corner.
+- To expand/collapse all top-levels node and all sub nodes under it, do one of the following steps:
+    - Press the Ctrl+Shift keys while you choose the **Expand** or **Collapse** action in the top-right corner.
+    - Choose **...** in the top-right corner, then choose the **Expand All** or **Collapse All** action.
 
 ## <a name="see-also"></a>See Also
 [Finding Pages and Information with Tell Me](ui-search.md)  

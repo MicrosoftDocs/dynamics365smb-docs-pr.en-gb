@@ -3,19 +3,19 @@ title: Available Fonts
 description: The online version of Business Central contains pre-installed fonts on the servers that can be used when generating reports.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/20/2020
 ms.author: edupont
-ms.openlocfilehash: 534e0d7c86dd49b9790cd7f8d5d644b56e8b28d4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 79ce3aba4acf5d5d889bce5ff37bf6d91d83e47c
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756974"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493261"
 ---
 # <a name="available-fonts"></a>Available Fonts
 
@@ -26,7 +26,7 @@ The online version of [!INCLUDE[prod_short](includes/prod_short.md)] contains pr
 
 ## <a name="document-fonts"></a>Document Fonts
 
-The following fonts are installed and available to use in Word and RDLC document reports:
+The following fonts are installed and available to use in both Word and RDLC report layouts:
 
 * Arial
 * Consolas
@@ -46,6 +46,17 @@ Magnetic Ink Character Recognition (MICR) fonts are installed and available to u
 In addition to MICR fonts, special security fonts are available to generate text, names, amounts, and the currency symbols Dollar, Euro, Pound, and Yen, which are hard to tamper with once a cheque has been printed.  
 
 For more information, see [Select a Cheque Layout](finance-how-define-check-layouts.md).  
+
+## <a name="fonts-for-barcodes"></a>Fonts for Barcodes
+Fonts to generate one-dimensional barcodes are installed and available to use in both Word and RDLC report layouts.
+
+The following barcode symbologies are supported:
+* Code 3 of 9 (Code 39)
+* Code 128
+* Code 93
+* Codabar
+* MSI
+* Interleaved 2 of 5
 
 ## <a name="see-also"></a>See Also
 

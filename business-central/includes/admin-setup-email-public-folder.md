@@ -4,12 +4,12 @@ ms.service: dynamics365-accountant
 ms.topic: include
 ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: 1b9f60eab5b0bcf812343e82389087ac5535301a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d58d8d628577f163d36199b8fc5785982aac830a
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749787"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493007"
 ---
 Before you can set up email logging, you must prepare your Exchange Online with [public folders](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). You can do this in the [Exchange admin centre](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ), or you can use the [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
 
@@ -72,4 +72,4 @@ The following list describes the main steps with links to learn more.
   For more information, see [Manage mail flow rules in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) and [Mail flow rule actions in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
-> If you make changes in the Exchange Management Shell, the changes become visible in the Exchange admin centre after a delay. Also, the changes made in Exchange will be available in [!INCLUDE[prod_short](prod_short.md)] after a delay.
+> If you make changes in the Exchange Management Shell, the changes become visible in the Exchange admin centre after a delay. Also, the changes made in Exchange will be available in [!INCLUDE[prod_short](prod_short.md)] after a delay. The delay might be several hours.

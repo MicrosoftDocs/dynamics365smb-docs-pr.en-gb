@@ -1,21 +1,21 @@
 ---
-title: Create a Customer Card to Register New Customers | Microsoft Docs
+title: Register New Customers by Creating a Customer Card
 description: Describes how to create a customer card to register information about each new customer or client that you sell to.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: client
-ms.date: 10/01/2020
+ms.search.keywords: client, customer, credit
+ms.date: 03/09/2021
 ms.author: edupont
-ms.openlocfilehash: 86527387653d198bc8cf6f7817058b5ff551e1d0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748326"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573433"
 ---
 # <a name="register-new-customers"></a>Register New Customers
 
@@ -64,6 +64,29 @@ The customer template is added to the list of customer templates, so that you ca
 
 If you have posted a transaction for a customer, you cannot delete the card because the ledger entries may be needed for auditing. To delete customer cards with ledger entries, contact your Microsoft partner to do so through code.  
 
+## <a name="managing-credit-limits"></a>Managing credit limits
+
+Credit limits, balance amounts, and payment terms make it possible for [!INCLUDE [prod_short](includes/prod_short.md)] to issue a credit and an overdue balance warning when you enter a sales order.  Furthermore, reminder term and finance charge term facilities allow you to invoice interest and/or additional fees.  
+
+The **Credit Limit** field on a customer card specifies the maximum amount that you allow the customer to exceed the payment balance before warnings are issued. Then, when you enter information in journals, quotes, orders, and invoices, [!INCLUDE [prod_short](includes/prod_short.md)] tests the sales header and individual sales lines to see if the credit limit has been exceeded.
+
+You can post even though the credit limit has been exceeded. If the field is left blank, there will be no credit limit for this customer.  
+
+You can choose not to have warnings telling you that the customer's credit limit has been exceeded, and you can specify which types of warning you want to see.
+
+### <a name="to-specify-credit-limit-warnings"></a>To specify credit limit warnings
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
+
+2. On the **General** FastTab, in the **Credit Warnings** field, choose the relevant option as described in the following table:
+
+    |Option| Description|
+    |------|------------|
+    |**Both Warnings**| Both the **Credit Limit** and the **Balance Due** fields on the customer's card are checked, and a warning is shown if the customer has exceeded its credit limit or if the customer has an overdue balance.|
+    |**Credit Limit**|The value in the **Credit Limit** field on the customer's card is compared with the customer's balance, and a warning is shown if the customer's balance exceeds this amount.|
+    |**Overdue Balance**|The **Balance Due** field on the customer's card is checked, and a warning is shown if the customer has an overdue balance.|
+    |**No Warning**|No warnings are shown about the customer's status.|
+
 ## <a name="see-also"></a>See Also
 
 [Defining Payment Methods](finance-payment-methods.md)  
@@ -72,6 +95,5 @@ If you have posted a transaction for a customer, you cannot delete the card beca
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

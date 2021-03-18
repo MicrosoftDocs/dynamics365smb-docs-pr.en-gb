@@ -3,19 +3,19 @@ title: Service Statistics | Microsoft Docs
 description: Get a quick overview of the contents of service documents such as orders, quotes, invoices, or credit memos, the details on the specific service lines, and the service items.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 55c534d1f8a836775548d118f68383622ca25dec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0529242e3c19fa09d7cf8f5acd125f557e5c3b60
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913078"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391231"
 ---
 # <a name="viewing-service-statistics"></a>Viewing Service Statistics
 You can use statistics to analyse service documents and determine how well you are managing your service processes. You can analyse service contracts, items, quotes, orders, invoices, and credit memos by choosing the **Statistics** action. For service items and contracts, you can also use the **Service Item Trendscape** or **Contract Trendscape** to view a summary of service ledger entries for a specific service item.   
@@ -23,7 +23,7 @@ You can use statistics to analyse service documents and determine how well you a
 ## <a name="viewing-statistics-for-service-orders"></a>Viewing Statistics for Service Orders
 The service order statistics feature gives you a quick overview of the contents of the entire service order, the details on the specific service lines, and information related to invoicing, shipping and consuming, and the customer's balance.  
 
-The statistical data is displayed for a service order on the **Service Order Statistics** page for the relevant order. You can open the relevant statistics page from a service order. On the **Service Orders** page, choose **Statistics** . The FastTabs in this page show information such as quantity, amount, VAT, cost, profit, and customer credit limit. The amounts on the page are in the currency of the service order, unless otherwise indicated.  
+The statistical data is displayed for a service order on the **Service Order Statistics** page for the relevant order. You can open the relevant statistics page from a service order. On the **Service Orders** page, choose **Statistics**. The FastTabs in this page show information such as quantity, amount, VAT, cost, profit, and customer credit limit. The amounts on the page are in the currency of the service order, unless otherwise indicated.  
 
 ### <a name="view-totals-for-a-service-order"></a>View totals for a service order  
 You can view the total amount on the service lines, including and excluding VAT, VAT part, cost, and profit on the service lines. The page also displays item-specific information, such as weight, volume, and the quantity of parcels.  
@@ -64,14 +64,14 @@ For each entry type, you can see the invoiced amount, usage (amount), cost amoun
 * (Invoiced Amount - Usage (Cost)) x 100 / Invoiced Amount  
 
 ## <a name="using-trendscapes"></a>Using Trendscapes
-For service items and service contracts, the **Service Item Trendscape** or **Service Contract Trendscape** pages provides a scrollable summary of service ledger entries in a period of time for a specific service item or contract. To view the trendscape, open the service item or service contract, choose the **Statistics** action, and then choose **Trendscape** .
+For service items and service contracts, the **Service Item Trendscape** or **Service Contract Trendscape** pages provides a scrollable summary of service ledger entries in a period of time for a specific service item or contract. To view the trendscape, open the service item or service contract, choose the **Statistics** action, and then choose **Trendscape**.
 
 When you scroll the list, the amounts are calculated in the local currency according to the specified time interval. All amounts are calculated from service ledger entries, which are entries that are created when you post service orders or service invoices.
 
 You can filter the list by specifing the service items to include.  
 
 > [!Tip]  
->  If you have set the time interval to **Day** and you want to scroll over a long period, you can do it faster by shifting to a larger interval such as **Quarter** . When you have found the desired period, you can shift back to the original interval to see the data in more detail.   
+>  If you have set the time interval to **Day** and you want to scroll over a long period, you can do it faster by shifting to a larger interval such as **Quarter**. When you have found the desired period, you can shift back to the original interval to see the data in more detail.   
 
 ## <a name="viewing-gains-and-losses-on-contracts"></a>Viewing Gains and Losses on Contracts  
 A contract gain or loss entry is generated when a contract quote is converted to a service contract, when contract lines are added or removed from a service contract, or when a contract is cancelled. You can view contract gains or losses on the following pages.  
@@ -85,7 +85,7 @@ A contract gain or loss entry is generated when a contract quote is converted to
 |**Contract Gain/Loss (Resp.Ctr)**|To view the contract gain/loss by responsibility centre.|  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the page to display, and then choose the related link.  
-2. Fill in the filter criteria you want to apply. For example, on the **Contract Gain/Loss (Reasons)** page, choose a value for **Reason Code Filter** .  
+2. Fill in the filter criteria you want to apply. For example, on the **Contract Gain/Loss (Reasons)** page, choose a value for **Reason Code Filter**.  
 3. Choose the **Show Matrix** action.
 
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Viewing Statistics for Posted Service Documents

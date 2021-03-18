@@ -3,19 +3,19 @@ title: Design Details - Item Tracking Design | Microsoft Docs
 description: This topic describes the design behind item tracking in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 87c85de9f501e093679512b709841d0027fe17bf
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a0c60381634543f367e85a465c4ee74c3396d5ad
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751337"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391005"
 ---
 # <a name="design-details-item-tracking-design"></a>Design Details: Item Tracking Design
 In the first version of Item Tracking in [!INCLUDE[prod_short](includes/prod_short.md)] 2.60, serial numbers or lot numbers were recorded directly on item ledger entries. This design provided full availability information and simple tracking of historic entries, but it lacked flexibility and functionality.  

@@ -3,19 +3,19 @@ title: Design Details - Handling Reordering Policies | Microsoft Docs
 description: Overview of tasks for defining a reorder policy in supply planning.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dbe63d653120eb9e6450af401558414cf2057b1d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa9563c503fac844abb67d02934e0a0a666deeab
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922249"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390056"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Design Details: Handling Reordering Policies
 For an item to participate in supply planning, a reorder policy must be defined. The following four reordering policies exist:  
@@ -81,9 +81,9 @@ The following shows a graphical illustration of this principle:
 
      This increases the projected inventory level (A: +0 => +4 or B: +2 = +6).  
 
-7. System makes a final check: Is there any decrease reminder? Yes, there is one on the date of **Da** .  
+7. System makes a final check: Is there any decrease reminder? Yes, there is one on the date of **Da**.  
 8. System adds the decrease reminder of -3 reminder to the projected inventory level, either A: +4 -3 = 1 or B: +6 -3 = +3.  
-9. In case of A, the system creates a forward-scheduled order starting on date **Da** .  
+9. In case of A, the system creates a forward-scheduled order starting on date **Da**.  
 
      In case of B, the reorder point is reached and a new order is created.
 
@@ -195,14 +195,14 @@ The reorder point expresses the anticipated demand during the lead time of the i
 
  ![Emergency planning suggestion to avoid negative inventory](media/nav_app_supply_planning_2_negative_inventory.png "Emergency planning suggestion to avoid negative inventory")  
 
-1.  Supply **A** , initial projected inventory, is below reorder point.  
-2.  A new forward-scheduled supply is created ( **C** ).  
+1.  Supply **A**, initial projected inventory, is below reorder point.  
+2.  A new forward-scheduled supply is created (**C**).  
 
      (Quantity = Maximum Inventory – Projected Inventory Level)  
-3.  Supply **A** is closed by demand **B** , which is not fully covered.  
+3.  Supply **A** is closed by demand **B**, which is not fully covered.  
 
      (Demand **B** could try to schedule Supply C in but that will not happen according to the time-bucket concept.)  
-4.  New supply ( **D** ) is created to cover the remaining quantity on Demand **B** .  
+4.  New supply (**D**) is created to cover the remaining quantity on Demand **B**.  
 5.  Demand **B** is closed (creating a reminder to the projected inventory).  
 6.  The new supply **D** is closed.  
 7.  Projected Inventory is checked; reorder point has not been crossed.  

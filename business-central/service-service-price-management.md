@@ -3,19 +3,19 @@ title: Service Price Management | Microsoft Docs
 description: This topic describes how to apply the best price to service orders, set up personalised service price agreements for customers, improve service employees' efficiency, and accelerate the invoicing process.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 269c184928417d3e7dbd25e9f4fc94d66ae2547a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6877f50094874ce6e54b3a524254dfcba0c43468
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913103"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476727"
 ---
 # <a name="service-price-management"></a>Service Price Management
 The service price management functionality lets you apply the best price to service orders, set up personalised service price agreements for customers, improve service employees' efficiency, and accelerate the invoicing process.  
@@ -29,11 +29,13 @@ Before adjusting the price of a service item on a service order, you are provide
 Finally, service price group statistics and standard reports let you keep track of the profitability of each service price group.  
   
 ## <a name="service-price-adjustment-groups"></a>Service Price Adjustment Groups  
-You use service price adjustment groups to set up the different types of price adjustments. For example, you can set up a service price adjustment group that adjusts prices for spare parts, one that adjust prices for labour, one that adjusts prices for costs, and so on. You can also specify whether the service price adjustment should be applied to just one specific item or resource, or to all items or resources.  
+You use service price adjustment groups to set up the different types of price adjustments for service lines. For example, you can set up a service price adjustment group that adjusts prices for spare parts, one that adjusts prices for labour, one that adjusts prices for costs, and so on. You can also specify whether the service price adjustment should be applied to just one specific item or resource, or to all items or resources.  
   
-Each service price adjustment group holds the information about the adjustments that you want to make on the service lines.  
-  
-The service price adjustment function does not apply to service items that belong to service contracts. You can only adjust the service prices of items that are part of a service order. You cannot adjust the price of a service item if it has a warranty. You cannot adjust the price of a service item on a service order if the service line linked to it has been posted as invoice, either fully or in part.  
+The service price adjustment function does not apply to service items under the following conditions:
+
+* The item belongs to service contracts. You can only adjust the service prices of items that are part of a service order. 
+* If the service item has a warranty. 
+* If the service line has been posted as invoice, either fully or partially.  
   
 When you run the service price adjustment function, all of the discounts in the order will be replaced by the values of the service price adjustment.  
   
@@ -48,6 +50,12 @@ When you assign a service price group to a service item, all the special service
 You set up the actual types of service pricing (price adjustment type and price) for a combination of service price groups and customer price groups. For each type of service pricing, you select a service price adjustment group. You also specify the service price adjustment type, fixed, maximum, or minimum, and the actual price.  
   
 For example, you can set up types of service pricing for a radio service price group. For customers without a price group, you can decide to have service pricing with maximum price on labour, which is the labour price adjustment group. For customers with a particular price group, you can decide to have service pricing with a fixed price on labour, the same labour price adjustment group.  
+
+#### <a name="current-experience"></a>[Current Experience](#tab/current-experience)
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.  
+2. Select the service item, expand the **Prices and Sales** FastTab, choose the **Resource**, **Item**, or **G/L Account** action.
+3. On the **Job Resource Prices**, **Job Item Prices**, or **Job G/L Account Prices** pages, fill in the fields as necessary.
+
   
 ## <a name="service-price-adjustment"></a>Service Price Adjustment  
 Service price adjustment lets you adjust the price of an item, resource, general ledger account, or cost on a service order.  

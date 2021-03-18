@@ -3,19 +3,19 @@ title: How to Set Up Loaners | Microsoft Docs
 description: You can set up loaners that you can lend to customers to replace service items while they are in service.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f09db27d711e7fa2cd8c2d6679ce5cd21ab11b94
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: af92f9476189107fced0ff73e92c07d1a09be25a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747950"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392106"
 ---
 # <a name="set-up-a-loaner-program"></a>Set Up a Loaner Program
 Sometimes you must provide a customer a loaner item for use when your customer service team makes a repair. In [!INCLUDE[prod_short](includes/prod_short.md)], you can set up a loaner programme, loan items to your customers, and track receipts when customers return the items. Additionally, you can add comments about loaners in one of two ways:  

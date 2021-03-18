@@ -3,19 +3,19 @@ title: Creating Cost Budgets | Microsoft Docs
 description: This topic provides an overview of where to create and analyse cost budgets.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2a8b8e88e296f36b8f4eb9bb41b05d5fc529b23b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 64f5b4ced195c44b3caeb4127d89624df23a84e1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750962"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391331"
 ---
 # <a name="creating-cost-budgets"></a>Creating Cost Budgets
 Budgeting in cost accounting resembles budgeting in the general ledger. A cost budget is created based on cost types just as a budget for the general ledger is created based on general ledger accounts.  

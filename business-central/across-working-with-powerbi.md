@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a747a0bdb67187597cc33185b418844247b2e2b2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8cf8946d8b9792c7fb557969257380d0b48d0d83
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752982"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492951"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Working with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -40,11 +40,11 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, it m
 
 Sign up for the Power BI service. If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use your work email address and password.
 
-## <a name="connect-to-power-bi---one-time-only"></a>Connect to Power BI - one time only
+## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Connect to Power BI - one time only
 
 When you first sign into [!INCLUDE [prod_short](includes/prod_short.md)], you might see an empty Power BI part on some page, as shown in the previous figure. The first thing to do is to connect to your Power BI account. Once connected, you can see reports. You only have to do this step once.
 
-To connect to Power BI, select the **Get Started with Power BI** link in the **Power BI Reports** part.
+To connect to Power BI, select the **Get Started with Power BI** link in the **Power BI Reports** part. 
 
 During the connecting process, [!INCLUDE [prod_short](includes/prod_short.md)] communicates with the Power BI service to determine if you have a valid Power BI account and licence. Once your licence is verified, the default Power BI report displays on the page. If there a report isn't shown, you can select a report from the part.
 
@@ -53,7 +53,7 @@ During the connecting process, [!INCLUDE [prod_short](includes/prod_short.md)] c
 
 ##### <a name="from-prod_short-on-premises"></a>From [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 
-Connecting to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] is similar to online. However, you'll be prompted on the **AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS** page to grant access to Power BI Services. To grant access, select **Authorise Azure Services**, and then **Accept**.
+Connecting to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] is similar to online. However, you might be prompted on the **AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS** page to grant access to Power BI Services. To grant access, select **Authorise Azure Services**, and then **Accept**.
 
 Once connected, you can select a report from the Power BI part on pages.
 

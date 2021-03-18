@@ -1,37 +1,38 @@
 ---
-title: Review and Post the Year-End Closing Entry | Microsoft Docs
+title: Post the Year-End Closing Entry
 description: Describes how to open the journal you specified in the Close Income Statement batch job, and then review and post the year-end closing entry.
-services: project-madeira
-documentationcenter: ''
-author: jswymer
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2020
-ms.author: jswymer
-ms.openlocfilehash: ca92d9535a9a15d46d93de6febdfd169c3d7d17a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.date: 02/23/2021
+ms.author: edupont
+ms.openlocfilehash: 728a3edc1ef2200d4f28130cad6653d6b26a5b3b
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755549"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493360"
 ---
 # <a name="post-the-year-end-closing-entry"></a>Post the Year-End Closing Entry
-After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.
+
+After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.  
+
+> [!TIP]
+> Depending on your organisations work processes, you can choose to close or not close accounting periods and fiscal years in [!INCLUDE [prod_short](includes/prod_short.md)]. The following procedure assumes that you have closed the fiscal year using the *Accounting Periods* option, generated a year-end closing entry using the **Close Income Statement** batch job, and are now ready to post the year-end closing entry along with the offsetting equity account entries. Your organisation can choose to work differently, such as post the year-end closing entry as part of closing the fiscal year.
 
 ## <a name="to-post-the-year-end-closing-entry"></a>To post the year end closing entry
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.
 2. On the **General Journal** page, in the **Batch Name** field, select the batch that contains the closing entries.
 3. Review the entries.
 4. To post the journal, choose the **Post** action.
 
 > [!NOTE]  
->   If an error is detected, an error message is displayed. If the posting is successful, the posted entries are removed from the journal. After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.
+> If an error is detected, an error message is displayed. If the posting is successful, the posted entries are removed from the journal. After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.
 
 ## <a name="see-also"></a>See Also
+
 [Close Accounting Periods](year-close-account-periods.md)  
 [Closing Books](year-close-books.md)  
 [Close Income Statement](year-close-income-statement.md)  

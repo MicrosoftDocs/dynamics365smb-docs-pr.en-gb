@@ -3,19 +3,19 @@ title: Design Details - General Journal Post Line | Microsoft Docs
 description: This topic provides insight into the concepts and principles that are used to redesign the general journal posting line feature in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 56cf606151f687cf48138b3e14758d7febc47db6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e7e61b572b2a7a1538d58430cbbcbb19d7cda999
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751586"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390081"
 ---
 # <a name="design-details-general-journal-post-line"></a>Design Details: General Journal Post Line
 This documentation provides detailed technical insight into the concepts and principles that are used to redesign the general journal posting line feature in [!INCLUDE[prod_short](includes/prod_short.md)]. The redesign makes codeunit 12 simpler and more maintainable. The documentation starts by describing conceptual overviews of the redesign. Then it explains the technical architecture to show the changes that result from the redesign.  

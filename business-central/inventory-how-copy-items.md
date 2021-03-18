@@ -3,19 +3,19 @@ title: How to Copy Existing Items to New Items
 description: When you add a new item, to save time, you can use the Copy Item function to copy an existing item to use as a template for a new item.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ebba20114f658bd440908d7346d467ae885fbb76
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c60531dc27008f42decdc540f392f1a9fdb90d5c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920479"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393156"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Copy Existing Items to Create New Items
 
@@ -23,10 +23,10 @@ When you add a new item, to save time, you can use the **Copy Item** function to
 
 ## <a name="to-copy-an-existing-item-to-a-new-item"></a>To copy an existing item to a new item
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** , and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select the item that you want to copy, and then choose the **Copy Item** action.  
 
-    If you cannot find the **Copy Item** action, choose to view more options, and then find it under **Actions** , **Functions** .  
+    If you cannot find the **Copy Item** action, choose to view more options, and then find it under **Actions**, **Functions**.  
 
 3. On the **Copy Item** page, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

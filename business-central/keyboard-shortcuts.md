@@ -3,19 +3,19 @@ title: Keyboard Shortcuts
 description: The complete list of keyboard shortcut combinations to work efficiently with your data.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746123"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470494"
 ---
 # <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
 
@@ -56,7 +56,6 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Shift+N |Close a newly created page and open a new one to create a new record. Similarly, Alt+F9 posts a document and creates a new one.|
 |Alt+T|Open the **My Settings** page.|
 |Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
-|Shift+F12|Open the role explorer, a feature overview. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).|
 |Ctrl+Alt+Shift+C|Display information in the company badge.|
 |Ctrl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |Ctrl+C |Copy the value of field. If the field is in focus, and you haven't selected any text in the field, this will copy the entire value. If you've selected any text in the field, then it will copy the selected text only.|
@@ -213,6 +212,18 @@ When setting a date field, you can either enter the date manually or open a cale
 |Ctrl++|Zoom in on the current page.|  
 |Ctrl+-|Zoom out on the current page.|  
 |Ctrl+0|Zoom in or out to 100% on the current page.|  
+
+## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Keyboard Shortcuts for Role Explorer
+
+Role explorer gives you an overview and quick access to all the business features that are available for your role. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).
+
+|Press these keys<br />(in macOS)|To do this|
+|--------------------------------|----------|
+|Shift+F12|Open the role explorer.|
+|F3|Open the **Find** box in role explorer for finding features based on a given search word or term.|
+|F3 or Ctrl+Down Arrow|Moves focus to the next found feature in role explorer. F3 will move focus to the **Find** box after the last found feature.|
+|Shift F3 or Ctrl+Up Arrow|Move focus to the previous found feature in role explorer.|
+|Ctrl+Shift|Expand or collapse all sub-nodes, in addition to top-level nodes, when you choose the **Expand** or **Collapse** action.|
 
 ## <a name="see-also"></a>See also 
 

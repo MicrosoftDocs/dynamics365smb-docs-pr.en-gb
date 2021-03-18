@@ -3,19 +3,19 @@ title: Count, Adjust, and Reclassify Inventory| Microsoft Docs
 description: Describes how to perform physical counting, make negative or positive adjustments, and how to change information, such as location or lot number, on item ledger entries or warehouse entries.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8909e4428aa97190ea6ccb5b83997657f29ea96f
-ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
+ms.openlocfilehash: 67058cf067b8ef647c01bfad79151516a6167a6b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "4827100"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391281"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Count, Adjust, and Reclassify Inventory Using Journals
 At least once every fiscal year you must take a physical inventory, that is, count all the items on inventory, to see if the quantity registered in the database is the same as the actual physical quantity in the warehouses. When the actual physical quantity is known, it must be posted to the general ledger as a part of period-end valuation of inventory.

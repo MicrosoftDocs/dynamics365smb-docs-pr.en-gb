@@ -3,19 +3,19 @@ title: Schedule jobs to run automatically
 description: Scheduled tasks are managed by the job queue. These jobs run reports and codeunits. You can set jobs to run one time, or on a recurring basis.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 29b5b3f633b0fd9fcac648f0bf7149b87ae0b20d
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 074a110a4aac42d9b6058e377c45de0c23409bb2
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013953"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470269"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Use Job Queues to Schedule Tasks
 
@@ -57,7 +57,7 @@ The following table describes the values of the **Status** field.
 2. On the **Job Queue Entries** page, select a job queue entry, and then choose the **Log Entries** action.  
 
 > [!TIP]
-> With [!INCLUDE [prod_short](includes/prod_short.md)] online, you can also view the status of job queue entries by using Application Insights in Microsoft Azure. For more information, see [Analysing Job Queue Lifecycle Trace Telemetry](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace) in the [!INCLUDE [prod_short](includes/prod_short.md)] Developer and IT Pro help.
+> With [!INCLUDE [prod_short](includes/prod_short.md)] online, you can also view the status of job queue entries by using Application Insights in Microsoft Azure. For more information, see [Analysing Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in the [!INCLUDE [prod_short](includes/prod_short.md)] Developer and Administration content.
 
 ## <a name="the-my-job-queue-part"></a>The My Job Queue Part
 The **My Job Queue** part on your Role Centre shows the job queues entries that you have started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Centre. For more information, see [Personalise Your Workspace](ui-personalization-user.md).  
@@ -92,7 +92,7 @@ For more information, see [To set up background posting with job queues](ui-batc
 [Administration](admin-setup-and-administration.md)  
 [Setting Up Business Central](setup.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
-[Analysing Job Queue Lifecycle Trace Telemetry](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+[Analysing Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

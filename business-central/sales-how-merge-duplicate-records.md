@@ -1,23 +1,21 @@
 ---
-title: Merge Duplicate Customer or Vendor Records | Microsoft Docs
-description: Describes how to create a customer card to register information about each new customer or client that you sell to.
-services: project-madeira
-documentationcenter: ''
+title: Merge Duplicate Customer or Vendor Records
+description: Describes how to consolidate information about customers or vendors when you have duplicate entries about some of them.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 04034406154dddfabe44a9fd62e0a793981e7f69
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f79035d6bfa841f6bf9e82acc4bd4cdc45e1bc28
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748365"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573483"
 ---
 # <a name="merge-duplicate-records"></a>Merge Duplicate Records
 As different users create new customer, vendor, or contact cards over time, or the new records are created automatically during migration, a customer, vendor, or contact may be represented in the system with more than one record. In this case, you can use the **Merge Duplicate** page from the card of the record that you want to keep. The page gives you an overview of duplicated field values and provides functions to select which values to keep or discard when merging two records into one.

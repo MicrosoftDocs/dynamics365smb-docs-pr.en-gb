@@ -3,15 +3,15 @@ title: Manage storage by deleting documents or compressing data
 description: Learn how you can keep your historical data by compressing ledger entries, or delete it.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b17e4df039ef713bf5c0048d258aefd175157ba4
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753874"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493054"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Manage Storage by Deleting Documents or Compressing Data
 
@@ -47,7 +47,13 @@ You can compress the following types of data in [!INCLUDE [prod_short](includes/
   After the compression, with the **Retain Field Contents** facility, you can retain the contents of the **Document No., Our Contact**, **Global Dimension 1 Code**, and **Global Dimension 2 Code** fields.
 * Vendor ledger entries
 
-  After the compression, the contents of the following fields are always retained: **Posting Date**, **Vendor No.**, **Document Type**, **Currency Code**, **Posting Group**, **Amount**, **Remaining Amount**, **Original Amt. (LCY)**, **Remaining Amt. (LCY)**, **Amount (LCY)**, **Purchase (LCY)**, **Inv. Discount (LCY)**, **Pmt. Disc. Given (LCY)**, and **Pmt. Disc. Possible**.
+> [!NOTE]
+> Compressed entries for customers, vendors, bank, and FA subledgers are posted slightly differently than standard posting. This is to reduce the number of new general ledger entries created by date compression, and is especially important when you keep information such as dimensions and document numbers. Date compression creates new entries as follows:
+>* On the **General Ledger Entries** page, new entries are created with new entry numbers for the compressed entries. The **Description** field contains **Date Compressed** so that the compressed entries are easy to identify. 
+>* On ledger pages, such as the **Customer Ledger Entries** page, one or more entries are created with new entry numbers. 
+> The posting process creates gaps in the number series for entries on the **General Ledger Entries** page. Those numbers are assigned to the entries on the ledger pages only. The number range that was assigned to the entries is available on the **G/L Register page**  in the **From Entry No.** and **To Entry No.** fields. 
+
+After the compression, the contents of the following fields are always retained: **Posting Date**, **Vendor No.**, **Document Type**, **Currency Code**, **Posting Group**, **Amount**, **Remaining Amount**, **Original Amt. (LCY)**, **Remaining Amt. (LCY)**, **Amount (LCY)**, **Purchase (LCY)**, **Inv. Discount (LCY)**, **Pmt. Disc. Given (LCY)**, and **Pmt. Disc. Possible**.
 
   With the **Retain Field Contents** facility, you can also retain the contents of these additional fields: **Document No.**, **Buy-from Vendor No.**, **Purchaser Code**, **Global Dimension 1 Code**, and **Global Dimension 2 Code**.
 

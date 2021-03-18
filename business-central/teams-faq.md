@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 01/26/2021
+ms.date: 03/04/2021
 ms.author: jswymer
-ms.openlocfilehash: 79b6069ffb4c73d783b2c05d3a44a55763805a52
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: d95e97a232cfb7fda8f40f68875b747723abbd4b
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068441"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573383"
 ---
 # <a name="teams-faq"></a>Teams FAQ
 
@@ -50,7 +50,6 @@ The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams isn't restr
 Yes. The app is intended to work with any localisation of [!INCLUDE [prod_short.md](includes/prod_short.md)], whether that localisation is offered directly from Microsoft or through a partner. For more information, see [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 ### <a name="which-languages-does-the-prod_shortmd-app-support"></a><a name="language"></a>Which languages does the [!INCLUDE [prod_short.md](includes/prod_short.md)] app support?
-<!--TODO Run by Mike -->
 
 Two things determine the language used for cards and card details in Teams:
 
@@ -66,15 +65,19 @@ The following table explains how the experience differs for message authors and 
 
 For the list of supported languages for [!INCLUDE [prod_short.md](includes/prod_short.md)], see [Supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
+### <a name="does-the-business-central-app-work-with-industry-solutions"></a>Does the Business Central app work with industry solutions?
+
+Yes. The app works with links based on the **\*.bc.dynamics.com** pattern that's typically used with [Embed apps](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview).
+
 ### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Where can I find Teams integration inside the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client? 
 
-There's currently no embedding of Teams controls or presence of Teams features inside the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client or other clients.  
+There's currently no embedding of Teams controls or presence of Teams features inside the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client or other clients.
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Does [!INCLUDE [prod_short.md](includes/prod_short.md)] work with the Teams mobile app?
 
 Yes. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app can be installed from the Teams desktop app or browser, or by an administrator for all users. Once installed, the [!INCLUDE [prod_short.md](includes/prod_short.md)] app is automatically available in Teams for iOS and Android. On mobile devices, you can view cards sent by others, access details, or pop out the card to the full experience in the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app. However, you can't paste links that expand into cards when composing messages. For minimum requirements for mobile, see [Minimum Requirements for Using Business Central](product-requirements.md).
 
-### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Is the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams the same as the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for iOS and Android? 
+### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Is the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams the same as the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for iOS and Android?
 
 No. The app for Teams is an add-in to Microsoft Teams and exclusively designed for collaborative experiences that light up within Teams. On the other hand, the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app delivers a rich experience for you to work with [!INCLUDE [prod_short.md](includes/prod_short.md)] data on your mobile devices.
 
@@ -108,13 +111,26 @@ The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams can display
 
 The fields shown on a card in Teams can also be affected by [!INCLUDE [prod_short.md](includes/prod_short.md)] customisations installed for your organisation. Cards don't consider any role-specific customisations or user personalisation. However, the card details window shows record details as you would see them in [!INCLUDE [prod_short.md](includes/prod_short.md)], including any extensions, role customisations, and user personalisation.
 
+### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>How do the permissions required by the app affect my privacy?
+
+Before installing the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, you can review the minimum permissions required for the app to function. By installing the app, you agree that the app has permission to receive messages and data that you provide it, and Teams has permission to store and process those messages.
+
+Also, some [!INCLUDE [prod_short.md](includes/prod_short.md)] features require opening external links or access to your camera or geographic location. For example, suppose you wanted to capture a photo of a purchase invoice for processing. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app doesn't use these capabilities without your consent and they're only used by specific features in the **Details** window. When you use one of these features for the first time, Teams will display a dialogue box asking you to grant access to the required device capabilities.
+
+- In Teams desktop, you review and adjust app permissions from the **Settings** window. Select your profile picture at the top of the app, select **Settings** > **Permissions**, then select the [!INCLUDE [prod_short.md](includes/prod_short.md)] app.
+
+- For Teams in the browser and Teams for iOS or Android, you can review or adjust permissions from your browser or device settings.
+
+> [!NOTE]
+> Exactly which [!INCLUDE [prod_short.md](includes/prod_short.md)] features prompt you for permissions depends on the add-on apps and customisations applied to the [!INCLUDE [prod_short.md](includes/prod_short.md)] environment that you connect to.
+
 ### <a name="where-can-i-learn-about-my-privacy"></a>Where can I learn about my privacy? 
 
 You can learn about how Microsoft handles your data in the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?linkid=2030602). 
 
-Contact your administrator to learn how your organisation handles the privacy of your data. 
+Contact your administrator to learn how your organisation handles the privacy of your data.
 
-### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>How do I uninstall the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams? 
+### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>How do I uninstall the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams?
 
 To remove the app that you installed for yourself, go to any chat compose box, find the [!INCLUDE [prod_short.md](includes/prod_short.md)] icon underneath, right-click the icon and choose Uninstall.  
 
@@ -153,29 +169,33 @@ No. The field values on a card in Teams, including any images, are based on the 
 
 When you compose and send a message to chat that includes a card, all users will see the card, even if they haven't installed the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams.
 
+### <a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a>How do I find out which company a card in Teams belongs to?
+
+If you work across [!INCLUDE [prod_short.md](includes/prod_short.md)] companies, talk to your administrator about enabling a company badge for each company. When enabled, this eye-catching hint appears in any details window inside Teams, and displays the company and environment that record belongs to. To learn how to set up company badge, see [To display a company badge for quick access to company information](ui-change-basic-settings.md#badge).
+
 ## <a name="working-with-card-details"></a>[Working with card details](#tab/carddetails)
 
-### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Where is the save button in the details window in Teams? 
+### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Where is the save button in the details window in Teams?
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)] automatically saves changes you make to any field as soon as you leave the field. To leave a field, click/tap anywhere outside the field or use the Tab key to move to the next field. When data appears in a dialogue within the details window, you may need to choose the **OK** button to have [!INCLUDE [prod_short.md](includes/prod_short.md)] save your changes.
 
-### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>If I choose to view details for a card, will other users see my details window? 
+### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>If I choose to view details for a card, will other users see my details window?
 
 No. While everyone in the chat can view the card itself, the details window only appears for you on your device when you choose **Details**. Other users must choose **Details** if they would like to view the details window on their device.
 
-### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Can I start a Teams call from the details window in Teams? 
+### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Can I start a Teams call from the details window in Teams?
 
 Yes. You can start a call by choosing the linked dialing number in a phone number field, such as the **Mobile Phone No.** field on the **Contact** card. Teams must be your designated dialing app.
 
 To call local or international landlines and mobile phones from Teams, you must have a Teams licence for enterprise calling. Also, you must set up Teams as your call solution. To learn more, see [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page) in the Teams documentation.
 
-### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>Can I print documents from the details window in Teams? 
+### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>Can I print documents from the details window in Teams?
 
 Yes. You print reports and other documents using standard [!INCLUDE [prod_short.md](includes/prod_short.md)] printing functionality and any cloud-enabled printer configured in the **Printer Management** page in [!INCLUDE [prod_short.md](includes/prod_short.md)]. You can't print from Teams to local printers known to your client device, such as printers that you'd typically print to from your browser. For this reason, you can't print from the report preview window, but only from the main report request page, directly to your cloud printers.
 
 For more information about setting up cloud printers, see [Set Up Printers](ui-specify-printer-selection-reports.md).
 
-### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>Can I access the camera from the details window in Teams? 
+### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>Can I access the camera from the details window in Teams?
 
 Yes. Any [!INCLUDE [prod_short.md](includes/prod_short.md)] features in the details window that use the camera are available on all Teams clients.
 
@@ -185,7 +205,7 @@ If you’re using functionality in [!INCLUDE [prod_short.md](includes/prod_short
 
 ## <a name="collaborating-with-guests"></a>[Collaborating with guests ](#tab/collaborating)
 
-### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Can I share cards with users outside my organisation? 
+### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Can I share cards with users outside my organisation?
 
 Yes. When you compose and send a message that includes a card, all recipients in the chat will see the card&mdash;even if they're guests or external to your organisation. Guests can also open the details window if they've been granted permissions to access that data in [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
