@@ -3,26 +3,26 @@ title: How to Print Remittance Advice | Microsoft Docs
 description: You can print remittance advice before posting a payment journal and after posting a payment. This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a5d4018afe70112923170232c1fd3f38f49cf29a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 57c0df5c885f866b72ff522867709ad7c6f045b5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923091"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383422"
 ---
 # <a name="print-remittance-advice"></a>Print Remittance Advice
 You can print remittance advice before posting a payment journal and after posting a payment. This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.  
 
 ## <a name="to-print-remittance-advice"></a>To print remittance advice  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  On the **Payment Journal** page, select the payment for which remittance advice must be printed.  
 3.  Choose the **Print Remittance Advice** action.  
 4.  In the **Remittance Advice - Journal** batch job, on the **Gen. Journal Line** FastTab, and select the appropriate filters.  

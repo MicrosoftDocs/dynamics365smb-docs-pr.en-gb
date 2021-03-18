@@ -3,19 +3,19 @@ title: Payment Tolerance and Payment Discount Tolerance | Microsoft Docs
 description: You can set up payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50e37e54d840c82cbcbfc92ab8f5fc009642a6b4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c2669d830ab95e5cd0c20240ae776175a2db9f6a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750537"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380034"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Work with Payment Tolerances and Payment Discount Tolerances
 You can set up a payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice. For example, payment tolerances are typically for small amounts that would cost more to correct than to just accept. You can set up a payment discount tolerance to grant a payment discount after the payment discount date has passed.  

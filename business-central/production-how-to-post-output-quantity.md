@@ -3,19 +3,19 @@ title: How to Batch Post Production Output and Run Times| Microsoft Docs
 description: The output quantity represents the work progress in the form of the finished quantity.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 82e28246f1a1c65c7bd702023d9c68c614383cc2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 83354217bac3b27457303083163cf5eae4494e79
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759149"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380463"
 ---
 # <a name="batch-post-output-and-run-times"></a>Batch Post Output and Run Times
 The output quantity represents the work progress in the form of the finished quantity.  

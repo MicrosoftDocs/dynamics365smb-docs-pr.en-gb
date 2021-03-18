@@ -3,19 +3,19 @@ title: Set Up Financial Processes| Microsoft Docs
 description: Learn about the tasks to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b18d4406f77594486104e2348487a3380cca0af4
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: a659fd4edfcbeccf65204f30685ce5b3cf527399
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024469"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381938"
 ---
 # <a name="setting-up-finance"></a>Setting Up Finance
 Before you can begin to run your business, you must specify rules and defaults for how you want to manage finance processes for that company. You start by setting up the core of the company's accounting records - the chart of accounts. Then you set up posting groups, which makes the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.

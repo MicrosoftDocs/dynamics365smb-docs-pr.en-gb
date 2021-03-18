@@ -3,18 +3,18 @@ title: Straight-Line Depreciation of Fixed Assets in the UK | Microsoft Docs
 description: Define 13 accounting periods to calculate straight-line depreciation in the UK version. You must calculate depreciation daily and distribute across the relevant periods.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 52b22b5ef98883ab5982663eb784feec976b15ef
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 98a87b0df9aca661430a5a23cbe7c0bd2e9f6a45
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923095"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383430"
 ---
 # <a name="define-accounting-periods-for-straight-line-depreciation-of-fixed-assets"></a>Define Accounting Periods for Straight-Line Depreciation of Fixed Assets
 You can define 13 accounting periods to calculate straight line depreciation. You must calculate depreciation daily and distribute across the relevant periods. You can also define these accounting periods in the **FA - Projected Value** report.  
@@ -24,14 +24,14 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
 
 ### <a name="to-define-accounting-periods-to-calculate-straight-line-depreciation"></a>To define accounting periods to calculate straight line depreciation  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
 2.  To open a new **Depreciation Book Card** page, choose the **New** action.  
 3.  On the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 5.  Choose the **OK** button.  
 
 ## <a name="to-define-accounting-periods-in-the-fa---projected-value-report"></a>To define accounting periods in the FA - Projected Value report  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA - Projected Value** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA - Projected Value**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 

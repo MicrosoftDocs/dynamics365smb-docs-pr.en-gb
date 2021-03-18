@@ -3,19 +3,19 @@ title: Handling Lot Sizes | Microsoft Docs
 description: This topic describes different ways to handle lot sizes.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6f07828e969d5a8394657bc1e05d44156ada5411
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 4d119b5ea35ba41d658226f108f9bd14014ef644
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749025"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376744"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Handling Lot Sizes in Production
 In terms of quantity, the number of items you produce in a production operation might not correlate to how sell them. For example, you might produce hundreds of items in a single lot, but sell each item individually. When you configure your production routes and bills of materials (BOMs), there are few nuances you should consider with regards to lot sizes. This topic describes how lot sizes impact cost calculations and resource planning.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 10612a3e5e257969b2daf0839ea0826316a956ee
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046539"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385206"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Troubleshooting Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -103,7 +103,7 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app doesn't support location
 
 Some browsers, such as the new Microsoft Edge, allow you to choose which device camera to use when your device supports multiple cameras. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams displays mixed languages for my cards and card details 
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams displays mixed languages for my cards and card details
 
 For cards and card details to display consistently in the same language in Teams, the language of your Teams client and the language you use in [!INCLUDE [prod_short](includes/prod_short.md)] Web client must match.
 
@@ -116,6 +116,21 @@ For more information on how languages work between Teams and [!INCLUDE [prod_sho
 ## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>I edited a field in the details window, but my change wasn't saved
 
 Changes you make to a field in the details windows are automatically saved when you leave the field. Before you close the window after changing a field, be sure to press the Tab key or click/tap outside the field.
+
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>A new tile appeared in the App Launcher. How do I remove it?
+
+When you view your apps on the Office 365 home page (https://home.office.com) or in the app launcher, a new tile named "Business Central Teams Integration Service Connector" will appear after installing the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams. This tile provides no value in itself and can be safely hidden.
+
+As an administrator, who has Azure Active Directory admin permissions, you can hide the tile by doing the following steps:
+
+1. Sign in to the [Azure Active Directory admin centre](https://aad.portal.azure.com/).
+2. Select **Enterprise apps**, then select **Business Central Teams Integration Service Connector**.
+3. Select **Properties**, then set the **Visible To Users** switch to **No**.
+4. Select **Save**.
+
+> [!NOTE]
+> It will be a while before this change takes effect.
+
 
 ## <a name="see-also"></a>See Also
 

@@ -3,19 +3,19 @@ title: Create a Job Sales Invoice to Invoice a Job| Microsoft Docs
 description: Describes how to invoice customers for job expenses as a project progresses.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 368b0b1edf1105045a365d8d5ac523c88955ad8a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 870151e5071ac82bbf913ee83ed567f29937c59f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758749"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376519"
 ---
 # <a name="invoice-jobs"></a>Invoice Jobs
 During the project, job costs from resource usage, materials, and job-related purchases can accumulate. As the job progresses, these transactions get posted to the job journal. It is important that all costs get recorded in the job journal before you invoice the customer.

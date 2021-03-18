@@ -3,19 +3,19 @@ title: Close item ledger entries that came from using fixed application
 description: Learn how you can create a fixed application between an inbound transaction and the original outbound transaction in the item journal.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/14/2020
 ms.author: edupont
-ms.openlocfilehash: 2cc663d580da4738247b9fcdbe5fc4504c37fa73
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 9aa24653d4ae957ff741e85a99c13e0c9a8f7173
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013878"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381963"
 ---
 # <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal
 

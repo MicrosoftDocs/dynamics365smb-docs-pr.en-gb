@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fa4d6cfe13662613a73c14d68542f8319798ea80
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b9ea85ea320aea35d1df661be9a9d16502d33776
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752682"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378355"
 ---
 # <a name="coupling-and-synchronizing"></a>Coupling and Synchronising
 This topic describes how to couple one or more records in [!INCLUDE[prod_short](includes/prod_short.md)] with records in Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)]. Coupling records lets you view Dataverse information from [!INCLUDE[prod_short](includes/prod_short.md)], and vice versa. The coupling also enables you to synchronise data between the records. You can couple existing records, or create and couple new records.

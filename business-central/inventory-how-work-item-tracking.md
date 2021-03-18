@@ -3,19 +3,19 @@ title: Assign Serial and Lot Numbers to Items for Tracking | Microsoft Docs
 description: You can add serial numbers and lot numbers to any outbound or inbound document, and its posted item tracking entries are displayed in the related item ledger entries.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1ffb80f4571e96dcaa8acfbcb106f7fb582b4783
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746098"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377580"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Work with Serial and Lot Numbers
 You can assign serial numbers and lot numbers to any outbound or inbound document, and its posted item tracking entries are displayed in the related item ledger entries. You perform the work on the **Item Tracking Lines** page, which you can open from an inbound or outbound document.
@@ -226,9 +226,9 @@ If you need to link special information to a specific item tracking number, for 
 5. Choose the **Comment** action to create a separate comment record.  
 6. Select the **Blocked** check box to exclude the serial or lot number from any transactions.  
 
-If you create serial numbers in bulk by using the **Create Customised SN** or **Assign Serial No.** actions, you can enable **Create SN Information** and an information card will be created for each tracking line.
+<!--If you create serial numbers in bulk by using the **Create Customized SN** or **Assign Serial No.** actions, you can enable **Create SN Information** and an information card will be created for each tracking line.
 
-Alternativelly you can create an information card when you post journals or documents, on the **Item Tracking Code** page, turn on the **Create SN Info. on posting** or **Create SN Info. on posting** toggles. 
+Alternatively, you can create an information card when you post journals or documents. On the **Item Tracking Code** page, turn on the **Create SN Info. on posting** or **Create SN Info. on posting** toggles. -->
 
 You can modify created serial or lot information cards later.
 

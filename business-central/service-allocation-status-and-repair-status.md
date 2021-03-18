@@ -3,19 +3,19 @@ title: Allocation Status and Repair Status | Microsoft Docs
 description: Learn about the relationship between the repair status of service items and the allocation status of the allocation entries for them.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2a206386039e277eddd13801da23bb32c2845227
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9aa7850f53c8fd4f5098feb4ebdba14282568b34
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757949"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386006"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Allocation Status and Repair Status of Service Items
 The repair status of service items and the allocation status of the allocation entries for the service items have a certain relationship in Service Management. The allocation status changes when you change the repair status of the service item to **Finished** or **Partly Serviced** and when you convert a service quote to a service order. The repair status of the service item changes when you cancel the service item allocation or reallocate the service item to another resource. You can view the repair status of service items on the **Service Tasks** page and you can update the repair status in the **Repair Status Code** field on the **Service Item Worksheet** page. You can view the allocation status in the **Status** field on the **Resource Allocations** page.  

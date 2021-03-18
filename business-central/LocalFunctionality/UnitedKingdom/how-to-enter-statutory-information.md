@@ -3,26 +3,26 @@ title: How to Enter Statutory Information | Microsoft Docs
 description: To comply with legal requirements, statutory information is available on the Statutory FastTab on the Company Information page.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f2badc006ab3a71a7916c0cf41ba1705d308643
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cb212ab59291f95b6c9cafea9bff66af2155908c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914634"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383424"
 ---
 # <a name="enter-statutory-information"></a>Enter Statutory Information
 To comply with legal requirements, statutory information is available on the **Statutory** FastTab on the **Company Information** page.  
 
 ## <a name="to-enter-statutory-information"></a>To enter statutory information  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 2.  On the **Statutory** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

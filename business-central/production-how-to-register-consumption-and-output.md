@@ -3,19 +3,19 @@ title: Register Consumption and Output for One Production Order | Microsoft Docs
 description: This execution task is performed on the **Production Journal** page. The journal combines the functions of the separate consumption journal and output journals into one journal. The combined journal is accessed directly from a released production order. Its main purpose is to manually post the consumption of components, the quantity of end items produced, and the time spent in operations.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 298fd165e03709d6ea6a34291efe5d04ecb74aba
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 60c264bec6719acac574f60980a7a3fdb903b775
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759099"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377480"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Register Consumption and Output for One Released Production order line
 This execution task is performed on the **Production Journal** page. The journal combines the functions of the separate consumption journal and output journals into one journal. The combined journal is accessed directly from a released production order. Its main purpose is to manually post the consumption of components, the quantity of end items produced, and the time spent in operations. The values are posted to ledger entries under the released production order. Consumption quantities are posted as negative item ledger entries, output quantities are posted as positive ledger entries, and times spent are posted as capacity ledger entries. Such posted values can also be viewed at the bottom of the journal as actual quantities.  

@@ -3,19 +3,19 @@ title: Design Details - Warehouse Management | Microsoft Docs
 description: This topic provides an overview of the design, concepts, and principles behind the Warehouse Management features in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ea9974a8fb63d4e119cdc8b78930fd94777e6a38
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 36e8d8dadc52ab10492fb5ab1cbfe158b069cd9b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749575"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381474"
 ---
 # <a name="design-details-warehouse-management"></a>Design Details: Warehouse Management
 This documentation gives an overview of the concepts and principles that are used in the Warehouse Management features in [!INCLUDE[prod_short](includes/prod_short.md)]. It explains the design behind central warehouse features and how warehousing integrates with other supply chain features.  

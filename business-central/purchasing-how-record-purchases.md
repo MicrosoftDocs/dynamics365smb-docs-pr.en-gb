@@ -4,19 +4,19 @@ description: Describes how to purchase inventory, non-inventory items, or resour
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 845b552141f5637893bb0f0041b3247bce023c5f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1747716d15b6c04a347002ec15b85b7b49761be8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758499"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383844"
 ---
 # <a name="record-purchases"></a>Record Purchases
 You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices and purchase orders are also used to dynamically update inventory levels so that you can minimise your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices or orders contribute to profit figures and other financial KPIs on your Role Centre.

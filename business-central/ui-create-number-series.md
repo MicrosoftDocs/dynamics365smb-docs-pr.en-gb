@@ -4,19 +4,19 @@ description: Learn how to set up number series that assign unique ID codes to ac
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b61f4fb5cdcee284b183a08c70224348c99530cd
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: db90c35bde2a08d6131e4a7102f9cdda1f36dfe8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757624"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385956"
 ---
 # <a name="create-number-series"></a>Create Number Series
 For each company that you set up, you need to assign unique identification codes to things such as general ledger accounts, customer and vendor accounts, invoices, and other documents. Numbering is important not only for identification. A well-designed numbering system also makes the company more manageable and easy to analyse, and can reduce the number of errors that occur in data entry.

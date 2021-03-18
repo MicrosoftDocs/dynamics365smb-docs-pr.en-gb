@@ -3,19 +3,19 @@ title: Create Invoices or Credit Memos for Services | Microsoft Docs
 description: Learn how to create invoices, so you can get paid for your service.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 201138673bdc085d6097117b947359802ec17921
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 399f020f1b7a792a4c2db453aa94cb144a8f64dc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748087"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385981"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Create Service Invoices or Credit Memos
 Ease in invoicing your service orders is a key feature of [!INCLUDE[prod_short](includes/prod_short.md)]. You can set up your [!INCLUDE[prod_short](includes/prod_short.md)] so that a service technician in the field can create an invoice for a service that is not connected to a contract or order. Alternatively, set up [!INCLUDE[prod_short](includes/prod_short.md)] so that you invoice service contracts periodically. The invoice period for each contract defines how often you invoice it.

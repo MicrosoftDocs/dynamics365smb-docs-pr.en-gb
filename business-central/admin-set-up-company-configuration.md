@@ -3,19 +3,19 @@ title: Set Up Company Configuration | Microsoft Docs
 description: The implementation process begins with the Business Central solution will require. You bundle all of this information into configuration packages.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e9b54a28c960ccdaa41c16cce237266e8cb43a88
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 402595c34d69db0a14fce6eac8f3bb9e0896d06b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4745949"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385281"
 ---
 # <a name="set-up-company-configuration"></a>Set Up Company Configuration
 The implementation process begins with the Microsoft partner. The partner is responsible for thinking through the configuration details and creating a package that a customer can easily apply. Before you create a new company, you should plan how it will be configured. You must consider basic setup data and the types of data that your [!INCLUDE[prod_short](includes/prod_short.md)] solution will require. You bundle all of this information in configuration packages.

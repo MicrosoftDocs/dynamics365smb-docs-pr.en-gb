@@ -3,19 +3,19 @@ title: How to Set Up Reverse Charges on VAT | Microsoft Docs
 description: Learn how you can use reverse charge VAT accounting for a specific range of items to prevent Missing Trader Intercommunity Fund Fraud (MTIC).
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03c80bb336c0e93aadcdc84a9ad08d46c38dc328
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 99ea0d4e080afe8db2d68057dcc1c8e5e9d1b7eb
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753133"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382661"
 ---
 # <a name="set-up-reverse-charge-vat"></a>Set Up Reverse Charge VAT
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use reverse charge VAT accounting for a specific range of items to prevent Missing Trader Intercommunity Fund Fraud (MTIC), also known as carousel fraud. This feature is supplemented by the **Reverse Charge Sales List** report. The VAT accounting changes will affect companies trading in electronic goods and integrated circuit devices, such as mobile telephones, microprocessors, and central processing units. These goods will apply to reverse charges.

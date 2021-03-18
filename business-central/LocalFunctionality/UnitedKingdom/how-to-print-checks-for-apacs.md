@@ -3,26 +3,26 @@ title: How to Print Cheques for APACS | Microsoft Docs
 description: The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on cheques. The Cheque report uses this specification.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1bd492b10e10f60fe853e7a50ecc25c17aa8a880
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 71b8aa4aa42393a80ff660fb35000486d42e6bea
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923093"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383426"
 ---
 # <a name="print-checks-for-apacs"></a>Print Cheques for APACS
 The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on cheques. The **Cheque** report uses this specification.  
 
 ## <a name="to-print-checks-for-apacs"></a>To print cheques for APACS  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  To preview the cheque, choose the **Preview Cheque** action.  
 3.  To print the cheque, choose the **Print Cheque** action.  
 

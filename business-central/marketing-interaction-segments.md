@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6a363007ece179430949d0fc0c62cb9df3fc9dac
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc50d1b619c2f9cef4d6cdb53aa8bf5d9892b56e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923652"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381398"
 ---
 # <a name="manage-interactions-for-segments"></a>Manage Interactions for Segments
 The **Segment** page is a type of worksheet where you can:
@@ -40,7 +40,7 @@ On the **Segment** page, you can create interactions for several contacts simult
 You can specify information about the interaction for the segment on the **Segment** header. For example, you can decide which interaction template you want to use for all the contacts, specify a description, a correspondence type, and so on. However, you can modify this information in the segment line for each particular contact, for example, by specifying another description for one contact. If you are merging a segment with a Microsoft Word document, you can personalise the document to be sent for one or several of the contacts within the segment, for example, by adding individualised comments to the document.
 
 ## <a name="logging"></a>Logging
-On the **Segment** page, when you choose **Log** , the application records the interactions on the **Interaction Log Entry** page, and logs the segment. After you have logged the segment, you can only find it on the **Logged Segments** page.
+On the **Segment** page, when you choose **Log**, the application records the interactions on the **Interaction Log Entry** page, and logs the segment. After you have logged the segment, you can only find it on the **Logged Segments** page.
 
 On the **Logged Segments** page, you can decide to create a follow-up segment containing the same contacts as the segment you have logged.
 

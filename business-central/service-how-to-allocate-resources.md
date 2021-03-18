@@ -3,19 +3,19 @@ title: How to Allocate Resources | Microsoft Docs
 description: You can change the annual amount of the service contract or contract quote to correct the amount that will be invoiced annually.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1b790743feb2c32bec1cdb45f69ac30c529e02ac
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ba566597b9dcf8d34b677df759c8c31d200b8584
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757973"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380388"
 ---
 # <a name="allocate-resources"></a>Allocate Resources
 The key element to service management is the people who supply service. You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to assign the appropriate people to the appropriate jobs. Assignments can be based on service zones where the people are located or where the service occurs. In addition, you can group resources together when responding to service requests. For more information, see [Set Up Resource Allocation](service-how-setup-resource-allocation.md).

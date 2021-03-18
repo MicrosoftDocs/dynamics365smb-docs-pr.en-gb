@@ -3,19 +3,19 @@ title: Design Details - Item Tracking and Reservations | Microsoft Docs
 description: This topic talks about item tracking and reservations, and describes the concepts behind the two.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2883ed1176f20cca289cb68d4f3839f8099c874f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922099"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380259"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Design Details: Item Tracking and Reservations
 
@@ -45,7 +45,7 @@ The main difference between specific and nonspecific reservation is defined by t
 When you reserve inventory quantities from an outbound document line for an item that has item tracking numbers assigned and is set up for specific item tracking, the **Reservation** page leads you through different workflows depending on your need for the serial or lot numbers.  
   
 ## <a name="specific-reservation"></a>Specific Reservation  
-When you choose **Reserve** from the outbound document line, a dialogue box appears that asks you if you want to reserve specific serial or lot numbers. If you choose **Yes** , then a list is displayed with all the serial or lot numbers that are assigned to the document line. The **Reservation** page opens after you select one of the serial or lot numbers, and you can then reserve among the selected serial or lot numbers in a typical fashion.  
+When you choose **Reserve** from the outbound document line, a dialogue box appears that asks you if you want to reserve specific serial or lot numbers. If you choose **Yes**, then a list is displayed with all the serial or lot numbers that are assigned to the document line. The **Reservation** page opens after you select one of the serial or lot numbers, and you can then reserve among the selected serial or lot numbers in a typical fashion.  
   
 If some of the specific item tracking numbers that you are trying to reserve are held in nonspecific reservations, then a message at the bottom of the **Reservation** page informs you how many of the total reserved quantity are held in nonspecific reservations and whether they are still available.  
   

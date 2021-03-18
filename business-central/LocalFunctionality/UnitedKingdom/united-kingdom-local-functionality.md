@@ -3,19 +3,19 @@ title: United Kingdom Local Functionality | Microsoft Docs
 description: Get an overview of local functionality in the United Kingdom version of Business Central.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 3c4a49b179af3bb16fb66a808be9f20274246ce0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1867c609c89970cd661657d60c1e15d857548595
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753122"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382649"
 ---
 # <a name="united-kingdom-local-functionality"></a>United Kingdom Local Functionality
 

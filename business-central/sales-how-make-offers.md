@@ -4,19 +4,19 @@ description: Describes how to create a sales offer or a request for proposal (RF
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cd674e3c5f64889cb77e000fb823bf63a800bdb2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 37a74aff6b93373d1c0cd1842d4e48329bf0cf52
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758249"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380857"
 ---
 # <a name="make-sales-quotes"></a>Make Sales Quotes
 You create a sales quote to record your offer to a customer to sell certain products on certain delivery and payment terms. You can send the sales quote to the customer to communicate the offer. You can email the document as a PDF attachment. You can also have the email body prefilled with a summary of the quote. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).

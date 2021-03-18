@@ -3,19 +3,19 @@ title: How to Configure New Companies | Microsoft Docs
 description: You can configure and customise a new company that you have created. To fine tune your implementation, you proceed in three phases to complete your configuration.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 66f74554ee2619935b2b27ace6b4812602747139
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 886f698d2e2e872530fc8d4bee8395c1f7897c83
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752707"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378405"
 ---
 # <a name="configure-new-companies"></a>Configure New Companies
 To configure a new company in your solution implementation, you typically follow three phases. In the first phase, you import the configuration package, a .rapidstart file with the configuration information. In the second phase, you modify the configuration information and then apply it to your new company. In the final phase, you review and fix any errors.  

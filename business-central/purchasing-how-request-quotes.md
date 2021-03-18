@@ -4,19 +4,19 @@ description: Describes how to create a sales offer or a request for proposal (RF
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cff54e778beb1bb08342835419998242eed4adf3
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 01f0f607faab45b07a85fe4cd13327b02ae14f1e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758474"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387756"
 ---
 # <a name="request-quotes"></a>Request Quotes
 A purchase quote can be used as a preliminary draft for a purchase order, and the order can then be converted to a purchase invoice or an order.

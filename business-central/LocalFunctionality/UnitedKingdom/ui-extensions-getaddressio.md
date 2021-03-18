@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d52bcdf2db94fba3eea32b3634f1c0b935b28693
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c8032cdfbe8871143a30c0a40f10a9826c0f53ea
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753129"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382655"
 ---
 # <a name="the-getaddressio-uk-postcodes-extension"></a>The GetAddress.io UK Postcodes Extension
 The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, vendors, bank accounts, and employees. For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[prod_short](../../includes/prod_short.md)] shows a list of addresses. Pick the address you want, and presto, the address fields are filled out.  

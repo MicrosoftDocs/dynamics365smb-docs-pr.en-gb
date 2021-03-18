@@ -4,19 +4,19 @@ description: The Essential Business Insights extension rotates a series of busin
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2be073fbb2216e9a87c54b7c4d9fd3fa86e02aee
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5fe9f0907611843951b682a9bf07c0c153486700
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757224"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377330"
 ---
 # <a name="the-essential-business-insights-extension"></a>The Essential Business Insights Extension
 The Essential Business Insights extension finds interesting business facts in your company data and displays them as newspaper-like headlines in Role Centres. Depending on what the extension finds in the data, the insights are from the last week, month, or three months from the current date. The insights update every 10 minutes.  

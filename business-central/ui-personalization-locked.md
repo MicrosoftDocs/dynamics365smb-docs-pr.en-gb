@@ -3,19 +3,19 @@ title: Why Can't I Personalise a Page | Microsoft Docs
 description: Explains why you cannot personlaize a page and what yoo can do to unlock it so you can personalise it.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0bd24833f37fe70f8e642685be4d28dbb593a16d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 41b0989d388ee7ded2619136ded0a03d5830b78b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923402"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387558"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Why a Page is Locked from Personalisation
 

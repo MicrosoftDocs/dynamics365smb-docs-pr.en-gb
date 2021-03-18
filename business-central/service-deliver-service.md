@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 672e94526eabacf088acf771bdfca1e2b2361922
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 356ca50a1814756d0ef2ad9c3e478d94af5fd461
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748062"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377455"
 ---
 # <a name="delivering-service"></a>Delivering Service
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  

@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bd6392753b41ac080fd0933f9f3a55ddc17a2a54
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7586010a71388f4a9b973387578a388bcdc0b3a0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759624"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381913"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Use Item Charges to Account for Additional Trade Costs
 To ensure correct valuation, your inventory items must carry any added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling the items. For purchases, the landed cost of a purchased item consists of the vendor's purchase price and all additional direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.

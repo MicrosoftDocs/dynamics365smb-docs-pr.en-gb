@@ -3,19 +3,19 @@ title: Bookmark a link to a page or report on your Role Centre | Microsoft Docs
 description: Learn how to add a link to your Role Centre.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1bcbd23658ff2a74ae0ab88b6020e1d859f37355
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5e85c6200f9fafa800e2e44978a5efb10ececefb
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747725"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376694"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bookmark a Page or Report on Your Role Centre
 Using the bookmark icon, you can add an action that opens a page or report from the navigation menu of your Role Centre. This allows you to quickly reach your favourite content or business tasks. You add the bookmark from the target page or report, meaning the screen that you want the link on the Role Centre to open.

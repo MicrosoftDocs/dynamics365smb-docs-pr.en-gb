@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c6771cba5d386c8eec5041aa9cb9a7152827ab9f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9670b1c1d8d1fcb9305877998908014804bc4217
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753474"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384906"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Displaying Lists in Different Ways
 In the right corner of any list in [!INCLUDE[prod_short](includes/prod_short.md)] you will find icons that let you choose how the list of records is displayed. A list can be displayed as detailed rows, which is ideal when you need to work with many fields or edit fields in the list. But you can also switch to display records as tiles, which is more compact and shows less fields on the specific record. This is very useful to gain an overview of several entries and is in particular useful on smaller devices, because it is compact and easier to tap.

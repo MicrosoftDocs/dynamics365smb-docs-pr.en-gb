@@ -3,19 +3,19 @@ title: Importing and Exporting a Report and Document Layout | Microsoft Docs
 description: You can import and export an existing custom report layout as a file to and from a location on your computer and network.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eed31b7eebaace7ada63470bf15a2e4efe741325
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d718553661c7fcfa44c010b7b9dbc4d0d2716d14
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918519"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385806"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Import and Export Custom Report Layouts
 You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then make the modifications to layout and return the file to you so that you can import it back.  
@@ -25,7 +25,7 @@ You can import and export an existing custom report layout as a file to and from
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>To export a report layout to a file  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection** , and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
 
 2.  Select the row for the report that contains the custom report layout that you want to export, and then choose the **Custom Layouts** action.  
 
@@ -39,7 +39,7 @@ You can import and export an existing custom report layout as a file to and from
 
      A Word report layout file must have the .docx file type extension. An RDLC report layout file must have the .rdlc or .rdl file type extension.  
 
-2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection** , and then choose the related link.  
+2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
 
 3.  Select the row for the report to which you want to import the report layout, and then choose the **Custom Layouts** action.  
 

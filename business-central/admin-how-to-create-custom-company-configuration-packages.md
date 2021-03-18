@@ -3,19 +3,19 @@ title: How to Create Custom Company Configuration Packages | Microsoft Docs
 description: As you grow your business, you will likely come to rely on a set of company types that you use with most of your customers. You can streamline your implementation process by turning these types into company configuration packages that are available for reuse.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9e1cf9d530c8af95373cfbdef8a3f6822cbba938
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a1b1bfd5dd685eb57e291842d7b6d2e3691482fc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915789"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378305"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Create Custom Company Configuration Packages
 As you grow your business, you will likely come to rely on a set of company types that you use with most of your customers. You can streamline your implementation process by turning these types into company configuration packages that are available for reuse.  
@@ -37,7 +37,7 @@ Another approach would be to create a package that includes the tables that defi
 -   VAT Posting Setup  
 -   Inventory Posting Setup  
 
-To see a complete list of setup tables, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manual Setup** , and then choose the related link.  
+To see a complete list of setup tables, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manual Setup**, and then choose the related link.  
 
 > [!IMPORTANT]
 > Use caution if you choose tables or fields that have the same temporal name but are differentiated by special characters, such as %, &, <, >, (, and ). For example, table "XYZ" might contain the "Field 1" and "Field 1%" fields.

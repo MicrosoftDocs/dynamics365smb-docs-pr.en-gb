@@ -3,19 +3,19 @@ title: Field mapping for exporting bank payment files | Microsoft Docs
 description: When you export payment files using the AMC Banking 365 Fundamentals extension, the data that you export is exposed to the service provider.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84be9f847d466588e25dad81754bcf64f367b4c8
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9785c55602a3df230b9692008e2c96d7649158e6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753374"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384806"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Field Mapping When Exporting Payment Files Using the AMC Banking 365 Fundamentals extension
 When you export payment files using the AMC Banking 365 Fundamentals extension, the data that you export is exposed to the service provider. The service provider is responsible for the privacy of this data. For more information about the AMC Banking 365 Fundamentals extension, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).  

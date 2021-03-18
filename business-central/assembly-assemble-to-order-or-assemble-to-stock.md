@@ -3,19 +3,19 @@ title: Understanding Assemble to Order and Assemble to Stock | Microsoft Docs
 description: Assembly items can be supplied either by assembling them when they are ordered or by assembling them to be kept in inventory until they are need on a sales order.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 89a2e2390950bbba0f5d0e93db5ed72359fd637f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c9341e68ef47bbb2614db2b5c9db40bf6cac2403
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747423"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380688"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Understanding Assemble to Order and Assemble to Stock
 Assembly items can be supplied in the following two processes:  

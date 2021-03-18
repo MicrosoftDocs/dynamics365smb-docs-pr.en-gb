@@ -3,19 +3,19 @@ title: Import Payroll Transactions| Microsoft Docs
 description: To manage salary, you import and post financial transactions from your payroll provider to the general ledger, using a payroll extension such as Ceridian or Quickbooks.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Ceridian, Quickbooks, salary
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ca36be547224e0d401a05b63452420b88b0b7d1f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c6bd078c6cf12023088dfa2f925e5a61bcc61778
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746973"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387456"
 ---
 # <a name="import-payroll-transactions"></a>Import Payroll Transactions
 To account for salary payments and related transactions, you must import and post financial transactions made by your payroll provider to the general ledger. To do this, you first import a file that you receive from the payroll provider into the **General Journal** page. Then you map the external accounts in the payroll file to the relevant G/L accounts. Lastly, you post the payroll transactions according to the account mapping.

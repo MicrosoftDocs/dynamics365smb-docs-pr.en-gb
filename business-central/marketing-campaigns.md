@@ -3,19 +3,19 @@ title: Set Up Marketing Campaigns in Business Central| Microsoft Docs
 description: Describes how you can set up and conduct marketing campaigns in Business Central to help you identify and attract prospects and retain customers.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd309537e7f2e5c57f722345f2c33dc7bc6dfebb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7136a37778d25fac1365c9619402d0fd697199f8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922801"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377530"
 ---
 # <a name="managing-marketing-campaigns"></a>Managing Marketing Campaigns
 Having a strong marketing plan in place enables you to identify, attract, and retain customers. A marketing plan consists of various campaigns and other interactions in connection with your sales and marketing activities. While planning a campaign, you need to decide which contacts to target, what type of campaign (such as trade show or direct mail), and what salespeople will perform each task.
@@ -23,7 +23,7 @@ Having a strong marketing plan in place enables you to identify, attract, and re
 Each campaign consists of various activities or tasks. You can combine multiple task, for example tasks that each represent a step, in activities. Activity tasks are related to each other by a date formula. Individual tasks can only be assigned to salespeople. Activities can be assigned to opportunities, salespeople, groups of sales people, and contacts. For more information, see [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Defining individual campaigns
-Before you can create a campaign, you must set up *campaign status codes* . Using these codes will help you manage your campaigns by assigning a status to the campaign. As you work through the stages of a campaign, you are able to see what step a campaign is at and what step comes next. You set up campaign status codes on the **Campaign Status** page.
+Before you can create a campaign, you must set up *campaign status codes*. Using these codes will help you manage your campaigns by assigning a status to the campaign. As you work through the stages of a campaign, you are able to see what step a campaign is at and what step comes next. You set up campaign status codes on the **Campaign Status** page.
 
 You can create a campaign card for each campaign that you want to keep track of. You can also view these campaign cards to view general information about your campaigns.
 You can delete campaign entries, such as if the entry records an action that has been cancelled. Only cancelled campaign entries can be deleted.

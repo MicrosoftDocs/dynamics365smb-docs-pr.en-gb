@@ -3,19 +3,19 @@ title: How to Plan Order by Order | Microsoft Docs
 description: This planning task can be performed on the **Order Planning** page, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62f5254da05749c2da4690e7d49488af852ac67a
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 1cc5ab20c89a1f58bf85a769ad45590bf234931c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013851"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381297"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Plan for New Demand Order by Order
 This planning task can be performed on the **Order Planning** page, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.  

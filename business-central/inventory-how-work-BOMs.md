@@ -3,18 +3,18 @@ title: Work with Bills of Material to Manage Components
 description: You create an assembly BOM or production BOM to specify the components or resources required to put together the item that the BOM represents.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: c5d372c72d70c72f9c809fe6b3a05ed5b5528a8f
-ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
+ms.openlocfilehash: 2ada3cea6a7c7e5fddc122b9405a6e608f35a804
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "4838464"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377605"
 ---
 # <a name="work-with-bills-of-material"></a>Work with Bills of Material
 You use bills of materials (BOMs) to structure parent items that must be assembled or produced by resources or machine centres from components. An assembly BOM can also be used to sell a parent item as a kit consisting of its components.

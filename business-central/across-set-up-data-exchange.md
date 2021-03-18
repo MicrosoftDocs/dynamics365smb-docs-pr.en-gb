@@ -3,19 +3,19 @@ title: Set up data exchange | Microsoft Docs
 description: Set up the data exchange framework in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3453a29f403360c058c6e17d946f02f6df706a59
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 05d6a4c4c63c2ff7fb750b8288643427b17b3004
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753057"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379030"
 ---
 # <a name="setting-up-data-exchange"></a>Setting Up Data Exchange
 Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved files. In addition, you must set up related areas, such as the customers that you send electronic invoices to, or the AMC Banking 365 Fundamentals extension if you use the external service provider to convert your bank files. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  

@@ -3,19 +3,19 @@ title: Upgrading an Integration with Dynamics 365 Sales
 description: Learn how to move your Dynamics 365 Business Central integration with Dynamics 365 Sales to the latest version.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6528a05d0d2b43d39f0f2fafa26d71b03d0d2511
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 69ffe6cea05cc28d1950481a07b064a3365f404e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013724"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386706"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Upgrading an Integration with Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] integrates with [!INCLUDE[prod_short](includes/cds_long_md.md)], which makes it easy to connect and synchronise data with other Dynamics 365 applications, such as [!INCLUDE[crm_md](includes/crm_md.md)], or even apps that you build yourself. If you are integrating for the first time, we recommend that you do so through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For more information, see [Integration with Dataverse](admin-common-data-service.md).
@@ -29,12 +29,15 @@ If you have already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INC
 1. Open the **Microsoft Dynamics 365 Connection Setup** page, and then turn off the **Enabled** toggle to disconnect from [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Open the **Dataverse Connection Setup** page, and choose the **Enabled** toggle to turn on the connection to [!INCLUDE[prod_short](includes/cds_long_md.md)].
   
-   After you enable the connection, the Business Central Integration Solution is deployed to Dataverse.
+   > [!NOTE]
+   > After you enable the connection, the Business Central Integration Solution is deployed to Dataverse.
 3. Choose **Redeploy Integration Solution** to reinstall the Business Central Integration Solution.
 4. On the **Microsoft Dynamics 365 Connection Setup** page, turn on the **Enabled** toggle to reconnect to [!INCLUDE[crm_md](includes/crm_md.md)].
   
-   This enables integration with tables that are specific to [!INCLUDE[crm_md](includes/crm_md.md)], such as sales orders, quotes, and invoices.
-5. On the **Sales Connection Setup** page, choose **Use Default Synchronisation Setup** to initialise the integration table mappings for [!INCLUDE[crm_md](includes/crm_md.md)].
+   > [!NOTE]
+   > After you enable the connection, the Business Central Integration Solution is deployed to [!INCLUDE[prod_short](includes/prod_short.md)]. This enables integration with tables that are specific to [!INCLUDE[crm_md](includes/crm_md.md)], such as sales orders, quotes, and invoices.
+5. Choose **Redeploy Integration Solution** to reinstall the Business Central Integration Solution.
+6. On the **Sales Connection Setup** page, choose **Use Default Synchronisation Setup** to initialise the integration table mappings for [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="see-also"></a>See Also
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

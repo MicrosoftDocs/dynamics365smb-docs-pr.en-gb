@@ -3,19 +3,19 @@ title: Set Up a Company With RapidStart Services| Microsoft Docs
 description: You can set up a new company in Business Central with RapidStart services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aeb436516d2f6d389b6d8b6489e63ac1ad925aae
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: edd2152c355053224cac30a9a504da04bad7614c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755174"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385306"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Setting Up a Company With RapidStart Services
 You can set up a new company in [!INCLUDE[prod_short](includes/prod_short.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks.  

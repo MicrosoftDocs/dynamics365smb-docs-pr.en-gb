@@ -3,19 +3,19 @@ title: Basic Experience Extension | Microsoft Docs
 description: This extension is a modernized alternative to Microsoft Dynamics C5.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: C5, financials, extension
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 58c8a66e9fbe1609dc2e65c764dd3c4f60b4bc54
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 259fe5539482dfe893c230cb5574e4816788b56e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757349"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386206"
 ---
 # <a name="the-basic-experience-extension"></a>The Basic Experience Extension
 If you have been using Microsoft Dynamics C5, Microsoft partners can help you transition to a more modern solution that is based on [!INCLUDE[prod_short](includes/prod_short.md)], so you can continue to enjoy the same streamlined capabilities as Dynamics C5.

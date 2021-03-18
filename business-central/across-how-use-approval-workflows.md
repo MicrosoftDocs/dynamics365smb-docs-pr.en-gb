@@ -4,19 +4,19 @@ description: Request, reject, or delegate an approval of, for example, a purchas
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 044b09cb2dced1100665a6d5705f6e43672b5f12
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: db43728efb4c57a60f23a62c03246f1059373a54
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754599"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379380"
 ---
 # <a name="use-approval-workflows"></a>Use Approval Workflows
 When a record, such as a purchase document or a customer card, needs to be approved by someone in your organisation, you send an approval request as part of a workflow. Based on how the workflow is set up, the appropriate approver is then notified that the record requires their approval.

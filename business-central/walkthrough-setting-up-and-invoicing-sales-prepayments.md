@@ -3,19 +3,19 @@ title: Walkthrough - Setting Up and Invoicing Sales Prepayments | Microsoft Docs
 description: Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You may require a deposit before you manufacture items to order, or you may require payment before you ship items to a customer. You use the prepayments functionality in Business Central to invoice and collect deposits that are required from customers or remit deposits to vendors. Thus, you can make sure that all payments are posted against an invoice.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f3a02f54863bf7d0bf6e6e2db03e16e8bedd53c6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 636950f569944907b76660dbcf61f5e8ad2b4340
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756424"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385431"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Walkthrough: Setting Up and Invoicing Sales Prepayments
 

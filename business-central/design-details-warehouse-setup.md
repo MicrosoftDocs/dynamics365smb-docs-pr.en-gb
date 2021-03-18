@@ -3,19 +3,19 @@ title: Design Details - Warehouse Setup | Microsoft Docs
 description: Warehouse functionality in Business Central contains different levels of complexity, as defined by licence permissions in the offered granules. The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 32c3fedfbeea37a1be315d737ac9fe41b5c7c20a
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: b668c21313f09323ec3b367eef59bcc5353320c5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035438"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380613"
 ---
 # <a name="design-details-warehouse-setup"></a>Design Details: Warehouse Setup
 

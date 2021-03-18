@@ -3,19 +3,19 @@ title: Put Items Away | Microsoft Docs
 description: The warehouse activity of putting items away after they are received or output is performed in different ways depending on how warehouse management features are configured.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6fbd192b5999d566271163c9653c3bcdfe0dbba1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 095c53e915a2613d06282809eb83f0601b5a368c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755774"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382186"
 ---
 # <a name="putting-items-away"></a>Putting Items Away
 The warehouse activity of putting items away after they are received or output is performed in different ways depending on how warehouse management features are configured. The complexity can rank from no warehouse features, through basic warehouse configurations for order-by order handling in one or more activities only, to advanced configurations where all warehouse activities must be performed in a directed workflow. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).

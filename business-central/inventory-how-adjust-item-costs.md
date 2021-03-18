@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70fb5f5e1670dfbee3d8313099924321368f4e81
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8ae2d324be3e742e50b39637bae886266a0f3904
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750163"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377730"
 ---
 # <a name="adjust-item-costs"></a>Adjust Item Costs
 The cost of an item (inventory value) that you purchase and later sell may change during its lifetime, for example because a freight cost is added to its purchase cost after you have sold the item. Cost adjustment is especially relevant in situations where you sell goods before you invoice the purchase of those goods. To always know the correct inventory value, item costs must therefore regularly be adjusted. This ensures that sales and profit statistics are up to date and that financial KPIs are correct. For more information, see [Design Details: Cost Adjustment](design-details-cost-adjustment.md).

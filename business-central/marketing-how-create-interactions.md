@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d21496d709fd24d3276845195a0be81d13486e83
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5536671877c2fa766f953fe6bc9a5af5d2861b3e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925165"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387956"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Create Interactions on Contacts and Segments
 You can create interactions to record all the interactions and communications you have with your contacts and segments, for example, direct mail.
@@ -34,12 +34,12 @@ Before you create interactions, you must set up interaction templates. For more 
 
 ## <a name="to-finish-and-delete-postponed-interactions"></a>To finish and delete postponed interactions
 1. Open the contact, salesperson, or interaction log entry.
-2. Choose **Postponed Interactions** .
+2. Choose **Postponed Interactions**.
 3. Select the interaction you want to finish, and then choose the **Resume** action.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>To create an interaction on a segment
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments** , and then choose the related link.
-2. In the **Segment page** , in the **Interaction** section, fill in the fields to specify which interaction you want to assign to the segment.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.
+2. In the **Segment page**, in the **Interaction** section, fill in the fields to specify which interaction you want to assign to the segment.
 
     After you have assigned an interaction to the segment, you can personalise the interaction for each particular contact within the segment, for example, by selecting another interaction template on the lines on the **Segment** page.  
 3. To log the segment and interactions, choose the **Log** action. The **Log Segment** page opens.

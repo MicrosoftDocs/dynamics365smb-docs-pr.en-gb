@@ -3,19 +3,19 @@ title: Reconcile vendor payment receipts or refunds in the payment journal
 description: To process, match, or reconcile vendor payments or refunds manually, you apply the amount to one or more open vendor ledger entries.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f88f7df150f988b0d365b383a89a778a0dc9a15
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: e0fab7592bd8316c2a8f90f2cf21d6874f6396f6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013674"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383882"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries
 When you send a payment or receive a refund from a vendor, you must decide whether to apply the payment or refund to one or more open entries. You can specify the exact amount that you want to apply to the payment receipt or refund, and then only partially apply vendor ledger entries. You must apply all vendor ledger entries to obtain correct vendor statistics and reports of the account statements and finance charges.

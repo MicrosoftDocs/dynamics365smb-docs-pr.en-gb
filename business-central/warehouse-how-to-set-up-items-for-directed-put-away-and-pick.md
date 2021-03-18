@@ -3,19 +3,19 @@ title: Set Up Directed Put-away and Pick | Microsoft Docs
 description: When you set up a warehouse location for directed put-away and pick, you have new functionality available to you to help run the warehouse in the most efficient way possible.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0829b941abdff610ea2597dac1451ebc28ab2086
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a3198cf0958d644f08a14d301c07c9bf6bd46348
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755999"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382345"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Set Up Items and Locations for Directed Put-away and Pick
 When you set up a warehouse location for directed put-away and pick, you have new functionality available to you to help run the warehouse in the most efficient way possible. In order to make full use of this functionality, you provide additional information about the items, which in turn helps to make the calculations necessary to suggest the most efficient and effective ways to conduct warehouse activities. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).

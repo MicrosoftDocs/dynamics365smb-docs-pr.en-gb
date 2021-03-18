@@ -3,19 +3,19 @@ title: Set Up Item Attributes and Assign Them to Items| Microsoft Docs
 description: Describes how to set up item attribute values, for example, that can be used as search words, and assign them to items and item categories.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 80f1418e71396ababc4d85bb7f231fb9985654c8
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6802cbc44c226f242ad953c706e4ebc407478ec6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749937"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377555"
 ---
 # <a name="work-with-item-attributes"></a>Work with Item Attributes
 When customers inquire about an item, either in correspondence or in an integrated web shop, they may ask or search according to characteristics, such as height and model year. To provide this customer service, you can assign item attribute values of different types to your items, which can then be used when searching for items.

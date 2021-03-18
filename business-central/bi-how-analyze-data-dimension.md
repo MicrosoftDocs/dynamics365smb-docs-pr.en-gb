@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: edupont
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4086da516f9a1ecccf5a3a0c2f86d0f42877b637
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 5bcc55443b8c45c1e63e71dddf49dfacd320128d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817086"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382588"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analyse Data by Dimensions
 In financial analysis, a dimension is data that you can add to an entry as a kind of marker. This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Dimensions can be used on entries in journals, documents, and budgets. The term dimension describes how analysis occurs. A two-dimensional analysis, for example, would be sales per area. However, by using more than two dimensions when creating an entry, you can carry out a more complex analysis, such as sales per sales campaign per customer group per area. For more information, see [Working with Dimensions](finance-dimensions.md).
