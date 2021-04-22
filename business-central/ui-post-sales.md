@@ -1,5 +1,5 @@
 ---
-title: Posting Sales Documents | Microsoft Docs
+title: Posting Sales Documents
 description: Learn about the different posting functions to post sales documents, and how you can update posted documents.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 12/03/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e0d1bd7770eb3bb44a2e9b3203ffa158a246cfa9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e59c48c31e897d235c7920f4231313a2332fdf06
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392056"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783266"
 ---
 # <a name="posting-sales"></a>Posting Sales
 
@@ -28,7 +28,8 @@ Under the **Posting** menu in a sales document, you can choose between the follo
 * **Post Batch**
 * **Test Report**
 
-> [NOTE!] For sales orders, you can also see options related to the prepayments functionality. For more information, see [Invoicing Prepayments](finance-invoice-prepayments.md). 
+> [!NOTE]
+> For sales orders, you can also see options related to the prepayments functionality. For more information, see [Invoicing Prepayments](finance-invoice-prepayments.md).
 
 When you have completed all the lines and entered all the information on the sales order, you can post it. This creates a shipment and an invoice.
 
@@ -65,5 +66,4 @@ You can edit certain fields on posted purchase documents, such as the **Package 
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](includes/footer-banner.md)]  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ccd98b18b59f101634e68ba0cccc34d407c971e2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4c6d1a9dc293489587406f5cfa3388603b602221
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383420"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781367"
 ---
 # <a name="print-vat-audit-reports-in-the-british-version"></a>Print VAT Audit Reports in the British Version
 

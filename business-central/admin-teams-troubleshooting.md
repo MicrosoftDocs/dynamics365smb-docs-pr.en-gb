@@ -8,20 +8,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385206"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882182"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Troubleshooting Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 This article provides information on how to identify and fix problems you may experience when using Microsoft Teams with [!INCLUDE [prod_short](includes/prod_short.md)], as a typical user or administrator.
+
+## <a name="the-sign-in-link-doesnt-work"></a>The sign-in link doesn't work
+
+If you try to sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams immediately after installing the app, and the sign-in link doesn't react, it may be because the app hasn't fully completed installation. To try to fix the issue, sign out of your Teams client and then sign in again.
+
+## <a name="the-settings-page-is-empty"></a>The Settings page is empty
+
+You must first sign in to reach your settings. To sign into the app, either paste a link to a [!INCLUDE [prod_short.md](includes/prod_short.md)] record, or try to search for contacts. Both of these actions will lead you through a sign-up experience, after which you can use the **Settings** page.
+
+## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>I changed company but it didn't seem to work
+
+After you change the company on the **Settings** page, you might notice that the command box drop-down indicates you're still searching the previous company. This issue happens when you open the **Settings** page directly from the command box. In this case, the company was successfully changed, and you'll in fact search the company you switched to. The problem is that the command box drop-down just hasn't been updated yet. For the drop-down accurately reflect the company you'll search in, close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box, and then open the app again.
+
+
+<!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
+
+## <a name="something-went-wrong-error-when-searching-for-contacts"></a>"Something went wrong" error when searching for contacts
+
+You may experience this error when you search in a company that hasn't been initialised or is in an unresponsive state. For example, you can't search in a new trial company that hasn't yet accepted the terms of use. To resolve this issue, try to sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client, and act on or dismiss any initial dialogues that appear.
+
+## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>"The contacts API was not found" error when searching for contacts
+
+This problem may be because of customisations or industry solutions that affect, modify, or don't provide a contact API in [!INCLUDE [prod_short.md](includes/prod_short.md)]. If the problem continues, contact your administrator or supporting partner.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>None of my links expand into a card 
 
@@ -36,7 +59,7 @@ If you're experiencing this problem, here are a few things to try:
 
 2. Next, check that you've signed in with the correct identity.
 
-    In Teams, go to any chat, and under the message compose box, choose the [!INCLUDE [prod_short](includes/prod_short.md)] icon. When the window appears, check whether the user it says that you're connected as matches what you use to connect to [!INCLUDE [prod_short](includes/prod_short.md)].
+    In Teams, go to any chat, and under the message compose box, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] icon, then choose **Settings**. When the window appears, check whether the user it says that you're connected as matches what you use to connect to [!INCLUDE [prod_short](includes/prod_short.md)].
 
 3. Make sure codeunit 2718 **Page Summary Provider** is published as a web service.
 
@@ -48,9 +71,8 @@ If you're experiencing this problem, here are a few things to try:
 
 A link won't expand into a card in the following situations:
 
-- The link targets a page of a type that doesn't represent a record. For example, it could be a link to [!INCLUDE [prod_short](includes/prod_short.md)]’s Role Centre. You can check the page type using the page inspection pane in the Web client in [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about page inspection, see [Inspecting Pages](across-inspect-page.md).
-- The link targets a page that (at a technical level) isn't connected to a source table in [!INCLUDE [prod_short](includes/prod_short.md)]. You can check whether a page has a source table by using the page inspection pane in the Web client in [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about page inspection, see [Inspecting Pages](across-inspect-page.md). 
-- Teams doesn't support link previews in some features. For example, when you pop out a chat, you're in a meeting, or you're a guest to another organisation.
+- The link targets a page that (at a technical level) isn't connected to a source table in [!INCLUDE [prod_short](includes/prod_short.md)]. You can check whether a page has a source table by using the page inspection pane in the Web client in [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about page inspection, see [Inspecting Pages](across-inspect-page.md).
+- Teams doesn't support link previews in some of its features. For example, when you pop out a chat, or you're a guest to another organisation.
 - Teams silently abandons trying to display the card after 15 seconds, for example, because of network issues.
 - Teams may not expand the link if you've already pasted a link into the same message compose box and deleted the card.
 
@@ -66,10 +88,6 @@ For example:
 `https://businesscentral.dynamics.com/?environmentname=Production&company=CRONUS%20USA%2C%20Inc.&page=21&dc=0&bookmark=21%3bEgAAAAJ7BTEAMAAwADAAMA%3d%3d`
 
 For technical details about [!INCLUDE [prod_short](includes/prod_short.md)] URLs, see [Web Client URL](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) in the [!INCLUDE [prod_short](includes/prod_short.md)] Developer and IT Pro Help.
-
-## <a name="the-card-is-displayed-in-the-message-compose-box-but-selecting-the-details-button-does-nothing"></a>The card is displayed in the message compose box, but selecting the Details button does nothing 
-
-After a link gets expanded into a card in the message compose box, you must send the message to the chat before you can use the **Details** button.
 
 ## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>The details window opens, but shows an error before details are shown
 
@@ -89,7 +107,7 @@ This problem can be caused by a couple things: lack of permissions in [!INCLUDE 
 
     For more information about minimum browser requirements, see [Minimum Requirements for Using [!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>I'm having problems with the camera or location in Teams 
+## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>I'm having problems with the camera or location in Teams
 
 When using [!INCLUDE [prod_short](includes/prod_short.md)] features in the details window that require access to your location or device camera, you must first give your consent for Teams to access these device capabilities.  
 
