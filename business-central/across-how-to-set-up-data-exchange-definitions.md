@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c89f605849d60f25a1ee46f9382d4275ff9ab088
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 58e98a2fa3e7a0d61ad6dc49ac2291a21105ddcb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384331"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774693"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Set Up Data Exchange Definitions
 You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to exchange data in specific tables with data on external files, for example to send and receive electronic documents, import and export bank data or other data, such as payroll, currency exchange rates, and item catalogues. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
@@ -95,8 +95,8 @@ This is described in the following procedures.
     |**Column No.**|Specify the number that reflects the column’s position on the line in the file.<br /><br /> For XML files, specify the number that reflects the type of element in the file that contains the data.|  
     |**Name**|Specify the name of the column.<br /><br /> For XML files, specify the markup that marks the data to be exchanged.|  
     |**Data Type**|Specify if the data to be exchanged is of type **Text**, **Date**, or **Decimal**.|  
-    |**Data Format**|Specify the format of the data, if any. For example, **MM-dd-yyyy** if the data type is **Date**. **Note:**  For export, specify the data format according to [!INCLUDE[prod_short](includes/prod_short.md)]. For import, specify the data format according to the .NET Framework. For more information, see [Standard Date and Time Format Strings](https://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Data Formatting Culture**|Specify the culture of the data format, if any. For example, **en-US** if the data type is **Decimal** to make sure that comma is used as the .000 separator, according to the US format. For more information, see [Standard Date and Time Format Strings](https://go.microsoft.com/fwlink/?LinkID=323466). **Note:**  This field is only relevant for import.|  
+    |**Data Format**|Specify the format of the data, if any. For example, **MM-dd-yyyy** if the data type is **Date**. **Note:**  For export, specify the data format according to [!INCLUDE[prod_short](includes/prod_short.md)]. For import, specify the data format according to the .NET Framework. For more information, see [Standard Date and Time Format Strings](/dotnet/standard/base-types/standard-date-and-time-format-strings).|  
+    |**Data Formatting Culture**|Specify the culture of the data format, if any. For example, **en-US** if the data type is **Decimal** to make sure that comma is used as the .000 separator, according to the US format. For more information, see [Standard Date and Time Format Strings](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Note:**  This field is only relevant for import.|  
     |**Length**|Specify the length of the fixed-width line that holds the column if the data file is of type **Fixed Text**.|  
     |**Description**|Enter a description of the column, for information.|  
     |**Path**|Specify the position of the element in the related XML schema.|  

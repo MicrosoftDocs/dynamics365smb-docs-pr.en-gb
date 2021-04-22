@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/02/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 805350a7b1213ec0e0d0550e5c5b63c557ee470a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493285"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771346"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Customising Business Central Online Using Extensions
 
@@ -79,6 +79,27 @@ Microsoft provides the following extensions:
 > [!NOTE]  
 > You can keep an eye out for new extensions from Microsoft and other suppliers at [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
+
+## <a name="extensions-and-data-transfer"></a>Extensions and data transfer
+
+As the following extensions are communicating with other services they may transfer data out of the geography of the [!INCLUDE[prod_short](includes/prod_short.md)] environment:
+
+* AMC Banking 365 Fundamentals Extension
+* Image Analyser
+* Late Payment Prediction
+* PayPal Payments Standard
+* Sales and Inventory Forecast
+* WorldPay Payments Standard
+
+This also applies to some functionality in the base application, such as the following capabilities:
+
+* Cash Flow Forecast
+* Document Exchange Service
+* Dataverse connections
+* OCR Service
+* Online Map
+* EU VAT Reg. No. Service
+
 ## <a name="see-also"></a>See Also
 
 [Customise Business Central](ui-customizing-overview.md)  
@@ -88,7 +109,7 @@ Microsoft provides the following extensions:
 [Migrating Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up the GetAddress.io UK Postcode extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Extensions by Other Providers](ui-extensions-other.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

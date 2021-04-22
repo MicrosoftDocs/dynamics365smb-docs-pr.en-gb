@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380363"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784847"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Submit Alerts about Country/Region-Specific Regulatory Features
 
@@ -52,7 +52,7 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
         |Description  | Enter a brief overview of the law. Your description should focus on issues that are relevant to enterprise resource planning (ERP), so that users can understand the requirements at a high level without having to read the legislation first.|
         |Country  | Specify the country or region that the legislation applies to.|
         |Industry| Specify the industry, if the requirement applies only to specific industries. For example, choose **Public sector**, **Retail**, or **Manufacturing**.|
-        |Feature reference  | This is not relevant for Dynamics 365 Business Central, but you can enter a feature reference, if you know it. The list of features for the specific country can be found in the [Localisation portal](https://docs.microsoft.com/dynamics/s-e/) on the CustomerSource site. |
+        |Feature reference  | This is not relevant for Dynamics 365 Business Central, but you can enter a feature reference, if you know it. The list of features for the specific country can be found in the [Localisation portal](/dynamics/s-e/) on the CustomerSource site. |
         |Law enforcement date  | Specify the date when affected customers must start to comply with the law.|
         |Government announcement date  | Specify the date when the authority announced the change.|
         |Latest filing date  | Select the deadline for the first submission of the new or changed report.|
@@ -76,7 +76,7 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 
 [Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Changing Language and Locale](about-locale-language.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Welcome to Business Central](index.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

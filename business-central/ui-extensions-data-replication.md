@@ -1,5 +1,5 @@
 ---
-title: Business Central Intelligent Cloud Extensions for Cloud Migration | Microsoft Docs
+title: Cloud Migration Extensions
 description: Use the cloud migration extensions to migrate your on-premises data to Business Central online. These extensions move your on-premises data to the cloud so you can use Business Central online with your existing data.
 author: jenolson
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d6110744f14cb959494e2fd5c9b970bd339a77f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f02face497affd1fd1467c118e10e69f2be39b85
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377355"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889131"
 ---
-# <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Intelligent Cloud Extensions for Cloud Migration
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Cloud Migration Extensions for Migrating to Business Central Online
 
 Depending on your on-premises solution, you must use different extensions to connect your data with [!INCLUDE[prod_short](includes/prod_short.md)] online for purposes of migrating your solution to the cloud.  
 
@@ -43,8 +43,7 @@ If you are using Dynamics SL, get the **Intelligent Cloud Base** extension, the 
 
 ## <a name="see-also"></a>See Also
 
-[Intelligent Insights](about-intelligent-cloud.md)  
-[Intelligent Cloud Base Extension](ui-extensions-intelligent-cloud.md)  
-
+[Cloud Migration Base Extension](ui-extensions-intelligent-cloud.md)  
+[Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

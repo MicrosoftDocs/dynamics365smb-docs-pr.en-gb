@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7226a8b8c1acd624890cd668cd9a8437e7bd08b7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ee7e6a132f463f35206dd9ac4fe75ce1a41fd40d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384181"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780089"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data
 
@@ -50,7 +50,7 @@ This article describes how to get started using Power BI Desktop to create repor
 
     For more information, see [Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](#theme) in this article.
 
-## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a>Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop
+## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop
 
 The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop. Once connected, you can start to build the report.
 
@@ -133,7 +133,7 @@ There are a couple ways to get reports to your coworkers and others:
 
 [Enabling Your Business Data for Power BI](admin-powerbi.md)  
 [Business Intelligence](bi.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  

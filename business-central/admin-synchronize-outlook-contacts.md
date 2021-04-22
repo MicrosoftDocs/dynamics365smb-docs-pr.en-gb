@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7c9d267df2fb58da3b4a7aa1505030c9510bdf4f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1ccada415d506193e52ac37981252a47e6088971
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386106"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777173"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchronise Contacts in Business Central with Contacts in Microsoft Outlook
 You can see the same contacts in [!INCLUDE[prod_short](includes/prod_short.md)] as you see in Outlook if you set up contact synchronisation. For example, if you are a sales person, you might do some of your work in Outlook and some of your work in [!INCLUDE[prod_short](includes/prod_short.md)]. If the contacts are the same in both places, your work is more straightforward.  
@@ -32,15 +32,15 @@ Once this synchronisation has been set up, any changes to that you make to the c
 Each of your coworkers can also set up their own Exchange synchronisation and set their own filter on which contacts to synchronise.  
 
 ## <a name="synchronize-contacts"></a>Synchronise Contacts
-If you are used to working with contacts in [!INCLUDE[prod_short](includes/prod_short.md)], then you will find it easy to start the synchronisation manually whenever it suits you from the **Contacts** list. Simply choose the **Sync with Office 365** action, and then decide if you want to change the filter that you have set up. When you choose the OK button, the synchronisation starts immediately, and the latest changes are applied to your contacts in Outlook.  
+If you are used to working with contacts in [!INCLUDE[prod_short](includes/prod_short.md)], then you will find it easy to start the synchronisation manually whenever it suits you from the **Contacts** list. Simply choose the **Sync with Microsoft 365** action, and then decide if you want to change the filter that you have set up. When you choose the OK button, the synchronisation starts immediately, and the latest changes are applied to your contacts in Outlook.  
 
 In the **Contacts** list, you can synchronise contacts in two ways:
 
-* **Sync with Office 365**
+* **Sync with Microsoft 365**
 
   This action synchronises all changes from [!INCLUDE[prod_short](includes/prod_short.md)] to Microsoft 365 since the previous synchronisation, based on the last modified date. Any new contacts from Microsoft 365 will be synchronised back to [!INCLUDE[prod_short](includes/prod_short.md)] as well. This is typically faster than doing a full sync.  
 
-* **Full Sync with Office 365**
+* **Full Sync with Microsoft 365**
 
   This action synchronises all contacts in both directions regardless of the last sync date and last modified date.  
 
@@ -49,7 +49,7 @@ In both cases, contacts are only synchronised from Outlook if they have the requ
 In Outlook, the contacts from [!INCLUDE[prod_short](includes/prod_short.md)] are shown in a folder under **Other contacts** in the **People**  view. If you are not familiar with the People view in Outlook, then you can get to it from the navigation options in the bottom left corner of Outlook.  
 
 ## <a name="see-also"></a>See Also
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

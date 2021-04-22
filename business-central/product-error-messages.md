@@ -1,17 +1,17 @@
 ---
-title: Warnings and Error Messages | Microsoft Docs
+title: Warnings and Error Messages
 description: Learn how you can troubleshoot and find solutions to error messages when you work in Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d57ffe82cefb3e15d9b175c3ac17631e75a3edb3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387180"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779489"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Warnings and Error Messages in Dynamics 365 Business Central
 
@@ -19,7 +19,7 @@ During your work day, you might see notifications in [!INCLUDE [prod_short](incl
 
 ## <a name="in-product-user-assistance"></a>In-product user assistance
 
-The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes descriptions for most fields, columns, and actions that can be accessed when you choose the name. In combination with descriptive captions and instructional text, these tooltips, or callouts, are our current implementation of *embedded user assistance*, which is an important principle in today's world of software design.  
+The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes descriptions for most fields, columns, and actions that can be accessed when you choose the name. In combination with teaching tips for important pages, descriptive captions, and instructional text, these tooltips, or callouts, are our current implementation of *embedded user assistance*, which is an important principle in today's world of software design.  
 
 If you have a question about a field or another element of the user interface, choose the name, and a short description will appear. Choose the *Learn more* link if that is not enough.  
 
@@ -41,7 +41,7 @@ If you are an administrator or superuser, you can help others by looking up erro
 [Searching and Filtering FAQ](ui-search-filter-faq.md)  
 [Copy and Paste FAQ](faq-copy-paste.yml)  
 [Change Basic Settings](ui-change-basic-settings.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

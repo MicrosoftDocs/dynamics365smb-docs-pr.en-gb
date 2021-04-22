@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c9341e68ef47bbb2614db2b5c9db40bf6cac2403
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 80164400380a600674061349b873e5d1159d2cb3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380688"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773036"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Understanding Assemble to Order and Assemble to Stock
 Assembly items can be supplied in the following two processes:  
@@ -72,8 +72,8 @@ When you enter an assemble-to-order item on a sales line, an assembly order is a
 
  The following table explains the rules that define the minimum and maximum values that you can enter in the **Quantity to Assemble** field to deviate from the default value in a combination scenario. The table shows a combination scenario where the **Qty. to Ship** field on the linked sales order line is changed from 7 to 4, and the **Quantity to Assemble** is therefore defaulted to 4.  
 
-|-|Sales Order Line|Assembly Order Header|  
-|-|----------------------|---------------------------|  
+|-|Sales Order Line|Assembly Order Header|||||||  
+|-|----------------------|---------------------------|-|-|-|-|-|-|  
 ||**Quantity**|**Qty. to Ship**|**Qty. to Assemble to Order**|**Quantity Shipped**|**Quantity**|**Quantity to Assemble**|**Assembled Quantity**|**Remaining Quantity**|  
 |Initial|10|7|7|0|7|7|0|7|  
 |Change||4||||4 (inserted by default)|||  

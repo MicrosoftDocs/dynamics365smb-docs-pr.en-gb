@@ -2,16 +2,16 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 01/25/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 539ee2eb2c9e4a71eacfb78d95320870128fb1d9
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 95121642b62f33ea1fc160c103ee845816706530
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470294"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778654"
 ---
-When all the items have been entered on the sales lines, you can calculate the invoice discount for the entire document by choosing the **Calculate Invoice Discount** action.
+When all the items have been entered as lines, you can calculate the invoice discount for the entire sales document by choosing the **Calculate Invoice Discount** action.
 
 The discount is calculated based on all the lines in the sales document for items where the **Allow Invoice Disc.** field on the sales order line contains **Yes**. This is the default setting for items. Lines with item charges, for example, are not included in the calculation of the invoice discount. If you want to apply a discount to such lines, you must set the **Line Discount %** field on the relevant lines.  
 

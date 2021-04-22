@@ -1,5 +1,5 @@
 ---
-title: How to Batch Post Consumption | Microsoft Docs
+title: Batch Post Consumption
 description: If the flushing method is **Manual**, you must post the components manually, using a consumption journal.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,28 +8,40 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0bf0a92d05b6c9ecb3d5a5ba054b4675680ad43c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 66a19b624c74ec844806c27c490c300746b46704
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391806"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787909"
 ---
 # <a name="batch-post-production-consumption"></a>Batch Post Production Consumption
-If the flushing method is **Manual**, you must post the components manually, using a consumption journal.
 
-You can also set the system up to automatically post (*flush*) components when you start or finish production orders. For more information, see [Enable Flushing of Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).
+If the flushing method is **Manual**, you must post the components manually, using a consumption journal.  
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>To post consumption for one or more production order lines  
+>[!NOTE]
+> If you have placed a check mark in the **Require Pick** field on the location card to indicate that the location requires inventory pick processing, then you do not need to use this batch job. [!INCLUDE[prod_short](includes/prod_short.md)] will handle consumption when you post the inventory pick. For more information, see [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md#to-pick-components-in-basic-warehouse-configurations). 
+
+You can also set up [!INCLUDE[prod_short](includes/prod_short.md)] to automatically post (*flush*) components when you start or finish production orders. For more information, see [Enable Flushing of Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).
+
+## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>To post consumption for one or more production order lines
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Consumption Journal**, and then choose the related link.  
 2.  Fill in the fields with the production order data and the consumption data. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    If the warehouse location where the components are stored is set up to use bins but does not require pick processing, assign a bin code to the journal line to indicate where the items should be taken from in the warehouse. For more information, see [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).  
-3.  Choose the **Post** action to post the consumption. The related item ledger entries are reduced.
+    Use the **Calc. Consumption** action to generate journal lines from production orders based on the actual output (the quantity of finished goods that you have reported) or on the expected output (the quantity of finished goods that you expect to produce).
 
-## <a name="see-also"></a>See Also  
+    > [!NOTE]
+    > If you configured the location card to require warehouse pick processing, then only quantities that are already picked through a warehouse activity can be entered in the **Quantity** field in the **Consumption Journal** page, not any calculated quantity. For more information, see [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+
+3.  Choose the **Post** action to post the consumption. The related inventories are reduced.
+
+
+
+## <a name="see-also"></a>See Also
+
 [Manufacturing](production-manage-manufacturing.md)    
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)      

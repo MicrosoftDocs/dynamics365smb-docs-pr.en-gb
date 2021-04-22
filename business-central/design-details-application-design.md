@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8a09aa00b23abab7849c4a5099132c9729d7592e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f669944766894e57a772e229a436953953f3892c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389480"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785196"
 ---
 # <a name="design-details"></a>Design Details
 This content contains detailed technical information about complex application features in [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -30,16 +30,14 @@ This content contains detailed technical information about complex application f
 |Learn about central principles behind advanced and basic warehouse features and how they integrate with other supply chain features.|[Design Details: Warehouse Management](design-details-warehouse-management.md)|  
 |Learn about historic and the current design of item tracking functionality and how it integrates with the reservation system to include serial/lot numbers in availability calculations.|[Design Details: Item Tracking](design-details-item-tracking.md)|  
 |Learn about the General Journal Posting Line feature, including recent simplifications to the design of codeunit 12.|[Design Details: General Journal Post Line](design-details-general-journal-post-line.md)|
-|Learn about the design for storing and posting dimensions, including code examples on how to migrate and upgrade dimension code.|[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)| 
+|Learn about the design for storing and posting dimensions, including code examples on how to migrate and upgrade dimension code.|[Design Details: Dimension Set Entries](design-details-dimension-set-entries-overview.md)|
 
-## <a name="see-also"></a>See Also  
- [Planning](production-planning.md)   
- [Managing Inventory Costs](finance-manage-inventory-costs.md)   
- [Warehouse Management](warehouse-manage-warehouse.md)   
- [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="see-also"></a>See Also
 
- ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+[Planning](production-planning.md)  
+[Managing Inventory Costs](finance-manage-inventory-costs.md)  
+[Warehouse Management](warehouse-manage-warehouse.md)  
+[Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

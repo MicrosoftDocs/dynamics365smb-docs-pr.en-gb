@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 02/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59bf311e24f11e062a243026ec35ca4c7b779952
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493335"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774162"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Depreciation Methods for Fixed Assets
 
@@ -154,16 +154,16 @@ Calculation Method:
 
 The formula for calculating the depreciation amounts is:  
 
-*DA* = *BV* x (1 – (1 –P)<sup>D<sup> 
+*DA* = *BV* x (1 – (1 –P)<sup>D</sup>)
 
 The depreciation values are:  
 
 | Date | Calculation |
 | --- | --- |
-| 06/30/20 |DA = 100,000.00 x (1 -(1 - 0.25)<sup>0.5<sup>) = 13,397.46 |
-| 12/31/20 |DA = 86,602.54 x (1 - (1 - 0.25)<sup>0.5<sup>) = 11,602.54 |
-| 06/30/21 |DA = 75,000.00 x (1 - (1 - 0.25)<sup>0.5<sup>) = 10,048.09 |
-| 12/31/21 |DA = 64,951.91 x (1 - (1 - 0.25)<sup>0.5<sup>) = 8,701.91 |
+| 06/30/20 |DA = 100,000.00 x (1 -(1 - 0.25)<sup>0.5</sup>) = 13,397.46 |
+| 12/31/20 |DA = 86,602.54 x (1 - (1 - 0.25)<sup>0.5</sup>) = 11,602.54 |
+| 06/30/21 |DA = 75,000.00 x (1 - (1 - 0.25)<sup>0.5</sup>) = 10,048.09 |
+| 12/31/21 |DA = 64,951.91 x (1 - (1 - 0.25)<sup>0.5</sup>) = 8,701.91 |
 
 ## <a name="db1sl-depreciation"></a>Sum of Digits Depreciation
 
@@ -205,7 +205,7 @@ The fixed asset ledger entries look like this:
 
 Calculation method:  
 
-* Year 1:  
+* Year 1 (2020):  
 
     *Declining-balance amount: 25% of 100,000 = 25,000=12,500+12,500*  
 
@@ -373,7 +373,7 @@ When you enter an entry in B1 in the fixed asset G/L journal and place a check m
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

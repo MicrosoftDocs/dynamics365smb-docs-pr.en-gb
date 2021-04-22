@@ -2,15 +2,15 @@
 title: Partner sales and marketing learning catalogue
 description: Find all the available learning for partner sales and marketing roles in Business Central.
 author: loreleishannonmsft
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: edb42bb6dce30aee77b45a383f77b3bd0d104009
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9830e4e842cc7fe3febcbe809547ad26701f527d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389281"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781845"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Partner Sales and Marketing Learning Catalogue
 
@@ -24,15 +24,15 @@ The following catalogue is organised from core knowledge to specific domains, an
 |-------------|----------------|---------------------------------------|---------------------|
 | [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Partners only) This session will outline the value of Business Central. Business Central offers terrific value because it integrates with other Microsoft cloud services including Microsoft 365 and can be customised or extended for specific industry needs with Power Apps, Power Automate and Power BI. | Video                                 | 8 minutes 5 seconds |
 | [Explore Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/) | Explore Dynamics 365 Business Central Capabilities    | Website    |                     |
-| [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | This module shows application features, benefits, and examples of Dynamics 365 Business Central in action.    | Free, self-paced online learning path | 24 minutes          |
+| [Dynamics 365 Business Central](/learn/modules/dynamics-365-business-central/)            | This module shows application features, benefits, and examples of Dynamics 365 Business Central in action.    | Free, self-paced online learning path | 24 minutes          |
 
 ## <a name="getting-started"></a>Getting started<a name="get-started"></a>
 
 | Content   | Description   | Format                                | Length              |
 |-----------|---------------|---------------------------------------|---------------------|
-| [Get started with Microsoft Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-business-central/)                          | Are you interested in Business Central? If you are, this learning path provides a good introduction. It discusses how to set up a trial, provides some basic information about what's available, and shows some personalisation options you can make to customise Business Central for your use.          | Free, self-paced online learning path | 3 hours 4 minutes   |
-| [Work with the Microsoft Dynamics 365 Business Central user interface](https://docs.microsoft.com/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Do you want to learn about the Business Central user interface? This learning path shows you the user interface, and also how you can personalise it. It also discusses alternate interfaces such as a smartphone.    | Free, self-paced online learning path | 2 hours 27 minutes  |
-| [Work like a pro with data in Business Central](https://docs.microsoft.com/learn/paths/work-pro-data-dynamics-365-business-central) | Are you just getting started with Business Central? This learning path will help prepare you for the types of data in Business Central and how to find information you need in the application.      | Free, self-paced online learning path | 2 hours 27 minutes  |
+| [Get started with Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/)                          | Are you interested in Business Central? If you are, this learning path provides a good introduction. It discusses how to set up a trial, provides some basic information about what's available, and shows some personalisation options you can make to customise Business Central for your use.          | Free, self-paced online learning path | 3 hours 4 minutes   |
+| [Work with the Microsoft Dynamics 365 Business Central user interface](/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Do you want to learn about the Business Central user interface? This learning path shows you the user interface, and also how you can personalise it. It also discusses alternate interfaces such as a smartphone.    | Free, self-paced online learning path | 2 hours 27 minutes  |
+| [Work like a pro with data in Business Central](/learn/paths/work-pro-data-dynamics-365-business-central) | Are you just getting started with Business Central? This learning path will help prepare you for the types of data in Business Central and how to find information you need in the application.      | Free, self-paced online learning path | 2 hours 27 minutes  |
 | [Business Central YouTube playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTube landing page for Dynamics 365 Business Central videos  | YouTube Videos  |                     |
 
 ## <a name="grow-your-business"></a>Grow your business<a name="grow"></a>
@@ -42,7 +42,7 @@ The following catalogue is organised from core knowledge to specific domains, an
 | [Dynamics 365 Business Central - Compelling Prospect Conversations (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Partners only) Join Errol Schoenfish, then Director of Product Marketing, as he talks through how to have compelling conversations with prospects on Microsoft Dynamics 365 Business Central.   | Video    | 11 minutes 15 seconds |
 | [Cloud Solution Provider programme](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Partners only) About the Cloud Solution Provider programme     | Website |                       |
 | [Marketing in a Cloud World](https://mbspartner.microsoft.com/OSS/Topic/19) | (Partner only) Addressing how to optimise your marketing practices and realign your marketing principles for a cloud-first world will be a primary factor in determining the success or failure of your organisation moving forward. This series of videos and resources provide marketing best practices, content creation guidance, pragmatic tips and useful tools for applying cloud marketing principals to drive demand for your solutions. | Topic page | 35 minutes |
-| [Cloud Solution Provider programme - selling in-demand cloud solutions](https://docs.microsoft.com/partner-center/csp-overview)  | The Cloud Solution Provider programme (CSP) helps you go beyond reselling licences to being more involved in your customer's business.   | Website      |                       |
+| [Cloud Solution Provider program - selling in-demand cloud solutions](/partner-center/csp-overview)  | The Cloud Solution Provider programme (CSP) helps you go beyond reselling licences to being more involved in your customer's business.   | Website      |                       |
 | [Cloud Solution Provider programme - compare partner support programmes](https://partner.microsoft.com/support/partnersupport) | Watch this video to see how to pick the right partner support plan for your business. Then see a side-by-side comparison below.    | Website                               |                       |
 | [Cloud SureStep Accelerated Selling](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Partners-only) The Cloud SureStep Accelerated Sales Process is built around the needs of the modern buyer and endeavors to trigger an emotional, experience-driven Strategic Tipping Point early in the selling process. This series of videos and resources explain a prescriptive selling process that is specifically designed to counter the traditional resource intensive, "demo-oriented" solution sales approach that typically leads to highly customised product demonstrations, complex sales cycles and long implementation projects. The library of resources includes a number of customisable templates so you may create your own set of sales assets to support accelerated selling. | Website     |                       |
 | [Supplement to the Transition Partner Playbook (July 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | This supplement to the Transition Partner playbook provides some updated and new guidance to partners for securing their existing customer base from competition and new SaaS entrants.  | PowerPoint slideshow | 15 slides |

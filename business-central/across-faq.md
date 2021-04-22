@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
-ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
+ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5498569"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776154"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Frequently Asked Questions about Using Business Central
 
@@ -44,8 +44,9 @@ This applies to [!INCLUDE [prod_short](includes/prod_short.md)] online and on-pr
 
 Also, if the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource. This applies to [!INCLUDE [prod_short](includes/prod_short.md)] online only.  
 
-## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Are there any differences between an on-premises deployment and the cloud version of Business Central?
-Yes. Some Cloud-based features may run on premises in certain cases and others are not supported at all. For more information, see [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
+## <a name="are-there-any-differences-between-an-on-premises-deployment-and-business-central-online"></a>Are there any differences between an on-premises deployment and Business Central online?
+
+Yes. [!INCLUDE [prod_short](includes/prod_short.md)] is optimised for online deployment, and some capabilities may run on premises only under certain circumstances, while others are not supported at all. For more information, see [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (available in English only).
 
 ## <a name="can-i-get-training-in-prod_short"></a>Can I get training in [!INCLUDE[prod_short](includes/prod_short.md)]?
 Yes, you can! You can find free eLearning content on the [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). You can also ask your reselling partner for additional training. If you don't know who that is, see the [How do I find a reselling partner?](#findpartner) section.  
@@ -60,12 +61,23 @@ Additional content is provided by the [!INCLUDE[prod_short](includes/prod_short.
 
 For more information, see [Help and Support](product-help-and-support.md) and the [How do I find a reselling partner?](#findpartner) section.  
 
-## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Why does Help describe functionality that I cannot access?
-If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Change Which Features are Displayed](ui-experiences.md).
-
 ## <a name="where-is-the-save-button"></a>Where is the save button?
 
-There is no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[prod_short](includes/prod_short.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you will see the text **Saving** in the top-right corner of the page, which will quickly change to **Saved** if no errors occur. If an error occurs, the text will change to **Not Saved**.
+There is no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[prod_short](includes/prod_short.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you will see the text **Saving** in the top-right corner of the page, which will quickly change to **Saved** if no errors occur. If an error occurs, the text will change to **Not Saved**.  
+
+## <a name="where-do-i-find-that-line-number"></a>Where do I find that line number?
+
+Documents such as sales order or purchase invoices consist of headers and lines. Each line has a number that [!INCLUDE [prod_short](includes/prod_short.md)] uses to identify this particular line. As a result, you might see a warning or an error message that something is wrong in line number 1000, for example. In the default version of [!INCLUDE [prod_short](includes/prod_short.md)], line numbers are hidden. If you want to see the line numbers, you must personalise the current page and add the **Line No.** field. For more information, see [Personalise Your Workspace](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+
+
+## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Why does Help describe functionality that I cannot access?
+If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Change Which Features are Displayed](ui-experiences.md).  
+
+## <a name="why-is-new-information-not-available-in-my-language"></a>Why is new information not available in my language?
+
+On the docs.microsoft.com site, content about business functionality is published in a number of languages. The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it is then sent off for translation into the supported languages. This means that you will not be able to read this new content in your own language for up to 4 weeks.  
+
+We understand the problems this can cause, and we encourage users to search for what they are looking for in English if they cannot find it in their own language.  
 
 ## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>What email address can I use with [!INCLUDE[prod_short](includes/prod_short.md)] online?
 
@@ -80,7 +92,7 @@ No. But if you want to experience [!INCLUDE[prod_short](includes/prod_short.md)]
 
 If the account you sign up with is a non-Microsoft 365 work account (such as joe@mysolution.com), and you have a Microsoft 365 subscription, then you can associate your domain (*mysolution.com*) with the Microsoft 365 subscription. For more information, see [What is a domain?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) in the Microsoft 365 content.  
 
-If you do not have a Microsoft 365 subscription, and you do not want to buy one, then, when you sign up, we provision a new Azure Active Directory tenant for you so that you have access to the Azure portal where you have access to advanced administration tools.  
+If you do not have a Microsoft 365 subscription, and you do not want to buy one, then, when you sign up, we provision a new Azure Active Directory tenant for you so that you have access to the advanced administration tools in the Azure portal.  
 
 ## <a name="what-is-the-integration-with-microsoft-365-about"></a>What is the integration with Microsoft 365 about?
 [!INCLUDE[prod_short](includes/prod_short.md)] online is fully integrated with Microsoft 365 so that you can navigate freely between Microsoft 365 apps and [!INCLUDE[prod_short](includes/prod_short.md)] using the app launcher. In [!INCLUDE[prod_short](includes/prod_short.md)], you can open data in Excel, print reports using Word, and you can work with your [!INCLUDE[prod_short](includes/prod_short.md)] data in Outlook, for example. For more information, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as your Business Inbox in Outlook](admin-outlook.md).  
@@ -104,7 +116,7 @@ This is a bit complicated, but it looks like your administrator didn't change yo
 Yes, but depending on how you signed up to [!INCLUDE[prod_short](includes/prod_short.md)], your data can be deleted or preserved. For more information, see [Cancelling [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Can I use multi-factor authentication?
-Sure. If you do, you might need an app password in order to send email messages. App passwords give an app or a device access to your email account. The steps for getting an app password vary, depending on your email provider. For more information, see the help from your provider. For example, if you're using Outlook, see [Multi-factor authentication for Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Sure. If you do, you might need an app password in order to send email messages. App passwords give an app or a device access to your email account. The steps for getting an app password vary, depending on your email provider. For more information, see the help from your provider. For example, if you're using Outlook, see [Multi-factor authentication for Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>How do I find a reselling partner?
 
@@ -116,23 +128,13 @@ If you want guidance from Microsoft, contact the [Microsoft Sales team](https://
 
 Your reselling partner will also handle technical support for you. For more information, see [Resources for Help and Support](product-help-and-support.md).  
 
-## <a name="where-do-i-find-that-line-number"></a>Where do I find that line number?
-
-Documents such as sales order or purchase invoices consist of headers and lines. Each line has a number that [!INCLUDE [prod_short](includes/prod_short.md)] uses to identify this particular line. As a result, you might see a warning or an error message that something is wrong in line number 1000, for example. In the default version of [!INCLUDE [prod_short](includes/prod_short.md)], line numbers are hidden. If you want to see the line numbers, you must personalise the current page and add the **Line No.** field. For more information, see [Personalise Your Workspace](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
-
-## <a name="why-is-new-information-not-available-in-my-language"></a>Why is new information not available in my language?
-
-On the docs.microsoft.com site, content about business functionality is published in a number of languages. The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it is then sent off for translation into the supported languages. This means that you will not be able to read this new content in your own language for up to 4 weeks.  
-
-We understand the problems this can cause, and we encourage users to search for what they are looking for in English if they cannot find it in their own language.  
-
 ## <a name="is-the-windows-client-supported"></a>Is the Windows client supported?
 
 The first releases of [!INCLUDE[prod_short](includes/prod_short.md)] on premises included an installed client derived from Microsoft Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", will no longer be available for [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [FAQ About the Windows Client and Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>See Also
 
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Tell Me FAQ](ui-search-faq.md)  
 [Searching and Filtering FAQ](ui-search-filter-faq.md)  
 [List Views FAQ](ui-views-faq.md)  

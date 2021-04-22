@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.date: 01/12/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2f500d7df80235b8f092fc3f0a7ae8fd27cd8aea
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 0a9f84522598344435ad9c1263fe8cdea2e2a1e0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377630"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785655"
 ---
 # <a name="use-item-cross-references"></a>Use Item Cross References
 If you set up a cross reference between the item description that you use for an item and the description that the vendor of that item uses, then the vendor's item description is automatically inserted on purchase documents for the vendor when you fill in the **Cross-Reference No.** field. The same functionality applies for customer item numbers on sales documents.
