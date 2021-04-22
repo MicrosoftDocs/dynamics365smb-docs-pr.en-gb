@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 1867c609c89970cd661657d60c1e15d857548595
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d9a48ee64f1f7cb0fdc5a80edc69c00db719a666
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382649"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770984"
 ---
 # <a name="united-kingdom-local-functionality"></a>United Kingdom Local Functionality
 
