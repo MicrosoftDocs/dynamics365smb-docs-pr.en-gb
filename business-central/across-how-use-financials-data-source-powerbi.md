@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ee7e6a132f463f35206dd9ac4fe75ce1a41fd40d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a80b6515b8397a275285ae15086a11bad9c35921
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780089"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961509"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data
 
@@ -77,12 +77,16 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 
     The Power BI wizard shows a list of Microsoft [!INCLUDE[prod_short](includes/prod_short.md)] environments, companies, and data sources. These data sources represent all the web services that you've published from [!INCLUDE [prod_short](includes/prod_short.md)].
 6. Specify the data you want to add to your data model, and then choose the **Load** button.
-7. Repeat the previous steps to add additional [!INCLUDE [prod_short](includes/prod_short.md)], or other data, to your Power BI data model.
+7. Repeat the previous steps to add more [!INCLUDE [prod_short](includes/prod_short.md)] data, or other data, to your Power BI data model.
 
 Once the data is loaded, you can see it in the right navigation on the page. At this point, you've successfully connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data, and you can begin building your Power BI report.  
 
 > [!TIP]
 > For more information about using Power BI Desktop, see [Get started with Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
+
+## <a name="creating-accessible-reports"></a>Creating accessible reports
+
+It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaption to meet specific needs of different users. Make sure the design lets users take advantage of standard assistive technologies, like screen readers. Power BI includes various accessibility features, tools, and guidelines to help you achieve this goal. For more information, [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the Power BI documentation.
 
 ## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Creating reports to display data associated with a list
 

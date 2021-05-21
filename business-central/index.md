@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 342d58b58945f9d09da406723ea7dd6c86785482
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3811841784144d1c9dc786f8ae6435bedb5fb1d5
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786280"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017106"
 ---
 # <a name="welcome-to-prod_long"></a>Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -54,7 +54,7 @@ The following sections point to key articles that can help you get familiar with
   - [Finance](finance.md)
   - [Sales](sales-manage-sales.md)
   - [Purchasing](purchasing-manage-purchasing.md)
-  - [Inventory](inventory-manage-inventory.md)
+  - [Stock](inventory-manage-inventory.md)
   - [Project Management](projects-manage-projects.md)
   - [Fixed Assets Overview](fa-manage.md)
   - [Relationship Management](marketing-relationship-management.md)
@@ -102,7 +102,7 @@ You can also view videos of new and commonly used capabilities in our video libr
 [Resources for Help and Support](product-help-and-support.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Compliance](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Online Service Terms](compliance/compliance-service-compliance.md#service-terms)  
-[Major Updates of Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timelime)  
+[Major Updates and Minor Updates of Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Dynamics 365 documentation](/dynamics365/)  
 [Dynamics 365 Business Central on microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
@@ -110,5 +110,6 @@ You can also view videos of new and commonly used capabilities in our video libr
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
+<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

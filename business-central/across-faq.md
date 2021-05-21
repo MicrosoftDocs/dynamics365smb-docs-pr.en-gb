@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: af13192ed4b5ca94d4a01ec913d3c94fd85e5fbc
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776154"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017156"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Frequently Asked Questions about Using Business Central
 
@@ -136,8 +136,8 @@ The first releases of [!INCLUDE[prod_short](includes/prod_short.md)] on premises
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Tell Me FAQ](ui-search-faq.md)  
-[Searching and Filtering FAQ](ui-search-filter-faq.md)  
-[List Views FAQ](ui-views-faq.md)  
+[Searching and Filtering FAQ](ui-search-filter-faq.yml)  
+[List Views FAQ](ui-views-faq.yml)  
 [Changing Language and Locale](about-locale-language.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as Your Business Inbox in Outlook](admin-outlook.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] without Outlook](admin-no-outlook.md)  

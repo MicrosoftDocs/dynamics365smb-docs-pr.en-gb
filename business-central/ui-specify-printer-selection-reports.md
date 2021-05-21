@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 67e6c0fe9a9653d243b7fd221ed004a1f1495ddf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783141"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985419"
 ---
 # <a name="set-up-printers"></a>Set Up Printers
 
@@ -36,11 +36,13 @@ To support your print needs, [!INCLUDE[prod_short](includes/prod_short.md)] offe
 
 Universal Print is a Microsoft 365 subscription-based service that runs entirely on Microsoft Azure. It gives you centralised printer management through the Universal Print portal. [!INCLUDE[prod_short](includes/prod_short.md)] makes printers set up in Universal Print available to client users through the **Universal Print Integration** extension.
 
+![Universal Print setup](media/Universal-Print-arch.png)
+
 The complete setup requires you work in both Microsoft Azure, using the [Azure portal](https://posrtal.azure.com), and in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="supported-printers"></a>Supported printers
 
-[!INCLUDE[prod_short](includes/prod_short.md)] supports the same printers as Universal Print, which can be either Universal Print–compatible or non-compatible printers. Non-compatible printers can't communicate with Universal Print directly, so they require extra connector software, which is provided by Universal Print. Some older printers may not be supported.
+[!INCLUDE[prod_short](includes/prod_short.md)] supports the same printers as Universal Print, which can be either Universal Print–compatible or non-compatible printers. Non-compatible printers can't communicate with Universal Print directly, so they require extra connector software, which is provided by Universal Print. Some older printers may not be supported. 
 
 <!-- TODO If not installed, go to AppSource -->
 

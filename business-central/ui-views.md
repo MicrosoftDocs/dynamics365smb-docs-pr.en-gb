@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b66b9f0e158e7947ebaa3f8835d5ca0ca4531113
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772179"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017081"
 ---
 # <a name="save-and-personalize-list-views"></a>Save and Personalise List Views
 When you have set a filter on a list and you want to keep the filter for later, you can save it as a view. For more information about filtering lists, see [Setting Filters on Lists](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -35,7 +35,7 @@ If views exist, the **Views** group appears at the top of the filter pane. Views
 If you don't give it a name, it will be named **All (Copy)**.
 
 > [!TIP]
-> Not seeing the ![Save View](media/save_view_icon.png "Save View") icon? For more information, see [Why don't I have a Save icon](ui-views-faq.md#save).
+> Not seeing the ![Save View](media/save_view_icon.png "Save View") icon? For more information, see [Why don't I have a Save icon](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>To rename or remove a view
 1. For the view that currently displays the list, choose the ![Show more options](media/show-more-options-icon.png "Show more options") icon to see which options are available.
@@ -45,7 +45,7 @@ If you don't give it a name, it will be named **All (Copy)**.
 As the number of views on a page grows, you may need more control over how views are presented in the filter pane. With the **Personalising** banner, you can hide unwanted views or reorder your views to get the perfect sequence. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
 
 ## <a name="see-also"></a>See Also
-[List Views FAQ](ui-views-faq.md)  
+[List Views FAQ](ui-views-faq.yml)  
 [Personalise Your Workspace](ui-personalization-user.md)    
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Change Basic Settings](ui-change-basic-settings.md)  

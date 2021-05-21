@@ -1,8 +1,6 @@
 ---
-title: Purchase Items or Services for a Job and Manage Supplies| Microsoft Docs
+title: Manage Job Supplies
 description: Describes how to manage the supply and purchase of material and services to jobs.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,17 +10,17 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12068b06bfa725c44232c1dd91a157ef8559f6e0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7e1f6f52a8ef5f7d4620a70c4611ba259dc00c20
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785380"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938178"
 ---
 # <a name="manage-job-supplies"></a>Manage Job Supplies
-Managing project supplies of items, services, and expenses is an integral and critical aspect of the execution of all jobs. You can use inventory quantities or make job-specific purchases using purchase orders or purchase invoices. For example, a service job on a computer requires a new disk. You create a purchase invoice to buy a new disk and record the job that it will be used on.
+Managing project supplies of items, services, and expenses is an integral and critical aspect of the execution of all jobs. You can use stock quantities or make job-specific purchases using purchase orders or purchase invoices. For example, a service job on a computer requires a new disk. You create a purchase invoice to buy a new disk and record the job that it will be used on.
 
-If the purchase process does not require that the physical transaction be recorded separately, then a purchase may be processed on the **Job G/L Journal** page. For more information, see [Record Usage for Jobs](projects-how-record-job-usage.md).
+If the purchase process does not require that the physical transaction be recorded separately, then a purchase may be processed on the **Job G/L Journal** page. For more information, see [To post a job-related expense](projects-how-manage-project-supplies.md#to-post-a-job-related-expense).
 
 ## <a name="to-purchase-items-or-services-for-a-job"></a>To purchase items or services for a job
 The following procedure shows how to use a purchase invoice to purchase products for a job. The same steps apply when using a purchase order.  
@@ -38,7 +36,7 @@ The following procedure shows how to use a purchase invoice to purchase products
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
 2. Open a relevant job card.
 
-    On the **Tasks** FastTab, the **Outstanding Orders** field shows the total outstanding amount, in local currency, of inventory items and services on purchase documents for the job task line.  
+    On the **Tasks** FastTab, the **Outstanding Orders** field shows the total outstanding amount, in local currency, of stock items and services on purchase documents for the job task line.  
 
     The **Amt. Rec. Not Invoiced** field shows the value of items delivered on purchase documents, but not yet invoiced.  
 3. Choose either of the fields to open the **Purchase Lines** page where you can review information about the related purchase document lines, including which items or services have been received.

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 418da0f0e30fb36345508f36e943b68c930e1ca7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ea949363506e9bc0d9bb3a1a4d53937501e8a5bb
+ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770920"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947395"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analyse Data by Dimensions
 In financial analysis, a dimension is data that you can add to an entry as a kind of marker. This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Dimensions can be used on entries in journals, documents, and budgets. The term dimension describes how analysis occurs. A two-dimensional analysis, for example, would be sales per area. However, by using more than two dimensions when creating an entry, you can carry out a more complex analysis, such as sales per sales campaign per customer group per area. For more information, see [Working with Dimensions](finance-dimensions.md).
@@ -26,6 +26,9 @@ Analyzing data by dimensions gives you greater insight into your business, so yo
 
 > [!TIP]
 > As a quick way to analyse transactional data by dimensions, you can filter totals in the chart of accounts and entries in all **Entries** pages by dimensions. Look for the **Set Dimension Filter** action.
+
+> [!NOTE]
+> If you discover that an incorrect dimension has been used on posted general ledger entries, you can correct the dimension values and update your analysis views. For more information, see [Troubleshooting and Correcting Dimensions](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting)
 
 ## <a name="to-set-up-an-analysis-view"></a>To set up an analysis view  
 An analysis by dimensions displays a selected combination of dimensions. You can store and retrieve each analysis you have set up. The information for setting up an analysis is stored on an **Analysis View** card to simplify future analysis.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: bde08ec0b6f970dc65023cfcc7ab3e4021d4d29f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784449"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017256"
 ---
 # <a name="process-sales-opportunities"></a>Process Sales Opportunities
 After you create an opportunity, there are several features for managing the opportunity and moving it through to completion.
@@ -44,7 +44,8 @@ You can close opportunities when the negotiations are over. When closing an oppo
    In the **Close Opportunity Code** field, you can choose from one of the existing close opportunity codes or add a new code. To add a new code, from the drop-down list, choose **Select from full list**, and then choose **new**. On the new blank line, fill in the **Code**, **Type**, and **Description** fields, and then choose the **OK** button.
 
 ## <a name="to-create-quotes-for-opportunities"></a>To create quotes for opportunities
-You can create sales quotes for contacts that are not recorded as customers.
+> [!NOTE]
+> You can only create sales quotes from opportunities where the contact type is Company.
 
 1. On the **Opportunity List** page, select the opportunity, and then choose the **Assign Sales Quote** action. The **Sales Quote** page opens.
 2. Fill in the relevant fields.

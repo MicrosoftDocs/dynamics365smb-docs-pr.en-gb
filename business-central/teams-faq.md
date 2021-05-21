@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 86e540a34efba3fccbc0615cac692fd6c405bee0
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 6980e56f8bda750f9afae9bed6577bb1ab1fec49
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882237"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935218"
 ---
 # <a name="teams-faq"></a>Teams FAQ
 
@@ -162,11 +162,11 @@ Yes. In [!INCLUDE [prod_short.md](includes/prod_short.md)], contacts can be of t
 
 ### <a name="do-contacts-of-any-business-relationship-appear-in-the-results"></a>Do contacts of any business relationship appear in the results?
 
-Yes. Some contacts may represent customers or vendors, or both. Other contacts with no defined business relation typically represent prospective customers. Contacts with other business relations, including any custom relations you've configured in [!INCLUDE [prod_short.md](includes/prod_short.md)], will also be displayed in the search results.
+Yes. Some contacts may represent customers or suppliers, or both. Other contacts with no defined business relation typically represent prospective customers. Contacts with other business relations, including any custom relations you've configured in [!INCLUDE [prod_short.md](includes/prod_short.md)], will also be displayed in the search results.
 
 ### <a name="can-i-look-up-contact-details-during-meetings"></a>Can I look up contact details during meetings?
 
-Yes. You can look up contact information, history of interaction, and related documents for your customer or vendor during a Teams meeting or call while the meeting is happening, without leaving Teams.
+Yes. You can look up contact information, history of interaction, and related documents for your customer or supplier during a Teams meeting or call while the meeting is happening, without leaving Teams.
 
 In fact, you can look up contact details from anywhere in Teams by using the command box. You can, for example, look up contact details from the Teams calendar to help you set up meetings.
 
@@ -182,11 +182,11 @@ From the details window for a contact, find the **Create Interaction** action, a
 
 ### <a name="can-i-call-a-contact-from-the-prod_shortmd-app-for-teams"></a>Can I call a contact from the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams?
 
-[!INCLUDE [prod_short.md](includes/prod_short.md)] has limited integration to Teams calling capabilities. It isn't possible to instantly start a VOIP call from the contact card or contact details window. However, when you view the contact details in the Teams desktop app, you can select the phone number field to dial that number if Teams is set up as your default dialing app on your device. To dial landlines or mobile phone numbers using PSTN, the traditional phone system, Teams requires that you have the Microsoft 365 Business Voice app. To learn more, see [What is Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice).
+[!INCLUDE [prod_short.md](includes/prod_short.md)] has limited integration to Teams calling capabilities. It isn't possible to instantly start a VOIP call from the contact card or contact details window. However, when you view the contact details in the Teams desktop app, you can select the phone number field to dial that number if Teams is set up as your default dialling app on your device. To dial landlines or mobile phone numbers using PSTN, the traditional phone system, Teams requires that you have the Microsoft 365 Business Voice app. To learn more, see [What is Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice).
 
-### <a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a>How do I view recent documents for a customer or vendor?
+### <a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a>How do I view recent documents for a customer or supplier?
 
-[!INCLUDE [prod_short.md](includes/prod_short.md)] typically relates a contact with a customer or vendor record that in turn is related to business transaction records, such as sales quotes or purchase invoices. To view related documents for a contact, go to the details window for the contact, choose the **Business Relation** field value or use the actions to navigate to the associated customer or vendor. On the customer or vendor page, expand the FactBox pane to reveal statistics for various documents that you can drill down into. Your experience may differ based on your customisations and personalisation.
+[!INCLUDE [prod_short.md](includes/prod_short.md)] typically relates a contact with a customer or supplier record that in turn is related to business transaction records, such as sales quotes or purchase invoices. To view related documents for a contact, go to the details window for the contact, choose the **Business Relation** field value or use the actions to navigate to the associated customer or supplier. On the customer or supplier page, expand the FactBox pane to reveal statistics for various documents that you can drill down into. Your experience may differ based on your customisations and personalisation.
 
 ### <a name="how-do-i-search-for-contacts-using-special-characters"></a>How do I search for contacts using special characters?
 
@@ -194,7 +194,7 @@ You can enter search criteria using almost any unicode characters. However, [!IN
 
 ### <a name="how-can-i-search-contacts-stored-in-a-different-company"></a>How can I search contacts stored in a different company?
 
-The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams can search for customers, vendors, and other contacts in one company at a time.  
+The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams can search for customers, suppliers, and other contacts in one company at a time.  
 To search for contacts stored in a different [!INCLUDE [prod_short.md](includes/prod_short.md)] company, open [Settings](across-teams-settings.md), then change the environment and company from there.
 
 ### <a name="are-prod_shortmd-contacts-different-than-the-ones-in-the-teams-contacts-screen"></a>Are [!INCLUDE [prod_short.md](includes/prod_short.md)] contacts different than the ones in the Teams contacts screen?
@@ -230,11 +230,11 @@ Yes. Searching for contacts from Teams is based on [!INCLUDE [prod_short.md](inc
 
 After you sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams for the first time, the app will attempt to determine your preferred company in [!INCLUDE [prod_short.md](includes/prod_short.md)]. If the app can't determine the company, you might have to go to the **Settings** and choose the company you wish to search in. This situation happens, for example, if you have access to multiple companies across environments in your organisation. In this case, you'll have to choose a company before you can start searching.  
 
-The app may also ask you to visit the **Settings** if you don't appear to have a [!INCLUDE [prod_short.md](includes/prod_short.md)] subscription, no [!INCLUDE [prod_short.md](includes/prod_short.md)] environments, or your account doesn't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] licence.
+The app may also ask you to visit the **Settings** if you don't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] subscription, there are no [!INCLUDE [prod_short.md](includes/prod_short.md)] environments, or your account doesn't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] licence.
 
 ### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>I’d like to search for items or records from other tables. Can I do this from Teams?
 
-Searching in other tables isn't possible at this time. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams searches only in the [!INCLUDE [prod_short.md](includes/prod_short.md)] contacts list, which may include vendors, customers, and other contacts.
+Searching in other tables isn't possible at this time. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams searches only in the [!INCLUDE [prod_short.md](includes/prod_short.md)] contacts list, which may include suppliers, customers, and other contacts.
 
 If you'd like to see the search capabilities evolve to include other tables, we encourage our community to add an idea or vote for existing ideas at https://aka.ms/BusinessCentralIdeas.
 
@@ -283,7 +283,7 @@ No. While everyone in the chat or meeting can view the card itself, the details 
 
 ### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Can I start a Teams call from the details window in Teams?
 
-Yes. If you're using the Teams desktop app, start a call by choosing the linked number in a phone number field, like the **Mobile Phone No.** field on the **Contact** card. Teams must be your designated dialing app.
+Yes. If you're using the Teams desktop app, start a call by choosing the linked number in a phone number field, like the **Mobile Phone No.** field on the **Contact** card. Teams must be your designated dialling app.
 
 To call local or international landlines and mobile phones, Teams requires that you have a Business Voice licence for enterprise calling. Also, you must set up Teams as your call solution. To learn more, see [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page) in the Teams documentation.
 

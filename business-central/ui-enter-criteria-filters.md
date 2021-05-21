@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a3d42fccebafdfa80346f04b43a0e3dd29f467d8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770645"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017181"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sorting, Searching, and Filtering
 
@@ -259,7 +259,7 @@ There may be cases where field values contain the one of the following symbols:
 - =
 - &#124;
 
-If you want to filter on any of these symbols, place the filter expression in quotation marks (''). For example, if you wanted to filter on records that start with the text *J & V*, the filter expression would be `'J & V*'`.
+If you want to filter on any of these symbols, place the filter expression in single quotes (`'<expression with symbol>'`). For example, if you wanted to filter on records that start with the text *J & V*, the filter expression would be `'J & V*'`.
 
 This requirement isn't necessary for other symbols.
 
@@ -294,17 +294,17 @@ Use `%myitems` in the item **No** field to display all records for items that ar
 |-----------------------|-----------------------|  
 |`%myitems`|Items in the **My Items** on your Role Centre. |  
 
-#### <a name="myvendors-vendors-in-my-vendors"></a>(%myvendors) Vendors in My Vendors
+#### <a name="myvendors-vendors-in-my-vendors"></a>(%myvendors) Suppliers in My Suppliers
 
-Use `%myvendors` in the vendor **No** field to display all records for vendors that are included in the **My Vendors** list on your Role Centre.
+Use `%myvendors` in the supplier **No** field to display all records for suppliers that are included in the **My Suppliers** list on your Role Centre.
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
-|`%myvendors`|Vendors in the **My Vendors** on your Role Centre. |  
+|`%myvendors`|Suppliers in the **My Suppliers** on your Role Centre. |  
 
 ## <a name="see-also"></a>See Also
 
-[Searching and Filtering FAQ](ui-search-filter-faq.md)  
+[Searching and Filtering FAQ](ui-search-filter-faq.yml)  
 [Save and Personalise List Views](ui-views.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 88b6448587b4888ff33674d5118476ad284f73d0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4b8fbdb89f47a05d4265751fddc10ab208901831
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777352"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935118"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Enabling Power BI Integration With [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -95,7 +95,7 @@ For more information about publishing web services, see [Publish a Web Service](
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

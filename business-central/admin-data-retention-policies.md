@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780064"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935343"
 ---
 # <a name="define-retention-policies"></a>Define Retention Policies
 Administrators can define retention policies to specify how frequently they want [!INCLUDE[prod_short](includes/prod_short.md)] to delete outdated data in tables that contain log entries and archived records. For example, cleaning up log entries can make it easier to work with the data that's actually relevant. Policies can include all data in the tables that is past the expiration date, or you can add filter criteria that will include only certain expired data in the policy. 
@@ -67,7 +67,7 @@ When a developer adds a table, they can specify mandatory and default filters. M
 
 The following are examples of how to add a table to the list of allowed tables with, and without, mandatory or default filters. For a more complex example, see codeunit 3999 "Reten. Pol. Install - BaseApp". 
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ The following are examples of how to add a table to the list of allowed tables w
 
 The following example includes a mandatory filter.
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,9 +98,12 @@ The following example includes a mandatory filter.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
+
 After a developer has added tables to the list, an administrator can include them in a retention policy. 
 
 ## <a name="see-also"></a>See Also
+
+[Analysing Retention Policy Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Auditing Changes in Business Central](across-log-changes.md)  
 [Filtering](ui-enter-criteria-filters.md#filtering)  
 [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  
