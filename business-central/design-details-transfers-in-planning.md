@@ -1,6 +1,6 @@
 ---
 title: Design Details - Transfers in Planning | Microsoft Docs
-description: This topic describes how to use transfer orders as a source of supply when planning inventory levels.
+description: This topic describes how to use transfer orders as a source of supply when planning stock levels.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 64e3a85a4a57a229d23070d7453729b46979d97e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: da7b9e3623f953fca19609702216e8b895d438fb
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785167"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214810"
 ---
 # <a name="design-details-transfers-in-planning"></a>Design Details: Transfers in Planning
 Transfer orders are also a source of supply when working at the SKU level. When using multiple locations (warehouses), the SKU replenishment system can be set to Transfer, implying that the location is replenished by transferring goods from another location. In a situation with more warehouses, companies might have a chain of transfers where supply to GREEN location is transferred from YELLOW, and supply to YELLOW is transferred from RED and so on. In the beginning of the chain, there is a replenishment system of Prod. Order or Purchase.  
@@ -25,21 +25,21 @@ Transfer orders are also a source of supply when working at the SKU level. When 
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-When comparing the situation where a supply order is directly facing a demand order to a situation where the sales order is supplied through a chain of SKU transfers, it is obvious that the planning task in the latter situation can become very complex. If demand changes, it might cause a ripple effect through the chain, because all transfer orders plus the purchase/production order in the opposite end of the chain will have to be manipulated to reestablish balance between demand and supply.  
+When comparing the situation where a supply order is directly facing a demand order to a situation where the sales order is supplied through a chain of SKU transfers, it is obvious that the planning task in the latter situation can become very complex. If demand changes, it might cause a ripple effect through the chain, because all transfer orders plus the purchase/works order in the opposite end of the chain will have to be manipulated to reestablish balance between demand and supply.  
 
 ![Example of supply/demand balance in transfers](media/nav_app_supply_planning_7_transfers2.png "Example of supply/demand balance in transfers")  
 
 ## <a name="why-is-transfer-a-special-case"></a>Why is Transfer a Special Case?  
 A transfer order looks much like any other order in application. However, behind the scene it is very different.  
 
-One fundamental aspect that makes transfers in planning different from purchase and production orders is that a transfer line represents demand and supply at the same time. The outbound part, which is shipped from the old location, is demand. The inbound part, which is to be received at the new location, is supply at that location.  
+One fundamental aspect that makes transfers in planning different from purchase and works orders is that a transfer line represents demand and supply at the same time. The outbound part, which is shipped from the old location, is demand. The inbound part, which is to be received at the new location, is supply at that location.  
 
 ![Content of the Transfer Order page](media/nav_app_supply_planning_7_transfers3.png "Content of the Transfer Order page")  
 
 This means that when the system manipulates the supply side of the transfer, it must make a similar change on the demand side.  
 
 ## <a name="transfers-are-dependent-demand"></a>Transfers are Dependent Demand  
-The related demand and supply has some resemblance with components of a production order line, but the difference is that components will be on the next planning level and with a different item, whereas the two parts of the transfer is situated on the same level, for the same item.  
+The related demand and supply has some resemblance with components of a works order line, but the difference is that components will be on the next planning level and with a different item, whereas the two parts of the transfer is situated on the same level, for the same item.  
 
 An important similarity is that just as components are dependent demand, so is the transfer demand. The demand from a transfer line is dictated by the supply side of the transfer in the sense that if the supply is changed, the demand is directly affected.  
 
@@ -71,7 +71,7 @@ When updating a SKU, the planning system will detect if SKUs with replenishment 
 
 ## <a name="planning-transfers-without-sku"></a>Planning Transfers without SKU  
 
-Even if the SKU feature is not used, it is possible to use locations and make manual transfers between locations. For companies with less advanced warehouse setup, the planning system supports scenarios where existing inventory is transferred manually to another location, for example to cover a sales order at that location. At the same time, the planning system should react to changes in the demand.  
+Even if the SKU feature is not used, it is possible to use locations and make manual transfers between locations. For companies with less advanced warehouse setup, the planning system supports scenarios where existing stock is transferred manually to another location, for example to cover a sales order at that location. At the same time, the planning system should react to changes in the demand.  
 
 To support manual transfers, the planning will analyse existing transfer orders and then plan the order in which the locations should be processed. Internally, the planning system will operate with temporary SKUs carrying transfer level codes.  
 
@@ -140,7 +140,7 @@ The Default Safety Lead Time field in the Manufacturing Setup page and the relat
 
 ![Elements of the transfer due date](media/nav_app_supply_planning_7_transfers14.png "Elements of the transfer due date")  
 
-On the production order line, the Ending Date + Safety Lead Time + Inbound Warehouse Handling Time = Due Date.  
+On the works order line, the Ending Date + Safety Lead Time + Inbound Warehouse Handling Time = Due Date.  
 
 On the purchase order line, the Planned Receipt Date + Safety Lead Time + Inbound Warehouse Handling Time = Expected Receipt Date.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 868915ebe6a41153d59550f74a955a3ce00b4b15
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 2ccecd22db33e3ce734dd5a5d280f45d22bb2751
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882137"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074569"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams
 
@@ -62,7 +62,7 @@ This option is the quickest way to install the app.
 
 ## <a name="next-step"></a>Next step
 
-You're now ready to use the app in Teams to share Business Central data. For more information, see [Working with Business Central Data in Microsoft Teams](across-working-with-teams.md).
+You're now ready to use the app in Teams to search for contacts or share Business Central records. For more information, see [Searching for Customers, Suppliers, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) or [Share Records in Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="see-also"></a>See Also
 

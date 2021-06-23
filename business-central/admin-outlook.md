@@ -1,6 +1,6 @@
 ---
 title: Using Business Central with Outlook| Microsoft Docs
-description: This service has deep integration with Microsoft 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
+description: This service has deep integration with Microsoft 365 enabling you to manage all your business interactions and mail with customers and suppliers directly in Outlook.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ee9587b323fe1b104a85319eba03bfdcfce8c13e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c8746098081a8f0b961f6ab2efd11c491104acc
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777448"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115393"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Using Business Central as your Business Inbox in Outlook
 
-[!INCLUDE[prod_short](includes/prod_short.md)] introduces the ability to manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook add-ins, you can see financial data related to customers and vendors, as well as create and send financial documents, such as quotes and invoices.  
+[!INCLUDE[prod_short](includes/prod_short.md)] introduces the ability to manage business interactions with your customers and suppliers, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook add-ins, you can see financial data related to customers and suppliers, as well as create and send financial documents, such as quotes and invoices.  
 
 ## <a name="getting-the-add-in"></a>Getting the Add-in
 It is easy to get started with the [!INCLUDE[prod_short](includes/prod_short.md)] add-in for Outlook. In the **Set up your Business Inbox in Outlook** assisted setup guide, you can set up the connection for yourself or for your organisation if your organisation uses Microsoft 365. Simply specify your Microsoft 365 user name and password, if you are prompted, and tell us if you want to receive a sample email message. The [!INCLUDE[prod_short](includes/prod_short.md)] add-ins are then automatically added to your Outlook. For more information, see [Minimum Requirements for Outlook](product-requirements.md#outlook).  
@@ -43,7 +43,7 @@ Let's say that you get an email from a customer that wants to get a quote on som
 In the add-in, you can create a sales quote and send it back to this customer without leaving Outlook. All of the information that you need to send the sales quote is available in your business inbox in Outlook.  
 Once you have the data entered, you can post the quote. You can then send it by email. [!INCLUDE[prod_short](includes/prod_short.md)] generates a .PDF file with the sales quote and attaches it to the email message that you draft in the add-in.  
 
-Similarly, if you get an email from a vendor, you can use the add-in to work with vendors and purchase invoices.  
+Similarly, if you get an email from a supplier, you can use the add-in to work with suppliers and purchase invoices.  
 
 Sometimes you want to see more fields than you can see in the add-in, such as when you want to fill in lines in an invoice. To give you a bit more space to work with, you can pop out the add-in to a separate page. It's still part of Outlook, but you have more space. As you enter data for the document in the pop-out view, the changes are automatically saved. When you are done entering data for the document, you can choose the **OK** button. Choosing the add-in frame in Outlook automatically refreshes the document with the changes you made in the pop-out view.  
 
@@ -68,7 +68,7 @@ In both cases, if [!INCLUDE[prod_short](includes/prod_short.md)] is still not av
 
 ## <a name="using-other-email-accounts"></a>Using Other Email Accounts
 
-The add-ins are designed to be used with Microsoft 365. If you use [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, your administrator will know if you can use the [!INCLUDE[prod_short](includes/prod_short.md)] add-ins in Outlook. For more information, see [What email address can I use with [!INCLUDE[prod_short](includes/prod_short.md)]?](across-faq.md#email), and the [Features that require specific circumstances](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) article and the [Why doesn't the Outlook add-in work for my users?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) section in the general FAQ in the administration content.  
+The add-ins are designed to be used with Microsoft 365. If you use [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, your administrator will know if you can use the [!INCLUDE[prod_short](includes/prod_short.md)] add-ins in Outlook. For more information, see [What email address can I use with [!INCLUDE[prod_short](includes/prod_short.md)]?](/dynamics365/business-central/across-faq#email), and the [Features that require specific circumstances](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) article and the [Why doesn't the Outlook add-in work for my users?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) section in the general FAQ in the administration content.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

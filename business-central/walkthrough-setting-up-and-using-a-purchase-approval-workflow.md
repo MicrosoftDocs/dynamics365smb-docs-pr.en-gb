@@ -1,5 +1,5 @@
 ---
-title: Setting Up and Using a Purchase Approval Workflow | Microsoft Docs
+title: Setting Up and Using a Purchase Approval Workflow
 description: You can automate the process of approving new or changed records, such as documents, journal lines, and customer cards, by creating workflows with steps for the approvals in question. Before you create approval workflows, you must set up an approver and substitute approver for each approval user. You can also set approvers' amount limits to define which sales and purchase records they are qualified to approve. Approval requests and other notifications can be sent as email or internal note. For each approval user setup, you can also set up when they receive notifications.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/26/2021
 ms.author: edupont
-ms.openlocfilehash: 11a4bd84395d50a1b39417c5c3abab0dd757e7ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782816"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110986"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Walkthrough: Setting Up and Using a Purchase Approval Workflow
 
@@ -30,11 +30,11 @@ You can automate the process of approving new or changed records, such as docume
 
 This walkthrough illustrates the following tasks:  
 
-- Setting up approval users.  
-- Setting up notifications for approval users.  
-- Modifying and enabling an approval workflow.  
-- Requesting approval of a purchase order, as Alicia.  
-- Receiving a notification and then approving the request, as Sean.  
+- Setting up approval users  
+- Setting up notifications for approval users  
+- Modifying and enabling an approval workflow  
+- Requesting approval of a purchase order, as Alicia  
+- Receiving a notification and then approving the request, as Sean  
 
 ## <a name="story"></a>Story
 
@@ -87,8 +87,8 @@ Create the purchase order approval workflow by copying the steps from the **Purc
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>To create and enable a purchase order approval workflow
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
-2. On the **Workflows** page, choose the **New Workflow from Template** action.  
-3. On the **Workflow Templates** page, select the workflow template named **Purchase Order Approval Workflow**, and then choose the **OK** button.  
+2. On the **Workflows** page, select **Actions**, then select **New**, and then choose the **New Workflow from Template** action.  
+3. On the **Workflow Templates** page, select the workflow template named **Purchase Order Approval Workflow**.  
 
     The **Workflow** page opens for a new workflow containing all the information of the selected template. The value in the **Code** field is extended with *-01* to indicate that this is the first workflow that is created from the **Purchase Order Approval Workflow** workflow template.  
 4. On the header of the **Workflow** page, select the **Enabled** check box.  
@@ -101,8 +101,8 @@ Use the new Purchase Order Approval Workflow workflow by first signing in to [!I
 
 1. Sign in as Alicia.
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
-3. Select the line for open purchase order 106001, and then choose the **Edit** action.  
-4. On the **Purchase Order** page, choose the **Send Approval Request** action.  
+3. Select the line to open Purchase Order 106001.  
+4. On the **Purchase Order** page, choose **Actions**, then **Request Approval**, and then choose the **Send Approval Request** action.  
 
 Notice that the value in the **Status** field has changed to **Pending Approval**.  
 

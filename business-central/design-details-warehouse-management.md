@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 87b3717a8f45444bc43da445d359ed6d79b40372
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7a0576ce3141c9c35933ac78e11c3bfdcb0ba7f8
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786444"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214610"
 ---
 # <a name="design-details-warehouse-management"></a>Design Details: Warehouse Management
 This documentation gives an overview of the concepts and principles that are used in the Warehouse Management features in [!INCLUDE[prod_short](includes/prod_short.md)]. It explains the design behind central warehouse features and how warehousing integrates with other supply chain features.  
@@ -29,7 +29,7 @@ To differentiate the different complexity levels of the warehousing, this docume
 [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)  
 [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
 [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
-[Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
+[Design Details: Integration with Stock](design-details-integration-with-inventory.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

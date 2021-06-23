@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b8f21ea01cd3676320dee3cf6949fdde01b09877
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771217"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074669"
 ---
 # <a name="getting-ready-for-doing-business"></a>Getting Ready for Doing Business
 
 Congratulations, you have just initiated your first company in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-To help you get ready for doing business, you can visit the **Assisted Setup** page where you can launch assisted setup guides, videos, or help topics for selected setup tasks. To access the page, simply choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Assisted Setup** action.
+To help you get ready for doing business, you can visit the **Assisted Setup** page where you can launch assisted setup guides, videos, or help topics for selected setup tasks. To access the page, simply choose [this link](https://businesscentral.dynamics.com/?page=1801).  
 
-Alternatively, to open the list of assisted setup guides for any role, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
+Alternatively, choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Assisted Setup** action.
+
+You can also find the list of assisted setup guides if you choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
@@ -32,7 +34,7 @@ Alternatively, to open the list of assisted setup guides for any role, choose th
 
 Starting with 2021 release wave 1, when you sign in for the first time or launch a new company, the **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-Once you have migrated data, such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if other assisted setup guides on the list can help you.
+Once you have migrated data, such as suppliers, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if other assisted setup guides on the list can help you.
 
 If an area is not covered by an assisted setup, choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Advanced Settings** action. In **Advanced Settings**, the **Manual Setup** section provides access to setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
@@ -53,7 +55,7 @@ Teaching tips are short messages that inform, remind, or teach you about importa
 
 ## <a name="role-specific-home-pages"></a>Role-specific home pages
 
-Depending on your role, the home page provides an overview of the business. At the top, you see a navigation bar that gives you easy access to customers, vendors, items, and so on. In the centre you find the **Activities** tiles. **Activities** show current data and can be clicked or tapped for easy access to the selected document.
+Depending on your role, the home page provides an overview of the business. At the top, you see a navigation bar that gives you easy access to customers, suppliers, items, and so on. In the centre you find the **Activities** tiles. **Activities** show current data and can be clicked or tapped for easy access to the selected document.
 
 The **Key Performance Indicators** can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of **Favourite Customers** on the home page for accounts that you do business with often or need to pay special attention to.
 

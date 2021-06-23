@@ -1,6 +1,6 @@
 ---
-title: How to Print an Inventory Picking List from a Sales Order
-description: You can print an inventory picking list directly from a sales order, sales, invoice, and other outbound sales documents.
+title: Print a Stock Picking List from a Sales Order
+description: You can print an stock picking list directly from a sales order, sales, invoice, and other outbound sales documents.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 705302fac91b29592c26b82d3e64a49bdc001d02
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4cddce48df3be0a3fadaa74ed751b274ccce7f31
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778729"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115468"
 ---
 # <a name="print-the-picking-list"></a>Print the Picking List
-You can print an inventory picking list directly from a sales order, a sales invoice, or any other document that initiates shipment of items.
 
-This report is typically used in companies without dedicated functionality for warehouse management, so that an inventory worker can simply view or print the picking list from the related sales document. In companies with higher volume or more complex processes, picking is planned and performed in dedicated warehouse documents. For more information, see [Pick Items](warehouse-pick-items.md).
+You can print an stock picking list directly from a sales order and other documents that initiate the shipment of items.
 
-## <a name="to-print-a-picking-list-from-a-sales-order"></a>To print a picking list from a sales order  
-The following procedure is based on a sales order. The steps are similar for all sales documents that can be used to initiate shipment of items.
+This report is typically used in companies without dedicated functionality for warehouse management, so that an stock worker can simply view or print the picking list from the related sales document. In companies with higher volume or more complex processes, picking is planned and performed in dedicated warehouse documents. For more information, see [Pick Items](warehouse-pick-items.md).
+
+## <a name="to-print-a-picking-list-from-a-sales-order"></a>To print a picking list from a sales order
+
+The following procedure is based on a sales order. The steps are similar for all other documents that can be used to initiate shipment of items, such as a transfer order.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
 2. Open the sales order that you want to pick items for.  
@@ -35,10 +37,10 @@ You can also save the picking list as a document, for example, to send to someon
 > [!NOTE]
 > If you used the **Explode BOM** function on the sales order, then only the components of the related assembly item are shown in the report. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
 
-## <a name="see-also"></a>See Also  
-[Inventory](inventory-manage-inventory.md)  
-[Pick Items](warehouse-pick-items.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
+## <a name="see-also"></a>See Also
 
+[Stock](inventory-manage-inventory.md)  
+[Pick Items](warehouse-pick-items.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

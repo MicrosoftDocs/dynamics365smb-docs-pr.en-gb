@@ -10,28 +10,28 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e7d15b47124248e27698136fab362e867e81ba47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4e790c33cb10e9e71d8ec6f9482615c41562e379
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782891"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214710"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Walkthrough: Planning Supplies Automatically
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Phrases like "run planning" and "run MRP" refer to the calculation of the master production schedule (MPS) and the material requirements plan (MRP) based on actual and forecasted demand.  
 
 -   MPS is the calculation of a master production schedule based on actual demand and the demand forecast. The MPS calculation is used for end items that have a forecast or a sales order line. These items are called "MPS items" and are identified dynamically when the calculation starts.  
 -   MRP is the calculation of material requirements based on actual demand for components and the demand forecast on the component level. MRP is calculated only for items that are not MPS items. The overall purpose of MRP is to provide time-phased formal plans, by item, to supply the right item at the right time, in the right place, in the right quantity.  
 
- The planning algorithms used for both MPS and MRP are identical. The planning algorithms use netting, reuse of existing supply orders, and action messages. The planning system process examines what is needed or will be needed (demand) and what is available or expected (supply). When these quantities are netted against each other, action messages are displayed in the planning worksheet. Action messages are suggestions to create a new supply order, change a supply order (quantity or date), or cancel an existing supply order. Supply orders can be production orders, purchase orders, and transfer orders. For more information, see [Design Details: Supply Planning](design-details-supply-planning.md).  
+ The planning algorithms used for both MPS and MRP are identical. The planning algorithms use netting, reuse of existing supply orders, and action messages. The planning system process examines what is needed or will be needed (demand) and what is available or expected (supply). When these quantities are netted against each other, action messages are displayed in the planning worksheet. Action messages are suggestions to create a new supply order, change a supply order (quantity or date), or cancel an existing supply order. Supply orders can be works orders, purchase orders, and transfer orders. For more information, see [Design Details: Supply Planning](design-details-supply-planning.md).  
 
  The planning result is calculated partly from the demand-supply sets in the database and partly by the setup of stockkeeping unit cards or item cards, production BOMs, and routings.  
 
 ## <a name="about-this-walkthrough"></a>About This Walkthrough  
- This walkthrough demonstrates how to use the supply planning system to automatically plan all the purchase and production orders required to produce 15 touring bicycles demanded on different sales orders. To provide a clear and realistic walkthrough, the number of planning lines is delimited by filtering out all other demand-supply sets in the CRONUS demonstration company except the sales demand at location EAST.  
+ This walkthrough demonstrates how to use the supply planning system to automatically plan all the purchase and works orders required to produce 15 touring bicycles demanded on different sales orders. To provide a clear and realistic walkthrough, the number of planning lines is delimited by filtering out all other demand-supply sets in the CRONUS demonstration company except the sales demand at location EAST.  
 
  This walkthrough illustrates the following tasks:  
 
@@ -113,7 +113,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 4.  Choose the **OK** button to start the planning run.  
 
-     One planning line is created suggesting that a planned production order be issued to produce the ten touring bikes, item 1001, by 02-05-2021, the shipment date of the sales order.  
+     One planning line is created suggesting that a planned works order be issued to produce the ten touring bikes, item 1001, by 02-05-2021, the shipment date of the sales order.  
 
      Next, verify that this planning line relates to the Cannon Group sales order by using the **Order Tracking** function, which dynamically links demand with its planned supply.  
 
@@ -141,7 +141,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 ## <a name="analyzing-the-planning-result"></a>Analyzing the Planning Result  
  To analyse the suggested quantities, Eduardo drills down on selected planning lines to view order tracking entries and planning parameters.  
 
- On the **Planning Worksheet** page, note in the **Due Date** column that the suggested supply orders are scheduled backward from the due date of the sales order, 02-05-2021. The timeline begins on the top planning line with the production order to produce the finished touring bikes. The timeline ends on the bottom planning line with the purchase order for one of the lowest-level items, 1255, Socket Back, due on 01-30-2021. Like the planning line for item 1251, Axle Back Wheel, this line represents a purchase order for components that are due on the starting date of its produced parent, subassembly item 1250, which in turn is due on 02-03-2014. Throughout the worksheet, you can see that all underlying items are due on the starting date of their parents.  
+ On the **Planning Worksheet** page, note in the **Due Date** column that the suggested supply orders are scheduled backward from the due date of the sales order, 02-05-2021. The timeline begins on the top planning line with the works order to produce the finished touring bikes. The timeline ends on the bottom planning line with the purchase order for one of the lowest-level items, 1255, Socket Back, due on 01-30-2021. Like the planning line for item 1251, Axle Back Wheel, this line represents a purchase order for components that are due on the starting date of its produced parent, subassembly item 1250, which in turn is due on 02-03-2014. Throughout the worksheet, you can see that all underlying items are due on the starting date of their parents.  
 
  The planning line for item 1300, Chain Assy, suggests ten pieces. This deviates from the five pieces that we expect to need to fulfill the sales order. Proceed to view the order tracking entries.  
 
@@ -168,7 +168,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 1.  Select the planning line for item 1110, Rim, and then choose the **Order Tracking** action.  
 
-     The **Order Tracking** page shows that five rims are needed for each production order for front and back wheels respectively.  
+     The **Order Tracking** page shows that five rims are needed for each works order for front and back wheels respectively.  
 
      The same order tracking applies to the planning lines for items 1120, 1160, and 1170. For item 1120, the **Quantity per** field on the production BOM of each wheel item is 50 PCS, which result in a total need of 100.  
 
@@ -195,7 +195,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 2.  Choose the **Carry Out Action Message** action.  
 3.  On the **Carry Out Action Msg.-Plan.** page, fill in the fields as described in the following table.  
 
-    |Production Order|Purchase Order|Transfer Order|  
+    |Works Order|Purchase Order|Transfer Order|  
     |----------------------|--------------------|--------------------|  
     |Firm Planned|Make Purch. Orders|Make Trans. Orders|  
 
@@ -207,7 +207,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 ## <a name="creating-a-net-change-plan"></a>Creating a Net Change Plan  
  The next day, before any supply orders are started or posted, a new sales order arrives from Libros S.A. for ten touring bikes to be shipped on 02-12-2021. Eduardo is notified of the new demand, and he proceeds to replan in order to adjust the current supply plan. Eduardo uses the Net Change Plan function to calculate only the changes that are made to demand or supply since the last planning run. In addition, he expands the planning period to 02-14-2021 to include the new sales demand on 02-12-2014.  
 
- The planning system calculates the best way to cover the demand for these two identical products, such as to consolidate some purchase and production orders, reschedule other orders, and create new orders where it is required.  
+ The planning system calculates the best way to cover the demand for these two identical products, such as to consolidate some purchase and works orders, reschedule other orders, and create new orders where it is required.  
 
 ### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>To create the new sales demand and replan accordingly  
 
@@ -232,9 +232,9 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
  A total of 14 planning lines are created. Notice in the first planning line that the **Action Message** field contains **New**, the **Quantity** field 10, and the **Due Date** field 02-12-21. This new line for the top parent item, 1001, Touring Bike, is created because the item uses a reordering policy of **Order**, which means that it must be supplied in a one-to-one relationship to its demand, the sales order of ten pieces.  
 
- The next two planning lines are the production orders for touring bike wheels. Each existing order of five, in the **Original Quantity** field, is increased to 15, in the **Quantity** field. Both production orders have unchanged due dates, as indicated in the **Action Message** field that contains **Change Qty.** This is also the case for the planning line for item 1300, except its order multiple of 10.00 rounds the tracked demand for 15 pieces up to the 20.  
+ The next two planning lines are the works orders for touring bike wheels. Each existing order of five, in the **Original Quantity** field, is increased to 15, in the **Quantity** field. Both works orders have unchanged due dates, as indicated in the **Action Message** field that contains **Change Qty.** This is also the case for the planning line for item 1300, except its order multiple of 10.00 rounds the tracked demand for 15 pieces up to the 20.  
 
- All other planning lines have an action message of **Resched. & Chg. Qty.**. This means that apart from being increased in quantity, the due dates are moved in relation to the supply plan to include the extra quantity in the available production time (capacity). Purchased components are rescheduled and increased to supply the production orders. Proceed to analyse the new plan.  
+ All other planning lines have an action message of **Resched. & Chg. Qty.**. This means that apart from being increased in quantity, the due dates are moved in relation to the supply plan to include the extra quantity in the available production time (capacity). Purchased components are rescheduled and increased to supply the works orders. Proceed to analyse the new plan.  
 
 ## <a name="analyzing-the-changed-planning-result"></a>Analysing the Changed Planning Result  
  Because all lot-for-lot-planned items within the filter, 1100 to 1300, have a rescheduling period of two weeks, their existing supply orders are all modified to meet the new demand, which occurs within the specified two weeks.  
@@ -259,13 +259,13 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 1.  In the planning line for item 1250, choose the **Ref. Order No.** field.  
 2.  On the **Firm Planned Prod. Order** page for the Back Hub. The existing order for ten pieces, which you created in the first planning run, opens.  
-3.  Close the firm planned production order.  
+3.  Close the firm planned works order.  
 
  This completes the walkthrough of how the planning system is used to automatically detect demand, calculate the appropriate supply orders according to demand and planning parameters, and then automatically create different types of supply orders with the appropriate dates and quantities.  
 
 ## <a name="see-also"></a>See Also  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   
+<!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
  [Design Details: Supply Planning](design-details-supply-planning.md)
 
 

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 04/09/2021
-ms.openlocfilehash: 0487bd06f6a28313e90d6353aecf123a7fc3a708
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 8f3a5d39cfd9e28233055d902852151581e53e5e
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882262"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115418"
 ---
 # <a name="resources-for-help-and-support"></a>Resources for Help and Support
 
@@ -78,7 +78,7 @@ As the internal administrator, you have access to the administration centre wher
 Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner will help you with technical support. This section makes it easy for you to contact your reselling partner, if they have submitted their support contact details. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft. For more information, see [Escalating support issues to Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in the administration content.  
 
 > [!NOTE]
-> This section is only available if you have paid for a [!INCLUDE[prod_short](includes/prod_short.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prod_short](includes/prod_short.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team. You can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner).  
+> This section is only available if you have paid for a [!INCLUDE[prod_short](includes/prod_short.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prod_short](includes/prod_short.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team. You can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner).  
 
 ### <a name="support-contacts"></a>Support contacts
 
@@ -163,7 +163,7 @@ The same applies if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-p
 ## <a name="see-also"></a>See Also
 
 [Business Central Learning Catalogue](readiness/readiness-learning-catalog.md)  
-[How do I find a reselling partner?](across-faq.md#findpartner)  
+[How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner)  
 [Help System (available in English only)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blog post: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Business Central developer and administration docs](/dynamics365/business-central/dev-itpro/)  

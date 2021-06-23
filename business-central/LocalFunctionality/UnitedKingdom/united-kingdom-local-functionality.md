@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: d9a48ee64f1f7cb0fdc5a80edc69c00db719a666
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca3a7d597d8b13583aa201e2229b017cf951bf48
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770984"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115481"
 ---
 # <a name="united-kingdom-local-functionality"></a>United Kingdom Local Functionality
 
@@ -42,7 +42,6 @@ The following topics describe local functionality that is unique to the United K
     * [Enter Statutory Information](how-to-enter-statutory-information.md) **Available Now**
     * [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md) **Available Now**
     * [Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md) **Available Now**
-    * [Enter External Document Numbers](how-to-enter-external-document-numbers.md) **Available Now**
 
 ## <a name="see-also"></a>See Also
 

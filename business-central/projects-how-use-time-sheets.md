@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, capacity, staff, resource
+ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 53e12d6f51d395cfd1feb26fe079fe5df28f866b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 279eb576e60f324d04e3c2dd58ba57e4e7ca68b8
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780364"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184356"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Use Time Sheets for Jobs
 
@@ -69,7 +69,7 @@ If your time sheet information remains the same from time period to time period,
 The lines are copied, including details such as type and description. For example, if the line is related to a job, the **Job No.** is copied. All copied lines have the status **Open**. You can now modify the lines as needed.
 
 ## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>To fill in a time sheet lines and submit for approval
-Time sheet registration is tracked in hours, the standard base unit of measure for resources. By default, a time sheet shows the common work days of Monday through Friday.
+Time sheet registration is tracked in hours, the standard base unit of measurement for resources. By default, a time sheet shows the common work days of Monday through Friday.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.  
 2. Select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.  

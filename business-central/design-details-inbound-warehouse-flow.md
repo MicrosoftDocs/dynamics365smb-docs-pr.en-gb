@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 67c93eddcb84c3cf87edb6f407cea7af5aecda59
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c2a78d585f949922e9f05e42a6ab61dcd7adc521
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770548"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215185"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Design Details: Inbound Warehouse Flow
 The inbound flow in a warehouse begins when items arrive in the warehouse of the company location, either received from external sources or from another company location. An employee registers the items, typically by scanning a bar code. From the receiving dock, warehouse activities are performed at different complexity levels to bring the items into the storage area.  
@@ -28,7 +28,7 @@ The inbound flow in a warehouse begins when items arrive in the warehouse of the
 
 In addition, the following internal source documents exist that function like inbound sources:  
 
-- Production order with output posting  
+- Works order with output posting  
 - Assembly order with output posting  
 
 The last two represent inbound flows to the warehouse from internal operation areas. For more information about warehouse handling for internal inbound and outbound processes, see [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md).  
@@ -40,30 +40,30 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], the inbound processes of rece
 |Method|Inbound Process|Bins|Receipts|Put-aways|Complexity Level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
 |A|Post receipt and put-away from the order line|X|||2|  
-|B|Post receipt and put-away from an inventory put-away document|||X|3|  
+|B|Post receipt and put-away from an stock put-away document|||X|3|  
 |C|Post receipt and put-away from a warehouse receipt document||X||4/5/6|  
 |D|Post receipt from a warehouse receipt document and post put-away from a warehouse put-away document||X|X|4/5/6|  
 
 Selecting an approach depends on the company's accepted practices and the level of their organisational complexity. In an order-by-order warehouse environment, where most of the warehouse staff works directly with order documents, a company might decide to use method A. An order-by-order warehouse that has a more complex put-away process, or where there are dedicated warehouse staff to perform warehousing functions, might decide to separate their put-away functions from the order document, method B. Additionally, companies that need to plan the handling of multiple orders may find it helpful to use warehouse receipt documents, methods C and D.  
 
-In methods A, B, and C, the actions of receiving and putting away are combined in one step when posting the corresponding documents as received. In method D, the receipt is posted first to recognise the increase of inventory and that items are available for sale. The warehouse worker then registers the put-away to make items available to pick.  
+In methods A, B, and C, the actions of receiving and putting away are combined in one step when posting the corresponding documents as received. In method D, the receipt is posted first to recognise the increase of stock and that items are available for sale. The warehouse worker then registers the put-away to make items available to pick.  
 
 ## <a name="basic-warehouse-configurations"></a>Basic Warehouse Configurations  
 The following diagram illustrates the inbound warehouse flows by document type in basic warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
 ![Inbound flow in basic warehouse configurations](media/design_details_warehouse_management_inbound_basic_flow.png "Inbound flow in basic warehouse configurations")  
 
-### <a name="1-release-source-document--create-inventory-put-away"></a>1: Release Source Document / Create Inventory Put-Away  
-When items are received in the warehouse, the user who is responsible for receiving releases the source document, such as a purchase order or an inbound transfer order, to signal to warehouse workers that the received items can be put away in inventory. Alternatively, the user creates inventory put-away documents for individual order lines, in a push fashion, based on specified bins and quantities to handle.  
+### <a name="1-release-source-document--create-inventory-put-away"></a>1: Release Source Document / Create Stock Put-Away  
+When items are received in the warehouse, the user who is responsible for receiving releases the source document, such as a purchase order or an inbound transfer order, to signal to warehouse workers that the received items can be put away in stock. Alternatively, the user creates stock put-away documents for individual order lines, in a push fashion, based on specified bins and quantities to handle.  
 
 ### <a name="2-create-inbound-request"></a>2: Create Inbound Request  
 When the inbound source document is released, an inbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
 
-### <a name="3-create-inventory-put-away"></a>3: Create Inventory Put-Away  
-On the **Inventory Put-away** page, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on inbound warehouse requests. Alternatively, the inventory put-away lines are already created, in a push fashion, by the user who is responsible for the source document.  
+### <a name="3-create-inventory-put-away"></a>3: Create Stock Put-Away  
+On the **Stock Put-away** page, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on inbound warehouse requests. Alternatively, the stock put-away lines are already created, in a push fashion, by the user who is responsible for the source document.  
 
-### <a name="4-post-inventory-put-away"></a>4: Post Inventory Put-Away  
-On each line for items that have been put away, partially or fully, the warehouse worker fills in the **Quantity** field, and then posts the inventory put-away. Source documents that are related to the inventory put-away are posted as received.  
+### <a name="4-post-inventory-put-away"></a>4: Post Stock Put-Away  
+On each line for items that have been put away, partially or fully, the warehouse worker fills in the **Quantity** field, and then posts the stock put-away. Source documents that are related to the stock put-away are posted as received.  
 
 Positive item ledger entries are created, warehouse entries are created, and the put-away request is deleted, if fully handled. For example, the **Quantity Received** field on the inbound source document line is updated. A posted receipt document is created that reflects the purchase order, for example, and the received items.  
 
@@ -73,7 +73,7 @@ The following diagram illustrates the inbound warehouse flow by document type in
 ![Inbound flow in advanced warehouse configurations](media/design_details_warehouse_management_inbound_advanced_flow.png "Inbound flow in advanced warehouse configurations")  
 
 ### <a name="1-release-source-document"></a>1: Release Source Document  
-When items are received in the warehouse, the user who is responsible for receiving releases the source document, such as a purchase order or an inbound transfer order, to signal to warehouse workers that the received items can be put away in inventory.  
+When items are received in the warehouse, the user who is responsible for receiving releases the source document, such as a purchase order or an inbound transfer order, to signal to warehouse workers that the received items can be put away in stock.  
 
 ### <a name="2-create-inbound-request"></a>2: Create Inbound Request  
 When the inbound source document is released, an inbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
@@ -90,7 +90,7 @@ The user posts the warehouse receipt. Positive item ledger entries are created. 
 The user who is responsible for putting away from internal operations creates a warehouse internal put-away for items that have to be put away in the warehouse, such as production or assembly output. The user specifies quantity, zone, and bin from where the items should be put away, potentially with the **Get Bin Content** function. The user releases the warehouse internal put-away, which creates an inbound warehouse request so that the task can be retrieved in warehouse put-away documents or in the put-away worksheet.  
 
 ### <a name="6-create-put-away-request"></a>6: Create Put-away Request  
-When the inbound source document is posted, a warehouse put-away request is created automatically. It contains references to the source document type and number and is not visible to the user. Depending on the setup, output from a production order also creates a put-away request to put the finished items away in inventory.  
+When the inbound source document is posted, a warehouse put-away request is created automatically. It contains references to the source document type and number and is not visible to the user. Depending on the setup, output from a works order also creates a put-away request to put the finished items away in stock.  
 
 ### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Generate Put-away Worksheet Lines (Optional)  
 The user who is responsible for coordinating put-aways retrieves warehouse put-away lines in the **Put-away Worksheet** based on posted warehouse receipts or internal operations with output. The user selects the lines to be put-away and prepares the put-aways by specifying which bins to take from, which bins to place in, and how many units to handle. The bins may be predefined by the setup of the warehouse location or operation resource.  

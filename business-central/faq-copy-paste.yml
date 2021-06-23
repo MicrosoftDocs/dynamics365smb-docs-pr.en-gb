@@ -2,12 +2,12 @@
 metadata:
   title: Copy and paste data FAQ
   description: Get answers to frequently asked questions about copying and pasting data from fields and rows from Business Central pages.
-  ms.openlocfilehash: 41f92191cf00ff7cbf0a3be2d0902bb9386efc56
-  ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+  ms.openlocfilehash: e52c60da284ba8144975c88b138ca4e7218fa2ab
+  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
   ms.translationtype: HT
   ms.contentlocale: en-GB
-  ms.lasthandoff: 03/31/2021
-  ms.locfileid: "5775582"
+  ms.lasthandoff: 05/28/2021
+  ms.locfileid: "6115750"
 title: Copy and Paste FAQ
 summary: "You can copy one or more rows (records) from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email).  \n\nIn short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS). There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows). This article answers common questions you might have about copying and pasting.  \n"
 sections:
@@ -72,4 +72,4 @@ sections:
   - question: Why do I get errors when pasting rows?
     answer: >
       When pasting into [!INCLUDE[prod_short](includes/prod_short.md)], each row is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid values before you paste them.
-additionalContent: "## <a name=\"next-steps\"></a>Next steps\nFind related information here: \n  - [Assistive Features](ui-accessibility.md)  \n  - [Getting Ready for Doing Business](ui-get-ready-business.md)  \n  - [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Frequently Asked Questions](across-faq.md)"
+additionalContent: "## <a name=\"next-steps\"></a>Next steps\nFind related information here: \n  - [Assistive Features](ui-accessibility.md)  \n  - [Getting Ready for Doing Business](ui-get-ready-business.md)  \n  - [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Frequently Asked Questions](across-faq.yml)"
