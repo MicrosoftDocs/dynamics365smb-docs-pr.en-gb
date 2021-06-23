@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab3929a410a280494d806e7aeea5c54ce966769e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bed73380344c0900a00d6d704ee2d853a1bf165d
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787984"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216237"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Plan for New Demand Order by Order
 This planning task can be performed on the **Order Planning** page, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.  
@@ -23,12 +23,12 @@ This planning task can be performed on the **Order Planning** page, which displa
 You can enter the **Order Planning** page in two ways depending on your focus: From an order that you want to plan for specifically or in batch mode because you want to plan for all and any new demand.  
 
 
-## <a name="to-plan-for-new-production-order-demand"></a>To plan for new production order demand  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Production Orders**, and then choose the related link. (You can perform these steps for planned, firm planned, or released production orders).
-2.  Open the production order you want to plan for, and then choose the **Planning** action.  
+## <a name="to-plan-for-new-production-order-demand"></a>To plan for new works order demand  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Works Orders**, and then choose the related link. (You can perform these steps for planned, firm planned, or released works orders).
+2.  Open the works order you want to plan for, and then choose the **Planning** action.  
 3.  On the **Order Planning** page, choose the **Calculate Plan** action.  
 
-The page displays planning lines according to the view filter **Production Demand**, meaning unfulfilled component lines of all existing production orders. Demand for only the one production order is not shown because it is necessary to plan for one production order with an overview of demand for potentially earlier components lines. Planning lines for the production order in context are expanded.  
+The page displays planning lines according to the view filter **Production Demand**, meaning unfulfilled component lines of all existing works orders. Demand for only the one works order is not shown because it is necessary to plan for one works order with an overview of demand for potentially earlier components lines. Planning lines for the works order in context are expanded.  
 
 ## <a name="to-plan-for-any-new-demand"></a>To plan for any new demand  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning**, and then choose the related link.  
@@ -51,7 +51,7 @@ The page displays planning lines according to the view filter **Production Deman
     |----------------------------------|---------------------------------------|  
     |**Purchase**|Creates a purchase order.|  
     |**Transfer**|Creates a transfer order.|  
-    |**Prod. Order**|Creates a production order.|  
+    |**Prod. Order**|Creates a works order.|  
 
     In the **Supply From** field you must select a value according to the selected replenishment system.  
 
@@ -60,7 +60,7 @@ The page displays planning lines according to the view filter **Production Deman
 
 6.  From the **Supply From** field, you can look up in the relevant list and select where the supply should come from:  
 
-    - If replenishment system is **Purchase**, the look-up button in this field looks up on the **Item Vendor Catalogue** page.  
+    - If replenishment system is **Purchase**, the look-up button in this field looks up on the **Item Supplier Catalogue** page.  
     - If replenishment system is **Transfer**, the look-up button in this field looks up on the **Location List** page.  
 
     In case the item exists in another location, the **Qty. on Other Location** field at the bottom shows a value and you can then look up and select the location from which the item should be supplied when you make the transfer order.  
@@ -83,8 +83,8 @@ The page displays planning lines according to the view filter **Production Deman
 >   If you enter a date later than the demand date, you will receive a warning message.  
 
 ## <a name="to-make-supply-orders"></a>To make supply orders  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Production Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released production order.  
-2.  Open the production order you want to plan for, and then choose the **Planning** action.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Works Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released works order.  
+2.  Open the works order you want to plan for, and then choose the **Planning** action.  
 3.  Place the cursor on a relevant planning line, and then choose the **Make Orders** action.  
 4.  On the **Make Supply Orders** page, on the **Order Planning** FastTab, in the **Make Orders for** field, select one of the following options.  
 
@@ -106,14 +106,14 @@ You have now planned for the unfulfilled demand by making respective supply orde
 When you have finished your planning work on the **Order Planning** page, for example defined an alternative way to supply the quantity, you can proceed to create supply orders for one or more of the planning lines.  
 
 > [!NOTE]  
->  The supply orders you create may introduce new dependent demand, for example for underlying production orders, and you should therefore choose **Calculate Plan** again to find and resolve this before moving down the list.  
+>  The supply orders you create may introduce new dependent demand, for example for underlying works orders, and you should therefore choose **Calculate Plan** again to find and resolve this before moving down the list.  
 
 ## <a name="see-also"></a>See Also  
-[Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)  
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
-[Inventory](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  

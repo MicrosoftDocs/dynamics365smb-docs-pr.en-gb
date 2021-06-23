@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 180ed162e8137de0331fb75aa1be84c3e79514a5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 184591134706432ed1ea04afa86e1274b748cfe0
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775632"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215510"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Design Details: Availability in the Warehouse
 The system must keep a constant control of item availability in the warehouse, so that outbound orders can flow efficiently and provide optimal deliveries.  
 
-Availability varies depending on allocations at the bin level when warehouse activities such as picks and movements occur and when the inventory reservation system imposes restrictions to comply with. A rather complex algorithm verifies that all conditions are met before allocating quantities to picks for outbound flows.
+Availability varies depending on allocations at the bin level when warehouse activities such as picks and movements occur and when the stock reservation system imposes restrictions to comply with. A rather complex algorithm verifies that all conditions are met before allocating quantities to picks for outbound flows.
 
 If one or more conditions are not met, different error messages can be shown, including the generic "Nothing to handle." message. The "Nothing to handle." message can occur for many different reasons, both in outbound and inbound flows, where a directly or indirectly involved document line contains the **Qty. to Handle** field.
 
@@ -28,7 +28,7 @@ If one or more conditions are not met, different error messages can be shown, in
 > Information will soon be published here about possible reasons and solutions for the "Nothing to handle." message.
 
 ## <a name="bin-content-and-reservations"></a>Bin Content and Reservations  
- In any installation of warehouse management, item quantities exist both as warehouse entries, in the Warehouse application area, and as item ledger entries, in the Inventory application area. These two entry types contain different information about where items exist and whether they are available. Warehouse entries define an item’s availability by bin and bin type, which is called bin content. Item ledger entries define an item’s availability by its reservation to outbound documents.  
+ In any installation of warehouse management, item quantities exist both as warehouse entries, in the Warehouse application area, and as item ledger entries, in the Stock application area. These two entry types contain different information about where items exist and whether they are available. Warehouse entries define an item’s availability by bin and bin type, which is called bin content. Item ledger entries define an item’s availability by its reservation to outbound documents.  
 
  Special functionality in the picking algorithm exists to calculate the quantity that is available to pick when bin content is coupled with reservations.  
 
@@ -52,7 +52,7 @@ If one or more conditions are not met, different error messages can be shown, in
 ## <a name="quantity-available-to-reserve"></a>Quantity Available to Reserve  
  Because the concepts of bin content and reservation co-exist, the quantity of items that are available to reserve must be aligned with allocations to outbound warehouse documents.  
 
- It should be possible to reserve all items in inventory, except those that have started outbound processing. Accordingly, the quantity that is available to reserve is defined as the quantity on all documents and all bin types, except the following outbound quantities:  
+ It should be possible to reserve all items in stock, except those that have started outbound processing. Accordingly, the quantity that is available to reserve is defined as the quantity on all documents and all bin types, except the following outbound quantities:  
 
 -   Quantity on unregistered pick documents  
 -   Quantity in shipment bins  
@@ -68,7 +68,7 @@ If one or more conditions are not met, different error messages can be shown, in
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Calculating the Quantity Available to Reserve  
  The quantity available to reserve is calculated as follows:  
 
- quantity available to reserve = total quantity in inventory - quantity on picks and movements for source documents - reserved quantity - quantity in outbound bins  
+ quantity available to reserve = total quantity in stock - quantity on picks and movements for source documents - reserved quantity - quantity in outbound bins  
 
  The following diagram shows the different elements of the calculation.  
 

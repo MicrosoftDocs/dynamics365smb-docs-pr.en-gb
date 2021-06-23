@@ -1,6 +1,6 @@
 ---
 title: open item ledger entries
-description: Learn why the inventory level is zero although open item ledger entries exist.
+description: Learn why the stock level is zero although open item ledger entries exist.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: eae170b356c6bb6c41757aca88f9160df1657901
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: febd7b4ff379d064f392eb55b7868697a59aacf5
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786714"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215935"
 ---
 # <a name="design-details-known-item-application-issue"></a>Design Details: Known Item Application Issue
-This article addresses an issue where the inventory level is zero although open item ledger entries exist in  [!INCLUDE[prod_short](includes/prod_short.md)].  
+This article addresses an issue where the stock level is zero although open item ledger entries exist in  [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 The article starts by listing typical symptoms of the issue, followed by the basics of item application to support the described reasons for this issue. At the end of the article is a workaround to address such open item ledger entries.  
 
 ## <a name="symptoms-of-the-issue"></a>Symptoms of the Issue  
- Typical symptoms of the issue with zero inventory although open item ledger entries exist are the following:  
+ Typical symptoms of the issue with zero stock although open item ledger entries exist are the following:  
 
--   The following message when you try to close an inventory period: “The inventory cannot be closed because there is negative inventory for one or more items.”  
+-   The following message when you try to close an stock period: “The stock cannot be closed because there is negative stock for one or more items.”  
 
 -   An item ledger entry situation where both an outbound item ledger entry and its related inbound item ledger entry are open.  
 
@@ -37,7 +37,7 @@ The article starts by listing typical symptoms of the issue, followed by the bas
      |334|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|1|10|1|1|Yes|  
 
 ## <a name="basics-of-item-application"></a>Basics of Item Application  
- An item application entry is created for every inventory transaction to link the cost recipient to its cost source so that the cost can be forwarded according to the costing method. For more information, see [Design Details: Item Application](design-details-item-application.md).  
+ An item application entry is created for every stock transaction to link the cost recipient to its cost source so that the cost can be forwarded according to the costing method. For more information, see [Design Details: Item Application](design-details-item-application.md).  
 
 -   For an inbound item ledger entry, the item application entry is created when the item ledger entry is created.  
 
@@ -50,7 +50,7 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 -   Cost Application  
 
 ### <a name="quantity-application"></a>Quantity Application  
- Quantity applications are made for all inventory transactions and are created automatically, or manually in special processes. When made manually, quantity applications are referred to as fixed application.  
+ Quantity applications are made for all stock transactions and are created automatically, or manually in special processes. When made manually, quantity applications are referred to as fixed application.  
 
  The following diagram shows how quantity applications are made.  
 
@@ -62,7 +62,7 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 >  If the outbound item ledger entry is valued by average cost, then the applied inbound item ledger entry is not the unique cost source. It merely plays a part in the calculation of the average cost of the period.  
 
 ### <a name="cost-application"></a>Cost Application  
-Cost applications are only created for inbound transactions where the **Appl.-from Item Entry** field is filled to provide a fixed application. This typically happens in connection with a sales credit memo or an undo shipment scenario. The cost application ensures that the item re-enters inventory with the same cost as when it was shipped.  
+Cost applications are only created for inbound transactions where the **Appl.-from Item Entry** field is filled to provide a fixed application. This typically happens in connection with a sales credit memo or an undo shipment scenario. The cost application ensures that the item re-enters stock with the same cost as when it was shipped.  
 
 The following diagram shows how cost applications are made.  
 
@@ -83,7 +83,7 @@ The following diagram shows how cost applications are made.
  Notice above that the cost is forwarded to item ledger entry 2 (Sale), then to item ledger entry 3 (Sales Return), and finally to item ledger entry 4 (Sale 2).  
 
 ## <a name="reasons-for-the-issue"></a>Reasons for the Issue  
- The issue with zero inventory although open item ledger entries exist can be caused by the following scenarios:  
+ The issue with zero stock although open item ledger entries exist can be caused by the following scenarios:  
 
 -   Scenario 1: A shipment and invoice is posted although the item is not available. The posting is then exact-cost reversed with a sales credit memo.  
 
@@ -144,13 +144,13 @@ The following diagram shows how cost applications are made.
 
 -   A negative adjustment with the same quantity.  
 
-     This adjustment balances the inventory increase caused by the positive adjustment and closes the open inbound item ledger entry.  
+     This adjustment balances the stock increase caused by the positive adjustment and closes the open inbound item ledger entry.  
 
- The result is that inventory is zero and all item ledger entries are closed.  
+ The result is that stock is zero and all item ledger entries are closed.  
 
 ## <a name="see-also"></a>See Also  
 [Design Details: Item Application](design-details-item-application.md)   
-[Design Details: Inventory Costing](design-details-inventory-costing.md)  
+[Design Details: Stock Costing](design-details-inventory-costing.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

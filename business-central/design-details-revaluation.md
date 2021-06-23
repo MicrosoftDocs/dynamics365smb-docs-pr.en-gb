@@ -1,6 +1,6 @@
 ---
 title: Design Details - Revaluation | Microsoft Docs
-description: You can revalue the inventory based on the valuation base that most accurately reflects the inventory value. You can also backdate a revaluation, so that the cost of goods sold (COGS) is correctly updated for items that have already been sold. Items using the Standard costing method that have not been completely invoiced can also be revalued.
+description: You can revalue the stock based on the valuation base that most accurately reflects the stock value. You can also backdate a revaluation, so that the cost of goods sold (COGS) is correctly updated for items that have already been sold. Items using the Standard costing method that have not been completely invoiced can also be revalued.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,38 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 1293368dd96a08ba3edff3110881435a11f52fbe
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a052f726169fde9e09e83aeb690169580eaee948
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782360"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215785"
 ---
 # <a name="design-details-revaluation"></a>Design Details: Revaluation
-You can revalue the inventory based on the valuation base that most accurately reflects the inventory value. You can also backdate a revaluation, so that the cost of goods sold (COGS) is correctly updated for items that have already been sold. Items using the Standard costing method that have not been completely invoiced can also be revalued.  
+You can revalue the stock based on the valuation base that most accurately reflects the stock value. You can also backdate a revaluation, so that the cost of goods sold (COGS) is correctly updated for items that have already been sold. Items using the Standard costing method that have not been completely invoiced can also be revalued.  
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], the following flexibility is supported regarding revaluation:  
 
 -   The revaluable quantity can be calculated for any date, also back in time.  
 -   For items using Standard costing method, expected cost entries are included in revaluation.  
--   Inventory decreases affected by revaluation are detected.  
+-   Stock decreases affected by revaluation are detected.  
 
 ## <a name="calculating-the-revaluable-quantity"></a>Calculating the Revaluable Quantity  
- The revaluable quantity is the remaining quantity on inventory that is available for revaluation on a given date. It is calculated as the sum total of the quantities of completely invoiced item ledger entries that have a posting date equal to or earlier than the revaluation posting date.  
+ The revaluable quantity is the remaining quantity on stock that is available for revaluation on a given date. It is calculated as the sum total of the quantities of completely invoiced item ledger entries that have a posting date equal to or earlier than the revaluation posting date.  
 
 > [!NOTE]  
 >  Items using the Standard costing method are treated differently when calculating the revaluable quantity per item, location, and variant. The quantities and values of item ledger entries that are not completely invoiced are included in the revaluable quantity.  
 
-After a revaluation has been posted, you can post an inventory increase or decrease with a posting date that comes before the revaluation posting date. However, this quantity will not be affected by the revaluation. To balance the inventory, only the original revaluable quantity is considered.  
+After a revaluation has been posted, you can post an stock increase or decrease with a posting date that comes before the revaluation posting date. However, this quantity will not be affected by the revaluation. To balance the stock, only the original revaluable quantity is considered.  
 
-Because revaluation can be made on any date, you must have conventions for when an item is considered part of inventory from a financial point of view. For example, when the item is on inventory and when the item is work in process (WIP).  
+Because revaluation can be made on any date, you must have conventions for when an item is considered part of stock from a financial point of view. For example, when the item is on stock and when the item is work in progress (WIP).  
 
 ### <a name="example"></a>Example  
-The following example illustrates when a WIP item transitions to become part of inventory. The example is based on the production of a chain with 150 links.  
+The following example illustrates when a WIP item transitions to become part of stock. The example is based on the production of a chain with 150 links.  
 
-![WIP inventory and revaluation](media/design_details_inventory_costing_10_revaluation_wip.png "WIP inventory and revaluation")  
+![WIP stock and revaluation](media/design_details_inventory_costing_10_revaluation_wip.png "WIP stock and revaluation")  
 
 **1Q**: The user posts the purchased links as received. The following table shows the resulting item ledger entry.  
 
@@ -50,13 +50,13 @@ The following example illustrates when a WIP item transitions to become part of 
 > [!NOTE]  
 >  Now an item using the Standard costing method is available for revaluation.  
 
-**1V**: The user posts the purchased links as invoiced and the links become part of inventory, from a financial point of view. The following table shows the resulting value entries.  
+**1V**: The user posts the purchased links as invoiced and the links become part of stock, from a financial point of view. The following table shows the resulting value entries.  
 
 |Posting Date|Entry Type|Valuation Date|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |01-15-20|Direct Cost|01-01-20|150.00|1|1|  
 
- **2Q + 2V**: The user posts the purchased links as consumed for the production of the iron chain. From a financial point of view, the links become part of WIP inventory.  The following table shows the resulting item ledger entry.  
+ **2Q + 2V**: The user posts the purchased links as consumed for the production of the iron chain. From a financial point of view, the links become part of WIP stock.  The following table shows the resulting item ledger entry.  
 
 |Posting Date|Item|Entry Type|Quantity|Entry No.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -68,15 +68,15 @@ The following table shows the resulting value entry.
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |02-01-20|Direct Cost|02-01-20|-150.00|2|2|  
 
-The valuation date is set to the date of the consumption posting (02-01-20), as a regular inventory decrease.  
+The valuation date is set to the date of the consumption posting (02-01-20), as a regular stock decrease.  
 
-**3Q**: The user posts the chain as output and finishes the production order. The following table shows the resulting item ledger entry.  
+**3Q**: The user posts the chain as output and finishes the works order. The following table shows the resulting item ledger entry.  
 
 |Posting Date|Item|Entry Type|Quantity|Entry No.|  
 |------------------|----------|----------------|--------------|---------------|  
 |02-15-20|CHAIN|Output|1|3|  
 
-**3V**: The user runs the **Adjust Cost - Item Entries** batch job, which posts the chain as invoiced to indicate that all material consumption has been completely invoiced. From a financial point of view, the links are no longer part of WIP inventory when the output is completely invoiced and adjusted. The following table shows the resulting value entries.  
+**3V**: The user runs the **Adjust Cost - Item Entries** batch job, which posts the chain as invoiced to indicate that all material consumption has been completely invoiced. From a financial point of view, the links are no longer part of WIP stock when the output is completely invoiced and adjusted. The following table shows the resulting value entries.  
 
 |Posting Date|Entry Type|Valuation Date|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
@@ -85,10 +85,10 @@ The valuation date is set to the date of the consumption posting (02-01-20), as 
 |02-15-20|Direct Cost|02-15-20|150.00|3|3|  
 
 ## <a name="expected-cost-in-revaluation"></a>Expected Cost in Revaluation  
-The revaluable quantity is calculated as the sum of the quantity for completely invoiced item ledger entries with a posting date equal to or earlier than the revaluation date. This means that when some items are received/shipped but not invoiced, their inventory value cannot be calculated. Items that use the Standard costing method are not limited in this respect.  
+The revaluable quantity is calculated as the sum of the quantity for completely invoiced item ledger entries with a posting date equal to or earlier than the revaluation date. This means that when some items are received/shipped but not invoiced, their stock value cannot be calculated. Items that use the Standard costing method are not limited in this respect.  
 
 > [!NOTE]  
->  Another type of expected cost that can be revalued is WIP inventory, within certain rules. For more information, see [WIP Inventory Revaluation](design-details-revaluation.md#wip-inventory-revaluation).  
+>  Another type of expected cost that can be revalued is WIP stock, within certain rules. For more information, see [WIP Stock Revaluation](design-details-revaluation.md#wip-inventory-revaluation).  
 
 When calculating the re-valuable quantity for items using the Standard costing method, item ledger entries that have not been completely invoiced are included in the calculation. These entries are then revalued when you post the revaluation. When you invoice the revalued entry, the following value entries are created:  
 
@@ -116,8 +116,8 @@ The following table shows the resulting value entries.
 |3.b.|01-15-20|Revaluation|01-20-20|-150.00|0.00|1|4|  
 |3.c.|01-15-20|Variance|01-15-20|0.00|450.00|1|5|  
 
-## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Determining Whether an Inventory Decrease is Affected by Revaluation  
-The date of the posting or the revaluation is used to determine if an inventory decrease is affected by a revaluation.  
+## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Determining Whether a Stock Decrease is Affected by Revaluation  
+The date of the posting or the revaluation is used to determine if an stock decrease is affected by a revaluation.  
 
 The following table shows the criteria that is used for an item that does not use the Average costing method.  
 
@@ -137,7 +137,7 @@ The following example, which illustrates revaluation of an item that uses the FI
 2.  On 02-01-20, the user posts a sale of 1 unit.  
 3.  On 03-01-20, the user posts a sale of 1 unit.  
 4.  On 04-01-20, the user posts a sale of 1 unit.  
-5.  On 03-01-20, the user calculates the inventory value for the item, and posts a revaluation of the item’s unit cost from LCY 10.00 to LCY 8.00.  
+5.  On 03-01-20, the user calculates the stock value for the item, and posts a revaluation of the item’s unit cost from LCY 10.00 to LCY 8.00.  
 6.  On 02-01-20, the user posts a sale of 1 unit.  
 7.  On 03-01-20, the user posts a sale of 1 unit.  
 8.  On 04-01-20, the user posts a sale of 1 unit.  
@@ -160,26 +160,26 @@ The following table shows the resulting value entries.
 |F|04-01-20|Sale|04-01-20|-1|-10.00|7|8|  
 ||04-01-20|Sale|04-01-20|-1|2.00|7|12|  
 
-## <a name="wip-inventory-revaluation"></a>WIP Inventory Revaluation  
-Revaluation of WIP inventory implies revaluing components that are registered as part of WIP inventory at the time of the revaluation.  
+## <a name="wip-inventory-revaluation"></a>WIP Stock Revaluation  
+Revaluation of WIP stock implies revaluing components that are registered as part of WIP stock at the time of the revaluation.  
 
-With this in mind, it is important to establish conventions as to when an item is considered part of the WIP inventory from a financial point of view. In [!INCLUDE[prod_short](includes/prod_short.md)], the following conventions exist:  
+With this in mind, it is important to establish conventions as to when an item is considered part of the WIP stock from a financial point of view. In [!INCLUDE[prod_short](includes/prod_short.md)], the following conventions exist:  
 
--   A purchased component becomes part of the raw material inventory from the time of posting a purchase as invoiced.  
--   A purchased/sub-assembled component becomes part of the WIP inventory from the time of posting its consumption in connection with a production order.  
--   A purchased/sub-assembled component remains part of the WIP inventory until the time when a production order (manufactured item) is invoiced.  
+-   A purchased component becomes part of the raw material stock from the time of posting a purchase as invoiced.  
+-   A purchased/sub-assembled component becomes part of the WIP stock from the time of posting its consumption in connection with a works order.  
+-   A purchased/sub-assembled component remains part of the WIP stock until the time when a works order (manufactured item) is invoiced.  
 
-The way the valuation date for the value entry of consumption is set, follows the same rules as for non-WIP inventory. For more information, see [Determining Whether an Inventory Decrease is Affected by Revaluation](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
+The way the valuation date for the value entry of consumption is set, follows the same rules as for non-WIP stock. For more information, see [Determining Whether a Stock Decrease is Affected by Revaluation](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
 
-WIP inventory can be revalued as long as the revaluation date is not later than the posting date of the corresponding item ledger entries of type Consumption and as long as the corresponding production order has not been invoiced yet.  
+WIP stock can be revalued as long as the revaluation date is not later than the posting date of the corresponding item ledger entries of type Consumption and as long as the corresponding works order has not been invoiced yet.  
 
 > [!CAUTION]  
->  The **Inventory Valuation - WIP** report shows the value of posted production order entries and may therefore be a little confusing for WIP items that have been revalued.  
+>  The **Stock Valuation - WIP** report shows the value of posted works order entries and may therefore be a little confusing for WIP items that have been revalued.  
 
 ## <a name="see-also"></a>See Also  
- [Design Details: Inventory Costing](design-details-inventory-costing.md)   
+ [Design Details: Stock Costing](design-details-inventory-costing.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)   
- [Design Details: Inventory Valuation](design-details-inventory-valuation.md) [Managing Inventory Costs](finance-manage-inventory-costs.md)  
+ [Design Details: Stock Valuation](design-details-inventory-valuation.md) [Managing Stock Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

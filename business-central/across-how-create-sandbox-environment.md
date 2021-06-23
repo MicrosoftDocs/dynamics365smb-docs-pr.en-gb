@@ -1,6 +1,6 @@
 ---
-title: Create a Sandbox Environment| Microsoft Docs
-description: Create an environment for exploring, learning, demoing, developing, and testing.
+title: Create a sandbox environment
+description: Create an environment for exploring, learning, demoing, developing, and testing from inside Business Central.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: solsen
-ms.openlocfilehash: 3419272afd092d2ddb1374940e556d42709c1534
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a76ae33815b8e9368f45b72fd8703bfc47cbd079
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776029"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215635"
 ---
 # <a name="creating-a-sandbox-environment-in-prod_short"></a>Creating a Sandbox Environment in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 With [!INCLUDE[prod_short](includes/prod_short.md)], you can easily create a safe environment where you can test, train, or troubleshoot without disturbing your company's work processes or business data. Such a non-production environment is called a *sandbox*. Isolated from production, a sandbox environment is the place to safely explore, learn, demo, develop, and test the service without the risk of affecting the data and settings of your production environment.  
 
-Your administrator can create sandbox environments in the [administration centre](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), but if you want to quickly test something, you can create a sandbox environment from inside [!INCLUDE[prod_short](includes/prod_short.md)].  
+Your administrator manages sandbox environments in the [administration centre](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), but if you want to quickly test something, you can create a sandbox environment from inside [!INCLUDE[prod_short](includes/prod_short.md)]. Once you're done, you can remove the sandbox, using the administration centre.  
 
 > [!NOTE]
-> Technically, sandbox environments are very different from production environments, even if your administrator creates a sandbox that includes production data. You cannot use a sandbox for benchmarking, and you cannot request a database export, for example. If you want to create a sandbox for benchmarking, your administrator can create a dedicated production environment in the administration centre. For more information, see [Types of environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments).
+> Technically, sandbox environments are very different from production environments, even if your administrator creates a sandbox that includes production data. You cannot use a sandbox for benchmarking, and you cannot request a database export, for example. If you want to create a sandbox for benchmarking, your administrator can create a dedicated environment in the administration centre. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types).
 
 ## <a name="to-create-a-sandbox-environment-in-your-prod_short"></a>To create a sandbox environment in your [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -48,8 +48,9 @@ At the top of the Role Centre, a notification appears to inform you that this is
     <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
 > [!NOTE]
-> A sandbox environment created in this way only contains the default demonstration data for the CRONUS company. No data is copied or otherwise transferred from the production environment.<br /><br />
-> You can also create a sandbox environment containing the production data. You must do this through the administration centre. For more information, see [Managing Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in the Developer and IT-Pro help.  
+> A sandbox environment created in this way only contains the default demonstration data for the CRONUS company. No data is copied or otherwise transferred from the production environment.
+>
+> Alternatively, create a sandbox environment based on production data. You must do this through the administration centre. For more information, see [Managing Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in the developer and administration content.  
 
 <!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
     ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
@@ -60,17 +61,22 @@ An administrator can limit or even block access for some users to the sandbox en
 
 ## <a name="advanced-functionality-in-the-sandbox-environment"></a>Advanced Functionality in the Sandbox Environment
 
-The sandbox environment is not least useful because it includes a couple of handy features.
+The sandbox environment is not least useful because it includes a couple of handy features:
 
-### <a name="to-enable-the-advanced-user-experience"></a>To enable the advanced user experience
+* [Advanced user experience](#advanced-user-experience)  
+* [Complete sample data](#complete-sample-data)  
+* [Designer](#designer)  
+
+### <a name="advanced-user-experience"></a>Advanced user experience
 
 It is possible to enable and try the full functionality of the standard version of [!INCLUDE[prod_short](includes/prod_short.md)] in a sandbox tenant by setting the **Experience** field on the **Company Information** page to *Premium*. Find the **Company Information** page in the :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Settings icon"::: menu.  
 
-After you have enabled the *Premium* user experience, you get access to all the standard profiles (roles) and Role Centres in the standard version. You can also create an evaluation company that is fully set up, including demonstration data and access to the advanced areas of the product. Alternatively, contact a reselling partner for a demonstration of the capabilities. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner).  
+After you have enabled the *Premium* user experience, you get access to all the standard profiles (roles) and Role Centres in the standard version. You can also create an evaluation company that is fully set up, including demonstration data and access to the advanced areas of the product. Alternatively, contact a reselling partner for a demonstration of the capabilities. For more information, see [How do I find a reselling partner?](/dynamics365/business-central/across-faq.yml#findpartner).  
 
-### <a name="to-enable-complete-sample-data"></a>To enable complete sample data
+### <a name="complete-sample-data"></a>Complete sample data
 
-In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).  
+For situations where you need additional sample data, please talk to your reselling partner.
+<!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
 
 #### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>To create a company with complete sample data in a sandbox
 
@@ -84,7 +90,9 @@ When the assisted setup guide completes, you can start exploring the new company
 
 ### <a name="designer"></a>Designer
 
-In a sandbox environment, you will find the **Designer** enabled. You can activate Designer by selecting the design icon ![Designer](./media/across-sandbox/sandbox-inclient-design-icon.png) on a page, or by choosing the **Design** menu item in the ![Settings](media/ui-experience/settings_icon_small.png) Settings menu.
+In a sandbox environment, you will find the **Designer** enabled. You can activate Designer by selecting the design icon ![Designer](./media/across-sandbox/sandbox-inclient-design-icon.png) on a page, or by choosing the **Design** menu item in the ![Settings](media/ui-experience/settings_icon_small.png) Settings menu.  
+
+For more information, see [Using Designer](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) in the developer and admin content (in English only).  
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 

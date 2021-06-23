@@ -9,23 +9,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 04/01/2021
+ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 98bb45f10b228077114d7387e9bc30a30cf7e3c6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 564b9574188acd63acaa660f4a440be791846ef7
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774260"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216212"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installing and Uninstalling Extensions in Business Central
 
 You can change [!INCLUDE[prod_short](includes/prod_short.md)] by installing extensions that, for example, add functionality, changes behaviour, or gives you access to new online services. For more information, see [Customising Business Central Using Extensions](ui-extensions.md).
 
 > [!NOTE]
-> To install extensions from AppSource or add per-tenant extensions, you must have the right permissions. You must either be a member of the D365 EXTENSION MGT user group or you must have the D365 EXTENSION MGT permission set. If you are an administrator, you can assign user groups and permissions to other users in your company.
+> To install extensions from AppSource or add per-tenant extensions, you must have the right permissions. You must either be a member of the EXTEND. MGT. - ADMIN user group or you must have the EXTEND. MGT. - ADMIN permission set. If you are an administrator, you can assign user groups and permissions to other users in your company.
 >
 > To use the functionality that is provided by an extension, such as opening pages, running reports, selecting actions, and so on, you must be assigned the permission sets that are installed as part of the extension.
+
+> [!NOTE]  
+> The **EXTEND. MGT. - ADMIN** permission set was introduced in Business Central 2021 release wave 1 as a replacement for the **D365 EXTENSION MGT** permission set in earlier versions.
 
 ## <a name="installing-an-extension"></a>Installing an Extension
 
@@ -64,7 +67,7 @@ Microsoft provides the following extensions:
 * [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)
 * [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
 * [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
-* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
+* [Sales and Stock Forecast](ui-extensions-sales-forecast.md)
 * [VAT Group](ui-extensions-vat-group.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 * [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)

@@ -1,6 +1,6 @@
 ---
 title: Design Details - Reconciliation with the General Ledger | Microsoft Docs
-description: This topic describes reconciliation with the general ledger when you post inventory transactions, such as sales shipments, production output, or negative adjustments.
+description: This topic describes reconciliation with the general ledger when you post stock transactions, such as sales shipments, production output, or negative adjustments.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,42 +8,42 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 3b912ff8eea32c35db4eb96333336e80d819e0c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ad155e604780af087c93e4e245002f3511d3d5a9
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786494"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215809"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Design Details: Reconciliation with the General Ledger
-When you post inventory transactions, such as sales shipments, production output, or negative adjustments, the quantity and value changes to the inventory are recorded in the item ledger entries and the value entries, respectively. The next step in the process is to post the inventory values to the inventory accounts in the general ledger.  
+When you post stock transactions, such as sales shipments, production output, or negative adjustments, the quantity and value changes to the stock are recorded in the item ledger entries and the value entries, respectively. The next step in the process is to post the stock values to the stock accounts in the general ledger.  
 
-There are two ways to reconcile the inventory ledger with the general ledger:  
+There are two ways to reconcile the stock ledger with the general ledger:  
 
-* Manually, by running the **Post Inventory Cost to G/L** batch job.  
-* Automatically, every time that you post an inventory transaction.  
+* Manually, by running the **Post Stock Cost to G/L** batch job.  
+* Automatically, every time that you post an stock transaction.  
 
-## <a name="post-inventory-cost-to-gl-batch-job"></a>Post Inventory Cost to G/L Batch Job  
-When you run the **Post Inventory Cost to G/L** batch job, the general ledger entries are created based on value entries. You have the option to summarise general ledger entries for each value entry, or create general ledger entries for each combination of posting date, location code, inventory posting group, general business posting group, and general product posting group.  
+## <a name="post-inventory-cost-to-gl-batch-job"></a>Post Stock Cost to G/L Batch Job  
+When you run the **Post Stock Cost to G/L** batch job, the general ledger entries are created based on value entries. You have the option to summarise general ledger entries for each value entry, or create general ledger entries for each combination of posting date, location code, stock posting group, general business posting group, and general product posting group.  
 
 The posting dates of the general ledger entries are set to the posting date of the corresponding value entry, except when the value entry falls in a closed accounting period. In this case, the value entry is skipped, and you must change either the general ledger setup or the user setup to enable posting in the date range.  
 
-When you run the **Post Inventory Cost to G/L** batch job, you might receive errors because of missing setup or incompatible dimension setup. If the batch job encounters errors in the dimension setup, it overrides these errors and uses the dimensions of the value entry. For other errors, the batch job does not post the value entries and lists them at the end of the report in a section titled, **Skipped Entries**. To post these entries, you must first fix the errors. To see a list of errors before you run the batch job, you can run the **Post Invt. Cost to G/L - Test** report. This report lists all of the errors that are encountered during a test posting. You can fix the errors, and then run the inventory cost posting batch job without skipping any entries.  
+When you run the **Post Stock Cost to G/L** batch job, you might receive errors because of missing setup or incompatible dimension setup. If the batch job encounters errors in the dimension setup, it overrides these errors and uses the dimensions of the value entry. For other errors, the batch job does not post the value entries and lists them at the end of the report in a section titled, **Skipped Entries**. To post these entries, you must first fix the errors. To see a list of errors before you run the batch job, you can run the **Post Invt. Cost to G/L - Test** report. This report lists all of the errors that are encountered during a test posting. You can fix the errors, and then run the stock cost posting batch job without skipping any entries.  
 
 ## <a name="automatic-cost-posting"></a>Automatic Cost Posting  
-To set up cost posting to the general ledger to run automatically when you post an inventory transaction, select the **Automatic Cost Posting** check box on the **Inventory Setup** page. The posting date of the general ledger entry is the same as the posting date of the item ledger entry.  
+To set up cost posting to the general ledger to run automatically when you post an stock transaction, select the **Automatic Cost Posting** check box on the **stock Setup** page. The posting date of the general ledger entry is the same as the posting date of the item ledger entry.  
 
 ## <a name="account-types"></a>Account Types  
-During reconciliation, inventory values are posted to the inventory account in the balance sheet. The same amount, but with the reverse sign, is posted to the relevant balancing account. Usually the balancing account is an income statement account. However, when you post direct cost related to consumption or output, the balancing account is a balance sheet account. The type of the item ledger entry and value entry determines which general ledger account to post to.  
+During reconciliation, stock values are posted to the stock account in the balance sheet. The same amount, but with the reverse sign, is posted to the relevant balancing account. Usually the balancing account is an income statement account. However, when you post direct cost related to consumption or output, the balancing account is a balance sheet account. The type of the item ledger entry and value entry determines which general ledger account to post to.  
 
-The entry type indicates which general ledger account to post to. This is determined either by the sign of the quantity on the item ledger entry or the valued quantity on the value entry, since the quantities always have the same sign. For example, a sales entry with a positive quantity describes an inventory decrease caused by a sale, and a sales entry with a negative quantity describes an inventory increase caused by a sales return.  
+The entry type indicates which general ledger account to post to. This is determined either by the sign of the quantity on the item ledger entry or the valued quantity on the value entry, since the quantities always have the same sign. For example, a sales entry with a positive quantity describes an stock decrease caused by a sale, and a sales entry with a negative quantity describes an stock increase caused by a sales return.  
 
 ### <a name="example"></a>Example  
 The following example shows a bike chain that is manufactured from purchased links. This example shows how the various general ledger account types are used in a typical scenario.  
 
-The **Expected Cost Posting to G/L** check box on the **Inventory Setup** page is selected, and the following setup is defined.  
+The **Expected Cost Posting to G/L** check box on the **Stock Setup** page is selected, and the following setup is defined.  
 
 The following table shows how the link is set up on the item card.  
 
@@ -93,11 +93,11 @@ The following table shows how the work centre is set up on the work centre card.
 
         ![Results of capacity posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_capacity.png "Results of capacity posting to GL accounts")  
 7. The user posts the expected cost of one chain. (Output)  
-8. The user finishes the production order and runs the **Adjust Cost - Item Entries** batch job. (Output)  
+8. The user finishes the works order and runs the **Adjust Cost - Item Entries** batch job. (Output)  
 
     1. The interim accounts are cleared. (Output)  
-    2. The direct cost is transferred from the WIP account to the inventory account. (Output)  
-    3. The indirect cost (overhead) is transferred from the indirect cost account to the inventory account. (Output)  
+    2. The direct cost is transferred from the WIP account to the stock account. (Output)  
+    3. The indirect cost (overhead) is transferred from the indirect cost account to the stock account. (Output)  
     4. This results in a variance amount of LCY 157.00. Variances are only calculated for standard-cost items. (Output)  
 
         ![Results of output posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_output.png "Results of output posting to GL accounts")  
@@ -118,10 +118,10 @@ The following table shows how the work centre is set up on the work centre card.
 For more information about the relationship between the account types and the different types of value entries, see [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
 
 ## <a name="see-also"></a>See Also  
-[Design Details: Inventory Costing](design-details-inventory-costing.md)   
+[Design Details: Stock Costing](design-details-inventory-costing.md)   
 [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)   
 [Design Details: Cost Adjustment](design-details-cost-adjustment.md)
-[Managing Inventory Costs](finance-manage-inventory-costs.md)  
+[Managing Stock Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

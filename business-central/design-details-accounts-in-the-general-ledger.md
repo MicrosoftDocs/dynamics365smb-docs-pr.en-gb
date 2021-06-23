@@ -1,6 +1,6 @@
 ---
 title: Design Details - Accounts in the General Ledger | Microsoft Docs
-description: To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger.
+description: To reconcile stock and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,73 +8,73 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 4e732015bda76183eca7102f39e7c2b73751160b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 41b94d44ba374ecbcad64a2b1da100fcf3e1a2ab
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777930"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215585"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Design Details: Accounts in the General Ledger
-To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
+To reconcile stock and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="from-the-inventory-ledger"></a>From the Inventory Ledger  
-The following table shows the relationship between different types of inventory value entries and the accounts and balancing accounts in the general ledger.  
+## <a name="from-the-inventory-ledger"></a>From the Stock Ledger  
+The following table shows the relationship between different types of stock value entries and the accounts and balancing accounts in the general ledger.  
 
 |**Item Ledger Entry Type**|**Value Entry Ttype**|**Variance Type**|**Expected Cost**|**Account**|**Balancing Account**|  
 |--------------------------------|--------------------------|-----------------------|-----------------------|-----------------|---------------------------|  
-|Purchase|Direct Cost||Yes|Inventory  (Interim)|Invt. Accrual Acc. (Interim)|  
-|Purchase|Direct Cost||No|Inventory|Direct Cost Applied|  
-|Purchase|Indirect Cost||No|Inventory|Overhead Applied|  
-|Purchase|Variance|Purchase|No|Inventory|Purchase Variance|  
-|Purchase|Revaluation||No|Inventory|Inventory Adjmt.|  
-|Purchase|Rounding||No|Inventory|Inventory Adjmt.|  
-|Sale|Direct Cost||Yes|Inventory  (Interim)|COGS (Interim)|  
-|Sale|Direct Cost||No|Inventory|COGS|  
-|Sale|Revaluation||No|Inventory|Inventory Adjmt.|  
-|Sale|Rounding||No|Inventory|Inventory Adjmt.|  
-|Positive Adjmt.,Negative Adjmt., Transfer|Direct Cost||No|Inventory|Inventory Adjmt.|  
-|Positive Adjmt.,Negative Adjmt., Transfer|Revaluation||No|Inventory|Inventory Adjmt.|  
-|Positive Adjmt.,Negative Adjmt., Transfer|Rounding||No|Inventory|Inventory Adjmt.|  
-|(Production) Consumption|Direct Cost||No|Inventory|WIP|  
-|(Production) Consumption|Revaluation||No|Inventory|Inventory Adjmt.|  
-|(Production) Consumption|Rounding||No|Inventory|Inventory Adjmt.|  
-|Assembly Consumption|Direct Cost||No|Inventory|Inventory Adjmt.|  
-|Assembly Consumption|Direct Cost||No|Direct Cost Applied|Inventory Adjmt.|  
-|Assembly Consumption|Indirect Cost||No|Overhead Applied|Inventory Adjmt.|  
-|(Production) Output|Direct Cost||Yes|Inventory  (Interim)|WIP|  
-|(Production) Output|Direct Cost||No|Inventory|WIP|  
-|(Production) Output|Indirect Cost||No|Inventory|Overhead Applied|  
-|(Production) Output|Variance|Material|No|Inventory|Material Variance|  
-|(Production) Output|Variance|Capacity|No|Inventory|Capacity Variance|  
-|(Production) Output|Variance|Subcontracted|No|Inventory|Subcontracted Variance|  
-|(Production) Output|Variance|Capacity Overhead|No|Inventory|Cap. Overhead Variance|  
-|(Production) Output|Variance|Manufacturing Overhead|No|Inventory|Mfg. Overhead Variance|  
-|(Production) Output|Revaluation||No|Inventory|Inventory Adjmt.|  
-|(Production) Output|Rounding||No|Inventory|Inventory Adjmt.|  
-|Assembly Output|Direct Cost||No|Inventory|Inventory Adjmt.|  
-|Assembly Output|Revaluation||No|Inventory|Inventory Adjmt.|  
-|Assembly Output|Indirect Cost||No|Inventory|Overhead Applied|  
-|Assembly Output|Variance|Material|No|Inventory|Material Variance|  
-|Assembly Output|Variance|Capacity|No|Inventory|Capacity Variance|  
-|Assembly Output|Variance|Capacity Overhead|No|Inventory|Cap. Overhead Variance|  
-|Assembly Output|Variance|Manufacturing Overhead|No|Inventory|Mfg. Overhead Variance|  
-|Assembly Output|Rounding||No|Inventory|Inventory Adjmt.|  
+|Purchase|Direct Cost||Yes|Stock (Interim)|Invt. Accrual Acc. (Interim)|  
+|Purchase|Direct Cost||No|Stock|Direct Cost Applied|  
+|Purchase|Indirect Cost||No|Stock|Overhead Applied|  
+|Purchase|Variance|Purchase|No|Stock|Purchase Variance|  
+|Purchase|Revaluation||No|Stock|Stock Adjmt.|  
+|Purchase|Rounding||No|Stock|Stock Adjmt.|  
+|Sale|Direct Cost||Yes|Stock (Interim)|COGS (Interim)|  
+|Sale|Direct Cost||No|Stock|COGS|  
+|Sale|Revaluation||No|Stock|Stock Adjmt.|  
+|Sale|Rounding||No|Stock|Stock Adjmt.|  
+|Positive Adjmt.,Negative Adjmt., Transfer|Direct Cost||No|Stock|Stock Adjmt.|  
+|Positive Adjmt.,Negative Adjmt., Transfer|Revaluation||No|Stock|Stock Adjmt.|  
+|Positive Adjmt.,Negative Adjmt., Transfer|Rounding||No|Stock|Stock Adjmt.|  
+|(Production) Consumption|Direct Cost||No|Stock|WIP|  
+|(Production) Consumption|Revaluation||No|Stock|Stock Adjmt.|  
+|(Production) Consumption|Rounding||No|Stock|Stock Adjmt.|  
+|Assembly Consumption|Direct Cost||No|Stock|Stock Adjmt.|  
+|Assembly Consumption|Direct Cost||No|Direct Cost Applied|Stock Adjmt.|  
+|Assembly Consumption|Indirect Cost||No|Overhead Applied|Stock Adjmt.|  
+|(Production) Output|Direct Cost||Yes|Stock (Interim)|WIP|  
+|(Production) Output|Direct Cost||No|Stock|WIP|  
+|(Production) Output|Indirect Cost||No|Stock|Overhead Applied|  
+|(Production) Output|Variance|Material|No|Stock|Material Variance|  
+|(Production) Output|Variance|Capacity|No|Stock|Capacity Variance|  
+|(Production) Output|Variance|Subcontracted|No|Stock|Subcontracted Variance|  
+|(Production) Output|Variance|Capacity Overhead|No|Stock|Cap. Overhead Variance|  
+|(Production) Output|Variance|Manufacturing Overhead|No|Stock|Mfg. Overhead Variance|  
+|(Production) Output|Revaluation||No|Stock|Stock Adjmt.|  
+|(Production) Output|Rounding||No|Stock|Stock Adjmt.|  
+|Assembly Output|Direct Cost||No|Stock|Stock Adjmt.|  
+|Assembly Output|Revaluation||No|Stock|Stock Adjmt.|  
+|Assembly Output|Indirect Cost||No|Stock|Overhead Applied|  
+|Assembly Output|Variance|Material|No|Stock|Material Variance|  
+|Assembly Output|Variance|Capacity|No|Stock|Capacity Variance|  
+|Assembly Output|Variance|Capacity Overhead|No|Stock|Cap. Overhead Variance|  
+|Assembly Output|Variance|Manufacturing Overhead|No|Stock|Mfg. Overhead Variance|  
+|Assembly Output|Rounding||No|Stock|Stock Adjmt.|  
 
 ## <a name="from-the-capacity-ledger"></a>From the Capacity Ledger  
  The following table shows the relationship between different types of capacity value entries and the accounts and balancing accounts in the general ledger. Capacity ledger entries represent labour time consumed in assembly or production work.  
 
 |**Work Type**|**Capacity Ledger Entry Type**|**Value Entry Type**|**Account**|**Balancing Account**|  
 |-------------------|------------------------------------|--------------------------|-----------------|---------------------------|  
-|Assembly|Resource|Direct Cost|Direct Cost Applied|Inventory Adjmt.|  
-|Assembly|Resource|Indirect Cost|Overhead Applied|Inventory Adjmt.|  
+|Assembly|Resource|Direct Cost|Direct Cost Applied|Stock Adjmt.|  
+|Assembly|Resource|Indirect Cost|Overhead Applied|Stock Adjmt.|  
 |Production|Machine Centre/Work Centre|Direct Cost|WIP Account|Direct Cost Applied|  
 |Production|Machine Centre/Work Centre|Indirect Cost|WIP Account|Overhead Applied|  
 
 ## <a name="assembly-costs-are-always-actual"></a>Assembly Costs are Always Actual  
- As shown in the table above, assembly postings are not represented in interim accounts. This is because the concept of work in process (WIP) does not apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
+ As shown in the table above, assembly postings are not represented in interim accounts. This is because the concept of work in progress (WIP) does not apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
 
  For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 
@@ -94,10 +94,10 @@ The following table shows how the amounts to post to the general ledger are calc
 |Expected Cost|Cost Amount (Expected) –  Expected Cost Posted to G/L|  
 
 ## <a name="see-also"></a>See Also  
- [Design Details: Inventory Costing](design-details-inventory-costing.md)   
- [Design Details: Inventory Posting](design-details-inventory-posting.md)   
+ [Design Details: Stock Costing](design-details-inventory-costing.md)   
+ [Design Details: Stock Posting](design-details-inventory-posting.md)   
  [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
- [Managing Inventory Costs](finance-manage-inventory-costs.md)  
+ [Managing Stock Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

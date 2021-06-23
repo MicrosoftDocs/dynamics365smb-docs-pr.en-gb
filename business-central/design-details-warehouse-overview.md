@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 8a972cebc919e0e308f22b417a62f33cb8b06f62
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f1ecd1324df2433d31ff1480316a9e281ad5c5df
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785142"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215685"
 ---
 # <a name="design-details-warehouse-overview"></a>Design Details: Warehouse Overview
 To support the physical handling of items on the zone and bin level, all information must be traced for each transaction or movement in the warehouse. This is managed in the **Warehouse Entry** table. Each transaction is stored in a warehouse register.  
 
 Warehouse documents and a warehouse journal are used to register item movements in the warehouse. Every time that an item in the warehouse is moved, received, put away, picked, shipped, or adjusted, warehouse entries are registered to store the physical information about zone, bin, and quantity.
 
-The **Bin Content** table is used to handle all the different dimensions of the contents of a bin per item, such as unit of measure, maximum quantity, and minimum quantity. The **Bin Content** table also contains flow fields to the warehouse entries, warehouse instructions, and warehouse journal lines, which ensures that the availability of an item per bin and a bin for an item can be calculated quickly. For more information, see [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md).  
+The **Bin Content** table is used to handle all the different dimensions of the contents of a bin per item, such as unit of measurement, maximum quantity, and minimum quantity. The **Bin Content** table also contains flow fields to the warehouse entries, warehouse instructions, and warehouse journal lines, which ensures that the availability of an item per bin and a bin for an item can be calculated quickly. For more information, see [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md).  
 
-When item postings occur outside the warehouse module, a default adjustment bin per location is used to synchronise warehouse entries with inventory entries. During physical inventory of the warehouse, any differences between the calculated and counted quantities are recorded in the adjustment bin and then posted as correcting item ledger entries. For more information, see [Design Details: Integration with Inventory](design-details-integration-with-inventory.md).  
+When item postings occur outside the warehouse module, a default adjustment bin per location is used to synchronise warehouse entries with stock entries. During physical stock of the warehouse, any differences between the calculated and counted quantities are recorded in the adjustment bin and then posted as correcting item ledger entries. For more information, see [Design Details: Integration with Stock](design-details-integration-with-inventory.md).  
 
 The following illustration outlines typical warehouse flows.  
 
@@ -42,9 +42,9 @@ Warehouse functionality in [!INCLUDE[prod_short](includes/prod_short.md)] can be
 
 ## <a name="basic-ui-documents"></a>Basic UI Documents  
 
--   **Inventory Put-away**  
--   **Inventory Pick**  
--   **Inventory Movement**  
+-   **Stock Put-away**  
+-   **Stock Pick**  
+-   **Stock Movement**  
 -   **Item Journal**  
 -   **Item Reclassification Journal**  
 -   (Various reports)  

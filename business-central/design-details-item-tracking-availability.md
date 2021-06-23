@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: a20c8850fe68a6ce3940bfa430c01a1aa25a0c02
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8fd2fc7c6eb3a4c413691d4eb0b9f5f86aba3fe9
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786380"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215885"
 ---
 # <a name="design-details-item-tracking-availability"></a>Design Details: Item Tracking Availability
 The **Item Tracking Lines** and **Item Tracking Summary** pages provide dynamic availability information for serial or lot numbers. The purpose of this is to increase transparency for users on outbound documents, such as sales orders, by showing them which serial numbers or how many units of a lot number are currently assigned on other open documents. This reduces uncertainty that is caused by double allocation and instills confidence in order processors that the item tracking numbers and dates that they are promising on unposted sales orders can be fulfilled. For more information, see [Design Details: Item Tracking Lines Page](design-details-item-tracking-lines-window.md).  
@@ -24,7 +24,7 @@ The **Item Tracking Lines** and **Item Tracking Summary** pages provide dynamic 
 
 |Field|Description|  
 |---------------------------------|---------------------------------------|  
-|**Total Quantity**|The total quantity of the serial or lot number that is currently in inventory.|  
+|**Total Quantity**|The total quantity of the serial or lot number that is currently in stock.|  
 |**Total Requested Quantity**|The total quantity of the serial or lot number that is currently requested in all documents.|  
 |**Current Pending Quantity**|The quantity that is entered in the current instance of the **Item Tracking Lines** page but is not yet committed to the database.|  
 |**Total Available Quantity**|The quantity of the serial or lot number that is available for the user to request.<br /><br /> This quantity is calculated from other fields on the page as follows:<br /><br /> total quantity – (total requested quantity + current pending quantity).|  
@@ -37,10 +37,10 @@ The **Item Tracking Lines** and **Item Tracking Summary** pages provide dynamic 
 ## <a name="calculation-formula"></a>Calculation Formula  
  As described in the preceding table, the availability of a given serial or lot number is calculated as follows.  
 
- total available quantity = quantity in inventory – (all demands + quantity not yet committed to the database)  
+ total available quantity = quantity in stock – (all demands + quantity not yet committed to the database)  
 
 > [!IMPORTANT]  
->  This formula implies that the serial or lot number availability calculation considers only inventory and ignores projected receipts. Accordingly, supply that is not yet posted to inventory does not affect item tracking availability, as opposed to regular item availability where projected receipts are included.  
+>  This formula implies that the serial or lot number availability calculation considers only stock and ignores projected receipts. Accordingly, supply that is not yet posted to stock does not affect item tracking availability, as opposed to regular item availability where projected receipts are included.  
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Item Tracking](design-details-item-tracking.md)

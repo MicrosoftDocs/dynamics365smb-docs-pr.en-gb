@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6c5b7f3d4ac36bb2d4a3213217a521e5286f74bb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb93853d878ec1aa9b8b0095eb89589c35610f1a
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778679"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216160"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Record Special Sales Prices and Discounts
 > [!NOTE]
@@ -25,13 +25,13 @@ The price and discount agreements that apply when selling to customers must be d
 
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[prod_short](includes/prod_short.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines. For more information, see [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-Concerning prices, you can have a special sales price inserted on sales lines if a certain combination of customer, item, minimum quantity, unit of measure, or starting/ending date exists. For more information, see the [To set up a sales price for a customer](#to-set-up-a-sales-price-for-a-customer) and [Best Price Calculation](#best-price-calculation) sections.  
+Concerning prices, you can have a special sales price inserted on sales lines if a certain combination of customer, item, minimum quantity, unit of measurement, or starting/ending date exists. For more information, see the [To set up a sales price for a customer](#to-set-up-a-sales-price-for-a-customer) and [Best Price Calculation](#best-price-calculation) sections.  
 
 Concerning discounts, you can set up and use two types of sales discounts:
 
 | Discount Type | Description |
 | --- | --- |
-| **Sales Line Discount** |An amount discount that is inserted on sales lines if a certain combination of customer, item, minimum quantity, unit of measure, or starting/ending date exists. This works in the same way as for sales prices. |
+| **Sales Line Discount** |An amount discount that is inserted on sales lines if a certain combination of customer, item, minimum quantity, unit of measurement, or starting/ending date exists. This works in the same way as for sales prices. |
 | **Invoice Discount** |A discount percentage that is subtracted from the sales document total if the sum of all lines on the document exceeds a certain minimum. |
 
 Because sales prices and sales line discounts are based on a combination of item and customer, you can also perform this configuration from the item page of the item where the rules and values apply.
@@ -45,7 +45,7 @@ You can set up price list lines manually or you can use, for example, the **Sugg
 
 By default, the status of new price lists is Draft. When you're done adding lines and want the price calculation engine to include it, you can change the status to Active.
 
-To review price lists and prices that apply for specific customers or vendors, on the **Customer** page, choose **Sales Price Lists** or, on the **Vendor** page, choose **Purchase Price Lists**. You can view price list lines in various price lists by choosing **Sales Prices** or **Purchase Prices** from the **Item** and **Resource** pages.
+To review price lists and prices that apply for specific customers or suppliers, on the **Customer** page, choose **Sales Price Lists** or, on the **Supplier** page, choose **Purchase Price Lists**. You can view price list lines in various price lists by choosing **Sales Prices** or **Purchase Prices** from the **Item** and **Resource** pages.
 
 ## <a name="to-set-up-a-sales-price-for-a-customer"></a>To set up a sales price for a customer
 
@@ -127,7 +127,7 @@ These steps differ, depending on whether your administrator has turned on the **
     > Invoice discount codes are represented by existing customer cards. This enables you to quickly assign invoice discount terms to customers by picking the name of another customer who will have the same terms. To set up customer-specific invoice discount terms, set the **Invoice Disc. Code** field to the customer's customer code, and then proceed to the next step.
 
 8. On the **Customer Card** page, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** page opens.
-9. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in GBP.
+9. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in your local currency.
 10. Optionally, in the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
 11. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
 12. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
@@ -149,7 +149,7 @@ When you have decided which customers are eligible for invoice discounts, enter 
 Proceed to set up new the sales invoice discount terms.
 
 1. On the **Customers** page, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** page opens.
-2. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in GBP.
+2. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in your local currency.
 3. In the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
 4. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
 5. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
@@ -193,7 +193,7 @@ If you want to bulk update item prices, such as increase all item prices by some
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Worksheet**, and then choose the related link.  
 2. Choose the **Suggest Item Price on Wksh.** action.  
-3. On the **Item** FastTab, fill in the **No.** or **Inventory Posting Group** or other fields with the original item prices you want to update.  
+3. On the **Item** FastTab, fill in the **No.** or **Stock Posting Group** or other fields with the original item prices you want to update.  
 4. In the top section of the request page, fill in the **Sales Type** and **Sales Code** with the type and name you want the sales prices copied to.
 5. If you want the batch job to automatically adjust suggested item prices, enter adjustment in **Adjustment Factor** field. For example, you would enter 1.15 in **Adjustment Factor** for 15% increase in item price.  
 6. If you want the batch job to create new prices, select the **Create New Prices** field.  
@@ -224,7 +224,7 @@ The best price is the lowest permissible price with the highest permissible line
     - Does the customer have a price/discount agreement, or does the customer belong to a group that does?
     - Is the item or the item discount group on the line included in any of these price/discount agreements?
     - Is the order date (or the posting date for the invoice and credit memo) within the starting and ending date of the price/discount agreement?
-    - Is a unit of measure code specified? If so, [!INCLUDE[d365fin](includes/d365fin_md.md)] checks for prices/discounts with the same unit of measure code, and prices/discounts with no unit of measure code.
+    - Is a unit of measurement code specified? If so, [!INCLUDE[d365fin](includes/d365fin_md.md)] checks for prices/discounts with the same unit of measurement code, and prices/discounts with no unit of measurement code.
 
 2. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks whether any price/discount agreements apply to information on the document or journal line, and then inserts the applicable unit price and line discount percentage using the following criteria:
 

@@ -1,6 +1,6 @@
 ---
-title: Walkthrough - Calculating Work in Process for a Job | Microsoft Docs
-description: With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses.
+title: Walkthrough - Calculating Work in Progress for a Job | Microsoft Docs
+description: With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, stock items, and other types of usage that have to be tracked as a job progresses.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4fc4bf753788156143e482a89699e53a10fb52b4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0e26df80ecfc0c7921e4f06b3094ae81ae7c29e4
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772211"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216085"
 ---
-# <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Walkthrough: Calculating Work in Process for a Job
+# <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Walkthrough: Calculating Work in Progress for a Job
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses. If a job runs over a long period, you may want to transfer these costs to a Work in Process (WIP) account on the balance sheet while the job is being completed. You can then recognize the costs and sales in your income statement accounts when it is appropriate.  
+With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, stock items, and other types of usage that have to be tracked as a job progresses. If a job runs over a long period, you may want to transfer these costs to a Work in Progress (WIP) account on the balance sheet while the job is being completed. You can then recognize the costs and sales in your income statement accounts when it is appropriate.  
 
 ## <a name="about-this-walkthrough"></a>About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -41,10 +41,10 @@ With jobs, you can schedule the usage of your company's resources and keep track
  Before you can perform the tasks in the walkthrough, the [!INCLUDE[prod_short](includes/prod_short.md)] must be installed on your computer.  
 
 ## <a name="story"></a>Story  
- This walkthrough focuses on CRONUS International Ltd., a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of the work at CRONUS is project-oriented and Tricia, a project team member, uses jobs to have an overview of each ongoing job that CRONUS has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the job.  
+ This walkthrough focuses on CRONUS International Ltd., a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of the work at CRONUS is project-oriented and Tricia, a project team member, uses jobs to have an overview of each ongoing job that CRONUS has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in progress and to track the costs throughout the job.  
 
 ## <a name="calculating-wip"></a>Calculating WIP  
- CRONUS has taken on a lengthy project that has now extended across reporting periods. Tricia, a project team member, calculates the work in process (WIP) to make sure that the financial statement of the company will be accurate.  
+ CRONUS has taken on a lengthy project that has now extended across reporting periods. Tricia, a project team member, calculates the work in progress (WIP) to make sure that the financial statement of the company will be accurate.  
 
  During this procedure, Tricia will select a specific group of tasks that will be included in the WIP calculation. On the **Job Task Lines** page, she can specify these lines in the **WIP-Total** column.  
 
@@ -108,7 +108,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 3.  Close the page.  
 
 > [!NOTE]  
->  Work in Process and Recognition is only calculated. It is not posted to the general ledger. To do so, you must run **Post WIP to G/L** batch job after you have calculated the WIP and Recognition.
+>  Work in Progress and Recognition is only calculated. It is not posted to the general ledger. To do so, you must run **Post WIP to G/L** batch job after you have calculated the WIP and Recognition.
 
 ## <a name="posting-wip-to-general-ledger"></a>Posting WIP to General Ledger  
  Now that Tricia has calculated WIP for this job, she can post it to the general ledger.  
