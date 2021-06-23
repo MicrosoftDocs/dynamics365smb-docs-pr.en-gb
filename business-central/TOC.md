@@ -11,15 +11,15 @@
 #### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
 #### [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 #### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-#### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-#### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
-#### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
-#### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)
+<!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- #### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
+<!-- #### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+<!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
 #### [Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)
 #### [Walkthrough: Calculating Work in Progress for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
+<!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 ### Design Details
@@ -79,8 +79,6 @@
 ##### [General Journal Post Line Overview](design-details-general-journal-post-line-overview.md)  
 ##### [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
 ##### [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
-##### [Design Details: Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-##### [Design Details: Codeunit 12 Changes: Changes in General Journal Post Procedures](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Design Details: Dimension Set Entries
 ##### [Design Details: Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  
 ##### [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)  
@@ -241,9 +239,10 @@
 #### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Setting Up Email
 #### [Set Up Email](admin-how-setup-email.md)
-#### Set Up Your Business Inbox in Outlook 
+#### Set Up Your Business Inbox in Microsoft Outlook 
 ##### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
-##### [Synchronise with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Synchronise with Contacts in Outlook](admin-synchronize-outlook-contacts.md)
+##### [Optimise Outlook](admin-outlook-optimize.md)
 ##### [Using Business Central Without Outlook](admin-no-outlook.md)
 ### Setting Up Reports
 #### [Report Selection](across-report-selections.md)
@@ -257,7 +256,7 @@
 ##### [Managing Teams Integration](admin-teams-integration.md)
 ##### [Installing Business Central App for Teams](across-install-app-for-teams.md)
 ##### [Searching for Customers, Suppliers, and Contacts](across-search-contacts-teams.md)
-##### [Working with Business Central Data in Teams](across-working-with-teams.md)
+##### [Sharing Records in Teams](across-working-with-teams.md)
 ##### [Changing Company and Other Settings](across-teams-settings.md)
 ##### [Teams FAQ](teams-faq.md)
 ##### [Troubleshooting](admin-teams-troubleshooting.md)
@@ -287,12 +286,12 @@
 ### [Get Business Central on Your Mobile Device](install-mobile-app.md)
 
 ## Frequently Asked Questions
-### [Frequently Asked Questions](across-faq.md)
+### [Frequently Asked Questions](across-faq.yml)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
 ### [List Views FAQ](ui-views-faq.yml)
 ### [Copy and Paste FAQ](faq-copy-paste.yml)
-### [Mobile Apps FAQ](ui-mobile-faq.md)
+### [Mobile Apps FAQ](ui-mobile-faq.yml)
 ### [Teams FAQ](teams-faq.md)
 ### [Electronic Invoicing FAQ](faq-electronic-invoicing.yml)
 ### [Minimum Requirements](product-requirements.md)
@@ -534,6 +533,10 @@
 #### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### [Reconcile Stock Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 
+### Managing Cash Flow
+#### [Cash Flow Overview](finance-cash-flow-overview.md)
+#### [Analysing Cash Flows in Your Company](finance-analyze-cash-flow.md)
+
 ### Closing Years and Periods
 #### [Year Closing Overview](year-close-years-periods.md)
 #### [Working with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md)
@@ -566,7 +569,6 @@
 ### [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ### [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
 ### [Managing VAT Rate Changes](finance-how-use-vat-rate-change-tool.md)
-### [Analysing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ### [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
@@ -586,6 +588,7 @@
 
 ## Sales
 ### [Sales Overview](sales-manage-sales.md)
+### [Sales Reports](sales-reports.md)
 ### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register New Customers](sales-how-register-new-customers.md)
@@ -606,9 +609,11 @@
 ### [Date Calculation for Sales](sales-date-calculation-for-sales.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 ### [Work with Recurring Revenue](finance-recurring-invoicing.md)
+### [Enter External Document Numbers](across-enter-external-document-numbers.md)
 
 ## Purchasing
 ### [Purchasing Overview](purchasing-manage-purchasing.md)
+### [Purchasing Reports](purchase-reports.md)
 ### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Record Purchases](purchasing-how-record-purchases.md)
 ### [Request Quotes](purchasing-how-request-quotes.md)
@@ -621,9 +626,13 @@
 ### [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 ### [Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)
+### [External Document Numbers on Purchase Documents](purchasing-ext-doc-no.md)
+### [Enter External Document Numbers](across-enter-external-document-numbers.md)
+
 
 ## Stock
 ### [Stock Overview](inventory-manage-inventory.md)
+### [Stock and Warehouse Reports](inventory-WMS-reports.md)
 ### [Register New Items](inventory-how-register-new-items.md)
 ### [Work with Bills of Material](inventory-how-work-BOMs.md)
 ### [Categorise Items](inventory-how-categorize-items.md)
@@ -642,6 +651,7 @@
 
 ## Project Management
 ### [Project Management Overview](projects-manage-projects.md)
+### [Project Reports](project-reports.md)
 ### [Create Jobs](projects-how-create-jobs.md)
 ### [Use Resources for Jobs](projects-how-use-resources.md)
 ### [Use Time Sheets for Jobs](projects-how-use-time-sheets.md)
@@ -701,21 +711,20 @@
 ## Planning
 ### [Production Planning](production-planning.md)
 ### [About Planning Functionality](production-about-planning-functionality.md)
-### [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
 ### [Planning With or Without Locations](production-planning-with-without-locations.md)
 ### [Create a Forecast](production-how-to-create-a-forecast.md)
 ### [Create Works Orders from Sales Orders](production-how-to-create-production-orders-from-sales-orders.md)
-### [Plan Project Orders](production-how-to-plan-project-orders.md)
 ### [Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)
 ### [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replan or Refresh Works Orders Directly](production-how-to-replan-refresh-production-orders.md)
 ### [Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
-### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
-### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
+<!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Assembly Management
 ### [Assemble Items](assembly-assemble-items.md)
+### [Assembly Reports](assembly-reports.md)
 ### [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Assemble Items](assembly-how-to-assemble-items.md)
@@ -729,6 +738,7 @@
 
 ## Manufacturing
 ### [Manufacturing Overview](production-manage-manufacturing.md)
+### [Production Reports](production-reports.md)
 ### [About Works Orders](production-about-production-orders.md)
 ### [Create Works Orders](production-how-to-create-production-orders.md)
 ### [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
@@ -743,6 +753,7 @@
 
 ## Warehouse Management
 ### [Warehouse Management](warehouse-manage-warehouse.md)
+### [Stock and Warehouse Reports](inventory-WMS-reports.md)
 ### [Receive Items](warehouse-how-receive-items.md)
 ### [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
 ### Putting Items Away
@@ -773,8 +784,8 @@
 ### [Ship Items](warehouse-how-ship-items.md)
 ### [Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)
 ### [Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
-### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+<!-- ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
 
 ## Service Management
 ### [Service Management](service-service.md)
@@ -821,7 +832,7 @@
 ##### [View Posted Tax Invoices](LocalFunctionality\Australia\how-to-view-posted-tax-invoices.md)
 ##### [View Posted Tax Credit Memos](LocalFunctionality\Australia\how-to-view-posted-tax-credit-memos.md)
 ##### [Set Up Goods and Service Tax Posting](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)
-##### [Calculate Goods and Services Tax on Prepayments](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)
+##### [Calculate Value Added Tax on Prepayments](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)
 ##### [Adjust Settlement Exchange Rates for VAT Entries](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Print Goods and Service Tax Settlement Reports](LocalFunctionality/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)
 #### Banking & Payments
@@ -829,7 +840,7 @@
 ##### [Create Cheque Instalments](LocalFunctionality/Australia/how-to-create-check-installments.md)
 ##### [Electronic Funds Transfer (EFT)](LocalFunctionality/Australia/electronic-funds-transfer-eft-.md)
 ##### [Print Bank Account Reconciliation Reports](LocalFunctionality/Australia/how-to-print-bank-account-reconciliation-reports.md)
-##### [Print Deposit Slip Reports](LocalFunctionality/Australia/how-to-print-deposit-slip-reports.md)
+##### [Print Paying-In Slip Reports](LocalFunctionality/Australia/how-to-print-deposit-slip-reports.md)
 #### Core Finance
 ##### [Set Up Business Units for Business Activity Statements](LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements.md)
 ##### [Print Balance Sheet Reports](LocalFunctionality/Australia/how-to-print-balance-sheet-reports.md)
@@ -840,6 +851,7 @@
 ##### [Determine Sales Price by Cost Plus Percentage](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
 ##### [Australian Business Numbers and Adjustment Notes](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
 ##### [Enter Australian Business Numbers](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
+##### [Payment Times Reporting](LocalFunctionality/Australia/payment-times-reporting.md)
 
 ### Austria
 #### [Local Functionality in the Austrian Version](LocalFunctionality/Austria/austria-local-functionality.md)
@@ -1066,7 +1078,7 @@
 #### Electronic Invoicing
 ##### [Electronic Invoicing Requirement: Issuing Single Copy Invoice](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
 #### General  
-##### [Map IRS Numbers to the Chart of Accounts](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
+##### [Map Inland Revenue Numbers to the Chart of Accounts](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Deleting Posted Invoices and Credit Memos](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
 
 ### India
@@ -1080,66 +1092,66 @@
 ##### [Tax Engine Lookup](LocalFunctionality/India/TaxEngine-004-Lookup.md)
 ##### [Tax Engine Design Consideration](LocalFunctionality/India/TaxEngine-006-Design-Consideration.md)
 ##### [Tax Engine Script](LocalFunctionality/India/TaxEngine-005-Script-Activities.md)
-#### GST
-##### [GST Overview](LocalFunctionality/India/GST-001-Basic-Setup.md)
-##### GST on Purchase
+#### VAT
+##### [VAT Overview](LocalFunctionality/India/GST-001-Basic-Setup.md)
+##### VAT on Purchase
 ###### [Purchase from Composite Supplier](LocalFunctionality/India/GST-Purchase-from-Composite-Vendor.md)
 ###### [Purchase from Registered Supplier](LocalFunctionality/India/GST-Purchase-from-Registered-Vendor.md)
 ###### [Purchase from Unregistered Supplier (Reverse Charge)](LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM.md)
 ###### [Purchase from SEZ Supplier](LocalFunctionality/India/GST-Purchase-from-SEZ-Vendor.md)
 ###### [Purchase from Foreign Supplier](LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor.md)
 ###### [Purchase from Supplier with Overseas Place of Supply](LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md)
-###### [GST and TDS on Purchase Transaction](LocalFunctionality/India/GST-TDS-and-GST-on-Purchase.md)
-##### GST on Purchase Return
+###### [VAT and TDS on Purchase Transaction](LocalFunctionality/India/GST-TDS-and-GST-on-Purchase.md)
+##### VAT on Purchase Return
 ###### [Purchase Return to Composite Supplier](LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor.md)
 ###### [Purchase Return to Registered Supplier](LocalFunctionality/India/GST-Purchase-Return-to-Registered-Vendor.md)
 ###### [Purchase Return to Unregistered Supplier (Reverse Charge)](LocalFunctionality/India/GST-Purchase-Return-to-Unregistered-Vendor-RCM.md) 
 ###### [Purchase Return to Foreign Supplier](LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor.md)
 ###### [Purchase Return to Supplier with Overseas Place of Supply](LocalFunctionality/India/GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor.md)
-##### GST on Journals/Payment/Application
-###### [GST on Journals](LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank.md)
-###### [GST on Advance Payment to Supplier](LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor.md)
-###### [GST Application of Payment and Invoice](LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application.md)
-###### [GST on Advance Receipt from Customer](LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md)
-###### [GST Application of Receipt and Invoice](LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md)
-###### [GST and TCS on Customer Advance](LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md)
-###### [GST and TDS on Vendor Advance](LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice.md)
-##### GST on Sales
+##### VAT on Journals/Payment/Application
+###### [VAT on Journals](LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank.md)
+###### [VAT on Advance Payment to Supplier](LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor.md)
+###### [VAT Application of Payment and Invoice](LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application.md)
+###### [VAT on Advance Receipt from Customer](LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md)
+###### [VAT Application of Receipt and Invoice](LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md)
+###### [VAT and TCS on Customer Advance](LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md)
+###### [VAT and TDS on Supplier Advance](LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice.md)
+##### VAT on Sales
 ###### [Exempted Sales](LocalFunctionality/India/GST-Exempted-Sales.md)
 ###### [Sale to Registered and Unregistered Customer](LocalFunctionality/India/GST-Sale-to-Registered-Unregistered-Customer.md)
 ###### [Sale to Foreign Customer](LocalFunctionality/India/GST-Sale-to-Foreign-Customer-Service.md)
 ###### [Sale to Registered Customer with Overseas POS](LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS.md)
-###### [GST and TCS on Sales Transaction](LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md)
-###### [GST Kerala Flood Cess](LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales.md)
-##### GST on Sales Return
+###### [VAT and TCS on Sales Transaction](LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md)
+###### [VAT Kerala Flood Cess](LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales.md)
+##### VAT on Sales Return
 ###### [Sale Return from Registered and Unregistered Customer](LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer.md)
 ###### [Sale Return from Registered Customer with Overseas POS](LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS.md)
-##### GST on Transfer
-###### [GST Stock Transfer](LocalFunctionality/India/GST-Stock-Transfer.md)
-###### [GST Service Transfer](LocalFunctionality/India/GST-Service-Transfer.md)
-##### GST on Bank Charge
-###### [GST Bank Charges Overview](LocalFunctionality/India/GST-Bank-Charges-Overview.md)
-###### [GST Bank Charges Transaction](LocalFunctionality/India/GST-Bank-Charges-Transaction.md)
-##### GST TDS/TCS
-###### [GST TDS TCS Overview](LocalFunctionality/India/GST-TDS-TCS-Overview.md)
-###### [GST TCS on Payment](LocalFunctionality/India/GST-TCS-on-Payment.md)
-###### [GST TDS TCS on Receipt](LocalFunctionality/India/GST-TDS-TCS-on-Receipt.md)
-##### GST Adjustments/Periodic Activities
-###### [GST Credit and Liability Adjustment](LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md)
-###### [GST Reconciliation](LocalFunctionality/India/GST-Reconciliation.md)
-###### [GST E-Way Bill](LocalFunctionality/India/GST-E-Way-Bill.md)
-###### [GST Input Cedit Adjustment](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
-###### [GST Settlement](LocalFunctionality/India/GST-Settelement.md)
-###### [GST E-Invoice](LocalFunctionality/India/GST-E-Invoice.md)
-##### GST Cess
-###### [GST Cess Basic Setup](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
-###### [GST Cess Calculation](LocalFunctionality/India/GST-Cess-Calculations.md)
-##### GST on Service Management
-###### [GST on Service Management](LocalFunctionality/India/GST-Service-Management.md)
-##### GST Input Service Distribution
-###### [GST Input Service Distribution Overview](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
-###### [GST Input Service Distribution Process](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
-###### [GST Input Service Distribution Transaction](LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md)
+##### VAT on Transfer
+###### [VAT Stock Transfer](LocalFunctionality/India/GST-Stock-Transfer.md)
+###### [VAT Service Transfer](LocalFunctionality/India/GST-Service-Transfer.md)
+##### VAT on Bank Charge
+###### [VAT Bank Charges Overview](LocalFunctionality/India/GST-Bank-Charges-Overview.md)
+###### [VAT Bank Charges Transaction](LocalFunctionality/India/GST-Bank-Charges-Transaction.md)
+##### VAT TDS/TCS
+###### [VAT TDS TCS Overview](LocalFunctionality/India/GST-TDS-TCS-Overview.md)
+###### [VAT TCS on Payment](LocalFunctionality/India/GST-TCS-on-Payment.md)
+###### [VAT TDS TCS on Receipt](LocalFunctionality/India/GST-TDS-TCS-on-Receipt.md)
+##### VAT Adjustments/Periodic Activities
+###### [VAT Credit and Liability Adjustment](LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md)
+###### [VAT Reconciliation](LocalFunctionality/India/GST-Reconciliation.md)
+###### [VAT E-Way Bill](LocalFunctionality/India/GST-E-Way-Bill.md)
+###### [VAT Input Cedit Adjustment](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
+###### [VAT Settlement](LocalFunctionality/India/GST-Settelement.md)
+###### [VAT E-Invoice](LocalFunctionality/India/GST-E-Invoice.md)
+##### VAT Cess
+###### [VAT Cess Basic Setup](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
+###### [VAT Cess Calculation](LocalFunctionality/India/GST-Cess-Calculations.md)
+##### VAT on Service Management
+###### [VAT on Service Management](LocalFunctionality/India/GST-Service-Management.md)
+##### VAT Input Service Distribution
+###### [VAT Input Service Distribution Overview](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
+###### [VAT Input Service Distribution Process](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
+###### [VAT Input Service Distribution Transaction](LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md)
 #### TDS
 ##### [TDS Overview](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS Transactions](LocalFunctionality/India/TDS-Transactions.md)
@@ -1172,7 +1184,7 @@
 #### Subcontracting
 ##### [Subcontracting Overview](LocalFunctionality/India/Subcontracting-001-Basic-Setup.md)
 ##### [Subcontracting Transactions](LocalFunctionality/India/Subcontracting-Transactions.md)
-##### [Create GST Liability](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
+##### [Create VAT Liability](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
 ##### [Subcontracting Report](LocalFunctionality/India/Subcontracting-Reports.md)
 
 ### Italy
@@ -1250,8 +1262,8 @@
 ##### [Payment Scenario 3 - Foreign Payment (LCY  to FCY)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
 ##### [Create Proposals](LocalFunctionality\Netherlands\how-to-create-proposals.md)
 ##### [Docket Reports](LocalFunctionality/Netherlands/docket-reports.md)
-##### [Enter and Post Cash and Bank or Giro Journals](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
-##### [Print Test Reports for Cash and Bank or Giro Journals](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
+##### [Enter and Post Cash and Bank or BACS / CHAPS Journals](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
+##### [Print Test Reports for Cash and Bank or BACS / CHAPS Journals](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
 ##### [Single Euro Payments Area (SEPA)](LocalFunctionality/Netherlands/single-euro-payments-area-sepa-.md)
 ##### [Activate SEPA Payments](LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md)
 ##### [Submit Supplier Payments Electronically in SEPA ISO 20022 Payment Format](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
@@ -1276,20 +1288,20 @@
 ##### [Withholding Tax](LocalFunctionality/NewZealand/withholding-tax.md)
 ##### [Set Up Withholding Tax](LocalFunctionality/NewZealand/how-to-set-up-withholding-tax.md)
 ##### [Set Up Revenue Types for Withholding Tax](LocalFunctionality\NewZealand\how-to-set-up-revenue-types-for-withholding-tax.md)
-##### [Set Up Goods and Services Tax Posting](LocalFunctionality/NewZealand/how-to-set-up-goods-and-service-tax-posting.md)  
+##### [Set Up Value Added Tax Posting](LocalFunctionality/NewZealand/how-to-set-up-goods-and-service-tax-posting.md)  
 ##### [Set Up Suppliers Without ABN for Calculating Withholding Tax](LocalFunctionality/NewZealand/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)
 ##### [Calculate and Post Withholding Tax Settlements](LocalFunctionality/NewZealand/how-to-calculate-and-post-withholding-tax-settlements.md)
 ##### [View Withholding Tax Entries](LocalFunctionality\NewZealand\how-to-view-withholding-tax-entries.md)
 ##### [View Posted Tax Credit Memos](LocalFunctionality/NewZealand/how-to-view-posted-tax-credit-memos.md)  
 ##### [View Posted Tax Invoices](LocalFunctionality/NewZealand/how-to-view-posted-tax-invoices.md)
 ##### [Adjust Settlement Exchange Rates for VAT Entries](LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
-##### [Calculate Goods and Services Tax on Prepayments](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)
-##### [Print Goods and Services Tax Settlement Reports](LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports.md)
+##### [Calculate Value Added Tax on Prepayments](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)
+##### [Print Value Added Tax Settlement Reports](LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports.md)
 #### Banking & Payments
 ##### [Compare Bank Cash Flow](LocalFunctionality/NewZealand/how-to-compare-bank-cash-flow.md)
 ##### [Create Cheque Instalments](LocalFunctionality/NewZealand/how-to-create-check-installments.md)
 ##### [Electronic Funds Transfer](LocalFunctionality/NewZealand/electronic-funds-transfer-eft-.md)
-##### [Print Deposit Slip Reports](LocalFunctionality/NewZealand/how-to-print-deposit-slip-reports.md)
+##### [Print Paying-In Slip Reports](LocalFunctionality/NewZealand/how-to-print-deposit-slip-reports.md)
 ##### [Print Bank Account Reconciliation Reports](LocalFunctionality/NewZealand/how-to-print-bank-account-reconciliation-reports.md)
 #### Core Finance
 ##### [Calculating Distribution Amounts](LocalFunctionality/NewZealand/calculating-distribution-amounts.md)
@@ -1333,7 +1345,7 @@
 ##### [Cancel Payments](LocalFunctionality/Norway/how-to-cancel-payments.md)  
 ##### [Delete Remittance Payment Orders](LocalFunctionality/Norway/how-to-delete-remittance-payment-orders.md)  
 ##### [Export Remittance Payments](LocalFunctionality/Norway/how-to-export-remittance-payments.md)
-##### [Norwegian Giro and OCR-B Font](LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font.md)
+##### [Norwegian BACS / CHAPS and OCR-B Font](LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font.md)
 ##### [Set Up OCR Payments](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 ##### [Import and Post OCR Payments](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 ##### [Print the OCR Journal Test Report](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
@@ -1544,7 +1556,6 @@
 ##### [Enter Statutory Information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 ##### [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
-##### [Enter External Document Numbers](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 
 ### United States
 #### [Local Functionality in the US Version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
@@ -1599,6 +1610,7 @@
 ### [Viewing Table Information](admin-view-table-information.md)
 ### [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
 ### [Enabling New Features Ahead of Time](admin-feature-management.md)
+### [Onboard Users with Checklists](admin-checklist.md)
 ## Customising Business Central
 ### [Customisation Overview](ui-customizing-overview.md)
 ### [Customise Pages for Profiles](ui-personalization-manage.md)
