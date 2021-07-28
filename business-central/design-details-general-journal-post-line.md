@@ -1,5 +1,5 @@
 ---
-title: Design Details - General Journal Post Line | Microsoft Docs
+title: Design Details - General Journal Post Line
 description: This topic provides insight into the concepts and principles that are used to redesign the general journal posting line feature in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8492c83437be4cd850bafdaaa5dc70d00a075674
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 69a7c92dede230f90b0982d866a48d831b933046
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215235"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322454"
 ---
 # <a name="design-details-general-journal-post-line"></a>Design Details: General Journal Post Line
 

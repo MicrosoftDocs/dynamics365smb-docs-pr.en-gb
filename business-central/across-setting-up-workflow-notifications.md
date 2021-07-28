@@ -1,19 +1,19 @@
 ---
-title: Workflow Notifications
-description: Many workflow responses are about notifying a user that an event has occurred that they must act on. For example, on one workflow step, the event can be that User 1 requests approval of a new record, and the response is that a notification is sent to User 2, the approver. On the next workflow step, the event can be that User 2 approves the record, and the response is that a notification is sent to User 3 to start a related processing of the approved record. For workflow steps that are about approval, each notification is tied to an approval entry.
+title: Setting up Workflow Notifications
+description: This topic tells you how to set up workflow notifications to alert a user that an event has occurred that they must react to; a workflow response is required.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d72c3ba220c98d0c77806466f467ab233b3db65c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 80d796a827f2c0196c6590c89de04a1945938313
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787053"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320621"
 ---
 # <a name="workflow-notifications"></a>Workflow Notifications
 

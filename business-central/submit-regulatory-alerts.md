@@ -1,19 +1,19 @@
 ---
-title: Submit Regulatory Alerts | Microsoft Docs
-description: If you know about new legislation that you think requires feature support in Business Central, you can follow this guide to submit a regulatory alert to the product team.
+title: Submit Regulatory Alerts
+description: If you know about new legislation that requires feature support in Business Central, you can follow this guide to submit a regulatory alert to the product team.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784847"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319988"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Submit Alerts about Country/Region-Specific Regulatory Features
 
@@ -48,7 +48,7 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 
         |Field        |Description                               |
         |-------------|------------------------------------------|
-        |Title  | Enter a descriptive title to identify the area of impact. For example, enter *Changes in invoice document as of July 1, 2019*. |
+        |Title  | Enter a descriptive title to identify the area of impact. For example, enter *Changes in invoice document as at July 1, 2019*. |
         |Description  | Enter a brief overview of the law. Your description should focus on issues that are relevant to enterprise resource planning (ERP), so that users can understand the requirements at a high level without having to read the legislation first.|
         |Country  | Specify the country or region that the legislation applies to.|
         |Industry| Specify the industry, if the requirement applies only to specific industries. For example, choose **Public sector**, **Retail**, or **Manufacturing**.|

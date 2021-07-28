@@ -1,6 +1,6 @@
 ---
-title: Design Details - Item Tracking | Microsoft Docs
-description: This topic provides an overview of design details for item tracking.
+title: Design Details - Item Tracking
+description: The item tracking system provides easy handling of serial and lot numbers, which may be needed for meeting legal requirements or assist with warranty handling.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6e5f20d2f450f3f544cc2f7023160e4e9babdf33
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 788d003324ccf7314d316f201cc561e0a2877933
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772811"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320296"
 ---
 # <a name="design-details-item-tracking"></a>Design Details: Item Tracking
 As the flow of goods in today's supply chain becomes more and more complex, the ability to keep track of items is increasingly important to the companies involved. Monitoring an item's transaction flow is a legal requirement in the business of medical and chemical supply, but other businesses may want to monitor products with warranties or expiration dates for customer service reasons.  

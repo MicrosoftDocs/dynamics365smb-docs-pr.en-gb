@@ -1,6 +1,6 @@
 ---
-title: Business Intelligence| Microsoft Docs
-description: Capture and analyse business data, such as sales figures, purchases, operational expenses, employee salaries, and budgets, that can be valuable information for business intelligence or for decision making.
+title: Business Intelligence
+description: Business Central contains a number of features that help you gather, analyse, and share valuable company data for business intelligence and decision making.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 6a3d3e9aec61b3dab7673c7b99b482f80501a919
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 866cfa9c35e7af7abb17ba9c9171244e2107de4d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786569"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323750"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Businesses capture a tremendous amount of data through daily activity. This data, which reflects such things as the organisation's sales figures, purchases, operational expenses, employee salaries, and budgets, can become valuable information, or business intelligence, for decision makers. [!INCLUDE[prod_short](includes/prod_short.md)] contains a number of features that help you gather, analyze, and share your company data.
@@ -35,14 +35,14 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create new account schedules to define financial statements for reporting or for display as charts.|[Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)|
 |Analyse your financial performance by setting up KPIs based on account schedules, which you then publish as web services. The published account-schedule KPIs can be viewed on a web site or imported to Microsoft Excel using OData web services.|[Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
 |Set up analysis views to analyse data using dimensions.|[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)|
-|Create new analysis reports for sales, purchases, and inventory, and set up analysis templates.|[Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
+|Create new analysis reports for sales, purchases, and stock, and set up analysis templates.|[Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
 |Enable global financial reporting by to international accounting organisations with the eXtensible Business Reporting Language standard.|[Create Reports with XBRL](bi-create-reports-with-xbrl.md)|
 |Change the database access intent on reports, pages of the type API, and queries to reduce load and improve performance.|[Manage Database Access Intent](admin-data-access-intent.md)|
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)    
 [Using Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Closing Fiscal Periods](year-close-years-periods.md)  
+[Closing Financial Periods](year-close-years-periods.md)  
 [Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

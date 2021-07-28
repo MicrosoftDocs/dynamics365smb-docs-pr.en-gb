@@ -1,6 +1,6 @@
 ---
-title: Design Details - Item Tracking Posting Structure | Microsoft Docs
-description: Learn how to use item ledger entries as the primary carrier of item tracking numbers.
+title: Design Details - Item Tracking Posting Structure
+description: Learn how to use item ledger entries as the primary carrier of item tracking numbers in the Item Tracking Posting Structure.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 0786853d6b5882306dfb887cbb396d1a8d009f62
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 186f4d88fe7fe2b772ec579727fd62d4985c0cf9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774871"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320346"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Design Details: Item Tracking Posting Structure
-To align with inventory costing functionality and to obtain a simpler and more robust solution, item ledger entries are used as the primary carrier of item tracking numbers.  
+To align with stock costing functionality and to obtain a simpler and more robust solution, item ledger entries are used as the primary carrier of item tracking numbers.  
   
 Item tracking numbers on order network entities and non-order network entities are specified in the **Reservation Entry** table (T337). Item tracking numbers that are related to historical information are retrieved directly from the item ledger entries that are related to the transaction in question. This means that item ledger entries reflect the item tracking specification of the posted order line.  
   

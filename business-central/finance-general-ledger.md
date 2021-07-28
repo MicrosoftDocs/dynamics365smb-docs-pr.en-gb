@@ -1,6 +1,6 @@
 ---
-title: Learn About General Ledger and COA| Microsoft Docs
-description: Describes the general ledger, the chart of accounts, and account categories.
+title: Understanding the General Ledger and COA
+description: Describes general ledger, the chart of accounts, and account categories. Use the General Ledger Setup page to specify handling accounting issues in your company.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f242bce26f55fe446ac8dc96335a8da835dd259c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774012"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321121"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Understanding the General Ledger and the COA
 
@@ -31,7 +31,7 @@ On the **General Ledger Setup** page, you specify how to handle certain accounti
 * Address formats  
 * Financial reporting  
 
-Similarly, on the **General Posting Setup** page, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. For more information, see [Posting Group Setups](finance-posting-groups.md).  
+Similarly, on the **General Posting Setup** page, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, suppliers, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. For more information, see [Posting Group Setups](finance-posting-groups.md).  
 
 > [!TIP]
 > The **General Ledger Setup** page includes generic fields and fields that are particular to your country or region. If you are not sure of the meaning of a field, we suggest you work with your accountant to determine whether it is of relevance to your organisation.  
@@ -58,19 +58,29 @@ You create a category group by indenting other subcategories under a line on the
 
 You can specify whether the accounts in each subcategory must be included in specific types of reports. The account categories help define the layout of your financial statements.  
 
-For example, the default balance statement has a subcategory for Cash under Current Assets. If you want the balance statement consider petty cash and chequing, you can:  
+### <a name="example"></a>Example
 
-1. Add two new subcategories. One for petty cash, and one for your current account.  
+For example, the default balance statement has a subcategory for *Cash* under *Current Assets*. You want the balance statement consider petty cash and checking, so you take the following steps:  
+
+1. Add two new subcategories:
+
+    * One for petty cash  
+    * One for your current account  
 2. Specify the additional report definition **Cash Accounts** for these subcategories.  
 3. Indent them under the **Cash** subcategory.  
 
-The next time you generate account schedules your balance statement will show a total balance for cash and two lines with balances for petty cash and the current account.  
+The next time you generate account schedules, your balance statement will show a total balance for cash and two lines with balances for petty cash and the current account.  
+
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Access to create and edit accounts and account categories
+
+In a small organisation, such as the CRONUS demonstration company, most users can edit the chart of accounts, except users with a TEAM MEMBER licence. However, in larger organisations, access to edit the chart of accounts is limited by roles and permissions. If you are an administrator, or you have the *Business manager* or *Accountant* role, you can check the permissions for all users to make sure the right people have access to the relevant tables. For more information, see [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
 ## <a name="see-also"></a>See Also
 
 [Finance](finance.md)  
 [Setting Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
+[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

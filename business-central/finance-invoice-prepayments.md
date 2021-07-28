@@ -1,6 +1,6 @@
 ---
-title: Invoice Prepayments | Microsoft Docs
-description: Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You might require a deposit before you manufacture items to order, or you might require payment before you ship items to a customer. The prepayments functionality enables you to invoice and collect deposits required from customers or to remit deposits to vendors. Thus, you can ensure that all payments are posted against an invoice.
+title: Invoice Prepayments
+description: Learn how to use prepayments to invoice and collect deposits from customers and remit deposits to suppliers in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,26 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 511b506d75ad735d5b3b713cd24c802c7cb6d274
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 57326180b6adca053896b3e4da3362f2f6b3e310
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770348"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322536"
 ---
 # <a name="invoicing-prepayments"></a>Invoicing Prepayments
 
-Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You might require a deposit before you manufacture items to order, or you might require payment before you ship items to a customer. The prepayments functionality enables you to invoice and collect deposits required from customers or to remit deposits to vendors. Thus, you can ensure that all payments are posted against an invoice.  
+Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You might require a deposit before you manufacture items to order, or you might require payment before you ship items to a customer. The prepayments functionality enables you to invoice and collect deposits required from customers and remit deposits to suppliers. Thus, you can ensure that all payments are posted against an invoice.  
 
- Prepayment requirements can be defined for a customer or vendor for all items or selected items. After you complete the required setup, you can generate prepayment invoices from sales and purchase orders for the calculated prepayment amount. You can change the amounts on the invoice as needed. For example, you can specify a total amount for the entire order. You can also send additional prepayment invoices if, for example, additional items are added to the order. You can increase quantities or add new lines to an order after issuing a prepayment, and then you can post another prepayment invoice. If you want to delete a line for which a prepayment has already been invoiced, you must issue a prepayment credit memo before you can delete the line.  
+ Prepayment requirements can be defined for a customer or supplier for all items or selected items. After you complete the required setup, you can generate prepayment invoices from sales and purchase orders for the calculated prepayment amount. You can change the amounts on the invoice as needed. For example, you can specify a total amount for the entire order. You can also send additional prepayment invoices if, for example, additional items are added to the order. You can increase quantities or add new lines to an order after issuing a prepayment, and then you can post another prepayment invoice. If you want to delete a line for which a prepayment has already been invoiced, you must issue a prepayment credit memo before you can delete the line.  
 
  The following table describes a sequence of tasks, with links to the topics that describe them.
 
 |**To**|**See**|  
 |------------|-------------|  
-|Set up prepayment posting groups and number series, and set up default prepayment percentages for customers, vendors, and items.|[Set Up Prepayments](finance-set-up-prepayments.md)|
+|Set up prepayment posting groups and number series, and set up default prepayment percentages for customers, suppliers, and items.|[Set Up Prepayments](finance-set-up-prepayments.md)|
 |Create an order, adjust the prepayment amounts, and issue an invoice for prepayment amounts.|[Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md)|  
 |Issue an additional prepayment invoice, either for additional items or for an additional deposit on the original order, or issue a prepayment credit memo.|[Correct Prepayments](finance-how-to-correct-prepayments.md)|  
 

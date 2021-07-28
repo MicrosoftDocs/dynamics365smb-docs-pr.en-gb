@@ -1,6 +1,6 @@
 ---
-title: How to Create Journal Opening Balances | Microsoft Docs
-description: Business Central includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data with journals postings.
+title: How to Create Journal Opening Balances
+description: Batch jobs are provided to help transfer legacy account balances to a newly configured company. You can easily transfer this data with journals postings.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 5e1bb8e34e70d1d906850c157107b9b9701c6c50
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ac7fea479237d985204820d54953689566f5c2ac
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779864"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319545"
 ---
 # <a name="create-journal-opening-balances"></a>Create Journal Opening Balances
 
-[!INCLUDE[prod_short](includes/prod_short.md)] includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data with the customer journal, the vendor journal, the item journal, or the G/L journal.
+[!INCLUDE[prod_short](includes/prod_short.md)] includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data with the customer journal, the supplier journal, the item journal, or the G/L journal.
 
 The first step is to create a configuration package that includes the setup tables for those journals. The following procedure assumes that this step is completed. For more information, see [Set Up Company Configuration](admin-set-up-company-configuration.md). This procedure describes the subsequent steps, which include applying the package that is provided by a partner.  
 
@@ -31,9 +31,9 @@ Before you start, make sure that you are using the Administration Role Centre pa
 
     The new company does not contain information about journal opening balances.  
 
-2. Open the configuration worksheet and import existing data about customers, items, vendors, and the general ledger. For more information, see [Migrate Customer Data](admin-migrate-customer-data.md).  
+2. Open the configuration worksheet and import existing data about customers, items, suppliers, and the general ledger. For more information, see [Migrate Customer Data](admin-migrate-customer-data.md).  
 
-    Now you have master data in place. Next, you add the opening balances. The following steps describe how to create journal lines for G/L accounts, but the same apply to creating journal lines for customers, vendors, and items.  
+    Now you have master data in place. Next, you add the opening balances. The following steps describe how to create journal lines for G/L accounts, but the same apply to creating journal lines for customers, suppliers, and items.  
 3. Choose the **Create G/L Acct. Journal Lines** action.  
 4. Fill in the **Options** FastTab as appropriate, and set filters as needed. For example, in the **Journal Template** field, enter a name.  
 5. Choose the **OK** button. The records are now in the journal, but the amounts are empty.  
@@ -44,7 +44,7 @@ Before you start, make sure that you are using the Administration Role Centre pa
 10. Repeat the steps to import and post any other opening balances.  
 
 > [!TIP]
-> You can use the same batch jobs to add opening balances whenever you register a new customer or vendor that you have done business with before but not registered in [!INCLUDE [prod_short](includes/prod_short.md)]. Just search for the relevant task, and then choose the relevant link.
+> You can use the same batch jobs to add opening balances whenever you register a new customer or supplier that you have done business with before but not registered in [!INCLUDE [prod_short](includes/prod_short.md)]. Just search for the relevant task, and then choose the relevant link.
 
 ## <a name="see-also"></a>See Also
 

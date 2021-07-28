@@ -1,6 +1,6 @@
 ---
-title: Overview of Tasks to Configure Sales Processes | Microsoft Docs
-description: Outlines tasks to set up rules and values to define your sales policies and processes.
+title: Overview of Tasks to Configure Sales Processes
+description: Overview of tasks required to set up rules and values that define your sales policies and processes including general set-up and finance related sales set-up.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f344fb03f1447681676d5e1e13294bc7cefccb96
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775407"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318591"
 ---
 # <a name="setting-up-sales"></a>Setting Up Sales
 Before you can manage sales processes, you must configure the rules and values that define the company's sales policies.
@@ -35,8 +35,8 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 | Specify for individual customers or for all customers how sales documents are sent by default when you choose the **Post and Send** action. |[Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md) |
 | Set your email up to contain a summary of information in the sales document that is being sent. |[Send Documents by Email](ui-how-send-documents-email.md). |
 |Use an EU web service to verify a customer's VAT registration number.|[Verify VAT Registration Numbers](finance-setup-vat.md)|
-|Define the different incoterms that you offer to customers or that your vendors offer you.|[Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)|
-|Enter information about the different transportation vendors you use, including a link to their package tracking service.|[Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
+|Define the different incoterms that you offer to customers or that your suppliers offer you.|[Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)|
+|Enter information about the different transportation suppliers you use, including a link to their package tracking service.|[Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)

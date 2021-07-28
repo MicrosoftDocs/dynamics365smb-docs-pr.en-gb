@@ -1,6 +1,6 @@
 ---
-title: Manage Segments and Select Contacts to Include| Microsoft Docs
-description: Outlines the tasks to create a segment to select a group of contacts according to specific criteria, for example, contacts in a particular industry that you want to target.
+title: Manage Segments and Select Contacts
+description: This topic outlines how to create a segment by selecting a group of contacts according to specific criteria to later target that segment with a campaign.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 04034f51379874f9d8755b229ef4b251af0be37e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a058433fdd95e4fc78502dd54fbc948fa11a183
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784424"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323600"
 ---
 # <a name="managing-segments"></a>Managing Segments
 You create segments to select a group of contacts according to specific criteria. For example, a segment could be the industry that the contacts belong to or your business relationship with the contacts. You can create a segment to select the contacts you want to target with a campaign.

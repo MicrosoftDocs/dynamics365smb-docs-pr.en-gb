@@ -1,6 +1,6 @@
 ---
-title: Application Compliance | Microsoft Docs
-description: This content contains information about application compliance in relation to Business Central.
+title: Application Compliance
+description: This topic explains application compliance in relation to Business Central like the International Financial Reporting Standards, local functionality, and GDPR.
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: c9511a0737e5324f311bb5489cce0d194c7e68ee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d1feca5e6eddd6115d10d1395eecccde3b09039f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788465"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323725"
 ---
 # <a name="application-compliance"></a>Application Compliance
 
@@ -59,14 +59,14 @@ Deliver integrated information, aligned processes, and easy-to-use tools to help
 ### <a name="tailor-account-schedules-to-your-needs"></a>Tailor account schedules to your needs
 
 - Define the structure of your company's chart of accounts based on business requirements and applicable regulatory standards
-- Create accounts and handle complex processes related to a spectrum of business activities, including inventory valuation, foreign currencies, segment reporting, and departures from local GAAPs.
-- Control the level of detail for each recorded transaction    and select detailed registration for specific types of transactions, such as fixed assets and accounts payable.
+- Create accounts and handle complex processes related to a spectrum of business activities, including stock valuation, foreign currencies, segment reporting, and departures from local GAAPs.
+- Control the level of detail for each recorded transaction    and select detailed registration for specific types of transactions, such as fixed assets and purchase ledger.
 - Tailor schedule calculations and display for financial reporting, or export the information to Microsoft Excel for further analysis.
 
 ### <a name="improve-information-validity"></a>Improve information validity
 
 - Configure data fields to accept only information in the correct format, such as the correct number of decimal places or alphanumeric patterns.
-- Help ensure information is complete with application controls such as requiring a vendor invoice number to be entered before a purchase order can be posted.
+- Help ensure information is complete with application controls such as requiring a supplier invoice number to be entered before a purchase order can be posted.
 - Reduce the risk of inaccurate information    or tampering and help protect sensitive information with access to information based on job role.
 - Prohibit access, provide read-only access, or enable full-access users to add, edit, or delete information.
 - Easily identify and resolve discrepancies    with a    reconciliation feature that retrieves current bank account and transaction information and compares it to general ledger posts.
@@ -74,7 +74,7 @@ Deliver integrated information, aligned processes, and easy-to-use tools to help
 
 ### <a name="comply-quickly-with-discovery-requests-and-reporting-demands"></a>Comply quickly with discovery requests and reporting demands
 
-- Save time    when you create    standard reports that use common business parameters and criteria to satisfy typical reporting needs, ranging from order summaries to ageing accounts receivable.
+- Save time    when you create    standard reports that use common business parameters and criteria to satisfy typical reporting needs, ranging from order summaries to ageing sales ledger.
 - Perform complex reviews with basic or    advanced business analytics functionality.
 - Create custom reports and display in product and by utilizing integration to Microsoft PowerBI.
 - Speed    transmission of    financial information to customers, shareholders, regulatory agencies, and the public with XML-based XBRL documents that support the exchange of financial information across different software and technologies, including the Internet.

@@ -1,6 +1,6 @@
 ---
-title: Date Calculation for Purchases | Microsoft Docs
-description: The application automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.
+title: Date Calculation for Purchases
+description: The application automatically calculates the date on which you must order an item to have it in stock on a certain date.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b65e082355623f422cfb03698f6413fdb04f0daf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6758c631fcddf157894ed06a483b811342a44e0d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780264"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321046"
 ---
 # <a name="date-calculation-for-purchases"></a>Date Calculation for Purchases
 
-[!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.  
+[!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the date on which you must order an item to have it in stock on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.  
 
 If you specify a requested receipt date on a purchase order header, then the calculated order date is the date on which the order must be placed to receive the items on the date that you requested. Then, the date on which the items are available for picking is calculated and entered in the **Expected Receipt Date** field.  
 
@@ -44,7 +44,7 @@ If you enter a purchase order line without a requested delivery date, then the *
 - order date + lead time calculation = planned receipt date  
 - planned receipt date + inbound whse. handling time + safety lead time = expected receipt date  
 
-If you change the order date on the line, such as when items are not available at your vendor until a later date, then the relevant dates on the line are automatically recalculated.  
+If you change the order date on the line, such as when items are not available at your supplier until a later date, then the relevant dates on the line are automatically recalculated.  
 
 If you change the order date on the header, then that date is copied to the **Order Date** field on all the lines, and all the related date fields are then recalculated.  
 
@@ -52,8 +52,8 @@ If you change the order date on the header, then that date is copied to the **Or
 
 [!INCLUDE[prod_short](includes/prod_short.md)] uses the value from the **Lead Time Calculation** field on the purchase order line to calculate the order and the expected receipt dates.  
 
-You can manually specify the value on the line or let the program use values that are defined on the vendor card, item card, stockkeeping unit card, or the item vendor catalogue.
-However, the lead time value on the vendor card is used only if a lead time is not specified on the item card, stockkeeping unit card, or the item vendor catalogue for the item. This is also the escalating order of priority for these values. If they are all provided, the lead time from the vendor card has the lowest priority, and the lead time from the item vendor catalogue has the highest priority.  
+You can manually specify the value on the line or let the program use values that are defined on the supplier card, item card, stockkeeping unit card, or the item supplier catalogue.
+However, the lead time value on the supplier card is used only if a lead time is not specified on the item card, stockkeeping unit card, or the item supplier catalogue for the item. This is also the escalating order of priority for these values. If they are all provided, the lead time from the supplier card has the lowest priority, and the lead time from the item supplier catalogue has the highest priority.  
 
 ## <a name="see-also"></a>See Also
 

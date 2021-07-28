@@ -1,6 +1,6 @@
 ---
-title: Invoice your bookings in Business Central | Microsoft Docs
-description: Learn how you can do bulk invoicing from Microsoft Bookings in Business Central .
+title: Invoice your bookings in Business Central
+description: This topic explains learning how you can perform bulk invoicing from Microsoft Bookings in Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 06095fdb0fac291490eeef5a085264ea75581283
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 236e1732f3bd7100f00f39a41cbec169b6cbd70f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780864"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324033"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Bulk Invoicing for Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
 If your company uses the Bookings app in Microsoft 365, you can do bulk invoicing for appointments. The **Uninvoiced Bookings** page in [!INCLUDE[prod_short](includes/prod_short.md)] provides a list of the company's completed bookings. In this page you can quickly select the appointments that you want to invoice and create draft invoices for the services provided.  

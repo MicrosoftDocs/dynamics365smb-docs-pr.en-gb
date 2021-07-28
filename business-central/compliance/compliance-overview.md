@@ -1,6 +1,6 @@
 ---
-title: Compliance | Microsoft Docs
-description: This content contains information about compliance in relation to Business Central.
+title: Compliance Overview
+description: Overview of how Business Central functionality is built on a platform that makes it easy for customers to comply with compliance and regulatory legislation.
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
@@ -10,16 +10,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 527a63fb9aff0484be2561673ab815090d039fbd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10585896eadc9cbd9eec6f451d734b98b37b0133
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788415"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318919"
 ---
-# <a name="compliance"></a>Compliance
+# <a name="compliance-overview"></a>Compliance Overview
 
 This content contains information about compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)].  
 

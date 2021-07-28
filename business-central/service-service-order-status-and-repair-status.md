@@ -1,6 +1,6 @@
 ---
 title: Service Order Status and Repair Status
-description: The Status field in the Service Order page and the service item repair status, which is represented by the Repair Status Code field in the Service Order page have a certain relationship in Service Management. The service order status reflects the repair status of all the service items in the service order.
+description: The service order status reflects the repair status of all the service items in the service order.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08fba6795f288e21c0de457a70ff7fa32e7c2822
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 88596c87cf255a52dcb49cdd0295822152b22928
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770670"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322959"
 ---
 # <a name="service-order-status-and-repair-status"></a>Service Order Status and Repair Status
 
@@ -39,14 +39,14 @@ When you convert a service quote to a service order, the repair status of each s
 Each repair status is linked to a particular service order status. The options for the service order status are as follows:
 
 * **Pending**
-* **In Process**
+* **In Progress**
 * **On Hold**
 * **Finished**
 
 The repair status options are as follows:
 
 * **Initial**
-* **In Process**
+* **In Progress**
 * **Referred**
 * **Partly Serviced**
 * **Quote Finished**
@@ -59,9 +59,9 @@ The repair status options are as follows:
 
 The service order status **Pending** indicates that the service can start or continue at any time. Therefore, the repair status options of **Initial**, **Referred**, **Partly Serviced**, and **Spare Part Received** can be linked to this service order status.  
 
-### <a name="in-process"></a>In Process
+### <a name="in-process"></a>In Progress
 
-The service order status **In Process** indicates that the service is in process. Therefore, the repair status options **In Process** and **Spare Part Ordered** can both be linked to this service order status. If you link the **Spare Part Ordered** status to an **In Process** service order status, you must also link the **Spare Part Received** status to this service order status.  
+The service order status **In Progress** indicates that the service is in progress. Therefore, the repair status options **In Progress** and **Spare Part Ordered** can both be linked to this service order status. If you link the **Spare Part Ordered** status to an **In Progress** service order status, you must also link the **Spare Part Received** status to this service order status.  
 
 ### <a name="on-hold"></a>On Hold
 
@@ -83,12 +83,12 @@ Then, when you create a new service order and you add service items to it, the *
 
 A typical priority level assignment could be as follows:  
 
-* In Process - High  
+* In Progress - High  
 * Pending - Medium high  
 * On Hold - Medium low  
 * Finished - Low  
 
-For example, if one service item has the repair status **Initial**, linked to the service order status **Pending**, another has the repair status **In Process**, linked to the service order status **In Process**, and a third has the repair status **Spare Part Ordered**, linked to the service order status **On Hold**, the resulting service order status will be **In Process** because this has the highest priority.  
+For example, if one service item has the repair status **Initial**, linked to the service order status **Pending**, another has the repair status **In Progress**, linked to the service order status **In Progress**, and a third has the repair status **Spare Part Ordered**, linked to the service order status **On Hold**, the resulting service order status will be **In Progress** because this has the highest priority.  
 
 ## <a name="see-also"></a>See Also
 

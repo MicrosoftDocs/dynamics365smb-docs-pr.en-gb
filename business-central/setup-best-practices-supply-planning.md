@@ -1,6 +1,6 @@
 ---
-title: Setup Best Practices - Supply Planning | Microsoft Docs
-description: Supply planning is a critical business area. When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and inventory costs.
+title: Setup Best Practices - Supply Planning
+description: When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and stock costs.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c583598038a1c79c0bba32aec24363a56b2830e5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 423d26aad7fe708cf51d614449cb7a3666c27dd6
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778054"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320038"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Setup Best Practices: Supply Planning
-Supply planning is a critical business area. When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and inventory costs.  
+Supply planning is a critical business area. When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and stock costs.  
 
- It is not possible to prescribe one optimal setup of all planning fields as this varies from company to company because of business variables, such as market situation and business strategy. However, there are best practices for selecting options in items cards and global setup fields to help get the company started with timely and cost-effective inventory flows.  
+ It is not possible to prescribe one optimal setup of all planning fields as this varies from company to company because of business variables, such as market situation and business strategy. However, there are best practices for selecting options in items cards and global setup fields to help get the company started with timely and cost-effective stock flows.  
 
- The following topics provide best-practice information about how to set up selected planning fields that are key to inventory and supply planning.  
+ The following topics provide best-practice information about how to set up selected planning fields that are key to stock and supply planning.  
 
 |**To**|**See**|  
 |------------|-------------|  
