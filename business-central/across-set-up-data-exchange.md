@@ -1,6 +1,6 @@
 ---
-title: Set up data exchange | Microsoft Docs
-description: Set up the data exchange framework in Business Central.
+title: Set up data exchange to send and receive files
+description: Set up the data exchange framework in order to exchange data with external files; to send and receive electronic documents or import and export bank files.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 70672fcab8c2614de58bd152288ba3543fe6955a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0b94d258a07ba65c81f329144d12a8b4e10093a9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787089"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325100"
 ---
 # <a name="setting-up-data-exchange"></a>Setting Up Data Exchange
 Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved files. In addition, you must set up related areas, such as the customers that you send electronic invoices to, or the AMC Banking 365 Fundamentals extension if you use the external service provider to convert your bank files. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
@@ -29,8 +29,8 @@ Before you can send and receive electronic documents or import and export bank f
 |Set up the preconfigured document exchange service to enable sending and receiving electronic documents from and to [!INCLUDE[prod_short](includes/prod_short.md)].|[Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md)|  
 |Set up the preconfigured OCR service to turn PDF or image files into electronic documents that can be converted to document records in [!INCLUDE[prod_short](includes/prod_short.md)]|[Set Up Incoming Documents](across-how-setup-income-documents.md)|  
 |Set up one of two preconfigured services for updated exchange rates to get the latest currency exchange rates into the **Currencies** page.|[Update Currency Exchange Rates](finance-how-update-currencies.md)|  
-|Set up various master data, such as company information, customers, vendors, items, and units of measure, related to mapping data in [!INCLUDE[prod_short](includes/prod_short.md)]|[Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
-|Set up a bank account, a vendor, and a payment journal for SEPA credit transfer.|[Set Up SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
+|Set up various master data, such as company information, customers, suppliers, items, and units of measurement, related to mapping data in [!INCLUDE[prod_short](includes/prod_short.md)]|[Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
+|Set up a bank account, a supplier, and a payment journal for SEPA credit transfer.|[Set Up SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
 |Prepare bank account formats, payment methods, and customer agreements for SEPA direct debit.|[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)|  
 |Set up user authentication and the URL of the AMC Banking 365 Fundamentals extension provider that is required to have bank files converted to your bank’s format.|[Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)|  
 |Set up and enable an external service that enables you to import bank statements directly as bank feeds.|[Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md)|  

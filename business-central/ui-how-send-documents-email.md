@@ -1,5 +1,5 @@
 ---
-title: Set Up Document-Specific Email Content | Microsoft Docs
+title: Send Documents and Emails
 description: You can define content to insert into the body of an email message, for example, a PayPal link. You can also attach documents to email messages.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,15 +8,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a4304b80e453296a3012d9e68ecc416371ee0ad3
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: af5bdf35a2868e735aed32c120a2dcc943391e3e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063409"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435251"
 ---
 # <a name="send-documents-and-emails"></a>Send Documents and Emails
-You can easily share information and documents, such as sales and purchase orders and invoices, by email directly from [!INCLUDE[prod_short](includes/prod_short.md)]], without having to open an email app. 
+
+You can easily share information and documents, such as sales and purchase orders and invoices, by email directly from [!INCLUDE[prod_short](includes/prod_short.md)]], without having to open an email app.  
 
 You can send almost all types of documents as PDF attachments. Alternatively, you can set up a report layout that includes information from the document in the email text, along with text that makes the email more friendly, for example, a standard greeting. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
@@ -25,12 +26,13 @@ When you send invoices, you can make it easier for customers to make payments th
 To enable emails from within [!INCLUDE[prod_short](includes/prod_short.md)], start the **Set Up Email** assisted setup guide. For more information, see [Set Up Email](admin-how-setup-email.md).
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)]] supports only outbound email communications. You cannot also receive replies from within the app.
+> [!INCLUDE[prod_short](includes/prod_short.md)] supports only outbound email communications. You cannot also receive replies from within the app.
 
 ## <a name="to-send-documents-by-email"></a>To send documents by email
+
 This procedure describes how attach a posted sales invoice to an email as a PDF file, and with document-specific email text. <!--update this-->
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.
 2. Select the invoice, and then choose the **Print/Send** action.
 3. In the **Email** field, choose **Yes (Prompt for Settings)**. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
     
@@ -49,21 +51,27 @@ This procedure describes how attach a posted sales invoice to an email as a PDF 
 > If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field on the **Send Document to** page. In that case, the **Send Email** page will not open. See Step 4. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>To compose and send an email
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Accounts**, and then choose the related link.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Accounts**, and then choose the related link.
 2. Choose the account to send the email from, and then choose the **Compose Email** action.
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documents marked as printed when they are sent
+
 Some documents in [!INCLUDE[prod_short](includes/prod_short.md)] have a field that specifies how many times the document has been printed. The number in that field <!--"that field?" need a name...--> is also updated if you send the document by email because a PDF file is generated for it. The number is updated even if you don't send the email. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-## <a name="sent-emails-and-your-email-outbox"></a>Sent Emails and Your Email Outbox
+## <a name="sent-emails-and-your-email-outbox"></a>Sent emails and your email outbox
+
 [!INCLUDE[prod_short](includes/prod_short.md)] stores the emails that you send on the **Sent Items** page. That's to let you resend emails, or forward them to someone else. If you can't find an email in your sent items, look for it on the **Email Outbox** page. 
 
 > [!NOTE]
 > Depending on the extension that your company uses for email, administrators can see a list of messages that everyone has sent, but not the content of the messages
 
-The **Email Outbox** is where you'll find the emails that you saved as drafts, and emails that failed to send, for example, if the email address was invalid. For messages that failed to send, you can choose **Show Error** or **Investigate Error** to troubleshoot the problem.
+The **Email Outbox** is where you'll find the emails that you saved as drafts, and emails that failed to send, for example, if the email address was invalid. For messages that failed to send, you can choose **Show Error** or **Investigate Error** to troubleshoot the problem.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/set-up-email/)
 
 ## <a name="see-also"></a>See Also
+
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Set up Email](admin-how-setup-email.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  

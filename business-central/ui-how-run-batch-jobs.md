@@ -12,22 +12,22 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 05b65f5b001259fff25d0f59dfc6267d9ee00c7f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 42cb5f19dde06211136b0b3b276fed2ba267ec62
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782260"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435276"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Run Batch Jobs and XMLports
-A batch job is a routine that processes data in batches, for example the **Adjust Exchange Rates** batch job. There are batch jobs that perform periodic accounting activities, such as closing the income statement at the end of a fiscal year. Many batch jobs do calculation work, such as calculation of finance charges, exchange rate adjustment, and calculation of unit prices.
+A batch job is a routine that processes data in batches, for example the **Adjust Exchange Rates** batch job. There are batch jobs that perform periodic accounting activities, such as closing the income statement at the end of a financial year. Many batch jobs do calculation work, such as calculation of finance charges, exchange rate adjustment, and calculation of unit prices.
 
 A batch job is like a report, except the batch job uses the result of its work to update information directly, instead of printing the results.
 
 You can schedule when a batch job runs. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
 ## <a name="to-run-a-batch-job"></a>To run a batch job
-1. To open the request page for the relevant batch job, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the batch job, and then choose the related link.
+1. To open the request page for the relevant batch job, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the batch job, and then choose the related link.
 2. If there is an **Options** FastTab for the batch job, fill in the fields to determine what the batch job will do.
 3. The page may contain one or more FastTab with filters, which you can use to limit the data included in the batch job. You can enter criteria in the suggested filters or add more filters.
 4. Choose the **OK** button to start the batch job.

@@ -1,6 +1,6 @@
 ---
 title: Set Up a Location Card and Define Transfer Routes
-description: You create a location card for each place you store stock items, for example, a warehouse or distribution centre, and set up routes to transfer items between locations.
+description: If you buy, store, or sell items at more than one place or warehouse, you must set up each location with a location card and define transfer routes.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 06/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0319f0c64dd46610aa82705257091bd9478ac14f
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: d22bbea911bed7e1ea3c756e0861111a26b5df0a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184331"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435579"
 ---
 # <a name="set-up-locations"></a>Set Up Locations
 
@@ -38,7 +38,7 @@ Choose the **Zones** or **Bins** action to view information about zones and bins
 
 ### <a name="to-create-a-location-card"></a>To create a location card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **Location Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Repeat steps 2 and 3 for every location where you want to keep stock.
@@ -52,7 +52,7 @@ Next, if you have multiple locations, you can define transfer routes between loc
 
 ### <a name="to-create-a-transfer-route"></a>To create a transfer route
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Routes**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Routes**, and then choose the related link.
 2. Alternatively, from any **Location Card** page, choose the **Transfer Routes** action.
 3. Choose the **New** action.
 4. On the **Location Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

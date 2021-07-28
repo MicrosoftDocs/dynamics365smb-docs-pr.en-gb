@@ -1,6 +1,6 @@
 ---
-title: Reconcile Bank Accounts| Microsoft Docs
-description: Describes how your inventory value is reconciled with the general ledger.
+title: Reconcile Bank Accounts
+description: This describes how to perform bank reconciliation with the **Bank Acc. Reconciliation** page; how your stock value is reconciled with the general ledger.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c87836658bfdf1dc8497e4d8771d77b315733913
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786814"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435427"
 ---
 # <a name="reconcile-bank-accounts"></a>Reconcile Bank Accounts
 
@@ -24,7 +24,7 @@ You perform bank reconciliation to make sure that your various business transact
 The following describes how to perform bank reconciliation with the **Bank Acc. Reconciliation** page.
 
 > [!TIP]
-> You can also reconcile bank accounts on the **Payment Reconciliation Journal** page when you process payments. Any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This automatically reconciles the bank account for the payments that you post with the journal. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+> You can also reconcile bank accounts on the **Payment Reconciliation Journal** page when you process payments. Any open bank account ledger entries related to the applied customer or supplier ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This automatically reconciles the bank account for the payments that you post with the journal. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]  
 > In the North American versions, you can also perform this work on the **Bank Rec. Worksheet** page, which is better suited for cheques and deposits but does not offer import of bank statement files. To use this page instead of the **Bank Acc. Reconciliation** page, deselect the **Bank Recon. with Auto. Match** field on the **General Ledger Setup** page. For more information, see [Reconciling Bank Accounts](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) under United States Local Functionality.
@@ -62,7 +62,7 @@ To enable import of bank statements as bank feeds, you must first set up and ena
 > [!TIP]
 > You can also import bank statement files in comma or semicolon delimited format (.CSV). Use the **Set up a bank statement file format** assisted setup to define bank statement import formats and attach the format to a bank account. You can then use these formats when you import bank statements in the **Bank Account Reconciliation** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliation**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliation**, and then choose the related link.
 2. Choose the **New** action.
 3. In the **Bank Account No.** field, select the relevant bank account. The bank account ledger entries that exist on the bank account appear in the **Bank Account Ledger Entries** pane.
 4. In the **Statement Date** field, enter the date of the statement from the bank.

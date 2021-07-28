@@ -1,6 +1,6 @@
 ---
-title: Set Up a Company With RapidStart Services| Microsoft Docs
-description: You can set up a new company in Business Central with RapidStart services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks.
+title: Set Up a Company With RapidStart Services
+description: You can set up a new company in Business Central with RapidStart services  to enhance productivity by automating and simplifying recurring tasks.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 1f471bcebf634eeac92e10a816e65460f03a1de5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 46ce62b98e02f934b859dc7191d7fea69ae44af0
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777273"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325430"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Setting Up a Company With RapidStart Services
 You can set up a new company in [!INCLUDE[prod_short](includes/prod_short.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks.  
@@ -39,7 +39,7 @@ You can use the following components to speed up your company setup:
 |------------|-------------|  
 |Create a new company and import basic setup data and templates.|[Set Up Company Configuration](admin-set-up-company-configuration.md)|  
 |Deploy the configured package to your customer for implementation.|[Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)|
-|Define and validate your customer’s setup values for all core areas, such as company information, general ledger, inventory, sales, or manufacturing.|[Gather Customer Setup Values](admin-gather-customer-setup-values.md)|  
+|Define and validate your customer’s setup values for all core areas, such as company information, general ledger, stock, sales, or manufacturing.|[Gather Customer Setup Values](admin-gather-customer-setup-values.md)|  
 |Configure core master data records using templates to prepare to migrate existing customer data.|[Prepare to Migrate Customer Data](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Define tables and fields, validate existing customer data, and migrate data into the [!INCLUDE[prod_short](includes/prod_short.md)] database.|[Migrate Customer Data](admin-migrate-customer-data.md)|
 |Prepare to reuse company configurations in other companies.|[Create Custom Company Configuration Packages](admin-how-to-create-custom-company-configuration-packages.md)|

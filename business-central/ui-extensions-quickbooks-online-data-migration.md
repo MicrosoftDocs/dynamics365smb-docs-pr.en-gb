@@ -1,6 +1,6 @@
 ---
-title: QuickBooks Online Migration Extension | Microsoft Docs
-description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Business Central.
+title: QuickBooks Online Data Migration Extension
+description: Describes how to use the extension to migrate customers, suppliers, items, and accounts from QuickBooks Online to Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6481eeb46116d02240c6f6a0201cb633f572822a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: da9317d338c095f20ab18fb157bec0270d4a9c8f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785017"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434899"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>The QuickBooks Online Data Migration Extension
 
@@ -26,14 +26,14 @@ This extension is included in the **Data Migration** assisted setup guide to hel
 You can import the following data from QuickBooks Online to [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 * Customers
-* Vendors
+* Suppliers
 * Items
 * Chart of accounts
 * Beginning balance transaction in the general ledger
-* On-hand quantities for inventory items
-* Open documents for customers and vendors, such as invoices, credit memos, and payments
+* On-hand quantities for stock items
+* Open documents for customers and suppliers, such as invoices, credit memos, and payments
 
-We migrate only full amounts on sales and purchase documents. We do not update partially paid amounts. For example, if a customer has paid 300 of a total of 500 dollars on a sales invoice, we migrate the full 500. If you have received partial payments, you must update these manually, either before or after you migrate data. We recommend that you apply outstanding transactions before you migrate, just to make things easier afterward.
+We migrate only full amounts on sales and purchase documents. We do not update partially paid amounts. For example, if a customer has paid 300 of a total of 500 pounds on a sales invoice, we migrate the full 500. If you have received partial payments, you must update these manually, either before or after you migrate data. We recommend that you apply outstanding transactions before you migrate, just to make things easier afterward.
 
 > [!NOTE]  
 > We do not migrate purchase orders or sales orders.
@@ -43,7 +43,7 @@ We migrate only full amounts on sales and purchase documents. We do not update p
 An important part of the migration process is to specify the accounts to migrate transactions to. It's a good idea to plan this mapping before you migrate data. For example, the accounts where you post transactions for:  
 
 * The sale of items or services to customers.
-* The purchase of items or services from vendors.  
+* The purchase of items or services from suppliers.  
 * Adjustments in the general ledger.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] requires that general ledger accounts have account numbers assigned to them. Make sure that account numbers are assigned to your accounts in QuickBooks Online.
@@ -54,7 +54,7 @@ If transactions in QuickBooks Online have tax amounts, you must set up a tax acc
 
 Getting started is easy. All you need to do is run the **Data Migration** assisted setup guide. Here's how:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose **Migrate business data**.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose **Migrate business data**.
 2. Follow the instructions on each step in the assisted setup guide.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>What do I do after I migrate data?

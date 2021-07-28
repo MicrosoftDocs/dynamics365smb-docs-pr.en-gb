@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2f51679cfb1481632ea1f425e4a614764410c679
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d72025a95f6d12ab64ba6ec29de754bb9c318ab0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784474"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435804"
 ---
 # <a name="record-interactions-with-contacts"></a>Record Interactions With Contacts
 Setting up your application to record interactions consists of these tasks:
@@ -50,7 +50,7 @@ In this page, you can:
 * View the status of interactions.
 * Mark interactions as cancelled.
 
-You can delete interaction log entries that have been cancelled. To delete interaction log entries, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Cancelled Interaction Log Entries**, and then choose the related link, and then fill in the information.
+You can delete interaction log entries that have been cancelled. To delete interaction log entries, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete cancelled Interaction Log Entries**, and then choose the related link, and then fill in the information.
 
 ## <a name="see-also"></a>See Also
 [Managing Contacts](marketing-contacts.md)  

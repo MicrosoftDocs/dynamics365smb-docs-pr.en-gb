@@ -1,6 +1,6 @@
 ---
-title: How to Undo Assembly Posting | Microsoft Docs
-description: Sometimes you may need to undo a posted assembly order, for example when the order was posted with mistakes that must be corrected, or because it should not have been posted in the first place and must be rolled back.
+title: How to Undo Assembly Posting
+description: Sometimes you may need to undo a posted assembly order, for example when the order was posted with mistakes that must be corrected.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 4526ad4284cd3970e1573a1a8ea914cbd6253c83
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 48c454084e850b5dedf58c499263258c0ae8294c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772886"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435351"
 ---
 # <a name="undo-assembly-posting"></a>Undo Assembly Posting
 Sometimes you may need to undo a posted assembly order, for example when the order was posted with mistakes that must be corrected, or because it should not have been posted in the first place and must be rolled back.
@@ -28,7 +28,7 @@ When you undo a partially posted assembly order, then all affected quantity fiel
 
 To recreate or restore assembly orders, the following conditions must apply to the assembly item that was output in the original posting:  
 
--   It must still be in inventory, that is, it is not sold or otherwise consumed by outbound transactions.  
+-   It must still be in stock, that is, it is not sold or otherwise consumed by outbound transactions.  
 -   It must not be reserved.  
 -   It must exist in the bin that it was output to.  
 
@@ -40,7 +40,7 @@ In addition, existing assembly orders can only be restored if the number of line
 The following procedure describes how to undo posted assembly orders where the items were assembled to stock. If you want to undo posted assembly orders where the items were assembled to a sales order, then you must use the **Undo Shipment** function on the posted shipment that relates to the posted assembly order. For more information, see [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md). The undoing of the posted assembly order then happens automatically in the same way as described in this topic.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>To undo posting of an assembly order  
-1.  To undo a fully or partially posted assembly order, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Assembly Orders**, and choose the related link.  
+1.  To undo a fully or partially posted assembly order, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Assembly Orders**, and choose the related link.  
 
     The **Posted Assembly Orders** page opens showing one or more posted assembly orders that are posted from the assembly order in question. Each partial posting creates a separate posted assembly order.  
 2.  Open the posted assembly order that you want to undo, and then choose the **Undo Assembly** action.  
@@ -58,7 +58,7 @@ The **Reversed** field on the assembly order header changes to **Yes**. The asse
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  
 [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)    
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
-[Inventory](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

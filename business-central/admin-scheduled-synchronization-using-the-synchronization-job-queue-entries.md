@@ -1,5 +1,5 @@
 ---
-title: Synchronising Business Central and Dataverse | Microsoft Docs
+title: Synchronising Business Central and Dataverse
 description: Learn about synchronising data between Business Central and Dataverse.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4948dac105a62501ee3006cce0683be819db7ce8
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: 07eaab3182d51bd7b76d1ffbbfb7ad18338faeb7
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889212"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325445"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Scheduling a Synchronisation between Business Central and Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -25,7 +25,7 @@ You can synchronise [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUD
 There are several synchronisation jobs that are available out-of-the-box. The jobs are run in the following order to avoid coupling dependencies between tables. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
 1. CURRENCY - Common Data Service synchronisation job.
-2. VENDOR - Common Data Service synchronisation job.
+2. SUPPLIER - Common Data Service synchronisation job.
 3. CONTACT - Common Data Service synchronisation job.
 4. CUSTOMER - Common Data Service synchronisation job.
 5. SALESPEOPLE - Common Data Service synchronisation job.
@@ -41,7 +41,7 @@ The following table describes the default synchronisation jobs for [!INCLUDE[cds
 | CONTACT - Common Data Service synchronisation job | Synchronises [!INCLUDE[cds_long_md](includes/cds_long_md.md)] contacts with [!INCLUDE[prod_short](includes/prod_short.md)] contacts. | Bidirectional | CONTACT | 30 | 720 <br>(12 hours) |
 | CURRENCY - Common Data Service synchronisation job | Synchronises [!INCLUDE[cds_long_md](includes/cds_long_md.md)] transaction currencies with [!INCLUDE[prod_short](includes/prod_short.md)] currencies. | From [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] | CURRENCY | 30 | 720 <br> (12 hrs) |
 | CUSTOMER - Common Data Service synchronisation job | Synchronises [!INCLUDE[cds_long_md](includes/cds_long_md.md)] accounts with [!INCLUDE[prod_short](includes/prod_short.md)] customers. | Bidirectional | CUSTOMER | 30 | 720<br> (12 hrs) |
-| VENDOR - Common Data Service synchronisation job | Synchronises [!INCLUDE[cds_long_md](includes/cds_long_md.md)] accounts with [!INCLUDE[prod_short](includes/prod_short.md)] customers. | Bidirectional | VENDOR | 30 | 720<br> (12 hrs) |
+| SUPPLIER - Common Data Service synchronisation job | Synchronises [!INCLUDE[cds_long_md](includes/cds_long_md.md)] accounts with [!INCLUDE[prod_short](includes/prod_short.md)] customers. | Bidirectional | SUPPLIER | 30 | 720<br> (12 hrs) |
 | SALESPEOPLE - Common Data Service synchronisation job | Synchronises [!INCLUDE[prod_short](includes/prod_short.md)] salespeople with [!INCLUDE[cds_long_md](includes/cds_long_md.md)] users. | From [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to [!INCLUDE[prod_short](includes/prod_short.md)] | SALESPEOPLE | 30 | 1440<br> (24 hrs) |
 
 ## <a name="synchronization-process"></a>Synchronisation Process

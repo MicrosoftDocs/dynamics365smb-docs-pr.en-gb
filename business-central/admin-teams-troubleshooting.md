@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: a26414ae33b0139257c542966ba9ccd934241a66
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: ed1d44f7aa1fe7adc899c429a6595cef23251075
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017131"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341310"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Troubleshooting Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -154,7 +154,10 @@ As an administrator, who has Azure Active Directory admin permissions, you can h
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
+[Searching for Customers, Suppliers, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md)  
+[Share Records in Microsoft Teams](across-working-with-teams.md)  
 [Teams FAQ](teams-faq.md)  
+[Changing Company and Other Settings in Teams](across-teams-settings.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

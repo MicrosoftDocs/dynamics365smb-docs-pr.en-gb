@@ -1,6 +1,6 @@
 ---
-title: Terminology in Cost Accounting | Microsoft Docs
-description: This topic defines the key terms that are used in cost accounting.
+title: Terminology in Cost Accounting
+description: This topic defines the key terms that are used in cost accounting, such as allocation key and allocation source.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: aa84beb26e76ab911aca1ddbd7fc8a9461d1a491
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 02afd4709ef950a621043ed6955c79bf71dac6fd
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783654"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326970"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminology in Cost Accounting
 This topic defines the key terms that are used in cost accounting.  
@@ -33,7 +33,7 @@ This topic defines the key terms that are used in cost accounting.
 |Cost centre|Cost centres are most often departments and profit centres that are largely responsible for company’s costs and income. Cost centres can be synchronised with dimensions in the general ledger. It is also possible to add new cost centres and define their own sorting with subtotals.|  
 |Cost object|Cost objects are products, product groups or services of a company, the finished goods of a company, that in the end carry the costs. Cost objects can be synchronised with dimensions in the general ledger. It is also possible to add new cost objects and define their own sorting with subtotals.|  
 |Cost allocation|Cost allocation is a process of allocating costs to cost centres or cost objects. For example, the wage of the truck driver of the sales department is allocated to the sales department cost centre. It is not necessary to allocate the wage cost to other cost centres. Another example is that the cost of an expensive computer system is allocated to the products of the company that use the system.|  
-|Dynamic allocation|Dynamic allocations are dependent on changeable allocation bases, for example, the number of department employees, or the sales revenue of the project within a certain period of time. There are nine predefined dynamic allocation bases that users can define by using five filters.|  
+|Dynamic allocation|Dynamic allocations are dependent on changeable allocation keys, for example, the number of department employees, or the sales revenue of the project within a certain period of time. There are nine predefined dynamic allocation bases that users can define by using five filters.|  
 |Direct cost|Direct costs are the costs that can be directly allocated to a cost object, for example, material purchase for a specific product.|  
 |Fixed cost|Fixed costs are the costs that are not dependent on the level of goods or services produced by the company. They tend to be time-related, such as salary or rent being paid per month. They are in contrast to variable costs, which are volume-related, and are paid per quantity produced.|  
 |Indirect cost|Indirect costs are not directly accountable to a cost object, such as a particular function or product. Indirect costs may be either fixed or variable. Indirect costs can be tax, administration, personnel, and security costs and are also known as overhead costs.|  

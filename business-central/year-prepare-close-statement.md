@@ -1,6 +1,6 @@
 ---
 title: Overview of Reports to Help Prepare Closing Statements | Microsoft Docs
-description: Provides an overview of the reports you can use to gather information to prepare your company's closing statements when closing the fiscal year.
+description: Provides an overview of the reports you can use to gather information to prepare your company's closing statements when closing the financial year.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f58ee0ab43e8d43ae2d08e67cec52a9dd63ac202
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dadfa25189aa44c032dd03aee053be39d87bc4d2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776648"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435916"
 ---
 # <a name="preparing-closing-statements"></a>Preparing Closing Statements
 There are a number of standard reports that you can use to gather the information that you need to prepare your company's closing statements.
@@ -25,14 +25,14 @@ The following table describes a number of reports that may be useful in this pro
 | To | See this report |
 | --- | --- |
 | Print a trial balance report with balances and net changes for general ledger accounts. |**Trial Balance** |
-| Get an overview of accounts receivable, with the age of amounts receivable calculated from the due date, posting date, or document date. |**Aged Accounts Receivable** |
-| Get an overview of accounts payable, with the age of amounts payable calculated from the due date, posting date or document date. |**Aged Accounts Payable** |
+| Get an overview of sales ledger, with the age of amounts receivable calculated from the due date, posting date, or document date. |**Aged Sales Ledger** |
+| Get an overview of purchase ledger, with the age of amounts payable calculated from the due date, posting date or document date. |**Aged Purchase Ledger** |
 | Compare the trial balance with a budget. |**Trial Balance/Budget** |
 | Print a trial balance report with balances and net changes for general ledger accounts calculated for a series of periods. |**Trial Balance by Period** |
 | Print an account schedule to analyse figures in general ledger accounts or compare actual general ledger entries with general ledger budget entries. |**Account Schedule** |
-| Check whether customer and vendor ledger entries balance with corresponding general ledger entries. |**Reconcile Cust. and Vend. Accs** |
+| Check whether customer and supplier ledger entries balance with corresponding general ledger entries. |**Reconcile Cust. and Vend. Accs** |
 
-To see a report, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, type the name as it appears in the table, and then choose the related link.
+To see a report, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, type the name as it appears in the table, and then choose the related link.
 
 ## <a name="see-also"></a>See Also
 [Closing Years and Periods](year-close-years-periods.md)  

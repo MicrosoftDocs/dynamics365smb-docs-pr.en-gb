@@ -1,6 +1,6 @@
 ---
-title: Close Accounting Periods for a Fiscal Year | Microsoft Docs
-description: Describes how to close the accounting periods that make up the fiscal year.
+title: Close Accounting Periods for a Financial Year
+description: This article describes how to close the accounting periods that make up the financial year for year end closing.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,39 +8,39 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: a26baaf947fdac133e3bfcd50489d680231d9971
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5f668104fe6b0bbd9dbbf9295034547e298df916
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786689"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436005"
 ---
 # <a name="close-accounting-periods"></a>Close Accounting Periods
-When a fiscal year is over, you must close the periods that comprise it.
+When a financial year is over, you must close the periods that comprise it.
 
 ## <a name="to-close-accounting-periods"></a>To close accounting periods
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.
 2. On the **Accounting Periods** page, choose the **Close Year** action.
 
-    If more than one fiscal year is open, the earliest one is automatically selected to be closed. A message displays identifying the year that will close and the consequences of closing the year.
+    If more than one financial year is open, the earliest one is automatically selected to be closed. A message displays identifying the year that will close and the consequences of closing the year.
 3. To close the year, choose the **Yes** button.
 
-The fiscal year is closed, and the **Closed** and **Date Locked** fields for all the periods in the year are selected. The fiscal year cannot be opened again and you cannot remove the check mark from the **Closed** or **Date Locked** fields.
+The financial year is closed, and the **Closed** and **Date Locked** fields for all the periods in the year are selected. The financial year cannot be opened again and you cannot remove the check mark from the **Closed** or **Date Locked** fields.
 
 > [!NOTE]  
->   You cannot close a fiscal year before you create a new one. Notice that when a fiscal year has been closed, you cannot change the starting date of the following fiscal year.
+>   You cannot close a financial year before you create a new one. Notice that when a financial year has been closed, you cannot change the starting date of the following financial year.
 
-Even though a fiscal year has been closed, you can still post general ledger entries to it. When you do this, the entries will be marked as posted to a closed fiscal year and the **Prior-Year Entry** field will be selected.
+Even though a financial year has been closed, you can still post general ledger entries to it. When you do this, the entries will be marked as posted to a closed financial year and the **Prior-Year Entry** field will be selected.
 
-After a fiscal year is closed, you must close the income statement accounts and transfer the year's results to an account in the balance sheet. You can repeat this every time that you post to the closed fiscal year.
+After a financial year is closed, you must close the income statement accounts and transfer the year's results to an account in the balance sheet. You can repeat this every time that you post to the closed financial year.
 
 ## <a name="see-also"></a>See Also
 
 [Closing Books](year-close-books.md)  
 [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
-[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
+[Work with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -1,18 +1,18 @@
 ---
 title: Installing Extensions to Customise Business Central
-description: Learn about adding functionality and customising Business Central by installing extensions.
+description: Learn all about adding functionality and customising Business Central by installing extensions here.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 805350a7b1213ec0e0d0550e5c5b63c557ee470a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 073b89f7c80035da12f329f752b64dc8142f309d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771346"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325591"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Customising Business Central Online Using Extensions
 
@@ -67,7 +67,7 @@ Microsoft provides the following extensions:
 * [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)
 * [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
 * [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
-* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
+* [Sales and Stock Forecast](ui-extensions-sales-forecast.md)
 * [VAT Group](ui-extensions-vat-group.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 * [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
@@ -88,7 +88,7 @@ As the following extensions are communicating with other services they may trans
 * Image Analyser
 * Late Payment Prediction
 * PayPal Payments Standard
-* Sales and Inventory Forecast
+* Sales and Stock Forecast
 * WorldPay Payments Standard
 
 This also applies to some functionality in the base application, such as the following capabilities:

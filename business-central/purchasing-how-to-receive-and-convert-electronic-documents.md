@@ -1,6 +1,6 @@
 ---
-title: Receive and Convert Electronic Documents | Microsoft Docs
-description: You can receive electronic documents directly from trading partners or from an OCR service.
+title: Receive and Convert Electronic Documents
+description: This topic describes how to receive electronic documents directly from trading partners or from an OCR service.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 17a03f58ad9cca702423efe6e8810cffe25a7e81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bba45239906820f4c56b948d80a46c8ca427a342
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772561"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435091"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Receive and Convert Electronic Documents
-The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. To receive an invoice from a vendor as an electronic PEPPOL document, you process the document in the Incoming Documents page to convert it to a purchase invoice or general journal line in [!INCLUDE[prod_short](includes/prod_short.md)].
+The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. To receive an invoice from a supplier as an electronic PEPPOL document, you process the document in the Incoming Documents page to convert it to a purchase invoice or general journal line in [!INCLUDE[prod_short](includes/prod_short.md)].
 
  In addition to receiving electronic documents directly from trading partners, you can receive electronic documents from an OCR service that has turned your PDF or image files into electronic documents.  
 
- Before you can receive electronic documents through the document exchange service, you must set up various master data, such as company information, vendors, items, and units of measure. These are used to identify the business partners and items when converting data in elements in the incoming document file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md).  
+ Before you can receive electronic documents through the document exchange service, you must set up various master data, such as company information, suppliers, items, and units of measurement. These are used to identify the business partners and items when converting data in elements in the incoming document file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md).  
 
  Before you can receive electronic documents through the OCR service, you must set up and enable the preconfigured service connection. For more information, see [Set Up Incoming Documents](across-how-setup-income-documents.md).  
 
@@ -33,15 +33,15 @@ The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports r
 > [!NOTE]  
 >  When you convert electronic documents received from the OCR service to documents or journal lines in [!INCLUDE[prod_short](includes/prod_short.md)], multiple lines on the source document will be summed on one line. The single line will be of type G/L Account and the **Description** and (G/L account) **No.** fields will be empty. The value in the **Amount** field will equal the total amount excluding VAT of all lines in the source document.  
 >   
->  To make sure that the **Description** and **No.** fields are filled, you can choose the **Map Text to Account** button on the **Incoming Documents** page to define that a certain invoice text is always mapped to a certain debit or credit account in the general ledger. Going forward, the **Description** field on document or journal lines created from an electronic document for that vendor or customer will be filled with the text in question and the (G/L account) **No.** field with the account in question.  
+>  To make sure that the **Description** and **No.** fields are filled, you can choose the **Map Text to Account** button on the **Incoming Documents** page to define that a certain invoice text is always mapped to a certain debit or credit account in the general ledger. Going forward, the **Description** field on document or journal lines created from an electronic document for that supplier or customer will be filled with the text in question and the (G/L account) **No.** field with the account in question.  
 >   
 >  Instead of mapping to a G/L account, you can also map to a bank account. This is practical, for example, for electronic documents for expenses that are already paid where you want to create a general journal line that is ready to post to a bank account.  
 
- The following procedure describes how to receive a vendor invoice and convert it to a purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)]. The procedure is the same when you convert a vendor invoice to a general journal line.  
+ The following procedure describes how to receive a supplier invoice and convert it to a purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)]. The procedure is the same when you convert a supplier invoice to a general journal line.  
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>To receive and convert an electronic invoice to a purchase invoice  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.  
 
 2.  Select the line for the incoming document record that represents a new incoming electronic invoice, and then choose the **Edit** action.  
 
@@ -49,7 +49,7 @@ The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports r
 
 3.  In the **Data Exchange Type** field, choose **PEPPOL - Invoice** or **OCR – Invoice** depending on the source of the electronic document.  
 
-4.  To map text on the vendor invoice to a specific debit account, on the **Actions** tab, in the **General** group, choose **Map Text to Account**, and then fill the **Text-to-Account Mapping Worksheet** page.  
+4.  To map text on the supplier invoice to a specific debit account, on the **Actions** tab, in the **General** group, choose **Map Text to Account**, and then fill the **Text-to-Account Mapping Worksheet** page.  
 
 5.  Choose the **Create Document** action.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 018e0ebdb96e155959fc0042e4c2a9b778ecffb0
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 0475e814807c2218b2dcc72f3c07359b80546cc3
+ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947496"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373245"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Troubleshooting and Correcting Dimensions
 Financial reporting and analysis views often rely on data from dimensions. Despite the safeguards that are available, sometimes a mistake happens that can lead to inaccuracies. This topic describes some of the typical errors, and explains how to correct dimension assignments on posted transactions so that financial reports are accurate.
@@ -108,4 +108,18 @@ If a correction does not complete, a warning will display on the correction card
 > Resetting an incomplete correction will not affect updates to analysis views because those happen at the end of the correction process.
 
 ### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Using Cost Accounting with Corrected G/L Entries
-After you correct dimensions your data for cost accounting will be out of sync. Cost accounting uses dimensions to aggregate amounts for cost centres and cost objects, and to run cost allocations. Changing dimensions for G/L entries will probably mean that you re-run your cost accounting models. Whether you need to just delete a few cost registers and re-run allocations, or you need to delete everything and re-run all of your models depends on the data that has been updated and how your cost accounting capabilities are set up. Identifing where dimension corrections will impact cost accounting and where updates are needed is a manual process. [!INCLUDE[prod_short](includes/prod_short.md)] does not currently provide an automated way to do that.
+After you correct dimensions your data for cost accounting will be out of sync. Cost accounting uses dimensions to aggregate amounts for cost centres and cost objects, and to run cost allocations. Changing dimensions for G/L entries will probably mean that you re-run your cost accounting models. Whether you need to just delete a few cost registers and re-run allocations, or you need to delete everything and re-run all of your models depends on the data that has been updated and how your cost accounting capabilities are set up. Identifying where dimension corrections will impact cost accounting and where updates are needed is a manual process. [!INCLUDE[prod_short](includes/prod_short.md)] does not currently provide an automated way to do that.
+
+## <a name="correcting-number-assignments-for-global-dimensions"></a>Correcting Number Assignments for Global Dimensions
+In the Dimension Set Entry table, global dimensions are assigned **0** in the Shortcut Dimension No. field, and shortcut dimensions are assigned their shortcut dimension number, which can be 1 through 8. Some reports use these number assignments to determine the values to use in calculations.
+
+When dimension values are imported by using configuration packages that were created without running validation triggers, or by using custom code to call the Insert or Modify methods without running the OnInsert or OnModify validation triggers, sometimes shortcut dimensions are are assigned a number that is not 0. When this occurs, calculations will be incorrect for dimensions on recurring general journals that use the BD Balance by Account or BD Balance by Dimensions recurring methods. 
+
+If an incorrect number is assigned, when you try to post or preview journals on the **Recurring General Journals** page, the **Error Messages** page will display. From the Error Messages page, you can choose the link in the **Source** field to run a report that will correct shortcut dimension number assignments in the Dimension Set Entry table. Alternatively, you can also search for **Update Shortcut Dimension No. for Dimension Set Entries** to run the report.
+
+After you run the report, on the **Change Log Entries** page you can review the changes made to the number in the Global Dimension No. field. [!INCLUDE[prod_short](includes/prod_short.md)] always records the previous and new values. 
+
+## <a name="see-also"></a>See Also
+[Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)
+[Working with Dimensions](finance-dimensions.md)
+[Analyse Data by Dimensions](bi-how-analyze-data-dimension.md)

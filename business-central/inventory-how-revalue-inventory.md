@@ -1,6 +1,6 @@
 ---
-title: Create New Value Entries for Items in the Inventory| Microsoft Docs
-description: Describes how to appreciate or depreciate the value entries of one or more items in the inventory by posting their current, calculated value.
+title: Create New Value Entries for Items in the Stock| Microsoft Docs
+description: Describes how to appreciate or depreciate the value entries of one or more items in the stock by posting their current, calculated value.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -12,31 +12,31 @@ ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3fe164e6e71756ee56990610bc6c6cb0557ad2c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 01710b23c56634b91b86f3f1c6e6c87415a787c6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785855"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435604"
 ---
-# <a name="revalue-inventory"></a>Revalue Inventory
+# <a name="revalue-inventory"></a>Revalue Stock
 If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.
 
-## <a name="to-revalue-inventory"></a>To revalue inventory
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Revaluation Journal**, and then choose the related link.
-2. Choose the **Calculate Inventory Value** action.
-3. On the **Calculate Inventory Value** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-revalue-inventory"></a>To revalue stock
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Revaluation Journal**, and then choose the related link.
+2. Choose the **Calculate Stock Value** action.
+3. On the **Calculate Stock Value** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **OK** button.
-5. On each line on the **Revaluation Journal** page, in the **Unit Cost (Revalued)** field, enter the new unit cost. Alternatively, enter the new total amount in the **Inventory Value (Revalued)** field.
+5. On each line on the **Revaluation Journal** page, in the **Unit Cost (Revalued)** field, enter the new unit cost. Alternatively, enter the new total amount in the **Stock Value (Revalued)** field.
 
-    The relevant fields are automatically updated. Note that the **Amount** field shows the actual change in inventory value for the selected item ledger entry. It calculates the difference between the **Inventory Value (Calculated)** field and the **Inventory Value (Revalued)** field.
+    The relevant fields are automatically updated. Note that the **Amount** field shows the actual change in stock value for the selected item ledger entry. It calculates the difference between the **Stock Value (Calculated)** field and the **Stock Value (Revalued)** field.
 6. When you have completed all lines in the revaluation journal, choose the **Post** action.
 
 New value entries are now created to reflect the revaluations that you have posted. You can see the new values on the respective item cards.
 
 ## <a name="see-also"></a>See Also
 [Design Details: Revaluation](design-details-revaluation.md)  
-[Inventory](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
