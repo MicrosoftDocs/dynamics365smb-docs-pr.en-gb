@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d515053ac76359c0f802cd6f230373221250e3b1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 972d7f49a6df7eeb09f6f4f2468fabf8a378b550
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777561"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440477"
 ---
 # <a name="change-vat-setup-in-journals"></a>Change VAT Setup in Journals
 
@@ -23,7 +23,7 @@ You can add VAT setup information to journal lines if needed in the British vers
 
 ## <a name="to-change-vat-setup-in-journals"></a>To change VAT setup in journals  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.  
 2. On the **General Journal** page, choose the button in the **Batch Name** field.  
 3. On the **General Journal Batches** page, on the **Home** tab, choose **New**.  
 4. Enter information into the required fields.  

@@ -1,6 +1,6 @@
 ---
-title: Picking and Shipping in Basic Warehouse Configurations
-description: In Business Central, the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.
+title: Picking and Shipping in Basic Warehouse Config
+description: In Business Central, the outbound processes for picking and shipping can be performed in the following four ways depending on the warehouse complexity level.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/27/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e1763e6288c8b8218955049ba7ef4c461ee5164e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3eefe17d0ebe89d006c5904cb73a75975b6c38f2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214660"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439075"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Walkthrough: Picking and Shipping in Basic Warehouse Configurations
 
@@ -81,7 +81,7 @@ In order to use this functionality, you must add yourself to the location as a w
 
 #### <a name="to-make-yourself-a-warehouse-employee"></a>To make yourself a warehouse employee
 
-  1. Choose the ![Lightbulb that opens the Tell Me feature first](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+  1. Choose the ![Lightbulb that opens the Tell Me feature first.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
   2. Choose the **User ID** field, and select your own user account on the **Warehouse Employees** page.
   3. In the **Location Code** field, choose SOUTH.  
   4. Select the **Default** field, and then select the **Yes** button.  
@@ -90,7 +90,7 @@ In order to use this functionality, you must add yourself to the location as a w
 
 To make item 1928-S available at the SOUTH location follow these steps:  
 
-  1. Choose the ![Lightbulb that opens the Tell Me feature second](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.  
+  1. Choose the ![Lightbulb that opens the Tell Me feature second.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.  
   2. Open the default journal, and then create two item journal lines with the following information about the work date (January 23).  
 
         |Entry Type|Item Number|Location Code|Bin Code|Quantity|  
@@ -109,7 +109,7 @@ Sales orders are the most common type of outbound source document.
 
 ### <a name="to-create-the-sales-order"></a>To create the sales order
 
-1. Choose the ![Lightbulb that opens the Tell Me feature third](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature third.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Create a sales order for customer 10000 on the work date (January 23) with the following sales order line.  
 
@@ -129,7 +129,7 @@ On the **Stock Pick** page, you can manage all outbound warehouse activities for
 
 ### <a name="to-pick-and-ship-items"></a>To pick and ship items
 
-1. Choose the ![Lightbulb that opens the Tell Me feature fourth](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stock Picks**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature fourth.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stock Picks**, and then choose the related link.  
 2. Choose the **New** action.  
 
     Make sure that the **No.** field on the **General** FastTab is filled in.

@@ -1,6 +1,6 @@
 ---
-title: How to Work with Responsibility Centres | Microsoft Docs
-description: Responsibility centres providing the ability to handle administrative centres. A responsibility centre can be a cost centre, a profit centre, an investment centre, or other company-defined administrative centre.
+title: How to Work with Responsibility Centres
+description: Responsibility centre as administrative centres help companies set up user-specific views of sales and purchase documents related exclusively to each centre.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e552378625325710b50989c513d303acd9c480af
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 62cfc68f8c5cfca3a152aa1de7054f872c47f911
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774796"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439392"
 ---
 # <a name="work-with-responsibility-centers"></a>Work with Responsibility Centres
 
@@ -23,19 +23,19 @@ Responsibility centres provide the ability to handle administrative centres. A r
 
 Using multiple locations together with responsibility centres provides the ability to manage business operations in the most flexible, yet optimal way.
 
-Multiple locations allows companies to manage their inventory in multiple locations using one database. Two concepts, locations and stockkeeping units, are the cornerstones of this granule. A location is defined as a place that handles physical placement and quantities of items. The concept is broad enough to include locations such as plants or production facilities as well as distribution centres, warehouses, showrooms and service vehicles. A stockkeeping unit is defined as an item at a specific location and/or as a variant. Using stockkeeping units, companies with multiple locations are able to add replenishment information, addresses, and some financial posting information at the location level. As a result, they have the ability to replenish variants of the same item for each location as well as to order items for each location on the basis of location-specific replenishment information.  
+Multiple locations allows companies to manage their stock in multiple locations using one database. Two concepts, locations and stockkeeping units, are the cornerstones of this granule. A location is defined as a place that handles physical placement and quantities of items. The concept is broad enough to include locations such as plants or production facilities as well as distribution centres, warehouses, showrooms and service vehicles. A stockkeeping unit is defined as an item at a specific location and/or as a variant. Using stockkeeping units, companies with multiple locations are able to add replenishment information, addresses, and some financial posting information at the location level. As a result, they have the ability to replenish variants of the same item for each location as well as to order items for each location on the basis of location-specific replenishment information.  
 
 ## <a name="to-set-up-a-responsibility-center"></a>To set up a responsibility centre
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Responsibility Centres**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Responsibility Centres**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     If you are using responsibility centres to administer your company, it can be useful to have a default responsibility centre for your company.
-4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+4. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
 5. In the **Responsibility Centre** field, enter a responsibility centre code.
 
-This code will be used on all purchase, sales, or service documents, if the user, customer, or vendor has no default responsibility centre. On any sales, purchase, or service document, you can enter another responsibility centre than the default.
+This code will be used on all purchase, sales, or service documents, if the user, customer, or supplier has no default responsibility centre. On any sales, purchase, or service document, you can enter another responsibility centre than the default.
 
 > [!NOTE]  
 > When you enter a responsibility centre code on a document, it affects the address, dimensions, and prices on the document.  
@@ -46,7 +46,7 @@ You can set up users so that in their daily routines application retrieves only 
 
 To set this up, you assign responsibility centres to users in three functional areas: Purchases, Sales, and Service Management.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
 2. On the **User Setup** page, select the user you want to assign a responsibility centre to. If the user not is on the list, you must enter a user ID in the **User ID** field.  
 3. In the **Sales Resp. Ctr. Filter** field, enter the responsibility centre where the user will have tasks related to sales.  
 4. In the **Purchase Resp. Ctr. Filter** field, enter the responsibility centre where the user will have tasks related to purchasing.  
@@ -57,9 +57,9 @@ To set this up, you assign responsibility centres to users in three functional a
 
 ## <a name="see-also"></a>See Also
 
-[Setting Up Inventory](inventory-setup-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)
-[Inventory](inventory-manage-inventory.md)[Warehouse Management](warehouse-manage-warehouse.md)  
+[Setting Up Stock](inventory-setup-inventory.md)  
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Stock](inventory-manage-inventory.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

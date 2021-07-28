@@ -1,6 +1,6 @@
 ---
-title: How to Set Up Shop Calendars | Microsoft Docs
-description: A work centre calendar specifies the working days and hours, shifts, holidays, and absences that determine the work centre’s gross available capacity, measured in time, according to its defined efficiency and capacity values. Creating and enabling a work centre calendar involves several preparatory tasks.
+title: How to Set Up Shop Calendars
+description: Creating and enabling a work centre calendar involves several tasks including setting up shop calendars and creating work shifts.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e542d67f3cd0516cf435b0a7110e50431aab1a1f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9d473d6c1e657828ce2d47e33608b691ee45fd38
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781956"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440410"
 ---
 # <a name="set-up-shop-calendars"></a>Set Up Shop Calendars
 A work centre or machine calendar specifies the working days and hours, shifts, holidays, and absences that determine the centre’s gross available capacity, measured in time, according to its defined efficiency and capacity values.
@@ -25,7 +25,7 @@ As a foundation for calculating a specific work or machine centre calendar, you 
 The following describes how to set up work centre calendars. The steps are similar when setting up machine centre calendars.  
 
 ## <a name="to-create-work-shifts"></a>To create work shifts  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Shifts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Shifts**, and then choose the related link.  
 2.  On a blank line, enter a number in the **Code** field to identify the work shift, for example, **1**.  
 3.  Describe the work shift in the **Description** field, for example, **1st shift**.  
 4.  Optionally, fill in lines for a second or third work shift.  
@@ -33,7 +33,7 @@ The following describes how to set up work centre calendars. The steps are simil
 Even if your work centres do not work in different work shifts, enter at least one work shift code.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>To set up a shop calendar  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shop Calendars**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shop Calendars**, and then choose the related link.  
 2.  On a blank line, enter a number in the **Code** field to identify the shop calendar.  
 3.  Describe the shop calendar in the **Description** field.  
 4.  Choose the **Working Days** action.
@@ -68,13 +68,13 @@ The shop calendar can now be assigned to a work centre to calculate the work sho
 
 ## <a name="to-calculate-a-work-center-calendar"></a>To calculate a work centre calendar  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.
 2. Open the work centre that you want to update.  
 3. In the **Shop Calendar Code** field, select which shop calendar to use as the foundation for a work centre calendar.  
 4. Choose the **Calendar** action.  
 5. On the **Work Centre Calendar** page, choose the **Show Matrix** action.  
 
-    The left side of the matrix page lists the work centres that are set up. The right side shows a calendar displaying the available capacity values for each working day in the defined unit of measure, for example, **480** minutes. Each line represents the calendar of one work centre.  
+    The left side of the matrix page lists the work centres that are set up. The right side shows a calendar displaying the available capacity values for each working day in the defined unit of measurement, for example, **480** minutes. Each line represents the calendar of one work centre.  
 
     > [!NOTE]  
     >  You can also select to view the capacity values for each week or month by changing the selection in the **View By** field on the **Work Centre Calendar** page.  

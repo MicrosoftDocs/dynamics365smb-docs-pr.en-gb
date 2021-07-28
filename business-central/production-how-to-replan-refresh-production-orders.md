@@ -1,6 +1,6 @@
 ---
-title: How to Replan or Refresh Production Orders Directly| Microsoft Docs
-description: The production order lines contain the items that are to be produced in the production order.
+title: Replan or Refresh Works Orders Directly
+description: This topic outlines the procedures for how to replan works orders and refresh works orders directly.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,40 +8,40 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e3e1fa5535637f204c942aa8d3589dfff0392333
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5e8543d64c1ecfea1f554f13f753743684d1f463
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787809"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440385"
 ---
-# <a name="replan-or-refresh-production-orders-directly"></a>Replan or Refresh Production Orders Directly
-The **Replan** function on production orders is typically used after you have added or changed components that constitute underlying production orders. The function calculates changes made to components and routings lines, and it includes items on lower production BOM levels for which it may generate new production orders.  
+# <a name="replan-or-refresh-production-orders-directly"></a>Replan or Refresh Works Orders Directly
+The **Replan** function on works orders is typically used after you have added or changed components that constitute underlying works orders. The function calculates changes made to components and routings lines, and it includes items on lower production BOM levels for which it may generate new works orders.  
 
-Based on the changes you have made to the components and routing lines, the Replan function calculates and plans for any new demand for the production order.  
+Based on the changes you have made to the components and routing lines, the Replan function calculates and plans for any new demand for the works order.  
 
-The **Refresh** function on production orders is typically used after you have done one of the following:
+The **Refresh** function on works orders is typically used after you have done one of the following:
 
-- Created a production order header manually to calculate and create line data for the first time.
-- Made changes to the production order header to recalculate all the line data.
+- Created a works order header manually to calculate and create line data for the first time.
+- Made changes to the works order header to recalculate all the line data.
 
-The Refresh function calculates changes made to a production order header and does not involve production BOM levels. The function calculates and initiates the values of the component lines and routing lines based on the master data defined in the assigned production BOM and routing, according to the order quantity and due date on the production order’s header.
+The Refresh function calculates changes made to a works order header and does not involve production BOM levels. The function calculates and initiates the values of the component lines and routing lines based on the master data defined in the assigned production BOM and routing, according to the order quantity and due date on the works order’s header.
 
-You can either insert the production order lines manually or use the function that calculates the production order lines from the header.  
+You can either insert the works order lines manually or use the function that calculates the works order lines from the header.  
 
 > [!NOTE]
-> If you use the Refresh function to recalculate production order lines, the old production order lines are deleted and new lines are calculated.  
+> If you use the Refresh function to recalculate works order lines, the old works order lines are deleted and new lines are calculated.  
 
-## <a name="to-replan-a-production-order"></a>To replan a production order  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
-2.  Open the production order you want to replan.  
+## <a name="to-replan-a-production-order"></a>To replan a works order  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+2.  Open the works order you want to replan.  
 3.  On the **Lines** FastTab, choose the **Lines** action, and then choose the **Components** action.  
 4.  Add a component, which is a produced item or subassembly.  
-5.  From the production order, choose the **Replan** action.  
+5.  From the works order, choose the **Replan** action.  
 
-    On the **Replan Production Order** page, proceed to define how and what to replan.  
+    On the **Replan Works Order** page, proceed to define how and what to replan.  
 6.  In the **Scheduling Direction** field, select one of the following options.  
 
     |Option|Description|  
@@ -54,41 +54,41 @@ You can either insert the production order lines manually or use the function th
     |Option|Description|  
     |----------------------------------|---------------------------------------|  
     |**No Levels**|Do not consider lower level production. This only updates the item’s schedule, like refresh.|  
-    |**One Level**|Plan for first-level production demand. First-level production orders may be created.|  
-    |**All Levels**|Plan for all-level production demand. All-level production orders may be created.|  
+    |**One Level**|Plan for first-level production demand. First-level works orders may be created.|  
+    |**All Levels**|Plan for all-level production demand. All-level works orders may be created.|  
 
-8.  Select **One Level**, and choose the **OK** button to replan the production order, and calculate and create a new underlying production order for the introduced subassembly, if it is not fully available.  
+8.  Select **One Level**, and choose the **OK** button to replan the works order, and calculate and create a new underlying works order for the introduced subassembly, if it is not fully available.  
 
 > [!NOTE]  
->  Changes implemented with the **Replan** function are very likely to change the capacity need of the production order and you may therefore have to reschedule operations afterwards.  
+>  Changes implemented with the **Replan** function are very likely to change the capacity need of the works order and you may therefore have to reschedule operations afterwards.  
 
-## <a name="to-refresh-a-production-order"></a>To refresh a production order  
-If you have amended production order lines, components, or routing lines, you must also refresh the information on the production order. In the following procedure, the components are calculated for a firm planned production order. The steps are similar for routing lines.
+## <a name="to-refresh-a-production-order"></a>To refresh a works order  
+If you have amended works order lines, components, or routing lines, you must also refresh the information on the works order. In the following procedure, the components are calculated for a firm planned works order. The steps are similar for routing lines.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
-2.  Choose the **New** action. For more information, see [Create Production orders](production-how-to-create-production-orders.md).  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
+2.  Choose the **New** action. For more information, see [Create Works orders](production-how-to-create-production-orders.md).  
 3.  Choose the **Refresh** action.
-4. On the **Refresh Production Order** page, select one of the following options:
+4. On the **Refresh Works Order** page, select one of the following options:
 
-    |Option|Description|  
+    |Option||Description|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Scheduling Direction**|**Forward**|Scheduling starts from the starting date and proceeds forward to the finishing date. You must fill in the starting date to use this option.|  
     ||**Backward**|Scheduling starts from the ending date and proceeds backward to the starting date.|  
-    |**Calculate**|**Lines**|Select this field to calculate the production order lines.|  
+    |**Calculate**|**Lines**|Select this field to calculate the works order lines.|  
     ||**Routings**|This field has no influence on calculating the production lines.|  
     ||**Component Need**|This field has no influence on calculating the production lines.|  
     |**Warehouse**|**Create Inbound Request**|This field has no influence on calculating the production lines.|  
 
-5. Choose the **OK** button to confirm your selection. Now the production order lines are calculated.
+5. Choose the **OK** button to confirm your selection. Now the works order lines are calculated.
 
 > [!NOTE]  
->  Calculating production order components deletes previous changes in the components.
+>  Calculating works order components deletes previous changes in the components.
 
 ## <a name="see-also"></a>See Also  
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
-[Inventory](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  

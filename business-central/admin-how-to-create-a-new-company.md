@@ -1,6 +1,6 @@
 ---
 title: How to Create a New Company | Microsoft Docs
-description: To use RapidStart Services tables and pages are created, but there is no data in them.
+description: Use RapidStart Services tables and pages to create a new company for which you want to perform a customer implementation.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c21d86c67c6020d1a32da4816246bc7aaf96c2ca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb2e3e8d431160c94f7944fe8986ea9cc115ffe7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779889"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439642"
 ---
 # <a name="create-a-new-company"></a>Create a New Company
 To use RapidStart Services for [!INCLUDE[prod_short](includes/prod_short.md)], you first create a new company for which you want to perform a customer implementation. When you create a new company, the standard [!INCLUDE[prod_short](includes/prod_short.md)] tables and pages are created, but there is no data in them.
@@ -26,7 +26,7 @@ Example configuration packages, including country/region-specific files, are inc
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>To use the sample BASICCONFIG configuration package  
 1. Open the CRONUS International Ltd. company. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 3. Choose the BASICCONFIG package from the list, and then choose the **Export Package** action.  
 
 Use the following procedure to create a new company, and use the BASICCONFIG package as part of the process.  
@@ -47,7 +47,7 @@ The following table lists some of the master data tables. When you initialise a 
 |-------------------|--------------------|  
 |15|G/L Account|  
 |18|Customer|  
-|23|Vendor|  
+|23|Supplier|  
 |27|Item|  
 |5050|Contact|  
 
@@ -59,7 +59,7 @@ The following table lists some of the setup data tables, in which you capture se
 |98|General Ledger Setup|  
 |311|Sales & Receivables Setup|  
 |312|Purchases & Payables Setup|  
-|313|Inventory Setup|  
+|313|Stock Setup|  
 
 In addition to setup data tables, [!INCLUDE[prod_short](includes/prod_short.md)] also has setup-type data tables that specify core information about the company and its business processes. The following table lists some of them.  
 

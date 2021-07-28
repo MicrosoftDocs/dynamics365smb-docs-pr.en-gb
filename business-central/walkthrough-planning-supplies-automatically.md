@@ -1,6 +1,6 @@
 ---
-title: Walkthrough - Planning Supplies Automatically | Microsoft Docs
-description: Phrases like "run planning" and "run MRP" refer to the calculation of the master production schedule (MPS) and the material requirements plan (MRP) based on actual and forecasted demand.
+title: Walkthrough - Planning Supplies Automatically
+description: This walkthrough demonstrates how to use the supply planning system to automatically plan purchase and works orders on different sales orders.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e790c33cb10e9e71d8ec6f9482615c41562e379
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 86cc905a5bc3226a0bdd779b29570cbbd17ae5d4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214710"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439367"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Walkthrough: Planning Supplies Automatically
 
@@ -48,7 +48,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 ## <a name="prerequisites"></a>Prerequisites  
  To complete this walkthrough, you will need:  
 
--   The CRONUS International Ltd. demonstration  company.  
+-   The CRONUS International Ltd. demonstration company.  
 -   To change various item setup values by following the steps in the "Preparing Sample Data" section, later in this walkthrough.  
 
 ## <a name="story"></a>Story  
@@ -74,7 +74,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 ### <a name="to-change-selected-planning-parameters"></a>To change selected planning parameters  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Units**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Units**, and then choose the related link.  
 2.  Open the EAST stockkeeping unit card for item 1100, Front Wheel.  
 3.  On the **Planning** FastTab, fill in the fields as described in the following table.  
 
@@ -91,7 +91,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 ### <a name="to-create-the-sales-order"></a>To create the sales order  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **Sales Order** page, fill in the fields as described in the following table.  
 
@@ -103,7 +103,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>To create a regenerative plan to fulfill demand at location EAST  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Regenerative Plan** action.  
 3.  On the **Calculate Plan - Plan. Wksh.** page, fill in the fields as described in the following table.  
 
@@ -126,7 +126,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>To calculate MRP to include underlying component needs  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Regenerative Plan** action.  
 3.  On the **Calculate Plan - Plan. Wksh.** page, fill in the fields as described in the following table.  
 
@@ -220,7 +220,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 3.  Accept the availability warning and choose the **Yes** button to record the demand quantity.  
 4.  Proceed to replan to adjust the current supply plan.  
-5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 6.  Choose the **Calculate Net Change Plan** action.  
 7.  On the **Calculate Plan - Plan. Wksh.** page, fill in the fields as described in the following table.  
 

@@ -1,6 +1,6 @@
 ---
-title: Exploring and Navigating Pages per Role| Microsoft Docs
-description: ''
+title: Exploring and Navigating Pages per Role
+description: You can get an overview of all the business features that are available for your role, and for other roles, with the Role Explorer.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9b0c85b181f68e0fd6078b85d43b7b0d08bccd80
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c6acdd0370144c4a49f068a26c5f5f6c6f6a9a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783241"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440034"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Finding Pages with the Role Explorer
 You can get an overview of all the business features that are available for your role, and for other roles if you go a step further. In the following documentation, this feature overview is referred to as the *role explorer*.
@@ -24,7 +24,7 @@ Each element on the role explorer is an action that opens a page. Accordingly, y
 
 You can open the role explorer from the Role Centre and all list pages and from the **Tell Me** window.
 
-- On your Role Centre or any list page, choose the ![Menu button](media/ui_menu_button.png "Menu button") button to the right of the navigation bar, or press Shift+F12.
+- On your Role Centre or any list page, choose the ![Menu button.](media/ui_menu_button.png "Menu button") button to the right of the navigation bar, or press Shift+F12.
 - In the **Tell Me** window, choose the **exploring** action at the bottom.
 
 Choose the **Find** action at the top of the role explorer to quickly locate feature names that contain a certain term.

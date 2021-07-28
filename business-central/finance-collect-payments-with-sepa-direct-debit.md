@@ -1,6 +1,6 @@
 ---
-title: SEPA Direct Debit in Business Central | Microsoft Docs
-description: You can collect payments directly from the customer's bank account according to the SEPA format.
+title: SEPA Direct Debit in Business Central
+description: With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f18bc08a6bb0a2581c8e0983ffa029c07a34cb64
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d39b30fbe625cd92b85bf8055673fa651242007e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786355"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439517"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Collect Payments with SEPA Direct Debit
 With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.  
@@ -46,12 +46,12 @@ Before you can process customer payments electronically by exporting direct debi
 * Set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>To set up your bank account for SEPA direct debit  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2. Open the bank account that you want to use for direct debit.  
 3. On the **Transfer** FastTab, in the **SEPA Direct Debit Export Format** field, choose the option for SEPA direct debit.  
 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>To set up the customer's payment method for SEPA direct debit  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Set up a payment method. Fill in the direct debit\-specific fields as described in the following table.  
 
@@ -64,13 +64,13 @@ Before you can process customer payments electronically by exporting direct debi
     >  Do not enter a value in the **Bal. Account No.** field.  
 
 4. Choose the **OK** button to close the **Payment Methods** page.  
-5. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+5. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 6. Open the customer card for the customer that you want to set up for SEPA direct debit collection.  
 7. Choose the **Payment Method Code** field, and then select the payment method code that you specified in step 3.  
 8. Repeat steps 6 and 7 for all customers that you want to set up for SEPA direct debit collection.  
 
 #### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>To set up the direct-debit mandate that represents the customer agreement  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2. Open the card for the customer that you want to set up for SEPA direct debits.  
 3. Choose the **Bank Accounts** action.  
 4. On the **Customer Bank Account List** page, select the customer bank account that will use direct debits, and then choose the **Direct Debit Mandates** action.  
@@ -99,7 +99,7 @@ Before you can process customer payments electronically by exporting direct debi
 
 ### <a name="to-create-a-direct-debit-collection"></a>To create a direct-debit collection  
 
- 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.  
+ 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.  
  2. On the **Direct Debit Collections** page, choose the **Create Direct Debit Collection** action.  
  3. On the **Create Direct Debit Collection** page, fill in the fields as described in the following table.  
 
@@ -145,7 +145,7 @@ A direct-debit collection is added to the **Direct Debit Collections** page, and
  You can post the payment receipt directly from the **Direct Debit Collections** page or the **Direct Debit Collect. Entries** page. Alternatively, you can relay the work to another user by preparing the related journal lines.  
 
 ### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>To post a direct-debit payment receipt from the Direct Debit Collections page  
- 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.  
+ 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.  
  2. Select a line for a direct debit collection that has been exported to a bank file and successfully processed by the bank.
  3. Choose the **Post Payment Receipts** action.  
  4. On the **Post Direct Debit Collection** page, fill in the fields as described in the following table.  

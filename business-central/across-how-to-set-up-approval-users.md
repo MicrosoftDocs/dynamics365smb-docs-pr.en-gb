@@ -1,6 +1,6 @@
 ---
 title: Set Up Approval Users
-description: Before you can create workflows that involve approval steps, you must set up the workflow users who are involved in approval processes. In the Approval User Setup page, you also set amount limits for specific types of requests and define substitute approvers to whom approval requests are delegated when the original approver is absent.
+description: Before you can create workflows that involve approval steps, you must set up the workflow users involved in the approval processes with approval User Setup.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 5eaa2daf8321adf65275bf4e0cd21ee1f4cb29fa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fcf106941c59cd4cb510a9443eac1d50612e15b7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787264"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439208"
 ---
 # <a name="set-up-approval-users"></a>Set Up Approval Users
 
 Before you can create workflows that involve approval steps, you must set up the workflow users who are involved in approval processes. On the **Approval User Setup** page, you also set amount limits for specific types of requests and define substitute approvers to whom approval requests are delegated when the original approver is absent.  
 
 > [!NOTE]  
-> Approval users, both approval requesters and approvers, must first be set up as workflow users on the **Workflow User Group** page. For more information, see [Set Up Workflow Users](across-how-to-set-up-workflow-users.md).  
+> Approval users, both approval requestors and approvers, must first be set up as workflow users on the **Workflow User Group** page. For more information, see [Set Up Workflow Users](across-how-to-set-up-workflow-users.md).  
 
  When you have set up approval users, you can use the setup to create workflow responses for approval workflows. For more information, see step 9 in [Create Workflows](across-how-to-create-workflows.md).  
 
@@ -31,13 +31,13 @@ Before you can create workflows that involve approval steps, you must set up the
 
 ## <a name="to-set-up-an-approval-user"></a>To set up an approval user
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.  
 2. Create a new line on the **Approval User Setup** page, and then fill the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**User ID**|Select the user ID of the user who is involved in the approval process.|  
-    |**Salespers./Purch. Code**|Specify the salesperson or purchaser code that applies to the user in the **Salespers./Purch. Code** field.<br /><br /> You typically fill the **Salespers./Purch. Code** field if the salesperson or purchaser who is responsible for the customer or vendor is also the person who must approve the sales or purchase request in question.|  
+    |**Salespers./Purch. Code**|Specify the salesperson or purchaser code that applies to the user in the **Salespers./Purch. Code** field.<br /><br /> You typically fill the **Salespers./Purch. Code** field if the salesperson or purchaser who is responsible for the customer or supplier is also the person who must approve the sales or purchase request in question.|  
     |**Approver ID**|Select the user ID of the user who must approve requests made by the user in the **User ID** field.|  
     |**Sales Amount Approval Limit**|Specify the maximum sales amount in LCY that the user in the **User ID** field can approve.|  
     |**Unlimited Sales Approval**|Specify that the user in the **User ID** field can approve all sales requests regardless of their amount.<br /><br /> If you select this check box, then you cannot fill the **Sales Amount Approval Limit** field.|  

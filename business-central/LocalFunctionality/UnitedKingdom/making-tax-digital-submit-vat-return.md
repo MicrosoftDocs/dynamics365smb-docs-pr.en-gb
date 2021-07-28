@@ -10,21 +10,23 @@ ms.workload: na
 ms.search.keywords: making tax digital, vat, vat return, submit vat, making tax digital software, hmrc, tax
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 9ebc0630ec09091adc7c14d92beb3eb8fe957760
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 108f8997ea9d9051e5dbef5531a9cb7d2ad0df12
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779148"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439730"
 ---
 # <a name="making-tax-digital-in-the-united-kingdom"></a>Making Tax Digital in the United Kingdom
 
-Her Majesty's Revenue and Customs (HMRC) is implementing the first step of Making Tax Digital, which imposes new requirements on VAT registered businesses above the VAT threshold. Requirements will be implemented in phases. In the first phase, with a deadline in April, 2019, the following requirements took effect:
+Her Majesty's Revenue and Customs (HMRC) has implemented the first step of Making Tax Digital, which imposes new requirements on VAT registered businesses above the VAT threshold. Requirements will be implemented in phases. In the first phase, with a deadline in April 2019, the following requirements took effect:
 
 * Keeping records digitally
 
-  Businesses must now keep all their records digitally. For users of ERP systems this will not have any impact since they already keep their records digitally in these systems.  
+  Businesses must now keep all their records digitally. For users of ERP systems, this requirement will not have any impact since they already keep their records digitally in these systems.  
 * Submit VAT return electronically using [software recognized by HMRC](https://www.gov.uk/guidance/software-for-sending-income-tax-updates).  
+
+Starting in 2021, the electronic statements must also include information that helps prevent fraud. For more information, see [Send Fraud Prevention Data](fraud-prevention-data.md).  
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] supports Making Tax Digital and the GovTalk service.
 
@@ -46,7 +48,7 @@ The Making Tax Digital feature uses a service connection to communicate with HMR
 > [!Note]
 > If you are using [!INCLUDE [prod_short](../../includes/prod_short.md)] on-premises, there are some additional steps to set up the features for Making Tax Digital. In [!INCLUDE [prod_short](../../includes/prod_short.md)] online, these happen automatically. For more information, see the [Additional Setup Requirements for On-Premises Versions](#additional-setup-requirements-for-on-premises-versions) section.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose the related link.  
 2. On the **Service Connections** page, choose **HMRC VAT Setup**.
 
     > [!Note]
@@ -67,7 +69,7 @@ The Making Tax Digital feature uses a service connection to communicate with HMR
     a. Create a new configuration, and choose the VAT Return type.  
     b. Give the configuration a descriptive name, such as **HMRC MTD**.  
     c. In the **Suggest Lines Codeunit ID** field, choose codeunit **745**.  
-    d. In the **Content Coneunit ID** field, choose codeunit **10531**.  
+    d. In the **Content Codeunit ID** field, choose codeunit **10531**.  
     e. In the **Submission Codeunit ID** field, choose codeunit **10532**.  
     f. In the **Validate Codeunit ID** field, choose codeunit **10533**.  
     g. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
@@ -90,7 +92,7 @@ HMRC maintains a list of VAT obligations for companies, which are the periods fo
 
 ### <a name="to-retrieve-the-vat-return-periods-from-hmrc"></a>To retrieve the VAT return periods from HMRC
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, choose **Process**, and then choose **Get VAT Return Periods**.
 3. Enter the **Start Date** and **End Date** to specify the period for which to get the VAT return periods, and then choose **OK**.  
 
@@ -105,21 +107,21 @@ Use this report to submit VAT for sales and purchase documents, such as purchase
 
 ### <a name="to-create-and-submit-a-vat-return"></a>To create and submit a VAT return
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, choose **Process**, and then choose **Create VAT Return**.
 3. If you want to open the VAT return, on the confirmation page, choose **Yes**.
 4. On the **VAT Return** page, to calculate and prepare the amounts for the VAT return, choose **Process**, and then choose the **Suggest Lines** action.  
 5. Fill in the fields as necessary, and then choose the **OK** button. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
   VAT amounts display in the **Report Lines** section on the **VAT Return** page.  
-6. To release the VAT return and prepare it for submission, choose **Process**, and then choose the **Release** action. After you release a VAT return you cannot edit it. If you need to change something, you must reopen the return. Releasing the VAT return does not submit it.
+6. To release the VAT return and prepare it for submission, choose **Process**, and then choose the **Release** action. After you release a VAT return, you cannot edit it. If you need to change something, you must reopen the return. Releasing the VAT return does not submit it.
 7. To submit the VAT return to HMRC, choose **Process**, and then choose the **Submit** action.  
 
-A successful submission of the VAT Return will result in a Status = Accepted on the VAT Return. This status is based on the submission result at the HMRC. If the status after submission is not set to Approved a previously submitted VAT Return can be retrieved from the HMRC.
+A successful submission of the VAT Return will result in a status of *Accepted* on the VAT Return. This status is based on the submission result at the HMRC. If the status after submission is not set to *Approved*, a previously submitted VAT Return can be retrieved from the HMRC.
 
 ### <a name="to-receive-previously-submitted-vat-returns-from-hmrc"></a>To receive previously submitted VAT Returns from HMRC
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, choose the relevant VAT return period.
 3. On the **VAT Return Period Card** page, choose the **Receive Submitted VAT Returns** action.
 
@@ -129,7 +131,7 @@ If you want to check the status of your VAT, you can retrieve information from H
 
 To retrieve VAT liabilities:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Liabilities**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Liabilities**, and then choose the related link.  
 2. On the **VAT Liabilities** page, choose **Process**, and then select **Get Liabilities**.
 3. Enter the **Start Date** and **End Date** of the period to retrieve VAT liabilities for, and then choose **OK**.
 
@@ -137,7 +139,7 @@ The VAT liabilities are now retrieved from HMRC and you can view them on the **V
 
 To retrieve VAT payments from HMRC:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Payments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Payments**, and then choose the related link.  
 2. On the **VAT Payments** page, choose **Process**, and then choose **Get Payments**.
 3. Enter the **Start Date** and **End Date** of the period to retrieve VAT payments for, and then choose **OK**.
 
@@ -149,21 +151,24 @@ This integration to HMRC and support of Making Tax Digital for VAT does not incl
 
 * Group VAT scenarios
 
-  While it is possible that your [!INCLUDE[prod_short](../../includes/prod_short.md)] submits VAT on behalf of a group of companies that share a VAT registration number (Group VAT) there is no built in mechanism for retrieving VAT entries from other companies in the group. There are currently no plans to support Group VAT and we refer to Microsoft partners to add this functionality.
+  If your [!INCLUDE[prod_short](../../includes/prod_short.md)] submits VAT on behalf of a group of companies that share a VAT registration number (Group VAT), there is no built in mechanism for retrieving VAT entries from other companies in the group. There are currently no plans to support Group VAT, and we refer to Microsoft partners to add this functionality.
 * Agent services
 
   Agents can submit VAT returns on behalf of their customers and HMRC has solutions for that. This is currently not supported by [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 ## <a name="connection-errors-with-hmrc"></a>Connection errors with HMRC
 
-If you experience "The operation has timed out" errors on an on-premises installation of [!INCLUDE[prod_short](../../includes/prod_short.md)] please check your firewall settings that may be blocking the communication to and from HMRC.
+If you experience "The operation has timed out" errors on an on-premises installation of [!INCLUDE[prod_short](../../includes/prod_short.md)], check any firewall settings that may be blocking the communication to and from HMRC.
 
 ## <a name="testing-the-integration-to-hmrc-in-a-sandbox"></a>Testing the integration to HMRC in a sandbox
 
-Due to a limitation at HMRC, it is not possible to send test submissions of VAT Returns and test the integration in non-production scenarios. You can only send real VAT returns. Certain online documentation at HMRC refers to the term *Sandbox*. This refers to an environment for software developers such as Microsoft and others for testing their features during development. This environment is not intended for customer testing, and it is unrelated to [!INCLUDE[prod_short](../../includes/prod_short.md)] sandboxes.
+Due to a limitation at HMRC, it is not possible to send test submissions of VAT Returns and test the integration in non-production scenarios. You can only send real VAT returns.  
+
+Certain online documentation at HMRC refers to the term *Sandbox*. This term refers to an environment for software developers such as Microsoft and others for testing their features during development. This environment is not intended for customer testing, and it is unrelated to [!INCLUDE[prod_short](../../includes/prod_short.md)] sandboxes.
 
 ## <a name="see-also"></a>See Also
 
+[Send Fraud Prevention Data](fraud-prevention-data.md)  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
 [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)  
 [The VAT Group Management Extension](../../ui-extensions-vat-group.md)  

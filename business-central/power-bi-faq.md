@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 939b280e631113d3196f6fbbc90d9bf19b9fc408
-ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
+ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025840"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438759"
 ---
 # <a name="power-bi--faq"></a>Power BI  FAQ
 
@@ -65,8 +65,20 @@ We don't have control over this requirement. This requirement is set by Power BI
 <!-- 7 -->
 ### <a name="does-the-connector-work-with-api-pages"></a>Does the connector work with API pages?
 
-Not yet. But starting in June 2021, the new Power BI connector will support both Business Central web services and API pages. For more information, see [Enable Power BI connector to work with Business Central APIs, instead of with web services only](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
+Yes. Starting in June 2021, the new Power BI connector supports both Business Central web services and API pages. For more information, see [Enable Power BI connector to work with Business Central APIs, instead of with web services only](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
 
+### <a name="can-i-build-a-power-bi-report-using-the-sales-invoice-lines-or-journal-lines-apis"></a>Can I build a Power BI report using the Sales Invoice Lines or Journal Lines APIs?
+
+The most commonly used line records are available in the [Business Central APIs v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)). So you can use them to build reports in Power BI by selecting them in the **Dynamics 365 Business Central** connector. However, the **Lines** APIs are designed to be used only with some very specific filters, and might not work in your scenario. You might get an error similar to "You must specify an Id or a Document Id to get the lines". To fix this problem, do the following steps when getting data from Business Central for the report in Power BI Desktop:
+
+1. Instead of including the data source for the lines entity, add the parent data source. For example, add **Sales Invoice** instead of **Sales Invoice Lines**.
+2. Select **Transform Data** in the Power BI Desktop action bar.
+3. Select the query you just added, for example **Sales Invoices**.
+4. Apply any needed filtering on the records to reduce the amount of records loaded in your report.
+5. Scroll to the right until you find a column named as the lines, for example **SalesInvoiceLines**.
+6. Select the expand button in the header of the column, next to the column name.
+
+   :::image type="content" source="media/saleinvoicelines.png" alt-text="Shows the SalesInvoiceLines column in Power BI Desktop.":::
 <!-- 11 --> 
 ### <a name="is-it-possible-to-choose-which-business-central-environment-to-get-data-from-for-power-bi-for-example-like-a-sandbox-or-production-environment"></a>Is it possible to choose which Business Central environment to get data from for Power BI, for example, like a sandbox or production environment? 
 
@@ -137,14 +149,23 @@ When it comes to web services, published queries are usually faster than equival
 When the new connector is available in June 2021, you're encouraged to use API pages over queries published as web services.
 
 <!-- 13 --> 
-### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-developer-have-to-create-a-custom-query"></a>Is there a way for an end user to create a web service with a column that's in a Business Central table, but not a page? Or will developer have to create a custom query? 
+### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>Is there a way for an end user to create a web service with a column that's in a Business Central table, but not a page? Or will the developer have to create a custom query? 
 
-Not yet. But when the new connector is available in June 2021, a developer can create a new API page to meet this requirement. 
+Yes. With the release of the new connector in June 2021, a developer can create a new API page to meet this requirement. 
 
 <!-- 28 --> 
 ### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>Can I connect Power BI to a read-only database server of Business Central online? 
 
 No. But we have this feature on our long-term roadmap. 
+
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop"></a><a name="perms"></a>How do I change or clear the user account I'm currently using to connect to Business Central from Power BI Desktop?
+
+In Power BI Desktop, do the following steps:
+
+1. In the File menu, select **Options and settings** > **Data source settings**.
+2. Select **Dynamics Business Central** from the list, then select **Clear permissions** > **Delete**.
+
+Then next time you connect to Business Central to get data, you'll be asked to sign in.
 
 ## <a name="performance"></a>[Performance](#tab/performance)
 

@@ -1,18 +1,18 @@
 ---
-title: How to Track Packages | Microsoft Docs
-description: Use the shipping agents tracking service to see the progress of a delivery.
+title: How to Track Packages
+description: Use the shipping agents tracking service on the Internet to track parcels and follow the progress of a delivery.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fea12afc4c9c1273fe8ba6da563240781fb1bc9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c4272e26021cecd04d6bd81ec66957032def6a8e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778354"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440210"
 ---
 # <a name="track-packages"></a>Track Packages
 
@@ -22,7 +22,7 @@ The following procedure shows how to track a package from a posted sales shipmen
 
 ## <a name="to-track-a-package"></a>To track a package
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment**, and then choose the related link.
 2. Open the relevant shipment.
 3. Choose the **Update Document** action.
 4. In the **Package Tracking No.** field, enter the package number you have received from the shipping agent. Update **Shipping Agent** if needed and close the page.

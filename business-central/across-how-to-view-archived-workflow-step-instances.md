@@ -1,6 +1,6 @@
 ---
-title: How to View Archived Workflow Step Instances | Microsoft Docs
-description: All completed workflow step instances are saved on the **Archived Workflow Step Instances** page.
+title: How to View Archived Workflow Step Instances
+description: All completed workflow step instances are saved on the **Archived Workflow Step Instances** page. Each step consists of a workflow event and workflow response.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6a7759d65eb7e104e97b8c6fec7bf869dfa032e4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e264e5fe8399721398a2edc06faad2b1136e486c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774568"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439877"
 ---
 # <a name="view-archived-workflow-step-instances"></a>View Archived Workflow Step Instances
 All completed workflow step instances are saved on the **Archived Workflow Step Instances** page.  
@@ -23,12 +23,12 @@ All completed workflow step instances are saved on the **Archived Workflow Step 
  On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
 ## <a name="to-view-archived-workflow-step-instances"></a>To view archived workflow step instances  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2.  Open the workflow for which you want to view all archived workflow step instances.  
 3.  On the **Workflow** page, choose the **Archived Workflow Step Instances** action.  
 
     The **Archived Workflow Step Instances** page opens showing the archived workflow step instances of the selected workflow.  
-4.  Alternatively, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archived Workflow Step Instances**, and then choose the related link.  
+4.  Alternatively, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archived Workflow Step Instances**, and then choose the related link.  
 
 The **Archived Workflow Step Instances** page opens showing all archived workflow step instances. In the **Workflow Code** field, you can see which workflow the archived workflow step instance belonged to.  
 

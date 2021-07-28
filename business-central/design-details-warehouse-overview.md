@@ -1,6 +1,6 @@
 ---
-title: Design Details - Warehouse Overview | Microsoft Docs
-description: To support the physical handling of items on the zone and bin level, all information must be traced for each transaction or movement in the warehouse. This is managed in the **Warehouse Entry** table. Each transaction is stored in a warehouse register.
+title: Design Details - Warehouse Overview
+description: To support the physical handling of items on the zone and bin level, all information must be traced for each transaction or movement in the warehouse.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: f1ecd1324df2433d31ff1480316a9e281ad5c5df
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 586fdc74b174ae24dea6354953899370f076a2da
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215685"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439542"
 ---
 # <a name="design-details-warehouse-overview"></a>Design Details: Warehouse Overview
 To support the physical handling of items on the zone and bin level, all information must be traced for each transaction or movement in the warehouse. This is managed in the **Warehouse Entry** table. Each transaction is stored in a warehouse register.  
@@ -28,7 +28,7 @@ When item postings occur outside the warehouse module, a default adjustment bin 
 
 The following illustration outlines typical warehouse flows.  
 
-![Overview of warehouse processes](media/design_details_warehouse_management_overview.png "Overview of warehouse processes")  
+![Overview of warehouse processes.](media/design_details_warehouse_management_overview.png "Overview of warehouse processes")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Basic or Advanced Warehousing  
 Warehouse functionality in [!INCLUDE[prod_short](includes/prod_short.md)] can be implemented in different complexity levels, depending on a company’s processes and order volume. The main difference is that activities are performed order-by-order in basic warehousing when they are consolidated for multiple orders in advanced warehousing.  

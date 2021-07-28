@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 04d5679ccb2d335fd308343724c09a9f827cd059
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c1fd69db741a932bd4088362e58f2963b9cbf134
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778254"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440110"
 ---
 # <a name="set-up-a-loaner-program"></a>Set Up a Loaner Program
 Sometimes you must provide a customer a loaner item for use when your customer service team makes a repair. In [!INCLUDE[prod_short](includes/prod_short.md)], you can set up a loaner programme, loan items to your customers, and track receipts when customers return the items. Additionally, you can add comments about loaners in one of two ways:  
@@ -24,11 +24,11 @@ Sometimes you must provide a customer a loaner item for use when your customer s
 * Enter a note on a service item about the need for a loaner.  
 
 ## <a name="to-set-up-a-loaner"></a>To set up a loaner  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Loaners**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Loaners**, and then choose the related link.  
 2. Create a new loaner card. 
 3. In the **No.** field, enter a number for the loaner. Alternatively, if you have set up number series for loaners on the **Service Mgt. Setup** page, you can press the Enter key to enter the next available loaner number.  
 4. Fill in the **Description**, **Description 2**, and **Serial No.** fields.  
-5. In the **Unit of Measure Code** field, choose the relevant unit of measure.  
+5. In the **Unit of Measurement Code** field, choose the relevant unit of measurement.  
   
 ## <a name="see-also"></a>See Also
 [Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)  

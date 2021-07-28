@@ -1,6 +1,6 @@
 ---
-title: Walkthrough - Making Cash Flow Forecasts by Using Account Schedules
-description: Learn how you can use account schedules to make cash flow forecasts.
+title: Cash Flow Forecasts by Using Account Schedules
+description: This walkthrough describes how you can use account schedules to make cash flow forecasts in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 48a176c4c363c4a33ae336d754be71c9f7dd0aeb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0da9a5cab5c36bd5403bca3731ce46bb67316c3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772111"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438509"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Walkthrough: Making Cash Flow Forecasts by Using Account Schedules
 
@@ -54,7 +54,7 @@ An account schedule consists of a cash flow account schedule name with a series 
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>To set up a new account schedule name  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
 2. On the **Account Schedule Names** page, choose the **New** to create a new cash flow account schedule name.  
 3. In the **Name** field, enter **Forecast**.  
 4. In the **Description** field, enter **Cash Flow Forecast**.  
@@ -106,7 +106,7 @@ Before Ken can print the cash flow forecast, he needs to create the column layou
 
 - The first column has the number *C10* with the title **Amount** and contains the net change.  
 - The second column has the number *C20* with the title **Balance at Date** and contains the transactions for the period.  
-- The third column has the number *C30* with the title **Entire Year** and contains the net change in the balances for the entire fiscal year.  
+- The third column has the number *C30* with the title **Entire Year** and contains the net change in the balances for the entire financial year.  
 - Finally, he assigns the column layout as the default column layout for the account schedule **Forecast**.  
 
 ## <a name="to-set-up-a-new-column-layout"></a>To set up a new column layout
@@ -126,7 +126,7 @@ Before Ken can print the cash flow forecast, he needs to create the column layou
     |----------|-------------|-----------|-----------------|-----------|----|
     |C10|Amount|Net Change|Entries|Net Amount|Always|  
     |C20|Amount until Date|Balance at Date|Entries|Net Amount|Always|  
-    |C30|Entire Fiscal Year|Entire Fiscal Year|Entries|Net Amount|Always|
+    |C30|Entire Financial Year|Entire Financial Year|Entries|Net Amount|Always|
 
 ## <a name="assigning-the-column-layout-to-the-account-schedule-name"></a>Assigning the Column Layout to the Account Schedule Name
 

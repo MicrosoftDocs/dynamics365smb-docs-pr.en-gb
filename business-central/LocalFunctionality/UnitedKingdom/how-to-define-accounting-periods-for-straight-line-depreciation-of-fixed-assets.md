@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.search.keywords: write down
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dbbf3e10b95928a2ebf66f56be0a4494d1eb9644
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bba4b5a0a7730cf2aa4d25cd410856b2207e9e2c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788204"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440478"
 ---
 # <a name="define-accounting-periods-for-straight-line-depreciation-of-fixed-assets"></a>Define Accounting Periods for Straight-Line Depreciation of Fixed Assets
 You can define 13 accounting periods to calculate straight line depreciation. You must calculate depreciation daily and distribute across the relevant periods. You can also define these accounting periods in the **FA - Projected Value** report.  
@@ -24,14 +24,14 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
 
 ### <a name="to-define-accounting-periods-to-calculate-straight-line-depreciation"></a>To define accounting periods to calculate straight line depreciation  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
 2.  To open a new **Depreciation Book Card** page, choose the **New** action.  
 3.  On the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 5.  Choose the **OK** button.  
 
 ## <a name="to-define-accounting-periods-in-the-fa---projected-value-report"></a>To define accounting periods in the FA - Projected Value report  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA - Projected Value**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA - Projected Value**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 

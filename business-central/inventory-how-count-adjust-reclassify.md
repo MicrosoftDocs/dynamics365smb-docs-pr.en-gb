@@ -1,6 +1,6 @@
 ---
-title: Count, Adjust, and Reclassify Inventory| Microsoft Docs
-description: Describes how to perform physical counting, make negative or positive adjustments, and how to change information, such as location or lot number, on item ledger entries or warehouse entries.
+title: Count, Adjust, and Reclassify Stock
+description: Perform physical counting, make negative or positive adjustments, and change information, such as location or lot number, on item ledger or warehouse entries.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,86 +8,86 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d2052d2d6cc5d06eb001d2b29eb6d5fc79d8b00c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3c975a6d851693cef2b139d2493f825299770fac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785980"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440462"
 ---
-# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Count, Adjust, and Reclassify Inventory Using Journals
-At least once every fiscal year you must take a physical inventory, that is, count all the items on inventory, to see if the quantity registered in the database is the same as the actual physical quantity in the warehouses. When the actual physical quantity is known, it must be posted to the general ledger as a part of period-end valuation of inventory.
+# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Count, Adjust, and Reclassify Stock Using Journals
+At least once every financial year you must take a physical inventory, that is, count all the items on stock, to see if the quantity registered in the database is the same as the actual physical quantity in the warehouses. When the actual physical quantity is known, it must be posted to the general ledger as a part of period-end valuation of stock.
 
-Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business. For this purpose, you can assign special counting periods to those items. For more information, see [To perform cycle counting](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
+Although you count all items in stock at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business. For this purpose, you can assign special counting periods to those items. For more information, see [To perform cycle counting](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
 
-If you need to adjust recorded inventory quantities, in connection with counting or for other purposes, you can use an item journal to change the inventory ledger entries directly without posting business transactions. Alternatively, you can adjust for a single item on the item card.
+If you need to adjust recorded stock quantities, in connection with counting or for other purposes, you can use an item journal to change the stock ledger entries directly without posting business transactions. Alternatively, you can adjust for a single item on the item card.
 
 If you need to change attributes on item ledger entries, you can use the item reclassification journal. Typical attributes to reclassify include dimensions and sales campaign codes, but you also perform "system transfers" by reclassifying bin and location codes. Special steps apply when you want to reclassify serial or lot numbers and their expiration dates. For more information, see [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
-> In advanced warehouse configurations, items are registered in bins as warehouse entries, not as item ledger entries. Therefore, you perform counting, adjusting, and reclassifying in special warehouse journals that support bins. Then, you use special functions to synchronise the new or changed warehouse entries with their related item ledger entries to reflect the changes in inventory quantities and values. This is described in specific procedures below where relevant.
+> In advanced warehouse configurations, items are registered in bins as warehouse entries, not as item ledger entries. Therefore, you perform counting, adjusting, and reclassifying in special warehouse journals that support bins. Then, you use special functions to synchronise the new or changed warehouse entries with their related item ledger entries to reflect the changes in stock quantities and values. This is described in specific procedures below where relevant.
 
 ## <a name="to-perform-a-physical-inventory"></a>To perform a physical inventory
-You must take a physical inventory, that is, count the actual items on hand, to check if the quantity registered is the same as the physical quantity in stock at the end of a fiscal year, if not more often. If there are differences, you must post them to the item accounts before you do the inventory valuation.
+You must take a physical inventory, that is, count the actual items on hand, to check if the quantity registered is the same as the physical quantity in stock at the end of a financial year, if not more often. If there are differences, you must post them to the item accounts before you do the stock valuation.
 
 > [!NOTE]
-> This procedure describes how to perform a physical inventory using a journal, the **Phys. Inventory Journal** page. You can also perform the task using documents, the **Physical Inventory Order** and **Physical Inventory Recording** pages, which provide more control and support distributing the counting to multiple employees. For more information, see [Count Inventory Using Documents](inventory-how-count-inventory-with-documents.md).<br /><br />
+> This procedure describes how to perform a physical inventory using a journal, the **Phys. Stock Journal** page. You can also perform the task using documents, the **Physical Stock Order** and **Physical Stock Recording** pages, which provide more control and support distributing the counting to multiple employees. For more information, see [Count Stock Using Documents](inventory-how-count-inventory-with-documents.md).<br /><br />
 > Note that the document-based functionality cannot be used to count items in bins, warehouse entries.
 
 Apart from the physical counting task, the complete process involves the following three tasks:
 
-- Calculate the expected inventory.
+- Calculate the expected stock.
 - Print the report to be used when counting.
-- Enter and post the actual counted inventory.
+- Enter and post the actual counted stock.
 
-You can perform the physical inventory in either of the following ways depending on your warehouse setup. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
+You can perform the physical stock in either of the following ways depending on your warehouse setup. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
--   If your location is not using directed put-away and pick (basic warehouse configuration), you use the **Phys. Inventory Journal** page in the **Inventory** menu, and the procedure is much the same as when you conduct a physical inventory without cycle counting.  
+-   If your location is not using directed put-away and pick (basic warehouse configuration), you use the **Phys. Stock Journal** page in the **Stock** menu, and the procedure is much the same as when you conduct a physical inventory without cycle counting.  
 -   If your location is using directed put-away and pick (advanced warehouse configuration), you first use the **Whse. Phys. Invt. Journal** page, and then you use the **Item Journal** page to run the **Calculate Whse. Adjustment** function.
 
-### <a name="to-calculate-the-expected-inventory-in-basic-warehouse-configurations"></a>To calculate the expected inventory in basic warehouse configurations
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Phys. Inventory Journals**, and then choose the related link.
-2. Choose the **Calculate Inventory** action.
-3. On the **Calculate Inventory** page, specify the conditions to use to create the journal lines, such as whether to include items that have zero recorded inventory.
-4. Set filters if you only want to calculate inventory for certain items, bins, locations, or dimensions.
+### <a name="to-calculate-the-expected-inventory-in-basic-warehouse-configurations"></a>To calculate the expected stock in basic warehouse configurations
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Phys. Stock Journals**, and then choose the related link.
+2. Choose the **Calculate Stock** action.
+3. On the **Calculate Stock** page, specify the conditions to use to create the journal lines, such as whether to include items that have zero recorded stock.
+4. Set filters if you only want to calculate stock for certain items, bins, locations, or dimensions.
 5. Choose the **OK** button.
 
 > [!NOTE]  
->   The item entries are processed according to the information that you specified, and lines are created in the physical inventory journal. Notice that the **Qty. (Phys. Inventory)** field is automatically filled in with the same quantity as the **Qty. (Calculated)** field. With this feature, it is not necessary for you to enter the counted inventory on hand for items that are the same as the calculated quantity. However, if the quantity counted differs from what is entered in the **Qty. (Calculated)** field, you must overwrite it with the quantity actually counted.
+>   The item entries are processed according to the information that you specified, and lines are created in the physical stock journal. Notice that the **Qty. (Phys. Stock)** field is automatically filled in with the same quantity as the **Qty. (Calculated)** field. With this feature, it is not necessary for you to enter the counted stock on hand for items that are the same as the calculated quantity. However, if the quantity counted differs from what is entered in the **Qty. (Calculated)** field, you must overwrite it with the quantity actually counted.
 
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>To print the report to be used when counting
-1. On the **Phys. Inventory Journal** page containing the calculated expected inventory, Choose the **Print** action.
-2. On the **Phys. Inventory List** page, specify if the report should show the calculated quantity and if the report should list inventory items by serial/lot numbers.
+1. On the **Phys. Stock Journal** page containing the calculated expected stock, Choose the **Print** action.
+2. On the **Phys. Stock List** page, specify if the report should show the calculated quantity and if the report should list stock items by serial/lot numbers.
 3. Set filters if you only want to print the report for certain items, bins, locations, or dimensions.
 4. Choose the **Print** button.
 
-Employees can now proceed to count inventory and record any discrepancies on the printed report.
+Employees can now proceed to count stock and record any discrepancies on the printed report.
 
 > [!NOTE]
-> It can take several days before printed reports come back for final processing and posting. When you specify and post actual counted inventory, the system adjusts inventory to reflect the difference between the expected and the actual counted inventory. You must keep the originally calculated journal lines and not recalculate the expected inventory, because the expected inventory may change and lead to wrong inventory levels. If you need to issue multiple reports, such as for different locations or group of items, you must create and keep separate journal batches.
+> It can take several days before printed reports come back for final processing and posting. When you specify and post actual counted stock, the system adjusts stock to reflect the difference between the expected and the actual counted stock. You must keep the originally calculated journal lines and not recalculate the expected stock, because the expected stock may change and lead to wrong stock levels. If you need to issue multiple reports, such as for different locations or group of items, you must create and keep separate journal batches.
 
-### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>To enter and post the actual counted inventory in basic warehouse configurations
-1. On each line on the **Phys. Inventory Journal** page where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. (Phys. Inventory)** field.
+### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>To enter and post the actual counted stock in basic warehouse configurations
+1. On each line on the **Phys. Stock Journal** page where the actual stock on hand, as determined by the physical count, differs from the calculated quantity, enter the actual stock on hand in the **Qty. (Phys. Stock)** field.
 
     The related fields are updated accordingly.
 
     > [!NOTE]  
-    >   If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal. Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations. For more information, see Item Reclass. Journal or Create Transfer Orders.
+    >   If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical stock journal. Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations. For more information, see Item Reclass. Journal or Create Transfer Orders.
 
 2. To adjust the calculated quantities to the actual counted quantities, choose the **Post** action.
 
-    Both item ledger entries and physical inventory ledger entries are created. Open the item card to view the resulting physical inventory ledger entries.
+    Both item ledger entries and physical stock ledger entries are created. Open the item card to view the resulting physical stock ledger entries.
 
-3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
-4. To verify the inventory counting, open the item card in question, and then, choose the **Phys. Inventory ledger Entries** action.
+3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+4. To verify the stock counting, open the item card in question, and then, choose the **Phys. Stock ledger Entries** action.
 
-### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>To calculate the expected inventory in advanced warehouse configurations
-Synchronise item ledger and warehouse before you perform the warehouse physical inventory, otherwise the results you post to the physical inventory journal and item ledger in the final part of the process will be the physical inventory results combined with other warehouse adjustments for the items that were counted. For more information, see [synchronise quantities in the item ledger and warehouse](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries)
+### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>To calculate the expected stock in advanced warehouse configurations
+Synchronise item ledger and warehouse before you perform the warehouse physical stock, otherwise the results you post to the physical stock journal and item ledger in the final part of the process will be the physical stock results combined with other warehouse adjustments for the items that were counted. For more information, see [synchronise quantities in the item ledger and warehouse](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries)
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Phys. Invt. Journal**, and choose the related link.  
-2. Choose the **Calculate Inventory** action. The **Whse. Calculate Inventory** batch job request page opens.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Phys. Invt. Journal**, and choose the related link.  
+2. Choose the **Calculate Stock** action. The **Whse. Calculate Stock** batch job request page opens.  
 3. Set the filters to limit the items that will be counted in the journal, and then choose the **OK** button.
 
     The application creates a line for each bin that fulfils the filter requirements. You can at this point still delete some of the lines, but if you want to post the results as a physical inventory, you must count the item in all the bins that contain it.  
@@ -96,96 +96,96 @@ Synchronise item ledger and warehouse before you perform the warehouse physical 
 
 
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>To print the report to be used when counting
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Physical Inventory List**, and choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Physical Stock List**, and choose the related link.  
 2. Open the  report request page and print the lists on which you want employees to record the quantity of items that they count in each bin.  
 
-Employees can now proceed to count inventory and record any discrepancies on the printed report.
+Employees can now proceed to count stock and record any discrepancies on the printed report.
 
-### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations"></a>To enter and post the actual counted inventory in advanced warehouse configurations
-1. When the counting is done, enter the counted quantities in the **Qty. (Phys. Inventory)** field in the warehouse physical inventory journal.  
+### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations"></a>To enter and post the actual counted stock in advanced warehouse configurations
+1. When the counting is done, enter the counted quantities in the **Qty. (Phys. Strock)** field in the warehouse physical stock journal.  
 
     > [!NOTE]  
-    >  In the warehouse physical inventory journal, **Qty. (Calculated)** field is filled in automatically on the basis of warehouse bin records and copies these quantities are copied to the **Qty. (Physical)** field on each line. If the quantity counted by the warehouse employee differs from what application has entered in the Qty. (Physical) field, you must enter the quantity actually counted.  
+    >  In the warehouse physical stock journal, **Qty. (Calculated)** field is filled in automatically on the basis of warehouse bin records and copies these quantities are copied to the **Qty. (Physical)** field on each line. If the quantity counted by the warehouse employee differs from what application has entered in the Qty. (Physical) field, you must enter the quantity actually counted.  
 
 2. When you have entered all the counted quantities, choose the **Register** action.  
 
     When you register the journal, application creates two warehouse entries in the warehouse register for every line that was counted and registered:  
 
     -   If the calculated and the physical quantities differ, a negative or positive quantity is registered for the bin, and a balancing quantity is posted to the adjustment bin of the location.  
-    -   If the quantity calculated is equal to the physical quantity, application registers an entry of 0 for both the bin and the adjustment bin. The entries are the record that on the registering date, a warehouse physical inventory was performed, and there was no discrepancy in inventory for the item.  
+    -   If the quantity calculated is equal to the physical quantity, application registers an entry of 0 for both the bin and the adjustment bin. The entries are the record that on the registering date, a warehouse physical stock was performed, and there was no discrepancy in stock for the item.  
 
-When you register the warehouse physical inventory, you are not posting to the item ledger, the physical inventory ledger, or the value ledger, but the records are there for immediate reconciliation whenever necessary. If you like to keep precise records of what is happening in the warehouse, however, and you counted all of the bins where the items were registered, you should immediately post the warehouse results as an inventory physical inventory. For more information, see [synchronise quantities in the item ledger and warehouse](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+When you register the warehouse physical stock, you are not posting to the item ledger, the physical stock ledger, or the value ledger, but the records are there for immediate reconciliation whenever necessary. If you like to keep precise records of what is happening in the warehouse, however, and you counted all of the bins where the items were registered, you should immediately post the warehouse results as a stock physical stock. For more information, see [synchronise quantities in the item ledger and warehouse](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
 
 
 ## <a name="to-perform-cycle-counting"></a>To perform cycle counting
-Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business. For this purpose, you can assign special counting periods to those items.
+Although you count all items in stock at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business. For this purpose, you can assign special counting periods to those items.
 
 You can perform the cycle counting in either of the following ways depending on your warehouse setup. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
--   If your location is not using directed put-away and pick (basic warehouse configuration), you use the **Phys. Inventory Journal** page in the **Inventory** menu, and the procedure is much the same as when you conduct a physical inventory without cycle counting.  
+-   If your location is not using directed put-away and pick (basic warehouse configuration), you use the **Phys. Stock Journal** page in the **Stock** menu, and the procedure is much the same as when you conduct a physical inventory without cycle counting.  
 -   If your location is using directed put-away and pick (advanced warehouse configuration), you first use the **Whse. Phys. Invt. Journal** page, and then you use the **Item Journal** page to run the **Calculate Whse. Adjustment** function.  
 
 ### <a name="to-set-up-counting-periods"></a>To set up counting periods
-A physical inventory is typically taken at some recurring interval, for example monthly, quarterly, or annually. You can set up whatever inventory counting periods necessary.
+A physical stock is typically taken at some recurring interval, for example monthly, quarterly, or annually. You can set up whatever stock counting periods necessary.
 
-You set up the inventory counting periods that you want to use and then assign one to each item. When you perform a physical inventory and use the **Calculate Counting Period** in the physical inventory journal, lines for the items are created automatically.
+You set up the stock counting periods that you want to use and then assign one to each item. When you perform a physical inventory and use the **Calculate Counting Period** in the physical stock journal, lines for the items are created automatically.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Phys. Invt. Counting Periods**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Phys. Invt. Counting Periods**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a>To assign a counting period to an item  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select the item to which you want to assign a counting period.  
 3. In the **Phys Invt Counting Period Code** field, select the appropriate counting period.  
-4. Choose the **Yes** button to change the code and calculate the first counting period for the item. The next time you choose to calculate a counting period in the physical inventory journal, the item appears as a line on the **Phys. Invt. Item Selection** page. You can then begin to count the item on a periodic basis.
+4. Choose the **Yes** button to change the code and calculate the first counting period for the item. The next time you choose to calculate a counting period in the physical stock journal, the item appears as a line on the **Phys. Invt. Item Selection** page. You can then begin to count the item on a periodic basis.
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-basic-warehouse-configurations"></a>To initiate a count based on counting periods in basic warehouse configurations
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Phys. Inventory Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Phys. Stock Journal**, and then choose the related link.
 2. Choose the **Calculate Counting Period** action.
 
     The **Phys. Invt. Item Selection** page opens showing the items that have counting periods assigned and need to be counted according to their counting periods.
-3. Perform the physical inventory. For more information, see [To perform a physical inventory](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).
+3. Perform the physical stock. For more information, see [To perform a physical inventory](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>To initiate a count based on counting periods in advanced warehouse configurations
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Phys. Invt. Journal**, and choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Phys. Invt. Journal**, and choose the related link.  
 2. Choose the **Calculate Counting Period** action.
 
     The **Phys. Invt. Item Selection** page opens showing the items that have counting periods assigned and need to be counted according to their counting periods.
-3. Perform the physical inventory. For more information, see [To perform a physical inventory](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).  
+3. Perform the physical stock. For more information, see [To perform a physical inventory](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).  
 
     > [!NOTE]  
-    >  You must count the item in all the bins that contain the particular item. If you delete some of the bin lines that application has retrieved for counting on the **Whse. Phys. Inventory** page, then you will not be counting all the items in the warehouse. If you later post such incomplete results in the Phys. Inventory Journal, the amounts posted will be incorrect.  
+    >  You must count the item in all the bins that contain the particular item. If you delete some of the bin lines that application has retrieved for counting on the **Whse. Phys. Stock** page, then you will not be counting all the items in the warehouse. If you later post such incomplete results in the Phys. Stock Journal, the amounts posted will be incorrect.  
 
-## <a name="to-adjust-the-inventory-of-one-item"></a>To adjust the inventory of one item
-After you have made a physical count of an item in your inventory area, you can use the **Adjust Inventory** function to record the actual inventory quantity.
+## <a name="to-adjust-the-inventory-of-one-item"></a>To adjust the stock of one item
+After you have made a physical count of an item in your stock area, you can use the **Adjust Stock** function to record the actual stock quantity.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
-2. Select the item for which you want to adjust inventory, and then choose the **Adjust Inventory** action.
-3. In the **New Inventory** field, enter the inventory quantity that you want to record for the item.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+2. Select the item for which you want to adjust stock, and then choose the **Adjust Stock** action.
+3. In the **New Stock** field, enter the stock quantity that you want to record for the item.
 4. Choose the **OK** button.
 
-The item’s inventory is now adjusted. The new quantity is shown in the **Quantity on Hand ** field on the **Item Card** page.
+The item’s stock is now adjusted. The new quantity is shown in the **Quantity on Hand** field on the **Item Card** page.
 
-You can also use the **Adjust Inventory** function as a simple way to place purchased items on inventory if you do not use purchase invoices or orders to record your purchases. For more information, [Record Purchases](purchasing-how-record-purchases.md).
+You can also use the **Adjust Stock** function as a simple way to place purchased items on stock if you do not use purchase invoices or orders to record your purchases. For more information, [Record Purchases](purchasing-how-record-purchases.md).
 
 > [!NOTE]  
->   After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [Revalue Inventory](inventory-how-revalue-inventory.md).
+>   After you have adjusted stock, you must update it with the current, calculated value. For more information, see [Revalue Stock](inventory-how-revalue-inventory.md).
 
-### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>To adjust the inventory quantity of multiple items in basic warehouse configurations
-On the **Item Journal** page, you can post item transaction directly to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents.
+### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>To adjust the stock quantity of multiple items in basic warehouse configurations
+On the **Item Journal** page, you can post item transaction directly to adjust stock in connection with purchases, sales, and positive or negative adjustments without using documents.
 
 If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** page to make this recurring work easier. For more information, see [Working with Standard Journals](ui-work-general-journals.md#working-with-standard-journals).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Choose the **Post** action to make the inventory adjustments.
+3. Choose the **Post** action to make the stock adjustments.
 
 ### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>To adjust bin quantities in advanced warehouse configurations  
-If your location uses directed put-away and pick, use the **Whse. Item Journal** to post, outside the context of the physical inventory, all positive and negative adjustments in item quantity that you know are real gains, such as items previously posted as missing that show up unexpectedly, or real losses, such as breakage.  
+If your location uses directed put-away and pick, use the **Whse. Item Journal** to post, outside the context of the physical stock, all positive and negative adjustments in item quantity that you know are real gains, such as items previously posted as missing that show up unexpectedly, or real losses, such as breakage.  
 
-Unlike posting adjustments in the inventory item journal, using the warehouse item journal gives you an additional level of adjustment that makes your quantity records even more precise at all times. The warehouse thus always has a complete record of how many items are on hand and where they are stored, but each adjustment registration is not posted immediately to the item ledger. In the registering process, credits or debits are made to the real bin with the quantity adjustment and a counterbalancing entry is made in an adjustment bin, a virtual bin with no real items. This bin is defined in the **Invt. Adjustment Bin Code** on the location card.
+Unlike posting adjustments in the stock item journal, using the warehouse item journal gives you an additional level of adjustment that makes your quantity records even more precise at all times. The warehouse thus always has a complete record of how many items are on hand and where they are stored, but each adjustment registration is not posted immediately to the item ledger. In the registering process, credits or debits are made to the real bin with the quantity adjustment and a counterbalancing entry is made in an adjustment bin, a virtual bin with no real items. This bin is defined in the **Invt. Adjustment Bin Code** on the location card.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Item Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Item Journal**, and then choose the related link.  
 2.  Fill in the header information.  
 3.  Fill in the **Item No.** field on the line.  
 4.  Enter the bin in which you are putting the extra items or where you have found items to be missing.  
@@ -195,12 +195,12 @@ Unlike posting adjustments in the inventory item journal, using the warehouse it
 ## <a name="to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries"></a>To synchronise the adjusted warehouse entries with the related item ledger entries
 At appropriate intervals as defined by company policy, you must post the warehouse adjustment bin records in the item ledger. Some companies find it appropriate to post adjustments to the item ledger every day, while others may find it adequate to reconcile less frequently.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journal**, and then choose the related link.  
 2.  Fill in the fields on each journal line.  
 3.  Choose the **Calculate Whse. Adjustment** action, and fill in the filters as appropriate in the batch job request page. The adjustments are calculated only for the entries in the adjustment bin that meet filter requirements.  
 4.  On the **Options** FastTab, fill in the **Document No.** field with a number that you enter manually. Because no number series has been set up for this batch job, use the number scheme set up by the warehouse, or enter the date followed by your initials.  
 5.  Choose the **OK** button. The positive and negative adjustments are totalled for each item and lines are created in the item journal for any items where the sum is a positive or negative quantity.  
-6.  Post the journal lines to enter the quantity differences in the item ledger. The inventory in the warehouse bins now corresponds precisely to the inventory in the item ledger.  
+6.  Post the journal lines to enter the quantity differences in the item ledger. The stock in the warehouse bins now corresponds precisely to the stock in the item ledger.  
 
 ## <a name="to-reclassify-an-items-lot-number"></a>To reclassify an item's lot number
 If you need to change attributes on item ledger entries, you can use the item reclassification journal. Typical attributes to reclassify include dimensions and sales campaign codes, but you also perform "system transfers" by reclassifying bin and location codes.
@@ -209,17 +209,17 @@ Special steps apply when you want to reclassify serial or lot numbers and their 
 
 The following example is based on a location code. The steps are similar for other types of item attributes.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journals**, and then choose the related link.
 2. On the **Item Reclass. Journal** page, fill in the fields as necessary.
 3. In the **Location Code** field, enter the item's current location code.
 4. In the **New Location Code** field, enter the item's new location code.
 5. Choose the **Post** action.
 
-For information about transferring items with full control of quantities shipped and received, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).
+For information about transferring items with full control of quantities shipped and received, see [Transfer Stock Between Locations](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>See Also
 [CountInventory Using Documents](inventory-how-count-inventory-with-documents.md)  
-[Inventory](inventory-manage-inventory.md)
+[Stock](inventory-manage-inventory.md)
 [Warehouse Management](warehouse-manage-warehouse.md)    
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

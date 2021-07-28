@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 857f2f913ab2a2026df5997ac16bd59593a3d925
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 96fe7c7c1f955d3c489429bf3ee64f9f3f925de7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784992"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439242"
 ---
 # <a name="using-pre-closing-reports"></a>Using Pre-Closing Reports
 There are many standard reports that you can use to verify the accuracy of the accounts before closing the books at the end of a year or period. For example, you can use the **Customer - Trial Balance** report to verify that the balance for a customer posting group is equal to the balance on the corresponding general ledger account on a certain date.
@@ -28,14 +28,14 @@ The following table describes a number of reports that may be useful in this pro
 | Print a detailed trial balance report for one or more bank accounts with additional information about individual entries. |Bank Acc. - Detail Trial Bal. |
 | Print a detail trial balance for selected customers. |Customer - Trial Balance |
 | Print a detail trial balance with detailed information about individual entries, for selected customers during a selected period. |Customer - Detail Trial Bal. |
-| Print a detail trial balance for selected vendors. |Vendor - Trial Balance |
-| Print a detail trial balance with detailed information about individual entries, for selected vendors during a selected period. |Vendor - Detail Trial Balance |
+| Print a detail trial balance for selected suppliers. |Supplier - Trial Balance |
+| Print a detail trial balance with detailed information about individual entries, for selected suppliers during a selected period. |Supplier - Detail Trial Balance |
 | Print a trial balance with the current year's and the previous year's figures. |Closing Trial Balance |
 | Print a detailed trial balance report for general ledger account balances. |Detail Trial Balance |
 | Print a trial balance report with balances and net changes for general ledger accounts. |Trial Balance |
 | Print a trial balance for a consolidated company. |Consolidated Trial Balance |
 
-To see a report, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, type the name as it appears in the table, and then choose the related link.
+To see a report, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, type the name as it appears in the table, and then choose the related link.
 
 ## <a name="see-also"></a>See Also
 [Closing Years and Periods](year-close-years-periods.md)  

@@ -1,6 +1,6 @@
 ---
 title: Flush Components According to Operation Output
-description: For items that are set up with backward flushing method, the default behaviour is to calculate and post component consumption when you change the status of a released works order to Finished.
+description: This topic describes how to flush components according to operation output as well as other flushing methods involved.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 82d5148bd99870b623a0b37693e105bcf8b862b2
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: f774c3e626ae7db282d87797a59f0f0aaf89d599
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115872"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439100"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Flush Components According to Operation Output
 You can define different flushing strategies, to automate registering of consumption of components. 
@@ -91,18 +91,18 @@ For example, if a works order to produce 800 metres requires 8 kg of a component
 
 ## <a name="to-flush-components-according-to-operation-output"></a>To flush components according to operation output
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2.  Choose the **Edit** action.  
 3.  On the **Replenishment** FastTab, in the **Flushing Method** field, select **Backward**.  
 
     > [!NOTE]  
     >  Select **Pick + Backward** if the component is used in a location that is set up for directed put-away and pick.  
 
-4.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+4.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
 5.  Define routing link codes for every operation that consumes the component. For more information, see [Create Routings ](production-how-to-create-routings.md).  
     > [!IMPORTANT]  
     > Do not use same routing routing link for different operations in the routing, as it will lead to registration of consumption of component for each linked operation.  
-6.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM**, and then choose the related link.  
+6.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM**, and then choose the related link.  
 7.  Define routing link codes from each instance of the component to the operation where it is consumed.
 
 The consumption will be posted automatically when you register output. For more information, see [Batch Post Output and Run Times](production-how-to-post-output-quantity.md)
