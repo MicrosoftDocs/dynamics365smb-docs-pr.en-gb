@@ -1,5 +1,5 @@
 ---
-title: Print a Stock Picking List from a Sales Order
+title: Print Stock Picking List from Sales Order
 description: You can print an stock picking list directly from a sales order, sales, invoice, and other outbound sales documents.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4cddce48df3be0a3fadaa74ed751b274ccce7f31
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 50c0a9836a45bac0dfd4a190040c908d28d5617f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115468"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436833"
 ---
 # <a name="print-the-picking-list"></a>Print the Picking List
 
@@ -27,7 +27,7 @@ This report is typically used in companies without dedicated functionality for w
 
 The following procedure is based on a sales order. The steps are similar for all other documents that can be used to initiate shipment of items, such as a transfer order.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
+1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
 2. Open the sales order that you want to pick items for.  
 3. Choose the **Report** action, and then choose the **Picking List by Order** action.  
 4. Choose the **Print** button to print the picking list or choose the **Preview** button to view it on the screen.

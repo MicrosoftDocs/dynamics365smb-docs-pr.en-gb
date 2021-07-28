@@ -1,6 +1,6 @@
 ---
-title: Edit Posted Sales and Purchase Documents | Microsoft Docs
-description: Learn about the different posting functions to post purchase documents, and how you can update posted documents.
+title: Edit Posted Sales and Purchase Documents
+description: This topic explains how to update information on a posted document like a  sales shipment or purchase invoice when relevant information has changed.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: ef23d98aaeeb63c17e836fd25b547703787264da
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a2be703bfc58fbac85dd4776e5256b614eb46cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776204"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437809"
 ---
 # <a name="edit-posted-documents"></a>Edit Posted Documents
 
@@ -41,7 +42,7 @@ The following additional documents can be edited in the specified countries or r
 
 The following explains how to edit a posted sales shipment. The steps are similar for the other supported documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.
 2. Select the document that you want to edit, and then choose the **Update Document** action. Alternatively, open the document and then choose the action.
 3. On the **Posted Sales Shipment - Update** page, edit the **Package Tracking No.** field, for example.
 4. Choose the **OK** button.

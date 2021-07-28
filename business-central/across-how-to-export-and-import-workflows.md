@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: de18f704edf03a569d609dbee891b84bb7bfa748
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc49fd08099823a3ab1adc02a006820fb4898e90
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775754"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438339"
 ---
 # <a name="export-and-import-workflows"></a>Export and Import Workflows
 To transfer workflows to other [!INCLUDE[prod_short](includes/prod_short.md)] databases, for example to save time when creating new workflows, you can export and import workflows.  
@@ -25,13 +25,13 @@ To transfer workflows to other [!INCLUDE[prod_short](includes/prod_short.md)] da
  On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
 ## <a name="to-export-a-workflow"></a>To export a workflow  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2.  Select a workflow, and then choose the **Export to File** action.  
 3.  On the **Export File** page, choose the **Save** button.  
 4.  On the **Export** page, select a file location, and then choose the **Save** button.  
 
 ## <a name="to-import-a-workflow"></a>To import a workflow  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2.  Choose the **Import from File** action.  
 3.  On the **Import** page, choose the XML file that contains the workflow, and then choose the **Open** button.  
 

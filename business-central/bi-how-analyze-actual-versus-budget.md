@@ -1,6 +1,6 @@
 ---
-title: Analyse Actual Versus Budget| Microsoft Docs
-description: Describes how to analyse actual amounts versus budgeted amounts.
+title: Analyse Actual Versus Budget
+description: This topic describes how to analyse actual amounts versus budgeted amounts as a means of gathering, analysing, and sharing your company data.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,24 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9c601dc3507b0777f3aeecb063e6cebe8866768c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9011f3d488c659b7b2b44f8801c4af055f51bc54
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781129"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437108"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analyse Actual Amounts Versus Budgeted Amounts
 As a part of gathering, analysing, and sharing your company data, you view actual amounts compared to budgeted amounts for all accounts and for several periods.
 
-To analyse budgeted amounts, you must first create G(L budgets. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
+To analyse budgeted amounts, you must first create G/L budgets. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
 
 ## <a name="to-view-a-gl-budget"></a>To view a G/L budget
 In a budget with dimensions, you can filter the entries and see specific budgets.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, and then choose the related link.
 2. On the **G/L Budgets** page, open the budget that you want to view.  
 3. At the top of the page, fill in the fields as necessary to define what is shown. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -43,7 +43,7 @@ In a budget with dimensions, you can filter the entries and see specific budgets
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>To view actual and budgeted amounts for all accounts  
 You can view general ledger budgets and compare them with actual figures in several areas of [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. On the **Chart of Accounts** page, choose the **G/L Balance/Budget** action.
 3. At the top of the page, fill in the fields as necessary to define what is shown.  
 4. To see a specification that makes up the amount shown, choose the field.  
@@ -59,7 +59,7 @@ The leftmost columns contain the chart of accounts. Of the five columns on the r
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>To view actual and budgeted amounts for several periods  
 Instead of viewing the actual and budgeted amounts for all accounts within a single period, you can view a number of periods for a single account.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. On the **Chart of Accounts** page, select the relevant general ledger account, and then choose the **G/L Account Balance/Budget** action.  
 3. At the top of the page, fill in the fields as necessary to define what is shown.   
 4. To see a specification of an amount shown, choose the field.  

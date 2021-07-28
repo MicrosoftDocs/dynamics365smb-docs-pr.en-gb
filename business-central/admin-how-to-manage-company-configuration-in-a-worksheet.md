@@ -1,6 +1,6 @@
 ---
-title: How to Manage Company Configuration in a Worksheet | Microsoft Docs
-description: The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.
+title: How to Manage Company Configuration in a Worksheet
+description: The configuration worksheet is the central location in which you can plan, track, and perform your company configuration work.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: fb50a620f4fc978778a7b6f26581d8768802d0a7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 34d21b0daca39c1b7895800a5f7fbc48485c6c20
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779839"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437969"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Manage Company Configuration in a Worksheet
 The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.  
@@ -28,7 +28,7 @@ The following procedures demonstrate how to add and customise table information 
 
 ## <a name="to-open-the-configuration-worksheet"></a>To open the configuration worksheet  
 1.  In [!INCLUDE[prod_short](includes/prod_short.md)], open the company that is the baseline for configuration, and then open its RapidStart Services Implementer Role Centre.  
-2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
+2.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>To add a table to the worksheet  
 1.  On the **Config. Worksheet** page, choose the **Edit List** action.  

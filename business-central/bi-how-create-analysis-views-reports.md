@@ -1,6 +1,6 @@
 ---
 title: Create Analysis Reports| Microsoft Docs
-description: Describes how to create new analysis reports for sales, purchases, and inventory, and set up analysis templates.
+description: Describes how to create new analysis reports for sales, purchases, and stock, and set up analysis templates.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11b90a7aa48927d68d4e32845343dddc56ba77c1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f8454b9427398dcd95df914ffb9596bf0318f9ba
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786644"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437058"
 ---
 #  <a name="create-analysis-reports"></a>Create Analysis Reports
-Sales managers need to analyze turnover, gross profit and other key sales performance indicators on a regular basis. Purchasers, are more interested in the dynamics of purchase volumes, vendors' performance and purchase prices. Whereas logistics/inventory managers need information on inventory turnover, analysis of inventory movement, and statistics on inventory value.  
+Sales managers need to analyze turnover, gross profit and other key sales performance indicators on a regular basis. Purchasers, are more interested in the dynamics of purchase volumes, suppliers' performance and purchase prices. Whereas logistics/stock managers need information on stock turnover, analysis of stock movement, and statistics on stock value.  
 
-You can use analysis reports to create customized reports based on records of your posted transactions, for example, sales, purchases, transfers and inventory adjustments. In a customizable report, the source data, which is derived from the item ledger (with associated value entries), can be combined, compared and presented in meaningful user-defined ways. In this sense, the analysis report is very similar to a PivotTable report in Microsoft Excel.  
+You can use analysis reports to create customised reports based on records of your posted transactions, for example, sales, purchases, transfers and stock adjustments. In a customizable report, the source data, which is derived from the item ledger (with associated value entries), can be combined, compared and presented in meaningful user-defined ways. In this sense, the analysis report is very similar to a PivotTable report in Microsoft Excel.  
 
 You can create your personalized report that focuses on your key accounts in terms of total turnover both in amounts and quantities sold, gross profit and gross profit percentage during the current month, and have it compare those figures with the results from previous months or the same month last year, and calculate deviations. All this can be done in one and the same view, with the possibility to navigate to the cause of identified problem areas by choosing the drop-down button to access details on the level of individual transactions.  
 
@@ -55,13 +55,13 @@ Based on the lines and columns you have set up, [!INCLUDE[prod_short](includes/p
  You can, for example, set up one set of lines and several sets of column layouts to show monthly and annual reports respectively.
 
  ## <a name="to-set-up-analysis-column-templates"></a>To set up analysis column templates
-The following procedure is based on analysis views for sales. The steps are similar for purchase and inventory analysis views.
+The following procedure is based on analysis views for sales. The steps are similar for purchase and stock analysis views.
 
 In an analysis report, your analysis parameters are shown as columns. You can define the columns that you want to include in your analysis report by setting up analysis column templates.  
 
 A template contains a set of lines each representing the analysis columns that you see in the analysis report. To define a column you must assign an analysis type code to a line. This analysis type code determines the type of source data in the item ledger entries that the analysis will be based on. Source data includes cost, sales amount, or quantity, and their associated value entries. You can set up as many column templates as you like, and then use them to create new analysis reports.    
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Column Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Column Templates**, and then choose the related link.  
 2. Select the first empty line, and then fill in the fields as necessary.
 3. Choose the **Columns** action.  
 4. On the **Analysis Columns** page, fill in the fields to specify the columns that you want to include in your analysis report.  
@@ -72,26 +72,26 @@ A template contains a set of lines each representing the analysis columns that y
 5.  Choose the **OK** button to save your changes.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>To set up analysis line templates  
-The following procedure is based on analysis reports for sales. The steps are similar for purchase and inventory analysis reports.
+The following procedure is based on analysis reports for sales. The steps are similar for purchase and stock analysis reports.
 
 In an analysis report your analysis objects are shown on the lines. You can define the lines that you want to include in your analysis report by setting up analysis line templates.  
 
-A template contains a set of lines representing the analysis lines that you see in the analysis report. A line can specify one or a range of items, customers, vendors, or groups. You can also create a formula in a line to sum up the other lines. You can set up as many line templates as you like, and then use them to create new analysis reports.    
+A template contains a set of lines representing the analysis lines that you see in the analysis report. A line can specify one or a range of items, customers, suppliers, or groups. You can also create a formula in a line to sum up the other lines. You can set up as many line templates as you like, and then use them to create new analysis reports.    
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Line Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Line Templates**, and then choose the related link.  
 2. Select the first empty line, and then fill in the fields as necessary.
 3. Choose the **Lines** action.  
-4. On the **Analysis Lines** page, create lines for the items, customers, vendors, or salespeople you want to view figures for in your analysis report. You must fill in the **Type**, **Range**, and the **Description** fields.  
+4. On the **Analysis Lines** page, create lines for the items, customers, suppliers, or salespeople you want to view figures for in your analysis report. You must fill in the **Type**, **Range**, and the **Description** fields.  
 
 > [!NOTE]  
 >   Alternatively, when you want to create many individual lines for each item, customer, and so on, you can select the appropriate insert option to fill in all the relevant fields on the line. If you need to, you can then edit the lines manually. To insert lines, choose the **Insert Items** action or the **Insert Item Groups** action.  
 
 ## <a name="to-create-a-new-sales-analysis-report"></a>To create a new sales analysis report
-The following procedure is based on analysis reports for sales. The steps are similar for purchase and inventory analysis reports.
+The following procedure is based on analysis reports for sales. The steps are similar for purchase and stock analysis reports.
 
 You use analysis reports to analyse the dynamics of your sales according to key sales performance indicators that you select, for example, sales turnover in both amounts and quantities, contribution margin, or progress of actual sales against the budget. You can also use the report to analyze your average sales prices and evaluate the sales performance of your sales force.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Analysis Reports**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Analysis Reports**, and then choose the related link.  
 2. On the **Analysis Report Sale** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Edit Analysis Report** action.

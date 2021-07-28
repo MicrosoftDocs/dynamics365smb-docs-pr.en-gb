@@ -1,6 +1,6 @@
 ---
-title: Create Records of Incoming Documents| Microsoft Docs
-description: You can create records of incoming documents, such as e-invoices, and manage OCR tasks, eCommerce, and document exchange.
+title: Create Incoming Document Records
+description: Use different functions on the Incoming Documents page to review expense receipts, manage OCR tasks, convert incoming document files and attach external files.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 7e045948aae1140f999a2a1d0db98de162e8e1e8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 130a41d23a6e28979fad1e4999a1f620eaf7affe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776054"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437709"
 ---
 # <a name="create-incoming-document-records"></a>Create Incoming Document Records
-On the **Incoming Documents** page, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries.
+On the **Incoming Documents** page, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting supplier, customer, and general ledger entries.
 
 To record an external document in [!INCLUDE[prod_short](includes/prod_short.md)], you must first create or complete an incoming document record. You can do this manually, or you can take a photo of the external document and then create the incoming document record with the image file attached.
 
@@ -29,7 +29,7 @@ Before you can use the Incoming Documents feature, you must perform the required
 ## <a name="to-approve-or-reject-an-incoming-document"></a>To approve or reject an incoming document
 If you do want to allow users to create invoices or general journal lines from incoming document records unless they are approved, you can set up approvers who must approve the records before they can be processed.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
 2. Select the line with the document that you want to approve or reject, and then choose the **Approve** or **Reject** actions.
 
 If you approve the incoming document record, the **Released** check box on the incoming document line is selected. The user in charge of creating, for example, purchase invoices can proceed to process the record.
@@ -57,7 +57,7 @@ If you approve the incoming document record, the **Released** check box on the i
     The image is attached to the incoming document record.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>To create an incoming document record manually
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
 2. Choose the **Create from File** action.  
 3. On the **Insert File** page, select a file, and then choose **Open**. The file is automatically attached.
 4. Alternatively, choose the **New** action.

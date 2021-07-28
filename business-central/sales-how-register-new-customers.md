@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client, customer, credit
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 178bc8374d50bac5b7f7a6793c596c5109943fa6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778604"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436758"
 ---
 # <a name="register-new-customers"></a>Register New Customers
 
@@ -27,14 +27,14 @@ Before you can register new customers, you must set up various sales codes that 
 
 ## <a name="adding-new-customers"></a>Adding new customers
 
-To register a new customer, you must fill in a customer card. You can establish templates for different customer profiles, or you can add customers without templates. You can also create a customer from a contact. For more information, see [To create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+To register a new customer, you must fill in a customer card. You can establish templates for different customer profiles, or you can add customers without templates. You can also create a customer from a contact. For more information, see [To create a customer, supplier, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 > [!NOTE]  
 > If customer templates exist for different customer types, then a page appears when you create a new customer card from where you can select an appropriate template. If only one customer template exists, then new customer cards always use that template.  
 
 ### <a name="to-create-a-new-customer-card"></a>To create a new customer card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2. On the **Customers** page, choose the **New** action.
 
     If only one customer template exists, then a new customer card opens with some fields filled with information from the template.
@@ -76,7 +76,7 @@ You can choose not to have warnings telling you that the customer's credit limit
 
 ### <a name="to-specify-credit-limit-warnings"></a>To specify credit limit warnings
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
 
 2. On the **General** FastTab, in the **Credit Warnings** field, choose the relevant option as described in the following table:
 

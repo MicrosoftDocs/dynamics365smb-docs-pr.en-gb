@@ -1,6 +1,6 @@
 ---
-title: How to Convert Service Contracts | Microsoft Docs
-description: Because the VAT rate change tool cannot convert service contracts, these contracts must be converted manually. This topic describes several alternative methods that you can use for service contract conversion.
+title: How to Convert Service Contracts
+description: This topic describes several alternative methods that you can use to convert service contracts that include VAT amounts.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3da6d4144b1e35da864de7b69a425bb65800b2cb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1b2bb49651a52f36ab8d98edc22ba2248794f598
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770745"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436408"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convert Service Contracts that Include VAT Amounts
 Because the VAT rate change tool cannot convert service contracts, these contracts must be converted manually. This topic describes several alternative methods that you can use for service contract conversion.  
@@ -29,7 +29,7 @@ Because the VAT rate change tool cannot convert service contracts, these contrac
 >  For this example, you must change your work date to 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>To correct an invoice for a prepaid service contract  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contract Management**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contract Management**, and then choose the related link.  
 2. Under **Lists**, choose **Service Contracts**.  
 3. Create a new prepaid service contract. Enter a start date of **01.01.2017** and an invoice period year for customer **20000**.  
 4. To sign the contract, choose the **Sign Contract** action.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f1e29820a3bb8254368e14ba1fa8b7dba17ed661
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f180efb198fce757af263710fab2561323fd69b4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786594"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437033"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Prepare Financial Reporting with Account Schedules and Account Categories
 
@@ -54,7 +54,7 @@ The account schedules in the standard version of [!INCLUDE[prod_short](includes/
 
 The **Acc. Schedule Overview** page is where you preview the financial report that the account schedule defines. In the following, it is important to understand that what you set up as account schedule rows and columns can only be seen and validated on the **Acc. Schedule Overview** page, which you open from an account schedule by choosing the **Overview** action. The **Account Schedule** page itself is only a setup area.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
 2. On the **Account Schedules** page, choose the **New** action to create a new account schedule name.
 3. Alternatively, choose the **Copy Account Schedule** action, fill in the two fields, and then choose the **OK** button.
 4. Fill in the fields as necessary. In the **Default Column Layout** field select an existing layout. You can edit it later if you want.
@@ -88,7 +88,7 @@ You use column layouts to define what columns should be included in the resultin
 
 Sometimes you may want to include a column in an account schedule to calculate percentages of a total. For example, if you have a number of rows that break down sales by dimension, you may want a column to indicate the percentage of total sales that each row represents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
 2. On the **Account Schedule Names** page, select an account schedule.  
 3. Choose the **Edit Account Schedule** action to set up an account schedule row to calculate the total on which the percentages will be based.  
 4. Insert a line immediately above the first row for which you want to display a percentage.  
@@ -101,7 +101,7 @@ Sometimes you may want to include a column in an account schedule to calculate p
 
 You can use an account schedule to create a statement comparing general ledger figures and general leger budget figures.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
 2. On the **Account Schedule Names** page, select an account schedule.  
 3. Choose the **Edit Account Schedule** action  
 4. On the **Account Schedule** page, in the **Name** field, select the default account schedule name.
@@ -119,16 +119,16 @@ Now you can copy and paste your budget statement into a spreadsheet.
 
 Your account schedule can compare the results of different accounting periods, such as this month versus same month last year. To do that, open the **Column Layout** page, and personalise it by adding the **Comparison Period Formula** field as a column. For more information, see [Personalise Your Workspace](ui-personalization-user.md). You can then set that field to a period formula.  
 
-An accounting period does not have to match the calendar, but each fiscal year must have the same number of accounting periods, even though each period can be different in length.  
+An accounting period does not have to match the calendar, but each financial year must have the same number of accounting periods, even though each period can be different in length.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] uses the period formula to calculate the amount from the comparison period in relation to the period represented by the date filter on the report request. The comparison period is based on the period of the start date of the date filter. The abbreviations for period specifications are:
 
 | Abbreviation | Description                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
 | P            | Period                                                                                |
-| LP           | Last period of a fiscal year, half-year, or quarter.                                   |
-| CP           | Current period of a fiscal year, half-year, or quarter. Use CP in formulas to set the period that starts or ends the formula. For example, FY\[1..CP\] denotes the time from the beginning of the current fiscal year to the current period.|
-| FY           | Fiscal year. For example, FY\[1..3\] denotes first quarter of the current fiscal year |
+| LP           | Last period of a financial year, half-year, or quarter.                                   |
+| CP           | Current period of a financial year, half-year, or quarter. Use CP in formulas to set the period that starts or ends the formula. For example, FY\[1..CP\] denotes the time from the beginning of the current financial year to the current period.|
+| FY           | Financial year. For example, FY\[1..3\] denotes first quarter of the current financial year |
 
 Examples of formulas:
 
@@ -136,11 +136,11 @@ Examples of formulas:
 | --------------- | ----------------------------------------------------------------------------------------------- |
 | \<Blank\>       | Current period                                                                                  |
 | \-1P            | Previous period                                                                                 |
-| \-1FY\[1..LP\]  | Entire previous fiscal year                                                                     |
-| \-1FY           | Current period in previous fiscal year                                                          |
-| \-1FY\[1..3\]   | First quarter of previous fiscal year                                                           |
-| \-1FY\[1..CP\]  | From the beginning of previous fiscal year to current period in previous fiscal year, including both periods |
-| \-1FY\[CP..LP\] | From current period in previous fiscal year to last period of previous fiscal year, including both periods   |
+| \-1FY\[1..LP\]  | Entire previous financial year                                                                     |
+| \-1FY           | Current period in previous financial year                                                          |
+| \-1FY\[1..3\]   | First quarter of previous financial year                                                           |
+| \-1FY\[1..CP\]  | From the beginning of previous financial year to current period in previous financial year, including both periods |
+| \-1FY\[CP..LP\] | From current period in previous financial year to last period of previous financial year, including both periods   |
 
 If you want to calculate by regular time periods, you must enter a formula in the **Comparison Date Formula** field instead. For example, if the field is set to -1Y, [!INCLUDE [prod_short](includes/prod_short.md)] compares to the same period 1 year earlier.
 

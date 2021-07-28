@@ -12,24 +12,24 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dba492551546c18cbda1b3bbb7dfd4b70c4052a6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0d6365bda6f8d027f01cc9cfa381463fa925ad91
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785555"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437298"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Recording Interactions with Contacts Automatically
-You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:
+You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, emails, phone calls, such as:
 
 * Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.
 * Create sales service orders.
 * Post sales service orders.
-* Send e-mails to your contacts.
+* Send emails to your contacts.
 * Call your contacts, if you have a TAPI-compliant telephone and the correct installation.
 
 To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** page.  
-To open the **Interaction Template Setup** page, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Template Setup**, and then choose the related link.
+To open the **Interaction Template Setup** page, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Template Setup**, and then choose the related link.
 
 ## <a name="see-also"></a>See Also
 [Recording Interactions With Contacts](marketing-interactions.md)  

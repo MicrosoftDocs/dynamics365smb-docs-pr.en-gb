@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f892333d08036efe751cbcabf49945377990807
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1543627340cb4947eafafffc362acddacb52ceb6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770870"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436205"
 ---
 # <a name="defining-and-allocating-costs"></a>Defining and Allocating Costs
 Cost allocations move costs and revenues between cost types, cost centres, and cost objects. You can define as many allocations as you need. Each allocation consists of:  
@@ -38,7 +38,7 @@ The following table describes a sequence of tasks, with links to the topics that
 Each allocation consists of an allocation source and one or more allocation targets. The allocation source defines which costs will be allocated. The allocation targets determine where the costs will be allocated.  
 
 ### <a name="to-set-up-cost-allocations"></a>To set up cost allocations  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then chose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then chose the related link.  
 2.  On the **Cost Allocation** page, choose the **Edit** action.  
 3.  Enter an ID for the allocation source in the **ID** field.  
 4.  Define a level as a number between 1 and 99 in the **Level** field. The allocation posting will follow the order of the levels.  
@@ -67,10 +67,10 @@ The dynamic allocation method is based on changeable values. For example, the nu
 |Cost Type Entries|Cost Type|Yes|Yes|Yes|N/A|  
 |Cost Budget Entries|Cost Type|Yes|Yes|Yes|Budget Name|  
 |No of Employees|N/A|Yes|Yes|Yes|N/A|  
-|Items Sold (Qty)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
-|Items Purchased (Qty)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
-|Items Sold (Amount)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
-|Items Purchased (Amount)|Item No.|Yes|Yes|Yes|Inventory Posting Group|
+|Items Sold (Qty)|Item No.|Yes|Yes|Yes|Stock Posting Group|  
+|Items Purchased (Qty)|Item No.|Yes|Yes|Yes|Stock Posting Group|  
+|Items Sold (Amount)|Item No.|Yes|Yes|Yes|Stock Posting Group|  
+|Items Purchased (Amount)|Item No.|Yes|Yes|Yes|Stock Posting Group|
 
 ## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Scenario 1: Defining Static Allocations Based on Allocation Ratio
 Static allocation method is based on a definite value, such as square meters used, or an established allocation ratio such as 5:2:4.  
@@ -82,7 +82,7 @@ This topic describes how to define three new allocation target cost objects for 
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>To define the allocation source PROD cost centre on the General FastTab  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then choose the related link.  
 2.  On the **Cost Allocation** page, choose the **New** action.  
 3.  In the **ID** field, press Enter or enter an ID.  
 4.  In the **Level** field, enter **1**.  
@@ -119,7 +119,7 @@ This topic shows an example of how to define allocations by using the dynamic al
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>To define dynamic allocations based on items sold in the previous year  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocations**, and then choose the related link.  
 2.  On the **Cost Allocation** page, choose the **New** action.  
 3.  In the **ID** field, press Enter or enter an ID.  
 4.  In the **Level** field, enter **1**.  

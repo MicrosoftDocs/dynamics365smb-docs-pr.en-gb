@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a1d0d0403798f8cd2af6b29249f01f529fb789be
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: b1328b618761a33d3dc0856c7623bd986008d283
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935243"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437448"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -42,19 +42,19 @@ The following table describes available features.
 |Embedded experience for viewing a given report inside a FactBox in [!INCLUDE[prod_short](includes/prod_short.md)]|Both. Requires configuration to display reports for on-premises.|
 |Power BI report management from [!INCLUDE[prod_short](includes/prod_short.md)]|Online|
 |Default Power BI reports on role centres deployed to Power BI|Online|
-|Power BI Apps on Microsoft AppSource|Online.|
+|Power BI Apps on Microsoft AppSource|Online|
 
 ## <a name="architecture"></a>Architecture
 
-[!INCLUDE[prod_short](includes/prod_short.md)] integrates with Power BI through a connector using OData. The data source for Power BI reports is exposed as OData web services.
+[!INCLUDE[prod_short](includes/prod_short.md)] integrates with Power BI through a connector using OData. The data source for Power BI reports is exposed as API pages and OData web services.
 
-![Power BI architecture for integration with Business Central](./media/power-bi-architecture.png)
+![Power BI architecture for integration with Business Central.](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>General Flow
 
 The following diagram illustrates the basic workflow for users when connecting [!INCLUDE[prod_short](includes/prod_short.md)] to Power BI.
 
-![Power BI workflow  for integration with Business Central](./media/power-bi-flow.png)
+![Power BI workflow  for integration with Business Central.](./media/power-bi-flow.png)
 
 1. User signs up for a Power BI account.
 2. User connects to Power BI from [!INCLUDE[prod_short](includes/prod_short.md)].

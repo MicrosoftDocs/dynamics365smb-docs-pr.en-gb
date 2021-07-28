@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 2fee1782057d0f45319e4d12d715c2e1e0d3d4a6
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 24718b65fe5a5795d2a5a92a20fe4eb32aa4b2ac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6064863"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437498"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Optimising Outlook for Your Business Inbox 
 
@@ -50,7 +50,7 @@ To check if you have Microsoft Edge WebView2 installed on a computer, do the fol
 
 From Start menu:
 
-1. Choose **Start** ![Windows Start](media/windows-start-icon.png "Windows Start icon") > **Settings** ![Windows Settings](media/windows-settings-icon.png "Windows Settings icon") > **Apps & Features**.
+1. Choose **Start** ![Windows Start.](media/windows-start-icon.png "Windows Start icon") > **Settings** ![Windows Settings](media/windows-settings-icon.png "Windows Settings icon") > **Apps & Features**.
 2. In the search box, type **WebView2**. If Microsoft Edge WebView2 is installed, you'll see an entry called **Microsoft Edge WebView2 Runtime**.
 
 From Control Panel:

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 31cfe9390e3f31253d60ba55a95f5507cdcac622
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215110"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436958"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Design Details: Posting Date on Adjustment Value Entry
 This article provides guidance for users of the Stock Costing functionality in [!INCLUDE[prod_short](includes/prod_short.md)]. The specific article is providing guidance in how the **Adjust Cost - Item Entries** batch job identifies and assigns a posting date to the value entries that the batch job is about to create.  
@@ -33,7 +33,7 @@ The **Adjust Cost – Item Entries** batch job assigns a posting date to the val
 
  Let’s review this process more in practice. Assume we have an Item Ledger Entry of Sale. The item was shipped on September 5, 2013 and it was invoiced the day after.  
 
-![State of item ledger entries in the scenario](media/helene/TechArticleAdjustcost1.png "State of item ledger entries in the scenario")  
+![State of item ledger entries in the scenario.](media/helene/TechArticleAdjustcost1.png "State of item ledger entries in the scenario")  
 
 Below, the first Value Entry (379) represents the shipment and carry the same Posting Date as the parent Item ledger Entry.  
 
@@ -41,7 +41,7 @@ The second Value Entry (381) represents the invoice.
 
  The third Value Entry (391) is an Adjustment of the invoicing Value Entry (381)  
 
- ![State of value entries in the scenario](media/helene/TechArticleAdjustcost2.png "State of value entries in the scenario")  
+ ![State of value entries in the scenario.](media/helene/TechArticleAdjustcost2.png "State of value entries in the scenario")  
 
  Step 1: Adjustment Value Entry to be created is assigned same Posting Date as the entry it adjusts, illustrated above by Value entry 391.  
 
@@ -53,13 +53,13 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
  Stock Periods:  
 
-![Stock periods in the scenario](media/helene/TechArticleAdjustcost3.png "Stock periods in the scenario")
+![Stock periods in the scenario.](media/helene/TechArticleAdjustcost3.png "Stock periods in the scenario")
 
  First allowed posting date is the first day in the first open period. September 1, 2013.  
 
  General Ledger Setup:  
 
-![G/L Setup in the scenario](media/helene/TechArticleAdjustcost4.png "G/L Setup in the scenario")
+![G/L Setup in the scenario.](media/helene/TechArticleAdjustcost4.png "G/L Setup in the scenario")
 
  First allowed posting date is the date stated in field Allow Posting From: September 10, 2013.  
 
@@ -69,7 +69,7 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
  The initial assigned Posting Date was September 6 as illustrated in step 1. However, in the second step the Adjust Cost – Item entries batch job identifies that earliest allowed Posting Date is September 10 and thereby assigns September 10 to the Adjustment Value Entry, below.  
 
- ![State of value entries in the scenario 2](media/helene/TechArticleAdjustcost5.png "State of value entries in the scenario 2")
+ ![State of value entries in the scenario 2.](media/helene/TechArticleAdjustcost5.png "State of value entries in the scenario 2")
 
  We have now reviewed the concept for assigning Posting Dates to Value Entries created by the Adjust Cost - Item entries batch job.  
 
@@ -82,15 +82,15 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
  In the previous section, describing the concept of assigning posting dates, the intention of the Adjust Cost – Item entries batch job is to create a Value Entry with Posting Date September 10th.  
 
-![Error message about posting date](media/helene/TechArticleAdjustcost6.png "Error message about posting date")
+![Error message about posting date.](media/helene/TechArticleAdjustcost6.png "Error message about posting date")
 
  We follow up on the User Setup:  
 
-![User's allowed posting dates setup](media/helene/TechArticleAdjustcost7.png "User's allowed posting dates setup")
+![User's allowed posting dates setup.](media/helene/TechArticleAdjustcost7.png "User's allowed posting dates setup")
 
  The user in this case has an allowed posting date range from September 11 to September 30 and is thereby not allowed to post the Adjustment Value Entry with Posting Date September 10th.  
 
-![Overview of involved posting date setup](media/helene/TechArticleAdjustcost8.png "Overview of involved posting date setup")
+![Overview of involved posting date setup.](media/helene/TechArticleAdjustcost8.png "Overview of involved posting date setup")
 
  Knowledge Base article [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) discusses more scenarios related to mentioned error message.  
 
@@ -173,9 +173,9 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
  The following Item Ledger and Value Entries have been posted:  
 
-![Overview of resulting item ledger and value entries 1](media/helene/TechArticleAdjustcost9.png "Overview of resulting item ledger and value entries 1")
+![Overview of resulting item ledger and value entries 1.](media/helene/TechArticleAdjustcost9.png "Overview of resulting item ledger and value entries 1")
 
- ![Overview of resulting item ledger and value entries 2](media/helene/TechArticleAdjustcost10.png "Overview of resulting item ledger and value entries 2")
+ ![Overview of resulting item ledger and value entries 2.](media/helene/TechArticleAdjustcost10.png "Overview of resulting item ledger and value entries 2")
 
  The Adjust Cost – Item entries batch job has recognised a change in cost and adjusted the Negative Adjustments.  
 
@@ -290,7 +290,7 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
      Post Receipt and Invoice.  
 
-     ![Overview of resulting item ledger and value entries 3](media/helene/TechArticleAdjustcost11.png "Overview of resulting item ledger and value entries 3")
+     ![Overview of resulting item ledger and value entries 3.](media/helene/TechArticleAdjustcost11.png "Overview of resulting item ledger and value entries 3")
 
 6.  On work date January 3, a purchase invoice arrives, containing an additional item charge to the purchase made in step 2. This invoice has document date December 30 and is therefore posted with Posting Date December 30, 2013.  
 
@@ -314,11 +314,11 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
      Post Receipt and Invoice.  
 
-   ![Overview of resulting item ledger and value entries 4](media/helene/TechArticleAdjustcost12.png "Overview of resulting item ledger and value entries 4")
+   ![Overview of resulting item ledger and value entries 4.](media/helene/TechArticleAdjustcost12.png "Overview of resulting item ledger and value entries 4")
 
  Stock Valuation report is printed as at Date December 31, 2013  
 
-![Content of the Stock Valuation report](media/helene/TechArticleAdjustcost13.png "Content of the Stock Valuation report")
+![Content of the Stock Valuation report.](media/helene/TechArticleAdjustcost13.png "Content of the Stock Valuation report")
 
  **Summary of scenario:**  
 
@@ -341,7 +341,7 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 ## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>History of Post Stock cost to G/L batch job  
  The Post Stock Cost to G/L batch job is closely related to the Adjust Cost – Item entries batch job why the history of this batch job is summarised and shared here as well.  
  
-![Actual cost versus expected cost](media/helene/TechArticleAdjustcost14.png "Actual cost versus expected cost")
+![Actual cost versus expected cost.](media/helene/TechArticleAdjustcost14.png "Actual cost versus expected cost")
 
 ### <a name="about-the-posting-date"></a>About the posting date
  There is no longer a posting date to be stated in the request form of the Post Stock Cost to G/L batch job. The G/L entry is created with the same Posting Date as the related value entry. In order to complete the batch job, the allowed posting date range must allow the Posting Date of the created G/L entry. If not, the allowed posting date range must be temporarily reopened by changing or removing the dates in the Allow Posting From and To fields in the General Ledger Setup. To avoid reconciliation issues, it is required that Posting Date of the G/L Entry corresponds to the Posting Date of the Value Entry.  
