@@ -1,6 +1,6 @@
 ---
 title: Correct or Cancel a Posted Sales Invoice
-description: Describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo.
+description: This topic describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0d6e05a52cb4028087e4c52c56fb9d2f5ab78795
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4656e99f1227668cdf784ab950d38462da6f6c1c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778879"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443439"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Correct or Cancel Unpaid Sales Invoices
 
@@ -31,14 +31,14 @@ The difference between cancelling or correcting a posted sales invoice that has 
 | **Cancel** |The posted sales invoice is cancelled. A corrective sales credit memo is automatically created and posted to void the initial posted sales invoice. On the initial posted sales invoice, the **Cancelled** and **Paid** check boxes are selected. |
 | **Correct** |The posted sales invoice is cancelled. A new sales invoice with the same information is created, unless the posted sales order was posted from a sales order. In that case, we suggest you cancel the posted sales invoice instead and then make the correction and continue the sales process from the original sales order. <br/><br/>The new sales invoice has a different number than the initial sales invoice. A corrective sales credit memo is automatically created and posted to void the initial posted sales invoice. On the initial posted sales invoice, the **Cancelled** and **Paid** check boxes are selected. |
 
-When you correct or cancel a posted sales invoice, the corrective sales credit memo is applied to all general ledger and inventory ledger entries that were created when the initial sales invoice was posted. This reverses the posted sales invoice in your financial records and leaves the corrective posted sales credit memo for your audit trail.  
+When you correct or cancel a posted sales invoice, the corrective sales credit memo is applied to all general ledger and stock ledger entries that were created when the initial sales invoice was posted. This reverses the posted sales invoice in your financial records and leaves the corrective posted sales credit memo for your audit trail.  
 
 > [!TIP]
 > If you have posted a prepayment invoice for a sales invoice that you then correct or cancel, you must correct or cancel the prepayment as well. For more information, see [Correct Prepayments](finance-how-to-correct-prepayments.md).
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>To cancel a posted sales invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 2. Select the posted sales invoice that you want to cancel.
 
     > [!NOTE]  
@@ -54,7 +54,7 @@ If the cancellation is related to a partial invoice posting, then the originatin
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>To correct a posted sales invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 2. Select the posted sales invoice that you want to correct.
 
     > [!NOTE]  

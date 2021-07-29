@@ -1,6 +1,6 @@
 ---
-title: Gather Customer Setup Values | Microsoft Docs
-description: You use the configuration questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company. You can generate the configuration questionnaire in Business Central and then provide it to your customer as an Excel (.xlsx) or XML file.
+title: Gather Customer Setup Values
+description: Configuration questionnaire helps reduce implementation by streamlining setting up new companies and offering customers an Excel or XML file.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: af8d2bb31b5f76912d69b123803243cfce1445bd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783981"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443900"
 ---
 # <a name="gather-customer-setup-values"></a>Gather Customer Setup Values
 You use the configuration questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company. You can generate the configuration questionnaire in [!INCLUDE[prod_short](includes/prod_short.md)] and then provide it to your customer as an Excel or XML file.  
@@ -40,7 +40,7 @@ You can use a questionnaire to help you determine the scope and needs of configu
 -   Company Information  
 -   Fixed Asset Setup  
 -   General Ledger Setup  
--   Inventory Setup  
+-   Stock Setup  
 -   Assembly setup
 -   Manufacturing Setup  
 -   Purchases and Payables Setup  
@@ -50,9 +50,9 @@ You can use a questionnaire to help you determine the scope and needs of configu
 -   Warehouse Setup  
 
 > [!NOTE]  
->  To see a complete list of setup tables, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrating Customer Data](admin-migrate-customer-data.md).  
+>  To see a complete list of setup tables, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrating Customer Data](admin-migrate-customer-data.md).  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and choose the related link.  
 2. Choose the **New** action.   
 3. On the **Configuration Questionnaire** page, in the **Code** field, enter... 
 <!--4. In the **Name** field, enter...
@@ -92,13 +92,13 @@ You can also delete any questions that you do not want to include in the questio
 >  As needed, you can also define default answers in the **Answer** field. These values are used by default for custom setup. However, the person filling in the questionnaire can modify and update the answer.  
 
 ## <a name="to-complete-the-configuration-questionnaire"></a>To complete the configuration questionnaire
-You use the configuration questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant [!INCLUDE[prod_short](includes/prod_short.md)] setup tables, such as the general ledger, inventory, and customers.  
+You use the configuration questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant [!INCLUDE[prod_short](includes/prod_short.md)] setup tables, such as the general ledger, stock, and customers.  
 
 > [!NOTE]  
 >  You can also create your own configuration questionnaire to meet your needs.  
 
 1. Open the company that you want to complete the questionnaire for.
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and then choose the related link.  
 3. Select the questionnaire for the company, and then choose the **Export to Excel** action, optionally the **Export to XML** action.
 4. Have the customer complete the configuration questionnaire by entering the answers in the Excel workbook. There are worksheets for each of the question areas that have been created for the questionnaire.   
 5. Save the Excel workbook as *XML Data*. Choose the **Import from XML** action, and select the .xml file with the customer's answers.
@@ -131,7 +131,7 @@ When you have completed your validation, the data is ready to be applied to the 
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>To apply answers from the configuration questionnaire
 After you have imported and validated information from a configuration questionnaire, you can transfer, or apply the setup data to the corresponding tables in the [!INCLUDE[prod_short](includes/prod_short.md)] database.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and then choose the related link. The **Config. Questionnaire** page opens.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and then choose the related link. The **Config. Questionnaire** page opens.  
 2. Select a configuration questionnaire from the list, and then choose the **Edit List** action.  
 3. You can apply answers in one of two ways.  
 

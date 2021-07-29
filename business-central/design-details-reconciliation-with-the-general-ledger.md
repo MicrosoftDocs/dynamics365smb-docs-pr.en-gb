@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: ad155e604780af087c93e4e245002f3511d3d5a9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: eafc3f6ac86584cbf2bab6e5a5a82639ea718fc5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215809"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442342"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Design Details: Reconciliation with the General Ledger
 When you post stock transactions, such as sales shipments, production output, or negative adjustments, the quantity and value changes to the stock are recorded in the item ledger entries and the value entries, respectively. The next step in the process is to post the stock values to the stock accounts in the general ledger.  
@@ -82,16 +82,16 @@ The following table shows how the work centre is set up on the work centre card.
     1. The interim accounts are cleared. (Sale)  
     2. Cost of goods sold (COGS) is posted. (Sale)  
 
-        ![Results of sales posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_sales.png "Results of sales posting to GL accounts")  
+        ![Results of sales posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_sales.png "Results of sales posting to GL accounts")  
 5. The user posts consumption of 150 links, which is the number of links used to produce one chain. (Consumption, Material)  
 
-    ![Results of material posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_material.png "Results of material posting to GL accounts")  
+    ![Results of material posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_material.png "Results of material posting to GL accounts")  
 6. The work centre used 60 minutes to produce the chain. The user posts the conversion cost. (Consumption, Capacity)  
 
     1. The direct costs are posted. (Consumption, Capacity)  
     2. The indirect costs are calculated and posted. (Consumption, Capacity)  
 
-        ![Results of capacity posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_capacity.png "Results of capacity posting to GL accounts")  
+        ![Results of capacity posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_capacity.png "Results of capacity posting to GL accounts")  
 7. The user posts the expected cost of one chain. (Output)  
 8. The user finishes the works order and runs the **Adjust Cost - Item Entries** batch job. (Output)  
 
@@ -100,7 +100,7 @@ The following table shows how the work centre is set up on the work centre card.
     3. The indirect cost (overhead) is transferred from the indirect cost account to the stock account. (Output)  
     4. This results in a variance amount of LCY 157.00. Variances are only calculated for standard-cost items. (Output)  
 
-        ![Results of output posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_output.png "Results of output posting to GL accounts")  
+        ![Results of output posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_output.png "Results of output posting to GL accounts")  
 
         > [!NOTE]  
         >  For the sake of simplicity, only one variance account is shown. In reality, five different accounts exist:  
@@ -113,7 +113,7 @@ The following table shows how the work centre is set up on the work centre card.
 
 9. The user revalues the chain from LCY 150.00 to LCY 140.00. (Adjustment/Revaluation/Rounding/Transfer)  
 
-    ![Results of adjustment posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Results of adjustment posting to GL accounts")  
+    ![Results of adjustment posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Results of adjustment posting to GL accounts")  
 
 For more information about the relationship between the account types and the different types of value entries, see [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
 

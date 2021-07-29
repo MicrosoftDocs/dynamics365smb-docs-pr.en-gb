@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d0a48037123dee4a7c9282432cc2b357b335e794
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 4cd53cab788f5ee9a7f32f697faa35e8cd2638ae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115572"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443364"
 ---
 # <a name="invoice-sales"></a>Invoice Sales
 
@@ -41,7 +41,7 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
 
 ### <a name="to-create-a-sales-invoice"></a>To create a sales invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2. In the **Customer** field, enter the name of an existing customer.
 
    Other fields on the **Sales Invoice** page contain standard information about the selected customer. If the customer is not registered, follow these steps:

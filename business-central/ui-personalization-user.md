@@ -1,6 +1,6 @@
 ---
-title: Personalising Pages | Microsoft Docs
-description: Learn how to customise the user interface to suit your way of working in Business Central.
+title: Personalising Pages
+description: Learn how to customise the user interface and personalise your workspace to suit your way of working and personal preferences in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6069e3d1bcfde5c7aead1daeb33b35201c9f05a4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dbcf9f396c3f92093241a17cb6a358580f015cbe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783318"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442682"
 ---
 # <a name="personalize-your-workspace"></a>Personalise Your Workspace
 You can personalise your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalisation changes that you make will only affect what you see, not what other users see.
@@ -42,7 +42,7 @@ As for other personalisation, the changes you make to column width are stored on
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>To start personalising a page through the **Personalising** banner
 1. Open any page that you want to personalise.
-2. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then choose the **Personalise** action.
+2. In the upper-right corner, select the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then choose the **Personalise** action.
 
     The **Personalising** banner appears at the top to indicate that you can start making changes.
 
@@ -63,7 +63,7 @@ As for other personalisation, the changes you make to column width are stored on
 |----|------------|-------|
 |Move something, like a field, column in list, tile, action, or part|Point anywhere on what you want to move, and drag it to its new position. The position is indicated by either a thick horizontal or vertical line.<br /><br />![Cannot move here icon](media/personalization-cannot-move-here.png "Personalising mode - Cannot move here icon") indicates that you cannot move the element to the selected position.|Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.<br /><br />For more details about action personalisation, see [Personalising Actions](ui-personalization-user.md#Actions). |
 |Hide something, like a field, column in list, tile, action, or part.|Choose the arrowhead, choose <b>Hide</b>.|The element is greyed when you are in personalising mode. If the field you hide is also shown on the FastTab heading when the FastTab is collapsed, the field will no longer appear there.|
-|Show hidden actions and parts.|For a grayed (hidden) element, choose the arrowhead, and then choose <b>Show</b>.|The hidden element is visible again.|
+|Show hidden actions and parts.|For a greyed (hidden) element, choose the arrowhead, and then choose <b>Show</b>.|The hidden element is visible again.|
 |Add a field or column.|In the <b>Personalising</b> banner, choose the <b>+ Field</b> action.<br /></br>The <b>Add Field to Page</b> pane opens on the right. It lists the fields that you can add to the page.<br /><br />To add a field, drag it from the pane to the position that you want it. The position is indicated by either a thick horizontal or vertical line.|Each page includes a predefined set of fields that you can display. Use this procedure to add fields or columns that have not been previously displayed or to show fields that you have hidden.|
 |Display a field in the heading of a FastTab when it is collapsed.|Choose the arrowhead, and then choose <b>Show when collapsed</b>. <br /> <br />If you do not see this option, then it is already set. In this case, to stop displaying the field on the FastTab heading, choose <b>Show always</b>.|*FastTab* is the term used for a group of fields that appear under a common heading. Use the <b>Show when collapsed</b> option to display the most important fields. If you select a field in the heading, the FastTab will open and focus on the selected field.<br /><br />This option is only applicable if a page has a more than one FastTab. If the is only one FastTab, it cannot be collapsed, so the <b>Show when collapsed</b> option is not available.|
 |Make a field display only when you select **Show more**.|Choose the arrowhead, and then choose <b>Show under "Show More"</b>. <br /> <br />If you do not see the <b>Show under "Show More"</b> option, then it is already set. In this case, to make a field display always, not just when you select **Show more**, choose <b>Show always</b>.||

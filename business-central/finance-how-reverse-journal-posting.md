@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdbf4b682b4ad99524ea0aace9a123283668fb43
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc759d1fdb08b847028bf4a24157c17c4d2f74e1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779104"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444469"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Reverse Journal Postings and Undo Receipts/Shipments
 To undo an erroneous journal posting, you select the entry and create a reverse entry (entries identical to the original entry but with opposite sign in the amount field) with the same document number and posting date as the original entry. After reversing an entry, you must make the correct entry.
@@ -32,7 +32,7 @@ If you have made an incorrect positive quantity posting, such as a sales shipmen
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>To reverse the journal posting of a general ledger entry
 You can reverse entries from all **Ledger Entries** pages. The following procedure is based on the **General Ledger Entries** page.
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Entries**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Entries**, and then choose the related link.
 2. Select the entry that you want to reverse, and then choose the **Reverse Transaction** action. Note that is must originate from a journal posting.
 3. On the **Reverse Transaction Entries** page, choose the **Reverse** action.
 4. Choose the **Yes** button on the confirmation message.
@@ -43,7 +43,7 @@ You can reverse entries from all **Ledger Entries** pages. The following procedu
 ## <a name="to-post-a-negative-entry"></a>To post a negative entry  
 You can use the **Correction** field to post a negative debit instead of a credit, or to post a negative credit instead of a debit on an account. To meet legal requirements, this field is visible by default in all journals. The **Debit Amount** and **Credit Amount** fields include both the original entry, and the corrected entry. These fields have no effect on the account balance.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link  
 2.  In the **Batch Name** field, select the required batch name.  
 3.  Enter information into the relevant fields.  
 4.  In the journal line that you want to activate for negative entries, select the **Correction** check box.  
@@ -52,7 +52,7 @@ You can use the **Correction** field to post a negative debit instead of a credi
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>To undo a quantity posting on a posted purchase receipt  
 The following described how to undo a posted receipt of items or resources. The steps are similar for posted shipments.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Receipts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Receipts**, and then choose the related link.  
 2.  Open the posted receipt that you want to undo.  
 3.  Select the line or lines that you want to undo.  
 4.  Choose **Undo Receipt** action.
@@ -64,7 +64,7 @@ The **Quantity Received** and **Qty. Rcd. Not Invoiced** fields on the related p
 ## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>To undo and then redo a quantity posting on a posted return shipment
 The following describes how to undo a posted return shipment of items or resources and then repost the purchase return with a new quantity. The steps are similar for posted return receipts.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Return Shipments**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Return Shipments**, and then choose the related link.  
 2.  Open the posted return shipment that you want to undo.
 3. Select the line or lines you want to undo.  
 
@@ -75,7 +75,7 @@ The following describes how to undo a posted return shipment of items or resourc
     Now go back to the purchase return order to redo the posting.  
 
 5.  On the **Posted Return Shipment** page, take a note of the number in the **Return Order No.** field.  
-6.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Return Orders**, and then select the related link.  
+6.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Return Orders**, and then select the related link.  
 7.  Open the return order in question, and then choose the **Reopen** action.  
 8.  Correct the entry in the **Quantity** field and post the purchase return order again.  
 

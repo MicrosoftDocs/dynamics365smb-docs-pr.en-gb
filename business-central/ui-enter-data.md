@@ -1,6 +1,6 @@
 ---
-title: How to Enter Data in Business Central| Microsoft Docs
-description: Learn about general features that help you enter data in fields.
+title: How to Enter Data in Business Central
+description: There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features are described here.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784822"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443675"
 ---
 # <a name="entering-data"></a>Entering Data
 
@@ -93,7 +93,7 @@ The following list provides some useful information about using Quick Entry.
 
 To set up Quick Entry on fields, you use personalisation.
 
-1. Start personalisation by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then the **Personalise** action.
+1. Start personalisation by selecting the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then the **Personalise** action.
 2. Select a field that you want change. In lists, select the corresponding column heading. Then, choose either **Include in Quick Entry** or **Exclude from Quick Entry**.
 
 For more information about personalisation, see [Personalise Your Workspace](ui-personalization-user.md).
@@ -136,9 +136,9 @@ You'll benefit particularly when you work with large line item lists and you wan
 
 ### <a name="switching-the-focus-on-and-off"></a>Switching the Focus On and Off
 
-To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner, or press Ctrl+Shift+F12.
+To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon.](media/focus-mode.png "Focus mode icon") in the upper right corner, or press Ctrl+Shift+F12.
 
-To switch back to the normal view, choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
+To switch back to the normal view, choose ![Focus Mode icon.](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking Across Multiple Pages
 
@@ -148,15 +148,15 @@ You can open a card or document page in a new window. Opening a new window lets 
 - Manage interruptions to the current task, such as taking an incoming call.
 - Keep a window open for an ongoing task while you start or complete another task in windows.
 
-To open the current card or document in a new window, choose ![Open New Window](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
+To open the current card or document in a new window, choose ![Open New Window.](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-To open the current card or document in a new window, choose ![Open New Window](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
+To open the current card or document in a new window, choose ![Open New Window.](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
 
 > [!NOTE]
-> When you open other pages from a card or document that is opened in a new window, those pages will open in a new window even though you don't choose ![Open New Window](media/open-new-window-icon.png "Open new window icon").
+> When you open other pages from a card or document that is opened in a new window, those pages will open in a new window even though you don't choose ![Open New Window.](media/open-new-window-icon.png "Open new window icon").
 
 > [!NOTE]
 > If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify the product URL as an allowed website. For information see, [Change preferences in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
@@ -248,11 +248,11 @@ The following table lists the various ways in which times can be entered and how
 
 ## <a name="entering-duration"></a>Entering Duration
 
-You enter a duration as a number followed by its unit of measure.  
+You enter a duration as a number followed by its unit of measurement.  
 
 Here are some examples.  
 
-|Duration|Unit of measure**|  
+|Duration|Unit of measurement**|  
 |------------------|-------------------------|  
 |2h|2 hrs|  
 |6h 30 m|6 hrs 30 mins|  
@@ -261,11 +261,11 @@ Here are some examples.
 |2d 6h 30m|2 days 6 hrs 30 mins|  
 |2d 6h 30m 56s 600ms|2 days 6 hrs 30 mins 56 secs 600 msecs|  
 
- You can also enter a number and it's automatically converted to a duration. The number you enter is converted according to the default unit of measure that has been specified for the duration field.  
+ You can also enter a number and it's automatically converted to a duration. The number you enter is converted according to the default unit of measurement that has been specified for the duration field.  
 
- To see the unit of measure used in a duration field, enter a number and see which unit of measure it's converted to.  
+ To see the unit of measurement used in a duration field, enter a number and see which unit of measurement it's converted to.  
 
- The number 5 is converted to 5 hrs, if the unit of measure is hours.  
+ The number 5 is converted to 5 hrs, if the unit of measurement is hours.  
 
 ## <a name="see-also"></a>See Also  
  [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  

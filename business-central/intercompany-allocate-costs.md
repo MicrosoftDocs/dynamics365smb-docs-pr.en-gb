@@ -1,6 +1,6 @@
 ---
 title: Allocate Costs to Intercompany Partners| Microsoft Docs
-description: Learn how VAT settings for customers and vendors control whether, and how, VAT is calculated.
+description: Learn how VAT settings for customers and suppliers control whether, and how, VAT is calculated.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 471a5151314645f21f163a8f9044b168ac5a8bb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b1946ce8d23a8f9e8f6d48a527060727a9bc3447
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786330"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444262"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allocate Costs to Intercompany Partners
-When you use intercompany postings to transfer documents between partner companies, the VAT-related settings (primarily the VAT business posting group) assigned to the customer or vendor accounts (associated with the intercompany Partner) control whether, and how, VAT is calculated and registered. You can also do cost distributions directly from a purchase order to partner companies. For example, if you register a purchase invoice from an external vendor and you want to distribute some or all of the costs to one or more intercompany partners.
+When you use intercompany postings to transfer documents between partner companies, the VAT-related settings (primarily the VAT business posting group) assigned to the customer or supplier accounts (associated with the intercompany Partner) control whether, and how, VAT is calculated and registered. You can also do cost distributions directly from a purchase order to partner companies. For example, if you register a purchase invoice from an external supplier and you want to distribute some or all of the costs to one or more intercompany partners.
 
 You can allocate costs can be to one or more intercompany partners using the following:
 
@@ -30,11 +30,11 @@ You can allocate costs can be to one or more intercompany partners using the fol
 ## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>To allocate costs using an intercompany general journal
 To enter a  line in an intercompany general journal, follow these steps. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany General Journal** , and then choose the related link.
-2. If required, in the **External Document No.** field, enter the document number on the invoice from the vendor.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany General Journal** , and then choose the related link.
+2. If required, in the **External Document No.** field, enter the document number on the invoice from the supplier.
 3. In the **Document Type** field, choose **Invoice**.
-4. In the **Account Type** field, choose **Vendor**.
-5. In the **Account No.** field, choose the vendor.
+4. In the **Account Type** field, choose **Supplier**.
+5. In the **Account No.** field, choose the supplier.
 6. In the **Amount** field, enter a negative amount equal to the amount on the invoice.
 7. In the **Bal. Account Type** field, choose **G/L Account**.
 8. In the **Bal. Account No.** field, choose the balancing account to use.
@@ -57,7 +57,7 @@ The following procedure describes how to allocate costs using a purchase invoice
 > [!NOTE]
 > To complete these steps you must personalise the **Purchase Invoice** page by adding the **IC Partner Code**, **IC Partner Ref. Type**, and **IC Partner** fields. For more information, see [To start personalising a page through the Personalising banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice** , and then choose the related link.
 2. In the **Type** field, choose **G/L Account**.
    
    G/L Account is the only option you can use to allocate costs.  
@@ -70,7 +70,7 @@ The following procedure describes how to allocate costs using a purchase invoice
 1. To post the purchase order, choose **Post**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>To send the allocated costs to intercompany partners
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IC Outbox Transactions**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IC Outbox Transactions**, and then choose the related link.
 2. Choose lines to send, and then choose the **Send to IC Partner** action. 
 3. To allocate the costs, choose the **Complete Line Actions** action.
 

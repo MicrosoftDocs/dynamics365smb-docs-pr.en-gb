@@ -1,6 +1,6 @@
 ---
 title: Manage Job Supplies
-description: Describes how to manage the supply and purchase of material and services to jobs.
+description: Describes the different ways to to manage the supply and purchase of material and services for jobs.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 7e1f6f52a8ef5f7d4620a70c4611ba259dc00c20
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: b2c2bfa376290439394debcf9b57da5bedaca8bd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938178"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443850"
 ---
 # <a name="manage-job-supplies"></a>Manage Job Supplies
 Managing project supplies of items, services, and expenses is an integral and critical aspect of the execution of all jobs. You can use stock quantities or make job-specific purchases using purchase orders or purchase invoices. For example, a service job on a computer requires a new disk. You create a purchase invoice to buy a new disk and record the job that it will be used on.
@@ -25,7 +25,7 @@ If the purchase process does not require that the physical transaction be record
 ## <a name="to-purchase-items-or-services-for-a-job"></a>To purchase items or services for a job
 The following procedure shows how to use a purchase invoice to purchase products for a job. The same steps apply when using a purchase order.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. Choose the **New** action and fill in the fields as necessary. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. In the **Job No.** and **Job Task No.** fields, select the information of the job that you want to purchase items or services for. Use the personalisation tools if a field is not visible. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
 
@@ -33,7 +33,7 @@ The following procedure shows how to use a purchase invoice to purchase products
 4. Choose the **Post** action.
 
 ## <a name="to-view-the-value-of-purchases-for-a-job"></a>To view the value of purchases for a job
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
 2. Open a relevant job card.
 
     On the **Tasks** FastTab, the **Outstanding Orders** field shows the total outstanding amount, in local currency, of stock items and services on purchase documents for the job task line.  
@@ -44,7 +44,7 @@ The following procedure shows how to use a purchase invoice to purchase products
 ## <a name="to-post-a-job-related-expense"></a>To post a job-related expense
 If you incur extraordinary or one-time job expenses, you can use the **Job G/L Journal** page to post them directly to the relevant job account.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job G/L Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job G/L Journals**, and then choose the related link.  
 2. Create a new line and enter information about the expense, including information in the **Job No.** and **Job Task No** fields.  
 3. When the journal is complete, choose the **Post** action.
 

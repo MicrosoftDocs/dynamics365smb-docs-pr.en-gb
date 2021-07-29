@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 3ee0149461730e20e996f31dc7175ff3325bceca
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935343"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443925"
 ---
 # <a name="define-retention-policies"></a>Define Retention Policies
 Administrators can define retention policies to specify how frequently they want [!INCLUDE[prod_short](includes/prod_short.md)] to delete outdated data in tables that contain log entries and archived records. For example, cleaning up log entries can make it easier to work with the data that's actually relevant. Policies can include all data in the tables that is past the expiration date, or you can add filter criteria that will include only certain expired data in the policy. 
@@ -40,7 +40,7 @@ Retention periods can be as long or as short as you want. To create retention pe
 > For compliance reasons, we have defined a minimum retention period for some tables. If you set a retention period that is shorter than minimum required, a message will display the mandatory period.
 
 ### <a name="set-up-a-retention-policy"></a>Set up a retention policy
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Retention Policies**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Retention Policies**, and choose the related link.
 2. In the **Table ID** field, choose the table that you want to include in the policy.
 3. In the **Retention Period** field, specify the length of time for which to keep the data in the table.
 4. Optional: To apply the policy to specific data in a table, turn off the Apply to all records toggle. The Record Retention Policy FastTab will display, where you can set filters to create subsets of data for each line. For more information, see [Filtering](ui-enter-criteria-filters.md#filtering).

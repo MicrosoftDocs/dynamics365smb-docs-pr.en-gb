@@ -1,6 +1,6 @@
 ---
-title: How to Plan Order by Order | Microsoft Docs
-description: This planning task can be performed on the **Order Planning** page, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.
+title: How to Plan Order by Order
+description: This planning task can be performed on the Order Planning page, which displays all new demand along with availability information and suggestions for supply.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: bed73380344c0900a00d6d704ee2d853a1bf165d
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 5a3481f1f1b1c08fd3006d1d62b92387414f0d41
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216237"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444237"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Plan for New Demand Order by Order
 This planning task can be performed on the **Order Planning** page, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.  
@@ -24,14 +24,14 @@ You can enter the **Order Planning** page in two ways depending on your focus: F
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>To plan for new works order demand  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Works Orders**, and then choose the related link. (You can perform these steps for planned, firm planned, or released works orders).
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **planned Works Orders**, and then choose the related link. (You can perform these steps for planned, firm planned, or released works orders).
 2.  Open the works order you want to plan for, and then choose the **Planning** action.  
 3.  On the **Order Planning** page, choose the **Calculate Plan** action.  
 
 The page displays planning lines according to the view filter **Production Demand**, meaning unfulfilled component lines of all existing works orders. Demand for only the one works order is not shown because it is necessary to plan for one works order with an overview of demand for potentially earlier components lines. Planning lines for the works order in context are expanded.  
 
 ## <a name="to-plan-for-any-new-demand"></a>To plan for any new demand  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning**, and then choose the related link.  
 2.  On the **Order Planning** page, choose the **Calculate Plan** action.
 3.  Choose the **Expand (+)** button in front of the date in the **Demand Date** field to see the underlying planning lines that represent demand lines with insufficient availability.  
 4.  For each expanded planning line, that is, demand line, you can see values in information fields at the bottom of the page.  
@@ -83,7 +83,7 @@ The page displays planning lines according to the view filter **Production Deman
 >   If you enter a date later than the demand date, you will receive a warning message.  
 
 ## <a name="to-make-supply-orders"></a>To make supply orders  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Works Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released works order.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **planned Works Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released works order.  
 2.  Open the works order you want to plan for, and then choose the **Planning** action.  
 3.  Place the cursor on a relevant planning line, and then choose the **Make Orders** action.  
 4.  On the **Make Supply Orders** page, on the **Order Planning** FastTab, in the **Make Orders for** field, select one of the following options.  

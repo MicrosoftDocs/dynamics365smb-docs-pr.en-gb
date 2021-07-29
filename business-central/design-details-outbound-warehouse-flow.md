@@ -1,6 +1,6 @@
 ---
-title: Design Details - Outbound Warehouse Flow | Microsoft Docs
-description: The outbound flow in the warehouse begins with a request from released source documents to bring the items out of the warehouse location, either to be shipped to an external party or to another company location. From the storage area, warehouse activities are performed at different complexity levels to bring the items out to the shipping docks.
+title: Design Details - Outbound Warehouse Flow
+description: This topic talks about the sequence of the outbound warehouse flow from released source documents to ready-to-ship items.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7e748719454bfbdcbacd9cf53a535ed1e38147bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 985ef683426c2de2e917b3c3f8d860115d462d83
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777780"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442392"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Design Details: Outbound Warehouse Flow
 
@@ -30,7 +30,7 @@ The outbound flow in the warehouse begins with a request from released source do
 
 In addition, the following internal source documents exist that function like outbound sources:  
 
-- Production order with component need  
+- works order with component need  
 - Assembly order with component need  
 
  The last two documents represent outbound flows from the warehouse to internal operation areas. For more information about warehouse handling for internal inbound and outbound processes, see [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md).  
@@ -42,7 +42,7 @@ In addition, the following internal source documents exist that function like ou
 |Method|Outbound Process|Bins|Picks|Shipments|Complexity Level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
 |------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  
 |A|Post pick and shipment from the order line|X|||2|  
-|B|Post pick and shipment from an inventory pick document||X||3|  
+|B|Post pick and shipment from an stock pick document||X||3|  
 |C|Post pick and shipment from a warehouse shipment document|||X|4/5/6|  
 |D|Post pick from a warehouse pick document and post shipment from a warehouse shipment document||X|X|4/5/6|  
 
@@ -54,34 +54,34 @@ In addition, the following internal source documents exist that function like ou
 
  The following diagram illustrates the outbound warehouse flows by document type in basic warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
- ![Outbound flow in basic warehouse configurations](media/design_details_warehouse_management_outbound_basic_flow.png "Outbound flow in basic warehouse configurations")  
+ ![Outbound flow in basic warehouse configurations.](media/design_details_warehouse_management_outbound_basic_flow.png "Outbound flow in basic warehouse configurations")  
 
-### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Release Source Document / Create Inventory Pick or Movement
+### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Release Source Document / Create Stock Pick or Movement
 
- When a user who is responsible for source documents, such as a sales order processor or production planner, is ready for the outbound warehouse activity, he or she releases the source document to signal to warehouse workers that sold items or components can be picked and placed in the specified bins. Alternatively, the user creates inventory pick or movement documents for the individual order lines, in a push fashion, based on specified bins and quantities to handle.  
+ When a user who is responsible for source documents, such as a sales order processor or production planner, is ready for the outbound warehouse activity, he or she releases the source document to signal to warehouse workers that sold items or components can be picked and placed in the specified bins. Alternatively, the user creates stock pick or movement documents for the individual order lines, in a push fashion, based on specified bins and quantities to handle.  
 
 > [!NOTE]  
-> Inventory movements are used to move items to internal operation areas in basic warehouse configurations, based on source documents or on an ad hoc basis.  
+> Stock movements are used to move items to internal operation areas in basic warehouse configurations, based on source documents or on an ad hoc basis.  
 
 ### <a name="2-create-outbound-request"></a>2: Create Outbound Request
 
  When the outbound source document is released, an outbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
 
-### <a name="3-create-inventory-pick-or-movement"></a>3: Create Inventory Pick or Movement
+### <a name="3-create-inventory-pick-or-movement"></a>3: Create Stock Pick or Movement
 
- In the **Inventory Pick** or **Inventory Movement** page, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on outbound warehouse requests. Alternatively, the inventory pick lines are already created, in a push fashion, by the user who is responsible for the source document.  
+ In the **Stock Pick** or **Stock Movement** page, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on outbound warehouse requests. Alternatively, the stock pick lines are already created, in a push fashion, by the user who is responsible for the source document.  
 
-### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Post Inventory Pick or Register Inventory Movement
+### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Post Stock Pick or Register Stock Movement
 
- On each line for items that have been picked or moved, partially or fully, the warehouse worker fills in the **Quantity** field, and then posts the inventory pick or registers the inventory movement. Source documents related to the inventory pick are posted as shipped or consumed. Source documents related to inventory movements are not posted.  
+ On each line for items that have been picked or moved, partially or fully, the warehouse worker fills in the **Quantity** field, and then posts the stock pick or registers the stock movement. Source documents related to the stock pick are posted as shipped or consumed. Source documents related to stock movements are not posted.  
 
- For inventory picks, negative item ledger entries are created, warehouse entries are created, and the pick request is deleted, if fully handled. For example, the **Quantity Shipped** field on the outbound source document line is updated. A posted shipment document is created  that reflects the sales order, for example, and the shipped items.  
+ For stock picks, negative item ledger entries are created, warehouse entries are created, and the pick request is deleted, if fully handled. For example, the **Quantity Shipped** field on the outbound source document line is updated. A posted shipment document is created  that reflects the sales order, for example, and the shipped items.  
 
 ## <a name="advanced-warehouse-configurations"></a>Advanced Warehouse Configurations
 
  The following diagram illustrates the outbound warehouse flow by document type in advanced warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
- ![Outbound flow in advanced warehouse configurations](media/design_details_warehouse_management_outbound_advanced_flow.png "Outbound flow in advanced warehouse configurations")  
+ ![Outbound flow in advanced warehouse configurations.](media/design_details_warehouse_management_outbound_advanced_flow.png "Outbound flow in advanced warehouse configurations")  
 
 ### <a name="1-release-source-document"></a>1: Release Source Document
 
@@ -109,7 +109,7 @@ In addition, the following internal source documents exist that function like ou
 
 ### <a name="6-create-pick-request"></a>6: Create Pick Request
 
- When the outbound source document is released, a warehouse pick request is created automatically. It contains references to the source document type and number and is not visible to the user. Depending on the setup, consumption from a production and assembly order also creates a pick request to pick the needed components from inventory.  
+ When the outbound source document is released, a warehouse pick request is created automatically. It contains references to the source document type and number and is not visible to the user. Depending on the setup, consumption from a production and assembly order also creates a pick request to pick the needed components from stock.  
 
 ### <a name="7-generate-pick-worksheet-lines"></a>7: Generate Pick Worksheet Lines
 

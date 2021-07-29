@@ -1,6 +1,6 @@
 ---
-title: How to Move Items Ad Hoc in Basic Warehouse Configurations | Microsoft Docs
-description: You may occasionally need to move items between internal bins, not receiving or shipping bins, without a specific demand from a source document. You may perform these ad hoc movements, for example, to reorganise the warehouse, to bring items to an inspection area, or to move additional items to and from a production area without a system relation to the production order source document.
+title: Move Items Ad Hoc in Basic Warehouse Configs
+description: This topic explains ad hoc movements performed when you need to move items between internal bins without a specific demand from a source document.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5204f75801c0af09715b0d8cc4523e57fa33a49a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 11377c1944f47723b97fad9b5ffc699fa8255a4f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771811"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444109"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Move Items Ad Hoc in Basic Warehouse Configurations
-You may occasionally need to move items between internal bins, not receiving or shipping bins, without a specific demand from a source document. You may perform these ad hoc movements, for example, to reorganise the warehouse, to bring items to an inspection area, or to move additional items to and from a production area without a system relation to the production order source document.  
+You may occasionally need to move items between internal bins, not receiving or shipping bins, without a specific demand from a source document. You may perform these ad hoc movements, for example, to reorganise the warehouse, to bring items to an inspection area, or to move additional items to and from a production area without a system relation to the works order source document.  
 
 In basic warehouse configurations, that is locations that use the **Bin Mandatory** setup field and possibly the **Require Pick** and the **Require Put-away** setup fields, you can register ad hoc movements without source documents in the following ways:  
 
@@ -29,7 +29,7 @@ In basic warehouse configurations, that is locations that use the **Bin Mandator
 >  In advanced warehouse configurations, that is locations that use the **Directed Put-away and Pick** setup field, you use the **Movement Worksheet** page or the **Internal Whse. Pick** or the **Internal Whse. Put-away** pages to move items ad hoc between bins.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>To move items as an internal movement  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Internal Movement**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Internal Movement**, and then choose the related link.  
 2.  On the **General** FastTab, fill in the **No.** field, either by leaving the field or by choosing the **AssistEdit** button to select from the number series.  
 3.  In the **Location Code** field, enter the location where the movement takes place.  
 
@@ -49,16 +49,16 @@ In basic warehouse configurations, that is locations that use the **Bin Mandator
     > [!NOTE]  
     >  Quantity must be available in the From Bin code.  
 
-8.  When you are ready to process the internal movement, choose the **Create Inventory Movement** action.  
+8.  When you are ready to process the internal movement, choose the **Create Stock Movement** action.  
 
     > [!NOTE]  
-    >  When you have created the inventory movement, the internal movement lines are deleted.  
+    >  When you have created the stock movement, the internal movement lines are deleted.  
 
-    You perform the remainder of the ad hoc movement on the **Inventory Movement** page in the same way as you would for a movement based on source documents. For more information, see for example [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+    You perform the remainder of the ad hoc movement on the **Stock Movement** page in the same way as you would for a movement based on source documents. For more information, see for example [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>To move items with the item reclassification journal
-In stead of using warehouse movement documents, you can record the moving of items by reclassifying their bin codes. For more information, see [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).   
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journal**, and then choose the related link.  
+In stead of using warehouse movement documents, you can record the moving of items by reclassifying their bin codes. For more information, see [Count, Adjust, and Reclassify Stock Using Journals](inventory-how-count-adjust-reclassify.md).   
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journal**, and then choose the related link.  
 2.  On each journal line, define the bins from which and to which you want to move items by filling in the **Bin Code** and the **New Bin Code** fields.  
 
     1.  To move a bin's entire contents to another bin, choose the **Get Bin Contents** action.  
@@ -71,7 +71,7 @@ In stead of using warehouse movement documents, you can record the moving of ite
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Inventory](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

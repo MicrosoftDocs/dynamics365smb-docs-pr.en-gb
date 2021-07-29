@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7f2e2fe9719d25e13a33cf1943e7a054a70edffd
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: dcd316d7d1d360733ff15b67cc5a293576812611
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935368"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444050"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Working with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -27,7 +27,7 @@ Power BI reports give you insight into your [!INCLUDE[prod_short](includes/prod_
 
 [!INCLUDE [prod_short](includes/prod_short.md)] works together with the Power BI service. Reports for displaying in [!INCLUDE [prod_short](includes/prod_short.md)] are stored in a Power BI service. In [!INCLUDE [prod_short](includes/prod_short.md)], you can switch the report displayed in the Power BI part to any Power BI report available in your Power BI service. The first time you sign into [!INCLUDE [prod_short](includes/prod_short.md)], and until you connect to a Power BI service, parts will be empty, as shown here:
 
-![Power BI part in Business Central](./media/power-bi-part.png)
+![Power BI part in Business Central.](./media/power-bi-part.png)
 
 ## <a name="get-started"></a>Get Started
 

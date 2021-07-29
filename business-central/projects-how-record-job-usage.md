@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 65975621fff862b64333c87e70f34b75f8e2cbdb
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: 0d873a547175ee9f52a4016f4e8f5e9aa603cd8a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938103"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443800"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Record Consumption or Usage for Jobs
 
@@ -27,7 +27,7 @@ The following procedures describe how to record actual (budgeted) quantities and
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>To record usage for a job planning line of type Budget
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **Job Planning Lines** action.
 3. Select a job planning line of type **Budget** or **Both Budget and Billable** for which you want to record usage.  
 
@@ -49,7 +49,7 @@ The following procedures describe how to record actual (budgeted) quantities and
 
 ## <a name="to-create-job-journal-lines-manually"></a>To create job journal lines manually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. In the **Batch Name** field, choose a relevant job journal batch.  
 3. On a new line, enter document number, job number, job task number, type, and the quantity of the type being consumed.  
 4. When the job journal lines are complete, choose the **Post** action.  
@@ -63,7 +63,7 @@ This lets you track and compare your original estimates against actual results a
 > [!NOTE]  
 >   Item entries create item ledger entries and reduce the stock quantity. The **Post Stock Cost to G/L** batch job transfers the cost from stock to the general ledger. Resource entries create resource ledger entries.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. Select a relevant job journal, and then choose the **Calc. Remaining Usage** action.  
 3. On the **Job Calc. Remaining Usage** page, enter the document number and posting date that is to be inserted in the journal, and then choose the **OK** button.  
 4. Update the journal with any modifications that may be needed.  
@@ -78,7 +78,7 @@ After you have posted job journal lines, you can see the planning lines that are
 > [!NOTE]  
 > This requires that the **Apply Usage Link** check box has been selected for the job. For more information, see [Set Up Jobs](projects-how-setup-jobs.md).  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. Select a relevant job journal, and then choose the **Ledger Entries** action.  
 3. On the **Job Ledger Entries** page, choose **Show Linked Job Planning Lines** action.
 

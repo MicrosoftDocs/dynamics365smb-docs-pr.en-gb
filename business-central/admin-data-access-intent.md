@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fe04fc290f10324105d4d9ca01e13166bf2ad8f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a85a8acda1789997639c78c5d6028a14dbb75af
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773086"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443950"
 ---
 # <a name="managing-database-access-intent"></a>Managing Database Access Intent 
 
@@ -33,7 +33,7 @@ In database terms, this feature is commonly known as *read scale-out*. For more 
 
 ## <a name="to-change-the-database-access-intent"></a>To change the database access intent
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Database Access Intent List**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Database Access Intent List**, and then choose the related link.
 
     The page lists all reports, pages, and queries. The **Access Intent** column includes one of the following values:
 

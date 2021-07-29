@@ -1,6 +1,6 @@
 ---
-title: Dimension Set Entries Overview | Microsoft Docs
-description: This topic describes how dimension set entries are stored and posted in Dynamcis 365.
+title: Dimension Set Entries Overview
+description: This article gives you an overview of how dimension set entries are stored as dimension set entries and how they are posted.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c6e3df748269e2f40e3acf0a28ce0f6bc48ca944
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f5765b82e3fde5ba35d3c0be9fc6383c9ddb5bf7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215310"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442417"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimension Set Entries Overview
 This topic describes how dimension set entries are stored and posted in [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -34,7 +34,7 @@ The following example shows a dimension set that has three dimension set entries
 ## <a name="dimension-set-entries"></a>Dimension Set Entries  
 Dimension sets are stored in the **Dimension Set Entry** table as dimension set entries with the same dimension set ID.  
 
-![Flow of dimension set entries](media/dimensionentrynav7.png "Flow of dimension set entries")  
+![Flow of dimension set entries.](media/dimensionentrynav7.png "Flow of dimension set entries")  
 
 When you create a new journal line, document header, or document line, you can specify a combination of dimension values. Instead of explicitly storing each dimension value in the database, a dimension set ID is assigned to the journal line, document header, or document line to specify the dimension set.  
 

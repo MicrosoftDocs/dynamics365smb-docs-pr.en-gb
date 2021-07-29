@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 966760ae57f9908ec7245f8e97f6d35591142332
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214885"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442367"
 ---
 # <a name="design-details-production-order-posting"></a>Design Details: Works Order Posting
 Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the works order is finished. For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process stock.
@@ -58,11 +58,11 @@ Posting works orders to WIP stock involves output, consumption, and capacity.
 
 The following diagram shows the involved posting routines in codeunit 22.  
 
-![Works order posting routines](media/design_details_inventory_costing_14_production_posting_1.png "Works order posting routines")  
+![works order posting routines.](media/design_details_inventory_costing_14_production_posting_1.png "Works order posting routines")  
 
 The following diagram shows the associations between the resulting entries and the cost objects.  
 
-![Production entry flow](media/design_details_inventory_costing_14_production_posting_2.png "Production entry flow")  
+![Production entry flow.](media/design_details_inventory_costing_14_production_posting_2.png "Production entry flow")  
 
 The capacity ledger entry describes the capacity consumption in terms of time units, whereas the related value entry describes the value of the specific capacity consumption.  
 

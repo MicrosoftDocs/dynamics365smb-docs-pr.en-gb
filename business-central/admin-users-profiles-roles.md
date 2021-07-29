@@ -1,20 +1,20 @@
 ---
-title: Manage users and roles | Microsoft Docs
-description: Learn how to manage users and Role Centres in Business Central.
+title: Manage users and roles
+description: Learn how to manage user profiles and Role Centres in Business Central. Profiles allow administrators to centrally define and manage what users can see and do.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8ccfd6b7e39acc460fcd32dbc2f20fb71fc01ae0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776973"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443136"
 ---
-# <a name="manage-profiles"></a>Manage Profiles
+# <a name="manage-user-profiles"></a>Manage User Profiles
 
 All users of [!INCLUDE[prod_short](includes/prod_short.md)] are assigned a profile that reflects their business role, the department they work in, or another categorisation. Profiles allow administrators to define and manage centrally what different user types can see and do in the user interface so they can perform their business tasks efficiently.
 
@@ -31,7 +31,7 @@ You can customise page layouts for a profile so that all users assigned the prof
 ## <a name="to-create-a-profile"></a>To create a profile
 If you cannot copy an existing profile, you can create a new one manually.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)**, and then choose the related link.  
+1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)**, and then choose the related link.  
 2. On the **Profiles (Roles)** page, choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -66,7 +66,7 @@ On the **My Settings** page, users can define basic behaviour of their account, 
 
 As an administrator, you can define these setting for a profile and thereby apply the settings to all users of the related role.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
 2. Select the line for the profile that you want to change user settings for, then choose the **User Personalisations List** action.
 3. On the **User Personalisations** page, open the card for the user whose settings you want to change.
 4. On the **User Personalisation Card** page, edit the fields as necessary.
@@ -108,7 +108,7 @@ You can delete a profile by choosing the **Delete** action on the **Profiles (Ro
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>To delete all personalisations made by a user
 You can delete all changes that a user has made to pages that make up their workspace. This may be useful, for example, if an employee has changed role and no longer needs the personalisations. Deleting users' personalisations changes the page layout back to what is defined by the profile.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalisations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalisations**, and then choose the related link.
 
     The **User Personalisations** page lists all users who have made personalisations.
 
@@ -122,7 +122,7 @@ You can also delete all page customisations for a profile. For more information,
 ## <a name="to-delete-personalizations-for-specific-pages"></a>To delete personalisations for specific pages
 You can delete personalisations that one or more users have made to specific pages that make up their workspace. This may be useful, for example, if a changed business process means that a personalisation must no longer be used by users. Deleting users' personalisations changes the page layout back to what is defined by the profile.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Page Personalisations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Page Personalisations**, and then choose the related link.
 
     The **User Page Personalisations** page lists all the pages that have been personalised and the user that they belong to.
 

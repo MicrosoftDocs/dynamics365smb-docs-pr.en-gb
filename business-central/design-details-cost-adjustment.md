@@ -1,6 +1,6 @@
 ---
-title: Design Details - Cost Adjustment | Microsoft Docs
-description: The main purpose of cost adjustment is to forward cost changes from cost sources to cost recipients, according to an item’s costing method, to provide correct stock valuation.
+title: Design Details - Cost Adjustment
+description: Cost adjustment forwards cost changes from cost sources to cost recipients according to an item’s costing method, to provide correct stock valuation.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 0c0d46c75ca160ba5baa58bd637ead2e0339d368
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 4fdf131d9f32940ed3b909c4bc98a1516f44bf64
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215410"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442467"
 ---
 # <a name="design-details-cost-adjustment"></a>Design Details: Cost Adjustment
 
@@ -67,7 +67,7 @@ This detection function is used in conversion scenarios, production and assembly
 
 The Order Level function is used to detect adjustments in assembly posting. The following graphic shows the adjustment entry structure:  
 
-![Flow of entries in cost adjustment](media/design_details_assembly_posting_3.png "Flow of entries in cost adjustment")  
+![Flow of entries in cost adjustment.](media/design_details_assembly_posting_3.png "Flow of entries in cost adjustment")  
 
 For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 

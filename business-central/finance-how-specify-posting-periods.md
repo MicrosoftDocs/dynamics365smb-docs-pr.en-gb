@@ -1,6 +1,6 @@
 ---
-title: Specify Posting Periods| Microsoft Docs
-description: You specify posting start and end dates to set up when users can post to the general ledger.
+title: Specify Posting Periods
+description: You specify posting periods (posting start and end dates) to set up when users can post to the general ledger.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,20 +11,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6f1745dfec453f5864b748d0c876e5ef040fc2df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e4fb495fc29f28dffd34e492cb33d162d671fbd3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775481"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444369"
 ---
-# <a name="specify-posting-periods"></a>Specify Posting Periods
+# <a name="how-to-specify-posting-periods"></a>How to Specify Posting Periods
 Use posting periods to specify when users can post to the general ledger.  
 
 ## <a name="to-specify-posting-periods"></a>To specify posting periods
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, define the period by entering dates in the **Allow Posting From** and **Allow Posting To** fields.  
 
 > [!NOTE]  

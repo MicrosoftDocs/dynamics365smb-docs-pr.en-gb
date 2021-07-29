@@ -1,6 +1,6 @@
 ---
-title: Depreciate or Amortise FA| Microsoft Docs
-description: You must define how you will write-down, depreciate, or amortise each of your fixed assets.
+title: Depreciate or Amortise FA
+description: You must define how you will write-down, depreciate, or amortise each of your fixed assets, such as machinery and equipment, over their depreciable life.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a800c164e828a65ff1d66a8abe4f4f88b6c2581d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5ef67d3720ea83ead055e9ed2f9e83310c75ac16
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774112"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442267"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Depreciate or Amortise Fixed Assets
 Depreciation is used to allocate the cost of fixed assets, such as machinery and equipment, over their depreciable life. For each fixed asset, you must define how it will be depreciated.  
@@ -36,19 +36,22 @@ Indexation is used to adjust values for general price-level changes. You can use
 ## <a name="to-calculate-depreciation-automatically"></a>To calculate depreciation automatically
 Once a month, or whenever you choose, you can run the **Calculate Depreciation** batch job. The batch job ignores fixed assets that have been sold, are blocked or inactive, or use the manual depreciation method.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calculate Depreciation**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calculate Depreciation**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **OK** button.  
 
     The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.
 
-4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
+4. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
 
     On the **Fixed Asset G/L Journal** page, in the **No. of Depreciation Days** field, you can see how many days of depreciation have been calculated.  
 5. Choose the **Post** action.  
 
+> [!NOTE]
+> If you select the **Use Force No. of Days** field, and the **Force No. of Days** field is set to a value that result in the posting date minus the value of the **Number of Days** fields is a date in the previous calendar year, you cannot post the depreciation. The workaround is to reduce the value of the **Force No. of Days** to no more than than the calculated days until posting date using 30 days/month OR select the **Financial Year 365 Days** field on the depreciation book. We recommend the first option as you may not want to change the use of 30 days/months for depreciation. For more information, see [Financial Year 365 Days Field Depreciation](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>To post depreciation manually from the fixed asset G/L journal
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.  
 2. Create an initial journal line and fill in the fields as necessary.  
 3. In the **FA Posting Type** field, select **Depreciation**.  
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for depreciation posting. For more information, see [To set up fixed asset posting groups](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
@@ -68,7 +71,7 @@ In the **Ending Book Value** field on the **FA Depreciation Books** page, you ca
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>To calculate allocations in the fixed asset G/L journal
 If a fixed asset is used by several departments, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.  
 2. Create an initial line and fill in the fields as necessary.
 3. In the **FA Posting Type** field, select **Allocation**.  
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for allocation posting.  
@@ -77,18 +80,18 @@ If a fixed asset is used by several departments, periodic depreciation can be au
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Use duplication lists to prepare to post to multiple depreciation books
 When you fill in journal lines to post to a depreciation book, you can duplicate the lines in a separate journal so you can post to a different depreciation book. For more information, see To [post entries to different depreciation books](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
 2. Open the depreciation book, and then select the **Part of Duplication List** check box.  
 
 > [!IMPORTANT]  
 >   If you have selected the **Use Duplication List** field, do not use number series on the journal. The reason is that the number series for the fixed asset G/L journal does not the number series for the fixed asset journal.  
 
 ## <a name="to-post-entries-to-different-depreciation-books"></a>To post entries to different depreciation books
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.  
 2. In the journal that you want to post depreciation with, select the **Use Duplication List** check box.  
 3. Fill in the remaining fields as necessary.  
 4. Choose the **Post** action.  
-5. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Journals**, and then choose the related link.  
+5. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Journals**, and then choose the related link.  
 
     > [!NOTE]  
     >   The **Fixed Asset Journal** page contains new lines for different depreciation books according to the duplication list.  
@@ -100,7 +103,7 @@ When you fill in journal lines to post to a depreciation book, you can duplicate
 You can copy entries from one depreciation book to another by using the **Copy Depreciation Book** batch job. The batch job creates journal lines in the journal batch that you have specified on the **FA Journal Setup** page for the depreciation book that you want to copy to. For more information, see the following procedure.  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>To copy fixed asset ledger entries between depreciation books
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
 2. Open the relevant depreciation book card, and then choose the **Copy Depreciation Book** action.  
 3. On the **Copy Depreciation Book** page, fill in the fields as necessary.  
 4. Choose the **OK** button.  

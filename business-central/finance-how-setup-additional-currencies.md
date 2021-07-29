@@ -1,9 +1,7 @@
 ---
-title: Setting Up Additional Currencies| Microsoft Docs
+title: Set Up Additional Currencies
 description: Your general ledger is set up to use your local currency (LCY), and another currency is set up as an additional currency, with a current exchange rate assigned.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
@@ -12,20 +10,23 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 96ca4139f7a19ea9a5bb3361099cde9910491488
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 23e9f521e43373ff3ee0fd5f8218b2d467b54d72
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775532"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444444"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Set Up an Additional Reporting Currency
+
 As companies operate in increasingly more countries/regions, it becomes more important that they are able to review and report financial data in more than one currency.
 
 Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries.
 
 > [!Warning]
-> The Additional Reporting Currency functionality should not be used as a basis for financial statement translation. It is not a tool that can perform translation of foreign subsidiary financial statements as part of a company consolidation. The additional reporting currency can only be used to prepare reports in another currency, as if that currency was the company’s local currency.
+> The Additional Reporting Currency functionality should not be used as a basis for financial statement translation unless you understand the limitations. It is not a tool that can perform translation of foreign subsidiary financial statements as part of a company consolidation. The additional reporting currency can only be used to prepare reports in another currency, as if that currency was the company's local currency.
+>
+> For example, you have a large amount of sales ledger in British pounds (GBP), and you have set up your additional reporting currency (ACY) to be GBP. In this scenario, amounts in the sales ledger that use GBP will not be adjusted for currency exchange gains/losses in the ACY, only amounts in the sales ledger that are in other currencies. That means that if you use ACY to report your financial statements, it might result in understated or overstated outstanding balances of sales ledger.
 
 ## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Displaying Reports and Amounts in the Additional Reporting Currency
 Using an additional reporting currency can assist the reporting process for a company in the following cases:
@@ -36,7 +37,7 @@ Using an additional reporting currency can assist the reporting process for a co
 Several financial reports are based on G/L entries. To display report data in the additional reporting currency, you simply place a check mark in the **Show Amounts in Add. Reporting Currency** field on the **Options** FastTab for the relevant G/L report.
 
 ## <a name="adjusting-exchange-rates"></a>Adjusting Exchange Rates
-Because exchange rates fluctuate constantly, additional currency equivalents in your system must be adjusted periodically. If these adjustments are not done, amounts that have been converted from foreign (or additional) currencies and posted to the general ledger in LCY may be misleading. In addition, daily entries posted before a daily exchange rate is entered into application must be updated after the daily exchange rate information is entered. The **Adjust Exchange Rates** batch job is used to adjust the exchange rates of posted customer, vendor and bank account entries. It can also update additional reporting currency amounts on G/L entries. For more information, see [Update Currency Exchange Rates](finance-how-update-currencies.md).
+Because exchange rates fluctuate constantly, additional currency equivalents in your system must be adjusted periodically. If these adjustments are not done, amounts that have been converted from foreign (or additional) currencies and posted to the general ledger in LCY may be misleading. In addition, daily entries posted before a daily exchange rate is entered into application must be updated after the daily exchange rate information is entered. The **Adjust Exchange Rates** batch job is used to adjust the exchange rates of posted customer, supplier and bank account entries. It can also update additional reporting currency amounts on G/L entries. For more information, see [Update Currency Exchange Rates](finance-how-update-currencies.md).
 
 ## <a name="setting-up-an-additional-reporting-currency"></a>Setting Up an Additional Reporting Currency
 To set up an additional reporting currency, you must follow these steps:
@@ -48,7 +49,7 @@ To set up an additional reporting currency, you must follow these steps:
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>To specify general ledger accounts for posting exchange rate adjustments  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.  
 2. On the **Currencies** page, fill in the following fields for the additional reporting currency.  
 
 |Field|Description|  
@@ -64,7 +65,7 @@ To set up an additional reporting currency, you must follow these steps:
 For each general ledger account, you must specify how general ledger amounts for that account will be adjusted for exchange rate fluctuations between LCY and the additional reporting currency.  
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>To specify the exchange rate adjustment method for all general ledger accounts  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. On the **Chart of Accounts** page, select the relevant account, and then choose the **Edit** action.  
 3. On the **GL Account Card** page, select the relevant method in the **Exchange Rate Adjustment** field.  
 
@@ -81,7 +82,7 @@ For each general ledger account, you must specify how general ledger amounts for
 4.  Close the **G/L Account Card** page.  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>To specify exchange rate adjustment method for VAT entries  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, select the relevant method in the **VAT Exchange Rate Adjustment** field.  
 3. If you post in an additional reporting currency, you can specify in the **VAT Exchange Rate Adjustment** field how the accounts set up for VAT posting on the **VAT Posting Setup** page will be adjusted for exchange-rate fluctuations between LCY and the additional reporting currency.  
 
@@ -96,7 +97,7 @@ For each general ledger account, you must specify how general ledger amounts for
     |**Adjust Additional-Currency Amount**|The additional reporting currency is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Additional-Currency Amount** field and to the accounts you specified for gains or losses in the **Realized G/L Gains Account** and **Realized G/L Losses Account** fields on the **Currencies** page.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>To activate the additional reporting currency  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, choose the **Additional Reporting Currency** field to select the additional currency that you want to report in.  
 3. When you leave the field, [!INCLUDE[prod_short](includes/prod_short.md)] displays a confirmation message describing the effects of activating the additional reporting currency.  
 4. Choose the **Yes** button to confirm that you want to activate the currency.  
@@ -113,8 +114,8 @@ After running the batch job, amounts on the following existing entries will be i
 - VAT entries  
 - Job ledger entries  
 - Value entries  
-- Production order lines  
-- Production order ledger entries  
+- works order lines  
+- works order ledger entries  
 
 In addition, all future entries of the same type will have amounts recorded in both LCY and the additional reporting currency.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: fb134ce04cb6b53f2432f0f371d7ca82411f0cee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074594"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444025"
 ---
 # <a name="sharing-business-central-records-in-microsoft-teams"></a>Sharing Business Central Records in Microsoft Teams
 
@@ -30,7 +30,7 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 - Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The app will then expand the link into a compact, interactive card that displays information about the record.
 - Once in the conversation, you and coworkers can view more details about the record, edit data, and take action&mdash;without leaving Teams.
 
-[![Teams integration with Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams integration with Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 ## <a name="prerequisites"></a>Prerequisites
 
@@ -49,13 +49,13 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 
 3. Copy the entire URL from the browser's address bar.
 
-   ![Copy Business Central URL from browser](media/teams-url-v2.png)
+   ![Copy Business Central URL from browser.](media/teams-url-v2.png)
 4. Go to Teams and start a conversation, which can be chat with a person, group of persons, or a team channel.
 
     <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
 5. Paste the URL in the message box where you compose a message.
 
-   ![Paste Business Central URL in Teams](media/teams-paste-url-v2.png)
+   ![Paste Business Central URL in Teams.](media/teams-paste-url-v2.png)
 6. The first time you paste a link into a conversation, you'll be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)] and give consent for the app to retrieve data. Just follow the on-screen instructions.
 
     > [!NOTE]
@@ -90,6 +90,8 @@ To learn more about working with cards and card details, see [Teams FAQ](teams-f
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
 [Teams FAQ](teams-faq.md)  
+[Searching for Customers, Suppliers, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md)  
+[Changing Company and Other Settings in Teams](across-teams-settings.md)  
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

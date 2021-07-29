@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 184591134706432ed1ea04afa86e1274b748cfe0
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 7d23dc10ffb215ee2ac160c9ec9b9fd1ddb5cc2d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215510"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442542"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Design Details: Availability in the Warehouse
 The system must keep a constant control of item availability in the warehouse, so that outbound orders can flow efficiently and provide optimal deliveries.  
@@ -47,7 +47,7 @@ If one or more conditions are not met, different error messages can be shown, in
 
  The following diagram shows the different elements of the calculation.  
 
- ![Available to pick with reservation overlap](media/design_details_warehouse_management_availability_2.png "Available to pick with reservation overlap")  
+ ![Available to pick with reservation overlap.](media/design_details_warehouse_management_availability_2.png "Available to pick with reservation overlap")  
 
 ## <a name="quantity-available-to-reserve"></a>Quantity Available to Reserve  
  Because the concepts of bin content and reservation co-exist, the quantity of items that are available to reserve must be aligned with allocations to outbound warehouse documents.  
@@ -72,7 +72,7 @@ If one or more conditions are not met, different error messages can be shown, in
 
  The following diagram shows the different elements of the calculation.  
 
- ![Avaliable to reserve per warehouse allocation](media/design_details_warehouse_management_availability_3.png "Avaliable to reserve per warehouse allocation")  
+ ![Avaliable to reserve per warehouse allocation.](media/design_details_warehouse_management_availability_3.png "Avaliable to reserve per warehouse allocation")  
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)  

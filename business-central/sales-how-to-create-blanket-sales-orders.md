@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f01f79ae67f97f45242f01b46ebc75b603fa7187
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2ac3d45bb7de166a4861e22e1919c9c722602b13
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778454"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442707"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Work with Blanket Sales Orders or Blanket Purchase Orders
 
-A blanket sales order represents a framework for a long-term agreement between you and your customer. Similarly, you use blanket purchase orders to manage long-term agreements between you and your vendor.
+A blanket sales order represents a framework for a long-term agreement between you and your customer. Similarly, you use blanket purchase orders to manage long-term agreements between you and your supplier.
 
 A blanket order is typically made when a customer has committed to purchasing large quantities that are to be delivered in several smaller shipments over a certain period of time. Often blanket orders cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a sales order is that quantities entered on a blanket order do not affect item availability and thus can be used as a worksheet for monitoring, forecasting, and planning purposes.
 
@@ -32,7 +32,7 @@ An example of when a blanket sales order could be used is if a customer calls an
 
 ## <a name="to-create-a-blanket-sales-order"></a>To create a blanket sales order
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Leave the **Order Date** field blank. When the separate sales orders are created from the blanket order, the order date of the sales order is set to equal the actual work date.
@@ -60,19 +60,19 @@ The following applies to sales orders after they have been created from blanket 
 ## <a name="to-view-the-status-of-a-blanket-sales-order"></a>To view the status of a blanket sales order  
 You can see the status of a blanket sales order on the **Blanket Sales Order Statistics** page. This may be relevant when you start to invoice the order that is created from the blanket sales order.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
 2.  Select a blanket sales order, and then choose the **Statistics** action.  
 3.  On the **Blanket Sales Order Statistics** page, on the **General** FastTab, you can see summary information about the entire order based on the total quantity in the various **Quantity fields** on the blanket sales order lines.  
 
 - On the **Invoicing** FastTab, you can see summary information based on the total quantity in the **Qty. to Invoice** fields on the sales blanket order lines.  
 - On the **Shipping** FastTab, you can see summary information based on the total quantity in the **Qty. to Receive** fields on the sales blanket order lines.  
 - On the **Prepayment** FastTab, you can see summary information about any prepaid amounts.  
-- On the **Vendor** FastTab, you can see certain basic information about the vendor.    
+- On the **Supplier** FastTab, you can see certain basic information about the supplier.    
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>To view unposted and posted blanket sales order lines   
 The link between the blanket sales order and the originating sales order, and any other sales document, is retained after posting as a list of posted and unposted sales order invoice lines.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon enter **Blanket Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon enter **Blanket Sales Orders**, and then choose the related link.
 2. Open the blanket sales order you want to view.
 3. To view unposted entries, select the line in question, choose the **Line** action, and then choose the **Unposted Lines** action. Choose one of the following options.  
 

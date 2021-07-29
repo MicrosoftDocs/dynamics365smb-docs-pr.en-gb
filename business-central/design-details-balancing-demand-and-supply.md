@@ -1,6 +1,6 @@
 ---
-title: Design Details - Balancing Demand and Supply | Microsoft Docs
-description: To understand how the planning system works, it is necessary to understand the prioritised goals of the planning system, the most important of which are to ensure that any demand will be met by sufficient supply and any supply serves a purpose.
+title: Design Details - Balancing Demand and Supply
+description: To understand how the planning system works it is necessary to understand the prioritised goals of the planning system achieved by balancing supply with demand.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 05e812ab11a831ac1c2d96d506489527f06142a2
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 8ff08e03196aac03a9e57519f47a37e284e8c9ff
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215535"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442517"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Design Details: Balancing Demand and Supply
 To understand how the planning system works, it is necessary to understand the prioritised goals of the planning system, the most important of which are to ensure that:  
@@ -43,7 +43,7 @@ To understand how the planning system works, it is necessary to understand the p
 
    The objective of the planning mechanism is to counterbalance the demand and supply of an item to ensure that supply will match demand in a feasible way as defined by the planning parameters and rules.  
 
-   ![Overview of supply-demand balancing](media/nav_app_supply_planning_2_balancing.png "Overview of supply-demand balancing")
+   ![Overview of supply-demand balancing.](media/nav_app_supply_planning_2_balancing.png "Overview of supply-demand balancing")
 
 ## <a name="dealing-with-orders-before-the-planning-starting-date"></a>Dealing with Orders Before the Planning Starting Date
 To avoid that a supply plan shows impossible and therefore useless suggestions, the planning system regards the period up until the planning starting date a frozen zone where nothing is planned for. The following rule applies to the frozen zone:  

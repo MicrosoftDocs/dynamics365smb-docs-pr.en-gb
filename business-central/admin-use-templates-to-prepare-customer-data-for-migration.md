@@ -1,6 +1,6 @@
 ---
-title: Prepare Customer Data Migration with Templates | Microsoft Docs
-description: Learn how to use configuration templates to structure existing customer data before you migrate the data to the new company in Business Central.
+title: Prepare Customer Data Migration with Templates
+description: Learn how to use configuration templates to structure existing customer data before you migrate the master data to the new company in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dca94e321e6a244bdea27b16ec4c041bd97e89b7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776998"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443161"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Prepare to Migrate Customer Data with Templates
 
@@ -26,7 +26,7 @@ Typically, you create data templates for the following master data tables:
 - **Contact**  
 - **Customer**  
 - **Item**  
-- **Vendor**  
+- **Supplier**  
 
 However, you can create a template structure for and apply it to any table in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -47,7 +47,7 @@ When you select an existing data template, you must evaluate if the templates th
 > [!TIP]  
 > You can also use data templates to create new records quickly. Use them for faster and more accurate data creation. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates**, and then choose the related link.  
 2. On the **Configuration Templates** page, select a data template from the list, and then choose the **Edit** action.  
 
 If the default templates do not meet your needs, you can create new templates or add fields to an existing template. If the default templates are sufficient, you can use them to create records based on master data templates.
@@ -100,7 +100,7 @@ The table ID, table name, and lines of the existing data template are inserted i
 
 You can create an Excel workbook to serve as a template that is based on the structure of an existing database table quickly. You can then use the template to gather together customer data in a consistent format for later import into [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. Add a table to the list, or select an existing table. For more information, see [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Choose the **Shows Fields** action to define the fields from the table that you want to include in the template.
 4. Choose the **Export to Template** action.
@@ -130,11 +130,11 @@ You can use the structure of data that is contained in the data templates to con
 
 The following steps illustrate how to create an item card from an item data template. You can create a record from any data template using the same procedure.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates**, and then choose the related link.  
 2. Select the **Item** template, and then choose the **Edit** action. For more information, see [To create a data template](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Choose the **Create Instance** action. An item card is created.  
 4. Choose the **OK** button.  
-5. To review the new item card, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+5. To review the new item card, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 6. Open the new item card.  
 7. Expand various FastTabs, and verify that the information was created correctly on them.  
 

@@ -1,6 +1,6 @@
 ---
-title: Entering dates and times in Business Central  | Microsoft Docs
-description: Learn how to enter dates and times including various productivity tips such as shorthand, expressions and ranges. Filter lists or reports down to specific date or time periods.
+title: Entering dates and times in Business Central
+description: Learn how to enter dates and times including various productivity tips such as shorthand, expressions and ranges.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8254afc467474906dd80ae76ba134a0bce88c3a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773537"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443650"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Working with Calendar Dates and Times
 
@@ -48,7 +48,7 @@ To work more productively with dates and times, you can use any of the methods o
 
 Any field displaying a calendar icon can be set using the calendar date picker. To display the calendar date picker, activate the calendar icon or press the Ctrl + Home keyboard shortcut in the field.
 
-![Date fields](media/ui-date-field.png "Example of a date field")
+![Date fields.](media/ui-date-field.png "Example of a date field")
 
 See also [Keyboard Shortcuts in the calendar date picker](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -72,27 +72,25 @@ In a date field you can enter two, four, six, or eight digits:
 
 ### <a name="today"></a>Today
 
-Enter the word for today, in the language set by **Language** setting, that will set the date to the current date. Instead of entering the entire word, you can enter part of the word, starting from the beginning, such as t or tod, as long as it is not also the start of another word.
+Enter the word for _today_, in the language specified on the **My Settings** page, to set the date on a record to today's date. Instead of entering the entire word, you can enter part of the word, starting from the beginning. For example, in English, you can enter _t_ or _tod_, as long as it is not also the start of another word.
 
 ### <a name="period"></a>Period
 
-To filter on a specific accounting period, in a date field enter the letter p, or the word period, followed by a number that identifies the accounting period, like p2 or period4. The accounting period is relative to the fiscal year of the current work date that set in your Role Centre. For example, if the work date is **03/21/22**, then p1, or just p, filters on the first accounting period of the fiscal year 2022 (such as 01/01/22..01/31/22). p15 filters on the fifteenth accounting period from the start of fiscal year 2022 (such as 03/01/23..03/31/23).
+To filter on a specific accounting period, in a date field enter the letter p, or the word period, followed by a number that identifies the accounting period, like p2 or period4. The accounting period is relative to the financial year of the current work date that set in your Role Centre. For example, if the work date is **03/21/22**, then p1, or just p, filters on the first accounting period of the financial year 2022 (such as 01/01/22..01/31/22). p15 filters on the fifteenth accounting period from the start of financial year 2022 (such as 03/01/23..03/31/23).
 
 The accounting periods are defined on the **Accounting Periods** page. To view or change the accounting periods, open the page [here](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="current-work-date"></a>Current work date
+### <a name="work-date"></a>Work Date
 
-The work date feature allows you to record transactions using a date that is different from the current date.
+Use a work date to specify a date that is not today's date on records. For example, a work date is useful when you need to set a particular date for multiple records. You specify the work date on the **My Settings** page. 
 
-The word for 'workdate', in the language set by **Language** setting, will set the date to the currently set work date that is specified on the **My Settings** page. Instead of entering the entire word, you can enter part of the word, starting from the beginning, such as 'w' or 'work'.
+A fast way to enter the work date on records is to enter some or all of the word _work_, starting from the beginning of the word, in the language in which you're using [!INCLUDE[prod_short](includes/prod_long.md)]. For example, in English, you can enter _w_ or _work_. The language is also specified on the **My Settings** page.
 
-If you have not defined a work date, the current date will be used as the work date. You may want to use a work date if you have many transactions with a date other than today's date.
-
-See also [Change Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date).
+If you have not specified a work date, today's date will be used. For more information, see [Change Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Closing Date
 
-When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.
+When you close a financial year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.
 
 To specify that a date is a closing date, put C just before the date, such as C123101. This can be used in combination with all the date patterns.
 
@@ -199,7 +197,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
-![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)
+![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
 
 Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want. To set date ranges, you enter dates and then use either **..** or **|** to set the range. In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.
 Here are a couple of other examples:
@@ -319,11 +317,11 @@ The word for 'time' in the language used by [!INCLUDE[prod_short](includes/prod_
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Entering Duration
-Some fields in the application represent a duration, or amount of elapsed time, instead of a specific date or time. You enter a duration as a number followed by its unit of measure.
+Some fields in the application represent a duration, or amount of elapsed time, instead of a specific date or time. You enter a duration as a number followed by its unit of measurement.
 
 Here are some examples.
 
-|**Duration**|**Unit of measure**|
+|**Duration**|**Unit of measurement**|
 |------------|-------------------|
 |2h|2 hrs|
 |6h 30 m|6 hrs 30 mins|
@@ -332,11 +330,11 @@ Here are some examples.
 |2d 6h 30m|2 days 6 hrs 30 mins|
 |2d 6h 30m 56s 600ms|2 days 6 hrs 30 mins 56 secs 600 msecs|
 
-You can also enter a number, which will be automatically converted to a duration. The number you enter is converted according to the default unit of measure that has been specified for the duration field.
+You can also enter a number, which will be automatically converted to a duration. The number you enter is converted according to the default unit of measurement that has been specified for the duration field.
 
-To see what unit of measure is being used in a duration field, enter a number and see which unit of measure it is converted to.
+To see what unit of measurement is being used in a duration field, enter a number and see which unit of measurement it is converted to.
 
-For example, if the unit of measure is hours, the number 5 is converted to 5 hrs.
+For example, if the unit of measurement is hours, the number 5 is converted to 5 hrs.
 
 ## <a name="see-also"></a>See Also
 [Working with [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  

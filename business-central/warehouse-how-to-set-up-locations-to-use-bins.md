@@ -1,6 +1,6 @@
 ---
-title: How to Set Up Locations to Use Bins | Microsoft Docs
-description: Bins represent the basic warehouse structure and are used to make suggestions about the placement of items. When you have created your bins, you can define very specifically the contents that you want to place in each bin, or the bin can function as a floating bin without specified contents.
+title: How to Set Up Locations to Use Bins
+description: Bins represent the basic warehouse structure and are used to make suggestions about the placement and location of items.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e04ec3be3385b86cfdfb42bffadcdd9730244efc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 29ee70ffa50b018073b8f44a66588df3d822b5cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771633"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442961"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Set Up Locations to Use Bins
 Bins represent the basic warehouse structure and are used to make suggestions about the placement of items. When you have created your bins, you can define very specifically the contents that you want to place in each bin, or the bin can function as a floating bin without specified contents.  
@@ -26,7 +26,7 @@ To use the bin functionality at a location, you first activate the functionality
 >  Before you can specify bin codes on the location card, the bin codes must be created. For more information, see [Create Bins](warehouse-how-to-create-individual-bins.md).  
 
 ## <a name="to-set-up-a-location-to-use-bins"></a>To set up a location to use bins  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Select the location where you want to use bins.  
 3.  Choose the **Edit** action.  
 4.  On the **Warehouse** FastTab, select the **Bin Mandatory** check box.  
@@ -34,18 +34,18 @@ To use the bin functionality at a location, you first activate the functionality
 6.  Open the card for the location that you want to set up bins for.
 7.  On the **Bins** FastTab, select the bins that you want to use as the default for receipts, shipments, inbound, outbound, and open shop floor bins.  
 8.  The bin codes you fill in here will appear automatically on the headers and on the lines of various warehouse documents. The default bins define all starting or ending placements of items in the warehouse.  
-9.  If you are using directed put-away and pick, select a bin for your warehouse adjustments. The bin code in the **Adjustment Bin Code** field defines the virtual bin in which to record discrepancies in inventory when you register either observed differences registered in the warehouse item journal, or differences calculated when you register a warehouse physical inventory.  
+9.  If you are using directed put-away and pick, select a bin for your warehouse adjustments. The bin code in the **Adjustment Bin Code** field defines the virtual bin in which to record discrepancies in stock when you register either observed differences registered in the warehouse item journal, or differences calculated when you register a warehouse physical stock.  
 10. Fill in the fields on the **Bin Policies** FastTab if they are relevant to your warehouse. The most important fields are **Bin Capacity Policy**, **Allow Breakbulk**, and **Put-away Template Code** fields.  
 11. On the **Warehouse** FastTab, fill in the **Outbound Whse. Handling Time**, **Inbound Whse. Handling Time**, and the **Base Calendar Code** fields. For more information, see [Set Up Base Calendars](across-how-to-assign-base-calendars.md).
 
 ## <a name="filling-the-consumption-bin"></a>Filling the Consumption Bin
-This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.
+This flow chart shows how the **Bin Code** field on works order component lines is filled according to your location setup.
 
-![Bin flow chart](media/binflow.png "BinFlow")  
+![Bin flow chart.](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>See Also
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Inventory](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

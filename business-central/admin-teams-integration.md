@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: ad1fd27bf6687993fed82ab418d621520e3439a1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882212"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443213"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Managing Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -35,7 +35,7 @@ This section describes the minimum requirements for the [!INCLUDE [prod_short](i
 
     |What|Teams licence|[!INCLUDE [prod_short](includes/prod_short.md)] licence|
     |----|---|---|
-    |Search for [!INCLUDE [prod_short](includes/prod_short.md)] contacts.|![check mark](media/check.png "cheque")|![check mark](media/check.png "cheque")|
+    |Search for [!INCLUDE [prod_short](includes/prod_short.md)] contacts.|![check mark.](media/check.png "cheque")|![check mark](media/check.png "cheque")|
     |Paste a link to a [!INCLUDE [prod_short](includes/prod_short.md)] record into a conversation, and send it as a card.|![check mark](media/check.png "cheque")|![check mark](media/check.png "cheque")|
     |View a card of a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "cheque")||
     |View more details of card for a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "cheque")|![check mark](media/check.png "cheque")|

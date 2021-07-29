@@ -1,6 +1,6 @@
 ---
-title: Assign Special Document Layouts to Customers or Vendors| Microsoft Docs
-description: When custom report layouts are defined, you can select them from customer and vendor cards to specify that the selected layouts will be used for documents that you crate for the customer or vendor in question.
+title: Assign Customers or Suppliers Document Layouts
+description: When custom report layouts are defined, you can select them from customer and supplier cards to specify they aer used for the customer or supplier in question.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,28 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 086491f30ef0a223e5bf8a559af26b848e54d344
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 29b349824e2aff727cd255e612fa054f1d71610c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773562"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443750"
 ---
-# <a name="define-document-layouts-for-customers-and-vendors"></a>Define Document Layouts for Customers and Vendors
-When custom report layouts are defined, you can select them from customer and vendor cards to specify which layouts will be used for different types of documents that you create for the customer or vendor in question. The value in the **Usage** field, defines which process the document layout will be used for, such as **Reminder**, **Shipment**, and **Confirmation**.
+# <a name="define-document-layouts-for-customers-and-vendors"></a>Define Document Layouts for Customers and Suppliers
+When custom report layouts are defined, you can select them from customer and supplier cards to specify which layouts will be used for different types of documents that you create for the customer or supplier in question. The value in the **Usage** field, defines which process the document layout will be used for, such as **Reminder**, **Shipment**, and **Confirmation**.
 
-In addition to setting up which layouts to use for what document, you can save time when sending documents to different customer or vendor contacts by setting up specific contacts' email addresses to use with specific documents. For example, customer statements will be sent to accountant contacts, sales orders to your customers' purchasers, and purchase orders to vendors' salespeople or account managers.
+In addition to setting up which layouts to use for what document, you can save time when sending documents to different customer or supplier contacts by setting up specific contacts' email addresses to use with specific documents. For example, customer statements will be sent to accountant contacts, sales orders to your customers' purchasers, and purchase orders to suppliers' salespeople or account managers.
 
-When you define a document layout for a customer or vendor, you can also specify the email address of the contact person that must receive the document. You can quickly do this with the **Select Email from Contacts** function, which automatically filters to contact email addresses registered for the customer or vendor in question.
+When you define a document layout for a customer or supplier, you can also specify the email address of the contact person that must receive the document. You can quickly do this with the **Select Email from Contacts** function, which automatically filters to contact email addresses registered for the customer or supplier in question.
 
 Before you can define which document layout to use for which processes, and which contact to send the document to, you must load all the available reports (documents) from the **Report Selections** page. You can quickly do this with the **Copy from Report Selection** function.
 
-The following describes how to define sales document layouts from a customer card. The steps are the same for purchase document layouts from a vendor card.
+The following describes how to define sales document layouts from a customer card. The steps are the same for purchase document layouts from a supplier card.
 
 ## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>To enable all available sales documents for a customer
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the card of the customer for whom you want to define document layouts per business process.
 3. On the **Customer Card** page, choose the **Document Layouts** page.
 4. On the **Document Layouts** page, choose the **Copy from Report Selection** action.
@@ -47,7 +47,7 @@ If one or more of the report layouts that are defined in the **Document Layouts*
 2. On the **Custom Report Layouts** page, select the special document layout that you want to use for the sales document type in question. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
 ## <a name="to-set-up-which-contact-receives-which-document-layout-for-a-customer"></a>To set up which contact receives which document layout for a customer
-You can save time when sending documents to different customers or vendor contacts by specifying contact email addresses on the different lines on the **Document Layouts** page. For example, customer statements can be sent to accountant contacts, sales orders to your customers' purchasers, and purchase orders to vendors' salespeople or account managers.
+You can save time when sending documents to different customers or supplier contacts by specifying contact email addresses on the different lines on the **Document Layouts** page. For example, customer statements can be sent to accountant contacts, sales orders to your customers' purchasers, and purchase orders to suppliers' salespeople or account managers.
 
 1. On the **Document Layouts** page, on the line for a report layout that you want to send to a specific contact for the customer, choose the **Select Email from Contacts** action.
 2. On the **Contacts** page, select the line for the relevant contact, and then choose the **OK** button.
