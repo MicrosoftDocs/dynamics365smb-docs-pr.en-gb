@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17c9c5202f7a7f7dae6a9eee14109c608db14c46
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 309d41995ae88332808e363f8a6838a40ee6a679
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786305"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445708"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Manage the Intercompany Inbox and Outbox
 All of the intercompany transactions that you receive electronically from your intercompany partners are listed in the intercompany Inbox.  
@@ -47,7 +47,7 @@ You can use the **Show Transaction Source** field to filter the **Intercompany I
  If you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re-create the inbox entry and accept it again.  
 
 ## <a name="getting-an-overview-of-intercompany-transactions-for-a-period"></a>Getting an Overview of Intercompany Transactions for a Period  
- You can get an overview of all of the intercompany transactions that you have sent and received in a period. The **Intercompany Transactions** report lists all intercompany G/L entries, customer ledger entries, and vendor ledger entries.
+ You can get an overview of all of the intercompany transactions that you have sent and received in a period. The **Intercompany Transactions** report lists all intercompany G/L entries, customer ledger entries, and supplier ledger entries.
 
  > [!NOTE]  
  > If the intercompany partners are in the same database, then transactions are transferred without the need for file or email. See the **Transfer Type** field on the **Intercompany Partner** page. <br /><br />
@@ -56,9 +56,9 @@ In that case, you can set the system up to bypass the inbox and outbox by select
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>To import intercompany transactions from a file  
 If you have an intercompany partner that is not in the same database as your company, you can receive intercompany transactions from that partner in an .xml file. Then you must import the transactions into your inbox.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** , and then choose the related link.
 2. Save the file to the location that you specified in the **Intercompany Inbox Details** field on the **Company Information** page.  
-3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Inbox Transactions**, and then choose the related link.
+3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Inbox Transactions**, and then choose the related link.
 4. On the **Intercompany Inbox Transactions** page, choose the **Import Transaction File** action.  
 5. on the page that appears, select the .xml file that contains the transactions, and then choose the **Open** button.  
 
@@ -67,7 +67,7 @@ The transactions are imported into the inbox and you can now process them.
 ## <a name="to-process-incoming-intercompany-transactions"></a>To process incoming intercompany transactions  
 When your intercompany partners send you intercompany transactions, the transactions end up in your intercompany inbox. You must evaluate each transaction in your inbox and act upon it.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Inbox Transactions**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Inbox Transactions**, and then choose the related link.  
 2. On the **Intercompany Inbox Transactions** page, select a line, and then choose an action, such as **Accept**, to process the line.
 3. On the **Complete IC Inbox Action** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **OK** button.  
@@ -81,7 +81,7 @@ For lines that you processed with the **Returned by Partner** action, you must n
 ## <a name="to-process-outgoing-intercompany-transactions"></a>To process outgoing intercompany transactions  
 When you post an intercompany journal or document, or send an intercompany order confirmation, the transactions are sent to your intercompany outbox. In order for them to be sent on to your intercompany partners, you must open the outbox and process them.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Outbox Transactions**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Outbox Transactions**, and then choose the related link.  
 2. On the **Intercompany Outbox Transactions** page, select a line, and then choose an action, such as **Return to Inbox**, to process the line.
 
 Lines that you processed with the **Send to Intercompany Partner** action will be sent to the relevant partner's inbox.
@@ -95,7 +95,7 @@ Occasionally, you may want to re-create a transaction in the inbox or outbox. Fo
 
 The following procedure describes to re-create inbox transactions, but the same steps also apply to the outbox.
 
-  1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Handled IC Inbox Transactions**, and then choose the related link.  
+  1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Handled IC Inbox Transactions**, and then choose the related link.  
 
   2.  On the **Handled IC Inbox Transactions** page, select the line with the transaction that you want to re-create in the inbox, and then choose the **Re-create Inbox Transaction** action.  
 

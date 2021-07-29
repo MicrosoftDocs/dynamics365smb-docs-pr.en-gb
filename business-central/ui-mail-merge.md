@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 84b6a9fa74cea99f8b939edcf0cd883e39eb6937
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110961"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445979"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Using Word Templates for Bulk Communication
 Microsoft Word templates can make it easier to mass communicate with entities such as customers and suppliers. For example, you can create brochures to alert customers about a sales campaign, letters to inform suppliers about a new purchasing policy, or invitations to attract contacts to an upcoming event.
@@ -38,7 +38,7 @@ When you are setting up the template in Word, on the **Mailings** tab you can ad
 When your Word template is ready, on the **Word Templates** page you can choose **Apply** to generate the documents. You can either create one document that contains sections for each entity, or split the operation to create a new document for each entity.
 
 ## <a name="to-create-a-word-template"></a>To create a Word template
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Word Templates**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Word Templates**, and then choose the related link.
 2. Follow the steps in the assisted setup guide. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>See Also

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6a5d435243b6912ddac449fd55aa4c2bce3f291
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783405"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445929"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Switching to Another Company or Environment
 
@@ -23,7 +23,7 @@ ms.locfileid: "5783405"
 
 ## <a name="switch-to-another-environment"></a>Switch to Another Environment
 
-When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Dynamics 365 Home page. You can open the page by choosing the **App Launcher** icon ![App Launcher](media/app-launcher-icon.png "The App Launcher provides access to more features") and choosing **Dynamics 365**. To go to your default company in that environment, choose the tile. There will be one tile for each type of environment. If you have more than one environment of a certain type, when you choose the tile you can choose the environment to access.
+When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Dynamics 365 Home page. You can open the page by choosing the **App Launcher** icon ![App Launcher.](media/app-launcher-icon.png "The App Launcher provides access to more features") and choosing **Dynamics 365**. To go to your default company in that environment, choose the tile. There will be one tile for each type of environment. If you have more than one environment of a certain type, when you choose the tile you can choose the environment to access.
 
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.
 
@@ -33,7 +33,7 @@ The following image shows tiles for accessing production and sandbox environment
 
 When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], you can quickly switch to another company. After you make the switch, the company you choose becomes your default company and will display the next time you sign in.
 
-1. In the top-right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre"), and then choose the **My Settings** action.
+1. In the top-right corner, choose the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role centre"), and then choose the **My Settings** action.
 
     > [!TIP]
     > You can also use the Alt+T keyboard shortcut to quickly open the My Settings page.

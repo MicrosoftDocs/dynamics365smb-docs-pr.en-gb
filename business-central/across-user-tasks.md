@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 71e9c93eede8b39561dc78ff61732273003ce8de
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6c1e9a1e296abab8a77e47564eb70e97bfa7d57e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786989"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446422"
 ---
 # <a name="define-user-tasks"></a>Define User Tasks
 
@@ -27,7 +27,7 @@ The **User Tasks** page shows all tasks, and you can easily create and assign ne
 
 For example, you can create a task for yourself or a coworker to view all posted sales invoices. In that case, you link the task to page 143, **Posted Sales Invoices**. In the following screenshot, someone is creating a task for MeganB to review the posted sales invoices.  
 
-:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Example of a user task":::
+:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Example of a user task.":::
 
 > [!TIP]  
 > Use the look-up in the **Page** field and then use the **Search** field to find the page that you want.  

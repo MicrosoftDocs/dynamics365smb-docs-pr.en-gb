@@ -165,6 +165,7 @@
 #### [Set Up General Fixed Assets Information](fa-how-setup-general.md)
 #### [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)
 #### [Define Depreciation Methods](fa-depreciation-methods.md)
+#### [Set Up User-Defined Depreciation Methods](fa-how-setup-user-defined-depreciation-method.md)
 #### [Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
 #### [Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ### Setting Up Warehouse Management
@@ -265,10 +266,10 @@
 ##### Administrator
 ###### [Integration Overview](admin-powerbi-overview.md)
 ###### [Enabling Power BI Integration](admin-powerbi-setup.md)
-##### Designer
+##### Report Creator
 ###### [Getting Started Building Reports](across-how-use-financials-data-source-powerbi.md)
 ###### [Creating Reports for Displaying List Data](across-how-use-powerbi-reports-factbox.md)
-##### Consumer
+##### Business User
 ###### [Working with Power BI Reports in Business Central](across-working-with-powerbi.md)
 ###### [Working with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Using the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
@@ -449,6 +450,7 @@
 ### [Financial Reports](finance-reports.md)
 ### Managing Receivables
 #### [Receivables Overview](receivables-manage-receivables.md)
+#### [Sales Ledger Reports and Analytics](receivables-reports.md)
 #### Applying Payments Automatically and Reconciling Bank Accounts
 ##### [Payment Application Overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)
@@ -466,6 +468,7 @@
 
 ### Managing Payables
 #### [Payables Overview](payables-manage-payables.md)
+#### [Purchase Ledger Reports and Analytics](payables-reports.md)
 #### Making Payments
 ##### [Making Payments](payables-make-payments.md)
 ##### [Working with General Journals](ui-work-general-journals.md)
@@ -664,6 +667,7 @@
 
 ## Fixed Assets
 ### [Fixed Assets Overview](fa-manage.md)
+### [Fixed Assets Reports and Analytics](fa-reports.md)
 ### [Acquire Fixed Assets](fa-how-acquire.md)
 ### [Maintain Fixed Assets](fa-how-maintain.md)
 ### [Insure Fixed Assets](fa-how-insure.md)
@@ -893,15 +897,8 @@
 ##### [Set Up Suppliers for Automatic Payment Suggestions](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Create Payment Journal Templates and Batches](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Test Electronic Payments](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Print Payment Files](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [Activate SEPA Payments](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
-##### [File Non-Euro SEPA Payments](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
+##### [Export Payment Files](LocalFunctionality/Belgium/how-to-print-payment-files.md)
 ##### [Direct Debit Using Domiciliation](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
-##### [Set Up Domiciliations](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
-##### [Edit and Delete Domiciliation Lines](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
-##### [Test Domiciliations](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
-##### [Export and Post Domiciliations](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
-##### [Generate Domiciliation Suggestions](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 ##### [CODA Bank Statements](LocalFunctionality/Belgium/coda-bank-statements.md)
 ##### [Apply CODA Statements](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 ##### [Automatically Transfer and Post CODA Statements](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
@@ -1002,16 +999,14 @@
 ##### [Export General Ledger Entries to an XML File](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Requirements for Reporting Declaration of Trade in Goods](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
 #### Banking & Payments
+##### [Payment Management](LocalFunctionality/France/payment-management.md)
 ##### [Set Up Payment Addresses](LocalFunctionality/France/how-to-set-up-payment-addresses.md)
-##### [Set Up Payment Statuses](LocalFunctionality/France/how-to-set-up-payment-statuses.md)
-##### [Set Up Payment Steps](LocalFunctionality/France/how-to-set-up-payment-steps.md)
 ##### [Set Up Payment Classes](LocalFunctionality/France/how-to-set-up-payment-classes.md)
-##### [Archive Payment Slips](LocalFunctionality/France/how-to-archive-payment-slips.md)
 ##### [Create Payment Slips](LocalFunctionality/France/how-to-create-payment-slips.md)
 ##### [Export Payments](LocalFunctionality/France/how-to-export-payments.md)
-##### [Export or Import Payment Management Setup Parameters](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
-##### [Payment Management](LocalFunctionality/France/payment-management.md)
 ##### [Post Payment Slips](LocalFunctionality/France/how-to-post-payment-slips.md)
+##### [Archive Payment Slips](LocalFunctionality/France/how-to-archive-payment-slips.md)
+##### [Export or Import Payment Management Setup Parameters](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
 #### Core Finance
 ##### [General Ledger](LocalFunctionality/France/general-ledger.md)
 ##### [Apply General Ledger Entries](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
@@ -1554,6 +1549,7 @@
 #### General
 ##### [Set Up a Posting Date Warning](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ##### [Enter Statutory Information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
+##### [Send Fraud Prevention Data](LocalFunctionality/UnitedKingdom/fraud-prevention-data.md)
 ##### [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 
@@ -1577,7 +1573,7 @@
 ## Security and Protection
 ### [Security and Protection Overview (in English only)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Privacy
-### [Privacy (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
+### [Privacy (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
 ## Compliance
 ### [Compliance Overview](compliance/compliance-overview.md)
 ### [Application Compliance](compliance/compliance-application-compliance.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7e47e33c0a3e8907cc68243d1688fc0c48d67c07
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca04192ef31e281e7d3e07e2f1823079e1f89151
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783466"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446197"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Set Up Unrealised VAT for Cash-Based Accounting
 If you are using cash-based accounting methods, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to handle unrealised VAT.
@@ -24,9 +24,9 @@ If you are using cash-based accounting methods, you can set up [!INCLUDE[prod_sh
 You can choose to have VAT amounts calculated and posted to a temporary general ledger account when an invoice is posted, and then posted to the correct general ledger account and included in VAT statements when the actual payment of the invoice is posted. Before you can do this, you must complete the VAT posting setup.
 
 To use accounts for unrealised VAT, follow these steps:
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, and enter **General Ledger Setup**.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, and enter **General Ledger Setup**.
 2. On the **General Ledger Setup** page, select the **Unrealised VAT** check box.
-3. Choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do"), and enter **VAT Posting Setup**.
+3. Choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), and enter **VAT Posting Setup**.
 4. On the **VAT Posting Setup** page, choose the VAT posting group, and then choose the **Edit** action.
 5. In the **Unrealized VAT Type** field, choose an option to specify how to allocate payments to the invoice amount (excluding VAT) and the VAT amount itself, and how to transfer VAT amounts from the unrealized VAT account to the realized account. The following table describes the options.
 

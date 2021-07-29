@@ -1,6 +1,6 @@
 ---
-title: Setting up Cash Flow Analysis| Microsoft Docs
-description: Set up the charts on the Accounts Role Centre to help analyse the flow of money in your business, including expenses and income, liquidity, and cash receipts minus cash payments.
+title: Setting up Cash Flow Analysis
+description: Use Accounts Role Centre charts to analyse the flow of money in your business, including expenses and income, liquidity, and cash receipts minus cash payments.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: e197155f272d4435f838fbc67fb336f339c1a290
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 919c5cc5781f0f93fbfb79b9e306e42180eb6968
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783679"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446297"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setting Up Cash Flow Analysis
 If you want some help to decide what to do with your cash, have a look at the charts on the Accountant Role Centre:  
@@ -44,7 +44,7 @@ The **Cash Cycle** and **Income & Expense** charts are ready to go, based on the
 
 **Note** It's a good idea to keep the calculations that are provided for the account schedule.  
 
-Enter accounts in the **Totaling** field for **Total Revenue**, **Total Receivables**, **Total Payables**, and **Total Inventory**. To map to a range of accounts, or more than one specific account, enter the account numbers separated by ".." or by a vertical bar, respectively. For example, **1111..4444** or **2222|3333|5555**.  
+Enter accounts in the **Totalling** field for **Total Revenue**, **Total Receivables**, **Total Payables**, and **Total Stock**. To map to a range of accounts, or more than one specific account, enter the account numbers separated by ".." or by a vertical bar, respectively. For example, **1111..4444** or **2222|3333|5555**.  
 
 **Tip** Verify your mapping by choosing the **Overview** action.  
 
@@ -70,14 +70,14 @@ To use the assisted setup guide:
 
 1. In the Accountant Role Center, under the **Cash Flow Forecast** chart, choose the **Open Assisted Setup** action.  
 2. Fill in the fields in each step of the guide.  
-3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Forecast**, and then choose the related link.
+3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Forecast**, and then choose the related link.
 4. On the **Cash Flow Forecast** page, choose the **Recalculate Forecast** action.  
 
 To use a manual process:  
 
 1. In the Accountant Role Centre, search for **Cash Flow Setup**, and then choose the related link.  
 2. Expand the **Azure AI** FastTab, and then choose the **Azure AI Enabled** check box.  
-3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Forecast**, and then choose the related link.
+3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Forecast**, and then choose the related link.
 4. On the **Cash Flow Forecast** page, choose the **Recalculate Forecast** action.  
 
 > [!TIP]  
@@ -102,7 +102,7 @@ To make predictions about future revenue and expenses, web services require hist
 Before using the predictive web-service [!INCLUDE[prod_short](includes/prod_short.md)] compresses transactions by **Due Date** based on the value in the **Period Type** field on the **Cash Flow Setup** page.
 
 #### <a name="payables"></a>Payables:
-**Due Date**, **Amount (LCY)** fields on the **Vendor Ledger Entries** page, where:
+**Due Date**, **Amount (LCY)** fields on the **Supplier Ledger Entries** page, where:
 - The document type is "Invoice" or "Credit Memo."
 - The due date is between date that is calculated based on values in the **Historical Periods** and **Period Type** fields on the **Cash Flow Setup** page and the work date.
 
@@ -123,7 +123,7 @@ You can also create your own predictive web service based on a public model name
 3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
 4. Run the model, and publish it as a web service.  
 5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
-6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Setup**, and then choose the related link.  
+6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Setup**, and then choose the related link.  
 7. Expand the **Azure AI** FastTab, and then fill in the fields.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)

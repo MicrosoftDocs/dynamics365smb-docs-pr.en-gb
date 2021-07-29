@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3822566d239d6fda0cc314a3c9f20ac909943886
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 74c984d1abdd78f4d8af1364b3c8d285297a1cdd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115847"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445508"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Record Purchases with Purchase Invoices
 
@@ -49,7 +49,7 @@ You can fill supplier fields on the purchase invoice in two ways depending on wh
 
 The following describes how to create a purchase invoice. The steps are similar for a purchase order. The main difference is that purchase orders have additional fields and actions for physical handling of items.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. In the **Supplier** field, enter the name of an existing supplier.
 
     Other fields on the **Purchase Invoice** page are now filled with the standard information of the selected supplier. If the supplier is not registered, then follow these steps:

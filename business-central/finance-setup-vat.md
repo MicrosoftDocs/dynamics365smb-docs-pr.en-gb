@@ -1,6 +1,6 @@
 ---
 title: Set Up Value-Added Tax
-description: Make sure that you correctly calculate, post, and report on VAT for sales and purchases.
+description: Make sure that you correctly calculate, post, and report on VAT for sales and purchases. We recommend that you use the assisted setup guide to set up VAT.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 36714bb2e211c72bf2d953b7c64b9ea58e11f6e7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d0cea6be92becb3d44507687954f59fcdc6d5de3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770820"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446172"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Set Up Calculations and Posting Methods for Value-Added Tax
 
@@ -39,7 +39,7 @@ We recommend that you use the VAT Setup assisted setup guide to set up VAT in [!
 
 To start the assisted setup guide, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**.  
 2. Choose **Set up VAT** and complete the steps.
 3. When you have completed the assisted setup, visit the **VAT Posting Setup** page and check if you have to fill in additional fields according to the local requirements in your version pf [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Local functionality in Business Central](about-localization.md)  
 
@@ -49,7 +49,7 @@ To help ensure that people enter valid VAT registration numbers, you can define 
 
 To setup VAT registration numbers, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Countries/Regions**.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Countries/Regions**.
 2. Choose the country or region, and then choose the **VAT Reg. No. Formats** action.
 3. In the **Formats** field, define the format by entering one or more of the following characters:  
 
@@ -61,16 +61,16 @@ To setup VAT registration numbers, follow these steps:
     > You can use other characters as long as they are always present in the country or region format. For example, if you need to include a period or a hyphen between sets of numbers, you can define the format as ##.####.### or @@-###-###.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>To set up VAT business posting groups
-VAT business posting groups should represent the markets in which you do business with customers and vendors, and define how to calculate and post VAT in each market. Examples of VAT business posting groups are **Domestic** and **European Union (EU)**.  
+VAT business posting groups should represent the markets in which you do business with customers and suppliers, and define how to calculate and post VAT in each market. Examples of VAT business posting groups are **Domestic** and **European Union (EU)**.  
 
 Use codes that are easy to remember and describe the business posting group, such as **EU**, **Non-EU**, or **Domestic**. The code must be unique. You can set up as many codes as you need, but you cannot have the same code more than once in a table.
 
 To set up a VAT business posting group, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Business Posting Group**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Business Posting Group**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
-You set up default VAT business posting groups by linking them to general business posting groups. [!INCLUDE[prod_short](includes/prod_short.md)] automatically assigns the VAT business posting group when you assign the business posting group to a customer, vendor, or general ledger account.
+You set up default VAT business posting groups by linking them to general business posting groups. [!INCLUDE[prod_short](includes/prod_short.md)] automatically assigns the VAT business posting group when you assign the business posting group to a customer, supplier, or general ledger account.
 
 ## <a name="to-set-up-vat-product-posting-groups"></a>To set up VAT product posting groups
 VAT product posting groups represent the items and resources you buy or sell, and determine how to calculate and post VAT according to the type of item or resource that is being bought or sold.  
@@ -78,7 +78,7 @@ It is a good idea to use codes that are easy to remember and describe the rate, 
 
 To set up a VAT business posting group, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Product Posting Groups**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Product Posting Groups**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>To combine VAT posting groups in VAT posting setups
@@ -88,33 +88,33 @@ Set up as many combinations as you need. If you want to group VAT posting setup 
 
 To combine VAT posting setups, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.
 2. Fill in the fields as necessary.
 
 ## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>To assign VAT posting groups by default to multiple entities
 If you want to apply the same VAT posting groups to multiple entities, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to do so by default. There are a couple of ways to do this:
 
-* You can assign VAT business posting groups to general business posting groups, or customer or vendor templates
+* You can assign VAT business posting groups to general business posting groups, or customer or supplier templates
 * You can assign VAT product posting groups on general product posting groups  
 
-The VAT business or product posting group is assigned when you choose a business or product posting group for a customer, vendor, item, or resource.
+The VAT business or product posting group is assigned when you choose a business or product posting group for a customer, supplier, item, or resource.
 
-## <a name="assigning-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Assigning VAT Posting Groups to Accounts, Customers, Vendors, Items, and Resources
+## <a name="assigning-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Assigning VAT Posting Groups to Accounts, Customers, Suppliers, Items, and Resources
 The following sections describe how to assign VAT posting groups to individual entities.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>To assign VAT posting groups to individual general ledger accounts
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. Open the **G/L Account** card for the account.  
 3. On the **Posting** FastTab, in the **Gen. Posting Type** field, choose either **Sale** or **Purchase**.  
 5. Choose the VAT posting groups to use for the sales or purchase account.  
 
-### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>To assign VAT business posting groups to customers and vendors  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.  
-2. On the **Customer** or **Vendor** card, expand the **Invoicing** FastTab.  
+### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>To assign VAT business posting groups to customers and suppliers  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Supplier**, and then choose the related link.  
+2. On the **Customer** or **Supplier** card, expand the **Invoicing** FastTab.  
 3. Choose the VAT business posting group.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>To assign VAT product posting groups to individual items and resources  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item** or **Resource**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item** or **Resource**, and then choose the related link.  
 2. Do one of the following:  
 
 * On the **Item** card, expand the **Price & Posting** FastTab, and then choose **Show more** to display the **VAT Product Posting Group** field.  
@@ -131,7 +131,7 @@ When non-standard VAT rates are used in different types of documents, such as in
 You can modify or delete a VAT clause, and your modifications will be reflected in a generated report. However, [!INCLUDE[prod_short](includes/prod_short.md)] does not keep a history of the change. On the report, the VAT clause descriptions are printed and displayed for all lines in the report alongside the VAT amount and the VAT base amount. If a VAT clause has not been defined for any lines on the sales document, then the whole section is omitted when the report is printed.
 
 ### <a name="to-set-up-vat-clauses"></a>To set up VAT clauses
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Clauses**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Clauses**, and then choose the related link.  
 2. On the **VAT Clauses** page, create a new line.  
 3. In the **Code** field, enter an identifier for the clause. You use this code to assign the clause to VAT posting groups.  
 4. In the **Description** field, enter the VAT exemption text that you want to display on documents that can include VAT. In the **Description 2** field, enter additional text, if needed. The text will be displayed on new document lines.
@@ -141,11 +141,11 @@ You can modify or delete a VAT clause, and your modifications will be reflected 
 8. Optional: To specify how to translate the VAT clause, choose the **Translations** action.
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>To assign a VAT clause to a VAT posting setup
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
 2. In the **VAT Clause** column, choose the clause to use for each VAT posting setup it applies to.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>To specify translations for VAT clauses
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Clauses**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Clauses**, and then choose the related link.  
 2. Choose the **Translations** action.  
 3. In the **Language Code** field, choose the language you are translating to.  
 4. In the **Description** and **Description 2** fields, enter the translations of the descriptions. This text displays in the translated VAT report documents.  
@@ -154,9 +154,9 @@ You can modify or delete a VAT clause, and your modifications will be reflected 
 You use the Import VAT feature when you need to post a document where the entire amount is VAT. You will use this if you receive an invoice from the tax authorities for VAT for imported goods.  
 
 To set up codes for import VAT, follow these steps:  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Product Posting Groups**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Product Posting Groups**, and then choose the related link.  
 2. On the VAT Product Posting Groups page, set up a new VAT product posting group for import VAT.  
-3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
+3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
 4. On the VAT Posting Setup page, create a new line, or use an existing VAT business posting groups in combination with the new VAT product posting group for import VAT.  
 5. In the **VAT Calculation Type** field, choose **Full VAT**.  
 6. In the **Purchase VAT Account** field, enter the general ledger account to use for posting import VAT. All other accounts are optional.  

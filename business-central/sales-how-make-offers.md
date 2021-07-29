@@ -1,6 +1,6 @@
 ---
-title: Make a Sales Offer to a Customer
-description: Describes how to create a sales offer or a request for proposal (RFQ) document to record your offer to a customer to sell products under certain terms.
+title: Make Sales Quotes
+description: Read about how to create a sales offer or a request for proposal (RFQ) document to record your offer to a customer or prospect to sell products under certain terms.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,36 +8,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 05/27/2021
+ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a538b7099521b10227bf5aeaefad0a9c60971068
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: a3a35738bc15e401edbd0fd3bf02ef50ff015520
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115547"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543127"
 ---
 # <a name="make-sales-quotes"></a>Make Sales Quotes
 
-You create a sales quote to record your offer to a customer to sell certain products on certain delivery and payment terms. You can send the sales quote to the customer to communicate the offer. You can email the document as a PDF attachment. You can also have the email body prefilled with a summary of the quote. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
+You create a sales quote to record your offer to a customer or a prospect to sell certain products on certain delivery and payment terms. You can send the sales quote to the customer to communicate the offer. You can email the document as a PDF attachment. You can also have the email body prefilled with a summary of the quote. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 
-While you negotiate with the customer, you can change and resend the sales quote as much as needed. When the customer accepts the quote, you convert the sales quote to a sales invoice or a sales order in which you process the sale. For more information, see [Invoice Sales](sales-how-invoice-sales.md) or [Sell Products](sales-how-sell-products.md).
+While you negotiate with the customer or prospect, you can change and resend the sales quote as much as needed. When the customer accepts the quote, you convert the sales quote to a sales invoice or a sales order in which you process the sale. For more information, see [Invoice Sales](sales-how-invoice-sales.md) or [Sell Products](sales-how-sell-products.md).
 
-You can fill customer fields on the sales quote in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
+In most cases, you send sales quotes to prospective customers. You often have a contact person that you negotiate with. If they then accept your offer, you turn the sales quote into an order and register the prospect as a customer in [!INCLUDE [prod_short](includes/prod_short.md)]. In the following procedure, we focus on contacts, but you can also send quotes to existing customers.  
 
 ## <a name="to-create-a-sales-quote"></a>To create a sales quote
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quotes**, and then choose the related link.
-2. In the **Customer** field, enter the name of an existing customer.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quotes**, and then choose the related link.
+2. Specify the contact or customer that you want to send the sales quote to.
 
-   Other fields on the **Sales Quote** page contain standard information of the selected customer.  
+    - If the sales quote is for an existing contact, then specify the name in the **Contact No.** field.  
 
-    [!INCLUDE [sales-create-customer](includes/sales-create-customer.md)]
+        If the sales quote is for an existing customer, specify the customer in the **Customer** field.
+    - If the contact is not registered, follow these steps:
 
-    Several fields on the sales quote are now filled with information that you specified on the new customer card.  
+        1. In the **Contact No.** field, choose the edit button :::image type="icon" source="media/assist-edit-icon.png" border="false":::.
+        2. In the dialogue box about selecting the contact, choose the **New** action, and then fill in the relevant fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] For more information, see [Create Contacts](marketing-create-contact-companies.md).  
+        3. When you have completed the contact card, select the newly created contact in the list of contacts, and then choose the OK button to return to the sales quote.
+
+        Several fields on the sales quote are now filled with information that you specified on the new contact card.
+
+        > [!NOTE]
+        > To correctly calculate taxes and prices for a quote, you must choose the relevant customer template in the **Customer Template Code** field. The template will be used to convert the contact to a customer once the quote is converted to a sales order or invoice.
+    -  If the quote is for new customer, you must add the customer. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
+
 3. Fill in the remaining fields on the **Sales Quote** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.  
+    You are now ready to fill in the sales lines for products that you are selling or for any transaction with the customer or prospect that you want to record in a G/L account.  
 
     If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.  
 
@@ -59,7 +69,7 @@ You can fill customer fields on the sales quote in two ways depending on whether
 7. If you want to give a discount, enter a percentage in the **Line Discount %** field. The value in the **Line Amount** field updates accordingly.  
 
     If special item prices are set up on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, the price and amount on the sales line automatically update if the price criteria is met. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
-8. Repeat steps 4 through 7 for every product you want to offer the customer.
+8. Repeat steps 4 through 7 for every product you want to offer the contact.
 
     The totals under the lines are automatically calculated as you create or modify lines.  
 9. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
@@ -71,9 +81,18 @@ You can fill customer fields on the sales quote in two ways depending on whether
 
 10. When the sales quote lines are completed, choose the **Send by Email** action.
 11. On the **Send Email** page, fill in any remaining fields and review the embedded sales quote. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
-12. If the customer accepts the quote, choose the **Make Invoice** or the **Make Order** action.
+12. If the contact accepts the quote, choose the **Make Order** action.  
 
-The sales quote is removed from the database. A sales invoice or a sales order is created based on the information in the sales quote in which you can process the sale. In the **Quote No.** field on the sales invoice or sales order, you can see the number of the sales quote that it was made from. For more information, see [Invoice Sales](sales-how-invoice-sales.md) or [Sell Products](sales-how-sell-products.md).  
+    Alternatively, if your organisation prefers that process, choose the **Make Invoice** action.  
+    > [!NOTE]
+    > If you added a customer in step 2, you'll be asked to confirm the conversion of the quote to an order.  
+    >
+    > If you added a contact from a prospective customer in step 2, you'll be asked to take the following steps:
+    >
+    >  - Convert the contact or prospect to a customer by choosing one of contact conversion templates. For more information, see [To create a customer, supplier, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+    > - Confirm the conversion of the quote to an order.
+
+The conversion removes the sales quote from the database. A sales invoice or a sales order is created based on the information in the sales quote so that you can process the sale. In the **Quote No.** field on the sales invoice or sales order, you can see the number of the sales quote that it was made from. For more information, see [Invoice Sales](sales-how-invoice-sales.md) or [Sell Products](sales-how-sell-products.md).  
 
 ## <a name="external-document-number"></a>External document number
 
@@ -84,6 +103,7 @@ The sales quote is removed from the database. A sales invoice or a sales order i
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
+[Archive Documents](across-how-to-archive-documents.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

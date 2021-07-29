@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074694"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446472"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central and Microsoft Teams Integration
 
@@ -33,11 +33,11 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams offers the fol
 
 No matter where you are in Teams, you can look up details about customers, suppliers, and other [!INCLUDE [prod_short](includes/prod_short.md)] contacts. This feature not only lets you view general information about contacts, but also gives access to interaction history, related documents, and more.
 
- [![Look up Business Central contacts from Teams command box](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Look up Business Central contacts from Teams command box.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
 You can also share contact details in a conversation. From there, participants have access to even more details about the contact as well.
 
- [![Look up Business Central contacts from Teams compose box](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Look up Business Central contacts from Teams compose box.](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 For more information, see [Searching for Contacts from Microsoft Teams](across-search-contacts-teams.md).
 
@@ -45,7 +45,7 @@ For more information, see [Searching for Contacts from Microsoft Teams](across-s
 
 Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The app will then expand the link into a compact, interactive card that displays information about the record.
 
-[![Teams integration with Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams integration with Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
 
@@ -68,6 +68,7 @@ For more information, see [Share Records in Microsoft Teams](across-working-with
 
 [Teams FAQ](teams-faq.md)  
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
+[Changing Company and Other Settings in Teams](across-teams-settings.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

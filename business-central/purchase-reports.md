@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 5fc64db4120b80203f99742ed3ed834b23370c47
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3f818e556b2ebe3f50189b0057f1302a5598d904
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216413"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543177"
 ---
 # <a name="purchase-reports-and-analytics-in-business-central"></a>Purchase Reports and Analytics in Business Central
 
@@ -24,8 +24,7 @@ The following table describes some of the key reports in purchase reporting.
 
 |Report |Object ID|Description  |
 |---------|---------|---------|
-|**Purchase statistic**|312|Shows purchase statistics for each supplier. This includes information for five periods, starting on the date that you specify.<br>
-The report includes the total purchases, payments, finance charges, and discount information including the payment discounts taken and lost. Statistics are calculated for purchases before the date entered, at three one-month intervals from the date entered, and for a period including all purchases made after the third one-month interval.|
+|**Purchase statistics**|312|[!INCLUDE [reports-purchase-statistics](includes/reports-purchase-statistics.md)]|
 |**Supplier – Top 10 list**|311|Shows information on purchases from suppliers for a selected period. You can choose the number of suppliers that are included in the report.<br>The suppliers are sorted in order of amount, and you can choose whether they are sorted by purchase amount or balance. The report gives a quick overview of the suppliers from which you purchase the most or to which you owe the most.|
 |**Supplier Item catalogue** or **Item/supplier catalogue**|320 or 720|Displays a list of the suppliers for the selected items or items for selected suppliers. For each combination of item and supplier, it shows direct unit cost, lead time calculation and the supplier's item number.<br>In the US, Canada, and Mexico, this report is not available. Instead, use the **Item/Supplier catalogue** (10164) report.|
 |**Supplier/Item Purchases**|313|Shows a list of item entries for each supplier in a selected period. The report contains information on invoiced quantity, amount and possible discounts. It can be used, for example, to analyse a company's item purchases and to show whether there is a relationship between discounts and item purchases.|
