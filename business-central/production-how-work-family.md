@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9d0b27a1bdcc2aa544c50cf9993d46405f519b0c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7c5c924d8755884d022657abda48298b846cc7e8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787609"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442017"
 ---
 # <a name="work-with-production-families"></a>Work with Production Families
 A production family is a group of individual items whose relationship is based on the similarity of their manufacturing processes. By forming production families, some items can be manufactured twice or more in one production, which will optimise material consumption.
@@ -28,12 +28,12 @@ In punching processes, four pieces of the same item can be produced from one she
 Forming production families reduces the scrap quantity because what would normally be leftover scrap, when producing big pieces, will be used instead to produce small items.
 
 ## <a name="to-set-up-a-production-family"></a>To set up a production family
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Families**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Families**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-family"></a>To produce based on a production family
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.
-2. Create a new production order. For more information, see [Create Production orders](production-how-to-create-production-orders.md).
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.
+2. Create a new works order. For more information, see [Create Works orders](production-how-to-create-production-orders.md).
 3. In the **Source Type** field, select **Family**.  
 4. In the **Source No.** field, select the relevant production family.
 
@@ -42,7 +42,7 @@ Forming production families reduces the scrap quantity because what would normal
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Planning](production-planning.md)   
-[Inventory](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

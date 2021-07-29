@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1f3016900fab6e6c277dfa01e2d3a455bef8863
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f32ed673905e155e3876b71e4607bf33448e5327
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786005"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441125"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Copy Existing Items to Create New Items
 
@@ -23,7 +23,7 @@ When you add a new item, to save time, you can use the **Copy Item** function to
 
 ## <a name="to-copy-an-existing-item-to-a-new-item"></a>To copy an existing item to a new item
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select the item that you want to copy, and then choose the **Copy Item** action.  
 
     If you cannot find the **Copy Item** action, choose to view more options, and then find it under **Actions**, **Functions**.  
@@ -38,7 +38,7 @@ When you add a new item, to save time, you can use the **Copy Item** function to
 ## <a name="see-also"></a>See Also
 
 [Register New Items](inventory-how-register-new-items.md)  
-[Setting Up Inventory](inventory-setup-inventory.md)  
+[Setting Up Stock](inventory-setup-inventory.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

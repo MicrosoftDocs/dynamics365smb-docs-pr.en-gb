@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4c6d1a9dc293489587406f5cfa3388603b602221
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7e562ace106c88332f82d98def672078d502adb5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781367"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441369"
 ---
 # <a name="print-vat-audit-reports-in-the-british-version"></a>Print VAT Audit Reports in the British Version
 
-In the United Kingdom, all vendors must export the data required for auditing in a Content Separated Value (CSV) file format. The following reports in the British version of [!INCLUDE [prod_short](../../includes/prod_short.md)] comply with this requirement:  
+In the United Kingdom, all suppliers must export the data required for auditing in a Content Separated Value (CSV) file format. The following reports in the British version of [!INCLUDE [prod_short](../../includes/prod_short.md)] comply with this requirement:  
 
 - **VAT Audit**  report – This report is used for VAT auditing.  
 - **VAT Entry Exception** report - This report details the differences between the calculated VAT and the changes that occur because of rounding, VAT tolerance percentage, and discounts. It also displays the difference in VAT amounts for the tax authorities.  
 
 ## <a name="to-print-the-vat-audit-report"></a>To print the VAT audit report  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
 2. Choose the relevant VAT statement template, and then choose OK.
 3. On the **VAT Statement** page, choose **VAT Audit Report**.
 4. On the **VAT Audit** page, on the **Options** FastTab, fill in the fields as described in the following table.  
@@ -37,7 +37,7 @@ In the United Kingdom, all vendors must export the data required for auditing in
     |**Export Open Payments**|Select to export the open credit entries.|  
     |**Export Late Invoicing**|Select to export customer entries that took longer to invoice than the number of days specified in the **Late Invoice Delay (Days)** field.|  
     |**Late Invoice Delay (Days)**|Enter the number of days between the invoice issue date and the payment received date. If the **Export Late Invoicing** field is selected, entries exceeding this limit will be exported.|  
-    |**Export Vendors**|Select to export the file to the **Vendor** table.|  
+    |**Export Suppliers**|Select to export the file to the **Supplier** table.|  
     |**Export VAT Entries**|Select to export the entries in the **VAT Entry** table.|  
 
     > [!NOTE]  
@@ -49,7 +49,7 @@ In the United Kingdom, all vendors must export the data required for auditing in
 
 ## <a name="to-print-the-vat-entry-exception-report"></a>To print the VAT entry exception report  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
 2. Choose the relevant VAT statement template, and then choose OK.
 3. On the **VAT Statement** page, choose **VAT Entry Exception Report**.  
 4. On the **VAT Entry Exception Report** page, on the **Options** FastTab, fll in the fields as described in the following table.  

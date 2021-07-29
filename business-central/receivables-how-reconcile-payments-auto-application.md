@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5c13e41d102e2a7ff2ca80275571a1a05eea225e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a39798d56aa18dffa929d719cecd68a522bde00d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779054"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441992"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Reconcile Payments Using Automatic Application
 
-The **Payment Reconciliation Journal** page specifies payments, either incoming or outgoing, that have been recorded as transactions on your online bank account or on a payment service and that you can apply to their related open customer, vendor, and bank account ledger entries. The lines in the journal can be filled in by importing a bank statement as a bank feed or file or by manually entering transactions that you make on your payment service.
+The **Payment Reconciliation Journal** page specifies payments, either incoming or outgoing, that have been recorded as transactions on your online bank account or on a payment service and that you can apply to their related open customer, supplier, and bank account ledger entries. The lines in the journal can be filled in by importing a bank statement as a bank feed or file or by manually entering transactions that you make on your payment service.
 
 > [!NOTE]
 > The page offers automatic matching functionality that applies payments to their related open entries based on a matching of data on a bank statement line (journal line) with data on one or more open entries. Note that you can overwrite the suggested automatic applications, and you can choose to not use automatic application at all. For more information, see step 7.
 
-A payment reconciliation journal is related to one bank account in [!INCLUDE[prod_short](includes/prod_short.md)] that reflects the online bank account where the payment transactions are recorded. Any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This means that the bank account is automatically reconciled for payments that you post with the journal.
+A payment reconciliation journal is related to one bank account in [!INCLUDE[prod_short](includes/prod_short.md)] that reflects the online bank account where the payment transactions are recorded. Any open bank account ledger entries related to the applied customer or supplier ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This means that the bank account is automatically reconciled for payments that you post with the journal.
 
 You can import bank transactions as .csv bank files or other format that your bank provides. If you want to import bank statements as bank feeds, you must first enable a dedicated bank integration service and then link the bank account to its related online bank account. The payment reconciliation journal will then automatically detect bank feeds when you choose the **Import Bank Transactions** action. In addition, you can set a bank account up to automatically import new bank statement feeds every hour. Transactions for payments that have already been posted as applied and/or reconciled will not be imported. You can use the Envestnet Yodlee Bank Feeds service for this, which is preinstalled in some country versions of [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md). Alternatively, contact your Microsoft partner for help meeting your business or country requirements.
 
@@ -36,7 +36,7 @@ You use the **Apply Automatically** function either automatically when you impor
 
 On journal lines where a payment has been applied automatically to one or more open entries, the **Match Confidence** field has a value of **Low**, **Medium**, or **High** to indicate the quality of the data matching that the suggested payment application is based on.
 
-Some payment applications require your review as defined by the used matching rule, such as lines with **Low** match confidence. Other lines require your review and manual change because there is a value in the **Difference** field. To review one or more payment applications, choose the **Lines to Review** or **Lines with Difference** field at the bottom. The **Payment Application Review** page opens showing all relevant information about the customer or vendor that the payment is applied to, the matching details, and actions to process the line, such as the **Accept Application** action. (See steps 7 and 8 below.)
+Some payment applications require your review as defined by the used matching rule, such as lines with **Low** match confidence. Other lines require your review and manual change because there is a value in the **Difference** field. To review one or more payment applications, choose the **Lines to Review** or **Lines with Difference** field at the bottom. The **Payment Application Review** page opens showing all relevant information about the customer or supplier that the payment is applied to, the matching details, and actions to process the line, such as the **Accept Application** action. (See steps 7 and 8 below.)
 
 For each journal line on the **Payment Reconciliation Journal** page, you can open the **Payment Application** page to see all candidate open entries for the payment and view detailed information for each entry about the data matching that a payment application is based on. Here, you can manually apply payments or reapply payments that were applied automatically to a wrong entry. (See step 10 below.) For more information, see [Review or Apply Payments After Automatic Application](receivables-how-review-apply-payments-auto-application.md).
 
@@ -44,7 +44,7 @@ For each journal line on the **Payment Reconciliation Journal** page, you can op
 > You can start the bank transactions import at the same time as you open the **Payment Reconciliation Journal** page for an existing journal. The following procedure describes how to import bank transactions into the **Payment Reconciliation Journal** page after you have created a new journal.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>To reconcile payments using automatic application
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
 2. To work in a new payment reconciliation journal, choose the **New Journal** action.
 3. On the **Payment Bank Account List** page, select the bank account that you want to reconcile payments for, and then choose the **OK** button.
    The **Payment Reconciliation Journal** page opens prepared for the selected bank account.
@@ -55,13 +55,13 @@ For each journal line on the **Payment Reconciliation Journal** page, you can op
 
     The **Payment Reconciliation Journal** page is filled with lines for payments representing bank transactions in the imported bank statement.
 
-     On lines for payments that have been automatically applied to their related open entries, the **Match Confidence** field has a value between **Low** and **High** to indicate the quality of the data matching that the suggested payment application is based on. In addition, the **Account Name**, **Account Type**, and **Account No.** fields are filled with information about the customer or vendor that the payment is applied to.
+     On lines for payments that have been automatically applied to their related open entries, the **Match Confidence** field has a value between **Low** and **High** to indicate the quality of the data matching that the suggested payment application is based on. In addition, the **Account Name**, **Account Type**, and **Account No.** fields are filled with information about the customer or supplier that the payment is applied to.
 
     The automatic applications, the matching qualities, and whether lines require review are defined by rules that you can edit to adjust the results. For more information, see [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md).
 
 7. To review, accept/remove, or manually change multiple payment applications that have a value in the **Difference** field, choose the **Lines with Difference** action at the bottom.
 
-    The **Payment Application Review** page opens showing the first application to review. The next application to review will be shown on the page as you process the preceding one. All relevant information about the customer or vendor that the payment is applied to, the matching details, and actions to process the line, such as the **Accept Application** and **Apply Manually** actions.
+    The **Payment Application Review** page opens showing the first application to review. The next application to review will be shown on the page as you process the preceding one. All relevant information about the customer or supplier that the payment is applied to, the matching details, and actions to process the line, such as the **Accept Application** and **Apply Manually** actions.
 
 8. To review, accept/remove, or manually change multiple payment applications that are set to be reviewed, according to the payment application rule, choose the **Lines to Review** action at the bottom. The same experience as described for step 8 is presented
 
@@ -81,7 +81,7 @@ For each journal line on the **Payment Reconciliation Journal** page, you can op
     - **Post Payments Only** - To only post the payments as applied, but leave the related bank account ledger entries open. Required that you reconcile the bank account separately,  for example: For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
     - **Test Report** - To review the result of posting before you post. The **Bank Account Statement** report opens and shows the same fields as at the bottom of the **Payment Reconciliation Journal** page.
 
-When you post the payment reconciliation journal, the applied open entries memos are closed, and the related customer, vendor, or general ledger accounts are updated. For payments on journal lines based on text-to-account mapping, the specified customer, vendor, and general ledger accounts are updated. For all journal lines, bank account ledger entries are created. If you choose the **Post Payments and Reconcile Bank Account** action, any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed. This means that the bank account is automatically reconciled for payments that you post with the journal.
+When you post the payment reconciliation journal, the applied open entries memos are closed, and the related customer, supplier, or general ledger accounts are updated. For payments on journal lines based on text-to-account mapping, the specified customer, supplier, and general ledger accounts are updated. For all journal lines, bank account ledger entries are created. If you choose the **Post Payments and Reconcile Bank Account** action, any open bank account ledger entries related to the applied customer or supplier ledger entries will be closed. This means that the bank account is automatically reconciled for payments that you post with the journal.
 
 You can compare the value in the **Balance on Bank Account After Posting** field together with the value in the **Statement Ending Balance** field to track when the bank account is reconciled based on payments that you post.
 

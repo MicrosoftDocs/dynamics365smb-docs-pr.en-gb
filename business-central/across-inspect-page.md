@@ -10,16 +10,18 @@ ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 09dba629e977707921129261ea2540cc223c15dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 99dd133c3f3ab05806976c5fe840f81dcd8e1403
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784947"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440906"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspecting Pages in Business Central
 
 The page inspection feature enables you to get details about a page, providing insight into the page design, the different elements that comprise the page, and the source behind the data it displays. Page inspection is especially designed for administrators, power users, support personnel, and developers. It is ideal for learning the data model behind a page and troubleshooting. For example, if you are experiencing a problem with a page, you could use page inspection to get information to pass on to your system administrator or support personnel.
+
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
 ## <a name="working-with-page-inspection"></a>Working with Page Inspection
 
@@ -27,7 +29,7 @@ You start page inspection from the **Help & Support** page. Choose the question 
 
 The **Page inspection** pane opens on the side. The following figure illustrates the **Page Inspection** pane on the **Sales Order** page.
 
-![Page Inspection](media/page-inspection-example.png)
+![Page Inspection.](media/page-inspection-example.png)
 
 When the **Page Inspection** pane first opens, it shows information that pertains to the main page object.
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 92965b353dadb78e50b11138a832115885518f4f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19cfc6b241e72d63a0f2c00ee43b32682cdeefae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780714"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441100"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Create Interactions on Contacts and Segments
 You can create interactions to record all the interactions and communications you have with your contacts and segments, for example, direct mail.
@@ -38,7 +38,7 @@ Before you create interactions, you must set up interaction templates. For more 
 3. Select the interaction you want to finish, and then choose the **Resume** action.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>To create an interaction on a segment
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.
 2. In the **Segment page**, in the **Interaction** section, fill in the fields to specify which interaction you want to assign to the segment.
 
     After you have assigned an interaction to the segment, you can personalise the interaction for each particular contact within the segment, for example, by selecting another interaction template on the lines on the **Segment** page.  

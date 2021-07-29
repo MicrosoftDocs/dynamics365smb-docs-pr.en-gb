@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 06/03/2021
 ms.author: edupont
-ms.openlocfilehash: 75f8f3ead0bdf0e09ca2484d1a0c91ee771cb837
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184456"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441629"
 ---
 # <a name="update-currency-exchange-rates"></a>Update Currency Exchange Rates
 
@@ -23,7 +23,10 @@ Next, you must set up currency codes for each currency that you use if you buy o
 > [!Important]
 > Do not create the local currency code both in the **General Ledger Setup** and in the **Currencies** page. This will create confusion between the blank currency and the LCY code in the currency table, and bank accounts, customers or suppliers might accidentally be created, some with the blank currency and some with the LCY code.
 
-Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a currency exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries. For more information, see [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md). The additional reporting currency is most often used to facilitate financial reporting to owners that reside in countries/regions using different currencies than the local currency (LCY).
+Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a currency exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries. For more information, see [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md). The additional reporting currency is most often used to facilitate financial reporting to owners that reside in countries/regions using different currencies than the local currency (LCY).  
+
+> [!IMPORTANT]
+> If you want to use an additional reporting currency for financial reporting, make sure that you understand the limitations. For more information, see [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Currencies
 
@@ -66,7 +69,9 @@ You specify the currency codes in the **Currencies**, including extra informatio
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Example of a receivable currency transaction
 
-In the following example, an invoice is received on january 1st with the currency amount of 1000. At the time the currency rate is 1.123.
+When you receive an invoice from a company in a foreign currency, it is fairly easy to calculate the local currency (LCY) value of the invoice based on today's currency rate. However, the invoice often comes with payment terms so you can delay the payment to a later date, which implies a potentially different currency rate. This issue in combination with the fact that bank currency rates always differ from the official currency rates makes it impossible to anticipate the exact local currency (LCY) amount that is required to cover the invoice. If the due date of the invoice extends to the next month, you might also have to revaluate the local currency (LCY) amount at the end of the month. The currency adjustment is necessary because the new LCY value that is required to cover the invoice amount might be different, and the company debt to the supplier has potentially changed. The new LCY amount might be higher or lower than the previous amount and will therefore represent a gain or a loss. However, since the invoice has not been paid yet, the gain or loss is considered *unrealised*. Later, the invoice is paid, and the bank has returned with the actual currency rate for the payment. It is not until now the *realised* gain or loss is calculated. This unrealised gain or loss is then reversed, and the realised gain or loss is posted instead.
+
+In the following example, an invoice is received on January 1 with the currency amount of 1000. At the time, the currency rate is 1.123.
 
 |Date|Action|Currency Amount|Document Rate|LCY Amount on document|Adjustment Rate|Unrealised Gains Amount|Payment Rate|Realised Losses Amount|  
 |-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
@@ -75,7 +80,7 @@ In the following example, an invoice is received on january 1st with the currenc
 |2/15|**Adjustment Reversal on payment**|1000||||-2|||
 |2/15|**Payment**|1000||1120|||1.120|-3|
 
-At the end of the month a currency adjustment is performed where the adjustment currency rate has been set to 1.125, which triggers an unrealised gain of 2.
+At the end of the month, a currency adjustment is performed where the adjustment currency rate has been set to 1.125, which triggers an unrealised gain of 2.
 
 At the time of payment, the actual currency rate registered on the bank transaction shows a currency rate of 1.120.
 
@@ -85,7 +90,7 @@ Finally, the payment is registered and the actual loss is posted to the realised
 
 ## <a name="available-currency-functions"></a>Available Currency Functions
 
-the following table outlines key actions on the ***Currencies** page. some of the actions are explained in the next sections.  
+The following table outlines key actions on the **Currencies** page. Some of the actions are explained in the next sections.  
 
 |Menu|Action|Description|
 |-------------|--------------|------------------------------|
@@ -117,21 +122,21 @@ In general, the values of the **Exchange Rate Amount** and **Relational Exchange
 
 > [!Note]
 > The actual currency rate will be calculated using this formula:
-> 
+>
 > `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
 
-The adjustment exchange rate amount or relational adjustment exchange rate amount will be used to update all open bank, receivable or payable transactions.  
+The adjustment exchange rate amount or relational adjustment exchange rate amount will be used to update all open bank, receivables, or payables transactions.  
 
 > [!Note]
 > The actual currency rate will be calculated using this formula:
-> 
+>
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## <a name="adjusting-exchange-rates"></a>Adjusting Exchange Rates
 
 Because exchange rates fluctuate constantly, additional currency equivalents in your system must be adjusted periodically. If these adjustments are not done, amounts that have been converted from foreign (or additional) currencies and posted to the general ledger in LCY may be misleading. In addition, daily entries posted before a daily exchange rate is entered into application must be updated after the daily exchange rate information is entered.
 
-The **Adjust Exchange Rates** batch job is used to manually adjust the exchange rates of posted customer, supplier and bank account entries. It can also update additional reporting currency amounts on G/L entries.  
+The **Adjust Exchange Rates** batch job is used to manually adjust the exchange rates of posted customer, supplier, and bank account entries. It can also update additional reporting currency amounts on G/L entries.  
 
 > [!TIP]
 > You can use a service to update exchange rates in the system automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). However, this does not adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Adjust Exchange Rates** batch job.
@@ -140,15 +145,18 @@ The **Adjust Exchange Rates** batch job is used to manually adjust the exchange 
 
 For customer and supplier accounts, the batch job adjusts the currency by using the exchange rate that is valid on the posting date that is specified in the batch job. The batch job calculates the differences for the individual currency balances and posts the amounts to the general ledger account that is specified in the **Unrealised Gains Acc.** field or the **Unrealised Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the receivables/payables account in the general ledger.
 
-The batch job processes all open customer ledger entries and supplier ledger entries. If there is an exchange rate difference for an entry, the batch job creates a new detailed customer or supplier ledger entry which reflects the adjusted amount on the customer or supplier ledger entry.
+The batch job processes all open customer ledger entries and supplier ledger entries. If there is an exchange rate difference for an entry, the batch job creates a new detailed customer or supplier ledger entry, which reflects the adjusted amount on the customer or supplier ledger entry.
 
 #### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensions on Customer and Supplier Ledger Entries
+
 The adjustment entries are assigned the dimensions from the customer/supplier ledger entries, and the adjustments are posted per combination of dimension values.
 
 ### <a name="effect-on-bank-accounts"></a>Effect on Bank Accounts
+
 For bank accounts, the batch job adjusts the currency by using the exchange rate that is valid on the posting date specified in the batch job. The batch job calculates the differences for each bank account that has a currency code and posts the amounts to the general ledger account that is specified in the **Realised Gains Acc.** field or the **Realised Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the general ledger bank accounts that are specified in the bank account posting groups. The batch job calculates one entry per currency per posting group.
 
 #### <a name="dimensions-on-bank-account-entries"></a>Dimensions on Bank Account Entries
+
 The adjustment entries for the bank account's general ledger account and for the gain/loss account are assigned the bank account's default dimensions.
 
 ### <a name="effect-on-gl-accounts"></a>Effect on G/L Accounts
@@ -165,20 +173,20 @@ The adjustment entries are assigned the default dimensions from the accounts the
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>To set up a currency exchange rate service
 You can use an external service to keep your currency exchange rates up to date, such as FloatRates.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **Currency Exchange Rate Service** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Turn on the **Enabled** toggle to enable the service.
 
 > [!NOTE]
-> The following video shows an example of how to connect to a currency exchange rate service, using the European Central Bank as an example. In the segment that describes how to set up field mappings, the setting in the **Source** column for the **Parent Node for Currency Code**  will only return the first currency found. The setting should be **/gesmes:Envelope/Code/Code/Code**.
+> The following video shows an example of how to connect to a currency exchange rate service, using the European Central Bank as an example. In the segment that describes how to set up field mappings, the setting in the **Source** column for the **Parent Node for Currency Code**  will only return the first currency found. The setting should be `/gesmes:Envelope/Code/Code/Code`.
 
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>To update currency exchange rates through a service
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.
 2. Choose the **Update Exchange Rates** action.
 
 The value in the **Exchange Rate** field on the **Currencies** page is updated with the latest currency exchange rate.

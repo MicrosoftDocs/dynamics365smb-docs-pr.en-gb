@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 6d094e365ad0c7da73467e5a3160d926902c45d9
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 18a0eaf953c99050edb3b047cb5b4a31c83feeeb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935168"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440756"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Searching for Customers, Suppliers, and Other Contacts from Microsoft Teams
 
@@ -42,13 +42,13 @@ The command box is at the top of every screen in Teams. It lets you search, take
 
 1. In the command box, type **@Business Central**, then select the Business Central app from the results.
 
-    ![Open Business Central app  to search for contacts from command box](media/teams-contacts-command-1.png)
+    ![Open Business Central app  to search for contacts from command box.](media/teams-contacts-command-1.png)
 
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
     As you type, matching results will appear.
 
-    ![Search Business Central contacts from command box in Teams](media/teams-contacts-command-2.png)
+    ![Search Business Central contacts from command box in Teams.](media/teams-contacts-command-2.png)
 3. Select a contact from the results.
 
     The contact card appears beneath the command box.
@@ -65,13 +65,13 @@ The advantage of using the message compose box is that you can add a contact car
 
     If you don't see the **Business Central** icon, select **... (Messaging extensions)**.
 
-    ![Open Business Central app to search for contacts from message box](media/teams-contacts-message-box.png)
+    ![Open Business Central app to search for contacts from message box.](media/teams-contacts-message-box.png)
 
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
     As you type, matching results will appear.
 
-    ![Search for Business Central contacts from message box](media/teams-contacts-5.png)
+    ![Search for Business Central contacts from message box.](media/teams-contacts-5.png)
 3. Select a contact from the results.
 
     The contact card appears in the message compose box.
@@ -101,6 +101,8 @@ The contact card works just like cards for records, like items, customers, or sa
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
 [Teams FAQ](teams-faq.md)  
+[Changing Company and Other Settings in Teams](across-teams-settings.md)  
+[Share Records in Microsoft Teams](across-working-with-teams.md)  
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

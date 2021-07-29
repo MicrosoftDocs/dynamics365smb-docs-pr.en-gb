@@ -1,6 +1,6 @@
 ---
-title: Get an Availability Overview| Microsoft Docs
-description: You can get information about the availability of items or stock across locations, per sales or purchase events, by a time period, or by the item's position on an assembly or production BOM.
+title: Get an Availability Overview
+description: You can get information about the availability of items or stock across locations, per sales or purchase events, by time period, and more.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,28 +9,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e5be238c74496ca92c0f26ef0c2a1377a6c93466
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f5913dd06e56e4a49169827a90b96405b294b5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786075"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441200"
 ---
 # <a name="view-the-availability-of-items"></a>View the Availability of Items
 From the context of a business task, you can get advanced information about when and where an item is available, such as when talking to a customer about a delivery date.
 
-You can view the availability of all items per location, and you can view the availability of each item by event, by period, or by location. An event is any scheduled item transaction, such as a sales shipment or an inbound transfer receipt.
+You can view the availability of all items per location, and you can view the availability of each item by event or by period as well. An event is any scheduled item transaction, such as a sales shipment or an inbound transfer receipt.
 
 > [!NOTE]  
->   Availability views by location require that you maintain inventory at more than one location. For more information, see [Set Up Locations](inventory-how-setup-locations.md).
+>   Availability views by location require that you maintain stock at more than one location. For more information, see [Set Up Locations](inventory-how-setup-locations.md).
 
-If you use warehousing functionality, availability varies depending on allocations at the bin level when warehouse activities such as picks and movements occur and when the inventory reservation system imposes restrictions to comply with. A rather complex algorithm verifies that all conditions are met before allocating quantities to picks for outbound flows. For more information see [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md).
+If you use warehousing functionality, availability varies depending on allocations at the bin level when warehouse activities such as picks and movements occur and when the stock reservation system imposes restrictions to comply with. A rather complex algorithm verifies that all conditions are met before allocating quantities to picks for outbound flows. For more information see [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md).
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], availability figures are typically shown in two different fields, each with a different definition:
 
-* The **Quantity on Hand** field, in some places named **Inventory**, shows the actual quantity today according to posted item ledger entries.
+* The **Quantity on Hand** field, in some places named **Stock**, shows the actual quantity today according to posted item ledger entries.
 * The **Projected Available Balance** field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements. (In [!INCLUDE[prod_short](includes/prod_short.md)], scheduled receipts include quantities on purchase orders and inbound transfer orders. Gross requirements include quantities on sales orders and outbound transfer orders.)
 
 > [!TIP]  
@@ -42,38 +42,38 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], availability figures are typi
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>To view the availability of an item according to when it will be received or shipped
 You view the availability of an item according to scheduled item transactions on the **Availability by Event** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Event** action.
 
-    The **Item Availability by Event** page shows how the inventory quantity of the item will develop over time according scheduled shipment and receipt events. The page gives a condensed view that shows one line of accumulated information per time interval in which inventory quantities change. Time intervals where no events occurred are not shown. You can expand each line to show details about the event or events that caused the accumulated quantity on the line.
+    The **Item Availability by Event** page shows how the stock quantity of the item will develop over time according scheduled shipment and receipt events. The page gives a condensed view that shows one line of accumulated information per time interval in which stock quantities change. Time intervals where no events occurred are not shown. You can expand each line to show details about the event or events that caused the accumulated quantity on the line.
 4. Choose the value in the **Projected Available Balance** field to view the item ledger entries or open documents that make up the value.
 
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>To view the availability of an item in different periods
 You view the availability of an item over time for specified time periods on the **Item Availability by Periods** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Period** action.
 
-    The **Item Availability by Periods** page shows how the inventory quantity of the item will develop over time, shown for a period that you select, such as Day, Week, or Quarter.
+    The **Item Availability by Periods** page shows how the stock quantity of the item will develop over time, shown for a period that you select, such as Day, Week, or Quarter.
 4. Choose the value in the **Projected Available Balance** field to view the item ledger entries or open documents that make up the value.
 
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>To view the availability of an item at the locations where it is stored
 You view the availability of an item at the different places where it is stored on the **Item Availability by Location** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Location** action.
 
-    The **Item Availability by Location** page shows how the inventory quantity of the item will develop in the future, shown for each location where it is stored.
+    The **Item Availability by Location** page shows how the stock quantity of the item will develop in the future, shown for each location where it is stored.
 4. Choose the value in the **Qty. on Hand** field to view the item ledger entries that make up the value.
 5. Choose the value in the **Projected Available Balance** field to view the item ledger entries or open documents that make up the value.
 
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>To view the availability of all items by the location where they are stored
 You view the availability of all your items across all your locations on the **Items by Location** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Choose the **Items by Location** action.
 
     The **Items by Location** page shows for all your items how many are available at each location.
@@ -99,11 +99,11 @@ The **Item Availability by BOM Level** page shows information for the item on th
 
 The **Bottleneck** field specifies which item in the BOM structure restricts you from making a larger quantity than the quantity that is shown in the **Able to Make Top Item** field. For example, the bottleneck item can be a purchased component with an expected receipt date that is too late to make additional units of the top item by the date in the **Needed by Date** field.
 
-## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>To view the availability of an item by its units of measure
-The **Item Availability by Unit of Measure** page shows the availability of an item in the units of measure that it is stored in.
+## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>To view the availability of an item by its units of measurement
+The **Item Availability by Unit of Measurement** page shows the availability of an item in the units of measurement that it is stored in.
 
 > [!NOTE]  
-> To keep this information accurate, you must convert item units of measure. For example, if you purchase an item in one unit of measure, such as boxes, and you sell items in another unit of measure, such as pieces, you must use an item journal to convert the units of measure, or "unbox" items. You can use a negative adjustment item journal line to reduce inventory in the purchase unit of measure, for example boxes, and a positive adjustment to increase inventory in the sales unit of measure, for example pieces. 
+> To keep this information accurate, you must convert item units of measurement. For example, if you purchase an item in one unit of measurement, such as boxes, and you sell items in another unit of measurement, such as pieces, you must use an item journal to convert the units of measurement, or "unbox" items. You can use a negative adjustment item journal line to reduce stock in the purchase unit of measurement, for example boxes, and a positive adjustment to increase stock in the sales unit of measurement, for example pieces. 
 
 ## <a name="assembly-availability-page"></a>Assembly Availability Page
 The **Assembly Availability** page shows detailed availability information for the assembly item. It opens:
@@ -121,11 +121,11 @@ The **Lines** FastTab shows detailed availability information for the assembly c
 If one or more assembly components are not available, then this is reflected in the **Able to Assemble** field on the line in question as a quantity less than the quantity in the **Remaining Quantity** field on the **Details** FastTab.
 
 ## <a name="see-also"></a>See Also
-[Manage Inventory](inventory-manage-inventory.md)  
+[Manage Stock](inventory-manage-inventory.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Materials](inventory-how-work-BOMs.md)    
 [Set Up Locations](inventory-how-setup-locations.md)  
-[Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  
+[Transfer Stock Between Locations](inventory-how-transfer-between-locations.md)  
 [Sell Products](sales-how-sell-products.md)      
 [Working with Business Central](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

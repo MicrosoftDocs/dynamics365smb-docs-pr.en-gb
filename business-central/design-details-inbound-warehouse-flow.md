@@ -1,6 +1,6 @@
 ---
-title: Design Details - Inbound Warehouse Flow | Microsoft Docs
-description: The inbound flow in a warehouse begins when items arrive in the warehouse of the company location, either received from external sources or from another company location. An employee registers the items, typically by scanning a bar code. From the receiving dock, warehouse activities are performed at different complexity levels to bring the items into the storage area.
+title: Design Details - Inbound Warehouse Flow
+description: Inbound warehouse flow begins when items arrive in the warehouse company location. Items are registered and eventually matched to inbound source documents.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: c2a78d585f949922e9f05e42a6ab61dcd7adc521
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a3a300deaaf4b64e7f26e34168ff1f69b72e90de
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215185"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441780"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Design Details: Inbound Warehouse Flow
 The inbound flow in a warehouse begins when items arrive in the warehouse of the company location, either received from external sources or from another company location. An employee registers the items, typically by scanning a bar code. From the receiving dock, warehouse activities are performed at different complexity levels to bring the items into the storage area.  
@@ -51,7 +51,7 @@ In methods A, B, and C, the actions of receiving and putting away are combined i
 ## <a name="basic-warehouse-configurations"></a>Basic Warehouse Configurations  
 The following diagram illustrates the inbound warehouse flows by document type in basic warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
-![Inbound flow in basic warehouse configurations](media/design_details_warehouse_management_inbound_basic_flow.png "Inbound flow in basic warehouse configurations")  
+![Inbound flow in basic warehouse configurations.](media/design_details_warehouse_management_inbound_basic_flow.png "Inbound flow in basic warehouse configurations")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Release Source Document / Create Stock Put-Away  
 When items are received in the warehouse, the user who is responsible for receiving releases the source document, such as a purchase order or an inbound transfer order, to signal to warehouse workers that the received items can be put away in stock. Alternatively, the user creates stock put-away documents for individual order lines, in a push fashion, based on specified bins and quantities to handle.  
@@ -70,7 +70,7 @@ Positive item ledger entries are created, warehouse entries are created, and the
 ## <a name="advanced-warehouse-configurations"></a>Advanced warehouse configurations  
 The following diagram illustrates the inbound warehouse flow by document type in advanced warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
-![Inbound flow in advanced warehouse configurations](media/design_details_warehouse_management_inbound_advanced_flow.png "Inbound flow in advanced warehouse configurations")  
+![Inbound flow in advanced warehouse configurations.](media/design_details_warehouse_management_inbound_advanced_flow.png "Inbound flow in advanced warehouse configurations")  
 
 ### <a name="1-release-source-document"></a>1: Release Source Document  
 When items are received in the warehouse, the user who is responsible for receiving releases the source document, such as a purchase order or an inbound transfer order, to signal to warehouse workers that the received items can be put away in stock.  

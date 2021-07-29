@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ebb62a4ef9ea84ec5bfddc099dfb6120a4e6405
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0e9eab4b00e0729f13adb4cd38b7b4992a160539
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774048"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440656"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Set Up Fixed Asset Insurance
 To manage fixed asset insurance coverage, you must first set up some general insurance information and an insurance card per policy.
@@ -25,32 +25,32 @@ To manage fixed asset insurance coverage, you must first set up some general ins
 ## <a name="to-set-up-general-insurance-information"></a>To set up general insurance information
 To use the insurance features in [!INCLUDE[prod_short](includes/prod_short.md)], you must set up some general insurance information.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Setups**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Setups**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-insurance-types"></a>To set up insurance types
 You can group your insurance policies into categories, such as insurance against theft or fire insurance. The insurance types are used on the insurance card.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance Types**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance Types**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
 ## <a name="to-set-up-insurance-cards"></a>To set up insurance cards
 You may accumulate information about each insurance policy on the insurance card.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance**, and then choose the related link.  
 2. On the **Insurance** page, choose the **New** action to create a  new insurance card.  
 3. Fill in the fields as necessary.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>To set up insurance journal templates
 [!INCLUDE[prod_short](includes/prod_short.md)] automatically creates an insurance journal template the first time that you open the **Insurance Journal** page, but you can set up additional journal templates. For more information, see [Working with General Journals](ui-work-general-journals.md).  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance Journal Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance Journal Templates**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
 ## <a name="to-set-up-insurance-journal-batches"></a>To set up insurance journal batches
 You can set up batches in an insurance journal template. The values in the journal batch are used as default values if the fields are not filled in on the journal lines. For more information, see [Work with General Journals](ui-work-general-journals.md)  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance Journal Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance Journal Templates**, and then choose the related link.  
 2. Select an insurance journal template, and then choose the **Batches** action.
 3. On the **Insurance Journal Batches** page, fill in the fields as necessary.
 

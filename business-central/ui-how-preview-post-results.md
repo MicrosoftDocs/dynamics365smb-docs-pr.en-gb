@@ -11,18 +11,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 5f2ba1b65f92e2415ae67a3ee4b4c48bebbde9be
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc137cb8c45d935be28d5ededc435d2d4648f8bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772311"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441051"
 ---
 # <a name="preview-posting-results"></a>Preview Posting Results
 On every document and journal that can be posted, you can choose the **Preview Posting** button to review the different types of entries that will be created when you post the document or journal.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>To preview G/L entries that will result from posting a purchase invoice
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Create a purchase invoice. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. Choose **Preview Posting**.
 4. On the **Posting Preview** page, select **G/L Entry**, and then choose **Show Related Entries**.  

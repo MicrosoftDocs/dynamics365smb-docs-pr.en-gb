@@ -1,6 +1,6 @@
 ---
-title: Design Details - Handling Reordering Policies | Microsoft Docs
-description: Overview of tasks for defining a reorder policy in supply planning.
+title: Design Details - Handling Reordering Policies
+description: This article gives an overview of tasks involved in handling reordering policies and defining the reorder policy in supply planning.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 37469fd8963131984323827f1f3d9f0b23476b70
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2bc1a4406b82e34db8ecbfa491341606a99dbee7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215210"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441803"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Design Details: Handling Reordering Policies
 For an item to participate in supply planning, a reorder policy must be defined. The following four reordering policies exist:  
@@ -67,7 +67,7 @@ The following sequence describes how the projected stock level is determined:
 
 The following shows a graphical illustration of this principle:  
 
-![Determining the Projected Stock Level](media/nav_app_supply_planning_2_projected_inventory.png "Determining the Projected Stock Level")  
+![Determining the Projected Stock Level.](media/nav_app_supply_planning_2_projected_inventory.png "Determining the Projected Stock Level")  
 
 1. Supply **Sa** of 4 (fixed) closes Demand **Da** of -3.  
 2. CloseDemand: Create a decrease reminder of -3 (not shown).  
@@ -94,7 +94,7 @@ For reordering policies that use a reorder point, you can define a time bucket. 
 
 The time-bucketed concept reflects the manual process of checking the stock level on a frequent basis rather than for each transaction. The user needs to define the frequency (the time bucket). For example, the user gathers all item needs from one supplier to place a weekly order.  
 
-![Example of time bucket in planning](media/nav_app_supply_planning_2_reorder_cycle.png "Example of time bucket in planning")  
+![Example of time bucket in planning.](media/nav_app_supply_planning_2_reorder_cycle.png "Example of time bucket in planning")  
 
 The time bucket is generally used to avoid a cascade effect. For example, a balanced row of demand and supply where an early demand is cancelled, or a new one is created. The result would be that every supply order (except the last one) is rescheduled.
 
@@ -103,7 +103,7 @@ When using the Maximum Qty. and Fixed Reorder Qty. policies, the planning system
 
 *Attention: The projected stock [xx] is higher than the overflow level [xx] on the Due Date [xx].*  
 
-![Stock overflow level](media/supplyplanning_2_overflow1_new.png "Stock overflow level")  
+![Stock overflow level.](media/supplyplanning_2_overflow1_new.png "Stock overflow level")  
 
 ###  <a name="calculating-the-overflow-level"></a>Calculating the Overflow Level  
 The overflow level is calculated in different ways depending on planning setup.  
@@ -179,7 +179,7 @@ In this scenario, a customer changes a sales order from 70 to 40 pieces between 
 #### <a name="resulting-planning-lines"></a>Resulting Planning Lines  
  One planning line (warning) is created to reduce the purchase with 30 from 90 to 60 to keep the projected stock on 100 according to the overflow level.  
 
-![Plan according to overflow level](media/nav_app_supply_planning_2_overflow2.png "Plan according to overflow level")  
+![Plan according to overflow level.](media/nav_app_supply_planning_2_overflow2.png "Plan according to overflow level")  
 
 > [!NOTE]  
 >  Without the Overflow feature, no warning is created if the projected stock level is above maximum stock. This could cause a superfluous supply of 30.
@@ -193,7 +193,7 @@ The reorder point expresses the anticipated demand during the lead time of the i
 
  In the following illustration, supply D represents an emergency order to adjust for negative stock.  
 
- ![Emergency planning suggestion to avoid negative stock](media/nav_app_supply_planning_2_negative_inventory.png "Emergency planning suggestion to avoid negative stock")  
+ ![Emergency planning suggestion to avoid negative stock.](media/nav_app_supply_planning_2_negative_inventory.png "Emergency planning suggestion to avoid negative stock")  
 
 1.  Supply **A**, initial projected stock, is below reorder point.  
 2.  A new forward-scheduled supply is created (**C**).  

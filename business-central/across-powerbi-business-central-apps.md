@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 4b7da11bb8ec1198be9f1a86fccc29a62125d281
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: f83186ec6f8c278bf0d0f8c83f74af70f78baaa6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935318"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440881"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>Using the [!INCLUDE [prod_short](includes/prod_short.md)] Apps in Power BI
 
@@ -63,7 +63,7 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 1. Open your browser, navigate to [https://powerbi.microsoft.com](https://powerbi.microsoft.com), and sign into your account.
 2. Select **Get Data** at the bottom of the left navigation pane.  
 
-    ![Navigating to Get Data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Navigating to Get Data.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     You can also get starting from within [!INCLUDE [prod_short](includes/prod_short.md)]. From your Home page, navigate to **Report Selection** in the Power BI section. Select either **Service** or **My Organisation** from the ribbon. Either the Organisation gallery in Power BI or Microsoft AppSource opens, filtered to only display apps related to [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -89,7 +89,7 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 5. When prompted, enter the user name and password for signing into [!INCLUDE[prod_short](includes/prod_short.md)].
 6. Once connected, a dashboard and reports are added to your Power BI workspace. When completed, the tiles show data from your [!INCLUDE[prod_short](includes/prod_short.md)] company.
 
-    ![Select Dynamics 365 Business Central  and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Select Dynamics 365 Business Central  and select Get it now.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="fixing-problems"></a>Fixing problems
 

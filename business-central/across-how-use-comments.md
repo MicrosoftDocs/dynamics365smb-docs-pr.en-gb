@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef6d7a5882829bb12620337c5985c31f85d69c5c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2be53efdd942128d27ff42358fa60bfe501c8ede
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787214"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440981"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Add Comments to Cards and Documents
 You can add extra information to G/L accounts, customers cards, or sales orders to communicate exceptions or special agreements to other users.
@@ -31,7 +31,7 @@ In addition, you can specify if you want comments to be transferred from one typ
 The following describes how to add a comment to an item card. The steps are similar for all other cards and documents, except on document lines, the **Comments** action is placed on a lines action menu.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>To add a comments to an item card
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the relevant item card.
 3. Choose the **Comments** action.
 4. On the **Comment Sheet** page, enter any text, and then choose the **OK** button.

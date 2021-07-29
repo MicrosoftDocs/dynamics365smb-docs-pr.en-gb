@@ -1,6 +1,6 @@
 ---
-title: Display Custom Power BI Reports for Business Central data
-description: You can use Power BI reports to gain extra insight into data in lists.
+title: Display Custom Power BI Reports
+description: You can use Power BI FactBox to display Power BI reports and gain extra insight into records data in key lists.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/26/2021
+ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: d2ce2588604ae676ba8b2cb73878a2d8dfd32b63
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: b5858d3852eddc19501f0b3dc1c5f4071b07baee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087701"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440931"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -53,7 +53,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
     2. Drag the field to **Filters** pane and drop it in the **Filters on all pages** box.
     3. Set the **Filter type** to **Basic filtering**. It can't be page, visual, or advanced filter.
 
-    ![Setting the report filter for the Sales Invoice Activity report](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+    ![Setting the report filter for the Sales Invoice Activity report.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 4. Design the report layout.
 
     Create the layout by dragging fields and adding visualisations. For more information, see, [Work with Report view in Power BI Desktop](/power-bi/create-reports/desktop-report-view) in the Power BI documentation.
@@ -86,7 +86,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 The size of the report must be set to 325 pixels by 310 pixels. This size provides the proper scaling of the report in the available space of the Power BI FactBox control in [!INCLUDE[prod_short](includes/prod_short.md)]. To define the size of the report, place focus outside of the report layout area, and then choose the paint roller icon.
 
-![Setting the report width and height for the Sales Invoice Activity report](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
+![Setting the report width and height for the Sales Invoice Activity report.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 You can change the width and height of the report by choosing **Custom** in the **Type** field.
 

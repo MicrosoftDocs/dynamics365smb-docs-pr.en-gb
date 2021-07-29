@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0f586898d65d4e51e48b0c12cf9bf2487d846b1c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b1d9893364d7472759a478877ebec49ace5e9647
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781243"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441300"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Use Job Queues to Schedule Tasks
 
@@ -31,7 +31,7 @@ After job queues are set up and running, the status can change as follows within
 
 * **On Hold**  
 * **Ready**  
-* **In Process**  
+* **In Progress**  
 * **Error**  
 * **Finished**  
 
@@ -47,13 +47,13 @@ The following table describes the values of the **Status** field.
 | Status | Description |
 |--|--|
 | Ready | Indicates that the job queue entry is ready to be run. |
-| In Process | Indicates that the job queue entry is in process. This field is updated while the job queue is running. |
+| In Progress | Indicates that the job queue entry is in progress. This field is updated while the job queue is running. |
 | On Hold | Default. Indicates the status of the job queue entry when it is created. Choose the **Set Status to Ready** action to change the status to **Ready**. Choose the **Set On Hold** or **Suspend** actions to change the status back to **On Hold**. |
 | Error | Indicates that there is an error. Choose **Show Error** to see the error message. |
 | Finished | Indicates that the job queue entry is complete. |
 
 ### <a name="to-view-status-for-any-job"></a>To view status for any job
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
 2. On the **Job Queue Entries** page, select a job queue entry, and then choose the **Log Entries** action.  
 
 > [!TIP]

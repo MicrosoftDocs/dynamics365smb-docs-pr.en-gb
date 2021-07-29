@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d9dd61f073567dd38c4f80e77bb4ecd0584f558f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7988d7f1b40fed65078032d05c8b12d8e174bc90
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787239"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440831"
 ---
 # <a name="set-up-prices-and-discounts"></a>Set Up Prices and Discounts
 > [!NOTE]
@@ -30,7 +30,7 @@ You can set up and use two types of discounts:
 
 | Discount Type | Description |
 | --- | --- |
-| **Line Discount** |A discount amount that is given for lines on sales and purchase documents. Typically, line discounts are based on a combination of customer, item, minimum quantity, unit of measure, or period of time that you define for sales and purchases on the **Sales & Receivables Setup** and **Purchase & Payables Setup** pages.|
+| **Line Discount** |A discount amount that is given for lines on sales and purchase documents. Typically, line discounts are based on a combination of customer, item, minimum quantity, unit of measurement, or period of time that you define for sales and purchases on the **Sales & Receivables Setup** and **Purchase & Payables Setup** pages.|
 | **Invoice Discount** |A discount percentage that is subtracted from sales and purchase document total if the sum of all lines on the document exceeds a certain minimum. |
 
 Because sales prices and sales line discounts are based on a combination of item and customer, you can also perform this configuration from the item page of the item where the rules and values apply.
@@ -39,7 +39,7 @@ Because sales prices and sales line discounts are based on a combination of item
 > If an item should never be sold with a discount, leave the discount fields on the item page empty, and do not include the item in any line discount setups.
 
 ## <a name="about-price-lists"></a>About Price Lists
-Price lists are flexible and let you specify the business partner or activity that they apply to. For example, you can set up one price list that applies to all vendors and customers, or offer special prices or discounts for each business partner, perhaps based on a minimum quantity on purchase or sales orders, or a certain combination of customer, item, minimum quantity, unit of measure, or periods of time. The prices and discounts you define are automatically applied to purchase and sales documents. 
+Price lists are flexible and let you specify the business partner or activity that they apply to. For example, you can set up one price list that applies to all suppliers and customers, or offer special prices or discounts for each business partner, perhaps based on a minimum quantity on purchase or sales orders, or a certain combination of customer, item, minimum quantity, unit of measurement, or periods of time. The prices and discounts you define are automatically applied to purchase and sales documents. 
 
 ## <a name="set-up-prices"></a>Set Up Prices
 
@@ -47,7 +47,7 @@ These steps differ, depending on whether your administrator has turned on the **
 
 #### <a name="current-experience"></a>[Current Experience](#tab/current-experience)  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Prices** action.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a special sales price to the customer.
 
@@ -56,9 +56,9 @@ You can add items and services manually for each line, or you can use the **Sugg
 
 By default, the status of new price lists is **Draft**. When you're ready to start using the list, you can change the status to **Active**.
 
-To review price lists and prices that apply for specific customers or vendors, on the **Customer** or **Vendor** pages, choose either **Sales Price Lists** or **Purchase Price Lists** action. For items and resources, you can view price list lines by choosing **Sales Prices** or **Purchase Prices** on the **Item** and **Resource** pages.
+To review price lists and prices that apply for specific customers or suppliers, on the **Customer** or **Supplier** pages, choose either **Sales Price Lists** or **Purchase Price Lists** action. For items and resources, you can view price list lines by choosing **Sales Prices** or **Purchase Prices** on the **Item** and **Resource** pages.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Sales Price Lists** action. 
 3. Choose **New** to create a new sales price list.
 4. On the **General** and **Tax** FastTabs, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -75,7 +75,7 @@ These steps differ, depending on whether your administrator has turned on the **
 
 #### <a name="current-experience"></a>[Current Experience](#tab/current-experience/)  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the relevant customer card, and then choose the **Line Discounts** action.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a sales line discount to the customer.
 
@@ -86,7 +86,7 @@ These steps differ, depending on whether your administrator has turned on the **
 
 #### <a name="new-experience"></a>[New Experience](#tab/new-experience/)  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Sales Price Lists** action.
 3. Open the price list for which to specify the line discount.
 4. Turn on the **Allow Line Disc.** toggle.
@@ -118,7 +118,7 @@ In addition to (or instead of) a discount percentage, you can link a service cha
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>To set up an invoice discount for a customer
 After you have decided which customers are eligible for invoice discounts, enter the invoice discount code on the customer cards and set up the terms for each code.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the customer page for a customer that will be eligible for invoice discounts.
 3. In the **Invoice Disc. Code** field, select a code for the relevant invoice discount terms to use to calculate invoice discounts for the customer. <!--Looks like I can only choose customers in this list-->
 
@@ -142,7 +142,7 @@ These steps differ, depending on whether your administrator has turned on the **
 
 If you want to copy sales prices, such as an individual customer's sales prices to use for a customer price group, you must run the **Suggest Sales Price on Wksh.** batch job on the **Sales Price Worksheet** page.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Worksheet**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Worksheet**, and then choose the related link.  
 2. Choose the **Suggest Sales Price on Wksh.** action.  
 3. On the **Sales Prices** FastTab, fill in the **Sales Type** and **Sales Code** fields with the original sales prices you want to copy.  
 4. In the top section of the request page, fill in the **Sales Type** and **Sales Code** fields with the type and name you want the sales prices copied to.  
@@ -156,7 +156,7 @@ If you want to copy sales prices, such as an individual customer's sales prices 
 
 The status of the price list must be **Draft**. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Lists**, and then choose the related link. 
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Lists**, and then choose the related link. 
 2. Choose the price list to copy, and then choose **Copy Lines**.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -172,9 +172,9 @@ These steps differ, depending on whether your administrator has turned on the **
 
 If you want to bulk update item prices, such as increase all item prices by some percentage, you must run the **Suggest Item Price on Wksh.** batch job. You can find a link to the batch job on the **Sales Price Worksheet** page.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Worksheet**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Worksheet**, and then choose the related link.  
 2. Choose the **Suggest Item Price on Wksh.** action.  
-3. On the **Item** FastTab, fill in the **No.** or **Inventory Posting Group** or other fields with the original item prices you want to update.  
+3. On the **Item** FastTab, fill in the **No.** or **Stock Posting Group** or other fields with the original item prices you want to update.  
 4. In the top section of the request page, fill in the **Sales Type** and **Sales Code** with the type and name you want the sales prices copied to.
 5. If you want the batch job to automatically adjust suggested item prices, enter adjustment in **Adjustment Factor** field. For example, you would enter 1.15 in **Adjustment Factor** for 15% increase in item price.  
 6. If you want the batch job to create new prices, select the **Create New Prices** field.  

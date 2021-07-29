@@ -1,6 +1,6 @@
 ---
-title: How to Prepare a Configuration Package | Microsoft Docs
-description: Learn now to configure a RapidStart configuration package that can help set up new companies based on existing data.
+title: How to Prepare a Configuration Package
+description: Learn now to prepare a RapidStart configuration package that can help you set up new companies based on existing data.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: f90ba5929cad841e16a6a1a719024fdf085b05be
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 32d30efb86202b1454e307a03e2dd30056e2b149
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781293"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440731"
 ---
 # <a name="prepare-a-configuration-package"></a>Prepare a Configuration Package
 
@@ -29,7 +29,7 @@ There are some things to consider before you create a configuration package beca
 
 ### <a name="tables-that-contain-posted-entries"></a>Tables That Contain Posted Entries
 
-You cannot import data to tables that contain posted entries, such as the tables for customer, vendor, and item ledger entries, so you should not include this data in your configuration package. You can add entries to these tables after you import the configuration package by using journals to post the entries. For more information, see [Posting Documents and Journals](ui-post-documents-journals.md).
+You cannot import data to tables that contain posted entries, such as the tables for customer, supplier, and item ledger entries, so you should not include this data in your configuration package. You can add entries to these tables after you import the configuration package by using journals to post the entries. For more information, see [Posting Documents and Journals](ui-post-documents-journals.md).
 
 ### <a name="table-names-that-contain-special-characters"></a>Table Names That Contain Special Characters
 
@@ -56,7 +56,7 @@ You can import a configuration package that has been exported from a database th
 
 ## <a name="to-create-a-configuration-package"></a>To create a configuration package
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 2. Choose the **New** action.  
 3. On the **General** FastTab, fill in the fields as appropriate. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. To exclude the configuration questionnaires, configuration templates, and configuration worksheet tables from the package, select the **Exclude Configuration Tables** check box. Otherwise, these tables will be added to the list of package tables automatically when you export the package.  
@@ -107,7 +107,7 @@ You can save the file with a name that is meaningful to you, but you cannot chan
 
 After you have created a package that meets most of your needs, you can use it as a basis for creating similar packages. This can speed up implementation time and enhances the repeatability of RapidStart Services.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 2. Select a package from the list, and then choose the **Copy Package** action.  
 3. In the **New Package Code** field, enter a code for the new package.  
 4. Select the **Copy Data** check box if you also want to copy database data from the existing package.  
@@ -117,7 +117,7 @@ After you have created a package that meets most of your needs, you can use it a
 
 Use the configuration worksheet to gather and categorise the information that you want to use to configure a new company, and arrange tables in a logical way. Formatting in the worksheet is based on a simple hierarchy: Areas contain groups, which in turn contain tables. Areas and groups are optional, but are necessary to enable an overview of the configuration process on the RapidStart Services Role Centre.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 2. In the **Line Type** field, choose **Area**. In the **Name** field, enter a descriptive name.  
 3. In the **Line Type** field, choose **Group**. In the **Name** field, enter a descriptive name.  
 4. In the **Line Type** field, choose **Table**. In the **Table ID** field, select the table you want to include in the worksheet.  
@@ -136,7 +136,7 @@ After you have defined the tables that you want to treat as part of your configu
 > [!NOTE]  
 > You can also create a package directly, and add tables to it. For more information, see [To create a configuration package](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. In the configuration worksheet, select a line or group of lines that you want to assign to a configuration package, and then choose the **Assign Package** action.  
 3. Select a package from the list, or choose the **New** action to create a new package, and then choose the **OK** button.  
 
@@ -147,7 +147,7 @@ After you have defined the tables that you want to treat as part of your configu
 
 As you create a configuration package for a solution, you can view and customise the available database data to suit your customer needs. The database table must have an associated page.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. In the configuration worksheet, identify the tables whose data that you want to view or customise.  
 
     > [!NOTE]  
@@ -161,7 +161,7 @@ As you create a configuration package for a solution, you can view and customise
 After you have vetted and tested all your setup information, you can proceed to copy data to your production environment. You create a new company in the same database.
 
 1. Open and initialise the new company.  
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 3. Choose the **Copy Data from the Company** action.  
 4. On the **Copy Company Data** page, choose the **Copy From** field. The **Companies** page opens.  
 5. Select the company from which you want to copy data, and then choose the **OK** button. A list of tables selected on the configuration worksheet opens. Only tables that contain records are included in this list.

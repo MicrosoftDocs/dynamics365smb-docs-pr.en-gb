@@ -1,6 +1,6 @@
 ---
-title: How to Create Service Quotes | Microsoft Docs
-description: You can use the **Service Quote** page to create documents where you enter information about a service, such as repairs and maintenance, on service items by customer request. You can use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.
+title: How to Create Service Quotes
+description: Learn how to use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 09c3426a690ed2541426f586b314abd4778c0051
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a28ee7522faa1e08608deb00718bf955e0e4984
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778204"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441917"
 ---
 # <a name="create-service-quotes"></a>Create Service Quotes
 You can think of service quotes as the basis for service orders. In fact, they are almost identical. They both contain information such as who the customer is, the type of order, the item that needs service, billing and shipping information, and information about the actual service work.
@@ -23,7 +23,7 @@ You can think of service quotes as the basis for service orders. In fact, they a
 You can use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.  
   
 ## <a name="to-create-a-service-quote"></a>To create a service quote  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Quotes**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Quotes**, and then choose the related link.  
 2. Create a new service quote.  
 3. In the **No.** field, enter a number for the service quote. Alternatively, if you have set up a number series for service quotes on the **Service Mgt. Setup** page, you can press Enter to select the next available service quote number.  
 4. In the **Customer No.**  field, select the relevant customer from the list.  

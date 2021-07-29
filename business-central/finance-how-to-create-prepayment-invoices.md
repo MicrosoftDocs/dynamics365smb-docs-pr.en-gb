@@ -1,6 +1,6 @@
 ---
-title: How to Create Prepayment Invoices | Microsoft Docs
-description: Learn how to handle situations where you require prepayment, or your vendor does.
+title: How to Create Prepayment Invoices
+description: Handle situations where you or your supplier require prepayment. Use the default percentages for each sales or purchase line or adjust the amount as necessary.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 72a073fcde9ddf20df7c138ab544afb6719b93ce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782170"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442192"
 ---
 # <a name="create-prepayment-invoices"></a>Create Prepayment Invoices
 
-If you require your customers to submit payment before you ship an order to them, you can use the prepayment functionality. The same applies if your vendor requires you to submit payment before they ship an order to you.  
+If you require your customers to submit payment before you ship an order to them, you can use the prepayment functionality. The same applies if your supplier requires you to submit payment before they ship an order to you.  
 
-You can start the prepayment process when you create a sales or purchase order. If you have a default prepayment percentage for this customer or vendor, that will be included automatically in the resulting prepayment invoice. You can also specify a prepayment percentage to the entire document.
+You can start the prepayment process when you create a sales or purchase order. If you have a default prepayment percentage for this customer or supplier, that will be included automatically in the resulting prepayment invoice. You can also specify a prepayment percentage to the entire document.
 
 After you create a sales or purchase order, you can create a prepayment invoice. You can use the default percentages for each sales or purchase line, or you can adjust the amount as necessary. For example, you can specify a total amount for the entire order.  
 
@@ -29,7 +29,7 @@ The following procedure describes how to invoice a prepayment for a sales order.
 
 ## <a name="to-create-a-prepayment-invoice"></a>To create a prepayment invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Create a new sales order for the relevant customer. For more information, see [Sell Products](sales-how-sell-products.md).  
 
     On the **Prepayment** FastTab, the **Prepayment %** field specifies the percentage to use to calculate the prepayment amount. If there is a default prepayment percentage on the customer card, the field is filled in automatically. You can change the percentage. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 00fab887fa5680560ddcf4d612889be91c842fcf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784672"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441075"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Import and Export Custom Report Layouts
 You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then make the modifications to layout and return the file to you so that you can import it back.  
@@ -25,7 +25,7 @@ You can import and export an existing custom report layout as a file to and from
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>To export a report layout to a file  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
 
 2.  Select the row for the report that contains the custom report layout that you want to export, and then choose the **Custom Layouts** action.  
 
@@ -39,7 +39,7 @@ You can import and export an existing custom report layout as a file to and from
 
      A Word report layout file must have the .docx file type extension. An RDLC report layout file must have the .rdlc or .rdl file type extension.  
 
-2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
+2.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
 
 3.  Select the row for the report to which you want to import the report layout, and then choose the **Custom Layouts** action.  
 
