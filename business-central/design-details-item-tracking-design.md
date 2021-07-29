@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 5bb97f1c26ca9264718a96a9f2f7803e248927b3
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 992673cd800d7ee720e86050004c2d38796ee529
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214985"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445027"
 ---
 # <a name="design-details-item-tracking-design"></a>Design Details: Item Tracking Design
 
@@ -27,7 +27,7 @@ With the addition of serial, lot, and package numbers, the reservation system ha
 
 The following diagram outlines the design of item tracking functionality in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-![Example of item tracking flow](media/design_details_item_tracking_design.png "Example of item tracking flow")  
+![Example of item tracking flow.](media/design_details_item_tracking_design.png "Example of item tracking flow")  
 
 The central posting object is redesigned to handle the unique subclassification of a document line in the form of serial or lot numbers, and special relation tables are added to create the one-to-many relations between posted documents and their split item ledger entries and value ledger entries.  
 

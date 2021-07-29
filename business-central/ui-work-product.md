@@ -7,16 +7,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9781e2d064d48b7ce72b3c7f279c33cbfd42be7a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772136"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445258"
 ---
 # <a name="working-with-prod_short"></a>Working with [!INCLUDE[prod_short](includes/prod_short.md)]
+
 When performing business tasks, you interact with data in different ways, such as creating records and entering data, sorting and filtering data, writing notes, and outputting data to other applications.
 
 For example, you can adjust the size and position of any page, expand the width of columns and increase the height of column headers, and change the sorting of data in columns. And if you want to use the horizontal scroll bar to view all columns on a list page or on document lines, you will see that there is a vertical freeze pane to restrict some columns from scrolling.
@@ -26,7 +27,7 @@ For example, you can adjust the size and position of any page, expand the width 
 > [!TIP]
 > For a print-friendly overview of the most used functions, choose the following image and download the PDF file.
 >
-> [ ![Icon for the PDF file](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icon that opens a PDF")
+> [ ![Icon for the PDF file.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icon that opens a PDF")
 
 ## <a name="links-to-learn-more"></a>Links to Learn More
 
@@ -67,6 +68,21 @@ Here's a short video about how to get around in [!INCLUDE[prod_short](includes/p
 
     Internet Explorer is no longer supported. For more information, see [Microsoft Edge documentation](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Keep your browser always updated to the latest version.
+
+## <a name="action-bars"></a>Action bars
+
+Inside [!INCLUDE [prod_short](includes/prod_short.md)], you do most of your work in a list, a document, or a card. All three types of pages have a bar with actions that are relevant to the particular page, and the actions are almost the same for the individual card or document and for the list of entities. This way, you can manage an individual sales order in the **Sales Order** page and in the **Sales Orders** list, including posting it and invoicing it.  
+
+But the actions can also look differently, or even not be present, depending on how you open the page. Specifically for list pages, the list page that you open from the home page and the page that renders when you search for it using the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon are not identical.  
+
+When you search for an open a list page, such as the **Sales Orders** list, it is in view mode. The actions for editing, viewing, or deleting an individual entity, such as a sales order, are shown when you choose the **Manage** action.  
+
+> [!TIP]
+> If you know that you will use actions on this second level of the action bar often, choose the :::image type="icon" source="media/pin.png" border="false"::: icon to pin the action bar and make the actions under the various menus immediately discoverable.
+>
+> To make the second level of the action bar disappear again, choose the :::image type="icon" source="media/unpin.png" border="false"::: icon.
+
+But when you open the same list page from your home page, the **Manage** action is not present. Instead, to open an individual sales order, you just choose the **Number** field. In this view, you cannot pin the action bar.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 

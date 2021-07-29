@@ -1,6 +1,6 @@
 ---
 title: Setting Up and Using a Purchase Approval Workflow
-description: You can automate the process of approving new or changed records, such as documents, journal lines, and customer cards, by creating workflows with steps for the approvals in question. Before you create approval workflows, you must set up an approver and substitute approver for each approval user. You can also set approvers' amount limits to define which sales and purchase records they are qualified to approve. Approval requests and other notifications can be sent as email or internal note. For each approval user setup, you can also set up when they receive notifications.
+description: This walkthrough takes you through all the stages involved in setting up and using a purchase approval workflow in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/26/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 5c7575f0b3a35536e412757fe90993b764fc3ba5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110986"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445158"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Walkthrough: Setting Up and Using a Purchase Approval Workflow
 
@@ -52,7 +52,7 @@ When signed in as yourself, set Alicia up as an approval user whose approver is 
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>To set up yourself and Alicia as approval users
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.  
 2. On the **Approval User Setup** page, choose the **New** action.  
 
     > [!NOTE]  
@@ -86,7 +86,7 @@ Create the purchase order approval workflow by copying the steps from the **Purc
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>To create and enable a purchase order approval workflow
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2. On the **Workflows** page, select **Actions**, then select **New**, and then choose the **New Workflow from Template** action.  
 3. On the **Workflow Templates** page, select the workflow template named **Purchase Order Approval Workflow**.  
 
@@ -100,7 +100,7 @@ Use the new Purchase Order Approval Workflow workflow by first signing in to [!I
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>To request approval of a purchase order, as Alicia
 
 1. Sign in as Alicia.
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 3. Select the line to open Purchase Order 106001.  
 4. On the **Purchase Order** page, choose **Actions**, then **Request Approval**, and then choose the **Send Approval Request** action.  
 

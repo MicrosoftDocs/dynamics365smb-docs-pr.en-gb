@@ -1,6 +1,6 @@
 ---
-title: Walkthrough - Tracing Serial-Lot Numbers | Microsoft Docs
-description: This topic describes the actions to take to stop selling a defective item.
+title: Walkthrough - Tracing Serial-Lot Numbers
+description: This topic describes the actions that are needed to take to prevent selling a defective item, and also how to trace and recall items when needed.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6d06d39ac3e3b1bb9ad0a3b9089b295c899e9f74
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: eff79c853e5976ce85705b790542854e0e2a6ebc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216287"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445108"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Walkthrough: Tracing Serial/Lot Numbers
 
@@ -77,11 +77,11 @@ Then you must create various purchase, production, and sales transactions with t
 
 ### <a name="to-create-the-items"></a>To create the items  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Choose the **New** action.  
 3. In the **No.** field, enter **2000**, and then proceed to fill in the following fields.  
 
-    |Description|Base unit of Measurement|Gen. Prod. Posting Group|VAT Prod. Posting Group|Stock Posting Group|Item Tracking Code|  
+    |Description|Base Unit of Measurement|Gen. Prod. Posting Group|VAT Prod. Posting Group|Stock Posting Group|Item Tracking Code|  
     |-----------|--------------------|------------------------|-----------------------|--------------------|------------------|  
     |Racing Frame|PCS|RAW MAT|VAT25|RAW MAT|LOTALL|  
 
@@ -93,7 +93,7 @@ Then you must create various purchase, production, and sales transactions with t
 6. Choose **New**.  
 7. In the **No.** field, enter **1002**, and then proceed to fill in the following fields.  
 
-    |Description|Base unit of Measurement|Gen. Prod. Posting Group|VAT Prod. Posting Group|Stock Posting Group|Replenishment System|Item Tracking Code|  
+    |Description|Base Unit of Measurement|Gen. Prod. Posting Group|VAT Prod. Posting Group|Stock Posting Group|Replenishment System|Item Tracking Code|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
     |Racing Bike|PCS|RETAIL|VAT25|FINISHED|Prod. Order|SNALL|  
 
@@ -114,7 +114,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 ### <a name="to-purchase-components"></a>To purchase components
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Create a purchase order for supplier, Custom Metals Incorporated, by filling in the following line fields.  
 
@@ -128,7 +128,7 @@ Then you must create various purchase, production, and sales transactions with t
 7. Choose the **Post** action, select the **Receive and Invoice** option, and then choose the **OK** button.  
 
     Next, purchase racing frames from Coolwood Technologies.  
-8. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+8. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 9. Choose the **New** action.
 10. Create a purchase order for supplier, Coolwood Technologies, by filling in the following line fields.  
 
@@ -145,7 +145,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 ### <a name="to-produce-end-items"></a>To produce end items
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Prod. Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Prod. Orders**, and then choose the related link.  
 2. Choose the **New** group.  
 3. Create a new released works order by filling in the following fields.  
 
@@ -166,7 +166,7 @@ Then you must create various purchase, production, and sales transactions with t
 
     Next, produce two more racing bikes, SN3 and SN4.  
 
-11. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Prod. Orders**, and then choose the related link.  
+11. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Prod. Orders**, and then choose the related link.  
 12. Choose the **New** action.  
 13. Create a new released works order by filling in the following fields on the header.  
 
@@ -191,7 +191,7 @@ Then you must create various purchase, production, and sales transactions with t
     Next, sell racing bikes. First sell the racing bike with SN1 to Selangorian Ltd..  
 
 ### <a name="to-sell-the-end-items"></a>To sell the end items  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Choose the **New** action, and then, create a sales order by filling in the following fields.  
 
     |Customer|Item|Qty.|Serial No.|  
@@ -203,7 +203,7 @@ Then you must create various purchase, production, and sales transactions with t
 
     Next, sell the racing bike with SN2 to The Cannon Group PLC.  
 
-5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 6.  Choose the **New** action, and then, create a sales order by filling in the following fields.  
 
     |Customer|Item|Qty.|Serial No.|  
@@ -215,7 +215,7 @@ Then you must create various purchase, production, and sales transactions with t
 
     Finally, sell some racing frames separately. The Cannon Group PLC. also orders four separate racing frames for their own assembly line.  
 
-9. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+9. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 10. Choose the **New** action, and then, create a sales order by filling in the following fields.  
 
     |Customer|Item|Qty.|Serial No.|  
@@ -233,7 +233,7 @@ Then you must create various purchase, production, and sales transactions with t
  From the sales department, the quality controller knows that the returned racing bike, item 1002, has the serial number SN1. By using this basic information, he can determine where the finished racing bike was last used, in this case, on the sales shipment to Selangorian Ltd.. Then, the quality controller must trace backward to the earliest origin to establish which lot number the faulty racing frame came from and which supplier supplied it.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>To determine which lot included the faulty frame and who supplied it  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing**, and then choose the related link.  
 2.  On the **Item Tracing** page, enter **SN1** in the **Serial No. Filter** field, and then enter **1002** in the **Item Filter** field.  
 3.  Keep the default setting of **Item-Tracked Only** in the **Show Components** field, and keep the default trace method of **Usage – Origin** in the **Trace Method**.  
 4.  Choose the **Trace** action.  

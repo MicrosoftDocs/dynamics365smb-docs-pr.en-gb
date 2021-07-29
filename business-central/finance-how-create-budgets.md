@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1a3adebe30e63ea295aed6aa7beffbf581ba1be3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 525cc099b2a9b2630395a092761e0526f4760356
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784897"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444669"
 ---
 # <a name="create-gl-budgets"></a>Create G/L Budgets
 You can have multiple budgets for identical time periods by creating budgets with separate names. First, you set up the budget name and enter the budget figures. The budget name is then included on all the budget entries you create.  
@@ -29,7 +29,7 @@ Budgets play an important role in business intelligence, such as in financial st
 In cost accounting, you work with cost budgets in a similar way. For more information, see [Creating Cost Budgets](finance-create-cost-budgets.md).    
 
 ## <a name="to-create-a-new-gl-budget"></a>To create a new G/L budget  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, and then choose the related link.  
 2. Choose the **Edit List** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **Edit Budget** action.
 4. At the top of the **Budget** page, fill in the fields as necessary to define what is displayed.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074669"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444827"
 ---
 # <a name="getting-ready-for-doing-business"></a>Getting Ready for Doing Business
 
@@ -23,9 +23,9 @@ Congratulations, you have just initiated your first company in [!INCLUDE[prod_sh
 
 To help you get ready for doing business, you can visit the **Assisted Setup** page where you can launch assisted setup guides, videos, or help topics for selected setup tasks. To access the page, simply choose [this link](https://businesscentral.dynamics.com/?page=1801).  
 
-Alternatively, choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Assisted Setup** action.
+Alternatively, choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then the **Assisted Setup** action.
 
-You can also find the list of assisted setup guides if you choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
+You can also find the list of assisted setup guides if you choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
@@ -36,7 +36,7 @@ Starting with 2021 release wave 1, when you sign in for the first time or launch
 
 Once you have migrated data, such as suppliers, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if other assisted setup guides on the list can help you.
 
-If an area is not covered by an assisted setup, choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Advanced Settings** action. In **Advanced Settings**, the **Manual Setup** section provides access to setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+If an area is not covered by an assisted setup, choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then the **Advanced Settings** action. In **Advanced Settings**, the **Manual Setup** section provides access to setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 > [!NOTE]  
 > The list of assisted setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does.

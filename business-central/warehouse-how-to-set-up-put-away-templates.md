@@ -1,6 +1,6 @@
 ---
-title: How to Set Up Put-away Templates | Microsoft Docs
-description: With directed put-away and pick functionality, the most appropriate bin for your items at any given time is suggested, according to the put-away template that you have set up for the warehouse, the bin rankings you have given to the bins, and the minimum and maximum quantities that you have set up for fixed bins.
+title: How to Set Up Put-away Templates
+description: Use Put-away templates to have the most appropriate bins for your items suggested to you at any given time.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 336a9aa748d997d2cf4c5ae9a93cab6f96495fd6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 715c2f0c862d720d7123bc585d9b67c642d22005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784199"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445083"
 ---
 # <a name="set-up-put-away-templates"></a>Set Up Put-away Templates
 
@@ -25,7 +25,7 @@ You can set up a number of put-away templates and select one of them to govern p
 
 ## <a name="to-set-up-put-away-templates"></a>To set up put-away templates
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Templates**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Enter a code that is the unique identifier of the template you are about to create.  
 4. Enter a short description, if you wish.  
@@ -41,7 +41,7 @@ You can create various put-away templates and then apply them as you see fit. Th
 ## <a name="see-also"></a>See Also
 
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Inventory](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

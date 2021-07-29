@@ -1,6 +1,6 @@
 ---
 title: Walkthrough - Calculating Work in Progress for a Job | Microsoft Docs
-description: With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, stock items, and other types of usage that have to be tracked as a job progresses.
+description: Jobs involve the consumption of employee hours, machine hours, stock items, and other types of usage that have to be tracked as a job progresses.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0e26df80ecfc0c7921e4f06b3094ae81ae7c29e4
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 58cc257b30829fe0b9a2fe2bdec4ef6e5a5855cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216085"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445233"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Walkthrough: Calculating Work in Progress for a Job
 
@@ -60,7 +60,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
 ### <a name="to-calculate-wip"></a>To calculate WIP  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  In the **Jobs** list, select the **Deerfield** job, and then choose the **Edit** action. This will open the job card in edit mode.  
 
      WIP can be calculated based on Cost Value, Sales Value, Cost of Sales, Percentage of Completion, or Completed Contract. In this example, CRONUS uses the Cost Value method.  
@@ -92,7 +92,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
 ### <a name="to-review-wip-warnings"></a>To review WIP warnings  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job WIP Cockpit**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job WIP Cockpit**, and then choose the related link.  
 2.  Select the **Deerfield** job, and then choose the **Show Warnings** action.  
 3.  On the **Job WIP Warnings** page, review the warning associated with the job.  
 

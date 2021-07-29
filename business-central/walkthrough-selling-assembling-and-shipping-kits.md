@@ -1,6 +1,6 @@
 ---
-title: Walkthrough - Selling, Assembling, and Shipping Kits | Microsoft Docs
-description: To support just-in-time stock and the ability to customise products to customer requests, assembly orders can be automatically created and linked as soon as the sales order line is created. The link between the sales demand and the assembly supply enables sales order processors to customise the assembly item and promise delivery dates according to component availability. In addition, assembly consumption and output are posted automatically with the shipment of the linked sales order.
+title: Selling, Assembling, and Shipping Kits
+description: To support just-in-time stock, assembly orders can be automatically created and linked as soon as the sales order line is created.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 98fe9a8e3600156f158cdfc1ce37ad3349cafa1b
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f14defdd15acd82df76d1446b56d86ecda6e3cb6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216312"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445208"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Walkthrough: Selling, Assembling, and Shipping Kits
 
@@ -82,7 +82,7 @@ Before you can perform the tasks in the walkthrough, you must do the following:
 -   Install [!INCLUDE[prod_short](includes/prod_short.md)].  
 -   Make yourself a warehouse employee at WHITE location by following these steps:  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
 2.  Choose the **User ID** field, and select your own user account on the **Users** page.  
 3.  In the **Location Code** field, enter WHITE.  
 4.  Select the **Default** field.  
@@ -92,7 +92,7 @@ Before you can perform the tasks in the walkthrough, you must do the following:
 
 Prepare WHITE location for assembly processing by following these steps:  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Open the location card for WHITE location.  
 3.  On the **Bins** FastTab, enter **W-10-0001** in the **To-Assembly Bin Code** field.  
 
@@ -104,7 +104,7 @@ Prepare WHITE location for assembly processing by following these steps:
 
 Remove the default lead time for internal processes by following these steps:  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manufacturing Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manufacturing Setup**, and then choose the related link.  
 2.  On the **Manufacturing Setup** page, on the **Planning** FastTab, remove the value in the **Default Safety Lead Time** field.  
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
@@ -138,7 +138,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 ## <a name="prepare-sample-data"></a>Prepare Sample Data  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Item Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Item Journals**, and then choose the related link.  
 2.  Choose the **Batch Name** field, and then select the default journal.  
 3.  Create positive stock adjustments at WHITE location on the work date, January 23, by entering the following information.  
 
@@ -155,14 +155,14 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Next, synchronise the new warehouse entries with stock.  
 
-5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link. The **Item Journal** page opens.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link. The **Item Journal** page opens.  
 6.  Choose the **Calculate Whse. Adjustment** action.  
 7.  On the **Calculate Whse. Adjustment** page, choose the **OK** button.  
 8.  On the **Item Journal** page, choose the **Post** action, and then choose the **Yes** button.  
 
 ### <a name="creating-the-assembly-items"></a>Creating the Assembly Items  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Create the first assembly item based on the following information.  
 
@@ -213,7 +213,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 ### <a name="selling-the-assembly-items"></a>Selling the Assembly Items  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Create two sales order lines for customer 62000, The Device Shop, on the work date with the following information.  
 
@@ -266,7 +266,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planning for the Unavailable ATS Items  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Regenerative Plan** action.  
 3.  On the **Calculate Plan** page, set the following filters.  
 
@@ -284,7 +284,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Assembling and Shipping the First ATO Quantity  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipment**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipment**, and then choose the related link.  
 
     > [!NOTE]  
     >  In this section, the person who is responsible for shipping is in charge of recording the completed ATO assembly work on the warehouse shipment line. This workflow may occur in environments where the assembly work is performed by the person who is responsible for shipping or by assembly workers in the shipping area.  
@@ -303,7 +303,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Next, perform the picker's task.  
 
-4.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
+4.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
 5.  Open the warehouse pick document that you created in step 3 in this section.  
 
     Notice the value in the **Source Document** field and that all the pick lines are for assembly components.  
@@ -344,7 +344,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 ### <a name="assembling-and-recording-the-second-ato-quantity"></a>Assembling and Recording the Second ATO Quantity  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Orders**, and then choose the related link.  
 
     Notice that the ATO order for shipped units of Kit B is still in the list, although the **Remaining Quantity** is empty. This is because the linked sales order is still not fully invoiced.  
 
@@ -368,7 +368,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 ### <a name="assembling-the-ats-quantity"></a>Assembling the ATS Quantity  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Orders**, and then choose the related link.  
 2.  Open the assembly order for ten units of Kit A.  
 
     Notice that the **Quantity to Assemble** field is filled with the expected quantity.  
@@ -380,7 +380,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Next, perform the picker's task.  
 
-5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
 6.  Open the warehouse pick document that you created in step 4 in this section.  
 
      Proceed to register the pick without changing the default information.  
@@ -396,7 +396,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 ### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Shipping the Remaining Items, Partly from Stock and Partly Assembled to the Order  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipment**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipment**, and then choose the related link.  
 2.  Open the most recent warehouse shipment that is created at WHITE location.  
 
     Notice on the line for ten units of Kit A that the **Qty. to Ship** and **Qty. Picked** field are empty.  
@@ -407,7 +407,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Next, perform the picker's last task for this warehouse shipment.  
 
-4.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
+4.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
 5.  Open the warehouse pick document that you created in step 3 in this section.  
 
     Notice that this pick document is for assembly item, not for assembly components.  
@@ -427,7 +427,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     The warehouse shipment document is removed, which indicates that the involved warehouse activities are completed. Next, verify that the sales order has been processed.  
 
-10. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link  
+10. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link  
 11. Open the sales order for The Device Shop.  
 
     Notice that the **Quantity Shipped** field contains the full quantity on both lines.  

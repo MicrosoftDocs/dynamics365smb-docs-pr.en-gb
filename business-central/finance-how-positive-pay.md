@@ -1,6 +1,6 @@
 ---
 title: Export Positive Pay Files| Microsoft Docs
-description: You can ensure your bank only clears validated checks and amounts by exporting a Positive Pay file that contains vendor and payment information.
+description: You can ensure your bank only clears validated checks and amounts by exporting a Positive Pay file that contains supplier and payment information.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -12,26 +12,26 @@ ms.workload: na
 ms.search.keywords: check, clearing
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d4789f2ef9db38afdb67893d8ac242288c0aae2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a6cc157a12e4fd44174f585559befade10f8ed02
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773987"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444569"
 ---
 # <a name="export-a-positive-pay-file"></a>Export a Positive Pay File
-To make sure that your bank only clears validated cheques and amounts, you can export a Positive Pay file that contains vendor information, cheque number, and payment amount, which you send to the bank for reference when you process payments.
+To make sure that your bank only clears validated cheques and amounts, you can export a Positive Pay file that contains supplier information, cheque number, and payment amount, which you send to the bank for reference when you process payments.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is preconfigured to support Positive Pay files for Bank of America and City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>To set up a bank account for Positive Pay
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Open the card for the bank that you want to use Positive Pay for.
 3. In the **Positive Pay Export Code** field, enter POSPAYBANK.
 4. Close the page.
 
 ## <a name="to-export-a-positive-pay-file"></a>To export a Positive Pay file
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the bank account that you want to export a Positive Pay file for.
 3. Choose **Positive Pay Export** action.
 
@@ -44,7 +44,7 @@ To make sure that your bank only clears validated cheques and amounts, you can e
 
 To view exported Positive Pay records
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the bank account that you want to view Positive Pay export records for.
 3. Choose the **Positive Pay Entries** action.
 
@@ -54,7 +54,7 @@ To view exported Positive Pay records
 
 To reexport Positive Pay files
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the bank account that you want to reexport Positive Pay files for.
 3. Choose the **Positive Pay Entries** action.
 4. Select the line for the Positive Pay export file that you want to reexport.

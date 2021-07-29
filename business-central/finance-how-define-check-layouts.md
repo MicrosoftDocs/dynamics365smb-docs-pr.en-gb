@@ -1,6 +1,6 @@
 ---
-title: Specify the Layout of a Cheque| Microsoft Docs
-description: You can design and print your cheques in different formats to conform with standards.
+title: Specify the Layout of a Cheque
+description: You can design and print your cheques in different formats to conform with standards set by your local authorities.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 24d046d9284797e371a9cca98ad68618bf248be7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d083e3eea85fde087a431d21bb9eae8bb4b8c5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781613"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444644"
 ---
 # <a name="select-a-check-layout"></a>Select a Cheque Layout
 You can design your cheques to conform with the standards set by the local authorities. Cheque images can be printed in English, French, or Spanish.
@@ -23,7 +23,7 @@ You can design your cheques to conform with the standards set by the local autho
 Cheques are designed to print in both the United States and Canadian cheque image formats in either a cheque-stub-cheque format or a stub-stub-cheque format.
 
 ## <a name="to-select-a-check-layout"></a>To select a cheque layout
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Bank Account**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Bank Account**, and then choose the related link.
 2. On the **Report Selection - Bank Acc.** page, in the **Usage** field, select **Cheque**.
 3. Select one of the following report IDs.
 
@@ -52,10 +52,10 @@ In update 15.3 and newer, Magnetic Ink Character Recognition (MICR) fonts are in
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B Specifications
 The following summarises specifications for the MICR E-13B fonts that may be useful when calibrating fonts to be on cheque layouts with specific MICR printers.
 
-![MICR E-13B Specifications](media/font_MICR_E-13B_Specifications.png "MICR E-13B Specifications")
+![MICR E-13B Specifications.](media/font_MICR_E-13B_Specifications.png "MICR E-13B Specifications")
 
 ### <a name="delimiter-characters"></a>Delimiter characters
-![Delimiter characters](media/font-micr-letters.png "Delimiter characters")
+![Delimiter characters.](media/font-micr-letters.png "Delimiter characters")
 
 The full specification of MICR E-13B fonts can be found in the supplier's documentation here: (https://www.idautomation.com/micr-fonts/e13b/).
 
@@ -69,17 +69,17 @@ The following CMC-7 fonts are available in [!INCLUDE[prod_short](includes/prod_s
 
 The following summarises specifications for the MICR CMC-7 fonts that may be useful when calibrating fonts to be on cheque layouts with specific MICR printers.
 
-![MICR CMC-7 Specifications](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 Specifications")
+![MICR CMC-7 Specifications.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 Specifications")
 
 ### <a name="delimiter-characters"></a>Delimiter characters
-![Delimiter characters](media/font-cmc7-letters.png "Delimiter characters")
+![Delimiter characters for CMC-7.](media/font-cmc7-letters.png "Delimiter characters for CMC-7")
 
 The full specification of MICR CMC-7 fonts can be found in the supplier's documentation here: (http://www.idautomation.com/micr-fonts/cmc7/).
 
 ### <a name="secure-font-specifications"></a>Secure Font Specifications
 The following Summarises specifications for cheque security fonts that may be useful when calibrating fonts to be on cheque layouts with specific MICR printers.
 
-![Cheque Security Font Specifications](media/font_check-security-font_Specifications.png "Cheque Security Font Specifications")
+![Cheque Security Font Specifications.](media/font_check-security-font_Specifications.png "Cheque Security Font Specifications")
 
 The full specification of cheque security fonts can be found in the supplier's documentation here: (https://www.idautomation.com/security-fonts/).
 

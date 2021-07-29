@@ -12,25 +12,25 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ad5dd28d10df38fbd780ec4df5d4a87056670b99
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e833d29df72d10786b050222d342b2d6dce927e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771092"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444761"
 ---
 # <a name="change-the-current-report-layout"></a>Change the Current Report Layout
 A report can be set up with more than one report layout, which you can then switch among as needed.
 
 Depending on the layouts that are available for a report, you can choose to use a built-in RDLC report layout, a built-in Word report layout, or a custom layout. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Manage Report Layouts](ui-manage-report-layouts.md).
 
-When custom report layouts are defined, you can select them from customer and vendor cards to specify that the selected layouts will be used for documents that you crate for the customer or vendor in question. For more information, see [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md).
+When custom report layouts are defined, you can select them from customer and supplier cards to specify that the selected layouts will be used for documents that you crate for the customer or supplier in question. For more information, see [Define Document Layouts for Customers and Suppliers](ui-define-customer-vendor-document-layouts.md).
 
 > [!TIP]  
 > Document reports (not lists) that use a Word report layout are typically faster than those that use an RDLC report layout. So if you have the option to choose between a Word or RDLC report layout for a document report, use the Word report layout for the best performance.
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>To change which report layout to use for a report or document
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
    The **Report Layout Selection** page lists all the reports that are available for the company that is specified in the **Company** field at the top of the page. The **Selected Layout** field specifies the layout that is currently used on the report.
 2. Set the **Company** field at the top of the page to the company that includes the report.
 3. To change the layout that is used by a report, on the row for the report, set the **Selected Layout** field to one of the following options:
@@ -53,7 +53,7 @@ All custom report layouts that exist for report layouts in a company are listed 
 
 The name of the selected custom layout is now shown in the **Custom Layout Description** field and will be used the next time the report or document is previewed, printed, or sent.
 
-You can now go to your customer and vendor cards to specify which of the layouts to use for different documents that you crate for the customer or vendor in question, such as order confirmations or payment reminders. For more information, see [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md).
+You can now go to your customer and supplier cards to specify which of the layouts to use for different documents that you crate for the customer or supplier in question, such as order confirmations or payment reminders. For more information, see [Define Document Layouts for Customers and Suppliers](ui-define-customer-vendor-document-layouts.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 

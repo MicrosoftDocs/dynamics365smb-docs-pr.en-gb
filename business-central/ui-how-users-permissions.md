@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 852eb61a479f03b61c648904e2179168a5c18001
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ba584f11b1ac52146a7539b8ac08cb9ed67bcdba
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774493"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445308"
 ---
 # <a name="create-users-according-to-licenses"></a>Create Users According to Licences
 
@@ -43,7 +43,7 @@ For more information, see [Administration of Business Central Online](/dynamics3
 After you add users or change user information in the Microsoft 365 Admin Centre, you can quickly import the user information to [!INCLUDE[prod_short](includes/prod_short.md)]. This includes licence assignments. 
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
 3. Choose **Update Users from Microsoft 365**.
 
 If you are adding new users, the next step is to assign user groups and permissions. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). If you are updating user information, and the update includes a licence change, the users will be assigned to the appropriate user group and their permission sets will be updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
@@ -54,13 +54,13 @@ If you are adding new users, the next step is to assign user groups and permissi
 For more information about Synchronising user information with Microsoft 365, see the [synchronisation with Microsoft 365](#m365) section.
 
 > [!NOTE]
-> If you use an external accountant to manage your books and financial reporting, you can invite them to your Business Central so they can work with you on your fiscal data. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
+> If you use an external accountant to manage your books and financial reporting, you can invite them to your Business Central so they can work with you on your financial data. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>To remove a user's access to the system
 
 In online deployments, you can remove a user's access to [!INCLUDE[prod_short](includes/prod_short.md)]. All references to the user are kept, but the user cannot sign in and active sessions for the user are stopped.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Open the **User Card** page for the relevant user, and then, in the **Status** field, select **Disabled**.
 3. To give the user access again, set the **Status** field to **Enabled**.
 
@@ -137,7 +137,7 @@ For on-premises deployments, the administrator creates, edits, and deletes users
 
 ### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>To edit or delete a user in an on-premises deployment
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Select the user that you want to edit, and then choose the **Edit** action.
 3. On the **User Card** page, change the information as necessary.  
 4. To delete a user, select the user that you want to delete, and then choose the **Delete** action.

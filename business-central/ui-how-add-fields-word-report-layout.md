@@ -1,6 +1,6 @@
 ---
-title: How to Add Fields to a Word Report Layout | Microsoft Docs
-description: Describes how to add fields of a report dataset to an existing Word report layout for a report.
+title: How to Add Fields to a Word Report Layout
+description: This topic describes how to add fields of a report dataset to an existing Word report layout for a report.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 52cfb4ba4ca0ba645ecca48e08d63722c2c5c5b4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87b7bc409c313203e6d24172e60b3f92d1af9bd2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771117"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444802"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Add Fields to a Word Report Layout
 A report dataset can consist of fields that display labels, data, and images. This topic describes the procedure for adding fields of a report dataset to an existing Word report layout for a report. You add fields by using the Word custom XML part for the report and adding content controls that map to the fields of the report dataset. Adding fields requires that you have some knowledge of the report's dataset so that you can identify the fields that you want to add to the layout.  
@@ -111,7 +111,7 @@ The following table provides a simplified overview of the XML of a custom XML pa
   
  The following figure illustrates the simple custom XML part from the previous section in the **XML Mapping** pane of a Word document.  
   
- ![Clip of the XML Mapping pane in word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Clip of the XML Mapping pane in word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   To add a label or field to the layout, you insert a content control that maps to the element in the **XML Mapping** pane.  
   

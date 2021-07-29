@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: 709624fb0794102012c7db02cf0cfe0bac943d6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985369"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444877"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Using Dynamics 365 Sales from Business Central
 If you use Dynamics 365 Sales for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using [!INCLUDE[prod_short](includes/prod_short.md)] for backend activities such as processing orders, managing stock, and doing your finances.
@@ -115,7 +115,7 @@ In the current pricing experience, [!INCLUDE[prod_short](includes/prod_short.md)
     1. Couple the items for which prices are set by the customer price group.
     2. On the **Customer Price Groups** page, couple the customer price group by choosing **Related**, then **Dynamics 365 Sales**, **Coupling**, and then **Set up coupling**. The coupling will create an active price list in [!INCLUDE[prod_short](includes/prod_short.md)] with the same name as the customer price group in [!INCLUDE[crm_md](includes/crm_md.md)], and automatically synchronise all items for which the customer price group defines the price.
 
-:::image type="content" source="media/customer-price-group.png" alt-text="Customer Price Group page":::
+:::image type="content" source="media/customer-price-group.png" alt-text="Customer Price Group page.":::
 
 #### <a name="new-experience"></a>[New Experience](#tab/new-experience/)  
 
@@ -131,7 +131,7 @@ The new pricing experience synchronises price lists that meet the following crit
 
 To synchronise price lists, on the **Sales Price List** page, choose **Related**, **Dynamics 365 Sales**, **Coupling**, and then **Set up coupling**. 
 
-:::image type="content" source="media/sales-price-list.png" alt-text="Sales Price List page":::
+:::image type="content" source="media/sales-price-list.png" alt-text="Sales Price List page.":::
 
 ---
 

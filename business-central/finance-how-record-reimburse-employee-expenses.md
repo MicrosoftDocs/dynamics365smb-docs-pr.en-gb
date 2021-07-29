@@ -1,6 +1,6 @@
 ---
-title: Record and Reimburse Employees' Business-Related Expenses
-description: Post employees' expenses with the general journal to the employee's account and later post a payment to the employee's bank account to reimburse for the business-related expense.
+title: Record and Reimburse Employees' Expenses
+description: Post employees' expenses with the general journal to the employee's account  then post a payment to their bank account to reimburse the business-related expense.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: dd4ce755e3414f19ae501c1d437f3e1d78d565a1
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 649f179f52a9c18572f1e702e62000bfdb1b30ff
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184406"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444519"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Record and Reimburse Employees' Expenses
 
@@ -35,7 +35,7 @@ If employees spend their own money during business activities, you can post the 
 
 You post employees' expenses on the **General Journal** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.  
 2. Open the relevant general journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. On a new journal line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -51,7 +51,7 @@ You post employees' expenses on the **General Journal** page.
 
 You reimburse employees by posting payments to their bank account on the **Payment Journal** page.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Open the relevant payment journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. Fill in the fields as necessary. For more information, see [Making Payments](payables-make-payments.md).
 4. Alternatively, choose the **Suggest Employee Payment** action to automatically insert journal lines for pending employee reimbursements.

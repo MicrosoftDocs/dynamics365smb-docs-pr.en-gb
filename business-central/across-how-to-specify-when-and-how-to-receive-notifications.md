@@ -1,6 +1,6 @@
 ---
-title: How to Specify When and How to Receive Notifications | Microsoft Docs
-description: When you set up users in approval workflows, you must specify in the Notification Setup and Notification Schedule pages how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the Change Notification Settings button on any notification.
+title: Specify When and How to Receive Notifications
+description: When you set up users in approval workflows, specify in the Notification Setup and Notification Schedule pages how and when each user receives notifications.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d96d094547b71fc722c06facb80a131786df0e58
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 098d7a5f677310916484bcff652ff9557c96478f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774618"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445052"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Specify When and How to Receive Notifications
 When you set up users in approval workflows, you must specify in the **Notification Setup** and **Notification Schedule** pages how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the **Change Notification Settings** button on any notification.  
@@ -31,7 +31,7 @@ When you set up users in approval workflows, you must specify in the **Notificat
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Specify when and how users receive notifications  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.  
 2.  Select the line for the user that you want to set up notification preferences for, and then choose the **Notification Setup** action.  
 3.  On the **Notification Setup** page, fill the fields as described in the following table.  
 

@@ -1,6 +1,6 @@
 ---
-title: Keeping a Report Layout Up-to-date | Microsoft Docs
-description: You may need to update a custom report layout that is used on a report. This is required when there has been a design change to the report's data set, for example, a field that is used in the layout has been removed from the report data set.
+title: Keeping a Report Layout Up-to-date
+description: Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 90bace16ede000d618d4e1be8855ee16786c3bb2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 99b0f191bf9890683bb6cbb68f7baef0342f9737
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783066"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445283"
 ---
 # <a name="update-custom-report-layouts"></a>Update Custom Report Layouts
 Occasionally, you may need to update a custom report layout that is used on a report. This is required when there has been a design change to the report's data set, for example, a field that is used in the layout has been removed from the report data set. If a report layout requires updating, you will get an error message when you try to preview, print or save the report.  
@@ -28,7 +28,7 @@ Not all report dataset changes can be automatically updated in the report layout
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>To update one or more custom report layouts  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.  
 
 2.  On the **Report Layouts** page, if you want to update a specific report, select the layout from the list, and then choose the **Update Layout** action. Or, if you want to update all custom report layouts for the company, choose the **Update All Layouts** action.  
 
@@ -36,7 +36,7 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
 ## <a name="to-test-custom-report-layout-updates"></a>To test custom report layout updates  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
 
 2.  On the **Report Layout Selection** page, choose the **Test Layout Updates** action.  
 
