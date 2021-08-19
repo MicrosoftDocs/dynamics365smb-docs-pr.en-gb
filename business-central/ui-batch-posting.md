@@ -1,6 +1,6 @@
 ---
 title: Post Multiple Documents at the Same Time
-description: Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for immediate or scheduled batch posting.
+description: Learn how to select multiple non-posted documents in a list for immediate or scheduled batch posting in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4920e363af9b35afb4369682ca0310f095b02bb0
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446054"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649694"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Post Multiple Documents at the Same Time
 
@@ -78,13 +78,13 @@ If the job queue cannot post the sales order, the status is changed to **Error**
 1. From the document that you have tried to post with background posting, choose the **Job Queue Status** field, which will contain **Error**.
 2. Review the error message and fix the problem.
 
-Alternativelly you can review on the **Job Queue Log Entries** page if the sales order was posted successfully. For more information, see [To view status or errors in the job queue](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
+Alternatively, you can review on the **Job Queue Log Entries** page if the sales order was posted successfully. For more information, see the [Monitor the job queue](#monitor-the-job-queue) section.
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>To create a job queue entry for batch posting of sales orders
 
 Alternatively, you can postpone postings for when it is convenient for your organisation. For example, in your business it might make sense to run certain routines when most of the data entry for the day has concluded. You can achieve this by setting the job queue up to run various batch-posting reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and similar reports. [!INCLUDE[prod_short](includes/prod_short.md)] supports background posting for all sales, purchasing, and service documents.
 
-The following procedure shows how to set the **Batch Post Sales Orders** report up to automatically post sales orders at 4 PM on week days.  
+The following procedure shows how to set the **Batch Post Sales Orders** report up to automatically post sales orders at 4 PM on weekdays.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -115,8 +115,13 @@ The following procedure shows how to set the **Batch Post Sales Orders** report 
 8. In the **Starting Time** field, enter 4 PM.
 9. Choose the **Set Status to Ready** action.
 
-Sales orders that are within defined filters will now be posted every week day at 4 PM.
+Sales orders that are within defined filters will now be posted every weekday at 4 PM.
 
+## <a name="monitor-the-job-queue"></a>Monitor the job queue
+
+If you set up background posting with job queues, make it a regular task to monitor the job queue to catch any issues. You can track the status in the **Job Queue Entries** page. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
+
+As an administrator, you can use [Application Insights](/azure/azure-monitor/app/app-insights-overview) to gather and analyse telemetry that you can use to identify problems. For more information, see [Monitoring and Analysing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) in the developer and administration content.  
 
 ## <a name="see-also"></a>See Also
 

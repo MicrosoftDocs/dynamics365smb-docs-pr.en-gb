@@ -1,6 +1,6 @@
 ---
-title: About Planning Functionality | Microsoft Docs
-description: The planning system takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.
+title: About Planning Functionality
+description: The planning system in Dynamics 365 Business Central takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: dc3ef67f2f7578d81878b24662b97e47bc87a327
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e06bf94575c55d6e26fbe62c0b6cff06dd4fac70
+ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782045"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "6636023"
 ---
 # <a name="about-planning-functionality"></a>About Planning Functionality
 
@@ -30,22 +30,25 @@ For detailed information, see [Design Details: Supply Planning](design-details-s
 
 Planning has two elements: demand and supply. These must be held in balance to ensure that the demand is met in a timely and cost-efficient manner.  
 
-- Demand is the common term used for any kind of gross requirement such as a sales order, service order, component need from assembly or production orders, outbound transfer, blanket order or forecast. In addition to these, application allows some other technical types of demand - such as a negative production or purchase order, negative inventory, and purchase return.  
-- Supply is the common word used for any kind of replenishment such as inventory, a purchase order, assembly order, production order, or inbound transfer. Correspondingly, there can be a negative sales or service order, negative component need or sales return – all of which in some way also represent supply.  
+- Demand is the common term used for any kind of gross requirement such as a sales order, service order, component need from assembly or works orders, outbound transfer, blanket order or forecast. In addition to these, application allows some other technical types of demand - such as a negative production or purchase order, negative stock, and purchase return.  
+- Supply is the common word used for any kind of replenishment such as stock, a purchase order, assembly order, works order, or inbound transfer. Correspondingly, there can be a negative sales or service order, negative component need or sales return – all of which in some way also represent supply.  
 
-Another goal of the planning system is to ensure that the inventory does not grow unnecessarily. In the case of decreasing demand, the planning system will suggest that you postpone, decrease in quantity, or cancel existing replenishment orders.  
+Another goal of the planning system is to ensure that the stock does not grow unnecessarily. In the case of decreasing demand, the planning system will suggest that you postpone, decrease in quantity, or cancel existing replenishment orders.  
 
 ## <a name="planning-calculation"></a>Planning Calculation
 
-The planning system is driven by anticipated and actual customer demand, as well as inventory reordering parameters. Running the planning calculation will result in application suggesting specific actions (Action Messages) to take concerning possible replenishment from vendors, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
+The planning system is driven by anticipated and actual customer demand, as well as stock reordering parameters. Running the planning calculation will result in application suggesting specific actions ([Action Messages](production-how-to-run-mps-and-mrp.md#action-messages)) to take concerning possible replenishment from suppliers, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
 
 The basis of the planning routine is in the gross-to-net calculation. Net requirements drive planned order releases, which are scheduled based on the routing information (manufactured items) or the item card lead time (purchased items). Planned order release quantities are based on the planning calculation, and are affected by the parameters set on the individual item cards.  
+
+> [!TIP]
+> The planning system relies on how your organisation uses locations. For more information, see [Planning With or Without Locations](production-planning-with-without-locations.md).
 
 ## <a name="planning-with-manual-transfer-orders"></a>Planning with Manual Transfer Orders
 
 As you can see from the **Replenishment System** field on a SKU card, the planning system can be set up to create transfer orders to balance supply and demand across locations.  
 
-In addition to such automatic transfer orders, you may sometimes need to perform a general move of inventory quantities to another location, irrespective of existing demand. For this purpose you would manually create a transfer order for the quantity to move. To ensure that the planning system does not try to manipulate this manual transfer order, you must set the **Planning Flexibility** on the transfer line(s) to None.  
+In addition to such automatic transfer orders, you may sometimes need to perform a general move of stock quantities to another location, irrespective of existing demand. For this purpose you would manually create a transfer order for the quantity to move. To ensure that the planning system does not try to manipulate this manual transfer order, you must set the **Planning Flexibility** on the transfer line(s) to None.  
 
 Contrarily, if you do want the planning system to adjust the transfer order quantities and dates to existing demand, you must set the **Planning Flexibility** field to the default value, Unlimited.
 
@@ -59,7 +62,7 @@ The following planning parameters exist on the item or SKU card:
 - Dampener Quantity  
 - Reordering Policy  
 - Reorder Point
-- Maximum Inventory  
+- Maximum Stock  
 - Overflow Level  
 - Time Bucket  
 - Lot Accumulation Period  
@@ -94,9 +97,9 @@ For more information, see [Design Details: Planning Parameters](design-details-p
 
 ### <a name="planning-flexibility"></a>Planning Flexibility
 
-On most supply orders, such as production orders, you can select **Unlimited** or **None** in the **Planning Flexibility** field on the lines.
+On most supply orders, such as works orders, you can select **Unlimited** or **None** in the **Planning Flexibility** field on the lines.
 
-This specifies whether the supply represented by the production order line is considered by the planning system when calculating action messages.
+This specifies whether the supply represented by the works order line is considered by the planning system when calculating action messages.
 If the field contains **Unlimited**, then the planning system includes the line when calculating action messages. If the field contains **None**, then the line is firm and unchangeable, and the planning system does not include the line when calculating action messages.
 
 ### <a name="warning"></a>Warning
@@ -110,16 +113,16 @@ The **Warning** information field on the **Planning Worksheet** page informs you
 
 The emergency warning is displayed in two situations:
 
-- The inventory is negative on the planning starting date.
+- The stock is negative on the planning starting date.
 - Back-dated supply or demand events exist.
 
-If an item's inventory is negative on the planning starting date, the planning system suggests an emergency supply order for the negative quantity to arrive on the planning starting date. The warning text states the starting date and the quantity of the emergency order.
+If an item's stock is negative on the planning starting date, the planning system suggests an emergency supply order for the negative quantity to arrive on the planning starting date. The warning text states the starting date and the quantity of the emergency order.
 
 Any document lines with due dates before the planning starting date are consolidated into one emergency supply order for the item to arrive on the planning starting date.
 
 ### <a name="exception"></a>Exception
 
-The exception warning is displayed if the projected available inventory drops below the safety stock quantity.
+The exception warning is displayed if the projected available stock drops below the safety stock quantity.
 
 The planning system will suggest a supply order to meet the demand on its due date. The warning text states the item's safety stock quantity and the date on which it is violated.
 
@@ -133,7 +136,7 @@ Violating the safety stock level is considered an exception because it should no
 The attention warning is displayed in two situations:
 
 - The planning starting date is earlier than the work date.
-- The planning line suggests to change a released purchase or production order.
+- The planning line suggests to change a released purchase or works order.
 
 > [!NOTE]
 > In planning lines with warnings, the **Accept Action Message** field is not selected, because the planner is expected to further investigate these lines before carrying out the plan.
@@ -150,7 +153,7 @@ The **Requisition Worksheet** page lists items that you want to order. You can e
 
 - Use the **Calculate Plan** batch job. This calculates a replenishment plan for items and stockkeeping units that have been set up with a replenishment system of **Purchase** or **Transfer**. When you use this batch job, the program automatically fills in the **Action Message** field with a suggestion for an action you can take to replenish the item. This could be increasing the item quantity on an existing order or creating a new order, for example.
 
-- If you have used the **Calculate Plan** batch job from the **Planning Worksheet** page to calculate a replenishment plan, you can use the **Carry Out Action Message** batch job to copy purchase and transfer order proposals from the planning worksheet to the requisition worksheet. This is practical if separate users are responsible for handling production orders and purchase/transfer orders.
+- If you have used the **Calculate Plan** batch job from the **Planning Worksheet** page to calculate a replenishment plan, you can use the **Carry Out Action Message** batch job to copy purchase and transfer order proposals from the planning worksheet to the requisition worksheet. This is practical if separate users are responsible for handling works orders and purchase/transfer orders.
 
 - You can use the **Drop Shipment** action to fill in the requisition worksheet lines. This action uses the **Get Sales Orders** batch job to determine the sales order lines that you want to designate for a drop shipment.
 
@@ -166,7 +169,7 @@ For details about planning with locations and transfers, see [Planning With or W
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
-[Inventory](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -1,5 +1,5 @@
 ---
-title: Design Details - Expected Cost Posting | Microsoft Docs
+title: Design Details - Expected Cost Posting
 description: Expected costs represent the estimation of, for example, a purchased item’s cost that you record before you receive the invoice for the item.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: 181b0168dc73aba7bb4d09b7cda7a2ce7028e142
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215285"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649844"
 ---
 # <a name="design-details-expected-cost-posting"></a>Design Details: Expected Cost Posting
 Expected costs represent the estimation of, for example, a purchased item’s cost that you record before you receive the invoice for the item.  
@@ -29,10 +29,22 @@ Expected costs represent the estimation of, for example, a purchased item’s co
 
  To support reconciliation and traceability work, the invoiced value entry shows the expected cost amount that has been posted to balance the interim accounts.  
 
-## <a name="example"></a>Example  
- The following example shows expected cost if the **Automatic Cost Posting** check box and the **Expected Cost Posting to G/L** check box are selected on the **Stock Setup** page.  
+## <a name="prerequisites-for-posting-expected-costs"></a>Prerequisites for posting expected costs
 
- You post a purchase order as received. The expected cost is LCY 95.00.  
+To make it possible to post expected costs you need to do the following:
+1. On the **Stock Setup** page, select the **Automatic Cost Posting** check box and the **Expected Cost Posting to G/L** check box.
+2. Set up which interim accounts to use during the expected cost posting process.  
+
+  On the **Stock Posting Setup** page, verify the **Stock Account** and the **Stock Account (Interim)** fields for the **Location Code and Invt. Posting Group Code** of the item you will be purchasing. To learn more about these accounts see [Design Details - Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).
+3. On the **General Posting Setup** page, verify the **Invt. Accrual Acc. (Interim)** field for the **Gen. Bus. Posting Group** and the **Gen. Prod. Posting Group** you will be using.
+4. When you create a purchase order the default is that the **Supplier Invoice No.** field is required. You need to turn that off on the **Purchase & Payables Setup** page, by unselecting the **Ext. Doc. No. Mandatory** field.
+
+## <a name="example"></a>Example  
+
+> [!NOTE]  
+> The account numbers used in this example are there for reference only, and will be different in your system. Set them up as directed in the Prerequisites above.
+
+You post a purchase order as received. The expected cost is LCY 95.00.  
 
  **Value Entries**  
 
@@ -73,7 +85,7 @@ Expected costs represent the estimation of, for example, a purchased item’s co
 
  **General Ledger Entries**  
 
-|Posting Date|G/L Account|Account No. (En-US Demo)|Amount|Entry No.|  
+|Posting Date|G/L Account|Account No. (Examples only!)|Amount|Entry No.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |01-15-20|Stock Accrual Account (Interim)|5530|95.00|4|  
 |01-15-20|Stock Account (Interim)|2131|-95.00|3|  

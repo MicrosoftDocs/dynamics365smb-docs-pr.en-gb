@@ -151,7 +151,7 @@
 #### [Register New Items](inventory-how-register-new-items.md)
 #### [Copy Existing Items to Create New Items](inventory-how-copy-items.md)
 #### [About Item Types](inventory-about-item-types.md)
-#### [Set Up Units of Measurement](inventory-how-setup-units-of-measure.md)
+#### [Set Up units of measurement](inventory-how-setup-units-of-measure.md)
 #### [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Categorise Items](inventory-how-categorize-items.md)
 #### [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
@@ -236,7 +236,6 @@
 #### [Gather Customer Setup Data](admin-gather-customer-setup-values.md)
 #### [Prepare to Migrate Customer Data with Templates](admin-use-templates-to-prepare-customer-data-for-migration.md)
 #### [Migrate Customer Data](admin-migrate-customer-data.md)
-#### [Create Custom Company Configuration Packages](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Setting Up Email
 #### [Set Up Email](admin-how-setup-email.md)
@@ -534,7 +533,11 @@
 #### [Update Standard Costs](finance-how-to-update-standard-costs.md)
 #### [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### [Reconcile Stock Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+#### Reporting Costs and Reconciling with the General Ledger
+##### [Reporting Costs](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Reconcile Stock Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+##### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
+#### [Adjust and Reconcile Stock Cost with General Ledger with Job Queue](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Managing Cash Flow
 #### [Cash Flow Overview](finance-cash-flow-overview.md)
@@ -722,6 +725,8 @@
 ### [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replan or Refresh Works Orders Directly](production-how-to-replan-refresh-production-orders.md)
 ### [Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
+### [Requisition Worksheet](production-about-planning-functionality.md#requisition-worksheet)
+### [Action Messages](production-how-to-run-mps-and-mrp.md#action-messages)
 <!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
 <!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
@@ -1604,9 +1609,9 @@
 ### [Inspecting Pages](across-inspect-page.md)
 ### [Viewing Database Locks](admin-view-database-locks.md)
 ### [Viewing Table Information](admin-view-table-information.md)
-### [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
 ### [Enabling New Features Ahead of Time](admin-feature-management.md)
 ### [Onboard Users with Checklists](admin-checklist.md)
+### [Sandbox Environments](across-how-create-sandbox-environment.md)
 ## Customising Business Central
 ### [Customisation Overview](ui-customizing-overview.md)
 ### [Customise Pages for Profiles](ui-personalization-manage.md)

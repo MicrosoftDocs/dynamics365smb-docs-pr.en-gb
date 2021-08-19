@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443161"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649894"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Prepare to Migrate Customer Data with Templates
 
@@ -124,6 +124,7 @@ Any record whose data is applied in this manner is complete, because it consists
 > [!NOTE]
 > If the data in the tables in the configuration package contains dates, for example, posting dates on invoices, the dates are considered in the time zone specified in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
+
 ## <a name="to-create-a-record-from-a-configuration-template"></a>To create a record from a configuration template
 
 You can use the structure of data that is contained in the data templates to convert your information into records in the database, one-by-one. To do so, you use the **Create Instance** function. This is a miniature version of the data migration process and can be useful for prototyping or treating smaller data creation tasks.  
@@ -137,6 +138,15 @@ The following steps illustrate how to create an item card from an item data temp
 5. To review the new item card, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 6. Open the new item card.  
 7. Expand various FastTabs, and verify that the information was created correctly on them.  
+
+## <a name="to-use-conversion-templates"></a>To use conversion templates
+
+You can convert contacts into customers, suppliers and employees. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>To convert a contact into a customer, supplier or employee
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then select the correct contact. 
+2. On the Contact Card select **Actions**, then **Functions** and then select **Create as Customer, Supplier, Bank, or Employee**.
+
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>To use a configuration template on a record
 
@@ -152,6 +162,9 @@ The following procedure is based on a new customer card.
 3. On the **Customer Templates** page, select one of the templates, and then choose the **OK** button.  
 
 The default values from the chosen customer template are inserted on the customer card.
+
+> [!NOTE]
+> You cannot use Apply Template to blank out fields on customers, suppliers, and the like. Instead you need to use the **Edit in Excel** functionality. For more information, see [Edit in Excel](across-work-with-excel.md#edit-in-excel).
 
 ## <a name="see-also"></a>See Also
 

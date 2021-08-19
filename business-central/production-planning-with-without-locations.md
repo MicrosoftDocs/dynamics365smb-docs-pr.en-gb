@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/22/2021
+ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4f67eab27c95e4786b8f1d5949d678105ea21999
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: fa1b63bb94152c130077907dbe2d4e0d08281f40
+ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319156"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "6635998"
 ---
 # <a name="planning-with-or-without-locations"></a>Planning With or Without Locations
 Concerning planning with or without location codes on demand lines, the planning system operates in a straight forward way when:  
@@ -25,16 +25,20 @@ Concerning planning with or without location codes on demand lines, the planning
 
 However, if demand lines sometimes have location codes and other times do not, the planning system will follow certain rules depending on setup.  
 
+> [!TIP]
+> If you often plan for demand at different locations, then we recommend that you use the Stockkeeping Units capability.
+
 ## <a name="demand-at-location"></a>Demand at Location  
+
 When the planning system detects demand at a location (a line with a location code), it will behave in different ways depending on 3 critical setup values.  
 
 During a planning run, the system checks for the 3 setup values in sequence and plans accordingly:  
 
-1.  Is there a check mark in the **Location Mandatory** field?  
+1. Is there a check mark in the **Location Mandatory** field in the **Stock Setup** page?  
 
     If yes, then:  
 
-2.  Does SKU exist for the item?  
+2. Does SKU exist for the item?  
 
     If yes, then:  
 
@@ -42,7 +46,7 @@ During a planning run, the system checks for the 3 setup values in sequence and 
 
     If no, then:  
 
-3.  Does the **Components at Location** field contain the demanded location code?  
+3. Does the **Components at Location** field in the **Manufacturing Setup** page contain the demanded location code?  
 
     If yes, then:  
 
@@ -53,9 +57,18 @@ During a planning run, the system checks for the 3 setup values in sequence and 
     The item is planned according to: Reordering Policy =  *Lot-for-Lot*, Include Stock =  *Yes*, all other planning parameters = Empty. (Items using reordering policy  *Order* remain using  *Order* as well as the other settings.)  
 
 > [!NOTE]  
->  This minimal alternative only covers the exact demand. Any planning parameters defined are ignored.  
+> This minimal alternative only covers the exact demand. Any planning parameters defined are ignored.  
 
 See variations in the scenarios below.  
+
+> [!TIP]
+> The **Locations Mandatory** field in the **Stock Setup** page and the **Components at Location** field in the Manufacturing Setup page are very important in governing how the planning system handles demand lines with/without location codes.
+>
+> For production demand that is purchased (when the planning engine is used solely for purchase planning and not for production planning), [!INCLUDE [prod_short](includes/prod_short.md)] will use the same location for components as the one stated on the works order. However, by filling in this field, you can redirect the components to another location.
+>
+> You can also define this for a specific SKU by selecting a different location code in the **Components at Location** field on the SKU card. Note, however, that this rarely makes sense as the planning logic may be distorted when planning for the SKU component.
+
+Another important field is the **Maximum Order Quantity** field on the **Item** card. It specifies a maximum allowable quantity for an item order proposal and is used if the item is delivered in a fixed transportation unit, such as a container, which you want to be fully utilised, for example. Once the need for replenishment has been detected and the lot size has been adjusted to meet the specified reordering policy, the quantity is decreased if it is required to meet the maximum order quantity that you define for the item. If additional requirements remain, then new orders are calculated to meet them. You generally use this field with a make-to-stock manufacturing policy.  
 
 ## <a name="demand-at-blank-location"></a>Demand at "Blank Location"  
 Even if the **Location Mandatory** check box is selected, the system will allow demand lines to be created without a location code – also referred to as *BLANK* location. This is a deviation for the system because it has various setup values tuned to dealing with locations (see above) and as a result, the planning engine will not create a planning line for such a demand line. If the **Location Mandatory** field is not selected but any of the location setup values exist, then that is also considered a deviation and the planning system will react by outputting the "minimal alternative":   
@@ -133,15 +146,17 @@ The item is planned according to planning parameters on the item card.
 
 As you can see from the last scenario, the only way to get a correct result for a demand line without a location code is to disable all setup values relating to locations. Similarly, the only way to get stable planning results for demand at locations is to use stockkeeping units.  
 
-Therefore, if you often plan for demand at locations, it is strongly advised to use the Stockkeeping Units feature.  
+Therefore, if you often plan for demand at locations, then we recommend that you use the Stockkeeping Units capability.  
 
 ## <a name="see-also"></a>See Also
-[Planning](production-planning.md)    
+
+[Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
-[Manufacturing](production-manage-manufacturing.md)    
+[Manufacturing](production-manage-manufacturing.md)  
 [Stock](inventory-manage-inventory.md)  
+[Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Design Details: Supply Planning](design-details-supply-planning.md)   
+[Design Details: Supply Planning](design-details-supply-planning.md)  
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
