@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/27/2021
+ms.date: 08/19/2021
 ms.author: edupont
-ms.openlocfilehash: 2a3d35672905094e714f85ac4758cbf39ec88cb6
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.openlocfilehash: 3dcda7f44797f52e50babe4dbec90e3b2be6f19d
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688321"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440745"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Design Details: Posting Date on Adjustment Value Entry  
 
@@ -94,7 +94,7 @@ First allowed posting date is the first day in the first open period. September 
 |Register Time:       |         |
 |Local Address Format:|   postcode      |  
 
- First allowed posting date is the date stated in field Allow Posting From: September 1, 2020.  
+ First allowed posting date is the date stated in field Allow Posting From: September 10, 2020.  
  If both Stock Periods and allowed posting dates in General Ledger Setup are defined, the later date of the two will define the allowed posting date range.  
 
  Step 3: Assignment of an allowed posting date;  
@@ -164,7 +164,7 @@ Sorting: User ID
 
 |User ID  |Allow Posting From  | Allow Posting To  |
 |---------|---------|--------|
-|<name> |  2020-09-11      |2020-09-30      |
+|USERNAME |  2020-09-10      |2020-09-30      |
 
  Assigning the user a wider (or same) allowed posting date range as in Stock Period or General Ledger Setup, mentioned conflict will be avoided. The Adjustment Value Entry with Posting Date September 10th will be posted successfully with this setup.
 

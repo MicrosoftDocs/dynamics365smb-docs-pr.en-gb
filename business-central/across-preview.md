@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 06/07/2021
+ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: c3d12e316e78516d355c7d1313cd37bbeedb7a29
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 06465c028c0721c5992a334400cdc975120bdeb7
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216060"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482451"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions
 
@@ -78,9 +78,14 @@ Each time you sign in during the trial period, a notification in a blue bar at t
 
 You can also contact the [[!INCLUDE[prod_short](includes/prod_short.md)] Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
+> [!TIP]
+> [!INCLUDE [admin-license-trial](includes/admin-license-trial.md)]
+
+For more information about what you can do with [!INCLUDE [prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md) and [Business Functionality](across-business-functionality.md).  
+
 ## <a name="getting-started-with-sandboxes"></a>Getting Started with Sandboxes
 
-Sandbox environments can be a way for you to practise with [!INCLUDE[prod_short](includes/prod_short.md)]. Think of a sandbox as a non-production environment that you can use on top of your production instance of [!INCLUDE[prod_short](includes/prod_short.md)]. For example, if you want to take the free online training from [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), your administrator can [create a sandbox environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment) so that you and your colleagues can practice there rather than in your production environment.  
+Sandbox environments can be a way for you to practise with [!INCLUDE[prod_short](includes/prod_short.md)]. Think of a sandbox as a non-production environment that you can use on top of your production instance of [!INCLUDE[prod_short](includes/prod_short.md)]. For example, if you want to take the free online training from [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), your administrator can [create a sandbox environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment) so that you and your colleagues can practise there rather than in your production environment.  
 
 If you are a developer, a sandbox lets you safely build and test extensions and develop new functionality to customise the service without affecting the data and settings of your production environment.  
 

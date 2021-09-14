@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: getaddress.io, postcodes, extension
 ms.date: 06/25/2021
 ms.author: bholtorf
-ms.openlocfilehash: aa81440338f00873779e974605ad9f56be7baf0e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d5904e02d4b74117edf693f7174b9e58e23d6ee7
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438025"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482215"
 ---
 # <a name="set-up-the-getaddressio-uk-postcodes-extension-in-the-british-version"></a>Set Up the GetAddress.io UK Postcodes Extension in the British Version
 
@@ -23,7 +23,7 @@ This extension makes it easy to enter addresses in the United Kingdom (UK) for e
 
 The GetAddress.io UK Postcodes extension uses the getAddress API to find addresses in postcodes in the UK. To use the extension, you need to get a plan and an API Key for the getAddress API. We help you do that when you set up the GetAddress.io UK Postcodes extension. Plans are based on use, or what are sometimes referred to as "calls." A call, in this case, is when [!INCLUDE[prod_short](../../includes/prod_short.md)] displays a list of addresses in a postcode. Depending on how often you add addresses, choose the plan that is best for you. If you just choose **Get API Key** you will use the **Free** plan, which lets you add 20 addresses per day, and is valid for 30 days.
 
-##<a name="to-set-up-the-getaddressio-uk-postcodes-extension"></a>To set up the GetAddress.io UK Postcodes extension
+## <a name="to-set-up-the-getaddressio-uk-postcodes-extension"></a>To set up the GetAddress.io UK Postcodes extension
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose the related link.  
 2. On the **Service Connections** page, choose **UK Postcode Service**.
 3. On the **Postcode provider configuration** page, choose **Disabled**.

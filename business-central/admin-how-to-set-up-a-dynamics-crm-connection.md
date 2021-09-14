@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0afad844bc58089548885b8e7dcce8c4b947cea9
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
+ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6636049"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440548"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Connect to Microsoft Dataverse
 
@@ -111,15 +111,16 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!NOTE]
 > This section is relevant only for Business Central online tenants that are hosted by Microsoft. Online tenants hosted by ISVs, and on-premises installations, are not affected.
 
-In April, 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is deprecating the Office365 authentication type (username/password). For more information, see [Deprecation of Office365 authentication type](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Additionally, in March, 2022, [!INCLUDE[prod_short](includes/prod_short.md)] is deprecating the use of client secret based service-to-service authentication for online tenants, and will require the use of certificate-based service-to-service authentication for connections to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[cds_long_md](includes/cds_long_md.md)] online tenants that are hosted by ISVs, and on-premises installations, can continue to use the Office365 authentication that is set up by their Microsoft partner.
+In April, 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is deprecating the Office365 authentication type (username/password). For more information, see [Deprecation of Office365 authentication type](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Additionally, in March, 2022, [!INCLUDE[prod_short](includes/prod_short.md)] is deprecating the use of client secret based service-to-service authentication for online tenants, and will require the use of certificate-based service-to-service authentication for connections to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online tenants that are hosted by ISVs, and on-premises installations, can continue to use client secret authentication to connect to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 To avoid disrupting integrations, _you must upgrade_ the connection to use certificate-based authentication. Although the change is scheduled for March, 2022, we strongly recommend that you upgrade as soon as possible. The following steps describe how to upgrade to certificate-based authentication. 
 
 ### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>To upgrade your Business Central online connection to use certificate-based authentication
+
 > [!NOTE]
 > Certificate-based authentication is available in Business Central 2021 release wave 1 and later. If you are using an earlier version, you must schedule an update to Business Central 2021 release wave 1 before March, 2022. For more information, see [Scheduling updates](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). If you experience issues, contact your partner or support.
 
-1. In the [Business Central administration centre]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), verify that you are using Business Central 2021 release wave 1 or later (version 18 or later).
+1. In the [Business Central administration centre](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), verify that you are using Business Central 2021 release wave 1 or later (version 18 or later).
 2. Depending on whether you integrate with Dynamics 365 Sales, do one of the following:
    * If you do, open the **Microsoft Dynamics 365 Connection Setup** page.
    * If you don't, open the **Dataverse Connection Setup** page.

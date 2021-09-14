@@ -91,6 +91,7 @@
 ### [Extending Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Buy
+### [Getting Started with a Subscription](across-preview.md#getting-started-with-a-subscription)
 ### [Getting Ready for Doing Business](ui-get-ready-business.md)
 
 <!--setup-->
@@ -151,7 +152,7 @@
 #### [Register New Items](inventory-how-register-new-items.md)
 #### [Copy Existing Items to Create New Items](inventory-how-copy-items.md)
 #### [About Item Types](inventory-about-item-types.md)
-#### [Set Up units of measurement](inventory-how-setup-units-of-measure.md)
+#### [Set Up Units of Measurement](inventory-how-setup-units-of-measure.md)
 #### [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Categorise Items](inventory-how-categorize-items.md)
 #### [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
@@ -649,9 +650,10 @@
 ### [View the Availability of Items](inventory-how-availability-overview.md)
 ### [Transfer Stock Between Locations](inventory-how-transfer-between-locations.md)
 ### [Reserve Items](inventory-how-to-reserve-items.md)
+### [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md)
 ### [Track Items with Serial, Lot, and Package Numbers](inventory-how-work-item-tracking.md)
-### [Use Item Cross References](inventory-how-use-item-cross-refs.md)
 ### [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)
+### [Use Item Cross References](inventory-how-use-item-cross-refs.md)
 ### [Block Items](inventory-how-block-items.md)
 ### [Work with Responsibility Centres](inventory-responsibility-centers.md)
 

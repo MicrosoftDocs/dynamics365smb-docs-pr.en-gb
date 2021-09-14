@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: b738eeef9771185c6907d963f368c462ae02f2d2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543254"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440398"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Sales Reports and Analytics in Business Central
 
@@ -36,6 +36,7 @@ The following table describes some of the key reports in sales reporting.
 |**Warehouse Shipment Status**|7313|This report can be used for all locations where the **Require Shipment** field is selected. The **Warehouse Shipment Status** report shows you all unposted warehouse shipment documents, including the locations, bin codes, document status, quantities, and so on. This report is perfect to get an overview.|
 |**Stock Picking List**|813|Displays a list of the sales orders in which an item is included. The following information is shown for each item: Sales order line with the name of the customer, variant code, location code, bin code, shipment date, quantity to be shipped, and unit of measurement. The quantity to be shipped is totalled for each item. The report can be used when items will be collected from the stock.<br>**Note**: This report is not available for advanced warehouse functionality.|
 |**Stock Sales Back Orders**|718|Shows a list with the order lines whose shipment date has been exceeded. The following information is shown for the individual orders for each item: number, customer name, customer's telephone number, shipment date, order quantity and quantity on back order. The report also shows whether there are other items for the customer on back order.|
+|**Stock Order Details**|708|Displays a list of the orders that have not yet been shipped and the items in the orders. It shows the order number, customer's name, shipment date, order quantity, delayed quantity, outstanding quantity, and unit price, as well as any potential discount percentage and amount. The quantity on back order and outstanding quantity and amount are totalled for each item. Use the report to find out whether there are currently shipment problems or any can be expected.|
 
 
 

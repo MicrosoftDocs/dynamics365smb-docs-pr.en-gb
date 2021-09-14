@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 04/01/2021
+  ms.date: 08/24/2021
   ms.author: edupont
-  ms.openlocfilehash: 4d4864b0baa6b8455e51931701d72eea8923545f
-  ms.sourcegitcommit: 0c8428e1468d4f5c18fbe35c79d6bbe509b79620
+  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
+  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
   ms.translationtype: HT
   ms.contentlocale: en-GB
-  ms.lasthandoff: 06/01/2021
-  ms.locfileid: "6124010"
+  ms.lasthandoff: 08/27/2021
+  ms.locfileid: "7440698"
 title: Frequently Asked Questions about Using Business Central
 summary: "This section contains answers to frequently asked questions about signing up for a trial, buying a subscription, and using [!INCLUDE[prod_short](includes/prod_short.md)]. You can also learn how to get technical support.  \n"
 sections:
@@ -67,6 +67,10 @@ sections:
       What are the service level agreements for the cloud?
     answer: >
       [!INCLUDE [service-terms](includes/service-terms.md)]
+  - question: >
+      How often does Business Central online get updated?
+    answer: >
+      [!INCLUDE[prod_short](includes/prod_short.md)] online is a service that consists of a Microsoft-maintained platform and business functionality. Many Microsoft partners provide extra business functionality, such as to address specific industry or localisation needs. Both business functionality and service components are monitored continuously and updated as appropriate. You can always refer to the [release plan](/dynamics365/release-plans/) for an overview of new and upcoming functionality. For more information, see [Service Overview for Business Central Online](/dynamics365/business-central/dev-itpro/service-overview) (in English only) and [New and Planned](product-news.md).
   - question: >
       Our administrator has moved me to another plan to give me another role, but I still see the same Home screen in Business Central?
     answer: "This is a bit complicated, but it looks like your administrator didn't change your assigned role and assign user groups that match the new licence. Essentially, your access to [!INCLUDE[prod_short](includes/prod_short.md)] is determined by the type of plan (licence) that you have - this sets permissions, your assigned role and your default Home screen. You can change your current role manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home screen because your permissions were not changed.  \n"
