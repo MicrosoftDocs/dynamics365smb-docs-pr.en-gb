@@ -78,7 +78,7 @@ The following procedures describe how to complete Phyllis' tasks:
 
 #### <a name="to-block-shipments-for-unpaid-prepayment"></a>To block shipments for unpaid prepayment
 
-1.  On the **Sales & Receivables Setup** page, on the **General** FastTab, select the **Cheque Prepayment when Posting** check box.
+1.  On the **Sales & Receivables Setup** page, on the **General** FastTab, select the **Check Prepayment when Posting** check box.
 
 Now you cannot ship or invoice an order that has an unpaid prepayment amount.  
 
