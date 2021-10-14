@@ -10,18 +10,21 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ef2c12ea5e956b9bfdaeb2c464ac74684b630c48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 420a94c3996840c2d75687f533e06625258ca0f7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440857"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588183"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 In this article, you learn how to install the [!INCLUDE [prod_short](includes/prod_short.md)] App for [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.
+
+> [!NOTE]
+> Your administrator may have set things up so that the app is automatically installed for you. To check whether the app is installed, open Teams, then choose **Apps**. Search for **Business Central**, then choose it when you find it. If you see **Open** on the **Business Central** page, the app is already installed.  
 
 ## <a name="prerequisites"></a>Prerequisites
 
@@ -35,9 +38,9 @@ In this article, you learn how to install the [!INCLUDE [prod_short](includes/pr
 
 ## <a name="add-the-business-central-app-to-teams"></a>Add the Business Central app to Teams
 
-There are two ways to install the Business Central app:
+There are three ways to install the Business Central app:
 
-**Option 1**
+**Option 1: From a link**
 
 This option is the quickest way to install the app.
 
@@ -49,16 +52,23 @@ This option is the quickest way to install the app.
 
 3. Select **Add**.
 
-**Option 2**
+**Option 2: From Teams**
 
 1. Open and sign in to Teams.
 2. In the left side, select **Apps**.
 3. Search for **Business Central**.
-4. Select the app when you find it.
-5. Select **Add**.
+4. Choose the app when you find it.
+5. Choose **Add**.
 
 > [!NOTE]
 > With either option, You may be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)]. Select the **sign in** link, and follow the instructions to enter sign-in name and password for [!INCLUDE [prod_short](includes/prod_short.md)].
+
+**Option 3: From Business Central**
+
+1. Open Business Central.
+2. Choose the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Get the Business Central app for Teams**, and then choose the related link.  
+3. Choose **Get the app from store**.
+4. Wait for Teams to open and the Business Central app to appear, then choose **Add**.
 
 ## <a name="next-step"></a>Next step
 

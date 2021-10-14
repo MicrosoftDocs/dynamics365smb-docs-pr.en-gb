@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: b4f6894c0d9c5a23445f70b2a50fcd677b17be66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2734f4d65869ba666a53333c9338239a1cb1a1b4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438414"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588233"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Create Workflows to Connect Business-Process Tasks
 
@@ -133,7 +133,7 @@ In the following example a new workflow is made to approve changes to the name o
     2. In the **On Condition** field, choose the word **Always**, and then, in the **Event Conditions** page, choose the **Add a condition for when a field value changes** link, and then select the *Name* field.  
 
       The result of this step is that the condition reads as *Name is Changed*.  
-    3. In the **Then Response** field, choose the **Select Response** link, and then, in the **Workflow Responses** page, in the **Select Response** field, choose the *Revert the value of the <Field> field on the record and save the change* response, and then, in the **Options for the Selected Response** section, specify the *Name* field.  
+    3. In the **Then Response** field, choose the **Select Response** link, and then, in the **Workflow Responses** page, in the **Select Response** field, choose the *Revert the value of the \<Field\> field on the record and save the change* response, and then, in the **Options for the Selected Response** section, specify the *Name* field.  
     4. Choose the **Add More Responses** link, and then add an entry for the *Create an approval request for the record using approver type <%1> and <%2>.* response.  
     5. In the **Options for the Selected Response** section for the new response, change the **Approver type** field to *Workflow User Group*, and then, in the **Workflow User Group** field, specify the relevant user group.  
 

@@ -41,7 +41,10 @@
 ##### [Design Details: Item Application](design-details-item-application.md)  
 ##### [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
-##### [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### Design Details: Posting Date on Adjustment Value Entry
+###### [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
+###### [Error Message "Posting Date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+###### [Posting Date on Adjustment Value Entry Compared to the Source Entry](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
 ##### [Design Details: Average Cost](design-details-average-cost.md)  
 ##### [Design Details: Variance](design-details-variance.md)  
@@ -94,6 +97,12 @@
 ### [Getting Started with a Subscription](across-preview.md#getting-started-with-a-subscription)
 ### [Getting Ready for Doing Business](ui-get-ready-business.md)
 
+## Quick Starts
+### [Business Central Quick Starts](quick-start-business-central.md)
+### [Set up Company Information](quick-start-company-information.md)
+### [Sell Products and Services](quick-start-sell-products-and-services.md)
+### [Buy Products and Services](quick-start-procurement.md)
+
 <!--setup-->
 ## Setting Up Business Central
 ### [Overview of Tasks](setup.md)
@@ -133,6 +142,7 @@
 #### [Register New Customers](sales-how-register-new-customers.md)
 #### [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md)
 #### [Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Set Up Customer Price Groups](sales-how-to-set-up-customer-price-groups.md)
 #### [Set Up Salespeople](sales-how-setup-salespeople.md)
 #### [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)
 #### [Send Documents by Email](ui-how-send-documents-email.md)
@@ -240,14 +250,16 @@
 #### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Setting Up Email
 #### [Set Up Email](admin-how-setup-email.md)
-#### Set Up Your Business Inbox in Microsoft Outlook 
-##### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
+#### Set Up Your Business Inbox in Microsoft Outlook
+##### [Get the Business Central Add-in for Outlook](admin-outlook.md)
+##### [Using Business Central as Your Business Inbox in Outlook](work-outlook-addin.md)
 ##### [Synchronise with Contacts in Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Optimise Outlook](admin-outlook-optimize.md)
-##### [Using Business Central Without Outlook](admin-no-outlook.md)
+##### [Using Business Central without Outlook](admin-no-outlook.md)
 ### Setting Up Reports
 #### [Report Selection](across-report-selections.md)
 ### Setting Up Connections
+#### [Get the Business Central Add-in for Excel](admin-deploy-excel-addin.md)
 #### Using Business Central as Your Business Inbox in Outlook 
 ##### [Overview](admin-outlook.md)
 ##### [Synchronise with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
@@ -257,10 +269,15 @@
 ##### [Managing Teams Integration](admin-teams-integration.md)
 ##### [Installing Business Central App for Teams](across-install-app-for-teams.md)
 ##### [Searching for Customers, Suppliers, and Contacts](across-search-contacts-teams.md)
-##### [Sharing Records in Teams](across-working-with-teams.md)
+##### [Sharing Records and Page Links in Teams](across-working-with-teams.md)
 ##### [Changing Company and Other Settings](across-teams-settings.md)
 ##### [Teams FAQ](teams-faq.md)
 ##### [Troubleshooting](admin-teams-troubleshooting.md)
+#### Using OneDrive for Business with Business Central
+##### [Overview](across-onedrive-overview.md)
+##### [Managing OneDrive for Business Integration](admin-onedrive-integration.md)
+##### [Opening Business Central Files in OneDrive](across-share-onedrive.md)
+##### [OneDrive FAQ](admin-onedrive-faq.md)
 #### Using Power BI with Business Central
 ##### [Introduction](admin-powerbi.md)
 ##### Administrator
@@ -285,6 +302,8 @@
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)
 ### [Get Business Central on Your Mobile Device](install-mobile-app.md)
+### [Get Business Central on Your Desktop](install-desktop-app.md)
+
 
 ## Frequently Asked Questions
 ### [Frequently Asked Questions](across-faq.yml)
@@ -329,7 +348,9 @@
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
 ## [Changing Language and Region](about-locale-language.md)
 ## [Viewing and Editing in Excel](across-work-with-excel.md)
+## [Storing and Sharing Files in OneDrive](across-share-onedrive.md)
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
+## [Using Word Templates for Bulk Communication](ui-mail-merge.md)
 ## [Change Basic Settings](ui-change-basic-settings.md)
 ## [Switching to Another Company or Environment](ui-organization-switch.md)
 ## [Manage Notifications](ui-smart-notifications.md)
@@ -608,6 +629,7 @@
 ### [Make Drop Shipments](sales-how-drop-shipment.md)
 ### [Create Special Orders](sales-how-to-create-special-orders.md)
 ### [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
+### [Process Sales Return Orders](sales-how-process-sales-returns-orders.md)
 ### [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ### [Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)
 ### [Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)
@@ -653,7 +675,7 @@
 ### [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md)
 ### [Track Items with Serial, Lot, and Package Numbers](inventory-how-work-item-tracking.md)
 ### [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)
-### [Use Item Cross References](inventory-how-use-item-cross-refs.md)
+### [Use Item References](inventory-how-use-item-cross-refs.md)
 ### [Block Items](inventory-how-block-items.md)
 ### [Work with Responsibility Centres](inventory-responsibility-centers.md)
 
@@ -951,10 +973,12 @@
 ##### [Fixed Asset Localisation for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Banking and Payments
 ##### [Bank Feature](LocalFunctionality/Czech/bank-feature.md)
+##### [Banking Documents Localisation for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Cash Desk Management](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Cash Desk Localisation for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Advances](LocalFunctionality/Czech/advances.md)
+##### [Advance Payments Localisation for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Payables and Receivables
 ##### [Payables and Receivables](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
@@ -1085,6 +1109,7 @@
 
 ### India
 #### [Overview](LocalFunctionality/India/india-local-functionality.md)
+#### [Setting Up Posting Number Series](LocalFunctionality/India/posting-no-series-setup.md)
 #### Tax Engine
 ##### [Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Tax Engine Import Export configuration](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1161,6 +1186,8 @@
 ##### [TDS Provisional Entry](LocalFunctionality/India/TDS-Provisional-Entries.md)
 ##### [TDS Adjustment Entry](LocalFunctionality/India/TDS-Adjustment-Entries.md)
 ##### [TDS Payment to Authority](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
+##### [TDS 194Q Section Overview](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
+##### [TDS 194Q Transactions](LocalFunctionality/India/TDS-194Q-Transactions.md)
 #### TDS for Customer
 ##### [TDS for Customer Overview](LocalFunctionality/India/TDS-for-Customer-Overview.md)
 ##### [TDS Calculation for Customer](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
@@ -1188,6 +1215,7 @@
 ##### [Subcontracting Transactions](LocalFunctionality/India/Subcontracting-Transactions.md)
 ##### [Create VAT Liability](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
 ##### [Subcontracting Report](LocalFunctionality/India/Subcontracting-Reports.md)
+#### [Stale Cheque](LocalFunctionality/India/Stale-Check.md)
 
 ### Italy
 #### [Local Functionality in the Italian Version](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1603,6 +1631,7 @@
 ### [Logging Changes](across-log-changes.md)
 ### [Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ### [Manage Storage by Compressing Data or Deleting Documents](admin-manage-documents.md)
+### [Archive Data](admin-archive-data.md)
 ### [Defining Data Retention Policies](admin-data-retention-policies.md)
 ### [Publishing a Web Service](across-how-publish-web-service.md)
 ### [Configuring API Templates](admin-configuring-api-template.md)
@@ -1613,7 +1642,7 @@
 ### [Viewing Table Information](admin-view-table-information.md)
 ### [Enabling New Features Ahead of Time](admin-feature-management.md)
 ### [Onboard Users with Checklists](admin-checklist.md)
-### [Sandbox Environments](across-how-create-sandbox-environment.md)
+### [Sandbox Environments](admin-sandbox-environments.md)
 ## Customising Business Central
 ### [Customisation Overview](ui-customizing-overview.md)
 ### [Customise Pages for Profiles](ui-personalization-manage.md)

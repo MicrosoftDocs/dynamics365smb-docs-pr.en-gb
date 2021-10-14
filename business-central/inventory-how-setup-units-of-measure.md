@@ -1,5 +1,5 @@
 ---
-title: How to Set Up Item Units of Measurement| Microsoft Docs
+title: How to Set Up Item Units of Measurement | Microsoft Docs
 description: You can set up multiple units of measurement for an item so that you can assign units of measurement to the item.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 499ed3db4b82a92d147f4fcdffef4df516a80bf1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435554"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588583"
 ---
 # <a name="set-up-units-of-measure"></a>Set Up Units of Measurement
 
@@ -27,6 +27,8 @@ You can set up multiple units of measurement for an item so that you can assign 
 - Assign alternate units of measurement to purchase, production, or sales documents to specify how many units of the base unit of measurement you handle at a time in those processes. For example, you may buy the item on pallets and only use single pieces in your production.
 
 If an item is stocked in one unit of measurement but produced in another, a works order is created that uses a manufacturing batch unit of measurement to calculate the correct quantity of the components during the **Refresh Works Order** batch job. An example of a manufacturing batch unit of measurement calculation is when a manufactured item is stocked in pieces but produced in tons. For more information, see [Work with Manufacturing Batch Units of Measurement](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).  
+
+Another tool that makes it easier to work with multiple units of measurement for items is the ability to specify a rounding precision for base units of measurement. Specifying a rounding precision provides guidance on what someone should enter for a given business process, and helps reduce rounding issues. When you use alternate units of measurement, the value in the **Qty. per Unit of Measurement** field helps calculate the quantity in the base unit of measurement, which can lead to rounding issues. For example, imagine you're receiving one box that contains six items. When the box arrives at your warehouse, you discover that one of the six items is missing. You decide not to post the receipt of one box, but instead change the quantity received to five of six pieces. That would lead to a receipt of 4.99998 pieces, rather than five. On the **Item Units of Measurement** page, the **Quantity Rounding Precision** field lets you specify a value that will convert the quantity to a number that is easier to understand. Continuing with the example, we would enter **1** in the field to round up to an even five pieces.
 
 ## <a name="to-set-up-units-of-measure"></a>To set up units of measurement
 
@@ -57,11 +59,11 @@ When you register a new item, you can choose the base unit of measurement from t
 
     In the **Base Unit of Measurement** field at the bottom of the window, you can view or change the item's base unit of measurement. You can also change the base unit of measurement in the **Base Unit of Measurement** field on the item card. In the **Item Units of Measurement** page, the base unit of measurement must have the value **1** in the **Qty. per Unit of Measurement** field.
 
-You can now use the alternate units of measurement on purchase, production, and sales documents as described in the [To enter a default unit of measurement code for sales and purchasing transactions](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions) section.  
+You can now use the alternate units of measurement on purchase, production, and sales documents. For more information, see [To enter a default unit of measurement code for sales and purchasing transactions](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
 ## <a name="to-set-up-unit-of-measure-translations"></a>To set up unit of measurement translations
 
-When you sell items to foreign customers, you may want to specify the unit of measurement in the customer's language. You can do this after you have set up the necessary unit of measurement translations.
+When you sell items to foreign customers, you might want to specify the unit of measurement in the customer's language. You can do that by specifying translations for units of measurement.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measurement**, and then choose the related link.
 2. Select the code for which you want to set up translations, and then choose the **Translations** action.

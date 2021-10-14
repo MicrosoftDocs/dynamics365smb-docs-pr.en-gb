@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ad1fd27bf6687993fed82ab418d621520e3439a1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7fef0f2ffe23155e840fa89a62b1822fee1efd35
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443213"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589089"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Managing Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -37,8 +37,10 @@ This section describes the minimum requirements for the [!INCLUDE [prod_short](i
     |----|---|---|
     |Search for [!INCLUDE [prod_short](includes/prod_short.md)] contacts.|![check mark.](media/check.png "cheque")|![check mark](media/check.png "cheque")|
     |Paste a link to a [!INCLUDE [prod_short](includes/prod_short.md)] record into a conversation, and send it as a card.|![check mark](media/check.png "cheque")|![check mark](media/check.png "cheque")|
+    |Share a link from a page in [!INCLUDE [prod_short](includes/prod_short.md)] to Teams conversation.|![check mark](media/check.png "cheque")|![check mark](media/check.png "cheque")|
     |View a card of a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "cheque")||
     |View more details of card for a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "cheque")|![check mark](media/check.png "cheque")|
+    |Open a page link in [!INCLUDE [prod_short](includes/prod_short.md)] from a conversation.|![check mark](media/check.png "cheque")|![check mark](media/check.png "cheque")|
 
 - Allow URL previews
 
@@ -68,7 +70,7 @@ For more information, see the following articles in the Microsoft Teams document
 - <a name="permissions"></a>User permissions:
 
     For the most part, the contact search, pages, and data that users can view and edit in a Teams conversation is controlled by their permissions in [!INCLUDE [prod_short](includes/prod_short.md)].
-    
+
     - To search for contacts, users must have at least read permission to the **Contacts** table. 
     - To paste a [!INCLUDE [prod_short](includes/prod_short.md)] link into a Teams conversation and have it expand into a card, users must have at least read permission on the page and its data.
     - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to [!INCLUDE [prod_short](includes/prod_short.md)].
@@ -77,11 +79,35 @@ For more information, see the following articles in the Microsoft Teams document
     
     For information about permissions, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
+## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Installing the Business Central app by using Centralised Deployment
+
+The Microsoft Teams admin centre is where you configure Teams app setup policies for the organisation. In the Teams admin centre, you can use the Centralised Deployment feature to automatically install the Business Central app in Teams for all users in your organisation, specific groups, or individual users.
+
+> [!NOTE]
+> To set up Centralised Deployment, your Teams account must have the **Teams Service admin**  role or the **Global admin** role.
+
+1. In Business Central, choose the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Teams App Centralised Deployment**, and then choose the related link. Or, select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.
+2. Read the information on the **Set up the Business Central app for Teams**, then choose **Next** when ready.
+3. Open the [Teams admin centre](https://go.microsoft.com/fwlink/?linkid=2163970), and complete the following steps.
+    1. Go to **Teams apps** > **Setup policies**.
+    2. Create a new policy or select the policy that you want to use to install the Business Central app, then select **Add apps**.
+    3. In the **Add installed apps** page, search for and select **Business Central**.
+    4. Choose **Add**.
+
+       Business Central should now appear under **Installed apps** for the policy.
+    5. Configure any additional settings, then choose **Save**.
+
+    For more information about setup policies in Teams, see [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) in the Teams documentation.
+4. Go back to **Teams App Centralised Deployment** in Business Central, and select **Done**.
+
+> [!IMPORTANT]
+> It can take up to 24 hours for the app set up policy to be applied and the app deployed to users.
+
 ## <a name="managing-privacy-and-compliance"></a>Managing privacy and compliance 
 
 Microsoft Teams provides extensive controls for compliance and management of sensitive or personally identifiable data&mdash;including data added to chats and channels by the [!INCLUDE [prod_short](includes/prod_short.md)] app.
 
-### <a name="understanding-where-prod_short-cards-are-stored"></a>Understanding where [!INCLUDE [prod_short](includes/prod_short.md)] cards are stored 
+### <a name="understanding-where-prod_short-cards-are-stored"></a>Understanding where [!INCLUDE [prod_short](includes/prod_short.md)] cards are stored
 
 After a card is sent to a chat, the card and the fields shown on the card are copied to Teams. This information is subject to the Teams policies for your organisation, such as data retention policies. When displaying card details, none of the data in the details window is stored in Teams. The data remains stored in [!INCLUDE [prod_short](includes/prod_short.md)] and will only be retrieved by Teams when the user chooses to view the details. 
 

@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ab745b2f0cc98081bfb9640ca9fc2a2161b62ad2
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318591"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588658"
 ---
 # <a name="setting-up-sales"></a>Setting Up Sales
 Before you can manage sales processes, you must configure the rules and values that define the company's sales policies.
 
-You must define the general setup, such as which sales documents are required and how their values are posted. This general setup is typically performed once during the initial implementation.
+You must define the general setup on the **Sales & Receivables** page, such as which sales documents are required, how their values are posted, and the type of lines to create by default. This general setup is typically performed once during the initial implementation.
 
-A separate series of tasks related to registering new customers is to record any special price or discount agreements that you have with each customer.
+A separate series of tasks related to registering new customers is to record any special price or discount agreements that you have with each customer. For more information, see [Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Finance-related sales setup, such as payment methods and currencies, are covered in the Finance Setup section. For more information, see [Setting Up Finance](finance-setup-finance.md).
 

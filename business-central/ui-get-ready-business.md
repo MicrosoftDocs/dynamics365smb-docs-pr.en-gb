@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444827"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589139"
 ---
 # <a name="getting-ready-for-doing-business"></a>Getting Ready for Doing Business
 
@@ -32,7 +32,7 @@ You can also find the list of assisted setup guides if you choose the ![Lightbul
 
 ## <a name="get-started"></a>Get started
 
-Starting with 2021 release wave 1, when you sign in for the first time or launch a new company, the **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)].  
+When you sign in for the first time or launch a new company, the **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)]. Starting with 2021 release wave 2, when you first sign in to the CRONUS demonstration company, your home page is optimised for your first experiences. If you prefer to see more links to more pages, just switch to the Business Manager role. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
 Once you have migrated data, such as suppliers, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if other assisted setup guides on the list can help you.
 
@@ -43,7 +43,7 @@ If an area is not covered by an assisted setup, choose the ![Sprocket icon to op
 >
 > The first time you sign in, you use the **Essential** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
-When you have run an assisted setup guide, it is marked as **Completed**. <!--VERIFY-->  
+When you have run an assisted setup guide, it is marked as **Completed**.  
 
 ## <a name="teaching-tips-and-tours"></a>Teaching tips and tours
 
@@ -80,13 +80,18 @@ When users are created in Microsoft 365, they can be imported into the **Users**
 
 ## <a name="next-steps"></a>Next steps
 
-Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **Actions** section of your home page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration.
+Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **Actions** section of your home page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration. Check out the [quick start](quick-start-business-central.md) articles to help you take the first steps.  
 
 ## <a name="see-also"></a>See also 
 
+[Business Central Quick Starts](quick-start-business-central.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  
+[Accessibility and Keyboard Shortcuts](ui-accessibility.md)  
+[Trials and Subscriptions](across-preview.md)  
+[Business Functionality](across-business-functionality.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md)  
+[Search in the help pane](product-help-and-support.md#search-in-the-help-pane)  
 [Resources for Help and Support](product-help-and-support.md)  
 [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 

@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 04/01/2021
+ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ed814213bea50ceb8d69c107edff450b76d8f7b
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445929"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606392"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Switching to Another Company or Environment
 
@@ -23,12 +23,17 @@ ms.locfileid: "6445929"
 
 ## <a name="switch-to-another-environment"></a>Switch to Another Environment
 
-When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Dynamics 365 Home page. You can open the page by choosing the **App Launcher** icon ![App Launcher.](media/app-launcher-icon.png "The App Launcher provides access to more features") and choosing **Dynamics 365**. To go to your default company in that environment, choose the tile. There will be one tile for each type of environment. If you have more than one environment of a certain type, when you choose the tile you can choose the environment to access.
+When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Office.com. 
 
+1. Select the **App Launcher** icon ![App Launcher.](media/app-launcher-icon.png "The App Launcher provides access to more features").
+2. If you don't see an app for [!INCLUDE[prod_short](includes/prod_short.md)] in the pane that opens, then choose **Office 365**. Then, enter **Business Central** in the **Search** box or select **All Apps** > **Business Apps**.   
+3. There will be one [!INCLUDE[prod_short](includes/prod_short.md)] app listed for each type of environment, like production and sandbox. To switch to another environment, choose the [!INCLUDE[prod_short](includes/prod_short.md)] app for the type of environment it is. If there's more than one environment of a certain type, you'll then be asked to choose the environment to access.
+
+<!--
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.
 
 :::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
-
+-->
 ## <a name="switch-to-another-company"></a>Switch to Another Company
 
 When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], you can quickly switch to another company. After you make the switch, the company you choose becomes your default company and will display the next time you sign in.

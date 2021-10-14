@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef67d3720ea83ead055e9ed2f9e83310c75ac16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442267"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588308"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Depreciate or Amortise Fixed Assets
 Depreciation is used to allocate the cost of fixed assets, such as machinery and equipment, over their depreciable life. For each fixed asset, you must define how it will be depreciated.  
@@ -48,7 +48,10 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
 5. Choose the **Post** action.  
 
 > [!NOTE]
-> If you select the **Use Force No. of Days** field, and the **Force No. of Days** field is set to a value that result in the posting date minus the value of the **Number of Days** fields is a date in the previous calendar year, you cannot post the depreciation. The workaround is to reduce the value of the **Force No. of Days** to no more than than the calculated days until posting date using 30 days/month OR select the **Financial Year 365 Days** field on the depreciation book. We recommend the first option as you may not want to change the use of 30 days/months for depreciation. For more information, see [Financial Year 365 Days Field Depreciation](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+> Known limitation: If you set the **Use Force No. of Days** field to Yes, and the **Force No. of Days** field is set to a value where **Posting Date** minus **Number of Days** results in a date in the previous calendar year, the system will not let you post the depreciation.
+> You can avoid it by reducing the **Force No. of Days** field to no more than than the calculated days until posting date using 30days/month OR set the flag **Financial Year 365 Days** in the Depreciation Book.
+> We recommend the first option as you may not want to change the use of 30days/months for depreciation. For more information, see [Financial Year 365 Days Field Depreciation](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>To post depreciation manually from the fixed asset G/L journal
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.  

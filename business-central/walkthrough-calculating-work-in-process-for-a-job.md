@@ -1,5 +1,5 @@
 ---
-title: Walkthrough - Calculating Work in Progress for a Job | Microsoft Docs
+title: Walkthrough - Calculating Work in Progress for a Job
 description: Jobs involve the consumption of employee hours, machine hours, stock items, and other types of usage that have to be tracked as a job progresses.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58cc257b30829fe0b9a2fe2bdec4ef6e5a5855cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445233"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588124"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Walkthrough: Calculating Work in Progress for a Job
 
@@ -52,7 +52,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
 |Field|Description|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|Leave blank if the job task is a part of a group of tasks.|  
+|**\<blank\>**|Leave blank if the job task is a part of a group of tasks.|  
 |**Total**|Defines the range or group of tasks that are included in the WIP and recognition calculation. Within the group, any job task with **Job Task Type** set to **Posting** will be included in the WIP Total, unless its **WIP-Total** field is set to **Excluded**.|  
 |**Excluded**|Applies only to a task with **Job Task Type** of **Posting**. The task is not included when WIP and recognition are calculated.|  
 

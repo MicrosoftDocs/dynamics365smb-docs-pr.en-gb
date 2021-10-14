@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f4047e6d1a8a7533933fd8faefe9a43f22f23e6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 328417821e8e5cc14bc8267e64687ce2a14f15af
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445583"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588558"
 ---
 # <a name="work-with-catalog-items"></a>Work with Catalogue Items
 You can offer certain items to your customers for their convenience, which you do not want to manage in your system until you start selling them. When you want to start managing such items in your system, you can convert them to normal item cards in two ways.
@@ -51,7 +51,7 @@ To enable conversion of a catalogue item card to a normal item card, you must fi
 2. Open the card for a catalogue item that you want to convert to a normal item.
 3. On the **Catalogue Item Card** page, choose the **Create Item** action.
 
-A new item card prefilled with information from the catalogue item and a relevant item template is created. You can then fill or edit fields on the new item card as necessary. For more information, see [Register New Items](inventory-how-register-new-items.md).
+A new item card pre-filled with information from the catalogue item and a relevant item template is created. You can then fill or edit fields on the new item card as necessary. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
 ## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>To sell a catalogue item, and convert it to a normal item
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
@@ -66,7 +66,7 @@ A new item card prefilled with information from the catalogue item and a relevan
 You can then fill or edit fields on the new item card as necessary. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   An Item cross reference record is automatically created for the supplier of the item between the supplier's item number and your new item number. For more information, see [Use Item Cross References](inventory-how-use-item-cross-refs.md).
+>   An item reference is automatically item between the supplier's item number and your new item number. For more information, see [Use Item References](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>See Also
 [Register New Items](inventory-how-register-new-items.md)  

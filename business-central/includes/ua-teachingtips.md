@@ -4,11 +4,11 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9c81898cfcfac82ec4719a9a9f802c435ed655c1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1c19446e8524e782f0359c74c061ef61e9ca094a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788605"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587741"
 ---
-Starting with 2021 release wave 1, some pages display a teaching tip with a short introduction to the page. Switch off teaching tips if you are not interested in seeing these short introductions when you open the relevant pages. If you switch off teaching tips, you can still open the teaching tip for a specific page by choosing the page title in the top left corner.  
+Some pages display a teaching tip with a short introduction to the page. Switch off teaching tips if you are not interested in seeing these short introductions when you open the relevant pages. If you switch off teaching tips, you can still open the teaching tip for a specific page by choosing the page title in the top left corner.  

@@ -1,5 +1,5 @@
 ---
-title: Work with Time Sheets for Jobs
+title: Use Time Sheets for Projects
 description: Describes how to create a time sheet for a job, copy planning lines to it, define work types, fill in the time sheet, and submit it for approval.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.date: 08/24/2021
 ms.author: edupont
-ms.openlocfilehash: 02d9536b27290ef27e5954ad6ea9004094e5cfe2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3e29d1b745c27f7d6e5f0e8d9e444d70b2218b10
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440648"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588839"
 ---
-# <a name="use-time-sheets-for-jobs"></a>Use Time Sheets for Jobs
+# <a name="use-time-sheets-for-projects"></a>Use Time Sheets for Projects
 
 You use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. You must have permissions to be able to create time sheets.
 
@@ -25,9 +25,12 @@ You can copy and use your job planning lines in a time sheet. In that way, you m
 
 After you have approved time sheet entries for a job, you can post them to the relevant job journal or resource journal.
 
-Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
+Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).  
 
-## <a name="to-create-a-time-sheet"></a>To create a time sheet
+> [!TIP]
+> Starting in 2021 release wave 2, you can manage assigned time sheets on a mobile device. However, your administrator may have to enable the **Feature Update: New time sheet experience** feature in the [Feature Management](https://businesscentral.dynamics.com/?page=2610) page to use this capability. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
+
+## <a name="to-create-time-sheets"></a>To create time sheets
 
 You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task.
 

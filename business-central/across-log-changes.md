@@ -10,20 +10,21 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 656def609801a85716a4afe57d603fe93eb7569c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4d15eb7ee412b4b7447c179c04b4c434ec5fc8b7
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770970"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606446"
 ---
 # <a name="auditing-changes-in-business-central"></a>Auditing Changes in Business Central
 A common challenge in many business management applications is avoiding unwanted changes in data. It could be anything from an incorrect customer telephone number to an incorrect posting to the general ledger. This topic describes the capabilities for finding out what changed, who changed it, and when the change was made.
 
 ## <a name="about-the-change-log"></a>About the Change Log 
-The change log lets you track all direct modifications a user makes to data in the database. You must specify each table and field that you want the system to log, and then you must activate the change log.  
+The change log lets you track all direct modifications a user makes to data in the database. You specify each table and field that you want the system to log, and then you activate the change log.  
 
-Tracking changes can impact performance, which can cost you time, and increase the size of your database, which might cost you money. To reduce those costs, consider the following:
+Tracking changes can impact performance, which can cost you time, and increase the size of your database, which might cost you money. To reduce those costs, keep the following in mind:
+
 - Use caution when choosing the tables and operations.
 - Do not add ledger entries and posted documents. Instead, prioritise system fields such as Created By and Created Date.
 - Do not use the All Fields tracking type. Instead, choose Some Fields and track only the most important fields.
@@ -32,15 +33,15 @@ The change log is based on changes that are made to data in the tables that you 
 
 > [!Important]
 > Changes display in the **Change Log Entries** only after the user's session is restarted, which happens as follows:
-<br />
+>
 > * The session expired and was refreshed.
 > * The user selected another company or Role Centre.
-> * The user signed out and back in.
+> * The user signed out and signed in again.
 
 ### <a name="working-with-the-change-log"></a>Working with the Change Log
 You activate and deactivate the change log on the **Change Log Setup** page. When a user activates or deactivates the change log, this activity is logged, so you can always see which user deactivated or reactivated the change log.
 
-On the **Change Log Setup** page, if you choose the **Tables** action, you can specify which tables you want to track changes for, and which changes to track. [!INCLUDE[prod_short](includes/prod_short.md)] also tracks a number of system tables.
+On the **Change Log Setup** page, if you choose the **Tables** action, you can specify which tables you want to track changes for, and which changes to track. [!INCLUDE[prod_short](includes/prod_short.md)] also tracks several system tables.
 
 > [!NOTE]
 > You can monitor specific fields for changes, such as fields that contain sensitive data, by setting up field monitoring. If you do, to avoid redundancy the table that contains the field will not be available for the change log setup. For more information, see [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).
@@ -60,9 +61,12 @@ Keeping sensitive data secure and private is a core concern for most businesses.
 > Sending notifications by email requires that you set up the email feature in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Set Up Email](admin-how-setup-email.md).
 
 ### <a name="setting-up-field-monitoring"></a>Setting Up Field Monitoring
-You can use the **Monitor Field Change Setup** assisted setup guide to specify the fields that you want to monitor based on filter criteria, such as the data sensitivity classification for the fields. For more information, see [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md). The guide also lets you specify the person who will receive an email notification when a change occurs, and the email account that will send the notification email. You must specify both the user notify and the account from which to send the notification. After you finish the guide, you can manage settings for field monitoring on the **Field Monitoring Setup** page. 
+You can use the **Monitor Field Change Setup** assisted setup guide to specify the fields that you want to monitor based on filter criteria, such as the data sensitivity classification for the fields. For more information, see [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md). The guide also lets you specify the person who will receive an email notification when a change occurs, and the email account that will send the notification email. Specify both the user to notify and the account from which to send the notification. After you finish the guide, you can manage settings for field monitoring on the **Field Monitoring Setup** page. 
 
-Over time, the list of entries on the **Monitored Fields Log Entries** page will grow. To reduce the number of entries you can create a retention policy that will delete entries after a specified period of time. For more information, see [Define Retention Policies](admin-data-retention-policies.md).
+> [!NOTE]
+> When you specify the email account from which to send notifications, you must add either the **Microsoft 365** or **SMTP** account types. Notifications should be sent from an account that is not associated with an actual user. Therefore you cannot choose the **Current User** account type. If you do, notifications will not be sent. 
+
+Over time, the list of entries on the **Monitored Fields Log Entries** page will grow. To reduce the number of entries, you can create a retention policy that will delete entries after a specified period of time. For more information, see [Define Retention Policies](admin-data-retention-policies.md).
 
 When you set up field monitoring, or change something in the setup, entries are created for your changes. You can specify whether to display entries related to the monitoring setup by showing or hiding them. 
 
@@ -73,7 +77,13 @@ You can manage settings for field monitoring, such as whether to send an email n
 
 ### <a name="working-with-field-monitoring"></a>Working with Field Monitoring
 
-Entries for all changed values for monitored fields are available on the **Monitored Fields Log Entries** page. For example, entries contain information such as the field for which the value was changed, the original and new values, and who made the change and when they did so. To further investigate a change, choose a value to open the page where it was made. To view a list of all entries, choose **Field Change Entries**.
+Entries for all changed values for monitored fields are available on the **Monitored Fields Log Entries** page. For example, entries contain the following information:
+
+* The field for which the value was changed.
+* The original and new values.
+* Who made the change, and when they did so. 
+
+To further investigate a change, choose a value to open the page where it was made. To view a list of all entries, choose **Field Change Entries**.
 
 ### <a name="viewing-field-monitoring-telemetry"></a>Viewing Field Monitoring Telemetry 
 

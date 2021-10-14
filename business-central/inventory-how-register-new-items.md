@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
-ms.date: 07/29/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: a3ef2fee2b6a2c868fa4085d08bf76bb02b96b49
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 34a7c73cd82d63a2ca5b549e7d1cedf582a32465
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440448"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587716"
 ---
 # <a name="register-new-items"></a>Register New Items
 
@@ -40,13 +40,7 @@ The following procedure explains how to create an item card from scratch. You ca
 
 ## <a name="to-create-a-new-item-card"></a>To create a new item card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
-2. On the **Items** page, choose the **New** action.
-
-    If only one item template exists, then a new item card opens with some fields filled with information from the template.
-3. On the **Select a template for a new item** page, choose the template that you want to use for the new item card.
-4. Choose the **OK** button. A new item card opens with some fields filled with information from the template.
-5. Proceed to fill or change fields on the item card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
 > In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. Five costing methods are available, depending on the type of item. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).

@@ -1,5 +1,5 @@
 ---
-title: GetAddress.io UK Postcodes Extension [GB]
+title: Set Up GetAddress.io Extension [GB]
 description: Learn how to configure the GetAddress.io extension in the British version of Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: getaddress.io, postcodes, extension
 ms.date: 06/25/2021
 ms.author: bholtorf
-ms.openlocfilehash: d5904e02d4b74117edf693f7174b9e58e23d6ee7
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 2d02c7cc23c9dfc407840e33a60f89f81545c01d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482215"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589327"
 ---
 # <a name="set-up-the-getaddressio-uk-postcodes-extension-in-the-british-version"></a>Set Up the GetAddress.io UK Postcodes Extension in the British Version
 

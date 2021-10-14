@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5e8543d64c1ecfea1f554f13f753743684d1f463
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 901427baf8845505c264a6e06ec6aebacbfe1ee0
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440385"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589239"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replan or Refresh Works Orders Directly
 The **Replan** function on works orders is typically used after you have added or changed components that constitute underlying works orders. The function calculates changes made to components and routings lines, and it includes items on lower production BOM levels for which it may generate new works orders.  
@@ -34,22 +34,23 @@ You can either insert the works order lines manually or use the function that ca
 > [!NOTE]
 > If you use the Refresh function to recalculate works order lines, the old works order lines are deleted and new lines are calculated.  
 
-## <a name="to-replan-a-production-order"></a>To replan a works order  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
-2.  Open the works order you want to replan.  
-3.  On the **Lines** FastTab, choose the **Lines** action, and then choose the **Components** action.  
-4.  Add a component, which is a produced item or subassembly.  
-5.  From the works order, choose the **Replan** action.  
+## <a name="to-replan-a-production-order"></a>To replan a works order
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+2. Open the works order you want to replan.  
+3. On the **Lines** FastTab, choose the **Lines** action, and then choose the **Components** action.  
+4. Add a component, which is a produced item or subassembly.  
+5. From the works order, choose the **Replan** action.  
 
     On the **Replan Works Order** page, proceed to define how and what to replan.  
-6.  In the **Scheduling Direction** field, select one of the following options.  
+6. In the **Scheduling Direction** field, select one of the following options.  
 
-    |Option|Description|  
-    |----------------------------------|---------------------------------------|  
-    |**Back**|Calculates the operation sequence backwards from the earliest possible ending date, defined by due date and/or other scheduled orders, to the latest possible starting date. **Note:**  This default option is relevant in the majority of situations.|  
-    |**Forward**|Calculates the operation sequence forward from the earliest latest possible starting date, defined by due date and/or other scheduled orders, to the earliest possible ending date. **Note:**  This option is only relevant for expedite orders.|  
+    | Option | Description |
+    |--|--|
+    | **Back** | Calculates the operation sequence backwards from the earliest possible ending date, defined by due date and/or other scheduled orders, to the latest possible starting date. **Note:**  This default option is relevant in the majority of situations. |
+    | **Forward** | Calculates the operation sequence forward from the earliest latest possible starting date, defined by due date and/or other scheduled orders, to the earliest possible ending date. **Note:**  This option is only relevant for expedite orders. |
 
-7.  In the **Plan** field, select whether to calculate production requirements for produced items on the production BOM, as follows.  
+7. In the **Plan** field, select whether to calculate production requirements for produced items on the production BOM, as follows.  
 
     |Option|Description|  
     |----------------------------------|---------------------------------------|  
@@ -57,20 +58,21 @@ You can either insert the works order lines manually or use the function that ca
     |**One Level**|Plan for first-level production demand. First-level works orders may be created.|  
     |**All Levels**|Plan for all-level production demand. All-level works orders may be created.|  
 
-8.  Select **One Level**, and choose the **OK** button to replan the works order, and calculate and create a new underlying works order for the introduced subassembly, if it is not fully available.  
+8. Select **One Level**, and choose the **OK** button to replan the works order, and calculate and create a new underlying works order for the introduced subassembly, if it is not fully available.  
 
 > [!NOTE]  
->  Changes implemented with the **Replan** function are very likely to change the capacity need of the works order and you may therefore have to reschedule operations afterwards.  
+> Changes implemented with the **Replan** function are very likely to change the capacity need of the works order and you may therefore have to reschedule operations afterwards.  
 
-## <a name="to-refresh-a-production-order"></a>To refresh a works order  
+## <a name="to-refresh-a-production-order"></a>To refresh a works order
+
 If you have amended works order lines, components, or routing lines, you must also refresh the information on the works order. In the following procedure, the components are calculated for a firm planned works order. The steps are similar for routing lines.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
-2.  Choose the **New** action. For more information, see [Create Works orders](production-how-to-create-production-orders.md).  
-3.  Choose the **Refresh** action.
+1. Choose the ![Lightbulb that opens the Tell Me feature 2.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
+2. Choose the **New** action. For more information, see [Create Works orders](production-how-to-create-production-orders.md).  
+3. Choose the **Refresh** action.
 4. On the **Refresh Works Order** page, select one of the following options:
 
-    |Option||Description|  
+    |Field|Option|Description|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Scheduling Direction**|**Forward**|Scheduling starts from the starting date and proceeds forward to the finishing date. You must fill in the starting date to use this option.|  
     ||**Backward**|Scheduling starts from the ending date and proceeds backward to the starting date.|  
@@ -82,9 +84,10 @@ If you have amended works order lines, components, or routing lines, you must al
 5. Choose the **OK** button to confirm your selection. Now the works order lines are calculated.
 
 > [!NOTE]  
->  Calculating works order components deletes previous changes in the components.
+> Calculating works order components deletes previous changes in the components.
 
-## <a name="see-also"></a>See Also  
+## <a name="see-also"></a>See Also
+
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    

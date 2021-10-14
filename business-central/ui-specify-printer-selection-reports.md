@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437223"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547055"
 ---
 # <a name="set-up-printers"></a>Set Up Printers
 
@@ -132,9 +132,6 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
     Universal Print renders content for print in XPS format. Some legacy in-market printers don't support XPS content rendering&mdash;in many cases, only PDF format. Printing to these printers will fail unless Universal Print is set up to convert documents to the printer-supported format.
 
     For more information, see [Document Conversion Overview](/universal-print/portal/document-conversion).
-
-    > [!TIP]
-    > If none of your printers require PDF content rendering format, we recommend that you don't enable document conversion because it might affect the print output quality.
 
 Now, you're ready to add the printers to  [!INCLUDE[prod_short](includes/prod_short.md)], set up default printers for reports, and print.  
 

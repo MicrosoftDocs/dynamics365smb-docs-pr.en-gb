@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 04/12/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ed1d44f7aa1fe7adc899c429a6595cef23251075
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 376d1bebd79c225a54ca8544b757a719a55bfebd
+ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341310"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7596679"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Troubleshooting Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -149,6 +149,13 @@ As an administrator, who has Azure Active Directory admin permissions, you can h
 > [!NOTE]
 > It will be a while before this change takes effect.
 
+## <a name="duplicate-text-in-the-share-to-teams-window"></a>Duplicate text in the Share to Teams window
+
+When you paste text into the message box in the **Share to Teams** window, the text is duplicated. This problem is known to Microsoft and will be addressed in a later update. 
+
+## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Unable to sign into the Share to Teams window 
+
+This problem can be caused by a various reasons. For example, the identity you are using to sign in must have access to Microsoft Teams, such as through a Microsoft 365 subscription.
 
 ## <a name="see-also"></a>See Also
 

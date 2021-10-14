@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d94ecf2314e28dafbcf73a816446d6e3b929aedc
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 0cfcf4bcda748ec2f46f24013d887252310596c0
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947370"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588031"
 ---
 # <a name="available-fonts"></a>Available Fonts
 
@@ -43,7 +43,7 @@ The following fonts are installed and available to use in both Word and RDLC rep
 
 Magnetic Ink Character Recognition (MICR) fonts are installed and available to use. Both the E-13B and the CMC-7 standards are supported.  
 
-In addition to MICR fonts, special security fonts are available to generate text, names, amounts, and the currency symbols Dollar, Euro, Pound, and Yen, which are hard to tamper with once a cheque has been printed.  
+In addition to MICR fonts, special security fonts are available to generate text, names, amounts, and the currency symbols Dollar, Euro, Pound, and Yen, which are hard to tamper with once a check has been printed.  
 
 For more information, see [Select a Cheque Layout](finance-how-define-check-layouts.md).  
 
@@ -65,6 +65,6 @@ For more information, see [Barcode Fonts with Business Central Online](/dynamics
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Select a Cheque Layout](finance-how-define-check-layouts.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-[Barcode Fonts with Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
+[Barcode Fonts with Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

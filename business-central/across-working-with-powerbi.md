@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dcd316d7d1d360733ff15b67cc5a293576812611
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dbe5b2b5fd623d37f144a07b6570f6ee0714f9b9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444050"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588333"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Working with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -78,7 +78,7 @@ To learn how to create reports for list pages, see [Creating Power BI Reports fo
 
 A Power BI part on a page can display any Power BI report that's available to you. To switch to view another report, choose the **Select Report** action from the drop-down command list at the top of the part.  
 
-The **Power BI Reports Selection** page shows a list of all the Power BI reports that you have access to. This list is retrieved from your Power BI workspace. Select the **Enable** box for each report that you want to display on the page, and then choose **OK**. You'll return to the page, and the last report you enabled will appear. Using the drop-down command list, use the **Previous** and **Next** commands to navigate between reports.  
+The **Power BI Reports Selection** page shows a list of all the Power BI reports that you have access to. This list is retrieved from any of your own workspaces or workspaces that have been shared with you in the Power BI service. Select the **Enable** box for each report that you want to display on the page, and then choose **OK**. You'll return to the page, and the last report you enabled will appear. Using the drop-down command list, use the **Previous** and **Next** commands to navigate between reports.  
 
 ### <a name="get-more-reports"></a>Get more reports
 

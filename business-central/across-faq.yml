@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 08/24/2021
+  ms.date: 09/29/2021
   ms.author: edupont
-  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
-  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+  ms.openlocfilehash: 53f4a87fea747b59bed7942885b1374377381029
+  ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
   ms.translationtype: HT
   ms.contentlocale: en-GB
-  ms.lasthandoff: 08/27/2021
-  ms.locfileid: "7440698"
+  ms.lasthandoff: 10/01/2021
+  ms.locfileid: "7588117"
 title: Frequently Asked Questions about Using Business Central
 summary: "This section contains answers to frequently asked questions about signing up for a trial, buying a subscription, and using [!INCLUDE[prod_short](includes/prod_short.md)]. You can also learn how to get technical support.  \n"
 sections:
@@ -27,7 +27,7 @@ sections:
     answer: "You can sign up for a free trial to explore [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] If you want more time to explore, [you can extend your trial period](#can-i-extend-my-30-day--new-company--trial-period-).  \n\nTo help you get ready for doing business in [!INCLUDE[prod_short](includes/prod_short.md)], you can launch assisted setup guides, videos, or help topics for selected setup tasks. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  \n\nWhen you are ready to buy [!INCLUDE[prod_short](includes/prod_short.md)], you can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner).  \n"
   - question: >
       Where do I go if I have questions?
-    answer: "If you have questions about [!INCLUDE[prod_short](includes/prod_short.md)] that you can't find an answer for in this documentation, you can ask the Business Central community. For more information, see [Dynamics 365 Business Central community](https://community.dynamics.com/business).  \n\nFrom the community home page, you can also find links to our blogs where you can also find tips and tricks. For more information, see [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) and the older [Dynamics 365 Business Central Blog](https://community.dynamics.com/business/b/financials).  \n\nFinally, you can contact your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner. For more information, see the [How do I get technical support?](/dynamics365/business-central/across-faq#hdigetsupport) and [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) sections.  \n"
+    answer: "If you have questions about [!INCLUDE[prod_short](includes/prod_short.md)] that you can't find an answer for in this documentation, you can ask the Business Central community. For more information, see [Dynamics 365 Business Central community](https://community.dynamics.com/business).  \n\nFrom the community home page, you can also find links to our blogs where you can also find tips and tricks. For more information, see [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) and the older [Dynamics 365 Business Central Blog](https://community.dynamics.com/business/b/financials).  \n\nFinally, you can contact your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner. For more information, see the [How do I get technical support?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) and [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) sections.  \n"
   - question: >
       Why can't I find that capability in my Business Central?
     answer: "Did you read about a new capability in the release plan or on our blog recently? In that case, your [!INCLUDE[prod_short](includes/prod_short.md)] might not have been upgraded to the latest version yet. You can check which version your [!INCLUDE[prod_short](includes/prod_short.md)] is based on in the [Help and Support](product-help-and-support.md) page.  \n\nThis applies to [!INCLUDE [prod_short](includes/prod_short.md)] online and on-premises.  \n\nAlso, if the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource. This applies to [!INCLUDE [prod_short](includes/prod_short.md)] online only.  \n"

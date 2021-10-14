@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: eb03f2cd47624e753766f0363e037ee793f8f777
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 76829c832bfde71d46b2fa2a942aa68db9f5701a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444775"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588787"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Manage Attachments, Links, and Notes on Cards and Documents
 
@@ -64,7 +64,7 @@ The following procedure is based on a sales order. The steps are similar for all
 A PDF file with the current content of the sales order is added to the **Attachments** tab in the FactBox.
 
 ## <a name="to-add-a-link-from-an-item-card"></a>To add a link from an item card
-You can add a link from a card or document to any URL or path. This is useful, for example, when you want to link an item card with the supplier's item catalogue.
+You can add a link from a card or document to any URL. This is useful, for example, when you want to link an item card with the supplier's item catalogue.
 
 The following procedure is based on an item card. The steps are similar for all other supported cards and documents.
 

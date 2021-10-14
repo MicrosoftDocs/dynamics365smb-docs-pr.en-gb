@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order
-ms.date: 08/17/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2ecf6884e37467504bc2f4573ef60c870993b799
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7156684c2b12af7e5b3e8b51791a702566824009
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440423"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588508"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Sell Products with a Customer Sales Order  
 
@@ -67,8 +67,8 @@ You can even create directly-paid orders for non-registered customers by first s
 8. In the **Line Discount %** field, enter a percentage if you want to grant the customer a discount on the product. The value in the **Line Amount** field is updated accordingly.
 
     If you have set up special item prices on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, then the price and amount on the quote line are automatically updated if the agreed price criteria are met. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
-9. To add a comment about the quote line that the customer can see on the printed sales quote, write a comment in the **Description** field on an empty line.  
-10. Repeat steps 4 through 8 for every item that you want to sell to the customer.
+9. To add a comment about the order line that the customer can see on the printed sales order, write a comment in the **Description** field on an empty line.  
+10. Repeat steps 5 through 9 for every item that you want to sell to the customer.
 
     The totals fields under the lines are automatically updated as you create or modify lines to display the amounts that will be posted to the ledgers.
 

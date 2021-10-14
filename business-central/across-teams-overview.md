@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446472"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587512"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central and Microsoft Teams Integration
 
@@ -51,6 +51,14 @@ Once in the conversation, you and coworkers can view more details about the reco
 
 For more information, see [Share Records in Microsoft Teams](across-working-with-teams.md).
 
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Share links from pages in Business Central to Teams
+
+Directly from most collection and details pages in Business Central, you can use the **Share to Teams** action from the ![!The Share menu icon on pages.](media/share-icon.png "The Share menu displayed on a card.") icon to type a message, choose recipients, such as team members, groups or channels, and send the message with a link to the Business Central page.
+
+![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")
+
+For more information, see [Share Records and Page Links in Microsoft Teams](across-working-with-teams.md#share-link).
+
 ## <a name="get-started"></a>Get Started
 
 1. A [!INCLUDE [prod_short](includes/prod_short.md)] online user account is required for [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams.
@@ -62,7 +70,7 @@ For more information, see [Share Records in Microsoft Teams](across-working-with
 
 2. As an administrator, see [Managing Microsoft Teams Integration with Business Central](admin-teams-integration.md) for information about getting users set up to work with [!INCLUDE [prod_short](includes/prod_short.md)] and Teams.
 3. Install [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. See [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
-4. Once the app is installed, you're ready to go. See [Searching for Customers, Suppliers, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) and [Share Records in Microsoft Teams](across-working-with-teams.md). 
+4. Once the app is installed, you're ready to go. See [Searching for Customers, Suppliers, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) and [Share Records in Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="see-also"></a>See Also
 
