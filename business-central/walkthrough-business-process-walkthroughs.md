@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d60dbe10adf00c375121e2fc944b626e48d28970
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 0ca067f8b9ca7a8d6838b6099ae330ab8ddbf66b
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587487"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724669"
 ---
 # <a name="business-process-walkthroughs"></a>Business Process Walkthroughs
 
@@ -24,7 +24,7 @@ This selection of walkthroughs provides step-by-step, end-to-end business proces
  The walkthroughs are complete scenarios, and should be performed from beginning to end for the greatest benefit. Many are based on [!INCLUDE[prod_short](includes/prod_short.md)] demonstrations, and enable you to try those procedures yourself, at your own pace.  
 
 > [!NOTE]
-> Some of the walkthroughs require sample data that is not available in the default demonstration company in [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments). -->
+> Some of the walkthroughs require sample data that is not available in the default demonstration company in [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments.md). -->
 
 |To|See|  
 |--------|---------|  

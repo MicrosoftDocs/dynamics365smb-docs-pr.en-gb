@@ -9,14 +9,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: phone, tablet
-  ms.date: 04/01/2021
+  ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: 81887822a3163a7fee0d027ac1969545990f749a
-  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+  ms.openlocfilehash: f0d31833373014ac5f1f089537bf03091540e223
+  ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
   ms.translationtype: HT
   ms.contentlocale: en-GB
-  ms.lasthandoff: 05/28/2021
-  ms.locfileid: "6116016"
+  ms.lasthandoff: 11/04/2021
+  ms.locfileid: "7752537"
 title: Mobile Apps FAQ
 summary: "This article answers questions that our advanced users often ask about the mobile apps for [!INCLUDE [prod_short](includes/prod_short.md)].  \n"
 sections:
@@ -85,4 +85,7 @@ sections:
   - question: >
       Can I connect the app to our on-premises solution?
     answer: "Yes, you can! It's a slightly different way to signing in, that's all. For more information, see [Using Business Central on-premises?](install-mobile-app.md#using-business-central-on-premises).  \n"
+  - question: >
+      Can a guest user use the app to access our Business Central solution?
+    answer: "No. Guest users are invited users from a different Azure Active Directory (AD) tenant than yours. In this case, the app will authenticate to the guest user's primary Azure AD tenant and try open the Business Central endpoint on that tenant instead of yours.  \n"
 additionalContent: "\n## <a name=\"see-also\"></a>See also \n\n[Getting Business Central on Your Mobile Device](install-mobile-app.md)  \n[Install the Business Central App for Microsoft Teams](across-install-app-for-teams.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]"

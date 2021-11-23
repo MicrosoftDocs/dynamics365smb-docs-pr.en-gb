@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ac3d45bb7de166a4861e22e1919c9c722602b13
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4299924a1845245eb8b73192bb14232bad25d80b
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442707"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752587"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Work with Blanket Sales Orders or Blanket Purchase Orders
 
@@ -67,7 +67,7 @@ You can see the status of a blanket sales order on the **Blanket Sales Order Sta
 - On the **Invoicing** FastTab, you can see summary information based on the total quantity in the **Qty. to Invoice** fields on the sales blanket order lines.  
 - On the **Shipping** FastTab, you can see summary information based on the total quantity in the **Qty. to Receive** fields on the sales blanket order lines.  
 - On the **Prepayment** FastTab, you can see summary information about any prepaid amounts.  
-- On the **Supplier** FastTab, you can see certain basic information about the supplier.    
+- On the **Supplier** FastTab, you can see certain basic information about the supplier.
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>To view unposted and posted blanket sales order lines   
 The link between the blanket sales order and the originating sales order, and any other sales document, is retained after posting as a list of posted and unposted sales order invoice lines.  
@@ -76,21 +76,21 @@ The link between the blanket sales order and the originating sales order, and an
 2. Open the blanket sales order you want to view.
 3. To view unposted entries, select the line in question, choose the **Line** action, and then choose the **Unposted Lines** action. Choose one of the following options.  
 
-    |Option|Description|
-    |--|--|
-    |**Orders**|Specifies open orders associated with the selected line.|
-    |**Invoices**|Specifies open invoices that have been associated with the selected line. Open invoices are manually associated with a blanket order by entering the blanket order number on the sales invoice line.|
-    |**Return Orders**|Specifies open return orders that have been associated with the selected line.|
-    |**Credit Memos**|Specifies open credit memos that have been associated with the selected line.|
+|Option|Description|
+|--|--|
+|**Orders**|Specifies open orders associated with the selected line.|
+|**Invoices**|Specifies open invoices that have been associated with the selected line. Open invoices are manually associated with a blanket order by entering the blanket order number on the sales invoice line.|
+|**Return Orders**|Specifies open return orders that have been associated with the selected line.|
+|**Credit Memos**|Specifies open credit memos that have been associated with the selected line.|
 
 4. To view posted entries, select the line in question, choose the **Line** action, and then choose the **Posted Lines** action. Choose one of the following options.  
 
-    |Option|Description|
-    |---|----|
-    |**Shipments**|Posted shipments associated with the selected line.|
-    |**Invoices**|Posted invoices associated with the selected line.|
-    |**Return Receipts**|Posted return receipts that have been associated with the selected line.|
-    |**Credit Memos**|Posted credit memos that have been associated with the selected line.|
+|Option|Description|
+|---|----|
+|**Shipments**|Posted shipments associated with the selected line.|
+|**Invoices**|Posted invoices associated with the selected line.|
+|**Return Receipts**|Posted return receipts that have been associated with the selected line.|
+|**Credit Memos**|Posted credit memos that have been associated with the selected line.|
 
 5. On the **Sales Lines** page, choose the **Show Document** action to view the entry.
 

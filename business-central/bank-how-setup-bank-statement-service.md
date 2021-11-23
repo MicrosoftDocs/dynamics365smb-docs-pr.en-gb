@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a01bbbcb158e975c2b6f21ce2dd2468f8b3fa431
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c27b2c158d817a6e58a72d49d65d75bb8470f65
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443530"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651469"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Set Up the Envestnet Yodlee Bank Feeds Service
 
@@ -97,6 +97,11 @@ The bank feed service will be enabled when you link a bank account to its relate
 5. Choose the **OK** button.
 
 On the **Bank Account List** page, the **Linked** check box is selected.
+
+## <a name="to-edit-the-credentials-for-an-online-bank-account"></a>To edit the credentials for an online bank account
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
+2. Choose the line for a bank account that is linked to an online bank account, and then choose the **Edit Online Bank Account Information** action.
+3. Update the credentials.
 
 ## <a name="to-unlink-a-bank-account"></a>To unlink a bank account
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  

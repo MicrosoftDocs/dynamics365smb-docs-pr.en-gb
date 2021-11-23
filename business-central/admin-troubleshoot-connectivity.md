@@ -11,12 +11,12 @@ ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: db7b9e602817d7dddcf6bce1b35ede078bd70aa0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e08d6148001e324bc7217771434ff6862fe984a6
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443188"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7748968"
 ---
 # <a name="troubleshoot-connectivity-for-business-central"></a>Troubleshoot Connectivity for Business Central
 
@@ -31,13 +31,22 @@ ms.locfileid: "6443188"
 
 ## <a name="start-the-connectivity-check"></a>Start the connectivity check 
 
-1. Select [this link](https://businesscentral.dynamics.com/connectivity) or open your Internet browser, and enter the following URL in the address:
+1. Open an Internet browser.
+2. In the address, enter the URL that you use to open Business Central and add `/connectivity` at the end. 
+
+    For example, if you use `https://businesscentral.dynamics.com`, then enter:
 
     ```http
     https://businesscentral.dynamics.com/connectivity
     ```
 
-2. On the **Troubleshooting Connectivity** page, choose **Start check**.
+    Or, if the URL includes the tenant ID, like `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB`, then you'd enter:
+
+    ```http
+    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
+    ```
+ 
+3. On the **Troubleshooting Connectivity** page, choose **Start check**.
 
     A series of checks is run, and the result of each check is shown:
 
@@ -45,7 +54,7 @@ ms.locfileid: "6443188"
     - ![Connectivity check failed.](media/connectivity-failed.png) indicates the check failed. Review the message below the check for more details.
     - ![Connectivity check was not run.](media/connectivity-blocked.png) indicates the check wasn't run, typically because of a failure of a previous check. Review the message below the check for more details.
 
-3. To run the check again, choose **Restart check**.
+4. To run the check again, choose **Restart check**.
 
 The following sections explain the checks that are run, and provide some tips for fixing any problems.
 

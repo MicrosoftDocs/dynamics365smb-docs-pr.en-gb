@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: dc4cf3d98fbbd4f7496820d152f009602192030a
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: afc1b56d2bfb1f94844b7b1e10af8a2522738dab
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482330"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651494"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrating with Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -97,6 +97,9 @@ The following table lists the standard mapping between tables in [!INCLUDE[prod_
 | Unit of Measurement | Unit Group | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Item | Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Sales Stock** |
 | Resource | Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Services** |
+| Item Unit of Measurement | CRM UOM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+| Resource Unit of Measurement | CRM UOM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]||
+| Unit Group | CRM Uomschedule | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ||
 | Customer Price Group | Price List | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Sales Price | Product Price List | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] contact filter: **Sales Code** is not blank, **Sales Type** is **Customer Price Group** |
 | Opportunity | Opportunity | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
@@ -104,6 +107,50 @@ The following table lists the standard mapping between tables in [!INCLUDE[prod_
 | Sales Invoice Line | Invoice Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Sales Order Header | Sales Order | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Sales Header filter: **Document Type** is Order, **Status** is Released |
 | Sales Order Notes | Sales Order Notes | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+
+> [!NOTE]
+> The mappings for the Item Unit of Measurement, Resource Unit of Measurement, and Unit Group tables are available only if your administrator has turned on the **Feature Update: Multiple Units of Measurement Synchronisation with Dynamics 365 Sales** feature switch on the **Feature Management** page. For more information, see [Synchronising Items and Resources with Products in Different Units of Measurement](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
+
+## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Synchronising Items and Resources with Products with Different Units of Measurement
+Businesses often produce or purchase the items in one unit of measurement, and then sell them in another. To synchronise items that use multiple units of measurement, you must turn on the **Feature Update: Multiple Units of Measurement Synchronisation with Dynamics 365 Sales** feature switch on the **Feature Management** page. 
+
+When you do, a new Unit Group table is created and assigned to each item and resource in [!INCLUDE[prod_short](includes/prod_short.md)]. This enables you to map the Unit Group, Item Unit of Measurement, and Resource Unit of Measurement tables in [!INCLUDE[prod_short](includes/prod_short.md)] to the Dynamics 365 Sales Unit Group <!--Need to verify this name--> in [!INCLUDE[crm_md](includes/crm_md.md)], as shown in the following image.
+
+:::image type="content" source="media/unit group 1.png" alt-text="Table mappings for unit groups":::
+
+You can create multiple units of measurement for each unit group, and assign the groups to products in [!INCLUDE[crm_md](includes/crm_md.md)]. Afterwards, you'll be able to synchronise the products with items and resources in [!INCLUDE[prod_short](includes/prod_short.md)]. You can manually couple item units of measurement or resource units of measurement with a unit group. When you do, if the unit group for the item or resource is not coupled to a unit group in [!INCLUDE[crm_md](includes/crm_md.md)], for example, because the unit group did not exist, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically create the unit group in [!INCLUDE[crm_md](includes/crm_md.md)].
+
+### <a name="mapping-items-and-resources-to-products"></a>Mapping Items and Resources to Products
+When you turn on the **Feature Update: Multiple Units of Measurement Synchronisation with Dynamics 365 Sales** feature switch, the following happens:
+
+* New mappings are created for items and resources.
+* Existing mappings are deleted. <!--which mappings?-->
+* A data upgrade creates unit groups for items and resources.
+
+To use the new mappings, you must synchronise unit groups, item unit of measurement, and resource unit of measurements. You must also resynchronize items and resources. 
+
+> [!NOTE]
+> [!INCLUDE[crm_md](includes/crm_md.md)] does not allow you to change a unit group for a product. Therefore, you must retire your products and uncouple the items and resources, and then synchronise by creating new products in [!INCLUDE[crm_md](includes/crm_md.md)]. 
+
+The following steps describe the steps to start mapping unit groups:
+
+1. Be sure that products in [!INCLUDE[crm_md](includes/crm_md.md)] are not coupled with items or resources in [!INCLUDE[prod_short](includes/prod_short.md)]. If they are, go to **Items** and/or **Resources** pages, use the filter options to select the coupled records, and then choose the **Dynamkics 365 Sales** action, and select **Uncouple**. This schedules a background job to uncouple the records. While the job is running, you can check its status by using the **Synchronisation Log** action. For more information, see [Coupling and Synchronising](admin-how-to-couple-and-synchronize-records-manually.md). 
+2. Because new products will be created in [!INCLUDE[crm_md](includes/crm_md.md)] with new unit groups, to avoid duplicate names, do one of the following:
+    
+    * Rename your products, and then retire them in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Retire products (Sales Hub)](/dynamics365/sales-enterprise/retire-product). To bulk edit your products in Microsoft Excel, sign in to Power Apps, choose your environment, go to the **Product** table, and choose the **Data** tab. Clear any filters that are applied. In the **Data** group, choose the **Edit Data in Excel** action. Add a prefix or suffix to the coupled products, and then retire them.
+    * Retire your products and delete them. 
+
+3. Follow these steps to synchronise **Unit Groups**, **Unit of Measures**, **Items**, and **Resources**:
+    1. In [!INCLUDE[prod_short](includes/prod_short.md)], open the **Dynamics 365 Sales Connection Setup** page.
+    2. Use the **Run Full Synchronisation** action to open the **Dataverse Full Synch. Review** page.
+    3. For the **ITEM UOM**, **RESOURCE UOM**, AND **UNIT GROUP** mappings, choose the **Recommend Full Synchronisation** action.
+    4. Choose the **Sync All** action.
+
+    > [!NOTE]
+    > For mappings that have not yet been fully synchronised, this action will fully synchronise them. To prevent those mappings from synchronising, delete the mappings from the page. This only removes them from the current full synchronisation, and does not delete the mappings.
+    
+5. Choose the **ITEM-PRODUCT** mapping, and then choose the **Restart** action. This creates new products from the items in [!INCLUDE[crm_md](includes/crm_md.md)], and assigns a new unit group that is specific to the item.
+6. Choose the **RESOURCE-PRODUCT** mapping, and then choose the **Restart** action. This creates new products from the resources in [!INCLUDE[crm_md](includes/crm_md.md)], and assigns a new unit group that is specific to the resources.
 
 ### <a name="synchronization-rules"></a>Synchronisation Rules
 

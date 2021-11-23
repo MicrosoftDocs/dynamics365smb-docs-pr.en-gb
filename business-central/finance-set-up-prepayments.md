@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keyword: prepayment
-ms.date: 06/29/2021
+ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: a8b647e52457fc4bc2c7377ad6d4fb4f40d6dc58
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446322"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7701522"
 ---
 # <a name="set-up-prepayments"></a>Set Up Prepayments
 If you require your customers to submit payment before you ship an order to them, or if your supplier requires you to submit payment before they ship an order to you, you can use the Prepayment functionality. The prepayments functionality enables you to invoice and collect deposits required from customers or to remit deposits to suppliers, to ensure that all partial payments are posted against an invoice. For more information, see [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md).
@@ -60,14 +60,15 @@ If you have not already set up general ledger accounts for prepayments, you can 
 > [!NOTE]  
 > You can use the same number series for prepayment invoices and regular invoices, or you can use different number series. If you use different series, they must not overlap because there must not be any numbers that exist in both series.  
 
-## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>To set up prepayment percentages for items, customers, and suppliers  
-For an item, you can set up a default prepayment percentage for all customers, a specific customer, or a customer price group.  
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>To set up prepayment percentages for items, customers, and suppliers
+
+For an item, you can set up a default prepayment percentage for all customers, a specific customer, or a customer price group. If you do not want to apply the same prepayment percentage to all customers, you must specify which customers or which customer price groups the prepayment percentage applies to.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Select an item, and then choose the **Prepayment Percentages** action.  
 3. On the **Sales Prepayment Percentages** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-For a customer or supplier, you can set up one default prepayment percentage for all items and all types of sales lines. You enter this on the customer or supplier card.
+For a customer or supplier, you can set up one default prepayment percentage for all items and all types of sales lines. You enter this on the customer or supplier card. The following procedure shows how to specify a prepayment percentage for a customer, but similar steps apply to suppliers.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the card for a customer.

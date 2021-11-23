@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: united kingdom, uk, brexit, eu, european union, great britain, northern ireland
 ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: c5304d004b73a4a560c5aa392238d14e98363108
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 7d34d33273944a29a2fbfdb81ab607eab8f61b0f
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325492"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7701501"
 ---
 # <a name="brexit-impact-on-business-central"></a>Brexit Impact on Business Central
 
@@ -66,10 +66,6 @@ If your business has a warehouse in Northern Ireland, goods moved to that locati
 2. **Does [!INCLUDE[prod_short](../../includes/prod_short.md)] support legislation in the United Kingdom?**
 
     In many cases, yes. As with all countries for which Microsoft provides a localised version, we follow the impact of local and EU-wide legislation and evaluate how we can support our customers. The responsibility for compliance rests on the individual business in a country, but we provide tools and features that can help our customers meet regulatory requirements, within the confines of our product strategy. A good example of that is our feature for Making Tax Digital, which makes VAT reporting easier and fully digital. There are, however, cases where regulations may require other feature support. For example, if regulatory changes impact a vertical industry, such as construction, we expect that the Microsoft Independent Software Supplier (ISV) who provides a solution that extends [!INCLUDE[prod_short](../../includes/prod_short.md)] for that industry will deliver the features needed to comply. However, the business who uses the solution is responsible for compliance.
-
-### <a name="questions"></a>Questions?
-
-If you have questions regarding the localisation of [!INCLUDE[prod_short](../../includes/prod_short.md)], contact the [!INCLUDE[prod_short](../../includes/prod_short.md)] localisation team at **d365bcloc@microsoft.com**.
 
 ## <a name="see-also"></a>See Also
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0a33631908d0f3943486f96bbf6b5e2f801c440b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dce8b5b3d762d3e4d98668530685fdeb9cb58de4
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441325"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7751749"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>View the Status of Synchronisation Jobs
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -28,11 +28,11 @@ Use the **Coupled Data Synchronisation Errors** page to view the status of synch
 > [!Note]
 > The **Coupled Data Synchronisation Errors** page shows information about jobs related to coupled records. If you resolve all of the errors but records are still not synchronising, it might have something to do with a setting for the integration. Typically, your administrator will need to resolve those types of errors.   
 
-<!--
+## <a name="example"></a>Example
+This video shows an example of how to troubleshoot errors that happened while synchronising with [!INCLUDE[prod_short](includes/cds_long_md.md)]. The process will be the same for all integrations. 
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
--->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>To view and resolve synchronisation errors for coupled records
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Coupled Data Synchronisation Errors**, and then choose the related link.
@@ -51,6 +51,11 @@ Use the **Coupled Data Synchronisation Errors** page to view the status of synch
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>To view the synchronisation log for a specific (manually synchronised) record
 1. Open, for example, a customer, item or any other record that is synchronising data between [!INCLUDE[prod_short](includes/prod_short.md)] and Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Choose the **Synchronisation Log** action to view the synchronisation log for a selected record. For example, a specific customer you synchronised manually.
+
+## <a name="remove-couplings-between-records"></a>Remove Couplings Between Records
+When something goes wrong in your integration and you need to uncouple records to stop synchronising them, you can do so for one or more records at a time. You can uncouple one or more records from list pages or the **Coupled Data Synchronisation Errors** page by choosing one or more lines and choosing **Delete Coupling**. You can also remove all couplings for one or more table mappings on the **Integration Table Mappings** page. 
+
+If an entity with a unidirectional coupling is deleted in [!INCLUDE[prod_short](includes/prod_short.md)], you must manually delete the broken coupling. To do that, on the **Coupled Data Synchronisation Errors** page, choose the **Find for Deleted** action, and then delete the couplings.
 
 ## <a name="see-also"></a>See Also  
 [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  

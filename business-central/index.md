@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 14dd0aa40524ca1e261b0e57aa62bfcccd80afd4
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 91faf4a1adeb6b53ffd8dbca81d8ef72df90b97e
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588208"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724844"
 ---
 # <a name="welcome-to-prod_long"></a>Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -90,12 +90,7 @@ You can also view videos of new and commonly used capabilities in our video libr
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Get notified about changes through an RSS feed
 
-To subscribe to a Really Simple Syndication (RSS) feed of all updates that are to the content on docs.microsoft.com across the business functionality content for [!INCLUDE [prod_short](includes/prod_short.md)], use the following link:
-
-[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-bc-app%27)&locale=en-us)
-
-> [!NOTE]
-> The RSS feed returns a list of the 100 articles most recently updated. The list is not sorted by date.  
+[!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 

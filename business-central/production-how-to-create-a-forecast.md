@@ -1,6 +1,6 @@
 ---
 title: How to Create a Demand Forecast
-description: Learn about the forecasting feature in Business Central, and how you can create sales and production forecasts.
+description: Learn about the demand forecasting features, and how you can create sales and production forecasts.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9c3097e102de7b0f4be6da114245ac1bbb4f4fe0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438694"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643974"
 ---
 # <a name="create-a-demand-forecast"></a>Create a Demand Forecast
 You can create sales and production forecasts with the **Demand Forecast** page.  
@@ -41,18 +41,17 @@ You must designate a forecast as *Sales Item*, *Component*, or *Both*. The forec
 ## <a name="component-forecast"></a>Component Forecast  
 The component forecast can be seen as an option forecast in relation to a parent item. This can, for example, be useful if the planner can estimate the demand for the component.  
 
-As the component forecast is designed to define options for a parent item, the component forecast should be equal or less than the sales item forecast quantity. If the component forecast is higher than the sales item forecast, the system treats the difference between these two types of forecast as independent demand.  
+Because the component forecast is designed to define options for a parent item, the component forecast should be less than or equal to the sales item forecast quantity. If the component forecast is higher than the sales item forecast, the system treats the difference between these two types of forecasts as independent demand.  
 
 ## <a name="forecasting-periods"></a>Forecasting Periods  
- The forecast period is valid from its starting date until the date the next forecast starts. The time interval page gives you multiple choices to insert the demand at a specific date in a period. It is therefore recommended not to change the forecast period scope unless you want to move all forecast entries to the starting date of this period.  
+The forecast period is valid from its starting date until the date the next forecast starts. The time interval page gives you multiple choices to insert the demand at a specific date in a period. It is therefore recommended not to change the forecast period scope unless you want to move all forecast entries to the starting date of this period.  
 
 ## <a name="forecast-by-locations"></a>Forecast by Locations  
-
-It can be stated in the **Manufacturing Setup** page how you want to deal with locations that are defined on forecasts when you calculate a plan. 
+On the **Manufacturing Setup** page you can specify whether you want to consider the locations that are defined on forecasts when you calculate plans. 
 
 ### <a name="use-forecast-by-locations"></a>Use forecast by locations
 
-If you choose the **Use Forecast by Location** field, then [!INCLUDE[prod_short](includes/prod_short.md)] will respect any location codes that are specified for each Demand Forecast entry and calculate the remaining forecast for each location.  
+If you turn on the **Use Forecast by Location** toggle, [!INCLUDE[prod_short](includes/prod_short.md)] will respect any location codes that are specified for each demand forecast entry and calculate the remaining forecast for each location.  
 
 Consider this example: Your company purchases and sells items on two locations: EAST and WEST. For both locations, you have configured a lot-to-lot reordering policy. You create a forecast for the two locations:
 
@@ -68,7 +67,7 @@ Then, you create a sales order with a quantity of 12 on location WEST. The plann
 >  If location-based forecasts are viewed in isolation, the overall forecast might not be representative.
 
 ### <a name="do-not-use-forecast-by-locations"></a>Do not use forecast by locations
-If you disable **Use Forecast by Location**, then [!INCLUDE[prod_short](includes/prod_short.md)] will ignore location codes that are specified for each Demand Forecast entry and agregate the forecasts into a forecast for empty locations.  
+If you turn off the **Use Forecast by Location** toggle, [!INCLUDE[prod_short](includes/prod_short.md)] will ignore the location codes that are specified for each demand gorecast entry and aggregate the forecasts into a forecast for empty locations.  
 
 Consider this example: Your company purchases and sells items on two locations: EAST and WEST. For both locations, you have configured a lot-to-lot reordering policy. You create a forecast for the two locations:
 

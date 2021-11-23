@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8d57fedc09b6c94ecfce7e24e1eea097f837030e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442292"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643937"
 ---
 # <a name="acquire-fixed-assets"></a>Acquire Fixed Assets
 For each fixed asset, you must set up a card containing information about the asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. A depreciation book must be set up and assigned to each fixed asset before you can acquire it.
@@ -75,7 +75,7 @@ The following procedure describes how to acquire a fixed asset manually by creat
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>To cancel an acquisition cost posting for one fixed asset
 If you make an error when posting an acquisition cost, you can remove the entry with the **Cancel FA Entries** batch job and then post the correct acquisition entry. The erroneous entries are transferred to the **FA Error Ledger Entries** page.
 
-For example, if you post an acquisition with the wrong date, you must correct it as soon as possible because the fixed asset posting date is used is many critical calculations.
+For example, if you post an acquisition with the wrong date, you must correct it as soon as possible because the fixed asset posting date is used for many calculations.
 
 > [!IMPORTANT]  
 >   You cannot use the **Reverse Transactions** function for fixed asset entries.
@@ -90,9 +90,12 @@ To cancel ledger entries for multiple fixed assets at a time, use the **Cancel F
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>To post the salvage value together with the acquisition cost
 You can post the salvage value together with the acquisition cost from a fixed asset journal.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Journals**, and then choose the related link.
+> [!NOTE]
+> This process might require that you personalise the Fixed Asset Journals page by adding the Salvage Value field. By default, the field is not displayed on the page. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Journals**, and then choose the related link.
 2. On the **Fixed Asset Journals** page, create the acquisition line. For more information, see [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
-3. In the **Salvage Value** field on the journal line, enter the salvage value amount as a credit (with a minus sign).
+3. In the **Salvage Value** field on the journal line, enter the salvage value amount as a credit (prefix the amount with a minus sign, for example, **-** 100).
 4. Choose the **Post** action.
 
 > [!NOTE]

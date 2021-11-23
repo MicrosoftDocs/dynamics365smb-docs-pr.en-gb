@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 5788671162dc6480c8404338f6325dfae9233f44
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589545"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724619"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Get the Business Central Add-in for Excel
 
@@ -25,7 +25,7 @@ ms.locfileid: "7589545"
 
 ### <a name="about-the-add-in"></a>About the add-in
 
-The add-in is called **Microsoft Dynamics Office Add-in** and it's available for installation from on the [Office Store (AppSource)](https://appsource.microsoft.com/). With the add-in installed, the **Edit in Excel** action is available on most list and list part pages from the **Share** icon ![Share a page in another app.](media/share-icon.png). For more information about using the add-in, see [Viewing and Editing in Excel From Business Central](across-work-with-excel.md)
+The add-in is called **Microsoft Dynamics Office Add-in** and it's available for installation from on the [Office Store (AppSource)](https://appsource.microsoft.com/). With the add-in installed, the **Edit in Excel** action is available on most list and list part pages from the **Share** icon ![Share a page in another app.](media/share-icon.png). For more information about using the add-in, see [Viewing and Editing in Excel From Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > The add-in works on Windows only; not macOS.
@@ -118,7 +118,7 @@ The add-in is now connected to [!INCLUDE [prod_short](includes/prod_short.md)]\,
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Prepare devices and network for the Excel Add-In
 
-Network services such as proxies or firewalls must allow routing between each client device on which the add-In is installed and many service endpoints. For a list of endpoints, see [Preparing your network for the Excel Add-In](/dev-itpro/administration/configuring-network-for-addins).
+Network services such as proxies or firewalls must allow routing between each client device on which the add-In is installed and many service endpoints. For a list of endpoints, see [Preparing your network for the Excel Add-In](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## <a name="troubleshooting"></a>Troubleshooting
 
