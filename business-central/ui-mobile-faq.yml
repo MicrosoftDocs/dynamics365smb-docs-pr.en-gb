@@ -11,12 +11,12 @@ metadata:
   ms.search.keywords: phone, tablet
   ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: f0d31833373014ac5f1f089537bf03091540e223
-  ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+  ms.openlocfilehash: 96e8f34b31ba1f7db375c567da4ec9cf9375bdc5
+  ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
   ms.translationtype: HT
   ms.contentlocale: en-GB
-  ms.lasthandoff: 11/04/2021
-  ms.locfileid: "7752537"
+  ms.lasthandoff: 11/25/2021
+  ms.locfileid: "7865528"
 title: Mobile Apps FAQ
 summary: "This article answers questions that our advanced users often ask about the mobile apps for [!INCLUDE [prod_short](includes/prod_short.md)].  \n"
 sections:
@@ -80,7 +80,7 @@ sections:
 
       | Automatic input focus on first editable field of a page | Not available. | Not available. | `Customer Card` page.<BR /><BR />In the browser, focus will automatically be on the first editable field (such as the `Name` field), enabling you to change the value right away.<BR /><BR />In the tablet and phone apps, this field will not be in focus; instead, you will have to manually select the field first in order to make changes.|
   - question: >
-      Is it the same experience on tables and phones?
+      Is it the same experience on tablets and phones?
     answer: "Almost, but not quite. See the list in the [Is it the same experience in the apps as in the browser?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-) section.  \n"
   - question: >
       Can I connect the app to our on-premises solution?

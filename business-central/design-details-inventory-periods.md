@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a79b1b791a56bddaa97ac9b66428d6bb32652f58
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 66624cd4a6992ed227055748f5e8bc972187a8dc
+ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324516"
+ms.lasthandoff: 11/27/2021
+ms.locfileid: "7865703"
 ---
 # <a name="design-details-inventory-periods"></a>Design Details: Stock Periods
 Backdated transactions or cost adjustments often affect balances and stock valuations for accounting periods that may be considered closed. This can have adverse effects on accurate reporting, especially within global corporations. The Stock Periods feature can be used to avoid such problems by opening or closing stock periods to limit posting in a set period of time.  
@@ -30,9 +30,12 @@ Backdated transactions or cost adjustments often affect balances and stock valua
 
  When you close a stock period, a stock period entry is created by using the number of the last item register that falls in the stock period. In addition, the time, date, and user code of the user closing the period are recorded in the stock period entry. By using this information with the last item register for the previous period, you can see which stock transactions were posted in the stock period. It is also possible to reopen stock periods if you need to post in a closed period. When you reopen a stock period, a stock period entry is created.  
 
-## <a name="see-also"></a>See Also  
- [Design Details: Stock Costing](design-details-inventory-costing.md) [Managing Stock Costs](finance-manage-inventory-costs.md) [Finance](finance.md)  
- [Working with Business Central](ui-work-product.md)
+## <a name="see-also"></a>See Also
+
+[Design Details: Stock Costing](design-details-inventory-costing.md)  
+[Managing Stock Costs](finance-manage-inventory-costs.md)  
+[Finance](finance.md)  
+[Working with Business Central](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
