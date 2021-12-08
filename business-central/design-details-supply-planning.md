@@ -20,7 +20,7 @@ ms.locfileid: "6214835"
 # <a name="design-details-supply-planning"></a>Design Details: Supply Planning
 This documentation provides detailed technical insight to the concepts and principles that are used within the Supply Planning features in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-It explains how the planning system works and how to adjust the algorithms to meet planning requirements in different environments. It first introduces central solution concepts and then describes the logic of the central mechanism, supply balancing, before proceeding to explain how stock planning is performed with the use of reordering policies.  
+It explains how the planning system works and how to adjust the algorithms to meet planning requirements in different environments. It first introduces central solution concepts and then describes the logic of the central mechanism, supply balancing, before proceeding to explain how inventory planning is performed with the use of reordering policies.  
 
 ## <a name="in-this-section"></a>In This Section  
 [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  

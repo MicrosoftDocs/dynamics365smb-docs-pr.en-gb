@@ -1,6 +1,6 @@
 ---
-title: Design Details - Stock Costing | Microsoft Docs
-description: This documentation provides detailed technical insight to the concepts and principles that are used within the Stock Costing features in Business Central.
+title: Design Details - Inventory Costing | Microsoft Docs
+description: This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -17,10 +17,10 @@ ms.contentlocale: en-GB
 ms.lasthandoff: 06/09/2021
 ms.locfileid: "6215985"
 ---
-# <a name="design-details-inventory-costing"></a>Design Details: Stock Costing
-This documentation provides detailed technical insight to the concepts and principles that are used within the Stock Costing features in [!INCLUDE[prod_short](includes/prod_short.md)].  
+# <a name="design-details-inventory-costing"></a>Design Details: Inventory Costing
+This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Stock costing, also referred to as cost management, is concerned with recording and reporting business operating costs.  
+Inventory costing, also referred to as cost management, is concerned with recording and reporting business operating costs.  
 
 ## <a name="in-this-section"></a>In This Section  
 [Design Details: Costing Methods](design-details-costing-methods.md)  
@@ -33,13 +33,13 @@ Stock costing, also referred to as cost management, is concerned with recording 
 [Design Details: Variance](design-details-variance.md)  
 [Design Details: Rounding](design-details-rounding.md)  
 [Design Details: Cost Components](design-details-cost-components.md)  
-[Design Details: Stock Periods](design-details-inventory-periods.md)  
-[Design Details: Stock Posting](design-details-inventory-posting.md)  
+[Design Details: Inventory Periods](design-details-inventory-periods.md)  
+[Design Details: Inventory Posting](design-details-inventory-posting.md)  
 [Design Details: Works Order Posting](design-details-production-order-posting.md)  
 [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
 [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  
 [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)  
-[Design Details: Stock Valuation](design-details-inventory-valuation.md)  
+[Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
 [Design Details: Revaluation](design-details-revaluation.md)
 
 

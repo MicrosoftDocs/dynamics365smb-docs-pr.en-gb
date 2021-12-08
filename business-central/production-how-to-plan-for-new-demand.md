@@ -115,7 +115,7 @@ When you have finished your planning work on the **Order Planning** page, for ex
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  

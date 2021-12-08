@@ -47,7 +47,7 @@ When you use the **Copy from Document** function to create new documents based o
 
 ## <a name="see-also"></a>See Also  
 [Register New Items](inventory-how-register-new-items.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

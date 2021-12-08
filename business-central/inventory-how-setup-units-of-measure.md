@@ -23,7 +23,7 @@ As part of setting up your [!INCLUDE [prod_short](includes/prod_short.md)], you 
 
 You can set up multiple units of measurement for an item so that you can assign units of measurement to the item for the following purposes:
 
-- Assign a base unit of measurement on the item's item card to define how it is stored in stock and to serve as the conversion basis for alternate units of measurement.
+- Assign a base unit of measurement on the item's item card to define how it is stored in inventory and to serve as the conversion basis for alternate units of measurement.
 - Assign alternate units of measurement to purchase, production, or sales documents to specify how many units of the base unit of measurement you handle at a time in those processes. For example, you may buy the item on pallets and only use single pieces in your production.
 
 If an item is stocked in one unit of measurement but produced in another, a works order is created that uses a manufacturing batch unit of measurement to calculate the correct quantity of the components during the **Refresh Works Order** batch job. An example of a manufacturing batch unit of measurement calculation is when a manufactured item is stocked in pieces but produced in tons. For more information, see [Work with Manufacturing Batch Units of Measurement](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).  
@@ -85,7 +85,7 @@ If you usually buy or sell in units different from the base unit of measurement,
 
 [Work with Manufacturing Batch Units of Measurement](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  
 [Register New Items](inventory-how-register-new-items.md)  
-[Managing Stock](inventory-manage-inventory.md)  
+[Managing Inventory](inventory-manage-inventory.md)  
 [Managing Purchasing](purchasing-manage-purchasing.md)  
 [Managing Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

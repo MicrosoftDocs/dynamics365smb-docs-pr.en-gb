@@ -29,7 +29,7 @@ The **Adjust Cost - Item Entries** batch job will process your data depending on
 
 Please enter the following values:
 
-**Stock setup**:  
+**Inventory setup**:  
 
 - Automatic Cost Posting = Yes  
 
@@ -158,7 +158,7 @@ To achieve adjustment in December of the Negative Adjustment in step 3, the Gene
 
 ### <a name="conclusion"></a>Conclusion
 
-With the experience gained in this scenario, when considering the most suitable setup for an allowed posting date range for a company, you might want to consider the following. As long as you allow changes in the stock value to be posted in a period, such as December in this case, the setup that the company uses for allowed posting date ranges should be aligned with this decision. The Allow Posting From in the General Ledger Setup, stating December 1, would allow the revaluation made in December to be forwarded to affected outbound entries in the same period.  
+With the experience gained in this scenario, when considering the most suitable setup for an allowed posting date range for a company, you might want to consider the following. As long as you allow changes in the inventory value to be posted in a period, such as December in this case, the setup that the company uses for allowed posting date ranges should be aligned with this decision. The Allow Posting From in the General Ledger Setup, stating December 1, would allow the revaluation made in December to be forwarded to affected outbound entries in the same period.  
 
 User groups not allowed to post in December but in January, which was probably intended to be limited by the General Ledger Setup in this scenario, should instead be addressed via the User setup.  
 
@@ -168,7 +168,7 @@ User groups not allowed to post in December but in January, which was probably i
 
 Please enter the following values:
 
-**Stock setup**:  
+**Inventory setup**:  
 
 - Automatic Cost Posting = Yes  
 
@@ -340,26 +340,26 @@ Test this scenario by carrying out the following steps:
 |400      |CHARGE   |2021-01-01        |325         |Sale         |Direct Cost         |103024         |            |0          |-3         |-3         |Yes         |398         |
 |402      |CHARGE   |**2021-01-01**    |325         |Sale         |Direct Cost         |103024         |            |0          |-2         |-2         |Yes         |398         |
 
-Stock Valuation report is printed as at Date December 31, 2020
+Inventory Valuation report is printed as at Date December 31, 2020
 
-![Content of the Stock Valuation report.](media/helene/TechArticleAdjustcost13.png "Content of the Stock Valuation report")
+![Content of the Inventory Valuation report.](media/helene/TechArticleAdjustcost13.png "Content of the Inventory Valuation report")
 
 **Summary of scenario:**  
 
-The described scenario ends up with an Stock Valuation report demonstrating Quantity = 0 while the Value = 2. The Item charge posted in step 6 is part of the Stock Increase value of December while the Stock Decrease of the same period is not affected.  
+The described scenario ends up with an Inventory Valuation report demonstrating Quantity = 0 while the Value = 2. The Item charge posted in step 6 is part of the Inventory Increase value of December while the Inventory Decrease of the same period is not affected.  
 
-Having the General Ledger Setup stating Allow Posting From January 1 was a good thing for the first Item charge. The costs of the Stock Increase and Decrease was recorded in the same period. For the second Item charge however, the General Ledger Setup causes the change in COGS to be recognised in the period after.  
+Having the General Ledger Setup stating Allow Posting From January 1 was a good thing for the first Item charge. The costs of the Inventory Increase and Decrease was recorded in the same period. For the second Item charge however, the General Ledger Setup causes the change in COGS to be recognised in the period after.  
 
 **Conclusion:**  
 
-It is a challenge to get the Stock Valuation report to demonstrate Quantity = 0 while the Value <> 0. In this case it is also more difficult to express the optimal settings, having purchase invoices arriving the same day but addressing different periods or even financial years. Crossing to a new financial year usually requires some planning and as part of that the insight into Adjust Cost – Item entries process, recognising COGS, is to be considered.  
+It is a challenge to get the Inventory Valuation report to demonstrate Quantity = 0 while the Value <> 0. In this case it is also more difficult to express the optimal settings, having purchase invoices arriving the same day but addressing different periods or even financial years. Crossing to a new financial year usually requires some planning and as part of that the insight into Adjust Cost – Item entries process, recognising COGS, is to be considered.  
 
 In this scenario one option could have been to have the General Ledger Setup, field Allow Posting From, stating a date in December for a couple of more days and the posting of the first item charge postponed to allow all costs for the previous period/financial year to be recognised for the period they belong to first, having the Adjust Cost – Item entries batch job run and thereafter move the allowed posting date to the new period\/financial year. The first item charge with posting date January 2 could then be posted.  
 
 ## <a name="see-also"></a>See Also  
 
 [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
-[Design Details: Stock Costing](design-details-inventory-costing.md)  
+[Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Item Application](design-details-item-application.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

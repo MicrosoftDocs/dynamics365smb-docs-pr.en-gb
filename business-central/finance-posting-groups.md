@@ -38,9 +38,9 @@ The following tables describe the posting groups under each umbrella.
 
 | Specific Posting Groups | Description |
 | --- | --- |
-| Customer Posting Groups |Define the accounts to use when you post sales ledger transactions. If you use stock with receivables, the general business posting group assigned to your customer, and the general product posting group assigned to the stock item determine the accounts that the sales order lines post to. See "General Business Posting Groups" and "General Product Posting Groups" under **General Posting Groups** above. Set these up on the **Customer Posting Groups** page. |
+| Customer Posting Groups |Define the accounts to use when you post sales ledger transactions. If you use inventory with receivables, the general business posting group assigned to your customer, and the general product posting group assigned to the inventory item determine the accounts that the sales order lines post to. See "General Business Posting Groups" and "General Product Posting Groups" under **General Posting Groups** above. Set these up on the **Customer Posting Groups** page. |
 | Supplier Posting Groups |Define where to post transactions for payables accounts, service charge accounts, and payment discount accounts. This is similar to customer posting groups. Set these up on the **Supplier Posting Groups** page. |
-| Stock Posting Groups |Define stock posting groups that you then assign to the relevant item accounts on the **Stock Posting Setup** page. This way, when you post entries concerning an item, the system will post to the G/L account that is set up for the combination of stock posting group and location that is linked to the item. Stock posting groups also provide a good way to organise your stock, so you can separate items by their posting group when you generate reports. Set these up on the **Stock Posting Groups** page. |
+| Inventory Posting Groups |Define inventory posting groups that you then assign to the relevant item accounts on the **Inventory Posting Setup** page. This way, when you post entries concerning an item, the system will post to the G/L account that is set up for the combination of inventory posting group and location that is linked to the item. Inventory posting groups also provide a good way to organise your inventory, so you can separate items by their posting group when you generate reports. Set these up on the **Inventory Posting Groups** page. |
 | Bank Account Posting Groups |Define accounts for bank accounts. For example, this can simplify the processes of tracing transactions and reconciling bank accounts. Set these up on the **Bank Account Posting Groups** page. |
 | Fixed Assets Posting Groups |Define accounts for different types of expenses and costs, such as acquisition costs, accumulated depreciation amounts, acquisition costs on disposal, accumulated depreciation on disposal, gains on disposal, losses on disposal, maintenance expenses, and depreciation expenses. Set these up on the **FA Posting Groups** page. |
 
@@ -61,16 +61,16 @@ These posting groups are chosen on the customer card:
 These posting groups are chosen on the item card:  
 
 * General product posting group  
-* Stock posting group  
+* Inventory posting group  
 
 When you create a sales document, the sales header uses the customer card information, and the sales lines use the item card information.  
 
 * The revenue posting (income statement) is determined by the combination of the general business posting group and the general product posting group.  
 * The sales ledger posting (balance sheet) is determined by the customer posting group.  
-* The stock posting (balance sheet) is determined by the stock posting group.  
+* The inventory posting (balance sheet) is determined by the inventory posting group.  
 * The cost of goods sold posting (income statement) is determined by the combination of general business posting group and general product posting group.  
 
-Your setup determines when posting happens. For example, the timing is affected by when you do periodic activities, such as posting stock cost or adjusting cost item entries.
+Your setup determines when posting happens. For example, the timing is affected by when you do periodic activities, such as posting inventory cost or adjusting cost item entries.
 
 ## <a name="copying-posting-setup-lines"></a>Copying posting setup lines
 The more product and business posting groups you have, the more lines you see in the General Posting Setup page. This can mean a lot of data entry to set up the general posting setup for the company. While there may be many different combinations of business and product posting groups, different combinations may still post to the same general ledger accounts. To limit the amount of manual entry, copy the general ledger accounts from an existing line on the **General Posting Setup** page.

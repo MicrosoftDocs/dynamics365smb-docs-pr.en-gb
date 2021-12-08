@@ -29,7 +29,7 @@ To differentiate the different complexity levels of the warehousing, this docume
 [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)  
 [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
 [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
-[Design Details: Integration with Stock](design-details-integration-with-inventory.md)
+[Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

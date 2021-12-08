@@ -26,7 +26,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], the outbound processes for pi
 |Method|Inbound process|Bins|Picks|Shipments|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
 |A|Post pick and shipment from the order line|X|||2|  
-|B|Post pick and shipment from an stock pick document||X||3|  
+|B|Post pick and shipment from an inventory pick document||X||3|  
 |C|Post pick and shipment from a warehouse shipment document|||X|4/5/6|  
 |D|Post pick from a warehouse pick document and post shipment from a warehouse shipment document||X|X|4/5/6|  
 
@@ -36,14 +36,14 @@ The following walkthrough demonstrates method B in the previous table.
 
 ## <a name="about-this-walkthrough"></a>About This Walkthrough
 
-In basic warehouse configurations where your location is set up to require pick processing but not ship processing, you use the **Stock Pick** page to record and post pick and ship information for your outbound source documents. The outbound source document can be a sales order, purchase return order, outbound transfer order, or a works order with component need.  
+In basic warehouse configurations where your location is set up to require pick processing but not ship processing, you use the **Inventory Pick** page to record and post pick and ship information for your outbound source documents. The outbound source document can be a sales order, purchase return order, outbound transfer order, or a works order with component need.  
 
 This walkthrough demonstrates the following tasks:  
 
-- Setting up SOUTH location for stock picks.  
+- Setting up SOUTH location for inventory picks.  
 - Creating a sales order for customer 10000 for 30 Amsterdam Lamps.  
 - Releasing the sales order for warehouse handling.  
-- Creating an stock pick based on a released source document.  
+- Creating an inventory pick based on a released source document.  
 - Registering the warehouse movement from the warehouse and at the same time posting the sales shipment for the source sales order.  
 
 ## <a name="roles"></a>Roles
@@ -63,7 +63,7 @@ To complete this walkthrough, you will need:
 
 ## <a name="story"></a>Story
 
-Ellen, the warehouse manager at CRONUS, sets up SOUTH warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item 1928-S to be shipped to customer 10000 from the SOUTH Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks on the **Stock Pick** page, which automatically points to the bins where 1928-S is stored.
+Ellen, the warehouse manager at CRONUS, sets up SOUTH warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item 1928-S to be shipped to customer 10000 from the SOUTH Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks on the **Inventory Pick** page, which automatically points to the bins where 1928-S is stored.
 
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
@@ -125,11 +125,11 @@ Sales orders are the most common type of outbound source document.
 
 ## <a name="picking-and-shipping-items"></a>Picking and Shipping Items
 
-On the **Stock Pick** page, you can manage all outbound warehouse activities for a specific source document, such as a sales order. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+On the **Inventory Pick** page, you can manage all outbound warehouse activities for a specific source document, such as a sales order. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-pick-and-ship-items"></a>To pick and ship items
 
-1. Choose the ![Lightbulb that opens the Tell Me feature fourth.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stock Picks**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature fourth.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
 2. Choose the **New** action.  
 
     Make sure that the **No.** field on the **General** FastTab is filled in.
@@ -139,14 +139,14 @@ On the **Stock Pick** page, you can manage all outbound warehouse activities for
     Alternatively, choose the **Get Source Document** action, and then select the sales order.  
 5. Choose the **Autofill Qty. to Handle** action.  
 
-    Alternatively, in the **Qty. to Handle** field, enter 10 and 20 respectively on the two stock pick lines.  
+    Alternatively, in the **Qty. to Handle** field, enter 10 and 20 respectively on the two inventory pick lines.  
 6. Choose the **Post** action, select **Ship**, and then choose the **OK** button.  
 
     The 30 Amsterdam Lamps are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
 
 ## <a name="see-also"></a>See Also
 
-[Pick Items with Stock Picks](warehouse-how-to-pick-items-with-inventory-picks.md)  
+[Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)  
 [Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  
 [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  

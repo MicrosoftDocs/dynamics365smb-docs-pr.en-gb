@@ -29,14 +29,14 @@ Assembly items can be set up for two different assembly processes:
 
 You typically use **Assemble to Stock** for items that you want to assemble ahead of sales, such as to prepare for a kit campaign, and keep in stock until they are ordered. These items are usually standard items such as packaged kits that you do not offer to customise to customer requests.  
 
-You typically use **Assemble to Order** for items that you do not want to stock because you expect to customise them to customer requests or because you want to minimise the stock carrying cost by supplying them just in time. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
+You typically use **Assemble to Order** for items that you do not want to stock because you expect to customise them to customer requests or because you want to minimise the inventory carrying cost by supplying them just in time. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
 
 For more information about how to set up an assembly item, see [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-These setup options are default settings that manage how sales and assembly order lines are initially processed. You can depart from these defaults and supply the assembly item in the most optimal way when processing a sale. For more information, see [Sell Stock Items in Assemble-to-Order Flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) and [Sell Assemble-to-Order Items and Stock Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
+These setup options are default settings that manage how sales and assembly order lines are initially processed. You can depart from these defaults and supply the assembly item in the most optimal way when processing a sale. For more information, see [Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) and [Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Assembly components are handled in a special way in basic warehouse configurations. For more information, see the “Handling Assemble-to-Order Items in Stock Picks” section in [Pick Items with Stock Picks](warehouse-how-to-pick-items-with-inventory-picks.md).   
+> Assembly components are handled in a special way in basic warehouse configurations. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).   
 
 In this procedure, you create and process an assembly order for items that are assembled to stock, which means without a linked sales order. The steps include initiating the assembly order, handling potential component availability issues, and partially posting assembly item output.
 
@@ -63,14 +63,14 @@ In this procedure, you create and process an assembly order for items that are a
 8.  When you are ready to partially or fully post, choose the **Post** action.  
 
     > [!NOTE]  
-    >  If warnings are still present in any of the assembly order lines, then the posting is blocked. A message about which component or components are not in stock is displayed.  
+    >  If warnings are still present in any of the assembly order lines, then the posting is blocked. A message about which component or components are not in inventory is displayed.  
 
 After posting succeeds, the assembly item is posted as output to the location code and potential bin code that are defined on the assembly order. For manually created assembly orders, the location may be copied from the **Default Location for Orders** setup field. For assemble-to-order flows, the location code may be copied from the sales order line.  
 
 ## <a name="see-also"></a>See Also
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -18,7 +18,7 @@ ms.lasthandoff: 07/08/2021
 ms.locfileid: "6441967"
 ---
 # <a name="create-service-items"></a>Create Service Items
-In [!INCLUDE[prod_short](includes/prod_short.md)], the term "service item" refers to equipment or items that require service. When you create a service order, you specify the items that need service. In the order, you can link a service item to an item in stock or a service item group.    
+In [!INCLUDE[prod_short](includes/prod_short.md)], the term "service item" refers to equipment or items that require service. When you create a service order, you specify the items that need service. In the order, you can link a service item to an item in inventory or a service item group.    
 
 When you receive an item that needs service, you can register it as a service item. There are several ways to do so. For example, you can create a service item on the **Service Items** page, or as part of another process, such as when working with a service order.   
 

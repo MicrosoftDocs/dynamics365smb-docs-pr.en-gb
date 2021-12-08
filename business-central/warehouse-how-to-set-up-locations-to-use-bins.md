@@ -34,7 +34,7 @@ To use the bin functionality at a location, you first activate the functionality
 6.  Open the card for the location that you want to set up bins for.
 7.  On the **Bins** FastTab, select the bins that you want to use as the default for receipts, shipments, inbound, outbound, and open shop floor bins.  
 8.  The bin codes you fill in here will appear automatically on the headers and on the lines of various warehouse documents. The default bins define all starting or ending placements of items in the warehouse.  
-9.  If you are using directed put-away and pick, select a bin for your warehouse adjustments. The bin code in the **Adjustment Bin Code** field defines the virtual bin in which to record discrepancies in stock when you register either observed differences registered in the warehouse item journal, or differences calculated when you register a warehouse physical stock.  
+9.  If you are using directed put-away and pick, select a bin for your warehouse adjustments. The bin code in the **Adjustment Bin Code** field defines the virtual bin in which to record discrepancies in inventory when you register either observed differences registered in the warehouse item journal, or differences calculated when you register a warehouse physical inventory.  
 10. Fill in the fields on the **Bin Policies** FastTab if they are relevant to your warehouse. The most important fields are **Bin Capacity Policy**, **Allow Breakbulk**, and **Put-away Template Code** fields.  
 11. On the **Warehouse** FastTab, fill in the **Outbound Whse. Handling Time**, **Inbound Whse. Handling Time**, and the **Base Calendar Code** fields. For more information, see [Set Up Base Calendars](across-how-to-assign-base-calendars.md).
 
@@ -45,7 +45,7 @@ This flow chart shows how the **Bin Code** field on works order component lines 
 
 ## <a name="see-also"></a>See Also
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

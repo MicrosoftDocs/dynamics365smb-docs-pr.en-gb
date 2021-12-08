@@ -26,20 +26,20 @@ To understand how the planning system works, it is necessary to understand the p
  Generally, these goals are achieved by balancing supply with demand.  
 
 ## <a name="demand-and-supply"></a>Demand and Supply
- Demand is the common term used for any kind of gross demand, such as a sales order and component need from a works order. In addition, application allows more technical types of demand, such as negative stock and purchase returns.  
+ Demand is the common term used for any kind of gross demand, such as a sales order and component need from a works order. In addition, application allows more technical types of demand, such as negative inventory and purchase returns.  
 
-  Supply is the common term used for any kind of positive or inbound quantity, such as stock, purchases, assembly, production, or inbound transfers. In addition, a sales return may also represent supply.  
+  Supply is the common term used for any kind of positive or inbound quantity, such as inventory, purchases, assembly, production, or inbound transfers. In addition, a sales return may also represent supply.  
 
-  To sort out the many sources of demand and supply, the planning system organises them on two time lines called stock profiles. One profile holds demand events, and the other holds the corresponding supply events. Each event represents one order network entity, such as a sales order line, an item ledger entry, or a works order line.  
+  To sort out the many sources of demand and supply, the planning system organises them on two time lines called inventory profiles. One profile holds demand events, and the other holds the corresponding supply events. Each event represents one order network entity, such as a sales order line, an item ledger entry, or a works order line.  
 
-  When stock profiles are loaded, the different demand-supply sets are balanced to output a supply plan that fulfils the listed goals.  
+  When inventory profiles are loaded, the different demand-supply sets are balanced to output a supply plan that fulfils the listed goals.  
 
-  Planning parameters and stock levels are other types of demand and supply respectively, which undergo integrated balancing to replenish stock items. For more information, see [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md).
+  Planning parameters and inventory levels are other types of demand and supply respectively, which undergo integrated balancing to replenish stock items. For more information, see [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md).
 
 ## <a name="the-concept-of-balancing-in-brief"></a>The Concept of Balancing in Brief
   Demand is given by a company's customers. Supply is what the company can create and remove to establish balance. The planning system starts with the independent demand and then tracks backwards to the supply.  
 
-   The stock profiles are used to contain information about the demands and supplies, quantities, and timing. These profiles essentially make up the two sides of the balancing scale.  
+   The inventory profiles are used to contain information about the demands and supplies, quantities, and timing. These profiles essentially make up the two sides of the balancing scale.  
 
    The objective of the planning mechanism is to counterbalance the demand and supply of an item to ensure that supply will match demand in a feasible way as defined by the planning parameters and rules.  
 
@@ -48,25 +48,25 @@ To understand how the planning system works, it is necessary to understand the p
 ## <a name="dealing-with-orders-before-the-planning-starting-date"></a>Dealing with Orders Before the Planning Starting Date
 To avoid that a supply plan shows impossible and therefore useless suggestions, the planning system regards the period up until the planning starting date a frozen zone where nothing is planned for. The following rule applies to the frozen zone:  
 
-All supply and demand before the starting date of the planning period will be considered a part of stock or shipped.  
+All supply and demand before the starting date of the planning period will be considered a part of inventory or shipped.  
 
 Accordingly, the planning system will not, with a few exceptions, suggest any changes to supply orders in the frozen zone, and no order tracking links are created or maintained for that period.  
 
 The exceptions to this rule are as follows:  
 
-   * If the projected available stock, including the sum of supply and demand in the frozen zone, is below zero.  
+   * If the projected available inventory, including the sum of supply and demand in the frozen zone, is below zero.  
    * If serial/lot numbers are required on the backdated order(s).  
    * If the supply-demand set is linked by an order-to-order policy.  
 
-If the initial available stock is below zero, the planning system suggests an emergency supply order on the day before the planning period to cover the missing quantity. Consequently, the projected and available stock will always be at least zero when planning for the future period begins. The planning line for this supply order will display an Emergency warning icon and additional information is provided upon lookup.  
+If the initial available inventory is below zero, the planning system suggests an emergency supply order on the day before the planning period to cover the missing quantity. Consequently, the projected and available inventory will always be at least zero when planning for the future period begins. The planning line for this supply order will display an Emergency warning icon and additional information is provided upon lookup.  
 
 ### <a name="seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone"></a>Serial/Lot Numbers and Order-to-Order Links are Exempt from the Frozen Zone  
    If serial/lot numbers are required or an order-to-order link exists, the planning system will disregard the frozen zone and incorporate such quantities that are back-dated from the starting date and potentially suggest corrective actions if demand and supply is not synchronised. The business reason for this principle is that such specific demand-supply sets must match to ensure that this specific demand is fulfilled.
 
-## <a name="loading-the-inventory-profiles"></a>Loading the Stock Profiles
-To sort out the many sources of demand and supply, the planning system organises them on two timelines called stock profiles.  
+## <a name="loading-the-inventory-profiles"></a>Loading the Inventory Profiles
+To sort out the many sources of demand and supply, the planning system organises them on two timelines called inventory profiles.  
 
-The normal types of demand and supply with due dates on or after the planning starting date are loaded into each stock profile. When loaded, the different demand and supply types are sorted according to overall priorities, such as due date, low-level codes, location, and variant. In addition, order priorities are applied to the different types to ensure that the most important demand is fulfilled first. For more information, see [Prioritising Orders](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
+The normal types of demand and supply with due dates on or after the planning starting date are loaded into each inventory profile. When loaded, the different demand and supply types are sorted according to overall priorities, such as due date, low-level codes, location, and variant. In addition, order priorities are applied to the different types to ensure that the most important demand is fulfilled first. For more information, see [Prioritising Orders](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 As previously mentioned, demand could also be negative. This means that it should be treated as supply; however, unlike the normal types of supply, negative demand is considered fixed supply. The planning system can take it into account, but will not suggest any changes to it.  
 
@@ -82,13 +82,13 @@ Apart from loading demand and supply types, certain types are loaded with attent
 ### <a name="item-dimensions-are-separated"></a>Item Dimensions are Separated  
 The supply plan must be calculated per combination of the item dimensions, such as variant and location. However, there is no reason to calculate any theoretical combination. Only those combinations that carry a demand and/or supply need to be calculated.  
 
-The planning system controls this by running through the stock profile. When a new combination is found, application creates an internal control record that holds the actual combination information. The application inserts the SKU as the control record, or outer loop. As a result, the proper planning parameters according to a combination of variant and location are set, and application can proceed to the inner loop.  
+The planning system controls this by running through the inventory profile. When a new combination is found, application creates an internal control record that holds the actual combination information. The application inserts the SKU as the control record, or outer loop. As a result, the proper planning parameters according to a combination of variant and location are set, and application can proceed to the inner loop.  
 
 > [!NOTE]  
->  The application does not require the user to enter a SKU record when entering demand and/or supply for a particular combination of variant and location. Therefore, if a SKU does not exist for a given combination, application creates its own temporary SKU record based on the item card data. If Location Mandatory is set to Yes in the Stock Setup page, then either a SKU must be created or Components at Location must be set to Yes. For more information, see [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md).  
+>  The application does not require the user to enter a SKU record when entering demand and/or supply for a particular combination of variant and location. Therefore, if a SKU does not exist for a given combination, application creates its own temporary SKU record based on the item card data. If Location Mandatory is set to Yes in the Inventory Setup page, then either a SKU must be created or Components at Location must be set to Yes. For more information, see [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md).  
 
 ### <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Serial/Lot Numbers are Loaded by Specification Level  
-Attributes in the form of serial/lot numbers are loaded into the stock profiles along with the demand and supply that they are assigned to.  
+Attributes in the form of serial/lot numbers are loaded into the inventory profiles along with the demand and supply that they are assigned to.  
 
 Demand and supply attributes are arranged by order priority as well as by their level of specification. Because serial/lot number matches reflect the level of specification, the more specific demand, such as a lot number selected specifically for a sale line, will seek a match before less specific demand, such as a sale from any lot number selected.  
 
@@ -104,7 +104,7 @@ The balancing of serial/lot numbers does not respect the *frozen zone*. If deman
 ### <a name="order-to-order-links-are-never-broken"></a>Order-to-Order Links are Never Broken  
 When planning an order-to-order item, the linked supply must not be used for any demand other than what it was originally intended for. The linked demand should not be covered by any other random supply, even if, in its present situation, it is available in time and quantity. For example, an assembly order that is linked to a sales order in an assemble-to-order scenario cannot be used to cover other demand.  
 
-Order-to-order demand and supply must balance precisely. The planning system will ensure the supply under all circumstances without regarding order sizing parameters, modifiers, and quantities in stock (other than quantities relating to the linked orders). For the same reason, the system will suggest decreasing excess supplies if the linked demand is decreased.  
+Order-to-order demand and supply must balance precisely. The planning system will ensure the supply under all circumstances without regarding order sizing parameters, modifiers, and quantities in inventory (other than quantities relating to the linked orders). For the same reason, the system will suggest decreasing excess supplies if the linked demand is decreased.  
 
 This balancing also affects the timing. The limited horizon that is given by the time bucket is not regarded; the supply will be rescheduled if the timing of the demand has changed. However, dampener time will be respected and will prevent order-to-order supplies from being scheduled out, except for the internal supplies of a multi-level works order (project order).  
 
@@ -118,14 +118,14 @@ This balancing also affects the timing. The limited horizon that is given by the
 When handling works orders, the planning system must monitor the needed components before loading them into the demand profile. Component lines that result from an amended works order will replace those of the original order. This ensures that the planning system establishes that planning lines for component need are never duplicated.  
 
 ###  <a name="safety-stock-may-be-consumed"></a><a name="BKMK_SafetyStockMayBeConsumed"></a> Safety Stock May Be Consumed  
-The safety stock quantity is primarily a demand type and is therefore loaded into the stock profile on the planning starting date.  
+The safety stock quantity is primarily a demand type and is therefore loaded into the inventory profile on the planning starting date.  
 
-Safety stock is an stock quantity set aside to compensate for uncertainties in demand during the replenishment lead time. However, it may be consumed if it is necessary to take from it to fulfill a demand. In that case, the planning system will ensure that the safety stock is quickly replaced by suggesting a supply order to replenish the safety stock quantity on the date it is consumed. This planning line will display an Exception warning icon explaining to the planner that the safety stock has been partly or fully consumed by means of an exception order for the missing quantity.  
+Safety stock is an inventory quantity set aside to compensate for uncertainties in demand during the replenishment lead time. However, it may be consumed if it is necessary to take from it to fulfill a demand. In that case, the planning system will ensure that the safety stock is quickly replaced by suggesting a supply order to replenish the safety stock quantity on the date it is consumed. This planning line will display an Exception warning icon explaining to the planner that the safety stock has been partly or fully consumed by means of an exception order for the missing quantity.  
 
 ### <a name="forecast-demand-is-reduced-by-sales-orders"></a>Forecast Demand is Reduced by Sales Orders  
 The demand forecast expresses anticipated future demand. While actual demand is entered, typically as sales orders for produced items, it consumes the forecast.  
 
-The forecast itself is not actually reduced by sales orders; it remains the same. However, the forecast quantities used in the planning calculation are reduced (by the sales order quantities) before the remaining quantity, if any, enters the demand stock profile. When the planning system examines actual sales during a period, both open sales orders and item ledger entries from shipped sales are included, unless they are derived from a blanket order.  
+The forecast itself is not actually reduced by sales orders; it remains the same. However, the forecast quantities used in the planning calculation are reduced (by the sales order quantities) before the remaining quantity, if any, enters the demand inventory profile. When the planning system examines actual sales during a period, both open sales orders and item ledger entries from shipped sales are included, unless they are derived from a blanket order.  
 
 A user is required to define a valid forecast period. The date on the forecasted quantity defines the start of the period, and the date on the next forecast defines the end of the period.  
 
@@ -134,14 +134,14 @@ The forecast for periods prior to the planning period is not used, regardless of
 The forecast can be for independent demand, such as sales orders, or dependent demand, like works order components (module-forecast). An item can have both types of forecast. During planning, the consumption takes place separately, first for independent demand and then for dependent demand.  
 
 ### <a name="blanket-order-demand-is-reduced-by-sales-orders"></a>Blanket Order Demand is Reduced by Sales Orders  
-Forecasting is supplemented by the blanket sales order as a means of specifying future demand from a specific customer. As with the (unspecified) forecast, actual sales should consume the anticipated demand, and the remaining quantity should enter the demand stock profile. Again, the consumption does not actually reduce the blanket order.  
+Forecasting is supplemented by the blanket sales order as a means of specifying future demand from a specific customer. As with the (unspecified) forecast, actual sales should consume the anticipated demand, and the remaining quantity should enter the demand inventory profile. Again, the consumption does not actually reduce the blanket order.  
 
 The planning calculation considers open sales orders linked to the specific blanket order line, but it does not consider any valid time period. Nor does it consider posted orders, since the posting procedure has already reduced the outstanding blanket order quantity.
 
 ## <a name="prioritizing-orders"></a>Prioritising Orders
 Within a given SKU, the requested or available date represents the highest priority; the demand of today should be dealt with before the demand of next week. But in addition to this overall priority, the planning system will also suggest which type of demand should be fulfilled before fulfilling another demand. Likewise, it will suggest what source of supply should be applied before applying other sources of supply. This is done according to order priorities.  
 
-Loaded demand and supply contribute to a profile for the projected stock according to the following priorities:  
+Loaded demand and supply contribute to a profile for the projected inventory according to the following priorities:  
 
 ### <a name="priorities-on-the-demand-side"></a>Priorities on the Demand Side  
 1. Already shipped: Item Ledger Entry  
@@ -158,7 +158,7 @@ Loaded demand and supply contribute to a profile for the projected stock accordi
 >  Purchase returns are usually not involved in supply planning; they should always be reserved from the lot that is going to be returned. If not reserved, purchase returns play a role in the availability and are highly prioritised to avoid that the planning system suggests a supply order just to serve a purchase return.  
 
 ### <a name="priorities-on-the-supply-side"></a>Priorities on the Supply Side  
-1. Already in stock: Item Ledger Entry (Planning Flexibility = None)  
+1. Already in inventory: Item Ledger Entry (Planning Flexibility = None)  
 2. Sales Return Order (Planning Flexibility = None)  
 3. Inbound Transfer Order  
 4. Works Order  
@@ -177,7 +177,7 @@ Apart from priorities given by the type of demand and supply, the present state 
 ## <a name="balancing-supply-with-demand"></a>Balancing Supply with Demand
 The core of the planning system involves balancing demand and supply by means of suggesting user actions to revise the supply orders in case of imbalance. This takes place per combination of variant and location.  
 
-Imagine that each stock profile contains a string of demand events (sorted by date and priority) and a corresponding string of supply events. Each event refers back to its source type and identification. The rules for counterbalancing the item are straightforward. Four instances of matching demand and supply can occur at any point of time in the process:  
+Imagine that each inventory profile contains a string of demand events (sorted by date and priority) and a corresponding string of supply events. Each event refers back to its source type and identification. The rules for counterbalancing the item are straightforward. Four instances of matching demand and supply can occur at any point of time in the process:  
 
 1. No demand or supply exists for the item => the planning has finished (or should not start).  
 2. Demand exists but there is no supply => supply should be suggested.  
@@ -186,7 +186,7 @@ Imagine that each stock profile contains a string of demand events (sorted by da
 
     If the timing of the supply is not suitable, perhaps the supply can be rescheduled as follows:  
 
-    1.  If the supply is placed earlier than the demand, perhaps the supply can be rescheduled out so that stock is as low as possible.  
+    1.  If the supply is placed earlier than the demand, perhaps the supply can be rescheduled out so that inventory is as low as possible.  
     2.  If the supply is placed later than the demand, perhaps the supply can be rescheduled in. Otherwise, the system will suggest new supply.  
     3.  If the supply meets the demand on the date, the planning system can proceed to investigate whether the quantity of the supply can cover the demand.  
 
@@ -211,7 +211,7 @@ In general, all supply has a planning flexibility that is limited by the conditi
 
 -   **Reschedule Out**: The date of an existing supply order can be scheduled out to meet the demand due date unless:  
 
-    -   It represents stock (always on day zero).  
+    -   It represents inventory (always on day zero).  
     -   It has an order-to-order linked to another demand.  
     -   It lies outside the reschedule page defined by the time bucket.  
     -   There is a closer supply that could be used.  
@@ -245,7 +245,7 @@ Planning parameters defined by the user control the suggested quantity of each s
 
 When the planning system calculates the quantity of a new supply order or the quantity change on an existing one, the suggested quantity may be different from what is actually demanded.  
 
-If a maximum stock or fixed order quantity are selected, the suggested quantity may be increased to meet that fixed quantity or the maximum stock. If a reordering policy uses a reorder point, the quantity may be increased at least to meet the reorder point.  
+If a maximum inventory or fixed order quantity are selected, the suggested quantity may be increased to meet that fixed quantity or the maximum inventory. If a reordering policy uses a reorder point, the quantity may be increased at least to meet the reorder point.  
 
  The suggested quantity may be modified in this sequence:  
 
@@ -285,7 +285,7 @@ To minimise database access when handling works orders, the planning line can be
 * Include routing: the planned routing is laid out including calculation of starting and ending dates and times. This is demanding in terms of database accesses. To determine the ending and due dates, it may be necessary to calculate this even if the supply event has not been closed (in the case of forward scheduling).  
 * Include BOM explosion: this can wait until just before the supply event is closed.  
 
-This concludes the descriptions of how demand and supply is loaded, prioritised, and balanced by the planning system. In integration with this supply planning activity, the system must ensure that the required stock level of each planned item is maintained according to its reordering policies.
+This concludes the descriptions of how demand and supply is loaded, prioritised, and balanced by the planning system. In integration with this supply planning activity, the system must ensure that the required inventory level of each planned item is maintained according to its reordering policies.
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)   

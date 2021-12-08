@@ -1,6 +1,6 @@
 ---
 title: Put Away Production Output
-description: How you put away your output from production depends on how your warehouse is set up as a location. Stock put-away can be performed in the following ways.
+description: How you put away your output from production depends on how your warehouse is set up as a location. Inventory put-away can be performed in the following ways.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -21,14 +21,14 @@ ms.locfileid: "6438139"
 
 How you put away your output from production depends on how your warehouse is set up as a location. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
-In basic warehouse configurations where the location requires put-away processing, you use the **Stock Put-away** document to post production output and record the put-away of output.  
+In basic warehouse configurations where the location requires put-away processing, you use the **Inventory Put-away** document to post production output and record the put-away of output.  
 
 > [!NOTE]  
-> Stock put-away is not supported for assembly processes. You post an assembly order to register output. If you use bins, you can move items between bins later. For more information, see [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).  
+> Inventory put-away is not supported for assembly processes. You post an assembly order to register output. If you use bins, you can move items between bins later. For more information, see [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).  
 
 In advanced warehouse configurations where the location requires both put-away and receive processing, you create either an internal put-away document or a movement document to put away the output.  
 
-## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>To put away production output with a stock put-away
+## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>To put away production output with a inventory put-away
 
 The first step in creating putting output away is to create the inbound warehouse request. This request informs the warehouse that the production or assembly order output is ready to be put away.
 
@@ -39,16 +39,16 @@ The first step in creating putting output away is to create the inbound warehous
 > [!NOTE]  
 > You can also create the inbound warehouse request by choosing the **Create Inbound Request** field when you refresh the works order. For more information, see [Refresh or Replan Works Orders](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a>To put output away with a stock put-away  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stock Put-away**, and then choose the related link.  
-2.  Create a new stock put-away. For more information, see [Put Items Away with Stock Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
+### <a name="to-put-output-away-with-an-inventory-put-away"></a>To put output away with a inventory put-away  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-away**, and then choose the related link.  
+2.  Create a new inventory put-away. For more information, see [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  To access the works order output, choose the **Get Source Documents** action, and then select the released works order.  
 4.  Fill in the put-away lines as appropriate.
 5.  When the lines are ready for posting, choose the **Post** action. The posting will create the necessary warehouse entries and post the output of the items.  
 
-You can also create an **Stock Put-away** directly from the released works order. For more information, see [Put Items Away with Stock Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
+You can also create an **Inventory Put-away** directly from the released works order. For more information, see [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
-When you post a stock put-away, it is assumed that all the operations are posted according to the standard routing, that is, output quantity is posted according to the last operation. You can use the output journal to post variances in output quantity and the setup and run times. If it is required to post partially after you have created the stock put-away, you can do so on setup times and quantities for all operations except the last one. In that case, the last operation is controlled by the stock put-away.  
+When you post a inventory put-away, it is assumed that all the operations are posted according to the standard routing, that is, output quantity is posted according to the last operation. You can use the output journal to post variances in output quantity and the setup and run times. If it is required to post partially after you have created the inventory put-away, you can do so on setup times and quantities for all operations except the last one. In that case, the last operation is controlled by the inventory put-away.  
 
 If you only need to post setup or run time on the last operation, then set the output quantity on the last operation to 0. Alternatively, you can choose not to post the last line at all by simply deleting it  
 
@@ -67,7 +67,7 @@ The following table describes different ways of moving items within the warehous
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

@@ -95,7 +95,7 @@ On the **Job Ledger Entries** page you can review the entries that are associate
 
 ## <a name="see-also"></a>See Also
 [Managing Projects](projects-manage-projects.md)
-[Managing Stock Costs](finance-manage-inventory-costs.md)   
+[Managing Inventory Costs](finance-manage-inventory-costs.md)   
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      

@@ -1,6 +1,6 @@
 ---
 title: Design Details - Cost Adjustment
-description: Cost adjustment forwards cost changes from cost sources to cost recipients according to an item’s costing method, to provide correct stock valuation.
+description: Cost adjustment forwards cost changes from cost sources to cost recipients according to an item’s costing method, to provide correct inventory valuation.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -19,9 +19,9 @@ ms.locfileid: "6442467"
 ---
 # <a name="design-details-cost-adjustment"></a>Design Details: Cost Adjustment
 
-The main purpose of cost adjustment is to forward cost changes from cost sources to cost recipients, according to an item’s costing method, to provide correct stock valuation.  
+The main purpose of cost adjustment is to forward cost changes from cost sources to cost recipients, according to an item’s costing method, to provide correct inventory valuation.  
 
-An item can be sales invoiced before it has been purchase invoiced, so that the recorded stock value of the sale does not match the actual purchase cost. Cost adjustment updates the cost of goods sold (COGS) for historic sales entries to ensure that they match the costs of the inbound transactions to which they are applied. For more information, see [Design Details: Item Application](design-details-item-application.md).  
+An item can be sales invoiced before it has been purchase invoiced, so that the recorded inventory value of the sale does not match the actual purchase cost. Cost adjustment updates the cost of goods sold (COGS) for historic sales entries to ensure that they match the costs of the inbound transactions to which they are applied. For more information, see [Design Details: Item Application](design-details-item-application.md).  
 
 The following are secondary purposes, or functions, of cost adjustment:  
 
@@ -32,7 +32,7 @@ The following are secondary purposes, or functions, of cost adjustment:
   * Post variance. For more information, see [Design Details: Variance](design-details-variance.md).  
   * Update the unit cost on the item card.  
 
-Stock costs must be adjusted before the related value entries can be reconciled with the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
+Inventory costs must be adjusted before the related value entries can be reconciled with the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
 
 ## <a name="detecting-the-adjustment"></a>Detecting the Adjustment
 
@@ -75,8 +75,8 @@ For more information, see [Design Details: Assembly Order Posting](design-detail
 
 Cost adjustment can be performed in two ways:  
 
-* Manually, by running the **Adjust Cost - Item Entries** batch job. You can run this batch job either for all items or for only certain items or item categories. This batch job runs a cost adjustment for the items in stock for which an inbound transaction has been made, such as a purchase. For items that use the average costing method, the batch job also makes an adjustment if any outbound transactions are created.  
-* Automatically, by adjusting costs every time that you post an stock transaction, and when you finish a works order. The cost adjustment is only run for the specific item or items affected by the posting. This is set up when you select the **Automatic Cost Adjustment** check box on the **Stock Setup** page.  
+* Manually, by running the **Adjust Cost - Item Entries** batch job. You can run this batch job either for all items or for only certain items or item categories. This batch job runs a cost adjustment for the items in inventory for which an inbound transaction has been made, such as a purchase. For items that use the average costing method, the batch job also makes an adjustment if any outbound transactions are created.  
+* Automatically, by adjusting costs every time that you post an inventory transaction, and when you finish a works order. The cost adjustment is only run for the specific item or items affected by the posting. This is set up when you select the **Automatic Cost Adjustment** check box on the **Inventory Setup** page.  
 
 It is good practice to run the cost adjustment automatically when you post because unit costs are more frequently updated and therefore more accurate. The disadvantage is that the performance of the database can be affected by running the cost adjustment so often.  
 
@@ -84,7 +84,7 @@ Because it is important to keep the unit cost of an item up to date, it is recom
 
 Regardless if you run the cost adjustment manually or automatically, the adjustment process and its consequences are the same. [!INCLUDE[prod_short](includes/prod_short.md)] calculates the value of the inbound transaction and forwards that cost to any outbound transactions, such as sales or consumptions, which have been applied to the inbound transaction. The cost adjustment creates value entries that contain adjustment amounts and amounts that compensate for rounding.  
 
-The new adjustment and rounding value entries have the posting date of the related invoice. Exceptions are if the value entries fall in a closed accounting period or stock period or if the posting date is earlier than the date in the **Allow Posting From** field on the **General Ledger Setup** page. If this occurs, the batch job assigns the posting date as the first date of the next open period.  
+The new adjustment and rounding value entries have the posting date of the related invoice. Exceptions are if the value entries fall in a closed accounting period or inventory period or if the posting date is earlier than the date in the **Allow Posting From** field on the **General Ledger Setup** page. If this occurs, the batch job assigns the posting date as the first date of the next open period.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Adjust Cost - Item Entries Batch Job
 
@@ -95,7 +95,7 @@ When you run the **Adjust Cost - Item Entries** batch job, you have the option t
 
 ### <a name="example"></a>Example
 
-The following example shows if you post a purchased item as received and invoiced on 01-01-20. You later post the sold item as shipped and invoiced on 01-15-20. Then, you run the **Adjust Cost - Item Entries** and **Post Stock Cost to G/L** batch jobs. The following entries are created.  
+The following example shows if you post a purchased item as received and invoiced on 01-01-20. You later post the sold item as shipped and invoiced on 01-15-20. Then, you run the **Adjust Cost - Item Entries** and **Post Inventory Cost to G/L** batch jobs. The following entries are created.  
 
 #### <a name="value-entries-1"></a>Value Entries (1) 
 
@@ -117,12 +117,12 @@ The following example shows if you post a purchased item as received and invoice
 
 |Posting Date|G/L Account|Account No. (En-US Demo)|Amount|Entry No.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
-|01-01-20|[Stock Account]|2130|10.00|1|  
+|01-01-20|[Inventory Account]|2130|10.00|1|  
 |01-01-20|[Direct Cost Applied Account]|7291|-10.00|2|  
-|01-15-20|[Stock Account]|2130|-10.00|3|  
+|01-15-20|[Inventory Account]|2130|-10.00|3|  
 |01-15-20|[COGS Account]|7290|10.00|4|  
 
-Later, you post a related purchase item charge for 2.00 LCY invoiced on 02-10-20. You run the **Adjust Cost - Item Entries** batch job and then run the **Post Stock Cost to G/L** batch job. The cost adjustment batch job adjusts the cost of the sale by -2.00 LCY accordingly, and the **Post Stock Cost to G/L** batch job posts the new value entries to the general ledger. The result is as follows.  
+Later, you post a related purchase item charge for 2.00 LCY invoiced on 02-10-20. You run the **Adjust Cost - Item Entries** batch job and then run the **Post Inventory Cost to G/L** batch job. The cost adjustment batch job adjusts the cost of the sale by -2.00 LCY accordingly, and the **Post Inventory Cost to G/L** batch job posts the new value entries to the general ledger. The result is as follows.  
 
 #### <a name="value-entries-2"></a>Value Entries (2)  
 
@@ -144,14 +144,14 @@ Later, you post a related purchase item charge for 2.00 LCY invoiced on 02-10-20
 
 |Posting Date|G/L Account|Account No. (En-US Demo)|Amount|Entry No.|  
 |------------|-----------|------------------------|------|---------|  
-|02-10-20|[Stock Account]|2130|2.00|5|  
+|02-10-20|[Inventory Account]|2130|2.00|5|  
 |02-10-20|[Direct Cost Applied Account]|7291|-2.00|6|  
-|01-15-20|[Stock Account]|2130|-2.00|7|  
+|01-15-20|[Inventory Account]|2130|-2.00|7|  
 |01-15-20|[COGS Account]|7290|2.00|8|  
 
 ## <a name="automatic-cost-adjustment"></a>Automatic Cost Adjustment
 
-To set up cost adjustment to run automatically when you post a stock transaction, use the **Automatic Cost Adjustment** field on the **Stock Setup** page. This field enables you to select how far back in time from the current work date that you want automatic cost adjustment to be performed. The following options exist.  
+To set up cost adjustment to run automatically when you post a inventory transaction, use the **Automatic Cost Adjustment** field on the **Inventory Setup** page. This field enables you to select how far back in time from the current work date that you want automatic cost adjustment to be performed. The following options exist.  
 
 |Option|Description|
 |------|-----------|
@@ -180,13 +180,13 @@ If you have set up the automatic cost adjustment to apply to postings that occur
 ## <a name="see-also"></a>See Also
 
 [Adjust Item Costs](inventory-how-adjust-item-costs.md)  
-[Design Details: Stock Costing](design-details-inventory-costing.md)  
+[Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  
-[Design Details: Stock Posting](design-details-inventory-posting.md)  
+[Design Details: Inventory Posting](design-details-inventory-posting.md)  
 [Design Details: Variance](design-details-variance.md)  
 [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
 [Design Details: Works Order Posting](design-details-production-order-posting.md)  
-[Managing Stock Costs](finance-manage-inventory-costs.md)  
+[Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

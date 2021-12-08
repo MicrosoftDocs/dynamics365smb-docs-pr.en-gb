@@ -68,7 +68,7 @@ You can assign a default dimension for a specific account. The dimension will be
 >  If you want to make a dimension required but you do not want to assign a default value to the dimension, leave the **Dimension Value Code** field blank and then select **Code Mandatory** in the **Value Posting** field.  
 
 > [!WARNING]  
->  If an account is used in the **Adjust Exchange Rates** batch job or the **Post Stock Cost to G/L** batch job, do not select **Code Mandatory** or **Same Code**. These batch jobs cannot use dimension codes.  
+>  If an account is used in the **Adjust Exchange Rates** batch job or the **Post Inventory Cost to G/L** batch job, do not select **Code Mandatory** or **Same Code**. These batch jobs cannot use dimension codes.  
 
 > [!NOTE]  
 >  If an account must have a different dimension than the default dimension for the account type, you must set up a default dimension for this account. The default dimension for the account then replaces the default dimension for the account type.  

@@ -31,7 +31,7 @@ You can offer certain items to your customers for their convenience, which you d
 A catalogue item typically has the item number of the supplier who supplies it. To enable conversion of a catalogue item card to a normal item card, you must first set up how supplier item numbering is converted to your own item numbering.   
 
 > [!Important]
-> Catalogue items are not to be mistaken with non-stock items, which are regular items that are given the type **Non-Stock** to keep them out of availability and costing calculations, for example, because they are only used internally and have a low cost. For more information, see [About Item Types](inventory-about-item-types.md).
+> Catalogue items are not to be mistaken with non-inventory items, which are regular items that are given the type **Non-Inventory** to keep them out of availability and costing calculations, for example, because they are only used internally and have a low cost. For more information, see [About Item Types](inventory-about-item-types.md).
 
 ## <a name="to-create-a-catalog-item"></a>To create a catalogue item
 Catalogue item cards have much less information than normal item cards because you only use them to offer on quotes and in other ways. For that reason, they must be converted to normal item cards before you can post sales transactions for them.
@@ -71,7 +71,7 @@ You can then fill or edit fields on the new item card as necessary. For more inf
 ## <a name="see-also"></a>See Also
 [Register New Items](inventory-how-register-new-items.md)  
 [Create Special Orders](sales-how-to-create-special-orders.md)|  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

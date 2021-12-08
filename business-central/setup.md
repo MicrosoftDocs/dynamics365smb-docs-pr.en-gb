@@ -36,16 +36,16 @@ Some functionality, either general or for specific business processes, can be se
 | Set up your own and your suppliers' bank accounts and enable services for importing and exporting bank files. |[Setting Up Banking](bank-setup-banking.md) |
 | Configure the rules and values that define your company's sales policies, register new customers, and set up how you communicate with customers. |[Setting Up Sales](sales-setup-sales.md) |
 | Configure the rules and values that define your company's purchasing policies, register new suppliers, and prioritise your suppliers for payment processing. |[Setting Up Purchasing](purchasing-setup-purchasing.md) |
-| Configure the rules and values that define the company's stock policies, set up locations if you keep stock in multiple warehouses, and categorise your items to improve searching and sorting . |[Setting Up Stock](inventory-setup-inventory.md) |
+| Configure the rules and values that define the company's inventory policies, set up locations if you keep inventory in multiple warehouses, and categorise your items to improve searching and sorting . |[Setting Up Inventory](inventory-setup-inventory.md) |
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 | Set up resources, time sheets, and jobs to manage projects. |[Setting Up Project Management](projects-setup-projects.md) |
 | Configure how to insure, maintain, and depreciate fixed assets, and how you record the costs of fixed assets in your company books. |[Setting Up Fixed Assets](fa-setup.md) |
 |Define the general rules and values for warehouse processes and the specific handling at each location.|[Setting Up Warehouse Management](warehouse-setup-warehouse.md)|
 |Prepare production BOMs and routings to define how end items are produced, and prepare machine or work centres to perform the required operations.|[Setting Up Manufacturing](production-configure-production-processes.md)|
 |Establish standard services, symptoms, and fault codes and set up the service items, resources, and documentation needed to provide service to your customers.|[Setting Up Service Management](service-setup-service.md)|
-|Read best practices for setting items up for up stock costing and supply planning.|[Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)|
+|Read best practices for setting items up for up inventory costing and supply planning.|[Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)|
 |Improve the quality of implementation and shorten deployment time by using a toolset for setting up a new company using wizards, templates, worksheets, and customer questionnaires.|[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
-|Transfer customers, suppliers, stock, and bank accounts information from another system into [!INCLUDE[prod_short](includes/prod_short.md)]|[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).|
+|Transfer customers, suppliers, inventory, and bank accounts information from another system into [!INCLUDE[prod_short](includes/prod_short.md)]|[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).|
 |Use Business Central Outlook add-ins to see financial data related to customers and suppliers or create and send financial documents, such as quotes and invoices.|[Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)|
 |Get insights into your Business Central data with Power BI and the Business Central content packs.|[Enabling Your Business Data for Power BI](admin-powerbi.md)|
 |Use your Business Central data as part of a workflow in Power Automate.|[Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)|
@@ -68,7 +68,7 @@ Some areas require you to be an administrator in your [!INCLUDE[prod_short](incl
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Project Management](projects-manage-projects.md)  
 [Fixed Assets](fa-manage.md)  
 [Assembly Management](assembly-assemble-items.md)  

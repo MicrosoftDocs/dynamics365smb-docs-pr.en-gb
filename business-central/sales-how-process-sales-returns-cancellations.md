@@ -86,7 +86,7 @@ You can post this reduced price as an item charge in a credit memo or a return o
 7. In the **Unit Price Excl. Tax** field, enter the amount of the sales allowance.  
 8. Assign the sales allowance as an item charge to the items in the posted shipment. For more information, see [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md). When you have assigned the allowance, return to the **Sales Credit Memo** page.  
 
-When you post the sales return order, the sales allowance is added to the relevant sales entry amount. In this way, you can maintain accurate stock valuation.
+When you post the sales return order, the sales allowance is added to the relevant sales entry amount. In this way, you can maintain accurate inventory valuation.
 
 ## <a name="to-combine-return-receipts"></a>To combine return receipts
 You can combine return receipts if your customer returns several items that are covered by different sales return orders.  
@@ -132,9 +132,9 @@ When return receipts are combined on a credit memo and posted, a posted sales cr
 
 Alternatively, delete individual sales return orders manually.  
 
-## <a name="inventory-costing"></a>Stock Costing
+## <a name="inventory-costing"></a>Inventory Costing
 
-To preserve correct stock valuation, you typically want to put returned items back in stock at the unit cost that they were sold at, not at their current unit cost. This is referred to as exact cost reversing.
+To preserve correct inventory valuation, you typically want to put returned items back in inventory at the unit cost that they were sold at, not at their current unit cost. This is referred to as exact cost reversing.
 
 Two functions exist to assign exact cost reversing automatically:  
 
@@ -145,7 +145,7 @@ Two functions exist to assign exact cost reversing automatically:
 
 To assign exact cost reversing manually, you must choose the **Appl.-from Item Entry** field on any type of return document line, and then select the number of the original sales entry. This links the sales credit memo or sales return order to the original sales entry and ensures that the item is valued at the original unit cost.
 
-For more information, see [Design Details: Stock Costing](design-details-inventory-costing.md).
+For more information, see [Design Details: Inventory Costing](design-details-inventory-costing.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 

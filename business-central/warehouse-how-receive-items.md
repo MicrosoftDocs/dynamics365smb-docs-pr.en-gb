@@ -75,9 +75,9 @@ The following describes how to receive items with a purchase order. The steps ar
     > [!NOTE]  
     >  You cannot receive more items than the number in the **Qty. Outstanding** field on the source document line. To receive more items, retrieve another source document that contains a line for the item by using the filter function to get source documents with the item.  
 
-5. Post the warehouse receipt. The quantity fields are updated on the source documents, and the items are recorded as part of company stock.  
+5. Post the warehouse receipt. The quantity fields are updated on the source documents, and the items are recorded as part of company inventory.  
 
-If you are using warehouse put-away, the receipt lines are sent to the warehouse put-away function. The items, although received, cannot be picked until they have been put away. The received items are identified as available stock only when the put-away has been registered.  
+If you are using warehouse put-away, the receipt lines are sent to the warehouse put-away function. The items, although received, cannot be picked until they have been put away. The received items are identified as available inventory only when the put-away has been registered.  
 
 If you are not using warehouse put-away but you are using bins, the put-away of the items in the bin specified on the source document line is recorded.  
 
@@ -88,7 +88,7 @@ If you are not using warehouse put-away but you are using bins, the put-away of 
 
 ## <a name="to-receive-more-items-than-ordered"></a>To receive more items than ordered
 
-When you receive more goods than you ordered, you may want to receive them instead of cancelling the receipt. For example, it may be cheaper to keep the excess on your stock than returning them or your supplier may offer you a discount for keeping them.
+When you receive more goods than you ordered, you may want to receive them instead of cancelling the receipt. For example, it may be cheaper to keep the excess on your inventory than returning them or your supplier may offer you a discount for keeping them.
 
 ### <a name="to-set-up-over-receipts"></a>To set up over-receipts
 
@@ -130,7 +130,7 @@ When you handle an over-receipt, you can either increase the value in the **Qty.
 ## <a name="see-also"></a>See Also
 
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

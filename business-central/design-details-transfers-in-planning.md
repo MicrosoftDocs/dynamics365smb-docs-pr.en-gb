@@ -1,6 +1,6 @@
 ---
 title: Design Details - Transfers in Planning | Microsoft Docs
-description: This topic describes how to use transfer orders as a source of supply when planning stock levels.
+description: This topic describes how to use transfer orders as a source of supply when planning inventory levels.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -71,7 +71,7 @@ When updating a SKU, the planning system will detect if SKUs with replenishment 
 
 ## <a name="planning-transfers-without-sku"></a>Planning Transfers without SKU  
 
-Even if the SKU feature is not used, it is possible to use locations and make manual transfers between locations. For companies with less advanced warehouse setup, the planning system supports scenarios where existing stock is transferred manually to another location, for example to cover a sales order at that location. At the same time, the planning system should react to changes in the demand.  
+Even if the SKU feature is not used, it is possible to use locations and make manual transfers between locations. For companies with less advanced warehouse setup, the planning system supports scenarios where existing inventory is transferred manually to another location, for example to cover a sales order at that location. At the same time, the planning system should react to changes in the demand.  
 
 To support manual transfers, the planning will analyse existing transfer orders and then plan the order in which the locations should be processed. Internally, the planning system will operate with temporary SKUs carrying transfer level codes.  
 

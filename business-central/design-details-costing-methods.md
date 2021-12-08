@@ -28,29 +28,29 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 
 | Costing method | Description | When to use |
 |--|--|--|
-| FIFO | An item's unit cost is the actual value of any receipt of the item, selected by the FIFO rule.<br /><br /> In stock valuation, it is assumed that the first items placed in stock are sold first. | In business environments where product cost is stable.<br /><br /> (When prices are rising, the balance sheet shows greater value. This means that tax liabilities increase, but credit scores and the ability to borrow cash improve.)<br /><br /> For items with a limited shelf life, because the oldest goods need to be sold before they pass their sell-by date. |
-| LIFO | An item's unit cost is the actual value of any receipt of the item, selected by the LIFO rule.<br /><br /> In stock valuation, it is assumed that the last items placed in stock are sold first. | Disallowed in many countries/regions, as it can be used to depress profit.<br /><br /> (When prices are rising, the value on the income statement decreases. This means that tax liabilities decrease, but the ability to borrow cash deteriorates.) |
-| Average | An item's unit cost is calculated as the average unit cost at each point in time after a purchase.<br /><br /> For stock valuation, it is assumes that all stocks are sold simultaneously. | In business environments where product cost is unstable.<br /><br /> When stocks are piled or mixed together and cannot be differentiated, such as chemicals. |
+| FIFO | An item's unit cost is the actual value of any receipt of the item, selected by the FIFO rule.<br /><br /> In inventory valuation, it is assumed that the first items placed in inventory are sold first. | In business environments where product cost is stable.<br /><br /> (When prices are rising, the balance sheet shows greater value. This means that tax liabilities increase, but credit scores and the ability to borrow cash improve.)<br /><br /> For items with a limited shelf life, because the oldest goods need to be sold before they pass their sell-by date. |
+| LIFO | An item's unit cost is the actual value of any receipt of the item, selected by the LIFO rule.<br /><br /> In inventory valuation, it is assumed that the last items placed in inventory are sold first. | Disallowed in many countries/regions, as it can be used to depress profit.<br /><br /> (When prices are rising, the value on the income statement decreases. This means that tax liabilities decrease, but the ability to borrow cash deteriorates.) |
+| Average | An item's unit cost is calculated as the average unit cost at each point in time after a purchase.<br /><br /> For inventory valuation, it is assumes that all inventories are sold simultaneously. | In business environments where product cost is unstable.<br /><br /> When inventories are piled or mixed together and cannot be differentiated, such as chemicals. |
 | Specific | An item's unit cost is the exact cost at which the particular unit was received. | In production or trade of easily identifiable items with fairly high unit costs.<br /><br /> For items that are subject to regulation.<br /><br /> For items with serial numbers. |
 | Standard | An item's unit cost is preset based on estimated.<br /><br /> When the actual cost is realised later, the standard cost must be adjusted to the actual cost through variance values. | Where cost control is critical.<br /><br /> In repetitive manufacturing, to value the costs of direct material, direct labour, and manufacturing overhead.<br /><br /> Where there is discipline and staff to maintain standards. |
 
- The following image shows how costs flow through the stock for each costing method.  
+ The following image shows how costs flow through the inventory for each costing method.  
 
  ![Costing methods.](media/design_details_inventory_costing_7_costing_methods.png "Costing methods")  
 
- Costing methods differ in the way that they value stock decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. (The LIFO method is excluded, as it is very similar to the FIFO method.)  
+ Costing methods differ in the way that they value inventory decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. (The LIFO method is excluded, as it is very similar to the FIFO method.)  
 
 |Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  
 |General characteristic|Easy to understand|Based on period options: **Day**/**Week**/**Month**/**Quarter**/**Accounting Period**.<br /><br /> Can be calculated per item or per item/location/variant.|Easy to use, but requires qualified maintenance.|Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialised items.|  
 |Application/Adjustment|Application keeps track of **the remaining quantity**.<br /><br /> Adjustment forwards costs according to quantity application.|Application keeps track of the **remaining quantity**.<br /><br /> Costs are calculated and forwarded per the **valuation date**.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|All applications are fixed.|  
 |Revaluation|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time.|Revalues invoiced and un-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|  
-|Miscellaneous|If you back-date a stock decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|If you back-date a stock increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|  
+|Miscellaneous|If you back-date a inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|If you back-date a inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|  
 
 ## <a name="example"></a>Example  
- This section gives examples of how different costing methods affect stock value.  
+ This section gives examples of how different costing methods affect inventory value.  
 
- The following table shows the stock increases and decreases that the examples are based on.  
+ The following table shows the inventory increases and decreases that the examples are based on.  
 
 |Posting Date|Quantity|Entry No.|  
 |------------------|--------------|---------------|  
@@ -62,14 +62,14 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 |04-01-20|-1|6|  
 
 > [!NOTE]  
->  The resulting quantity in stock is zero. Consequently, the stock value must also be zero, regardless of the costing method.  
+>  The resulting quantity in inventory is zero. Consequently, the inventory value must also be zero, regardless of the costing method.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effect of Costing Methods on Valuing Stock Increases  
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effect of Costing Methods on Valuing Inventory Increases  
  **FIFO**/**LIFO**/**Average**/**Specific**  
 
- For items with costing methods that use actual cost as the valuation base (**FIFO**, **LIFO**, **Average**, or **Specific**), stock increases are valued at the item's acquisition cost.  
+ For items with costing methods that use actual cost as the valuation base (**FIFO**, **LIFO**, **Average**, or **Specific**), inventory increases are valued at the item's acquisition cost.  
 
- The following table shows how stock increases are valued for all costing methods except **Standard**.  
+ The following table shows how inventory increases are valued for all costing methods except **Standard**.  
 
 |Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
 |------------------|--------------|----------------------------|---------------|  
@@ -79,9 +79,9 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 
  **Standard**  
 
- For items using the **Standard** costing method, stock increases are valued at the item's current standard cost.  
+ For items using the **Standard** costing method, inventory increases are valued at the item's current standard cost.  
 
- The following table shows how stock increases are valued for the **Standard** costing method.  
+ The following table shows how inventory increases are valued for the **Standard** costing method.  
 
 |Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
 |------------------|--------------|----------------------------|---------------|  
@@ -89,14 +89,14 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 |01-01-20|1|15.00|2|  
 |01-01-20|1|15.00|3|  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Effect of Costing Methods on Valuing Stock Decreases  
+### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Effect of Costing Methods on Valuing Inventory Decreases  
  **FIFO**  
 
- For items using the **FIFO** costing method, items that were purchased first are always sold first (entry numbers 3, 2, and 1 in this example). Accordingly, stock decreases are valued by taking the value of the first stock increase.  
+ For items using the **FIFO** costing method, items that were purchased first are always sold first (entry numbers 3, 2, and 1 in this example). Accordingly, inventory decreases are valued by taking the value of the first inventory increase.  
 
- COGS is calculated using the value of the first stock acquisitions.  
+ COGS is calculated using the value of the first inventory acquisitions.  
 
- The following table shows how stock decreases are valued for the **FIFO** costing method.  
+ The following table shows how inventory decreases are valued for the **FIFO** costing method.  
 
 |Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
 |------------------|--------------|----------------------------|---------------|  
@@ -106,11 +106,11 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 
  **LIFO**  
 
- For items using the **LIFO** costing method, items that were purchased most recently are always sold first (entry numbers 3, 2, and 1 in this example). Accordingly, stock decreases are valued by taking the value of the last stock increase.  
+ For items using the **LIFO** costing method, items that were purchased most recently are always sold first (entry numbers 3, 2, and 1 in this example). Accordingly, inventory decreases are valued by taking the value of the last inventory increase.  
 
- COGS is calculated using the value of the most recent stock acquisitions.  
+ COGS is calculated using the value of the most recent inventory acquisitions.  
 
- The following table shows how stock decreases are valued for the **LIFO** costing method.  
+ The following table shows how inventory decreases are valued for the **LIFO** costing method.  
 
 |Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
 |------------------|--------------|----------------------------|---------------|  
@@ -120,9 +120,9 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 
  **Average**  
 
- For items using the **Average** costing method, stock decreases are valued by calculating a weighted average of the remaining stock on the last day of the average cost period in which the stock decrease was posted. For more information, see [Design Details: Average Cost](design-details-average-cost.md).  
+ For items using the **Average** costing method, inventory decreases are valued by calculating a weighted average of the remaining inventory on the last day of the average cost period in which the inventory decrease was posted. For more information, see [Design Details: Average Cost](design-details-average-cost.md).  
 
- The following table shows how stock decreases are valued for the **Average** costing method.  
+ The following table shows how inventory decreases are valued for the **Average** costing method.  
 
 |Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
 |------------------|--------------|----------------------------|---------------|  
@@ -132,9 +132,9 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 
  **Standard**  
 
- For items using the **Standard** costing method, stock decreases are valued similar to the **FIFO** costing method, except valuation is based on a standard cost, not on the actual cost.  
+ For items using the **Standard** costing method, inventory decreases are valued similar to the **FIFO** costing method, except valuation is based on a standard cost, not on the actual cost.  
 
- The following table shows how stock decreases are valued for the **Standard** costing method.  
+ The following table shows how inventory decreases are valued for the **Standard** costing method.  
 
 |Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
 |------------------|--------------|----------------------------|---------------|  
@@ -144,11 +144,11 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 
  **Specific**  
 
- Costing methods make an assumption about how cost flows from an stock increase to an stock decrease. However, if more accurate information about the cost flow exists, then you can override this assumption by creating a fixed application between entries. A fixed application creates a link between an stock decrease and a specific stock increase and directs the cost flow accordingly.  
+ Costing methods make an assumption about how cost flows from an inventory increase to an inventory decrease. However, if more accurate information about the cost flow exists, then you can override this assumption by creating a fixed application between entries. A fixed application creates a link between an inventory decrease and a specific inventory increase and directs the cost flow accordingly.  
 
- For items using the **Specific** costing method, stock decreases are valued according to the stock increase that it is linked to by the fixed application.  
+ For items using the **Specific** costing method, inventory decreases are valued according to the inventory increase that it is linked to by the fixed application.  
 
- The following table shows how stock decreases are valued for the **Specific** costing method.  
+ The following table shows how inventory decreases are valued for the **Specific** costing method.  
 
 |Posting Date|Quantity|Cost Amount (Actual)|Applies-to Entry|Entry No.|  
 |------------------|--------------|----------------------------|-----------------------|---------------|  
@@ -157,11 +157,11 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 |04-01-20|-1|-30.00|**3**|6|  
 
 ## <a name="see-also"></a>See Also  
- [Design Details: Stock Costing](design-details-inventory-costing.md)   
+ [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Variance](design-details-variance.md)   
  [Design Details: Average Cost](design-details-average-cost.md)   
  [Design Details: Item Application](design-details-item-application.md)  
- [Managing Stock Costs](finance-manage-inventory-costs.md)  
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

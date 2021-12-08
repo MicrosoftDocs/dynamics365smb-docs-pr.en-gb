@@ -1,6 +1,6 @@
 ---
 title: How to Sell Items Assembled to Order
-description: If the item is set up for assemble-to-order, then the item is not expected to be in stock, and it must be assembled specifically to a sales order.
+description: If the item is set up for assemble-to-order, then the item is not expected to be in inventory, and it must be assembled specifically to a sales order.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -18,10 +18,10 @@ ms.lasthandoff: 08/27/2021
 ms.locfileid: "7440623"
 ---
 # <a name="sell-items-assembled-to-order"></a>Sell Items Assembled to Order
-If the **Assembly Policy** field on the item card of an assembly item is **Assemble-to-Order**, then the item is not expected to be in stock, and it must be assembled specifically to a sales order. When you enter the item on a sales order line, then an assembly order is automatically created and linked to the sales order.  
+If the **Assembly Policy** field on the item card of an assembly item is **Assemble-to-Order**, then the item is not expected to be in inventory, and it must be assembled specifically to a sales order. When you enter the item on a sales order line, then an assembly order is automatically created and linked to the sales order.  
 
 > [!NOTE]  
->  If some assemble-to-order items are already in stock, then you can deduct that quantity from the assembly order and reserve it from stock. For more information, see [Sell Stock Items in Assemble-to-Order Flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
+>  If some assemble-to-order items are already in inventory, then you can deduct that quantity from the assembly order and reserve it from inventory. For more information, see [Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 
 In this procedure, you process the sale of an item that will be assembled according to specifications that are requested by the customer. The steps include initiating the sales order line, customising the assembly item by editing its components and resources, checking availability to establish a delivery date, and releasing the sales order to be assembled and immediately shipped.  
 
@@ -40,7 +40,7 @@ In this procedure, you process the sale of an item that will be assembled accord
 
     An assembly order is now automatically created and linked to the sales order line. The due date of this assembly order is synchronised with the shipment date of the sales order line.  
 
-    The quantity to sell is copied to the **Qty. to Assemble to Order** field, which indicates that the item setup expects the full quantity on the sales line to be assembled to the order. You can decrease the quantity to assemble to order, such as if you know that some items are already available. For more information, see [Sell Stock Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
+    The quantity to sell is copied to the **Qty. to Assemble to Order** field, which indicates that the item setup expects the full quantity on the sales line to be assembled to the order. You can decrease the quantity to assemble to order, such as if you know that some items are already available. For more information, see [Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
 6.  To reflect that the customer wants an additional item in a kit, on the **Lines** FastTab, choose the **Line** action, choose the **Assemble to Order** action, and then choose the **Assemble-to-Order Lines** action to view and change the standard assembly components. Alternatively, choose the **Qty. to Assemble to Order** field.  
 7.  On the **Assemble-to-Order Lines** page, create a new line of type **Item** for the requested additional kit content. The line represents an additional assembly component.  
@@ -63,7 +63,7 @@ In this procedure, you process the sale of an item that will be assembled accord
 ## <a name="see-also"></a>See Also  
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Register New Items](inventory-how-register-new-items.md)

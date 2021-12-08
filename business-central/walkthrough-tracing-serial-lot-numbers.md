@@ -81,7 +81,7 @@ Then you must create various purchase, production, and sales transactions with t
 2. Choose the **New** action.  
 3. In the **No.** field, enter **2000**, and then proceed to fill in the following fields.  
 
-    |Description|Base Unit of Measurement|Gen. Prod. Posting Group|VAT Prod. Posting Group|Stock Posting Group|Item Tracking Code|  
+    |Description|Base Unit of Measurement|Gen. Prod. Posting Group|VAT Prod. Posting Group|Inventory Posting Group|Item Tracking Code|  
     |-----------|--------------------|------------------------|-----------------------|--------------------|------------------|  
     |Racing Frame|PCS|RAW MAT|VAT25|RAW MAT|LOTALL|  
 
@@ -93,7 +93,7 @@ Then you must create various purchase, production, and sales transactions with t
 6. Choose **New**.  
 7. In the **No.** field, enter **1002**, and then proceed to fill in the following fields.  
 
-    |Description|Base Unit of Measurement|Gen. Prod. Posting Group|VAT Prod. Posting Group|Stock Posting Group|Replenishment System|Item Tracking Code|  
+    |Description|Base Unit of Measurement|Gen. Prod. Posting Group|VAT Prod. Posting Group|Inventory Posting Group|Replenishment System|Item Tracking Code|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
     |Racing Bike|PCS|RETAIL|VAT25|FINISHED|Prod. Order|SNALL|  
 
@@ -249,7 +249,7 @@ Then you must create various purchase, production, and sales transactions with t
 
     - The first posted document backward in the chain of transactions is the output posting of SN1 from the first released works order.  
     - The next posted document backward after that is the consumption posting from the first released works order. Here the quality controller sees that a racing frame from LOT1 was used.  
-    - The lowest posted document in this chain is the posted purchase receipt on which racing frames with LOT1 entered stock.  
+    - The lowest posted document in this chain is the posted purchase receipt on which racing frames with LOT1 entered inventory.  
 
     The quality controller has now established which lot of racing frames was faulty and he can search for the last trace line to see which supplier supplied them, namely Custom Metals Incorporated.  
 
@@ -277,7 +277,7 @@ Then you must create various purchase, production, and sales transactions with t
 
     The quality controller immediately informs the sales department so that they can initiate a recall of the defective racing bike from the customer, Cannon Group PLC.  
 
-    At the same time, he can see from the last three trace lines that another two items, SN3 and SN4, have been produced based on racing frames from LOT1. He takes action to block these end items in stock.  
+    At the same time, he can see from the last three trace lines that another two items, SN3 and SN4, have been produced based on racing frames from LOT1. He takes action to block these end items in inventory.  
 
     This completes the second defects management task using the **Item Tracing** page for defects management. Since the **Item Tracing** page is based on posted entries only, the quality controller must continue to the **Find entries** page to make sure that LOT1 is not used in non-posted documents.  
 

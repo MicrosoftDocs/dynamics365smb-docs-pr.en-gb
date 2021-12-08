@@ -60,7 +60,7 @@ In this worksheet, you can work with a number of bin content lines for a number 
 
 [Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

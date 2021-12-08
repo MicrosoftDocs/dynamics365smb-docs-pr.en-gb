@@ -34,7 +34,7 @@ When the planning system detects demand at a location (a line with a location co
 
 During a planning run, the system checks for the 3 setup values in sequence and plans accordingly:  
 
-1. Is there a check mark in the **Location Mandatory** field in the **Stock Setup** page?  
+1. Is there a check mark in the **Location Mandatory** field in the **Inventory Setup** page?  
 
     If yes, then:  
 
@@ -54,7 +54,7 @@ During a planning run, the system checks for the 3 setup values in sequence and 
 
     If no, then:  
 
-    The item is planned according to: Reordering Policy =  *Lot-for-Lot*, Include Stock =  *Yes*, all other planning parameters = Empty. (Items using reordering policy  *Order* remain using  *Order* as well as the other settings.)  
+    The item is planned according to: Reordering Policy =  *Lot-for-Lot*, Include Inventory =  *Yes*, all other planning parameters = Empty. (Items using reordering policy  *Order* remain using  *Order* as well as the other settings.)  
 
 > [!NOTE]  
 > This minimal alternative only covers the exact demand. Any planning parameters defined are ignored.  
@@ -62,7 +62,7 @@ During a planning run, the system checks for the 3 setup values in sequence and 
 See variations in the scenarios below.  
 
 > [!TIP]
-> The **Locations Mandatory** field in the **Stock Setup** page and the **Components at Location** field in the Manufacturing Setup page are very important in governing how the planning system handles demand lines with/without location codes.
+> The **Locations Mandatory** field in the **Inventory Setup** page and the **Components at Location** field in the Manufacturing Setup page are very important in governing how the planning system handles demand lines with/without location codes.
 >
 > For production demand that is purchased (when the planning engine is used solely for purchase planning and not for production planning), [!INCLUDE [prod_short](includes/prod_short.md)] will use the same location for components as the one stated on the works order. However, by filling in this field, you can redirect the components to another location.
 >
@@ -72,7 +72,7 @@ Another important field is the **Maximum Order Quantity** field on the **Item** 
 
 ## <a name="demand-at-blank-location"></a>Demand at "Blank Location"  
 Even if the **Location Mandatory** check box is selected, the system will allow demand lines to be created without a location code – also referred to as *BLANK* location. This is a deviation for the system because it has various setup values tuned to dealing with locations (see above) and as a result, the planning engine will not create a planning line for such a demand line. If the **Location Mandatory** field is not selected but any of the location setup values exist, then that is also considered a deviation and the planning system will react by outputting the "minimal alternative":   
-The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains *Order)*, Include Stock =  *Yes*, all other planning parameters = Empty.  
+The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains *Order)*, Include Inventory =  *Yes*, all other planning parameters = Empty.  
 
 See variations in the setup scenarios below.  
 
@@ -92,7 +92,7 @@ The item is planned according to planning parameters on the item card.
 
 #### <a name="case-13-demand-is-at--green-location"></a>Case 1.3: Demand is at  *GREEN* location  
 
-The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Stock =  *Yes*, all other planning parameters = Empty.  
+The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.  
 
 #### <a name="case-14-demand-is-at--blank-location"></a>Case 1.4: Demand is at  *BLANK* location  
 
@@ -106,7 +106,7 @@ The item is not planned because no location is defined on the demand line.
 
 #### <a name="case-21-demand-is-at--red-location"></a>Case 2.1: Demand is at  *RED* location  
 
-The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Stock =  *Yes*, all other planning parameters = Empty.  
+The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.  
 
 #### <a name="case-22-demand-is-at--blue-location"></a>Case 2.2: Demand is at  *BLUE* location  
 
@@ -120,7 +120,7 @@ The item is planned according to planning parameters on the item card.
 
 #### <a name="case-31-demand-is-at--red-location"></a>Case 3.1: Demand is at  *RED* location  
 
-The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Stock =  *Yes*, all other planning parameters = Empty.  
+The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.  
 
 #### <a name="case-32-demand-is-at--blue-location"></a>Case 3.2: Demand is at  *BLUE* location  
 
@@ -128,7 +128,7 @@ The item is planned according to planning parameters on the item card.
 
 #### <a name="case-33-demand-is-at--blank-location"></a>Case 3.3: Demand is at  *BLANK* location  
 
-The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Stock =  *Yes*, all other planning parameters = Empty.  
+The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.  
 
 ### <a name="setup-4"></a>Setup 4:  
 
@@ -138,7 +138,7 @@ The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* r
 
 #### <a name="case-41-demand-is-at--blue-location"></a>Case 4.1: Demand is at  *BLUE* location  
 
-The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Stock =  *Yes*, all other planning parameters = Empty.  
+The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.  
 
 #### <a name="case-42-demand-is-at--blank-location"></a>Case 4.2: Demand is at  *BLANK* location  
 
@@ -153,7 +153,7 @@ Therefore, if you often plan for demand at locations, then we recommend that you
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)  

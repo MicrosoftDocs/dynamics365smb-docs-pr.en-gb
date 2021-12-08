@@ -20,7 +20,7 @@ ms.locfileid: "7587666"
 # <a name="work-on-service-tasks"></a>Work on Service Tasks
 After you have created a service order or service quote, registered service item lines, and allocated resources to the service items in the order or quote, you can start repairing and maintaining the service items.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] features a **Service Tasks** page that gives an overview of all the service items that need attention. Think of it as your service dashboard where you can see what orders are pending, look for and register spare parts, and keep your stock up-to-date.  
+[!INCLUDE[prod_short](includes/prod_short.md)] features a **Service Tasks** page that gives an overview of all the service items that need attention. Think of it as your service dashboard where you can see what orders are pending, look for and register spare parts, and keep your inventory up-to-date.  
 
 To track changes and get a graphical view of your service business, use [!INCLUDE[prod_short](includes/prod_short.md)] statistics tools for quick, automatically generated charting and analysis.  
 

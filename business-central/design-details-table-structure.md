@@ -104,7 +104,7 @@ In addition to other dimension fields in the table, these fields are important.
 |169|**Job Ledger Entry**|  
 |203|**Res. Ledger Entry**|  
 |271|**Bank Account Ledger Entry**|  
-|281|**Phys. Stock Ledger Entry**|  
+|281|**Phys. Inventory Ledger Entry**|  
 |297|**Issued Reminder Header**|  
 |304|**Issued Fin. Charge Memo Header**|  
 |5107|**Sales Header Archive**|  

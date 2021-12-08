@@ -44,7 +44,7 @@ The linked blanket assembly order and any customizations are linked to that new 
 [Create Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

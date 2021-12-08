@@ -35,20 +35,20 @@ The reservations system is comprehensive and includes the interrelated and paral
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="reservation"></a>Reservation  
- A reservation is a firm link that connects a specific demand and a specific supply to each other. This link directly affects the subsequent stock transaction and ensures the proper application of item entries for costing purposes. A reservation overrides the default costing method of an item. For more information, see [Design Details: Item Tracking](design-details-item-tracking.md).  
+ A reservation is a firm link that connects a specific demand and a specific supply to each other. This link directly affects the subsequent inventory transaction and ensures the proper application of item entries for costing purposes. A reservation overrides the default costing method of an item. For more information, see [Design Details: Item Tracking](design-details-item-tracking.md).  
 
  The **Reservation** page is accessible from all order lines of both demand and supply type. In this page, the user can specify which demand or supply entry to create a reservation link to. The reservation consists of a pair of records that share the same entry number. One record has a negative sign and points to the demand. The other record has a positive sign and points to the supply. These records are stored in the **Reservation Entry** table with status value **Reservation**. The user can view all reservations on the **Reservation Entries** page.  
 
 ### <a name="offsetting-in-reservations"></a>Offsetting in Reservations  
  Reservations are made against available item quantities. Item availability is calculated in basic terms as follows:  
 
- available quantity = stock + scheduled receipts - gross requirements  
+ available quantity = inventory + scheduled receipts - gross requirements  
 
  The following table shows the details of the order network entities that are part of the availability calculation.  
 
 ||Field in T27|Source table|Table filter|Source field|  
 |-|------------------|------------------|------------------|------------------|  
-|**Stock**|Stock|Item Ledger Entry|N/A|Quantity|  
+|**Inventory**|Inventory|Item Ledger Entry|N/A|Quantity|  
 |**Scheduled receipts**|FP Order Receipt (Qty.)|Prod. Order Line|=Firm Planned|Remaining Qty. (Base)|  
 |**Scheduled receipts**|Rel. Order Receipt (Qty.)|Prod. Order Line|=Released|Remaining Qty. (Base)|  
 |**Scheduled receipts**|Qty. on Assembly Order|Assembly Header|=Order|Remaining Qty. (Base)|  
@@ -77,7 +77,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 >  The Late Binding functionality may also change reservations without informing the user, by reshuffling nonspecific reservations of serial or lot numbers. For more information, see "Design Details: Item Tracking and Reservations".  
 
 ### <a name="automatic-reservations"></a>Automatic Reservations  
- The item card can be set up to always be reserved automatically from demand, such as sales orders. In that case, reservation is made against stock, purchase orders, assembly orders, and works orders. A warning is issued if supply is insufficient.  
+ The item card can be set up to always be reserved automatically from demand, such as sales orders. In that case, reservation is made against inventory, purchase orders, assembly orders, and works orders. A warning is issued if supply is insufficient.  
 
  In addition, items are automatically reserved by various planning functions to keep a demand linked to a specific supply. The order tracking entries for such planning links contain **Reservation** in the **Reservation Status** field in the **Reservation Entry** table. Automatic reservations are created in the following situations:  
 
@@ -104,7 +104,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 >  The order tracking system offsets available stock as orders are entered into the order network. This implies that the system does not prioritise orders that may be more urgent in terms of their due date. It is therefore up to the logic of the planning system or the wisdom of the planner to rearrange these priorities in a meaningful way.  
 
 > [!NOTE]  
->  Order tracking policy and the Get Action Messages function are not integrated with Jobs. That means that demand related to a job is not automatically tracked. Because it is not tracked, it could cause the use of an existing replenishment with job information to be tracked to another demand, for example, a sales order. Consequently, you may encounter the situation in which your information about available stock is out of sync.  
+>  Order tracking policy and the Get Action Messages function are not integrated with Jobs. That means that demand related to a job is not automatically tracked. Because it is not tracked, it could cause the use of an existing replenishment with job information to be tracked to another demand, for example, a sales order. Consequently, you may encounter the situation in which your information about available inventory is out of sync.  
 
 ### <a name="the-order-network"></a>The Order Network  
  The order tracking system is based on the principle that the order network must always be in a state of balance, in which every demand that enters the system is offset by a corresponding supply and vice versa. The system provides this by identifying logical links between all demand and supply entries in the order network.  

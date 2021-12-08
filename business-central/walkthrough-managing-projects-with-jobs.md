@@ -21,7 +21,7 @@ ms.locfileid: "6439050"
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-This walkthrough introduces you to the project management features in jobs. Jobs are a way for you to schedule the usage of your company's resources and to keep track of the various costs associated with the resources on a specific project. Jobs involves the consumption of employee hours, machine hours, stock items, and other types of usage that you may want to track as a job progresses.  
+This walkthrough introduces you to the project management features in jobs. Jobs are a way for you to schedule the usage of your company's resources and to keep track of the various costs associated with the resources on a specific project. Jobs involves the consumption of employee hours, machine hours, inventory items, and other types of usage that you may want to track as a job progresses.  
 
  This walkthrough covers the setup of a new job in addition to some common tasks such as handling fixed pricing, making payment by installments, posting invoices from jobs, and copying jobs.  
 

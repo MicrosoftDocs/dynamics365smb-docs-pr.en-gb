@@ -19,7 +19,7 @@ ms.locfileid: "7557222"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Design Details: Posting Date on Adjustment Value Entry
 
-This article provides guidance for users of the Stock Costing functionality in [!INCLUDE[prod_short](includes/prod_short.md)], and in particular for how the **Adjust Cost - Item Entries** batch job identifies and assigns a posting date to the value entries that the batch job is about to create.
+This article provides guidance for users of the Inventory Costing functionality in [!INCLUDE[prod_short](includes/prod_short.md)], and in particular for how the **Adjust Cost - Item Entries** batch job identifies and assigns a posting date to the value entries that the batch job is about to create.
 
 ## <a name="how-posting-dates-are-assigned"></a>How posting dates are assigned
 
@@ -27,9 +27,9 @@ The **Adjust Cost – Item Entries** batch job assigns a posting date to the val
 
 1. Initially the Posting Date of the entry to be created is the same date as the entry it adjusts.  
 
-2. The Posting Date is validated against Stock Periods and/or General Ledger Setup.  
+2. The Posting Date is validated against Inventory Periods and/or General Ledger Setup.  
 
-3. Assignment of Posting Date; If the initial Posting Date is not within allowed posting date range the batch job will assign an allowed Posting Date from either General Ledger Setup or Stock Period. If both Stock Periods and allowed posting dates in General Ledger Setup are defined, the later date of the two will be assigned to the Adjustment Value Entry.  
+3. Assignment of Posting Date; If the initial Posting Date is not within allowed posting date range the batch job will assign an allowed Posting Date from either General Ledger Setup or Inventory Period. If both Inventory Periods and allowed posting dates in General Ledger Setup are defined, the later date of the two will be assigned to the Adjustment Value Entry.  
 
 Let’s review this process more in practice. Assume we have an Item Ledger Entry of Sale. The item was shipped on September 5, 2020 and it was invoiced the day after.  
 
@@ -55,11 +55,11 @@ To assign the posting date for **Entry No. 391** the following steps were applie
 
 1. The **Adjustment Value Entry** to be created (**Entry No. 391**) is assigned same **Posting Date** as the entry it adjusts.
 
-2. The **Adjust Cost – Item Entries** batch job determines if the initial Posting Date of the Adjustment Value Entry is within allowed posting date range based upon Stock Periods and/or General Ledger Setup.  
+2. The **Adjust Cost – Item Entries** batch job determines if the initial Posting Date of the Adjustment Value Entry is within allowed posting date range based upon Inventory Periods and/or General Ledger Setup.  
 
 Let’s review the above mentioned Sale by adding setup of allowed posting date ranges.  
   
-#### <a name="inventory-periods"></a>Stock Periods
+#### <a name="inventory-periods"></a>Inventory Periods
 
 |Ending Date  |Name  |Closed  |
 |---------|---------|---------|
@@ -87,7 +87,7 @@ The first allowed posting date is the first day in the first open period, which 
 |Register Time:       |         |
 |Local Address Format:|   postcode      |  
 
-The first allowed posting date is the date stated in field **Allow Posting From**: September 10, 2020. If both Stock Periods and allowed posting dates in **General Ledger Setup** are defined, the later date of the two will define the allowed posting date range.  
+The first allowed posting date is the date stated in field **Allow Posting From**: September 10, 2020. If both Inventory Periods and allowed posting dates in **General Ledger Setup** are defined, the later date of the two will define the allowed posting date range.  
 
 **Assignment of an allowed posting date**  
 
@@ -114,7 +114,7 @@ To learn more, see [Posting Date on Adjustment Value Entry Compared to the Sourc
 
 ## <a name="see-also"></a>See Also  
 
-[Design Details: Stock Costing](design-details-inventory-costing.md)  
+[Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Item Application](design-details-item-application.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

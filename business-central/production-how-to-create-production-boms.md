@@ -41,7 +41,7 @@ Before you can set up a routing, the following must be in place:
 8.  In the **Scrap %** field you can enter a fixed percentage of components that are scrapped during production. When the components are ready to be consumed in a released works order, this percentage will be added to the expected quantity in the **Consumption Quantity** field in a production journal. For more information, see [Register Consumption and Output](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
-    >  This scrap percentage represents components that are scrapped during production when picking from stock, whereas the scrap percentage on routing lines represents scrapped output before putting on stock.  
+    >  This scrap percentage represents components that are scrapped during production when picking from inventory, whereas the scrap percentage on routing lines represents scrapped output before putting on inventory.  
 
 9.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see [To create routing links](production-how-to-create-routings.md#to-create-routing-links).
 10. To copy lines from an existing production BOM, choose the **Copy BOM** action to select existing lines.  
@@ -95,7 +95,7 @@ In a production BOM, seventy metal parts with the dimensions length = 0.20 m and
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Planning](production-planning.md)   
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -22,7 +22,7 @@ You can see where an item-tracked item was used, including how and when it was r
 
 These features can be particularly useful in quality control when you need to find out which customers received products with a particular lot number or when you need to find out which lot a defective component came from.  
 
- On the **Item Tracing** page, you can trace forwards and backwards in a sequence of posted stock transactions for the serial or lot number.  
+ On the **Item Tracing** page, you can trace forwards and backwards in a sequence of posted inventory transactions for the serial or lot number.  
 
  On the **Find Entries** page, you cannot see the sequence of transactions, but you can see all records of the serial or lot number, both posted entries and open records.  
 
@@ -45,7 +45,7 @@ These features can be particularly useful in quality control when you need to fi
     |Field|Description|  
     |----------------------------------|---------------------------------------|  
     |**Usage->Origin**|This method traces the item starting from where it was used to where it came from. For instance, if a manufactured item was sold to a customer, the **Item Tracing** page shows this with the sales shipment line first, which you can then expand to see from which works order it came.|  
-    |**Origin->Usage**|This method traces the item starting from where it came into stock to where it was used. For instance, if a manufactured item was sold to a customer, the **Item Tracing** page shows this with the finished works order first, which you can then expand to see sale shipment lines where the item was used.|  
+    |**Origin->Usage**|This method traces the item starting from where it came into inventory to where it was used. For instance, if a manufactured item was sold to a customer, the **Item Tracing** page shows this with the finished works order first, which you can then expand to see sale shipment lines where the item was used.|  
 
 5.  Choose the **Trace** action to run the trace.  
 
@@ -66,7 +66,7 @@ These features can be particularly useful in quality control when you need to fi
 
 ## <a name="see-also"></a>See Also
 
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Work with Serial, Lot, and Package Numbers](inventory-how-work-item-tracking.md)  
 [Design Details: Item Tracking](design-details-item-tracking.md)  
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  

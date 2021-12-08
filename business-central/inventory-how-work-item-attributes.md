@@ -78,7 +78,7 @@ The items on the **Items** page are filtered by the specified item attribute val
 ## <a name="see-also"></a>See Also
 [Categorise Items](inventory-how-categorize-items.md)    
 [Register New Items](inventory-how-register-new-items.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

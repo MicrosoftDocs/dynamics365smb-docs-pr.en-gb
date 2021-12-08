@@ -38,7 +38,7 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes 
 
 * **Report Selection - Sales**  
 * **Report Selection - Purchase**  
-* **Report Selection - Stock**  
+* **Report Selection - Inventory**  
 * **Report Selection - Cash Flow**  
 * **Report Selection - Warehouse**  
 * **Report Selection - Bank Account**  

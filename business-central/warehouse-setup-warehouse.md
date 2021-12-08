@@ -35,7 +35,7 @@ A company's distribution strategy is reflected in the configuration of its wareh
 |Make additional settings to an existing location to enable it for warehouse activities.|[Convert Existing Locations to Warehouse Locations](warehouse-how-to-convert-existing-locations-to-warehouse-locations.md)|
 |Enable picking, moving, and putting away for assembly or works orders in basic warehouse configurations.|[Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|  
 |Set items and locations up for the most advanced scope of warehouse management where all activities must follow a strict workflow.|[Set Up Items and Locations for Directed Put-away and Pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)|  
-|Define when and how items in warehouse locations are counted for maintenance or financial reporting purposes.|[Count, Adjust, or Reclassify Stock](inventory-how-count-adjust-reclassify.md)|
+|Define when and how items in warehouse locations are counted for maintenance or financial reporting purposes.|[Count, Adjust, or Reclassify Inventory](inventory-how-count-adjust-reclassify.md)|
 |Enable warehouse workers to break a larger unit of measurement into smaller units of measurement to fulfil the needs of source documents.|[Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Set up the warehouse to automatically suggest items to be picked that expire first.|[Enable Picking by FEFO](warehouse-picking-by-fefo.md)|
 |Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|
@@ -44,7 +44,7 @@ A company's distribution strategy is reflected in the configuration of its wareh
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

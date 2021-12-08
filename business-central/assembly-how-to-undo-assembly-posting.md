@@ -28,7 +28,7 @@ When you undo a partially posted assembly order, then all affected quantity fiel
 
 To recreate or restore assembly orders, the following conditions must apply to the assembly item that was output in the original posting:  
 
--   It must still be in stock, that is, it is not sold or otherwise consumed by outbound transactions.  
+-   It must still be in inventory, that is, it is not sold or otherwise consumed by outbound transactions.  
 -   It must not be reserved.  
 -   It must exist in the bin that it was output to.  
 
@@ -58,7 +58,7 @@ The **Reversed** field on the assembly order header changes to **Yes**. The asse
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  
 [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)    
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

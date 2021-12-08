@@ -36,7 +36,7 @@ For example, when order tracking exists for a given item, it implies that record
 
 Apart from their consequences on dynamic order tracking, the item tracking coupling restrictions do not affect the planning system significantly.
 
-On the supply side, a serial or lot number is typically not entered until immediately before the order is posted, such as a purchase receipt into the warehouse. When entering a serial or lot number on the demand side, such as on a sales order, that serial or lot number is already in stock. Accordingly, item tracking numbers are typically not an issue in supply planning.
+On the supply side, a serial or lot number is typically not entered until immediately before the order is posted, such as a purchase receipt into the warehouse. When entering a serial or lot number on the demand side, such as on a sales order, that serial or lot number is already in inventory. Accordingly, item tracking numbers are typically not an issue in supply planning.
 
 For items that use specific item tracking, all demand carrying serial or lot numbers must be matched by corresponding supply. In most cases, it does not make sense to reorder a specific serial or lot number, so the planning of purchase or production supplies is probably not affected. However, when transferring items from one location to another, it is likely that the transfer is for a specific lot, so planning transfer supplies might be affected by the specific coupling restriction.
 

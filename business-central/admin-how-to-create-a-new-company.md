@@ -59,7 +59,7 @@ The following table lists some of the setup data tables, in which you capture se
 |98|General Ledger Setup|  
 |311|Sales & Receivables Setup|  
 |312|Purchases & Payables Setup|  
-|313|Stock Setup|  
+|313|Inventory Setup|  
 
 In addition to setup data tables, [!INCLUDE[prod_short](includes/prod_short.md)] also has setup-type data tables that specify core information about the company and its business processes. The following table lists some of them.  
 

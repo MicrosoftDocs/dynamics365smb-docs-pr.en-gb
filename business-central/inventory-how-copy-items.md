@@ -38,7 +38,7 @@ When you add a new item, to save time, you can use the **Copy Item** function to
 ## <a name="see-also"></a>See Also
 
 [Register New Items](inventory-how-register-new-items.md)  
-[Setting Up Stock](inventory-setup-inventory.md)  
+[Setting Up Inventory](inventory-setup-inventory.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

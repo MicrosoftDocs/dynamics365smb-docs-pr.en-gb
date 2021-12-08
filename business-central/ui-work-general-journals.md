@@ -182,7 +182,7 @@ When you have finished saving the standard item journal, the Item Journal page i
     If you did not check the **Save Unit Amount** field when you used the **Save as Standard Item Journal** function job, then the **Unit Amount** field on lines that are inserted from the standard journal is automatically filled with the item's current value, copied from the **Unit Cost** field on the item card.
 
     > [!NOTE]  
-    > If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular stock adjustment before you post the item journal.
+    > If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.
 
     If the inserted item journal lines contain saved unit amounts that you do not want to post, you can quickly adjust it to the current value of the item as follows.
 
@@ -220,8 +220,8 @@ Values in the **Document No.** field are changed, where required, so that the do
 [Finance](finance.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
-[Revalue Stock in the Revaluation Journal](inventory-how-revalue-inventory.md)  
-[Count, Adjust, and Reclassify Stock Using Journals](inventory-how-count-adjust-reclassify.md)  
+[Revalue Inventory in the Revaluation Journal](inventory-how-revalue-inventory.md)  
+[Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
 [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md)  
 [Reconcile Supplier Payments with the Payment Journal or from Supplier Ledger Entries](payables-how-apply-purchase-transactions-manually.md)  
 [Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)  

@@ -36,7 +36,7 @@ You can negotiate with the customer by first creating a sales quote, which you c
 
 If the customer decides to buy, you post the sales invoice to create the related quantity and value entries. When you post the sales invoice, you can also email the document as a PDF attachment. You can have the email body prefilled with a summary of the invoice and payment information, such as a link to PayPal. For more information, see [Send Documents by Email](ui-how-send-documents-email.md). When the customer then pays the invoice, you can register that payment in different ways, depending on the size and preferred workflows of your organisation. For more information, see the [Registering Payments](#registering-payments) section.  
 
-Items cards can be of type **Stock**, **Service**, and **Non-stock** to specify if the item is a physical stock unit, a labour time unit, or a physical unit that is not kept on stock. For more information, see [Register New Items](inventory-how-register-new-items.md). The sales invoice process is the same for all three item types.
+Items cards can be of type **Inventory**, **Service**, and **Non-inventory** to specify if the item is a physical inventory unit, a labour time unit, or a physical unit that is not kept on inventory. For more information, see [Register New Items](inventory-how-register-new-items.md). The sales invoice process is the same for all three item types.
 
 You can fill customer fields on the sales invoice in two ways depending on whether the customer is already registered. See step 2 in the following procedure.
 
@@ -134,7 +134,7 @@ You can even create directly-paid invoices for non-registered customers by first
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Print the Picking List](sales-how-print-picking-list.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Bulk Invoicing from Microsoft Bookings in Business Central ](finance-bookings.md)  

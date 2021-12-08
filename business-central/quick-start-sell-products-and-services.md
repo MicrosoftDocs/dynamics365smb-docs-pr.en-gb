@@ -65,7 +65,7 @@ When you sell something to a customer, you have two options. The first, and simp
 
 5. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
 
-6. In the **No.** field, enter the number of an stock item or service.
+6. In the **No.** field, enter the number of an inventory item or service.
 
 7. In the **Quantity** field, enter the number of items to be sold.
 

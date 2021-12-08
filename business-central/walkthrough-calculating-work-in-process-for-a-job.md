@@ -1,6 +1,6 @@
 ---
 title: Walkthrough - Calculating Work in Progress for a Job
-description: Jobs involve the consumption of employee hours, machine hours, stock items, and other types of usage that have to be tracked as a job progresses.
+description: Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -21,7 +21,7 @@ ms.locfileid: "7588124"
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, stock items, and other types of usage that have to be tracked as a job progresses. If a job runs over a long period, you may want to transfer these costs to a Work in Progress (WIP) account on the balance sheet while the job is being completed. You can then recognize the costs and sales in your income statement accounts when it is appropriate.  
+With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses. If a job runs over a long period, you may want to transfer these costs to a Work in Progress (WIP) account on the balance sheet while the job is being completed. You can then recognize the costs and sales in your income statement accounts when it is appropriate.  
 
 ## <a name="about-this-walkthrough"></a>About This Walkthrough  
  This walkthrough illustrates the following tasks:  

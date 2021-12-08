@@ -24,7 +24,7 @@
 
 ### Design Details
 #### [Application Design Details Overview](design-details-application-design.md)
-#### Design Details: Stock Costing
+#### Design Details: Inventory Costing
 ##### [Inventory Costing Design Details](design-details-inventory-costing.md)
 ##### [Design Details: Costing Methods](design-details-costing-methods.md)  
 ##### [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)
@@ -36,13 +36,13 @@
 ##### [Design Details: Variance](design-details-variance.md)  
 ##### [Design Details: Rounding](design-details-rounding.md)  
 ##### [Design Details: Cost Components](design-details-cost-components.md)  
-##### [Design Details: Stock Periods](design-details-inventory-periods.md)  
-##### [Design Details: Stock Posting](design-details-inventory-posting.md)  
+##### [Design Details: Inventory Periods](design-details-inventory-periods.md)  
+##### [Design Details: Inventory Posting](design-details-inventory-posting.md)  
 ##### [Design Details: Works Order Posting](design-details-production-order-posting.md)  
 ##### [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
 ##### [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  
 ##### [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
-##### [Design Details: Stock Valuation](design-details-inventory-valuation.md)  
+##### [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
 ##### [Design Details: Revaluation](design-details-revaluation.md)
 #### Design Details: Posting Date on Adjustment Value Entry
 ##### [Posting Date on Adjustment Value Entry Overview](design-details-inventory-adjustment-value-entry-posting-date.md)  
@@ -70,7 +70,7 @@
 ##### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)  
 ##### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
 ##### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
-##### [Design Details: Integration with Stock](design-details-integration-with-inventory.md)
+##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
 #### Design Details: Item Tracking
 ##### [Item Tracking Design Details](design-details-item-tracking.md)
 ##### [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
@@ -154,9 +154,9 @@
 #### [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Prioritise Suppliers](purchasing-how-prioritize-vendors.md)
 #### [Set Up Purchasers](purchasing-how-setup-purchasers.md)
-### Setting Up Stock
-#### [Setting Up Stock](inventory-setup-inventory.md)
-#### [Set Up General Stock Information](inventory-how-setup-general.md)
+### Setting Up Inventory
+#### [Setting Up Inventory](inventory-setup-inventory.md)
+#### [Set Up General Inventory Information](inventory-how-setup-general.md)
 #### [Work with Responsibility Centres](inventory-responsibility-centers.md)
 #### [Set Up Locations](inventory-how-setup-locations.md)
 #### [Register New Items](inventory-how-register-new-items.md)
@@ -541,25 +541,25 @@
 #### [Creating Cost Budgets](finance-create-cost-budgets.md)
 #### [Deleting Cost Budget Entries](finance-how-to-delete-cost-budget-entries.md)
 
-### Managing Stock Costs
-#### [Stock Costing Overview](finance-manage-inventory-costs.md)
-#### [About Stock Costing](finance-learn-about-costing.md)
+### Managing Inventory Costs
+#### [Inventory Costing Overview](finance-manage-inventory-costs.md)
+#### [About Inventory Costing](finance-learn-about-costing.md)
 #### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 #### [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
-#### [Design Details: Stock Costing](design-details-inventory-costing.md)
-#### [Work with Stock Periods](finance-how-to-work-with-inventory-periods.md)
-#### [Setting Up Stock Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)
-#### [Revalue Stock](inventory-how-revalue-inventory.md)
+#### [Design Details: Inventory Costing](design-details-inventory-costing.md)
+#### [Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)
+#### [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)
+#### [Revalue Inventory](inventory-how-revalue-inventory.md)
 #### [Adjust Item Costs](inventory-how-adjust-item-costs.md)
-#### [Handle Stock and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)
+#### [Handle Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Update Standard Costs](finance-how-to-update-standard-costs.md)
 #### [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Reporting Costs and Reconciling with the General Ledger
 ##### [Reporting Costs](finance-report-costs-and-reconcile-with-the-general-ledger.md)
-##### [Reconcile Stock Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+##### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
-#### [Adjust and Reconcile Stock Cost with General Ledger with Job Queue](finance-adjust-reconcile-inventory-cost-job-queue.md)
+#### [Adjust and Reconcile Inventory Cost with General Ledger with Job Queue](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Managing Cash Flow
 #### [Cash Flow Overview](finance-cash-flow-overview.md)
@@ -659,18 +659,18 @@
 ### [Enter External Document Numbers](across-enter-external-document-numbers.md)
 
 
-## Stock
-### [Stock Overview](inventory-manage-inventory.md)
-### [Stock and Warehouse Reports](inventory-WMS-reports.md)
+## Inventory
+### [Inventory Overview](inventory-manage-inventory.md)
+### [Inventory and Warehouse Reports](inventory-WMS-reports.md)
 ### [Register New Items](inventory-how-register-new-items.md)
 ### [Work with Bills of Material](inventory-how-work-BOMs.md)
 ### [Categorise Items](inventory-how-categorize-items.md)
 ### [Work with Item Attributes](inventory-how-work-item-attributes.md)
 ### [Work with Catalogue Items](inventory-how-work-nonstock-items.md)
-### [Count and Adjust Stock Using Documents](inventory-how-count-inventory-with-documents.md)
-### [Count, Adjust, and Reclassify Stock Using Journals](inventory-how-count-adjust-reclassify.md)
+### [Count and Adjust Inventory Using Documents](inventory-how-count-inventory-with-documents.md)
+### [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)
 ### [View the Availability of Items](inventory-how-availability-overview.md)
-### [Transfer Stock Between Locations](inventory-how-transfer-between-locations.md)
+### [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
 ### [Reserve Items](inventory-how-to-reserve-items.md)
 ### [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md)
 ### [Track Items with Serial, Lot, and Package Numbers](inventory-how-work-item-tracking.md)
@@ -763,8 +763,8 @@
 ### [Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Assemble Items](assembly-how-to-assemble-items.md)
 ### [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)
-### [Sell Stock Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
-### [Sell Assemble-to-Order Items and Stock Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
+### [Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
+### [Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
 ### [Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)
 ### [Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
 ### [Work with Bills of Material](inventory-how-work-BOMs.md)
@@ -787,12 +787,12 @@
 
 ## Warehouse Management
 ### [Warehouse Management](warehouse-manage-warehouse.md)
-### [Stock and Warehouse Reports](inventory-WMS-reports.md)
+### [Inventory and Warehouse Reports](inventory-WMS-reports.md)
 ### [Receive Items](warehouse-how-receive-items.md)
 ### [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
 ### Putting Items Away
 #### [Put Items Away](warehouse-put-away-items.md)
-#### [Put Items Away with Stock Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
+#### [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
 #### [Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)
 #### [Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md)
 #### [Plan Put-Aways in Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md)
@@ -806,7 +806,7 @@
 #### [Plan Warehouse Movements in Worksheets](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)
 ### Picking Items
 #### [Pick Items](warehouse-pick-items.md)
-#### [Pick Items with Stock Picks](warehouse-how-to-pick-items-with-inventory-picks.md)
+#### [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)
 #### [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)
 #### [Pick for Production or Assembly in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md)
 #### [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
@@ -984,8 +984,8 @@
 ##### [Payables and Receivables](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Compensations Localisation for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
-#### Stock
-##### [Stock](LocalFunctionality/Czech/inventory.md)
+#### Inventory
+##### [Inventory](LocalFunctionality/Czech/inventory.md)
 #### General
 ##### [Extended User Control](LocalFunctionality/Czech/general.md)
 ##### [Best Practices](LocalFunctionality/Czech/best-practices.md)
@@ -1242,10 +1242,10 @@
 ##### [Close a Financial Year](LocalFunctionality/Italy/how-to-close-a-fiscal-year.md)
 ##### [Define Debit and Credit Amounts](LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts.md)
 ##### [Reversing Journal Entries](LocalFunctionality/Italy/reversing-journal-entries.md)
-#### Stock
+#### Inventory
 ##### [Set Up Initial Item Costs](LocalFunctionality/Italy/how-to-set-up-initial-item-costs.md)
-##### [Financial Stock Valuation](LocalFunctionality/Italy/fiscal-inventory-valuation.MD)
-##### [Set Up Financial Stock Valuation](LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation.md)
+##### [Financial Inventory Valuation](LocalFunctionality/Italy/fiscal-inventory-valuation.MD)
+##### [Set Up Financial Inventory Valuation](LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation.md)
 #### Fixed Assets
 ##### [Italian Fixed Assets](LocalFunctionality/Italy/italian-fixed-assets.md)
 ##### [Set Up Compressed Depreciation of Fixed Assets](LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets.md)
@@ -1420,7 +1420,7 @@
 ##### [Depreciation Bonus](LocalFunctionality/Russia/Depreciation-Bonus.md)
 ##### [Fixed Asset Charges](LocalFunctionality/Russia/Fixed-Asset-Charges.md)
 ##### [Gratuitous receipt of fixed assets](LocalFunctionality/Russia/Gratuitous-receipt-of-fixed-assets.md)
-##### [Fixed Asset Stock](LocalFunctionality/Russia/Fixed-Asset-Inventory.md)
+##### [Fixed Asset Inventory](LocalFunctionality/Russia/Fixed-Asset-Inventory.md)
 ##### [Fixed Asset Locations and Employees](LocalFunctionality/Russia/Fixed-Asset-Locations-and-Employees.md)
 ##### [Fixed Asset Turnover](LocalFunctionality/Russia/Fixed-Asset-Turnover.md)
 ##### [Create Future Expense Journals](LocalFunctionality/Russia/How-to-Create-Future-Expense-Journals.md)
@@ -1453,12 +1453,12 @@
 ##### [Statutory Reports](LocalFunctionality/Russia/Statutory-Reports.md)
 #### Banking
 ##### [Bank Management](LocalFunctionality/Russia/bank-management.md)
-#### Stock
-##### [Stock in the Russian Version](LocalFunctionality/Russia/Inventory.md)
-##### [Stock Setup](LocalFunctionality/Russia/Inventory-Setup.md)
+#### Inventory
+##### [Inventory in the Russian Version](LocalFunctionality/Russia/Inventory.md)
+##### [Inventory Setup](LocalFunctionality/Russia/Inventory-Setup.md)
 ##### [Item Documents](LocalFunctionality/Russia/Item-Documents.md)
 ##### [Item Obligatory Acts](LocalFunctionality/Russia/Item-Obligatory-Acts.md)
-##### [Stock Act of Receivables And Payables INV-17](LocalFunctionality/Russia/Inventory-Act-of-Receivables-And-Payables-INV-17.md)
+##### [Inventory Act of Receivables And Payables INV-17](LocalFunctionality/Russia/Inventory-Act-of-Receivables-And-Payables-INV-17.md)
 ##### [Item General Ledger Turnover](LocalFunctionality/Russia/Item-General-Ledger-Turnover.md)
 ##### [Create the TORG-29 Goods Report](LocalFunctionality/Russia/How-to-Create-the-TORG-29-Goods-Report.md)
 #### Human Resources
@@ -1562,9 +1562,9 @@
 ##### [Issue Delivery Reminders](LocalFunctionality/Switzerland/how-to-issue-delivery-reminders.md)
 ##### [Generate Delivery Reminders](LocalFunctionality/Switzerland/how-to-generate-delivery-reminders.md)
 ##### [Print Test Reports for Delivery Reminders](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
-#### Stock
-##### [Swiss Stock Management](LocalFunctionality/Switzerland/swiss-inventory-management.md)
-##### [Print an Stock Picking List from a Sales Order](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
+#### Inventory
+##### [Swiss Inventory Management](LocalFunctionality/Switzerland/swiss-inventory-management.md)
+##### [Print an Inventory Picking List from a Sales Order](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
 #### General
 ##### [Import Swiss Postcodes](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 ##### [Swiss Purchase Documents and Sales Orders](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
@@ -1666,7 +1666,7 @@
 #### [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)
 #### [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
-#### [Sales and Stock Forecast](ui-extensions-sales-forecast.md)
+#### [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
 #### [VAT Group Management](ui-extensions-vat-group.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)

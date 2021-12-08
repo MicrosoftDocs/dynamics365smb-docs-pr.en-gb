@@ -40,7 +40,7 @@ When you have assigned a shipping agent service to a sales order line, the shipp
 [Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)  
 [Track Packages](sales-how-track-packages.md)    
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

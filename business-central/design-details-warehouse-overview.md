@@ -24,7 +24,7 @@ Warehouse documents and a warehouse journal are used to register item movements 
 
 The **Bin Content** table is used to handle all the different dimensions of the contents of a bin per item, such as unit of measurement, maximum quantity, and minimum quantity. The **Bin Content** table also contains flow fields to the warehouse entries, warehouse instructions, and warehouse journal lines, which ensures that the availability of an item per bin and a bin for an item can be calculated quickly. For more information, see [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md).  
 
-When item postings occur outside the warehouse module, a default adjustment bin per location is used to synchronise warehouse entries with stock entries. During physical stock of the warehouse, any differences between the calculated and counted quantities are recorded in the adjustment bin and then posted as correcting item ledger entries. For more information, see [Design Details: Integration with Stock](design-details-integration-with-inventory.md).  
+When item postings occur outside the warehouse module, a default adjustment bin per location is used to synchronise warehouse entries with inventory entries. During physical inventory of the warehouse, any differences between the calculated and counted quantities are recorded in the adjustment bin and then posted as correcting item ledger entries. For more information, see [Design Details: Integration with Inventory](design-details-integration-with-inventory.md).  
 
 The following illustration outlines typical warehouse flows.  
 
@@ -42,9 +42,9 @@ Warehouse functionality in [!INCLUDE[prod_short](includes/prod_short.md)] can be
 
 ## <a name="basic-ui-documents"></a>Basic UI Documents  
 
--   **Stock Put-away**  
--   **Stock Pick**  
--   **Stock Movement**  
+-   **Inventory Put-away**  
+-   **Inventory Pick**  
+-   **Inventory Movement**  
 -   **Item Journal**  
 -   **Item Reclassification Journal**  
 -   (Various reports)  

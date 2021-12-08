@@ -23,7 +23,7 @@ Responsibility centres provide the ability to handle administrative centres. A r
 
 Using multiple locations together with responsibility centres provides the ability to manage business operations in the most flexible, yet optimal way.
 
-Multiple locations allows companies to manage their stock in multiple locations using one database. Two concepts, locations and stockkeeping units, are the cornerstones of this granule. A location is defined as a place that handles physical placement and quantities of items. The concept is broad enough to include locations such as plants or production facilities as well as distribution centres, warehouses, showrooms and service vehicles. A stockkeeping unit is defined as an item at a specific location and/or as a variant. Using stockkeeping units, companies with multiple locations are able to add replenishment information, addresses, and some financial posting information at the location level. As a result, they have the ability to replenish variants of the same item for each location as well as to order items for each location on the basis of location-specific replenishment information.  
+Multiple locations allows companies to manage their inventory in multiple locations using one database. Two concepts, locations and stockkeeping units, are the cornerstones of this granule. A location is defined as a place that handles physical placement and quantities of items. The concept is broad enough to include locations such as plants or production facilities as well as distribution centres, warehouses, showrooms and service vehicles. A stockkeeping unit is defined as an item at a specific location and/or as a variant. Using stockkeeping units, companies with multiple locations are able to add replenishment information, addresses, and some financial posting information at the location level. As a result, they have the ability to replenish variants of the same item for each location as well as to order items for each location on the basis of location-specific replenishment information.  
 
 ## <a name="to-set-up-a-responsibility-center"></a>To set up a responsibility centre
 
@@ -57,9 +57,9 @@ To set this up, you assign responsibility centres to users in three functional a
 
 ## <a name="see-also"></a>See Also
 
-[Setting Up Stock](inventory-setup-inventory.md)  
+[Setting Up Inventory](inventory-setup-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

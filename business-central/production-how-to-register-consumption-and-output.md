@@ -48,7 +48,7 @@ This execution task is performed on the **Production Journal** page. The journal
     Concerning the quantities in the **Output Quantity** field, you have the option to set up which values to preset when the journal is first opened. This is done from the **Manufacturing Setup** page, **General** FastTab, in the **Preset Output Quantity** field.
 
     > [!NOTE]  
-    >  Only the output quantity on the last journal line of entry type **Output** will adjust the stock level when posting the journal. Therefore, do not to post the journal, with the expected output quantity preset on the last output line, until all end items are actually produced.  
+    >  Only the output quantity on the last journal line of entry type **Output** will adjust the inventory level when posting the journal. Therefore, do not to post the journal, with the expected output quantity preset on the last output line, until all end items are actually produced.  
 
 6.  Select the **Finished** field of output lines to indicate that the operation is finished. This field is related to the **Routing Status** field on a works order routing line.  
 7.  Choose the **Post** action to register the quantities you have entered and then close the journal.  
@@ -68,7 +68,7 @@ If values remain to be posted, the journal will contain these remaining values n
 [Manufacturing](production-manage-manufacturing.md)    
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)      
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

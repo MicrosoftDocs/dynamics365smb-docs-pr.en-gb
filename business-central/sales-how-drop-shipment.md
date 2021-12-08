@@ -79,7 +79,7 @@ After the supplier ships the items, you can post the sales order as shipped. You
 [Sell Products](sales-how-sell-products.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Sales](sales-manage-sales.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

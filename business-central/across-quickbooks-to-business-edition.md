@@ -1,6 +1,6 @@
 ---
 title: Transfer Data from a QuickBooks App  | Microsoft Docs
-description: You can migrate data such as customers, suppliers, stock items, and G/L accounts from QuickBooks apps to Business Central.
+description: You can migrate data such as customers, suppliers, inventory items, and G/L accounts from QuickBooks apps to Business Central.
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -21,7 +21,7 @@ ms.locfileid: "6440781"
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Changing from a QuickBooks App to Dynamics 365 Business Central
 More and more growing businesses are changing from finance apps like QuickBooks Desktop and QuickBooks Online, which are designed for startups and other small businesses, to [!INCLUDE[prod_short](includes/prod_short.md)], which also supports larger, more complex organisations. 
 
-As they transition, companies typically want to bring their business data with them so they don't start from scratch. To help transfer data, [!INCLUDE[prod_short](includes/prod_short.md)] offers built-in extensions that migrate data such as customers, suppliers, stock items, and general ledger accounts. The following extensions are installed and ready to go as an integrated part of the **Data Migration** assisted setup guide:
+As they transition, companies typically want to bring their business data with them so they don't start from scratch. To help transfer data, [!INCLUDE[prod_short](includes/prod_short.md)] offers built-in extensions that migrate data such as customers, suppliers, inventory items, and general ledger accounts. The following extensions are installed and ready to go as an integrated part of the **Data Migration** assisted setup guide:
 
 * QuickBooks Data Migration 
 * QuickBooks Online Data Migration

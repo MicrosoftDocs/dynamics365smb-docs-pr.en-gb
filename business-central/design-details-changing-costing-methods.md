@@ -21,7 +21,7 @@ ms.locfileid: "6215435"
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you cannot change a costing method for an item after you have included the item in a transaction. For example, after you have bought or sold the item. If an incorrect costing method was assigned to the item or items, you might not discover the issue until you do your financial reporting.
 
-This topic describes how to resolve this situation. The recommended approach is to replace the item that has the incorrect costing method with a new item, and use an assembly order to transfer the stock from the old item to the new.
+This topic describes how to resolve this situation. The recommended approach is to replace the item that has the incorrect costing method with a new item, and use an assembly order to transfer the inventory from the old item to the new.
 
 > [!NOTE]
 > Using assembly orders allows the costs to still flow although there are outstanding purchase invoices or shipping charges to post. Additionally, it allows you to undo the conversion and get the quantities of the original items back, if needed.
@@ -31,11 +31,11 @@ This topic describes how to resolve this situation. The recommended approach is 
 
 ## <a name="about-costing-methods"></a>About Costing Methods
 
-Costing methods control cost calculations when goods are purchased, received in stock, and sold. Costing methods affect the timing of amounts recorded in COGS that affect gross profit. It is this flow that calculates COGS. The cost of goods sold (COGS) and revenue are used to determine gross profit, as follows:
+Costing methods control cost calculations when goods are purchased, received in inventory, and sold. Costing methods affect the timing of amounts recorded in COGS that affect gross profit. It is this flow that calculates COGS. The cost of goods sold (COGS) and revenue are used to determine gross profit, as follows:
 
 *gross profit* = *revenue - COGS*
 
-When you set up stock items, you must assign a costing method. The method can vary from business to business, and from item to item, so it's important to choose the right one. [!INCLUDE[prod_short](includes/prod_short.md)] supports the following costing methods:
+When you set up inventory items, you must assign a costing method. The method can vary from business to business, and from item to item, so it's important to choose the right one. [!INCLUDE[prod_short](includes/prod_short.md)] supports the following costing methods:
 
 * Average
 * FIFO
@@ -53,14 +53,14 @@ This section describes the following steps for changing the costing method assig
 2. Identify the items that to change the costing method for and renumber them.
 3. Create new items with the old numbering scheme and copy the master data in a batch.
 4. Manually copy related master data from the existing item to the new item.
-5. Determine the stock quantity to convert from the original item to the new item.
-6. Transfer the stock to the new item.
-7. Handle stock quantities that are allocated to demand.
+5. Determine the inventory quantity to convert from the original item to the new item.
+6. Transfer the inventory to the new item.
+7. Handle inventory quantities that are allocated to demand.
 8. Block the original item from further use.  
 
 ### <a name="define-a-default-costing-method"></a>Define a default costing method
 
-To help avoid future mistakes you can specify a default costing method for new items. Whenever someone creates a new item, [!INCLUDE[prod_short](includes/prod_short.md)] will suggest the default costing method. You specify the default method in the **Default Costing Method** field on the **Stock Setup** page. 
+To help avoid future mistakes you can specify a default costing method for new items. Whenever someone creates a new item, [!INCLUDE[prod_short](includes/prod_short.md)] will suggest the default costing method. You specify the default method in the **Default Costing Method** field on the **Inventory Setup** page. 
 
 ### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identify the items to change the costing method for and renumber them
 
@@ -78,7 +78,7 @@ To make the new items fully useful you must manually copy some master data from 
 
 |Area  |What to copy  |How to copy it  |
 |---------|---------|---------|
-|Stock     |Stock-keeping units (SKUs)         |Check whether a SKU is specified for the original item. If planning parameters have been entered for each SKU card, then you must manually create the SKU for the new item. If the parameters are not specified, you can use the **Create Stockkeeping Unit** batch job from the **Item Card** page to create the data.        |
+|Inventory     |Stock-keeping units (SKUs)         |Check whether a SKU is specified for the original item. If planning parameters have been entered for each SKU card, then you must manually create the SKU for the new item. If the parameters are not specified, you can use the **Create Stockkeeping Unit** batch job from the **Item Card** page to create the data.        |
 |     |Item substitutions         |Check whether any item substitutions are defined for the original item. If there are, transfer that data to the new item. To view substitute items, use the **Substitutions** action on the **Item Card** page.         |
 |     |Analysis reports         |Review the Item Analysis, Sales Analysis, and Purchase Analysis reports. For those that reference the original items you can either create a new analysis report with a reference to the new item (keeping the original analysis report to use as history) or adjust the reports so that they reference the new item.         |
 |     |Standard journals         |Check whether standard journals reference the original item and transfer that data to the new item when necessary. This information is found on the standard journals, which are available on the item journal.          |
@@ -94,21 +94,21 @@ To make the new items fully useful you must manually copy some master data from 
 > [!IMPORTANT]
 > If the new costing method is Standard you should enter a value in the **Standard Cost** field on the **Item Card** page. You can use the **Standard Cost Worksheet** page to set the cost shares accordingly. For more information, see [Update Standard Costs](finance-how-to-update-standard-costs.md).
 
-### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>Determine the stock quantity to convert from the original item to the new item
+### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>Determine the inventory quantity to convert from the original item to the new item
 
 > [!NOTE]
-> This step does not consider quantities that are included in unshipped orders. For more information, see [Handle stock quantities that are allocated to demand](design-details-changing-costing-methods.md#handle-inventory-quantities-that-are-allocated-to-demand). 
+> This step does not consider quantities that are included in unshipped orders. For more information, see [Handle inventory quantities that are allocated to demand](design-details-changing-costing-methods.md#handle-inventory-quantities-that-are-allocated-to-demand). 
 
-Use a physical stock journal to produce a list of the quantities in stock. Depending on the warehouse location setup, use one of the following:
+Use a physical inventory journal to produce a list of the quantities in inventory. Depending on the warehouse location setup, use one of the following:
 
 * Physical Invt. Journals
 * Whse. Phys. Invt. Journals
 
-Both journals can calculate the stock quantity of the item, including the location, variant, bin, and storage location. For more information, see [Count, Adjust, and Reclassify Stock Using Journals](inventory-how-count-adjust-reclassify.md).
+Both journals can calculate the inventory quantity of the item, including the location, variant, bin, and storage location. For more information, see [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).
 
-### <a name="transfer-the-inventory-to-the-new-item"></a>Transfer the stock to the new item
+### <a name="transfer-the-inventory-to-the-new-item"></a>Transfer the inventory to the new item
 
-Create and post assembly orders to transfer the cost and stock quantity from the original item to the new item. Assembly orders can convert one item to another while preserving the costs. This helps ensure that the net totals for the stock account and COGS are not affected (except when the new costing method is Standard, in which case costs may be distributed to variance accounts). For more information, see [Assembly Management](assembly-assemble-items.md).
+Create and post assembly orders to transfer the cost and inventory quantity from the original item to the new item. Assembly orders can convert one item to another while preserving the costs. This helps ensure that the net totals for the inventory account and COGS are not affected (except when the new costing method is Standard, in which case costs may be distributed to variance accounts). For more information, see [Assembly Management](assembly-assemble-items.md).
 
 When creating assembly orders, use the information from the Physical Invt. journal or Whse. Phys. Invt. journal. The following tables describe the information in the reports to enter in the header and lines on the assembly order.
 
@@ -117,11 +117,11 @@ When creating assembly orders, use the information from the Physical Invt. journ
 |Field  |Value to enter  |
 |---------|---------|
 |Item No.     |The number of the new item.         |
-|Quantity     |The quantity in physical stock journal.<br> **NOTE:** The quantities calculated by the physical stock journals does not include the quantities that are on orders that have not yet shipped.          |
-|Variant Code     |The same as in physical stock journal.          |
-|Location Code     |The same as in physical stock journal.         |
-|Unit of Measurement Code     |The same as in physical stock journal.         |
-|Bin Code     |The same as in physical stock journal.         |
+|Quantity     |The quantity in physical inventory journal.<br> **NOTE:** The quantities calculated by the physical inventory journals does not include the quantities that are on orders that have not yet shipped.          |
+|Variant Code     |The same as in physical inventory journal.          |
+|Location Code     |The same as in physical inventory journal.         |
+|Unit of Measurement Code     |The same as in physical inventory journal.         |
+|Bin Code     |The same as in physical inventory journal.         |
 
 #### <a name="lines"></a>Lines
 
@@ -130,21 +130,21 @@ When creating assembly orders, use the information from the Physical Invt. journ
 |Type     |Item         |
 |No.     |The number of the original item.         |
 |Quantity per     |1         |
-|Variant Code     |The same as in physical stock journal.         |
-|Location Code     |The same as in physical stock journal.         |
-|Unit of Measurement Code     |The same as in physical stock journal.         |
+|Variant Code     |The same as in physical inventory journal.         |
+|Location Code     |The same as in physical inventory journal.         |
+|Unit of Measurement Code     |The same as in physical inventory journal.         |
 
 > [!NOTE]
-> An assembly order can handle only one SKU of an item at a time. You must create an assembly order for each combination of SKU that has a quantity in stock.
+> An assembly order can handle only one SKU of an item at a time. You must create an assembly order for each combination of SKU that has a quantity in inventory.
 
 > [!NOTE]
 > For a warehouse location, you might have to create picks before you can post the assembly order. To investigate that, review the setup for picking on the **Location Card** page. For more information, see [Set Up Items and Locations for Directed Put-away and Pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
 
-### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Handle stock quantities that are allocated to demand
+### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Handle inventory quantities that are allocated to demand
 
-Ideally, the stock for the original item should go to zero after you transfer the stock quantities. However, there can be outstanding orders, worksheets, and journals (see the table below) that still require a quantity of the original item. The quantity could also be blocked by a reservation or item tracking.
+Ideally, the inventory for the original item should go to zero after you transfer the inventory quantities. However, there can be outstanding orders, worksheets, and journals (see the table below) that still require a quantity of the original item. The quantity could also be blocked by a reservation or item tracking.
 
-**Example** There are 1000 pcs. in stock, and 20 pcs. are reserved for a sales order that has not yet shipped. In that case, you might decide to keep the 20 pcs. in the old item so that you can fulfil the outstanding order.
+**Example** There are 1000 pcs. in inventory, and 20 pcs. are reserved for a sales order that has not yet shipped. In that case, you might decide to keep the 20 pcs. in the old item so that you can fulfil the outstanding order.
 
 > [!NOTE]
 > There are functional areas that can affect the quantity, as listed in the table below, so it can be tricky to find the correct amount. To be safe, using the example above, you can choose to keep 100 pcs. and transfer the remaining 900 pcs. instead. Another way to do it would be to process the documents and journals so that only a manageable few remain. Yet another alternative is to transfer the entire quantity to the new item and then transfer some of it back to the original item using the assembly order.
@@ -154,7 +154,7 @@ The following table lists functional areas where there might be outstanding quan
 |Area  |Where to look for outstanding quantities  |
 |---------|---------|
 |Sales     |Sales documents, including orders, return orders, invoices, quotes, blanket orders, and credit memos         |
-|Stock     |Item journals, reservations, item tracking, and standard cost worksheet         |
+|Inventory     |Item journals, reservations, item tracking, and standard cost worksheet         |
 |Purchase     |Purchase documents, including orders, return orders, invoices, quotes, blanket orders, and credit memos         |
 |Planning     |Requisition worksheet, planning worksheet, and order planning         |
 |Warehouse     |Transfer orders, warehouse shipments, warehouse journals, and warehouse picks, put-aways, and movements, internal picks and put-aways, and bin creation worksheets         |
@@ -165,7 +165,7 @@ The following table lists functional areas where there might be outstanding quan
 
 ### <a name="block-the-original-item-from-further-use"></a>Block the original item from further use
 
-When the stock for the original item is zero, you can block the item to prevent it fom being used in new transactions. To block the item, on the **Item Card** page, turn on the **Blocked** toggle. For more information, see [Block Items from Sales or Purchasing](inventory-how-block-items.md).
+When the inventory for the original item is zero, you can block the item to prevent it fom being used in new transactions. To block the item, on the **Item Card** page, turn on the **Blocked** toggle. For more information, see [Block Items from Sales or Purchasing](inventory-how-block-items.md).
 
 ## <a name="summary"></a>Summary
 

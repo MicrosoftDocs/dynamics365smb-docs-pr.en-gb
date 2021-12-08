@@ -65,7 +65,7 @@ Because the following extensions communicate with other services, they might tra
 * Image Analyser
 * Late Payment Prediction
 * PayPal Payments Standard
-* Sales and Stock Forecast
+* Sales and Inventory Forecast
 * WorldPay Payments Standard
 
 This also applies to some functionality in the base application, such as the following capabilities:

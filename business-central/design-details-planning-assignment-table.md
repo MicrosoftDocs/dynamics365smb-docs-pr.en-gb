@@ -33,7 +33,7 @@ The **Planning Assignment** table monitors demand and supply events and assigns 
 * Cancellation of a sales order, forecast, component, purchase order, works order, assembly order, or transfer order.  
 * Consumption of items other than planned.  
 * Output of items other than planned.  
-* Unplanned changes in stock.  
+* Unplanned changes in inventory.  
 
 For these direct supply-demand displacements, the order tracking and action messaging system maintains the Planning Assignment table and states a planning reason as an action message.  
 

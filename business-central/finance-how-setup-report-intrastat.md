@@ -38,7 +38,7 @@ Optionally, you can also set up:
 * **Entry/exit points**: Use these to specify the locations where you ship or receive items to or from other countries. Heathrow Airport is an example of an entry or exit point. You enter entry or exit points on sales and purchase documents on the **Foreign Trade** FastTab. This information will also be copied from the item entries when you create the Intrastat journal.  
 
 ### <a name="to-set-up-intrastat-templates-and-batches"></a>To set up Intrastat templates and batches
-The Intrastat batch jobs include only item entries, and not general ledger entries. If you have general ledger entries that qualify for Intrastat reporting, you must enter them manually. For example, if you purchase a computer from another EU country or region, the computer is not placed in stock, but is posted to a general ledger account. You must manually enter this type of entry in the Intrastat journal.  
+The Intrastat batch jobs include only item entries, and not general ledger entries. If you have general ledger entries that qualify for Intrastat reporting, you must enter them manually. For example, if you purchase a computer from another EU country or region, the computer is not placed in inventory, but is posted to a general ledger account. You must manually enter this type of entry in the Intrastat journal.  
 
 You can export the entries to a file that you can send to your Intrastat authorities. You can also print a report, manually enter the information on the forms from your authorities, and then submit the information.
 

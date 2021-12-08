@@ -1,6 +1,6 @@
 ---
 title: Transfer Items Between Warehouse Locations| Microsoft Docs
-description: Describes how to move stock from one place or warehouse to another, either with the reclassification journal or with transfer orders.
+description: Describes how to move inventory from one place or warehouse to another, either with the reclassification journal or with transfer orders.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -17,15 +17,15 @@ ms.contentlocale: en-GB
 ms.lasthandoff: 07/08/2021
 ms.locfileid: "6444977"
 ---
-# <a name="transfer-inventory-between-locations"></a>Transfer Stock Between Locations
-You can transfer stock items between locations by creating transfer orders. Alternatively, you can use the item reclassification journal.
+# <a name="transfer-inventory-between-locations"></a>Transfer Inventory Between Locations
+You can transfer inventory items between locations by creating transfer orders. Alternatively, you can use the item reclassification journal.
 
-With transfer orders, you ship the outbound transfer from one location and receive the inbound transfer at the other location. This allows you to manage the involved warehouse activities and provides more certainty that stock quantities are updated correctly.
+With transfer orders, you ship the outbound transfer from one location and receive the inbound transfer at the other location. This allows you to manage the involved warehouse activities and provides more certainty that inventory quantities are updated correctly.
 
 With the reclassification journal, you simply fill in the **Location Code** and the **New Location Code** fields. When you post the journal, the item ledger entries are adjusted at the locations in question. With this method, warehouse activities are not managed.
 
 > [!NOTE]  
->   If you have items recorded in your stock without a location code, for example from a time when you only had one warehouse, then you cannot transfer those items using transfer orders. Instead, you must use the reclassification journal to reclassify the items from a blank location code to an actual location code.  For more information, see step 3 in [To transfer items with the item reclassification journal](inventory-how-transfer-between-locations.md#to-transfer-items-with-the-item-reclassification-journal).
+>   If you have items recorded in your inventory without a location code, for example from a time when you only had one warehouse, then you cannot transfer those items using transfer orders. Instead, you must use the reclassification journal to reclassify the items from a blank location code to an actual location code.  For more information, see step 3 in [To transfer items with the item reclassification journal](inventory-how-transfer-between-locations.md#to-transfer-items-with-the-item-reclassification-journal).
 
 To transfer items, locations and transfer routes must be set up. For more information, see [Set Up Locations](inventory-how-setup-locations.md).
 
@@ -61,7 +61,7 @@ To transfer items, locations and transfer routes must be set up. For more inform
 5. Choose the **Post** action.
 
 ## <a name="see-also"></a>See Also
-[Manage Stock](inventory-manage-inventory.md)  
+[Manage Inventory](inventory-manage-inventory.md)  
 [Set Up Locations](inventory-how-setup-locations.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  

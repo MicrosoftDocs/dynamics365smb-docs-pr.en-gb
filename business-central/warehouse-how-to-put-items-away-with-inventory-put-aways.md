@@ -1,6 +1,6 @@
 ---
-title: How to Put Items Away with Stock Put-aways
-description: Read about how to use the Stock Put-away document to record and post put-away and receipt information for your source documents.
+title: How to Put Items Away with Inventory Put-aways
+description: Read about how to use the Inventory Put-away document to record and post put-away and receipt information for your source documents.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -17,16 +17,16 @@ ms.contentlocale: en-GB
 ms.lasthandoff: 07/08/2021
 ms.locfileid: "6438114"
 ---
-# <a name="put-items-away-with-inventory-put-aways"></a>Put Items Away with Stock Put-aways
-When your location is set up to require put-away processing but not receive processing, you use the **Stock Put-away** document to record and post put-away and receipt information for your source documents. The inbound source document can be a purchase order, a sales return order, an inbound transfer order, or an assembly or works order whose output is ready to be put away.  
+# <a name="put-items-away-with-inventory-put-aways"></a>Put Items Away with Inventory Put-aways
+When your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** document to record and post put-away and receipt information for your source documents. The inbound source document can be a purchase order, a sales return order, an inbound transfer order, or an assembly or works order whose output is ready to be put away.  
 
-You can create a stock put-away in three ways:  
+You can create a inventory put-away in three ways:  
 
-- Create the put-away in two steps by first creating a warehouse request from the source document, which acts as a signal to the warehouse that the source document is ready for put-away. The Stock put-away can then be created from the **Stock Put-away** page based on the source document.  
-- Create the stock put-away directly from the source document itself.  
-- Create stock put-aways for several source documents at once by using a batch job.  
+- Create the put-away in two steps by first creating a warehouse request from the source document, which acts as a signal to the warehouse that the source document is ready for put-away. The Inventory put-away can then be created from the **Inventory Put-away** page based on the source document.  
+- Create the inventory put-away directly from the source document itself.  
+- Create inventory put-aways for several source documents at once by using a batch job.  
 
-## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>To request a stock put-away by releasing the source document
+## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>To request a inventory put-away by releasing the source document
 For purchase orders, sales return orders, inbound transfer orders, and assembly orders, you create the warehouse request by releasing the order. The following describes how to do this from a purchase order.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
@@ -39,30 +39,30 @@ For purchase orders, sales return orders, inbound transfer orders, and assembly 
 > [!NOTE]  
 >  You can also create the inbound warehouse request by selecting the **Create Inbound Request** check box when you refresh the works order. For more information, see [Refresh or Replan Works Orders](production-how-to-replan-refresh-production-orders.md).  
 
-When the warehouse request is created, a warehouse employee assigned to putting items away can see that the source document is ready and can create a stock put-away document.  
+When the warehouse request is created, a warehouse employee assigned to putting items away can see that the source document is ready and can create a inventory put-away document.  
 
-## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>To create a stock put-away based on the source document
-Now that the request is created, the warehouse employee can create a new stock put-away based on the released source document.   
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stock Put-away**, and then select the related link.  
+## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>To create a inventory put-away based on the source document
+Now that the request is created, the warehouse employee can create a new inventory put-away based on the released source document.   
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-away**, and then select the related link.  
 2. Choose the **New** action.  
 3. In the **Source Document** field, select the type of source document you are putting away for.  
 4. In the **Source No.** field, select the source document.  
 5. Alternatively, choose the **Get Source Document** action to select the document from a list of inbound source documents that are ready for put-away at the location.  
 6. Choose the **OK** button to fill the put-away lines according to the selected source document.  
 
-## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>To create a stock put-away from the source document  
-1.  In the source document, which can be a purchase order, sales return order, inbound transfer order, or works order, choose the **Create Stock Put-away/Pick** action.  
+## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>To create a inventory put-away from the source document  
+1.  In the source document, which can be a purchase order, sales return order, inbound transfer order, or works order, choose the **Create Inventory Put-away/Pick** action.  
 2. Select the **Create Invt. Put-away** check box.
-3. Choose the **OK** button. A new stock put-away is created.
+3. Choose the **OK** button. A new inventory put-away is created.
 
-## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>To create multiple stock put-aways with a batch job  
+## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>To create multiple inventory put-aways with a batch job  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Invt. Put-away / Pick**, and then choose the related link.  
 2.  On the **Warehouse Request** FastTab of the request page, use the **Source Document** and **Source No.** fields to filter on certain types of documents or ranges of document numbers.  
 3.  On the **Options** FastTab, select the **Create Invt. Put-away** check box.
-4.  Choose the **OK** button. The specified stock put-aways are created.
+4.  Choose the **OK** button. The specified inventory put-aways are created.
 
-## <a name="to-record-the-inventory-put-away"></a>To record the stock put-away  
-1. Open a previously created put-away document by selecting one from the **Stock Put-aways** page.  
+## <a name="to-record-the-inventory-put-away"></a>To record the inventory put-away  
+1. Open a previously created put-away document by selecting one from the **Inventory Put-aways** page.  
 2. In the **Bin Code** field on the put-away lines, the bin where the items must be put away is suggesting per the item's default bin. You can change the bin in this page if necessary.  
 3. Perform the put-away and enter the information for the actual quantity put away in the **Qty. to Handle** field.
 
@@ -73,7 +73,7 @@ The posting process will post the receipt, or for works orders, the output, of t
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

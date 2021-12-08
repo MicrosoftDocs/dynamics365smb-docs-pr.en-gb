@@ -1,6 +1,6 @@
 ---
 title: Assign Item Charges to Sales and Purchases
-description: Assign item charges when you need stock items to carry added costs, such as freight and physical handling that you incur when purchasing or selling items.
+description: Assign item charges when you need inventory items to carry added costs, such as freight and physical handling that you incur when purchasing or selling items.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -20,15 +20,15 @@ ms.lasthandoff: 07/08/2021
 ms.locfileid: "6436908"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Use Item Charges to Account for Additional Trade Costs
-To ensure correct valuation, your stock items must carry any added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling the items. For purchases, the landed cost of a purchased item consists of the supplier's purchase price and all additional direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.
+To ensure correct valuation, your inventory items must carry any added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling the items. For purchases, the landed cost of a purchased item consists of the supplier's purchase price and all additional direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.
 
-In addition to recording the added cost in you stock value, you can use the Item Charges feature for the following:
+In addition to recording the added cost in you inventory value, you can use the Item Charges feature for the following:
 
 - Identify the landed cost of an item for making more accurate decisions on how to optimise the distribution network.
 - Break down the unit cost or unit price of an item for analysis purposes.
 - Include purchase allowances into the unit cost and sales allowances into the unit price.
 
-Before you can assign item charges, you must set up item charge numbers for the different types of item charges, including to which G/L accounts costs related to sales, purchases, and stock adjustments are posted to. An item charge number contains a combination of general product posting group, tax group code, VAT product posting group, and item charge. When you enter the item charge number on a purchase or sales document, the relevant G/L account is retrieved based on the setup of the item charge number and the information on the document.
+Before you can assign item charges, you must set up item charge numbers for the different types of item charges, including to which G/L accounts costs related to sales, purchases, and inventory adjustments are posted to. An item charge number contains a combination of general product posting group, tax group code, VAT product posting group, and item charge. When you enter the item charge number on a purchase or sales document, the relevant G/L account is retrieved based on the setup of the item charge number and the information on the document.
 
 For both purchase and sales documents, you can assign an item charge in two ways:
 - On the document where the items that the item charge relates to are listed. This you typically do for documents that are not yet fully posted.
@@ -38,7 +38,7 @@ For both purchase and sales documents, you can assign an item charge in two ways
 >   You can assign item charges to orders, invoices, and credit memos, for both sales and purchases. The following procedures describe how to work with item charges for a purchase invoice. The steps are similar for all other purchase and sales documents.
 
 ## <a name="example"></a>Example
-This video shows how to handle an additional shipping cost as part of stock costing.
+This video shows how to handle an additional shipping cost as part of inventory costing.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
@@ -70,7 +70,7 @@ If you know the item charge at the time when you post a purchase invoice for the
 
 It the item charge is fully assigned, the value in the **Qty. to Assign** field on the purchase invoice is zero.
 
-The item charge is now assigned to the purchase invoice. When you post the receipt of the purchase invoice, the items' stock values are updated with the cost of the item charge.  
+The item charge is now assigned to the purchase invoice. When you post the receipt of the purchase invoice, the items' inventory values are updated with the cost of the item charge.  
 
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>To assign an item charge from a separate invoice to the purchase invoice for the item
 If you received an invoice for the item charge after you posted the original purchase receipt, follow this procedure.
@@ -79,7 +79,7 @@ If you received an invoice for the item charge after you posted the original pur
 3. On the **Purch. Receipt Lines** page, select the posted purchase receipt for the item that you want to assign the item charge to, and then choose the **OK** button.
 4. Choose the **Suggest Item Charge Assignment** action.
 
-The item charge on the separate purchase invoice is now assigned to the item on the posted purchase receipt, thereby updating the item's stock value with the cost of the item charge.
+The item charge on the separate purchase invoice is now assigned to the item on the posted purchase receipt, thereby updating the item's inventory value with the cost of the item charge.
 
 ## <a name="see-also"></a>See Also
 [Managing Payables](payables-manage-payables.md)  

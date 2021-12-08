@@ -42,7 +42,7 @@ You can now add this extended text to documents. The following procedure explain
 
 ## <a name="see-also"></a>See Also
 
-[Setting Up Stock](inventory-setup-inventory.md)  
+[Setting Up Inventory](inventory-setup-inventory.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

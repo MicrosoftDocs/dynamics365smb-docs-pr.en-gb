@@ -89,7 +89,7 @@ You use fixed asset subclass codes to group your fixed assets into categories, s
 2. Enter codes and names for the classes that you want to create.
 
 ## <a name="to-set-up-fixed-asset-location-codes"></a>To set up fixed asset location codes
-You use fixed asset location codes to register the location of the fixed asset, such as sales department, reception, administration, production, or warehouse. This information is useful for insurance and stock purposes.
+You use fixed asset location codes to register the location of the fixed asset, such as sales department, reception, administration, production, or warehouse. This information is useful for insurance and inventory purposes.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA locations**, and then choose the related link.
 2. Enter codes and names for the fixed asset locations that you want to create.

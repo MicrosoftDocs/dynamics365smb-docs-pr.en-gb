@@ -29,7 +29,7 @@ On the **Pick Worksheets** page, you can set up pick lists that help employees g
 > [!NOTE]  
 > Picking items that are assembled for a sales order being shipped follows the same steps as for regular warehouse picks for shipments. However, the number of pick lines per quantity to ship may be many-to-one because you pick the components, not the assembly item.  
 >
-> The warehouse pick lines are created for the value in the **Remaining Quantity** field on the lines of the assembly order that is linked to the sales order line that is being shipped. This ensures that all components are picked in one action. For more information, see [Selling Stock Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
+> The warehouse pick lines are created for the value in the **Remaining Quantity** field on the lines of the assembly order that is linked to the sales order line that is being shipped. This ensures that all components are picked in one action. For more information, see [Selling Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 >
 > For information about picking components for assembly orders generally, including situations where the assembly item is not due on a sales shipment, see [Pick for Assembly or Production in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
@@ -56,7 +56,7 @@ You can sort lines by item, shelf number, source document, due date, or destinat
 ## <a name="see-also"></a>See Also
 
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

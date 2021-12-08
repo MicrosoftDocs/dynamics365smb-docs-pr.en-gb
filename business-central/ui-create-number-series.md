@@ -57,7 +57,7 @@ The **No.** field can be filled in three ways:
 When you open a new document or card that a number series exists for, then the relevant **No. Series Setup** page opens so that you can set up a number series for that type of document or card before you proceed with other data entry.
 
 > [!NOTE]  
-> If you need to enable manual numbering on, for example, new item cards that have been created with a data migration process that has hidden the **No.** by default, then go to the **Stock Setup** page and choose the **Item Nos.** field to open and set the related number series to **Manual Nos.**.
+> If you need to enable manual numbering on, for example, new item cards that have been created with a data migration process that has hidden the **No.** by default, then go to the **Inventory Setup** page and choose the **Item Nos.** field to open and set the related number series to **Manual Nos.**.
 
 ## <a name="to-create-a-new-number-series"></a>To create a new number series
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **No. Series**, and then choose the related link.

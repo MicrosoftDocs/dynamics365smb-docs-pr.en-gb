@@ -23,7 +23,7 @@ You can assign serial numbers, lot numbers, and package numbers to any outbound 
 
 The matrix of quantity fields at the top of the **Item Tracking Lines** page displays the quantities and sums of item tracking numbers being defined on the lines. The quantities must correspond to those of the document line, which is indicated by 0 in the **Undefined** fields.
 
-As a performance measure, application collects the availability information on the **Item Tracking Lines** page only once, when you open the page. This means that application does not update the availability information during the time that you have the page open, even if changes occur in stock or on other documents during that time.
+As a performance measure, application collects the availability information on the **Item Tracking Lines** page only once, when you open the page. This means that application does not update the availability information during the time that you have the page open, even if changes occur in inventory or on other documents during that time.
 
 > [!NOTE]  
 >  In order for the features described in this article to work you need to first set up item tracking. For more information, see [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md).
@@ -38,11 +38,11 @@ On the **Lot No./Serial No.-List** page, the **Lot No./Serial No.-Availability**
 
 |Field|Description|
 |-----|-----------|  
-|**Total Quantity**|The total number of item currently in stock|
+|**Total Quantity**|The total number of item currently in inventory|
 |**Total Requested Quantity**|The total number of items that are requested that will be used in this and other documents|
 |**Current Pending Quantity**|The number of items that are requested that will be used on the current document but that is not yet committed to the database|
 |**Current Requested Quantity**|The number of items that are requested that will be used on the current document|
-|**Total Available Quantity**|The total number of items in stock, minus the quantity of the item that are requested on this and other documents (total requested quantity), and minus the quantity that is requested but not yet committed on this document (current pending quantity)|
+|**Total Available Quantity**|The total number of items in inventory, minus the quantity of the item that are requested on this and other documents (total requested quantity), and minus the quantity that is requested but not yet committed on this document (current pending quantity)|
 
 If you work on the **Item Tracking Lines** page for a long period of time or if there is a great deal of activity with the item you are working with, then you can choose the **Refresh Availability** action. In addition, the availability of the item is automatically rechecked when you close the page to confirm that there are no availability problems.
 
@@ -112,7 +112,7 @@ Outbound handling of serial or lot numbers is a frequent task in different wareh
 
 ### <a name="to-select-from-existing-serial-or-lot-numbers"></a>To select from existing serial or lot numbers  
 
-When you are working with items that require item tracking and you are creating outbound transactions, where the items go out of stock, you typically need to select the lot or serial numbers from those that already exist in stock.
+When you are working with items that require item tracking and you are creating outbound transactions, where the items go out of inventory, you typically need to select the lot or serial numbers from those that already exist in inventory.
 
 1. From any outbound document, select the line that you want to select serial or lot numbers for.  
 2. On the **Lines** FastTab, choose the **Line** action, then **Related Information**, and then select **Item Tracking Lines**.  
@@ -131,7 +131,7 @@ When you post the document line, the item tracking information is transferred to
 
 ### <a name="to-assign-new-serial-or-lot-numbers"></a>To assign new serial or lot numbers  
 
-This alternative applies when the stock items do not carry serial or lot numbers, and instead the item tracking numbers when the items are sold and ready to be shipped. In this scenario the numbers are typically assigned from a predefined number series.
+This alternative applies when the inventory items do not carry serial or lot numbers, and instead the item tracking numbers when the items are sold and ready to be shipped. In this scenario the numbers are typically assigned from a predefined number series.
 
 1. Select the relevant document, for example a sales invoice or sales order, and on the **Lines** FastTab, choose the **Line** action, then **Related Information**, and then choose the **Item Tracking Lines** action.  
 
@@ -152,7 +152,7 @@ When the document is posted, the item tracking entries are carried to the associ
 
 ### <a name="assign-tracking-numbers-on-source-documents"></a>Assign tracking numbers on source documents
 
-In special situations for serial- or lot-numbered stock, specific serial or lot numbers are defined on the source document, such as a sales order, which the warehouse worker must respect during the outbound warehouse handling. This may be because the customer requested a specific lot during the order process. When the stock pick or warehouse pick document is created from an outbound source document where serial or lot numbers are already defined, then all fields on the **Item Tracking Lines** page under the stock pick are locked for writing, except the **Qty. to Handle** field. In that case, the stock pick lines specify the item tracking numbers on individual take and place lines. The quantity is already split into unique serial or lot number combinations because the sales order specifies the item tracking numbers to ship.
+In special situations for serial- or lot-numbered inventory, specific serial or lot numbers are defined on the source document, such as a sales order, which the warehouse worker must respect during the outbound warehouse handling. This may be because the customer requested a specific lot during the order process. When the inventory pick or warehouse pick document is created from an outbound source document where serial or lot numbers are already defined, then all fields on the **Item Tracking Lines** page under the inventory pick are locked for writing, except the **Qty. to Handle** field. In that case, the inventory pick lines specify the item tracking numbers on individual take and place lines. The quantity is already split into unique serial or lot number combinations because the sales order specifies the item tracking numbers to ship.
 
 ## <a name="to-handle-serial-and-lot-numbers-on-transfer-orders"></a>To handle serial and lot numbers on transfer orders
 
@@ -204,7 +204,7 @@ You cannot modify the serial or lot numbers or quantities. To do so, you must re
 Reclassifying item tracking for an item means changing a lot or serial number to a new lot or serial number or changing the expiration date to a new expiration date. If you are working with lots, you can also merge multiple lots into one. You perform these tasks using the item reclassification journal.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journal**, and then choose the related link.  
-2. Fill in the line with the relevant information. For more information, see [Count Stock Using Documents](inventory-how-count-inventory-with-documents.md) or [Count, Adjust, and Reclassify Stock Using Journals](inventory-how-count-adjust-reclassify.md).
+2. Fill in the line with the relevant information. For more information, see [Count Inventory Using Documents](inventory-how-count-inventory-with-documents.md) or [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).
 3. Choose the **Item Tracking Lines** action.  
 4. In the **Serial No.** or **Lot No.** field, select the current serial or lot number.  
 5. If you want to enter a new item tracking number, enter it in the **New Serial No.** or **New Lot No.** field. If you want, you can merge one or more lots to one new or existing lot.  
@@ -230,7 +230,7 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 
 [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Design Details: Item Tracking](design-details-item-tracking.md)  
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
 [Reserve Items](inventory-how-to-reserve-items.md)  

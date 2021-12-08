@@ -35,7 +35,7 @@ The user in this case has an allowed posting date range from September 11th to S
 
 ### <a name="overview-of-involved-posting-date-setup"></a>Overview of involved posting date setup
 
-#### <a name="inventory-periods"></a>Stock Periods
+#### <a name="inventory-periods"></a>Inventory Periods
 
 |Ending Date  |Name  |Closed  |
 |---------|---------|---------|
@@ -67,12 +67,12 @@ The user in this case has an allowed posting date range from September 11th to S
 |---------|---------|--------|
 |USERNAME |  2020-09-10      |2020-09-30      |
 
-Assigning a wider allowed posting date range, as in Stock Period or General Ledger Setup, makes it possible to avoid the conflict that causes the error message. The Adjustment Value Entry with Posting Date September 10th will be posted successfully with this setup.
+Assigning a wider allowed posting date range, as in Inventory Period or General Ledger Setup, makes it possible to avoid the conflict that causes the error message. The Adjustment Value Entry with Posting Date September 10th will be posted successfully with this setup.
   
 ## <a name="see-also"></a>See Also  
 
 [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
-[Design Details: Stock Costing](design-details-inventory-costing.md)  
+[Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Item Application](design-details-item-application.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

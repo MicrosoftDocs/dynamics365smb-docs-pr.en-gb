@@ -26,7 +26,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], the inbound processes for rec
 |Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
 |A|Post receipt and put-away from the order line|X|||2|  
-|B|Post receipt and put-away from an stock put-away document|||X|3|  
+|B|Post receipt and put-away from an inventory put-away document|||X|3|  
 |C|Post receipt and put-away from a warehouse receipt document||X||4/5/6|  
 |D|Post receipt from a warehouse receipt document and post put-away from a warehouse put-away document||X|X|4/5/6|  
 
@@ -68,7 +68,7 @@ To complete this walkthrough, you will need:
 
 ## <a name="story"></a>Story
 
-Ellen, the warehouse manager at CRONUS, creates two purchase orders for accessory items from suppliers 10000 and 20000 to be delivered to WHITE warehouse. When the deliveries arrive at the warehouse, Sammy, who is responsible for receiving items from suppliers 10000 and 20000, uses a filter to create receipt lines for purchase orders arriving from the two suppliers. Sammy posts the items as received into stock in one warehouse receipt and makes the items available for sale or other demand. John, the warehouse worker, takes the items from the receiving bin and puts them away. He puts all units away in their default bins, except 40 out of 100 received hinges that he puts away in the assembly department by splitting the put-away line. When John registers the put-away, the bin contents are updated and the items are made available for picking from the warehouse.  
+Ellen, the warehouse manager at CRONUS, creates two purchase orders for accessory items from suppliers 10000 and 20000 to be delivered to WHITE warehouse. When the deliveries arrive at the warehouse, Sammy, who is responsible for receiving items from suppliers 10000 and 20000, uses a filter to create receipt lines for purchase orders arriving from the two suppliers. Sammy posts the items as received into inventory in one warehouse receipt and makes the items available for sale or other demand. John, the warehouse worker, takes the items from the receiving bin and puts them away. He puts all units away in their default bins, except 40 out of 100 received hinges that he puts away in the assembly department by splitting the put-away line. When John registers the put-away, the bin contents are updated and the items are made available for picking from the warehouse.  
 
 ## <a name="reviewing-the-white-location-setup"></a>Reviewing the WHITE Location Setup
 

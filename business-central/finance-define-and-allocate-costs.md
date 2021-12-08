@@ -67,10 +67,10 @@ The dynamic allocation method is based on changeable values. For example, the nu
 |Cost Type Entries|Cost Type|Yes|Yes|Yes|N/A|  
 |Cost Budget Entries|Cost Type|Yes|Yes|Yes|Budget Name|  
 |No of Employees|N/A|Yes|Yes|Yes|N/A|  
-|Items Sold (Qty)|Item No.|Yes|Yes|Yes|Stock Posting Group|  
-|Items Purchased (Qty)|Item No.|Yes|Yes|Yes|Stock Posting Group|  
-|Items Sold (Amount)|Item No.|Yes|Yes|Yes|Stock Posting Group|  
-|Items Purchased (Amount)|Item No.|Yes|Yes|Yes|Stock Posting Group|
+|Items Sold (Qty)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
+|Items Purchased (Qty)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
+|Items Sold (Amount)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
+|Items Purchased (Amount)|Item No.|Yes|Yes|Yes|Inventory Posting Group|
 
 ## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Scenario 1: Defining Static Allocations Based on Allocation Ratio
 Static allocation method is based on a definite value, such as square meters used, or an established allocation ratio such as 5:2:4.  

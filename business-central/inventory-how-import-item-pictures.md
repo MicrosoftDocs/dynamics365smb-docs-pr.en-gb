@@ -35,7 +35,7 @@ All common file formats are supported.
 2. Collect all the files in a ZIP file. For example, in Windows Explorer, select the files, and then choose **Send to**, **Compressed (zipped) folder**.     
 
 ## <a name="to-import-item-pictures"></a>To import item pictures
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stock Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
 2. Choose the **Import Item Pictures** action.
 3. In the **Select a ZIP file** field, select the relevant ZIP folder, and then choose the **Open** button.
 
@@ -51,7 +51,7 @@ The **Import Status** field is updated to show if the picture import was skipped
 ## <a name="see-also"></a>See Also
 [Register New Items](inventory-how-register-new-items.md)  
 [Create Number Series](ui-create-number-series.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

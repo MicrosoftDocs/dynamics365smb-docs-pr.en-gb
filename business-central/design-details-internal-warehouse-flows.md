@@ -26,12 +26,12 @@ The flow of items between bins at a company location centres on picking componen
  In basic warehouse configuration, the flow of items between bins inside the company centres on picking component and putting away end items for production or assembly orders and ad-hoc movements, such as bin replenishments, without relation to source documents.  
 
 ### <a name="flows-to-and-from-production"></a>Flows to and from Production  
- The main integration between works orders and basic warehouse activities is represented by the ability to pick production components with the **Stock Pick** or the **Stock Movement** pages.  
+ The main integration between works orders and basic warehouse activities is represented by the ability to pick production components with the **Inventory Pick** or the **Inventory Movement** pages.  
 
 > [!NOTE]  
->  On the **Stock Pick** page, the component consumption is posted together with the pick posting. By using the **Stock Movement** page, only bin adjustments are registered, no item ledger posting occurs.  
+>  On the **Inventory Pick** page, the component consumption is posted together with the pick posting. By using the **Inventory Movement** page, only bin adjustments are registered, no item ledger posting occurs.  
 
- In addition to component handling, the integration is represented by the ability to put produced items away with the **Stock Put-away** page.  
+ In addition to component handling, the integration is represented by the ability to put produced items away with the **Inventory Put-away** page.  
 
  The **To-Production Bin Code**, **From-Production Bin Code**, and **Open Shop Floor Bin Code** fields on the location card or the machine/work centre cards define default flows to and from production areas.  
 
@@ -46,11 +46,11 @@ The flow of items between bins at a company location centres on picking componen
 
 |Flow|Description|  
 |----------|---------------------------------------|  
-|Assemble-to-stock|The components are needed on an assembly order where the output is stored in the warehouse.<br /><br /> This warehouse flow is managed on the **Stock Movement** page. One take line specifies where to take the components. One place line specifies where to place the components.|  
+|Assemble-to-stock|The components are needed on an assembly order where the output is stored in the warehouse.<br /><br /> This warehouse flow is managed on the **Inventory Movement** page. One take line specifies where to take the components. One place line specifies where to place the components.|  
 |Assemble-to-order|The components are needed on an assembly order that is linked to a sales order that is shipped when the sold item is assembled.|  
 
 > [!NOTE]  
->  If items are assembled to order, then the stock pick of the linked sales order triggers an stock movement for all the involved assembly components, not just for the sold item as when shipping stock items.  
+>  If items are assembled to order, then the inventory pick of the linked sales order triggers an inventory movement for all the involved assembly components, not just for the sold item as when shipping inventory items.  
 
  The **To-Assembly Bin Code**, **From-Assembly Bin Code**, and **Asm.-to-Order Shpt. Bin Code** fields on the location card define default flows to and from assembly areas.  
 
@@ -58,7 +58,7 @@ The flow of items between bins at a company location centres on picking componen
 >  The **Asm.-to-Order Shpt. Bin Code** field functions as the from-assembly bin in assemble-to-order scenarios.  
 
 ### <a name="ad-hoc-movements"></a>Ad-Hoc Movements  
- In basic warehousing, the movement of items from bin to bin without relation to source documents is performed on the **Internal Movement** page, which functions together with the **Stock Movement** page.  
+ In basic warehousing, the movement of items from bin to bin without relation to source documents is performed on the **Internal Movement** page, which functions together with the **Inventory Movement** page.  
 
  Another way to move items ad hoc between bins is to post positive entries in the **New Bin Code** field on the **Item Reclass. Journal** page.  
 
@@ -80,7 +80,7 @@ The flow of items between bins at a company location centres on picking componen
  While no specific warehouse functionality exists for putting assembly items away, the bin code on the assembly order header may be set to a default put-away bin. Posting the assembly order then functions like posting a put-away. The warehouse activity to move assembly items into the warehouse can be managed on the **Movement Worksheet** page or the **Whse. Internal Put-away** page, with no relation to the assembly order.  
 
 > [!NOTE]  
->  If items are assembled to order, then the warehouse shipment of the linked sales order triggers a warehouse pick for all the involved assembly components, not just for the sold item as when shipping stock items.  
+>  If items are assembled to order, then the warehouse shipment of the linked sales order triggers a warehouse pick for all the involved assembly components, not just for the sold item as when shipping inventory items.  
 
  The **To-Assembly Bin Code** and **From-Assembly Bin Code** fields on the location card define default flows to and from assembly areas.  
 

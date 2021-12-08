@@ -28,7 +28,7 @@ To change the language of the user interface, go to the **My Settings** page. Fo
 > [!NOTE]  
 > The choice of languages will be reset to your setting on your Microsoft 365 profile if your administrator synchronises users from Microsoft 365 to [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Changing the texts that are stored as application data is not part of the multilanguage capability. This is an application design issue. Examples of such texts are the names of items in the stock or the comments for a customer. In other words, these types of text are not translated.  
+Changing the texts that are stored as application data is not part of the multilanguage capability. This is an application design issue. Examples of such texts are the names of items in the inventory or the comments for a customer. In other words, these types of text are not translated.  
 
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] only supports a single character set for data. Therefore some characters may not be supported in your environment, and you may experience problems when retrieving data that was entered using a different character set. For instance, your environment may support only English and Russian characters and if you enter data in a different language, it may not be stored correctly. You should contact your system administrator to make sure you understand which languages are supported for your [!INCLUDE[prod_short](includes/prod_short.md)].  

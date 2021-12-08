@@ -43,13 +43,13 @@ The Order Promising functionality enables you to promise an order to be shipped 
 - Capable to Promise (CTP)  
 
 ### <a name="available-to-promise"></a>Available to Promise  
-Available to promise (ATP) calculates dates based on the reservation system. It performs an availability check of the unreserved quantities in stock with regard to planned production, purchases, transfers, and sales returns. Based on this information, [!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the delivery date of the customer’s order because the items are available, either in stock or on planned receipts.  
+Available to promise (ATP) calculates dates based on the reservation system. It performs an availability check of the unreserved quantities in inventory with regard to planned production, purchases, transfers, and sales returns. Based on this information, [!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the delivery date of the customer’s order because the items are available, either in inventory or on planned receipts.  
 
 ### <a name="capable-to-promise"></a>Capable to Promise  
-Capable to promise (CTP) assumes a “what if” scenario, which only applies to item quantities that are not in stock or on scheduled orders. Based on this scenario, [!INCLUDE[prod_short](includes/prod_short.md)] calculates the earliest date that the item can be available if it is to be produced, purchased, or transferred.
+Capable to promise (CTP) assumes a “what if” scenario, which only applies to item quantities that are not in inventory or on scheduled orders. Based on this scenario, [!INCLUDE[prod_short](includes/prod_short.md)] calculates the earliest date that the item can be available if it is to be produced, purchased, or transferred.
 
 #### <a name="example"></a>Example
-If there is an order for 10 pieces, and 6 pieces are available in stock or on scheduled orders, then the Capable-to-Promise calculation will be based on 4 pieces.
+If there is an order for 10 pieces, and 6 pieces are available in inventory or on scheduled orders, then the Capable-to-Promise calculation will be based on 4 pieces.
 
 ### <a name="calculations"></a>Calculations  
 When [!INCLUDE[prod_short](includes/prod_short.md)] calculates the customer’s delivery date, it performs two tasks:  
@@ -57,7 +57,7 @@ When [!INCLUDE[prod_short](includes/prod_short.md)] calculates the customer’s 
 - Calculates the earliest delivery date when the customer has not requested a specific delivery date.  
 - Verifies if the delivery date requested by the customer or promised to the customer is realistic.  
 
-If the customer does not request a specific delivery date, the shipment date is set to equal the work date, and availability is then based on that date. If the item is in stock, [!INCLUDE[prod_short](includes/prod_short.md)] calculates forward in time to determine when the order can be delivered. This is accomplished by the following formulas:  
+If the customer does not request a specific delivery date, the shipment date is set to equal the work date, and availability is then based on that date. If the item is in inventory, [!INCLUDE[prod_short](includes/prod_short.md)] calculates forward in time to determine when the order can be delivered. This is accomplished by the following formulas:  
 
 - Shipment Date + Outbound Warehouse Handling Time = Planned Shipment Date  
 - Planned Shipment Date + Shipping Time = Planned Delivery Date  
@@ -92,9 +92,9 @@ In addition to the external order promising that you can perform on the **Order 
 4. Enter an order promising template in the **Order Promising Template** field by selecting a line from the list on the **Req. Worksheet Template List** page.  
 5. Enter a requisition worksheet in the **Order Promising Worksheet** field by selecting a line from the list on the **Req. Wksh. Names** page.
 
-### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>To enter inbound warehouse handling time in the stock setup page  
-If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the stock and for your location.    
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stock Setup**, and then choose the related link.  
+### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>To enter inbound warehouse handling time in the inventory setup page  
+If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory and for your location.    
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.  
 2. On the **General** FastTab, in the **Inbound Whse. Handling Time** field, enter the number of days that you want to include in the order promising calculation.  
 
 > [!NOTE]  
@@ -106,12 +106,12 @@ If you want to include warehouse handling time in the order promising calculatio
 3.  On the **Warehouse** FastTab, in the **Inbound Whse. Handling Time** field, enter the number of days that you want to be included in the order promising calculation.  
 
 > [!NOTE]  
->  If you leave the **Inbound Whse. Handling Time** field blank, then the calculation uses the value in the **Stock Setup**  page.
+>  If you leave the **Inbound Whse. Handling Time** field blank, then the calculation uses the value in the **Inventory Setup**  page.
 
-### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>To enter outbound warehouse handling time in the stock setup page  
-If you want to set up an outbound warehouse handling time to be included in the order promising calculation on the sales line, you can set this up as a default for the stock.
+### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>To enter outbound warehouse handling time in the inventory setup page  
+If you want to set up an outbound warehouse handling time to be included in the order promising calculation on the sales line, you can set this up as a default for the inventory.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stock Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.  
 2. On the **General** FastTab, in the **Outbound Whse. Handling Time** field, enter the number of days you want to include in the order promising calculation.  
 
 > [!NOTE]  
@@ -123,7 +123,7 @@ If you want to set up an outbound warehouse handling time to be included in the 
 3.  On the **Warehouse** FastTab, in the **Outbound Whse. Handling Time** field, enter the number of days that you want to include in the order promising calculation.  
 
 > [!NOTE]  
->  If you leave the **Outbound Whse. Handling Time** field blank, then the calculation uses the value in the **Stock Setup** page.
+>  If you leave the **Outbound Whse. Handling Time** field blank, then the calculation uses the value in the **Inventory Setup** page.
 
 ## <a name="to-make-an-item-critical"></a>To make an item critical  
 Before an item can be included in the order promising calculation, it must be marked as critical. This setup ensures that non-critical items do not cause irrelevant order promising calculations.   
@@ -137,7 +137,7 @@ Before an item can be included in the order promising calculation, it must be ma
 3.  Choose the **Order Promising** action, and then choose the **Order Promising Lines** action.  
 4.  Select a line, and then select one of the following options:  
 
-    - Select **Available-to-Promise** if you want to calculate the earliest date that the item will be available with respect to stock, scheduled receipts, and gross requirements.  
+    - Select **Available-to-Promise** if you want to calculate the earliest date that the item will be available with respect to inventory, scheduled receipts, and gross requirements.  
     - Select **Capable-to-Promise** if you know that the item is presently out of stock and you want to calculate the earliest date that the item can be available by issuing new replenishment requisitions.  
 5.  Choose the **Accept** button to accept the earliest shipment date available.  
 

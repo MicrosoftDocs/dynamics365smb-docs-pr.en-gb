@@ -85,7 +85,7 @@ The following procedure describes how to post the items, resource hours, and or 
 The service is posted as consumed either partially or fully, depending on the value in the **Qty. to Consume** field, and the relevant ledger entries are created. In addition,previously posted service shipment documents are updated chronologically with the consumed quantities. The relevant quantities will be updated on the service lines of the order.  
 
 ## <a name="to-post-shipments-from-service-orders"></a>To post shipments from service orders  
-After specifying the details of a service, you can adjust and post the quantities of items used, time spent, and costs incurred. As a result, [!INCLUDE[prod_short](includes/prod_short.md)] makes the necessary changes to reflect the new state of your stock and current status of the specific order processing.  
+After specifying the details of a service, you can adjust and post the quantities of items used, time spent, and costs incurred. As a result, [!INCLUDE[prod_short](includes/prod_short.md)] makes the necessary changes to reflect the new state of your inventory and current status of the specific order processing.  
 
 The following procedure shows how to post shipment of service line items in locations that are not set up to require warehouse handling.  
 
@@ -120,7 +120,7 @@ You can cancel the consumption on the service orders. For example, because it wa
 >    * It has been posted to the Jobs area, so there are job ledger entries linked to it.  
 
 ## <a name="to-post-service-lines"></a>To post service lines  
-If you have to work on a service order for a considerable time without posting it, you may want to post some of the service lines linked to it as a way, for example, of keeping your stock updated. You can post by specifying the relevant quantities on the lines to be posted. You may choose to post the lines one by one or by selecting several lines at a time.  
+If you have to work on a service order for a considerable time without posting it, you may want to post some of the service lines linked to it as a way, for example, of keeping your inventory updated. You can post by specifying the relevant quantities on the lines to be posted. You may choose to post the lines one by one or by selecting several lines at a time.  
 
 The following procedure describes shipment posting directly from a service order in locations without warehouse handling set up. If the location is set up to require warehouse handling, then shipment posting happens in a different warehouse document, depending on the location setup.
 

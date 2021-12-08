@@ -38,7 +38,7 @@ The **Movement Worksheet** page has two functions that can assist in automatical
 6. Choose the **Register** action.  
 
 > [!NOTE]  
->  If the location uses directed put-away and pick, then you cannot manually move items in or out of bins of bin type RECEIVE, because items in such bins must be registered as being put away before they are part of available stock.
+>  If the location uses directed put-away and pick, then you cannot manually move items in or out of bins of bin type RECEIVE, because items in such bins must be registered as being put away before they are part of available inventory.
 
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>To register the movement of an item that has already occurred  
 If your location uses directed put-away and pick, and you need to move items to other bins without a pre-existing warehouse put-away, pick, or movement, you can register the correct placement of the items in the warehouse using the **Whse. Reclassification Journal**.
@@ -49,7 +49,7 @@ If your location uses directed put-away and pick, and you need to move items to 
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

@@ -18,7 +18,7 @@ ms.lasthandoff: 06/30/2021
 ms.locfileid: "6320346"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Design Details: Item Tracking Posting Structure
-To align with stock costing functionality and to obtain a simpler and more robust solution, item ledger entries are used as the primary carrier of item tracking numbers.  
+To align with inventory costing functionality and to obtain a simpler and more robust solution, item ledger entries are used as the primary carrier of item tracking numbers.  
   
 Item tracking numbers on order network entities and non-order network entities are specified in the **Reservation Entry** table (T337). Item tracking numbers that are related to historical information are retrieved directly from the item ledger entries that are related to the transaction in question. This means that item ledger entries reflect the item tracking specification of the posted order line.  
   

@@ -30,14 +30,14 @@ For detailed information, see [Design Details: Supply Planning](design-details-s
 
 Planning has two elements: demand and supply. These must be held in balance to ensure that the demand is met in a timely and cost-efficient manner.  
 
-- Demand is the common term used for any kind of gross requirement such as a sales order, service order, component need from assembly or works orders, outbound transfer, blanket order or forecast. In addition to these, application allows some other technical types of demand - such as a negative production or purchase order, negative stock, and purchase return.  
-- Supply is the common word used for any kind of replenishment such as stock, a purchase order, assembly order, works order, or inbound transfer. Correspondingly, there can be a negative sales or service order, negative component need or sales return – all of which in some way also represent supply.  
+- Demand is the common term used for any kind of gross requirement such as a sales order, service order, component need from assembly or works orders, outbound transfer, blanket order or forecast. In addition to these, application allows some other technical types of demand - such as a negative production or purchase order, negative inventory, and purchase return.  
+- Supply is the common word used for any kind of replenishment such as inventory, a purchase order, assembly order, works order, or inbound transfer. Correspondingly, there can be a negative sales or service order, negative component need or sales return – all of which in some way also represent supply.  
 
-Another goal of the planning system is to ensure that the stock does not grow unnecessarily. In the case of decreasing demand, the planning system will suggest that you postpone, decrease in quantity, or cancel existing replenishment orders.  
+Another goal of the planning system is to ensure that the inventory does not grow unnecessarily. In the case of decreasing demand, the planning system will suggest that you postpone, decrease in quantity, or cancel existing replenishment orders.  
 
 ## <a name="planning-calculation"></a>Planning Calculation
 
-The planning system is driven by anticipated and actual customer demand, as well as stock reordering parameters. Running the planning calculation will result in application suggesting specific actions ([Action Messages](production-how-to-run-mps-and-mrp.md#action-messages)) to take concerning possible replenishment from suppliers, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
+The planning system is driven by anticipated and actual customer demand, as well as inventory reordering parameters. Running the planning calculation will result in application suggesting specific actions ([Action Messages](production-how-to-run-mps-and-mrp.md#action-messages)) to take concerning possible replenishment from suppliers, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
 
 The basis of the planning routine is in the gross-to-net calculation. Net requirements drive planned order releases, which are scheduled based on the routing information (manufactured items) or the item card lead time (purchased items). Planned order release quantities are based on the planning calculation, and are affected by the parameters set on the individual item cards.  
 
@@ -48,7 +48,7 @@ The basis of the planning routine is in the gross-to-net calculation. Net requir
 
 As you can see from the **Replenishment System** field on a SKU card, the planning system can be set up to create transfer orders to balance supply and demand across locations.  
 
-In addition to such automatic transfer orders, you may sometimes need to perform a general move of stock quantities to another location, irrespective of existing demand. For this purpose you would manually create a transfer order for the quantity to move. To ensure that the planning system does not try to manipulate this manual transfer order, you must set the **Planning Flexibility** on the transfer line(s) to None.  
+In addition to such automatic transfer orders, you may sometimes need to perform a general move of inventory quantities to another location, irrespective of existing demand. For this purpose you would manually create a transfer order for the quantity to move. To ensure that the planning system does not try to manipulate this manual transfer order, you must set the **Planning Flexibility** on the transfer line(s) to None.  
 
 Contrarily, if you do want the planning system to adjust the transfer order quantities and dates to existing demand, you must set the **Planning Flexibility** field to the default value, Unlimited.
 
@@ -62,7 +62,7 @@ The following planning parameters exist on the item or SKU card:
 - Dampener Quantity  
 - Reordering Policy  
 - Reorder Point
-- Maximum Stock  
+- Maximum Inventory  
 - Overflow Level  
 - Time Bucket  
 - Lot Accumulation Period  
@@ -113,16 +113,16 @@ The **Warning** information field on the **Planning Worksheet** page informs you
 
 The emergency warning is displayed in two situations:
 
-- The stock is negative on the planning starting date.
+- The inventory is negative on the planning starting date.
 - Back-dated supply or demand events exist.
 
-If an item's stock is negative on the planning starting date, the planning system suggests an emergency supply order for the negative quantity to arrive on the planning starting date. The warning text states the starting date and the quantity of the emergency order.
+If an item's inventory is negative on the planning starting date, the planning system suggests an emergency supply order for the negative quantity to arrive on the planning starting date. The warning text states the starting date and the quantity of the emergency order.
 
 Any document lines with due dates before the planning starting date are consolidated into one emergency supply order for the item to arrive on the planning starting date.
 
 ### <a name="exception"></a>Exception
 
-The exception warning is displayed if the projected available stock drops below the safety stock quantity.
+The exception warning is displayed if the projected available inventory drops below the safety stock quantity.
 
 The planning system will suggest a supply order to meet the demand on its due date. The warning text states the item's safety stock quantity and the date on which it is violated.
 
@@ -169,7 +169,7 @@ For details about planning with locations and transfers, see [Planning With or W
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

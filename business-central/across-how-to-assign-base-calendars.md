@@ -115,7 +115,7 @@ Base calendars are assigned to your own company, customers, suppliers, locations
 ## <a name="see-also"></a>See Also
 [Purchasing](purchasing-manage-purchasing.md)  
 [Manufacturing](production-manage-manufacturing.md)    
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

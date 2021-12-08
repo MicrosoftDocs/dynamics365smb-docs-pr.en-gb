@@ -54,7 +54,7 @@ If you change your mind about an item category, you can delete it. However, if i
 
 [Work with Item Attributes](inventory-how-work-item-attributes.md)  
 [Register New Items](inventory-how-register-new-items.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -54,7 +54,7 @@ The following sections point to key articles that can help you get familiar with
   - [Finance](finance.md)
   - [Sales](sales-manage-sales.md)
   - [Purchasing](purchasing-manage-purchasing.md)
-  - [Stock](inventory-manage-inventory.md)
+  - [Inventory](inventory-manage-inventory.md)
   - [Project Management](projects-manage-projects.md)
   - [Fixed Assets Overview](fa-manage.md)
   - [Relationship Management](marketing-relationship-management.md)

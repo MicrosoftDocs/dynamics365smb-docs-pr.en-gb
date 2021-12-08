@@ -46,12 +46,12 @@ You can even create directly-paid orders for non-registered customers by first s
     > [!NOTE]  
     > If you allow the customer to pay immediately, for example, by credit card or PayPal, then fill in the **Payment Method Code** field. The payment is then recorded as soon as you post the sales order as invoiced. If you select CASH, then the payment is recorded in a specified balancing account.
 
-    You are now ready to fill in the sales order lines with stock items or services that you want to sell to the customer.
+    You are now ready to fill in the sales order lines with inventory items or services that you want to sell to the customer.
 
     If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.
 5. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
 
-6. In the **No.** field, enter the number of an stock item or service.
+6. In the **No.** field, enter the number of an inventory item or service.
 
     You leave the **No.** field empty in the following cases:
 
@@ -98,7 +98,7 @@ The related item and customer ledger entries are now created in your system, and
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Print the Picking List](sales-how-print-picking-list.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

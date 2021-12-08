@@ -21,7 +21,7 @@ ms.locfileid: "6440506"
 From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale. You can use two different functions depending on the document type.
 
 > [!Note]
-> This functionality is for replenishing sales items into your own stock. To purchase items for direct delivery from your supplier to your customer, you must create a drop shipment. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md).   
+> This functionality is for replenishing sales items into your own inventory. To purchase items for direct delivery from your supplier to your customer, you must create a drop shipment. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md).   
 
 |Function|Description|
 |--------|-----------|

@@ -22,7 +22,7 @@ ms.locfileid: "6442936"
 > [!NOTE]
 > The Automated Data Capture System (ADCS) solution provides a way for [!INCLUDE[prod_short](includes/prod_short.md)] to communicate with handheld devices through web services. You must work with a Microsoft partner who can provide the link between the web service and the specific handheld device. 
 
-You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical stocks. ADCS typically involves scanning a barcode.
+You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories. ADCS typically involves scanning a barcode.
 
 To use ADCS, you must give each item stored in the warehouse an item identifier. You must also set up miniforms, handheld functions, data exchanges, and specify settings for fields that control ADCS. You specify whether to use ADCS on the location card of a warehouse.
 
@@ -117,7 +117,7 @@ When you have created a miniform, the next steps are to create functions and to 
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

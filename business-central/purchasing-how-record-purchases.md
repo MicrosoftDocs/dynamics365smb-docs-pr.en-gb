@@ -1,6 +1,6 @@
 ---
 title: Record Purchases with Purchase Invoices
-description: Describes how to purchase stock, non-stock items, or resources by creating and posting purchase invoices or orders.
+description: Describes how to purchase inventory, non-inventory items, or resources by creating and posting purchase invoices or orders.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -19,16 +19,16 @@ ms.locfileid: "7482404"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Record Purchases with Purchase Invoices
 
-You create a purchase invoice or purchase order to record the cost of purchases and to track purchase ledger. If you need to control an stock, purchase invoices and purchase orders are also used to dynamically update stock levels so that you can minimise your stock costs and provide better customer service. The purchasing costs, including service expenses, and stock values that result from posting purchase invoices or orders contribute to profit figures and other financial KPIs on your Role Centre.
+You create a purchase invoice or purchase order to record the cost of purchases and to track purchase ledger. If you need to control an inventory, purchase invoices and purchase orders are also used to dynamically update inventory levels so that you can minimise your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices or orders contribute to profit figures and other financial KPIs on your Role Centre.
 
 ## <a name="create-purchase-invoices"></a>Create purchase invoices
 
-In addition to buying physical items (**Stock** item type), which affect stock valuation, you can purchase services represented by time units. You can do this either with the **Service** item type or with the **Resource** line type.
+In addition to buying physical items (**Inventory** item type), which affect inventory valuation, you can purchase services represented by time units. You can do this either with the **Service** item type or with the **Resource** line type.
 
-When you receive the stock items or when the purchased service is completed, you post the purchase invoice or order to update stock and financial records and to activate payment to the supplier according to the payment terms. For more information, see [Posting Purchases](ui-post-purchases.md) and [Making Payments](payables-make-payments.md).
+When you receive the inventory items or when the purchased service is completed, you post the purchase invoice or order to update inventory and financial records and to activate payment to the supplier according to the payment terms. For more information, see [Posting Purchases](ui-post-purchases.md) and [Making Payments](payables-make-payments.md).
 
 > [!CAUTION]  
-> Do not post a purchase invoice for physical items until you receive the items and know the final cost of the purchase, including any additional charges. Otherwise, your stock value and profit figures may be skewed.
+> Do not post a purchase invoice for physical items until you receive the items and know the final cost of the purchase, including any additional charges. Otherwise, your inventory value and profit figures may be skewed.
 
 ### <a name="to-create-a-purchase-invoice"></a>To create a purchase invoice
 
@@ -50,7 +50,7 @@ The following describes how to create a purchase invoice. The steps are similar 
 
     > [!NOTE]  
     > If you have set up recurring purchase lines for the supplier, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the **Get Recurring Purchase Lines** action.
-4. On the **Lines** FastTab, in the **Item No.** field, enter the number of an stock item or service.
+4. On the **Lines** FastTab, in the **Item No.** field, enter the number of an inventory item or service.
 5. In the **Quantity** field, enter the number of items to be purchased.
 
     The **Line Amount** field is updated to show the value in the **Direct Unit Cost** field multiplied by the value in the **Quantity** field.
@@ -65,7 +65,7 @@ The following describes how to create a purchase invoice. The steps are similar 
     > If you have set up invoice discounts for the supplier, then the specified percentage value is automatically inserted in the **Supplier Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Invoice Discount Amount** field.
 7. When you receive the purchased items or services, choose **Post**.
 
-The purchase is now reflected in stock, resource ledgers, and financial records, and the supplier payment is activated. The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.  
+The purchase is now reflected in inventory, resource ledgers, and financial records, and the supplier payment is activated. The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.  
 
 > [!NOTE]
 > In rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to VAT or sales tax.
@@ -80,9 +80,9 @@ You must use purchase orders if your purchasing process requires that you record
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-## <a name="selling-non-inventory-items"></a>Selling non-stock items
+## <a name="selling-non-inventory-items"></a>Selling non-inventory items
 
-The items on a purchase invoice can be of type **Stock**, **Service**, **Resource** and **Non-Stock** to specify if the item is a physical stock unit, a labour time unit, or a physical unit that is not kept on stock. For more information, see [Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for all three item types.
+The items on a purchase invoice can be of type **Inventory**, **Service**, **Resource** and **Non-Inventory** to specify if the item is a physical inventory unit, a labour time unit, or a physical unit that is not kept on inventory. For more information, see [Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for all three item types.
 
 > [!NOTE]
 > With the **Resource** purchase line type, you can also purchase external resources, for example, to invoice a supplier for work delivered. For more information, see [Set Up Resources](projects-how-setup-resources.md).

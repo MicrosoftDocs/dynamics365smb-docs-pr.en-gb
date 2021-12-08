@@ -24,7 +24,7 @@ If you buy or sell items that you and your supplier or customer use different te
 > [!NOTE]
 > [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 >
-> Not all companies use item references. To minimise clutter on pages, we've hidden the related fields and actions by default. If you decide to use them, select the **Use Item References** field on the **Stock Setup** page. After you turn on item references, the fields and actions are available on the Item Card, Supplier Card, and Customer Card pages, and from sales and purchase documents.
+> Not all companies use item references. To minimise clutter on pages, we've hidden the related fields and actions by default. If you decide to use them, select the **Use Item References** field on the **Inventory Setup** page. After you turn on item references, the fields and actions are available on the Item Card, Supplier Card, and Customer Card pages, and from sales and purchase documents.
 >
 > In versions earlier than 2021 release wave 2, your administrator can turn on the *Write longer item references* feature in the [Feature Management](https://businesscentral.dynamics.com/?page=2610) page (link requires that you have a [!INCLUDE [prod_short](includes/prod_short.md)] tenant). How you use references doesn't change, but the names of things like pages and buttons will. For example, the **Item Cross-Reference Entries** page will become the **Item Reference Entries** page.
 
@@ -32,7 +32,7 @@ If you buy or sell items that you and your supplier or customer use different te
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
-1. Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Stock Setup**, and then choose the related link.
+1. Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Inventory Setup**, and then choose the related link.
 2. Select the **Use Item References** field.
 
 ## <a name="to-set-up-an-item-reference"></a>To set up an item reference
@@ -59,7 +59,7 @@ The **Description** field on the line is overwritten with the supplier's item de
 ## <a name="see-also"></a>See Also
 
 [Register New Items](inventory-how-register-new-items.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

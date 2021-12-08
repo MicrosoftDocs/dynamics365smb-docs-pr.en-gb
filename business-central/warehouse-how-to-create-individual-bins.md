@@ -34,7 +34,7 @@ Making a bin dedicated results in similar functionality in basic warehousing to 
 **Example:** A work centre is set up with a bin code in the **To-Production Bin Code** field. works order component lines with that bin code require that forward-flushed components are placed there. However, until the components are consumed from that bin, other component demands may pick or consume from that bin because they are still considered available bin contents. To make sure that bin content is only available to component demand that uses that to-production bin, you must select the **Dedicated** field on the line for that bin code.
 
 > [!Caution]
-> Items in dedicated bins are not protected when they are picked and consumed as production or assembly components with the **Stock Pick** page. For more information, see [Pick for Production or Assembly in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md).
+> Items in dedicated bins are not protected when they are picked and consumed as production or assembly components with the **Inventory Pick** page. For more information, see [Pick for Production or Assembly in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md).
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>To create bins individually in the bin creation worksheet  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Creation Worksheet**, and choose the related link.  
@@ -72,7 +72,7 @@ Repeat the process for another set of bins until you have created all the bins i
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

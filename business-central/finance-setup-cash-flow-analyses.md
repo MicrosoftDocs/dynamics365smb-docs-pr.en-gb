@@ -44,7 +44,7 @@ The **Cash Cycle** and **Income & Expense** charts are ready to go, based on the
 
 **Note** It's a good idea to keep the calculations that are provided for the account schedule.  
 
-Enter accounts in the **Totalling** field for **Total Revenue**, **Total Receivables**, **Total Payables**, and **Total Stock**. To map to a range of accounts, or more than one specific account, enter the account numbers separated by ".." or by a vertical bar, respectively. For example, **1111..4444** or **2222|3333|5555**.  
+Enter accounts in the **Totalling** field for **Total Revenue**, **Total Receivables**, **Total Payables**, and **Total Inventory**. To map to a range of accounts, or more than one specific account, enter the account numbers separated by ".." or by a vertical bar, respectively. For example, **1111..4444** or **2222|3333|5555**.  
 
 **Tip** Verify your mapping by choosing the **Overview** action.  
 

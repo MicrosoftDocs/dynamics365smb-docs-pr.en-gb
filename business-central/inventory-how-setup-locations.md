@@ -19,9 +19,9 @@ ms.locfileid: "6435579"
 ---
 # <a name="set-up-locations"></a>Set Up Locations
 
-If you buy, store, or sell items at more than one place or warehouse, you must set up each location with a location card and define transfer routes. [!INCLUDE [prod_short](includes/prod_short.md)] uses locations to help keep track of stock in both simpler cases and the more complex warehouse processes.
+If you buy, store, or sell items at more than one place or warehouse, you must set up each location with a location card and define transfer routes. [!INCLUDE [prod_short](includes/prod_short.md)] uses locations to help keep track of inventory in both simpler cases and the more complex warehouse processes.
 
-You can then create document lines for a specific location, view availability by location, and transfer stock between locations. For more information, see [Manage Stock](inventory-manage-inventory.md).
+You can then create document lines for a specific location, view availability by location, and transfer inventory between locations. For more information, see [Manage Inventory](inventory-manage-inventory.md).
 <br><br>  
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
@@ -41,7 +41,7 @@ Choose the **Zones** or **Bins** action to view information about zones and bins
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **Location Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Repeat steps 2 and 3 for every location where you want to keep stock.
+4. Repeat steps 2 and 3 for every location where you want to keep inventory.
 
 > [!NOTE]  
 > Many fields on the location card refer to the handling of items in inbound and outbound warehouse processes. The fields are not relevant for companies that do not require the more complex warehouse functionality. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
@@ -57,11 +57,11 @@ Next, if you have multiple locations, you can define transfer routes between loc
 3. Choose the **New** action.
 4. On the **Location Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-You can now transfer stock items between two locations. For more information, see [Transfer Stock Between Locations](inventory-how-transfer-between-locations.md).    
+You can now transfer inventory items between two locations. For more information, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).    
 
 ## <a name="bins"></a>Bins
 
-Bins represent the basic warehouse structure and are used to make suggestions about the placement of items. When you have created your bins, you can define precisely the contents that you want to place in each bin, or the bin can function as a floating bin without specified contents. Bins are predominantly used in basic and advance warehouse operations. If you manage stock in a more simple setup, you probably do not need bins.
+Bins represent the basic warehouse structure and are used to make suggestions about the placement of items. When you have created your bins, you can define precisely the contents that you want to place in each bin, or the bin can function as a floating bin without specified contents. Bins are predominantly used in basic and advance warehouse operations. If you manage inventory in a more simple setup, you probably do not need bins.
 
 To use the bin functionality at a location, you first activate the functionality on the **Location** card by selecting the **Bins Mandatory** field on the **Warehouse** FastTab. Then you design the item flow at the location by specifying bin codes in setup fields that represent the different flows.
 
@@ -80,8 +80,8 @@ However, you can choose to set up just one zone and to organise your warehouse a
 
 ## <a name="see-also"></a>See Also
 
-[Manage Stock](inventory-manage-inventory.md)  
-[Transfer Stock Between Locations](inventory-how-transfer-between-locations.md)  
+[Manage Inventory](inventory-manage-inventory.md)  
+[Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  
 [Create Bins](warehouse-how-to-create-individual-bins.md)  
 [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  

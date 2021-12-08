@@ -24,7 +24,7 @@ The **Item Tracking Lines** and **Item Tracking Summary** pages provide dynamic 
 
 |Field|Description|  
 |---------------------------------|---------------------------------------|  
-|**Total Quantity**|The total quantity of the serial or lot number that is currently in stock.|  
+|**Total Quantity**|The total quantity of the serial or lot number that is currently in inventory.|  
 |**Total Requested Quantity**|The total quantity of the serial or lot number that is currently requested in all documents.|  
 |**Current Pending Quantity**|The quantity that is entered in the current instance of the **Item Tracking Lines** page but is not yet committed to the database.|  
 |**Total Available Quantity**|The quantity of the serial or lot number that is available for the user to request.<br /><br /> This quantity is calculated from other fields on the page as follows:<br /><br /> total quantity – (total requested quantity + current pending quantity).|  
@@ -37,10 +37,10 @@ The **Item Tracking Lines** and **Item Tracking Summary** pages provide dynamic 
 ## <a name="calculation-formula"></a>Calculation Formula  
  As described in the preceding table, the availability of a given serial or lot number is calculated as follows.  
 
- total available quantity = quantity in stock – (all demands + quantity not yet committed to the database)  
+ total available quantity = quantity in inventory – (all demands + quantity not yet committed to the database)  
 
 > [!IMPORTANT]  
->  This formula implies that the serial or lot number availability calculation considers only stock and ignores projected receipts. Accordingly, supply that is not yet posted to stock does not affect item tracking availability, as opposed to regular item availability where projected receipts are included.  
+>  This formula implies that the serial or lot number availability calculation considers only inventory and ignores projected receipts. Accordingly, supply that is not yet posted to inventory does not affect item tracking availability, as opposed to regular item availability where projected receipts are included.  
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Item Tracking](design-details-item-tracking.md)

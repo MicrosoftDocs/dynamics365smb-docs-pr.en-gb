@@ -30,7 +30,7 @@ You can import the following data from QuickBooks Online to [!INCLUDE[prod_short
 * Items
 * Chart of accounts
 * Beginning balance transaction in the general ledger
-* On-hand quantities for stock items
+* On-hand quantities for inventory items
 * Open documents for customers and suppliers, such as invoices, credit memos, and payments
 
 We migrate only full amounts on sales and purchase documents. We do not update partially paid amounts. For example, if a customer has paid 300 of a total of 500 pounds on a sales invoice, we migrate the full 500. If you have received partial payments, you must update these manually, either before or after you migrate data. We recommend that you apply outstanding transactions before you migrate, just to make things easier afterward.

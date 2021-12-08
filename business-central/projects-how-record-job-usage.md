@@ -61,7 +61,7 @@ You can view job usage up to the completion of a project in one step. To do so, 
 This lets you track and compare your original estimates against actual results and make modifications or new entries as needed. For example, you may have estimated that a job required 10 hours, and to date, it has taken 15 hours. You can add the extra five hours to the existing journal line or create a new journal line to report these five hours as overtime, which is another work type. The appropriate cost and price are calculated, and you can then post to the journal.  
 
 > [!NOTE]  
->   Item entries create item ledger entries and reduce the stock quantity. The **Post Stock Cost to G/L** batch job transfers the cost from stock to the general ledger. Resource entries create resource ledger entries.  
+>   Item entries create item ledger entries and reduce the inventory quantity. The **Post Inventory Cost to G/L** batch job transfers the cost from inventory to the general ledger. Resource entries create resource ledger entries.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. Select a relevant job journal, and then choose the **Calc. Remaining Usage** action.  

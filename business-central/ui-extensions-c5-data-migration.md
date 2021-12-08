@@ -82,7 +82,7 @@ If you migrate accounts, the following data is also migrated:
 
 If you migrate accounts, the following data is also migrated:
 
-* Stock posting setup
+* Inventory posting setup
 * General posting setup
 * Item journal batch
 * Open transactions (item ledger entries)
@@ -123,7 +123,7 @@ To help avoid double-posting to the general ledger, the following balance accoun
 
 * For suppliers, we use the A/P account from the supplier posting group.  
 * For customers, we use the A/R account from the customer posting group.  
-* For items, we create a general posting setup where the adjustment account is the account specified as the stock account on the stock posting setup.  
+* For items, we create a general posting setup where the adjustment account is the account specified as the inventory account on the inventory posting setup.  
 
 ## <a name="correcting-errors"></a>Correcting Errors
 

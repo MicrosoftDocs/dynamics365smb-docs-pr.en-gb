@@ -67,7 +67,7 @@ In addition to the original posted sales invoice, you can apply the sales credit
      When you copy from a posted invoice or posted credit memo, application copies any relevant invoice discounts and line discounts as valid at the time of posting that document from the posted document line to the new document line. Be aware, however, that if the **Calc. Inv. Discount** option is activated on the **Sales & Receivables Setup** page, then the invoice discount will be newly calculated when you post the new document line. The line amount for the new line may therefore be different than the line amount for the posted document line, depending on the new calculation of the invoice discount.  
 
      > [!NOTE]  
-     >  If part of the quantity of the posted document line has already been reversed or sold or consumed, a line is created for only the quantity that remains in stock or that has not been returned. If the full quantity of the posted document line has already been reversed, a new document line is not created.  
+     >  If part of the quantity of the posted document line has already been reversed or sold or consumed, a line is created for only the quantity that remains in inventory or that has not been returned. If the full quantity of the posted document line has already been reversed, a new document line is not created.  
      >   
      >  If the flow of goods in the posted document is the same as the flow of goods in the new document, a copy of the original posted document line in the new document is created. The **Appl.-from Item Entry** field is not filled in because, in this case, exact cost reversing is not possible. For example, if you use the **Get Posted Document Lines to Reverse** function to get a posted sales credit memo line for a new sales credit memo, only the original posted credit memo line is copied to the new credit memo.  
 
@@ -100,7 +100,7 @@ You can post this increased cost as an item charge in a credit memo or a return 
 2. On a new line, in the **Type** field, select **Charge (Item)**.  
 3. Fill in the fields as for any item charge line. For more information, see [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md).  
 
-When you post the sales return order, the restock charge is added to the relevant sales entry amount. In this way, you can maintain accurate stock valuation.  
+When you post the sales return order, the restock charge is added to the relevant sales entry amount. In this way, you can maintain accurate inventory valuation.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 

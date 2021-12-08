@@ -1,6 +1,6 @@
 ---
 title: About Calculating Standard Cost
-description: A standard cost system determines stock unit cost based on reasonable historical or expected cost.
+description: A standard cost system determines inventory unit cost based on reasonable historical or expected cost.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -18,7 +18,7 @@ ms.lasthandoff: 06/30/2021
 ms.locfileid: "6323209"
 ---
 # <a name="about-calculating-standard-cost"></a>About Calculating Standard Cost
-Many manufacturing companies select a valuation base of standard cost. This also applies to companies that perform light manufacturing, such as assembly and kitting. A standard cost system determines stock unit cost based on some reasonable historical or expected cost. Studies of past and estimated future cost data can then provide the basis for standard costs. These costs are frozen until a decision is made to change them. The actual cost to produce a product may differ from the estimated standard costs. For management control, the actual cost is compared to the standard cost for a specific item and differences, or *variances*, are identified and analysed.  
+Many manufacturing companies select a valuation base of standard cost. This also applies to companies that perform light manufacturing, such as assembly and kitting. A standard cost system determines inventory unit cost based on some reasonable historical or expected cost. Studies of past and estimated future cost data can then provide the basis for standard costs. These costs are frozen until a decision is made to change them. The actual cost to produce a product may differ from the estimated standard costs. For management control, the actual cost is compared to the standard cost for a specific item and differences, or *variances*, are identified and analysed.  
 
 Standard costs can be maintained for items that are replenished through purchase, assembly, and production. For each replenishment method, standard costs can consist of the following elements.  
 
@@ -48,7 +48,7 @@ The following key cost elements make up the total direct cost of a finished proc
  Material costs are costs that are associated with subassemblies and purchased raw material. Material unit cost can consist of direct and indirect cost elements.  
 
 -   Direct material cost represents an invoiced amount for purchased raw materials or the processing cost of a subassembly.  
--   Indirect material cost, or *overhead*, can represent elements such as stock carrying costs for the finished item after it is produced.  
+-   Indirect material cost, or *overhead*, can represent elements such as inventory carrying costs for the finished item after it is produced.  
 
 The setup of the material cost for purchased items that affect direct and indirect cost depends on the costing method that you have selected for the specified item. You set up cost information for either costing method on the item card. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
@@ -98,13 +98,13 @@ The process of updating or calculating standard costs typically consists of the 
 1.  Updating costs at the component and capacity levels. For more information, see the **Suggest Item Standard Cost** and **Suggest Capacity Standard Cost** batch jobs.  
 2.  Consolidating and rolling up the component and capacity costs to calculate the total assembly or manufacturing cost of the items. For more information, see For more information, see [To calculate the standard cost of an assembly item](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
 3.  Implementing the standard costs that are entered when you run the previous batch jobs. The standard costs do not take effect until they are implemented. For more information, see the **Implement Standard Cost Changes** batch job.  
-4.  Implementing the changes to update the **Unit Cost** field on the item card and perform stock revaluation. For more information, see [Revalue Stock](inventory-how-revalue-inventory.md).
+4.  Implementing the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see [Revalue Inventory](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Costing Methods](design-details-costing-methods.md)   
  [Work with Bills of Material](inventory-how-work-BOMs.md)   
  [Update Standard Costs](finance-how-to-update-standard-costs.md)   
- [Design Details: Stock Costing](design-details-inventory-costing.md)
+ [Design Details: Inventory Costing](design-details-inventory-costing.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

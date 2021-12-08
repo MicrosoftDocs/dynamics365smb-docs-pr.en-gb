@@ -19,7 +19,7 @@ ms.lasthandoff: 07/08/2021
 ms.locfileid: "6444877"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Using Dynamics 365 Sales from Business Central
-If you use Dynamics 365 Sales for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using [!INCLUDE[prod_short](includes/prod_short.md)] for backend activities such as processing orders, managing stock, and doing your finances.
+If you use Dynamics 365 Sales for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using [!INCLUDE[prod_short](includes/prod_short.md)] for backend activities such as processing orders, managing inventory, and doing your finances.
 
 Before you can use the integration capabilities, your system administrator must set up the connection and define users in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
 
@@ -28,7 +28,7 @@ Before you can use the integration capabilities, your system administrator must 
 
 Integrating the applications lets you access data in Sales from [!INCLUDE[prod_short](includes/prod_short.md)], and in some cases the other way around. You can work with and synchronise data that both services have in common, such as customers, contacts, and sales information, and keep the data up to date in both applications.  
 
-For example, a sales person in [!INCLUDE[crm_md](includes/crm_md.md)] can use the price lists from [!INCLUDE[prod_short](includes/prod_short.md)] when they create a sales order. When they add the item to the sales order line in [!INCLUDE[crm_md](includes/crm_md.md)], they can see the stock level (availability) of the item from [!INCLUDE[prod_short](includes/prod_short.md)].
+For example, a sales person in [!INCLUDE[crm_md](includes/crm_md.md)] can use the price lists from [!INCLUDE[prod_short](includes/prod_short.md)] when they create a sales order. When they add the item to the sales order line in [!INCLUDE[crm_md](includes/crm_md.md)], they can see the inventory level (availability) of the item from [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Conversely, order processors in [!INCLUDE[prod_short](includes/prod_short.md)] can handle sales orders that are automatically or manually transferred from [!INCLUDE[crm_md](includes/crm_md.md)]. For example, they can create and post sales order lines for items or resources that were entered in [!INCLUDE[crm_md](includes/crm_md.md)] as write-in products. For more information, see [Handling Sales Order Data](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
 

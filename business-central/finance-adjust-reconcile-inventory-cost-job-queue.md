@@ -1,6 +1,6 @@
 ---
-title: Schedule Jobs for Adjusting & Reconciling Stock Cost
-description: Learn how you can use the job queue to move the tasks for adjusting stock cost or reconciling it with the general ledger to the background. For example, if your company runs many tasks or processes many transactions.
+title: Schedule Jobs for Adjusting & Reconciling Inventory Cost
+description: Learn how you can use the job queue to move the tasks for adjusting inventory cost or reconciling it with the general ledger to the background. For example, if your company runs many tasks or processes many transactions.
 author: AndreiPanko
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -17,7 +17,7 @@ ms.contentlocale: en-GB
 ms.lasthandoff: 10/01/2021
 ms.locfileid: "7589039"
 ---
-# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Schedule Jobs for Adjusting and Reconciling Stock Cost with the General Ledger
+# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Schedule Jobs for Adjusting and Reconciling Inventory Cost with the General Ledger
 
 To optimise the experience, automatic cost adjustment and posting to the general ledger are turned on by default. However, as data accumulates over time, that might impact performance. To reduce the load on the application, it is often helpful to use job queue entries to move tasks to run in the background.
 
@@ -25,8 +25,8 @@ To optimise the experience, automatic cost adjustment and posting to the general
 
 Creating the job queue entries can be tricky, even for an experienced consultant, so we have an assisted setup guide to make the process easier for adjusting item costs.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stock Setup**, and then choose the related link.  
-2. On the **Stock Setup** page, toggle the **Automatic Cost Posting** field, or specify **Never** in the **Automatic Cost Adjustment** field.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.  
+2. On the **Inventory Setup** page, toggle the **Automatic Cost Posting** field, or specify **Never** in the **Automatic Cost Adjustment** field.  
 3. In the notification that now displays at the top of the page, choose the **Schedule Job Queue Entry** link. This opens the **Schedule Cost Adjustment and Posting** assisted setup guide.  
 4. Specify the task that you want to schedule.  
 
@@ -35,9 +35,9 @@ Creating the job queue entries can be tricky, even for an experienced consultant
 
 5. Select the **View job queue entries when finished** field to review and adjust settings. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
 
-## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>To create a job queue entry for adjusting and reconciling stock cost manually
+## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>To create a job queue entry for adjusting and reconciling inventory cost manually
 
-Alternatively, you can create job queue entries manually. The following procedure shows how to set the **Adjust Cost - Item Entries** batch job to automatically run daily, but the same steps apply to the **Post Stock Cost to G/L** batch job.  
+Alternatively, you can create job queue entries manually. The following procedure shows how to set the **Adjust Cost - Item Entries** batch job to automatically run daily, but the same steps apply to the **Post Inventory Cost to G/L** batch job.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -47,17 +47,17 @@ Alternatively, you can create job queue entries manually. The following procedur
 6. In the **Starting Time** field, enter *2 AM*.
 7. Choose the **Set Status to Ready** action.
 
-Now, stock cost will be updated every night.  
+Now, inventory cost will be updated every night.  
 
-To schedule a task for reconciling stock with the general ledger, choose Codeunit 2846 **Post Stock Cost to G/L**.
+To schedule a task for reconciling inventory with the general ledger, choose Codeunit 2846 **Post Inventory Cost to G/L**.
 
 > [!TIP]
-> To avoid locking, do not schedule tasks for the **Adjust Cost - Item Entries** batch job, the **Post Stock Cost to G/L** codeunit, and tasks for posting sales or purchasing transactions at the same time. Also, make sure that they use same job queue category.
+> To avoid locking, do not schedule tasks for the **Adjust Cost - Item Entries** batch job, the **Post Inventory Cost to G/L** codeunit, and tasks for posting sales or purchasing transactions at the same time. Also, make sure that they use same job queue category.
 
 ## <a name="see-also"></a>See Also
 
 [Adjust Item Costs](inventory-how-adjust-item-costs.md)  
-[Reconcile Stock Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -22,10 +22,10 @@ You can define different flushing strategies, to automate registering of consump
 
 This functionality is useful for the following reasons:  
 
-- **Stock Valuation**
+- **Inventory Valuation**
 
-    Value entries for output and consumption are created in parallel as the works order progresses. Without routing link codes, the stock value will increase as output is posted and then decrease at a later point in time when the value of component consumption is posted together with the finished works order.  
-- **Stock Availability**
+    Value entries for output and consumption are created in parallel as the works order progresses. Without routing link codes, the inventory value will increase as output is posted and then decrease at a later point in time when the value of component consumption is posted together with the finished works order.  
+- **Inventory Availability**
 
     With gradual consumption posting, the availability of component items is more up-to-date, which is important to maintain the internal balance between demand and supply. Without routing link codes, other demands for the component may believe that it is available as long as it is pending a delayed consumption posting.  
 - **Just-in-Time**
@@ -46,10 +46,10 @@ This functionality is useful for the following reasons:
 ### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automatic Reporting - Forward Flush the Entire Order  
 If you forward flush the works order at the start of the job, the behaviour of application is very similar to a manual consumption. The major difference is that consumption happens automatically.  
 
-- The entire contents of the production BOM are consumed and deducted from stock at the time the released works order is refreshed.  
+- The entire contents of the production BOM are consumed and deducted from inventory at the time the released works order is refreshed.  
 - The consumption quantity is the quantity per assembly stated on the production BOM, multiplied by the number of parent items you are building.  
 - There is no need to record any information in the consumption journal if all of the items are to be flushed.  
-- When consuming items from stock, it does not matter when output journal entries are made, because the output journal has no effect on this mode of consumption posting.  
+- When consuming items from inventory, it does not matter when output journal entries are made, because the output journal has no effect on this mode of consumption posting.  
 - No routing link codes can be set.  
 
 Forward flushing an entire order is suited in production environments with:  
@@ -59,7 +59,7 @@ Forward flushing an entire order is suited in production environments with:
 -   High component consumption in early operations  
 
 ### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automatic Reporting - Forward Flushing by Operation  
-Flushing by operation allows you to deduct stock during a specific operation in the routing of the parent item. Material is tied to the routing using routing link codes, which correspond to routing link codes applied to components in the production BOM.  
+Flushing by operation allows you to deduct inventory during a specific operation in the routing of the parent item. Material is tied to the routing using routing link codes, which correspond to routing link codes applied to components in the production BOM.  
 
 The flush takes place when the operation that has the same routing link code is started. Started means that some activity is recorded in the output journal for that operation. And that activity might just be that a setup time is entered.  
 
@@ -81,7 +81,7 @@ The amount of the flush is for the quantity per assembly stated on the productio
 ### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatic Reporting - Back Flushing the Entire Order  
 This reporting method does not consider routing link codes.  
 
-No components are picked until the released works order status is changed to *Finished*. The amount of the flush is the quantity per assembly stated on the production BOM multiplied by the number of parent items that were finished and placed into stock.  
+No components are picked until the released works order status is changed to *Finished*. The amount of the flush is the quantity per assembly stated on the production BOM multiplied by the number of parent items that were finished and placed into inventory.  
 
 Backward flushing the entire works order requires the same setup as for forward flushing: The reporting method must be set to backward on each item card for all items within the parent BOM to be reported. In addition, all routing link codes must be removed from the production BOM. 
 
@@ -125,7 +125,7 @@ The following table describes the available flushing method options that you can
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Planning](production-planning.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -49,15 +49,15 @@ In basic warehouse configurations, that is locations that use the **Bin Mandator
     > [!NOTE]  
     >  Quantity must be available in the From Bin code.  
 
-8.  When you are ready to process the internal movement, choose the **Create Stock Movement** action.  
+8.  When you are ready to process the internal movement, choose the **Create Inventory Movement** action.  
 
     > [!NOTE]  
-    >  When you have created the stock movement, the internal movement lines are deleted.  
+    >  When you have created the inventory movement, the internal movement lines are deleted.  
 
-    You perform the remainder of the ad hoc movement on the **Stock Movement** page in the same way as you would for a movement based on source documents. For more information, see for example [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+    You perform the remainder of the ad hoc movement on the **Inventory Movement** page in the same way as you would for a movement based on source documents. For more information, see for example [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>To move items with the item reclassification journal
-In stead of using warehouse movement documents, you can record the moving of items by reclassifying their bin codes. For more information, see [Count, Adjust, and Reclassify Stock Using Journals](inventory-how-count-adjust-reclassify.md).   
+In stead of using warehouse movement documents, you can record the moving of items by reclassifying their bin codes. For more information, see [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).   
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journal**, and then choose the related link.  
 2.  On each journal line, define the bins from which and to which you want to move items by filling in the **Bin Code** and the **New Bin Code** fields.  
 
@@ -71,7 +71,7 @@ In stead of using warehouse movement documents, you can record the moving of ite
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

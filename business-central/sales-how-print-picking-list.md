@@ -1,6 +1,6 @@
 ---
-title: Print Stock Picking List from Sales Order
-description: You can print an stock picking list directly from a sales order, sales, invoice, and other outbound sales documents.
+title: Print Inventory Picking List from Sales Order
+description: You can print an inventory picking list directly from a sales order, sales, invoice, and other outbound sales documents.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -19,9 +19,9 @@ ms.locfileid: "6436833"
 ---
 # <a name="print-the-picking-list"></a>Print the Picking List
 
-You can print an stock picking list directly from a sales order and other documents that initiate the shipment of items.
+You can print an inventory picking list directly from a sales order and other documents that initiate the shipment of items.
 
-This report is typically used in companies without dedicated functionality for warehouse management, so that an stock worker can simply view or print the picking list from the related sales document. In companies with higher volume or more complex processes, picking is planned and performed in dedicated warehouse documents. For more information, see [Pick Items](warehouse-pick-items.md).
+This report is typically used in companies without dedicated functionality for warehouse management, so that an inventory worker can simply view or print the picking list from the related sales document. In companies with higher volume or more complex processes, picking is planned and performed in dedicated warehouse documents. For more information, see [Pick Items](warehouse-pick-items.md).
 
 ## <a name="to-print-a-picking-list-from-a-sales-order"></a>To print a picking list from a sales order
 
@@ -39,7 +39,7 @@ You can also save the picking list as a document, for example, to send to someon
 
 ## <a name="see-also"></a>See Also
 
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Pick Items](warehouse-pick-items.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -20,7 +20,7 @@ ms.locfileid: "6442567"
 # <a name="design-details-assembly-order-posting"></a>Design Details: Assembly Order Posting
 Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption/output. However, the principles are combined in that assembly orders have their own posting UI, like that for sales orders, while the actual entry posting happens in the background as direct item and resource journal postings, like that for production consumption, output, and capacity.  
 
-Similarly to works order posting, the consumed components and the used resources are converted and output as the assembly item when the assembly order is posted. For more information, see [Design Details: Works Order Posting](design-details-production-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process stock.  
+Similarly to works order posting, the consumed components and the used resources are converted and output as the assembly item when the assembly order is posted. For more information, see [Design Details: Works Order Posting](design-details-production-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.  
 
 The following journal postings occur during assembly order posting:  
 
@@ -57,7 +57,7 @@ The following table outlines the sequence of actions.
 >  Unlike for production output, which is posted at expected cost, assembly output is posted at actual cost.  
 
 ## <a name="cost-adjustment"></a>Cost Adjustment  
- Once an assembly order is posted, meaning that components (material) and resources are assembled into a new item, then it should be possible to determine the actual cost of that assembly item, and the actual stock cost of the components involved. This is achieved by forwarding costs from the posted entries of the source (the components and resources) to the posted entries of the destination (the assembly item). The forwarding of costs is done by calculating and generating new entries, called adjustment entries that become associated with the destination entries.  
+ Once an assembly order is posted, meaning that components (material) and resources are assembled into a new item, then it should be possible to determine the actual cost of that assembly item, and the actual inventory cost of the components involved. This is achieved by forwarding costs from the posted entries of the source (the components and resources) to the posted entries of the destination (the assembly item). The forwarding of costs is done by calculating and generating new entries, called adjustment entries that become associated with the destination entries.  
 
  The assembly costs to be forwarded are detected with the Order Level detection mechanism. For information about other adjustment detection mechanisms, see [Design Details: Cost Adjustment](design-details-cost-adjustment.md).  
 
@@ -82,7 +82,7 @@ The spreading of detected adjustments from material and resource costs onto the 
 > [!NOTE]  
 >  The Make WIP Adjustments element, in lines 7 and 8, is responsible for forwarding production material and capacity usage to the output of unfinished works orders. This is not used when adjusting assembly order costs as the concept of WIP does not apply to assembly.  
 
-For information about how costs from assembly and production are posted to the general ledger, see [Design Details: Stock Posting](design-details-inventory-posting.md).  
+For information about how costs from assembly and production are posted to the general ledger, see [Design Details: Inventory Posting](design-details-inventory-posting.md).  
 
 ## <a name="assembly-costs-are-always-actual"></a>Assembly Costs are Always Actual  
  The concept of work in progress (WIP) does not apply in assembly order posting. Assembly costs are only posted as actual cost, never as expected cost. For more information, see [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md).  
@@ -96,8 +96,8 @@ In addition, posting group fields on the assembly order header and assembly orde
 
 |Entity|Type|Posting Group|Gen. Prod. Posting Group|  
 |------------|----------|-------------------|------------------------------|  
-|Assembly Order Header|Item|Stock Posting Group|Gen. Prod. Posting Group|  
-|Assembly Order Line|Item|Stock Posting Group|Gen. Prod. Posting Group|  
+|Assembly Order Header|Item|Inventory Posting Group|Gen. Prod. Posting Group|  
+|Assembly Order Line|Item|Inventory Posting Group|Gen. Prod. Posting Group|  
 |Assembly Order Line|Resource||Gen. Prod. Posting Group|  
 
 Accordingly, only actual costs are posted to the general ledger, and no interim accounts are populated from assembly order posting. For more information, see [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)  
@@ -107,13 +107,13 @@ The item ledger entry that results from posting an assemble-to-order sale is fix
 
 Item ledger entries of type Sale that result from posting assemble-to-order quantities are marked with **Yes** in the **Assemble to Order** field.  
 
-Posting sales order lines where a part is stock quantity and another part is assemble-to-order quantity results in separate item ledger entries, one for the stock quantity and one for the assemble-to-order quantity.  
+Posting sales order lines where a part is inventory quantity and another part is assemble-to-order quantity results in separate item ledger entries, one for the inventory quantity and one for the assemble-to-order quantity.  
 
 ## <a name="see-also"></a>See Also  
- [Design Details: Stock Costing](design-details-inventory-costing.md)   
+ [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Works Order Posting](design-details-production-order-posting.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)  
- [Managing Stock Costs](finance-manage-inventory-costs.md)  
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

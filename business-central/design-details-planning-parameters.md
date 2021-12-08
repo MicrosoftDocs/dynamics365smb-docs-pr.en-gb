@@ -26,7 +26,7 @@ The way in which the planning system controls item supply is determined by vario
 |-------------|---------------|  
 |Define if the item is to be planned|Reordering Policy = Blank|  
 |Define when to reorder|Time Bucket<br /><br /> Reorder Point<br /><br /> Safety Lead Time|  
-|Define how much to reorder|Safety Stock Quantity<br /><br /> Reordering Policy:<br /><br /> -   Fixed Reorder Qty. plus Reorder Quantity<br />-   Maximum Qty. plus Maximum Stock<br />-   Order<br />-   Lot-for-Lot|  
+|Define how much to reorder|Safety Stock Quantity<br /><br /> Reordering Policy:<br /><br /> -   Fixed Reorder Qty. plus Reorder Quantity<br />-   Maximum Qty. plus Maximum Inventory<br />-   Order<br />-   Lot-for-Lot|  
 |Optimise when and how much to reorder|Rescheduling Period<br /><br /> Lot Accumulation Period<br /><br /> Dampener Period|  
 |Modify the supply orders|Minimum Order Quantity<br /><br /> Maximum Order Quantity<br /><br /> Order Multiple|  
 |Delimit the planned item|Manufacturing Policy:<br /><br /> -   Make-to-Stock<br />-   Make-to-Order|  
@@ -37,7 +37,7 @@ To include an item/SKU in the planning process, it must have a reordering policy
 ## <a name="define-when-to-reorder"></a>Define When to Reorder  
 Reorder proposals are generally released only when the projected available quantity has fallen to or below a given quantity. This quantity is defined by the reorder point. Otherwise, it will be zero. Zero can be adjusted by entering a safety stock quantity. If the user has defined a safety lead time, it will cause the proposal to be delivered in the period prior to the required due date.  
 
-The **Time Bucket** field is used by reorder point policies (**Fixed Reorder Qty.** and **Maximum Qty.**), where the stock level is checked after each time bucket. The first time bucket begins on the planning starting date.  
+The **Time Bucket** field is used by reorder point policies (**Fixed Reorder Qty.** and **Maximum Qty.**), where the inventory level is checked after each time bucket. The first time bucket begins on the planning starting date.  
 
 > [!NOTE]  
 >  When calculating time buckets, the planning system ignores any working calendars that are defined in the **Base Calendar Code** field in the **Company Information** and **Location Card** pages.  
@@ -51,10 +51,10 @@ If the planning system detects the need to reorder, the selected reordering poli
 
 Independent of the reordering policy, the planning system usually follows this logic:  
 
-1. The quantity of the order proposal is calculated to meet the specified minimum stock level of the item, usually the safety stock quantity. If nothing is specified, the minimum stock level is zero.  
-2. If the projected available stock is below the safety stock quantity, a backward-scheduled supply order is suggested. The order quantity will at least fill the safety stock quantity, and can be increased by gross demand within the time bucket, by the reordering policy, and by the order modifiers.  
-3. If the projected stock is on or below the reorder point (calculated from aggregated changes within the time bucket) and above the safety stock quantity, a forward-scheduled exception order is suggested. Both the gross demand to be met and the reordering policy will determine the order quantity. At minimum, the order quantity will meet the reorder point.  
-4. If there is more gross demand due before the ending date of the forward-scheduled order proposal, and this demand brings the currently calculated projected available stock below the safety stock quantity, the order quantity is increased to make up the deficit. The suggested supply order is then scheduled backward from the due date of the gross demand that would have violated the safety stock quantity.  
+1. The quantity of the order proposal is calculated to meet the specified minimum inventory level of the item, usually the safety stock quantity. If nothing is specified, the minimum inventory level is zero.  
+2. If the projected available inventory is below the safety stock quantity, a backward-scheduled supply order is suggested. The order quantity will at least fill the safety stock quantity, and can be increased by gross demand within the time bucket, by the reordering policy, and by the order modifiers.  
+3. If the projected inventory is on or below the reorder point (calculated from aggregated changes within the time bucket) and above the safety stock quantity, a forward-scheduled exception order is suggested. Both the gross demand to be met and the reordering policy will determine the order quantity. At minimum, the order quantity will meet the reorder point.  
+4. If there is more gross demand due before the ending date of the forward-scheduled order proposal, and this demand brings the currently calculated projected available inventory below the safety stock quantity, the order quantity is increased to make up the deficit. The suggested supply order is then scheduled backward from the due date of the gross demand that would have violated the safety stock quantity.  
 5. If the **Time Bucket** field is not filled in, only the gross demand on the same due date will be added.  
 
      The following reorder period fields also play a role in defining how much to reorder: **Rescheduling Period**, **Lot Accumulation Period**, and **Dampener Period**. For more information, see [Optimise When and How Much to Reorder](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
@@ -64,8 +64,8 @@ The following reordering policies affect the quantity that is being reordered.
 
 |Reordering policy|Description|  
 |-----------------------|---------------------------------------|  
-|**Fixed Reorder Qty.**|At a minimum, the order quantity will be equal to the reorder quantity. It can be increased to meet the demand or the desired stock level. This reordering policy is usually used with a reorder point.|  
-|**Maximum Qty.**|The order quantity will be calculated to meet the maximum stock. If quantity modifiers are used, then maximum stock can be violated. We do not recommend that you use the time bucket together with maximum quantity. The time bucket will usually be overruled. This reordering policy is usually used with a reorder point.|  
+|**Fixed Reorder Qty.**|At a minimum, the order quantity will be equal to the reorder quantity. It can be increased to meet the demand or the desired inventory level. This reordering policy is usually used with a reorder point.|  
+|**Maximum Qty.**|The order quantity will be calculated to meet the maximum inventory. If quantity modifiers are used, then maximum inventory can be violated. We do not recommend that you use the time bucket together with maximum quantity. The time bucket will usually be overruled. This reordering policy is usually used with a reorder point.|  
 |**Order**|The order quantity will be calculated to meet each single demand event and the demand-supply set will remain linked until execution. No planning parameters are considered.|  
 |**Lot-for-Lot**|The quantity is calculated to meet the sum of the demand that comes due in the time bucket.|  
 

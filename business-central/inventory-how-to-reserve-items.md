@@ -1,6 +1,6 @@
 ---
 title: How to Reserve Items | Microsoft Docs
-description: You can reserve items for sales orders, purchase orders, and works orders. You can reserve items on stock or inbound on open document lines.
+description: You can reserve items for sales orders, purchase orders, and works orders. You can reserve items on inventory or inbound on open document lines.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -18,9 +18,9 @@ ms.lasthandoff: 07/08/2021
 ms.locfileid: "6445683"
 ---
 # <a name="reserve-items"></a>Reserve Items
-You can reserve items for sales orders, purchase orders, service orders, assembly orders, and works orders. You can reserve items on stock or inbound on open document or journal lines. You perform the work on the **Reservation** page.
+You can reserve items for sales orders, purchase orders, service orders, assembly orders, and works orders. You can reserve items on inventory or inbound on open document or journal lines. You perform the work on the **Reservation** page.
 
-Each line on the **Reservation** page, which you open to reserve items, displays information about one type of line (sales, purchase, journal) or stock entry. The lines describe how many items are available to be reserved from each type of line or entry.
+Each line on the **Reservation** page, which you open to reserve items, displays information about one type of line (sales, purchase, journal) or inventory entry. The lines describe how many items are available to be reserved from each type of line or entry.
 
 ## <a name="to-reserve-items-for-sales"></a>To reserve items for sales
 The following describes how to reserve items from a sales order. The steps are similar for purchase, service, and assembly orders.  
@@ -94,7 +94,7 @@ The following procedure is based on a sales order.
 8. Choose either the **Auto Reserve** or the **Reserve from Current Line** action to create the reservation on the specific item tracking numbers.
 
 ## <a name="see-also"></a>See Also
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  

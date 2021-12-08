@@ -35,7 +35,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create new account schedules to define financial statements for reporting or for display as charts.|[Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)|
 |Analyse your financial performance by setting up KPIs based on account schedules, which you then publish as web services. The published account-schedule KPIs can be viewed on a web site or imported to Microsoft Excel using OData web services.|[Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
 |Set up analysis views to analyse data using dimensions.|[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)|
-|Create new analysis reports for sales, purchases, and stock, and set up analysis templates.|[Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
+|Create new analysis reports for sales, purchases, and inventory, and set up analysis templates.|[Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
 |Enable global financial reporting by to international accounting organisations with the eXtensible Business Reporting Language standard.|[Create Reports with XBRL](bi-create-reports-with-xbrl.md)|
 |Change the database access intent on reports, pages of the type API, and queries to reduce load and improve performance.|[Manage Database Access Intent](admin-data-access-intent.md)|
 

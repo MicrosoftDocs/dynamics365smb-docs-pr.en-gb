@@ -1,6 +1,6 @@
 ---
 title: Date Calculation for Purchases
-description: The application automatically calculates the date on which you must order an item to have it in stock on a certain date.
+description: The application automatically calculates the date on which you must order an item to have it in inventory on a certain date.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -19,7 +19,7 @@ ms.locfileid: "6321046"
 ---
 # <a name="date-calculation-for-purchases"></a>Date Calculation for Purchases
 
-[!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the date on which you must order an item to have it in stock on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.  
+[!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.  
 
 If you specify a requested receipt date on a purchase order header, then the calculated order date is the date on which the order must be placed to receive the items on the date that you requested. Then, the date on which the items are available for picking is calculated and entered in the **Expected Receipt Date** field.  
 

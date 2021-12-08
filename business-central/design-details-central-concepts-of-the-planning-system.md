@@ -27,7 +27,7 @@ The planner of a company, such as a purchaser or a production planner is presume
 
 The planning system is driven by anticipated and actual customer demand, such as forecast and sales orders. Running the planning calculation will result in the application suggesting specific actions for the user to take concerning possible supply from suppliers, assembly or production departments, or transfers from other warehouses. These suggested actions could be to create new supply orders, such as purchase or works orders. If supply orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
 
-Another goal of the planning system is to ensure that the stock does not grow unnecessarily. If demand decreases, the planning system will suggest that the user postpone, decrease in quantity, or cancel existing supply orders.  
+Another goal of the planning system is to ensure that the inventory does not grow unnecessarily. If demand decreases, the planning system will suggest that the user postpone, decrease in quantity, or cancel existing supply orders.  
 
 MRP and MPS, Calculate Net Change Plan, and Calculate Regenerative Plan are all functions within one code unit that contains the planning logic. However, the supply plan calculation involves different sub systems.  
 
@@ -45,7 +45,7 @@ For more information, see [Design Details: Handling Reordering Policies](design-
 
 To avoid a supply plan that incorporates open orders in the past and suggests potentially impossible actions, the planning system treats all dates before the planning starting date as a frozen zone where the following special rule applies:  
 
-All supply and demand before the starting date of the planning period will be considered a part of stock or shipped.  
+All supply and demand before the starting date of the planning period will be considered a part of inventory or shipped.  
 
 In other words, it assumes that the plan for the past is executed according to the given plan.  
 
@@ -55,7 +55,7 @@ For more information, see [Dealing with Orders Before the Planning Starting Date
 
 Dynamic Order Tracking, with its simultaneous creation of action messages in the planning worksheet, is not a part of the supply planning system in [!INCLUDE[prod_short](includes/prod_short.md)]. This feature links, in real-time, the demand and the quantities that could cover them, whenever a new demand or supply is created or changed.  
 
-For example, if the user enters or changes a sales order, the dynamic order tracking system will instantly search for the appropriate supply to cover the demand. This could be from stock or from an expected supply order (such as a purchase order or a works order). When a supply source is found, the system creates a link between the demand and the supply, and displays it in view-only pages that are accessed from the involved document lines. When appropriate supply cannot be found, the dynamic order tracking system creates action messages in the planning worksheet with supply plan suggestions reflecting the dynamic balancing. Accordingly, the dynamic order tracking system offers a very basic planning system that can be of help both to the planner and other roles in the internal supply chain.  
+For example, if the user enters or changes a sales order, the dynamic order tracking system will instantly search for the appropriate supply to cover the demand. This could be from inventory or from an expected supply order (such as a purchase order or a works order). When a supply source is found, the system creates a link between the demand and the supply, and displays it in view-only pages that are accessed from the involved document lines. When appropriate supply cannot be found, the dynamic order tracking system creates action messages in the planning worksheet with supply plan suggestions reflecting the dynamic balancing. Accordingly, the dynamic order tracking system offers a very basic planning system that can be of help both to the planner and other roles in the internal supply chain.  
 
 Accordingly, Dynamic Order Tracking can be considered a tool that assists the user in assessing whether to accept supply order suggestions. From the supply side, a user can see which demand has created the supply, and from the demand side, which supply should cover the demand.  
 
@@ -71,7 +71,7 @@ At a quick glance, it may be difficult to differentiate between the planning sys
 
 The planning system deals with the entire supply-demand pattern of an item through all levels of the BOM hierarchy along the time line, whereas Dynamic Order Tracking only addresses the situation of the order that activated it. When balancing demand and supply, the planning system creates links in a user-activated batch mode, whereas Dynamic Order Tracking creates the links automatically and on the fly, whenever the user enters a demand or a supply in application, such as a sales order or purchase order.  
 
-Dynamic Order Tracking establishes links between demand and supply when data is entered, on a first-come/first-served basis. This may lead to some disorder in priorities. For example, a sales order entered first, with a due date next month, may be linked to the supply in stock, while the next sales order due tomorrow may cause an action message to create a new purchase order to cover it, as illustrated below.  
+Dynamic Order Tracking establishes links between demand and supply when data is entered, on a first-come/first-served basis. This may lead to some disorder in priorities. For example, a sales order entered first, with a due date next month, may be linked to the supply in inventory, while the next sales order due tomorrow may cause an action message to create a new purchase order to cover it, as illustrated below.  
 
 ![Example of order tracking in supply planning 1.](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Example of order tracking in supply planning 1")  
 
@@ -97,7 +97,7 @@ In a manufacturing environment, the demand for a finished, sellable item will re
 
 The figures illustrate in which sequence the system makes suggestions for supply orders at the top level and, assuming that the user will accept these suggestions, for any lower-level items as well.  
 
-For more information about manufacturing considerations, see [Loading the Stock Profiles](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+For more information about manufacturing considerations, see [Loading the Inventory Profiles](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 #### <a name="optimizing-performance-for-low-level-calculations"></a>Optimising Performance for Low-Level Calculations
 
@@ -163,7 +163,7 @@ For more information about the automatic planning procedures, see [Design Detail
 
 Demand and supply can carry variant codes and location codes that must be respected when the planning system balances demand and supply.  
 
-The system treats variant and location codes as item dimensions on a sales order line, stock ledger entry, and so on. Accordingly, it calculates a plan for each combination of variant and location as if the combination were a separate item number.  
+The system treats variant and location codes as item dimensions on a sales order line, inventory ledger entry, and so on. Accordingly, it calculates a plan for each combination of variant and location as if the combination were a separate item number.  
 
 Instead of calculating any theoretical combination of variant and location, application calculates only those combinations that actually exist in the database.  
 
@@ -187,11 +187,11 @@ For these attributes, the planning system applies the following rules:
 -   Demand with specific attributes can only be fulfilled by supply with matching attributes.  
 -   Supply with specific attributes can also satisfy demand that does not ask specifically for those attributes.  
 
-Accordingly, if a demand for specific attributes cannot be met by stock or projected supplies, the planning system will suggest a new supply order to cover this specific demand with no regard of planning parameters.  
+Accordingly, if a demand for specific attributes cannot be met by inventory or projected supplies, the planning system will suggest a new supply order to cover this specific demand with no regard of planning parameters.  
 
 ### <a name="non-specific-attributes"></a>Non-Specific Attributes
 
-Serial/lot-numbered items without specific item tracking setup may carry serial/lot numbers that do not need to be applied to the exact same serial/lot number, but can be applied to any serial/lot number. This gives the planning system more freedom to match, for example, a serialised demand with a serialised supply, typically in stock.  
+Serial/lot-numbered items without specific item tracking setup may carry serial/lot numbers that do not need to be applied to the exact same serial/lot number, but can be applied to any serial/lot number. This gives the planning system more freedom to match, for example, a serialised demand with a serialised supply, typically in inventory.  
 
 Demand-supply with serial/lot numbers, specific or non-specific, are considered high priority and are therefore exempt from the frozen zone, meaning that they will be part of planning even if they are due before the planning starting date.  
 
@@ -214,15 +214,15 @@ Order-to-order links are applied between demand and supply in four ways:
 
 In these instances, the planning system will only suggest to order the required quantity. Once created, the purchase, production, or assembly order will continue to match the corresponding demand. For example, if a sales order is changed in time or quantity, the planning system will suggest that the corresponding supply order is changed accordingly.  
 
-When order-to-order links exist, the planning system does not involve linked supply or stock in the balancing procedure. It is up to the user to evaluate if the linked supply should be used to cover other or new demand and, in that case, delete the supply order or reserve the linked supply manually.  
+When order-to-order links exist, the planning system does not involve linked supply or inventory in the balancing procedure. It is up to the user to evaluate if the linked supply should be used to cover other or new demand and, in that case, delete the supply order or reserve the linked supply manually.  
 
 Reservations and order tracking links will break if a situation becomes impossible, such as moving the demand to a date earlier than the supply. However, the order-to-order link adapts to any changes in the respective demand or supply and thereby the link is never broken.  
 
 ## <a name="reservations"></a>Reservations
 
-The planning system does not include reserved quantities in the calculation. For example, if a sales order has been totally or partially reserved against the quantity in stock, the reserved quantity in stock cannot be used to cover other demand. The planning system does not include this demand-supply set in its calculation.  
+The planning system does not include reserved quantities in the calculation. For example, if a sales order has been totally or partially reserved against the quantity in inventory, the reserved quantity in inventory cannot be used to cover other demand. The planning system does not include this demand-supply set in its calculation.  
 
-However, the planning system will still include reserved quantities in the projected stock profile because all quantities must be considered when determining both when the reorder point has been passed and how many to reorder to reach and not exceed the maximum stock level. Consequently, unnecessary reservations will lead to increased risks that stock levels run low because the planning logic does not detect reserved quantities.  
+However, the planning system will still include reserved quantities in the projected inventory profile because all quantities must be considered when determining both when the reorder point has been passed and how many to reorder to reach and not exceed the maximum inventory level. Consequently, unnecessary reservations will lead to increased risks that inventory levels run low because the planning logic does not detect reserved quantities.  
 
 The following illustration shows how reservations can hinder the most feasible plan.  
 
@@ -248,20 +248,20 @@ The warning information is shown on the **Untracked Planning Elements** page, wh
 
 The emergency warning is displayed in two situations:  
 
--   When the stock is negative on the planning starting date.  
+-   When the inventory is negative on the planning starting date.  
 -   When back-dated supply or demand events exist.  
 
-If an item’s stock is negative on the planning starting date, the planning system suggests an emergency supply for the negative quantity to arrive on the planning starting date. The warning text states the starting date and the quantity of the emergency order. For more information, see [Handling Projected Negative Stock](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
+If an item’s inventory is negative on the planning starting date, the planning system suggests an emergency supply for the negative quantity to arrive on the planning starting date. The warning text states the starting date and the quantity of the emergency order. For more information, see [Handling Projected Negative Inventory](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
 Any document lines with due dates before the planning starting date are consolidated into one emergency supply order for the item to arrive on the planning starting date.  
 
 ### <a name="exception"></a>Exception
 
-The exception warning is displayed if the projected available stock drops below the safety stock quantity. The planning system will suggest a supply order to meet the demand on its due date. The warning text states the item’s safety stock quantity and the date on which it is violated.  
+The exception warning is displayed if the projected available inventory drops below the safety stock quantity. The planning system will suggest a supply order to meet the demand on its due date. The warning text states the item’s safety stock quantity and the date on which it is violated.  
 
 Violating the safety stock level is considered an exception because it should not occur if the reorder point has been set correctly. For more information, see [The Role of the Reorder Point](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
-In general, exceptional order proposals ensure that the projected available stock is never lower than the safety stock level. This means that the proposed quantity is just enough to cover the safety stock, without considering planning parameters. However, in some scenarios, order modifiers will be considered.  
+In general, exceptional order proposals ensure that the projected available inventory is never lower than the safety stock level. This means that the proposed quantity is just enough to cover the safety stock, without considering planning parameters. However, in some scenarios, order modifiers will be considered.  
 
 > [!NOTE]  
 >  The planning system may have consumed the safety stock intentionally and will then replenish it straight away. For more information, see [Safety Stock May Be Consumed](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
@@ -272,7 +272,7 @@ The attention warning is displayed in three situations:
 
 -   The planning starting date is earlier than the work date.  
 -   The planning line suggests changing a released purchase or works order.  
--   The projected stock exceeds the overflow level on the due date. For more information, see [Staying under the Overflow Level](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
+-   The projected inventory exceeds the overflow level on the due date. For more information, see [Staying under the Overflow Level](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
 
 > [!NOTE]  
 >  In planning lines with warnings, the **Accept Action Message** field is not selected, because the planner is expected to further investigate these lines before carrying out the plan.  

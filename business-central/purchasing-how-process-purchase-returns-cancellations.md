@@ -34,8 +34,8 @@ In addition to the original posted purchase invoice, you can apply the purchase 
 
 The credit memo posting will also revert any item charges that were assigned to the posted document, so that the item's value entries are the same as before the item charge was assigned.
 
-## <a name="inventory-costing"></a>Stock Costing
-To preserve correct stock valuation, you typically want to pick return items from stock at the unit cost that they were purchased at, not at their current unit cost. This is referred to as exact cost reversing.
+## <a name="inventory-costing"></a>Inventory Costing
+To preserve correct inventory valuation, you typically want to pick return items from inventory at the unit cost that they were purchased at, not at their current unit cost. This is referred to as exact cost reversing.
 
 Two functions exist to assign exact cost reversing automatically.  
 
@@ -46,7 +46,7 @@ Two functions exist to assign exact cost reversing automatically.
 
 To assign exact cost reversing manually, you must choose the **Appl.-from Item Entry** field on any type of return document line, and then select the number of the original purchase entry. This links the purchase credit memo or purchase return order to the original purchase sales entry and ensures that the item is valued at the original unit cost.
 
-For more information, see [Design Details: Stock Costing](design-details-inventory-costing.md).
+For more information, see [Design Details: Inventory Costing](design-details-inventory-costing.md).
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>To create a purchase credit memo from a posted purchase invoice
 
@@ -124,7 +124,7 @@ The purchase credit memo is removed and replaced with a new document in the list
      When you copy from a posted invoice or posted credit memo, application copies any relevant invoice discounts and line discounts as valid at the time of posting that document from the posted document line to the new document line. Be aware, however, that if the **Calc. Inv. Discount** option is activated on the **Purchases & Payables Setup** page, then the invoice discount will be newly calculated when you post the new document line. The line amount for the new line may therefore be different than the line amount for the posted document line, depending on the new calculation of the invoice discount.  
 
     > [!NOTE]  
-    >  If part of the quantity of the posted document line has already been reversed or sold or consumed, a line is created for only the quantity that remains in stock or that has not been returned. If the full quantity of the posted document line has already been reversed, a new document line is not created.  
+    >  If part of the quantity of the posted document line has already been reversed or sold or consumed, a line is created for only the quantity that remains in inventory or that has not been returned. If the full quantity of the posted document line has already been reversed, a new document line is not created.  
     >
     >  If the flow of goods in the posted document is the same as the flow of goods in the new document, a copy of the original posted document line in the new document is created. The **Appl.-from Item Entry** field is not filled in because, in this case, exact cost reversing is not possible. For example, if you use the **Get Posted Document Lines to Reverse** function to get a posted purchase credit memo line for a new purchase credit memo, only the original posted credit memo line is copied to the new credit memo.  
 
@@ -157,7 +157,7 @@ You can post this reduced purchase cost as an item charge on a credit memo or re
 7. In the **Direct Unit Cost** field, enter the amount of the purchase allowance.  
 8. Assign the purchase allowance as an item charge to the items in the posted receipt. For more information, see [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md). When you have assigned the allowance, return to the **Purchase Credit Memo** page.
 
-When you post the purchase return order, the purchase allowance is added to the relevant purchase entry amount. In this way, you can maintain accurate stock valuation.  
+When you post the purchase return order, the purchase allowance is added to the relevant purchase entry amount. In this way, you can maintain accurate inventory valuation.  
 
 ## <a name="to-combine-return-shipments"></a>To combine return shipments
 

@@ -174,7 +174,7 @@ If you want to bulk update item prices, such as increase all item prices by some
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Worksheet**, and then choose the related link.  
 2. Choose the **Suggest Item Price on Wksh.** action.  
-3. On the **Item** FastTab, fill in the **No.** or **Stock Posting Group** or other fields with the original item prices you want to update.  
+3. On the **Item** FastTab, fill in the **No.** or **Inventory Posting Group** or other fields with the original item prices you want to update.  
 4. In the top section of the request page, fill in the **Sales Type** and **Sales Code** with the type and name you want the sales prices copied to.
 5. If you want the batch job to automatically adjust suggested item prices, enter adjustment in **Adjustment Factor** field. For example, you would enter 1.15 in **Adjustment Factor** for 15% increase in item price.  
 6. If you want the batch job to create new prices, select the **Create New Prices** field.  

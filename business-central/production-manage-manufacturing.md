@@ -23,7 +23,7 @@ ms.locfileid: "6321198"
 
 When demand is planned for and the materials have been issued according to production BOMs, then the actual production operations can start and be executed in the sequence defined by the works order routing.  
 
-An important part of executing production, from a system point of view, is to post production output to the database to report progress and to update stock with the finished items. Output posting can be done manually, by filling and posting journal lines after production operations. Or, it can be done automatically with the use of backward flushing. In that case material consumption is automatically posted along with output when the works order changes to finished.  
+An important part of executing production, from a system point of view, is to post production output to the database to report progress and to update inventory with the finished items. Output posting can be done manually, by filling and posting journal lines after production operations. Or, it can be done automatically with the use of backward flushing. In that case material consumption is automatically posted along with output when the works order changes to finished.  
 
 As an alternative to the batch journal for output posting for multiple works orders, you can use the **Production Journal** page to post consumption and/or output for one works order line.
 
@@ -48,7 +48,7 @@ The following table describes a sequence of tasks, with links to the topics that
 ## <a name="see-also"></a>See Also  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)      
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

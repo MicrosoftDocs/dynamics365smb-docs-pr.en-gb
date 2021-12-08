@@ -26,7 +26,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], the inbound processes for rec
 |Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
 |A|Post receipt and put-away from the order line|X|||2|  
-|B|Post receipt and put-away from an stock put-away document|||X|3|  
+|B|Post receipt and put-away from an inventory put-away document|||X|3|  
 |C|Post receipt and put-away from a warehouse receipt document||X||4/5/6|  
 |D|Post receipt from a warehouse receipt document and post put-away from a warehouse put-away document||X|X|4/5/6|  
 
@@ -35,20 +35,20 @@ For more information, see [Design Details: Inbound Warehouse Flow](design-detail
 The following walkthrough demonstrates method B in the previous table.  
 
 ## <a name="about-this-walkthrough"></a>About This Walkthrough  
-In basic warehouse configurations where your location is set up to require put-away processing but not receive processing, you use the **Stock Put-away** page to record and post put-away and receipt information for your inbound source documents. The inbound source document can be a purchase order, sales return order, inbound transfer order, or works order with output that is ready to be put away.
+In basic warehouse configurations where your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** page to record and post put-away and receipt information for your inbound source documents. The inbound source document can be a purchase order, sales return order, inbound transfer order, or works order with output that is ready to be put away.
 
 > [!NOTE]
 > Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.  
 
 This walkthrough demonstrates the following tasks.  
 
--   Setting up SILVER location for stock put aways.  
+-   Setting up SILVER location for inventory put aways.  
 -   Setting up SILVER location for bin handling.  
 -   Defining a default bin for item LS-81. (LS-75 is already set up in CRONUS.)  
 -   Creating a purchase order for supplier 10000 for 40 loudspeakers.  
 -   Verifying that the put-away bins are preset by setup.  
 -   Releasing the purchase order for warehouse handling.  
--   Creating an stock put-away based on a released source document.  
+-   Creating an inventory put-away based on a released source document.  
 -   Verifying that the put-away bins are inherited from the purchase order.  
 -   Registering the warehouse movement into the warehouse and at the same time posting the purchase receipt for the source purchase order.  
 
@@ -74,7 +74,7 @@ To complete this walkthrough, you will need:
     4.  Select the **Default** field.  
 
 ## <a name="story"></a>Story  
-Ellen, the warehouse manager at CRONUS International Ltd., creates a purchase order for 10 units of item LS-75 and 30 units of item LS-81 from supplier 10000 to be delivered to SILVER Warehouse. When the delivery arrives at the warehouse, John, the warehouse worker, puts the items away in default bins defined for the items. When John posts the put-away, the items are posted as received into stock and available for sale or other demand.  
+Ellen, the warehouse manager at CRONUS International Ltd., creates a purchase order for 10 units of item LS-75 and 30 units of item LS-81 from supplier 10000 to be delivered to SILVER Warehouse. When the delivery arrives at the warehouse, John, the warehouse worker, puts the items away in default bins defined for the items. When John posts the put-away, the items are posted as received into inventory and available for sale or other demand.  
 
 ## <a name="setting-up-the-location"></a>Setting up the Location  
  The setup of the **Location Card** page defines the company's warehouse flows.  
@@ -120,11 +120,11 @@ Purchase orders are the most common type of inbound source document.
     The delivery of loudspeakers from supplier 10000 has arrived at SILVER warehouse, and John proceeds to put them away.  
 
 ## <a name="receiving-and-putting-the-items-away"></a>Receiving and Putting the Items Away  
-On the **Stock Put-away** page, you can manage all inbound warehouse activities for a specific source document, such as a purchase order.  
+On the **Inventory Put-away** page, you can manage all inbound warehouse activities for a specific source document, such as a purchase order.  
 
 ### <a name="to-receive-and-put-the-items-away"></a>To receive and put the items away  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stock Put-aways**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-aways**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Select the **Source Document** field, and then select **Purchase Order**.  
 4.  Select the **Source No.** field, select the line for the purchase from supplier 10000, and then choose the **OK** button.  
@@ -133,14 +133,14 @@ On the **Stock Put-away** page, you can manage all inbound warehouse activities 
 
 5.  Choose the **Autofill Qty. to Handle** action.  
 
-    Alternatively, in the **Qty. to Handle** field, enter 10 and 30 respectively on the two stock put-away lines.  
+    Alternatively, in the **Qty. to Handle** field, enter 10 and 30 respectively on the two inventory put-away lines.  
 
 6.  Choose the **Post** action, select the **Receive** action, and then choose the **OK** button.  
 
     The 40 loudspeakers are now registered as put away in bin S-01-0001, and a positive item ledger entry is created reflecting the posted purchase receipt.  
 
 ## <a name="see-also"></a>See Also  
- [Put Items Away with Stock Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)   
+ [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)   
  [Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
  [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
  [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md)   

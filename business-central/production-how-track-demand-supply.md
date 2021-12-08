@@ -45,7 +45,7 @@ The page contains entries which account for an untracked surplus quantity in ord
 - Blanket orders
 - Safety stock quantity
 - Reorder point
-- Maximum stock
+- Maximum inventory
 - Reorder quantity
 - Maximum order quantity
 - Minimum order quantity
@@ -56,7 +56,7 @@ The page contains entries which account for an untracked surplus quantity in ord
 [Planning](production-planning.md)   
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Design Details: Reservation, Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)   

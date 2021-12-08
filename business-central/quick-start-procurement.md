@@ -59,7 +59,7 @@ The following video shows you how to create a purchase order in [!INCLUDE[prod_s
 
     You are now ready to fill in the purchase order lines with items or resources that you have purchased from the supplier.
 
-5. On the **Lines** FastTab, in the **Item No.** field, enter the number of an stock item or service.
+5. On the **Lines** FastTab, in the **Item No.** field, enter the number of an inventory item or service.
 
 6. In the **Quantity** field, enter the number of items to be purchased.
 
@@ -87,7 +87,7 @@ You create a purchase invoice to record the cost of purchases and to track purch
 
     You are now ready to fill in the purchase invoice lines with items or resources that you have purchased from the supplier.
 
-5. On the **Lines** FastTab, in the **Item No.** field, enter the number of an stock item or service.
+5. On the **Lines** FastTab, in the **Item No.** field, enter the number of an inventory item or service.
 6. In the **Quantity** field, enter the number of items to be purchased.
 
     The **Line Amount** field is updated to show the value in the **Direct Unit Cost** field multiplied by the value in the **Quantity** field.
@@ -96,7 +96,7 @@ You create a purchase invoice to record the cost of purchases and to track purch
 
 8. When you receive the purchased items or services, choose **Post**.
 
-The purchase is now reflected in stock, resource ledgers, and financial records, and the supplier payment is activated. The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.  
+The purchase is now reflected in inventory, resource ledgers, and financial records, and the supplier payment is activated. The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.  
 
 For more information and additional things you can do when creating a purchase invoice, see [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md).
 
