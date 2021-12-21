@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 04/01/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
-ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.openlocfilehash: 997e9e9d26ccb2beaafcb9e3e6cdf8fb467652ef
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7643937"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920962"
 ---
 # <a name="acquire-fixed-assets"></a>Acquire Fixed Assets
 For each fixed asset, you must set up a card containing information about the asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. A depreciation book must be set up and assigned to each fixed asset before you can acquire it.
@@ -78,14 +78,14 @@ If you make an error when posting an acquisition cost, you can remove the entry 
 For example, if you post an acquisition with the wrong date, you must correct it as soon as possible because the fixed asset posting date is used for many calculations.
 
 > [!IMPORTANT]  
->   You cannot use the **Reverse Transactions** function for fixed asset entries.
+> You cannot use the **Reverse Transactions** function for fixed asset entries.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cancel FA Entries**, and then choose the related link.
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Choose the **OK** button to run the batch job.
-4. When the incorrect entry or entries are cancelled, proceed to post the correct acquisition cost.
-
-To cancel ledger entries for multiple fixed assets at a time, use the **Cancel FA Ledger Entries** batch job.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Ledger Entries**, and then choose the related link.  
+2. In the **FA Ledger Entries** page, select the entry or entries that you want to cancel.  
+3. Choose the **Actions** menu, and then choose the **Cancel Entries** action.
+4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Choose the **OK** button to run the batch job.
+6. When the incorrect entry or entries are cancelled, proceed to post the correct acquisition cost.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>To post the salvage value together with the acquisition cost
 You can post the salvage value together with the acquisition cost from a fixed asset journal.

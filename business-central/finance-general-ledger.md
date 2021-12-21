@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/16/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2e939ef134fbe008268d190d601c70694d81297c
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 183aa0cee83c826d51f582faead9d3a53b02ce71
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588633"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889801"
 ---
-# <a name="understanding-the-general-ledger-and-the-coa"></a>Understanding the General Ledger and the COA
+# <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Understanding the General Ledger and the Chart of Accounts
 
 The general ledger stores your financial data, and the chart of accounts shows the accounts that all general ledger entries are posted to. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard chart of accounts that is ready to support your business.
 
@@ -31,10 +31,13 @@ On the **General Ledger Setup** page, you specify how to handle certain accounti
 * Address formats  
 * Financial reporting  
 
-Similarly, on the **General Posting Setup** page, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, suppliers, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. For more information, see [Posting Group Setups](finance-posting-groups.md).  
-
 > [!TIP]
 > The **General Ledger Setup** page includes generic fields and fields that are particular to your country or region. If you are not sure of the meaning of a field, we suggest you work with your accountant to determine whether it is of relevance to your organisation.  
+
+Similarly, on the **General Posting Setup** page, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, suppliers, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. But you can also open each line in its own posting setup card. For more information, see [Posting Group Setups](finance-posting-groups.md).  
+
+> [!TIP]
+> If you cannot see the fields that you are looking for in the **General Posting Setup** page, then use the horizontal scroll bar at the bottom of the page to scroll to the right.  
 
 ## <a name="the-chart-of-accounts"></a>The Chart of Accounts
 

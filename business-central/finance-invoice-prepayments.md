@@ -1,29 +1,34 @@
 ---
 title: Invoice Prepayments
 description: Learn how to use prepayments to invoice and collect deposits from customers and remit deposits to suppliers in Business Central.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/29/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 57326180b6adca053896b3e4da3362f2f6b3e310
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3c919a5d63e4468b7f3182afe04890c6733d0cad
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322536"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889901"
 ---
 # <a name="invoicing-prepayments"></a>Invoicing Prepayments
 
-Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You might require a deposit before you manufacture items to order, or you might require payment before you ship items to a customer. The prepayments functionality enables you to invoice and collect deposits required from customers and remit deposits to suppliers. Thus, you can ensure that all payments are posted against an invoice.  
+[!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
- Prepayment requirements can be defined for a customer or supplier for all items or selected items. After you complete the required setup, you can generate prepayment invoices from sales and purchase orders for the calculated prepayment amount. You can change the amounts on the invoice as needed. For example, you can specify a total amount for the entire order. You can also send additional prepayment invoices if, for example, additional items are added to the order. You can increase quantities or add new lines to an order after issuing a prepayment, and then you can post another prepayment invoice. If you want to delete a line for which a prepayment has already been invoiced, you must issue a prepayment credit memo before you can delete the line.  
+[!INCLUDE [prepayment_req](includes/prepayment_req.md)]
 
- The following table describes a sequence of tasks, with links to the topics that describe them.
+For example, you can specify a total amount for the entire order, or you can distribute the prepayment across each line on the order. You can also send additional prepayment invoices if, for example, additional items are added to the order. You can increase quantities or add new lines to an order after issuing a prepayment, and then you can post another prepayment invoice.  
+
+> [!NOTE]
+> If you want to delete a line for which a prepayment has already been invoiced, you must issue a prepayment credit memo before you can delete the line.
+
+The following table describes a sequence of tasks, with links to the topics that describe them.
 
 |**To**|**See**|  
 |------------|-------------|  

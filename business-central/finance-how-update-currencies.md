@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 44dd13f986098283d29e58d3e8c4ce0218b4a083
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660188"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921065"
 ---
 # <a name="update-currency-exchange-rates"></a>Update Currency Exchange Rates
 
@@ -174,7 +174,10 @@ The adjustment entries are assigned the default dimensions from the accounts the
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>To set up a currency exchange rate service
-You can use an external service to keep your currency exchange rates up to date, such as FloatRates.
+You can use an external service to keep your currency exchange rates up to date, such as FloatRates. 
+
+> [!NOTE]
+> Most exchange rate services provide data that is compatible with the import process in [!INCLUDE[prod_short](includes/prod_short.md)]. However, sometimes the data is formatted differently and you will need to customise your import process. You can use the data exchange framework to do that by adding your own codeunit. You'll probably need some help from a developer to do that. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
 2. Choose the **New** action.

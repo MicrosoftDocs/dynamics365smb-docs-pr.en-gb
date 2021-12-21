@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: d0cea6be92becb3d44507687954f59fcdc6d5de3
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e62a4709b493d44487d189dfd9ec5b76bc6987b8
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446172"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921027"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Set Up Calculations and Posting Methods for Value-Added Tax
 
@@ -31,7 +31,10 @@ You can set up VAT calculations manually, but that can be tricky and time consum
 > [!NOTE]  
 > You can use the guide only if you have created a My Company, and have not posted transactions that include VAT. Otherwise, it would be very easy to use different VAT rates by mistake, and make VAT-related reports inaccurate.  
 
-If you want to set up VAT calculations yourself, or just want to learn about each step, this topic contains descriptions of each step.
+If you want to set up VAT calculations yourself, or just want to learn about each step, this topic contains descriptions of each step.  
+
+> [!TIP]
+> [!INCLUDE [prod_short](includes/prod_short.md)] is available in countries that do not use VAT. For information about how to set up and report tax in your particular country, see the articles in the [Local functionality in Business Central](about-localization.md) section.  
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>To use the VAT Setup assisted setup guide to set up VAT (recommended)
 

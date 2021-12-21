@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: f1000be46bebe766e8f3dd060f44b98a775c1356
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701572"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889843"
 ---
 # <a name="create-prepayment-invoices"></a>Create Prepayment Invoices
 
@@ -47,6 +47,9 @@ The following procedure describes how to invoice a prepayment for a sales order.
 
     If you have specified a default prepayment percentage either for the customer or on the **Prepayment** FastTab on this document, this value is copied to each line. You can change the contents of the **Prepayment %** field on the line.  
 
+    > [!TIP]
+    > If you do not see the **Prepayment %** field, you can add it through personalisation.  For more information, see [Personalise Your Workspace](ui-personalization-user.md).
+
 4. To view the total prepayment amount, choose the **Statistics** action.
 
     If you want to adjust the total prepayment amount for the order, you can change the contents of the **Prepayment Amount** field on the **Sales Order Statistics** page.  
@@ -72,7 +75,8 @@ You can issue additional prepayment invoices for the order. To do this, increase
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Personalise Your Workspace](ui-personalization-user.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

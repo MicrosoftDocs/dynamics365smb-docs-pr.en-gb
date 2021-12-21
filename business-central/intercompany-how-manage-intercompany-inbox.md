@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 309d41995ae88332808e363f8a6838a40ee6a679
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: acc6427342122589fca6f2cad08baa00210a261e
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445708"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921034"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Manage the Intercompany Inbox and Outbox
 All of the intercompany transactions that you receive electronically from your intercompany partners are listed in the intercompany Inbox.  
@@ -51,7 +51,7 @@ You can use the **Show Transaction Source** field to filter the **Intercompany I
 
  > [!NOTE]  
  > If the intercompany partners are in the same database, then transactions are transferred without the need for file or email. See the **Transfer Type** field on the **Intercompany Partner** page. <br /><br />
-In that case, you can set the system up to bypass the inbox and outbox by selecting the **Auto. Accept Transactions** check box on the **Intercompany Partner** page and the **Auto. Send Transactions** check box on the **Intercompany Setup** page respectively.
+In that case, you can set the system up to bypass the inbox and outbox by selecting the **Auto. Accept Transactions** check box on the **Intercompany Partner** page and the **Auto. Send Transactions** check box on the **Intercompany Setup** page respectively. Incoming intercompany transactions can be automatically accepted only if task scheduler is enabled. For more information, see [Configure Business Central Server - Task Scheduler Settings](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>To import intercompany transactions from a file  
 If you have an intercompany partner that is not in the same database as your company, you can receive intercompany transactions from that partner in an .xml file. Then you must import the transactions into your inbox.  
