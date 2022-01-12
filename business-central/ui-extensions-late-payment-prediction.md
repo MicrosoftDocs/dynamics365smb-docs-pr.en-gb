@@ -1,6 +1,6 @@
 ---
 title: Predict Late Payments for Sales Documents
-description: This topic expalains how to use our predictive model to predict whether an invoice will be paid on time.
+description: This topic explains how to use our predictive model to predict whether an invoice will be paid on time.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 06/23/2021
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dd943c5ad9464b9ebd1629c5dbc8a3f5545e9d9c
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434915"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940833"
 ---
-# <a name="the-late-payment-prediction-extension"></a>The Late Payment Prediction Extension  
+# <a name="the-late-payment-prediction-extension"></a>The Late Payment Prediction Extension
+
 Effectively managing receivables is important to the overall financial health of a business. The Late Payment Prediction extension can help you reduce outstanding receivables and fine-tune your collections strategy by predicting whether sales invoices will be paid on time. For example, if a payment is predicted to be late, you might decide to adjust the terms of payment or the payment method for the customer.
 
 ## <a name="getting-started"></a>Getting Started
@@ -107,10 +108,13 @@ You can also create your own predictive web service based on a public model name
 7. Choose the **Use My Azure Subscription** check box.
 8. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  .  
 
-## <a name="see-also"></a>See Also  
+## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+
+## <a name="see-also"></a>See Also
+
 [Azure Machine Learning Studio Documentation](/azure/machine-learning/classic/)  
 [Customising Business Central Using Extensions](ui-extensions.md)  
 [Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-
+[Use Artificial Intelligence in Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

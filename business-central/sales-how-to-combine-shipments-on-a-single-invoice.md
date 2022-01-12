@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1465ce4baadec43d28731dab50870af3c10bd77e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e111c08dc9251898ccecff4e65f768984b123c15
+ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442732"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7929587"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Combine Shipments on a Single Invoice
 If you want to invoice more than one shipment at a time, you can use the combined shipments feature.  
@@ -34,6 +34,9 @@ Before you can create a combined shipment, more than one sales shipment for the 
 
     If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.  
 7. To post the invoice, choose the **Post** action.  
+
+> [!TIP]  
+> If you have shipped orders where the **Sell-to Customer No.** is different from the **Bill-to Customer No.**, those lines are not displayed in the **Get Shipment Lines** report. Use personalisation to add the **Sell-to Customer** field to the page and remove the filter. Now you can add shipment lines to the invoice regardless of the value in the **Sell-to Customer No.** field, as long as the **Bill-to Customer No.** field on the shipment lines matches the value on the sales invoice.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>To automatically combine shipments on a single invoice  
 [!INCLUDE[prod_short](includes/prod_short.md)] will select only sales orders where **Combine Shipments** is chosen. 

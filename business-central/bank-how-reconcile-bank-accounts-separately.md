@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: faf13d81c24c2b7ea566f90411b302579c4003ee
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 54e989182a8d6612e6bb2c95eda327fd21cae0d8
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587816"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949030"
 ---
 # <a name="reconcile-bank-accounts"></a>Reconcile Bank Accounts
 
@@ -36,7 +36,7 @@ Reconciling bank transactions with internal bank entries is referred to as *matc
 > [!NOTE]  
 > If bank statement lines relate to cheque ledger entries, you cannot use the matching functions. Instead, you must choose the **Apply Entries** action, and then select the relevant cheque ledger entry to match the bank statement line with.
 
-When the value in the **Total Balance** field in the **Bank Statement Lines** pane equals the value in the **Balance To Reconcile** field in the **Bank Account Ledger Entries** pane, you can choose the **Post** action. Any non-matched bank account ledger entries will remain on the page, indicating some discrepancy that you should resolve to reconcile the bank account.
+When the value in the **Total Balance** field in the **Bank Statement Lines** pane equals the total value of the **Balance To Reconcile** field plus the **Balance Last Statement** field in the **Bank Account Ledger Entries** pane, you can choose the **Post** action. Unmatched bank account ledger entries remain on the page, indicating discrepancies that you should resolve to reconcile the bank account.
 
 Any lines that cannot be matched, indicated by a value in the **Difference** field, will remain on the **Bank Acc. Reconciliation** page after posting. They represent some kind of discrepancy that you must resolve before you can complete the bank account reconciliation. Typical business situations that may cause differences:
 

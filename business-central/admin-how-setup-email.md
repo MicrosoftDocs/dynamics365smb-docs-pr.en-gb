@@ -1,5 +1,5 @@
 ---
-title: Set up email in Business Central
+title: Set up email in Business Central (contains video)
 description: Describes how to connect email accounts to Business Central so that you can send outbound messages without having to open another app.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 791033d9b4077ad6e3bf37ab04956113183b5f2b
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: ce8856f250e4098256e9ac2b9959ec6900aaaadc
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440511"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940433"
 ---
 # <a name="set-up-email"></a>Set Up Email
 People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can make that easier to do by connecting one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], so you can send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colours, and so on, and add attachments of up to 100MB. Administrators can also set up report layouts that include only the key information from documents. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).

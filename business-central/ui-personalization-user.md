@@ -1,5 +1,5 @@
 ---
-title: Personalising Pages
+title: Personalising Pages (contains video)
 description: Learn how to customise the user interface and personalise your workspace to suit your way of working and personal preferences in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: dbcf9f396c3f92093241a17cb6a358580f015cbe
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cd25d18787f8f28b01974e59580f7e83425e54bf
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442682"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940283"
 ---
 # <a name="personalize-your-workspace"></a>Personalise Your Workspace
 You can personalise your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalisation changes that you make will only affect what you see, not what other users see.

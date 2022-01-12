@@ -1,5 +1,5 @@
 ---
-title: Assign a Priority Level to a Supplier | Microsoft Docs
+title: Assign a Priority Level to a Vendor (contains video) | Microsoft Docs
 description: You can assign numbers to your suppliers or suppliers to prioritise them and facilitate payment suggestions in Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d83fe736298e4cae3b6b86a495e0567057df2cc5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7e68c56422f4f3de33006297ec396fdd34169e8d
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443301"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940058"
 ---
 # <a name="prioritize-vendors"></a>Prioritise Suppliers
 [!INCLUDE[prod_short](includes/prod_short.md)] can suggest various payments to suppliers, for example, payments that will be due soon or payments where a discount is available. For more information, see [Suggest Supplier Payments](payables-how-suggest-vendor-payments.md).

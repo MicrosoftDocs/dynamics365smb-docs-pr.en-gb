@@ -1,8 +1,6 @@
 ---
 title: Posting Group Setup| Microsoft Docs
 description: Overview of the posting groups you can use to save time and avoid mistakes when you post transactions.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 04/01/2021
+ms.date: 12/17/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: ed369b94948846ca380a3480e79660a6aafe292a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588814"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940758"
 ---
 # <a name="setting-up-posting-groups"></a>Setting Up Posting Groups
 Posting groups map entities such as customers, suppliers, items, resources, and sales and purchase documents to general ledger accounts. They save time and help avoid mistakes when you post transactions. The transaction values go to the accounts specified in the posting group for that particular entity. The only requirement is that you have a chart of accounts. For more information, see [Set Up the Chart of Accounts](finance-setup-chart-accounts.md).  
@@ -74,6 +72,17 @@ Your setup determines when posting happens. For example, the timing is affected 
 
 ## <a name="copying-posting-setup-lines"></a>Copying posting setup lines
 The more product and business posting groups you have, the more lines you see in the General Posting Setup page. This can mean a lot of data entry to set up the general posting setup for the company. While there may be many different combinations of business and product posting groups, different combinations may still post to the same general ledger accounts. To limit the amount of manual entry, copy the general ledger accounts from an existing line on the **General Posting Setup** page.
+
+## <a name="set-up-posting-groups-on-the-go"></a>Set up posting groups on the go
+
+To get users started faster, [!INCLUDE[prod_short](includes/prod_short.md)] offers assistance through notifications of missing G/L accounts in various posting group setups in documents. To get these notifications, make sure that the **G/L Account is missing in posting group or setup** notification is selected in the **My Notifications** page, which you can access from the **Change when I receive notifications** field in the **My Settings** page.  
+
+This way, when you work on a document that uses a posting group or a setup that is missing a required general ledger account, you'll get a notification. Choose the link in the notificationto open a page where you can make the relevant changes, provided you have permission to do so.  
+
+> [!NOTE]
+> In order to take you directly to the posting group or setup that is missing a general ledger account, [!INCLUDE[prod_short](includes/prod_short.md)] will create a placeholder posting group or setup. Posting groups and setups are a way for the accountant to control how entries are posted to the general ledger, so such the just-in-time creation of posting groups and setups might not be allowed in your organisation.  
+> 
+> In that case, disable the **G/L Account is missing in posting group or setup** notification, and then work with your accountant to make the relevant changes to the posting group, setup, or your document. This is an important step, because once documents are posted, any incorrectly used posting groups or setups cannot be deleted because there are general ledger entries created for them. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Troubleshooting posting group errors
 Posting groups are one of the more advanced concepts to set up in [!INCLUDE[prod_short](includes/prod_short.md)]. If they aren't set up correctly, errors can occur when posting documents or journal lines. For example, these errors are typically caused by a mistake in how general ledger accounts are assigned, or how posting groups are combined.

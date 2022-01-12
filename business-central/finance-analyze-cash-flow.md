@@ -1,8 +1,6 @@
 ---
-title: Analysing Cash Flows| Microsoft Docs
+title: Analysing Cash Flows
 description: Describes how to use the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze the past and future flow of money in and out of your company.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 04/01/2021
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: aed1ce045e4dceb2467a901278300e404cd3e32b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4d4cdac7b68e0ec59edfaf88d74cdfb4dde9e3a1
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780914"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940108"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysing Cash Flow in Your Company
 The charts on the Accountant Role Centre provide insights that can help you make solid decisions about what to do with your cash.  
@@ -45,6 +43,7 @@ If you want to examine the forecast, in addition to forecast entries, you can al
 * Skips duplicate sales orders and purchase orders.  
 
 ## <a name="to-view-a-cash-flow-worksheet"></a>To view a cash flow worksheet
+
 1. Search for **Cash Flow Forecasts**, and then choose the related link.  
 2. Choose a cash flow forecast, and then choose the **Cash Flow Worksheet** action.  
 3. On the **Cash Flow Worksheet** page, choose the **Suggest Worksheet Lines** action.  
@@ -52,9 +51,11 @@ If you want to examine the forecast, in addition to forecast entries, you can al
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
+
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
-
+[Forecast your cash flow in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Set up cash flow forecasts using Azure AI in Dynamics 365 Business Central(Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

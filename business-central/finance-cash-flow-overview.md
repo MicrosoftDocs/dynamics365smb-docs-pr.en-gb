@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
-ms.date: 06/08/2021
+ms.date: 12/20/2021
 ms.author: edupont
 ms.reviewer: edupont
-ms.openlocfilehash: 1c506e8d2471e7112b523b05d80e47d6f1700a64
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724819"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940208"
 ---
 # <a name="cash-flow-overview"></a>Cash Flow Overview
 
@@ -26,7 +26,7 @@ Understanding cash inflows and outflows is the key to running a successful busin
 
 The term *cash flow* is used to designate cash receipts minus cash payments over a selected period. It is an estimate of the amount of money that you expect to flow in and out of your business, and it includes all your forecasted income and expenses.
 
-## <a name="cash-flow-overview"></a>Cash Flow Overview
+## <a name="work-with-cash-flow"></a>Work with Cash Flow
 
 The following illustration shows an overview of how you can work with cash flow.
 
@@ -74,7 +74,10 @@ Net cash flow or cash-in-hand is calculated as total receipts minus total disbur
 The forecast can then be used as an internal management decision-making tool that helps you plan ahead and make important strategic decisions about the operation of the business.
 
 ## <a name="see-also"></a>See Also
+
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
-[Analyse Cash Flow](finance-analyze-cash-flow.md)
+[Analyse Cash Flow](finance-analyze-cash-flow.md)  
+[Forecast your cash flow in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Set up cash flow forecasts using Azure AI in Dynamics 365 Business Central(Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

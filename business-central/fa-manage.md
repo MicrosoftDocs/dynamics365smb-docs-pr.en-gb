@@ -1,5 +1,5 @@
 ---
-title: Manage Fixed Assets
+title: Manage Fixed Assets (contains video)
 description: Learn about the fixed assets functionality and get an overview of how to work with and manage your fixed assets.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6d6cf9a0efeca2c484d0fd2e1ce06db63f2ac91f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0022ae0c13009108064d758fdd0d6f4894b12bad
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323234"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940583"
 ---
 # <a name="managing-fixed-assets"></a>Managing Fixed Assets
 The Fixed Assets functionality in [!INCLUDE[prod_short](includes/prod_short.md)] provides an overview of your fixed assets and ensures correct periodic depreciation. It also enables you to keep track of your maintenance costs, manage insurance policies, post fixed asset transactions, and generate various reports and statistics.

@@ -1,5 +1,5 @@
 ---
-title: Set Up Bank Accounts
+title: Set Up Bank Accounts (contains video)
 description: Learn how bank accounts are used in Business Central, and how you can reconcile amounts with your bank.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 00e83bbf8c98a10e5a86f0341794bc125e8609c9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442882"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940608"
 ---
 # <a name="set-up-bank-accounts"></a>Set Up Bank Accounts
 
@@ -84,9 +84,9 @@ The better mapping information that you do in the payment reconciliation journal
 > [!WARNING]
 > Some fields may contain sensitive data, such as the **Bank Sort Code**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code** fields. For more information, see [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts&quot;></a>To set up bank accounts
+## <a name="to-set-up-bank-accounts"></a>To set up bank accounts
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png &quot;Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. On the **Bank Accounts** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

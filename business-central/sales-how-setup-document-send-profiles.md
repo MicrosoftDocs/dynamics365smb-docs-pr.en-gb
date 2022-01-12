@@ -1,5 +1,5 @@
 ---
-title: Set Up Preferred Methods of Sending Sales Documents | Microsoft Docs
+title: Set Up Preferred Methods of Sending Sales Documents (contains video) | Microsoft Docs
 description: Describes how to set up each customer's preferred method of sending sales documents, for example, email, PDF, electronic document, and so on.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b91a1c0566b6fb4736093ca9617a5a1566bf2bf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 676ac7ac1fb9f267221acc50e5b5f812b8460250
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436683"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939884"
 ---
 # <a name="set-up-document-sending-profiles"></a>Set Up Document Sending Profiles
 You can set each customer up with a preferred method of sending sales documents, so that you do not have to select a sending option every time you choose the **Post and Send** action.

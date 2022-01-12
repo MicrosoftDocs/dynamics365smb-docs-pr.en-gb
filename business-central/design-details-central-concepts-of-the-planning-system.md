@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ddf848c3fb4845f802276843dfa6521eca20f896
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3c459ab6c4056b40c5e83db70a0cafab48359a1
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442492"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949101"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Design Details: Central Concepts of the Planning System
 
@@ -87,7 +87,7 @@ For more information, see [Order Tracking Links during Planning](design-details-
 
 When establishing a plan, the sequence of the calculations is important to get the job done within a reasonable timeframe. In addition, the prioritisation of requirements and resources play an important role in obtaining the best results.  
 
-The planning system in [!INCLUDE[prod_short](includes/prod_short.md)] is demand-driven. High-level items should be planned before low-level items, because the plan for high-level items might generate additional demand for the lower-level items. This means, for example, that retail locations should be planned before distribution centres are planned, because the plan for a retail location may include additional demand from the distribution centre. On a detailed balancing level, this also means that a sales order should not trigger a new supply order if an already released supply order is can cover the sales order. Likewise, a supply carrying a specific lot number should not be allocated to cover a generic demand if another demand requires this specific lot.  
+The planning system in [!INCLUDE[prod_short](includes/prod_short.md)] is demand-driven. High-level items should be planned before low-level items, because the plan for high-level items might generate additional demand for the lower-level items. This means, for example, that retail locations should be planned before distribution centres are planned, because the plan for a retail location may include additional demand from the distribution centre. On a detailed balancing level, this also means that a sales order should not trigger a new supply order if an already released supply order can cover the sales order. Likewise, a supply carrying a specific lot number should not be allocated to cover a generic demand if another demand requires this specific lot.  
 
 ### <a name="item-priority--low-level-code"></a>Item Priority / Low-Level Code
 
@@ -122,7 +122,7 @@ For more information, see [Design Details: Transfers in Planning](design-details
 
 ### <a name="order-priority"></a>Order Priority
 
-Within a given SKU, the requested or available date represents the highest priority; the demand of today should be dealt with before the demand of the coming days. But apart from this some kind of priority, the different demand and supply types are sorted according to business importance to decide which demand should be satisfied before satisfying another demand. On the supply side, the order priority will tell what source of supply should be applied before applying other sources of supply.  
+Within a given SKU, the requested or available date represents the highest priority; the demand of today should be dealt with before the demand of the coming days. But apart from this kind of priority, the different demand and supply types are sorted according to business importance to decide which demand should be satisfied before satisfying another demand. On the supply side, the order priority will tell what source of supply should be applied before applying other sources of supply.  
 
 For more information, see [Prioritising Orders](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 

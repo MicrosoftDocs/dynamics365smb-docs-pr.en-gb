@@ -1,5 +1,5 @@
 ---
-title: Finding Features and Information | Microsoft Docs
+title: Finding Features and Information (contains video) | Microsoft Docs
 description: This topic describes how to use search to find actions, pages, reports, documentation, and data, as well as other apps and consulting services.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1e44edeee82214c1d19489da351b3001bfa4fc3e
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440009"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940133"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finding Pages and Information with Tell Me  
 This topic describes how Tell Me can help you quickly go to things like actions, pages, or reports, find information about how to complete a particular task, and discover additional apps and consulting services for [!INCLUDE[prod_short](includes/prod_short.md)].  

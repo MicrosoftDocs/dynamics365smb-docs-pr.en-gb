@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: f814157dc11737074b1a4b1a83545615c2f4c64d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4671954cd059360e4f16db5cb4a4faf3ce01aff4
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442317"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949057"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Design Details: Reservation, Order Tracking, and Action Messaging
 The reservations system is comprehensive and includes the interrelated and parallel features of Order Tracking and Action Messaging.  
@@ -111,7 +111,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 
  This principle implies that a change in demand results in a corresponding imbalance on the supply side of the order network. Conversely, a change in supply results in a corresponding imbalance on the demand side of the order network. In reality, the order network is in a state of constant flux as users enter, amend, and delete orders. Order Tracking processes orders dynamically, reacting to each change at the time that it enters the system and becomes a part of the order network. As soon as new order tracking records are created, the order network is in balance, but only until the next change occurs.  
 
- To increase the transparency of calculations in the planning system, the **Untracking Planning Elements** page displays untracked quantities, which represent the difference in quantity between known demand and suggested supply. Each line on the page refers to the cause of the excess quantity, such as **Blanket Order**, **Safety Stock Level**, **Fixed Reorder Quantity**, **Minimum Order Qty.**, **Rounding**, or **Dampener**.  
+ To increase the transparency of calculations in the planning system, the **Untracked Planning Elements** page displays untracked quantities, which represent the difference in quantity between known demand and suggested supply. Each line on the page refers to the cause of the excess quantity, such as **Blanket Order**, **Safety Stock Level**, **Fixed Reorder Quantity**, **Minimum Order Qty.**, **Rounding**, or **Dampener**.  
 
 ### <a name="offsetting-in-order-tracking"></a>Offsetting in Order Tracking  
  In contrast to reservations, which can only be made against available item quantities, order tracking is possible against all order network entities that are part of  the net requirements calculation of the planning system. The net requirements are calculated as follows:  

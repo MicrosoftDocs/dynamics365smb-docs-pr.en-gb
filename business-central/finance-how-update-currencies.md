@@ -1,5 +1,5 @@
 ---
-title: Update Currency Exchange Rates
+title: Update Currency Exchange Rates (contains video)
 description: Track amounts in different currencies using currency codes, let Business Central help you adjust FX exchange rates of posted entries with an external service.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 44dd13f986098283d29e58d3e8c4ce0218b4a083
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: 24dbc235c45fab4f59f816f22c16b699a3fd61f9
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921065"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939933"
 ---
 # <a name="update-currency-exchange-rates"></a>Update Currency Exchange Rates
 

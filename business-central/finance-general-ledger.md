@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 183aa0cee83c826d51f582faead9d3a53b02ce71
-ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
+ms.openlocfilehash: 2af34c84c7b359d2cae64d19a9aec151e0d9a3bb
+ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7889801"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928816"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Understanding the General Ledger and the Chart of Accounts
 
@@ -45,7 +45,7 @@ The chart of accounts shows all general ledger accounts. From the chart of accou
 
 * View reports that show general ledger entries and balances.  
 * Close your income statement.  
-* Open the G/L account card to add or change settings.  
+* Open the general ledger (G/L) account card to add or change settings.  
 * See a list of posting groups that post to that account.
 * View separate debit and credit balances for a single account  
 
@@ -55,7 +55,7 @@ You can add, change, or delete general ledger accounts. However, to prevent disc
 
 You can personalise the structure of your financial statements by mapping general ledger accounts to account categories.  
 
-The **G/L Account Categories** page shows your categories and subcategories, and the G/L accounts that are assigned to them. You can create new subcategories and assign those categories to existing accounts.  
+The **G/L Account Categories** page shows your categories and subcategories, and the general ledger accounts that are assigned to them. You can create new subcategories and assign those categories to existing accounts.  
 
 You create a category group by indenting other subcategories under a line on the **G/L Account Categories** page. This makes it easy for you to get an overview, because each grouping shows a total balance. For example, you can create subcategories for different types of assets, and then create category groups for fixed assets versus current assets.  
 
