@@ -1,21 +1,15 @@
 ---
 title: General Journal Post Line Overview
-description: This topic introduces changes to Codeunit 12, Gen. Jnl.-Post Line, and is the only place to insert general ledger, VAT, and customer and supplier ledger entries.
+description: 'This topic introduces changes to Codeunit 12, Gen. Jnl.-Post Line, and is the only place to insert general ledger, VAT, and customer and supplier ledger entries.'
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, general ledger, post
+ms.search.keywords: 'design, general ledger, post'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9642c33d9d5994c6982029e4ae96897a7648b8c8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322479"
 ---
 # <a name="general-journal-post-line-overview"></a>General Journal Post Line Overview
 

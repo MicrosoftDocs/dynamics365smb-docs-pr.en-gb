@@ -4,15 +4,10 @@ description: Learn how to manage user profiles and Role Centres in Business Cent
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: profiles, users
+ms.search.keywords: 'profiles, users'
+ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443136"
 ---
 # <a name="manage-user-profiles"></a>Manage User Profiles
 
@@ -29,11 +24,15 @@ Before you can administrate users' profiles, the users must be created and added
 You can customise page layouts for a profile so that all users assigned the profile will see the customised pages. As an administrator, you customise pages by using the same functionality as users do when they personalise. For more information, see [Customise Pages for Profiles](ui-personalization-manage.md).
 
 ## <a name="to-create-a-profile"></a>To create a profile
+
 If you cannot copy an existing profile, you can create a new one manually.
 
 1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)**, and then choose the related link.  
 2. On the **Profiles (Roles)** page, choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]
+> If you want a particular profile to be available only for very specific users, you can set the **Description** field to `Navigation menu only.`. This way, the profile is excluded from the list of available roles in **My Settings**.
 
 ## <a name="to-copy-a-profile"></a>To copy a profile
 To save time, you can create a new profile by copying an existing one. Copy one that has similar settings to the one you want to create.

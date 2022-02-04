@@ -3,19 +3,13 @@ title: Overview of Tasks to Manage Receivables
 description: This topic outlines tasks to manage receivables and apply payments to customer or supplier ledger entries.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customer payment, debtor, balance due, AR
+ms.search.keywords: 'customer payment, debtor, balance due, AR'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 9e7aa9c7aeb2ac8c84cebf09d5f7eb5287a5b9d7
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323575"
 ---
 # <a name="managing-receivables"></a>Managing Receivables
 

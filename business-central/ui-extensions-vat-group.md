@@ -1,6 +1,6 @@
 ---
-title: The VAT Group Management Extension | Microsoft Docs
-description: You can engage with other businesses to form a VAT group, and act as either a member or representative of the group when reporting VAT.
+title: The VAT Group Management Extension
+description: 'You can engage with other businesses to form a VAT group, and act as either a member or representative of the group when reporting VAT.'
 author: bholtorf
 manager: annbe
 ms.service: dynamics365-business-central
@@ -8,16 +8,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: VAT, value added tax, report
+ms. search.keywords: 'VAT, value added tax, report'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 093b361bf2d3f02d08dc6b8d53ad4b58a086f88b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771294"
 ---
+
 # <a name="the-vat-group-management-extension"></a>The VAT Group Management Extension
 
 You can join one or more businesses in your country to consolidate VAT reporting under a single registration number. This type of arrangement is known as a *VAT group*. You can engage with the group as a member or the group representative.
@@ -116,8 +111,12 @@ When the VAT Group representative's VAT Return has been submitted to the authori
 > The VAT group functionality is only supported in those markets where [!INCLUDE[prod_short](includes/prod_short.md)] uses a VAT framework that consists of VAT returns and VAT return periods. You cannot use VAT groups in other markets that have other implementations of local VAT reporting, such as Austria, Germany, Italy, Spain, and Switzerland. 
 
 ## <a name="see-also"></a>See Also
+
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
-[Set Up Value-Added Tax](finance-setup-vat.md)
+[Set Up Value-Added Tax](finance-setup-vat.md)  
+[Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
+[Making Tax Digital in the United Kingdom](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
+[Norwegian VAT Reporting in the Norwegian Version](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,15 +7,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 8700
 ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: 581d92010fa566c33775ffd6238ca6e0cfca0837
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443086"
 ---
+
 # <a name="viewing-table-information"></a>Viewing Table Information
 
 The page **8700 Table Information** provides information about all system and business tables in a Business Central solution. In particular, the page displays information about the amount of data the tables contain.

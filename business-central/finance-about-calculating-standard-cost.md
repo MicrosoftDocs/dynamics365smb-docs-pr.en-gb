@@ -7,15 +7,8 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: 3ef1aac08230477afefafee6afcaf05ac9c9cfff
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323209"
 ---
 # <a name="about-calculating-standard-cost"></a>About Calculating Standard Cost
 Many manufacturing companies select a valuation base of standard cost. This also applies to companies that perform light manufacturing, such as assembly and kitting. A standard cost system determines inventory unit cost based on some reasonable historical or expected cost. Studies of past and estimated future cost data can then provide the basis for standard costs. These costs are frozen until a decision is made to change them. The actual cost to produce a product may differ from the estimated standard costs. For management control, the actual cost is compared to the standard cost for a specific item and differences, or *variances*, are identified and analysed.  
@@ -33,22 +26,23 @@ Because the standard cost of a produced or assembled item can consist of multipl
 
 The accounting task for an item-processing company using standard costing is to:  
 
--   Estimate a standard cost of the finished item and set it up on the item card.  
--   Record and allocate the actual cost of the key cost elements and to account for variances.  
+- Estimate a standard cost of the finished item and set it up on the item card.  
+- Record and allocate the actual cost of the key cost elements and to account for variances.  
 
 To determine the direct cost of a finished item, all component costs must be totalled. An assembled or produced item can include subassemblies, which also consist of multiple components.  
 
 The following key cost elements make up the total direct cost of a finished processed item:  
 
--   Material costs.  
--   Capacity cost.  
--   Subcontracting costs for produced items only.  
+- Material costs.  
+- Capacity cost.  
+- Subcontracting costs for produced items only.  
 
-### <a name="material-costs"></a>Material Costs  
- Material costs are costs that are associated with subassemblies and purchased raw material. Material unit cost can consist of direct and indirect cost elements.  
+### <a name="material-costs"></a>Material Costs
 
--   Direct material cost represents an invoiced amount for purchased raw materials or the processing cost of a subassembly.  
--   Indirect material cost, or *overhead*, can represent elements such as inventory carrying costs for the finished item after it is produced.  
+Material costs are costs that are associated with subassemblies and purchased raw material. Material unit cost can consist of direct and indirect cost elements.  
+
+- Direct material cost represents an invoiced amount for purchased raw materials or the processing cost of a subassembly.  
+- Indirect material cost, or *overhead*, can represent elements such as inventory carrying costs for the finished item after it is produced.  
 
 The setup of the material cost for purchased items that affect direct and indirect cost depends on the costing method that you have selected for the specified item. You set up cost information for either costing method on the item card. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
@@ -66,13 +60,13 @@ Capacity costs are the costs that are associated with internal labour and machin
 
 The setup of the capacity costs of assembled items consists of the following elements:  
 
--   Direct and indirect unit cost of the resource.  
--   Fixed or direct resource usage type.  
+- Direct and indirect unit cost of the resource.  
+- Fixed or direct resource usage type.  
 
 The setup of the capacity costs of produced items consists of the following elements:  
 
--   Direct and indirect unit cost of the machine or work centre.  
--   Time and lot size setup.  
+- Direct and indirect unit cost of the machine or work centre.  
+- Time and lot size setup.  
 
 To calculate standard capacity cost, you have to establish the standard time rates that are required to perform operations on machine and work centres. The total time to complete an operation typically consists of setup, run time, and wait and move time.  
 
@@ -97,7 +91,7 @@ The process of updating or calculating standard costs typically consists of the 
 
 1.  Updating costs at the component and capacity levels. For more information, see the **Suggest Item Standard Cost** and **Suggest Capacity Standard Cost** batch jobs.  
 2.  Consolidating and rolling up the component and capacity costs to calculate the total assembly or manufacturing cost of the items. For more information, see For more information, see [To calculate the standard cost of an assembly item](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  Implementing the standard costs that are entered when you run the previous batch jobs. The standard costs do not take effect until they are implemented. For more information, see the **Implement Standard Cost Changes** batch job.  
+3.  Implementing the standard costs that are entered when you run the previous batch jobs. The standard costs do not take effect until they are implemented. Use the **Implement Standard Cost Changes** batch job, which updates the changes in the standard cost on items with the ones in the Standard Cost Worksheet table.  
 4.  Implementing the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see [Revalue Inventory](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>See Also  

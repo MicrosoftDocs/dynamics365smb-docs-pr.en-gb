@@ -1,5 +1,5 @@
 ---
-title: Set Up Codes for Audit Trails| Microsoft Docs
+title: Set Up Codes for Audit Trails
 description: Learn about the tasks to set up source codes and reason codes that you can use to track audit trails.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -7,15 +7,10 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accounting, auditing, bookkeeping
+ms.search.keywords: 'accounting, auditing, bookkeeping'
+ms.search.form: '257, 259, 279'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fb3db7a2fc2c156debd36942ecc61d35d1e38f82
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446222"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Setting Up Source Codes and Reason Codes for Audit Trails
 

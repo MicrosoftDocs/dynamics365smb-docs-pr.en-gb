@@ -5,19 +5,13 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: contract, agreement, configure
+ms.search.keywords: 'contract, agreement, configure'
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 343308cb004ada356eaad14e620f29fb9cf043ee
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326820"
 ---
 # <a name="fulfilling-service-contracts"></a>Fulfilling Service Contracts 
 One way to set up a service management business is to have standard contractual agreements between you and your customers that describe the level of service and the service expectations. You can create contract templates that include necessary information, such as customer, start date of contract, and invoice period.  

@@ -7,17 +7,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '99000842, 99000843, 99000861, 99000862, 99000863'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 901427baf8845505c264a6e06ec6aebacbfe1ee0
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589239"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replan or Refresh Works Orders Directly
+
 The **Replan** function on works orders is typically used after you have added or changed components that constitute underlying works orders. The function calculates changes made to components and routings lines, and it includes items on lower production BOM levels for which it may generate new works orders.  
 
 Based on the changes you have made to the components and routing lines, the Replan function calculates and plans for any new demand for the works order.  

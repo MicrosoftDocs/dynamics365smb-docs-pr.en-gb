@@ -5,18 +5,12 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2dda99dcab416465b6abc68af32b6bf99e83f56a
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325945"
 ---
 # <a name="posting-documents-and-journals"></a>Posting Documents and Journals
 Posting represents the accounting action of recording business transactions in the various company ledgers.

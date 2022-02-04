@@ -7,15 +7,10 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, email, Office 365, connector
+ms.search.keywords: 'SMTP, email, Office 365, connector'
+ms.search.form: 1805
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ce8856f250e4098256e9ac2b9959ec6900aaaadc
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940433"
 ---
 # <a name="set-up-email"></a>Set Up Email
 People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can make that easier to do by connecting one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], so you can send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colours, and so on, and add attachments of up to 100MB. Administrators can also set up report layouts that include only the key information from documents. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
@@ -118,7 +113,7 @@ The following are examples of how Send As and Send on Behalf are used in [!INCLU
 > You can only use one account to substitute sender addresses. That is, you cannot have one substitute address for purchasing processes, and another for sales processes.
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>To set up the substitute sender address for all outbound email messages
-1. In the **Exchange admin centre** for your Microsoft 365 account, find the mailbox to use as the substitute address, then copy or make a note of the address. If you need a new address, go to your Microsoft 365 admin centre to create a new user and set up their mailbox.
+1. In the **Exchange admin centre** for your Microsoft 365 account, find the mailbox to use as the substitute address, and then copy or make a note of the address. If you need a new address, go to your Microsoft 365 admin centre to create a new user and set up their mailbox.
 2. In [!INCLUDE[prod_short](includes/prod_short.md)] choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 3. In the **Send As** field, enter the substitute address.
 4. Copy or make a note of the address in the **User ID** field.

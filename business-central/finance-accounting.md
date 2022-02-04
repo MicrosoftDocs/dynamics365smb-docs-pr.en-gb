@@ -7,15 +7,10 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accountant, accounting, financial report
+ms.search.keywords: 'accountant, accounting, financial report'
+ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c2c92e72f20c26fe1505834e70d58981093c24b8
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940233"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
 

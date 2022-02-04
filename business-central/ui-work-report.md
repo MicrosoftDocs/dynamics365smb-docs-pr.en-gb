@@ -1,5 +1,5 @@
 ---
-title: Working with Reports, Batch Jobs, and XMLports
+title: 'Working with Reports, Batch Jobs, and XMLports'
 description: Learn about entering a report into a job queue and scheduling it to be processed at a specific date and time.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,15 +7,9 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
+ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.date: 06/21/2021
 ms.author: jswymer
-ms.openlocfilehash: 9deb7e30e05da74e6ea263a0262680d2e99b8b4b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439957"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Working with Reports, Batch Jobs, and XMLports
 
@@ -56,7 +50,7 @@ Use the fields under **Options** and **Filters** to change limit the information
 
 ## <a name="previewing-a-report"></a>Previewing a Report
 
-Previewing a report lets you see what the report will look like before you print it. The preview isn't based on printer selected **Printer** field on the request page. It's controlled by the browser. After previewing, you can then go back to the request page and make changes to options and filters as needed.
+Previewing a report lets you see what the report will look like before you print it. The preview isn't based on the printer selected in the **Printer** field on the request page. It's controlled by the browser. After previewing, you can then go back to the request page and make changes to options and filters as needed.
 
 To preview a report, choose the **Preview** or **Preview & Close** button on the report request page. The button that displays depends on the report, so some reports have **Preview** button, while others have a **Preview & Close** button. Both buttons will open a preview of the report. The difference is that **Preview** keeps the request page open, so you can go back to it, make changes, preview again, or print. With **Preview & Close**, the request page closes, so you'll have to open the report again to make changes or print.
 
@@ -139,6 +133,12 @@ For more information about report design, see [Report Overview](/dynamics365/bus
 
 > [!NOTE]
 > Some reports export numbers as text, which prevents you from doing calculations or using Power Pivot on the cells in the Excel worksheet. After exporting, it's a good idea to verify the numbers in the worksheet. If you want to do analysis and charting on the numbers, change the format of the relevant cells from **Text** to **Number**. For more information about formatting numbers in cells, see this video [Formatting Numbers in Cells in Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+
+### <a name="microsoft-word-document"></a>Microsoft Word Document
+Use the **Microsoft Word Document** option to generate a report as a Word document.  
+
+> [!NOTE]
+> You can specify the layout to use for each report on the **Report Selection** page in the **Selected Layout** field. The default setting for reports is **RDLC (built-in)**, which produces reports in the same, or similar, layout as the **Microsoft Word Document** layout. However, the key difference is whether you want to generate a single or multiple report documents. For single documents, you can use the RDLC (built-in) option. For multiple documents, set the **Microsoft Word Document** as the default layout for the report. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Scheduling a Report to Run
 

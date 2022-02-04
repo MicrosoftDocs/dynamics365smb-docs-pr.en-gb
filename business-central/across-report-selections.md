@@ -4,15 +4,10 @@ description: Learn about how to set up the reports that you use to print various
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: setup, reporting
+ms.search.keywords: 'setup, reporting'
+ms.search.form: '306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 848b2ddc00f5006f31a0b2cff0a07d51ec305921
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440806"
 ---
 # <a name="report-selection-in-business-central"></a>Report Selection in Business Central
 

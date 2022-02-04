@@ -4,19 +4,13 @@ description: Read about the different ways of customising Business Central to im
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: personalize, add-in, extend, customize
+ms.search.keywords: 'personalize, add-in, extend, customize'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c5060e9982131f23f3a91e07af52aad4e74b48aa
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319863"
 ---
 # <a name="customize-business-central"></a>Customise Business Central
 There are different ways to customise the application to give you and your colleagues access to the features, functionality, and data that you need most, in a manner that bests suits your daily work. Those who see the changes will depend on what you do, as described in this table.

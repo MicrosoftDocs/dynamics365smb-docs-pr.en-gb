@@ -1,23 +1,16 @@
 ---
-title: Export Positive Pay Files| Microsoft Docs
+title: Export Positive Pay Files
 description: You can ensure your bank only clears validated checks and amounts by exporting a Positive Pay file that contains supplier and payment information.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: check, clearing
+ms.search.keywords: 'check, clearing'
+ms.search.form: '1231, 1232, 1233, 1234'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a6cc157a12e4fd44174f585559befade10f8ed02
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444569"
 ---
 # <a name="export-a-positive-pay-file"></a>Export a Positive Pay File
 To make sure that your bank only clears validated cheques and amounts, you can export a Positive Pay file that contains supplier information, cheque number, and payment amount, which you send to the bank for reference when you process payments.

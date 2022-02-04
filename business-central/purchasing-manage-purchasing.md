@@ -1,21 +1,16 @@
 ---
 title: Overview of Tasks to Manage Purchasing
-description: Outlines tasks to manage your purchasing or procurement processes, including how purchase invoices and purchase orders work.
+description: 'Outlines tasks to manage your purchasing or procurement processes, including how purchase invoices and purchase orders work.'
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: procurement, supply, vendor order
+ms.search.keywords: 'procurement, supply, vendor order'
+ms.search.form: 460
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 929e1d62a091c4a01aa6f5e03dd5fcbdaa5bf7c0
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115797"
 ---
 # <a name="purchasing"></a>Purchasing
 You create a purchase invoice or purchase order to record the cost of purchases and to track purchase ledger. If you need to control an inventory, purchase invoices are also used to dynamically update inventory levels so that you can minimise your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices contribute to profit figures and other financial KPIs on your Role Centre.

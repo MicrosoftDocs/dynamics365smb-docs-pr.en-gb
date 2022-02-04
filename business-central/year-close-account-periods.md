@@ -7,20 +7,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
+ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f668104fe6b0bbd9dbbf9295034547e298df916
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436005"
 ---
 # <a name="close-accounting-periods"></a>Close Accounting Periods
+
 When a financial year is over, you must close the periods that comprise it.
 
 ## <a name="to-close-accounting-periods"></a>To close accounting periods
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.
 2. On the **Accounting Periods** page, choose the **Close Year** action.
 
@@ -30,7 +27,7 @@ When a financial year is over, you must close the periods that comprise it.
 The financial year is closed, and the **Closed** and **Date Locked** fields for all the periods in the year are selected. The financial year cannot be opened again and you cannot remove the check mark from the **Closed** or **Date Locked** fields.
 
 > [!NOTE]  
->   You cannot close a financial year before you create a new one. Notice that when a financial year has been closed, you cannot change the starting date of the following financial year.
+> You cannot close a financial year before you create a new one. Notice that when a financial year has been closed, you cannot change the starting date of the following financial year.
 
 Even though a financial year has been closed, you can still post general ledger entries to it. When you do this, the entries will be marked as posted to a closed financial year and the **Prior-Year Entry** field will be selected.
 

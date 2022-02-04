@@ -7,16 +7,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: consolidation, subsidiaries, consolidate
+ms.search.keywords: 'consolidation, subsidiaries, consolidate'
+ms.search.form: '1826, 1827'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 861893c2784bc5eed837c26d070fb98c2826772b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439467"
 ---
+
 # <a name="set-up-company-consolidation"></a>Set Up Company Consolidation
 
 Before you can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company, you must prepare the charts of accounts and the consolidation company.  

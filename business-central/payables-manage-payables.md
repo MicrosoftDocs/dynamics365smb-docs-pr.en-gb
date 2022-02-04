@@ -1,21 +1,16 @@
 ---
-title: Overview of Tasks to Manage Accounts Payable| Microsoft Docs
-description: Outlines tasks to manage accounts payable, for example, paying creditors or applying outgoing payments to ledger entries to close invoices or credit memos.
+title: Overview of Tasks to Manage Accounts Payable
+description: 'Outlines tasks to manage accounts payable, for example, paying creditors or applying outgoing payments to ledger entries to close invoices or credit memos.'
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: vendor payment, creditor, debt, balance due, AP
+ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
+ms.search.form: '161, 254, 256, 347, 574, 599, 9002'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b69280502f9289449a5a652c8c0eb670a6c6d4ef
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779539"
 ---
 # <a name="managing-payables"></a>Managing Payables
 

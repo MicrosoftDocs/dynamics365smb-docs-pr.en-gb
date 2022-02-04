@@ -1,23 +1,16 @@
 ---
-title: Set Up FA Insurance| Microsoft Docs
+title: Set Up FA Insurance
 description: You set up an insurance card and general insurance policy information to manage fixed asset insurance coverage.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: policy, coverage
+ms.search.keywords: 'policy, coverage'
+ms.search.form: '5607, 5648, 5644, 5651'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0e9eab4b00e0729f13adb4cd38b7b4992a160539
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440656"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Set Up Fixed Asset Insurance
 To manage fixed asset insurance coverage, you must first set up some general insurance information and an insurance card per policy.

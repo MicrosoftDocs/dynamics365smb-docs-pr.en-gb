@@ -1,8 +1,6 @@
 ---
 title: Undo a Posting by Posting a Reversing Entry
-description: If you have made an erroneous posting in the general journal, then you can use the Reverse Transaction function to undo the posting with a correct audit trail.
-services: project-madeira
-documentationcenter: ''
+description: 'If you have made an erroneous posting in the general journal, then you can use the Reverse Transaction function to undo the posting with a correct audit trail.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
+ms.search.form: '20, 25, 29, 38, 202, 5912,'
 ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: c23dcaed561997b5c0f38b4cd5ad5631b8519706
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660163"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Reverse Journal Postings and Undo Receipts/Shipments
+
 Reverse journal postings are not only used for correcting errors but they can also be used for clearing out an old accruals entry before entering a new one, for example. You select the entry and create a reverse entry (entries identical to the original entry but with opposite sign in the amount field) with the same document number and posting date as the original entry. After reversing an entry, you must make the correct entry.
 
 You can only reverse entries that are posted from a general journal line. An entry can only be reversed once.
@@ -80,6 +74,7 @@ The following describes how to undo a posted return shipment of items or resourc
 8.  Correct the entry in the **Quantity** field and post the purchase return order again.  
 
 ## <a name="see-also"></a>See Also
+
 [Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)  
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
 [Working with General Journals](ui-work-general-journals.md)  

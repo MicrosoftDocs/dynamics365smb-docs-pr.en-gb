@@ -1,21 +1,16 @@
 ---
-title: How to Block Purchases from to Suppliers
-description: Read about how to block suppliers from being included in any transactions, or just how to block new payments to them.
+title: Block Suppliers
+description: 'Read about how to block suppliers from being included in any transactions, or just how to block new payments to them.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
+ms.search.form: 27
 ms.date: 06/22/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca2e3cb627a33a17dac57bacba9a6c002fbcc90e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438859"
 ---
 # <a name="block-vendors"></a>Block Suppliers
 You can block a supplier, for example because of insolvency, so that the supplier cannot be added to purchase documents or so that no payments can be posted for the supplier.

@@ -7,17 +7,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '5830, 9101, 99000822, 99000855'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ccf2b753e11d0f6a23235125e99f58a011606788
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435301"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Track Relations Between Demand and Supply
+
 From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.
 
 The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan. For more information, see [Untracked Planning Elements](production-how-track-demand-supply.md#untracked-planning-elements).

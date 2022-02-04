@@ -1,5 +1,5 @@
 ---
-title: Clean Up Data with Retention Policies | Microsoft Docs
+title: Clean Up Data with Retention Policies
 description: You can specify how often you want to delete certain types of data.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -7,15 +7,10 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: delete, data, retention, policy, policies
+ms.search.keywords: 'delete, data, retention, policy, policies'
+ms.search.form: '3903, 3901'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3ee0149461730e20e996f31dc7175ff3325bceca
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443925"
 ---
 # <a name="define-retention-policies"></a>Define Retention Policies
 Administrators can define retention policies to specify how frequently they want [!INCLUDE[prod_short](includes/prod_short.md)] to delete outdated data in tables that contain log entries and archived records. For example, cleaning up log entries can make it easier to work with the data that's actually relevant. Policies can include all data in the tables that is past the expiration date, or you can add filter criteria that will include only certain expired data in the policy. 

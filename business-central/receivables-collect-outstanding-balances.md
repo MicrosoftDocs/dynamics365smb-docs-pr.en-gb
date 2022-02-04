@@ -1,21 +1,15 @@
 ---
 title: Collect Outstanding Balances
-description: Learn how to send a reminder to a customer about a payment that is due and add charges, or fees to the payment because of the delay.
+description: 'Learn how to send a reminder to a customer about a payment that is due and add charges, or fees to the payment because of the delay.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
+ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439417"
 ---
 # <a name="collect-outstanding-balances"></a>Collect Outstanding Balances
 
@@ -186,7 +180,7 @@ When you issue a reminder, a reminder entry is created on the **Reminder/Fin. Ch
 
 ## <a name="multiple-interest-rates"></a>Multiple Interest rates
 
-When you set up finance charge terms and reminder terms, for delayed payment penalty, you can specify multiple interest rates so that the penalty fee is calculated from different interest rates in different periods. If multiple interest rates are not set up, then the interest rate and period that is defined in the **Finance Charge Terms** and **Reminder Terms** pages for the whole period of calculation will be used. For more information, see [Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md).  
+[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] For more information, see [Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 

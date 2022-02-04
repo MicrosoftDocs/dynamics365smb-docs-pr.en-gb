@@ -3,21 +3,16 @@ title: Cash Flow Overview
 description: An overview of cash inflows and outflows to help forecast money to be received and payed out.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
+ms.search.keywords: 'cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments'
+ms.search.form: '841, 849, 1818'
 ms.date: 12/20/2021
 ms.author: edupont
-ms.reviewer: edupont
-ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940208"
 ---
+
 # <a name="cash-flow-overview"></a>Cash Flow Overview
 
 Understanding cash inflows and outflows is the key to running a successful business. You can use cash flow to easily create a short-term forecast that predicts how and when you expect money to be received and paid out by your business. It is important for you to know that your business will have enough cash to pay creditors and expenses when they fall due.
@@ -49,9 +44,9 @@ The following illustration shows an overview of how you can work with cash flow.
 
 Based on the registered worksheet lines, you can periodically make a cash flow forecast. The following layout is a frequently used layout for a cash flow forecast. The layout has three sections:
 
-  - Cash receipts  
-  - Cash disbursements  
-  - Net cash flow or cash-in-hand  
+- Cash receipts  
+- Cash disbursements  
+- Net cash flow or cash-in-hand  
 
 Cash receipts provide details of the income that the business receives.
 

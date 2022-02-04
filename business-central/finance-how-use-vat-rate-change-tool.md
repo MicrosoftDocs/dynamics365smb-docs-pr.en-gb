@@ -1,21 +1,17 @@
 ---
 title: Managing VAT Rate changes
-description: learn how to use the VAT Rate Change tool for Dynamics 365 Business Central for changing VAT rates based on local legislation.
+description: Learn how to use the VAT Rate Change tool for Dynamics 365 Business Central for changing VAT rates based on local legislation.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
-ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
+ms.search.keywords: 'VAT, VAT rate, posting, tax, value-added tax'
+ms.search.form: '550,'
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 9d90364691e393ddb376b0446d298ba96a92b383
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437398"
 ---
+
 # <a name="managing-vat-rate-changes"></a>Managing VAT Rate Changes
 
 VAT rates can change depending on local legislation. Any change in VAT impacts your data in [!INCLUDE[prod_short](includes/prod_short.md)] whether or not the VAT rate is lowered, raised, or removed. VAT is connected to many entities in [!INCLUDE[prod_short](includes/prod_short.md)], such as customers, suppliers, items, resources, item charges, and general ledger accounts. Changes in VAT rates usually happen at a specific date, from which point you will need to have changed the VAT setup, posting groups etc. to make sure new sales orders and purchase orders are created with the new VAT rate.

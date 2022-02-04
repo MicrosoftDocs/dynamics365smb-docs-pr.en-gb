@@ -1,22 +1,16 @@
 ---
 title: Use Time Sheets
-description: Describes how to create a time sheet, define work types, fill in the time sheet, and submit it for approval.
+description: 'Describes how to create a time sheet, define work types, fill in the time sheet, and submit it for approval.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.search.form: 973
+ms.search.keywords: 'project management, capacity, staff, resource, time sheets'
+ms.search.form: '950, 951, 973'
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: a5fdd86d63fa19a0a7f473d58abf34242e4e5cd5
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920910"
 ---
 # <a name="use-time-sheets"></a>Use Time Sheets
 
@@ -36,7 +30,7 @@ Before you can use time sheets, you must set up general information and specify 
 You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task.  
 
 > [!IMPORTANT]
-> You must have permissions to be able to create time sheets.
+> You must have permissions to be able to create time sheets. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.
 2. On the **Time Sheets** page, choose the **Create Time Sheets** action.

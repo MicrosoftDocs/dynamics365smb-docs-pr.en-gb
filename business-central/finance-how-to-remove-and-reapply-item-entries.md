@@ -1,5 +1,5 @@
 ---
-title: How to Remove and Reapply Item Entries | Microsoft Docs
+title: Remove and Reapply Item Entries
 description: You can view and manually change certain item application entries that are created automatically during inventory transactions.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,9 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '506, 521, 9125'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4ec0aba869d2a171e12c42822ecf1726ed4ac81e
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587922"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Remove and Reapply Item Ledger Entries
 On the **Application Worksheet** page, you can view and manually change certain item application entries that are created automatically during inventory transactions.  

@@ -1,5 +1,5 @@
 ---
-title: How to Subcontract Manufacturing
+title: Subcontract Manufacturing
 description: This topic gives an extended overview of the extended funtionality of subcontracting in Business Central including work centre fields and routing.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 821e705e07b5ced42ad2ae41f2da340573004c7e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441529"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontract Manufacturing
+
 Subcontracting selected operations to supplier is common in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides several tools for managing subcontract work:  

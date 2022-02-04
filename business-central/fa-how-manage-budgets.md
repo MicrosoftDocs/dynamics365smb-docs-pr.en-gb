@@ -1,23 +1,16 @@
 ---
-title: Manage FA Budgets| Microsoft Docs
-description: You set up information about future investments, disposals, and depreciation of fixed assets to help prepare budgets and forecasts.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Manage FA Budgets
+description: 'You set up information about future investments, disposals, and depreciation of fixed assets to help prepare budgets and forecasts.'
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
+ms.search.form: '5610, 5611'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f3654610847a4110517e88f98205da780bafdf21
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441654"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Manage Budgets for Fixed Assets
 You can set up budgeted fixed assets. For example, this lets you include anticipated acquisitions and sales in reports.  

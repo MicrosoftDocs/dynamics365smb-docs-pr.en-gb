@@ -7,15 +7,10 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, material, purchase
+ms.search.keywords: 'project management, material, purchase'
+ms.search.form: '98, 1020'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b2c2bfa376290439394debcf9b57da5bedaca8bd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443850"
 ---
 # <a name="manage-job-supplies"></a>Manage Job Supplies
 Managing project supplies of items, services, and expenses is an integral and critical aspect of the execution of all jobs. You can use inventory quantities or make job-specific purchases using purchase orders or purchase invoices. For example, a service job on a computer requires a new disk. You create a purchase invoice to buy a new disk and record the job that it will be used on.

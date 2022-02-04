@@ -1,21 +1,16 @@
 ---
-title: Overview of Tasks to Set Up Purchasing | Microsoft Docs
+title: Overview of Tasks to Set Up Purchasing
 description: Describes the tasks to define your company's procurement policies and set up your purchasing processes.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: procurement, supply, vendor order
+ms.search.keywords: 'procurement, supply, vendor order'
+ms.search.form: '175, 176, 177, 178, 460, 5727, 5729'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9d0058c707862144592278d08a494175adf67a2a
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115443"
 ---
 # <a name="setting-up-purchasing"></a>Setting Up Purchasing
 Before you can manage purchase processes, you must configure the rules and values that define the company's purchase policies.

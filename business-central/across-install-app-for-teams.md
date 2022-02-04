@@ -1,5 +1,5 @@
 ---
-title: Installing the Business Central app in Microsoft Teams| Microsoft Docs
+title: Install the Business Central app in Microsoft Teams
 description: How to install the Business Central app for Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,21 +7,16 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 420a94c3996840c2d75687f533e06625258ca0f7
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588183"
 ---
+
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-In this article, you learn how to install the [!INCLUDE [prod_short](includes/prod_short.md)] App for [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.
+In this article, you learn how to install the [!INCLUDE [prod_short](includes/prod_short.md)] App for [Microsoft Teams](https://www.microsoft.com/microsoft-teams/). The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.
 
 > [!NOTE]
 > Your administrator may have set things up so that the app is automatically installed for you. To check whether the app is installed, open Teams, then choose **Apps**. Search for **Business Central**, then choose it when you find it. If you see **Open** on the **Business Central** page, the app is already installed.  

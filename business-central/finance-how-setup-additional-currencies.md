@@ -1,21 +1,16 @@
 ---
 title: Set Up Additional Currencies
-description: Your general ledger is set up to use your local currency (LCY), and another currency is set up as an additional currency, with a current exchange rate assigned.
+description: 'Your general ledger is set up to use your local currency (LCY), and another currency is set up as an additional currency, with a current exchange rate assigned.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, foreign exchange rates
+ms.search.keywords: 'multiple currencies, foreign exchange rates'
+ms.search.form: '5, 16,118, 483, 495'
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: e1a6c902bdf4ce8270def3c830138511adf6eba3
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660213"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Set Up an Additional Reporting Currency
 
@@ -41,15 +36,17 @@ Using an additional reporting currency can assist the reporting process for a co
 Several financial reports are based on G/L entries. To display report data in the additional reporting currency, you simply place a check mark in the **Show Amounts in Add. Reporting Currency** field on the **Options** FastTab for the relevant G/L report.
 
 ## <a name="adjusting-exchange-rates"></a>Adjusting Exchange Rates
+
 Because exchange rates fluctuate constantly, additional currency equivalents in your system must be adjusted periodically. If these adjustments are not done, amounts that have been converted from foreign (or additional) currencies and posted to the general ledger in LCY may be misleading. In addition, daily entries posted before a daily exchange rate is entered into application must be updated after the daily exchange rate information is entered. The **Adjust Exchange Rates** batch job is used to adjust the exchange rates of posted customer, supplier and bank account entries. It can also update additional reporting currency amounts on G/L entries. For more information, see [Update Currency Exchange Rates](finance-how-update-currencies.md).
 
 ## <a name="setting-up-an-additional-reporting-currency"></a>Setting Up an Additional Reporting Currency
+
 To set up an additional reporting currency, you must follow these steps:
 
--   Specify general ledger accounts for posting exchange rate adjustments.  
--   Specify the exchange rate adjustment method for all general ledger accounts.  
--   Specify the exchange rate adjustment method for VAT entries.  
--   Activate the additional reporting currency.  
+- Specify general ledger accounts for posting exchange rate adjustments.  
+- Specify the exchange rate adjustment method for all general ledger accounts.  
+- Specify the exchange rate adjustment method for VAT entries.  
+- Activate the additional reporting currency.  
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>To specify general ledger accounts for posting exchange rate adjustments  
 
@@ -68,7 +65,8 @@ To set up an additional reporting currency, you must follow these steps:
 
 For each general ledger account, you must specify how general ledger amounts for that account will be adjusted for exchange rate fluctuations between LCY and the additional reporting currency.  
 
-### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>To specify the exchange rate adjustment method for all general ledger accounts  
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>To specify the exchange rate adjustment method for all general ledger accounts
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. On the **Chart of Accounts** page, select the relevant account, and then choose the **Edit** action.  
 3. On the **GL Account Card** page, select the relevant method in the **Exchange Rate Adjustment** field.  
@@ -85,7 +83,8 @@ For each general ledger account, you must specify how general ledger amounts for
 
 4.  Close the **G/L Account Card** page.  
 
-### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>To specify exchange rate adjustment method for VAT entries  
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>To specify exchange rate adjustment method for VAT entries
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, select the relevant method in the **VAT Exchange Rate Adjustment** field.  
 3. If you post in an additional reporting currency, you can specify in the **VAT Exchange Rate Adjustment** field how the accounts set up for VAT posting on the **VAT Posting Setup** page will be adjusted for exchange-rate fluctuations between LCY and the additional reporting currency.  
@@ -124,11 +123,12 @@ After running the batch job, amounts on the following existing entries will be i
 In addition, all future entries of the same type will have amounts recorded in both LCY and the additional reporting currency.  
 
 > [!NOTE]  
->  The **Add. Reporting Currency** field will only be activated after you choose the **OK** button in the **Adjust Add. Reporting Currency** batch job.  
+> The **Add. Reporting Currency** field will only be activated after you choose the **OK** button in the **Adjust Add. Reporting Currency** batch job.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
+
 [Update Currency Exchange Rates](finance-how-update-currencies.md)  
 [Closing Years and Periods](year-close-years-periods.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

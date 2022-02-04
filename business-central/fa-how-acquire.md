@@ -1,23 +1,16 @@
 ---
-title: Acquire Fixed Assets| Microsoft Docs
-description: You can set up a fixed asset, assign a depreciation book, and record the fixed asset’s acquisition cost.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Acquire Fixed Assets
+description: 'You can set up a fixed asset, assign a depreciation book, and record the fixed asset’s acquisition cost.'
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
+ms.search.form: '5605, 5551, 5600, 5628, 5629'
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 997e9e9d26ccb2beaafcb9e3e6cdf8fb467652ef
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920962"
 ---
 # <a name="acquire-fixed-assets"></a>Acquire Fixed Assets
 For each fixed asset, you must set up a card containing information about the asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. A depreciation book must be set up and assigned to each fixed asset before you can acquire it.

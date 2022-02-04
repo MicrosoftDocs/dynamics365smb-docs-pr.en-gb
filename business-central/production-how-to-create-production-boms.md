@@ -1,21 +1,12 @@
 ---
-title: How to Create Production BOMs
-description: Learn how to create a production bill of material (BOM), new versions of a production BOM, and how to use the quantity calculation formula.
+title: Create Production BOMs
+description: 'Learn how to create a production bill of material (BOM), new versions of a production BOM, and how to use the quantity calculation formula.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ffd57ed4f69870e04e8081d0ef6189788dc01ce6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438709"
 ---
 # <a name="create-production-boms"></a>Create Production BOMs
 
@@ -28,7 +19,8 @@ Before you can set up a routing, the following must be in place:
 - Item cards are created for parent items that take part in manufacturing. For more information, see [Register New Items](inventory-how-register-new-items.md).
 - Production resources are set up. For more information, see [Set Up Work Centres and Machine Centres](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-production-bom"></a>To create a production BOM  
+## <a name="to-create-a-production-bom"></a>To create a production BOM
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -36,29 +28,30 @@ Before you can set up a routing, the following must be in place:
 
     Proceed to fill in the production BOM lines.
 5. In the **Type** field, select whether the item on this BOM line is an ordinary item or a production BOM. If the item on the line is a production BOM, then it must already exist as a certified production BOM.  
-6.  In the **No.** field, look up and select the item or production BOM in question, or type it in the field.  
-7.  In the **Quantity Per** field, enter how many units of the item go into the parent item, for example, 4 wheels for 1 car.  
-8.  In the **Scrap %** field you can enter a fixed percentage of components that are scrapped during production. When the components are ready to be consumed in a released works order, this percentage will be added to the expected quantity in the **Consumption Quantity** field in a production journal. For more information, see [Register Consumption and Output](production-how-to-register-consumption-and-output.md).  
+6. In the **No.** field, look up and select the item or production BOM in question, or type it in the field.  
+7. In the **Quantity Per** field, enter how many units of the item go into the parent item, for example, 4 wheels for 1 car.  
+8. In the **Scrap %** field you can enter a fixed percentage of components that are scrapped during production. When the components are ready to be consumed in a released works order, this percentage will be added to the expected quantity in the **Consumption Quantity** field in a production journal. For more information, see [Register Consumption and Output](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
     >  This scrap percentage represents components that are scrapped during production when picking from inventory, whereas the scrap percentage on routing lines represents scrapped output before putting on inventory.  
 
-9.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see [To create routing links](production-how-to-create-routings.md#to-create-routing-links).
+9. In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see [To create routing links](production-how-to-create-routings.md#to-create-routing-links).
 10. To copy lines from an existing production BOM, choose the **Copy BOM** action to select existing lines.  
-11.  Certify the production BOM.  
-12.  You can now attach the new production BOM to the card of the parent item in question. For more information, see [Register New Items](inventory-how-register-new-items.md).  
+11. Certify the production BOM.  
+12. You can now attach the new production BOM to the card of the parent item in question. For more information, see [Register New Items](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] To recalculate the item's standard cost from the item card, choose the **Manufacturing** action, and then choose the **Calc. Standard Cost** action.  
 
 ## <a name="to-create-a-new-versions-of-a-production-bom"></a>To create a new versions of a production BOM
+
 New versions of production BOMs are used when, for example, an item is replaced by another item, or when a customer requires a special version of a product. The version principle enables various versions of a production BOM to be managed. The structure of the production BOM version corresponds to the structure of the production BOM. The basic difference is in the time validity of the versions. The validity is defined by the starting date.  
 
 The starting date indicates the start of the period in which this version is valid. For all other considerations, the starting date is a filter criterion for calculations and evaluations. The BOM version is valid until the next version becomes valid for its starting date.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM**, and then choose the related link.  
-2.  Select the production BOM to be copied, and then choose the **Versions** action.  
-3.  Choose the **New** action.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM**, and then choose the related link.  
+2. Select the production BOM to be copied, and then choose the **Versions** action.  
+3. Choose the **New** action.  
 4. Fill in the fields as necessary.
 5. In the **Version Code** field, enter the unique identification of the version. Any combination of numbers and letters is permitted.  
 
@@ -68,29 +61,32 @@ The starting date indicates the start of the period in which this version is val
 The time validity of the version is specified by the **Starting Date** field.  
 
 > [!NOTE]  
->  Select the **Item** option in the **Type** field to use an item from your item master data in the production BOM. If the item also has a production BOM, whereby the **Production BOM No.** field is filled in on the item card, this production BOM is also considered.  
->   
->  Select the **Production BOM** option if you want to use a phantom production BOM on the line.  
->   
->  Phantom production BOMs serve for structuring products. This production BOM type never leads to a finished product, but is used exclusively for determining the dependent demand. Phantom production BOMs do not have their own item master data.
+> Select the **Item** option in the **Type** field to use an item from your item master data in the production BOM. If the item also has a production BOM, whereby the **Production BOM No.** field is filled in on the item card, this production BOM is also considered.  
+>
+> Select the **Production BOM** option if you want to use a phantom production BOM on the line.  
+>
+> Phantom production BOMs serve for structuring products. This production BOM type never leads to a finished product, but is used exclusively for determining the dependent demand. Phantom production BOMs do not have their own item master data.
 
-## <a name="quantity-calculation-formula-on-production-boms"></a>Quantity Calculation Formula on Production BOMs  
+## <a name="quantity-calculation-formula-on-production-boms"></a>Quantity Calculation Formula on Production BOMs
+
 The quantity is calculated taking into consideration different dimensions which are also entered on the production BOM lines. The dimensions refer to an order unit of the respective item. The length, width, depth and weight can be entered as dimensions.  
 
 The Calculation Formula, Length, Width, Depth and Weight columns are not displayed, because they are only used by some users. If you wish to use the calculation of the quantity, you must first display these columns.  
 
 The relation of the individual components is defined by the calculation formula. The following possibilities are available as a calculation formula:  
 
--  **Empty** - No consideration of dimensions. (Quantity = Quantity per.)  
--  **Length** - Quantity = Quantity per * Length  
--  **Length x Width** - Quantity = Quantity per * Length x Width  
--  **Length x Width x Depth** - Quantity = Quantity per x Length x Width x Depth  
--  **Weight** - Quantity = Quantity per x Weight  
+- **Empty** - No consideration of dimensions. (Quantity = Quantity per.)  
+- **Length** - Quantity = Quantity per * Length  
+- **Length x Width** - Quantity = Quantity per * Length x Width  
+- **Length x Width x Depth** - Quantity = Quantity per x Length x Width x Depth  
+- **Weight** - Quantity = Quantity per x Weight  
 
-### <a name="example"></a>Example  
+### <a name="example"></a>Example
+
 In a production BOM, seventy metal parts with the dimensions length = 0.20 m and width = 0.15 m are required. The values are entered as follows: Calculation Formula = Length x Width, Length = 20, Width = 15, Quantity per = 70. The quantity is given by the Quantity per x Length * Width, that is, Quantity = 70 x 0.20 m x 0.15 m = 2.1 m2.  
 
-## <a name="see-also"></a>See Also  
+## <a name="see-also"></a>See Also
+
 [Create Routings](production-how-to-create-routings.md)   
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    

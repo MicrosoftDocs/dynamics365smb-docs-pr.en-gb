@@ -1,20 +1,16 @@
 ---
 title: Validate VAT Registration Numbers
-description: Let Business Central validate VAT registration numbers for your contacts, customers, and suppliers, based on EU VIES VAT Number Validation service.
+description: 'Let Business Central validate VAT registration numbers for your contacts, customers, and suppliers, based on EU VIES VAT Number Validation service.'
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
-ms.search.keywords: VAT, posting, tax, value-added tax
+ms.search.keywords: 'VAT, posting, tax, value-added tax'
+ms.search.form: '249, 575, 1279'
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 093fec7b7d456f4145e8450d06f17f1aa78ad4c1
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543229"
 ---
+
 # <a name="validate-vat-registration-numbers"></a>Validate VAT Registration Numbers
 
 It is important that the VAT registration numbers you have for customers, suppliers, and contacts are valid, if you use [!INCLUDE [prod_short](includes/prod_short.md)] in a country that uses VAT. For example, companies sometimes change their tax liability status, and in some countries tax authorities might ask you to provide reports, such as the **EC Sales List** report, that list the VAT registration numbers you use when you do business.

@@ -1,41 +1,36 @@
 ---
 title: About Works Orders
-description: Learn about works orders, and how they are used to manage the conversion of purchased materials into manufactured items.
+description: 'Learn about works orders, and how they are used to manage the conversion of purchased materials into manufactured items.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 689fbf78a5337076e7f10a8825d01cd77018c670
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321398"
 ---
 # <a name="about-production-orders"></a>About Works Orders
+
 Works orders are used to manage the conversion of purchased materials into manufactured items. Works orders route work through various work or machine centres on the shop floor.  
 
 Before proceeding with production, most companies perform supply planning, typically once a week, to calculate how many works orders and purchase orders to execute to fulfil that week’s sales demand. Purchase orders supply the components that are required according to the production BOM to produce the end items.
 
 Works orders are the central components of application's manufacturing functionality and they contain the following information:  
 
--   Products planned for manufacturing  
--   Materials required for the planned works orders  
--   Products that have just been manufactured  
--   Materials that have already been selected  
--   Products that have been manufactured in the past  
--   Materials that were used in previous manufacturing operations  
+- Products planned for manufacturing  
+- Materials required for the planned works orders  
+- Products that have just been manufactured  
+- Materials that have already been selected  
+- Products that have been manufactured in the past  
+- Materials that were used in previous manufacturing operations  
 
 Works orders are the starting points for:  
 
--   Planning future manufacturing  
--   Controlling current manufacturing  
--   Tracking of finished manufacturing  
+- Planning future manufacturing  
+- Controlling current manufacturing  
+- Tracking of finished manufacturing  
 
 ## <a name="production-order-creation"></a>Works Order Creation  
 Works orders can be created on an order-by-order basis manually from the **Works Order** page, or generated from the **Sales Order Planning** or **Order Planning** pages. Multiple orders are created from the **Planning Worksheet** page.  
@@ -51,10 +46,10 @@ Works orders are created using information from:
 ## <a name="limitations-on-production-order-creation"></a>Limitations on Works Order Creation  
 Works orders are automatically reserved and tracked to their source when:  
 
--   Created from the **[Planning Worksheet](production-how-to-run-mps-and-mrp.md)**.  
--   Created from the **[Sales Order Planning](production-how-to-create-production-orders-from-sales-orders.md)** page  
--   Created from the **[Order Planning](production-how-to-plan-for-new-demand.md)** page  
--   Using the **[Replan](production-how-to-replan-refresh-production-orders.md)** function on works orders  
+- Created from the **[Planning Worksheet](production-how-to-run-mps-and-mrp.md)**.  
+- Created from the **[Sales Order Planning](production-how-to-create-production-orders-from-sales-orders.md)** page  
+- Created from the **[Order Planning](production-how-to-plan-for-new-demand.md)** page  
+- Using the **[Replan](production-how-to-replan-refresh-production-orders.md)** function on works orders  
 
 For more information, see [Track Relations Between Demand and Supply](production-how-track-demand-supply.md).
 
@@ -117,9 +112,9 @@ The application offers a variety of options for how a manufacturing company migh
 
 Consumption of materials may be processed through the [consumption journal](production-how-to-post-consumption.md), but also may be recorded automatically by application, known as automatic reporting (flushing). The reporting methods are:  
 
--   Manual  
--   Forward  
--   Backward  
+- Manual  
+- Forward  
+- Backward  
 
 Manual consumption reporting uses the consumption journal to specify material picking.  
 
@@ -181,9 +176,9 @@ However, the Production Journal differs from the Consumption and Output journals
 In the production journal, consumption quantities are posted as negative item ledger entries, output quantities are posted as positive ledger entries, and times spent are posted as capacity ledger entries.  
 
 ## <a name="see-also"></a>See Also
-[Manufacturing](production-manage-manufacturing.md)    
+[Manufacturing](production-manage-manufacturing.md)
 [Setting Up Manufacturing](production-configure-production-processes.md)  
-[Planning](production-planning.md)      
+[Planning](production-planning.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

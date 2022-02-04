@@ -4,16 +4,12 @@ description: Learn about the company hub in Dynamics 365 Business Central that y
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: accountant, accounting, financial report
+ms.search.keywords: 'accountant, accounting, financial report'
+ms.search.form: '1151, 1154, 1165, 1166'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1757f1c02bb6623f59996d372f544f224b94237e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445733"
 ---
+
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Manage Work across Multiple Companies in the Company Hub
 
 Some people work in multiple companies in [!INCLUDE [prod_short](includes/prod_short.md)] and some also work in more than one organisation, such as external accountants or employees and managers of corporations with multiple subsidiaries. For these users, and many others, the company hub serves as a landing page for managing work across the various environments that they work in, across companies, environments, and regions.  
@@ -86,7 +82,7 @@ But to add a company, you must have been given access to one or more instances o
 
 For example, if you are an accountant, your clients can invite you to their [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).  
 
-Administrators can use the same assisted setup guide to add you to their [!INCLUDE [prod_short](includes/prod_short.md)] or they can add you to the relevant Azure AD account in the Microsoft 365 admin centre. For more information, see [Manage users and groups](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
+Administrators can use the same assisted setup guide to add you to their [!INCLUDE [prod_short](includes/prod_short.md)], or they can add you to the relevant Azure AD account in the Microsoft 365 admin centre. For more information, see [Manage users and groups](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
 ## <a name="see-also"></a>See also 
 

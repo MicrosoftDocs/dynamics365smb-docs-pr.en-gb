@@ -1,6 +1,6 @@
 ---
 title: Dispose or Retire FA
-description: When you sell or otherwise dispose of a fixed asset, the disposal value must be posted to calculate and record the gain or loss.
+description: 'When you sell or otherwise dispose of a fixed asset, the disposal value must be posted to calculate and record the gain or loss.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
+ms.search.form: '5628, 5610, 5611'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2b3f12dd385a40510cf01c214ac0893b6357207c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441729"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Dispose of or Retire Fixed Assets
 

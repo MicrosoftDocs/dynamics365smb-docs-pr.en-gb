@@ -1,6 +1,6 @@
 ---
 title: Depreciate or Amortise FA
-description: You must define how you will write-down, depreciate, or amortise each of your fixed assets, such as machinery and equipment, over their depreciable life.
+description: 'You must define how you will write-down, depreciate, or amortise each of your fixed assets, such as machinery and equipment, over their depreciable life.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
+ms.search.form: '5610, 5611, 5659, 5660, 5663, 5619, 5666'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588308"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Depreciate or Amortise Fixed Assets
 Depreciation is used to allocate the cost of fixed assets, such as machinery and equipment, over their depreciable life. For each fixed asset, you must define how it will be depreciated.  

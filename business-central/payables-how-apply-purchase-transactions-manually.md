@@ -1,21 +1,16 @@
 ---
 title: Reconcile supplier payment receipts or refunds in the payment journal
-description: To process, match, or reconcile supplier payments or refunds manually, you apply the amount to one or more open supplier ledger entries.
+description: 'To process, match, or reconcile supplier payments or refunds manually, you apply the amount to one or more open supplier ledger entries.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment application, payment processing, match payments
+ms.search.keywords: 'payment application, payment processing, match payments'
+ms.search.form: '62, 233, 522, 623'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 017f88741ee0ccc2977f2173fbd984e5ebf6b36f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437248"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Reconcile Supplier Payments with the Payment Journal or from Supplier Ledger Entries
 When you send a payment or receive a refund from a supplier, you must decide whether to apply the payment or refund to one or more open entries. You can specify the exact amount that you want to apply to the payment receipt or refund, and then only partially apply supplier ledger entries. You must apply all supplier ledger entries to obtain correct supplier statistics and reports of the account statements and finance charges.

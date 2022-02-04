@@ -1,21 +1,16 @@
 ---
-title: Issue, Print, Cancel, and Void Checks| Microsoft Docs
-description: Describes how to issue cheques using the payment journal, print cheques, and void or view cheque ledger entries in Business Central.
+title: 'Issue, Print, Cancel, and Void Cheques'
+description: 'Describes how to issue cheques using the payment journal, print cheques, and void or view cheque ledger entries in Business Central.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
+ms.search.keywords: 'payment journal, print check, vendor payment, creditor, debt, balance due, AP'
+ms.search.form: '256, 404,'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c3f0a848e1a7011b163a92fbf5a58f4cd761ef95
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438784"
 ---
 # <a name="make-check-payments"></a>Make Cheque Payments
 

@@ -1,21 +1,15 @@
 ---
-title: How to Receive Items
-description: This topic is an overview of the different ways of receiving items at a warehouse, for example items with a purchase order or items with a warehouse receipt.
+title: Receive Items
+description: 'This topic is an overview of the different ways of receiving items at a warehouse, for example items with a purchase order or items with a warehouse receipt.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510'
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: f71e348a5f6b8a232d05c8729a03a7f41534caa8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445133"
 ---
 # <a name="receive-items"></a>Receive Items
 
@@ -130,7 +124,7 @@ When you handle an over-receipt, you can either increase the value in the **Qty.
 ## <a name="see-also"></a>See Also
 
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Inventory](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

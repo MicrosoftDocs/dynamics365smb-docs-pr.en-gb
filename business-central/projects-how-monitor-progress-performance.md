@@ -1,5 +1,5 @@
 ---
-title: Define a WIP Method and Monitor Job Progress| Microsoft Docs
+title: Monitor Job Progress and Performance
 description: Describes how you can create a work in progress (WIP) method and calculate WIP to estimate the financial value of jobs while they are ongoing.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,10 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, KPI, work in process, work in progress
+ms.search.keywords: 'project management, KPI, work in process, work in progress'
+ms.search.form: '89, 92, 1010'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 052a0ecbe3b5435a2d73f377bb4ac0f4c4373f58
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443825"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Monitor Job Progress and Performance
 As a job progresses, materials, resources, and other expenses are consumed and must be posted to the job. Work in Progress (WIP) is a feature that enables you to estimate the financial value of jobs in the general ledger while the jobs are ongoing. In many cases, you might post expenses for a job before invoicing a job. When only expenses have been posted, your financial statement will be inaccurate. For more information, see [Understanding WIP Methods](projects-understanding-wip.md).

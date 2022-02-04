@@ -4,14 +4,9 @@ description: Learn how to deal with accumulating historic documents (and reduce 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
+ms.search.form: '107, 9040'
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 5263d4ba06cc7b2dc497efb6842a927704c31f35
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724719"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Manage Storage by Deleting Documents or Compressing Data
 

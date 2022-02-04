@@ -1,8 +1,6 @@
 ---
-title: Process Incoming and Outgoing IC Transactions| Microsoft Docs
+title: Manage the Intercompany Inbox and Outbox
 description: Intercompany transactions that you receive from your intercompany partners are listed in the intercompany inbox where you process them manually or automatically.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
+ms.search.form: '618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acc6427342122589fca6f2cad08baa00210a261e
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921034"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Manage the Intercompany Inbox and Outbox
 All of the intercompany transactions that you receive electronically from your intercompany partners are listed in the intercompany Inbox.  

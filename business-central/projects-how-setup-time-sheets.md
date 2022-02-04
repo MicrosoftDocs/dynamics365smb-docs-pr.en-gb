@@ -1,21 +1,16 @@
 ---
 title: Set Up Time Sheets and Their Approval
-description: You set up time sheets to track the time used on tasks and projects, helping you with project management, staffing, and capacity
+description: 'You set up time sheets to track the time used on tasks and projects, helping you with project management, staffing, and capacity'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, capacity, staff, resource, time sheet
+ms.search.keywords: 'project management, capacity, staff, resource, time sheet'
+ms.search.form: '977, 462, 76, 77'
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920987"
 ---
 # <a name="set-up-time-sheets"></a>Set Up Time Sheets
 
@@ -42,6 +37,8 @@ Starting in 2021 release wave 2, you can use an assisted setup guide to help you
 >
 > The same feature also makes it easy to manage time sheets on a mobile device.
 
+Open the **Set Up Time Sheets** assisted setup guide from the [Assisted Setup](https://businesscentral.dynamics.com/?page=1801) page.
+
 The assisted setup guide takes you through the following steps:
 
 1. Set up the participants in the time sheet processes
@@ -59,7 +56,7 @@ At the end of the setup guide, you can choose to let [!INCLUDE [prod_short](incl
 
 ## <a name="set-up-time-sheets-manually"></a>Set up time sheets manually
 
-The following sections describe how to set up time sheets if you do not use the **Set up time sheets** assisted setup guide.  
+The following sections describe how to set up time sheets if you do not use the **Set Up Time Sheets** assisted setup guide.  
 
 ### <a name="to-set-up-general-information-for-time-sheets-manually"></a>To set up general information for time sheets manually
 

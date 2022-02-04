@@ -1,5 +1,5 @@
 ---
-title: How to Post Capacities
+title: Post Capacities
 description: Post consumed capacities that are not assigned to the works order in the capacity journal and view posted capacities on the capacity ledger entries page.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,9 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '5832, 99000802, 99000820'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 024985cb4a2615f374465e5a387901976509a5db
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444212"
 ---
 # <a name="post-capacities"></a>Post Capacities
 In the capacity journal, you post consumed capacities that are not assigned to the works order. For example, maintenance work must be assigned to capacity, but not to a works order.  

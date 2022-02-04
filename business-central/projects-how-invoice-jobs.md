@@ -8,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
+ms.search.form: '1002, 1007,'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 4c4bfd0293ddfa626dda75518219e597b6c4e721
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439183"
 ---
 # <a name="invoice-jobs"></a>Invoice Jobs
 During the project, job costs from resource usage, materials, and job-related purchases can accumulate. As the job progresses, these transactions get posted to the job journal. It is important that all costs get recorded in the job journal before you invoice the customer.

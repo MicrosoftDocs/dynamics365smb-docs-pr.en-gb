@@ -1,23 +1,16 @@
 ---
 title: Setting up Cash Flow Analysis (contains video)
-description: Use Accounts Role Centre charts to analyse the flow of money in your business, including expenses and income, liquidity, and cash receipts minus cash payments.
-services: project-madeira
-documentationcenter: ''
+description: 'Use Accounts Role Centre charts to analyse the flow of money in your business, including expenses and income, liquidity, and cash receipts minus cash payments.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
+ms.search.keywords: 'money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds'
+ms.search.form: '846, 847, 849, 855, 862, 869, 1818'
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 718aed64e13b28972210918c8171956f79485006
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940408"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setting Up Cash Flow Analysis
 If you want some help to decide what to do with your cash, have a look at the charts on the Accountant Role Centre:  
@@ -129,6 +122,7 @@ You can also create your own predictive web service based on a public model name
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
+
 [Analysing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

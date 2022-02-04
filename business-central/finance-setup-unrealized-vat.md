@@ -1,29 +1,28 @@
 ---
-title: Setting Up Unrealised Value Added Tax | Microsoft Docs
-description: If you're using cash-based accounting, you can specify how to handle unrealised VAT for sales and purchases.
+title: Setting Up Unrealised Value Added VAT
+description: 'If you''re using cash-based accounting, you can specify how to handle unrealised VAT for sales and purchases.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: cash, VAT, unrealized, cash-based
+ms.search.keywords: 'cash, VAT, unrealized, cash-based'
+ms.search.form: '118, 472, 473'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca04192ef31e281e7d3e07e2f1823079e1f89151
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446197"
 ---
+
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Set Up Unrealised VAT for Cash-Based Accounting
+
 If you are using cash-based accounting methods, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to handle unrealised VAT.
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>To use general ledger accounts for unrealised VAT
+
 You can choose to have VAT amounts calculated and posted to a temporary general ledger account when an invoice is posted, and then posted to the correct general ledger account and included in VAT statements when the actual payment of the invoice is posted. Before you can do this, you must complete the VAT posting setup.
 
 To use accounts for unrealised VAT, follow these steps:
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, and enter **General Ledger Setup**.
 2. On the **General Ledger Setup** page, select the **Unrealised VAT** check box.
 3. Choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), and enter **VAT Posting Setup**.

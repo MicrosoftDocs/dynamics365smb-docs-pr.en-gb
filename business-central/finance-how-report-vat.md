@@ -1,23 +1,20 @@
 ---
-title: Submit VAT Reports to Tax Authorities| Microsoft Docs
-description: Learn how to prepare reports that lists VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.
+title: Submit VAT Reports to Tax Authorities
+description: 'Learn how to prepare reports that lists VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, tax, report, EC sales list, statement
+ms.search.keywords: 'VAT, tax, report, EC sales list, statement'
+ms.search.form: '321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0342f6009f91140cea9695caca1517a920ac6613
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444494"
 ---
+
 # <a name="report-vat-to-tax-authorities"></a>Report VAT to Tax Authorities
+
 This topic describes the reports in [!INCLUDE[prod_short](includes/prod_short.md)] that you can use to submit information about value-added tax (VAT) amounts for sales and purchases to tax authorities in your region. 
 
 You can use the following reports :

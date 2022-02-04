@@ -1,22 +1,16 @@
 ---
-title: Importing Many Item Pictures from a ZIP File| Microsoft Docs
-description: To import multiple item pictures give picture files names corresponding to item numbers, compress them to a ZIP file, and use the Import Item Pictures page.
-documentationcenter: ''
+title: Importing Many Item Pictures from a ZIP File
+description: 'To import multiple item pictures give picture files names corresponding to item numbers, compress them to a ZIP file, and use the Import Item Pictures page.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: product, image
+ms.search.keywords: 'product, image'
+ms.search.form: '30, 461'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ac8d68d067c03039433d78be475d74efb3fec1fd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440531"
 ---
 # <a name="import-multiple-item-pictures"></a>Import Multiple Item Pictures
  You can import multiple item pictures in one go. Simply name your picture files with names corresponding to your item numbers, compress them to a zip file, and then use the Import Item Pictures page to manage which item pictures to import.

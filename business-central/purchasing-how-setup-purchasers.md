@@ -1,8 +1,6 @@
 ---
-title: Set Up Purchasers and Assign Purchasers to Vendors (contains video) | Microsoft Docs
-description: If several purchasers, or purchasing agents, work at your company, you can organise them for statistical analysis.
-services: project-madeira
-documentationcenter: ''
+title: Set Up Purchasers and Assign Purchasers to Vendors (contains video)
+description: 'If several purchasers, or purchasing agents, work at your company, you can organise them for statistical analysis.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
+ms.search.form: '14, 5116'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdfb1198234a0bfcbbc74e7816568f2f06b21b10
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940183"
 ---
 # <a name="set-up-purchasers"></a>Set Up Purchasers
 If several purchasers work at your company, you can set them up in a page and assign them each a code. You can then use the codes to prepare statistics and to filter information in printed reports.<br><br>  

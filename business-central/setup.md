@@ -1,21 +1,15 @@
 ---
 title: Overview of Tasks to Set Up Business Central
-description: Read an overview of the tasks to set up, initialise, and configure Business Central to suit your needs.
+description: 'Read an overview of the tasks to set up, initialise, and configure Business Central to suit your needs.'
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: configure, initialize
+ms.search.keywords: 'configure, initialize'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 5cbd8a674945fa5c33d502cffb865677c66bce39
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588483"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -45,7 +39,7 @@ Some functionality, either general or for specific business processes, can be se
 |Establish standard services, symptoms, and fault codes and set up the service items, resources, and documentation needed to provide service to your customers.|[Setting Up Service Management](service-setup-service.md)|
 |Read best practices for setting items up for up inventory costing and supply planning.|[Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)|
 |Improve the quality of implementation and shorten deployment time by using a toolset for setting up a new company using wizards, templates, worksheets, and customer questionnaires.|[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
-|Transfer customers, suppliers, inventory, and bank accounts information from another system into [!INCLUDE[prod_short](includes/prod_short.md)]|[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).|
+|Transfer customers, suppliers, stock, and bank accounts information from another system into [!INCLUDE[prod_short](includes/prod_short.md)]|[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).|
 |Use Business Central Outlook add-ins to see financial data related to customers and suppliers or create and send financial documents, such as quotes and invoices.|[Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)|
 |Get insights into your Business Central data with Power BI and the Business Central content packs.|[Enabling Your Business Data for Power BI](admin-powerbi.md)|
 |Use your Business Central data as part of a workflow in Power Automate.|[Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)|
@@ -68,7 +62,7 @@ Some areas require you to be an administrator in your [!INCLUDE[prod_short](incl
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Inventory](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Project Management](projects-manage-projects.md)  
 [Fixed Assets](fa-manage.md)  
 [Assembly Management](assembly-assemble-items.md)  

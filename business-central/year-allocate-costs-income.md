@@ -1,24 +1,18 @@
 ---
-title: Overview of Tasks to Allocate Costs and Income | Microsoft Docs
+title: Overview of Tasks to Allocate Costs and Income
 description: Outlines the tasks to allocate an entry in a general journal to several different accounts when you post the journal.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 283
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f7b6089a3cdcba323d13a745ae2cb8e06f3bb8a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439777"
 ---
 # <a name="allocate-costs-and-income"></a>Allocate Costs and Income
+
 You can allocate an entry in a general journal to several different accounts when you post the journal. The allocation can be made by three different methods:
 
 * Quantity
@@ -31,7 +25,9 @@ The allocation features can be used with recurring general journals and in fixed
 The following procedures describe how to prepare to allocate costs in a recurring general journal by defining allocation keys. When allocation keys are defined, you complete and post the journal like any other recurring general journal. For more information, see [Working with General Journals](ui-work-general-journals.md).
 
 ## <a name="to-set-up-allocation-keys"></a>To set up allocation keys
-You can allocate an entry in a recurring general journal to several different accounts when you post the journal. The allocation can be made by quantity, percentage, or amount.
+
+You can allocate an entry in a recurring general journal to several different accounts when you post the journal. The allocation can be made by quantity, percentage, or amount.  
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
 2. Choose the **Batch Name** field to open the **General Journal Batches** page.
 3. You can either modify allocations on an existing batch in the list or create a new batch with allocations.

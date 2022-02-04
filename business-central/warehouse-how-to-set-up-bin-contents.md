@@ -1,21 +1,15 @@
 ---
 title: Create Bin Contents
-description: After you have set up your bins, you can specify the items that you want to store in them, and set up rules that control how often bins are refilled.
+description: 'After you have set up your bins, you can specify the items that you want to store in them, and set up rules that control how often bins are refilled.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 575b2fdd00b7761fa615b9265fa5f21d402e096d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443011"
 ---
 # <a name="create-bin-contents"></a>Create Bin Contents
 

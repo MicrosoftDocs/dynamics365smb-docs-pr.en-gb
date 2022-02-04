@@ -1,23 +1,16 @@
 ---
-title: Set Up and Manage a Budget for a Job| Microsoft Docs
+title: Set Up and Manage a Budget for a Job
 description: Describes how to plan resources and forecast and control the costs of a project by setting up a budget for each job.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project budget, forecast
+ms.search.keywords: 'project budget, forecast'
+ms.search.form: '1002, 1007'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ceb57fb6425b988920957c3066aa19659d08ae89
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443466"
 ---
 # <a name="manage-job-budgets"></a>Manage Job Budgets
 You can set up a budget for each job. The budget is used to plan the resources that you allocate to a job. The budget can be either general with few entries or it can contain more entries that are divided into activity levels. You can then compare the budgeted amounts with the actual usage as recorded in the job journal. By monitoring differences between actual usage and budgeted usage, you can control an ongoing project and improve the quality of future jobs by reducing the risk of underestimating costs.

@@ -1,18 +1,13 @@
 ---
 title: Post the Year-End Closing Entry
-description: Describes how to open the journal you specified in the Close Income Statement batch job, and then review and post the year-end closing entry.
+description: 'Describes how to open the journal you specified in the Close Income Statement batch job, and then review and post the year-end closing entry.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
+ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6dfba7323eeaad538cf45525d11212a6e5d7438e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438534"
 ---
 # <a name="posting-the-year-end-closing-entry"></a>Posting the Year-End Closing Entry
 

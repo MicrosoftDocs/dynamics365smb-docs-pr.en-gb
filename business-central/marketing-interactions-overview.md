@@ -1,23 +1,17 @@
 ---
 title: Create and Manage Interactions with Contacts
-description: In Business Central, interactions are all types of communications between your company and your contacts. Read about the ways to create and manage your contacts.
+description: 'In Business Central, interactions are all types of communications between your company and your contacts. Read about the ways to create and manage your contacts.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
+ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e1876b5f94aa99d032f12c25f81d371af5f44a7c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321869"
 ---
 # <a name="managing-interactions-with-your-contacts"></a>Managing Interactions with your Contacts
 In [!INCLUDE[prod_short](includes/prod_short.md)], interactions are all types of communications between your company and your contacts. For example, communications can be email, letter, telephone, meetings, and so on.

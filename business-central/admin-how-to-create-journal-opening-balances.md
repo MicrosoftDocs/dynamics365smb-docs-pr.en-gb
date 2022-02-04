@@ -1,5 +1,5 @@
 ---
-title: How to Create Journal Opening Balances
+title: Create Journal Opening Balances
 description: Batch jobs are provided to help transfer legacy account balances to a newly configured company. You can easily transfer this data with journals postings.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,9 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.search.keywords: null
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: ac7fea479237d985204820d54953689566f5c2ac
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319545"
 ---
 # <a name="create-journal-opening-balances"></a>Create Journal Opening Balances
 
@@ -45,6 +39,9 @@ Before you start, make sure that you are using the Administration Role Centre pa
 
 > [!TIP]
 > You can use the same batch jobs to add opening balances whenever you register a new customer or supplier that you have done business with before but not registered in [!INCLUDE [prod_short](includes/prod_short.md)]. Just search for the relevant task, and then choose the relevant link.
+
+> [!IMPORTANT]
+> Specifically for opening balances for bank accounts, do not follow the steps in this article to post directly to the G/L accounts that are associated with the relevant bank accounts. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).  
 
 ## <a name="see-also"></a>See Also
 

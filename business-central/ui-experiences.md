@@ -1,22 +1,16 @@
 ---
-title: Choosing the User Experience to Show or Hide Advanced Features | Microsoft Docs
-description: Learn what the Essential and Premium user experience tiers mean for the user interface, application areas, and your company.
-documentationcenter: ''
+title: Change which features are displayed
+description: 'Learn what the Essential and Premium user experience tiers mean for the user interface, application areas, and your company.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: essential, basic, user interface, application area, experience
+ms.search.keywords: 'essential, basic, user interface, application area, experience'
+ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d56c8d6be69e12ced2dc83b884650360e95c0ab2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443625"
 ---
 # <a name="change-which-features-are-displayed"></a>Change Which Features are Displayed
 [!INCLUDE[prod_short](includes/prod_short.md)] is designed to help you run your business regardless of the size and complexity. At the core of the product, you find essential features, such as financial reporting, sales, purchasing, and inventory management. As business complexity increases, you can turn on functionality for manufacturing and service management, for example.

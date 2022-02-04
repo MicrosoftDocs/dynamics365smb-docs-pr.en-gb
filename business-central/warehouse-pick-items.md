@@ -1,21 +1,15 @@
 ---
 title: Pick Items
-description: The activity of picking items before they are shipped or consumed is performed in different ways, depending on how warehouse management features are configured.
+description: 'The activity of picking items before they are shipped or consumed is performed in different ways, depending on how warehouse management features are configured.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '5779, 5798, 7343, 7345, 7357, 7359, 7377, 7392, 7395, 7397, 9313, 9316, 9344'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 973e9b43e69205b80361ee38c0cfc0f1cf946959
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324771"
 ---
 # <a name="pick-items"></a>Pick Items
 
@@ -48,8 +42,8 @@ The following table describes a sequence of tasks, with links to the topics that
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
-[Assembly Management](assembly-assemble-items.md)    
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md) 
+[Assembly Management](assembly-assemble-items.md)
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

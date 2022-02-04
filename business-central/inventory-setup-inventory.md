@@ -1,23 +1,16 @@
 ---
-title: Setting Up Inventory| Microsoft Docs
-description: Describes how to set up your stock and inventory processes, including transfer routes and locations, such as warehouses.
-services: project-madeira
-documentationcenter: ''
+title: Setting Up Stock
+description: 'Describes how to set up your stock and inventory processes, including transfer routes and locations, such as warehouses.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: 30
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2798031fcb9796d14daa94d6614bd5da1081d32e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785580"
 ---
 # <a name="setting-up-inventory"></a>Setting Up Inventory
 Before you can manage warehouse activities and inventory costing, you must configure the rules and values that define the company's inventory policies.

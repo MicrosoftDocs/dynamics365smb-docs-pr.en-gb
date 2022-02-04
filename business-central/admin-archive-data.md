@@ -7,16 +7,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 032c425f10bae29416cf8602d0c339f3ffaa3043
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589551"
 ---
+
 # <a name="the-data-archive-extension"></a>The Data Archive Extension
 Over time, your business will accumulate a substantial amount of data, and as an administrator, it's probably a good idea to have a strategy for archiving data. Having lots of data can slow things down, for example, it might take slightly longer to generate reports, or even lock records. Additionally, large amounts of data can lead to increased storage costs.
 
@@ -39,19 +34,19 @@ The Data Archive extensions is used by the following batch jobs for date compres
 
 |Batch jobs  |
 |---------|
-|Date Comp. Item Budget Entries     |
-|Date Compress Bank Acc. Ledger     |
-|Date Compress Customer Ledger     |
-|Date Compress FA Ledger     |
-|Date Compress General Ledger     |
-|Date Compress Insurance Ledger     |
-|Date Compress Maint. Ledger     |
-|Date Compress Maint. Ledger     |
-|Date Compress Resource Ledger     |
-|Date Compress VAT Entries     |
-|Date Compress Supplier Ledger     |
-|Date Compress Whse. Entries     |
-|Date Compr. G/L Budget Entries     |
+|Date Comp. Item Budget Entries |
+|Date Compress Bank Acc. Ledger |
+|Date Compress Customer Ledger |
+|Date Compress FA Ledger |
+|Date Compress General Ledger |
+|Date Compress Insurance Ledger |
+|Date Compress Maint. Ledger |
+|Date Compress Maint. Ledger |
+|Date Compress Resource Ledger |
+|Date Compress VAT Entries |
+|Date Compress Supplier Ledger |
+|Date Compress Whse. Entries |
+|Date Compr. G/L Budget Entries |
 
 To start archiving data when you run one of the batch jobs, turn on the **Archive Deleted Entries** toggle.
 

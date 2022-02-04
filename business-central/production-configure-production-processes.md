@@ -1,23 +1,18 @@
 ---
-title: Configure Production Processes | Microsoft Docs
-description: To convert material into produced end items, production resources, such as bills of material, routings, machine operators, and machinery must be set up in the system.
+title: Configure Production Processes
+description: 'To convert material into produced end items, production resources, such as bills of material, routings, machine operators, and machinery must be set up in the system.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '99000768, 99000779, 99000780, 99000866'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 05e9585db60478bdf872f5e3132ceff1c34220b5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779414"
 ---
 # <a name="setting-up-manufacturing"></a>Setting Up Manufacturing
+
 To convert material into produced end items, production resources, such as bills of material, routings, machine operators, and machinery must be set up in the system.
 
 Operators and machines are represented in the system as machine centres that may be organised in work centres and work centre groups. When these resources are established, they can be loaded with operations according to the item's defined material (BOM) and process (routing) structure, and according to the capacity of the machine or work centre. You can also set the production capacity of each resource. Capacity is defined by the work time available in the machine and work centres, and is governed by calendars for each level. A work centre calendar specifies the working days or hours, shifts, holidays, and absence that determine the work centre’s gross available capacity (typically measured in minutes). All of this is determined by defined efficiency and capacity values.  
@@ -42,7 +37,7 @@ When you have set up manufacturing, you can plan and execute production orders. 
 |Prepare work centres and routings to represent subcontracted production operations.|[Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>See Also
-[Manufacturing](production-manage-manufacturing.md)    
+[Manufacturing](production-manage-manufacturing.md)
 [Planning](production-planning.md)   
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

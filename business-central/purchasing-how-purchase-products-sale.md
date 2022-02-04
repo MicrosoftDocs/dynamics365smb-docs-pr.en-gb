@@ -1,23 +1,19 @@
 ---
-title: Purchase Items for a Sale by Creating Purchase Invoices | Microsoft Docs
-description: From a sales invoice, to purchase products, you can create a purchase invoice for a supplier or supplier.
+title: Purchase Items for a Sale
+description: 'From a sales invoice, to purchase products, you can create a purchase invoice for a supplier or supplier.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: supply planning, sales demand, replenish
+ms.search.keywords: 'supply planning, sales demand, replenish'
+ms.search.form: '50, 51, 56, 9308'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 157be841019a9b1a44f45f19fc0708ce7645d716
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440506"
 ---
-# <a name="purchase-items-for-a-sale"></a>Purchase Items for a Sale
+# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Purchase Items for a Sale by Creating Purchase Invoices
+
 From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale. You can use two different functions depending on the document type.
 
 > [!Note]
