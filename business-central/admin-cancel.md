@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6330aeb05bf2f0ba84585c0cd8391b7cf3338de4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c7ecf1d5bcd9d59acccf0a300a9a126e9910c12b
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786864"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059523"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>Unsubscribe or Remove [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -23,7 +23,7 @@ If you want to stop using [!INCLUDE[prod_short](includes/prod_short.md)], you ca
 
 ## <a name="closing-your-free-trial-of-prod_short"></a>Closing your free trial of [!INCLUDE[prod_short](includes/prod_short.md)]
 
-If you signed up for the free trial and do not want to continue with [!INCLUDE[prod_short](includes/prod_short.md)], you can close your account at any time. We recommend that you export any data before you close your account. 
+If you signed up for the free trial and do not want to continue with [!INCLUDE[prod_short](includes/prod_short.md)], you can close your account at any time. We recommend that you export any data before you close your account. You can read about how to export data to Excel in the [Exporting Data to Other Finance Systems](about-export-data.md#exporting-data-to-other-finance-systems). If you would rather export all data to an Azure storage container, your Microsoft 365 administrator can do that in the admin centre. For more information, see [Exporting Databases in the Admin Centre](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
 
 You must ask your Microsoft 365 administrator to remove the trial subscription from your company's account in the [Microsoft 365 admin centre](https://admin.microsoft.com/).  
 
@@ -38,14 +38,18 @@ If your company wants to unsubscribe from [!INCLUDE[prod_short](includes/prod_sh
 User accounts and licences are managed in the [Microsoft 365 admin centre](https://admin.microsoft.com/). Only administrators can remove [!INCLUDE[prod_short](includes/prod_short.md)] licences from user accounts or remove the subscription from your company's account.  
 
 ## <a name="removing-prod_short-from-your-app-launcher"></a>Removing [!INCLUDE[prod_short](includes/prod_short.md)] from your app launcher
+
 If you want to hide [!INCLUDE[prod_short](includes/prod_short.md)] from your app launcher, you can quite simply unpin it. This does not remove any data, and it does not cancel your subscription.  
 
 ## <a name="see-also"></a>See Also
+
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Creating New Companies](about-new-company.md)  
 [Exporting Your Business Data to Excel](about-export-data.md)  
 [Microsoft 365 admin centre](https://admin.microsoft.com/)  
 [How long is the trial period and how do I cancel?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+[Exporting Your Business Data to Excel](about-export-data.md)  
+[Exporting Databases in the Admin Centre](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

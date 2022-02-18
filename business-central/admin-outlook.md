@@ -7,10 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'SMTP, mail, Microsoft 365, Outlook'
-ms.search.form: '1831, 1832'
+ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
+ms.search.form: 1831, 1832
 ms.date: 08/13/2021
 ms.author: jswymer
+ms.openlocfilehash: 7fa8eabcffeb19b77c98ed9f9b7036dff6cbbf35
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049602"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Get the Business Central Add-in for Outlook
 
@@ -72,7 +78,7 @@ Centralised Deployment is a feature in Microsoft 365 admin centre that you use t
 
 8. Choose **Upload custom apps**.
 9. On the **Upload Apps to deploy** page, choose **Upload manifest file (.xml) from device** > **Choose file**.
-10. Select one of the add-files you extracted earlier, for example, **Content Insights.xml**.
+10. Select one of the add-files you extracted earlier, for example, **Contact Insights.xml**.
 11. Follow the instructions to assign users and deploy the add-in.
 12. Repeat step 9 through 11 for the other add-in file if you want.
 

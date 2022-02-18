@@ -1,15 +1,22 @@
 ---
 title: Overview of Tasks to Manage Sales
-description: 'Read all about how to use Business Central''s services for managing sales activities with your customers with sales invoices, orders, quotes and more.'
+description: Read all about how to use Business Central's services for managing sales activities with your customers with sales invoices, orders, quotes and more.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'trade, sell'
+ms.search.keywords: trade, sell
+ms.search.form: 253
 ms.date: 06/25/2021
 ms.author: edupont
+ms.openlocfilehash: 815c9240c9c81129009f70f050c869df4eea9b3a
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101010"
 ---
 # <a name="sales"></a>Sales
 You create a sales invoice or sales order to record your agreement with a customer to sell certain products on certain delivery and payment terms.

@@ -7,10 +7,16 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'SMTP, email, Office 365, connector'
-ms.search.form: 1805
+ms.search.keywords: SMTP, email, Office 365, connector
+ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.openlocfilehash: 7e71694e59dcd17072bb7616324953ca02117a89
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115073"
 ---
 # <a name="set-up-email"></a>Set Up Email
 People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can make that easier to do by connecting one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], so you can send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colours, and so on, and add attachments of up to 100MB. Administrators can also set up report layouts that include only the key information from documents. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).

@@ -8,9 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.search.form: '26, 27, 34, 786, 1379, 1385, 1386, 1628'
+ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 09/29/2021
 ms.author: edupont
+ms.openlocfilehash: 1cbdf85f08939aa05c013901239bbd390400f3e1
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115509"
 ---
 # <a name="register-new-vendors"></a>Register New Suppliers
 

@@ -7,34 +7,21 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: 26dbb93fe003caf140caaad07d31b85be508085b
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 5488ba8331494ba662960e84d4907de76a68e72b
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543152"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102350"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Financial Reports and Analytics in Business Central
 
 Financial reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows financial and business professionals to create, maintain, deploy, and view financial statements. It moves beyond traditional reporting constraints to help you efficiently design various types of reports. [!INCLUDE [prod_short](includes/prod_short.md)] includes several reports, tracing functions, and tools that help auditors or controllers who are responsible for reporting to the finance department. Financial reporting includes support for dimensions, so account segments or dimensions are immediately available. No other tools or configuration steps are required.  
 
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
 ## <a name="reports"></a>Reports
-
-The following table describes some of the key reports in financial reporting.
-
-| Report | Object ID | Description |
-|--|--|--|
-| **Trial Balance** | 6 | Shows the chart of accounts with balances and net changes. You can choose to see a trial balance for selected dimensions. You can use the report at the close of an accounting period or financial year. |
-| **Trial Balance by Period** | 38 | Shows the opening balance by general ledger account, the movements in the selected period of month, quarter, or year, and the resulting closing balance. |
-| **Trial Balance/Budget** | 9 | Shows a trial balance in comparison to a budget. You can choose to see a trial balance for selected dimensions. You can use the report at the close of an accounting period or financial year. |
-| **Detailed Trial Balance** | 4 | Shows a detail trial balance for selected general ledger accounts. You can use the report at the close of an accounting period or financial year. You can define which accounts are included in the report by setting filters. |
-| **Trial Balance/Previous Year** | 7 | Shows a trial balance in comparison to the previous year's figures. You can choose to see a trial balance for selected dimensions. You can use the report at the close of an accounting period or financial year. *The previous year* means the same period one calendar year earlier. |
-| **Account Schedule** | 25 | Account schedules can be used to display the general ledger accounts in a different way than in the chart of accounts. For example, account schedules can be used for reports on key figures. |
-<!-- | **Balance Sheet** (Acc.Schedule or Excel) or **Trial Balance** |  |  |
-| **Statement of Cash Flow** (Account Schedule) |  |  |
-| **Trial Balance Summary/Detail** |  |  |
-| **Income Statement** (Acc.Schedule or Excel) |  |  |
-| **Budget** |  |  | -->
+[!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 ## <a name="tasks"></a>Tasks
 

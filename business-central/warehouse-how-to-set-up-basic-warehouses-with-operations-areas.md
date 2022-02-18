@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 35482dca465da05be01c4eed86e93d30a75e6dcf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6dbf91bcf720a3b57f7e6e9446b0a46d1e053987
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441404"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115205"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Set Up Basic Warehouses with Operations Areas
 If internal operation areas such as production or assembly exist in basic warehouse configurations where locations use the **Bin Mandatory** setup field and possibly the **Require Pick** and **Require Put-away** setup fields, then you can use the following basic warehouse documents to record your warehouse activities for internal operation areas:  
@@ -46,14 +47,15 @@ The following procedures are based on setting up basic warehouse activities arou
 3.  On the **Warehouse** FastTab, select the **Require Put-away** check box to indicate that, when an inbound or internal source document with a bin code is released, a inventory put-away or a inventory movement document can be created.  
 4.  Select the **Require Pick** check box to indicate that when an outbound or internal source document with a bin code is created, a inventory pick or a inventory movement document must be created.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>To define a default bin structure in the production area  
+## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>To define a default bin structure in the production area
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Open the Location you want to set up.  
 3.  On the **Bins** FastTab, in the **Open Shop Floor Bin Code** field, enter the code of the bin in the production area with plenty of components that the machine operator can consume from without requesting a warehouse activity to bring them to the bin. Items that are placed in this bin are typically set up for automatic posting, or flushing. This means that the **Flushing Method** field contains **Forward** or **Backward**.  
 4. In the **To-Production Bin Code** field, enter the code of the bin in the production area where components that are picked for production at this location are placed by default before they can be consumed. Items that are placed in this bin are typically set up for manual consumption posting. This means that the **Flushing Method** field contains **Manual** or **Pick + Forward** or **Pick + Backward** for warehouse picks and inventory movements.  
 
     > [!NOTE]  
-    >  When you use inventory picks, the **Bin Code** field on a works order component line defines the *take* bin from where components are decreased when posting consumption. When you use inventory movements, the **Bin Code** field on works order component lines defines the *place* bin in the operation area where the warehouse worker must place the components.  
+    > When you use inventory picks, the **Bin Code** field on a works order component line defines the *take* bin from where components are decreased when posting consumption. When you use inventory movements, the **Bin Code** field on works order component lines defines the *place* bin in the operation area where the warehouse worker must place the components.  
 
 5. On the **Bins** FastTab, in the **From-Production Bin Code** field, enter the code of the bin in the production area where finished end items are taken from by default when the process involves a warehouse activity. In basic warehouse configurations, the activity is recorded as a inventory put-away or a inventory movement.  
 
@@ -61,7 +63,7 @@ Now, works order component lines with the default bin code require that forward-
 
 This flow chart shows how the **Bin Code** field on works order component lines is filled according to your setup.  
 
-![Bin flow chart.](media/binflow.png "BinFlow")    
+![Bin flow chart.](media/binflow.png "BinFlow")
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>To define a default bin structure in the assembly area
 Components for assembly orders cannot be picked or posted with inventory picks. Instead, use the **Inventory Movement** page. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
@@ -136,8 +138,8 @@ Making a bin dedicated provides similar functionality to using bin types, which 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
-[Assembly Management](assembly-assemble-items.md)    
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

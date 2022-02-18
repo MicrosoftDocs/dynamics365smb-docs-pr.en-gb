@@ -1,5 +1,5 @@
 ---
-title: Keeping a Report Layout Up-to-date
+title: Update Custom Report Layouts
 description: Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99b0f191bf9890683bb6cbb68f7baef0342f9737
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3d3aabe01a9969e8665f24479d8b11b26b54d5b
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445283"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101484"
 ---
 # <a name="update-custom-report-layouts"></a>Update Custom Report Layouts
+
 Occasionally, you may need to update a custom report layout that is used on a report. This is required when there has been a design change to the report's data set, for example, a field that is used in the layout has been removed from the report data set. If a report layout requires updating, you will get an error message when you try to preview, print or save the report.  
 
 You can automatically update a report layout from the error message that appears when you run the report by choosing the **Yes** button on the error message. Or, in advance of running reports, you can update specific report layouts or all custom report layouts that might be affected by dataset changes.  

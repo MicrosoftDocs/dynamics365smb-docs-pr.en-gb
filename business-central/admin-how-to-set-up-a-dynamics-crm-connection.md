@@ -4,22 +4,21 @@ description: Set up a connection between Business Central and Dataverse. Busines
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: b3ee8bb3bee08c131447233de7b691d2bb2e46bd
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: bbe27c46562fa7550619283cb85cd1d7dcc76a3c
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940483"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059551"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Connect to Microsoft Dataverse
 
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 This topic describes how to set up a connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Typically, businesses create the connection to integrate and synchronise data with another Dynamics 365 business app, such as [!INCLUDE[crm_md](includes/crm_md.md)].  
 

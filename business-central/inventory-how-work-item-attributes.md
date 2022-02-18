@@ -1,5 +1,5 @@
 ---
-title: Set Up Item Attributes and Assign Them to Items| Microsoft Docs
+title: Set Up Item Attributes and Assign Them to Items
 description: Describes how to set up item attribute values, for example, that can be used as search words, and assign them to items and item categories.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
+ms.search.forms: 7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 9110, 5734, 7508
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4ec2ab337c56b9110162b198c1cb656e605ebc8c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d2c8eec702840e6046eab362a867317091a9c3aa
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444902"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059367"
 ---
 # <a name="work-with-item-attributes"></a>Work with Item Attributes
 When customers inquire about an item, either in correspondence or in an integrated web shop, they may ask or search according to characteristics, such as height and model year. To provide this customer service, you can assign item attribute values of different types to your items, which can then be used when searching for items.
@@ -31,7 +32,7 @@ You can also assign item attributes to item categories, which then apply to the 
 3. On the **Item Attribute** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   If you select **Option** in the **Type** field, then you can choose the **Item Attribute Values** action to create values for the item attribute. For more information, see [To create values for item attributes of type Option](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
+>   If you select **Option** in the **Type** field you can choose the **Item Attribute Values** action to create values for the item attribute. For more information, see [To create values for item attributes of type Option](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>To create values for item attributes of type Option
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Attributes**, and then choose the related link.

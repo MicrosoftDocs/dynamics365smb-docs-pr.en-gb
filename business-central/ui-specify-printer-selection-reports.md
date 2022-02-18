@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
+ms.openlocfilehash: 79f9e9d03eb8ac58bcddfeb39669b0dc08763f1f
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547055"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102454"
 ---
 # <a name="set-up-printers"></a>Set Up Printers
 
@@ -267,6 +267,9 @@ You or the administrator can also use the **Printer Selections** page to define 
 
 > [!NOTE]
 > More specific printer selections take precedence over a more general printer selections. For example, a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
+
+### <a name="choosing-the-printer-when-running-a-report"></a>Choosing the printer when running a report
+Instead of using the default printer when running a report, you can override this setting from the request page. Simply choose the wich printer you want to use for this invocation of the report in the **Printer** dropdown menu.
 
 ### <a name="sizing-print-jobs"></a>Sizing Print Jobs
 

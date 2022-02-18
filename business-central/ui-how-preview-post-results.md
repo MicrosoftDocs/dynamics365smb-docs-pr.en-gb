@@ -1,8 +1,6 @@
 ---
-title: Preview Entries Before You Post a Document or Journal | Microsoft Docs
+title: Preview Entries Before You Post a Document or Journal
 description: You can make sure that entries for documents and journals are accurate before you post them to the general ledger.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -11,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: fc137cb8c45d935be28d5ededc435d2d4648f8bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3392698c48cd4d1febdf1e37d396ceed1ac37bf5
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441051"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101510"
 ---
 # <a name="preview-posting-results"></a>Preview Posting Results
 On every document and journal that can be posted, you can choose the **Preview Posting** button to review the different types of entries that will be created when you post the document or journal.

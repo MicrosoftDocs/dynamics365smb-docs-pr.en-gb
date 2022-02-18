@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2f23357fde2dc86e0be0ee09099d57623056365c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d058b15ad55713a22ee70862f666301d36d53e0a
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444927"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060045"
 ---
 # <a name="work-with-bills-of-material"></a>Work with Bills of Material
 You use bills of materials (BOMs) to structure parent items that must be assembled or produced by resources or machine centres from components. An assembly BOM can also be used to sell a parent item as a kit consisting of its components.
@@ -71,7 +72,7 @@ From the **Assembly BOM** page, you can open a separate page that shows the comp
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>To replace the assembly item with its components on document lines
 From any sales and purchase document that contains an assembly item, you can use a special function to replace the line for the assembly item with new lines for its components. This function is useful, for example, if you want to sell the components as a kit that represents the assembly item.
 
-The Explode BOM function is also available on the **Assembly BOM** page as a method to view child items on any subassemblies on an assembly BOM.
+The **Explode BOM** action is also available on the **Assembly BOM** page as a way to view sub-assembly items on an assembly BOM.
 
 > [!CAUTION]  
 >  When you have used the **Explode BOM** function, you cannot easily undo it. You must delete the sales order lines representing the components and then reenter a sales order line for the assembly item.

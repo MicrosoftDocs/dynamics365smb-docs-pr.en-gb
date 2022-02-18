@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: d1feca5e6eddd6115d10d1395eecccde3b09039f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2631307db3975eeb406662caac2edf2f9d83238c
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323725"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101459"
 ---
 # <a name="application-compliance"></a>Application Compliance
 
@@ -77,7 +77,6 @@ Deliver integrated information, aligned processes, and easy-to-use tools to help
 - Save time    when you create    standard reports that use common business parameters and criteria to satisfy typical reporting needs, ranging from order summaries to ageing sales ledger.
 - Perform complex reviews with basic or    advanced business analytics functionality.
 - Create custom reports and display in product and by utilizing integration to Microsoft PowerBI.
-- Speed    transmission of    financial information to customers, shareholders, regulatory agencies, and the public with XML-based XBRL documents that support the exchange of financial information across different software and technologies, including the Internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Help ensure clear audit trails
 

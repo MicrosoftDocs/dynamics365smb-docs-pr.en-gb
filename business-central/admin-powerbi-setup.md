@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 932bf57b8801c758c6bcaff4fbdad69265853487
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c8f12e98196d8dd22ff63c73ffd3967cf256244c
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724695"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049881"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Enabling Power BI Integration With [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -44,7 +44,12 @@ An API page is a specific page type created in AL code that provides access to d
 
 Business Central online comes available with a set of built-in APIs, which you can use to get data for the most common business entities, like customers, items, sales orders, and more. No extra work or setup is required to use these APIs as a data source for Power BI reports. For more information about these APIs, see [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
 
-Business Central online also supports custom APIs. Application developers of Business Central solutions can create their own API pages and package them into extensions. You can install the extensions on your tenant. Once installed, you can use the API pages for your Power BI reports, like you'd do with the built-in APIs (v2.0). For more information about how to create API pages, see [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+Business Central online also supports custom APIs. Application developers of Business Central solutions can create their own API pages and package them into extensions. You then install the extensions on your tenant. Once installed, you use the API pages for your Power BI reports, like you'd do with the built-in APIs (v2.0). For more information about how to create API pages, see [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+
+> [!IMPORTANT]
+> Starting in February 2022, Power BI reports for [!INCLUDE[prod_short](includes/prod_short.md)] online are sourced from a secondary, read-only database replica for performance reasons. As a consequence, AL developers should avoid designing API pages that make database modifications while the pages are opening or loading records. In particular, consider the code on the AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord, and OnAfterGetCurrRecord. These database modifications, in some cases, may cause performance problems and prevent the report from refreshing data. For more information, see [Performance Articles For Developers](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) in the Business Central development help.
+>
+> In rare cases, the behaviour will cause an error when a user tries get data from the API page for a report in Power BI Desktop. However, if database modifications are necessary in the custom API page, Power BI Desktop users can force the behaviour. For more information, see [Building Power BI Reports to Display Business Central Data](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
 ### <a name="odata-web-services"></a>OData web services
 
@@ -91,6 +96,7 @@ This section explains the requirements for a [!INCLUDE[prod_short](includes/prod
     Before end-users can use Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], an Azure application administrator will have to give consent to the Power BI service.
 
     To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the role centre. This action will lead you through the consent process, and check your Power BI licence. When prompted sign in using an Azure admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 

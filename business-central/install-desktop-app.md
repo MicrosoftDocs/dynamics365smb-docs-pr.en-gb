@@ -8,20 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/01/2021
+ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: babf20be3c22a3d4b7dd710e2486c59bc11351fe
-ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
+ms.openlocfilehash: 6372d08aef8dfaca6044101a17eea40d89d82722
+ms.sourcegitcommit: 9244ec802d68a7d90b13678ec3dfab5abb79c734
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7596654"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8050912"
 ---
 # <a name="get-business-central-desktop-app"></a>Get Business Central Desktop App
 
-If you have a Windows (PC) or macOS computer, you can install a Business Central app on your desktop. 
-> [!NOTE]
-> If you're using Business Central 2021 release wave 1 or earlier, get the app from [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848).
+If you have a Windows (PC) or macOS computer, you can install a Business Central app on your desktop. The app works with Business Central online and on-premises.
 
 ## <a name="why-use-the-app"></a>Why use the app?
 
@@ -30,11 +28,23 @@ The Business Central app resembles the web client, but it provides a few benefit
 - The app is readily available from the **Start** menu, you can easily pin it to the task bar, or have it launch by default when you start your computer.
 - In general, the app also is a faster and smoother to render on screen, with no performance differences, compared to running [!INCLUDE[prod_short](includes/prod_short.md)] in the browser.
 - The app opens in its own window, independent of any browser windows. This feature makes it easier to find when running a large number many apps or browser tabs.
-- If you have more than one Business Central environment (online only), you can install the app separately for each environment.
+- If there's more than one Business Central environment (online only), you can install the app separately for each environment.
 
      When you open the app for specific environment, the environment name is included in the window title. When working across multiple [!INCLUDE[prod_short](includes/prod_short.md)] environments, each app window is displayed separately. The name makes it easier for you to see which window is associated with each environment.
 
-## <a name="install-the-app"></a>Install the app
+## <a name="install-the-app-for-business-central-online"></a>Install the app for Business Central online
+
+There are two ways to install the app for Business Central online. You can install it directly from the browser or from Microsoft Store. Whichever approach you use, it's the same app. The difference is that  installing from the browser lets you install the app for each environment when there's more than one.
+
+### <a name="from-microsoft-store"></a>From Microsoft Store
+
+1. Go to [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
+2. Choose **Get** > **Install**. 
+3. When the app has been installed, choose **Open**, then sign in to Business Central.
+
+The next time you want to open the app, look for it in **Start** menu.
+
+### <a name="from-the-browser"></a>From the browser
 
 1. Open the [!INCLUDE[prod_short](includes/prod_short.md)] web client in either Microsoft Edge or Google Chrome.
 
@@ -54,16 +64,14 @@ The Business Central app resembles the web client, but it provides a few benefit
 
 Once installed, the app appears in the **Start** menu. If you've selected a specific environment for the app, the environment name is added to the app name in the **Start** menu.
 
-### <a name="for-business-central-on-premises"></a>For Business Central on-premises
+## <a name="install-the-app-for-business-central-on-premises"></a>Install the app for Business Central on-premises
 
-Installing the app when you're using Business Central on-premises is basically the same as described above. If you only have one tenant, just open the Business Central in your browser, then select either ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** as shown above. 
+Installing the desktop app when you're using Business Central on-premises is done directly from the browser as [described above](#from-the-browser). If you only have one tenant, just open the Business Central in your browser, then select either ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** as shown above.
 
-The difference is when you have multiple tenants. Unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, where you can install the app separately for different environments, with on-premises you can only install the app for one tenant. So, before you install the app when you have multiple tenants, be sure to switch to the correct tenant. Once installed, when you open the app, it will directly open the tenant.
+The difference is when you have multiple tenants. Unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, where you can install the app for different environments, you can only install the app for one tenant. So before you install the app when you have multiple tenants, be sure to switch to the correct tenant. Once installed, when you open the app, it will directly open the tenant.
 
-<!-- for FAQ or troubleshooting
-> [!NOTE]
-> To install the app, [!INCLUDE[prod_short](includes/prod_short.md)] must be configured for HTTPS. If it isn't, you won't see ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** in the browser. If you're having problems, contact your administrator or see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection) about how to configure HTTPS.
--->
+> [!IMPORTANT]
+> If you're using Business Central 2021 release wave 1 (version 18) or earlier, you can't install the app as described in this article. Instead, install the app from [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). For more information and help about installing this legacy app, see [Preparing For and Installing the Business Central App](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
