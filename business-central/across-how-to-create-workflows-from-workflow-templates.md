@@ -1,35 +1,35 @@
 ---
-title: How to Create Workflows from Workflow Templates
-description: To save time when creating new workflows, you can create non-editable workflows from workflow templates prefixed with "MS".
+title: How to Create Workflows from Workflow Templates | Microsoft Docs
+description: To save time when creating new workflows, you can create workflows from workflow templates.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
-ms.author: edupont
-ms.openlocfilehash: 4c3c8011802d9deb1b7a3804758333f08fc2403b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6b4d09ae0bd0f2def940e2516bdc54bc04f300ca
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438439"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188403"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Create Workflows from Workflow Templates
 To save time when creating new workflows, you can create workflows from workflow templates.  
 
- Workflow templates are non-editable workflows that exist in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)]. The codes for workflow templates that are added by Microsoft are prefixed with “MS-“.  
+ Workflow templates are non-editable workflows that exist in the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)]. The codes for workflow templates that are added by Microsoft are prefixed with “MS-“.  
 
- Another way to quickly create a workflow is to import an existing workflow that you have on a file outside of [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Export and Import Workflows](across-how-to-export-and-import-workflows.md).  
+ Another way to quickly create a workflow is to import an existing workflow that you have on a file outside of [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Export and Import Workflows](across-how-to-export-and-import-workflows.md).  
 
 On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
 ## <a name="to-create-a-workflow-from-workflow-template"></a>To create a workflow from workflow template  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2.  Choose the **Create Workflow from Template** action. The **Workflow Templates** page opens.  
 3.  Select a workflow template, and then choose the **OK** button.  
 
@@ -45,6 +45,3 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
  [Setting Up Workflows](across-set-up-workflows.md)   
  [Using Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,53 +1,49 @@
 ---
-title: Batch Post Production Output and Run Times
-description: The output quantity represents the work progress in the form of the finished quantity and used capacity of work or machine centre.
+title: How to Batch Post Production Output and Run Times| Microsoft Docs
+description: The output quantity represents the work progress in the form of the finished quantity.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: '99000773, 99000778, 99000823, 99000827'
-ms.date: 04/01/2021
-ms.author: edupont
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: a0eeb0a944a0feaee27fcb6d5891f83151499940
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877795"
 ---
 # <a name="batch-post-output-and-run-times"></a>Batch Post Output and Run Times
-The output quantity represents the work progress in the form of the finished quantity and used capacity of work or machine centre.
-
-You can use the output journal to:
-
-* Adjust inventory in connection with output of finished items from production.
-* Register quantities and scrap for each operation in production routing.
-* Register setup and run time for work and machine centres.
+The output quantity represents the work progress in the form of the finished quantity.  
 
 > [!NOTE]
-> If production routing are used, the inventory is updated only when you post output quantity on the last operation.
+> Only when you post output quantity on the last operation, the inventory is updated automatically.  
 
-With the **Production Journal** window, you can perform the same tasks as in the **Output Journal** window and at the same time perform the related consumption posting tasks. For more information, see [Register Consumption and Output for One Released works order line](production-how-to-register-consumption-and-output.md).
-
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>To post output quantities and/or register run times for one or more works order lines
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
-2. Fill in the fields with the works order data and the output data and/or run time. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-  
-    You can use the **Explode Routing** function to generate journal lines from works orders.
-  
+## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>To post output quantities for one or more production order lines
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
+2. Fill in the fields with the production order data and the output data. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. If the operation has been completed, select the **Finished** field.  
-4. Choose the **Post** action to post the operations. 
 
-Capacity ledger entries are updated for the used work or machine centres with information about time and quantity of output and scrap.  
+    If the warehouse location where the items should be put away uses bins but does not require put-away processing,  assign a bin code to the journal line to specify where the items should be placed in the warehouse. For more information, see [Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md).  
 
-If you posted the last operation, the item will be added to the inventory.  
+4. Choose the **Post** acto post the operations. The output quantity will be posted. The item is now available for shipping.  
 
-## <a name="see-also"></a>See Also
+## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>To post run times for one or more production order lines
+The run time represents work progress in the form of the necessary working time.    
 
-[Post Scrap Manually](production-how-to-post-scrap.md)
-[Reverse Output Posting](production-how-to-reverse-output-posting.md)
-[Manufacturing](production-manage-manufacturing.md)
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
+2. Fill in the fields with the production order data and the output data.  
+3.  If the operation is completed, select the **Finished** field.  
+4. Choose the **Post** action to post the time spent per operation. Capacity ledger entries are updated for the used work or machine centres.
+
+## <a name="see-also"></a>See Also  
+[Manufacturing](production-manage-manufacturing.md)    
 [Setting Up Manufacturing](production-configure-production-processes.md)  
-[Planning](production-planning.md)  
+[Planning](production-planning.md)      
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Purchasing](purchasing-manage-purchasing.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

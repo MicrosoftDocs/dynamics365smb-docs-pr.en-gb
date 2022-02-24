@@ -1,41 +1,35 @@
 ---
-title: Design Details - Inventory Periods
-description: Inventory Periods helps avoid problems with balances and stock valuations by opening or closing inventory periods to limit posting in a set period of time.
+title: Design Details - Inventory Periods | Microsoft Docs
+description: Backdated transactions or cost adjustments often affect balances and stock valuations for accounting periods that may be considered closed. This can have adverse effects on accurate reporting, especially within global corporations. The Inventory Periods feature can be used to avoid such problems by opening or closing inventory periods to limit posting in a set period of time.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 66624cd4a6992ed227055748f5e8bc972187a8dc
-ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 3c7b00ebf328ae61bb298b4c9d64762b3bd528d1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/27/2021
-ms.locfileid: "7865703"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185259"
 ---
 # <a name="design-details-inventory-periods"></a>Design Details: Inventory Periods
 Backdated transactions or cost adjustments often affect balances and stock valuations for accounting periods that may be considered closed. This can have adverse effects on accurate reporting, especially within global corporations. The Inventory Periods feature can be used to avoid such problems by opening or closing inventory periods to limit posting in a set period of time.  
 
- A inventory period is a period of time, defined by an ending date, in which you post inventory transactions. When you close a inventory period, no value changes can be posted in the closed period. This includes new value postings, expected or invoiced postings, changes to existing values, and cost adjustments. However, you can still apply to an open item ledger entry that falls in the closed period. For more information, see [Design Details: Item Application](design-details-item-application.md).  
+ An inventory period is a period of time, defined by an ending date, in which you post inventory transactions. When you close an inventory period, no value changes can be posted in the closed period. This includes new value postings, expected or invoiced postings, changes to existing values, and cost adjustments. However, you can still apply to an open item ledger entry that falls in the closed period. For more information, see [Design Details: Item Application](design-details-item-application.md).  
 
- To make sure that all transaction entries in a closed period are final, the following conditions must be met before a inventory period can close:  
+ To make sure that all transaction entries in a closed period are final, the following conditions must be met before an inventory period can close:  
 
 -   All outbound item ledger entries in the period must be closed (no negative inventory).  
 -   All item costs in the period must be adjusted.  
--   All released and finished works orders in the period must be cost adjusted.  
+-   All released and finished production orders in the period must be cost adjusted.  
 
- When you close a inventory period, a inventory period entry is created by using the number of the last item register that falls in the inventory period. In addition, the time, date, and user code of the user closing the period are recorded in the inventory period entry. By using this information with the last item register for the previous period, you can see which inventory transactions were posted in the inventory period. It is also possible to reopen inventory periods if you need to post in a closed period. When you reopen a inventory period, a inventory period entry is created.  
+ When you close an inventory period, an inventory period entry is created by using the number of the last item register that falls in the inventory period. In addition, the time, date, and user code of the user closing the period are recorded in the inventory period entry. By using this information with the last item register for the previous period, you can see which inventory transactions were posted in the inventory period. It is also possible to reopen inventory periods if you need to post in a closed period. When you reopen an inventory period, an inventory period entry is created.  
 
-## <a name="see-also"></a>See Also
-
-[Design Details: Inventory Costing](design-details-inventory-costing.md)  
-[Managing Inventory Costs](finance-manage-inventory-costs.md)  
-[Finance](finance.md)  
-[Working with Business Central](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>See Also  
+ [Design Details: Inventory Costing](design-details-inventory-costing.md) [Managing Inventory Costs](finance-manage-inventory-costs.md) [Finance](finance.md)  
+ [Working with Business Central](ui-work-product.md)

@@ -3,19 +3,19 @@ title: How to Block Sales to Customers
 description: If needed, you can block a customer from being included on sales documents and other sales transactions.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: a5ac7b1cd9d58c91584c2777442094bace0673fd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7cc82ab0aaf28b355117571d0d2cc5869141693f
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436030"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410723"
 ---
 # <a name="block-customers"></a>Block Customers
 You can block a customer, for example because of insolvency, so that the customer cannot be added to sales documents or so that no transactions can be posted for the customer.
@@ -32,7 +32,7 @@ The following table describes the options for blocking customers.
 |**All**|No transaction is allowed for this customer, including payments.|  
 
 ## <a name="to-block-a-customer"></a>To block a customer  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Select a customer, and then choose the **Edit** action.
 3. In the **Blocked** field, choose what to block, as described in the table above.
 
@@ -40,6 +40,3 @@ The following table describes the options for blocking customers.
 [Register New Customers](sales-how-register-new-customers.md)  
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

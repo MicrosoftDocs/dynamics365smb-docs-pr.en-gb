@@ -1,29 +1,29 @@
 ---
-title: Microsoft Pay Standard
-description: The Microsoft Pay extension adds a Microsoft Pay link to your sales documents so customers can easily pay using Microsoft Pay.
+title: Microsoft Pay Standard| Microsoft Docs
+description: Provides information about the Microsoft Pay extension
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 574ebae554b21c5184a5e1c2bcd5ae9b0d34f817
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 01/08/2020
+ms.author: sgroespe
+ms.openlocfilehash: 336aa735b703d7924914f4180ce46fd00ea23479
+ms.sourcegitcommit: 70fe73040126960c813804d001b646f81cbf2f38
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322934"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943290"
 ---
 # <a name="the-microsoft-pay-extension"></a>The Microsoft Pay Extension
 
 > [!IMPORTANT]
-> Effective February 8 2020, changes in the Microsoft Pay service will affect the Microsoft Pay extension in Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. Due to the changes, after February 8, the **Pay now** payment links that the Microsoft Pay extension generates for invoices in [!INCLUDE[prod_short](includes/prod_short.md)] will not open Microsoft Pay. Customers who are using the extension should change their Payment Services setup to start using the PayPal extension instead.<br /></br>
+> Effective February 8 2020, changes in the Microsoft Pay service will affect the Microsoft Pay extension in Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. Due to the changes, after February 8, the **Pay now** payment links that the Microsoft Pay extension generates for invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)] will not open Microsoft Pay. Customers who are using the extension should change their Payment Services setup to start using the PayPal extension instead.<br /></br>
 >
-> From January 8, we will display a notification in [!INCLUDE[prod_short](includes/prod_short.md)]. The notification will contain a link to the settings that you need to change and to more information. After February 8, the Microsoft Pay extension will no longer be available in [!INCLUDE[prod_short](includes/prod_short.md)].<br /></br>
+> From January 8, we will display a notification in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The notification will contain a link to the settings that you need to change and to more information. After February 8, the Microsoft Pay extension will no longer be available in [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
 >
 > The changes impact the following versions of Business Central:
 > - Microsoft Dynamics 365 Business Central October 2018
@@ -42,12 +42,9 @@ The Microsoft Pay extension provides the following benefits:
 - The Microsoft Pay link can be embedded automatically on every invoice document or by the user.
 - Because this functionality is built as an extension, it gives you full control to enable it when and if your business processes require it.
 
-Enabling payment service extensions is free in [!INCLUDE[prod_short](includes/prod_short.md)], however, you will need to contact the payment service to get an account. For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).
+Enabling payment service extensions is free in [!INCLUDE[d365fin](includes/d365fin_md.md)], however, you will need to contact the payment service to get an account. For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>See Also
-[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

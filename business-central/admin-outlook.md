@@ -1,130 +1,80 @@
 ---
-title: Get the Business Central Add-in for Outlook
-description: Learn how to install the Business Central add-in for Outlook for your organisation or for your own use.
-author: jswymer
+title: Using Business Central with Outlook| Microsoft Docs
+description: This service has deep integration with Office 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832
-ms.date: 08/13/2021
-ms.author: jswymer
-ms.openlocfilehash: 7fa8eabcffeb19b77c98ed9f9b7036dff6cbbf35
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.search.keywords: SMTP, mail, Office 365
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049602"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186912"
 ---
-# <a name="get-the-business-central-add-in-for-outlook"></a>Get the Business Central Add-in for Outlook
+# <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Using Business Central as your Business Inbox in Outlook
 
-With [!INCLUDE[prod_short](includes/prod_short.md)], you can manage business interactions with your customers and suppliers, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook add-in, you can see financial data related to customers and suppliers. You can also create and send financial documents, such as quotes and invoices.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] introduces the ability to manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook add-ins, you can see financial data related to customers and vendors, as well as create and send financial documents, such as quotes and invoices.  
 
-There are two ways to get the Business Central add-in for Outlook installed, depending on your role in the organisation:
+## <a name="getting-the-add-in"></a>Getting the Add-in
+It is easy to get started with the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-in for Outlook. In the **Set up your Business Inbox in Outlook** assisted setup guide, you can set up the connection for yourself or for your organisation if your organisation uses Office 365. Simply specify your Office 365 user name and password, if you are prompted, and tell us if you want to receive a sample email message. The [!INCLUDE[d365fin](includes/d365fin_md.md)] add-ins are then automatically added to your Outlook. For more information, see [Minimum Requirements for Outlook](product-requirements.md#outlook).  
 
-- As a Microsoft 365 administrator, use *Centralised Deployment* to install the add-in automatically for the entire organisation, groups, or specific users.
+Then, when you open Outlook, you will see an email message from *Dynamics 365 Business Central Admin*. The new add-ins are added to the Outlook ribbon, and in the browser, you can see the [!INCLUDE[prodshort](includes/prodshort.md)] add-ins immediately above or below the body of the email message. The add-ins are updated periodically, and you'll get notified that a new version is ready for you in Outlook.  
 
-- As any user, install the add-in for your own use, if your admin hasn't already deployed it for you.
+> [!TIP]
+> If you use the new Outlook on the web, then the [!INCLUDE [prodshort](includes/prodshort.md)] add-ins can be hidden under **More actions**. If you use the add-in often, you can pin it so that it is always immediately visible. For more information, see [Using add-ins in Outlook on the web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-## <a name="about-the-business-central-add-in-for-outlook"></a>About the Business Central add-in for Outlook
+If you work with more that one [!INCLUDE [prodshort](includes/prodshort.md)] company, you can easily switch between companies in Outlook. In the add-in's action bar, choose **More Actions**, and then you can see the option for switching between companies.  
 
-The Business Central add-in for Outlook consists of two smaller add-ins:
-
-- Contact insights
-
-    This add-in provides users with [!INCLUDE[prod_short](includes/prod_short.md)] customer or supplier information in Outlook emails and calendar appointments. It also enables you to create and send [!INCLUDE[prod_short](includes/prod_short.md)] business documents, such sales quotes and invoices to a contact. <!--To support these task, the add-in adds actions to the Outlook ribbon, in the **Business Central** group. --> 
-
-- Document view
-
-    When an email refers to a business document number in the email body, this add-in provides a direct, in-line link from email body to the actual business document in [!INCLUDE[prod_short](includes/prod_short.md)].
-
-For more information about what you do with the add-ins, see [Using Business Central as your Business Inbox in Outlook](work-outlook-addin.md).
-
-Each add-in is provided as an XML file, called a *manifest*, which must be installed in Outlook of anyone who wants this functionality. These files describe how to activate the add-ins and connect to Business Central when they're used in Outlook. Working with these files is typically done by an admin. As a normal user, in most cases, you won't have to handle with these files directly. Either your admin will set up the add-in to install automatically for you or you'll use the built-in assisted setup to handle the installation.
-
-## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Deploy the add-in by using Centralised Deployment as an admin
-
-Centralised Deployment is a feature in Microsoft 365 admin centre that you use to automatically install add-ins in users' Office apps, like Outlook. It's the recommended way for admins to deploy for Office add-ins to users and groups within your organisation.
-
+<!--TEMP-->
 > [!NOTE]
-> For Business Central on-premises, see [Setting Up the Add-In for Outlook Integration with Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) in the administration content (English only).
+> Switching between companies requires [!INCLUDE [prodshort](includes/prodshort.md)] 2019 release wave 2 or later as announced in the [release plan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
-### <a name="prerequisites"></a>Prerequisites
+Some companies using Office 365 restrict users' permissions to deploy add-ins. So you must make sure that you have an Office 365 subscription that includes email and allows you to deploy add-ins. If you want to try out the add-in anyway, you can [try Office 365 for free](https://products.office.com/try).  
 
-- A Microsoft 365 subscription  
-- Users are assigned a Microsoft 365 licence  
-- Your Microsoft 365 account has the *Global Administrator* or *Exchange Administrator* role
+## <a name="using-the-contact-insights-add-in"></a>Using the Contact Insights Add-in
+Let's say that you get an email from a customer that wants to get a quote on some items. Directly in Outlook, you can open the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-in, which recognises the sender as a customer, and opens the customer card for his company. From this dashboard, you can see overview information for the customer, as well as drill down for more detail on specific documents. You can also dig into the sales history for the customer. If it's a new contact, you can create them as a new customer in [!INCLUDE[d365fin](includes/d365fin_md.md)] without leaving Outlook.  
 
-### <a name="deploy-the-add-in"></a>Deploy the add-in
+In the add-in, you can create a sales quote and send it back to this customer without leaving Outlook. All of the information that you need to send the sales quote is available in your business inbox in Outlook.  
+Once you have the data entered, you can post the quote. You can then send it by email. [!INCLUDE[d365fin](includes/d365fin_md.md)] generates a .PDF file with the sales quote and attaches it to the email message that you draft in the add-in.  
 
-1. In Business Central, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
-2. Choose **Outlook Add-in Centralised Deployment** to start the assisted setup guide.
-3. Review the first page and choose **Next** to open the page for downloading the add-ins.
-4. In the **Deploy** column, select the check box for the add-ins that you want to deploy, then choose **Download and Continue**.
+Similarly, if you get an email from a vendor, you can use the add-in to work with vendors and purchase invoices.  
 
-    A file with the name *OutlookAddins.zip* is downloaded to your device.
+Sometimes you want to see more fields than you can see in the add-in, such as when you want to fill in lines in an invoice. To give you a bit more space to work with, you can pop out the add-in to a separate page. It's still part of Outlook, but you have more space. As you enter data for the document in the pop-out view, the changes are automatically saved. When you are done entering data for the document, you can choose the **OK** button. Choosing the add-in frame in Outlook automatically refreshes the document with the changes you made in the pop-out view.  
 
-5. At this point, you're finished with the work you need to do in Business Central, so you can choose **Done**.
+## <a name="creating-invoices-from-your-meeting-appointments"></a>Creating Invoices from Your Meeting Appointments
+Some businesses record all billable appointments in the Outlook calendar. With [!INCLUDE[d365fin](includes/d365fin_md.md)], you can create the invoice for the customer right from the calendar item: Open the appointment, and then you can open the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-in, look up existing information or create an invoice or another sales document right there.  
 
-   >[!TIP]
-   > Before you choose **Next**, select the **Go to Microsoft 365 (opens in a new window)** link to open and sign in to the Microsoft 365 admin centre in a new browser window. You'll have to go to the Microsoft 365 admin centre in a later step anyways.
+## <a name="doing-quick-document-lookup"></a>Doing Quick Document Lookup
+The [!INCLUDE[d365fin](includes/d365fin_md.md)] Document Links add-in gives you quick access to documents mentioned in email messages. The add-in is available for an email message if a document number is recognised in the body of the message. Opening the add-in provides quick access to the document.  
 
-6. Go the folder where the OutlookAddins.zip was downloaded, and extract the **Contact Insights.xml** and **Document View.xml** files from the .zip to a folder of your choice.
+For example, if you receive an email message that mentions the text *S-QUO100*, [!INCLUDE[d365fin](includes/d365fin_md.md)] identifies that as a sales quote, and so you can open this document in Outlook. In Outlook, choose the **Document Links** button immediately above the body of the email message. In the Outlook Web App, choose the *S-QUO1001* text in the body of the email message.  
 
-    For more information, see [Zip and Unzip files and folders](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Sign in to the Microsoft 365 admin centre, then go to [Integrated Apps](https://go.microsoft.com/fwlink/?linkid=2163967).
+In the Document Links add-in, you can modify and take actions with the document, just like you can in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-8. Choose **Upload custom apps**.
-9. On the **Upload Apps to deploy** page, choose **Upload manifest file (.xml) from device** > **Choose file**.
-10. Select one of the add-files you extracted earlier, for example, **Contact Insights.xml**.
-11. Follow the instructions to assign users and deploy the add-in.
-12. Repeat step 9 through 11 for the other add-in file if you want.
+## <a name="adding-the-add-ins-manually"></a>Adding the Add-ins Manually
+In some cases, the add-ins do not get added automatically to Outlook. Even if you or a colleague ran the assisted setup guide on behalf of the company, [!INCLUDE[d365fin](includes/d365fin_md.md)] might not show up in Outlook. If you experience this issue, you can add the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-ins manually.  
 
-> [!IMPORTANT]
-> A green check mark appears when the add-in is deployed to the admin centre. However, it can take up to 24 hours before users see the add-in in Outlook app. Users might have to restart Outlook as well.
+First, you must verify that you have access to the add-ins in your Office 365 account. Quite simply open your Outlook in a browser, open a message, select **More actions** (...) at the top of the message, and then, at the bottom of the list, choose **Get Add-ins**. This opens the **Add-ins for Outlook** page, where you can enable [!INCLUDE[prodshort](includes/prodshort.md)] for your Outlook. Then, when you navigate back to Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] should be available.  
 
-When finished, you can always change the deployment in Microsoft 365 admin centre, like assigning more users. For more information about deploying add-ins in the admin centre, see [Deploy add-ins in the admin centre](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Similarly in the Outlook desktop client, you can verify that [!INCLUDE[d365fin](includes/d365fin_md.md)] is listed on the **Get Add-ins** page.  
 
-## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Install the add-in for your own use
+In both cases, if [!INCLUDE[d365fin](includes/d365fin_md.md)] is still not available, you have to get the add-in manifest files. For more information, please contact your Office 365 administrator.
 
-If your organisation allows it, you can install the Business Central add-in for just yourself. Contact your administrator if you're not sure.
+## <a name="using-other-email-accounts"></a>Using Other Email Accounts
 
-1. In Business Central, go to the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Get the Outlook Add-in**, then choose the related link.
-2. Read the page and choose **Next** when ready.
-3. If you want to receive a welcome email message from Business Central with overview of using the add-in, turn on **Send sample email message**.
-4. Choose **Finish** to complete the installation.
-
-Business Central will connect to your email server and install the add-in in your Outlook. This won't take long. You're now ready to start using the add-in in Outlook.
-
-### <a name="for-business-central-on-premises"></a><a name="onprem"></a>For Business Central on-premises
-
-If you're using Business Central on-premises, installing the add-in may be slightly different.
-
-1. In Business Central, go to the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Get the Outlook Add-in**, then choose the related link.
-2. Read the page and choose **Next** when ready.
-3. Do one of the following steps, depending on the page you see:
-
-    - If you see the **Install to my Outlook** button, choose it and you're all done.
-    - If you see the **Next** button, choose it. On the next page, if you want to receive a welcome email message from Business Central with overview of using the add-in, turn on **Send sample email message**. Then, choose **Finish** and you're all done.
-    - If you see the **Download Add-in** button, choose it, then go to the next step.
-4. When you choose **Download Add-in**, a file with the name *OutlookAddins.zip* is downloaded to your device. You should see the file at the top of the browser.
-
-   Go the folder where the OutlookAddins.zip was downloaded, and extract the **Contact Insights.xml** and **Document View.xml** file from the .zip to a folder of your choice. For more information about how to extract files, see [Zip and Unzip files and folders](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-
-5. Open Outlook, and choose **Get Add-ins** from the ribbon. Or, if you're using Outlook on the web, select the drop-down menu on any new or existing email message, then select **Get Add-ins**.
-6. Choose **My add-ins** > **Add a custom add-in** > **Add from a file**.
-7. Choose one of the .xml files that you extracted, like **Contact Insights.xml**, then choose **Open** > **Install**.
-8. Repeat step 6 and 7 for the other .xml file, if you downloaded one.
-
-You're now ready to start using the add-in in Outlook.
+The add-ins are designed to be used with Office 365. If you use [!INCLUDE [prodshort](includes/prodshort.md)] on-premises, your administrator will know if you can use the [!INCLUDE [prodshort](includes/prodshort.md)] add-ins in Outlook. For more information, see [What email address can I use with [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) and [Features that require specific circumstances](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Getting Started](product-get-started.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Finance](finance.md)  
@@ -132,6 +82,3 @@ You're now ready to start using the add-in in Outlook.
 [Purchasing](purchasing-manage-purchasing.md)  
 [Minimum Requirements for Outlook](product-requirements.md#outlook)  
 [Using add-ins in Outlook on the web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

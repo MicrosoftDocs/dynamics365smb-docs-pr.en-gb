@@ -1,25 +1,24 @@
 ---
-title: Work with Blanket Sales Orders or Purchase Orders
-description: Use blanket orders when a customer has agreed to buy large quantities that are to be delivered in several smaller shipments over a certain period of time. The same applies to purchasing.
+title: How to Create Blanket Sales Orders | Microsoft Docs
+description: Use blanket orders when a customer has agreed to buy large quantities that are to be delivered in several smaller shipments over a certain period of time.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 4299924a1845245eb8b73192bb14232bad25d80b
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: edd9e1d65c4bbfadf5c74e296ed1a9c6cffd1dfb
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752587"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316363"
 ---
-# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Work with Blanket Sales Orders or Blanket Purchase Orders
-
-A blanket sales order represents a framework for a long-term agreement between you and your customer. Similarly, you use blanket purchase orders to manage long-term agreements between you and your supplier.
+# <a name="work-with-blanket-sales-orders"></a>Work with Blanket Sales Orders
+A blanket sales order represents a framework for a long-term agreement between you and your customer.
 
 A blanket order is typically made when a customer has committed to purchasing large quantities that are to be delivered in several smaller shipments over a certain period of time. Often blanket orders cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a sales order is that quantities entered on a blanket order do not affect item availability and thus can be used as a worksheet for monitoring, forecasting, and planning purposes.
 
@@ -30,21 +29,20 @@ An example of when a blanket sales order could be used is if a customer calls an
 > [!NOTE]
 > Blanket purchase orders work in a similar way as blanket sales orders. This documentation covers blanket sales orders only.
 
-## <a name="to-create-a-blanket-sales-order"></a>To create a blanket sales order
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
+## <a name="to-create-a-blanket-sales-order"></a>To create a blanket sales order  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Leave the **Order Date** field blank. When the separate sales orders are created from the blanket order, the order date of the sales order is set to equal the actual work date.
-5. On the **Lines** FastTab, create separate lines for each shipment. For instance, if your customer wants 1000 units split out equally between four weeks, you would enter four separate lines of 250 units each.  
+4.  Leave the **Order Date** field blank. When the separate sales orders are created from the blanket order, the order date of the sales order is set to equal the actual work date.
+5. On the **Lines** FastTab, create separate lines for each shipment. For instance, if your customer wants 1000 units split out equally between four weeks, you would enter four separate lines of 250 units each.   
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>To create a sales order from a blanket sales order  
 
-1. To create an order for any of the lines in the blanket sales order, remove the quantity in the **Qty. to Ship** field on all the lines that you do not wish to ship at this time.  
-2. When you are ready to create orders, choose the **Make Order** action, and then choose **Yes**. A message appears informing you that the blanket order has been assigned an order number. Note that the blanket order has not been deleted.  
-3. Choose the **OK** button.  
-4. To see the results of the preceding steps, choose the **Line** action, choose the **Unposted Lines** action, and then choose the **Orders** action.  
-5. On the **Sales Lines** page, select the appropriate sales order, choose the **Line** action, and then choose the **Show Document** action.  
+1.  To create an order for any of the lines in the blanket sales order, remove the quantity in the **Qty. to Ship** field on all the lines that you do not wish to ship at this time.  
+2.  When you are ready to create orders, choose the **Make Order** m action, and then choose **Yes**. A message appears informing you that the blanket order has been assigned an order number. Note that the blanket order has not been deleted.  
+3.  Choose the **OK** button.  
+4.  To see the results of the preceding steps, choose the **Line** action, choose the **Unposted Lines** action, and then choose the **Orders** action.  
+5.  On the **Sales Lines** page, select the appropriate sales order, choose the **Line** action, and then choose the **Show Document** action.  
 
 The following applies to sales orders after they have been created from blanket sales orders:  
 
@@ -60,46 +58,42 @@ The following applies to sales orders after they have been created from blanket 
 ## <a name="to-view-the-status-of-a-blanket-sales-order"></a>To view the status of a blanket sales order  
 You can see the status of a blanket sales order on the **Blanket Sales Order Statistics** page. This may be relevant when you start to invoice the order that is created from the blanket sales order.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
 2.  Select a blanket sales order, and then choose the **Statistics** action.  
 3.  On the **Blanket Sales Order Statistics** page, on the **General** FastTab, you can see summary information about the entire order based on the total quantity in the various **Quantity fields** on the blanket sales order lines.  
 
 - On the **Invoicing** FastTab, you can see summary information based on the total quantity in the **Qty. to Invoice** fields on the sales blanket order lines.  
 - On the **Shipping** FastTab, you can see summary information based on the total quantity in the **Qty. to Receive** fields on the sales blanket order lines.  
 - On the **Prepayment** FastTab, you can see summary information about any prepaid amounts.  
-- On the **Supplier** FastTab, you can see certain basic information about the supplier.
+- On the **Vendor** FastTab, you can see certain basic information about the vendor.    
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>To view unposted and posted blanket sales order lines   
 The link between the blanket sales order and the originating sales order, and any other sales document, is retained after posting as a list of posted and unposted sales order invoice lines.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon enter **Blanket Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon enter **Blanket Sales Orders**, and then choose the related link.
 2. Open the blanket sales order you want to view.
 3. To view unposted entries, select the line in question, choose the **Line** action, and then choose the **Unposted Lines** action. Choose one of the following options.  
 
-|Option|Description|
-|--|--|
-|**Orders**|Specifies open orders associated with the selected line.|
-|**Invoices**|Specifies open invoices that have been associated with the selected line. Open invoices are manually associated with a blanket order by entering the blanket order number on the sales invoice line.|
-|**Return Orders**|Specifies open return orders that have been associated with the selected line.|
-|**Credit Memos**|Specifies open credit memos that have been associated with the selected line.|
+    |Option|Description|
+    |--|--|
+    |**Orders**|Specifies open orders associated with the selected line.|
+    |**Invoices**|Specifies open invoices that have been associated with the selected line. Open invoices are manually associated with a blanket order by entering the blanket order number on the sales invoice line.|
+    |**Return Orders**|Specifies open return orders that have been associated with the selected line.|
+    |**Credit Memos**|Specifies open credit memos that have been associated with the selected line.|
 
 4. To view posted entries, select the line in question, choose the **Line** action, and then choose the **Posted Lines** action. Choose one of the following options.  
 
-|Option|Description|
-|---|----|
-|**Shipments**|Posted shipments associated with the selected line.|
-|**Invoices**|Posted invoices associated with the selected line.|
-|**Return Receipts**|Posted return receipts that have been associated with the selected line.|
-|**Credit Memos**|Posted credit memos that have been associated with the selected line.|
+    |Option|Description|
+    |---|----|
+    |**Shipments**|Posted shipments associated with the selected line.|
+    |**Invoices**|Posted invoices associated with the selected line.|
+    |**Return Receipts**|Posted return receipts that have been associated with the selected line.|
+    |**Credit Memos**|Posted credit memos that have been associated with the selected line.|
 
 5. On the **Sales Lines** page, choose the **Show Document** action to view the entry.
 
 ## <a name="see-also"></a>See Also
-
-[Sales](sales-manage-sales.md)  
+[Sales](sales-manage-sales.md)
 [Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

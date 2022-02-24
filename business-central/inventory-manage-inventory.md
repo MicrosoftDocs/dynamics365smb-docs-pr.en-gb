@@ -1,25 +1,24 @@
 ---
-title: Managing Inventory
-description: This topic describes how to manage the physical products that you trade in by creating a Inventory item card.
+title: Managing Inventory| Microsoft Docs
+description: Describes how to manage the physical products that you trade in, for example, handling the stock in your warehouse.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: fb7df1a8577648d306e2db2c7ef3a9bdf96b6c3e
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: b606c01e694e95c7f539fb317f58304f4047a379
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060203"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181827"
 ---
-# <a name="manage-inventory"></a>Manage Inventory
-
+# <a name="inventory"></a>Inventory
 For each physical product that you trade in, you must create an item card of type **Inventory**. Items that you offer to customers but do not keep in inventory you can register as catalogue items, which you can convert to inventory items when necessary. You can increase or decrease the quantity of an item in inventory by posting directly to the item ledger entries, for example, after a physical count or if you do not record purchases.
 
 Inventory increases and decreases are naturally also recorded when you post purchase and sales documents respectively. For more information, see [Record Purchases](purchasing-how-record-purchases.md), [Sell Products](sales-how-sell-products.md), and [Invoice Sales](sales-how-invoice-sales.md). Transfers between locations changes inventory quantities across your company's warehouses.   
@@ -34,11 +33,7 @@ Planning for items to fulfil demand is covered as part of supply planning functi
 ## <a name="inventory-reconciliation"></a>Inventory Reconciliation
 When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change of inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction that you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger. For more information, see [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [Adjust Item Costs](inventory-how-adjust-item-costs.md).  
-
-## <a name="related-tasks"></a>Related Tasks
-
-The following table outlines related tasks.
+Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [Adjust Item Costs](inventory-how-adjust-item-costs.md).
 
 |To |See |
 |---|----|
@@ -51,24 +46,21 @@ The following table outlines related tasks.
 |Perform physical counting, make negative or positive adjustments, and change information, such as location or lot number, on item ledger entries.|[Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)|
 |View the availability of items per location, by period, by sales or purchase event, or by their use on assembly or production BOMs.|[View the Availability of Items](inventory-how-availability-overview.md)|
 |Transfer inventory items between locations with transfer orders, to manage warehouse activities, or with the item reclassification journal.|[Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)|
-|Reserve inventory or inbound items for sales orders, purchase orders, service orders, assembly orders, or works orders.|[Reserve Items](inventory-how-to-reserve-items.md)|
-|Set up item tracking so that you can track items serial numbers, for example to track items in case of recalls.|[Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md)|
-|Assign serial numbers or lot numbers to any outbound or inbound document or journal line.|[Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)|
+|Reserve inventory or inbound items for sales orders, purchase orders, service orders, assembly orders, or production orders.|[Reserve Items](inventory-how-to-reserve-items.md)|
+|Set up a vendor's or customer's own description for an item, so that you can easily insert their item description on trade documents.|[Use Item Cross References](inventory-how-use-item-cross-refs.md)|
+|Assign serial numbers or lot numbers to any outbound or inbound document or journal line, for example to track items in case of recalls.|[Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)|
+|Set up a vendor's or customer's own item description on your item card so that you can quickly insert their item description on trade documents.|[Use Item Cross-References](inventory-how-use-item-cross-refs.md)|
 |Find where any serial or lot number was used in its supply chain, for example in recall situations.|[Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)|
-|Set up a supplier's or customer's own item description on your item card so that you can quickly insert their item description on trade documents.|[Use Item References](inventory-how-use-item-cross-refs.md)|
 |Block items from being entered on sales or purchase lines or from being posted in any transaction.|[Block Items](inventory-how-block-items.md)|
 |Manage business operations in sales offices, a purchasing departments, or plant planning offices across multiple locations.|[Work with Responsibility Centres](inventory-responsibility-centers.md)|
-|Use resources with specific skills for various services and service items.|[Set Up Resource Allocation](service-how-setup-resource-allocation.md)|
 
-## <a name="see-also"></a>See Also
 
+
+## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[General Business Functionality](ui-across-business-areas.md)  
+[Sales](sales-manage-sales.md)    
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[General Business Functionality](ui-across-business-areas.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

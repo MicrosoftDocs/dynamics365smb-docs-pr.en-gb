@@ -1,35 +1,34 @@
 ---
-title: How to Track Packages
-description: Use the shipping agents tracking service on the Internet to track parcels and follow the progress of a delivery.
+title: How to Track Packages | Microsoft Docs
+description: Use the shipping agents tracking service to see the progress of a delivery.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: rfq
-ms.search.form: 103, 142, 800, 806
-ms.date: 06/23/2021
+ms.date: 05/28/2020
 ms.author: edupont
-ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: a655768234c262ff98a753b28dfbbd53d1bc1749
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752373"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410699"
 ---
 # <a name="track-packages"></a>Track Packages
-Most shipping agents provide a web service that let you track the status of your packages while they're en route. That information can be useful in many business processes, for example, when providing customer service. If you use one or more shipping agents, you can enter some basic information about them, and then use their package tracking service directly from the Posted Sales Shipments, Posted Sales Invoices, Posted Sales Credit Memos, and Posted Return Receipt pages. For more information, see [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md). 
+
+A number of shipping agents provide services on the Internet that allow you to track parcels you have handed over to the agent. If you use one or more of these shipping agents, you can set up certain basic information and use the automatic tracking feature from posted shipments, posted sales invoices, posted sales credit memos, and posted return receipts. For more information, see [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md).  
 
 The following procedure shows how to track a package from a posted sales shipment, but the same steps apply to enable package tracking from the Posted Sales Invoice, Posted Sales Credit Memo, and Posted Return Receipt pages.  
 
 ## <a name="to-track-a-package"></a>To track a package
 
-> [!NOTE]
-> The following procedure uses the Posted Sales Shipment page as an example. The steps to track a package are the same on the Posted Sales Invoices, Posted Sales Credit Memos, and Posted Return Receipt pages.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment**, and then choose the related link.
+2. Open the relevant shipment.
+3. Choose the **Update Document** action.
+4. In the **Package Tracking No.** field, enter the package number you have received from the shipping agent. Update **Shipping Agent** if needed and close the page.
+5. Choose the **Track Package** action.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment**, and then choose the related link.
-2. Open the shipment you want to track, and then choose the **Update Document** action.
-3. In the **Package Tracking No.** field, enter the package number you received from the shipping agent. 
-4. Make sure that the correct shipping agent and the level of service are correct, and then close the page.
-5. Choose the **Track Package** action to open the shipping agent's package tracking service.
+Your default browser opens the shipping agent's tracking page.
 
 ## <a name="see-also"></a>See Also
 
@@ -37,7 +36,4 @@ The following procedure shows how to track a package from a posted sales shipmen
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

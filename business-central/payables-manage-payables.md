@@ -1,16 +1,21 @@
 ---
-title: Overview of Tasks to Manage Accounts Payable
-description: 'Outlines tasks to manage accounts payable, for example, paying creditors or applying outgoing payments to ledger entries to close invoices or credit memos.'
+title: Overview of Tasks to Manage Accounts Payable| Microsoft Docs
+description: Outlines tasks to manage accounts payable, for example, paying creditors or applying outgoing payments to ledger entries to close invoices or credit memos.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
-ms.search.form: '161, 254, 256, 347, 574, 599, 9002'
-ms.date: 04/01/2021
+ms.search.keywords: vendor payment, creditor, debt, balance due, AP
+ms.date: 01/13/2020
 ms.author: edupont
+ms.openlocfilehash: ea3091ecb79a345bf4bed9572e98de057cde38db
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954242"
 ---
 # <a name="managing-payables"></a>Managing Payables
 
@@ -37,9 +42,6 @@ The following table describes a sequence of tasks within accounts payable, with 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -1,16 +1,21 @@
 ---
-title: Set Up Codes for Audit Trails
+title: Set Up Codes for Audit Trails| Microsoft Docs
 description: Learn about the tasks to set up source codes and reason codes that you can use to track audit trails.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'accounting, auditing, bookkeeping'
-ms.search.form: '257, 259, 279'
-ms.date: 04/01/2021
+ms.search.keywords: accounting, auditing, bookkeeping
+ms.date: 05/12/2020
 ms.author: edupont
+ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372694"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Setting Up Source Codes and Reason Codes for Audit Trails
 
@@ -28,7 +33,7 @@ When you post or run a batch job, the correct source code is automatically attac
 
 ### <a name="to-define-source-codes"></a>To define source codes
 
-1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Source Code Setup**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Source Code Setup**, and then choose the related link.  
 
 2. In the **Source Code Setup** window, for each each posting type and batch job, specify the relevant source code.  
 
@@ -40,7 +45,7 @@ You may want to change a source code. For example, you want to change the source
 
 ### <a name="to-change-source-codes"></a>To change source codes
 
-1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Source Codes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Source Codes**, and then choose the related link.
 
 2. On the line with the code to be changed, select the code in the **Code** field.
 
@@ -54,7 +59,7 @@ Reason codes supplement the source codes and are used to indicate why an entry w
 
 ### <a name="to-set-up-reason-codes"></a>To set up reason codes
 
-1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon")  icon, enter **Reason Codes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon")  icon, enter **Reason Codes**, and then choose the related link.
 
 2. In the **Reason Codes** window, enter the first code in the **Code** field. In the **Description** field, enter an explanatory text.
 
@@ -64,7 +69,7 @@ The following procedure describes how to add a reason code to a journal template
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>To assign reason codes to journal templates
 
-1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon")  icon, enter **General Journal Templates**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon")  icon, enter **General Journal Templates**, and then choose the related link.
 
 2. On the line with the selected journal template, in the **Reason Code** field, specify the relevant code.
 
@@ -78,7 +83,7 @@ The selected reason code will be copied to new journal batches created under thi
 
 2. On the sales or purchase header, enter the code in the **Reason Code** field.
 
-When the invoice is posted, the reason code is copied to each general ledger, customer, and supplier entry. You cannot assign different reason codes to the individual purchase and sales lines because all lines are posted as one entry.
+When the invoice is posted, the reason code is copied to each general ledger, customer, and vendor entry. You cannot assign different reason codes to the individual purchase and sales lines because all lines are posted as one entry.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 
@@ -89,9 +94,6 @@ When the invoice is posted, the reason code is copied to each general ledger, cu
 [Working with Dimensions](finance-dimensions.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Analysing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

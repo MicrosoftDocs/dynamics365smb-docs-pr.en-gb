@@ -1,16 +1,22 @@
 ---
-title: Set Up Fixed Assets
-description: 'Learn about the sequence of tasks you must do to set up fixed assets, such as machinery or buildings.'
-author: edupont04
+title: Set Up Fixed Assets| Microsoft Docs
+description: Learn about the sequence of tasks you must do to set up fixed assets, such as machinery or buildings.
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'machinery, buildings'
-ms.search.form: 5607
-ms.date: 04/01/2021
-ms.author: edupont
+ms.search.keywords: machinery, buildings
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: be5e86776d440763d069cecb9f45d0e6daeaeede
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184179"
 ---
 # <a name="setting-up-fixed-assets"></a>Setting Up Fixed Assets
 Before you can work with Fixed Assets, you need to define a few things:  
@@ -34,14 +40,9 @@ The following table describes a sequence of tasks, with links to the topics that
 | Enable insurance of fixed assets, set up general insurance information, an insurance card per policy, and prepare journals to post insurance costs. |[Set Up Fixed Asset Insurance](fa-how-setup-insurance.md) |
 | Enable maintenance of fixed assets, set up general maintenance information, set up maintenance posting accounts, and define types of maintenance work. |[Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md) |
 | Learn about different fixed asset depreciation methods. |[Depreciation Methods](fa-depreciation-methods.md) |
-| Learn about how to apply user-defined depreciation methods. |[Set Up User-Defined Depreciation Methods](fa-how-setup-user-defined-depreciation-method.md) |
-
 
 ## <a name="see-also"></a>See Also
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Getting Started](product-get-started.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

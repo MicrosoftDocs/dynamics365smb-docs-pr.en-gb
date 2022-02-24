@@ -1,24 +1,30 @@
 ---
-title: WIP Methods for Calculating and Recording Job Progress
-description: 'Describes the different work in process (WIP) methods you can use to post, monitor, and calculate financial information for ongoing jobs that are in progress.'
+title: WIP Methods for Calculating and Recording Job Progress| Microsoft Docs
+description: Describes the different work in process (WIP) methods you can use to post, monitor, and calculate financial information for ongoing jobs that are in progress.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'work in process, work in progress, calculate project WIP'
-ms.search.form: 1010
-ms.date: 04/01/2021
-ms.author: edupont
+ms.search.keywords: work in process, work in progress, calculate project WIP
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 24dc65182bba549f624f8a66e7eecb1341f1aee1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192802"
 ---
-# <a name="understanding-wip-methods-in-project-management"></a>Understanding WIP Methods in Project Management
-
-As a job progresses, materials, resources, and other expenses are consumed and must be posted to the job. Work in Progress (WIP) is a feature that enables you to estimate the financial value of jobs in the general ledger while the jobs are ongoing. In many cases, you might post expenses for a job before invoicing a job. When only expenses have been posted, your financial statement will be inaccurate.
+# <a name="understanding-wip-methods"></a>Understanding WIP Methods
+As a job progresses, materials, resources, and other expenses are consumed and must be posted to the job. Work in Process (WIP) is a feature that enables you to estimate the financial value of jobs in the general ledger while the jobs are ongoing. In many cases, you might post expenses for a job before invoicing a job. When only expenses have been posted, your financial statement will be inaccurate.
 
 To track the value in the general ledger, you can calculate WIP and post the value to the general ledger. For more information, see [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md).
 
-[!INCLUDE[prod_short](includes/prod_short.md)] supports the following methods of calculating and recording the value of work in process.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] supports the following methods of calculating and recording the value of work in process.
 
 | WIP Method | Calculation Formula | Calculation Description |
 | --- | --- | --- |
@@ -29,12 +35,8 @@ To track the value in the general ledger, you can calculate WIP and post the val
 | Completed Contract |WIP Amount = WIP Cost Amount = Usage (Total Cost)<br /><br /> WIP Sales Amount = Billable (Invoiced Price) |Completed contract does not recognise revenue and costs until the job is complete. You may want to do this when there is high uncertainty around the estimates of costs and revenue for the job.<br /><br /> All usage is posted to the WIP Costs account (asset) and all invoiced sales are posted to the WIP Invoiced Sales account (liability) until the job is complete. |
 
 ## <a name="see-also"></a>See Also
-
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
-[Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Purchasing](purchasing-manage-purchasing.md)         
+[Sales](sales-manage-sales.md)      
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

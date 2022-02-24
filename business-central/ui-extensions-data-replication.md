@@ -1,49 +1,39 @@
 ---
-title: Cloud Migration Extensions
-description: Use the cloud migration extensions to migrate your on-premises data to Business Central online. These extensions move your on-premises data to the cloud.
+title: Business Central Intelligent Cloud Extensions for Cloud Migration | Microsoft Docs
+description: Use the cloud migration extensions to migrate your on-premises data to Business Central online. These extensions move your on-premises data to the cloud so you can use Business Central online with your existing data.
 author: jenolson
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: f76241497eea8a53dfc054c895bf4a788e2226a4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 02/18/2020
+ms.author: jenolson
+ms.openlocfilehash: 8afa05f7e1790ab28f8450a8323b48ec1c5ebd72
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322304"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076387"
 ---
-# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Cloud Migration Extensions for Migrating to Business Central Online
+# <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Intelligent Cloud Extensions for Cloud Migration
 
-Depending on your on-premises solution, you must use different extensions to connect your data with [!INCLUDE[prod_short](includes/prod_short.md)] online for purposes of migrating your solution to the cloud.  
+This extension will connect your data from [!INCLUDE [prodshort](includes/prodshort.md)] on-premises with [!INCLUDE [prodshort](includes/prodshort.md)] online for purposes of migrating your solution to the cloud.  
 
-If you are using one of the supported on-premises products, you can configure your cloud environment based on a product-specific extension. Once your cloud environment is configured, you will be able to migrate data from your on-premises solution to [!INCLUDE[prod_short](includes/prod_short.md)]. This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.  
-
-For more information, see [Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the administration content for [!INCLUDE[prod_short](includes/prod_short.md)].  
+If you are using one of the supported on-premises products, you can configure your cloud environment based on a product-specific extension. Once your cloud environment is configured, you will be able to migrate data from your on-premises solution to [!INCLUDE[prodshort](includes/prodshort.md)]. This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.  
 
 ## <a name="business-central-on-premises"></a>Business Central on-premises
-
-If you are using an on-premises deployment of [!INCLUDE[prod_short](includes/prod_short.md)], get the **Intelligent Cloud Base** extension and the **Business Central Intelligent Cloud** extension, and then run the **Cloud Migration Setup** assisted setup guide.  
+If you are using an on-premises deployment of [!INCLUDE[prodshort](includes/prodshort.md)], get the **Intelligent Cloud Base** extension and the **Business Central Intelligent Cloud** extension, and then run the **Cloud Migration Setup** assisted setup guide.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
-
 If you are using Dynamics GP,  get the **Intelligent Cloud Base Extension** extension and the **Dynamics GP Intelligent Cloud** extension, and then run the **Cloud Migration Setup** assisted setup guide.  
 
-> [!IMPORTANT]
-> Migrating from Dynamics GP using the **Cloud Migration Setup** assisted setup guide is currently only supported for the following markets: United States, Canada, United Kingdom.
-
 ## <a name="dynamics-sl"></a>Dynamics SL
-
-If you are using Dynamics SL, get the **Intelligent Cloud Base** extension, the **Microsoft Dynamics SL Intelligent Cloud** extension and the **Microsoft Dynamics SL History SmartLists** extension, and then run the **Cloud Migration Setup** assisted setup guide.  
+If you are using Dynamics SL, get the **Intelligent Cloud Base Extension** extension, the **Microsoft Dynamics SL Intelligent Cloud** extension and the **Microsoft Dynamics SL History Smartlists** extension, and then run the **Cloud Migration Setup** assisted setup guide.  
 
 ## <a name="see-also"></a>See Also
 
-[Cloud Migration Base Extension](ui-extensions-intelligent-cloud.md)  
-[Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Intelligent Insights](about-intelligent-cloud.md)  
+[Intelligent Cloud Base Extension](ui-extensions-intelligent-cloud.md)  

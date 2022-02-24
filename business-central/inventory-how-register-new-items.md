@@ -1,61 +1,67 @@
 ---
-title: Create Item Cards for Goods or Services (contains video)
-description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, that you sell from your inventory.
+title: Create Item Cards for Goods or Services| Microsoft Docs
+description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, components, or raw material, that you sell from your inventory.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
-ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 09/24/2021
-ms.author: edupont
-ms.openlocfilehash: 26fb6e98934968a9ed1e11309d3e7f2834e0e4b8
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.search.keywords: item, finished good, component, raw material, assembly item
+ms.date: 04/27/2020
+ms.author: sgroespe
+ms.openlocfilehash: 506576c6ecbc707dd44ce23294ce7eb8b6e89329
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059577"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324157"
 ---
 # <a name="register-new-items"></a>Register New Items
-
 Items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
 
 Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
 
 The item card can be of type **Inventory**, **Service**, or **Non-Inventory** to specify if the item is a physical inventory unit, a labour time unit, or a physical unit that is not tracked in inventory. For more information, see [About Item Types](inventory-about-item-types.md).
 
-An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[prod_short](includes/prod_short.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
+An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
 
-If you purchase the same item from more than one supplier, you can connect those suppliers to the item card. The suppliers will then appear on the **Item Supplier Catalogue** page, so that you can easily select an alternate supplier.
+If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The vendors will then appear on the **Item Vendor Catalogue** page, so that you can easily select an alternate vendor.
 
 Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalogue items. Catalogue items are not to be mistaken with regular items of type **Non-Inventory**. For more information, see [Work with Catalogue Items](inventory-how-work-nonstock-items.md).  
 
 > [!NOTE]  
 > If item templates exist for different item types, then a page appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
 
-The following procedure explains how to create an item card from scratch. You can also create new item cards by copying existing ones. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).  
+The following procedure explains how to create an item card from scratch. You can also create new item cards by copying existing ones. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).<br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>To create a new item card
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+2. On the **Items** page, choose the **New** action.
 
-[!INCLUDE[create_new_item](includes/create_new_item.md)]
+    If only one item template exists, then a new item card opens with some fields filled with information from the template.
+3. On the **Select a template for a new item** page, choose the template that you want to use for the new item card.
+4. Choose the **OK** button. A new item card opens with some fields filled with information from the template.
+5. Proceed to fill or change fields on the item card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. Five costing methods are available, depending on the type of item. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).
 >
 > If you select **Average**, then the item's unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field to view, on the **Average Cost Calc. Overview** page, the history of transactions that the average cost is calculated from.
 
-You can view or edit special prices or discounts that you grant, or that your supplier grants you, for the item if certain criteria are met, such as customer, minimum order quantity, or ending date. You do this by choosing the **Set Special Prices** or **Set Special Discounts** actions. Each row on, for example, the **Sales Prices** page represents a special price. Each column represents a criterion that must apply to grant a customer the special price that you enter in the **Unit Price** field on the **Sales Prices** page. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md) or [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+You can view or edit special prices or discounts that you grant, or that your vendor grants you, for the item if certain criteria are met, such as customer, minimum order quantity, or ending date. You do this by choosing the **Set Special Prices** or **Set Special Discounts** actions. Each row on, for example, the **Sales Prices** page represents a special price. Each column represents a criterion that must apply to grant a customer the special price that you enter in the **Unit Price** field on the **Sales Prices** page. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md) or [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
 The item is now registered, and the item card is ready to be used on purchase and sales documents.
 
-If you want to use this item card as a template when you create new item cards, you can save it as a template. For more information, see the following section.  
+If you want to use this item card as a template when you create new item cards, you can save it as a template. For more information, see the following section.
 
-### <a name="to-save-the-item-card-as-a-template"></a>To save the item card as a template
+### <a name="deleting-item-cards"></a>Deleting Item Cards
+If you have posted a transaction for an item, you cannot delete the card because the ledger entries may be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.
 
+## <a name="to-save-the-item-card-as-a-template"></a>To save the item card as a template
 1. On the **Item Card** page, choose the **Save as Template** action. The **Item Template** page opens showing the item card as a template.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To reuse dimensions in templates, choose the **Dimensions** action. The **Dimension Templates** page opens showing any dimension codes that are set up for the item.
@@ -64,77 +70,22 @@ If you want to use this item card as a template when you create new item cards, 
 
 The item template is added to the list of item templates, so that you can use it to create new item cards.
 
-### <a name="items-used-in-production-orders"></a>Items used in works orders
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>To set up multiple vendors for an item  
+If you purchase the same item from more than one vendor, you must enter information about each vendor of the item, such as prices, lead time, discounts, and so on.  
 
-If you want to register items that are then used in works orders, you specify the replenishment system as *Prod. order* on the **Replenishment** FastTab. For more information, see [About Works Orders](production-about-production-orders.md).  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+2.  Select the relevant item, and then choose the **Edit** action.  
+3.  Choose the **Vendors** action.  
+4.  Choose the **Vendor No.** field, and then select the vendor that you want to set up for the item.  
+5.  Optionally, fill in the remaining fields.  
+6.  Repeat steps 2 through 5 for each vendor that you want to buy the item from.
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a>To set up multiple suppliers for an item
-
-If you purchase the same item from more than one supplier, you must enter information about each supplier of the item, such as prices, lead time, discounts, and so on.  
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
-2. Select the relevant item, and then choose the **Edit** action.  
-3. Choose the **Suppliers** action.  
-4. Choose the **Supplier No.** field, and then select the supplier that you want to set up for the item.  
-5. Optionally, fill in the remaining fields.  
-6. Repeat steps 2 through 5 for each supplier that you want to buy the item from.
-
-The suppliers will now appear on the **Item Supplier Catalogue** page, which you open from the item card, so that you can easily select an alternate supplier.
-
-## <a name="set-up-item-substitutions"></a>Set up item substitutions
-
-You can set up items to have substitutes, such as other items that can be used in place of the original item.
-
-### <a name="to-make-an-item-substitution"></a>To make an item substitution
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
-2. Find the relevant item, and then click on the **Item No.** to open the Item Card.  
-3. Choose the **Related** action, then choose **Item**, and then **Substitutions** to open the the Item Substitution Entry page.  
-4. Choose the **Substitute No.** field, and then select the replacement item from the list.
-5. Proceed to fill in or change other fields on the page as necessary.
-
-When the quantity requested, such as on a sales line, exceeds the quantity that is available in inventory, then a message appears to inform you that substitute items exist.
-
-> [!NOTE]  
-> Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
-
-## <a name="categories-attributes-and-variants"></a>Categories, attributes, and variants
-
-[!INCLUDE[inventory_variant](includes/inventory_variant.md)]
-
-## <a name="deleting-item-cards"></a>Deleting item cards
-
-If you have posted a transaction for an item, you cannot delete the card because the ledger entries may be needed for stock valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
-
-## <a name="manage-inventory-in-warehouses"></a>Manage stock in warehouses
-
-When you register a new item, you will see fields that are related to warehouse management, especially on the **Warehouse** FastTab. If your organisation does not use the warehouse management capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], then you can ignore those fields.  
-
-If your organisation later sets up warehouse management, in most cases, you must then go back to each existing item to make sure that it has the right information in the various fields, so that the warehouse processes can run as expected. This information can includes fields such as **Warehouse Class Code** or **Put-away Template Code**. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
-
-## <a name="planning"></a>Planning
-
-When your company uses the supply planning processes in [!INCLUDE [prod_short](includes/prod_short.md)], you must fill in the relevant fields on the **Planning** FastTab. For an introduction to the planning area, see [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md).  
-
-For examples of how you can use the fields on the **Planning** FastTab, see [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md).  
+The vendors will now appear on the **Item Vendor Catalogue** page, which you open from the item card, so that you can easily select an alternate vendor.
 
 ## <a name="see-also"></a>See Also
-
 [Inventory](inventory-manage-inventory.md)  
-[Set Up Units of Measurement](inventory-how-setup-units-of-measure.md)  
-[Commodity codes](finance-how-setup-report-intrastat.md#tariff-numbers)  
 [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Create Number Series](ui-create-number-series.md)  
-[Setting Up Posting Groups](finance-posting-groups.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
-[About Planning Functionality](production-about-planning-functionality.md)  
-[Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md)  
-[Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
-[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
-[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
-[Design Details: Planning Parameters](design-details-planning-parameters.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

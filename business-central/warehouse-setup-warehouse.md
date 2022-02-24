@@ -1,21 +1,28 @@
 ---
-title: Configure Warehouse Processes
-description: 'A company''s distribution strategy is reflected in the configuration of its warehouse processes, for example the warehouse locations.'
+title: Configure Warehouse Processes | Microsoft Docs
+description: A company's distribution strategy is reflected in the configuration of its warehouse processes. This includes defining how different items are handled in different warehouse locations, such as the degree of bin control and the extend of workflow required between warehouse activities.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366'
-ms.date: 06/25/2021
-ms.author: edupont
+ms.search.keywords: ''
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: df77998dc9e5ee06531f3be158a7d9ca2604fc05
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248707"
 ---
 # <a name="setting-up-warehouse-management"></a>Setting Up Warehouse Management
-
 A company's distribution strategy is reflected in the configuration of its warehouse processes. This includes defining how different items are handled in different warehouse locations, such as the degree of bin control and the extend of workflow required between warehouse activities.  
 
-The following table describes a sequence of tasks, with links to the topics that describe them.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
 
 |**To**|**See**|  
 |------------|-------------|  
@@ -28,22 +35,17 @@ The following table describes a sequence of tasks, with links to the topics that
 |Set users up as warehouse employees at specific locations.|[Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md)|
 |Define different types of bins across the warehouse to control where items are placed according to their type, rank, or handling level.|[Set Up Locations to Use Bins](warehouse-how-to-set-up-locations-to-use-bins.md)|
 |Make additional settings to an existing location to enable it for warehouse activities.|[Convert Existing Locations to Warehouse Locations](warehouse-how-to-convert-existing-locations-to-warehouse-locations.md)|
-|Enable picking, moving, and putting away for assembly or works orders in basic warehouse configurations.|[Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|  
+|Enable picking, moving, and putting away for assembly or production orders in basic warehouse configurations.|[Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|  
 |Set items and locations up for the most advanced scope of warehouse management where all activities must follow a strict workflow.|[Set Up Items and Locations for Directed Put-away and Pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)|  
 |Define when and how items in warehouse locations are counted for maintenance or financial reporting purposes.|[Count, Adjust, or Reclassify Inventory](inventory-how-count-adjust-reclassify.md)|
-|Enable warehouse workers to break a larger unit of measurement into smaller units of measurement to fulfil the needs of source documents.|[Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
+|Enable warehouse workers to break a larger unit of measure into smaller units of measure to fulfil the needs of source documents.|[Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Set up the warehouse to automatically suggest items to be picked that expire first.|[Enable Picking by FEFO](warehouse-picking-by-fefo.md)|
 |Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|
 |Integrate bar code readers to your warehouse management solution. Only for on-premise deployment.|[Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|
-|Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>See Also
-
+## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Assembly Management](assembly-assemble-items.md)
+[Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

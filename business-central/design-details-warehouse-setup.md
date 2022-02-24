@@ -1,26 +1,26 @@
 ---
-title: Design Details - Warehouse Setup
-description: Warehouse functionality contains different levels of complexity, which is largely defined by the bin setup on location cards.
+title: Design Details - Warehouse Setup | Microsoft Docs
+description: Warehouse functionality in Business Central contains different levels of complexity, as defined by licence permissions in the offered granules. The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: c0559ef10dd8051b64d919b8a27d3af11cce2819
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 06/04/2020
+ms.author: sgroespe
+ms.openlocfilehash: cd2a282e95e324e3adbf06cb72c53467f63c227b
+ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325167"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435238"
 ---
 # <a name="design-details-warehouse-setup"></a>Design Details: Warehouse Setup
 
-Warehouse functionality in [!INCLUDE[prod_short](includes/prod_short.md)] contains different levels of complexity, as defined by licence permissions in the offered granules. The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license. In addition, the application objects in the license govern which UI document to use for the supported warehouse activities.  
-<!--
+Warehouse functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] contains different levels of complexity, as defined by licence permissions in the offered granules. The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license. In addition, the application objects in the license govern which UI document to use for the supported warehouse activities.  
+
 The following warehouse-related granules exist:  
 
 - Basic Inventory (4010)  
@@ -34,26 +34,24 @@ The following warehouse-related granules exist:
 - Automated Data Capture System (4640)
 - Bin Setup (4660)  
 
-For more information about each granule, see [[!INCLUDE[prod_short](includes/prod_short.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account). -->
+For more information about each granule, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account).  
 
-The following table shows which granules are required to define different warehouse complexity levels, which UI documents support each level, and which location codes reflect these levels in the [!INCLUDE[prod_short](includes/prod_short.md)] demonstration database.  
+The following table shows which granules are required to define different warehouse complexity levels, which UI documents support each level, and which location codes reflect these levels in the [!INCLUDE[d365fin](includes/d365fin_md.md)] demonstration database.  
 
-[!INCLUDE [locations-cronus](includes/locations-cronus.md)]
-
-|Complexity Level|Description|UI Document|Example Location|Minimum Granule Requirement|  
+|Complexity Level|Description|UI Document|CRONUS Location|Minimum Granule Requirement|  
 |----------------|-----------|-----------|---------------|---------------------------|  
 |1|No dedicated warehouse activity.<br /><br /> Receive/ship posting from orders.|Order|BLUE|Basic Inventory|  
 |2|No dedicated warehouse activity.<br /><br /> Receive/ship posting from orders.<br /><br /> Bin code is required.|Order, with bin code|SILVER|Basic Inventory/Bin|  
-|3 <br /><br /> **NOTE**: Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.|Basic warehouse activity, order-by-order.<br /><br /> Receive/ship posting from inventory put-away/pick documents. <br /><br /> Bin code is required.|Inventory Put-away/Inventory Movement/inventory Pick, with bin code|(SILVER + Require Put-away or Require Put-away)|Basic Inventory/Bin/Put Away/Pick|  
+|3 <br /><br /> **NOTE**: Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.|Basic warehouse activity, order-by-order.<br /><br /> Receive/ship posting from inventory put-away/pick documents. <br /><br /> Bin code is required.|Inventory Put-away/Inventory Movement/Inventory Pick, with bin code|(SILVER + Require Put-away or Require Put-away)|Basic Inventory/Bin/Put Away/Pick|  
 |4|Advanced warehouse activity, for multiple orders.<br /><br /> Consolidated receive/ship posting based on warehouse put-away/pick registrations.|Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Pick Worksheet|GREEN|Basic Inventory/Warehouse Receipt/Put Away/Pick/Warehouse Shipment|  
 |5|Advanced warehouse activity, for multiple orders.<br /><br /> Consolidated receive/ship posting based on warehouse put-away/pick registrations.<br /><br /> Bin code is required.|Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Pick Worksheet/Put-away Worksheet, with bin code|(GREEN + Bin Mandatory)|Basic Inventory/Bin/Warehouse Receipt/Put Away/Pick/Warehouse Shipment|  
-|6 <br /><br /> **Note**: This level is referred to as "WMS", since it requires the most advanced granule, Warehouse Management Systems.|Advanced warehouse activity, for multiple orders<br /><br /> Consolidated receive/ship posting based on warehouse put-away/pick registrations<br /><br /> Bin code is required.<br /><br /> Zone/Class code is optional.<br /><br /> Warehouse workers directed by workflow<br /><br /> Bin replenishment planning<br /><br /> Bin ranking<br /><br /> Bin setup by capacity<br /><br /> Slotting  <!-- Hand-held device integration -->|Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Warehouse Movement/Pick Worksheet/Put-away Worksheet/Internal Whse. Pick/Internal Warehouse Put-away, with bin/class/zone code<br /><br /> Various worksheets for bin management<br /><br /> ADCS screens|WHITE|Basic Inventory/Bin/Put Away/Warehouse Receipt/Pick/Warehouse Shipment/Warehouse Management Systems/Internal Picks and Put-aways/Bin Setup/<!-- Automated Data Capture System/ -->Bin Setup|  
+|6 <br /><br /> **Note**: This level is referred to as “WMS”, since it requires the most advanced granule, Warehouse Management Systems.|Advanced warehouse activity, for multiple orders<br /><br /> Consolidated receive/ship posting based on warehouse put-away/pick registrations<br /><br /> Bin code is required.<br /><br /> Zone/Class code is optional.<br /><br /> Warehouse workers directed by workflow<br /><br /> Bin replenishment planning<br /><br /> Bin ranking<br /><br /> Bin setup by capacity<br /><br /> Slotting  <!-- Hand-held device integration -->|Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Warehouse Movement/Pick Worksheet/Put-away Worksheet/Internal Whse. Pick/Internal Warehouse Put-away, with bin/class/zone code<br /><br /> Various worksheets for bin management<br /><br /> ADCS screens|WHITE|Basic Inventory/Bin/Put Away/Warehouse Receipt/Pick/Warehouse Shipment/Warehouse Management Systems/Internal Picks and Put-aways/Bin Setup/<!-- Automated Data Capture System/ -->Bin Setup|  
 
 For examples of how the UI documents are used per warehouse complexity level, see [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md).  
 
 ## <a name="bin-and-bin-content"></a>Bin and Bin Content
 
-A bin is a storage device designed to contain discrete parts. It is the smallest container unit in [!INCLUDE[prod_short](includes/prod_short.md)]. Item quantities in bins are referred to as bin content. A lookup from the **Item** field or **Bin Code** field on any warehouse-related document line displays the calculated availability of the item in the bin.  
+A bin is a storage device designed to contain discrete parts. It is the smallest container unit in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Item quantities in bins are referred to as bin content. A lookup from the **Item** field or **Bin Code** field on any warehouse-related document line displays the calculated availability of the item in the bin.  
 
 A bin content can be given a property of Fixed, Dedicated, or Default to define how the bin content can be used. Bins with none of these properties are referred to as floating bins.  
 
@@ -76,7 +74,7 @@ In WMS installations, you can restrict the warehouse activities that are allowed
 |------------------|---------------------------------------|  
 |RECEIVE|Items posted as received but not yet put away.|  
 |SHIP|Items picked for warehouse shipment lines but not yet posted as shipped.|  
-|PUT AWAY|Typically, items to be stored in large units of measurement but that you do not want to access for picking purposes. Because these bins are not used for picking, either for works orders or shipments, your use of a Put Away type bin might be limited, but this bin type could be useful if you have purchased a large quantity of items. Bins of this type should always have a low bin-ranking, so that when received items are put away, other higher-ranking PUTPICK bins fixed to the item are put away first. If you are using this type of bin, you must regularly perform bin replenishment so that the items stored in these bins are also available in PUTPICK or PICK type bins.|  
+|PUT AWAY|Typically, items to be stored in large units of measure but that you do not want to access for picking purposes. Because these bins are not used for picking, either for production orders or shipments, your use of a Put Away type bin might be limited, but this bin type could be useful if you have purchased a large quantity of items. Bins of this type should always have a low bin-ranking, so that when received items are put away, other higher-ranking PUTPICK bins fixed to the item are put away first. If you are using this type of bin, you must regularly perform bin replenishment so that the items stored in these bins are also available in PUTPICK or PICK type bins.|  
 |PICK|Items to be used for picking only. The replenishment of these bins can only be made by movement, not by put-away.|  
 |PUTPICK|Items in bins that are suggested for both the put-away and pick functions. Bins of this type probably have different bin rankings. You can set up your bulk storage bins as this type of bin with low bin rankings compared to your ordinary pick bins or forward picking area bins.|  
 |QC|This bin is used for inventory adjustments if you specify this bin on the location card in the **Adjustment Bin Code** field. You can also set up bins of this type for defective items and items being inspected. You can move items to this type of bin if you want to make them inaccessible to the usual item flow. **Note:**  Unlike all other bin types, the **QC** bin type has none of the item handling check boxes selected by default. This indicates that any content you place in a QC bin is excluded from item flows.|  
@@ -97,14 +95,14 @@ Bin ranking together with bin content information are the basic properties that 
 ## <a name="bin-setup"></a>Bin Setup  
 In advanced warehousing, bins can be set up with capacity values, such as quantity, total cubage, and weight to control which and how items are stored in the bin.  
 
-On each item card, you can assign a unit of measurement (UOM) for the item, such as pieces, pallets, litres, grams, or boxes. You can also have a base UOM for an item and specify larger UOMs that are based on it. For example, you can define a pallet to equal 16 pieces, the latter being the base UOM.  
+On each item card, you can assign a unit of measure (UOM) for the item, such as pieces, pallets, liters, grams, or boxes. You can also have a base UOM for an item and specify larger UOMs that are based on it. For example, you can define a pallet to equal 16 pieces, the latter being the base UOM.  
 
 If you want to set a maximum quantity of a specific item to be stored in an individual bin and the item has more than one UOM, then you must set the maximum quantity for every UOM that exists on the item card. Accordingly, if an item has been set up to be handled in pieces and pallets, then the **Max. Qty.** field on the **Bin Content** page for that item must also be in pieces and pallets. Otherwise, the allowed quantity for that bin is not calculated correctly.  
 
 Before you set capacity restrictions for bin contents on a bin, you must first make sure that the UOM and dimensions of the item have been set up on the item card.  
 
 > [!NOTE]  
-> It is only possible to operate with multiple UOMs in WMS installations. I all other configurations, bin contents can only be in the base UOM. In all transactions with a UOM higher than the item's base UOM, the quantity is converted to the base UOM.  
+> It is only possible to operate with multiple UOMs in WMS installations. I all other configurations, bin contents can only be in the base UOM. In all transactions with a UOM higher than the item’s base UOM, the quantity is converted to the base UOM.  
 
 ## <a name="zone"></a>Zone
 
@@ -141,6 +139,3 @@ The put-away template can be assigned to an item and to a location. The put-away
 
 [Design Details: Warehouse Management](design-details-warehouse-management.md)   
 [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

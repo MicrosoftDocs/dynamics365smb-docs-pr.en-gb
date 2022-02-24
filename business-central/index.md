@@ -1,118 +1,45 @@
 ---
-title: Welcome to Microsoft Dynamics 365 Business Central
-description: Learn about capabilities and work scenarios in Business Central that helps companies manage their business, including finance, manufacturing, sales, shipping, project management, services, and more.
-author: edupont04
+title: Meet Microsoft Dynamics 365 Business Central
+description: Learn about capabilities and work scenarios in Business Central, a business management solution for small and mid-sized organisations.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/29/2021
-ms.author: edupont
-ms.openlocfilehash: 91faf4a1adeb6b53ffd8dbca81d8ef72df90b97e
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 695283e8d06c4c8bceb6eb0003687de0cc0eee6e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724844"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182523"
 ---
-# <a name="welcome-to-prod_long"></a>Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="welcome-to-d365fin_long"></a>Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[d365fin](includes/d365fin_md.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. In the navigation panel to the left, you can find information about using [!INCLUDE[d365fin](includes/d365fin_md.md)] in your company. Some key articles are also listed in the first section in the following table. And if you are a partner or customer looking at extending the functionality, you will find relevant links in the **Developer and IT-pro content** section.  
 
-If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://dynamics.microsoft.com/business-central/overview/),  [take the guided tour](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), and then [start a free trial](https://go.microsoft.com/fwlink/?linkid=847861). Check out the [quick start articles](quick-start-business-central.md) to help you get to know [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about onboarding to [!INCLUDE[prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md).  
+|||  
+|-|-|  
+|**Business Processes**|-   [Getting Started](product-get-started.md)<br />-   [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [Setting up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)<br />-   [Administration](admin-setup-and-administration.md)<br />-   [Business Functionality](across-business-functionality.md)<br />-   [Local Functionality](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [General Business Functionality](ui-across-business-areas.md)<br />-   [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)<br />-   [Application Design Details](design-details-application-design.md)|  
+|**Developer and IT-pro content**|-   [Developer and IT-pro Help for [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Development in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Rules and Guidelines for AL Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
+|**Community Resources**|-   [Microsoft Dynamics 365 Business Central Community](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)<br />-   [Microsoft Dynamics 365 Release Plans](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Microsoft Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)<br />-   [Microsoft Dynamics PartnerSource \(requires PartnerSource account\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
-> [!TIP]
-> Did you land here from inside [!INCLUDE [prod_short](includes/prod_short.md)]? If you are not sure where to find what you are looking for, you can **filter by titles** in the navigation pane to the left, or you can use the **Search** field at the top of the browser window.  
->
-> You can also use the search capabilities in [!INCLUDE [prod_short](includes/prod_short.md)] to find relevant documentation. For more information, see [Finding Pages and Information with Tell Me](ui-search.md).
-
-## <a name="overview"></a>Overview
-
-[!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. In the navigation panel to the left, you can find information about using [!INCLUDE[prod_short](includes/prod_short.md)] in your company. Find links to descriptions of the most commonly used capabilities in the [Business Processes](#business-processes) section.  
-
-[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
-
-You can also [visit our video library](across-videos.md), or start with the [Get started with Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) learning path on [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
-
-> [!NOTE]
-> Unless otherwise specified, the content on the Docs.microsoft.com site reflects the latest version of [!INCLUDE[prod_short](includes/prod_short.md)] online. If your organisation uses a different version of [!INCLUDE[prod_short](includes/prod_short.md)] online, then some capabilities might not yet be available. Also, if your organisation uses [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you might be using an earlier version. For more information, see [Frequently Asked Questions](across-faq.yml).
-
-The following sections point to key articles that can help you get familiar with [!INCLUDE [prod_short](includes/prod_short.md)].  
-
-## <a name="business-processes"></a>Business Processes
-
-- [Getting Ready for Doing Business](ui-get-ready-business.md)
-- [Setting up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
-- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-- [Administration](admin-setup-and-administration.md)
-- [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
-- [Application Design Details](design-details-application-design.md)
-- [Customise Business Central](ui-customizing-overview.md)
-- [Business Functionality](across-business-functionality.md)
-
-  - [Finance](finance.md)
-  - [Sales](sales-manage-sales.md)
-  - [Purchasing](purchasing-manage-purchasing.md)
-  - [Inventory](inventory-manage-inventory.md)
-  - [Project Management](projects-manage-projects.md)
-  - [Fixed Assets Overview](fa-manage.md)
-  - [Relationship Management](marketing-relationship-management.md)
-  - [Human Resources](hr-manage-human-resources.md)
-  - [Production Planning](production-planning.md)
-  - [Assembly Management](assembly-assemble-items.md)
-  - [Manufacturing](production-manage-manufacturing.md)
-  - [Warehouse Management](warehouse-manage-warehouse.md)
-  - [Service Management](service-service.md)
-  - [General Business Functionality](ui-across-business-areas.md)
-  - [Local Functionality](about-localization.md)
-
-## <a name="development-and-administration-content"></a>Development and administration content
-
-- [Development and Administration](/dynamics365/business-central/dev-itpro/index)
-- [Development in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
-- [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
-- [Rules and Guidelines for AL Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
-
-## <a name="learn"></a>Learn
-
-Find free e-learning content for [!INCLUDE[prod_short](includes/prod_short.md)] on [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
-
-You can also view videos of new and commonly used capabilities in our video library. For more information, see [Visit Our Video Library](across-videos.md).  
-
-## <a name="community-resources"></a>Community Resources
-
-- [Microsoft Dynamics 365 Business Central Community](https://community.dynamics.com/business)
-- [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)
-- [Microsoft Dynamics 365 Release Plans](/dynamics365/release-plans/)
-- [Microsoft Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)
-- [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
-
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Get notified about changes through an RSS feed
-
-[!INCLUDE [ua-rss](includes/ua-rss.md)]  
-
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/browse/?products=dynamics-business-central)
 
 ## <a name="see-also"></a>See Also
 
-[Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
-[Business Central Quick Starts](quick-start-business-central.md)  
-[Getting Started with Business Central](ui-get-ready-business.md)  
-[Visit Our Video Library](across-videos.md)  
-[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
-[Using [!INCLUDE[prod_short](includes/prod_short.md)] as my Business Inbox in Outlook](admin-outlook.md)  
-[Getting [!INCLUDE[prod_short](includes/prod_short.md)] on Your Mobile Device](install-mobile-app.md)  
-[Working with Dimensions](finance-dimensions.md)  
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as my Business Inbox in Outlook](admin-outlook.md)  
+[Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
 [Resources for Help and Support](product-help-and-support.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] Compliance](compliance/compliance-overview.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] Online Service Terms](compliance/compliance-service-compliance.md#service-terms)  
-[Major Updates and Minor Updates of Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
+[Compliance](compliance/compliance-overview.md)  
 [Dynamics 365 documentation](/dynamics365/)  
 [Dynamics 365 Business Central on microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
-[Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Introducing docs.microsoft.com (original blog post)](/teamblog/introducing-docs-microsoft-com)  
+[Business Central Learning Catalogue](readiness/readiness-learning-catalog.md)  
+[Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]

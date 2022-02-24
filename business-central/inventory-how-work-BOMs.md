@@ -1,21 +1,21 @@
 ---
-title: Work with Bills of Material to Manage Components
+title: Work with Bills of Material to Manage Components| Microsoft Docs
 description: You create an assembly BOM or production BOM to specify the components or resources required to put together the item that the BOM represents.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d058b15ad55713a22ee70862f666301d36d53e0a
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/27/2020
+ms.author: sgroespe
+ms.openlocfilehash: 1b095b54d5540de34b86f4073cc5d57679cee8ff
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060045"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324229"
 ---
 # <a name="work-with-bills-of-material"></a>Work with Bills of Material
 You use bills of materials (BOMs) to structure parent items that must be assembled or produced by resources or machine centres from components. An assembly BOM can also be used to sell a parent item as a kit consisting of its components.
@@ -27,13 +27,13 @@ An assembly BOM is the master data that defines which component items go into an
 
 Assembly BOMs are described in this topic.
 
-You use works orders for making end items from components in a complex process that requires a production routing and work or machine centres, which represent production capacities. For example, a production process could be to cut steel plates in one operation, weld them in the next operation, and paint the end item in the last operation. For more information, see [Manufacturing](production-manage-manufacturing.md).  
+You use production orders for making end items from components in a complex process that requires a production routing and work or machine centres, which represent production capacities. For example, a production process could be to cut steel plates in one operation, weld them in the next operation, and paint the end item in the last operation. For more information, see [Manufacturing](production-manage-manufacturing.md).  
 
-A production BOM is the master data that defines a production item and the components that go into it. for assembly items, the production BOM must be certified and assigned to the production item before it can be used in a works order. When you enter the production item on a works order line, either manually or by refreshing the order, then the production BOM content becomes the works order components. For more information, see [Create Production BOMs](production-how-to-create-production-boms.md).  
+A production BOM is the master data that defines a production item and the components that go into it. for assembly items, the production BOM must be certified and assigned to the production item before it can be used in a production order. When you enter the production item on a production order line, either manually or by refreshing the order, then the production BOM content becomes the production order components. For more information, see [Create Production BOMs](production-how-to-create-production-boms.md).  
 
 The concept of resources in production is much more advanced than in assembly management. Work centres and machine centres function as resources, and production steps are represented by operations that are assigned to resources in production routings. For more information, see [Create Routings](production-how-to-create-routings.md).
 
-Both assembly orders and works orders may be linked directly to sales orders. However, you can only use assembly orders to customise the end item directly for a customer request with the sales order.
+Both assembly orders and production orders may be linked directly to sales orders. However, you can only use assembly orders to customise the end item directly for a customer request with the sales order.
 
 ## <a name="to-create-an-assembly-bom"></a>To create an assembly BOM
 To define a parent item that consists of other items, and potentially of resources required to put the parent together, you must create an assembly BOM.  
@@ -57,14 +57,14 @@ There are two parts to creating an assembly BOM:
 ## <a name="to-edit-assembly-boms"></a>To edit assembly BOMs
 You can edit the lines on an assembly BOM at any time. But be aware that the BOM may be in use on ongoing sales or assemblies of the parent, which may be affected by the change. Choose the **Where-Used** action to see in which items it is being used and then whether sales or assembly orders may be affected.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Choose the **Yes** value in the **Assembly BOM** column.
 3. On the **Assembly BOM** page, choose the **Edit List** action, and then change any field as needed.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>To view components and resources indented according to the BOM structure
 From the **Assembly BOM** page, you can open a separate page that shows the components and any resources indented according to their BOM position under the assembly item.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)
 3. On the **Item Card** page, choose the **Assembly** action, and then choose the **Assembly BOM** action.
 4. On the **Assembly BOM** page, choose the **Show BOM** action.
@@ -72,14 +72,14 @@ From the **Assembly BOM** page, you can open a separate page that shows the comp
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>To replace the assembly item with its components on document lines
 From any sales and purchase document that contains an assembly item, you can use a special function to replace the line for the assembly item with new lines for its components. This function is useful, for example, if you want to sell the components as a kit that represents the assembly item.
 
-The **Explode BOM** action is also available on the **Assembly BOM** page as a way to view sub-assembly items on an assembly BOM.
+The Explode BOM function is also available on the **Assembly BOM** page as a method to view child items on any subassemblies on an assembly BOM.
 
 > [!CAUTION]  
 >  When you have used the **Explode BOM** function, you cannot easily undo it. You must delete the sales order lines representing the components and then reenter a sales order line for the assembly item.
 
 The following procedure is based on a sales invoice. The same steps apply to other sales documents and to all purchase documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.
 2. Open a sales invoice that contains a line for an assembly item.
 3. Choose the line for an assembly item, and then **Explode BOM** line action.
 
@@ -89,15 +89,11 @@ All fields on the sales invoice line for the assembly item are cleared except fo
 > The **Picking List by Order** report is also changed to show the components only. This means that a warehouse worker picking the parent item, the assembly item, will not see it in the picking list. For more information, see [Print the Picking List](sales-how-print-picking-list.md).
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>To calculate the standard cost of an assembly item
-
-You calculate the unit cost of an assembly item by rolling up the unit cost of each component and resource in the item's assembly BOM.
+You calculate the unit cost of an assembly item by rolling up the unit cost of each component and resource in the item’s assembly BOM.
 
 You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. For more information, see [Update Standard Costs](finance-how-to-update-standard-costs.md).  
 
-The unit cost of an assembly BOM always equals the total of the unit costs of its components, including other assembly BOMs, and any resources.  
-
-> [!NOTE]
-> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)]
+The unit cost of an assembly BOM always equals the total of the unit costs of its components, including other assembly BOMs, and any resources.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.
 2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)
@@ -118,7 +114,4 @@ The costs of the items that make up the assembly BOM are copied from the compone
 [Register New Items](inventory-how-register-new-items.md)  
 [View the Availability of Items](inventory-how-availability-overview.md)     
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,30 +1,30 @@
 ---
-title: Design Details - Works Order Posting | Microsoft Docs
-description: Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the works order is finished.
+title: Design Details - Production Order Posting | Microsoft Docs
+description: Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d69007dfba9fe7aa95365f7bd2c7f5b6b2c756d0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442367"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184827"
 ---
-# <a name="design-details-production-order-posting"></a>Design Details: Works Order Posting
-Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the works order is finished. For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.
+# <a name="design-details-production-order-posting"></a>Design Details: Production Order Posting
+Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished. For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.
 
 
 Transactions that occur during the manufacturing process can be tracked through the following stages:  
 
 1.  Purchase of materials and other manufacturing inputs.  
-2.  Conversion into work in progress.  
+2.  Conversion into work in process.  
 3.  Conversion into finished goods inventory.  
 4.  Sale of finished goods.  
 
@@ -33,7 +33,7 @@ Therefore, apart from regular inventory accounts, a manufacturing company must e
 |Inventory Account|Description|  
 |-----------------------|---------------------------------------|  
 |**Raw Materials account**|Includes the cost of raw materials that are purchased but not yet transferred to production. The balance in the Raw Materials account indicates the cost of raw materials on hand.<br /><br /> When raw materials move into the production department, the cost of the materials is transferred from the Raw Materials account to the WIP account.|  
-|**Work in Progress (WIP) account**|Accumulates the costs that are incurred during production in the accounting period. The WIP account is debited for the cost of raw materials that are transferred from the raw materials warehouse, the cost of direct labour performed, and the manufacturing overhead costs that are incurred.<br /><br /> The WIP account is credited for the total manufacturing cost of units that are completed in the factory and transferred to the finished goods warehouse.|  
+|**Work in Process (WIP) account**|Accumulates the costs that are incurred during production in the accounting period. The WIP account is debited for the cost of raw materials that are transferred from the raw materials warehouse, the cost of direct labour performed, and the manufacturing overhead costs that are incurred.<br /><br /> The WIP account is credited for the total manufacturing cost of units that are completed in the factory and transferred to the finished goods warehouse.|  
 |**Finished Goods account**|This account includes the total manufacturing cost of units that are completed but not yet sold. At the time of sale, the cost of units sold is transferred from the Finished Goods account to the Cost of Goods Sold account.|  
 
 The inventory value is calculated by tracking the costs of all increases and decreases, as expressed by the following equation:  
@@ -54,15 +54,15 @@ The values of increases and decreases are recorded in the different types of man
 Although values of transactions that are related to purchased goods are posted only as item ledger entries with related value entries, transactions that are related to produced items are posted as capacity ledger entries with related value entries, in addition to the item ledger entries.  
 
 ## <a name="posting-structure"></a>Posting Structure  
-Posting works orders to WIP inventory involves output, consumption, and capacity.  
+Posting production orders to WIP inventory involves output, consumption, and capacity.  
 
 The following diagram shows the involved posting routines in codeunit 22.  
 
-![works order posting routines.](media/design_details_inventory_costing_14_production_posting_1.png "Works order posting routines")  
+![Production order posting routines](media/design_details_inventory_costing_14_production_posting_1.png "Production order posting routines")  
 
 The following diagram shows the associations between the resulting entries and the cost objects.  
 
-![Production entry flow.](media/design_details_inventory_costing_14_production_posting_2.png "Production entry flow")  
+![Production entry flow](media/design_details_inventory_costing_14_production_posting_2.png "Production entry flow")  
 
 The capacity ledger entry describes the capacity consumption in terms of time units, whereas the related value entry describes the value of the specific capacity consumption.  
 
@@ -70,46 +70,43 @@ The item ledger entry describes the material consumption or output in terms of q
 
 A value entry that describes WIP inventory value can be associated with one of the following combinations of cost objects:  
 
--   A works order line, a work or machine centre, and a capacity ledger entry.  
--   A works order line, an item, and an item ledger entry.  
--   Only a works order line  
+-   A production order line, a work or machine centre, and a capacity ledger entry.  
+-   A production order line, an item, and an item ledger entry.  
+-   Only a production order line  
 
 For more information about how costs from production and assembly are posted to the general ledger, see [Design Details: Inventory Posting](design-details-inventory-posting.md).  
 
 ## <a name="capacity-posting"></a>Capacity Posting  
-Posting output from the last works order routing line results in a capacity ledger entry for the end item, in addition to its inventory increase.  
+Posting output from the last production order routing line results in a capacity ledger entry for the end item, in addition to its inventory increase.  
 
  The capacity ledger entry is a record of the time that was spent to produce the item. The related value entry describes the increase of the WIP inventory value, which is the value of the conversion cost. For more information, see “From the Capacity Ledger” in [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="production-order-costing"></a>Works Order Costing  
- To control inventory and production costs, a manufacturing company must measure the cost of works orders, because the predetermined standard cost of each produced item is capitalised in the balance sheet. For information about why produced items use the Standard costing method, see [Design Details: Costing Methods](design-details-costing-methods.md).  
+## <a name="production-order-costing"></a>Production Order Costing  
+ To control inventory and production costs, a manufacturing company must measure the cost of production orders, because the predetermined standard cost of each produced item is capitalised in the balance sheet. For information about why produced items use the Standard costing method, see [Design Details: Costing Methods](design-details-costing-methods.md).  
 
 > [!NOTE]  
 >  In environments that do not use the Standard costing method, the actual rather than the standard cost of produced items is capitalised on the balance sheet.  
 
-The actual cost of a works order consists of the following cost components:  
+The actual cost of a production order consists of the following cost components:  
 
 -   Actual material cost  
 -   Actual capacity cost or subcontractor cost  
 -   Manufacturing overhead  
 
-These actual costs are posted to the works order and compared to the standard cost to calculate variances. Variances are calculated for each of the item cost components: raw materials, capacity, subcontractor, capacity overhead, and manufacturing overhead. The variances can be analysed to determine problems, such as excessive waste in processing.  
+These actual costs are posted to the production order and compared to the standard cost to calculate variances. Variances are calculated for each of the item cost components: raw materials, capacity, subcontractor, capacity overhead, and manufacturing overhead. The variances can be analysed to determine problems, such as excessive waste in processing.  
 
-In standard-cost environments, the costing of a works order is based on the following mechanism:  
+In standard-cost environments, the costing of a production order is based on the following mechanism:  
 
-1.  When the last routing operation is posted, the works order cost is posted to the item ledger and set to the expected cost.  
+1.  When the last routing operation is posted, the production order cost is posted to the item ledger and set to the expected cost.  
 
-    This cost equals the output quantity that is posted in the output journal multiplied by the standard cost that is copied from the item card. The cost is treated as expected cost until the works order is finished. For more information, see [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md).  
+    This cost equals the output quantity that is posted in the output journal multiplied by the standard cost that is copied from the item card. The cost is treated as expected cost until the production order is finished. For more information, see [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md).  
 
     > [!NOTE]  
     >  This differs from assembly order posting, which always posts actual costs. For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
-2.  When the works order is set to **Finished**, the order is invoiced by running the **Adjust Cost-Item Entries** batch job. As a result, the total cost of the order is calculated based on the standard cost of the consumed materials and capacity. The variances between the calculated standard costs and the actual production costs are calculated and posted.  
+2.  When the production order is set to **Finished**, the order is invoiced by running the **Adjust Cost-Item Entries** batch job. As a result, the total cost of the order is calculated based on the standard cost of the consumed materials and capacity. The variances between the calculated standard costs and the actual production costs are calculated and posted.  
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md) [Finance](finance.md)  
  [Working with Business Central](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,48 +1,43 @@
 ---
-title: Set Up Employees and Modify Information
-description: Describes how to use the Human Resources functionality to register new personnel or edit employee information for existing staff.
+title: Set Up Employees and Modify Information| Microsoft Docs
+description: Describes how to register new personnel or edit information for existing staff.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.search.form: 5200, 5201
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: c3e8215f80d2d035643166832b866c569e1d2d1a
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.date: 04/01/2020
+ms.author: SorenGP
+ms.openlocfilehash: 264ae00ff26156bd0d740d015664f260bd062f4a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101114"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182571"
 ---
 # <a name="register-employees"></a>Register Employees
-To use the Human Resources functionality, you must first add each employee by filling out the fields on the **Employee Card** page.
+To use the Human Resources functionality, you must first register each employee by creating a card with all the core and related information.
 
-## <a name="adding-new-customers"></a>Adding new customers
-You can add new employees manually, by filling out the fields on the **Employee Card** page, or you can use templates that contain predefined information. For example, you can create a templates for different types of employee profiles. Using templates saves time when adding new employees, and helps ensure that the information is correct each time. If you create templates for more than one type of employee, you can choose the template to use when you add an employee. If you create only one template it will be used for all new employees. After you create a template, you can use the **Apply Template** action to apply it to one or more selected employees. To create a template, you fill in the information that you want to reuse on the Employee Card page, and then save it as a template.
+You can modify an employee's details at any time. Keeping up-to-date records about your employees simplifies personnel tasks. For example, if an employee's address changes, you register this on the employee card.
 
-> [!TIP]
-> It can be helpful to personalise the **Employee Template** page when you create a template. For example, you might want to add a field that is not already displayed on the page. For more information, see [Personalise Your Workspace](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
-
-You can modify an employee's details at any time. Keeping employee records up-to-date can simplify personnel-related tasks. For example, if an employee's address changes, you register this on the Employee Card page.
+The following procedures describe how to create an initial employee card and how to assign two types of employee details to an employee. In addition, you can assign various other related information, such as qualifications and causes of inactivity. You assign employee information either by choosing a field or an action on the **Employee Card** page.
 
 > [!NOTE]  
 > You can reimburse employees for their expenses during business activities. For this purpose, you must fill in the fields on the **Payments** FastTab on the **Employee Card** page. For more information, see [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>To set up an employee
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **Employee Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>To insert a picture of an employee
-If you have a picture of an employee, you can insert it on the employee card.
+If you have a picture of an employee in .bmp format, you can insert it on the employee card.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
 2. Open the card for the relevant employee.
 3. In the **Employee Picture** FactBox, choose the drop-down button, and then choose **Import**.
 4. On the **Select a picture to upload** page, choose the **Choose** button.
@@ -55,7 +50,7 @@ On the employee card, you can set up information, such as union membership, rela
 
 You can use alternate addresses to keep track of your employees’ location, for example if they are stationed abroad, on a long business trip, or residing at a summer residence.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
 2. Open the card for the relevant employee.
 3. Choose the **Alternate Addresses** action.
 4. **In the Alternate Address List** page, fill in the fields as necessary.
@@ -64,8 +59,5 @@ You can use alternate addresses to keep track of your employees’ location, for
 ## <a name="see-also"></a>See Also
 [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

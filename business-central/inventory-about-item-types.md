@@ -1,37 +1,38 @@
 ---
-title: Understanding Item Types
-description: You can adjust the inventory valuation of an item using the FIFO or Average costing methods when item costs change for reasons other than transactions.
+title: Understanding Item Types| Microsoft Docs
+description: You can adjust the inventory valuation of an item using the FIFO or Average costing methods, for example, when item costs change for reasons other than transactions.
+services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 9297, 5845, 30,
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: acb6ab4436f32760d905701348a242a4374b6b2d
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 481e8bbdb13863055c4dc532cb2c214228b8a8ba
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059629"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454303"
 ---
 # <a name="about-item-types"></a>About Item Types
-In the **Type** field on the **Item Card** page, you can select what the item is used for in your business, which affects the degree to which you can manage the item in inventory. The following table lists and describes the three types of items that are available.
+In the **Type** field on the **Item Card** page, you can select what the item is used for in your business and therefore how it is managed in the system. Three options exist:
 
 |Option|Typical Purpose|
 |------|-----------|
-|Stock|Physical things, such as bicycles, telephones, and desks, for which you want to be able to use all inventory processes. This can also include non-physical items, such as software licences and subscriptions, if the items have identification numbers, such as serial numbers. You can fully track item values and availability in inventory.|
-|Non-Inventory|Typically, non-inventory items are physical things, such as bolts or pens, that a business consumes but does not want to fully track in inventory. For example, because they're low-cost items and are only used internally.|
+|Inventory|A physical unit, such as a bicycle, for full business support.|
+|Non-Inventory|A physical unit, such as a bolt, for limited business support, for example, because the item is only used internally and has a low cost.|
 |Service|A labour time unit, such as a consultancy hour, for limited business support.|
 
-> [!NOTE]
-> The **Service** and **Non-Inventory** types do not support tracking of inventory quantities and values. Only selected item transaction nature codes and features are supported.
+The **Inventory** type involves full tracking of inventory quantity and value. Therefore, all item transaction nature codes are supported, and items of type Inventory can be used with all item-handling features.
 
-The following table lists the features that the three item types support.
+The **Service** and **Non-Inventory** types do not involve tracking of inventory quantity and value. Therefore, only selected item transaction nature codes and features are supported.
+
+The three item types support the following features respectively.
 
 |Item Type|Sales|Purchasing|Job Consumption|Service Consumption|Assembly Consumption|Production Consumption|Assembly Output|Production Output|Location Transfer|Physical Counting|Inventory Revaluation|Inventory Costing|Item Tracking|Reservation|Warehousing|Planning|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -56,7 +57,4 @@ Customers' items that you perform service on, such as a printer, are called serv
 [Setting Up Inventory](inventory-setup-inventory.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

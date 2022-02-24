@@ -3,22 +3,22 @@ title: Design Details - Supply Planning | Microsoft Docs
 description: This topic provides an overview of the the concepts and principles that are used within the Supply Planning features in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 78b5700646d95d9cdc38a7a67663473fafddaa2c
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 8b364aef69ab7b9e036caebe2f60387982cd9221
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214835"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184674"
 ---
 # <a name="design-details-supply-planning"></a>Design Details: Supply Planning
-This documentation provides detailed technical insight to the concepts and principles that are used within the Supply Planning features in [!INCLUDE[prod_short](includes/prod_short.md)].  
+This documentation provides detailed technical insight to the concepts and principles that are used within the Supply Planning features in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 It explains how the planning system works and how to adjust the algorithms to meet planning requirements in different environments. It first introduces central solution concepts and then describes the logic of the central mechanism, supply balancing, before proceeding to explain how inventory planning is performed with the use of reordering policies.  
 
@@ -31,6 +31,3 @@ It explains how the planning system works and how to adjust the algorithms to me
 [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
 [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
 [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

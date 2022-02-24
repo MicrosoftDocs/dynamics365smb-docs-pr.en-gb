@@ -1,24 +1,26 @@
 ---
-title: Merge Duplicate Customer or Supplier Records
-description: Describes how to consolidate information about customers or suppliers when you have duplicate entries about some of them.
+title: Merge Duplicate Customer or Vendor Records | Microsoft Docs
+description: Describes how to create a customer card to register information about each new customer or client that you sell to.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 1fb7f049e253e70e9170c257848b3738dec9d176
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436858"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312179"
 ---
 # <a name="merge-duplicate-records"></a>Merge Duplicate Records
-As different users create new customer, supplier, or contact cards over time, or the new records are created automatically during migration, a customer, supplier, or contact may be represented in the system with more than one record. In this case, you can use the **Merge Duplicate** page from the card of the record that you want to keep. The page gives you an overview of duplicated field values and provides functions to select which values to keep or discard when merging two records into one.
+As different users create new customer, vendor, or contact cards over time, or the new records are created automatically during migration, a customer, vendor, or contact may be represented in the system with more than one record. In this case, you can use the **Merge Duplicate** page from the card of the record that you want to keep. The page gives you an overview of duplicated field values and provides functions to select which values to keep or discard when merging two records into one.
 
 > [!NOTE]
 > Only users with the MERGE DUPLICATES permission set can use this functionality.
@@ -26,9 +28,9 @@ As different users create new customer, supplier, or contact cards over time, or
 > [!TIP]
 > The **Merge Duplicate** page shows all fields where the values are different for the two records being compared. Therefore, a duplicate is indicated by the page showing very few fields. Whereas, if the page shows many fields, then the suspected record is probably not a duplicate.
 
-The following procedure is based on a customer card. The steps are similar for a supplier and contact cards.
+The following procedure is based on a customer card. The steps are similar for a vendor  and contact cards.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Select the customer that you know or suspect that a duplicate record exists for, and then choose the **Edit** action.
 3. On the **Customer Card** page, choose the **Merge With** action.
 4. On the **Merge Duplicate** page, in the **Merge With** field, select the customer that you believe is a duplicate of the one you have opened, indicated in the **Current** field.
@@ -65,7 +67,4 @@ The following procedure is based on a customer card. The steps are similar for a
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
 [Set Up Contacts](marketing-setup-contacts.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

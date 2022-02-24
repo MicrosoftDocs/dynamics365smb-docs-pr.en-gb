@@ -1,101 +1,72 @@
 ---
-title: Working with Reports, Batch Jobs, and XMLports
+title: Scheduling a Report to Run at a Specific Date and Time | Microsoft Docs
 description: Learn about entering a report into a job queue and scheduling it to be processed at a specific date and time.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 02/09/2022
-ms.author: jswymer
-ms.openlocfilehash: 142a9f826e200f06172b741e72e54d49ff9caf47
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.search.keywords: task, process, report
+ms.date: 06/10/2020
+ms.author: sgroespe
+ms.openlocfilehash: 19811dadb284ee9e629c9dc518df5cb989175fdb
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102610"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454336"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Working with Reports, Batch Jobs, and XMLports
 
-A report gathers information based on a specified set of criteria. It organises and presents the information in an easy-to-read format that you can print or save as a file. There are many reports that you can access throughout the application. The reports typically provide information related to the context of the page you're on. For example, the **Customer** page includes reports for the top 10 customers, sales statistics, and more.
+A report gathers information based on a specified set of criteria, and organises and presents the information in an easy-to-read format that you can print or save as a file. There are many reports that you can access throughout the application. The reports typically provide information relative to the context of the page you are on. For example, the **Customer** page includes reports for the top 10 customers, sales statistics, and more.
 
-Batch jobs and XMLports do more or less the same as reports, but are used more for processing or exporting data. For example, the **Create Reminders** batch job creates reminder documents for customers with overdue payments.  
+Batch jobs and XMLports do more or less the same as reports, but for the purpose of performing a process or exporting data. For example, the **Create Reminders** batch job creates reminder documents for customers with overdue payments.  
 
 > [!NOTE]
 > This topic refers mainly to "report", but similar information applies to batch jobs and XMLports.
 
-## <a name="getting-started"></a>Getting Started
-
-You find reports in the **Reports** tab on selected pages, or you can use search ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") to find reports by name.
-
-When you open a report, batch job, or XMLport, you're typically presented with a request page where you set various options and filters that determine what to include in the report. The following sections explain how to use the request page to build, preview, and print a report.
-
-## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Using default values - predefined settings
-
-Most request pages include the **Use default values from** field. This field lets you select predefined settings for the report, which automatically set options and filters for the report. Select an entry from the drop-down list, and you'll see the options and filters on the request page change accordingly.
-
-The entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you ran the report.
-
-The **Use default values from** field provides a fast and reliable way to consistently generate reports that contain the correct data. After you select an entry, you can change any of the options and filters before previewing or printing the report. The changes that you make won't be saved to the predefined settings entry you selected, but they'll be saved to the **Last used options and filters** entry.
-
->[!NOTE]
-> The predefined settings are typically set up and managed by an administrator. If you want to learn more, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
+You can find reports in the **Reports** tab on selected pages, or you can use search ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") to find reports by name.
 
 ## <a name="specifying-the-data-to-include-in-reports"></a>Specifying the Data to Include in Reports
+When you open a report, batch job, or XMLport, you are typically presented with a request page where you set various options and filters that determine what to include in the report.
 
-Use the fields under **Options** and **Filters** to change limit the information you want in the report. You set filters in a report in more or less the same way as you set filters on lists. For more information, see [Filtering](ui-enter-criteria-filters.md#filtering).
+You set filters in a report in more or less the same way as you set filters on lists. For more information, see [Filtering](ui-enter-criteria-filters.md#filtering).
 
 > [!CAUTION]
 > The **Filter list by** section on a request page provides a generic filtering capability for reports. These filters are optional.
 >
-> Some reports will ignore any such filters, meaning that no matter what filter is set in the **Filter list by** section, the output of the report is the same. It's not possible to provide a list of which fields are ignored in which reports, so you will have to experiment with the filters when using them.
+> Some reports will ignore any such filters, meaning that no matter what filter is set in the **Filter list by** section, the output of the report is the same. It is not possible to provide a list of which fields are ignored in which reports, so you will have to experiment with the filters when using them.
 >
 > **Example**: When you use the **Create Reminders** batch job, a filter for the **Customer Ledger Entries** field of **Last Issued Reminder Level** will be ignored because filters are fixed for that batch job.
 
+## <a name="using-saved-settings"></a><a name="SavedSettings"></a>Using Saved Settings
+The request page can include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you used the report.
+
+Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters** entry.
+
+>[!NOTE]
+>If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
+
 ## <a name="previewing-a-report"></a>Previewing a Report
 
-Previewing a report lets you see what the report will look like before you print it. The preview isn't based on the printer selected in the **Printer** field on the request page. It's controlled by the browser. After previewing, you can then go back to the request page and make changes to options and filters as needed.
-
-To preview a report, choose the **Preview** or **Preview & Close** button on the report request page. The button that displays depends on the report, so some reports have **Preview** button, while others have a **Preview & Close** button. Both buttons will open a preview of the report. The difference is that **Preview** keeps the request page open, so you can go back to it, make changes, preview again, or print. With **Preview & Close**, the request page closes, so you'll have to open the report again to make changes or print.
-
-> [!NOTE]
-> If you're using Business Central 2020 release wave 1 or earlier, there's only a **Preview** button, which closes the request page on preview, like described for **Preview & Close**.
-
-### <a name="working-with-the-preview"></a>Working with the Preview
-
-In the preview, use the menu bar on the report preview to:
+Choose the **Preview** button to view the report in the. Use the menu bar on the report preview to:
 
 - Move through pages
 - Zoom in and out
 - Resize to fit the page
 - Select text
 
-    You can copy text from a report, and then paste it somewhere else, like a page in [!INCLUDE[prod_short](includes/prod_short.md)] or Microsoft Word.  Using a mouse, for example, you press and hold where you want to start. Then move the mouse to select one or more words, sentences, or paragraphs. Press the right mouse button and select **Copy**. Then, paste the selected text where you want it.
+    You can copy text from a report, and then paste it somewhere else, like a page in [!INCLUDE[d365fin](includes/d365fin_md.md)] or Microsoft Word.  Using a mouse, for example, you press and hold where you want to start, and then move the mouse to select one or more words, sentences, or paragraphs. You can then press the right mouse button and select **Copy**. You can then paste the selected text where ever you want it.
 - Pan the document
 
-    You can move the visible area of the report in any direction so you can view other areas or the report. Panning is helpful when you've zoomed in to see details.  Using your mouse, for example, press and hold the mouse button anywhere in the report preview, and then move your mouse.
+    You can move the visible area of the report in any direction so you can view other areas or the report. This is helpful when you have zoomed in to see details.  Using your mouse, for example, press and hold the mouse button anywhere in the report preview, and then move your mouse.
 
 - Download to a PDF file on your computer or network.
 - Print
 
-## <a name="saving-a-report-to-a-file"></a>Saving a Report to a File
-
-You can save a report to a PDF document, Microsoft Word document, or Microsoft Excel worksheet by choosing the **Send to** button, and then making your selection.
-
-### <a name="about-sending-to-excel"></a>About sending to Excel
-
-You can work with [!INCLUDE [prod_short](includes/prod_short.md)] data in Excel for further analysis. For more information, see [Analysing Report Data with Excel](report-analyze-excel.md).  
-<!--
-### About sending to Word
-
-Use the **Microsoft Word Document** option to generate a report as a Word document.  
-
-> [!NOTE]
-> You can specify the layout to use for each report on the **Report Selection** page in the **Selected Layout** field. The default setting for reports is **RDLC (built-in)**, which produces reports in the same, or similar, layout as the **Microsoft Word Document** layout. However, the key difference is whether you want to generate a single or multiple report documents. For single documents, you can use the RDLC (built-in) option. For multiple documents, set the **Microsoft Word Document** as the default layout for the report. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
-
--->
+## <a name="saving-a-report"></a>Saving a Report
+You can save a report to a PDF document, Microsoft Word document, or Microsoft Excel document by choosing the **Send to** button, and then making your selection.
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Scheduling a Report to Run
 
@@ -103,51 +74,31 @@ You can schedule or batch job a report to run at a specific date and time. Sched
 
 When you schedule a report to run, you can specify that it must run every Thursday by setting the **Next Run Date Formula** field to *D4*, for example. For more information, see [Using Date Formulas](ui-enter-date-ranges.md#using-date-formulas).  
 
-You can choose to save the report to a file (like Excel, Word, or PDF), print it, or only generate the report. If you choose to save the report to a file, then the processed report is sent to the **Report Inbox** area on your Role Centre, where you can view it.  
+You can choose to save the processed report to a file, such as an Excel, Word, or PDF, print it to a selected printer, or process the report only. If you choose to save the report to a file, then the processed report is sent to the **Report Inbox** area on your Role Centre, where you can view it.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Printing a Report
+You can print a report by choosing the **Print** button on the report request page or on the menu bar on the **Preview** page.
 
-To print a report, choose the **Print** button on the request page or on the menu bar of the **Preview** page.
+Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it cannot reach local printers connected to users' machines. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
 
-### <a name="printer"></a><a name="Printer"></a>Printer
+If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser. This is indicated by this value in the **Printer** field on the report request page: *(none, handled by the browser)*.
 
-The **Printer** field on the request page shows the name of printer that the report will be sent to. To change a printer, just select the printer from the list.
+On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
 
 > [!NOTE]
-> **(Handled by the browser)** indicates there's no designated printer for the report. In this case, the browser will handle the printout and display a standard experience, where you can choose a local printer connected to your device. **(Handled by the browser)** isn't available in the [!INCLUDE[prod_short](includes/prod_short.md)] mobile app or app for Microsoft Teams.
-
-> [!TIP]
-> The printer that's selected for you by default is set up on the **Printer Selections** page. For information about changing the default printer, see [To select which printers print which reports](ui-specify-printer-selection-reports.md#default).
+> You cannot change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
 
 ### <a name="printing-reports-in-thai"></a>Printing Reports in Thai
+Specifically for the Thai version of [!INCLUDE[prodshort](includes/prodshort.md)], the **Print** button cannot print reports correctly due to limitations in the service that generates the printable PDF file. Instead, you can open the report in Word and then save the report as a printable PDF.  
 
-Specifically for the Thai version of [!INCLUDE[prod_short](includes/prod_short.md)], the **Print** button can't print reports correctly because of limitations in the service that generates the printable PDF file. Instead, you can open the report in Word and then save the report as a printable PDF.  
-
-Or, you can ask your administrator to create a Word report layout for your most used reports. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).  
+Alternatively, you can ask your administrator to create a Word report layout for your most used reports. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).  
 
 ## <a name="changing-report-layouts"></a>Changing Report Layouts
-
-A report layout controls what is shown on a report, how it's arranged, and how it's styled. If you want to switch to a different layout, see [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md). Or, if you want to customise your own report layout, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md).
-
-## <a name="advanced-options"></a>Advanced options
-
-The fields under **Advanced** set limitations on the generated report to control printer resources. You typically won't have to change these settings, unless you have a large report. If a report exceeds these limitations when you try to preview or print, a message appears telling you which limitation was exceeded. You can then change the settings to suit your report. Each field, however, has a maximum value that you should be aware of:
-
-|Field|Maximum value|
-|-----|-------------|
-|Maximum rendering time|12:00:00|
-|Maximum rows|1000000|
-|Maximum documents|500|
-
-> [!NOTE]
-> The maximum values may be different for [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, and an administrator can change them. For more information, see [Configuring Business Central Server - Reports](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). For an overview of reports limitations [!INCLUDE[prod_short](includes/prod_short.md)] online, see [Operational Limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
+A report layout controls what is shown on a report, how it is arranged, and how it is styled. If you want to switch to a different layout, see [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md). Or, if you want to customise your own report layout, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>See Also
 
 [Set Up Printers](ui-specify-printer-selection-reports.md)  
 [Working with Calendar Dates and Times](ui-enter-date-ranges.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,27 +1,27 @@
 ---
-title: Service Management
-description: Learn to use features in Business Central designed manage and track services to support repair shop and field service operations.
+title: Service Management | Microsoft Docs
+description: Learn to use features designed to support repair shop and field service operations.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 4e3f85ae3bc5f8672f148ad04388e5810cefb45f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6490ad13833c97c79c232b6433b4b2f51e51bc4f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320088"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192370"
 ---
 # <a name="service-management"></a>Service Management
 > [!NOTE]
 > Functionality described in this topic and sub topics is only visible in the user interface if you have the **Premium** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
-Providing ongoing service to customers is an important part of any business and one that can be a source of customer satisfaction and loyalty, in addition to revenue. However, managing and tracking service is not always easy, and [!INCLUDE[prod_short](includes/prod_short.md)] provides a set of tools to help. These tools are designed to support repair shop and field service operations, and can be used in business scenarios such as complex customer service distribution systems, industrial service environments with bills of materials, and high volume dispatching of service technicians with requirements for spare parts management.  
+Providing ongoing service to customers is an important part of any business and one that can be a source of customer satisfaction and loyalty, in addition to revenue. However, managing and tracking service is not always easy, and [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a set of tools to help. These tools are designed to support repair shop and field service operations, and can be used in business scenarios such as complex customer service distribution systems, industrial service environments with bills of materials, and high volume dispatching of service technicians with requirements for spare parts management.  
 
  With these tools you can accomplish the following:  
 
@@ -46,9 +46,6 @@ The following table describes a sequence of tasks, with links to the topics that
 ## <a name="see-also"></a>See Also  
 [Managing Receivables](receivables-manage-receivables.md)   
 [Jobs](projects-how-create-jobs.md)   
-[Welcome to [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -1,16 +1,23 @@
 ---
-title: Overview of the Tasks for Closing the Books
-description: 'Learn about the process of closing the books for a fiscal year or period, and what happens after you close at the end of a year.'
+title: Overview of the Tasks for Closing the Books | Microsoft Docs
+description: Learn about the process of closing the books for a fiscal year or period, and what happens after you close at the end of a year.
+services: project-madeira
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
-m.search.form: 100
-ms.date: 04/01/2021
+ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.date: 10/01/2019
 ms.author: jswymer
+ms.openlocfilehash: db4ec1033a830cb72b602691797d2b1ff637c2e7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310115"
 ---
 # <a name="closing-the-books"></a>Closing the Books
 After you ensure that all your accounts are up-to-date, and you allocate costs and income, then you can close the books for a fiscal year or period.
@@ -47,9 +54,5 @@ The system then generates a closing entry, but it does not post the entry automa
 You can post in a previous fiscal year, even after the income statement accounts have been closed, if you run the Close Income Statement batch job again afterward.
 
 ## <a name="see-also"></a>See Also
-
-[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

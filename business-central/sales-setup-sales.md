@@ -1,29 +1,30 @@
 ---
-title: Overview of Tasks to Configure Sales Processes
-description: Overview of tasks required to set up rules and values that define your sales policies and processes including general set-up and finance related sales set-up.
+title: Overview of Tasks to Configure Sales Processes | Microsoft Docs
+description: Outlines tasks to set up rules and values to define your sales policies and processes.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 63d9357d29fbfdc3c230c69602fd370c5d73f21b
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115457"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953402"
 ---
 # <a name="setting-up-sales"></a>Setting Up Sales
 Before you can manage sales processes, you must configure the rules and values that define the company's sales policies.
 
-You must define the general setup on the **Sales & Receivables** page, such as which sales documents are required, how their values are posted, and the type of lines to create by default. This general setup is typically performed once during the initial implementation.
+You must define the general setup, such as which sales documents are required and how their values are posted. This general setup is typically performed once during the initial implementation.
 
-A separate series of tasks related to registering new customers is to record any special price or discount agreements that you have with each customer. For more information, see [Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md).
+A separate series of tasks related to registering new customers is to record any special price or discount agreements that you have with each customer.
 
 Finance-related sales setup, such as payment methods and currencies, are covered in the Finance Setup section. For more information, see [Setting Up Finance](finance-setup-finance.md).
 
@@ -36,15 +37,11 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 | Specify for individual customers or for all customers how sales documents are sent by default when you choose the **Post and Send** action. |[Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md) |
 | Set your email up to contain a summary of information in the sales document that is being sent. |[Send Documents by Email](ui-how-send-documents-email.md). |
 |Use an EU web service to verify a customer's VAT registration number.|[Verify VAT Registration Numbers](finance-setup-vat.md)|
-|Define the different incoterms that you offer to customers or that your suppliers offer you.|[Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)|
-|Enter information about the different transportation suppliers you use, including a link to their package tracking service.|[Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
-|Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
+|Define the different incoterms that you offer to customers or that your vendors offer you.|[Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)|
+|Enter information about the different transportation vendors you use, including a link to their package tracking service.|[Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

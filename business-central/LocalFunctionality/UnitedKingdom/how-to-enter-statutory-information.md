@@ -1,28 +1,30 @@
 ---
 title: How to Enter Statutory Information | Microsoft Docs
 description: To comply with legal requirements, statutory information is available on the Statutory FastTab on the Company Information page.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: b85ab204a95b038e50e994c335f05d1cb260ffa9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 9a558da3fa4eb78654dd2c3408689dbb1895453e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440475"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300970"
 ---
 # <a name="enter-statutory-information"></a>Enter Statutory Information
 To comply with legal requirements, statutory information is available on the **Statutory** FastTab on the **Company Information** page.  
 
 ## <a name="to-enter-statutory-information"></a>To enter statutory information  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
 2.  On the **Statutory** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -33,7 +35,7 @@ To comply with legal requirements, statutory information is available on the **S
     |**Registered Address 2**|Specifies an additional part of the company's registered address.|  
     |**Registered City**|Specifies the city where the company is registered.|  
     |**Registered County**|Specifies the county of the company's registered address.|  
-    |**Registered Postcode**|Specifies the registered postcode of the company.|  
+    |**Registered Post Code**|Specifies the registered postcode of the company.|  
     |**Branch Number**|Specifies the branch number of the company.|  
     |**Contact Name**|Specifies the name of the contact person for the company.|  
 
@@ -41,6 +43,3 @@ To comply with legal requirements, statutory information is available on the **S
 
 ## <a name="see-also"></a>See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

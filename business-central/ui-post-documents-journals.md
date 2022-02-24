@@ -1,21 +1,27 @@
 ---
-title: Overview of Posting Documents and Journals
-description: This topic outlines posting actions and the ways you can post documents and journals in the various company ledgers.
+title: Overview of Posting Documents and Journals | Microsoft Docs
+description: Outlines posting actions and the ways you can post documents and journals.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/24/2021
-ms.author: edupont
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 21329a8c6232fe0aba2f0ef99cc58ce4ea699d68
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310708"
 ---
 # <a name="posting-documents-and-journals"></a>Posting Documents and Journals
 Posting represents the accounting action of recording business transactions in the various company ledgers.
 
-Practically every document and journal in [!INCLUDE[prod_short](includes/prod_short.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.
+Practically every document and journal in [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.
 
 The following table describes related tasks, with links to the topics that describe them.
 
@@ -31,7 +37,4 @@ The following table describes related tasks, with links to the topics that descr
 ## <a name="see-also"></a>See Also
 [Edit Posted Documents](across-edit-posted-document.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

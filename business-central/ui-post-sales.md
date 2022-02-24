@@ -1,30 +1,32 @@
 ---
-title: Posting Sales Documents
-description: 'Learn about the different posting functions to post sales documents, and how you can update posted documents.'
+title: Posting Sales Documents | Microsoft Docs
+description: Learn about the different posting functions to post sales documents, and how you can update posted documents.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.form: '130, 142, 1350'
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 01/17/2020
+ms.author: sgroespe
+ms.openlocfilehash: e6dfedea8f6266186f2a2e380cea74ab6b9404bf
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992128"
 ---
 # <a name="posting-sales"></a>Posting Sales
-
 Under the **Posting** menu in a sales document, you can choose between the following posting functions:
 
 * **Post**
 * **Post and New**
 * **Post and Send**
 * **Preview Posting**
-* **Post Batch**
+* **Draft Invoice**
+* **Pro Forma Invoice**
 * **Test Report**
-
-> [!NOTE]
-> For sales orders, you can also see options related to the prepayments functionality. For more information, see [Invoicing Prepayments](finance-invoice-prepayments.md).
 
 When you have completed all the lines and entered all the information on the sales order, you can post it. This creates a shipment and an invoice.
 
@@ -34,30 +36,26 @@ For each sales order, a sales entry is created in the **G/L Entry** table. An en
 
 For each sales order line, an item ledger entry will be created in the **Item Ledger Entry** table (if the sales lines contain item numbers) or a general ledger entry will be created in the **G/L Entry** table (if the sales lines contain a general ledger account). In addition to this, sales orders are always recorded in the **Sales Shipment Header** and **Sales Invoice Header** tables.
 
-[!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
+> [!IMPORTANT]  
+>   When you post an order, you can create both a shipment and an invoice. These can be done at the same time or independently. You can also create a partial shipment and a partial invoice by completing the **Qty. to Ship** and **Qty. to Invoice** fields on the individual sales order lines before you post. Note that you cannot create an invoice for something that is not shipped. That is, before you can invoice, you must have recorded a shipment, or you must choose to ship and invoice at the same time.
 
-You can either post, or post and send. If you choose to post and send, a PDF file is generated that you can then send. You can also choose the **Post Batch** function, which lets you post several orders at the same time. For more information, see [Post Multiple Documents at the Same Time](ui-batch-posting.md).
+You can either post, or post and print. If you choose to post and print, a report is printed when the order is posted. You can also choose the **Post Batch** function, which lets you post several orders at the same time. For more information, see [Post Multiple Documents at the Same Time](ui-batch-posting.md).
 
 ## <a name="viewing-ledger-entries"></a>Viewing Ledger Entries
-
 When the posting is completed, the posted sales lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Cust. Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **Posted Sales Shipments**, and **Posted Sales Invoices** pages.  
 
 In most cases, you can open ledger entries from the affected card or document. For example, on the **Customer Card** page, choose the **Ledger Entries** action.
 
 ## <a name="editing-ledger-entries"></a>Editing Ledger Entries
-
 You can edit certain fields on posted purchase documents, such as the **Package Tracking No.** field. For more information, see [Edit Posted Documents](across-edit-posted-document.md). For more critical fields that affect the auditing trail, you must reverse or undo posting. For more information, see [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
-
 [Sales](sales-manage-sales.md)  
 [Post Multiple Documents at the Same Time](ui-batch-posting.md)  
 [Edit Posted Documents](across-edit-posted-document.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

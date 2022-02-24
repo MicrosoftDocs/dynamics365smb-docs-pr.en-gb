@@ -1,21 +1,21 @@
 ---
-title: How to Enter Data in Business Central
-description: There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features are described here.
-author: jswymer
+title: How to Enter Data in Business Central| Microsoft Docs
+description: Learn about general features that help you enter data in fields.
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: decimal separator, data entry, focus
-ms.date: 10/01/2021
-ms.author: jswymer
-ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.search.keywords: ''
+ms.date: 04/03/2020
+ms.author: sgroespe
+ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588964"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262149"
 ---
 # <a name="entering-data"></a>Entering Data
 
@@ -24,7 +24,7 @@ There are many general features that help you enter data easier, faster, and mor
 The examples in this article use the demonstration data.
 
 ## <a name="working-with-editable-fields"></a>Working with editable fields
-Fields in [!INCLUDE[prod_short](includes/prod_short.md)] may contain different editable data, such as text or currency amounts. Editable fields typically display an input box where you can type or choose a value. Non-editable fields are typically displayed with a grey background.   
+Fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] may contain different editable data, such as text or currency amounts. Editable fields typically display an input box where you can type or choose a value. Non-editable fields are typically displayed with a grey background.   
 
 Some editable fields provide a picker to help you specify a value.  
 
@@ -36,6 +36,7 @@ Some editable fields provide a picker to help you specify a value.
 |Switch or Checkbox|Some fields provide a simple choice of *Yes* or *No* values. The switch is used to specify this value, and is always displayed as a checkbox in lists|
 |Assist edit       |Some fields provide custom pickers that are suited to looking up and choosing the best value for that field, such as popup window|
 
+
 ### <a name="modifying-a-field-value"></a>Modifying a field value
 
 To modify the value of a field, you must first set focus to that field. You set focus by doing the following actions:
@@ -43,7 +44,7 @@ To modify the value of a field, you must first set focus to that field. You set 
 - Use the **Tab** key. The action selects the entire value.
 - Left-click your mouse or similar input device. This action will only select the entire field value if the field is in a list.  
 
-When you interact with fields in the user interface, [!INCLUDE[prod_short](includes/prod_short.md)] typically favours selecting the entire field value to make it easier for you to replace that value.
+When you interact with fields in the user interface, [!INCLUDE[d365fin](includes/d365fin_md.md)] typically favours selecting the entire field value to make it easier for you to replace that value.
 
 When the entire field value is selected:
 - Replace the value by just typing to specify a new value. If the field offers a picker, you can activate it using the **Alt+Arrow-down** keyboard shortcut.
@@ -57,6 +58,7 @@ When the cursor is shown at the end of the field value:
 
 > [!NOTE]
 > After you specify a value, Business Central will only check that it's valid after you click outside the field or set focus to another element, such as the next field.  
+
 
 ## <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
 
@@ -83,7 +85,7 @@ The following list provides some useful information about using Quick Entry.
 - It's available for any editable fields.
 - It also works across columns and rows.
 - It doesn't prevent accessing other elements of a page, such as actions. These elements are still accessible by using Tab and Shift+Tab.  
-- It's not required that FastTabs are expanded for Quick Entry to work. If the next Quick Entry field is located in a collapsed FastTab, that FastTab will automatically expand and focus on the chosen field. [!INCLUDE[prod_short](includes/prod_short.md)] will remember that the FastTab should be expanded next time you visit the page.  
+- It's not required that FastTabs are expanded for Quick Entry to work. If the next Quick Entry field is located in a collapsed FastTab, that FastTab will automatically expand and focus on the chosen field. [!INCLUDE[d365fin](includes/d365fin_md.md)] will remember that the FastTab should be expanded next time you visit the page.  
 - Quick Entry works no matter whether fields are mandatory. So it's a good idea to ensure that mandatory fields are included in Quick Entry.
 - By default, most fields are automatically included in Quick Entry. So initially your task will most likely be excluding fields from Quick Entry.
 
@@ -91,7 +93,7 @@ The following list provides some useful information about using Quick Entry.
 
 To set up Quick Entry on fields, you use personalisation.
 
-1. Start personalisation by selecting the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then the **Personalise** action.
+1. Start personalisation by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then the **Personalise** action.
 2. Select a field that you want change. In lists, select the corresponding column heading. Then, choose either **Include in Quick Entry** or **Exclude from Quick Entry**.
 
 For more information about personalisation, see [Personalise Your Workspace](ui-personalization-user.md).
@@ -118,7 +120,7 @@ You can copy one or more rows from a list or a single field on a page. Then past
 
 In a list, to copy the field in the same column of the row above, and paste it into the current row, just press F8.
 
-For more information, see [Copying and Pasting FAQ](faq-copy-paste.yml).
+For more information, see [Copying and Pasting FAQ](ui-copy-paste.md).
 
 ## <a name="filtering-line-items"></a>Filtering Line Items
 
@@ -134,9 +136,9 @@ You'll benefit particularly when you work with large line item lists and you wan
 
 ### <a name="switching-the-focus-on-and-off"></a>Switching the Focus On and Off
 
-To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon.](media/focus-mode.png "Focus mode icon") in the upper right corner, or press Ctrl+Shift+F12.
+To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner, or press Ctrl+Shift+F12.
 
-To switch back to the normal view, choose ![Focus Mode icon.](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
+To switch back to the normal view, choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking Across Multiple Pages
 
@@ -146,21 +148,21 @@ You can open a card or document page in a new window. Opening a new window lets 
 - Manage interruptions to the current task, such as taking an incoming call.
 - Keep a window open for an ongoing task while you start or complete another task in windows.
 
-To open the current card or document in a new window, choose ![Open New Window.](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
+To open the current card or document in a new window, choose ![Open New Window](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-To open the current card or document in a new window, choose ![Open New Window.](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
+To open the current card or document in a new window, choose ![Open New Window](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
 
 > [!NOTE]
-> When you open other pages from a card or document that is opened in a new window, those pages will open in a new window even though you don't choose ![Open New Window.](media/open-new-window-icon.png "Open new window icon").
+> When you open other pages from a card or document that is opened in a new window, those pages will open in a new window even though you don't choose ![Open New Window](media/open-new-window-icon.png "Open new window icon").
 
 > [!NOTE]
 > If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify the product URL as an allowed website. For information see, [Change preferences in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > The same may happen in other browsers, such as Firefox. For more information, see [Pop-up blocker settings in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Another way to multitask, is to open [!INCLUDE[prod_short](includes/prod_short.md)] on two or more browser tabs. When you do it this way, you should create a new tab and then copy/paste the URL of the original tab into the new tab. This way creates a new session.   
+Another way to multitask, is to open [!INCLUDE[d365fin](includes/d365fin_md.md)] on two or more browser tabs. When you do it this way, you should create a new tab and then copy/paste the URL of the original tab into the new tab. This way creates a new session.   
 
 > [!NOTE]
 > Don't use the **Duplicate** function of the browser to create the new tab as this may cause actions on one tab to block actions on other tabs because they are part of the same session.
@@ -240,17 +242,42 @@ The following table lists the various ways in which times can be entered and how
 
  You enter two digits for each unit of time if you don't enter a separator.  
 
-## <a name="entering-combined-datetimes"></a>Entering Combined Datetimes
+## <a name="entering-datetimes"></a>Entering Datetimes
 
-[!INCLUDE [datetimes](includes/datetimes.md)]
+When you enter datetimes, you must enter a space between the date and the time.  
+
+The following table lists the various ways in which you can enter datetimes and how they're interpreted.  
+
+|Entry|Interpretation|  
+|---------------|------------------------|  
+|`131202` 132455|13-12-02 13:24:55|  
+|1-12-02 10|01-12-02 10:00:00|  
+|1.12.02 5|01-12-02 05:00:00|  
+|1.12.02|01-12-02 00:00:00|  
+|11 12|11-current month-current year 12:00:00|  
+|1112 12|11-12-current year 12:00:00|  
+|t or today|today's date 00:00:00|  
+|t time|today's date actual time|  
+|t 10:30|today's date 10:30:00|  
+|t 3:3:3|today's date 03:03:03|  
+|w or workdate|the working date 00:00:00|  
+|m or Monday|Monday of the current week 00:00:00|  
+|tu or Tuesday|Tuesday of the current week 00:00:00|  
+|we or Wednesday|Wednesday of the current week 00:00:00|  
+|th or Thursday|Thursday of the current week 00:00:00|  
+|f or Friday|Friday of the current week 00:00:00|  
+|s or Saturday|Saturday of the current week 00:00:00|  
+|su or Sunday|Sunday of the current week 00:00:00|  
+|tu 10:30|Tuesday of the current week 10:30:00|  
+|tu 3:3:3|Tuesday of the current week 03:03:03|  
 
 ## <a name="entering-duration"></a>Entering Duration
 
-You enter a duration as a number followed by its unit of measurement.  
+You enter a duration as a number followed by its unit of measure.  
 
 Here are some examples.  
 
-|Duration|Unit of measurement**|  
+|Duration|Unit of measure**|  
 |------------------|-------------------------|  
 |2h|2 hrs|  
 |6h 30 m|6 hrs 30 mins|  
@@ -259,22 +286,12 @@ Here are some examples.
 |2d 6h 30m|2 days 6 hrs 30 mins|  
 |2d 6h 30m 56s 600ms|2 days 6 hrs 30 mins 56 secs 600 msecs|  
 
- You can also enter a number and it's automatically converted to a duration. The number you enter is converted according to the default unit of measurement that has been specified for the duration field.  
+ You can also enter a number and it's automatically converted to a duration. The number you enter is converted according to the default unit of measure that has been specified for the duration field.  
 
- To see the unit of measurement used in a duration field, enter a number and see which unit of measurement it's converted to.  
+ To see the unit of measure used in a duration field, enter a number and see which unit of measure it's converted to.  
 
- The number 5 is converted to 5 hrs, if the unit of measurement is hours.  
+ The number 5 is converted to 5 hrs, if the unit of measure is hours.  
 
-## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Setting the decimal separator used by numeric keyboards
-
-When using the decimal separator key of numeric keyboard to enter data, the actual decimal separator that's entered in the field is determined by the region setting of your Business Central. You set the region in Business Central on the **My Settings** page.
-
-For example, suppose you're using a numeric keyboard that uses a point (.) as the decimal separator key. But, you're entering data for a regional language that uses a comma (**,**) for the decimal separator, like Danish (Denmark) or French (France). So, you want decimals like "1.23" to be entered as "1,23". In this case, you can go to the **My Settings** page and set the **Region** to the target regional language, like **Danish (Denmark)** or **French (France)**. For more information, see [Change Basic Settings](ui-change-basic-settings.md#region).
-
-## <a name="see-also"></a>See Also
-
-[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>See Also  
+ [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

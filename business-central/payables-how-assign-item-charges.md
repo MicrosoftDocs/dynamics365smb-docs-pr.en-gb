@@ -1,25 +1,32 @@
 ---
-title: Assign Item Charges to Sales and Purchases (contains video)
-description: 'Assign item charges when you need inventory items to carry added costs, such as freight and physical handling that you incur when purchasing or selling items.'
+title: Assign Item Charges to Sales and Purchases| Microsoft Docs
+description: If you want your inventory items to carry added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling items, you can use the Item Charges feature.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'transportation, added cost, landed cost'
-ms.search.form: '5709, 5800, 5805, 5814'
-ms.date: 06/22/2021
-ms.author: edupont
+ms.search.keywords: transportation, added cost, landed cost
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: a113573ca1732472f5ec926f78273cdb4b94f989
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878145"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Use Item Charges to Account for Additional Trade Costs
-To ensure correct valuation, your inventory items must carry any added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling the items. For purchases, the landed cost of a purchased item consists of the supplier's purchase price and all additional direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.
+To ensure correct valuation, your inventory items must carry any added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling the items. For purchases, the landed cost of a purchased item consists of the vendor's purchase price and all additional direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.
 
 In addition to recording the added cost in you inventory value, you can use the Item Charges feature for the following:
 
 - Identify the landed cost of an item for making more accurate decisions on how to optimise the distribution network.
 - Break down the unit cost or unit price of an item for analysis purposes.
-- Include purchase allowances into the unit cost and sales allowances into the unit price.
+- include purchase allowances into the unit cost and sales allowances into the unit price.
 
 Before you can assign item charges, you must set up item charge numbers for the different types of item charges, including to which G/L accounts costs related to sales, purchases, and inventory adjustments are posted to. An item charge number contains a combination of general product posting group, tax group code, VAT product posting group, and item charge. When you enter the item charge number on a purchase or sales document, the relevant G/L account is retrieved based on the setup of the item charge number and the information on the document.
 
@@ -33,19 +40,19 @@ For both purchase and sales documents, you can assign an item charge in two ways
 ## <a name="example"></a>Example
 This video shows how to handle an additional shipping cost as part of inventory costing.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB]
 
 ## <a name="to-set-up-item-charge-numbers"></a>To set up item charge numbers
 You use item charge numbers to distinguish between the different kinds of item charges that are used in your company.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Charges**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Charges**, and then choose the related link.
 2. On the **Item Charges** page, choose the **New** action to create a new line.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>To assign an item charge directly to the purchase invoice for the item
 If you know the item charge at the time when you post a purchase invoice for the item, follow this procedure.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Create a new purchase invoice. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. Make sure the purchase invoice has one or more lines of type Item.
 4. On a new line, in the **Type** field, select **Charge (Item)**.
@@ -78,7 +85,4 @@ The item charge on the separate purchase invoice is now assigned to the item on 
 [Managing Payables](payables-manage-payables.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

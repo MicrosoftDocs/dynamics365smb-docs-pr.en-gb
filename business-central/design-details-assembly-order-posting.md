@@ -1,26 +1,26 @@
 ---
-title: Design Details - Assembly Order Posting
-description: Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption/output.
+title: Design Details - Assembly Order Posting | Microsoft Docs
+description: Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption/output. However, the principles are combined in that assembly orders have their own posting UI, like that for sales orders, while the actual entry posting happens in the background as direct item and resource journal postings, like that for production consumption, output, and capacity.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 155fbf64c5ca0dcffce22f16f7ffbfc6375250f1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 2c90a6b4a122c9a224e26ef57a03a7f6c981177f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442567"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185811"
 ---
 # <a name="design-details-assembly-order-posting"></a>Design Details: Assembly Order Posting
 Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption/output. However, the principles are combined in that assembly orders have their own posting UI, like that for sales orders, while the actual entry posting happens in the background as direct item and resource journal postings, like that for production consumption, output, and capacity.  
 
-Similarly to works order posting, the consumed components and the used resources are converted and output as the assembly item when the assembly order is posted. For more information, see [Design Details: Works Order Posting](design-details-production-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.  
+Similarly to production order posting, the consumed components and the used resources are converted and output as the assembly item when the assembly order is posted. For more information, see [Design Details: Production Order Posting](design-details-production-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.  
 
 The following journal postings occur during assembly order posting:  
 
@@ -31,14 +31,14 @@ The following journal postings occur during assembly order posting:
 
 The following diagram shows the structure of item and resource ledger entries that result from assembly order posting.  
 
-![Item, resource, and capacity ledger entries resulting from assembly order posting.](media/design_details_assembly_posting_1.png "Item, resource, and capacity ledger entries resulting from assembly order posting")  
+![Item, resource, and capacity ledger entries resulting from assembly order posting](media/design_details_assembly_posting_1.png "Item, resource, and capacity ledger entries resulting from assembly order posting")  
 
 > [!NOTE]  
 >  Machine and work centres are included to illustrate that capacity ledger entries are created from both production and assembly.  
 
 The following diagram shows how assembly data flows into ledger entries during posting:  
 
-![Assembly-related entry flow during posting.](media/design_details_assembly_posting_2.png "AAssembly-related entry flow during posting")  
+![Assembly-related entry flow during posting](media/design_details_assembly_posting_2.png "AAssembly-related entry flow during posting")  
 
 ## <a name="posting-sequence"></a>Posting Sequence  
 The posting of an assembly order occurs in the following order:  
@@ -69,7 +69,7 @@ The order Level detection function is used in conversion scenarios, production a
 
 The following graphic shows the adjustment entry structure and how assembly costs are adjusted.  
 
-![Assembly-related entry flow during cost adjustment.](media/design_details_assembly_posting_3.png "Assembly-related entry flow during posting")  
+![Assembly-related entry flow during cost adjustment](media/design_details_assembly_posting_3.png "Assembly-related entry flow during posting")  
 
 ### <a name="performing-the-adjustment"></a>Performing the Adjustment  
 The spreading of detected adjustments from material and resource costs onto the assembly output entries is performed by the **Adjust Cost – Item Entries** batch job. It contains the Make Multilevel Adjustment function, which consists of the following two elements:  
@@ -77,15 +77,15 @@ The spreading of detected adjustments from material and resource costs onto the 
 -   Make Assembly Order Adjustment – which forwards cost from material and resource usage to the assembly output entry. Lines 5 and 6 in the algorithm below are responsible for that.  
 -   Make Single Level Adjustments – which forwards costs for individual items using their costing method. Lines 9 and 10 in the algorithm below are responsible for that.  
 
-![Summary of the cost adjustment algorithm for assembly posting.](media/design_details_assembly_posting_4.jpg "Summary of the cost adjustment algorithm for assembly posting")  
+![Summary of the cost adjustment algorithm for assembly posting](media/design_details_assembly_posting_4.jpg "Summary of the cost adjustment algorithm for assembly posting")  
 
 > [!NOTE]  
->  The Make WIP Adjustments element, in lines 7 and 8, is responsible for forwarding production material and capacity usage to the output of unfinished works orders. This is not used when adjusting assembly order costs as the concept of WIP does not apply to assembly.  
+>  The Make WIP Adjustments element, in lines 7 and 8, is responsible for forwarding production material and capacity usage to the output of unfinished production orders. This is not used when adjusting assembly order costs as the concept of WIP does not apply to assembly.  
 
 For information about how costs from assembly and production are posted to the general ledger, see [Design Details: Inventory Posting](design-details-inventory-posting.md).  
 
 ## <a name="assembly-costs-are-always-actual"></a>Assembly Costs are Always Actual  
- The concept of work in progress (WIP) does not apply in assembly order posting. Assembly costs are only posted as actual cost, never as expected cost. For more information, see [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md).  
+ The concept of work in process (WIP) does not apply in assembly order posting. Assembly costs are only posted as actual cost, never as expected cost. For more information, see [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md).  
 
 This is enabled by the following data structure.  
 
@@ -111,11 +111,8 @@ Posting sales order lines where a part is inventory quantity and another part is
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
- [Design Details: Works Order Posting](design-details-production-order-posting.md)   
+ [Design Details: Production Order Posting](design-details-production-order-posting.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

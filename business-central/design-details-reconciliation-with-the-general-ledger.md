@@ -3,19 +3,19 @@ title: Design Details - Reconciliation with the General Ledger | Microsoft Docs
 description: This topic describes reconciliation with the general ledger when you post inventory transactions, such as sales shipments, production output, or negative adjustments.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: eafc3f6ac86584cbf2bab6e5a5a82639ea718fc5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: b62bb8774bfcbd371125d0dc529ce503afd34f2c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442342"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184851"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Design Details: Reconciliation with the General Ledger
 When you post inventory transactions, such as sales shipments, production output, or negative adjustments, the quantity and value changes to the inventory are recorded in the item ledger entries and the value entries, respectively. The next step in the process is to post the inventory values to the inventory accounts in the general ledger.  
@@ -33,7 +33,7 @@ The posting dates of the general ledger entries are set to the posting date of t
 When you run the **Post Inventory Cost to G/L** batch job, you might receive errors because of missing setup or incompatible dimension setup. If the batch job encounters errors in the dimension setup, it overrides these errors and uses the dimensions of the value entry. For other errors, the batch job does not post the value entries and lists them at the end of the report in a section titled, **Skipped Entries**. To post these entries, you must first fix the errors. To see a list of errors before you run the batch job, you can run the **Post Invt. Cost to G/L - Test** report. This report lists all of the errors that are encountered during a test posting. You can fix the errors, and then run the inventory cost posting batch job without skipping any entries.  
 
 ## <a name="automatic-cost-posting"></a>Automatic Cost Posting  
-To set up cost posting to the general ledger to run automatically when you post an inventory transaction, select the **Automatic Cost Posting** check box on the **inventory Setup** page. The posting date of the general ledger entry is the same as the posting date of the item ledger entry.  
+To set up cost posting to the general ledger to run automatically when you post an inventory transaction, select the **Automatic Cost Posting** check box on the **Inventory Setup** page. The posting date of the general ledger entry is the same as the posting date of the item ledger entry.  
 
 ## <a name="account-types"></a>Account Types  
 During reconciliation, inventory values are posted to the inventory account in the balance sheet. The same amount, but with the reverse sign, is posted to the relevant balancing account. Usually the balancing account is an income statement account. However, when you post direct cost related to consumption or output, the balancing account is a balance sheet account. The type of the item ledger entry and value entry determines which general ledger account to post to.  
@@ -82,25 +82,25 @@ The following table shows how the work centre is set up on the work centre card.
     1. The interim accounts are cleared. (Sale)  
     2. Cost of goods sold (COGS) is posted. (Sale)  
 
-        ![Results of sales posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_sales.png "Results of sales posting to GL accounts")  
+        ![Results of sales posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_sales.png "Results of sales posting to GL accounts")  
 5. The user posts consumption of 150 links, which is the number of links used to produce one chain. (Consumption, Material)  
 
-    ![Results of material posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_material.png "Results of material posting to GL accounts")  
+    ![Results of material posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_material.png "Results of material posting to GL accounts")  
 6. The work centre used 60 minutes to produce the chain. The user posts the conversion cost. (Consumption, Capacity)  
 
     1. The direct costs are posted. (Consumption, Capacity)  
     2. The indirect costs are calculated and posted. (Consumption, Capacity)  
 
-        ![Results of capacity posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_capacity.png "Results of capacity posting to GL accounts")  
+        ![Results of capacity posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_capacity.png "Results of capacity posting to GL accounts")  
 7. The user posts the expected cost of one chain. (Output)  
-8. The user finishes the works order and runs the **Adjust Cost - Item Entries** batch job. (Output)  
+8. The user finishes the production order and runs the **Adjust Cost - Item Entries** batch job. (Output)  
 
     1. The interim accounts are cleared. (Output)  
     2. The direct cost is transferred from the WIP account to the inventory account. (Output)  
     3. The indirect cost (overhead) is transferred from the indirect cost account to the inventory account. (Output)  
     4. This results in a variance amount of LCY 157.00. Variances are only calculated for standard-cost items. (Output)  
 
-        ![Results of output posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_output.png "Results of output posting to GL accounts")  
+        ![Results of output posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_output.png "Results of output posting to GL accounts")  
 
         > [!NOTE]  
         >  For the sake of simplicity, only one variance account is shown. In reality, five different accounts exist:  
@@ -113,7 +113,7 @@ The following table shows how the work centre is set up on the work centre card.
 
 9. The user revalues the chain from LCY 150.00 to LCY 140.00. (Adjustment/Revaluation/Rounding/Transfer)  
 
-    ![Results of adjustment posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Results of adjustment posting to GL accounts")  
+    ![Results of adjustment posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Results of adjustment posting to GL accounts")  
 
 For more information about the relationship between the account types and the different types of value entries, see [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
 
@@ -123,7 +123,4 @@ For more information about the relationship between the account types and the di
 [Design Details: Cost Adjustment](design-details-cost-adjustment.md)
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

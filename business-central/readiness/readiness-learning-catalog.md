@@ -2,35 +2,31 @@
 title: Business Central Learning Catalogue
 description: Business Central Learning Catalogue
 author: loreleishannonmsft
-ms.date: 04/01/2021
-ms.topic: conceptual
-ms.author: margoc
-ms.openlocfilehash: f7b0434be1ec49259b400403c0f8dcd7fddfcc47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 02/19/2020
+ms.topic: article
+ms.author: v-lshann
+ms.openlocfilehash: 44132a02a899202a95ad1510c9b837cb48e2150f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772461"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097606"
 ---
 # <a name="business-central-learning-catalog"></a>Business Central Learning Catalogue
-
 Find the right online training, in person workshops, and events for your role as a Business Central user or partner.
 
 :::row:::
-
     :::column:::
 
     ### <a name="business-decision-maker"></a>Business decision maker
 
     Do you decide whether to invest in new technologies? 
 
-    [Learn the business value of Business Central (Free, self-paced online learning path)](/learn/modules/dynamics-365-business-central/)
+    [Business Decision Maker Learning Catalogue](readiness-learning-bus-decision-makers.md)
 
-    [Get started (Free, self-paced online learning path)](/learn/paths/get-started-dynamics-365-business-central/)
+    [Business value](readiness-learning-bus-decision-makers.md#busvalue)
 
-    [Explore Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/)
-
-    [Business Central videos on YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
+    [Get started](readiness-learning-bus-decision-makers.md#get-started)
 
     :::column-end:::
 
@@ -40,27 +36,36 @@ Find the right online training, in person workshops, and events for your role as
 
     Did you just get a new application to use? 
 
-    [Get started (Free, self-paced online learning path)](/learn/paths/get-started-dynamics-365-business-central/)
+    [Business User Learning Catalogue](readiness-learning-bus-users.md)
 
-    [Business Central learning paths (Free, self-paced online learning paths)](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+    [Get started](readiness-learning-bus-users.md#get-started)
 
-    [Business Central videos on YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
+    [Financials](readiness-learning-bus-users.md#financials)
+
+    [Trade](readiness-learning-bus-users.md#trade)
 
     :::column-end:::
 
 :::row-end:::
 
 :::row:::
-
     :::column:::
 
     ### <a name="developer"></a>Developer
 
     Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
 
-    [Business Central learning paths (Free, self-paced online learning paths)](/learn/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
+    [Developer Learning Catalogue](readiness-learning-developers.md)
 
-    [Developer documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
+    [Getting started](readiness-learning-developers.md#get-started)
+
+    [What's new](readiness-learning-developers.md#whatsnew)
+
+    [Core development](readiness-learning-developers.md#core-development)
+
+    [Application lifestyle management](readiness-learning-developers.md#applife)
+
+    [Connect apps](readiness-learning-developers.md#connect-apps)
 
     :::column-end:::
 
@@ -70,13 +75,58 @@ Find the right online training, in person workshops, and events for your role as
     
     Are you an implementation expert for a business domain? 
 
-    [Business Central learning paths (Free, self-paced online learning paths)](/learn/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
+    [Functional Consultant Learning Catalogue](readiness-learning-functional-consultants.md)
 
-    [Business Central videos on YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
+    [Get started](readiness-learning-functional-consultants.md#get-started)
+
+    [Deploy](readiness-learning-functional-consultants.md#deploy)
+
+    [Financials](readiness-learning-functional-consultants.md#financials)
+
+    [Trade](readiness-learning-functional-consultants.md#trade)
+
+    [Cloud](readiness-learning-functional-consultants.md#cloud)
 
     :::column-end:::
 
 :::row-end:::
 
+:::row:::
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    :::column:::
+
+    ### <a name="partner-pre-sales"></a>Partner Pre-sales
+
+    Are you responsible for demonstrating key features to customers? 
+
+    [Pre-sales Learning Catalogue](readiness-learning-presales.md)
+
+    [Get started](readiness-learning-presales.md#get-started)
+
+    [Grow your business](readiness-learning-presales.md#grow)
+
+    [Business value](readiness-learning-presales.md#busvalue)
+
+    [What's new](readiness-learning-presales.md#whatsnew)
+
+    [Demo](readiness-learning-presales.md#demo)
+
+    :::column-end:::
+
+    :::column:::
+
+    ### <a name="partner-sales"></a>Partner Sales
+
+    Are you responsible for helping your customers buy the right solution? 
+
+    [Sales Learning Catalogue](readiness-learning-sales.md)
+
+    [Get started](readiness-learning-sales.md#get-started)
+
+    [Grow your business](readiness-learning-sales.md#grow)
+
+    [Business value](readiness-learning-sales.md#busvalue)
+
+    :::column-end:::
+
+:::row-end:::

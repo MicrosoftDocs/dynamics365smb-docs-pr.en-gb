@@ -1,23 +1,23 @@
 ---
-title: Set Up Preferred Methods of Sending Sales Documents (contains video) | Microsoft Docs
-description: Describes how to set up each customer's preferred method of sending sales documents, for example, email, PDF, electronic document, and so on.
+title: Set Up Preferred Methods of Sending Sales Documents | Microsoft Docs
+description: Describes how to set up each customer’s preferred method of sending sales documents, for example, email, PDF, electronic document, and so on.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: email, PDF, electronic document
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 676ac7ac1fb9f267221acc50e5b5f812b8460250
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: e541fbf541ec317ea6517587159144a5ccf84058
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7939884"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911174"
 ---
 # <a name="set-up-document-sending-profiles"></a>Set Up Document Sending Profiles
 You can set each customer up with a preferred method of sending sales documents, so that you do not have to select a sending option every time you choose the **Post and Send** action.
@@ -27,22 +27,19 @@ On the **Document Sending Profiles** page, you set up different sending profiles
 When you choose the **Post and Send** action on a sales document, the **Post and Send Confirmation** dialogue box shows the sending profile used, either the one set up for the customer or the default for all customers. In the dialogue box, you can change the sending profile for the sales document. For more information, see [Invoice Sales](sales-how-invoice-sales.md).
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH?rel=0]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH]
 
 ## <a name="to-set-up-a-document-sending-profile"></a>To set up a document sending profile
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Sending Profiles**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Sending Profiles**, and then choose the related link.
 2. On the **Document Sending Profiles** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>To specify a sending profile on a customer card
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the card of the customer who you want to set up a sending profile for.
 3. In the **Document Sending Profile** field, select a profile that you have set up as described in the previous procedure.
 
 ## <a name="see-also"></a>See Also
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

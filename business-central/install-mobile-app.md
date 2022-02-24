@@ -1,71 +1,36 @@
 ---
-title: Get Business Central on Your Mobile Device (contains video)
-description: This topic describes the various ways you can view and edit your Business Central data, send to Excel and more on your phone or tablet.
-author: jswymer
+title: Use Business Central on Your Mobile Device| Microsoft Docs
+description: You can view and edit your Business Central data on your phone or tablet.
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: desktop, Windows, app
-ms.date: 10/01/2021
-ms.author: jswymer
-ms.openlocfilehash: 31f9a34d2fc14ddca146ff00d8b4b678e0b97d99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.search.keywords: phone, tablet
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 62626d7ff081da64d64299cafb4b5e8c5483f182
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940083"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182499"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Getting Business Central on Your Mobile Device
+Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile device. You can navigate through your business data, use features such as send to Excel or Office 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera. Follow the steps below to download the app and get started.
 
-Access your [!INCLUDE[prod_short](includes/prod_short.md)] data from your mobile device. You can navigate through your business data, use features such as send to Excel or Microsoft 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera. Follow the steps below to download the app and get started.
-
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
-
-> [!TIP]
-> Do want an app on your Windows or macOS computer desktop? See [Get the Business Central Desktop App](install-desktop-app.md).
-
-## <a name="get-the-app-on-my-mobile-device"></a>Get the app on my mobile device
-
-1. Install the [!INCLUDE[prod_short](includes/prod_short.md)] app on your mobile device by downloading the app from the App Store or Google Play.  
-   - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
-   - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
+## <a name="to-get-the-app-on-my-mobile-device"></a>To get the app on my mobile device
+1. Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.  
+[![Windows Store](./media/install-mobile-app/windowsstore.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
+[![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)  
 2. Launch the app from your mobile device.
-3. Enter your user name and password that you created during sign-up for [!INCLUDE[prod_short](includes/prod_short.md)] and follow the instructions on the screen.
+3. Enter your user name and password that you created during sign-up for [!INCLUDE[d365fin](includes/d365fin_md.md)] and follow the instructions on the screen.
 
-    If your [!INCLUDE [prod_short](includes/prod_short.md)] has more than one production environment, then you will be asked to choose the environment that you want to access (requires Business Central 2020 release wave 2 and later).
-
-You should now have access to [!INCLUDE[prod_short](includes/prod_short.md)] and can view and edit data.  
-
-> [!TIP]
-> If you want to connect the app to a sandbox environment, choose the **Advanced options** button, and then choose the **Cloud sandbox** sign-in option. Then, if you have more than one sandbox environment, choose the relevant environment.
-
-## <a name="using-business-central-on-premises"></a>Using Business Central on-premises?
-
-If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can also enjoy the benefits of the mobile app. The installation is similar, but with a couple exceptions.
-
-1. Install the [!INCLUDE[prod_short](includes/prod_short.md)] app on your mobile device by downloading the app from the App Store or Google Play.  
-
-   - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
-   - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
-2. Launch the app from your mobile device.
-3. Instead of entering an email address on the **Welcome** page, choose the **Advanced options** button, and then choose the **On-premises** sign-in option.
-4. On the next page, in the **Service name** box, enter the web address that you use to open [!INCLUDE[prod_short](includes/prod_short.md)], such as *https://mybusinesscentral:443/BC170*. If you're not sure, ask your administrator.
-5. Next, enter your user name and password for accessing Business Central.
-
-   When completed, the Business Central App will open.
-
-> [!NOTE]
-> If you're having problems getting the app to work properly, talk with your administrator. It could be a missing prerequisite or an incomplete configuration. For more information, see  [Preparing the environment for the mobile app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) or [Troubleshooting the Business Central Mobile App On-Premises](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
+You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and be able to view and edit data.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
-
-[Mobile Apps FAQ](ui-mobile-faq.yml)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Getting Started](product-get-started.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

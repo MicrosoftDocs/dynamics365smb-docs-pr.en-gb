@@ -1,21 +1,21 @@
 ---
-title: Handle Inventory and Manufacturing Costs
-description: Learn how a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.
+title: Handle Inventory and Manufacturing Costs | Microsoft Docs
+description: Although much of the cost accounting functionality is expressed in underlying processes with no user interaction, such as entry application and automatic cost adjustment, a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 82221de7c57e6130a3259ae7cf7be095e3c0571e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: e61174dd162111f6e7580026c5e91454b2ffa918
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323347"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183747"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Handling Inventory and Manufacturing Costs
 Although much of the cost accounting functionality is expressed in underlying processes with no user interaction, such as entry application and automatic cost adjustment, a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.  
@@ -30,7 +30,7 @@ Although much of the cost accounting functionality is expressed in underlying pr
 |Get insight into average cost dynamics to make pricing decisions or to track cost fluctuations caused by data entry errors.|[Register New Items](inventory-how-register-new-items.md)|  
 |Create a manufacturing item's standard cost by entering the three cost elements: material cost, capacity cost, and subcontractor cost.|[About Calculating Standard Cost](finance-about-calculating-standard-cost.md)|  
 |Calculate the unit cost of a BOM item based on the unit costs of its underlying components.|[Work with Bills of Material](inventory-how-work-BOMs.md)|  
-|Complete the costing life cycle of a produced item by adjusting the costs and reconciling the value entries with the general ledger.|[About Finished Works Order Costs](finance-about-finished-production-order-costs.md)|  
+|Complete the costing life cycle of a produced item by adjusting the costs and reconciling the value entries with the general ledger.|[About Finished Production Order Costs](finance-about-finished-production-order-costs.md)|  
 |Change the value of an item in inventory or the value of one item ledger entry, such as a purchase transaction.|[Revalue Inventory](inventory-how-revalue-inventory.md)|
 |Manually undo an item application or reapply item ledger entries created by application.|[Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Use the **Applies-from Entry** field in the item journal to manually create a fixed application between an inbound transaction and the original outbound transaction.|[Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
@@ -38,6 +38,3 @@ Although much of the cost accounting functionality is expressed in underlying pr
 ## <a name="see-also"></a>See Also  
 [Manage Inventory Costs](finance-manage-inventory-costs.md)
 [Design Details: Inventory Costing](design-details-inventory-costing.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

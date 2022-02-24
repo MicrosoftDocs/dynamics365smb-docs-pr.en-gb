@@ -1,18 +1,24 @@
 ---
-title: Overview of Tasks to Allocate Costs and Income
+title: Overview of Tasks to Allocate Costs and Income | Microsoft Docs
 description: Outlines the tasks to allocate an entry in a general journal to several different accounts when you post the journal.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 283
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 60b73b5c29bca5dc85e123f5957c7f3c0917345f
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248348"
 ---
 # <a name="allocate-costs-and-income"></a>Allocate Costs and Income
-
 You can allocate an entry in a general journal to several different accounts when you post the journal. The allocation can be made by three different methods:
 
 * Quantity
@@ -25,10 +31,8 @@ The allocation features can be used with recurring general journals and in fixed
 The following procedures describe how to prepare to allocate costs in a recurring general journal by defining allocation keys. When allocation keys are defined, you complete and post the journal like any other recurring general journal. For more information, see [Working with General Journals](ui-work-general-journals.md).
 
 ## <a name="to-set-up-allocation-keys"></a>To set up allocation keys
-
-You can allocate an entry in a recurring general journal to several different accounts when you post the journal. The allocation can be made by quantity, percentage, or amount.  
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
+You can allocate an entry in a recurring general journal to several different accounts when you post the journal. The allocation can be made by quantity, percentage, or amount.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
 2. Choose the **Batch Name** field to open the **General Journal Batches** page.
 3. You can either modify allocations on an existing batch in the list or create a new batch with allocations.
    * To create a new batch, choose the **New** action, and go to the next step.
@@ -43,7 +47,7 @@ You can allocate an entry in a recurring general journal to several different ac
 11. Post the journal.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>To change an allocation key that has already been set up
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
 2. On the **Recurring General Journal** page, select the journal with the allocation.
 3. Choose the line with the allocation, and then choose **Allocations** action.
 4. Change the relevant fields, and then choose the **OK** button.
@@ -52,7 +56,4 @@ You can allocate an entry in a recurring general journal to several different ac
 [Closing Years and Periods](year-close-years-periods.md)  
 [Working with General Journals](ui-work-general-journals.md)    
 [Posting Documents and Journals](ui-post-documents-journals.md)    
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
