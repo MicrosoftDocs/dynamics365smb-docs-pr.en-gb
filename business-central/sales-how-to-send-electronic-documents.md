@@ -1,61 +1,67 @@
 ---
-title: Send Electronic Documents | Microsoft Docs
-description: learn how to send invoices electronically.
+title: Send Electronic Documents
+description: Learn how to use Business Central to send electric invoices and credit memos in the PEPPOL format.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 110c81bdf6de02e16a1e1185028f6b803290f3d7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: abfc8b77ed4b6cc748898e8d4af8f68e036b468e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192673"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440285"
 ---
 # <a name="send-electronic-documents"></a>Send Electronic Documents
-The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports sending electronic invoices and credit memos in the PEPPOL format, which is supported by the largest document exchange service providers. A document exchange service provider dispatches electronic documents between trading partners. To provide support for other electronic document formats, you use the data exchange framework.  
 
- In the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)], a document exchange service is preconfigured and ready to be set up for your company. For more information, see [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md).  
+The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports sending electronic invoices and credit memos in the PEPPOL format, a format that the largest document exchange service providers support. A document exchange service provider dispatches electronic documents between trading partners. To provide support for other electronic document formats, you use the data exchange framework.  
 
- To send a sales invoice as an electronic PEPPOL document, you select the **Electronic Document** option in the **Post and Send** dialogue box from where you can also set up the customer’s default document sending profile. First, you must set up various master data, such as company information, customers, items, and units of measure. These are used to identify the business partners and items when converting data in fields in [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
+ In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a document exchange service is preconfigured and ready to be set up for your company. For more information, see [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md). However, in some cases, you must install an app. For more information, see [Electronic Invoicing FAQ](faq-electronic-invoicing.yml).  
 
-### <a name="to-send-an-electronic-sales-invoice"></a>To send an electronic sales invoice  
+ To send a sales invoice as an electronic PEPPOL document, you select the **Electronic Document** option in the **Post and Send** dialogue box. You can also set up the customer's default document sending profile from that dialogue box. First, you must set up various master data, such as company information, customers, items, and units of measurement. These are used to identify the business partners and items when converting data in fields in [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+### <a name="to-send-an-electronic-sales-invoice"></a>To send an electronic sales invoice
 
-2.  Create a new sales invoice.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 
-3.  When the sales invoice is ready to be invoiced, choose the **Post and Send** action.  
+2. Create a new sales invoice.  
 
-     If the customer’s default sending profile is **Electronic Document**, then it will be shown in the **Post and Send Confirmation** dialogue box and you just have to choose the **Yes** button to post and send the invoice electronically in the selected format.  
+3. When the sales invoice is ready to be invoiced, choose the **Post and Send** action.  
 
-4.  In the **Post and Send Confirmation** dialogue box, choose the AssistEdit button to the right of the **Send Document to** field.  
+     If the customer's default sending profile is **Electronic Document**, then it will be shown in the **Post and Send Confirmation** dialogue box. This way, you just have to choose the **Yes** button to post and send the invoice electronically in the selected format.  
 
-5.  In the **Send Document to** dialogue box, in the **Electronic Document** field, choose **Through Document Exchange Service**.  
+4. In the **Post and Send Confirmation** dialogue box, choose the AssistEdit button to the right of the **Send Document to** field.  
 
-6.  In the **Format** field, choose **PEPPOL**.  
+5. In the **Send Document to** dialogue box, in the **Electronic Document** field, choose **Through Document Exchange Service**.  
 
-7.  Choose the **OK** button. The **Post and Send Confirmation** dialogue box appears. **Electronic Document (PEPPOL)** is added to the **Send Document to** field.  
+6. In the **Format** field, choose **PEPPOL**.  
 
-8.  Choose the **Yes** button.  
+7. Choose the **OK** button. The **Post and Send Confirmation** dialogue box appears. **Electronic Document (PEPPOL)** is added to the **Send Document to** field.  
 
-     The sales invoice is posted and sent to the customer as an electronic document in the PEPPOL format.  
+8. Choose the **Yes** button.  
+
+     The sales invoice is posted and sent to the customer in the PEPPOL format.  
 
     > [!NOTE]  
-    >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. On the **Posted Sales Invoice** page, choose the **Activity Log** action to view the status of the electronic document. For more information, see **Activity Log**.  
+    >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. On the **Posted Sales Invoice** page, choose the **Activity Log** action to view the status of the electronic document.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See Also  
+## <a name="see-also"></a>See Also
+
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)  
 [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md)  
 [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)  
 [Exchanging Data Electronically](across-data-exchange.md)  
+[Electronic Invoicing FAQ](faq-electronic-invoicing.yml)  
 [General Business Functionality](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

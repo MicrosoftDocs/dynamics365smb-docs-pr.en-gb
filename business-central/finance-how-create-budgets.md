@@ -1,35 +1,36 @@
 ---
-title: Creating G/L Budgets| Microsoft Docs
+title: Creating G/L Budgets
 description: Describes hos to create G/L budgets to forecast different financial activities and assign dimensions for business intelligence purposes.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b18322180f833a63b7f4565bd4000bdc3bd4f571
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 37be635e57090e6e661a76ac3c0d7ea8473796a1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183723"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971713"
 ---
 # <a name="create-gl-budgets"></a>Create G/L Budgets
+
 You can have multiple budgets for identical time periods by creating budgets with separate names. First, you set up the budget name and enter the budget figures. The budget name is then included on all the budget entries you create.  
 
 When you create a budget, you can define four dimensions for each budget. These budget-specific dimensions are called budget dimensions. You select the budget dimensions for each budget from among the dimensions you have already set up. Budget dimensions can be used to set filters on a budget and to add dimension information to budget entries. For more information, see [Working with Dimensions](finance-dimensions.md).
 
 Budgets play an important role in business intelligence, such as in financial statement based on account schedules that include budget entries or when analysing budgeted versus actual amounts in the chart of accounts. For more information, see [Business Intelligence](bi.md).
 
-In cost accounting, you work with cost budgets in a similar way. For more information, see [Creating Cost Budgets](finance-create-cost-budgets.md).    
+In cost accounting, you work with cost budgets in a similar way. For more information, see [Creating Cost Budgets](finance-create-cost-budgets.md).  
 
-## <a name="to-create-a-new-gl-budget"></a>To create a new G/L budget  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, and then choose the related link.  
+## <a name="to-create-a-new-gl-budget"></a>To create a new G/L budget
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, and then choose the related link.  
 2. Choose the **Edit List** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **Edit Budget** action.
 4. At the top of the **Budget** page, fill in the fields as necessary to define what is displayed.  
@@ -40,9 +41,10 @@ In cost accounting, you work with cost budgets in a similar way. For more inform
 7. Repeat steps 5 and 6 until you have entered all of the budget amounts.  
 
 > [!NOTE]  
->  On the **Filters** FastTab, you can filter the budget information by budget dimensions you have set up under the budget name.
+> On the **Filters** FastTab, you can filter the budget information by budget dimensions you have set up under the budget name.
 
 ## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Exporting and Importing G/L Budgets with Excel
+
 As for practically all other pages, you can export data on budget pages to Excel for further processing or analysis. For more information, see [Exporting Your Business Data to Excel](about-export-data.md).
 
 > [!NOTE]
@@ -51,9 +53,13 @@ As for practically all other pages, you can export data on budget pages to Excel
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
+
 [Exporting Your Business Data to Excel](about-export-data.md)  
 [Finance](finance.md)  
 [Business Intelligence](bi.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -24,7 +24,7 @@ For the invoices to include your business address and other important informatio
 
 ## <a name="to-add-your-business-information"></a>To add your business information
 
-1. In [!INCLUDE[d365inv](includes/d365inv.md)], in the top right corner, choose the gear symbol, and then choose **My Settings** .  
+1. In [!INCLUDE[d365inv](includes/d365inv.md)], in the top right corner, choose the gear symbol, and then choose **My Settings**.  
 2. In the Settings panel, in the **Business information** section, upload your logo, add your company name, specify your address, and add other information that you want to capture here.  
 
 The following table describes the settings that you can specify.  

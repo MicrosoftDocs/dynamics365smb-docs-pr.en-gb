@@ -23,7 +23,7 @@ ms.locfileid: "3927882"
 You can send an estimate (the same as a quote or an offer) to existing customers or prospects – it works almost the same way as sending an invoice, but with the estimate you’re sending a draft that the customer can accept or not.  
 
 ## <a name="to-send-an-estimate"></a>To send an estimate
-1. In [!INCLUDE[d365inv](includes/d365inv.md)], on the Home page, tap **New estimate** .
+1. In [!INCLUDE[d365inv](includes/d365inv.md)], on the Home page, tap **New estimate**.
 2. Enter the customer’s name, email address and invoice details. If this is a new customer, they are automatically added to [!INCLUDE[d365inv](includes/d365inv.md)] based on the information that you add.  
 3. Fill in the lines by adding the products that you want to suggest to your customer or prospect.  
 4. Optionally, apply a discount to the individual lines or the whole document.  
@@ -32,7 +32,7 @@ You can send an estimate (the same as a quote or an offer) to existing customers
 If the customer accepts the estimate, you can turn it into an invoice.
 
 ## <a name="to-change-an-estimate-into-an-invoice"></a>To change an estimate into an invoice
-1. On the Home page, tap **Estimates** , and then find the estimate that your customer has accepted and open it.  
+1. On the Home page, tap **Estimates**, and then find the estimate that your customer has accepted and open it.  
 2. Make any relevant changes, and then choose Make invoice.  
 3. You’ll be asked to confirm that this is what you want to do.  
 4. Choose Yes.  

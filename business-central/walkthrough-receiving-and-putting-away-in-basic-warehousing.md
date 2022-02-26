@@ -1,27 +1,27 @@
 ---
-title: Walkthrough - Receiving and Putting Away in Basic Warehouse Configurations | Microsoft Docs
-description: In Business Central, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
+title: Walkthrough - Receive and put away in basic warehouse configurations
+description: In Business Central, the inbound processes for receiving and putting away can be performed in four different ways, depending on the warehouse complexity level.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 31ac21dbba331748c9eef7bce199a5709147016b
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: c5d3ce9b7bb02c12da8d62413c6c5722c59ee1d8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554651"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439317"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations
 
-**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
+In [!INCLUDE[prod_short](includes/prod_short.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
 |Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -35,7 +35,7 @@ For more information, see [Design Details: Inbound Warehouse Flow](design-detail
 The following walkthrough demonstrates method B in the previous table.  
 
 ## <a name="about-this-walkthrough"></a>About This Walkthrough  
-In basic warehouse configurations where your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** page to record and post put-away and receipt information for your inbound source documents. The inbound source document can be a purchase order, sales return order, inbound transfer order, or production order with output that is ready to be put away.
+In basic warehouse configurations where your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** page to record and post put-away and receipt information for your inbound source documents. The inbound source document can be a purchase order, sales return order, inbound transfer order, or works order with output that is ready to be put away.
 
 > [!NOTE]
 > Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.  
@@ -45,12 +45,15 @@ This walkthrough demonstrates the following tasks.
 -   Setting up SILVER location for inventory put aways.  
 -   Setting up SILVER location for bin handling.  
 -   Defining a default bin for item LS-81. (LS-75 is already set up in CRONUS.)  
--   Creating a purchase order for vendor 10000 for 40 loudspeakers.  
+-   Creating a purchase order for supplier 10000 for 40 loudspeakers.  
 -   Verifying that the put-away bins are preset by setup.  
 -   Releasing the purchase order for warehouse handling.  
 -   Creating an inventory put-away based on a released source document.  
 -   Verifying that the put-away bins are inherited from the purchase order.  
 -   Registering the warehouse movement into the warehouse and at the same time posting the purchase receipt for the source purchase order.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="roles"></a>Roles  
 This walkthrough demonstrates tasks that are performed by the following user roles:  
@@ -65,20 +68,20 @@ To complete this walkthrough, you will need:
 -   CRONUS International Ltd. installed.  
 -   To make yourself a warehouse employee at SILVER location by following these steps:  
 
-    1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+    1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
     2.  Choose the **User ID** field, and select your own user account on the **Users** page.  
     3.  In the **Location Code** field, enter SILVER.  
     4.  Select the **Default** field.  
 
 ## <a name="story"></a>Story  
-Ellen, the warehouse manager at CRONUS International Ltd., creates a purchase order for 10 units of item LS-75 and 30 units of item LS-81 from vendor 10000 to be delivered to SILVER Warehouse. When the delivery arrives at the warehouse, John, the warehouse worker, puts the items away in default bins defined for the items. When John posts the put-away, the items are posted as received into inventory and available for sale or other demand.  
+Ellen, the warehouse manager at CRONUS International Ltd., creates a purchase order for 10 units of item LS-75 and 30 units of item LS-81 from supplier 10000 to be delivered to SILVER Warehouse. When the delivery arrives at the warehouse, John, the warehouse worker, puts the items away in default bins defined for the items. When John posts the put-away, the items are posted as received into inventory and available for sale or other demand.  
 
 ## <a name="setting-up-the-location"></a>Setting up the Location  
- The setup of the **Location Card** page defines the company’s warehouse flows.  
+ The setup of the **Location Card** page defines the company's warehouse flows.  
 
 ### <a name="to-set-up-the-location"></a>To set up the location  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Open the SILVER location card.  
 3.  Select the **Require Put-away** check box.  
 
@@ -98,9 +101,9 @@ Purchase orders are the most common type of inbound source document.
 
 ### <a name="to-create-the-purchase-order"></a>To create the purchase order  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
-3.  Create a purchase order for vendor 10000 on the work date (January 23) with the following purchase order lines.  
+3.  Create a purchase order for supplier 10000 on the work date (January 23) with the following purchase order lines.  
 
     |Item|Location code|Bin code|Quantity|  
     |----------|-------------------|--------------|--------------|  
@@ -108,23 +111,23 @@ Purchase orders are the most common type of inbound source document.
     |LS-81|SILVER|S-01-0001|30|  
 
     > [!NOTE]  
-    >  The bin code is entered automatically according to the setup that you performed in the “Setting up the Location” section.  
+    >  The bin code is entered automatically according to the setup that you performed in the "Setting up the Location" section.  
 
     Proceed to notify the warehouse that the purchase order is ready for warehouse handling when the delivery arrives.  
 
 4.  Choose the **Release** action.  
 
-    The delivery of loudspeakers from vendor 10000 has arrived at SILVER warehouse, and John proceeds to put them away.  
+    The delivery of loudspeakers from supplier 10000 has arrived at SILVER warehouse, and John proceeds to put them away.  
 
 ## <a name="receiving-and-putting-the-items-away"></a>Receiving and Putting the Items Away  
 On the **Inventory Put-away** page, you can manage all inbound warehouse activities for a specific source document, such as a purchase order.  
 
 ### <a name="to-receive-and-put-the-items-away"></a>To receive and put the items away  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-aways**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-aways**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Select the **Source Document** field, and then select **Purchase Order**.  
-4.  Select the **Source No.** field, select the line for the purchase from vendor 10000, and then choose the **OK** button.  
+4.  Select the **Source No.** field, select the line for the purchase from supplier 10000, and then choose the **OK** button.  
 
     Alternatively, choose the **Get Source Document** action, and then select the purchase order.  
 
@@ -144,4 +147,7 @@ On the **Inventory Put-away** page, you can manage all inbound warehouse activit
  [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

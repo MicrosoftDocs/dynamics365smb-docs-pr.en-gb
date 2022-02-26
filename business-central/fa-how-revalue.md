@@ -1,22 +1,21 @@
 ---
-title: Revalue Fixed Assets| Microsoft Docs
+title: Revalue Fixed Assets
 description: Learn how to adjust the value of fixed assets, recording new amounts as a write-down or appreciation, and post additional acquisition costs.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ec162eca522184807554fb9f46d71606ad9c8870
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5628
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: c79cbff9d6f16ad3c93b126f01f5c28794df4127
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184347"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029515"
 ---
 # <a name="revalue-fixed-assets"></a>Revalue Fixed Assets
 Revaluation of fixed assets can consist of appreciations, write-downs, or general value adjustments.
@@ -28,7 +27,7 @@ When the value of a fixed asset has decreased, you post a journal line with a lo
 Indexation is used to adjust multiple fixed asset values, for example per general price changes. The **Index Fixed Assets** batch job can be used to change various amounts, such as write-down and appreciation amounts.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>To post an appreciation from the fixed asset G/L journal
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
 2. Create an initial journal line and fill in the fields as necessary.
 3. In the **FA Posting Type** field, select **Revaluation**.
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for appreciation posting.
@@ -38,7 +37,7 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
 5. Choose the **Post** action.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>To post a write-down from the fixed asset G/L journal
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
 2. Create an initial journal line, and fill in the fields as necessary.
 3. In the **FA Posting Type** field, select **Write-Down**.
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for write-down posting.
@@ -50,12 +49,12 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>To perform general revaluation of fixed assets
 Indexation is used to adjust multiple fixed asset values, for example per general price changes. The **Index Fixed Assets** batch job can be used to change various amounts, such as write-down and appreciation amounts. The **Allow Indexation** check box on the **Depreciation Book** page must be selected.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Index Fixed Assets**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Index Fixed Assets**, and then choose the related link.  
 2. Fill in the fields as necessary.
 3. Choose the **OK** button.
 
     Revaluation lines are created per your settings in step 2. The lines are created in either the fixed asset journal or the fixed asset G/L journal, depending on your template and batch setup on the **FA Journal Setup** page. For more information, see [Set Up General Fixed Asset Information](fa-how-setup-general.md).
-4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
+4. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
 5. Select the journal with the fixed assets that you want to revalue, and then choose the **Ledger Entries** action.  
 6. Check the created entries, and then choose the **Post** action to post the journal.
 
@@ -120,5 +119,8 @@ If you did not select the **Depr. until FA Posting Date** check box, the asset w
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
-[Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

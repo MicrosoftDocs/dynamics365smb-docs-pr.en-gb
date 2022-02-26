@@ -7,10 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'delete, data, retention, policy, policies'
-ms.search.form: '3903, 3901'
+ms.search.keywords: delete, data, retention, policy, policies
+ms.search.form: 3903, 3901
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.openlocfilehash: ab16aacb7689287eac259658a8ef6bb355f04842
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012400"
 ---
 # <a name="define-retention-policies"></a>Define Retention Policies
 Administrators can define retention policies to specify how frequently they want [!INCLUDE[prod_short](includes/prod_short.md)] to delete outdated data in tables that contain log entries and archived records. For example, cleaning up log entries can make it easier to work with the data that's actually relevant. Policies can include all data in the tables that is past the expiration date, or you can add filter criteria that will include only certain expired data in the policy. 

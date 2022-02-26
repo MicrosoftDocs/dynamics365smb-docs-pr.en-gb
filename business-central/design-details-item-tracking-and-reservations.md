@@ -1,23 +1,24 @@
 ---
-title: Design Details - Item Tracking and Reservations | Microsoft Docs
-description: This topic talks about item tracking and reservations, and describes the concepts behind the two.
+title: Design Details - Item Tracking and Reservations
+description: This topic talks about item tracking and reservations, and describes the concepts behind the two options.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: bfa2706b4d6d44a6f565685a66668c336b7a20e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: d2c5032983bd20fc1e8fa902bd6ed522506fc5b3
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185115"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320895"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Design Details: Item Tracking and Reservations
+
 Simultaneous use of reservation and specific item tracking is uncommon, because they both create a coupling between supply and demand. Except for situations where a customer or production planner requests a specific lot, it rarely makes sense to reserve inventory items that already carry item tracking numbers for specific application. Although it is possible to reserve items that require specific item tracking, special functionality is needed to avoid availability conflicts between order processors that request the same item-tracked items.  
   
 The concept of Late Binding ensures that a nonspecific reservation of a serial number or a lot number remains loosely coupled until posting. At posting time, the reservation system can reshuffle nonspecific reservations to ensure that fixed application is possible against the serial or lot number that is actually picked. Meanwhile, the serial or lot number is made available for specific reservation in other documents that request that particular serial or lot number.  
@@ -25,7 +26,7 @@ The concept of Late Binding ensures that a nonspecific reservation of a serial n
 A nonspecific reservation is one in which the user does not care which specific item is picked, and a specific reservation is one in which the user does care.  
   
 > [!NOTE]  
->  The Late Binding functionality relates only to items that are set up with specific item tracking, and it applies only to reservations against inventory, not against inbound supply orders.  
+> The Late Binding functionality relates only to items that are set up with specific item tracking, and it applies only to reservations against inventory, not against inbound supply orders.  
   
 Reservation of item tracking numbers falls into two categories, as shown in the following table.  
   
@@ -35,12 +36,11 @@ Reservation of item tracking numbers falls into two categories, as shown in the 
 |Nonspecific|You do not select a specific serial or lot number when you reserve the inventory item from a demand, such as a sales order.<br /><br /> This is a state that is imposed on a reservation entry for serial or lot numbers that are not selected specifically. **Note:**  The demand does not carry serial or lot numbers. <br /><br /> For example, you want to reserve a can of blue paint from any lot for your sales order. A can of blue paint from a random serial or lot number is shipped to the customer.|  
   
 The main difference between specific and nonspecific reservation is defined by the existence of serial or lot numbers on the demand side, as shown in the following table.  
-  
-||||  
-|-|-|-|  
-||**Supply**|**Demand**|  
-|**Specific**|Serial or lot number.|Serial or lot number.|  
-|**Nonspecific**|Serial or lot number.|No serial or lot number.|  
+
+| Type            | Supply                | Demand                   |
+|-----------------|-----------------------|--------------------------|
+| **Specific**    | Serial or lot number. | Serial or lot number.    |
+| **Nonspecific** | Serial or lot number. | No serial or lot number. |
   
 When you reserve inventory quantities from an outbound document line for an item that has item tracking numbers assigned and is set up for specific item tracking, the **Reservation** page leads you through different workflows depending on your need for the serial or lot numbers.  
   
@@ -92,3 +92,5 @@ This business scenario is supported with Late Binding functionality that enables
   
 ## <a name="see-also"></a>See Also  
 [Design Details: Item Tracking](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

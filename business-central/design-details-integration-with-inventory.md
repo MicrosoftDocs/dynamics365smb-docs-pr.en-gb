@@ -1,21 +1,21 @@
 ---
-title: Design Details - Integration with Inventory | Microsoft Docs
-description: The Warehouse Management application area and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.
+title: Design Details - Integration with Inventory
+description: The Warehouse Management and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: bbc9c0e55041f4584ae7609f727179737adaa041
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 209bf5b50f362b11d0ba4fdc6ae0cab47a3622fa
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185355"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319206"
 ---
 # <a name="design-details-integration-with-inventory"></a>Design Details: Integration with Inventory
 The Warehouse Management application area and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.  
@@ -23,7 +23,7 @@ The Warehouse Management application area and the Inventory application area int
 ## <a name="physical-inventory"></a>Physical Inventory  
  The **Whse. Phys. Inventory Journal** page is used with the **Phys. Inventory Journal** page for all advanced warehouse locations. The inventory on bin level is calculated, and a printed list is provided for the warehouse employee. The list shows which items in which bins must be counted.  
   
- The warehouse employee enters the counted quantity on the **Whse. Phys. Inventory Journal** page and then posts the journal.  
+ The warehouse employee enters the counted quantity on the **Whse. Phys. Inventory journal** page and then posts the journal.  
   
  If the counted quantity is greater than the quantity on the journal line, a movement is posted for this difference from the default adjustment bin to the counted bin. This increases the quantity in the counted bin and decreases the quantity in the default adjustment bin.  
   
@@ -48,3 +48,5 @@ The Warehouse Management application area and the Inventory application area int
 ## <a name="see-also"></a>See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)   
  [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

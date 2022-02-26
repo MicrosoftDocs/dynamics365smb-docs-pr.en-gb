@@ -1,21 +1,21 @@
 ---
-title: How to Convert Service Contracts | Microsoft Docs
-description: Because the VAT rate change tool cannot convert service contracts, these contracts must be converted manually. This topic describes several alternative methods that you can use for service contract conversion.
+title: How to Convert Service Contracts
+description: This topic describes several alternative methods that you can use to convert service contracts that include VAT amounts.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 1b2bb49651a52f36ab8d98edc22ba2248794f598
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554795"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436408"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convert Service Contracts that Include VAT Amounts
 Because the VAT rate change tool cannot convert service contracts, these contracts must be converted manually. This topic describes several alternative methods that you can use for service contract conversion.  
@@ -29,7 +29,7 @@ Because the VAT rate change tool cannot convert service contracts, these contrac
 >  For this example, you must change your work date to 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>To correct an invoice for a prepaid service contract  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contract Management**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contract Management**, and then choose the related link.  
 2. Under **Lists**, choose **Service Contracts**.  
 3. Create a new prepaid service contract. Enter a start date of **01.01.2017** and an invoice period year for customer **20000**.  
 4. To sign the contract, choose the **Sign Contract** action.  
@@ -68,3 +68,6 @@ The following procedure describes how to create a new credit memo using the **Ge
 [Finance](finance.md)  
 [Report VAT to Tax Authorities](finance-how-report-vat.md)  
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

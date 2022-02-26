@@ -1,27 +1,25 @@
 ---
-title: Walkthrough - Managing Projects with Jobs | Microsoft Docs
-description: This walkthrough introduces you to the project management features in jobs. Jobs are a way for you to schedule the usage of your company's resources and to keep track of the various costs associated with the resources on a specific project. Jobs involves the consumption of employee hours, machine hours, inventory items, and other types of usage that you may want to track as a job progresses.
-services: project-madeira
-documentationcenter: ''
+title: Walkthrough - Managing Projects with Jobs
+description: This walkthrough introduces you to the project management features in jobs which allow you to schedule the usage of your company's resources and more.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 4b4be8dfa382424258100973af0d0e647b21b0f6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554723"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439050"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Walkthrough: Managing Projects with Jobs
 
-**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 This walkthrough introduces you to the project management features in jobs. Jobs are a way for you to schedule the usage of your company's resources and to keep track of the various costs associated with the resources on a specific project. Jobs involves the consumption of employee hours, machine hours, inventory items, and other types of usage that you may want to track as a job progresses.  
 
@@ -33,44 +31,44 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 ### <a name="setting-up-a-job"></a>Setting Up a Job  
  With the budget structure set up for jobs, creating a job is straightforward. This walkthrough covers the following procedures:  
 
--   Setting up job task lines and planning lines.  
--   Creating job-specific prices for items, resources, and general ledger accounts.  
--   Invoicing from a job.  
+- Setting up job task lines and planning lines.  
+- Creating job-specific prices for items, resources, and general ledger accounts.  
+- Invoicing from a job.  
 
 ### <a name="handling-fixed-prices"></a>Handling Fixed Prices  
  In jobs, you can handle fixed prices and the prices for services or goods that are agreed upon in advance with customers. In this walkthrough, you can do the following:  
 
--   See how contract and invoice values are determined.  
--   Allow for extra work in the schedule that has not been invoiced.  
+- See how contract and invoice values are determined.  
+- Allow for extra work in the schedule that has not been invoiced.  
 
 ### <a name="copying-a-job"></a>Copying a Job  
  This part of the walkthrough focuses on how to copy part or all of a job in order to reduce manual data entry and improve accuracy. It includes the following:  
 
--   Copying part of a job to a new job.  
--   Copying job-specific prices.  
--   Copying planning lines.  
+- Copying part of a job to a new job.  
+- Copying job-specific prices.  
+- Copying planning lines.  
 
 ### <a name="making-payment-by-installment"></a>Making Payment by Installment  
  When a large, expensive project lasts for a long period, the customer often makes an agreement with the company to pay by installments. This scenario shows how you set up payment by installments and covers:  
 
--   Creating payment by installments for a job.  
--   Invoicing payments to customers.  
--   Accounting for usage in a job set up for payment by installments.  
+- Creating payment by installments for a job.  
+- Invoicing payments to customers.  
+- Accounting for usage in a job set up for payment by installments.  
 
 ## <a name="roles"></a>Roles  
  This walkthrough includes tasks for the following roles:  
 
--   Project Manager  
--   Project Team Member  
+- Project Manager  
+- Project Team Member  
 
 ## <a name="prerequisites"></a>Prerequisites  
  Before you can perform the tasks in the walkthrough, you must do the following:  
 
--   Install the CRONUS International Ltd. demonstration database.
--   Create sample data by using the steps in the following section.  
+- Install the CRONUS demonstration database.
+- Create sample data by using the steps in the following section.  
 
 ## <a name="story"></a>Story  
-This walkthrough focuses on CRONUS International Ltd., a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash is a project manager at CRONUS. He uses jobs to give him an overview of each ongoing job that CRONUS has started, as well as the jobs that are completed. He is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into [!INCLUDE[d365fin](includes/d365fin_md.md)]. He finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[d365fin](includes/d365fin_md.md)] enables copying jobs and payment by installments.
+This walkthrough focuses on CRONUS, a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash is a project manager at CRONUS. He uses jobs to give him an overview of each ongoing job that CRONUS has started, as well as the jobs that are completed. He is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into [!INCLUDE[prod_short](includes/prod_short.md)]. He finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[prod_short](includes/prod_short.md)] enables copying jobs and payment by installments.
 
  Tricia, a project team member who reports to Prakash, is responsible for monitoring the job day-to-day. She enters her own work in addition to the work performed by technicians on every task. She records the items that they have used and the costs that they have incurred.  
 
@@ -79,7 +77,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 ### <a name="to-prepare-the-sample-data"></a>To prepare the sample data  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.  
 2.  Choose the **New** action to create a new resource card.  
 3.  On the **General** FastTab, enter the following information:  
 
@@ -87,14 +85,14 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     - **Name**: **Tricia**  
     - **Type**: **Person**  
 
-4.  Choose the **Base Unit of Measure** field, and choose the **New** action to open the **Resource Unit of Measure** page. In the **Code** field, select **Hour**.  
+4.  Choose the **Base Unit of Measurement** field, and choose the **New** action to open the **Resource Unit of Measurement** page. In the **Code** field, select **Hour**.  
 5.  On the **Invoicing** FastTab, enter the following information:  
 
-    -   **Direct Unit Cost**: **5**  
-    -   **Indirect Cost %**: **4**  
-    -   **Unit Cost**: **10**  
-    -   **Gen. Prod. Posting Group**: **Services**  
-    -   **VAT Prod. Posting Group**: **VAT 25**  
+    - **Direct Unit Cost**: **5**  
+    - **Indirect Cost %**: **4**  
+    - **Unit Cost**: **10**  
+    - **Gen. Prod. Posting Group**: **Services**  
+    - **VAT Prod. Posting Group**: **VAT 25**  
 
 6. Close the page.
 
@@ -102,13 +100,13 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
 ### <a name="to-create-a-job-journal-batch"></a>To create a Job Journal batch  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2.  On the **Job Journal** page, choose the **Batch Name** field. The **Job Journal Batches** page opens.  
 3.  Choose the **New** action to create a new line with the following information:  
 
-    -   **Name**: **Tricia**  
-    -   **Description**: **Tricia**  
-    -   **No. Series**: **JJNL-GEN**  
+    - **Name**: **Tricia**  
+    - **Description**: **Tricia**  
+    - **No. Series**: **JJNL-GEN**  
 
 4.  Choose the **OK**  button to save the changes.
 
@@ -117,31 +115,31 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
 ### <a name="to-set-up-a-job"></a>To set up a job  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  Choose the **New** action to create a new card.  
 3.  On the **General** FastTab, enter the following information:  
 
-    -   **Description**: **Advising on conference hall setup**  
-    -   **Bill-to-Customer No.**: **01445544**  
+    - **Description**: **Advising on conference hall setup**  
+    - **Bill-to-Customer No.**: **01445544**  
 
 4.  On the **Posting** FastTab, enter the following information:  
 
-    -   **Status**: **Planning**  
-    -   **Job Posting Group**: **Setting Up**  
-    -   **WIP Method**: **Cost Value**  
+    - **Status**: **Planning**  
+    - **Job Posting Group**: **Setting Up**  
+    - **WIP Method**: **Cost Value**  
 
 5.  On the **Duration** FastTab, type today's date into the **Starting Date** and **Ending Date** fields. These dates will help apply currency conversions when the job is invoiced.  
 6.  On the **Foreign Trade** FastTab, set the currency code to **GBP**. If you select GBP in the **Invoice Currency Code** field, then the job will be invoiced in British Pounds and planned in the local currency of CRONUS only.  
 
- You can customise the pricing for customers on a per job basis, depending on the agreements you have set up. In the next procedure, the project manager specifies a cost for Tricia’s time, sets the price for the required software, and adds in the travel costs that the customer has agreed to pay.  
+ You can customise the pricing for customers on a per job basis, depending on the agreements you have set up. In the next procedure, the project manager specifies a cost for Tricia's time, sets the price for the required software, and adds in the travel costs that the customer has agreed to pay.  
 
 ### <a name="to-customize-pricing"></a>To customise pricing  
 
 1.  From the job card, choose the **Resource** action.  
 2.  On the **Job Resource Prices** page, enter the following information:  
 
-    -   **Code**: **Tricia**  
-    -   **Unit Price**: **20**  
+    - **Code**: **Tricia**  
+    - **Unit Price**: **20**  
 
 3.  Close the page.  
 4.  Choose the **Item** action.  
@@ -177,73 +175,45 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
  A planning line can be one of the following types:  
 
--   **Schedule**: Added to the schedule, but not invoiced.  
--   **Contract**: Invoiced, but not added to the schedule.  
--   **Both Budget and Billable**: Invoiced and added to the schedule.  
+- **Budget**: Added to the schedule, but not invoiced.  
+- **Billable**: Invoiced, but not added to the schedule.  
+- **Both Budget and Billable**: Invoiced and added to the schedule.  
 
  In this walkthrough, the project manager uses **Both Budget and Billable**. He creates three planning lines for task 1010, and two planning lines for task 1020.  
 
 ### <a name="to-create-planning-lines"></a>To create planning lines  
 
-1.  Select line 1010, and then choose the **Job Planning Lines** action. Enter the following information:  
+1. Select line 1010, and then choose the **Job Planning Lines** action.  
 
-     **Line 1**  
+2. Create planning lines with the following information:  
 
-    -   **Line Type**: **Both Budget and Billable**  
-    -   **Planning Date**: **(today’s date)**  
-    -   **Type**: **Resource**  
-    -   **No.**: **Tricia**  
-    -   **Quantity**: **40**  
+    | Line | Line Type | Planning Date  | Type        | No.   | Quantity | Unit Price |
+    |------|-----------|----------------|-------------|-------|----------|------------|
+    | 1    | Both Budget and Billable | (today's date) | Resource | Tricia | 40        |     |
+    | 2    | Both Budget and Billable | (today's date) | Resource | Timothy | 40        |     |
+    | 3    | Both Budget and Billable | (today's date) | G/L Account | 8430 (Travel) | 2 | 400    |
 
-     **Line 2**  
+     Close the page. The totals are updated on the **Job Task Lines** page.  
+3. Select line 1020, and then choose the **Job Planning Lines** action. Enter the following information:  
 
-    -   **Line Type**: **Both Budget and Billable**  
-    -   **Planning Date**: **(today’s date)**  
-    -   **Type**: **Resource**  
-    -   **No.**: **Timothy**  
-    -   **Quantity**: **40**  
+    | Line | Line Type | Planning Date  | Type        | No.   | Quantity | Unit Price |
+    |------|-----------|----------------|-------------|-------|----------|------------|
+    | 1    | Both Budget and Billable | (today's date) | Resource | Tricia | 80        |     |
+    | 2    | Both Budget and Billable | (today's date) | Item | 80201 (Graphic program) | 1 |     |
 
-     **Line 3**  
-
-    -   **Line Type**: **Both Budget and Billable**  
-    -   **Planning Date**: **(today’s date)**  
-    -   **Type**: **G/L Account**  
-    -   **No.**: **8430 (Travel)**  
-    -   **Quantity**: **2**  
-    -   **Unit Cost**: **400**  
-
-2.  Close the page. The totals are updated on the **Job Task Lines** page.  
-3.  Select line 1020, and then choose the **Job Planning Lines** action. Enter the following information:  
-
-     **Line 1**  
-
-    -   **Line Type**: **Both Budget and Billable**  
-    -   **Planning Date**: **(today’s date)**  
-    -   **Type**: **Resource**  
-    -   **No.**: **Tricia**  
-    -   **Quantity**: **80**  
-
-     **Line 2**  
-
-    -   **Line Type**: **Both Budget and Billable**  
-    -   **Planning Date**: **(today’s date)**  
-    -   **Type**: **Item**  
-    -   **No.**: **80201 (Graphic program)**  
-    -   **Quantity**: **1**  
-
-4.  Close the page. Totals are updated on the **Job Task Lines** page.  
+4. Close the page. Totals are updated on the **Job Task Lines** page.  
 
 ## <a name="calculating-remaining-usage"></a>Calculating Remaining Usage  
  Tricia, the team project member, has been working on the job for a while and wants to register her hours and usage on the job. She has not worked more hours than was agreed upon with the customer in advance. She uses the **Calculate Remaining Usage** batch job to calculate remaining usage for the job in a job journal. For each task, the batch job calculates the difference between scheduled usage of items, resources, and general ledger expenses and the actual usage posted in job ledger entries. The remaining usage is then displayed in the job journal from where she can post it.  
 
 ### <a name="to-calculate-remaining-usage"></a>To calculate remaining usage  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2.  On the **Job Journal** page, in the **Batch Name** field, open the **Job Journals Batches** list. Select the **Tricia** job journal batch.  
 3.  Choose the **Calc. Remaining Usage** action.  
 4.  On the **Job Calc. Remaining Usage** page, on the **Job Task** FastTab, choose the **Job No.** field, and select the relevant job number, typically job J00010.  
 5.  On the **Options** FastTab, type **J00001** in the **Document No.** field. This makes future tracking of the posting easier.  
-6.  Enter today’s date as the posting date.  
+6.  Enter today's date as the posting date.  
 7.  Choose the **OK** button. This will generate job journal lines derived from the planning lines that Prakash created for the job.  
 8.  Choose the **OK** button on the confirmation page. The generated lines are added to the job journal.  
 9. Make sure that all the document numbers are J00001, and then choose the **Post** action. Choose **Yes** to confirm the posting.  
@@ -255,7 +225,7 @@ The lines are now posted.
 
 ### <a name="to-create-a-job-sales-invoice"></a>To create a job sales invoice  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  Select the job that you created earlier, and then choose the **Create Job Sales Invoice** action.  
 3.  On the **Job Task** FastTab, clear any filter on **Job Task No.** in order to invoice the job. In the **Job No.** field, select the relevant job.  
 4.  On the **Options** FastTab, fill in the posting date and define whether you want to create one invoice per task or just a single invoice for all tasks.  
@@ -265,7 +235,7 @@ The lines are now posted.
 
 ### <a name="to-post-a-new-sales-invoice"></a>To post a new sales invoice  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2.  Open the invoice for Customer No. 01445544. You can see the information that was entered from the planning lines.  
 3.  Choose the **Post** action. Choose **Yes** to confirm the posting.  
 
@@ -279,7 +249,7 @@ The lines are now posted.
 
 ### <a name="to-open-the-statistics-page"></a>To open the Statistics page  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  Choose the **Statistics** action. You can review detailed information about the job prices, costs, and profits in both local and foreign currencies.  
 3.  Choose the **Close** button to close the **Job Statistics** page.  
 
@@ -288,206 +258,203 @@ The lines are now posted.
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>To manage fixed pricing in jobs  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2.  Select the **Guildford** job number, and then choose the **Jobs Task Lines** action.  
-3.  Select line 1120, and in the **Schedule (Total Cost)** field, right-click the amount and choose **DrillDown**.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+2. Select the **Guildford** job number, and then choose the **Jobs Task Lines** action.  
+3. Select line 1120, and in the **Budget (Total Cost)** field, right-click the amount and choose **DrillDown**.  
 
      By reviewing the Job Planning lines, Prakash determines that he will also need Tricia for 30 hours for this stage of the project. He agrees on a fixed price with the customer.  
 
-4.  On the **Job Task Lines** page, select line 1120, and then choose the **Job Planning Lines** action.  
-5.  Choose the **New** to create a new line with the following information:  
+4. On the **Job Task Lines** page, select line 1120, and then choose the **Job Planning Lines** action. Create a planning line with the following information:  
 
-    -   **Line Type**: **Both Budget and Billable**  
-    -   **Type**: **Resource**  
-    -   **No.**: **Tricia**  
-    -   **Quantity**: **30**  
+    | Line | Line Type | Type        | No.   | Quantity |
+    |------|-----------|-------------|-------|----------|
+    | 1    | Both Budget and Billable  | Resource | Tricia | 30 |
 
-7.  Close the page.  
-8.  In the **Schedule (Total Cost)** field, right-click the field, and choose **Drilldown** again on the **Job Task Lines** page. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
-9. Close the pages.  
+     Close the page.  
+5. In the **Budget (Total Cost)** field, right-click the field, and choose **Drilldown** again on the **Job Task Lines** page. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
+6. Close the pages.  
 
 After Tricia has been added to the schedule for this task line, she works 25 hours on the job. She enters these hours into the job journal.  
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>To enter hours in the Job Journal  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
-2.  On a new line, enter the following information:  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
+2. On a new line, enter the following information:  
 
-    -   **Line Type**: **(blank)**  
-    -   **Posting Date**: **(today's date)**  
-    -   **Document No.**: **J00002**  
-    -   **Job No.**: **Guildford**  
-    -   **Job Task No.**: **1120**  
-    -   **Type**: **Resource**  
-    -   **No.**: **Tricia**  
-    -   **Quantity**: **25**  
+    - **Line Type**: **(blank)**  
+    - **Posting Date**: **(today's date)**  
+    - **Document No.**: **J00002**  
+    - **Job No.**: **Guildford**  
+    - **Job Task No.**: **1120**  
+    - **Type**: **Resource**  
+    - **No.**: **Tricia**  
+    - **Quantity**: **25**  
 
-3.  Choose the **Post** action.  
+3. Choose the **Post** action.  
 
      A few days later, Tricia works for another 10 hours on the job. She has now worked 35 hours in all. Because the agreement is for 30 hours with the customer, only five of these hours will be charged to the customer. Tricia will manually add the additional five hours she worked to the schedule.  
 
-4.  On the **Job Journal** page, choose the **Calc. Remaining Usage** action.  
-5.  On the **Job Calc. Remaining Usage** page, on the **Options** FastTab, enter the following information:  
+4. On the **Job Journal** page, choose the **Calc. Remaining Usage** action.  
+5. On the **Job Calc. Remaining Usage** page, on the **Options** FastTab, enter the following information:  
 
-    -   **Document No.**: **J00003**  
-    -   **Posting Date**: **(today's date)**  
+    - **Document No.**: **J00003**  
+    - **Posting Date**: **(today's date)**  
 
-6.  On the **Job Task** FastTab, enter the following information:  
+6. On the **Job Task** FastTab, enter the following information:  
 
-    -   **Job No.**: **Guildford**  
-    -   **Job Task No.**: **1120**  
+    - **Job No.**: **Guildford**  
+    - **Job Task No.**: **1120**  
 
 7. Choose the **OK** button to run the calculation.
 
     There are five hours of work remaining for Tricia. The **Line Type** field is blank, which indicates that only the usage remains to be posted because the work has already been scheduled.  
 
-8.  In the **Job Journal**, create a new line with the following information. Make sure that both job numbers are sequential with those that you have already used:  
+8. In the **Job Journal**, create a new line with the following information. Make sure that both job numbers are sequential with those that you have already used:  
 
-    -   **Line Type**: **Schedule**  
-    -   **Job No.**: **Guildford**  
-    -   **Job Task No.**: **1120**  
-    -   **Type**: **Resource**  
-    -   **No.**: **Tricia**  
-    -   **Quantity**: **5**  
+    - **Line Type**: **Budget**  
+    - **Job No.**: **Guildford**  
+    - **Job Task No.**: **1120**  
+    - **Type**: **Resource**  
+    - **No.**: **Tricia**  
+    - **Quantity**: **5**  
 
-     By using the **Schedule** line type, there are updates to the scheduled costs and prices, but no updates to the contract costs and prices that are invoiced to the customer.  
+     By using the **Budget** line type, there are updates to the scheduled costs and prices, but no updates to the contract costs and prices that are invoiced to the customer.  
 
-9.  Choose the **Post** action. Choose the **OK** button to close the page.  
+9. Choose the **Post** action. Choose the **OK** button to close the page.  
 10. Open the **Jobs** list.  
-11. Select the GUILDFORD job, and then choose the **Job Task Lines** action.  
-12. Select line 1120 and in the **Schedule (Total Cost)** field, right-click the amount. Choose **DrillDown** to view the information.  
+11. Select the GUILDFORD job, and then, in the **Job Task Lines** section, select line 1120 and in the **Budget (Total Cost)** field, right-click the amount. Choose **DrillDown** to view the information.  
 
      Changes are automatically entered on the line for Job Task No. 1120. In the total cost of scheduled work, five additional hours of work by Tricia has been added to the schedule.  
 
-13. Choose the **Close** button to close the page.  
-14. Right-click the amount in the **Contract (Total Cost)** field and choose **DrillDown** to view the information.  
+12. Choose the **Close** button to close the page.  
+13. Right-click the amount in the **Contract (Total Cost)** field and choose **DrillDown** to view the information.  
 
 In the total price for the contract, only the original contracted 30 hours are included, because this is what was agreed upon with the customer.  
 
-## <a name="copying-jobs"></a>Copying Jobs  
- Prakash has reached an agreement with a customer, Selagorian Ltd, to set up 10 conference rooms. The agreement resembles an earlier job. Therefore, it will save time to copy that earlier job.  
+## <a name="copying-jobs"></a>Copying Jobs
 
- On the **Copy Job** page, you can select the job and task lines that you want to copy. You can also select to copy the source job ledger entries, which creates planning lines based on actual usage, or you can copy the source job planning lines, which copies the original planning lines to the new job. You can then choose what planning line or ledger entry line type that you want to include, selecting only what is relevant to this new job. Finally, you can select the job that you want to copy to and define whether prices and quantities should be copied as well.  
+Prakash has reached an agreement with a customer, Selagorian Ltd, to set up 10 conference rooms. The agreement resembles an earlier job. Therefore, it will save time to copy that earlier job.  
+
+On the **Copy Job** page, you can select the job and task lines that you want to copy. You can also select to copy the source job ledger entries, which creates planning lines based on actual usage, or you can copy the source job planning lines, which copies the original planning lines to the new job. You can then choose what planning line or ledger entry line type that you want to include, selecting only what is relevant to this new job. Finally, you can select the job that you want to copy to and define whether prices and quantities should be copied as well.  
 
 ### <a name="to-copy-a-job"></a>To copy a job  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2.  Choose the **New** action to create a new job. Enter the following information:  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+2. Choose the **New** action to create a new job. Enter the following information:  
 
-    -   **Description**: **Setting up 10 Conference Rooms**  
-    -   **Bill-To Customer No.**: **20000**  
+    - **Description**: **Setting up 10 Conference Rooms**  
+    - **Bill-To Customer No.**: **20000**  
 
-3.  Choose the **Copy Job Tasks from** action.  
-4.  On the **Copy Job Tasks** page, enter the following:  
+3. Choose the **Copy Job Tasks from** action.  
+4. On the **Copy Job Tasks** page, enter the following:  
 
-    -   **Job No.**: **Guildford**  
-    -   **Job Task No. From**: **1000**  
-    -   **Source**: **Job Planning Lines**  
-    -   **Incl. Planning Line Type**: **Schedule + Contract**  
-    -   **To Job No.**: **GuildfordSetting up 10 Conference Rooms**  
-    -   Select the **Copy Dimensions** and **Copy Quantity** fields.  
+    - **Job No.**: **Guildford**  
+    - **Job Task No. From**: **1000**  
+    - **Source**: **Job Planning Lines**  
+    - **Incl. Planning Line Type**: **Budget + Billable**  
+    - **To Job No.**: **GuildfordSetting up 10 Conference Rooms**  
+    - Select the **Copy Dimensions** and **Copy Quantity** fields.  
 
-5.  Choose the **OK** button to copy the job, and then choose the **OK** button to close the confirmation page.  
+5. Choose the **OK** button to copy the job, and then choose the **OK** button to close the confirmation page.  
 
 By comparing prices, job task lines, and job planning lines for the two jobs, you can see that the information was successfully copied.  
 
-## <a name="making-payments-by-installments"></a>Making Payments by Installments  
- CRONUS has just landed a large project that will take a year to be completed. Because it requires the dedication of many resources, the project manager sets up the contract so that the customer pays part of the price up front, part when the project is halfway completed, and the final payment upon completion.  
+## <a name="making-payments-by-installments"></a>Making Payments by Installments
+
+CRONUS has just landed a large project that will take a year to be completed. Because it requires the dedication of many resources, the project manager sets up the contract so that the customer pays part of the price up front, part when the project is halfway completed, and the final payment upon completion.  
 
 ### <a name="to-set-up-a-new-account"></a>To set up a new account  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
-2.  On the **Chart of Accounts** page, choose the **New** action to create a new card.  
-3.  On the **New G/L Account** card, enter the following information:  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+2. On the **Chart of Accounts** page, choose the **New** action to create a new card.  
+3. On the **New G/L Account** card, enter the following information:  
 
-    -   **No.**: **6630**  
-    -   **Name**: **Job Payment**  
+    - **No.**: **40255**  
+    - **Name**: **Job Payment**  
 
-4.  On the **Posting** FastTab, in the **Gen. Prod. Posting Group** field, select **MISC**. Close the page.  
-5.  On the **Chart of Accounts** page, select **No. 6630 Job Payment**, and then choose the **Indent Chart of Accounts** action. Choose **Yes** to confirm.  
+4. On the **Posting** FastTab, in the **Gen. Prod. Posting Group** field, select **Services**. Close the page.  
+5. On the **Chart of Accounts** page, select **No. 40255 Job Payment**, and then choose the **Indent Chart of Accounts** action. Choose **Yes** to confirm.  
 
- The following procedures show how to create a new job, set pricing, and then set up payment by installment. In the job task lines, you can create specific lines dedicated to the payment by installments. All work completed on the job that is added to the schedule will be entered on the usage lines. For each payment task line on the planning lines, the line type is Contract, which means that the customer will be invoiced. Enter a new line for the down payment. On the usage task line, you can enter the information for the items and resources that have been used in this project, which will increase the schedule, such as employee hours and items used on the job.  
+The following procedures show how to create a new job, set pricing, and then set up payment by installment. In the job task lines, you can create specific lines dedicated to the payment by installments. All work completed on the job that is added to the schedule will be entered on the usage lines. For each payment task line on the planning lines, the line type is **Billable**, which means that the customer will be invoiced. Enter a new line for the down payment. On the usage task line, you can enter the information for the items and resources that have been used in this project, which will increase the schedule, such as employee hours and items used on the job.  
 
 ### <a name="to-make-a-payment-by-installment"></a>To make a payment by installment  
 
-1.  Create a new job.  
-2.  On the new **Job** card, fill in the following information:  
+1. Create a new job.  
+2. On the new **Job** card, fill in the following information:  
 
-    -   **Description**: **Redecoration of Reception Area**  
-    -   **Bill-to-Customer No.**: **30000**  
-    -   **Job Posting Group**: **Setting up**  
-    -   **WIP Method**: **Cost Value**  
+    - **Description**: **Redecoration of Reception Area**  
+    - **Bill-to-Customer No.**: **30000**  
+    - **Job Posting Group**: **Setting up**  
+    - **WIP Method**: **Cost Value**  
 
-3.  On the job card, choose the **Resource** action. Enter the following information:  
+3. On the job card, choose the **Prices** action, and then choose the **Resource** action. Enter the following information:  
 
-    -   **Code**: **Tricia**  
-    -   **Unit Price**: **10**  
-
-     Close the page.  
-
-4.  On the **Job** card, choose the **Job Task Lines** action.  
-
-     The following table describes the lines that you will create.  
-
-    |Line|Job Task No.|Description|Job Task Type|  
-    |----------|------------------|---------------------------------------|-------------------|  
-    |1|1000|Payment-Down Payment|Posting|  
-    |2|2000|Usage|Posting|  
-    |3|3000|Payment - Midway|Posting|  
-    |4|4000|Payment - Completion|Posting|  
-
-5.  On the **Job Task Lines** page, select task 1000, and then choose the **Job Planning Lines** action.  
-6.  Create a planning line with the following information:  
-
-    -   **Line Type**: **Contract**  
-    -   **Planning Date**:  **(today's date)**  
-    -   **Type**: **G/L Account**  
-    -   **No.**: **6630**  
-    -   **Quantity**: **1**  
-    -   **Unit Price**: **5000**  
+    - **Code**: **Tricia**  
+    - **Unit Price**: **10**  
 
      Close the page.  
 
-7.  On the **Job Task Lines** page, select **task 2000**, and open its **Job Planning Lines**.  
+4. On the **Job** card, in the **Tasks** section, add job task lines as described in the following table:  
 
-     The following table describes the planning lines that you will create.  
+    | Line | Job Task No. | Description          | Job Task Type |
+    |------|--------------|----------------------|---------------|
+    | 1    | 1000         | Payment-Down Payment | Posting       |
+    | 2    | 2000         | Usage                | Posting       |
+    | 3    | 3000         | Payment - Midway     | Posting       |
+    | 4    | 4000         | Payment - Completion | Posting       |
 
-    |Line|Line Type|Planning Date|Type|No.|Quantity|  
-    |----------|---------------|-------------------|----------|---------|--------------|  
-    |1|Schedule|(today’s date)|Resource|Tricia|120|  
-    |2|Schedule|(today’s date)|Item|70104|10|  
+5. Choose task 1000, and then choose the **Job Planning Lines** action.  
+
+6. Create a planning line with the following information:  
+
+    | Line | Line Type | Planning Date  | Type        | No.   | Quantity | Unit Price |
+    |------|-----------|----------------|-------------|-------|----------|------------|
+    | 1    | Billable  | (today's date) | G/L Account | 40255 | 1        | 5000       |
+
+     Close the page.  
+
+7. Choose task 2000, and then choose the **Job Planning Lines** action.  
+
+8. Create a planning line with the following information:
+
+    | Line | Line Type | Planning Date  | Type     | No.    | Quantity |
+    |------|-----------|----------------|----------|--------|----------|
+    | 1    | Budget    | (today's date) | Resource | Tricia | 120      |
+    | 2    | Budget    | (today's date) | Item     | 70104  | 10       |
 
      Close the page. On the **Job Task Lines** page, you can see the schedule amounts have been updated.  
 
-8.  On the **Job Task Lines** page, select **task 3000**.  
-9. Create a planning line with the following information:  
+9. Choose task 32000, and then choose the **Job Planning Lines** action.  
 
-    -   **Line Type**: **Contract**  
-    -   **Planning Date**: **a future date**  
-    -   **Type**: **G/L Account**  
-    -   **No.**: **6630**  
-    -   **Quantity**: **1**  
-    -   **Unit Price**: **5000**  
+10. Create a planning line with the following information:
+
+    | Line | Line Type | Planning Date   | Type        | No.   | Quantity | Unit Price |
+    |------|-----------|-----------------|-------------|-------|----------|------------|
+    | 1    | Billable  | (a future date) | G/L Account | 40255 | 1        | 5000       |
 
      Close the page.  
 
-10. Create a similar planning line entry for job task 4000.  
+11. Create a similar planning line entry for job task 4000.  
 
  Now that the task and planning lines have been entered, Prakash creates an invoice for the first payment. He does this from the job task lines to make sure that the invoice only contains the lines for the first payment. You can open the sales order from the planning lines or the task lines.  
 
 ### <a name="to-create-an-invoice"></a>To create an invoice  
 
 1.  On the **Job Task Lines** page, select line 1000, and then choose the **Create Sales Invoice** action.  
-2.  On the **Create Sales Invoice** page, set today’s date as the posting date, specify **Per Task**, and choose the **OK** button to create an invoice with the default information. Choose the **OK** button to close the confirmation page.  
+2.  On the **Create Sales Invoice** page, set today's date as the posting date, specify **Per Task**, and choose the **OK** button to create an invoice with the default information. Choose the **OK** button to close the confirmation page.  
 3.  Choose the **Sales Invoice/Credit Memo** action. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send this to the customer as agreed.  
 
 ## <a name="next-steps"></a>Next Steps  
- This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
+ This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
 
-## <a name="see-also"></a>See Also  
+## <a name="see-also"></a>See Also
+
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
  [Setting Up Project Management](projects-setup-projects.md)   
  [Use Resources](projects-how-use-resources.md)   
  [Monitor Progress and Performance](projects-how-monitor-progress-performance.md)   
  [Invoice Jobs](projects-how-invoice-jobs.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

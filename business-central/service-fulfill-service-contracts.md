@@ -1,23 +1,23 @@
 ---
-title: Overview of Tasks to Fulfil Service Contracts | Microsoft Docs
-description: Outlines tasks to manage service contracts with customers.
+title: Overview of Tasks to Fulfil Service Contracts
+description: Outlines tasks involved in fulfilling service contracts with your customers like setting up standard contractual agreements with customisable templates and more.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 10/01/2019
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 50214fcf1e1f13c8e4fa69e1b14ba4adc537bf86
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 56fe45da5979f6f06fc17d68b676350a70288261
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316219"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011705"
 ---
 # <a name="fulfilling-service-contracts"></a>Fulfilling Service Contracts 
 One way to set up a service management business is to have standard contractual agreements between you and your customers that describe the level of service and the service expectations. You can create contract templates that include necessary information, such as customer, start date of contract, and invoice period.  
@@ -37,3 +37,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Delivering Service](service-deliver-service.md)  
 [Setting Up Service Management](service-setup-service.md)  
 [Create Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

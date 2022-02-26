@@ -1,21 +1,21 @@
 ---
-title: Prepare Customer Data Migration with Templates | Microsoft Docs
-description: Learn how to use configuration templates to structure existing customer data before you migrate the data to the new company in Business Central.
+title: Prepare Customer Data Migration with Templates
+description: Learn how to use configuration templates to structure existing customer data before you migrate the master data to the new company in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: 273d7a0b15684f7cd97874d4dba818b9a289e2a7
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535929"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649894"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Prepare to Migrate Customer Data with Templates
 
@@ -26,9 +26,9 @@ Typically, you create data templates for the following master data tables:
 - **Contact**  
 - **Customer**  
 - **Item**  
-- **Vendor**  
+- **Supplier**  
 
-However, you can create a template structure for and apply it to any table in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+However, you can create a template structure for and apply it to any table in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!TIP]  
 > You can also use data templates for daily operations to create new records that are based on templates. These data templates only work for the supported master data tables. For more information, see, for example, [Register New Items](inventory-how-register-new-items.md).  
@@ -47,7 +47,7 @@ When you select an existing data template, you must evaluate if the templates th
 > [!TIP]  
 > You can also use data templates to create new records quickly. Use them for faster and more accurate data creation. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates**, and then choose the related link.  
 2. On the **Configuration Templates** page, select a data template from the list, and then choose the **Edit** action.  
 
 If the default templates do not meet your needs, you can create new templates or add fields to an existing template. If the default templates are sufficient, you can use them to create records based on master data templates.
@@ -87,7 +87,7 @@ The table ID, table name, and lines of the existing data template are inserted i
 3. In the **Default Value** field, enter an appropriate value. In some cases, you may want to use a value that is not a value that is available in the database. In that case, you can select the **Skip Relation Check** check box, to make it possible to apply data without error.
 
     > [!TIP]  
-    > Since the **Default Value** field does not have a look up to the corresponding [!INCLUDE[d365fin](includes/d365fin_md.md)] field options, you copy and paste the value that you want from the related page into the template.
+    > Since the **Default Value** field does not have a look up to the corresponding [!INCLUDE[prod_short](includes/prod_short.md)] field options, you copy and paste the value that you want from the related page into the template.
 
 4. Select the **Mandatory** check box if users must fill in the field in question.
 
@@ -98,9 +98,9 @@ The table ID, table name, and lines of the existing data template are inserted i
 
 ## <a name="to-export-to-a-template-in-excel"></a>To export to a template in Excel
 
-You can create an Excel workbook to serve as a template that is based on the structure of an existing database table quickly. You can then use the template to gather together customer data in a consistent format for later import into [!INCLUDE[d365fin](includes/d365fin_md.md)].
+You can create an Excel workbook to serve as a template that is based on the structure of an existing database table quickly. You can then use the template to gather together customer data in a consistent format for later import into [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. Add a table to the list, or select an existing table. For more information, see [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Choose the **Shows Fields** action to define the fields from the table that you want to include in the template.
 4. Choose the **Export to Template** action.
@@ -122,7 +122,8 @@ When you apply data from a template in Excel to a table that also has a configur
 Any record whose data is applied in this manner is complete, because it consists of data entered by a user in Excel, plus the default values specified by the configuration template.
 
 > [!NOTE]
-> If the data in the tables in the configuration package contains dates, for example, posting dates on invoices, the dates are considered in the time zone specified in [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+> If the data in the tables in the configuration package contains dates, for example, posting dates on invoices, the dates are considered in the time zone specified in [!INCLUDE[prod_short](includes/prod_short.md)]. 
+
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>To create a record from a configuration template
 
@@ -130,17 +131,26 @@ You can use the structure of data that is contained in the data templates to con
 
 The following steps illustrate how to create an item card from an item data template. You can create a record from any data template using the same procedure.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates**, and then choose the related link.  
 2. Select the **Item** template, and then choose the **Edit** action. For more information, see [To create a data template](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Choose the **Create Instance** action. An item card is created.  
 4. Choose the **OK** button.  
-5. To review the new item card, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+5. To review the new item card, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 6. Open the new item card.  
 7. Expand various FastTabs, and verify that the information was created correctly on them.  
 
+## <a name="to-use-conversion-templates"></a>To use conversion templates
+
+You can convert contacts into customers, suppliers and employees. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>To convert a contact into a customer, supplier or employee
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then select the correct contact. 
+2. On the Contact Card select **Actions**, then **Functions** and then select **Create as Customer, Supplier, Bank, or Employee**.
+
+
 ## <a name="to-use-a-configuration-template-on-a-record"></a>To use a configuration template on a record
 
-You can apply a data template to any record that is in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use this technique to change or modify a record. However, when you do this, you overwrite existing values in the record with those of the template. Consequently, you should be careful when you apply a template to existing records.
+You can apply a data template to any record that is in [!INCLUDE[prod_short](includes/prod_short.md)] and use this technique to change or modify a record. However, when you do this, you overwrite existing values in the record with those of the template. Consequently, you should be careful when you apply a template to existing records.
 
 > [!WARNING]  
 > The **Apply Template** function overwrites existing data in a record. If this function is used in master data migration, it will overwrite the imported data when you create records.
@@ -153,8 +163,14 @@ The following procedure is based on a new customer card.
 
 The default values from the chosen customer template are inserted on the customer card.
 
+> [!NOTE]
+> You cannot use Apply Template to blank out fields on customers, suppliers, and the like. Instead you need to use the **Edit in Excel** functionality. For more information, see [Edit in Excel](across-work-with-excel.md#edit-in-excel).
+
 ## <a name="see-also"></a>See Also
 
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
 [Register New Customers](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

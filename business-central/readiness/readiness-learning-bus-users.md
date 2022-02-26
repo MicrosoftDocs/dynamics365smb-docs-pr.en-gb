@@ -2,15 +2,15 @@
 title: Business users learning catalogue
 description: Find all the available learning for Business Central.
 author: loreleishannonmsft
-ms.date: 04/20/2020
-ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.date: 04/01/2021
+ms.topic: conceptual
+ms.author: margoc
+ms.openlocfilehash: fd0b839e402ff59ec5fb875d026eb5fe2202850e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3271949"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772436"
 ---
 # <a name="business-users-learning-catalog"></a>Business Users Learning Catalogue
 
@@ -48,3 +48,6 @@ The following catalogue is organised from core knowledge to specific domains, an
 | [Return items in Microsoft Dynamics 365 Business Central](/learn/paths/return-items-dynamics-365-business-central/)                                                   | Do you need to return items to vendors and accept returns from customers? This path will help you learn how to process returns.                                                                                                                                                                         | Free, self-paced online learning path | 1 hour 25 minutes  |
 | [Replenish items in Microsoft Dynamics 365 Business Central](/learn/paths/replenish-items-dynamics-365-business-central/)                                             | Do you need to replenish inventory items in your business? This learning path will show you options you can use to efficiently replenish items in Business Central.                                                                                                                                     | Free, self-paced online learning path | 1 hour 46 minutes  |
 | [Assemble items in Microsoft Dynamics 365 Business Central](/learn/paths/assemble-items-dynamics-365-business-central/)                                               | Do you sell assembled items? This learning path provides the information you need to assembly management and items. It also provides steps to produce assembled items to stock or order.                                                                                                                | Free, self-paced online learning path | 2 hours 26 minutes |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

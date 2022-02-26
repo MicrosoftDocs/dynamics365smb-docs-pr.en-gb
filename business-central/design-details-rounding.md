@@ -1,21 +1,21 @@
 ---
-title: Design Details - Rounding | Microsoft Docs
-description: Rounding residuals can occur when you value the cost of an inventory decrease that is measured in a different quantity than the corresponding inventory increase. Rounding residuals are calculated for all costing methods when you run the **Adjust Cost - Item Entries** batch job.
+title: Design Details - Rounding
+description: Rounding residuals can occur when you value the cost of a inventory decrease measured in a different quantity than the corresponding inventory increase.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b5185b7cc70e6b57a4641cbcd3b45cbf9682285d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 518433903f06c255c80dbba6d7e2982974a325a1
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184755"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318441"
 ---
 # <a name="design-details-rounding"></a>Design Details: Rounding
 Rounding residuals can occur when you value the cost of an inventory decrease that is measured in a different quantity than the corresponding inventory increase. Rounding residuals are calculated for all costing methods when you run the **Adjust Cost - Item Entries** batch job.  
@@ -64,4 +64,7 @@ Rounding residuals can occur when you value the cost of an inventory decrease th
  [Design Details: Cost Adjustment](design-details-cost-adjustment.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md) [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

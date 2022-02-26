@@ -1,21 +1,21 @@
 ---
-title: Design Details - Item Tracking in the Warehouse | Microsoft Docs
-description: Serial number and lot number handling is primarily a warehouse task and therefore all inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers. However, because the reservation system is based on item ledger entries, warehouse activity documents that register only warehouse entries are not fully supported.
+title: Design Details - Item Tracking in the Warehouse
+description: Inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 02a87bc61fbadae4392800f84adbc176bfb87b23
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 3bf30b7739e488eeb3610d191cfb4f3b20e0e79e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185019"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320371"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Design Details: Item Tracking in the Warehouse
 Serial number and lot number handling is primarily a warehouse task and therefore all inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers.  
@@ -31,3 +31,6 @@ However, the reservation system does take warehouse activities into consideratio
 [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)  
 [Design Details: Warehouse Availability](design-details-availability-in-the-warehouse.md)  
 [Design Details: Item Tracking Design](design-details-item-tracking-design.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

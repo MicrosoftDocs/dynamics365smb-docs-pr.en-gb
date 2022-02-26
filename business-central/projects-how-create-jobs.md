@@ -1,19 +1,20 @@
 ---
-title: Create a Job Card for a Job and Specify Tasks| Microsoft Docs'
+title: Create a Job Card for a Job and Specify Tasks
 description: For a new project, you create a job card that contains job tasks and planning lines, to help you manage progress and budgets.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 4ac7fc5f7b3a7d4510ccf75002ca720eaae47e77
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: e47aeba75459a7360ff3de87df3582b0cc0a4c17
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312923"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101250"
 ---
 # <a name="create-jobs"></a>Create Jobs
 When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.  
@@ -30,17 +31,17 @@ The layer structure enables you to divide the job into smaller tasks, and theref
 ## <a name="to-create-a-job-card"></a>To create a job card
 You create a job card and then create job task lines and job planning lines for it.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.
 
 > [!NOTE]  
->   If you are using time sheets with your job, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the job. For more information, see [Set Up Timesheets](projects-how-setup-time-sheets.md).
+>   If you are using time sheets with your job, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the job. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>To create tasks for a job
 A key part of creating a job is to specify the various tasks involved in the job. You do this by adding new lines on the **Tasks** FastTab on the **Job Card** page, one task per line. Every job must have at least one task.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
 2. Open the job card for a relevant job.
 3. On the **Tasks** FastTab, fill in the fields as necessary on a new line.
 4. To indent tasks and create a hierarchy, Choose the **Tasks** action, the then choose **Indent Job Tasks** action.
@@ -60,7 +61,7 @@ A job planning line can have one of the following types.
 
 **Note**. As you enter information on job planning lines, cost information is automatically filled in. For example, the cost, price, and discount for resources and items are initially based on the information that is defined on the resource and item cards.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
 2. Open a relevant job card.
 3. Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.  
 4. On the **Job Planning Lines** page, on a new line, fill in the fields as necessary.
@@ -73,4 +74,7 @@ A job planning line can have one of the following types.
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Set Up for Service Items and Service Item Components | Microsoft Docs
-description: Learn about the things you must set up before you can use service items, including default values such as response time, contract discount percent, and service price group.
+title: Service Items and Service Item Components
+description: Learn about the things you must set up before you can use service items, including default values such as response time and service price group.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 196f3d73827f03ce03e4990039779d8f814295ff
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 9ebdb2ec8d76537887a7aa597eb9eabe298ec530
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877406"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436533"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Set Up Service Items and Service Item Components
 To work with service items, you must set up the following
@@ -28,7 +28,7 @@ You can set up groups of items that are related in terms of repair and maintenan
 
 You assign service item groups to items on the **Item** card, and to service items on the **Service Item** card.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Item Groups**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Item Groups**, and then choose the related link.  
 2. Create a new service item group.  
 3. Fill in the **Code** and **Description** fields.  
 4. In the **Default Contract Discount %** field, enter the default contract discount percentage that you want the service items in the group to have.  
@@ -39,7 +39,7 @@ You assign service item groups to items on the **Item** card, and to service ite
 ## <a name="to-set-up-service-item-components"></a>To set up service item components
 A service item can consist of several components, which can be replaced with spare parts when the item is serviced. These components are set up on the **Service Item Component List** page. Additionally, if you want to set up components for service items that are BOMs, you can copy the BOM items and create them as service item components.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.
 2. Open the service item for which you want to set up components.  
 3. Choose the **Components** action. The **Service Item Component List** page opens.  
 4. Add a new component.  
@@ -47,7 +47,7 @@ A service item can consist of several components, which can be replaced with spa
 6. In the **No.** field, choose the item or service item that is a component of the service item.  
 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>To set up service item components from a BOM
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.  
 2. Open the service item for which you want to set up components from a BOM.  
 3. Choose the **Components** action. The **Service Item Component List** page opens.  
 4. Choose the **Copy from BOM** action.  
@@ -57,9 +57,12 @@ A service item can consist of several components, which can be replaced with spa
 ## <a name="to-set-up-a-service-shelf"></a>To set up a service shelf
 You can set up service shelves that identify where you store your service items. You assign service shelves to service items on the **Service Order** and **Service Item Worksheet** pages.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Shelves**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Shelves**, and then choose the related link.
 2. Fill in the fields as necessary.
 
 ## <a name="see-also"></a>See Also
 [Set Up Codes for Standard Services](service-how-setup-service-coding.md)   
 [Set Up Troubleshooting](service-how-setup-troubleshooting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

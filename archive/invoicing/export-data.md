@@ -23,14 +23,14 @@ ms.locfileid: "3927874"
 ## <a name="export-all-of-your-data"></a>Export all of your data
 If you are an administrator, [!INCLUDE[d365inv](includes/d365inv.md)] provides an assisted setup guide that lets you export data for customers, prices, invoices, estimates, and payments to Excel, all in one go, and send the workbook to an email address. The Excel workbook will list the information on separate tabs. You can start the guide in two ways:
 
-* When you sign in, a notification displays. Start the guide by choosing **Export** .
-* On your Role Centre, under **Important News** , choose **Next steps** .    
+* When you sign in, a notification displays. Start the guide by choosing **Export**.
+* On your Role Centre, under **Important News**, choose **Next steps**.    
 
 > [!Note]
 > Only system administrators can export data from [!INCLUDE[d365inv](includes/d365inv.md)].
 
 ## <a name="export-invoices-only"></a>Export invoices only
-If you just want to export invoices, on the **Invoices** list page, choose **Manage** and then **Export invoices** . Enter start and end dates for the period to export invoices for, and make sure that the correct email address is entered. Invoicing will export the documents to Excel, and then send the workbook to the email address.
+If you just want to export invoices, on the **Invoices** list page, choose **Manage** and then **Export invoices**. Enter start and end dates for the period to export invoices for, and make sure that the correct email address is entered. Invoicing will export the documents to Excel, and then send the workbook to the email address.
 
 ## <a name="delete-an-existing-customer"></a>Delete an existing customer
 If you want to delete a contact or customer from [!INCLUDE[d365inv](includes/d365inv.md)], it's easy to do.

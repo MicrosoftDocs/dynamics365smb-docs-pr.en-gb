@@ -6,16 +6,17 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.date: 04/01/2020
-ms.openlocfilehash: e1b199c16bb39feb4ecbef9b36ccd49a5c32e3c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.topic: conceptual
+ms.search.form: 1752
+ms.date: 06/14/2021
+ms.openlocfilehash: ace00c39b6c5186e40d4f8eb20b0e7d7ad6030ce
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187419"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012638"
 ---
-# <a name="classifying-data-sensitivity"></a>Classifying Data Sensitivity
+# <a name="classifying-data-sensitivity-fields"></a>Classifying Data Sensitivity Fields
 To classify the fields that hold sensitive or personal data, a Microsoft partner can set the ```DataClassification``` property on fields. This requires access to the database tables, either through the development environment or by running a Windows PowerShell script. For more information, see [Classifying Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 As a customer, you can add a second level of classification by specifying sensitivity levels for the data you store in standard and custom fields. Classifying data sensitivity helps ensure that you know where you keep personal data in your system, and makes it easier to respond to requests from data subjects. For example, if a contact or customer asks you to export their personal data. For more information, see [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md).
@@ -50,3 +51,6 @@ For example, the Data Classification worksheet lets you do things like:
 ## <a name="see-also"></a>See Also
 
 [Classifying Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

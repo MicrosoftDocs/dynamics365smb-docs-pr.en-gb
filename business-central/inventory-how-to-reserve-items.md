@@ -1,30 +1,31 @@
 ---
-title: How to Reserve Items | Microsoft Docs
-description: You can reserve items for sales orders, purchase orders, and production orders. You can reserve items on inventory or inbound on open document lines.
+title: How to Reserve Items
+description: You can reserve items for sales orders, purchase orders, and works orders. You can reserve items on inventory or inbound on open document lines.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1c215e971a436e70dbc6f09df71f42c13fa85395
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.forms: 498, 497
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d53de74aa14001598177fcbf7d83d519fad9e0fd
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182043"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060071"
 ---
 # <a name="reserve-items"></a>Reserve Items
-You can reserve items for sales orders, purchase orders, service orders, assembly orders, and production orders. You can reserve items on inventory or inbound on open document or journal lines. You perform the work on the **Reservation** page.
+You can reserve items for sales orders, purchase orders, service orders, assembly orders, and works orders. You can reserve items on inventory or inbound on open document or journal lines. You perform the work on the **Reservation** page.
 
 Each line on the **Reservation** page, which you open to reserve items, displays information about one type of line (sales, purchase, journal) or inventory entry. The lines describe how many items are available to be reserved from each type of line or entry.
 
 ## <a name="to-reserve-items-for-sales"></a>To reserve items for sales
 The following describes how to reserve items from a sales order. The steps are similar for purchase, service, and assembly orders.  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  On a sales order, on the **Lines** FastTab, choose the **Reserve** action. The **Reservation** page opens.  
 3. Select the line that you want to reserve the items from.  
 4. Choose one of the following actions.  
@@ -38,25 +39,25 @@ The following describes how to reserve items from a sales order. The steps are s
 > [!NOTE]  
 >  If item tracking lines exist for the sales order, the reservation system will take you through special steps. For more information, see [To reserve a specific serial or lot number](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
-## <a name="to-reserve-an-item-for-a-production-order-line"></a>To reserve an item for a production order line  
-You can reserve items for production orders. You have to distinguish between production order lines, meaning the parent item, and production order components.
+## <a name="to-reserve-an-item-for-a-production-order-line"></a>To reserve an item for a works order line  
+You can reserve items for works orders. You have to distinguish between works order lines, meaning the parent item, and works order components.
 
-In the following procedure, a firm planned production order is used.   
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
-2. Open the firm planned production order you want to reserve parent items for.  
-3. Select the relevant production order line.  
+In the following procedure, a firm planned works order is used.   
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
+2. Open the firm planned works order you want to reserve parent items for.  
+3. Select the relevant works order line.  
 4. On the **Lines** FastTab, choose the **Reserve** action.
 5. On the **Reservation** page, select the **Sales Line, Order** line, and then choose the **Reserve from Current Line** action.  
 
-The quantity you entered in the firm planned production order line is now reserved.
+The quantity you entered in the firm planned works order line is now reserved.
 
-## <a name="to-reserve-items-for-production-order-components"></a>To reserve items for production order components  
-You can reserve items for production orders. You have to distinguish between production order lines, meaning the parent item, and production order components.
+## <a name="to-reserve-items-for-production-order-components"></a>To reserve items for works order components  
+You can reserve items for works orders. You have to distinguish between works order lines, meaning the parent item, and works order components.
 
-In the following procedure, a firm planned production order is used.    
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
-2. Open the firm planned production order you want to reserve component items for.  
-3. Select the relevant production order line.  
+In the following procedure, a firm planned works order is used.    
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
+2. Open the firm planned works order you want to reserve component items for.  
+3. Select the relevant works order line.  
 4. On the **Lines** FastTab, choose **Line**, and then choose **Components**.  
 5. Select the relevant component line.  
 6. Choose On the **Lines** FastTab, choose the **Reserve** action.  
@@ -84,7 +85,7 @@ From outbound documents for item-tracked items, such as sales orders or producti
 This is referred to as a specific reservation, because you reserve from the quantity of  Item X that belongs to Lot X. If you simply reserve from quantities of Item X, then it is a normal, non-specific, reservation. For more information, see [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md).
 
 The following procedure is based on a sales order.    
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then select the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then select the related link.  
 2. Create a sales order line for an item-tracked item.  
 3. Assign serial and lot numbers to the sales order line. For more information, see [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 4. On the sales order line, choose the **Reserve** action.  
@@ -98,4 +99,7 @@ The following procedure is based on a sales order.
 [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

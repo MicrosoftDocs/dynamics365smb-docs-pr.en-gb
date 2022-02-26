@@ -1,36 +1,36 @@
 ---
-title: How to Work on Service Tasks | Microsoft Docs
-description: After you have created a service order or service quote, registered service item lines, and allocated resources to the service items in the order or quote, you can start repairing and maintaining the service items.
+title: How to Work on Service Tasks
+description: This topic covers the different ways to work on service tasks. The Service Tasks page gives an overview of all the service items that need attention.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c1fafc84bf3b473d7d195563cbde232078483764
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 4c6ee9aceb0282e417fe40aef2ae6f148df4c9d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192562"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587666"
 ---
 # <a name="work-on-service-tasks"></a>Work on Service Tasks
 After you have created a service order or service quote, registered service item lines, and allocated resources to the service items in the order or quote, you can start repairing and maintaining the service items.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] features a **Service Tasks** page that gives an overview of all the service items that need attention. Think of it as your service dashboard where you can see what orders are pending, look for and register spare parts, and keep your inventory up-to-date.  
+[!INCLUDE[prod_short](includes/prod_short.md)] features a **Service Tasks** page that gives an overview of all the service items that need attention. Think of it as your service dashboard where you can see what orders are pending, look for and register spare parts, and keep your inventory up-to-date.  
 
-To track changes and get a graphical view of your service business, use [!INCLUDE[d365fin](includes/d365fin_md.md)] statistics tools for quick, automatically generated charting and analysis.  
+To track changes and get a graphical view of your service business, use [!INCLUDE[prod_short](includes/prod_short.md)] statistics tools for quick, automatically generated charting and analysis.  
 
 ## <a name="to-work-on-a-service-task"></a>To work on a service task  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
 2. If you want a list of service tasks a certain resource or resource group is allocated to, fill in the **Resource Filter** or **Resource Group Filter** field and press Enter.  
 3. If you want a list of service tasks with a certain response date or response dates within a certain time period, fill in the **Response Date Filter** field and press Enter.  
 4. If you want a list of service tasks with a certain allocation status or repair status, fill in the **Allocation Status Filter** or **Repair Status Code Filter** field and press Enter.  
 5. Select the service task you want to work on. Choose the **Item Worksheet** action. The **Service Item Worksheet** page opens.  
-6. Register standard texts, spare parts, resource hours, and costs as appropriate using the corresponding options in the **Type** field:  <Blank>, **Item**, **Resource**, and **Cost**.  
+6. Register standard texts, spare parts, resource hours, and costs as appropriate using the corresponding options in the **Type** field:  \<Blank\>, **Item**, **Resource**, and **Cost**.  
 7. In the **Repair Status** field, select the appropriate status.  
 
    > [!NOTE]  
@@ -39,7 +39,7 @@ To track changes and get a graphical view of your service business, use [!INCLUD
 ## <a name="to-register-service-operations"></a>To register service operations  
 When performing a service on a service order, you can register the details specifying the items used, costs incurred, and the time spent. The data you specify is stored on the **Service Item Worksheet** page. You can update the data when necessary.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature 2.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the service order to register the service for, and choose the item line.  
 3. Choose the **Service Item Worksheet** action  
 4. On the lines, specify the items used, costs incurred, and the time spent on the service.  
@@ -50,7 +50,7 @@ When performing a service on a service order, you can register the details speci
 ## <a name="to-register-spare-parts"></a>To register spare parts  
 When working on service items in service orders, you may need to use spare parts for the service. The following procedure shows how to register the spare parts you use on the **Service Item Worksheet** page.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
 2. Choose the line that includes the relevant service item, and then choose the **Item Worksheet** action.  
 3. Enter a new service line.  
 4. In the **Type** field, choose **Item**.  
@@ -60,7 +60,7 @@ When working on service items in service orders, you may need to use spare parts
  You can use a similar procedure to register the spare parts on the **Service Lines** page, which you can open from the **Service Order** page.  
 
 ## <a name="to-register-spare-parts-from-a-service-order"></a>To register spare parts from a service order  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the service order you want to register spare parts for.  
 3. Choose the line that includes the relevant service item. Choose **Actions**, choose **Order**, and then choose **Service Lines**.  
 4. enter a new service line.  
@@ -68,7 +68,7 @@ When working on service items in service orders, you may need to use spare parts
 ## <a name="to-replace-a-service-item-or-a-service-item-component"></a>To replace a service item or a service item component  
 When you service a service item that is composed of components, you may need to replace a faulty component with a new one. Every time that you enter a spare part for a service item with components, you have the option of replacing a component or creating a new one. The new item is not registered as a component of the service item until you post this service line or the service order.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 5.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
 2. Choose the line that includes the service item, and then choose the **Item Worksheet** action.  
 3. Enter a new service line.  
 4. In the **Type** field, choose **Item**.  
@@ -87,14 +87,14 @@ When you service a service item that is composed of components, you may need to 
 ## <a name="to-change-the-response-time-for-a-service-item-line"></a>To change the response time for a service item line  
 When you register a service item line in a service order or quote, depending on whether the service item is on a service contract the response time in hours is automatically entered and the response date and time are calculated accordingly. You can change the response time in hours and the response date and time if you need to.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders** or **Service Quotes**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature 6.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders** or **Service Quotes**, and then choose the related link.  
 2. Choose the service order or quote to open the card.  
 3. On the service item line you want to change the response time for, either in the **Response Time (Hours)** field or in the **Response Date** and **Response Time** fields, enter the new response hours or response date and time.  
 
 ## <a name="to-register-faultresolution-codes"></a>To register fault/resolution codes  
 After repairing a service item, you can register both the fault code and the resolution code for the item by selecting a combination from the existing fault/resolution codes relationships. The fault and resolution codes will appear in the corresponding fields on the **Service Item Worksheet** page. You can also register the codes directly in this page.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 7.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
 2. Choose the line that includes the relevant service item, and then choose the **Item Worksheet** action.  
 3. On the **Service Item Worksheet** page, choose **Fault/Resol. Codes Relationships**. The **Fault/Resolution Codes Relationships** page opens.  
 
@@ -107,3 +107,6 @@ After repairing a service item, you can register both the fault code and the res
 [Set Up Fault Reporting](service-how-setup-fault-reporting.md)
 [Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
 [Service Posting](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

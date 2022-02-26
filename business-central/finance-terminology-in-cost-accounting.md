@@ -1,26 +1,28 @@
 ---
-title: Terminology in Cost Accounting | Microsoft Docs
-description: This topic defines the key terms that are used in cost accounting.
+title: Terminology in Cost Accounting
+description: This topic defines the key terms that are used in cost accounting, such as allocation key and allocation source.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 12d6f671843fe82cb83fa3128ae1cb8908d98bf4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 957612150a5a5b99f41b83222ec8b84a3c617620
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182691"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971921"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminology in Cost Accounting
+
 This topic defines the key terms that are used in cost accounting.  
 
-## <a name="key-terms"></a>Key Terms  
+## <a name="key-terms"></a>Key Terms
+
  The following table shows definitions of the key terms in cost accounting.  
 
 |**Term**|**Definition**|  
@@ -33,7 +35,7 @@ This topic defines the key terms that are used in cost accounting.
 |Cost centre|Cost centres are most often departments and profit centres that are largely responsible for company’s costs and income. Cost centres can be synchronised with dimensions in the general ledger. It is also possible to add new cost centres and define their own sorting with subtotals.|  
 |Cost object|Cost objects are products, product groups or services of a company, the finished goods of a company, that in the end carry the costs. Cost objects can be synchronised with dimensions in the general ledger. It is also possible to add new cost objects and define their own sorting with subtotals.|  
 |Cost allocation|Cost allocation is a process of allocating costs to cost centres or cost objects. For example, the wage of the truck driver of the sales department is allocated to the sales department cost centre. It is not necessary to allocate the wage cost to other cost centres. Another example is that the cost of an expensive computer system is allocated to the products of the company that use the system.|  
-|Dynamic allocation|Dynamic allocations are dependent on changeable allocation bases, for example, the number of department employees, or the sales revenue of the project within a certain period of time. There are nine predefined dynamic allocation bases that users can define by using five filters.|  
+|Dynamic allocation|Dynamic allocations are dependent on changeable allocation keys, for example, the number of department employees, or the sales revenue of the project within a certain period of time. There are nine predefined dynamic allocation bases that users can define by using five filters.|  
 |Direct cost|Direct costs are the costs that can be directly allocated to a cost object, for example, material purchase for a specific product.|  
 |Fixed cost|Fixed costs are the costs that are not dependent on the level of goods or services produced by the company. They tend to be time-related, such as salary or rent being paid per month. They are in contrast to variable costs, which are volume-related, and are paid per quantity produced.|  
 |Indirect cost|Indirect costs are not directly accountable to a cost object, such as a particular function or product. Indirect costs may be either fixed or variable. Indirect costs can be tax, administration, personnel, and security costs and are also known as overhead costs.|  
@@ -50,4 +52,7 @@ This topic defines the key terms that are used in cost accounting.
 ## <a name="see-also"></a>See Also  
  [About Cost Accounting](finance-about-cost-accounting.md)   
  [Accounting for Costs](finance-manage-cost-accounting.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

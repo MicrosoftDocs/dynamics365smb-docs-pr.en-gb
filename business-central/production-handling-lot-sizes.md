@@ -7,11 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: null
+ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.openlocfilehash: 05e592d1f4ecd281b71ab4f182c5c535faa611a1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973921"
 ---
-
 # <a name="handling-lot-sizes-in-production"></a>Handling Lot Sizes in Production
 In terms of quantity, the number of items you produce in a production operation might not correlate to how sell them. For example, you might produce hundreds of items in a single lot, but sell each item individually. When you configure your production routes and bills of materials (BOMs), there are few nuances you should consider with regards to lot sizes. This topic describes how lot sizes impact cost calculations and resource planning.
 

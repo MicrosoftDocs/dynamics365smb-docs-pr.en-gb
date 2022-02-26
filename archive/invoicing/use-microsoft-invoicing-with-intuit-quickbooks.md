@@ -26,8 +26,8 @@ You're using Microsoft Invoicing to create and send estimates and invoices to yo
 ## <a name="import-contacts-from-quickbooks"></a>Import Contacts from QuickBooks
 In Business centre, it's easy to connect to QuickBooks. Start by importing your contacts from QuickBooks.
 
-1. On the Business centre home page, choose **Import your contacts** .
-2. In the **Import contacts** dialogue, choose **QuickBooks** . Sign in to QuickBooks with your QuickBooks account.
+1. On the Business centre home page, choose **Import your contacts**.
+2. In the **Import contacts** dialogue, choose **QuickBooks**. Sign in to QuickBooks with your QuickBooks account.
 
     > [!Note]
     > Note: If your list of customers or items is longer than 200 entries, synchronisation with QuickBooks might take a while.

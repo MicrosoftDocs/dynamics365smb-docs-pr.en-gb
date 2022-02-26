@@ -1,36 +1,33 @@
 ---
-title: Design Details - Item Tracking Design | Microsoft Docs
-description: This topic describes the design behind item tracking in Business Central.
+title: Design Details - Item Tracking Design
+description: This topic describes the design behind item tracking in Business Central as it matures through product versions.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cda50dc7c3a0377c36f7bce4eca9c1c5cb5b093e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 992673cd800d7ee720e86050004c2d38796ee529
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185067"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445027"
 ---
 # <a name="design-details-item-tracking-design"></a>Design Details: Item Tracking Design
-In the first version of Item Tracking in [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60, serial numbers or lot numbers were recorded directly on item ledger entries. This design provided full availability information and simple tracking of historic entries, but it lacked flexibility and functionality.  
 
-From [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.00, item tracking functionality was in a separate object structure with intricate links to posted documents and item ledger entries. This design was flexible and rich in functionality, but item tracking entries were not fully involved in availability calculations.  
+Item tracking in [!INCLUDE[prod_short](includes/prod_short.md)] started with [!INCLUDE [navnow_md](includes/navnow_md.md)]. The item tracking functionality is in a separate object structure with intricate links to posted documents and item ledger entries, and it is integrated with the reservation system, which handles reservation, order tracking, and action messaging. For more information, see [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md) in the Supply Planning design details.  
 
-Since [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60, item tracking functionality is integrated with the reservation system, which handles reservation, order tracking, and action messaging. For more information, see “Design Details: Reservation, Order Tracking, and Action Messaging” in “Design Details: Supply Planning”.  
+This design incorporates item tracking entries in total availability calculations throughout the system, including planning, manufacturing, and warehousing. Serial and lot numbers are applied on the item ledger entries to ensure simple access to historical data for item tracking purposes. With 2021 release wave 1, item tracking in [!INCLUDE [prod_short](includes/prod_short.md)] includes package numbers.  
 
-This latest design incorporates item tracking entries in total availability calculations throughout the system, including planning, manufacturing, and warehousing. The old concept of carrying serial and lot numbers on the item ledger entries is reintroduced to ensure simple access to historical data for item tracking purposes. In connection with item tracking improvements in [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60, the reservation system was expanded to non-order network entities, such as journals, invoices, and credit memos.  
+With the addition of serial, lot, and package numbers, the reservation system handles permanent item attributes while also handling intermittent links between supply and demand in the form of order tracking entries and reservation entries. Another different characteristic of serial or lot numbers compared to the conventional reservation data is the fact that they can be posted, either partially or fully. Therefore, the **Reservation Entry** table (T337) now works with a related table, the **Tracking Specification** table (T336), which manages and displays summing across active and posted item tracking quantities. For more information, see [Design Details: Active versus Historic Item Tracking Entries](design-details-active-versus-historic-item-tracking-entries.md).  
 
-With the addition of serial or lot numbers, the reservation system handles permanent item attributes while also handling intermittent links between supply and demand in the form of order tracking entries and reservation entries. Another different characteristic of serial or lot numbers compared to the conventional reservation data is the fact that they can be posted, either partially or fully. Therefore, the **Reservation Entry** table (T337) now works with a related table, the **Tracking Specification** table (T336), which manages and displays summing across active and posted item tracking quantities. For more information, see [Design Details: Active versus Historic Item Tracking Entries](design-details-active-versus-historic-item-tracking-entries.md).  
+The following diagram outlines the design of item tracking functionality in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-The following diagram outlines the design of item tracking functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-![Example of item tracking flow](media/design_details_item_tracking_design.png "Example of item tracking flow")  
+![Example of item tracking flow.](media/design_details_item_tracking_design.png "Example of item tracking flow")  
 
 The central posting object is redesigned to handle the unique subclassification of a document line in the form of serial or lot numbers, and special relation tables are added to create the one-to-many relations between posted documents and their split item ledger entries and value ledger entries.  
 
@@ -43,5 +40,8 @@ Codeunit 22, **Item Jnl. – Post Line**, now splits the posting according to th
 
 For more information, see [Design Details: Item Tracking Posting Structure](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>See Also  
+## <a name="see-also"></a>See Also
+
 [Design Details: Item Tracking](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]  

@@ -1,21 +1,21 @@
 ---
-title: How to Move Components to an Operation Area in Basic Warehouse Configurations | Microsoft Docs
-description: If item processing operations occur at your warehouse location, then you may have to move items between internal bins to respond to internal source documents, such as production, assembly, or service orders at the location.
+title: Move Components to an Operation Area in Basic Warehouse Configurations
+description: If item processing operations occur at your warehouse location, then you may have to move items between internal bins to respond to internal source documents.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 117ae04d89d801eff79ecc7d2908eeb49d53f9e2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: e8ccd03e24c80e1cd7ac2fe39d272599af7f72fe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193114"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444162"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Move Components to an Operation Area in Basic Warehouse Configurations
 If item processing operations occur at your warehouse location, then you may have to move items between internal bins to respond to internal source documents, such as production, assembly, or service orders at the location.  
@@ -35,7 +35,7 @@ In basic warehouse configurations, which are locations that use the **Bin Mandat
 
 For detailed information about inventory movements, see the Inventory Movement page.  
 
-Two different roles can create the initial inventory movement. An assembly worker, for example, can create it from a released assembly order so that it shows up in the warehouse worker’s list of work to do. To create an inventory movement for assembly order lines that are ready to have components moved to their specified bins, the assembly worker uses the **Create Inventory Movement** function.  
+Two different roles can create the initial inventory movement. An assembly worker, for example, can create it from a released assembly order so that it shows up in the warehouse worker's list of work to do. To create a inventory movement for assembly order lines that are ready to have components moved to their specified bins, the assembly worker uses the **Create Inventory Movement** function.  
 
 Alternatively, a warehouse worker can create it by pointing to the released assembly order in question. This is described in the following procedure.  
 
@@ -44,10 +44,10 @@ Alternatively, a warehouse worker can create it by pointing to the released asse
 >   
 >  For more information about assembly orders and basic warehouse configurations, see [Handling Assemble-to-Order Items with Inventory Picks](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
-This procedure shows how to create an inventory movement from the **Inventory Movement** page by referencing a released assembly order as a source document. The procedure is the same when you move components for production orders and service orders.  
+This procedure shows how to create a inventory movement from the **Inventory Movement** page by referencing a released assembly order as a source document. The procedure is the same when you move components for works orders and service orders.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>To move components to an operation area in basic warehouse configurations  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Movement**, and choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Movement**, and choose the relevant link.  
 2.  On the **General** FastTab, fill in the **No.** field. You can press the Enter key  to select from the number series.  
 3.  In the **Location Code** field, enter the location where the movement occurs.  
 4.  Choose the **Get Source Documents** action. Alternatively, fill in the **Source Document** field, and then choose the **AssistEdit** button in the **Source No.** field.  
@@ -68,7 +68,7 @@ This procedure shows how to create an inventory movement from the **Inventory Mo
     Warehouse entries are created reflecting that the components now exist in the bins specified on the assembly order lines.  
 
     > [!NOTE]  
-    >  Unlike when you move components with an inventory pick, consumption is not posted when you register an inventory movement. That step must be performed separately by posting the assembly order output and consumption. For more information, see Assembly Order.  
+    >  Unlike when you move components with a inventory pick, consumption is not posted when you register a inventory movement. That step must be performed separately by posting the assembly order output and consumption. For more information, see Assembly Order.  
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
@@ -76,4 +76,7 @@ This procedure shows how to create an inventory movement from the **Inventory Mo
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

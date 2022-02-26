@@ -1,21 +1,21 @@
 ---
-title: Design Details - Expected Cost Posting | Microsoft Docs
+title: Design Details - Expected Cost Posting
 description: Expected costs represent the estimation of, for example, a purchased item’s cost that you record before you receive the invoice for the item.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 024d80039c2293924a53db31ea998a7b565c333b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 07/20/2021
+ms.author: edupont
+ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185499"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649844"
 ---
 # <a name="design-details-expected-cost-posting"></a>Design Details: Expected Cost Posting
 Expected costs represent the estimation of, for example, a purchased item’s cost that you record before you receive the invoice for the item.  
@@ -29,10 +29,22 @@ Expected costs represent the estimation of, for example, a purchased item’s co
 
  To support reconciliation and traceability work, the invoiced value entry shows the expected cost amount that has been posted to balance the interim accounts.  
 
-## <a name="example"></a>Example  
- The following example shows expected cost if the **Automatic Cost Posting** check box and the **Expected Cost Posting to G/L** check box are selected on the **Inventory Setup** page.  
+## <a name="prerequisites-for-posting-expected-costs"></a>Prerequisites for posting expected costs
 
- You post a purchase order as received. The expected cost is LCY 95.00.  
+To make it possible to post expected costs you need to do the following:
+1. On the **Inventory Setup** page, select the **Automatic Cost Posting** check box and the **Expected Cost Posting to G/L** check box.
+2. Set up which interim accounts to use during the expected cost posting process.  
+
+  On the **Inventory Posting Setup** page, verify the **Inventory Account** and the **Inventory Account (Interim)** fields for the **Location Code and Invt. Posting Group Code** of the item you will be purchasing. To learn more about these accounts see [Design Details - Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).
+3. On the **General Posting Setup** page, verify the **Invt. Accrual Acc. (Interim)** field for the **Gen. Bus. Posting Group** and the **Gen. Prod. Posting Group** you will be using.
+4. When you create a purchase order the default is that the **Supplier Invoice No.** field is required. You need to turn that off on the **Purchase & Payables Setup** page, by unselecting the **Ext. Doc. No. Mandatory** field.
+
+## <a name="example"></a>Example  
+
+> [!NOTE]  
+> The account numbers used in this example are there for reference only, and will be different in your system. Set them up as directed in the Prerequisites above.
+
+You post a purchase order as received. The expected cost is LCY 95.00.  
 
  **Value Entries**  
 
@@ -73,7 +85,7 @@ Expected costs represent the estimation of, for example, a purchased item’s co
 
  **General Ledger Entries**  
 
-|Posting Date|G/L Account|Account No. (En-US Demo)|Amount|Entry No.|  
+|Posting Date|G/L Account|Account No. (Examples only!)|Amount|Entry No.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |01-15-20|Inventory Accrual Account (Interim)|5530|95.00|4|  
 |01-15-20|Inventory Account (Interim)|2131|-95.00|3|  
@@ -88,4 +100,7 @@ Expected costs represent the estimation of, for example, a purchased item’s co
  [Design Details: Variance](design-details-variance.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

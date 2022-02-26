@@ -1,23 +1,23 @@
 ---
-title: Using the PayPal Payments Standard Extension | Microsoft Docs
-description: Describes how to use the extension to enable customers to make payments with PayPal.
+title: Using the PayPal Payments Standard Extension
+description: This topic describes how to use the standard extension to enable customers to make payments with PayPal.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: f295ab10d30f5a22f924ec3ad76548375f929b7c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: cc7db26df0cfd554b083ac606c14965eecc991eb
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315451"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322884"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>The PayPal Payments Standard Extension
 Customers continuously require higher customer service, both in terms of product quality but also in terms of delivery and payment options. The PayPal Payments Standard service helps you increase your customer service.
@@ -37,6 +37,9 @@ The PayPal Payments Standard service provides the following benefits:
 For more information, see [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>See Also
-[Customising [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Customising [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

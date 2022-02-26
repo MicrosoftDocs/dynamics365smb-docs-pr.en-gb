@@ -1,21 +1,21 @@
 ---
-title: Design Details - Item Tracking Lines Page | Microsoft Docs
-description: Read about how to managethe flow of serial and lot numbers in your inventory.
+title: Design Details - Item Tracking Lines Page
+description: Read about how to manage the flow of serial and lot numbers in your inventory using the Item Tracking Lines page.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 77d53f959d778b3355ad563fede1dfe106ad1ec8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 50888b8d00696645841f37aa24b5cb3bc031fed2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184971"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320321"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Design Details: Item Tracking Lines Page
 Item tracking records and reservation records are created in the reservation system, and their availability is calculated dynamically. Data that is entered on the **Item Tracking Lines** page is managed in a temporary version of the **Tracking Specification** table. When the page is closed, the active data is committed to the **Reservation Entry** table and the historic data is committed to the **Tracking Specification** table. For more information, see [Design Details: Active versus Historic Item Tracking Entries](design-details-active-versus-historic-item-tracking-entries.md).  
@@ -32,3 +32,5 @@ The rules for entering data on the **Item Tracking Lines** page also support the
   
 ## <a name="see-also"></a>See Also  
 [Design Details: Item Tracking](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

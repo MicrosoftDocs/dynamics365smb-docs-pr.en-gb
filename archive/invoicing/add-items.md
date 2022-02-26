@@ -25,15 +25,15 @@ Products are the basis of your business, the goods or services that you trade in
 > [!VIDEO https://www.youtube.com/embed/A_eCrHibuGU]
 
 ## <a name="to-create-a-product-or-service"></a>To create a product or service
-1. In [!INCLUDE[d365inv](includes/d365inv.md)], on the Home page, choose **Prices** .  
+1. In [!INCLUDE[d365inv](includes/d365inv.md)], on the Home page, choose **Prices**.  
 2. Choose **New** in the upper right corner of the page to add a new item to the **Prices** list.  
 3. Enter a descriptive name, which will make it easier for you to find the item again, and enter a price. Check the **Add sales tax** box if appropriate.  
-4. Click the arrow next to the **Price is per** box to choose a unit. On the **Select a unit** page, select the unit you want, and then click **OK** .  
+4. Click the arrow next to the **Price is per** box to choose a unit. On the **Select a unit** page, select the unit you want, and then click **OK**.  
 
     You can also add new units:  
 
     1. Click the arrow next to the **Price is per** box.  
-    2. On the **Select a unit** page, click the ellipses in the upper right, and then choose **Edit List** .  
+    2. On the **Select a unit** page, click the ellipses in the upper right, and then choose **Edit List**.  
 
         You can add or delete rows, or edit the existing values. For example, you can enter code = 16 oz. and a description = Large cup.  
 

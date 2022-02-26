@@ -22,8 +22,8 @@ ms.locfileid: "3927891"
 
 When you add products to an invoice or an estimate, you can grant a discount at two different levels:  
 
-- Add a discount on a specific item on the invoice by setting a *line discount* .
-- Add a discount to the whole invoice or estimate by setting a *document discount* .
+- Add a discount on a specific item on the invoice by setting a *line discount*.
+- Add a discount to the whole invoice or estimate by setting a *document discount*.
 
 ## <a name="to-add-a-line-discount"></a>To add a line discount
 

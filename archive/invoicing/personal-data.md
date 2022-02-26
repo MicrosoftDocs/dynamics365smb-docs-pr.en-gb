@@ -20,7 +20,7 @@ ms.locfileid: "3927884"
 > [!Note]
 > [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
 
-Data subjects can request several types of actions regarding their personal data. For example, under the General Data Protection Regulation (GDPR), EU residents have the right to request the export, deletion, and modification of their personal data. This is known as a *Data Subject Request* .  
+Data subjects can request several types of actions regarding their personal data. For example, under the General Data Protection Regulation (GDPR), EU residents have the right to request the export, deletion, and modification of their personal data. This is known as a *Data Subject Request*.  
 
 ### <a name="requests-for-deletion"></a>Requests for deletion
 A data subject can request that you delete their personal data. If a contact or customer asks you to be deleted in the context of a data subject request, you can follow the steps that are outlined above.  
@@ -31,7 +31,7 @@ A data subject can make a data portability request, meaning, in part, that you m
 #### <a name="export-privacy-data"></a>Export privacy data
 1. On your Home page, choose **Customers** to open the list of customers.
 2. Find the relevant customer, and then choose the name to open the details.
-3. Expand the **Privacy** tab, and then choose **Export customer privacy data** .
+3. Expand the **Privacy** tab, and then choose **Export customer privacy data**.
 4. In the **Export customer data** page, verify that you are about to send the email to yourself, and then choose the OK button.
 
 The email that you receive includes an Excel book with information about the customer, including invoices that you have sent them. Depending on the original request, you can choose to delete part of the information before you forward the email to the customer.  

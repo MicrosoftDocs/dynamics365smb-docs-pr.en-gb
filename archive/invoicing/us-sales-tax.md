@@ -35,15 +35,15 @@ If you set up new tax rates, you must make sure that you fill in the fields corr
 2. In the **Details** section, if the customer is tax liable, choose the AssistEdit icon > next to the **Customer tax rate** field. This field is already filled in with your default tax rate, but you can choose another.  
 3. In the **Tax Rates** window, choose a tax rate or add a new.  
 4. Enter the name and rate for both city and state and close the **Tax Rates** window.  
-5. You can optionally click or tap **Set as default tax rate** . The default rate is automatically applied to any taxable document or item.  
+5. You can optionally click or tap **Set as default tax rate**. The default rate is automatically applied to any taxable document or item.  
 
 ## <a name="to-add-a-tax-rate-from-the-settings"></a>To add a tax rate from the settings
 
-1. In [!INCLUDE[d365inv](includes/d365inv.md)], in the top right corner, choose the gear symbol, and then choose **My Settings** .  
+1. In [!INCLUDE[d365inv](includes/d365inv.md)], in the top right corner, choose the gear symbol, and then choose **My Settings**.  
 2. Scroll to the **Tax Rates** section. Click **Add new tax rate** to add a new rate. Click or tap the ellipses to modify an existing tax rate.  
 3. Enter the name and rate for both city and state and close the **Tax Rate** form.  
 
-You can optionally click or tap **Set as default tax rate** . The default rate is automatically applied to any taxable document or item.  
+You can optionally click or tap **Set as default tax rate**. The default rate is automatically applied to any taxable document or item.  
 
 If you or your customers are in a country that uses valued added tax (VAT), such as the United Kingdom, see [Add value added tax (VAT) to your invoices](add-vat.md).  
 

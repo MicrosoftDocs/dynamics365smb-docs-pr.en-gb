@@ -1,27 +1,27 @@
 ---
-title: Walkthrough - Calculating Work in Process for a Job | Microsoft Docs
-description: With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses.
+title: Walkthrough - Calculating Work in Progress for a Job
+description: Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3d9a156a1196767b4ae07f63bbb4ca8e2ff5318f
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527915"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588124"
 ---
-# <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Walkthrough: Calculating Work in Process for a Job
+# <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Walkthrough: Calculating Work in Progress for a Job
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses. If a job runs over a long period, you may want to transfer these costs to a Work in Process (WIP) account on the balance sheet while the job is being completed. You can then recognize the costs and sales in your income statement accounts when it is appropriate.  
+With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses. If a job runs over a long period, you may want to transfer these costs to a Work in Progress (WIP) account on the balance sheet while the job is being completed. You can then recognize the costs and sales in your income statement accounts when it is appropriate.  
 
 ## <a name="about-this-walkthrough"></a>About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -38,13 +38,13 @@ With jobs, you can schedule the usage of your company's resources and keep track
  This walkthrough uses the project team member (Tricia) as the persona.  
 
 ## <a name="prerequisites"></a>Prerequisites  
- Before you can perform the tasks in the walkthrough, the [!INCLUDE[d365fin](includes/d365fin_md.md)] must be installed on your computer.  
+ Before you can perform the tasks in the walkthrough, the [!INCLUDE[prod_short](includes/prod_short.md)] must be installed on your computer.  
 
 ## <a name="story"></a>Story  
- This walkthrough focuses on CRONUS International Ltd., a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of the work at CRONUS is project-oriented and Tricia, a project team member, uses jobs to have an overview of each ongoing job that CRONUS has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the job.  
+ This walkthrough focuses on CRONUS International Ltd., a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of the work at CRONUS is project-oriented and Tricia, a project team member, uses jobs to have an overview of each ongoing job that CRONUS has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in progress and to track the costs throughout the job.  
 
 ## <a name="calculating-wip"></a>Calculating WIP  
- CRONUS has taken on a lengthy project that has now extended across reporting periods. Tricia, a project team member, calculates the work in process (WIP) to make sure that the financial statement of the company will be accurate.  
+ CRONUS has taken on a lengthy project that has now extended across reporting periods. Tricia, a project team member, calculates the work in progress (WIP) to make sure that the financial statement of the company will be accurate.  
 
  During this procedure, Tricia will select a specific group of tasks that will be included in the WIP calculation. On the **Job Task Lines** page, she can specify these lines in the **WIP-Total** column.  
 
@@ -52,7 +52,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
 |Field|Description|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|Leave blank if the job task is a part of a group of tasks.|  
+|**\<blank\>**|Leave blank if the job task is a part of a group of tasks.|  
 |**Total**|Defines the range or group of tasks that are included in the WIP and recognition calculation. Within the group, any job task with **Job Task Type** set to **Posting** will be included in the WIP Total, unless its **WIP-Total** field is set to **Excluded**.|  
 |**Excluded**|Applies only to a task with **Job Task Type** of **Posting**. The task is not included when WIP and recognition are calculated.|  
 
@@ -60,7 +60,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
 ### <a name="to-calculate-wip"></a>To calculate WIP  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  In the **Jobs** list, select the **Deerfield** job, and then choose the **Edit** action. This will open the job card in edit mode.  
 
      WIP can be calculated based on Cost Value, Sales Value, Cost of Sales, Percentage of Completion, or Completed Contract. In this example, CRONUS uses the Cost Value method.  
@@ -92,7 +92,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
 ### <a name="to-review-wip-warnings"></a>To review WIP warnings  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job WIP Cockpit**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job WIP Cockpit**, and then choose the related link.  
 2.  Select the **Deerfield** job, and then choose the **Show Warnings** action.  
 3.  On the **Job WIP Warnings** page, review the warning associated with the job.  
 
@@ -108,7 +108,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 3.  Close the page.  
 
 > [!NOTE]  
->  Work in Process and Recognition is only calculated. It is not posted to the general ledger. To do so, you must run **Post WIP to G/L** batch job after you have calculated the WIP and Recognition.
+>  Work in Progress and Recognition is only calculated. It is not posted to the general ledger. To do so, you must run **Post WIP to G/L** batch job after you have calculated the WIP and Recognition.
 
 ## <a name="posting-wip-to-general-ledger"></a>Posting WIP to General Ledger  
  Now that Tricia has calculated WIP for this job, she can post it to the general ledger.  
@@ -156,11 +156,14 @@ With jobs, you can schedule the usage of your company's resources and keep track
     >  Suppose Tricia calculated and posted WIP for a job with incorrect dates. Following the method that was discussed earlier, she can reverse the incorrect postings, correct the dates, and repost to the general ledger.  
 
 ## <a name="next-steps"></a>Next Steps  
- This walkthrough has taken you through the steps of calculating WIP in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In larger jobs, it may be useful to transfer the costs to a WIP account periodically while the job is being completed. This walkthrough has shown you how to exclude task lines from a calculation. It also shows you when you would have to recalculate. And finally, this walkthrough demonstrates how to post the WIP to the general ledger. An example of how to reverse a WIP posting to the general ledger is also included.  
+ This walkthrough has taken you through the steps of calculating WIP in [!INCLUDE[prod_short](includes/prod_short.md)]. In larger jobs, it may be useful to transfer the costs to a WIP account periodically while the job is being completed. This walkthrough has shown you how to exclude task lines from a calculation. It also shows you when you would have to recalculate. And finally, this walkthrough demonstrates how to post the WIP to the general ledger. An example of how to reverse a WIP posting to the general ledger is also included.  
 
 ## <a name="see-also"></a>See Also  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)   
  [Understanding WIP Methods](projects-understanding-wip.md)   
  [Monitor Progress and Performance](projects-how-monitor-progress-performance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

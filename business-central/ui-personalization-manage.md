@@ -1,23 +1,19 @@
 ---
-title: Customising Pages for Roles | Microsoft Docs
+title: Customising Pages for Roles
 description: Learn how to customise the user interface for a profile (role) so that all users assigned that role see a customised workspace.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 9171
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 370429bfbcc1d93c7cce8d40cf844eb021109e39
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310811"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101036"
 ---
 # <a name="customize-pages-for-profiles"></a>Customise Pages for Profiles
 Users can personalise pages that make up their workspace to suit their own preferences. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
@@ -30,11 +26,11 @@ Administrators can customise pages for a profile, according to the related busin
 Page customisation starts from the **Profiles (Roles)** page, the administrator's starting point for managing users' profiles on individual profile cards. In addition to customising the page layout, you control various other settings for profiles on the **Profile (Role)** page for each profile. For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>To customise pages for a profile
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
 2. Select the line for the profile that you want to customise pages for, and then choose the **Edit** action.
 3. Choose the **Customise pages** action.
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] opens on a new browser tab for the selected profile with the **Customising** banner activated. The **Customising** banner offers the same functionality as the **Personalising** banner that is available to users.
+    [!INCLUDE[prod_short](includes/prod_short.md)] opens on a new browser tab for the selected profile with the **Customising** banner activated. The **Customising** banner offers the same functionality as the **Personalising** banner that is available to users.
 
 4. Customise pages according to the needs of the role or department in question in the same way as a user would do when personalising. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
 
@@ -47,9 +43,12 @@ Page customisation starts from the **Profiles (Roles)** page, the administrator'
 The customisation of pages is now recorded for the profile.
 
 ## <a name="to-view-all-customized-pages-for-a-profile"></a>To view all customised pages for a profile
+
 You can get an overview of which pages are customised for a profile, for example to plan which to customise further or delete.
 
-- On the **Profile (Role)** page, choose the **Customised Pages** action.
+- On the **Profile (Role)** page, choose the **Manage customised pages** action.
+
+On the **Customised Pages** page, you can delete customisations and you can troubleshoot by scanning for potential issues.  
 
 ## <a name="to-delete-all-customizations-for-a-profile"></a>To delete all customisations for a profile
 You can cancel all customisations that you have made for a profile. Customisations introduced with an extension and personalisations made by a user will not be deleted. You can delete all personalisations with another action. For more information, see [To delete all personalisations made by a user](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
@@ -61,14 +60,18 @@ The layout on pages for the profile is reset to the default layout.
 ## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>To delete customisation for specific pages for a profile
 You can delete individual page customisations that you have made for a profile. Customisations introduced with an extension and personalisations made by a user will not be deleted. You can delete specific page personalisations with another action. For more information, see [To delete personalisations for specific pages](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-1. On the **Profile (Role)** page, choose the **Customised Pages** action.
-2. On the **Profile Customisations** page, select on or more lines for page customisations that you want to delete, and then choose the **Delete** action.
+1. On the **Profile (Role)** page, choose the **Manage customised pages** action.
+2. On the **Customised Pages** page, select one or more lines for page customisations that you want to delete, then choose the **Delete** action.
 
 The layout on the selected pages is adjusted to the changes you made.
 
 ## <a name="see-also"></a>See Also
+
 [Personalise Your Workspace](ui-personalization-user.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,19 +3,19 @@ title: Design Details - Accounts in the General Ledger | Microsoft Docs
 description: To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6e6af3c9afe8e0d63d5ec2bcfe4905be0a7997df
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 41b94d44ba374ecbcad64a2b1da100fcf3e1a2ab
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185883"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215585"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Design Details: Accounts in the General Ledger
 To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
@@ -25,13 +25,13 @@ The following table shows the relationship between different types of inventory 
 
 |**Item Ledger Entry Type**|**Value Entry Ttype**|**Variance Type**|**Expected Cost**|**Account**|**Balancing Account**|  
 |--------------------------------|--------------------------|-----------------------|-----------------------|-----------------|---------------------------|  
-|Purchase|Direct Cost||Yes|Inventory  (Interim)|Invt. Accrual Acc. (Interim)|  
+|Purchase|Direct Cost||Yes|Inventory (Interim)|Invt. Accrual Acc. (Interim)|  
 |Purchase|Direct Cost||No|Inventory|Direct Cost Applied|  
 |Purchase|Indirect Cost||No|Inventory|Overhead Applied|  
 |Purchase|Variance|Purchase|No|Inventory|Purchase Variance|  
 |Purchase|Revaluation||No|Inventory|Inventory Adjmt.|  
 |Purchase|Rounding||No|Inventory|Inventory Adjmt.|  
-|Sale|Direct Cost||Yes|Inventory  (Interim)|COGS (Interim)|  
+|Sale|Direct Cost||Yes|Inventory (Interim)|COGS (Interim)|  
 |Sale|Direct Cost||No|Inventory|COGS|  
 |Sale|Revaluation||No|Inventory|Inventory Adjmt.|  
 |Sale|Rounding||No|Inventory|Inventory Adjmt.|  
@@ -44,7 +44,7 @@ The following table shows the relationship between different types of inventory 
 |Assembly Consumption|Direct Cost||No|Inventory|Inventory Adjmt.|  
 |Assembly Consumption|Direct Cost||No|Direct Cost Applied|Inventory Adjmt.|  
 |Assembly Consumption|Indirect Cost||No|Overhead Applied|Inventory Adjmt.|  
-|(Production) Output|Direct Cost||Yes|Inventory  (Interim)|WIP|  
+|(Production) Output|Direct Cost||Yes|Inventory (Interim)|WIP|  
 |(Production) Output|Direct Cost||No|Inventory|WIP|  
 |(Production) Output|Indirect Cost||No|Inventory|Overhead Applied|  
 |(Production) Output|Variance|Material|No|Inventory|Material Variance|  
@@ -74,7 +74,7 @@ The following table shows the relationship between different types of inventory 
 |Production|Machine Centre/Work Centre|Indirect Cost|WIP Account|Overhead Applied|  
 
 ## <a name="assembly-costs-are-always-actual"></a>Assembly Costs are Always Actual  
- As shown in the table above, assembly postings are not represented in interim accounts. This is because the concept of work in process (WIP) does not apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
+ As shown in the table above, assembly postings are not represented in interim accounts. This is because the concept of work in progress (WIP) does not apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
 
  For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 
@@ -99,4 +99,7 @@ The following table shows how the amounts to post to the general ledger are calc
  [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

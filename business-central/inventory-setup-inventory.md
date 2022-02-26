@@ -1,23 +1,22 @@
 ---
-title: Setting Up Inventory| Microsoft Docs
+title: Setting Up Stock
 description: Describes how to set up your stock and inventory processes, including transfer routes and locations, such as warehouses.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2020
-ms.author: SorenGP
-ms.openlocfilehash: 14d98f971bcb075a94396ed59b560e5420100413
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 30, 461
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 870bcf2e7980ccf5717cbb93ada44087afe95c4d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181779"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059464"
 ---
 # <a name="setting-up-inventory"></a>Setting Up Inventory
 Before you can manage warehouse activities and inventory costing, you must configure the rules and values that define the company's inventory policies.
@@ -38,12 +37,17 @@ When you have set up your inventory, you can manage various processes related to
 |As a supplement to item cards, record information about your items in a specific location or of a specific variant.|[Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)|
 | Assign items to categories and give them attributes to help you and customers find items. |[Categorise Items](inventory-how-categorize-items.md) |
 |Import multiple item pictures in one go from a zip file where the files are named according to item numbers.|[Import Multiple Item Pictures](inventory-how-import-item-pictures.md)|
+|Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
+
 [Managing Inventory](inventory-manage-inventory.md)  
 [Managing Purchasing](purchasing-manage-purchasing.md)  
 [Managing Sales](sales-manage-sales.md)    
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,22 +3,22 @@ title: Setting Up Service Management | Microsoft Docs
 description: Overview of tasks to set up Service Management to suit the way that your organisations manages its services.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c26a10e7597731ccafdd88f99f8e7dd2fda644b1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8bd4d28dd5d77c998cf2404594da115e9c95077f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192312"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778105"
 ---
 # <a name="setting-up-service-management"></a>Setting Up Service Management
-Before you can start using Service Management features in [!INCLUDE[d365fin](includes/d365fin_md.md)], there are a few things to set up. For example, you can establish coding for standard services, symptoms, and fault codes, and the service items and service item types that your company's customer service needs require.  
+Before you can start using Service Management features in [!INCLUDE[prod_short](includes/prod_short.md)], there are a few things to set up. For example, you can establish coding for standard services, symptoms, and fault codes, and the service items and service item types that your company's customer service needs require.  
 
 When you set up Service Management, you must decide what services to offer customers and the schedule for those services. A service is a type of work performed by one or more resources and provided to a customer. For example, a service could be a type of computer repair. A service item is the equipment or item needing servicing, for example, the computer needing repair, installed at a specific customer. You can set up services as part of a group of related repair or maintenance items.  
   
@@ -43,4 +43,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## <a name="see-also"></a>See also 
 [Service Management](service-service.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

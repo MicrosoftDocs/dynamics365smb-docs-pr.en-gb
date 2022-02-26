@@ -1,21 +1,21 @@
 ---
-title: Frequently Asked Questions about Tell Me | Microsoft Docs
-description: This article provides answers to questions that our partners and customers often ask about Tell Me.
+title: Frequently Asked Questions about Tell Me
+description: This article provides answers to questions that our partners and customers often ask about the Tell Me feature.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 02/12/2020
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67dd65491710206245a2ff83dce3d3eb94484770
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 20493ffc3dd20da07d5f27602f4c766a0ebfbd87
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071917"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325870"
 ---
 # <a name="tell-me-faq"></a>Tell Me FAQ
 This topic answers questions that our advanced users often ask about the Tell Me feature.
@@ -32,7 +32,7 @@ Actions, pages, and reports that originate from extensions are picked up by Tell
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>What makes this different from what was previously known as Page Search?
 Page Search has evolved into Tell Me to help you get work done quickly. Page Search could only help you navigate to pages or reports. At a technical level, Tell Me is no longer based on the legacy MenuSuite concept.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>I use on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Does that include Tell Me?
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>I use on-premises [!INCLUDE[prod_short](includes/prod_short.md)]. Does that include Tell Me?
 You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not documentation, or apps and consulting services on AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Is Tell Me available for all form factors?
@@ -50,3 +50,6 @@ The bookmark icon is not displayed in the Tell Me window when personalisation is
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Finding Pages with the Role Explorer](ui-role-explorer.md)  
 [Bookmark a Page or Report on Your Role Centre](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Using the GetAddress.io UK Postcodes Extension | Microsoft Docs
-description: Retrieve addresses for entities like customers, vendors, employees, and banks in the United Kingdom from the GetAddress.io service.
+title: GetAddress.io UK Postcodes Extension [GB]
+description: Retrieve addresses for entities like customers, suppliers, employees, and banks in the United Kingdom from the GetAddress.io service.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
-ms.date: 10/01/2019
+ms.date: 06/25/2021
 ms.author: bholtorf
-ms.openlocfilehash: 35020e59997073d6b0342493048990bcb50b6964
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc602e24f99ac11fb72307441c49608932d2ccbc
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300948"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482421"
 ---
-# <a name="the-getaddressio-uk-postcodes-extension"></a>The GetAddress.io UK Postcodes Extension
-The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, vendors, bank accounts, and employees. For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[d365fin](../../includes/d365fin_md.md)] shows a list of addresses. Pick the address you want, and presto, the address fields are filled out.  
+# <a name="the-getaddressio-uk-postcodes-extension-in-the-british-version"></a>The GetAddress.io UK Postcodes Extension in the British Version
+The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, suppliers, bank accounts, and employees. For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[prod_short](../../includes/prod_short.md)] shows a list of addresses. Pick the address you want, and presto, the address fields are filled out.  
 
-##<a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a>To use the GetAddress.io UK Postcodes extension when you enter an address
+## <a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a>To use the GetAddress.io UK Postcodes extension when you enter an address
 1. Under **Address**, choose **Look up address from postcode**.  
 
     > [!NOTE]  
@@ -34,3 +34,6 @@ The GetAddress.io UK Postcodes extension can save time and prevent mistakes when
 
 ## <a name="see-also"></a>See Also
 [Set Up the GetAddress.io UK Postcode Extension](uk-setup-postal-code-service.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,12 +4,17 @@ description: Learn about the company hub in Dynamics 365 Business Central that y
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: 'accountant, accounting, financial report'
-ms.search.form: '1151, 1154, 1165, 1166'
+ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
+ms.openlocfilehash: 1f7620f2f78971649cb8af5ef9dd0e7389c0c06a
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8028991"
 ---
-
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Manage Work across Multiple Companies in the Company Hub
 
 Some people work in multiple companies in [!INCLUDE [prod_short](includes/prod_short.md)] and some also work in more than one organisation, such as external accountants or employees and managers of corporations with multiple subsidiaries. For these users, and many others, the company hub serves as a landing page for managing work across the various environments that they work in, across companies, environments, and regions.  

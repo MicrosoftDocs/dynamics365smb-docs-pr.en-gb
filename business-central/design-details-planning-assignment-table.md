@@ -1,21 +1,21 @@
 ---
-title: Design Details - Planning Assignment Table | Microsoft Docs
-description: This topic provides insight into what happens when you change how you plan for an item.
+title: Design Details - Planning Assignment Table
+description: This topic provides insight into what happens when a change in the demand or supply patterns requires that you calculate how you plan for an item.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4002bc464f012cfd279db91047ed98ec1193cb36
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: cdd16d0f3143701ca53125ef74f91ae5bd143f1c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184923"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321602"
 ---
 # <a name="design-details-planning-assignment-table"></a>Design Details: Planning Assignment Table
 All items should be planned for, however, there is no reason to calculate a plan for an item unless there has been a change in the demand or supply pattern since the last time a plan was calculated.  
@@ -28,9 +28,9 @@ The reason for selecting items for planning is a matter of system performance. I
 
 The **Planning Assignment** table monitors demand and supply events and assigns the appropriate items for planning. The following events are monitored:  
 
-* A new sales order, forecast, component, purchase order, production order, assembly order, or transfer order.  
-* Change of item, quantity, location, variant, or date on a sales order, forecast, component, purchase order, production order, assembly order, or transfer order.  
-* Cancellation of a sales order, forecast, component, purchase order, production order, assembly order, or transfer order.  
+* A new sales order, forecast, component, purchase order, works order, assembly order, or transfer order.  
+* Change of item, quantity, location, variant, or date on a sales order, forecast, component, purchase order, works order, assembly order, or transfer order.  
+* Cancellation of a sales order, forecast, component, purchase order, works order, assembly order, or transfer order.  
 * Consumption of items other than planned.  
 * Output of items other than planned.  
 * Unplanned changes in inventory.  
@@ -67,3 +67,6 @@ When calculating an MPS or an MRP, the following restrictions apply:
 [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
 [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)   
 [Design Details: Planning Parameters](design-details-planning-parameters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

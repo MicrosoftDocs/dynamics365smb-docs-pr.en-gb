@@ -1,28 +1,28 @@
 ---
-title: How to Change the Annual Amount on Service Contracts or Contract Quotes | Microsoft Docs
+title: Change the Annual Amount on Service Contracts or Contract Quotes
 description: You can change the amount that will be invoiced annually on service contracts or service contract quotes.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: bb4fa7b9d75afa49846247b1fdce3fa25f19334a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402569"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436458"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Change the Annual Amount on Service Contracts or Contract Quotes
 You can change the annual amount of the service contract or contract quote to correct the amount that will be invoiced annually.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>To change the annual amount of the service contract or contract quote  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts** or **Service Contract Quotes**,and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts** or **Service Contract Quotes**,and then choose the related link.  
 2. Choose the contract or contract quote.  
 3. Choose the **Open Contract** action to open the contract or contract quote for editing.  
 4. Choose the **Allow Unbalanced Amounts** check box if you want to change the annual amount and distribute the annual amount difference manually on the contract lines. Otherwise, clear the check box to automatically distribute the annual amount difference on the contract lines after you change the annual amount.  
@@ -150,3 +150,6 @@ Finally, the contract lines will contain this data.
 ## <a name="see-also"></a>See Also  
 [Create Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Setting Up Service Management](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

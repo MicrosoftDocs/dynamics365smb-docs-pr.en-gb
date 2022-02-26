@@ -1,21 +1,21 @@
 ---
-title: How to Plan Put-aways in Worksheets | Microsoft Docs
-description: If your location requires both put-away and receive processing, and you want to plan put-away instructions for a number of receipts, rather than have employees follow the instructions that application creates for separate posted receipts, you can use the put-away worksheet.
+title: How to Plan Put-aways in Worksheets
+description: Set up your warehouse so that receipt lines are available to you in the put-away worksheet when you want to plan put-away instructions for receipts.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d7cea5a62f432b569967c088211ad7c41c5f4a64
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: cfe8f04e84c2bb5cddcbad71fd71b1253043b60f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192922"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438189"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Plan Put-aways in Worksheets
 If your location requires both put-away and receive processing, and you want to plan put-away instructions for a number of receipts, rather than have employees follow the instructions that application creates for separate posted receipts, you can use the put-away worksheet.  
@@ -31,7 +31,7 @@ If you do not select this field, application will automatically create put-away 
 > 2.  Continue the process in as many put-aways as you wish, until you have deleted the lines you want to work on in the worksheet. Now choose **Put-away Worksheets** and proceed with planning.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>To plan instructions in the put-away worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Worksheet**, and then choose the related link.  
 2.  Choose the **Get Warehouse Documents** action. The **Put-away Selection** page opens.  
 
     You see all the posted receipts and registered internal put-aways that have been forwarded to the put-away function, including those for which put-away instructions have already been created. Documents with put-away lines that have been completely put away and registered are not shown on this list.  
@@ -56,7 +56,7 @@ If you do not select this field, application will automatically create put-away 
 
     -   You can assign the put-away to a specific employee.  
     -   You can sort the put-away instruction lines as you did in the worksheet or by bin ranking. When you sort according to bin ranking, the Take lines appear first, since most receipt bins have a 0 bin ranking, and the Place lines appear last, starting with the bins with the lowest bin ranking. If you have structured your warehouse so bins of similar bin ranking are side by side, sorting lines in this way will ultimately save steps for your warehouse employees.  
-    -   You can choose not to see the intermediate lines created when application breaks a larger unit of measure to smaller units of measure by selecting the **Set Breakbulk Filter** field. For more information, see [Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   You can choose not to see the intermediate lines created when application breaks a larger unit of measurement to smaller units of measurement by selecting the **Set Breakbulk Filter** field. For more information, see [Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   You can choose not to have the **Qty. to Handle** field automatically filled in on the put-away instructions.  
     -   You can choose to print the document immediately.  
 
@@ -68,4 +68,7 @@ If you do not select this field, application will automatically create put-away 
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

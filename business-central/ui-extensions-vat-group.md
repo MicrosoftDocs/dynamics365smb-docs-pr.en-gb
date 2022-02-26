@@ -1,6 +1,6 @@
 ---
 title: The VAT Group Management Extension
-description: 'You can engage with other businesses to form a VAT group, and act as either a member or representative of the group when reporting VAT.'
+description: You can engage with other businesses to form a VAT group, and act as either a member or representative of the group when reporting VAT.
 author: bholtorf
 manager: annbe
 ms.service: dynamics365-business-central
@@ -8,11 +8,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: 'VAT, value added tax, report'
+ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.openlocfilehash: 7148fa8e59a509af3206e7da898a371ffb5332a5
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.translationtype: HT
+ms.contentlocale: en-GB
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029147"
 ---
-
 # <a name="the-vat-group-management-extension"></a>The VAT Group Management Extension
 
 You can join one or more businesses in your country to consolidate VAT reporting under a single registration number. This type of arrangement is known as a *VAT group*. You can engage with the group as a member or the group representative.

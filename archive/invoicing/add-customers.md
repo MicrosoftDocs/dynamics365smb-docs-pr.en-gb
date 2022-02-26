@@ -28,7 +28,7 @@ In Invoicing, you can add and manage information about customers in the **Custom
 > [!VIDEO https://www.youtube.com/embed/2a83gRE8kXI]
 
 ## <a name="to-add-a-customer-in-the-customers-list"></a>To add a customer in the Customers list
-1. In [!INCLUDE[d365inv](includes/d365inv.md)], on the Home page, choose **Customers** .  
+1. In [!INCLUDE[d365inv](includes/d365inv.md)], on the Home page, choose **Customers**.  
 2. Choose **New** in the upper right corner of the page to add the new customer.  
 3. Fill in the fields with information about the customer.  
 

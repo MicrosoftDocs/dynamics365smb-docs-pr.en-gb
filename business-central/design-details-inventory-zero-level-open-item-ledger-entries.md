@@ -1,24 +1,24 @@
 ---
-title: open item ledger entries
-description: Learn why the inventory level is zero although open item ledger entries exist.
+title: Inventory Zero Open Item Ledger Entries
+description: This article addresses an issue where the inventory level is zero although open item ledger entries exist.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6168b8a14bc520f811db231e9d8f885e7372a3d6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 75cf8f2ccbf7738c753a25c98ea9c79e13b9d53d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185211"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445002"
 ---
 # <a name="design-details-known-item-application-issue"></a>Design Details: Known Item Application Issue
-This article addresses an issue where the inventory level is zero although open item ledger entries exist in  [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This article addresses an issue where the inventory level is zero although open item ledger entries exist in  [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 The article starts by listing typical symptoms of the issue, followed by the basics of item application to support the described reasons for this issue. At the end of the article is a workaround to address such open item ledger entries.  
 
@@ -54,7 +54,7 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 
  The following diagram shows how quantity applications are made.  
 
-![Flow of cost adjustment from purchase to sale](media/helene/TechArticleInventoryZero2.png "Flow of cost adjustment from purchase to sale")
+![Flow of cost adjustment from purchase to sale.](media/helene/TechArticleInventoryZero2.png "Flow of cost adjustment from purchase to sale")
 
  Notice above that item ledger entry 1 (Purchase) is both the supplier of the item and the cost source to the applied item ledger entry, item ledger entry 2 (Sale).  
 
@@ -78,7 +78,7 @@ The following diagram shows how cost applications are made.
 
  The following diagram illustrates the cost flow.  
 
-![Flow of cost adjustment from sale to sales return](media/helene/TechArticleInventoryZero4.png "Flow of cost adjustment from sale to sales return")
+![Flow of cost adjustment from sale to sales return.](media/helene/TechArticleInventoryZero4.png "Flow of cost adjustment from sale to sales return")
 
  Notice above that the cost is forwarded to item ledger entry 2 (Sale), then to item ledger entry 3 (Sales Return), and finally to item ledger entry 4 (Sale 2).  
 
@@ -91,7 +91,7 @@ The following diagram shows how cost applications are made.
 
  The following diagram illustrates how item applications are made in both scenarios.  
 
-![Flow of cost adjustment goes in both directions](media/helene/TechArticleInventoryZero6.png "Flow of cost adjustment goes in both directions")  
+![Flow of cost adjustment goes in both directions.](media/helene/TechArticleInventoryZero6.png "Flow of cost adjustment goes in both directions")  
 
  Notice above that a cost application is made (represented by the blue arrows) to ensure that item ledger entry 2 (Sales Return) is assigned the same costs as the item ledger entry that it reverses, item ledger entry 1 (Sale 1). However, a quantity application (represented by the red arrows) is not made.  
 
@@ -133,7 +133,7 @@ The following diagram shows how cost applications are made.
      |Entry No.|Item Ledger Entry No.|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Posting Date|Cost Application|  
      |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
      |299|334|334|333|1|01/28/2018|Yes|  
-<!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
+<!--![Why is inventory zero 8.](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
  Notice above that inbound item ledger entry 334 is cost applied to outbound item ledger entry 333.  
 
@@ -151,3 +151,6 @@ The following diagram shows how cost applications are made.
 ## <a name="see-also"></a>See Also  
 [Design Details: Item Application](design-details-item-application.md)   
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

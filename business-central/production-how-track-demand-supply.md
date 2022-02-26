@@ -1,37 +1,38 @@
 ---
-title: How to Track Relations Between Demand and Supply | Microsoft Docs
-description: From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.
+title: Track Relations Between Demand and Supply
+description: This topic explains the different ways to track relations between demand and supply such as tracking linked items and dealing with untracked planing elements.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 3d387ebaf9b7c5e20d50f22b0400d3089e973f8b
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 5830, 9101, 99000822, 99000855
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: ed1dbf03838b478cc8ff9c5f2e357c5873e30703
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877718"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972704"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Track Relations Between Demand and Supply
+
 From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.
 
 The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan. For more information, see [Untracked Planning Elements](production-how-track-demand-supply.md#untracked-planning-elements).
 
 ## <a name="to-track-linked-items"></a>To track linked items
-Order tracking shows how sales orders, production orders, and purchase orders are related to the manufacturing order through the planning and reservation systems.
+Order tracking shows how sales orders, works orders, and purchase orders are related to the manufacturing order through the planning and reservation systems.
 
-The following describes how to track linked items on a firm planned production order. The steps are similar for all other order types, and from planning worksheet lines.
+The following describes how to track linked items on a firm planned works order. The steps are similar for all other order types, and from planning worksheet lines.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.
-2. Open the relevant firm planned production order from the list.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.
+2. Open the relevant firm planned works order from the list.
 3. On the **Lines** FastTab, choose the **Functions** action, and then choose the **Order Tracking** action.
 
-The lines in the **Order Tracking** display the documents that are related to the current production order line.
+The lines in the **Order Tracking** display the documents that are related to the current works order line.
 
 ## <a name="untracked-planning-elements"></a>Untracked Planning Elements
 The **Untracked Planning Elements** page opens when you choose the **Untracked Qty.** field on the **order Planning** page. It serves two purposes:
@@ -61,4 +62,7 @@ The page contains entries which account for an untracked surplus quantity in ord
 [Design Details: Reservation, Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

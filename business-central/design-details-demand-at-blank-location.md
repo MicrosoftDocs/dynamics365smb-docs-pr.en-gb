@@ -1,21 +1,21 @@
 ---
 title: Design Details - Demand and Supply | Microsoft Docs
-description: This topic introduces the concept of demand, which is the common term used for any kind of gross demand, such as a sales order and component need from a production order.
+description: This topic introduces the concept of demand, which is the common term used for any kind of gross demand, such as a sales order and component need from a works order.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f808865bd4fc2113dd5c04071f7ba2e8793fe3af
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 62abcd0e37a9871efd6158a898538b7c18b6b47f
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185571"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215335"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Design Details: Demand at Blank Location
 When a user creates a demand event, such as a sales order line, the program allows the user to sometimes specify a location code and other times not, that is, use blank location.
@@ -132,3 +132,6 @@ As illustrated in the last scenario, the only way to get a correct result for a 
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)   
 [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)   
 [Design Details: Supply Planning](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

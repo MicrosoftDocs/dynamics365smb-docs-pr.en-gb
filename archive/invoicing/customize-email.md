@@ -24,8 +24,8 @@ When you first start using [!INCLUDE[d365inv](includes/d365inv.md)], your invoic
 
 ## <a name="to-customize-the-default-email-text"></a>To customize the default email text
 
-1. In [!INCLUDE[d365inv](includes/d365inv.md)], in the top right corner, choose the gear symbol, and then choose **My Settings** .  
-2. In the Settings panel, scroll down to **Email settings** , and then choose the **Change default email messages** link.  
+1. In [!INCLUDE[d365inv](includes/d365inv.md)], in the top right corner, choose the gear symbol, and then choose **My Settings**.  
+2. In the Settings panel, scroll down to **Email settings**, and then choose the **Change default email messages** link.  
 3. In the **Default email messages** window, write the text that you want to have as the default for the emails that get sent for invoices and estimates, respectively.
 4. When you are ready, choose the OK button.  
 

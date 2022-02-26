@@ -1,21 +1,21 @@
 ---
-title: Service Posting | Microsoft Docs
-description: Service posting functionality lets you process your documents efficiently and maintain successful customer service policy. You can create and update posted documents, and create ledger entries both in the service area and in other modules to ensure the correct update.
+title: Service Posting
+description: Service posting functionality lets you process your documents efficiently and maintain successful customer service policy.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6ecf6b203b7dd3264c3499f8b60bbdb29698e647
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 8bdfb6986f16c580cef6e1fc7bdde2ef25dab14b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192466"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443036"
 ---
 # <a name="service-posting"></a>Service Posting
 Service posting functionality lets you process your documents efficiently and maintain successful customer service policy. You can create and update posted documents, and create ledger entries both in the service area and in other modules to ensure the correct update.  
@@ -26,7 +26,7 @@ Service posting functionality lets you process your documents efficiently and ma
 >  In a location that is not set up to require warehouse handling, you perform the posting actions directly from the **Service Lines** page. In locations that involve warehouse handling, the described posting actions, except Ship and Consume, are performed indirectly through varying warehouse ship functions, depending on setup. For more information, see [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Ship  
-The ship option lets you register the relevant items and time entered on the lines of a service order after you complete the service. A posted shipment is created and updates occur in the Inventory module and other modules in [!INCLUDE[d365fin](includes/d365fin_md.md)] to reflect that the items have been taken out of the inventory and sent to the customer. In particular, the item ledger entries, value ledger entries, service ledger entries, and warranty ledger entries are produced.  
+The ship option lets you register the relevant items and time entered on the lines of a service order after you complete the service. A posted shipment is created and updates occur in the Inventory module and other modules in [!INCLUDE[prod_short](includes/prod_short.md)] to reflect that the items have been taken out of the inventory and sent to the customer. In particular, the item ledger entries, value ledger entries, service ledger entries, and warranty ledger entries are produced.  
 
 If the location is set up to require warehouse handling, then the shipping and moving of service line items functions in the same ways as for other source documents. The only difference is that service line items can be consumed either externally or internally, which requires two different release functions.
 
@@ -49,7 +49,7 @@ When you post a service invoice, a service shipment, or a service credit memo, t
 
 The following procedure uses a posted service invoice as an example, but the same procedure can apply to posted service shipments and posted credit memos.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Service Invoice**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Service Invoice**, and then choose the related link.  
 2. Open the posted service invoice you want to view.  
 3. To get an overview of the posted invoice, choose the **Statistics** action.  
 
@@ -58,3 +58,6 @@ The following procedure uses a posted service invoice as an example, but the sam
 ## <a name="see-also"></a>See Also  
 [Post Service Orders](service-how-to-post-service-orders.md)   
 [Create Service Orders](service-how-to-create-service-orders.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

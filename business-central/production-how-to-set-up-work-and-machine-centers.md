@@ -1,23 +1,24 @@
 ---
-title: How to Set Up Work Centres and Machine Centres | Microsoft Docs
-description: A **Work Centre** card organises the fixed values and requirements of the production resource, and thus governs the output of production performed in that work centre.
+title: Set Up Work Centres and Machine Centres
+description: A Work Centre card organises the fixed values and requirements of the production resource, and thus governs the output of production performed in that work centre.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1d8b24df628cbb41449e37b31cbf1082d434bb81
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 330b17ef124c659cb69ddf3ac50e613f736b1d4b
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877843"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972756"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Set Up Work Centres and Machine Centres
+
 The application distinguishes between three types of capacities. These are arranged hierarchically. Each level contains the subordinate levels.  
 
 The top level is the work centre group. Work centres are assigned to the work centre groups. Every work centre can only belong to one work centre group.
@@ -26,50 +27,132 @@ You can assign various machine centres to every work centre. A machine centre ma
 
 The planned capacity of a work centre consists of the availability of the corresponding machine centres and the additional planned availability of the work centre. The planned availability of the work centre group is, therefore, the sum of all corresponding availabilities of the machine centres and work centres.  
 
-The availability is stored in calendar entries. Before you set up work or machine centres, you must set up shop calendars. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
+The availability is stored in calendar entries.  
+
+> [!IMPORTANT]
+> Before you set up work or machine centres, you must set up shop calendars. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).
 
 ## <a name="to-set-up-a-work-center"></a>To set up a work centre
+
 The following primarily describes how to set up a work centre. The steps to set up a machine centre calendar are similar except for the **Routing Setup** FastTab.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.  
-2.  Choose the **New** action.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.  
+2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  In the **Work Centre Group** field, select the higher-level resource grouping that the work centre is organised under, if relevant. Choose the **New** action in the drop-down list.  
-5.  Select the **Blocked** field if you want to prevent the work centre from being used in any processing. This means that output cannot be posted for an item that is produced at the work centre. For more information, see [Post Production Output](production-how-to-post-output-quantity.md).
-6.  In the **Direct Unit Cost** field, enter the cost of producing one unit of measure at this work centre, excluding any other cost elements. This cost is often referred to as the *direct labour rate*.  
-7.  In the **Indirect Cost %** field, enter the general operation costs of using the work centre as a percentage of the direct unit cost. This percentage amount is added to the direct cost in the calculation of the unit cost.  
-8.  In the **Overhead Rate** field, enter any non-operational costs, for example maintenance expenses, of the work centre as an absolute amount.  
+4. In the **Work Centre Group** field, select the higher-level resource grouping that the work centre is organised under, if relevant. Choose the **New** action in the drop-down list.  
+5. Select the **Blocked** field if you want to prevent the work centre from being used in any processing. This means that output cannot be posted for an item that is produced at the work centre. For more information, see [Post Production Output](production-how-to-post-output-quantity.md).
+6. In the **Direct Unit Cost** field, enter the cost of producing one unit of measurement at this work centre, excluding any other cost elements. This cost is often referred to as the *direct labour rate*.  
+7. In the **Indirect Cost %** field, enter the general operation costs of using the work centre as a percentage of the direct unit cost. This percentage amount is added to the direct cost in the calculation of the unit cost.  
+8. In the **Overhead Rate** field, enter any non-operational costs, for example maintenance expenses, of the work centre as an absolute amount.  
 
-    The **Unit Cost** field contains the calculated unit cost of producing one unit of measure at this work centre, including all cost elements, as follows:  
+    The **Unit Cost** field contains the calculated unit cost of producing one unit of measurement at this work centre, including all cost elements, as follows:  
 
     Unit Cost = Direct Unit Cost + (Direct Unit Cost x Indirect Cost %) + Overhead Rate.  
 
-9.  In the **Unit Cost Calculation** field, define whether the above calculation should be based on the amount of time used:  **Time**, or on the number of produced units:  **Units**.  
-10.  Select the **Specific Unit Cost** field if you want to define the work centre’s unit cost on the routing line where it is being used. This may be relevant for operations with dramatically different capacity costs than what would normally be processed at that work centre.  
-11.  In the **Flushing Method** field, select whether output posting at this work centre should be calculated and posted manually or automatically, using either of the following methods.
+9. In the **Unit Cost Calculation** field, define whether the above calculation should be based on the amount of time used:  **Time**, or on the number of produced units:  **Units**.  
+10. Select the **Specific Unit Cost** field if you want to define the work centre's unit cost on the routing line where it is being used. This may be relevant for operations with dramatically different capacity costs than what would normally be processed at that work centre.  
+11. In the **Flushing Method** field, select whether output posting at this work centre should be calculated and posted manually or automatically, using either of the following methods.
 
-|Option|Description|
-|------|-----------|
-|**Manual**|Concumption is posted manually in the output journal or production journal.|
-|**Forward**|Consumption is calculated and posted automatically when the production order is released.|
-|**Backward**|Consumption is calculated and posted automatically when the production order is finished.|
+    |Option|Description|
+    |------|-----------|
+    |**Manual**| Used time, output and scrap are posted manually in the output journal or production journal.|
+    |**Forward**|Output is posted automatically when the works order is released.|
+    |**Backward**|Output is posted automatically when the works order is finished.|
 
-> [!NOTE]
-> If necessary, the flushing method selected here and on the **Item** card, can be overridden for individual operations by changing the setting on routing lines
+    > [!NOTE]
+    > If necessary, the flushing method selected here, can be overridden for individual operations by changing the setting on routing lines
 
-12.  In the **Unit of Measure Code** field, enter the time unit in which this work centre’s cost calculation and capacity planning are made.
+12. In the **Unit of Measurement Code** field, enter the time unit in which this work centre's cost calculation and capacity planning are made.
     In order to be able to constantly monitor consumption, you must first set up a method of measure. The units you enter are basic units. For example, the processing time is measured in hours and minutes.
 
-> [!NOTE]  
-> If you select to use Days then remember that 1 day = 24 hours - and not 8 (working hours).
+    > [!NOTE]  
+    > If you select to use Days then remember that 1 day = 24 hours - and not 8 (working hours).
 
-13.  In the **Capacity** field, define whether the work centre has more than one machine or person working at the same time. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] installation does not include the Machine Centre functionality, then the value in this field must be **1**.  
-14.  In the **Efficiency** field, enter the percentage of the expected standard output that this work centre actually outputs. If you enter **100**, it means that the work centre has an actual output that is the same as the standard output.  
+13. In the **Capacity** field, define whether the work centre has more than one machine or person working at the same time. If your [!INCLUDE[prod_short](includes/prod_short.md)] installation does not include the Machine Centre functionality, then the value in this field must be **1**.  
+14. In the **Efficiency** field, enter the percentage of the expected standard output that this work centre actually outputs. If you enter **100**, it means that the work centre has an actual output that is the same as the standard output.  
 15. Select the **Consolidated Calendar** check box if you are also using machine centres. This ensures that calendar entries are rolled up from machine centre calendars.  
-16.  In the **Shop Calendar Code** field, select a shop calendar. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
-17.  In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work centre. Note that queue time is added to other non-productive time elements such as wait time and move time that you may define on routing lines using this work centre.  
+16. In the **Shop Calendar Code** field, select a shop calendar. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
+17. In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work centre. 
 
-## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Example - Different Machine Centres Assigned to a Work Centre
+> [!NOTE]
+> Use queue times to provide a buffer between the time that a component arrives at a machine or work centre and when the operation actually starts. For example, a part is delivered to a machine Centre at 10.00 but it takes an hour to mount it on the machine so the operation does not start until 11.00. To account for that hour, the queue time would be one hour. The value of the **Queue Time** field on a machine or work centre card plus the sum of the values in the **Setup Time**, **Run Time**, **Wait Time**, and **Move Time** fields on the item routing line combine to give the production lead time of the item. This helps provide accurate overall production times.  
+
+## <a name="considerations-about-capacity"></a>Considerations about capacity
+
+The capacity and efficiency that is specified for a work and machine centre not only affect the available capacity. They also impact the overall production time that consists of the setup time and run time, which are both defined on the routing line.  
+
+When a specific routing line is allocated to a work or machine centre, the system calculates how much capacity is needed and how long will it take to complete the operation.  
+
+### <a name="run-time"></a>Run time
+
+To calculate the run time, the system allocates the exact time that is defined in the **Run Time** field of the routing line. Neither efficiency nor capacity impact the allocated time. For example, if the run time is defined as 2 hours, then the allocated time will be 2 hours, regardless of values in the efficiency and capacity fields in the work centre.  
+
+> [!NOTE]
+> The capacity that is used in the calculations is defined as the minimal value between the capacity that is defined in the work or machine centre and the concurrent capacity that is defined for the routing line. If a work centre has a capacity of 100, but the concurrent capacity for the routing line is 2, then *2* will be used in the calculations.
+
+The *duration* of an operation, on the contrary, considers both efficiency and capacity. Duration is calculated as *Run Time / Efficiency / Capacity*. The following list shows a few examples of the calculation of duration for the same run time, which is defined as 2 hours for the routing line:
+
+- Efficiency 80% means you will need 2.5 hours instead of two hours  
+- Efficiency 200% means you can complete the work in one hour - you can dig the hole twice faster if you have an excavator that is twice the size of the smaller one  
+
+    You can achieve the same result if you use two smaller excavators instead of a large one – use *2* as the capacity and *100%* as the efficiency  
+
+The fractional capacity is tricky, and we will discuss it later. 
+
+### <a name="setup-time"></a>Setup time
+
+Time allocation for the setup time depends on the capacity and is calculated as *Setup Time * Capacity*. For example, if the capacity is set to *2*, your allocated setup time will be doubled, because you must set up two machines for the operation.  
+
+*Duration* of setup time depends on efficiency and is calculated as *Setup Time / Efficiency*. 
+
+- Efficiency 80% means you will need 2.5h instead of two hours to set up  
+- Efficiency 200% means you can complete setup in 1h instead of 2 hours defined in the Routing Line  
+
+The fractal capacity is not something easy to embrace, and it is used in very specific cases.
+
+### <a name="work-center-processing-multiple-orders-simultaneously"></a>Work centre processing multiple orders simultaneously
+
+Let's use a paint-spraying booth as an example. It has the same setup and run time for each processed lot. But each lot can contain multiple individual orders that are painted simultaneously.  
+
+In this case, the time and cost that is allocated to orders is managed by the setup time and the concurrent capacity. We recommend that you not use run time in the routing lines.  
+
+The allocated setup time for each individual order will be in reverse order of the number of orders (quantities) that are executed simultaneously. Here are some more examples of the calculation of setup time when that is defined as two hours for the routing line:
+
+- If there are two orders, then the concurrent capacity in the routing line should be set to 0.5.
+
+    As a result, the allocated capacity for each will be one hour, but the duration for each order will remain two hours.
+- If there are two orders with a quantity of one and four, respectively, then the concurrent capacity for the routing line of the first order is 0.2, and 0.8 for the second.  
+
+    As a result, the allocated capacity for the first order will be 24 min and for the second one 96. The duration for both orders remain two hours.  
+
+In both cases, the total allocated time for all orders is two hours.
+
+
+### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Efficient resource can dedicate only part of their work date to productive work
+
+> [!NOTE]
+> This scenario is not recommended. We recommend that you use efficiency instead. 
+
+One of your work centres represents an experienced worker who works with 100% efficiency on tasks. But they can only spend 50% of their working time on tasks because the rest of the time they solve administrative tasks. While this worker is capable to complete a two hour task in exactly two hours, in average you must wait another two hours while the person is dealing with other assignments.  
+
+The allocated run time is two hours, and the duration is four hours.  
+
+Do not use setup time for such scenarios, as the system will allocate only 50% of the time. If the setup time is set to *2*, then the allocated setup time is one hour, and the duration is two hours.
+
+### <a name="consolidated-calendar"></a>Consolidated calendar
+
+When **Consolidated calendar** field is selected, then the work centre has no capacity of its own. Instead, its capacity is equal to the sum of the capacities of all the machine centres that are assigned to the work centre.  
+
+> [!NOTE]
+>  The efficiency of the machine centre is converted to the capacity of the work centre.
+
+For example, if you have two machine centres with an efficiency of 80 and 70, respectively, the consolidated calendar entry will have an efficiency of 100, a capacity of 1.5, and a total capacity as 12 hours (eight hour shift * 1.5 capacity). 
+
+> [!NOTE]
+>  Use the **Consolidated Calendar** field when you structure your routings to schedule production operations at the machine centre level, not the work centre level. When you consolidate the calendar, the **Work Centre Load** page and reports become an overview of the aggregate load in all machine centres that are assigned to the work centre.
+
+### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Example - Different Machine Centres Assigned to a Work Centre
+
 It is important to plan which capacities are to make up the total capacity when setting up the machine centres and work centres.
 
 If different machine centres (such as 210 Packing table 1, 310 Painting Cabin ...) are assigned to a work centre, the consideration of the single capacities of the machine centres is significant because failure of one machine centre can interrupt the entire process. The machine groups can be entered according to their capacity but may not be included in the planning. By deactivating the **Consolidated Calendar** field only the capacity of the work centre but not the machine centre is assigned in the planning.
@@ -79,15 +162,16 @@ If, however, identical machine centres (such as 210 Packing table 1 and 220 Pack
 If capacities of work centres are to make no contribution to the total capacity, you can achieve this with efficiency = 0.
 
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>To set up a capacity constrained machine or work centre
+
 You must set up production resources that you regard as critical and mark them to accept a finite load instead of the default infinite load that other production resources accept. A capacity-constrained resource can be a work centre or machine centre that you have identified as a bottleneck and would like to establish a limited, finite load for.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] does not support detailed shop floor control. It plans for a feasible utilisation of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimisation rules.
+[!INCLUDE[prod_short](includes/prod_short.md)] does not support detailed shop floor control. It plans for a feasible utilisation of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimisation rules.
 
-On the **Capacity-Constrained Resources** page, you can make setup that avoids overload of specific resources and ensure that no capacity is left unallocated if it could increase the turn-around time of a production order. In the **Dampener (% of Total Capacity)** field, you can add dampener time to resources to minimise operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.
+On the **Capacity-Constrained Resources** page, you can make setup that avoids overload of specific resources and ensure that no capacity is left unallocated if it could increase the turn-around time of a works order. In the **Dampener (% of Total Capacity)** field, you can add dampener time to resources to minimise operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.
 
 When planning with capacity-constrained resources, the system ensures that no resource is loaded above its defined capacity (critical load). This is done by assigning each operation to the nearest available time slot. If the time slot is not big enough to complete the entire operation, then the operation will be split into two or more parts placed in the nearest available time slots.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Capacity Constrined Resources**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Capacity Constrained Resources**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary.
 
@@ -96,11 +180,15 @@ When planning with capacity-constrained resources, the system ensures that no re
 
 > In case of operation splitting, the setup time is only assigned once because it is assumed that some manual adjustment is done to optimise the schedule.
 
-## <a name="see-also"></a>See Also  
+## <a name="see-also"></a>See Also
+
 [Create Shop Calendars](production-how-to-create-work-center-calendars.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
-[Manufacturing](production-manage-manufacturing.md)    
-[Planning](production-planning.md)   
+[Manufacturing](production-manage-manufacturing.md)  
+[Planning](production-planning.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

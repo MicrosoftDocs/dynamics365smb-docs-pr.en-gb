@@ -1,22 +1,22 @@
 ---
-title: Display Actionable Insights in Role Centres | Microsoft Docs
-description: The Essential Business Insights extension rotates a series of business insights on Role Centres.
+title: Display Actionable Insights in Role Centres
+description: Learn how the Essential Business Insights extension rotates a series of business insights on Role Centres.
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 10/01/2019
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 08a955f9fb2698b95e8cc92648be0e7c0bfe6e6c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 458e7826979b75c370cb0a90d90c2d64c9ab599e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311267"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322676"
 ---
 # <a name="the-essential-business-insights-extension"></a>The Essential Business Insights Extension
 The Essential Business Insights extension finds interesting business facts in your company data and displays them as newspaper-like headlines in Role Centres. Depending on what the extension finds in the data, the insights are from the last week, month, or three months from the current date. The insights update every 10 minutes.  
@@ -37,4 +37,7 @@ The following table describes the insights that this extension provides for each
 |Administrator| Displays a greeting, and link to product information.|
 
 ## <a name="see-also"></a>See Also
-[Customising [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)
+[Customising [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

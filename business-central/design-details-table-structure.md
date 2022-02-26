@@ -3,19 +3,19 @@ title: Design Details - Table Structure | Microsoft Docs
 description: To understand how the dimension entry storing and posting is redesigned, it is important to understand the table structure.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 04e9fda4d784f8e1fa049455ddcab989691e821c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 6d418633eb884f0b8cfca2f46fc69103a8fabdb2
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184635"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215735"
 ---
 # <a name="design-details-table-structure"></a>Design Details: Table Structure
 To understand how dimension entries are stored and posted, it is important to understand the table structure.  
@@ -87,7 +87,7 @@ In addition to other dimension fields in the table, these fields are important.
 |---------------|----------------|  
 |17|**G/L Entry**|  
 |21|**Cust. Ledger Entry**|  
-|25|**Vendor Ledger Entry**|  
+|25|**Supplier Ledger Entry**|  
 |32|**Item Ledger Entry**|  
 |110|**Sales Shipment Header**|  
 |111|**Sales Shipment Line**|  
@@ -153,7 +153,7 @@ Field 480 is editable in the following tables.
 |246|**Requisition Line**|  
 |295|**Reminder Header**|  
 |302|**Finance Charge Memo Header**|  
-|5405|**Production Order**|  
+|5405|**Works Order**|  
 |5406|**Prod. Order Line**|  
 |5407|**Prod. Order Component**|  
 |5615|**FA Allocation**|  
@@ -181,8 +181,7 @@ Field 480 exists in the following buffer tables.
 |5637|**FA G/L Posting Buffer**|  
 |7136|**Item Budget Buffer**|  
 
-## <a name="see-also"></a>See Also  
- [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
- [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)   
- [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   
- 
+## <a name="see-also"></a>See Also
+
+[Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  
+[Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   

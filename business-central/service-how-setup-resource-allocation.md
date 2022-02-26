@@ -3,22 +3,22 @@ title: Set Up Resource Allocation | Microsoft Docs
 description: Learn how the system can help ensure that you assign someone who has the skills required to provide a service.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resource, skill, service, zones
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 58f12e81a76712b8fa7704f3819b942ee0ba9773
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 048372c75affe83f50d8fd84359d481fb64835fa
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877454"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436633"
 ---
 # <a name="set-up-resource-allocation"></a>Set Up Resource Allocation
-To ensure that a service task is performed well, it's important to find a resource who is qualified to do the work. You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] so that it's easy to allocate someone who has the right skills for the job. In [!INCLUDE[d365fin](includes/d365fin_md.md)], we call this _resource allocation_. You can allocate resources based on their skill, availability, or whether they are in the same service zone as the customer. 
+To ensure that a service task is performed well, it's important to find a resource who is qualified to do the work. You can set up [!INCLUDE[prod_short](includes/prod_short.md)] so that it's easy to allocate someone who has the right skills for the job. In [!INCLUDE[prod_short](includes/prod_short.md)], we call this _resource allocation_. You can allocate resources based on their skill, availability, or whether they are in the same service zone as the customer. 
 
 To use resource allocation, you must set up:  
   
@@ -27,29 +27,29 @@ To use resource allocation, you must set up:
 * Whether to display resource skills and zones, and whether to display a warning if someone chooses unqualified resource, or a resource that is not in the customer zone.  
 
 ## <a name="to-set-up-skills"></a>To set up skills
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Skills**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Skills**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-skills-to-service-items-and-resources"></a>To assign skills to service items and resources
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items** or **Resources**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items** or **Resources**, and then choose the related link.  
 2. Open the card for the service item or resource, and then choose one of the following:  
   
     * For service items, choose **Resource Skills**.  
     * For resources, choose **Skills**.  
 
 ## <a name="to-set-up-zones"></a>To set up zones
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Zones**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Zones**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-zones-to-customers-and-resources"></a>To assign zones to customers and resources 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** or **Resources**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** or **Resources**, and then choose the related link.  
 2. Open the card for the service item or resource, and then choose one of the following:  
   
     * For customers, choose a zone in the **Service Zone Code** field.  
     * For resources, choose the **Service Zones** action.  
 
 ## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>To specify what to show when a resource is chosen
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Setup**, and then choose the related link. 
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Management Setup**, and then choose the related link. 
 2. In the **Resource Skills Option** field, choose one of the options described in the following table.  
   
     |**Option**|**Description**|  
@@ -61,14 +61,14 @@ To use resource allocation, you must set up:
 ## <a name="to-update-resource-capacity"></a>To update resource capacity  
 You may need to change the capacity of resources.  
   
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resource Capacity**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resource Capacity**, and then choose the related link.  
 2. Choose the resource, and then choose the **Set Capacity** action.  
 3. Make the changes, and then choose **Update Capacity**.  
 
 ## <a name="to-update-skills-for-items-service-items-or-service-item-groups"></a>To update skills for items, service items, or service item groups
 If you want to change the skill codes assigned to items, for example from **PC** to **PCS**, you can do so either for an item, service item, or for all items in a service item group.  
   
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** or **Service Item**, or **Service Item Group**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items** or **Service Item**, or **Service Item Group**, and then choose the related link.  
 2. Choose the entity to update, and then choose the **Resource Skills** action.  
 3. On the line with the code to be changed, in the **Skill Code** field, choose the relevant skill code.  
 4.  If the item has associated service items, a dialogue box opens with the following two options:  
@@ -83,3 +83,6 @@ If you want to change the skill codes assigned to items, for example from **PC**
 [Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

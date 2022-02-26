@@ -1,25 +1,26 @@
 ---
-title: Learn About General Ledger and COA| Microsoft Docs
-description: Describes the general ledger, the chart of accounts, and account categories.
+title: Understanding the General Ledger and COA
+description: Describes general ledger, the chart of accounts, and account categories. Use the General Ledger Setup page to specify handling accounting issues in your company.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 05/12/2020
+ms.search.form: 18, 20, 37, 65, 99, 312, 313, 395, 552, 569, 570, 634, 790, 791, 1158
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 098317d09a5ad8c3792de48e5332b4c247eff0e0
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 98aca02ceba638b65849ff8218bafe07be2190db
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372550"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973074"
 ---
-# <a name="understanding-the-general-ledger-and-the-coa"></a>Understanding the General Ledger and the COA
+# <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Understanding the General Ledger and the Chart of Accounts
 
-The general ledger stores your financial data, and the chart of accounts shows the accounts that all general ledger entries are posted to. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard chart of accounts that is ready to support your business.
+The general ledger stores your financial data, and the chart of accounts shows the accounts that all general ledger entries are posted to. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard chart of accounts that is ready to support your business.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>General Ledger Setup and General Posting Setup
 
@@ -31,10 +32,13 @@ On the **General Ledger Setup** page, you specify how to handle certain accounti
 * Address formats  
 * Financial reporting  
 
-Similarly, on the **General Posting Setup** page, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. For more information, see [Posting Group Setups](finance-posting-groups.md).  
-
 > [!TIP]
 > The **General Ledger Setup** page includes generic fields and fields that are particular to your country or region. If you are not sure of the meaning of a field, we suggest you work with your accountant to determine whether it is of relevance to your organisation.  
+
+Similarly, on the **General Posting Setup** page, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, suppliers, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. But you can also open each line in its own posting setup card. For more information, see [Posting Group Setups](finance-posting-groups.md).  
+
+> [!TIP]
+> If you cannot see the fields that you are looking for in the **General Posting Setup** page, then use the horizontal scroll bar at the bottom of the page to scroll to the right.  
 
 ## <a name="the-chart-of-accounts"></a>The Chart of Accounts
 
@@ -42,7 +46,7 @@ The chart of accounts shows all general ledger accounts. From the chart of accou
 
 * View reports that show general ledger entries and balances.  
 * Close your income statement.  
-* Open the G/L account card to add or change settings.  
+* Open the general ledger (G/L) account card to add or change settings.  
 * See a list of posting groups that post to that account.
 * View separate debit and credit balances for a single account  
 
@@ -52,22 +56,39 @@ You can add, change, or delete general ledger accounts. However, to prevent disc
 
 You can personalise the structure of your financial statements by mapping general ledger accounts to account categories.  
 
-The **G/L Account Categories** page shows your categories and subcategories, and the G/L accounts that are assigned to them. You can create new subcategories and assign those categories to existing accounts.  
+The **G/L Account Categories** page shows your categories and subcategories, and the general ledger accounts that are assigned to them. You can create new subcategories and assign those categories to existing accounts.  
 
 You create a category group by indenting other subcategories under a line on the **G/L Account Categories** page. This makes it easy for you to get an overview, because each grouping shows a total balance. For example, you can create subcategories for different types of assets, and then create category groups for fixed assets versus current assets.  
 
 You can specify whether the accounts in each subcategory must be included in specific types of reports. The account categories help define the layout of your financial statements.  
 
-For example, the default balance statement has a subcategory for Cash under Current Assets. If you want the balance statement consider petty cash and chequing, you can:  
+### <a name="example"></a>Example
 
-1. Add two new subcategories. One for petty cash, and one for your current account.  
+For example, the default balance statement has a subcategory for *Cash* under *Current Assets*. You want the balance statement consider petty cash and checking, so you take the following steps:  
+
+1. Add two new subcategories:
+
+    * One for petty cash  
+    * One for your current account  
 2. Specify the additional report definition **Cash Accounts** for these subcategories.  
 3. Indent them under the **Cash** subcategory.  
 
-The next time you generate account schedules your balance statement will show a total balance for cash and two lines with balances for petty cash and the current account.  
+The next time you generate account schedules, your balance statement will show a total balance for cash and two lines with balances for petty cash and the current account.  
+
+## <a name="getting-a-quick-overview"></a>Getting a Quick Overview
+
+The Chart of Accounts page displays accounts in a hierarchical list that offers fast access to the key information for each account. However, the list is static, and if you have a lot of accounts you might have to do a bit of scrolling to view information for different accounts. If you just want a quick overview of the basics, such as net changes and balances, the **Chart of Accounts Overview** page is a useful alternative. The column layout on the page is now the same as you’ll find on the Chart of Accounts page (there are just fewer of them), so you won’t have to reorient yourself, and you can expand or collapse the hierarchical levels to condense the view. To make it easy to switch between the pages, the **Chart of Accounts Overview** page is available from the Chart of Accounts page.
+
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Access to create and edit accounts and account categories
+
+In a small organisation, such as the CRONUS demonstration company, most users can edit the chart of accounts, except users with a TEAM MEMBER licence. However, in larger organisations, access to edit the chart of accounts is limited by roles and permissions. If you are an administrator, or you have the *Business manager* or *Accountant* role, you can check the permissions for all users to make sure the right people have access to the relevant tables. For more information, see [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
 ## <a name="see-also"></a>See Also
 
 [Finance](finance.md)  
 [Setting Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
+[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: How to Pick for Internal Operations in Advanced Warehouse Configurations | Microsoft Docs
-description: In advanced warehouse configurations where the location is set up to use picking as well as shipping, you can pick components for production and assembly activities with the **Warehouse Pick** page.
+title: Pick for Internal Operations in Advanced Warehouse Configurations
+description: If your locations use picking as well as shipping, pick components for production and assembly activities in the Warehouse Pick page.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f14033311acdca8819d6dcb585195018ebea6c0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 5ef90e4c99a567e6abe18f06b8a9be29365323bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192985"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445779"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Pick for Production or Assembly in Advanced Warehouse Configurations
 In advanced warehouse configurations where the location is set up to use picking as well as shipping, you can pick components for production and assembly activities with the **Warehouse Pick** page.  
@@ -30,18 +30,18 @@ You can create the warehouse pick document in a push fashion by selecting **Crea
 
 Alternatively, you can create the warehouse pick document in a pull fashion by using the **Pick Worksheet** page to detect pick requests, both for shipment and internal operations, and then create the required warehouse pick documents.  
 
-The following procedure explains a pull scenario where you pick components for a released production order through the **Pick Worksheet** page. The procedure also applies for an assembly order.  
+The following procedure explains a pull scenario where you pick components for a released works order through the **Pick Worksheet** page. The procedure also applies for an assembly order.  
 
 To create pick requests, both for pull and for push scenarios, the source documents in question must be released. Release source documents for internal operations in the following ways.  
 
 |Source Document|Release Method|  
 |---------------------|--------------------|  
-|Production Order|Change order type to released production order.|  
+|Works Order|Change order type to released works order.|  
 |Assembly Order|Change status to Released.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>To pick components using the pick worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
-2.  Choose the **Get Warehouse Documents** action, and then select the component lines from the released production order.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
+2.  Choose the **Get Warehouse Documents** action, and then select the component lines from the released works order.  
 3.  Inspect the lines, sort them to ensure an efficient picking round, and combine them with other worksheet lines if necessary to make best use of employee time.  
 4.  Choose the **Create Pick** action.  
 5.  Define how to create the warehouse pick documents and how to sort pick lines by filling fields on the **Create Pick** page.  
@@ -50,9 +50,9 @@ To create pick requests, both for pull and for push scenarios, the source docume
 If the internal operation area, such as a production shop floor, is set up with a default bin for placement of components to be used in the operation, then that bin code is inserted in the Place lines on the warehouse pick document to instruct warehouse workers where to place the items. For more information, see the **To-Production Bin Code** or the **To-Assembly Bin Code** field.
 
 ## <a name="filling-the-consumption-bin"></a>Filling the Consumption Bin
-This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.
+This flow chart shows how the **Bin Code** field on works order component lines is filled according to your location setup.
 
-![Bin flow chart](media/binflow.png "BinFlow")  
+![Bin flow chart.](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>See Also
 [Warehouse Management](warehouse-manage-warehouse.md)  
@@ -60,4 +60,7 @@ This flow chart shows how the **Bin Code** field on production order component l
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

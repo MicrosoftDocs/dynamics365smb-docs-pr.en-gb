@@ -24,8 +24,8 @@ To keep your accountant updated when you send invoices to your customers by emai
 
 ## <a name="to-add-the-accountants-email-address"></a>To add the accountant's email address
 
-1. In [!INCLUDE[d365inv](includes/d365inv.md)], in the top right corner, choose the gear symbol, and then choose **My Settings** .  
-2. In the Settings panel, scroll down to **Email settings** , and then choose the first empty row.  
+1. In [!INCLUDE[d365inv](includes/d365inv.md)], in the top right corner, choose the gear symbol, and then choose **My Settings**.  
+2. In the Settings panel, scroll down to **Email settings**, and then choose the first empty row.  
 3. In that row, enter the email address for the person you want to receive copies of all the invoicing emails your business sends out, and then choose whether the accountant should receive the emails either as CC (carbon copy), or as BCC (blind carbon copy). If you don't want the recipient of the invoice to have access to your internal emails, choose BCC.
 
 Choose the **Remove** link if you want to remove an email address from the list.

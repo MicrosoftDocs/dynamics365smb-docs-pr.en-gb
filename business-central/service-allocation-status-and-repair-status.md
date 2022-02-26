@@ -1,23 +1,21 @@
 ---
 title: Allocation Status and Repair Status | Microsoft Docs
 description: Learn about the relationship between the repair status of service items and the allocation status of the allocation entries for them.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cffd91900c5644ab31764290c0a3ff78a4685171
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9cf3349d654a4e007079075c64e9e56654619810
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316243"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772411"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Allocation Status and Repair Status of Service Items
 The repair status of service items and the allocation status of the allocation entries for the service items have a certain relationship in Service Management. The allocation status changes when you change the repair status of the service item to **Finished** or **Partly Serviced** and when you convert a service quote to a service order. The repair status of the service item changes when you cancel the service item allocation or reallocate the service item to another resource. You can view the repair status of service items on the **Service Tasks** page and you can update the repair status in the **Repair Status Code** field on the **Service Item Worksheet** page. You can view the allocation status in the **Status** field on the **Resource Allocations** page.  
@@ -40,7 +38,7 @@ When you convert a service quote to a service order, the service order, the serv
 * There is a search for allocation entries for all the service items in the service order that have the status **Active**. If such allocation entries are found, their allocation status is changed from **Active** to **Reallocation Needed**.  
   
 ## <a name="canceling-allocations"></a>Cancelling Allocations  
-When you cancel an allocation for a service item, [!INCLUDE[d365fin](includes/d365fin_md.md)] updates the allocation status of the corresponding allocation entry from **Active** to **Reallocation Needed**.
+When you cancel an allocation for a service item, [!INCLUDE[prod_short](includes/prod_short.md)] updates the allocation status of the corresponding allocation entry from **Active** to **Reallocation Needed**.
 
 The repair status of the service item in the allocation entry is updated in the following ways:  
   
@@ -72,3 +70,6 @@ A new allocation entry that contains the new resource is created that has the st
 [Set Up Resource Allocations](service-how-setup-resource-allocation.md)  
 [Allocate Resources](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

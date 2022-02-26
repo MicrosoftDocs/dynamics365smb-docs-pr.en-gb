@@ -1,24 +1,24 @@
 ---
-title: Set Up Service Offerings | Microsoft Docs
-description: Learn how to set up the services that you offer to your customers.
+title: Set Up Service Offerings
+description: When you set up service management, you must decide what services to offer customers and the schedule for those services.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 8d34ef54ebfe16b59149036d59c2ce6e264baefb
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: a3a61ba65136aa15836039ac54057eefff37f29d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877262"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323892"
 ---
 # <a name="set-up-service-offerings"></a>Set Up Service Offerings
-When you set up service management, you must decide what services to offer customers and the schedule for those services. A service is a type of work performed by one or more resources and provided to a customer. For example, a service could be a type of computer repair. A service item is the equipment or item that needs servicing, for example, the computer that needs repair, installed at a specific customer. You can set up services as part of a group of related repair or maineenance items.  
+When you set up service management, you must decide what services to offer customers and the schedule for those services. A service is a type of work performed by one or more resources and provided to a customer. For example, a service could be a type of computer repair. A service item is the equipment or item that needs servicing, for example, the computer that needs repair, installed at a specific customer. You can set up services as part of a group of related repair or maintenance items.  
   
 The following table describes a sequence of tasks, with links to the topics that describe them.  
   
@@ -29,3 +29,5 @@ The following table describes a sequence of tasks, with links to the topics that
   
 ## <a name="see-also"></a>See Also  
 [Setting Up Service Management](service-setup-service.md)   
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
-title: Electronic documents in Business Central   | Microsoft Docs
-description: Introduction to sending and receiving electronic documents in Business Central.
+title: Electronic documents in Business Central
+description: This is an overview of how to use the Data Exchange Framework to manage the exchange of data in business documents like bank files and currency exchange rates.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 01/30/2020
-ms.author: sgroespe
-ms.openlocfilehash: ac4060caf413245720c01d55e7ebf809d973a647
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
+ms.date: 06/10/2021
+ms.author: edupont
+ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999838"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588383"
 ---
 # <a name="exchanging-data-electronically"></a>Exchanging Data Electronically
 You can use the Data Exchange Framework to manage the exchange of business documents, bank files, currency exchange rates, and any other data files with your business partners.
 
-In the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the Data Exchange Framework is used in features, such as Electronic Documents, Bank File Import/Export, and Currency Exchange Rates Update. For more information, see [About the Data Exchange Framework](across-about-the-data-exchange-framework.md).
+In the standard version of [!INCLUDE[prod_short](includes/prod_short.md)], the Data Exchange Framework is used in processes such as exchanging electronic documents, importing and exporting bank files, and updating exchange rates for currencies. For more information, see [About the Data Exchange Framework](across-about-the-data-exchange-framework.md).
 
-As an administrator or Microsoft partner, you can use the framework in new integration features by setting up which data to exchange and how. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
+As an administrator or Microsoft partner, you can use the framework in new integration features by specifying the data to exchange, and how to exchange it. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.  
 
@@ -39,3 +39,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Exchanging Data](across-exchange-data.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

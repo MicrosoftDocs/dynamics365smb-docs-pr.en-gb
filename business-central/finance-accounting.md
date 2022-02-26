@@ -1,50 +1,60 @@
 ---
-title: Business Central accountant experience | Microsoft Docs
-description: Learn about the accountant portal for Business Central and the Accountant Role Centre that supports internal and external accountants in the client company.
+title: Accountant experiences in Business Central (contains video)
+description: Learn about the Accountant Role Centre and the Company Hub that support internal and external accountants in the client company.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 06/01/2020
+ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1aaf04237261481f21d10d5e7966666132ff1a8e
-ms.sourcegitcommit: c5fcc204a1ba8aaf153ce3ad5d150295b144c0e4
+ms.openlocfilehash: 9d4c7884ead0b7821556c1db410f0fe06ea5aeff
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413650"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029463"
 ---
-# <a name="accountant-experiences-in-d365fin_long"></a>Accountant Experiences in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[d365fin](includes/d365fin_md.md)]. From here, you can access all pages that you need in your work.  
+# <a name="accountant-experiences-in-prod_long"></a>Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
+
+Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[prod_short](includes/prod_short.md)]. From here, you can access all pages that you need in your work.  
 
 ## <a name="accountant-role-center"></a>Accountant Role Centre
+
 The Role Centre is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. In the ribbon at the top of the page, you have access to more actions, such as opening the most commonly used financial reports and statements in Excel. In the navigation bar at the top, you can quickly switch between the lists you use most often. Here, you will see other areas, such as **Posted Documents** with the various types of documents that the company has posted.  
 
-If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a list of videos right from your Role Centre. You can also launch a **Getting Started** tour that points out key areas.  
+If you are new to [!INCLUDE[prod_short](includes/prod_short.md)], you can launch a list of videos right from your Role Centre. You can also launch a **Getting Started** tour that points out key areas.  
 
-## <a name="inviting-your-external-accountant-to-your-d365fin"></a><a name="inviteaccountant"></a>Inviting Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]
-If you use an external accountant to manage your books and financial reporting, your administrator can invite them to your [!INCLUDE[d365fin](includes/d365fin_md.md)] so they can work with you on your fiscal data. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes three licences of type External Accountant. For more information about licensing, see the [Microsoft Dynamics 365 Business Central Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590).
+## <a name="company-hub"></a>Company Hub
 
-Once your accountant has gained access to your [!INCLUDE[d365fin](includes/d365fin_md.md)], they can use the **Accountant** Role Centre that gives easy access to the most relevant pages for their work.  
+If you work in multiple [!INCLUDE [prod_short](includes/prod_short.md)] companies, you might find it useful to use the **Company Hub** page to keep track of work.  For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).  
+
+## <a name="inviting-your-external-accountant-to-your-prod_short"></a><a name="inviteaccountant"></a>Inviting Your External Accountant to Your [!INCLUDE[prod_short](includes/prod_short.md)]
+
+If you use an external accountant to manage your books and financial reporting, your administrator can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your financial data. [!INCLUDE[prod_short](includes/prod_short.md)] includes three licences of type External Accountant. For more information about licensing, see the [Microsoft Dynamics 365 Business Central Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590).
+
+Once your accountant has gained access to your [!INCLUDE[prod_short](includes/prod_short.md)], they can use the **Accountant** Role Centre that gives easy access to the most relevant pages for their work. They can also use the company hub in their own [!INCLUDE [prod_short](includes/prod_short.md)] to manage their work. For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Fnyw?rel=0]
 
 We have made it easy for you to invite your external accountant. Simply open the **Users** page, and then choose the **Invite External Accountant** action in the ribbon. An email is made ready for you, just add your accountant's work email, and send the invitation.  
 
 > [!Note]  
-> This requires that you have set up SMTP email. For more information, see [Set Up Email](admin-how-setup-email.md).   
+> This requires that you have set up SMTP email. For more information, see [Set Up Email](admin-how-setup-email.md).  
 
-<!-- ![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)-->
+<!-- ![Invite your accountant.](./media/finance-invite-accountant/invite-accountant.png)-->
 
 > [!IMPORTANT]  
-> The accountant's email address must be a work address that is based on Azure Active Directory. If the accountant uses another type of email, then the invitation cannot be sent. 
-> 
-> This task requires access to managing users and licences in Azure Active Directory, the user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Microsoft 365 admin centre. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) in the Microsoft 365 admin content.  
+> The accountant's email address must be a work address that is based on Azure Active Directory. If the accountant uses another type of email, then the invitation cannot be sent.
+>
+> This task requires access to managing users and licences in Azure Active Directory. The user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Microsoft 365 admin centre. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) in the Microsoft 365 admin content.  
 
-### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Adding your accountant to your Office 365 via Azure Portal
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Adding your accountant to your Microsoft 365 in the Azure portal
 
-If your administrator or reselling partner do not want to use the **Invite External Accountant** guide, they can add an external user in the Azure Portal and assign this user the External Accountant licence. For more information, see [Quickstart: Add guest users to your directory in the Azure portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
+If your administrator or reselling partner do not want to use the **Invite External Accountant** guide, they can add an external user in the Azure portal and assign this user the *External Accountant* licence. For more information, see [Quickstart: Add guest users to your directory in the Azure portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
 #### <a name="to-add-your-accountant-as-a-guest-user"></a>To add your accountant as a guest user
 
@@ -54,45 +64,40 @@ If your administrator or reselling partner do not want to use the **Invite Exter
 4. Select **New guest user**.
 5. On the **New user** page, select **Invite user** and then add information about your external accountant.  
 
-   Optionally, include a personal welcome message to the accountant to let them know that you are adding them to your [!INCLUDE [prodshort](includes/prodshort.md)].
+   Optionally, include a personal welcome message to the accountant to let them know that you are adding them to your [!INCLUDE[prod_short](includes/prod_short.md)].
 
 6. Select **Invite** to automatically send the invitation. A notification appears in the upper right with the message **Successfully invited user**. 
 7. After you send the invitation, the user account is automatically added to the directory as a guest.
 
-Next, you must assign the new guest user a licence to [!INCLUDE [prodshort](includes/prodshort.md)].
+Next, you must assign the new guest user a licence to [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>To give your accountant access to your [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prod_short"></a>To give your accountant access to your [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. In the Azure portal, on the newly added user, choose **Profile**, and then choose **Edit**
 2. Update the **Usage Location** field to the relevant country, and then choose **Save**.
 3. Choose **Licences**, and then open **Assignments**.
 4. Choose the **Dynamics 365 Business Central External Accountant** licence.  
+    
+    If this licence is not available, contact your reselling partner to add the licence to your subscription.
 
-    If this licence is not available, you must use an available **Dynamics 365 Business Central for IWs** licence instead.
+    Specifically for evaluation purposes in a trial tenant, you can use an available **Dynamics 365 Business Central for IWs** licence instead. However, you cannot use this type of licence if you have already purchased [!INCLUDE[prod_short](includes/prod_short.md)]. 
 5. Save the assignment.
 
 If successful, the licence is assigned to the guest user, and the guest account is created.
 
-### <a name="importing-the-new-user-into-prodshort"></a>Importing the new user into [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prod_short"></a>Importing the new user into [!INCLUDE[prod_short](includes/prod_short.md)]
 
-The accountant will receive an email that notifies them that they have been given access to your Active Directory. Next, you must give them access to the right company in [!INCLUDE [prodshort](includes/prodshort.md)].
+The accountant will receive an email that notifies them that they have been given access to your Active Directory. Next, you must give them access to the right company in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 #### <a name="to-add-the-accountant-to-the-right-company"></a>To add the accountant to the right company
 
-1. Open the [!INCLUDE [prodshort](includes/prodshort.md)] company that you want to give the accountant access to at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then chose the related link.  
-3. Choose the **Get New Users from Office 365** action.
+1. Open the [!INCLUDE[prod_short](includes/prod_short.md)] company that you want to give the accountant access to at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
+2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then chose the related link.  
+3. Choose the **Get New Users from Microsoft 365** action.
 
 This imports the user account that you created in the Azure portal to the company. For more information, see [To add a user in Business Central](ui-how-users-permissions.md#adduser).  
 
-If you want to give access to multiple companies, then you must log into each company and repeat this process. Alternatively, you can update the permission groups for the accountant's user profile in [!INCLUDE [prodshort](includes/prodshort.md)], such as assigning them the *D365 Bus Premium* user group. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
-
-<!--## Accountant Hub
-
-If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
-
-> [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
+If you want to give access to multiple companies, then you must log into each company and repeat this process. Alternatively, you can update the permission groups for the accountant's user profile in [!INCLUDE[prod_short](includes/prod_short.md)], such as assigning them the *D365 Bus Premium* user group. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
 ## <a name="see-also"></a>See Also
 
@@ -102,5 +107,9 @@ If you are an accountant with several clients, you can use [!INCLUDE[d365acc_lon
 [Closing Years and Periods](year-close-years-periods.md)  
 [Working with Dimensions](finance-dimensions.md)  
 [Analyzing Financial Statements in Excel](finance-analyze-excel.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

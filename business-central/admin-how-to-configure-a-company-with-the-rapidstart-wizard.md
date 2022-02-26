@@ -3,19 +3,19 @@ title: How to Configure a Company with the RapidStart Wizard | Microsoft Docs
 description: You can quickly configure a new company that you have created by using the RapidStart Services configuration wizard.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1a9d4c2a4a99ebec0aa1fc019871608948844b7a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: ca03ba59e02dd1efe1b76c679e12e77044ca95e3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187227"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439667"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configure a Company with the RapidStart Wizard
 You can quickly configure a new company that you have created by using the RapidStart Services configuration wizard.
@@ -39,7 +39,7 @@ In the following procedure, you have provided the customer with the configuratio
     >  Only change your Role Centre after you have completed configuration of the company. If you have more setup details to consider and modify, first use the configuration worksheet to continue your work. Then, return to the wizard to update your Role Centre profile, or choose the **Complete Setup** action.
 
 7. Choose the **OK** button.  
-8. To verify that the configuration information has been applied to the new company, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+8. To verify that the configuration information has been applied to the new company, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
 
 The **Company Information** page contains information that you have specified.   
 
@@ -49,3 +49,6 @@ You have now configured the company and applied data to it.
 [Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

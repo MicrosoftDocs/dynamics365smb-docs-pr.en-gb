@@ -1,36 +1,36 @@
 ---
-title: How to Create Special Orders | Microsoft Docs
-description: You can create a special order for a specific catalogue item to be shipped to a specific customer. Your vendor ships the item to your warehouse and you can then ship the item on to your customer either independently or together with other items on another order.
+title: How to Create Special Orders
+description: Learn how to create a special order for a specific catalogue item to be shipped to a specific customer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: a64b2fc63cd969afbf93bb380592b11e9ad16bc2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 80c26420a4a8e90a2a2b076169f6af505343ad76
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312011"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440260"
 ---
 # <a name="create-special-orders"></a>Create Special Orders
-You can create a special order for a specific catalogue item to be shipped to a specific customer. Your vendor ships the item to your warehouse and you can then ship the item on to your customer either independently or together with other items on another order.  
+You can create a special order for a specific catalogue item to be shipped to a specific customer. Your supplier ships the item to your warehouse and you can then ship the item on to your customer either independently or together with other items on another order.  
 
 Special orders imply that the purchase and sales order are linked to ensure that the specific catalogue item is picked and delivered to the customer.  
 
-Before you can use this feature, you must first set up the customer, vendor, and item cards necessary for the order.  
+Before you can use this feature, you must first set up the customer, supplier, and item cards necessary for the order.  
 
 ## <a name="to-create-a-special-order"></a>To create a special order  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.  
 2. Choose the **New** action. Create and fill in a  sales order for the item. For more information, see [Sell Products](sales-how-sell-products.md).
 3.  On the **Lines** FastTab, fill in the sales line. In the **Purchasing Code** field, select a purchasing code that has the **Special Order** field selected.
 
     You must now create a purchase order from a requisition worksheet.  
-4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requisition Worksheet**, and then choose the related link.  
+4. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requisition Worksheet**, and then choose the related link.  
 5. Choose the **Special Order** action, and then choose the **Get Sales Orders** action.  
 6.  On the **Get Sales Orders** page, show results where the **Document No.** is the sales order number. Choose the **OK** button. A requisition worksheet line is created for the item.  
 7.  On the requisition worksheet line, in the **Action Message** field, select **New**.  
@@ -48,4 +48,7 @@ A purchase order created as a special order for a sales order is respected by th
 [Sales](sales-manage-sales.md)  
 [Make Drop Shipments](sales-how-drop-shipment.md)   
 [Design Details: Reordering Policies](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
