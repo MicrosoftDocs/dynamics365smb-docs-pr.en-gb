@@ -4,7 +4,6 @@ description: In Business Central, interactions are all types of communications b
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: de3362b82bdba2248e8d3e288822ec12db0fcc05
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 6cb8696d84bf9e40d07f7f29a6c2e08b39c30b2c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011159"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135167"
 ---
 # <a name="managing-interactions-with-your-contacts"></a>Managing Interactions with your Contacts
 In [!INCLUDE[prod_short](includes/prod_short.md)], interactions are all types of communications between your company and your contacts. For example, communications can be email, letter, telephone, meetings, and so on.

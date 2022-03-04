@@ -4,7 +4,6 @@ description: Outlines the tasks to specify information and codes, for example, a
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ed9a7b84798ac7b0bf103329c9e06ea0468aa03b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 33bb659621fe31d096020c52906915c9697e6a60
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788084"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137842"
 ---
 # <a name="set-up-contacts"></a>Set Up Contacts
 When creating contacts, you can enter specific information, such as the industry that the contact belong to and your business relationship with the contacts.
@@ -142,7 +141,7 @@ When you modify one of these fields on the contact company card, the same fields
 For more information, see [Create Contacts](marketing-create-contact-companies.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Using Predefined Defaults on New Contacts
-You can decide that the application automatically assigns a specific language code, territory code, salesperson code, and country/region code as defaults to each new contact you create. You can also enter a default sales cycle code that application automatically assigns to each new opportunity you create. You set this up on the On the **Defaults** FastTab on the **Marketing Setup** page
+You can decide that the application automatically assigns a specific language code, county code, salesperson code, and country/region code as defaults to each new contact you create. You can also enter a default sales cycle code that application automatically assigns to each new opportunity you create. You set this up on the On the **Defaults** FastTab on the **Marketing Setup** page
 
 The inheritance of fields overwrites the default values you have set up. For example, if you have set up English as the default language, but the contact company's language is German, application will automatically assign German as the language code for the contact persons recorded for that company.
 

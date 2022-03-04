@@ -2,7 +2,6 @@
 title: How to Block Items from Sales or Purchasing
 description: You can block items from being entered on lines in sales or purchase documents, as well as from being posted in a transaction.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 744d19675fe3ae95bcbaa56d6e8555ac734180e6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 10f915a264508a105d449b3057c8c713d1eb25a5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441175"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130495"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Block Items from Sales or Purchasing
 You can block an item from being entered on lines in sales or purchase documents, and you can block it from being posted in any transaction. For example, this is useful when an item has a known defect. If someone chooses a blocked item on a sales or purchase document a message will inform them that the item is blocked.

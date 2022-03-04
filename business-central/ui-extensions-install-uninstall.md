@@ -3,7 +3,6 @@ title: Installing and Uninstalling Extensions in Business Central  | Microsoft D
 description: Learn about installing and uninstalling extensions in Business Central.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: b9028bf88940a8c378469078ca680858b7702872
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 7868e0dc10c3ec0f81f39b714b8d517fcf3c5f06
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589164"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140404"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installing and Uninstalling Extensions in Business Central
 
@@ -67,7 +66,7 @@ Microsoft provides the following extensions:
 * [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)
 * [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
 * [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
-* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
+* [Sales and Stock Forecast](ui-extensions-sales-forecast.md)
 * [VAT Group](ui-extensions-vat-group.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 * [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)

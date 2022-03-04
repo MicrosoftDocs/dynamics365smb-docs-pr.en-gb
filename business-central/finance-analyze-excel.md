@@ -2,18 +2,17 @@
 title: Work with financial overviews in Excel
 description: Learn about how you can open the financial statements in Microsoft Excel from Business Central for better analysis.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ec34d0e1898340a3c948d422a24781df44cc1206
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: ac018d5477d42189d648936bfc7511f6214d52b5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012058"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136147"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysing Financial Statements in Microsoft Excel
 

@@ -2,7 +2,6 @@
 title: Set Up Fault Reporting in Service Management
 description: Fault reporting lets you establish standards for recording fault information for service items with fault codes and more.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b3563d840976b6a3c586e5a75a2f76379e8c5526
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0a9ed0fc94b2f4e6c509abcf1143b6eab5921de6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440135"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139372"
 ---
 # <a name="set-up-fault-reporting"></a>Set Up Fault Reporting
 Fault reporting lets you establish standards for recording fault information for service items. For example, you can specify what the problem is, the symptoms you see, the reason for the problem, and how to resolve it.  

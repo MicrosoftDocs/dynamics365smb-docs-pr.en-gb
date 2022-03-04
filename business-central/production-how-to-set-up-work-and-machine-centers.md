@@ -2,7 +2,6 @@
 title: Set Up Work Centres and Machine Centres
 description: A Work Centre card organises the fixed values and requirements of the production resource, and thus governs the output of production performed in that work centre.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 330b17ef124c659cb69ddf3ac50e613f736b1d4b
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 3d504897d7a0ac8f24f49d09a4f8ee92035fa13e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972756"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132765"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Set Up Work Centres and Machine Centres
 

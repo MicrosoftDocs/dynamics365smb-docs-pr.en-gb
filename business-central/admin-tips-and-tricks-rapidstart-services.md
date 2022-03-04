@@ -2,7 +2,6 @@
 title: Tips and Tricks - RapidStart Services | Microsoft Docs
 description: When you configure companies using RapidStart Services, there are some tips and tricks that you can take advantage of to help your implementation go smoothly.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e301d788fdedacf0fc2ac3ce29946df965bed711
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9b08f4ed71afb580438a5fc8d67cbdfc6c0f5ac6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777073"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129032"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Tips and Tricks: RapidStart Services
 

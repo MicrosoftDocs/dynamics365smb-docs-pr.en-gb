@@ -2,7 +2,6 @@
 title: Specify When and How to Receive Workflow Notifications
 description: When you set up users in approval workflows you can specify how and when each approval user receives notifications.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6812fa270066b03fa64a7d8c664ef4df8d28eff0
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102506"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129174"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Specify When and How to Receive Workflow Notifications
 When you set up approval users in workflows where you want someone to approve changes, such as when new records are created or when someone requests an approval, you must specify how and when the approval user will be notified. For example, you can specify that an approval user will immediately receive an email when someone creates a new customer. Alternatively, you can schedule the notifications to be delivered, for example, on a weekly or monthly basis.

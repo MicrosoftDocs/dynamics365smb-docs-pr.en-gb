@@ -2,7 +2,6 @@
 title: Assembly Management
 description: Support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d149ed0da02124a442668bb67a659c0dde36dad3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: d1b879eeabfb42298bb1bf8a10d3b53870da3aa7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326370"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130651"
 ---
 # <a name="assembly-management"></a>Assembly Management
 To support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality, [!INCLUDE[prod_short](includes/prod_short.md)] includes features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.  
@@ -51,7 +50,7 @@ The following table describes a sequence of tasks, with links to the topics that
 ## <a name="see-also"></a>See Also
 
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
-[Inventory](inventory-manage-inventory.md)  
+[Stock](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)  
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->

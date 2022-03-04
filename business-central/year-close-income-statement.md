@@ -2,7 +2,6 @@
 title: Close Income Statement Accounts
 description: At year closing, you must run the Close Income Statement batch job to close the accounting periods that make up the financial year.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 44e2d34ee4af32bcb901a66ae7e45b45ac274bd5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0f305c6284a617594202ac8e38ce786d7019f489
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435754"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139065"
 ---
 # <a name="closing-income-statement-accounts"></a>Closing Income Statement Accounts
 When a financial year is over, you must close the periods that comprise it. To do this, you run the **Close Income Statement** batch job. This job transfers the year's result to an account in the balance sheet and closes the income statement accounts. You do this by creating lines in a journal, which you then can post.

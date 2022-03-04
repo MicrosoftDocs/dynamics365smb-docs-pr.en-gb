@@ -2,7 +2,6 @@
 title: Set Up Resource Allocation | Microsoft Docs
 description: Learn how the system can help ensure that you assign someone who has the skills required to provide a service.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 048372c75affe83f50d8fd84359d481fb64835fa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a1455e315cf575d7ac7549113770d5cafa5012c8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436633"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139320"
 ---
 # <a name="set-up-resource-allocation"></a>Set Up Resource Allocation
 To ensure that a service task is performed well, it's important to find a resource who is qualified to do the work. You can set up [!INCLUDE[prod_short](includes/prod_short.md)] so that it's easy to allocate someone who has the right skills for the job. In [!INCLUDE[prod_short](includes/prod_short.md)], we call this _resource allocation_. You can allocate resources based on their skill, availability, or whether they are in the same service zone as the customer. 

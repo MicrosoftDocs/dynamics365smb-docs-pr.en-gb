@@ -2,7 +2,6 @@
 title: Set Up Service Management Processes | Microsoft Docs
 description: Learn how to set up processes that help ensure your customers are satisfied with your customer service.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 91a6b16b4a7670fa78ddda0317ce20f259d35892
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 20afe251a1853ee31cd5de34c14ddb025a23c32e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438239"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140586"
 ---
 # <a name="configure-service-processes"></a>Configure Service Processes
 The following are some examples of the settings that you can apply to service management processes:  

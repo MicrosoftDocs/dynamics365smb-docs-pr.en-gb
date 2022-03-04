@@ -2,7 +2,6 @@
 title: How to Post Service Orders
 description: When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 08dba596c53186d734a9f30a760f1c69ef635f8b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a03fe49eac925022dc169746db35a51a3f522d3f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446104"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139242"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Post Service Orders and Credit Memos
 When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. The order must contain at least one service item line and one service line before you can post it. Should the order contain more than one service line, all the lines are posted at one time.  

@@ -3,7 +3,6 @@ title: Relationship Management
 description: The relationship management features support your sales efforts and let you access information about contacts and prospects to serve customers efficiently.
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: contact, prospect, client
 ms.search.forms: 9076, 9026
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 09b9ecdc1d8f0b2a36193a6f931b2ac3fc03f4d4
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 3dec95b484bce34c2eff2cbc49510e54f871f4ef
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059955"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137868"
 ---
 # <a name="managing-relationships"></a>Managing Relationships
 The relationship management features of [!INCLUDE[prod_short](includes/prod_short.md)] help you manage and support your sales efforts. With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.

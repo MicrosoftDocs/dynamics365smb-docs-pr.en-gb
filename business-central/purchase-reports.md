@@ -2,17 +2,16 @@
 title: Purchase Reports and Analytics
 description: See which purchase reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 70098fc89a47bfa29e3693c495c093a95066aad3
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 4520d4ac1a8fa5d26b99cd778f432e9317fd5baf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102558"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133714"
 ---
 # <a name="purchase-reports-and-analytics-in-business-central"></a>Purchase Reports and Analytics in Business Central
 

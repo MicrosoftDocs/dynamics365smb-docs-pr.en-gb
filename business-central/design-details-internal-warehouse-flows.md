@@ -2,7 +2,6 @@
 title: Design Details - Internal Warehouse Flows
 description: Flow between bins centres on picking components and putting away end items for assembly or works orders and ad-hoc movements, without source documents.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6749921fc02776fc267f7f40cde7ccea4b8fe6cf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b8e38dcf94c4303cdd69f5417a152484f5100e09
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441754"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136381"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Design Details: Internal Warehouse Flows
 The flow of items between bins at a company location centres on picking components and putting away end items for assembly or works orders and ad-hoc movements, such as bin replenishments, without a relation to source documents. The scope and nature of the involved activities vary between basic and advanced warehousing.  

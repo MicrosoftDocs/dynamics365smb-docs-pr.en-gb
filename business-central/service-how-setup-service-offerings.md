@@ -2,7 +2,6 @@
 title: Set Up Service Offerings
 description: When you set up service management, you must decide what services to offer customers and the schedule for those services.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a3a61ba65136aa15836039ac54057eefff37f29d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 8d031b444233085a67279c6f2cc39d4f459bac96
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323892"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136932"
 ---
 # <a name="set-up-service-offerings"></a>Set Up Service Offerings
 When you set up service management, you must decide what services to offer customers and the schedule for those services. A service is a type of work performed by one or more resources and provided to a customer. For example, a service could be a type of computer repair. A service item is the equipment or item that needs servicing, for example, the computer that needs repair, installed at a specific customer. You can set up services as part of a group of related repair or maintenance items.  

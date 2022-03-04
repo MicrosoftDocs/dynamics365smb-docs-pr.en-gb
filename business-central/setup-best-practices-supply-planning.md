@@ -2,7 +2,6 @@
 title: Setup Best Practices - Supply Planning
 description: When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and inventory costs.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 423d26aad7fe708cf51d614449cb7a3666c27dd6
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: eb2ae1ab65a777ab928d38ee62de56f9995e9554
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320038"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132557"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Setup Best Practices: Supply Planning
 Supply planning is a critical business area. When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and inventory costs.  

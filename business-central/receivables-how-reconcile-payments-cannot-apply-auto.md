@@ -2,7 +2,6 @@
 title: Using the Transfer Difference to Account Feature to Reconcile Payments
 description: Describes how to process payments that cannot be applied to a document, for example, when an exchange rate causes amounts to differ.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipts
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2964f1fb9a0944d87adf77e9c2127a2fde5b13dd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1f6fdc38e85944541c908c3c658f14496c619c0a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445458"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139450"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Reconcile Payments that Cannot be Applied Automatically
 You may sometimes have to handle payments to your bank account that cannot be applied to a related open customer, supplier or bank account ledger entry. Reasons may be that no document exists in [!INCLUDE[prod_short](includes/prod_short.md)] that the payment can be applied to, or the related document in [!INCLUDE[prod_short](includes/prod_short.md)] has a different amount than the transaction amount, for example, because of currency exchange. On the **Payment Reconciliation Journal** page, all transaction amounts for payments that are not yet applied appear in the **Difference** field, including amounts that cannot be applied because of reasons such as the above.

@@ -2,7 +2,6 @@
 title: How to Lend Service Items as Substitutes | Microsoft Docs
 description: You can lend customers loaner items to temporarily replace service items that you have received for servicing.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e45777c8de2dec6a4a968ba8062843f4c92ffa2c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ddf4dd090246bd1b102a3f812db7955f48ad0afb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441892"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132583"
 ---
 # <a name="lend-and-receive-loaners"></a>Lend and Receive Loaners
 You can lend customers loaners to temporarily replace service items that you have received for servicing.  
