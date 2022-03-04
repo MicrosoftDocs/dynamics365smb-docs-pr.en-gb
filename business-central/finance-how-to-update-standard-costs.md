@@ -2,7 +2,6 @@
 title: Update Standard Costs
 description: You must periodically update the standard costs of components and roll the new costs up to the parent item.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 26fc683f1c11a8341437823ceef438eaa269deb1
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: dd79e723ea86f3e5631a571a26a061c84adab518
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972467"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141132"
 ---
 # <a name="update-standard-costs"></a>Update Standard Costs
 You must periodically update the standard costs of components and roll the new costs up to the parent item. The process typically consists of the following four steps:  

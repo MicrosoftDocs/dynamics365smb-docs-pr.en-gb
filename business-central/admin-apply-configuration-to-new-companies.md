@@ -2,7 +2,6 @@
 title: Apply Configuration to New Companies
 description: After you have created a configuration package, deploy the package to your customer for implementation. You use the configuration with a new empty company.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8eaffa61361a9cbcc01af3585090dc0939eaa4d8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 439a717b37d5936c221992bcd7f85bb1d1db42eb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324107"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141496"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Apply Configurations to New Companies
 After you have created a configuration package, the next step is to deploy the package to your customer for implementation. You work with the configuration package within a new empty company.  

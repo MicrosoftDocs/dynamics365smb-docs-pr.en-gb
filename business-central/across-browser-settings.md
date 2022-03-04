@@ -2,7 +2,6 @@
 title: Setting Up Your Browser
 description: Describes how to set up browsers to work with Business Central and products that integrate with it.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, web client, troubleshooting, errors
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 90625ed6d5664efc9605aeacbc66d8174e55799d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a60c9e041ec61c61374fa7860c27018d362b165f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776304"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141756"
 ---
 # <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a>Setting Up and Troubleshooting Your Browser to Work With Business Central Web Client
 

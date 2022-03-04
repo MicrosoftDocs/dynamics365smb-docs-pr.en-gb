@@ -2,7 +2,6 @@
 title: Design Details - Warehouse Setup
 description: Warehouse functionality contains different levels of complexity, which is largely defined by the bin setup on location cards.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: c0559ef10dd8051b64d919b8a27d3af11cce2819
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9014836d228ee5bd01a74129fa0ba2aa0dd8dcea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325167"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142348"
 ---
 # <a name="design-details-warehouse-setup"></a>Design Details: Warehouse Setup
 

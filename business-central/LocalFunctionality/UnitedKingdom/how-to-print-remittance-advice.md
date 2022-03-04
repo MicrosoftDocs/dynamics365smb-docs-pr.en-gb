@@ -2,7 +2,6 @@
 title: How to Print Remittance Advice [GB]
 description: You can print remittance advice before posting a payment journal and after posting a payment.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 5869ab4c0be7636f5d182dd17cf385e89259d3ba
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3cdcde19607b69c9516d9178f1f38e72d82f79f0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441375"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141769"
 ---
 # <a name="print-remittance-advice-in-the-british-version"></a>Print Remittance Advice in the British Version
 You can print remittance advice before posting a payment journal and after posting a payment. This advice displays supplier invoice numbers, which helps suppliers to perform reconciliations.  

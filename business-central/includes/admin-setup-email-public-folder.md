@@ -1,20 +1,19 @@
 ---
 author: edupont04
-ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 09/02/2021
+ms.date: 02/15/2022
 ms.author: edupont
-ms.openlocfilehash: 5bb0e2d4ec0dfe20ecb6668a6d01ba4e8a174b8e
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: c947d843a17c46323febee83a01c80a574982bbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482304"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142504"
 ---
 > [!NOTE]
 > The following sections assume that you have administrator access for Exchange Online.
 
-Before you can set up email logging, you must prepare Office 365 [public folders](/exchange/collaboration-exo/public-folders/public-folders?preserve-view=true). You can do this in the [Exchange admin centre](/exchange/exchange-admin-center?preserve-view=true), or you can use the [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
+Before you can set up email logging, you must prepare Office 365 [public folders](/exchange/collaboration-exo/public-folders/public-folders). You can do this in the [Exchange admin centre](/exchange/exchange-admin-center?preserve-view=true), or you can use the [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
 
 > [!TIP]
 > If you want to use the [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true), you can find inspiration for how to set up your script in a sample script that we published in [the BCTech repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
@@ -31,7 +30,7 @@ Create an admin role group for public folders based on the information in the fo
 |Selected roles  |Public Folders            |
 |Selected users  |The email of the user account that Business Central will use to run the email logging job|
 
-For more information, see [Manage role groups in Exchange Online](/exchange/permissions-exo/role-groups?preserve-view=true).
+For more information, see [Manage role groups in Exchange Online](/exchange/permissions-exo/role-groups).
 
 ### <a name="create-a-new-public-folder-mailbox"></a>Create a new public folder mailbox
 
@@ -41,7 +40,7 @@ Create a new public folder mailbox based on the information in the following tab
 |----------------|--------------------------|
 |Name            |Public MailBox            |
 
-For more information, see [Create a public folder mailbox](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox?preserve-view=true).
+For more information, see [Create a public folder mailbox](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
 ### <a name="create-new-public-folders"></a>Create new public folders
 
@@ -51,7 +50,7 @@ For more information, see [Create a public folder mailbox](/exchange/collaborati
     - `\Email Logging\Queue\`
     - `\Email Logging\Storage\`
 
-For more information, see [Create a public folder](/exchange/collaboration-exo/public-folders/create-public-folder?preserve-view=true).
+For more information, see [Create a public folder](/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ### <a name="set-public-folder-ownership"></a>Set public folder ownership
 
@@ -61,7 +60,7 @@ For more information, see [Assign permissions to the public folder](/exchange/co
 
 ### <a name="mail-enable-the-queue-public-folder"></a>Mail-enable the *Queue* public folder
 
-  For more information, see [Mail-enable or mail-disable a public folder](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder?preserve-view=true).
+  For more information, see [Mail-enable or mail-disable a public folder](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
 ### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Mail-enable sending emails to the *Queue* public folder
 

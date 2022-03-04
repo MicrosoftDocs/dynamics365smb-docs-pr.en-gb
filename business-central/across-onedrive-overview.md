@@ -2,18 +2,17 @@
 title: Business Central and OneDrive for Business Integration
 description: You can use OneDrive for Business to store, manage, and share files, such as reports or file attachments.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8965fe1c0f04c3b12fef984e71b7f2643f7f11c2
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: f2c8efa4a32ef18ee4db25919c7e4405649d54bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012582"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141470"
 ---
 # <a name="business-central-and-onedrive-for-business-integration"></a>Business Central and OneDrive for Business Integration
 OneDrive for Business is a cloud storage service that is included in Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] makes it easy to store, manage, and share files with other people through OneDrive. When a file is in your OneDrive you can enjoy the rich collaborative experiences from the online versions of Microsoft products, such as Word, Excel, and PowerPoint. For example, you can share a Word document, and then you and your colleagues can edit it together in real-time. OneDrive also lets you open other types of files, such as PDFs. 

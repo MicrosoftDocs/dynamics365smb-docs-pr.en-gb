@@ -2,7 +2,6 @@
 title: Design Details - Item Tracking in the Warehouse
 description: Inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 3bf30b7739e488eeb3610d191cfb4f3b20e0e79e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0b101215e06e33bbbafdf0c38e18ac3ddaa6774a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320371"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141314"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Design Details: Item Tracking in the Warehouse
 Serial number and lot number handling is primarily a warehouse task and therefore all inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers.  

@@ -2,7 +2,6 @@
 title: Archive Sales and Purchase Documents
 description: You can archive sales and purchase orders, quotes, return orders, and blanket orders so that you can use the archived document to recreate the document that it was archived from.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 396fb417132d161b08b23498fe78d30b4a3be30f
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: dcb99e2c1231e95fca2eb9f8c36fc363a193cd82
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011790"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141643"
 ---
 # <a name="archive-documents"></a>Archive Documents
 You can archive sales and purchase orders, quotes, return orders, and blanket orders, for example because you want to save a copy of a document for reuse later. You can archive a sales or purchase document several times, saving a different archived version each time.
