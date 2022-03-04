@@ -2,7 +2,6 @@
 title: Process Sales Returns or Cancellations
 description: Describes how to create a sales credit memo to process a return, cancellation, or reimbursement for items or services you have received payment for.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: undo, credit memo, return
 ms.search.form: 44, 134, 143, 9302
 ms.date: 09/27/2021
 ms.author: edupont
-ms.openlocfilehash: 1f346acbfc39eeece4ef5d1eb66c3e81432e3335
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: de67c2dd217c50d4c8109c286940e76056df19c9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752484"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137114"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Process Sales Returns or Cancellations
 
@@ -145,7 +144,7 @@ Two functions exist to assign exact cost reversing automatically:
 
 To assign exact cost reversing manually, you must choose the **Appl.-from Item Entry** field on any type of return document line, and then select the number of the original sales entry. This links the sales credit memo or sales return order to the original sales entry and ensures that the item is valued at the original unit cost.
 
-For more information, see [Design Details: Inventory Costing](design-details-inventory-costing.md).
+For more information, see [Design Details: Stock Costing](design-details-inventory-costing.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 

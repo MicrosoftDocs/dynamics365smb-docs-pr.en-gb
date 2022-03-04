@@ -2,7 +2,6 @@
 title: Design Details - Table Structure | Microsoft Docs
 description: To understand how the dimension entry storing and posting is redesigned, it is important to understand the table structure.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 6d418633eb884f0b8cfca2f46fc69103a8fabdb2
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 249fb667676dcb91c91b5fd9015c46c0b994da31
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215735"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142374"
 ---
 # <a name="design-details-table-structure"></a>Design Details: Table Structure
 To understand how dimension entries are stored and posted, it is important to understand the table structure.  

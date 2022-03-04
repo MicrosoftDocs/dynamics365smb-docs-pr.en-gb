@@ -2,7 +2,6 @@
 title: Managing OneDrive Integration with Business Central
 description: Learn about things you can do to manage an integration between Business Central and OneDrive for Business.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 05/12/2021
 ms.author: bholtorf
-ms.openlocfilehash: cceb05c1ad19a95494c188cd2482b45962535c94
-ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
+ms.openlocfilehash: 20c6eb27aa3af2557ce77993b11f759f2c329100
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606417"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144031"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>Managing OneDrive Integration with Business Central 
 This article provides an overview of what an administrator can do to control OneDrive for Business integration with [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online customers benefit from automatic integration, with no additional setup required to use these features. 

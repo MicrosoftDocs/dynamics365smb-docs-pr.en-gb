@@ -1,19 +1,18 @@
 ---
-title: How to Track Packages
+title: Track Packages
 description: Use the shipping agents tracking service on the Internet to track parcels and follow the progress of a delivery.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.search.form: 103, 142, 800, 806
+ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752373"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334493"
 ---
 # <a name="track-packages"></a>Track Packages
 Most shipping agents provide a web service that let you track the status of your packages while they're en route. That information can be useful in many business processes, for example, when providing customer service. If you use one or more shipping agents, you can enter some basic information about them, and then use their package tracking service directly from the Posted Sales Shipments, Posted Sales Invoices, Posted Sales Credit Memos, and Posted Return Receipt pages. For more information, see [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md). 

@@ -2,7 +2,6 @@
 title: Set Up FA Maintenance
 description: To manage fixed asset repairs and service, you specify general maintenance information, codes for the type of work, and a posting account for costs.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: repair, service
 ms.search.form: 5600, 5642
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1aefc5d0e1453b2f43b9e72f587c0d9f90d07b4e
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: e55b85397ca50995870ab86ed40421bbb0b4cb6d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029489"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147863"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Set Up Fixed Asset Maintenance
 To manage fixed asset maintenance, you must first set up some general maintenance information, a posting account for maintenance costs, and maintenance codes for types of work, such as Routine Service or Repair.

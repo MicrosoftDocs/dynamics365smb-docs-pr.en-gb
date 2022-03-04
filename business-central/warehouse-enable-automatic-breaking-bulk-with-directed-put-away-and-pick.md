@@ -2,7 +2,6 @@
 title: Breaking Bulk with Directed Put-away and Pick
 description: Learn how to enable automatic breaking bulk with directed put-away and pick, as well as breakbulking in picks, putaways, movements, and more.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: a3e992b86b2c53393ee385fd4abde05bd2b915f2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 82b0625cf36b0c304a28c1196aa76289d5711c15
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324846"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144470"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Enable Automatic Breaking Bulk with Directed Put-away and Pick
 For locations that use directed put-away and pick, [!INCLUDE[prod_short](includes/prod_short.md)] can, in various situations, automatically breakbulk, that is, break a larger unit of measurement into smaller units of measurement, when it creates warehouse instructions that fulfil the needs of source documents, works orders, or internal picks and put-aways. To breakbulk sometimes also means gathering smaller units of measurement, if necessary, to meet outbound requests by breaking the larger unit of measurement on the source document or works order into the smaller units of measurement that are available in the warehouse.   

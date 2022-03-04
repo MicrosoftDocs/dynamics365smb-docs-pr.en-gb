@@ -2,17 +2,16 @@
 title: Installing Extensions to Customise Business Central
 description: Learn all about adding functionality and customising Business Central by installing extensions here.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: b9a4d6b37bce0772540a307edc9c64cba1780dc5
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 7839c4364f299619707b0a346b9b5d0db07e627b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587791"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132427"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Customising Business Central Online Using Extensions
 
@@ -65,7 +64,7 @@ Because the following extensions communicate with other services, they might tra
 * Image Analyser
 * Late Payment Prediction
 * PayPal Payments Standard
-* Sales and Inventory Forecast
+* Sales and Stock Forecast
 * WorldPay Payments Standard
 
 This also applies to some functionality in the base application, such as the following capabilities:

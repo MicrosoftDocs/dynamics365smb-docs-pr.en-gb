@@ -2,7 +2,6 @@
 title: Set Up Company Configuration
 description: As a partner, get Business Central set up right for your customer with default or customer-specific configurations that you bundle into configuration packages.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5baef81f22e260fa6f582b536dcf356d3ae25d25
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649719"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143941"
 ---
 # <a name="set-up-company-configuration"></a>Set Up Company Configuration
 The implementation process begins with the Microsoft partner. As a partner, you are responsible for thinking through the configuration details and creating a package that a customer can easily apply. Before you create a new company in [!INCLUDE [prod_short](includes/prod_short.md)] online or on-premises, you should plan how it will be configured. You must consider basic setup data and the types of data that your [!INCLUDE[prod_short](includes/prod_short.md)] solution will require. You bundle all of this information in configuration packages.

@@ -2,7 +2,6 @@
 title: Selling, Assembling, and Shipping Kits
 description: To support just-in-time inventory, assembly orders can be automatically created and linked as soon as the sales order line is created.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: f14defdd15acd82df76d1446b56d86ecda6e3cb6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8fd48bd5134fcd42ccee67cbc54eb32b3d8c5a63
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445208"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148051"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Walkthrough: Selling, Assembling, and Shipping Kits
 

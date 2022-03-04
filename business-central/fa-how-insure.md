@@ -2,7 +2,6 @@
 title: Insure Fixed Assets
 description: You can assign one or multiple fixed assets to one insurance policy by posting to the insurance coverage ledger from the **Insurance Journal** page.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 9275
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: d1a9a299101cece91162f9f913b318cd9a3596ae
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 3385d0a8d7158237a1f86e8d78785c7045490886
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029621"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146547"
 ---
 # <a name="insure-fixed-assets"></a>Insure Fixed Assets
 An insurance policy for a fixed asset is represented by an insurance card. You can assign one fixed asset to one insurance policy or multiple fixed assets to one insurance policy.

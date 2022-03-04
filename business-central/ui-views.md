@@ -2,20 +2,19 @@
 title: Save and Personalise List Views
 description: Learn how to create your own views for filtered lists as well as how to save, rename and manage those Views.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6ac3489151d9e4e0ebf0867b94b59678bba0f35e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5cfc08a7a4f8645bc8657477819cdacc9d147d88
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445358"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322883"
 ---
 # <a name="save-and-personalize-list-views"></a>Save and Personalise List Views
 When you have set a filter on a list and you want to keep the filter for later, you can save it as a view. For more information about filtering lists, see [Setting Filters on Lists](ui-enter-criteria-filters.md#setting-filters-on-lists).

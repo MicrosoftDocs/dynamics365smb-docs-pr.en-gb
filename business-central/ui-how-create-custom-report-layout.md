@@ -2,7 +2,6 @@
 title: Create and Modify Custom Layouts for Reports and Documents
 description: Learn how to create customised layouts to personalise the appearance of a report when viewed, printed, or saved.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3e16ff82492c3331be901c5be5d30de6d302787
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 0b4642f6ca4c7701cbb49e8441debccfbd32b9be
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101062"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134724"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Create and Modify Custom Report Layouts
 
@@ -56,7 +55,7 @@ When custom report layouts are defined, you can select them from customer and su
 The custom layout has been created. You can now modify the custom layout as needed.
 
 > [!TIP]
-> You can export the report results to an Excel file for viewing the full dataset, including all columns, but without the layout. The Excel file can help you validate that the report returns the expected data or diagnose problems. For more information, see [Working with Reports - Send to Excel](ui-work-report.md#send-to-excel).
+> You can export the report results to an Excel file for viewing the full dataset, including all columns, but without the layout. The Excel file can help you validate that the report returns the expected data or diagnose problems. For more information, see [Analysing Report Data with Excel](report-analyze-excel.md).
 
 ## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Modifying a custom layout
 

@@ -2,7 +2,6 @@
 title: How to Set Up Electronic Document Sending and Receiving | Microsoft Docs
 description: As an alternative to emailing as file attachments, you can send and receive business documents electronically.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,18 +9,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 80555f6362b1a071b26d4119c821075e8fcc4944
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcc706a221c40019792167b4b75cb8826216457d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774668"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147249"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Set Up Electronic Document Sending and Receiving
 
 As an alternative to emailing as file attachments, you can send and receive business documents electronically. By electronic document is meant a standard\-compliant file representing a business document, such as an invoice from a vendor that can be received and converted to a purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)]. The exchange of electronic documents between two trading partners is performed by an external provider of document exchange services. The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports sending and receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. A major provider of document exchange services is preconfigured and ready to be set up for your company.  
 
-From PDF or image files representing incoming documents, you can have an external OCR service (Optical Character Recognition) create electronic documents that you can then convert to document records in [!INCLUDE[prod_short](includes/prod_short.md)], like for electronic PEPPOL documents. For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the **Incoming Documents** page. After a few seconds, you receive the file back as an electronic invoice that can be converted to a purchase invoice for the vendor. If you send the file to the OCR service by email, then a new incoming document record is automatically created when you receive the electronic document back.  
+From PDF or image files representing incoming documents, you can have an external OCR service (Optical Character Recognition) create electronic documents that you can then convert to document records in [!INCLUDE[prod_short](includes/prod_short.md)], like for electronic PEPPOL documents. For example, when you receive an invoice in PDF format from your supplier, you can send it to the OCR service from the **Incoming Documents** page. After a few seconds, you receive the file back as an electronic invoice that can be converted to a purchase invoice for the supplier. If you send the file to the OCR service by email, then a new incoming document record is automatically created when you receive the electronic document back.  
 
 The **PEPPOL** electronic document format is preconfigured to enable you to send electronic invoices and credit memos in the PEPPOL format. First, you must set up various master data, such as company information, customers, items, and units of measure. These are used to identify the business partners and items when converting data in fields in [!INCLUDE[prod_short](includes/prod_short.md)] to elements in the outgoing document file. Last, you must select the format on the **Electronic Document Format** page for each customer who you will send electronic PEPPOL documents to. For more information, see [Send Electronic Documents](sales-how-to-send-electronic-documents.md).  
 

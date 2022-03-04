@@ -2,7 +2,6 @@
 title: About Cost Accounting
 description: Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyse various issues.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0d349f186757a38b9473b98fc74bfb490b81892e
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 52138687b0959c80711495e4c1a8b608184ba211
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973681"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145745"
 ---
 # <a name="about-cost-accounting"></a>About Cost Accounting
 Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyse:  

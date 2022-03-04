@@ -2,7 +2,6 @@
 title: How to Print VAT Reports [GB]
 description: This topic explains the different reports that you can use to report VAT information and how to print each one.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 403922049f5999981cce83932872df70d8a8d215
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3ca46b3562d69c26483734dc6b3b9965d7b122d3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441371"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147318"
 ---
 # <a name="print-vat-reports-in-the-british-version"></a>Print VAT Reports in the British Version
 You can use the following reports for VAT reporting:  

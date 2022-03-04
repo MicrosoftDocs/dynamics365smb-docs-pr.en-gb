@@ -3,20 +3,19 @@ metadata:
   title: Frequently Asked Questions about List Views
   description: This article answers your FAQ about List Views and offers detailed information about saving and working with filters as List Views.
   author: mikebcMSFT
-  ms.service: dynamics365-business-central
-  ms.topic: conceptual
+  ms.topic: faq
   ms.devlang: na
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
   ms.date: 06/24/2021
   ms.author: mikebc
-  ms.openlocfilehash: 8c046697ce13b6079c54fa6d569cb4a40e1a4cc0
-  ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+  ms.openlocfilehash: 6140dd6e114a8967a4e20196feb88e25fbd06bb1
+  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
   ms.translationtype: HT
   ms.contentlocale: en-GB
-  ms.lasthandoff: 06/30/2021
-  ms.locfileid: "6322229"
+  ms.lasthandoff: 02/15/2022
+  ms.locfileid: "8144600"
 title: List Views FAQ
 summary: This article answers questions that our advanced users often ask about working with list views and saving filters.
 sections:
