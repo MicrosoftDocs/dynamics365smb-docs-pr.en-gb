@@ -2,25 +2,26 @@
 title: Apply Payments to Unpaid Sales Documents | Microsoft Docs
 description: You apply amounts paid by customers to related sales documents and post the payment to update the customer, general ledger, and bank ledger entries.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: dab5042a6a72426453f92c67e2763d370ce8dff1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ae93dbb0a24b67eb9d693efbf70ec0f0b6e3ca93
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139502"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782806"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Reconcile Customer Payments from a List of Unpaid Sales Documents
 When your customers have made payments to your electronic bank account, you must apply each amount paid to the related sales document and then post the payment to update the customer, general ledger, and bank ledger entries. Depending on your business needs, you can get paid and register that payment in different ways: manually, automatically, and through payment services.  
 
 > [!NOTE]  
->   You can perform the same tasks, including supplier payments, on the **Payment Reconciliation Journal** page using functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
+>   You can perform the same tasks, including vendor payments, on the **Payment Reconciliation Journal** page using functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 The **Register Customer Payments** page is designed to support you in tasks involved in balancing internal accounts by using actual cash figures to make sure that payments are collected efficiently from customers. This payment processing tool enables you to quickly verify and post individual or lump-sum payments, process discounted payments, and find specific unpaid documents for which payment is made.
 
@@ -29,14 +30,14 @@ Payments for different customers that have different payment dates must be poste
 ## <a name="to-set-up-the-payment-registration-journal"></a>To set up the payment registration journal
 Because you can post different payment types to different balancing accounts, you must select a balancing account on the **Payment Registration Setup** page before you start processing customer payments. If you always post to the same balancing account, you can set that account as the default and avoid this step every time that you open the **Register Customer Payments** page.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration Setup**, and then choose the related link.
 
     Alternatively, on the **Register Customer Payments** page, choose the **Setup** action.    
 2. Fill in the fields on the **Payment Registration Setup** page. Choose a field to read a short description of the field or link to related information.  
 
 ## <a name="to-register-customer-payments-individually"></a>To register customer payments individually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Register Customer Payments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Register Customer Payments**, and then choose the related link.  
 
     The **Register Customer Payments** page shows all posted documents for which a payment can be registered. The page can also be opened from the **Customers** and **Customer Card** pages where it is automatically filtered for the specified customer.  
 2. Select the **Payment Made** check box on the line that represents the posted document for which a payment has been made.
@@ -54,7 +55,7 @@ The payment information is posted for documents represented by lines where the *
 Payments entries are posted to general ledger, bank, and customer accounts. Each payment is applied to the related posted sales document.  
 
 ## <a name="to-reconcile-lump-sum-payments"></a>To reconcile lump-sum payments
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.
 2. Select the **Payment Made** check box on the lines that represent posted documents for the same customer for which a lump-sum payment has been made.  
 
     > [!NOTE]  
@@ -76,7 +77,7 @@ Payment entries are posted to general ledger, bank, and customer accounts. Each 
 
 If a payment in the bank is not represented by line on the **Payment Registration** page, it may be because the related document has not yet been posted. In that case, you can use a search function to quickly find the document and post it to process the payment. For more information, see [To find a specific sales document that is not fully invoiced](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-If a payment in the bank is not represented by any document in [!INCLUDE[prod_short](includes/prod_short.md)], then you can open a prefilled general journal from the **Payment Registration** page to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved. For more information, see [To record or post a payment without a related document](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
+If a payment in the bank is not represented by any document in [!INCLUDE[d365fin](includes/d365fin_md.md)], then you can open a prefilled general journal from the **Payment Registration** page to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved. For more information, see [To record or post a payment without a related document](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>To process customer payments with discounts manually
 If you have agreed on a payment discount with your customer, then the payment amounts can be lower than the invoice amounts if payment occurs before the agreed discount date.  
@@ -89,7 +90,7 @@ The following procedures explains four different ways to post discounted payment
 * The payment amount is more than the remaining discounted amount. You post the payments as is. Only the remaining amount is posted. The additional amount is credited to the customer.  
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>To process a payment amount that is equal to the discounted amount and where the payment date is before the discount date
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is equal to the amount in the **Rem. Amt. after Discount** field.
 
     The **Payment Made** check box is automatically selected, and the **Date Received** field is filled with the work date.    
@@ -98,7 +99,7 @@ The following procedures explains four different ways to post discounted payment
 5. Choose the **Post Payments** action to post the full payment to general ledger, bank, and customer accounts.
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>To process a payment amount that is equal to the discounted amount but where the payment date is after the discount date
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is equal to the amount in the **Rem. Amt. after Discount** field.
 
     The **Payment Made** check box is automatically selected, and the **Date Received** field is filled with the work date.
@@ -116,7 +117,7 @@ The following procedures explains four different ways to post discounted payment
 The related document remains open.
 
 ### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>To process a payment that is lower than the remaining discounted amount
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is lower than the amount in the **Rem. Amt. after Discount** field.
 
     The **Payment Made** check box is automatically selected, and the **Date Received** field is filled with the work date.  
@@ -127,7 +128,7 @@ The related document remains open.
 The related document remains open.
 
 ### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>To process a payment that is more than the remaining discounted amount
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is more than the amount in the **Rem. Amt. after Discount** field.  
 
     The **Payment Made** check box is automatically selected, and the **Date Received** field is filled with the work date.    
@@ -149,7 +150,7 @@ On the **Document Search** page, you can search among documents that are not ful
 
 The following procedure explains how to find a specific document by using both search criteria.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.
 2. With the pointer on any line, Choose the **Search Documents** action.
 3. On the **Document Search** page, enter a search value in the **Document No.** field.  
 
@@ -165,12 +166,12 @@ The Search function searches among documents that are not fully invoiced based o
 
 If one or more documents match the criteria, then the **Document Search Result** page opens to display lines that represent those documents. Each line contains a document number, description, and amount so that you can easily find a specific document, for example based on information on your bank statement.  
 
-If a payment in the bank is not represented by any document in [!INCLUDE[prod_short](includes/prod_short.md)], then you can open a prefilled general journal from the **Payment Registration** page to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved.  
+If a payment in the bank is not represented by any document in [!INCLUDE[d365fin](includes/d365fin_md.md)], then you can open a prefilled general journal from the **Payment Registration** page to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved.  
 
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>To record or post a payment without a related document
-If a payment in the bank is not represented by any document in [!INCLUDE[prod_short](includes/prod_short.md)], then you can open a prefilled general journal line from the **Payment Registration** page to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been clarified.  
+If a payment in the bank is not represented by any document in [!INCLUDE[d365fin](includes/d365fin_md.md)], then you can open a prefilled general journal line from the **Payment Registration** page to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been clarified.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
 
     Proceed to record an undocumented payment.  
 2. Choose the **General Journal** action.  
@@ -185,7 +186,4 @@ If you leave the journal line unposted, it will add to the value in the **Unpost
 ## <a name="see-also"></a>See Also
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

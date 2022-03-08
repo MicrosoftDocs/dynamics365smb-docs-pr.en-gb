@@ -2,33 +2,32 @@
 title: Business Functionality Supported by Business Central
 description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f25e6f2afbcb6f249bf3e04f35172d6678cbd113
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 3d073a17f900b3f1691c6b108af021aec6b93fd3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323117"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384956"
 ---
 # <a name="business-functionality"></a>Business Functionality
-
 [!INCLUDE[prod_short](includes/prod_short.md)] provides functionality for common business processes in small and mid-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Role Centre, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[prod_short](includes/prod_short.md)]. Several areas of business functionality must be set up manually. The [Business Central quick start](quick-start-business-central.md) articles can help you take the first steps into making [!INCLUDE [prod_short](includes/prod_short.md)] your own. For more information, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Role Centre, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[prod_short](includes/prod_short.md)]. Several areas of business functionality must be set up manually. For more information, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 | To | See |
 | --- | --- |
 |Make and collect payments, manage your cash flow, defer income and revenue, prepare year-end closing, and manage fixed assets.|[Finance](finance.md)|
 |Get insight to the performance of your business activities through budgets, account schedules, and analysis views.|[Business Intelligence](bi.md)|
 |Manage sales processes and information, such as quotes, orders, returns, and customer accounts, and make drop shipments.|[Sales](sales-manage-sales.md)|
-|Manage purchasing processes and information, such as invoices, orders, returns, and supplier accounts, and purchase items from sales documents. |[Purchasing](purchasing-manage-purchasing.md)|
+|Manage purchasing processes and information, such as invoices, orders, returns, and vendor accounts, and purchase items from sales documents. |[Purchasing](purchasing-manage-purchasing.md)|
 |Register new inventory or service-type items, categorise items for easy searching, adjust inventory levels, and perform common inventory costing tasks.|[Inventory](inventory-manage-inventory.md)|
 |Create jobs and schedule resources for project, manage job budgets, monitor progress, and track machine and employee hours.|[Project Management](projects-manage-projects.md)|
 |Organise your fixed assets, ensure correct periodic depreciation, and keep track of maintenance costs.|[Fixed Assets](fa-manage.md)|
@@ -48,7 +47,7 @@ ms.locfileid: "8323117"
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Administration](admin-setup-and-administration.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

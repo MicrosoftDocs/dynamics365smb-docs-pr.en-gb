@@ -1,20 +1,23 @@
 ---
 title: Design Details - Availability in the Warehouse | Microsoft Docs
 description: The system must keep a constant control of item availability in the warehouse, so that outbound orders can flow efficiently and provide optimal deliveries.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 670fbfc0f7e576f92ef26e31418d0d44f6262eec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 67e30773683fbf8497a1668e1c4ca3d176e0781e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132088"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303803"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Design Details: Availability in the Warehouse
 The system must keep a constant control of item availability in the warehouse, so that outbound orders can flow efficiently and provide optimal deliveries.  
@@ -46,7 +49,7 @@ If one or more conditions are not met, different error messages can be shown, in
 
  The following diagram shows the different elements of the calculation.  
 
- ![Available to pick with reservation overlap.](media/design_details_warehouse_management_availability_2.png "Available to pick with reservation overlap")  
+ ![Available to pick with reservation overlap](media/design_details_warehouse_management_availability_2.png "Available to pick with reservation overlap")  
 
 ## <a name="quantity-available-to-reserve"></a>Quantity Available to Reserve  
  Because the concepts of bin content and reservation co-exist, the quantity of items that are available to reserve must be aligned with allocations to outbound warehouse documents.  
@@ -71,11 +74,8 @@ If one or more conditions are not met, different error messages can be shown, in
 
  The following diagram shows the different elements of the calculation.  
 
- ![Avaliable to reserve per warehouse allocation.](media/design_details_warehouse_management_availability_3.png "Avaliable to reserve per warehouse allocation")  
+ ![Avaliable to reserve per warehouse allocation](media/design_details_warehouse_management_availability_3.png "Avaliable to reserve per warehouse allocation")  
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)  
  [View the Availability of Items](inventory-how-availability-overview.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

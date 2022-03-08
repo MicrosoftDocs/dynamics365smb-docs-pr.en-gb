@@ -1,20 +1,21 @@
 ---
-title: Design Details - Inbound Warehouse Flow
-description: Inbound warehouse flow begins when items arrive in the warehouse company location. Items are registered and eventually matched to inbound source documents.
+title: Design Details - Inbound Warehouse Flow | Microsoft Docs
+description: The inbound flow in a warehouse begins when items arrive in the warehouse of the company location, either received from external sources or from another company location. An employee registers the items, typically by scanning a bar code. From the receiving dock, warehouse activities are performed at different complexity levels to bring the items into the storage area.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: de7a468377f454c01d45742f4510cb9978340ae6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 67c93eddcb84c3cf87edb6f407cea7af5aecda59
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132010"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770548"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Design Details: Inbound Warehouse Flow
 The inbound flow in a warehouse begins when items arrive in the warehouse of the company location, either received from external sources or from another company location. An employee registers the items, typically by scanning a bar code. From the receiving dock, warehouse activities are performed at different complexity levels to bring the items into the storage area.  
@@ -27,7 +28,7 @@ The inbound flow in a warehouse begins when items arrive in the warehouse of the
 
 In addition, the following internal source documents exist that function like inbound sources:  
 
-- Works order with output posting  
+- Production order with output posting  
 - Assembly order with output posting  
 
 The last two represent inbound flows to the warehouse from internal operation areas. For more information about warehouse handling for internal inbound and outbound processes, see [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md).  
@@ -50,7 +51,7 @@ In methods A, B, and C, the actions of receiving and putting away are combined i
 ## <a name="basic-warehouse-configurations"></a>Basic Warehouse Configurations  
 The following diagram illustrates the inbound warehouse flows by document type in basic warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
-![Inbound flow in basic warehouse configurations.](media/design_details_warehouse_management_inbound_basic_flow.png "Inbound flow in basic warehouse configurations")  
+![Inbound flow in basic warehouse configurations](media/design_details_warehouse_management_inbound_basic_flow.png "Inbound flow in basic warehouse configurations")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Release Source Document / Create Inventory Put-Away  
 When items are received in the warehouse, the user who is responsible for receiving releases the source document, such as a purchase order or an inbound transfer order, to signal to warehouse workers that the received items can be put away in inventory. Alternatively, the user creates inventory put-away documents for individual order lines, in a push fashion, based on specified bins and quantities to handle.  
@@ -69,7 +70,7 @@ Positive item ledger entries are created, warehouse entries are created, and the
 ## <a name="advanced-warehouse-configurations"></a>Advanced warehouse configurations  
 The following diagram illustrates the inbound warehouse flow by document type in advanced warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
-![Inbound flow in advanced warehouse configurations.](media/design_details_warehouse_management_inbound_advanced_flow.png "Inbound flow in advanced warehouse configurations")  
+![Inbound flow in advanced warehouse configurations](media/design_details_warehouse_management_inbound_advanced_flow.png "Inbound flow in advanced warehouse configurations")  
 
 ### <a name="1-release-source-document"></a>1: Release Source Document  
 When items are received in the warehouse, the user who is responsible for receiving releases the source document, such as a purchase order or an inbound transfer order, to signal to warehouse workers that the received items can be put away in inventory.  
@@ -89,7 +90,7 @@ The user posts the warehouse receipt. Positive item ledger entries are created. 
 The user who is responsible for putting away from internal operations creates a warehouse internal put-away for items that have to be put away in the warehouse, such as production or assembly output. The user specifies quantity, zone, and bin from where the items should be put away, potentially with the **Get Bin Content** function. The user releases the warehouse internal put-away, which creates an inbound warehouse request so that the task can be retrieved in warehouse put-away documents or in the put-away worksheet.  
 
 ### <a name="6-create-put-away-request"></a>6: Create Put-away Request  
-When the inbound source document is posted, a warehouse put-away request is created automatically. It contains references to the source document type and number and is not visible to the user. Depending on the setup, output from a works order also creates a put-away request to put the finished items away in inventory.  
+When the inbound source document is posted, a warehouse put-away request is created automatically. It contains references to the source document type and number and is not visible to the user. Depending on the setup, output from a production order also creates a put-away request to put the finished items away in inventory.  
 
 ### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Generate Put-away Worksheet Lines (Optional)  
 The user who is responsible for coordinating put-aways retrieves warehouse put-away lines in the **Put-away Worksheet** based on posted warehouse receipts or internal operations with output. The user selects the lines to be put-away and prepares the put-aways by specifying which bins to take from, which bins to place in, and how many units to handle. The bins may be predefined by the setup of the warehouse location or operation resource.  

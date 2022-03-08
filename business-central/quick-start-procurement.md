@@ -2,6 +2,7 @@
 title: Procurement Quick Start (contains video)
 description: Learn how to fill in the first critical fields about suppliers in Business Central so that you can start purchasing products and services.
 author: jill-kotel-andersson
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: quickstart
 ms.search.form: 26, 27, 50, 56
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: d5ec92099a7439bfb9a059105b0f1ce377534117
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 58476145830438b85e70c03958b2bf997640e2c7
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128746"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953116"
 ---
 # <a name="procurement-quick-start"></a>Procurement Quick Start
 

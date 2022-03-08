@@ -1,57 +1,53 @@
 ---
-title: Print VAT Audit Reports
-description: Learn how Business Central supports the British requirements for VAT audits.
-author: edupont04
-ms.topic: conceptual
+title: How to Print VAT Audit Reports | Microsoft Docs
+description: All vendors must export the data required for auditing in a Content Separated Value (CSV) file format.
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d19e9aa5d8e26165b1fe4f9a6dc35ecb6036318b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 0ee001f24f5a4d5d326a3db94076fcfeb6318e45
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129287"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881283"
 ---
-# <a name="print-vat-audit-reports-in-the-british-version"></a>Print VAT Audit Reports in the British Version
+# <a name="print-vat-audit-reports"></a>Print VAT Audit Reports
+All vendors must export the data required for auditing in a Content Separated Value (CSV) file format. The following reports comply with this requirement:  
 
-In the United Kingdom, all suppliers must export the data required for auditing in a Content Separated Value (CSV) file format. The following reports in the British version of [!INCLUDE [prod_short](../../includes/prod_short.md)] comply with this requirement:  
-
-- **VAT Audit**  report – This report is used for VAT auditing.  
-- **VAT Entry Exception** report - This report details the differences between the calculated VAT and the changes that occur because of rounding, VAT tolerance percentage, and discounts. It also displays the difference in VAT amounts for the tax authorities.  
+-   **VAT Audit**  report – This report is used for VAT auditing.  
+-   **VAT Entry Exception** report - This report details the differences between the calculated VAT and the changes that occur because of rounding, VAT tolerance percentage, and discounts. It also displays the difference in VAT amounts for the tax authorities.  
 
 ## <a name="to-print-the-vat-audit-report"></a>To print the VAT audit report  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
-2. Choose the relevant VAT statement template, and then choose OK.
-3. On the **VAT Statement** page, choose **VAT Audit Report**.
-4. On the **VAT Audit** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Audit**, and then choose the related link.  
+2.  On the **VAT Audit** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
-    |-----|-----------|  
+    |---------------------------------|---------------------------------------|  
     |**Export Customers**|Select to export the file to the **Customer** table.|  
     |**Export Open Payments**|Select to export the open credit entries.|  
     |**Export Late Invoicing**|Select to export customer entries that took longer to invoice than the number of days specified in the **Late Invoice Delay (Days)** field.|  
     |**Late Invoice Delay (Days)**|Enter the number of days between the invoice issue date and the payment received date. If the **Export Late Invoicing** field is selected, entries exceeding this limit will be exported.|  
-    |**Export Suppliers**|Select to export the file to the **Supplier** table.|  
+    |**Export Vendors**|Select to export the file to the **Vendor** table.|  
     |**Export VAT Entries**|Select to export the entries in the **VAT Entry** table.|  
 
     > [!NOTE]  
     >  You must select at least one check box in this page.  
 
-5. To export the file, choose the **OK** button.  
+3.  To export the file, choose the **OK** button.  
 
     The VAT audit information is exported. You can save the data to a file, or open the file in the appropriate program.  
 
 ## <a name="to-print-the-vat-entry-exception-report"></a>To print the VAT entry exception report  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
-2. Choose the relevant VAT statement template, and then choose OK.
-3. On the **VAT Statement** page, choose **VAT Entry Exception Report**.  
-4. On the **VAT Entry Exception Report** page, on the **Options** FastTab, fll in the fields as described in the following table.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Entry Exception Report**, and then choose the related link.  
+2.  On the **VAT Entry Exception Report** page, on the **Options** FastTab, fll in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -66,13 +62,7 @@ In the United Kingdom, all suppliers must export the data required for auditing 
     > [!NOTE]  
     >  You must select at least one check box in this page.  
 
-5. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
+3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## <a name="see-also"></a>See Also
-
-[Working with Reports, Batch Jobs, and XMLports](../../ui-work-report.md)  
-[Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
+## <a name="see-also"></a>See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

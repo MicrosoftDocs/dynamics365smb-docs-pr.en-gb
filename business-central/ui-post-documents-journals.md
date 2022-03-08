@@ -1,25 +1,27 @@
 ---
-title: Posting Documents and Journals
-description: This topic outlines posting actions and the ways you can post documents and journals in the various company ledgers.
+title: Overview of Posting Documents and Journals | Microsoft Docs
+description: Outlines posting actions and the ways you can post documents and journals.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/24/2021
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 13c2639ab416fd472850fef5161f0f374024bb51
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 53e0e97ec0701fc83f1a3f0d084430efda064962
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335585"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781292"
 ---
 # <a name="posting-documents-and-journals"></a>Posting Documents and Journals
 Posting represents the accounting action of recording business transactions in the various company ledgers.
 
-Practically every document and journal in [!INCLUDE[prod_short](includes/prod_short.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.
+Practically every document and journal in [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.
 
 The following table describes related tasks, with links to the topics that describe them.
 
@@ -35,7 +37,4 @@ The following table describes related tasks, with links to the topics that descr
 ## <a name="see-also"></a>See Also
 [Edit Posted Documents](across-edit-posted-document.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

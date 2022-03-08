@@ -2,21 +2,21 @@
 title: Manage user settings and preferences as the administrator
 description: Manage user settings and preferences in Dynamics 365 Business Central.
 author: sorenfriisalexandersen
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
-ms.search.form: 9204
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 779dcea91d2e856bfae847f98695ceed0c0d600e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 36850a2d0d8f85a0436b5d268c3cd2653b2f785f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145947"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779764"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Manage user settings and preferences
 
@@ -52,7 +52,7 @@ The **User Settings Card** page is similar to the **My Settings** page that each
   
 - **Region**  
 
-  Defines how dates and numbers are presented in the [!INCLUDE[prod_short](includes/prod_short.md)] client, such as whether to use European or American date formats, or how to display the decimal sign and thousand separators in amounts. If [!INCLUDE[prod_short](includes/prod_short.md)] users are synchronised from Microsoft 365, the regional settings from Microsoft 365 are used, assuming that the user wants to use the same settings in Office products and [!INCLUDE[prod_short](includes/prod_short.md)]. An administrator or user can change these settings manually in [!INCLUDE[prod_short](includes/prod_short.md)], but they will be reset to the value from Microsoft 365 once the next synchronisation is performed.
+  Defines how dates and numbers are presented in the [!INCLUDE[prod_short](includes/prod_short.md)] client, such as whether to use European or American date formats, or how to display the decimal sign and thousand separators in amounts. If [!INCLUDE[prod_short](includes/prod_short.md)] users are synchronised from Microsoft 365, the regional settings from Microsoft 365 are used, assuming that the user wants to use the same settings in Office products and [!INCLUDE[prod_short](includes/prod_short.md)]. An administrator or user can change these settings manually in [!INCLUDE[prod_short](includes/prod_short.md)] but they will be reset to the value from Microsoft 365 once the next synchronisation is performed.
 
 - **Time zone**  
 
@@ -60,7 +60,7 @@ The **User Settings Card** page is similar to the **My Settings** page that each
 
 - **Teaching tips**
 
-  [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)] As an administrator, you can switch off teaching tips for all users, such as if you are in progress of onboarding users who are already familiar with [!INCLUDE [prod_short](includes/prod_short.md)].  
+  [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)] As an administrator, you can switch off teaching tips for all users, such as if you are in process of onboarding users who are already familiar with [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
 > If a Microsoft 365 user synchronisation is made while users are logged into [!INCLUDE[prod_short](includes/prod_short.md)], these users must refresh the browser or log out and back in to [!INCLUDE[prod_short](includes/prod_short.md)] to see a potential different language set by the synchronisation action.
@@ -74,7 +74,7 @@ As the administrator, you can get an overview of individual changes to [!INCLUDE
 
 ## <a name="to-review-or-delete-user-personalizations"></a>To review or delete user personalisations
 
-1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Personalised Pages**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Personalised Pages**, and then choose the related link.
 2. This shows the list of users and their personalised pages. To clear a user's personalisation, click the relevant row, or choose **Manage**, and then choose **Delete**.
 
 This deletes the personalisation, and the user's experience of the relevant page returns to the default state.

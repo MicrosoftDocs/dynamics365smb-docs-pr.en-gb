@@ -1,20 +1,21 @@
 ---
-title: Sell Assemble-to-Order Items and Inventory Items Together
-description: If a part of an assembly item set up for assemble-to-stock is not available, you have the flexibility to create an assembly order for the remaining quantity.
+title: Sell Assemble-to-Order Items and Inventory Items Together | Microsoft Docs
+description: If an assembly item is set up for assemble-to-stock, then the default sales order process assumes that the item is already assembled and can be picked from inventory, if it is available. But if a part (or all) of the quantity is not available, then you have the flexibility to create an assembly order for the remaining quantity on the fly.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f94f18c93bb2b204b798f7709d0b062851d61989
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9165a7392f5c95b2ebb8a056f69be49d93476b66
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148766"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747373"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Sell Assemble-to-Order Items and Inventory Items Together
 If the **Assembly Policy** field on the item card of an assembly item contains **Assemble-to-Stock**, then the default sales order process assumes that the item is already assembled and can be picked from inventory, if it is available. Therefore, no assembly order is automatically created and linked to the sales order line. However, if a part (or all) of the quantity is not available, then you have the flexibility to create an assembly order for the remaining quantity by filling in the **Qty. to Assemble to Order** field on the sales order line. In this manner, you can assemble the item to order although it is set up to be assembled to stock by default.  
@@ -43,6 +44,3 @@ Similar flexibility exists when you are selling items to be assembled to the ord
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

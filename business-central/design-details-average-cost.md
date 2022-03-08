@@ -1,21 +1,21 @@
 ---
-title: Design Details - Average Cost
+title: Design Details - Average Cost | Microsoft Docs
 description: The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in Business Central.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 8645
-ms.date: 06/08/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 591788bdf425dc198a173fbefef702c7b707b4e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6a716b25f3dfb25d2011fd12ed388fed5e1e98f9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146729"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751837"
 ---
 # <a name="design-details-average-cost"></a>Design Details: Average Cost
 The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -28,10 +28,10 @@ The average cost of an item is calculated with a periodic weighted average, base
 |Field|Description|  
 |---------------------------------|---------------------------------------|  
 |**Average Cost Period**|Specifies which period the average cost is calculated in. The following options exist:<br /><br /> -   **Day**<br />-   **Week**<br />-   **Month**<br />-   **Accounting Period**<br /><br /> All inventory decreases that are posted in the average cost period receive the average cost calculated for that period.|  
-|**Average Cost Calc. Type**|Specifies how the average cost is calculated. The following options exist:<br /><br /> -   **Item**<br />-   **Item, Variant, and Location**<br /> With this option, the average cost is calculated for each item, for each location, and for each variant of the item. This means that the average cost of this item depends on where it is stored and which variant of the item that you have selected, such as colour.|  
+|**Average Cost Calc. Type**|Specifies how the average cost is calculated. The following options exist:<br /><br /> -   **Item**<br />-   **Item, Variant, and Location**<br />     With this option, the average cost is calculated for each item, for each location, and for each variant of the item. This means that the average cost of this item depends on where it is stored and which variant of the item that you have selected, such as colour.|  
 
 > [!NOTE]  
->  You can only use one average cost period and one average cost calculation type in a financial year.  
+>  You can only use one average cost period and one average cost calculation type in a fiscal year.  
 >   
 >  The **Accounting Periods** page shows which average cost period and which average cost calculation type is in effect during that period, for each accounting period.  
 
@@ -55,63 +55,63 @@ The average cost of an item is calculated with a periodic weighted average, base
 
  The following table shows item ledger entries for the sample average-cost item, ITEM1, before the **Adjust Cost - Item Entries** batch job has been run.  
 
-| **Posting Date** | **Item Ledger Entry Type** | **Quantity** | **Cost Amount (Actual)** | **Entry No.** |
-|--|--|--|--|--|
-| 01-01-20 | Purchase | 1 | 20.00 | 1 |
-| 01-01-20 | Purchase | 1 | 40.00 | 2 |
-| 01-01-20 | Sale | -1 | -20.00 | 3 |
-| 02-01-20 | Sale | -1 | -40.00 | 4 |
-| 02-02-20 | Purchase | 1 | 100.00 | 5 |
-| 02-03-20 | Sale | -1 | -100.00 | 6 |
+|**Posting Date**|**Item Ledger Entry Type**|**Quantity**|**Cost Amount (Actual)**|**Entry No.**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01-01-20|Purchase|1|20.00|1|  
+|01-01-20|Purchase|1|40.00|2|  
+|01-01-20|Sale|-1|-20.00|3|  
+|02-01-20|Sale|-1|-40.00|4|  
+|02-02-20|Purchase|1|100.00|5|  
+|02-03-20|Sale|-1|-100.00|6|  
 
 > [!NOTE]  
 >  Because cost adjustment has not yet occurred, the values in the **Cost Amount (Actual)** field of the inventory decreases corresponding to the inventory increases that they are applied to.  
 
  The following table shows the entries in the **Avg. Cost Adjmt. Entry Point** table that apply to value entries resulting from the item ledger entries in the preceding table.  
 
-| **Item No.** | **Variant Code** | **Location Code** | **Valuation Date** | **Cost is Adjusted** |
-|--|--|--|--|--|
-| ITEM1 |  | BLUE | 01-01-20 | No |
-| ITEM1 |  | BLUE | 02-01-20 | No |
-| ITEM1 |  | BLUE | 02-02-20 | No |
-| ITEM1 |  | BLUE | 02-03-20 | No |
+|**Item No.**|**Variant Code**|**Location Code**|**Valuation Date**|**Cost is Adjusted**|  
+|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
+|ITEM1||BLUE|01-01-20|No|  
+|ITEM1||BLUE|02-01-20|No|  
+|ITEM1||BLUE|02-02-20|No|  
+|ITEM1||BLUE|02-03-20|No|  
 
  The following table shows the same item ledger entries after the **Adjust Cost - Item Entries** batch job has been run. The average cost per day is calculated and applied to the inventory decreases.  
 
-| **Posting Date** | **Item Ledger Entry Type** | **Quantity** | **Cost Amount (Actual)** | **Entry No.** |
-|--|--|--|--|--|--|
-| 01-01-20 | Purchase | 1 | 20.00 | 1 |
-| 01-01-20 | Purchase | 1 | 40.00 | 2 |
-| 01-01-20 | Sale | -1 | -30.00 | 3 |
-| 02-01-20 | Sale | -1 | -30.00 | 4 |
-| 02-02-20 | Purchase | 1 | 100.00 | 5 |
-| 02-03-20 | Sale | -1 | -100.00 | 6 |
+|**Posting Date**|**Item Ledger Entry Type**|**Quantity**|**Cost Amount (Actual)**|**Entry No.**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01-01-20|Purchase|1|20.00|1|  
+|01-01-20|Purchase|1|40.00|2|  
+|01-01-20|Sale|-1|-30.00|3|  
+|02-01-20|Sale|-1|-30.00|4|  
+|02-02-20|Purchase|1|100.00|5|  
+|02-03-20|Sale|-1|-100.00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Example: Average Cost Period = Month  
- The following example shows the effect of calculating the average cost based on an average cost period of one month. The **Average Cost Calc. Type** field on the **Inventory Setup** page is set to **Item**.  
+ The following example shows the effect of calculating the average cost based on an average cost period of one month. The **Average Cost Calc. Type** field on the **Inventory Setup** page  is set to **Item**.  
 
  If the average cost period is one month, then only one entry is created for each combination of item number, variant code, location code, and valuation date.  
 
  The following table shows item ledger entries for the sample average-cost item, ITEM1, before the **Adjust Cost - Item Entries** batch job has been run.  
 
-| **Posting Date** | **Item Ledger Entry Type** | **Quantity** | **Cost Amount (Actual)** | **Entry No.** |
-|--|--|--|--|--|
-| 01-01-20 | Purchase | 1 | 20.00 | 1 |
-| 01-01-20 | Purchase | 1 | 40.00 | 2 |
-| 01-01-20 | Sale | -1 | -20.00 | 3 |
-| 02-01-20 | Sale | -1 | -40.00 | 4 |
-| 02-02-20 | Purchase | 1 | 100.00 | 5 |
-| 02-03-20 | Sale | -1 | -100.00 | 6 |
+|**Posting Date**|**Item Ledger Entry Type**|**Quantity**|**Cost Amount (Actual)**|**Entry No.**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01-01-20|Purchase|1|20.00|1|  
+|01-01-20|Purchase|1|40.00|2|  
+|01-01-20|Sale|-1|-20.00|3|  
+|02-01-20|Sale|-1|-40.00|4|  
+|02-02-20|Purchase|1|100.00|5|  
+|02-03-20|Sale|-1|-100.00|6|  
 
 > [!NOTE]  
 >  Because cost adjustment has not occurred yet, the values in the **Cost Amount (Actual)** field of the inventory decreases corresponding to the inventory increases that they are applied to.  
 
  The following table shows the entries in the **Avg. Cost Adjmt. Entry Point** table that apply to value entries resulting from the item ledger entries in the preceding table.  
 
-| **Item No.** | **Variant Code** | **Location Code** | **Valuation Date** | **Cost is Adjusted** |
-|--|--|--|--|--|
-| ITEM1 |  | BLUE | 01-31-20 | No |
-| ITEM1 |  | BLUE | 02-28-20 | No |
+|**Item No.**|**Variant Code**|**Location Code**|**Valuation Date**|**Cost is Adjusted**|  
+|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
+|ITEM1||BLUE|01-31-20|No|  
+|ITEM1||BLUE|02-28-20|No|  
 
 > [!NOTE]  
 >  The valuation date is set to the last day in the average cost period, which in this case is the last day of the month.  
@@ -132,7 +132,7 @@ The average cost of an item is calculated with a periodic weighted average, base
  To get the average cost for February, the average cost of the piece received in inventory (100.00) is added to the average cost at the beginning of the period (30.00). The sum of the two (130.00) is then divided by the total quantity in inventory (2).This gives the resulting average cost of the item in the February period (65.00). The average cost is assigned to the inventory decreases in the period (entries 4 and 6).  
 
 ## <a name="setting-the-valuation-date"></a>Setting the Valuation Date  
- The **Valuation Date** field in the **Value Entry** table is used to determine in which average cost period a inventory decrease entry belongs. This also applies to work in progress (WIP) inventory.  
+ The **Valuation Date** field in the **Value Entry** table is used to determine in which average cost period an inventory decrease entry belongs. This also applies to work in process (WIP) inventory.  
 
  The following table shows the criteria that are used to set the valuation date.  
 
@@ -176,7 +176,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 > [!NOTE]  
 >  Another reason for this flexibility is fixed application. For more information about fixed application, see [Design Details: Item Application](design-details-item-application.md).  
 
- Because of this flexibility, you may have to recalculate the average cost after the related posting has occurred. For example, if you post a inventory increase or decrease with a valuation date that comes before one or more inventory decreases. The recalculation of the average cost will occur automatically when you run the **Adjust Cost - Item Entries** batch job, manually or automatically.  
+ Because of this flexibility, you may have to recalculate the average cost after the related posting has occurred. For example, if you post an inventory increase or decrease with a valuation date that comes before one or more inventory decreases. The recalculation of the average cost will occur automatically when you run the **Adjust Cost - Item Entries** batch job, manually or automatically.  
 
  It is possible to change the inventory valuation base within an accounting period by changing the **Average Cost Period** field and the **Average Cost Calc. Type** field. However, this should be done with care and in agreement with an auditor.  
 
@@ -192,7 +192,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 |02-15-20|-1|-15.00|3|  
 |02-16-20|-1|-15.00|4|  
 
- The user posts a inventory increase (entry number 5) with a valuation date (01-03-20) that comes before one or more inventory decreases. To balance the inventory, the average cost must be recalculated and adjusted to 17.00.  
+ The user posts an inventory increase (entry number 5) with a valuation date (01-03-20) that comes before one or more inventory decreases. To balance the inventory, the average cost must be recalculated and adjusted to 17.00.  
 
  The following table shows the value entries that exist for the item after entry number 5 is introduced.  
 
@@ -212,6 +212,3 @@ The average cost of an item is calculated with a periodic weighted average, base
  [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

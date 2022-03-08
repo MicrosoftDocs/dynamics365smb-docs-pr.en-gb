@@ -1,30 +1,28 @@
 ---
-title: Design Details - Inventory Costing
+title: Design Details - Inventory Costing | Microsoft Docs
 description: This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in Business Central.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.search.form: 8645
-ms.date: 06/08/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 82b837475f12f402d3b534f1ae1063a56619d8c4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a14c2a81a6aa36ce57384decb9342660297f9a84
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146664"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389931"
 ---
 # <a name="design-details-inventory-costing"></a>Design Details: Inventory Costing
-
 This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Inventory costing, also referred to as cost management, is concerned with recording and reporting business operating costs.  
 
-## <a name="in-this-section"></a>In This Section
-
+## <a name="in-this-section"></a>In This Section  
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Design Details: Item Application](design-details-item-application.md)  
 [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -37,7 +35,7 @@ Inventory costing, also referred to as cost management, is concerned with record
 [Design Details: Cost Components](design-details-cost-components.md)  
 [Design Details: Inventory Periods](design-details-inventory-periods.md)  
 [Design Details: Inventory Posting](design-details-inventory-posting.md)  
-[Design Details: Works Order Posting](design-details-production-order-posting.md)  
+[Design Details: Production Order Posting](design-details-production-order-posting.md)  
 [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
 [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  
 [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)  

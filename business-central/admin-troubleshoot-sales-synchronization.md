@@ -1,49 +1,46 @@
 ---
-title: Troubleshooting Synchronisation Errors
-description: This topic provides some guidance for identifying, troubleshooting and resolving Synchronisation errors.
+title: Troubleshooting Synchronisation Errors | Microsoft Docs
+description: Provides some guidance for identifying and resolving synchronisation errors.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 0c2252c194b611753e3a84cec42d685a3c561a68
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 729a767c0cb4bb330a463e14c7eb6a4f8fd7d909
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143823"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304276"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Troubleshooting Synchronisation Errors
+There are lots of moving parts involved in integrating [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUDE[crm_md](includes/crm_md.md)], and sometimes things go wrong. This topic points out some of the typical errors that occur and gives some pointers for how to fix them.
 
+Errors often occur either because of something that a user has done to coupled records or something is wrong with how the integration is set up. For errors related to coupled records, users can resolve those themselves. These errors are caused by actions such as deleting a record in one, but not both, business apps and then synchronising. For more information, see [View the Status of a Synchronisation](admin-how-to-view-synchronization-status.md).
 
-There are lots of moving parts involved in integrating [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], and sometimes things go wrong. This topic points out some of the typical errors that occur and gives some pointers for how to fix them.
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
-Errors often occur either because of something that a user has done to coupled records, or something is wrong with how the integration is set up. For errors related to coupled records, users can resolve those themselves. These errors are caused by actions such as deleting data in one, but not both, business apps and then synchronising. For more information, see [View the Status of a Synchronisation](admin-how-to-view-synchronization-status.md).
+Errors that are related to how the integration is set up typically require an administrator's attention. You can view these errors on the **Integration Synchronisation Errors** page. Examples of some typical issues include:  
+  
+* The permissions and roles assigned to users are not correct.  
+* The administrator account was specified as the integration user.  
+* The integration user’s password is set to require a change when the user signs in.  
+* The exchange rates for currencies are not specified in one or the other app.  
+  
+You must manually resolve the errors, but there are a few ways in which the page helps you. For example:  
 
-Errors that are related to how the integration is set up typically require an administrator's attention. You can view these errors on the **Integration Synchronisation Errors** page. 
-
-The following table provides examples of typical issues:  
-
-|Issue  |Resolution  |
-|---------|---------|
-|The permissions and roles assigned to the integration user are not correct. | This error comes from [!INCLUDE[prod_short](includes/cds_long_md.md)] and it often includes the following text “Principal user (Id=\<user id>, type=8) is missing \<privilegeName> privilege". This error happens because the integration user is missing a privilege that allows it to access an entity. Typically, this error happens if you are synchronising custom entities, or if you have an app installed in [!INCLUDE[prod_short](includes/cds_long_md.md)] that requires permission to access other [!INCLUDE[prod_short](includes/cds_long_md.md)] entities. To resolve this error, assign the permission to the integration user in [!INCLUDE[prod_short](includes/cds_long_md.md)].<br><br> You can find the integration user name on the **Dataverse Connection Setup** page. The error message will provide the name of the permission, which can help you identify the entity for which you need permission. To add the missing privilege, sign in to [!INCLUDE[prod_short](includes/cds_long_md.md)] with an administrator account and edit the security role assigned to the integration user. For more information, see [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role). |
-|You're coupling a record that uses another record that is not coupled. For example, a customer whose currency is not coupled or an item for which the unit of measurement is not coupled. | You must first couple the dependant record, for example, a currency or unit of measurement, and then retry the coupling. |
-
-The following are some tools on the Integration Synchronisation Errors page that can help you manually resolve these issues.  
-
-* The **Source** and **Destination** fields can contain links to the row where the error was found. Click the link to investigate the error.  
+* The **Source** and **Destination** fields may contain links to the record where the error was found. Click the link to open the record and investigate the error.  
 * The **Delete Entries Older than 7 Days** and the **Delete All Entries** actions will clean up the list. Typically, you use these actions after you have resolved the cause of an error that affects many records. Use caution, however. These actions might delete errors that are still relevant.
-* The **Show Error Call Stack** action shows information that can help identify the cause of the error. If you can't resolve the error yourself and you decide to submit a support request, include the information in the support request.
 
 ## <a name="see-also"></a>See Also
-[Integrating with Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-[Setting Up User Accounts for Integrating with Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  
-[Set Up a Connection to Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  
+[Integrating with [!INCLUDE[crm_md](includes/crm_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Setting Up User Accounts for Integrating with [!INCLUDE[crm_md](includes/crm_md.md)]](admin-setting-up-integration-with-dynamics-sales.md)  
+[Set Up a Connection to [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Couple and Synchronise Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)  
 [View the Status of a Synchronisation](admin-how-to-view-synchronization-status.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

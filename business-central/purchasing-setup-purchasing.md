@@ -1,45 +1,41 @@
 ---
-title: Overview of Tasks to Set Up Purchasing
+title: Overview of Tasks to Set Up Purchasing | Microsoft Docs
 description: Describes the tasks to define your company's procurement policies and set up your purchasing processes.
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 395af6b23c85c3f78eb970b9e2d9603bf336d34d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f16e82531825ccb0350b45bf4be20c3f8b5b9914
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146209"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383843"
 ---
 # <a name="setting-up-purchasing"></a>Setting Up Purchasing
 Before you can manage purchase processes, you must configure the rules and values that define the company's purchase policies.
 
 You must define the general setup, such as which purchase documents are required and how their values are posted. This general setup is typically performed once during the initial implementation.
 
-A separate series of tasks related to registering new suppliers is to record any special price or discount agreements that you have with each supplier.
+A separate series of tasks related to registering new vendors is to record any special price or discount agreements that you have with each vendor.
 
 Finance-related purchase setup, such as payment methods and currencies, are covered in the Finance Setup section. For more information, see [Setting Up Finance](finance-setup-finance.md).
 
 | To | See |
 | --- | --- |
-| Create a supplier card for each supplier that you purchase from|[Register New Suppliers](purchasing-how-register-new-vendors.md) |
-| Enter the different discounts and special prices that suppliers grant you depending on item, quantities, and/or date |[Record Purchase Price, Discount, and Payment Agreements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-| Prioritise suppliers |[Prioritise Suppliers](purchasing-how-prioritize-vendors.md) |
+| Create a vendor card for each vendor that you purchase from|[Register New Vendors](purchasing-how-register-new-vendors.md) |
+| Enter the different discounts and special prices that vendors grant you depending on item, quantities, and/or date |[Record Purchase Price, Discount, and Payment Agreements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Prioritise vendors |[Prioritise Vendors](purchasing-how-prioritize-vendors.md) |
 | Set up purchasers |[Set Up Purchasers](purchasing-how-setup-purchasers.md) |
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
 > [!TIP]
 > Depending on your geographical location, some pages can contain fields that are not described in the articles that are listed here because they apply to local functionality or customisations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-## <a name="external-document-number"></a>External document number
-
-[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 

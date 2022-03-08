@@ -1,20 +1,23 @@
 ---
 title: How to Quote an Assemble-to-Order Sale | Microsoft Docs
 description: You can use assembly management to customise an assembly item to a customer’s request during the sales process.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 86cc9dcb66377deabdae9cc3d44c0c090fccc9f9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: b69433a365e6c67f31863f8289cddb21d0f7f4b7
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133077"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247075"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Quote an Assemble-to-Order Sale
 You can use assembly management to customise an assembly item to a customer’s request during the sales process. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -25,7 +28,7 @@ As when you sell any other type of item, you can also create a sales quote for a
 >  Like all types of quotes, the quantities on assembly quotes are not used in availability, planning, or reservations.  
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>To create a sales quote for an assemble-to-order item  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quote**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quote**, and then choose the related link.  
 2.  Create a sales quote line with one line for an assembly item. For more information, see [Make Sales Quotes](sales-how-make-offers.md).  
 3.  In the **Qty. to Assemble to Order** field, enter the full quantity.
 
@@ -42,7 +45,4 @@ As when you sell any other type of item, you can also create a sales quote for a
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -2,17 +2,17 @@
 title: Add companies to your company hub
 description: Learn how to add companies from other Business Central environments to your company hub so you can manage work across environments.
 author: edupont04
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.search.keywords: accountant, accounting, company hub
-ms.search.form: 1151, 1155, 1166, 1165
-ms.date: 04/01/2021
+ms.date: 10/29/2020
 ms.author: edupont
-ms.openlocfilehash: c6cc06c45856f1e7c10b1ac82382dae799aef409
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a1832ae903af633756dd7fc2301e8a7ac21924de
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139814"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752112"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Add Companies to Your Company Hub
 
@@ -29,7 +29,7 @@ An environment link is a card where you specify the [!INCLUDE [prod_short](inclu
 
 The link is used when you choose the company in the company hub.  
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions for a company that is listed in the company hub.":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions for a company that is listed in the company hub":::
 
 > [!TIP]
 > If you're working in the free trial version of [!INCLUDE [prod_short](includes/prod_short.md)], it is easy to add the companies in your tenant. You can find the environment link by copying the Azure Active Directory ID from the **Troubleshooting** section of the Help & Support page. The environment name is probably the default value, PRODUCTION. Add this information to the **Environment Link** field, such as ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```, and then choose **Test the connection**. The evaluation company will be added to the list.
@@ -47,6 +47,3 @@ When you have added your environments, your companies show up automatically. How
 
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
 [Resources for Help and Support](product-help-and-support.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

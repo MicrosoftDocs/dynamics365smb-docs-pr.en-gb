@@ -1,26 +1,26 @@
 ---
-title: Post Intercompany Documents and Journals
-description: This topic explains how you use intercompany documents or journals to post transactions with your intercompany partners.
+title: Post Intercompany Documents and Journals| Microsoft Docs
+description: Use intercompany documents to post transactions with your intercompany partners.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 610
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: ec02fa8000c9c16236430712a50dc1c0c064b24e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 55f7e0f58634ad56d88d6e826f42eafdc92c6a6a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131796"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182427"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Work with Intercompany Documents and Journals
 You use intercompany documents or journals to post transactions with your intercompany partners. When you post an intercompany document or journal line in your company, a corresponding document or journal line is created in your intercompany outbox that you can transfer to your partner. Your partner can then post the corresponding transaction in their company, without having to re-enter the data.
 
-For sales and purchase documents, the intercompany partner code on the involved customer or supplier ensures that all orders and invoices generated pertaining to transactions with these companies will produce corresponding documents in the partner company, resulting in correct balancing of the accounts.
+For sales and purchase documents, the intercompany partner code on the involved customer or vendor ensures that all orders and invoices generated pertaining to transactions with these companies will produce corresponding documents in the partner company, resulting in correct balancing of the accounts.
 
 For intercompany general journal lines, you do not need to specify the accounts for an individual set of books, but simply give the identification of the partner company. Corresponding intercompany general journal lines are then created in the partner company that result in the balancing of the books of both companies involved in a transaction.
 
@@ -29,7 +29,7 @@ You can send sales and purchase orders and return orders before posting. Invoice
 
 The following procedure describes how to fill in and send an intercompany sales order. The same steps apply to intercompany purchase orders and return orders, and to posted intercompany invoices and credit memos.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Choose **New** to create a new sales order. For more information, see [Sell Products](sales-how-sell-products.md).  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Make sure the customer is an intercompany partner.
@@ -41,7 +41,7 @@ The following procedure describes how to fill in and send an intercompany sales 
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>To fill in and post an intercompany journal
 When you post an intercompany general journal line in your company, a corresponding journal line is created in your intercompany outbox that you can transfer to your partner. Your partner can then post the corresponding transaction in their company, without having to re-enter the data.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany General Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany General Journals**, and then choose the related link.  
 2. Open the relevant journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. Fill in the fields as necessary.
 4. In the **IC Partner G/L Acc. No.** field, enter the intercompany general ledger account that the amount will be posted to in your partner's company.
@@ -57,7 +57,4 @@ The involved entries are posted in your company and a journal with the correspon
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

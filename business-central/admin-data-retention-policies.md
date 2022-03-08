@@ -1,21 +1,21 @@
 ---
-title: Clean Up Data with Retention Policies
+title: Clean Up Data with Retention Policies | Microsoft Docs
 description: You can specify how often you want to delete certain types of data.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
-ms.search.form: 3903, 3901
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 955b85020d4cb13f108bc1923de66eb13ade0061
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132192"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935343"
 ---
 # <a name="define-retention-policies"></a>Define Retention Policies
 Administrators can define retention policies to specify how frequently they want [!INCLUDE[prod_short](includes/prod_short.md)] to delete outdated data in tables that contain log entries and archived records. For example, cleaning up log entries can make it easier to work with the data that's actually relevant. Policies can include all data in the tables that is past the expiration date, or you can add filter criteria that will include only certain expired data in the policy. 
@@ -40,7 +40,7 @@ Retention periods can be as long or as short as you want. To create retention pe
 > For compliance reasons, we have defined a minimum retention period for some tables. If you set a retention period that is shorter than minimum required, a message will display the mandatory period.
 
 ### <a name="set-up-a-retention-policy"></a>Set up a retention policy
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Retention Policies**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Retention Policies**, and choose the related link.
 2. In the **Table ID** field, choose the table that you want to include in the policy.
 3. In the **Retention Period** field, specify the length of time for which to keep the data in the table.
 4. Optional: To apply the policy to specific data in a table, turn off the Apply to all records toggle. The Record Retention Policy FastTab will display, where you can set filters to create subsets of data for each line. For more information, see [Filtering](ui-enter-criteria-filters.md#filtering).

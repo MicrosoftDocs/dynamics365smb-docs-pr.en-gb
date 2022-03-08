@@ -2,6 +2,7 @@
 title: Process Sales Return Orders
 description: Describes how to create a sales return order to process a return, cancellation, or reimbursement for items or services you have been received payment for.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: undo, credit memo, return, order
 ms.search.form: 44, 134, 144, 9302
 ms.date: 09/08/2021
 ms.author: edupont
-ms.openlocfilehash: 8a82b9116984f8b824375238fd1e6e4eb73930a3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5461790c834a8809dc2f51dbd4f745da223b5c0c
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137062"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752273"
 ---
 # <a name="process-sales-return-orders"></a>Process Sales Return Orders  
 
@@ -99,7 +100,7 @@ You can post this increased cost as an item charge in a credit memo or a return 
 2. On a new line, in the **Type** field, select **Charge (Item)**.  
 3. Fill in the fields as for any item charge line. For more information, see [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md).  
 
-When you post the sales return order, the restock charge is added to the relevant sales entry amount. In this way, you can maintain accurate stock valuation.  
+When you post the sales return order, the restock charge is added to the relevant sales entry amount. In this way, you can maintain accurate inventory valuation.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 

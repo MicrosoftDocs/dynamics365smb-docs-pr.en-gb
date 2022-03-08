@@ -1,41 +1,39 @@
 ---
-title: Settle Purchase Invoices Promptly
-description: If you need to pay the supplier by cash or cheque, you can have the necessary posting done when you post the invoice.
+title: How to Settle Purchase Invoices Promptly | Microsoft Docs
+description: If you need to pay the vendor by cash or cheque, you can have the necessary posting done when you post the invoice.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
-ms.search.form: 51, 9308
-ms.date: 04/01/2021
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: ''
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: f44aa85b0a9990038df3cf49b1ba0f24e24df354
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d3f03e8051035d96d8963004cfad585940d89eac
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141221"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238930"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Settle Purchase Invoices Promptly
-
-If you need to pay the supplier by cash or cheque, you can post the payment when you post the invoice.  
-
-> [!NOTE]  
-> If you frequently pay purchase invoices in cash, by cheque or via bank transfer, it is a good idea to set up a specific payment method with a balancing account and enter this method in the **Payment Method** field on the supplier card. The balancing account number is inserted automatically on the invoice header every time you create a new invoice. For more information, see [Defining Payment Methods](finance-payment-methods.md).  
-
-## <a name="to-settle-purchase-invoices-promptly"></a>To settle purchase invoices promptly
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
-2. Choose the **New** action.  
-3. To pay either in cash or by bank transfer, enter the number of the general ledger cash account or the bank account in the **Bal. Account No.** field.  
-
+If you need to pay the vendor by cash or cheque, you can post the payment when you post the invoice.  
+  
+### <a name="to-settle-purchase-invoices-promptly"></a>To settle purchase invoices promptly  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
+2. On the **Home** tab, choose **New**.  
+3.  To pay either in cash or by bank transfer, enter the number of the general ledger cash account or the bank account in the **Bal. Account No.** field.  
+  
 > [!IMPORTANT]  
-> The **Bal. Account Type** and **Bal. Account No.** fields are not included in the standard layout of the invoice header. In order to post the payment of an invoice, you must contact a Microsoft partner who can add the fields through code.  
->
-> This customisation is only required if you do not specify balancing accounts on the payment methods as describe above.
-
-## <a name="see-also"></a>See Also
-
+>  The **Bal. Account Type** and **Bal. Account No.** fields are not included in the standard layout of the invoice header. In order to post the payment of an invoice, you must first insert them with the design facilities.  
+  
+> [!NOTE]  
+>  If you frequently pay purchase invoices in cash, it is a good idea to set up a specific payment method with a balancing account and enter this method in the **Payment Method** field on the vendor card. The balancing account number is inserted automatically on the invoice header every time you create a new invoice.  
+  
+## <a name="see-also"></a>See Also  
 [Managing Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

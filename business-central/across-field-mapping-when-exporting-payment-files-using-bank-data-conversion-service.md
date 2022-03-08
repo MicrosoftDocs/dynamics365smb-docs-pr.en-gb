@@ -2,28 +2,26 @@
 title: Field mapping for exporting bank payment files | Microsoft Docs
 description: When you export payment files using the AMC Banking 365 Fundamentals extension, the data that you export is exposed to the service provider.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 46664dac24f5da8eab714f1be303e4fb7241496d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 84be9f847d466588e25dad81754bcf64f367b4c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131041"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753374"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Field Mapping When Exporting Payment Files Using the AMC Banking 365 Fundamentals extension
 When you export payment files using the AMC Banking 365 Fundamentals extension, the data that you export is exposed to the service provider. The service provider is responsible for the privacy of this data. For more information about the AMC Banking 365 Fundamentals extension, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
 >  When you export payment files by using the AMC Banking 365 Fundamentals extension, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A/S, is responsible for the privacy of this data. For more information, see [AMC Privacy Policy](https://go.microsoft.com/fwlink/?LinkId=510158).  
-
-> [!NOTE]
-> In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), for example the commonly used Automated Clearing House (ACH) network, however with a slightly different process.
 
 The following table lists the fields in [!INCLUDE[prod_short](includes/prod_short.md)] from which you can export data.  
 
@@ -37,29 +35,29 @@ The following table lists the fields in [!INCLUDE[prod_short](includes/prod_shor
 |Sender Bank Account Currency|Currency Code|Bank Account|The sender bank account Currency Code|  
 |Document No.|Document No.|General Journal Line|The document number of the payment line|  
 |Applies-to Ext. Doc. No.|Applies-to Ext. Doc. No.|General Journal Line|The external document number of the invoice or credit memo that the payment line is applied to|  
-|Recipient ID|Account No.|General Journal Line|The customer or supplier number that is specified on the payment line|  
+|Recipient ID|Account No.|General Journal Line|The customer or vendor number that is specified on the payment line|  
 |Payment Type|Bank Data Conversion Pmt. Type|Payment Method|The type of bank transfer, such as domestic or international|  
 |Payment Reference|Payment Reference|General Journal Line|The payment reference of the payment line|  
-|Recipient Address|Address|Customer/Supplier|The recipient address that is specified on the customer or supplier card|  
-|Recipient City|City|Customer/Supplier|The recipient city that is specified on the customer or supplier card|  
-|Recipient Name|Name|Customer/Supplier|The recipient name that is specified on the customer or supplier card|  
-|Recipient Country/Region Code|Country/Region Code|Customer/Supplier|The recipient country/region code that is specified on the customer or supplier card|  
-|Recipient postcode|postcode|Customer/Supplier|The recipient postcode that is specified on the customer or supplier card|  
-|Recipient Bank Acc. No.|Bank Account No./IBAN|Customer Bank Account/Supplier Bank Account|The recipient bank account number (IBAN or other) that is specified on the customer or supplier bank account card|  
-|Recipient Bank Clearing Code|Bank Clearing Standard|Customer Bank Account/Supplier Bank Account|The national bank names register used for the recipient bank account|  
-|Recipient Bank Clearing Std.|Bank Clearing Code|Customer Bank Account/Supplier Bank Account|The identifier of the recipient bank account in relation to the bank names register that is used|  
-|Recipient Email Address|email|Customer/Supplier|The email address of the recipient|  
+|Recipient Address|Address|Customer/Vendor|The recipient address that is specified on the customer or vendor card|  
+|Recipient City|City|Customer/Vendor|The recipient city that is specified on the customer or vendor card|  
+|Recipient Name|Name|Customer/Vendor|The recipient name that is specified on the customer or vendor card|  
+|Recipient Country/Region Code|Country/Region Code|Customer/Vendor|The recipient country/region code that is specified on the customer or vendor card|  
+|Recipient postcode|postcode|Customer/Vendor|The recipient postcode that is specified on the customer or vendor card|  
+|Recipient Bank Acc. No.|Bank Account No./IBAN|Customer Bank Account/Vendor Bank Account|The recipient bank account number (IBAN or other) that is specified on the customer or vendor bank account card|  
+|Recipient Bank Clearing Code|Bank Clearing Standard|Customer Bank Account/Vendor Bank Account|The national bank names register used for the recipient bank account|  
+|Recipient Bank Clearing Std.|Bank Clearing Code|Customer Bank Account/Vendor Bank Account|The identifier of the recipient bank account in relation to the bank names register that is used|  
+|Recipient Email Address|E-Mail|Customer/Vendor|The email address of the recipient|  
 |Message To Recipient 1|Message to Recipient|General Journal Line|The message to recipient that is specified on the payment line|  
 |Amount|Amount|General Journal Line|The amount on the payment line|  
 |Currency Code|Currency Code|General Journal Line|The currency code on the payment line|  
 |Transfer Date|Posting Date|General Journal Line|The posting date of the payment line|  
-|Invoice Amount|Original Amount|Customer/Supplier Ledger Entry|The amount on the entry that the payment is applied to|  
-|Invoice Date|Document Date|Customer/Supplier Ledger Entry|The invoice date on the entry that the payment is applied to|  
-|Recipient Bank Address|Address|Customer Bank Account/Supplier Bank Account|The recipient bank account address that is specified on the customer or supplier bank account card|  
-|The recipient bank account address that is specified on the customer or supplier bank account card|City|Customer Bank Account/Supplier Bank Account|The recipient bank account city that is specified on the customer or supplier bank account card|  
-|Recipient Bank Name|Name|Customer Bank Account/Supplier Bank Account|The recipient bank account name that is specified on the customer or supplier bank account card|  
-|Recipient Bank Country/Region|Country/Region Code|Customer Bank Account/Supplier Bank Account|The recipient bank account country/region that is specified on the customer or supplier bank account card|  
-|Recipient Bank postcode|postcode|Customer Bank Account/Supplier Bank Account|The recipient bank account postcode that is specified on the customer or supplier bank account card|  
+|Invoice Amount|Original Amount|Customer/Vendor Ledger Entry|The amount on the entry that the payment is applied to|  
+|Invoice Date|Document Date|Customer/Vendor Ledger Entry|The invoice date on the entry that the payment is applied to|  
+|Recipient Bank Address|Address|Customer Bank Account/Vendor Bank Account|The recipient bank account address that is specified on the customer or vendor bank account card|  
+|The recipient bank account address that is specified on the customer or vendor bank account card|City|Customer Bank Account/Vendor Bank Account|The recipient bank account city that is specified on the customer or vendor bank account card|  
+|Recipient Bank Name|Name|Customer Bank Account/Vendor Bank Account|The recipient bank account name that is specified on the customer or vendor bank account card|  
+|Recipient Bank Country/Region|Country/Region Code|Customer Bank Account/Vendor Bank Account|The recipient bank account country/region that is specified on the customer or vendor bank account card|  
+|Recipient Bank postcode|postcode|Customer Bank Account/Vendor Bank Account|The recipient bank account postcode that is specified on the customer or vendor bank account card|  
 |Sender Bank Address|Address|Bank Account|The sender bank account address that is specified on the bank account card|  
 |Sender Bank City|City|Bank Account|The sender bank account city that is specified on the bank account card|  
 |Sender Bank Name|Name|Bank Account|The sender bank account name that is specified on the bank account card|  
@@ -74,6 +72,3 @@ The following table lists the fields in [!INCLUDE[prod_short](includes/prod_shor
 [Exchanging Data Electronically](across-data-exchange.md)
 [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)   
 [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,6 +2,7 @@
 title: Use the Manufacturing Batch Unit of Measurement
 description: This topic gives an overview of how to work with manufacturing batch units of measurement in Business Central.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6e7d188adceffbc6044162e14de5cbb141c21b54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d0fed17c296932afd5f976d5cceb7a4b83c79dae
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137504"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321248"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Work with Manufacturing Batch Units of Measurement
 If an item is stocked in one unit of measurement but produced in another, a works order is created that uses a manufacturing batch unit of measurement to calculate the correct quantity of the components during the **Refresh Works Order** batch job. An example of a manufacturing batch unit of measurement calculation is when a manufactured item is stocked in pieces but produced in tons.  

@@ -2,6 +2,7 @@
 title: Manual Synchronisation of Table Mappings | Microsoft Docs
 description: The synchronisation copies data between Microsoft Dataverse tables and Business Central to keep both systems up-to-date.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d36032b28790052ad568a91c40d0b6eec7e2bc31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 45a120bd56ea53bf0ba885f04f9bdcedbeba4c5d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149238"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781178"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Manually Synchronise Table Mappings
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 An integration table mapping associates a [!INCLUDE[prod_short](includes/prod_short.md)] table, such as customer, with a [!INCLUDE[prod_short](includes/cds_long_md.md)] table, such as account. Synchronising an integration table mapping enables you to synchronise data in all records of the [!INCLUDE[prod_short](includes/prod_short.md)] table and [!INCLUDE[prod_short](includes/cds_long_md.md)] table that are coupled. Additionally, depending on the configuration of the table mapping, synchronisation can create and couple new records in the destination solution for uncoupled records in the source.  
 
@@ -42,7 +43,7 @@ Whether and where a row gets created depends on the synchronisation direction. F
 >  You typically only use the full synchronisation when you initially set up integration between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)] and only one of solutions contains data, which you want to copy to the other solution. A full synchronisation can be useful in a demonstration environment. Because the full synchronisation automatically creates and couples records between the solutions, it makes it faster to start working with synchronising data between records. On the other hand, you should only run a full synchronisation if you want a row in [!INCLUDE[prod_short](includes/prod_short.md)] for each row in [!INCLUDE[prod_short](includes/cds_long_md.md)] for the given table mappings. Otherwise, you can have unwanted or duplicate records in either [!INCLUDE[prod_short](includes/prod_short.md)] or [!INCLUDE[prod_short](includes/cds_long_md.md)].  
 
 ### <a name="to-run-a-full-synchronization"></a>To run a full synchronisation  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dataverse Connection Setup**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dataverse Connection Setup**, and then choose the related link.
 
     > [!NOTE]
     > If you want to run a full synchronisation for tables through Dynamics 365 Sales, use the **Microsoft Dynamics 365 Sales Connection Setup** page instead.
@@ -61,7 +62,7 @@ You can use the **Common Data Service Connection Setup** page to synchronise cha
 
 1.  CURRENCY  
 2.  SALESPEOPLE  
-3.  SUPPLIER  
+3.  VENDOR  
 4.  CUSTOMER  
 5.  CONTACTS  
 
@@ -71,14 +72,14 @@ You can view the results of the synchronisation on the **Integration Synchronisa
 >  By modifying the integration table mapping in advance, you can create filters to control the data to synchronise, or configure mappings to create new data in the destination solution for uncoupled records or rows in the source. For more information, see [Modify Table Mappings for Synchronisation](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-data-for-all-tables"></a>To synchronise data for all tables  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Dynamics 365 Sales Connection Setup**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Dynamics 365 Sales Connection Setup**, and then choose the related link.
 2.  Choose the **Synchronise Modified Records** action, and then choose **Yes**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Synchronise Individual Table Mappings
 You can use the **Integration Table Mappings** page to run a synchronisation job for table mappings. This will synchronise data for all coupled records and rows in the [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)] tables that are defined by the table mapping. By default, only data that has been modified since the last synchronisation will be synchronised.  
 
 ### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>To synchronise records of an integration table mapping  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
 2.  Choose the **Synchronise Modified Records** action, and then choose **Yes**.  
 
 ## <a name="see-also"></a>See Also  

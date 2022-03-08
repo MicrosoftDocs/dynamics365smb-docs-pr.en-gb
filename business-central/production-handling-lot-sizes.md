@@ -1,20 +1,21 @@
 ---
-title: Handling Lot Sizes
+title: Handling Lot Sizes | Microsoft Docs
 description: This topic describes different ways to handle lot sizes.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: ''
-ms.date: 04/01/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6d6316fbe214512f5d42622c47502a4361ce604e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6f07828e969d5a8394657bc1e05d44156ada5411
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135757"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749025"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Handling Lot Sizes in Production
 In terms of quantity, the number of items you produce in a production operation might not correlate to how sell them. For example, you might produce hundreds of items in a single lot, but sell each item individually. When you configure your production routes and bills of materials (BOMs), there are few nuances you should consider with regards to lot sizes. This topic describes how lot sizes impact cost calculations and resource planning.
@@ -51,6 +52,3 @@ For supply planning, the lot size setting on items works with the **Default Damp
 [Work with Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 [Create Routings](production-how-to-create-routings.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

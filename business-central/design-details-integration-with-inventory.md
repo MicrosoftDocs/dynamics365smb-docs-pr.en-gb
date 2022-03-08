@@ -2,6 +2,7 @@
 title: Design Details - Integration with Inventory
 description: The Warehouse Management and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 58cb2222f2533e2ba952727243a5fdb830b34e75
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 209bf5b50f362b11d0ba4fdc6ae0cab47a3622fa
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145895"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319206"
 ---
 # <a name="design-details-integration-with-inventory"></a>Design Details: Integration with Inventory
 The Warehouse Management application area and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.  

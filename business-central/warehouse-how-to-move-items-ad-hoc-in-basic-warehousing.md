@@ -2,6 +2,7 @@
 title: Move Items Ad Hoc in Basic Warehouse Configs
 description: This topic explains ad hoc movements performed when you need to move items between internal bins without a specific demand from a source document.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 1dd408f93a7111b6d389ae1c532bd7b1ec70d7bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 11377c1944f47723b97fad9b5ffc699fa8255a4f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140060"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444109"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Move Items Ad Hoc in Basic Warehouse Configurations
 You may occasionally need to move items between internal bins, not receiving or shipping bins, without a specific demand from a source document. You may perform these ad hoc movements, for example, to reorganise the warehouse, to bring items to an inspection area, or to move additional items to and from a production area without a system relation to the works order source document.  

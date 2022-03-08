@@ -1,32 +1,32 @@
 ---
-title: How to work With VAT on Sales and Purchases
-description: This topic describes the various ways of working with VAT both manually and with automatic setup, to help you meet country specific regulations.
+title: How to work With VAT on Sales and Purchases | Microsoft Docs
+description: This topic describes how perform tasks such as correcting posted VATIn EU countries/regions, every sales and purchase transaction is subject to VAT calculations. This topic describes how.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, sales, purchases
-ms.search.form: 118, 130, 142, 459, 460, 525
-ms.date: 06/16/2021
+ms.search.keywords: VAT, sales, purchases,
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ed3cbe00aac1faf920df6954ee1694bdabce9835
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ec880df940816b68a9b6f8a82098985471720984
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133791"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781563"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Work with VAT on Sales and Purchases
 If your country or region requires you to calculate value-added tax (VAT) on sales and purchase transactions so that you can report the amounts to a tax authority, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate VAT automatically on sales and purchase documents. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).
 
-There are, however, some VAT-related tasks that you can do manually. For example, you might need to correct a posted amount if you discover that a supplier uses a different rounding method.  
+There are, however, some VAT-related tasks that you can do manually. For example, you might need to correct a posted amount if you discover that a vendor uses a different rounding method.  
 
 > [!TIP]
 > You can let [!INCLUDE[prod_short](includes/prod_short.md)] validate VAT registration numbers and other company information when you create or update documents. For more information, see [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Calculating and Displaying VAT Amounts in Sales and Purchase Documents  
-You can calculate and display VAT amounts in sales and purchase documents differently, depending on the type of customer or supplier that you are dealing with. You can also override the calculated VAT amount to match the VAT amount calculated by your supplier on a given transaction.  
+You can calculate and display VAT amounts in sales and purchase documents differently, depending on the type of customer or vendor that you are dealing with. You can also override the calculated VAT amount to match the VAT amount calculated by your vendor on a given transaction.  
 
 ### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Unit Price and Line Amount Including/Excluding VAT on Sales Documents  
 When you choose an item number in the **No.** field on a sales document, [!INCLUDE[prod_short](includes/prod_short.md)] fills in the **Unit Price** field. The unit price comes from either the **Item** card or the item prices allowed for the item and customer. [!INCLUDE[prod_short](includes/prod_short.md)]calculates the **Line Amount** when you enter a quantity for the line.  
@@ -50,7 +50,7 @@ The following table provides an overview of how application calculates the unit 
 |Check mark|Check mark|The **Unit Price** on the Item Card is copied to **Unit Price Incl. VAT** field on the sales lines.|
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Correcting VAT Amounts Manually in Sales and Purchase Documents  
-You can make corrections to posted VAT entries. This allows you to change the total sales or purchase VAT amounts without changing the VAT base. You may need to do this, for example, if you receive an invoice from a supplier that has calculated VAT incorrectly.  
+You can make corrections to posted VAT entries. This allows you to change the total sales or purchase VAT amounts without changing the VAT base. You may need to do this, for example, if you receive an invoice from a vendor that has calculated VAT incorrectly.  
 
 Although you may have set up one or more combinations to handle import VAT, you must set up at least one VAT product posting group. For example, you can name it **CORRECT** for correction purposes, unless you can use the same general ledger account in the **Purchase VAT Account** field on the VAT posting setup line. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).
 
@@ -72,7 +72,7 @@ The following describes how to enable manual VAT changes on sales documents. The
 > The total VAT amount for the invoice, grouped by VAT identifier, is displayed in the lines. You can manually adjust the amount in the **VAT Amount** field on the lines for each VAT identifier. When you modify the **VAT Amount** field, application checks to ensure that you have not changed the VAT by more than the amount you have specified as the maximum difference allowed. If the amount is outside the range of the **Max. VAT Difference Allowed**, a warning will be displayed stating the maximum allowed difference. You will be unable to proceed until the amount is adjusted to within the acceptable parameters. Click **OK** and enter another **VAT Amount** that is within the allowed range. If the VAT difference is equal to or lower than the maximum allowed, the VAT will be divided proportionally among the document lines that have the same VAT identifier.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Calculating VAT Manually Using Journals  
-You can also adjust VAT amounts in general, sales, and purchase journals. For example, you might need to do this when you enter a supplier invoice in your journal and there is a difference between the VAT amount that [!INCLUDE[prod_short](includes/prod_short.md)] calculated and the VAT amount on the supplier's invoice.  
+You can also adjust VAT amounts in general, sales, and purchase journals. For example, you might need to do this when you enter a vendor invoice in your journal and there is a difference between the VAT amount that [!INCLUDE[prod_short](includes/prod_short.md)] calculated and the VAT amount on the vendor's invoice.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>To set the system up for manual VAT entry in a general journals
 You must perform the following steps before you manually enter VAT in a general journal.  
@@ -87,72 +87,72 @@ You must perform the following steps before you manually enter VAT in a sales or
 2. Repeat step 1 for the **Sales & Receivables Setup** page.
 3. After you complete the setup described above, you can adjust the **VAT Amount** field on the general journal line, or the **Bal. VAT Amount** field on the sales or purchase journal line. [!INCLUDE[prod_short](includes/prod_short.md)] will check that the difference is not greater than the specified maximum.  
 
-> [!NOTE]  
-> If the difference is greater, a warning will be displayed stating the maximum allowed difference. To continue, you must adjust the amount. Choose **OK** and then enter an amount that is within the allowed range. If the VAT difference is equal to or lower than the maximum allowed, [!INCLUDE[prod_short](includes/prod_short.md)] will show the difference in the **VAT Difference** field.  
+    > [!NOTE]  
+    > If the difference is greater, a warning will be displayed stating the maximum allowed difference. To continue, you must adjust the amount. Choose **OK** and then enter an amount that is within the allowed range. If the VAT difference is equal to or lower than the maximum allowed, [!INCLUDE[prod_short](includes/prod_short.md)] will show the difference in the **VAT Difference** field.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Posting Import VAT with Purchase Invoices
 Instead of using journals to post an import VAT invoice, you can use a purchase invoice.  
 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>To set up purchasing for posting import VAT invoices  
-1. Set up a supplier card for the import authority that sends you the import VAT invoice. The **Gen. Bus. Posting Group** and **VAT Bus. Posting Group** must be set up in the same way as the general ledger account for the import VAT.  
+1. Set up a vendor card for the import authority that sends you the import VAT invoice. The **Gen. Bus. Posting Group** and **VAT Bus. Posting Group** must be set up in the same way as the general ledger account for the import VAT.  
 2. Create a **Gen. Product Posting Group** for the import VAT and set up an import VAT **Def. VAT Product Posting Group** for the related **Gen. Product Posting Group**.  
-3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 4. Select the import VAT general ledger account, and then choose the **Edit** action.  
 5. On the **Posting** FastTab, select the **Gen. Prod. Posting Group** setup for import VAT. [!INCLUDE[prod_short](includes/prod_short.md)] automatically fills in the **VAT Prod. Posting Group** field.  
-6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
+6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
 7. Create a combination of the **Gen. Bus. Posting Group** for the VAT authority and the **Gen. Prod. Posting Group** for import VAT. For this new combination, in the **Purchase Account** field, choose the import VAT general ledger account.  
 
-### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>To create a new invoice for the import authority supplier once you have completed the setup  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
+### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>To create a new invoice for the import authority vendor once you have completed the setup  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. Create a new purchase invoice.  
-3. In the **Buy-from Supplier No.** field, choose the import authority supplier, and then choose the **OK** button.  
+3. In the **Buy-from Vendor No.** field, choose the import authority vendor, and then choose the **OK** button.  
 4. In the purchase line, in the **Type** field, choose **G/L Account**, and in the **No.** field, choose the import VAT general ledger account.  
 5. In the **Quantity** field, type **1**.  
 6. In the **Direct Unit Cost Excl. VAT** field, specify the VAT amount.  
 7. Post the invoice.  
 
 ## <a name="processing-certificates-of-supply"></a>Processing Certificates of Supply
-When you sell goods to a customer in another EU country/region, you must send the customer a certificate of supply that the customer must sign and return to you. The following procedures are for processing certificates of supply for sales shipments, but the same steps apply for service shipments of items, and return shipments to suppliers.  
+When you sell goods to a customer in another EU country/region, you must send the customer a certificate of supply that the customer must sign and return to you. The following procedures are for processing certificates of supply for sales shipments, but the same steps apply for service shipments of items, and return shipments to vendors.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>To view certificate of supply details  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
 2. Choose the relevant sales shipment to a customer in another EU country/region.  
 3. Choose **Certificate of Supply Details**.  
 4. By default, if the **Certificate of Supply Required** check box is selected for VAT Posting Group setup for the customer, the **Status** field is set to **Required**. You can update the field to indicate whether the customer has returned the certificate.  
 
-> [!Note]  
->  If the VAT Posting Group setup does not have the **Certificate of Supply Required** check box selected, then a record is created and the **Status** field is set to **Not Applicable**. You can update the field to reflect the correct status information. You can manually change the status from **Not Applicable** to **Required**, and from **Required** to **Not Applicable** as needed.  
+    > [!Note]  
+    >  If the VAT Posting Group setup does not have the **Certificate of Supply Required** check box selected, then a record is created and the **Status** field is set to **Not Applicable**. You can update the field to reflect the correct status information. You can manually change the status from **Not Applicable** to **Required**, and from **Required** to **Not Applicable** as needed.  
 
    When you update the **Status** field to **Required**, **Received**, or **Not Received**, a certificate is created.  
 
-> [!TIP]  
->  You can use the **Certificates of Supply** page to get a view of the status of all posted shipments for which a certificate of supply has been created.  
+    > [!TIP]  
+    >  You can use the **Certificates of Supply** page to get a view of the status of all posted shipments for which a certificate of supply has been created.  
 
 5. Choose **Print Certificate of Supply**.  
 
-> [!Note]  
->  You can preview or print the document. When you choose **Print Certificate of Supply** and print the document, the **Printed** check box is automatically selected. In addition, if not already specified, the status of the certificate is updated to **Required**. If needed, you include the printed certificate with the shipment.  
+    > [!Note]  
+    >  You can preview or print the document. When you choose **Print Certificate of Supply** and print the document, the **Printed** check box is automatically selected. In addition, if not already specified, the status of the certificate is updated to **Required**. If needed, you include the printed certificate with the shipment.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>To print a certificate of supply  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
 2. Choose the relevant sales shipment to a customer in another EU country/region.  
 3. Choose the **Print Certificate of Supply** action.  
 
-> [!NOTE]  
->  Alternatively, you can print a certificate from the **Certificate of Supply** page.  
+    > [!NOTE]  
+    >  Alternatively, you can print a certificate from the **Certificate of Supply** page.  
 
 4. To include information from the lines on the shipment document in the certificate, select the **Print Line Details** check box.  
 5. Choose the **Create Certificates of Supply if Not Already Created** check box to have [!INCLUDE[prod_short](includes/prod_short.md)] create certificates for posted shipments that do not have one at the moment of execution. When you choose the check box, new certificates will be created for all posted shipments that do not have certificates within the selected range.  
 6. By default, the filter settings are for the shipment document that you have selected. Fill in the filter information to select a specific certificate of supply that you want to print.  
 7. On the **Certificate of Supply** page, choose the **Print** action to print the report, or choose the **Preview** action to view it on the screen.  
 
-> [!Note]  
-> The **Certificate of Supply Status** field and the **Printed** field are updated for the shipment on the **Certificates of Supply** page.  
+    > [!Note]  
+    > The **Certificate of Supply Status** field and the **Printed** field are updated for the shipment on the **Certificates of Supply** page.  
 
 8. Send the printed certificate of supply to the customer for signature.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>To update the status of a certificate of supply for a shipment  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
 2. Choose the relevant sales shipment to a customer in another EU country/region.  
 3. In the **Status** field, choose the relevant option.  
 
@@ -165,7 +165,7 @@ When you sell goods to a customer in another EU country/region, you must send th
 To view a group of certificates, you start from the **Certificates of Supply** page, and then update the information about the status of outstanding certificates as you receive them back from your customers. This can be useful when you want to search for all certificates that have a certain status, for example, **Required**, for which you want to update their status to **Not Received**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>To update the status of a group of certificates of supply  
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Certificates of Supply**, and choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Certificates of Supply**, and choose the related link.  
 2. Filter the **Status** field to the value that you want in order to create the list of certificates that you want to manage.  
 3. To update the status information, choose **Edit List**.  
 4. In the **Status** field, choose the relevant option.  
@@ -174,11 +174,11 @@ To view a group of certificates, you start from the **Certificates of Supply** p
 
    You can modify the date to reflect the date that you received the signed the certificate of supply. You can also add a link to the signed certificate using standard [!INCLUDE[prod_short](includes/prod_short.md)] document linking.  
 
-> [!NOTE]
-> You cannot create a new certificate of supply on the **Certificate of Supply** page when you navigate to it using this procedure. To create a certificate for a shipment that was not set up to require one, open the posted sales shipment, and use either of two procedures described above:  
->
-> * To manually create a certificate of supply certificate  
-> * To print a certificate of supply.
+    > [!NOTE]  
+    >  You cannot create a new certificate of supply on the **Certificate of Supply** page when you navigate to it using this procedure. To create a certificate for a shipment that was not set up to require one, open the posted sales shipment, and use either of two procedures described above:  
+    >
+    > * To manually create a certificate of supply certificate  
+    > * To print a certificate of supply.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

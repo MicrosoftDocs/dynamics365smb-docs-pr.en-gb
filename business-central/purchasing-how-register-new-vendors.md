@@ -1,78 +1,61 @@
 ---
-title: Create a Vendor Card to Register a New Vendor (contains video)
-description: In this topic learn how to create a supplier card to register a new supplier or supplier and save supplier cards as a template.
+title: Create a Vendor Card to Register a New Vendor | Microsoft Docs
+description: Learn how to create a vendor card to register a new vendor or supplier.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 09/29/2021
-ms.author: edupont
-ms.openlocfilehash: 4bfb66f86c0cc06abed559af9c32942a5a27b40a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 26be6007c195964758e070d3d1b1e03800d4be4b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137322"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316699"
 ---
-# <a name="register-new-vendors"></a>Register New Suppliers
+# <a name="register-new-vendors"></a>Register New Vendors
+Vendors provide the products that you sell. Each vendor that you purchase from must be registered as a vendor card.
 
-Suppliers provide the products that you sell. Each supplier that you purchase from must be registered as a supplier card.
+Before you can register new vendors, you must set up various purchase codes that you can select from when you fill vendor cards. When all of the required master data is created, you can perform additional configuration of the vendor, such as prioritise the vendor for payment purposes and list items that the vendor and other vendors can supply. Another group of setup tasks for vendors is to record your agreements concerning discounts, prices, and payment methods. For more information, see [Setting Up Purchasing](purchasing-setup-purchasing.md).
 
-Before you can register new suppliers, you must set up various purchase codes that you can select from when you fill supplier cards. When all of the required master data is created, you can perform additional configuration of the supplier, such as prioritise the supplier for payment purposes and list items that the supplier and other suppliers can supply. Another group of setup tasks for suppliers is to record your agreements concerning discounts, prices, and payment methods. For more information, see [Setting Up Purchasing](purchasing-setup-purchasing.md).
-
-Supplier cards hold the information that is required to buy products from the supplier. For more information, see [Record Purchases](purchasing-how-record-purchases.md) and [Register New Items](inventory-how-register-new-items.md).
+Vendor cards hold the information that is required to buy products from the vendor. For more information, see [Record Purchases](purchasing-how-record-purchases.md) and [Register New Items](inventory-how-register-new-items.md).
 
 > [!NOTE]  
-> If supplier templates exist for different supplier types, then a page appears when you create a new supplier card from where you can select an appropriate template. If only one supplier template exists, then new supplier cards always use that template.
-<br><br>  
+>   If vendor templates exist for different vendor types, then a page appears when you create a new vendor card from where you can select an appropriate template. If only one vendor template exists, then new vendor cards always use that template.
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
+## <a name="to-create-a-new-vendor-card"></a>To create a new vendor card
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
+2. On the **Vendors** page, Choose **New**.
 
-## <a name="adding-new-vendors"></a>Adding new suppliers
-You can add new suppliers manually, by filling out the fields on the **Supplier Card** page, or you can use templates that contain predefined information. For example, you can create a templates for different types of supplier profiles. Using templates saves time when adding new suppliers, and helps ensure that the information is correct each time. If you create templates for more than one type of supplier, you can choose the template to use when you add a supplier. If you create only one template it will be used for all new suppliers. After you create a template, you can use the **Apply Template** action to apply it to one or more selected suppliers. To create a template, you fill in the information that you want to reuse on the Supplier Card page, and then save it as a template. For more information, see [To save the Supplier Card page as a template](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
+    If more than one vendor template exists, then a page opens from which you can select a vendor template. In that case, follow the next two steps.
+3. On the **Select a template for a new vendor** page, choose the template that you want to use for the new vendor card.
+4. Choose the **OK** button. A new vendor card opens with some fields filled with information from the template.
+5. Proceed to fill or change fields on the vendor card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!TIP]
-> It can be helpful to personalise the **supplier Template** page when you create a template. For example, you might want to add a field that is not already displayed on the page. For more information, see [Personalise Your Workspace](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+> [!NOTE]  
+>   If you do not know the invoicing address that will be used for every invoice from a vendor, do not fill in the **Pay-to** field. Instead, choose the pay-to vendor number after you have set up a purchase quote, order, or invoice header.
 
-You can also create a supplier from a contact. For more information, see [To create a customer, supplier, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact). 
+The vendor is now registered, and the vendor card is ready to be used on purchase documents.
 
-### <a name="to-create-a-new-vendor"></a>To create a new supplier
+If you want to use this vendor card as a template when you create new vendor cards, you can save it as a vendor template. For more information, see the following section.
 
-[!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
-
-> [!TIP]  
-> If you do not know the invoicing address that will be used for every invoice from a supplier, do not fill in the **Supplier No.** field. Instead, choose the pay-to supplier number after you have set up a purchase quote, order, or invoice header.
-
-The supplier is now registered, and the supplier card is ready to be used on purchase documents.
-
-If you want to use this supplier card as a template when you create new supplier cards, you can save it as a supplier template. For more information, see the [To save the supplier card as a template](#to-save-the-vendor-card-as-a-template) section.
-
-### <a name="deleting-and-editing-vendor-information"></a>Deleting and editing supplier information
-
-You can edit the information on supplier cards at any time. However, if you have posted a transaction for a supplier, you cannot delete the card because the ledger entries may be needed for auditing. To delete supplier cards with ledger entries, contact your Microsoft partner to do so through code.
-
-> [!TIP]
-> You can change the IBAN on a supplier bank account without the change affecting your historical credit transfer register entries. Credit transfer register entries store the Recipient IBAN, Recepient Bank Account No. that were specified in the Supplier Bank Account and Recipient Name fields from the Supplier Card page when the entries were created.
-
-
-## <a name="to-save-the-vendor-card-as-a-template"></a>To save the supplier card as a template
-
-1. On the **Supplier Card** page, choose the **Save as Template** action. The **Supplier Template** page opens showing the supplier card as a template.
+## <a name="to-save-the-vendor-card-as-a-template"></a>To save the vendor card as a template
+1. On the **Vendor Card** page, choose the **Save as Template** action. The **Vendor Template** page opens showing the vendor card as a template.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. To reuse dimensions in templates, choose the **Dimensions** action. The **Dimension Templates** page opens showing any dimension codes that are set up for the supplier.
-4. Edit or enter dimension codes that will apply to new supplier cards created by using the template.
-5. When you have completed the new supplier template, choose the **OK** button.  
-   The supplier template is added to the list of supplier templates, so that you can use it to create new supplier cards.
+3. To reuse dimensions in templates, choose the **Dimensions** action. The **Dimension Templates** page opens showing any dimension codes that are set up for the vendor.
+4. Edit or enter dimension codes that will apply to new vendor cards created by using the template.
+5. When you have completed the new vendor template, choose the **OK** button.  
+   The vendor template is added to the list of vendor templates, so that you can use it to create new vendor cards.
 
 ## <a name="see-also"></a>See Also
-
 [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Record Purchases](purchasing-how-record-purchases.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Record Purchases](purchasing-how-record-purchases.md)   
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

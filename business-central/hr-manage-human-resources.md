@@ -1,25 +1,26 @@
 ---
-title: Manage Human Resources
+title: Using Human Resources Functionality| Microsoft Docs
 description: You can register new personnel, edit information about existing staff, and record and analyse absence.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.search.form: 5200, 5201, 5212, 5211
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 97758b684b3a68508b9b6966d155f956d58c1f4a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 5210258f1e217149f0d41e1edcfaf8a8c0c3be79
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135913"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238677"
 ---
 # <a name="manage-human-resources"></a>Manage Human Resources
-
-In [!INCLUDE[prod_short](includes/prod_short.md)], you can keep detailed records of your employees. You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees. You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.
 
 You can also register employee absences, which allows you to analyse registered absences as necessary.
 
@@ -33,10 +34,6 @@ The following table describes a sequence of tasks, with links to the topics that
 | Record employees' absence and view absence statistics by various filters. |[Manage Employee Absence](hr-how-manage-absence.md) |
 
 ## <a name="see-also"></a>See Also
-
 [Finance](finance.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Change Which Features are Displayed](ui-experiences.md)        
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Changing Which Features are Displayed](ui-experiences.md)        

@@ -1,20 +1,21 @@
 ---
 title: How to Convert Existing Locations to Warehouse Locations | Microsoft Docs
-description: You can enable an existing stock location to use zones and bins and to operate as a warehouse location.
+description: You can enable an existing inventory location to use zones and bins and to operate as a warehouse location.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d8c87884b359c02815187ab6b5c994ebccce119f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2a8bb0fe974ac13cdff2cd65fbd5b8428208e0bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140118"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756299"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Convert Existing Locations to Warehouse Locations
 You can enable an existing inventory location to use zones and bins and to operate as a warehouse location.  
@@ -27,11 +28,11 @@ You can create zones and bins either before or after the conversion. The only bi
 >  To clear all negative inventory and any open warehouse documents before you convert the location for warehouse handling, run a report to identify the items with negative inventory and open warehouse documents for the location. For more information, see Check on Negative Inventory.  
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>To enable an existing location to operate as a warehouse location  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Warehouse Location**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Warehouse Location**, and then choose the related link.  
 2.  In the **Location Code** field, specify the location that you want to enable for warehouse processing.  
 3.  In the **Adjustment Bin Code** field, specify the bin at the location where unsynchronized warehouse entries are stored. For more information, see the [To synchronise the adjusted warehouse entries with the related item ledger entries](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
 
-    Using the open item ledger entries for the specified location, warehouse journal lines are created that sum up every combination of Item No., Variant Code, Unit of Measurement Code, and, if necessary, Lot No. and Serial No. in the item ledger entries. The warehouse journal lines are then posted. This posting creates warehouse entries that place the inventory in the warehouse adjustment bin. The **Adjustment Bin Code** on the location card is also set.  
+    Using the open item ledger entries for the specified location, warehouse journal lines are created that sum up every combination of Item No., Variant Code, Unit of Measure Code, and, if necessary, Lot No. and Serial No. in the item ledger entries. The warehouse journal lines are then posted. This posting creates warehouse entries that place the inventory in the warehouse adjustment bin. The **Adjustment Bin Code** on the location card is also set.  
 
 4.  To see which items were added to the adjustment bin during the batch job, run the **Warehouse Adjustment Bin** report.  
 5.  When the **Create Warehouse Location** batch job has completed, perform and post a warehouse physical inventory. For more information, see [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).  
@@ -48,6 +49,3 @@ You can create zones and bins either before or after the conversion. The only bi
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

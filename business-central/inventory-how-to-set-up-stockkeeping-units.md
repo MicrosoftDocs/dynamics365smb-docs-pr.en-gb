@@ -1,30 +1,30 @@
 ---
-title: How to Set Up Stockkeeping Units
+title: How to Set Up Stockkeeping Units | Microsoft Docs
 description: You can use stockkeeping units to record information about your items for a specific location or a specific variant code.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.forms: 5704, 5700, 5702, 5701
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 92be2a9cf0a3ef176d4f3fe1c51ec5543c30bca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c94a02cdbd658efcf96c5cff443ebfe03cb3feef
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131542"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785903"
 ---
 # <a name="set-up-stockkeeping-units"></a>Set Up Stockkeeping Units
-You can use stockkeeping units to record information about items for a specific location or a variant code.  
+You can use stockkeeping units to record information about your items for a specific location or a specific variant code.  
 
-Stockkeeping units are a supplement to item cards. They do not replace them, although they are related to them. Stockkeeping units allow you to differentiate information about an item for a specific location, such as a warehouse or distribution centre, or a specific variant, such as different shelf numbers and different replenishment information, for the same item.  
+ Stockkeeping units are a supplement to item cards. They do not replace them, although they are related to them. Stockkeeping units allow you to differentiate information about an item for a specific location, such as a warehouse or distribution centre, or a specific variant, such as different shelf numbers and different replenishment information, for the same item.  
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a>To set up a stockkeeping unit  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Units**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Units**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Fill in the fields on the card. The following fields are required: **Item No.**, **Location Code**, and/or **Variant Code**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -46,7 +46,4 @@ To create several stockkeeping units for an item, use the **Create Stockkeeping 
 [Inventory](inventory-manage-inventory.md)  
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

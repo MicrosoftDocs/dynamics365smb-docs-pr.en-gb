@@ -2,20 +2,20 @@
 title: Multilanguage and Localisation
 description: Learn how language and region influence your experience in Business Central. Change the language of the user interface in My Settings.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5187d4f98360d7cf43300f86eda9e99dcbda4063
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323144"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776454"
 ---
 # <a name="changing-language-and-region"></a>Changing Language and Region
 
@@ -33,7 +33,7 @@ Changing the texts that are stored as application data is not part of the multil
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] only supports a single character set for data. Therefore some characters may not be supported in your environment, and you may experience problems when retrieving data that was entered using a different character set. For instance, your environment may support only English and Russian characters and if you enter data in a different language, it may not be stored correctly. You should contact your system administrator to make sure you understand which languages are supported for your [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="changing-your-region-setting"></a>Changing your region setting
+## <a name="changing-the-region"></a>Changing the region
 Region is different from both language and legal requirements in local markets. Region determines how your data presents itself in terms of comma separator, aligned to the left or to the right, and certain other settings. The region also determines some of the system elements in the browser, such as the action to create a new item in a list, for example.  
 
 You can change the region in the browser tab that you are using to work in [!INCLUDE[prod_short](includes/prod_short.md)]. The change applies only to you and not to the other users in your company.  The choice of region will be reset to your setting on your Microsoft 365 profile if your administrator synchronises users from Microsoft 365 into [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -42,11 +42,6 @@ You can change the region in the browser tab that you are using to work in [!INC
 > When you change the region, you will see a long list of languages and regions. However, the language is not influenced by the choice of region.  
 
 To change the region, go to the **My Settings** page. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
-
-## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Changing the Region Setting for Customers, Contacts, and Suppliers
-Some businesses use an external service that validates address information in their country or region. However, when you need to update address information, the structured approach that these services use may not always be what's right for some scenarios. Business Central offers a more flexible means of entering address details.
-
-On the **General Ledger Setup** page, if you turn on the **Require Country/Region Code in Address** toggle, changes to the **Country/Region Code** field on addresses for customers, contacts, or suppliers will reset the values in other address fields.
 
 ## <a name="application-version"></a>Application Version
 

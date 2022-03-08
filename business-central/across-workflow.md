@@ -1,20 +1,21 @@
 ---
-title: Workflows in Dynamic 365 Business Central
-description: Use workflows to connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as workflow steps.
+title: Workflow | Microsoft Docs
+description: You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 02f03c3b3423de2b78aea7f4e61c65c968290341
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95290ba7170e2390e83d4b12e5d988760c2f3c5f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130890"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752932"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows in Dynamics 365 Business Central
 
@@ -41,6 +42,3 @@ Any workflow template that you create with Power Automate is added to the list o
 [Purchasing](purchasing-manage-purchasing.md)  
 [Managing Projects](projects-manage-projects.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,19 +2,20 @@
 title: Design Details - Item Tracking and Planning | Microsoft Docs
 description: Because they are stored in the reservation system, item tracking numbers are fully coordinated with order tracking records.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 82979335348a3a007acb34282495949b52b1c096
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4f9fd9287055bed116201d13417a6a392cf9b477
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142400"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927004"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Design Details: Item Tracking and Planning
 Because they are stored in the reservation system, item tracking numbers are fully coordinated with order tracking records. This means that items with order tracking records can be assigned item tracking numbers. Conversely, items that have item tracking numbers can become order tracking records. For more information, see [Design Details: Item Tracking Design](design-details-item-tracking-design.md).
@@ -55,6 +56,3 @@ For more information, see [Design Details: Balancing Demand and Supply](design-d
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
 [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Design Details: Supply Planning](design-details-supply-planning.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

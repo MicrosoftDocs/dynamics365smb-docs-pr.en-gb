@@ -1,100 +1,57 @@
 ---
-title: Getting Ready for Doing Business
+title: Welcome | Microsoft Docs
 description: Outlines the assisted setup guides, videos, help topics, and pages and pages to use to get ready for doing business in Business Central.
-author: edupont04
-ms.topic: conceptual
+documentationcenter: ''
+author: SusanneWindfeldPedersen
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 09/29/2021
-ms.author: edupont
-ms.openlocfilehash: b75381cd5153294ec65878c3e6726b9a3e4821de
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
+ms.date: 04/01/2019
+ms.author: solsen
+ms.openlocfilehash: 73fb2daa84bc34d0fd865e2b95d5ea6dea11336c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335039"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249521"
 ---
 # <a name="getting-ready-for-doing-business"></a>Getting Ready for Doing Business
+Congratulations, you have just initiated your first company in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Congratulations, you have just initiated your first company in [!INCLUDE[prod_short](includes/prod_short.md)].
+To help you get ready for doing business, you can visit the **Business Assistance** page where you can launch assisted setup guides, videos, or help topics for selected setup tasks. You access the page from the chart on the **Business Manager** Role Centre by choosing the **Business Assistance** drop-down, and then choosing the **Show Setup and Help Resources** action. When you refresh the page, the chart is replaced with the setup and help resources.
 
-To help you get ready for doing business, you can visit the **Assisted Setup** page where you can launch assisted setup guides, videos, or help topics for selected setup tasks. To access the page, simply choose [this link](https://businesscentral.dynamics.com/?page=1801).  
-
-Alternatively, choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then the **Assisted Setup** action.
-
-You can also find the list of assisted setup guides if you choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
-
-> [!TIP]
-> [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
-
-## <a name="get-started"></a>Get started
-
-When you sign in for the first time or launch a new company, the **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)]. Starting with 2021 release wave 2, when you first sign in to the CRONUS demonstration company, your home page is optimised for your first experiences. If you prefer to see more links to more pages, just switch to the Business Manager role. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
-
-Once you have migrated data, such as suppliers, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if other assisted setup guides on the list can help you.
-
-If an area is not covered by an assisted setup, choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then the **Advanced Settings** action. In **Advanced Settings**, the **Manual Setup** section provides access to setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+On the Role Centre, in the navigation bar at the top, you will find the **Setup and Extensions** menu. Here you have access to a list of assisted setup guides that can help you get started. Once you have migrated data, such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if the other assisted setup can help you. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
-> The list of assisted setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does.
->
-> The first time you sign in, you use the **Essential** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
+>   The list of assisted setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the **Essential** experience. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
 
-When you have run an assisted setup guide, it is marked as **Completed**.  
+When you have run an assisted setup guide, it is marked as **Completed**. To run the assisted setup guide, you choose the three dots also called the context menu, and then you select **Start Setup**.
 
-## <a name="teaching-tips-and-tours"></a>Teaching tips and tours
-
-[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
-
-[!INCLUDE [prod_short](includes/prod_short.md)] includes in-product tours and teaching tips that can help you get started. In the current version, there are tours for the steps in the **Get started** list and some of the most commonly used pages in the demonstration company, such as the **Sales Invoice** card page.  
-
-Teaching tips are short messages that inform, remind, or teach you about important and new capabilities that launch automatically when you open a page. For example, to see the teaching tip for the **Sales Invoice** card, choose the link in the top left corner of the page where it says *Sales Invoice*. This launches a callout with a short description of the page and what you can do there. If a tour exists for the page, a link invites you to take the tour. The *Learn more* link takes you to the product Help for the page.
-
-## <a name="role-specific-home-pages"></a>Role-specific home pages
-
-Depending on your role, the home page provides an overview of the business. At the top, you see a navigation bar that gives you easy access to customers, suppliers, items, and so on. In the centre you find the **Activities** tiles. **Activities** show current data and can be clicked or tapped for easy access to the selected document.
-
-The **Key Performance Indicators** can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of **Favourite Customers** on the home page for accounts that you do business with often or need to pay special attention to.
-
-Use the arrows to collapse a part of the page and make more room to show specific data. At the top of the home page you will find all of the actions that can be applied to the current content. This too can be collapsed and you only need to click or tap within the collapsed area to view it again.
+## <a name="role-center"></a>Role Centre
+On the Role Centre, you have an overview of the business. To the left you see a navigation bar that gives you easy access to customers, vendors, items, and so on. In the centre you find the **Activities** tiles. **Activities** show current data and can be clicked or tapped for easy access to the selected document. The **Key Performance Indicators** can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of **Favourite Customers** on the Role Centre for accounts that you do business with often or need to pay special attention to.
+Use the arrows to collapse part of the page and make more room to show specific data. At the top of the Role Centre you will find all of the actions that can be applied to the current content. This too can be collapsed and you only need to click or tap within the collapsed area to view it again.
 
 > [!TIP]  
-> You can get back to the home page by selecting the company name in the upper left corner.
+> You can get back to the Role Centre by selecting the company name in the upper left corner.
 
-## <a name="company-information"></a>Company information
+## <a name="company-information"></a>Company Information
+Under **Company Settings** you can view and edit setup information about the current company, much of this was prefilled if you completed the **Set Up Company** assisted setup when signing up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you want to change the company logo, contact information, bank settings, or tax information, you can do it from this page.    
 
-Under **Company Settings** you can view and edit setup information about the current company, much of this was prefilled if you completed the **Set Up Company** assisted setup when signing up for [!INCLUDE[prod_short](includes/prod_short.md)]. If you want to change the company logo, contact information, bank settings, or tax information, you can do it from this page.  
+## <a name="adding-users-and-permissions"></a>Adding Users and Permissions
+If you need to add more users, this is done from Office 365 Admin Centre. For more information, see [Add Users to Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Once users are created in Office 365, they can be imported into the **Users** page by using the **Get Users from Office 365** action. You can then proceed to assign permissions to users and to organise them in user groups. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).  
 
-## <a name="adding-users-and-permissions"></a>Adding users and permissions
+## <a name="getting-help"></a>Getting Help
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] you will find tooltips that can help guide you through the various business processes. For each field tooltip, you can press Ctrl+F1 or choose the **Learn more** link to open Help for the page in question. The question mark in the upper right corner also points you to product Help.
 
-If you need to add more users, this is done from Microsoft 365 Admin Centre. For more information, see [Create Users According to Licences](ui-how-users-permissions.md).
+## <a name="next-steps"></a>Next Steps
+Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **My Company** section of your **Home** page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration.
 
-When users are created in Microsoft 365, they can be imported into the **Users** page by using the **Get Updates from Office 365** action. You can then proceed to assign permissions to users and to organise them in user groups. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
+## <a name="see-also"></a>See Also
+[Getting Started](product-get-started.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Managing Users and Permissions](ui-how-users-permissions.md)
 
-## <a name="product-help"></a>Product Help
-
-[!INCLUDE [ua-get-help](includes/ua-get-help.md)] For more information, see [Resources for Help and Support](product-help-and-support.md).  
-
-## <a name="next-steps"></a>Next steps
-
-Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **Actions** section of your home page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration. Check out the [quick start](quick-start-business-central.md) articles to help you take the first steps.  
-
-## <a name="see-also"></a>See also 
-
-[Business Central Quick Starts](quick-start-business-central.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Change Basic Settings](ui-change-basic-settings.md)  
-[Accessibility and Keyboard Shortcuts](ui-accessibility.md)  
-[Trials and Subscriptions](across-preview.md)  
-[Business Functionality](across-business-functionality.md)  
-[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
-[Search in the help pane](product-help-and-support.md#search-in-the-help-pane)  
-[Resources for Help and Support](product-help-and-support.md)  
-[Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
-[Migrate Data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
-
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

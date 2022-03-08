@@ -1,20 +1,21 @@
 ---
-title: Design Details - Item Tracking Posting Structure
-description: Learn how to use item ledger entries as the primary carrier of item tracking numbers in the Item Tracking Posting Structure.
+title: Design Details - Item Tracking Posting Structure | Microsoft Docs
+description: Learn how to use item ledger entries as the primary carrier of item tracking numbers.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b568e62a71b907e8d2f9cbc8eba43773be655b44
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95e6c596e9a9782aa6f457164310b9d0942332d7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136329"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390906"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Design Details: Item Tracking Posting Structure
 To align with inventory costing functionality and to obtain a simpler and more robust solution, item ledger entries are used as the primary carrier of item tracking numbers.  

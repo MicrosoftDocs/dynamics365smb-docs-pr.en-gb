@@ -1,26 +1,27 @@
 ---
-title: Receiving and Putting Away in Advanced Warehousing
-description: The inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
+title: Receiving and Putting Away in Advanced Warehousing | Microsoft Docs
+description: In Business Central, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 35ba60e75b78d043f0e17272dd18084846dfa30e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 533d3b3c755294e07ca921df028f7742a388fad1
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148129"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249015"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations
 
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
+**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
 
-In [!INCLUDE[prod_short](includes/prod_short.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
 |Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -33,19 +34,17 @@ For more information, see [Design Details: Inbound Warehouse Flow](design-detail
 
 The following walkthrough demonstrates method D in the previous table.  
 
-## <a name="about-this-walkthrough"></a>About This Walkthrough
+## <a name="about-this-walkthrough"></a>About This Walkthrough  
+In advanced warehouse configurations where your location is set up to require receiving processing in addition to put-away processing, you use the **Warehouse Receipt** page to record and post the receipt of items on multiple inbound orders. When the warehouse receipt is posted, one or more warehouse put-away documents are created to instruct warehouse workers to take the received item and place them in designated places according to bin setup or in other bins. The specific placement of the items is recorded when the warehouse put-away is registered. The inbound source document can be a purchase order, sales return order, inbound transfer order, or assembly or production order with output that is ready to be put away. If the receipt is created from an inbound order, more than one inbound source document can be retrieved for the receipt. By using this method you can register many items arriving from different inbound orders with one receipt.  
 
-In advanced warehouse configurations where your location is set up to require receiving processing in addition to put-away processing, you use the **Warehouse Receipt** page to record and post the receipt of items on multiple inbound orders. When the warehouse receipt is posted, one or more warehouse put-away documents are created to instruct warehouse workers to take the received items and place them in designated places according to bin setup or in other bins. The specific placement of the items is recorded when the warehouse put-away is registered. The inbound source document can be a purchase order, sales return order, inbound transfer order, or assembly or works order with output that is ready to be put away. If the receipt is created from an inbound order, more than one inbound source document can be retrieved for the receipt. By using this method you can register many items arriving from different inbound orders with one receipt.  
-
-This walkthrough demonstrates the following tasks:  
+This walkthrough demonstrates the following tasks.  
 
 -   Setting up WHITE location for receiving and putting away.  
 -   Creating and releasing two purchase orders for full warehouse handling.  
--   Creating and posting a warehouse receipt document for multiple purchase order lines from specific suppliers.  
+-   Creating and posting a warehouse receipt document for multiple purchase order lines from specific vendors.  
 -   Registering a warehouse put-away for the received items.  
 
-## <a name="roles"></a>Roles
-
+## <a name="roles"></a>Roles  
 This walkthrough demonstrates tasks that are performed by the following user roles:  
 
 -   Warehouse Manager  
@@ -53,29 +52,26 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 -   Receiving Staff  
 -   Warehouse Worker  
 
-## <a name="prerequisites"></a>Prerequisites
-
+## <a name="prerequisites"></a>Prerequisites  
 To complete this walkthrough, you will need:  
 
--   CRONUS installed.  
+-   CRONUS International Ltd. installed.  
 -   To make yourself a warehouse employee at WHITE location by following these steps:  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
 2.  Choose the **User ID** field, and select your own user account on the **Users** page.  
 3.  In the **Location Code** field, enter WHITE.  
 4.  Select the **Default** field.  
 
-## <a name="story"></a>Story
+## <a name="story"></a>Story  
+Ellen, the warehouse manager at CRONUS International Ltd., creates two purchase orders for accessory items from vendors 10000 and 20000 to be delivered to WHITE warehouse. When the deliveries arrive at the warehouse, Sammy, who is responsible for receiving items from vendors 10000 and 20000, uses a filter to create receipt lines for purchase orders arriving from the two vendors. Sammy posts the items as received into inventory in one warehouse receipt and makes the items available for sale or other demand. John, the warehouse worker, takes the items from the receiving bin and puts them away. He puts all units away in their default bins, except 40 out of 100 received hinges that he puts away in the assembly department by splitting the put-away line. When John registers the put-away, the bin contents are updated and the items are made available for picking from the warehouse.  
 
-Ellen, the warehouse manager at CRONUS, creates two purchase orders for accessory items from suppliers 10000 and 20000 to be delivered to WHITE warehouse. When the deliveries arrive at the warehouse, Sammy, who is responsible for receiving items from suppliers 10000 and 20000, uses a filter to create receipt lines for purchase orders arriving from the two suppliers. Sammy posts the items as received into inventory in one warehouse receipt and makes the items available for sale or other demand. John, the warehouse worker, takes the items from the receiving bin and puts them away. He puts all units away in their default bins, except 40 out of 100 received hinges that he puts away in the assembly department by splitting the put-away line. When John registers the put-away, the bin contents are updated and the items are made available for picking from the warehouse.  
-
-## <a name="reviewing-the-white-location-setup"></a>Reviewing the WHITE Location Setup
-
-The setup of the **Location Card** page defines the company's warehouse flows.  
+## <a name="reviewing-the-white-location-setup"></a>Reviewing the WHITE Location Setup  
+The setup of the **Location Card** page defines the company’s warehouse flows.  
 
 ### <a name="to-review-the-location-setup"></a>To review the location setup  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Open the WHITE location card.  
 3.  Note on the **Warehouse** FastTab that the **Directed Put-away and Pick** check box is selected.  
 
@@ -85,15 +81,14 @@ The setup of the **Location Card** page defines the company's warehouse flows.
 
 This means that when you create a warehouse receipt, this bin code is copied to the header of the warehouse receipt document by default and to the lines of the resulting warehouse put-aways.  
 
-## <a name="creating-the-purchase-orders"></a>Creating the Purchase Orders
-
+## <a name="creating-the-purchase-orders"></a>Creating the Purchase Orders  
 Purchase orders are the most common type of inbound source document.  
 
 ### <a name="to-create-the-purchase-orders"></a>To create the purchase orders  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
-3.  Create a purchase order for supplier 10000 on the work date (January 23) with the following purchase order lines.  
+3.  Create a purchase order for vendor 10000 on the work date (January 23) with the following purchase order lines.  
 
     |Item|Location code|Quantity|  
     |----------|-------------------|--------------|  
@@ -102,73 +97,65 @@ Purchase orders are the most common type of inbound source document.
 
     Proceed to notify the warehouse that the purchase order is ready for warehouse handling when the delivery arrives.  
 
-4.  Choose the **Release** action. The status changes from Open to Released.
+4.  Choose the **Release** action.  
 
     Proceed to create the second purchase order.  
 
 5.  Choose the **New** action.  
-6.  Create a purchase order for supplier 20000 on the work date (January 23) with the following purchase order lines.  
+6.  Create a purchase order for vendor 20000 on the work date with the following purchase order lines.  
 
     |Item|Location code|Quantity|  
     |----------|-------------------|--------------|  
     |70100|WHITE|10 CAN|  
     |70101|WHITE|12 CAN|  
 
-    Choose the **Release** action. The status changes from Open to Released.
+    Choose the **Release** action.  
 
-    The deliveries of items from suppliers 10000 and 20000 have arrived at WHITE warehouse, and Sammy starts to process the purchase receipts.  
+    The deliveries of items from vendors 10000 and 20000 have arrived at WHITE warehouse, and Sammy starts to process the purchase receipts.  
 
-## <a name="receiving-the-items"></a>Receiving the Items
-
+## <a name="receiving-the-items"></a>Receiving the Items  
 On the **Warehouse Receipt** page, you can manage multiple inbound orders for source documents, such as a purchase order.  
 
 ### <a name="to-receive-the-items"></a>To receive the items  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  In the **Location Code** field, enter WHITE.  
-4.  Select **Actions** then **Functions** then choose the **Use Filters to Get Src. Docs.** action.  
+4.  Choose the **Use Filters to Get Src. Docs.** action.  
 5.  In the **Code** field, enter **ACCESSORY**.  
-6.  In the **Description** field, enter **Suppliers 10000 and 20000**.  
+6.  In the **Description** field, enter **Vendors 10000 and 20000**.  
 7.  Choose the **Modify** action.  
-8.  On the **Purchase** FastTab, in the **Buy-from Supplier No. Filter** field, enter **10000&#124;20000**.  
-9. Choose the **Run** action. The warehouse receipt is filled with four lines representing purchase order lines for the specified suppliers. The **Qty. to Receive** field is filled because you did not select the **Do not Fill Qty. to Handle** check box on the **Filters to Get Source Docs.** page.  
-10. Optionally, if you want to use a filter as described earlier in this section, choose the **Get Source Document** action, and then select purchase orders from the suppliers in question.  
-11. Choose **Posting** then the **Post Receipt** action, and then choose the **Yes** button.  
+8.  On the **Purchase** FastTab, in the **Buy-from Vendor No. Filter** field, enter **10000&#124;20000**.  
+9. Choose the **Run** action. The warehouse receipt is filled with four lines representing purchase order lines for the specified vendors. The **Qty. to Receive** field is filled because you did not select the **Do not Fill Qty. to Handle** check box on the **Filters to Get Source Docs.** page.  
+10. Optionally, if you want to use a filter as described earlier in this section, choose the **Get Source Document** action, and then select purchase orders from the vendors in question.  
+11. Choose the **Post Receipt** action, and then choose the **Yes** button.  
 
-    Positive item ledger entries are created reflecting the posted purchase receipts of accessories from suppliers 10000 and 20000, and the items are ready to be put away in the warehouse from the receiving bin.  
+    Positive item ledger entries are created reflecting the posted purchase receipts of accessories from vendors 10000 and 20000, and the items are ready to be put away in the warehouse from the receiving bin.  
 
-## <a name="putting-the-items-away"></a>Putting the Items Away
-
+## <a name="putting-the-items-away"></a>Putting the Items Away  
 On the **Warehouse Put-away** page, you can manage put-aways for a specific warehouse receipt document covering multiple source documents. Like all warehouse activity documents, each item on the warehouse put-away is represented by a Take line and a Place line. In the following procedure, the bin code on the Take lines is the default receiving bin at WHITE location, W-08-0001.  
 
-
 ### <a name="to-put-the-items-away"></a>To put the items away  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-Aways**, and then choose the related link.  
-2.  Select the only warehouse put-away document in the list, and then choose the **Edit** action.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-Aways**, and then choose the related link.  
+2.  Select the only warehouse put-away document in the list, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
 
     The warehouse put-away document opens with a total of eight Take or Place lines for the four purchase order lines.
 
-    The warehouse worker is told that 40 hinges are needed in the assembly department, and proceeds to split the single Place line to specify a second Place line for bin W-02-0001 in the assembly department where the warehouse worker places that part of the received hinges.  
+    The warehouse worker is told that 40 hinges are needed in the assembly department, and he proceeds to split the single Place line to specify a second Place line for bin W-02-0001 in the assembly department where he places that part of the received hinges.  
 
 3.  Select the second line on the **Warehouse Put-away** page, the Place line for item 70200.  
 4.  In the **Qty. to Handle** field, change the value from 100 to 60.  
 5.  On the **Lines** FastTab, choose **Functions**, and then choose **Split Line**. A new line is inserted for item 70200 with 40 in **Qty. to Handle** field.  
 6.  In the **Bin Code** field, enter W-02-0001. The **Zone Code** field is automatically filled.  
 
-    By default, the **Zone Code** field on the sales lines are hidden, so you must display it. To do this you need to personalise the page. For more information, see [To start personalising a page through the Personalising banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
-
     Proceed to register the put-away.  
 
 7.  Choose the **Register Put-Away** action, and then choose the **Yes** button.  
 
-    The received accessories are now put-away in the items' default bins, and 40 hinges are placed in the assembly department. The received items are now available for picking to internal demand, such as assembly orders, or to external demand, such as sales shipments.  
+    The received accessories are now put-away in the items’ default bins, and 40 hinges are placed in the assembly department. The received items are now available for picking to internal demand, such as assembly orders, or to external demand, such as sales shipments.  
 
 ## <a name="see-also"></a>See Also  
  [Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
  [Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   
- <!-- [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)    -->
+ [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,20 +2,20 @@
 title: Set up company consolidation
 description: Learn how you can configure how data from different companies in Business Central is reported into a consolidation company.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2f28ea1822677e1690f5cf3b5fb68afca221b9f8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7a5ad9eeb2dc42f1cb6fe7640bda721a6f511a75
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149082"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927746"
 ---
 # <a name="set-up-company-consolidation"></a>Set Up Company Consolidation
 
@@ -26,15 +26,14 @@ Depending on the complexity of your businesses, there are two ways to set up con
 * If you do not need advanced settings, such as including a company that you only own part of, you can use the **Company Consolidation** assisted setup guide to quickly set up a consolidation. The guide helps you through the basic steps.
 * If you do need more advanced settings, you can set up the consolidated company and business units yourself.
   * In each business unit, specify which general ledger accounts are to be included in the consolidation, and specify the consolidation translation method for each account.
-  * In the consolidation company, set up a business unit card for each company to be included in the consolidation. The business unit card includes information, such as the dates of the business unit's financial year, and the percentage of each account that must be included in the consolidation.
+  * In the consolidation company, set up a business unit card for each company to be included in the consolidation. The business unit card includes information, such as the dates of the business unit's fiscal year, and the percentage of each account that must be included in the consolidation.
 
 ## <a name="simple-consolidation-setup"></a>Simple consolidation setup
 
-[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 If your consolidation is straightforward, for example because you wholly-own the business units to consolidate, the **Company Consolidation** assisted setup guide will help you through the following steps:
 
 * Choose whether to create a new consolidated company, or whether to consolidate the data in a company that you have already created for the consolidation. The company should not contain transactions.
-* Preview the results. [!INCLUDE[prod_short](includes/prod_short.md)] verifies that the master data and transactions can be successfully transferred to the consolidated company.
+* Preview the results. [!INCLUDE[d365fin](includes/d365fin_md.md)] verifies that the master data and transactions can be successfully transferred to the consolidated company.
 
 To use the assisted setup guide, follow these steps:
 
@@ -71,14 +70,14 @@ The following list illustrates key aspects of the consolidated company.
 
 ### <a name="add-business-units"></a><a name="busunit"></a>Add business units
 
-[!INCLUDE[prod_short](includes/prod_short.md)] lets you set up a list of business units to consolidate, verify the accounting data before you consolidate it, import files, and generate consolidation reports.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] lets you set up a list of business units to consolidate, verify the accounting data before you consolidate it, import files, and generate consolidation reports.  
 
 1. Sign in to the consolidated company.
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
 3. Choose **New**, and then fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
-    > When you fill in the **Starting Date** and **Ending Date** fields, make sure you comply with GAAP rules concerning the financial periods of the business unit versus the parent company.
+    > When you fill in the **Starting Date** and **Ending Date** fields, make sure you comply with GAAP rules concerning the fiscal periods of the business unit versus the parent company.
 4. Repeat step 3 for each additional business unit
 
 If your business unit uses a foreign currency, you must specify the exchange rate to use in the consolidation. You must also enter consolidation information about the business unit's general ledger accounts. These processes are described in the following sections.
@@ -89,7 +88,7 @@ The chart of accounts for a company that will be consolidated must specify accou
 
 If the chart of accounts in the business unit differs from the consolidated company, you must prepare general ledger accounts for consolidation. You can specify the accounts to post debits and credits to, and the method to use to translate currencies in the consolidated company. For example, this is useful if you frequently run the report.
 
-1. In each business unit's [!INCLUDE [prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. In each business unit's [!INCLUDE [prodshort](includes/prodshort.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. Open the card for the account, and then fill in the fields on the **Consolidation** FastTab. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Specify exchange rates for consolidations
@@ -109,7 +108,7 @@ The following table describes the exchange rate methods you can use for accounts
 
 To specify exchange rates for business units, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
 2. On the **Business Unit List** page, choose the business unit, and then choose the **Average Rate (Manual)** action.  
 3. On the **Change Exchange Rate** page, the contents of the **Relational Exch. Rate** field have been copied from the **Currency Exchange Rate** table, but you can modify them. Close the page.  
 4. Choose the **Closing Rate** action.  
@@ -137,8 +136,5 @@ If you own only part of a company, you can include a percentage of each transact
 
 [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)  
 [Managing Intercompany Transactions](intercompany-manage.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Exporting Your Business Data to Excel](about-export-data.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,19 +2,20 @@
 title: How to Enable Workflows | Microsoft Docs
 description: When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: ec39dfd6a8b9c209060fbd5d17ba429c56a6f92f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: be8d5805c86161eb264a62dc8a97f71a7f49149b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136485"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188307"
 ---
 # <a name="enable-workflows"></a>Enable Workflows
 When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.  
@@ -22,7 +23,7 @@ When you have created a workflow and you are sure that it is ready to start, you
  On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
 ## <a name="to-enable-a-workflow"></a>To enable a workflow  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2.  Open the workflow that you want to enable.  
 3.  On the **Workflow** page, select the **Enabled** check box.  
 
@@ -34,6 +35,3 @@ When you have created a workflow and you are sure that it is ready to start, you
  [Using Workflows](across-use-workflows.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Workflow](across-workflow.md)   
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

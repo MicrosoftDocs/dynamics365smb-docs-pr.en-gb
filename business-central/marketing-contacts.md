@@ -1,21 +1,21 @@
 ---
-title: Create and Manage Company Contacts
+title: Create and Manage Company Contacts| Microsoft Docs
 description: You set up all external entities that you have a business relationship with (such as prospects, customers, vendors, and consultants) as contacts.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 815b4c406b203e32a0d424a2ecf76f7aa0564662
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e1e232dec1d6c0bdb5fa97b8351a4b81abb8395d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131490"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388935"
 ---
 # <a name="managing-contacts"></a>Managing Contacts
 

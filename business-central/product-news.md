@@ -1,48 +1,44 @@
 ---
-title: New and planned in the default version
-description: Learn where to find the latest news and updates for new and existing features in the default version of Business Central.
+title: What's New in Business Central | Microsoft Docs
+description: How to get the latest news and updates for Business Central.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 06/22/2021
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: ef648fcd29b15494e78c4b6482edf0996c22b670
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 119c3f77d1423daeed519ac22e805b59d689bf51
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135835"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883364"
 ---
-# <a name="new-and-planned-for-dynamics-365-business-central"></a>New and Planned for Dynamics 365 Business Central
+# <a name="whats-new-in-dynamics-365-business-central"></a>What's New in Dynamics 365 Business Central
 
-[!INCLUDE[release notes](includes/release-notes.md)]
+[!include [release notes](includes/release-notes.md)]
 
-You can always refer to the release plan for an overview of new and upcoming functionality. Here in the documentation, you can then find topics that can help you learn about new and existing features in the default version of [!INCLUDE[prod_long](includes/prod_long.md)].  
+You can always refer to the release plan for an overview of new and upcoming functionality. Here in the documentation, you can then find topics that can help you learn about new and existing features in [!INCLUDE[prodlong](includes/prodlong.md)].  
 
-The following list provides information about the latest versions of [!INCLUDE [prod_short](includes/prod_short.md)].  
+If you haven't already, then sign up for a [trial](https://go.microsoft.com/fwlink/?linkid=847861), get introduced to the basics of what you can do with [!INCLUDE[prodshort](includes/prodshort.md)], and then try things out on your own for a while. When you are ready, you can open a blank company and set things up for yourself. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
-* [2021 release wave 2](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/planned-features)  
-* [2021 release wave 1](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
-* [2020 release wave 2](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
+On a regular basis, we will update [!INCLUDE[d365fin](includes/d365fin_md.md)] with additional capabilities in the core application and with new extensions. For the current list of Microsoft extensions, see [Customising Business Central Using Extensions](ui-extensions.md).
 
-You can also explore the [Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/) site, and the [Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/) site.  
+To see all extensions offered by [!INCLUDE[d365fin](includes/d365fin_md.md)] partners, see [AppSource, Business Central](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Get notified about changes through an RSS feed
+## <a name="check-the-dynamics-365-blog"></a>Check the Dynamics 365 Blog
 
-[!INCLUDE [ua-rss](includes/ua-rss.md)]
+We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/), including when they are made available, and if there are special considerations.  
+
+For the partner community, we publish information on [Microsoft Dynamics 365 Business Central on the Dynamics 365 Blog for partners](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) and in the [Developer and IT-pro Help for [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
 
 ## <a name="see-also"></a>See Also
 
-[Visit Our Video Library](across-videos.md)  
+[Getting Started](product-get-started.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Resources for Help and Support](product-help-and-support.md)  
-[Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
-[Business Central Quick Starts](quick-start-business-central.md)  
-[Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)  
-[Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
 [Business Central pricing](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central Community](https://community.dynamics.com/business/)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/training_link_md.md)]  

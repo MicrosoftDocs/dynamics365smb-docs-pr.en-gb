@@ -1,18 +1,18 @@
 ---
-title: Customising Pages for Roles
+title: Customising Pages for Roles | Microsoft Docs
 description: Learn how to customise the user interface for a profile (role) so that all users assigned that role see a customised workspace.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 47bc68e6d4354d2dd30b01571b2448f80dab3bec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8e3926db3bcc1b34e2f75e6b338a86f2ddc2c20b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129793"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783366"
 ---
 # <a name="customize-pages-for-profiles"></a>Customise Pages for Profiles
 Users can personalise pages that make up their workspace to suit their own preferences. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
@@ -25,7 +25,7 @@ Administrators can customise pages for a profile, according to the related busin
 Page customisation starts from the **Profiles (Roles)** page, the administrator's starting point for managing users' profiles on individual profile cards. In addition to customising the page layout, you control various other settings for profiles on the **Profile (Role)** page for each profile. For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>To customise pages for a profile
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
 2. Select the line for the profile that you want to customise pages for, and then choose the **Edit** action.
 3. Choose the **Customise pages** action.
 

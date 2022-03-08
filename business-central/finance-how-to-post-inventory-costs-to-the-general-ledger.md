@@ -1,24 +1,24 @@
 ---
-title: Reconcile Inventory Costs with the General Ledger
-description: At the end of accounting periods a sequence of cost control and auditing tasks must be performed to report a correct and balanced inventory value.
+title: How to Post Inventory Costs to the General Ledger| Microsoft Docs
+description: Describes how to manage the physical products that you trade in, for example, handling the stock in your warehouse.
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.search.form: 9297
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 35b9753a1d21ebfbd2970699c720b0e97ed5bcb4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: eed219bb8bc6401c0f2bbc5cab7600fe1bfc3d53
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142166"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306083"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Reconcile Inventory Costs with the General Ledger
-
 When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change of inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction that you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger.
 
 Automatic cost posting is defined by the **Automatic Cost Posting** field on the **Inventory Setup** page.
@@ -26,8 +26,7 @@ Automatic cost posting is defined by the **Automatic Cost Posting** field on the
 Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [Adjust Item Costs](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>To post inventory costs manually
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Inventory Cost to G/L**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") ico, enter **Post Inventory Cost to G/L**, and then choose the related link.
 2. Post inventory costs to the general ledger manually by running the batch job. When you run this batch job, general ledger entries are created on the basis of value entries. You can post the entries so that they are summarized per posting group.
 
 > [!NOTE]  
@@ -68,26 +67,11 @@ On the far left column in the grid, you see the various general ledger account t
 
 The next columns show the totals for the same account types calculated from the general ledger entries.
 
-Choose the amount in any of the total fields to see the inventory report entries that were used to calculate the totals. For inventory totals, the inventory report entries are the sums of the value entries for the items. For the G/L totals, the inventory report entries are the sums from the general ledger entries.
-
-## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Reporting Costs and Reconciling with the General Ledger
-Other reports, tracing functions, and a special reconciliation tool are available to the auditor or controller responsible for reporting a correct and balanced inventory value to the finance department.
-
-The following table describes them.    
-
-|**To**|**See**|  
-|------------|-------------|  
-|View the inventory value of selected items, including information about the quantities and values of increases and decreases in inventory over a selected period.|**Inventory Valuation** report|  
-|View the inventory value of selected works orders in your WIP (work in progress) inventory, such as the quantities and values of consumption, capacity usage, and output in ongoing works orders.|**Inventory Valuation - WIP** report|  
-|View the inventory value of selected items, including their actual and expected cost on the date specified.|**Invt. Valuation - Cost Spec.** report|  
-|Use a report to analyze the reasons for cost variances or to gain insight into the cost shares of sold items (COGS).|**Cost Shares Breakdown** report|  
+Choose the  amount in any of the total fields to see the inventory report entries that were used to calculate the totals. For inventory totals, the inventory report entries are the sums of the value entries for the items. For the G/L totals, the inventory report entries are the sums from the general ledger entries.
 
 ## <a name="see-also"></a>See Also  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)    
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
 title: Working with General Journals to Post Directly to G/L
-description: Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and supplier accounts. Use recurring journals to post accruals and allocate balances by dimension values.
+description: Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts. Use recurring journals to post accruals and allocate balances by dimension values.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
-ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: journals, recurring, accrual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1d042d2a399f6bf0fb329aa9287e4ced37e43fef
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: ba7ed8bba5510e4e17cc645c5dd8f935f50a7fac
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323091"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783041"
 ---
 # <a name="working-with-general-journals"></a>Working with General Journals
 
@@ -27,7 +27,7 @@ For example, you can use post employees' expenditure of own money on business-re
 
 But in many cases, you will want to use the journals that are optimised for specific types of transactions, such as the **Payment Journal** for registering payments. For more information, see [Record Payments and Refunds in the Payment Journal](payables-how-post-payments-refunds.md).  
 
-You use general journals to post financial transactions directly to general ledger accounts and other accounts, such as bank, customer, supplier, and employee accounts. Posting with a general journal always creates entries on general ledger accounts. This is true even when, for example, you post a journal line to a customer account, because an entry is posted to a general ledger receivables account through a posting group.
+You use general journals to post financial transactions directly to general ledger accounts and other accounts, such as bank, customer, vendor, and employee accounts. Posting with a general journal always creates entries on general ledger accounts. This is true even when, for example, you post a journal line to a customer account, because an entry is posted to a general ledger receivables account through a posting group.
 
 The information that you enter in a journal is temporary and can be changed while it is in the journal. When you post the journal, the information is transferred to entries on individual accounts, where it cannot be changed. You can, however, unapply posted entries, and you can post reversing or correcting entries. For more information, see [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md).
 
@@ -36,7 +36,7 @@ The information that you enter in a journal is temporary and can be changed whil
 
 ## <a name="using-journal-templates-and-batches"></a>Using Journal Templates and Batches
 
-There are several general journal templates. Each journal template is represented by a dedicated page with particular functions and the fields that are required to support those functions, such as the **Payment Reconciliation Journal** page to process bank payments and the **Payment Journal** page to pay your suppliers or reimburse your employees. For more information, see [Make Payments](payables-make-payments.md) and [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md).
+There are several general journal templates. Each journal template is represented by a dedicated page with particular functions and the fields that are required to support those functions, such as the **Payment Reconciliation Journal** page to process bank payments and the **Payment Journal** page to pay your vendors or reimburse your employees. For more information, see [Make Payments](payables-make-payments.md) and [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md).
 
 For each journal template, you can set up your own personal journal as a journal batch. For example, you can define your own journal batch for the payment journal that has your personal layout and settings. The following tip is an example of how to personalise a journal.
 
@@ -51,7 +51,7 @@ To help prevent delays when posting, you can turn on a background check that wil
 
 When you enable the validation the **Journal Check** FactBox displays next to the journal lines and will show issues in the current line and the whole batch. Validation happens when you load a finance journal batch, and when you choose another journal line. The **Issues total** tile in the FactBox shows the total number of issues that [!INCLUDE[prod_short](includes/prod_short.md)] found, and you can choose it to open an overview the issues. 
 
-You can use the **Show Lines with Issues** and **Show All Lines** actions to toggle between journal lines that have or don't have issues. The new **Journal Line Details** FactBox provides quick overview and access to data from journal lines, such as the G/L account, customer, or supplier, as well as to the posting setup for specific accounts.     
+You can use the **Show Lines with Issues** and **Show All Lines** actions to toggle between journal lines that have or don't have issues. The new **Journal Line Details** FactBox provides quick overview and access to data from journal lines, such as the G/L account, customer, or vendor, as well as to the posting setup for specific accounts.     
 
 ### <a name="reversing-journals-to-correct-mistakes"></a>Reversing Journals to Correct Mistakes
 When working with journals that have many lines and something goes wrong, it's important to have an easy way to correct mistakes. The **Posted General Journal** page offers a couple of actions that can help.
@@ -71,7 +71,7 @@ To allow journals to be copied to posted general journals, on the **General Jour
 If you have set up default balancing accounts for the journal batches on the **General Journals** page, the balancing account will be filled in automatically when you fill in the **Account No.** field. Otherwise, fill in both the **Account No.** field and the **Bal. Account No.** field manually. A positive amount in the **Amount** field is debited to the main account and credited to the balancing account. A negative amount is credited to the main account and debited to the balancing account.
 
 > [!NOTE]  
-> VAT is calculated separately for the main account and the balancing account, so they can use different VAT percentage rates.
+>   VAT is calculated separately for the main account and the balancing account, so they can use different VAT percentage rates.
 
 ## <a name="working-with-recurring-journals"></a>Working with Recurring Journals
 A recurring journal is a general journal with specific fields for managing transactions that you post frequently with few or no changes, such as rent, subscriptions, electricity, and heat. Using these fields for recurring transactions, you can post both fixed and variable amounts. You can also specify automatic reversal entries for the day after the posting date. You can also use allocation keys to divide the recurring entries among various accounts. For more information, see [Allocating Recurring Journal Amounts to Several Accounts](#allocating-recurring-journal-amounts-to-several-accounts).
@@ -125,7 +125,7 @@ If the *recurring method* in the recurring journal is set to **Balance** or **Re
 
 To allocate recurring journal amounts based on dimensions, set the **Recurring Method** field to **Balance by Dimension** or **Reversing Balance by Dimension** instead. If the recurring method in the recurring journal is set to **Balance by Dimension** or **Reversing Balance by Dimension**, then any dimension value codes in the recurring journal are considered when the account is set to zero. So if you allocate a recurring line to various dimension values on the **Allocations** page, then a number of reversing entries that matches the number of dimension value combinations that the balance is comprised of, are created. If you allocate account balance through the recurring journal that contains a dimension value code, remember to use **Balance by Dimension** or **Reversing Balance by Dimension** to make sure that the dimension values are correctly balanced or reversed from the source account.  
 
-For example, your company has a couple of business units and a handful of departments that your controllers have set up as dimensions. To speed up the purchase invoice entry process, you decide to require the purchase ledger clerks to enter only business unit dimensions. Since each business unit has specific allocation keys for the Department dimension, such as based on the number of employees, you can use the **BD Balance by Dimension** or **RBD Reversing Balance by Dimension** recurring methods to re-allocate expenses for each business unit to the right departments based on the allocation keys.  
+For example, your company has a couple of business units and a handful of departments that your controllers have set up as dimensions. To speed up the purchase invoice entry process, you decide to require the accounts payable clerks to enter only business unit dimensions. Since each business unit has specific allocation keys for the Department dimension, such as based on the number of employees, you can use the **BD Balance by Dimension** or **RBD Reversing Balance by Dimension** recurring methods to re-allocate expenses for each business unit to the right departments based on the allocation keys.  
 
 > [!NOTE]
 > Dimensions that you set on allocation lines are not automatically calculated, and you must specify which dimension values must be set on the allocation accounts. In case you want to preserve the link between the source account dimension and the allocation account dimension, we recommend that you use the [Cost Accounting](finance-about-cost-accounting.md) capabilities instead.
@@ -152,7 +152,7 @@ When you have created journal lines which you know you are likely to create agai
 >   The following procedure refers to the item journal, but the information also applies to the general journal.
 
 ### <a name="to-save-a-standard-journal"></a>To save a standard journal
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
 2. Enter one or more journal lines.
 3. Select the journal lines that you want to reuse.
 4. Choose the **Save as Standard Journal** action.
@@ -167,8 +167,7 @@ When you have created journal lines which you know you are likely to create agai
 When you have finished saving the standard item journal, the Item Journal page is displayed so you can proceed to post it, knowing that it can easily be recreated next time you need to post the same or similar lines.
 
 ### <a name="to-reuse-a-standard-journal"></a>To reuse a standard journal
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
 2. Choose the **Get Standard Journals** action.
 
     The Standard Item Journals page opens showing codes and descriptions for all existing standard item journals.
@@ -182,30 +181,27 @@ When you have finished saving the standard item journal, the Item Journal page i
     If you did not check the **Save Unit Amount** field when you used the **Save as Standard Item Journal** function job, then the **Unit Amount** field on lines that are inserted from the standard journal is automatically filled with the item's current value, copied from the **Unit Cost** field on the item card.
 
     > [!NOTE]  
-    > If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.
+    >   If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.
 
     If the inserted item journal lines contain saved unit amounts that you do not want to post, you can quickly adjust it to the current value of the item as follows.
 
-5. Select the item journal lines you want to adjust, and then choose the **Recalculate Unit Amount** action. This will update the Unit Amount field with the current unit cost of the item.
-6. Choose the **post** action.
+6. Select the item journal lines you want to adjust, and then choose the **Recalculate Unit Amount** action. This will update the Unit Amount field with the current unit cost of the item.
+7. Choose the **post** action.
 
 ## <a name="to-renumber-document-numbers-in-journals"></a>To renumber document numbers in journals
-
 To make sure that you do not receive posting errors because of the document number order, you can use the **Renumber Document Numbers** function before you post a journal.
 
 In all journals that are based on the general journal, the **Document No.** field is editable so that you can specify different document numbers for different journal lines or the same document number for related journal lines.
 
-If the **No. Series** field on the journal batch is filled, then the posting function in general journals requires that the document number on individual or grouped journal lines be in sequential order. Just choose the **Renumber Document Numbers** action, and relevant **Document No.** fields are then updated. If related journal lines were grouped by document number before you used the function, they will remain grouped but may be assigned a different document number.  
+If the **No. Series** field on the journal batch is filled, then the posting function in general journals requires that the document number on individual or grouped journal lines be in sequential order. To make sure that you do not receive posting errors because of the document number order, you can use the **Renumber Document Numbers** function before you post the journal. If related journal lines were grouped by document number before you used the function, they will remain grouped but may be assigned a different document number.
 
 This function also works on filtered views.
 
-Any renumbering of document numbers will respect related applications, such as a payment application that has been made from the document on the journal line to a supplier account. Accordingly, the **Applies-to ID** and **Applies-to Doc. No.** fields on the affected ledger entries may be updated.
-
-### <a name="to-renumber-documents-in-journals"></a>To renumber documents in journals
+Any renumbering of document numbers will respect related applications, such as a payment application that has been made from the document on the journal line to a vendor account. Accordingly, the **Applies-to ID** and **Applies-to Doc. No.** fields on the affected ledger entries may be updated.
 
 The following procedure is based on the **General Journal** page, but applies to all other journals that are based on the general journal, such as the **Payment Journal** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
 2. When you are ready to post the journal, choose the **Renumber Document Numbers** action.
 
 Values in the **Document No.** field are changed, where required, so that the document number on individual or grouped journal lines are in sequential order. After documents are renumbered, you can proceed to post the journal.
@@ -223,7 +219,7 @@ Values in the **Document No.** field are changed, where required, so that the do
 [Revalue Inventory in the Revaluation Journal](inventory-how-revalue-inventory.md)  
 [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
 [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md)  
-[Reconcile Supplier Payments with the Payment Journal or from Supplier Ledger Entries](payables-how-apply-purchase-transactions-manually.md)  
+[Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md)  
 [Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)  
 
 
