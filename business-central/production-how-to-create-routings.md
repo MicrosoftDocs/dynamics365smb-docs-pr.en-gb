@@ -1,29 +1,28 @@
 ---
-title: How to Create Routings | Microsoft Docs
-description: A routing holds master data that captures the process requirements of a given produced item. Once a production order is created for that item, its routing will govern the scheduling of operations as represented on the Prod. Order Routing page under the production order.
+title: Create Routings
+description: This topic gives an overview of the different ways to create routings including prerequisites required and how to create routing links.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 6cdd00ab5f7372e79d2ab1ced6b77e9ed8343b95
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 29d879552f4879c856f3481fde7cfabbffabec95
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759349"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135731"
 ---
 # <a name="create-routings"></a>Create Routings
 
-Manufacturing companies use routings to visualize and direct the manufacturing process.
+Manufacturing companies use routings to Visualise and direct the manufacturing process.
 
 The routing is the basis of process scheduling, capacity scheduling, scheduled assignment of material needs, and manufacturing documents.  
 
-As for production BOMs, the routings are assigned to the manufacturing end item. A routing holds master data that captures the process requirements of a given produced item. Once a production order is created for that item, its routing will govern the scheduling of operations as represented on the **Prod. Order Routing** page under the production order.  
+As for production BOMs, the routings are assigned to the manufacturing end item. A routing holds master data that captures the process requirements of a given produced item. Once a works order is created for that item, its routing will govern the scheduling of operations as represented on the **Prod. Order Routing** page under the works order.  
 
 Before you can set up a routing, the following must be in place:  
 
@@ -32,7 +31,7 @@ Before you can set up a routing, the following must be in place:
 
 ## <a name="to-create-a-routing"></a>To create a routing
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. In the **Type** field, select **Serial** to calculate the production routing according to the value in the **Operation No.** field.  
@@ -47,7 +46,7 @@ Before you can set up a routing, the following must be in place:
 10. In the **Run Time** and **Setup Time** fields, enter the process times needed to perform the operation.
 
      > [!NOTE]
-     > Setup time is calculated per production order, whereas run time is calculated per produced item.  
+     > Setup time is calculated per works order, whereas run time is calculated per produced item.  
 
 11. In the **Concurrent Capacities** field, specify how many units of the selected resource are used to perform the operation. For example, two people allocated to one packing operation will halve the run time.  
 12. Continue to fill in lines for all operations involved in producing the item in question.  
@@ -60,11 +59,11 @@ Before you can set up a routing, the following must be in place:
 
 ## <a name="to-create-routing-links"></a>To create routing links
 
-You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just-in-time flushing of components, namely when the specific linked operation starts, not when the complete production order is released. For more information see [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).  
+You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just-in-time flushing of components, namely when the specific linked operation starts, not when the complete works order is released. For more information see [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).  
 
 Another important benefit is that linked components and operations are displayed in a logical process structure when you use the **Production Journal** page for output and consumption posting.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
 2. Open the routing that contains the operations that you want to link.  
 
     Make sure the routing status is **Under Development**.  
@@ -88,15 +87,15 @@ Another important benefit is that linked components and operations are displayed
 10. Set the production BOM status to **Certified**.  
 
     > [!NOTE]  
-    > To enable the routing links on an existing production order, you must refresh the production order. For more information, see [Create Production Orders](production-how-to-create-production-orders.md).  
+    > To enable the routing links on an existing works order, you must refresh the works order. For more information, see [Create Works Orders](production-how-to-create-production-orders.md).  
 
-The selected components will now be linked to the selected operations when you create or refresh a production order using the production BOM and routing in question. This is visible on the **Prod. Order Components** page under the production order, and here you can also remove and add the defined routing link codes at any time.
+The selected components will now be linked to the selected operations when you create or refresh a works order using the production BOM and routing in question. This is visible on the **Prod. Order Components** page under the works order, and here you can also remove and add the defined routing link codes at any time.
 
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>To assign personnel, tools, and quality measures to routing operations
 
 If you require personnel with qualifications, special knowledge, or special authorisation for an operation, you can assign these personnel to the operation. In addition, you can assign tools and quality requirements to the operation. This procedure describes how to assign personnel. The steps are similar for other types of operation information.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
 2. Open the relevant routing.  
 3. On the **Lines** FastTab, select the line that you want to process, choose the **Operations** action, and then choose the **Personnel** action.  
 4. Fill in the fields on the **Routing Personnel** page.  
@@ -106,7 +105,7 @@ If you require personnel with qualifications, special knowledge, or special auth
 
 The version principle enables you to manage several versions of a routing. The structure of the routing version corresponds to the structure of the routing consisting of the routing version header and the routing version lines. The basic difference is defined by the starting date.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
 2. Select the routing to be copied, and then choose the **Versions** action.  
 3. On the **Routing Versions** page, choose the **New** action.
 4. Fill in the fields as necessary.
@@ -130,3 +129,6 @@ The time validity of the version is specified by the **Starting Date** field.
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

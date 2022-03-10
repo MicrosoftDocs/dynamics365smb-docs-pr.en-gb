@@ -2,17 +2,17 @@
 title: Report Selection in Business Central
 description: Learn about how to set up the reports that you use to print various types of documents in Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
-ms.date: 01/18/2021
+ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d30baa44894658c03c3deffdf24a7923293b88fd
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 16ad3480c10da544c7fdd3a6a299dc6d86cfce46
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024644"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134063"
 ---
 # <a name="report-selection-in-business-central"></a>Report Selection in Business Central
 
@@ -32,7 +32,7 @@ The **Report Selections** pages specify which report will be printed in differen
 |Define reports for VAT reporting (Germany)|[Set Up Reports for VAT and Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
-> Your [!INCLUDE [prod_short](includes/prod_short.md)] can include additional **Report Selection** pages, depending on your location and industry, for example. You can always check your setup by choosing the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, entering **Report Selections**, and then choose the relevant link.
+> Your [!INCLUDE [prod_short](includes/prod_short.md)] can include additional **Report Selection** pages, depending on your location and industry, for example. You can always check your setup by choosing the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, entering **Report Selections**, and then choose the relevant link.
 
 The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes the following **Report Section** pages:
 
@@ -66,5 +66,8 @@ For example, in the **Report Selection - Sales** and **Report Selection - Purcha
 [Select a Cheque Layout](finance-how-define-check-layouts.md)  
 [Set Up Reports for VAT and Intrastat (Germany)](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
-[Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)  
+[Define Document Layouts for Customers and Suppliers](ui-define-customer-vendor-document-layouts.md)  
 [Set Up Printers](ui-specify-printer-selection-reports.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

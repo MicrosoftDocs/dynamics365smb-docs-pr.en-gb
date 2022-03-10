@@ -1,28 +1,27 @@
 ---
 title: Create Works Orders from Sales Orders
-description: You can create works orders from sales orders.
+description: Learn the different ways to create works orders for produced items directly from sales orders.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 05/28/2021
+ms.search.form: 99000883, 99000884
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 438f4d4e1833ba607ceedb9f5d9450c0a4dbb680
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 3080556ad69882c533bec3768787784bfdac5c4f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115243"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145531"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Create Works Orders from Sales Orders
 You can create works orders for produced items directly from sales orders.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>To create a works order from a sales order  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Select the sales order you want to create a works order for.  
 3.  Choose the **Planning** action. On the **Sales Order Planning** page, you can view the availability of the sales order item.  
 4.  Choose the **Create Prod. Order** action.  
@@ -47,7 +46,7 @@ When you use project orders, the **Source Type** field of the works order contai
 ## <a name="see-also"></a>See Also  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  

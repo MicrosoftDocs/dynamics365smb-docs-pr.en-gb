@@ -1,21 +1,20 @@
 ---
-title: How to Create Service Items | Microsoft Docs
-description: When you receive an unregistered item for servicing, you can register it as a service item.
+title: How to Create Service Items
+description: Read about the different ways you can create service items in Business Central, for example within a service order or when shipping items.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 5d77fd11748d4e537914a1209d6b2a9e66a6ee0e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 74af60caaf286b9993402228b050e3717fb847a6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390356"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136912"
 ---
 # <a name="create-service-items"></a>Create Service Items
 In [!INCLUDE[prod_short](includes/prod_short.md)], the term "service item" refers to equipment or items that require service. When you create a service order, you specify the items that need service. In the order, you can link a service item to an item in inventory or a service item group.    
@@ -23,13 +22,13 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], the term "service item" refer
 When you receive an item that needs service, you can register it as a service item. There are several ways to do so. For example, you can create a service item on the **Service Items** page, or as part of another process, such as when working with a service order.   
 
 ## <a name="to-create-a-service-item"></a>To create a service item  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-service-items-within-a-service-order"></a>To create service items within a service order  
 When you receive items for service that you want to register as service items, you can create them as service items in the **Service Order** or **Service Quote** pages.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **Create Service Item** action.  
 
@@ -40,7 +39,7 @@ When you ship items by posting either sales orders or sales invoices, the shippe
 
 The following procedure shows how to create service items when you ship items on sales orders.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Open the relevant sales order.  
 3. Choose the **Post** or **Post and Print** action.  
 4. Choose the **Ship** or **Ship and Invoice** action.  
@@ -52,7 +51,7 @@ The following procedure shows how to create service items when you ship items on
 >  If an item is a BOM and you have not exploded the BOM, a service item is created for it based on the service item group condition and, optionally, the serial numbers condition.  
 
 ## <a name="to-insert-a-starting-fee-for-a-service-item"></a>To insert a starting fee for a service item
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
 2. Choose the **Item Worksheet** action.
 3. Choose the service line, and then choose **Actions**, choose **Functions**, and then choose **Insert Starting Fee** action.  
 

@@ -1,22 +1,21 @@
 ---
 title: Handling Missing Option Values
-description: Learn how to prevent full synchronisation from failing because the options differ in mapped fields.
+description: Learn how to prevent full synchronisation from failing because the options differ in mapped fields. This processes require the help of a developer.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
-ms.openlocfilehash: 2b6d27ed04eb7f09bc884930105867c25b2b4a5f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.date: 06/14/2021
+ms.openlocfilehash: 34d1583ac7e844a7d7acad82f202c37be0b99c47
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5492970"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133973"
 ---
 # <a name="handling-missing-option-values"></a>Handling Missing Option Values
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 This topic is intended for a technical audience. The processes it describes require the help of a developer.
 
@@ -40,7 +39,7 @@ The **Integration Table Mapping** page contains three fields that contain one or
 | Shipping Agent: FULLLOAD   | 6            | Full Load            |
 | Shipping Agent: WILLCALL   | 7            | Will Call            |
 
-The content of the **Dataverse Option Mapping** page is based on enum values in the **CRM Account** table. In [!INCLUDE[prod_short](includes/cds_long_md.md)], the following fields on the account table are mapped to fields on the customer and vendor records:
+The content of the **Dataverse Option Mapping** page is based on enum values in the **CRM Account** table. In [!INCLUDE[prod_short](includes/cds_long_md.md)], the following fields on the account table are mapped to fields on the customer and supplier records:
 
 - **Address 1: Freight Terms** of data type Enum, where values are defined as follow:
 
@@ -54,7 +53,7 @@ enum 5335 "CDS Shipment Method Code"
 }
 ```
 
-- **Address 1: Shipping Method** of data type Enum, where values are defined as follows:
+- **Address 1: Delivery Method** of data type Enum, where values are defined as follows:
 
 ```
 enum 5336 "CDS Shipping Agent Code"

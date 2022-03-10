@@ -1,21 +1,20 @@
 ---
-title: Understanding Assemble to Order and Assemble to Stock | Microsoft Docs
-description: Assembly items can be supplied either by assembling them when they are ordered or by assembling them to be kept in inventory until they are need on a sales order.
-author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+title: Understanding Assemble to Order and Assemble to Stock
+description: Assembly items can be supplied by assembling them when they are ordered or by assembling them to be kept in inventory until they are need on a sales order.
+author: bholtorf
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 8d1cf0c03a985245a507ec7e7970706bfad31b83
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/15/2021
+ms.author: bholtorf
+ms.openlocfilehash: 1f90e732f71e59f37aa4e81bd87101979ef8aa0b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880935"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128963"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Understanding Assemble to Order and Assemble to Stock
 Assembly items can be supplied in the following two processes:  
@@ -36,7 +35,7 @@ You typically use *assemble to order* for items that you do not want to stock be
 
 In the assemble-to-order process, the item is assembled in response to a sales order and with a one-to-one link between the assembly order and the sales order.  
 
-When you enter an assemble-to-order item on a sales line, an assembly order is automatically created with a header that is based on the sales line and with lines that are based on the item’s assembly BOM multiplied by the order quantity. You can use the **Assemble-to-Order Lines** page to see the linked assembly order lines to support you in customising the assembly item and in a delivery date that is based on component availability information. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
+When you enter an assemble-to-order item on a sales line, an assembly order is automatically created with a header that is based on the sales line and with lines that are based on the item's assembly BOM multiplied by the order quantity. You can use the **Assemble-to-Order Lines** page to see the linked assembly order lines to support you in customising the assembly item and in a delivery date that is based on component availability information. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
 >  Although it is not part of the default process, you can sell inventory quantities with the assemble-to-order quantities. For more information, see [Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
@@ -66,26 +65,38 @@ When you enter an assemble-to-order item on a sales line, an assembly order is a
 
  However, in combination scenarios, the full value in the **Qty. to Ship** is not copied to the **Quantity to Assemble** field on the assembly order header. Instead, a default value is inserted in the **Quantity to Assemble** field that is calculated from the **Qty. to Ship** field according to a predefined rule that ensures shipment of assemble-to-order quantities first.  
 
- If you want to deviate from this default, for example because you only want to assemble more or less of the quantity in the **Qty. to Ship** field, then you can modify the **Quantity to Assemble** field, but only within predefined rules, as illustrated below  
+ If you want to deviate from this default, for example because you only want to assemble more or less of the quantity in the **Qty. to Ship** field, then you can modify the **Quantity to Assemble** field, but only within predefined rules, as illustrated below.  
 
- An example why you would want to modify the quantity to assemble is that you want to partially post shipment of inventory quantities before the assembly output can be shipped.  
+ An example of why you would want to modify the quantity to assemble is that you want to partially post shipment of inventory quantities before the assembly output can be shipped.  
 
- The following explains the rules that define the minimum and maximum values that you can enter manually in the **Quantity to Assemble** to deviate from the default value in a combination scenario. The table shows a combination scenario where the **Qty. to Ship** field on the linked sales order line is changed from 7 to 4, and the **Quantity to Assemble** is therefore defaulted to 4.  
+ The following tables explain the rules that define the minimum and maximum values that you can enter in the **Quantity to Assemble** field to deviate from the default value in a combination scenario. The table shows a combination scenario where the **Qty. to Ship** field on the linked sales order line is changed from 7 to 4, and the **Quantity to Assemble** is therefore defaulted to 4.  
 
-||Sales Order Line|Assembly Order Hheader|  
-|-|----------------------|---------------------------|  
-||**Quantity**|**Qty. to Ship**|**Qty. to Assemble to Order**|**Quantity Shipped**|**Quantity**|**Quantity to Assemble**|**Assembled Quantity**|**Remaining Quantity**|  
-|Initial|10|7|7|0|7|7|0|7|  
-|Change||4||||4 (inserted by default)|||  
+- Sales Order Line
 
- Based on the above situation, you can only modify the **Quantity to Assemble** field as follows:  
+    |                | **Quantity** | **Qty. to Ship** | **Qty. to Assemble to Order** | **Quantity Shipped** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Initial value**| 10          | 7                | 7                             | 0                    |
+    |**Change**      |              | 4                |                               |                      |
 
--   The minimum quantity that you can enter is 1. This is because you must at least assemble one unit to be able to sell the four units, assuming that the remaining three are available in the inventory.  
--   The maximum quantity that you can enter is 4. This is to ensure that you do not assemble more of this assemble-to-order item than what is needed on the sale.  
+- Assembly Order Header
 
-## <a name="see-also"></a>See Also  
+    |                | **Quantity** | **Qty. to Ship** | **Qty. to Assemble to Order** | **Quantity Shipped** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Initial value**| 7           | 7                | 0                             | 7                    |
+    |**Change**      |              | 4 (inserted by default)|                         |                      |
+
+Based on this example, you can only modify the **Quantity to Assemble** field as follows:  
+
+- The minimum quantity that you can enter is 1. This is because you must at least assemble one unit to be able to sell the four units, assuming that the remaining three are available in the inventory.  
+- The maximum quantity that you can enter is 4. This is to ensure that you do not assemble more of this assemble-to-order item than what is needed on the sale.  
+
+## <a name="see-also"></a>See Also
+
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

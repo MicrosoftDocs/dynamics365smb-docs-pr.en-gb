@@ -1,21 +1,21 @@
 ---
-title: Dispose or Retire FA| Microsoft Docs
-description: You must post a disposal value when you scrap, sell, or retire a fixed asset.
+title: Dispose or Retire FA
+description: When you sell or otherwise dispose of a fixed asset, the disposal value must be posted to calculate and record the gain or loss.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 10/01/2020
+ms.search.form: 5628, 5610, 5611
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9a155c5b2f616963da34c4d512bcc0f52623f58b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d8018ca3cbb7b04fc2ba35a2eb095a0f29d48a3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920729"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132973"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Dispose of or Retire Fixed Assets
 
@@ -28,7 +28,7 @@ The following steps assume that you have already set up the relevant posting gro
 
 ## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>To post a disposal from the fixed asset G/L journal
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journals**, and then choose the related link.  
 2. Create an initial journal line and fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. In the **FA Posting Type** field, select **Disposal**.  
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for disposal posting.  
@@ -42,7 +42,7 @@ If you sell or dispose of part of a fixed asset, you must split up the asset bef
 ## <a name="to-view-disposal-ledger-entries"></a>To view disposal ledger entries
 When you sell or dispose of a fixed asset, the disposal value is posted to the general ledger where you can view the result.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
 2. Select the fixed asset that you want to view entries for, and then choose the **Depreciation Books** action.  
 3. Select the depreciation book that you want to view entries for, and then choose the **Ledger Entries** action.  
 4. Select a line with **Disposal** in the **FA Posting Category** field, and then choose the **Find Entries** action.  
@@ -56,6 +56,9 @@ The **General Ledger Entries** page opens where you can see the entries that the
 [Setting Up Fixed Assets](fa-setup.md)  
 [To set up fixed asset posting groups](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Finance](finance.md)  
-[Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Find Entries](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

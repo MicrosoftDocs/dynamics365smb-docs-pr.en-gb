@@ -2,29 +2,28 @@
 title: Migrate Customer Data
 description: You can migrate existing customer data from an existing system to Business Central using RapidStart Services - or just enter it directly into the company.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 3da4b0f6be7c8b4a8844ee479f1cc3e35006e9c1
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068300"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335377"
 ---
 # <a name="migrate-customer-data"></a>Migrate Customer Data
 
-You can migrate existing customer data from an existing ERP system to [!INCLUDE[prod_short](includes/prod_short.md)] using the data migration tools of RapidStart Services. You can use Excel files as the data carrier. You can also manually move the data by entering it directly in the company.
+You can migrate existing customer data from an existing ERP system to [!INCLUDE[prod_short](includes/prod_short.md)] using the data migration tools of RapidStart Services. You can use Excel files as the data carrier. You can also manually move the data by entering it directly in the company. Alternatively, you can use the **Cloud Migration** guide help you move data. For more information, see [Migrate Data](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the admin content.
 
 > [!NOTE]
 > Fields of type Blob cannot be exported/imported using Excel.
 
-The **Migration Overview** and **Config. Worksheet** pages provide access to the functions and views to perform all the tasks that relate to data migration. We recommend that you migrate one table at a time, to handle dependencies in your data. In migration, you will also touch the master data tables, which contain information about customers, vendors, items, contacts, and the general ledger.  
+The **Migration Overview** and **Config. Worksheet** pages provide access to the functions and views to perform all the tasks that relate to data migration. We recommend that you migrate one table at a time, to handle dependencies in your data. In migration, you will also touch the master data tables, which contain information about customers, suppliers, items, contacts, and the general ledger.  
 
 ## <a name="to-import-configuration-packages"></a>To import configuration packages
 When you create a new company, you can import company settings for the new company. You import the settings from a .rapidstart file, which delivers the package contents in a compressed format. A corresponding set of default data migration tables are imported. The data set contains master data tables and the setup data tables. Your first task in data migration is to evaluate if the default migration setup meets the needs of the new company.
@@ -42,7 +41,7 @@ Before you start, you must make sure that you have permission to run the RapidSt
 > Tables that have different primary keys and fields that have different data types will also not be successfully imported. For example, if the configuration pack includes table **50000 Customer** that has primary key **Code20** and the database to which you import the pack includes table **50000 Customer Bank Account** that has the primary key **Code20 + Code 20**, data will not be imported.  
 
 1. Open the new company.  
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 3. Choose the **Import Package** action. Navigate to the .rapidstart package file that you want to import, and then choose the **Open** action. During import, the package contents are decompressed and the package record is created.  
 
     When the import is complete, you can see the number of configuration tables that have been imported in the **No. of Tables** field.  
@@ -63,7 +62,7 @@ You can create new data migration files and customise them to support your busin
 > [!TIP]
 > A file can only be used to migrate a field that has its **FieldClass** property set to **Normal**.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Package**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Package**, and then choose the related link.  
 2. Select and open the package that you want to use to migrate data, and then choose the **Get Tables** action. The **Get Package Table** page opens.  
 3. In the **TableID** field, enter a table number or select a table from the list, for example, table 18, **Customer**. The **Table Name** field is automatically filled in.  
 4. Select the new migration table, and then, on the **Tables** tab, choose the **Fields** action. The **Migration Fields** page opens.  
@@ -79,7 +78,7 @@ A new migration table is created.
 ## <a name="to-export-data-migration-files"></a>To export data migration files
 When you have determined the tables that you want to transfer customer data to, you export the files.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 2. Select and open the package that you want to use for export.
 3. Select the table or tables that you want to export, and then choose the **Export to Excel** action.
 4. Save the exported Excel file.  
@@ -100,7 +99,7 @@ When you apply data that you have imported from Excel or from a RapidStart packa
 
 In the following procedures, you should review in advance which values you want to retain during the migration process. To perform the following procedures, you need data migration files (.xlsx) that you have exported from [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [To export data migration files](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.
 2. Open the package for the company in question.  
 3. Select the table for which you want to map values, and then, on the **Tables** tab, choose the **Fields** action.  
 4. For each field that you want to map, choose the **Mapping** action.  
@@ -114,11 +113,11 @@ In the following procedures, you should review in advance which values you want 
 The following example illustrates how [!INCLUDE[prod_short](includes/prod_short.md)] implements mapping definitions.  
 
 1. Create a configuration table that has a **Salesperson/Purchaser** table. Define a mapping for the **Code** field.  
-2. Add additional tables to the package, for example, **Customer** and **Vendor**. These tables both reference the **Salesperson/Purchaser** table through the **Salesperson Code** and **Purchaser Code** fields respectively.  
+2. Add additional tables to the package, for example, **Customer** and **Supplier**. These tables both reference the **Salesperson/Purchaser** table through the **Salesperson Code** and **Purchaser Code** fields respectively.  
 3. When you apply data, the mapping that you provided for the **Code** field in the the **Salesperson/Purchaser** table will also be considered during the processing of the **Salesperson Code** and **Purchaser Code** fields.
 
 ## <a name="to-add-additional-values-to-prod_short"></a>To add additional values to [!INCLUDE[prod_short](includes/prod_short.md)]  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 2. Select the table for which you want to add additional values, and then, on the **Tables** tab, choose the **Fields** action.  
 3. For the fields for which you want [!INCLUDE[prod_short](includes/prod_short.md)] to permit additional values during migration, select the **Create Missing Codes** check box.  
 4. Import the customer data. For more information, see [To import customer data](admin-migrate-customer-data.md#to-import-customer-data).
@@ -197,3 +196,6 @@ The customer's company database is now set up and basic data is imported. Your n
 ## <a name="see-also"></a>See Also  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

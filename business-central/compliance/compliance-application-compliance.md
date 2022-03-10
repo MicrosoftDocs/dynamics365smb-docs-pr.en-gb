@@ -1,26 +1,25 @@
 ---
-title: Application Compliance | Microsoft Docs
-description: This content contains information about application compliance in relation to Business Central.
+title: Application Compliance
+description: This topic explains application compliance in relation to Business Central like the International Financial Reporting Standards, local functionality, and GDPR.
 author: sorenfriisalexandersen
 documentationcenter: ''
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: e0ef9e91d303191cc98afb7dc56f4585d443e5c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7d264ae88d1f9743d7e30994ee0e39f19a5febbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917608"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139866"
 ---
 # <a name="application-compliance"></a>Application Compliance
 
-This content contains information about application compliance in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)], like the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business. With Business Central companies are empowered to streamline business processes while consistently and cost-efficiently complying with increasing regulation and reporting requirements.
+This content contains information about application compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)], like the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business. With Business Central companies are empowered to streamline business processes while consistently and cost-efficiently complying with increasing regulation and reporting requirements.
 
 ## <a name="data-privacy"></a>Data Privacy
 
@@ -59,14 +58,14 @@ Deliver integrated information, aligned processes, and easy-to-use tools to help
 ### <a name="tailor-account-schedules-to-your-needs"></a>Tailor account schedules to your needs
 
 - Define the structure of your company's chart of accounts based on business requirements and applicable regulatory standards
-- Create accounts and handle complex processes related to a spectrum of business activities, including inventory valuation, foreign currencies, segment reporting, and departures from local GAAPs.
-- Control the level of detail for each recorded transaction    and select detailed registration for specific types of transactions, such as fixed assets and accounts payable.
+- Create accounts and handle complex processes related to a spectrum of business activities, including stock valuation, foreign currencies, segment reporting, and departures from local GAAPs.
+- Control the level of detail for each recorded transaction    and select detailed registration for specific types of transactions, such as fixed assets and purchase ledger.
 - Tailor schedule calculations and display for financial reporting, or export the information to Microsoft Excel for further analysis.
 
 ### <a name="improve-information-validity"></a>Improve information validity
 
 - Configure data fields to accept only information in the correct format, such as the correct number of decimal places or alphanumeric patterns.
-- Help ensure information is complete with application controls such as requiring a vendor invoice number to be entered before a purchase order can be posted.
+- Help ensure information is complete with application controls such as requiring a supplier invoice number to be entered before a purchase order can be posted.
 - Reduce the risk of inaccurate information    or tampering and help protect sensitive information with access to information based on job role.
 - Prohibit access, provide read-only access, or enable full-access users to add, edit, or delete information.
 - Easily identify and resolve discrepancies    with a    reconciliation feature that retrieves current bank account and transaction information and compares it to general ledger posts.
@@ -74,10 +73,9 @@ Deliver integrated information, aligned processes, and easy-to-use tools to help
 
 ### <a name="comply-quickly-with-discovery-requests-and-reporting-demands"></a>Comply quickly with discovery requests and reporting demands
 
-- Save time    when you create    standard reports that use common business parameters and criteria to satisfy typical reporting needs, ranging from order summaries to ageing accounts receivable.
+- Save time    when you create    standard reports that use common business parameters and criteria to satisfy typical reporting needs, ranging from order summaries to ageing sales ledger.
 - Perform complex reviews with basic or    advanced business analytics functionality.
 - Create custom reports and display in product and by utilizing integration to Microsoft PowerBI.
-- Speed    transmission of    financial information to customers, shareholders, regulatory agencies, and the public with XML-based XBRL documents that support the exchange of financial information across different software and technologies, including the Internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Help ensure clear audit trails
 
@@ -108,5 +106,8 @@ Microsoft builds localised versions of Business Central for a limited number of 
 [Service Compliance](compliance-service-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

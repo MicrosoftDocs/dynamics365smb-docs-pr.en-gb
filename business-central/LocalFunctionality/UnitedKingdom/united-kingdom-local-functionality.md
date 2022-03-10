@@ -1,24 +1,24 @@
 ---
-title: United Kingdom Local Functionality | Microsoft Docs
-description: Get an overview of local functionality in the United Kingdom version of Business Central.
+title: United Kingdom Local Functionality [GB]
+description: This article gives you an overview of local functionality in the United Kingdom version of Business Central.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/22/2021
 ms.author: soalex
-ms.openlocfilehash: 685c6da207cf91eeab438fbbed9b4c7a9f19eb80
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eb88a904ea7bce849933a0876d7dce623179b0ab
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189015"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147316"
 ---
-# <a name="united-kingdom-local-functionality"></a>United Kingdom Local Functionality
-The following topics describe local functionality that is unique to the United Kingdom version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+# <a name="united-kingdom-local-functionality-in-the-british-version"></a>United Kingdom Local Functionality in the British Version
+
+The following topics describe local functionality that is unique to the United Kingdom version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Feature Availability
 
@@ -26,7 +26,7 @@ The following topics describe local functionality that is unique to the United K
     * [Making Tax Digital - VAT Returns submission](making-tax-digital-submit-vat-return.md) **Available Now**
     * [Change VAT Setup in Journals](how-to-change-vat-setup-in-journals.md) **Available Now**
     * [Print VAT Audit Reports](how-to-print-vat-audit-reports.md) **Available Now**
-    * [Print VAT Reports](how-to-print-vat-reports.md)|Current|
+    * [Print VAT Reports](how-to-print-vat-reports.md) **Available Now**
     * [Set Up Reverse Charges on VAT](how-to-set-up-reverse-charges-on-vat.md) **Available Now**
 
 * Banking & Payments
@@ -41,10 +41,14 @@ The following topics describe local functionality that is unique to the United K
     * [Enter Statutory Information](how-to-enter-statutory-information.md) **Available Now**
     * [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md) **Available Now**
     * [Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md) **Available Now**
-    * [Enter External Document Numbers](how-to-enter-external-document-numbers.md) **Available Now**
 
 ## <a name="see-also"></a>See Also
-[Preparing for the United Kingdom to leave the European Union](united-kingdom-leaving-eu.md)<br>
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+[Using Business Central after the United Kingdom Has Left the European Union](united-kingdom-leaving-eu.md)  
+[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

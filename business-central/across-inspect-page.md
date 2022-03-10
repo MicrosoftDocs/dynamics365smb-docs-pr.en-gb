@@ -5,20 +5,22 @@ ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
-ms.service: dynamics365-business-central
+ms.topic: conceptual
 author: jswymer
-ms.date: 10/01/2019
-ms.openlocfilehash: de9f34fc8aefc2d6803f658bf738b06af27f0ebe
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.author: jswymer
+ms.date: 04/01/2021
+ms.openlocfilehash: d30b93942292e2f6a5a52831725ec06aed32820c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879386"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136511"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspecting Pages in Business Central
 
 The page inspection feature enables you to get details about a page, providing insight into the page design, the different elements that comprise the page, and the source behind the data it displays. Page inspection is especially designed for administrators, power users, support personnel, and developers. It is ideal for learning the data model behind a page and troubleshooting. For example, if you are experiencing a problem with a page, you could use page inspection to get information to pass on to your system administrator or support personnel.
+
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
 ## <a name="working-with-page-inspection"></a>Working with Page Inspection
 
@@ -26,7 +28,7 @@ You start page inspection from the **Help & Support** page. Choose the question 
 
 The **Page inspection** pane opens on the side. The following figure illustrates the **Page Inspection** pane on the **Sales Order** page.
 
-![Page Inspection](media/page-inspection-example.png)
+![Page Inspection.](media/page-inspection-example.png)
 
 When the **Page Inspection** pane first opens, it shows information that pertains to the main page object.
 
@@ -44,4 +46,7 @@ Users who are not granted permissions on **System object 5330** can still access
 
 ## <a name="see-also"></a>See Also
 
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

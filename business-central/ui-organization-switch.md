@@ -1,39 +1,44 @@
 ---
-title: Switching to Another Company or Environment | Microsoft Docs
+title: Switching to Another Company or Environment
 description: If you do work for multiple organisations, you can quickly switch between the environments and companies.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 07/03/2020
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 362a994ccda698a4bf91e42c27532af95f9c9c27
-ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
+ms.openlocfilehash: 265974a70dc54bae24ea26aa1385fbf2c2ef9cb5
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535316"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335273"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Switching to Another Company or Environment
 
-[!INCLUDE [company_environment](includes/company_environment.md)] For more information, see [Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).  
+[!INCLUDE [company_environment](includes/company_environment.md)] For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
-> If you often switch between companies, it can be easy to lose track of where you are. To help you keeping track, you can add a badge that will display the company name, so you can quickly verify that you are in the right place. For more information, see [To display a company badge for quick access to company information](ui-change-basic-settings.md#to-display-a-company-badge-for-quick-access-to-company-information).
+> If you often switch between companies, or work with [!INCLUDE[prod_short](includes/prod_short.md)] from within another app like Microsoft Teams, it can be easy to lose track of where you are. To help you keeping track, you can add a badge that will display the company name, so you can quickly verify that you're in the right place. For more information, see [To display a company badge for quick access to company information](ui-change-basic-settings.md#badge).
 
 ## <a name="switch-to-another-environment"></a>Switch to Another Environment
 
-When you are signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)], the environments that you can access are available on the Dynamics 365 Home page. You can open the page by choosing the **App Launcher** icon ![App Launcher](media/app-launcher-icon.png "The App Launcher provides access to more features") and choosing **Dynamics 365**. To go to your default company in that environment, choose the tile. There will be one tile for each type of environment. If you have more than one environment of a certain type, when you choose the tile you can choose the environment to access.
+When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Office.com. 
 
+1. Select the **App Launcher** icon ![App Launcher.](media/app-launcher-icon.png "The App Launcher provides access to more features").
+2. If you don't see an app for [!INCLUDE[prod_short](includes/prod_short.md)] in the pane that opens, then choose **Office 365**. Then, enter **Business Central** in the **Search** box or select **All Apps** > **Business Apps**.   
+3. There will be one [!INCLUDE[prod_short](includes/prod_short.md)] app listed for each type of environment, like production and sandbox. To switch to another environment, choose the [!INCLUDE[prod_short](includes/prod_short.md)] app for the type of environment it is. If there's more than one environment of a certain type, you'll then be asked to choose the environment to access.
+
+<!--
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.
 
 :::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
-
+-->
 ## <a name="switch-to-another-company"></a>Switch to Another Company
 
-When you are signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can quickly switch to another company. After you make the switch, the company you choose becomes your default company and will display the next time you sign in.
+When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], you can quickly switch to another company. After you make the switch, the company you choose becomes your default company and will display the next time you sign in.
 
-1. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role centre"), and then choose the **My Settings** action.
+1. In the top-right corner, choose the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role centre"), and then choose the **My Settings** action.
 
     > [!TIP]
     > You can also use the Alt+T keyboard shortcut to quickly open the My Settings page.
@@ -48,3 +53,6 @@ When you are signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can q
 
 [The Business Central Administration Centre](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Change Basic Settings](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

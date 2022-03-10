@@ -1,23 +1,20 @@
 ---
 title: Design Details - Cost Components | Microsoft Docs
-description: Cost components are different types of costs that make up the value of an inventory increase or decrease.
-services: project-madeira
-documentationcenter: ''
+description: Cost components are different types of costs that make up the value of an stock increase or decrease.
 author: SorenGP
-ms.service: dynamics365-financials
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
-ms.author: sgroespe
-ms.openlocfilehash: 697c040915b5117dc7aa2140a63e57b60090cd20
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: ef7f0d170c76dc79627123ce76e036729b4d0bd0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243234"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143667"
 ---
 # <a name="design-details-cost-components"></a>Design Details: Cost Components
 Cost components are different types of costs that make up the value of an inventory increase or decrease.  
@@ -46,4 +43,7 @@ Cost components are different types of costs that make up the value of an invent
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Variance](design-details-variance.md) [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,22 @@
 ---
-title: Manage Interactions With Your Contacts| Microsoft Docs
+title: Manage Interactions With Your Contacts
 description: You can manage all types of communication or interactions between your company and your contacts, for example, letters, phone calls, meetings, and so on.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.search.forms: 5082,
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 8e55baf7fcc375c492a4b50794d823ad13b432a4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 464940f091356f1a0eaa0b160e2850aded545487
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181395"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131386"
 ---
 # <a name="record-interactions-with-contacts"></a>Record Interactions With Contacts
 Setting up your application to record interactions consists of these tasks:
@@ -50,9 +49,12 @@ In this page, you can:
 * View the status of interactions.
 * Mark interactions as cancelled.
 
-You can delete interaction log entries that have been cancelled. To delete interaction log entries, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Cancelled Interaction Log Entries**, and then choose the related link, and then fill in the information.
+You can delete interaction log entries that have been cancelled. To delete interaction log entries, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete cancelled Interaction Log Entries**, and then choose the related link, and then fill in the information.
 
 ## <a name="see-also"></a>See Also
 [Managing Contacts](marketing-contacts.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Working with Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

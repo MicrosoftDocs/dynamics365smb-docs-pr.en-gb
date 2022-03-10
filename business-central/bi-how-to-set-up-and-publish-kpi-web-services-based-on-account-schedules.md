@@ -1,27 +1,30 @@
 ---
-title: Set Up and Publish KPI Web Services for Account Schedules | Microsoft Docs
+title: Set Up and Publish KPI Web Services for Account Schedules
 description: This topic describes how to show the account-schedule KPI data based on specific account schedules.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
+ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 95089c696457662737bc524a095b674a5b9a83d5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 29816a5812ce5d5cfe19b8c27b475ddd2090710f
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878564"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335429"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Set Up and Publish KPI Web Services Based on Account Schedules
 On the **Account Schedule KPI Web Service Setup** page, you set up how to show the account-schedule KPI data and which specific account schedules to base the KPIs on. When you choose the **Publish Web Service** button, the specified account-schedule KPI data is added to the list of published web services on the **Web Services** page.  
 
+> [!NOTE]
+> When you use this web service, closing dates are not included in your data set. This lets you use filters in Power BI to analyse various time periods.
+
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>To set up and publish a KPI web service that is based on account schedules  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedule KPI Web Service Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedule KPI Web Service Setup**, and then choose the related link.  
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -54,4 +57,7 @@ On the **Account Schedule KPI Web Service Setup** page, you set up how to show t
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

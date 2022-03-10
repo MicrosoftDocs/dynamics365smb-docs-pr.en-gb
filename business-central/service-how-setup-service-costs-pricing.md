@@ -1,33 +1,30 @@
 ---
-title: Set Up Pricing and Costs for Services | Microsoft Docs
-description: Learn how to set up prices and additional costs for services.
-services: project-madeira
-documentationcenter: ''
+title: Set Up Pricing and Costs for Services
+description: Learn how to use pricing features to set up and customise your application so that you apply and adjust pricing on service items, repairs and orders.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 74f2cfce207fbc32aad1dc835ead2588e2aa62c1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 52ffc9d1d0ebce87a4e0f952e3f742a0159e1cc1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311843"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136958"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Set Up Pricing and Additional Costs for Services
-You can use the [!INCLUDE[d365fin](includes/d365fin_md.md)] pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs, and orders. These pricing decisions are then easily transmitted to the invoicing process.  
+You can use the [!INCLUDE[prod_short](includes/prod_short.md)] pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs, and orders. These pricing decisions are then easily transmitted to the invoicing process.  
   
 As your implementation requires, you can set up pricing groups and map them to specific time periods, customers, or currency. You can set up fixed, minimum, or maximum pricing, depending on the service contracts that you have with customers. Finally, as you adjust your prices, you can view and approve the changes before committing them to the ledger.  
 
 ## <a name="to-set-up-a-service-price-group"></a>To set up a service price group
 You can set up groups containing service items that you want to receive the same special service pricing. You assign service price groups to service items on service item lines. You can also assign service price groups to service item groups.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Price Groups**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Price Groups**, and then choose the related link.  
 2. Create a new service price group.  
 3. Fill in the **Code** and **Description** fields.  
 4. Choose the **Setup** action.  
@@ -39,7 +36,7 @@ You can set up groups containing service items that you want to receive the same
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>To set up a service price adjustment group  
 You can set up price adjustment groups to adjust service pricing of service items. For example, you can set up price adjustment groups that adjust price of freight or spare parts.  
   
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Price Adjustment Groups**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Price Adjustment Groups**, and then choose the related link.  
 2. Create a new service price adjustment group.  
 3. Fill in the **Code** and **Description** fields.  
 4. In the **Type** field, enter the type of the entry that you want to adjust.  
@@ -57,13 +54,16 @@ You can set up price adjustment groups to adjust service pricing of service item
 When you work with service items and service orders, you may need to register additional costs, such as travel costs to particular service zones or starting fees. When you create a service order, you can insert these costs and a line with the type **Cost** will be added to the order. Alternatively, if you want to apply the cost to all service orders, you can set up a default cost. For example, if you always want to apply a starting fee.
   
 ### <a name="to-set-up-service-costs"></a>To set up service costs
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Costs**, and then choose the related link. 
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Costs**, and then choose the related link. 
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>To specify a default cost for service orders
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Setup**, and then choose the related link. 
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Setup**, and then choose the related link. 
 2. In the **Service Order Starting Fee** field, choose the appropriate service cost.
 
 ## <a name="see-also"></a>See Also
 [Setting Up Service Management](service-setup-service.md)  
 [Service Management](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

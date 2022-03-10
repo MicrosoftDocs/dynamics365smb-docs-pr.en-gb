@@ -1,23 +1,20 @@
 ---
-title: How to Set Up Shipping Agents | Microsoft Docs
-description: You can set up a code for each of your shipping agents and enter information about them.
-services: project-madeira
-documentationcenter: ''
+title: How to Set Up Shipping Agents
+description: Learn how to set up a code for each of your shipping agents and enter descriptive information about each of them and the services they provide.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: e1f6af964dad89a8a311f315f8885aaa94b92427
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: b4ec7a008c58256a8b7a351d8ee6890ad43fb00a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252351"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136984"
 ---
 # <a name="set-up-shipping-agents"></a>Set Up Shipping Agents
 You can set up a code for each of your shipping agents and enter information about them.  
@@ -30,7 +27,7 @@ For each shipping agent, you can set up an unlimited number of services, and you
 When you have assigned a shipping agent service to a sales order line, the shipping time of the service will be included in the order promising calculation, for that line. For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>To set up a shipping agent  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipping Agents**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipping Agents**, and then choose the related link.  
 2.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Choose the **Shipping Agent Services** action.
 4. In the **Shipping Agent Services**, fill in the fields as necessary.
@@ -39,10 +36,14 @@ When you have assigned a shipping agent service to a sales order line, the shipp
 >  If you delete the shipping agent on the order line, the shipping agent service code is also deleted. The contents of fields that were based in part on the shipping agent service are recalculated.  
 
 ## <a name="see-also"></a>See Also
+[Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)  
 [Track Packages](sales-how-track-packages.md)    
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

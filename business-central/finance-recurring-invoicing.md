@@ -1,27 +1,27 @@
 ---
-title: Work with recurring revenue| Microsoft Docs
+title: Work with recurring revenue
 description: Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue.
 author: AndreiPanko
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
+ms.search.form: 283
 ms.reviewer: edupont
-ms.date: 05/27/2020
+ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: a0439557ce69b3c53406bd43b3b76cdf9ae73a10
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: cf990ec5de639054a79e98275be76cb0aed989d1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410794"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128798"
 ---
-# <a name="work-with-recurring-revenue-in-d365fin"></a>Work with recurring revenue in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="work-with-recurring-revenue-in-prod_short"></a>Work with recurring revenue in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Many companies are moving from a business revenue model where revenue is made from a customer's one-time purchase to a subscription model where revenue is made on a recurring basis in return for consistent access to the delivery of a good or service.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] has the following options for automating how you send subscription invoices to your customers and register recurring revenue. 
+[!INCLUDE[prod_short](includes/prod_short.md)] has the following options for automating how you send subscription invoices to your customers and register recurring revenue. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Register revenue with a recurring general journal
 
@@ -31,7 +31,7 @@ A recurring journal is a general journal with specific fields for managing trans
 
 With this option, you define flexible invoicing periods with [Date Formulas](ui-enter-date-ranges.md#using-date-formulas).
 
-However, with this option, you cannot print and send invoices in the default version of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+However, with this option, you cannot print and send invoices in the default version of [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 For more information, see [Working with Recurring Journals](ui-work-general-journals.md#working-with-recurring-journals).  
 
@@ -57,7 +57,7 @@ If you often need to create sales and purchase lines with similar information, y
 
 With this option, you can assign the same recurring lines to multiple customers. You can define period of validity for the recurring sales lines for specific customer. You can assign multiple recurring lines to the same customer and all of them will be included in the invoice.
 
-However, there is no way to set fixed prices for items because [!INCLUDE[d365fin](includes/d365fin_md.md)] will use the actual prices and discount valid on document date, trying to find best combination that gives the lowest price.  
+However, there is no way to set fixed prices for items because [!INCLUDE[prod_short](includes/prod_short.md)] will use the actual prices and discount valid on document date, trying to find best combination that gives the lowest price.  
 
 For more information, see [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).
 
@@ -77,7 +77,7 @@ However, this option requires the Premium licence. Setting up service management
 For more information, see [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md) and [Invoice several service contracts](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Related features
-There are several related capabilities in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+There are several related capabilities in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="blanket-sales-orders"></a>Blanket sales orders
 
@@ -103,11 +103,11 @@ With this option, you can choose between fixed and "best" prices.
 
 However, this is only available in Norway. Validity period can be defined on the recurring group level.
 
-For more information, see [Recurring Orders (Norway)](/localfunctionality/norway/recurring-orders.md).
+For more information, see [Recurring Orders](LocalFunctionality/Norway/recurring-orders.md).
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Recurring revenue and subscription billing by other providers
 
-At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get extensions for Business Central. Some extensions are provided by Microsoft, and other extensions are provided by other companies. The list of the extensions by other companies grows each month. So keep an eye out for [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) and get apps to help you in your work in Business Central.  
+At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get extensions for Business Central. Some extensions are provided by Microsoft, and other extensions are provided by other companies. The list of the extensions by other companies grows each month. So keep an eye out for [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) and get apps to help you in your work in Business Central.  
 
 ## <a name="see-also"></a>See also 
 
@@ -120,4 +120,7 @@ At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get exte
 [Invoice several service contracts](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Demand Forecasts and Blanket Orders](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)  
-[Recurring Orders (Norway)](/localfunctionality/norway/recurring-orders.md)  
+[Recurring Orders (Norway)](LocalFunctionality/Norway/recurring-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,22 +2,23 @@
 title: Set Up Resources, Time Sheets, and Jobs
 description: This topic outlines how to set up resources, time sheets, and jobs to manage projects and their budgets.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
+ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 468c3a9e526d5d512419242a9fbcd0271d6e2a6d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 099698611820f791d36c659f983316dee03d9c9a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321071"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146235"
 ---
 # <a name="setting-up-project-management"></a>Setting Up Project Management
+
 Before you can use [!INCLUDE[prod_short](includes/prod_short.md)] to manage projects, you must set up resources, time sheets, and jobs.
 
 Then you can create jobs and schedule resources for projects as well as manage budgets and track machine and employee hours with time sheets. For more information, see [Managing Projects](projects-manage-projects.md).  

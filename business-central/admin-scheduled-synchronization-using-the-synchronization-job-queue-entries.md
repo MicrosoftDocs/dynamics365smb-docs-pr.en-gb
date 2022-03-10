@@ -1,31 +1,30 @@
 ---
-title: Synchronising Business Central and Dataverse | Microsoft Docs
+title: Synchronising Business Central and Dataverse
 description: Learn about synchronising data between Business Central and Dataverse.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 94f969f4d96f31b3b6843614e1bd99790a22307d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 937601cffe10fe7862aad48ec7f7bded37ad8e61
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755199"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130625"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Scheduling a Synchronisation between Business Central and Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 You can synchronise [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on scheduled intervals by setting up jobs in the job queue. The synchronisation jobs synchronise data in [!INCLUDE[prod_short](includes/prod_short.md)] records and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] records that have been previously coupled together. Or for records that are not already coupled, depending on the synchronisation direction and rules, the synchronisation jobs can create and couple new records in the destination system. 
 
 There are several synchronisation jobs that are available out-of-the-box. The jobs are run in the following order to avoid coupling dependencies between tables. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
 1. CURRENCY - Common Data Service synchronisation job.
-2. VENDOR - Common Data Service synchronisation job.
+2. SUPPLIER - Common Data Service synchronisation job.
 3. CONTACT - Common Data Service synchronisation job.
 4. CUSTOMER - Common Data Service synchronisation job.
 5. SALESPEOPLE - Common Data Service synchronisation job.
@@ -41,7 +40,7 @@ The following table describes the default synchronisation jobs for [!INCLUDE[cds
 | CONTACT - Common Data Service synchronisation job | Synchronises [!INCLUDE[cds_long_md](includes/cds_long_md.md)] contacts with [!INCLUDE[prod_short](includes/prod_short.md)] contacts. | Bidirectional | CONTACT | 30 | 720 <br>(12 hours) |
 | CURRENCY - Common Data Service synchronisation job | Synchronises [!INCLUDE[cds_long_md](includes/cds_long_md.md)] transaction currencies with [!INCLUDE[prod_short](includes/prod_short.md)] currencies. | From [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] | CURRENCY | 30 | 720 <br> (12 hrs) |
 | CUSTOMER - Common Data Service synchronisation job | Synchronises [!INCLUDE[cds_long_md](includes/cds_long_md.md)] accounts with [!INCLUDE[prod_short](includes/prod_short.md)] customers. | Bidirectional | CUSTOMER | 30 | 720<br> (12 hrs) |
-| VENDOR - Common Data Service synchronisation job | Synchronises [!INCLUDE[cds_long_md](includes/cds_long_md.md)] accounts with [!INCLUDE[prod_short](includes/prod_short.md)] customers. | Bidirectional | VENDOR | 30 | 720<br> (12 hrs) |
+| SUPPLIER - Common Data Service synchronisation job | Synchronises [!INCLUDE[cds_long_md](includes/cds_long_md.md)] accounts with [!INCLUDE[prod_short](includes/prod_short.md)] customers. | Bidirectional | SUPPLIER | 30 | 720<br> (12 hrs) |
 | SALESPEOPLE - Common Data Service synchronisation job | Synchronises [!INCLUDE[prod_short](includes/prod_short.md)] salespeople with [!INCLUDE[cds_long_md](includes/cds_long_md.md)] users. | From [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to [!INCLUDE[prod_short](includes/prod_short.md)] | SALESPEOPLE | 30 | 1440<br> (24 hrs) |
 
 ## <a name="synchronization-process"></a>Synchronisation Process
@@ -72,7 +71,7 @@ Some job queue entries, such as those that schedule synchronisation between [!IN
 
 When the value in this field is not zero, and the job queue did not find any changes during the last run, [!INCLUDE[prod_short](includes/prod_short.md)] puts the job queue entry on hold. When that happens, the **Status of Job Queue** field will show **On Hold Due to Inactivity**, and [!INCLUDE[prod_short](includes/prod_short.md)] will wait for the period of time specified in **Inactivity Timeout** field before it runs the job queue entry again.  
 
-For example, by default, the CURRENCY job queue entry, which synchronises currencies in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] with exchange rates in [!INCLUDE[prod_short](includes/prod_short.md)], will look for changes to exchange rates every 30 minutes. If no changes are found, [!INCLUDE[prod_short](includes/prod_short.md)] puts the CURRENCY job queue entry on hold for 720 minutes (six hours). If an exchange rate is changed in [!INCLUDE[prod_short](includes/prod_short.md)] while the job queue entry is on hold, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically reactivate the job queue entry and restart the job queue. 
+For example, by default, the CURRENCY job queue entry, which synchronises currencies in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] with exchange rates in [!INCLUDE[prod_short](includes/prod_short.md)], will look for changes to exchange rates every 30 minutes. If no changes are found, [!INCLUDE[prod_short](includes/prod_short.md)] puts the CURRENCY job queue entry on hold for 720 minutes (twelve hours). If an exchange rate is changed in [!INCLUDE[prod_short](includes/prod_short.md)] while the job queue entry is on hold, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically reactivate the job queue entry and restart the job queue. 
 
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] will automatically activate job queue entries that are on hold only when changes happen in [!INCLUDE[prod_short](includes/prod_short.md)]. Changes in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] will not activate job queue entries.
@@ -100,3 +99,6 @@ For example, by default, the CURRENCY job queue entry, which synchronises curren
 [Manually Synchronise Table Mappings](admin-manual-synchronization-of-table-mappings.md)  
 [Scheduling a Synchronisation between Business Central and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [About Integrating Dynamics 365 Business Central with [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

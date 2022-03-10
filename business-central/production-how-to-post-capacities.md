@@ -1,27 +1,26 @@
 ---
-title: How to Post Capacities | Microsoft Docs
-description: In the capacity journal, you post consumed capacities that are not assigned to the production order. For example, maintenance work must be assigned to capacity, but not to a production order.
+title: Post Capacities
+description: Post consumed capacities that are not assigned to the works order in the capacity journal and view posted capacities on the capacity ledger entries page.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 5832, 99000802, 99000820
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 96ed7af85889c20f9792ce904d1ba30660bf1b76
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5a5b44609551b7ead773e82b996e1e610f0fe65d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919145"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137556"
 ---
 # <a name="post-capacities"></a>Post Capacities
-In the capacity journal, you post consumed capacities that are not assigned to the production order. For example, maintenance work must be assigned to capacity, but not to a production order.  
+In the capacity journal, you post consumed capacities that are not assigned to the works order. For example, maintenance work must be assigned to capacity, but not to a works order.  
 
 ## <a name="to-post-capacities"></a>To post capacities  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Capacity Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Capacity Journals**, and then choose the related link.  
 2.  Fill in the **Posting Date** and **Document No.** fields.  
 3.  In the **Type** field, enter the type of the capacity, either **Machine Centre** or **Work Centre**, that you are posting.  
 4.  In the **No.** field, enter the number of the machine centre or work centre.  
@@ -29,8 +28,8 @@ In the capacity journal, you post consumed capacities that are not assigned to t
 6.  Choose the **Post** action to post the capacities.  
 
 ## <a name="to-view-work-center-ledger-entries"></a>To view work centre ledger entries  
-In the **Work Centre Card** and **Machine Centre Card** pages, you can view the posted capacities as a result of finished production orders.    
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.  
+In the **Work Centre Card** and **Machine Centre Card** pages, you can view the posted capacities as a result of finished works orders.    
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.  
 2.  Open the relevant **Work Centre** card from the list, and then choose the **Capacity Ledger Entries** action.  
 
 The **Capacity Ledger Entries** page displays the posted entries from the work centre in the order they were posted.   
@@ -41,4 +40,7 @@ The **Capacity Ledger Entries** page displays the posted entries from the work c
 [Planning](production-planning.md)      
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

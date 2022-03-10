@@ -1,30 +1,32 @@
 ---
-title: Using the AMC Banking 365 Fundamentals Extension | Microsoft Docs
-description: Easily exchange data with your banks by transforming data into the format that they require.
+title: Using the AMC Banking 365 Fundamentals Extension
+description: Learn how to easily exchange data with your banks by transforming data into the format that they require.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 04/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 493abf6f7309d6eb0274f4f416e6e5aea782b031
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 87a31fafadb63d8dad9f6432a6f64343e22d15b8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194362"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140456"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>Using the AMC Banking 365 Fundamentals Extension
-The AMC Banking 365 Fundamentals extension makes it easier, and more accurate, to send data to your banks. The extension connects [!INCLUDE[d365fin](includes/d365fin_md.md)] with the AMC Banking 365 Fundamentals for Microsoft Dynamics 365 Business Central service, which can convert bank data from [!INCLUDE[d365fin](includes/d365fin_md.md)] into formats that are required by over 600 banks around the world. For example, this makes it easier to transfer payments and credits to vendors by entering the payments in [!INCLUDE[d365fin](includes/d365fin_md.md)], and then uploading them to your bank. The formats can also smooth out bank reconciliation processes. For more information, see [AMC Banking for Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
+The AMC Banking 365 Fundamentals extension makes it easier, and more accurate, to send data to your banks. The extension connects [!INCLUDE[prod_short](includes/prod_short.md)] with the AMC Banking 365 Fundamentals for Microsoft Dynamics 365 Business Central service, which can convert bank data from [!INCLUDE[prod_short](includes/prod_short.md)] into formats that are required by over 600 banks around the world. For example, this makes it easier to transfer payments and credits to suppliers by entering the payments in [!INCLUDE[prod_short](includes/prod_short.md)], and then uploading them to your bank. The formats can also smooth out bank reconciliation processes. For more information, see [AMC Banking for Microsoft Dynamics 365 Business Central](https://www.amcbanking.com/bc-fundamentals/).
 
 > [!Note]
-> AMC Banking has built additional extensions that work with [!INCLUDE[d365fin](includes/d365fin_md.md)]. This topic describes only the Fundamental extension.
+> AMC Banking has built additional extensions that work with [!INCLUDE[prod_short](includes/prod_short.md)]. This topic describes only the Fundamental extension.
+
+> [!NOTE]
+> In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), for example the commonly used Automated Clearing House (ACH) network, however with a slightly different process.
 
 ## <a name="using-our-demonstration-account"></a>Using Our Demonstration Account
-[!INCLUDE[d365fin](includes/d365fin_md.md)] comes with a demonstration account that lets you try out the AMC Banking 365 Fundamentals extension. We provide default settings for connecting to AMC Banking, specifying the bank accounts to get data from in [!INCLUDE[d365fin](includes/d365fin_md.md)], plus a few data exchange definitions. You can view the connection settings on the **AMC Banking Setup** page. For bank accounts, the extension applies values in the **Bank Name**, **Credit Transfer Msg. Nos.**, **Bank Statement Import Format**, and **Payment Export Format** fields on bank account cards.
+[!INCLUDE[prod_short](includes/prod_short.md)] comes with a demonstration account that lets you try out the AMC Banking 365 Fundamentals extension. We provide default settings for connecting to AMC Banking, specifying the bank accounts to get data from in [!INCLUDE[prod_short](includes/prod_short.md)], plus a few data exchange definitions. You can view the connection settings on the **AMC Banking Setup** page. For bank accounts, the extension applies values in the **Bank Name**, **Credit Transfer Msg. Nos.**, **Bank Statement Import Format**, and **Payment Export Format** fields on bank account cards.
 
 We provide the settings, but to try out the extension you must run the assisted setup guide to apply them. To run the guide, on the **AMC Banking Setup** page, choose the **Assisted Setup** action.
 
@@ -48,12 +50,12 @@ For each new permission set, grant only the **Read** permission for the **AMC Ba
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>To connect the extension to AMC Banking
 1. Get a module and a service plan for AMC Banking. To do that, visit the [AMC Licence](https://license.amcbanking.com/register) page.
-2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **AMC Banking Setup**, and then choose the related link.  
+2. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **AMC Banking Setup**, and then choose the related link.  
 3. On the **AMC Banking Setup** page, choose the **Assisted Setup** action.
 4. Complete the steps in the assisted setup guide.
 
 ### <a name="to-connect-bank-accounts-to-the-extension"></a>To connect bank accounts to the extension
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Open the card for the bank account that you want to connect to the service.
 3. In the **Bank Name** field, choose the format that your bank requires.  
 
@@ -71,7 +73,7 @@ Using this extension is just a matter of exporting data on the **Payment Journal
 > [!CAUTION]  
 >  When you export data by using the AMC Banking 365 Fundamentals extension, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A/S, is responsible for the privacy of this data. For more information, see [AMC Privacy Policy](https://go.microsoft.com/fwlink/?LinkId=510158).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Create the journal lines that you want to export.  
 
    > [!Note]
@@ -79,11 +81,14 @@ Using this extension is just a matter of exporting data on the **Payment Journal
 3. Choose the **Export** action.
 
 ### <a name="to-import-and-apply-the-converted-file"></a>To import and apply the converted file
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journal**, and then choose the related link.
 2. Choose the **Import Bank Transaction** action, and then choose the converted file.  
 
-   [!INCLUDE[d365fin](includes/d365fin_md.md)] will create a new payment reconciliation journal that contains the data in the file. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+   [!INCLUDE[prod_short](includes/prod_short.md)] will create a new payment reconciliation journal that contains the data in the file. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 ## <a name="see-also"></a>See Also
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Getting Started](product-get-started.md)
+[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

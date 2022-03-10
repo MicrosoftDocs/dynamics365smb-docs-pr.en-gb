@@ -1,22 +1,20 @@
 ---
-title: Manage Employee Absence| Microsoft Docs
-description: Describes how to record employees' absence and analyse absence statistics.
-services: project-madeira
-documentationcenter: ''
+title: Manage Employee Absence
+description: Describes how to record employees' absence and analyse absence statistics using the Absence Registration and Employee Absences pages.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.search.form: 5212, 5211, 5200
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1385545ffa32bbf321c90acf1f27b948a41c4644
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 77ae09aebd78c870cc92d01700fc9a9188f340ee
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777673"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146443"
 ---
 # <a name="manage-employee-absence"></a>Manage Employee Absence
 To manage an employee's absence, you must record the absence on the **Absence Registration** page. It can then be viewed in different ways for analysis and reporting needs.
@@ -26,7 +24,7 @@ You can view employee absence in two different pages:
 * The **Absence Registration** page, where you register all employee absences with a line for each absence.
 * The **Employee Absences** page, where the absences for one employee only is shown. This is the information that you entered on the **Absence Registration** page, filtered by the particular employee.
 
-To obtain meaningful statistics, you should always use the same unit of measure (hour or day) when registering employee absences.
+To obtain meaningful statistics, you should always use the same unit of measurement (hour or day) when registering employee absences.
 
 ## <a name="to-register-employee-absence"></a>To register employee absence
 You can register employee absences on a daily basis or at some other interval that meets your organisational needs.
@@ -37,7 +35,7 @@ You can register employee absences on a daily basis or at some other interval th
 4. Close the page.
 
     > [!Tip]
-    > To obtain meaningful statistics, always use the same unit of measure, hour or day, when registering employee absences.
+    > To obtain meaningful statistics, always use the same unit of measurement, hour or day, when registering employee absences.
 
 ## <a name="to-view-an-individual-employees-absence"></a>To view an individual employee's absence
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Employees**, and then choose the related link.
@@ -71,5 +69,8 @@ You can register employee absences on a daily basis or at some other interval th
 ## <a name="see-also"></a>See Also
 [Manage Human Resources](hr-manage-human-resources.md)  
 [Finance](finance.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working With [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

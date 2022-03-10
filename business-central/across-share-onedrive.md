@@ -1,19 +1,18 @@
 ---
-title: Using OneDrive for Business with Business Central
-description: You can use OneDrive for Business to store, manage, and share files, such as reports or file attachments.
+title: Opening Business Central Files in OneDrive
+description: Learn how you can share Business Central data through OneDrive for Business.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 92896af6888ef5c39288d511e61d343d3e384a83
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 449fac4cf8d8a19caed8093019e9a804a08d1aaf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589546"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147197"
 ---
 # <a name="opening-business-central-files-in-onedrive"></a>Opening Business Central Files in OneDrive
 [!INCLUDE[prod_short](includes/prod_short.md)] makes it easy to store, manage, and share files with other people through OneDrive for Business. On most pages where files are available, such as the Report Inbox or files that are attached to records, you'll find an **Open in OneDrive** action.

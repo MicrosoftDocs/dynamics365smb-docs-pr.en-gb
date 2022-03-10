@@ -1,21 +1,20 @@
 ---
-title: Design Details - Rounding | Microsoft Docs
-description: Rounding residuals can occur when you value the cost of an inventory decrease that is measured in a different quantity than the corresponding inventory increase. Rounding residuals are calculated for all costing methods when you run the **Adjust Cost - Item Entries** batch job.
+title: Design Details - Rounding
+description: Rounding residuals can occur when you value the cost of a inventory decrease measured in a different quantity than the corresponding inventory increase.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 78da80b026c29040766cc67d1cd6ad32f74f4bcc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e3d8620c3691ec6fbf6929862a63f79eb46b5477
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777755"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139684"
 ---
 # <a name="design-details-rounding"></a>Design Details: Rounding
 Rounding residuals can occur when you value the cost of an inventory decrease that is measured in a different quantity than the corresponding inventory increase. Rounding residuals are calculated for all costing methods when you run the **Adjust Cost - Item Entries** batch job.  

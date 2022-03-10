@@ -1,21 +1,21 @@
 ---
-title: Consolidate Data from Multiple Companies | Microsoft Docs
-description: Get an summary view of the financial health across your business units.
+title: Consolidate Data from Multiple Companies
+description: This topic explains how you can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 04/01/2021
+ms.search.form: 1826, 1827
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2be133009314b714d7b86e6257f642f13720b5e8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c1873d8b5b4da7958fdab052bc587d004b06c7c6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774336"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136121"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidating Financial Data from Multiple Companies
 
@@ -30,7 +30,7 @@ If the financial statements of a business unit are in a different currency than 
 You can consolidate:  
 
 * Across companies that have different charts of accounts.  
-* Companies that use different fiscal years and different currencies.  
+* Companies that use different financial years and different currencies.  
 * Either the full amount or a percentage of a company's financial information
 * Using different currency exchange rates in individual G/L accounts
 * Companies in other accounting and business management programmes
@@ -55,7 +55,7 @@ The process of transferring the figures from the business units to the consolida
 You can test your data before you transfer it to the consolidated company. [!INCLUDE[prod_short](includes/prod_short.md)] looks for differences in the information in the business units and the consolidated company. For example, whether account numbers or dimension codes are different. You must correct errors before you can run the report. You can test the database or, if you are importing data from an XML file, you can test the file.  
 
 1. Open the consolidated company.  
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
 3. Do one of the following:  
 
     * To test a file, choose the **Test File** action, enter the name of the file to test, and then choose **Print**.  

@@ -1,21 +1,20 @@
 ---
-title: How to Set Up Put-away Templates | Microsoft Docs
-description: With directed put-away and pick functionality, the most appropriate bin for your items at any given time is suggested, according to the put-away template that you have set up for the warehouse, the bin rankings you have given to the bins, and the minimum and maximum quantities that you have set up for fixed bins.
+title: Set Up Put-away Templates
+description: Use Put-away templates to have the most appropriate bins for your items suggested to you at any given time.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 336a9aa748d997d2cf4c5ae9a93cab6f96495fd6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0498ac73900c151bab10ad10ac7bbf85ebdd8526
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784199"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129481"
 ---
 # <a name="set-up-put-away-templates"></a>Set Up Put-away Templates
 
@@ -25,7 +24,7 @@ You can set up a number of put-away templates and select one of them to govern p
 
 ## <a name="to-set-up-put-away-templates"></a>To set up put-away templates
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Templates**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Enter a code that is the unique identifier of the template you are about to create.  
 4. Enter a short description, if you wish.  

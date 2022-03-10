@@ -2,7 +2,6 @@
 title: Business Central for Multi-Site and International Organisations | Microsoft Docs
 description: Business Central provides capabilities that support a hub-and-spoke business model.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfdcdd68baa8fdd73ebc75d46650eeee65a28802
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: a135499b12ed04ecf179f1cb5691c97ecc0f1aaf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935431"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141106"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central for Multi-Site and International Organisations
 Organisations that have multiple sites often use a hub-and-spoke business model where a parent company, or headquarters, manages the overall operations of the business while each site functions as a single, standalone entity. Sites are often geographically distributed and have different needs for sharing information with the headquarter company. Additionally, sites typically don't need the same level of complexity, and often lack the resources to maintain a large system.
@@ -30,7 +29,7 @@ This article introduces some of the ways in which [!INCLUDE[prod_short](includes
 
 The following diagram is an example of different sites integrated with a headquarter company.
 
-![Diagram Description automatically generated](media/multisite-headquarter-sites.png)
+![Diagram Description automatically generated.](media/multisite-headquarter-sites.png)
 
 ## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Meet the Needs of Domestic and International Sites
 
@@ -38,8 +37,8 @@ Business needs at sites often differ based on industry, business methods, or the
 
 For multi-national organisations, [!INCLUDE[prod_short](includes/prod_short.md)] supports local legal requirements and business practices.
 
-* For online versions, there are more than [40 localised country versions](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) that you can install as extensions from Microsoft AppSource.  
-* For on-premises versions, [country versions](https://docs.microsoft.com/azure/architecture/solution-ideas/articles/business-central) are available either as Microsoft-localised versions or partner-led add-on localisations.
+* For online versions, there are more than [40 localised country versions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) that you can install as extensions from Microsoft AppSource.  
+* For on-premises versions, [country versions](/azure/architecture/solution-ideas/articles/business-central) are available either as Microsoft-localised versions or partner-led add-on localisations.
 
 A network of more than 4,000 Microsoft partners world-wide provides local expertise.
 
@@ -80,12 +79,12 @@ APIs and XMLports simplify the process of connecting instances of [!INCLUDE[prod
 | **Business requirement** | **How Business Central supports it** | **Learn more** |
 |-------------------------|-------------------------|-------------------------|
 | Connect customised versions among sites and the headquarter company. | API Pages can expose any representation of an entity, including its customisations. | [Enabling APIs for Business Central](/dynamics-nav/enabling-apis-for-dynamics-nav) |
-| Versioning and security. | APIs use ODataV4, which provides versioning, and webhooks and change tracking. | [Security and protection](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/security/security-and-protection) |
-| Post and import XML documents. | Codeunits can be exposed as unbound actions to support posting and ingestion of XML documents. For processing XML documents, XMLports can be applied. Unbound actions are also capable of generating an XML or JSON document. | [XMLport Objects](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
+| Versioning and security. | APIs use ODataV4, which provides versioning, and webhooks and change tracking. | [Security and protection](/dynamics365/business-central/dev-itpro/security/security-and-protection) |
+| Post and import XML documents. | Codeunits can be exposed as unbound actions to support posting and ingestion of XML documents. For processing XML documents, XMLports can be applied. Unbound actions are also capable of generating an XML or JSON document. | [XMLport Objects](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Make maintenance easier through electronic data exchange. | An electronic data exchange solution can be added to serve as an integration layer between the headquarter company and sites. | [Data Exchange Framework](across-about-the-data-exchange-framework.md) |
-| Exchange data between different systems. | Use XMLports to create XML documents, which can then be exchanged between a headquarter company that uses one system and sites that use Business Central. | [XMLport Overview](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
+| Exchange data between different systems. | Use XMLports to create XML documents, which can then be exchanged between a headquarter company that uses one system and sites that use Business Central. | [XMLport Overview](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
 | Orchestrate complex data exchanges. | Use a combination of XMLports with Business Central and Microsoft BizTalk Server to meet unique needs at your sites.</br>For complex needs, use an electronic data exchange solution based on BizTalk Server and Commerce Gateway in Business Central in combination with the XMLports. | [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md) |
-| Connect to 3<sup>rd</sup> party solutions and services. | APIs establish a point-to-point connection between Business Central and 3<sup>rd</sup> party solutions and services. | [API v2.0](https://docs.microsoft.com/dynamics-nav/api-reference/v2.0/) |
+| Connect to 3<sup>rd</sup> party solutions and services. | APIs establish a point-to-point connection between Business Central and 3<sup>rd</sup> party solutions and services. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
 ## <a name="promote-an-efficient-intercompany-supply-chain"></a>Promote an Efficient Intercompany Supply Chain
@@ -101,7 +100,7 @@ Sites often need access to the supply chain, and the ability to manage certain a
 
 The headquarter company must be able to react quickly to business changes at each site. Combined with Power Automate, [!INCLUDE[prod_short](includes/prod_short.md)] can serve as an early warning mechanism.
 
-![A screenshot of a social media post Description automatically generated](media/multisite-apps.png)
+![A screenshot of a social media post Description automatically generated.](media/multisite-apps.png)
 
 | **Business requirement** | **How Business Central supports it** | **Learn more** |
 |-------------------------|-------------------------|-------------------------|

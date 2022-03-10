@@ -1,21 +1,21 @@
 ---
-title: Finding entries | Microsoft Docs
+title: Finding entries
 description: This article describes how to documents and entries that are related
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2020
+ms.search.form: 344, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 870cd32dc2408236ed8997e1f939c00d1bf519e4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b77a8508d921f885276d3e0b7956d7785b7f29cb
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927748"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322988"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Finding Related Entries for Posted Documents 
 
@@ -41,7 +41,7 @@ The **Find Entries** page  includes all related documents and entries based on t
 <!--
  There are two ways to open this page:
 
-- Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
+- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
 
     With this way, the **Find Entries** page might be empty, and you'll have to start searching for entries from scratch.
     
@@ -61,13 +61,13 @@ You can search for entries based on information about either the document, busin
 |Action|Description|
 |------|-----------|
 |Find by Document|View entries based on a specific document number or posting date.|
-|Business Contact |View entries based on a specific contact type, contact number, anr/or external document number. You can enter document information that was assigned by a vendor or a customer. Use the available fields to search for vendor documents by using the numbers that the vendor has assigned the documents.|
-|Item reference|View entires based on a serial number or lot number. You can enter the lot number or serial number, or filter on the lot number or serial number that you want to search for. This action is useful to see where a specific item tracking number was used, what vendor it came from, or what customer it was sold to.|
+|Business Contact |View entries based on a specific contact type, contact number, anr/or external document number. You can enter document information that was assigned by a supplier or a customer. Use the available fields to search for supplier documents by using the numbers that the supplier has assigned the documents.|
+|Item reference|View entires based on a serial number or lot number. You can enter the lot number or serial number, or filter on the lot number or serial number that you want to search for. This action is useful to see where a specific item tracking number was used, what supplier it came from, or what customer it was sold to.|
 
 After you make a selection, enter the relevant search information in the fields at the top. Use the tooltips on the fields to help. When you're finished, choose **Find** to start the search. If you change any of the filters, you have to choose **Find** again.
 
 > [!TIP]
-> For a couple examples about using **Find Entries**, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).
+> For a couple examples about using **Find Entries**, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
@@ -76,3 +76,6 @@ After you make a selection, enter the relevant search information in the fields 
 [Working with Business Central](ui-work-product.md)  
 [Add a Page Action to Your Role Centre](ui-bookmarks.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

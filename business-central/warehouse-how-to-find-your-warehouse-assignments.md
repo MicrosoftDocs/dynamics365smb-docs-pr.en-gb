@@ -1,29 +1,26 @@
 ---
-title: How to Find Your Warehouse Assignments | Microsoft Docs
-description: To find your warehouse assignments, open the card page for a selected item. If warehouse instructions have been created, Take and Place lines are visible, and you can begin working on an assignment. In some warehouses, the manager may have assigned specific instructions to each employee.
-services: project-madeira
-documentationcenter: ''
+title: How to Find Your Warehouse Assignments
+description: This topic explains how to find the warehouse assignments assigned to you on the Item Card page when instructions have been created for you.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: f0ad51c742e67ba9be77117ea7538d8f56bb6f4e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 5fe603b5cb2499c4b74e29725ee1747219d37e27
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248647"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141984"
 ---
 # <a name="find-your-warehouse-assignments"></a>Find Your Warehouse Assignments
 To find your warehouse assignments, open the card page for a selected item. If warehouse instructions have been created, Take and Place lines are visible, and you can begin working on an assignment. In some warehouses, the manager may have assigned specific instructions to each employee. For more information, see [Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>To find an instruction assigned to you  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Put-aways**, **Warehouse Picks**, or **Warehouse Movement**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Put-aways**, **Warehouse Picks**, or **Warehouse Movement**, and then choose the related link.
 
     All three pages show assignments for all warehouse locations.  
 
@@ -38,4 +35,7 @@ You can use the **Assigned User ID** field on the header to claim work assignmen
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md) 
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

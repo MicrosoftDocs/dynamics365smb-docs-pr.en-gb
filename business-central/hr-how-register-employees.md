@@ -4,20 +4,20 @@ description: Describes how to use the Human Resources functionality to register 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
+ms.search.form: 5200, 5201
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9f25ea61c41bfeb08b9283153a96b8a78ce7c9b7
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 99add650ec16fcb62d9cdc27962bd83c9c71b794
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589289"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137946"
 ---
 # <a name="register-employees"></a>Register Employees
 To use the Human Resources functionality, you must first add each employee by filling out the fields on the **Employee Card** page.

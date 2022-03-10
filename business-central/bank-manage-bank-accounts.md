@@ -1,23 +1,23 @@
 ---
-title: Manage Bank Accounts| Microsoft Docs
+title: Manage Bank Accounts
 description: You must regularly reconcile bank ledger entries with the related bank transactions in your bank accounts.
-author: SorenGP
-ms.service: dynamics365-business-central
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 10/01/2020
+ms.search.form: 377, 378, 165, 1284
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c36e906c87cb17acb85d8cde32fdc51ee501469d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a533a49e3a34d33242d556758ebe5cb68165c0bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381738"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139970"
 ---
-# <a name="reconciling-bank-accounts"></a>Reconciling Bank Accounts
+# <a name="manage-and-reconcile-your-bank-accounts"></a>Manage and Reconcile Your Bank Accounts
 
 A bank reconciliation should be completed at regular intervals for all your bank accounts to ensure that the company's cash records are correct. You do this by comparing and matching entries in your internal bank accounts with bank transactions at your bank, and then posting the balances to your internal bank accounts to make totals available to finance managers. Bank reconciliation is also a practical way to discover and resolve missing payments and bookkeeping errors.
 

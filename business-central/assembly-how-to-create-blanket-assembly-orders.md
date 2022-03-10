@@ -2,20 +2,19 @@
 title: How to Create Blanket Assembly Orders | Microsoft Docs
 description: Create blanket sales orders for customised assembly items before periodically making the actual sales orders according to the blanket order agreement.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9a0f3c81aad31eb51d282479e56acbfc935bf1dd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e565a07bf148043de47eab5cba4df5c76beceb5a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786078"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146937"
 ---
 # <a name="create-blanket-assembly-orders"></a>Create Blanket Assembly Orders
 You can use assembly management to customise an assembly item to a customer’s request during the sales process. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +25,7 @@ You can use assembly management to customise an assembly item to a customer’s 
 >  Like all blanket orders, quantities on assembly blanket orders are only forecasts and are not operational until they are converted to actual assembly orders. Therefore, order functionality, such as availability calculation, reservation, and item tracking, is not active on blanket assembly orders.  
 
 ## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>To create a blanket assembly order for an assemble\-to\-order item  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
 2. Create a new blanket sales order with one line for an assembly item. For more information, see [Create Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md).  
 3. In the **Qty. to Assemble to Order** field on the blanket assembly order line, enter the full quantity.
 
@@ -46,4 +45,7 @@ The linked blanket assembly order and any customizations are linked to that new 
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

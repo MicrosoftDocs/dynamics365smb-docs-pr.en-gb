@@ -1,21 +1,21 @@
 ---
-title: How to Enter Data in Business Central
+title: Enter Data in Business Central
 description: There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features are described here.
-author: SorenGP
-ms.service: dynamics365-business-central
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: decimal separator, data entry, focus
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 9fb5df3e4b73b23b469185c46235170d6cebdde2
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443675"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323039"
 ---
 # <a name="entering-data"></a>Entering Data
 
@@ -35,7 +35,6 @@ Some editable fields provide a picker to help you specify a value.
 |Dropdown          |Dropdowns provide a choice of fixed values or reference records from another table|
 |Switch or Checkbox|Some fields provide a simple choice of *Yes* or *No* values. The switch is used to specify this value, and is always displayed as a checkbox in lists|
 |Assist edit       |Some fields provide custom pickers that are suited to looking up and choosing the best value for that field, such as popup window|
-
 
 ### <a name="modifying-a-field-value"></a>Modifying a field value
 
@@ -58,7 +57,6 @@ When the cursor is shown at the end of the field value:
 
 > [!NOTE]
 > After you specify a value, Business Central will only check that it's valid after you click outside the field or set focus to another element, such as the next field.  
-
 
 ## <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
 
@@ -267,9 +265,16 @@ Here are some examples.
 
  The number 5 is converted to 5 hrs, if the unit of measurement is hours.  
 
-## <a name="see-also"></a>See Also  
- [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Setting the decimal separator used by numeric keyboards
+
+When using the decimal separator key of numeric keyboard to enter data, the actual decimal separator that's entered in the field is determined by the region setting of your Business Central. You set the region in Business Central on the **My Settings** page.
+
+For example, suppose you're using a numeric keyboard that uses a point (.) as the decimal separator key. But, you're entering data for a regional language that uses a comma (**,**) for the decimal separator, like Danish (Denmark) or French (France). So, you want decimals like "1.23" to be entered as "1,23". In this case, you can go to the **My Settings** page and set the **Region** to the target regional language, like **Danish (Denmark)** or **French (France)**. For more information, see [Change Basic Settings](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>See Also
+
+[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

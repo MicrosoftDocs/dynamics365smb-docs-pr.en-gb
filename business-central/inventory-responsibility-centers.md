@@ -2,20 +2,20 @@
 title: How to Work with Responsibility Centres
 description: Responsibility centre as administrative centres help companies set up user-specific views of sales and purchase documents related exclusively to each centre.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 5714, 5715
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 62cfc68f8c5cfca3a152aa1de7054f872c47f911
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7ff1a7e75131a5a444acff796da339ec526c48c9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439392"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142036"
 ---
 # <a name="work-with-responsibility-centers"></a>Work with Responsibility Centres
 

@@ -1,21 +1,20 @@
 ---
-title: Design Details - Handling Reordering Policies | Microsoft Docs
-description: Overview of tasks for defining a reorder policy in supply planning.
+title: Design Details - Handling Reordering Policies
+description: This article gives an overview of tasks involved in handling reordering policies and defining the reorder policy in supply planning.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: fa9563c503fac844abb67d02934e0a0a666deeab
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 705948d59e5ecf724f0dcaa1546485914c16fe23
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390056"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142452"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Design Details: Handling Reordering Policies
 For an item to participate in supply planning, a reorder policy must be defined. The following four reordering policies exist:  
@@ -48,7 +47,7 @@ Initially, projected inventory is the quantity of gross inventory, including sup
 The projected inventory is used by the planning system to monitor the reorder point and to determine the reorder quantity when using the Maximum Qty. reordering policy.  
 
 ### <a name="projected-available-inventory"></a>Projected Available Inventory  
-The projected available inventory is the part of the projected inventory that at a given point in time is available to fulfill demand. The projected available inventory is used by the planning engine when monitoring the safety stock level.  
+The projected available inventory is the part of the projected inventory that at a given point in time is available to fulfil demand. The projected available inventory is used by the planning engine when monitoring the safety stock level.  
 
 The projected available inventory is used by the planning system to monitor the safety stock level, since the safety stock must always be available to serve unexpected demand.  
 
@@ -67,7 +66,7 @@ The following sequence describes how the projected inventory level is determined
 
 The following shows a graphical illustration of this principle:  
 
-![Determining the Projected Inventory Level](media/nav_app_supply_planning_2_projected_inventory.png "Determining the Projected Inventory Level")  
+![Determining the Projected Inventory Level.](media/nav_app_supply_planning_2_projected_inventory.png "Determining the Projected Inventory Level")  
 
 1. Supply **Sa** of 4 (fixed) closes Demand **Da** of -3.  
 2. CloseDemand: Create a decrease reminder of -3 (not shown).  
@@ -92,9 +91,9 @@ The purpose of the time bucket is to collect demand events within the time page 
 
 For reordering policies that use a reorder point, you can define a time bucket. This ensures that demand within the same time period is accumulated before checking the impact on the projected inventory and whether the reorder point has been passed. If the reorder point is passed, a new supply order is scheduled forward from the end of the period defined by the time bucket. The time buckets begin on the planning starting date.  
 
-The time-bucketed concept reflects the manual process of checking the inventory level on a frequent basis rather than for each transaction. The user needs to define the frequency (the time bucket). For example, the user gathers all item needs from one vendor to place a weekly order.  
+The time-bucketed concept reflects the manual process of checking the inventory level on a frequent basis rather than for each transaction. The user needs to define the frequency (the time bucket). For example, the user gathers all item needs from one supplier to place a weekly order.  
 
-![Example of time bucket in planning](media/nav_app_supply_planning_2_reorder_cycle.png "Example of time bucket in planning")  
+![Example of time bucket in planning.](media/nav_app_supply_planning_2_reorder_cycle.png "Example of time bucket in planning")  
 
 The time bucket is generally used to avoid a cascade effect. For example, a balanced row of demand and supply where an early demand is cancelled, or a new one is created. The result would be that every supply order (except the last one) is rescheduled.
 
@@ -103,7 +102,7 @@ When using the Maximum Qty. and Fixed Reorder Qty. policies, the planning system
 
 *Attention: The projected inventory [xx] is higher than the overflow level [xx] on the Due Date [xx].*  
 
-![Inventory overflow level](media/supplyplanning_2_overflow1_new.png "Inventory overflow level")  
+![Inventory overflow level.](media/supplyplanning_2_overflow1_new.png "Inventory overflow level")  
 
 ###  <a name="calculating-the-overflow-level"></a>Calculating the Overflow Level  
 The overflow level is calculated in different ways depending on planning setup.  
@@ -179,7 +178,7 @@ In this scenario, a customer changes a sales order from 70 to 40 pieces between 
 #### <a name="resulting-planning-lines"></a>Resulting Planning Lines  
  One planning line (warning) is created to reduce the purchase with 30 from 90 to 60 to keep the projected inventory on 100 according to the overflow level.  
 
-![Plan according to overflow level](media/nav_app_supply_planning_2_overflow2.png "Plan according to overflow level")  
+![Plan according to overflow level.](media/nav_app_supply_planning_2_overflow2.png "Plan according to overflow level")  
 
 > [!NOTE]  
 >  Without the Overflow feature, no warning is created if the projected inventory level is above maximum inventory. This could cause a superfluous supply of 30.
@@ -193,7 +192,7 @@ The reorder point expresses the anticipated demand during the lead time of the i
 
  In the following illustration, supply D represents an emergency order to adjust for negative inventory.  
 
- ![Emergency planning suggestion to avoid negative inventory](media/nav_app_supply_planning_2_negative_inventory.png "Emergency planning suggestion to avoid negative inventory")  
+ ![Emergency planning suggestion to avoid negative inventory.](media/nav_app_supply_planning_2_negative_inventory.png "Emergency planning suggestion to avoid negative inventory")  
 
 1.  Supply **A**, initial projected inventory, is below reorder point.  
 2.  A new forward-scheduled supply is created (**C**).  
@@ -255,7 +254,7 @@ The reorder quantity is determined at the point of time (the end of a time bucke
 The system will ensure that the projected inventory at least reaches the reorder point level – in case the user has forgotten to specify a maximum inventory quantity.  
 
 #### <a name="combines-with-order-modifiers"></a>Combines with Order Modifiers  
-Depending on the setup, it may be best to combine the Maximum Quantity policy with order modifiers to ensure a minimum order quantity or round it to an integer number of purchase units of measure, or split it into more lots as defined by the maximum order quantity.  
+Depending on the setup, it may be best to combine the Maximum Quantity policy with order modifiers to ensure a minimum order quantity or round it to an integer number of purchase units of measurement, or split it into more lots as defined by the maximum order quantity.  
 
 ### <a name="combines-with-calendars"></a>Combines with Calendars  
 Before suggesting a new supply order to meet a reorder point, the planning system checks if the order is scheduled for a non-working day, according to any calendars that are defined in the **Base Calendar Code** field in the **Company Information** and **Location Card** pages.  
@@ -269,8 +268,8 @@ The application creates an order-to-order link, which acts as a preliminary conn
 
 Apart from using the Order policy, the order-to-order link can be applied during planning in the following ways:  
 
-* When using the Make-to-Order manufacturing policy to create multi-level or project type production orders (producing needed components on the same production order).  
-* When using the Sales Order Planning feature to create a production order from a sales order.  
+* When using the Make-to-Order manufacturing policy to create multi-level or project type works orders (producing needed components on the same works order).  
+* When using the Sales Order Planning feature to create a works order from a sales order.  
 
 Even if a manufacturing company considers itself as a make-to-order environment, it might be best to use a Lot-for-Lot reordering policy if the items are pure standard without variation in attributes. As a result, the system will use unplanned inventory and only accumulates sales orders with the same shipment date or within a defined time bucket.  
 
@@ -282,13 +281,13 @@ The lot-for-lot policy is the most flexible because the system only reacts on ac
 
 In some ways, the lot-for-lot policy looks like the Order policy, but it has a generic approach to items; it can accept quantities in inventory, and it bundles demand and corresponding supply in time buckets defined by the user.  
 
-The time bucket is defined in the **Time Bucket** field. The system works with a minimum time bucket of one day, since this is the smallest time unit of measure on demand and supply events in the system (although, in practice, the time unit of measure on production orders and component needs can be seconds).  
+The time bucket is defined in the **Time Bucket** field. The system works with a minimum time bucket of one day, since this is the smallest time unit of measurement on demand and supply events in the system (although, in practice, the time unit of measurement on works orders and component needs can be seconds).  
 
 The time bucket also sets limits on when an existing supply order should be rescheduled to meet a given demand. If the supply lies within the time bucket, it will be rescheduled in or out to meet the demand. Otherwise, if it lies earlier, it will cause unnecessary build-up of inventory and should be cancelled. If it lies later, a new supply order will be created instead.  
 
 With this policy, it is also possible to define a safety stock in order to compensate for possible fluctuations in supply, or to meet sudden demand.  
 
-Because the supply order quantity is based on the actual demand it can make sense to use the order modifiers: round the order quantity up to meet a specified order multiple (or purchase unit of measure), increase the order to a specified minimum order quantity, or decrease the quantity to the specified maximum quantity (and thus create two or more supplies to reach the total needed quantity).
+Because the supply order quantity is based on the actual demand it can make sense to use the order modifiers: round the order quantity up to meet a specified order multiple (or purchase unit of measurement), increase the order to a specified minimum order quantity, or decrease the quantity to the specified maximum quantity (and thus create two or more supplies to reach the total needed quantity).
 
 ## <a name="see-also"></a>See Also  
 [Design Details: Planning Parameters](design-details-planning-parameters.md)   

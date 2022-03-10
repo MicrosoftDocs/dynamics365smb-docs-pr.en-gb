@@ -1,23 +1,22 @@
 ---
-title: Process Sales Opportunities in Sales Cycles| Microsoft Docs
-description: You can view, close, or delete sales opportunities, and you can also create quotes and sales orders for opportunities, and move an opportunity through the stages of a sales cycle.
+title: Process Sales Opportunities in Sales Cycles
+description: This topic describes the different ways you can process sales opportunities in sales cycles and move an opportunity through the stages of a sales cycle.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: f58ea5c536ce8f1da0782cbebe6d1ef028bee137
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7bd357f10509040afb8b64ec19fecda4e8769dfe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383932"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142010"
 ---
 # <a name="process-sales-opportunities"></a>Process Sales Opportunities
 After you create an opportunity, there are several features for managing the opportunity and moving it through to completion.
@@ -27,9 +26,9 @@ The existing sale opportunities are available from the **Opportunity List** page
 
 | To view opportunities for | Then |
 | --- | --- |
-| All salespeople and contacts |Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Opportunity List**, and then choose the related link. |
-| A specific sales person |Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link. Select the salesperson, choose the **Opportunities** action, and then choose the **List** action. |
-| A specific contact |Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link. Select the contact from the list, and then choose the **Opportunities** action. |
+| All salespeople and contacts |Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Opportunity List**, and then choose the related link. |
+| A specific sales person |Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link. Select the salesperson, choose the **Opportunities** action, and then choose the **List** action. |
+| A specific contact |Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link. Select the contact from the list, and then choose the **Opportunities** action. |
 
 Each of these tasks opens the **Opportunity List** page.
 
@@ -44,7 +43,8 @@ You can close opportunities when the negotiations are over. When closing an oppo
    In the **Close Opportunity Code** field, you can choose from one of the existing close opportunity codes or add a new code. To add a new code, from the drop-down list, choose **Select from full list**, and then choose **new**. On the new blank line, fill in the **Code**, **Type**, and **Description** fields, and then choose the **OK** button.
 
 ## <a name="to-create-quotes-for-opportunities"></a>To create quotes for opportunities
-You can create sales quotes for contacts that are not recorded as customers.
+> [!NOTE]
+> You can only create sales quotes from opportunities where the contact type is Company.
 
 1. On the **Opportunity List** page, select the opportunity, and then choose the **Assign Sales Quote** action. The **Sales Quote** page opens.
 2. Fill in the relevant fields.
@@ -65,7 +65,7 @@ To delete closed opportunities from the **Opportunity List** page, select the op
 
 To delete closed opportunities by using the **Delete Closed Opportunities** batch job, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Opportunities**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Opportunities**, and then choose the related link.
 2. In the **Opportunity** section, set up the filters that specify the closed opportunities to delete.
 3. Choose the **OK** button.
 

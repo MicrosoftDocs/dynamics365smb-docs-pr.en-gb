@@ -2,17 +2,17 @@
 title: Onboard Users with Checklists
 description: Learn how to set up checklists that help users get started in Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: setup, wizard, checklist
+ms.search.form: 1992, 1993, 1994, 1995, 1990, 1997, 1801
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 48a293f0cfedc257f8efcae6b4e8ea958e975ca6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 148856f5160d88d2567516acb561fecaddbeba6f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443975"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129058"
 ---
 # <a name="onboard-users-with-checklists"></a>Onboard Users with Checklists
 

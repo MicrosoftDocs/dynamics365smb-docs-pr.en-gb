@@ -1,23 +1,21 @@
 ---
-title: Manage FA Budgets| Microsoft Docs
+title: Manage FA Budgets
 description: You set up information about future investments, disposals, and depreciation of fixed assets to help prepare budgets and forecasts.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+author: edupont04
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 04/01/2020
+ms.search.form: 5610, 5611
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5baf1342dc019233529386d43a28159adfc08af6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2e902f423bd0729608fcf0369248a4815bb88a72
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780317"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133869"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Manage Budgets for Fixed Assets
 You can set up budgeted fixed assets. For example, this lets you include anticipated acquisitions and sales in reports.  
@@ -29,7 +27,7 @@ To prepare a budget, you have to set up fixed asset cards for fixed assets that 
 
 When you post the acquisition cost, you enter the number of the budgeted fixed asset in the **Budgeted FA No.** field. This will post an acquisition cost with an opposite sign for the budgeted asset. This means that the total acquisition cost on the budgeted asset is the difference between the budgeted and the actual acquisition cost.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
 2. Choose the **New** action to create a new fixed asset card for the budgeted fixed asset.
 3. Select the **Budgeted Asset** check box to prevent posting to the general ledger.
 4. Fill in the remaining fields, assign a depreciation book, and then post the first acquisition cost with the budgeted fixed asset entered in the **Budgeted FA No.** field on the journal line. For more information, see [Acquire Fixed Assets](fa-how-acquire.md).
@@ -37,21 +35,21 @@ When you post the acquisition cost, you enter the number of the budgeted fixed a
 ## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>To budget the disposal of a fixed asset
 If you plan to sell assets within the budget period, you can enter information about sales price and sales date.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
 2. Select the fixed asset to be disposed of, and then choose the **Depreciation Books** action.
 3. On the **FA Depreciation Books** page, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a>To view projected disposal values
 To see the projected disposal values and have the gain and loss calculated, you can use the **FA Projected Value** report.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Projected Value**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Projected Value**, and then choose the related link.
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.
 
 ## <a name="to-budget-depreciation"></a>To budget depreciation
 You can use the **Fixed Asset - Projected Value** report to calculate future depreciation. The report shows the book value and accumulated depreciation at the start of the selected period, changes during the period, and the book value and accumulated depreciation at the end of the selected period.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Projected Value**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Projected Value**, and then choose the related link.
 2. Fill in the fields as necessary.
 3. To see total values for all assets, clear the **Print per Fixed Asset** check box.
 4. Leave the **Fixed Asset** FastTab blank to have all assets included. In the **Budgeted Asset** field, enter **No** to exclude budgeted assets or **Yes** to see budgeted assets only.
@@ -61,5 +59,8 @@ You can use the **Fixed Asset - Projected Value** report to calculate future dep
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
-[Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

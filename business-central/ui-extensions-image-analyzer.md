@@ -1,25 +1,24 @@
 ---
-title: Using the Image Analyser Extension | Microsoft Docs
-description: This extensions lets you analyse images of contact persons and items to find attributes, so you can quickly assign them in Business Central.
-author: bholtorf
-ms.service: dynamics365-business-central
+title: The Image Analyser Extension
+description: This extension lets you analyse images of contact persons and items to find attributes, so you can quickly assign them in Business Central.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 10/01/2020
+ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: e7fb77ab485489158798cdd03660325c678390e1
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 65ec760458f1a30ef4810acdff01ebd9e0a699b2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377280"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140430"
 ---
 # <a name="the-image-analyzer-extension"></a>The Image Analyser Extension
 
-The Image Analyser extension uses powerful image analytics provided by the Computer Vision API for Microsoft Cognitive Services to detect attributes in the images that you import for items and contact persons, so you can easily review and assign them. For items, attributes could be whether the item is a table or a car, and whether it is red or blue. For contact persons, attributes can be gender or age.
+The Image Analyser extension uses powerful image analytics provided by the Computer Vision API for Azure Cognitive Services to detect attributes in the images that you import for items and contact persons, so you can easily review and assign them. For items, attributes could be whether the item is a table or a car, and whether it is red or blue. For contact persons, attributes can be gender or age.
 
 Image Analyser suggests attributes based on tags that the Computer Vision API finds, and a confidence level. By default, it suggests attributes only if it is at least 80% sure that the attribute is correct. You can set another confidence level, if needed. To learn more about how the tags and confidence level are determined, see [Computer Vision API](https://go.microsoft.com/fwlink/?linkid=851476).  
 
@@ -29,7 +28,7 @@ After you enable the extension, Image Analyser runs each time you import an imag
 
 ## <a name="privacy-notice"></a>Privacy Notice
 
-This extension uses the Computer Vision API from Microsoft Cognitive Services, which may have varying levels of compliance commitments than [!INCLUDE[prod_short](includes/prod_short.md)]. When you enable the Image Analyser extension, Customer Data such as a contact image or an item image will be sent to the Computer Vision API. By installing this extension you agree for this limited set of data to be sent to the Computer Vision API. Note that you may disable, as well as uninstall, the Image Analyser extension at any time to discontinue use of this functionality. For more information, see [Microsoft Trust Center](https://go.microsoft.com/fwlink/?linkid=851463).
+This extension uses the Computer Vision API from Azure Cognitive Services, which may have varying levels of compliance commitments than [!INCLUDE[prod_short](includes/prod_short.md)]. When you enable the Image Analyser extension, Customer Data such as a contact image or an item image will be sent to the Computer Vision API. By installing this extension, you agree for this limited set of data to be sent to the Computer Vision API. Note that you may disable, as well as uninstall, the Image Analyser extension at any time to discontinue use of this functionality. For more information, see [Microsoft Trust Center](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Requirements
 
@@ -41,15 +40,15 @@ There are a few requirements for the images:
 
 ## <a name="to-enable-image-analyzer"></a>To enable Image Analyser
 
-The Image Analyzer extension is built-in to [!INCLUDE[prod_short](includes/prod_short.md)]. You just need to turn it on.
+The Image Analyser extension is built in to [!INCLUDE[prod_short](includes/prod_short.md)]. You just need to turn it on.
 
 > [!NOTE]  
-> To enable the Image Analyser extension, you must be an administrator. Make sure that you are assigned the **SUPER** user permission set.
+> To enable the Image Analyser extension, you must be an administrator. Make sure that you are assigned the **SUPER** user permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
-1. To enable the Image Analyser extension, do one of the following:
+To enable the Image Analyser extension, take one of the following actions:
 
 * Open an item or contact card. In the notification bar, choose **Analyze Images**, and then follow the steps in the assisted setup guide.  
-* Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose **Image Analysis Setup**. Choose the **Enable Image Analyzer** check box, and then complete the steps in the assisted setup guide.  
+* Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose **Image Analysis Setup**. Choose the **Enable Image Analyzer** check box, and then complete the steps in the assisted setup guide.  
 
     > [!TIP]  
     > The **Image Analysis Setup** page is also where you can change the degree of confidence for attribute suggestions. For example, if you want to require a greater degree of confidence, you can enter a higher percentage.
@@ -58,30 +57,53 @@ The Image Analyzer extension is built-in to [!INCLUDE[prod_short](includes/prod_
 
 The following steps describe how to analyse an image that was imported before you enabled the Image Analyser extension.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Choose the item, and then choose the **Analyze Picture** action.  
-3. The **Image Analyzer Attributes** page displays the detected attributes, the confidence level, and other details about the attribute. Use the **Action to perform** options to specify what to do with the attribute.  
+3. The **Image Analyzer Attributes** page displays the detected attributes, the confidence level, and other details about the attribute. Use the **Action to perform** options to specify what to do with the attribute or choose **Add to item description** to add the name of the attribute to the item description. For example, this can be useful for quickly adding detail. 
 
-    > [!TIP]  
-    > You can add the name of the attribute to the item description by choosing **Add to item description**. For example, this can be useful for quickly adding detail.  
+The **Action to perform** action has following options:
+
+  * *Ignore*
+
+    No actions will be performed
+  * *Use as attribute*
+
+    The value is added to the item attributes. For more information, see [Work with Item Attributes](inventory-how-work-item-attributes.md)
+  * *Use as a category*
+
+    The selected value is added as a category. For more information, see [Categorise Items](inventory-how-categorize-items.md)
+  * *Add to blocklist*
+
+    If the analysis suggests an attribute that you do not want to see, you can block the attribute. Use caution, however. Blocked attributes are not suggested for other items either. If you regret blocking an attribute, choose **View Blocked Attributes**, and then delete the attribute from the list.
+  
+    > [!NOTE]  
+    > By default **Item Attributes** displays attributes where **Confidence Score** is above **Confidence Score Threshold %** defined in the **Image Analyser Setup**. To see all detected attributes, choose the **View All Attributes** action.
 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>To analyse a picture of a contact person
 
 The following steps describe how to analyse an image that was imported before you enabled the Image Analyser extension.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.  
 2. Choose the contact person, and then choose the **Analyze Picture** action.  
-3. On the **Profile Questionnaire** FastTab, review the suggestions, and make corrections if needed.  
+3. On the **Profile Questionnaire** FastTab, review the suggestions, and make corrections if needed. For more information, see [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md).  
 
-## <a name="block-suggested-attributes"></a>Block suggested attributes
-
-If the analysis suggests an attribute that you do not want to see, you can block the attribute. Use caution, however. Blocked attributes are not suggested for other items or contact persons either. If you regret blocking an attribute, you can choose **View Blacklisted Attributes**, and then delete the attribute from the list.
-
+    > [!NOTE]  
+    > 
+    > The Computer Vision API returns following attributes:
+    > * *age*
+    >
+    >     An estimated "visual age" in years. It is how old a person looks as opposed to the actual biological age.
+    > * *gender*
+    >
+    >    Male or female.
+    > 
+    > The Computer Vision API doesn't return confidence level for age and gender attributes.
+  
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>To use your own account for the Computer Vision API
 
 You can also use your own account for the Computer Vision API, for example, if you want to analyse more images than we allow.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Image Analyser Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Image Analyser Setup**, and then choose the related link.  
 2. Enter the **API URI** and **API Key** that you received for Computer Vision API.  
 
     > [!NOTE]  
@@ -91,19 +113,23 @@ You can also use your own account for the Computer Vision API, for example, if y
 
 You can view the number of analyses you've done, and how many you can still do, in the current period.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Image Analyser Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Image Analyser Setup**, and then choose the related link.  
 2. The **Limit type**, **Limit value**, and **Analyzes performed** provide the usage information.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>To stop using the Image Analyser extension
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose **Image Analyser Setup**.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose **Image Analyser Setup**.  
 2. Clear the **Enable Image Analyzer** check box.  
+
+Alternatively, uninstall the extension completely. You can always fetch it again from AppSource. For more information, see [Installing and Uninstalling Extensions in Business Central](ui-extensions-install-uninstall.md#uninstalling-an-extension).  
 
 ## <a name="see-also"></a>See Also
 
 [Work with Item Attributes](inventory-how-work-item-attributes.md)  
+[Categorise Items](inventory-how-categorize-items.md)  
+[Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

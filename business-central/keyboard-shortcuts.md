@@ -2,20 +2,19 @@
 title: Keyboard Shortcuts
 description: The complete list of keyboard shortcut combinations to work efficiently with your data.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/26/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 490fbd0abb7bf6769e580c34f0958ec9babbe141
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470494"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135270"
 ---
 # <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
 
@@ -25,7 +24,7 @@ For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts 
 
 > [!TIP]
 > For a graphical view of the most used shortcuts, choose the following image and download the PDF file.  
-> [ ![Icon for the PDF file](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icon that opens a PDF")
+> [ ![Icon for the PDF file.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icon that opens a PDF")
 
 ## <a name="overview"></a>Overview
 
@@ -37,7 +36,7 @@ Keyboard shortcuts aid accessibility and can make it easier and more efficient t
 Most of the shortcuts are the same whether the operating system is Windows or macOS. However, some shortcuts differ for macOS. These shortcuts are indicated with brackets in the following sections.
 
 > [!NOTE]
-> In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], F9 posts a document and Ctrl+F7 shows the ledger entries for a record when you open the record in a card. (These may be different in your solution.) The keyboard shortcut is shown in the tooltip for the action in question.
+> In addition to the global keyboard shortcuts described in this article, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], F9 posts a document and Ctrl+F7 shows the ledger entries for a record when you open the record in a card. This article includes some of the more common business-specific shortcuts, which are shown in italics. Be aware that the actual shortcuts may be different in your solution. In the user interface, the keyboard shortcut is shown in the tooltip for the action in question.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> General Keyboard Shortcuts
 
@@ -55,7 +54,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+N |Open a page to create a new record. (Similar to choosing the **New** and **+** actions.)|
 |Alt+Shift+N |Close a newly created page and open a new one to create a new record. Similarly, Alt+F9 posts a document and creates a new one.|
 |Alt+T|Open the **My Settings** page.|
-|Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
+|Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit.](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
 |Ctrl+Alt+Shift+C|Display information in the company badge.|
 |Ctrl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |Ctrl+C |Copy the value of field. If the field is in focus, and you haven't selected any text in the field, this will copy the entire value. If you've selected any text in the field, then it will copy the selected text only.|
@@ -83,28 +82,36 @@ The following table describes the keyboard shortcuts that you can use on a list 
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.|
 |Alt+N|Insert a new line in an editable list, such as the **G/L Budgets** page.|Same.|
+|Shift+F9|Post and print a document.|Same.|
 |Shift+F10 |Open a menu of options that are available for the selected row.|Same.|
+|Alt+D|Open the dimension set entries.|Same.|
+|Ctrl+F7|Open ledger entries, logs entries, cost entries, and so on.|
+|Ctrl+F9|Release document.|Same.|
+|*F7*|Open statistics.|Same.|
+|*F9*|Post, issue, register, or reverse document.|Same.|
+|*Shift+Ctrl+F*|Send suggested lines on the cash flow worsheets page.|Not applicable.|
+|*Shift+Ctrl+I*|View serial and lot numbers assigned to the line item on the document or journal.|Not applicable.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigating Between Rows and Columns
 
 Grids containing rows and columns exist on many page types in [!INCLUDE[prod_short](includes/prod_short.md)], such as list pages and **Lines** parts on documents. Moving from one cell to another across a grid is fully keyboard-enabled.
 
-|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
-|--------------------------------|--------------------------|--------------------------|
-|Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus remains in the same column.|Move to the first tile in the first row. |
-|Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus remains in the same column.|Move to the last tile in the last row.|
-|Home<br />(Fn+Left Arrow)|Move to the first field in the row.|Move to the first tile in the row.|
-|End<br />(Fn+right Arrow)|Move to the last field in the row.|Move to the last tile in the row.|
-|Enter|Open the record that is associated with the field.<br /><br />Only relevant if a card page is associated with the record.|Opens the record.<br /><br />Only relevant if a card page is associated with the record.|
-|Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.|
-|Page Up<br />(Fn+Up Arrow)|Scroll to display the set rows above the current rows in view. |Scrolls to display the set of tiles above the current tiles in view. |
-|Page Down<br />(Fn+Down Arrow)|Scroll to display the set rows below the current rows in view.|Scroll to display the set of tiles below the current tiles in view.|
-|Down Arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. |
-|Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |
-|Right Arrow|In a view-only list, move in the same row to the next field to the right.<br /><br />In an editable list, move to the right within the current field.| Move in the same row to the next tile to the right. |
-|Left Arrow|In a view-only list, move in the same row to the previous field to the left. <br /><br />In an editable list, move to the left within the current field.| Move in the same row to the previous tile to the left. |
-|Tab|In editable list, move in the same row to the next field to the right.|Not applicable.||
-|Shift+Tab|In editable list, move in the same row to the previous field to the left. | Not applicable. |
+| Press these keys<br />(in macOS) | To do this in a list view | To do this in a tile view |
+|--|--|--|
+| Ctrl+Home<br />(Fn+Ctrl+Left Arrow) | Select the first row in the list; focus remains in the same column. | Move to the first tile in the first row. |
+| Ctrl+End<br />(Fn+Ctrl+Right Arrow) | Select the last row in the list; focus remains in the same column. | Move to the last tile in the last row. |
+| Home<br />(Fn+Left Arrow) | Move to the first field in the row. | Move to the first tile in the row. |
+| End<br />(Fn+right Arrow) | Move to the last field in the row. | Move to the last tile in the row. |
+| Enter | Open the record that is associated with the field.<br /><br />Only relevant if a card page is associated with the record. | Opens the record.<br /><br />Only relevant if a card page is associated with the record. |
+| Ctrl+Enter | Move focus to the next element outside the list. | Move focus to the next element outside the list. |
+| Page Up<br />(Fn+Up Arrow) | Scroll to display the set rows above the current rows in view. | Scrolls to display the set of tiles above the current tiles in view. |
+| Page Down<br />(Fn+Down Arrow) | Scroll to display the set rows below the current rows in view. | Scroll to display the set of tiles below the current tiles in view. |
+| Down Arrow | Move in the same column to the field in the row below. | Move in the same column to the tile in the row below. |
+| Up Arrow | Move in the same column to the field in the row above. | Move in the same column to the tile in the row above. |
+| Right Arrow | In a view-only list, move in the same row to the next field to the right.<br /><br />In an editable list, move to the right within the current field. | Move in the same row to the next tile to the right. |
+| Left Arrow | In a view-only list, move in the same row to the previous field to the left. <br /><br />In an editable list, move to the left within the current field. | Move in the same row to the previous tile to the left. |
+| Tab | In editable list, move in the same row to the next field to the right. | Not applicable. | 
+| Shift+Tab | In editable list, move in the same row to the previous field to the left. | Not applicable. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selecting, Copying, and Pasting
 
@@ -142,7 +149,9 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 
 |Press these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
+|Alt+D|Open the dimension set entries.|
 |Alt+F6|Toggle collapse/expand for the current FastTab or part (subpage).|
+|Alt+F9|Create new document and post it.|
 |Alt+G|Open the **Find Entries** page for finding entries related to the posted document. Works on lists also.|
 |Alt+N |Open a page to create a new record; the same way as choosing the **New** action. |
 |Alt+Shift+N |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |
@@ -152,9 +161,15 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 |Ctrl+Up Arrow |Open the previous record for an entity.|
 |Ctrl+Insert |Insert a new line in documents.|
 |Ctrl+Delete |Delete the line, in documents, journals, and worksheets.|
+|Ctrl+F7|Open ledger entries, logs entries, cost entries, and so on.|
+|Ctrl+F9|Release document.|
 |Ctrl+Shift+F12 |Maximise the line items part on a document page. Press the keys again to return to the normal display. For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).|
 |F6|Move to the next FastTab or part (subpage).|
+|*F7*|Open statistics.|
+|*F9*|Post, issue, register, or reverse document.|
+|*Shift+Ctrl+F9*|Post, print, and put away warehouse receipt.|
 |Shift+F6|Move to previous FastTab or part (subpage).|
+|*Shift+F9*|Post and print a document.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Quick Entry Shortcuts for Fields
 
@@ -229,9 +244,9 @@ Role explorer gives you an overview and quick access to all the business feature
 
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Frequently Asked Questions](across-faq.md)  
+[Frequently Asked Questions](across-faq.yml)  
 [Find Entries](ui-find-entries.md)  
 
 

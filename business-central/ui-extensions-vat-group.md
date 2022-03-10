@@ -1,9 +1,8 @@
 ---
-title: The VAT Group Management Extension | Microsoft Docs
+title: The VAT Group Management Extension
 description: You can engage with other businesses to form a VAT group, and act as either a member or representative of the group when reporting VAT.
 author: bholtorf
 manager: annbe
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 093b361bf2d3f02d08dc6b8d53ad4b58a086f88b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 470b8af1322fa0f3b295f566244af44c3183c2fe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771294"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132453"
 ---
 # <a name="the-vat-group-management-extension"></a>The VAT Group Management Extension
 
@@ -116,8 +115,12 @@ When the VAT Group representative's VAT Return has been submitted to the authori
 > The VAT group functionality is only supported in those markets where [!INCLUDE[prod_short](includes/prod_short.md)] uses a VAT framework that consists of VAT returns and VAT return periods. You cannot use VAT groups in other markets that have other implementations of local VAT reporting, such as Austria, Germany, Italy, Spain, and Switzerland. 
 
 ## <a name="see-also"></a>See Also
+
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
-[Set Up Value-Added Tax](finance-setup-vat.md)
+[Set Up Value-Added Tax](finance-setup-vat.md)  
+[Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
+[Making Tax Digital in the United Kingdom](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
+[Norwegian VAT Reporting in the Norwegian Version](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
