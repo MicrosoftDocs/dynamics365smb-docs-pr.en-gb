@@ -1,20 +1,21 @@
 ---
-title: Accounting for Costs | Microsoft Docs
-description: Cost accounting is used to help you understand the costs of running a business. To get started with cost accounting, see the following topics.
+title: Accounting for Costs Overview
+description: Cost accounting helps you understand the costs of running a business. This article provides links to other articles with more information.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c22248b9f81837cfaf52717314d7981a64ede8c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5add5fb45af8e12b86dbe72e12d0e38649b31464
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148643"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366809"
 ---
 # <a name="accounting-for-costs"></a>Accounting for Costs
 Cost accounting is used to help you understand the costs of running a business. To get started with cost accounting, see the following topics.  

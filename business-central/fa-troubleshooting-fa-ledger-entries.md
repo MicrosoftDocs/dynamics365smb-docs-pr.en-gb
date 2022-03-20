@@ -2,7 +2,7 @@
 title: The Troubleshooting FA Ledger Entries Extension
 description: It's easier to work with whole numbers. Use this extension to round amounts for fixed assets in the FA ledger.
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bad9c995f87a3a4dfc598989e68b8e2b047a7d5d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8ce484583ef5eddc8e6aee675715487c3bd4e974
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142322"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382478"
 ---
 # <a name="the-troubleshooting-fa-ledger-entries-extension"></a>The Troubleshooting FA Ledger Entries Extension
 Use the Troubleshooting FA Ledger Entries extension to round depreciation and acquisition amounts in fixed asset ledger entries to whole numbers. For example, to round an amount of 30,000.44 to 30,000. Typical causes of rounding issues are data migration, suddenly starting to post amounts to the general ledger, or customisations you've made to your [!INCLUDE[prod_short](includes/prod_short.md)].

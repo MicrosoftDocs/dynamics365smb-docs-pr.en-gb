@@ -1,17 +1,17 @@
 ---
 title: Settle Purchase Invoices Promptly
 description: If you need to pay the supplier by cash or cheque, you can have the necessary posting done when you post the invoice.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.form: 51, 9308
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f44aa85b0a9990038df3cf49b1ba0f24e24df354
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 39361f09520f17ab659ddc35e49fe4cd39d35354
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141221"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381948"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Settle Purchase Invoices Promptly
 

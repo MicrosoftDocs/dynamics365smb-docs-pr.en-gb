@@ -1,5 +1,5 @@
 ---
-title: How to Assign Default Bins to Items
+title: Assign Default Bins to Items
 description: If you are using bins at a location, assigning default bins to your items can make the process of shipping, receiving, and moving your items much easier.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 7371, 7374, 7379
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e4f3d103c5bfdcedfef6fa3571f4ca56aa2ccb9a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6802009029d8eea434e7c5096f4efb591ee4993b
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134672"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382748"
 ---
 # <a name="assign-default-bins-to-items"></a>Assign Default Bins to Items
 If you are using bins at a location, assigning default bins to your items can make the process of shipping, receiving, and moving your items much easier. When a default bin is assigned to an item, this bin is suggested every time you initiate a transaction for this item. Default bins are defined on the **Bin Content** page.  
@@ -28,7 +29,7 @@ If you are using bins at a location, assigning default bins to your items can ma
 >  When an item is put away, if the item does not have a default bin assigned, the bin where the item is put away is assigned as the default.  
 
 ## <a name="to-change-the-default-bin-for-an-item"></a>To change the default bin for an item  
-You may need to change the default bin assignment for an item or assign a default bin to a new item.    
+You may need to change the default bin assignment for an item or assign a default bin to a new item.
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Contents**, and then choose the related link.  
 2.  In the **Location Filter** field, select the appropriate location code.  
 3.  Find the current default bin content entry for the item and clear the **Default Bin** check box.  
@@ -40,8 +41,8 @@ You may need to change the default bin assignment for an item or assign a defaul
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
-[Assembly Management](assembly-assemble-items.md)    
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md) 
+[Assembly Management](assembly-assemble-items.md)
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Using Word Templates for Bulk Communications | Microsoft Docs
 description: Word templates can make it easy to bulk create documents that are personalised for specific entities.
-author: bholtorf
+author: brentholtorf
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9e87e86ea4f267bea0e636f16fab55ae485ee8cf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fe9717f871fdc1db782ceeda4cbad267abddca90
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145323"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383434"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Using Word Templates for Bulk Communication
 Microsoft Word templates can make it easier to mass communicate in print or email with entities such as contacts, customers, and suppliers. For example, you can create brochures to alert customers about a sales campaign, letters to inform suppliers about a new purchasing policy, or invitations to attract contacts to an upcoming event.

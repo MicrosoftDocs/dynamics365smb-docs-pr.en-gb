@@ -1,5 +1,5 @@
 ---
-title: How to Cross-Dock Items | Microsoft Docs
+title: Cross-Dock Items
 description: Cross-docking functionality is available to you if you have set up your location to require warehouse receive and put-away processing.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 15, 5703, 7302, 7332, 5768
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 367dd6915a168b208432116439aa89b94bded649
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4031260a498eb2dd147be85392e6da709e76e681
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128557"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383622"
 ---
 # <a name="cross-dock-items"></a>Cross-Dock Items
 Cross-docking functionality is available to you if you have set up your location to require warehouse receive and put-away processing.  

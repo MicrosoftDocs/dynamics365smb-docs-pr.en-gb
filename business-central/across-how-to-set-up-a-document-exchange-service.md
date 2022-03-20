@@ -1,7 +1,7 @@
 ---
 title: How to Set Up a Document Exchange Service | Microsoft Docs
 description: You use an external service provider to exchange electronic documents with your trading partners.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8804b9bb7f7b8112e54e8a9953198db8686f768d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cc0bda1808e33db7ea54aac2a1afdb932c01f629
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133389"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382984"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Set Up a Document Exchange Service
 As part of the Data Exchange Framework, you can exchange sales and purchase documents with your trading partners without extra steps, such as attaching the documents to email messages as PDF files. For example, when you're ready to invoice a customer, you can post the invoice and send it for payment as a file that your customer can receive in their business management application. For more information, see [Exchanging Data Electronically](across-data-exchange.md).

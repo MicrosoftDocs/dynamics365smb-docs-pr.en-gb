@@ -1,14 +1,14 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 0bfe45574f3f209ac5ee310546cd2ef0998ab417
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5a3e15669bfc590d663b7774fba84017ae842521
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334546"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372028"
 ---
 The following table describes some of the key reports in production reporting.
 
@@ -22,6 +22,7 @@ The following table describes some of the key reports in production reporting.
 | [Item BOM Compare list](https://businesscentral.dynamics.com?report=99000758)|This report gives you the possibility to compare similar final products concerning the costs. You will see a listing with all components and their costs as well the needed quantities. The calculation date is normally set to the work date. |99000758|
 | [Production Order Statistics](https://businesscentral.dynamics.com?report=99000791)|Specifies the various costs that have accumulated for the selected works order.<br>The content of the report are very similar to the **Works Order Statistics** page.<br>For works orders that use the *Make-to-Order* manufacturing policy, the window only shows material and capacity cost of items at the highest BOM level.|99000791|
 | [Capacity Task list](https://businesscentral.dynamics.com?report=99000780)|Shows the works orders that are waiting to be processed at the work centres and machine centres. Printouts are made for the capacity of the work centre or machine centre). The report includes information such as starting and ending time, date per works order and input quantity.|99000780|
-| [Work Centre Load](https://businesscentral.dynamics.com?report=99000783)|Both reports show a list for the load on a work or machine centre. The load on a work/machine centre is the sum of the required number of times that all the planned and actual orders are run on the work centre in a specified period.|99000783|
-| [Machine Centre Load](https://businesscentral.dynamics.com?report=99000784)|Both reports show a list for the load on a work or machine centre. The load on a work/machine centre is the sum of the required number of times that all the planned and actual orders are run on the work centre in a specified period.|99000784|
+| [Work Centre Load](https://businesscentral.dynamics.com?report=99000783)|Shows a list for the load on a work centre. The load on a work centre is the sum of the required number of times that all the planned and actual orders are run on the work centre in a specified period.|99000783|
+| [Machine Centre Load](https://businesscentral.dynamics.com?report=99000784)|Shows a list for the load on a machine centre. The load on a machine centre is the sum of the required number of times that all the planned and actual orders are run on the work centre in a specified period.|99000784|
 | [Prod. Order Shortage list](https://businesscentral.dynamics.com?report=99000788)|This report can be used to see all components that are not available because of missing stock. So, this overview can be used to see in time, if the timeline for a planned or released works order if the planned time can be kept.|99000788|
+|[Prod. Order - Calculation](https://businesscentral.dynamics.com?report=99000767)|Shows a list of the production orders and their costs. It includes expected operation costs, expected component costs, and total costs.|99000767|

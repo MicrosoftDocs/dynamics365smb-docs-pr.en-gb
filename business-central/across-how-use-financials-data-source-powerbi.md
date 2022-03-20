@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 471847e62911ba1dc274a0d02ffbd66968d0b7ca
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51fb5e0f818974ed421b7f2bf282ad1c35c2eb0a
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141574"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366350"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data
 
@@ -40,7 +40,7 @@ This article describes how to get started using Power BI Desktop to create repor
 
   - The OData URL for [!INCLUDE[prod_short](includes/prod_short.md)].
   
-    Typically, this URL has the format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for example, `https://localhost:7048/BC160/ODataV4`. If you have a multi-tenant deployment, include the tenant in the URL, for example, `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+    Typically, this URL has the format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for example, `https://localhost:7048/BC190/ODataV4`. If you have a multi-tenant deployment, include the tenant in the URL, for example, `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
   - A user name and web service access key of a [!INCLUDE[prod_short](includes/prod_short.md)] account.
 
     To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a user name and web service access key to connect. The account might be your own user account, or your organisation may have specific account for this purpose.

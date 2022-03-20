@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: aaf3a30be1c04d1f5f30c157b20a1f10c51170a3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb917d1d54d66e02315e82ef6596a8fef65fb077
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145271"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366197"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Troubleshooting Self-Service Sign-Up
 Signing up for [!INCLUDE[prod_short](includes/prod_short.md)] is easy and can be done very quickly. You can create a free account even if you are an existing organisation. This article addresses issues that you may have during signup.
@@ -43,6 +43,8 @@ For an overview of currently supported markets across Dynamics 365, see the [Int
 
 ## <a name="see-also"></a>See Also
 
+[Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)  
+[Dynamics 365 Business Central trial FAQ](trial-faq.md)  
 [Welcome to [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Local Functionality](about-localization.md)  

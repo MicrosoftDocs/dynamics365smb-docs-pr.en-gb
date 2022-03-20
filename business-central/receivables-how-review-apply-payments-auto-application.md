@@ -1,5 +1,5 @@
 ---
-title: Verify Automatically Applied Payments, and Reapply Payments Manually | Microsoft Docs
+title: Review and Apply Payments Manually After Automatic Application
 description: After payments are applied automatically, you can review all the entries for a payment and manually reapply those that were applied incorrectly.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
+ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c2844c7fc1969e2159c67f8783481fbbc143a39a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9a4a25de9d1aab74c0c721fbdbda6704a2ae8666
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144912"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383064"
 ---
 # <a name="review-and-apply-payments-manually-after-automatic-application"></a>Review and Apply Payments Manually After Automatic Application
 For each journal line representing a payment on the **Payment Reconciliation Journal** page, you can open the **Payment Application** page to see all candidate open entries for the payment and view detailed information for each entry about the data matching that a payment application is based on. Here, you can manually apply payments or reapply payments that were applied automatically to a wrong entry. For more information about automatic application, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).

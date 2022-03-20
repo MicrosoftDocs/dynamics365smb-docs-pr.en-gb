@@ -1,21 +1,21 @@
 ---
 title: Reconcile Bank Accounts
 description: This topic describes how to reconcile the transactions in your internal bank accounts with the transactions in statements from your bank.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.search.form: 379, 388, 1290, 10124
+ms.search.form: 379, 388, 389, 1290, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 89fc1b881ce738d50ae40088be265d3944491f21
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1ebc2680aea583410a0f1bab8f4ff1d35989eb36
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129006"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381095"
 ---
 # <a name="reconcile-bank-accounts"></a>Reconcile Bank Accounts
 
@@ -88,7 +88,7 @@ The **Bank Statement Lines** pane will be filled according to invoices in [!INCL
 
 The **Bank Acc. Reconciliation** page offers automatic matching functionality based on a matching of text on a bank statement line (left pane) with text on one or more bank account ledger entries (right pane). Note that you can overwrite the suggested automatic matching, and you can choose to not use automatic matching at all. For more information, see [To match bank statement lines with bank account ledger entries manually](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
-Auto-matching matches entries based on a set of payment application rules. For more information, see [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md). You can investigate the basis for matches by using the **Match Details** action. For example, the details will include the names of the fields that contained matching values.  
+You can investigate the basis for matches by using the **Match Details** action. For example, the details will include the names of the fields that contained matching values.  
 
 1. On the **Bank Acc. Reconciliation** page, choose the **Match Automatically**. **The Match Bank Entries** page opens.
 2. In the **Transaction Date Tolerance (Days)** field, specify the span of days before and after the bank account ledger entry posting date within which the function will search for matching transaction dates in the bank statement.

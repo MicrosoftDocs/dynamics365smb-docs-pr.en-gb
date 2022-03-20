@@ -1,7 +1,7 @@
 ---
 title: Submit VAT Reports to Tax Authorities
 description: Learn how to prepare reports that lists VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,21 +10,25 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 11d9b165c598cbb17f870044763e8b0bdca1723b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b927faed205e64088ce399a9a973d7fcea0d1eda
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141184"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383812"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Report VAT to Tax Authorities
 
-This topic describes the reports in [!INCLUDE[prod_short](includes/prod_short.md)] that you can use to submit information about value-added tax (VAT) amounts for sales and purchases to tax authorities in your region. 
+This topic describes the reports in [!INCLUDE[prod_short](includes/prod_short.md)] that you can use to submit information about value-added tax (VAT) amounts for sales and purchases to tax authorities in your region. Depending on the specific country, the reports may include specific information, or there might be additional reports that you must submit. Check the articles for your country in the [Local Functionality](about-localization.md) section.  
 
-You can use the following reports :
+You can use the following built-in reports:
 
-* The **EC Sales List** European Community (EC) Sales List report lists the value added tax (VAT) amounts that you have collected for sales to VAT-registered customers in the European Union (EU) countries.  
-* The **VAT Return** report includes VAT for sales and purchases to customers and from suppliers in all countries that use VAT.  
+* The **EC Sales List** report  
+
+    The European Community (EC) Sales List report lists the value added tax (VAT) amounts that you have collected for sales to VAT-registered customers in the European Union (EU) countries.  
+* The **VAT Return** report  
+
+    The VAT Return report includes VAT for sales and purchases to customers and from vendors in all countries that use VAT.  
 
 In both cases, VAT is calculated based on the VAT posting setup and the VAT posting groups that you have set up.
 
@@ -33,7 +37,7 @@ If you want to view a complete history of VAT entries, every posting that involv
 > [!NOTE]
 > Each [!INCLUDE[prod_short](includes/prod_short.md)] environment is meant to handle regulatory reporting in one single country. For example, the Dutch version of [!INCLUDE[prod_short](includes/prod_short.md)] handles VAT reporting in The Netherlands but not in other countries. Similarly, the United States version of [!INCLUDE[prod_short](includes/prod_short.md)] handles 1099 reporting in the United States and does not support claiming VAT reporting in other countries, unless brought by an extension delivered by our partner ecosystem or a customer-specific code modification.
 
-## <a name="about-the-ec-sales-list-report"></a>About the EC Sales List report
+## <a name="about-the-ec-sales-list-report"></a><a name="ecsaleslist"></a>About the EC Sales List report
 
 In the European Union (EU) and in the UK, all companies that sell goods and services to VAT-registered customers, including customers in other European Union (EU) countries, must submit an electronic version of the European Community (EC) Sales List report to their customs and tax authorities. The **EC Sales List** report works only for countries in the EU.
 
@@ -47,9 +51,13 @@ The report includes one line for each type of transaction with the customer, and
 
 After the tax authority reviews your report, they will send an email to the contact person for your company. In [!INCLUDE[prod_short](includes/prod_short.md)], the contact person is specified on the **Company Information** page. Before you submit the report, make sure that a contact person is chosen.  
 
-## <a name="about-the-vat-return-report"></a>About the VAT Return report
+### <a name="submit-an-ec-sales-list-report"></a>Submit an EC sales list report
 
-Use this report to submit VAT for sales and purchase documents, such as purchase and sales orders, invoices, and credit memos. The information in the report is in the same format as on the declaration form from the customs and tax authorities.  
+[!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
+
+## <a name="about-the-vat-return-report"></a><a name="vatreturn"></a>About the VAT Return report
+
+Use this report to submit VAT for sales and purchase documents, such as purchase and sales orders,invoices, and credit memos. The information in the report is in the same format as on the declaration form from the customs and tax authorities.  
 
 For the VAT return, you can specify the entries to include:
 

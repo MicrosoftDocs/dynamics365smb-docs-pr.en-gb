@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
-ms.date: 12/13/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 6cb8789b75350b3879fb0179759498394b6e22d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134984"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372139"
 ---
 # <a name="use-time-sheets"></a>Use Time Sheets
 
@@ -32,7 +32,7 @@ Before you can use time sheets, you must set up general information and specify 
 
 ## <a name="to-create-time-sheets"></a>To create time sheets
 
-You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task.  
+You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task. You can also [schedule the batch job to run automatically](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > You must have permissions to be able to create time sheets. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
@@ -43,6 +43,8 @@ You can use the **Create Time Sheets** batch job to set up time sheets for a spe
 
     > [!NOTE]  
     > The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.
+
+    Optionally, choose the **Schedule** action to specify how often you want the task to run automatically. For example, to configure the task to run weekly for four weeks, in the **Schedule a Report - Create Time Sheets** page, set the **Next Run Date Formula** field to *4W*. For more information, see [Scheduling a Report to Run](ui-work-report.md#ScheduleReport).  
 4. Choose the **OK** button.  
 
 You can view the time sheets that you have created on the **Time Sheets** page. Each time sheet consists of one or more lines that define the time that you want to submit for approval. The following table describes the types of lines that you can add to the time sheet.

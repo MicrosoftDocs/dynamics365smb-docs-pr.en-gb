@@ -1,5 +1,5 @@
 ---
-title: Link a Sales Order to a Purchase Order for Direct Shipment (contains video) | Microsoft Docs
+title: Make Drop Shipments (contains video)
 description: Describes how to create a sales order linked to a purchase order to enable shipment directly from the supplier to the customer.
 author: SorenGP
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19bfb28494a6ee5a4650f32fd2794c0254eff561
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fe45eb6403798a7e64b9604321440a2fff38c3f
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144834"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372073"
 ---
 # <a name="make-drop-shipments"></a>Make Drop Shipments
 
@@ -40,12 +40,12 @@ To prepare a drop shipment, you indicate on the purchase order that it must be s
 2. In the **Ship-to** field, select **Customer Address**.
 3. In the **Customer** field, select the customer that you are selling to.
 4. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
-5. On the **Sales List** page, select the sales order that you prepared in [To create a sales order for drop shipment](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
+5. On the **Sales List** page, select the sales order that you prepared in [To create a sales order for drop shipment](#to-create-a-sales-order-for-drop-shipment).
 6. Choose the **OK** button.
 
 The line information from the sales order is inserted on the purchase order line(s).
 
-You can now instruct the supplier to ship the items to your customer, for example, by mailing the purchase order as a PDF.     
+You can now instruct the supplier to ship the items to your customer, for example, by mailing the purchase order as a PDF. If your vendor provides a tracking number or similar information, you can choose to record that information in a purchase order line of type *Comment*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>To create multiple purchase orders for drop shipments
 

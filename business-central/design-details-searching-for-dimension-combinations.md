@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 67aa9c5a7b56b00e49573b5232045f032db178c3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7ad41e67eb84149f2c17ea5d00fce0b6cd306f74
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145817"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366168"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Design Details: Searching for Dimension Combinations
 When you close a page after you edit a set of dimensions, [!INCLUDE[prod_short](includes/prod_short.md)] evaluates whether the edited set of dimensions exists. If the set does not exist, a new set is created and the dimension combination ID is returned.  
@@ -73,7 +73,7 @@ EXIT(DimSet.ID);
 
 ## <a name="see-also"></a>See Also
     
- [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
+ [Design Details: Dimension Set Entries](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
  [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)   
  [Design Details: Table Structure](design-details-table-structure.md)   
  
