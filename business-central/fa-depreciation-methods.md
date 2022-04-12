@@ -10,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5629, 5633
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: eca5788889b8f68b95c418689ad4ed22e8eafe40
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 337900111388e086e27a2d388843d4e1ab052eb6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366222"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518240"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Depreciation Methods for Fixed Assets
 
@@ -306,7 +306,7 @@ When you enter an entry in B1 in the fixed asset G/L journal and place a check m
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

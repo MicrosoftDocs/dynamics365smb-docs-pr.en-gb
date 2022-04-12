@@ -9,14 +9,14 @@ ms.workload: na
 ms. search.keywords: bank, format, data
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 277842528290f3d3974c7e4b22030fa33e237dbd
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ec7ba151f94a7209e81f8e695b3053885d0fcc24
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381173"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510541"
 ---
-# <a name="using-the-amc-banking-365-fundamentals-extension"></a>Using the AMC Banking 365 Fundamentals Extension
+# <a name="use-the-amc-banking-365-fundamentals-extension"></a>Use the AMC Banking 365 Fundamentals Extension
 The AMC Banking 365 Fundamentals extension makes it easier, and more accurate, to send data to your banks. The extension connects [!INCLUDE[prod_short](includes/prod_short.md)] with the AMC Banking 365 Fundamentals for Microsoft Dynamics 365 Business Central service, which can convert bank data from [!INCLUDE[prod_short](includes/prod_short.md)] into formats that are required by over 600 banks around the world. For example, this makes it easier to transfer payments and credits to suppliers by entering the payments in [!INCLUDE[prod_short](includes/prod_short.md)], and then uploading them to your bank. The formats can also smooth out bank reconciliation processes. For more information, see [AMC Banking for Microsoft Dynamics 365 Business Central](https://www.amcbanking.com/bc-fundamentals/).
 
 > [!Note]
@@ -25,7 +25,7 @@ The AMC Banking 365 Fundamentals extension makes it easier, and more accurate, t
 > [!NOTE]
 > In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), for example the commonly used Automated Clearing House (ACH) network, however with a slightly different process.
 
-## <a name="using-our-demonstration-account"></a>Using Our Demonstration Account
+## <a name="use-our-demonstration-account"></a>Use Our Demonstration Account
 [!INCLUDE[prod_short](includes/prod_short.md)] comes with a demonstration account that lets you try out the AMC Banking 365 Fundamentals extension. We provide default settings for connecting to AMC Banking, specifying the bank accounts to get data from in [!INCLUDE[prod_short](includes/prod_short.md)], plus a few data exchange definitions. You can view the connection settings on the **AMC Banking Setup** page. For bank accounts, the extension applies values in the **Bank Name**, **Credit Transfer Msg. Nos.**, **Bank Statement Import Format**, and **Payment Export Format** fields on bank account cards.
 
 We provide the settings, but to try out the extension you must run the assisted setup guide to apply them. To run the guide, on the **AMC Banking Setup** page, choose the **Assisted Setup** action.
@@ -63,7 +63,7 @@ For each new permission set, grant only the **Read** permission for the **AMC Ba
 4. In the **Credit Transfer Msg. Nos.** field, choose the number series to use for messages that accompany payments.
 5. In the **Bank Statement Import Format** and **Payment Export Format** fields, choose the data exchange definitions that your bank requires.
 
-## <a name="using-the-extension"></a>Using the Extension
+## <a name="use-the-extension"></a>Use the Extension
 Using this extension is just a matter of exporting data on the **Payment Journals** page, and then uploading it to your bank's web service. For more information, see [Making Payments with Bank Data Conversion or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
 
 > [!Note]

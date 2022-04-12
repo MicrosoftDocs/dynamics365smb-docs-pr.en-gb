@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: d7dc36d95a458e6edfa303540c97c2f4fb57da78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131015"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521287"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Create Workflows to Connect Business-Process Tasks
 
@@ -104,7 +104,7 @@ For both types of events, the events are system-defined. New events must be adde
     >  You can only change the indent of a step that does not have a subsequent step.  
 
 12. Repeat steps 7 through 11 to add more workflow steps, either before or after the step that you have just created.  
-13. Select the **Enabled** check box to specify that the workflow will start as soon as the event on the first step of type **Entry Point** occurs. For more information, see [Using Workflows](across-use-workflows.md).  
+13. Select the **Enabled** check box to specify that the workflow will start as soon as the event on the first step of type **Entry Point** occurs. For more information, see [Use Workflows](across-use-workflows.md).  
 
 > [!NOTE]  
 > Do not enable a workflow until you are sure that the workflow is completed and that the involved workflow steps can start.  
@@ -188,7 +188,7 @@ Next, you must and test the workflow by opening an existing supplier and change 
 [Delete Workflows](across-how-to-delete-workflows.md)  
 [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Setting Up Workflows](across-set-up-workflows.md)  
-[Using Workflows](across-use-workflows.md)  
+[Use Workflows](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
 
 

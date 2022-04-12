@@ -10,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3a6d6b680ebfb89c376872d2dcd5cb6fb535d4a3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c4ea2854ccc287b95c42bf942389d4dbfb2fd2e3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383302"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523612"
 ---
 # <a name="set-up-prices-and-discounts"></a>Set Up Prices and Discounts
 > [!NOTE]
@@ -99,7 +99,7 @@ These steps differ, depending on whether your administrator has turned on the **
 
 ---
 
-## <a name="working-with-invoice-discounts-and-service-charges"></a>Working with Invoice Discounts and Service Charges
+## <a name="work-with-invoice-discounts-and-service-charges"></a>Work with Invoice Discounts and Service Charges
 When you use invoice discounts, the size of the invoice amount determines the size of the discount that is granted. On the **Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  <!--The Invoice Discounts page is hard to find.-->
 
 Before you can use invoice discounts with sales, you must enter certain information in application. You must decide which customers will be granted this type of discount, and the discount percentages you will use.  
@@ -198,4 +198,4 @@ When you have recorded special prices and line discounts for sales and purchases
 ## <a name="see-also"></a>See Also
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Work with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

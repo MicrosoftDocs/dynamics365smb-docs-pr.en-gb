@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9c550c5e62b025d59c451aed83a6dbf6f0e1e11b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35d2c97f888905584010c75c7529b4b66fec51c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138473"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515596"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Getting Business Central on Your Mobile Device
 
@@ -40,7 +40,7 @@ You should now have access to [!INCLUDE[prod_short](includes/prod_short.md)] and
 > [!TIP]
 > If you want to connect the app to a sandbox environment, choose the **Advanced options** button, and then choose the **Cloud sandbox** sign-in option. Then, if you have more than one sandbox environment, choose the relevant environment.
 
-## <a name="using-business-central-on-premises"></a>Using Business Central on-premises?
+## <a name="use-business-central-on-premises"></a>Use Business Central on-premises?
 
 If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can also enjoy the benefits of the mobile app. The installation is similar, but with a couple exceptions.
 
@@ -64,7 +64,7 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you 
 
 [Mobile Apps FAQ](ui-mobile-faq.yml)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

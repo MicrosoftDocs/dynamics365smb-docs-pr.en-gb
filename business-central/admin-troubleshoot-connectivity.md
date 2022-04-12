@@ -10,12 +10,12 @@ ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: 3e7714b14d0fa3875a2d5331f4c9b697eb4deca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6719a46bdb86be63bd4ffe1b3ff916911a645bc5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143849"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522229"
 ---
 # <a name="troubleshoot-connectivity-for-business-central"></a>Troubleshoot Connectivity for Business Central
 
@@ -110,7 +110,7 @@ Checks that the authenticated user can connect to a discovered environment, typi
 [Resources for Help and Support](product-help-and-support.md)  
 [Overview of Tasks to Set Up Business Central](setup.md)  
 [Frequently Asked Questions about Using Business Central](across-faq.yml)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [The Business Central Admin Centre](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

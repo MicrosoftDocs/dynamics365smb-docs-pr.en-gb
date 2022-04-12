@@ -1,23 +1,23 @@
 ---
-title: Installing and Uninstalling Extensions in Business Central  | Microsoft Docs
+title: Install and Uninstall Extensions
 description: Learn about installing and uninstalling extensions in Business Central.
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 06/03/2021
+ms.search.form: 2500
+ms.date: 03/25/2022
 ms.author: solsen
-ms.openlocfilehash: 7868e0dc10c3ec0f81f39b714b8d517fcf3c5f06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140404"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514758"
 ---
-# <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installing and Uninstalling Extensions in Business Central
+# <a name="install-and-uninstall-extensions-in-business-central"></a>Install and Uninstall Extensions in Business Central
 
 You can change [!INCLUDE[prod_short](includes/prod_short.md)] by installing extensions that, for example, add functionality, changes behaviour, or gives you access to new online services. For more information, see [Customising Business Central Using Extensions](ui-extensions.md).
 
@@ -29,7 +29,7 @@ You can change [!INCLUDE[prod_short](includes/prod_short.md)] by installing exte
 > [!NOTE]  
 > The **EXTEND. MGT. - ADMIN** permission set was introduced in Business Central 2021 release wave 1 as a replacement for the **D365 EXTENSION MGT** permission set in earlier versions.
 
-## <a name="installing-an-extension"></a>Installing an Extension
+## <a name="install-an-extension"></a><a name="install"></a>Install an Extension
 
 You manage extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension**, and then choose the related link.  
 
@@ -75,14 +75,13 @@ Microsoft provides the following extensions:
 * [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 
-
-## <a name="uploading-a-per-tenant-extension-pte"></a>Uploading a Per-Tenant Extension (PTE)
+## <a name="upload-a-per-tenant-extension-pte"></a>Upload a Per-Tenant Extension (PTE)
 
 You upload a PTE by using the **Extension Management** page. On the **Extension Management** page, go to **Manage**, then choose **Upload Extension**. On the **Upload and Deploy Extension** page, specify the .app file to upload. To proceed, choose the **Accept** button, and then the **Deploy** button, this will start the process of deploying the PTE.
 
-If the PTE contains breaking schema changes, it is possible to *force* an upload of it. To do that, in the **Schema Sync Mode** choose the **Force** option. You will get a confirmation dialogue to accept before proceeding. 
+If the PTE contains breaking schema changes, it is possible to *force* an upload of it. To do that, in the **Schema Sync Mode** choose the **Force** option. You will get a confirmation dialogue to accept before proceeding.  
 
-## <a name="uninstalling-an-extension"></a>Uninstalling an Extension
+## <a name="uninstall-an-extension"></a>Uninstall an Extension
 
 You uninstall an extension by using the **Extension Management** page. If you uninstall an extension, and you then change your mind, you can install the extension again. When you uninstall an extension that you have been using, data is by default preserved so that if you install the extension again. You can instead choose to delete the data with the extension. This is controlled by the **Delete Extension Data** checkbox. By default, this checkbox is *not enabled*.
 

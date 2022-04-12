@@ -1,22 +1,25 @@
 ---
-title: How to Configure a Company with the RapidStart Wizard | Microsoft Docs
-description: You can quickly configure a new company that you have created by using the RapidStart Services configuration wizard.
+title: Configure a Company with the RapidStart Wizard
+description: For Business Central on-premises, you can configure a new company that you have created by using the RapidStart Services configuration wizard.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 03/28/2022
 ms.author: edupont
-ms.openlocfilehash: 1b29412d166bd5b2225d780a0b0cee476874dcd0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 189701aef31c5bbdc3323b753667937775d59a9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130859"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515804"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configure a Company with the RapidStart Wizard
+
+[!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
+
 You can quickly configure a new company that you have created by using the RapidStart Services configuration wizard.
 
 In the following procedure, you have provided the customer with the configuration package, which is then installed on a computer. The customer opens the new company, which contains no customer data. You or the customer then follows the steps in the RapidStart Services wizard, which are described in this procedure, to provide basic information about the company. The wizard imports the configuration package and then applies the package to the company.  

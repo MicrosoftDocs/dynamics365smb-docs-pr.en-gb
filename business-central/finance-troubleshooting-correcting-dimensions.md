@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1a5647045e3b7aff1b709096b8b856485ce762e9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381730"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519128"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Troubleshooting and Correcting Dimensions
 
@@ -103,7 +103,7 @@ If the Undo action is not available, for example because you have made many corr
 
 Use caution when correcting large sets of entries, for example, sets that include more than 10,000 entries. If you can, we recommend that you use the filters to run the corrections on smaller sets of data. It's also a good idea to run corrections outside the normal business hours. 
 
-### <a name="using-analysis-views-with-dimension-corrections"></a>Using Analysis Views with Dimension Corrections
+### <a name="use-analysis-views-with-dimension-corrections"></a>Use Analysis Views with Dimension Corrections
 
 If **Update on Posting** is enabled for an analysis view, [!INCLUDE[prod_short](includes/prod_short.md)] can the view when documents and journals are posted. You can also update views with this setting enabled with results of dimension corrections. To do so, turn on the **Update Analysis Views** toggle. Updating analysis views can impact performance, especially for large data sets, so we recommend that you update analysis views only for small data sets.  
 
@@ -118,11 +118,11 @@ If a correction does not complete, a warning will display on the correction card
 > [!NOTE]
 > Resetting an incomplete correction will not affect updates to analysis views because those happen at the end of the correction process.
 
-### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Using Cost Accounting with Corrected G/L Entries
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Use Cost Accounting with Corrected G/L Entries
 
 After you correct dimensions your data for cost accounting will be out of sync. Cost accounting uses dimensions to aggregate amounts for cost centres and cost objects, and to run cost allocations. Changing dimensions for G/L entries will probably mean that you re-run your cost accounting models. Whether you need to just delete a few cost registers and re-run allocations, or you need to delete everything and re-run all of your models depends on the data that has been updated and how your cost accounting capabilities are set up. You must manually identify where dimension corrections will impact cost accounting and where updates are needed. [!INCLUDE[prod_short](includes/prod_short.md)] does not currently provide an automated way to do that.
 
 ## <a name="see-also"></a>See Also
 
-[Working with Dimensions](finance-dimensions.md)
+[Work with Dimensions](finance-dimensions.md)
 [Analyse Data by Dimensions](bi-how-analyze-data-dimension.md)  

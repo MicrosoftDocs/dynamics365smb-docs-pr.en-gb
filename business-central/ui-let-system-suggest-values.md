@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 39, 251, 981, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a9250a206d21d472bbe3efac1b54f47a36e1d95b
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: fa007d1a75baaf1fc96bf05952102a821688e7a3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335196"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512107"
 ---
 # <a name="letting-prod_short-suggest-values"></a>Letting [!INCLUDE[prod_short](includes/prod_short.md)] Suggest Values
 [!INCLUDE[prod_short](includes/prod_short.md)] can help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself. Although such automatic data entry is always correct, you can change it afterwards if you want to.
@@ -22,14 +22,14 @@ ms.locfileid: "8335196"
 Functionality that enters field values for you is typically offered for tasks where you enter large volumes of transactional data and want to avoid errors and save time. This topic contains a selection of such functionality. More sections will be added in future updates of [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="the-suggest-balancing-amount-check-box-on-the-general-journal-batches-page"></a>The **Suggest Balancing Amount** check box on the **General Journal Batches** page
-When, for example, you are entering general journal lines for multiple expenses that must all be posted to the same bank account, then each time you enter a new journal line for an expense, you can have the **Amount** field on the bank account line automatically updated to the amount that balances the expenses. For more information about working with general journals, see [Working with General Journals](ui-work-general-journals.md).
+When, for example, you are entering general journal lines for multiple expenses that must all be posted to the same bank account, then each time you enter a new journal line for an expense, you can have the **Amount** field on the bank account line automatically updated to the amount that balances the expenses. For more information about working with general journals, see [Work with General Journals](ui-work-general-journals.md).
 
 ### <a name="to-have-the-amount-field-on-balancing-general-journal-lines-filled-automatically"></a>To have the **Amount** field on balancing general journal lines filled automatically
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
 2. On the line for your preferred general journal batch, choose the **Suggest Balancing Amount** check box.
 3. Open the general journal and proceed to register and post transactions using the described functionality for automatic entry of a field value.       
 
-For information about how to set up a personal general journal batch, for example, for expense handling, see [Working with General Journals](ui-work-general-journals.md).
+For information about how to set up a personal general journal batch, for example, for expense handling, see [Work with General Journals](ui-work-general-journals.md).
 
 ## <a name="the-automatically-fill-date-received-field-on-the-payment-registration-page"></a>The **Automatically Fill Date Received** field on the **Payment Registration** page
 The **Payment Registration** page shows outstanding incoming payments as lines that represent sales documents where an amount is due for payment. For more information about applying customer payments, see [Reconcile Customer Payments from a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
@@ -42,7 +42,7 @@ You main actions on the page are to fill in the **Payment Made** check box and t
 3. Open the **Payment Registration** page and proceed to process incoming customer payments using the described functionality for automatic entry of a field value.
 
 ## <a name="see-also"></a>See Also
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Finance](finance.md)
 
 

@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79a02ba516c1359863ac552e66fce03287519a65
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7ac4d66671d7eeb78c5fead20e7a43844c5d03c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144083"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517064"
 ---
-# <a name="using-business-central-without-outlook"></a>Using Business Central without Outlook
+# <a name="use-business-central-without-outlook"></a>Use Business Central without Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] has deep integration with Microsoft 365, and you can use [!INCLUDE[prod_short](includes/prod_short.md)] as your business inbox in Outlook. But if you do not have Outlook, you can work with [!INCLUDE[prod_short](includes/prod_short.md)] in the browser or on your mobile device.  
 
 ## <a name="sending-email"></a>Sending Email
@@ -25,7 +25,7 @@ You can send documents such as invoices as email using your business email addre
 
 ## <a name="see-also"></a>See Also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Using Business Central as your Business Inbox in Outlook](admin-outlook.md)  
+[Use Business Central as your Business Inbox in Outlook](admin-outlook.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)
 

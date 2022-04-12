@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a2d5234a78daf6243591cc478ab7b19957a196a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130355"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515518"
 ---
 # <a name="set-up-locations"></a>Set Up Locations
 
@@ -75,6 +75,9 @@ If you want to structure your bins under zones, you can do that in the **Zones**
 
 However, you can choose to set up just one zone and to organise your warehouse according to bins alone. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
+## <a name="default-dimensions-for-locations"></a>Default Dimensions for Locations
+You set default dimensions for a location on the **Location Card** page by choosing **Location**, and then **Dimensions**. The location's default dimensions are copied to journals and documents when you specify the location on a line, but you can delete or change the dimension on the line if needed. You can require that people specify dimensions for specific locations before they can post an entry. You can also include location dimension values in **Default Dimension Priorities** and **Dimension Combinations** for combinations of priority and dimension rules.
+
 ## <a name="see-also"></a>See Also
 
 [Manage Inventory](inventory-manage-inventory.md)  
@@ -82,7 +85,7 @@ However, you can choose to set up just one zone and to organise your warehouse a
 [Create Bins](warehouse-how-to-create-individual-bins.md)  
 [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)
 

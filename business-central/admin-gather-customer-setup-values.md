@@ -1,28 +1,29 @@
 ---
 title: Gather Customer Setup Values
-description: Configuration questionnaire helps reduce implementation by streamlining setting up new companies and offering customers an Excel or XML file.
+description: If you want to use RapidStart Services, the configuration questionnaire helps reduce implementation by streamlining setting up new companies and offering customers an Excel or XML file.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8610, 8613
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d26fb334462ad52a14058e8d5f6b9f86088ad3d7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91c13c5b0fb67befd0c03e2662c545ff8231e6da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145977"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518396"
 ---
-# <a name="gather-customer-setup-values"></a>Gather Customer Setup Values
+# <a name="gather-customer-setup-values-with-rapidstart-services"></a>Gather Customer Setup Values with RapidStart Services
 You use the configuration questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company. You can generate the configuration questionnaire in [!INCLUDE[prod_short](includes/prod_short.md)] and then provide it to your customer as an Excel or XML file.  
 
 You can change all default values in a questionnaire to more closely match customer needs.  
 
 > [!TIP]  
->  For more information about defining setup values in supply planning fields, see [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md).  
+> For more information about defining setup values in supply planning fields, see [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md).  
 
 When your customer completes the questionnaire, you import the file into the customer's new [!INCLUDE[prod_short](includes/prod_short.md)] company. You and your customer validate the questionnaire answers before you apply them to the company.
 

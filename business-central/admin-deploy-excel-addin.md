@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141418"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518422"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Get the Business Central Add-in for Excel
 
@@ -79,13 +79,13 @@ You'll work in both [!INCLUDE[prod_short](includes/prod_short.md)] and the Micro
     4. Review the **Accept permissions requests**, then choose **Next** > **Finish Deployment**.
     5. Wait for the green check mark next to **Deployed** appears for the add-in, then choose **Done**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       The add-in appears on the **Add-ins** page. For more information about deploying add-ins in the Microsoft 365 admin centre, see [Deploy add-ins in the admin centre](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+       The add-in appears on the **Add-ins** page. For more information about deploying add-ins in the Microsoft 365 admin centre, see [Deploy add-ins in the admin centre](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 4. Go back to **Excel Add-in Centralised Deployment** assisted setup in [!INCLUDE[prod_short](includes/prod_short.md)], and choose **Next**.
 5. Turn on **Use Centralised Deployment**, and choose **Finish**.
 
     If you don't turn on this switch, [!INCLUDE[prod_short](includes/prod_short.md)] will get the add-in directly from the Office Store.
 
-When finished, you can always change the deployment in Microsoft 365 admin centre, like assigning more users. For more information about deploying add-ins in the admin centre, see [Deploy add-ins in the admin centre](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+When finished, you can always change the deployment in Microsoft 365 admin centre, like assigning more users. For more information about deploying add-ins in the admin centre, see [Deploy add-ins in the admin centre](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 
 > [!IMPORTANT]
 > If you have more than one environment, you must run the **Excel Add-in Centralised Deployment** assisted setup on each environment that you want to use Centralised Deployment. However, you don't have to configure the Centralised Deployment in Microsoft 365 again. The only thing you have to do is turn on the **Use Centralised Deployment** switch in the assisted setup. 
@@ -171,7 +171,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 ## <a name="see-also"></a>See Also
 
 [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
-[Working with Business Central](ui-work-product.md)  
+[Work with Business Central](ui-work-product.md)  
 [Enhancements to Excel integration in 2019 release wave 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
 
 

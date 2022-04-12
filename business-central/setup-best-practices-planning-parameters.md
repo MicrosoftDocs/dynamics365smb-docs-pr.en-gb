@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b491a986e3936389fa228fdb1bfc000627368b82
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6cb63f5fcc6f3fcf4262214c8fb162a6835b0c50
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130002"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513660"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Setup Best Practices: Planning Parameters
 The **Planning** FastTab on the item card is the centre of a company’s supply chain. Setting the correct planning parameters is very important for cost-effective inventory control and high customer service.  
@@ -44,7 +44,7 @@ The **Planning** FastTab on the item card is the centre of a company’s supply 
  [Design Details: Supply Planning](design-details-supply-planning.md)   
  [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
  [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

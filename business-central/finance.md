@@ -10,12 +10,12 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 44c7475921c679cc03ee25e8c05ffa78d04592f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ef243581ddd0df9b546e3f2a40b2f1d666f73dc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135965"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515648"
 ---
 # <a name="financial-management"></a>Financial Management
 
@@ -36,7 +36,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Manage inventory and manufacturing costs, report costs, and reconcile costs with the general ledger.|[Managing Inventory Costs](finance-manage-inventory-costs.md)|
 | Understand the general ledger and the chart of accounts. |[Understanding the General Ledger and the COA](finance-general-ledger.md) |
 |Combine general ledger entries from multiple companies in one virtual consolidated company for financial analysis.|[Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)|
-| Add dimensions for richer business intelligence. |[Working with Dimensions](finance-dimensions.md) |
+| Add dimensions for richer business intelligence. |[Work with Dimensions](finance-dimensions.md) |
 | Create G/L budgets to forecast different financial activities and assign dimensions for business intelligence purposes. |[Create G/L Budgets](finance-how-create-budgets.md) |
 |Record income or expenses directly in the general ledger without posting dedicated business documents.|[Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)|
 |Post reversing entries to undo value postings in the general journal or quantity postings on purchase and sales documents. |[Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)|
@@ -69,8 +69,8 @@ The following video introduces some of the key capabilities for managing finance
 [Closing Financial Periods](year-close-years-periods.md)  
 [Managing Projects](projects-manage-projects.md)  
 [Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with General Journals](ui-work-general-journals.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

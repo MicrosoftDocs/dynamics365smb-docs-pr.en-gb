@@ -1,22 +1,23 @@
 ---
-title: How to Print Cheques for APACS | Microsoft Docs
-description: The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on cheques. The Cheque report uses this specification.
+title: Print Cheques for APACS
+description: The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on cheques in the UK. The Cheque report uses this specification.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 43a67808eb18e835e323c8744cb8591b57f2c3fb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d42d1809a243984b045508e1e8983b755dedec71
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139983"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417687"
 ---
 # <a name="print-checks-for-apacs"></a>Print Cheques for APACS
+
 The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on cheques. The **Cheque** report uses this specification.  
 
 ## <a name="to-print-checks-for-apacs"></a>To print cheques for APACS  

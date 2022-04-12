@@ -1,22 +1,23 @@
 ---
-title: How to Set Up Reverse Charges on VAT | Microsoft Docs
+title: Set Up Reverse Charges on VAT [UK]
 description: Learn how you can use reverse charge VAT accounting for a specific range of items to prevent Missing Trader Intercommunity Fund Fraud (MTIC).
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d00f8046827eaa4f7f2c978a6fffe44cb8d2c07e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d1e99878fb9bb2d42179e5623084779bde9ff07e
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129283"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417603"
 ---
-# <a name="set-up-reverse-charge-vat"></a>Set Up Reverse Charge VAT
+# <a name="set-up-reverse-charge-vat-in-the-british-version"></a>Set Up Reverse Charge VAT in the British Version
+
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use reverse charge VAT accounting for a specific range of items to prevent Missing Trader Intercommunity Fund Fraud (MTIC), also known as carousel fraud. This feature is supplemented by the **Reverse Charge Sales List** report. The VAT accounting changes will affect companies trading in electronic goods and integrated circuit devices, such as mobile telephones, microprocessors, and central processing units. These goods will apply to reverse charges.
 
 > [!IMPORTANT]  

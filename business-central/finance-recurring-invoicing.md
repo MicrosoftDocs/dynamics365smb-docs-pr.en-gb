@@ -11,12 +11,12 @@ ms.search.form: 283
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: cf990ec5de639054a79e98275be76cb0aed989d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 96a4330b880ecfe760c146d4b7ae5778716725ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128798"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513920"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Work with recurring revenue in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -29,11 +29,11 @@ A recurring journal is a general journal with specific fields for managing trans
 
 ### <a name="why-use-this-option"></a>Why use this option
 
-With this option, you define flexible invoicing periods with [Date Formulas](ui-enter-date-ranges.md#using-date-formulas).
+With this option, you define flexible invoicing periods with [Date Formulas](ui-enter-date-ranges.md#use-date-formulas).
 
 However, with this option, you cannot print and send invoices in the default version of [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-For more information, see [Working with Recurring Journals](ui-work-general-journals.md#working-with-recurring-journals).  
+For more information, see [Work with Recurring Journals](ui-work-general-journals.md#work-with-recurring-journals).  
 
 ## <a name="create-multiple-invoices-based-on-a-recurring-job-journal"></a>Create multiple invoices based on a recurring job journal
 
@@ -111,8 +111,8 @@ At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get exte
 
 ## <a name="see-also"></a>See also 
 
-[Date Formulas](ui-enter-date-ranges.md#using-date-formulas)  
-[Working with Recurring Journals](ui-work-general-journals.md#working-with-recurring-journals)  
+[Date Formulas](ui-enter-date-ranges.md#use-date-formulas)  
+[Work with Recurring Journals](ui-work-general-journals.md#work-with-recurring-journals)  
 [Create job journal lines](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
 [Create multiple job sales invoices](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
 [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)  

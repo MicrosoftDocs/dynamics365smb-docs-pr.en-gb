@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: f1266ada40085e1999b9ea49281e8c5ec73f8394
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 99f6507eccebc91c9f530e05ad95ae4b23d5e1e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134181"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523108"
 ---
 # <a name="view-archived-workflow-step-instances"></a>View Archived Workflow Step Instances
 All completed workflow step instances are saved on the **Archived Workflow Step Instances** page.  
@@ -37,7 +37,7 @@ The **Archived Workflow Step Instances** page opens showing all archived workflo
  [Enable Workflows](across-how-to-enable-workflows.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Setting Up Workflows](across-set-up-workflows.md)   
- [Using Workflows](across-use-workflows.md)   
+ [Use Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)
 
 

@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e39bd85451406bc835624183a5e65a45935a62ab
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: fdf34ffe09f5a57c45772a58fe6e8e4e9735be11
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334651"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515258"
 ---
 # <a name="send-documents-and-emails"></a>Send Documents and Emails
 
@@ -54,7 +54,7 @@ This procedure describes how attach a posted sales invoice to an email as a PDF 
 You can quickly compose emails for contacts, customers, suppliers, salespeople/purchasers, and bank accounts directly from the pages for those entities. Just choose **Process**, and then **Send Email** to open the email editor. For bank accounts, the **Send Email** action is under **Actions**.
 
 > [!TIP]
-> If you often send email messages that are similar in nature, or want to send a bulk communication, for example, to advertise a sales campaign, using Word templates with email can speed up the process. You can create a template for an entities such as customers, suppliers, and contacts, that will generate the content of an email message for you, and even personalise the content for the recipient based on data in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Using Word Templates for Bulk Communication](ui-mail-merge.md).  
+> If you often send email messages that are similar in nature, or want to send a bulk communication, for example, to advertise a sales campaign, using Word templates with email can speed up the process. You can create a template for an entities such as customers, suppliers, and contacts, that will generate the content of an email message for you, and even personalise the content for the recipient based on data in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Use Word Templates for Bulk Communication](ui-mail-merge.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documents marked as printed when they are sent
 
@@ -76,7 +76,7 @@ The **Email Outbox** is where you'll find the emails that you saved as drafts, a
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Set up Email](admin-how-setup-email.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

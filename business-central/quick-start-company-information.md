@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.search.form: 1,
+ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: beaca5bec31c0ba4877245cade5363dad21fe05a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bf7435f7d11e05cbe517208ffacd173a73ba1fd6
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133661"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417620"
 ---
 # <a name="company-information-quick-start"></a>Company Information Quick Start
 
@@ -25,19 +26,14 @@ You can enter all relevant data on the **Company Information** page when you set
 ## <a name="to-set-up-company-information"></a>To set up company information  
 
 1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) menu, and then choose the **Company Information** action.
-2. Enter the information into the FastTabs as described in the following table.
+2. Enter the information into the FastTabs as described in the following table. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    |Field|Description|  
-    |-------------|---------------------------------------|  
-    |**General**|Enter the general information about your company including a logo since that will be appearing on customer facing documents, for example invoices that you send out. |  
-    |**Communication**|Enter the basic company contact information, such as phone number and email address.|  
-    |**Payments**| Fill in the relevant banking information to insure that your customers will be able to pay you.|  
-    |**Shipping**|Fill in the relevant shipping information so that you will be able to send and receive goods from and to your company.|  
-    |**Tax**|Depending on the country you live in the Tax fast tab may be available to you. If it is available fill it out.|  
+    [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
-Once you have completed filling in the information you can close the page.  
+Once you have completed filling in the information, you can close the page.  
 
 ## <a name="see-also"></a>See Also  
 
+[Company Information Overview](admin-company-information.md)  
+[Set Up Company Information in Italy](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Business Central Quick Starts](quick-start-business-central.md)  
-[Set Up Company Information](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

@@ -1,24 +1,26 @@
 ---
 title: Migrate Customer Data
-description: You can migrate existing customer data from an existing system to Business Central using RapidStart Services - or just enter it directly into the company.
-author: SorenGP
+description: You can migrate existing customer data from an existing system to Business Central using an assisted setup guide. Alternatively, use Excel and RapidStart Services.
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.search.form: 1799, 1807, 8632, 1800, 1340, 8614, 8615
 ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 492ec993dfbf33f90fc601b1d6f8f27319ee39c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335377"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515726"
 ---
 # <a name="migrate-customer-data"></a>Migrate Customer Data
 
-You can migrate existing customer data from an existing ERP system to [!INCLUDE[prod_short](includes/prod_short.md)] using the data migration tools of RapidStart Services. You can use Excel files as the data carrier. You can also manually move the data by entering it directly in the company. Alternatively, you can use the **Cloud Migration** guide help you move data. For more information, see [Migrate Data](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the admin content.
+You can migrate existing customer data from an existing ERP system to [!INCLUDE[prod_short](includes/prod_short.md)] online using the cloud migration process for supported versions. Alternatively, you can migrate to [!INCLUDE [prod_short](includes/prod_short.md)] on-premises using the data migration tools of RapidStart Services, and then switch to the cloud. For more information, see [Migrate On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the admin content (English only).  
+
+In this article, we look at the configuration files that you can export from and import into [!INCLUDE [prod_short](includes/prod_short.md)]. The content was written with on-premises deployments in mind.  
 
 > [!NOTE]
 > Fields of type Blob cannot be exported/imported using Excel.

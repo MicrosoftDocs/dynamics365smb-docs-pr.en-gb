@@ -10,12 +10,12 @@ ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.search.form: 6250
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4caf32bb0c7b4471809d8af3b899329c571d144f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2bc46e165018d29684b116f7aac3745c9d533c42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381597"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517609"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Coupling and Synchronising Records between Dataverse and Business Central
 
@@ -66,7 +66,7 @@ You can specify the data to synchronise for an entity, such as a customer or con
 You can uncouple one or more records from list pages or the **Coupled Data Synchronisation Errors** page by choosing one or more lines and choosing **Delete Coupling**. You can also remove all couplings for one or more table mappings on the **Integration Table Mappings** page.
 
 ## <a name="see-also"></a>See Also  
-[Using Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md)
+[Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

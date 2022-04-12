@@ -1,23 +1,24 @@
 ---
-title: How to Enter Statutory Information | Microsoft Docs
+title: Enter Statutory Information [UK]
 description: To comply with legal requirements, statutory information is available on the Statutory FastTab on the Company Information page.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 26a1bc0c12ccf81578cf4bf49e51a5ffbd19d27c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a37855be889e2801fbb7041161935e2874cb6dc8
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136606"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417543"
 ---
-# <a name="enter-statutory-information"></a>Enter Statutory Information
-To comply with legal requirements, statutory information is available on the **Statutory** FastTab on the **Company Information** page.  
+# <a name="enter-statutory-information-in-the-british-version"></a>Enter Statutory Information in the British Version
+
+To comply with legal requirements, statutory information is available on the **Statutory** FastTab on the **Company Information** page in the British version of Business Central.  
 
 ## <a name="to-enter-statutory-information"></a>To enter statutory information  
 

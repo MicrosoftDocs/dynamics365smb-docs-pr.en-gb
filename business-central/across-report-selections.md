@@ -5,14 +5,14 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 04/01/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 16ad3480c10da544c7fdd3a6a299dc6d86cfce46
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134063"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512463"
 ---
 # <a name="report-selection-in-business-central"></a>Report Selection in Business Central
 
@@ -43,6 +43,7 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes 
 * **Report Selection - Warehouse**  
 * **Report Selection - Bank Account**  
 * **Report Selections Reminder/Finance Charge**  
+* **Report Selection - Job**  
 
 ## <a name="example-report-selection-for-sales-documents"></a>Example: Report selection for sales documents
 
@@ -68,6 +69,15 @@ For example, in the **Report Selection - Sales** and **Report Selection - Purcha
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Define Document Layouts for Customers and Suppliers](ui-define-customer-vendor-document-layouts.md)  
 [Set Up Printers](ui-specify-printer-selection-reports.md)  
-
+[Financial Reports and Analytics in Business Central](finance-reports.md)  
+[Accounts Receivable Reports and Analytics in Business Central](receivables-reports.md) 
+[Accounts Payable Reports and Analytics in Business Central](payables-reports.md)  
+[Fixed Assets Reports and Analytics in Business Central](fa-reports.md)  
+[Project Reports and Analytics in Business Central](project-reports.md)  
+[Sales Reports and Analytics in Business Central](sales-reports.md)  
+[Purchase Reports and Analytics in Business Central](purchase-reports.md)  
+[Inventory and Warehouse Reports and Analytics in Business Central](inventory-WMS-reports.md)  
+[Assembly Reports and Analytics in Business Central](assembly-reports.md)  
+[Production Reports and Analytics in Business Central](production-reports.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

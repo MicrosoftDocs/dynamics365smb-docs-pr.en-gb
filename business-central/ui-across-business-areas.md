@@ -10,12 +10,12 @@ ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9018
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322857"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513608"
 ---
 # <a name="general-business-functionality"></a>General Business Functionality
 [!INCLUDE[prod_short](includes/prod_short.md)] provides dedicated functionality for typical business areas, such as finance and sales. For more information, see [Business Functionality](across-business-functionality.md).
@@ -23,7 +23,7 @@ ms.locfileid: "8322857"
 To support those business area-specific tasks, you can use a variety of general business functionality, such as defining extended text for document lines and organising connecting business tasks in workflows.
 
 > [!NOTE]
-> In addition to the business-related functions described in this section, you will use general UI functions every day to interact with the system. For more information, see [Working with Business Central](ui-work-product.md).
+> In addition to the business-related functions described in this section, you will use general UI functions every day to interact with the system. For more information, see [Work with Business Central](ui-work-product.md).
 
 The following table lists these general business areas with links to topics that describe them.
 
@@ -40,7 +40,7 @@ The following table lists these general business areas with links to topics that
 |Post multiple sales or purchase documents together, immediately or as scheduled.|[Post Multiple Documents at the Same Time](ui-batch-posting.md)|  
 |Review the result of posting before you post.|[Preview Posting Results](ui-how-preview-post-results.md)|
 |Edit selected fields on posted sales or purchase documents.|[Edit Posted Documents](across-edit-posted-document.md)|
-|Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Working with General Journals](ui-work-general-journals.md) |
+|Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Work with General Journals](ui-work-general-journals.md) |
 | Schedule a report to run at a specific date and time. |[Scheduling a Report to Run](ui-work-report.md#ScheduleReport) |
 |Let the system help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself.|[Letting Business Central Suggest Values](ui-let-system-suggest-values.md)|
 |Record external documents, including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
@@ -48,7 +48,7 @@ The following table lists these general business areas with links to topics that
 | Set up data exchange definitions so you can send and receive electronic documents. |[Exchanging Data Electronically](across-data-exchange.md) |
 
 ## <a name="see-also"></a>See Also
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administration](admin-setup-and-administration.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

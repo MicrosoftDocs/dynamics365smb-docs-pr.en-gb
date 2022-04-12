@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 21665191cc2b6dbedc09321fd165ef2fab098fc3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95455b4100aa2628fe6f1e2eefdce8c8117f1166
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139937"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516402"
 ---
 # <a name="setting-up-banking"></a>Setting Up Banking
 
@@ -27,7 +27,7 @@ To use electronic banking services to import bank statements and  export payment
 | --- | --- |
 | Set up bank account cards for each of your bank accounts, so you can keep track of banking transactions. |[Set Up Bank Accounts](bank-how-setup-bank-accounts.md) |
 | Set up an external service that enables you to import bank statements as bank feeds for payment application and bank reconciliation. |[Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md) |
-| Set up an external service that enables you to export your payments to the bank for processing  and import bank statements as bank files for payment application and bank reconciliation. |[Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) |
+| Set up an external service that enables you to export your payments to the bank for processing  and import bank statements as bank files for payment application and bank reconciliation. |[Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) |
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
@@ -36,7 +36,7 @@ To use electronic banking services to import bank statements and  export payment
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

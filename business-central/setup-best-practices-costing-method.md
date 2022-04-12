@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 30, 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8eafa5661bd61bc72df55171a2a2a79da045f0e8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95194e3afed89d8a5636e53e1da76c20d81296ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140518"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522545"
 ---
 # <a name="setup-best-practices-costing-method"></a>Setup Best Practices: Costing Method
 
@@ -37,7 +37,7 @@ The following table provides best practices on how to set up the **Costing Metho
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Design Details: Stock Costing](design-details-inventory-costing.md)  
 [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

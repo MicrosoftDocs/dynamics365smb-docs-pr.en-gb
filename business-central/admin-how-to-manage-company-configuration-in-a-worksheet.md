@@ -1,22 +1,24 @@
 ---
-title: How to Manage Company Configuration in a Worksheet
-description: The configuration worksheet is the central location in which you can plan, track, and perform your company configuration work.
+title: Manage Company Configuration in a Worksheet
+description: If you use RapidStart Services, the configuration worksheet is the central location in which you can plan, track, and perform your company configuration work.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8632
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 23a999ab500512a4aaed2aaab7e205629b5954b7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c678d48b202043110627a2c8b29ae12be045d38d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141366"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514207"
 ---
-# <a name="manage-company-configuration-in-a-worksheet"></a>Manage Company Configuration in a Worksheet
+# <a name="manage-company-configuration-in-a-worksheet-with-rapidstart-services"></a>Manage Company Configuration in a Worksheet with RapidStart Services
+
 The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.  
 
 The first step in preparing a configuration package is to select a company that you have already set up and modified to suit most of your solution needs. This company serves as the baseline for your configuration work on new companies. In the worksheet, you designate the tables that you want your configuration to control and handle. Since most tables in [!INCLUDE[prod_short](includes/prod_short.md)] have relationships and dependencies to other tables, you should also include those related tables as necessary. Together, these tables will then serve as the structure around which you will build a new company. Subsequent steps help you package and then deploy your configuration.  
@@ -25,8 +27,9 @@ To aide you in tracking and reviewing your work, use the **Config. Package Table
 
 The following procedures demonstrate how to add and customise table information for your configuration.  
 
-## <a name="to-open-the-configuration-worksheet"></a>To open the configuration worksheet  
-1.  In [!INCLUDE[prod_short](includes/prod_short.md)], open the company that is the baseline for configuration, and then open its RapidStart Services Implementer Role Centre.  
+## <a name="to-open-the-configuration-worksheet"></a>To open the configuration worksheet
+
+1.  In [!INCLUDE[prod_short](includes/prod_short.md)], open the company that is the baseline for configuration.  
 2.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>To add a table to the worksheet  
@@ -40,9 +43,9 @@ The following procedures demonstrate how to add and customise table information 
     > [!NOTE]  
     > Related tables will not be added with the **Get Related Tables** action if either of the following is true:
     > - The relation is conditional.  
-    > Example: If you get related tables for the **Customer** table, then the **Location** table will not be added, since it is only conditionally related to the **Customer** table, namely if the **Location Code** field in the **Customer** table is filled in.  
+    >     Example: If you get related tables for the **Customer** table, then the **Location** table will not be added, since it is only conditionally related to the **Customer** table, namely if the **Location Code** field in the **Customer** table is filled in.  
     > - The related table is filtered.  
-    > Example: A field in the related table has a WHERE clause. The reason for this is that the involved relations information is stored in the **Field** system table, which is not fully accessible to the application.  
+    >     Example: A field in the related table has a WHERE clause. The reason for this is that the involved relations information is stored in the **Field** system table, which is not fully accessible to the application.  
     > You must add such types of tables manually by following step 4 in this procedure.  
 
 8.  To modify the resulting list of tables, select a table that you want to remove, and then choose the **Delete** action.  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: soalex
-ms.openlocfilehash: eb88a904ea7bce849933a0876d7dce623179b0ab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9763859e081eb02c3f265d02430807875dc7269e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147316"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517674"
 ---
 # <a name="united-kingdom-local-functionality-in-the-british-version"></a>United Kingdom Local Functionality in the British Version
 
@@ -44,8 +44,8 @@ The following topics describe local functionality that is unique to the United K
 
 ## <a name="see-also"></a>See Also
 
-[Using Business Central after the United Kingdom Has Left the European Union](united-kingdom-leaving-eu.md)  
-[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Use Business Central after the United Kingdom Has Left the European Union](united-kingdom-leaving-eu.md)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

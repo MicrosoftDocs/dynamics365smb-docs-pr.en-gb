@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 34c669f955bebf84149959182bb1ce8bdeb139a0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: addfaaf3e5991e5e0bce4d7e39c47f645cd6a2de
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147499"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528586"
 ---
 # <a name="teams-faq"></a>Teams FAQ
 
@@ -70,10 +70,6 @@ Yes. But only some features of the app work with [Embed apps](/dynamics365/busin
 
 - The app works with links based on the **\*.bc.dynamics.com** pattern that's typically used with Embed apps.
 - Contact search isn't available for Embed apps that replace the base application from Microsoft.
-
-### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Where can I find Teams integration inside the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client? 
-
-There's currently no embedding of Teams controls or presence of Teams features inside the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client or other clients.
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Does [!INCLUDE [prod_short.md](includes/prod_short.md)] work with the Teams mobile app?
 
@@ -304,7 +300,11 @@ Yes. Any [!INCLUDE [prod_short.md](includes/prod_short.md)] features in the deta
 
 ### <a name="can-i-access-my-location-from-the-details-window-in-teams"></a><a name="location"></a>Can I access my location from the details window in Teams?
 
-If you’re using functionality in [!INCLUDE [prod_short.md](includes/prod_short.md)] that accesses your current location coordinates, such as with maps, you must use Teams in the browser or the Teams mobile app. Location isn't available when using the Teams desktop app. 
+If you’re using functionality in [!INCLUDE [prod_short.md](includes/prod_short.md)] that accesses your current location coordinates, such as with maps, you must use Teams in the browser or the Teams mobile app. Location isn't available when using the Teams desktop app.
+
+### <a name="how-do-i-open-the-details-in-a-new-window"></a>How do I open the details in a new window?
+
+Popping out the details window as a separate window is useful for multi-tasking or for being able to work with business data while still being able to use Teams chat and other Teams functions. To open details in its own window, choose **Open in browser** from the ellipse menu (**...**) in the upper right corner of the window.
 
 ## <a name="collaborate-with-guests"></a>[Collaborate with guests](#tab/collaborating)
 
@@ -346,7 +346,7 @@ No. All you need is a valid account that has access to Microsoft Teams.
 
 ### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Is Share to Teams available in all Business Central clients? 
 
-At this time, Share to Teams is available exclusively in the desktop web client, and in the details window in Teams.  
+At this time, Share to Teams is available in the desktop web client, in the details window in Teams, and when opening a page in a new window from the Outlook add-in.
 
 ### <a name="where-do-i-find-share-to-teams-in-business-central"></a>Where do I find Share to Teams in Business Central? 
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.date: 06/24/2021
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: edupont
-ms.openlocfilehash: 13c2639ab416fd472850fef5161f0f374024bb51
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5aa00f32bbe3fe35c2f860c37c7b1849c7f7a1c6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335585"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513452"
 ---
 # <a name="posting-documents-and-journals"></a>Posting Documents and Journals
 Posting represents the accounting action of recording business transactions in the various company ledgers.
@@ -28,14 +28,14 @@ The following table describes related tasks, with links to the topics that descr
 | Learn about posting purchase documents. |[Posting Purchases](ui-post-purchases.md) |
 | Learn about posting sales documents. |[Posting Sales](ui-post-sales.md) |
 | Post multiple sales or purchase documents together, immediately or as scheduled.|[Post Multiple Documents at the Same Time](ui-batch-posting.md)|
-| Learn about posting general journals. |[Working with General Journals](ui-work-general-journals.md) |
+| Learn about posting general journals. |[Work with General Journals](ui-work-general-journals.md) |
 | Preview, in a page, the entries that will be created when you post. |[Preview Posting Results](ui-how-preview-post-results.md) |
 | Preview, in a report, the entries that will be created when you post. |[View Test Reports Before Posting](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>See Also
 [Edit Posted Documents](across-edit-posted-document.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

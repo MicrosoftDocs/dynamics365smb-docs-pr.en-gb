@@ -1,20 +1,20 @@
 ---
-title: How to Print Remittance Advice [GB]
+title: Print Remittance Advice [GB]
 description: You can print remittance advice before posting a payment journal and after posting a payment.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 256
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 3cdcde19607b69c9516d9178f1f38e72d82f79f0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f8c646b3b69cd2014083547fbf34cf5b922bbf15
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141769"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417541"
 ---
 # <a name="print-remittance-advice-in-the-british-version"></a>Print Remittance Advice in the British Version
 You can print remittance advice before posting a payment journal and after posting a payment. This advice displays supplier invoice numbers, which helps suppliers to perform reconciliations.  

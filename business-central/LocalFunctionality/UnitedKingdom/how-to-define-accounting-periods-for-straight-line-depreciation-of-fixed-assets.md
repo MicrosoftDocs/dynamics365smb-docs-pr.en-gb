@@ -1,19 +1,20 @@
 ---
-title: Straight-Line Depreciation of Fixed Assets in the UK | Microsoft Docs
+title: Straight-Line Depreciation of Fixed Assets in the UK
 description: Define 13 accounting periods to calculate straight-line depreciation in the UK version. You must calculate depreciation daily and distribute across the relevant periods.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.search.keywords: write down
+ms.search.form: 5610, 5611, 5619
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1bcaf277c8d23db2843a378bd82773e966564eb5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 34db2ee8433fcddf127f0d8c94e32d8f289f109b
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133490"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417545"
 ---
 # <a name="define-accounting-periods-for-straight-line-depreciation-of-fixed-assets"></a>Define Accounting Periods for Straight-Line Depreciation of Fixed Assets
 You can define 13 accounting periods to calculate straight line depreciation. You must calculate depreciation daily and distribute across the relevant periods. You can also define these accounting periods in the **FA - Projected Value** report.  

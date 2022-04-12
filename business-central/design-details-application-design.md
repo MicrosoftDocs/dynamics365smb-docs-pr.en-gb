@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/26/2021
 ms.author: edupont
-ms.openlocfilehash: 5cec98907fd3ab3b95763abd45e03038e8ccec35
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 886099234469a475e831d8f767d0aa1cf0023ece
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146755"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518266"
 ---
 # <a name="application-design-details"></a>Application Design Details
 
@@ -38,6 +38,6 @@ Design details content is aimed at implementers, developers, and super users who
 [Managing Stock Costs](finance-manage-inventory-costs.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

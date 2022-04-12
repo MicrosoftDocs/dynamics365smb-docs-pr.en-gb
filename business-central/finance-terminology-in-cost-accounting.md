@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: db3ee1e8aaa01102bb46e3bc581f46fa86c8cb8b
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 6e5f1e99daea56fda5a1a36e0e2b1fb69c332dc5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367235"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519154"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminology in Cost Accounting
 
@@ -52,7 +52,7 @@ This topic defines the key terms that are used in cost accounting.
 ## <a name="see-also"></a>See Also  
  [About Cost Accounting](finance-about-cost-accounting.md)   
  [Accounting for Costs](finance-manage-cost-accounting.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3fe45eb6403798a7e64b9604321440a2fff38c3f
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.openlocfilehash: 0ca22eaadb8ba4054ce22782881b487cab6bd5c4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372073"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521787"
 ---
 # <a name="make-drop-shipments"></a>Make Drop Shipments
 
@@ -79,7 +79,7 @@ After the supplier ships the items, you can post the sales order as shipped. You
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Sales](sales-manage-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

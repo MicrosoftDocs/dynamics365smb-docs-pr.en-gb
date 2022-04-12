@@ -9,14 +9,17 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 03d92e13adc9208ec98eda57cfc1d6b6e93ab028
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f8f0af4e34f57ebe64f454901e7f9e237fe7018c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148311"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512765"
 ---
-# <a name="import-and-export-custom-report-layouts"></a>Import and Export Custom Report Layouts
+# <a name="legacy-import-and-export-custom-report-layouts"></a>(Legacy) Import and Export Custom Report Layouts
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
+
 You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then make the modifications to layout and return the file to you so that you can import it back.  
 
 > [!IMPORTANT]  
@@ -54,7 +57,7 @@ You can import and export an existing custom report layout as a file to and from
 
 [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
-[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)    
+[Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,30 +1,32 @@
 ---
-title: Analysing Report Data with Excel
-description: Learn how to use Excel to analyse a report dataset.
+title: Analysing Report Data with Excel and XML
+description: Learn how to use Excel and XML to analyse a report dataset.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 02/09/2022
+ms.date: 03/16/2022
 ms.author: jswymer
-ms.openlocfilehash: f3996c051eed69974de9511aa570f232e44764fa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 46831a7b5c4672dd3d65142803aa77bbf2fce807
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145479"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521813"
 ---
-# <a name="analyzing-report-data-with-excel"></a>Analysing Report Data with Excel
+# <a name="analyzing-report-data-with-excel-and-xml"></a>Analysing Report Data with Excel and XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
-As a developer or advanced user, it helps to inspect the data that is generated for a given report dataset while you create new reports or modify existing ones. To support this capability, you can export a report dataset as raw data to an Excel worksheet&mdash;directly from report request page in the client. In Excel, you can then do ad-hoc analysis of the data and diagnose issues.
+As a developer or advanced user, it helps to inspect the data that is generated for a given report dataset while you create new reports or modify existing ones. To support this capability, you can export a report dataset as raw data to an Excel workbook or XML file&mdash;directly. In Excel, for example, you can then do ad-hoc analysis of the data and diagnose issues.
 
 ## <a name="get-started"></a>Get started
 
-To export a report dataset to Excel, open the report in the client, then in the request page, select **Send to** > **Microsoft Excel Document (data only)**. 
+To export a report dataset to an Excel workbook or XML file, open the report in the client, then in the request page, select **Send to** > **Microsoft Excel Document (data only)** or **XML Document**. The file will be downloaded to your device.
+
+## <a name="more-about-excel-data-only"></a>More about Excel (data only)
 
 **Microsoft Excel Document (data only)** option exports the report results and the criteria that was used to generate them&mdash;but it doesn't include the report layout. The Excel file will include the full dataset, as raw data, arranged in rows and columns. All data columns of the report's dataset are included, regardless of whether they're used in the report layout.
 

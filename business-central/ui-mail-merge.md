@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fe9717f871fdc1db782ceeda4cbad267abddca90
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: afc3391712ca33ae01d916dc4f9ed2421a0451f0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383434"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519525"
 ---
-# <a name="using-word-templates-for-bulk-communication"></a>Using Word Templates for Bulk Communication
+# <a name="use-word-templates-for-bulk-communication"></a>Use Word Templates for Bulk Communication
 Microsoft Word templates can make it easier to mass communicate in print or email with entities such as contacts, customers, and suppliers. For example, you can create brochures to alert customers about a sales campaign, letters to inform suppliers about a new purchasing policy, or invitations to attract contacts to an upcoming event.
 
 > [!NOTE]
@@ -55,7 +55,7 @@ When your Word template is ready, on the **Word Templates** page you can choose 
 
 You can apply templates to one or more of the same type of entity, such as a contact, directly in the context of that page, or from the Word Templates page to apply the template to all of the entities of that type.
 
-## <a name="using-word-templates-with-email"></a>Using Word Templates with Email
+## <a name="use-word-templates-with-email"></a>Use Word Templates with Email
 You can use Word templates to add content to email messages. When you compose an email, you can choose the **Use Word Template** action to apply the content of a template to the message. This requires that you have created one or more template for the entity. You can use one template at a time, and when you switch between templates the message changes to reflect the content from the chosen template.
 
 Additionally, you can use the **Add File from Word Template** action to attach the content of the template to the email as a file. The file will use the format you specified for the template output.

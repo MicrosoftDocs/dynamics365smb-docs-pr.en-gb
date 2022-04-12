@@ -10,12 +10,12 @@ ms.search.keywords: check, clearing
 ms.search.form: 1231, 1232, 1233, 1234
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a45ac4ca08f49a3ac27d93e31086ef06c167d971
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1e3ef74e8d407f9cafb2b67131167bdbfefe4872
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130595"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517557"
 ---
 # <a name="export-a-positive-pay-file"></a>Export a Positive Pay File
 To make sure that your bank only clears validated cheques and amounts, you can export a Positive Pay file that contains supplier information, cheque number, and payment amount, which you send to the bank for reference when you process payments.
@@ -61,8 +61,8 @@ To reexport Positive Pay files
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with General Journals](ui-work-general-journals.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

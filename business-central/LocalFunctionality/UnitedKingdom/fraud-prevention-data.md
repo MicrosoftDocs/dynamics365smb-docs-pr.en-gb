@@ -4,14 +4,15 @@ description: Business Central supports the British requirement to submit fraud p
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: fraud prevention, making tax digital, making tax digital software, hmrc, tax
-ms.date: 06/30/2021
+ms.search.form: 10539, 743
+ms.date: 02/16/2022
 ms.author: edupont
-ms.openlocfilehash: 421780d57f66c053c809ce4aef29a1e938993968
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fcca31e2fb04cc927db5e84d7cde989ad0759f57
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147320"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514246"
 ---
 # <a name="send-fraud-prevention-data-in-the-united-kingdom"></a>Send Fraud Prevention Data in the United Kingdom
 
@@ -82,11 +83,25 @@ When you run the **Get Current Headers** process in the **HMRC Fraud Prevention 
 |Gov-Supplier-Public-IP|The public IP address of the servers the originating device sent their requests to.|`Gov -Vendor-Public-IP: 203.0.113.6`|Search for *what is my public ip address?*.|
 |Gov-Supplier-Forwarded|A list that details bops over the internet between services that terminate Transport Layer Security (TLS).|`Gov-vendor-Forwarded:by=203.0.113.6&for=198.51.100.0`|`by` = public ID. `for` = local IP.|
 
+## <a name="ip-addresses"></a>IP addresses
+
+Since March 2022, you must specify an endpoint for the service that your company uses to extract and submit the IP address of the user who sends the VAT report. This is a requirement of HMRC so that they can validate the sender. The endpoint must be specified in the **User IP Address Service** field in the **VAT Report Setup** page. For more information, see [Set up VAT reporting](../../finance-setup-vat.md#set-up-vat-reporting).  
+
+Your company can sign up for any of the following endpoints:
+
+* [https://api.db-ip.com/v2/free/self](https://api.db-ip.com/v2/free/self)  
+* [https://www.cloudflare.com/cdn-cgi/trace](https://www.cloudflare.com/cdn-cgi/trace)  
+* [https://api.ipify.org](https://api.ipify.org)  
+* [https://jsonip.com](https://jsonip.com)  
+
+> [!IMPORTANT]
+> The **User IP Address Service** field is available in version 19.5 and later.
+
 ## <a name="see-also"></a>See Also
 
 [Making Tax Digital](making-tax-digital-submit-vat-return.md)  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
 [Customising [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
-[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

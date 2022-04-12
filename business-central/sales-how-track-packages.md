@@ -7,12 +7,12 @@ ms.search.keywords: rfq
 ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8124aa575b7cc1883ce4509834583651c6746b2b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334493"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518946"
 ---
 # <a name="track-packages"></a>Track Packages
 Most shipping agents provide a web service that let you track the status of your packages while they're en route. That information can be useful in many business processes, for example, when providing customer service. If you use one or more shipping agents, you can enter some basic information about them, and then use their package tracking service directly from the Posted Sales Shipments, Posted Sales Invoices, Posted Sales Credit Memos, and Posted Return Receipt pages. For more information, see [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md). 
@@ -36,7 +36,7 @@ The following procedure shows how to track a package from a posted sales shipmen
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

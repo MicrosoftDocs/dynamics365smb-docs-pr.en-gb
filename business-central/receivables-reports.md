@@ -4,14 +4,15 @@ description: See which reports and analytics are available in the standard versi
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: 0ef32a974a86253a6418c2f0b1d3cc99cba0921c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f674102844cf6dd6c5c93aa0036f8b73f10b8b61
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143407"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514784"
 ---
 # <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Sales Ledger Reports and Analytics in Business Central
 
@@ -24,7 +25,7 @@ To help you manage your sales ledger in [!INCLUDE [prod_short](includes/prod_sho
 ## <a name="see-also"></a>See also 
 
 [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
-[Working with Dimensions](finance-dimensions.md)  
+[Work with Dimensions](finance-dimensions.md)  
 [Managing Fixed Assets](fa-manage.md)  
 [Local Functionality Overview](about-localization.md)  
 [Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  

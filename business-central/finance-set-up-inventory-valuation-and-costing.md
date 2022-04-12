@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8dd8b86e7ff07b9500c094bd2e570dbb6a371754
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6b7289aff7d111804806bb1afbdfb822c9922492
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142088"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520315"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Setting Up Inventory Valuation and Costing
 
@@ -42,9 +42,9 @@ The following table describes a sequence of tasks, with links to the topics that
 [Set Up General Inventory Information](inventory-how-setup-general.md)  
 [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Setup Best Practices: Costing Method](setup-best-practices-costing-method.md)  
-[Design Details: Inventory Costing](design-details-inventory-costing.md)  
+[Design Details: Stock Costing](design-details-inventory-costing.md)  
 [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)  
-[Working with Business Central](ui-work-product.md)  
+[Work with Business Central](ui-work-product.md)  
 [Finance](finance.md)  
 
 

@@ -3,12 +3,12 @@ metadata:
   title: Copy and paste data FAQ
   description: Get answers to frequently asked questions about copying and pasting data from fields and rows from Business Central pages.
   ms.topic: faq
-  ms.openlocfilehash: a8c70088338b022802cf72d9a77da1c4e8263af1
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: d2fa68425d164e47b0618a4c00e8e685afba6647
+  ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
   ms.translationtype: HT
   ms.contentlocale: en-GB
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8133817"
+  ms.lasthandoff: 04/01/2022
+  ms.locfileid: "8528430"
 title: Copy and Paste FAQ
 summary: "You can copy one or more rows (records) from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email).  \n\nIn short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS). There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows). This article answers common questions you might have about copying and pasting.  \n"
 sections:
@@ -73,4 +73,7 @@ sections:
   - question: Why do I get errors when pasting rows?
     answer: >
       When pasting into [!INCLUDE[prod_short](includes/prod_short.md)], each row is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid values before you paste them.
-additionalContent: "## <a name=\"next-steps\"></a>Next steps\nFind related information here: \n  - [Assistive Features](ui-accessibility.md)  \n  - [Getting Ready for Doing Business](ui-get-ready-business.md)  \n  - [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Frequently Asked Questions](across-faq.yml)"
+  - question: Can I also copy links to pages and records?
+    answer: >
+      Yes. For more information, see [Sharing Business Data from Business Central](across-share-data-features.md).
+additionalContent: "## <a name=\"next-steps\"></a>Next steps\nFind related information here: \n  - [Assistive Features](ui-accessibility.md)  \n  - [Getting Ready for Doing Business](ui-get-ready-business.md)  \n  - [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Frequently Asked Questions](across-faq.yml)"

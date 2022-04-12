@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 01/27/2022
 ms.author: bholtorf
-ms.openlocfilehash: 39700bcb00aadf4a567da0487db58c17aefe58af
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381756"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517980"
 ---
 # <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
 
@@ -240,12 +240,20 @@ Role explorer gives you an overview and quick access to all the business feature
 |Shift F3 or Ctrl+Up Arrow|Move focus to the previous found feature in role explorer.|
 |Ctrl+Shift|Expand or collapse all sub-nodes, in addition to top-level nodes, when you choose the **Expand** or **Collapse** action.|
 
+##  <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a> Numeric Keypad Shortcuts
+
+The following table describes the shortcuts on a numeric keypad.
+
+|Press these keys<br />(in macOS)|To do this|
+|--------------------------------|----------|
+|Alt+Decimal Separator|Switch the output of the decimal separator key to either a period (.) or the character determined by the **Region** setting of the **My Settings** page. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).|
+
 ## <a name="see-also"></a>See also 
 
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.yml)  
 [Find Entries](ui-find-entries.md)  
 

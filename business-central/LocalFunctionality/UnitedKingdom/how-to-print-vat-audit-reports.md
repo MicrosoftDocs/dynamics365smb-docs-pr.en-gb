@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 317, 320
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d19e9aa5d8e26165b1fe4f9a6dc35ecb6036318b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb06de415bf26fecbb75789979e6e6b808e23e45
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129287"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520510"
 ---
 # <a name="print-vat-audit-reports-in-the-british-version"></a>Print VAT Audit Reports in the British Version
 
@@ -70,7 +70,7 @@ In the United Kingdom, all suppliers must export the data required for auditing 
 
 ## <a name="see-also"></a>See Also
 
-[Working with Reports, Batch Jobs, and XMLports](../../ui-work-report.md)  
+[Work with Reports, Batch Jobs, and XMLports](../../ui-work-report.md)  
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
 

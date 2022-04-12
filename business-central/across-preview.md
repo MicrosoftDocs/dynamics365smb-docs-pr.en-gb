@@ -8,12 +8,12 @@ ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
 ms.date: 02/22/2022
 ms.author: edupont
-ms.openlocfilehash: 48d8ee794c9259a19b22dfcb7c6203f489bf3534
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: ce516bc49fce32c969097fbf17bb2a927f3db491
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366243"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511331"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions
 
@@ -103,7 +103,7 @@ The administrator of your [!INCLUDE[prod_short](includes/prod_short.md)] and you
 [Business Central Quick Starts](quick-start-business-central.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Extending Your Trial Version](admin-extend-trial.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.yml)  
 [How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner)  
 [Migrate Data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

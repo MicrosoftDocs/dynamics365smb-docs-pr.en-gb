@@ -1,20 +1,20 @@
 ---
-title: How to Change VAT Setup in Journals | Microsoft Docs
+title: Change VAT Setup in Journals
 description: You can add VAT setup information to journal lines if needed. If you enter items without VAT, you do not need to remove VAT setup information manually.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 39
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f1c7da2ecec414ef3301d67c64f2f40b36ad4885
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3924c2c30fb5d9cd354de1c7077b7cfa1301ab6d
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147982"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417501"
 ---
 # <a name="change-vat-setup-in-journals"></a>Change VAT Setup in Journals
 

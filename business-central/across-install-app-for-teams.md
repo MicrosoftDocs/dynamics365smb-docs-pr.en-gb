@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: e19db53137980b986dabc933ae56d33a5a768350
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd127d1b313a0c060ef676c74f0df83e01896b53
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141522"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516454"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams
 
@@ -59,8 +59,8 @@ This option is the quickest way to install the app.
 4. Choose the app when you find it.
 5. Choose **Add**.
 
-> [!NOTE]
-> With either option, You may be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)]. Select the **sign in** link, and follow the instructions to enter sign-in name and password for [!INCLUDE [prod_short](includes/prod_short.md)].
+> [!TIP]
+> If you paste a link to a Business Central page into a Team conversation, and you don't have the app installed, you'll get a message like: **Business Central wants to show a preview of this link.** To install the app, select **Show Preview** and follow the instructions.
 
 **Option 3: From Business Central**
 
@@ -68,6 +68,9 @@ This option is the quickest way to install the app.
 2. Choose the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Get the Business Central app for Teams**, and then choose the related link.  
 3. Choose **Get the app from store**.
 4. Wait for Teams to open and the Business Central app to appear, then choose **Add**.
+
+> [!NOTE]
+> With either option, you may be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)]. Select the **sign in** link, and follow the instructions to enter sign-in name and password for [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="next-step"></a>Next step
 

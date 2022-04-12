@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ec39dfd6a8b9c209060fbd5d17ba429c56a6f92f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6ff238b213de72210908c89eae1da180a1a10fb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136485"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519310"
 ---
 # <a name="enable-workflows"></a>Enable Workflows
 When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.  
@@ -31,7 +31,7 @@ When you have created a workflow and you are sure that it is ready to start, you
  [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)   
  [Delete Workflows](across-how-to-delete-workflows.md)   
  [Setting Up Workflows](across-set-up-workflows.md)   
- [Using Workflows](across-use-workflows.md)   
+ [Use Workflows](across-use-workflows.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Workflow](across-workflow.md)   
 

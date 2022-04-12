@@ -10,12 +10,12 @@ ms.search.keywords: print check, customize
 ms.search.form: 374, 404
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7be12b5fe3c6bac93a6ea51454a193ba76320a8e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ed0cf9383ed635e3f7b940ef4f28943ffb6bc1a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149056"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518110"
 ---
 # <a name="select-a-check-layout"></a>Select a Cheque Layout
 
@@ -40,8 +40,7 @@ When you have set up cheque layouts, you can print cheques from the **Payment Jo
 
 To change one of these default cheque layouts, use either the Word or the RDLC integration to do so. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
-## <a name="using-micr-and-security-fonts"></a>Using MICR and Security Fonts
-
+## <a name="use-micr-and-security-fonts"></a>Use MICR and Security Fonts
 The online version of [!INCLUDE[prod_short](includes/prod_short.md)] contains pre-installed fonts on the servers that can be used when defining cheque layouts. The following outlines which fonts are available and has links to detailed information by the 3rd-party suppliers of the fonts.
 
 > [!Important]
@@ -100,7 +99,7 @@ Fonts for other purposes are also available in [!INCLUDE[prod_short](includes/pr
 [Managing Payables](payables-manage-payables.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)   
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 
 

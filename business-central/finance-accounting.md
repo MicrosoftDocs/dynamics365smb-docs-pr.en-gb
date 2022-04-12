@@ -10,12 +10,12 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0f6594ae1e23f4047ff2bd8e44945eaf4284940c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 538efe22006246cd4e5d78efb7e9678166688274
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142296"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523456"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -104,10 +104,10 @@ If you want to give access to multiple companies, then you must log into each co
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Closing Years and Periods](year-close-years-periods.md)  
-[Working with Dimensions](finance-dimensions.md)  
+[Work with Dimensions](finance-dimensions.md)  
 [Analyzing Financial Statements in Excel](finance-analyze-excel.md)  
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
 
 

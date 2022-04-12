@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ef6e6561ca2a7c3d51a192e6565242dc6f82505b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 768cb420274450d38000fd6ffe8073c0c842f75a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140976"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519024"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Recording Interactions with Contacts Automatically
 You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, emails, phone calls, such as:
@@ -32,7 +32,7 @@ To open the **Interaction Template Setup** page, choose the ![Lightbulb that ope
 
 ## <a name="see-also"></a>See Also
 [Recording Interactions With Contacts](marketing-interactions.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

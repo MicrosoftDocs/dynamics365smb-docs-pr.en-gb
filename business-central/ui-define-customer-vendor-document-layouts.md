@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4b417c689c02a0252e3967379e33a88386ad694f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cbd0fbea2e1567875dd7bda556271f693234a502
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147473"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510746"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Define Document Layouts for Customers and Suppliers
 When custom report layouts are defined, you can select them from customer and supplier cards to specify which layouts will be used for different types of documents that you create for the customer or supplier in question. The value in the **Usage** field, defines which process the document layout will be used for, such as **Reminder**, **Shipment**, and **Confirmation**.
@@ -59,8 +59,8 @@ The email address of the contact is now inserted on the document layout line so 
 [Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Managing Report Layouts](ui-manage-report-layouts.md)  
-[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
-[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+[Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+[Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
