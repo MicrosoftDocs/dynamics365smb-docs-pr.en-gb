@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 54aed7a30225d074ab6651df63771924c7c1cd97
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523482"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557360"
 ---
 # <a name="update-currency-exchange-rates"></a>Update Currency Exchange Rates
 
@@ -69,11 +69,17 @@ The **Adjust Exchange Rates** batch job is used to manually adjust the exchange 
 > [!TIP]
 > You can use a service to update exchange rates in the system automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). However, this does not adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Adjust Exchange Rates** batch job.
 
+You can preview the effect that an adjustment will have on posting before you actually post by choosing **Preview** on the **Adjust Exchange Rates** page. Additionally, you can select whether the general ledger posting will be detailed (per entry) or summarised (per currency) by choosing **Summarise Entries**. You can also specify how to handle dimensions for unrealised gains and losses postings by choosing one of the following options in the **Transfer Dimension Values** field:  
+
+- **Source Entry**: G/L entries for unrealised gains and losses will have dimensions values transferred from the adjusted entry.
+- **By G/L Account**: G/L entries for unrealised gains and losses will have dimensions values transferred from the unrealised gains and losses G/L account's dimension settings source entry.
+- **No Transfer**: G/L entries for unrealised gains and losses won't have dimensions values.
+
 ### <a name="effect-on-customers-and-vendors"></a>Effect on Customers and Suppliers
 
 For customer and supplier accounts, the batch job adjusts the currency by using the exchange rate that is valid on the posting date that is specified in the batch job. The batch job calculates the differences for the individual currency balances and posts the amounts to the general ledger account that is specified in the **Unrealised Gains Acc.** field or the **Unrealised Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the receivables/payables account in the general ledger.
 
-The batch job processes all open customer ledger entries and supplier ledger entries. If there is an exchange rate difference for an entry, the batch job creates a new detailed customer or supplier ledger entry, which reflects the adjusted amount on the customer or supplier ledger entry.
+The batch job processes all open customer ledger entries and vendor ledger entries. If there is an exchange rate difference for an entry, the batch job creates a new detailed customer or supplier ledger entry, which reflects the adjusted amount on the customer or supplier ledger entry.
 
 #### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensions on Customer and Supplier Ledger Entries
 

@@ -5,14 +5,14 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: fraud prevention, making tax digital, making tax digital software, hmrc, tax
 ms.search.form: 10539, 743
-ms.date: 02/16/2022
+ms.date: 04/08/2022
 ms.author: edupont
-ms.openlocfilehash: fcca31e2fb04cc927db5e84d7cde989ad0759f57
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 09050f952469211492a8911d96ac91f8edd7eb0c
+ms.sourcegitcommit: 2b65d01f06ca9c6847cfd1ea01a830490bddc0cb
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514246"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557544"
 ---
 # <a name="send-fraud-prevention-data-in-the-united-kingdom"></a>Send Fraud Prevention Data in the United Kingdom
 
@@ -85,7 +85,7 @@ When you run the **Get Current Headers** process in the **HMRC Fraud Prevention 
 
 ## <a name="ip-addresses"></a>IP addresses
 
-Since March 2022, you must specify an endpoint for the service that your company uses to extract and submit the IP address of the user who sends the VAT report. This is a requirement of HMRC so that they can validate the sender. The endpoint must be specified in the **User IP Address Service** field in the **VAT Report Setup** page. For more information, see [Set up VAT reporting](../../finance-setup-vat.md#set-up-vat-reporting).  
+Starting in 2022, you must specify an endpoint for the service that your company uses to extract and submit the IP address of the user who sends the VAT report. This is a requirement of HMRC so that they can validate the sender. The endpoint must be specified in the **User IP Address Service** field in the **VAT Report Setup** page. For more information, see [Set up VAT reporting](../../finance-setup-vat.md#set-up-vat-reporting).  
 
 Your company can sign up for any of the following endpoints:
 
@@ -95,7 +95,7 @@ Your company can sign up for any of the following endpoints:
 * [https://jsonip.com](https://jsonip.com)  
 
 > [!IMPORTANT]
-> The **User IP Address Service** field is available in version 19.5 and later.
+> The **User IP Address Service** field is available in version 20.1 and later.
 
 ## <a name="see-also"></a>See Also
 

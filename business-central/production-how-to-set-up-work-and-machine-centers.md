@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 52f84c4c4b30aa09094806e238fe4f72232f5e62
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 639a0a8cc8c7c3efa9e7331a1db45dc031f4515b
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517902"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557230"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Set Up Work Centres and Machine Centres
 
@@ -39,18 +39,19 @@ The following primarily describes how to set up a work centre. The steps to set 
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. In the **Work Centre Group** field, select the higher-level resource grouping that the work centre is organised under, if relevant. Choose the **New** action in the drop-down list.  
-5. Select the **Blocked** field if you want to prevent the work centre from being used in any processing. This means that output cannot be posted for an item that is produced at the work centre. For more information, see [Post Production Output](production-how-to-post-output-quantity.md).
-6. In the **Direct Unit Cost** field, enter the cost of producing one unit of measurement at this work centre, excluding any other cost elements. This cost is often referred to as the *direct labour rate*.  
-7. In the **Indirect Cost %** field, enter the general operation costs of using the work centre as a percentage of the direct unit cost. This percentage amount is added to the direct cost in the calculation of the unit cost.  
-8. In the **Overhead Rate** field, enter any non-operational costs, for example maintenance expenses, of the work centre as an absolute amount.  
+5. In the **Alternate Work Centre** field, select the work centre to use if this work centre isn't available or when demand exceeds its capacity. The alternate work centre is for information only, and isn't automatically included in planning processes.
+6. Select the **Blocked** field if you want to prevent the work centre from being used in any processing. This means that output cannot be posted for an item that is produced at the work centre. For more information, see [Post Production Output](production-how-to-post-output-quantity.md).
+7. In the **Direct Unit Cost** field, enter the cost of producing one unit of measurement at this work centre, excluding any other cost elements. This cost is often referred to as the *direct labour rate*.  
+8. In the **Indirect Cost %** field, enter the general operation costs of using the work centre as a percentage of the direct unit cost. This percentage amount is added to the direct cost in the calculation of the unit cost.  
+9. In the **Overhead Rate** field, enter any non-operational costs, for example maintenance expenses, of the work centre as an absolute amount.  
 
     The **Unit Cost** field contains the calculated unit cost of producing one unit of measurement at this work centre, including all cost elements, as follows:  
 
     Unit Cost = Direct Unit Cost + (Direct Unit Cost x Indirect Cost %) + Overhead Rate.  
 
-9. In the **Unit Cost Calculation** field, define whether the above calculation should be based on the amount of time used:  **Time**, or on the number of produced units:  **Units**.  
-10. Select the **Specific Unit Cost** field if you want to define the work centre's unit cost on the routing line where it is being used. This may be relevant for operations with dramatically different capacity costs than what would normally be processed at that work centre.  
-11. In the **Flushing Method** field, select whether output posting at this work centre should be calculated and posted manually or automatically, using either of the following methods.
+10. In the **Unit Cost Calculation** field, define whether the above calculation should be based on the amount of time used:  **Time**, or on the number of produced units:  **Units**.  
+11. Select the **Specific Unit Cost** field if you want to define the work centre's unit cost on the routing line where it is being used. This may be relevant for operations with dramatically different capacity costs than what would normally be processed at that work centre.  
+12. In the **Flushing Method** field, select whether output posting at this work centre should be calculated and posted manually or automatically, using either of the following methods.
 
     |Option|Description|
     |------|-----------|
@@ -61,17 +62,17 @@ The following primarily describes how to set up a work centre. The steps to set 
     > [!NOTE]
     > If necessary, the flushing method selected here, can be overridden for individual operations by changing the setting on routing lines
 
-12. In the **Unit of Measurement Code** field, enter the time unit in which this work centre's cost calculation and capacity planning are made.
+13. In the **Unit of Measurement Code** field, enter the time unit in which this work centre's cost calculation and capacity planning are made.
     In order to be able to constantly monitor consumption, you must first set up a method of measure. The units you enter are basic units. For example, the processing time is measured in hours and minutes.
 
     > [!NOTE]  
     > If you select to use Days then remember that 1 day = 24 hours - and not 8 (working hours).
 
-13. In the **Capacity** field, define whether the work centre has more than one machine or person working at the same time. If your [!INCLUDE[prod_short](includes/prod_short.md)] installation does not include the Machine Centre functionality, then the value in this field must be **1**.  
-14. In the **Efficiency** field, enter the percentage of the expected standard output that this work centre actually outputs. If you enter **100**, it means that the work centre has an actual output that is the same as the standard output.  
-15. Select the **Consolidated Calendar** check box if you are also using machine centres. This ensures that calendar entries are rolled up from machine centre calendars.  
-16. In the **Shop Calendar Code** field, select a shop calendar. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
-17. In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work centre. 
+14. In the **Capacity** field, define whether the work centre has more than one machine or person working at the same time. If your [!INCLUDE[prod_short](includes/prod_short.md)] installation does not include the Machine Centre functionality, then the value in this field must be **1**.  
+15. In the **Efficiency** field, enter the percentage of the expected standard output that this work centre actually outputs. If you enter **100**, it means that the work centre has an actual output that is the same as the standard output.  
+16. Select the **Consolidated Calendar** check box if you are also using machine centres. This ensures that calendar entries are rolled up from machine centre calendars.  
+17. In the **Shop Calendar Code** field, select a shop calendar. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
+18. In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work centre. 
 
 > [!NOTE]
 > Use queue times to provide a buffer between the time that a component arrives at a machine or work centre and when the operation actually starts. For example, a part is delivered to a machine Centre at 10.00 but it takes an hour to mount it on the machine so the operation does not start until 11.00. To account for that hour, the queue time would be one hour. The value of the **Queue Time** field on a machine or work centre card plus the sum of the values in the **Setup Time**, **Run Time**, **Wait Time**, and **Move Time** fields on the item routing line combine to give the production lead time of the item. This helps provide accurate overall production times.  
