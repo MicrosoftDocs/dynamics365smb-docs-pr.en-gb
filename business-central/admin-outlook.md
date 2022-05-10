@@ -7,19 +7,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
-ms.date: 08/13/2021
+ms.search.form: 1831, 1832
+ms.date: 04/27/2022
 ms.author: jswymer
-ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a2c0754aed38d80fc4a088ab7dccec81cb0141e0
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518344"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654923"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Get the Business Central Add-in for Outlook
 
-With [!INCLUDE[prod_short](includes/prod_short.md)], you can manage business interactions with your customers and suppliers, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook add-in, you can see financial data related to customers and suppliers. You can also create and send financial documents, such as quotes and invoices.  
+With [!INCLUDE[prod_short](includes/prod_short.md)], you can manage business interactions with your customers and suppliers, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook add-in, you'll  see financial data related to customers and vendors. You can also create and send financial documents, such as quotes and invoices.  
 
 There are two ways to get the Business Central add-in for Outlook installed, depending on your role in the organisation:
 
@@ -42,6 +42,9 @@ The Business Central add-in for Outlook consists of two smaller add-ins:
 For more information about what you do with the add-ins, see [Use Business Central as your Business Inbox in Outlook](work-outlook-addin.md).
 
 Each add-in is provided as an XML file, called a *manifest*, which must be installed in Outlook of anyone who wants this functionality. These files describe how to activate the add-ins and connect to Business Central when they're used in Outlook. Working with these files is typically done by an admin. As a normal user, in most cases, you won't have to handle with these files directly. Either your admin will set up the add-in to install automatically for you or you'll use the built-in assisted setup to handle the installation.
+
+> [!IMPORTANT]
+> Working with multiple environments? The Business Central add-in for Outlook is designed to work with a single Business Central environment. When the add-in is installed, the name of the environment is included in the add-in's manifest. This configuration means that the add-in will only connect to the environment that it was installed from. To use the add-in with a different environment, you'll open the environment and install the add-in again.
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Deploy the add-in by using Centralised Deployment as an admin
 

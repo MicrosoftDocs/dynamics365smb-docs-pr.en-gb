@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6996c82ee184db980879ea98a6f2cbdca1b10852
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 5f75b1b7e4f08af7ff02c43ec30ec39c234f7704
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557200"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626402"
 ---
 # <a name="create-jobs"></a>Create Jobs
 When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.  
@@ -72,23 +72,6 @@ A job planning line can have one of the following types.
 3. Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.  
 4. On the **Job Planning Lines** page, on a new line, fill in the fields as necessary.
 5. Repeat steps 3 and 4 for all planning lines that you need for the job task.
-
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Create inventory and warehouse pick documents for a job
-To create inventory and warehouse pick documents for jobs, your administrator must enable **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
-
-The feature adds the **Create Inventory Pick** and **Create Warehouse Pick** actions to the **Job Card**. To create or register a pick document, use the **Put-away/Pick Lines/Movement Lines** or **Registered Pick Lines** actions.
-
-You can use the actions under the following conditions:
-* The **Status** of the job is **Open**.
-* The **Line Type** of the job planning line is **Budget** or **Both Budget and Billable**.
-* The **Type** of the job planning line is **Item**.
-* **Require Pick** is enabled for the related location.
-* **Directed Pick and Put-away** is disabled.
-
-> [!NOTE] 
-> Although the setting is called **Require Pick**, you can still post consumption directly from the job journal line for the location. If your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** page to organise and print the picking information. You also use the page to enter and post the result of the pick, which in turn posts the consumption of the items. 
-> 
-> If your location is set up to require both pick and shipment processing, meaning that you have chosen both the **Require Pick** and **Require Shipment** fields on the **Location Card** page, use the **Warehouse Pick** page to handle the pick. Warehouse picks are similar to inventory picks. The difference is that rather than posting the picking information you register the pick. This registration doesn't post consumption, it just makes the items available for posting. As a warehouse manager, you can use a pick worksheet to organise pick information before creating the individual warehouse pick instructions
 
 ## <a name="see-also"></a>See Also
 

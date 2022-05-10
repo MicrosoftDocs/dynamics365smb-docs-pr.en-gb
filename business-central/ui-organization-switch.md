@@ -4,15 +4,15 @@ description: If you do work for multiple organisations, you can quickly switch b
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1190a09a1e4cb67cb5a7f75732a18980f0aff4aa
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7a874890fe88b32668b309edb43563f8d11e7555
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514368"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655391"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Switching to Another Company or Environment
 
@@ -24,6 +24,8 @@ ms.locfileid: "8514368"
 > If you often switch between companies, or work with [!INCLUDE[prod_short](includes/prod_short.md)] from within another app like Microsoft Teams, it can be easy to lose track of where you are. To help you keeping track, you can add a badge that will display the company name, so you can quickly verify that you're in the right place. For more information, see [To display a company badge for quick access to company information](ui-change-basic-settings.md#badge).
 
 Depending on your browser, you can also pin the different companies to your favourites bar.  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="switch-to-another-environment"></a>Switch to Another Environment
 
