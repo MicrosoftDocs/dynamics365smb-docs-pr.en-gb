@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ca22eaadb8ba4054ce22782881b487cab6bd5c4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bc6530a17e98d36a3f26e68e6231306aebfdda1d
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521787"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729782"
 ---
 # <a name="make-drop-shipments"></a>Make Drop Shipments
 
@@ -30,28 +30,35 @@ When a sales order is marked for drop shipment, and you create a purchase order 
 To prepare a drop shipment, you create a sales order for an item and indicate on the sales line that the sale requires drop shipment.
 
 1. Create a sales order for an item. For more information, see [Sell Products](sales-how-sell-products.md).
-2. On the sales order line for the drop shipment, select the **Drop Shipment** check box. Use the **Choose Columns** function if the field is not visible. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
+2. On the sales order line for the drop shipment, select the **Drop Shipment** check box. 
+
+> [!TIP]
+> By default, the Drop Shipment check box isn't available on the lines. If it isn't, you can add it by personalising the section of page that contains the lines. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>To create the purchase order for drop shipment
 
 To prepare a drop shipment, you indicate on the purchase order that it must be shipped to your customer, not to yourself.
 
-1. Create a purchase order. Do not fill any fields on the lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
+1. Create a purchase order. Don't fill any fields on the lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 2. In the **Ship-to** field, select **Customer Address**.
-3. In the **Customer** field, select the customer that you are selling to.
+3. In the **Customer** field, select the customer that you're selling to.
 4. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
 5. On the **Sales List** page, select the sales order that you prepared in [To create a sales order for drop shipment](#to-create-a-sales-order-for-drop-shipment).
 6. Choose the **OK** button.
 
 The line information from the sales order is inserted on the purchase order line(s).
 
-You can now instruct the supplier to ship the items to your customer, for example, by mailing the purchase order as a PDF. If your vendor provides a tracking number or similar information, you can choose to record that information in a purchase order line of type *Comment*.  
+You can now tell your vendor to ship the items directly to the customer. For example, you might send them the order by email. 
+
+If your vendor provides a tracking number or similar information, you can add that information in a purchase order line of type *Comment*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>To create multiple purchase orders for drop shipments
 
-You can also use the requisition worksheet to create the purchase order for the supplier. The advantage of using the requisition worksheet is that it can create purchase orders for all outstanding drop shipments, so you don't have to create each one individually.
+You can also use the requisition worksheet to create the purchase order for the supplier. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requistion Worksheets**, and then choose the related link.
+The advantage of using the requisition worksheet is that it can create purchase orders for all outstanding drop shipments. That means you won't have to create each one individually.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requisition Worksheets**, and then choose the related link.
 2. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
 3. Choose the **OK** button.
 4. Review the purchase order lines, and in the **Supplier No.** field, select supplier that supplies required goods. 

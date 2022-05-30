@@ -5,14 +5,14 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: fraud prevention, making tax digital, making tax digital software, hmrc, tax
 ms.search.form: 10539, 743
-ms.date: 04/08/2022
+ms.date: 04/11/2022
 ms.author: edupont
-ms.openlocfilehash: 09050f952469211492a8911d96ac91f8edd7eb0c
-ms.sourcegitcommit: 2b65d01f06ca9c6847cfd1ea01a830490bddc0cb
+ms.openlocfilehash: 58c632b7d248177b2d087ef66a53ebcc8c032455
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557544"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740357"
 ---
 # <a name="send-fraud-prevention-data-in-the-united-kingdom"></a>Send Fraud Prevention Data in the United Kingdom
 
@@ -95,7 +95,7 @@ Your company can sign up for any of the following endpoints:
 * [https://jsonip.com](https://jsonip.com)  
 
 > [!IMPORTANT]
-> The **User IP Address Service** field is available in version 20.1 and later.
+> The **User IP Address Service** field is available in version 20.1 and later. Your admin can manage your organisation's version of [!INCLUDE [prod_short](../../includes/prod_short.md)] in the admin centre.
 
 ## <a name="see-also"></a>See Also
 

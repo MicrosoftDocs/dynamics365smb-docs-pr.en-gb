@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
-ms.date: 03/23/2022
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: 52d8c0fb735bb0667f2219f5ed73e914e236014a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 77a58c9e4cfc5e9a744d66d0f6b62c06cb430d6b
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512159"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729808"
 ---
 # <a name="create-users-according-to-licenses"></a>Create Users According to Licences
 
@@ -28,9 +28,9 @@ For more information about the different types of licences and how licensing wor
 
 ## <a name="manage-users-and-licenses-in-online-tenants"></a>Manage users and licences in online tenants
 
-In the online version of [!INCLUDE[prod_short](includes/prod_short.md)], your subscription defines the number of users you're allowed. Users are added to your tenant in the Microsoft Partner Centre, typically by your Microsoft partner. For more information, see [Add a new customer](/partner-center/add-a-new-customer) and [Create, suspend, or cancel customer subscriptions](/partner-center/create-a-new-subscription) in the Microsoft Partner Centre help.
+Your subscription to [!INCLUDE[prod_short](includes/prod_short.md)] online defines the number of users you're allowed. Users are added to your tenant in the Microsoft Partner Centre, typically by your Microsoft partner. For more information, see [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
-To define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)], you assign product licences to users according to the work they'll do in [!INCLUDE[prod_short](includes/prod_short.md)]. You can assign licences in several ways:
+You assign product licences to users according to the work each user will do in [!INCLUDE[prod_short](includes/prod_short.md)]. You can assign licences in several ways:
 
 - Your company's Microsoft 365 administrator can do it in the [Microsoft 365 Admin Centre](https://admin.microsoft.com). For more information, see [Add users individually or in bulk to Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - A Microsoft partner can assign licences in the Microsoft 365 Admin Centre or in the Microsoft Partner Centre. For more information, see [User management tasks for customer accounts](/partner-center/assign-licenses-to-users) in the Microsoft Partner Centre Help.
@@ -39,10 +39,14 @@ For more information, see [Administration of Business Central Online](/dynamics3
 
 > [!NOTE]
 > After you add users in the Microsoft 365 Admin Centre, we recommend that you update the user information in [!INCLUDE[prod_short](includes/prod_short.md)] as soon as possible. Keeping user information current is easy to do, and helps ensure that people can always sign in. For more information, see [To add users or update user information and licence assignments in Business Central](#adduser).<br>
-> 
-> Updating user information is especially important if you've customised permission sets for the licence. If a new user tries to sign in to [!INCLUDE[prod_short](includes/prod_short.md)] before you've added them, they might not be able to. For more information, see [Configure permissions based on licences](#licensespermissions). 
-> 
+>
+> Updating user information is especially important if you've customised permission sets for the licence. If a new user tries to sign in to [!INCLUDE[prod_short](includes/prod_short.md)] before you've added them, they might not be able to. For more information, see [Configure permissions based on licences](#licensespermissions).
+>
 > However, users who experience this problem aren't actually blocked. They can either use the **Go back home** action, or simply sign in again to resolve the issue.
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
+
+For more information, see [Delegated administrator access to Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
 ### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Configure permissions based on licences
 
@@ -50,7 +54,7 @@ For more information, see [Administration of Business Central Online](/dynamics3
 
 Admins can configure permissions sets and user groups based on the different licence types.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
 
-For example, the commonly used licence, *Dynamics 365 Business Central Team Member*, is set up by default to have the user groups *D365 Team Member* and *Excel Export Action* plus the following permissions sets:
+For example, the commonly used licence, *Dynamics 365 Business Central Team Member*, has the user groups *D365 Team Member* and *Excel Export Action* plus the following permissions sets by default:
 
 - D365 READ
 - D365 TEAM MEMBER
@@ -58,7 +62,7 @@ For example, the commonly used licence, *Dynamics 365 Business Central Team Memb
 - EXPORT REPORT EXCEL
 - LOCAL
 
-If this is not the right setup for a particular tenant, the admin can change that configuration. However, customised permissions will affect only new users who are assigned that licence. Permissions for existing users who are assigned the licence will not be affected.  
+If this default configuration isn't the right setup for a particular tenant, the admin can change that configuration. However, customised permissions will affect only new users who are assigned that licence. Permissions for existing users who are assigned the licence won't be affected.  
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.  
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Licence Configuration**, and then choose the related link.  
@@ -67,19 +71,20 @@ If this is not the right setup for a particular tenant, the admin can change tha
 3. In the **Licence Configuration** page, choose the licence that you want to customise, and then choose the **Configure** action.  
 4. Choose the **Customise permissions** field to switch on customisation, and then make the relevant changes.  
 
-    In our example, the admin wants to remove the permission to edit in Excel, so they remove the *Excel Export Action* user group from the Team Member licence. Going forward, new users that are assigned the Team Member licence will not get the option to export data to Excel. If the organisation changes their minds about this, they can just go back to the **Licence Configuration** page and switch off the customisation for that licence type.  
+    In our example, the admin wants to remove the permission to edit in Excel, so they remove the *Excel Export Action* user group from the Team Member licence. Going forward, new users that are assigned the Team Member licence won't get the option to export data to Excel. If the organisation changes their minds on the subject, they can just go back to the **Licence Configuration** page and switch off the customisation for that licence type.  
 
 > [!IMPORTANT]
 > This customisation of permissions only take effect for new users that you assign the relevant licence. Existing users are not updated. We recommend that you customise permissions before you start assigning users licences in the Microsoft 365 admin centre.
 
 ### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>To add users or update user information and licence assignments in Business Central
-After you add users or change user information in the Microsoft 365 Admin Centre, you can quickly import the user information to [!INCLUDE[prod_short](includes/prod_short.md)]. The import includes licence assignments. 
+
+After you add users or change user information in the Microsoft 365 Admin Centre, you can quickly import the user information to [!INCLUDE[prod_short](includes/prod_short.md)]. The import includes licence assignments.  
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
 3. Choose **Update Users from Microsoft 365**.
 
-When adding new users, the next step is to assign user groups and permissions. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). If you're updating user information, and the update includes a licence change, users are assigned to the appropriate user group and their permission sets are updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
+For new users, the next step is to assign user groups and permissions. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). If you're updating user information, and the update includes a licence change, users are assigned to the appropriate user group and their permission sets are updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
 
 > [!NOTE]
 > All users in an environment must be assigned to the same licence, either Essential or Premium. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/business-central/overview/) website.
@@ -91,7 +96,7 @@ For more information about synchronising user information with Microsoft 365, se
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>To remove a user's access to the system
 
-In online deployments, you can remove a user's access to [!INCLUDE[prod_short](includes/prod_short.md)]. All references to the user are kept. However, the user can't sign in and active sessions for the user are stopped.
+You can remove a user's access to [!INCLUDE[prod_short](includes/prod_short.md)] online. All references to the user are kept. However, the user can't sign in and active sessions for the user are stopped.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Open the **User Card** page for the relevant user, and then, in the **Status** field, select **Disabled**.
