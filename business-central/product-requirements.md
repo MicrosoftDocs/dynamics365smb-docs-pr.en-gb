@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 03/31/2022
+ms.date: 06/08/2022
 ms.author: jswymer
-ms.openlocfilehash: 8a2c342f31dc4c17bb34af22ffc912dcc51c5cf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 05ff8b9acb0c69f42c8ad36ab8a588c9b597424a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514420"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950443"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimum Requirements for Using Business Central
 
@@ -22,17 +22,20 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 
 ## <a name="browsers"></a>Browsers
 
-**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of the new Microsoft Edge.
+**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of Microsoft Edge.
   
-**Chrome for Windows and Firefox for Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of these desktop browsers. The Business Central desktop app doesn't work with Firefox.
+**Chrome for Windows and Firefox for Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of these desktop browsers.
  
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of Safari on macOS.  
 
+> [!TIP]
+> Install the [!INCLUDE[prod_short](includes/prod_short.md)] [app in the Start menu](install-desktop-app.md#install-the-app-for-business-central-online) using the Microsoft Edge or Chrome browsers.
+
 ## <a name="mobile-devices"></a>Mobile devices
 
-**Android (tablet and phone):** One of the latest three major versions and their updates.
+**Android (tablet and phone):** One of the latest three major operating system versions and their updates.
 
-**iOS (iPad and iPhone):** One of the latest three major versions and their updates.
+**iOS (iPad and iPhone):** One of the latest three major operating system versions and their updates.
 
 ## <a name="outlook"></a>Outlook
 
@@ -51,7 +54,9 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 
 **Browsers:** When using the [!INCLUDE[prod_short](includes/prod_short.md)] app for Teams in the browser (web client), the app requires that your computer is running one of the supported browsers listed earlier in this article. 
 
-**Platforms:** When using the [!INCLUDE[prod_short](includes/prod_short.md)] app in Teams for iOS or Android, the app requires that your mobile device is running one of the supported mobile platforms, listed earlier in this article.
+**Platforms:** When using the [!INCLUDE[prod_short](includes/prod_short.md)] app in Teams for iOS or Android, the app requires that your mobile device is running one of the supported mobile platforms listed earlier in this article.
+
+**Supported subscription:** The [!INCLUDE[prod_short](includes/prod_short.md)] app for Teams supports Microsoft 365 Business and Enterprise subscriptions, but not standalone Teams subscriptions such as Microsoft Teams (free) or Microsoft Teams Essentials.
 
 ## <a name="excel"></a>Excel
 
@@ -64,18 +69,22 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 
 The administration centre is designed to work with the current version of the following browsers:
 
-- The new Microsoft Edge
+- Microsoft Edge
 - Chrome for Windows
 - Firefox for Windows
 - Safari for macOS
 
 ## <a name="use-business-central-on-premises"></a>Use Business Central on-premises
 
-If you want to deploy Business Central on-premises, you should check the system requirements. For more information, see [System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) and [Deployment Overview](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+If you want to deploy Business Central on-premises, you should check the system requirements. For more information, see [System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20) and [Deployment Overview](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## <a name="see-also"></a>See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)  
+[System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20)  
+[Getting the Business Central Desktop App](install-desktop-app.md)  
+[Getting Business Central on Your Mobile Device](install-mobile-app.md)  
+[Managing Business Interactions in Microsoft Outlook](admin-outlook.md)  
+[Business Central and Microsoft Teams Integration](across-teams-overview.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.search.form: 1638, 6702, 6704
-ms.date: 06/16/2021
+ms.date: 05/20/2022
 ms.author: edupont
-ms.openlocfilehash: c0abb4d4389dd3896f1aceedb42d51aca0e61000
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4423b51e7cac952bb2abcf41f9e9364d7bc098c0
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139580"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799723"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Bulk Invoicing for Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-If your company uses the Bookings app in Microsoft 365, you can do bulk invoicing for appointments. The **Uninvoiced Bookings** page in [!INCLUDE[prod_short](includes/prod_short.md)] provides a list of the company's completed bookings. In this page you can quickly select the appointments that you want to invoice and create draft invoices for the services provided.  
+If your company uses the Bookings app in Microsoft 365, you can do bulk invoicing for appointments. The **Bookings Not Invoiced** page in [!INCLUDE[prod_short](includes/prod_short.md)] provides a list of the company's completed bookings. In this page you can quickly select the appointments that you want to invoice and create draft invoices for the services provided.  
 
 ## <a name="connect-to-bookings"></a>Connect to Bookings
 
@@ -28,7 +28,7 @@ To connect your [!INCLUDE[prod_short](includes/prod_short.md)] with Bookings, yo
 For example, if you want to synchronise customers between Bookings and [!INCLUDE[prod_short](includes/prod_short.md)], you must specify the default template to use to add new customers in [!INCLUDE[prod_short](includes/prod_short.md)] based on the customers in your Bookings company.  
 
 > [!NOTE]
-> The Bookings app is designed to book appointments for individual customers rather than companies. The synchronisation with [!INCLUDE[prod_short](includes/prod_short.md)] will, therefore, only synchronise customer contacts with a Type of "Person". An email address is also required for the contact to synchronise.  
+> The Bookings app is designed to book appointments for individual customers rather than companies. The synchronisation with [!INCLUDE[prod_short](includes/prod_short.md)] will, therefore, only synchronise customer contacts with a Type of *Person*. An email address is also required for the contact to synchronise.  
 
 Similarly, if you want to synchronise service items between Bookings and [!INCLUDE[prod_short](includes/prod_short.md)], you must specify the default template to use to add new service items in [!INCLUDE[prod_short](includes/prod_short.md)] based on the services in our Bookings company.  
 
@@ -37,9 +37,12 @@ Similarly, if you want to synchronise service items between Bookings and [!INCLU
 
 ## <a name="invoice-appointments"></a>Invoice Appointments
 
-When it is time to send invoices for the completed bookings, you go to the **Uninvoiced Bookings** page. Depending on how often the information is synchronised, the list is long or short. You can create invoices for all bookings in the list or one booking at a time. You can select one or more entries in the list and invoice those only.  
+When it is time to send invoices for the completed bookings, you go to the **Bookings Not Invoiced** page. Depending on how often the information is synchronised, the list is long or short. You can create invoices for all bookings in the list or one booking at a time. You can select one or more entries in the list and invoice those only.  
 
 The support for invoicing appointments from Bookings is simpler than the fuller workflow of working with sales quotes, sales orders, and sales invoices. For more information, see [Invoice Sales](sales-how-invoice-sales.md). You can choose to sell your services using [!INCLUDE[prod_short](includes/prod_short.md)] or choose to use Bookings, depending on your business needs.  
+
+> [!NOTE]
+> In May 2022, we discovered an issue in the integration with Bookings. Currently, the sync from Bookings to [!INCLUDE [prod_short](includes/prod_short.md)] requires you to manually associate the invoices with customers in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="see-also"></a>See Also
 

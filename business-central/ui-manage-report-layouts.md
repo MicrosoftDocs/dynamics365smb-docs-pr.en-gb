@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fed722bb5929da100c1c92e63aebb1f10cf53d0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fa615d3e0753b7f1aa9cd602168a393849765079
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520689"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950232"
 ---
 # <a name="report-and-document-layouts-overview"></a>Report and Document Layouts Overview
 
@@ -23,6 +23,8 @@ A report layout controls content and format of the report, including which data 
 
 > [!NOTE]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)], the term "report" also covers externally-facing documents, such as sales invoices and order confirmations that you send to customers as PDF files.
+
+You can also use report layouts to add content to email messages. For example, report layouts can save time and help ensure consistency by reusing the same content when you communicate with your customers. To use custom report layouts with email, the file type for the layout must be Word. You cannot use the RDLC file type. For more information, see [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="introduction"></a>Introduction
 

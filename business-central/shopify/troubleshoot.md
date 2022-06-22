@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 01ff5ab1c5e6f132098f914f6bfe97e097cc88b0
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ff2e4aca52f479e461dab0d9d0f0ce4958d19353
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768221"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808876"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Troubleshooting the Shopify and Business Central Synchronisation
 
@@ -56,9 +56,8 @@ If [!INCLUDE[prod_short](../includes/prod_short.md)] can't connect to your Shopi
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the shop for which you want to get the access token to open the **Shopify Shop Card** page.
-3. In the **Code** field, enter the code.  
-4. Choose the **Request Access** action.
-5. If prompted sign-in to your Shopify account.
+3. Choose the **Request Access** action.
+4. If prompted, sign in to your Shopify account.
 
 ## <a name="see-also"></a>See Also
 

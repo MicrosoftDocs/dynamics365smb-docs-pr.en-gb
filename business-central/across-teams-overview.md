@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 03/04/2022
 ms.author: jswymer
-ms.openlocfilehash: 4ee154f242eebb65f9ef61453c8ff51c770f2713
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5252d3e595b3ae0246646fe7eafe910cdf4da2f0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511240"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805055"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central and Microsoft Teams Integration
 
@@ -65,7 +65,7 @@ For more information, see [Share Records and Page Links in Microsoft Teams](acro
     If you’re not sure whether you have an account, or if you don’t know your credentials for signing in, contact your company administrator to help you get started.
 
     > [!TIP]
-    > If your organisation doesn't have a [!INCLUDE [prod_short](includes/prod_short.md)] subscription, you can sign up for a free trial. For more information, see [Getting Started with a Trial](across-preview.md#get-started-with-a-trial).
+    > If your organisation doesn't have a [!INCLUDE [prod_short](includes/prod_short.md)] subscription, you can sign up for a free trial. For more information, see [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md).
 
 2. As an administrator, see [Managing Microsoft Teams Integration with Business Central](admin-teams-integration.md) for information about getting users set up to work with [!INCLUDE [prod_short](includes/prod_short.md)] and Teams.
 3. Install [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. See [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).

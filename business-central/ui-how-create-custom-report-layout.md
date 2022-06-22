@@ -8,37 +8,39 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 04/01/2021
+ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 74a59567c7eb24673df62fe76b974c9b7bb58bf0
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 5e25685241e85a1a90ac23c7eb47f9808f3239b9
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557184"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950389"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>(Legacy) Create and Modify Custom Report Layouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-By default, a report will have a built-in report layout, which can be either an RDLC report layout, a Word report layout, or both. You can't modify built-in layouts, but you can create custom layouts. A report can have multiple custom report layouts, which lets you switch the layout that is used as needed.
+By default, reports have a built-in report layout. The layout can be either an RDLC report layout, a Word report layout, or both. You can't modify built-in layouts, but you can create custom layouts. A report can have multiple custom report layouts.
 
 > [!NOTE]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)], the term "report" also covers externally-facing documents, such as sales invoices and order confirmations that you send to customers as PDF files.
 
-To create a custom layout, you either make a copy of an existing custom layout or add a new custom layout, which is often based on a built-in layout. When you add a new custom layout, you can choose to add an RDLC or Word report layout type, or both. The new custom layout will be based on the built-in layout for the report, if one is available. If there's no built-in layout for the type, a new blank layout is a created. You'll have to modify and design this blank layout from scratch. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Manage Report Layouts](ui-manage-report-layouts.md).  
+To create a custom layout, either copy an existing custom layout or add a new custom layout. Custom layouts are often based on a built-in layout. When you add a new custom layout, you can choose to add an RDLC or Word report layout type, or both. The new custom layout will be based on the built-in layout for the report, if one is available. If there's no built-in layout for the type, a new blank layout is a created. You'll have to modify and design this blank layout from scratch. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Manage Report Layouts](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Use account schedules to get insight into the financial data stored in your chart of accounts. For more information, see [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md).
 
-When custom report layouts are defined, you can select them from customer and supplier cards to specify that the selected layouts will be used for documents that you create for the customer or supplier in question. For more information, see [Define Document Layouts for Customers and Suppliers](ui-define-customer-vendor-document-layouts.md).
+After you define custom report layouts, you can select them on the Customer Card and Vendor Card pages. The layouts will be used when you create documents for the customer or vendor. For more information, see [Define Document Layouts for Customers and Suppliers](ui-define-customer-vendor-document-layouts.md).
+
+You can also use custom report layouts to add content to email messages. Report layouts can save time and help ensure consistency by reusing the same content when you communicate with your customers. To use custom report layouts with email, the file type for the layout must be Word. You can't use the RDLC file type. For more information, see [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="to-create-a-custom-layout"></a>To create a custom layout
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
 
     The **Report Layout Selection** page lists all the reports that are available in the company that is specified in the **Company Name** field at the top of the page.
-2. Set the **Company** field to the company in which you want to create the report layout.
+2. In the **Company Name** field, choose the company for which you want to create the report layout.
 3. Select the row for the report that you want to create the layout for, and then choose the **Custom Layouts** action.  
 
    The **Custom Report Layouts** page appears and lists all the custom layouts that are available for the selected report.
@@ -47,8 +49,8 @@ When custom report layouts are defined, you can select them from customer and su
    The copy of the custom layout appears on the **Custom Report Layouts** page and has the words *Copy of* in the **Description** field.
 5. If you want to add a new custom layout that is based on a built-in layout, do the following steps:  
    1. Choose the **New** action. The **Insert Built-in Layout for a Report** page appears. The **ID** and **Name** fields are automatically filled in.
-   2. To add a custom Word report layout type, select the **Insert Word Layout** check box.
-   3. To add a custom RDLC report layout type, select the **Insert RDLC Layout** check box.
+   2. To add a custom Word report layout type, turn on the **Insert Word Layout** toggle.
+   3. To add a custom RDLC report layout type, turn on the **Insert RDLC Layout** toggle.
    4. Choose the **OK** button.  
 
     The new custom layout now appears on the **Custom Report Layouts** page. If a new layout is based on a built-in layout, then it has the words **Copy of a Built-in Layout** in the **Description** field. If there was no built-in layout for the report, then the new layout has the words **New Layout** in the **Description** field, which indicates that custom layout is blank.

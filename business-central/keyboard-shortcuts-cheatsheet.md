@@ -1,20 +1,20 @@
 ---
 title: PC Keyboard Shortcuts Quick Reference
 description: A print-friendly reference sheet containing the most popular keyboard shortcuts for PC users.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2021
-ms.author: bholtorf
-ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 399dd54ea89937dc29def09831688642a9889742
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511604"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799541"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Keyboard Quick Reference - PC Only
 
@@ -27,6 +27,7 @@ ms.locfileid: "8511604"
 |Alt+Shift+N|Close a newly created record and create a new one|
 |Alt+O|Add a new note for the selected record|
 |Alt+Q|Open **Tell me**|
+|Ctrl+Alt+Q|Open **Find Entries**|
 |Alt+Up|Open tooltip or validation error|
 |Alt+Down Arrow|Open a drop-down or look up|
 |Alt+T|Open the **My Settings** page|
@@ -34,7 +35,7 @@ ms.locfileid: "8511604"
 |Ctrl+Insert|Insert a new line on a document|
 |Ctrl-Delete|Delete the line on a document, journal, or worksheet|
 |Ctrl+Shift+F12|Maximise the line items part on a document page|
-|Ctrl+F1|Open help for the page<br />Navigate when personalising and customising|
+|Ctrl+F1|Open the help pane or a help article|
 |Ctrl+Click|Navigate when personalising and customising|
 |Shift+F12|Open the role explorer, a feature overview|
 |F5/Ctrl+F5|Refresh/reload page|

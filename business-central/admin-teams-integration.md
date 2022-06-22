@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 03e283bc2664b1f73a56c48fefdde9cba78918d2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147041"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799778"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Managing Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -30,16 +30,18 @@ This section describes the minimum requirements for the [!INCLUDE [prod_short](i
 
 - Required licences
 
-    This table gives you an overview of the licences needed for the [!INCLUDE [prod_short](includes/prod_short.md)] app features to work in Teams.
+    The [!INCLUDE[prod_short](includes/prod_short.md)] app requires a Teams licence through a Microsoft 365 Business or Enterprise subscription. Standalone Teams subscriptions such as Microsoft Teams (free) or Microsoft Teams Essentials aren't supported.
 
-    |What|Teams licence|[!INCLUDE [prod_short](includes/prod_short.md)] licence|
-    |----|---|---|
-    |Search for [!INCLUDE [prod_short](includes/prod_short.md)] contacts.|![check mark.](media/check.png "cheque")|![check mark](media/check.png "cheque")|
-    |Paste a link to a [!INCLUDE [prod_short](includes/prod_short.md)] record into a conversation, and send it as a card.|![check mark](media/check.png "cheque")|![check mark](media/check.png "cheque")|
-    |Share a link from a page in [!INCLUDE [prod_short](includes/prod_short.md)] to Teams conversation.|![check mark](media/check.png "cheque")|![check mark](media/check.png "cheque")|
-    |View a card of a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "cheque")||
-    |View more details of card for a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "cheque")|![check mark](media/check.png "cheque")|
-    |Open a page link in [!INCLUDE [prod_short](includes/prod_short.md)] from a conversation.|![check mark](media/check.png "cheque")|![check mark](media/check.png "cheque")|
+    Most features of the [!INCLUDE[prod_short](includes/prod_short.md)] app for Teams also require a [!INCLUDE [prod_short](includes/prod_short.md)] licence, as shown in the following table.
+
+    |What|[!INCLUDE [prod_short](includes/prod_short.md)] licence|
+    |----|---|
+    |Search for [!INCLUDE [prod_short](includes/prod_short.md)] contacts.|![check mark](media/check.png "cheque")|
+    |Paste a link to a [!INCLUDE [prod_short](includes/prod_short.md)] record into a conversation, and send it as a card.|![check mark](media/check.png "cheque")|
+    |Share a link from a page in [!INCLUDE [prod_short](includes/prod_short.md)] to Teams conversation.|![check mark](media/check.png "cheque")|
+    |View a card of a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.||
+    |View more details of card for a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "cheque")|
+    |Open a page link in [!INCLUDE [prod_short](includes/prod_short.md)] from a conversation.|![check mark](media/check.png "cheque")|
 
 - Allow URL previews
 

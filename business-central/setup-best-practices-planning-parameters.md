@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 6cb63f5fcc6f3fcf4262214c8fb162a6835b0c50
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d8be2d8c3b9602c1a3e78f6cc4ba495af93730d3
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513660"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950180"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Setup Best Practices: Planning Parameters
 The **Planning** FastTab on the item card is the centre of a company’s supply chain. Setting the correct planning parameters is very important for cost-effective inventory control and high customer service.  
@@ -24,7 +24,7 @@ The **Planning** FastTab on the item card is the centre of a company’s supply 
 |Setup field|Best practice|Comment|  
 |-----------------|-------------------|-------------|  
 |Reordering Policy||For more information, see [Setup Best Practices: Reordering Policies](setup-best-practices-reordering-policies.md).|  
-|Reserve|Select **Never** when the item is planned using a reorder point.<br /><br /> In manufacturing, select **Never** to allow the planning system to cover all demands.<br /><br /> Select **Optional** for items that you may want to reserve for top-priority customers.<br /><br /> Select **Always** for non-unique items, such as items of type miscellaneous that are inbound for specific demands.|Reservations generally counteract the purpose of planning, which is to balance demand and supply. Therefore, items that are set up for planning should generally not be reserved.<br /><br /> If the user reserves a inventory quantity for future demand, then the planning foundation will be disturbed, and the reorder point may not work correctly. Even if the projected inventory level is acceptable with regard to the reorder point, the quantities may not be available because of the reservation.|  
+|Reserve|Select **Never** when the item is planned using a reorder point.<br /><br /> In manufacturing, select **Never** to allow the planning system to cover all demands.<br /><br /> Select **Optional** for items that you may want to reserve for top-priority customers.<br /><br /> Select **Always** for unique items (Non-Standard type of Items), such as items of type miscellaneous that are inbound for specific demands.|Reservations generally counteract the purpose of planning, which is to balance demand and supply. Therefore, items that are set up for planning should generally not be reserved.<br /><br /> If the user reserves a inventory quantity for future demand, then the planning foundation will be disturbed, and the reorder point may not work correctly. Even if the projected inventory level is acceptable with regard to the reorder point, the quantities may not be available because of the reservation.|  
 |Dampener Period|Set with regard to the supplier’s flexibility.<br /><br /> A shorter period enables you to reduce working capital by avoiding excessive stock, but will also cause more rescheduling actions.|If the supplier accepts last-minute changes to orders, then use a shorter period, but be prepared for more rescheduling actions. If the supplier requires firm planning, then extend the period as much as possible.<br /><br /> For information about the **Dampener Period** field , see [Design Details: Planning Parameters](design-details-planning-parameters.md).|  
 |Include Inventory|Always select when you are using the Lot-for-Lot reordering policy.|Do not select only in special situations, such as when inventory items are not sellable.|  
 |Safety Lead Time|Set between 1D and 6D.<br /><br /> Set a safety lead time of at least one day to make sure that supplies are available on the day before they are needed.<br /><br /> If using a new supplier, define a longer time until their delivery performance is known.<br /><br /> In manufacturing, define longer safety lead times for critical components.|Supply that is planned by the system to avoid a stock-out will arrive on the same day that the stock-out occurs. This may be several hours too late if, for example, the demand is needed in the morning and the supply arrives in the afternoon. **Note:**  The **Safety Lead Time** field uses the base calendar. Therefore, 14D is not necessarily two weeks.|  

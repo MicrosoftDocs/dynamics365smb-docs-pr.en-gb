@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654975"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805237"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Create New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -32,11 +32,11 @@ If you decide to add a company to your [!INCLUDE[prod_short](includes/prod_short
 The setup wizard offers two templates and a blank option:
 
 - **Evaluation - Sample Data**  
-    This creates a company that is similar to the demonstration company with sample data and setup data. This type of company is available to you without switching to [a 30-day trial period](across-preview.md#add-your-own-data-to-an-empty-trial-company), which the other types do.  
+    This creates a company that is similar to the demonstration company with sample data and setup data. This type of company is available to you without switching to a 30-day trial period, which the other types do.  
 - **Production - Setup Data Only**  
-    This creates a company that is similar to **My Company** with setup data but without sample data. You'll be able to use this company for [a 30-day trial period](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    This creates a company that is similar to **My Company** with setup data but without sample data. You'll be able to use this company for a 30-day trial period.  
 - **Create New - No Data**  
-    This creates a blank company without setup data. You'll be able to use this company for [a 30-day trial period](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    This creates a blank company without setup data. You'll be able to use this company for a 30-day trial period.  
 
 If you want to get started easily with a new company, choose **Production - Setup Data Only** and then import your own business data, such as customers, items, and vendors. Choose the **New** template if you want to set up everything from scratch. In that case, you can use the **Company Setup** assisted setup guide to help you get started with essential setup data.  
 
@@ -44,6 +44,8 @@ If you want to get started easily with a new company, choose **Production - Setu
 > When you create a new company, it takes a few minutes before you can access it in [!INCLUDE[prod_short](includes/prod_short.md)]. The setup status on the **Companies** page shows when the new company is ready for you. Then, you can switch to the new company by using **My Settings**.  
 
 During your 30 day trial, you can create any number of new companies, but they'll only be available during your trial. For more information, contact your [!INCLUDE[prod_short](includes/prod_short.md)] partner. See also the [Dynamics 365 Business Central trial FAQ](trial-faq.md) article.  
+
+Your administrator can learn more about trials and subscriptions [here](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ## <a name="copy-a-company"></a>Copy a company
 
@@ -84,7 +86,6 @@ The Contoso Coffee app provides demonstration data to help you explore the advan
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Trials and Subscriptions](across-preview.md)  
 [Understanding the Infrastructure of Business Central Online (English only)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

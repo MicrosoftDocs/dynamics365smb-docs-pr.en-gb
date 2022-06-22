@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516220"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799619"
 ---
 # <a name="set-up-prepayments"></a>Set Up Prepayments
 
@@ -92,6 +92,19 @@ An order may have a prepayment percentage on the sales header, and a different p
 4. The prepayment percentage on the sales or purchase header.  
 
 In other words, the prepayment percentage on the customer card will only apply if there is no prepayment percentage set up for the item. However, if you change the contents of the **Prepayment Percentage** field on the sales or purchase header after you create the lines, the prepayment percentage on all of the lines will be updated. This makes it easy to create an order with a fixed prepayment percentage, regardless of the percentage set up on items.
+
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>To automatically release sales orders when prepayments are applied
+
+You can save time by setting up a job queue entry that will automatically release sales orders that require prepayment after payments are applied. Automating the process saves you the step of releasing the sales order.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
+2. In the **Prepmt. Auto Update Frequency** field, specify how often you want the job queue entry to run.
+
+> [!TIP]
+> While you're here, consider adding a safeguard against shipping or invoicing sales orders that have unpaid premayment amounts. If you turn on the **Check Prepmt. when Posting** toggle, [!INCLUDE[prod_short](includes/prod_short.md)] will prevent people from posting orders with outstanding prepayment amounts.
+
+3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
+4. Set up the **Upd. Pending Prepmt. Sales** job queue entry, for example, by using the settings on the **Recurrence** FastTab to schedule how often you want it to run. For more informaiton, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
 ## <a name="see-also"></a>See Also  
 

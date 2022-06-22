@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 09/29/2021
+ms.date: 05/25/2022
 ms.author: edupont
-ms.openlocfilehash: 7f9d04f5437ab37273fd02f8c40b3f44b3247b9c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26c988bcfce774dfa05b77c52347cfcf83106309
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513583"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805133"
 ---
 # <a name="get-ready-for-doing-business"></a>Get Ready for Doing Business
 
@@ -77,6 +77,28 @@ When users are created in Microsoft 365, they can be imported into the **Users**
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] For more information, see [Resources for Help and Support](product-help-and-support.md).  
 
+### <a name="set-up-your-company-in-prod_short"></a>Set up your company in [!INCLUDE[prod_short](includes/prod_short.md)]
+
+The [quick start](quick-start-business-central.md) articles can help you take the first steps into setting up [!INCLUDE [prod_short](includes/prod_short.md)] for your organisation. Inside [!INCLUDE [prod_short](includes/prod_short.md)], the **Assisted Setup** page lists the assisted setup guides that can help you. Depending on your role and country or region, the page shows different assistant setup guides as illustrated in the following table:
+
+| Assisted Setup | Description |
+| -------------- | ----------- |
+| Set Up My Company |Creates a new trial company for you to enter data and try out [!INCLUDE[prod_short](includes/prod_short.md)]. |
+| Set Up Approval Workflows |Sets up the ability to automatically notify an approver when a user tries to create or change certain values on documents, journal lines, or cards. For example, you can set up approval of amounts above a specified limit. |
+| Set Up Email |Gets you ready for sending email messages directly from, for example, sales orders or contacts in [!INCLUDE[prod_short](includes/prod_short.md)]. |
+| Set Up Your Business Inbox in Outlook |Gets you ready to manage business interactions with your customers and suppliers, directly in Microsoft Outlook. |
+| Migrate Business Data |Lets you import your existing company data such as suppliers, customers, and items from Excel or Quickbooks. |
+| Set Up Email Logging |Sets up the capability to log email correspondence in [!INCLUDE[prod_short](includes/prod_short.md)] to follow up on interactions. |
+| Set Up an Item Approval Workflow |Sets up the ability to send a notification to an approver when a user changes or creates an item. |
+| Set Up a Customer Approval Workflow |Sets up the ability to automatically notify an approver when a user tries to create or change a customer card. |
+| Set Up a Payment Approval Workflow |Sets up the ability to send a notification to an approver when a user sends payment journal lines for approval. |
+| Set Up Dynamics 365 Sales Connection |Sets up a connection to Dynamics 365 Sales, which allows you to synchronise data such as contacts and sales order information. |
+| Set Up Cash Flow Forecast |Sets up the Cash Flow Forecast chart, so you can view the predicted movement of cash in and out of your business. The chart is available on the **Accountant Role Center**. |
+| Set Up Reporting Data|Sets up data sets that you can use to build powerful reports using Excel or Power BI, for example. |
+| Invite External Accountant |If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your financial data. |
+
+The **Assisted Setup** page may contain other entries. When you go through a setup, the setup will be marked as **Completed**. You can set up other areas of the company by using manual setup. For more information, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+
 ## <a name="next-steps"></a>Next steps
 
 Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **Actions** section of your home page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration. Check out the [quick start](quick-start-business-central.md) articles to help you take the first steps.  
@@ -88,13 +110,13 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Company Information Overview](admin-company-information.md)  
 [Accessibility and Keyboard Shortcuts](ui-accessibility.md)  
-[Trials and Subscriptions](across-preview.md)  
 [Business Functionality](across-business-functionality.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Search in the help pane](product-help-and-support.md#search-in-the-help-pane)  
 [Resources for Help and Support](product-help-and-support.md)  
 [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Migrate Data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+[Trials and Subscriptions](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

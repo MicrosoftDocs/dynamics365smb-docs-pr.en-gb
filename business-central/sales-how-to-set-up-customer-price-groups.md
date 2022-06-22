@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: customer price groups, discounts, sales prices
 ms.date: 09/30/2021
 ms.author: edupont
-ms.openlocfilehash: 9b2ff8cca6abf8c1f849039deff5a441427bf112
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9abd79500966a946228834166ef554e6a3e70911
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143147"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950072"
 ---
 # <a name="set-up-customer-price-groups"></a>Set Up Customer Price Groups
   
@@ -63,6 +63,9 @@ After you have set up the customer price groups, you can enter the customer pric
 
 ## <a name="see-also"></a>See Also
 
+[Sales](sales-manage-sales.md)  
+[Setting Up Sales](sales-setup-sales.md)  
 [Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)  
+[Setting Up Customer Discount Groups](sales-how-to-set-up-customer-discount-groups.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

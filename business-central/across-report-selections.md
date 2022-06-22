@@ -7,27 +7,27 @@ ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
 ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9106b1ac3f6b179e26c8dfb01212b88e92b694fe
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512463"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950206"
 ---
 # <a name="report-selection-in-business-central"></a>Report Selection in Business Central
 
-You can set up default reports that will be used to print the various documents for sales and purchases, such as orders, quotes, invoices, and credit memos. For example, if you have a specific layout for sales invoices, you can specify that report in the **Report Selections - Sales** page so that it will be used to send or print sales invoices.  
+You can set up default reports to use to print documents for sales and purchases, such as orders, quotes, and invoices. For example, if you have a specific layout for sales invoices, you can specify that report in the **Report Selections - Sales** page so that it will be used to send or print sales invoices.  
 
-The **Report Selections** pages specify which report will be printed in different situations. [!INCLUDE [prod_short](includes/prod_short.md)] includes default configurations, but of course you can change these defaults. You can also add reports to the **Report Selection** pages if you want to print more than one report per document type, for example.  
+The **Report Selections** pages specify which report will be printed in different situations. [!INCLUDE [prod_short](includes/prod_short.md)] provides default configurations, but you can change them if needed. You can also add reports to the **Report Selection** pages if you want to print more than one report per document type, for example.  
 
 ## <a name="available-report-selections"></a>Available report selections
 
-[!INCLUDE [prod_short](includes/prod_short.md)] includes different **Report Selection** pages for different areas. The following tables describes where you can find information about the different pages.  
+[!INCLUDE [prod_short](includes/prod_short.md)] includes different **Report Selection** pages for different areas. The following table describes where you can find information about the different pages.  
 
 |Area or task  |Learn more|
 |--------------|----------|
 |Example of how report selection works (Sales)|[Report selection for sales documents](#example-report-selection-for-sales-documents)|
-|Default layout for emails with sales and purchase documents  |[Set Up Reusable Email Texts and Layouts for Sales and Purchase Documents](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents) |
+|Default layout for emails with sales and purchase documents  |[Set Up Reusable Email Texts and Layouts for Sales and Purchase Documents](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts) |
 |Define check layouts     |[Select a Cheque Layout](finance-how-define-check-layouts.md) |
 |Define reports for VAT reporting (Germany)|[Set Up Reports for VAT and Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
@@ -51,19 +51,19 @@ The **Report Selection - Sales** page defines the default reports to use in diff
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-Some types of document can be sent as email attachments, and others cannot. Each **Report Selection** page shows additional fields if the type support email out of the box.  
+Some types of documents can be sent as email attachments, and others can't. If a type of document can be sent by email, the **Report Selection** page will contain extra fields.  
 
 For example, in the **Report Selection - Sales** and **Report Selection - Purchase** pages, the following fields help you set up emailing:
 
 |Field name |Description  |
 |-----------|-------------|
-|**Use for Email Body**| Specifies that summarised information, such as invoice number, due date, and payment service link, will be inserted in the body of the email that you send.        |
-|**Use for Email Attachment**| Specifies that the related document will be attached to the email.|
-|**Email Body Layout Description**|Specifies the email body layout that is used, typically a custom report layout. |
+|**Use for Email Body**| Insert summarised information, such as invoice number, due date, and payment service link, in an email.        |
+|**Use for Email Attachment**| Attach the related document to the email.|
+|**Email Body Layout Description**|Specify the email body layout to use. Typically, the layout is a custom report layout. |
 
 ## <a name="see-also"></a>See also 
 
-[Set Up Reusable Email Texts and Layouts for Sales and Purchase Documents](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents)  
+[Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Select a Cheque Layout](finance-how-define-check-layouts.md)  
 [Set Up Reports for VAT and Intrastat (Germany)](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  

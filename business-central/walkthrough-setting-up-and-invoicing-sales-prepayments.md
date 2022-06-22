@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2fcc04c05274922a13131178d16c3e27e0b18da1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: aa5e24755b44b2ce7b36a9a6062bf0168c5ddb89
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518738"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799566"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Walkthrough: Setting Up and Invoicing Sales Prepayments
 
@@ -95,9 +95,9 @@ Phyllis requires all customers to be invoiced a 20% deposit for item 1896-S. Cus
 
     |**Sales Type**|**Sales Code**|**Item No.**|**Prepayment %**|  
     |--------------------|--------------------|------------------|----------------------|  
-    |**Customer**|**20000**|**1896-S**|**40**|  
-    |**All Customers**| |**1896-S**|**20**|  
-
+    |**Customer**|**20000**|**1896-S**|**40**|
+    |**Customer**|**20000**|**1900-S**|**30**|  
+    
     > [!TIP]
     > Depending on your country/region, you must also specify a tax group code on the **Costs & Posting** FastTab for item 1896-S. When you use the demonstration company, this field is already set.
 

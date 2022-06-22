@@ -101,13 +101,13 @@
 ## Try
 ### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)
 ### [Dynamics 365 Business Central trial FAQ](trial-faq.md)
-### [Trials and Subscriptions](across-preview.md)
+### [Trials and Subscriptions (English only)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
 ### [Get Ready for Doing Business](ui-get-ready-business.md)
 ### [Troubleshoot Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ### [Extend Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Buy
-### [Get Started with a Subscription](across-preview.md#get-started-with-a-subscription)
+### [Get Started with a Subscription](trial-signup.md#get-started-with-a-subscription)
 ### [Get Ready for Doing Business](ui-get-ready-business.md)
 
 ## Quick Starts
@@ -358,6 +358,7 @@
 #### [About Stock Costing](finance-learn-about-costing.md)
 #### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 #### [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
+#### [About Unit Cost Calculation](finance-about-calculating-unit-cost.md)
 #### [Design Details: Stock Costing](design-details-inventory-costing.md)
 #### [Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)
 #### [Set Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)
@@ -1424,6 +1425,7 @@
 ##### [US Sales Tax](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Reporting Sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Reporting Transactions as 1099 Liable in the US](LocalFunctionality/UnitedStates/tax-1099.md)  
+##### [Set Up and Use the IRS 1099 Form](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Set Up Use Tax and Purchase Tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Set Up Unrealised Sales Tax and Sales Payment Discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Banking & Payments
@@ -1474,6 +1476,7 @@
 #### [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md)
 #### [Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Set Up Customer Price Groups](sales-how-to-set-up-customer-price-groups.md)
+#### [Set Up Customer Discount Groups](sales-how-to-set-up-customer-discount-groups.md)
 #### [Set Up Salespeople](sales-how-setup-salespeople.md)
 #### [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)
 #### [Send Documents by Email](ui-how-send-documents-email.md)
@@ -1810,13 +1813,13 @@
 #### [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)
 #### [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
-#### [Sales and Stock Forecast](ui-extensions-sales-forecast.md)
-#### [VAT Group Management](ui-extensions-vat-group.md)
+#### [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
 #### [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
+#### [UK - VAT Group Management](ui-extensions-vat-group.md)
 #### [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 ## Integrate with Dynamics 365 Sales

@@ -1,7 +1,7 @@
 ---
 title: Share contacts between Business Central and Outlook
 description: This service has deep integration with Microsoft 365 so you can share contacts between Outlook and Business Central.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,45 +9,54 @@ ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
 ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311
 ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 6c4ed5dfa89fdafe6e685d6566a57cb604adacdb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.author: bholtorf
+ms.openlocfilehash: 571dce9d79532cb3659ec952a585764af78c5161
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513129"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799885"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchronise Contacts in Business Central with Contacts in Microsoft Outlook
 
-You can see the same contacts in [!INCLUDE[prod_short](includes/prod_short.md)] as you see in Outlook if you set up contact synchronisation. For example, if you are a sales person, you might do some of your work in Outlook and some of your work in [!INCLUDE[prod_short](includes/prod_short.md)]. If the contacts are the same in both places, your work is more straightforward.  
+You can set up contact synchronisation so that your contacts in [!INCLUDE[prod_short](includes/prod_short.md)] have the same information as your contacts in Microsoft Outlook. For example, if you're a sales person, you might work in Outlook and [!INCLUDE[prod_short](includes/prod_short.md)] at the same time. If the contacts are the same in both places, your work is more straightforward.  
 
-A dedicated folder in Outlook makes contacts easy to find, and you can set a filter to synchronise only the contacts from [!INCLUDE[prod_short](includes/prod_short.md)] that you want to see in Outlook. Once the contact synchronisation is set up, you can start synchronisation manually or set up an automatic synchronisation that will keep the contacts in sync on a scheduled basis.  
+By default, the contacts you're syncing are kept in a **Business Central** folder in your Favourites on the Folder Pane in Outlook. The Business Central folder can make it easier to identify which contacts you're syncing. You can set filters to sync only specific contacts from [!INCLUDE[prod_short](includes/prod_short.md)] to Outlook. After you've set up synchronisation, you can synchronise manually or automate the process to synchronise on a scheduled basis.  
 
 ## <a name="set-up-synchronization"></a>Set Up Synchronisation
-You set up how you want to synchronise contacts with Outlook on the **Exchange Sync. Setup** page in [!INCLUDE[prod_short](includes/prod_short.md)]. As a prerequisite, your user profile in [!INCLUDE[prod_short](includes/prod_short.md)] must specify your Microsoft 365 email account. You can check this in the **Microsoft 365 Authentication** section of your user profile in the **Users** list.  
+You set up how you want to synchronise contacts with Outlook on the **Exchange Sync. Setup** page in [!INCLUDE[prod_short](includes/prod_short.md)]. As a prerequisite, your user profile in [!INCLUDE[prod_short](includes/prod_short.md)] must specify your Microsoft 365 email account. You can check this setting in the **Microsoft 365 Authentication** section of your user profile in the **Users** list. 
 
-Then, on the **Exchange Sync. Setup** page, you can validate that the connection to Exchange is working and then set up contact synchronisation. Open the **Contact Sync. Setup** page and start the synchronisation. Optionally, set a filter for which contacts to synchronise between [!INCLUDE[prod_short](includes/prod_short.md)] and Outlook. For example, you can set a filter on name, type, company, or similar. You can also change the default name of the folder that the contacts will synchronise to in Outlook. The default name is *Business Central*.  
+On the **Exchange Sync. Setup** page, you can validate that the connection to Exchange is working and then set up contact synchronisation. From the **Exchange Sync. Setup** page, you can open the **Contact Sync. Setup** page and start the synchronisation. Optionally, set a filter to specify which contacts to synchronise. For example, you can filter on name, type, company, and so on. You can also change the default name of the folder in Outlook that the contacts will synchronise to.  
 
-Once this synchronisation has been set up, any changes to that you make to the contact in either Outlook or in [!INCLUDE[prod_short](includes/prod_short.md)] is synchronised to the other.  
+Each of your coworkers can also set up their own Exchange synchronisation and set their own filters on which contacts to synchronise.  
 
-Each of your coworkers can also set up their own Exchange synchronisation and set their own filter on which contacts to synchronise.  
+After you set up synchronisation, you can sync changes to the contact manually, or you can automate the process by setting up a job queue entry. For more information about automation, see the next section in this article.
+
+### <a name="automate-synchronization"></a>Automate synchronisation
+You can create a job queue entry that will synchronise contacts according to a schedule that you define. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md). 
+
+The following table lists the settings on the **Job Queue Entry Card** page that are for synchronising contacts:
+
+|Field|Setting for Contact Sync|
+|-----|-----|
+|Object Type to Run|Codeunit|
+|Object ID to Run|6700|
 
 ## <a name="synchronize-contacts"></a>Synchronise Contacts
-If you are used to working with contacts in [!INCLUDE[prod_short](includes/prod_short.md)], then you will find it easy to start the synchronisation manually whenever it suits you from the **Contacts** list. Simply choose the **Sync with Microsoft 365** action, and then decide if you want to change the filter that you have set up. When you choose the OK button, the synchronisation starts immediately, and the latest changes are applied to your contacts in Outlook.  
-
-In the **Contacts** list, you can synchronise contacts in two ways:
+If you're used to working with contacts in [!INCLUDE[prod_short](includes/prod_short.md)], you'll find it easy to sync manually from the **Contacts** list whenever it suits you. You can synchronise contacts in two ways:
 
 * **Sync with Microsoft 365**
 
-  This action synchronises all changes from [!INCLUDE[prod_short](includes/prod_short.md)] to Microsoft 365 since the previous synchronisation, based on the last modified date. Any new contacts from Microsoft 365 will be synchronised back to [!INCLUDE[prod_short](includes/prod_short.md)] as well. This is typically faster than doing a full sync.  
+  Synchronise all changes from [!INCLUDE[prod_short](includes/prod_short.md)] to Microsoft 365 that were made after the last synchronisation, based on the last modified date. Also, new contacts from Microsoft 365 will be synchronised to [!INCLUDE[prod_short](includes/prod_short.md)]. Typically, this action is faster than a full sync. 
 
 * **Full Sync with Microsoft 365**
 
-  This action synchronises all contacts in both directions regardless of the last sync date and last modified date.  
+  Synchronise all contacts in both directions, regardless of the last sync date and last modified date.  
 
-In both cases, contacts are only synchronised from Outlook if they have the required fields filled in. The required fields to synchronise to Microsoft 365 are **Name**, **Email address** and they must be of type Person. [!INCLUDE[prod_short](includes/prod_short.md)] is the master of the contact information, so the [!INCLUDE[prod_short](includes/prod_short.md)] contact information will be saved in the event of duplicates.  
+In both cases, contacts are only synchronised from Outlook if they have the required fields filled in. The required fields to synchronise to Microsoft 365 are **Name**, **Email address** and the contact must be of the type **Person**. [!INCLUDE[prod_short](includes/prod_short.md)] is the source of the contact information, so the [!INCLUDE[prod_short](includes/prod_short.md)] contact information will be saved if there are duplicates.  
 
-In Outlook, the contacts from [!INCLUDE[prod_short](includes/prod_short.md)] are shown in a folder under **Other contacts** in the **People**  view. If you are not familiar with the People view in Outlook, then you can get to it from the navigation options in the bottom left corner of Outlook.  
+> [!NOTE]
+> If you delete a contact in Outlook, but keep it in [!INCLUDE[prod_short](includes/prod_short.md)], the contact will be recreated in Outlook the next time you sync. 
 
 ## <a name="see-also"></a>See Also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
