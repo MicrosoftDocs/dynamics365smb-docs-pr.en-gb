@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 502ac0d10379166426014ea3bda0eedb1f6d601c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 548654c36264a0b2bc401c4c1db39fa3d053f776
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512003"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074439"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Set Up Basic Warehouses with Operations Areas
+
 If internal operation areas such as production or assembly exist in basic warehouse configurations where locations use the **Bin Mandatory** setup field and possibly the **Require Pick** and **Require Put-away** setup fields, then you can use the following basic warehouse documents to record your warehouse activities for internal operation areas:  
 
 - **Inventory Movement** page.  
@@ -40,7 +41,8 @@ The following procedures are based on setting up basic warehouse activities arou
 > [!NOTE]  
 >  In the following procedure, the **Bin Mandatory** setup field on location cards is selected as a precondition because that is considered the foundation for any level of warehouse management.  
 
-## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>To enable inventory documents for internal operation activities  
+## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>To enable inventory documents for internal operation activities
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Open the location card you want to set up.  
 3.  On the **Warehouse** FastTab, select the **Require Put-away** check box to indicate that, when an inbound or internal source document with a bin code is released, a inventory put-away or a inventory movement document can be created.  
@@ -65,6 +67,7 @@ This flow chart shows how the **Bin Code** field on works order component lines 
 ![Bin flow chart.](media/binflow.png "BinFlow")
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>To define a default bin structure in the assembly area
+
 Components for assembly orders cannot be picked or posted with inventory picks. Instead, use the **Inventory Movement** page. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 When picking and shipping sales line quantities that are assembled to the order, you must follow certain rules when creating the inventory pick lines. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).
@@ -72,10 +75,12 @@ When picking and shipping sales line quantities that are assembled to the order,
 For more information, see [Assembly Management](assembly-assemble-items.md).
 
 ### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>To set up that a inventory movement is automatically created when the inventory pick for the assembly item is created
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Setup**, and then choose the related link.
 2. Select the **Create Movements Automatically** check box.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>To set up the bin in the assembly area where components are placed by default before they can be consumed in assembly
+
 The value in this field is automatically inserted in the **Bin Code** field on assembly order lines when this location is entered in the **Location Code** field on the assembly order line.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
@@ -83,6 +88,7 @@ The value in this field is automatically inserted in the **Bin Code** field on a
 3. Fill in the **To-Assembly Bin Code** field.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a>To set up the bin in the assembly area where finished assembly items are posted to when they are assembled to stock
+
 The value in this field is automatically inserted in the **Bin Code** field on assembly order headers when this location code is filled into the **Location Code** field on the assembly order header.
 
 Bin codes that are set up on location cards define a default warehouse flow for specific warehouse activities, such as consumption of components in an assembly area. Additional functionality exists to make sure that when items are placed in a default bin, they cannot be moved or picked to other activities.
@@ -95,6 +101,7 @@ Bin codes that are set up on location cards define a default warehouse flow for 
 3. Fill in the **From-Assembly Bin Code** field.
 
 ### <a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a>To set up the bin where finished assembly items are posted to when they are assembled to a linked sales order
+
 From this bin, the assembly items are shipped immediately, via a inventory pick, to fulfil the sales order.
 
 > [!NOTE]
@@ -116,6 +123,7 @@ The same bin code is in turn copied to the **Bin Code** field on the inventory p
 3. Fill in the **Asm.-to-Order Shpt. Bin Code** field.
 
 ## <a name="to-create-dedicated-component-bins"></a>To create dedicated component bins
+
 You can specify that quantities in a bin are protected from being picked for other demands than demand from their current purpose.
 
 Quantities in dedicated bins can still be reserved. Accordingly, the quantities in dedicated bins are included in the **Total Available Quantity** field on the **Reservation** page.
@@ -134,7 +142,10 @@ Making a bin dedicated provides similar functionality to using bin types, which 
 > [!NOTE]  
 >  The bin must be empty before you can select or clear the **Dedicated** field.
 
-## <a name="see-also"></a>See Also  
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+
+## <a name="see-also"></a>See also 
+
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  

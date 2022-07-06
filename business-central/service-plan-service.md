@@ -1,8 +1,6 @@
 ---
 title: Planning Service Processes
 description: This topic outlines various tasks to set up rules and values to define your service policies and processes.
-services: project-madeira
-documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: a255601103526cf633101e9f59155af21082a5f9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 157ac179e51330cc5d9606872a8a121a4bbb67f2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8380887"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077561"
 ---
 # <a name="planning-services"></a>Planning Services
 With [!INCLUDE[prod_short](includes/prod_short.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To do this, you must determine what service items and offerings your service organisation supports, and at what price.   

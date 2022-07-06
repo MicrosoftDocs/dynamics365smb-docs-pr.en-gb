@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: e70b14b5344acd9b59034b5847455417b8225182
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 887a8f94db8f289769c2fba7a1938d7b7960e400
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518214"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079201"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Set Up Fixed Asset Depreciation
 
@@ -40,6 +40,7 @@ In a fixed asset depreciation book, you specify how fixed assets are depreciated
 For example, if you dispose of a fixed asset where the depreciation book does not specify rounding, but your company's general ledger setup requires rounding, then, when you dispose of the fixed asset, you will see an error message that an amount must be rounded on a ledger entry.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>To assign a depreciation book to a fixed asset
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
 2. Select the fixed asset that you want to set up a fixed asset depreciation book for.
 3. On the **Depreciation Book** FastTab, fill in the fields as necessary.
@@ -53,6 +54,7 @@ For example, if you dispose of a fixed asset where the depreciation book does no
     > When you use the user-defined depreciation method, you need to assign the depreciation book in a different way. For more information, see [Set Up User-Defined Depreciation Method](fa-how-setup-user-defined-depreciation-method.md).
 
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>To assign a depreciation book to multiple fixed assets with a batch job
+
 If you want to assign a depreciation book to several fixed assets, you can use the **Create FA Depreciation Books** batch job to create fixed asset depreciation books.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
@@ -66,6 +68,7 @@ If you want to assign a depreciation book to several fixed assets, you can use t
 7. Choose the **OK** button.
 
 ## <a name="to-set-up-depreciation-posting-types"></a>To set up depreciation posting types
+
 For each depreciation book, you must set up how you want [!INCLUDE[prod_short](includes/prod_short.md)] to handle various posting types. For example, whether posting should be debit or credit and whether the posting type should be included in the depreciable basis.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
@@ -78,6 +81,7 @@ For each depreciation book, you must set up how you want [!INCLUDE[prod_short](i
 We recommend that you do not change the setup for depreciation books for entries that have already been posted. Changes will not affect the entries that are already posted, which would make depreciation book statistics misleading.
 
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>To set up default templates and batches for fixed asset depreciation
+
 For each depreciation book, you define a default setup of templates and batches. You use these defaults to duplicate lines from one journal to another, create journal lines using the **Calculate Depreciation** or **Index Fixed Assets** batch jobs, duplicate acquisition costs in the insurance journal.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
@@ -91,8 +95,10 @@ When the Calculate Depreciation batch job calculates depreciations, the batch jo
 
 If you select this field, the Calculate Depreciation batch job uses the calendar year of 365 days instead, where each month is calculated with the same number of days as in the calendar. The only exception is February in leap years, which the batch job will treat as having 28 days and not 29. Because of that, all years, also leap years, are considered to have 365 days.
 
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/configure-depreciation-books/)
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a>See also 
+
 [Setting Up Fixed Assets](fa-setup.md)  
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  

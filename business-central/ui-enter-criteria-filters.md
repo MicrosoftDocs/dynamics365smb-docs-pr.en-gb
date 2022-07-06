@@ -10,12 +10,12 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 052ef7a0e6579398ba651783675674d059eb6785
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 1557507aa108a64ad36fea5237e030ff31028779
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654871"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075766"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sorting, Searching, and Filtering
 
@@ -308,7 +308,9 @@ Use `%myvendors` in the supplier **No** field to display all records for supplie
 |-----------------------|-----------------------|  
 |`%myvendors`|Suppliers in the **My Suppliers** on your Role Centre. |  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/search-filter-sort-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Searching and Filtering FAQ](ui-search-filter-faq.yml)  
 [Save and Personalise List Views](ui-views.md)  

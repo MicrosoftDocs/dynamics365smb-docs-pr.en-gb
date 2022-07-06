@@ -1,8 +1,6 @@
 ---
 title: Set Up Information for Contacts| Microsoft Docs
 description: Outlines the tasks to specify information and codes, for example, about industry groups and business relationships, before you set up contacts.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ad7cb81559b27ffe1bb715cac30a4286d77f47da
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2f325a332093765e35a807bc4a9d4fede88f7150
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516116"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074796"
 ---
 # <a name="set-up-contacts"></a>Set Up Contacts
 When creating contacts, you can enter specific information, such as the industry that the contact belong to and your business relationship with the contacts.

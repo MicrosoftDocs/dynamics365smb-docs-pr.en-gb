@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 84d4a87a0edab18be342b9ed5732de0350a31645
-ms.sourcegitcommit: bc645e7ecb1940a85b2c433aa894d3494c9b10df
+ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743678"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075089"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows in Dynamics 365 Business Central
 
@@ -47,7 +47,9 @@ To set up and use workflows that are not defined in Power Automate, check the fo
 |Set up workflow users, specify how users get notified, and create new workflows. For new workflows for unsupported scenarios, implement the required workflow elements by customising the application code.|[Set Up Workflows](across-set-up-workflows.md)|  
 |Enable workflows, act on workflow notifications, including request approvals and approve requests to perform a workflow step. Archive and delete workflows.|[Use Workflows](across-use-workflows.md)|  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+
+## <a name="see-also"></a>See also 
 
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
@@ -55,5 +57,6 @@ To set up and use workflows that are not defined in Power Automate, check the fo
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Use [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate Flows](across-how-use-financials-data-source-flow.md)  
 [Troubleshoot Your [!INCLUDE[prod_short](includes/prod_short.md)] Automated Workflows](across-flow-troubleshoot.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,14 +10,15 @@ ms.search.keywords: move, warehouse
 ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 347550073fc4efad89c41f180c3a48747b91d7a7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01846d10f0612a902c7b9bd9f1c2f436404e441e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511630"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076468"
 ---
 # <a name="transfer-inventory-between-locations"></a>Transfer Inventory Between Locations
+
 You can transfer inventory items between locations by creating transfer orders. Alternatively, you can use the item reclassification journal.
 
 With transfer orders, you ship the outbound transfer from one location and receive the inbound transfer at the other location. This allows you to manage the involved warehouse activities and provides more certainty that inventory quantities are updated correctly.
@@ -30,6 +31,7 @@ With the reclassification journal, you simply fill in the **Location Code** and 
 To transfer items, locations and transfer routes must be set up. For more information, see [Set Up Locations](inventory-how-setup-locations.md).
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>To transfer items with a transfer order
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer orders**, and then choose the related link.
 2. On the **Transfer Order** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -51,6 +53,7 @@ To transfer items, locations and transfer routes must be set up. For more inform
 5. Choose the **Post** action, choose the **Receive** option, and then choose the **OK** button.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>To transfer items with the item reclassification journal
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journals**, and then choose the related link.
 2. On the **Item Reclass. Journal** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In the **Location Code** field, enter the location where the items are currently stored.
@@ -60,7 +63,10 @@ To transfer items, locations and transfer routes must be set up. For more inform
 4. In the **New Location Code** field, enter the location that you want to transfer the items to.
 5. Choose the **Post** action.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/transfer-items/)
+
+## <a name="see-also"></a>See also 
+
 [Manage Inventory](inventory-manage-inventory.md)  
 [Set Up Locations](inventory-how-setup-locations.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d421392a4428bc227cdbf6c5532d87e7360fe189
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7bc0d1455960b1550c6a8d9fc54c20112b3e9f63
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518998"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074566"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Work with Blanket Sales Orders or Blanket Purchase Orders
 
@@ -56,7 +56,8 @@ The following applies to sales orders after they have been created from blanket 
 - The invoiced blanket sales order remains in the system until it is deleted, either by deleting individual blanket orders or by running the **Delete Invoiced Blanket Sales Orders** batch job.  
 - If a customer is also recorded as a contact in the Marketing application area, and if you have specified an interaction template code for blanket sales order on the **Marketing Setup** page, an interaction is recorded in the Interaction Log Entry table when you select **Print** to print the blanket sales order.
 
-## <a name="to-view-the-status-of-a-blanket-sales-order"></a>To view the status of a blanket sales order  
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>To view the status of a blanket sales order
+
 You can see the status of a blanket sales order on the **Blanket Sales Order Statistics** page. This may be relevant when you start to invoice the order that is created from the blanket sales order.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
@@ -68,7 +69,8 @@ You can see the status of a blanket sales order on the **Blanket Sales Order Sta
 - On the **Prepayment** FastTab, you can see summary information about any prepaid amounts.  
 - On the **Supplier** FastTab, you can see certain basic information about the supplier.
 
-## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>To view unposted and posted blanket sales order lines   
+## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>To view unposted and posted blanket sales order lines
+
 The link between the blanket sales order and the originating sales order, and any other sales document, is retained after posting as a list of posted and unposted sales order invoice lines.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon enter **Blanket Sales Orders**, and then choose the related link.
@@ -93,7 +95,9 @@ The link between the blanket sales order and the originating sales order, and an
 
 5. On the **Sales Lines** page, choose the **Show Document** action to view the entry.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Sales](sales-manage-sales.md)  
 [Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)  

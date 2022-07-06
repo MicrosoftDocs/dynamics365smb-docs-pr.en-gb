@@ -10,14 +10,15 @@ ms.search.keywords: categories, search words, facets
 ms.search.forms: 7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 9110, 5734, 7508
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb907b4574126c23292e4b164505606a5ac404dd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7268ac8ff38025dcd0b439e4ea6ae7d051ebc9d6
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516194"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078003"
 ---
 # <a name="work-with-item-attributes"></a>Work with Item Attributes
+
 When customers inquire about an item, either in correspondence or in an integrated web shop, they may ask or search according to characteristics, such as height and model year. To provide this customer service, you can assign item attribute values of different types to your items, which can then be used when searching for items.
 
 You can also assign item attributes to item categories, which then apply to the items that use the item categories. For more information, see [Categorise Item](inventory-how-categorize-items.md).
@@ -26,6 +27,7 @@ You can also assign item attributes to item categories, which then apply to the 
 > If you attach pictures to items, the Image Analyser extension can detect attributes in the image, and suggest the attributes so you can decide whether to assign them. The extension is ready to go. You just need to enable it. For more information, see [The Image Analyser Extension](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>To create item attributes
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Attributes**, and then choose the related link.
 2. On the **Item Attributes** page, choose the **New** action.
 3. On the **Item Attribute** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -34,11 +36,13 @@ You can also assign item attributes to item categories, which then apply to the 
 >   If you select **Option** in the **Type** field you can choose the **Item Attribute Values** action to create values for the item attribute. For more information, see [To create values for item attributes of type Option](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>To create values for item attributes of type Option
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Attributes**, and then choose the related link.
 2. On the **Item Attributes** page, select an item attribute of type **Option** that you want to create values for, and then choose the **Item Attribute Values** action.
 3. On the **Item Attribute Values** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>To assign item attributes to items
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. On the **Items** page, select the item that you want to assign item attributes to, and then choose the **Attributes** action.
 3. On the **Item Attribute Values** page, choose the **New** action.
@@ -48,6 +52,7 @@ You can also assign item attributes to item categories, which then apply to the 
 7. Repeat steps 4 through 6 for all item attributes that you want to assign to the item.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>To assign item attributes to item categories
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.
 2. On the **Item Categories** page, select the item category that you want to assign item attributes to, and then choose the **Edit** action.
 3. On the **Item Category Card** page, on the **Attributes** FastTab, choose the **New** action.
@@ -59,6 +64,7 @@ You can also assign item attributes to item categories, which then apply to the 
 >   Item attributes for parent item categories will be inherited to child item categories. This is indicated by the **Inherited From** field on the **Attributes** FastTab. For more information, see [Categorise Items](inventory-how-categorize-items.md).
 
 ## <a name="to-filter-by-item-attributes"></a>To filter by item attributes
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. On the **Items** page, choose the **Filter by Attributes** action.
 3. On the **Filter Items by Attribute** page, choose the lookup button in the **Attribute** field and select an item attribute.
@@ -71,12 +77,15 @@ You can also assign item attributes to item categories, which then apply to the 
 7. In the **Value** field, enter an attribute value to filter items by.
 
     **Example**: To filter on items where the material description begins with "blue", fill in the fields as follows: **Attribute** field: Material Description, **Condition** field: Begins With, **Value** field: blue.
-8. Choose the **OK** button.   
+8. Choose the **OK** button.
 
 The items on the **Items** page are filtered by the specified item attribute values.
 
-## <a name="see-also"></a>See Also
-[Categorise Items](inventory-how-categorize-items.md)    
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
+
+[Categorise Items](inventory-how-categorize-items.md)  
 [Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

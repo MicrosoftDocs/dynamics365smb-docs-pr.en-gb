@@ -10,12 +10,12 @@ ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: ad82c9aa86210c5f89e24fcced0af70751788ef8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: cef011656fcd705a598d54719d4f7328debb8cea
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510604"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077483"
 ---
 # <a name="create-number-series"></a>Create Number Series
 
@@ -98,11 +98,10 @@ The following procedure shows how to set number series up for the Sales area. Th
 
 The selected number will now be used to fill in the **No.** field on the card or document in question, according to the settings you made on the number series line.  
 
-
-
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a>See also 
+
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

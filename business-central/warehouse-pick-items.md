@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5779, 5798, 7343, 7345, 7357, 7359, 7377, 7392, 7395, 7397, 9313, 9316, 9344
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 028fb8d63045964fdb4e48cbbe3a6372677512d1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6f85c37a9a781493f1a67f00c9dcaade540697c7
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520558"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078863"
 ---
 # <a name="pick-items"></a>Pick Items
 
@@ -44,11 +44,14 @@ The following table describes a sequence of tasks, with links to the topics that
 |Split a pick line into multiple lines, for example because there are not enough items to take from in the designated bin.|[Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md)|
 |Get immediate access to picks that are assigned to you as a warehouse worker.|[Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
-## <a name="see-also"></a>See Also  
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+
+## <a name="see-also"></a>See also 
+
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md) 
-[Assembly Management](assembly-assemble-items.md)
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

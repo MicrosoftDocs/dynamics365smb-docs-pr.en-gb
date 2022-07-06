@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d4d2134945f0beb15853bc9cca227cde74285c9d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520081"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074519"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Walkthrough: Setting Up and Using a Purchase Approval Workflow
 
@@ -121,7 +121,9 @@ You define variations of workflows by filling fields on workflow lines from fixe
 
 If a business scenario requires a workflow event or response that is not supported, a Microsoft partner must implement them through code, or you can set up a workflow using Power Automate. For more information, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] in an Automated Workflow](across-how-use-financials-data-source-flow.md) or [Events in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) in the developer help, respectively.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/use-approval-workflows/)
+
+## <a name="see-also"></a>See also 
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)  

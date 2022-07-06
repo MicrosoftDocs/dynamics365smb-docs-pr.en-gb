@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.form: 5628, 5629, 5633
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7934e272652f175360d58ea3643fa28c5551c082
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0b9598c8249e209583ffff73868013ad7e26f1b3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512299"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078163"
 ---
 # <a name="revalue-fixed-assets"></a>Revalue Fixed Assets
+
 Revaluation of fixed assets can consist of appreciations, write-downs, or general value adjustments.
 
 When the value of a fixed asset has increased, you post a journal line with a higher amount, an appreciation, to the depreciation book. The new amount is recorded as an appreciation according to the fixed asset posting setup.
@@ -26,6 +27,7 @@ When the value of a fixed asset has decreased, you post a journal line with a lo
 Indexation is used to adjust multiple fixed asset values, for example per general price changes. The **Index Fixed Assets** batch job can be used to change various amounts, such as write-down and appreciation amounts.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>To post an appreciation from the fixed asset G/L journal
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
 2. Create an initial journal line and fill in the fields as necessary.
 3. In the **FA Posting Type** field, select **Revaluation**.
@@ -36,6 +38,7 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
 5. Choose the **Post** action.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>To post a write-down from the fixed asset G/L journal
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
 2. Create an initial journal line, and fill in the fields as necessary.
 3. In the **FA Posting Type** field, select **Write-Down**.
@@ -46,6 +49,7 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
 5. Choose the **Post** action.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>To perform general revaluation of fixed assets
+
 Indexation is used to adjust multiple fixed asset values, for example per general price changes. The **Index Fixed Assets** batch job can be used to change various amounts, such as write-down and appreciation amounts. The **Allow Indexation** check box on the **Depreciation Book** page must be selected.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Index Fixed Assets**, and then choose the related link.  
@@ -61,6 +65,7 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
     >   If the index figures are for simulation purposes only, you can create a special depreciation book to store them in. Then these entries will not affect any of the other depreciation books.
 
 ## <a name="to-post-additional-acquisition-costs"></a>To post additional acquisition costs
+
 You post additional acquisition cost for a fixed asset in the same way as you post the original acquisition cost: from a purchase invoice or from a fixed asset journal. For more information, see [Acquire Fixed Assets](fa-how-acquire.md).  
 
 If depreciation has already been calculated for the fixed asset, select the **Depr. Acquisition Cost** check box to have the additional acquisition cost less the salvage value depreciated in proportion to the amount by which the previously acquired fixed asset has already been depreciated. This ensures that the depreciation period is not changed.  
@@ -74,6 +79,7 @@ The depreciation percentage is calculated as:
 Remember to select the **Depr. until FA Posting Date** check box on the invoice, the fixed asset G/L journal, or the fixed asset journal lines to ensure that depreciation is calculated from the last fixed asset posting date to the posting date of the additional acquisition cost.
 
 ### <a name="example---posting-additional-acquisition-costs"></a>Example - Posting Additional Acquisition Costs
+
 A machine is purchased on August 1, 2000. The acquisition cost is 4,800. The depreciation method is straight-line over four years.
 
 On August 31, 2000, the **Calculate Depreciation** batch job is run. Depreciation is calculated as:
@@ -114,7 +120,10 @@ If you did not select the **Depr. until FA Posting Date** check box, the asset w
 
 *Total of depreciation = 100 + 15 + 55.54 = 170.54*
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/manage-advanced-fixed-assets-transactions/)
+
+## <a name="see-also"></a>See also 
+
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  

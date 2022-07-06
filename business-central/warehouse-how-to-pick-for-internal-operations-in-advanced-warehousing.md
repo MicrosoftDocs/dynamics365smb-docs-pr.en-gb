@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d0e7db8e4aeade9865114769c659075971dd3c8d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46d00ec083cd749ed9922ab0e046d9a76aaf4390
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518634"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076104"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Pick for Production or Assembly in Advanced Warehouse Configurations
+
 In advanced warehouse configurations where the location is set up to use picking as well as shipping, you can pick components for production and assembly activities with the **Warehouse Pick** page.  
 
 Alternatively, you can use the **Movement Worksheet** page to move items between bins ad hoc, meaning without reference to a source document. For more information, see [Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md).  
@@ -38,7 +39,8 @@ To create pick requests, both for pull and for push scenarios, the source docume
 |Works Order|Change order type to released works order.|  
 |Assembly Order|Change status to Released.|  
 
-## <a name="to-pick-components-using-the-pick-worksheet"></a>To pick components using the pick worksheet  
+## <a name="to-pick-components-using-the-pick-worksheet"></a>To pick components using the pick worksheet
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
 2.  Choose the **Get Warehouse Documents** action, and then select the component lines from the released works order.  
 3.  Inspect the lines, sort them to ensure an efficient picking round, and combine them with other worksheet lines if necessary to make best use of employee time.  
@@ -49,15 +51,19 @@ To create pick requests, both for pull and for push scenarios, the source docume
 If the internal operation area, such as a production shop floor, is set up with a default bin for placement of components to be used in the operation, then that bin code is inserted in the Place lines on the warehouse pick document to instruct warehouse workers where to place the items. For more information, see the **To-Production Bin Code** or the **To-Assembly Bin Code** field.
 
 ## <a name="filling-the-consumption-bin"></a>Filling the Consumption Bin
+
 This flow chart shows how the **Bin Code** field on works order component lines is filled according to your location setup.
 
 ![Bin flow chart.](media/binflow.png "BinFlow")  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+
+## <a name="see-also"></a>See also 
+
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
-[Assembly Management](assembly-assemble-items.md)    
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

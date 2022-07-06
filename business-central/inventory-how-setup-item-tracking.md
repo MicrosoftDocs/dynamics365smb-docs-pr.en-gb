@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: f4fedcf64f560cef7e4b2f96d5baf884161fd75e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: be30d89ca6ad6c80b27b0cc8f5e619b6ad5c7782
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511565"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078029"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Set Up Item Tracking with Serial, Lot, and Package Numbers
 
@@ -85,9 +85,11 @@ To enable item tracking you first have to assign the item tracking codes to an i
 3. On the **Item Tracking** FastTab, assign the appropriate item tracking codes and choose the **Item Tracking Code**, the **Serial Nos.**, and the **Lot Nos.**.
     1. Alternatively you can also create a new item tracking code by selecting the **New** action.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/prepare-item-tracking/)
 
-[Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)
+## <a name="see-also"></a>See also 
+
+[Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Item Tracking](design-details-item-tracking.md)  

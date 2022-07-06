@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting, substitute items
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 9860ebc2ce7260f450dbda928ee6339c0560e0a7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b66efde55918886132def51ad898fa9e89054c02
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521131"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077352"
 ---
 # <a name="sell-items-assembled-to-order"></a>Sell Items Assembled to Order
+
 If the **Assembly Policy** field on the item card of an assembly item is **Assemble-to-Order**, then the item is not expected to be in inventory, and it must be assembled specifically to a sales order. When you enter the item on a sales order line, then an assembly order is automatically created and linked to the sales order.  
 
 > [!NOTE]  
@@ -28,7 +29,8 @@ In this procedure, you process the sale of an item that will be assembled accord
 > [!NOTE]  
 >  The following procedure does not include the standard sales order steps before the step where you enter the assemble-to-order item on a sales order line.  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a>To sell an item that is assembled to order  
+## <a name="to-sell-an-item-that-is-assembled-to-order"></a>To sell an item that is assembled to order
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Create a sales order. For more information, see [Sell Products](sales-how-sell-products.md).  
 3.  In the **No.** field, enter an item that is set up to be assembled to order.  
@@ -52,7 +54,7 @@ In this procedure, you process the sale of an item that will be assembled accord
     >   
     >  On the header of linked assembly orders, only the **Starting Date** field can be changed to enable assembly workers to specify a date that is earlier than the due date when they will start the process. All fields on the lines of the linked assembly order can be changed so that warehouse workers can enter consumption figures during the process.  
 
-8.  Review or react to component availability issues. For example, select an available substitute item or establish a later due date.  
+8.  Review or react to component availability issues. For example, select an available substitute item.  
 9. Close the **Assemble-to-Order Lines** page. The linked assembly order is now ready to start to assemble the customised items by the due date.  
 10. On the sales order, choose the **Release** action to notify the assembly department that the assembly process can start.  
 11. In the assembly department, perform the steps of assembling the items that are sold in this procedure. For more information, see [Assemble Items](assembly-how-to-assemble-items.md).  
@@ -60,7 +62,10 @@ In this procedure, you process the sale of an item that will be assembled accord
 > [!NOTE]  
 > Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
 
-## <a name="see-also"></a>See Also  
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
+
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  

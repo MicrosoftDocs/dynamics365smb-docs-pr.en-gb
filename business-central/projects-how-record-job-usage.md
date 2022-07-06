@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 04ef2fdd1020444711257230688fea927332ed83
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 1cfb8fcb086b258ece6de68850b627c19f3bfbcd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626272"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075844"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Record Consumption or Usage for Jobs
 
@@ -99,7 +99,10 @@ After you have posted job journal lines, you can see the planning lines that are
 2. Select a relevant job journal, and then choose the **Ledger Entries** action.  
 3. On the **Job Ledger Entries** page, choose **Show Linked Job Planning Lines** action.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/post-job-usage-sales/)
+
+## <a name="see-also"></a>See also 
+
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         

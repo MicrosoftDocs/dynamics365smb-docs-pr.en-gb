@@ -10,12 +10,12 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba8b80508fbab49fddb4d9927d47af3ae1d9708a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c6f9a6e526abad8e2ad53325ddf4d0079d28def2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520923"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077951"
 ---
 # <a name="making-payments"></a>Making Payments
 
@@ -41,7 +41,10 @@ The following table describes a sequence of tasks, with links to the topics that
 | Pay a vendor by cash or cheque, and post the payment when you post the invoice. |[Settle Purchase Invoices Promptly](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Make sure that your bank only clears validated cheques and amounts by sending them a file that contains vendor, cheque, and payment information. |[Export a Positive Pay file](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
+
 [Managing Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Managing Receivables](receivables-manage-receivables.md)  

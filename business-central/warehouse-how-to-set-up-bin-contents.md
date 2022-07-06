@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef6b031cfb87c74a62da85d0c7073a91e5e176e9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9135514b6f788aab99b3433a04ad28ec36064e30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520532"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074361"
 ---
 # <a name="create-bin-contents"></a>Create Bin Contents
 
@@ -55,7 +55,9 @@ When you have created your bins, you can create the bin content that you want fo
 
 In this worksheet, you can work with a number of bin content lines for a number of bins and thereby obtain a good overview of what you are putting into various bins in a given zone, aisle, or rack.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/set-up-zones-bins/)
+
+## <a name="see-also"></a>See also 
 
 [Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  

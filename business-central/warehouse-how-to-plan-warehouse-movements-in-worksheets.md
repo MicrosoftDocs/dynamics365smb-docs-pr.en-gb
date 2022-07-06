@@ -9,17 +9,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6a57165a63139f0c8bf590b811160a45e26152ce
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4454fd40daffbaa5d551635c406f10c70009d3bf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522439"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076078"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Plan Warehouse Movements in Worksheets
+
 Plan movements in the worksheet using a bin replenishment function or manually planning the lines that you want to create as movement instructions.  
 
-## <a name="to-calculate-a-replenishment-movement"></a>To calculate a replenishment movement  
+## <a name="to-calculate-a-replenishment-movement"></a>To calculate a replenishment movement
+
 As the warehouse ships items out to customers, the bins with the highest bin rankings contain fewer and fewer items. To fill up these high-ranking pick bins with items from other bins, run the **Calculate Bin Replenishment** function on the **Movement Worksheet** page
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
@@ -40,7 +42,8 @@ As the warehouse ships items out to customers, the bins with the highest bin ran
 3.  Look through the lines and change them if necessary, or delete some of them if there is not enough time to perform them all.  
 4.  Choose the **Create Movement** action to make a warehouse instruction for action by warehouse employees.  
 
-## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>To move the entire contents of one or more bins by using the Get Bin Content function  
+## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>To move the entire contents of one or more bins by using the Get Bin Content function
+
 You can also use the movement worksheet to plan other movement of inventory within the warehouse. For example, when you want to place items in a bin for quality control, you can use the movement worksheet to plan this action and then create a movement to make instructions for an employee.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
@@ -64,7 +67,10 @@ You can also use the movement worksheet to plan other movement of inventory with
 6.  Delete the incomplete lines that you used for information.  
 7.  Once the movement worksheet lines accurately reflect how the movement action should be carried out by the warehouse employee, choose the **Create Movement** action to create the instructions for the employee.  
 
-## <a name="see-also"></a>See Also  
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/move-items/)
+
+## <a name="see-also"></a>See also 
+
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     

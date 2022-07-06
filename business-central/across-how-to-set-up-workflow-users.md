@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3026ab37ced1f1529d2a9fee2e22aeccce557c53
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 57d106918230007484f37979b416d44277c86035
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522385"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075141"
 ---
 # <a name="set-up-workflow-users"></a>Set Up Workflow Users
 
@@ -44,7 +44,9 @@ Workflow users that function as approval users, both approval requestors and app
 6. Repeat step 5 to add more workflow users to the user group.  
 7. Repeat steps 2 through 6 to add more workflow user groups.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+
+## <a name="see-also"></a>See also 
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Setting Up Workflows](across-set-up-workflows.md)  

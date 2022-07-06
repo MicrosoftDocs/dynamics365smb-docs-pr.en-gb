@@ -10,19 +10,21 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 385003db0d0fe8b121e6512257f0ed448596225e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 92ebe1881a143986ef4775e269211f0fb7279f3f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519707"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079591"
 ---
 # <a name="reserve-items"></a>Reserve Items
+
 You can reserve items for sales orders, purchase orders, service orders, assembly orders, and works orders. You can reserve items on inventory or inbound on open document or journal lines. You perform the work on the **Reservation** page.
 
 Each line on the **Reservation** page, which you open to reserve items, displays information about one type of line (sales, purchase, journal) or inventory entry. The lines describe how many items are available to be reserved from each type of line or entry.
 
 ## <a name="to-reserve-items-for-sales"></a>To reserve items for sales
+
 The following describes how to reserve items from a sales order. The steps are similar for purchase, service, and assembly orders.  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  On a sales order, on the **Lines** FastTab, choose the **Reserve** action. The **Reservation** page opens.  
@@ -38,7 +40,8 @@ The following describes how to reserve items from a sales order. The steps are s
 > [!NOTE]  
 >  If item tracking lines exist for the sales order, the reservation system will take you through special steps. For more information, see [To reserve a specific serial or lot number](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
-## <a name="to-reserve-an-item-for-a-production-order-line"></a>To reserve an item for a works order line  
+## <a name="to-reserve-an-item-for-a-production-order-line"></a>To reserve an item for a works order line
+
 You can reserve items for works orders. You have to distinguish between works order lines, meaning the parent item, and works order components.
 
 In the following procedure, a firm planned works order is used.   
@@ -50,7 +53,8 @@ In the following procedure, a firm planned works order is used.
 
 The quantity you entered in the firm planned works order line is now reserved.
 
-## <a name="to-reserve-items-for-production-order-components"></a>To reserve items for works order components  
+## <a name="to-reserve-items-for-production-order-components"></a>To reserve items for works order components
+
 You can reserve items for works orders. You have to distinguish between works order lines, meaning the parent item, and works order components.
 
 In the following procedure, a firm planned works order is used.    
@@ -64,21 +68,24 @@ In the following procedure, a firm planned works order is used.
 
 The quantity you entered in the firm planned production component line is now reserved.
 
-## <a name="to-change-a-reservation"></a>To change a reservation  
+## <a name="to-change-a-reservation"></a>To change a reservation
+
 Sometimes, you may want to change an item reservation.   
 1. From the document line that you have reserved from, on the **Lines** FastTab, choose the **Reserve** action.  
 2. On the **Reservation** page, choose the **Reservation Entries** action.
 3. The **Reservation Entries** page, update the **Quantity** field on the line you want to change.
 4. Confirm the subsequent message, by choosing the **OK** button.
 
-## <a name="to-cancel-a-reservation"></a>To cancel a reservation  
+## <a name="to-cancel-a-reservation"></a>To cancel a reservation
+
 Sometimes, you may want to cancel an item reservation.   
 1. From the document line that you want to cancel a reservation from, on the **Lines** FastTab, choose the **Reserve** action.  
 2. On the **Reservation** page, choose **Reservation Entries** action.  
 3.  On the **Reservation Entries** page, choose the **Cancel Reservation** action.  
 4.  Confirm the subsequent message, by choosing the **OK** button.  
 
-## <a name="to-reserve-a-specific-serial-or-lot-number"></a>To reserve a specific serial or lot number  
+## <a name="to-reserve-a-specific-serial-or-lot-number"></a>To reserve a specific serial or lot number
+
 From outbound documents for item-tracked items, such as sales orders or production component lists, you can reserve specific serial or lot numbers. This may be relevant, for example, if you need production components from a specific lot to ensure consistency with earlier production batches, or because a customer has requested a specific serial number. For more information, see [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 
 This is referred to as a specific reservation, because you reserve from the quantity of  Item X that belongs to Lot X. If you simply reserve from quantities of Item X, then it is a normal, non-specific, reservation. For more information, see [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md).
@@ -93,7 +100,10 @@ The following procedure is based on a sales order.
 7. Choose the **OK** button to open the **Reservation** page showing only supply with the specified item tracking number. If there are any non-specific reservations on any of the item tracking numbers that you have specified for this line, you are informed of the quantity that has already been reserved.  
 8. Choose either the **Auto Reserve** or the **Reserve from Current Line** action to create the reservation on the specific item tracking numbers.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/manage-outbound-serial-lot-numbers/)
+
+## <a name="see-also"></a>See also 
+
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  

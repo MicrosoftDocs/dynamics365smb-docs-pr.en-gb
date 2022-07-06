@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab9844f52f74e79283daafbe02f8cc2139c3ac9d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 1360d4189bfeb8ca446e4a372613bed9f14284a4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522805"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075402"
 ---
 # <a name="suggest-vendor-payments"></a>Suggest Supplier Payments
 
@@ -33,12 +33,14 @@ To benefit fully from payment suggestions, you must first prioritise your suppli
     * Open supplier entries that qualify for payment discounts, arranged by supplier number.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>To use the Suggest Supplier Payments function
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2. Open the relevant journal, and then choose the **Suggest Supplier Payments** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Choose the **OK** button.  
 
 ## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>To insert the due date as posting date on payment journal lines
+
 When you use the **Suggest Supplier Payments** batch job to create payment lines for your suppliers, you can fill two special fields to make sure that the generated lines use the due date to calculate the posting date. These fields are **Calculate Posting Date from Applies-to-Doc Due Date** and **Applies-to-Doc Due Date Offset**.  
 
 > [!IMPORTANT]  
@@ -51,7 +53,10 @@ Alternatively, you can manually create payment lines using the due date to calcu
 > [!NOTE]  
 >   If the purchase invoice is overdue, the posting date is set to the work date, and the font on the line becomes red.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/suggest-vendor-payments-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
+
 [Managing Payables](payables-manage-payables.md)  
 [Making Payments](payables-make-payments.md)  
 [Work with General Journals](ui-work-general-journals.md)  

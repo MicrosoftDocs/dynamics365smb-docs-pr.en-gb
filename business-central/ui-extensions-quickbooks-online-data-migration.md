@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: df8c4d60e66441feaf1c6c7451bdd5967a1eca17
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 390d05ad49ef441fa532efb293647271cc2bbd0e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383328"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077431"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>The QuickBooks Online Data Migration Extension
 
@@ -66,7 +66,9 @@ There are a few things in particular that you should do:
 * If you are using value added tax (VAT), you may need to add a business posting group and a product posting group to the posting setup so that you can post VAT amounts.
 * Verify the beginning balances for accounts in the general ledger. QuickBooks Online does not store the current balance for all accounts, so you might need to correct beginning balances.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/migrate-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  

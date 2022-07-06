@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 368ed714fb7b8367ff1876cb5be83e422860b684
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 995d7277d67b3db4360210e80b417b8a62d6b1a8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805159"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077092"
 ---
 # <a name="dynamics-365-business-central-trial-faq"></a>Dynamics 365 Business Central trial FAQ
 
@@ -49,9 +49,14 @@ Switch to the 30-day trial, and then add your own data. For more information, se
 
 You can't. If you accidentally delete sample data, ask your admin to create a new sandbox environment. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types) in the admin content (in English only).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>See also 
 
 [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)  
 [Frequently Asked Questions about Using Business Central](across-faq.yml)  
 [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

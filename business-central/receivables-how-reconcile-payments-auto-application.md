@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 389, 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2418ca1164d0a3d67ca9ae3403733dfbd9a56660
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8c4d11dd4e031388ea5ec28bb8a181122b50b470
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520819"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074595"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Reconcile Payments Using Automatic Application
 
@@ -44,6 +44,7 @@ For each journal line on the **Payment Reconciliation Journal** page, you can op
 > You can start the bank transactions import at the same time as you open the **Payment Reconciliation Journal** page for an existing journal. The following procedure describes how to import bank transactions into the **Payment Reconciliation Journal** page after you have created a new journal.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>To reconcile payments using automatic application
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
 2. To work in a new payment reconciliation journal, choose the **New Journal** action.
 3. On the **Payment Bank Account List** page, select the bank account that you want to reconcile payments for, and then choose the **OK** button.
@@ -88,7 +89,10 @@ You can compare the value in the **Balance on Bank Account After Posting** field
 > [!NOTE]  
 >   If you do not want to reconcile the bank account from the **Payment Reconciliation Journal** page, then you must use the **Bank Acc. Reconciliation** page. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/use-journals-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
+
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

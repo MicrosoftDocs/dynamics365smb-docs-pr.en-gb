@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 7847387049dd799044ed3dca4b62a657b726b069
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c5efaaa688e2636ae68b149e05f9f526d1e4b1d4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517141"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076000"
 ---
 # <a name="setting-up-data-exchange"></a>Setting Up Data Exchange
+
 Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved files. In addition, you must set up related areas, such as the customers that you send electronic invoices to, or the AMC Banking 365 Fundamentals extension if you use the external service provider to convert your bank files. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
 
  When [!INCLUDE[prod_short](includes/prod_short.md)] is set up to exchange data with external files, users can use the setup in common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.  
@@ -37,7 +38,10 @@ Before you can send and receive electronic documents or import and export bank f
 |Prepare to set up a new data exchange definition for a data file or stream by using the file’s XML schema to prefill the **Column Definitions** FastTab on the **Posting Exchange Definition** page.|[Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Set up the Data Exchange Framework to enable users to receive a new purchase document format, send a new sales document format, import a new bank file, or other data exchange.|[Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## <a name="see-also"></a>See Also  
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
+
 [Exchanging Data Electronically](across-data-exchange.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)  

@@ -9,24 +9,27 @@ ms.workload: na
 ms.search.form: 7351
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 02a96b48049207d2272c62b008148c000cf676e0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: eafddef05562e5b63c291f8ea9ca130b878dcd68
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520585"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075194"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Move Items in Advanced Warehouse Configurations
+
 In advanced warehouse configurations, that is, locations with directed put-away and pick, warehouse movements between bins are performed by a senior employee preparing warehouse movements in the movement worksheet and then creating the warehouse movements for warehouse employees to perform.  
 
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>To move items with the warehouse movement worksheet
+
 The **Movement Worksheet** page has two functions that can assist in automatically filling in the lines. The first is the **Calculate Bin Replenishment** function. This function uses the bin rankings to suggest replenishment for high-ranking bins from low-ranking bins. The second is the **Get Bin Content** function, which fills in the worksheet lines with the entire bin contents of the bin or bins you specify.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
 2.  Enter the warehouse movement information on the worksheet lines as appropriate.  
 3. Choose the **Create Movement** action to create a warehouse movement document which can then be registered when the warehouse movement is completed.  
 
-### <a name="to-register-the-warehouse-movement"></a>To register the warehouse movement  
+### <a name="to-register-the-warehouse-movement"></a>To register the warehouse movement
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movements**, and then choose the related link.  
 2.  Open the warehouse movement that you want to process.  
 3.  On lines of action type **Place**, specify where, which, and when to move the item in question by editing the **Zone Code**, **Bin Code**, **Qty. to Handle**, or **Due Date** fields.  
@@ -39,18 +42,22 @@ The **Movement Worksheet** page has two functions that can assist in automatical
 > [!NOTE]  
 >  If the location uses directed put-away and pick, then you cannot manually move items in or out of bins of bin type RECEIVE, because items in such bins must be registered as being put away before they are part of available inventory.
 
-## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>To register the movement of an item that has already occurred  
+## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>To register the movement of an item that has already occurred
+
 If your location uses directed put-away and pick, and you need to move items to other bins without a pre-existing warehouse put-away, pick, or movement, you can register the correct placement of the items in the warehouse using the **Whse. Reclassification Journal**.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Reclassification Journal**, and then choose the related link.  
 2.  Fill in the **Item No.**, **From Zone Code**, **From Bin Code**, **To Zone Code**, and **To Bin Code** fields.  
 3.  Choose the **Register** action.  
 
-## <a name="see-also"></a>See Also  
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+
+## <a name="see-also"></a>See Also
+
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
-[Assembly Management](assembly-assemble-items.md)    
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

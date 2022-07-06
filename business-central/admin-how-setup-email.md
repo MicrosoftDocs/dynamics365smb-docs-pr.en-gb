@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8357659f42976c7e3bc9b64a3c0aa10fe5b32364
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
+ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950469"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9041433"
 ---
 # <a name="set-up-email"></a>Set Up Email
 People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can connect one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], letting you send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colours, and so on, and add attachments of up to 100 MB. Additionally, report layouts enable administrators to include only the key information from documents. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
@@ -44,7 +44,7 @@ The following table describes the email extensions that are available by default
 |**SMTP Connector**|Use SMTP protocol to send emails.|Allow communications through your SMTP mail server. |
 
 > [!NOTE]
-> The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin centre for your Microsoft 365 subscription. To send email using the extensions, users must have a valid licence for Exchange Online. Additionally, these extensions require that the **Allow HttpClient Requests** setting is enabled. To check whether it is enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
+> The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin centre for your Microsoft 365 subscription. To send email using the extensions, users must have a valid licence for Exchange Online. Additionally, in sandbox environments, these extensions require that the **Allow HttpClient Requests** setting is enabled. To check whether it is enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
 
 > External users, such as delegated admins and external accountants, cannot use these extensions to send email messages from [!INCLUDE[prod_short](includes/prod_short.md)].
 

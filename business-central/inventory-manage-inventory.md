@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 567b1cd469816f175508dddac068b8b8b3e1bc2e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4653d961edd26f220160abca97bd5c7f236f05c2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521969"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079097"
 ---
 # <a name="manage-inventory"></a>Manage Inventory
 
@@ -31,6 +31,7 @@ To increase your overview of items and to help you find them, you can categorise
 Planning for items to fulfil demand is covered as part of supply planning functionality. For more information, see [Planning](production-planning.md).  
 
 ## <a name="inventory-reconciliation"></a>Inventory Reconciliation
+
 When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change of inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction that you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger. For more information, see [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [Adjust Item Costs](inventory-how-adjust-item-costs.md).  
@@ -59,7 +60,9 @@ The following table outlines related tasks.
 |Manage business operations in sales offices, a purchasing departments, or plant planning offices across multiple locations.|[Work with Responsibility Centres](inventory-responsibility-centers.md)|
 |Use resources with specific skills for various services and service items.|[Set Up Resource Allocation](service-how-setup-resource-allocation.md)|
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/get-started-inventory-management/)
+
+## <a name="see-also"></a>See also 
 
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

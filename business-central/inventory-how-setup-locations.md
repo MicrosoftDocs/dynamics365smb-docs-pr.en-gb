@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515518"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077274"
 ---
 # <a name="set-up-locations"></a>Set Up Locations
 
@@ -27,6 +27,7 @@ You can then create document lines for a specific location, view availability by
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Location cards
+
 You specify information about a location, such as a warehouse or distribution centre, on the **Location Card** page. You give each location a name and a code that represents the location. You can then enter the location code in other parts of the program when you want to record transactions for a given location.  
 
 You can enter information about bins and warehouse policies for each location. Based on the warehouse policies you select, you can use the options on the **Bins** FastTab to define the bins that will be used as default bins when you are performing transactions. If you are using directed put-away and pick, you use most of the options on the **Bin Policies** FastTab to define how you would like to use the various advanced warehousing features.  
@@ -76,9 +77,12 @@ If you want to structure your bins under zones, you can do that in the **Zones**
 However, you can choose to set up just one zone and to organise your warehouse according to bins alone. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Default Dimensions for Locations
+
 You set default dimensions for a location on the **Location Card** page by choosing **Location**, and then **Dimensions**. The location's default dimensions are copied to journals and documents when you specify the location on a line, but you can delete or change the dimension on the line if needed. You can require that people specify dimensions for specific locations before they can post an entry. You can also include location dimension values in **Default Dimension Priorities** and **Dimension Combinations** for combinations of priority and dimension rules.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Manage Inventory](inventory-manage-inventory.md)  
 [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  

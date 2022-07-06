@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5c910aa7ab769af315c34db27c065fb8b496c878
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0b608fb83b643e548b5400c6339ce35e09e5617f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136750"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078525"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>The QuickBooks Data Migration Extension
 
@@ -65,7 +65,9 @@ There are a few things in particular that you should do: If the transactions in 
 If you are using value added tax (VAT), you may need to add a business posting group and a product posting group to the posting setup so that you can post VAT amounts.
 Verify the beginning balances for accounts in the general ledger. QuickBooks does not store the current balance for all accounts, so you might need to correct beginning balances.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/migrate-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)  

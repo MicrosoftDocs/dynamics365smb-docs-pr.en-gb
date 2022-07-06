@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e9c7cc2166581c318ff8febcf112765b4f78923c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 86f808aca7223115a3124d24dfc517ed6f96ae33
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655298"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075662"
 ---
 # <a name="set-up-printers"></a>Set Up Printers
 
@@ -269,13 +269,16 @@ You or the administrator can also use the **Printer Selections** page to define 
 > More specific printer selections take precedence over a more general printer selections. For example, a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>Choosing the printer when running a report
+
 Instead of using the default printer when running a report, you can override this setting from the request page. Simply choose the wich printer you want to use for this invocation of the report in the **Printer** dropdown menu.
 
 ### <a name="sizing-print-jobs"></a>Sizing Print Jobs
 
 Cloud printing is designed for documents of a reasonable size. Most cloud services, including PrintNode and HP ePrint, have a limit of 10 MB per job. If you need to print larger reports, you may have to split them in multiple printouts.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Printing a Report](ui-work-report.md#PrintReport)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3068a64df18b184df1cefe42b7a268f5f633a596
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 412dd6ae2842c408ac0a4be7be369c01019a814b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510668"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074492"
 ---
 # <a name="merge-duplicate-records"></a>Merge Duplicate Records
+
 As different users create new customer, supplier, or contact cards over time, or the new records are created automatically during migration, a customer, supplier, or contact may be represented in the system with more than one record. In this case, you can use the **Merge Duplicate** page from the card of the record that you want to keep. The page gives you an overview of duplicated field values and provides functions to select which values to keep or discard when merging two records into one.
 
 > [!NOTE]
@@ -61,7 +62,10 @@ The following procedure is based on a customer card. The steps are similar for a
 > [!NOTE]
 > For contacts, you can use functionality to find duplicate contacts before you use the **Merge Duplicate** page. For more information, see [Searching for Duplicate Contacts](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
+
 [Sales](sales-manage-sales.md)  
 [Set Up Contacts](marketing-setup-contacts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

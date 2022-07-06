@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: soalex
-ms.openlocfilehash: 13f0bb91e3774ce760e62318b5ba7b856824790e
-ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
+ms.openlocfilehash: fd4330818285d6323359b91a5ada88e44d6e8fd5
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "8841994"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078224"
 ---
 # <a name="united-kingdom-local-functionality-in-the-british-version"></a>United Kingdom Local Functionality in the British Version
 
@@ -28,7 +28,7 @@ The following topics describe local functionality that is unique to the United K
     * [Print VAT Audit Reports](how-to-print-vat-audit-reports.md) **Available Now**
     * [Print VAT Reports](how-to-print-vat-reports.md) **Available Now**
     * [Set Up Reverse Charges on VAT](how-to-set-up-reverse-charges-on-vat.md) **Available Now**
-    * [VAT Group Management] (../../ui-extensions-vat-group.md) **Available Now**
+    * [VAT Group Management](../../ui-extensions-vat-group.md) **Available Now**
 
 * Banking & Payments
     * [Print Cheques for APACS](how-to-print-checks-for-apacs.md) **Available Now**

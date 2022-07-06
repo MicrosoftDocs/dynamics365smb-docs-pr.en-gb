@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 75dbc465373843327c4ff1c4a8563452d3464d94
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a9c4f0decab63b3e0484ceff3f0bd7c31c638258
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133311"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075115"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Connecting to Your Business Central Data to Build a Business App Using Power Apps
 
@@ -49,7 +49,9 @@ When you have designed and built your app, you can share it with your colleagues
 > [!NOTE]
 > If you want to connect to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you must choose the **Business Central (on-premises)** connector in step 3.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/power-apps-power-automate-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Create a canvas app from a template in Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  

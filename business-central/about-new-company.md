@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 4fcc6d93c234e6c7a5b7b62514f53157878fee81
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805237"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079435"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Create New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -79,7 +79,9 @@ Once a company has been created, you can't change its name. But you can change i
 
 The Contoso Coffee app provides demonstration data to help you explore the advanced capabilities of [!INCLUDE [prod_short](includes/prod_short.md)]. Find the app in AppSource, and install it in an empty company, for example a company in a sandbox environment. For more information, see [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md).  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Customising Business Central](ui-customizing-overview.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
@@ -87,5 +89,6 @@ The Contoso Coffee app provides demonstration data to help you explore the advan
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Understanding the Infrastructure of Business Central Online (English only)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

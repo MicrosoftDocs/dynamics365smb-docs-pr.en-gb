@@ -10,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 4391b73a6e7f26262349abaeff751dd8f0f6c4e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515674"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076572"
 ---
 # <a name="set-up-posting-groups"></a>Set Up Posting Groups
 
@@ -58,6 +58,7 @@ The following table describes the posting groups that are specific to types of d
 | Fixed Assets Posting Groups |Define accounts for different types of expenses and costs, such as acquisition costs, accumulated depreciation amounts, acquisition costs on disposal, accumulated depreciation on disposal, gains on disposal, losses on disposal, maintenance expenses, and depreciation expenses. Set up these posting groups on the **FA Posting Groups** page. |
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Allowing substitute customer or vendor posting groups on documents
+
 You can let people choose a different customer and vendor posting groups than the defaults when they're working with sales or purchase documents and journals.
 
 To allow changes to customer posting groups, choose **Allow Alteration of Posting Group** on the **Sales & Receivable Setup** and **Service Mgt. Setup** pages, and the **Purchase & Payables Setup** page for vendor posting group changes.
@@ -129,10 +130,13 @@ When something is wrong, [!INCLUDE[prod_short](includes/prod_short.md)] will dis
 > [!NOTE]
 > The error handling described above is not available on item, resource, employee, and fixed asset journals, or for G/L accounts added in local versions of posting groups.
 
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/posting-groups-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>See also 
+
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

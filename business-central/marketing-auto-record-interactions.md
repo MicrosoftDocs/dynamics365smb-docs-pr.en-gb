@@ -1,8 +1,6 @@
 ---
 title: Set Up Automatic Recording of Interactions| Microsoft Docs
 description: You can automatically record your customer or client interactions, for example, for sales, purchase and service documents or phone calls.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 768cb420274450d38000fd6ffe8073c0c842f75a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6ccf3a51b8a9cbddcddd68ba192cfdbe36149bc3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519024"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075884"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Recording Interactions with Contacts Automatically
 You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, emails, phone calls, such as:

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11d979329860d72476a6c2ae2ad6fcf57bd2485e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 78dd79ab8a0f2b966b60dd9d75e95a521b83f4a2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149134"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075558"
 ---
 # <a name="defining-and-allocating-costs"></a>Defining and Allocating Costs
 
@@ -143,12 +143,14 @@ This topic shows an example of how to define allocations by using the dynamic al
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/allocate-costs-dynamics-365-business-central/)
 
- [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   
- [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
- [Accounting for Costs](finance-manage-cost-accounting.md)   
- [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
+## <a name="see-also"></a>See also 
+
+ [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)  
+ [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)  
+ [Accounting for Costs](finance-manage-cost-accounting.md)  
+ [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)  
  [About Cost Accounting](finance-about-cost-accounting.md)
 
 

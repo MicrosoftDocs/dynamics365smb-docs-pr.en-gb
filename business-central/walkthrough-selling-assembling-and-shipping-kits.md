@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd48bd5134fcd42ccee67cbc54eb32b3d8c5a63
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3c0ce6cc58d5876f99d82a0c177cb760bfdd9468
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148051"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075272"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Walkthrough: Selling, Assembling, and Shipping Kits
 
@@ -26,16 +26,19 @@ Special functionality exists to govern the shipping of assemble-to-order quantit
 
 In basic warehouse configurations, when an assemble-to-order quantity is ready to be shipped, the warehouse worker in charge posts an inventory pick for the sales order lines. This creates an inventory movement for the components, posts the assembly output, and the sales order shipment. For more information, see [Handling Assemble-to-Order Items in Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
-## <a name="about-this-walkthrough"></a>About This Walkthrough  
+## <a name="about-this-walkthrough"></a>About This Walkthrough
+
 This walkthrough demonstrates the following tasks:  
 
-### <a name="setting-up-assembly-items"></a>Setting up Assembly Items  
+### <a name="setting-up-assembly-items"></a>Setting up Assembly Items
+
 Assembly items are characterised by their replenishment system and the assembly BOM. The item's assembly policy can be either assemble-to-order (ATO) or assemble-to-stock (ATS). This section covers the following tasks:  
 
 -   Setting the appropriate replenishment system and assembly policy on a new assembly item card.  
 -   Creating an assembly BOM that lists the assembly components and the resource that go into the assembly item.  
 
-### <a name="selling-customized-assembly-items"></a>Selling Customised Assembly Items  
+### <a name="selling-customized-assembly-items"></a>Selling Customised Assembly Items
+
 [!INCLUDE[prod_short](includes/prod_short.md)] provides the flexibility to enter both an inventory quantity and an assemble-to-order quantity on one sales order line. This section covers the following tasks:  
 
 -   Creating a pure ATO sales order line where the full quantity is unavailable and must be assembled before shipment.  
@@ -44,20 +47,23 @@ Assembly items are characterised by their replenishment system and the assembly 
 -   Creating a mixed sales order line where parts of the sales quantity is provided from inventory and the remaining part must be assembled before shipment.  
 -   Understanding ATO availability warnings.  
 
-### <a name="planning-for-assembly-items"></a>Planning for Assembly Items  
+### <a name="planning-for-assembly-items"></a>Planning for Assembly Items
+
 Assembly demand and supply are handled by the planning system, just like for purchase, transfer, and production. This section covers the following tasks:  
 
 -   Running a regenerative plan for items with sales demand for assembled supply.  
 -   Generating an assembly order to fulfill a sales line quantity by the demanded shipment date.  
 
-### <a name="assembling-items"></a>Assembling Items  
+### <a name="assembling-items"></a>Assembling Items
+
 Assembly orders function in a similar way as works orders, expect the consumption and output is recorded and posted directly from the order. When the items are assembled to inventory, the assembly worker has full access to all header and line fields. When the items are assembled to an order where the quantity and date are promised to the customer, then certain fields on the assembly order are not editable. In that case, the assembly posting is performed from the warehouse shipment for the linked sales order. This section covers the following tasks.  
 
 -   Recording and posting assembly consumption and output to inventory.  
 -   Accessing a warehouse shipment line from an ATO assembly order to record assembly work.  
 -   Accessing an ATO assembly order from a warehouse shipment line to review the automatically entered data.  
 
-### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Shipping Assembly Items, from Stock and Assembled to Order  
+### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Shipping Assembly Items, from Stock and Assembled to Order
+
 Special functionality exists to govern the shipping of assemble-to-order quantities. This section covers the following tasks:  
 
 -   Creating a warehouse pick for inventory assembly items and for assembly components to be assembled before shipment.  
@@ -66,7 +72,8 @@ Special functionality exists to govern the shipping of assemble-to-order quantit
 -   Shipping assemble-to-order quantities.  
 -   Shipping inventory assembly items.  
 
-## <a name="roles"></a>Roles  
+## <a name="roles"></a>Roles
+
 This walkthrough demonstrates tasks that are performed by the following user roles:  
 
 -   Sales Order Processor  
@@ -75,7 +82,8 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 -   Picker  
 -   Shipping Responsible  
 
-## <a name="prerequisites"></a>Prerequisites  
+## <a name="prerequisites"></a>Prerequisites
+
 Before you can perform the tasks in the walkthrough, you must do the following:  
 
 -   Install [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -108,7 +116,8 @@ Remove the default lead time for internal processes by following these steps:
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Story  
+## <a name="story"></a>Story
+
 On January 23, Susan, the sales order processor takes an order from The Device Shop for three units of Kit B, which is an ATO item. All three units are customised and must contain the strong graphics card and an extra RAM block. The disc drives are upgraded to DWD because the CD drives are unavailable. Susan knows that the units can be assembled immediately, so she leaves the suggested shipment date of January 23.  
 
 At the same time, the customer orders fifteen units of Kit A with a special request that five units be customised to contain the strong graphics card. Although Kit A is typically an assemble-to-stock item, the order processor combines the sales line quantities to sell ten units from stock and assemble five customised units to the order. The ten units of Kit A are unavailable and must first be supplied to inventory by an assembly order according to the item's assembly policy. Susan learns from the assembly department that Kit A units cannot be completed in the current week. She sets the shipment date of the second sales order line, for the mixed ATO and inventory quantity, to January 27 and informs the customer that the 15 units of Kit A will be shipped four days later than the three units of Kit B. To signal to the shipping department that this sales order requires assembly processing, Susan creates the warehouse shipment document from the sales order.  
@@ -135,7 +144,7 @@ Sammy packs the ten ATS units with the five ATO units that Linda assembled earli
 
 When the sales order is later posted as fully invoiced, the sales order and the linked assembly orders are removed.  
 
-## <a name="prepare-sample-data"></a>Prepare Sample Data  
+## <a name="prepare-sample-data"></a>Prepare Sample Data
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Item Journals**, and then choose the related link.  
 2.  Choose the **Batch Name** field, and then select the default journal.  
@@ -433,7 +442,10 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     When the Device Shop pays for their receipt of the 18 PCs from CRONUS, the sales order and its linked assembly orders are removed.  
 
-## <a name="see-also"></a>See Also  
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
+
  [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Assemble Items](assembly-how-to-assemble-items.md)   
  [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)   

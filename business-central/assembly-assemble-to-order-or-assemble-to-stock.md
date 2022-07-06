@@ -10,20 +10,22 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 317c8d5da772dbead39330f068df59e1603d525b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6228c53173995680bcef50f3135ba406a24e1d23
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517011"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075974"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Understanding Assemble to Order and Assemble to Stock
+
 Assembly items can be supplied in the following two processes:  
 
 -   Assemble to order.  
 -   Assemble to stock.  
 
-## <a name="assemble-to-order"></a>Assemble to Order  
+## <a name="assemble-to-order"></a>Assemble to Order
+
 You typically use *assemble to order* for items that you do not want to stock because you expect to customise them to customer requests or because you want to minimise the inventory carrying cost. The supporting functionality includes:  
 
 -   Ability to customise assembly items when taking a sales order.  
@@ -43,7 +45,8 @@ When you enter an assemble-to-order item on a sales line, an assembly order is a
 
  To enable this process, the **Assembly Policy** field on the item card must be **Assemble-to-Order**.  
 
-## <a name="assemble-to-stock"></a>Assemble to Stock  
+## <a name="assemble-to-stock"></a>Assemble to Stock
+
  You typically use *assemble to stock* for items that you want to assemble ahead of sales, such as to prepare for a kit campaign, and keep in stock until they are ordered. These items are usually standard items such as packaged kits that you do not offer to customise to customer requests.  
 
  In the assemble-to-stock process, the item is assembled without an immediate sales demand and is stocked in the warehouse as an inventory item for later sale or consumption as a subassembly. For more information, see [Assemble Items](assembly-how-to-assemble-items.md). From this point, the item is picked and processed as a single item and is treated like a finished production item.  
@@ -55,7 +58,8 @@ When you enter an assemble-to-order item on a sales line, an assembly order is a
 
  To enable this process, the **Assembly Policy** field on the item card must be **Assemble-to-Stock**.  
 
-## <a name="combination-scenarios"></a>Combination Scenarios  
+## <a name="combination-scenarios"></a>Combination Scenarios
+
  A general principle in Assembly Management is that when combined on a sales order line, assemble-to-order quantities must be shipped before inventory quantities.  
 
  If an assembly order is linked to a sales order line, then the value in the **Qty. to Assemble to Order** field on the sales order line is copied to the **Quantity to Assemble** field, via the **Quantity** field on the assembly order header. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -91,7 +95,9 @@ Based on this example, you can only modify the **Quantity to Assemble** field as
 - The minimum quantity that you can enter is 1. This is because you must at least assemble one unit to be able to sell the four units, assuming that the remaining three are available in the inventory.  
 - The maximum quantity that you can enter is 4. This is to ensure that you do not assemble more of this assemble-to-order item than what is needed on the sale.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  

@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: b97b4fb9c09c646a69c78747079e7fde3fdae7dc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46c81fa887af70e7a2f516df38ec003392b1dabd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517661"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079357"
 ---
 # <a name="use-approval-workflows"></a>Use Approval Workflows
 
@@ -83,7 +83,9 @@ The **Send Overdue Approval Notifications** function checks for all open approva
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Overdue Approval Requests**, and then choose the related link.
 2. On the **Overdue Approval Requests** page, choose the **Send Overdue Approval Notifications** action.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/use-approval-workflows/)
+
+## <a name="see-also"></a>See also 
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Sales](sales-manage-sales.md)  

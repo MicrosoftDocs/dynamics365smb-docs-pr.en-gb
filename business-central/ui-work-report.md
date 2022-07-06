@@ -10,12 +10,12 @@ ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Wo
 ms.search.form: ''
 ms.date: 03/24/2022
 ms.author: jswymer
-ms.openlocfilehash: f2129ff54f49637fb8abbcae374a2e9f7e5d7c2e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 43e2c33af227ccd33ad5e5a616df78fd75298bcd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655235"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076182"
 ---
 # <a name="run-and-print-reports"></a>Run and Print Reports
 
@@ -146,7 +146,9 @@ The fields under **Advanced** set limitations on the generated report to control
 > [!NOTE]
 > The maximum values may be different for [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, and an administrator can change them. For more information, see [Configuring Business Central Server - Reports](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). For an overview of reports limitations [!INCLUDE[prod_short](includes/prod_short.md)] online, see [Operational Limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Set Up Printers](ui-specify-printer-selection-reports.md)  
 [Work with Calendar Dates and Times](ui-enter-date-ranges.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 356eb4fd32eff269b166767ae3b6cb3df6b67f1b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: bda2bc95c78f5cc2119a6725b7dd57491938d67b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383704"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075532"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Set Up VAT Statement Templates and VAT Statement Names
 
@@ -45,10 +45,12 @@ After you define a VAT statement, you can preview it to make sure it meets your 
 4. On the lines where the **Type** field contains **VAT Entry Totalling** you can see a list of VAT entries by choosing the amount in the **Column Amount** field.
 5. You can use personalisation to show more fields in the lines. For example the Unrealised Base Amount and Unrealised VAT Amount, if you are using Unrealised VAT.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Set Up Value-Added Tax](finance-setup-vat.md)  
-[Setting Up Unrealised Value Added Tax](finance-setup-unrealized-vat.md)      
+[Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
 [Report VAT to a Tax Authority](finance-how-report-vat.md)  
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
 [Local functionality in Business Central](about-localization.md)

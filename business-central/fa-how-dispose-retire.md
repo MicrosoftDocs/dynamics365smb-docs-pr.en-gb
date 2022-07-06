@@ -10,12 +10,12 @@ ms.search.keywords: scrap
 ms.search.form: 5628, 5610, 5611, 5629, 5633
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 210cfc51b9a9ffc68166636a2ff2d0e33edcbb62
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dd8e374a0f7124084d789858767d08c4935d1631
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523586"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077326"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Dispose of or Retire Fixed Assets
 
@@ -40,6 +40,7 @@ The following steps assume that you have already set up the relevant posting gro
 If you sell or dispose of part of a fixed asset, you must split up the asset before you can record the disposal transaction. For more information, see [Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md).  
 
 ## <a name="to-view-disposal-ledger-entries"></a>To view disposal ledger entries
+
 When you sell or dispose of a fixed asset, the disposal value is posted to the general ledger where you can view the result.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
@@ -50,7 +51,9 @@ When you sell or dispose of a fixed asset, the disposal value is posted to the g
 
 The **General Ledger Entries** page opens where you can see the entries that the disposal posting resulted in.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/dispose-fixed-assets/)
+
+## <a name="see-also"></a>See also 
 
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  

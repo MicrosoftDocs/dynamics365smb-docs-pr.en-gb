@@ -1,8 +1,6 @@
 ---
 title: Allocate Costs to Intercompany Partners| Microsoft Docs
 description: Learn how VAT settings for customers and suppliers control whether, and how, VAT is calculated.
-services: project-madeira
-documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a9118614872559a9b2c321e7869f1b013266d92b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f6f8634ae4431038a6ac3ea66bc5b1ead0a21d30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522151"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077300"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allocate Costs to Intercompany Partners
 When you use intercompany postings to transfer documents between partner companies, the VAT-related settings (primarily the VAT business posting group) assigned to the customer or supplier accounts (associated with the intercompany Partner) control whether, and how, VAT is calculated and registered. You can also do cost distributions directly from a purchase order to partner companies. For example, if you register a purchase invoice from an external supplier and you want to distribute some or all of the costs to one or more intercompany partners.

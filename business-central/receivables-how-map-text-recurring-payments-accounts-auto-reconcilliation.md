@@ -10,14 +10,15 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69ec5c81ff1c93fd4ab91540f3ad3e420171c6c9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 021837a5ec2be9fb5b2234fcc85103b8ad3746f8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514836"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078577"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Map Text on Recurring Payments to Accounts for Automatic Reconciliation
+
 On the **Text-to-Account Mapping** page, which you open from the **Payment Reconciliation Journal** page, you can set up mappings between text on payments and specific debit, credit, and balancing accounts so that such payments are posted to the specified accounts when you post the payment reconciliation journal.
 
 Similar functionality exists to reconcile excess amounts on payment reconciliation journal lines on an ad-hoc basis. For more information, see [Reconcile Payments that Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md).
@@ -30,6 +31,7 @@ Payments posted based on text-to-account mapping are not applied to open entries
 On a payment reconciliation journal line where the payment has been set to posting according to text-to-account mapping, the **Match Confidence** field contains **High - Text-to-Account Mapping**, and the **Account Type** and **Account No.** fields contain the mapped accounts.
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>To map text on recurring payments to accounts for automatic reconciliation
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
 2. Open a payment reconciliation journal. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 3. Choose the **Map Text to Account** action. The **Text-to-Account Mapping** page opens.
@@ -56,7 +58,9 @@ To always post expenses that are related to fees from a specific bank, MyBank, t
 | --- | --- | --- | --- | --- |
 | MyBank |BLANK |60400|G/L Account |BLANK |
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/use-journals-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

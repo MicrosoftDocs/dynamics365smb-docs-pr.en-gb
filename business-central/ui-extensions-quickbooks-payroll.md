@@ -1,8 +1,6 @@
 ---
 title: Using the QuickBooks Payroll File Import Extension | Microsoft Docs
 description: This topic describes how to use the extension to import salary and wage transactions from QuickBooks.
-services: project-madeira
-documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cd715ac63f9ce7068d5b02fce21e294b7a2231cf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0d7acf85f8c4584f0c7458bf7af543e203d36aec
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511500"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075688"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>The QuickBooks Payroll File Import Extension
 Use the QuickBooks Payroll File Import extension to import payroll transactions from QuickBooks to general ledger accounts in [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this is useful when you are transitioning from QuickBooks to [!INCLUDE[prod_short](includes/prod_short.md)], or if you outsource your payroll but also want to keep track of it in [!INCLUDE[prod_short](includes/prod_short.md)].

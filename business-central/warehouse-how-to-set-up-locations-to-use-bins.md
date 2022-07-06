@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e2fe316c9f310abe3eb3bc031146445a8ffa7cef
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 88fa36a84b88ccb44df3c1412ac217461febc883
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512029"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078265"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Set Up Locations to Use Bins
+
 Bins represent the basic warehouse structure and are used to make suggestions about the placement of items. When you have created your bins, you can define very specifically the contents that you want to place in each bin, or the bin can function as a floating bin without specified contents.  
 
 To use the bin functionality at a location, you first activate the functionality on the **Location** card. Then you design the item flow at the location by specifying bin codes in setup fields that represent the different flows.  
@@ -24,7 +25,8 @@ To use the bin functionality at a location, you first activate the functionality
 > [!NOTE]  
 >  Before you can specify bin codes on the location card, the bin codes must be created. For more information, see [Create Bins](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a>To set up a location to use bins  
+## <a name="to-set-up-a-location-to-use-bins"></a>To set up a location to use bins
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Select the location where you want to use bins.  
 3.  Choose the **Edit** action.  
@@ -38,11 +40,15 @@ To use the bin functionality at a location, you first activate the functionality
 11. On the **Warehouse** FastTab, fill in the **Outbound Whse. Handling Time**, **Inbound Whse. Handling Time**, and the **Base Calendar Code** fields. For more information, see [Set Up Base Calendars](across-how-to-assign-base-calendars.md).
 
 ## <a name="filling-the-consumption-bin"></a>Filling the Consumption Bin
+
 This flow chart shows how the **Bin Code** field on works order component lines is filled according to your location setup.
 
 ![Bin flow chart.](media/binflow.png "BinFlow")  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/configure-bins-location/)
+
+## <a name="see-also"></a>See also 
+
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: cccfd5f5ca2b0e3d892e834465d628262f97151d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d45fc8f3b3636e79c17fec799f8f3682f0772e1b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520393"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075506"
 ---
 # <a name="correct-prepayments"></a>Correct Prepayments
 
@@ -38,7 +38,9 @@ The following procedure shows how to issue a prepayment credit memo to cancel al
 5. To make a prepayment invoice for any new lines in the sales credit memo, choose the **Prepayment** action, and then choose the **Post Prepayment Invoice** action or the **Post and Print Prepmt. Invoice** action.  
 6. To issue an additional prepayment invoice, increase the prepayment amount on one or more lines and post the prepayment invoice. A new invoice will be created for the difference between the prepayment amounts invoiced and the new prepayment amounts.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

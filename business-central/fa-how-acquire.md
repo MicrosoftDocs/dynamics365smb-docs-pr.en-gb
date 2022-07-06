@@ -10,14 +10,15 @@ ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 46d8b491727f566c9a96640e3dfb40cc0d417f40
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 79705da9117c8b201b4f652351771210f97f3cb7
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519258"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075011"
 ---
 # <a name="acquire-fixed-assets"></a>Acquire Fixed Assets
+
 For each fixed asset, you must set up a card containing information about the asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. A depreciation book must be set up and assigned to each fixed asset before you can acquire it.
 
 When a fixed asset is set up and a depreciation book assigned, you must acquire the fixed asset. To acquire a fixed asset, you record its acquisition cost in the relevant G/L account, bank account, or supplier by posting an acquisition transaction from the **Fixed Asset G/L Journal** page. You can use the **Assisted Fixed Asset Acquisition** page to create and post the required general journal lines automatically.
@@ -27,6 +28,7 @@ The salvage value is the residual value of a fixed asset when it can no longer b
 Indexation is used to adjust values for general price-level changes. The **Index Fixed Assets** batch job can be used to calculate the acquisition costs at replacement costs.
 
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>To create a fixed asset and acquire it automatically
+
 The following procedure describes how to create a fixed asset and then acquire it by using the **Assisted Fixed Asset Acquisition** page to create and post the required fixed asset G/L journal lines. You can also create and post the journal lines manually. For more information, see [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
@@ -44,6 +46,7 @@ The following procedure describes how to create a fixed asset and then acquire i
 When you choose **Finish**, the **Book Value** field on the **Fixed Asset Card** page is filled, indicating that the fixed asset has been acquired at the specified acquisition cost.  
 
 ## <a name="to-set-up-a-component-list-for-a-main-asset"></a>To set up a component list for a main asset
+
 You can group your fixed assets into main assets and their components. For example, you may have a production machine that consists of many parts that you want to group in this manner.  
 
 Both the main asset and all its components must be set up as individual fixed asset cards. After you have set up a component list, [!INCLUDE[prod_short](includes/prod_short.md)] automatically fills in the **Main Assets/Component** and **Components of Main Asset** fields on the fixed asset cards.
@@ -57,6 +60,7 @@ Both the main asset and all its components must be set up as individual fixed as
 7. Select the **Allow Posting to Main Assets** check box.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>To post a fixed asset acquisition manually with the fixed asset G/L journal
+
 The following procedure describes how to acquire a fixed asset manually by creating and posting lines on the **Fixed Asset G/L Journal** page. You can also acquire a fixed asset automatically by using the **Assisted Fixed Asset Acquisition** page. For more information, see step 5 in [To create a fixed asset and acquire it automatically](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically).
 
 > [!NOTE]  
@@ -71,6 +75,7 @@ The following procedure describes how to acquire a fixed asset manually by creat
 >   If you fill in the **Insurance No.** field in the fixed asset G/L journal when you post an acquisition cost, then [!INCLUDE[prod_short](includes/prod_short.md)] will also post the acquisition cost of the fixed asset to the insurance coverage ledger. For more information, see [Insure Fixed Assets](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>To cancel an acquisition cost posting for one fixed asset
+
 If you make an error when posting an acquisition cost, you can remove the entry with the **Cancel FA Entries** batch job and then post the correct acquisition entry. The erroneous entries are transferred to the **FA Error Ledger Entries** page.
 
 For example, if you post an acquisition with the wrong date, you must correct it as soon as possible because the fixed asset posting date is used for many calculations.
@@ -86,6 +91,7 @@ For example, if you post an acquisition with the wrong date, you must correct it
 6. When the incorrect entry or entries are cancelled, proceed to post the correct acquisition cost.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>To post the salvage value together with the acquisition cost
+
 You can post the salvage value together with the acquisition cost from a fixed asset journal.
 
 > [!NOTE]
@@ -99,7 +105,10 @@ You can post the salvage value together with the acquisition cost from a fixed a
 > [!NOTE]
 > If a salvage value exists for a fixed asset, then that value will be used in depreciation posting instead of the value in the **Ending Book Value** field on the **FA Depreciation Books** page. For more information, see [To manage the ending book value](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/purchase-fixed-assets/)
+
+## <a name="see-also"></a>See also 
+
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  

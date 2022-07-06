@@ -8,14 +8,15 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f75b1b7e4f08af7ff02c43ec30ec39c234f7704
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626402"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074699"
 ---
 # <a name="create-jobs"></a>Create Jobs
+
 When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.  
 
 The first layer consists of job tasks. You must create at least one job task per job because all posting refers to a job task. Having at least one job task in your job enables you to set up job planning lines and to post consumption to the job.
@@ -34,6 +35,7 @@ Sometimes the party that is receiving a service is different from the party that
 * Overwrite the standard financial terms of the project.
 
 ## <a name="to-create-a-job-card"></a>To create a job card
+
 You create a job card and then create job task lines and job planning lines for it.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
@@ -44,6 +46,7 @@ You create a job card and then create job task lines and job planning lines for 
 >   If you are using time sheets with your job, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the job. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>To create tasks for a job
+
 A key part of creating a job is to specify the various tasks involved in the job. You specify tasks by creating one line per task on the **Tasks** FastTab on the **Job Card** page. Every job must have at least one task.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
@@ -54,6 +57,7 @@ A key part of creating a job is to specify the various tasks involved in the job
 6. To specify the job tasks with information on other job tasks, choose the **Copy Job Tasks from** action, fill in the fields as necessary, and then choose the **OK** button.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>To create planning lines for a job
+
 You can refine your new job tasks on job planning lines. A planning line can capture the information that you want to track for a job. For example, you can track the resources the job requires, or the items that are needed. For example, you have a task to get a customer to approve a job. You associate the task with planning lines for items such as meeting the customer and assigning a resource.  
 
 A job planning line can have one of the following types.  
@@ -73,7 +77,9 @@ A job planning line can have one of the following types.
 4. On the **Job Planning Lines** page, on a new line, fill in the fields as necessary.
 5. Repeat steps 3 and 4 for all planning lines that you need for the job task.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-new-job/)
+
+## <a name="see-also"></a>See also 
 
 [Project Management](projects-manage-projects.md)  
 [Video: How to create a job in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01c8b40b5217faccabc93e931472ad3aad64b7a1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521053"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075610"
 ---
 # <a name="design-details-assembly-order-posting"></a>Design Details: Assembly Order Posting
 Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption/output. However, the principles are combined in that assembly orders have their own posting UI, like that for sales orders, while the actual entry posting happens in the background as direct item and resource journal postings, like that for production consumption, output, and capacity.  
@@ -107,6 +107,13 @@ The item ledger entry that results from posting an assemble-to-order sale is fix
 Item ledger entries of type Sale that result from posting assemble-to-order quantities are marked with **Yes** in the **Assemble to Order** field.  
 
 Posting sales order lines where a part is inventory quantity and another part is assemble-to-order quantity results in separate item ledger entries, one for the inventory quantity and one for the assemble-to-order quantity.  
+
+### <a name="posting-dates"></a>Posting dates
+
+In general, posting dates are copied from a sales order to the linked assembly order. The posting date in the assembly order is automatically updates when you change the  posting date in the sales order directly or indirectly, such as if you change the posting date in the wareshouse shippment, inventory pick, or as part of a bulk posting.
+
+You can change the posting date in the assembly order manually. However, it can not be later then posting date in the linked sales order. The system will keep this date unless you update the posting date in the sales order.
+
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   

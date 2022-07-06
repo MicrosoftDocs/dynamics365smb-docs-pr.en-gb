@@ -10,14 +10,15 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17e478464d49424d2eb929a297033605c91c25ba
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9ec826560a44908b0635bf7698040b1c0e088b04
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516350"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076650"
 ---
 # <a name="setting-up-fixed-assets"></a>Setting Up Fixed Assets
+
 Before you can work with Fixed Assets, you need to define a few things:  
 
 * How you insure, maintain, and depreciate fixed assets.  
@@ -41,8 +42,10 @@ The following table describes a sequence of tasks, with links to the topics that
 | Learn about different fixed asset depreciation methods. |[Depreciation Methods](fa-depreciation-methods.md) |
 | Learn about how to apply user-defined depreciation methods. |[Set Up User-Defined Depreciation Methods](fa-how-setup-user-defined-depreciation-method.md) |
 
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a>See also 
+
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

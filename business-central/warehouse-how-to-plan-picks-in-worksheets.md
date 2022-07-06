@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 09b9f0d4d707da3872ae4b085f1405a99f69a9bc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 24e19eb56bf28b7871ec18f254dc5dbbaa0b290a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515206"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078343"
 ---
 # <a name="plan-picks-in-worksheets"></a>Plan Picks in Worksheets
 
@@ -33,6 +33,7 @@ On the **Pick Worksheets** page, you can set up pick lists that help employees g
 > For information about picking components for assembly orders generally, including situations where the assembly item is not due on a sales shipment, see [Pick for Assembly or Production in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="sorting-lines-on-a-pick-worksheet"></a>Sorting Lines on a Pick Worksheet
+
 You can sort lines by item, shelf number, source document, due date, or destination. Here are some examples of how sorting can be useful.
 
 * If you sort by due date, you can choose to delete all lines except those that need immediate attention. The less urgent lines are not deleted as such, but just sent back to the **Pick Selection** worksheet. When you create the pick, the lines have already been sorted by due date, and you can choose to assign the pick to an employee.
@@ -52,7 +53,9 @@ You can sort lines by item, shelf number, source document, due date, or destinat
 8. Choose the **Print** action to print the pick instructions.  
 9. After the pick is completed, choose the **Register** action.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+
+## <a name="see-also"></a>See also 
 
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  

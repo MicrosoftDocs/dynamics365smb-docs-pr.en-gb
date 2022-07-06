@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: be9ddda098391cad347948993c2038de7efc8fc9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 242c3e65401f188068c6e1fbea20212d4a3a7653
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521449"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076156"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Walkthrough: Making Cash Flow Forecasts by Using Account Schedules
 
@@ -142,7 +142,9 @@ Ken is now ready to assign the column layout to the account schedule name.
 2. On the **Acc. Schedule Overview** page, you can select an amount and then view the cash flow forecast entries that make up the amount. In addition, you can view the formula that is used to calculate the amount. You can also filter the amounts by date and dimension.  
 3. Choose the **Print** action to print the cash flow forecast.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Work with Account Schedules](bi-how-work-account-schedule.md)  
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  

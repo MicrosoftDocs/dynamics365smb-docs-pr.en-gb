@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 991df58fde5f525772d5b9eeadbf802429965575
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dcc7b1586f50d3d9436d237592279007f38c05fa
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517427"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077248"
 ---
 # <a name="trace-item-tracked-items"></a>Trace Item-Tracked Items
+
 You can see where an item-tracked item was used, including how and when it was received or produced, transferred, sold, consumed, or returned. You can also find all current instances of a specific serial or lot number in the database. You do this by using the Item Tracing and the [Find Entries](ui-find-entries.md) features.  
 
 These features can be particularly useful in quality control when you need to find out which customers received products with a particular lot number or when you need to find out which lot a defective component came from.  
@@ -64,7 +65,9 @@ These features can be particularly useful in quality control when you need to fi
 3. In the **Serial No.** and **Lot No.** fields, enter the item tracking numbers that you want to trace.  
 4. Choose the **Find** action to find all instances of the serial or lot number in the database.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+
+## <a name="see-also"></a>See also 
 
 [Inventory](inventory-manage-inventory.md)  
 [Work with Serial, Lot, and Package Numbers](inventory-how-work-item-tracking.md)  

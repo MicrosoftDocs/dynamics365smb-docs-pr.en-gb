@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfb46221098869f41b67c5365f14265b34017c0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ceba015b16e990bc71e0217ed2f8ee85ca6ae1ec
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520341"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074881"
 ---
 # <a name="setting-up-cost-accounting"></a>Setting Up Cost Accounting
 
@@ -141,7 +141,8 @@ Cost objects are projects, products, or services of a company. The chart of cost
 * Transfer dimension values in the general ledger to the chart of cost objects. You can make any necessary adjustments after the transfer.  
 * Create a new chart of cost object that is independent of the general ledger or add a new cost object to an existing chart of cost objects. You must create each cost object individually.  
 
-### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>To transfer dimension values from the general ledger to the chart of cost objects  
+### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>To transfer dimension values from the general ledger to the chart of cost objects
+
 1.  Set a dimension to be the cost object dimension on the **Update CA Dimensions** page. Only the values from this dimension are transferred.  
 2.  Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Objects**, and then choose the related link.  
 3.  Choose the **Get Cost Objects from Dimension** action to transfer dimension values to the chart of cost objects. The function transfers the dimension values that you defined in step 1.  
@@ -151,7 +152,8 @@ Cost objects are projects, products, or services of a company. The chart of cost
 
 The chart of cost objects now contains all specified dimension values from the general ledger and includes titles and subtotals.  
 
-### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>To create new cost objects in the Chart of Cost Objects page  
+### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>To create new cost objects in the Chart of Cost Objects page
+
 You can set up and maintain cost objects in either the **Cost Object Card** card or on the **Chart of Cost Objects** page. In this procedure, you set up cost objects on the **Chart of Cost Objects** page.  
 
 1.  Open the **Chart of Cost Objects** page in edit mode.  
@@ -169,9 +171,11 @@ You can set up and maintain cost objects in either the **Cost Object Card** card
 >  If you have entered definitions in the **Total From/To** fields for **End-Total** cost objects before you run the indent function, then you must enter them again. The function overwrites the values in all **End-Total** fields.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Defining Cost Centres and Cost Objects for Chart of Accounts
+
 You can automatically transfer the expense and income entries from the general ledger to cost accounting either for each general ledger posting or with a batch job. When you do the transfer, [!INCLUDE[prod_short](includes/prod_short.md)] only transfers the entries that are already linked to a cost center or a cost object. To establish a meaningful transfer, you must ensure that the cost centres and cost objects are correctly defined.  
 
-### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Defining Default Dimension Values for General Ledger Accounts  
+### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Defining Default Dimension Values for General Ledger Accounts
+
 For each general ledger account, you can define default dimension values in the **Default Dimension** table. The following example shows how to define that there should always be a DEPARTMENT cost centre, but never be a PROJECT cost object when posting to a general ledger account.  
 
 |**Dimension Code**|**Value Posting**|  
@@ -179,7 +183,8 @@ For each general ledger account, you can define default dimension values in the 
 |Department|Code Mandatory|  
 |Project|No Code|  
 
-### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Defining Dimension Values for Overhead Costs and Direct Costs  
+### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Defining Dimension Values for Overhead Costs and Direct Costs
+
  You can transfer overhead costs to a cost centre and direct costs to a cost object. The following table shows the optimal combination of the dimension setup values.  
 
 |Transfer To|Cost Centre Posting|Cost Object Posting|  
@@ -190,9 +195,12 @@ For each general ledger account, you can define default dimension values in the 
 > [!NOTE]  
 >  To make sure that the predefined cost centre and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup page.
 
-## <a name="see-also"></a>See Also  
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
+
 [Accounting for Costs](finance-manage-cost-accounting.md)  
-[Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
+[Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)  
 [Defining and Allocating Costs](finance-define-and-allocate-costs.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

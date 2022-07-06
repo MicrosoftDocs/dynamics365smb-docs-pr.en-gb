@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3fe6f144b8513f651293f56e10ecf3020c1d0760
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 91a7b43265dbf4027c88f6fac7b79d4340f22ce1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517746"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078499"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Create Recurring Sales and Purchase Lines
+
 If you often need to create sales and purchase lines with similar information, you can set up standard lines that you can then insert on recurring sales and purchase documents, for example, for recurring replenishment orders.  
 
 The following procedures show how to work with standard sales lines on a sales invoice. It works in a similar way for all other sales documents and for all purchase documents.  
@@ -66,6 +67,7 @@ If recurring sales lines exist for the customer, you can insert them, or have th
 5. Choose the **OK** button to insert the standard sales lines on the invoice where you can reuse them as is or edit the information.
 
 ## <a name="to-create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>To create multiple sales invoices based on recurring sales lines
+
 You can use the **Create Recurring Sales Invoices** batch job to create sales invoices according to standard sales lines that are assigned to the customers and with posting dates within the valid-from and valid-to dates that you specify on the standard sales lines.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Recurring Sales Invoices**, and then choose the related link.
@@ -75,7 +77,9 @@ You can use the **Create Recurring Sales Invoices** batch job to create sales in
 
 Sales invoices are created for the customers with the specified standard customer sales code, and any specified direct-debit information, for posting on the specified date.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

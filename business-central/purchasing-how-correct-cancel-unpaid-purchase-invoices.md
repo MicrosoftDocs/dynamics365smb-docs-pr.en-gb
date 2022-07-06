@@ -10,12 +10,12 @@ ms.search.keywords: undo, credit memo, return
 ms.search.form: 138, 140, 146
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 568f9f4424eefb249176fc56cbc515fc03a9af24
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7cfff3b5140dfa01aa3028b47cf9e52bad47cd8c
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517349"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078629"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Correct or Cancel Unpaid Purchase Invoices
 
@@ -28,6 +28,7 @@ On the **Posted Purchase Invoice** page, you can choose the **Correct** button o
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
 ## <a name="to-correct-a-posted-purchase-invoice"></a>To correct a posted purchase invoice
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Invoices**, and then choose the related link.  
 2. Select the posted purchase invoice that you want to correct.  
 
@@ -41,6 +42,7 @@ On the **Posted Purchase Invoice** page, you can choose the **Correct** button o
 4. Choose **Show Corrective Credit Memo** to view the posted purchase credit memo that voids the initial posted purchase invoice.
 
 ## <a name="to-cancel-a-posted-purchase-invoice"></a>To cancel a posted purchase invoice
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Invoices**, and then choose the related link.  
 2. Select the posted purchase invoice that you want to cancel.
 
@@ -52,9 +54,13 @@ On the **Posted Purchase Invoice** page, you can choose the **Correct** button o
 4. Choose **Show Corrective Credit Memo** to view the posted purchase credit memo that voids the initial posted purchase invoice.
 
 ### <a name="partial-invoice-posting-also-supported"></a>Partial Invoice Posting also Supported
+
 If the cancellation is related to a partial invoice posting, then the originating purchase order line is updated to reflect the cancelled invoiced quantity. The **Qty. to Invoice** and **Qty. Invoiced** fields on the related purchase order line are reset to the values before the partial posting.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/)
+
+## <a name="see-also"></a>See also 
+
 [Purchasing](purchasing-manage-purchasing.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

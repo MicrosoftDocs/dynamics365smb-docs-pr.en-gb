@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9325, 99000815, 99000829, 9900083
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 814770db81744306120445a509325cff8502041d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b47525b8f552cb4446497a0edafa7661aa25f17b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516855"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074715"
 ---
 # <a name="create-production-order-headers"></a>Create Works Order Headers
 
@@ -31,7 +31,7 @@ In the following procedure, a firm planned works order is created. You can also 
 3. In the **No.** field, insert the next number in the series.  
 4. In the **Source Type** field, select the source of the works order.
 
-Here you can select to produce for a family of items. For more information, see [Work With Production Families](production-how-work-family.md).
+    Here you can select to produce for a family of items. For more information, see [Work With Production Families](production-how-work-family.md).
 5. In the **Source No.** field, select the item number, family, or sales header for which the works order is to be generated.  
 6. Fill in the **Quantity** and **Due Date** fields according to your specifications.  
 

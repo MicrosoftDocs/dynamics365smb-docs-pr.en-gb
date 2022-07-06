@@ -1,8 +1,6 @@
 ---
 title: Overview of Tasks to Deliver Service | Microsoft Docs
 description: Outlines tasks to set up make sure that you deliver quality service and live up to agreements with customers.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ae2dd8a55c030d06e839a97f482adf1c548d6dbd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e44033b067ab51e17925330618f954294252177b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128517"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077821"
 ---
 # <a name="delivering-service"></a>Delivering Service
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  

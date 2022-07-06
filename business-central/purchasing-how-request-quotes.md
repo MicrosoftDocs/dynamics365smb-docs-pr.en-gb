@@ -10,29 +10,34 @@ ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: cb2913c506362a7f4cbbed21f47093e3f5d8819a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7bad66452613dba8175404e67d1d8b421902bb8d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517245"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076988"
 ---
 # <a name="request-quotes"></a>Request Quotes
 
 A purchase quote can be used as a preliminary draft for a purchase order, and the order can then be converted to a purchase invoice or an order.
 
 ## <a name="to-create-a-purchase-quote"></a>To create a purchase quote
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Quotes**, and then choose the related link.
 2. Create a new document, in the same way as you make a purchase order. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>To convert a purchase quote to a purchase order
+
 When you have accepted the supplier's quote, you can convert it to a purchase invoice or order to process the purchase.
 
 1. Open a purchase quote that is ready to convert, and then choose the **Make Order** action.
 
 The purchase quote is removed from the database. A purchase invoice or a purchase order is created based on the information in the purchase quote in which you can process the purchase. In the **Quote No.** field on the purchase invoice or purchase order, you can see the number of the purchase quote that it was made from.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-purchase-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
+
 [Purchasing](purchasing-manage-purchasing.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  

@@ -10,14 +10,15 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f53a98d0574bfd324249b85b0b75de5f5e4997e9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ee69503fa830d21ed433e88c3d8f55a42a4ec1bb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514940"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074673"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Monitor Job Progress and Performance
+
 As a job progresses, materials, resources, and other expenses are consumed and must be posted to the job. Work in Progress (WIP) is a feature that enables you to estimate the financial value of jobs in the general ledger while the jobs are ongoing. In many cases, you might post expenses for a job before invoicing a job. When only expenses have been posted, your financial statement will be inaccurate. For more information, see [Understanding WIP Methods](projects-understanding-wip.md).
 
 To track the value in the general ledger, you can calculate WIP and post the value to the general ledger.
@@ -33,6 +34,7 @@ You can calculate WIP based on the following:
 If you want to view the result using a different method, you can change the method and calculate WIP again. There is no limit to the number of times that you calculate WIP. WIP is only calculated, it does not get posted to the general ledger. After you have calculated WIP, you can post to the general ledger.
 
 ## <a name="to-create-a-job-wip-method"></a>To create a job WIP method
+
 You can create a job WIP method that reflects the needs of your organisation. After you have created it, you can set it as the default job WIP calculation method that will be used in your organisation.  
 
 > [!NOTE]
@@ -45,6 +47,7 @@ You can create a job WIP method that reflects the needs of your organisation. Af
 5. In the **Default WIP Method** field, choose the method from the list.
 
 ## <a name="to-define-a-wip-method-for-a-job"></a>To define a WIP method for a job
+
 When you create a new job, you must specify which job WIP method that applies. In some cases, which Job WIP method that you can use has been set up for you as a default.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
@@ -52,6 +55,7 @@ When you create a new job, you must specify which job WIP method that applies. I
 3. On the **Job Card** page, in the **WIP Method** field, select a WIP method from the list. If a default method has been defined, you can select another option if needed.  
 
 ## <a name="to-calculate-wip"></a>To calculate WIP
+
 You can determine the WIP amount that is to be posted to balance sheet accounts for the period end reporting. You use the **Job Calculate WIP** batch job to do this.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Calculate WIP**, and then choose the related link.  
@@ -63,6 +67,7 @@ You can determine the WIP amount that is to be posted to balance sheet accounts 
 >   The batch job only calculates the WIP. It is not posted to the general ledger. To do so, you must run the **Post WIP to G/L** batch job when you have calculated the WIP. For more information, see the following procedure.
 
 ## <a name="to-post-wip"></a>To post WIP
+
 When you have calculated WIP, you can post it to balance sheet accounts for the period end reporting. You use the **Job Post WIP to G/L** batch job to do this.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Post WIP to G/L**, and then choose the related link.  
@@ -70,6 +75,7 @@ When you have calculated WIP, you can post it to balance sheet accounts for the 
 3. Choose the **OK** button.
 
 ## <a name="to-calculate-and-post-job-completion-entries"></a>To calculate and post job completion entries
+
 When you have completed all activities for a job, including usage posting and invoicing, you must update the job to have a **Status** of **Completed**. Then, you must reverse any WIP that has been posted to the general ledger.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
@@ -86,6 +92,7 @@ When you have completed all activities for a job, including usage posting and in
      The job WIP general ledger entries created by running the batch job will have the **Job Complete** check box selected to show they are completion entries.
 
 ## <a name="to-view-job-ledger-entries"></a>To view job ledger entries
+
 All job-related entries are recorded in job registers and are numbered sequentially, starting with 1. From the job register, you can get an overview of all job ledger entries.    
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Registers**, and then choose the related link.
@@ -93,12 +100,15 @@ All job-related entries are recorded in job registers and are numbered sequentia
 
 On the **Job Ledger Entries** page you can review the entries that are associated with any job.  
 
-## <a name="see-also"></a>See Also
-[Managing Projects](projects-manage-projects.md)
-[Managing Inventory Costs](finance-manage-inventory-costs.md)   
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+
+## <a name="see-also"></a>See also 
+
+[Managing Projects](projects-manage-projects.md)  
+[Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  
-[Purchasing](purchasing-manage-purchasing.md)         
-[Sales](sales-manage-sales.md)      
+[Purchasing](purchasing-manage-purchasing.md)  
+[Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 1
 ms.date: 04/20/2022
 ms.author: edupont
-ms.openlocfilehash: 1adf94a191b2e0514f7a7435ac1807ca19498b14
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 5de13d4f6e625db0d0871a3f7a94f62d726abc8f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626246"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077717"
 ---
 # <a name="company-information-overview"></a>Company Information Overview
 
@@ -35,10 +35,15 @@ If your [!INCLUDE [prod_short](includes/prod_short.md)] includes multiple compan
 
 The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)] trial does not reveal all capabilities. You can switch on the full experience in the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Company Information Quick Start](quick-start-company-information.md)  
 [Set Up Company Information in Italy](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

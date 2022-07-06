@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8f938adf6a7629c4f9aedde32c4f8f10cb6f20e6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0594134585fe85540c7ed87e1588fd218b7a561a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513400"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074465"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Walkthrough: Picking and Shipping in Basic Warehouse Configurations
 
@@ -67,6 +67,7 @@ Ellen, the warehouse manager at CRONUS, sets up SOUTH warehouse for basic pick h
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
 ### <a name="setting-up-the-bin-codes"></a>Setting Up the Bin Codes
+
 Once you have the location set up, you must add two bins.
 
 #### <a name="to-setup-the-bin-codes"></a>To setup the bin codes
@@ -143,9 +144,11 @@ On the **Inventory Pick** page, you can manage all outbound warehouse activities
 
     The 30 Amsterdam Lamps are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
 
-[Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)  
+## <a name="see-also"></a>See also 
+
+[Pick Items with Stock Picks](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)  
 [Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  
 [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 1834cfe7bbbc933a1aebddbc94ea6dfe09523605
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bb94f725c57f538f9d8704ba66e3d66e120d41d2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510879"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079149"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Understanding the General Ledger and the Chart of Accounts
 
@@ -89,7 +89,9 @@ The **Chart of Accounts** page displays accounts in a hierarchical list that off
 
 In a small organisation, such as the CRONUS demonstration company, most users can edit the chart of accounts, except users with a TEAM MEMBER licence. However, in larger organisations, access to edit the chart of accounts is limited by roles and permissions. If you are an administrator, or you have the *Business manager* or *Accountant* role, you can check the permissions for all users to make sure the right people have access to the relevant tables. For more information, see [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/business-central-configure-general-ledger-setup/)
+
+## <a name="see-also"></a>See also 
 
 [Finance](finance.md)  
 [Set Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)  

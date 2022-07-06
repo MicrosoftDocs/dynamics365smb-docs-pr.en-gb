@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: b832a72484c5186c2b619ada6278c2f396a6dbec
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 71f1e81982b649a12604f4d5fa77db3ddec5d9bf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805185"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077509"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Sign up for a free Dynamics 365 Business Central trial
 
@@ -43,9 +43,10 @@ You can also contact the [[!INCLUDE[prod_short](includes/prod_short.md)] Sales t
 
 For more information about what you can do with [!INCLUDE [prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md) and [Business Functionality](across-business-functionality.md).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+
 ## <a name="additional-resources"></a>Additional resources
 
-- [Explore training on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 - [Visit our video library](across-videos.md)  
 - [Trial FAQ](trial-faq.md)  
 - [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)  

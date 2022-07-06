@@ -10,12 +10,12 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 02/03/2022
 ms.author: kepontop
-ms.openlocfilehash: a51175dc5dd124b58ef92e87ab6874f04e4bea41
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b7a806b3e12298fe493b943cf57446c824a5c34
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144886"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076962"
 ---
 # <a name="business-intelligence-and-reporting-overview"></a>Business Intelligence and Reporting Overview
 
@@ -30,14 +30,16 @@ Small and mid-sized companies reply on built-in analytics and reporting that the
 | Learn how to integrate external business intelligence tools with [!INCLUDE[prod_short](includes/prod_short.md)].| [External Business Intelligence tools](reports-external-analysis.md) |
 |Learn how to modify report layouts or even develop your own reports from scratch. |[Developing reports](reports-develop-reports.md)|
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
 
-[Use Reports in Daily Work](reports-use-reports.md)
-[Report Overview](reports-available-reports.md)
-[Ad-hoc data analysis](reports-adhoc-analysis.md)
-[Built-in Analytics](reports-built-in-analytics.md)
-[External Business Intelligence tools](reports-external-analysis.md)
-[Developing reports](reports-develop-reports.md)
+## <a name="see-also"></a>See also 
+
+[Use Reports in Daily Work](reports-use-reports.md)  
+[Report Overview](reports-available-reports.md)  
+[Ad-hoc data analysis](reports-adhoc-analysis.md)  
+[Built-in Analytics](reports-built-in-analytics.md)  
+[External Business Intelligence tools](reports-external-analysis.md)  
+[Developing reports](reports-develop-reports.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

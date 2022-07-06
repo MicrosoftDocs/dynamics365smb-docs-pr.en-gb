@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 59fd78c106f6a5b7d44aa3b2c84232c6441d0d31
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 00be9cdf2e76df93f144662e70bb8558e9b12a2e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517271"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076936"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Correct or Cancel Unpaid Sales Invoices
 
@@ -67,7 +67,9 @@ If the cancellation is related to a partial invoice posting, then the originatin
     A sales credit memo is automatically created and posted to void the initial posted sales invoice.
 5. Choose the **Show Corrective Credit Memo** action to view the posted sales credit memo that voids the initial posted sales invoice.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

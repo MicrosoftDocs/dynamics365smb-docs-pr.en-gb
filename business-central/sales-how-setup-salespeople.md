@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6046562a16bd1f9736bd10bea5c4bda397d99df1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 99f23e497c969e9a9461928d1e550605f6db1eae
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512186"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076364"
 ---
 # <a name="set-up-salespeople"></a>Set Up Salespeople
+
 Many companies want to follow an individual employee's performance as a basis for calculating the sales commission or bonus. See, for example, the **Salesperson Commissions** report. A company may also want to assign a salesperson to each of their contacts.
 
 When you have set up a salesperson on the **Salespeople** page, you can select it in the **Salesperson Code** field on all relevant records, such as G/L account, customer, supplier, contacts, and campaign cards. Then, when you post or set up invoices, credit memos, journal lines, finance charge activities, and so on, the salesperson code is carried to the resulting ledger entries.
@@ -24,12 +25,16 @@ When you have set up a salesperson on the **Salespeople** page, you can select i
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
 ## <a name="to-set-up-a-salesperson-code"></a>To set up a salesperson code
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link.
 2. On the **Salespeople** page, choose the **New** action.
 
 You can use salespeople in various relationship management and marketing work. For example, you can assign tasks to salespeople, so that the tasks are incorporated in sales opportunities that the salesperson are assigned to. For more information, see [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
+
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

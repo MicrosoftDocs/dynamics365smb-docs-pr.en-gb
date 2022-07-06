@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: db06612ed644f8db52d8c9e8247b6cc7fe9df339
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 97e2e4e63d1a0d694cf881ed1fff8523d50fbb46
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519206"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077639"
 ---
 # <a name="create-prepayment-invoices"></a>Create Prepayment Invoices
 
@@ -69,12 +69,14 @@ You can issue additional prepayment invoices for the order. To do this, increase
 
  When you are ready to post the rest of the invoice, post it as you would post any invoice, and the prepayment amount will automatically be deducted from the amount due.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finance](finance.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Personalise Your Workspace](ui-personalization-user.md)  
 
 

@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: e195e6658bc495b5d06764114d971c9fc4b7b484
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 401deb016122100f86142cb2314c18e3b481bccd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522623"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077873"
 ---
 # <a name="date-calculation-for-sales"></a>Date Calculation for Sales
+
 [!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the earliest possible date that an item on a sales order line can be shipped.
 
 If the customer has requested a specific delivery date, then the date on which the items must be available to pick to meet that delivery date is calculated.
@@ -24,6 +25,7 @@ If the customer has requested a specific delivery date, then the date on which t
 If the customer does not request a specific delivery date, then the date on which the items can be delivered is calculated, starting from the date on which the items are available for picking.
 
 ## <a name="calculating-a-requested-delivery-date"></a>Calculating a Requested Delivery Date
+
 If you specify a requested delivery date on the sales order line, that date becomes the starting point for the following calculations.
 
 - requested delivery date - shipping time = planned shipment date
@@ -35,14 +37,17 @@ If the items are available to pick on the shipment date, then the sales process 
 > If your process is based on backward calculation, for example, if you use the requested delivery date to get the planned shipment date, we recommend that you use date formulas that have fixed durations, such as "5D" for five days or "1W" for one week. Date formulas without fixed durations, such as "CW" for current week or CM for current month, can result in incorrect date calculations. For more information about date formulas, see [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 ## <a name="calculating-the-earliest-possible-delivery-date"></a>Calculating the Earliest Possible Delivery Date
+
 If you do not specify a requested delivery date on the sales order line, or if the requested delivery date cannot be met, then the earliest date on which that the items are available is calculated. That date is then entered in the Shipment Date field on the line, and the date on which you plan to ship the items as well as the date on which they will be delivered to the customer are calculated using the following formulas.
 
 - shipment date + outbound whse. handling time = planned shipment date
 - planned shipment date + shipping time = planned delivery date
 
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See Also  
- [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)   
+## <a name="see-also"></a>See also 
+
+ [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  
  [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
  [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

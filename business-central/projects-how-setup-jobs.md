@@ -8,12 +8,12 @@ ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e150dfec7471ad755ce6e0f69a224a36f24fc6f3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 369e47e5bb8d30f2042b7051ed5bc0a1124a0797
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514915"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079045"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Set Up Jobs, Prices, and Job Posting Groups
 
@@ -22,6 +22,7 @@ As a project manager, you can set up jobs that define each of the projects that 
 For each job, you then specify individual job cards with information about prices for job items, job resources, and job G/L accounts, and you must set up job posting groups.
 
 ## <a name="to-set-general-information-for-jobs"></a>To set general information for jobs
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -49,12 +50,14 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 
 
 ## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>To set up prices for resources, items, and general ledger accounts for jobs
+
 > [!NOTE]
 > In 2020 release wave 2, we released new processes for setting up and managing prices and discounts. If you're a new customer, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 You can set up prices for the items, resources, and general ledger accounts related to a job. 
 
 #### <a name="current-experience"></a>[Current Experience](#tab/current-experience)
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the job, and then choose the **Resource**, **Item**, or **G/L Account** action.
 3. On the **Job Resource Prices**, **Job Item Prices**, or **Job G/L Account Prices** pages, fill in the fields as necessary.
@@ -68,12 +71,14 @@ The following table shows how the information in the optional fields will be use
 |**General Ledger Accounts**|The information in the **Job Task No.**, **Currency Code**, **Line Discount %**, **Unit Cost Factor**, and **Unit Cost** fields will be used on the job planning lines and job journals when this general ledger account is entered and added to a job. The value in the **Unit Price** field for the general ledger job expense will be used on the job planning lines and job journals when this general ledger account is entered.|
 
 #### <a name="new-experience"></a>[New Experience](#tab/new-experience)
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **Sales Price Lists** action.
 
 ---
 
 ## <a name="to-set-up-job-posting-groups"></a>To set up job posting groups
+
 One aspect of planning jobs is deciding which posting accounts to use for job costing. To be able to post jobs, you set up accounts for posting for each job posting group. A posting group represents a link between the job and how it should be treated in the general ledger. When you create a job, you specify a posting group, and by default, each task you create for the job is associated with that posting group. However, as you create tasks, you can override the default and select a posting group that is more appropriate.  
 
 > [!NOTE]  
@@ -100,7 +105,9 @@ One aspect of planning jobs is deciding which posting accounts to use for job co
 | **Recognized Costs Account** |The expense account that contains the recognised costs for the job. It is a debit expense account ordinarily. |
 | **Recognized Sales Account** |The income account that contains the recognised income for the job. It is a credit income account ordinarily. |
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+
+## <a name="see-also"></a>See also 
 
 [Set Up Project Management](projects-setup-projects.md)  
 [Video: How to create a job in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

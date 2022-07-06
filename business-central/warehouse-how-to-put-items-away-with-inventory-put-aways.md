@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 190a3925cfc692331e21e3cd2a2b41c68cc02d6f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4d90980030453dd2b152d2b85901a9db12cadf2f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511422"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078317"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Put Items Away with Inventory Put-aways
+
 When your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** document to record and post put-away and receipt information for your source documents. The inbound source document can be a purchase order, a sales return order, an inbound transfer order, or an assembly or works order whose output is ready to be put away.  
 
 You can create a inventory put-away in three ways:  
@@ -26,6 +27,7 @@ You can create a inventory put-away in three ways:
 - Create inventory put-aways for several source documents at once by using a batch job.  
 
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>To request a inventory put-away by releasing the source document
+
 For purchase orders, sales return orders, inbound transfer orders, and assembly orders, you create the warehouse request by releasing the order. The following describes how to do this from a purchase order.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
@@ -41,7 +43,9 @@ For purchase orders, sales return orders, inbound transfer orders, and assembly 
 When the warehouse request is created, a warehouse employee assigned to putting items away can see that the source document is ready and can create a inventory put-away document.  
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>To create a inventory put-away based on the source document
-Now that the request is created, the warehouse employee can create a new inventory put-away based on the released source document.   
+
+Now that the request is created, the warehouse employee can create a new inventory put-away based on the released source document.
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-away**, and then select the related link.  
 2. Choose the **New** action.  
 3. In the **Source Document** field, select the type of source document you are putting away for.  
@@ -49,18 +53,21 @@ Now that the request is created, the warehouse employee can create a new invento
 5. Alternatively, choose the **Get Source Document** action to select the document from a list of inbound source documents that are ready for put-away at the location.  
 6. Choose the **OK** button to fill the put-away lines according to the selected source document.  
 
-## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>To create a inventory put-away from the source document  
+## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>To create a inventory put-away from the source document
+
 1.  In the source document, which can be a purchase order, sales return order, inbound transfer order, or works order, choose the **Create Inventory Put-away/Pick** action.  
 2. Select the **Create Invt. Put-away** check box.
 3. Choose the **OK** button. A new inventory put-away is created.
 
-## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>To create multiple inventory put-aways with a batch job  
+## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>To create multiple inventory put-aways with a batch job
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Invt. Put-away / Pick**, and then choose the related link.  
 2.  On the **Warehouse Request** FastTab of the request page, use the **Source Document** and **Source No.** fields to filter on certain types of documents or ranges of document numbers.  
 3.  On the **Options** FastTab, select the **Create Invt. Put-away** check box.
 4.  Choose the **OK** button. The specified inventory put-aways are created.
 
-## <a name="to-record-the-inventory-put-away"></a>To record the inventory put-away  
+## <a name="to-record-the-inventory-put-away"></a>To record the inventory put-away
+
 1. Open a previously created put-away document by selecting one from the **Inventory Put-aways** page.  
 2. In the **Bin Code** field on the put-away lines, the bin where the items must be put away is suggesting per the item's default bin. You can change the bin in this page if necessary.  
 3. Perform the put-away and enter the information for the actual quantity put away in the **Qty. to Handle** field.
@@ -70,11 +77,14 @@ Now that the request is created, the warehouse employee can create a new invento
 
 The posting process will post the receipt, or for works orders, the output, of the source document lines that have been put away, and if the location uses bins, the posting will also create warehouse entries to post the bin quantity changes.
 
-## <a name="see-also"></a>See Also  
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/receive-put-away-items/)
+
+## <a name="see-also"></a>See also 
+
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
-[Assembly Management](assembly-assemble-items.md)    
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

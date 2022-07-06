@@ -10,12 +10,12 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: eaa10e4ed7890dd1e6cc8fb2fe76be7770689b75
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2c6b1b37398d0121c5c79bb0c9d9786abe14120f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521865"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074621"
 ---
 # <a name="register-new-vendors"></a>Register New Suppliers
 
@@ -32,6 +32,7 @@ Supplier cards hold the information that is required to buy products from the su
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Adding new suppliers
+
 You can add new suppliers manually, by filling out the fields on the **Supplier Card** page, or you can use templates that contain predefined information. For example, you can create a templates for different types of supplier profiles. Using templates saves time when adding new suppliers, and helps ensure that the information is correct each time. If you create templates for more than one type of supplier, you can choose the template to use when you add a supplier. If you create only one template it will be used for all new suppliers. After you create a template, you can use the **Apply Template** action to apply it to one or more selected suppliers. To create a template, you fill in the information that you want to reuse on the Supplier Card page, and then save it as a template. For more information, see [To save the Supplier Card page as a template](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
@@ -57,7 +58,6 @@ You can edit the information on supplier cards at any time. However, if you have
 > [!TIP]
 > You can change the IBAN on a supplier bank account without the change affecting your historical credit transfer register entries. Credit transfer register entries store the Recipient IBAN, Recepient Bank Account No. that were specified in the Supplier Bank Account and Recipient Name fields from the Supplier Card page when the entries were created.
 
-
 ## <a name="to-save-the-vendor-card-as-a-template"></a>To save the supplier card as a template
 
 1. On the **Supplier Card** page, choose the **Save as Template** action. The **Supplier Template** page opens showing the supplier card as a template.
@@ -67,12 +67,15 @@ You can edit the information on supplier cards at any time. However, if you have
 5. When you have completed the new supplier template, choose the **OK** button.  
    The supplier template is added to the list of supplier templates, so that you can use it to create new supplier cards.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

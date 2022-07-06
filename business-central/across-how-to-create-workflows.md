@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fe69109b512ea0e37c4564e08e1d35eb82e898c9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521287"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077743"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Create Workflows to Connect Business-Process Tasks
 
@@ -179,7 +179,9 @@ The following illustrations provides an overview of the result of this procedure
 
 Next, you must and test the workflow by opening an existing supplier and change the name. Verify that an approval request is made on changing the supplier name.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+
+## <a name="see-also"></a>See also 
 
 [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)  
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  

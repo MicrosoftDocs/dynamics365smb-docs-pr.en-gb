@@ -10,14 +10,15 @@ ms.search.keywords: project invoice
 ms.search.form: 1002, 1007,
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 792b5a3640693b7d1be76b319dfc4e713085106f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 06be08bce312cfcdd0bc6eef0e50890244734dba
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516621"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074647"
 ---
 # <a name="invoice-jobs"></a>Invoice Jobs
+
 During the project, job costs from resource usage, materials, and job-related purchases can accumulate. As the job progresses, these transactions get posted to the job journal. It is important that all costs get recorded in the job journal before you invoice the customer.
 
 > [!NOTE]
@@ -31,6 +32,7 @@ You can invoice the whole job from the **Job Task Lines** page or only invoice s
 You can also invoice a company that is not the end customer. Sometimes the party that a project is for is different from the party that is paying the bill. On the **Jobs** page, you can specify the customer who will benefit from the project in the **Sell-to** fields, and the party to invoice in the **Bill-to** fields. 
 
 ## <a name="to-create-multiple-job-sales-invoices"></a>To create multiple job sales invoices
+
 You can create an invoice for a job or for one or more job tasks for a customer when either the work to be invoiced is complete or the date for invoicing based on an invoicing schedule has been reached.
 
 The following procedure shows how to use a batch job to invoice multiple jobs.  
@@ -46,6 +48,7 @@ You can review and post created invoices in the **Sales Invoices** window.
 > Alternatively, invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action. 
 
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>To create and post job sales invoice from job planning lines
+
 You can create an invoice from a job planning lines, and indicate at that time the quantity of the item, resource, or general ledger account that you want to invoice.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
@@ -63,12 +66,14 @@ You can create an invoice from a job planning lines, and indicate at that time t
 > [!NOTE]  
 >   The above procedure is similar for creating, reviewing, and posting a job-related sales credit memo.
 
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/post-job-usage-sales/)
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a>See also 
+
 [Managing Projects](projects-manage-projects.md)  
 [Finance](finance.md)  
-[Purchasing](purchasing-manage-purchasing.md)         
-[Sales](sales-manage-sales.md)      
+[Purchasing](purchasing-manage-purchasing.md)  
+[Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

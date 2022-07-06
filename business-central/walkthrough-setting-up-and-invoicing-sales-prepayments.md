@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: aa5e24755b44b2ce7b36a9a6062bf0168c5ddb89
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 0aa467b636be3be75c38c87b2592a69b70440c11
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799566"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075238"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Walkthrough: Setting Up and Invoicing Sales Prepayments
 
@@ -232,7 +232,9 @@ You have also posted a prepayment invoice, created a second prepayment invoice w
 
 The prepayments functionality in [!INCLUDE[prod_short](includes/prod_short.md)] makes it easy to set up and enforce prepayment rules for customers and items, and it enables you to post every payment against an invoice.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Finance](finance.md)  

@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 24ea5d30b184018b69735768a6a721393086a95a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 13f1a68ebb3c9a16c06cdc0cf9382867403ba5ca
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521157"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079253"
 ---
 # <a name="assemble-items"></a>Assemble Items
+
 If the **Replenishment System** field on the item card contains **Assembly**, then the default method of supplying the item is to assemble it from defined components and potentially by a defined resource.  
 
 The components and resources that go into this kind of an assembly item must be defined in an assembly BOM. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).  
@@ -40,7 +41,8 @@ These setup options are default settings that manage how sales and assembly orde
 
 In this procedure, you create and process an assembly order for items that are assembled to stock, which means without a linked sales order. The steps include initiating the assembly order, handling potential component availability issues, and partially posting assembly item output.
 
-## <a name="to-assemble-an-item"></a>To assemble an item  
+## <a name="to-assemble-an-item"></a>To assemble an item
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Orders**, and then choose the related link.  
 2.  Choose the **New** action. The **New Assembly Order** page opens.  
 3.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -67,7 +69,10 @@ In this procedure, you create and process an assembly order for items that are a
 
 After posting succeeds, the assembly item is posted as output to the location code and potential bin code that are defined on the assembly order. For manually created assembly orders, the location may be copied from the **Default Location for Orders** setup field. For assemble-to-order flows, the location code may be copied from the sales order line.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
+
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  

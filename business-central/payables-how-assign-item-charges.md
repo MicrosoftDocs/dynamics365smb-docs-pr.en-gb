@@ -10,12 +10,12 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: cd8485bf4d679e740f60c8cc38e5912953b5b0bb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8de7d110e54660d4d1c79cd6b65a69b8476d9e9a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522831"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075880"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Use Item Charges to Account for Additional Trade Costs
 To ensure correct valuation, your inventory items must carry any added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling the items. For purchases, the landed cost of a purchased item consists of the supplier's purchase price and all additional direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.
@@ -79,7 +79,10 @@ If you received an invoice for the item charge after you posted the original pur
 
 The item charge on the separate purchase invoice is now assigned to the item on the posted purchase receipt, thereby updating the item's inventory value with the cost of the item charge.
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/post-purchase-item-charges-dynamics-365-business-central/)
+
+## <a name="see-also"></a>See also 
+
 [Managing Payables](payables-manage-payables.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  

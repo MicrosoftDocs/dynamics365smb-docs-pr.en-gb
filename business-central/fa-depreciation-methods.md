@@ -10,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5629, 5633
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 337900111388e086e27a2d388843d4e1ab052eb6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ec81b14510d89729f7c51f95a3907db38e3876ea
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518240"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075948"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Depreciation Methods for Fixed Assets
 
@@ -234,7 +234,7 @@ This depreciation method can be used in conjunction with the following depreciat
 When you apply the Half-Year Convention, a fixed asset has six months of depreciation in the first financial year, regardless of the contents of the **Depreciation Starting Date** field.  
 
 > [!NOTE]  
-> The estimated life of the fixed asset that is remaining after the first financial year will always contain a half-year using the Half-Year Convention Method. Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field on the **FA Depreciation Book** page must always contain a date which is exactly six months before the final date of the financial year in which the fixed asset will fully depreciate.  
+> The estimated life of the fixed asset that is remaining after the first fiscal year will always contain a half-year using the Half-Year Convention Method. Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field on the **FA Depreciation Book** page must always contain a date which is exactly six months before the final date of the financial year in which the fixed asset will fully depreciate.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Example - Half-Year Convention Depreciation
 
@@ -300,7 +300,9 @@ When you enter an entry in B1 in the fixed asset G/L journal and place a check m
 > [!NOTE]  
 > You cannot use the same number series in the fixed asset G/L journal and the fixed asset journal. When you post entries in the fixed asset G/L journal, you must leave the **Document No.** field empty. If you enter a number in the field, the the number is duplicated in the fixed asset journal. You'll have to manually change the document number before you can post the journal.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+
+## <a name="see-also"></a>See also 
 
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  

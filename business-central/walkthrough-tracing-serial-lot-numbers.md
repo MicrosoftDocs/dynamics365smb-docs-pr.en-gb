@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 611a182a7f2b2202dd03e709da22183f762fe351
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b7e2ae55e231cdadf02a0a8e91f6d3ad066a0cb5
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382826"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075231"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Walkthrough: Tracing Serial/Lot Numbers
 
@@ -189,7 +189,8 @@ Then you must create various purchase, production, and sales transactions with t
 
     Next, sell racing bikes. First sell the racing bike with SN1 to Selangorian Ltd..  
 
-### <a name="to-sell-the-end-items"></a>To sell the end items  
+### <a name="to-sell-the-end-items"></a>To sell the end items
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Choose the **New** action, and then, create a sales order by filling in the following fields.  
 
@@ -228,10 +229,12 @@ Then you must create various purchase, production, and sales transactions with t
 
     This completes the preparation of data to demonstrate the Item Tracing and Find Entries features.  
 
-## <a name="tracing-from-usage-to-origin"></a>Tracing from Usage to Origin  
+## <a name="tracing-from-usage-to-origin"></a>Tracing from Usage to Origin
+
  From the sales department, the quality controller knows that the returned racing bike, item 1002, has the serial number SN1. By using this basic information, he can determine where the finished racing bike was last used, in this case, on the sales shipment to Selangorian Ltd.. Then, the quality controller must trace backward to the earliest origin to establish which lot number the faulty racing frame came from and which supplier supplied it.  
 
-### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>To determine which lot included the faulty frame and who supplied it  
+### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>To determine which lot included the faulty frame and who supplied it
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing**, and then choose the related link.  
 2.  On the **Item Tracing** page, enter **SN1** in the **Serial No. Filter** field, and then enter **1002** in the **Item Filter** field.  
 3.  Keep the default setting of **Item-Tracked Only** in the **Show Components** field, and keep the default trace method of **Usage – Origin** in the **Trace Method**.  
@@ -257,7 +260,8 @@ Then you must create various purchase, production, and sales transactions with t
 
      This completes the first defects-management task using the **Item Tracing** page. The quality controller must now determine whether other posted documents have processed racing frames from LOT1.  
 
-## <a name="tracing-from-origin-to-usage"></a>Tracing from Origin to Usage  
+## <a name="tracing-from-origin-to-usage"></a>Tracing from Origin to Usage
+
  The quality controller has established that the faulty racing frames came from LOT1. He must now find any other racing bikes that contain racing frames from the faulty lot so that those bikes can be stopped or recalled.  
 
  One way to prepare this trace task on the **Item Tracing** page is to manually enter LOT1 in the **Lot No. Filter** field and 2000 in the **Item Filter** field. However, this walkthrough will use the **Trace Opposite - from Line** function.  
@@ -280,7 +284,8 @@ Then you must create various purchase, production, and sales transactions with t
 
     This completes the second defects management task using the **Item Tracing** page for defects management. Since the **Item Tracing** page is based on posted entries only, the quality controller must continue to the **Find entries** page to make sure that LOT1 is not used in non-posted documents.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Finding All Records of a Serial/Lot Number  
+## <a name="finding-all-records-of-a-seriallot-number"></a>Finding All Records of a Serial/Lot Number
+
  With the **Item Tracing** page, the quality controller learned that LOT1 contained the faulty racing frames, which supplier supplied them, and in which posted transaction they have been used. He must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Find entries** page where he can perform a search through all database records.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>To find all occurrences of LOT1 in non-posted records, such as open orders  
@@ -298,12 +303,14 @@ Then you must create various purchase, production, and sales transactions with t
 
  This completes the walkthrough of how to use the **Find entries** page for defects management in integration with the **Item Tracing** page.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/use-serial-lot-numbers/)
+
+## <a name="see-also"></a>See also 
+
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
 [Find Entries](ui-find-entries.md)  
 [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
-
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e41f61156dbc7248cc9cb1a99ca2b5c790ee036
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8b64a0314f4880ed9bc5a6c10a37c8747e4aa561
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518608"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077769"
 ---
 # <a name="create-bins"></a>Create Bins
 
@@ -76,12 +76,14 @@ To work with the **Bin Creation Worksheet** page, you must be set up as a wareho
 
 Repeat the process for another set of bins until you have created all the bins in your warehouse.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-new-bins/)
+
+## <a name="see-also"></a>See also 
 
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
-[Assembly Management](assembly-assemble-items.md)    
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
