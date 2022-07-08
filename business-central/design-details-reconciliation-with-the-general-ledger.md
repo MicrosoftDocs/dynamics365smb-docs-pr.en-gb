@@ -92,7 +92,7 @@ The following table shows how the work centre is set up on the work centre card.
 
         ![Results of capacity posting to GL accounts.](media/design_details_inventory_costing_3_gl_posting_capacity.png "Results of capacity posting to GL accounts")  
 7. The user posts the expected cost of one chain. (Output)  
-8. The user finishes the works order and runs the **Adjust Cost - Item Entries** batch job. (Output)  
+8. The user finishes the production order and runs the **Adjust Cost - Item Entries** batch job. (Output)  
 
     1. The interim accounts are cleared. (Output)  
     2. The direct cost is transferred from the WIP account to the inventory account. (Output)  

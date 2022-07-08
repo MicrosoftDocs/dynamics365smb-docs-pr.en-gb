@@ -30,19 +30,19 @@ You can create the warehouse pick document in a push fashion by selecting **Crea
 
 Alternatively, you can create the warehouse pick document in a pull fashion by using the **Pick Worksheet** page to detect pick requests, both for shipment and internal operations, and then create the required warehouse pick documents.  
 
-The following procedure explains a pull scenario where you pick components for a released works order through the **Pick Worksheet** page. The procedure also applies for an assembly order.  
+The following procedure explains a pull scenario where you pick components for a released production order through the **Pick Worksheet** page. The procedure also applies for an assembly order.  
 
 To create pick requests, both for pull and for push scenarios, the source documents in question must be released. Release source documents for internal operations in the following ways.  
 
 |Source Document|Release Method|  
 |---------------------|--------------------|  
-|Works Order|Change order type to released works order.|  
+|Production Order|Change order type to released production order.|  
 |Assembly Order|Change status to Released.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>To pick components using the pick worksheet
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
-2.  Choose the **Get Warehouse Documents** action, and then select the component lines from the released works order.  
+2.  Choose the **Get Warehouse Documents** action, and then select the component lines from the released production order.  
 3.  Inspect the lines, sort them to ensure an efficient picking round, and combine them with other worksheet lines if necessary to make best use of employee time.  
 4.  Choose the **Create Pick** action.  
 5.  Define how to create the warehouse pick documents and how to sort pick lines by filling fields on the **Create Pick** page.  
@@ -52,7 +52,7 @@ If the internal operation area, such as a production shop floor, is set up with 
 
 ## <a name="filling-the-consumption-bin"></a>Filling the Consumption Bin
 
-This flow chart shows how the **Bin Code** field on works order component lines is filled according to your location setup.
+This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.
 
 ![Bin flow chart.](media/binflow.png "BinFlow")  
 

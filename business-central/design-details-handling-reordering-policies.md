@@ -268,8 +268,8 @@ The application creates an order-to-order link, which acts as a preliminary conn
 
 Apart from using the Order policy, the order-to-order link can be applied during planning in the following ways:  
 
-* When using the Make-to-Order manufacturing policy to create multi-level or project type works orders (producing needed components on the same works order).  
-* When using the Sales Order Planning feature to create a works order from a sales order.  
+* When using the Make-to-Order manufacturing policy to create multi-level or project type production orders (producing needed components on the same production order).  
+* When using the Sales Order Planning feature to create a production order from a sales order.  
 
 Even if a manufacturing company considers itself as a make-to-order environment, it might be best to use a Lot-for-Lot reordering policy if the items are pure standard without variation in attributes. As a result, the system will use unplanned inventory and only accumulates sales orders with the same shipment date or within a defined time bucket.  
 
@@ -281,7 +281,7 @@ The lot-for-lot policy is the most flexible because the system only reacts on ac
 
 In some ways, the lot-for-lot policy looks like the Order policy, but it has a generic approach to items; it can accept quantities in inventory, and it bundles demand and corresponding supply in time buckets defined by the user.  
 
-The time bucket is defined in the **Time Bucket** field. The system works with a minimum time bucket of one day, since this is the smallest time unit of measurement on demand and supply events in the system (although, in practice, the time unit of measurement on works orders and component needs can be seconds).  
+The time bucket is defined in the **Time Bucket** field. The system works with a minimum time bucket of one day, since this is the smallest time unit of measurement on demand and supply events in the system (although, in practice, the time unit of measurement on production orders and component needs can be seconds).  
 
 The time bucket also sets limits on when an existing supply order should be rescheduled to meet a given demand. If the supply lies within the time bucket, it will be rescheduled in or out to meet the demand. Otherwise, if it lies earlier, it will cause unnecessary build-up of inventory and should be cancelled. If it lies later, a new supply order will be created instead.  
 

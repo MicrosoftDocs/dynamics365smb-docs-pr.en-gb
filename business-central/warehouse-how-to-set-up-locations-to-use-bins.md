@@ -41,7 +41,7 @@ To use the bin functionality at a location, you first activate the functionality
 
 ## <a name="filling-the-consumption-bin"></a>Filling the Consumption Bin
 
-This flow chart shows how the **Bin Code** field on works order component lines is filled according to your location setup.
+This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.
 
 ![Bin flow chart.](media/binflow.png "BinFlow")  
 

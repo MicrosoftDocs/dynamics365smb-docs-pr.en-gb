@@ -76,15 +76,15 @@ The reservations system is comprehensive and includes the interrelated and paral
 >  The Late Binding functionality may also change reservations without informing the user, by reshuffling nonspecific reservations of serial or lot numbers. For more information, see "Design Details: Item Tracking and Reservations".  
 
 ### <a name="automatic-reservations"></a>Automatic Reservations  
- The item card can be set up to always be reserved automatically from demand, such as sales orders. In that case, reservation is made against inventory, purchase orders, assembly orders, and works orders. A warning is issued if supply is insufficient.  
+ The item card can be set up to always be reserved automatically from demand, such as sales orders. In that case, reservation is made against inventory, purchase orders, assembly orders, and production orders. A warning is issued if supply is insufficient.  
 
  In addition, items are automatically reserved by various planning functions to keep a demand linked to a specific supply. The order tracking entries for such planning links contain **Reservation** in the **Reservation Status** field in the **Reservation Entry** table. Automatic reservations are created in the following situations:  
 
--   A multilevel works order where the **Manufacturing Policy** field of the involved parent and child items is set to **Make-to-Order**. The planning system creates reservations between the parent works order and the underlying works orders to ensure that they are processed together. Such a reservation binding overrides the item's default costing and application method.  
+-   A multilevel production order where the **Manufacturing Policy** field of the involved parent and child items is set to **Make-to-Order**. The planning system creates reservations between the parent production order and the underlying production orders to ensure that they are processed together. Such a reservation binding overrides the item's default costing and application method.  
 
 -   A production, assembly, or purchase order where the **Reordering Policy** field of the involved item is set to **Order**. The planning system creates reservations between the demand and the planned supply to ensure that the specific supply is created. For more information, see [Order](design-details-handling-reordering-policies.md#order).  
 
--   A works order created from a sales order with the **Sales Order Planning** function is linked to the sales order with an automatic reservation.  
+-   A production order created from a sales order with the **Sales Order Planning** function is linked to the sales order with an automatic reservation.  
 
 -   An assembly order created automatically for a sales order line to fulfil the quantity in the **($ T_37_900 Qty. to Assemble to Order $)** field. This automatic reservation links the sales demand and the assembly supply so that sales order processors can customise and promise the assembly item to the customer directly. In addition, the reservation links the assembly output to the sales order line through to the shipping activity that fulfills the customer order.  
 
@@ -131,7 +131,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 |Item 2|Name|"Produced Item"|
 ||Production BOM|1 qty. per of "Component"|  
 ||Demand|Sale for 100 units at EAST location|  
-||Supply|Released works order (generated with the **Sales Order Planning** function for the sale of 100 units)|  
+||Supply|Released production order (generated with the **Sales Order Planning** function for the sale of 100 units)|  
 
 On the **Manufacturing Setup** page, the **Components at Location** field is set to **RED**.
 
@@ -143,10 +143,10 @@ On the **Manufacturing Setup** page, the **Components at Location** field is set
  For the component need for LOTA and LOTB respectively, order tracking links are created from the demand in table 5407, **Prod. Order Component**, to the supply in table 32, **Item Ledger Entry**. The **Reservation Status** field contains **Tracking** to indicate that these entries are dynamic order tracking links between supply and demand.  
 
 > [!NOTE]  
->  The **Lot No.** field is empty on the demand lines, because the lot numbers are not specified on the component lines of the released works order.  
+>  The **Lot No.** field is empty on the demand lines, because the lot numbers are not specified on the component lines of the released production order.  
 
 ### <a name="entry-numbers-10"></a>Entry Numbers 10  
- From the sales demand in table 37, **Sales Line**, an order tracking link is created to the supply in table 5406, **Prod. Order Line**. The **Reservation Status** field contains **Reservation**, and the **Binding** field contains **Order-to-Order**. This is because the released works order was generated specifically for the sales order and must remain linked unlike order tracking links with a reservation status of **Tracking**, which are created and changed dynamically. For more information, see the "Automatic Reservations" section in this topic.  
+ From the sales demand in table 37, **Sales Line**, an order tracking link is created to the supply in table 5406, **Prod. Order Line**. The **Reservation Status** field contains **Reservation**, and the **Binding** field contains **Order-to-Order**. This is because the released production order was generated specifically for the sales order and must remain linked unlike order tracking links with a reservation status of **Tracking**, which are created and changed dynamically. For more information, see the "Automatic Reservations" section in this topic.  
 
  At this point in the scenario, the 100 units of LOTA and LOTB are transferred to EAST location by a transfer order.  
 
@@ -171,9 +171,9 @@ On the **Manufacturing Setup** page, the **Components at Location** field is set
 
  ![Third example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
- The order tracking entries are now similar to the first point in the scenario, before the transfer order was posted as shipped only, except entries for the component are now of reservation status **Surplus**. This is because the component need is still at WEST location, reflecting that the **Location Code** field on the works order component line contains **WEST** as set up in the **Components at Location** setup field. The supply that was allocated to this demand before has been transferred to EAST location and cannot now be fully tracked unless the component need on the works order line is changed to EAST location.  
+ The order tracking entries are now similar to the first point in the scenario, before the transfer order was posted as shipped only, except entries for the component are now of reservation status **Surplus**. This is because the component need is still at WEST location, reflecting that the **Location Code** field on the production order component line contains **WEST** as set up in the **Components at Location** setup field. The supply that was allocated to this demand before has been transferred to EAST location and cannot now be fully tracked unless the component need on the production order line is changed to EAST location.  
 
- At this point in the scenario, the **Location Code** on the works order line is set to **EAST**. In addition, on the **Item Tracking Lines** page, the 30 units of LOTA and the 70 units of LOTB are assigned to the works order line.  
+ At this point in the scenario, the **Location Code** on the production order line is set to **EAST**. In addition, on the **Item Tracking Lines** page, the 30 units of LOTA and the 70 units of LOTB are assigned to the production order line.  
 
  Now the following order tracking entries exist in the **Reservation Entry** table.  
 
@@ -182,7 +182,7 @@ On the **Manufacturing Setup** page, the **Components at Location** field is set
 ### <a name="entry-numbers-21-and-22"></a>Entry Numbers 21 and 22  
  Since the component need has been changed to EAST location, and the supply is available as item ledger entries at EAST location, all order tracking entries for the two lot numbers are now fully tracked, indicated by the reservation status of **Tracking**.  
 
- The **Lot No.** field is now filled in the order tracking entry for table 5407, because the lot numbers were assigned to the works order component lines.  
+ The **Lot No.** field is now filled in the order tracking entry for table 5407, because the lot numbers were assigned to the production order component lines.  
 
  For more examples of order tracking entries in the **Reservation Entry** table, see the "Reservation Entry Table" white paper on [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (requires login).
 

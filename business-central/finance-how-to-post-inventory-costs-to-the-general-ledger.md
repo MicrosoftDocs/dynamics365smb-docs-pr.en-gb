@@ -78,7 +78,7 @@ The following table describes them.
 |**To**|**See**|  
 |------------|-------------|  
 |View the inventory value of selected items, including information about the quantities and values of increases and decreases in inventory over a selected period.|**Inventory Valuation** report|  
-|View the inventory value of selected works orders in your WIP (work in progress) inventory, such as the quantities and values of consumption, capacity usage, and output in ongoing works orders.|**Inventory Valuation - WIP** report|  
+|View the inventory value of selected production orders in your WIP (work in progress) inventory, such as the quantities and values of consumption, capacity usage, and output in ongoing production orders.|**Inventory Valuation - WIP** report|  
 |View the inventory value of selected items, including their actual and expected cost on the date specified.|**Invt. Valuation - Cost Spec.** report|  
 |Use a report to analyze the reasons for cost variances or to gain insight into the cost shares of sold items (COGS).|**Cost Shares Breakdown** report|  
 

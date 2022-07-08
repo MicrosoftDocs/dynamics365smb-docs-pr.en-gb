@@ -22,7 +22,7 @@ Manufacturing companies use routings to Visualise and direct the manufacturing p
 
 The routing is the basis of process scheduling, capacity scheduling, scheduled assignment of material needs, and manufacturing documents.  
 
-As for production BOMs, the routings are assigned to the manufacturing end item. A routing holds master data that captures the process requirements of a given produced item. Once a works order is created for that item, its routing will govern the scheduling of operations as represented on the **Prod. Order Routing** page under the works order.  
+As for production BOMs, the routings are assigned to the manufacturing end item. A routing holds master data that captures the process requirements of a given produced item. Once a production order is created for that item, its routing will govern the scheduling of operations as represented on the **Prod. Order Routing** page under the production order.  
 
 Before you can set up a routing, the following must be in place:  
 
@@ -46,7 +46,7 @@ Before you can set up a routing, the following must be in place:
 10. In the **Run Time** and **Setup Time** fields, enter the process times needed to perform the operation.
 
      > [!NOTE]
-     > Setup time is calculated per works order, whereas run time is calculated per produced item.  
+     > Setup time is calculated per production order, whereas run time is calculated per produced item.  
 
 11. In the **Concurrent Capacities** field, specify how many units of the selected resource are used to perform the operation. For example, two people allocated to one packing operation will halve the run time.  
 12. Continue to fill in lines for all operations involved in producing the item in question.  
@@ -59,7 +59,7 @@ Before you can set up a routing, the following must be in place:
 
 ## <a name="to-create-routing-links"></a>To create routing links
 
-You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just-in-time flushing of components, namely when the specific linked operation starts, not when the complete works order is released. For more information see [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).  
+You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just-in-time flushing of components, namely when the specific linked operation starts, not when the complete production order is released. For more information see [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).  
 
 Another important benefit is that linked components and operations are displayed in a logical process structure when you use the **Production Journal** page for output and consumption posting.  
 
@@ -87,9 +87,9 @@ Another important benefit is that linked components and operations are displayed
 10. Set the production BOM status to **Certified**.  
 
     > [!NOTE]  
-    > To enable the routing links on an existing works order, you must refresh the works order. For more information, see [Create Works Orders](production-how-to-create-production-orders.md).  
+    > To enable the routing links on an existing production order, you must refresh the production order. For more information, see [Create Production Orders](production-how-to-create-production-orders.md).  
 
-The selected components will now be linked to the selected operations when you create or refresh a works order using the production BOM and routing in question. This is visible on the **Prod. Order Components** page under the works order, and here you can also remove and add the defined routing link codes at any time.
+The selected components will now be linked to the selected operations when you create or refresh a production order using the production BOM and routing in question. This is visible on the **Prod. Order Components** page under the production order, and here you can also remove and add the defined routing link codes at any time.
 
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>To assign personnel, tools, and quality measures to routing operations
 

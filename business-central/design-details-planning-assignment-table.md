@@ -27,9 +27,9 @@ The reason for selecting items for planning is a matter of system performance. I
 
 The **Planning Assignment** table monitors demand and supply events and assigns the appropriate items for planning. The following events are monitored:  
 
-* A new sales order, forecast, component, purchase order, works order, assembly order, or transfer order.  
-* Change of item, quantity, location, variant, or date on a sales order, forecast, component, purchase order, works order, assembly order, or transfer order.  
-* Cancellation of a sales order, forecast, component, purchase order, works order, assembly order, or transfer order.  
+* A new sales order, forecast, component, purchase order, production order, assembly order, or transfer order.  
+* Change of item, quantity, location, variant, or date on a sales order, forecast, component, purchase order, production order, assembly order, or transfer order.  
+* Cancellation of a sales order, forecast, component, purchase order, production order, assembly order, or transfer order.  
 * Consumption of items other than planned.  
 * Output of items other than planned.  
 * Unplanned changes in inventory.  

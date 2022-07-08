@@ -1,6 +1,6 @@
 ---
 title: Post Capacities
-description: Post consumed capacities that are not assigned to the works order in the capacity journal and view posted capacities on the capacity ledger entries page.
+description: Post consumed capacities that are not assigned to the production order in the capacity journal and view posted capacities on the capacity ledger entries page.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -17,7 +17,7 @@ ms.lasthandoff: 03/31/2022
 ms.locfileid: "8516751"
 ---
 # <a name="post-capacities"></a>Post Capacities
-In the capacity journal, you post consumed capacities that are not assigned to the works order. For example, maintenance work must be assigned to capacity, but not to a works order.  
+In the capacity journal, you post consumed capacities that are not assigned to the production order. For example, maintenance work must be assigned to capacity, but not to a production order.  
 
 ## <a name="to-post-capacities"></a>To post capacities  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Capacity Journals**, and then choose the related link.  
@@ -28,7 +28,7 @@ In the capacity journal, you post consumed capacities that are not assigned to t
 6.  Choose the **Post** action to post the capacities.  
 
 ## <a name="to-view-work-center-ledger-entries"></a>To view work centre ledger entries  
-In the **Work Centre Card** and **Machine Centre Card** pages, you can view the posted capacities as a result of finished works orders.    
+In the **Work Centre Card** and **Machine Centre Card** pages, you can view the posted capacities as a result of finished production orders.    
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.  
 2.  Open the relevant **Work Centre** card from the list, and then choose the **Capacity Ledger Entries** action.  
 

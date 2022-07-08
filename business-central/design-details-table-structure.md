@@ -152,7 +152,7 @@ Field 480 is editable in the following tables.
 |246|**Requisition Line**|  
 |295|**Reminder Header**|  
 |302|**Finance Charge Memo Header**|  
-|5405|**Works Order**|  
+|5405|**Production Order**|  
 |5406|**Prod. Order Line**|  
 |5407|**Prod. Order Component**|  
 |5615|**FA Allocation**|  

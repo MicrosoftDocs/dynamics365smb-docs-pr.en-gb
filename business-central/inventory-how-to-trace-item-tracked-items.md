@@ -45,7 +45,7 @@ These features can be particularly useful in quality control when you need to fi
 
     |Field|Description|  
     |----------------------------------|---------------------------------------|  
-    |**Usage->Origin**|Trace the item from where it was used to where it came from. For instance, if a manufactured item was sold to a customer, the **Item Tracing** page shows this with the sales shipment line first, which you can then expand to see from which works order it came.|  
+    |**Usage->Origin**|Trace the item from where it was used to where it came from. For instance, if a manufactured item was sold to a customer, the **Item Tracing** page shows this with the sales shipment line first, which you can then expand to see from which production order it came.|  
     |**Origin->Usage**|Trace the item from where it came into inventory to where it was used. For instance, if a manufactured item was sold to a customer, the **Item Tracing** page shows this with the finished production order first, which you can then expand to see the sale shipment lines where the item was used.|  
 
 5.  Choose the **Trace** action to run the trace.  

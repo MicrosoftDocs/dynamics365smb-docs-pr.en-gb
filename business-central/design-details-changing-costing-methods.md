@@ -161,7 +161,7 @@ The following table lists functional areas where there might be outstanding quan
 |Assembly |Assembly documents, including orders, return orders, and blanket orders |
 |Jobs |Job planning lines and job journal lines |
 |Service |Service documents and service contracts |
-|Production |Works orders (planned, firm planned, and released) |
+|Production |Production orders (planned, firm planned, and released) |
 
 ### <a name="block-the-original-item-from-further-use"></a>Block the original item from further use
 

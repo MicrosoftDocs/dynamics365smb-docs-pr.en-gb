@@ -32,20 +32,20 @@ In advanced warehouse configurations where the location requires both put-away a
 The first step in creating putting output away is to create the inbound warehouse request. This request informs the warehouse that the production or assembly order output is ready to be put away.
 
 ### <a name="to-create-the-inbound-warehouse-request"></a>To create the inbound warehouse request  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Works Order**, and then choose the related link.  
-2.  On the works order that is ready for put-away, choose the **Create Inbound Whse. Request** action.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
+2.  On the production order that is ready for put-away, choose the **Create Inbound Whse. Request** action.  
 
 > [!NOTE]  
-> You can also create the inbound warehouse request by choosing the **Create Inbound Request** field when you refresh the works order. For more information, see [Refresh or Replan Works Orders](production-how-to-replan-refresh-production-orders.md).  
+> You can also create the inbound warehouse request by choosing the **Create Inbound Request** field when you refresh the production order. For more information, see [Refresh or Replan Production Orders](production-how-to-replan-refresh-production-orders.md).  
 
 ### <a name="to-put-output-away-with-an-inventory-put-away"></a>To put output away with a inventory put-away  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-away**, and then choose the related link.  
 2.  Create a new inventory put-away. For more information, see [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
-3.  To access the works order output, choose the **Get Source Documents** action, and then select the released works order.  
+3.  To access the production order output, choose the **Get Source Documents** action, and then select the released production order.  
 4.  Fill in the put-away lines as appropriate.
 5.  When the lines are ready for posting, choose the **Post** action. The posting will create the necessary warehouse entries and post the output of the items.  
 
-You can also create an **Inventory Put-away** directly from the released works order. For more information, see [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
+You can also create an **Inventory Put-away** directly from the released production order. For more information, see [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 When you post a inventory put-away, it is assumed that all the operations are posted according to the standard routing, that is, output quantity is posted according to the last operation. You can use the output journal to post variances in output quantity and the setup and run times. If it is required to post partially after you have created the inventory put-away, you can do so on setup times and quantities for all operations except the last one. In that case, the last operation is controlled by the inventory put-away.  
 
@@ -62,7 +62,7 @@ The following table describes different ways of moving items within the warehous
 |Create an internal put-away to put produced or assembled items away in an advanced warehouse configuration.|[Create an internal put-away](warehouse-how-to-create-put-aways-from-internal-put-aways.md#to-create-an-internal-put-away)|
 
 > [!NOTE]  
-> You cannot enter the source document number, such as the Works Order No., in the internal put-away, put-away, or movement documents for either of these procedures.  
+> You cannot enter the source document number, such as the Production Order No., in the internal put-away, put-away, or movement documents for either of these procedures.  
 
 ## <a name="see-also"></a>See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

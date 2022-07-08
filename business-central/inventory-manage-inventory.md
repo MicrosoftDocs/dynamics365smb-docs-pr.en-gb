@@ -51,7 +51,7 @@ The following table outlines related tasks.
 |Perform physical counting, make negative or positive adjustments, and change information, such as location or lot number, on item ledger entries.|[Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)|
 |View the availability of items per location, by period, by sales or purchase event, or by their use on assembly or production BOMs.|[View the Availability of Items](inventory-how-availability-overview.md)|
 |Transfer inventory items between locations with transfer orders, to manage warehouse activities, or with the item reclassification journal.|[Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)|
-|Reserve inventory or inbound items for sales orders, purchase orders, service orders, assembly orders, or works orders.|[Reserve Items](inventory-how-to-reserve-items.md)|
+|Reserve inventory or inbound items for sales orders, purchase orders, service orders, assembly orders, or production orders.|[Reserve Items](inventory-how-to-reserve-items.md)|
 |Set up item tracking so that you can track items serial numbers, for example to track items in case of recalls.|[Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md)|
 |Assign serial numbers or lot numbers to any outbound or inbound document or journal line.|[Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)|
 |Find where any serial or lot number was used in its supply chain, for example in recall situations.|[Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)|

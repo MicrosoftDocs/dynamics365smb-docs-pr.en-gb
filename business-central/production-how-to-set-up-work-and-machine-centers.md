@@ -56,8 +56,8 @@ The following primarily describes how to set up a work centre. The steps to set 
     |Option|Description|
     |------|-----------|
     |**Manual**| Used time, output and scrap are posted manually in the output journal or production journal.|
-    |**Forward**|Output is posted automatically when the works order is released.|
-    |**Backward**|Output is posted automatically when the works order is finished.|
+    |**Forward**|Output is posted automatically when the production order is released.|
+    |**Backward**|Output is posted automatically when the production order is finished.|
 
     > [!NOTE]
     > If necessary, the flushing method selected here, can be overridden for individual operations by changing the setting on routing lines
@@ -167,7 +167,7 @@ You must set up production resources that you regard as critical and mark them t
 
 [!INCLUDE[prod_short](includes/prod_short.md)] does not support detailed shop floor control. It plans for a feasible utilisation of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimisation rules.
 
-On the **Capacity-Constrained Resources** page, you can make setup that avoids overload of specific resources and ensure that no capacity is left unallocated if it could increase the turn-around time of a works order. In the **Dampener (% of Total Capacity)** field, you can add dampener time to resources to minimise operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.
+On the **Capacity-Constrained Resources** page, you can make setup that avoids overload of specific resources and ensure that no capacity is left unallocated if it could increase the turn-around time of a production order. In the **Dampener (% of Total Capacity)** field, you can add dampener time to resources to minimise operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.
 
 When planning with capacity-constrained resources, the system ensures that no resource is loaded above its defined capacity (critical load). This is done by assigning each operation to the nearest available time slot. If the time slot is not big enough to complete the entire operation, then the operation will be split into two or more parts placed in the nearest available time slots.
 

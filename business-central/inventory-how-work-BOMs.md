@@ -28,13 +28,13 @@ An assembly BOM is the master data that defines which component items go into an
 
 Assembly BOMs are described in this topic.
 
-You use works orders for making end items from components in a complex process that requires a production routing and work or machine centres, which represent production capacities. For example, a production process could be to cut steel plates in one operation, weld them in the next operation, and paint the end item in the last operation. For more information, see [Manufacturing](production-manage-manufacturing.md).  
+You use production orders for making end items from components in a complex process that requires a production routing and work or machine centres, which represent production capacities. For example, a production process could be to cut steel plates in one operation, weld them in the next operation, and paint the end item in the last operation. For more information, see [Manufacturing](production-manage-manufacturing.md).  
 
-A production BOM is the master data that defines a production item and the components that go into it. for assembly items, the production BOM must be certified and assigned to the production item before it can be used in a works order. When you enter the production item on a works order line, either manually or by refreshing the order, then the production BOM content becomes the works order components. For more information, see [Create Production BOMs](production-how-to-create-production-boms.md).  
+A production BOM is the master data that defines a production item and the components that go into it. for assembly items, the production BOM must be certified and assigned to the production item before it can be used in a production order. When you enter the production item on a production order line, either manually or by refreshing the order, then the production BOM content becomes the production order components. For more information, see [Create Production BOMs](production-how-to-create-production-boms.md).  
 
 The concept of resources in production is much more advanced than in assembly management. Work centres and machine centres function as resources, and production steps are represented by operations that are assigned to resources in production routings. For more information, see [Create Routings](production-how-to-create-routings.md).
 
-Both assembly orders and works orders may be linked directly to sales orders. However, you can only use assembly orders to customise the end item directly for a customer request with the sales order.
+Both assembly orders and production orders may be linked directly to sales orders. However, you can only use assembly orders to customise the end item directly for a customer request with the sales order.
 
 ## <a name="to-create-an-assembly-bom"></a>To create an assembly BOM
 

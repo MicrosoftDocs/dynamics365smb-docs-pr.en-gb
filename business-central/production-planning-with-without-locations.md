@@ -63,7 +63,7 @@ See variations in the scenarios below.
 > [!TIP]
 > The **Locations Mandatory** field in the **Inventory Setup** page and the **Components at Location** field in the Manufacturing Setup page are very important in governing how the planning system handles demand lines with/without location codes.
 >
-> For production demand that is purchased (when the planning engine is used solely for purchase planning and not for production planning), [!INCLUDE [prod_short](includes/prod_short.md)] will use the same location for components as the one stated on the works order. However, by filling in this field, you can redirect the components to another location.
+> For production demand that is purchased (when the planning engine is used solely for purchase planning and not for production planning), [!INCLUDE [prod_short](includes/prod_short.md)] will use the same location for components as the one stated on the production order. However, by filling in this field, you can redirect the components to another location.
 >
 > You can also define this for a specific SKU by selecting a different location code in the **Components at Location** field on the SKU card. Note, however, that this rarely makes sense as the planning logic may be distorted when planning for the SKU component.
 

@@ -35,7 +35,7 @@ The following walkthrough demonstrates method B in the previous table.
 
 ## <a name="about-this-walkthrough"></a>About This Walkthrough
 
-In basic warehouse configurations where your location is set up to require pick processing but not ship processing, you use the **Inventory Pick** page to record and post pick and ship information for your outbound source documents. The outbound source document can be a sales order, purchase return order, outbound transfer order, or a works order with component need.  
+In basic warehouse configurations where your location is set up to require pick processing but not ship processing, you use the **Inventory Pick** page to record and post pick and ship information for your outbound source documents. The outbound source document can be a sales order, purchase return order, outbound transfer order, or a production order with component need.  
 
 This walkthrough demonstrates the following tasks:  
 

@@ -1,6 +1,6 @@
 ---
 title: Design Details - Demand and Supply | Microsoft Docs
-description: This topic introduces the concept of demand, which is the common term used for any kind of gross demand, such as a sales order and component need from a works order.
+description: This topic introduces the concept of demand, which is the common term used for any kind of gross demand, such as a sales order and component need from a production order.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na

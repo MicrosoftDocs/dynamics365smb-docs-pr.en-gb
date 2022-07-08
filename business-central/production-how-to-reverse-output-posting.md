@@ -18,7 +18,7 @@ ms.locfileid: "8516038"
 ---
 # <a name="reverse-output-posting"></a>Reverse Output Posting
 
-There are times when output posting must be reversed. An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a works order.  
+There are times when output posting must be reversed. An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a production order.  
 
 ## <a name="to-reverse-an-output-posting"></a>To reverse an output posting
 

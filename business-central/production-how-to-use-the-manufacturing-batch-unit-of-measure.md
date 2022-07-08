@@ -17,7 +17,7 @@ ms.lasthandoff: 03/31/2022
 ms.locfileid: "8514446"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Work with Manufacturing Batch Units of Measurement
-If an item is stocked in one unit of measurement but produced in another, a works order is created that uses a manufacturing batch unit of measurement to calculate the correct quantity of the components during the **Refresh Works Order** batch job. An example of a manufacturing batch unit of measurement calculation is when a manufactured item is stocked in pieces but produced in tons.  
+If an item is stocked in one unit of measurement but produced in another, a production order is created that uses a manufacturing batch unit of measurement to calculate the correct quantity of the components during the **Refresh Production Order** batch job. An example of a manufacturing batch unit of measurement calculation is when a manufactured item is stocked in pieces but produced in tons.  
 
 ## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>To create a production BOM using a batch unit of measurement  
 1.  The manufacturing batch unit of measurement is set up as an alternative unit of measurement on the **Item Units of Measurement** page on the item to be produced. The batch unit of measurement will not replace the base unit of measurement on the item.  
@@ -27,14 +27,14 @@ If an item is stocked in one unit of measurement but produced in another, a work
 5.  Open the **Item Card** for the related item.  
 
     On the **Replenishment** FastTab, in the **Production BOM No.** field, select the production BOM created above.  
-6.  Create a works order header using the item set up with the manufacturing batch unit of measurement. For more information, see [Create Works Orders](production-how-to-create-production-orders.md).  
+6.  Create a production order header using the item set up with the manufacturing batch unit of measurement. For more information, see [Create Production Orders](production-how-to-create-production-orders.md).  
 7.  Choose the **Refresh** action, and then choose  the **OK** button.  
 
 On the **Lines** FastTab, choose the **Line** action, and then choose the **Components** action to view the result. The application calculates the correct quantity of the components needed to satisfy the production BOM based on the manufacturing batch unit of measurement.  
 
-## <a name="to-calculate-a-manufacturing-batch-unit-of-measure-on-a-production-order"></a>To calculate a manufacturing batch unit of measurement on a works order  
-1.  Create a works order header using the item set up with the manufacturing batch unit of measurement.  
-2.  In the **Item No.** field in the Works Order line, type the same item number used in the header.  
+## <a name="to-calculate-a-manufacturing-batch-unit-of-measure-on-a-production-order"></a>To calculate a manufacturing batch unit of measurement on a production order  
+1.  Create a production order header using the item set up with the manufacturing batch unit of measurement.  
+2.  In the **Item No.** field in the Production Order line, type the same item number used in the header.  
 3.  In the **Quantity** field, enter the same quantity used in the header.  
 4.  In the **Unit of Measurement Code** field, select the manufacturing batch unit of measurement code.  
 5.  Choose the **Refresh** action.

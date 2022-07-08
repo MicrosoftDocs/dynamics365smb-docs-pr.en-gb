@@ -36,7 +36,7 @@ Forming production families reduces the scrap quantity because what would normal
 ## <a name="to-produce-based-on-a-production-family"></a>To produce based on a production family
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.
-2. Create a new works order. For more information, see [Create Works orders](production-how-to-create-production-orders.md).
+2. Create a new production order. For more information, see [Create Production orders](production-how-to-create-production-orders.md).
 3. In the **Source Type** field, select **Family**.  
 4. In the **Source No.** field, select the relevant production family.
 

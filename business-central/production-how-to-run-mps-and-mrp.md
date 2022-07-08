@@ -23,7 +23,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
 -   MPS is the calculation of a master production schedule based on actual demand and the demand forecast. The MPS calculation is used for end items that have a forecast or a sales order line. These items are called MPS items and are identified dynamically when the calculation starts.  
 -   MRP is the calculation of material requirements based on actual demand for components and the demand forecast on the component level. MRP is calculated only for items that are not MPS items. The purpose of MRP is to provide time-phased formal plans, by item, to supply the appropriate item, at the appropriate time, in the appropriate location, in the appropriate quantity.  
 
-The planning algorithms used for both MPS and MRP are identical. The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages. The planning system process examines what is needed or will be needed (demand) and what is on-hand or expected (supply). When these quantities are netted against each other, [!INCLUDE[prod_short](includes/prod_short.md)] provides action messages. Action messages are suggestions to create a new order, change an order (quantity or date), or cancel an order already on order. The term "order" includes purchase orders, assembly orders, works orders, and transfer orders.
+The planning algorithms used for both MPS and MRP are identical. The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages. The planning system process examines what is needed or will be needed (demand) and what is on-hand or expected (supply). When these quantities are netted against each other, [!INCLUDE[prod_short](includes/prod_short.md)] provides action messages. Action messages are suggestions to create a new order, change an order (quantity or date), or cancel an order already on order. The term "order" includes purchase orders, assembly orders, production orders, and transfer orders.
 
 Links created by the planning engine between demand and its related supply can be tracked on the **Order Tracking** page. For more information, see [Track Relations Between Demand and Supply](production-how-track-demand-supply.md).   
 
@@ -33,7 +33,7 @@ Proper planning results depend on the set up done on item cards, assembly BOMs, 
 
 -   **Calculate Regenerative Plan:** This function processes or regenerates the material plan. This process starts by deleting all planned supply orders that are currently loaded. All items in the database are replanned.  
 -   **Calculate Net Change Plan**: This function processes a net change plan. Items are considered in net change planning from two types of changes:  
-    - **Demand/supply changes:** These include modifications to quantities on sales orders, demand forecasts, assembly orders, works orders, or purchase orders. An unplanned inventory level change is also considered a quantity change.  
+    - **Demand/supply changes:** These include modifications to quantities on sales orders, demand forecasts, assembly orders, production orders, or purchase orders. An unplanned inventory level change is also considered a quantity change.  
     - **Planning parameter changes:** These include changes in safety stock, reorder point, routing, bill of material, and changes to the time bucket or lead time calculation.  
 -   **Get Action Messages:** This function serves as a short-term planning tool by issuing action messages to alert the user of any modifications made since the last regenerative or net change plan was calculated.  
 
@@ -69,7 +69,7 @@ With each planned method, [!INCLUDE[prod_short](includes/prod_short.md)] generat
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Works Order**|Specify how you want to create works orders. You can do this directly from the planning line proposals. You can create either planned or firm planned works orders.|  
+    |**Production Order**|Specify how you want to create production orders. You can do this directly from the planning line proposals. You can create either planned or firm planned production orders.|  
     |**Assembly Order**|Specify how you want to create assembly orders. You can do this directly from the planning line proposals.|  
     |**Purchase Order**|Specify how you want to create purchase orders. You can do this directly from the planning line proposals.<br /><br /> If you chose to copy the planning line proposals for purchase orders to the requisition worksheet, select the template and worksheet name.|  
     |**Transfer Order**|Specify how you want to create transfer orders. You can do this directly from the planning line proposals.<br /><br /> If you chose to copy the planning line proposals for transfer orders to the requisition worksheet, select the template and worksheet name.|  
@@ -91,7 +91,7 @@ To avoid small, superfluous, or unimportant action messages, the user can establ
 After you have reviewed the action messages and determined whether to accept some or all of the suggested changes, select the **Accept Action Message** field, and then you are ready to update the schedules accordingly.  
 
 > [!NOTE]  
->  An action message is a suggestion to create a new order, cancel an order, or change the quantity or date of an order. An order is a purchase order, transfer order, or works order.  
+>  An action message is a suggestion to create a new order, cancel an order, or change the quantity or date of an order. An order is a purchase order, transfer order, or production order.  
 
 In response to any supply/demand imbalances, the following action messages are generated.  
 

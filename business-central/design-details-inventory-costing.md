@@ -37,7 +37,7 @@ Inventory costing, also referred to as cost management, is concerned with record
 [Design Details: Cost Components](design-details-cost-components.md)  
 [Design Details: Inventory Periods](design-details-inventory-periods.md)  
 [Design Details: Inventory Posting](design-details-inventory-posting.md)  
-[Design Details: Works Order Posting](design-details-production-order-posting.md)  
+[Design Details: Production Order Posting](design-details-production-order-posting.md)  
 [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
 [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  
 [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)  

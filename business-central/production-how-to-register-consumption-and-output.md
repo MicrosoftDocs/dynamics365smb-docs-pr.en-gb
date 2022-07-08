@@ -1,6 +1,6 @@
 ---
 title: Register Consumption Output for Prod Order
-description: This topic explains how to register consumption and output for a released works order line viewed on the Production Journal page.
+description: This topic explains how to register consumption and output for a released production order line viewed on the Production Journal page.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -16,9 +16,9 @@ ms.contentlocale: en-GB
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8516090"
 ---
-# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Register Consumption and Output for One Released works order line
+# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Register Consumption and Output for One Released production order line
 
-This execution task is performed on the **Production Journal** page. The journal combines the functions of the separate consumption journal and output journals into one journal. The combined journal is accessed directly from a released works order. Its main purpose is to manually post the consumption of components, the quantity of end items produced, and the time spent in operations. The values are posted to ledger entries under the released works order. Consumption quantities are posted as negative item ledger entries, output quantities are posted as positive ledger entries, and times spent are posted as capacity ledger entries. Such posted values can also be viewed at the bottom of the journal as actual quantities.  
+This execution task is performed on the **Production Journal** page. The journal combines the functions of the separate consumption journal and output journals into one journal. The combined journal is accessed directly from a released production order. Its main purpose is to manually post the consumption of components, the quantity of end items produced, and the time spent in operations. The values are posted to ledger entries under the released production order. Consumption quantities are posted as negative item ledger entries, output quantities are posted as positive ledger entries, and times spent are posted as capacity ledger entries. Such posted values can also be viewed at the bottom of the journal as actual quantities.  
 
 > [!NOTE]  
 >  Because consumption data is processed together with output data, this journal offers an opportunity to display linked components and operations in a logical process structure. Components are indented under their respective operation. This requires that you use routing link codes.  
@@ -28,9 +28,9 @@ This execution task is performed on the **Production Journal** page. The journal
 
 ## <a name="to-register-consumption-and-output"></a>To register consumption and output  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon enter **Released Prod. Orders**, and then choose the related link.  
-2.  Open a released works order line that is ready for registration, and then on the **Lines** FastTab, choose the **Line** action, and then choose the **Production Journal** action.  
+2.  Open a released production order line that is ready for registration, and then on the **Lines** FastTab, choose the **Line** action, and then choose the **Production Journal** action.  
 
-    The **Production Journal** page opens showing journal lines for the works order line according to the **Prod. Order Component** and **Prod. Order Routing** pages. These lines originate from the production BOM and routing assigned to the item that is being produced. For more information, see [Create Production BOMs](production-how-to-create-routings.md).  
+    The **Production Journal** page opens showing journal lines for the production order line according to the **Prod. Order Component** and **Prod. Order Routing** pages. These lines originate from the production BOM and routing assigned to the item that is being produced. For more information, see [Create Production BOMs](production-how-to-create-routings.md).  
 
 3.  In the **Posting Date** field at the top of the journal, enter a posting date that applies to all lines. The work date is entered by default. The field is meant as a quick way to align posting dates on all lines, if relevant.  
 
@@ -43,14 +43,14 @@ This execution task is performed on the **Production Journal** page. The journal
   
     On each type of line in the journal, only the relevant fields are shown. The rest are blank and write-protected.  
 
-    When the journal is opened, it is preset with the quantities to be posted. If nothing is posted so far, all quantity fields will show by default the expected quantities carried from the works order. If partial postings have been made, the quantity fields on the lines will show the remaining quantities. The quantities and times already posted for the order are displayed at the bottom of the journal as actual entries.  
+    When the journal is opened, it is preset with the quantities to be posted. If nothing is posted so far, all quantity fields will show by default the expected quantities carried from the production order. If partial postings have been made, the quantity fields on the lines will show the remaining quantities. The quantities and times already posted for the order are displayed at the bottom of the journal as actual entries.  
 
     Concerning the quantities in the **Output Quantity** field, you have the option to set up which values to preset when the journal is first opened. This is done from the **Manufacturing Setup** page, **General** FastTab, in the **Preset Output Quantity** field.
 
     > [!NOTE]  
     >  Only the output quantity on the last journal line of entry type **Output** will adjust the inventory level when posting the journal. Therefore, do not to post the journal, with the expected output quantity preset on the last output line, until all end items are actually produced.  
 
-6.  Select the **Finished** field of output lines to indicate that the operation is finished. This field is related to the **Routing Status** field on a works order routing line.  
+6.  Select the **Finished** field of output lines to indicate that the operation is finished. This field is related to the **Routing Status** field on a production order routing line.  
 7.  Choose the **Post** action to register the quantities you have entered and then close the journal.  
 
 If values remain to be posted, the journal will contain these remaining values next time it is opened. Posted values are shown as actual values in the bottom of the journal.  

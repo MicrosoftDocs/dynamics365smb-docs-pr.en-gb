@@ -25,11 +25,11 @@ To understand how the planning system works, it is necessary to understand the p
  Generally, these goals are achieved by balancing supply with demand.  
 
 ## <a name="demand-and-supply"></a>Demand and Supply
- Demand is the common term used for any kind of gross demand, such as a sales order and component need from a works order. In addition, application allows more technical types of demand, such as negative inventory and purchase returns.  
+ Demand is the common term used for any kind of gross demand, such as a sales order and component need from a production order. In addition, application allows more technical types of demand, such as negative inventory and purchase returns.  
 
   Supply is the common term used for any kind of positive or inbound quantity, such as inventory, purchases, assembly, production, or inbound transfers. In addition, a sales return may also represent supply.  
 
-  To sort out the many sources of demand and supply, the planning system organises them on two time lines called inventory profiles. One profile holds demand events, and the other holds the corresponding supply events. Each event represents one order network entity, such as a sales order line, an item ledger entry, or a works order line.  
+  To sort out the many sources of demand and supply, the planning system organises them on two time lines called inventory profiles. One profile holds demand events, and the other holds the corresponding supply events. Each event represents one order network entity, such as a sales order line, an item ledger entry, or a production order line.  
 
   When inventory profiles are loaded, the different demand-supply sets are balanced to output a supply plan that fulfils the listed goals.  
 
@@ -71,7 +71,7 @@ As previously mentioned, demand could also be negative. This means that it shoul
 
 In general, the planning system considers all supply orders after the planning starting date as subject to change in order to fulfill demand. However, as soon as a quantity is posted from a supply order, it can no longer be changed by the planning system. Accordingly, the following different orders cannot be replanned:  
 
-- Released works orders where consumption or output has been posted.  
+- Released production orders where consumption or output has been posted.  
 - Assembly orders where consumption or output has been posted.  
 - Transfer orders where shipment has been posted.  
 - Purchase orders where receipt has been posted.  
@@ -105,7 +105,7 @@ When planning an order-to-order item, the linked supply must not be used for any
 
 Order-to-order demand and supply must balance precisely. The planning system will ensure the supply under all circumstances without regarding order sizing parameters, modifiers, and quantities in inventory (other than quantities relating to the linked orders). For the same reason, the system will suggest decreasing excess supplies if the linked demand is decreased.  
 
-This balancing also affects the timing. The limited horizon that is given by the time bucket is not regarded; the supply will be rescheduled if the timing of the demand has changed. However, dampener time will be respected and will prevent order-to-order supplies from being scheduled out, except for the internal supplies of a multi-level works order (project order).  
+This balancing also affects the timing. The limited horizon that is given by the time bucket is not regarded; the supply will be rescheduled if the timing of the demand has changed. However, dampener time will be respected and will prevent order-to-order supplies from being scheduled out, except for the internal supplies of a multi-level production order (project order).  
 
 > [!NOTE]  
 >  Serial/lot numbers can also be specified on order-to-order demand. In that case, the supply is not regarded inflexible by default, as is normally the case for serial/lot numbers. In this case, the system will increase/decrease according to changes in demand. Furthermore, if one demand carries varying serial/lot numbers, such as more than one lot number, one supply order will be suggested per lot.  
@@ -113,8 +113,8 @@ This balancing also affects the timing. The limited horizon that is given by the
 > [!NOTE]  
 >  Forecasts should not lead to creating supply orders that are bound by an order-to-order link. If the forecast is used, it should only be used as a generator of dependent demand in a manufacturing environment.  
 
-### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Component Need is Loaded according to Works Order Changes  
-When handling works orders, the planning system must monitor the needed components before loading them into the demand profile. Component lines that result from an amended works order will replace those of the original order. This ensures that the planning system establishes that planning lines for component need are never duplicated.  
+### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Component Need is Loaded according to Production Order Changes  
+When handling production orders, the planning system must monitor the needed components before loading them into the demand profile. Component lines that result from an amended production order will replace those of the original order. This ensures that the planning system establishes that planning lines for component need are never duplicated.  
 
 ###  <a name="safety-stock-may-be-consumed"></a><a name="BKMK_SafetyStockMayBeConsumed"></a> Safety Stock May Be Consumed  
 The safety stock quantity is primarily a demand type and is therefore loaded into the inventory profile on the planning starting date.  
@@ -130,7 +130,7 @@ A user is required to define a valid forecast period. The date on the forecasted
 
 The forecast for periods prior to the planning period is not used, regardless of whether it was consumed or not. The first forecast figure of interest is either the date on or the closest date prior to the planning starting date.  
 
-The forecast can be for independent demand, such as sales orders, or dependent demand, like works order components (module-forecast). An item can have both types of forecast. During planning, the consumption takes place separately, first for independent demand and then for dependent demand.  
+The forecast can be for independent demand, such as sales orders, or dependent demand, like production order components (module-forecast). An item can have both types of forecast. During planning, the consumption takes place separately, first for independent demand and then for dependent demand.  
 
 ### <a name="blanket-order-demand-is-reduced-by-sales-orders"></a>Blanket Order Demand is Reduced by Sales Orders  
 Forecasting is supplemented by the blanket sales order as a means of specifying future demand from a specific customer. As with the (unspecified) forecast, actual sales should consume the anticipated demand, and the remaining quantity should enter the demand inventory profile. Again, the consumption does not actually reduce the blanket order.  
@@ -160,17 +160,17 @@ Loaded demand and supply contribute to a profile for the projected inventory acc
 1. Already in inventory: Item Ledger Entry (Planning Flexibility = None)  
 2. Sales Return Order (Planning Flexibility = None)  
 3. Inbound Transfer Order  
-4. Works Order  
+4. Production Order  
 5. Assembly Order  
 6. Purchase Order  
 
 ### <a name="priority-related-to-the-state-of-demand-and-supply"></a>Priority Related to the State of Demand and Supply  
-Apart from priorities given by the type of demand and supply, the present state of the orders in the execution process also defines a priority. For example, warehouse activities have an impact, and the status of sales, purchase, transfer, assembly, and works orders is taken into account:  
+Apart from priorities given by the type of demand and supply, the present state of the orders in the execution process also defines a priority. For example, warehouse activities have an impact, and the status of sales, purchase, transfer, assembly, and production orders is taken into account:  
 
 1. Partly handled (Planning Flexibility = None)  
 2. Already in progress in the warehouse (Planning Flexibility = None)  
 3. Released – all order types (Planning Flexibility = Unlimited)  
-4. Firm Planned Works Order (Planning Flexibility = Unlimited)  
+4. Firm Planned Production Order (Planning Flexibility = Unlimited)  
 5. Planned/Open – all order types (Planning Flexibility = Unlimited)
 
 ## <a name="balancing-supply-with-demand"></a>Balancing Supply with Demand
@@ -278,7 +278,7 @@ Last, the planning system will create an order tracking link between the supply 
 ### <a name="creating-the-planning-line-suggested-action"></a>Creating the Planning Line (Suggested Action)  
 If any action – New, Change Quantity, Reschedule, Reschedule and Change Quantity, or Cancel – is suggested to revise the supply order, the planning system creates a planning line in the planning worksheet. Due to order tracking, the planning line is created not only when the supply event is closed, but also if the demand event is closed, even though the supply event is still open and may be subject to additional changes when the next demand event is processed. This means that when first created, the planning line may be changed again.  
 
-To minimise database access when handling works orders, the planning line can be maintained in three levels, while aiming to perform the least demanding maintenance level:  
+To minimise database access when handling production orders, the planning line can be maintained in three levels, while aiming to perform the least demanding maintenance level:  
 
 * Create only the planning line with the current due date and quantity but without the routing and components.  
 * Include routing: the planned routing is laid out including calculation of starting and ending dates and times. This is demanding in terms of database accesses. To determine the ending and due dates, it may be necessary to calculate this even if the supply event has not been closed (in the case of forward scheduling).  

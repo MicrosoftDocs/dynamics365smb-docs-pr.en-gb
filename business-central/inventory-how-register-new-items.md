@@ -63,9 +63,9 @@ If you want to use this item card as a template when you create new item cards, 
 
 The item template is added to the list of item templates, so that you can use it to create new item cards.
 
-### <a name="items-used-in-production-orders"></a>Items used in works orders
+### <a name="items-used-in-production-orders"></a>Items used in production orders
 
-If you want to register items that are then used in works orders, you specify the replenishment system as *Prod. order* on the **Replenishment** FastTab. For more information, see [About Works Orders](production-about-production-orders.md).  
+If you want to register items that are then used in production orders, you specify the replenishment system as *Prod. order* on the **Replenishment** FastTab. For more information, see [About Production Orders](production-about-production-orders.md).  
 
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>To set up multiple suppliers for an item
 

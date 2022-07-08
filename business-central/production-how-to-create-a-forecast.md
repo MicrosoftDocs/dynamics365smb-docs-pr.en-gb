@@ -20,7 +20,7 @@ ms.locfileid: "8512921"
 
 You can create sales and production forecasts with the **Demand Forecasts** list page. Then, for each forecast, you specify various settings for that forecast in the **Demand Forecast Overview** page.  
 
-Forecasting functionality is used to create anticipated demand; actual demand is created from sales and works orders. During creation of the Master Production Schedule (MPS), the forecast is netted against the sales and works orders. The **Forecast Type** field on the forecast determines which type of requirements to take into consideration in the netting process. If the forecast is for a *sales item*, only sales orders net the forecast. If it is for *components*, only dependent demand from production order components net the forecast.  
+Forecasting functionality is used to create anticipated demand; actual demand is created from sales and production orders. During creation of the Master Production Schedule (MPS), the forecast is netted against the sales and production orders. The **Forecast Type** field on the forecast determines which type of requirements to take into consideration in the netting process. If the forecast is for a *sales item*, only sales orders net the forecast. If it is for *components*, only dependent demand from production order components net the forecast.  
 
 Forecasting allows your company to create "what if" scenarios and efficiently and cost-effectively plan for and meet demand. Accurate forecasting can make a critical difference in customer satisfaction levels with regard to order promising dates and on-time delivery.  
 

@@ -29,7 +29,7 @@ The outbound flow in the warehouse begins with a request from released source do
 
 In addition, the following internal source documents exist that function like outbound sources:  
 
-- works order with component need  
+- production order with component need  
 - Assembly order with component need  
 
  The last two documents represent outbound flows from the warehouse to internal operation areas. For more information about warehouse handling for internal inbound and outbound processes, see [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md).  

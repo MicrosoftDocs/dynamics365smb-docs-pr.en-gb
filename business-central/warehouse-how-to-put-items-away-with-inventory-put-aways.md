@@ -18,7 +18,7 @@ ms.locfileid: "9078317"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Put Items Away with Inventory Put-aways
 
-When your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** document to record and post put-away and receipt information for your source documents. The inbound source document can be a purchase order, a sales return order, an inbound transfer order, or an assembly or works order whose output is ready to be put away.  
+When your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** document to record and post put-away and receipt information for your source documents. The inbound source document can be a purchase order, a sales return order, an inbound transfer order, or an assembly or production order whose output is ready to be put away.  
 
 You can create a inventory put-away in three ways:  
 
@@ -33,12 +33,12 @@ For purchase orders, sales return orders, inbound transfer orders, and assembly 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
 2. Select the purchase order that you want to release, and then choose the **Release** action.  
 
-    For works orders, you create the warehouse request by creating an inbound request from the released works order.  
-3.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Works Orders**, and then choose the related link.  
+    For production orders, you create the warehouse request by creating an inbound request from the released production order.  
+3.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Orders**, and then choose the related link.  
 4. Choose the **Create Inbound Whse. Request** action.  
 
 > [!NOTE]  
->  You can also create the inbound warehouse request by selecting the **Create Inbound Request** check box when you refresh the works order. For more information, see [Refresh or Replan Works Orders](production-how-to-replan-refresh-production-orders.md).  
+>  You can also create the inbound warehouse request by selecting the **Create Inbound Request** check box when you refresh the production order. For more information, see [Refresh or Replan Production Orders](production-how-to-replan-refresh-production-orders.md).  
 
 When the warehouse request is created, a warehouse employee assigned to putting items away can see that the source document is ready and can create a inventory put-away document.  
 
@@ -55,7 +55,7 @@ Now that the request is created, the warehouse employee can create a new invento
 
 ## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>To create a inventory put-away from the source document
 
-1.  In the source document, which can be a purchase order, sales return order, inbound transfer order, or works order, choose the **Create Inventory Put-away/Pick** action.  
+1.  In the source document, which can be a purchase order, sales return order, inbound transfer order, or production order, choose the **Create Inventory Put-away/Pick** action.  
 2. Select the **Create Invt. Put-away** check box.
 3. Choose the **OK** button. A new inventory put-away is created.
 
@@ -75,7 +75,7 @@ Now that the request is created, the warehouse employee can create a new invento
     If it is necessary to place the items for one line in more than one bin, for example because the designated bin is full, then use the **Split Line** function on the **Lines** FastTab. For more information about splitting lines, see [Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md).  
 4. When you have performed the put-away, choose the **Post** action.  
 
-The posting process will post the receipt, or for works orders, the output, of the source document lines that have been put away, and if the location uses bins, the posting will also create warehouse entries to post the bin quantity changes.
+The posting process will post the receipt, or for production orders, the output, of the source document lines that have been put away, and if the location uses bins, the posting will also create warehouse entries to post the bin quantity changes.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/receive-put-away-items/)
 

@@ -24,7 +24,7 @@ The planning functions are contained in a batch job that first selects the relev
 
 The planner of a company, such as a purchaser or a production planner is presumed to be the user of the planning system. The planning system assists the user by performing the extensive but rather straightforward calculations of a plan. The user can then concentrate on solving the more difficult problems, such as when things differ from normal.  
 
-The planning system is driven by anticipated and actual customer demand, such as forecast and sales orders. Running the planning calculation will result in the application suggesting specific actions for the user to take concerning possible supply from suppliers, assembly or production departments, or transfers from other warehouses. These suggested actions could be to create new supply orders, such as purchase or works orders. If supply orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
+The planning system is driven by anticipated and actual customer demand, such as forecast and sales orders. Running the planning calculation will result in the application suggesting specific actions for the user to take concerning possible supply from suppliers, assembly or production departments, or transfers from other warehouses. These suggested actions could be to create new supply orders, such as purchase or production orders. If supply orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
 
 Another goal of the planning system is to ensure that the inventory does not grow unnecessarily. If demand decreases, the planning system will suggest that the user postpone, decrease in quantity, or cancel existing supply orders.  
 
@@ -54,7 +54,7 @@ For more information, see [Dealing with Orders Before the Planning Starting Date
 
 Dynamic Order Tracking, with its simultaneous creation of action messages in the planning worksheet, is not a part of the supply planning system in [!INCLUDE[prod_short](includes/prod_short.md)]. This feature links, in real-time, the demand and the quantities that could cover them, whenever a new demand or supply is created or changed.  
 
-For example, if the user enters or changes a sales order, the dynamic order tracking system will instantly search for the appropriate supply to cover the demand. This could be from inventory or from an expected supply order (such as a purchase order or a works order). When a supply source is found, the system creates a link between the demand and the supply, and displays it in view-only pages that are accessed from the involved document lines. When appropriate supply cannot be found, the dynamic order tracking system creates action messages in the planning worksheet with supply plan suggestions reflecting the dynamic balancing. Accordingly, the dynamic order tracking system offers a very basic planning system that can be of help both to the planner and other roles in the internal supply chain.  
+For example, if the user enters or changes a sales order, the dynamic order tracking system will instantly search for the appropriate supply to cover the demand. This could be from inventory or from an expected supply order (such as a purchase order or a production order). When a supply source is found, the system creates a link between the demand and the supply, and displays it in view-only pages that are accessed from the involved document lines. When appropriate supply cannot be found, the dynamic order tracking system creates action messages in the planning worksheet with supply plan suggestions reflecting the dynamic balancing. Accordingly, the dynamic order tracking system offers a very basic planning system that can be of help both to the planner and other roles in the internal supply chain.  
 
 Accordingly, Dynamic Order Tracking can be considered a tool that assists the user in assessing whether to accept supply order suggestions. From the supply side, a user can see which demand has created the supply, and from the demand side, which supply should cover the demand.  
 
@@ -207,8 +207,8 @@ Another special case that uses order-to-order links is when an assembly order is
 Order-to-order links are applied between demand and supply in four ways:  
 
 -   When the planned item uses the reordering policy Order.  
--   When using the manufacturing policy Make-to-Order to create multi-level or project-type works orders (producing needed components on the same works order).  
--   When creating works orders for sales orders with the Sales Order Planning feature.  
+-   When using the manufacturing policy Make-to-Order to create multi-level or project-type production orders (producing needed components on the same production order).  
+-   When creating production orders for sales orders with the Sales Order Planning feature.  
 -   When assembling an item to a sales order. (Assembly Policy is set to Assemble-to-Order.  
 
 In these instances, the planning system will only suggest to order the required quantity. Once created, the purchase, production, or assembly order will continue to match the corresponding demand. For example, if a sales order is changed in time or quantity, the planning system will suggest that the corresponding supply order is changed accordingly.  
@@ -270,7 +270,7 @@ In general, exceptional order proposals ensure that the projected available inve
 The attention warning is displayed in three situations:  
 
 -   The planning starting date is earlier than the work date.  
--   The planning line suggests changing a released purchase or works order.  
+-   The planning line suggests changing a released purchase or production order.  
 -   The projected inventory exceeds the overflow level on the due date. For more information, see [Staying under the Overflow Level](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
 
 > [!NOTE]  
@@ -303,7 +303,7 @@ The basic supply planning tool represented by the **Order Planning** page is des
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is a standard ERP system, not a dispatching or shop floor control system. It plans for a feasible utilisation of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimisation rules.  
 
-The intended use of the Capacity-Constrained Resource feature is 1): to avoid overload of specific resources and 2): to ensure that no capacity is left unallocated if it could increase the turn-around time of a works order. The feature includes no facilities or options to prioritise or optimise operations as one would expect to find in a dispatching system. However, it can provide rough-cut capacity information useful to identify bottlenecks and to avoid overloading resources.  
+The intended use of the Capacity-Constrained Resource feature is 1): to avoid overload of specific resources and 2): to ensure that no capacity is left unallocated if it could increase the turn-around time of a production order. The feature includes no facilities or options to prioritise or optimise operations as one would expect to find in a dispatching system. However, it can provide rough-cut capacity information useful to identify bottlenecks and to avoid overloading resources.  
 
 When planning with capacity-constrained resources, the system ensures that no resource is loaded above its defined capacity (critical load). This is done by assigning each operation to the nearest available time slot. If the time slot is not big enough to complete the entire operation, then the operation will be split into two or more parts placed in the nearest available time slots.  
 

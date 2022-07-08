@@ -19,13 +19,13 @@ In this article, we take you through the steps to use the Contoso Coffee demo da
 
 ## <a name="scenario"></a>Scenario
 
-You are the production planner at Contoso Coffee. You created a production order for 100 units of the item **SP-SCM1009, Airpot**, and you want to plan subassemblies for this order. You use order planning to create the required production order for the supply. Because you are creating the works order to fulfil the requirements of a specific order, you decide to reserve the output of the works order.  
+You are the production planner at Contoso Coffee. You created a production order for 100 units of the item **SP-SCM1009, Airpot**, and you want to plan subassemblies for this order. You use order planning to create the required production order for the supply. Because you are creating the production order to fulfil the requirements of a specific order, you decide to reserve the output of the production order.  
 
 ## <a name="steps"></a>Steps
 
 1. Create the new released production order for 100 units of item **SP-SCM1009, Airpot**.
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Works Order**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
 
     2. Choose the **New** action, and then fill in the fields as described in the following table.  
 

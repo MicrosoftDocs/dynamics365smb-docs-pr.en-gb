@@ -18,14 +18,14 @@ ms.lasthandoff: 03/31/2022
 ms.locfileid: "8518686"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Enable Automatic Breaking Bulk with Directed Put-away and Pick
-For locations that use directed put-away and pick, [!INCLUDE[prod_short](includes/prod_short.md)] can, in various situations, automatically breakbulk, that is, break a larger unit of measurement into smaller units of measurement, when it creates warehouse instructions that fulfil the needs of source documents, works orders, or internal picks and put-aways. To breakbulk sometimes also means gathering smaller units of measurement, if necessary, to meet outbound requests by breaking the larger unit of measurement on the source document or works order into the smaller units of measurement that are available in the warehouse.   
+For locations that use directed put-away and pick, [!INCLUDE[prod_short](includes/prod_short.md)] can, in various situations, automatically breakbulk, that is, break a larger unit of measurement into smaller units of measurement, when it creates warehouse instructions that fulfil the needs of source documents, production orders, or internal picks and put-aways. To breakbulk sometimes also means gathering smaller units of measurement, if necessary, to meet outbound requests by breaking the larger unit of measurement on the source document or production order into the smaller units of measurement that are available in the warehouse.   
 
 ## <a name="breakbulking-in-picks"></a>Breakbulking in Picks  
 If you want to store items in several different units of measurement and allow them to be automatically combined as needed in the picking process, select the **Allow Breakbulk** field on the location card.  
 
 To fulfil a task, application automatically looks for an item in the same unit of measurement. But if it cannot find this form of the item, and this field is selected, application will suggest that you break a larger unit of measurement into the unit of measurement that is needed.  
 
-If the system can only find smaller units of measurement, it will suggest that you gather items to fulfil the quantity on the shipment or works order. In effect, it breaks the larger unit of measurement on the source document into smaller units for picking.  
+If the system can only find smaller units of measurement, it will suggest that you gather items to fulfil the quantity on the shipment or production order. In effect, it breaks the larger unit of measurement on the source document into smaller units for picking.  
 
 ## <a name="breakbulking-in-put-aways"></a>Breakbulking in Put-aways  
 In the warehouse put-away, application automatically suggests Place action lines in the put-away unit of measurement, for example, pieces, even though the items arrive in a different unit of measurement.  

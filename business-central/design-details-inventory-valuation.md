@@ -47,14 +47,14 @@ The value of WIP inventory is determined by the following equation:
 
 * Ending WIP inventory = Beginning WIP inventory + manufacturing costs – cost of goods manufactured  
 
-As for purchased inventory, the value entries provide the basis of the inventory valuation. The calculation is made using the values in the **Cost Amount (Actual)** field of the item and capacity value entries associated with a works order.  
+As for purchased inventory, the value entries provide the basis of the inventory valuation. The calculation is made using the values in the **Cost Amount (Actual)** field of the item and capacity value entries associated with a production order.  
 
 The purpose of WIP inventory valuation is to determine the value of the items whose manufacturing has not yet been completed on a given date. Therefore the WIP inventory value is based on the value entries related to the consumption and capacity ledger entries. Consumption ledger entries must be completely invoiced at the date of the valuation. Therefore, the **Inventory Valuation – WIP** report shows the costs representing the WIP inventory value in two categories: consumption and capacity.  
 
 ## <a name="see-also"></a>See Also  
 [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)   
 [Design Details: Revaluation](design-details-revaluation.md)   
-[Design Details: Works Order Posting](design-details-production-order-posting.md)
+[Design Details: Production Order Posting](design-details-production-order-posting.md)
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

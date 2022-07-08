@@ -28,14 +28,14 @@ You can use the output journal to:
 > [!NOTE]
 > If production routing are used, the inventory is updated only when you post output quantity on the last operation.
 
-With the **Production Journal** window, you can perform the same tasks as in the **Output Journal** window and at the same time perform the related consumption posting tasks. For more information, see [Register Consumption and Output for One Released works order line](production-how-to-register-consumption-and-output.md).
+With the **Production Journal** window, you can perform the same tasks as in the **Output Journal** window and at the same time perform the related consumption posting tasks. For more information, see [Register Consumption and Output for One Released production order line](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>To post output quantities and/or register run times for one or more works order lines
+## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>To post output quantities and/or register run times for one or more production order lines
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
-2. Fill in the fields with the works order data and the output data and/or run time. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fill in the fields with the production order data and the output data and/or run time. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
   
-    You can use the **Explode Routing** function to generate journal lines from works orders.
+    You can use the **Explode Routing** function to generate journal lines from production orders.
   
 3. If the operation has been completed, select the **Finished** field.  
 4. Choose the **Post** action to post the operations. 

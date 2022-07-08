@@ -24,10 +24,10 @@ An item can be sales invoiced before it has been purchase invoiced, so that the 
 
 The following are secondary purposes, or functions, of cost adjustment:  
 
-* Invoice finished works orders:  
+* Invoice finished production orders:  
 
   * Change the status of value entries from **Expected** to **Actual**.  
-  * Clear WIP accounts. For more information, see [Design Details: Works Order Posting](design-details-production-order-posting.md).  
+  * Clear WIP accounts. For more information, see [Design Details: Production Order Posting](design-details-production-order-posting.md).  
   * Post variance. For more information, see [Design Details: Variance](design-details-variance.md).  
   * Update the unit cost on the item card.  
 
@@ -75,7 +75,7 @@ For more information, see [Design Details: Assembly Order Posting](design-detail
 Cost adjustment can be performed in two ways:  
 
 * Manually, by running the **Adjust Cost - Item Entries** batch job. You can run this batch job either for all items or for only certain items or item categories. This batch job runs a cost adjustment for the items in inventory for which an inbound transaction has been made, such as a purchase. For items that use the average costing method, the batch job also makes an adjustment if any outbound transactions are created.  
-* Automatically, by adjusting costs every time that you post an inventory transaction, and when you finish a works order. The cost adjustment is only run for the specific item or items affected by the posting. This is set up when you select the **Automatic Cost Adjustment** check box on the **Inventory Setup** page.  
+* Automatically, by adjusting costs every time that you post an inventory transaction, and when you finish a production order. The cost adjustment is only run for the specific item or items affected by the posting. This is set up when you select the **Automatic Cost Adjustment** check box on the **Inventory Setup** page.  
 
 It is good practice to run the cost adjustment automatically when you post because unit costs are more frequently updated and therefore more accurate. The disadvantage is that the performance of the database can be affected by running the cost adjustment so often.  
 
@@ -184,7 +184,7 @@ If you have set up the automatic cost adjustment to apply to postings that occur
 [Design Details: Inventory Posting](design-details-inventory-posting.md)  
 [Design Details: Variance](design-details-variance.md)  
 [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
-[Design Details: Works Order Posting](design-details-production-order-posting.md)  
+[Design Details: Production Order Posting](design-details-production-order-posting.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

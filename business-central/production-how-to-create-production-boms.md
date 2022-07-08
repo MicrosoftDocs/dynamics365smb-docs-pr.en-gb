@@ -15,7 +15,7 @@ ms.locfileid: "8516907"
 ---
 # <a name="create-production-boms"></a>Create Production BOMs
 
-A production bill of material (BOM) holds master data that describes the components and subassemblies used in the production of a parent item. Once a works order is created for that parent item, its production BOM will govern the calculation of material requirements as represented on the **Prod. Order Components** page.
+A production bill of material (BOM) holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented on the **Prod. Order Components** page.
 
 [!INCLUDE[prod_short](includes/prod_short.md)]  also support assembly BOMs. You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centres, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. For more information, see [Assembly BOMs or Production BOMs](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
@@ -35,7 +35,7 @@ Before you can set up a routing, the following must be in place:
 5. In the **Type** field, select whether the item on this BOM line is an ordinary item or a production BOM. If the item on the line is a production BOM, then it must already exist as a certified production BOM.  
 6. In the **No.** field, look up and select the item or production BOM in question, or type it in the field.  
 7. In the **Quantity Per** field, enter how many units of the item go into the parent item, for example, 4 wheels for 1 car.  
-8. In the **Scrap %** field you can enter a fixed percentage of components that are scrapped during production. When the components are ready to be consumed in a released works order, this percentage will be added to the expected quantity in the **Consumption Quantity** field in a production journal. For more information, see [Register Consumption and Output](production-how-to-register-consumption-and-output.md).  
+8. In the **Scrap %** field you can enter a fixed percentage of components that are scrapped during production. When the components are ready to be consumed in a released production order, this percentage will be added to the expected quantity in the **Consumption Quantity** field in a production journal. For more information, see [Register Consumption and Output](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
     >  This scrap percentage represents components that are scrapped during production when picking from inventory, whereas the scrap percentage on routing lines represents scrapped output before putting on inventory.  

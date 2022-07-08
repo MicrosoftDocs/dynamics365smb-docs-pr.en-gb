@@ -25,7 +25,7 @@ Backdated transactions or cost adjustments often affect balances and stock valua
 
 -   All outbound item ledger entries in the period must be closed (no negative stock).  
 -   All item costs in the period must be adjusted.  
--   All released and finished works orders in the period must be cost adjusted.  
+-   All released and finished production orders in the period must be cost adjusted.  
 
  When you close a stock period, a stock period entry is created by using the number of the last item register that falls in the stock period. In addition, the time, date, and user code of the user closing the period are recorded in the stock period entry. By using this information with the last item register for the previous period, you can see which stock transactions were posted in the stock period. It is also possible to reopen stock periods if you need to post in a closed period. When you reopen a stock period, a stock period entry is created.  
 

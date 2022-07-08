@@ -54,7 +54,7 @@ Some functionality, either general or for specific business processes, can be se
 |Do bulk invoicing of appointments created in Bookings.|[Bulk Invoicing for Microsoft Bookings](finance-bookings.md)|
 |Set up an SMTP server to enable email communication in and out of [!INCLUDE[prod_short](includes/prod_short.md)]| [Set Up Email Manually or Using the Assisted Setup](admin-how-setup-email.md)|
 | Set up unique identification codes for records, such as cards, documents, and journal lines, to track them in the system. |[Create Number Series](ui-create-number-series.md) |
-|Set up and assign a base calendar to your company and its business partners, such as customers, suppliers, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and works order lines are then calculated according to the calendar's specified working days.|[Set Up Base Calendars](across-how-to-assign-base-calendars.md)|
+|Set up and assign a base calendar to your company and its business partners, such as customers, suppliers, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are then calculated according to the calendar's specified working days.|[Set Up Base Calendars](across-how-to-assign-base-calendars.md)|
 
 Some areas require you to be an administrator in your [!INCLUDE[prod_short](includes/prod_short.md)] subscription. For more information, see [Administration](admin-setup-and-administration.md).  
 

@@ -56,7 +56,7 @@ Assembly demand and supply are handled by the planning system, just like for pur
 
 ### <a name="assembling-items"></a>Assembling Items
 
-Assembly orders function in a similar way as works orders, expect the consumption and output is recorded and posted directly from the order. When the items are assembled to inventory, the assembly worker has full access to all header and line fields. When the items are assembled to an order where the quantity and date are promised to the customer, then certain fields on the assembly order are not editable. In that case, the assembly posting is performed from the warehouse shipment for the linked sales order. This section covers the following tasks.  
+Assembly orders function in a similar way as production orders, expect the consumption and output is recorded and posted directly from the order. When the items are assembled to inventory, the assembly worker has full access to all header and line fields. When the items are assembled to an order where the quantity and date are promised to the customer, then certain fields on the assembly order are not editable. In that case, the assembly posting is performed from the warehouse shipment for the linked sales order. This section covers the following tasks.  
 
 -   Recording and posting assembly consumption and output to inventory.  
 -   Accessing a warehouse shipment line from an ATO assembly order to record assembly work.  

@@ -146,19 +146,19 @@ Then you must create various purchase, production, and sales transactions with t
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Prod. Orders**, and then choose the related link.  
 2. Choose the **New** group.  
-3. Create a new released works order by filling in the following fields.  
+3. Create a new released production order by filling in the following fields.  
 
     |Source No.|Quantity|Serial No.|  
     |----------|--------|----------|  
     |1002|2|SN1|  
     |1002|2|SN2|  
 
-4. Choose the **Refresh Works Order** action, and then choose the **OK** button to fill the line.  
+4. Choose the **Refresh Production Order** action, and then choose the **OK** button to fill the line.  
 5. To enter the serial numbers, choose the **Item Tracking Lines** action.  
 6. On the **Item Tracking Lines** page, fill in the **Serial No.** and **Quantity (Base)** fields, and then close the page.  
 
     Next, post consumption of racing frames from LOT1.  
-7. On the **Released Works Order** page, choose the **Production Journal** action.  
+7. On the **Released Production Order** page, choose the **Production Journal** action.  
 8. On the **Production Journal** page, select the consumption line for item 2000, choose the **Item Tracking Lines** action.
 9. On the **Item Tracking Lines** page, choose the **Lot No.** field, choose **LOT1**, and then choose the **OK** button.  
 10. Leave all other defaults on the **Production Journal** page, and then choose the **Post** action.  
@@ -167,25 +167,25 @@ Then you must create various purchase, production, and sales transactions with t
 
 11. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Prod. Orders**, and then choose the related link.  
 12. Choose the **New** action.  
-13. Create a new released works order by filling in the following fields on the header.  
+13. Create a new released production order by filling in the following fields on the header.  
 
     |Source No.|Quantity|Serial No.|  
     |----------------|--------------|----------------|  
     |1002|2|SN3|  
     |1002|2|SN4|  
 
-14. Choose the **Refresh Works Order** action to fill the line.  
+14. Choose the **Refresh Production Order** action to fill the line.  
 15. To enter the serial numbers, choose the **Item Tracking Lines** action, and then the numbers on two lines in the **Serial No.** field on the **Item Tracking Lines** page.  
 
     Next, post more consumption of racing frames from LOT1.  
-16. On the **Released Works Order** page, choose the **Production Journal** action.  
+16. On the **Released Production Order** page, choose the **Production Journal** action.  
 17. On the **Production Journal** page, select the consumption line for item 2000, choose the **Item Tracking Lines** action.
 18. On the **Item Tracking Lines** page, choose the **Lot No.** field, choose **LOT1**, and then choose the **OK** button.  
 19. Leave all other defaults on the **Production Journal** page, and then choose the **Post** action.  
 
-    You have produced four racing bikes, SN1 to SN4, and consumed four of the ten racing frames from LOT1, two frames in each works order.  
+    You have produced four racing bikes, SN1 to SN4, and consumed four of the ten racing frames from LOT1, two frames in each production order.  
 
-20. Close the production journal and the works orders.  
+20. Close the production journal and the production orders.  
 
     Next, sell racing bikes. First sell the racing bike with SN1 to Selangorian Ltd..  
 
@@ -249,8 +249,8 @@ Then you must create various purchase, production, and sales transactions with t
 
     You can trace the following transaction history:  
 
-    - The first posted document backward in the chain of transactions is the output posting of SN1 from the first released works order.  
-    - The next posted document backward after that is the consumption posting from the first released works order. Here the quality controller sees that a racing frame from LOT1 was used.  
+    - The first posted document backward in the chain of transactions is the output posting of SN1 from the first released production order.  
+    - The next posted document backward after that is the consumption posting from the first released production order. Here the quality controller sees that a racing frame from LOT1 was used.  
     - The lowest posted document in this chain is the posted purchase receipt on which racing frames with LOT1 entered inventory.  
 
     The quality controller has now established which lot of racing frames was faulty and he can search for the last trace line to see which supplier supplied them, namely Custom Metals Incorporated.  
@@ -276,7 +276,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 2.  Choose the **Expand All** action.  
 
-    The first four trace lines refer to the sales shipment to Selangorian Ltd., which is already resolved. The last line indicates that one more racing bike, SN2, was produced in the same released works order and then sold and shipped on another sales shipment.  
+    The first four trace lines refer to the sales shipment to Selangorian Ltd., which is already resolved. The last line indicates that one more racing bike, SN2, was produced in the same released production order and then sold and shipped on another sales shipment.  
 
     The quality controller immediately informs the sales department so that they can initiate a recall of the defective racing bike from the customer, Cannon Group PLC.  
 
@@ -293,13 +293,13 @@ Then you must create various purchase, production, and sales transactions with t
 1.  On the **Item Tracing** page, select the first trace line, the purchase receipt of LOT1.  
 2.  Choose the **Find entries** action.  
 
-    The **Find entries** page is preset with search filters based on the trace result for LOT1. The quality controller recognises most of the records as pertaining to documents already identified on the **Item Tracing** page. For example, the last Find Entries line of type Works Order refers to the two released works orders that consumed racing frames from LOT1.  
+    The **Find entries** page is preset with search filters based on the trace result for LOT1. The quality controller recognises most of the records as pertaining to documents already identified on the **Item Tracing** page. For example, the last Find Entries line of type Production Order refers to the two released production orders that consumed racing frames from LOT1.  
 
     However, the second Find Entries line of type **Sales Line** is a non-posted document line, so the quality controller proceeds to investigate.  
 
 3.  To open the sales line record, select the second Find Entries line, choose the **Show** action. Alternatively, choose the value in the **No. of Records** field.  
 
-    Here the quality controller sees one open sales line for the faulty racing frames. He immediately suggests to the sales department that this order be cancelled and a new works order, based on good racing frames, be initiated.  
+    Here the quality controller sees one open sales line for the faulty racing frames. He immediately suggests to the sales department that this order be cancelled and a new production order, based on good racing frames, be initiated.  
 
  This completes the walkthrough of how to use the **Find entries** page for defects management in integration with the **Item Tracing** page.  
 

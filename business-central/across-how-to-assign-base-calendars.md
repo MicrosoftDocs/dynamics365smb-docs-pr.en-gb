@@ -18,7 +18,7 @@ ms.locfileid: "8511851"
 ---
 # <a name="set-up-base-calendars"></a>Set Up Base Calendars
 
-You can assign a base calendar to your company and its business partners, such as customers, suppliers, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and works order lines are calculated according to the calendar’s specified working days. The main task in setting up a new base calendar is to specify and define the non-working days that you want to apply.  
+You can assign a base calendar to your company and its business partners, such as customers, suppliers, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are calculated according to the calendar’s specified working days. The main task in setting up a new base calendar is to specify and define the non-working days that you want to apply.  
 
 ## <a name="to-set-up-a-base-calendar"></a>To set up a base calendar
 

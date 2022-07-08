@@ -43,7 +43,7 @@ Alternatively, a warehouse worker can create it by pointing to the released asse
 >   
 >  For more information about assembly orders and basic warehouse configurations, see [Handling Assemble-to-Order Items with Inventory Picks](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
-This procedure shows how to create a inventory movement from the **Inventory Movement** page by referencing a released assembly order as a source document. The procedure is the same when you move components for works orders and service orders.  
+This procedure shows how to create a inventory movement from the **Inventory Movement** page by referencing a released assembly order as a source document. The procedure is the same when you move components for production orders and service orders.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>To move components to an operation area in basic warehouse configurations  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Movement**, and choose the relevant link.  

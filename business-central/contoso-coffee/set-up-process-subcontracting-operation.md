@@ -27,7 +27,7 @@ Here, you create a new released production order for 12 units of item SP-SCM1009
 
 1. Create a new released production order for 12 units of item SP-SCM1009, Airpot.
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Works Order**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
 
     2. Choose the **New** action, and then fill in the fields as described in the following table.  
 

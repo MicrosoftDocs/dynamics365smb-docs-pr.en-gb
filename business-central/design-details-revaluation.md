@@ -69,7 +69,7 @@ The following table shows the resulting value entry.
 
 The valuation date is set to the date of the consumption posting (02-01-20), as a regular inventory decrease.  
 
-**3Q**: The user posts the chain as output and finishes the works order. The following table shows the resulting item ledger entry.  
+**3Q**: The user posts the chain as output and finishes the production order. The following table shows the resulting item ledger entry.  
 
 |Posting Date|Item|Entry Type|Quantity|Entry No.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -165,15 +165,15 @@ Revaluation of WIP inventory implies revaluing components that are registered as
 With this in mind, it is important to establish conventions as to when an item is considered part of the WIP inventory from a financial point of view. In [!INCLUDE[prod_short](includes/prod_short.md)], the following conventions exist:  
 
 -   A purchased component becomes part of the raw material inventory from the time of posting a purchase as invoiced.  
--   A purchased/sub-assembled component becomes part of the WIP inventory from the time of posting its consumption in connection with a works order.  
--   A purchased/sub-assembled component remains part of the WIP inventory until the time when a works order (manufactured item) is invoiced.  
+-   A purchased/sub-assembled component becomes part of the WIP inventory from the time of posting its consumption in connection with a production order.  
+-   A purchased/sub-assembled component remains part of the WIP inventory until the time when a production order (manufactured item) is invoiced.  
 
 The way the valuation date for the value entry of consumption is set, follows the same rules as for non-WIP inventory. For more information, see [Determining Whether a Inventory Decrease is Affected by Revaluation](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
 
-WIP inventory can be revalued as long as the revaluation date is not later than the posting date of the corresponding item ledger entries of type Consumption and as long as the corresponding works order has not been invoiced yet.  
+WIP inventory can be revalued as long as the revaluation date is not later than the posting date of the corresponding item ledger entries of type Consumption and as long as the corresponding production order has not been invoiced yet.  
 
 > [!CAUTION]  
->  The **Inventory Valuation - WIP** report shows the value of posted works order entries and may therefore be a little confusing for WIP items that have been revalued.  
+>  The **Inventory Valuation - WIP** report shows the value of posted production order entries and may therefore be a little confusing for WIP items that have been revalued.  
 
 ## <a name="see-also"></a>See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   

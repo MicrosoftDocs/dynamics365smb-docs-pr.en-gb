@@ -34,7 +34,7 @@ For more information, see [Design Details: Inbound Warehouse Flow](design-detail
 The following walkthrough demonstrates method B in the previous table.  
 
 ## <a name="about-this-walkthrough"></a>About This Walkthrough  
-In basic warehouse configurations where your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** page to record and post put-away and receipt information for your inbound source documents. The inbound source document can be a purchase order, sales return order, inbound transfer order, or works order with output that is ready to be put away.
+In basic warehouse configurations where your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** page to record and post put-away and receipt information for your inbound source documents. The inbound source document can be a purchase order, sales return order, inbound transfer order, or production order with output that is ready to be put away.
 
 > [!NOTE]
 > Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.  

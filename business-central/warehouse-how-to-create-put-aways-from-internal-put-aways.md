@@ -18,13 +18,13 @@ ms.lasthandoff: 03/31/2022
 ms.locfileid: "8512583"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Pick and Put Away Without a Source Document
-After items have been put away and before they are picked to fulfil the needs of a works order or shipment, they are stored in the warehouse as part of available inventory.  
+After items have been put away and before they are picked to fulfil the needs of a production order or shipment, they are stored in the warehouse as part of available inventory.  
 
 Situations can arise where items must be taken out of the warehouse pick bins temporarily, perhaps to serve as demonstration models in a sales presentation. These items are still owned by the company and are part of inventory, but they are not available for picking. They are registered in a special purpose bin that you create for this purpose; technically, the items are in the warehouse, but physically, they could be in a conference or demonstration room.  
 
 In other situations, the production unit might unexpectedly need a few parts for a process. You can pick items for the production bins using the internal pick. When the process is over and output is created, you post the consumption of the items and empty the production bin, which in turn decreases the quantity of the item at your location.  
 
-Likewise, items can be returned to the warehouse to be put away. The items may have been taken out of available inventory for a works order, and then not used at all. To make them part of available inventory again, they must be put away in the bin.  
+Likewise, items can be returned to the warehouse to be put away. The items may have been taken out of available inventory for a production order, and then not used at all. To make them part of available inventory again, they must be put away in the bin.  
 
 The **Internal Put-aways** enables you to perform put-aways without having to refer to a particular source document. You can easily set up all the information you need to create a put-away warehouse instruction.  
 

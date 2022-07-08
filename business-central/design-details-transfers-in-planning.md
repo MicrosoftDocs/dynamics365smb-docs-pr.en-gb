@@ -24,21 +24,21 @@ Transfer orders are also a source of supply when working at the SKU level. When 
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-When comparing the situation where a supply order is directly facing a demand order to a situation where the sales order is supplied through a chain of SKU transfers, it is obvious that the planning task in the latter situation can become very complex. If demand changes, it might cause a ripple effect through the chain, because all transfer orders plus the purchase/works order in the opposite end of the chain will have to be manipulated to reestablish balance between demand and supply.  
+When comparing the situation where a supply order is directly facing a demand order to a situation where the sales order is supplied through a chain of SKU transfers, it is obvious that the planning task in the latter situation can become very complex. If demand changes, it might cause a ripple effect through the chain, because all transfer orders plus the purchase/production order in the opposite end of the chain will have to be manipulated to reestablish balance between demand and supply.  
 
 ![Example of supply/demand balance in transfers.](media/nav_app_supply_planning_7_transfers2.png "Example of supply/demand balance in transfers")  
 
 ## <a name="why-is-transfer-a-special-case"></a>Why is Transfer a Special Case?  
 A transfer order looks much like any other order in application. However, behind the scene it is very different.  
 
-One fundamental aspect that makes transfers in planning different from purchase and works orders is that a transfer line represents demand and supply at the same time. The outbound part, which is shipped from the old location, is demand. The inbound part, which is to be received at the new location, is supply at that location.  
+One fundamental aspect that makes transfers in planning different from purchase and production orders is that a transfer line represents demand and supply at the same time. The outbound part, which is shipped from the old location, is demand. The inbound part, which is to be received at the new location, is supply at that location.  
 
 ![Content of the Transfer Order page.](media/nav_app_supply_planning_7_transfers3.png "Content of the Transfer Order page")  
 
 This means that when the system manipulates the supply side of the transfer, it must make a similar change on the demand side.  
 
 ## <a name="transfers-are-dependent-demand"></a>Transfers are Dependent Demand  
-The related demand and supply has some resemblance with components of a works order line, but the difference is that components will be on the next planning level and with a different item, whereas the two parts of the transfer is situated on the same level, for the same item.  
+The related demand and supply has some resemblance with components of a production order line, but the difference is that components will be on the next planning level and with a different item, whereas the two parts of the transfer is situated on the same level, for the same item.  
 
 An important similarity is that just as components are dependent demand, so is the transfer demand. The demand from a transfer line is dictated by the supply side of the transfer in the sense that if the supply is changed, the demand is directly affected.  
 
@@ -139,7 +139,7 @@ The Default Safety Lead Time field in the Manufacturing Setup page and the relat
 
 ![Elements of the transfer due date.](media/nav_app_supply_planning_7_transfers14.png "Elements of the transfer due date")  
 
-On the works order line, the Ending Date + Safety Lead Time + Inbound Warehouse Handling Time = Due Date.  
+On the production order line, the Ending Date + Safety Lead Time + Inbound Warehouse Handling Time = Due Date.  
 
 On the purchase order line, the Planned Receipt Date + Safety Lead Time + Inbound Warehouse Handling Time = Expected Receipt Date.  
 

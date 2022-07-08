@@ -18,7 +18,7 @@ ms.locfileid: "9078369"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Pick Items with Inventory Picks
 
-When your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** page to record and post picking and shipping information for your source documents. The outbound source document can be a sales order, a purchase return order, an outbound transfer order, or a works order whose components are ready to be picked.
+When your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** page to record and post picking and shipping information for your source documents. The outbound source document can be a sales order, a purchase return order, an outbound transfer order, or a production order whose components are ready to be picked.
 
 > [!NOTE]  
 > Components for assembly orders cannot be picked or posted with inventory picks. Instead, use the **Inventory Movement** page. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
@@ -38,7 +38,7 @@ For sales orders, purchase return orders, and outbound transfer orders, you crea
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Select the sales order that you want to release, and then choose the **Release** action.
 
-For works orders, you automatically create the warehouse request for the picking of components, called *flushing*, when the works order status is changed to **Released** or when the released works order is created. For more information, see [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).
+For production orders, you automatically create the warehouse request for the picking of components, called *flushing*, when the production order status is changed to **Released** or when the released production order is created. For more information, see [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).
 
 After the warehouse request has been created, a warehouse employee assigned to picking items can see that the source document is ready to be picked and can create a new pick document based on the warehouse request.  
 
@@ -56,7 +56,7 @@ Now that the request is created, the warehouse employee can create a new invento
 
 ## <a name="to-create-an-inventory-pick-from-the-source-document"></a>To create a inventory pick from the source document
 
-1. In the source document, which can be a sales order, purchase return order, outbound transfer order, or works order, choose the **Create Inventory Put-away/Pick** action.
+1. In the source document, which can be a sales order, purchase return order, outbound transfer order, or production order, choose the **Create Inventory Put-away/Pick** action.
 2. Select the **Create Invt. Pick** check box.  
 3. Choose the **OK** button. A new inventory pick will be created.
 
@@ -81,11 +81,11 @@ Now that the request is created, the warehouse employee can create a new invento
     If it is necessary to pick the items for one line from more than one bin, for example because they are not available in the designated bin, then use the **Split Line** function on the **Lines** FastTab. For more information about splitting lines, see [Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md).  
 4. When you have performed the pick, choose the **Post** action.  
 
-The posting process will post the shipment of the source document lines that have been picked, or in the case of works orders, the posting process will post the consumption. If the location uses bins, the posting will also create warehouse entries to post the bin quantity changes.  
+The posting process will post the shipment of the source document lines that have been picked, or in the case of production orders, the posting process will post the consumption. If the location uses bins, the posting will also create warehouse entries to post the bin quantity changes.  
 
 ## <a name="to-delete-inventory-pick-lines"></a>To delete inventory pick lines
 
-If items on the inventory pick are not available, then you can delete those inventory pick lines after posting and then delete the inventory pick document. The source document, such as a sales order or a works order, will have remaining items to be picked, which can be obtained through a new inventory pick later when the items become available.  
+If items on the inventory pick are not available, then you can delete those inventory pick lines after posting and then delete the inventory pick document. The source document, such as a sales order or a production order, will have remaining items to be picked, which can be obtained through a new inventory pick later when the items become available.  
 
 > [!WARNING]  
 > This process is not possible if serial/lot numbers are specified on the source document. For example, if a sales order line contains a serial/lot number, then that item tracking specification will be deleted if a inventory pick line for the serial/lot number is deleted.  

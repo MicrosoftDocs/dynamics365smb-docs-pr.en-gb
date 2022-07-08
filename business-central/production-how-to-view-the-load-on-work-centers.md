@@ -18,7 +18,7 @@ ms.locfileid: "8515336"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>View Load on Work and Machine Centres
 
-In the **Work Centre Card** and **Machine Centre Card** pages, you can view the shop floor load as a result of planned and released works orders.  
+In the **Work Centre Card** and **Machine Centre Card** pages, you can view the shop floor load as a result of planned and released production orders.  
 
 ## <a name="to-view-the-load-on-work-centers"></a>To view the load on work centres
 

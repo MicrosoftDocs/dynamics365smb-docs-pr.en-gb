@@ -23,15 +23,15 @@ From any supply or demand document in the so-called order network, you can track
 The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan. For more information, see [Untracked Planning Elements](production-how-track-demand-supply.md#untracked-planning-elements).
 
 ## <a name="to-track-linked-items"></a>To track linked items
-Order tracking shows how sales orders, works orders, and purchase orders are related to the manufacturing order through the planning and reservation systems.
+Order tracking shows how sales orders, production orders, and purchase orders are related to the manufacturing order through the planning and reservation systems.
 
-The following describes how to track linked items on a firm planned works order. The steps are similar for all other order types, and from planning worksheet lines.
+The following describes how to track linked items on a firm planned production order. The steps are similar for all other order types, and from planning worksheet lines.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.
-2. Open the relevant firm planned works order from the list.
+2. Open the relevant firm planned production order from the list.
 3. On the **Lines** FastTab, choose the **Functions** action, and then choose the **Order Tracking** action.
 
-The lines in the **Order Tracking** display the documents that are related to the current works order line.
+The lines in the **Order Tracking** display the documents that are related to the current production order line.
 
 ## <a name="untracked-planning-elements"></a>Untracked Planning Elements
 The **Untracked Planning Elements** page opens when you choose the **Untracked Qty.** field on the **order Planning** page. It serves two purposes:

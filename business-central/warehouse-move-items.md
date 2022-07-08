@@ -20,7 +20,7 @@ ms.locfileid: "9078239"
 
 The warehouse activity of moving items within the warehouse is performed in different ways depending on how warehouse management features are configured. The complexity can rank from no warehouse features, through basic warehouse configurations for order-by order handling in one or more activities only, to advanced configurations where all warehouse activities must be performed in a directed workflow. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
-While in one warehouse location, items may need to be moved between bins to support the daily warehouse activities involved in keeping items flowing through the warehouse. Some movements happen in direct relation to internal operations, such as a works order that needs components delivered or end items put away. Other movements happen as mere warehouse space optimisation or as ad-hoc movements to and from operations.
+While in one warehouse location, items may need to be moved between bins to support the daily warehouse activities involved in keeping items flowing through the warehouse. Some movements happen in direct relation to internal operations, such as a production order that needs components delivered or end items put away. Other movements happen as mere warehouse space optimisation or as ad-hoc movements to and from operations.
 
 Additional movement tasks are to periodically replenish picking bins or shop floor bins and to modify bin content information.
 

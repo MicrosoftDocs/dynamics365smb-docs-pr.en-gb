@@ -27,7 +27,7 @@ The inbound flow in a warehouse begins when items arrive in the warehouse of the
 
 In addition, the following internal source documents exist that function like inbound sources:  
 
-- Works order with output posting  
+- Production order with output posting  
 - Assembly order with output posting  
 
 The last two represent inbound flows to the warehouse from internal operation areas. For more information about warehouse handling for internal inbound and outbound processes, see [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md).  
@@ -89,7 +89,7 @@ The user posts the warehouse receipt. Positive item ledger entries are created. 
 The user who is responsible for putting away from internal operations creates a warehouse internal put-away for items that have to be put away in the warehouse, such as production or assembly output. The user specifies quantity, zone, and bin from where the items should be put away, potentially with the **Get Bin Content** function. The user releases the warehouse internal put-away, which creates an inbound warehouse request so that the task can be retrieved in warehouse put-away documents or in the put-away worksheet.  
 
 ### <a name="6-create-put-away-request"></a>6: Create Put-away Request  
-When the inbound source document is posted, a warehouse put-away request is created automatically. It contains references to the source document type and number and is not visible to the user. Depending on the setup, output from a works order also creates a put-away request to put the finished items away in inventory.  
+When the inbound source document is posted, a warehouse put-away request is created automatically. It contains references to the source document type and number and is not visible to the user. Depending on the setup, output from a production order also creates a put-away request to put the finished items away in inventory.  
 
 ### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Generate Put-away Worksheet Lines (Optional)  
 The user who is responsible for coordinating put-aways retrieves warehouse put-away lines in the **Put-away Worksheet** based on posted warehouse receipts or internal operations with output. The user selects the lines to be put-away and prepares the put-aways by specifying which bins to take from, which bins to place in, and how many units to handle. The bins may be predefined by the setup of the warehouse location or operation resource.  

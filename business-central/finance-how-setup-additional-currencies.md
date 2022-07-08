@@ -122,8 +122,8 @@ After running the batch job, amounts on the following existing entries will be i
 - VAT entries  
 - Job ledger entries  
 - Value entries  
-- works order lines  
-- works order ledger entries  
+- production order lines  
+- production order ledger entries  
 
 In addition, all future entries of the same type will have amounts recorded in both LCY and the additional reporting currency.  
 
