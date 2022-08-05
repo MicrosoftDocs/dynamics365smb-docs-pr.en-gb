@@ -10,14 +10,15 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 85445267dac39103ed9851604182f09cc9819ea0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 25827943e88489891798ee145e90cab25b713da6
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522675"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144246"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Record Special Purchase Prices and Discounts
+
 > [!NOTE]
 > In 2020 release wave 2 we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -31,23 +32,24 @@ Concerning discounts, you can set up and use two types of purchase discounts:
 
 | Discount Type | Description |
 | --- | --- |
-| **Purchase Line Discount** |An amount discount that is inserted on purchase lines if a certain combination of supplier, item, minimum quantity, unit of measurement, or starting/ending date exists. This works in the same way as for purchase prices. |
+| **Purchase Line Discount** |An amount discount that is inserted on purchase lines if a certain combination of supplier, item, minimum quantity, unit of measurement, or starting/ending date exists. This type works in the same way as for purchase prices. |
 | **Invoice Discount** |A percentage discount that is subtracted from the document total if the value amount of all lines on a purchase document exceeds a certain minimum. |
 
 Because purchase line discounts and purchase prices are based on a combination of item and supplier, you can also enter this configuration from the item card, where the rules and values are defined. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>To set up a special purchase price for a supplier
 
-#### <a name="current-experience"></a>[Current Experience](#tab/current-experience)  
+#### <a name="current-experience"></a>[Current Experience](#tab/current-experience)
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Suppliers**, and then choose the related link.
 2. Open the relevant supplier card, and then choose the **Prices** action.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fill a line for each combination for which the supplier grants you a purchase line discount.
 
-#### <a name="new-experience"></a>[New Experience](#tab/new-experience)  
+#### <a name="new-experience"></a>[New Experience](#tab/new-experience)
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Suppliers**, and then choose the related link.
-2. Choose the supplier, and then choose the **Sales Price Lists** action. 
+2. Choose the supplier, and then choose the **Sales Price Lists** action.
 3. Choose **New** to create a new purchase price list.
 4. On the **General** and **Tax** FastTabs, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 5. To add items to the list, do one of the following:
@@ -59,14 +61,16 @@ Because purchase line discounts and purchase prices are based on a combination o
 ---
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>To set up a line discount for a supplier
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Suppliers**, and then choose the related link.
 2. Open the relevant supplier card, and then choose the **Line Discounts** action.
 
-    The **Purchase Type** field is prefilled with **Supplier**, and the **Purchase Code** field is prefilled with the supplier number.
+   The **Vendor No.** field is prefilled with the vendor number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fill a line for each combination for which the supplier grants you a purchase line discount.
 
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>To set up an invoice discount for a supplier
+
 When your suppliers have informed you which invoice discounts they grant, enter the invoice discount code on the supplier cards and set up the terms for each code.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Suppliers**, and then choose the related link.
@@ -74,7 +78,7 @@ When your suppliers have informed you which invoice discounts they grant, enter 
 3. In the **Invoice Disc. Code** field, select a code for the relevant invoice discount terms to use to calculate invoice discounts for the supplier.
 
     > [!NOTE]  
-    >   Invoice discount codes are represented by existing supplier cards. This enables you to quickly assign invoice discount terms to suppliers by picking the name of another suppliers who will have the same terms.
+    > Invoice discount codes are represented by existing supplier cards. This enables you to quickly assign invoice discount terms to suppliers by picking the name of another suppliers who will have the same terms.
 
     Proceed to set up new the purchase invoice discount terms.
 4. On the **Supplier Card** page, choose the **Invoice Discounts** action. The **Vend. Invoice Discounts** page opens.
@@ -83,9 +87,10 @@ When your suppliers have informed you which invoice discounts they grant, enter 
 7. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
 8. Repeat steps 5 through 7 for each currency that the supplier will receive a different invoice discount for.
 
-The invoice discount is now set up and assigned to the supplier in question. When you select the supplier code in the **Invoice Disc. Code** field on other supplier cards, the same invoice discount is assigned to those supplier.
+The invoice discount is now set up and assigned to the supplier in question. When you select the vendor code in the **Invoice Disc. Code** field on other vendor cards, the same invoice discount is assigned to those vendors.
 
-## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>To choose a principle for posting purchase discounts  
+## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>To choose a principle for posting purchase discounts
+
 When you post a purchase invoice that includes one or more discounts, you can choose between two principles for posting discount amounts. You can post discounts separately or you can subtract discounts from invoice discounts.  
 
 Before you can do this, you must have already set up the necessary accounts for posting discount amounts in the chart of accounts. You must also check that you have entered the correct account numbers in the general posting setup in the **Purch. Line Disc. Account** and **Purch. Inv. Disc. Account** fields.
@@ -100,29 +105,31 @@ Before you can do this, you must have already set up the necessary accounts for 
 |**Line Discounts**|Subtracted|Posted separately|  
 |**No Discounts**|Subtracted|Subtracted|  
 
-## <a name="purchase-invoice-discounts-and-service-charges"></a>Purchase Invoice Discounts and Service Charges
-If you have fixed terms for invoice discounts with any suppliers, you can enter them for those suppliers. Then the discount will be calculated when you fill in a purchase invoice.  
+## <a name="purchase-invoice-discounts-and-service-charges"></a>Purchase invoice discounts and service charges
 
- Before you can use invoice discounts with purchases, you must specify the suppliers that offer you the discounts.  
+If you have fixed terms for invoice discounts with any vendors, you can enter them for those vendors. Then the discount will be calculated when you fill in a purchase invoice.  
 
- You link discount percentages to specific invoice amounts in **Vend. Invoice Discounts** pages. You can enter any number of percentages in each page. Each supplier can have its own page, or you can link several suppliers to the same page.  
+Before you can use invoice discounts with purchases, you must specify the suppliers that offer you the discounts.  
 
- In addition to a discount percentage, you can link a service charge amount to a specific invoice amount.  
+You link discount percentages to specific invoice amounts in **Vend. Invoice Discounts** pages. You can enter any number of percentages in each page. Each supplier can have its own page, or you can link several suppliers to the same page.  
 
- You can define the terms of the invoice discount in LCY for domestic suppliers and in foreign currency for foreign suppliers.  
+In addition to a discount percentage, you can link a service charge amount to a specific invoice amount.  
 
- You can choose to have [!INCLUDE[prod_short](includes/prod_short.md)] automatically calculate the invoice discounts for quotes, blanket orders, orders, invoices, or credit memos.  
+You can define the terms of the invoice discount in LCY for domestic suppliers and in foreign currency for foreign suppliers.  
+
+You can choose to have [!INCLUDE[prod_short](includes/prod_short.md)] automatically calculate the invoice discounts for quotes, blanket orders, orders, invoices, or credit memos.  
 
 > [!TIP]  
->  Before you enter this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which suppliers can be linked to the same invoice discount page. The fewer pages that you have to set up, the faster that you can enter the basic information.
+> Before you enter this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which suppliers can be linked to the same invoice discount page. The fewer pages that you have to set up, the faster that you can enter the basic information.
 
-## <a name="best-price-calculation"></a>Best Price Calculation
+## <a name="best-price-calculation"></a>Best price calculation
+
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[prod_short](includes/prod_short.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines.
 
-The best price is the lowest permissible price with the highest permissible line discount on a given date. [!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates this when it inserts the unit price and the line discount percentage for items on new document and journal lines.
+The best price is the lowest permissible price with the highest permissible line discount on a given date. [!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates this price when it inserts the unit price and the line discount percentage for items on new document and journal lines.
 
 > [!NOTE]  
->   The following describes how the best price is calculated for sales. The calculation is the same for purchases.
+> The following describes how the best price is calculated for sales. The calculation is the same for purchases.
 
 1. [!INCLUDE[prod_short](includes/prod_short.md)] checks the combination of the bill-to customer and the item and then calculates the applicable unit price and line discount percentage, using the following criteria:
 
@@ -138,12 +145,12 @@ The best price is the lowest permissible price with the highest permissible line
 
 If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/set-up-prices-discounts-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a>See also 
+
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

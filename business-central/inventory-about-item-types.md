@@ -11,12 +11,12 @@ ms.search.keywords: ''
 ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8beaa37b20acbbad54b46e231a5c60694f7a7d75
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c397de29bf2d2c23d5fedb9f3566ebd0e62dd183
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518084"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144093"
 ---
 # <a name="about-item-types"></a>About Item Types
 In the **Type** field on the **Item Card** page, you can select what the item is used for in your business, which affects the degree to which you can manage the item in inventory. The following table lists and describes the three types of items that are available.
@@ -32,11 +32,11 @@ In the **Type** field on the **Item Card** page, you can select what the item is
 
 The following table lists the features that the three item types support.
 
-|Item Type|Sales|Purchasing|Job Consumption|Service Consumption|Assembly Consumption|Production Consumption|Assembly Output|Production Output|Location Transfer|Physical Counting|Inventory Revaluation|Inventory Costing|Item Tracking|Reservation|Warehousing|Planning|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|Non-Inventory|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|
-|Service|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|
+|Item Type|Sales|Purchasing|Job Consumption|Service Consumption|Assembly Consumption|Production Consumption|Assembly Output|Production Output|Location Transfer|Physical Counting|Inventory Revaluation|Inventory Costing|Item Tracking|Reservation|Warehousing|Planning|Order Planning|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+|Non-Inventory|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|Yes|
+|Service|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|Yes|
 
 ## <a name="costing-methods-for-types-of-items"></a>Costing Methods for Types of Items
 When you post inventory transactions, the quantity and value changes to the inventory are recorded in the item ledger entries and the value entries, respectively. 

@@ -9,24 +9,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: c07a3cfc9807ddcb78a97dc342013ff6e498fee7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 268bb46b6f5949d2816111eed7fb7a09150dd974
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518448"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129991"
 ---
 # <a name="set-up-workflows"></a>Set Up Workflows
 
 You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps. For more information, see [Use Workflows](across-use-workflows.md).  
 
- Before you begin to use workflows, you must set up workflow users and approval users, specify how users receive notifications about workflow steps, and then create the workflows, potentially preceded by code customisation.  
+Before you begin to use workflows, you must set up workflow users and approval users, specify how users receive notifications about workflow steps, and then create the workflows.  
 
- On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.  
+On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.  
 
- If a business scenario requires a workflow event or response that is not supported, a Microsoft partner must implement them through code, or you can set up a workflow using Power Automate. For more information, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] in an Automated Workflow](across-how-use-financials-data-source-flow.md) or [Events in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) in the developer help, respectively.
+[!INCLUDE[workflow](includes/workflow.md)]
 
- The following table describes a sequence of tasks, with links to the topics that describe them.  
+The following table describes a sequence of tasks, with links to the articles that describe them.  
 
 |**To**|**See**|  
 |------------|-------------|  
@@ -34,24 +34,28 @@ You can set up and use workflows that connect business-process tasks performed b
 |Set up workflow users who take part in approval workflows.|[Set Up Approval Users](across-how-to-set-up-approval-users.md)|  
 |Specify how workflow users are notified of workflow steps, including approval requests.|[Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)|  
 |Specify if users are notified by email or note and how often notifications are sent.|[Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
-|Customise the content of the email notification by modifying report 1320, Notification Email.|[Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)|  
+|Customise the content of the email notification by modifying Report 1320, Notification Email.|[Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)|  
 |Set up an SMTP server to enable email communication in and out of [!INCLUDE[prod_short](includes/prod_short.md)]|[Set up Email](admin-how-setup-email.md)|
-|Specify the different steps of a workflow by connection workflow events with workflow responses.|[Create Workflows](across-how-to-create-workflows.md)|  
+|Specify the different steps of a workflow by connecting workflow events with workflow responses.|[Create Workflows](across-how-to-create-workflows.md)|  
 |Use workflow templates to create new workflows.|[Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)|  
 |Share workflows with other [!INCLUDE[prod_short](includes/prod_short.md)] databases.|[Export and Import Workflows](across-how-to-export-and-import-workflows.md)|  
 |Learn how to set up a workflow for approving sales documents by following an end-to-end procedure.|[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a>Example of an Approval Workflow
-This video shows how to set up an workflow that will require someone to request someone else's approval before they can change information about an existing customer, or create a new customer.  
+## <a name="example-of-an-approval-workflow"></a>Example of an approval workflow
+
+This video shows how to set up a workflow that will require a user to request someone else's approval before they can change information about an existing customer or create a new customer.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-also"></a>See Also  
- [Use Workflows](across-use-workflows.md)   
- [Workflow](across-workflow.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
- [Work with Business Central](ui-work-product.md)
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+
+## <a name="see-also"></a>See also 
+
+[Use Workflows](across-use-workflows.md)  
+[Workflow](across-workflow.md)  
+[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Work with Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ab7d131e965b0698c6e33a0b1a43c8f408a7b1b2
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075089"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129910"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows in Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports 
 
 * Automated approval workflows based on built-in workflow templates  
 
-  On the **Workflow Templates** page, you can see all available workflows. The trial version of [!INCLUDE[prod_short](includes/prod_short.md)] includes a number of pre-configured workflows represented by workflow templates that you can copy to create workflows. When you open a workflow template from the **Workflow Templates** page, and the workflow's name starts with *MS-*, then the workflow template is added by Microsoft.  
+  On the **Workflow Templates** page, you can see all available workflows. The trial version of [!INCLUDE[prod_short](includes/prod_short.md)] includes many pre-configured workflows represented by workflow templates that you can copy to create workflows. When you open a workflow template from the **Workflow Templates** page, and the workflow's name starts with *MS-*, then the workflow template is added by Microsoft.  
 * Automated flows that you set up yourself  
 
   Any workflow template that you create with Power Automate is added to the list of workflow templates within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Use Business Central in Power Automate Flows](across-how-use-financials-data-source-flow.md).  
@@ -32,15 +32,15 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports 
 
 ## <a name="power-automate-flows"></a>Power Automate flows
 
-For [!INCLUDE [prod_short](includes/prod_short.md)] online, you can sign up for Power Automate and then build powerful automated flows that you can run from inside [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate Flows](across-how-use-financials-data-source-flow.md).  
+Using [!INCLUDE [prod_short](includes/prod_short.md)] online, you can sign up for Power Automate and then build powerful automated flows that you can run from inside [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate Flows](across-how-use-financials-data-source-flow.md).  
 
 ## <a name="automated-approval-workflows"></a>Automated approval workflows
 
 You create an approval workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.  
 
-If a business scenario requires a workflow event or response that is not supported in the default version, sign up for Power Automate. For more information, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate Flows](across-how-use-financials-data-source-flow.md). Alternatively, get an app or work with a Microsoft partner to customise the application code.  
+[!INCLUDE[workflow](includes/workflow.md)]
 
-To set up and use workflows that are not defined in Power Automate, check the following articles:  
+To set up and use workflows that aren't defined in Power Automate, check the following articles:  
 
 |**To**|**See**|  
 |------------|-------------|  

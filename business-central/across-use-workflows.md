@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: b7e6574567e07b42187d3e33cfbf7f99e13096f8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4f66b334df678ff27e094858dd0cec44c1bb8e75
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077378"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130234"
 ---
 # <a name="use-workflows"></a>Use Workflows
 
 A workflow is a sequence of tasks that are triggered by an action, a condition or a rule. Workflows are usually implemented to integrate business logic to an organisation, such as the separation of duties, unifying processes, or to increase trust and responsibilities.  
 
-The workflows are designed to create requests for approval of a new value while keeping the old value in case the request is not approved. The new value will not be implemented until the last request is approved.  
+The workflows are designed to create requests for approval of a new value while keeping the old value in case the request isn't approved. The new value won't be implemented until the last request is approved.  
 
 The business logic could be approval of:
 
@@ -37,7 +37,7 @@ The following illustration shows an example of a workflow with sequential approv
 
 ![Illustration of a workflow with sequential approval.](media/Workflows/approval-flow.png)
 
-In this example, the request must be approved by the first approver before the request is sent on to the next approver. If the request is not approved by the first approver, the request will never go to the next approver.  
+In this example, the request must be approved by the first approver before the request is sent on to the next approver. If the request isn't approved by the first approver, the request will never go to the next approver.  
 
 The route taken from the initial triggering of the workflow can vary depending on the nature of the approval.  
 
@@ -45,29 +45,29 @@ The following illustration shows a parallel approval that is triggered by the us
 
 ![Illustration of a workflow with parallel approval.](media/Workflows/approval-flow-2.png)
 
-However, the workflow is not approved until all requests have been approved by the approvers, as shown in the following illustration:  
+However, the workflow isn't approved until all requests have been approved by the approvers, as shown in the following illustration:  
 
 ![Illustration of a rejected workflow with parallel approval.](media/Workflows/approval-flow-3.png)
 
 > [!NOTE]  
 > It is not possible to create a workflow with multiple approvers and expect the whole workflow to be approved after the first request has been approved. All requests must be approved for the workflow to be approved.
 
-You can set up and use workflows that connect business-process tasks performed by different users. It is also possible to create the same workflow more than once. Each workflow triggered by en event using different filters. This is useful if an approval request in one department must be approved by one approver, where approval requests in other departments must be approved by another approver. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  
+You can set up and use workflows that connect business-process tasks performed by different users. It's also possible to create the same workflow more than once. Each workflow can be triggered by an event using different filters. This is useful if an approval request in one department must be approved by one approver, while approval requests in other departments must be approved by another approver. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  
 
- Before you can begin to use workflows, you must set up workflow users, create the workflows, potentially preceded by code customisation and specify how users receive notifications. For more information, see [Setting Up Workflows](across-set-up-workflows.md).  
+Before you can begin to use workflows, you must set up workflow users, create the workflows, potentially preceded by code customisation and specify how users receive notifications. For more information, see [Setting Up Workflows](across-set-up-workflows.md).  
 
 > [!NOTE]  
 > Typical workflow steps are about users who request approval of tasks and approvers accepting or rejecting approval requests. Therefore, many topics about how to use workflows refer to approvals.  
 
- The following table describes a sequence of tasks, with links to the topics that describe them.  
+ The following table describes a sequence of tasks, with links to the articles that describe them.  
 
 |**To**|**See**|  
 |------------|-------------|  
 |Set a workflow to start when the first entry-point event occurs.|[Enable Workflows](across-how-to-enable-workflows.md)|  
 |Request approval of a task, as an approver, accept, decline, or delegate approvals, and send or view approval notifications.|[Use Approval Workflows](across-how-use-approval-workflows.md)|  
 |Create workflow steps that restrict a certain record type from being used before a certain event occurs, for example that the record is approved.|[Restrict and Allow Usage of a Record](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|View workflow step instances of status Completed.|[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)|  
-|Delete a workflow that you are sure will no longer be used.|[Delete Workflows](across-how-to-delete-workflows.md)|  
+|View workflow step instances of status **Completed**.|[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)|  
+|Delete a workflow that you're sure will no longer be used.|[Delete Workflows](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-workflows/)
 

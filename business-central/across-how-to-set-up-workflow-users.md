@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 57d106918230007484f37979b416d44277c86035
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 187ff9bad2fb8bf320872759115e98b326b689c8
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075141"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130207"
 ---
 # <a name="set-up-workflow-users"></a>Set Up Workflow Users
 
@@ -40,7 +40,7 @@ Workflow users that function as approval users, both approval requestors and app
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**User Name**|Specify the user who will take part in workflows.<br /><br /> The user must exist on the **User Setup** page. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).|  
-    |**Sequence No.**|Specify the order in which the workflow user engages in a workflow relative to other users. This field can be used, for example, to specify when the user approves relative to other approvers when you use the **Workflow User Group** option in the **Approver Type** field on the related workflow response. **TIP:**  To define that an approval request is not approved until multiple equal approvers have approved it, irrespective of a hierarchy, set up a flat workflow user group by assigning the same sequence number to the relevant approvers.|  
+    |**Sequence No.**|Specify the order in which the workflow user engages in a workflow relative to other users. This field can be used, for example, to specify when the user approves relative to other approvers when you use the **Workflow User Group** option in the **Approver Type** field on the related workflow response.<br /><br /> **TIP:** To define that an approval request requires that multiple equal users have approved it, irrespective of a hierarchy, set up a flat workflow user group by assigning the same sequence number to the relevant approvers.|  
 6. Repeat step 5 to add more workflow users to the user group.  
 7. Repeat steps 2 through 6 to add more workflow user groups.  
 

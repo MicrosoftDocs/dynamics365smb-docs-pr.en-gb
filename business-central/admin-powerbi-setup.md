@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2021
+ms.date: 07/13/2022
 ms.author: jswymer
-ms.openlocfilehash: c893513098d5078995e6cab09abcf0d2e0bb2769
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 5be0366c2d26e809e966844fc6851cfc5d9e29b7
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950363"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144309"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Enabling Power BI Integration With [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -31,24 +31,24 @@ With [!INCLUDE[prod_short](includes/prod_short.md)], users get a free Power BI l
 
 For more information, see [Licensing the Power BI service for users in your organisation](/power-bi/admin/service-admin-licensing-organization) or [Sign up for the Power BI service as an individual](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="expose-data-through-api-pages-or-odata-web-services"></a><a name="exposedata"></a>Expose data through API pages or OData web services
+## <a name="expose-data-through-api-or-odata-web-services"></a><a name="exposedata"></a>Expose data through API or OData web services
 
-Business Central offers two ways to expose data that can be consumed by Power BI reports: API pages and Open Data Protocol (OData) web services.
+Business Central offers two ways to expose data that can be consumed by Power BI reports: API pages or queries, and Open Data Protocol (OData) web services.
 
-### <a name="api-pages"></a>API pages
+### <a name="api-pages-and-queries"></a>API pages and queries
 
-> **APPLIES TO:** Business Central online only 
+> **APPLIES TO:** Business Central online only
 
-An API page is a specific page type created in AL code that provides access to database tables through a webhook-supported, OData v4-enabled, REST service. This type of page can't be displayed in the user interface, but is intended for building reliable integration services.
+Developers can define page objects and query objects that are of the type *API*. This way, they can expose data from database tables through a webhook-supported, OData v4-enabled, REST service. This type of data can't be displayed in the user interface, but is intended for building reliable integration services.
 
 Business Central online comes available with a set of built-in APIs, which you can use to get data for the most common business entities, like customers, items, sales orders, and more. No extra work or setup is required to use these APIs as a data source for Power BI reports. For more information about these APIs, see [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
 
-Business Central online also supports custom APIs. Application developers of Business Central solutions can create their own API pages and package them into extensions. You then install the extensions on your tenant. Once installed, you use the API pages for your Power BI reports, like you'd do with the built-in APIs (v2.0). For more information about how to create API pages, see [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+Business Central online also supports custom APIs. Application developers of Business Central solutions can create their own API pages and queries and package them into apps. You then install the apps on your tenant. Once installed, you use the API pages for your Power BI reports, like you'd do with the built-in APIs (v2.0). For more information about how to create an API by exposing pages or queries, see [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
 
 > [!IMPORTANT]
-> Starting in February 2022, Power BI reports for [!INCLUDE[prod_short](includes/prod_short.md)] online are sourced from a secondary, read-only database replica for performance reasons. As a consequence, AL developers should avoid designing API pages that make database modifications while the pages are opening or loading records. In particular, consider the code on the AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord, and OnAfterGetCurrRecord. These database modifications, in some cases, may cause performance problems and prevent the report from refreshing data. For more information, see [Performance Articles For Developers](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) in the Business Central development help.
+> Starting in February 2022, Power BI reports for [!INCLUDE[prod_short](includes/prod_short.md)] online are sourced from a secondary, read-only database replica for performance reasons. As a consequence, AL developers should avoid designing API pages that make database modifications while the pages are opening or loading records. In particular, consider the code on the AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord, and OnAfterGetCurrRecord. These database modifications, in some cases, may cause performance problems and prevent the report from refreshing data. For more information, see [Performance Articles For Developers](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) in the Business Central development content.
 >
-> In rare cases, the behaviour will cause an error when a user tries get data from the API page for a report in Power BI Desktop. However, if database modifications are necessary in the custom API page, Power BI Desktop users can force the behaviour. For more information, see [Building Power BI Reports to Display Business Central Data](across-how-use-financials-data-source-powerbi.md#fixing-problems).
+> In rare cases, the behaviour will cause an error when a user tries get data from the API for a report in Power BI Desktop. However, if database modifications are necessary in the custom API, Power BI Desktop users can force the behaviour. For more information, see [Building Power BI Reports to Display Business Central Data](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
 ### <a name="odata-web-services"></a>OData web services
 
@@ -94,7 +94,7 @@ This section explains the requirements for a [!INCLUDE[prod_short](includes/prod
 
     Before end-users can use Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], an Azure application administrator will have to give consent to the Power BI service.
 
-    To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the role centre. This action will lead you through the consent process, and check your Power BI licence. When prompted sign in using an Azure admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).
+    To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the Home page. This action will lead you through the consent process, and check your Power BI licence. When prompted sign in using an Azure admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).
 
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)

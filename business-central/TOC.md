@@ -440,7 +440,7 @@
 ### [Sell Products](sales-how-sell-products.md)
 ### [Print the Picking List](sales-how-print-picking-list.md)
 ### [Post Sales](ui-post-sales.md)
-### [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
+### [Create Recurring Sales Lines](sales-how-work-standard-lines.md)
 ### [Make Drop Shipments](sales-how-drop-shipment.md)
 ### [Create Special Orders](sales-how-to-create-special-orders.md)
 ### [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
@@ -472,9 +472,9 @@
 ### [Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)
 ### [External Document Numbers on Purchase Documents](purchasing-ext-doc-no.md)
 ### [Enter External Document Numbers](across-enter-external-document-numbers.md)
+### [Create Recurring Purchase Lines](purchasing-how-work-recurring-purchase-lines.md)
 
-
-## Stock
+## Inventory
 ### [Stock Overview](inventory-manage-inventory.md)
 ### [Stock and Warehouse Reports](inventory-WMS-reports.md)
 ### [Register New Items](inventory-how-register-new-items.md)
@@ -1472,6 +1472,7 @@
 #### [Set Up Sales](sales-setup-sales.md)
 #### [Register New Customers](sales-how-register-new-customers.md)
 #### [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md)
+#### [Set Up Prices and Discounts](across-prices-and-discounts.md)
 #### [Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Set Up Customer Price Groups](sales-how-to-set-up-customer-price-groups.md)
 #### [Set Up Customer Discount Groups](sales-how-to-set-up-customer-discount-groups.md)
@@ -1483,9 +1484,11 @@
 ### Set Up Purchasing
 #### [Set Up Purchasing](purchasing-setup-purchasing.md)
 #### [Register New Suppliers](purchasing-how-register-new-vendors.md)
-#### [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Set Up Vendor Bank Accounts](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Prioritise Suppliers](purchasing-how-prioritize-vendors.md)
 #### [Set Up Purchasers](purchasing-how-setup-purchasers.md)
+#### [Set Up Prices and Discounts](across-prices-and-discounts.md)
+#### [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### Set Up Inventory
 #### [Set Up Stock](inventory-setup-inventory.md)
 #### [Set Up General Stock Information](inventory-how-setup-general.md)
@@ -1772,6 +1775,7 @@
 ### [Manage User Settings and Preferences](admin-manage-user-settings-preferences.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)
 ### [Classify Data Sensitivity](admin-classifying-data-sensitivity.md)
+### [Privacy Notices Status](privacy-notices-status.md)
 ### [Respond to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
 ### [Create New Companies](about-new-company.md)
 ### [Log Changes](across-log-changes.md)

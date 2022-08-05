@@ -1,6 +1,6 @@
 ---
 title: How to View Archived Workflow Step Instances
-description: All completed workflow step instances are saved on the **Archived Workflow Step Instances** page. Each step consists of a workflow event and workflow response.
+description: All completed workflow step instances are saved on the Archived Workflow Step Instances page. Each step consists of a workflow event and workflow response.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,36 +9,39 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 99f6507eccebc91c9f530e05ad95ae4b23d5e1e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1913b943cd899fe0903d64da6214225787b002a
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523108"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129883"
 ---
 # <a name="view-archived-workflow-step-instances"></a>View Archived Workflow Step Instances
+
 All completed workflow step instances are saved on the **Archived Workflow Step Instances** page.  
 
- On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
+On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
-## <a name="to-view-archived-workflow-step-instances"></a>To view archived workflow step instances  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
-2.  Open the workflow for which you want to view all archived workflow step instances.  
-3.  On the **Workflow** page, choose the **Archived Workflow Step Instances** action.  
+## <a name="to-view-archived-workflow-step-instances"></a>To view archived workflow step instances
 
-    The **Archived Workflow Step Instances** page opens showing the archived workflow step instances of the selected workflow.  
-4.  Alternatively, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archived Workflow Step Instances**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+2. Open the workflow for which you want to view all archived workflow step instances.  
+3. On the **Workflow** page, choose the **Archived Workflow Step Instances** action.  
 
-The **Archived Workflow Step Instances** page opens showing all archived workflow step instances. In the **Workflow Code** field, you can see which workflow the archived workflow step instance belonged to.  
+   The **Archived Workflow Step Instances** page opens showing the archived workflow step instances of the selected workflow.  
+4. Alternatively, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archived Workflow Step Instances**, and then choose the related link.  
 
-## <a name="see-also"></a>See Also  
- [Delete Workflows](across-how-to-delete-workflows.md)   
- [Create Workflows](across-how-to-create-workflows.md)   
- [Enable Workflows](across-how-to-enable-workflows.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Setting Up Workflows](across-set-up-workflows.md)   
- [Use Workflows](across-use-workflows.md)   
- [Workflow](across-workflow.md)
+   The **Archived Workflow Step Instances** page opens showing all archived workflow step instances. In the **Workflow Code** field, you can see which workflow the archived workflow step instance belonged to.  
+
+## <a name="see-also"></a>See also 
+
+[Delete Workflows](across-how-to-delete-workflows.md)  
+[Create Workflows](across-how-to-create-workflows.md)  
+[Enable Workflows](across-how-to-enable-workflows.md)  
+[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Setting Up Workflows](across-set-up-workflows.md)  
+[Use Workflows](across-use-workflows.md)  
+[Workflow](across-workflow.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
