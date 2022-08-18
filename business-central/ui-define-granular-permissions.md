@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
-ms.date: 05/09/2022
+ms.date: 07/27/2022
 ms.author: edupont
-ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 2b5bba12afb2fbb05dbfd3240088c2726f5d8337
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729849"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227507"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Assign Permissions to Users and Groups
 
@@ -82,6 +82,10 @@ To quickly define a new user group, you can copy all permission sets from an exi
 3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
 
 The new user group is added to the **User Groups** page. Proceed to add users. For more information, see the [To add users to a user group](#to-add-users-to-a-user-group) section.  
+
+> [!IMPORTANT]
+> You'll get a validation error if you're trying to assign a user group to the user that refers to a permission set which was defined in an uninstalled extension. It's because the App ID of the extension is validated whenever it's referenced. To assign that user group to a user, you can either re-install the extension, remove the reference of the uninstalled extension from the permission set, or remove that permission set from the user group.
+
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>To assign permission sets to user groups
 
@@ -179,7 +183,7 @@ Permission sets function as containers of permissions, so that you can easily ma
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
 2. To create a new permission set, choose the **New** action.
-3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] When you have created a permission set, you must add the actual permissions. For more information, see [To create or modify permissions manually](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
+3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] When you've created a permission set, you must add the actual permissions. For more information, see [To create or modify permissions manually](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
 ### <a name="to-copy-a-permission-set"></a>To copy a permission set
 
