@@ -1,18 +1,18 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 07/14/2021
+ms.date: 08/16/2022
 ms.author: edupont
-ms.openlocfilehash: 78a4f013ea7afd54fdbca64c8712be58a920cca1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6b39504ecbed35bae4dea2afa5eedba816821b89
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135783"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317415"
 ---
 To subscribe to a Really Simple Syndication (RSS) feed of all updates that are to the business functionality content on docs.microsoft.com for [!INCLUDE [prod_short](prod_short.md)], use the following link:
 
 [RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-bc-app%27)&locale=en-us)
 
 > [!NOTE]
-> The RSS feed returns a list of the 100 articles most recently updated. The list is not sorted by date.  
+> The RSS feed returns a list of the 100 articles most recently updated. The list is sorted by date, but it can take up to a week before the most recently updated articles make it to the list.  

@@ -665,6 +665,7 @@
 ### [Synchronise items with Shopify](shopify/synchronize-items.md)
 ### [Synchronise customers with Shopify](shopify/synchronize-customers.md)
 ### [Synchronise and fulfil sales orders with Shopify](shopify/synchronize-orders.md)
+### [Set up taxes for the Shopify connection](shopify/setup-taxes.md)
 ### [Run tasks in background](shopify/background.md)
 ### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify connector](shopify/shopify-faq.md)

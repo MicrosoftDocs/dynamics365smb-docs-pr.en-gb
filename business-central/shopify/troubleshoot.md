@@ -1,18 +1,18 @@
 ---
 title: Troubleshooting the Shopify and Business Central synchronisation
 description: Learn what to do if something went wrong during the synchronisation of data between Shopify and Business Central
-ms.date: 05/16/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: bebdf73fd1b01a3c750a3d91496a8f5bb87f8db4
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 4ccbe8ac97eba568ff82d965f24b86ab58c95f81
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129648"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317253"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Troubleshooting the Shopify and Business Central Synchronisation
 
@@ -86,6 +86,16 @@ The following procedures describe how to to rotate the access token used by the 
 2. Select the shop for which you want to rotate the access token to open the **Shopify Shop Card** page.
 3. Choose the **Request Access** action.
 4. If prompted, sign-in into your Shopify account, review privacy and permissions, and then choose the **Install App** button.
+
+## <a name="known-issues"></a>Known issues
+
+### <a name="gen-bus-posting-group-must-have-a-value-in-customer-it-cannot-be-zero-or-empty"></a>Gen. Bus. Posting Group must have a value in Customer. It cannot be zero or empty.
+
+Fill in the **Customer Template Code** field on the **Shopify Shop Card** window with the template that has **Gen. Bus. Posting Group** populated. Customer template is used not only for creation of customers, but also for calculation of sales price and during creation of sales documents.
+
+### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Importing data to your Shopify shop isn't enabled. Go to the shop card to enable it.
+
+On the **Shopify Shop Card** window, turn on the **Allow Data Sync to Shopify** toggle.  This toggle is intended to protect the online shop from getting demo data from [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="see-also"></a>See also 
 

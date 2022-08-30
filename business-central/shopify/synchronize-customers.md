@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: c5a77e5258f4d70a35a1751ff01dc210210b3a6e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0c1402c4f41f108b504ad31829ede5a1095b6ce4
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077795"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317334"
 ---
 # <a name="synchronize-customers"></a>Synchronise Customers
 
@@ -47,7 +47,7 @@ Either you import customers from Shopify in bulk or together with the import of 
 |**Customer Mapping Type**|Define how you want the connector to perform the mapping.<br>- **By Email/Phone** if you want the connector to map the imported Shopify customer to an existing customer in [!INCLUDE[prod_short](../includes/prod_short.md)] using email and phone.</br>- **By Bill-to Info** if you want the connector to map the imported Shopify customer to an existing customer in [!INCLUDE[prod_short](../includes/prod_short.md)] using the address information of the party that receives the invoice.</br>Select **Always Take the Default Customer** if you want the system to use a customer from the **Default Customer No.** field. |
 |**Shopify Can Update Customers**| Select if you want the connector to update customers that are found, when **By Email/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field.|
 |**Auto Create Unknown Customers**| Select if you want the connector to create missing customers, when the **By Email/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field. A new customer will be created using imported data and the **Customer Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages. Notice that the Shopify customer must have at least one address. If this option isn't enabled, you'll need to create a Customer manually and link it to the Shopify customer. You can always initiate creation of a customer manually from the **Shopify Order** page.|
-|**Customer Template Code**|Used together with **Auto Create Unknown Customers**.<br> Choose the default template to be used for automatically created customers. Make sure that the selected template contains the mandatory fields, such as the **Gen. Business Posting Group**, **Customer Posting Group**, VAT or Tax related fields.<br> You can define templates per country/region in the **Shopify Customer Templates** page, which is useful for proper VAT calculation. For more information, see [VAT Remarks](synchronize-orders.md#tax-remarks).|
+|**Customer Template Code**|Used together with **Auto Create Unknown Customers**.<br> Choose the default template to be used for automatically created customers. Make sure that the selected template contains the mandatory fields, such as the **Gen. Business Posting Group**, **Customer Posting Group**, VAT or Tax related fields.<br> You can define templates per country/region in the **Shopify Customer Templates** page, which is useful for proper VAT calculation. <br>For more information, see [Tax Setup](setup-taxes.md).|
 
 ### <a name="customer-template-per-country"></a>Customer template per country
 
@@ -57,7 +57,8 @@ The **Shopify Customer Template** lets you do following for each country:
 
 1. Specify the **Default Customer No.**, which takes priority over the selection in the **Customer Import from Shopify** and **Customer Mapping Type** fields. It's used in the imported sales order.
 2. Define the **Customer Template Code**, which is used to create missing customers if **Auto Create Unknown Customers** is enabled. If the **Customer Template Code** is empty, then the function uses the **Customer Template Code** defined on the **Shopify Shop Card**.
-3. In some cases, **Customer Template Code** defined for country isn't enough to ensure right calculation of VAT. For example, for countries with sales tax. In this case, the **VAT Areas** could be a useful addition.
+3. Define whether prices include tax/VAT for imported orders.
+4. In some cases, **Customer Template Code** defined for country isn't enough to ensure right calculation of VAT. For example, for countries with sales tax. In this case, the **VAT Areas** could be a useful addition.
 
 > [!NOTE]  
 > The country codes are ISO 3166-1 alpha-2 country codes. For more information, see [Country Code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -68,7 +69,7 @@ Existing customers can be exported to Shopify in bulk. As a result, a customer a
 
 |Field|Description|
 |------|-----------|
-|**Export customers to Shopify**|Select if you plan to export all customers with a valid e-mail address from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify in bulk; either manually, using the **Sync Customers** action, or via a job queue for recurring updates.|
+|**Export customers to Shopify**|Select if you plan to export all customers with a valid e-mail address from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify in bulk; either manually, using the **Sync Customers** action, or via a job queue for recurring updates.<br> When exporting customers with provinces/counties, make sure that **ISO Code** is filled in for countries/regions.|
 |**Can update Shopify Customers**|Used together with the **Export customer to Shopify** setting. Enable it if you want to generate updates later from [!INCLUDE[prod_short](../includes/prod_short.md)] for customers that already exist in Shopify.|
 
 > [!NOTE]  
