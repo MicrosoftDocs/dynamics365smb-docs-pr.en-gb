@@ -17,7 +17,7 @@ ms.lasthandoff: 03/31/2022
 ms.locfileid: "8519525"
 ---
 # <a name="use-word-templates-for-bulk-communication"></a>Use Word Templates for Bulk Communication
-Microsoft Word templates can make it easier to mass communicate in print or email with entities such as contacts, customers, and suppliers. For example, you can create brochures to alert customers about a sales campaign, letters to inform suppliers about a new purchasing policy, or invitations to attract contacts to an upcoming event.
+Microsoft Word templates can make it easier to mass communicate in print or email with entities such as contacts, customers, and vendors. For example, you can create brochures to alert customers about a sales campaign, letters to inform vendors about a new purchasing policy, or invitations to attract contacts to an upcoming event.
 
 > [!NOTE]
 > You can use Word templates only on devices with Microsoft Word 2019 and the Windows operating system installed.

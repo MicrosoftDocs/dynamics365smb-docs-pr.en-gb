@@ -85,7 +85,7 @@ To specify setup time on the routing for planning but not include this expense i
 On a single-level basis, this is the labour cost that is required to produce the finished production item and is specified on the production item's routing. On a multi-level basis, this is the capacity cost that is specified for each individually produced item that is included in the parent item's BOM.  
 
 ### <a name="subcontractor-costs"></a>Subcontractor Costs  
-Subcontractor costs are the costs that are associated with services that are provided by a company's outside suppliers or subcontractors. Similar to material and capacity, subcontractor costs can consist of both direct and overhead amounts. Direct subcontractor cost represents the actual charge for each unit of services that is provided. For example, overhead subcontractor cost can represent freight and handling costs that are incurred by the company with a subcontracted order.  
+Subcontractor costs are the costs that are associated with services that are provided by a company's outside vendors or subcontractors. Similar to material and capacity, subcontractor costs can consist of both direct and overhead amounts. Direct subcontractor cost represents the actual charge for each unit of services that is provided. For example, overhead subcontractor cost can represent freight and handling costs that are incurred by the company with a subcontracted order.  
 
 Because subcontracting is an outsourced capacity, you set up the cost of both direct and indirect subcontracting services on the work centre card that represents the subcontracting operation.  
 

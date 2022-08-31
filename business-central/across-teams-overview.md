@@ -28,9 +28,9 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 
 The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams offers the following features.
 
-### <a name="look-up-details-of-customers-vendors-and-other-contacts"></a>Look up details of customers, suppliers, and other contacts
+### <a name="look-up-details-of-customers-vendors-and-other-contacts"></a>Look up details of customers, vendors, and other contacts
 
-No matter where you are in Teams, you can look up details about customers, suppliers, and other [!INCLUDE [prod_short](includes/prod_short.md)] contacts. This feature not only lets you view general information about contacts, but also gives access to interaction history, related documents, and more.
+No matter where you are in Teams, you can look up details about customers, vendors, and other [!INCLUDE [prod_short](includes/prod_short.md)] contacts. This feature not only lets you view general information about contacts, but also gives access to interaction history, related documents, and more.
 
  [![Look up Business Central contacts from Teams command box.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
@@ -69,7 +69,7 @@ For more information, see [Share Records and Page Links in Microsoft Teams](acro
 
 2. As an administrator, see [Managing Microsoft Teams Integration with Business Central](admin-teams-integration.md) for information about getting users set up to work with [!INCLUDE [prod_short](includes/prod_short.md)] and Teams.
 3. Install [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. See [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
-4. Once the app is installed, you're ready to go. See [Searching for Customers, Suppliers, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) and [Share Records in Microsoft Teams](across-working-with-teams.md).
+4. Once the app is installed, you're ready to go. See [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) and [Share Records in Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="see-also"></a>See Also
 

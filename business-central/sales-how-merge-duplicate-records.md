@@ -1,6 +1,6 @@
 ---
-title: Merge Duplicate Customer or Supplier Records
-description: Describes how to consolidate information about customers or suppliers when you have duplicate entries about some of them.
+title: Merge Duplicate Customer or Vendor Records
+description: Describes how to consolidate information about customers or vendors when you have duplicate entries about some of them.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -18,7 +18,7 @@ ms.locfileid: "9074492"
 ---
 # <a name="merge-duplicate-records"></a>Merge Duplicate Records
 
-As different users create new customer, supplier, or contact cards over time, or the new records are created automatically during migration, a customer, supplier, or contact may be represented in the system with more than one record. In this case, you can use the **Merge Duplicate** page from the card of the record that you want to keep. The page gives you an overview of duplicated field values and provides functions to select which values to keep or discard when merging two records into one.
+As different users create new customer, vendor, or contact cards over time, or the new records are created automatically during migration, a customer, vendor, or contact may be represented in the system with more than one record. In this case, you can use the **Merge Duplicate** page from the card of the record that you want to keep. The page gives you an overview of duplicated field values and provides functions to select which values to keep or discard when merging two records into one.
 
 > [!NOTE]
 > Only users with the MERGE DUPLICATES permission set can use this functionality.
@@ -26,7 +26,7 @@ As different users create new customer, supplier, or contact cards over time, or
 > [!TIP]
 > The **Merge Duplicate** page shows all fields where the values are different for the two records being compared. Therefore, a duplicate is indicated by the page showing very few fields. Whereas, if the page shows many fields, then the suspected record is probably not a duplicate.
 
-The following procedure is based on a customer card. The steps are similar for a supplier and contact cards.
+The following procedure is based on a customer card. The steps are similar for a vendor and contact cards.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Select the customer that you know or suspect that a duplicate record exists for, and then choose the **Edit** action.

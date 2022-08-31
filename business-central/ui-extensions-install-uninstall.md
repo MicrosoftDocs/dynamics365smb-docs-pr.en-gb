@@ -66,7 +66,7 @@ Microsoft provides the following extensions:
 * [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)
 * [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
 * [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
-* [Sales and Stock Forecast](ui-extensions-sales-forecast.md)
+* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
 * [VAT Group](ui-extensions-vat-group.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 * [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)

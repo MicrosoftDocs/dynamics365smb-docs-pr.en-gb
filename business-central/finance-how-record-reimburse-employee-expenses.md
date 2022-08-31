@@ -19,12 +19,12 @@ ms.locfileid: "8515148"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Record and Reimburse Employees' Expenses
 
-[!INCLUDE[prod_short](includes/prod_short.md)] supports transactions for employees in a similar way as for suppliers. Accordingly, employee posting groups exist to make sure that employee ledger entries are posted to the relevant accounts in the general ledger.
+[!INCLUDE[prod_short](includes/prod_short.md)] supports transactions for employees in a similar way as for vendors. Accordingly, employee posting groups exist to make sure that employee ledger entries are posted to the relevant accounts in the general ledger.
 
 > [!NOTE]  
 > Employee transactions can be posted in the local currency only. Reimbursement payments to employees do not support discounts and payment tolerances.
 
-If employees spend their own money during business activities, you can post the expense to the employee's account. Then you can reimburse the employee by making a payment to the employee's bank account, similarly to how you pay suppliers.  
+If employees spend their own money during business activities, you can post the expense to the employee's account. Then you can reimburse the employee by making a payment to the employee's bank account, similarly to how you pay vendors.  
 
 > [!TIP]
 > This article explains how to record the expense in the books and how to reimburse the employee. Your organisation may have a portal or app where employees can submit their expense reports.
@@ -59,7 +59,7 @@ You reimburse employees by posting payments to their bank account on the **Payme
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>To reconcile reimbursements with employee ledger entries
 
-You apply employee payments to their related open employee ledger entries in the same way as you do for supplier payments, for example on the **Payment Reconciliation Journal** page, based on the related bank statement entries. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply manually on the **Employee Ledger Entries** page. For more information, see the related [Reconcile Supplier Payments with the Payment Journal or from Supplier Ledger Entries](payables-how-apply-purchase-transactions-manually.md).  
+You apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments, for example on the **Payment Reconciliation Journal** page, based on the related bank statement entries. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply manually on the **Employee Ledger Entries** page. For more information, see the related [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>See Also
 

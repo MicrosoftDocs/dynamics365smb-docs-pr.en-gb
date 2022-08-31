@@ -106,18 +106,18 @@ The **Order Planning** page can be accessed from several different locations:
 
 5.  In the **Supply From** field, select one of the following options according to the selected replenishment system:  
 
-    -   **Supplier** – For purchases  
+    -   **Vendor** – For purchases  
     -   **Location** – For transfers  
 
      If the field is not filled in, an error message will display when you try to create the supply orders.  
 
     > [!NOTE]  
-    >  If the components have a default supplier number set up on the item cards, the lines will be preset.  
+    >  If the components have a default vendor number set up on the item cards, the lines will be preset.  
 
 6.  Choose the **Supply From**  field.  
-7.  On the **Item Supplier Catalogue** page, choose the **New** action, and then select supplier **30000**.  
+7.  On the **Item Supplier Catalogue** page, choose the **New** action, and then select vendor **30000**.  
 8.  Choose the **OK** button to return to the **Order Planning** page.  
-9. Copy supplier **30000** to the other lines for loudspeaker components on this production order.  
+9. Copy vendor **30000** to the other lines for loudspeaker components on this production order.  
 
      You are now ready to create a purchase order.  
 
@@ -138,7 +138,7 @@ The **Order Planning** page can be accessed from several different locations:
 
      Sales order **2008** is for ten loudspeakers, item **LS-120**, ordered by John Haddock Insurance Co.  
 
-     The item's defined replenishment system and default supplier will display.  
+     The item's defined replenishment system and default vendor will display.  
 
     > [!NOTE]  
     >  At the bottom of the page, there are four information fields. In the **Earliest Date Available** field, the ten pieces that are needed will be available, on an inbound supply order, nine days later than the current due date. If this is too late for the customer, the **Available for Transfer** field shows 13 pieces of the item at another location. You will want to plan for this stock.  

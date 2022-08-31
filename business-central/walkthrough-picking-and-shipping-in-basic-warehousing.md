@@ -148,7 +148,7 @@ On the **Inventory Pick** page, you can manage all outbound warehouse activities
 
 ## <a name="see-also"></a>See also 
 
-[Pick Items with Stock Picks](warehouse-how-to-pick-items-with-inventory-picks.md)  
+[Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)  
 [Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  
 [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  

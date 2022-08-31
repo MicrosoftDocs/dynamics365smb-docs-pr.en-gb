@@ -35,7 +35,7 @@ Multiple locations allows companies to manage their inventory in multiple locati
 4. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
 5. In the **Responsibility Centre** field, enter a responsibility centre code.
 
-This code will be used on all purchase, sales, or service documents, if the user, customer, or supplier has no default responsibility centre. On any sales, purchase, or service document, you can enter another responsibility centre than the default.
+This code will be used on all purchase, sales, or service documents, if the user, customer, or vendor has no default responsibility centre. On any sales, purchase, or service document, you can enter another responsibility centre than the default.
 
 > [!NOTE]  
 > When you enter a responsibility centre code on a document, it affects the address, dimensions, and prices on the document.  

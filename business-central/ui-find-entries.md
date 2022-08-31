@@ -61,8 +61,8 @@ You can search for entries based on information about either the document, busin
 |Action|Description|
 |------|-----------|
 |Find by Document|View entries based on a specific document number or posting date.|
-|Business Contact |View entries based on a specific contact type, contact number, anr/or external document number. You can enter document information that was assigned by a supplier or a customer. Use the available fields to search for supplier documents by using the numbers that the supplier has assigned the documents.|
-|Item reference|View entires based on a serial number or lot number. You can enter the lot number or serial number, or filter on the lot number or serial number that you want to search for. This action is useful to see where a specific item tracking number was used, what supplier it came from, or what customer it was sold to.|
+|Business Contact |View entries based on a specific contact type, contact number, anr/or external document number. You can enter document information that was assigned by a vendor or a customer. Use the available fields to search for vendor documents by using the numbers that the vendor has assigned the documents.|
+|Item reference|View entires based on a serial number or lot number. You can enter the lot number or serial number, or filter on the lot number or serial number that you want to search for. This action is useful to see where a specific item tracking number was used, what vendor it came from, or what customer it was sold to.|
 
 After you make a selection, enter the relevant search information in the fields at the top. Use the tooltips on the fields to help. When you're finished, choose **Find** to start the search. If you change any of the filters, you have to choose **Find** again.
 

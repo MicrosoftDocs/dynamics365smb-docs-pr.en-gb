@@ -1,6 +1,6 @@
 ---
 title: Design Details - Transfers in Planning | Microsoft Docs
-description: This topic describes how to use transfer orders as a source of supply when planning stock levels.
+description: This topic describes how to use transfer orders as a source of supply when planning inventory levels.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na

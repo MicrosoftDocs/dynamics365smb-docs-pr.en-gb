@@ -1,5 +1,5 @@
 ---
-title: Setting Up Stock
+title: Setting Up Inventory
 description: Describes how to set up your stock and inventory processes, including transfer routes and locations, such as warehouses.
 author: SorenGP
 ms.topic: conceptual

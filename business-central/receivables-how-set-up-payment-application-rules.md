@@ -25,15 +25,15 @@ You set up new payment application rules by choosing which types of data on a pa
 
 Each row on the **Payment Application Rules** page represents a payment application rule. Rules are applied in the order specified by the **Sorting Order** field. If multiple rules are used simultaneously, then the match confidence of the highest sorted rule is used.
 
-The automatic application function is based on prioritised matching criteria. First the function tries, in prioritised order, to match text in the five **Related-Party** fields on a journal line with text in the bank account, name, or address of customers or suppliers with unpaid documents representing open entries. Then, the function tries to match text in the **Transaction Text** and **Additional Transaction Info** fields on a journal line with text in the **External Document No.** and **Document No.** fields on open entries. Last, the function tries to match the amount in the **Statement Amount** field on a journal line with the amount on open entries.
+The automatic application function is based on prioritised matching criteria. First the function tries, in prioritised order, to match text in the five **Related-Party** fields on a journal line with text in the bank account, name, or address of customers or vendors with unpaid documents representing open entries. Then, the function tries to match text in the **Transaction Text** and **Additional Transaction Info** fields on a journal line with text in the **External Document No.** and **Document No.** fields on open entries. Last, the function tries to match the amount in the **Statement Amount** field on a journal line with the amount on open entries.
 
 > [!NOTE]
 > Text matching is only possible for text longer than four characters.
 
 In addition to the matching criteria, the following applies concerning the sign of the payment amount:
 
-- For negative amounts, a match is made first against open entries representing customer invoices and then against supplier credit memos.
-- For positive amounts, a match is made first against open entries representing supplier invoices and then against customer credit memos.
+- For negative amounts, a match is made first against open entries representing customer invoices and then against vendor credit memos.
+- For positive amounts, a match is made first against open entries representing vendor invoices and then against customer credit memos.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>To set up a payment application rule
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Application Rules**, and then choose the related link.
@@ -43,9 +43,9 @@ In addition to the matching criteria, the following applies concerning the sign 
 |-|-|
 |**Match Confidence**|Specifies your confidence in the application rule that you define on the line. <br /></br>A value that you specify in this field is shown in the **Match Confidence** field on the **Payment Reconciliation Journal** page according to the quality of the automatic payment application on the journal line.|
 |**Priority**|Specifies the priority of the application rule relative to other application rules that are defined as lines on the **Payment Application Rules** page. 1 represents the highest priority.|
-|**Related Party Matched**|Specifies how much information about the customer or supplier, such as address, city name, and bank account number, on the payment reconciliation journal line must match with information about the open entry before the application rule will be used to automatically apply the payment to the open entry.|
+|**Related Party Matched**|Specifies how much information about the customer or vendor, such as address, city name, and bank account number, on the payment reconciliation journal line must match with information about the open entry before the application rule will be used to automatically apply the payment to the open entry.|
 |**Doc. No./Ext. Doc. No. Matched**|Specifies whether text on the payment reconciliation journal line must match with the value in the **Document No.** field or the **External Document No.** field on the open entry before the application rule will be used to automatically apply the payment to the open entry.|
-|**Amount Incl. Tolerance Matched**|Specifies how many entries for a customer or supplier must match the amount including payment tolerance before the application rule will be used to automatically apply a payment to the open entry.|
+|**Amount Incl. Tolerance Matched**|Specifies how many entries for a customer or vendor must match the amount including payment tolerance before the application rule will be used to automatically apply a payment to the open entry.|
 |**Review Required**|Specifies whether the automatic payment application is recommended for manual review by the user before posting. Choosing the **Lines to Review** field on the **Payment Application Journal** page starts a guided experience where you can easily review multiple applications in a sequence on the **Payment Application Review** page.|
 
 The following table describes the standard payment application rules in [!INCLUDE[prod_short](includes/prod_short.md)].

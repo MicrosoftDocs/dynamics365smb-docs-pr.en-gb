@@ -39,8 +39,8 @@ On a payment reconciliation journal line where the payment has been set to posti
 
     > [!NOTE]  
     >   If no other payments exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on the payment exists as a mapping text.
-5. In the **Supplier No.** field, enter the supplier that the payments will be posted to.
-6. In the **Bal. Source Type** field, specify if the payment will be posted to a general ledger account or to a customer or supplier account.
+5. In the **Supplier No.** field, enter the vendor that the payments will be posted to.
+6. In the **Bal. Source Type** field, specify if the payment will be posted to a general ledger account or to a customer or vendor account.
 7. In the **Bal. Source No.** field, specify the account that the payment will be posted to, depending on your selection in the **Bal. Source Type** field.
 
     > [!NOTE]

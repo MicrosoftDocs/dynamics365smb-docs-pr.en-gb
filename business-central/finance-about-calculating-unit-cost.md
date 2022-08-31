@@ -71,7 +71,7 @@ When you post, the unit cost is copied to the sales invoice item entry, and it c
 
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Registering New Items](inventory-how-register-new-items.md)  
-[About Stock Costing](finance-learn-about-costing.md)  
+[About Inventory Costing](finance-learn-about-costing.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

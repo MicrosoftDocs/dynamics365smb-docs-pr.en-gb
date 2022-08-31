@@ -40,7 +40,7 @@ The following table describes a sequence of tasks, with links to the topics that
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)    
 [Use Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Closing Financial Periods](year-close-years-periods.md)  
+[Closing Fiscal Periods](year-close-years-periods.md)  
 [Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -30,7 +30,7 @@ ms.locfileid: "8654898"
 |Make and collect payments, manage your cash flow, defer income and revenue, prepare year-end closing, and manage fixed assets.|[Finance](finance.md)|
 |Get insight to the performance of your business activities through budgets, account schedules, and analysis views.|[Business Intelligence](bi.md)|
 |Manage sales processes and information, such as quotes, orders, returns, and customer accounts, and make drop shipments.|[Sales](sales-manage-sales.md)|
-|Manage purchasing processes and information, such as invoices, orders, returns, and supplier accounts, and purchase items from sales documents. |[Purchasing](purchasing-manage-purchasing.md)|
+|Manage purchasing processes and information, such as invoices, orders, returns, and vendor accounts, and purchase items from sales documents. |[Purchasing](purchasing-manage-purchasing.md)|
 |Register new inventory or service-type items, categorise items for easy searching, adjust inventory levels, and perform common inventory costing tasks.|[Inventory](inventory-manage-inventory.md)|
 |Create jobs and schedule resources for project, manage job budgets, monitor progress, and track machine and employee hours.|[Project Management](projects-manage-projects.md)|
 |Organise your fixed assets, ensure correct periodic depreciation, and keep track of maintenance costs.|[Fixed Assets](fa-manage.md)|

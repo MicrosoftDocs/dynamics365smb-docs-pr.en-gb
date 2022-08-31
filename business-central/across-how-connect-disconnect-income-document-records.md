@@ -18,7 +18,7 @@ ms.locfileid: "9077066"
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Create Incoming Document Records Directly from Documents and Entries
 
-You can store external business documents in [!INCLUDE[prod_short](includes/prod_short.md)] by attaching the document files to the related incoming document records. If the document, such as a purchase invoice, didn't start its existence as an incoming document record, you can still create and connect an incoming document record to it later. You can also attach incoming document files to posted purchase and sales documents and to supplier, customer, and general ledger entries by using the **Incoming Document Files** FactBox in, for example, the **Posted Purchase Invoices** and **Supplier Ledger Entries** pages.
+You can store external business documents in [!INCLUDE[prod_short](includes/prod_short.md)] by attaching the document files to the related incoming document records. If the document, such as a purchase invoice, didn't start its existence as an incoming document record, you can still create and connect an incoming document record to it later. You can also attach incoming document files to posted purchase and sales documents and to vendor, customer, and general ledger entries by using the **Incoming Document Files** FactBox in, for example, the **Posted Purchase Invoices** and **Supplier Ledger Entries** pages.
 
 From the **Chart of Accounts** and **General Ledger Entries** pages, you can use a search function to find general ledger entries for posted purchase and sales documents that don't have incoming document records and then centrally link to existing records or create new ones with attached document files. For more information, see [Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md).
 
@@ -31,11 +31,11 @@ The following procedures show how to attach a file to a vendor ledger entry or a
 3. Alternatively, select the line for a purchase invoice that you want to attach a file to, and then choose the **Attach File** action.
 4. On the **Insert File** page, select the file that represents the incoming document in question, and then choose the **Open** button.
 
-## <a name="to-create-and-connect-an-incoming-document-record-from-a-vendor-ledger-entry"></a>To create and connect an incoming document record from a supplier ledger entry
+## <a name="to-create-and-connect-an-incoming-document-record-from-a-vendor-ledger-entry"></a>To create and connect an incoming document record from a vendor ledger entry
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Supplier Ledger Entries**, and then choose the related link.
-2. Select a line for a supplier ledger entry that you want to attach a file to, and then choose the **Create Incoming Document from File** action.
-3. Alternatively, select a line for a supplier ledger entry that you want to attach a file to, and then choose the **Attach File** action.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Ledger Entries**, and then choose the related link.
+2. Select a line for a vendor ledger entry that you want to attach a file to, and then choose the **Create Incoming Document from File** action.
+3. Alternatively, select a line for a vendor ledger entry that you want to attach a file to, and then choose the **Attach File** action.
 4. On the **Insert File** page, select the file that represents the incoming document in question, and then choose the **Open** button.
 
 ## <a name="to-remove-a-connection-from-an-incoming-document-record-to-a-posted-document"></a>To remove a connection from an incoming document record to a posted document

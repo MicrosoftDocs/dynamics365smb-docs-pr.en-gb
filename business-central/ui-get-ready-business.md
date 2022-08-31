@@ -33,7 +33,7 @@ You can also find the list of assisted setup guides if you choose the ![Lightbul
 
 When you sign in for the first time or launch a new company, the **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)]. Starting with 2021 release wave 2, when you first sign in to the CRONUS demonstration company, your home page is optimised for your first experiences. If you prefer to see more links to more pages, just switch to the Business Manager role. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
-Once you have migrated data, such as suppliers, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if other assisted setup guides on the list can help you.
+Once you have migrated data, such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if other assisted setup guides on the list can help you.
 
 If an area is not covered by an assisted setup, choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then the **Advanced Settings** action. In **Advanced Settings**, the **Manual Setup** section provides access to setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
@@ -54,7 +54,7 @@ Teaching tips are short messages that inform, remind, or teach you about importa
 
 ## <a name="role-specific-home-pages"></a>Role-specific home pages
 
-Depending on your role, the home page provides an overview of the business. At the top, you see a navigation bar that gives you easy access to customers, suppliers, items, and so on. In the centre you find the **Activities** tiles. **Activities** show current data and can be clicked or tapped for easy access to the selected document.
+Depending on your role, the home page provides an overview of the business. At the top, you see a navigation bar that gives you easy access to customers, vendors, items, and so on. In the centre you find the **Activities** tiles. **Activities** show current data and can be clicked or tapped for easy access to the selected document.
 
 The **Key Performance Indicators** can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of **Favourite Customers** on the home page for accounts that you do business with often or need to pay special attention to.
 
@@ -86,8 +86,8 @@ The [quick start](quick-start-business-central.md) articles can help you take th
 | Set Up My Company |Creates a new trial company for you to enter data and try out [!INCLUDE[prod_short](includes/prod_short.md)]. |
 | Set Up Approval Workflows |Sets up the ability to automatically notify an approver when a user tries to create or change certain values on documents, journal lines, or cards. For example, you can set up approval of amounts above a specified limit. |
 | Set Up Email |Gets you ready for sending email messages directly from, for example, sales orders or contacts in [!INCLUDE[prod_short](includes/prod_short.md)]. |
-| Set Up Your Business Inbox in Outlook |Gets you ready to manage business interactions with your customers and suppliers, directly in Microsoft Outlook. |
-| Migrate Business Data |Lets you import your existing company data such as suppliers, customers, and items from Excel or Quickbooks. |
+| Set Up Your Business Inbox in Outlook |Gets you ready to manage business interactions with your customers and vendors, directly in Microsoft Outlook. |
+| Migrate Business Data |Lets you import your existing company data such as vendors, customers, and items from Excel or Quickbooks. |
 | Set Up Email Logging |Sets up the capability to log email correspondence in [!INCLUDE[prod_short](includes/prod_short.md)] to follow up on interactions. |
 | Set Up an Item Approval Workflow |Sets up the ability to send a notification to an approver when a user changes or creates an item. |
 | Set Up a Customer Approval Workflow |Sets up the ability to automatically notify an approver when a user tries to create or change a customer card. |
@@ -95,7 +95,7 @@ The [quick start](quick-start-business-central.md) articles can help you take th
 | Set Up Dynamics 365 Sales Connection |Sets up a connection to Dynamics 365 Sales, which allows you to synchronise data such as contacts and sales order information. |
 | Set Up Cash Flow Forecast |Sets up the Cash Flow Forecast chart, so you can view the predicted movement of cash in and out of your business. The chart is available on the **Accountant Role Center**. |
 | Set Up Reporting Data|Sets up data sets that you can use to build powerful reports using Excel or Power BI, for example. |
-| Invite External Accountant |If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your financial data. |
+| Invite External Accountant |If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. |
 
 The **Assisted Setup** page may contain other entries. When you go through a setup, the setup will be marked as **Completed**. You can set up other areas of the company by using manual setup. For more information, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 

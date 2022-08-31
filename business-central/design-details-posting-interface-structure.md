@@ -21,9 +21,9 @@ In the [!INCLUDE[prod_short](includes/prod_short.md)] posting interface structur
   
 * RunWithCheck and RunWithoutCheck call procedure Code – generic posting interface for Gen. Jnl Line.  
 * CustPostApplyCustLedgEntry – post customer application, called from codeunit 226 CustEntry-Apply Posted Entries.  
-* VendPostApplyVendLedgEntry – post supplier application, called from codeunit 227 VendEntry-Apply Posted Entries.  
+* VendPostApplyVendLedgEntry – post vendor application, called from codeunit 227 VendEntry-Apply Posted Entries.  
 * UnapplyCustLedgEntry – post unapply of customer application, called from codeunit 226 CustEntry-Apply Posted Entries  
-* UnapplyVendLedgEntry – post unapply of supplier application, called from codeunit 227 VendEntry-Apply Posted Entries  
+* UnapplyVendLedgEntry – post unapply of vendor application, called from codeunit 227 VendEntry-Apply Posted Entries  
   
 ## <a name="see-also"></a>See Also  
 [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)

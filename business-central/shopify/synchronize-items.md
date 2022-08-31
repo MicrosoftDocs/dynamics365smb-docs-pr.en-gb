@@ -110,7 +110,7 @@ The following settings let you manage the process of exporting items:
 |Track quantity|According to the **Inventory Tracked** in the **Shopify Shop Card**. For more information, see [Inventory](synchronize-items.md#sync-inventory-to-shopify).|Not used.|
 |Continue selling when out of stock|According to the **Default Inventory Policy** in the **Shopify Shop Card**. Not imported.|Not used.|
 |Type|**Description** of **Item Category Code**. If type isn't specified on Shopify, it will be added as a custom type.|**Item Category Code**. Mapping by description.|
-|Supplier|**Name** of vendor from **Vendor No.** |**Vendor No.** Mapping by name.|
+|Vendor|**Name** of vendor from **Vendor No.** |**Vendor No.** Mapping by name.|
 |Weight|**Gross Weight**.|Not used.|
 |Taxable|Fixed value: Enabled.|Not used.|
 |Tax Codes|**Tax Group Code**. Only relevant for sales taxes. For more information, see [Setup taxes](setup-taxes.md). |Not used.|

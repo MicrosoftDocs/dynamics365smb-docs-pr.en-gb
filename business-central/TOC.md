@@ -35,7 +35,7 @@
 
 ### Design Details
 #### [Application Design Details Overview](design-details-application-design.md)
-#### Design Details: Stock Costing
+#### Design Details: Inventory Costing
 ##### [Inventory Costing Design Details](design-details-inventory-costing.md)
 ##### [Design Details: Costing Methods](design-details-costing-methods.md)  
 ##### [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)
@@ -53,7 +53,7 @@
 ##### [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
 ##### [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  
 ##### [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
-##### [Design Details: Stock Valuation](design-details-inventory-valuation.md)  
+##### [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
 ##### [Design Details: Revaluation](design-details-revaluation.md)
 #### Design Details: Posting Date on Adjustment Value Entry
 ##### [Posting Date on Adjustment Value Entry Overview](design-details-inventory-adjustment-value-entry-posting-date.md)  
@@ -81,7 +81,7 @@
 ##### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)  
 ##### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
 ##### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
-##### [Design Details: Integration with Stock](design-details-integration-with-inventory.md)
+##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
 #### Design Details: Item Tracking
 ##### [Item Tracking Design Details](design-details-item-tracking.md)
 ##### [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
@@ -280,7 +280,7 @@
 ### [Financial Reports](finance-reports.md)
 ### Manage Receivables
 #### [Receivables Overview](receivables-manage-receivables.md)
-#### [Sales Ledger Reports and Analytics](receivables-reports.md)
+#### [Accounts Receivable Reports and Analytics](receivables-reports.md)
 #### Applying Payments Automatically and Reconcile Bank Accounts
 ##### [Payment Application Overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Reconcile Payments Use Automatic Application](receivables-how-reconcile-payments-auto-application.md)
@@ -299,7 +299,7 @@
 
 ### Manage Payables
 #### [Payables Overview](payables-manage-payables.md)
-#### [Purchase Ledger Reports and Analytics](payables-reports.md)
+#### [Accounts Payable Reports and Analytics](payables-reports.md)
 #### Make Payments
 ##### [Make Payments](payables-make-payments.md)
 ##### [Work with General Journals](ui-work-general-journals.md)
@@ -315,7 +315,7 @@
 ##### [Review or Apply Payments Manually after Automatic Application](receivables-how-review-apply-payments-auto-application.md)
 ##### [Reconcile Payments that Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-#### [Reconcile Supplier Payments with the Payment Journal or from Supplier Ledger Entries](payables-how-apply-purchase-transactions-manually.md)
+#### [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md)
 #### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
 #### [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Block Suppliers](payables-how-block-vendors.md)
@@ -352,25 +352,25 @@
 #### [Deleting Cost Budget Entries](finance-how-to-delete-cost-budget-entries.md)
 
 ### Manage Inventory Costs
-#### [Stock Costing Overview](finance-manage-inventory-costs.md)
-#### [About Stock Costing](finance-learn-about-costing.md)
+#### [Inventory Costing Overview](finance-manage-inventory-costs.md)
+#### [About Inventory Costing](finance-learn-about-costing.md)
 #### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 #### [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 #### [About Unit Cost Calculation](finance-about-calculating-unit-cost.md)
-#### [Design Details: Stock Costing](design-details-inventory-costing.md)
+#### [Design Details: Inventory Costing](design-details-inventory-costing.md)
 #### [Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)
 #### [Set Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)
 #### [Revalue Inventory](inventory-how-revalue-inventory.md)
 #### [Adjust Item Costs](inventory-how-adjust-item-costs.md)
-#### [Handle Stock and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)
+#### [Handle Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Update Standard Costs](finance-how-to-update-standard-costs.md)
 #### [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Report Costs and Reconcile with the General Ledger
 ##### [Report Costs](finance-report-costs-and-reconcile-with-the-general-ledger.md)
-##### [Reconcile Stock Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+##### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
-#### [Adjust and Reconcile Stock Cost with General Ledger with Job Queue](finance-adjust-reconcile-inventory-cost-job-queue.md)
+#### [Adjust and Reconcile Inventory Cost with General Ledger with Job Queue](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Manage Cash Flow
 #### [Cash Flow Overview](finance-cash-flow-overview.md)
@@ -378,7 +378,7 @@
 
 ### Closing Years and Periods
 #### [Year Closing Overview](year-close-years-periods.md)
-#### [Work with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md)
+#### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 #### [Specify Posting Periods](finance-how-specify-posting-periods.md)
 #### [Closing Periods](year-how-complete-period-end-processes.md)
 #### [Update Currency Exchange Rates](finance-how-update-currencies.md)
@@ -475,8 +475,8 @@
 ### [Create Recurring Purchase Lines](purchasing-how-work-recurring-purchase-lines.md)
 
 ## Inventory
-### [Stock Overview](inventory-manage-inventory.md)
-### [Stock and Warehouse Reports](inventory-WMS-reports.md)
+### [Inventory Overview](inventory-manage-inventory.md)
+### [Inventory and Warehouse Reports](inventory-WMS-reports.md)
 ### [Register New Items](inventory-how-register-new-items.md)
 ### [Work with Bills of Material](inventory-how-work-BOMs.md)
 ### [Categorise Items](inventory-how-categorize-items.md)
@@ -578,8 +578,8 @@
 ### [Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Assemble Items](assembly-how-to-assemble-items.md)
 ### [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)
-### [Sell Stock Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
-### [Sell Assemble-to-Order Items and Stock Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
+### [Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
+### [Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
 ### [Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)
 ### [Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
 ### [Work with Bills of Material](inventory-how-work-BOMs.md)
@@ -602,12 +602,12 @@
 
 ## Warehouse Management
 ### [Warehouse Management](warehouse-manage-warehouse.md)
-### [Stock and Warehouse Reports](inventory-WMS-reports.md)
+### [Inventory and Warehouse Reports](inventory-WMS-reports.md)
 ### [Receive Items](warehouse-how-receive-items.md)
 ### [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
 ### Put Items Away
 #### [Put Items Away](warehouse-put-away-items.md)
-#### [Put Items Away with Stock Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
+#### [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
 #### [Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)
 #### [Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md)
 #### [Plan Put-Aways in Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md)
@@ -621,7 +621,7 @@
 #### [Plan Warehouse Movements in Worksheets](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)
 ### Pick Items
 #### [Pick Items](warehouse-pick-items.md)
-#### [Pick Items with Stock Picks](warehouse-how-to-pick-items-with-inventory-picks.md)
+#### [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)
 #### [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)
 #### [Pick for Production or Assembly in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md)
 #### [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
@@ -700,7 +700,7 @@
 ##### [Create Cheque Instalments](LocalFunctionality/Australia/how-to-create-check-installments.md)
 ##### [Electronic Funds Transfer (EFT)](LocalFunctionality/Australia/electronic-funds-transfer-eft-.md)
 ##### [Print Bank Account Reconciliation Reports](LocalFunctionality/Australia/how-to-print-bank-account-reconciliation-reports.md)
-##### [Print Paying-In Slip Reports](LocalFunctionality/Australia/how-to-print-deposit-slip-reports.md)
+##### [Print Deposit Slip Reports](LocalFunctionality/Australia/how-to-print-deposit-slip-reports.md)
 #### Core Finance
 ##### [Set Up Business Units for Business Activity Statements](LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements.md)
 ##### [Print Balance Sheet Reports](LocalFunctionality/Australia/how-to-print-balance-sheet-reports.md)
@@ -811,8 +811,8 @@
 ##### [Payables and Receivables](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Compensations Localisation for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
-#### Stock
-##### [Stock](LocalFunctionality/Czech/inventory.md)
+#### Inventory
+##### [Inventory](LocalFunctionality/Czech/inventory.md)
 #### General
 ##### [Extended User Control](LocalFunctionality/Czech/general.md)
 ##### [Best Practices](LocalFunctionality/Czech/best-practices.md)
@@ -874,13 +874,13 @@
 ##### [Print General Ledger Reports](LocalFunctionality/France/how-to-print-general-ledger-reports.md)
 ##### [View Ledger Reconciliations](LocalFunctionality/France/how-to-view-ledger-reconciliations.md)
 ##### [Specify Posting Periods](LocalFunctionality/France/how-to-specify-posting-periods.md)
-##### [Financial Periods and Financial Years](LocalFunctionality/France/fiscal-periods-and-fiscal-years.md)
+##### [Fiscal Periods and Fiscal Years](LocalFunctionality/France/fiscal-periods-and-fiscal-years.md)
 ##### [Overview of Year-End Processes](LocalFunctionality/France/year-end-processes-overview.md)
 ##### [Fiscally Close Accounting Periods](LocalFunctionality/France/how-to-fiscally-close-accounting-periods.md)
 ##### [Close Income Statement Accounts](LocalFunctionality/France/how-to-close-income-statement-accounts.md)
 ##### [Close a Year](LocalFunctionality/France/how-to-close-years.md)
 ##### [Fiscally Close Years](LocalFunctionality/France/how-to-fiscally-close-years.md)
-##### [Open a New Financial Year Duplicate](LocalFunctionality/France/how-to-open-a-new-fiscal-year-duplicate.md)
+##### [Open a New Fiscal Year Duplicate](LocalFunctionality/France/how-to-open-a-new-fiscal-year-duplicate.md)
 ##### [Post the Year-End Closing Entry](LocalFunctionality/France/how-to-post-the-year-end-closing-entry.md)
 ##### [Reopen Accounting Periods](LocalFunctionality/France/how-to-reopen-accounting-periods.md)
 #### Fixed Assets
@@ -971,7 +971,7 @@
 ###### [VAT on Advance Receipt from Customer](LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md)
 ###### [VAT Application of Receipt and Invoice](LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md)
 ###### [VAT and TCS on Customer Advance](LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md)
-###### [VAT and TDS on Supplier Advance](LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice.md)
+###### [VAT and TDS on Vendor Advance](LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice.md)
 ##### VAT on Sales
 ###### [Exempted Sales](LocalFunctionality/India/GST-Exempted-Sales.md)
 ###### [Sale to Registered and Unregistered Customer](LocalFunctionality/India/GST-Sale-to-Registered-Unregistered-Customer.md)
@@ -1067,13 +1067,13 @@
 ##### [Supplier Payments and Customer Bills Overview](LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview.md)
 ##### [Issue Supplier Payments and Customer Bills](LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills.md)
 #### Core Finance
-##### [Close a Financial Year](LocalFunctionality/Italy/how-to-close-a-fiscal-year.md)
+##### [Close a Fiscal Year](LocalFunctionality/Italy/how-to-close-a-fiscal-year.md)
 ##### [Define Debit and Credit Amounts](LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts.md)
 ##### [Reversing Journal Entries](LocalFunctionality/Italy/reversing-journal-entries.md)
-#### Stock
+#### Inventory
 ##### [Set Up Initial Item Costs](LocalFunctionality/Italy/how-to-set-up-initial-item-costs.md)
-##### [Financial Stock Valuation](LocalFunctionality/Italy/fiscal-inventory-valuation.MD)
-##### [Set Up Financial Stock Valuation](LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation.md)
+##### [Fiscal Inventory Valuation](LocalFunctionality/Italy/fiscal-inventory-valuation.MD)
+##### [Set Up Fiscal Inventory Valuation](LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation.md)
 #### Fixed Assets
 ##### [Italian Fixed Assets](LocalFunctionality/Italy/italian-fixed-assets.md)
 ##### [Set Up Compressed Depreciation of Fixed Assets](LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets.md)
@@ -1120,8 +1120,8 @@
 ##### [Payment Scenario 3 - Foreign Payment (LCY  to FCY)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
 ##### [Create Proposals](LocalFunctionality/Netherlands/how-to-create-proposals.md)
 ##### [Docket Reports](LocalFunctionality/Netherlands/docket-reports.md)
-##### [Enter and Post Cash and Bank or BACS / CHAPS Journals](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
-##### [Print Test Reports for Cash and Bank or BACS / CHAPS Journals](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
+##### [Enter and Post Cash and Bank or Giro Journals](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
+##### [Print Test Reports for Cash and Bank or Giro Journals](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
 ##### [Single Euro Payments Area (SEPA)](LocalFunctionality/Netherlands/single-euro-payments-area-sepa-.md)
 ##### [Activate SEPA Payments](LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md)
 ##### [Submit Supplier Payments Electronically in SEPA ISO 20022 Payment Format](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
@@ -1159,7 +1159,7 @@
 ##### [Compare Bank Cash Flow](LocalFunctionality/NewZealand/how-to-compare-bank-cash-flow.md)
 ##### [Create Cheque Instalments](LocalFunctionality/NewZealand/how-to-create-check-installments.md)
 ##### [Electronic Funds Transfer](LocalFunctionality/NewZealand/electronic-funds-transfer-eft-.md)
-##### [Print Paying-In Slip Reports](LocalFunctionality/NewZealand/how-to-print-deposit-slip-reports.md)
+##### [Print Deposit Slip Slip Reports](LocalFunctionality/NewZealand/how-to-print-deposit-slip-reports.md)
 ##### [Print Bank Account Reconciliation Reports](LocalFunctionality/NewZealand/how-to-print-bank-account-reconciliation-reports.md)
 #### Core Finance
 ##### [Calculating Distribution Amounts](LocalFunctionality/NewZealand/calculating-distribution-amounts.md)
@@ -1203,7 +1203,7 @@
 ##### [Cancel Payments](LocalFunctionality/Norway/how-to-cancel-payments.md)  
 ##### [Delete Remittance Payment Orders](LocalFunctionality/Norway/how-to-delete-remittance-payment-orders.md)  
 ##### [Export Remittance Payments](LocalFunctionality/Norway/how-to-export-remittance-payments.md)
-##### [Norwegian BACS / CHAPS and OCR-B Font](LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font.md)
+##### [Norwegian Giro and OCR-B Font](LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font.md)
 ##### [Set Up OCR Payments](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 ##### [Import and Post OCR Payments](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 ##### [Print the OCR Journal Test Report](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
@@ -1280,7 +1280,7 @@
 ##### [Statutory Reports](LocalFunctionality/Russia/Statutory-Reports.md)
 #### Banking
 ##### [Bank Management](LocalFunctionality/Russia/bank-management.md)
-#### Stock
+#### Inventory
 ##### [Stock in the Russian Version](LocalFunctionality/Russia/Inventory.md)
 ##### [Stock Setup](LocalFunctionality/Russia/Inventory-Setup.md)
 ##### [Item Documents](LocalFunctionality/Russia/Item-Documents.md)
@@ -1391,9 +1391,9 @@
 ##### [Issue Delivery Reminders](LocalFunctionality/Switzerland/how-to-issue-delivery-reminders.md)
 ##### [Generate Delivery Reminders](LocalFunctionality/Switzerland/how-to-generate-delivery-reminders.md)
 ##### [Print Test Reports for Delivery Reminders](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
-#### Stock
-##### [Swiss Stock Management](LocalFunctionality/Switzerland/swiss-inventory-management.md)
-##### [Print an Stock Picking List from a Sales Order](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
+#### Inventory
+##### [Swiss Inventory Management](LocalFunctionality/Switzerland/swiss-inventory-management.md)
+##### [Print an Inventory Picking List from a Sales Order](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
 #### General
 ##### [Import Swiss Postcodes](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 ##### [Swiss Purchase Documents and Sales Orders](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
@@ -1445,7 +1445,7 @@
 #### [Set Up Posting Groups](finance-posting-groups.md)
 #### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
-#### [Work with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md)
+#### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 #### [Set Up Reminder Terms and Levels](finance-setup-reminders.md)
 #### [Set Up Finance Charge Terms](finance-setup-finance-charges.md)
 #### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
@@ -1491,8 +1491,8 @@
 #### [Set Up Prices and Discounts](across-prices-and-discounts.md)
 #### [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### Set Up Inventory
-#### [Set Up Stock](inventory-setup-inventory.md)
-#### [Set Up General Stock Information](inventory-how-setup-general.md)
+#### [Set Up Inventory](inventory-setup-inventory.md)
+#### [Set Up General Inventory Information](inventory-how-setup-general.md)
 #### [Work with Responsibility Centres](inventory-responsibility-centers.md)
 #### [Set Up Locations](inventory-how-setup-locations.md)
 #### [Register New Items](inventory-how-register-new-items.md)
@@ -1849,7 +1849,7 @@
 #### [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
 #### [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
 #### [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)
-### Design Details: Stock Costing
+### Design Details: Inventory Costing
 #### [Costing Overview](design-details-inventory-costing.md)
 #### [Design Details: Costing Methods](design-details-costing-methods.md)  
 #### [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)
@@ -1871,7 +1871,7 @@
 #### [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
 #### [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  
 #### [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
-#### [Design Details: Stock Valuation](design-details-inventory-valuation.md)  
+#### [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
 #### [Design Details: Revaluation](design-details-revaluation.md)
 ### Design Details: Warehouse Management
 #### [Warehouse Management Overview](design-details-warehouse-management.md)
@@ -1881,7 +1881,7 @@
 #### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)  
 #### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
 #### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
-#### [Design Details: Integration with Stock](design-details-integration-with-inventory.md)
+#### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
 ### Design Details: Item Tracking
 #### [Item Tracking Overview](design-details-item-tracking.md)
 #### [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  

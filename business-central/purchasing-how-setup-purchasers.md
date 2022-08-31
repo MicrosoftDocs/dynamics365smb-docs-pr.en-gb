@@ -29,10 +29,10 @@ If several purchasers work at your company, you can set them up in a page and as
 2. On the **Salespeople/Purchasers** page, choose **New**.
 3. On the **Salesperson/Purchaser Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-purchasers-to-vendors"></a>To assign purchasers to suppliers
+## <a name="to-assign-purchasers-to-vendors"></a>To assign purchasers to vendors
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Suppliers**, and then choose the related link.
-2. Open the relevant supplier card for the supplier that will be assigned a purchaser.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+2. Open the relevant vendor card for the vendor that will be assigned a purchaser.
 3. In the **Purchaser Code** field, select the applicable purchaser code and then close the page.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)

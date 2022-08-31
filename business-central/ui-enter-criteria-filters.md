@@ -300,13 +300,13 @@ Use `%myitems` in the item **No** field to display all records for items that ar
 |-----------------------|-----------------------|  
 |`%myitems`|Items in the **My Items** on your Role Centre. |  
 
-#### <a name="myvendors-vendors-in-my-vendors"></a>(%mysuppliers) Suppliers in My Suppliers
+#### <a name="myvendors-vendors-in-my-vendors"></a>(%myvendors) Suppliers in My Suppliers
 
 Use `%myvendors` in the supplier **No** field to display all records for suppliers that are included in the **My Suppliers** list on your Role Centre.
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
-|`%myvendors`|Suppliers in the **My Suppliers** on your Role Centre. |  
+|`%myvendors`|Vendors in the **My Vendors** on your Role Centre. |  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/search-filter-sort-data-dynamics-365-business-central/)
 

@@ -1,6 +1,6 @@
 ---
 title: Set Up Prepayments
-description: Learn how to configure Business Central so that you can use prepayments to invoice and collect deposits from customers and remit deposits to suppliers.
+description: Learn how to configure Business Central so that you can use prepayments to invoice and collect deposits from customers and remit deposits to vendors.
 author: edupont04
 ms.topic: conceptual
 ms.search.keyword: prepayment
@@ -16,11 +16,11 @@ ms.locfileid: "9078681"
 ---
 # <a name="set-up-prepayments"></a>Set Up Prepayments
 
-If you require your customers to submit payment before you ship an order to them, or if your supplier requires you to submit payment before they ship an order to you, you can use the Prepayment functionality. The prepayments functionality enables you to invoice and collect deposits required from customers or to remit deposits to suppliers, to ensure that all partial payments are posted against an invoice. For more information, see [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md).
+If you require your customers to submit payment before you ship an order to them, or if your vendor requires you to submit payment before they ship an order to you, you can use the Prepayment functionality. The prepayments functionality enables you to invoice and collect deposits required from customers or to remit deposits to vendors, to ensure that all partial payments are posted against an invoice. For more information, see [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md).
 
 Before you can post prepayment invoices, you have to set up the posting accounts in the general ledger, and you have to set up number series for prepayment documents. You must specify an account for prepayments related to sales and an account for prepayments related to purchasing. You can specify the same posting accounts to be used for all prepayments related to all general business posting groups or general product posting groups, or you can specify specific accounts for specific posting groups for sales and purchasing, respectively. This depends on your company's requirements for tracking prepayments.  
 
-You can define the percentage of the line amount that will be invoiced for prepayment, for a customer or supplier, for all items or selected items. After you complete the setup, you can generate prepayment invoices from sales and purchase orders. You can use the default percentages for each sales or purchase line, or you can change the amounts on the invoice as needed. For example, you can specify a total amount for the entire order.  
+You can define the percentage of the line amount that will be invoiced for prepayment, for a customer or vendor, for all items or selected items. After you complete the setup, you can generate prepayment invoices from sales and purchase orders. You can use the default percentages for each sales or purchase line, or you can change the amounts on the invoice as needed. For example, you can specify a total amount for the entire order.  
 
 > [!NOTE]
 > We recommend that you do not use a prepayment percentage of 100 in the following cases:
@@ -64,7 +64,7 @@ If you have not already set up general ledger accounts for prepayments, you can 
 > [!NOTE]  
 > You can use the same number series for prepayment invoices and regular invoices, or you can use different number series. If you use different series, they must not overlap because there must not be any numbers that exist in both series.  
 
-## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>To set up prepayment percentages for items, customers, and suppliers
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>To set up prepayment percentages for items, customers, and vendors
 
 For an item, you can set up a default prepayment percentage for all customers, a specific customer, or a customer price group. If you do not want to apply the same prepayment percentage to all customers, you must specify which customers or which customer price groups the prepayment percentage applies to.
 
@@ -72,12 +72,12 @@ For an item, you can set up a default prepayment percentage for all customers, a
 2. Select an item, and then choose the **Prepayment Percentages** action.  
 3. On the **Sales Prepayment Percentages** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-For a customer or supplier, you can set up one default prepayment percentage for all items and all types of sales lines. You enter this on the customer or supplier card. The following procedure shows how to specify a prepayment percentage for a customer, but similar steps apply to suppliers.  
+For a customer or vendor, you can set up one default prepayment percentage for all items and all types of sales lines. You enter this on the customer or vendor card. The following procedure shows how to specify a prepayment percentage for a customer, but similar steps apply to vendors.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the card for a customer.
 3. Fill in the **Prepayment %** field.
-4. Repeat the steps for other customers or for suppliers.  
+4. Repeat the steps for other customers or for vendors.  
 
 > [!TIP]
 > You can also access the **Sales Prepayment Percentages** page from the customer or vendor card.

@@ -51,10 +51,10 @@ This procedure describes how attach a posted sales invoice to an email as a PDF 
 > If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field on the **Send Document to** page. In that case, the **Send Email** page will not open. See Step 4. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>To compose and send an email
-You can quickly compose emails for contacts, customers, suppliers, salespeople/purchasers, and bank accounts directly from the pages for those entities. Just choose **Process**, and then **Send Email** to open the email editor. For bank accounts, the **Send Email** action is under **Actions**.
+You can quickly compose emails for contacts, customers, vendors, salespeople/purchasers, and bank accounts directly from the pages for those entities. Just choose **Process**, and then **Send Email** to open the email editor. For bank accounts, the **Send Email** action is under **Actions**.
 
 > [!TIP]
-> If you often send email messages that are similar in nature, or want to send a bulk communication, for example, to advertise a sales campaign, using Word templates with email can speed up the process. You can create a template for an entities such as customers, suppliers, and contacts, that will generate the content of an email message for you, and even personalise the content for the recipient based on data in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Use Word Templates for Bulk Communication](ui-mail-merge.md).  
+> If you often send email messages that are similar in nature, or want to send a bulk communication, for example, to advertise a sales campaign, using Word templates with email can speed up the process. You can create a template for an entities such as customers, vendors, and contacts, that will generate the content of an email message for you, and even personalise the content for the recipient based on data in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Use Word Templates for Bulk Communication](ui-mail-merge.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documents marked as printed when they are sent
 

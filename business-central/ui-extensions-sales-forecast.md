@@ -1,6 +1,6 @@
 ---
-title: Using the Sales and Stock Forecast Extension to Manage Stock | Microsoft Docs
-description: This extension helps you predict sales, get a clear overview of expected stock-outs, and even helps you create replenishment requests to suppliers.
+title: Using the Sales and Inventory Forecast Extension to Manage Inventory | Microsoft Docs
+description: This extension helps you predict sales, get a clear overview of expected stock-outs, and even helps you create replenishment requests to vendors.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
@@ -17,7 +17,7 @@ ms.lasthandoff: 03/31/2022
 ms.locfileid: "8515284"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>The Sales and Inventory Forecast Extension
-Inventory management is a trade-off between customer service and managing your cost. On one hand, a low inventory requires less working capital, but, on the other hand, stock-outs potentially lead to missed sales. The Sales and Inventory Forecast extension predicts potential sales using historical data and gives a clear overview of expected stock-outs. Based on the forecast, the extension helps create replenishment requests to your suppliers and saves you time.  
+Inventory management is a trade-off between customer service and managing your cost. On one hand, a low inventory requires less working capital, but, on the other hand, stock-outs potentially lead to missed sales. The Sales and Inventory Forecast extension predicts potential sales using historical data and gives a clear overview of expected stock-outs. Based on the forecast, the extension helps create replenishment requests to your vendors and saves you time.  
 
 ## <a name="setting-up-forecasting"></a>Setting up Forecasting
 In [!INCLUDE[prod_short](includes/prod_short.md)], the connection to [Azure AI](https://azure.microsoft.com/overview/ai-platform/) is already set up for you. But you can configure the forecast to use a different type of period to report by, such as changing from forecasting by month to forecasting by quarter. You can also choose the number of periods to calculate the forecast by, depending on how granular you want the forecast to be. We suggest that you forecast by month and with a 12 month horizon for the forecast. 
@@ -28,7 +28,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], the connection to [Azure AI](
 ## <a name="use-the-forecasts"></a>Use the Forecasts
 The extension uses Azure AI to predict future sales based on your sales history to help you avoid inventory shortage. For example, when you choose an item on the **Items** page, the chart in the **Item Forecast** pane shows the estimated sales of this item in the coming period. This way you can see if you are likely to run out of stock of the item soon.  
 
-You can also use the extension to suggest when to stock up on inventory. For example, if you create a purchase order for Fabrikam because you want to buy their new desk chair, the Sales and Inventory Forecast extension will suggest that you also restock on the LONDON swivel chair that you usually buy from this supplier. This is because the extension forecasts that you will run out of stock of the LONDON swivel chair in the coming two months, so you might want to order more chairs already now.  
+You can also use the extension to suggest when to stock up on inventory. For example, if you create a purchase order for Fabrikam because you want to buy their new desk chair, the Sales and Inventory Forecast extension will suggest that you also restock on the LONDON swivel chair that you usually buy from this vendor. This is because the extension forecasts that you will run out of stock of the LONDON swivel chair in the coming two months, so you might want to order more chairs already now.  
 
 ## <a name="design-details"></a>Design details
 Subscriptions for [!INCLUDE[prod_short](includes/prod_short.md)] come with access to several predictive web services in all regions where [!INCLUDE[prod_short](includes/prod_short.md)] is available. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) website. 

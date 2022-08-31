@@ -27,7 +27,7 @@ On the **My Settings** page, you can see and change basic settings for your [!IN
 
 The role determines the home page, a starting screen that is designed for the needs of a specific role in an organisation. Depending on your role, the home page, or role centre, gives you an overview of the business, your department, or your personal tasks. It also helps you navigate to your daily tasks and find work that is assigned to you.
 
-* At the top, the navigation allows you to switch between customers, suppliers, items, and other important lists of information. Similarly, actions allow you to initiate tasks, such as create a new sales invoice, directly from the home page.
+* At the top, the navigation allows you to switch between customers, vendors, items, and other important lists of information. Similarly, actions allow you to initiate tasks, such as create a new sales invoice, directly from the home page.
 
 * In the centre, you find the **Activities** area, which shows current data and can be clicked or tapped to view more detailed information. Key performance indicators (KPIs) can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of favourite customers on the home page for business accounts that you do business with often or need to pay special attention to.
 

@@ -121,8 +121,8 @@ If you are using the fixed assets in [!INCLUDE[prod_short](includes/prod_short.m
 6. On the **Integration** FastTab, make sure all fields are blank by clearing all check marks. If you have more than one depreciation book, turn off general ledger integration for each one.  
 7. In the fixed asset journal, enter the following lines for each asset:
    * A line with the acquisition cost.
-   * A line with the accumulated depreciation to the end of the previous financial year.
-   * A line with the accumulated depreciation from the start of the current financial year to the date that [!INCLUDE[prod_short](includes/prod_short.md)] is set to start calculating the depreciation.
+   * A line with the accumulated depreciation to the end of the previous fiscal year.
+   * A line with the accumulated depreciation from the start of the current fiscal year to the date that [!INCLUDE[prod_short](includes/prod_short.md)] is set to start calculating the depreciation.
 
     If you have other opening balances you can also enter them now, such as write-down and appreciation.  
 8. After you have entered and posted the journal lines for each asset, turn on general ledger integration in the depreciation books.

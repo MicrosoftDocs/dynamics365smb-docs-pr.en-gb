@@ -100,7 +100,7 @@ To make predictions about future revenue and expenses, web services require hist
 Before using the predictive web-service [!INCLUDE[prod_short](includes/prod_short.md)] compresses transactions by **Due Date** based on the value in the **Period Type** field on the **Cash Flow Setup** page.
 
 #### <a name="payables"></a>Payables:
-**Due Date**, **Amount (LCY)** fields on the **Supplier Ledger Entries** page, where:
+**Due Date**, **Amount (LCY)** fields on the **Vendor Ledger Entries** page, where:
 - The document type is "Invoice" or "Credit Memo."
 - The due date is between date that is calculated based on values in the **Historical Periods** and **Period Type** fields on the **Cash Flow Setup** page and the work date.
 

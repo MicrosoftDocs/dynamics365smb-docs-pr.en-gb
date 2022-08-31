@@ -53,7 +53,7 @@ You can post in a previous fiscal year, even after the income statement accounts
 
 ## <a name="see-also"></a>See Also
 
-[Work with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md)  
+[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

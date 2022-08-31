@@ -1,6 +1,6 @@
 ---
 title: Design Details - Cost Components | Microsoft Docs
-description: Cost components are different types of costs that make up the value of an stock increase or decrease.
+description: Cost components are different types of costs that make up the value of an inventory increase or decrease.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na

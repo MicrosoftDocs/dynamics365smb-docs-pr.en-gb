@@ -27,8 +27,8 @@ The following table describes a number of reports that may be useful in this pro
 | Print a detailed trial balance report for one or more bank accounts with additional information about individual entries. |Bank Acc. - Detail Trial Bal. |
 | Print a detail trial balance for selected customers. |Customer - Trial Balance |
 | Print a detail trial balance with detailed information about individual entries, for selected customers during a selected period. |Customer - Detail Trial Bal. |
-| Print a detail trial balance for selected suppliers. |Supplier - Trial Balance |
-| Print a detail trial balance with detailed information about individual entries, for selected suppliers during a selected period. |Supplier - Detail Trial Balance |
+| Print a detail trial balance for selected vendors. |Vendor - Trial Balance |
+| Print a detail trial balance with detailed information about individual entries, for selected vendors during a selected period. |Vendor - Detail Trial Balance |
 | Print a trial balance with the current year's and the previous year's figures. |Closing Trial Balance |
 | Print a detailed trial balance report for general ledger account balances. |Detail Trial Balance |
 | Print a trial balance report with balances and net changes for general ledger accounts. |Trial Balance |

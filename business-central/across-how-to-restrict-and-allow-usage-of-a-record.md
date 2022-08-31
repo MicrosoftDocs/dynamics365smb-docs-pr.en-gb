@@ -24,7 +24,7 @@ If you want to restrict a record from being used in certain activities, for exam
 > The default version of [!INCLUDE[prod_short](includes/prod_short.md)] offers support for restricting a record from being posted, from being exported as a payment, and from being printed as a cheque. To support other restrictions, a Microsoft partner must customise the application code.  
 
 > [!NOTE]  
-> The workflow functionality to restrict and allow records from being used is not related to the functionality to block item, customer, and supplier records from being posted.
+> The workflow functionality to restrict and allow records from being used is not related to the functionality to block item, customer, and vendor records from being posted.
 
 The following procedure describes how to restrict purchase orders from being posted until they've been approved. The new workflow will be based on the existing Purchase Invoice Approval Workflow template.  
 

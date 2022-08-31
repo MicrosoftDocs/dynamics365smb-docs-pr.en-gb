@@ -1,6 +1,6 @@
 ---
 title: Export Positive Pay Files
-description: You can ensure your bank only clears validated checks and amounts by exporting a Positive Pay file that contains supplier and payment information.
+description: You can ensure your bank only clears validated checks and amounts by exporting a Positive Pay file that contains vendor and payment information.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -18,7 +18,7 @@ ms.lasthandoff: 03/31/2022
 ms.locfileid: "8517557"
 ---
 # <a name="export-a-positive-pay-file"></a>Export a Positive Pay File
-To make sure that your bank only clears validated cheques and amounts, you can export a Positive Pay file that contains supplier information, cheque number, and payment amount, which you send to the bank for reference when you process payments.
+To make sure that your bank only clears validated cheques and amounts, you can export a Positive Pay file that contains vendor information, cheque number, and payment amount, which you send to the bank for reference when you process payments.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is preconfigured to support Positive Pay files for Bank of America and City Bank.
 

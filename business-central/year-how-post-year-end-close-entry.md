@@ -19,7 +19,7 @@ ms.locfileid: "8519421"
 After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.  
 
 > [!TIP]
-> Depending on your organisations work processes, you can choose to close or not close accounting periods and financial years in [!INCLUDE [prod_short](includes/prod_short.md)]. The following procedure assumes that you have closed the financial year using the *Accounting Periods* option, generated a year-end closing entry using the **Close Income Statement** batch job, and are now ready to post the year-end closing entry along with the offsetting equity account entries. Your organisation can choose to work differently, such as post the year-end closing entry as part of closing the financial year.
+> Depending on your organisations work processes, you can choose to close or not close accounting periods and fiscal years in [!INCLUDE [prod_short](includes/prod_short.md)]. The following procedure assumes that you have closed the fiscal year using the *Accounting Periods* option, generated a year-end closing entry using the **Close Income Statement** batch job, and are now ready to post the year-end closing entry along with the offsetting equity account entries. Your organisation can choose to work differently, such as post the year-end closing entry as part of closing the fiscal year.
 
 ## <a name="to-post-the-year-end-closing-entry"></a>To post the year end closing entry
 

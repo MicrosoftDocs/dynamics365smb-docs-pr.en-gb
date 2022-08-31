@@ -51,8 +51,8 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
 
 > [!NOTE]
 > Known limitation: If you set the **Use Force No. of Days** field to Yes, and the **Force No. of Days** field is set to a value where **Posting Date** minus **Number of Days** results in a date in the previous calendar year, the system will not let you post the depreciation.
-> You can avoid it by reducing the **Force No. of Days** field to no more than than the calculated days until posting date using 30days/month OR set the flag **Financial Year 365 Days** in the Depreciation Book.
-> We recommend the first option as you may not want to change the use of 30days/months for depreciation. For more information, see [Financial Year 365 Days Field Depreciation](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+> You can avoid it by reducing the **Force No. of Days** field to no more than than the calculated days until posting date using 30days/month OR set the flag **Fiscal Year 365 Days** in the Depreciation Book.
+> We recommend the first option as you may not want to change the use of 30days/months for depreciation. For more information, see [Fiscal Year 365 Days Field Depreciation](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
 
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>To post depreciation manually from the fixed asset G/L journal

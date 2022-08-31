@@ -42,15 +42,15 @@ A bank account is usually monitored daily to make sure that any new payments fro
 
 ![Illustration of bank payment.](media/Set-Up-Bank-Accounts/Bank-payment-flow.png)
 
-Another task is to import the supplier currency payments with the realised currency rates to make sure that the actual status of the suppliers is up-to-date. The easiest way to make sure that the bank account is updated is using the [payment reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md) capability. In the **Payment Reconciliation Journal**, you can import bank transactions directly from an online bank application and have them posted more or less automatically. The journal automatically identifies and posts the following:  
+Another task is to import the vendor currency payments with the realised currency rates to make sure that the actual status of the vendors is up-to-date. The easiest way to make sure that the bank account is updated is using the [payment reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md) capability. In the **Payment Reconciliation Journal**, you can import bank transactions directly from an online bank application and have them posted more or less automatically. The journal automatically identifies and posts the following:  
 
 - Direct debit payments from customers  
 - Customer payments of single invoices  
 - Lump-sum payments from customers  
 - Customer payments in foreign currencies  
-- Supplier payments  
-- Supplier payments in foreign currency  
-- Recurring supplier payments and subscriptions  
+- Vendor payments  
+- Vendor payments in foreign currency  
+- Recurring vendor payments and subscriptions  
 - Bank charges and interests  
 
 Payment reconciliation provides massive time savings in posting incoming and outgoing payments. However, the transactions on the bank account in [!INCLUDE[prod_short](includes/prod_short.md)] is not considered 100% correct until you run a bank reconciliation.  
@@ -65,11 +65,11 @@ From the bank account in [!INCLUDE[prod_short](includes/prod_short.md)], most tr
 
 - Corrections posted in [!INCLUDE[prod_short](includes/prod_short.md)]  
 - Cheques issued that have not been cashed yet  
-- Supplier payments that have not been approved by the bank  
+- Vendor payments that have not been approved by the bank  
 
 From the physical account in the bank, unknown transactions that were not identified in the payment reconciliation journal arrive all the time, such as the following:  
 
-- New supplier subscriptions  
+- New vendor subscriptions  
 - Customer payments without description
 - Bank interests
 - Bank Charges
@@ -218,9 +218,9 @@ The illustration shows the route of outbound payments:
     :::column-end:::
 :::row-end:::
 
-## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>To set up supplier bank accounts for export of bank files
+## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>To set up vendor bank accounts for export of bank files
 
-Fields on the **Transfer** FastTab on the **Supplier Bank Account Card** page are related to export of bank feeds and files. For more information, see [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are related to export of bank feeds and files. For more information, see [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 

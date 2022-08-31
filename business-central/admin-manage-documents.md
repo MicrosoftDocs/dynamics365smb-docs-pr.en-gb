@@ -38,17 +38,17 @@ You can compress data in [!INCLUDE [prod_short](includes/prod_short.md)] to save
 
 You can compress entries under the following conditions:
 
-* They're from closed financial years
+* They're from closed fiscal years
 * The **Open** field is set to **No** 
 * They're at least five years old. If you want to compress data that is less than five years old, contact your Microsoft partner.
 
-For example, supplier ledger entries from previous financial years can be compressed so that there is only one credit and one debit entry per account per month. The amount in the new entry is the sum of all the compressed entries. The date assigned is the starting date for the period that is compressed, such as the first day of the month (if the entries are compressed by month). After the compression, you can still see the net change for each account in the previous financial year.
+For example, vendor ledger entries from previous fiscal years can be compressed so that there is only one credit and one debit entry per account per month. The amount in the new entry is the sum of all the compressed entries. The date assigned is the starting date for the period that is compressed, such as the first day of the month (if the entries are compressed by month). After the compression, you can still see the net change for each account in the previous fiscal year.
 
 The number of entries that result from a date compression depends on how many filters you set, which fields are combined, and which period length you choose. There will always be at least one entry. When the batch job is finished, you can see the result in the **Date Compr. Registers** page.
 
 You can compress the following types of data using batch jobs. There is a batch job for each type of data.
 
-* Finance entries - G/L entries, VAT entries, bank account ledger entries, G/L budget entries, customer ledger entries, supplier ledger entries.
+* Finance entries - G/L entries, VAT entries, bank account ledger entries, G/L budget entries, customer ledger entries, vendor ledger entries.
 * Warehouse entries 
 * Resource entries
 * Item budget entries
@@ -59,7 +59,7 @@ When you are defining criteria for the compression, you can use the options unde
 > [!NOTE]
 > Before you can run date compression, your analysis views must be up to date. For more information, see [To update an analysis view](bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
 
-After the compression, the contents of the following fields are always retained: **Posting Date**, **Supplier No.**, **Document Type**, **Currency Code**, **Posting Group**, **Amount**, **Remaining Amount**, **Original Amt. (LCY)**, **Remaining Amt. (LCY)**, **Amount (LCY)**, **Purchase (LCY)**, **Inv. Discount (LCY)**, **Pmt. Disc. Given (LCY)**, and **Pmt. Disc. Possible**.
+After the compression, the contents of the following fields are always retained: **Posting Date**, **Vendor No.**, **Document Type**, **Currency Code**, **Posting Group**, **Amount**, **Remaining Amount**, **Original Amt. (LCY)**, **Remaining Amt. (LCY)**, **Amount (LCY)**, **Purchase (LCY)**, **Inv. Discount (LCY)**, **Pmt. Disc. Given (LCY)**, and **Pmt. Disc. Possible**.
 
 ## <a name="posting-compressed-entries"></a>Posting Compressed Entries
 Compressed entries are posted slightly differently than standard posting. This is to reduce the number of new general ledger entries created by date compression, and is especially important when you keep information such as dimensions and document numbers. Date compression creates new entries as follows:
@@ -69,7 +69,7 @@ Compressed entries are posted slightly differently than standard posting. This i
 The posting process creates gaps in the number series for entries on the **General Ledger Entries** page. Those numbers are assigned to the entries on the ledger pages only. The number range that was assigned to the entries is available on the **G/L Register page**  in the **From Entry No.** and **To Entry No.** fields. 
 
 > [!NOTE]
-> After you run date compression, all accounts in the ledger are locked. For example, you cannot un-apply supplier or bank ledger entries for any accounts during the period for which dates are compressed.
+> After you run date compression, all accounts in the ledger are locked. For example, you cannot un-apply vendor or bank ledger entries for any accounts during the period for which dates are compressed.
 
 The number of entries that result from a date compression depends on how many filters you set, which fields are combined, and which period length you choose. There will always be at least one entry. 
 

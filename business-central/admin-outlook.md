@@ -19,7 +19,7 @@ ms.locfileid: "8654923"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Get the Business Central Add-in for Outlook
 
-With [!INCLUDE[prod_short](includes/prod_short.md)], you can manage business interactions with your customers and suppliers, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook add-in, you'll  see financial data related to customers and vendors. You can also create and send financial documents, such as quotes and invoices.  
+With [!INCLUDE[prod_short](includes/prod_short.md)], you can manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook add-in, you'll  see financial data related to customers and vendors. You can also create and send financial documents, such as quotes and invoices.  
 
 There are two ways to get the Business Central add-in for Outlook installed, depending on your role in the organisation:
 
@@ -33,7 +33,7 @@ The Business Central add-in for Outlook consists of two smaller add-ins:
 
 - Contact insights
 
-    This add-in provides users with [!INCLUDE[prod_short](includes/prod_short.md)] customer or supplier information in Outlook emails and calendar appointments. It also enables you to create and send [!INCLUDE[prod_short](includes/prod_short.md)] business documents, such sales quotes and invoices to a contact. <!--To support these task, the add-in adds actions to the Outlook ribbon, in the **Business Central** group. --> 
+    This add-in provides users with [!INCLUDE[prod_short](includes/prod_short.md)] customer or vendor information in Outlook emails and calendar appointments. It also enables you to create and send [!INCLUDE[prod_short](includes/prod_short.md)] business documents, such sales quotes and invoices to a contact. <!--To support these task, the add-in adds actions to the Outlook ribbon, in the **Business Central** group. --> 
 
 - Document view
 

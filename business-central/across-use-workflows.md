@@ -24,8 +24,8 @@ The workflows are designed to create requests for approval of a new value while 
 
 The business logic could be approval of:
 
-- New master data like G/L Accounts, customers, suppliers, or items
-- Changes to fields in existing records containing sensible information, such as **Supplier Bank Account No.** or **Customer Credit Limit**
+- New master data like G/L Accounts, customers, vendors, or items
+- Changes to fields in existing records containing sensible information, such as **Vendor Bank Account No.** or **Customer Credit Limit**
 - Changes to fields in existing records containing business critical information, such as **Item Sales Prices**
 - New users or changes to user permissions
 - Purchase documents

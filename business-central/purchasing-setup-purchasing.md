@@ -23,14 +23,14 @@ Before you can manage purchase processes, you must configure the rules and value
 
 You must define the general setup, such as which purchase documents are required and how their values are posted. This general setup is typically performed once during the initial implementation.
 
-A separate series of tasks related to registering new suppliers is to record any special price or discount agreements that you have with each supplier.
+A separate series of tasks related to registering new vendors is to record any special price or discount agreements that you have with each vendor.
 
 Finance-related purchase setup, such as payment methods and currencies, are covered in the Finance Setup section. For more information, see [Setting Up Finance](finance-setup-finance.md). Similarly, inventory-related purchase setup, like units of measure and item tracking codes can be found in the [Inventory Setup section](inventory-setup-inventory.md).
 
 | To | See |
 | --- | --- |
 | Create a vendor card for each vendor that you purchase from. |[Register New Suppliers](purchasing-how-register-new-vendors.md) |
-| Prioritise suppliers |[Prioritise Suppliers](purchasing-how-prioritize-vendors.md) |
+| Prioritise vendors |[Prioritise Suppliers](purchasing-how-prioritize-vendors.md) |
 | Enter bank account information—including IBAN and SWIFT Codes—to your vendor's card. | [Set Up Vendor Bank Accounts](purchasing-how-set-up-vendors-bank-accounts.md) |
 | Set up purchasers, assign them vendors, and codes to track statistics. |[Set Up Purchasers](purchasing-how-setup-purchasers.md) |
 | Enter the different discounts and special prices that vendors grant you depending on item, quantities, and/or date. |[Record Purchase Price, Discount, and Payment Agreements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |

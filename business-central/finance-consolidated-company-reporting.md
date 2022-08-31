@@ -30,7 +30,7 @@ If the financial statements of a business unit are in a different currency than 
 You can consolidate:  
 
 * Across companies that have different charts of accounts.  
-* Companies that use different financial years and different currencies.  
+* Companies that use different fiscal years and different currencies.  
 * Either the full amount or a percentage of a company's financial information
 * Using different currency exchange rates in individual G/L accounts
 * Companies in other accounting and business management programmes

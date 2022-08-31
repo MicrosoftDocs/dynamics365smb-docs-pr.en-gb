@@ -20,7 +20,7 @@ ms.locfileid: "8417526"
 # <a name="work-with-vat-on-sales-and-purchases"></a>Work with VAT on Sales and Purchases
 If your country or region requires you to calculate and report value-added tax (VAT) on sales and purchase transactions, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate VAT. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).
 
-There are, however, some VAT-related tasks that you can do manually. For example, you might need to correct a posted amount if you discover that a supplier uses a different rounding method.  
+There are, however, some VAT-related tasks that you can do manually. For example, you might need to correct a posted amount if you discover that a vendor uses a different rounding method.  
 
 > [!TIP]
 > You can let [!INCLUDE[prod_short](includes/prod_short.md)] validate VAT registration numbers and other company information when you create or update documents. For more information, see [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md).
@@ -85,7 +85,7 @@ The following describes how to enable manual VAT changes on sales documents. The
 > The total VAT amount for the invoice, grouped by VAT identifier, is displayed in the lines. You can manually adjust the amount in the **VAT Amount** field on the lines for each VAT identifier. When you modify the **VAT Amount** field, application checks to ensure that you have not changed the VAT by more than the amount you have specified as the maximum difference allowed. If the amount is outside the range of the **Max. VAT Difference Allowed**, a warning will be displayed stating the maximum allowed difference. You will be unable to proceed until the amount is adjusted to within the acceptable parameters. Click **OK** and enter another **VAT Amount** that is within the allowed range. If the VAT difference is equal to or lower than the maximum allowed, the VAT will be divided proportionally among the document lines that have the same VAT identifier.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Calculating VAT Manually Using Journals  
-You can also adjust VAT amounts in general, sales, and purchase journals. For example, you might need to do this when you enter a supplier invoice in your journal and there is a difference between the VAT amount that [!INCLUDE[prod_short](includes/prod_short.md)] calculated and the VAT amount on the supplier's invoice.  
+You can also adjust VAT amounts in general, sales, and purchase journals. For example, you might need to do this when you enter a vendor invoice in your journal and there is a difference between the VAT amount that [!INCLUDE[prod_short](includes/prod_short.md)] calculated and the VAT amount on the vendor's invoice.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>To set the system up for manual VAT entry in a general journals
 You must perform the following steps before you manually enter VAT in a general journal.  
@@ -107,7 +107,7 @@ You must perform the following steps before you manually enter VAT in a sales or
 Instead of using journals to post an import VAT invoice, you can use a purchase invoice.  
 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>To set up purchasing for posting import VAT invoices  
-1. Set up a supplier card for the import authority that sends you the import VAT invoice. The **Gen. Bus. Posting Group** and **VAT Bus. Posting Group** must be set up in the same way as the general ledger account for the import VAT.  
+1. Set up a vendor card for the import authority that sends you the import VAT invoice. The **Gen. Bus. Posting Group** and **VAT Bus. Posting Group** must be set up in the same way as the general ledger account for the import VAT.  
 2. Create a **Gen. Product Posting Group** for the import VAT and set up an import VAT **Def. VAT Product Posting Group** for the related **Gen. Product Posting Group**.  
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 4. Select the import VAT general ledger account, and then choose the **Edit** action.  
@@ -115,17 +115,17 @@ Instead of using journals to post an import VAT invoice, you can use a purchase 
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
 7. Create a combination of the **Gen. Bus. Posting Group** for the VAT authority and the **Gen. Prod. Posting Group** for import VAT. For this new combination, in the **Purchase Account** field, choose the import VAT general ledger account.  
 
-### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>To create a new invoice for the import authority supplier once you have completed the setup  
+### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>To create a new invoice for the import authority vendor once you have completed the setup  
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. Create a new purchase invoice.  
-3. In the **Buy-from Supplier No.** field, choose the import authority supplier, and then choose the **OK** button.  
+3. In the **Buy-from Supplier No.** field, choose the import authority vendor, and then choose the **OK** button.  
 4. In the purchase line, in the **Type** field, choose **G/L Account**, and in the **No.** field, choose the import VAT general ledger account.  
 5. In the **Quantity** field, type **1**.  
 6. In the **Direct Unit Cost Excl. VAT** field, specify the VAT amount.  
 7. Post the invoice.  
 
 ## <a name="processing-certificates-of-supply"></a>Processing Certificates of Supply
-When you sell goods to a customer in another EU country/region, you must send the customer a certificate of supply that the customer must sign and return to you. The following procedures are for processing certificates of supply for sales shipments, but the same steps apply for service shipments of items, and return shipments to suppliers.  
+When you sell goods to a customer in another EU country/region, you must send the customer a certificate of supply that the customer must sign and return to you. The following procedures are for processing certificates of supply for sales shipments, but the same steps apply for service shipments of items, and return shipments to vendors.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>To view certificate of supply details  
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  

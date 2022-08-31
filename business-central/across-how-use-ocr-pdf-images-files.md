@@ -73,26 +73,26 @@ Now you can proceed to create document records for the received electronic docum
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>To create a purchase invoice from an electronic document received from the OCR service
 
-The following procedure describes how to create a purchase invoice record from a supplier invoice received as an electronic document from the OCR service. The procedure is the same when you create, for example, a general journal line from an expense receipt or a sales return order from a customer.
+The following procedure describes how to create a purchase invoice record from a vendor invoice received as an electronic document from the OCR service. The procedure is the same when you create, for example, a general journal line from an expense receipt or a sales return order from a customer.
 
 > [!NOTE]  
 > The **Description** and **No.** fields on the created document lines will only be filled if you have first mapped text found on the OCR document to the two fields in [!INCLUDE[prod_short](includes/prod_short.md)]. You can do this mapping as item references, for document lines of type Item. For more information, see [Use Item References](inventory-how-use-item-cross-refs.md). You can also use the **Text-to-Account Mapping** function. For more information, see [Map text on an incoming document to a specific vendor, G/L, or bank account](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Select the line for the incoming document, and then choose the **Create Document** action.
 
-A purchase invoice will be created in [!INCLUDE[prod_short](includes/prod_short.md)] based on the information in the electronic supplier document that you received from the OCR service. Information will be inserted in the new purchase invoice based on the mapping that you've defined as a reference or as text-to-account mapping.
+A purchase invoice will be created in [!INCLUDE[prod_short](includes/prod_short.md)] based on the information in the electronic vendor document that you received from the OCR service. Information will be inserted in the new purchase invoice based on the mapping that you've defined as a reference or as text-to-account mapping.
 
 Any validation errors, typically related to wrong or missing data in [!INCLUDE[prod_short](includes/prod_short.md)], will be shown on the **Errors and Warnings** FastTab. For more information, see [Handle errors when receiving electronic documents](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
-### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>To map text on an incoming document to a specific supplier account
+### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>To map text on an incoming document to a specific vendor account
 
-For incoming documents, you typically use the **Map Text to Account** action to define that a certain text on a supplier invoice received from the OCR service is mapped to a certain supplier account. Going forward, any part of the incoming document description that exists as a mapping text means that the **Vendor No.** field on resulting document or journal lines of type *G/L Account* are filled with the vendor in question.
+For incoming documents, you typically use the **Map Text to Account** action to define that a certain text on a vendor invoice received from the OCR service is mapped to a certain vendor account. Going forward, any part of the incoming document description that exists as a mapping text means that the **Vendor No.** field on resulting document or journal lines of type *G/L Account* are filled with the vendor in question.
 
 In addition to mapping to a vendor account or G/L accounts, you can also map text to a bank account. This option is useful, for example, for electronic documents for expenses that are already paid, and for which you want to create a general journal line that is ready to post to a bank account.
 
 1. Select the relevant incoming document line, and then choose the **Map Text to Account** action. The **Text-to-Account Mapping** page opens.
-2. In the **Mapping Text** field, enter any text that occurs on supplier invoices that you want to create purchase documents or journal lines for. You can enter up to 50 characters.
-3. In the **Supplier No.** field, enter the supplier that the resulting purchase document or journal line will be created for.
+2. In the **Mapping Text** field, enter any text that occurs on vendor invoices that you want to create purchase documents or journal lines for. You can enter up to 50 characters.
+3. In the **Supplier No.** field, enter the vendor that the resulting purchase document or journal line will be created for.
 4. In the **Debit Acc. No.** field, enter the debit-type G/L account that will be inserted on resulting purchase document or journal line of type G/L Account.
 5. In the **Credit Acc. No.** field, enter the credit-type G/L account that will be inserted on resulting purchase document or journal line of type G/L Account.
 
@@ -105,7 +105,7 @@ In addition to mapping to a vendor account or G/L accounts, you can also map tex
 1. On the **Incoming Documents** page, select the line for an electronic document received from the OCR service with errors, indicated by the *Error* value in the **OCR Status** field.
 2. Choose the **Edit** action to open the **Incoming Document** page.
 3. On the **Errors and Warnings** FastTab, select the message, and then choose the **Open Related Record** action.
-4. The page that contains the wrong or missing data, such as a supplier card with a missing field value, opens.
+4. The page that contains the wrong or missing data, such as a vendor card with a missing field value, opens.
 5. Correct the error or errors as described in each error message.
 6. Proceed to process the incoming electronic document by choosing the **Create Manually** action again.
 7. Repeat steps 5 and 6 for any remaining errors until the electronic document can be received successfully.

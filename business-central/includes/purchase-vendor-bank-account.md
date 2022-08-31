@@ -10,7 +10,7 @@ ms.contentlocale: en-GB
 ms.lasthandoff: 07/13/2022
 ms.locfileid: "9144424"
 ---
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Suppliers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the card for the vendor.
 3. Choose the **Bank Accounts** action.
 4. From the **Vendor Bank Accounts List**, choose the relevant bank account, or add a new bank account by choosing **New**.

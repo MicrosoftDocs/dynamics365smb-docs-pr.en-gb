@@ -27,7 +27,7 @@ The item card can be of type **Inventory**, **Service**, or **Non-Inventory** to
 
 An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[prod_short](includes/prod_short.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
 
-If you purchase the same item from more than one supplier, you can connect those suppliers to the item card. The suppliers will then appear on the **Item Supplier Catalogue** page, so that you can easily select an alternate supplier.
+If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The vendors will then appear on the **Item Supplier Catalogue** page, so that you can easily select an alternate vendor.
 
 Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalogue items. Catalogue items are not to be mistaken with regular items of type **Non-Inventory**. For more information, see [Work with Catalogue Items](inventory-how-work-nonstock-items.md).  
 
@@ -47,7 +47,7 @@ The following procedure explains how to create an item card from scratch. You ca
 >
 > If you select **Average**, then the item's unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field to view, on the **Average Cost Calc. Overview** page, the history of transactions that the average cost is calculated from.
 
-You can view or edit special prices or discounts that you grant, or that your supplier grants you, for the item if certain criteria are met, such as customer, minimum order quantity, or ending date. You do this by choosing the **Set Special Prices** or **Set Special Discounts** actions. Each row on, for example, the **Sales Prices** page represents a special price. Each column represents a criterion that must apply to grant a customer the special price that you enter in the **Unit Price** field on the **Sales Prices** page. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md) or [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+You can view or edit special prices or discounts that you grant, or that your vendor grants you, for the item if certain criteria are met, such as customer, minimum order quantity, or ending date. You do this by choosing the **Set Special Prices** or **Set Special Discounts** actions. Each row on, for example, the **Sales Prices** page represents a special price. Each column represents a criterion that must apply to grant a customer the special price that you enter in the **Unit Price** field on the **Sales Prices** page. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md) or [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
 The item is now registered, and the item card is ready to be used on purchase and sales documents.
 
@@ -67,18 +67,18 @@ The item template is added to the list of item templates, so that you can use it
 
 If you want to register items that are then used in production orders, you specify the replenishment system as *Prod. order* on the **Replenishment** FastTab. For more information, see [About Production Orders](production-about-production-orders.md).  
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a>To set up multiple suppliers for an item
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>To set up multiple vendors for an item
 
-If you purchase the same item from more than one supplier, you must enter information about each supplier of the item, such as prices, lead time, discounts, and so on.  
+If you purchase the same item from more than one vendor, you must enter information about each vendor of the item, such as prices, lead time, discounts, and so on.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select the relevant item, and then choose the **Edit** action.  
-3. Choose the **Suppliers** action.  
-4. Choose the **Supplier No.** field, and then select the supplier that you want to set up for the item.  
+3. Choose the **Vendors** action.  
+4. Choose the **Supplier No.** field, and then select the vendor that you want to set up for the item.  
 5. Optionally, fill in the remaining fields.  
-6. Repeat steps 2 through 5 for each supplier that you want to buy the item from.
+6. Repeat steps 2 through 5 for each vendor that you want to buy the item from.
 
-The suppliers will now appear on the **Item Supplier Catalogue** page, which you open from the item card, so that you can easily select an alternate supplier.
+The vendors will now appear on the **Item Supplier Catalogue** page, which you open from the item card, so that you can easily select an alternate vendor.
 
 ## <a name="set-up-item-substitutions"></a>Set up item substitutions
 
@@ -103,9 +103,9 @@ When the quantity requested, such as on a sales line, exceeds the quantity that 
 
 ## <a name="deleting-item-cards"></a>Deleting item cards
 
-If you have posted a transaction for an item, you cannot delete the card because the ledger entries may be needed for stock valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
+If you have posted a transaction for an item, you cannot delete the card because the ledger entries may be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
 
-## <a name="manage-inventory-in-warehouses"></a>Manage stock in warehouses
+## <a name="manage-inventory-in-warehouses"></a>Manage inventory in warehouses
 
 When you register a new item, you will see fields that are related to warehouse management, especially on the **Warehouse** FastTab. If your organisation does not use the warehouse management capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], then you can ignore those fields.  
 
@@ -124,7 +124,7 @@ For examples of how you can use the fields on the **Planning** FastTab, see [Set
 [Inventory](inventory-manage-inventory.md)  
 [Set Up Units of Measurement](inventory-how-setup-units-of-measure.md)  
 [Commodity codes](finance-how-setup-report-intrastat.md#tariff-numbers)  
-[Reconcile Stock Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Setting Up Posting Groups](finance-posting-groups.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

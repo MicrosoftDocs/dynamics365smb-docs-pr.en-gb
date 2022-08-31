@@ -28,7 +28,7 @@ A purchase quote can be used as a preliminary draft for a purchase order, and th
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>To convert a purchase quote to a purchase order
 
-When you have accepted the supplier's quote, you can convert it to a purchase invoice or order to process the purchase.
+When you have accepted the vendor's quote, you can convert it to a purchase invoice or order to process the purchase.
 
 1. Open a purchase quote that is ready to convert, and then choose the **Make Order** action.
 

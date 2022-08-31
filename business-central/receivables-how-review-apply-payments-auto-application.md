@@ -23,7 +23,7 @@ For each journal line representing a payment on the **Payment Reconciliation Jou
 > [!IMPORTANT]  
 >   When the bank account that you are reconciling payments for is set up for the local currency, then the **Payment Application** page will show all open entries in the local currency, including open entries for documents that were originally invoiced in foreign currencies. Payments applied to entries with converted currencies may therefore be posted with different amounts than on the original document because of the potentially different exchange rates used by the bank and [!INCLUDE[prod_short](includes/prod_short.md)] respectively.
 
-Therefore, we recommend that you look for foreign currency codes in the **Currency Code** field on the **Payment Application** page to check if applications are based on converted currencies. To review the original document amount in the foreign currency and to see the exchange rate used, choose the **Applies-to Entry No.** field, and then, on the shortcut menu, choose the drilldown button to open the **Customer Ledger Entries** or **Supplier Ledger Entries** page.
+Therefore, we recommend that you look for foreign currency codes in the **Currency Code** field on the **Payment Application** page to check if applications are based on converted currencies. To review the original document amount in the foreign currency and to see the exchange rate used, choose the **Applies-to Entry No.** field, and then, on the shortcut menu, choose the drilldown button to open the **Customer Ledger Entries** or **Vendor Ledger Entries** page.
 
 Any gains-and-loss adjustment required due to currency conversions is not handled automatically by [!INCLUDE[prod_short](includes/prod_short.md)].
 

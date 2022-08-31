@@ -18,7 +18,7 @@ ms.locfileid: "9074566"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Work with Blanket Sales Orders or Blanket Purchase Orders
 
-A blanket sales order represents a framework for a long-term agreement between you and your customer. Similarly, you use blanket purchase orders to manage long-term agreements between you and your supplier.
+A blanket sales order represents a framework for a long-term agreement between you and your customer. Similarly, you use blanket purchase orders to manage long-term agreements between you and your vendor.
 
 A blanket order is typically made when a customer has committed to purchasing large quantities that are to be delivered in several smaller shipments over a certain period of time. Often blanket orders cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a sales order is that quantities entered on a blanket order do not affect item availability and thus can be used as a worksheet for monitoring, forecasting, and planning purposes.
 
@@ -67,7 +67,7 @@ You can see the status of a blanket sales order on the **Blanket Sales Order Sta
 - On the **Invoicing** FastTab, you can see summary information based on the total quantity in the **Qty. to Invoice** fields on the sales blanket order lines.  
 - On the **Shipping** FastTab, you can see summary information based on the total quantity in the **Qty. to Receive** fields on the sales blanket order lines.  
 - On the **Prepayment** FastTab, you can see summary information about any prepaid amounts.  
-- On the **Supplier** FastTab, you can see certain basic information about the supplier.
+- On the **Supplier** FastTab, you can see certain basic information about the vendor.
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>To view unposted and posted blanket sales order lines
 

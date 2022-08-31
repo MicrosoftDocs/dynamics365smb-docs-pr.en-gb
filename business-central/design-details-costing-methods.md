@@ -33,11 +33,11 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 | Specific | An item's unit cost is the exact cost at which the particular unit was received. | In production or trade of easily identifiable items with fairly high unit costs.<br /><br /> For items that are subject to regulation.<br /><br /> For items with serial numbers. |
 | Standard | An item's unit cost is preset based on estimated.<br /><br /> When the actual cost is realised later, the standard cost must be adjusted to the actual cost through variance values. | Where cost control is critical.<br /><br /> In repetitive manufacturing, to value the costs of direct material, direct labour, and manufacturing overhead.<br /><br /> Where there is discipline and staff to maintain standards. |
 
-The following image shows how costs flow through the stock for each costing method.  
+The following image shows how costs flow through the inventory for each costing method.  
 
 ![Costing methods visualized.](media/design_details_inventory_costing_7_costing_methods.png "Costing methods visualized")  
 
-Costing methods differ in the way that they value stock decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. (The LIFO method is excluded, as it is very similar to the FIFO method.)  
+Costing methods differ in the way that they value inventory decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. (The LIFO method is excluded, as it is very similar to the FIFO method.)  
 
 |Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  

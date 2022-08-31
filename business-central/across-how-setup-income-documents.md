@@ -20,7 +20,7 @@ ms.locfileid: "9079383"
 
 If you create general journal lines from incoming document records, you must specify on the **Incoming Documents Setup** page which journal template and batch to use.
 
-When the **Incoming Documents** feature is set up, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting supplier, customer, and general ledger entries. For more information, see [Create Incoming Documents Records](across-how-create-income-document-records.md).
+When the **Incoming Documents** feature is set up, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries. For more information, see [Create Incoming Documents Records](across-how-create-income-document-records.md).
 
 ## <a name="to-set-up-the-incoming-documents-feature"></a>To set up the Incoming Documents feature
 

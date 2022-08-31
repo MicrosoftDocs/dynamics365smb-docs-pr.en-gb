@@ -24,7 +24,7 @@ Catalogue items are items that you don't manage in [!INCLUDE[prod_short](include
 > [!NOTE]  
 > You cannot select a catalogue item from the **Sales Invoice** page.
 
-A catalogue item typically has the item number of the supplier who supplies it. Before you can convert a catalogue item to a normal item, you must specify how to convert vendor item numbers to your item numbering. For more information, see [Specify how catalogue item numbers are converted to your own numbering](#specify-how-catalog-item-numbers-are-converted-to-your-own-numbering).  
+A catalogue item typically has the item number of the vendor who supplies it. Before you can convert a catalogue item to a normal item, you must specify how to convert vendor item numbers to your item numbering. For more information, see [Specify how catalogue item numbers are converted to your own numbering](#specify-how-catalog-item-numbers-are-converted-to-your-own-numbering).  
 
 > [!IMPORTANT]
 > Catalogue items are not to be mistaken with non-inventory items, which are regular items that are given the type **Non-Inventory** to keep them out of availability and costing calculations, for example, because they are only used internally and have a low cost. For more information, see [About Item Types](inventory-about-item-types.md).
@@ -66,7 +66,7 @@ A new item card pre-filled with information from the catalogue item and a releva
 You can then fill or edit fields on the new item card as necessary. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
 > [!NOTE]  
-> An item reference is automatically item between the supplier's item number and your new item number. For more information, see [Use Item References](inventory-how-use-item-cross-refs.md).
+> An item reference is automatically item between the vendor's item number and your new item number. For more information, see [Use Item References](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
 

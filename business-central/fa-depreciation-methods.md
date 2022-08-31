@@ -94,9 +94,9 @@ The following formula calculates depreciation amounts:
 
 *Depreciation Amount = (Declining-Bal. % x Number of Depreciation Days x Depr. Basis) / (100 x 360)*  
 
-The depreciable basis is calculated as the book value less posted depreciation since the starting date of the current financial year.  
+The depreciable basis is calculated as the book value less posted depreciation since the starting date of the current fiscal year.  
 
-The posted depreciation amount can contain entries with various posting types (write-down, custom1, and custom2) posted since the starting date of the current financial year. These posting types are included in the posted depreciation amount if there are check marks in the **Depreciation Type** and the **Part of Book Value** fields on the **FA Posting Type Setup** page.  
+The posted depreciation amount can contain entries with various posting types (write-down, custom1, and custom2) posted since the starting date of the current fiscal year. These posting types are included in the posted depreciation amount if there are check marks in the **Depreciation Type** and the **Part of Book Value** fields on the **FA Posting Type Setup** page.  
 
 ### <a name="example---declining-balance-1-depreciation"></a>Example - Reducing-Balance Depreciation
 
@@ -231,14 +231,14 @@ This depreciation method can be used in conjunction with the following depreciat
 * Reducing-Balance  
 * Sum of Digits  
 
-When you apply the Half-Year Convention, a fixed asset has six months of depreciation in the first financial year, regardless of the contents of the **Depreciation Starting Date** field.  
+When you apply the Half-Year Convention, a fixed asset has six months of depreciation in the first fiscal year, regardless of the contents of the **Depreciation Starting Date** field.  
 
 > [!NOTE]  
-> The estimated life of the fixed asset that is remaining after the first fiscal year will always contain a half-year using the Half-Year Convention Method. Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field on the **FA Depreciation Book** page must always contain a date which is exactly six months before the final date of the financial year in which the fixed asset will fully depreciate.  
+> The estimated life of the fixed asset that is remaining after the first fiscal year will always contain a half-year using the Half-Year Convention Method. Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field on the **FA Depreciation Book** page must always contain a date which is exactly six months before the final date of the fiscal year in which the fixed asset will fully depreciate.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Example - Half-Year Convention Depreciation
 
-A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 03/01/20. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/25. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar financial year.  
+A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 03/01/20. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/25. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
 
 The fixed asset ledger entries look like this:  
 
@@ -254,7 +254,7 @@ The fixed asset ledger entries look like this:
 
 ## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Example - Sum of Digits Depreciation Using Half-Year Convention
 
-A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 11/01/20. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/25. On the **FA Depreciation Books** page, the **Declining-Balance %** field contains 40. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar financial year.  
+A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 11/01/20. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/25. On the **FA Depreciation Books** page, the **Declining-Balance %** field contains 40. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
 
 The fixed asset ledger entries look like this:  
 

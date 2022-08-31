@@ -18,7 +18,7 @@ ms.lasthandoff: 03/31/2022
 ms.locfileid: "8512393"
 ---
 #  <a name="create-analysis-reports"></a>Create Analysis Reports
-Sales managers need to analyze turnover, gross profit and other key sales performance indicators on a regular basis. Purchasers, are more interested in the dynamics of purchase volumes, suppliers' performance and purchase prices. Whereas logistics/inventory managers need information on inventory turnover, analysis of inventory movement, and statistics on inventory value.  
+Sales managers need to analyze turnover, gross profit and other key sales performance indicators on a regular basis. Purchasers, are more interested in the dynamics of purchase volumes, vendors' performance and purchase prices. Whereas logistics/inventory managers need information on inventory turnover, analysis of inventory movement, and statistics on inventory value.  
 
 You can use analysis reports to create customised reports based on records of your posted transactions, for example, sales, purchases, transfers and inventory adjustments. In a customizable report, the source data, which is derived from the item ledger (with associated value entries), can be combined, compared and presented in meaningful user-defined ways. In this sense, the analysis report is very similar to a PivotTable report in Microsoft Excel.  
 
@@ -76,12 +76,12 @@ The following procedure is based on analysis reports for sales. The steps are si
 
 In an analysis report your analysis objects are shown on the lines. You can define the lines that you want to include in your analysis report by setting up analysis line templates.  
 
-A template contains a set of lines representing the analysis lines that you see in the analysis report. A line can specify one or a range of items, customers, suppliers, or groups. You can also create a formula in a line to sum up the other lines. You can set up as many line templates as you like, and then use them to create new analysis reports.    
+A template contains a set of lines representing the analysis lines that you see in the analysis report. A line can specify one or a range of items, customers, vendors, or groups. You can also create a formula in a line to sum up the other lines. You can set up as many line templates as you like, and then use them to create new analysis reports.    
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Line Templates**, and then choose the related link.  
 2. Select the first empty line, and then fill in the fields as necessary.
 3. Choose the **Lines** action.  
-4. On the **Analysis Lines** page, create lines for the items, customers, suppliers, or salespeople you want to view figures for in your analysis report. You must fill in the **Type**, **Range**, and the **Description** fields.  
+4. On the **Analysis Lines** page, create lines for the items, customers, vendors, or salespeople you want to view figures for in your analysis report. You must fill in the **Type**, **Range**, and the **Description** fields.  
 
 > [!NOTE]  
 >   Alternatively, when you want to create many individual lines for each item, customer, and so on, you can select the appropriate insert option to fill in all the relevant fields on the line. If you need to, you can then edit the lines manually. To insert lines, choose the **Insert Items** action or the **Insert Item Groups** action.  

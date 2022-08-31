@@ -50,7 +50,7 @@ For both types of deferral, select **Balance Sheet** in the **Type** field, and 
    * %3 = The month number of the period posting date
    * %4 = The month name of the period posting date
    * %5 = The accounting period name of the period posting date
-   * %6 = The financial year of the period posting date
+   * %6 = The fiscal year of the period posting date
 
 Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %4 %6”, then the description displayed will be "Expenses deferred for February 2016".
 

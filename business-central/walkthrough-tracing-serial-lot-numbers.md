@@ -28,7 +28,7 @@ The second task of defects management is to determine whether the traced items a
 
 ## <a name="about-this-walkthrough"></a>About This Walkthrough
 
-This walkthrough demonstrates how to identify which items are defective, which supplier supplied them, and where they are used so that those orders can be stopped or recalled.  
+This walkthrough demonstrates how to identify which items are defective, which vendor supplied them, and where they are used so that those orders can be stopped or recalled.  
 
 This walkthrough illustrates the following tasks:  
 
@@ -61,7 +61,7 @@ Ricardo, the quality controller, is acting on a sales return of item 1002, Racin
 
 From the sales department, the quality controller knows that the returned racing bike, item 1002, had the serial number SN1. By using this basic information, he must determine where the finished racing bike was last used, and then he must trace backward to the earliest origin to establish which lot number the faulty component, the racing frame, came from.  
 
-The results of this first item tracking task identify which racing frames were defective and which supplier supplied them. Afterward, but in the same overall tracking process, the quality controller must find all the sold racing bikes that contain racing frames from the faulty lot so that those orders can be stopped or recalled. Lastly, the quality controller must find any open documents where the faulty lot is used so that no additional transactions are made.  
+The results of this first item tracking task identify which racing frames were defective and which vendor supplied them. Afterward, but in the same overall tracking process, the quality controller must find all the sold racing bikes that contain racing frames from the faulty lot so that those orders can be stopped or recalled. Lastly, the quality controller must find any open documents where the faulty lot is used so that no additional transactions are made.  
 
 The first two defects-management tasks are performed on the **Item Tracing** page. The last task is performed on the **Find entries** page in integration with the **Item Tracing** page.  
 
@@ -115,7 +115,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2. Choose the **New** action.  
-3. Create a purchase order for supplier, Custom Metals Incorporated, by filling in the following line fields.  
+3. Create a purchase order for vendor, Custom Metals Incorporated, by filling in the following line fields.  
 
     |Item|Quantity|Lot No.|  
     |----|--------|-------|  
@@ -123,13 +123,13 @@ Then you must create various purchase, production, and sales transactions with t
 
 4. To enter the lot number, choose the **Item Tracking Lines** action.  
 5. On the **Item Tracking Lines** page, fill in the **Lot No.** and **Quantity (Base)** fields, and then close the page.  
-6. In the **Supplier Invoice No.** field, enter any value.  
+6. In the **Vendor Invoice No.** field, enter any value.  
 7. Choose the **Post** action, select the **Receive and Invoice** option, and then choose the **OK** button.  
 
     Next, purchase racing frames from Coolwood Technologies.  
 8. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 9. Choose the **New** action.
-10. Create a purchase order for supplier, Coolwood Technologies, by filling in the following line fields.  
+10. Create a purchase order for vendor, Coolwood Technologies, by filling in the following line fields.  
 
     |Item|Quantity|Lot No.|  
     |----------|--------------|-------------|  
@@ -137,7 +137,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 11. To enter the lot number, on the **Lines** FastTab, in the **Line** group, choose the **Item Tracking Lines** action.  
 12. On the **Item Tracking Lines** page, fill in the **Lot No.** and **Quantity (Base)** fields, and then close the page.  
-13. In the **Supplier Invoice No.** field, enter any value.  
+13. In the **Vendor Invoice No.** field, enter any value.  
 14. Choose the **Post** action, select the **Receive and Invoice** option, and then choose the **OK** button.  
 
     Next, produce two racing bikes, SN1 and SN2.  
@@ -231,7 +231,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 ## <a name="tracing-from-usage-to-origin"></a>Tracing from Usage to Origin
 
- From the sales department, the quality controller knows that the returned racing bike, item 1002, has the serial number SN1. By using this basic information, he can determine where the finished racing bike was last used, in this case, on the sales shipment to Selangorian Ltd.. Then, the quality controller must trace backward to the earliest origin to establish which lot number the faulty racing frame came from and which supplier supplied it.  
+ From the sales department, the quality controller knows that the returned racing bike, item 1002, has the serial number SN1. By using this basic information, he can determine where the finished racing bike was last used, in this case, on the sales shipment to Selangorian Ltd.. Then, the quality controller must trace backward to the earliest origin to establish which lot number the faulty racing frame came from and which vendor supplied it.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>To determine which lot included the faulty frame and who supplied it
 
@@ -253,7 +253,7 @@ Then you must create various purchase, production, and sales transactions with t
     - The next posted document backward after that is the consumption posting from the first released production order. Here the quality controller sees that a racing frame from LOT1 was used.  
     - The lowest posted document in this chain is the posted purchase receipt on which racing frames with LOT1 entered inventory.  
 
-    The quality controller has now established which lot of racing frames was faulty and he can search for the last trace line to see which supplier supplied them, namely Custom Metals Incorporated.  
+    The quality controller has now established which lot of racing frames was faulty and he can search for the last trace line to see which vendor supplied them, namely Custom Metals Incorporated.  
 
     > [!NOTE]  
     >  Do not make any additional modifications to the trace result, as you will use it in the next section.  
@@ -286,7 +286,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Finding All Records of a Serial/Lot Number
 
- With the **Item Tracing** page, the quality controller learned that LOT1 contained the faulty racing frames, which supplier supplied them, and in which posted transaction they have been used. He must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Find entries** page where he can perform a search through all database records.  
+ With the **Item Tracing** page, the quality controller learned that LOT1 contained the faulty racing frames, which vendor supplied them, and in which posted transaction they have been used. He must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Find entries** page where he can perform a search through all database records.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>To find all occurrences of LOT1 in non-posted records, such as open orders  
 

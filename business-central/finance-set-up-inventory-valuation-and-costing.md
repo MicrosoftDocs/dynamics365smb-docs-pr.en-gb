@@ -42,7 +42,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Set Up General Inventory Information](inventory-how-setup-general.md)  
 [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Setup Best Practices: Costing Method](setup-best-practices-costing-method.md)  
-[Design Details: Stock Costing](design-details-inventory-costing.md)  
+[Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)  
 [Work with Business Central](ui-work-product.md)  
 [Finance](finance.md)  

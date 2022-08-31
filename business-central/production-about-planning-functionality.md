@@ -36,7 +36,7 @@ Another goal of the planning system is to ensure that the inventory does not gro
 
 ## <a name="planning-calculation"></a>Planning Calculation
 
-The planning system is driven by anticipated and actual customer demand, as well as inventory reordering parameters. Running the planning calculation will result in application suggesting specific actions ([Action Messages](production-how-to-run-mps-and-mrp.md#action-messages)) to take concerning possible replenishment from suppliers, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
+The planning system is driven by anticipated and actual customer demand, as well as inventory reordering parameters. Running the planning calculation will result in application suggesting specific actions ([Action Messages](production-how-to-run-mps-and-mrp.md#action-messages)) to take concerning possible replenishment from vendors, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
 
 The basis of the planning routine is in the gross-to-net calculation. Net requirements drive planned order releases, which are scheduled based on the routing information (manufactured items) or the item card lead time (purchased items). Planned order release quantities are based on the planning calculation, and are affected by the parameters set on the individual item cards.  
 

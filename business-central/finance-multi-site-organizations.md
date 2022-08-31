@@ -89,7 +89,7 @@ APIs and XMLports simplify the process of connecting instances of [!INCLUDE[prod
 
 ## <a name="promote-an-efficient-intercompany-supply-chain"></a>Promote an Efficient Intercompany Supply Chain
 
-Sites often need access to the supply chain, and the ability to manage certain aspects of it. For example, sites might use the same supplier, but manage their assets and physical locations separately.
+Sites often need access to the supply chain, and the ability to manage certain aspects of it. For example, sites might use the same vendor, but manage their assets and physical locations separately.
 
 | **Business requirement** | **How Business Central supports it** | **Learn more** |
 |-------------------------|-------------------------|-------------------------|

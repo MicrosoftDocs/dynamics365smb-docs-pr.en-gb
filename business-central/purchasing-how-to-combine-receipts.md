@@ -21,7 +21,7 @@ ms.locfileid: "9227399"
 
 If you want to invoice more than one purchase receipt at a time, you can select multiple receipt lines on the purchase invoice.  
 
-Before you can create a combined purchase receipt, more than one receipt from the same supplier in the same currency must be posted. In other words, you must have filled in two or more purchase orders and posted them as received, but not invoiced.  
+Before you can create a combined purchase receipt, more than one receipt from the same vendor in the same currency must be posted. In other words, you must have filled in two or more purchase orders and posted them as received, but not invoiced.  
 
 When purchase receipts are combined on an invoice and posted, then a posted purchase invoice is created for the invoiced lines. The **Quantity Invoiced** field on the originating purchase order, or blanket purchase order, is updated based on the invoiced quantity. However, this original purchase document is not deleted, even if it has been fully received and invoiced, and you must therefore delete the purchase document.  
 

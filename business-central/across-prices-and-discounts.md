@@ -42,7 +42,7 @@ Because sales prices and sales line discounts are based on a combination of item
 
 ## <a name="about-price-lists"></a>About Price Lists
 
-Price lists are flexible and let you specify the business partner or activity that they apply to. For example, you can set up one price list that applies to all suppliers and customers, or offer special prices or discounts for each business partner, perhaps based on a minimum quantity on purchase or sales orders, or a certain combination of customer, item, minimum quantity, unit of measurement, or periods of time. The prices and discounts you define are automatically applied to purchase and sales documents. 
+Price lists are flexible and let you specify the business partner or activity that they apply to. For example, you can set up one price list that applies to all vendors and customers, or offer special prices or discounts for each business partner, perhaps based on a minimum quantity on purchase or sales orders, or a certain combination of customer, item, minimum quantity, unit of measurement, or periods of time. The prices and discounts you define are automatically applied to purchase and sales documents. 
 
 ## <a name="set-up-prices"></a>Set Up Prices
 
@@ -60,7 +60,7 @@ You can add items and services manually for each line, or you can use the **Sugg
 
 By default, the status of new price lists is **Draft**. When you're ready to start using the list, you can change the status to **Active**.
 
-To review price lists and prices that apply for specific customers or suppliers, on the **Customer** or **Supplier** pages, choose either **Sales Price Lists** or **Purchase Price Lists** action. For items and resources, you can view price list lines by choosing **Sales Prices** or **Purchase Prices** on the **Item** and **Resource** pages.
+To review price lists and prices that apply for specific customers or vendors, on the **Customer** or **Supplier** pages, choose either **Sales Price Lists** or **Purchase Price Lists** action. For items and resources, you can view price list lines by choosing **Sales Prices** or **Purchase Prices** on the **Item** and **Resource** pages.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Sales Price Lists** action. 

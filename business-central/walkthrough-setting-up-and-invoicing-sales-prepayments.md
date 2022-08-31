@@ -41,7 +41,7 @@ This walkthrough includes tasks for the following roles:
 
 - Accounting Manager (Phyllis)  
 - Order Processor (Susan)  
-- Sales Ledger Administrator (Arnie)  
+- Accounts Receivable Administrator (Arnie)  
 
 ## <a name="story"></a>Story
 
@@ -49,7 +49,7 @@ This walkthrough includes tasks for the following roles:
 
  Susan is a sales order processor. When a customer calls to place an order, she enters the order into the system while the customer is on the telephone. This way, she can verify prices and payment terms with the customer immediately, and she can make adjustments to the order while she negotiates with the customer.  
 
- Arnie works in the Sales Ledger department, where he posts invoices and payments.  
+ Arnie works in the Accounts Receivable department, where he posts invoices and payments.  
 
  In this scenario, Phyllis sets up prepayment requirements for the customer Selangorian, based on their credit history, and gives Susan instructions for how to handle their orders.  
 

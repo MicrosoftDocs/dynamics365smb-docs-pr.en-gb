@@ -19,7 +19,7 @@ ms.locfileid: "9078055"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Count, Adjust, and Reclassify Inventory Using Journals
 
-At least once every financial year you must take a physical inventory, that is, count all the items on inventory, to see if the quantity registered in the database is the same as the actual physical quantity in the warehouses. When the actual physical quantity is known, it must be posted to the general ledger as a part of period-end valuation of inventory.
+At least once every fiscal year you must take a physical inventory, that is, count all the items on inventory, to see if the quantity registered in the database is the same as the actual physical quantity in the warehouses. When the actual physical quantity is known, it must be posted to the general ledger as a part of period-end valuation of inventory.
 
 Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business. For this purpose, you can assign special counting periods to those items. For more information, see [To perform cycle counting](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
 
@@ -32,7 +32,7 @@ If you need to change attributes on item ledger entries, you can use the item re
 
 ## <a name="to-perform-a-physical-inventory"></a>To perform a physical inventory
 
-You must take a physical inventory, that is, count the actual items on hand, to check if the quantity registered is the same as the physical quantity in stock at the end of a financial year, if not more often. If there are differences, you must post them to the item accounts before you do the inventory valuation.
+You must take a physical inventory, that is, count the actual items on hand, to check if the quantity registered is the same as the physical quantity in stock at the end of a fiscal year, if not more often. If there are differences, you must post them to the item accounts before you do the inventory valuation.
 
 > [!NOTE]
 > This procedure describes how to perform a physical inventory using a journal, the **Phys. Inventory Journal** page. You can also perform the task using documents, the **Physical Inventory Order** and **Physical Inventory Recording** pages, which provide more control and support distributing the counting to multiple employees. For more information, see [Count Inventory Using Documents](inventory-how-count-inventory-with-documents.md).<br /><br />

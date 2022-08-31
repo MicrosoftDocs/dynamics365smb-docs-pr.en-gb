@@ -18,7 +18,7 @@ ms.locfileid: "8557282"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrating with Dynamics 365 Sales
 
-The sales person role is often considered as one the most outward-facing jobs in a business. However, it can be helpful for sales people to be able to look inward in the business and see what is happening on the back end. By integrating [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[crm_md](includes/crm_md.md)], you can give your sales people that insight. The integration will let people view information in [!INCLUDE[prod_short](includes/prod_short.md)] while they're working in [!INCLUDE[crm_md](includes/crm_md.md)]. For example, when preparing a sales quote it could be useful to know whether you have enough stock to fulfil the order. For more information, see [Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md).
+The sales person role is often considered as one the most outward-facing jobs in a business. However, it can be helpful for sales people to be able to look inward in the business and see what is happening on the back end. By integrating [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[crm_md](includes/crm_md.md)], you can give your sales people that insight. The integration will let people view information in [!INCLUDE[prod_short](includes/prod_short.md)] while they're working in [!INCLUDE[crm_md](includes/crm_md.md)]. For example, when preparing a sales quote it could be useful to know whether you have enough inventory to fulfil the order. For more information, see [Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
 > This topic describes the process of integrating the online versions of [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For information about on-premises configuration, see [Preparing Dynamics 365 Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
@@ -89,7 +89,7 @@ The following table lists the standard mapping between tables in [!INCLUDE[prod_
 | [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[crm_md](includes/crm_md.md)] | Synchronisation Direction | Default Filter |
 |--|--|--|--|
 | Unit of Measurement | Unit Group | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Item | Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Sales Stock** |
+| Item | Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Sales Inventory** |
 | Resource | Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Services** |
 | Item Unit of Measurement | CRM UOM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 | Resource Unit of Measurement | CRM UOM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]||

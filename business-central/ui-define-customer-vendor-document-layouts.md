@@ -17,7 +17,7 @@ ms.contentlocale: en-GB
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9076858"
 ---
-# <a name="define-document-layouts-for-customers-and-vendors"></a>Define Document Layouts for Customers and Suppliers
+# <a name="define-document-layouts-for-customers-and-vendors"></a>Define Document Layouts for Customers and Vendors
 
 Document layouts use report layouts to define the look and feel of documents that you send to customers and vendors. Business Central provides standard layouts, but you can also tailor custom layouts for each of your business partners. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md). You select standard and custom document layouts from customer and vendor cards by choosing the **Document Layouts** action. The value in the **Usage** field defines the process for which the document layout is used. For example, for customers, you might use **Reminder**, **Shipment**, and **Confirmation** types of document layouts.
 

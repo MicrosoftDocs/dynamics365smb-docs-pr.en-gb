@@ -18,7 +18,7 @@ ms.locfileid: "8520510"
 ---
 # <a name="print-vat-audit-reports-in-the-british-version"></a>Print VAT Audit Reports in the British Version
 
-In the United Kingdom, all suppliers must export the data required for auditing in a Content Separated Value (CSV) file format. The following reports in the British version of [!INCLUDE [prod_short](../../includes/prod_short.md)] comply with this requirement:  
+In the United Kingdom, all vendors must export the data required for auditing in a Content Separated Value (CSV) file format. The following reports in the British version of [!INCLUDE [prod_short](../../includes/prod_short.md)] comply with this requirement:  
 
 - **VAT Audit**  report – This report is used for VAT auditing.  
 - **VAT Entry Exception** report - This report details the differences between the calculated VAT and the changes that occur because of rounding, VAT tolerance percentage, and discounts. It also displays the difference in VAT amounts for the tax authorities.  
@@ -36,7 +36,7 @@ In the United Kingdom, all suppliers must export the data required for auditing 
     |**Export Open Payments**|Select to export the open credit entries.|  
     |**Export Late Invoicing**|Select to export customer entries that took longer to invoice than the number of days specified in the **Late Invoice Delay (Days)** field.|  
     |**Late Invoice Delay (Days)**|Enter the number of days between the invoice issue date and the payment received date. If the **Export Late Invoicing** field is selected, entries exceeding this limit will be exported.|  
-    |**Export Suppliers**|Select to export the file to the **Supplier** table.|  
+    |**Export Vendors**|Select to export the file to the **Vendor** table.|  
     |**Export VAT Entries**|Select to export the entries in the **VAT Entry** table.|  
 
     > [!NOTE]  

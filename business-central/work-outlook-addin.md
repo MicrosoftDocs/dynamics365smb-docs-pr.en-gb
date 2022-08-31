@@ -18,13 +18,13 @@ ms.locfileid: "8655852"
 ---
 # <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Use Business Central as your Business Inbox in Outlook
 
-[!INCLUDE[prod_short](includes/prod_short.md)] offers an add-in that lets you manage business interactions with your customers and suppliers, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] add-in for Outlook, you can see financial data related to customers and suppliers, and create and send financial documents, such as quotes and invoices.
+[!INCLUDE[prod_short](includes/prod_short.md)] offers an add-in that lets you manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] add-in for Outlook, you can see financial data related to customers and vendors, and create and send financial documents, such as quotes and invoices.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] add-in consists of two separate add-ins that provide the following capabilities:
 
 - Contact insights
 
-   This add-in lets you look up [!INCLUDE[prod_short](includes/prod_short.md)] customer or supplier information in Outlook emails and calendar appointments. It also lets you create and send [!INCLUDE[prod_short](includes/prod_short.md)] business documents, such a sales quote or invoice to a contact.
+   This add-in lets you look up [!INCLUDE[prod_short](includes/prod_short.md)] customer or vendor information in Outlook emails and calendar appointments. It also lets you create and send [!INCLUDE[prod_short](includes/prod_short.md)] business documents, such a sales quote or invoice to a contact.
 
 - Document view
 
@@ -57,7 +57,7 @@ Let's say that you get an email from a customer that wants to get a quote on som
 
 In the add-in, you can create a sales quote and send it back to this customer without leaving Outlook. All of the information that you need to send the sales quote is available in your business inbox in Outlook. Once you have the data entered, you post the quote and send it by email. [!INCLUDE[prod_short](includes/prod_short.md)] generates a .PDF file with the sales quote and attaches it to the email message that you draft in the add-in.  
 
-Similarly, if you get an email from a supplier, you can use the add-in to work with suppliers and purchase invoices.  
+Similarly, if you get an email from a vendor, you can use the add-in to work with vendors and purchase invoices.  
 
 Sometimes you want to see more fields than you can see in the add-in, such as when you want to fill in lines in an invoice. To give you a bit more space to work with, you can pop out the add-in to a separate page. It's still part of Outlook, but you have more space. As you enter data for the document in the pop-out view, the changes are automatically saved. The following sections lead you through some basic tasks to give you a general understanding how to use it.
 
@@ -82,9 +82,9 @@ For example, you can open the full contact details as you would see them in [!IN
 
 ### <a name="track-incoming-documents"></a>Track incoming documents
 
-Perhaps you use the **Incoming Documents** list in [!INCLUDE[prod_short](includes/prod_short.md)] to track documents for processing that suppliers send to you, such as a purchase invoice that needs to be paid. If you do, you can easily create Incoming Documents records from the Outlook add-in and include the email attachments.
+Perhaps you use the **Incoming Documents** list in [!INCLUDE[prod_short](includes/prod_short.md)] to track documents for processing that vendors send to you, such as a purchase invoice that needs to be paid. If you do, you can easily create Incoming Documents records from the Outlook add-in and include the email attachments.
 
-1. When you receive an email from a supplier that has an attachment, choose ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Contact Insights**.  
+1. When you receive an email from a vendor that has an attachment, choose ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Contact Insights**.  
 
 2. In the action bar of the add-in, choose **Show more actions**, then choose the **Send to Incoming Documents…** action.  
 

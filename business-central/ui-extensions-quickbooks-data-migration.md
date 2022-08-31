@@ -1,6 +1,6 @@
 ---
 title: QuickBooks Data Migration Extension
-description: Describes how to use the extension to import customers, suppliers, items, and accounts from QuickBooks Desktop to Business Central.
+description: Describes how to use the extension to import customers, vendors, items, and accounts from QuickBooks Desktop to Business Central.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
@@ -18,7 +18,7 @@ ms.locfileid: "9078525"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>The QuickBooks Data Migration Extension
 
-This extension makes it easy to migrate customers, suppliers, items, and accounts from QuickBooks to [!INCLUDE[prod_short](includes/prod_short.md)]. If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[prod_short](includes/prod_short.md)].  
+This extension makes it easy to migrate customers, vendors, items, and accounts from QuickBooks to [!INCLUDE[prod_short](includes/prod_short.md)]. If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[prod_short](includes/prod_short.md)].  
 For more information, see [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).
 
 ## <a name="data-from-quickbooks-desktop"></a>Data from QuickBooks Desktop
@@ -26,12 +26,12 @@ For more information, see [Importing Business Data from Other Finance Systems](a
 You can import the following data from QuickBooks Online to Business Central:
 
 - Customers  
-- Suppliers  
+- Vendors  
 - Items  
 - Chart of Accounts  
 - Beginning Balance transactions in General Ledger  
 - On-hand Quantities for Inventory Items  
-- Open documents for customers and suppliers, such as invoices, credit memos and payments  
+- Open documents for customers and vendors, such as invoices, credit memos and payments  
 
 We migrate only full amounts on sales and purchase documents. We do not update partially paid amounts. For example, if a customer has paid 300 of a total of 500 pounds on a sales invoice, we migrate the full 500. If you have received partial payments, you must update these manually, either before or after you migrate data. We recommend that you apply outstanding transactions before you migrate, just to make things easier afterward.
 
@@ -43,7 +43,7 @@ We migrate only full amounts on sales and purchase documents. We do not update p
 An important part of the migration process is to specify the accounts to migrate transactions to. It's a good idea to plan this mapping before you migrate data. For example, the accounts where you post transactions for:
 
 - The sale of items or services to customers  
-- The purchase of items or services from suppliers  
+- The purchase of items or services from vendors  
 - Adjustments in the general ledger  
 
 Business Central requires that general ledger accounts have account numbers assigned to them. Make sure that account numbers are assigned to your accounts in QuickBooks.

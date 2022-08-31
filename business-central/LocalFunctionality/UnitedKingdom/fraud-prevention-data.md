@@ -63,10 +63,10 @@ The **WEB\_APP\_VIA\_SERVER** connection method assumes transmission of headers 
 | Gov-Client-Browser-JS-User-Agent | The JavaScript-reported user agent string from the originating device. |
 | Gov-Client-Browser-Do-Not-Track | A value that indicates whether the **Do Not Track** option is turned on in the browser. |
 | Gov-Client-Multi-Factor | A list of key-value data structures that contains details of the multifactor authentication (MFA) statuses that are related to the API call. |
-| Gov-Supplier-Version | A key-value data structure of the software versions that are involved in handling a request. |
-| Gov-Supplier-licence-IDs | A key-value data structure of hashed licence keys that are related to the supplier software that initiated the API request on the originating device. |
-| Gov-Supplier-Public-IP | The public IP address of the servers that the originating device sent its requests to. |
-| Gov-Supplier-Forwarded | A list that details the hops over the internet between services that terminate Transport Layer Security (TLS). |
+| Gov-Vendor-Version | A key-value data structure of the software versions that are involved in handling a request. |
+| Gov-Vendor-licence-IDs | A key-value data structure of hashed licence keys that are related to the vendor software that initiated the API request on the originating device. |
+| Gov-Vendor-Public-IP | The public IP address of the servers that the originating device sent its requests to. |
+| Gov-Vendor-Forwarded | A list that details the hops over the internet between services that terminate Transport Layer Security (TLS). |
 
 ## <a name="identify-values-for-missing-headers"></a>Identify values for missing headers
 
@@ -80,8 +80,8 @@ When you run the **Get Current Headers** process in the **HMRC Fraud Prevention 
 |Gov-Client-Local-Ips |  IP addresses.       |<ul><li>`Gov-Client-Local-IPs:  10 .1. 2.3`</li><li>`Gov-Client-Local-IPs: 10.1. 2. 3,10.3.4. 2`</li><li>`Gov-Client-Local-IPs: 65f466e3-1f39-4ca5-957f-65e231804f91.local`</li></ul>| If you don't know your IP address, search for *how to identify my local IP*. Alternatively, use a PowerShell command such as the following: <br>`Test-Connection -ComputerName (hostname) -Count 1 \| Select IPV4Address`|
 |Gov-Client-Public-Port|The public TCP port used by the originating device when initiating the request. This must not be a server port, such as 80 for http connections or 443 for https connections. The valid range is between 0 and 65535.|`57961`|Run ```netstat -a``` and see the TCP connection. For example, if your IP address is 192.168.45.2 and you see an entry for 192.168.45.2:57961, it means that port number 57961 is open and possibly in use. You can choose this value.|
 |Gov-Client-Screens|Information about the originating device's screen. These fields should be submitted as a list of key-value data structures, and you can see a description of the keys in the table in the [Headers](#headers) section. |`Gov-Client-Screens: width=1920&height=1080&sca1ing-factor=1.25&colour-depth=16`|Find the details about your monitor in the display settings. Combine the values using the format.|
-|Gov-Supplier-Public-IP|The public IP address of the servers the originating device sent their requests to.|`Gov -Vendor-Public-IP: 203.0.113.6`|Search for *what is my public ip address?*.|
-|Gov-Supplier-Forwarded|A list that details bops over the internet between services that terminate Transport Layer Security (TLS).|`Gov-vendor-Forwarded:by=203.0.113.6&for=198.51.100.0`|`by` = public ID. `for` = local IP.|
+|Gov-Vendor-Public-IP|The public IP address of the servers the originating device sent their requests to.|`Gov -Vendor-Public-IP: 203.0.113.6`|Search for *what is my public ip address?*.|
+|Gov-Vendor-Forwarded|A list that details bops over the internet between services that terminate Transport Layer Security (TLS).|`Gov-vendor-Forwarded:by=203.0.113.6&for=198.51.100.0`|`by` = public ID. `for` = local IP.|
 
 ## <a name="ip-addresses"></a>IP addresses
 

@@ -32,7 +32,7 @@ If your business performs any of the above activities, you will likely need to m
 
 
 ## <a name="trade-across-borders-and-the-use-of-economic-operators-registration-and-identification-numbers"></a>Trade Across Borders and the Use of Economic Operators Registration and Identification Numbers 
-Businesses in the UK are now subject to more administrative burdens when exporting and importing goods across borders, and one of these areas is with Customs. Although [!INCLUDE[prod_short](../../includes/prod_short.md)] does not support Customs documents by default, we have added a new **EORI number** field to the **Company Information**, **Customer**, and **Supplier** pages. This field is added to the international version (W1) and is available in all versions for European countries. In the UK version, we have also added a **Supplementary VAT Reg. Number** field on the **Company Information** page for scenarios where you must provide more than one of VAT registration number. For example, this number is typically on invoices, depending on the countries/regions of the specific trade and on the movement of goods and services.
+Businesses in the UK are now subject to more administrative burdens when exporting and importing goods across borders, and one of these areas is with Customs. Although [!INCLUDE[prod_short](../../includes/prod_short.md)] does not support Customs documents by default, we have added a new **EORI number** field to the **Company Information**, **Customer**, and **Vendor** pages. This field is added to the international version (W1) and is available in all versions for European countries. In the UK version, we have also added a **Supplementary VAT Reg. Number** field on the **Company Information** page for scenarios where you must provide more than one of VAT registration number. For example, this number is typically on invoices, depending on the countries/regions of the specific trade and on the movement of goods and services.
 
 Please engage your [!INCLUDE[prod_short](../../includes/prod_short.md)] reselling partner for assistance with adding the **EORI number** or **Supplementary VAT Reg. Number** to the relevant reports.  
 
@@ -44,8 +44,8 @@ If part of your business is in Northern Ireland and you trade across EU borders 
 
 * Add your **EORI number** and/or **Supplemental VAT Registration number** (starting with "XI") on the **Company Information** page.
 * Add Northern Ireland to the **Countries/Regions** list.
-* Specify this region on the relevant trading partners, such as customers and suppliers.
-* Specify an **EORI number** for your trading partners, such as customers and suppliers.
+* Specify this region on the relevant trading partners, such as customers and vendors.
+* Specify an **EORI number** for your trading partners, such as customers and vendors.
 * Specify Northern Ireland on the **Locations** page as the region for any warehouse locations you have in Northern Ireland.  
 
 ## <a name="intrastat-changes"></a>Intrastat Changes
@@ -64,7 +64,7 @@ If your business has a warehouse in Northern Ireland, goods moved to that locati
 
 2. **Does [!INCLUDE[prod_short](../../includes/prod_short.md)] support legislation in the United Kingdom?**
 
-    In many cases, yes. As with all countries for which Microsoft provides a localised version, we follow the impact of local and EU-wide legislation and evaluate how we can support our customers. The responsibility for compliance rests on the individual business in a country, but we provide tools and features that can help our customers meet regulatory requirements, within the confines of our product strategy. A good example of that is our feature for Making Tax Digital, which makes VAT reporting easier and fully digital. There are, however, cases where regulations may require other feature support. For example, if regulatory changes impact a vertical industry, such as construction, we expect that the Microsoft Independent Software Supplier (ISV) who provides a solution that extends [!INCLUDE[prod_short](../../includes/prod_short.md)] for that industry will deliver the features needed to comply. However, the business who uses the solution is responsible for compliance.
+    In many cases, yes. As with all countries for which Microsoft provides a localised version, we follow the impact of local and EU-wide legislation and evaluate how we can support our customers. The responsibility for compliance rests on the individual business in a country, but we provide tools and features that can help our customers meet regulatory requirements, within the confines of our product strategy. A good example of that is our feature for Making Tax Digital, which makes VAT reporting easier and fully digital. There are, however, cases where regulations may require other feature support. For example, if regulatory changes impact a vertical industry, such as construction, we expect that the Microsoft Independent Software Vendor (ISV) who provides a solution that extends [!INCLUDE[prod_short](../../includes/prod_short.md)] for that industry will deliver the features needed to comply. However, the business who uses the solution is responsible for compliance.
 
 ## <a name="see-also"></a>See Also
 

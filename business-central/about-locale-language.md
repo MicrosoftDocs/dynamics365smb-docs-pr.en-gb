@@ -46,11 +46,11 @@ You can change the region in the browser tab that you're using to work in [!INCL
 
 To change the region, go to the **My Settings** page. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
-## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Changing the Region Setting for Customers, Contacts, and Suppliers
+## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Changing the Region Setting for Customers, Contacts, and Vendors
 
 Some businesses use an external service that validates address information in their country or region. However, when you need to update address information, the structured approach that these services use may not always be what's right for some scenarios. Business Central offers a more flexible means of entering address details.
 
-On the **General Ledger Setup** page, if you turn on the **Require Country/Region Code in Address** toggle, changes to the **Country/Region Code** field on addresses for customers, contacts, or suppliers will reset the values in other address fields.
+On the **General Ledger Setup** page, if you turn on the **Require Country/Region Code in Address** toggle, changes to the **Country/Region Code** field on addresses for customers, contacts, or vendors will reset the values in other address fields.
 
 ## <a name="application-version"></a>Application Version
 

@@ -18,11 +18,11 @@ ms.locfileid: "9078551"
 ---
 # <a name="create-special-orders"></a>Create Special Orders
 
-You can create a special order for a specific catalogue item to be shipped to a specific customer. Your supplier ships the item to your warehouse and you can then ship the item on to your customer either independently or together with other items on another order.  
+You can create a special order for a specific catalogue item to be shipped to a specific customer. Your vendor ships the item to your warehouse and you can then ship the item on to your customer either independently or together with other items on another order.  
 
 Special orders imply that the purchase and sales order are linked to ensure that the specific catalogue item is picked and delivered to the customer.  
 
-Before you can use this feature, you must first set up the customer, supplier, and item cards necessary for the order.  
+Before you can use this feature, you must first set up the customer, vendor, and item cards necessary for the order.  
 
 ## <a name="to-create-a-special-order"></a>To create a special order
 

@@ -1,6 +1,6 @@
 ---
 title: External Document Numbers on Purchase Documents
-description: You can include information about the numbers that your suppliers assign to documents that they send you by using the External Document Number field or the Your Reference field. Learn about the difference between the two fields here.
+description: You can include information about the numbers that your vendors assign to documents that they send you by using the External Document Number field or the Your Reference field. Learn about the difference between the two fields here.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na

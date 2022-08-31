@@ -58,14 +58,14 @@ Deliver integrated information, aligned processes, and easy-to-use tools to help
 ### <a name="tailor-account-schedules-to-your-needs"></a>Tailor account schedules to your needs
 
 - Define the structure of your company's chart of accounts based on business requirements and applicable regulatory standards
-- Create accounts and handle complex processes related to a spectrum of business activities, including stock valuation, foreign currencies, segment reporting, and departures from local GAAPs.
-- Control the level of detail for each recorded transaction    and select detailed registration for specific types of transactions, such as fixed assets and purchase ledger.
+- Create accounts and handle complex processes related to a spectrum of business activities, including inventory valuation, foreign currencies, segment reporting, and departures from local GAAPs.
+- Control the level of detail for each recorded transaction    and select detailed registration for specific types of transactions, such as fixed assets and accounts payable.
 - Tailor schedule calculations and display for financial reporting, or export the information to Microsoft Excel for further analysis.
 
 ### <a name="improve-information-validity"></a>Improve information validity
 
 - Configure data fields to accept only information in the correct format, such as the correct number of decimal places or alphanumeric patterns.
-- Help ensure information is complete with application controls such as requiring a supplier invoice number to be entered before a purchase order can be posted.
+- Help ensure information is complete with application controls such as requiring a vendor invoice number to be entered before a purchase order can be posted.
 - Reduce the risk of inaccurate information    or tampering and help protect sensitive information with access to information based on job role.
 - Prohibit access, provide read-only access, or enable full-access users to add, edit, or delete information.
 - Easily identify and resolve discrepancies    with a    reconciliation feature that retrieves current bank account and transaction information and compares it to general ledger posts.
@@ -73,7 +73,7 @@ Deliver integrated information, aligned processes, and easy-to-use tools to help
 
 ### <a name="comply-quickly-with-discovery-requests-and-reporting-demands"></a>Comply quickly with discovery requests and reporting demands
 
-- Save time    when you create    standard reports that use common business parameters and criteria to satisfy typical reporting needs, ranging from order summaries to ageing sales ledger.
+- Save time    when you create    standard reports that use common business parameters and criteria to satisfy typical reporting needs, ranging from order summaries to ageing accounts receivable.
 - Perform complex reviews with basic or    advanced business analytics functionality.
 - Create custom reports and display in product and by utilizing integration to Microsoft PowerBI.
 

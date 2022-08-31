@@ -1,6 +1,6 @@
 ---
 title: GetAddress.io UK Postcodes Extension [UK]
-description: Retrieve addresses for entities like customers, suppliers, employees, and banks in the United Kingdom from the GetAddress.io service.
+description: Retrieve addresses for entities like customers, vendors, employees, and banks in the United Kingdom from the GetAddress.io service.
 author: brentholtorf
 ms.topic: get-started-article
 ms.devlang: na
@@ -19,7 +19,7 @@ ms.locfileid: "8417511"
 ---
 # <a name="the-getaddressio-uk-postcodes-extension-in-the-british-version"></a>The GetAddress.io UK Postcodes Extension in the British Version
 
-The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, suppliers, bank accounts, and employees. For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[prod_short](../../includes/prod_short.md)] shows a list of addresses. Pick the address you want, and presto, the address fields are filled out.  
+The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, vendors, bank accounts, and employees. For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[prod_short](../../includes/prod_short.md)] shows a list of addresses. Pick the address you want, and presto, the address fields are filled out.  
 
 ## <a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a>To use the GetAddress.io UK Postcodes extension when you enter an address
 

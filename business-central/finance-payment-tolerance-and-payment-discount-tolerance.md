@@ -51,8 +51,8 @@ To set up tolerance you have to set up various tolerance accounts, specify both 
 2. On the **General Posting Setup** page, set up a debit and a credit sales payment tolerance account and a debit and a credit purchase payment tolerance account.  
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Posting Groups**, and then choose the related link.    
 4. On the **Customer Posting Groups** page, set up a debit and a credit payment tolerance account. For more information, see [Setting Up Posting Groups](finance-posting-groups.md).  
-5. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Supplier Posting Setup**, and then choose the related link.  
-6. On the **Supplier Posting Groups** page, set up a debit and a credit payment tolerance account.  
+5. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Posting Setup**, and then choose the related link.  
+6. On the **Vendor Posting Groups** page, set up a debit and a credit payment tolerance account.  
 7. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 8. Open the **General Ledger Setup** page.  
 9. On the **Application** FastTab, fill in the **Payment Discount Tolerance Posting**, **Payment Discount Grace Period** and **Payment Tolerance Posting** fields.   
@@ -65,7 +65,7 @@ To set up tolerance you have to set up various tolerance accounts, specify both 
 > [!NOTE]  
 >  If you want to get a payment tolerance warning every time that you post an application in the tolerance, you must activate the payment tolerance warning. For more information, see [To enable or disable payment tolerance warning](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings) section.  
 >   
->  To deactivate tolerance for a customer or supplier, you must block tolerances on the relevant customer or supplier card. For more information, see [To block payment tolerance for customers](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
+>  To deactivate tolerance for a customer or vendor, you must block tolerances on the relevant customer or vendor card. For more information, see [To block payment tolerance for customers](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 >  When you set up tolerance, [!INCLUDE[prod_short](includes/prod_short.md)] also checks if there are any open entries and calculates the tolerance for these entries.
 
@@ -80,13 +80,13 @@ The payment tolerance warning appears when you post an application that has a ba
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>To block payment tolerance for customers
 
-The default setting for payment tolerance is allowed. To disallow a certain customer or supplier payment tolerance you need to block tolerance on the respective customer or supplier card. The following describes how to do it for a customer. The steps are similar for a supplier.
+The default setting for payment tolerance is allowed. To disallow a certain customer or vendor payment tolerance you need to block tolerance on the respective customer or vendor card. The following describes how to do it for a customer. The steps are similar for a vendor.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Supplier**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.  
 2. On the **Payments** FastTab, select the **Block Payment Tolerance** check box.  
 
 > [!NOTE]  
->  If the customer or supplier has open entries, you must first remove payment tolerance from entries that are currently open.
+>  If the customer or vendor has open entries, you must first remove payment tolerance from entries that are currently open.
 
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Example 1 - Tolerance Calculations for a Single Document
 

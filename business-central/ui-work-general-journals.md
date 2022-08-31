@@ -1,6 +1,6 @@
 ---
 title: Working with General Journals to Post Directly to G/L
-description: Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and supplier accounts. Use recurring journals to post accruals and allocate balances by dimension values.
+description: Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts. Use recurring journals to post accruals and allocate balances by dimension values.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -27,7 +27,7 @@ For example, you can use post employees' expenditure of own money on business-re
 
 But in many cases, you will want to use the journals that are optimised for specific types of transactions, such as the **Payment Journal** for registering payments. For more information, see [Record Payments and Refunds in the Payment Journal](payables-how-post-payments-refunds.md).  
 
-You use general journals to post financial transactions directly to general ledger accounts and other accounts, such as bank, customer, supplier, and employee accounts. Posting with a general journal always creates entries on general ledger accounts. This is true even when, for example, you post a journal line to a customer account, because an entry is posted to a general ledger receivables account through a posting group.
+You use general journals to post financial transactions directly to general ledger accounts and other accounts, such as bank, customer, vendor, and employee accounts. Posting with a general journal always creates entries on general ledger accounts. This is true even when, for example, you post a journal line to a customer account, because an entry is posted to a general ledger receivables account through a posting group.
 
 The information that you enter in a journal is temporary and can be changed while it is in the journal. When you post the journal, the information is transferred to entries on individual accounts, where it cannot be changed. You can, however, unapply posted entries, and you can post reversing or correcting entries. For more information, see [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md).
 
@@ -36,7 +36,7 @@ The information that you enter in a journal is temporary and can be changed whil
 
 ## <a name="use-journal-templates-and-batches"></a>Use Journal Templates and Batches
 
-There are several general journal templates. Each journal template is represented by a dedicated page with particular functions and the fields that are required to support those functions, such as the **Payment Reconciliation Journal** page to process bank payments and the **Payment Journal** page to pay your suppliers or reimburse your employees. For more information, see [Make Payments](payables-make-payments.md) and [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md).
+There are several general journal templates. Each journal template is represented by a dedicated page with particular functions and the fields that are required to support those functions, such as the **Payment Reconciliation Journal** page to process bank payments and the **Payment Journal** page to pay your vendors or reimburse your employees. For more information, see [Make Payments](payables-make-payments.md) and [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md).
 
 For each journal template, you can set up your own personal journal as a journal batch. For example, you can define your own journal batch for the payment journal that has your personal layout and settings. The following tip is an example of how to personalise a journal.
 
@@ -51,7 +51,7 @@ To help prevent delays when posting, you can turn on a background check that wil
 
 When you enable the validation the **Journal Check** FactBox displays next to the journal lines and will show issues in the current line and the whole batch. Validation happens when you load a finance journal batch, and when you choose another journal line. The **Issues total** tile in the FactBox shows the total number of issues that [!INCLUDE[prod_short](includes/prod_short.md)] found, and you can choose it to open an overview the issues. 
 
-You can use the **Show Lines with Issues** and **Show All Lines** actions to toggle between journal lines that have or don't have issues. The new **Journal Line Details** FactBox provides quick overview and access to data from journal lines, such as the G/L account, customer, or supplier, as well as to the posting setup for specific accounts.   
+You can use the **Show Lines with Issues** and **Show All Lines** actions to toggle between journal lines that have or don't have issues. The new **Journal Line Details** FactBox provides quick overview and access to data from journal lines, such as the G/L account, customer, or vendor, as well as to the posting setup for specific accounts.   
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
@@ -127,7 +127,7 @@ If the *recurring method* in the recurring journal is set to **Balance** or **Re
 
 To allocate recurring journal amounts based on dimensions, set the **Recurring Method** field to **Balance by Dimension** or **Reversing Balance by Dimension** instead. If the recurring method in the recurring journal is set to **Balance by Dimension** or **Reversing Balance by Dimension**, then any dimension value codes in the recurring journal are considered when the account is set to zero. So if you allocate a recurring line to various dimension values on the **Allocations** page, then a number of reversing entries that matches the number of dimension value combinations that the balance is comprised of, are created. If you allocate account balance through the recurring journal that contains a dimension value code, remember to use **Balance by Dimension** or **Reversing Balance by Dimension** to make sure that the dimension values are correctly balanced or reversed from the source account.  
 
-For example, your company has a couple of business units and a handful of departments that your controllers have set up as dimensions. To speed up the purchase invoice entry process, you decide to require the purchase ledger clerks to enter only business unit dimensions. Since each business unit has specific allocation keys for the Department dimension, such as based on the number of employees, you can use the **BD Balance by Dimension** or **RBD Reversing Balance by Dimension** recurring methods to re-allocate expenses for each business unit to the right departments based on the allocation keys.  
+For example, your company has a couple of business units and a handful of departments that your controllers have set up as dimensions. To speed up the purchase invoice entry process, you decide to require the accounts payable clerks to enter only business unit dimensions. Since each business unit has specific allocation keys for the Department dimension, such as based on the number of employees, you can use the **BD Balance by Dimension** or **RBD Reversing Balance by Dimension** recurring methods to re-allocate expenses for each business unit to the right departments based on the allocation keys.  
 
 > [!NOTE]
 > Dimensions that you set on allocation lines are not automatically calculated, and you must specify which dimension values must be set on the allocation accounts. In case you want to preserve the link between the source account dimension and the allocation account dimension, we recommend that you use the [Cost Accounting](finance-about-cost-accounting.md) capabilities instead.
@@ -201,7 +201,7 @@ If the **No. Series** field on the journal batch is filled, then the posting fun
 
 This function also works on filtered views.
 
-Any renumbering of document numbers will respect related applications, such as a payment application that has been made from the document on the journal line to a supplier account. Accordingly, the **Applies-to ID** and **Applies-to Doc. No.** fields on the affected ledger entries may be updated.
+Any renumbering of document numbers will respect related applications, such as a payment application that has been made from the document on the journal line to a vendor account. Accordingly, the **Applies-to ID** and **Applies-to Doc. No.** fields on the affected ledger entries may be updated.
 
 ### <a name="to-renumber-documents-in-journals"></a>To renumber documents in journals
 
@@ -225,7 +225,7 @@ Values in the **Document No.** field are changed, where required, so that the do
 [Revalue Inventory in the Revaluation Journal](inventory-how-revalue-inventory.md)  
 [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
 [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md)  
-[Reconcile Supplier Payments with the Payment Journal or from Supplier Ledger Entries](payables-how-apply-purchase-transactions-manually.md)  
+[Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md)  
 [Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)  
 
 

@@ -1,6 +1,6 @@
 ---
-title: Reconcile supplier payment receipts or refunds in the payment journal
-description: To process, match, or reconcile supplier payments or refunds manually, you apply the amount to one or more open supplier ledger entries.
+title: Reconcile vendor payment receipts or refunds in the payment journal
+description: To process, match, or reconcile vendor payments or refunds manually, you apply the amount to one or more open vendor ledger entries.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -17,81 +17,81 @@ ms.contentlocale: en-GB
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8521943"
 ---
-# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Reconcile Supplier Payments with the Payment Journal or from Supplier Ledger Entries
-When you send a payment or receive a refund from a supplier, you must decide whether to apply the payment or refund to one or more open entries. You can specify the exact amount that you want to apply to the payment receipt or refund, and then only partially apply supplier ledger entries. You must apply all supplier ledger entries to obtain correct supplier statistics and reports of the account statements and finance charges.
+# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries
+When you send a payment or receive a refund from a vendor, you must decide whether to apply the payment or refund to one or more open entries. You can specify the exact amount that you want to apply to the payment receipt or refund, and then only partially apply vendor ledger entries. You must apply all vendor ledger entries to obtain correct vendor statistics and reports of the account statements and finance charges.
 
 > [!NOTE]  
->   Suppliers may sometimes give a payment refund instead of a credit memo to offset against future invoices, especially when you return items that you have already paid for or when you have overpaid an invoice.
+>   Vendors may sometimes give a payment refund instead of a credit memo to offset against future invoices, especially when you return items that you have already paid for or when you have overpaid an invoice.
 
-You can apply supplier ledger entries in three different ways:
+You can apply vendor ledger entries in three different ways:
 
 * By entering information in dedicated pages, such as the **Payment Journal** page and the **Payment Reconciliation Journal** page.
 * From purchase credit memo documents.
-* From supplier ledger entries after purchase documents are posted but not applied.
+* From vendor ledger entries after purchase documents are posted but not applied.
 
 > [!NOTE]  
->   If the **Application Method** field on the supplier card contains **Apply to Oldest**, then payments will automatically be applied to the oldest open credit entry if you do not manually specify which entry to apply to. If the application method for a customer is **Manual**, then you must apply entries manually.
+>   If the **Application Method** field on the vendor card contains **Apply to Oldest**, then payments will automatically be applied to the oldest open credit entry if you do not manually specify which entry to apply to. If the application method for a customer is **Manual**, then you must apply entries manually.
 
-You can apply supplier payments manually to their related purchase documents when you post the payments on the **Payment Journal** page. For information about filling the payment journal, see [Making Payments](payables-make-payments.md).
+You can apply vendor payments manually to their related purchase documents when you post the payments on the **Payment Journal** page. For information about filling the payment journal, see [Making Payments](payables-make-payments.md).
 
-You can also apply supplier payments, and customer payments, after the payments appear as negative bank transactions in your bank. On the **Payment Reconciliation Journal** page, you can use functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
+You can also apply vendor payments, and customer payments, after the payments appear as negative bank transactions in your bank. On the **Payment Reconciliation Journal** page, you can use functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
-## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>To apply a payment to a single or multiple supplier ledger entries
+## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>To apply a payment to a single or multiple vendor ledger entries
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.
 2. On the **Payment Journal** page, on the first journal line, enter the relevant information about the payment entry.
-3. To apply a single supplier ledger entry:
-   1. In the **Applies-to Doc. No.** field, choose the field to open the **Apply Supplier Entries** page.
-   2. On the **Apply Supplier Entries** page, select the entry to apply the payment to.
+3. To apply a single vendor ledger entry:
+   1. In the **Applies-to Doc. No.** field, choose the field to open the **Apply Vendor Entries** page.
+   2. On the **Apply Vendor Entries** page, select the entry to apply the payment to.
    3. On the line in the **Amount to Apply** field, enter the amount to apply to the entry.
-4. Or, to apply multiple supplier ledger entries:
+4. Or, to apply multiple vendor ledger entries:
 
    1. Choose the **Apply Entries** action.
-   2. On the **Apply Supplier Entries** page, select the lines with the entries to apply the payment to.
+   2. On the **Apply Vendor Entries** page, select the lines with the entries to apply the payment to.
    3. Choose the **Set Applies-to ID** action.  
    4. On each line in the **Amount to Apply** field, enter the amount to apply to the individual entry.
 
-      If you do not enter an amount, then the maximum amount is automatically applied. At the bottom of the **Apply Supplier Entries** page, you can see the amount in the Applied Amount field, and you can see whether the application balances.
+      If you do not enter an amount, then the maximum amount is automatically applied. At the bottom of the **Apply Vendor Entries** page, you can see the amount in the Applied Amount field, and you can see whether the application balances.
 5. Choose the **OK** button.
 6. Choose the **Post** action to post the payment journal.
 
-## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>To apply a credit memo to a single or multiple supplier ledger entries
+## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>To apply a credit memo to a single or multiple vendor ledger entries
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Credit Memo**, and then choose the related link.
 2. Open the credit memo that you want to apply.
 3. Enter the relevant information in the header.
-4. To apply a single supplier ledger entry, on the **Application** FastTab, in the **Applies-to Doc. No.** field, select the entry to apply the credit to, and then, in the **Amount to Apply** field, enter the amount to apply to the entry.
-5. Or, to apply multiple supplier ledger entries:
+4. To apply a single vendor ledger entry, on the **Application** FastTab, in the **Applies-to Doc. No.** field, select the entry to apply the credit to, and then, in the **Amount to Apply** field, enter the amount to apply to the entry.
+5. Or, to apply multiple vendor ledger entries:
 
    1. Choose the **Apply Entries** action.
    2. Select the lines with the entries to apply the credit memo to.
    3. Choose the **Set Applies-to ID** action.  
    4. On each line in the **Amount to Apply** field, enter the amount to apply to the individual entry.
 
-       If you do not enter an amount, then the maximum amount is automatically applied. At the bottom of the **Apply Supplier Entries** page, you can see the amount in the **Applied Amount** field, and you can see whether the application balances.
+       If you do not enter an amount, then the maximum amount is automatically applied. At the bottom of the **Apply Vendor Entries** page, you can see the amount in the **Applied Amount** field, and you can see whether the application balances.
 6. Choose the **OK** button.  
    The **Purchase Credit Memo** page shows the entry that you have selected in the **Applies-to Doc. Type** field and the **Applies-to Doc. No.** field. The page also shows the amount of the credit memo to be posted, adjusted for any payment discounts.
 7. Choose the **Post** button to post the purchase credit memo.
 
-## <a name="to-apply-posted-vendor-ledger-entries"></a>To apply posted supplier ledger entries
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Suppliers**, and then choose the related link.
-2. Open the relevant supplier with entries that have already been posted.
+## <a name="to-apply-posted-vendor-ledger-entries"></a>To apply posted vendor ledger entries
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+2. Open the relevant vendor with entries that have already been posted.
 3. Choose the **Ledger Entries** action, and then choose the **Apply Entries** action.
-4. On the **Apply Supplier Entries** page, you can see the open entries for the supplier.
+4. On the **Apply Supplier Entries** page, you can see the open entries for the vendor.
 5. Select the line with the entry that will be applied.
 6. Choose the **Set Applies-to ID** action.
 
     The **Applies-to ID** field displays three asterisks if you work in a single-user system or your user ID if you work in a multiuser system.  
 7. For each line in the **Amount to Apply** field, enter the amount to apply to the individual entry.
 
-    If you do not enter an amount, then the maximum amount is automatically applied. You can see the amount in the **Applied Amount** field at the bottom of the **Apply Supplier Entries** page.
+    If you do not enter an amount, then the maximum amount is automatically applied. You can see the amount in the **Applied Amount** field at the bottom of the **Apply Vendor Entries** page.
 8. Choose the **Post Application** action.  
 
     The **Post Application** page opens with the document number of the applying entry and the posting date of the entry with the most recent posting date.
 9. Choose the **OK** button to post the application.
 
-## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>To apply supplier ledger entries in different currencies to one another
-If you buy from a supplier in one currency and make payment in another currency, you can still apply the invoice to the payment.
+## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>To apply vendor ledger entries in different currencies to one another
+If you buy from a vendor in one currency and make payment in another currency, you can still apply the invoice to the payment.
 
-If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2. The relevant exchange rate is found on the **Currency Exchange Rates** page. In that case, you must enable application of supplier ledger entries in different currencies. For more information, see [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
+If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2. The relevant exchange rate is found on the **Currency Exchange Rates** page. In that case, you must enable application of vendor ledger entries in different currencies. For more information, see [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.
 2. Open the journal you want, and fill in the first empty journal line using a currency code.
@@ -101,13 +101,13 @@ If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a diffe
 6. Post the payment journal.
 
 > [!IMPORTANT]  
->   When you apply entries in different currencies to one another, the entries are converted to GBP. Even though the exchange rates for the two relevant currencies are fixed, for example between GBP and EUR, there may be a small residual amount when these foreign-currency amounts are converted to GBP. These small residual amounts are posted as gains and losses to the account specified in the **Realised Gains Account** or **Realised Losses Account** field on the **Currencies** page. The **Amount (GBP)** field is also adjusted on the relevant supplier ledger entries.
+>   When you apply entries in different currencies to one another, the entries are converted to GBP. Even though the exchange rates for the two relevant currencies are fixed, for example between GBP and EUR, there may be a small residual amount when these foreign-currency amounts are converted to GBP. These small residual amounts are posted as gains and losses to the account specified in the **Realised Gains Account** or **Realised Losses Account** field on the **Currencies** page. The **Amount (GBP)** field is also adjusted on the relevant vendor ledger entries.
 
-## <a name="to-unapply-an-application-of-vendor-entries"></a>To unapply an application of supplier entries
+## <a name="to-unapply-an-application-of-vendor-entries"></a>To unapply an application of vendor entries
 When you unapply an erroneous application, correcting entries that are identical to the original entry but with opposite sign in the amount field are created and posted for all entries, including all general ledger posting derived from the application, such as payment discount and currency gains/losses. The entries that were closed by the application are reopened.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Suppliers**, and then choose the related link.
-2. Open the relevant supplier card.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+2. Open the relevant vendor card.
 3. Choose the **Ledger Entries** action.
 4. Select the relevant ledger entry, and then choose the **Unapply Entries** action.
 5. Alternatively, choose the **Detailed Ledger Entry** action.

@@ -18,7 +18,7 @@ ms.locfileid: "9079409"
 ---
 # <a name="create-incoming-document-records"></a>Create Incoming Document Records
 
-On the **Incoming Documents** page, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting supplier, customer, and general ledger entries.
+On the **Incoming Documents** page, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries.
 
 To record an external document in [!INCLUDE[prod_short](includes/prod_short.md)], first create or complete an incoming document record. You can do those tasks manually, or you can take a photo of the external document to create the incoming document record with the image file attached.
 

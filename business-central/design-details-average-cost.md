@@ -31,7 +31,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 |**Average Cost Calc. Type**|Specifies how the average cost is calculated. The following options exist:<br /><br /> -   **Item**<br />-   **Item, Variant, and Location**<br /> With this option, the average cost is calculated for each item, for each location, and for each variant of the item. This means that the average cost of this item depends on where it is stored and which variant of the item that you have selected, such as colour.|  
 
 > [!NOTE]  
->  You can only use one average cost period and one average cost calculation type in a financial year.  
+>  You can only use one average cost period and one average cost calculation type in a fiscal year.  
 >   
 >  The **Accounting Periods** page shows which average cost period and which average cost calculation type is in effect during that period, for each accounting period.  
 

@@ -39,7 +39,7 @@ The setup of the general ledger is at the core of financial processes because it
     Open the page [here](https://businesscentral.dynamics.com/?page=118)
 * The **General Posting Setup** page
 
-    Similarly, on the **General Posting Setup** page, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, suppliers, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. But you can also open each line in its own posting setup card. For more information, see [Posting Group Setups](finance-posting-groups.md).  
+    Similarly, on the **General Posting Setup** page, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. But you can also open each line in its own posting setup card. For more information, see [Posting Group Setups](finance-posting-groups.md).  
 
     > [!TIP]
     > If you cannot see the fields that you are looking for in the **General Posting Setup** page, then use the horizontal scroll bar at the bottom of the page to scroll to the right.  

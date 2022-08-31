@@ -1,6 +1,6 @@
 ---
 title: Design Details - Accounts in the General Ledger | Microsoft Docs
-description: To reconcile stock and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger.
+description: To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na

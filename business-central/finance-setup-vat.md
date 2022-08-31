@@ -72,7 +72,7 @@ To setup VAT registration numbers, follow these steps:
 
 ## <a name="set-up-vat-business-posting-groups"></a>Set up VAT business posting groups
 
-VAT business posting groups should represent the markets in which you do business with customers and suppliers, and define how to calculate and post VAT in each market. Examples of VAT business posting groups are **Domestic** and **European Union (EU)**.  
+VAT business posting groups should represent the markets in which you do business with customers and vendors, and define how to calculate and post VAT in each market. Examples of VAT business posting groups are **Domestic** and **European Union (EU)**.  
 
 Use codes that are easy to remember and describe the business posting group, such as **EU**, **Non-EU**, or **Domestic**. The code must be unique. You can set up as many codes as you need, but you cannot have the same code more than once in a table.
 
@@ -81,7 +81,7 @@ To set up a VAT business posting group, follow these steps:
 1. Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Business Posting Group**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
-You set up default VAT business posting groups by linking them to general business posting groups. [!INCLUDE[prod_short](includes/prod_short.md)] automatically assigns the VAT business posting group when you assign the business posting group to a customer, supplier, or general ledger account.
+You set up default VAT business posting groups by linking them to general business posting groups. [!INCLUDE[prod_short](includes/prod_short.md)] automatically assigns the VAT business posting group when you assign the business posting group to a customer, vendor, or general ledger account.
 
 ## <a name="set-up-vat-product-posting-groups"></a>Set up VAT product posting groups
 
@@ -108,10 +108,10 @@ To combine VAT posting setups, follow these steps:
 
 If you want to apply the same VAT posting groups to multiple entities, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to do so by default. There are a couple of ways to do this:
 
-* You can assign VAT business posting groups to general business posting groups, or customer or supplier templates
+* You can assign VAT business posting groups to general business posting groups, or customer or vendor templates
 * You can assign VAT product posting groups on general product posting groups  
 
-The VAT business or product posting group is assigned when you choose a business or product posting group for a customer, supplier, item, or resource.
+The VAT business or product posting group is assigned when you choose a business or product posting group for a customer, vendor, item, or resource.
 
 ## <a name="assign-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Assign VAT posting groups to accounts, customers, vendors, items, and resources
 
@@ -124,10 +124,10 @@ The following sections describe how to assign VAT posting groups to individual e
 3. On the **Posting** FastTab, in the **Gen. Posting Type** field, choose either **Sale** or **Purchase**.  
 4. Choose the VAT posting groups to use for the sales or purchase account.  
 
-### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>To assign VAT business posting groups to customers and suppliers
+### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>To assign VAT business posting groups to customers and vendors
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 7.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Supplier**, and then choose the related link.  
-2. On the **Customer** or **Supplier** card, expand the **Invoicing** FastTab.  
+1. Choose the ![Lightbulb that opens the Tell Me feature 7.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.  
+2. On the **Customer** or **Vendor** card, expand the **Invoicing** FastTab.  
 3. Choose the VAT business posting group.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>To assign VAT product posting groups to individual items and resources

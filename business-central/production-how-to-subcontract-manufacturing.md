@@ -18,11 +18,11 @@ ms.locfileid: "8515362"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontract Manufacturing
 
-Subcontracting selected operations to supplier is common in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.
+Subcontracting selected operations to vendor is common in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides several tools for managing subcontract work:  
 
-- Work Centres with assigned supplier: This feature enables you to set up a work centre that is associated with a supplier (subcontractor). This is called a subcontract work centre. You can specify a subcontract work centre on a routing operation, which allows you to easily process the subcontracted activity. In addition, the cost of the operation can be designated at the routing or the work centre level.  
+- Work Centres with assigned vendor: This feature enables you to set up a work centre that is associated with a vendor (subcontractor). This is called a subcontract work centre. You can specify a subcontract work centre on a routing operation, which allows you to easily process the subcontracted activity. In addition, the cost of the operation can be designated at the routing or the work centre level.  
 - Work Centre cost based on units or time: This feature enables you to specify whether costs associated with the work centre are based on the production time or a flat charge per unit. Although subcontractors commonly use a flat charge per unit to charge for their services, the application can handle both options (production time and flat charge per unit).  
 - Subcontracting Worksheet: This feature allows you to find the production orders with material ready to send to a subcontractor and to automatically create purchase orders for subcontract operations from production order routings. The application automatically posts the purchase order charges to the production order during the posting of the purchase order. Only production orders with a status of released can be accessed and used from a subcontracting worksheet.  
 
@@ -32,9 +32,9 @@ Subcontract Work Centres are set up the same as regular work centres with additi
 ### <a name="subcontract-work-center-fields"></a>Subcontract Work Centre Fields  
 This **Subcontractor No.** field designates the work centre as a subcontract work centre. You can enter the number of a subcontractor who supplies the work centre. This field can be used to administer work centres, which are not in-house but perform processing under contract.  
 
-If you subcontract with the supplier for a different rate for each process, then select the **Specific Unit Cost** field. This lets you set up a cost on each routing line and saves the time of re-entering each purchase order. The cost on the routing line is used in processing instead of the cost on the work centre cost fields. Selecting the **Specific Unit Cost** field calculates costs for the supplier by the routing operation.  
+If you subcontract with the vendor for a different rate for each process, then select the **Specific Unit Cost** field. This lets you set up a cost on each routing line and saves the time of re-entering each purchase order. The cost on the routing line is used in processing instead of the cost on the work centre cost fields. Selecting the **Specific Unit Cost** field calculates costs for the vendor by the routing operation.  
 
-If you subcontract at a single rate per supplier, leave the **Specific Unit Cost** field blank. The costs will be set up by filling in **Direct Unit Cost**, **Indirect Cost %**, and **Overhead Rate** fields.  
+If you subcontract at a single rate per vendor, leave the **Specific Unit Cost** field blank. The costs will be set up by filling in **Direct Unit Cost**, **Indirect Cost %**, and **Overhead Rate** fields.  
 
 ### <a name="routings-that-use-subcontract-work-centers"></a>Routings that use Subcontract Work Centres  
 Subcontract work centres can be used for operations on routings in the same way as regular work centres.  
@@ -65,7 +65,7 @@ The **Subcontracting Worksheet** page functions like the **Planning Worksheet** 
 3.  Select the **Print Orders** field to print the purchase order as it is created.  
 4.  Choose the **OK** button.  
 
-If all subcontracted operations are sent to the same supplier location, then only one purchase order is created.  
+If all subcontracted operations are sent to the same vendor location, then only one purchase order is created.  
 
 The worksheet line that was turned into a purchase order is deleted from the worksheet. Once a purchase order is created, it will not appear in the worksheet again.  
 

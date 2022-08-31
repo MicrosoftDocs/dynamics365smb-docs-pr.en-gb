@@ -18,12 +18,12 @@ ms.locfileid: "8510566"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>The Payments and Reconciliations (DK) Extension
 
-Make fast, error-free payments by exporting files that are formatted specifically for exchanges with your supplier or bank. These files speed up the payment and reconciliation processes, and eliminate errors that can happen when you manually enter the information on a bank website.  
+Make fast, error-free payments by exporting files that are formatted specifically for exchanges with your vendor or bank. These files speed up the payment and reconciliation processes, and eliminate errors that can happen when you manually enter the information on a bank website.  
 
 This extension supports file formats for several Danish banks. When you export payment information to a file, the extension packages the data into the format that your bank requires. For example, the formats include Bankdata-V3, BEC, SDC, and FIK, which many different banks use, and some that are more specialised for certain banks, for example, Danske Bank and Nordea. The extension also includes some formats for importing and reconciling bank statements.  
 
 > [!Note]
-> To use the extension, you must know the format that your bank or supplier requires. Some banks or suppliers provide this information on their websites; however, you might need to contact their customer service to get the information.  
+> To use the extension, you must know the format that your bank or vendor requires. Some banks or vendors provide this information on their websites; however, you might need to contact their customer service to get the information.  
 
 ## <a name="supported-bank-formats"></a>Supported Bank Formats
 This extension can apply the following file formats for payment files:  
@@ -47,10 +47,10 @@ There are a few steps to get started.
 
 * Allow payment data exports. To help protect your data, this is not readily available.  
 * Set up purchase and payables so that you do not require external document numbers on invoices. If needed, you can use the reference number to refer to a specific invoice.  
-* Specify the payment method for each supplier. Payment methods define how you pay invoices from the supplier. For example, Bank, Cash, Cheque, or Account.  
+* Specify the payment method for each vendor. Payment methods define how you pay invoices from the vendor. For example, Bank, Cash, Cheque, or Account.  
 * Specify the type of format to use for each of your bank accounts. For example, NORDEA, DANSKEBANK, SDC, and so on.  
 
-Additionally, you must assign suppliers to a domestic **Gen. Bus. Posting Group** and a **Supplier Posting Group**. The Country/Region setting for the supplier must be Denmark (DK). For more information, see [Setting Up Posting Groups](finance-posting-groups.md).  
+Additionally, you must assign vendors to a domestic **Gen. Bus. Posting Group** and a **Supplier Posting Group**. The Country/Region setting for the vendor must be Denmark (DK). For more information, see [Setting Up Posting Groups](finance-posting-groups.md).  
 
 ### <a name="to-allow-prod_short-to-export-payment-data"></a>To allow [!INCLUDE[prod_short](includes/prod_short.md)] to export payment data
 
@@ -58,17 +58,17 @@ Additionally, you must assign suppliers to a domestic **Gen. Bus. Posting Group*
 2. On the **Edit Payment Journal** page, choose the **Bank** batch.  
 3. Choose the **Allow Payment Export** check box.  
 
-### <a name="to-specify-a-payment-method-for-a-vendor"></a>To specify a payment method for a supplier
+### <a name="to-specify-a-payment-method-for-a-vendor"></a>To specify a payment method for a vendor
 
-The following table shows the combinations of FIK and BACS / CHAPS payment methods that [!INCLUDE[prod_short](includes/prod_short.md)] supports.
+The following table shows the combinations of FIK and Giro payment methods that [!INCLUDE[prod_short](includes/prod_short.md)] supports.
 
 |Combination|Type 01 | Type 04 | Type 71 | Type 73 |
 |----|--------|---------|---------|---------|
-|BACS / CHAPS Account No. or FIK Creditor No.? | BACS / CHAPS Account No. | BACS / CHAPS Account No. | FIK Creditor No. | FIK Creditor No.|
+|Giro Account No. or FIK Creditor No.? | Giro Account No. | Giro Account No. | FIK Creditor No. | FIK Creditor No.|
 |Allows Message to Recipient? | Yes |No |No | Yes |
 |Contains Payment Reference number? | No | Yes, 16 digits. | Yes, 15 digits. | No|
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Suppliers**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2. Open the card, expand the **Payments** tab, in the **Payment Method** field choose the payment method.  
 3. Depending on your selection, you must complete other fields. See the table above for a description of the combinations.  
 
@@ -78,12 +78,12 @@ The following table shows the combinations of FIK and BACS / CHAPS payment metho
 2. Open the card for the bank account.  
 3. In the **Payment Export Format** field, choose the format for your export file.  
 
-## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Choosing the FIK or BACS / CHAPS payment information for supplier invoices
+## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Choosing the FIK or Giro payment information for vendor invoices
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
-2. Choose the supplier. Remember, this must be a Danish supplier with an address in Denmark.
-3. Create an invoice. The **Payment Method** and **Supplier Number** fields are filled in based on settings on the Supplier card. You can change them if you want.
-4. In the **Payment Reference** field, enter the 15-digit number from the supplier invoice.  
+2. Choose the vendor. Remember, this must be a Danish vendor with an address in Denmark.
+3. Create an invoice. The **Payment Method** and **Vendor Number** fields are filled in based on settings on the Vendor card. You can change them if you want.
+4. In the **Payment Reference** field, enter the 15-digit number from the vendor invoice.  
 
     > [!Tip]
     > You only have to add the last 11 digits of the number. [!INCLUDE[prod_short](includes/prod_short.md)] will add four zeros to the beginning of the number.  
@@ -93,7 +93,7 @@ The following table shows the combinations of FIK and BACS / CHAPS payment metho
 ## <a name="to-use-the-extension-to-export-payment-data"></a>To use the extension to export payment data
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
-2. Choose the **Suggest Supplier Payment Journals** action.  
+2. Choose the **Suggest Vendor Payment Journals** action.  
 
     > [!Tip]
     > If you want to export only specific payments, use the options for filtering the data.  

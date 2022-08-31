@@ -1,6 +1,6 @@
 ---
 title: Settle Purchase Invoices Promptly
-description: If you need to pay the supplier by cash or cheque, you can have the necessary posting done when you post the invoice.
+description: If you need to pay the vendor by cash or cheque, you can have the necessary posting done when you post the invoice.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.form: 51, 9308
@@ -15,10 +15,10 @@ ms.locfileid: "8516298"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Settle Purchase Invoices Promptly
 
-If you need to pay the supplier by cash or cheque, you can post the payment when you post the invoice.  
+If you need to pay the vendor by cash or cheque, you can post the payment when you post the invoice.  
 
 > [!NOTE]  
-> If you frequently pay purchase invoices in cash, by cheque or via bank transfer, it is a good idea to set up a specific payment method with a balancing account and enter this method in the **Payment Method** field on the supplier card. The balancing account number is inserted automatically on the invoice header every time you create a new invoice. For more information, see [Defining Payment Methods](finance-payment-methods.md).  
+> If you frequently pay purchase invoices in cash, by cheque or via bank transfer, it is a good idea to set up a specific payment method with a balancing account and enter this method in the **Payment Method** field on the vendor card. The balancing account number is inserted automatically on the invoice header every time you create a new invoice. For more information, see [Defining Payment Methods](finance-payment-methods.md).  
 
 ## <a name="to-settle-purchase-invoices-promptly"></a>To settle purchase invoices promptly
 

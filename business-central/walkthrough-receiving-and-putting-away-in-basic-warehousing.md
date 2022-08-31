@@ -44,7 +44,7 @@ This walkthrough demonstrates the following tasks.
 -   Setting up SILVER location for inventory put aways.  
 -   Setting up SILVER location for bin handling.  
 -   Defining a default bin for item LS-81. (LS-75 is already set up in CRONUS.)  
--   Creating a purchase order for supplier 10000 for 40 loudspeakers.  
+-   Creating a purchase order for vendor 10000 for 40 loudspeakers.  
 -   Verifying that the put-away bins are preset by setup.  
 -   Releasing the purchase order for warehouse handling.  
 -   Creating an inventory put-away based on a released source document.  
@@ -73,7 +73,7 @@ To complete this walkthrough, you will need:
     4.  Select the **Default** field.  
 
 ## <a name="story"></a>Story  
-Ellen, the warehouse manager at CRONUS International Ltd., creates a purchase order for 10 units of item LS-75 and 30 units of item LS-81 from supplier 10000 to be delivered to SILVER Warehouse. When the delivery arrives at the warehouse, John, the warehouse worker, puts the items away in default bins defined for the items. When John posts the put-away, the items are posted as received into inventory and available for sale or other demand.  
+Ellen, the warehouse manager at CRONUS International Ltd., creates a purchase order for 10 units of item LS-75 and 30 units of item LS-81 from vendor 10000 to be delivered to SILVER Warehouse. When the delivery arrives at the warehouse, John, the warehouse worker, puts the items away in default bins defined for the items. When John posts the put-away, the items are posted as received into inventory and available for sale or other demand.  
 
 ## <a name="setting-up-the-location"></a>Setting up the Location  
  The setup of the **Location Card** page defines the company's warehouse flows.  
@@ -102,7 +102,7 @@ Purchase orders are the most common type of inbound source document.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
-3.  Create a purchase order for supplier 10000 on the work date (January 23) with the following purchase order lines.  
+3.  Create a purchase order for vendor 10000 on the work date (January 23) with the following purchase order lines.  
 
     |Item|Location code|Bin code|Quantity|  
     |----------|-------------------|--------------|--------------|  
@@ -116,7 +116,7 @@ Purchase orders are the most common type of inbound source document.
 
 4.  Choose the **Release** action.  
 
-    The delivery of loudspeakers from supplier 10000 has arrived at SILVER warehouse, and John proceeds to put them away.  
+    The delivery of loudspeakers from vendor 10000 has arrived at SILVER warehouse, and John proceeds to put them away.  
 
 ## <a name="receiving-and-putting-the-items-away"></a>Receiving and Putting the Items Away  
 On the **Inventory Put-away** page, you can manage all inbound warehouse activities for a specific source document, such as a purchase order.  
@@ -126,7 +126,7 @@ On the **Inventory Put-away** page, you can manage all inbound warehouse activit
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-aways**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Select the **Source Document** field, and then select **Purchase Order**.  
-4.  Select the **Source No.** field, select the line for the purchase from supplier 10000, and then choose the **OK** button.  
+4.  Select the **Source No.** field, select the line for the purchase from vendor 10000, and then choose the **OK** button.  
 
     Alternatively, choose the **Get Source Document** action, and then select the purchase order.  
 

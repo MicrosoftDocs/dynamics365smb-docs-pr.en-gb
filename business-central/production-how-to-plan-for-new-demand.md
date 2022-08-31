@@ -62,7 +62,7 @@ The page displays planning lines according to the view filter **Production Deman
 
 6. From the **Supply From** field, you can look up in the relevant list and select where the supply should come from:  
 
-    - If replenishment system is **Purchase**, the look-up button in this field looks up on the **Item Supplier Catalogue** page.  
+    - If replenishment system is **Purchase**, the look-up button in this field looks up on the **Item Vendor Catalogue** page.  
     - If replenishment system is **Transfer**, the look-up button in this field looks up on the **Location List** page.  
 
     In case the item exists in another location, the **Qty. on Other Location** field at the bottom shows a value and you can then look up and select the location from which the item should be supplied when you make the transfer order.  

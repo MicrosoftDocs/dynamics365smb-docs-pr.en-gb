@@ -20,7 +20,7 @@ ms.locfileid: "8519733"
 # <a name="work-with-intercompany-documents-and-journals"></a>Work with Intercompany Documents and Journals
 You use intercompany documents or journals to post transactions with your intercompany partners. When you post an intercompany document or journal line in your company, a corresponding document or journal line is created in your intercompany outbox that you can transfer to your partner. Your partner can then post the corresponding transaction in their company, without having to re-enter the data.
 
-For sales and purchase documents, the intercompany partner code on the involved customer or supplier ensures that all orders and invoices generated pertaining to transactions with these companies will produce corresponding documents in the partner company, resulting in correct balancing of the accounts.
+For sales and purchase documents, the intercompany partner code on the involved customer or vendor ensures that all orders and invoices generated pertaining to transactions with these companies will produce corresponding documents in the partner company, resulting in correct balancing of the accounts.
 
 For intercompany general journal lines, you do not need to specify the accounts for an individual set of books, but simply give the identification of the partner company. Corresponding intercompany general journal lines are then created in the partner company that result in the balancing of the books of both companies involved in a transaction.
 

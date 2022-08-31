@@ -23,7 +23,7 @@ You can rate a prospect so you can identify the ideal prospects to focus your sa
 
 With the right questionnaires, you can rate your prospects and group them into categories. You can use existing questions and answers and combine them with new questions and answers to form the basis of your rating. Each answer in the rating is given a point value and, depending on the range you set up for the categories (*From Value* and *To Value*), the rating system will group your contacts in the categories you have defined. For example, *ABC* customers, *High/Low loyalty* vendors, or *Platinum/Gold/Silver* prospects.  
 
-You can also run the questionnaire to answer some of the questions based on contact, customer, or supplier data automatically.  
+You can also run the questionnaire to answer some of the questions based on contact, customer, or vendor data automatically.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>To add a profile questionnaire
 
@@ -72,10 +72,10 @@ You can apply your questionnaires to contacts manually. Just open the relevant c
 
 ## <a name="the-automatic-classification-of-contacts"></a>The Automatic Classification of Contacts
 
-You can automatically classify your contacts according to customer, supplier, and contact information, by setting up automatically answered profile questions on the **Profile Questionnaire Setup** page.  
+You can automatically classify your contacts according to customer, vendor, and contact information, by setting up automatically answered profile questions on the **Profile Questionnaire Setup** page.  
 
 > [!NOTE]
-> Only contacts that are recorded as customers can be assigned a classification based on customer data and only contacts that are recorded as suppliers can be assigned a classification based on supplier data. The automatic classification is not updated automatically. Consequently, you may want to update the profile questionnaires, after you have updated the customer, supplier or contact data they are based on.  
+> Only contacts that are recorded as customers can be assigned a classification based on customer data and only contacts that are recorded as vendors can be assigned a classification based on vendor data. The automatic classification is not updated automatically. Consequently, you may want to update the profile questionnaires, after you have updated the customer, vendor or contact data they are based on.  
 
 After you have set up automatically answered profile questions, if you assign the profile questionnaire containing these questions to a contact, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically assign the right answers for the contact.  
 

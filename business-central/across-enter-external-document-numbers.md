@@ -1,6 +1,6 @@
 ---
 title: Enter External Document Numbers
-description: You can enter external document numbers for customers and suppliers in all sales and purchase orders, invoices, and credit memos. You can use these numbers to search for posted sales and purchase lines later.
+description: You can enter external document numbers for customers and vendors in all sales and purchase orders, invoices, and credit memos. You can use these numbers to search for posted sales and purchase lines later.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
@@ -18,10 +18,10 @@ ms.locfileid: "8141678"
 ---
 # <a name="enter-external-document-numbers"></a>Enter External Document Numbers
 
-You can enter external document numbers for customers and suppliers in all sales and purchase orders, invoices, and credit memos. You can use these numbers to search for posted sales and purchase lines later.  
+You can enter external document numbers for customers and vendors in all sales and purchase orders, invoices, and credit memos. You can use these numbers to search for posted sales and purchase lines later.  
 
 > [!NOTE]
-> Specify the document number that your customer or supplier has specified. [!INCLUDE [prod_short](includes/prod_short.md)] does not check if these external document numbers are unique or duplicates.
+> Specify the document number that your customer or vendor has specified. [!INCLUDE [prod_short](includes/prod_short.md)] does not check if these external document numbers are unique or duplicates.
 
 The following procedure explains how to specify an external document number on a sales order, but similar steps apply to other sales and purchase documents.
 
@@ -31,7 +31,7 @@ The following procedure explains how to specify an external document number on a
 2. Select the relevant sales order, and then choose the **Edit** action.  
 3. On the **General** FastTab, in the **External Document No.** field, enter the invoice number.  
 
-    On purchase documents, the relevant field is the **Supplier Invoice No.** field.
+    On purchase documents, the relevant field is the **Vendor Invoice No.** field.
 4. Fill in any other required fields.  
 
 ## <a name="see-also"></a>See Also

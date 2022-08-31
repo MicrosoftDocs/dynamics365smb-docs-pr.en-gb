@@ -83,7 +83,7 @@ The selected reason code will be copied to new journal batches created under thi
 
 2. On the sales or purchase header, enter the code in the **Reason Code** field.
 
-When the invoice is posted, the reason code is copied to each general ledger, customer, and supplier entry. You cannot assign different reason codes to the individual purchase and sales lines because all lines are posted as one entry.
+When the invoice is posted, the reason code is copied to each general ledger, customer, and vendor entry. You cannot assign different reason codes to the individual purchase and sales lines because all lines are posted as one entry.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 

@@ -48,7 +48,7 @@ The Data Archive extensions is used by the following batch jobs for date compres
 |Date Compress Maint. Ledger |
 |Date Compress Resource Ledger |
 |Date Compress VAT Entries |
-|Date Compress Supplier Ledger |
+|Date Compress Vendor Ledger |
 |Date Compress Whse. Entries |
 |Date Compr. G/L Budget Entries |
 

@@ -39,7 +39,7 @@ If you want to include warehouse handling time in the order promising calculatio
 
 ## <a name="see-also"></a>See Also
 
-[Set Up Stock](inventory-setup-inventory.md)  
+[Set Up Inventory](inventory-setup-inventory.md)  
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Manage Inventory](inventory-manage-inventory.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -86,7 +86,7 @@ In addition to other dimension fields in the table, these fields are important.
 |---------------|----------------|  
 |17|**G/L Entry**|  
 |21|**Cust. Ledger Entry**|  
-|25|**Supplier Ledger Entry**|  
+|25|**Vendor Ledger Entry**|  
 |32|**Item Ledger Entry**|  
 |110|**Sales Shipment Header**|  
 |111|**Sales Shipment Line**|  

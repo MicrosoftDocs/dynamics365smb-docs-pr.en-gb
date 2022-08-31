@@ -17,7 +17,7 @@ ms.lasthandoff: 04/29/2022
 ms.locfileid: "8654949"
 ---
 # <a name="setting-up-finance"></a>Setting Up Finance
-Before you can begin to run your business, you must specify rules and defaults for how you want to manage finance processes for that company. You start by setting up the core of the company's accounting records - the chart of accounts. Then you set up posting groups, which makes the process of assigning default general ledger posting accounts to customers, suppliers, and items more efficient.
+Before you can begin to run your business, you must specify rules and defaults for how you want to manage finance processes for that company. You start by setting up the core of the company's accounting records - the chart of accounts. Then you set up posting groups, which makes the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.
 
 Some finance setup can be done automatically with assisted setup guides, and some must be done manually. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md). The **General Ledger Setup** page specifies how you handle many different accounting issues in your company. For example, you use this page to specify invoice rounding details, the currency code for your local currency, address formats, and whether you want to use an additional reporting currency. For more information, see [Understanding the General Ledger and the Chart of Accounts](finance-general-ledger.md).  
 
@@ -30,12 +30,12 @@ The following table describes a sequence of tasks, with links to the topics that
 | To | See |
 | --- | --- |
 |View or edit the general ledger accounts to which all general ledger entries are posted|[Set Up or Change the Chart of Accounts](finance-setup-chart-accounts.md)|
-| Specify how you want to be paid by customers, and how you want to pay your suppliers. |[Set Up Payment Methods](finance-payment-methods.md) |
+| Specify how you want to be paid by customers, and how you want to pay your vendors. |[Set Up Payment Methods](finance-payment-methods.md) |
 | Specify payment terms to manage due dates and to calculate possible payment discounts.|[Set Up Payment Terms](finance-payment-terms.md) |
-| Specify the posting groups that map entities like customers, suppliers, items, resources, and sales and purchase documents to general ledger accounts. |[Set Up Posting Groups](finance-posting-groups.md)|
+| Specify the posting groups that map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. |[Set Up Posting Groups](finance-posting-groups.md)|
 |Create account schedules and define account categories to define the contents of financial charts and reports, such as the Balance Sheet and Income Statement reports.|[Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)|
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Set up financial periods. |[Work with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md) |
+| Set up fiscal periods. |[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md) |
 |Set up reminder terms to help you collect for overdue payments.|[Set Up Reminder Terms and Levels](finance-setup-reminders.md)|
 | Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[Set Up Value-Added Tax (VAT)](finance-setup-vat.md)|
 |Prepare to handle unrealised VAT in connection with cash-based accounting methods.|[Set Up Unrealised VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)|

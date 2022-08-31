@@ -203,11 +203,11 @@ Test this scenario by carrying out the following steps:
 
 2.  Create a new **Purchase Order** with the following values:  
 
-     - Buy-from Supplier No.: 10000  
+     - Buy-from Vendor No.: 10000  
 
      - Posting Date = December 15, 2020
 
-     - Supplier Invoice No.: 1234  
+     - Vendor Invoice No.: 1234  
 
      On the Purchase Order Line select the following values:  
 
@@ -243,11 +243,11 @@ Test this scenario by carrying out the following steps:
 
 5.  Create a new **Purchase Order** with the following values:  
 
-     - Buy-from Supplier No.: 10000  
+     - Buy-from Vendor No.: 10000  
 
      - Posting Date = January 2, 2021  
 
-     - Supplier Invoice No.: 2345  
+     - Vendor Invoice No.: 2345  
 
      On the Purchase Order Line:  
 
@@ -292,11 +292,11 @@ Test this scenario by carrying out the following steps:
 
      Create a new **Purchase Order** with the following values:  
 
-     - Buy-from Supplier No.: 10000  
+     - Buy-from Vendor No.: 10000  
 
      - Posting Date = December 30, 2020  
 
-     - Supplier Invoice No.: 3456  
+     - Vendor Invoice No.: 3456  
 
      On the Purchase Order Line select the following values:  
 
@@ -351,9 +351,9 @@ Having the General Ledger Setup stating Allow Posting From January 1 was a good 
 
 **Conclusion:**  
 
-It is a challenge to get the Inventory Valuation report to demonstrate Quantity = 0 while the Value <> 0. In this case it is also more difficult to express the optimal settings, having purchase invoices arriving the same day but addressing different periods or even financial years. Crossing to a new financial year usually requires some planning and as part of that the insight into Adjust Cost – Item entries process, recognising COGS, is to be considered.  
+It is a challenge to get the Inventory Valuation report to demonstrate Quantity = 0 while the Value <> 0. In this case it is also more difficult to express the optimal settings, having purchase invoices arriving the same day but addressing different periods or even fiscal years. Crossing to a new fiscal year usually requires some planning and as part of that the insight into Adjust Cost – Item entries process, recognising COGS, is to be considered.  
 
-In this scenario one option could have been to have the General Ledger Setup, field Allow Posting From, stating a date in December for a couple of more days and the posting of the first item charge postponed to allow all costs for the previous period/financial year to be recognised for the period they belong to first, having the Adjust Cost – Item entries batch job run and thereafter move the allowed posting date to the new period\/financial year. The first item charge with posting date January 2 could then be posted.  
+In this scenario one option could have been to have the General Ledger Setup, field Allow Posting From, stating a date in December for a couple of more days and the posting of the first item charge postponed to allow all costs for the previous period/fiscal year to be recognised for the period they belong to first, having the Adjust Cost – Item entries batch job run and thereafter move the allowed posting date to the new period\/fiscal year. The first item charge with posting date January 2 could then be posted.  
 
 ## <a name="see-also"></a>See Also  
 

@@ -164,7 +164,7 @@ As of April 2022, links that are displayed as compact card in Teams will no long
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
-[Searching for Customers, Suppliers, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md)  
+[Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md)  
 [Share Records in Microsoft Teams](across-working-with-teams.md)  
 [Teams FAQ](teams-faq.md)  
 [Changing Company and Other Settings in Teams](across-teams-settings.md)  

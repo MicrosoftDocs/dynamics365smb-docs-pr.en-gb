@@ -1,6 +1,6 @@
 ---
 title: Record Payments and Refunds in Payment Journal
-description: Read about how to record payments that you make to suppliers, and refunds that you make to customers, on the Payment Journal page.
+description: Read about how to record payments that you make to vendors, and refunds that you make to customers, on the Payment Journal page.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
@@ -19,17 +19,17 @@ ms.locfileid: "8520949"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Record Payments and Refunds in the Payment Journal
 
-On the **Payment Journal** page, you record payments that you make to suppliers and refunds that you make to customers. When you post a payment journal line, the paid amount is recorded on the specified system bank account. You must then take steps to perform the actual money transfer from the related bank account.  
+On the **Payment Journal** page, you record payments that you make to vendors and refunds that you make to customers. When you post a payment journal line, the paid amount is recorded on the specified system bank account. You must then take steps to perform the actual money transfer from the related bank account.  
 
-The payment journal is a general journal that is optimised for making payments. You can quickly add lines manually, you can let [!INCLUDE[prod_short](includes/prod_short.md)] suggest supplier payments, and you can apply the payment to posted documents. Even though you are making payments, you enter a positive amount in the **Document Amount** field. Depending on the document type for the journal line, this amount is then converted to a negative amount in the underlying transactions. This way, it's faster for you to add journal lines manually. If you prefer to enter negative amounts, you can personalise the payment journal to show the **Amount** field instead.  
+The payment journal is a general journal that is optimised for making payments. You can quickly add lines manually, you can let [!INCLUDE[prod_short](includes/prod_short.md)] suggest vendor payments, and you can apply the payment to posted documents. Even though you are making payments, you enter a positive amount in the **Document Amount** field. Depending on the document type for the journal line, this amount is then converted to a negative amount in the underlying transactions. This way, it's faster for you to add journal lines manually. If you prefer to enter negative amounts, you can personalise the payment journal to show the **Amount** field instead.  
 
 - Applying payments to invoices or credit memos
 
-    If you fill in the **Applies-to Doc. No.** field with the invoice or credit memo that must be paid or refunded, then the document in question is set to paid when you post the journal. This is referred to as "applied". As an alternative to applying during payment posting, you can use the **Apply Supplier Entries** and **Apply Customer Entries** page after you have made the payment posting. For more information, see, for example, [Reconcile Supplier Payments with the Payment Journal or from Supplier Ledger Entries](payables-how-apply-purchase-transactions-manually.md).  
+    If you fill in the **Applies-to Doc. No.** field with the invoice or credit memo that must be paid or refunded, then the document in question is set to paid when you post the journal. This is referred to as "applied". As an alternative to applying during payment posting, you can use the **Apply Vendor Entries** and **Apply Customer Entries** page after you have made the payment posting. For more information, see, for example, [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md).  
 
-- Get suggested payments to suppliers or employees
+- Get suggested payments to vendors or employees
 
-    The **Suggest Supplier Payments** and **Suggest Employee Payments** functions can help you fill payment journal lines automatically according to supplier prioritisation and due dates. For more information, see [Suggest Supplier Payments](payables-how-suggest-vendor-payments.md). With this function, the **Applies-to Doc. No.** field is always filled in.  
+    The **Suggest Supplier Payments** and **Suggest Employee Payments** functions can help you fill payment journal lines automatically according to vendor prioritisation and due dates. For more information, see [Suggest Supplier Payments](payables-how-suggest-vendor-payments.md). With this function, the **Applies-to Doc. No.** field is always filled in.  
 
 - Print cheques and submit payments electronically to your bank
 
@@ -40,10 +40,10 @@ The payment journal is a general journal that is optimised for making payments. 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Open the journal batch that is dedicated to payments.
 3. If you know who to pay, fill in the fields manually. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. To also apply the payment to the related invoice or credit memo, choose the **Applies-to Doc No.** field, on the **Apply Supplier Entries** page, select the relevant invoice or credit memo, and then choose the **OK** button.
+4. To also apply the payment to the related invoice or credit memo, choose the **Applies-to Doc No.** field, on the **Apply Vendor Entries** page, select the relevant invoice or credit memo, and then choose the **OK** button.
 
     Many fields, such as the **Document Amount** and **Due Date** fields, are now filled in with information from the selected document.
-5. Alternatively, use the **Suggest Supplier Payments** function. All the applies-to information and amounts are then also entered on the journal lines. For more information, see [Suggest Supplier Payments](payables-how-suggest-vendor-payments.md).
+5. Alternatively, use the **Suggest Vendor Payments** function. All the applies-to information and amounts are then also entered on the journal lines. For more information, see [Suggest Supplier Payments](payables-how-suggest-vendor-payments.md).
 
     Messages will guide you to fill in the required fields correctly.
 6. When all payment journal lines are completed, choose the **Post** action.

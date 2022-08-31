@@ -32,7 +32,7 @@ The Association for Payment Clearing Services (APACS) specification defines a st
     |---------------------------------|---------------------------------------|  
     |**Bank Account**|Specifies bank account code.|  
     |**Last Cheque No.**|Specifies the last cheque number that was specified on the **Bank Account Card** page.|  
-    |**One Cheque per Supplier per Document No.**|Select to print only one cheque per supplier for each document number.|  
+    |**One Cheque per Vendor per Document No.**|Select to print only one cheque per vendor for each document number.|  
     |**Reprint Cheques**|Select to reprint cancelled cheques.|  
     |**Test Print**|Select to print cheques on blank paper before printing them on cheque forms.|  
     |**Preprinted Stub**|Select to use cheque forms with preprinted stubs.|  

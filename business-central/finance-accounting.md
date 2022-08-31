@@ -33,7 +33,7 @@ If you work in multiple [!INCLUDE [prod_short](includes/prod_short.md)] companie
 
 ## <a name="inviting-your-external-accountant-to-your-prod_short"></a><a name="inviteaccountant"></a>Inviting Your External Accountant to Your [!INCLUDE[prod_short](includes/prod_short.md)]
 
-If you use an external accountant to manage your books and financial reporting, your administrator can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your financial data. [!INCLUDE[prod_short](includes/prod_short.md)] includes three licences of type External Accountant. For more information about licensing, see the [Microsoft Dynamics 365 Business Central Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590).
+If you use an external accountant to manage your books and financial reporting, your administrator can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. [!INCLUDE[prod_short](includes/prod_short.md)] includes three licences of type External Accountant. For more information about licensing, see the [Microsoft Dynamics 365 Business Central Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590).
 
 Once your accountant has gained access to your [!INCLUDE[prod_short](includes/prod_short.md)], they can use the **Accountant** Role Centre that gives easy access to the most relevant pages for their work. They can also use the company hub in their own [!INCLUDE [prod_short](includes/prod_short.md)] to manage their work. For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).  
 

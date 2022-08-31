@@ -1,6 +1,6 @@
 ---
 title: Allocate Costs to Intercompany Partners| Microsoft Docs
-description: Learn how VAT settings for customers and suppliers control whether, and how, VAT is calculated.
+description: Learn how VAT settings for customers and vendors control whether, and how, VAT is calculated.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -17,7 +17,7 @@ ms.lasthandoff: 06/29/2022
 ms.locfileid: "9077300"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allocate Costs to Intercompany Partners
-When you use intercompany postings to transfer documents between partner companies, the VAT-related settings (primarily the VAT business posting group) assigned to the customer or supplier accounts (associated with the intercompany Partner) control whether, and how, VAT is calculated and registered. You can also do cost distributions directly from a purchase order to partner companies. For example, if you register a purchase invoice from an external supplier and you want to distribute some or all of the costs to one or more intercompany partners.
+When you use intercompany postings to transfer documents between partner companies, the VAT-related settings (primarily the VAT business posting group) assigned to the customer or vendor accounts (associated with the intercompany Partner) control whether, and how, VAT is calculated and registered. You can also do cost distributions directly from a purchase order to partner companies. For example, if you register a purchase invoice from an external vendor and you want to distribute some or all of the costs to one or more intercompany partners.
 
 You can allocate costs can be to one or more intercompany partners using the following:
 
@@ -28,10 +28,10 @@ You can allocate costs can be to one or more intercompany partners using the fol
 To enter a  line in an intercompany general journal, follow these steps. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany General Journal** , and then choose the related link.
-2. If required, in the **External Document No.** field, enter the document number on the invoice from the supplier.
+2. If required, in the **External Document No.** field, enter the document number on the invoice from the vendor.
 3. In the **Document Type** field, choose **Invoice**.
-4. In the **Account Type** field, choose **Supplier**.
-5. In the **Account No.** field, choose the supplier.
+4. In the **Account Type** field, choose **Vendor**.
+5. In the **Account No.** field, choose the vendor.
 6. In the **Amount** field, enter a negative amount equal to the amount on the invoice.
 7. In the **Bal. Account Type** field, choose **G/L Account**.
 8. In the **Bal. Account No.** field, choose the balancing account to use.

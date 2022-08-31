@@ -1,6 +1,6 @@
 ---
 title: Using the C5 Data Migration Extension | Microsoft Docs
-description: Use this extension to migrate customers, suppliers, items, and general ledger accounts from Microsoft Dynamics C5 2012 to Business Central.
+description: Use this extension to migrate customers, vendors, items, and general ledger accounts from Microsoft Dynamics C5 2012 to Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -18,10 +18,10 @@ ms.locfileid: "8381121"
 ---
 # <a name="the-c5-data-migration-extension"></a>The C5 Data Migration Extension
 
-This extension makes it easy to migrate customers, suppliers, items, and your general ledger accounts from Microsoft Dynamics C5 2012 to [!INCLUDE[prod_short](includes/prod_short.md)]. You can also migrate historical entries for general ledger accounts.
+This extension makes it easy to migrate customers, vendors, items, and your general ledger accounts from Microsoft Dynamics C5 2012 to [!INCLUDE[prod_short](includes/prod_short.md)]. You can also migrate historical entries for general ledger accounts.
 
 > [!Note]
-> The company in [!INCLUDE[prod_short](includes/prod_short.md)] must not contain any data. Additionally, after you start a migration, do not create customers, suppliers, items, or accounts until the migration finishes.
+> The company in [!INCLUDE[prod_short](includes/prod_short.md)] must not contain any data. Additionally, after you start a migration, do not create customers, vendors, items, or accounts until the migration finishes.
 
 ## <a name="what-data-is-migrated"></a>What Data is Migrated?
 The following data is migrated for each entity:
@@ -45,24 +45,24 @@ If you migrate accounts, the following data is also migrated:
 * General journal batch
 * Open transactions (customer ledger entries)
 
-### <a name="vendors"></a>Suppliers
+### <a name="vendors"></a>Vendors
 
 * Contacts
 * Location
 * Country
-* Supplier dimensions (department, centre, purpose)
+* Vendor dimensions (department, centre, purpose)
 * Invoice discount
 * Shipment method
 * Purchaser
 * Payment terms
 * Payment method
-* Supplier invoice discount
+* Vendor invoice discount
 
 If you migrate accounts, the following data is also migrated:
 
-* Supplier posting setup
+* Vendor posting setup
 * General journal batch
-* Open transactions (supplier ledger entries)
+* Open transactions (vendor ledger entries)
 
 ### <a name="items"></a>Items
 
@@ -99,7 +99,7 @@ If you migrate accounts, the following data is also migrated:
 
 ## <a name="file-size-requirements"></a>File Size Requirements
 
-The largest file size you can upload to [!INCLUDE[prod_short](includes/prod_short.md)] is 150 MB. If the file you export from C5 is larger than that, consider migrating data in multiple files. For example, export one or two types of entities from C5, such as customers and suppliers, to a file, and then export items to another file, and so on. You can import files individually in [!INCLUDE[prod_short](includes/prod_short.md)].
+The largest file size you can upload to [!INCLUDE[prod_short](includes/prod_short.md)] is 150 MB. If the file you export from C5 is larger than that, consider migrating data in multiple files. For example, export one or two types of entities from C5, such as customers and vendors, to a file, and then export items to another file, and so on. You can import files individually in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="to-migrate-data"></a>To migrate data
 
@@ -120,7 +120,7 @@ Use the **Data Migration Overview** page to monitor the success of the migration
 
 To help avoid double-posting to the general ledger, the following balance accounts are used for open transactions:  
 
-* For suppliers, we use the A/P account from the supplier posting group.  
+* For vendors, we use the A/P account from the vendor posting group.  
 * For customers, we use the A/R account from the customer posting group.  
 * For items, we create a general posting setup where the adjustment account is the account specified as the inventory account on the inventory posting setup.  
 
@@ -131,7 +131,7 @@ If something goes wrong and an error occurs, the **Status** field will show **Co
 * The number in the **Error Count** field for the entity.  
 * The entity, and then the **Show Errors** action.  
 
-On the **Data Migration Errors** page, to fix an error you can choose an error message, and then choose **Edit Record** to view the migrated data for the entity. If you have several errors to fix, you can choose **Bulk-Fix Errors** to edit the entities in a list. You still need to open individual records if the error was caused by a related entry though. For example, a supplier will not be migrated if an email address one of their contacts has an invalid format.
+On the **Data Migration Errors** page, to fix an error you can choose an error message, and then choose **Edit Record** to view the migrated data for the entity. If you have several errors to fix, you can choose **Bulk-Fix Errors** to edit the entities in a list. You still need to open individual records if the error was caused by a related entry though. For example, a vendor will not be migrated if an email address one of their contacts has an invalid format.
 
 After you fix one or more errors, you can choose **Migrate** to migrate only the entities you fixed, without having to completely restart the migration.  
 
@@ -148,7 +148,7 @@ One way to verify that your data migrated correctly is to look at the following 
 |Microsoft Dynamics C5 2012 | Dynamics 365 Business Central| Batch Job to Use |
 |---------------------------|------------------------------|------------------|
 |Customer Entries| General Journals| CUSTMIGR |
-|Supplier Entries| General Journals| VENDMIGR|
+|Vendor Entries| General Journals| VENDMIGR|
 |Item Entries| Item Journals| ITEMMIGR |
 |G/L Entries| General Journals| GLACMIGR |
 

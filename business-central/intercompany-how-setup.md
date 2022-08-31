@@ -1,6 +1,6 @@
 ---
 title: Set Up Intercompany Transaction Posting
-description: Create your intercompany suppliers and customers as so-called intercompany partners, and set up an intercompany chart of accounts.
+description: Create your intercompany vendors and customers as so-called intercompany partners, and set up an intercompany chart of accounts.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -23,7 +23,7 @@ Intercompany postings make accounting for two or more companies an easier task f
 
 You must also set up an intercompany partner code for each [!INCLUDE [prod_short](includes/prod_short.md)] company, which is agreed upon by all of the companies, and then assign that to customer and vendor cards, respectively.  
 
-If you create or receive intercompany lines with items, you can either use your own item numbers, or you can set up your partner's item numbers for each relevant item, either in the **Supplier Item No.** field or in the **Common Item No.** field on the item card. You can also use the **Item Reference** function to map your items' numbers to your intercompany partners descriptions of the items, open the card of each item, and then choose the **Item References** action to set up references between your item descriptions and those of the intercompany partner. For more information, see [Use Item References](inventory-how-use-item-cross-refs.md). 
+If you create or receive intercompany lines with items, you can either use your own item numbers, or you can set up your partner's item numbers for each relevant item, either in the **Vendor Item No.** field or in the **Common Item No.** field on the item card. You can also use the **Item Reference** function to map your items' numbers to your intercompany partners descriptions of the items, open the card of each item, and then choose the **Item References** action to set up references between your item descriptions and those of the intercompany partner. For more information, see [Use Item References](inventory-how-use-item-cross-refs.md). 
 
 If you will make intercompany sales transactions that include resources, you must fill in the **IC Partner Purch. G/L Acc. No.** field on the resource card for each relevant resource. This is the number of the intercompany general ledger account that the amount for this resource will be posted to in your partner's company. For more information, see [Set Up Resources](projects-how-setup-resources.md). 
 
@@ -50,10 +50,10 @@ In versions older than 2022 release wave 1, you must fill in three intercompany-
 > [!NOTE]
 > In [!INCLUDE[prod_short](includes/prod_short.md)] online, you cannot use file locations to transfer transactions to your partners because [!INCLUDE[prod_short](includes/prod_short.md)] does not have access to your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field is not available. Instead, the file will be downloaded to the Downloads folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email** instead.
 
-## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>To set up intercompany suppliers and intercompany customers
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Suppliers**, and then choose the related link.
-2. Alternatively, access the supplier from the **Supplier No.** field on the **Intercompany Partner** page.
-3. Open the card for a supplier that is an intercompany partner. For more information, see [Register New Suppliers](purchasing-how-register-new-vendors.md).
+## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>To set up intercompany vendors and intercompany customers
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+2. Alternatively, access the vendor from the **Supplier No.** field on the **Intercompany Partner** page.
+3. Open the card for a vendor that is an intercompany partner. For more information, see [Register New Suppliers](purchasing-how-register-new-vendors.md).
 4. In the **Intercompany Partner Code** field, select the relevant intercompany partner code.
 5. Repeat steps 1 through 4 for customers.
 

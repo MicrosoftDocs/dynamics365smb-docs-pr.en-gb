@@ -31,7 +31,7 @@ The following describes how to receive items with a purchase order. The steps ar
 3. In the **Qty. to Receive** field, enter the received quantity.
 
   > [!NOTE]
-  > If the received quantity is higher than ordered on the purchase order, per the **Quantity** field, and the supplier has been set up to allow over-receipts, then you use the **Over-Receive** field to handle the excess quantity. For more information, see [To receive more items than ordered](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+  > If the received quantity is higher than ordered on the purchase order, per the **Quantity** field, and the vendor has been set up to allow over-receipts, then you use the **Over-Receive** field to handle the excess quantity. For more information, see [To receive more items than ordered](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
 
 4. Choose the **Post** action.
 
@@ -87,13 +87,13 @@ If you are not using warehouse put-away but you are using bins, the put-away of 
 
 ## <a name="to-receive-more-items-than-ordered"></a>To receive more items than ordered
 
-When you receive more goods than you ordered, you may want to receive them instead of cancelling the receipt. For example, it may be cheaper to keep the excess on your inventory than returning them or your supplier may offer you a discount for keeping them.
+When you receive more goods than you ordered, you may want to receive them instead of cancelling the receipt. For example, it may be cheaper to keep the excess on your inventory than returning them or your vendor may offer you a discount for keeping them.
 
 ### <a name="to-set-up-over-receipts"></a>To set up over-receipts
 
-You must define a percentage by which you allow the ordered quantity to be exceeded when receiving. You define this under an over-receipt code, which contains the percentage in the **Over-Receipt Tolerance %** field. You then assign the code to the cards of relevant items and/or suppliers.  
+You must define a percentage by which you allow the ordered quantity to be exceeded when receiving. You define this under an over-receipt code, which contains the percentage in the **Over-Receipt Tolerance %** field. You then assign the code to the cards of relevant items and/or vendors.  
 
-The following describes how to set up and assign an over-receipt code to an item. The steps are similar for a supplier.
+The following describes how to set up and assign an over-receipt code to an item. The steps are similar for a vendor.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card for an item that you suspect may sometimes be delivered with a higher quantity than ordered.
@@ -117,19 +117,19 @@ When you handle an over-receipt, you can either increase the value in the **Qty.
 
     If the increase is within the tolerance specified by the assigned over-receipt code, the **Over-Receipt Quantity** field is updated to show the quantity by which the value in the **Quantity** field is exceeded.
 
-    If the increase is above the specified tolerance, the over-receipt is not allowed. In that case, you can investigate if another over-receipt code exists that will allow it. Otherwise, only the ordered quantity can be received, and the excess quantity must be handled otherwise, for example, by returning it to the supplier.
+    If the increase is above the specified tolerance, the over-receipt is not allowed. In that case, you can investigate if another over-receipt code exists that will allow it. Otherwise, only the ordered quantity can be received, and the excess quantity must be handled otherwise, for example, by returning it to the vendor.
 
 2. Post the receipt as you would for any other receipt.
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)] does not include functionality to automatically initiate the financial administration of over-receipts. You must manually handle this in agreement with the supplier, for example, by the supplier forwarding a new or updated invoice.
+> [!INCLUDE[prod_short](includes/prod_short.md)] does not include functionality to automatically initiate the financial administration of over-receipts. You must manually handle this in agreement with the vendor, for example, by the vendor forwarding a new or updated invoice.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 
 [Warehouse Management](warehouse-manage-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  

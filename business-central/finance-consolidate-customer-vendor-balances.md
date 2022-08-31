@@ -35,7 +35,7 @@ Before you consolidate balances, specify a few settings on the **Marketing Setup
 ## <a name="link-an-existing-customer-and-vendor-company-thorough-a-contact"></a>Link an existing customer and vendor company thorough a contact
 The following steps describe how to link a customer and a vendor through a contact.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Supplier**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.
 2. Choose the customer or vendor, and then choose the **Contact** action.
 3. If the **Contact Business Relation** field contains a value other than **None**, you must remove the relation. To do that, use the **Business Relation** action, and then delete the relation. 
 4. Depending on whether you chose **Customer** or **Vendor** in step 1, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, and then enter the opposite party. That is, if you chose **Vendor**, you should search for **Customer**.

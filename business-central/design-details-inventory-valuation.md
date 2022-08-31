@@ -1,6 +1,6 @@
 ---
-title: Design Details - Stock Valuation | Microsoft Docs
-description: Stock valuation is the determination of the cost of a stock item.
+title: Design Details - Inventory Valuation | Microsoft Docs
+description: Inventory valuation is the determination of the cost of a inventory item.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na

@@ -247,7 +247,7 @@ You can specify the reports that must be printed at different stages by choosing
 
 ## <a name="see-also"></a>See also 
 
-[Count, Adjust, and Reclassify Stock Using Journals](inventory-how-count-adjust-reclassify.md)  
+[Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  

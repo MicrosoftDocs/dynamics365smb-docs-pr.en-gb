@@ -21,7 +21,7 @@ ms.locfileid: "8515648"
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
 
-The default configuration includes a chart of accounts and standard posting groups that make the process of assigning default general ledger posting accounts to customers, suppliers, and items more efficient.  
+The default configuration includes a chart of accounts and standard posting groups that make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.  
 
 The following table describes a sequence of tasks, with links to the topics that describe them.  
 
@@ -29,7 +29,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | --- | --- |
 | Apply incoming payments, reconcile bank accounts during payment application, and collect outstanding balances. |[Managing Receivables](receivables-manage-receivables.md) |
 | Make payments, apply outgoing payments, and work with checks. |[Managing Payables](payables-manage-payables.md) |
-|Make your customers submit payment before you ship to them, or submit payment to your suppliers before they ship to you.|[Invoicing Prepayments](finance-invoice-prepayments.md)|
+|Make your customers submit payment before you ship to them, or submit payment to your vendors before they ship to you.|[Invoicing Prepayments](finance-invoice-prepayments.md)|
 | Reconcile bank accounts and transfer funds between bank accounts. |[Reconciling Bank Accounts](bank-manage-bank-accounts.md) |
 |Set up intercompany partners and process transactions, manually or automatically, between legal entities within the same company.|[Managing Intercompany Transactions](intercompany-manage.md)|
 |Analyse the costs of running your business by allocating actual and budgeted costs of operations, departments, products, and projects to cost centres.|[Accounting for Costs](finance-manage-cost-accounting.md)|
@@ -66,7 +66,7 @@ The following video introduces some of the key capabilities for managing finance
 [Setting Up Finance](finance-setup-finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Closing Financial Periods](year-close-years-periods.md)  
+[Closing Fiscal Periods](year-close-years-periods.md)  
 [Managing Projects](projects-manage-projects.md)  
 [Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Work with General Journals](ui-work-general-journals.md)  

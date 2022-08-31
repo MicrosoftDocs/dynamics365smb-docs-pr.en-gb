@@ -82,12 +82,12 @@ You may decide to compensate a customer for an item that you have sold them by r
 4. Choose the **OK** button. The negative line for the replacement item is deleted from the sales return order and inserted in a new **Sales Order** page. For more information, see [Sell Products](sales-how-sell-products.md).
 
 ## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>To create return-related documents from a sales return order
-You can have replacement sales orders, purchase return orders, and replacement purchase orders created automatically during the sales return process. This is useful, for example, in situations where you want to handle items with warranties provided by suppliers.
+You can have replacement sales orders, purchase return orders, and replacement purchase orders created automatically during the sales return process. This is useful, for example, in situations where you want to handle items with warranties provided by vendors.
 
 1. On the **Sales Return Order** page for an active return process, choose the **Create Return-Related Documents** action.
-2. In the **Supplier No.** field, enter the number of a supplier if you want to create supplier documents automatically.
-3. If a returned item must be returned to the supplier, select the **Create Purch. Ret. Order** check box.
-4. If a returned item must be ordered from the supplier, select the **Create Purchase Order** check box.
+2. In the **Supplier No.** field, enter the number of a vendor if you want to create vendor documents automatically.
+3. If a returned item must be returned to the vendor, select the **Create Purch. Ret. Order** check box.
+4. If a returned item must be ordered from the vendor, select the **Create Purchase Order** check box.
 5. If a replacement sales order must be created, select the **Create Sales Order** check box.
 
 ## <a name="to-create-a-restock-charge"></a>To create a restock charge
@@ -99,7 +99,7 @@ You can post this increased cost as an item charge in a credit memo or a return 
 2. On a new line, in the **Type** field, select **Charge (Item)**.  
 3. Fill in the fields as for any item charge line. For more information, see [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md).  
 
-When you post the sales return order, the restock charge is added to the relevant sales entry amount. In this way, you can maintain accurate stock valuation.  
+When you post the sales return order, the restock charge is added to the relevant sales entry amount. In this way, you can maintain accurate inventory valuation.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 

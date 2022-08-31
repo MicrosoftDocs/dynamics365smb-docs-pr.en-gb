@@ -30,7 +30,7 @@ Attachments, links, and notes stay attached as the card or document is processed
 > If you delete an order before it is invoiced, the attachment is also removed. When you invoice purchase orders using the Get Receipt Lines action from a purchase invoice, the attachment on the purchase orders is not added to the purchase invoice.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>To attach a file to a purchase invoice
-You can attach any type of file, containing text, image, or video, to a card or document. This is useful, for example, when you want to store a supplier's invoice as a PDF file on the related purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)].
+You can attach any type of file, containing text, image, or video, to a card or document. This is useful, for example, when you want to store a vendor's invoice as a PDF file on the related purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > Files attached with the Incoming Documents feature are not included on the **Attachments** tab. For more information, see [Incoming Documents](across-income-documents.md).

@@ -110,7 +110,7 @@ If you have many combinations, you'll have many price lists.
 If you've already enabled the New Pricing Experience, you can create default price lists manually or specify an existing price list as the default. To set an existing price list as default, turn on the **Allow Updating Defaults** toggle on the price list. Then, on the **Sales & Receivables Setup**, **Purchase & Payables** or **Jobs Setup** pages, set the price list as the default.
 
 ### <a name="editing-active-price-lists"></a>Editing Active Price Lists
-To allow people to edit prices on active price lists for items, resources, customers, suppliers, or other entities that use pricing, turn on the **Allow Editing Active Price** toggle on the **Sales & Receivables Setup** and **Purchase & Payables Setup** pages.   
+To allow people to edit prices on active price lists for items, resources, customers, vendors, or other entities that use pricing, turn on the **Allow Editing Active Price** toggle on the **Sales & Receivables Setup** and **Purchase & Payables Setup** pages.   
 
 When the **Allow Editing Active Price** toggle is turned off, to update prices in a price list you must change the status of the price list to **Draft**, make your change, and then reactivate the price list.
 

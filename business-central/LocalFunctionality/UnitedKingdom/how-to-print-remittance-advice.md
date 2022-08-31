@@ -17,7 +17,7 @@ ms.lasthandoff: 03/14/2022
 ms.locfileid: "8417541"
 ---
 # <a name="print-remittance-advice-in-the-british-version"></a>Print Remittance Advice in the British Version
-You can print remittance advice before posting a payment journal and after posting a payment. This advice displays supplier invoice numbers, which helps suppliers to perform reconciliations.  
+You can print remittance advice before posting a payment journal and after posting a payment. This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.  
 
 ## <a name="to-print-remittance-advice"></a>To print remittance advice  
 
@@ -27,9 +27,9 @@ You can print remittance advice before posting a payment journal and after posti
 4.  In the **Remittance Advice - Journal** batch job, on the **Gen. Journal Line** FastTab, and select the appropriate filters.  
 
     > [!NOTE]  
-    >  You can filter using the supplier's external document number to match payments with invoices.  
+    >  You can filter using the vendor's external document number to match payments with invoices.  
 
-5.  On the **Supplier** FastTab, select the appropriate filters.  
+5.  On the **Vendor** FastTab, select the appropriate filters.  
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
 ## <a name="see-also"></a>See Also  

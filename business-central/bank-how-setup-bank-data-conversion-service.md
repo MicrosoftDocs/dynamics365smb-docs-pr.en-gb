@@ -26,7 +26,7 @@ You can import bank statement files into the **Payment Reconciliation Journal** 
 
 As an alternative to importing bank statements with the AMC Banking 365 Fundamentals extension, you can use the Envestnet Yodlee Bank Feeds service. For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
-To import or export bank files, you must set up your own bank account and your suppliers' bank accounts. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).
+To import or export bank files, you must set up your own bank account and your vendors' bank accounts. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
 > The AMC Banking 365 Fundamentals extension may impose a limit on the number of lines that can be exported in one file. You will receive an error message if the limit is exceeded. It is recommended that bank statement files do not exceed 1000 lines as the processing time in the AMC Banking 365 Fundamentals extension may otherwise increase significantly.

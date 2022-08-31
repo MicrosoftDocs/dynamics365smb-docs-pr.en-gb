@@ -19,9 +19,9 @@ ms.locfileid: "8517928"
 ---
 # <a name="setting-up-relationship-management"></a>Setting Up Relationship Management
 
-Before you get started working with your contacts and marketing interests, there are a few decisions and steps that you should take to set up how the marketing area manages certain aspects of your contacts. For example, you can decide whether to synchronise the contact card with the customer card, supplier card, and bank account card, how number series are defined, or what the standard salutation should be when writing to your contacts.
+Before you get started working with your contacts and marketing interests, there are a few decisions and steps that you should take to set up how the marketing area manages certain aspects of your contacts. For example, you can decide whether to synchronise the contact card with the customer card, vendor card, and bank account card, how number series are defined, or what the standard salutation should be when writing to your contacts.
 
-Managing your contacts and having a strategy in place to identify, attract, and retain customers will help optimise your business and increase customer satisfaction. Using a good contact management system will also help you create and maintain relationships with your customers. Communication is the key to these relationships. Being able to tailor communication with potential and existing customers, suppliers, and business partners according to their needs, is necessary for companies to succeed. Establishing a strategy and defining how your company uses contact information is a primary step. This information will be viewed by many different groups in your company, so having a good system in place will help everyone be more productive.
+Managing your contacts and having a strategy in place to identify, attract, and retain customers will help optimise your business and increase customer satisfaction. Using a good contact management system will also help you create and maintain relationships with your customers. Communication is the key to these relationships. Being able to tailor communication with potential and existing customers, vendors, and business partners according to their needs, is necessary for companies to succeed. Establishing a strategy and defining how your company uses contact information is a primary step. This information will be viewed by many different groups in your company, so having a good system in place will help everyone be more productive.
 
 You set up the marketing and contact management from the **Marketing Setup** page. To open the **Marketing Setup** page, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Marketing Setup**, and then choose the related link.
 
@@ -45,7 +45,7 @@ The inheritance of fields overwrites the default values you have set up. For exa
 For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).
 
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Synchronising Contacts with Customers and More
-In order to synchronise the contact card with the customer card, the supplier card and the bank account card, you must select a business relation code for customers, suppliers, and bank accounts. For example, you can only link a contact with an existing customer if you have selected a business relation code for customers on the **Marketing Setup** page.
+In order to synchronise the contact card with the customer card, the vendor card and the bank account card, you must select a business relation code for customers, vendors, and bank accounts. For example, you can only link a contact with an existing customer if you have selected a business relation code for customers on the **Marketing Setup** page.
 
 For more information, see [Synchronising Contacts with Customers, Suppliers, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).  
 

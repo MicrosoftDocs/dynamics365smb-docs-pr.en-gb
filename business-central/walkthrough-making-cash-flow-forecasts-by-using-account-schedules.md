@@ -105,7 +105,7 @@ Before Ken can print the cash flow forecast, he needs to create the column layou
 
 - The first column has the number *C10* with the title **Amount** and contains the net change.  
 - The second column has the number *C20* with the title **Balance at Date** and contains the transactions for the period.  
-- The third column has the number *C30* with the title **Entire Year** and contains the net change in the balances for the entire financial year.  
+- The third column has the number *C30* with the title **Entire Year** and contains the net change in the balances for the entire fiscal year.  
 - Finally, he assigns the column layout as the default column layout for the account schedule **Forecast**.  
 
 ## <a name="to-set-up-a-new-column-layout"></a>To set up a new column layout
@@ -125,7 +125,7 @@ Before Ken can print the cash flow forecast, he needs to create the column layou
     |----------|-------------|-----------|-----------------|-----------|----|
     |C10|Amount|Net Change|Entries|Net Amount|Always|  
     |C20|Amount until Date|Balance at Date|Entries|Net Amount|Always|  
-    |C30|Entire Financial Year|Entire Financial Year|Entries|Net Amount|Always|
+    |C30|Entire Fiscal Year|Entire Fiscal Year|Entries|Net Amount|Always|
 
 ## <a name="assigning-the-column-layout-to-the-account-schedule-name"></a>Assigning the Column Layout to the Account Schedule Name
 

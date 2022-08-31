@@ -1,6 +1,6 @@
 ---
-title: Sales Ledger Reports and Analytics
-description: See which reports and analytics are available in the standard version of Business Central so that you can keep track of your sales ledger.
+title: Accounts Receivable Reports and Analytics
+description: See which reports and analytics are available in the standard version of Business Central so that you can keep track of your accounts receivable.
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -14,9 +14,9 @@ ms.contentlocale: en-GB
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8514784"
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Sales Ledger Reports and Analytics in Business Central
+# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Accounts Receivable Reports and Analytics in Business Central
 
-To help you manage your sales ledger in [!INCLUDE [prod_short](includes/prod_short.md)], standard reports and analytics are built in. It moves beyond traditional reporting constraints to help you efficiently design various types of reports.  
+To help you manage your accounts receivable in [!INCLUDE [prod_short](includes/prod_short.md)], standard reports and analytics are built in. It moves beyond traditional reporting constraints to help you efficiently design various types of reports.  
 
 ## <a name="reports"></a>Reports
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]

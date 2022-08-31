@@ -1,6 +1,6 @@
 ---
 title: Procurement Quick Start (contains video)
-description: Learn how to fill in the first critical fields about suppliers in Business Central so that you can start purchasing products and services.
+description: Learn how to fill in the first critical fields about vendors in Business Central so that you can start purchasing products and services.
 author: jill-kotel-andersson
 ms.topic: conceptual
 ms.devlang: na
@@ -19,17 +19,17 @@ ms.locfileid: "8128746"
 ---
 # <a name="procurement-quick-start"></a>Procurement Quick Start
 
-To be able to buy products and services, you must first set up suppliers. Once that is done, you can start registering purchase orders and receiving invoices.  
+To be able to buy products and services, you must first set up vendors. Once that is done, you can start registering purchase orders and receiving invoices.  
 
-## <a name="set-up-vendors"></a>Set up suppliers
+## <a name="set-up-vendors"></a>Set up vendors
 
-The following video shows you how to set up a supplier in [!INCLUDE[prod_short](includes/prod_short.md)].
+The following video shows you how to set up a vendor in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-### <a name="set-up-a-new-vendor"></a>Set up a new supplier
+### <a name="set-up-a-new-vendor"></a>Set up a new vendor
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
@@ -37,7 +37,7 @@ For more information and additional things you can do when you register supplier
 
 ## <a name="create-new-purchase-orders"></a>Create new purchase orders
 
-When you buy something from a supplier you have two options. The first, and simplest, is to just create a purchase invoice. However, you must use purchase orders if your purchasing process requires that you record partial receipts of an order quantity, for example, because the full quantity was not available at the supplier.
+When you buy something from a vendor you have two options. The first, and simplest, is to just create a purchase invoice. However, you must use purchase orders if your purchasing process requires that you record partial receipts of an order quantity, for example, because the full quantity was not available at the vendor.
 
 The following video shows you how to create a purchase order in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -51,13 +51,13 @@ The following video shows you how to create a purchase order in [!INCLUDE[prod_s
 
 2. On the **Purchase Orders** page, select the **New** action to create a new Purchase Order.
 
-3. In the **Supplier Name** field, enter the name of an existing supplier.
+3. In the **Supplier Name** field, enter the name of an existing vendor.
 
-    Other fields on the **Purchase Header** are now filled with the standard information about the selected supplier.  
+    Other fields on the **Purchase Header** are now filled with the standard information about the selected vendor.  
 
 4. Fill in the remaining fields on the **Purchase Order** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    You are now ready to fill in the purchase order lines with items or resources that you have purchased from the supplier.
+    You are now ready to fill in the purchase order lines with items or resources that you have purchased from the vendor.
 
 5. On the **Lines** FastTab, in the **Item No.** field, enter the number of an inventory item or service.
 
@@ -73,19 +73,19 @@ For more information and additional things you can do when creating a purchase o
 
 ## <a name="create-a-purchase-invoice"></a>Create a purchase invoice  
 
-You create a purchase invoice to record the cost of purchases and to track purchase ledger. Creating a purchase invoice is similar to creating a purchase order.
+You create a purchase invoice to record the cost of purchases and to track accounts payable. Creating a purchase invoice is similar to creating a purchase order.
 
 ### <a name="how-to-create-and-post-a-purchase-invoice"></a>How to create and post a purchase invoice  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. On the **Purchase Invoice** page, select the **New** action to create a new Purchase Invoice.
-3. In the **Supplier** field, enter the name of an existing supplier.
+3. In the **Supplier** field, enter the name of an existing vendor.
 
-    Other fields on the **Purchase Invoice** page are now filled with the standard information of the selected supplier.
+    Other fields on the **Purchase Invoice** page are now filled with the standard information of the selected vendor.
 
 4. Fill in the remaining fields on the **Purchase Invoice** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    You are now ready to fill in the purchase invoice lines with items or resources that you have purchased from the supplier.
+    You are now ready to fill in the purchase invoice lines with items or resources that you have purchased from the vendor.
 
 5. On the **Lines** FastTab, in the **Item No.** field, enter the number of an inventory item or service.
 6. In the **Quantity** field, enter the number of items to be purchased.
@@ -96,7 +96,7 @@ You create a purchase invoice to record the cost of purchases and to track purch
 
 8. When you receive the purchased items or services, choose **Post**.
 
-The purchase is now reflected in inventory, resource ledgers, and financial records, and the supplier payment is activated. The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.  
+The purchase is now reflected in inventory, resource ledgers, and financial records, and the vendor payment is activated. The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.  
 
 For more information and additional things you can do when creating a purchase invoice, see [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md).
 

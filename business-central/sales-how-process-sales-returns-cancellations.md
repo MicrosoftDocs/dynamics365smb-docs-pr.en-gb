@@ -144,7 +144,7 @@ Two functions exist to assign exact cost reversing automatically:
 
 To assign exact cost reversing manually, you must choose the **Appl.-from Item Entry** field on any type of return document line, and then select the number of the original sales entry. This links the sales credit memo or sales return order to the original sales entry and ensures that the item is valued at the original unit cost.
 
-For more information, see [Design Details: Stock Costing](design-details-inventory-costing.md).
+For more information, see [Design Details: Inventory Costing](design-details-inventory-costing.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 

@@ -126,12 +126,12 @@ In the following example, a new workflow is made to approve changes to the name 
     |Field  |Value  |
     |---------|---------|
     |**Code**|**VENDAPN-01**|
-    |**Description**|**Supplier Name Change Approval** |
+    |**Description**|**Vendor Name Change Approval** |
     |**Category**|**PURCH**|
 
 4. To create the first workflow step, follow these steps.
 
-    1. In the **When Event** field, specify *A supplier record is changed*.  
+    1. In the **When Event** field, specify *A vendor record is changed*.  
     2. In the **On Condition** field, choose the word **Always**, and then, in the **Event Conditions** page, choose the **Add a condition for when a field value changes** link, and then select the *Name* field.  
 
       The result of this step is that the condition reads as *Name is Changed*.  
@@ -178,7 +178,7 @@ In the following example, a new workflow is made to approve changes to the name 
 
 The following illustration provides an overview of the result of this procedure.  
 
-:::image type="content" source="media/Workflows/workflow-example-2.png" alt-text="Illustration of the Supplier Name Approval workflow.":::
+:::image type="content" source="media/Workflows/workflow-example-2.png" alt-text="Illustration of the Vendor Name Approval workflow.":::
 
 Next, test the workflow by opening an existing vendor card and changing their name. Verify that an approval request is sent after changing the vendor name.
 

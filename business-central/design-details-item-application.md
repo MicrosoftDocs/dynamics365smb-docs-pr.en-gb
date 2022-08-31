@@ -1,6 +1,6 @@
 ---
 title: Design Details - Item Application | Microsoft Docs
-description: This topic describes where stock quantity and value are recorded when you post an stock transaction.
+description: This topic describes where inventory quantity and value are recorded when you post an inventory transaction.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na

@@ -23,7 +23,7 @@ In the **Type** field on the **Item Card** page, you can select what the item is
 
 |Option|Typical Purpose|
 |------|-----------|
-|Stock|Physical things, such as bicycles, telephones, and desks, for which you want to be able to use all inventory processes. This can also include non-physical items, such as software licences and subscriptions, if the items have identification numbers, such as serial numbers. You can fully track item values and availability in inventory.|
+|Inventory|Physical things, such as bicycles, telephones, and desks, for which you want to be able to use all inventory processes. This can also include non-physical items, such as software licences and subscriptions, if the items have identification numbers, such as serial numbers. You can fully track item values and availability in inventory.|
 |Non-Inventory|Typically, non-inventory items are physical things, such as bolts or pens, that a business consumes but does not want to fully track in inventory. For example, because they're low-cost items and are only used internally.|
 |Service|A labour time unit, such as a consultancy hour, for limited business support.|
 

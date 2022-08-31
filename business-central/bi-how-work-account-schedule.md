@@ -131,9 +131,9 @@ An accounting period doesn't have to match the calendar. However, each fiscal ye
 | Abbreviation | Description                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
 | P            | Period                                                                                |
-| LP           | Last period of a financial year, half-year, or quarter.                                   |
-| CP           | Current period of a financial year, half-year, or quarter. Use CP in formulas to set the period that starts or ends the formula. For example, FY\[1..CP\] denotes the time from the beginning of the current financial year to the current period.|
-| FY           | Financial year. For example, FY\[1..3\] denotes first quarter of the current financial year |
+| LP           | Last period of a fiscal year, half-year, or quarter.                                   |
+| CP           | Current period of a fiscal year, half-year, or quarter. Use CP in formulas to set the period that starts or ends the formula. For example, FY\[1..CP\] denotes the time from the beginning of the current fiscal year to the current period.|
+| FY           | Fiscal year. For example, FY\[1..3\] denotes first quarter of the current fiscal year |
 
 Examples of formulas:
 
@@ -141,11 +141,11 @@ Examples of formulas:
 | --------------- | ----------------------------------------------------------------------------------------------- |
 | \<Blank\>       | Current period                                                                                  |
 | \-1P            | Previous period                                                                                 |
-| \-1FY\[1..LP\]  | Entire previous financial year                                                                     |
-| \-1FY           | Current period in previous financial year                                                          |
-| \-1FY\[1..3\]   | First quarter of previous financial year                                                           |
-| \-1FY\[1..CP\]  | From the beginning of previous financial year to current period in previous financial year, including both periods |
-| \-1FY\[CP..LP\] | From current period in previous financial year to last period of previous financial year, including both periods   |
+| \-1FY\[1..LP\]  | Entire previous fiscal year                                                                     |
+| \-1FY           | Current period in previous fiscal year                                                          |
+| \-1FY\[1..3\]   | First quarter of previous fiscal year                                                           |
+| \-1FY\[1..CP\]  | From the beginning of previous fiscal year to current period in previous fiscal year, including both periods |
+| \-1FY\[CP..LP\] | From current period in previous fiscal year to last period of previous fiscal year, including both periods   |
 
 If you want to calculate by regular time periods, you must enter a formula in the **Comparison Date Formula** field instead. For example, if the field is set to -1Y, [!INCLUDE [prod_short](includes/prod_short.md)] compares to the same period 1 year earlier.
 

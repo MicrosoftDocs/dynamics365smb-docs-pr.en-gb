@@ -20,7 +20,7 @@ ms.locfileid: "9076717"
 
 External business documents can come into your company as an email attachment or a paper copy that you scan to file. This scenario is typical of purchases, where such incoming document files represent payment receipts for expenses or small purchases.
 
-On the **Incoming Documents** page, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting supplier, customer, and general ledger entries.
+On the **Incoming Documents** page, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries.
 
 ## <a name="usage-scenario"></a>Usage scenario
 
@@ -31,7 +31,7 @@ Upload the received files—or use the device's camera to take a photo—and cre
 > [!NOTE]
 > The OCR feature is provided by external providers. Choose a service package that is appropriate for your organisation and/or country/region. Find services compatible with [!INCLUDE[prod_short](includes/prod_short.md)] and details on available features at [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-For example, when you receive an invoice in PDF format from your supplier, you can send it to the OCR service from the **Incoming Documents** page. Alternatively, some OCR providers offer the option of processing files forwarded to a dedicated email address, which then automatically creates a related incoming document record. After some seconds, you receive the file back from the OCR service as an electronic invoice that can be converted to a purchase invoice for the supplier.
+For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the **Incoming Documents** page. Alternatively, some OCR providers offer the option of processing files forwarded to a dedicated email address, which then automatically creates a related incoming document record. After some seconds, you receive the file back from the OCR service as an electronic invoice that can be converted to a purchase invoice for the vendor.
 
 > [!TIP]
 > Create incoming document records in [!INCLUDE[prod_short](includes/prod_short.md)] directly from emails sent by vendors using the Outlook add-in. For more information, see [Use Business Central as your Business Inbox in Outlook](work-outlook-addin.md).

@@ -1,6 +1,6 @@
 ---
 title: Make Drop Shipments (contains video)
-description: Describes how to create a sales order linked to a purchase order to enable shipment directly from the supplier to the customer.
+description: Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -18,9 +18,9 @@ ms.locfileid: "9076910"
 ---
 # <a name="make-drop-shipments"></a>Make Drop Shipments
 
-A drop shipment is the shipment of items from one of your suppliers directly to one of your customers.
+A drop shipment is the shipment of items from one of your vendors directly to one of your customers.
 
-When a sales order is marked for drop shipment, and you create a purchase order specifying the customer in the **Ship-to** field, **Customer Address**, you can link the two documents to instruct the supplier to ship directly to the customer.
+When a sales order is marked for drop shipment, and you create a purchase order specifying the customer in the **Ship-to** field, **Customer Address**, you can link the two documents to instruct the vendor to ship directly to the customer.
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
@@ -54,14 +54,14 @@ If your vendor provides a tracking number or similar information, you can add th
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>To create multiple purchase orders for drop shipments
 
-You can also use the requisition worksheet to create the purchase order for the supplier. 
+You can also use the requisition worksheet to create the purchase order for the vendor. 
 
 The advantage of using the requisition worksheet is that it can create purchase orders for all outstanding drop shipments. That means you won't have to create each one individually.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requisition Worksheets**, and then choose the related link.
 2. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
 3. Choose the **OK** button.
-4. Review the purchase order lines, and in the **Supplier No.** field, select supplier that supplies required goods. 
+4. Review the purchase order lines, and in the **Supplier No.** field, select vendor that supplies required goods. 
 5. Choose the **Carry Out Action Message** action to convert reviewed lines to a purchase order.
 
 ## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>To view the linked purchase order from the sales order
@@ -70,7 +70,7 @@ The advantage of using the requisition worksheet is that it can create purchase 
 
 ## <a name="to-post-a-drop-shipment"></a>To post a drop shipment
 
-After the supplier ships the items, you can post the sales order as shipped. You can also post the purchase order, but only with the **Receive** option until the sales order has been invoiced.
+After the vendor ships the items, you can post the sales order as shipped. You can also post the purchase order, but only with the **Receive** option until the sales order has been invoiced.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Open the sales order that you created in [To create a sales order for drop shipment](#to-create-a-sales-order-for-drop-shipment).

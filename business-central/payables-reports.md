@@ -1,6 +1,6 @@
 ---
-title: Purchase Ledger Reports and Analytics
-description: See which reports and analytics are available in the standard version of Business Central so that you can keep track of your purchase ledger.
+title: Accounts Payable Reports and Analytics
+description: See which reports and analytics are available in the standard version of Business Central so that you can keep track of your accounts payable.
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -14,9 +14,9 @@ ms.contentlocale: en-GB
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8515440"
 ---
-# <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Purchase Ledger Reports and Analytics in Business Central
+# <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Accounts Payable Reports and Analytics in Business Central
 
-To help you manage your purchase ledger in [!INCLUDE [prod_short](includes/prod_short.md)], standard reports and analytics are built in. It moves beyond traditional reporting constraints to help you efficiently design various types of reports.  
+To help you manage your accounts payable in [!INCLUDE [prod_short](includes/prod_short.md)], standard reports and analytics are built in. It moves beyond traditional reporting constraints to help you efficiently design various types of reports.  
 
 ## <a name="reports"></a>Reports
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]

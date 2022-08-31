@@ -1,6 +1,6 @@
 ---
 title: Work With Smart Notifications and Specify When You See Them
-description: You can receive notifications that inform you about status changes or events, for example, an overdue balance or low stock.
+description: You can receive notifications that inform you about status changes or events, for example, an overdue balance or low inventory.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -28,7 +28,7 @@ Notifications can help untrained users complete unfamiliar tasks, and do not red
 
 When you first start with [!INCLUDE[prod_short](includes/prod_short.md)] all notifications are turned on, but you can turn them on or off, for example, if you aren't interested in a certain event or status.  
 
-Additionally, some notifications let you specify the conditions under which they are sent. For example, if you want to be notified when inventory is running low, but only for items you buy from a certain supplier.  
+Additionally, some notifications let you specify the conditions under which they are sent. For example, if you want to be notified when inventory is running low, but only for items you buy from a certain vendor.  
 
 Turning notifications on or off, and specifying conditions, applies only to you.  
 

@@ -85,7 +85,7 @@ Enter the word for _today_, in the language specified on the **My Settings** pag
 
 ### <a name="period"></a>Period
 
-To filter on a specific accounting period, in a date field enter the letter p, or the word period, followed by a number that identifies the accounting period, like p2 or period4. The accounting period is relative to the financial year of the current work date that set in your Role Centre. For example, if the work date is **03/21/22**, then _p1_, or just _p_, filters on the first accounting period of the fiscal year 2022 (such as 01/01/22..01/31/22). _p15_ filters on the 15th accounting period from the start of fiscal year 2022 (such as 03/01/23..03/31/23).
+To filter on a specific accounting period, in a date field enter the letter p, or the word period, followed by a number that identifies the accounting period, like p2 or period4. The accounting period is relative to the fiscal year of the current work date that set in your Role Centre. For example, if the work date is **03/21/22**, then _p1_, or just _p_, filters on the first accounting period of the fiscal year 2022 (such as 01/01/22..01/31/22). _p15_ filters on the 15th accounting period from the start of fiscal year 2022 (such as 03/01/23..03/31/23).
 
 The accounting periods are defined on the **Accounting Periods** page. To view or change the accounting periods, open the page [here](https://businesscentral.dynamics.com/?page=100).
 
@@ -99,7 +99,7 @@ If you haven't specified a work date, today's date will be used. For more inform
 
 ### <a name="closing-date"></a>Closing Date
 
-When you close a financial year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between December 31 and January 1.
+When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between December 31 and January 1.
 
 To specify that a date is a closing date, put C just before the date, such as C123101. Use this format in combination with all the date patterns.
 

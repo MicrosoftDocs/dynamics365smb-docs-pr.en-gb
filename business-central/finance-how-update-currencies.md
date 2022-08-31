@@ -64,7 +64,7 @@ The adjustment exchange rate amount or relational adjustment exchange rate amoun
 
 Because exchange rates fluctuate constantly, additional currency equivalents in your system must be adjusted periodically. If these adjustments are not done, amounts that have been converted from foreign (or additional) currencies and posted to the general ledger in LCY may be misleading. In addition, daily entries posted before a daily exchange rate is entered into application must be updated after the daily exchange rate information is entered.
 
-The **Adjust Exchange Rates** batch job is used to manually adjust the exchange rates of posted customer, supplier, and bank account entries. It can also update additional reporting currency amounts on G/L entries.  
+The **Adjust Exchange Rates** batch job is used to manually adjust the exchange rates of posted customer, vendor, and bank account entries. It can also update additional reporting currency amounts on G/L entries.  
 
 > [!TIP]
 > You can use a service to update exchange rates in the system automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). However, this does not adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Adjust Exchange Rates** batch job.
@@ -75,15 +75,15 @@ You can preview the effect that an adjustment will have on posting before you ac
 - **By G/L Account**: G/L entries for unrealised gains and losses will have dimensions values transferred from the unrealised gains and losses G/L account's dimension settings source entry.
 - **No Transfer**: G/L entries for unrealised gains and losses won't have dimensions values.
 
-### <a name="effect-on-customers-and-vendors"></a>Effect on Customers and Suppliers
+### <a name="effect-on-customers-and-vendors"></a>Effect on Customers and Vendors
 
-For customer and supplier accounts, the batch job adjusts the currency by using the exchange rate that is valid on the posting date that is specified in the batch job. The batch job calculates the differences for the individual currency balances and posts the amounts to the general ledger account that is specified in the **Unrealised Gains Acc.** field or the **Unrealised Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the receivables/payables account in the general ledger.
+For customer and vendor accounts, the batch job adjusts the currency by using the exchange rate that is valid on the posting date that is specified in the batch job. The batch job calculates the differences for the individual currency balances and posts the amounts to the general ledger account that is specified in the **Unrealised Gains Acc.** field or the **Unrealised Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the receivables/payables account in the general ledger.
 
-The batch job processes all open customer ledger entries and vendor ledger entries. If there is an exchange rate difference for an entry, the batch job creates a new detailed customer or supplier ledger entry, which reflects the adjusted amount on the customer or supplier ledger entry.
+The batch job processes all open customer ledger entries and vendor ledger entries. If there is an exchange rate difference for an entry, the batch job creates a new detailed customer or vendor ledger entry, which reflects the adjusted amount on the customer or vendor ledger entry.
 
-#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensions on Customer and Supplier Ledger Entries
+#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensions on Customer and Vendor Ledger Entries
 
-The adjustment entries are assigned the dimensions from the customer/supplier ledger entries, and the adjustments are posted per combination of dimension values.
+The adjustment entries are assigned the dimensions from the customer/vendor ledger entries, and the adjustments are posted per combination of dimension values.
 
 ### <a name="effect-on-bank-accounts"></a>Effect on Bank Accounts
 

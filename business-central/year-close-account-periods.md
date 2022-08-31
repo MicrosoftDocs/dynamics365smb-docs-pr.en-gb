@@ -1,6 +1,6 @@
 ---
-title: Close Accounting Periods for a Financial Year
-description: This article describes how to close the accounting periods that make up the financial year for year end closing.
+title: Close Accounting Periods for a Fiscal Year
+description: This article describes how to close the accounting periods that make up the fiscal year for year end closing.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -19,30 +19,30 @@ ms.locfileid: "8514290"
 ---
 # <a name="close-accounting-periods"></a>Close Accounting Periods
 
-When a financial year is over, you must close the periods that comprise it.
+When a fiscal year is over, you must close the periods that comprise it.
 
 ## <a name="to-close-accounting-periods"></a>To close accounting periods
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.
 2. On the **Accounting Periods** page, choose the **Close Year** action.
 
-    If more than one financial year is open, the earliest one is automatically selected to be closed. A message displays identifying the year that will close and the consequences of closing the year.
+    If more than one fiscal year is open, the earliest one is automatically selected to be closed. A message displays identifying the year that will close and the consequences of closing the year.
 3. To close the year, choose the **Yes** button.
 
-The financial year is closed, and the **Closed** and **Date Locked** fields for all the periods in the year are selected. The financial year cannot be opened again and you cannot remove the check mark from the **Closed** or **Date Locked** fields.
+The fiscal year is closed, and the **Closed** and **Date Locked** fields for all the periods in the year are selected. The fiscal year cannot be opened again and you cannot remove the check mark from the **Closed** or **Date Locked** fields.
 
 > [!NOTE]  
-> You cannot close a financial year before you create a new one. Notice that when a financial year has been closed, you cannot change the starting date of the following financial year.
+> You cannot close a fiscal year before you create a new one. Notice that when a fiscal year has been closed, you cannot change the starting date of the following fiscal year.
 
-Even though a financial year has been closed, you can still post general ledger entries to it. When you do this, the entries will be marked as posted to a closed financial year and the **Prior-Year Entry** field will be selected.
+Even though a fiscal year has been closed, you can still post general ledger entries to it. When you do this, the entries will be marked as posted to a closed fiscal year and the **Prior-Year Entry** field will be selected.
 
-After a financial year is closed, you must close the income statement accounts and transfer the year's results to an account in the balance sheet. You can repeat this every time that you post to the closed financial year.
+After a fiscal year is closed, you must close the income statement accounts and transfer the year's results to an account in the balance sheet. You can repeat this every time that you post to the closed fiscal year.
 
 ## <a name="see-also"></a>See Also
 
 [Closing Books](year-close-books.md)  
 [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
-[Work with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md)  
+[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

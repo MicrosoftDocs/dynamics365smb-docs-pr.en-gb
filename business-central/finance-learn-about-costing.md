@@ -34,8 +34,8 @@ Managing inventory costs is concerned with recording and reporting business oper
 |Read why standard costs are often used by manufacturing companies as a valuation base for components and end items.|[About Calculating Standard Cost](finance-about-calculating-standard-cost.md)|  
 |Understand how the value of inventory is reflected in the general ledger.|[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Learn how item charges, such as freight and insurance, can assign additional cost components to an item's unit cost.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|  
-|Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the financial year progresses.|[Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)|  
-|Understand all mechanisms in the costing engine, including what happens when you post assembly and production transactions.|[Design Details: Stock Costing](design-details-inventory-costing.md)|  
+|Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the fiscal year progresses.|[Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)|  
+|Understand all mechanisms in the costing engine, including what happens when you post assembly and production transactions.|[Design Details: Inventory Costing](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>See Also
 [Managing Inventory Costs](finance-manage-inventory-costs.md)    

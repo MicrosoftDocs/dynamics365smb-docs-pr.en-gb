@@ -98,7 +98,7 @@ On list pages, the **Power BI Reports** part is filtered to show reports that pe
 |Page ID|Name|
 |-------|----|
 |22|Customer List|
-|27|Supplier List|
+|27|Vendor List|
 |31|Item List|
 |9305|Sales Order List|
 |9308|Purchase Invoices|

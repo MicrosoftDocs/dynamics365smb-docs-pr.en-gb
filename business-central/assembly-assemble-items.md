@@ -51,7 +51,7 @@ The following table describes a sequence of tasks, with links to the topics that
 ## <a name="see-also"></a>See Also
 
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
-[Stock](inventory-manage-inventory.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)  
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->

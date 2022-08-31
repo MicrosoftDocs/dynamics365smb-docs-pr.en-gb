@@ -26,7 +26,7 @@ Depending on the complexity of your businesses, there are two ways to set up con
 * If you do not need advanced settings, such as including a company that you only own part of, you can use the **Company Consolidation** assisted setup guide to quickly set up a consolidation. The guide helps you through the basic steps.
 * If you do need more advanced settings, you can set up the consolidated company and business units yourself.
   * In each business unit, specify which general ledger accounts are to be included in the consolidation, and specify the consolidation translation method for each account.
-  * In the consolidation company, set up a business unit card for each company to be included in the consolidation. The business unit card includes information, such as the dates of the business unit's financial year, and the percentage of each account that must be included in the consolidation.
+  * In the consolidation company, set up a business unit card for each company to be included in the consolidation. The business unit card includes information, such as the dates of the business unit's fiscal year, and the percentage of each account that must be included in the consolidation.
 
 ## <a name="simple-consolidation-setup"></a>Simple consolidation setup
 
@@ -78,7 +78,7 @@ The following list illustrates key aspects of the consolidated company.
 3. Choose **New**, and then fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
-    > When you fill in the **Starting Date** and **Ending Date** fields, make sure you comply with GAAP rules concerning the financial periods of the business unit versus the parent company.
+    > When you fill in the **Starting Date** and **Ending Date** fields, make sure you comply with GAAP rules concerning the fiscal periods of the business unit versus the parent company.
 4. Repeat step 3 for each additional business unit
 
 If your business unit uses a foreign currency, you must specify the exchange rate to use in the consolidation. You must also enter consolidation information about the business unit's general ledger accounts. These processes are described in the following sections.

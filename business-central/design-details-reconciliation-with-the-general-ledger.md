@@ -1,6 +1,6 @@
 ---
 title: Design Details - Reconciliation with the General Ledger | Microsoft Docs
-description: This topic describes reconciliation with the general ledger when you post stock transactions, such as sales shipments, production output, or negative adjustments.
+description: This topic describes reconciliation with the general ledger when you post inventory transactions, such as sales shipments, production output, or negative adjustments.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na

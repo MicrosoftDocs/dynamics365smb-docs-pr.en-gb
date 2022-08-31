@@ -40,7 +40,7 @@ The **Integration Table Mapping** page contains three fields that contain one or
 | Shipping Agent: FULLLOAD   | 6            | Full Load            |
 | Shipping Agent: WILLCALL   | 7            | Will Call            |
 
-The content of the **Dataverse Option Mapping** page is based on enum values in the **CRM Account** table. In [!INCLUDE[prod_short](includes/cds_long_md.md)], the following fields on the account table are mapped to fields on the customer and supplier records:
+The content of the **Dataverse Option Mapping** page is based on enum values in the **CRM Account** table. In [!INCLUDE[prod_short](includes/cds_long_md.md)], the following fields on the account table are mapped to fields on the customer and vendor records:
 
 - **Address 1: Freight Terms** of data type Enum, where values are defined as follow:
 

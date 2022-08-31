@@ -22,7 +22,7 @@ You can use the following reports for VAT reporting:
 -   **Day Book VAT Entry** – Displays the daily total for VAT entries for a specific period.  
 -   **Day Book Cust. Ledger Entry** – Displays the daily total for customer ledger entries for a specific period.  
 -   **Unposted Sales** – Displays sales documents that have not yet been posted.  
--   **Day Book Supplier Ledger Entry** – Displays the daily total for supplier ledger entries for a specific period.  
+-   **Day Book Supplier Ledger Entry** – Displays the daily total for vendor ledger entries for a specific period.  
 -   **Unposted Purchases** – Displays purchase documents that have not yet been posted.  
 
 ## <a name="to-print-the-day-book-vat-entry-report"></a>To print the day book VAT entry report  
@@ -60,14 +60,14 @@ You can use the following reports for VAT reporting:
 
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## <a name="to-print-the-day-book-vendor-ledger-entry-report"></a>To print the day book supplier ledger entry report  
+## <a name="to-print-the-day-book-vendor-ledger-entry-report"></a>To print the day book vendor ledger entry report  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Day Book Supplier Ledger Entry**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Day Book Vendor Ledger Entry**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Print Vend. Ledger Details**|Select to display the supplier ledger entries.|  
+    |**Print Vend. Ledger Details**|Select to display the vendor ledger entries.|  
     |**Print G/L Entry Details**|Select to display the general ledger entries.|  
 
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  

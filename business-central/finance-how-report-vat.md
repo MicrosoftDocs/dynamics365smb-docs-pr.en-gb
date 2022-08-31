@@ -62,7 +62,7 @@ Use this report to submit VAT for sales and purchase documents, such as purchase
 For the VAT return, you can specify the entries to include:
 
 * Submit open transactions only, or open and closed. For example, this is useful when you prepare your final annual VAT return.
-* Submit only entries from the specified periods, or also include entries from previous periods. This is useful for updating a VAT return that you have already submitted, for example, if a supplier sends you a late invoice.    
+* Submit only entries from the specified periods, or also include entries from previous periods. This is useful for updating a VAT return that you have already submitted, for example, if a vendor sends you a late invoice.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>To connect to your tax authority's web service
 [!INCLUDE[prod_short](includes/prod_short.md)] provides service connections to tax authority websites. For example, if you are in the UK, you can enable the **GovTalk** service connection to submit the EC Sales List and VAT Return reports electronically. If you want to submit the report manually, for example by entering your data on the tax authority's website, this is not required.   

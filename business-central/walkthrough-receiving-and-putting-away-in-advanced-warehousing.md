@@ -41,7 +41,7 @@ This walkthrough demonstrates the following tasks:
 
 -   Setting up WHITE location for receiving and putting away.  
 -   Creating and releasing two purchase orders for full warehouse handling.  
--   Creating and posting a warehouse receipt document for multiple purchase order lines from specific suppliers.  
+-   Creating and posting a warehouse receipt document for multiple purchase order lines from specific vendors.  
 -   Registering a warehouse put-away for the received items.  
 
 ## <a name="roles"></a>Roles
@@ -67,7 +67,7 @@ To complete this walkthrough, you will need:
 
 ## <a name="story"></a>Story
 
-Ellen, the warehouse manager at CRONUS, creates two purchase orders for accessory items from suppliers 10000 and 20000 to be delivered to WHITE warehouse. When the deliveries arrive at the warehouse, Sammy, who is responsible for receiving items from suppliers 10000 and 20000, uses a filter to create receipt lines for purchase orders arriving from the two suppliers. Sammy posts the items as received into inventory in one warehouse receipt and makes the items available for sale or other demand. John, the warehouse worker, takes the items from the receiving bin and puts them away. He puts all units away in their default bins, except 40 out of 100 received hinges that he puts away in the assembly department by splitting the put-away line. When John registers the put-away, the bin contents are updated and the items are made available for picking from the warehouse.  
+Ellen, the warehouse manager at CRONUS, creates two purchase orders for accessory items from vendors 10000 and 20000 to be delivered to WHITE warehouse. When the deliveries arrive at the warehouse, Sammy, who is responsible for receiving items from vendors 10000 and 20000, uses a filter to create receipt lines for purchase orders arriving from the two vendors. Sammy posts the items as received into inventory in one warehouse receipt and makes the items available for sale or other demand. John, the warehouse worker, takes the items from the receiving bin and puts them away. He puts all units away in their default bins, except 40 out of 100 received hinges that he puts away in the assembly department by splitting the put-away line. When John registers the put-away, the bin contents are updated and the items are made available for picking from the warehouse.  
 
 ## <a name="reviewing-the-white-location-setup"></a>Reviewing the WHITE Location Setup
 
@@ -93,7 +93,7 @@ Purchase orders are the most common type of inbound source document.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
-3.  Create a purchase order for supplier 10000 on the work date (January 23) with the following purchase order lines.  
+3.  Create a purchase order for vendor 10000 on the work date (January 23) with the following purchase order lines.  
 
     |Item|Location code|Quantity|  
     |----------|-------------------|--------------|  
@@ -107,7 +107,7 @@ Purchase orders are the most common type of inbound source document.
     Proceed to create the second purchase order.  
 
 5.  Choose the **New** action.  
-6.  Create a purchase order for supplier 20000 on the work date (January 23) with the following purchase order lines.  
+6.  Create a purchase order for vendor 20000 on the work date (January 23) with the following purchase order lines.  
 
     |Item|Location code|Quantity|  
     |----------|-------------------|--------------|  
@@ -116,7 +116,7 @@ Purchase orders are the most common type of inbound source document.
 
     Choose the **Release** action. The status changes from Open to Released.
 
-    The deliveries of items from suppliers 10000 and 20000 have arrived at WHITE warehouse, and Sammy starts to process the purchase receipts.  
+    The deliveries of items from vendors 10000 and 20000 have arrived at WHITE warehouse, and Sammy starts to process the purchase receipts.  
 
 ## <a name="receiving-the-items"></a>Receiving the Items
 
@@ -128,14 +128,14 @@ On the **Warehouse Receipt** page, you can manage multiple inbound orders for so
 3.  In the **Location Code** field, enter WHITE.  
 4.  Select **Actions** then **Functions** then choose the **Use Filters to Get Src. Docs.** action.  
 5.  In the **Code** field, enter **ACCESSORY**.  
-6.  In the **Description** field, enter **Suppliers 10000 and 20000**.  
+6.  In the **Description** field, enter **Vendors 10000 and 20000**.  
 7.  Choose the **Modify** action.  
-8.  On the **Purchase** FastTab, in the **Buy-from Supplier No. Filter** field, enter **10000&#124;20000**.  
-9. Choose the **Run** action. The warehouse receipt is filled with four lines representing purchase order lines for the specified suppliers. The **Qty. to Receive** field is filled because you did not select the **Do not Fill Qty. to Handle** check box on the **Filters to Get Source Docs.** page.  
-10. Optionally, if you want to use a filter as described earlier in this section, choose the **Get Source Document** action, and then select purchase orders from the suppliers in question.  
+8.  On the **Purchase** FastTab, in the **Buy-from Vendor No. Filter** field, enter **10000&#124;20000**.  
+9. Choose the **Run** action. The warehouse receipt is filled with four lines representing purchase order lines for the specified vendors. The **Qty. to Receive** field is filled because you did not select the **Do not Fill Qty. to Handle** check box on the **Filters to Get Source Docs.** page.  
+10. Optionally, if you want to use a filter as described earlier in this section, choose the **Get Source Document** action, and then select purchase orders from the vendors in question.  
 11. Choose **Posting** then the **Post Receipt** action, and then choose the **Yes** button.  
 
-    Positive item ledger entries are created reflecting the posted purchase receipts of accessories from suppliers 10000 and 20000, and the items are ready to be put away in the warehouse from the receiving bin.  
+    Positive item ledger entries are created reflecting the posted purchase receipts of accessories from vendors 10000 and 20000, and the items are ready to be put away in the warehouse from the receiving bin.  
 
 ## <a name="putting-the-items-away"></a>Putting the Items Away
 

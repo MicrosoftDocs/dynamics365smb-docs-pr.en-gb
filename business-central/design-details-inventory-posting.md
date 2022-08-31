@@ -1,6 +1,6 @@
 ---
-title: Design Details - Stock Posting | Microsoft Docs
-description: Each stock transaction, such as a purchase receipt or a sales shipment, posts two entries of different types.
+title: Design Details - Inventory Posting | Microsoft Docs
+description: Each inventory transaction, such as a purchase receipt or a sales shipment, posts two entries of different types.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na

@@ -37,7 +37,7 @@ If you often need to create purchase lines with similar information, you can set
 
 Assign one or more recurring purchase lines to a vendor so that they are available to insert on purchase documents from that vendor.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Suppliers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the card for a relevant vendor.
 3. Choose the **Recurring Purchase Lines** action.
 4. On the **Recurring Purchase Lines** page, select codes for the recurring purchase lines that you want to be able to insert on purchase documents for the vendor.

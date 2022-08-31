@@ -35,7 +35,7 @@ The following table provides best practices on how to set up the **Costing Metho
 ## <a name="see-also"></a>See Also
 
 [Design Details: Costing Methods](design-details-costing-methods.md)  
-[Design Details: Stock Costing](design-details-inventory-costing.md)  
+[Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

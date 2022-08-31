@@ -47,7 +47,7 @@ You can use the **Show Transaction Source** field to filter the **Intercompany I
  If you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re-create the inbox entry and accept it again.  
 
 ## <a name="getting-an-overview-of-intercompany-transactions-for-a-period"></a>Getting an Overview of Intercompany Transactions for a Period  
- You can get an overview of all of the intercompany transactions that you have sent and received in a period. The **Intercompany Transactions** report lists all intercompany G/L entries, customer ledger entries, and supplier ledger entries.
+ You can get an overview of all of the intercompany transactions that you have sent and received in a period. The **Intercompany Transactions** report lists all intercompany G/L entries, customer ledger entries, and vendor ledger entries.
 
  > [!NOTE]  
  > If the intercompany partners are in the same database, then transactions are transferred without the need for file or email. See the **Transfer Type** field on the **Intercompany Partner** page. <br /><br />

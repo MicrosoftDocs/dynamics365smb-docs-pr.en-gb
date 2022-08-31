@@ -20,7 +20,7 @@ ms.locfileid: "9076364"
 
 Many companies want to follow an individual employee's performance as a basis for calculating the sales commission or bonus. See, for example, the **Salesperson Commissions** report. A company may also want to assign a salesperson to each of their contacts.
 
-When you have set up a salesperson on the **Salespeople** page, you can select it in the **Salesperson Code** field on all relevant records, such as G/L account, customer, supplier, contacts, and campaign cards. Then, when you post or set up invoices, credit memos, journal lines, finance charge activities, and so on, the salesperson code is carried to the resulting ledger entries.
+When you have set up a salesperson on the **Salespeople** page, you can select it in the **Salesperson Code** field on all relevant records, such as G/L account, customer, vendor, contacts, and campaign cards. Then, when you post or set up invoices, credit memos, journal lines, finance charge activities, and so on, the salesperson code is carried to the resulting ledger entries.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 

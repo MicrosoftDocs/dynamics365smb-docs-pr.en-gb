@@ -141,7 +141,7 @@ Applying customer ledger entries in different currencies must be enabled. For mo
 6. Post the sales journal.  
 
 > [!IMPORTANT]  
->   When you apply entries in different currencies, the entries are converted to GBP. Although the exchange rates for the two currencies are fixed, for example between GBP and EUR, there may be a small residual amount when they are converted to GBP. These small residual amounts are posted as gains and losses to the account specified in the **Realised Gains Account** or **Realised Losses Account** fields on the **Currencies** page. The **Amount (USD)** field is also adjusted on the supplier ledger entries.  
+>   When you apply entries in different currencies, the entries are converted to GBP. Although the exchange rates for the two currencies are fixed, for example between GBP and EUR, there may be a small residual amount when they are converted to GBP. These small residual amounts are posted as gains and losses to the account specified in the **Realised Gains Account** or **Realised Losses Account** fields on the **Currencies** page. The **Amount (USD)** field is also adjusted on the vendor ledger entries.  
 
 ## <a name="to-correct-an-application-of-customer-entries"></a>To correct an application of customer entries
 When you correct an application, correcting entries are created and posted for all entries. The correcting entries are the same as the originals but have an opposite sign in the **Amount** field. The correcting entries include all general ledger entries derived from the application. For example, the payment discount and currency gains/losses. The entries that were closed by the application are reopened.  

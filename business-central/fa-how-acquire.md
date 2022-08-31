@@ -21,7 +21,7 @@ ms.locfileid: "9075011"
 
 For each fixed asset, you must set up a card containing information about the asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. A depreciation book must be set up and assigned to each fixed asset before you can acquire it.
 
-When a fixed asset is set up and a depreciation book assigned, you must acquire the fixed asset. To acquire a fixed asset, you record its acquisition cost in the relevant G/L account, bank account, or supplier by posting an acquisition transaction from the **Fixed Asset G/L Journal** page. You can use the **Assisted Fixed Asset Acquisition** page to create and post the required general journal lines automatically.
+When a fixed asset is set up and a depreciation book assigned, you must acquire the fixed asset. To acquire a fixed asset, you record its acquisition cost in the relevant G/L account, bank account, or vendor by posting an acquisition transaction from the **Fixed Asset G/L Journal** page. You can use the **Assisted Fixed Asset Acquisition** page to create and post the required general journal lines automatically.
 
 The salvage value is the residual value of a fixed asset when it can no longer be used. You can post the salvage value at the same time as you post the acquisition cost. For more information, see [Depreciate or Amortise Fixed Assets](fa-how-depreciate-amortize.md).
 
