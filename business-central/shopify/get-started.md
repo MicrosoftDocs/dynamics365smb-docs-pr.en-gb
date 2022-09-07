@@ -5,14 +5,15 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
+ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 64fae9efdda832f14593564b9a19101d120c9712
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: e59dd0dcf757fbcf76d4068756adfe7bc9475f54
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808940"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361563"
 ---
 # <a name="get-started-with-the-shopify-connector"></a>Get Started with the Shopify Connector
 
@@ -26,26 +27,26 @@ The Shopify connector includes the following capabilities:
 - Bi-directional synchronisation of items or products  
 
   - The connector will sync images, item variants, barcodes, vendor item numbers, extended texts, and tags.  
-  - Export item attributes to Shopify.  
-  - Use selected customer price groups and discounts to define prices exported to Shopify.  
-  - Decide whether items can be created automatically or only allow updates to existing products.  
+  -    Export item attributes to Shopify.  
+  -    Use selected customer price groups and discounts to define prices exported to Shopify.  
+  -    Decide whether items can be created automatically or only allow updates to existing products.  
 - Synchronisation of inventory levels  
 
-  - Choose some or all of the available locations in [!INCLUDE [prod_short](../includes/prod_short.md)].  
-  - Update inventory levels on multiple locations in Shopify.  
+  -    Choose some or all of the available locations in [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  -    Update inventory levels on multiple locations in Shopify.  
 - Bi-directional synchronisation of customers  
 
-  - Smart-map customers by phone and email.  
-  - Use country-specific templates when creating customers, which helps ensure that tax settings are correct.  
+  -    Smart-map customers by phone and email.  
+  -    Use country-specific templates when creating customers, which helps ensure that tax settings are correct.  
 - Import of orders from Shopify  
 
-  - During the import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)] or decide to manage the customers in Shopify.  
-  - Include orders created in other channels, such as Shopify POS or Amazon.  
-  - Shipping costs, gift cards, tips, shipping and payment methods, transactions, and risk of fraud.  
+  -    During the import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)] or decide to manage the customers in Shopify.  
+  -    Include orders created in other channels, such as Shopify POS or Amazon.  
+  -    Shipping costs, gift cards, tips, shipping and payment methods, transactions, and risk of fraud.  
   - Receive payout information from Shopify Payments.  
 - Easy tracking of fulfillment information  
 
-  - Optionally choose to write item tracking information from [!INCLUDE [prod_short](../includes/prod_short.md)] into Shopify.  
+  -    Optionally choose to write item tracking information from [!INCLUDE [prod_short](../includes/prod_short.md)] into Shopify.  
 
 To use Shopify with [!INCLUDE [prod_short](../includes/prod_short.md)], you have a couple of things to do first. This article serves as a guide to complete the integration of your Shopify store with [!INCLUDE [prod_short](../includes/prod_short.md)].
 

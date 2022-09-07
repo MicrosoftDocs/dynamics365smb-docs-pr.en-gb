@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
+ms.search.form: 1665,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40dc8fec4ab6fe7c5756eff539c35c18cdc765ba
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: abbdbde57189cc201db2c4cb217079764e50f3da
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521631"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361451"
 ---
 # <a name="the-ceridian-payroll-extension"></a>The Ceridian Payroll Extension
 
@@ -24,11 +25,10 @@ To do this, you first import a file that you receive from the payroll provider i
 
 The Ceridian Payroll extension allows you to import payroll transactions from the Ceridian HR/Payroll (US) and Ceridian PowerPay (Canada) services.
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a>See also 
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)  
 [Finance](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
