@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f1c1ba7640c03314c53bceee13711c66f03a3c09
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 17491ce9bdc611bbdc7d06755edebe12a5f5df31
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079305"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460678"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Need More Time to Decide Whether to Subscribe?
 
 It's important to make the right decision when choosing a business application, and we know that it can take time to explore all of the corners in [!INCLUDE[prod_short](includes/prod_short.md)]. If you need more time to finish your evaluation, you can extend the trial period yourself for another 30 days. When the expiration date for your trial period is approaching, we will display a notification to alert you when you sign in. The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period. The extra 30 days start the moment you choose **Extend Trial** in the guide.
 
-Extending the trial period yourself is a one time-thing though. You cannot extend it twice, at least not yourself. If you have already extended the period, your Microsoft partner can extend it for you again. That's also a one-time thing. If you are not already working with a partner, see [How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner).  
+Extending the trial period yourself is a one time-thing though. You cannot extend it twice, at least not yourself. If you have already extended the period, your Microsoft partner can extend it for you again. That's also a one-time thing. If you are not already working with a partner, see [How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 
 ## <a name="to-extend-your-trial-period"></a>To extend your trial period
 
@@ -56,7 +56,7 @@ When your extended trial period is expired, you can [subscribe](https://go.micro
 
 [Trials and Subscriptions (English only)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Creating New Companies](about-new-company.md)  
-[How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner)  
+[How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Extending trials (as an administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Get Started as a Reseller of Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
 

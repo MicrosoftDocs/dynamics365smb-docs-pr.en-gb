@@ -3,12 +3,12 @@ author: edupont04
 ms.topic: include
 ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: 0f6ce66b4bb534d1cc2c66414fe08254f68253b2
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 8dcebacabc62e9744fb0c70e535f9fdd498047e6
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557490"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461056"
 ---
 1. Go to [the trial site](https://go.microsoft.com/fwlink/?linkid=847861), choose *Finance and operations*, and then, on the **Dynamics 365 Business Central** card, choose the **Try for free** button.  
 2. Enter your work or school email address and other details. You'll be redirected to your trial at [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
@@ -24,4 +24,4 @@ If you decide not to use [!INCLUDE [prod_short](prod_short.md)], you can let the
 
 [!INCLUDE [admin-viral-trial-expiry](admin-viral-trial-expiry.md)]
 
-Should you run into problems, check the [Trial FAQ](../trial-faq.md) or [Frequently Asked Questions](../across-faq.yml) articles to find answers to some of your questions. If you're unable to sign up for the trial, check the [Troubleshooting Self-Service Sign-Up](../ui-troubleshoot-self-signup.md) article for tips. You can also contact a [partner](/dynamics365/business-central/across-faq#findpartner) and ask them to create a free trial or a different type of preview of [!INCLUDE[prod_short](prod_short.md)] for you.  
+Should you run into problems, check the [Trial FAQ](../trial-faq.md) or [Frequently Asked Questions](../across-faq.yml) articles to find answers to some of your questions. If you're unable to sign up for the trial, check the [Troubleshooting Self-Service Sign-Up](../ui-troubleshoot-self-signup.md) article for tips. You can also contact a [partner](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) and ask them to create a free trial or a different type of preview of [!INCLUDE[prod_short](prod_short.md)] for you.  
