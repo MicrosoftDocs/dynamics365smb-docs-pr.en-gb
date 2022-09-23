@@ -10,12 +10,12 @@ ms.search.keywords: non-inventoriable
 ms.search.forms: 5725, 5726, 5732
 ms.date: 06/20/2022
 ms.author: bholtorf
-ms.openlocfilehash: c12eb256d4e7f1e211e28dacf4c403406dba3d85
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: deeca03327afa4b231cb9b4ce23088334fa50153
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077014"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532114"
 ---
 # <a name="work-with-catalog-items"></a>Work with Catalogue Items
 
@@ -68,7 +68,7 @@ You can then fill or edit fields on the new item card as necessary. For more inf
 > [!NOTE]  
 > An item reference is automatically item between the vendor's item number and your new item number. For more information, see [Use Item References](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

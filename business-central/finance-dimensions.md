@@ -10,12 +10,12 @@ ms.search.keywords: analysis, history, track, business intelligence
 ms.search.form: 408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e5579df4d63a4f800118ca320d60a984f203022b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f6e20f7886c30d15f3984062febc1dc81a48a95c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517583"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533329"
 ---
 # <a name="work-with-dimensions"></a>Work with Dimensions
 Dimensions are values that categorise entries so you can track and analyse them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from.  
@@ -222,7 +222,7 @@ In a ledger entry page, you can see whether there are global dimensions for the 
 > [!NOTE]  
 > The **Ledger Entry Dimensions** page displays the dimensions for one ledger entry at a time. As you scroll through the ledger entries, the content on the **Ledger Entry Dimensions** page changes accordingly.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 

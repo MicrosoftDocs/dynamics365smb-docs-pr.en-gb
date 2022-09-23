@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 5578a67baf1f6036c1a9f8804a9618f446e34006
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b18bd7f224988f0e5357aa68088ea311ea0cd965
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512446"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530683"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analyse Data by Dimensions
 In financial analysis, a dimension is data that you can add to an entry as a kind of marker. This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Dimensions can be used on entries in journals, documents, and budgets. The term dimension describes how analysis occurs. A two-dimensional analysis, for example, would be sales per area. However, by using more than two dimensions when creating an entry, you can carry out a more complex analysis, such as sales per sales campaign per customer group per area. For more information, see [Work with Dimensions](finance-dimensions.md).
@@ -75,7 +75,7 @@ The following procedure is for updating an analysis view from the **Analysis by 
 > [!NOTE]  
 >   To update some or all analysis views at the same time, you must use the **Update Analysis Views** batch job.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/dimensions-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Business Intelligence](bi.md)  

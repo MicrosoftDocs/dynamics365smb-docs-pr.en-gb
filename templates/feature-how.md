@@ -6,18 +6,18 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: 3ec9760cc2b1225f4b06b142a0b32ac4178dcca6
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: dc225dad42ba5f05fc4cbd4b091377fa04063b9f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311268"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528472"
 ---
 # <a name="achieve-some-task-in-max-100-characters"></a>Achieve Some Task in Max. 100 Characters
 
 For details about how to complete complex tasks, use dedicated HowTo articles. Use [!INCLUDE [prod_short](includes/prod_short.md)] for the product name.  
 
-For tips about MarkDown and style, see [Authoring Guide for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide).  
+For tips about MarkDown and style, see [Authoring Guide for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
 
 Remember to add See Also links, and to add the new article to the TOC.md file.  
 

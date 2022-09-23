@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 21, 9650
 ms.date: 04/07/2022
 ms.author: edupont
-ms.openlocfilehash: 722d457705b80787aa60c49ff02e4ba36ff6f250
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 809e29160e45bed28a5d79a7af32c3e98b19a490
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076858"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531601"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Define Document Layouts for Customers and Vendors
 
@@ -51,7 +51,7 @@ To save time when you send documents to customer and vendor contacts by email, s
 1. On the **Document Layouts** page, on the line for a report layout that you want to send to a specific contact for the customer, choose the **Select Email from Contacts** action.
 2. On the **Contacts** page, select one or more contacts, and then choose **OK**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
 

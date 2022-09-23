@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5779, 5798, 7343, 7345, 7357, 7359, 7377, 7392, 7395, 7397, 9313, 9316, 9344
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6f85c37a9a781493f1a67f00c9dcaade540697c7
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 07cb13480146496c7186cef2d845c4a799eb699a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078863"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535591"
 ---
 # <a name="pick-items"></a>Pick Items
 
@@ -44,7 +44,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Split a pick line into multiple lines, for example because there are not enough items to take from in the designated bin.|[Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md)|
 |Get immediate access to picks that are assigned to you as a warehouse worker.|[Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also"></a>See also 
 

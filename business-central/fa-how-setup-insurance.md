@@ -10,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e5d22e409ec2b9dcd24b210d92a7c87df8df5380
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 61cc87155b3defaf43555940ce74ff58a0e2be6e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075584"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535271"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Set Up Fixed Asset Insurance
 
@@ -61,7 +61,7 @@ You can set up batches in an insurance journal template. The values in the journ
 > [!NOTE]  
 >   Numbers have a special function in journal names. If a journal template name or journal batch name contains a number, the number automatically advances by one every time that the journal is posted. For example, if HH1 is entered in the **Name** field, the journal name will change to HH2 after the journal named HH1 has been posted.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also"></a>See also 
 

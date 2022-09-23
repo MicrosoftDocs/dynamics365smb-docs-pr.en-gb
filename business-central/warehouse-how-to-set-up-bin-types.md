@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0ec68eac92b29ac0f2877bdbdb957da33311e2e2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 2bec10341df30f451e05289573c48132cf20b00a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077405"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534002"
 ---
 # <a name="set-up-bin-types"></a>Set Up Bin Types
 
@@ -44,7 +44,7 @@ The bin types that you can create are listed below.
 |PUTPICK|Items in bins that are suggested for both the put-away and pick functions. Bins of this type probably have different bin rankings. You can set up your bulk storage bins as this type of bin with low bin rankings compared to your ordinary pick bins or forward picking area bins.|  
 |QC|This bin is used for inventory adjustments if you specify this bin on the location card in the **Adjustment Bin Code** field. You can also set up bins of this type for defective items and items being inspected. You can move items to this type of bin if you want to make them inaccessible to the usual item flow.<br /><br /> **NOTE:** Unlike all other bin types, the **QC** bin type has none of the item handling check boxes selected by default. This indicates that any content you place in a QC bin is excluded from item flows.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/set-up-zones-bins/)
 
 ## <a name="see-also"></a>See also 
 

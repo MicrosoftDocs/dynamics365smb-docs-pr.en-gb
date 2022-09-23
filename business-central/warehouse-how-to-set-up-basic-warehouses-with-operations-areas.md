@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 548654c36264a0b2bc401c4c1db39fa3d053f776
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0f90d7e92f4196a27712a1eedbd3cd66c15a9fc2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074439"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534029"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Set Up Basic Warehouses with Operations Areas
 
@@ -142,7 +142,7 @@ Making a bin dedicated provides similar functionality to using bin types, which 
 > [!NOTE]  
 >  The bin must be empty before you can select or clear the **Dedicated** field.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also"></a>See also 
 

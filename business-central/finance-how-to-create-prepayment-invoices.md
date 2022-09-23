@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 620a1af0deff6f9615b38706dd3f53f3db285008
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: ffb2adb5a0ec43da14ee7fd9126c3293ea73ab22
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362097"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534920"
 ---
 # <a name="create-prepayment-invoices"></a>Create Prepayment Invoices
 
@@ -73,7 +73,7 @@ You can issue other prepayment invoices for the order. To issue another invoice,
 
 You can speed up order and invoice processing by setting up job queue entries that automatically update the status of those documents. When a prepayment invoice is paid, the job queue entries can automatically change the document status from **Pending Prepayment** to **Released**. When you set up the job queue entries, the codeunits you'll need to use are **383 Upd. Pending Prepmt. Sales** and **383 Upd. Pending Prepmt. Purchase**. We recommend that you schedule the entries to run frequently, for example, every minute. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

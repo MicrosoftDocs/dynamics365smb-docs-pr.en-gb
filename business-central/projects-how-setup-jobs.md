@@ -8,12 +8,12 @@ ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 369e47e5bb8d30f2042b7051ed5bc0a1124a0797
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4e768b9cdcf4b6a7e32ee26a74a876604bad614f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079045"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535633"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Set Up Jobs, Prices, and Job Posting Groups
 
@@ -105,7 +105,7 @@ One aspect of planning jobs is deciding which posting accounts to use for job co
 | **Recognized Costs Account** |The expense account that contains the recognised costs for the job. It is a debit expense account ordinarily. |
 | **Recognized Sales Account** |The income account that contains the recognised income for the job. It is a credit income account ordinarily. |
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also"></a>See also 
 

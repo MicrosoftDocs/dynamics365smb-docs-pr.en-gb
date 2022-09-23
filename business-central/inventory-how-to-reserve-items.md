@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 08/11/2022
 ms.author: edupont
-ms.openlocfilehash: d727242c772d1eba2959747c2fcd151a7a330009
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: e68a85cfb15841f45b048cabaad2e279de19b73b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361671"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534893"
 ---
 # <a name="reserve-items"></a>Reserve Items
 
@@ -107,7 +107,7 @@ The following procedure is based on a sales order.
 7. Choose the **OK** button to open the **Reservation** page showing only supply with the specified item tracking number. If there are any non-specific reservations on any of the item tracking numbers you've specified for this line, you're informed of the quantity that has already been reserved.  
 8. Choose either the **Auto Reserve** or the **Reserve from Current Line** action to create the reservation of the specific item tracking numbers.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/manage-outbound-serial-lot-numbers/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/manage-outbound-serial-lot-numbers/)
 
 ## <a name="see-also"></a>See also 
 

@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 4163e1789754b565e4233d58d360018ed00feead
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
+ms.openlocfilehash: 7eabe6a9c17431b3e2965edcbf832d37133f4f9f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419678"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532762"
 ---
 # <a name="currencies-in-business-central"></a>Currencies in Business Central
 
@@ -35,7 +35,7 @@ You specify the currency codes in the **Currencies** list, including extra infor
 
 The exchange rates are the tool to calculate the local currency value (LCY) of each currency transaction. For more information, see [Update Currency Exchange Rates](finance-how-update-currencies.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
 

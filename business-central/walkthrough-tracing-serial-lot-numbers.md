@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: b7e2ae55e231cdadf02a0a8e91f6d3ad066a0cb5
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 6057773d71ccbd0c31a71774796f2ce7d5394b84
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075231"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532546"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Walkthrough: Tracing Serial/Lot Numbers
 
@@ -303,7 +303,7 @@ Then you must create various purchase, production, and sales transactions with t
 
  This completes the walkthrough of how to use the **Find entries** page for defects management in integration with the **Item Tracing** page.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/use-serial-lot-numbers/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/use-serial-lot-numbers/)
 
 ## <a name="see-also"></a>See also 
 

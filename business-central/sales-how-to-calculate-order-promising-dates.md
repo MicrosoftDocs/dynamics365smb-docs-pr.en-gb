@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 8a310ba099c6eb5c90d116304240db3291bac67c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ebe70f9fdd98f68616b15eaf37154c6072c601a8
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079513"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533570"
 ---
 # <a name="calculate-order-promising-dates"></a>Calculate Order Promising Dates
 
@@ -134,7 +134,7 @@ Before an item can be included in the order promising calculation, it must be ma
     - Select **Capable-to-Promise** if you know that the item is presently out of stock and you want to calculate the earliest date that the item can be available by issuing new replenishment requisitions.  
 5.  Choose the **Accept** button to accept the earliest shipment date available.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

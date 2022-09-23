@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: 301856bcf246f7546992de588472459e1bbec378
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 7f3db5df7c4ea03969eff2efe1a8d019f006ad40
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130099"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531817"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Create Workflows to Connect Business-Process Tasks
 
@@ -182,7 +182,7 @@ The following illustration provides an overview of the result of this procedure.
 
 Next, test the workflow by opening an existing vendor card and changing their name. Verify that an approval request is sent after changing the vendor name.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>See also 
 

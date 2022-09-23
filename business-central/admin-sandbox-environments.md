@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: c1e576d24e9a9ca3b81e58e534449729776c6fa1
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: f921660e82bb288b64a0ab559290c7645f1e9007
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130181"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529738"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandbox Environments in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -28,7 +28,7 @@ Your administrator manages sandbox environments in the [administration centre](/
 
 For example, if you want to create a sandbox for benchmarking, your administrator can create a dedicated environment in the administration centre. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types) in the developer and administration content.  
 
-You can also safely use sandboxes for training, such as for following a learning path from [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), because it's a safe environment to experiment with. If anything goes wrong, you just delete the sandbox and start over.  
+You can also safely use sandboxes for training, such as for following a learning path from [Microsoft training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), because it's a safe environment to experiment with. If anything goes wrong, you just delete the sandbox and start over.  
 
 Once you're done, you can remove the sandbox, using the administration centre.  
 
@@ -70,7 +70,7 @@ For more information, see [Use Designer](/dynamics365/business-central/dev-itpro
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

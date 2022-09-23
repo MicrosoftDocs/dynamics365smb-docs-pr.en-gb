@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 730308e265f7a3fef3ad4a8069ea3f5c6bf0a7d2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 23a730f79e3b5969243a1b176152496b6e20bdd2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078395"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534731"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Pick Items for Warehouse Shipment
 
@@ -75,7 +75,7 @@ After the warehouse shipment is posted, various fields on the sales order line a
 
 > In that case, the assemble-to-order quantity is handled as described in this topic, and the inventory quantity is handled as any other regular warehouse shipment line. For more information about combination scenarios, see [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also"></a>See also 
 

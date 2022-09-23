@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8764fa82ef8bf408e85655b5a97719d9f649e7be
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 79b373ec522d2cd8f99c6b0a98db0df7f9d1793f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078369"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533705"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Pick Items with Inventory Picks
 
@@ -112,7 +112,7 @@ If no bin code is specified on the sales order line, and no assembly output flow
 
 In combination scenarios, where a part of the quantity must first be assembled and another must be picked from inventory, a minimum of two inventory pick lines are created. One pick line is for the assemble-to-order quantity. The other pick line depends on which bins can fulfil the remaining quantity from inventory. Bin codes on the two lines are filled in different ways as described for the two different sales types respectively. For more information, see the “Combination Scenarios” section in [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also"></a>See also 
 

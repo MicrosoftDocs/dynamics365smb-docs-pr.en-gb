@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
-ms.openlocfilehash: d3eca2b850e189045257cd6c979db3017d72323a
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 99ef7f561610c2891e2a936bfb18b046cd8469c9
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077899"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531628"
 ---
 # <a name="use-reports-in-daily-work"></a>Use Reports in Daily Work
 
@@ -30,7 +30,7 @@ A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information b
 | Running a report with the same options and filters? Learn how to use saved settings in the request page | [Managing Saved Report Settings](reports-saving-reusing-settings.md)|
 | Want to change the default layout for a report? | [Changing the default Report Layout](ui-how-change-layout-currently-used-report.md) |
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/setup-reporting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

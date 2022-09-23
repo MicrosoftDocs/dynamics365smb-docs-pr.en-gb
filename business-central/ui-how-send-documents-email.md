@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 632591160ab5cfad7d33fc26bf3f9a9b4877176a
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950497"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532357"
 ---
 # <a name="send-documents-and-emails"></a>Send Documents and Emails
 
@@ -69,7 +69,7 @@ Some documents in [!INCLUDE[prod_short](includes/prod_short.md)] have a field th
 
 The **Email Outbox** is where you'll find the emails that you saved as drafts, and emails that failed to send, for example, if the email address was invalid. For messages that failed to send, you can choose **Show Error** or **Investigate Error** to troubleshoot the problem.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/set-up-email/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/set-up-email/)
 
 ## <a name="see-also"></a>See Also
 

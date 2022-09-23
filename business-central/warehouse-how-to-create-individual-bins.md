@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8b64a0314f4880ed9bc5a6c10a37c8747e4aa561
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 217b5c66e61e88917fcfb7bf960633faa38b381e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077769"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533732"
 ---
 # <a name="create-bins"></a>Create Bins
 
@@ -76,7 +76,7 @@ To work with the **Bin Creation Worksheet** page, you must be set up as a wareho
 
 Repeat the process for another set of bins until you have created all the bins in your warehouse.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-new-bins/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-new-bins/)
 
 ## <a name="see-also"></a>See also 
 

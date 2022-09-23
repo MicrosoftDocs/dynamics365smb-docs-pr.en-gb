@@ -10,12 +10,12 @@ ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 398c32043297e6900754da535f01a3fb5059c204
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ecf23184faea42895973d11115904606d715d31a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076832"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528627"
 ---
 # <a name="entering-data"></a>Entering Data
 
@@ -282,7 +282,7 @@ For example, suppose you're using a numeric keyboard that uses a period (.) as t
 > [!TIP]
 > There may be occasions when you want to use the decimal separator to enter a period (.). For example, suppose you were entering a date range in a filter, like `01/01/2022..04/01/2022`, or anything that requires a period. To accommodate this case, press the 'Alt+Decimal Separator' keys on the numeric keyboard. This key combination switches the decimal separator between outputting a period and the decimal separator as determined by the **Region** setting.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

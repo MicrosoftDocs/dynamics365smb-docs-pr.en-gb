@@ -10,12 +10,12 @@ ms.search.keywords: trade, sell, replenishment
 ms.search.form: 172
 ms.date: 07/06/2022
 ms.author: edupont
-ms.openlocfilehash: 7b5e0b32306fad7a4379aca6e3dbc23eb609c99e
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 1d4223bb324a10644e0974f8b92564f5bf85dce2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144120"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535632"
 ---
 # <a name="create-recurring-sales"></a>Create Recurring Sales
 
@@ -76,7 +76,7 @@ You can use the **Create Recurring Sales Invoices** batch job to create sales in
 
 Sales invoices are created for the customers with the specified standard customer sales code, and any specified direct-debit information, for posting on the specified date.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

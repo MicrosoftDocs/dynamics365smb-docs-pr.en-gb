@@ -10,12 +10,12 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ec826560a44908b0635bf7698040b1c0e088b04
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7d537d22d3273c2185016904779eab0ff030d201
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076650"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530251"
 ---
 # <a name="setting-up-fixed-assets"></a>Setting Up Fixed Assets
 
@@ -42,7 +42,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Learn about different fixed asset depreciation methods. |[Depreciation Methods](fa-depreciation-methods.md) |
 | Learn about how to apply user-defined depreciation methods. |[Set Up User-Defined Depreciation Methods](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also"></a>See also 
 

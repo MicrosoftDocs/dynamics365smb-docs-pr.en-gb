@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 99f23e497c969e9a9461928d1e550605f6db1eae
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 6a1254cb18546556b977eb009a819806e62ee2ca
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076364"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531655"
 ---
 # <a name="set-up-salespeople"></a>Set Up Salespeople
 
@@ -31,7 +31,7 @@ When you have set up a salesperson on the **Salespeople** page, you can select i
 
 You can use salespeople in various relationship management and marketing work. For example, you can assign tasks to salespeople, so that the tasks are incorporated in sales opportunities that the salesperson are assigned to. For more information, see [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

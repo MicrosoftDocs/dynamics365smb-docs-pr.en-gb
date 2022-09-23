@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8984d007f2082c6a21a3d2226a20f2ad585b131a
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 780034b8c53e7bb1704e13d0b1a00158583c11db
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129746"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531736"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Prepare Financial Reporting with Account Schedules and Account Categories
 
@@ -164,7 +164,7 @@ You can import and export account schedules as RapidStart configuration packages
 > [!NOTE]
 > When you import account schedules, existing records that have the same names as those you are importing will be deleted.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 

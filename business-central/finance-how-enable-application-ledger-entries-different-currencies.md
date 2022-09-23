@@ -10,12 +10,12 @@ ms.search.keywords: multiple currencies, payment, reconcile
 ms.search.form: 148, 460, 25
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ec081740ff45dc018d975f6d84deae4aae907cb
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: e8a09e2a832e5461b0a597a9caf4af8e9d7af7e9
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078707"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529063"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Enable Application of Ledger Entries in Different Currencies
 
@@ -48,7 +48,7 @@ If you apply entries in different currencies, you must set up the general ledger
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Posting Groups**, and then choose the related link.  
 4. In the **Debit Curr. Appln. Rndg. Acc.** and **Credit Curr. Appln. Rndg. Acc.** fields, enter the relevant general ledger accounts to post rounding differences.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/process-foreign-currency-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

@@ -10,12 +10,12 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
 ms.date: 08/04/2022
 ms.author: edupont
-ms.openlocfilehash: 8dc52a0d00c7596eb2333e92e8e77f4d1caaa243
-ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
+ms.openlocfilehash: 9b4c511c0cdaa6be6147ab1df3672f07b58c2b81
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9227453"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528929"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Monitor Job Progress and Performance
 
@@ -146,7 +146,7 @@ All job-related entries are recorded in job registers and sequentially numbered,
 
 On the **Job Ledger Entries** page you can review the entries that are associated with any job.  
 
-## <a name="find-related-training-at-microsoft-learn"></a>Find related training at [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+## <a name="find-related-microsoft-training"></a>Find related [Microsoft training](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also"></a>See also 
 

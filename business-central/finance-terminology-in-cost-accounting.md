@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 92f44504f97c4203585486fc937ed3bb560ad5d4
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: cee2ced8b51de66de847c0132e8ce35a08b7b229
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076546"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532168"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminology in Cost Accounting
 
@@ -49,7 +49,7 @@ This topic defines the key terms that are used in cost accounting.
 |Variable cost|Variable costs are expenses that change in proportion to the activity of a business. Variable costs are the sum of marginal costs over all units produced. Fixed costs and variable costs make up the two components of total costs.|  
 |Variant|A variant is used as an optional user-defined label for allocations. The purpose of the label is to filter groups of allocation.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 82f71f3fafb0b977dde28033443f4585aeaced52
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 2f9662df035851c1700a3b5ca01b71a418832dbf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075428"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532843"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Troubleshooting and Correcting Dimensions
 
@@ -122,7 +122,7 @@ If a correction does not complete, a warning will display on the correction card
 
 After you correct dimensions your data for cost accounting will be out of sync. Cost accounting uses dimensions to aggregate amounts for cost centres and cost objects, and to run cost allocations. Changing dimensions for G/L entries will probably mean that you re-run your cost accounting models. Whether you need to just delete a few cost registers and re-run allocations, or you need to delete everything and re-run all of your models depends on the data that has been updated and how your cost accounting capabilities are set up. You must manually identify where dimension corrections will impact cost accounting and where updates are needed. [!INCLUDE[prod_short](includes/prod_short.md)] does not currently provide an automated way to do that.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/dimensions-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

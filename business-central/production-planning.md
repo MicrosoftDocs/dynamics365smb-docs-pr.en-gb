@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.for: 291, 292, 293, 295, 517, 9010, 9038
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a8aeed07a17e19de22e751ac6c11959096a412a
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 5fd4e6b1cf7e5f77c1273a58223f0c0b55db1ab0
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079071"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534839"
 ---
 # <a name="planning"></a>Planning
 
@@ -45,7 +45,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |View an item's projected available inventory by different views and see which gross requirements, planned order receipts, and other events influence it over time.|[View the Availability of Items](inventory-how-availability-overview.md)|  
 <!--|Perform selected planning activities, such as changing or adding planning worksheet lines, in a graphical view of the supply plan.|[Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

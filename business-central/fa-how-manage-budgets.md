@@ -10,12 +10,12 @@ ms.search.keywords: forecast
 ms.search.form: 5610, 5611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c23881a80761a9c5ffe229b6299c320c39fc3f85
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a39ff86ea1bc8b3a2e772b8b3b557cdf863f8d7f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079227"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528366"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Manage Budgets for Fixed Assets
 
@@ -60,7 +60,7 @@ You can use the **Fixed Asset - Projected Value** report to calculate future dep
 4. Leave the **Fixed Asset** FastTab blank to have all assets included. In the **Budgeted Asset** field, enter **No** to exclude budgeted assets or **Yes** to see budgeted assets only.
 5. Choose the **Print** or **Preview** button.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/budget-fixed-assets/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/budget-fixed-assets/)
 
 ## <a name="see-also"></a>See also 
 

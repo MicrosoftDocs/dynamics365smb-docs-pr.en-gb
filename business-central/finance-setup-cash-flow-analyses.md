@@ -10,12 +10,12 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: a79299d835b7a5af06edf16119f037cdaf610311
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c20a7e2a53974d17b8571f0a4d69d6298804b064
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515622"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534164"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setting Up Cash Flow Analysis
 If you want some help to decide what to do with your cash, have a look at the charts on the Accountant Role Centre:  
@@ -124,7 +124,7 @@ You can also create your own predictive web service based on a public model name
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Setup**, and then choose the related link.  
 7. Expand the **Azure AI** FastTab, and then fill in the fields.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 

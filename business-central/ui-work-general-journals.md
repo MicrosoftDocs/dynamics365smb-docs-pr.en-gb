@@ -10,12 +10,12 @@ ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: aecfa9a0709205a781d974a1f901a5ddb3710ae7
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 223930af41410c649d18a567bc5f2a736e0403fa
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655001"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535888"
 ---
 # <a name="work-with-general-journals"></a>Work with General Journals
 
@@ -212,7 +212,7 @@ The following procedure is based on the **General Journal** page, but applies to
 
 Values in the **Document No.** field are changed, where required, so that the document number on individual or grouped journal lines are in sequential order. After documents are renumbered, you can proceed to post the journal.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
 

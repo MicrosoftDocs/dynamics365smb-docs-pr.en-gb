@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5638, 5636, 5640, 5637
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2a6841bf7ad0adb7f63f1bdfc7cde97023e69bc5
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 00565ae00664005c9b968eb3e34e4cb7e6130966
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078185"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531520"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Transfer, Split, or Combine Fixed Assets
 
@@ -72,7 +72,7 @@ You can combine multiple fixed assets into one fixed asset, for example when you
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/reclassify-fixed-assets/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/reclassify-fixed-assets/)
 
 ## <a name="see-also"></a>See also 
 

@@ -10,12 +10,12 @@ ms.search.keywords: app, add-in, manifest, customize, budget
 ms.search.form: 1850, 1851, 1853,
 ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: fd48dacda54a5a81a7bb3a734201da31e8eb5453
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: ad8a1b1945331c9db4ef326bdf2bb36e68b35aaa
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362256"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533516"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>The Sales and Inventory Forecast Extension
 
@@ -64,13 +64,13 @@ You can also create your own predictive web service based on a public model name
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales and Inventory Forecast Setup**, and then choose the related link.  
 7. Expand the **General** FastTab, and then fill in the API URL and API key fields.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/use-sales-inventory-forecast-extension/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/use-sales-inventory-forecast-extension/)
 
 ## <a name="see-also"></a>See also 
 
 [Sales](sales-manage-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
-[Use Artificial Intelligence in Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
+[Use Artificial Intelligence in Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

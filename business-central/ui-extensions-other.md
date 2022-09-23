@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ba87c96e23a3905e555a3c5fbf361758f2f76664
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 417d6bcb596e5f3aef3644ff464105d1eb8014e7
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075714"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531331"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Business Central Extensions by Other Providers
 
@@ -22,7 +22,7 @@ At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get exte
 
 The list of the extensions by other companies grows each month. So keep an eye out for [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) and get apps to help you in your work in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

@@ -10,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5629, 5633
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: ec81b14510d89729f7c51f95a3907db38e3876ea
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f4f748e15a3bc3b911488cff74a7e51be4a75142
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075948"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535082"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Depreciation Methods for Fixed Assets
 
@@ -300,7 +300,7 @@ When you enter an entry in B1 in the fixed asset G/L journal and place a check m
 > [!NOTE]  
 > You cannot use the same number series in the fixed asset G/L journal and the fixed asset journal. When you post entries in the fixed asset G/L journal, you must leave the **Document No.** field empty. If you enter a number in the field, the the number is duplicated in the fixed asset journal. You'll have to manually change the document number before you can post the journal.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also"></a>See also 
 

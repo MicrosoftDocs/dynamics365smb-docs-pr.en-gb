@@ -10,12 +10,12 @@ ms.search.keywords: reconcile
 ms.search.form: 377, 378, 165, 1284
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 2903e6d8564a48464c1ae5ce493270f3b46781a1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 352304983b331d361947d88fdafc134d50fe70a3
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516376"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530899"
 ---
 # <a name="manage-and-reconcile-your-bank-accounts"></a>Manage and Reconcile Your Bank Accounts
 
@@ -38,7 +38,7 @@ The following table describes a sequence of tasks, with links to the topics that
 > [!TIP]
 > Use bank reconciliation to help verify that your books are up-to-date, and do not post the reconciliation until you are satisfied with the reconciliation.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
 

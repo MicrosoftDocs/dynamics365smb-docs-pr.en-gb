@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a6b6de60f6262906429127b0588ca62c9dcca1b
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: a0ea051ec39b290706b30da455fce518cd7bdcd0
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461083"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533383"
 ---
 # <a name="use-the-prod_short-apps-in-power-bi"></a>Use the [!INCLUDE [prod_short](includes/prod_short.md)] Apps in Power BI
 
@@ -150,7 +150,7 @@ The Power BI app will only display data from the [!INCLUDE[prod_short](includes/
 - [Select a tile](/power-bi/service-dashboard-tiles) to open the underlying report.  
 - By default, your dataset isn't scheduled to refresh. You can change the refresh schedule or try refreshing it on demand using **Refresh Now**. For more information, see [Configuring scheduled refresh](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 

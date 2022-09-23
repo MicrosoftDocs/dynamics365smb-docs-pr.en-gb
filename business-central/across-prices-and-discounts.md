@@ -10,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5f0a26e9a6784f1d0ae2b7c8881667a51560cbf6
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 5afe559e9f3e741db5c75b5cf3026caf50a1ce97
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077691"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530710"
 ---
 # <a name="set-up-prices-and-discounts"></a>Set Up Prices and Discounts
 
@@ -119,7 +119,7 @@ You link discount percentages to specific invoice amounts on the **Invoice Disco
 In addition to (or instead of) a discount percentage, you can link a service charge amount to a specific invoice amount.  
 
 > [!TIP]  
-> Before you start entering this information, it is a good idea to prepare your discount structure beforehand, so it's easier to see which customers to link to the same invoice discount page. For more information about discounts in sales, see [Set up discounts for your customers](/learn/modules/customer-discounts-dynamics-365-business-central/index) at Microsoft Learn.  
+> Before you start entering this information, it is a good idea to prepare your discount structure beforehand, so it's easier to see which customers to link to the same invoice discount page. For more information about discounts in sales, see [Set up discounts for your customers](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>To set up an invoice discount for a customer
 
@@ -205,7 +205,7 @@ To update prices for multiple items, you must create a new price list, and then 
 
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents, and on job and item journal lines. For more information, see [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/customer-discounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/customer-discounts-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

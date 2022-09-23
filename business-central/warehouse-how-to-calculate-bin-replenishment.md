@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 7315, 7351
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f59670f427eb530eabaa69aa7596d610cb117078
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0f2653087df90ca6801f0d2e972f142e1f65b889
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076130"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530819"
 ---
 # <a name="calculate-bin-replenishment"></a>Calculate Bin Replenishment
 
@@ -47,7 +47,7 @@ The next time you calculate bin replenishment, the suggestions that you have del
 >   
 >  then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/move-items/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/move-items/)
 
 ## <a name="see-also"></a>See also 
 

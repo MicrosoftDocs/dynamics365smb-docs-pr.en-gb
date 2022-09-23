@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: 130, 142, 1350
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 47c390cfbd9827d539fa99046c1ad82ba739bac3
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 91744dd58d68c6b732c9abe794f33b0c9a11211a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655586"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535690"
 ---
 # <a name="posting-sales"></a>Posting Sales
 
@@ -53,7 +53,7 @@ In most cases, you can open ledger entries from the affected card or document. F
 
 You can edit certain fields on posted purchase documents, such as the **Package Tracking No.** field. For more information, see [Edit Posted Documents](across-edit-posted-document.md). For more critical fields that affect the auditing trail, you must reverse or undo posting. For more information, see [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 

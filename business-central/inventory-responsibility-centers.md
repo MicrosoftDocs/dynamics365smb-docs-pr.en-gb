@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 5714, 5715
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2c5b4f6835618e57212ac7b3b4a9ecf1c672052f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 3aabc4f60d30d6a5eaef838fa1b8b03e58c2341d
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077977"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530008"
 ---
 # <a name="work-with-responsibility-centers"></a>Work with Responsibility Centres
 
@@ -55,7 +55,7 @@ To set this up, you assign responsibility centres to users in three functional a
 > [!NOTE]  
 > Users can view only those posted documents that related to their own responsibility centre. However, they can view all ledger entries and navigate to other posted documents from the ledger entries.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/set-up-responsibility-centers/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/set-up-responsibility-centers/)
 
 ## <a name="see-also"></a>See also 
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 16adda82dbc45bcff61934d57de7a4e46f8477cf
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 14c5f0db9750c4c87a7606044204864d115acdd2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075298"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529928"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Walkthrough: Calculating Work in Progress for a Job
 
@@ -165,7 +165,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
  This walkthrough has taken you through the steps of calculating WIP in [!INCLUDE[prod_short](includes/prod_short.md)]. In larger jobs, it may be useful to transfer the costs to a WIP account periodically while the job is being completed. This walkthrough has shown you how to exclude task lines from a calculation. It also shows you when you would have to recalculate. And finally, this walkthrough demonstrates how to post the WIP to the general ledger. An example of how to reverse a WIP posting to the general ledger is also included.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also"></a>See Also
 

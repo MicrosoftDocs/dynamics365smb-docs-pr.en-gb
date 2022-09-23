@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ceba015b16e990bc71e0217ed2f8ee85ca6ae1ec
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 96d2542c719c7a93f4190294c7b4f42e0a11c68e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074881"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535055"
 ---
 # <a name="setting-up-cost-accounting"></a>Setting Up Cost Accounting
 
@@ -195,7 +195,7 @@ For each general ledger account, you can define default dimension values in the 
 > [!NOTE]  
 >  To make sure that the predefined cost centre and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup page.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

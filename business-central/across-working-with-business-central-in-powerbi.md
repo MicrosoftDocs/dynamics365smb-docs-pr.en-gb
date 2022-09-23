@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2021
+ms.date: 09/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 67e564271e54c7c6c7f1b141172a537cd2bd6286
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0512e0f77f563b92c0ffcf4c2430a3a3ee329bbb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510950"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532789"
 ---
 # <a name="work-with-prod_short-data-in-power-bi"></a>Work with [!INCLUDE [prod_short](includes/prod_short.md)] Data in Power BI
 
@@ -31,6 +31,8 @@ Once you have a Power BI account, you can sign in at [https://powerbi.microsoft.
 The Power BI service hosts all the reports available to you. To see the report, select **My Workspace** > **Reports**. Then just select the report that you want to view.
 
 With [!INCLUDE[prod_short](includes/prod_short.md)] online, you'll automatically have a set of default reports on your workspace. If you want to create your own reports, you can use Power BI Desktop to create reports, and then publish them to your workspace. For more information, see [Getting Started Building Reports in Power BI Desktop to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md).
+
+[!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
 If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you'll have to start from scratch by using Power BI Desktop. Optionally, Power BI reports can be distributed as files, that you can upload.
 
@@ -75,7 +77,7 @@ To share a report, in a list reports, or in an open report, select **Share**. In
 > [!NOTE]
 > You must have  [Power BI Pro licence](/power-bi/service-features-license-type), and the people you share with do too. The content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 

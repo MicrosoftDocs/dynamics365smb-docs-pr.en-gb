@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2ea3d93e1dac041848dc650fc8137e824e0fd4c2
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 01b48fad86c805da2120477fc9f6d5f0f5bcdb94
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799752"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533894"
 ---
 # <a name="set-up-and-report-intrastat"></a>Set Up and Report Intrastat
 
@@ -173,7 +173,7 @@ In many countries, the customs and tax authorities establish 8-digit item codes 
 
 In the **Commodity Codes** page, add all the codes that you use. You must enter the codes on the item card before you begin to post. When you have set up the codes, enter them in the **Commodity Code** field on the item card. You must also fill in the **Net Weight** field on the item card.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 

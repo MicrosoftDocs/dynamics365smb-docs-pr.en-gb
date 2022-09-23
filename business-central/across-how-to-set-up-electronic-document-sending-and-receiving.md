@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bcc706a221c40019792167b4b75cb8826216457d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 49280683e865e1c86f50532999dfa182e15015a2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147249"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530305"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Set Up Electronic Document Sending and Receiving
 
@@ -142,7 +142,7 @@ The topic contains the following procedures:
     |---------------------------------|---------------------------------------|  
     |**G/L Account for Non-Item Lines**|Specifies the G/L account that is automatically inserted on purchase lines that are created from electronic documents when the incoming document line does not contain an identifiable item. Any incoming document line that does not have a GTIN or the vendor's item number will be converted to a purchase line of type **G/L Account**, and the **No.** field on the purchase line will contain the account that you select in the **G/L Account for Non-Item Lines** field.<br /><br /> If you leave the **G/L Account for Non-Item Lines** field blank, and the incoming document has lines without identifiable items, then the purchase document will not be created. An error message will instruct you to fill the **G/L Account for Non-Item Lines** field before you can complete the task.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also  
 [Exchanging Data Electronically](across-data-exchange.md)   

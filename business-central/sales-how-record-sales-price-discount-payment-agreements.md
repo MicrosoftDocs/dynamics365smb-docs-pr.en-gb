@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2bf0a8881ea896c1728f02f07e5991b284a3ccae
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 7705acac2b2c53bea96fee0431cb83702e46b0c6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129856"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529603"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Record Special Sales Prices and Discounts
 
@@ -221,7 +221,7 @@ In addition to, or instead of, a discount percentage, you can link a service cha
 > [!TIP]  
 > Before you enter this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which customers can be linked to the same invoice discount page. The fewer pages you have to set up, the faster you can enter the basic information.
 
-For training in discounts in sales, see [Set up discounts for your customers](/learn/modules/customer-discounts-dynamics-365-business-central/index) at Microsoft Learn.  
+For training in discounts in sales, see [Set up discounts for your customers](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
 ### <a name="calculating-invoice-discounts-on-sales"></a>Calculating Invoice Discounts on Sales
 
@@ -276,7 +276,7 @@ Proceed to set up new the sales invoice discount terms.
 4. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
 5. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 

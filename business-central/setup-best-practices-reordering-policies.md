@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b71ea56c67df7689a268e633880d16fac616027b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f12a5156cbad785ccede27bbe176b7e3ccd74d9c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077535"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531061"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Setup Best Practices: Reordering Policies
 
@@ -41,7 +41,7 @@ The following table provides best practices for selecting between the four polic
 |**Fixed Reorder Qty.**|Use for C items.<br /><br /> Combine with reorder-point parameters.<br /><br /> In manufacturing, use for lowest-level components.<br /><br /> Do not use if the item is often reserved.|C items, such as tea cups, are low-value items with high and regular order velocity. The best reordering policy for C items is therefore one that guarantees constant availability by always staying above a reorder point.<br /><br /> If the user reserves a quantity for some distant demand, then the planning foundation will be disturbed. Even if the projected inventory level is acceptable with regard to the reorder point, the quantities may not be available because of the reservation.|  
 |**Maximum Qty.**|Use for C items with high carrying costs or storing limitations.<br /><br /> Combine with one or more order modifiers (Minimum/Maximum Order Quantity or Order Multiple).|C items, such as tea cups, are low-value items with high and regular order velocity. The best reordering policy for C items is therefore one that guarantees constant availability by always staying above a reorder point, but below a maximum inventory quantity.<br /><br /> To modify the suggested order, you may want the order quantity to be decreased to a specified maximum order quantity, increased to a specified minimum order quantity, or rounded up to meet a specified order multiple. **Note:**  If used with a reorder point, then inventory stays between the reorder point and the maximum quantity.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/replenish-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/replenish-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

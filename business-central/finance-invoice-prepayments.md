@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: e1bc919488a1932338b71938cc4c6e2928cfc177
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c39d5e0462c9fb4563e9f481256c916f0b9c397e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514024"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535217"
 ---
 # <a name="invoicing-prepayments"></a>Invoicing Prepayments
 
@@ -35,7 +35,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create an order, adjust the prepayment amounts, and issue an invoice for prepayment amounts.|[Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md)|  
 |Issue an additional prepayment invoice, either for additional items or for an additional deposit on the original order, or issue a prepayment credit memo.|[Correct Prepayments](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 

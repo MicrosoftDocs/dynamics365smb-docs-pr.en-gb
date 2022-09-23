@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: b282ea2aeec8e28b36bdadfdb57065e8c9e0c727
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c10fc78e461b273483a16720dafdf7f99882573e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075063"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529333"
 ---
 # <a name="create-reports-with-xbrl"></a>Create Reports with XBRL
 
@@ -114,7 +114,7 @@ When a taxonomy changes you need to update the current taxonomy accordingly. The
 6.  To import the linkbase, choose the **Import** action.  
 7.  Choose the **Yes** button to apply the linkbase to the schema.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/xbrl-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Finance](finance.md)    

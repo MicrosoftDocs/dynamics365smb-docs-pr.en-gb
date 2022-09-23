@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 88fa36a84b88ccb44df3c1412ac217461febc883
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: eef49d2ad6d1f52e8b85b1c3e06695668d19fd4f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078265"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530089"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Set Up Locations to Use Bins
 
@@ -41,11 +41,11 @@ To use the bin functionality at a location, you first activate the functionality
 
 ## <a name="filling-the-consumption-bin"></a>Filling the Consumption Bin
 
-This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.
+This flow chart shows how the **Bin Code** field on works order component lines is filled according to your location setup.
 
 ![Bin flow chart.](media/binflow.png "BinFlow")  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-bins-location/)
 
 ## <a name="see-also"></a>See also 
 

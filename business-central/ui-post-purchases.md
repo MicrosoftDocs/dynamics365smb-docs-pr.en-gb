@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: ''
 ms.date: 08/08/2022
 ms.author: edupont
-ms.openlocfilehash: 2f306fee236fda2bae4863e0e793239c2168f125
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 1bae22c83f1e7138fbfe16bb39aea3ad9d65d788
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461110"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531007"
 ---
 # <a name="posting-purchases"></a>Posting Purchases
 
@@ -58,7 +58,7 @@ In most cases, you can open ledger entries from the affected card or document. F
 
 You can edit certain fields on posted purchase documents, such as the **Payment Reference** field. Learn more at [Edit Posted Documents](across-edit-posted-document.md). For more critical fields that affect the auditing trail, you must reverse or undo posting. Learn more at [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
 ## <a name="see-also"></a>See also 
 

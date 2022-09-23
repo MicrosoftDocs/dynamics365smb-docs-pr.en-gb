@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4d90980030453dd2b152d2b85901a9db12cadf2f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ce664efeb299072e73c2b25ea87ed28596164015
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078317"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528498"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Put Items Away with Inventory Put-aways
 
@@ -77,7 +77,7 @@ Now that the request is created, the warehouse employee can create a new invento
 
 The posting process will post the receipt, or for production orders, the output, of the source document lines that have been put away, and if the location uses bins, the posting will also create warehouse entries to post the bin quantity changes.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also"></a>See also 
 

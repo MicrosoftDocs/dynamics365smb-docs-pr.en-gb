@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 46d00ec083cd749ed9922ab0e046d9a76aaf4390
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a0704d35debbe8cdd7c2be240c6a02759a919795
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076104"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531250"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Pick for Production or Assembly in Advanced Warehouse Configurations
 
@@ -52,11 +52,11 @@ If the internal operation area, such as a production shop floor, is set up with 
 
 ## <a name="filling-the-consumption-bin"></a>Filling the Consumption Bin
 
-This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.
+This flow chart shows how the **Bin Code** field on works order component lines is filled according to your location setup.
 
 ![Bin flow chart.](media/binflow.png "BinFlow")  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also"></a>See also 
 

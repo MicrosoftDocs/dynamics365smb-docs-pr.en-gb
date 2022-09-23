@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5271203a9936f268e23df9b8e38a2373d875e5f9
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: e61c61f760dd14145ecea76f36903f8a4124cac5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076494"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533840"
 ---
 # <a name="set-up-stockkeeping-units"></a>Set Up Stockkeeping Units
 
@@ -40,7 +40,7 @@ To create several stockkeeping units for an item, use the **Create Stockkeeping 
 > If the SKU is supplied through production, then the **Standard Cost** field is not used when invoicing and adjusting the actual cost of the produced item. Instead, the **Standard Cost** field on the underlying item card is used, and any variances are calculated against the cost shares of that item.<br /><br />
 > Because production BOMs and routing cannot be assigned to SKUs, then the unit cost roll-up and the related calculation of cost shares are also not available on SKUs. For more information, see [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/control-inventory-multiple-locations/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/control-inventory-multiple-locations/)
 
 ## <a name="see-also"></a>See also 
 

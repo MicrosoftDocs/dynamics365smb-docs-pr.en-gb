@@ -10,12 +10,12 @@ ms.search.keywords: trade, partial deliveries, customer sales order, shipping ad
 ms.search.form: 42, 48, 9305
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: d40adc9e0d21b89f7b648862b08be8456287bd50
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 7d3363557e469344c1648c52b08393efc0f2dc69
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460975"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535834"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Sell Products with a Customer Sales Order
 
@@ -97,7 +97,7 @@ The related item and customer ledger entries are now created in your system, and
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>See also 
 

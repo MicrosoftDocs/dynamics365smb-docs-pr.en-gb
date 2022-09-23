@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 76e4b2351e3df740871b5f79e6086c1a70079023
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ce20cf835cee31c752224bd96b6bd6f202998aae
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517219"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530764"
 ---
 # <a name="legacy-update-custom-report-layouts"></a>(Legacy) Update Custom Report Layouts
 
@@ -64,7 +64,7 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
 After you modify the layout, try to update the layout again.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also  
  [Managing Report Layouts](ui-manage-report-layouts.md)  

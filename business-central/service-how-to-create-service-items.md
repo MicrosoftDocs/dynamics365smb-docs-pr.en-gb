@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 80c8eab293fbabd05e385c89f63f7900a7e7cbde
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 89434ef4ac6b9421859791e4e04f895d506e78bb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074548"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530170"
 ---
 # <a name="create-service-items"></a>Create Service Items
 
@@ -62,7 +62,7 @@ The following procedure shows how to create service items when you ship items on
 
     A service line of type **Cost** is inserted with the starting fee. The starting fee applies to the selected service item.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-items/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-items/)
 
 ## <a name="see-also"></a>See also 
 

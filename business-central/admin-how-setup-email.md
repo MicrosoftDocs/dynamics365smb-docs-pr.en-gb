@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
-ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
+ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "9041433"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534299"
 ---
 # <a name="set-up-email"></a>Set Up Email
 People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can connect one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], letting you send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colours, and so on, and add attachments of up to 100 MB. Additionally, report layouts enable administrators to include only the key information from documents. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
@@ -229,7 +229,7 @@ After you register your application in Azure portal, in [!INCLUDE[prod_short](in
 
 -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/set-up-email/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/set-up-email/)
 
 ## <a name="see-also"></a>See Also
 

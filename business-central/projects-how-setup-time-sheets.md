@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: a1c5314d8aba0b31d02491da1e588f7a23c83a38
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7d019f9003ccd3ca0b2da7157d2d30f98d118e63
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078967"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532060"
 ---
 # <a name="set-up-time-sheets"></a>Set Up Time Sheets
 
@@ -94,7 +94,7 @@ The following sections describe how to set up time sheets if you do not use the 
 > [!NOTE]  
 > You cannot change the ID of the time sheet approver if there are time sheets that have not yet been processed and have the status of **Submitted** or **Open**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also"></a>See also 
 

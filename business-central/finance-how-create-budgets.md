@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 87fb665d57aaa6c66b4b3c2659d9e93a6e51239d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 22f0ecdf185d3b2e31d23dd2492223179328d103
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514050"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533140"
 ---
 # <a name="create-gl-budgets"></a>Create G/L Budgets
 
@@ -49,7 +49,7 @@ As for practically all other pages, you can export data on budget pages to Excel
 > [!NOTE]
 > The chart of accounts, that G/L budgets are based on, have lines of account type Heading that contain the total of the lines below it. When you export a G/L budget, data on all lines is exported regardless of the account type. However, only data on lines of account type Posting can be imported back in. Accordingly: <br /><br /> **When you import a G/L budget, any values that existed on Heading lines will be deleted.** <br /><br /> This is to avoid wrong totals after importing data that has been created or edited in Excel.<br /><br /> **Scenario**: You know that the new budgeted salaries cost is going to be LCY 1.200.000. You want to let the Salaries department budget for the three specific lines (of account type Posting) for Full-time Employees, Part-time Employees, and Temp Help. The three lines are grouped under a Salaries heading line.<br /><br />You enter 1.200.000 on the Heading line, export the budget to Excel, and then send it to the Salaries department, telling them to distribute the LCY 1.200.000.<br /><br /> The Salaries department distributes the amount on the three posting accounts. When you import back into the G/L budget, the three accounts are filled in with the new Excel data, summing to LCY 1.200.000, and the Heading line is blank.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 

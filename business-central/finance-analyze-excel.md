@@ -7,12 +7,12 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 9027
 ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: 43b5a4181b50da65f25be3f3fc73a0e01fd885af
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 874234154c7a2ae2e8cf0444794a2b4fbdcbcf5e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361769"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534218"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysing Financial Statements in Microsoft Excel
 
@@ -56,7 +56,7 @@ Your [!INCLUDE [prod_short](includes/prod_short.md)] experience includes an add-
 
 The add-in lets you get fresh data from [!INCLUDE [prod_short](includes/prod_short.md)], and you can push changes back to [!INCLUDE [prod_short](includes/prod_short.md)]. However, the ability to push data back to the database is not available for the financial reports you can view in Excel.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 

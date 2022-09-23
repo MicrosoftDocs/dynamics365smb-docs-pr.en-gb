@@ -10,12 +10,12 @@ ms.search.keywords: trade, sell, configure
 ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4e34a21fc06c8c880e124db4040c088e4d235ffb
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 2346c246fdf0d9973f40e7d0073dee9004c68669
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460813"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531358"
 ---
 # <a name="setting-up-sales"></a>Setting Up Sales
 Before you can manage sales processes, you must configure the rules and values that define the company's sales policies.
@@ -39,7 +39,7 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 |Enter information about the different transportation vendors you use, including a link to their package tracking service.|[Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  

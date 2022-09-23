@@ -10,12 +10,12 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 257, 259, 279
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08545d1bb23b8a70d10c6114f4840ce186aa94cc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ab140d214c25735bf8158a2255f8f35ba246442c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515570"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535163"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Setting Up Source Codes and Reason Codes for Audit Trails
 
@@ -85,7 +85,7 @@ The selected reason code will be copied to new journal batches created under thi
 
 When the invoice is posted, the reason code is copied to each general ledger, customer, and vendor entry. You cannot assign different reason codes to the individual purchase and sales lines because all lines are posted as one entry.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
 

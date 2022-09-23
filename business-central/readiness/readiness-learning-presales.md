@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 83796dec798e550593a3eb735c183c9db63bcec0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7bede8c805e960848f349a3492784e7d0f568bd7
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781870"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534488"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Partner Pre-Sales Learning Catalogue
 
@@ -22,9 +22,9 @@ The following catalogue is organised from core knowledge to specific domains, an
 
 | Content                                                                                                                              | Description                                                                                                                                                                                                                                                                                      | Format                                | Length             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
-| [Get started with Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/)                          | Are you interested in Business Central? If so, this learning path provides a good introduction. It discusses how to set up a trial, provides some basic information about what's available, and shows some personalisation options you can make to customise Business Central for your use. | Free, self-paced online learning path | 3 hours 4 minutes  |
-| [Work with the Microsoft Dynamics 365 Business Central user interface](/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Do you want to learn about the Business Central user interface? This learning path shows you the user interface, and also how you can personalise it. It also discusses alternate interfaces such as a smartphone. | Free, self-paced online learning path | 2 hours 27 minutes |
-| [Work like a pro with data in Business Central](/learn/paths/work-pro-data-dynamics-365-business-central) | Are you just getting started with Business Central? This learning path will help prepare you for the types of data in Business Central and how to find information you need in the application. | Free, self-paced online learning path | 2 hours 27 minutes |
+| [Get started with Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/)                          | Are you interested in Business Central? If so, this learning path provides a good introduction. It discusses how to set up a trial, provides some basic information about what's available, and shows some personalisation options you can make to customise Business Central for your use. | Free, self-paced online learning path | 3 hours 4 minutes  |
+| [Work with the Microsoft Dynamics 365 Business Central user interface](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Do you want to learn about the Business Central user interface? This learning path shows you the user interface, and also how you can personalise it. It also discusses alternate interfaces such as a smartphone. | Free, self-paced online learning path | 2 hours 27 minutes |
+| [Work like a pro with data in Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | Are you just getting started with Business Central? This learning path will help prepare you for the types of data in Business Central and how to find information you need in the application. | Free, self-paced online learning path | 2 hours 27 minutes |
 | [Business Central YouTube playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube landing page for Dynamics 365 Business Central videos | YouTube Videos |                    |
 | [Explore Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Explore Dynamics 365 Business Central Capabilities                                                                                                                                                                                                                                               | Website                               |                    |
 
@@ -40,7 +40,7 @@ The following catalogue is organised from core knowledge to specific domains, an
 | Content                                                                                                                                | Description                                                                                                                                                                                                                                                                                      | Format                                | Length                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Explore Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/) | Explore Dynamics 365 Business Central Capabilities | Website |                     |
-| [Dynamics 365 Business Central](/learn/modules/dynamics-365-business-central/) | This module shows application features, benefits, and examples of Dynamics 365 Business Central in action. | Free, self-paced online learning path | 24 minutes          |
+| [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | This module shows application features, benefits, and examples of Dynamics 365 Business Central in action. | Free, self-paced online learning path | 24 minutes          |
 
 ## <a name="whats-new"></a>What's New<a name="whatsnew"></a>
 

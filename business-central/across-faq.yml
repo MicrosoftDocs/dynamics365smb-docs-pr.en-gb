@@ -7,12 +7,12 @@ metadata:
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
   ms.date: 09/07/2022
   ms.author: edupont
-  ms.openlocfilehash: 13f6de4c6f01fbe7a525d7b1f18d3f83f12cb6c3
-  ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+  ms.openlocfilehash: 186731bff985900492a7353556f97862984b60cc
+  ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
   ms.translationtype: HT
   ms.contentlocale: en-GB
-  ms.lasthandoff: 09/09/2022
-  ms.locfileid: "9461002"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "9535352"
 title: Frequently Asked Questions about Using Business Central
 summary: "This section contains answers to frequently asked questions about signing up for a trial, buying a subscription, and using [!INCLUDE[prod_short](includes/prod_short.md)]. You can also learn how to get technical support.  \n"
 sections:
@@ -36,7 +36,7 @@ sections:
       Yes. [!INCLUDE [prod_short](includes/prod_short.md)] is optimised for online deployment, and some capabilities may run on premises only under certain circumstances, while others aren't supported at all. Learn more at [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (available in English only).
   - question: >
       Can I get training in Business Central?
-    answer: "Yes, you can! You can find free eLearning content on the [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). You can also ask your reselling partner for more training. If you don't know who that is, see the [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) section.  \n\nFor more information about training across Dynamics 365 that is provided by Microsoft, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  \n\nMore content is provided by the [!INCLUDE[prod_short](includes/prod_short.md)] community, such as the [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) that is written by a partner.  \n"
+    answer: "Yes, you can! You can find free eLearning content on the [Microsoft training site](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). You can also ask your reselling partner for more training. If you don't know who that is, see the [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) section.  \n\nFor more information about training across Dynamics 365 that is provided by Microsoft, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  \n\nMore content is provided by the [!INCLUDE[prod_short](includes/prod_short.md)] community, such as the [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) that is written by a partner.  \n"
   - question: How do I get technical support for Business Central?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] is sold through partners, and you should contact your reselling partner to get help with technical problems. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then can't resolve the problem, they'll raise a support ticket with Microsoft.  \n\nLearn more at [Help and Support](product-help-and-support.md) and the [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) section.  \n"
   - question: >
@@ -50,7 +50,7 @@ sections:
     answer: "If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features aren't visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. Learn more at [Change Which Features are Displayed](ui-experiences.md).  \n"
   - question: >
       Why is new information not available in my language?
-    answer: "On the docs.microsoft.com site, content about business functionality is published in several languages. The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it's then sent off for translation into the supported languages. This means that you'll not be able to read this new content in your own language for up to four weeks.  \n\nWe understand the problems this can cause, and we encourage users to search for what they're looking for in English if they can't find it in their own language.  \n"
+    answer: "Microsoft Learn content about business functionality is published in several languages. The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it's then sent off for translation into the supported languages. This means that you'll not be able to read this new content in your own language for up to four weeks.  \n\nWe understand the problems this can cause, and we encourage users to search for what they're looking for in English if they can't find it in their own language.  \n"
   - question: What email address can I use with Business Central online?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] online requires that you use a work, or school, email address to sign up. [!INCLUDE[prod_short](includes/prod_short.md)] online doesn't support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  \n\nIf you try to sign up with a personal email address, you'll get a message indicating to use a work or school email address. Learn more at [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md).  \n\nIf you want to deploy [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you can use other authentication methods. Learn more at [Deployment of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  \n"
   - question: >

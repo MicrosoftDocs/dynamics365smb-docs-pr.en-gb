@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9a5ec7fb14adc453eb29c49474109b17d35d177b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f04f49c301b38236be1dda3334e8560584a4e6b4
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076910"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528901"
 ---
 # <a name="make-drop-shipments"></a>Make Drop Shipments
 
@@ -78,7 +78,7 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 4. Choose the **Post** or **Post and Send** action.
 5. Choose either the **Ship** option to invoice later, or the **Ship and Invoice** option to invoice immediately.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 

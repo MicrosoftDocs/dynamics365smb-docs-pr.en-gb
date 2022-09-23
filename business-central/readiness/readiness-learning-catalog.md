@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: f7b0434be1ec49259b400403c0f8dcd7fddfcc47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772461"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530197"
 ---
 # <a name="business-central-learning-catalog"></a>Business Central Learning Catalogue
 
@@ -24,9 +24,9 @@ Find the right online training, in person workshops, and events for your role as
 
     Do you decide whether to invest in new technologies? 
 
-    [Learn the business value of Business Central (Free, self-paced online learning path)](/learn/modules/dynamics-365-business-central/)
+    [Learn the business value of Business Central (Free, self-paced online learning path)](/training/modules/dynamics-365-business-central/)
 
-    [Get started (Free, self-paced online learning path)](/learn/paths/get-started-dynamics-365-business-central/)
+    [Get started (Free, self-paced online learning path)](/training/paths/get-started-dynamics-365-business-central/)
 
     [Explore Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/)
 
@@ -40,9 +40,9 @@ Find the right online training, in person workshops, and events for your role as
 
     Did you just get a new application to use? 
 
-    [Get started (Free, self-paced online learning path)](/learn/paths/get-started-dynamics-365-business-central/)
+    [Get started (Free, self-paced online learning path)](/training/paths/get-started-dynamics-365-business-central/)
 
-    [Business Central learning paths (Free, self-paced online learning paths)](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+    [Business Central learning paths (Free, self-paced online learning paths)](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 
     [Business Central videos on YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 
@@ -58,7 +58,7 @@ Find the right online training, in person workshops, and events for your role as
 
     Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
 
-    [Business Central learning paths (Free, self-paced online learning paths)](/learn/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
+    [Business Central learning paths (Free, self-paced online learning paths)](/training/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
 
     [Developer documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 
@@ -70,7 +70,7 @@ Find the right online training, in person workshops, and events for your role as
     
     Are you an implementation expert for a business domain? 
 
-    [Business Central learning paths (Free, self-paced online learning paths)](/learn/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
+    [Business Central learning paths (Free, self-paced online learning paths)](/training/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
 
     [Business Central videos on YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 

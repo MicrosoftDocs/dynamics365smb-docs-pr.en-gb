@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 19e6d291cf2547ac0a9ad45dce264e1e326dfad6
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c74a14711fc6bd682a4a1675925690b7aabdf8d3
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078239"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530845"
 ---
 # <a name="moving-items"></a>Moving Items
 
@@ -39,7 +39,7 @@ The inventory-related tasks of counting, adjusting, and reclassifying items may 
 |Update the frequency at which bins, such as picking bins, must be replenished as a result of demand fluctuations.|[Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)|
 |Restructure your warehouse with new bin codes and new bin characteristics and potentially move them around.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also"></a>See also 
 

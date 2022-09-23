@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1447627f14d08e1e432d613298f4b29592864d4d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 88f1756c7d0b499fa582bd861a81d1b45a83a46b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078941"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532006"
 ---
 # <a name="set-up-resources-for-projects"></a>Set Up Resources for Projects
 
@@ -80,7 +80,7 @@ In addition to price specified on the resource card, you can set up alternate pr
 3. On the **Resource Prices** page, fill in the fields on a line as necessary.
 4. Repeat step 3 for each alternate resource price that you want to set up.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also"></a>See also 
 

@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: af90fd2361a42c06f8af360119bb391efb184de5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 612dc8ada170ae6925bd3121db324cec1624ce68
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515310"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530143"
 ---
 # <a name="legacy-set-the-layout-used-by-a-report"></a>(Legacy) Set the Layout Used by a Report
 
@@ -62,7 +62,7 @@ The name of the selected custom layout is now shown in the **Custom Layout Descr
 
 You can now go to your customer and vendor cards to specify which of the layouts to use for different documents that you crate for the customer or vendor in question, such as order confirmations or payment reminders. For more information, see [Define Document Layouts for Customers and Suppliers](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  

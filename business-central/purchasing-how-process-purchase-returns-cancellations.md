@@ -10,12 +10,12 @@ ms.search.keywords: cancel, undo, correct
 ms.search.form: 6640, 6643, 9307, 9309, 9308, 6652, 145, 147
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 643a0206bb5c84cb1530e24403094474d98f28f9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ee86f0211c4694a355c4ec55b8c66e202035ae8e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517323"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530575"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Process Purchase Returns or Cancellations
 
@@ -187,7 +187,7 @@ When return shipments are combined on a credit memo and posted, then a posted pu
 2. Fill in the fields as necessary, and then choose the **OK** button.  
 3. Alternatively, delete the individual purchase return orders manually.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
 [Purchasing](purchasing-manage-purchasing.md)  

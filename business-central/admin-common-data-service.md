@@ -7,12 +7,12 @@ ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: 251376700e140043705ce05fcf47f7ebbb0dcd4b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 422466c83d3f86f9afa611f5ef578482eadaf275
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079617"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531763"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integrating with Microsoft Dataverse
 
@@ -31,7 +31,7 @@ The following steps provide an overview of the steps to integrate [!INCLUDE[prod
 
 ## <a name="getting-started-with-prod_short"></a>Getting Started with [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-To get started with [!INCLUDE[prod_short](includes/cds_long_md.md)] you will need a Microsoft Power Apps account. If you do not already have a Power Apps account, you can get one for free by visiting [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) and choosing the **Get started free** link. To learn more about how to get started with [!INCLUDE[prod_short](includes/cds_long_md.md)], see the [Get started with Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/) module from Microsoft Learn.
+To get started with [!INCLUDE[prod_short](includes/cds_long_md.md)] you will need a Microsoft Power Apps account. If you do not already have a Power Apps account, you can get one for free by visiting [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) and choosing the **Get started free** link. To learn more about how to get started with [!INCLUDE[prod_short](includes/cds_long_md.md)], see the [Get started with Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) module from Microsoft training.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Bi-Directional or Uni-directional Data Synchronisation
 
@@ -62,7 +62,7 @@ For details about each role, such as the permissions and access levels, see [Set
 
 During connection setup, integration table mappings that are needed to synchronise data, are created. Entities in [!INCLUDE[prod_short](includes/cds_long_md.md)] are mapped to tables and table fields in Business Central through integration tables. For more information, see [Standard Entity Mapping for Synchronisation](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## <a name="see-also"></a>See also 
 

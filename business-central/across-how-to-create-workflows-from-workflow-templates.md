@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 18a9d4ba7e2865e41d660261a598b1b755c68023
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 988e3ad6185e06bbe82f21005e64ad9bada051a5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129719"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535001"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Create Workflows from Workflow Templates
 
@@ -35,7 +35,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
    The **Workflow** page opens for a new workflow containing all the information of the selected template. The value in the **Code** field is extended with, for example, "-01" to indicate that this is the first workflow that is created from the workflow template.  
 4. Proceed to create the workflow by editing the workflow steps or add new steps. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>See also 
 

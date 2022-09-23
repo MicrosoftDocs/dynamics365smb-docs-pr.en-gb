@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: 887a8f94db8f289769c2fba7a1938d7b7960e400
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c1912cf6c6e755949e8aa32b749145efc8b70783
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079201"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534677"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Set Up Fixed Asset Depreciation
 
@@ -95,7 +95,7 @@ When the Calculate Depreciation batch job calculates depreciations, the batch jo
 
 If you select this field, the Calculate Depreciation batch job uses the calendar year of 365 days instead, where each month is calculated with the same number of days as in the calendar. The only exception is February in leap years, which the batch job will treat as having 28 days and not 29. Because of that, all years, also leap years, are considered to have 365 days.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also"></a>See also 
 

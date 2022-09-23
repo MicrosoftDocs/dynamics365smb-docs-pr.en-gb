@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2021
+ms.date: 09/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 926c614dcb28c7bde4ee8c0a611ac45aa7145fb8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 72df794aa170736507c959ea0e75e4bb52b234d7
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523222"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534380"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data
 
@@ -48,6 +48,8 @@ This article describes how to get started using Power BI Desktop to create repor
 - Download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional).
 
   For more information, see [Use the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](#theme) in this article.
+
+[!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
 ## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop
 
@@ -183,7 +185,7 @@ Starting in February 2022, new reports that use Business Central data will conne
 9. Select **Done**.
 10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See Also
 

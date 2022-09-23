@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: 7f630f8c13f692889f1d8526698d42633c42a4ee
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c55abae59196d896b48a7b656e7fb7c4c7734fa8
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514602"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524549"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>Managing OneDrive Integration with Business Central
 
-This article provides an overview of what an administrator can do to control OneDrive for Business integration with [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online customers benefit from automatic integration, with no additional setup required to use these features. 
+This article provides an overview of what an administrator can do to control OneDrive for Business integration with [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online customers benefit from automatic integration, with no extra setup required to use these features. 
 
-## <a name="minimum-requirements"></a>Minimum Requirements
+## <a name="minimum-requirements"></a>Minimum requirements
 
 * Each user must have a licence for [!INCLUDE[prod_short](includes/prod_short.md)] and OneDrive as part of a Microsoft 365 plan.
 * OneDrive must be set up for each user.
@@ -40,20 +40,20 @@ The SharePoint admin centre provides extensive control over policies that govern
 > [!NOTE]
 > Some features may be available only for specific plans.
 
-## <a name="managing-privacy"></a>Managing Privacy
+## <a name="managing-privacy"></a>Managing privacy
 
 Administrators and end users control the content stored in OneDrive, and this data is owned solely by your organisation. For more information, see [How SharePoint and OneDrive safeguard your data in the cloud](/sharepoint/safeguarding-your-data). You can also visit our [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement), which explains the data that Microsoft processes, how Microsoft processes it, and for what purposes.
 
 ## <a name="restoring-onedrive-and-prod_short"></a>Restoring OneDrive and [!INCLUDE[prod_short](includes/prod_short.md)]
 
-As part of a disaster recovery exercise, administrators might need to restore a [!INCLUDE[prod_short](includes/prod_short.md)] environment to a backup from a time in the past, and synchronise OneDrive storage to that same point in time. OneDrive provides various tools for this, such as restoring a user’s OneDrive to a previous time, restore a previous version of an individual file, or restore deleted files. For more information, see the following articles:
+As part of a disaster recovery exercise, administrators might need to restore a [!INCLUDE[prod_short](includes/prod_short.md)] environment to a backup from a time in the past, and synchronise OneDrive storage to that same point in time. OneDrive provides various tools for this, such as restoring a user's OneDrive to a previous time, restore a previous version of an individual file, or restore deleted files. For more information, see the following articles:
 
 * For [!INCLUDE[prod_short](includes/prod_short.md)], see [Restoring an Environment in the Admin Centre](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
 * For OneDrive, see [Restore your OneDrive](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15?ui=en-us&rs=en-us&ad=us)
 
-## <a name="configuring-business-central-on-premises"></a>Configuring Business Central On-Premises
+## <a name="configuring-business-central-on-premises"></a>Configuring Business Central on-premises
 
-An administrator must set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] on premises and OneDrive. Unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, the connection isn't automatic. If the connection isn't configured, users can't use the features for OneDrive. 
+An administrator must set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] on premises and OneDrive. Unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, the connection isn't automatic. If the connection isn't configured, users can't use the features for OneDrive.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises can only be connected to OneDrive hosted by Microsoft in the cloud. Connecting [!INCLUDE[prod_short](includes/prod_short.md)] on premises to the My Sites repository of SharePoint Server isn't supported.
 
@@ -64,7 +64,7 @@ An administrator must set up the connection between [!INCLUDE[prod_short](includ
 >* Exporting any report to a file will automatically copy the file to OneDrive, then open it in Excel Online, Word Online or OneDrive. 
 >* Other features may also automatically open in OneDrive.
 
-### <a name="to-prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>To prepare [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for connecting to OneDrive
+### <a name="prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>Prepare [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for connecting to OneDrive
 
 <!-- 
 1. For the best experience Configure Azure Active Directory (AD) authentication.
@@ -86,12 +86,12 @@ For Business Central 2021 release wave 2 (version 19), set these permissions ins
 
 You do this work in the Azure portal. Be sure to copy the Application (client) ID and client secret used by the registered application. You'll need this information in the next task.
 
-For more information about registering an application and configuring permissions, see [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) in the developer and IT pro help.
+For more information about account prerequisites, registering an application, and configuring permissions, see [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) in the developer and IT pro help.
 
 > [!TIP]
 > If you've already registered an application as part of an integration with another Microsoft product, such as Power BI, then you can reuse that app registration. In this case, you'll just have to set the SharePoint permissions.
 
-### <a name="to-set-up-the-connection-in-prod_short-on-premises"></a>To set up the connection in [!INCLUDE[prod_short](includes/prod_short.md)] on-premises
+### <a name="set-up-the-connection-in-prod_short-on-premises"></a>Set up the connection in [!INCLUDE[prod_short](includes/prod_short.md)] on-premises
 
 <!--
 > [!NOTE]
@@ -117,8 +117,10 @@ For more information about registering an application and configuring permission
 > [!IMPORTANT]
 > The SharePoint Connection Setup page is used to configure multiple legacy features. The **General** section configures the connection to OneDrive, and the **Shared Documents** section redirects files to SharePoint instead. The legacy SharePoint feature will be deprecated in the near future. We recommend that you do not configure the **Shared Documents** section.
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a>See also 
+
 [Business Central and OneDrive for Business Integration](across-onedrive-overview.md)  
 [Opening Business Central Files in OneDrive](across-share-onedrive.md)  
-[OneDrive FAQ](admin-onedrive-faq.md)
+[OneDrive FAQ](admin-onedrive-faq.md)  
 
+[!INCLUDE[footer-include](includes/footer-banner.md)]

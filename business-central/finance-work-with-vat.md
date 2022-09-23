@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
+ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417526"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530926"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Work with VAT on Sales and Purchases
 If your country or region requires you to calculate and report value-added tax (VAT) on sales and purchase transactions, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate VAT. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).
@@ -193,7 +193,7 @@ To view a group of certificates, you start from the **Certificates of Supply** p
 > * To manually create a certificate of supply certificate  
 > * To print a certificate of supply.
 
-## <a name="see-related-training-at-microsoft-learn"></a>See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See Also
 
