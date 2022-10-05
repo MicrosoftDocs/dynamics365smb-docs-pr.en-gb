@@ -11,12 +11,12 @@ ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dc1601caac73dc7c58862938ddc612a9536e84e9
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: 542514d1f8fc8f0bfa6a0bd3c8cacbaf25cab651
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524513"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585899"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Use a Power Automate Flow for Alerts to Dataverse Entity Changes
 
@@ -54,11 +54,14 @@ Administrators can create an automated flow in Power Automate that notifies your
 Data is synchronised between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE [cds_long_md](includes/cds_long_md.md)] through an integration user account. To ignore the changes made by the synchronisation, create a condition step in your flow that excludes changes made by the integration user account.  
 
 1. Add a **Get a row by ID from Dataverse** step after the flow trigger with the following settings. For more information, see [Get a row by ID from Dataverse](/power-automate/dataverse/get-row-id).
+
     1. In the **Table name** field, choose **Users**
     2. In the **Row ID** field, choose the **Modified By (Value)** from the flow trigger.  
+
 2. Add a condition step with the following **or** settings to identify the integration user account.
     1. The user's **Primary Email Address** contains **contoso.com**
     2. The user's **Full Name** contains **[!INCLUDE[prod_short](includes/prod_short.md)]**.
+
 3. Add a Terminate control to stop the flow if the entity was changed by the integration user account.
 
 The following image shows how to define the flow trigger and the flow condition.
@@ -73,6 +76,7 @@ If the flow isn't stopped by the condition, you must notify [!INCLUDE[prod_short
 2. Choose the **Create record (V3)** action.
 
 :::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Settings for the [!INCLUDE[prod_short](includes/prod_short.md)] Connector":::
+
 3. Use the **assist edit (...)** button in the upper right corner to add the connection to your [!INCLUDE[prod_short](includes/prod_short.md)].
 4. When connected, fill in the **Environment name** and **Company name** fields.
 5. In the **API category** field, enter **microsoft/dataverse/v1.0**.
@@ -87,7 +91,8 @@ The following image shows how your flow should look.
 When you add, delete, or modify an account in your [!INCLUDE [cds_long_md](includes/cds_long_md.md)] environment, this flow will do the following actions:
 
 1. Call the [!INCLUDE[prod_short](includes/prod_short.md)] environment that you specified in the [!INCLUDE[prod_short](includes/prod_short.md)] Connector.
-2. Use the [!INCLUDE[prod_short](includes/prod_short.md)] API to insert a record with the **Entity Name** set to **account** in the **Dataverse Entry Change** table. 3. [!INCLUDE[prod_short](includes/prod_short.md)] will start the job queue entry that synchronises customers with accounts.
+2. Use the [!INCLUDE[prod_short](includes/prod_short.md)] API to insert a record with the **entityName** set to **account** in the **Dataverse Entry Change** table. This parameter is the exact name of the Dataverse entity that you're creating the flow for.
+3. [!INCLUDE[prod_short](includes/prod_short.md)] will start the job queue entry that synchronises customers with accounts.
 
 ## <a name="see-also"></a>See Also
 
