@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 02/06/2022
+ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 44a590997d7c0ddaa342861068b818bf905f9c5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534299"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606394"
 ---
 # <a name="set-up-email"></a>Set Up Email
 People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can connect one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], letting you send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colours, and so on, and add attachments of up to 100 MB. Additionally, report layouts enable administrators to include only the key information from documents. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
@@ -73,7 +73,9 @@ The **Set Up Email** assisted setup guide can help you get started quickly with 
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Assign Email Scenarios to Email Accounts
 Email scenarios are processes that involve sending a document. For example, a sales or purchase order or a notification, such as an invitation to an external accountant. Specific email accounts can be used for specific scenarios. For example, you can specify that all users always send sales documents from one account, purchase documents from another, and warehouse or production documents from a third account. You can assign, reassign, and remove scenarios whenever you want. A scenario can only be assigned to one email account at a time. The default email account will be used for all scenarios that aren't assigned to an account.
- 
+
+On the **Email Scenario Assignment** page, you can choose the **Set Defrault Attachments** action to add attachments to email scenarios. The attachments will always be available when you compose an email for a document related to the scenario. Each email scenario can have one or more default attachments. Default attachments are automatically added to emails for the email scenario. For example, when you send a sales order by email, the default attachment specified for the Sales Order scenario will be added. Default attachments display in the **Attachments** section at the bottom of the **Compose an Email** page. You can manually add non-default attachments to the email.
+
 <!--
 ## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
@@ -101,12 +103,12 @@ On the **User Email View Policies**, choose a user, and then choose one of the f
 >  If you leave the **User ID** field empty and then choose the Email View Policy action, the policy that you define applies to all users.
 
 ## <a name="set-up-reusable-email-texts-and-layouts"></a>Set Up Reusable Email Texts and Layouts
-You can use reports to include key information from sales and purchase documents in texts for emails. This procedure describes how to set up the **Sales - Invoice** report for posted sales invoices, but the process is similar for other reports.
+You can use reports to include key information from sales, purchase, and service documents in texts for emails. This procedure describes how to set up the **Sales - Invoice** report for posted sales invoices, but the process is similar for other reports.
 
 > [!NOTE]
 > To use the layout to create content for email messages, you must use the Word file type for your layout.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Sales**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections - Sales**, and then choose the related link.
 2. On the **Report Selection - Sales** page, in the **Usage** field, select **Invoice**.
 3. On a new line, in the **Report ID** field, select, for example, standard report 1306.
 4. Select the **Use for Email Body** check box.
@@ -128,7 +130,7 @@ Alternatively, you can choose **Current User** to allow people to send messages 
 
 The following are examples of how Send As and Send on Behalf are used in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
- * You might want the purchase or sales orders that you send to vendors and customers to appear to comefrom a _noreply@yourcompanyname.com_ address.
+ * You might want the purchase or sales orders that you send to vendors and customers to appear to come from a _noreply@yourcompanyname.com_ address.
  * When your workflow sends an approval request by email using the email address of the requestor.
 
 > [!Note]

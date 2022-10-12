@@ -10,12 +10,12 @@ ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
 ms.date: 08/08/2022
 ms.author: edupont
-ms.openlocfilehash: 113e562a6d8f5b29df6ff2800cc93a151a1d57e8
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 870fa31361770f5bd773f22ff24a54d65a4b80a3
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532600"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607588"
 ---
 # <a name="request-quotes"></a>Request Quotes
 
@@ -37,7 +37,7 @@ The purchase quote is removed from the database. A purchase order is created bas
 > [!NOTE]
 > It is not possible to convert a purchase quote to a purchase invoice directly, like it is possible with sales quotes. For details on how to create a purchase invoice, read [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md).
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/learn/modules/create-purchase-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-purchase-documents-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>See also 
 

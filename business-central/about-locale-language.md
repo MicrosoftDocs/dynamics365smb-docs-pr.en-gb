@@ -10,12 +10,12 @@ ms.search.keywords: language, locale, localization, culture, region, regional se
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdac371269e523f30712d4cb0be1087e07e70d5e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 23cb50952e1fda9a8dc46398aaf5054e7e03e3ed
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655521"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606837"
 ---
 # <a name="changing-language-and-region"></a>Changing Language and Region
 
@@ -58,14 +58,14 @@ In the **Help and Support** page, you can see the version of [!INCLUDE[prod_shor
 
 ## <a name="languages-of-the-prod_short-help"></a>Languages of the [!INCLUDE[prod_short](includes/prod_short.md)] Help
 
-The Help content for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] publishes to the Microsoft Docs site. The content is available in different languages. If you access the docs from inside [!INCLUDE[prod_short](includes/prod_short.md)], the content will display in your language. By default, if a particular page isn't available in your language yet, it will be shown in English.
+The Help content for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] publishes to Microsoft Learn. The content is available in different languages. If you access the documentation from inside [!INCLUDE[prod_short](includes/prod_short.md)], the content will display in your language. By default, if a particular page isn't available in your language yet, it will be shown in English.
 
-### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>How do I change the language of the Microsoft Docs site?
+### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>How do I change the language of the Microsoft Learn site?
 
 It's simple - scroll to the bottom of the browser page and choose the globe symbol in the bottom left corner.
 
 > [!NOTE]  
-> The list shows all languages that are supported by the Microsoft Docs site. [!INCLUDE[prod_short](includes/prod_short.md)] is available in a limited number of countries/regions, and the [!INCLUDE [prod_short](includes/prod_short.md)] Help content is not available in all languages that the Microsoft Docs site supports.
+> The list shows all languages that are supported by the Microsoft Learn site. [!INCLUDE[prod_short](includes/prod_short.md)] is available in a limited number of countries/regions, and the [!INCLUDE [prod_short](includes/prod_short.md)] Help content is not available in all languages that the Microsoft Learn site supports.
 
 ## <a name="see-also"></a>See Also
 

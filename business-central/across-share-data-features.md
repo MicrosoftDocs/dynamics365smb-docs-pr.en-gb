@@ -5,14 +5,14 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2022
+ms.date: 09/21/2022
 ms.author: jswymer
-ms.openlocfilehash: 8fd3d76ed8affd506ad4cd1838a182e595ecb0bf
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: e54cabd331253a40b160a6cc89b4ab170bd1db89
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528512"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607480"
 ---
 # <a name="sharing-business-data-from-business-central"></a>Sharing Business Data from Business Central
 
@@ -42,7 +42,7 @@ For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-
 
 ![Supported](media/check.png) Business Central Online ![Not Supported](media/x-icon.png) Business Central On-premises
 
-Directly from most collection pages and details pages, you can send a link to the page to people, group chats or channels. For example, share a link to a filtered view of your records. Recipients then select the link to open the page in Business Central.
+Directly from most collection pages and details pages, you can send a link to the page to people, group chats or channels. For example, share a link to a filtered view of your records. If you've installed the [!INCLUDE[prod_short](includes/prod_short.md)] app for Teams, the link will automatically expand into a compact card for you to include with your message. Recipients then select the link or card to open the page in Business Central.
 
 For more information, see [Sharing Records and Page Links in Teams](across-working-with-teams.md).
 

@@ -10,17 +10,18 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dfe8f1aa36f19372363c5e23994328d15f8a5b77
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: c026f7b8374dd78b4c3f06d76d43e3ffac0198b2
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534272"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607080"
 ---
 # <a name="assembly-management"></a>Assembly Management
+
 To support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality, [!INCLUDE[prod_short](includes/prod_short.md)] includes features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.  
 
- An assembly item is defined as a sellable item that contains an assembly BOM. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
+ An assembly item is defined as a sellable item that contains an assembly BOM. For more information, see [Work with Assembly BOMs](assembly-how-work-assembly-boms.md).
 
  Assembly orders are internal orders, just like production orders, that are used to manage the assembly process and to connect the sales requirements with the involved warehouse activities. Assembly orders differ from other order types because they involve both output and consumption when posting. The assembly order header behaves similarly to an output journal line, and the assembly order lines behave similarly to consumption journal lines.  
 
@@ -43,12 +44,12 @@ The following table describes a sequence of tasks, with links to the topics that
 |When you are selling assembly items from inventory and all items are not available, initiate an assembly order to automatically supply a part or all of the sales order quantity.|[Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
 |Make customized assembly items for blanket sales orders before periodically making the actual sales orders according to the blanket order agreement.|[Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)|
 |Undo a posted assembly order, for example because the order was posted with mistakes that must be corrected.|[Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)|
-|Learn about the difference between assembly BOMs and production BOMs and the involved processing differences.|[Work with Bills of Material](inventory-how-work-BOMs.md)|
+|Learn how to work with assembly BOMs and the main differences to production BOMs.|[Work with Assembly BOMs](assembly-how-work-assembly-boms.md)|
 |Learn how assembly consumption and output are handled when you post assembly orders and how the derived item and resource costs are processed and distributed to the general ledger.|[Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)|  
 
 ## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a>See also 
 
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  
@@ -56,9 +57,8 @@ The following table describes a sequence of tasks, with links to the topics that
 [Design Details: Supply Planning](design-details-supply-planning.md)  
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

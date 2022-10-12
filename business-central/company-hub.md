@@ -7,18 +7,20 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 410e3166674354499e76b9bc5483d66c037c4969
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fdc84068220e16ac82d97ec005d69ec3496d902
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132062"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606178"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Manage Work across Multiple Companies in the Company Hub
 
-Some people work in multiple companies in [!INCLUDE [prod_short](includes/prod_short.md)] and some also work in more than one organisation, such as external accountants or employees and managers of corporations with multiple subsidiaries. For these users, and many others, the company hub serves as a landing page for managing work across the various environments that they work in, across companies, environments, and regions.  
+Some people work in multiple companies in [!INCLUDE [prod_short](includes/prod_short.md)] and some also work in more than one organisation, such as external accountants or employees and managers of corporations with multiple subsidiaries. For these users, and many others, the company hub serves as a landing page that gives a financial overview across companies and environments. It provides users with a tool for managing work across the various environments that they work in, across companies, environments, and regions.  
 
 You can access the company hub by switching to the **Company Hub** role in My Settings, or by opening the **Company Hub** page directly. You can do the same work in both places, but actions are placed slightly different in menus.  
+
+[![Shows the company hub page that lists all companies.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
 > [!NOTE]
 > You can connect the company hub to as many companies as you need. However, you can only connect the company hub to companies that are hosted in [!INCLUDE [prod_short](includes/prod_short.md)] online.
@@ -63,9 +65,9 @@ The **My User Tasks** list helps you prioritise your day by showing more informa
 
 You can sort by due date, for example, or any other type of data that helps you prioritise your day. By default, the list shows all tasks that are assigned to you, but you can set up filters to only show tasks that are marked as high priority, for example.  
 
-To pick up a task, simply choose it from the list of pending user tasks. In the ribbon, the link **Go to Task Item** opens the page where you can do the work.  
+To pick up a task, choose it from the list of pending user tasks. In the ribbon, the link **Go to Task Item** opens the page where you can do the work.  
 
-When you have completed a task, simply mark it as completed.  
+When you have completed a task, mark it as completed.  
 
 For more information about companies and environments, see [Environment links](company-hub-add-company.md#environment-links).  
 

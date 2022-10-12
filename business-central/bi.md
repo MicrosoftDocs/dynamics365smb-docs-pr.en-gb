@@ -1,50 +1,52 @@
 ---
-title: Business Intelligence
-description: Business Central contains a number of features that help you gather, analyse, and share valuable company data for business intelligence and decision making.
+title: Financial Business Intelligence
+description: Business Central contains many features to help you gather, analyse, and share valuable company data for business intelligence and decision-making.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 103, 198, 490
-ms.date: 06/14/2021
+ms.search.form: 103, 108, 198, 490
+ms.date: 09/22/2022
 ms.author: edupont
-ms.openlocfilehash: be92e23a1dece6225a0700dc4fb3b718481367cb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5f706773b90d799ad4643b05d04085f0dfa4db7b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523144"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605226"
 ---
-# <a name="business-intelligence"></a>Business Intelligence
-Businesses capture a tremendous amount of data through daily activity. This data, which reflects such things as the organisation's sales figures, purchases, operational expenses, employee salaries, and budgets, can become valuable information, or business intelligence, for decision makers. [!INCLUDE[prod_short](includes/prod_short.md)] contains a number of features that help you gather, analyze, and share your company data.
+# <a name="financial-business-intelligence"></a>Financial Business Intelligence
 
-The Dimensions functionality plays an important role in business intelligence. A dimension is data that you can add to an entry as a kind of marker. This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Among other uses, you use dimensions  when defining analysis views and when creating account schedules for reporting. For more information, see [Work with Dimensions](finance-dimensions.md).
+Businesses capture a tremendous amount of data during daily activities. This data, which reflects such things as the organisation's sales figures, purchases, operational expenses, employee salaries, and budgets, represents valuable information, or business intelligence (BI), for decision makers. [!INCLUDE[prod_short](includes/prod_short.md)] contains many features to help you gather, analyse, and share your company data.
+
+The **Dimensions** functionality plays an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. As such, you can use it to group entries that have similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Among other purposes, you use dimensions when defining analysis views and creating financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
 
 > [!TIP]
-> As a quick way to analyse transactional data by dimensions, you can filter totals in the chart of accounts and entries in all **Entries** pages by dimensions. Look for the **Set Dimension Filter** action.  
+> As a quick way to analyse transactional data, you can filter totals in the chart of accounts and all entries in **Entries** pages by dimensions. Look for the **Set Dimension Filter** action.  
 
-The following table describes a sequence of tasks, with links to the topics that describe them.  
+The following table describes a sequence of tasks, with links to the articles that describe them.  
 
 | To | See |
 | --- | --- |
-|View actual amounts compared to budgeted amounts for all accounts and for several periods.|[Analyse Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)|
-|Create new account schedules to define financial statements for reporting or for display as charts.|[Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)|
-|Analyse your financial performance by setting up KPIs based on account schedules, which you then publish as web services. The published account-schedule KPIs can be viewed on a web site or imported to Microsoft Excel using OData web services.|[Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
-|Set up analysis views to analyse data using dimensions.|[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)|
+|View actual amounts compared to budgeted amounts for all accounts and for several periods.|[Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)|
+|Create new financial reports to define financial statements for reporting or to display as charts.|[Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)|
+|Analyse your financial performance by setting up key performance indicators (KPIs) based on financial reports, which you then publish as web services. The published financial reports KPIs can be viewed on a web site or imported to Microsoft Excel using OData web services.|[Set Up and Publish KPI Web Services Based on Financial Reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
+|Set up views to analyse data using dimensions.|[Analyse Data by Dimensions](bi-how-analyze-data-dimension.md)|
 |Create new analysis reports for sales, purchases, and inventory, and set up analysis templates.|[Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
-|Enable global financial reporting by to international accounting organisations with the eXtensible Business Reporting Language standard.|[Create Reports with XBRL](bi-create-reports-with-xbrl.md)|
-|Change the database access intent on reports, pages of the type API, and queries to reduce load and improve performance.|[Manage Database Access Intent](admin-data-access-intent.md)|
+|Enable global financial reporting to international accounting organisations using the eXtensible Business Reporting Language (XBRL) standard.|[Create Reports with XBRL](bi-create-reports-with-xbrl.md)|
+|Change the database access intent on reports, pages of the API type, and queries to reduce load and improve performance.|[Manage Database Access Intent](admin-data-access-intent.md)|
 
-## <a name="see-also"></a>See Also
-[Finance](finance.md)    
+## <a name="see-also"></a>See also 
+
+[Finance](finance.md)  
 [Use Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Closing Fiscal Periods](year-close-years-periods.md)  
+[Closing Financial Periods](year-close-years-periods.md)  
 [Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Business Intelligence and Reporting Overview](reports-bi-reporting.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

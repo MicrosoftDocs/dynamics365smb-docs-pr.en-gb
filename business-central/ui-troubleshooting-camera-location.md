@@ -1,20 +1,20 @@
 ---
 title: 'Troubleshooting: Accessing Camera and Location'
 description: This article describes how to troubleshoot access to camera and location information in Business Central.
-author: blrobl
-ms.author: t-blrobl
+author: bholtorf
+ms.author: bholtorf
 ms.date: 04/01/2021
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: conceptual
-ms.openlocfilehash: 5c5693b05d8590e569e0fb1b80993e35550c5ed5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d2b967e3541eee99f7e96978e866f79faabaecdd
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518816"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605881"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Troubleshooting: Accessing Camera and Location
 

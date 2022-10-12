@@ -7,38 +7,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 10/01/2021
+ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: addfaaf3e5991e5e0bce4d7e39c47f645cd6a2de
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528586"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606124"
 ---
 # <a name="teams-faq"></a>Teams FAQ
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-This article answers some of the questions you may have about working with Teams and [!INCLUDE [prod_short](includes/prod_short.md)].
+This article answers some of the questions you may have about working with Microsoft Teams and [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="general"></a>[General](#tab/general)
 
 ### <a name="how-do-i-sign-in-to-the-prod_shortmd-app-in-teams"></a>How do I sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app in Teams?
 
-After installing the app, you'll be asked to sign in the first time you use the app, when you paste a [!INCLUDE [prod_short.md](includes/prod_short.md)] link into Teams chat or choose the **Details** action on a card in Teams. Depending on your Teams client, you may have to enter your credentials that you use to access [!INCLUDE [prod_short.md](includes/prod_short.md)].
+After installing the app, you'll be asked to sign in the first time you use it, when you paste a [!INCLUDE [prod_short.md](includes/prod_short.md)] link into Teams chat, or choose the **Details** action on a card in Teams. Depending on your Teams client, you may have to enter the credentials you use to access [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
 ### <a name="how-do-i-sign-out-of-the-prod_shortmd-app-in-teams"></a>How do I sign out of the [!INCLUDE [prod_short.md](includes/prod_short.md)] app in Teams?
 
-To sign out of your current user identity in Teams used to connect to [!INCLUDE [prod_short.md](includes/prod_short.md)], go to any chat compose box, right-click the [!INCLUDE [prod_short.md](includes/prod_short.md)] icon underneath, then choose **Settings**. When the window appears, check your currently signed in identity and then choose **Sign out**.
+To sign out of the identity in Teams you used to connect to [!INCLUDE [prod_short.md](includes/prod_short.md)], go to any chat compose box, right-click the [!INCLUDE [prod_short.md](includes/prod_short.md)] icon underneath, then choose **Settings**. When the window appears, check your currently signed in identity and then choose **Sign out**.
 
-### <a name="does-the-app-for-teams-connect-to-prod_shortmd-on-premises"></a>Does the app for Teams connect to [!INCLUDE [prod_short.md](includes/prod_short.md)] on premises? 
+### <a name="does-the-app-for-teams-connect-to-prod_shortmd-on-premises"></a>Does the app for Teams connect to [!INCLUDE [prod_short.md](includes/prod_short.md)] on-premises? 
 
-No. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams only works with [!INCLUDE [prod_short.md](includes/prod_short.md)] online. There are no plans to support [!INCLUDE [prod_short.md](includes/prod_short.md)] deployment types&mdash;like on-premises, hybrid cloud, or private cloud&mdash;that Microsoft doesn't host or manage directly.
+No. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams only works with [!INCLUDE [prod_short.md](includes/prod_short.md)] online. There are no plans to support [!INCLUDE [prod_short.md](includes/prod_short.md)] deployment types&mdash;such as on-premises, hybrid cloud, or private cloud&mdash;that Microsoft doesn't host or manage directly.
 
 ### <a name="does-the-app-work-with-multiple-companies-and-environments"></a>Does the app work with multiple companies and environments? 
 
-Yes. To search for contacts in a different company, go to [Settings](across-teams-settings.md). When the [!INCLUDE [prod_short.md](includes/prod_short.md)] app expands a link into a card, the link must contain the environment and company names for the app to match the record in the right company. You can paste links to any companies and environments you have access to within your organisation and from the [!INCLUDE [prod_short.md](includes/prod_short.md)] account you used to sign in. Participants in the chat will see the card. But they can't view the card details unless they have permissions to the company or environment where that record is stored.
+Yes. To search for contacts in a different company, go to [Settings](across-teams-settings.md). When the [!INCLUDE [prod_short.md](includes/prod_short.md)] app expands a link into a card, the link must contain the environment and company names for the app to match the record to the right company. You can paste links to any companies and environments you have access to within your organisation and from the [!INCLUDE [prod_short.md](includes/prod_short.md)] account you used to sign in. Participants in the chat will see the card. But they can't view the card details unless they have permissions to the company or environment where that record is stored.
 
 ### <a name="in-which-countries-or-regions-is-the-prod_shortmd-app-available"></a>In which countries or regions is the [!INCLUDE [prod_short.md](includes/prod_short.md)] app available? 
 
@@ -46,20 +46,20 @@ The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams isn't restr
 
 ### <a name="does-the-prod_shortmd-app-work-with-any-localization-of-prod_shortmd"></a>Does the [!INCLUDE [prod_short.md](includes/prod_short.md)] app work with any localisation of [!INCLUDE [prod_short.md](includes/prod_short.md)]? 
 
-Yes. The app is intended to work with any localisation of [!INCLUDE [prod_short.md](includes/prod_short.md)], whether that localisation is offered directly from Microsoft or through a partner. For more information, see [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
+Yes. The app is intended to work with any localisation of [!INCLUDE [prod_short.md](includes/prod_short.md)], whether that localisation is offered directly from Microsoft or through a partner. Learn more at [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 ### <a name="which-languages-does-the-prod_shortmd-app-support"></a><a name="language"></a>Which languages does the [!INCLUDE [prod_short.md](includes/prod_short.md)] app support?
 
 Two things determine the language used for cards and card details in Teams:
 
 1. Your language in Teams, which you can see from your account settings in Teams. 
-2. Your language in [!INCLUDE [prod_short.md](includes/prod_short.md)], which you can see the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client (see [Change Basic Setting - Language](ui-change-basic-settings.md#language)).
+2. Your language in [!INCLUDE [prod_short.md](includes/prod_short.md)], which you can see in the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client (see [Change Basic Setting - Language](ui-change-basic-settings.md#language)).
 
 The following table explains how the experience differs for message authors and recipients, depending on language settings and availability of languages.
 
 |Who|Card|Card details |
 |-|----|--------------| 
-|Message author |Displays in the language that's specified for you in Teams. If [!INCLUDE [prod_short.md](includes/prod_short.md)] doesn't offer that same language, the card is displayed in English. |Displayed in the language that's specified for you in [!INCLUDE [prod_short.md](includes/prod_short.md)].  which may include languages from language apps provided by partners. |
+|Message author |Displays in the language that's specified for you in Teams. If [!INCLUDE [prod_short.md](includes/prod_short.md)] doesn't offer that same language, the card is displayed in English. |Displayed in the language that's specified for you in [!INCLUDE [prod_short.md](includes/prod_short.md)], which may include languages from language apps provided by partners. |
 |Message recipient |Displays in the language of the message author. |Displays in the language that's specified for you in [!INCLUDE [prod_short.md](includes/prod_short.md)]. |
 
 For the list of supported languages for [!INCLUDE [prod_short.md](includes/prod_short.md)], see [Supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
@@ -73,57 +73,57 @@ Yes. But only some features of the app work with [Embed apps](/dynamics365/busin
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Does [!INCLUDE [prod_short.md](includes/prod_short.md)] work with the Teams mobile app?
 
-Yes. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app can be installed from the Teams desktop app or browser, or by an administrator for all users. Once installed, the [!INCLUDE [prod_short.md](includes/prod_short.md)] app is automatically available in Teams for iOS and Android. On mobile devices, you can only view cards sent by others, access details, or pop out the card to the full experience in the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app. You can't paste links that expand into cards when composing messages or search for contacts. For minimum requirements for mobile, see [Minimum Requirements for Using Business Central](product-requirements.md).
+Yes. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app can be installed from the Teams desktop app or browser, or by an administrator for all users. Once installed, the [!INCLUDE [prod_short.md](includes/prod_short.md)] app is automatically available in Teams for iOS and Android. On mobile devices, you can only view cards sent by others, access details, or pop out the card to the full experience in the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app. You can't paste links that expand into cards when composing messages or searching for contacts. Learn more about minimum requirements for mobile at [Minimum Requirements for Using Business Central](product-requirements.md).
 
 ### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Is the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams the same as the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for iOS and Android?
 
-No. The app for Teams is an add-in to Microsoft Teams and exclusively designed for collaborative experiences that light up within Teams. On the other hand, the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app delivers a rich experience for you to work with [!INCLUDE [prod_short.md](includes/prod_short.md)] data on your mobile devices.
+No. The app for Teams is an add-in to Microsoft Teams and exclusively designed for collaboration within Teams. Alternatively, the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app delivers a rich experience for you to work with [!INCLUDE [prod_short.md](includes/prod_short.md)] data on your mobile devices.
 
-Mobile users are encouraged to install both the mobile app and the app for Teams to get the most out of [!INCLUDE [prod_short.md](includes/prod_short.md)]. With both installed, you can choose the **Pop out** action on a card in Teams to open the card details in the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app. For information about installing the [!INCLUDE [prod_short.md](includes/prod_short.md)] and Teams mobile apps, see:
+Mobile users are encouraged to install both the mobile app and the app for Teams to get the most out of [!INCLUDE [prod_short.md](includes/prod_short.md)]. With both installed, you can choose the **Pop out** action on a card in Teams to open the card details in the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app. To learn more about installing the [!INCLUDE [prod_short.md](includes/prod_short.md)] and Teams mobile apps, see:
 
 - [Get Business Central on Your Mobile Device](install-mobile-app.md)
-- [Get the Teams mobile app](https://support.microsoft.com/office/download-the-mobile-app-for-teams-5940ebdc-0082-4fb1-83c4-751edc23dcb5) on Microsoft Support
+- [Get the Teams Mobile App](https://support.microsoft.com/office/download-the-mobile-app-for-teams-5940ebdc-0082-4fb1-83c4-751edc23dcb5) in Microsoft Support
 
 ### <a name="does-the-prod_shortmd-app-work-in-all-teams-clients"></a>Does the [!INCLUDE [prod_short.md](includes/prod_short.md)] app work in all Teams clients?
 
-No. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams isn't supported when installed as a package for macOS or Linux. On these platforms, you can access Teams using a supported browser instead.
+No. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams isn't supported when installed as a package for macOS or Linux. On those platforms, you access Teams using a supported browser instead.
 
 For minimum requirements in [!INCLUDE [prod_short.md](includes/prod_short.md)], see [Minimum Requirements for Using Business Central](product-requirements.md#teams).
 
-For information about the choice of Teams clients and how to install them, see [Get clients for Microsoft Teams](/microsoftteams/get-clients) in the Teams documentation.
+To learn more about the choice of Teams clients and how to install them, see [Get clients for Microsoft Teams](/microsoftteams/get-clients) in the Teams documentation.
 
 ### <a name="which-teams-client-is-best-for-prod_shortmd"></a>Which Teams client is best for [!INCLUDE [prod_short.md](includes/prod_short.md)]?
 
 There are only minor differences and limitations between Teams clients that may affect your experience with the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams. When choosing a Teams client, consider:
 
 - The camera and location can't be accessed from the details window in the Teams desktop app.
-- Phone numbers can't be activated from the details window in Teams for iOS, Teams for Android, or Teams in the browser.
-- Using Microsoft Edge with the Teams in the browser let's you easily work across multiple identities and accounts by signing in to Teams from different profiles. To learn about using profiles in Microsoft Edge, see [Sign in and create multiple profiles in Microsoft Edge](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435) on Microsoft Support.
+- Phone numbers can't be activated from the details window in Teams for iOS, Android, or in the browser.
+- Using Microsoft Edge with Teams in the browser lets you easily work across multiple identities and accounts by signing in to Teams from different profiles. To learn about using profiles in Microsoft Edge, see [Sign in and create multiple profiles in Microsoft Edge](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435) in Microsoft Support.
 
 ### <a name="what-is-the-best-way-for-me-to-demonstrate-prod_shortmd-and-microsoft-teams-to-prospective-customers"></a>What is the best way for me to demonstrate [!INCLUDE [prod_short.md](includes/prod_short.md)] and Microsoft Teams to prospective customers?
 
-If you're a reselling partner, you might want to have an environment that you can show prospects as part of pre-sales demonstrations. To avoid affecting Microsoft Teams in your organisation, you can get a Microsoft 365 demo account at [https://aka.ms/CDX](https://aka.ms/CDX). This account gives you full control of an independent Azure organisation that includes Microsoft Teams and [!INCLUDE [prod_short.md](includes/prod_short.md)]. For more information, see [Preparing Demonstration Environments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
+If you're a reselling partner, you might want to have an environment that you can show prospects as part of pre-sales demonstrations. To avoid affecting Microsoft Teams in your organisation, you can get a Microsoft 365 demo account at [https://aka.ms/CDX](https://aka.ms/CDX). This account gives you full control of an independent Azure organisation that includes Microsoft Teams and [!INCLUDE [prod_short.md](includes/prod_short.md)]. Learn more at [Preparing Demonstration Environments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
 
-### <a name="does-the-prod_shortmd-app-for-teams-cater-for-my-customization-and-personalization"></a>Does the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams cater for my customisation and personalisation?
+### <a name="does-the-prod_shortmd-app-for-teams-cater-to-my-customization-and-personalization"></a>Does the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams cater to my customisation and personalisation?
 
 The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams can display cards for links to customer pages and tables in [!INCLUDE [prod_short.md](includes/prod_short.md)], such as those pages and tables originating from your own custom extensions or from AppSource.
 
-The fields shown on a card in Teams can also be affected by [!INCLUDE [prod_short.md](includes/prod_short.md)] customisations installed for your organisation. Cards don't consider any role-specific customisations or user personalisation. However, the card details window shows record details as you would see them in [!INCLUDE [prod_short.md](includes/prod_short.md)], including any extensions, role customisations, and user personalisation.
+The fields shown on a card in Teams can also be affected by [!INCLUDE [prod_short.md](includes/prod_short.md)] customisations installed for your organisation. Cards don't consider any role-specific customisations or user personalisation. However, the card details window shows record details as you would see them in [!INCLUDE [prod_short.md](includes/prod_short.md)], including extensions, role customisations, and user personalisation.
 
-When you search for contacts, the fields that are matched in the **Contacts** table and fields shown in the search results aren't affected by any customisation or personalisation.
+When you search for contacts, the fields matched in the **Contacts** table and fields shown in the search results aren't affected by any customisation or personalisation.
 
 ### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>How do the permissions required by the app affect my privacy?
 
-Before installing the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, you can review the minimum permissions required for the app to function. By installing the app, you agree that the app has permission to receive messages and data that you provide it, and Teams has permission to store and process those messages.
+Before installing the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, you can review the minimum permissions required for the app to function. By installing the app, you give the app permission to receive the messages and data you provide to it and you give Teams permission to store and process those messages.
 
-Also, some [!INCLUDE [prod_short.md](includes/prod_short.md)] features require opening external links or access to your camera or geographic location. For example, suppose you wanted to capture a photo of a purchase invoice for processing. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app doesn't use these capabilities without your consent and they're only used by specific features in the **Details** window. When you use one of these features for the first time, Teams will display a dialogue box asking you to grant access to the required device capabilities.
+Also, some [!INCLUDE [prod_short.md](includes/prod_short.md)] features require opening external links or access to your camera or geographic location. So suppose you wanted to capture a photo of a purchase invoice for processing. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app doesn't use these capabilities without your consent and they're only used by specific features in the **Details** window. When you use one of these features for the first time, Teams displays a dialogue box asking you to grant access to the required device capabilities.
 
 - In Teams desktop, you review and adjust app permissions from the **Settings** window. Select your profile picture at the top of the app, select **Settings** > **Permissions**, then select the [!INCLUDE [prod_short.md](includes/prod_short.md)] app.
 
 - For Teams in the browser and Teams for iOS or Android, you can review or adjust permissions from your browser or device settings.
 
 > [!NOTE]
-> Exactly which [!INCLUDE [prod_short.md](includes/prod_short.md)] features prompt you for permissions depends on the add-on apps and customisations applied to the [!INCLUDE [prod_short.md](includes/prod_short.md)] environment that you connect to.
+> Exactly which [!INCLUDE [prod_short.md](includes/prod_short.md)] features prompt you for permissions depends on the add-on apps and customisations applied to the [!INCLUDE [prod_short.md](includes/prod_short.md)] environment you connect to.
 
 ### <a name="where-can-i-learn-about-my-privacy"></a>Where can I learn about my privacy? 
 
@@ -137,13 +137,13 @@ To remove the app that you installed for yourself, go to any chat compose box, f
 
 ### <a name="will-microsoft-continue-to-improve-the-prod_shortmd-app-for-teams"></a>Will Microsoft continue to improve the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams?
 
-At Microsoft, we're constantly listening to feedback from our diverse user community and acting upon the top suggestions. To learn about what is next for the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, see the [Dynamics 365 release plan](/dynamics365-release-plan/2021wave1/).
+At Microsoft, we're constantly listening to feedback from our diverse user community and acting upon the top suggestions. To learn about what's next for the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, see the [Dynamics 365 release plan](/dynamics365-release-plan/2021wave1/).
 
 If you want to participate in improving the app for Teams, or have an idea that would help simplify your work or collaborative experiences in Teams, add an idea or vote for existing ideas at [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
-### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Where can I find Teams integration inside the Business Central Web client? 
+### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Where can I find Teams integration inside the Business Central web client? 
 
-For functionality in the web client that links to Teams, see the [Share Records and Page Links in Microsoft Teams](across-working-with-teams.md#share-link).
+To learn about the functionality in the web client that links to Teams, see [Share Records and Page Links in Microsoft Teams](across-working-with-teams.md#share-link).
 
 ## <a name="search-for-contacts"></a>[Search for Contacts](#tab/contacts)
 
@@ -153,10 +153,9 @@ When searching for contacts from the [!INCLUDE [prod_short.md](includes/prod_sho
 
 ### <a name="which-fields-in-the-contacts-table-can-i-search"></a>Which fields in the contacts table can I search?
 
-As you type your search terms in the search box, the terms are matched against most fields in the **Contacts** table. The fields include, for example, the **No.**, **Name**, **Address** fields, **Phone No.** or **Mobile Phone No.**, and **Email**. 
+As you type your search terms in the search box, the terms are matched against most fields in the **Contacts** table. The fields include, for example, the **No.**, **Name**, **Address**, **Phone No.** or **Mobile Phone No.**, and **Email** fields. 
 
 Search terms aren't matched against any custom fields added to the **Contacts** table by apps and extensions.
-
 ### <a name="do-search-results-include-companies-and-persons"></a>Do search results include companies and persons?
 
 Yes. In [!INCLUDE [prod_short.md](includes/prod_short.md)], contacts can be of type **Company** or type **Person**, where one or more persons may be associated with a company. In the search results, companies and persons have different icons.
@@ -233,7 +232,7 @@ After you sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app 
 
 The app may also ask you to visit the **Settings** if you don't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] subscription, there are no [!INCLUDE [prod_short.md](includes/prod_short.md)] environments, or your account doesn't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] licence.
 
-### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>I’d like to search for items or records from other tables. Can I do this from Teams?
+### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>I'd like to search for items or records from other tables. Can I do this from Teams?
 
 Searching in other tables isn't possible at this time. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams searches only in the [!INCLUDE [prod_short.md](includes/prod_short.md)] contacts list, which may include vendors, customers, and other contacts.
 
@@ -264,13 +263,13 @@ Deleting a message that contains a card doesn't delete or affect any data in [!I
 
 No. The field values on a card in Teams, including any images, are based on the data available when that card was sent to the chat. [!INCLUDE [prod_short.md](includes/prod_short.md)] cards don't automatically refresh in Teams. 
 
-### <a name="will-others-see-my-card-if-they-dont-have-the-prod_shortmd-app-for-teams"></a>Will others see my card if they don’t have the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams? 
+### <a name="will-others-see-my-card-if-they-dont-have-the-prod_shortmd-app-for-teams"></a>Will others see my card if they don't have the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams? 
 
 When you compose and send a message to chat that includes a card, all users will see the card&mdash;even if they haven't installed the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams.
 
 ### <a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a>How do I find out which company a card in Teams belongs to?
 
-If you work across [!INCLUDE [prod_short.md](includes/prod_short.md)] companies, talk to your administrator about enabling a company badge for each company. When enabled, this eye-catching hint appears in any details window inside Teams, and displays the company and environment that record belongs to. To learn how to set up company badge, see [To display a company badge for quick access to company information](ui-change-basic-settings.md#badge).
+If you work across [!INCLUDE [prod_short.md](includes/prod_short.md)] companies, talk to your administrator about enabling a company badge for each company. When enabled, this eye-catching hint appears in any details window inside Teams, and displays the company and environment that record belongs to. To learn how to set up company badge, see [Display a company badge](admin-company-information.md#badge).
 
 ## <a name="work-with-card-details"></a>[Work with card details](#tab/carddetails)
 
@@ -300,7 +299,7 @@ Yes. Any [!INCLUDE [prod_short.md](includes/prod_short.md)] features in the deta
 
 ### <a name="can-i-access-my-location-from-the-details-window-in-teams"></a><a name="location"></a>Can I access my location from the details window in Teams?
 
-If you’re using functionality in [!INCLUDE [prod_short.md](includes/prod_short.md)] that accesses your current location coordinates, such as with maps, you must use Teams in the browser or the Teams mobile app. Location isn't available when using the Teams desktop app.
+If you're using functionality in [!INCLUDE [prod_short.md](includes/prod_short.md)] that accesses your current location coordinates, such as with maps, you must use Teams in the browser or the Teams mobile app. Location isn't available when using the Teams desktop app.
 
 ### <a name="how-do-i-open-the-details-in-a-new-window"></a>How do I open the details in a new window?
 
@@ -320,13 +319,13 @@ To learn about other similarities and differences between guests and team member
 
 ### <a name="how-does-a-guest-user-install-the-prod_shortmd-app"></a>How does a guest user install the [!INCLUDE [prod_short.md](includes/prod_short.md)] app? 
 
-Guests don't have access to the app marketplace to install apps themselves. However, the app can be automatically installed for them based on your organisation’s policies. Another way for a guest user to install the [!INCLUDE [prod_short.md](includes/prod_short.md)] app is when they receive a chat message that includes a [!INCLUDE [prod_short.md](includes/prod_short.md)] card. In this case, the user chooses the **Details** button or the menu on the card, then installs the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for use with your organisation. After installing the app, a user doesn't automatically receive any permissions to access data from your [!INCLUDE [prod_short.md](includes/prod_short.md)].
+Guests don't have access to the app marketplace to install apps themselves. However, the app can be automatically installed for them based on your organisation's policies. Another way for a guest user to install the [!INCLUDE [prod_short.md](includes/prod_short.md)] app is when they receive a chat message that includes a [!INCLUDE [prod_short.md](includes/prod_short.md)] card. In this case, the user chooses the **Details** button or the menu on the card, then installs the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for use with your organisation. After installing the app, a user doesn't automatically receive any permissions to access data from your [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
 ## <a name="share-to-teams"></a>[Share to Teams](#tab/share)
 
 ### <a name="does-share-to-teams-send-a-compact-card"></a>Does Share to Teams send a compact card? 
 
-At this time, only a deep link to the page is shared. Recipients will see a hyperlink in your message, which they can select to take them to [!INCLUDE [prod_short.md](includes/prod_short.md)] in a separate browser window. 
+Yes. The link will automatically expand into a card if you have the Business Central app for Teams installed. 
 
 ### <a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a>Will recipients receive the message from me or from a Business Central service account? 
 
@@ -334,7 +333,7 @@ When you use Share to Teams, the message is sent to a person, group, or channel,
 
 ### <a name="is-share-to-teams-available-in-business-central-on-premises"></a>Is Share to Teams available in Business Central on premises? 
 
-No. Similar to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, this feature is only available for the web client in [!INCLUDE [prod_short.md](includes/prod_short.md)] online. There are no plans to support [!INCLUDE [prod_short.md](includes/prod_short.md)] deployment types&mdash;like on-premises, hybrid cloud, or private cloud&mdash;that Microsoft doesn’t host or manage directly.
+No. Similar to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, this feature is only available for the web client in [!INCLUDE [prod_short.md](includes/prod_short.md)] online. There are no plans to support [!INCLUDE [prod_short.md](includes/prod_short.md)] deployment types&mdash;like on-premises, hybrid cloud, or private cloud&mdash;that Microsoft doesn't host or manage directly.
 
 ### <a name="does-share-to-teams-grant-permissions-to-recipients"></a>Does Share to Teams grant permissions to recipients? 
 
