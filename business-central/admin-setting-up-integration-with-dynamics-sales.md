@@ -9,23 +9,38 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5e485827ed5fb5fcef9a807650993734099377de
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382292"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607345"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Setting Up User Accounts for Integrating with Microsoft Dataverse
 
+This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[prod_short](includes/cds_long_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].
 
-This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[prod_short](includes/cds_long_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].  
+## <a name="set-up-the-administrator-user-account"></a>Set up the administrator user account
 
-## <a name="setting-up-the-administrator-user-account"></a>Setting Up the Administrator User Account
-You must add your administrator user account for [!INCLUDE[prod_short](includes/prod_short.md)] as a user in [!INCLUDE[prod_short](includes/cds_long_md.md)]. When you set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)] we will use this account one time to install and configure some required components. 
+You must add your administrator user account for [!INCLUDE[prod_short](includes/prod_short.md)] as a user in [!INCLUDE[cds_long](includes/cds_long_md.md)]. When you set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)] we'll use this account once to install and configure some required components.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Permissions and Security Roles for User Accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]
-When you install the CDS Base Integration Solution, permissions for the integration user account are configured. If those permissions are changed manually you can reset them. You can do that by reinstalling the CDS Base Integration Solution by choosing **Redeploy Integration Solution** on the **Common Data Service Connection Setup** page. The Business Central CDS Integration security role is deployed.
+> [!IMPORTANT]
+> The administrator user account needs to be a licensed user with the **System Administrator** security role on the [!INCLUDE[prod_short](includes/cds_long_md.md)] environment and global admin on the tenant to which the environment belongs. This account doesn't need a licence to [!INCLUDE[prod_short](includes/prod_short.md)], as it will be used only to provision the service in the [!INCLUDE[prod_short](includes/cds_long_md.md)] tenant and to do setup tasks.
+>
+> After the connection setup is done, this [!INCLUDE[prod_short](includes/cds_long_md.md)] user can be removed. The integration will continue using the user account that is automatically created specifically for the integration.
+
+## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Permissions and security roles for user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]
+
+The Base Integration Solution creates the following roles in [!INCLUDE[cds_long](includes/cds_long_md.md)] for the integration:
+
+* **Integration Administrator**: Allows users to manage the connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long](includes/cds_long_md.md)]. Typically, this is assigned only to the automatically created user account for synchronisation.
+* **Integration User**: Allows users to access synchronised data. Typically, this is assigned to the automatically created user account for synchronisation and other users who need to view or access the synchronised data.
+
+> [!NOTE]
+>
+> The **Integration Administrator** and **Integration User** roles should only be used by the application user that runs the integration. The application user does not need the [!INCLUDE[prod_short](includes/prod_short.md)] or [!INCLUDE[cds_long](includes/cds_long_md.md)] licence assigned.
+
+When you install the Base Integration Solution, it configures the permissions for the integration user account. If those permissions are changed manually, you can reset them. Choose **Redeploy Integration Solution** on the **Dataverse Connection Setup** page to reinstall the Base Integration Solution. This step will deploy the  Business Central Integration security role.
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -120,9 +135,9 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>See Also  
+## <a name="see-also"></a>See also 
+
 [Integrating with Microsoft Dataverse](admin-common-data-service.md)  
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

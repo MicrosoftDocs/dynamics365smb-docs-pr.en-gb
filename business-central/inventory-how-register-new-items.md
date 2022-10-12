@@ -1,6 +1,6 @@
 ---
 title: Create Item Cards for Goods or Services (contains video)
-description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, that you sell from your inventory.
+description: You create item cards for services that you sell as hours and for physical products. Examples include assembly items and finished goods that you sell from your inventory.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 09/24/2021
+ms.date: 09/26/2022
 ms.author: edupont
-ms.openlocfilehash: 7af83072b6b20ba9b56c06c0fb7321707a425776
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 945197681e32f6d77ede2f1b0e727892a64d8277
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532924"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604956"
 ---
 # <a name="register-new-items"></a>Register New Items
 
@@ -23,19 +23,20 @@ Items, among other products, are the basis of your business, the goods or servic
 
 Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
 
-The item card can be of type **Inventory**, **Service**, or **Non-Inventory** to specify if the item is a physical inventory unit, a labour time unit, or a physical unit that is not tracked in inventory. For more information, see [About Item Types](inventory-about-item-types.md).
+The item card can be of type **Inventory**, **Service**, or **Non-Inventory** to specify if the item is a physical inventory unit, a labour time unit, or a physical unit that isn't tracked in inventory. For more information, see [About Item Types](inventory-about-item-types.md).
 
-An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[prod_short](includes/prod_short.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
+An item can be structured as a parent item with underlying child items in a bill of materials (BOM). Learn more about assembly BOMs and production BOMs at [Work with Bills of Material](inventory-how-work-BOMs.md).
 
 If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The vendors will then appear on the **Item Supplier Catalogue** page, so that you can easily select an alternate vendor.
 
-Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalogue items. Catalogue items are not to be mistaken with regular items of type **Non-Inventory**. For more information, see [Work with Catalogue Items](inventory-how-work-nonstock-items.md).  
+*Catalogue items* are items that you offer to your customers but you don't want to manage them in your system until you start selling them. Catalogue items aren't regular items of type **Non-Inventory**. Learn more at [Work with Catalogue Items](inventory-how-work-nonstock-items.md).  
 
 > [!NOTE]  
 > If item templates exist for different item types, then a page appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
 
 The following procedure explains how to create an item card from scratch. You can also create new item cards by copying existing ones. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).  
 
+<br />
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>To create a new item card
@@ -59,13 +60,13 @@ If you want to use this item card as a template when you create new item cards, 
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To reuse dimensions in templates, choose the **Dimensions** action. The **Dimension Templates** page opens showing any dimension codes that are set up for the item.
 4. Edit or enter dimension codes that will apply to new item cards created by using the template.
-5. When you have completed the new item template, choose the **OK** button.
+5. When you've completed the new item template, choose the **OK** button.
 
 The item template is added to the list of item templates, so that you can use it to create new item cards.
 
 ### <a name="items-used-in-production-orders"></a>Items used in production orders
 
-If you want to register items that are then used in production orders, you specify the replenishment system as *Prod. order* on the **Replenishment** FastTab. For more information, see [About Production Orders](production-about-production-orders.md).  
+If you want to register items that are used in production orders, you specify the replenishment system as *Prod. order* on the **Replenishment** FastTab. For more information, see [About Production Orders](production-about-production-orders.md).  
 
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>To set up multiple vendors for an item
 
@@ -82,17 +83,17 @@ The vendors will now appear on the **Item Supplier Catalogue** page, which you o
 
 ## <a name="set-up-item-substitutions"></a>Set up item substitutions
 
-You can set up items to have substitutes, such as other items that can be used in place of the original item.
+You can set up items to have replacements, such as other items that can be used in place of the original item.
 
 ### <a name="to-make-an-item-substitution"></a>To make an item substitution
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
-2. Find the relevant item, and then click on the **Item No.** to open the Item Card.  
-3. Choose the **Related** action, then choose **Item**, and then **Substitutions** to open the the Item Substitution Entry page.  
+2. Find the relevant item, and then choose the **Item No.** to open the Item Card.  
+3. Choose the **Related** action, then choose **Item**, and then **Substitutions** to open the **Item Substitution Entry** page.  
 4. Choose the **Substitute No.** field, and then select the replacement item from the list.
-5. Proceed to fill in or change other fields on the page as necessary.
+5. Fill in or change other fields on the page as necessary.
 
-When the quantity requested, such as on a sales line, exceeds the quantity that is available in inventory, then a message appears to inform you that substitute items exist.
+When the requested quantity exceeds the quantity that is available in inventory, then a message appears to inform you that substitute items exist.
 
 > [!NOTE]  
 > Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
@@ -101,15 +102,17 @@ When the quantity requested, such as on a sales line, exceeds the quantity that 
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
+Learn more about variants at [Manage Product Variants](inventory-item-variants.md).  
+
 ## <a name="deleting-item-cards"></a>Deleting item cards
 
-If you have posted a transaction for an item, you cannot delete the card because the ledger entries may be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
+If you've posted a transaction for an item, you can't delete the card because the ledger entries may be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
 
 ## <a name="manage-inventory-in-warehouses"></a>Manage inventory in warehouses
 
-When you register a new item, you will see fields that are related to warehouse management, especially on the **Warehouse** FastTab. If your organisation does not use the warehouse management capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], then you can ignore those fields.  
+When you register a new item, you'll see fields that are related to warehouse management, especially on the **Warehouse** FastTab. If your organisation doesn't use the warehouse management capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], then you can ignore those fields.  
 
-If your organisation later sets up warehouse management, in most cases, you must then go back to each existing item to make sure that it has the right information in the various fields, so that the warehouse processes can run as expected. This information can includes fields such as **Warehouse Class Code** or **Put-away Template Code**. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
+If your organisation later sets up warehouse management, we recommend that you make sure that each existing item has the right information in the various fields. This way, the warehouse processes can run as expected. The information can includes fields such as **Warehouse Class Code** or **Put-away Template Code**. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
 
 ## <a name="planning"></a>Planning
 
@@ -123,7 +126,8 @@ For examples of how you can use the fields on the **Planning** FastTab, see [Set
 
 [Inventory](inventory-manage-inventory.md)  
 [Set Up Units of Measurement](inventory-how-setup-units-of-measure.md)  
-[Commodity codes](finance-how-setup-report-intrastat.md#tariff-numbers)  
+[Manage Product Variants](inventory-item-variants.md)  
+[Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Reconcile Stock Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Setting Up Posting Groups](finance-posting-groups.md)  

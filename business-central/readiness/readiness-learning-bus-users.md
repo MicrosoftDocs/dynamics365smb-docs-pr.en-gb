@@ -1,16 +1,16 @@
 ---
-title: Business users learning catalogue
+title: Business Users Learning Catalogue
 description: Find all the available learning for Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 21c87640e09966a705b59905da9d126b5c8b604e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5b977ba37c4bd827fd44e6cd897010eaadd64ec1
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528768"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607804"
 ---
 # <a name="business-users-learning-catalog"></a>Business Users Learning Catalogue
 
@@ -18,7 +18,7 @@ Did you just get a new application to use?
 
 The following catalogue is organised from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.  
 
-## <a name="getting-started"></a>Getting started<a name="get-started"></a>
+## <a name="getting-started"></a>Getting started
 
 | Content                                                                                                                               | Description                                                                                                                                                                                                                                                                                      | Format                                | Length             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -26,7 +26,7 @@ The following catalogue is organised from core knowledge to specific domains, an
 | [Work with the Microsoft Dynamics 365 Business Central user interface](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Do you want to learn about the Business Central user interface? This learning path shows you the user interface, and also how you can personalise it. It also discusses alternate interfaces such as a smartphone.                                                                               | Free, self-paced online learning path | 2 hours 27 minutes |
 | [Work like a pro with data in Business Central](/training/paths/work-pro-data-dynamics-365-business-central)                                    | Are you just getting started with Business Central? This learning path will help prepare you for the types of data in Business Central and how to find information you need in the application.                                                                                                  | Free, self-paced online learning path | 2 hours 27 minutes |
 
-## <a name="financials"></a>Financials<a name="financials"></a>
+## <a name="financials"></a>Financials
 | Content                                                                                                                                                         | Description                                                                                                                                                                                                                                                                                            | Format                                | Length             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
 | [Set up financial management in Microsoft Dynamics 365 Business Central](/training/paths/set-up-financial-management-dynamics-365-business-central/)                     | Do you want to use Business Central for financial management? Then, this learning path is for you. It discusses the setup of number series, audit trail codes, posting groups, dimensions and the chart of accounts.                                                                                   | Free, self-paced online learning path | 3 hours 13 minutes |

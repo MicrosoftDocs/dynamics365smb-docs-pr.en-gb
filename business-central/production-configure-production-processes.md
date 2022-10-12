@@ -9,24 +9,22 @@ ms.workload: na
 ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 45fec99ad6082f8d0bb7258415477df833712b41
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0ae567c2ac44c1b8b272b7a7f2ed1e9ba4826b60
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523326"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605773"
 ---
 # <a name="setting-up-manufacturing"></a>Setting Up Manufacturing
 
 To convert material into produced end items, production resources, such as bills of material, routings, machine operators, and machinery must be set up in the system.
 
-Operators and machines are represented in the system as machine centres that may be organised in work centres and work centre groups. When these resources are established, they can be loaded with operations according to the item's defined material (BOM) and process (routing) structure, and according to the capacity of the machine or work centre. You can also set the production capacity of each resource. Capacity is defined by the work time available in the machine and work centres, and is governed by calendars for each level. A work centre calendar specifies the working days or hours, shifts, holidays, and absence that determine the work centre’s gross available capacity (typically measured in minutes). All of this is determined by defined efficiency and capacity values.  
+Operators and machines are represented in the system as machine centres that may be organised in work centres and work centre groups. When these resources are established, they can be loaded with operations according to the item's defined material (BOM) and process (routing) structure, and according to the capacity of the machine or work centre. You can also set the production capacity of each resource. Capacity is defined by the work time available in the machine and work centres, and is governed by calendars for each level. A work centre calendar specifies the working days or hours, shifts, holidays, and absence that determine the work centre's gross available capacity (typically measured in minutes). All of this is determined by defined efficiency and capacity values.  
 
 When you have set up manufacturing, you can plan and execute production orders. For more information, see [Planning](production-planning.md) and [Manufacturing](production-manage-manufacturing.md).  
 
-
-
- The following table describes a sequence of tasks, with links to the topics that describe them.   
+The following table describes a sequence of tasks, with links to the topics that describe them.
 
 |**To**|**See**|  
 |------------|-------------|  
@@ -41,12 +39,12 @@ When you have set up manufacturing, you can plan and execute production orders. 
 |Use standard tasks to simplify the creation of routings by quickly attaching extra information to recurring operations.|[Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)|  
 |Prepare work centres and routings to represent subcontracted production operations.|[Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>See Also
-[Manufacturing](production-manage-manufacturing.md)
-[Planning](production-planning.md)   
+## <a name="see-also"></a>See also 
+
+[Manufacturing](production-manage-manufacturing.md)  
+[Planning](production-planning.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

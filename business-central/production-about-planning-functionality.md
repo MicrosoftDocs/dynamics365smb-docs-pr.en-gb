@@ -1,26 +1,26 @@
 ---
 title: About Planning Functionality
-description: The planning system in Dynamics 365 Business Central takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.
-author: SorenGP
+description: Planning takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5430
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: 029666cdfd0ad75d62eb21f6e719295c67d88ed1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 08/30/2022
+ms.author: bholtorf
+ms.openlocfilehash: df67568094e76dccbc62b9dbf6d78dc9c0e58caf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535431"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606972"
 ---
 # <a name="about-planning-functionality"></a>About Planning Functionality
 
 The planning system takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.  
 
-For detailed information, see [Design Details: Supply Planning](design-details-supply-planning.md).  
+For more information, see [Design Details: Supply Planning](design-details-supply-planning.md).  
 
 > [!NOTE]  
 > For all the fields that are mentioned in this topic, read the tooltip to understand their function. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ For detailed information, see [Design Details: Supply Planning](design-details-s
 Planning has two elements: demand and supply. These must be held in balance to ensure that the demand is met in a timely and cost-efficient manner.  
 
 - Demand is the common term used for any kind of gross requirement such as a sales order, service order, component need from assembly or production orders, outbound transfer, blanket order or forecast. In addition to these, application allows some other technical types of demand - such as a negative production or purchase order, negative inventory, and purchase return.  
-- Supply is the common word used for any kind of replenishment such as inventory, a purchase order, assembly order, production order, or inbound transfer. Correspondingly, there can be a negative sales or service order, negative component need or sales return – all of which in some way also represent supply.  
+- Supply refers to any kind of replenishment such as inventory, a purchase order, assembly order, production order, or inbound transfer. Correspondingly, there can be a negative sales or service order, negative component need or sales return that also represent supply.  
 
 Another goal of the planning system is to ensure that the inventory does not grow unnecessarily. In the case of decreasing demand, the planning system will suggest that you postpone, decrease in quantity, or cancel existing replenishment orders.  
 
@@ -158,9 +158,12 @@ The **Requisition Worksheet** page lists items that you want to order. You can e
 
 - You can use the **Special Order** action to fill in the requisition worksheet lines. This action uses the **Get Sales Orders** batch job to determine the sales order lines that you want to designate for a special order.
 
-Requisition worksheet lines contain detailed information about the items that need to be reordered. You can edit and delete the lines to adjust your replenishment plan, and you can further process the lines by using the **Carry Out Action Message** batch job.
+Requisition worksheet lines contain detailed information about the items that need to be reordered. You can edit and delete the lines to adjust your replenishment plan, and you can further process the lines by using the **Carry Out Action Message** batch job. 
 
 For details about planning with locations and transfers, see [Planning With or Without Locations](production-planning-with-without-locations.md).
+
+> [!TIP]
+> When you're working on the **Requisition Worksheet** or **Planning Worksheet** pages, you can organise the lines by sorting on a column name. This is especially useful on the Planning Worksheet page because they it can be used for multilevel production orders. By default, lines are sorted by the **Item No.** field. To group lines for a multilevel order, sort by the **Ref. Order No.** field. Also, the **MPS Order** and **Planning Level** fields can help show the hierarchy of the lines.
 
 ## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/plan-items-dynamics-365-business-central/)
 

@@ -10,12 +10,12 @@ ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 72a88c90de9407bfe71486022085623b8e426087
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 93c504b139003c4d2385e4c906390302784ed1c5
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530224"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607237"
 ---
 # <a name="categorize-items"></a>Categorise Items
 
@@ -55,6 +55,7 @@ If you change your mind about an item category, you can delete it. However, if i
 ## <a name="see-also"></a>See also 
 
 [Work with Item Attributes](inventory-how-work-item-attributes.md)  
+[Manage Product Variants](inventory-item-variants.md)  
 [Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

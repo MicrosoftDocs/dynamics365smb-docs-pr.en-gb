@@ -10,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2d09a05f29f4eaa5f977580509f425073d189262
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf0ea7f023eed4dced53477d72ff844d4da04e37
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532735"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617856"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Report VAT to Tax Authorities
 
@@ -30,7 +30,7 @@ You can use the following built-in reports:
 
     The VAT Return report includes VAT for sales and purchases to customers and from vendors in all countries that use VAT.  
 
-In both cases, VAT is calculated based on the VAT posting setup and the VAT posting groups that you have set up.
+In both cases, VAT is calculated based on the VAT posting setup and the VAT posting groups that you have set up. [!INCLUDE[prod_short](includes/prod_short.md)] shows VAT entries based on their **VAT Date**.
 
 If you want to view a complete history of VAT entries, every posting that involves VAT creates an entry on the **VAT Entries** page. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view VAT entries, choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Entries**, and then choose the related link.
 

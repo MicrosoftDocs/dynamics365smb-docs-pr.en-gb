@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 06/08/2022
+ms.date: 08/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 05ff8b9acb0c69f42c8ad36ab8a588c9b597424a
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 34fc581e0140826e957b50b649d3b72573403552
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950443"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607696"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimum Requirements for Using Business Central
 
@@ -41,9 +41,6 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 
 **Outlook applications:** To use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook, you'll need Outlook 2019 or later, Outlook on the web, Outlook for iOS, or Outlook for Android. Your organisation must also use Microsoft 365. You can't use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook if your organisation uses Exchange Server on-premises. 
 
-> [!IMPORTANT]
-> Starting with Business Central 2021 release wave 2, you will no longer be able to sign in to the Business Central add-in from Outlook versions earlier than 2012.
-  
 **Browsers:** When using [!INCLUDE[prod_short](includes/prod_short.md)] as your business inbox in Outlook in a browser, the add-in requires that your computer is running one of the listed supported browsers that are listed earlier in this article.
 
 **Platforms:** When using the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook Add-In in Outlook for iOS or Outlook for Android, the add-in requires that your mobile device is running one of the listed supported mobile devices for [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -61,9 +58,6 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 ## <a name="excel"></a>Excel
 
 **Edit in Excel:** To use the Excel add-in to make changes in Excel and push the changes back into [!INCLUDE[prod_short](includes/prod_short.md)], you need Excel 2019 or later. For more information, see [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
-
-> [!IMPORTANT]
-> Starting with Business Central 2021 release wave 2, the Excel add-in feature will only support Excel version 2012 or later.
 
 ## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Using the Business Central Administration Centre
 

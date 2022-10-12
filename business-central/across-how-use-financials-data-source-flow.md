@@ -10,12 +10,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate,
 ms.search.form: 1500,
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 369ee2b4aded272a8a3a21fe810b4b6c62dd1de0
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: 5fe089c0330a8d2b7a71f4907212665722d27d38
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585467"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606529"
 ---
 # <a name="use-power-automate-flows-in-prod_short"></a>Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -43,9 +43,7 @@ With Power Automate, you can create business flows directly in-house and rely on
 
 ## <a name="instant-flows"></a>Instant flows
 
-Starting in the 2022 release wave 1 (May 2022), [!INCLUDE [prod_short](includes/prod_short.md)] online admins can [switch on a feature](admin-feature-management.md) to make it possible to run a Power Automate flow from most list, card, and document pages. Learn more in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
-
-Once the admin has connected [!INCLUDE [prod_short](includes/prod_short.md)] with Power Automate, you'll see any flows your organisation has added when you choose the **Automate** action on the relevant pages. Instant flows are run without leaving [!INCLUDE [prod_short](includes/prod_short.md)].
+[!INCLUDE [prod_short](includes/prod_short.md)] can run a Power Automate flow from most list, card, and document pages. Once the admin has connected [!INCLUDE [prod_short](includes/prod_short.md)] with Power Automate, you'll see any flows your organisation has added when you choose the **Automate** action on the relevant pages. Instant flows are run without leaving [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
 
 These instant workflows open on a page inside [!INCLUDE [prod_short](includes/prod_short.md)] online so you can remain within the context of the business process you were in the middle of. Choose the **Automate** action—on some pages nested under the **More Options** menu—choose the **Power Automate** menu item, then choose the relevant link to trigger the workflow. The connection to Power Automate is already set up for you.
 
@@ -62,7 +60,7 @@ You can find sample templates to adapt to your company and all available trigger
 
 ## <a name="manage-automated-workflows"></a>Manage automated workflows
 
-You can create new flows or manage existing Power Automate flows in [!INCLUDE [prod_short](includes/prod_short.md)] on the **Manage Power Automate Flows** page. Learn more in the [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows.md) article in the administration content.
+You can create new flows or manage existing Power Automate flows in [!INCLUDE [prod_short](includes/prod_short.md)] on the **Manage Power Automate Flows** page. Learn more in the [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) article in the administration content.
 
 You can also manage available Power Automate workflows on the **Workflows** page in [!INCLUDE[prod_short](includes/prod_short.md)]. The page lists both the built-in approval and Power Automate workflows, with options for the latter to enable/disable, delete, and view the workflow on the Power Automate website.
 

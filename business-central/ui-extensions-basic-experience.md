@@ -10,12 +10,12 @@ ms.search.keywords: C5, financials, extension
 ms.search.form: 20600,
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4304a42f865086de3337deb3a49b1f1512e0e201
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: b0443ef53a564e103810543225cc0c4a0c6bced7
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362229"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606043"
 ---
 # <a name="the-basic-experience-extension"></a>The Basic Experience Extension
 
@@ -24,7 +24,7 @@ If you have been using Microsoft Dynamics C5, Microsoft partners can help you tr
 This extension is intended for small businesses and can support up to three users. If you need more users you must upgrade to a [!INCLUDE[prod_short](includes/prod_short.md)] licence and uninstall this extension.
 
 > [!NOTE]
-> As of now, this extension is available only for customers in Denmark and Iceland. 
+> As of now, this extension is available only to customers in Denmark and Iceland.
 
 ## <a name="whats-available"></a>What's available
 
@@ -32,21 +32,21 @@ The following table describes the capabilities that are available if you install
 
 |Area  |Functionality  |
 |---------|---------|
-|**General Ledger** |Basic Finance, Account Schedules, Fixed Assets, Bank Management, Bank Reconciliation, Payments, Direct Debit, Dimensions, Multiple Currencies, Budgets, Workflow, Document Management/OCR, Consolidation, Unlimited Companies|
-|**Account Receivables/Sales** |Basic Receivables, Sales Invoicing, Sales Discounts, Pricing, Sales Tax, Contact Management |
-|**Account Payables/Purchase** |Basic Payables, Purchase Invoicing |
-|**Project Management** |Jobs, Job Pricing, Time Sheets, Assignment, Tasks, Resources |
-|**Inventory** |Basic Inventory, Item Substitutions, Item Cross Reference |
+|**General Ledger** |Basic finance, financial reports, fixed assets, bank management, bank reconciliation, payments, direct debit, dimensions, multiple currencies, budgets, workflow, document management/OCR, consolidation, unlimited companies|
+|**Accounts Receivable/Sales** |Basic receivables, sales invoicing, sales discounts, pricing, VAT, contact management |
+|**Accounts Payable/Purchase** |Basic payables, purchase invoicing |
+|**Project Management** |Jobs, job pricing, time sheets, assignments, tasks, resources |
+|**Inventory** |Basic inventory, item substitutions, item cross reference |
 
 ## <a name="getting-started"></a>Getting started
 
 This extension is a bit different than most, and you will need help from a Microsoft partner to install and set it up. Just so that you know what to expect, here's a high-level view of what the Microsoft partner will do.
 
-1. Create a new [!INCLUDE[prod_short](includes/prod_short.md)] tenant. This can be either a trial or a CSP version.
+1. Create a new [!INCLUDE[prod_short](includes/prod_short.md)] tenant. This can be either a trial or a Cloud Solution Provider (CSP) version.
 2. Add at least one user who is assigned to a Basic Experience licence in your Azure Active Directory account.
 3. Remove all companies, including the sample Cronus company.
 4. Create a new company that does not contain any sample data or setups.
-5. Add the **Demo RapidStart** package. <!--what does the pockage contain?-->
+5. Add the **Demo RapidStart** package. <!--what does the package contain?-->
 6. Download and install the Basic Experience extension from AppSource.
 
 ## <a name="migrating-data"></a>Migrating data

@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 10, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
+ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
 ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 148d6657d3fffeaa7b5415338517f1688264ae98
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532951"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617919"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Set Up Calculations and Posting Methods for Value-Added Tax
 
@@ -32,7 +32,7 @@ However, if you want to set up the VAT calculations yourself, or just want to le
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="set-up-vat-using-the-assisted-vat-setup-guide-recommended"></a>Set up VAT using the assisted VAT setup guide (recommended> 
+## <a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a>Set up VAT using the assisted setup guide (recommended)
 
 > [!NOTE]
 > You can use the **VAT Setup** guide only if you have created a *My Company* and have not yet posted transactions that include VAT.
@@ -50,6 +50,21 @@ To support your fast start, [!INCLUDE [prod_short](includes/prod_short.md)] noti
 If you choose such a notification, [!INCLUDE [prod_short](includes/prod_short.md)] automatically creates those posting setups based on the posting groups in the document or journal you're currently working on.  
 
 At this point, you can just fill in the missing G/L accounts. But, later, when you further refine the setup, you might realise this initial setup is wrong. And [!INCLUDE [prod_short](includes/prod_short.md)] does not allow the deletion of a VAT posting setup and general posting setup when entries have been created based on such configurations. So starting in 2022 release wave 1, you can use the **Blocked** field on the **VAT Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings.
+
+## <a name="set-up-a-default-vat-date-for-documents-and-journals"></a>Set up a default VAT date for documents and journals
+VAT reporting in [!INCLUDE [prod_short](includes/prod_short.md)] is based on the **VAT Date** to include VAT entries on VAT reports in a VAT period. The VAT date can be changed on all documents and journals, but you must specify a default value for VAT date.
+
+> [!NOTE]
+> Aftre posting the document or journal, the **VAT Date** will appear on **VAT Entries** and **G/L Entries** as well as on the posted document if exists.
+
+To set up a default value for a VAT date, follow these steps:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon and enter **General Ledger Setup**, and then choose the related link.  
+2. On the **General** FastTab, in the **Default VAT Date** field, choose either **Posting Date** or **Document Date**.
+3. Close the page.  
+
+> [!NOTE]
+> By default, the **Default VAT Date** is the **Posting Date**.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Set up VAT registration numbers for your country or region
 

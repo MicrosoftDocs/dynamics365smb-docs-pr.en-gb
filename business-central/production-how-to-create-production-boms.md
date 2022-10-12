@@ -3,21 +3,25 @@ title: Create Production BOMs
 description: Learn how to create a production bill of material (BOM), new versions of a production BOM, and how to use the quantity calculation formula.
 author: bholtorf
 ms.topic: conceptual
-ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
+ms.search.keywords: production bom, bills of material,
+ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ec8d20ac3f6e6e02471a9f86f35aee8c551df801
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516907"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607831"
 ---
 # <a name="create-production-boms"></a>Create Production BOMs
 
 A production bill of material (BOM) holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented on the **Prod. Order Components** page.
 
-[!INCLUDE[prod_short](includes/prod_short.md)]  also support assembly BOMs. You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centres, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. For more information, see [Assembly BOMs or Production BOMs](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+[!INCLUDE[prod_short](includes/prod_short.md)] also supports assembly BOMs. You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centres, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. For more information, see [Assembly BOMs or Production BOMs](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+
+> [!TIP]
+> The **Contoso Coffee Demo Data** app includes demonstration products for a variety of production BOM scenarios that can be used on a test environment, including during a trial. Learn how to set up the Contoso Coffee Data and find walkthroughs for different scenarios at [Introduction to Contoso Coffee Demo Data](/contoso-coffee/contoso-coffee-intro.md).
 
 Before you can set up a routing, the following must be in place:  
 
@@ -26,7 +30,7 @@ Before you can set up a routing, the following must be in place:
 
 ## <a name="to-create-a-production-bom"></a>To create a production BOM
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOMs**, then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. To edit the BOM, set the **Status** field to **New** or **Under Development**. To activate it, set the **Status** field to **Certified**.  
@@ -34,8 +38,8 @@ Before you can set up a routing, the following must be in place:
     Proceed to fill in the production BOM lines.
 5. In the **Type** field, select whether the item on this BOM line is an ordinary item or a production BOM. If the item on the line is a production BOM, then it must already exist as a certified production BOM.  
 6. In the **No.** field, look up and select the item or production BOM in question, or type it in the field.  
-7. In the **Quantity Per** field, enter how many units of the item go into the parent item, for example, 4 wheels for 1 car.  
-8. In the **Scrap %** field you can enter a fixed percentage of components that are scrapped during production. When the components are ready to be consumed in a released production order, this percentage will be added to the expected quantity in the **Consumption Quantity** field in a production journal. For more information, see [Register Consumption and Output](production-how-to-register-consumption-and-output.md).  
+7. In the **Quantity per** field, enter how many units of the item go into the parent item, for example, 4 wheels for 1 car.  
+8. In the **Scrap %** field, you can enter a fixed percentage of components that are scrapped during production. When the components are ready to be consumed in a released production order, this percentage will be added to the expected quantity in the **Consumption Quantity** field in a production journal. For more information, see [Register Consumption and Output](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
     >  This scrap percentage represents components that are scrapped during production when picking from inventory, whereas the scrap percentage on routing lines represents scrapped output before putting on inventory.  
@@ -46,16 +50,16 @@ Before you can set up a routing, the following must be in place:
 12. You can now attach the new production BOM to the card of the parent item in question. For more information, see [Register New Items](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
-> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] To recalculate the item's standard cost from the item card, choose the **Manufacturing** action, and then choose the **Calc. Standard Cost** action.  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] To recalculate the item's standard cost from the item card, choose the **Manufacturing** action, then choose the **Calc. Standard Cost** action.  
 
-## <a name="to-create-a-new-versions-of-a-production-bom"></a>To create a new versions of a production BOM
+## <a name="to-create-a-new-version-of-a-production-bom"></a>To create a new version of a production BOM
 
 New versions of production BOMs are used when, for example, an item is replaced by another item, or when a customer requires a special version of a product. The version principle enables various versions of a production BOM to be managed. The structure of the production BOM version corresponds to the structure of the production BOM. The basic difference is in the time validity of the versions. The validity is defined by the starting date.  
 
 The starting date indicates the start of the period in which this version is valid. For all other considerations, the starting date is a filter criterion for calculations and evaluations. The BOM version is valid until the next version becomes valid for its starting date.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM**, and then choose the related link.  
-2. Select the production BOM to be copied, and then choose the **Versions** action.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOMs**, then choose the related link.  
+2. Select the production BOM to be copied, then choose the **Versions** action.  
 3. Choose the **New** action.  
 4. Fill in the fields as necessary.
 5. In the **Version Code** field, enter the unique identification of the version. Any combination of numbers and letters is permitted.  
@@ -70,13 +74,13 @@ The time validity of the version is specified by the **Starting Date** field.
 >
 > Select the **Production BOM** option if you want to use a phantom production BOM on the line.  
 >
-> Phantom production BOMs serve for structuring products. This production BOM type never leads to a finished product, but is used exclusively for determining the dependent demand. Phantom production BOMs do not have their own item master data.
+> Phantom production BOMs serve for structuring products. This production BOM type never leads to a finished product but is used exclusively for determining the dependent demand. Phantom production BOMs do not have their own item master data.
 
-## <a name="quantity-calculation-formula-on-production-boms"></a>Quantity Calculation Formula on Production BOMs
+## <a name="quantity-calculation-formula-on-production-boms"></a>Quantity calculation formula on production BOMs
 
-The quantity is calculated taking into consideration different dimensions which are also entered on the production BOM lines. The dimensions refer to an order unit of the respective item. The length, width, depth and weight can be entered as dimensions.  
+The quantity is calculated taking into consideration different dimensions that are also entered on the production BOM lines. The dimensions refer to an order unit of the respective item. The length, width, depth, and weight can be entered as dimensions.  
 
-The Calculation Formula, Length, Width, Depth and Weight columns are not displayed, because they are only used by some users. If you wish to use the calculation of the quantity, you must first display these columns.  
+The Calculation Formula, Length, Width, Depth, and Weight columns are not displayed, because they are only used by some users. If you wish to use the calculation of the quantity, you must first display these columns.  
 
 The relation of the individual components is defined by the calculation formula. The following possibilities are available as a calculation formula:  
 
@@ -92,17 +96,20 @@ The relation of the individual components is defined by the calculation formula.
 
 ### <a name="example"></a>Example
 
-In a production BOM, seventy metal parts with the dimensions length = 0.20 m and width = 0.15 m are required. The values are entered as follows: Calculation Formula = Length x Width, Length = 20, Width = 15, Quantity per = 70. The quantity is given by the Quantity per x Length * Width, that is, Quantity = 70 x 0.20 m x 0.15 m = 2.1 m2.  
+In a production BOM, 70 metal parts with the dimensions length = 0.20 m and width = 0.15 m are required. The values are entered as follows: Calculation Formula = Length x Width, Length = 20, Width = 15, Quantity per = 70. The quantity is given by the Quantity per x Length * Width, that is, Quantity = 70 x 0.20 m x 0.15 m = 2.1 m2.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a>See also 
 
-[Create Routings](production-how-to-create-routings.md)   
+[Create Routings](production-how-to-create-routings.md)  
+[Manage Product Variants](inventory-item-variants.md)  
+[Walkthrough: Variants](/contoso-coffee/variants.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
-[Manufacturing](production-manage-manufacturing.md)    
-[Planning](production-planning.md)   
+[Manufacturing](production-manage-manufacturing.md)  
+[Planning](production-planning.md)  
+[Work with Bills of Material](inventory-how-work-BOMs.md)  
+[Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

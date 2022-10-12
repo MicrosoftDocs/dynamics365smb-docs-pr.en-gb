@@ -10,23 +10,23 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 07cccf188ed476a3dba4fa71ec7de20620cbd6f1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: e9d53a6369e2955e0e097471e70cb83438540539
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534704"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607053"
 ---
 # <a name="assemble-items"></a>Assemble Items
 
 If the **Replenishment System** field on the item card contains **Assembly**, then the default method of supplying the item is to assemble it from defined components and potentially by a defined resource.  
 
-The components and resources that go into this kind of an assembly item must be defined in an assembly BOM. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).  
+The components and resources that go into this kind of an assembly item must be defined in an assembly BOM. For more information, see [Work with Assembly BOMs](assembly-how-work-assembly-boms.md).
 
 Assembly items can be set up for two different assembly processes:  
 
--   Assemble to stock.  
--   Assemble to order.  
+- Assemble to stock.  
+- Assemble to order.  
 
 You typically use **Assemble to Stock** for items that you want to assemble ahead of sales, such as to prepare for a kit campaign, and keep in stock until they are ordered. These items are usually standard items such as packaged kits that you do not offer to customise to customer requests.  
 
@@ -37,7 +37,7 @@ For more information about how to set up an assembly item, see [Understanding As
 These setup options are default settings that manage how sales and assembly order lines are initially processed. You can depart from these defaults and supply the assembly item in the most optimal way when processing a sale. For more information, see [Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) and [Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Assembly components are handled in a special way in basic warehouse configurations. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).   
+> Assembly components are handled in a special way in basic warehouse configurations. For more information, see the "Handling Assemble-to-Order Items in Inventory Picks" section in [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).   
 
 In this procedure, you create and process an assembly order for items that are assembled to stock, which means without a linked sales order. The steps include initiating the assembly order, handling potential component availability issues, and partially posting assembly item output.
 
@@ -74,10 +74,9 @@ After posting succeeds, the assembly item is posted as output to the location co
 ## <a name="see-also"></a>See also 
 
 [Assembly Management](assembly-assemble-items.md)  
-[Work with Bills of Material](inventory-how-work-BOMs.md)  
+[Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

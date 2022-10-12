@@ -10,12 +10,12 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 7add9cf10ff90ff978c67cf691b2f7e5c6b87bdd
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 32a0005f2ebbc6bfc87c21fed8469c86535e15de
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460867"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607291"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Set Up Intercompany Transaction Posting
 
@@ -57,7 +57,11 @@ These fields to fill in differ, depending on whether your administrator has turn
 > [!NOTE]
 > In [!INCLUDE[prod_short](includes/prod_short.md)] online, you cannot use file locations to transfer transactions to your partners because [!INCLUDE[prod_short](includes/prod_short.md)] does not have access to your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field is not available. Instead, the file will be downloaded to the Downloads folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email** instead.
 
-## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>To set up intercompany vendors and intercompany customers
+> [!NOTE]
+> For intercompany posting, when you've turned on the **Auto-accept Transaction** toggle on the **Intercompany Partner Card** page [!INCLUDE[prod_short](includes/prod_short.md)] suppresses messages warning about purchase invoices duplicating the original purchase order. Therefore, it's important to have a business process for managing duplicates. For example, by deleting such purchase orders when the purchase invoice is received from the intercompany partner.
+
+
+## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>To set up intercompany suppliers and intercompany customers
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Alternatively, access the vendor from the **Supplier No.** field on the **Intercompany Partner** page.

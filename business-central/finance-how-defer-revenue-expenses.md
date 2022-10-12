@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d7eac169dc75f81f1d696a4a1e7344b5235a83a3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9d6acc41574870d691a14913ed0222df36dbeb74
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529101"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605523"
 ---
 # <a name="defer-revenues-and-expenses"></a>Defer Revenues and Expenses
 
@@ -95,6 +95,18 @@ G/L entries to be posted to the specified deferral account, for example, Unearne
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Deferral Summary**, and then choose the related link.
 2. On the **Sales Deferral Summary** page, in the **Balance as at** field, enter the date up to which you want to see deferred revenues.
 3. Choose the **Preview** button.
+
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>To specify a period in which to allow deferral posting
+
+You can specify a period in which people can post transactions by entering dates in the **Allow Posting From** and **Allow Posting To** fields as follows:
+
+* For all users, on the **General Ledger Setup** page
+* For specific users, on the **User Setup** page
+
+If you've done that, you must make an exception for deferrals to allow them to be posted outside the period. To define the period, follow these steps.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** or **User Setup**, and then choose the related link.
+2. In the **Allow Deferral Posting From** and **Allow Deferral Posting To** fields, enter a start and end date for the period.
 
 ## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/processing-invoices-dynamics-365-business-central/)
 

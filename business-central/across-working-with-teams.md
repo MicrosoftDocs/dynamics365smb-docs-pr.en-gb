@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 05/19/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 17be576dad0eaf31918951e4e11a73acdd0ae70e
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528456"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617801"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Sharing Business Central Records and Page Links in Microsoft Teams
 
@@ -102,21 +102,27 @@ To learn more about working with cards and card details, see [Teams FAQ](teams-f
 
 Directly from most collection pages, like the **Items** page, and details pages, like the **Items** card, you can send a link to the page to specific recipients in a Teams conversation. For example, you can share a link to a filtered view of your records. Recipients can then select the link to open the page in [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
- ![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")
+[![!The Share menu displayed on a card.](media/teams-share-link-v2.png "The Share menu displayed on a card.")](media/teams-share-link-v2.png#lightbox)
 
 ### <a name="prerequisites"></a>Prerequisites
-You have access to Microsoft Teams.
+
+- You have access to Microsoft Teams.
+- (Optional) You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. 
+
+  With the app installed, messages you send with the link will also include a compact card for the page. For more information about how to install the app, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
 
 ### <a name="share-a-link"></a>Share a link
 
 1. In [!INCLUDE [prod_short](includes/prod_short.md)]\, open the page that you want to share.
 2. At the top of the page, choose the ![!Share to other apps action on pages.](media/share-icon.png) icon, then **Share to Teams**.
 3. If you're asked, sign in to Teams with your user name and password.
-4. In the **Share to Teams** page, type a name of a person, group, or channel that you want send the message to. 
-5. The message box will include a link to the page. Add any more information if you like, then choose **Share**.
+4. In the **Share to Teams** page, type a name of a person, group, or channel that you want send the message to.
+5. The message box will include a link to the page. If the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams is installed, a card for the linked record or page will also appear in the message box.
+
+   Add any more information if you like, then choose **Share**.
 6. The link has now been shared. If you want to go to the conversation, choose **Go to Teams**.
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a>See also 
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
@@ -127,6 +133,5 @@ You have access to Microsoft Teams.
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

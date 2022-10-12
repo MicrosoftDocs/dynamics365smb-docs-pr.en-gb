@@ -1,21 +1,21 @@
 ---
 title: Create a Vendor Card to Register a New Vendor (contains video)
 description: Learn how to create a vendor card to register a new vendor or supplier and save vendor cards as a template.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 07/04/2022
-ms.author: edupont
-ms.openlocfilehash: e5fac9d278d289f6526d544324adcc8f5ce3185a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 09/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: ca4cca577b8105ddbf2625715a1585df2bb7b20d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532047"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606648"
 ---
 # <a name="register-new-vendors"></a>Register New Vendors
 
@@ -41,6 +41,10 @@ After you create a template, you can use the **Apply Template** action to apply 
 > It can be helpful to personalise the **vendor Template** page when you create a template. For example if want to add a field that is not already displayed on the page. Learn more in the [Personalise your workspace](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner) section.
 
 You can also create a vendor from a contact. Learn more in the [Creating a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact) section.
+
+Remit-to addresses are used when you print cheques to pay your vendors, and vendors can have multiple remit-to addresses for payments. For example, a vendor might supply an item from a subsidiary company, but wants to receive payment at their headquarters. [!INCLUDE [prod_short](includes/prod_short.md)] lets you set up multiple mailing addresses for each vendor, and you can choose the correct location to send payments to on an invoice-by-invoice basis.
+
+You specify remit-to addresses on Vendor Card pages, and on the Shipping & Payments FastTab on purchase orders and invoices. When you create payment journal lines using the Pay Vendor or Create Payment actions on the Vendors list page or Vendor Card page, or the Apply Entries action on a payment journal, the remit-to code on the vendor ledger entry is assigned. You can overwrite this value.
 
 ### <a name="to-create-a-new-vendor"></a>To create a new vendor
 

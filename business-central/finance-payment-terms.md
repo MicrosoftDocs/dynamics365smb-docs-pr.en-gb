@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135991"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605118"
 ---
 # <a name="set-up-payment-terms"></a>Set Up Payment Terms
 
@@ -35,7 +35,7 @@ After you set up the payment terms, you assign them to customers and vendors. Op
 > [!TIP]
 > In the base version of [!INCLUDE [prod_short](includes/prod_short.md)], payment terms with partial payments are not supported. Instead, you must use the prepayments functionality. For more information, see [Set Up Prepayments](finance-set-up-prepayments.md).
 >
-> In certain countries, you *can* set up payment terms with partial payments. To learn if this capability is supported in your country, see the **Local Functionality** section in the navigation pane on the left side on the [Docs.microsoft.com](about-localization.md) site.
+> In certain countries, you *can* set up payment terms with partial payments. To learn if this capability is supported in your country, see the **Local Functionality** section in the navigation pane on the left side of a [Microsoft Learn](about-localization.md) article.
 
 ## <a name="see-also"></a>See Also
 

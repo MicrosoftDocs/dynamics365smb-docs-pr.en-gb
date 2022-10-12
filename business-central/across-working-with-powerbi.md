@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b594ebf1cebd1fbec7302777b5233ffd3eec198b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 70bcc50bd419a73e242390d5a21e41360ae8d8cf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535325"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606448"
 ---
 # <a name="work-with-power-bi-reports-in-prod_short"></a>Work with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -49,10 +49,10 @@ When you first sign into [!INCLUDE [prod_short](includes/prod_short.md)], you'll
 2. The **Set Up Power BI Reports in Business Central** assisted setup starts. Select **Next** to continue.
 3. On the **Check your Power BI Licence** page. Do one of the following steps:
 
-    - If you haven't yet signed up for Power BI, select the [Go to Power BI homepage](https://powerbi.microsoft.com). Sign up for an account, then come back to [!INCLUDE[prod_short](includes/prod_short.md)] and finish the set up.
+    - If you haven't yet signed up for Power BI, select the [Go to Power BI homepage](https://powerbi.microsoft.com). Sign up for an account, then come back to [!INCLUDE[prod_short](includes/prod_short.md)] and finish the setup.
 
     - If you already have a licence, select **Next**.
-4. In the next page, [!INCLUDE[prod_short](includes/prod_short.md)] will now upload a demo report to Power BI. This will take a few minutes, so it's done in the background. To complete the setup, select **Next**, then **Finish**.
+4. In the next page, [!INCLUDE[prod_short](includes/prod_short.md)] will now upload a demo report to Power BI. This step will take a few minutes, so it's done in the background. To complete the setup, select **Next**, then **Finish**.
 
 The connection process starts. During the process, [!INCLUDE [prod_short](includes/prod_short.md)] communicates with the Power BI service to determine if you have a valid Power BI account and licence. Once your licence is verified, the default Power BI report displays on the page. If there a report isn't shown, you can select a report from the part.
 
@@ -69,9 +69,14 @@ Once connected, you can select a report from the Power BI part on pages.
 
 ### <a name="show-reports-on-list-pages"></a>Show reports on list pages
 
-[!INCLUDE[prod_long](includes/prod_long.md)] includes a Power BI FactBox on several key list pages. This FactBox provides additional insight into the data in the list. As you move between rows in the list, the report is updated and filtered for the selected entry. If you don't see this part, then from the action bar, select **Actions** > **Display** > **Show/Hide Power BI Reports**.
+[!INCLUDE[prod_long](includes/prod_long.md)] includes a Power BI FactBox on several key list pages. This FactBox provides extra insight into the data in the list. As you move between rows in the list, the report is updated and filtered for the selected entry.
 
 To learn how to create reports for list pages, see [Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+
+> [!TIP]
+> If you don't see the Power BI FactBox, it might be hidden on your workspace by personalisation. Select the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then select **Personalise** action. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
+>
+> Or if you have an older version of Business Central, go to the action bar, select **Actions** > **Display** > **Show/Hide Power BI Reports**.
 
 ### <a name="switch-reports"></a>Switch reports
 
@@ -121,7 +126,7 @@ A Power BI account hasn't been set up. To get a valid Power BI account, you must
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Message: There are no enabled reports. Choose Select Report to see a list of reports that you can display.
 
-This message appears if the default report failed to deploy to your Power BI workspace. Or it deployed but didn't refresh successfully. Navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credentials. Once the dataset successfully refreshes, navigate back to [!INCLUDE[prod_short](includes/prod_short.md)] and manually select the report from the **Select Reports** page.
+This message appears if the default report failed to deploy to your Power BI workspace. Or it deployed but didn't refresh successfully. Navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credentials. Once the dataset successfully refreshes, navigate back to [!INCLUDE[prod_short](includes/prod_short.md)], and manually select the report from the **Select Reports** page.
 
 #### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>You can't see a report on the Select Report page on a list page
 
@@ -143,7 +148,6 @@ It's probably because the report's name doesn't contain the name of the list pag
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
 [Use [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 

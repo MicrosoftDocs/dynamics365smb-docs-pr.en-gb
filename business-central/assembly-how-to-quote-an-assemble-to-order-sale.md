@@ -1,6 +1,6 @@
 ---
 title: Quote an Assemble-to-Order Sale
-description: You can use assembly management to customize an assembly item to a customer’s request during the sales process.
+description: You can use assembly management to customise an assembly item to a customer's request during the sales process.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -10,16 +10,16 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79d7e9ac5e3a71002af168ee02feef1a76671fce
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 7ba67db5f2ba0e01dc2b3b13dca162de714b3127
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528419"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607318"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Quote an Assemble-to-Order Sale
 
-You can use assembly management to customise an assembly item to a customer’s request during the sales process. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
+You can use assembly management to customise an assembly item to a customer's request during the sales process. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
 
 As when you sell any other type of item, you can also create a sales quote for a customised assembly item before converting it to a sales order. This process involves several extra steps when you compare it to creating a regular sales quote, and it uses a variation of a linked assembly order, which is an assembly quote.
 
@@ -45,7 +45,7 @@ As when you sell any other type of item, you can also create a sales quote for a
 ## <a name="see-also"></a>See also 
 
 [Assembly Management](assembly-assemble-items.md)  
-[Work with Bills of Material](inventory-how-work-BOMs.md)  
+[Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

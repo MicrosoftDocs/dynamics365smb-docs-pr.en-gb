@@ -7,81 +7,80 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
-ms.date: 06/16/2021
+ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: 213e7abb6dbfeacb5d095399932be5b6849b3c6b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d820ebaa77f05c3c98dd625426fe2e4a07ce18cd
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528392"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606756"
 ---
 # <a name="about-cost-accounting"></a>About Cost Accounting
 
 Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyse:  
 
--   What types of costs that you incur when you run a business?  
--   Where do the costs occur?  
--   Who bears the costs?  
+- The types of costs you incur running a business  
+- Where the costs occur
+- Who bears the costs  
 
 In cost accounting, you allocate actual and budgeted costs of operations, departments, products, and projects to analyse the profitability of your company.  
 
-## <a name="workflow-in-cost-accounting"></a>Workflow in Cost Accounting
+## <a name="workflow-in-cost-accounting"></a>Workflow in cost accounting
 
 Cost accounting has the following main components:  
 
--   Cost types, cost centres, and cost objects  
--   Cost entries and cost journals  
--   Cost allocations  
--   Cost budgets
--   Cost reporting  
+- Cost types, cost centres, and cost objects  
+- Cost entries and cost journals  
+- Cost allocations  
+- Cost budgets
+- Cost reporting  
 
 The following diagram shows the workflow in cost accounting.  
 
 ![Cost Accounting overview.](media/costaccountingoverview.png "CostAccountingOverview")  
 
-## <a name="cost-types-cost-centers-and-cost-objects"></a>Cost Types, Cost Centres, and Cost Objects
+## <a name="cost-types-cost-centers-and-cost-objects"></a>Cost types, cost centres, and cost objects
 
 You define cost types, cost centres, and cost objects to analyse what the costs are, where the costs come from, and who should bear the costs.  
 
-You define a chart of cost types with a structure and functionality that resembles the general ledger chart of accounts. You can transfer the general ledger income statement accounts or create your own chart of cost types.  
+First, you define a chart of cost types with a structure and functionality that resembles the general ledger chart of accounts. You can create your own chart of cost types or do so by transferring the general ledger income statement accounts.  
 
-Cost centres are departments and profit centres that are responsible for costs and income. Often, there are more cost centres set up in cost accounting than in any dimension that is set up in the general ledger. In the general ledger, usually only the first level cost centres for direct costs and the initial costs are used. In cost accounting, additional cost centres are created for additional allocation levels.  
+Cost centres are departments and profit centres responsible for costs and income. Often, there are more cost centres set up in cost accounting than in any dimension that is set up in the general ledger. In the general ledger, usually only the first level cost centres for direct costs and the initial costs are used. In cost accounting, additional cost centres are created for additional allocation levels.  
 
-Cost objects are products, product groups, or services of a company. These are the finished goods of a company that carry the costs.  
+Cost objects are products, product groups, or services a company offers. These are the "finished goods" of a company that carry the costs.  
 
-You can link cost centres to departments and cost objects to projects in your company. However, you can link cost centres and cost objects to any dimensions in the general ledger and supplement them with subtotals and titles.  
+You can link cost centres to departments and cost objects to projects in your company. Through the general ledger, you can link cost centres and cost objects to any dimensions and supplement that information with subtotals and titles.  
 
-## <a name="cost-entries-and-cost-journals"></a>Cost Entries and Cost Journals
+## <a name="cost-entries-and-cost-journals"></a>Cost entries and cost journals
 
-Operational costs can be transferred from the general ledger. You can automatically transfer the cost entries from the general ledger to cost entries with each posting. You can also use a batch job to transfer the general ledger entries to cost entries based on daily or monthly summary posting.  
+Operational costs can be transferred from the general ledger. You can automatically transfer the cost entries from the general ledger to cost entries with each posting. You can also use a batch job to transfer general ledger entries to cost entries based on daily or monthly summary posting.  
 
 In cost journals, you can post cost and activities that do not come from the general ledger or are not generated by allocations. For example, you can post pure operational costs, internal charges, allocations, and corrective entries between cost types, cost centres, and cost objects individually or on a recurring basis.  
 
-## <a name="cost-allocations"></a>Cost Allocations
+## <a name="cost-allocations"></a>Cost allocations
 
-Allocations move costs and revenues between cost types, cost centres, and cost objects. Overhead costs are first posted to cost centres and later charged to cost objects. For example, this might be done in a sales department that sells several products at the same time. Direct costs can be directly allocated to a cost object, such as a material purchased for a specific product.  
+Allocations move costs and revenues between cost types, cost centres, and cost objects. Overhead costs are first posted to cost centres and later charged to cost objects. An example of this would be a sales department that sells several products at the same time. The department's overhead costs, such as salaries, supplies, and travel expenses, are initially assigned to the sales cost centre, which is then allocated between the different products (cost objects) sold, together with the materials purchased (direct cost) for use in them.
 
-The allocation base that is used and the accuracy of the allocation definition have an influence on the results of cost allocations. The allocation definition is used to allocate costs first from so-called pre-cost centres to main cost centres and then from cost centres to cost objects.  
+The allocation base used and the accuracy of the allocation definition influence the results of cost allocations. The allocation definition is used to allocate costs first from so-called pre-cost centres to main cost centres and then from cost centres to cost objects.  
 
-Each allocation consists of an allocation source and one or more allocation targets. You can allocate actual values or budgeted values by using the static allocation method that is based on a definite value, such as square footage, or an established allocation ratio of 5:2:4. You can also allocate actual values or budgeted values by using the dynamic allocation method with nine predefined allocation bases and 12 dynamic date ranges.  
+Each allocation consists of an allocation source and one or more allocation targets. You can allocate actual values or budgeted values using the static allocation method based on a definite value, such as square footage, or an established allocation ratio of 5:2:4. You can also allocate actual values or budgeted values by using the dynamic allocation method with nine predefined allocation bases and 12 dynamic date ranges.  
 
-## <a name="cost-budgets"></a>Cost Budgets
+## <a name="cost-budgets"></a>Cost budgets
 
-You can create as many cost budgets as you want. You can copy the cost budget to the general ledger budget and vice versa. You can transfer budgeted costs as actual costs.  
+Similar to budgeting in the general ledger, you can create budgets to plan for costs during a certain period (a fiscal year, for example), which can be applied to a cost centre (company department), or a cost object (product or service). You can create as many cost budgets as you need. You can then copy the cost budget to the general ledger budget and vice versa. And you can transfer budgeted costs as actual costs.
 
-## <a name="cost-reporting"></a>Cost Reporting
+## <a name="cost-reporting"></a>Cost reporting
 
-Most reports and statistics are based on the posted cost entries. You can set the sorting of the results and use filters to define which data must be displayed. You can create reports for cost distribution analysis. In addition, you can use the standard account schedules to define how your reports for the chart of cost types are displayed.  
+Most reports and statistics are based on the posted cost entries. You can set the sorting of the results and use filters to define which data must be displayed. You can create reports for cost distribution analysis. In addition, you can use the standard financial reports to define how your reports for the chart of cost types are displayed.  
 
 ## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>See also 
 
- [Accounting for Costs](finance-manage-cost-accounting.md)  
- [Finance](finance.md)  
- [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)  
- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Accounting for Costs](finance-manage-cost-accounting.md)  
+[Finance](finance.md)  
+[Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

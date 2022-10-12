@@ -8,14 +8,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: c7be7f69c2b5d2c71b54ac3046900474e0c86f5f
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 966baa1d1adb25c811f8b9518abe0d79f5839cac
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729918"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606783"
 ---
 # <a name="about-calculating-standard-cost"></a>About Calculating Standard Cost
+
 Many manufacturing companies select a valuation base of standard cost. This also applies to companies that perform light manufacturing, such as assembly and kitting. A standard cost system determines inventory unit cost based on some reasonable historical or expected cost. Studies of past and estimated future cost data can then provide the basis for standard costs. These costs are frozen until a decision is made to change them. The actual cost to produce a product may differ from the estimated standard costs. For management control, the actual cost is compared to the standard cost for a specific item and differences, or *variances*, are identified and analysed.  
 
 Standard costs can be maintained for items that are replenished through purchase, assembly, and production. For each replenishment method, standard costs can consist of the following elements.  
@@ -26,7 +27,8 @@ Standard costs can be maintained for items that are replenished through purchase
 |**Assembly**|Direct material cost, direct or fixed labour cost, and overhead cost.|  
 |**Prod. Order**|Direct material cost, labour cost, subcontractor cost, and overhead cost.|  
 
-## <a name="setting-up-standard-costs"></a>Setting Up Standard Costs  
+## <a name="setting-up-standard-costs"></a>Setting Up standard costs
+
 Because the standard cost of a produced or assembled item can consist of multiple cost elements, including material, capacity (labour) and direct and overhead subcontractor costs, standard costs must be established for each of these elements.  
 
 The accounting task for an item-processing company using standard costing is to:  
@@ -42,7 +44,7 @@ The following key cost elements make up the total direct cost of a finished proc
 - Capacity cost.  
 - Subcontracting costs for produced items only.  
 
-### <a name="material-costs"></a>Material Costs
+### <a name="material-costs"></a>Material costs
 
 Material costs are costs that are associated with subassemblies and purchased raw material. Material unit cost can consist of direct and indirect cost elements.  
 
@@ -60,7 +62,8 @@ The material cost of a produced item can be represented in two ways that corresp
 |Single level|Produced item is equal to the total cost of all purchased or subassembled items on that item's production BOM.|  
 |Rolled-up level or multilevel|Produced item is the sum of the material cost for all subassemblies on that item's BOM and the cost of all purchased items on that item's production BOM.|  
 
-### <a name="capacity-costs"></a>Capacity Costs  
+### <a name="capacity-costs"></a>Capacity costs
+
 Capacity costs are the costs that are associated with internal labour and machine costs. You must set up these costs for each resource (in assembly management) and work or machine centre on the routing (in production). As with materials, you can identify both direct and indirect elements of capacity cost. For example, the direct cost for a work centre may be the established shop rate to perform a specific function. The indirect cost for a work centre may represent some general factory expenses, such as lighting, heating, and so on. As with material costs, you can express capacity overhead as an indirect cost percentage or a fixed overhead rate.  
 
 The setup of the capacity costs of assembled items consists of the following elements:  
@@ -84,26 +87,30 @@ To specify setup time on the routing for planning but not include this expense i
 
 On a single-level basis, this is the labour cost that is required to produce the finished production item and is specified on the production item's routing. On a multi-level basis, this is the capacity cost that is specified for each individually produced item that is included in the parent item's BOM.  
 
-### <a name="subcontractor-costs"></a>Subcontractor Costs  
+### <a name="subcontractor-costs"></a>Subcontractor costs
+
 Subcontractor costs are the costs that are associated with services that are provided by a company's outside vendors or subcontractors. Similar to material and capacity, subcontractor costs can consist of both direct and overhead amounts. Direct subcontractor cost represents the actual charge for each unit of services that is provided. For example, overhead subcontractor cost can represent freight and handling costs that are incurred by the company with a subcontracted order.  
 
 Because subcontracting is an outsourced capacity, you set up the cost of both direct and indirect subcontracting services on the work centre card that represents the subcontracting operation.  
 
-## <a name="updating-standard-costs"></a>Updating Standard Costs  
+## <a name="updating-standard-costs"></a>Updating standard costs
+
 To update or calculate the standard cost of assembly items, use the function from the item card.  
 
 The process of updating or calculating standard costs typically consists of the following tasks:  
 
 1.  Updating costs at the component and capacity levels. For more information, see the **Suggest Item Standard Cost** and **Suggest Capacity Standard Cost** batch jobs.  
-2.  Consolidating and rolling up the component and capacity costs to calculate the total assembly or manufacturing cost of the items. For more information, see For more information, see [To calculate the standard cost of an assembly item](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
+2.  Consolidating and rolling up the component and capacity costs to calculate the total assembly or manufacturing cost of the items. For more information, see For more information, see [To calculate the standard cost of an assembly item](assembly-how-work-assembly-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
 3.  Implementing the standard costs that are entered when you run the previous batch jobs. The standard costs do not take effect until they are implemented. Use the **Implement Standard Cost Changes** batch job, which updates the changes in the standard cost on items with the ones in the Standard Cost Worksheet table.  
 4.  Implementing the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see [Revalue Inventory](inventory-how-revalue-inventory.md).
 
-## <a name="see-also"></a>See Also  
- [Design Details: Costing Methods](design-details-costing-methods.md)   
- [Work with Bills of Material](inventory-how-work-BOMs.md)   
- [Update Standard Costs](finance-how-to-update-standard-costs.md)   
- [Design Details: Inventory Costing](design-details-inventory-costing.md)
+## <a name="see-also"></a>See also 
 
+[Design Details: Costing Methods](design-details-costing-methods.md)  
+[Update Standard Costs](finance-how-to-update-standard-costs.md)  
+[Design Details: Stock Costing](design-details-inventory-costing.md)  
+[Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  
+[Create Production BOMs](production-how-to-create-production-boms.md)  
+[Work with Bills of Material](inventory-how-work-BOMs.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
