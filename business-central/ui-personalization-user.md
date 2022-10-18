@@ -1,21 +1,21 @@
 ---
 title: Personalising Pages (contains video)
 description: Learn how to customise the user interface and personalise your workspace to suit your way of working and personal preferences in Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 7739ead50f07adc5a7a14c6c9e57cc623da275c9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 10/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528820"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652172"
 ---
 # <a name="personalize-your-workspace"></a>Personalise Your Workspace
 
@@ -79,9 +79,15 @@ As for other personalisation, the changes you make to column width are stored on
 |Add a new action to a page or report on your Role Centre.|From the target page, report request page, or Tell Me window, choose the bookmark icon.|See [Bookmark a Page or Report on Your Role Centre Role Centre](ui-bookmarks.md)|
 |Always start a list as expanded or collapsed|Choose the **Expand All** or **Collapse All** button in the top-left corner of the list. Alternatively, choose the **Expand All** or **Collapse All** action in the menu of the first column. |Applies to collapsible hierarchy lists|
 
-## <a name="personalizing-actions"></a><a name="Actions"></a>Personalising Actions
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Personalising the action bar and menus
 
-Personalisation lets you decide which actions to show on the navigation and action bars and on Role Centres and where to show them. You can show, hide, or move individual actions or action groups. Personalising the navigation and action bars is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalising mode and then let the arrowheads guide you.
+Personalisation lets you decide which actions to show on the navigation and action bars and on Role Centres, and where to show them. You can show, hide, or move individual actions or action groups.
+
+In 2022 release wave 2 we provided more ways for you to make Business Central your own. The following video shows how you can personalise actions on pages and Role Centres.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
+
+Personalising the navigation and action bars is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalising mode and then let the arrowheads guide you.
 
 There are a couple terms that you should be familiar with to better understand action personalisation: *action group* and *promoted category*.  
 

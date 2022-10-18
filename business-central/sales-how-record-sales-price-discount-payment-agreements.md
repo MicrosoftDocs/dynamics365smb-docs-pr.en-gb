@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: ed59e73dce1847e2edb02def981abdf869a275d9
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 5560a9a1b5c5eb031136a7c1320019eac75239e0
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606151"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652199"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Record Special Sales Prices and Discounts
 
@@ -93,7 +93,7 @@ When you enable the **New sales pricing experience** feature update on the **Fea
     * Sales
     * Purchases
     * Job sales
-    * Job purchases 
+    * Job purchases
 
     You can edit all prices for these areas on the **Prices Worksheet** page. The default price lists will be set on the **Sales & Receivables Setup**, **Purchases & Payables Setup,** and **Jobs Setup** pages. 
 
@@ -252,7 +252,7 @@ You link discount percentages to specific invoice amounts on the **Cust. Invoice
 In addition to, or instead of, a discount percentage, you can link a service charge amount to a specific invoice amount.  
 
 > [!TIP]  
-> Before you enter this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which customers can be linked to the same invoice discount page. The fewer pages you have to set up, the faster you can enter the basic information.
+> Before you enter this information, it's a good idea to prepare an outline of the discount structure that you want to use. The structure makes it easier to determine which customers can be linked to the same invoice discount page. The fewer pages you have to set up, the faster you can enter the basic information.
 
 For training in discounts in sales, see [Set up discounts for your customers](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
