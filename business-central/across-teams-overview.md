@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: fbedf23a65940b73e521d06d17abbbaef77fd512
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: f826ceaca3ae6f5a68a60a43f4824fcbe60c0753
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607432"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716566"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central and Microsoft Teams Integration
 
@@ -54,7 +54,9 @@ For more information, see [Share Records in Microsoft Teams](across-working-with
 
 Directly from most collection and details pages in Business Central, you can use the **Share to Teams** action from the ![!The Share menu icon on pages.](media/share-icon.png "The Share menu displayed on a card.") icon to type a message, choose recipients, such as team members, groups or channels, and send the message with a link and to the Business Central page.
 
-![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")
+[![!The Share menu displayed on a card.](media/teams-share-link-v2.png "The Share menu displayed on a card.")](media/teams-share-link-v2.png#lightbox)
+
+<!--![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
 
 For more information, see [Share Records and Page Links in Microsoft Teams](across-working-with-teams.md#share-link).
 
