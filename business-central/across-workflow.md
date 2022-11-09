@@ -8,12 +8,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
-ms.openlocfilehash: c8cd251a2e82cd1a721f070f14986dd78c6f1730
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.openlocfilehash: fd43becad8bd2272c4d1babf2ed2cfce40edfd2d
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716553"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728486"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows in Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports 
 * Power Automate flows
 
   * Automated flows that are triggered by events (such as record or document creation, modification, or deletion) in [!INCLUDE[prod_short](includes/prod_short.md)]. Also included are approval flows created in Power Automate that trigger when an approval is requested in [!INCLUDE[prod_short](includes/prod_short.md)].
-  * Instant flows that are manually triggered by the **Automate** action from lists, cards, and document pages. 
+  * Instant flows that are manually triggered by the **Automate** action from lists, cards, and document pages.
 
     Create and manually trigger a Power Automate flow on a [!INCLUDE[prod_short](includes/prod_short.md)] record, such as a customer, item, or sales order, with options to manipulate information both internally and externally (using integrated tools).
 
@@ -44,11 +44,12 @@ With [!INCLUDE [prod_short](includes/prod_short.md)] online, you can sign up for
 
 ## <a name="approval-workflows"></a>Approval workflows
 
-You create an approval workflow by listing the involved steps on the lines. Each step consists of:
-- A workflow event, which is moderated by event conditions
-- A workflow response, which is moderated by response options.
+Create an approval workflow by defining what starts the workflow and what happens next, as follows:
 
-To define workflow steps, you fill in fields on workflow lines using fixed lists of event and response values representing scenarios supported by the application code.<!--What are the "values"? Can we give an example?-->
+* A workflow event, which is moderated by event conditions.
+* A workflow response, which is moderated by response options.
+
+To define workflow steps, fill in fields on workflow lines using the event and response values that represent supported scenarios.
 
 Examples of approval workflows events include the creation of sales or purchase orders/quotes/invoices, price changes, vendor or customer edits, and more.
 

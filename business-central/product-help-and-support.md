@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 0df97fbafd160e932700b5f66de455d50ff8f645
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607723"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728580"
 ---
 # <a name="resources-for-help-and-support"></a>Resources for Help and Support
 
@@ -114,9 +114,13 @@ This section gives you shortcuts to Microsoft AppSource where you can find solut
 
 ### <a name="give-feedback"></a>Give feedback
 
-On the [Dynamics 365 Ideas site](https://aka.ms/bcideas), you can provide suggestions for new feature and capabilities. Your input goes directly to Business Central's engineering backlog for investigation and prioritisation.  
+Approximately once per quarter, the [!INCLUDE [prod_short](includes/prod_short.md)] team gathers feedback from our users about how satisfied they are with the product. In addition to ratings, you can also provide a written comment. By giving us specific and actionable comments, you help our engineering teams to prioritise the product improvements we invest in. You can also consent to be contacted about your comment. If you do, you'll be invited to a Teams meeting at a time that's convenient for you. You can provide product suggestions at any time on our [Dynamics 365 Ideas](https://aka.ms/bcideas) website.  
 
-Make sure that you search through the list of submitted suggestions. Chances are that someone already submitted something similar, and that entry might have already received votes. Vote if an idea already has been submitted to get it prioritised on the engineering backlog.  
+### <a name="product-suggestions"></a>Product suggestions
+
+On the [Dynamics 365 Ideas site](https://aka.ms/bcideas) website, you can provide suggestions for new features and capabilities. Your input goes directly into Business Central's engineering backlog for investigation and prioritisation.  
+
+Make sure that you search through the list of submitted suggestions. There's a chance that someone already submitted something similar, and that entry might have already received votes. Vote if an idea already has been submitted to get it prioritised on the engineering backlog.  
 
 ### <a name="troubleshooting"></a>Troubleshooting
 
