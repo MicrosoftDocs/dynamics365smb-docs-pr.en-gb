@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d2b4ac035f3c6336a5bc5646cbc0145bb671788a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 2cabd68e2ec22aaef4ad1f0b34305a95a2e93a5e
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529441"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744931"
 ---
 # <a name="setting-up-data-exchange"></a>Setting Up Data Exchange
 
@@ -35,6 +35,7 @@ Before you can send and receive electronic documents or import and export bank f
 |Set up user authentication and the URL of the AMC Banking 365 Fundamentals extension provider that is required to have bank files converted to your bank’s format.|[Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)|  
 |Set up and enable an external service that enables you to import bank statements directly as bank feeds.|[Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md)|  
 |After the Bank Statement service is enabled, link bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)]|[Set Up Bank Accounts](bank-how-setup-bank-accounts.md)|  
+|Set up data export for Intrastat reporting in [!INCLUDE[prod_short](includes/prod_short.md)].|[Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)|
 |Prepare to set up a new data exchange definition for a data file or stream by using the file’s XML schema to prefill the **Column Definitions** FastTab on the **Posting Exchange Definition** page.|[Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Set up the Data Exchange Framework to enable users to receive a new purchase document format, send a new sales document format, import a new bank file, or other data exchange.|[Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)|  
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 064780473eb98f4fde4d170f0aa5c16a998799af
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528482"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744769"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Troubleshooting Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -159,6 +159,23 @@ This problem can be caused by a various reasons. For example, the identity you a
 ## <a name="my-cards-no-longer-have-a-popout-button"></a>My cards no longer have a popout button
 
 As of April 2022, links that are displayed as compact card in Teams will no longer contain the **Popout** button. To open that card in its own window, choose the **Details** button, then choose **Open in browser** from the ellipses menu (**...**) in the upper right corner of the window.
+
+## <a name="cant-pin-a-card-to-tab"></a>Can't pin a card to tab
+
+There are couple reasons for this problem.
+
+- If the card was shared from Search ME, then it can't be pinned to a tab. 
+
+- Cannot pin until you add your first Business Central tab. This issue is known in Teams. 
+
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Someone added a tab, but the tab doesn’t show up for me
+
+This problem is because you don’t have the BC app for Teams installed. Only those with the app installed will see Business Central tabs.
+
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Others see different sorting or column layout than what the tab author sees
+
+This problem is likely because you shared a list view that is a personal view. In this case, work with your administrator to create either role-specific list views that covers the different roles in the channel/chat, or create this view for the whole organisation so that everyone can get a consistent view.
+
 
 ## <a name="see-also"></a>See Also
 
