@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: aac91da92b51831951bd890248d7f80f8bc5104d
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606124"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744712"
 ---
 # <a name="teams-faq"></a>Teams FAQ
 
@@ -145,6 +145,92 @@ If you want to participate in improving the app for Teams, or have an idea that 
 
 To learn about the functionality in the web client that links to Teams, see [Share Records and Page Links in Microsoft Teams](across-working-with-teams.md#share-link).
 
+## <a name="business-central-tabs"></a>[Business Central Tabs](#tab/tabs)
+
+### <a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-view"></a>Who can see the content of a tab?
+
+Any person in your chat or channel who has:
+
+1. The Business Central app for Teams installed.
+2. Either a Business Central licence or has been granted access to Business Central using their Microsoft 365 licence.
+3. Permissions to view the data on the page.
+
+### <a name="where-does-the-recommended-content-come-from"></a><a name=#recommended-content></a>Where does the recommended content come from?
+
+The recommended content that you can choose from in the **Tab content** option on a tab is based on your Role Centre. The recommend content only includes list pages, like Customers, Sales Orders, and Vendors - not indiviusla card page alike a specific customer or vendor.
+
+Specifically, recommended content includes:
+
+- Actions in the top navigation menu of the role centre
+- Any list pages you've bookmarked.
+- If a list page offers different views, including any views you created, you also get to choose from those views
+
+You can add list pages to the recommended content by adding bookmarks. You can also remove recommended content by deleting bookmarks. To learn how to add or delete bookmarks, see [Bookmark a Page or Report on Your Role Centre](ui-bookmarks.md).
+
+If you switch the environment or company on the tab option, the recommended content will be changed based on the Role Centre and bookmarks for the environment and company you switch to.
+
+
+
+### <a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a>When I create a tab, does it grant permissions to the people in the channel or chat?
+
+No. Creating tabs doesn't affect permissions, and users must already have permission to that data when they access the tab.
+
+### <a name="can-i-chat-alongside-a-tab"></a>Can I chat alongside a tab?
+
+Yes. Use the chat icon to start the conversation. This chat thread is then associated with the tab. 
+
+### <a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a>If I remove a tab from a chat or channel, is any Business Central data deleted?
+
+No.
+
+### <a name="can-i-safely-rename-a-tab"></a>Can I safely rename a tab?
+
+Yes. The contents of the tab are unrelated to the actual name of the tab. Rename at will! 
+
+### <a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a>I need to work across tasks in different windows. Can I do this?
+
+Yes. You can pop out the tab to its own browser window to show the Business Central web client. 
+
+### <a name="can-i-add-or-pin-tab-in-team-meetings"></a>Can I add or pin tab in Team meetings?
+
+No. The Business Central app for Teams doesn't support tabs in meetings.
+
+### <a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a>Can't add a tab if using ISV Urls like *.bc.dynamics.com (but can pin)
+
+Not supported.
+
+### <a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a>When I do things in the tab, like navigate, resort, apply a filter, or search, do others see my changes?
+
+No. Only field changes or running actions affect how others see the contents of the tab.
+
+### <a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a>Does the tab content refresh automatically? If not, how do I refresh it?
+
+The content doesn't refresh automatically, and these currently no refresh button. The best way to refresh the content to make sure it's up to data, leave the tab and then come back. 
+
+### <a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a>Does this show lists and records from my customisations and add-ons?
+
+Yes. 
+
+### <a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a>When I add a tab, will people see it in my language?
+
+No. Each user views the tab contents in the language, region, and timezone settings from Business Central. 
+
+### <a name="can-i-have-multiple-tabs-pointing-to-different-content"></a>Can I have multiple tabs pointing to different content?
+
+Yes.
+
+### <a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a>Can I also add tabs to chat with a single person?
+
+Yes, as long as the chat isn't a draft (that is, a message hasn't been sent to initiate that chat) and the other person has the Business Central app installed too.
+
+### <a name="can-i-switch-companies-within-a-tab"></a>Can I switch companies within a tab?
+
+No. 
+
+### <a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a>Is this different than using Teams' generic ability to create a tab that hosts a website?
+
+Yes. We don't recommend that you use approach. In many cases, it doesn't work for Business Central.
+
 ## <a name="search-for-contacts"></a>[Search for Contacts](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>Which tables does the app search in?
@@ -156,6 +242,7 @@ When searching for contacts from the [!INCLUDE [prod_short.md](includes/prod_sho
 As you type your search terms in the search box, the terms are matched against most fields in the **Contacts** table. The fields include, for example, the **No.**, **Name**, **Address**, **Phone No.** or **Mobile Phone No.**, and **Email** fields. 
 
 Search terms aren't matched against any custom fields added to the **Contacts** table by apps and extensions.
+
 ### <a name="do-search-results-include-companies-and-persons"></a>Do search results include companies and persons?
 
 Yes. In [!INCLUDE [prod_short.md](includes/prod_short.md)], contacts can be of type **Company** or type **Person**, where one or more persons may be associated with a company. In the search results, companies and persons have different icons.

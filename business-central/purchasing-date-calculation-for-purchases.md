@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: ''
-ms.date: 02/06/2022
+ms.date: 10/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: 515f95506bfae97ba0c66389d219751ea5b6896e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 54d3ce9c571973482fe1ba0fdb8cad76a87752c2
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530548"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744958"
 ---
 # <a name="calculate-dates-for-purchases"></a>Calculate Dates for Purchases
 
@@ -44,9 +44,9 @@ If you specify a requested receipt date on a purchase order line, that date is a
 > [!NOTE]
 > If your process is based on backward calculation, for example, if you use the requested receipt date to get the order date, we recommend that you use date formulas that have fixed durations, such as "5D" for five days or "1W" for one week. Date formulas without fixed durations, such as "CW" for current week or CM for current month, can result in incorrect date calculations. For more information about date formulas, see [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-delivery-date"></a>Calculating without a requested delivery date
+## <a name="calculating-without-a-requested-receipt-date"></a>Calculating without a requested receipt date
 
-If you enter a purchase order line without a requested delivery date, the **Order Date** field on the line shows the date in the **Order Date** field on the purchase order header. This date is either the date you entered or the work date. The dates are then calculated for the purchase order line, with the order date as the starting point, as follows:  
+If you enter a purchase order line without a requested receipt date, the **Order Date** field on the line shows the date in the **Order Date** field on the purchase order header. This date is either the date you entered or the work date. The dates are then calculated for the purchase order line, with the order date as the starting point, as follows:  
 
 - order date + lead time calculation = planned receipt date  
 - planned receipt date + inbound whse. handling time + safety lead time = expected receipt date  
