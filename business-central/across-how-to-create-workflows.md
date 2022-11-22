@@ -1,24 +1,24 @@
 ---
 title: Create Approval Workflows to Connect Tasks
-description: You can create workflows that connect business-process tasks performed by different users, and include system tasks, such as automatic posting, as workflow steps.
-author: SorenGP
+description: Learn how to create workflows that connect tasks performed by different people in business processes.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/08/2022
-ms.author: edupont
-ms.openlocfilehash: d2d9f3f91210b2a4d8d67890d01018565d8ef087
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.date: 11/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9586007"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763275"
 ---
-# <a name="create-workflows-to-connect-business-process-tasks"></a>Create Workflows to Connect Business-Process Tasks
+# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Create Workflows to Connect Tasks in Business Processes
 
-You can create workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  
+You can create workflows that connect tasks in business processes that are performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  
 
 On the **Workflow** page, create a workflow by listing the involved steps on the lines. Each step consists of a workflow event moderated by event conditions and a workflow response with response options. You define workflow steps by filling fields on workflow lines using fixed lists of event and response values representing scenarios supported by the application code.  
 
@@ -73,6 +73,9 @@ For both events and responses, the options are system-defined. New ones must be 
 
     1. To specify options for a workflow response that involves sending a notification, fill the fields as described in the following table.  
 
+    > [!NOTE]
+    > These fields vary, depending on the response you've chosen.
+
        |Field|Description|
        |-----|-----------|
        |**Notify Sender**|Specify if the approval requestor is notified instead of the approval request recipient. If you select the check box, the **Recipient User ID** field is disabled because the requestor of the approval, the sender, will be notified instead. The name of the workflow response changes accordingly, to **Create Notification for &lt;Sender&gt;**. If the check box isn't selected, the name of the workflow response is **Create Notification for &lt;User&gt;**.|
@@ -83,19 +86,19 @@ For both events and responses, the options are system-defined. New ones must be 
 
     2. To specify options for a workflow response that involves creating an approval request, fill the fields as described in the following table.  
 
-        |Field|Description|  
-        |-----|-----------|  
-        |**Due Date Formula**|Specify in how many days the approval request must be resolved from the date when it was sent.|
-        |**Delegate After**|Specify if and when an approval request is automatically delegated to the relevant substitute. You can select to automatically delegate one, two, or five days after the date when the approval was requested.|
-        |**Approver Type**|Specify who the approver is, according to the setup of approval users and workflow users. When the field is set to **Salesperson/Purchaser**, the user who is set up in the **Salespers./Purch. Code** field on the **Approval User Setup** page determines the approver. Approval request entries are then created according to the value in the **Approver Limit Type** field. Learn more at [Set Up Approval Users](across-how-to-set-up-workflow-users.md).|
-        |**Show Confirmation Message**|Specify if a confirmation message is shown to users after they request an approval.|
-        |**Approver Limit Type**|Specify how approver approval limits affect when approval request entries are created for them. A qualified approver is an approver whose approval limit is above the value on the request being made. The following options exist: <ol><li>**Approver Chain** specifies that approval request entries are created for all the requestor's approvers up to and including the first qualified approver</li><li>**Direct Approver** specifies that an approval request entry is only created for the requestor's immediate approver, regardless of the approver's approval limit.</li><li>**First Qualified Approver** specifies that an approval request entry is only created for the requestor's first qualified approver.</li></ol>|
+       |Field|Description|  
+       |-----|-----------|  
+       |**Due Date Formula**|Specify in how many days the approval request must be resolved from the date when it was sent.|
+       |**Delegate After**|Specify if and when an approval request is automatically delegated to the relevant substitute. You can select to automatically delegate one, two, or five days after the date when the approval was requested.|
+       |**Approver Type**|Specify who the approver is, according to the setup of approval users and workflow users. When the field is set to **Salesperson/Purchaser**, the user who is set up in the **Salespers./Purch. Code** field on the **Approval User Setup** page determines the approver. Approval request entries are then created according to the value in the **Approver Limit Type** field. Learn more at [Set Up Approval Users](across-how-to-set-up-workflow-users.md).|
+       |**Show Confirmation Message**|Specify if a confirmation message is shown to users after they request an approval.|
+       |**Approver Limit Type**|Specify how approver approval limits affect when approval request entries are created for them. A qualified approver is an approver whose approval limit is above the value on the request being made. The following options exist: <ol><li>**Approver Chain** specifies that approval request entries are created for all the requestor's approvers up to and including the first qualified approver</li><li>**Direct Approver** specifies that an approval request entry is only created for the requestor's immediate approver, regardless of the approver's approval limit.</li><li>**First Qualified Approver** specifies that an approval request entry is only created for the requestor's first qualified approver.</li><li>**Specific Approver** specifies that you notify the user chosen in the **Approver ID** field.</li></ol>|
     3. To specify options for a workflow response that involves creating journal lines, fill the fields as described in the following table.  
 
-        |Field|Description|  
-        |-----|-----------|  
-        |**General Journal Template Name**|Specify the name of the general journal template that the specified journal lines are created in.|  
-        |**General Journal Batch Name**|Specify the name of the general journal batch that the specified journal lines are created in.|  
+       |Field|Description|  
+       |-----|-----------|  
+       |**General Journal Template Name**|Specify the name of the general journal template that the specified journal lines are created in.|  
+       |**General Journal Batch Name**|Specify the name of the general journal batch that the specified journal lines are created in.|  
 
 11. Choose the **Increase Indent** and **Decrease Indent** buttons to indent the event name in the **When** field to define the step's position in the workflow.  
 
