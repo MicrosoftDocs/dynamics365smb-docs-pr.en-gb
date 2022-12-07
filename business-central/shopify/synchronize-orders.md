@@ -8,18 +8,22 @@ ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 3
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 2e79d19fd2fd03ec245c020cb9004809bccb5ec4
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: 70c401e072e742e508b8f623ae3242d8e647ccb6
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728337"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802938"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Synchronise and Fulfil Sales Orders
 
 This article describes the necessary settings and steps that you must complete to synchronise and fulfil sales orders with Shopify in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Set the import of orders on the Shopify Shop Card
+
+Enter a **currency code** if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty. 
+
+You can see Store Currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. Shopify can be configured to accept different currencies, however imported orders into [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
 
 A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want used for specific transaction types:
 
@@ -80,7 +84,7 @@ You can schedule the task to be performed in an automated manner. Learn more at 
 
 ## <a name="review-imported-orders"></a>Review imported orders
 
-Once the import is completed, you can explore the Shopify order and find all related information, such as the payment transactions, shipping costs, risk level, or fulfillments, if the order was already fulfilled in Shopify. You can also see any order confirmation that has been sent to the customer by choosing the **Shopify Status Page** action.
+Once the import is completed, you can explore the Shopify order and find all related information, such as the payment transactions, shipping costs, risk level, order attributes and tags, or fulfillments, if the order was already fulfilled in Shopify. You can also see any order confirmation that has been sent to the customer by choosing the **Shopify Status Page** action.
 
 > [!NOTE]  
 > You can navigate to the **Shopify Orders** window directly and you'll see orders with the *open* status from all shops. To review completed orders, you need to open the **Shopify Orders** page from the specific **Shopify Shop Card** window.
@@ -132,6 +136,7 @@ In Shopify:
 |Edit|Impact|
 |------|-----------|
 |Change the fulfillment location | Original location will be synched to [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Change the fulfillment location and register fulfillment in Shopify| If order was already imported, then lines won't be updated. Otherwise imported order will use Fulfillment location. |
 |Edit an order and change quantity| Order header and supplementary tables will be updated in [!INCLUDE[prod_short](../includes/prod_short.md)], lines won't. |
 |Edit an order and add new item | Order header will be updated, lines won't. |
 

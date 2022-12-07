@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
-ms.date: 09/19/2022
+ms.date: 11/29/2022
 ms.author: bholtorf
-ms.openlocfilehash: d265566e21388978f9ee7cba9372d3d337cbf97e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 058019ec9ce336b701c66c0de277ad57e73344da
+ms.sourcegitcommit: bcd3e5dcbb3d839f38f2321b7ef35d4a2ce492c1
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604895"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806007"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Assign Permissions to Users and Groups
 
@@ -140,9 +140,9 @@ Create a new permission set by copying another. The new set will include all of 
 2. On the **Permission Sets** page, choose the **New** Action.
 3. On a new line, fill in the fields as necessary.
 4. Choose the **Permissions** action.
-5. On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.
-
-    A recording process starts and captures all of your actions in the user interface.
+1. On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.  
+    Recording must be done either by using the **Open this page in a new windows** (pop-out) feature to have the **Permissions** recording window side-by-side, or by working within the same tab.  
+    A recording process now starts and captures all of your actions in the user interface.
 6. Go to the various pages and activities in [!INCLUDE[prod_short](includes/prod_short.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
 7. When you want to finish the recording, return to the **Permissions** page, and then choose the **Stop** action.
 8. Choose the **Yes** button to add the recorded permissions to the new permission set.

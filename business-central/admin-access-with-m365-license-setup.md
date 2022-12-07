@@ -9,18 +9,19 @@ ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.openlocfilehash: f509c0a8bf5e9320eb0f2712863984221b7138b9
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
+ms.search.forms: 9061
+ms.openlocfilehash: 3b3e7d42e077749bd4443506f7423dce03e9e82f
+ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9745021"
+ms.lasthandoff: 11/24/2022
+ms.locfileid: "9804426"
 ---
-# <a name="set-up-access-with-microsoft-365-licenses"></a>Set Up Access with Microsoft 365 Licences 
+# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Set Up Business Central Access in Teams with Microsoft 365 Licences
 
-Administrators must complete multiple activities before users can access Business Central with their Microsoft 365 licence. The steps below represent the minimum setup required to get started.  
+Administrators must complete multiple activities before users can access Business Central with their Microsoft 365 licence. The steps below represent the minimum setup required to get started. To learn more about access with Microsoft 365 licences, go to [Business Central Access with Microsoft 365 Licences](admin-access-with-m365-license.md).
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Deploy the Business Central app for Teams 
+## <a name="deploy-the-business-central-app-for-teams"></a>Deploy the Business Central app for Teams
 
 For Business Central licence holders to share data in Teams, and for Microsoft 365 licence holders to access that data, each must have the Business Central app for Teams installed. Although users can install the app by themselves, it's recommended that administrators use centralised deployment. Centralised deployment lets you roll out the app to a broader audience across the organisation and minimise individual user effort. 
 
@@ -43,8 +44,10 @@ To configure starting permissions:
 3. At the top of the **Microsoft 365** licence page, select the edit icon ![Edit icon](media/edit-pencil.png), then turn on **Customise permissions**. 
 4. In the **Custom Permission Sets** section, add the appropriate permission sets and choose whether they're applicable to a single company or all companies within the environment.
 
+With this configuration, users with only a Microsoft 365 licence are added to the **Users** list when they access Business Central for the first time. For more information about users, go to [Creating Users According to Licences](ui-how-users-permissions.md).
+
 > [!NOTE]
-> When synchronising the users list in Business Central with users in Microsoft 365, only users that have a Business Central licence are added to Business Central's users list. Users with only a Microsoft 365 licence are added to the users list when they access Business Central for the first time. Learn more at [Creating Users According to Licences](ui-how-users-permissions.md).
+> When synchronising the users list in Business Central with users in Microsoft 365, only users that have a Business Central licence are added to Business Central's users list. For more administrative control over permissions, user groups, and profiles, you can assign a security group to the environment. When environments are secured using a security group and enable access with Microsoft 365 licences, the **Update users from Microsoft 365** action in the **Users** page will also include users that only have a Microsoft 365 licence. To learn about securing environments, see [Manage access using Azure Active Directory groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) in the developer and IT pro help.
 
 > [!TIP]
 > Looking for a quicker way to get started when trying out this feature sandbox or evaluation company? Assign the **D365 Read** permission set, which grants permission to most objects.  
@@ -89,6 +92,6 @@ To verify that your setup is ready for production, the following steps will help
 
 ## <a name="see-also"></a>See also 
 
-[Business Central Access with Microsoft 365 licences](admin-access-with-m365-license.md#minimum-requirements)  
+[Overview of Business Central Access with Microsoft 365 licences](admin-access-with-m365-license.md#minimum-requirements)  
 [Troubleshoot Access with Microsoft 365 Licences](admin-access-with-m365-license-troubleshooting.md)  
 [Business Central and Microsoft Teams Integration](across-teams-overview.md)  

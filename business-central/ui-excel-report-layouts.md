@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 03/14/2022
+ms.date: 11/10/2022
 ms.author: jswymer
-ms.openlocfilehash: 2a46c6eab31e89da0956a7d847a64792b18a2fcd
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 790b354577dbb14d7fd0aa75db6e5158f09a5c89
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606945"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788268"
 ---
 # <a name="working-with-microsoft-excel-layouts"></a>Working with Microsoft Excel Layouts
 
@@ -133,8 +133,6 @@ In summary, this is what you should and shouldn't do on the **Data** sheet:
 - You can delete or hide columns.
 - Don't add any columns unless they're included in the report dataset.
 - You can place the sheets in any order, with the **Data** sheet first or last.
-
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>See also 
 

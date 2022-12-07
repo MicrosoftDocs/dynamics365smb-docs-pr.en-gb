@@ -8,12 +8,12 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 90144dfb2f84853f43ae85bf5a162f46cdb65286
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: a14e81932ab2cc02c691d6dfe8a9a1c4fe326410
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728391"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802964"
 ---
 # <a name="synchronize-items-and-inventory"></a>Synchronise Items and Inventory
 
@@ -64,8 +64,8 @@ The following table outlines the differences between options in the **SKU Mappin
 |**Item No.**|Choose if the SKU field contains the item number|No effect on the creation of an item without variants. For an item with variants, each variant is created as a separate item.<br>So, if Shopify has a product with two variants and their SKUs are '1000' and '2000', [!INCLUDE[prod_short](../includes/prod_short.md)] will create two items numbered '1000' and '2000'.|
 |**Variant Code**|The SKU field isn't used in the item mapping routine.|No effect on creation of the item. When an item variant is created, the value of the SKU field is used as a code. If the SKU is empty, a code is generated using the **Variant Prefix** field.|
 |**Item No. + Variant Code**|Select this if the SKU field contains an item number and the item variant code is separated by the value defined in the **SKU Field Separator** field.|When an item is created, the first part of the value of the SKU field is designated **No.**. If the SKU field is empty, an item number is generated using the number series defined in the **Item Template Code** or **Item Nos.** field of the **Inventory Setup** page.<br>When an item is created, the variant function uses the second part of the value of the SKU field as **Code**. If the SKU field is empty, a code is generated using the **Variant Prefix** field.|
-|**Vendor Item No.**|Choose if the SKU field contains the vendor item number. In this case, the **Item Vendor No.** isn't used on the **Item Card** page; rather the **Vendor Item No.** from the **Item Vendor Catalogue** is used. If the found *Item Vendor Catalogue* record contains a variant code, that code is used to map the Shopify variant.|If a corresponding vendor exists in [!INCLUDE[prod_short](../includes/prod_short.md)], the SKU value will be used as the **Vendor Item No.** on the **Item Card** page and as the **Item Reference** of the vendor type. <br>Prevents the creation of variants. It's useful when you want to use only the main item in the sales order. You're still able to map a variant manually from the **Shopify Product** page.|
-|**Barcode**|Choose if the SKU field contains a barcode. A search is performed among **Item References** of the vendor type. If the found item reference record contains a variant code, that variant code is used to map the Shopify variant.|No effect on the creation of the item. <br>Prevents the creation of variants. It's useful when you want to use only the main item in the sales order. You're still able to map a variant manually from the **Shopify Product** page.|
+|**Vendor Item No.**|Choose if the SKU field contains the vendor item number. In this case, the **Item Vendor No.** isn't used on the **Item Card** page; rather the **Vendor Item No.** from the **Item Vendor Catalogue** is used. If the found *Item Vendor Catalogue* record contains a variant code, that code is used to map the Shopify variant.|If a corresponding vendor exists in [!INCLUDE[prod_short](../includes/prod_short.md)], the SKU value will be used as the **Vendor Item No.** on the **Item Card** page and as the **Item Reference** of the *vendor* type. <br>Prevents the creation of variants. It's useful when you want to use only the main item in the sales order. You're still able to map a variant manually from the **Shopify Product** page.|
+|**Barcode**|Choose if the SKU field contains a barcode. A search is performed among **Item References** of the *barcode* type. If the found item reference record contains a variant code, that variant code is used to map the Shopify variant.|No effect on the creation of the item. <br>Prevents the creation of variants. It's useful when you want to use only the main item in the sales order. You're still able to map a variant manually from the **Shopify Product** page.|
 
 The following table outlines the effects of the **Barcode** field.
 
@@ -238,9 +238,18 @@ You can initialise inventory synchronisation in the two ways described below.
 
 ### <a name="inventory-remarks"></a>Inventory remarks
 
-* The connector calculates the **Projected Available Balance** and exports it to Shopify.
+* The connector calculates the **Projected Available Balance** at current date and exports it to Shopify.
 * You can inspect the stock information received from Shopify on the **Shopify Inventory FactBox** page. In this FactBox, you get an overview of the Shopify stock and the last calculated inventory in [!INCLUDE[prod_short](../includes/prod_short.md)]. There's one record per location.
 * If the stock information in Shopify is different than the **Projected Available Balance** in [!INCLUDE[prod_short](../includes/prod_short.md)], then the stock will be updated in Shopify.
+
+#### <a name="example-of-calculation-of-projected-available-balance"></a>Example of calculation of projected available balance
+
+There are 10 pieces of item A available on hand and two outstanding sales orders. One for Monday with quantity *One* and one for Thursday with quantity *Two*. Depending on when you sync inventory, the system will update stock level in Shopify with different quantities:
+
+|When sync inventory is run|Value used to update stock level|Comment|
+|------|-----------------|-----------------|
+|Tuesday|9|Inventory 10 minus sales order set to ship on Monday|
+|Friday|7|Inventory 10 minus both sales orders|
 
 ## <a name="see-also"></a>See also 
 

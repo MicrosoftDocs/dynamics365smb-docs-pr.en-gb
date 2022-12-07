@@ -8,39 +8,16 @@ ms.reviewer: solsen
 ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: b79691660ca84309057c3abab3d3a3df47271f58
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: bc3c5769a100909faedbfacce58bb1a2b146f5ad
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728418"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802991"
 ---
 # <a name="get-started-with-the-shopify-connector"></a>Get Started with the Shopify Connector
 
 Connect your Shopify store (or stores) with [!INCLUDE [prod_short](../includes/prod_short.md)] and maximise your business productivity. Manage and view insights from your business and your Shopify store as one unit.
-
-The Shopify connector includes the following capabilities:
-
-- Support for more than one Shopify shop.
-  - Each shop has its own setup, including a collection of products, locations used to calculate inventory, and price lists.  
-- Bi-directional synchronisation of items or products.
-  - The connector will sync images, item variants, barcodes, vendor item numbers, extended texts, and tags.  
-  - Export item attributes to Shopify.  
-  - Use selected customer price groups and discounts to define prices exported to Shopify.  
-  - Decide whether items can be created automatically or only allow updates to existing products.  
-- Synchronisation of inventory levels.
-  - Choose some or all of the available locations in [!INCLUDE [prod_short](../includes/prod_short.md)].  
-  - Update inventory levels on multiple locations in Shopify.  
-- Bi-directional synchronisation of customers.
-  - Smart-map customers by phone and email.  
-  - Use country-specific templates when creating customers, which helps ensure that tax settings are correct.  
-- Import of orders from Shopify.
-  - During the import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)] or decide to manage the customers in Shopify.  
-  - Include orders created in other channels, such as Shopify POS or Amazon.  
-  - Shipping costs, gift cards, tips, shipping and payment methods, transactions, and risk of fraud.  
-  - Receive payout information from Shopify Payments.  
-- Track fulfillment information.
-  - Optionally, choose to transfer item tracking information from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.  
 
 To use Shopify with [!INCLUDE [prod_short](../includes/prod_short.md)], you have to do a couple of things first. This article serves as a guide to integrate your Shopify store with [!INCLUDE [prod_short](../includes/prod_short.md)].
 
@@ -48,24 +25,19 @@ To use Shopify with [!INCLUDE [prod_short](../includes/prod_short.md)], you have
 
 You must have:
 
-- A Shopify account.
-- A Shopify online store.
+- A Shopify account
+- A Shopify online store
 
-To create a new Shopify account or sign-up for a free 14-day trial, go to [Shopify.com](https://www.shopify.com/). Learn more about how to create and personalise your online store at [Shopify Help Centre](https://help.shopify.com/).
-  
-Other sales channels are supported, for example, Shopify POS.
-
-### <a name="recommended-settings"></a>Recommended settings
-
-- Deactivate **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
-
-Learn more about Shopify settings for demo and trial scenarios at [Test and training scenarios](/dynamics365/business-central/dev-itpro/administration/admin-shopify-connector#preparation).
+For more information on how to create Shopify trials and recommended settings, go to [Creating and Setting Up Shopify Account](shopify-account.md).
 
 ## <a name="prerequisites-for-business-central"></a>Prerequisites for Business Central
 
 - Make sure that the **[Shopify Connector](https://go.microsoft.com/fwlink/?linkid=2196238)** app is installed.
 
-The app is pre-installed for all new sign-ups and trials. Learn more about installing apps from AppSource at [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#install). Follow the steps listed below if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
+  The app is pre-installed for all new sign-ups and trials. Learn more about installing apps from AppSource at [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#install). Follow the steps listed below if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+- Ensure that user has enough permissions. Shopify Connector is covered by the *Shopify – Admin (SHPFY – ADMIN)* permission set. Learn more at [Create Users According to Licences](../ui-how-users-permissions.md) and [Assign Permissions to Users and Groups](../ui-define-granular-permissions.md)
+
 
 ## <a name="install-the-dynamics-365-business-central-app-to-your-shopify-online-store"></a>Install the Dynamics 365 Business Central app to your Shopify online store
 
@@ -90,10 +62,14 @@ For existing [!INCLUDE[prod_short](../includes/prod_short.md)], this step is opt
 
 Repeat steps 2-6 for all online shops that you want to connect.
 
-> [!NOTE]
-> Make sure that your browser doesn't block pop-up windows. When you activate the **Enabled** toggle the system opens the **Waiting for a response - do not close this page** page, that is waiting for an access token from Shopify, if that page is closed or blocked - you cannot connect to Shopify. Learn more at [Request the access token](troubleshoot.md#request-the-access-token)
+### <a name="known-issues"></a>Known issues
 
-### <a name="next-steps"></a>Next steps
+- The browser blocks the pop-up window. When you activate the **Enabled** toggle the system opens the **Waiting for a response - do not close this page** page, that is waiting for an access token from Shopify, if that page is closed or blocked - you can't connect to Shopify. Learn more at [Request the access token](troubleshoot.md#request-the-access-token)
+- [Oauth error invalid_request: Could not find Shopify API application with api_key](troubleshoot.md#oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Can't connect from sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+
+
+## <a name="next-steps"></a>Next steps
 
 Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_short.md)]. In the next steps, you'll define how and what to synchronise.
 
@@ -103,4 +79,5 @@ Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_shor
 
 ## <a name="see-also"></a>See also 
 
-[Test and training scenarios](/dynamics365/business-central/dev-itpro/administration/admin-shopify-connector).
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
+

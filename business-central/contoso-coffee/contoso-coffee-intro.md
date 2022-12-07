@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 23ae8513cf14aa99f8ae1a437b0544c66bf5360e
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362114"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788265"
 ---
 # <a name="introduction-to-contoso-coffee-demo-data"></a>Introduction to Contoso Coffee Demo Data
 
@@ -26,13 +26,13 @@ The app provides four products that are optimised for different scenarios:
 
 - **SP-SCM1011 Airpot Duo**  
 
-  This product requires item tracking and has a component that also requires item tracking. The costing method is *Special*.  
+  This product requires item tracking and has a component that also requires item tracking. The costing method is *Specific*.  
 
 - **SP-SCM1004 Autodrip**  
 
   This product is a BOM with a subassembly, **Routing**. We recommend it to demonstrate the various flushing methods both for components and operations. The costing method is *Standard*.
 
-- **SP-SCM1008 AutoDripLite**
+- **SP-SCM1006 AutoDripLite**
 
   This product has three variants and three bills of material (BOMs) that can be assigned to stockkeeping units. The product uses the phantom BOM concept. The costing method is *Standard*.
 
