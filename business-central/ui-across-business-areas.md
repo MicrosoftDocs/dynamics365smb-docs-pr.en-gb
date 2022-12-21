@@ -1,21 +1,19 @@
 ---
 title: Using General Functionality Across Business Areas
 description: Learn about the functionality and features that are used across business areas in Business Central.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 09/19/2022
-ms.author: edupont
-ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 12/01/2022
+ms.custom: bap-template
+ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605908"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822499"
 ---
 # <a name="general-business-functionality"></a>General Business Functionality
 
@@ -43,7 +41,8 @@ The following table lists these general business areas with links to articles th
 |Post multiple sales or purchase documents together, immediately or as scheduled.|[Post Multiple Documents at the Same Time](ui-batch-posting.md)|  
 |Review the result of posting before you post.|[Preview Posting Results](ui-how-preview-post-results.md)|
 |Edit selected fields on posted sales or purchase documents.|[Edit Posted Documents](across-edit-posted-document.md)|
-| Understand the available status for quotes, orders, and credit memos documents, such as **Open** and **Released** | [Status Field on Documents](ui-document-status.md) |
+|Learn how to find documents and entries that are related to each other based on a piece of a document, contact, or item information. | [Find Related Entries for Documents](ui-find-entries.md) |
+|Understand the available status for quotes, orders, and credit memos documents, such as **Open** and **Released** | [Status Field on Documents](ui-document-status.md) |
 |Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Work with General Journals](ui-work-general-journals.md) |
 | Schedule a report to run at a specific date and time. |[Scheduling a Report to Run](ui-work-report.md#ScheduleReport) |
 |Let the system help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself.|[Letting Business Central Suggest Values](ui-let-system-suggest-values.md)|

@@ -11,12 +11,12 @@ ms.search.keywords: Posted document, editable, posted sales shipment, posted pur
 ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 3c8e4dde3ddf684f9402b98634cbc74c34058933
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ae59d920f4c560caff2bb545b1922bcd4bff65db
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519951"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822553"
 ---
 # <a name="edit-posted-documents"></a>Edit Posted Documents
 
@@ -49,12 +49,12 @@ The following explains how to edit a posted sales shipment. The steps are simila
 
 The posted sales shipment is updated.
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a>See also 
 
-[General Business Functionality](ui-across-business-areas.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
 [Posting Documents and Journals](ui-post-documents-journals.md)  
+[Find Related Entries for Documents](ui-find-entries.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[General Business Functionality](ui-across-business-areas.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
